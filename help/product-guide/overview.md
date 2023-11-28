@@ -5,3 +5,7 @@ description: Find product documentation for Experience Manager Guides (formerly 
 # [!DNL Adobe Experience Manager Guides] Overview
 
 Placeholder
+
+Hidden from search
+
+Content to be migrated from experience-manager-guides-learn.en on Dec. 4
