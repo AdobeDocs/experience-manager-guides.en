@@ -8,4 +8,4 @@ Placeholder
 
 Hidden from search
 
-Content to be migrated from experience-manager-guides-learn.en on Dec. 4
+Content to be migrated from experience-manager-guides-learn.en on Dec. 4, 2023.
