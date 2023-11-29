@@ -6,6 +6,6 @@ description: Find product documentation for Experience Manager Guides (formerly 
 
 Placeholder
 
-Hidden from search
+Hidden from search for now.
 
 Content to be migrated from experience-manager-guides-learn.en on Dec. 4, 2023.
