@@ -19,15 +19,15 @@ With [!DNL AEM Guides] solution, enterprises can deliver seamless and personaliz
 
 * **[[!DNL AEM Guides] Getting Started tutorial](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target=_blank}**
 
-    _Learn how to create, organize, author and publish content with [!DNL Adobe Experience Manager Guides]._
+  _Learn how to create, organize, author and publish content with [!DNL Adobe Experience Manager Guides]._
 
 * **[[!DNL AEM Guides] Authoring in the built-in Web Editor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target=_blank}**
 
-    _Learn how to author content using the native Web Editor in  [!DNL Adobe Experience Manager Guides]. Gain complete understanding of user preferences, editor settings, configuration, toolbars and more._
+  _Learn how to author content using the native Web Editor in  [!DNL Adobe Experience Manager Guides]. Gain complete understanding of user preferences, editor settings, configuration, toolbars and more._
 
 * **[Output Generation with [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target=_blank}**
 
-    _Learn how to generate output using [!DNL Adobe Experience Manager Guides]. Learn about various features available for output generation - reports, baselines, conditions, troubleshooting, bulk publishing and activation._
+  _Learn how to generate output using [!DNL Adobe Experience Manager Guides]. Learn about various features available for output generation - reports, baselines, conditions, troubleshooting, bulk publishing and activation._
 
 
 <!--
