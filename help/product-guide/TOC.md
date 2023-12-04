@@ -1,10 +1,10 @@
 ---
-user-guide-title: Tutorials for AEM Guides
-user-guide-description: Read our collection of tutorials for Adobe Experience Manager Guides.
-breadcrumb-title: AEM Guides Tutorials
+user-guide-title: Experience Manager Guides
+user-guide-description: Read product documentation for Adobe Experience Manager Guides.
+breadcrumb-title: AEM Guides
 ---
   
-# Tutorials for [!DNL Adobe Experience Manager Guides] {#tutorials}
+# [!DNL Adobe Experience Manager Guides] {#using}
 
 + [Tutorials for [!DNL AEM Guides]](overview.md)
 + [Disclaimer](./user-guide/rebranding-disclaimer.md)
