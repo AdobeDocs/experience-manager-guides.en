@@ -7,7 +7,7 @@ type: Documentation
 solution: Experience Manager, Experience Manager Guides
 feature-set: Experience Manager Guides
 role: User
-hide: yes
+index: yes
 ---
 
 # Metadata for internal use
