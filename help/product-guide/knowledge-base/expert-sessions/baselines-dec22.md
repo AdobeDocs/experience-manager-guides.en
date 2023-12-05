@@ -34,9 +34,9 @@ In this session, you learn about the following:
 ## Related resources 
 
 - **Feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en) 
- 
-- **User Guide** - [Work with baseline](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
- 
+
+- **User Guide** - [Work with baseline](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md)
+
 - **Community Forum** - For session-specific community interactions on Experience League, visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
  
 >[!NOTE]

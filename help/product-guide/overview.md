@@ -82,9 +82,11 @@ Dummy links cause validation to fail
 
 -->
 
+<!--
 
 ## Additional Resources
 
 * [[!DNL AEM Guides] Online User Guide](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
 * [[!DNL AEM Guides] PDF Guides](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
+-->
