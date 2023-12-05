@@ -1,6 +1,6 @@
 ---
 title: Download and install
-description: Learn how to Download and install
+description: Learn how to download and install AEM Guides
 exl-id: 40ea0510-b25e-4180-b076-c4f771071dda
 ---
 # Download and install {#id1645E0O04MK}
