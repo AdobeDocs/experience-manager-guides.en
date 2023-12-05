@@ -35,13 +35,14 @@ In this session, you learn about the following:
 
 - **Feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
  
-- **User Guide** - [Translate content](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
+- **User Guide** - [Translate content](/help/product-guide/install-guide/translation.md)
  
 - **Community Forum** - For session-specific community interactions on Experience League, visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
  
 >[!NOTE]
 >
 > The features shown in this session are available on the following versions of AEM Guides:
+>
 > - On-prem 4.1 or later 
 > - Cloud Services 2207 or later
 

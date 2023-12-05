@@ -11,6 +11,7 @@ In an organizational setup, you want to verify the overall completeness of your 
 ## Session overview
 
 In this session, we showed out-of-the-box reports available for users. We broadly covered following:
+
 - Document (map) and topic reports
 - Metadata reports and bulk metadata management options
 - Content reuse reports
@@ -34,6 +35,7 @@ In this session, we showed out-of-the-box reports available for users. We broadl
 ## Key takeaways
 
 In this session, you learnt about the following:
+
 - Importance of reports in CCMS
 - available out of the box reports
 - examples of reporting on content
@@ -45,13 +47,14 @@ In this session, you learnt about the following:
 
 - **Feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en) 
  
-- **User Guide** - [Author content](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **User Guide** - [Author content](/help/product-guide/user-guide/reports-intro.md)
  
 - **Community Forum** - For session-specific community interactions on Experience League, visit  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > The features shown in this session are available on the following versions of AEM Guides:
+>
 > - On-prem: 4.2 or later
 > - Cloud Services: 2302 or later
 

@@ -11,9 +11,9 @@ The amount of content you manage within a system, to support varied types of doc
 ## Session overview
 
 In this session, we broadly covered following:
+
 - different aspects of content setup (categorization, classification, metadata)
 - setting up content template (topic templates, map templates, snippets)
-
 
 
 ## Session recording
@@ -32,6 +32,7 @@ In this session, we broadly covered following:
 ## Key takeaways
 
 In this session, you learnt about the following:
+
 - Spending time to analyze and think before importing/creating content 
 - Classifying and categorizing the content to cater to different user segments (end users or author)
 - Leveraging metadata capabilities to enhance user productivity
@@ -45,13 +46,14 @@ In this session, you learnt about the following:
 
 - **Feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html) 
  
-- **User Guide** - [Author content](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **User Guide** - [Author content](/help/product-guide/user-guide/reports-intro.md)
  
 - **Community Forum** - For session-specific community interactions on Experience League, visit  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > The features shown in this session are available on the following versions of AEM Guides:
+>
 > - On-prem: 4.2 or later
 > - Cloud Services: 2303 or later
 
