@@ -14,33 +14,33 @@ breadcrumb-title: AEM Guides Guide
     + Cloud Services {#cloud-release-notes}
       + [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       + 2023 Releases {#2023-releases}
-        + December Release {#2312-release}      
-            + [What's new](./release-info/whats-new-2023.12.0.md)
-            + [Release Notes](./release-info/release-notes-2023.12.0.md)
-        + November Release {#2311-release}      
-            + [What's new](./release-info/whats-new-2023.11.0.md)
-            + [Release Notes](./release-info/release-notes-2023.11.0.md)
-        + October Release {#2310-release}      
-            + [What's new](./release-info/whats-new-2023.10.0.md)
-            + [Release Notes](./release-info/release-notes-2023.10.0.md)
-        + September Release {#2309-release}      
-            + [What's new](./release-info/whats-new-2023.9.0.md)
-            + [Release Notes](./release-info/release-notes-2023.9.0.md)
-        + July Release {#2307-release}      
-            + [What's new](./release-info/whats-new-2023.7.0.md)
-            + [Release Notes](./release-info/release-notes-2023.7.0.md)
-        + June Release {#2306-release}      
-            + [What's new](./release-info/whats-new-2023.6.0.md)
-            + [Release Notes](./release-info/release-notes-2023.6.0.md)
+        + December Release {#2312-release}
+          + [What's new](./release-info/whats-new-2023.12.0.md)
+          + [Release Notes](./release-info/release-notes-2023.12.0.md)
+        + November Release {#2311-release}
+          + [What's new](./release-info/whats-new-2023.11.0.md)
+          + [Release Notes](./release-info/release-notes-2023.11.0.md)
+        + October Release {#2310-release}
+          + [What's new](./release-info/whats-new-2023.10.0.md)
+          + [Release Notes](./release-info/release-notes-2023.10.0.md)
+        + September Release {#2309-release}
+          + [What's new](./release-info/whats-new-2023.9.0.md)
+          + [Release Notes](./release-info/release-notes-2023.9.0.md)
+        + July Release {#2307-release}
+          + [What's new](./release-info/whats-new-2023.7.0.md)
+          + [Release Notes](./release-info/release-notes-2023.7.0.md)
+        + June Release {#2306-release}
+          + [What's new](./release-info/whats-new-2023.6.0.md)
+          + [Release Notes](./release-info/release-notes-2023.6.0.md)
         + April Release {#2304-release}
-             + [What's new](./release-info/whats-new-2023.4.0.md)
-             + [Release Notes](./release-info/release-notes-2023.4.0.md)    
+          + [What's new](./release-info/whats-new-2023.4.0.md)
+          + [Release Notes](./release-info/release-notes-2023.4.0.md)    
         + March Release {#2303-release}
-            + [What's new](./release-info/whats-new-2023.3.0.md)
-            + [Release Notes](./release-info/release-notes-2023.3.0.md)  
+          + [What's new](./release-info/whats-new-2023.3.0.md)
+          + [Release Notes](./release-info/release-notes-2023.3.0.md)  
         + February Release {#2302-release}
-            + [What's new](./release-info/whats-new-2023.2.0.md)
-            + [Release Notes](./release-info/release-notes-2023.2.0.md)      
+          + [What's new](./release-info/whats-new-2023.2.0.md)
+          + [Release Notes](./release-info/release-notes-2023.2.0.md)      
       + 2022 Releases {#2022-releases}
         + [November release notes](./release-info/release-notes-2022.11.0.md) 
         + [October release notes](./release-info/release-notes-2022.10.0.md) 
@@ -76,10 +76,10 @@ breadcrumb-title: AEM Guides Guide
       + [How [!DNL AEM Guides] works](./user-guide/intro-how-dxml-works.md)
       + [Key [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
   + Manage Content {#manage-content}
-      + [Key concepts, roles and permissions, and pre-requisites](./user-guide/authoring.md)
-      + [Upload files](./user-guide/authoring-upload-existing-files.md)
-      + [Manage files and folders](./user-guide/authoring-file-management.md)
-      + [Download files](./user-guide/authoring-download-assets.md)
+    + [Key concepts, roles and permissions, and pre-requisites](./user-guide/authoring.md)
+    + [Upload files](./user-guide/authoring-upload-existing-files.md)
+    + [Manage files and folders](./user-guide/authoring-file-management.md)
+    + [Download files](./user-guide/authoring-download-assets.md)
   + Author Content {#author-content}
     + [Authoring overview](./user-guide/authoring-content.md)
     + Topic creation and preview {#create-preview-topics}
