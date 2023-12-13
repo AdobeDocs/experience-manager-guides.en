@@ -1,12 +1,12 @@
 ---
-user-guide-title: Experience Manager Guides
-user-guide-description: Read product documentation for Adobe Experience Manager Guides.
-breadcrumb-title: AEM Guides Guide
+user-guide-title: Tutorials for AEM Guides
+user-guide-description: Read our collection of tutorials for Adobe Experience Manager Guides.
+breadcrumb-title: AEM Guides Tutorials
 ---
+  
+# Tutorials for [!DNL Adobe Experience Manager Guides] {#tutorials}
 
-# [!DNL Adobe Experience Manager Guides] {#using}
-
-+ [[!DNL AEM Guides] overview](overview.md)
++ [Tutorials for [!DNL AEM Guides]](overview.md)
 + [Disclaimer](./user-guide/rebranding-disclaimer.md)
 + Release Information {#release-info}
   + [[!DNL AEM Guides] releases](./release-info/latest-release-info.md) 
@@ -14,33 +14,33 @@ breadcrumb-title: AEM Guides Guide
     + Cloud Services {#cloud-release-notes}
       + [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       + 2023 Releases {#2023-releases}
-        + December Release {#2312-release}
-          + [What's new](./release-info/whats-new-2023.12.0.md)
-          + [Release Notes](./release-info/release-notes-2023.12.0.md)
-        + November Release {#2311-release}
-          + [What's new](./release-info/whats-new-2023.11.0.md)
-          + [Release Notes](./release-info/release-notes-2023.11.0.md)
-        + October Release {#2310-release}
-          + [What's new](./release-info/whats-new-2023.10.0.md)
-          + [Release Notes](./release-info/release-notes-2023.10.0.md)
-        + September Release {#2309-release}
-          + [What's new](./release-info/whats-new-2023.9.0.md)
-          + [Release Notes](./release-info/release-notes-2023.9.0.md)
-        + July Release {#2307-release}
-          + [What's new](./release-info/whats-new-2023.7.0.md)
-          + [Release Notes](./release-info/release-notes-2023.7.0.md)
-        + June Release {#2306-release}
-          + [What's new](./release-info/whats-new-2023.6.0.md)
-          + [Release Notes](./release-info/release-notes-2023.6.0.md)
+        + December Release {#2312-release}      
+            + [What's new](./release-info/whats-new-2023.12.0.md)
+            + [Release Notes](./release-info/release-notes-2023.12.0.md)
+        + November Release {#2311-release}      
+            + [What's new](./release-info/whats-new-2023.11.0.md)
+            + [Release Notes](./release-info/release-notes-2023.11.0.md)
+        + October Release {#2310-release}      
+            + [What's new](./release-info/whats-new-2023.10.0.md)
+            + [Release Notes](./release-info/release-notes-2023.10.0.md)
+        + September Release {#2309-release}      
+            + [What's new](./release-info/whats-new-2023.9.0.md)
+            + [Release Notes](./release-info/release-notes-2023.9.0.md)
+        + July Release {#2307-release}      
+            + [What's new](./release-info/whats-new-2023.7.0.md)
+            + [Release Notes](./release-info/release-notes-2023.7.0.md)
+        + June Release {#2306-release}      
+            + [What's new](./release-info/whats-new-2023.6.0.md)
+            + [Release Notes](./release-info/release-notes-2023.6.0.md)
         + April Release {#2304-release}
-          + [What's new](./release-info/whats-new-2023.4.0.md)
-          + [Release Notes](./release-info/release-notes-2023.4.0.md)    
+             + [What's new](./release-info/whats-new-2023.4.0.md)
+             + [Release Notes](./release-info/release-notes-2023.4.0.md)    
         + March Release {#2303-release}
-          + [What's new](./release-info/whats-new-2023.3.0.md)
-          + [Release Notes](./release-info/release-notes-2023.3.0.md)  
+            + [What's new](./release-info/whats-new-2023.3.0.md)
+            + [Release Notes](./release-info/release-notes-2023.3.0.md)  
         + February Release {#2302-release}
-          + [What's new](./release-info/whats-new-2023.2.0.md)
-          + [Release Notes](./release-info/release-notes-2023.2.0.md)      
+            + [What's new](./release-info/whats-new-2023.2.0.md)
+            + [Release Notes](./release-info/release-notes-2023.2.0.md)      
       + 2022 Releases {#2022-releases}
         + [November release notes](./release-info/release-notes-2022.11.0.md) 
         + [October release notes](./release-info/release-notes-2022.10.0.md) 
@@ -76,12 +76,12 @@ breadcrumb-title: AEM Guides Guide
       + [How [!DNL AEM Guides] works](./user-guide/intro-how-dxml-works.md)
       + [Key [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
   + Manage Content {#manage-content}
-    + [Key concepts, roles and permissions, and pre-requisites](./user-guide/authoring.md)
-    + [Upload files](./user-guide/authoring-upload-existing-files.md)
-    + [Manage files and folders](./user-guide/authoring-file-management.md)
-    + [Download files](./user-guide/authoring-download-assets.md)
+      + [Key concepts, roles and permissions, and pre-requisites](./user-guide/authoring.md)
+      + [Upload files](./user-guide/authoring-upload-existing-files.md)
+      + [Manage files and folders](./user-guide/authoring-file-management.md)
+      + [Download files](./user-guide/authoring-download-assets.md)
   + Author Content {#author-content}
-    + [Authoring overview](./user-guide/authoring-content.md)
+    + [Overview](./user-guide/authoring-content.md)
     + Topic creation and preview {#create-preview-topics}
       + [Create and preview topics](./user-guide/create-preview-topics.md)
       + [Create topics](./user-guide/web-editor-create-topics.md)
@@ -149,6 +149,7 @@ breadcrumb-title: AEM Guides Guide
     + Output presets in AEM Guides {#output-presets-aemg}
       + [AEM Site](./user-guide/generate-output-aem-site.md)
       + [PDF](./user-guide/generate-output-pdf.md)
+      + [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
       + [HTML5](./user-guide/generate-output-html5.md)
       + [EPUB](./user-guide/generate-output-epub.md)
       + [Custom](./user-guide/generate-output-custom.md)
@@ -163,7 +164,7 @@ breadcrumb-title: AEM Guides Guide
     + [Use Map Collection for output generation](./user-guide/generate-output-use-map-collection-output-generation.md)
     + Use native PDF publishing feature {#web-editor}
       + [Publish PDF output](./web-editor/native-pdf-web-editor.md) 
-      + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
+     + [Configure additional special characters](./web-editor/configure-additional-special-characters.md) 
     + [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
     + [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
     + [Publish to a content fragment](./user-guide/publish-content-fragment.md)
@@ -189,11 +190,11 @@ breadcrumb-title: AEM Guides Guide
     + [Content Reuse Report](./user-guide/reports-content-reuse.md)
     + [Conversion Status Report](./user-guide/reports-convertion-status.md)
     + [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md)
-+ Installation and configuration {#install-guide}
++ Installation and configuration Guide {#install-guide}
   + On-premise {#on-prem-ig}
-    + [On-premise basics](./install-guide/introduction.md)
+    + [About this guide](./install-guide/introduction.md)
     + Download, install, and upgrade {#download-install-upgrade-aemg}
-      + [Download and installation overview](./install-guide/download-install.md)
+      + [Overview](./install-guide/download-install.md)
       + [Technical requirements](./install-guide/download-install-technical-requirements.md)
       + [Install Adobe Experience Manager](./install-guide/download-install-aem.md)
       + [Download and install AEM Guides for the first time](./install-guide/download-install-aemg-first-time.md)
@@ -207,8 +208,8 @@ breadcrumb-title: AEM Guides Guide
     + Content migration {#content-migration}
       + [Non-UUID to UUID content migration](./install-guide/migrate-uuid-non-uuid.md)
       + Migration process {#migration-process}
-        + [Migrate non-UUID content with versions](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-        + [Migrate non-UUID content without versions](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+          + [Migrate non-UUID content with versions](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+          + [Migrate non-UUID content without versions](./install-guide/migrate-non-uuid-uuid-without-versions.md)
       + [Migrate existing content](./install-guide/migrate-content.md)
       + [Upload existing DITA content](./install-guide/migrate-content-upload-existing-dita-content.md)
       + [Migrate non-DITA content](./install-guide/migrate-content-non-dita.md)
@@ -269,7 +270,7 @@ breadcrumb-title: AEM Guides Guide
             + [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
             + [Apply styles to footnotes](./native-pdf/footnote-number-style.md)
       + [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
-      + [Create a mapping between a topic and a content fragment](./install-guide/conf-content-fragment-mapping.md)  
+       + [Create a mapping between a topic and a content fragment](./install-guide/conf-content-fragment-mapping.md)  
     + Work with custom workflows {#custom-workflow}
       + [Configure and customize workflows](./install-guide/customize-workflows.md)
     + Work with translation configurations {#translate-config}
@@ -280,32 +281,32 @@ breadcrumb-title: AEM Guides Guide
   + Cloud Services {#cs-ig}
     + [About this guide](./cs-install-guide/introduction.md)
     + Deploy and configure AEM Guides as Cloud Service {#deploy-conf-aemg-cs}
-      + [Download and install](./cs-install-guide/download-install.md)
-      + [Deploy AEM Guides module](./cs-install-guide/download-install-dxml-first-time.md)
-      + [Configure Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
-      + [Verify AEM Guides installation](./cs-install-guide/download-install-verify-dxml-installation.md)
-      + [Upgrade AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
-      + [Configuration overrides](./cs-install-guide/download-install-additional-config-override.md)
-      + [Recommendations for performance optimization](./cs-install-guide/download-install-recommend-perf-optimiz.md)
+      +   [Download and install](./cs-install-guide/download-install.md)
+      +   [Deploy AEM Guides module](./cs-install-guide/download-install-dxml-first-time.md)
+      +   [Configure Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
+      +   [Verify AEM Guides installation](./cs-install-guide/download-install-verify-dxml-installation.md)
+      +   [Upgrade AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
+      +   [Configuration overrides](./cs-install-guide/download-install-additional-config-override.md)
+      +   [Recommendations for performance optimization](./cs-install-guide/download-install-recommend-perf-optimiz.md)
     + Work with user groups and security {#user-group-sec-cs}
-      + [User administration and security](./cs-install-guide/user-admin-sec.md)
+      +   [User administration and security](./cs-install-guide/user-admin-sec.md)
     + Content migrate {#migrate-con-cs}
-      + [Migrate existing content](./cs-install-guide/migrate-content.md)
-      + [Upload existing DITA content](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
-      + [Migrate non-DITA content](./cs-install-guide/migrate-content-non-dita.md)
+      +   [Migrate existing content](./cs-install-guide/migrate-content.md)
+      +   [Upload existing DITA content](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
+      +   [Migrate non-DITA content](./cs-install-guide/migrate-content-non-dita.md)
     + Work with custom DITA-OT and specialization {#custom-dita-ot-spec-cs}
-      + [Use custom DITA-OT and DITA specialization](./cs-install-guide/dita-ot-specialization.md) 
+      +   [Use custom DITA-OT and DITA specialization](./cs-install-guide/dita-ot-specialization.md) 
     + Configure UUID and non-UUID based filenames {#conf-non-uuid-filename-cs}
-      + [Configure filenames](./cs-install-guide/conf-file-names.md)
-      + [Configure auto-filenames based on UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
-      + [Configure Regx for valid file name characters](./cs-install-guide/conf-file-names-valid-regx.md)
-      + [Configure valid file names for AEM Site output](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      +   [Configure filenames](./cs-install-guide/conf-file-names.md)
+      +   [Configure auto-filenames based on UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
+      +   [Configure Regx for valid file name characters](./cs-install-guide/conf-file-names-valid-regx.md)
+      +   [Configure valid file names for AEM Site output](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
     + Work with topic and map templates {#topic-map-template-cs}
-      + [Configure topic and map templates](./cs-install-guide/conf-template-tags.md)
-      + [Configure custom DITA topic template](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
-      + [Configure custom DITA map template](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
+      +   [Configure topic and map templates](./cs-install-guide/conf-template-tags.md)
+      +   [Configure custom DITA topic template](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
+      +   [Configure custom DITA map template](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
     + Work with document states {#doc-state-cs}
-       + [Configure document states](./cs-install-guide/customize-doc-state.md)
+       +   [Configure document states](./cs-install-guide/customize-doc-state.md)
     + Work with the Web Editor configurations {#web-editor-configs-cs}
       + [Customize Web Editor](./cs-install-guide/conf-web-editor.md)
       + [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
@@ -329,21 +330,21 @@ breadcrumb-title: AEM Guides Guide
       + [Set the Advanced Map Editor as default](./cs-install-guide/conf-map-editor.md)
       + [Include @navtitle attribute by default](./cs-install-guide/auto-add-navtitle.md)
     + Work with global and folder-level profiles {#global-folder-profiles-cs}
-      + [Configure global or folder-level profiles](./cs-install-guide/conf-folder-level.md)
+      +   [Configure global or folder-level profiles](./cs-install-guide/conf-folder-level.md)
     + Configure versions {#version-mgt-cs}
-      + [Version management](./cs-install-guide/version-management.md)
+      +   [Version management](./cs-install-guide/version-management.md)
     + Work with output generation settings {#output-gen-config-cs} 
-      + [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
+      +   [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
       + [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md) 
       + [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       + [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)  
     + Work with custom workflows {#custom-workflow-cs}
-      + [Configure and customize workflows](./cs-install-guide/customize-workflows.md)
+      +   [Configure and customize workflows](./cs-install-guide/customize-workflows.md)
     + Work with translation configurations {#translate-config-cs}
-      + [Translate content](./cs-install-guide/translation.md)
+      +   [Translate content](./cs-install-guide/translation.md)
     + Work with AEM Assets search {#aem-asset-search-cs}
-      + [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
-    + [Appendix](./cs-install-guide/appendix.md)
+      +   [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
+    +   [Appendix](./cs-install-guide/appendix.md)
 + API Reference {#api-reference}
   + [Introduction](./api-reference/introduction.md)
   + [REST APIs for Output management](./api-reference/output-management.md)
@@ -399,3 +400,4 @@ breadcrumb-title: AEM Guides Guide
       + [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
       + [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
   + [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
+

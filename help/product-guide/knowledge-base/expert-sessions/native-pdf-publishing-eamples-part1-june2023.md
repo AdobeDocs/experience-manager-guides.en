@@ -25,7 +25,6 @@ In this session, with help of some examples you will learn how to utilize featur
 ## Key takeaways
 
 In this session, you learnt about following for Native PDF publishing:
-
 - Enabling basic features like MathML, watermark, track changes
 - Using custom fonts 
 - Using metadata from DITA XML in the PDF output
@@ -35,24 +34,23 @@ In this session, you learnt about following for Native PDF publishing:
  
 ## Related resources 
 
-- **Native PDF setup steps** - [Experience League](/help/product-guide/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md) 
+- **Native PDF setup steps** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en) 
+ 
+- **Functional overview of Native PDF publishing** - [on Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Functional overview of Native PDF publishing** - [on Experience League](/help/product-guide/knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
-
-- **Documented common use cases** - [on Experience League](/help/product-guide/native-pdf/stylesheet.md)
+- **Documented common use cases** - [on Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
  
 - **Community Forum** - For session-specific community interactions on Experience League, visit  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > The features shown in this session are available on the following versions of AEM Guides:
->
 > - On-prem 4.2 or later
 > - Cloud Services 2303 and later
 
 ## Next expert session 
 
-- **Topic** - Native PDF publishing "Hands on lab - BYOS" – Interactive learning
+- **Topic** - Native PDF publishing “Hands on lab - BYOS” – Interactive learning
 - **Scheduled on** - September 07, 2023
 
 ## Contact us

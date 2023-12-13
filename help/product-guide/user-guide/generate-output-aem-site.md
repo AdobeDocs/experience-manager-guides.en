@@ -9,7 +9,7 @@ The following options are available for the AEM Site output:
 
 You can create the AEM site preset in two ways:
 
-**From the Web Editor:** In the Repository panel, open the DITA map file in Map View, then in the Output tab, select the + icon to create an output preset, and then select AEM Site from the type drop-down in the Add preset dialog.In the Web editor the configurations have been organized under General and Advanced tabs:
+**From the Web Editor:** In the Repository panel, open the DITA map file in Map View, then in the Output tab, select the + icon to create an output preset, and then select AEM Site from the type drop-down in the Add preset dialog. In the Web editor the configurations have been organized under General and Advanced tabs:
 
 **General**
 
@@ -72,7 +72,7 @@ You can generate the AEM Site output for one or more topics, or the entire DITA 
 
 It is a very common scenario to have a large set of documentation spread across multiple folders and DITA maps. It becomes extremely complex to publish content that is linked from various places. By default, all links `<xref>` are created with the `local` `@scope`. Publishing such topics does not involve any challenge, as it uses direct link to the topic. In case the topic is outside the current DITA map, the link does not show the linked content.
 
-Another way of linking content is to create a link using the `peer` `@scope`. For such content, the link is resolved at run-time by picking the configured context for the linked topic from the DITA map's publishing context. The following screenshot shows the Properties panel for a link that has the `peer` `@scope`:
+Another way of linking content is to create a link using the `peer` `@scope`. For such content, the link is resolved at run-time by picking the file's title and the configured context for the linked topic from the DITA map's publishing context. The following screenshot shows the Properties panel for a link that has the `peer` `@scope`:
 
 ![](images/peer-link-scope-link.png){width="800" align="left"}
 

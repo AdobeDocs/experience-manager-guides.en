@@ -10,9 +10,9 @@ Article helps you in setting up and running FMPS with AEM Guides.
 
 ## Compatibility of FMPS with AEM Guides
 
-- Compatibility with 4.1 AEM Guides: [4.1 compatibility matrix ](/help/product-guide/release-info/release-notes-4.1.md#compatibility-matrix)
-- Compatibility with 4.0 AEM Guides: [4.0 compatibility matrix](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- Latest Release: [Latest release info](/help/product-guide/release-info/latest-release-info.md)
+-   Compatibility with 4.1 AEM Guides: [4.1 compatibility matrix ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+-   Compatibility with 4.0 AEM Guides: [4.0 compatibility matrix](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
+-   Latest Release: [Latest release info](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Installation
 

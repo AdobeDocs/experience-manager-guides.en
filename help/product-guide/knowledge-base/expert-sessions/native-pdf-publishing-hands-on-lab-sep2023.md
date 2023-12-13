@@ -1,9 +1,9 @@
 ---
-title: Native PDF publishing "Hands on lab - BYOS" – Interactive learning
+title: Native PDF publishing “Hands on lab - BYOS” – Interactive learning
 description: This 'Hands-on Lab - BYOS' session offers an in-depth exploration of Native PDF publishing. Explore different use cases, leverage key features, and engage directly with Adobe experts to address your specific problem statements and requirements.
 exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
 ---
-# Native PDF publishing "Hands on lab - BYOS" – Interactive learning
+# Native PDF publishing “Hands on lab - BYOS” – Interactive learning
 
 This 'Hands-on Lab - BYOS' session offers an in-depth exploration of Native PDF publishing. Explore different use cases, leverage key features, and engage directly with Adobe experts to address your specific problem statements and requirements.
 
@@ -40,18 +40,17 @@ In this session, you learnt about following for Native PDF publishing:
  
 ## Related resources 
 
-- **Native PDF setup steps** - [Experience League](/help/product-guide/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md) 
+- **Native PDF setup steps** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en) 
  
-- **Functional overview of Native PDF publishing** - [on Experience League](/help/product-guide/knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+- **Functional overview of Native PDF publishing** - [on Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Documented common use cases** - [on Experience League](/help/product-guide/native-pdf/stylesheet.md)
+- **Documented common use cases** - [on Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
  
 - **Community Forum** - For session-specific community interactions on Experience League, visit  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > The features shown in this session are available on the following versions of AEM Guides:
->
 > - On-prem 4.2 or later
 > - Cloud Services 2309 and later
 

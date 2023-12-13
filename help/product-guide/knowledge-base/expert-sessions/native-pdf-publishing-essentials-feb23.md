@@ -25,7 +25,6 @@ In this session, you learn how to publish PDF using native pdf engine in AEM Gui
 ## Key takeaways
 
 In this session, you learn about the following:
-
 - PDF Publishing Essentials
 - Create and customize various components of PDF template
 - Content structuring and styling for publishing
@@ -36,14 +35,13 @@ In this session, you learn about the following:
 
 - **Feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en) 
  
-- **User Guide** - [Native PDF publishing](/help/product-guide/native-pdf/pdf-template.md)
-
+- **User Guide** - [Native PDF publishing](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
+ 
 - **Community Forum** - For session-specific community interactions on Experience League, visit  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > The features shown in this session are available on the following versions of AEM Guides:
->
 > - On-prem 4.2 or later
 > - Cloud Services 2211 and later
 

@@ -245,17 +245,16 @@ Perform the following steps to configure profiling attributes and cross referenc
     ![Class path tab](images/dita-extension.png){width="650" align="left"}
 
 1.  In the **Extensions** tab, make the following changes:
-    -   Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
-    -   Click **Choose** next to the **Author Custom Attribute Value Editor** under **Individual Extensions** and select CustomValueEditor - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
+        
+    -  Click **Choose** next to the **Extensions bundle** and select   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` in the **Class** list. Click **OK**.
+    ![Configured extenstion for DITA topics](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+    -  Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` in the **Class** list. Click **OK**.
+    -  Click **Choose** next to the **Author Custom Attribute Value Editor** under **Individual Extensions** and select `CustomValueEditor - com.adobe.o2.framework.extn` in the **Class** list. Click **OK**.
+    -  Click **Choose** next to the **Author external object insertion handler** under **Individual Extensions** and select `CustomURLInsertionHandler - com.adobe.o2.ui ` in the **Class** list. Click **OK**.
+
+
     The following screenshot shows the configured **Extension** tab for DITA topics:
-
-        ![Configured extenstion for DITA topics](images/dita-topic-extension-tab.png){width="650" align="left"}
-
-    -  Click **Choose** next to the **Extensions bundle** and select   LinkResolverExtensionBundle - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
-
-        ![Configured extenstion for DITA topics](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
-
-
+    <img src="images/dita-topic-extension-tab.png" alt= "Configured extenstion for DITA topics" width=650 border="2px">
 1.  Click **OK** on all dialog boxes to save your changes.
 
 ### Configure DITA map extension 
@@ -268,16 +267,17 @@ Perform the following steps to configure the DITA map extension:
 1.  In the **Document Type Association** tab, select **DITA Map**, and then click **Extend**.
 1.  In the **Classpath** tab, select com.adobe.o2.connector in the **Use Parent Class Loader From Plugin with ID** drop-down.
 1.  In the **Extensions** tab, make the following changes:
-1.  -   Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
--   Click **Choose** next to the **Author Custom Attribute Value Editor** under **Individual Extensions** and select CustomValueEditor - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
--   *\(Optional\)* If you do not want to resolve references while opening a map file, then you need to perform the following additional configuration:
+    -   Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
+    -   Click **Choose** next to the **Author Custom Attribute Value Editor** under **Individual Extensions** and select CustomValueEditor - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
 
-    Click **Choose** next to the **References Resolver** under **Individual Extensions** and select CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
+    -  Click **Choose** next to the **References resolver** under **Individual Extensions** and select `CustomDITAMapReferenceResolver - com.adobe.o2` in the **Class** list. Click **OK**.
+    -   *\(Optional\)* If you do not want to resolve references while opening a map file, then you need to perform the following additional configuration:
+
+    - Click **Choose** next to the **References Resolver** under **Individual Extensions** and select CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
 
     The following screenshot shows the configured **Extension** tab:
-
-    ![Configured extension for DITA map](images/dita-map-extension-tab.png){width="650" align="left"}
-
+    <img src="images/dita-map-extension-tab.png" alt= "Configured extension for DITA map" width=650 border="2px">
+   
 1.  Click **OK** on all dialog boxes to save your changes.
 
 ## Work with Oxygen Plugin for AEM Guides {#id1826JG00WY4}
@@ -504,7 +504,7 @@ The following points must be considered while moving or copying content from you
 
 -   When you checkout content from AEM repository and make changes on your local system, ensure that file name is not changed at the time of uploading the file.
 
-- When you insert a reference in the DITA Maps Manager, it displays the title of the file and not the UUID. If the title isn't present, then it displays the filename.
+- When you insert a reference in the DITA Maps Manager or the Editor, it displays the title of the file and not the UUID. If the title isn't present, then it displays the filename.
 
 ### Add or remove Favorites {#id195HC04405P}
 
@@ -600,6 +600,24 @@ Perform the following steps to edit a DITA topic in Oxygen XML Author:
     >[!NOTE]
     >
     >Make sure that you check-in the topic using Oxygen Plugin for AEM Guides, if you check-in from the AEM web interface, the changes you make in Oxygen XML Author are not saved in the checked-in version of the topic.
+
+**Insert a reference to a topic from the Experience Manager Guides repository**
+
+You can also drag and drop a topic to insert the reference into a topic or a DITA map. 
+>[!NOTE] 
+>
+> You need to check out a file before adding any reference to it.
+
+The following elements are added based on the type of references:
+
+If you drop to the Editor with an open topic:
+-   A reference is added with `<image>` element for the images.
+-    An object element is added for a video or audio.
+-   The `<xref>`  element is added for all other references like topic, map, DITAVAL, PDF, ZIP, and XML.
+
+If you drop to Editor or DITA Maps Manager with an opened Map:
+-   The `<mapref>` element is added for map references, which include a DITA map, bookmap, or a Subject Scheme.
+-   The `<topicref>` element is added for all other references like topic, map, DITAVAL, PDF, ZIP, and XML.
 
 
 ## Work with attribute profiles {#id1827JA002YK}

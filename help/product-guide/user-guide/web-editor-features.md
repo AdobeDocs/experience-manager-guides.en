@@ -141,7 +141,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Publish Profile**: This contains the Publish Profiles that can be used to publish the knowledge base output. You can create a new profile for a selected consumer type. For example, Salesforce.
+- **Publish Profile**: This contains the Publish Profiles that can be used to publish the knowledge base output. You can create a new profile for a selected consumer type. For example, Salesforce or ServiceNow.
 
     - **Requirements to create a Salesforce Publish Profile**
         
@@ -160,18 +160,35 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
     Once the app is configured, Salesforce provides a **Consumer Key** and **Consumer Secret**.
 
     These can be used to create the Salesforce Publish Profile. 
-![profiles in editor settings](./images/create-profile-editor-settings.png){width="300" align="left"}
-
+    ![salesforce publish profile in editor settings](./images/salesforce-publish-profile.png){width="300" align="left"}
     
 
-- To create a Publish Profile you can select a knowledge base like Salesforce from the **Server Type** dropdown. Enter a profile Name. In the **Site URL** enter the consumer site that you would use for publishing the output and then add the **Consumer Key** and **Consumer Secret** provided by the consumer site like Salesforce. Then login to the newly created Profile.
+- To create a Salesforce Publish Profile, select the **Salesforce** knowledge base from the **Server Type** dropdown. Enter a profile Name. In the **Site URL**, enter the consumer site you would use to publish the output and then add the **Consumer Key** and **Consumer Secret** provided by the Salesforce consumer site. Then, **Validate** and **Save** the newly created profile.
 
     >[!NOTE]
     >
     >To configure a proxy for Salesforce in Experience Manager Guides, use Apache HTTP Components Proxy Configuration in AEM. Learn how to [configure proxy for the AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
+- **Requirements to create a ServiceNow Publish Profile**
 
-    After you login, you can select the Publish Profile in the output presets of a DITA Map and use to generate the output for selected articles. For more details, see [Article-based publishing from the Web Editor](../install-guide/configure-article-based-publishing.md) in the Installation and Configuration Guide.
+    Configure the ServiceNow server to upload the assets.
+    - Connect to the **ServiceNow** server.
+    - Navigate to **System Properties** > **Security**. 
+    - Uncheck the following option:
+    ![ServiceNow upload assets configuration](./images/service-now-upload-asssets-config.png){width="300" align="left"}
+    - Click **Save**.
+    
+Once you have configured the app, create the **ServiceNow** Publish Profile.
+
+
+• To create a Publish Profile, select the ServiceNow Knowledge Base from the **Server Type** dropdown. Enter a profile **Name**. In the **ServiceNow URL**, enter the consumer site you would use for publishing the output and then add the **Username** and **Password** provided by the ServiceNow consumer site. Then, **Validate** and **Save** the newly created profile.
+ 
+![ServiceNow publish profile](./images/service-now-publish-profile.png){width="300" align="left"}
+
+After you validate, you can select the Publish Profile in the output presets of a DITA Map and use it to generate the output to the  **Salesforce** or **ServiceNow** server that you have chosen. 
+
+Learn more about the [Knowledge Base](../user-guide/generate-output-knowledge-base.md) output preset. 
+
 
 - **Validation**: This tab contains options to configure the Schematron Validations in the Web editor. You can enable the following features:
 
@@ -226,9 +243,8 @@ The User Preferences are available to all authors. Using the preferences, an aut
 
 -   **Select Root Map**: Select a DITA map file to resolve key references or glossary entries. The selected root map takes the highest precedence to resolve key references. For more details, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
 
-
 >[!NOTE]
->
+> 
 > If you do not want to use any root map, then ensure that the **Select Root Map** field is blank.
 
 **Author, Source, and Preview modes**
@@ -660,7 +676,7 @@ AEM Guides allows you to specify labels in a free-form text format or use a set 
 
 These labels are shown in the form of a drop-down list to authors wherever they need to specify a label. This ensures that only predefined, consistent labels are used in the system.
 
-There are different methods through which you can apply labels to your topics - [Version History](web-editor-use-label.md#) panel in Assets UI, [Baselines](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) UI, and Web Editor. The Version Label feature in the Web Editor gives authors quick and easy way to assign labels to their topics.
+There are different methods through which you can apply labels to your topics - [Version History](web-editor-use-label.md#) panel in Assets UI, [Baselines](/help/tutorials/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) UI, and Web Editor. The Version Label feature in the Web Editor gives authors quick and easy way to assign labels to their topics.
 
 To add labels to your topic from the Web Editor, perform the following steps:
 
@@ -880,7 +896,7 @@ The various options in the Options menu are explained below:
 
 -  **Rename**: Use this option to rename the selected file. Enter the name of the new file in the **Rename Asset** dialog.  
     - You can rename a file of any type. 
-    - You can't change the extension of a file. 
+    - You can’t change the extension of a file. 
     - Two files cannot have the same name. So, you cannot rename a file to a name that already exists. An error is displayed. 
 
 -  **Move to**: Use this option to move the selected file to another folder.  
@@ -897,9 +913,9 @@ The various options in the Options menu are explained below:
 
     **Exclusion scenarios**   
 
-    AEM Guides doesn't allow you to rename or move a file in the following scenarios: 
+    AEM Guides doesn’t allow you to rename or move a file in the following scenarios: 
 
-    - You cannot move or rename a file if it's part of a review or a translation workflow. 
+    - You cannot move or rename a file if it’s part of a review or a translation workflow. 
 
     - If any other user checks out the file, you cannot rename or move it, you will not see the Rename or Move to option for the file. 
 
@@ -1476,7 +1492,7 @@ The references are not resolved if the enumeration is not found in the same map 
 
 **Restrict the values to a specific element**
 
-You can also restrict the  conditions to some elements within a topic. Use the `<elementdef>` tag to define the element and the `<attributedef>` tag to define the condition that can be applied to the element.  If you don't add the `<elementdef>` tag,  you can apply the conditions to all elements. 
+You can also restrict the  conditions to some elements within a topic. Use the `<elementdef>` tag to define the element and the `<attributedef>` tag to define the condition that can be applied to the element.  If you don’t add the `<elementdef>` tag,  you can apply the conditions to all elements. 
 For example, use the following enumeration to restrict the `@platform` attribute to the `<shortdesc>` element.  The other conditions are visible for all elements.
 
 ```XML
@@ -1616,7 +1632,7 @@ To view the review comments in the active review tasks that are present in your 
     - Select ![](images/filter-search-icon.svg)  to open the **Filter** dialog. You can select all or only specific projects. The selected projects are listed in the **Review** panel.
     ![](images/active-review-select-project.png){width="300" align="left"}
 
-       The **Tasks initiated by me** option is enabled by default. It allows you to view only the tasks that you've initiated. 
+       The **Tasks initiated by me** option is enabled by default. It allows you to view only the tasks that you’ve initiated. 
 
 1. By default, in your review project you will view a flat list of topics that have comments associated with them. Apply the required filters from the left rail to filter the topics based on the review comments present in them:
 
@@ -1756,7 +1772,7 @@ You can easily add, edit, or delete the attributes.
 
     ![attrubutes in content properties](images/properties-tab-attributes_cs.png){width="300" align="left"}
 
-1.  In the **Attribute** dropdown panel, select the attribute from the dropdown list and specify an attribute's value.  Then click **Add**. 
+1.  In the **Attribute** dropdown panel, select the attribute from the dropdown list and specify an attribute’s value.  Then click **Add**. 
 
     ![attributes panel with multiple attributes ](images/attributes-multiple-properties.png){width="300" align="left"}
 

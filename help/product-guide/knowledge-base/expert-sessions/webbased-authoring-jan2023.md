@@ -25,7 +25,6 @@ In this session, you learn how to create, publish, and manage content using the 
 ## Key takeaways
 
 In this session, you learn about the following:
-
 - Configure settings for web editor
 - Use web editor capabilities to improve authors' productivity 
 - Extend and integrate the available features 
@@ -35,14 +34,13 @@ In this session, you learn about the following:
 
 - **Feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en) 
  
-- **User Guide** - [Author content](/help/product-guide/user-guide/authoring-content.md)
+- **User Guide** - [Author content](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
  
 - **Community Forum** - For session-specific community interactions on Experience League, visit  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > The features shown in this session are available on the following versions of AEM Guides:
->
 > - On-prem 4.1.3 or later
 > - Cloud Services 2211 and later
 

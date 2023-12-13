@@ -9,13 +9,13 @@ Workflows enable you to automate Adobe Experience Manager \(AEM\) activities. A 
 
 For more information about workflows in AEM, see:
 
-- [Administering Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
+-   [Administering Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Applying and participating in workflows: [Working with Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
+-   Applying and participating in workflows: [Working with Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Creating workflow models and extending workflow functionality: [Developing and Extending Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
+-   Creating workflow models and extending workflow functionality: [Developing and Extending Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Improving the performance of workflows that use significant server resources: [Concurrent Workflow Processing](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+-   Improving the performance of workflows that use significant server resources: [Concurrent Workflow Processing](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 The sections in this topic will walk you through various customizations that you can make in the default workflows shipped in AEM Guides.
@@ -26,13 +26,13 @@ Every organization's content authoring team works in a specific way to meet thei
 
 AEM Guides allows you to customize the default review workflow. You can use the following four custom review-related processes with your other authoring or publishing workflows.
 
-- **Create Review**: This process prepares the metadata required to create a review task. For example, it will assign review permission to the reviewers, set the status of the topics to under review, set the review timelines, and more. Out of the four processes, this is the only mandatory process that must be included in your custom workflow. In your workflow, you may choose to include or exclude the other three processes.
+-   **Create Review**: This process prepares the metadata required to create a review task. For example, it will assign review permission to the reviewers, set the status of the topics to under review, set the review timelines, and more. Out of the four processes, this is the only mandatory process that must be included in your custom workflow. In your workflow, you may choose to include or exclude the other three processes.
 
-- **Assign Review Task**: This process creates the review task and sends the task notification to the initiator and reviewers.
+-   **Assign Review Task**: This process creates the review task and sends the task notification to the initiator and reviewers.
 
-- **Send Review Email**: This process sends the review email to the initiator and reviewers.
+-   **Send Review Email**: This process sends the review email to the initiator and reviewers.
 
-- **Schedule Job to Close Review**: This process ensures that the review process completes on reaching the deadline.
+-   **Schedule Job to Close Review**: This process ensures that the review process completes on reaching the deadline.
 
 
 When you are creating a custom review workflow, the first task is to set the required metadata needed by the Create Review process. To do so, you can create an ECMA script. A sample of the ECMA script that assigns the metadata is given below:

@@ -79,7 +79,7 @@ Select this option to view and edit the properties of the template. You can prev
 Select this option to view the template in the Assets UI. As it opens the root location of the template, you can view all the resources of the template.
 
 Once you have created the custom template, you can choose it from the Page Layouts in the PDF output preset. 
-Learn how to [publish a PDF output](/help/product-guide/web-editor/native-pdf-web-editor.md).
+Learn how to [publish a PDF output](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -106,7 +106,6 @@ For details on setting up global and folder-level profiles, view [Configure auth
 You can customize templates by tweaking the template components and applying style formats using stylesheets.
 
 To customize a PDF template, perform the following steps:
-
 1. In the Web Editor, go to the **Output** tab.
 1. Expand the left sidebar and select **Templates**.
    
@@ -132,7 +131,7 @@ To customize a PDF template, perform the following steps:
 
    * Stylesheets: The settings in the Stylesheets section allows you to customize the look and feel of the page layout components like the TOC, index, glossary, citations, and more. In addition, you can also customize the styles for the DITA content like headings, paragraphs, lists, and more. To know more on using the stylesheets, see [Use Stylesheets to customize PDF](components-pdf-template.md#stylesheet-customization).
    * Resources: Store asset files that you would need to customize or design PDF templates. Assets such as logos, custom fonts, background images, and more are stored in the Resources. 
-   You can also use resources present at any other location in the repository. You don't need to create duplicate resources for each template, and you can keep them in a shared folder and use them in all Native PDF templates.
+   You can also use resources present at any other location in the repository. You don’t need to create duplicate resources for each template, and you can keep them in a shared folder and use them in all Native PDF templates.
 
       To know more on utilizing resources, see [Work with resources](components-pdf-template.md#work-with-resources).
    * Settings: Configure the output settings for generating a PDF using the template. This section allows you to define template mapping for various pages in a PDF, chapter starting page, print markers, citations, and more. 
