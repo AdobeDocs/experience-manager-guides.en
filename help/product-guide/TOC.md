@@ -149,6 +149,7 @@ breadcrumb-title: AEM Guides Guide
     + Output presets in AEM Guides {#output-presets-aemg}
       + [AEM Site](./user-guide/generate-output-aem-site.md)
       + [PDF](./user-guide/generate-output-pdf.md)
+      + [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
       + [HTML5](./user-guide/generate-output-html5.md)
       + [EPUB](./user-guide/generate-output-epub.md)
       + [Custom](./user-guide/generate-output-custom.md)
