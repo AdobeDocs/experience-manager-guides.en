@@ -15,22 +15,22 @@ AEM Guides provides the Baseline feature integrated inside the Web Editor that a
 
 You can create a baseline from the Web Editor by performing the following steps:
 
-1.  In the Repository panel, open the DITA map file in Map View.
-1.  Click the **Manage** tab. The **Baseline** panel displays the baselines of the DITA map.
+1. In the Repository panel, open the DITA map file in Map View.
+1. Click the **Manage** tab. The **Baseline** panel displays the baselines of the DITA map.
 
     ![Basleine panel](images/baseline-manage.png){width="800" align="left"}
 
-1.  On the **Baseline** panel, select the + icon at the top-right to start creating a baseline.
-1.  Enter a name for the baseline in **Name**.
-1.  In **Configuration**, you can either choose **Manual updation** option or **Auto-updation** option:
+1. On the **Baseline** panel, select the + icon at the top-right to start creating a baseline.
+1. Enter a name for the baseline in **Name**.
+1. In **Configuration**, you can either choose **Manual updation** option or **Auto-updation** option:
 
     **Manual updation**: You can manually create a static baseline with a specific version of the topics and referenced content available on a specific date and time, or with a label defined for a version of topics:
 
-    -   In **Select the version based on,** select one of the following options:
+    - In **Select the version based on,** select one of the following options:
 
 
-        1.  **Date** <time stamp\>: Picks the topics' version as on the specified date and time.
-        1.  **Label**: Select this option to pick the topics according to the label applied to them. If the topics have labels specified for them, the labels are listed in the dropdown. You can choose a label from the list. You can also add a label in the text box. 
+        1. **Date** <time stamp\>: Picks the topics' version as on the specified date and time.
+        1. **Label**: Select this option to pick the topics according to the label applied to them. If the topics have labels specified for them, the labels are listed in the dropdown. You can choose a label from the list. You can also add a label in the text box. 
 
             For the direct references in static baselines, the labels are pulled from the latest saved version of the map. For example, if you have created labels `Label Release 1.0` and `Label Release 1.1` for versions 1.0 and 1.1 of Topic A, and then add Topic A to the map saved as version 1.0. In this case, you can view the labels `Label Release 1.0` and `Label Release 1.1` in the dropdown for static baseline labels.
 
@@ -52,11 +52,11 @@ You can create a baseline from the Web Editor by performing the following steps:
 
     ![Create a baseline](images/dynamic-baseline.png){width="550" align="left"}
 
-    -   **Select Labels**: If the topics have labels specified for them, the labels are listed in the **Select Labels** dropdown. You can choose the label\(s\) from the list. The labels selected first are given higher priority over the later ones.
+    - **Select Labels**: If the topics have labels specified for them, the labels are listed in the **Select Labels** dropdown. You can choose the label\(s\) from the list. The labels selected first are given higher priority over the later ones.
 
         For dynamic baselines, the labels are pulled from the latest saved version and the current working copy of the map. For example, if you have created labels   `Label Release A.1.0 ` and `Label Release A.1.1` for versions 1.0 and 1.1 of Topic A and labels `Label Release B.1.0` and `Label Release B.1.1` for versions 1.0 and 1.1 of Topic B . Then you can add Topic A to Map A in version 1.0 and Topic B to Map A in 1.0* (working copy). In this case, you can view  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`,  and `Label Release B.1.1` in the dropdown of dynamic baseline labels.
 
-1.  **Indirect References**: For indirect references within the DITA map, you are given the following options:
+1. **Indirect References**: For indirect references within the DITA map, you are given the following options:
     
      -  **Pick automatically**: You can choose to **Pick Automatically** for the referenced content, and the system automatically picks the version of the referenced content corresponding to the version of the content in which it is referenced.
       
@@ -70,9 +70,9 @@ The baseline is created. The baseline creation happens asynchronously, so you ca
 
 You can manage your existing baselines using the various features on the Baseline dashboard.
 
--   You can search for an existing baseline using the text box in the Baseline panel. Use the **Apply Filter** icon to show all baselines or list the baselines with the creation status as Successful, In-Progress, or Failed.
--   Use the **Refresh** icon in the Baseline panel to recheck for all baselines and display a fresh list of baselines for the DITA map that's opened in the Map View.
--   You can view or edit the contents of an existing static baseline by double-clicking the baseline from the list in the **Baseline** panel. The baseline editing window in the center displays the DITA map file, map's contents or topics, and the referenced content.
+- You can search for an existing baseline using the text box in the Baseline panel. Use the **Apply Filter** icon to show all baselines or list the baselines with the creation status as Successful, In-Progress, or Failed.
+- Use the **Refresh** icon in the Baseline panel to recheck for all baselines and display a fresh list of baselines for the DITA map that's opened in the Map View.
+- You can view or edit the contents of an existing static baseline by double-clicking the baseline from the list in the **Baseline** panel. The baseline editing window in the center displays the DITA map file, map's contents or topics, and the referenced content.
 
     >[!NOTE]
     >
@@ -104,8 +104,8 @@ You can manage your existing baselines using the various features on the Baselin
     >
     > The process to add or remove labels happens asynchronously, so you can continue working on other files in the Web Editor. Once the label is added or removed, a pop-up message is displayed confirming that the label has been added or removed, and you also receive an Inbox notification for the same.
 
--   **Edit properties** of an existing static baseline that you have set while creating the baseline.
--   Export the snapshot of a baseline in a Microsoft Excel file with the **Export Baseline** option.
+- **Edit properties** of an existing static baseline that you have set while creating the baseline.
+- Export the snapshot of a baseline in a Microsoft Excel file with the **Export Baseline** option.
 
 **Baseline filters**
 
@@ -113,9 +113,9 @@ Using the Filters icon in the **Baseline Filters** panel you can apply filters o
 
 ![baseline filters](images/baseline-filter.png){width="300" align="left"}
 
--   Filter the files based on filenames, or file location.
--   Filter the files based on the values for different columns like File Type, Reference Type and so on.
--   Choose the columns to be displayed in the baseline editing window.
+- Filter the files based on filenames, or file location.
+- Filter the files based on the values for different columns like File Type, Reference Type and so on.
+- Choose the columns to be displayed in the baseline editing window.
 
 >[!NOTE]
 >

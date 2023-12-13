@@ -21,7 +21,6 @@ With [!DNL AEM Guides] solution, enterprises can deliver seamless and personaliz
 
     _Learn how to create, organize, author and publish content with [!DNL Adobe Experience Manager Guides]._
 
-
 * **[[!DNL AEM Guides] Authoring in the built-in Web Editor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
 
     _Learn how to author content using the native Web Editor in  [!DNL Adobe Experience Manager Guides]. Gain complete understanding of user preferences, editor settings, configuration, toolbars and more._
