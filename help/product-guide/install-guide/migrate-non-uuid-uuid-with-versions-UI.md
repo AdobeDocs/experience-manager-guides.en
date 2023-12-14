@@ -31,9 +31,9 @@ If you are using version 4.3.x or later, perform these steps to migrate your non
 1. Install the pre-migration package (`ccom.adobe.guides.pre-uuid-migration-1.1.2 .zip`).
 
    >[!NOTE]
-    >
-    >* You need administrator permission to execute the migration. 
-    >* Fixing the files with errors before proceeding with the migration is recommended. 
+   >
+   >* You need administrator permission to execute the migration. 
+   >* Fixing the files with errors before proceeding with the migration is recommended. 
 
 1. Select **Compatibility Assessment**  from the left panel and browse a folder path.
 1. Check the compatibility to list the following information:
@@ -46,7 +46,6 @@ If you are using version 4.3.x or later, perform these steps to migrate your non
 
 ![compatibility assessment tab in migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
-<screenshot of compatibility assessment>
 
 1. Select **Configure Validations** from the left panel. Then **Select map** and **Select preset** of the map to configure them. The current output validation list will display the output files present before migration and can be validated against the output files generated post-migration later. 
 
