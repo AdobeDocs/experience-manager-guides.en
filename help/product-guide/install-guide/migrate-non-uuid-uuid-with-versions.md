@@ -21,8 +21,9 @@ Download the required packages from Adobe Software Distribution Portal, based on
 <details>
 <summary>  Packages for version 4.0 or 4.1 </summary>
 If you are using version 4.0 non-UUID, you need to install version 4.1 UUID before installing the following packages:
-1. **Pre-migration**: `com.adobe.guides.pre-uuid-migration-1.0.9 .zip`
-1. **Migration**: `com.adobe.guides.uuid-upgrade-1.1.19.zip`
+
+1. **Pre-migration**: `com.adobe.guides.pre-uuid-migration-1.0.9    .zip`
+1. **Migration**: `com.adobe.guides.uuid-upgrade-1.0.19.zip`
 </details>
 
 
@@ -37,12 +38,12 @@ If you are using version 4.3 non-UUID, you need to install version 4.3.1 UUID be
 
 ## Pre-migration
 
-1. (Optional) Perform version purging on the content to remove unnecessary versions and speed up the migration process. To perform version purging on version 4.1 (NOT supported on 4.0), install the package `com.adobe.guides.version-purge-1.0.11.zip`, and go to the user interface using this URL `http://<server-name> /libs/fmdita/clientlibs/xmleditor_version_purge/page.html`. 
+1. (Optional) Perform version purging on the content to remove unnecessary versions and speed up the migration process. To perform version purging, select the option **Version Purge** from the migration screen at, and go to the user interface using this URL `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
 
     >[!NOTE]
     >
     >This utility does not remove any versions used in baselines or reviews or has any labels.
-1. Install the pre-migration package (`ccom.adobe.guides.pre-uuid-migration-1.1.2 .zip`).
+1. Install the pre-migration package (`com.adobe.guides.pre-uuid-migration-1.1.2 .zip`).
 
    >[!NOTE]
    >
