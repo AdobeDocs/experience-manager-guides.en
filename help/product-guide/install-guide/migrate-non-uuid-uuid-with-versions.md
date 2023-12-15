@@ -17,7 +17,7 @@ Perform these steps to migrate your non-UUID versioned content to UUID content.
 |4.3.x or Higher|   4.3.0 non-UUID |Install 4.3.1 (UUID) and run the migration |
 
 ## Package installation
-Install the required packages based on your version:
+Download the required packages from Adobe Software Distribution Portal, based on your version, and install them:
 <details>
 <summary>  Packages for version 4.0 or 4.1 </summary>
 If you are using version 4.0 non-UUID, you need to install version 4.1 UUID before installing the following packages:
