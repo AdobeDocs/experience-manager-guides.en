@@ -44,7 +44,7 @@ Perform the following steps to create variables for a variable set in your curre
    >Every variable is added to all variable sets.
   
 1. Enter the variable name in the **Name** column and its value in the **Value** column.
-   > [!TIP]
+   >[!TIP]
    >
    >You can use any HTML content as a variable value to display the variable value in specific formatting. For example, you can add `<b>` tag to the variable value to display the value **ProductA**  in bold. You can also add images from the repository as values. 
 1. Select **Add variable** <img alt= "Add icon" src="./assets/add-icon.svg" width="25"> to add a new variable to the selected variable set. Adding a variable to one set automatically adds it to all sets. You cannot create a variable with the same name as an existing variable. An error is displayed.
