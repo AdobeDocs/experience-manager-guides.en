@@ -1,7 +1,6 @@
 ---
 title: Native PDF | Use variable sets in the PDF output
 description: Use variables in the PDF output and output templates
-exl-id: 
 ---
 # Variable sets in the PDF output
 
