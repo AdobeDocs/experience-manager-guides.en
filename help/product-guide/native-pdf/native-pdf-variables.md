@@ -3,7 +3,7 @@ title: Native PDF | Use variable sets in the PDF output
 description: Use variables in the PDF output and output templates
 exl-id: 
 ---
-# Use variable sets in the PDF output
+# Variable sets in the PDF output
 
 A variable is a name-value pair of data that serves as a reusable piece of information. This makes your content portable and easy to update. When you modify a variable or its value, every occurrence of that variable or value is updated across the project.
 
