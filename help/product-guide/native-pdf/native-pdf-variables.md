@@ -6,9 +6,9 @@ description: Use variables in the PDF output and output templates
 
 A variable is a name-value pair of data that serves as a reusable piece of information. This makes your content portable and easy to update. When you modify a variable or its value, every occurrence of that variable or value is updated across the project.
 
-Adobe Experience Manager Guides supports variable sets, which let you assign your variables alternate values. For example, a company can sell two products, A and B. It has different specifications for each of them. These specifications could include product ID, icon, and release date. There can be other differences in branding.
+Adobe Experience Manager Guides supports variable sets, which let you assign your variables alternate values. For example, a company can sell two products, A and B. It has different specifications for each of them. These specifications could include product name, version number, and release date. There can be other differences in branding. Using variable sets, you define a different set of values for your variables. When you generate the output, you choose the appropriate variable set and produce the required output.
 
-Using variable sets, you define a different set of values for your variables. When you generate the output, you choose the appropriate variable set and produce the required output.
+For example, you can create a variable set for each product release. 
 
 **Variable set 1**: *Adobe-set1*
 
