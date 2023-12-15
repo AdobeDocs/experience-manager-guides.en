@@ -42,7 +42,7 @@ If you are using version 4.3 non-UUID, you need to install version 4.3.1 UUID be
    >
    >* You need administrator permission to execute the migration. 
    >* Fixing the files with errors before proceeding with the migration is recommended. 
-1. Open `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
+1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
 1. Select **Compatibility Assessment**  from the left panel and browse a folder path.
 1. Check the compatibility to list the following information:
     * Total files
@@ -90,7 +90,7 @@ If you are using version 4.3 non-UUID, you need to install version 4.3.1 UUID be
 
 #### Install the migration package
 
-1. Open `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 
     ![System upgrade tab in migration](assets/migration-system-upgrade.png){width="800" align="left"}
 
@@ -109,12 +109,12 @@ Also, it's important to make sure that the content migration is done for all the
 
 Select **Baseline/Review Upgrade** from the left panel to migrate the baselines and review at the folder level.  
 
-    ![Baseline and review tab in migration](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
+![Baseline and review tab in migration](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
 
 
 ### Step 3: Restore the configuration
 
-Once the server is migrated successfully, enable post-processing, tagging, and the following workflows (including all the other workflows that were disabled initially during the migration) to continue working on the server.
+After migrating the server successfully, enable post-processing, tagging, and the following workflows (including all the other workflows that were disabled initially during the migration) to continue working on the server.
 
 * DAM Update Asset workflow
 * DAM Metadata workflow
