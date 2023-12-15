@@ -47,6 +47,7 @@ Perform the following steps to create variables for a variable set in your curre
    >[!TIP]
    >
    >You can use any HTML content as a variable value to display the variable value in specific formatting. For example, you can add `<b>` tag to the variable value to display the value **ProductA**  in bold. You can also add images from the repository as values. 
+
 1. Select **Add variable** <img alt= "Add icon" src="./assets/add-icon.svg" width="25"> to add a new variable to the selected variable set. Adding a variable to one set automatically adds it to all sets. You cannot create a variable with the same name as an existing variable. An error is displayed.
 
    >[!NOTE]
@@ -121,7 +122,7 @@ The variable is deleted from all the variable sets.
 You can search and preview the value of a variable. Enter a string in the search box of the **Variables** panel. It searches both based on the variable name and its value. 
 You can preview a variable in two ways:
 
-**From the Variables** panel on the left side**
+**From the Variables panel on the left side**
 
 
 1. Select a variable in the **Variables** panel. 
@@ -164,32 +165,29 @@ You can add variables while you generate the output of your product documents to
 To insert a variable like your ProductName in the header area, perform the following steps:
 1. Open the required page layout for editing.
 
-    >[!NOTE]
-    >
-    > View [Customize a page layout](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) section for opening a page layout for customization or editing.
+   >[!NOTE]
+   >
+   > View [Customize a page layout](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) section for opening a page layout for customization or editing.
+
 1. Select the header to make it active to insert a variable.
 
-### Insert a variable
+1. You can insert the variable in two ways:
 
-   You can insert the variable in two ways:
+   **From the Variables panel on the left side**
 
-#### From the **Variables** panel on the left side
+   * Drag a variable from the **Variables** panel and drop it on the header area.
 
-   Drag a variable from the **Variables** panel and drop it on the header area.
+   **From the toolbar**
 
-
-#### From the toolbar
-
-1. Select **Insert Variable/Fields** <img alt= "variable icon" src="./assets/variables-icon.svg" width="25">.   
-1. In the **Variable** dialog box, select the name of the variable to insert it in the header area.
-1. You can also enter the search string in the text box. The variable names containing the given string are filtered and displayed in the list. The selected variable is inserted in the header area. You can view the default value of the variable.
-1. To replace a variable, double-click the variable value and select another variable from the **Variable** dialog box. The variable is replaced. 
+   1.  Select **Insert Variable/Fields** <img alt= "variable icon" src="./assets/variables-icon.svg" width="25">.   
+   1. In the **Variable** dialog box, select the name of the variable to insert it in the header area.
+   1. You can also enter the search string in the text box. The variable names containing the given string are filtered and displayed in the list. The selected variable is inserted in the header area. You can view the default value of the variable.
+   1. To replace a variable, double-click the variable value and select another variable from the **Variable** dialog box. The variable is replaced. 
 
 
 ## Generate PDF output with a variable set
 
-You can generate the PDF output with the values of different variable sets. 
-Before generating the layout, choose a variable set from an output preset's **Variable set** drop-down list.
+You can generate the PDF output with the values of different variable sets. Before generating the layout, choose a variable set from an output preset's **Variable set** drop-down list.
  
  ![variable set dropdown](assets/output-preset-variable-dropdown.png){width="550" align="left"}
 
