@@ -195,7 +195,8 @@ You can generate the PDF output with the values of different variable sets. Befo
 
 Depending on your chosen variable set, you'll get an output corresponding to the variable values defined in the variable set. For example, if you select the variable set *Adobe-set1*, your output displays the variables' values as defined in this set.   
  
-  ![PDF output with variables](assets/variable-pdf-output.png){width="550" align="left" border="2px"}
+
+  <img src="assets/variable-pdf-output.png" alt= "PDF output with variables" width=500 border="2px" >
 
 *Generate the PDF output using variables in the page layout.*
 
