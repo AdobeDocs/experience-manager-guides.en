@@ -26,7 +26,7 @@ For example, you can create a variable set for each product release.
 
 ## Create a new variable
 
-Perform the following steps to create a variables for a variable set in your current DITA map:
+Perform the following steps to create variables for a variable set in your current DITA map:
 
  ![Create a new variable](assets/add-variable.png){width="800" align="left"}
 
@@ -35,55 +35,51 @@ Perform the following steps to create a variables for a variable set in your cur
 
 1. In the Web Editor, go to the **Output** tab.
 1. Select **Variables** <img alt= "variable icon" src="./assets/variables-icon.svg" width="25"> in the left panel.
-1. Select Edit    to open the  **Variables** editor. 
+1. Select **Edit** <img alt= "Edit pencil icon" src="./assets/edit_pencil_icon.svg" width="25">  to open the  **Variables** editor. 
 1. Select a variable set from the **Variable sets** dropdown.
 1. The variables in the selected variable set are listed alphabetically. The values are displayed according to the chosen variable set. For example, if you select the *Adobe-set1* variable set, “2311” is displayed as a value for the VersionNumber variable.
-1. From the **Variable sets** dropdown, select the desired set in which you want to add a variable.
-
- >[!NOTE] 
- >
- >Every variable is added to all variable sets.
-
-If you select **(Default)** from the dropdown and create variables, those default values are added to all variable sets. When you edit the values for the variables in specific variable sets, it overrides the default values.
-
-1 Enter the variable name in the **Name** column and its value in the **Value** column.
- >[!TIP]
- >
- >You can use any HTML content as a variable value to display the variable value in specific formatting. For example, you can add `<b>` tag to the variable value to display the value **ProductA**  in bold. You can also add images from the repository as values. 
+1. From the **Variable sets** dropdown, select the desired set in which you want to add a variable. If you select **(Default)** from the dropdown and create variables, those default values are added to all variable sets. When you edit the values for the variables in specific variable sets, it overrides the default values.
+   >[!NOTE] 
+   >
+   >Every variable is added to all variable sets.
+  
+1. Enter the variable name in the **Name** column and its value in the **Value** column.
+   > [!TIP]
+   >
+   >You can use any HTML content as a variable value to display the variable value in specific formatting. For example, you can add `<b>` tag to the variable value to display the value **ProductA**  in bold. You can also add images from the repository as values. 
 1. Select **Add variable** <img alt= "Add icon" src="./assets/add-icon.svg" width="25"> to add a new variable to the selected variable set. Adding a variable to one set automatically adds it to all sets. You cannot create a variable with the same name as an existing variable. An error is displayed.
 
->[!NOTE]
->
->If you don’t select **Add variable** <img alt= "Add icon" src="./assets/add-icon.svg" width="25">, the variable is not created and added to the list.
+   >[!NOTE]
+   >
+   >If you don’t select **Add variable** <img alt= "Add icon" src="./assets/add-icon.svg" width="25">, the variable is not created and added to the list.
 
 ## Configure variable sets
 
 You need to configure variable sets before adding any variables to them. 
 
- ![configure variable set](assets/configure-variable-set.png){width="550" align="left"}
+
 
 1. Select **Settings**  <img alt= "Settings icon" src="./assets/settings-icon.svg" width="25"> to open the **Configure variable sets** dialog box. 
- 
+ ![configure variable set](assets/configure-variable-set.png){width="550" align="left"} 
 1. Enter the variable set name in the **Name** column. 
 1. Select select **Add variable** <img alt= "Add icon" src="./assets/add-icon.svg" width="25"> to add a new variable set. The variable sets in the selected DITA map are listed alphabetically.
 1. You can select **Delete** to remove a variable set.
 
 All variable sets in a DITA map have the same variables but can have different values. 
-You can define the default values for the variables in a variable set by selecting **(Default)** from the dropdown and then defining the values.
-You can also change the variable values as required and save the variable set.
+You can define the default values for the variables in a variable set by selecting **(Default)** from the dropdown and then defining the values. You can also change the variable values as required and save the variable set.
 
 ### Edit a variable
 
 You can edit a variable in two ways:
 
-#### From the **Variables** panel on the left side
+**From the Variables panel on the left side**
 
 1. Select a variable in the **Variables** panel. 
 1. Hover over the variable to view the **Options** menu for it and then select the **Edit** option.
 1. In the **Edit Variable** dialog box, you can edit the default value of the selected variable.
 1. Click **Done**.
 
-#### From the Variables Editor 
+**From the Variables editor** 
 
 1. Select **Variables** <img alt= "variable icon" src="./assets/variables-icon.svg" width="25"> in the left panel.
 1. Select **Edit** <img alt= "Edit pencil icon" src="./assets/edit_pencil_icon.svg" width="25">  to open the **Variables** editor.
@@ -92,7 +88,7 @@ You can edit a variable in two ways:
 
 When you edit the values for the variables in specific variable sets, it overrides the default values and changes the values of the selected variable set.
 
-You need to save any changes you make from the Variables editor to view them in the Variables panel on the left side. 
+You need to save any changes you make from the **Variables** editor to view them in the **Variables** panel on the left side. 
 
 ### Reset the value of a variable
 
@@ -108,12 +104,12 @@ Reset <img alt= "reset icon" src="./assets/application-variable-revert.svg" widt
 
 You can delete a variable in two ways:
 
-#### From the **Variables** panel on the left side
+**From the Variables panel on the left side**
 
 1. Select a variable in the **Variables** panel. 
 1. Hover over the variable to view the **Options** menu for it and then select the **Delete** option.
 
-#### From the Variables Editor 
+**From the Variables editor** 
 
 1. Select a variable set from the dropdown in the **Variables** editor. 
 1. Hover over the variable in the list to view the **Options** menu for it and then select **Delete** option.
@@ -125,7 +121,7 @@ The variable is deleted from all the variable sets.
 You can search and preview the value of a variable. Enter a string in the search box of the **Variables** panel. It searches both based on the variable name and its value. 
 You can preview a variable in two ways:
 
-#### From the **Variables** panel on the left side
+**From the Variables** panel on the left side**
 
 
 1. Select a variable in the **Variables** panel. 
@@ -137,7 +133,7 @@ You can preview a variable in two ways:
 
  *Preview the default value for a variable.*
  
-#### From the Variables Editor 
+**From the Variables editor**
 
 1. Select a variable set from the dropdown in the **Variables** editor. 
 1. Hover over the variable in the list to view the **Options** menu for it and then select **Preview**.
