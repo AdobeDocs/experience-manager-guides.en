@@ -9,7 +9,7 @@ Perform these steps to migrate your non-UUID versioned content to UUID content.
 
 ## Compatibility matrix
 
-|Current AEM Guides version (non-UUID)|Required Version to migrate to UUID| Supported Upgrade path| 
+|Current Experience Manager Guides version (non-UUID)|Required Version to migrate to UUID| Supported Upgrade path| 
 |---|---|---|
 | 3.8.5|  4.0 non-UUID|Install 4.1 (UUID) and run the migration|
 |4.0, 4.0.x, 4.1, or 4.1.x  | Same as current non-UUID| Install 4.1 (UUID) and run the migration|
@@ -52,12 +52,12 @@ If you are using version 4.3 non-UUID, you need to install version 4.3.1 UUID be
 
 
 
-![compatibility assessment tab in migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
+    ![compatibility assessment tab in migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
 
-1. Select **Configure Validations** from the left panel. Then **Select map** and **Select preset** of the map to configure them. The current output validation list will display the output files present before migration and can be validated against the output files generated post-migration later. 
+1. Select **Configure Validations** from the left panel. Then, **Select map** and **Select preset** of the map to configure them. The current output validation list displays the output files present before migration and can be validated against the output files generated post-migration later. 
 
-![Configure Validations tab in migration](assets/migration-configure-validation.png){width="800" align="left"}
+    ![Configure Validations tab in migration](assets/migration-configure-validation.png){width="800" align="left"}
 
 
 
@@ -66,7 +66,7 @@ If you are using version 4.3 non-UUID, you need to install version 4.3.1 UUID be
 
 ### Step 1: Update configuration
 
-1. Ensure that the free space available is at least 10 times the space taken by AEM (crx-quickstart directory) during migration. Once you complete the migration , you can reclaim most of the disk space by running compaction (refer to [Revision Cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
+1. Ensure that the free space available is at least ten times the space taken by AEM (crx-quickstart directory) during migration. Once you complete the migration, you can reclaim most of the disk space by running compaction (refer to [Revision Cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
 
 1. Enable *Enable Post Processing Workflow Launchers* in `com.adobe.fmdita.config.ConfigManager` and *Enable Version Postprocessing* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
@@ -92,7 +92,7 @@ If you are using version 4.3 non-UUID, you need to install version 4.3.1 UUID be
 
 1. Open `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 
-![System upgrade tab in migration](assets/migration-system-upgrade.png){width="800" align="left"}
+    ![System upgrade tab in migration](assets/migration-system-upgrade.png){width="800" align="left"}
 
 1. Select **System upgrade** from the left panel to run the migration. Start on a folder with smaller data before running it on `/content/dam`.
 
@@ -101,31 +101,31 @@ If you are using version 4.3 non-UUID, you need to install version 4.3.1 UUID be
 
 >[!NOTE]
 >
-> Content migration can be run on a folder level or the complete `/content/dam` or on the same folder (rerun migration).
+> Content migration can be run on a folder level, the complete `/content/dam`, or the same folder (rerun migration).
 
-Additionally, it's important to make sure that the content migration is also done for all the media assets, such as images and graphics that you have used in the DITA content.
+Also, it's important to make sure that the content migration is done for all the media assets, such as images and graphics you have used in the DITA content.
 
 #### Baseline and Review migration
 
-Select **Baseline/Review Upgrade** from the left panel to migrate the baselines and review at folder level.  
+Select **Baseline/Review Upgrade** from the left panel to migrate the baselines and review at the folder level.  
 
-![Baseline and review tab in migration](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
+    ![Baseline and review tab in migration](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
 
 
 ### Step 3: Restore the configuration
 
-Once the server is migrated successfully, enable post-processing, tagging, and the following workflows (including all the other workflows which are disabled initially during the migration) to continue working on the server.
+Once the server is migrated successfully, enable post-processing, tagging, and the following workflows (including all the other workflows that were disabled initially during the migration) to continue working on the server.
 
 * DAM Update Asset workflow
 * DAM Metadata workflow
 
 >[!NOTE]
 >
->If some files are not processed or be corrupted before migration, and they would be corrupted before migration and remain corrupted even after migration.
+>If some files are not processed or corrupted before migration, they will be corrupted before migration and remain corrupted even after migration.
 
 ## Migration validation
 
-1. Once the migration is completed, select **Validate system upgrade** from the left panel and validate the output files before and after the migration to ensure the migration is successful. 
+1. Once the migration is completed, select **Validate system upgrade** from the left panel and validate the output files before and after the migration to ensure that the migration is successful. 
 
     ![Validate system upgrade tab in migration](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
