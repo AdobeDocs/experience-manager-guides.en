@@ -39,7 +39,7 @@ If you select **(Default)** from the dropdown and create variables, those defaul
  >You can use any HTML content as a variable value to display the variable value in specific formatting. For example, you can add `<b>` tag to the variable value to display the value **ProductA**  in bold. You can also add images from the repository as values. 
 1. Select **Add variable** <img alt= "Add icon" src="./assets/add-icon.svg" width="25"> to add a new variable to the selected variable set. Adding a variable to one set automatically adds it to all sets. You cannot create a variable with the same name as an existing variable. An error is displayed.
 
-[!NOTE]
+>[!NOTE]
 >
 >If you don’t select **Add variable** <img alt= "Add icon" src="./assets/add-icon.svg" width="25">, the variable is not created and added to the list.
 
@@ -126,8 +126,8 @@ You can preview a variable in two ways:
  
 #### From the Variables Editor 
 
-1.	Select a variable set from the dropdown in the **Variables** editor. 
-1.	Hover over the variable in the list to view the **Options** menu for it and then select **Preview**.
+1. Select a variable set from the dropdown in the **Variables** editor. 
+1. Hover over the variable in the list to view the **Options** menu for it and then select **Preview**.
 The preview of the variable  displays the value you have defined in the selected variable set.
  
 For example, for the variable set *Adobe-Set1*, you have defined the value of the ProductName variable as “ProductA”, then it displays this value in the preview.
@@ -150,6 +150,8 @@ The default name of the variable is `<selected variable name>` (like “sample�
 
 You can add variables while you generate the output of your product documents to make them portable and easy to update. You can insert these variables within the page layout that appears across the different pages in your documents. For example, you can add the variable ProductName  that appears in the page layout’s header area (or any other part like the footer or body).
 
+
+
 To insert a variable like your ProductName in the header area, perform the following steps:
 1. Open the required page layout for editing.
 
@@ -157,6 +159,8 @@ To insert a variable like your ProductName in the header area, perform the follo
     >
     > View [Customize a page layout](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) section for opening a page layout for customization or editing.
 1. Select the header to make it active to insert a variable.
+
+### Insert a variable
 
    You can insert the variable in two ways:
 
@@ -167,13 +171,10 @@ To insert a variable like your ProductName in the header area, perform the follo
 
 #### From the toolbar
 
-    1. Select **Insert Variable/Fields** <img alt= "variable icon" src="./assets/variables-icon.svg" width="25">.   
-    1. In the **Variable** dialog box, select the name of the variable to insert it in the header area.
-    1. You can also enter the search string in the text box. The variable names containing the given string are filtered and displayed in the list.
-    The selected variable is inserted in the header area. You can view the default value of the variable.
-    1. To replace a variable, double-click the variable value and select another variable from the **Variable** dialog box. The variable is replaced. 
-
-
+1. Select **Insert Variable/Fields** <img alt= "variable icon" src="./assets/variables-icon.svg" width="25">.   
+1. In the **Variable** dialog box, select the name of the variable to insert it in the header area.
+1. You can also enter the search string in the text box. The variable names containing the given string are filtered and displayed in the list. The selected variable is inserted in the header area. You can view the default value of the variable.
+1. To replace a variable, double-click the variable value and select another variable from the **Variable** dialog box. The variable is replaced. 
 
 
 ## Generate PDF output with a variable set
