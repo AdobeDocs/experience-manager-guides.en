@@ -16,18 +16,24 @@ Perform these steps to migrate your non-UUID versioned content to UUID content.
 |4.2 or Higher|   NA |Not supported yet|
 |4.3.x or Higher|   4.3.0 non-UUID |Install 4.3.1 (UUID) and run the migration |
 
-## Required packages for 4.0 or 4.1 
+## Package installation
+Install the required packages based on your version:
+<details>
+<summary>  Packages for version 4.0 or 4.1 </summary>
 If you are using version 4.0 non-UUID, you need to install version 4.1 UUID before installing the following packages:
 1. **Pre-migration**: `com.adobe.guides.pre-uuid-migration-1.0.9 .zip`
 1. **Migration**: `com.adobe.guides.uuid-upgrade-1.1.19.zip`
+</details>
 
 
-
-## Required packages for 4.3
+<details>
+<summary> Packages for version 4.3</summary>
 If you are using version 4.3 non-UUID, you need to install version 4.3.1 UUID before installing the following packages:
 
 1. **Pre-migration**: `com.adobe.guides.pre-uuid-migration-1.1.3.zip`
 1. **Migration**: ` com.adobe.guides.uuid-upgrade-1.1.15.zip`
+
+</details>
 
 ## Pre-migration
 
