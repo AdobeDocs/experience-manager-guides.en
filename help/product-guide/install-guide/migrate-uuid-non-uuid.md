@@ -10,9 +10,9 @@ You can migrate your non-UUID content to UUID.
 
 >[!IMPORTANT]
 >
-> Before migrating content to the UUID server, ensure that you've a non-UUID server with AEM Guides version 4.0 or 4.1 installed on it.
+> Before migrating content to the UUID server, ensure that you've a non-UUID server with compatible AEM Guides version  installed on it.
 
 
 
-* [**Migrate content with versions**](./migrate-non-uuid-uuid-with-versions.md)
-* [**Migrate content without versions**](./migrate-non-uuid-uuid-without-versions.md)
+* [**Migrate versioned content**](./migrate-non-uuid-uuid-with-versions.md)
+* [**Migrate unversioned content**](./migrate-non-uuid-uuid-without-versions.md)

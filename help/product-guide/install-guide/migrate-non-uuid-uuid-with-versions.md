@@ -1,9 +1,9 @@
 ---
-title: Convert non-UUID versioned content to UUID content
-description: Learn how to migrate non-UUID content with 4.3.x versions.
+title: Convert non-UUID content with versions to UUID content
+description: Learn how to migrate non-UUID content with versions to UUID content.
 
 ---
-# Migrate non-UUID versioned content
+# Migrate versioned content
 
 Perform these steps to migrate your non-UUID versioned content to UUID content. 
 
@@ -14,16 +14,17 @@ Perform these steps to migrate your non-UUID versioned content to UUID content.
 | 3.8.5|  4.0 non-UUID|Install 4.1 (UUID) and run the migration|
 |4.0, 4.0.x, 4.1, or 4.1.x  | Same as current non-UUID| Install 4.1 (UUID) and run the migration|
 |4.2 or Higher|   NA |Not supported yet|
-|4.3.x or Higher|   4.3.0 non-UUID |Install 4.3.1 (UUID) |
+|4.3.x or Higher|   4.3.0 non-UUID |Install 4.3.1 (UUID) and run the migration |
 
-## Required packages for 4.1 
-
+## Required packages for 4.0 or 4.1 
+If you are using version 4.0 non-UUID, you need to install version 4.1 UUID before installing the following packages:
 1. **Pre-migration**: `com.adobe.guides.pre-uuid-migration-1.0.9 .zip`
 1. **Migration**: `com.adobe.guides.uuid-upgrade-1.1.19.zip`
 
 
 
 ## Required packages for 4.3
+If you are using version 4.3 non-UUID, you need to install version 4.3.1 UUID before installing the following packages:
 
 1. **Pre-migration**: `com.adobe.guides.pre-uuid-migration-1.1.3.zip`
 1. **Migration**: ` com.adobe.guides.uuid-upgrade-1.1.15.zip`
@@ -124,10 +125,10 @@ Once the server is migrated successfully, enable post-processing, tagging, and t
 
 ## Migration validation
 
-Once the migration is completed, select **Validate system upgrade** from the left panel and validate the output files before and after the migration to ensure the migration is successful. 
+1. Once the migration is completed, select **Validate system upgrade** from the left panel and validate the output files before and after the migration to ensure the migration is successful. 
 
-![Validate system upgrade tab in migration](assets/migration-validate-system-upgrade.png){width="800" align="left"}
+    ![Validate system upgrade tab in migration](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
-1. Once the migration is completed, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. After the validation is done, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 
