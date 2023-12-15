@@ -12,6 +12,7 @@ Adobe Experience Manager Guides supports variable sets, which lets you assign yo
 Using variable sets, you define a different set of values for your variables. When you generate the output, you choose the appropriate variable set and produce the required output.
 
 ## Create a new variable
+
 A variable is a text phrase to which you assign a value. Follow these steps to create a variable for a variable set in your current DITA map:
 
  ![Create a new variable](assets/add-variable.png){width="800" align="left"}
@@ -26,14 +27,16 @@ A variable is a text phrase to which you assign a value. Follow these steps to c
 1. The variables in the selected variable set are listed alphabetically. The values are displayed according to the chosen variable set. For example, if you select the *Adobe-set1* variable set, “2311” is displayed as a value for the VersionNumber variable.
 1. From the **Variable sets** dropdown, select the desired set in which you want to add a variable.
 
-    >[!NOTE] 
-    >
-    >Every variable is added to all variable sets.
+ >[!NOTE] 
+ >
+ >Every variable is added to all variable sets.
+
 If you select **(Default)** from the dropdown and create variables, those default values are added to all variable sets. When you edit the values for the variables in specific variable sets, it overrides the default values.
+
 1 Enter the variable name in the **Name** column and its value in the **Value** column.
-    >[!TIP]
-    >
-    >You can use any HTML content as a variable value to display the variable value in specific formatting. For example, you can add `<b>` tag to the variable value to display the value **ProductA**  in bold. You can also add images from the repository as values. 
+ >[!TIP]
+ >
+ >You can use any HTML content as a variable value to display the variable value in specific formatting. For example, you can add `<b>` tag to the variable value to display the value **ProductA**  in bold. You can also add images from the repository as values. 
 1. Select **Add variable** <img alt= "Add icon" src="./assets/add-icon.svg" width="25"> to add a new variable to the selected variable set. Adding a variable to one set automatically adds it to all sets. You cannot create a variable with the same name as an existing variable. An error is displayed.
 
 [!NOTE]
@@ -59,6 +62,7 @@ You can also change the variable values as required and save the variable set.
 ### Edit a variable
 
 You can edit a variable in two ways:
+
 #### From the **Variables** panel on the left side
 
 1. Select a variable in the **Variables** panel. 
@@ -93,13 +97,13 @@ You can delete a variable in two ways:
 
 #### From the **Variables** panel on the left side
 
-1.	Select a variable in the **Variables** panel. 
-2.	Hover over the variable to view the **Options** menu for it and then select the **Delete** option.
+1. Select a variable in the **Variables** panel. 
+1. Hover over the variable to view the **Options** menu for it and then select the **Delete** option.
 
 #### From the Variables Editor 
 
-1.	Select a variable set from the dropdown in the **Variables** editor. 
-2.	Hover over the variable in the list to view the **Options** menu for it and then select **Delete** option.
+1. Select a variable set from the dropdown in the **Variables** editor. 
+1. Hover over the variable in the list to view the **Options** menu for it and then select **Delete** option.
 
 The variable is deleted from all the variable sets.
 
@@ -111,10 +115,10 @@ You can preview a variable in two ways:
 #### From the **Variables** panel on the left side
 
 
-1.	Select a variable in the **Variables** panel. 
-1.	Hover over the variable to view the **Options** menu for it and then select the **Preview** option.
+1. Select a variable in the **Variables** panel. 
+1. Hover over the variable to view the **Options** menu for it and then select the **Preview** option.
 
-    The preview of the variable  displays the default value. For example, if you have defined the default value of the ProductName variable as “Adobe Experience Manager Guides”, it displays this value in the preview.
+  The preview of the variable  displays the default value. For example, if you have defined the default value of the ProductName variable as “Adobe Experience Manager Guides”, it displays this value in the preview.
 
  ![variable preview from the variables panel](assets/variables-panel-preview.png){width="550" align="left"}
 
@@ -133,10 +137,11 @@ For example, for the variable set *Adobe-Set1*, you have defined the value of th
 *Preview the value that you have defined in the selected variable set.*
 
 ### Duplicate a variable
+
 You can duplicate a variable and modify the value according to your requirements. 
 
-1.	Select a variable set from the dropdown in the **Variables** editor. 
-2.	Hover over the variable in the list to view the **Options** menu for it and then select  **Duplicate**.
+1. Select a variable set from the dropdown in the **Variables** editor. 
+1. Hover over the variable in the list to view the **Options** menu for it and then select  **Duplicate**.
 
 The default name of the variable is `<selected variable name>` (like “sample”). You can change the name according to your requirements.
 
@@ -151,17 +156,16 @@ To insert a variable like your ProductName in the header area, perform the follo
     >[!NOTE]
     >
     > View [Customize a page layout](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) section for opening a page layout for customization or editing.
-
 1. Select the header to make it active to insert a variable.
 
-    You can insert the variable in two ways:
+   You can insert the variable in two ways:
 
-    #### From the **Variables** panel on the left side
+#### From the **Variables** panel on the left side
 
-    Drag a variable from the **Variables** panel and drop it on the header area.
+   Drag a variable from the **Variables** panel and drop it on the header area.
 
 
-    #### From the toolbar
+#### From the toolbar
 
     1. Select **Insert Variable/Fields** <img alt= "variable icon" src="./assets/variables-icon.svg" width="25">.   
     1. In the **Variable** dialog box, select the name of the variable to insert it in the header area.
@@ -173,6 +177,7 @@ To insert a variable like your ProductName in the header area, perform the follo
 
 
 ## Generate PDF output with a variable set
+
 You can generate the PDF output with the values of different variable sets. 
 Before generating the layout, choose a variable set from an output preset's **Variable set** drop-down list.
  
