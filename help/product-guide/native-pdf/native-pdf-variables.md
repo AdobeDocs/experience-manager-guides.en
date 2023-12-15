@@ -26,7 +26,7 @@ For example, you can create a variable set for each product release.
 
 ## Create a new variable
 
-A variable is a text phrase to which you assign a value. Follow these steps to create a variable for a variable set in your current DITA map:
+Perform the following steps to create a variables for a variable set in your current DITA map:
 
  ![Create a new variable](assets/add-variable.png){width="800" align="left"}
 
