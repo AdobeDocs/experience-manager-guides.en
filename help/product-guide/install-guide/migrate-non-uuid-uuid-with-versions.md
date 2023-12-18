@@ -26,8 +26,8 @@ Download the required packages from Adobe Software Distribution Portal, based on
 <summary>  Packages for version 4.1 </summary>
 If you are using version 4.1 non-UUID, you need to install version 4.1 UUID before installing the following packages:
 
-1. **Pre-migration**: `com.adobe.guides.pre-uuid-migration-1.0.9    .zip`
-1. **Migration**: `com.adobe.guides.uuid-upgrade-1.0.19.zip`
+1. **Pre-migration**: [com.adobe.guides.pre-uuid-migration-1.0.9.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.pre-uuid-migration-1.0.9.zip)
+1. **Migration**: [com.adobe.guides.uuid-upgrade-1.0.19.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.uuid-upgrade-1.0.19.zip)
 </details>
 
 
