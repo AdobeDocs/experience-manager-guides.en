@@ -79,9 +79,9 @@ If you are using version 4.3 non-UUID, you need to install version 4.3.1 UUID be
 
 1. Install the UUID version of the supported release over the non-UUID version. For example, if you're using a 4.0 non-UUID build or a 4.1 non-UUID build, you need to install UUID version 4.1.
 
-1. Install the new package for uuid migration (`com.adobe.guides.uuid-upgrade-1.1.13`).
+1. Install the new package for uuid migration.
 
-1. Disable the following workflows and any other workflow that runs on `/content/dam` using launchers in `http://localhost:4502/libs/cq/workflow/content/console.html`.
+1. Disable the following workflows and any other workflow that runs on `/content/dam` using launchers in `http://<server-name>/libs/cq/workflow/content/console.html`.
 
     * DAM Update Asset workflow
     * DAM Metadata Writeback workflow
