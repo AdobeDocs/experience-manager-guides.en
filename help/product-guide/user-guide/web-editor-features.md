@@ -141,7 +141,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Publish Profile**: This contains the Publish Profiles that can be used to publish the Knowledge Base output. You can create a new profile for a target Knowledge Base. For example, Salesforce or ServiceNow.
+- **Publish Profile**: This contains the Publish Profiles that can be used to publish the **Knowledge Base** output. You can create a new profile for a target knowledge base. For example, Salesforce or ServiceNow.
 
     - **Requirements to create a Salesforce Publish Profile**
         
