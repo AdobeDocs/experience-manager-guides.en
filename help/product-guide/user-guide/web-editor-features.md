@@ -184,7 +184,7 @@ Once you have configured the app, create the **ServiceNow** Publish Profile.
 
 To create a Publish Profile, select the ServiceNow Knowledge Base from the **Server Type** dropdown. Enter a profile **Name**. In the **ServiceNow URL**, enter the consumer site you would use for publishing the output and then add the **Username** and **Password** provided by the ServiceNow consumer site. Then, **Validate** and **Save** the newly created profile.
  
-![ServiceNow publish profile](./images/service-now-publish-profile.png){width="300" align="left"}
+![ServiceNow publish profile](./images/service-now-publish-profile.png){width="550" align="left"}
 
 After you validate, you can select the Publish Profile in the output presets of a DITA Map and use it to generate the output to the  **Salesforce** or **ServiceNow** server that you have chosen. 
 
