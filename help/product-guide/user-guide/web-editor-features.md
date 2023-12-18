@@ -175,7 +175,9 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
     - Connect to the **ServiceNow** server.
     - Navigate to **System Properties** > **Security**. 
     - Uncheck the following option:
-    ![ServiceNow upload assets configuration](./images/service-now-upload-asssets-config.png){width="800" align="left"}
+
+        **This property must be set to activate MIME type checking for uploads (All versions Eureka and up). Enables (true) or disbles (false) mime type validation for the file attachments. File extensions configured via glide.attachment.extensions will be checked for MIME type during upload.**  
+    
     - Click **Save**.
     
 Once you have configured the app, create the **ServiceNow** Publish Profile.
