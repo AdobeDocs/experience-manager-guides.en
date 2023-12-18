@@ -141,7 +141,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Publish Profile**: This contains the Publish Profiles that can be used to publish the knowledge base output. You can create a new profile for a target Knowledge base. For example, Salesforce or ServiceNow.
+- **Publish Profile**: This contains the Publish Profiles that can be used to publish the Knowledge Base output. You can create a new profile for a target Knowledge Base. For example, Salesforce or ServiceNow.
 
     - **Requirements to create a Salesforce Publish Profile**
         
@@ -163,7 +163,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
     ![salesforce publish profile in editor settings](./images/salesforce-publish-profile.png){width="550" align="left"}
     
 
-- To create a Salesforce Publish Profile, select the **Salesforce** knowledge base from the **Server Type** dropdown. Enter a profile Name. In the **Site URL**, enter the consumer site you would use to publish the output and then add the **Consumer Key** and **Consumer Secret** provided by the Salesforce consumer site. Then, **Validate** and **Save** the newly created profile.
+- To create a Salesforce Publish Profile, select the **Salesforce** Knowledge Base from the **Server Type** dropdown. Enter a profile Name. In the **Site URL**, enter the consumer site you would use to publish the output and then add the **Consumer Key** and **Consumer Secret** provided by the Salesforce consumer site. Then, **Validate** and **Save** the newly created profile.
 
     >[!NOTE]
     >
