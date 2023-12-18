@@ -141,7 +141,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Publish Profile**: This contains the Publish Profiles that can be used to publish the knowledge base output. You can create a new profile for a selected consumer type. For example, Salesforce or ServiceNow.
+- **Publish Profile**: This contains the Publish Profiles that can be used to publish the knowledge base output. You can create a new profile for a target Knowledge base. For example, Salesforce or ServiceNow.
 
     - **Requirements to create a Salesforce Publish Profile**
         
@@ -160,7 +160,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
     Once the app is configured, Salesforce provides a **Consumer Key** and **Consumer Secret**.
 
     These can be used to create the Salesforce Publish Profile. 
-    ![salesforce publish profile in editor settings](./images/salesforce-publish-profile.png){width="300" align="left"}
+    ![salesforce publish profile in editor settings](./images/salesforce-publish-profile.png){width="550" align="left"}
     
 
 - To create a Salesforce Publish Profile, select the **Salesforce** knowledge base from the **Server Type** dropdown. Enter a profile Name. In the **Site URL**, enter the consumer site you would use to publish the output and then add the **Consumer Key** and **Consumer Secret** provided by the Salesforce consumer site. Then, **Validate** and **Save** the newly created profile.
@@ -175,7 +175,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
     - Connect to the **ServiceNow** server.
     - Navigate to **System Properties** > **Security**. 
     - Uncheck the following option:
-    ![ServiceNow upload assets configuration](./images/service-now-upload-asssets-config.png){width="300" align="left"}
+    ![ServiceNow upload assets configuration](./images/service-now-upload-asssets-config.png){width="800" align="left"}
     - Click **Save**.
     
 Once you have configured the app, create the **ServiceNow** Publish Profile.
