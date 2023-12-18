@@ -42,7 +42,7 @@ If you are using version 4.3 non-UUID, you need to install version 4.3.1 UUID be
 
 ## Pre-migration
 
-1. (Optional) Perform version purging on the content to remove unnecessary versions and speed up the migration process. To perform version purging, select the option **Version Purge** from the migration screen at, and go to the user interface using this URL `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
+1. (Optional) Perform version purging on the content to remove the unnecessary versions and speed up the migration process. To perform version purging, select the option **Version Purge** from the migration screen, and go to the user interface using the URL `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
 
     >[!NOTE]
     >
