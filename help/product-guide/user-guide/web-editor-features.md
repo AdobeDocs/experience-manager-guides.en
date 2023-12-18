@@ -198,7 +198,7 @@ Learn more about the [Knowledge Base](../user-guide/generate-output-knowledge-ba
         >[!NOTE]
         >The selected Schematron file(s) will persist for the selected folder profile.
 
-        ![Validation in editor settings](./images/editor-setting-validation.png){width="300" align="left"}
+        ![Validation in editor settings](./images/editor-setting-validation.png){width="550" align="left"}
         This prevents the users from saving any file which breaks a rule defined in the selected Schematron file(s). If this is not selected the file will not be validated before saving the changes.
 
     - **Allow all users to add schematron files in validation panel**: Select this to allow the users to add any Schematron file in the Validation panel of the Web Editor. This allows the users to add Schematron files and then validate the topics against the Schematron file. If this is not selected the **Add Schematron File** button is not available to the users in the **Validation panel** of the Web Editor.
