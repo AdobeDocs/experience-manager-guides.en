@@ -7,21 +7,24 @@ description: Learn how to migrate non-UUID content with versions to UUID content
 
 Perform these steps to migrate your non-UUID versioned content to UUID content. 
 
+>[!NOTE]
+>
+>Follow the upgrade instructions according to your version before migrating to the required UUID version.
+
 ## Compatibility matrix
 
 |Current Experience Manager Guides version (non-UUID)|Required Version to migrate to UUID| Supported Upgrade path| 
 |---|---|---|
-| 3.8.5|  4.0 non-UUID|Install 4.1 (UUID) and run the migration|
-|4.0, 4.0.x, 4.1, or 4.1.x  | Same as current non-UUID| Install 4.1 (UUID) and run the migration|
-|4.2 or Higher|   NA |Not supported yet|
-|4.3.x or Higher|   4.3.0 non-UUID |Install 4.3.1 (UUID) and run the migration |
+| 3.8.5, 4.0.x, or 4.1.x  |  4.1 non-UUID|Install 4.1 (UUID) and run the migration|
+|4.2, 4.2.x, or 4.3|   4.3.0 non-UUID |Install 4.3.1 (UUID) and run the migration|
+|4.3.1|   NA |NA |
 
 ## Package installation
 
 Download the required packages from Adobe Software Distribution Portal, based on your version, and install them:
 <details>
-<summary>  Packages for version 4.0 or 4.1 </summary>
-If you are using version 4.0 non-UUID, you need to install version 4.1 UUID before installing the following packages:
+<summary>  Packages for version 4.1 </summary>
+If you are using version 4.1 non-UUID, you need to install version 4.1 UUID before installing the following packages:
 
 1. **Pre-migration**: `com.adobe.guides.pre-uuid-migration-1.0.9    .zip`
 1. **Migration**: `com.adobe.guides.uuid-upgrade-1.0.19.zip`
@@ -29,7 +32,7 @@ If you are using version 4.0 non-UUID, you need to install version 4.1 UUID befo
 
 
 <details>
-<summary> Packages for version 4.3</summary>
+<summary> Packages for version 4.3.1</summary>
 If you are using version 4.3 non-UUID, you need to install version 4.3.1 UUID before installing the following packages:
 
 1. **Pre-migration**: [com.adobe.guides.pre-uuid-migration-1.1.3.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.pre-uuid-migration-1.1.3.zip)
@@ -44,7 +47,7 @@ If you are using version 4.3 non-UUID, you need to install version 4.3.1 UUID be
     >[!NOTE]
     >
     >This utility does not remove any versions used in baselines or reviews or has any labels.
-1. Install the pre-migration package (`com.adobe.guides.pre-uuid-migration-1.1.2 .zip`).
+1. Install the pre-migration package according to your version.
 
    >[!NOTE]
    >
@@ -78,7 +81,7 @@ If you are using version 4.3 non-UUID, you need to install version 4.3.1 UUID be
 
 1. Enable *Enable Post Processing Workflow Launchers* in `com.adobe.fmdita.config.ConfigManager` and *Enable Version Postprocessing* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
-1. Install the UUID version of the supported release over the non-UUID version. For example, if you're using a 4.0 non-UUID build or a 4.1 non-UUID build, you need to install UUID version 4.1.
+1. Install the UUID version of the supported release over the non-UUID version. For example, if you're using 4.1 non-UUID build, you need to install UUID version 4.1 and run the migration.
 
 1. Install the new package for uuid migration.
 
