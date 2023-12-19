@@ -49,11 +49,7 @@ Perform the following checks on the non-UUID version (4.1 non-UUID or 4.3.0 non-
    >* You need administrator permission to execute the migration. 
    >* Fixing the files with errors before proceeding with the migration is recommended. 
 
-1. (Optional) Perform version purging on the content to 
- remove unnecessary versions and speed up the migration 
-  process. To perform version purging, select the option 
-   **Version Purge** from the migration screen and go to the 
-    user interface using the URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
+1. (Optional) Perform version purging on the content to remove unnecessary versions and speed up the migration process. To perform version purging, select the option **Version Purge** from the migration screen and go to the user interface using the URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
    >[!NOTE]
    >
    >This utility does not remove any versions used in baselines or reviews or has any labels.   
