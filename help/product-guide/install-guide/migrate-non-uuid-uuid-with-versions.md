@@ -46,10 +46,8 @@ Perform the following checks on the non-UUID version (4.1 non-UUID or 4.3.0 non-
 
    >[!NOTE]
    >
-   >* You need administrator permission to execute the 
-    migration. 
-   >* Fixing the files with errors before proceeding with the 
-    migration is recommended. 
+   >* You need administrator permission to execute the migration. 
+   >* Fixing the files with errors before proceeding with the migration is recommended. 
 
 1. (Optional) Perform version purging on the content to 
  remove unnecessary versions and speed up the migration 
@@ -58,9 +56,8 @@ Perform the following checks on the non-UUID version (4.1 non-UUID or 4.3.0 non-
     user interface using the URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
    >[!NOTE]
    >
-   >This utility does not remove any versions used in 
-    baselines or reviews or has any labels.   
-1. Launch `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
+   >This utility does not remove any versions used in baselines or reviews or has any labels.   
+1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
 1. Select **Compatibility Assessment**  from the left panel and browse a folder path.
 1. Check the compatibility to list the following information:
     * Total files
