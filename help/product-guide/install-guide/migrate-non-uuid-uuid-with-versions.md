@@ -53,6 +53,7 @@ Perform the following checks on the non-UUID version (4.1 non-UUID or 4.3.0 non-
    >[!NOTE]
    >
    >This utility does not remove any versions used in baselines or reviews or has any labels.   
+
 1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
 1. Select **Compatibility Assessment**  from the left panel and browse a folder path.
 1. Check the compatibility to list the following information:
