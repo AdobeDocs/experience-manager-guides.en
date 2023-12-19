@@ -39,6 +39,7 @@ Download the required packages from Adobe Software Distribution Portal, based on
 </details>
 
 ## Pre-migration
+
 Perform the following checks on the non-UUID version (4.1 non-UUID or 4.3.0 non-UUID):
 
 1. Install the pre-migration package according to your version.
