@@ -269,7 +269,7 @@ Perform the following steps to configure the DITA map extension:
 1.  In the **Extensions** tab, make the following changes:
      -  Click **Choose** next to the **Extensions bundle** and select   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` in the **Class** list. Click **OK**.
 
-     -   Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
+     -   Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` in the **Class** list. Click **OK**.
 
     -  Click **Choose** next to the **Author external object insertion handler** under **Individual Extensions** and select `CustomURLInsertionHandler - com.adobe.o2.ui ` in the **Class** list. Click **OK**.
 
