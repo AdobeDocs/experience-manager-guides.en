@@ -240,7 +240,7 @@ Perform the following steps to configure profiling attributes and cross referenc
 
     ![document type association](images/document_type_association.png){width="650" align="left"}
 
-1.  In the **Classpath** tab, select com.adobe.o2.connector in the **Use Parent Class Loader From Plugin with ID** drop-down.
+1.  In the **Classpath** tab, select `com.adobe.o2.connector` in the **Use Parent Class Loader From Plugin with ID** drop-down.
 
     ![Class path tab](images/dita-extension.png){width="650" align="left"}
 
@@ -273,7 +273,7 @@ Perform the following steps to configure the DITA map extension:
 
     -  Click **Choose** next to the **Author external object insertion handler** under **Individual Extensions** and select `CustomURLInsertionHandler - com.adobe.o2.ui ` in the **Class** list. Click **OK**.
 
-    -   Click **Choose** next to the **Author Custom Attribute Value Editor** under **Individual Extensions** and select CustomValueEditor - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
+    -   Click **Choose** next to the **Author Custom Attribute Value Editor** under **Individual Extensions** and select `CustomValueEditor - com.adobe.o2.framework.extn` in the **Class** list. Click **OK**.
 
     -  Click **Choose** next to the **References resolver** under **Individual Extensions** and select `CustomDITAMapReferenceResolver - com.adobe.o2` in the **Class** list. Click **OK**.
     -   *\(Optional\)* If you do not want to resolve references while opening a map file, then you need to perform the following additional configuration:
