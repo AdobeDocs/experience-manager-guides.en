@@ -263,7 +263,7 @@ The DITA map extension configuration is required to enable opening of map files 
 
 Perform the following steps to configure the DITA map extension:
 
-1.  In Oxygen XML Author, click**Options** \> **Preferences**.
+1.  In Oxygen XML Author, click **Options** \> **Preferences**.
 1.  In the **Document Type Association** tab, select **DITA Map**, and then click **Extend**.
 1.  In the **Classpath** tab, select com.adobe.o2.connector in the **Use Parent Class Loader From Plugin with ID** drop-down.
 1.  In the **Extensions** tab, make the following changes:
@@ -436,7 +436,7 @@ When you check in a file, the local copy from your system is stored in the AEM r
 
     ![Check in dialog](images/checkin-dropdown-labels.png){width="550" align="left"}
 
-    You can add multiple labels (separated by commas) to the same version of a topic.  For example, *Adobe*, *AEM*,*Guides*
+    You can add multiple labels (separated by commas) to the same version of a topic.  For example, *Adobe*, *AEM*, *Guides*.
     However, you cannot add the same label to the different versions of a topic. If you add a label that you have already added to a earlier version, it is added to the latest version and removed from the earlier version.
 
     >[!NOTE]
