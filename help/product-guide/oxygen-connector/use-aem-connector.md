@@ -267,13 +267,16 @@ Perform the following steps to configure the DITA map extension:
 1.  In the **Document Type Association** tab, select **DITA Map**, and then click **Extend**.
 1.  In the **Classpath** tab, select com.adobe.o2.connector in the **Use Parent Class Loader From Plugin with ID** drop-down.
 1.  In the **Extensions** tab, make the following changes:
-    -   Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
+     -  Click **Choose** next to the **Extensions bundle** and select   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` in the **Class** list. Click **OK**.
+
+     -   Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
+
+    -  Click **Choose** next to the **Author external object insertion handler** under **Individual Extensions** and select `CustomURLInsertionHandler - com.adobe.o2.ui ` in the **Class** list. Click **OK**.
+
     -   Click **Choose** next to the **Author Custom Attribute Value Editor** under **Individual Extensions** and select CustomValueEditor - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
 
     -  Click **Choose** next to the **References resolver** under **Individual Extensions** and select `CustomDITAMapReferenceResolver - com.adobe.o2` in the **Class** list. Click **OK**.
     -   *\(Optional\)* If you do not want to resolve references while opening a map file, then you need to perform the following additional configuration:
-
-    - Click **Choose** next to the **References Resolver** under **Individual Extensions** and select CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn in the **Class** list. Click **OK**.
 
     The following screenshot shows the configured **Extension** tab:
     <img src="images/dita-map-extension-tab.png" alt= "Configured extension for DITA map" width=650 border="2px">
