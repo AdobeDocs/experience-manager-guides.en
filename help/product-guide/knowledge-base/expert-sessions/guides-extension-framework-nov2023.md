@@ -43,7 +43,7 @@ In this session, you learnt about following:
 
 - **Documented common use cases** - [on Experience League](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
  
-- **Public repository with samples** - [on GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Refer branch refer sc-expert-session
+- **Public repository with samples** - [on GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Refer branch sc-expert-session
 
 
 >[!NOTE]
