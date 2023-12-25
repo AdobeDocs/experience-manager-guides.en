@@ -374,6 +374,7 @@ breadcrumb-title: AEM Guides Guide
     + [Learning native PDF publishing - part 1](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
     + [Learning native PDF publishing - Hands on lab - BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
     + [Extension Framework of AEM Guides](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
+    + [External Datasource Integration](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
   + Articles {#kb-articles}
     + Authoring {#authoring}
       + Reports {#reports}
