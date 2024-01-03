@@ -143,15 +143,17 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
 - **Publish Profile**: This contains the Publish Profiles that can be used to publish the **Knowledge Base** output. You can create a new profile for a target knowledge base. For example, Salesforce or ServiceNow.
 
-    - **Requirements to create a Salesforce Publish Profile**
+    - **Create a Salesforce Publish Profile**
+
+        **Prerequisites**
         
-        - Create a connected app for Salesforce. For more details see [Enable OAuth Settings for API Integration](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
+        - Create a connected app for Salesforce. For more details, refer to [Enable OAuth Settings for API Integration](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
         
         - While configuring the connected app ensure the following:
 
             - Specify the callback. 
             
-              `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+              `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
             - Select the following OAuth Scopes:
                 - Full access (full)
@@ -160,16 +162,19 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
     Once the app is configured, Salesforce provides a **Consumer Key** and **Consumer Secret**.
 
     These can be used to create the Salesforce Publish Profile. 
-    ![salesforce publish profile in editor settings](./images/salesforce-publish-profile.png){width="550" align="left"}
-    
+     
 
 - To create a Salesforce Publish Profile, select the **Salesforce** Knowledge Base from the **Server Type** dropdown. Enter a profile Name. In the **Site URL**, enter the consumer site you would use to publish the output and then add the **Consumer Key** and **Consumer Secret** provided by the Salesforce consumer site. Then, **Validate** and **Save** the newly created profile.
+![salesforce publish profile in editor settings](./images/salesforce-publish-profile.png){width="550" align="left"}
 
     >[!NOTE]
     >
     >To configure a proxy for Salesforce in Experience Manager Guides, use Apache HTTP Components Proxy Configuration in AEM. Learn how to [configure proxy for the AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
-- **Requirements to create a ServiceNow Publish Profile**
+
+- **Create a ServiceNow Publish Profile**
+
+    **Prerequisites**
 
     Configure the ServiceNow server to upload the assets.
     - Connect to the **ServiceNow** server.
@@ -182,7 +187,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
     
 Once you have configured the app, create the **ServiceNow** Publish Profile.
 
-To create a Publish Profile, select the ServiceNow Knowledge Base from the **Server Type** dropdown. Enter a profile **Name**. In the **ServiceNow URL**, enter the consumer site you would use for publishing the output and then add the **Username** and **Password** provided by the ServiceNow consumer site. Then, **Validate** and **Save** the newly created profile.
+- To create a Publish Profile, select the ServiceNow Knowledge Base from the **Server Type** dropdown. Enter a profile **Name**. In the **ServiceNow URL**, enter the consumer site you would use for publishing the output and then add the **Username** and **Password** provided by the ServiceNow consumer site. Then, **Validate** and **Save** the newly created profile.
  
 ![ServiceNow publish profile](./images/service-now-publish-profile.png){width="550" align="left"}
 
