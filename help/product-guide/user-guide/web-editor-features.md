@@ -164,7 +164,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
     These can be used to create the Salesforce Publish Profile. 
      
 
-- To create a Salesforce Publish Profile, select the **Salesforce** Knowledge Base from the **Server Type** dropdown. Enter a profile Name. In the **Site URL**, enter the consumer site you would use to publish the output and then add the **Consumer Key** and **Consumer Secret** provided by the Salesforce consumer site. Then, **Validate** and **Save** the newly created profile.
+  - To create a Salesforce Publish Profile, select the **Salesforce** Knowledge Base from the **Server Type** dropdown. Enter a profile Name. In the **Site URL**, enter the consumer site you would use to publish the output and then add the **Consumer Key** and **Consumer Secret** provided by the Salesforce consumer site. Then, **Validate** and **Save** the newly created profile.
 ![salesforce publish profile in editor settings](./images/salesforce-publish-profile.png){width="550" align="left"}
 
     >[!NOTE]
@@ -172,7 +172,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
     >To configure a proxy for Salesforce in Experience Manager Guides, use Apache HTTP Components Proxy Configuration in AEM. Learn how to [configure proxy for the AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-- **Create a ServiceNow Publish Profile**
+  - **Create a ServiceNow Publish Profile**
 
     **Prerequisites**
 
@@ -185,15 +185,14 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
     
     - Click **Save**.
     
-Once you have configured the app, create the **ServiceNow** Publish Profile.
-
-- To create a Publish Profile, select the ServiceNow Knowledge Base from the **Server Type** dropdown. Enter a profile **Name**. In the **ServiceNow URL**, enter the consumer site you would use for publishing the output and then add the **Username** and **Password** provided by the ServiceNow consumer site. Then, **Validate** and **Save** the newly created profile.
+     Once you have configured the app, create the **ServiceNow** Publish Profile.
+   - To create a Publish Profile, select the ServiceNow Knowledge Base from the **Server Type** dropdown. Enter a profile **Name**. In the **ServiceNow URL**, enter the consumer site you would use for publishing the output and then add the **Username** and **Password** provided by the ServiceNow consumer site. Then, **Validate** and **Save** the newly created profile.
  
-![ServiceNow publish profile](./images/service-now-publish-profile.png){width="550" align="left"}
+       ![ServiceNow publish profile](./images/service-now-publish-profile.png){width="550" align="left"}
 
-After you validate, you can select the Publish Profile in the output presets of a DITA Map and use it to generate the output to the  **Salesforce** or **ServiceNow** server that you have chosen. 
+   After you validate, you can select the Publish Profile in the output presets of a DITA Map and use it to generate the output to the  **Salesforce** or **ServiceNow** server that you have chosen. 
 
-Learn more about the [Knowledge Base](../user-guide/generate-output-knowledge-base.md) output preset. 
+   Learn more about the [Knowledge Base](../user-guide/generate-output-knowledge-base.md) output preset. 
 
 
 - **Validation**: This tab contains options to configure the Schematron Validations in the Web editor. You can enable the following features:
