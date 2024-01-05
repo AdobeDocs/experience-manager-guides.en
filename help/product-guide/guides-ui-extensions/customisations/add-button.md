@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+title: Simple customisation
+description: Simple customisation example
 ---
 
 # Simple customisation example
@@ -52,7 +53,7 @@ In the above example we have:
 2. the target is the `addcomment` button. We add our button after the `addcomment` button using the viewState `append`.
 3. We define the on-click event of the button in the controller.
 
-The JSON for the [`annotation_toolbox`](./../../../jsons/review_app/annotation_toolbox.json)
+The JSON for the "annotation_toolbox"  `.src/jsons/review_app/annotation_toolbox.json`
 
 Before customisation, the annotation toolbox looked like this:
 
@@ -81,4 +82,4 @@ The primary way to manage css is through the extraClass key in the extensions.
 
 ```
 
-You can put custom styles with CSS classes by adding a css file to [clientlibs](#clientlibs). During the build we also create [Tailwind](https://tailwindcss.com/docs/utility-first) output for the utility classes in tailwind. The config for the same can be found at [tailwind.config.js](../../../tailwind.config.js)
+You can put custom styles with CSS classes by adding a css file to clientlibs. During the build we also create [Tailwind](https://tailwindcss.com/docs/utility-first) output for the utility classes in tailwind. The config for the same can be found at the extension's `tailwind.config.js` at `./tailwind.config.js`
