@@ -399,7 +399,7 @@ breadcrumb-title: AEM Guides Guide
         + [Customising Toolbar & Topbar](./guides-ui-extensions/customisations/toolbar-topbar.md)
       + Review{#review-app-customisations}
         + [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
-        + [Customising](./guides-ui-extensions/customisations/ReviewApp/customisations.md)
+        + [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
     + Publishing {#publishing}
       + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
