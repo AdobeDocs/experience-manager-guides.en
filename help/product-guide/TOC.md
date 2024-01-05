@@ -400,6 +400,8 @@ breadcrumb-title: AEM Guides Guide
       + Review{#review-app-customisations}
         + [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
         + [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+        + [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
+        + [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
     + Publishing {#publishing}
       + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
