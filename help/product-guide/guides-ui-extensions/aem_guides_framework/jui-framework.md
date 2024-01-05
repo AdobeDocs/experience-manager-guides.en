@@ -1,5 +1,6 @@
 ---
-sidebar_position: 4
+title: Jui Framework
+description: Understanding Jui Framework
 ---
 # Jui Framework
 
@@ -17,7 +18,7 @@ JUI-React-Spectrum  library has wrapper widgets of Adobe React Spectrum compone
 
 ### MVC UI Design
 
-![Alt text](./imgs/jui-mvc-flow.png)
+![JUI MVC flow](./imgs/jui-mvc-flow.png)
 
 ### Widget
 
@@ -29,7 +30,7 @@ JUI-React-Spectrum  library has wrapper widgets of Adobe React Spectrum compone
 - Can have other widgets
 - App is a Widgets
 
-![Alt text](./imgs/jui-widget.png)
+![JUI Widget](./imgs/jui-widget.png)
 
 ### Element
 
@@ -70,4 +71,4 @@ JUI-React-Spectrum  library has wrapper widgets of Adobe React Spectrum compone
 
 ### Sample App design
 
-![Alt text](./imgs/jui-sample-app.png)
+![Sample App](./imgs/jui-sample-app.png)

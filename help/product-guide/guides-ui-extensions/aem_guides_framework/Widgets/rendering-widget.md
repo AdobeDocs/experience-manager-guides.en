@@ -1,7 +1,7 @@
 ---
-sidebar_position: 2
+title: Rendering widgets
+description: How rendering works in JUI Widgets
 ---
-
 # Rendering widgets
 
 We can render a widget by referencing it using its `id`

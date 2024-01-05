@@ -1,7 +1,7 @@
 ---
-sidebar_position: 1
+title: Widgets
+description: Understanding Widgets
 ---
-
 
 # Widgets
 

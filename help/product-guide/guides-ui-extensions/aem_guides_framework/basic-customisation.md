@@ -1,5 +1,6 @@
 ---
-sidebar_position: 3
+title: Customising the app
+description: Customising the app
 ---
 # Customising the app
 
