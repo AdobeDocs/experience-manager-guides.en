@@ -1,5 +1,6 @@
 ---
-sidebar_position: 4
+title: Jui Framework
+description: Understanding Jui Framework
 ---
 # Jui Framework
 
