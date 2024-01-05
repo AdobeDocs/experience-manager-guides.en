@@ -53,7 +53,7 @@ In the above example we have:
 2. the target is the `addcomment` button. We add our button after the `addcomment` button using the viewState `append`.
 3. We define the on-click event of the button in the controller.
 
-The JSON for the [`annotation_toolbox`](./../../../jsons/review_app/annotation_toolbox.json)
+The JSON for the "annotation_toolbox"  `.src/jsons/review_app/annotation_toolbox.json``
 
 Before customisation, the annotation toolbox looked like this:
 
