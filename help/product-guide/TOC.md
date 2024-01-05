@@ -389,9 +389,9 @@ breadcrumb-title: AEM Guides Guide
       + Getting Started {#getting-started}
         + [Introduction](./guides-ui-extensions/getting-started/Introduction.md)
         + [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
-        + [Extension Repositry intro](./guides-ui-extensions/customisations/add_button.md)
+        + [Extension Repositry intro](./guides-ui-extensions/getting-started/extension-repo-intro.md)
       + Customisations {#customisations}
-        + [Simple customisation](./guides-ui-extensions/getting-started/Introduction.md)
+        + [Simple customisation](./guides-ui-extensions/customisations/add-button.md)
     + Publishing {#publishing}
       + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
