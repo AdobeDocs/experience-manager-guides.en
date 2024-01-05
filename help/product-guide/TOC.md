@@ -394,7 +394,7 @@ breadcrumb-title: AEM Guides Guide
           + [Icon](./guides-ui-extensions/aem_guides_framework/components/icon.md)
           + [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
           + [List](./guides-ui-extensions/aem_guides_framework/components/list.md)
-          + [Textarea](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
+          + [Textarea](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
         + Widgets {#framework-widgets}
           + [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
           + [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
