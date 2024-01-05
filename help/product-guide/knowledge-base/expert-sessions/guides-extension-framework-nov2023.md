@@ -39,9 +39,9 @@ In this session, you learnt about following:
 
 - **Extension Framework base repository** - [GIT](https://github.com/adobe/guides-extension/tree/main) 
  
-- **Documentation** - [on Experience League](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
+- **Documentation** - [on Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Documented common use cases** - [on Experience League](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
+- **Documented common use cases** - [on Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
  
 - **Public repository with samples** - [on GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Refer branch sc-expert-session
 

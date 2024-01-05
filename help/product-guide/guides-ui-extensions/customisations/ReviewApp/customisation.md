@@ -1,3 +1,8 @@
+---
+title: Customising
+description: Customising the review app
+---
+
 # Customising the review app
 
 To ease the customisation of the review app we have provided some hooks listed and explained below:
