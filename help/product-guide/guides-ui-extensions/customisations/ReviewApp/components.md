@@ -1,7 +1,7 @@
 ---
-sidebar_position: 5
+title: Components
+description: Review App Components
 ---
-
 
 # Components of the Review App
 

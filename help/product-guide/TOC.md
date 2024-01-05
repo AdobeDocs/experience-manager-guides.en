@@ -392,6 +392,10 @@ breadcrumb-title: AEM Guides Guide
         + [Extension Repositry intro](./guides-ui-extensions/getting-started/extension-repo-intro.md)
       + Customisations {#customisations}
         + [Simple customisation](./guides-ui-extensions/customisations/add-button.md)
+        + [Customising Context Menus](./guides-ui-extensions/customisations/context-menus.md)
+        + [Customising Toolbar & Topbar](./guides-ui-extensions/customisations/toolbar-topbar.md)
+      + Review{#review-app-customisations}
+        + [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
     + Publishing {#publishing}
       + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)

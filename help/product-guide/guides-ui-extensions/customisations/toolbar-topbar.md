@@ -1,5 +1,6 @@
 ---
-sidebar_position: 3
+title: Topbar and Toolbar
+description: Customising topbar and toolbar
 ---
 
 # Customising topbar and toolbar
@@ -45,4 +46,3 @@ const toolbarExtend = {
     }
 }
 ```
-
