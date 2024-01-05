@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+title: Installation and set up 
+description: Installing and Using the AEM Guides Extension Package
 ---
 
 # Installing and Using the AEM Guides Extension Package
@@ -25,7 +26,7 @@ npx @adobe/create-guides-extension
     - Import the `.ts` files with the customisations you want to add in your build.
     - Add the imports to `window.extension`
     - Register the customised component's `id` and corresponding import to `tcx extensions`
-    - Refer to the sample [index.ts](../../../src/index.ts)
+    - Refer to the sample `/src/index.ts`
 
 ## Building the customised code
 

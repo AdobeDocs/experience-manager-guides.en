@@ -385,6 +385,9 @@ breadcrumb-title: AEM Guides Guide
           + [Add custom styles to Web Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
         + Schematron {#schematron}
           + [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+    + Guides Extention Framework {#extention-framework}
+      + [Introduction](./guides-ui-extensions/getting-started/Introduction.md)
+      + [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
     + Publishing {#publishing}
       + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
