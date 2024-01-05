@@ -386,8 +386,12 @@ breadcrumb-title: AEM Guides Guide
         + Schematron {#schematron}
           + [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
     + Guides Extention Framework {#extention-framework}
-      + [Introduction](./guides-ui-extensions/getting-started/Introduction.md)
-      + [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
+      + Getting Started {#getting-started}
+        + [Introduction](./guides-ui-extensions/getting-started/Introduction.md)
+        + [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
+        + [Extension Repositry intro](./guides-ui-extensions/customisations/add_button.md)
+      + Customisations {#customisations}
+        + [Simple customisation](./guides-ui-extensions/getting-started/Introduction.md)
     + Publishing {#publishing}
       + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)

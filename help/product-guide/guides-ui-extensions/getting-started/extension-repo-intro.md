@@ -1,5 +1,6 @@
 ---
-sidebar_position: 3
+title: Extension Repository Intoduction
+description: AEM Guides Extension Package Directory structure
 ---
 
 # AEM Guides Extension Package Directory structure
