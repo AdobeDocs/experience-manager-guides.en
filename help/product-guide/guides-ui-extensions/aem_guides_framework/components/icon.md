@@ -1,7 +1,7 @@
 ---
-sidebar_position: 4
+title: Icon
+description: Icon
 ---
-
 # Icon
 
 To display an icon we use the component, icon.

@@ -1,7 +1,7 @@
 ---
-sidebar_position: 5
+title: List
+description: List
 ---
-
 # List
 
 To display a list, we use the component list.

@@ -389,6 +389,15 @@ breadcrumb-title: AEM Guides Guide
       + Aem Guides Framework {#aem-guides-framework}
         + [Basic Customisations](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
         + [JUI Framework](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
+        + Components {#framework-components}
+          + [Button](./guides-ui-extensions/aem_guides_framework/components/button.md)
+          + [Icon](./guides-ui-extensions/aem_guides_framework/components/icon.md)
+          + [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
+          + [List](./guides-ui-extensions/aem_guides_framework/components/list.md)
+          + [Textarea](./guides-ui-extensions/aem_guides_framework/components/aextarea.md)
+        + Widgets {#framework-widgets}
+          + [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
+          + [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
       + Getting Started {#getting-started}
         + [Introduction](./guides-ui-extensions/getting-started/Introduction.md)
         + [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
@@ -397,11 +406,9 @@ breadcrumb-title: AEM Guides Guide
         + [Simple customisation](./guides-ui-extensions/customisations/add-button.md)
         + [Customising Context Menus](./guides-ui-extensions/customisations/context-menus.md)
         + [Customising Toolbar & Topbar](./guides-ui-extensions/customisations/toolbar-topbar.md)
-      + Review{#review-app-customisations}
-        + [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
-        + [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
-        + [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-        + [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
+        + Review{#review-app-customisations}
+          + [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
+          + [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
     + Publishing {#publishing}
       + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       + [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
