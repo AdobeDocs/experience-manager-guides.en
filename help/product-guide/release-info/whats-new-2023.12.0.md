@@ -9,11 +9,15 @@ This article covers the new and enhanced features in the version December 2023 o
 For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, view [Release Notes](release-notes-2023.12.0.md).
 
 
-## Use variables in the Native PDF output 
+## Use variables in the PDF output 
 
-You can use variable sets to dynamically insert and manage information that may change based on specific conditions such as product names and versions. This feature helps you use the same PDF layout and generate outputs with different values. You don’t have to create separate layouts for every set of values.
+You can use variables to dynamically insert and manage reusable information. Experience Manager Guides helps you create, edit, and preview variables while you generate the Native PDF output. You can quickly modify the values of variables and make your documents portable and easy to update.
 
-For example, you can create a variable set for each product. This variable set can consist of variables for different product details like ProductName, VersionNumber, and ReleaseDate. Then, you can add different values for these variables. 
+![native pdf variables](assets/add-variable-default.png){width="800" align="left"}
+
+*Create and manage variables in the Web Editor.* 
+
+You can also create variable sets that override the default values and assign alternate values to your variables. Insert these variables within the page layout and use the same PDF layout, you don't have to create separate layouts for every set of values. For example, you can create a variable set for each product release. This variable set can consist of variables for different product details like product name, version number, and release date. Then, you can add different values for these variables.
 
 **Variable set 1: Adobe-set1**
 
@@ -21,30 +25,26 @@ For example, you can create a variable set for each product. This variable set c
 * VersionNumber: 2311
 * ReleaseDate: 11/02/2023
 
-**Variable set 1: Adobe-set2**
+**Variable set 2: Adobe-set2**
 
 * ProductName: Experience Manager Guides 
 * VersionNumber: 2310
 * ReleaseDate: 09/27/2023
  
 
-![native pdf variables](assets/native-pdf-variables.png){width="800" align="left"}
-
-*Create variables from the Output tab in the Web Editor.* 
-
-You can also create variables with values having HTML tags. For example, add images from the content DAM using the `<img>` tag.
-
-Once you have created the variables, you can add the variables to the appropriate places in your document using the page layouts in the output templates. The values are automatically picked in the PDF output based on the variable set you select in the output preset. 
-
-
 
 <img src="./assets/native-pdf-variable-output.png" alt= "Footer in PDF output" width=500 border="2px">
 
-*Generate the Native PDF output using variables in the PDF layout.*
+*Generate the PDF output using variables in the PDF layout.*
 
-This feature helps generate customized output with dynamic content in your documentation and manage changes efficiently. You can also apply styles and use HTML markup to format the variables.
+You can also apply styles and use HTML markup to format the
+variables.  You can also quickly update the values for any variables whenever required and regenerate the output. For example, if you need to update the details for a version, you can edit the value of the version in the VersionNumber variable and regenerate the output.
 
-You can also quickly update the values for any variable set whenever required and regenerate the output. For example, if you need to update the details for a version, you can update the value of the version in VersionNumber and regenerate the output. 
+
+
+
+
+
 
 
 ## Revamped experience to edit the attributes 
