@@ -1,7 +1,7 @@
 ---
 user-guide-title: Experience Manager Guides
 user-guide-description: Read product documentation for Adobe Experience Manager Guides.
-breadcrumb-title: AEM Guides Guide
+breadcrumb-title: AEM Guides Documentation
 ---
 
 # [!DNL Adobe Experience Manager Guides] {#using}
