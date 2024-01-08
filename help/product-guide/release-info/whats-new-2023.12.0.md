@@ -37,8 +37,7 @@ You can also create variable sets that override the default values and assign al
 
 *Generate the PDF output using variables in the PDF layout.*
 
-You can also apply styles and use HTML markup to format the
-variables.  You can also quickly update the values for any variables whenever required and regenerate the output. For example, if you need to update the details for a version, you can edit the value of the version in the VersionNumber variable and regenerate the output.
+You can also apply styles and use HTML markup to format the variables.  You can also quickly update the values for any variables whenever required and regenerate the output. For example, if you need to update the details for a version, you can edit the value of the version in the VersionNumber variable and regenerate the output.
 
 
 
