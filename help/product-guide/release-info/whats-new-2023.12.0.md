@@ -11,7 +11,7 @@ For more details on the upgrade instructions, compatibility matrix, and the issu
 
 ## Use variables in the PDF output 
 
-You can use variables to dynamically insert and manage reusable information. Experience Manager Guides helps you create, edit, and preview variables while you generate the Native PDF output. You can quickly modify the values of variables and make your documents portable and easy to update.
+You can use variables to dynamically insert and manage reusable information. Experience Manager Guides helps you create, edit, and preview variables while you generate the PDF output. You can quickly modify the values of variables and make your documents portable and easy to update.
 
 ![native pdf variables](assets/add-variable-default.png){width="800" align="left"}
 
@@ -37,10 +37,10 @@ You can also create variable sets that override the default values and assign al
 
 *Generate the PDF output using variables in the PDF layout.*
 
-You can also apply styles and use HTML markup to format the variables.  You can also quickly update the values for any variables whenever required and regenerate the output. For example, if you need to update the details for a version, you can edit the value of the version in the VersionNumber variable and regenerate the output.
+You can apply styles and use HTML markup to format the variables.  You can also quickly update the values for any variables whenever required and regenerate the output. For example, if you need to update the details for a version, you can edit the value of the version in the VersionNumber variable and regenerate the output.
 
 
-
+Learn more about how to use [variables in the PDF output](../native-pdf/native-pdf-variables.md).
 
 
 
@@ -82,6 +82,7 @@ This feature helps you publish content, like text, videos, and images, to the Se
 
 *Create an output preset for the ServiceNow knowledge base.*
 
+Learn more about the [Knowledge Base](../user-guide/generate-output-knowledge-base.md) output presets.
 
 ## Enhanced Map collection dashboard
 
@@ -117,6 +118,8 @@ It also allows you to duplicate a baseline based on the label. The reference ver
 ![duplicate a baseline ](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplicate a baseline based on a label or create an exact copy.*
+
+Learn more about how to [create and manage baselines from the Web Editor](../user-guide/web-editor-baseline.md).
 
 ## Improved process for the creation of bulk activation map collection
 
