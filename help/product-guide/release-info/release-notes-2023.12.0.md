@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, December 2023 release
 description: Learn about the bug fixes and how to upgrade to the December 2023 release of Adobe Experience Manager Guides as a Cloud Service.
-exl-id: aa15c365-b81e-4be8-b42d-c4322b85f83d
+
 ---
 # December 2023 release of Adobe Experience Manager Guides as a Cloud Service 
 
@@ -14,7 +14,7 @@ For more information about the new features and enhancements, view [What's new i
 Upgrade your current Experience Manager Guides as a Cloud Service setup by performing the following steps:
 
 1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment that you want to upgrade.
-2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2023.12.0.16.
+2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2023.12.0.15.
 3. Commit the changes and run the Cloud Services pipeline to upgrade to the December 2023 release of Experience Manager Guides as a Cloud Service.
 
 ## Steps to enable the trigger of a script via a servlet

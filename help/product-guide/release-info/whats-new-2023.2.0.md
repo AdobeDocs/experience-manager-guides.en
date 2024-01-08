@@ -118,7 +118,7 @@ The new publishing microservice enables you to run large publishing workloads co
 
 For each publishing request AEM Guides as a Cloud Service runs a separate container which scales horizontally as per the user requests. This enables you  to run multiple publishing requests and get an improved  performance.
 
-For more details, see [Configure new microservice-based publishing for AEM Guides as a Cloud Service](/help/product-guide/knowledge-base/publishing/configure-microservices.md).
+For more details, see [Configure new microservice-based publishing for AEM Guides as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
 ## Native PDF | Add a custom bookmark in PDF output
 

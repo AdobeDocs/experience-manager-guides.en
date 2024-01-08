@@ -1,12 +1,10 @@
 ---
 title: Bulk activation complete event handler
 description: Learn about bulk activation complete event handler
-exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
 ---
 # Bulk activation complete event handler
 
 Experience Manager Guides exposes `com/adobe/fmdita/replication/complete` event that is used to perform any operations after the completion of a bulk activation process. This event is triggered whenever a bulk activation process is completed. For example, if you run the bulk activation of an AEM site preset of a map, this event is called after the activation process ends.
-
 
 You need to create an AEM event handler to read the properties available in this event and do further processing.
 

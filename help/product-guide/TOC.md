@@ -149,6 +149,7 @@ breadcrumb-title: AEM Guides Guide
     + Output presets in AEM Guides {#output-presets-aemg}
       + [AEM Site](./user-guide/generate-output-aem-site.md)
       + [PDF](./user-guide/generate-output-pdf.md)
+      + [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
       + [HTML5](./user-guide/generate-output-html5.md)
       + [EPUB](./user-guide/generate-output-epub.md)
       + [Custom](./user-guide/generate-output-custom.md)
@@ -260,6 +261,7 @@ breadcrumb-title: AEM Guides Guide
         + [PDF Template](./native-pdf/pdf-template.md)
         + [Components of a PDF Template](./native-pdf/components-pdf-template.md)
         + [Design a page layout](./native-pdf/design-page-layout.md)
+        + [Variables in the PDF output](./native-pdf/native-pdf-variables.md)
         + [Support for language variables](./native-pdf/native-pdf-language-variables.md)
         + Common content styles {#content-styles}
             + [Work with the common content styles](./native-pdf/stylesheet.md)
@@ -424,3 +426,4 @@ breadcrumb-title: AEM Guides Guide
       + [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
       + [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
   + [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
+

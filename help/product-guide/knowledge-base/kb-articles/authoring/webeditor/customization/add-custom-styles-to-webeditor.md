@@ -29,7 +29,6 @@ Use the folder profiles to check the *css_layout.css* under the "XML Editor Conf
 [use this link to learn more about Folder profile and configuring CSS template layout](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
 
 Use the following to setup above style in your webeditor:
-
 - Use [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) and upload it to the folder profile of your choice
 - Install the attached package [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) using AEM package manager to install the resources used in the above CSS file 
 
@@ -51,4 +50,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## References
 
-You may also be interested in the expert session around webeditor configurations and customization covered in [Expert session on webeditor](/help/product-guide/knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+You may also be interested in the expert session around webeditor configurations and customization covered in [Expert session on webeditor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)

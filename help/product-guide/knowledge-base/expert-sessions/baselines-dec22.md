@@ -25,7 +25,6 @@ In this session, you learn how to use baselines to manage your content effective
 ## Key takeaways
 
 In this session, you learn about the following:
-
 - Different baseline operations in AEM Guides
 - Download, publish, and translate using a baseline
 - Best practices for using a baseline
@@ -34,15 +33,14 @@ In this session, you learn about the following:
 ## Related resources 
 
 - **Feature videos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en) 
-
-- **User Guide** - [Work with baseline](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md)
-
+ 
+- **User Guide** - [Work with baseline](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
+ 
 - **Community Forum** - For session-specific community interactions on Experience League, visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
  
 >[!NOTE]
 >
 >The features shown in this session are available on the following versions of AEM Guides:
->
 > - On-prem 4.1 and later
 > - Cloud Services 2211 and later
 

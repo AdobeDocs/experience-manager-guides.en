@@ -1,9 +1,9 @@
 ---
-title: Documentation for Experience Manager Guides
-description: Find product documentation for Experience Manager Guides (formerly XML Documentation for Adobe Experience Manager). Learn about native DITA support and structured authoring in Experience Manager.
+title: Tutorials for Experience Manager Guides
+description: Find tutorial videos for Experience Manager Guides (formerly XML Documentation for Adobe Experience Manager). Learn about native DITA support and structured authoring in Experience Manager.
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 ---
-# [!DNL Adobe Experience Manager Guides] overview {#overview}
+# Tutorials for [!DNL Adobe Experience Manager Guides] {#overview}
 
 [!DNL Experience Manager Guides] (referred to as _[!DNL AEM Guides]_ hereafter) is a powerful, enterprise-grade component content management solution (CCMS). It enables native DITA support in Experience Manager, empowering AEM to handle DITA-based content creation and delivery. It empowers authors to create content using any offline DITA authoring tool, such as Adobe FrameMaker or an easy-to-use built-in web editor.
 
@@ -15,19 +15,19 @@ With [!DNL AEM Guides] solution, enterprises can deliver seamless and personaliz
 > 
 > Adobe Experience Manager Guides was formerly branded as _XML Documentation for Adobe Experience Manager_. Please note certain references within the documentation may still refer to prior branding but are still applicable to the current offering.
 
-## Video tutorials
+## What's new
 
-* **[[!DNL AEM Guides] Getting Started tutorial](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target=_blank}**
+* **[[!DNL AEM Guides] Getting Started Course](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
 
-  _Learn how to create, organize, author and publish content with [!DNL Adobe Experience Manager Guides]._
+    _Learn how to create, organize, author and publish content with [!DNL Adobe Experience Manager Guides]._
 
-* **[[!DNL AEM Guides] Authoring in the built-in Web Editor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target=_blank}**
+* **[[!DNL AEM Guides] Authoring in the built-in Web Editor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
 
-  _Learn how to author content using the native Web Editor in  [!DNL Adobe Experience Manager Guides]. Gain complete understanding of user preferences, editor settings, configuration, toolbars and more._
+    _Learn how to author content using the native Web Editor in  [!DNL Adobe Experience Manager Guides]. Gain complete understanding of user preferences, editor settings, configuration, toolbars and more._
 
-* **[Output Generation with [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target=_blank}**
+* **[Output Generation with [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
 
-  _Learn how to generate output using [!DNL Adobe Experience Manager Guides]. Learn about various features available for output generation - reports, baselines, conditions, troubleshooting, bulk publishing and activation._
+    _Learn how to generate output using [!DNL Adobe Experience Manager Guides]. Learn about various features available for output generation - reports, baselines, conditions, troubleshooting, bulk publishing and activation._
 
 
 <!--
@@ -82,11 +82,9 @@ Dummy links cause validation to fail
 
 -->
 
-<!--
 
 ## Additional Resources
 
 * [[!DNL AEM Guides] Online User Guide](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
 * [[!DNL AEM Guides] PDF Guides](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
--->

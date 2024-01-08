@@ -37,7 +37,7 @@ You can also remove existing tags which are common in selected files.
 
 ### List in manage->metadata is empty or incomplete 
 
-If list is empty or incomplete then you may need to run the indexing on your ditamap, You can refer [Upgrade instructions(Index your content)](/help/product-guide/install-guide/upgrade-xml-documentation.md#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Upgrade instructions(Index your content)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### Custom metadata is not coming up in list 
 
@@ -48,8 +48,8 @@ If list is empty or incomplete then you may need to run the indexing on your dit
 
 ## Other helpful resources
 
-- [Bulk Tagging using Map Dashboard(Assets UI)](/help/product-guide/user-guide/map-editor-bulk-tagging.md)
-- [Ditamap Reports in web-editor](/help/product-guide/user-guide/reports-web-editor.md)
+- [Bulk Tagging using Map Dashboard(Assets UI)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- [Ditamap Reports in web-editor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
 - [Tagging in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 
