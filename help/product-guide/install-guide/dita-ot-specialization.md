@@ -150,7 +150,7 @@ Perform the following steps to create a new profile and configure it to use spec
 
 1.  Upload the folder to the following location:
 
-    `/libs/fmdita/dita_resources`
+    `/apps/fmdita/dita_resources`
 
 1.  Click on the Adobe Experience Manager link at the top and choose **Tools**.
 
