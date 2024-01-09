@@ -20,9 +20,6 @@ In the Web editor, the following configurations have been organized under the **
 
 For details, refer to [JSON configuration](#id231KJA00REJ).
 
-**From the map dashboard**
-
-To open output presets for PDF, click on a DITA map file from the Assets UI, then click on Output Presets, and then click on the HTML5 option. In the Map dashboard, click **Edit** on the top to update the various configurations, and then click **Save**.
 
 **JSON configuration**
 
