@@ -81,14 +81,18 @@ Use the Metadata tab to set the metadata fileds such as the author's name, docum
 
 This metadata is mapped to the metadata in the Description tab within the Document Properties of your output PDF.  
 
-**Note**: This metadata overrides the metadata defined at the book level. 
+
 
 <img src="assets/pdf-metadata.png" alt="metadata tab" width=600>
 
-From the Output presets, **select PDF** > **Metadata** to add and customize metadata options. 
+From the Output presets, select  **PDF** > **Native-PDF** > **Metadata** to add and customize metadata options. 
+* **Use Metdata added in topicmeta**
+
+   This option is selected by default. You can use the metadata that you have added in the topicmeta element of the DITA map to populate the metadata fields of the PDF output. 
+
 * **Provide XMP file**
 
-   Metadata fields can be directly populated by importing [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform) file. You can download a sample XMP file from here.
+  You can also directly populate the metadata fields by importing [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform) file. You can download a sample XMP file from here.
    
    [Download](assets/SampleXMP.xmp)
 
