@@ -79,7 +79,7 @@ Metadata is the description or definition of your content. Metadata helps in con
 
 Use the Metadata tab to set the metadata fileds such as the author's name, document title, keywords, copyright information, and other data fields for the PDF output. You can also add custom metadata for your PDF output. 
 
-This metadata is mapped to the metadata in the Description tab within the Document Properties of your output PDF.  
+This metadata is mapped to the metadata in the **Description** tab within the **Document Properties** of your output PDF.  
 
 
 
