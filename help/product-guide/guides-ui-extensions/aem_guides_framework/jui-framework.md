@@ -1,7 +1,7 @@
 ---
 title: Jui Framework
 description: Understanding Jui Framework
-role: "User, Admin"
+role: User, Admin
 ---
 # Jui Framework
 

@@ -3,7 +3,7 @@ title: Post Generation Workflow
 description: An overview of post generation workflow with an example
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
 feature: Workflow Configuration
-role: "User, Admin"
+role: User, Admin
 ---
 # AEM Guides publishing - Post Generation Workflow
 

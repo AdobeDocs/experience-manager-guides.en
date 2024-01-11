@@ -1,7 +1,7 @@
 ---
 title: Textarea
 description: Textarea
-role: "User, Admin"
+role: User, Admin
 ---
 # Text Field and Text Area
 

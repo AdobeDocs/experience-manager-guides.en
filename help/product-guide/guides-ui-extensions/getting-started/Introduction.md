@@ -1,7 +1,7 @@
 ---
 title: Introduction 
 description: Introduction to AEM Guides Extension Package
-role: "User, Admin"
+role: User, Admin
 ---
 # AEM Guides Extension Package
 

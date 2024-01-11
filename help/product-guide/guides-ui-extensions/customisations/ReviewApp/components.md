@@ -1,7 +1,7 @@
 ---
 title: Components
 description: Review App Components
-role: "User, Admin"
+role: User, Admin
 ---
 
 # Components of the Review App

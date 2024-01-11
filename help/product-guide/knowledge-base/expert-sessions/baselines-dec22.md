@@ -2,8 +2,8 @@
 title: Manage content using baselines
 description: Learn how to use baselines to manage your content effectively.
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-feature: "Manage Content, Publishing, KB"
-role: "User, Admin"
+feature: Manage Content, Publishing, KB
+role: User, Admin
 ---
 # Manage content using baselines
 

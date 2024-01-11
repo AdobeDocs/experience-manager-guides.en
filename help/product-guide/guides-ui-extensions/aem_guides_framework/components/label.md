@@ -1,7 +1,7 @@
 ---
 title: Label
 description: Label
-role: "User, Admin"
+role: User, Admin
 ---
 # Label
 

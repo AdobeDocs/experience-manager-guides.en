@@ -4,8 +4,8 @@ description: Learn how to use Oxygen Plugin for Adobe Experience Manager Guides 
 hide: yes
 hidefromtoc: yes
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
-feature: "Oxygen Plugin, Authoring, Web Editor"
-role: "User, Admin"
+feature: Oxygen Plugin, Authoring, Web Editor
+role: User, Admin
 ---
 # Oxygen Plugin for Adobe Experience Manager Guides {#id1645H6010Q5}
 

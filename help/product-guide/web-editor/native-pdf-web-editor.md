@@ -2,7 +2,7 @@
 title: Native PDF | PDF output generation
 description: Learn how to use native PDF publishing, create and generate a PDF output preset, download temporary files after generating the Native PDF output, and use language variables in AEM Guides.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-feature: "Publishing, Web Editor, Native PDF Output"
+feature: Publishing, Web Editor, Native PDF Output
 role: User
 ---
 # Publish PDF output

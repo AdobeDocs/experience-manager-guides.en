@@ -1,7 +1,7 @@
 ---
 title: List
 description: List
-role: "User, Admin"
+role: User, Admin
 ---
 # List
 

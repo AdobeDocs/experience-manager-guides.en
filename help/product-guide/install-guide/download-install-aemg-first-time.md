@@ -2,7 +2,7 @@
 title: Download and install AEM Guides for the first time
 description: Learn how to Download and install AEM Guides for the first time
 exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
-feature: "Introduction, Installation"
+feature: Introduction, Installation
 role: Admin
 level: Experienced
 ---

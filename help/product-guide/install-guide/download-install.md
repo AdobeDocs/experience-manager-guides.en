@@ -2,7 +2,7 @@
 title: Download and install
 description: Learn how to Download and install
 exl-id: 40ea0510-b25e-4180-b076-c4f771071dda
-feature: "Introduction, Installation"
+feature: Introduction, Installation
 role: Admin
 level: Experienced
 ---

@@ -2,7 +2,7 @@
 title: Post-processing event handler
 description: Learn about Post-processing event handler
 exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
-feature: "Post-Processing Event Handler"
+feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
 ---

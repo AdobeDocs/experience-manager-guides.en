@@ -1,7 +1,7 @@
 ---
 title: Extension Repository Intoduction
 description: AEM Guides Extension Package Directory structure
-role: "User, Admin"
+role: User, Admin
 ---
 
 # AEM Guides Extension Package Directory structure

@@ -1,7 +1,7 @@
 ---
 title: Button
 description: Button
-role: "User, Admin"
+role: User, Admin
 ---
 
 # Button

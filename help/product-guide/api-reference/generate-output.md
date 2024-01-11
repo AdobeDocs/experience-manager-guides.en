@@ -2,7 +2,7 @@
 title: Java-based API to work with output generation
 description: Learn about the Java-based API to work with output generation
 exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
-feature: "Java-Based API Publishing"
+feature: Java-Based API Publishing
 role: Developer
 level: Experienced
 ---

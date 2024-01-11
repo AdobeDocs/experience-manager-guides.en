@@ -1,7 +1,7 @@
 ---
 title: Customising
 description: Customising the review app
-role: "User, Admin"
+role: User, Admin
 ---
 
 # Customising the review app

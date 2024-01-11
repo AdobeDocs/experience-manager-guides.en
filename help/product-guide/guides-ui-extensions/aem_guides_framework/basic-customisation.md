@@ -1,7 +1,7 @@
 ---
 title: Customising the app
 description: Customising the app
-role: "User, Admin"
+role: User, Admin
 ---
 # Customising the app
 
