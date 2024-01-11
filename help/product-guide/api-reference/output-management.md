@@ -2,6 +2,9 @@
 title: REST APIs for Output management
 description: Learn about REST APIs for Output management
 exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
+feature: Rest API Output Management
+role: Developer
+level: Experienced
 ---
 # REST APIs for Output management {#id175UB30E05Z}
 

@@ -2,6 +2,9 @@
 title: Java-based APIs for conversion workflow
 description: Learn about the Java-based APIs for conversion workflow
 exl-id: 807d9ffa-23e3-476c-992d-c1f495233892
+feature: "Java-Based API Conversion Workflow"
+role: Developer
+level: Experienced
 ---
 # Java-based APIs for conversion workflow {#id175UB30E05Z}
 

@@ -2,6 +2,9 @@
 title: Migrate existing content
 description: Learn how to Migrate existing content
 exl-id: 65d69d64-9cb7-4d08-b384-363df1ac9a16
+feature: Migration
+role: Admin
+level: Experienced
 ---
 # Migrate existing content {#id181AGB000Y4}
 

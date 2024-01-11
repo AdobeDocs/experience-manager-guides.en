@@ -2,6 +2,8 @@
 title: Add and manage citations in your content
 description: Add and manage citations in AEM Guides. Learn how to apply, import, filter, search, change citation style, edit, preview, insert, delete, and generate content output with citations.
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
+feature: "Authoring, Features of Web Editor"
+role: User
 ---
 # Add and manage citations in your content
 

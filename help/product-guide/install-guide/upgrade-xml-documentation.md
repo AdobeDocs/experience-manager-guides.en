@@ -2,6 +2,9 @@
 title: Upgrade Adobe Experience Manager Guides
 description: Learn how to Upgrade Adobe Experience Manager Guides
 exl-id: f058b39f-7408-4874-942b-693e133886cf
+feature: Installation
+role: Admin
+level: Experienced
 ---
 # Upgrade Adobe Experience Manager Guides {#id224MBE0M0XA}
 

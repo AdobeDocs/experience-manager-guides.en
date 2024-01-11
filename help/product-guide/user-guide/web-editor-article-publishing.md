@@ -2,6 +2,8 @@
 title: Article-based publishing from the Web Editor
 description: Learn how to publish one or more articles from the web editor. Generate output for one or more topics in a DITA map in AEM Guides.
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
+feature: "Authoring, Features of Web Editor, Publishing"
+role: User
 ---
 # Article-based publishing from the Web Editor {#id218CL05J0M1}
 

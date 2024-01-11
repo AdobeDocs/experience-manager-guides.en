@@ -2,6 +2,9 @@
 title: Convert non-UUID  content without versions to UUID content
 description: Learn how to migrate non-UUID content without versions.
 exl-id: 44b5660d-9961-4463-9686-53085249fb05
+feature: Migration
+role: Admin
+level: Experienced
 ---
 # Migrate unversioned content
 

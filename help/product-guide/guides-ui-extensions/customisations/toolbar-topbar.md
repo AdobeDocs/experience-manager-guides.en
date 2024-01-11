@@ -1,6 +1,7 @@
 ---
 title: Topbar and Toolbar
 description: Customising topbar and toolbar
+role: "User, Admin"
 ---
 
 # Customising topbar and toolbar

@@ -2,6 +2,8 @@
 title: Release Notes | Adobe Experience Manager Guides 4.1 release
 description: Latest release of Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
+feature: Release Notes
+role: Leader
 ---
 # 4.1.x release of Adobe Experience Manager Guides
 

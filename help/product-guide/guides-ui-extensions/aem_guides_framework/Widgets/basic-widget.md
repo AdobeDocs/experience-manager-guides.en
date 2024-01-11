@@ -1,6 +1,7 @@
 ---
 title: Widgets
 description: Understanding Widgets
+role: "User, Admin"
 ---
 
 # Widgets

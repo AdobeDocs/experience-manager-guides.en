@@ -2,6 +2,9 @@
 title: Use custom DITA-OT and DITA specialization
 description: Learn how to Use custom DITA-OT and DITA specialization
 exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
+feature: "DITA-OT Configuration"
+role: Admin
+level: Experienced
 ---
 # Use custom DITA-OT and DITA specialization {#id181GAJ0005Z}
 

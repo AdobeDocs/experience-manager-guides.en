@@ -2,6 +2,9 @@
 title: Non-UUID to UUID content migration
 description: Learn how to migrate Non-UUID to UUID content
 exl-id: f8b723bf-84c0-4fe6-936e-63970fb3e417
+feature: Migration
+role: Admin
+level: Experienced
 ---
 # Non-UUID to UUID content migration {#id226TI0U20XA}
 

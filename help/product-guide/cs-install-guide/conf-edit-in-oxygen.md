@@ -2,6 +2,9 @@
 title: Configure the option to edit in Oxygen
 description: Learn how to configure the option to edit in Oxygen connector plugin.
 exl-id: 96081a6d-39cf-4697-8b43-6494543ea187
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
 ---
 # Configure the option to edit in Oxygen
 

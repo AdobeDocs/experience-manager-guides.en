@@ -2,6 +2,8 @@
 title: Schematron support in webeditor
 description: Working with Schematron in webeditor
 exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
+feature: Web Editor
+role: "User, Admin"
 ---
 # Controlling quality of content within web-editor
 

@@ -2,6 +2,9 @@
 title: Configure topic and map templates
 description: Learn how to Configure topic and map templates
 exl-id: 32f4a40b-e398-4665-8767-45c58100f129
+feature: Template Configuration
+role: Admin
+level: Experienced
 ---
 # Configure topic and map templates {#id181AH2003PF}
 

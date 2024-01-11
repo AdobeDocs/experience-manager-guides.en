@@ -1,6 +1,7 @@
 ---
 title: Context Menus
 description: Customising Context Menus
+role: "User, Admin"
 ---
 
 # Customising Context Menus

@@ -2,6 +2,9 @@
 title: Appendix
 description: Learn how to Prepare InDesign files for conversion
 exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
+feature: InDesign File Conversion
+role: Admin
+level: Experienced
 ---
 # Appendix {#id195AD0L60Y4}
 

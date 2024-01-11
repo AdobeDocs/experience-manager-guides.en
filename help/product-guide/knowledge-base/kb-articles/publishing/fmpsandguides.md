@@ -2,6 +2,8 @@
 title: Publishing using FrameMaker Publishing Server(FMPS) in AEM Guides
 description: Publishing with FMPS using AEM Guides
 exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
+feature: AEM Guides Framemaker Publishing Server
+role: "User, Admin"
 ---
 # Publishing using FrameMaker Publishing Server(FMPS) in AEM Guides
 

@@ -2,6 +2,9 @@
 title: Configure filenames
 description: Learn how to Configure filenames
 exl-id: e5e50cb8-45a9-4045-abac-88a3de62803d
+feature: Filename Configuration
+role: Admin
+level: Experienced
 ---
 # Configure filenames {#id214BD010GXA}
 

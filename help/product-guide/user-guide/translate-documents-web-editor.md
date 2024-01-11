@@ -2,6 +2,8 @@
 title: Translate documents from the Web Editor
 description: Translate your content into multiple languages from the web editor. Learn how to create a translation project, add rules, view versions, and dismiss out-of-sync files in AEM Guides.
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
+feature: "Authoring, Features of Web Editor, Translation"
+role: User
 ---
 # Translate documents from the Web Editor {#id21BKF0Z0YZF}
 

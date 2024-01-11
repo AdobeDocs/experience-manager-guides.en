@@ -2,6 +2,9 @@
 title: Configure allowed special characters
 description: Learn how to Configure allowed special characters
 exl-id: 7ff4305f-71bb-4155-b8e5-911cea6f0ad9
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
 ---
 # Configure allowed special characters {#id20CIL600035}
 
