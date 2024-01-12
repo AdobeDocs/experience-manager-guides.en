@@ -2,6 +2,9 @@
 title: Configure Translation feature in the Web Editor
 description: Learn how to Configure Translation feature in the Web Editor
 exl-id: e25473c3-9a84-4658-87c9-6fd72bcaa2b6
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
 ---
 # Configure Translation feature in the Web Editor {#id21BONI0J0YR}
 

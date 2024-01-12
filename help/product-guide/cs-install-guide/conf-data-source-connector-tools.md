@@ -2,6 +2,9 @@
 title: Configure a data source connector using tools
 description: Learn how to configure a data source connector using the tools.
 exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
 ---
 # Configure a data source connector from the user interface
 

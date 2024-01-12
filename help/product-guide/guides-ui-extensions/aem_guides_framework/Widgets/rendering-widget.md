@@ -1,6 +1,7 @@
 ---
 title: Rendering widgets
 description: How rendering works in JUI Widgets
+role: User, Admin
 ---
 # Rendering widgets
 

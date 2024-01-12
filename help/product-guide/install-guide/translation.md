@@ -2,6 +2,9 @@
 title: Translate content in AEM Guides
 description: Learn how to Translate content
 exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
+feature: Translation
+role: Admin
+level: Experienced
 ---
 # Translate content {#id181GB0400UI}
 

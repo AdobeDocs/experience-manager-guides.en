@@ -2,6 +2,8 @@
 title: Release Notes | Adobe Experience Manager Guides as a Cloud Service, September 2022 release
 description: September release of Adobe Experience Manager Guides as a Cloud Service
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
+feature: Release Notes
+role: Leader
 ---
 # September release of Adobe Experience Manager Guides as a Cloud Service 
 

@@ -2,6 +2,9 @@
 title: Configure search for AEM Assets UI
 description: Learn how to Configure search for AEM Assets UI
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
+feature: Search Configuration
+role: Admin
+level: Experienced
 ---
 # Configure search for AEM Assets UI {#id192SC800MY4}
 

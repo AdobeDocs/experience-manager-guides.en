@@ -2,6 +2,9 @@
 title: Configure single topic PDF generation
 description: Learn how to Configure single topic PDF generation
 exl-id: 5b66fd3b-6450-49ce-b06e-d2d5bab37990
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
 ---
 # Configure single topic PDF generation {#id22ADC70M0XA}
 

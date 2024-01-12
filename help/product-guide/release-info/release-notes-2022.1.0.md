@@ -2,6 +2,8 @@
 title: Release Notes for [!DNL AEM Guides], January 2022 release
 description: January release of [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
+feature: Release Notes
+role: Leader
 ---
 # January release of [!DNL Adobe Experience Manager Guides] as a Cloud Service
 

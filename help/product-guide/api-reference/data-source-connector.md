@@ -2,6 +2,9 @@
 title: REST API to register a data source connector
 description: Learn about the REST API to register a data source connector
 exl-id: e2811892-c3cf-41f5-94d8-c2b37823a53a
+feature: Rest API Data Source
+role: Developer
+level: Experienced
 ---
 # REST API to register a data source connector {#id236LG0Y0CXA}
 

@@ -1,6 +1,7 @@
 ---
 title: Icon
 description: Icon
+role: User, Admin
 ---
 # Icon
 

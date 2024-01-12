@@ -3,6 +3,7 @@ title: Working with conditional content
 description: Learn how to create conditions, then setup conditional content generation in [!DNL AEM Guides]
 role: User
 exl-id: a86007e3-48d1-458b-84a7-b683e113e5b2
+feature: Publishing
 ---
 # Working with conditional content
 

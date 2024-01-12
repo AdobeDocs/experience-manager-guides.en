@@ -2,6 +2,8 @@
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, December 2023 release
 description: Learn about the bug fixes and how to upgrade to the December 2023 release of Adobe Experience Manager Guides as a Cloud Service.
 
+feature: Release Notes
+role: Leader
 ---
 # December 2023 release of Adobe Experience Manager Guides as a Cloud Service 
 

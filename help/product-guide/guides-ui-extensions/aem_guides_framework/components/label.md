@@ -1,6 +1,7 @@
 ---
 title: Label
 description: Label
+role: User, Admin
 ---
 # Label
 

@@ -2,6 +2,8 @@
 title: Author content
 description: Author content in AEM Guides. Learn to create, preview, edit, save the version of your document, and share for reviews.
 exl-id: 2696f315-7c27-4bac-a621-b8066cf5c96e
+feature: Authoring
+role: User
 ---
 # Author content {#id221EAJ0A047}
 

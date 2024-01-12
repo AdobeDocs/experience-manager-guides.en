@@ -2,6 +2,8 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides, June 2023 release
 description: Learn the new and enhanced features in June 2023 release of Adobe Experience Manager Guides as a Cloud Service
 exl-id: 625f9702-2b91-4622-9fec-282f47f1d7a6
+feature: What's New
+role: Leader
 ---
 # What's new in June 2023 release of Adobe Experience Manager Guides as a Cloud Service
 

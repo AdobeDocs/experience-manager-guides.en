@@ -2,6 +2,9 @@
 title: Install packages for Article-based publishing
 description: Learn how to Install packages for Article-based publishing
 exl-id: d83fc1a9-0822-47f0-8099-22a74b9ced2a
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
 ---
 # Install packages for Article-based publishing {#id21BNL02052Z}
 

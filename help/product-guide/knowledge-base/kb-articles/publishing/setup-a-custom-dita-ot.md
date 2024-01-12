@@ -3,6 +3,7 @@ title: Set up custom DITA-OT in [!DNL AEM Guides]
 description: Learn how to set up custom DITA-OT in [!DNL Adobe Experience Manager Guides]
 role: Admin
 exl-id: f479c2cf-5b8b-4517-be97-81303468007a
+feature: DITA-OT Configuration
 ---
 # Set up custom DITA-OT in [!DNL AEM Guides] for AEM
 

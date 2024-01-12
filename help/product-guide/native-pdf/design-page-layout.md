@@ -2,6 +2,9 @@
 title: Native PDF Publish Feature | Design a page layout
 description: Learn how to design your page layout for presenting information in different sections of your PDF output.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
+feature: Output Generation
+role: Admin
+level: Experienced
 ---
 
 # Design a page layout {#design-page-layout}

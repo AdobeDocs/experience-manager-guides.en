@@ -1,6 +1,7 @@
 ---
 title: Simple customisation
 description: Simple customisation example
+role: User, Admin
 ---
 
 # Simple customisation example

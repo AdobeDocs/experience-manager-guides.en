@@ -2,6 +2,9 @@
 title: Java-based APIs to work with DITA maps
 description: Learn about the Java-based APIs to work with DITA maps
 exl-id: bd91fc90-75f8-487c-99d1-2637e9cf9924
+feature: Java-Based API Dita Map
+role: Developer
+level: Experienced
 ---
 # Java-based APIs to work with DITA maps {#id175UB30E05Z}
 

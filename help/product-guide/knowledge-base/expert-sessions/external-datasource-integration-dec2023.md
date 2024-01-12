@@ -2,6 +2,7 @@
 title: External Datasource Integration for AEM Guides
 description: Integration of content data sources with AEM Guides .
 
+role: User, Admin
 ---
 # External Datasource Integration for AEM Guides: How it works?
 

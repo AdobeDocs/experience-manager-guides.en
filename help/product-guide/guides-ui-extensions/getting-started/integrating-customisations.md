@@ -1,6 +1,7 @@
 ---
 title: Installation and set up 
 description: Installing and Using the AEM Guides Extension Package
+role: User, Admin
 ---
 
 # Installing and Using the AEM Guides Extension Package

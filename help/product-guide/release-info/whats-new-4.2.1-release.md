@@ -2,6 +2,8 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 4.2.1 release
 description: Learn the new and enhanced features in 4.2.1 releases of Adobe Experience Manager Guides
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
+feature: What's New
+role: Leader
 ---
 # What's new in 4.2.1 release of Adobe Experience Manager Guides (May 2023)
 

@@ -2,6 +2,9 @@
 title: Configure a data source connector
 description: Learn how to configure a data source connector
 exl-id: bd1188e1-0e1d-4e70-928a-10251c3d529d
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
 ---
 # Configure a data source connector 
 

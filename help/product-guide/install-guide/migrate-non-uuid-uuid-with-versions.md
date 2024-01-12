@@ -2,6 +2,9 @@
 title: Convert non-UUID content with versions to UUID content
 description: Learn how to migrate non-UUID content with versions to UUID content.
 
+feature: Migration
+role: Admin
+level: Experienced
 ---
 # Migrate versioned content
 
