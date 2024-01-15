@@ -220,16 +220,18 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     ![](images/editor-setting-translation.png){width="550" align="left"}
 
-- **Metadata**: You can control the version metadata of the topic and their values to be displayed in the Version History dialog.  The Metadata setting allows you to specify the metadata path and a label that you want to use instead of the defined metadata.
+- **Metadata**: You can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box.  The Metadata setting allows you to specify the metadata path and a label that you want to use instead of the defined metadata.
 
     The metadata can be picked from any property under the `/jcr:content` node of the asset, so you can add the path of the property as the Metadata path.
     An error is displayed if the metadata path is blank. If you leave the label blank, the last element is picked as the label. 
+    ![metadata tab in the editor settings](images/editor-setting-metadata.png){width="550" align="left"}
+
+    *Configure the metadata for the **version History** dialog box.*
 
     You can also define the order in which these metadata tags are displayed. To change the default order of these tags, select the dotted bars to drag and drop the tags at the desired location.
     The metadata labels appear in the same sequence in the **Version History** of the Web Editor. 
 
-    ![metadata tab in the editor settings](images/editor-setting-metadata.png){width="550" align="left"}
-    *Configure the metadata for the version history dialog box.*
+    
 
 **User Preferences** - ![](images/user_preference_editor_icon.svg)
 
@@ -644,7 +646,7 @@ To merge changes in a map file, perform the following steps:
 
 Experience Manager Guides provides various ways to view the versions created for your topic files and also ways to revert to a specific version. However, most of these features are available outside the Web Editor.
 
-The Version History feature in the Web Editor allows you to not only check the available versions and labels on your active topic, but also gives you the flexibility to revert to any version from the editor itself.
+The **Version History** feature in the Web Editor allows you to not only check the available versions and labels on your active topic, but also gives you the flexibility to revert to any version from the editor itself.
 
 To access the version history and revert to a specific version of your topic, perform the following steps:
 
@@ -652,7 +654,7 @@ To access the version history and revert to a specific version of your topic, pe
 
 1. Click **Version History**.
 
-    The Version History dialog box appears.
+    The **Version History** dialog box appears.
 
     ![Version history dialog box](images/version-history-dialog-web-editor.png){width="550" align="left"}
   *Preview the changes in the different versions of a topic.*
