@@ -29,8 +29,8 @@ Before performing steps in this procedure, ensure that you have created the requ
 ## Create a translation project 
 
 1.  In the Repository panel, open the DITA map file in map view.
-1.  Click the **Manage** tab. The Translation panel displays the hyperlinked title of the DITA map along with the **Languages** list.
-1.  From the **Languages** list, select the locale to which you want to translate your project. You can select **All** to translate your project into all the available languages.
+1.  Click the **Manage** tab. The Translation panel displays the **Available Languages** list.
+1.  From the **Available Languages** list, select the locale to which you want to translate your project. You can select **All** to translate your project into all the available languages.
 
     >[!NOTE]
     >
@@ -42,7 +42,8 @@ Before performing steps in this procedure, ensure that you have created the requ
 
     ![](images/translation-languages.png){width="350" align="left"}
 
-1.  You can also use the following options:
+1.  You can also select one the following options:
+    **None** You can translate the default version of the topics and the map. This option is selected by default. 
 
     **Use Baseline:** You can select a baseline to translate your project. Click Use Baseline and choose a baseline created on the map. All files that are a part of the selected Baseline are shown in the Translation page. Once your content is translated, you can export the translated Baseline. For more details about exporting the translated Baseline, see [Export translated Baseline](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
