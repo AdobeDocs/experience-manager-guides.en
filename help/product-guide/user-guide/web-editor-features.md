@@ -286,7 +286,7 @@ You can also add an element between two elements when a blinking block cursor ap
 
 For example, if you are working on a DITA topic, and the block cursor is blinking between the short description and the body, you can add `prolog` element and then add copyright, author, and other details.
 
-Another way of entering new element is by using the context menu. Right-click at any place in your document to invoke the context menu. From this menu choose Insert Element to display the Insert Element dialog and choose the element that you want to insert.
+Another way of entering new element is by using the context menu. Right-click at any place in your document to invoke the context menu. You can also type a string in the search box and search for the elements that begin with the entered string. From this menu choose **Insert Element** to display the **Insert Element** dialog box and choose the element that you want to insert.
 
 ![](images/insert-element-before-after.png){width="300" align="left"}
 
@@ -301,6 +301,10 @@ Creates a numbered list at the current or next valid location. If you are on a n
 **Insert/Remove Bulleted List** - ![](images/BulletList_icon.svg)
 
 Creates a bulleted list at the current or next valid location. If you are on a bulleted list and click this icon, the item is converted into a normal paragraph.
+
+>[!NOTE]
+>
+>You can also select the **Split List** option from the context menu of a list item to split the current list and begin a new list at the same level.
 
 **Insert Table** - ![](images/Table_icon.svg)
 
