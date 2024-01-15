@@ -220,6 +220,16 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     ![](images/editor-setting-translation.png){width="550" align="left"}
 
+- **Metadata**: You can control the version metadata of the topic and their values to be displayed in the Version History dialog.  The Metadata setting allows you to specify the metadata path and a label that you want to use instead of the defined metadata.
+
+    The metadata can be picked from any property under the `/jcr:content` node of the asset, so you can add the path of the property as the Metadata path.
+    An error is displayed if the metadata path is blank. If you leave the label blank, the last element is picked as the label. 
+
+    You can also define the order in which these metadata tags are displayed. To change the default order of these tags, select the dotted bars to drag and drop the tags at the desired location.
+    The metadata labels appear in the same sequence in the **Version History** of the Web Editor. 
+
+    ![metadata tab in the editor settings](images/editor-setting-metadata.png){width="550" align="left"}
+    *Configure the metadata for the version history dialog box.*
 
 **User Preferences** - ![](images/user_preference_editor_icon.svg)
 
@@ -632,7 +642,7 @@ To merge changes in a map file, perform the following steps:
 
 **Version History** - ![](images/version-history-web-editor-ico.svg)
 
-AEM Guides provides various ways to view the versions created for your topic files and also ways to revert to a specific version. However, most of these features are available outside the Web Editor.
+Experience Manager Guides provides various ways to view the versions created for your topic files and also ways to revert to a specific version. However, most of these features are available outside the Web Editor.
 
 The Version History feature in the Web Editor allows you to not only check the available versions and labels on your active topic, but also gives you the flexibility to revert to any version from the editor itself.
 
@@ -642,34 +652,54 @@ To access the version history and revert to a specific version of your topic, pe
 
 1. Click **Version History**.
 
-    The Version History dialog appears.
+    The Version History dialog box appears.
 
-    ![](images/version-history-dialog-web-editor.png){width="550" align="left"}
+    ![Version history dialog box](images/version-history-dialog-web-editor.png){width="550" align="left"}
+  *Preview the changes in the different versions of a topic.*
 
-1. Choose a version of the topic that you want to revert to in the **Select Version** drop-down list.
+1. Choose a version of the topic that you want to compare or revert to in the **Compare with** drop-down list.
 
     >[!NOTE]
     >
     > If a version has labels applied to it, they are also shown \(in brackets\) along with the version number.
 
-    Once you choose a version from the drop-down list, the Revert to Selected Version option is made available. The preview window displays the differences between the current version and the selected version of the topic.
+    
 
-    ![](images/version-history-revert-diff-dialog-web-editor.png){width="550" align="left"}
+1. Enable **View labels and comments** option to view the labels and comments applied to the current and the compared versions.
 
+1.	You can also view the following information in the **Version History** dialog box:
+    
+    **Preview** tab: The newly added content is in green font, and the deleted content is in red font. 
+
+    **Metadata** tab:The newly added metadata is in green font, and the deleted metadata is in red font.
+    ![Metadata difference for versions ](images/metadata-version-diff.png){width="550" align="left"}
+    *Compare the metadata of different versions in the Version history.*
+
+    >[!NOTE]
+    >
+    > Your system administrator can change the metadata to be shown from the Metadata tab in the Editor Settings.
+
+    You can also view the user and time details of the current and the compared version.
+    
+
+
+1. Once you choose a version from the drop-down list, the **Revert to Selected Version option** is made available. The preview window displays the differences between the current version and the selected version of the topic.
+
+    
 1. Click **Revert to Selected Version** to revert your working copy with the selected version of the topic.
 
     The Revert Version dialog appears.
 
     ![](images/version-history-revert-dialog-save-working-copy.png){width="550" align="left"}
 
-1. \(*Optional*\) Provide a reason of reverting to an earlier version. You can also create a new version of the currently active working copy of your topic.
+1. \(*Optional*\) Provide a reason for reverting to an earlier version. You can also create a new version of the currently active working copy of your topic.
 
 1. Click **Confirm.**
 
-    Your working copy of the file is reverted to the selected version. If you chose to create a new version of the currently active working copy, then a new version of the file is also created with all working changes.
+    Your working copy of the file is reverted to the selected version. If you choose to create a new version of the currently active working copy, then a new version of the file is also created with all working changes.
 
 
-When you revert to an earlier version, a visual cue is shown indicating that version you are currently working on is not the latest version.
+When you revert to an earlier version, a visual cue is shown indicating that the version you are currently working on is not the latest version.
 
 ![](images/older-version-visual-cue.png){width="800" align="left"}
 
