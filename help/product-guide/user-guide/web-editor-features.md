@@ -667,7 +667,7 @@ To access the version history and revert to a specific version of your topic, pe
 
 1. Enable **View labels and comments** option to view the labels and comments applied to the current and the compared versions.
 
-1.	You can also view the following information in the **Version History** dialog box:
+1. You can also view the following information in the **Version History** dialog box:
     
     **Preview** tab: The newly added content is in green font, and the deleted content is in red font. 
 
