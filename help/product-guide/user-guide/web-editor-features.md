@@ -287,7 +287,7 @@ Inserts a valid element at the current or next valid location. If you are workin
 
 ![](images/note-in-para-insert-element_cs.png){width="800" align="left"}
 
-If you press Enter in the note element, a new paragraph is created within the note element itself. To insert a new element outside note, click the p element \(highlighted in screenshot\) in the elements breadcrumb and click on the Insert Element icon or press ***Alt***+***Enter*** to open the Insert Element pop-up. Then, select the desired element and press Enter to insert the selected element after the note element.
+If you press Enter in the note element, a new paragraph is created within the note element itself. To insert a new element outside note, click the p element \(highlighted in screenshot\) in the elements breadcrumb and click on the Insert Element icon or press ***Alt***+***Enter*** to open the Insert Element pop-up. You can type a string in the search box and search for the elements that begin with the entered string.  Then, select the desired element and press Enter to insert the selected element after the note element.
 
 You can also add an element between two elements when a blinking block cursor appears.
 
@@ -295,7 +295,7 @@ You can also add an element between two elements when a blinking block cursor ap
 
 For example, if you are working on a DITA topic, and the block cursor is blinking between the short description and the body, you can add `prolog` element and then add copyright, author, and other details.
 
-Another way of entering new element is by using the context menu. Right-click at any place in your document to invoke the context menu. You can also type a string in the search box and search for the elements that begin with the entered string. From this menu choose **Insert Element** to display the **Insert Element** dialog box and choose the element that you want to insert.
+Another way of entering new element is by using the context menu. Right-click at any place in your document to invoke the context menu. From this menu choose **Insert Element** to display the **Insert Element** dialog box and choose the element that you want to insert.
 
 ![](images/insert-element-before-after.png){width="300" align="left"}
 
