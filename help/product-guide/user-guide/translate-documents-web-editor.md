@@ -42,7 +42,7 @@ Before performing steps in this procedure, ensure that you have created the requ
 
     ![](images/translation-languages.png){width="350" align="left"}
 
-1.  You can also select one the following options to translate yoour project:
+1.  You can also select one the following options to translate your project:
 
     **None** Select this option to translate the default versions of the files. This option is selected by default. 
 
