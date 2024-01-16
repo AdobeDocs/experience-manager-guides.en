@@ -220,10 +220,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     ![](images/editor-setting-translation.png){width="550" align="left"}
 
-- **Metadata**: You can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box.  In the metadata path, specify the location of the nodes from which you want to pick the metadata. You can also define a custom name for the metadata as the label.
-    >[!NOTE]
-    >
-    >`dc:title`, `docstate`, and `dc:tags` are the default properties.
+- **Metadata**: You can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box.  In the metadata path, specify the location of the nodes from which you want to pick the metadata. You can also define a custom name for the metadata as the label. `dc:title`, `docstate`, and `dc:tags` are the default properties.
 
     The metadata can be picked from any property under the `/jcr:content` node of the asset, so you can add the path of the property as the Metadata path.
     
@@ -235,7 +232,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     ![metadata tab in the editor settings](images/editor-setting-metadata.png){width="550" align="left"}
 
-    *Configure the metadata for the **version History** dialog box.*
+    *Configure the metadata for the **Version History** dialog box.*
 
     
     
