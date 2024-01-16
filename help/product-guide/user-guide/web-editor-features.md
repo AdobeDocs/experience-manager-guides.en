@@ -220,7 +220,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     ![](images/editor-setting-translation.png){width="550" align="left"}
 
-- **Metadata**: You can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box.  In the metadata path, specify the location of the nodes from which you want to pick the metadata. You can also define a custom name for the metadata as the label. `dc:title`, `docstate`, and `dc:tags` are the default properties.
+- **Metadata**: You can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box.  In the metadata path, specify the location of the nodes from which you want to pick the metadata. You can also define a custom name for the metadata as the label. `title`, `docstate`, and `tags` are the default properties.
 
     The metadata can be picked from any property under the `/jcr:content` node of the asset, so you can add the path of the property as the Metadata path.
     
@@ -673,7 +673,7 @@ To access the version history and revert to a specific version of your topic, pe
     ![Version history dialog box](images/version-history-dialog-web-editor.png){width="550" align="left"}
   *Preview the changes in the different versions of a topic.*
 
-1. Choose a version of the topic that you want to compare or revert to in the **Compare with** drop-down list.
+1. Choose a version of the topic that you want to compare or revert to in the **Compare with** dropdown list.
 
     >[!NOTE]
     >
