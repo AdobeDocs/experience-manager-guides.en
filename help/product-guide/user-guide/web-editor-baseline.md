@@ -93,9 +93,10 @@ You can manage your existing baselines using the various features on the Baselin
        >[!NOTE]
        > 
        >The default name of the baseline is `<selected baseline name>`_suffix (like sample-baseline_1). You can change the name according to your requirements.
-    1. In **Select the version based on**, you can either choose the **Exact copy** option or the **Label** option:
-        - **Exact copy**: Experience Manager Guides picks the same version of all the topics and creates an exact copy of the duplicated baseline. 
-        - **Label**: You can choose a label from the dropdown. Experience Manager Guides picks those versions of the topics with the selected label defined for them, while for the remaining topics, it picks the version from the duplicated baseline. For example, you select the label `Release 1.0` from the dropdown, then it picks those versions of the topics for which you have defined this label. For all other topics, it picks the version from the duplicated baseline.
+       - In **Select the version based on**, you can either choose the **Exact copy** option or the **Label** option:
+            - **Exact copy**: Experience Manager Guides picks the same version of all the topics and creates an exact copy of the duplicated baseline. 
+
+            - **Label**: You can choose a label from the dropdown. Experience Manager Guides picks those versions of the topics with the selected label defined for them, while for the remaining topics, it picks the version from the duplicated baseline. For example, you select the label `Release 1.0` from the dropdown, then it picks those versions of the topics for which you have defined this label. For all other topics, it picks the version from the duplicated baseline.
   1. Click **Duplicate**.
 -  **Rename**, or **Delete** an existing baseline.
 -  Add, remove, or make changes to existing labels from the **Manage Labels** option for static baselines. If your administrator has configured pre-defined labels, then you are shown those labels in the Add Label dropdown list. For more information about adding labels, see [Use labels](web-editor-use-label.md#).
