@@ -22,9 +22,9 @@ You can create a baseline from the Web Editor by performing the following steps:
 
 1. On the **Baseline** panel, select the + icon at the top-right to start creating a baseline.
 1. Enter a name for the baseline in **Name**.
-1. In **Configuration**, you can either choose **Manual updation** option or **Auto-updation** option:
+1. In **Configuration**, you can either choose **Manual update** option or **Automatic update** option:
 
-    **Manual updation**: You can manually create a static baseline with a specific version of the topics and referenced content available on a specific date and time, or with a label defined for a version of topics:
+    **Manual update**: You can manually create a static baseline with a specific version of the topics and referenced content available on a specific date and time, or with a label defined for a version of topics:
 
     - In **Select the version based on,** select one of the following options:
 
@@ -46,11 +46,11 @@ You can create a baseline from the Web Editor by performing the following steps:
     
              Once you have selected a label or version as on date, then all referenced topics and media files within the map are selected accordingly. This selection of topics is not shown on the user interface, but it is saved in the backend.
 
-    **Auto-updation**: Select this option for baseline creation to automatically pick the topics according to the label applied to them.
+    **Automatic update**: Select this option for baseline creation to automatically pick the topics according to the label applied to them.
     
-    Baselines created using the auto-updation configuration are updated dynamically. If you generate a baseline, download a baseline, or create a translation project using a baseline, the files are picked dynamically based on the updated labels. For example, if you have used version 1.2 of a topic with Label Release 1.0 for the baseline and later updated version 1.5 with Label Release 1.0, the baseline will be updated dynamically, and version 1.5 will be used.
+    Baselines created using the automatic update configuration are updated dynamically. If you generate a baseline, download a baseline, or create a translation project using a baseline, the files are picked dynamically based on the updated labels. For example, if you have used version 1.2 of a topic with Label Release 1.0 for the baseline and later updated version 1.5 with Label Release 1.0, the baseline will be updated dynamically, and version 1.5 will be used.
 
-    ![Create a baseline](images/dynamic-baseline.png){width="550" align="left"}
+    ![Create a baseline](images/dynamic-baseline.png){width="300" align="left"}
 
     - **Select Labels**: If the topics have labels specified for them, the labels are listed in the **Select Labels** dropdown. You can choose the label\(s\) from the list. The labels selected first are given higher priority over the later ones.
 

@@ -1147,8 +1147,8 @@ You can perform the following actions using the Options menu of the map file:
 - **Open Map Dashboard**: Open the map dashboard.
 
 - **View in Assets UI**: Use this to show a preview of the map file in the Assets UI. In this view, all topic files within the map are shown in a single unified page-by-page view.
-- **Download Map**: Select this option to open the **Download Map** dialog. 
-In the **Download Map** dialog, you can choose the following options:
+- **Download Map**: Select this option to open the **Download Map** dialog box. 
+In the **Download Map** dialog box, you can choose the following options:
     - **Use Baseline**: Select this option to get a list of Baselines created for the DITA map. If you want
     to download the map file and its contents based on a specific Baseline, select the Baseline
     from the drop-down list. For more details about working with Baselines, view [work with Baseline](./generate-output-use-baseline-for-publishing.md).
@@ -1156,7 +1156,10 @@ In the **Download Map** dialog, you can choose the following options:
     
      You can also download the map file without selecting any option. In that case, the last persisted versions of the referenced topics and media files are downloaded.
 
-    After you click the **Download** button, the map download request is queued. You receive the map download-ready notification if the map is ready to download. In case the download fails, you receive the notification that the map download failed
+    
+    After you click the **Download** button, the map export package request is queued. The **Success** dialog box is displayed if the package is created successfully.  You can click the **Download** button from the **Success** dialog box. 
+    
+    You receive the map download-ready notification if the map is ready to download. In case the download fails, you receive the notification that the map download failed.
 
     You can access the download link from the AEM notification Inbox. Select the generated map notification in the Inbox to download the map in .zip format.
 
