@@ -101,7 +101,7 @@ Once this is done, you should be able to use the new microservice-based cloud pu
 |smart.suggestion.flag|Controls whether smart suggestions is enabled or not|true/false|
 |conref.inline.threshold|Threshold that controls precision/recall of suggestions fetched for the tag that the user is typing in currently.|-1.0 <= x <= 1.0|
 |conref.block.threshold|Threshold that controls precision/recall of suggestions fetched for tags across the entire file.|-1.0 <= x <= 1.0|
-|emerald.url|Endpoint for the Emerald vector database|	[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1]([https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|
+|emerald.url|Endpoint for the Emerald vector database|[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|
 |instance.type|Type of the AEM instance. Make sure this is unique for each AEM instance smart suggestions is configured on. An use case would be to test the feature on stage environment with "instance.type" = "stage" while at the same time, the feature is also configured on "prod".|Any unique key identifying the environment "dev"/"stage"/"prod"/"test1"/"stage2"|
 
 Once you have configured,  the smart suggesstions icon is displayed in the right panel of the Web Editor. You can view the list of smart suggestions when you edit your topics. For more details, view [AI based smart suggestions for authoring](../user-guide/web-editor-content-snippet.md).
