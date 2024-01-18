@@ -40,6 +40,7 @@ The **Translation** panel has been improved.  You can view the **Available Langu
 
 
 ## Split a list at the same level
+
 Now you can easily split your list in the Web Editor. You can select the **Split List** option from the context menu of a list item to split the current list and begin a new list at the same level. 
 
 ![translation panel](assets/context-menu-split-list.png){width="300" align="left"}
@@ -65,7 +66,7 @@ Now Experience Manager Guides provides an enhanced version history feature which
 
 This feature facilitates content reviews by displaying the added and the deleted content. It also enhances collaboration by helping the authors and reviewers monitor the changes in the different versions of the document.
 
-# Search matching elements in the Insert Element dialog box
+## Search matching elements in the Insert Element dialog box
 
 Now you can easily find the elements in the Insert Element dialog box.  You can type a string in the search box and search for the elements that begin with the entered string.
 For example, you want to insert an element within a paragraph.  Enter ‘t’ to search for all valid elements that begin with ‘t’.
