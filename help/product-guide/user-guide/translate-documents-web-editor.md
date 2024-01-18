@@ -38,7 +38,7 @@ Before performing steps in this procedure, ensure that you have created the requ
 
     >[!IMPORTANT]
     >
-    > Language shows only those languages for which a language folder is created parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
+    > The list shows only those languages for which a language folder is created parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
 
     ![](images/translation-languages.png){width="350" align="left"}
 
