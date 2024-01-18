@@ -1,112 +1,63 @@
 ---
-title: Release Notes | What's New in Adobe Experience Manager Guides 4.3.1 release
-description: Learn about the new and enhanced features in 4.3.1 releases of Adobe Experience Manager Guides
+title: Release Notes | What's New in Adobe Experience Manager Guides 4.4 release
+description: Learn about the new and enhanced features in 4.4 releases of Adobe Experience Manager Guides
 exl-id: 14db7453-ccc1-4709-903f-677f55c263b2
 ---
-# What's new in 4.3.1 release of Adobe Experience Manager Guides (October 2023)
+# What's new in 4.4 release of Adobe Experience Manager Guides (October 2023)
 
-This article covers the new and enhanced features in version 4.3.1 of Adobe Experience Manager Guides (later referred as *Experience Manager Guides*).
+This article covers the new and enhanced features in version 4.4 of Adobe Experience Manager Guides (later referred as *Experience Manager Guides*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](./release-notes-4.3.1.md).
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](./release-notes-4.4.md).
 
-## Connect to a data source and insert the topics
+## Support for AI-based smart suggestions to author content
+Now, you can enhance your authoring journey with Smart Suggestions, a new AI-based feature in the Web Editor. While you author your content, this intelligent feature provides real-time suggestions for content references, improving your workflow and ensuring unparalleled efficiency.
 
-Experience Manager Guides provides out-of-the-box connectors that help you connect with your data sources, making Experience Manager Guides a true content hub. This gives you the advantage of saving you time and effort that would otherwise be spent on manual data addition or replication.
-
-Along with the existing out-of-the-box connectors like JIRA and SQL (MySQL, PostgreSQL, SQL Server, SQLite), your administrator can also configure connectors for MariaDB, H2DB, AdobeCommerce, and ElasticSearch databases. They can also add other connectors by extending the default interfaces.
-
-You can view the configured connectors under the **Data Sources** panel in the Web Editor.
  
-<img  src="assets/data-sources.png" alt= "Data sources list in the panel" width=300>
+To keep your content correct and consistent, the search and suggestions are limited to the content owned by your organization and closely matched to the keywords that you search for.  
 
-*View the connected data sources.*
+You can also compare the current content with similar content in the other topics. Then, you can easily pick the pieces of content from various topics and add references for them to your current topic.  Adding the content references makes updates more manageable, especially in larger documentation projects. For example, if you are creating a brochure about the latest features of your product, you can quickly pick and add real-time and updated specifications from the related documents.
 
-You can now also create a topic from a connected data source. A topic can contain data in various formats, like tables, lists, and paragraphs. It also allows you to create a DITA map for all topics. You can associate metadata to the topic when pulling from a data source.
+Using this intelligent feature not only reduces the manual effort of searching related content and helps you focus on new content creation.  It also helps maintain consistency and also facilitates better team collaboration.  
 
-For more details, view [Use data from your data source](../user-guide/web-editor-content-snippet.md).
+Incorporating AI-based smart suggestion features in DITA authoring can transform your content creation process, making it more efficient and accurate. 
 
-## Configure a data source connector from the user interface
+## Publish content to Adobe Edge Delivery Services platform
+Adobe Edge Delivery Services is a suite of services that offer considerable flexibility in content authoring for your website. It helps you easily create websites that are lightweight, contain well-organized blocks, and deliver high performance.
 
-Experience Manager Guides now also provides a **Data Sources** tool that helps you configure out-of-the-box connectors for data sources. You can easily create the connectors for JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases.
+Now Experience Manager Guides allows you to publish your DITA content to a website on the Adobe Edge Deliver Services platform.  As an administrator, you can create a publish profile for the Edge Deliver Services server. Then, as an author or a publisher, you can choose that publish profile in the output preset to publish the output to the specified server.
+ 
+This feature helps you seamlessly integrate content directly from your DITA maps. You can easily transform your documents into pages on your website. 
+Edge Delivery Services uses GitHub, so Adobe also helps you manage and deploy code directly from your  GitHub repository. You can also transfer the elements such as headings, lists, images, and font styles from the blocks in your GitHub repository to the website. 
 
-You can also easily edit, reconnect, duplicate, or delete a data source connector. Learn more about how to [easily configure a data source connector from the user interface](../install-guide/conf-data-source-connector-tools.md).
+## Enhancement in the Translation UI
+The **Translation** panel has been improved.  You can view the **Available Languages** list,  and quickly select the locale to which you want to translate your project. You can also choose Select all to translate your project into all the available languages.
+![translation panel](assets/translation-languages-4.4.png){width="300" align="left"}
 
-![data source connectors listed in the data sources panel](assets/data-sources-create-window.png){width="550" align="left"}
-
-*Create and view the data source connectors from the data sources panel.*
-
-## View logs for the topic generator
-
-You can now also view the content generation log file. This log file helps you check the warnings, errors, and exceptions.  Learn more about how the [options for a topic generator](../user-guide/web-editor-content-snippet.md#options-for-a-topic-generator) help you easily generate and manage the topic generators.   
-
-## Support for Velocity tools in the data source templates
-
-You can now use the Velocity tools in the Experience Manager Guides templates. These tools help you apply various functions to the data you fetch from the data sources. You can use the templates while creating a content snippet or a topic. This feature helps you save time and effort to manually apply the same function to each data set.  It also ensures accurate results. 
-For example, you can use the $mathTool to perform mathematical functions. 
-Learn more about how to [use Velocity tools in the data source templates](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
+*Select the locales to which you want to translate your project.*
 
 
-## Native PDF enhancements
+## Split a list at the same level
+Now you can easily split your list in the Web Editor. You can select the **Split List** option from the context menu of a list item to split the current list and begin a new list at the same level. 
 
-The following Native PDF enhancements have been done in the October 2023 release:
+![translation panel](assets/context-menu-split-list.png){width="300" align="left"}
 
-### Reset the page number for the first page of a layout
+*Select the option to split the current list.*
 
-In the native PDF output, you can restart the page numbers and specify the number from which the numbering begins. Now you can also start the numbering only for the first occurrence of a section. 
-Learn more about how to [work with the page properties of a page layout](../native-pdf/design-page-layout.md#page-props-page-layout). 
+## Use metdata added in topicmeta for the PDF output
 
+Metadata feature in Native PDF publishing helps in content management and helps in searching files on the internet. 
+<img src="assets/pdf-metadata-4.4.png" alt="metadata tab" width=600>
 
-### View chapters without auto numbers in the TOC
+*Select an option to add and customize metadata options.*
 
-Experience Manager Guides display the chapter numbers along with the chapter names in the Table of Contents (TOC). Now you can choose to publish only the chapter names without the chapter numbers. View more details about how to configure the [advanced PDF settings of a template](../native-pdf/components-pdf-template.md#advanced-pdf-settings). 
-
-## Download a map from the Web Editor
-
-Now you can not only edit a map in the map view of the Web Editor but also download it. You can choose to download the map using a specific baseline. You also have the option to flatten the hierarchy and save all the files and folders in a single folder. 
-
-For more details, refer to the **Map View** feature description within the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
-
-![options menu of a file in the repository view](assets/options-menu-repo-view-file-level-2310.png){width="550" align="left"}
-
-*Select a file in repository view and choose the option to perform an action on the file.* 
+Now Experience Manager Guides provides the option to use the metadata that you have added in the topicmeta element of the DITA map to populate the metadata fields of the PDF output. This option is selected by default.
 
 
-## Support for multiple subject definitions in a single enumeration definition
+## Enhanced version history
+Now Experience Manager Guides provides an enhanced version history feature which allows you to track changes made to a document over time. You can easily compare the content and the metadata of the current version with any previous version of the same document. You can also view the labels and comments for the compared versions. As an administrator, you can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box. 
 
-You can now define one or more subject definitions in one map and the enumeration definitions in another map and then add the map reference. The subject-enumeration references are resolved in the same map or the referenced map.
+![Version history dialog box](assets/version-history-dialog-web-editor.png){width="550" align="left"}
+  *Preview the changes in the different versions of a topic.*
 
-You can now also define conditions and apply them to some specific elements in a topic.  The conditions are visible only for those specific elements and not for all the other elements.
+This feature facilitates content reviews by displaying the added and the deleted content. It also enhances collaboration by helping the authors and reviewers monitor the changes in the different versions of the document.
 
-For more details on the handling hierarchical definitions of subject definitions and enumerations, view the Subject scheme feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
-
-
-
-
-## Enhanced preview experience from the context menu
-
-Use the context menu to quickly preview the file (.dita, .xml, audio, video, or image) without opening it. You can now resize the preview pane, and if the content contains any reference link, you can select it to open it in a new tab. 
-
-![Preview pane ](assets/quick-preview_cs.png){width="800" align="left"}
-
-*Preview the file in the pane.*
-
-For more details on the context menu, see the **Options for a file** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
-
-## Edit a file in the Oxygen connector plugin
-
-Experience Manager Guides now allows you to select a file in the Web Editor and then choose to edit the file in the Oxygen connector plugin. This option isn't enabled as a part of the out-of-the-box support. 
-
-For more details, refer to the **Options for a file** feature description within the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
-
-## Use variables for current date and time in the  Destination Path, Site Name, or File Name options
-
-While generating outputs in AEM Site or PDFs, you can use variables for setting the **Destination Path**, **Site Name**, or **File Name** options. You can now also use the `${system_date}`and `${system_time}` variables. These variables help you append the current date and time to these options.
-
-Learn how to [use variables for setting the Destination Path, Site Name, or File Name options](../user-guide/generate-output-use-variables.md).
-
-
-## Keyboard shortcuts to move the cursor in the Web Editor
-
-Experience Manager Guides now also allows you to use keyboard shortcuts to move the cursor in the Web Editor. You can use the keyboard shortcuts to quickly move one word left or right. You can also move to the beginning or the end of the line with the help of the keyboard shortcuts.
-
-Learn more about the [keyboard shortcuts in the Web Editor](../user-guide/web-editor-keyboard-shortcuts.md).
