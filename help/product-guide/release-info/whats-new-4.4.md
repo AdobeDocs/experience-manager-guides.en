@@ -75,3 +75,6 @@ For example, you want to insert an element within a paragraph.  Enter ‘t’ to
 *Type a string to find elements beginning with the string.* 
 
 
+## Access File Properties in all modes of Web Editor
+
+Now, you can access the right panel's **File Properties** feature in all four modes or views:  Layout, Author, Source, and Preview.  This helps you view your file's properties even when you switch between the different modes.

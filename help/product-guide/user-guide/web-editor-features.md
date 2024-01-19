@@ -1846,7 +1846,9 @@ If your administrator has created a profile for attributes, then you will get th
 
 **File Properties** -  ![](images/topic-properties-icon.svg)
 
-View the properties of the selected file by clicking the File Properties icon in the right panel. The File Properties has the following two sections:
+View the properties of the selected file by clicking the File Properties ![](images/topic-properties-icon.svg) icon in the right panel. The File Properties feature is available in all four modes or views: Layout, Author, Source, and Preview.
+
+The File Properties has the following two sections:
 
 **General**
 
