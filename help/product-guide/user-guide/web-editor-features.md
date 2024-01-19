@@ -282,12 +282,20 @@ For details about the various authoring and document viewing modes, see [Web Edi
 The secondary toolbar appears when you open a topic for editing in the Web Editor. Features available in the secondary toolbar are explained as follows:
 
 **Insert Element** - ![](images/Add_icon.svg)
+Inserts a valid element at the current or next valid location. You can also use the keyboard shortcut ***Alt***+***Enter*** to open the Insert Element pop-up. A list of elements appears that can be inserted at the current location.
 
-Inserts a valid element at the current or next valid location. If you are working inside a block element like a `note`, then use the Insert Element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
+Select the element that you want to insert. You can use the keyboard to scroll through the list of elements and press ***Enter*** to insert the required element. You can type a string in the search box and search for the elements that begin with the entered string.
 
-![](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+For example, you want to insert an element within a paragraph.  
+![insert element](images/insert-element.png){width="300" align="left"}
 
-If you press Enter in the note element, a new paragraph is created within the note element itself. To insert a new element outside note, click the p element \(highlighted in screenshot\) in the elements breadcrumb and click on the Insert Element icon or press ***Alt***+***Enter*** to open the Insert Element pop-up. You can type a string in the search box and search for the elements that begin with the entered string.  Then, select the desired element and press Enter to insert the selected element after the note element.
+*Enter ‘t’ to search for all valid elements that begin with ‘t’.*
+
+If you are working inside a block element like a `note`, then use the Insert Element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
+
+![Insert element in a block element](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+
+If you press Enter in the note element, a new paragraph is created within the note element itself. To insert a new element outside note, click the p element \(highlighted in screenshot\) in the elements breadcrumb and click on the Insert Element icon or press ***Alt***+***Enter*** to open the Insert Element pop-up. Then, select the desired element and press Enter to insert the selected element after the note element.
 
 You can also add an element between two elements when a blinking block cursor appears.
 

@@ -10,9 +10,6 @@ For more details on the upgrade instructions, compatibility matrix, and the issu
 
 
 
-
-
-
 ## Enhancement in the Translation UI
 
 The **Translation** panel has been improved.  You can view the **Available Languages** list and quickly select the locale to which you want to translate your project. You can also choose Select all to translate your project into all the available languages.
