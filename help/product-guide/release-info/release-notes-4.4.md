@@ -118,7 +118,7 @@ The bugs fixed in various areas are listed below:
 - **AEM Site** preset is not working due to an empty template path. (14804)
 - Topics containing MathML equations causing errors in DITA map. (14790)
 - In Native PDF publishing, PDF generation throwing errors in getting dependencies for `Node.js` publishing. (14445)
-- AEM preset doesn't allow the selection of a template outside the `/content` hierarchy in the Web Editor. (14260)
+- **AEM Site** preset doesn't allow the selection of a template outside the `/content` hierarchy in the Web Editor. (14260)
 - The functionality to publish as content fragment is not working for files listed in search results. (14090)
 - Fmdita components have a hardcoded path of `delegator.jsp`, preventing the overlay of AEM Sites components. (13993)
 - The tagged view of PDF reactor in Native PDF publishing output isn't working as expected. (13622)
@@ -134,7 +134,7 @@ The bugs fixed in various areas are listed below:
 - Custom metadata is not available in the final output. (12116)
 - `fmdita rewriter` conflicts with the user's rewriter config and leads to the display of long URLs instead of the links. (12076)
 - Missing **ditaval** option in folder profile level output presets created via Web Editor UI. (11903)
-- In the AEM Site preset, the option to **Generate separate PDF for every topic** is non-functional. (11555)
+- In the **AEM Site**  preset, the option to **Generate separate PDF for every topic** is non-functional. (11555)
 - Native PDF publishing lacks the support for CMYK color space conversion. (10754)
 - (14492) On upgrading to version 4.3.1,  some exceptions occur in the Native PDF node.
 - When generating the PDF output with Native PDF publishing, the file name is truncated after a period. (13620)
