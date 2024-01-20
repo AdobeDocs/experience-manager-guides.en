@@ -11,6 +11,7 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 
 You can upgrade your current version of Experience Manager Guides to version 4.3.1
 
+- If you are using version 4.3.1, 4.3.0, 4.2, or 4.2.1, then you can directly upgrade to version 4.4.
 - If you are using version 4.3.0, 4.2, or 4.2.1, then you can directly upgrade to version 4.3.1.
 - If you are using version 4.1 or 4.1.x then you need to upgrade to version 4.3.0, 4.2 or 4.2.x before upgrading to version 4.3.1.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.1.
@@ -29,6 +30,7 @@ For more details, refer to the following procedures:
 -   [Upgrade to version 4.2.1](#upgrade-version-4-2-1)
 -   [Upgrade to version 4.3.0](#upgrade-version-4-3)
 -   [Upgrade to version 4.3.1](#upgrade-version-4-3-1)
+-   [Upgrade to version 4.4](#upgrade-version-4-4)
 
 
 >[!IMPORTANT]
@@ -718,6 +720,174 @@ Perform the following steps for post processing the existing content and using t
 
 
 1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
+
+## Install version 4.4 {upgrade-version4-4}
+
+1. Download 4.4 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Install version 4.4 package.
+1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-serverlet-4-4).
+
+1.  After you complete the package installation, wait for the following message\(s\) in the logs:
+
+    `Completed the post deployment setup script`
+
+    The above message indicates that all the steps of installation are complete.
+
+    In case you encounter any of the following ERROR prefixes, report them to your customer success team:
+
+    -   Error in post deployment setup script
+    -   Exception while porting the translation MAP
+    -   Unable to port translation map from v1 to v2 for property
+1.  Upgrade Oxygen connector plugin released with version 4.4 \(if needed\).
+1.  Clear the browser cache after installing the package.
+1.  Continue upgrading the customizations as detailed out in the next section.
+
+### Enable trigger of script via a Servlet{#enable-trigger-serverlet-4-4}
+
+POST:
+
+```
+http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
+```
+
+Response: 
+
+```
+{
+"msg": "Job is successfully submitted and lock node is created for future reference",
+"lockNodePath": "/var/dxml/executor-locks/translation-map-upgrade/1683190032886",
+"status": "SCHEDULED"
+}
+```
+
+In the above response JSON, the key `lockNodePath` holds the path to the node created in the repository pointing to the job submitted. It will automatically be deleted once the job is completed, till then, you can refer to this node for the current status of the job.
+
+Look for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` and `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` before proceeding to the next steps.
+
+[!NOTE]
+>
+> You should check if the node is still present and the status of the job.
+**GET**: `http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json`
+
+
+## After you install version 4.4
+
+After you install Experience Manager Guides, you may merge the various configurations applicable from the newly installed version to your setup.
+
+>[!NOTE]
+>
+> The dam-update-asset model may be customized. So, if any customizations have been done, then we need to sync the customizations and Experience Manager Guides into the working copy of the model.
+
+1.  **DAM Update Asset workflow \(Post-processing changes\):**
+
+1.  Open URL:
+
+    ```
+    http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+    ```
+
+1.  Select **DAM Update Asset workflow**.
+1.  Click on **Edit**.
+1.  If the **DXML Post Process Initiator** component is present, ensure that the customizations are synced.
+1.  If the **DXML Post Process Initiator** component is absent, perform the following steps to insert it:
+
+1.  Click **Insert component** \(Responsible for Experience Manager Guides post-processing as the final step in the process\).
+1.  Configure the **Process step** with below details:
+
+    **Common tab**
+
+    **Title:** DXML Post Process Initiator
+
+    **Description**: DXML post process initiator step which will trigger a sling job for DXML post-processing of the modified/created asset
+
+    **Process tab**
+
+    - Select **DXML Post Process Initiator**from the **Process** drop down
+
+    - Select **Handler Advance**
+
+    - Select **Done**
+
+1.  Click **Sync** on the top right after completing the changes. You will receive a success notification.
+
+    >[!NOTE]
+    >
+    > Refresh and verify that customized changes and the Experience Manager Guides post-processing step is present in the final workflow model.
+
+1.  Once **DAM Update Asset workflow** is validated, check corresponding launcher configurations. To do so, go to AEM Workflow interface and open launchers.
+
+    ```http
+    http://localhost:4502/libs/cq/workflow/content/console.html
+    ```
+
+    Find and make changes \(if necessary\) to the following two launchers \(that should be active\) corresponding to **DAM Update Asset workflow**:
+
+1.  Launcher for "*Node Created*" for **DAM Update Asset workflow**- for condition `"jcr:content/jcr:mimeType!=video"`, the 'Globbing' value should be:
+
+    ```json
+    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+    ```
+
+    -   'excludeList' should have `"event-user-data:changedByWorkflowProcess"`.
+    -   Launcher for "*Node Modified*" for **DAM Update Asset workflow -** for condition "`jcr:content/jcr:mimeType!=video`", the 'Globbing' value should be:
+
+    ```json
+    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+    ```
+    
+    - `excludeList` should have `"event-user-data:changedByWorkflowProcess"`.
+
+1.  Once the upgrade is complete, ensure any of the customizations/overlays are validated and updated to match the new application code. Some examples are given below:
+    -   Any components overlayed from/libs/fmditaor/libsshould be compared with the new product code and updates should be done in overlayed files under/apps.
+    -   Any clientlib categories used from product, should be reviewed for changes. Any overridden configurations \(examples below\) should be compared with the latest ones so as to get the latest features:
+    -   elementmapping.xml
+    -   ui\_config.json\(may have been set in folder profiles\)
+    -   amended `com.adobe.fmdita.config.ConfigManager`
+
+## Steps to index the existing content
+
+>[!NOTE]
+>
+> You need not perform these steps if you upgrade from 4.3.0 or 4.2.1.
+
+Perform the following steps for indexing the existing content and use the new find and replace text at map level:
+
+-   Run a POST request to the server \(with correct authentication\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed \|\| For example : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+
+-   The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(For example: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+
+-   Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
+  
+## Steps to post process the existing content to use the broken link report 
+
+>[!NOTE]
+>
+> You need not perform these steps if you upgrade from 4.3.0 or 4.3.1
+
+Perform the following steps for post processing the existing content and using the new broken link report:
+
+1. (Optional) If there are more than 100,000 dita files in the system, update the `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` to a larger value (any value greater than the number of assets present, for example 200,000) and then redeploy.
+
+   |PID|Property Key|Property Value|
+   |---|---|---|
+   |org.apache.jackrabbit.oak.query.QueryEngineSettingsService|queryLimitReads|Value: 200000 <br> Default Value: 100000|
+
+1. Execute the following APIs to run post-processing on all the files:
+
+    |End Point| /bin/guides/reports/upgrade|
+    |---|---|
+    |Request Type| **POST**  This script is a POST request hence should be executed via agents like Postman. |
+    | Expected Response | The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point.<br> Sample URL: `http://<server:port>/bin/guides/reports/upgrade`|
+
+    |End Point| /bin/guides/reports/upgrade|
+    |---|---|
+    |Request Type| **GET** |
+    |Param| jobId: Pass the jobId received from the previous post request.|
+    |Expected Response | - Once the job is complete, the GET request responds with success. <br> - In case there are errors,  share the error logs along with API output with your customer success team.  <br>Sample URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+
+1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
+
+
 
 
 
