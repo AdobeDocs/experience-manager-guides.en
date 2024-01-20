@@ -721,7 +721,7 @@ Perform the following steps for post processing the existing content and using t
 
 1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
 
-## Install version 4.4 {upgrade-version4-4}
+## Install version 4.4 {upgrade-version-4-4}
 
 1. Download 4.4 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Install version 4.4 package.
