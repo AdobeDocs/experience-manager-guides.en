@@ -282,11 +282,10 @@ For details about the various authoring and document viewing modes, see [Web Edi
 The secondary toolbar appears when you open a topic for editing in the Web Editor. Features available in the secondary toolbar are explained as follows:
 
 **Insert Element** - ![](images/Add_icon.svg)
-Inserts a valid element at the current or next valid location. You can also use the keyboard shortcut ***Alt***+***Enter*** to open the Insert Element pop-up. A list of elements appears that can be inserted at the current location.
 
-Select the element that you want to insert. You can use the keyboard to scroll through the list of elements and press ***Enter*** to insert the required element. You can type a string in the search box and search for the elements that begin with the entered string.
+Inserts a valid element at the current or next valid location. You can also use the keyboard shortcut ***Alt***+***Enter*** to open the Insert Element pop-up. For example, you want to insert an element within a paragraph. In the **Insert Element** pop-up, a list of elements appears that can be inserted in the paragraph. Select the element that you want to insert. You can use the keyboard to scroll through the list of elements and press ***Enter*** to insert the required element. You can also type a character or string in the search box and search for the elements that begin with it.
 
-For example, you want to insert an element within a paragraph.  
+ 
 ![insert element](images/insert-element.png){width="300" align="left"}
 
 *Enter ‘t’ to search for all valid elements that begin with ‘t’.*
