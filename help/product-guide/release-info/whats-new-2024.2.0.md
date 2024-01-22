@@ -80,7 +80,7 @@ This feature facilitates content reviews by displaying the added and the deleted
 
 Learn more about the **Version History** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
-## Search elements in the Insert Element dialog box
+## Enahanced search in the Insert Element dialog box
 
 You can now easily find the elements in the Insert Element dialog box.  You can type a string in the search box and get a list of all the valid elements that begin with the entered string.
 
