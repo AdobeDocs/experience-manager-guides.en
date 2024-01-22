@@ -1,21 +1,21 @@
 ---
-title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides 4.4 release
-description: Learn about the bug fixes and how to upgrade to  4.4 release of Adobe Experience Manager Guides
+title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides 4.4.0 release
+description: Learn about the bug fixes and how to upgrade to  4.4.0 release of Adobe Experience Manager Guides
 ---
-# 4.4 release of Adobe Experience Manager Guides (February 2024)
+# 4.4.0 release of Adobe Experience Manager Guides (February 2024)
 
-This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version 4.4 of Adobe Experience Manager Guides (later referred as *Experience Manager Guides*).
+This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version 4.4.0 of Adobe Experience Manager Guides (later referred as *Experience Manager Guides*).
 
-For more information about the new features and enhancements, see [What's new in 4.4 release of Adobe Experience Manager Guides](./whats-new-4.4.md).
+For more information about the new features and enhancements, see [What's new in 4.4.0 release of Adobe Experience Manager Guides](./whats-new-4.4.md).
 
-## Upgrade to 4.4 release of Experience Manager Guides
-
-
-You can easily upgrade your current version of  Guides to version 4.4. Before you proceed with upgrading to version 4.4 of Experience Manager Guides, you must consider the following points:
+## Upgrade to 4.4.0 release of Experience Manager Guides
 
 
-- If you are using version 4.3.1, 4.3.0, or 4.2.1, then you can directly upgrade to version 4.4.
-- If you are using version 4.2, 4.1, or 4.1.x then you need to upgrade to version 4.3.1, 4.3.0, or 4.2.1 before upgrading to version 4.4.
+You can easily upgrade your current version of  Guides to version 4.4.0. Before you proceed with upgrading to version 4.4.0 of Experience Manager Guides, you must consider the following points:
+
+
+- If you are using version 4.3.1, 4.3.0, or 4.2.1.3, then you can directly upgrade to version 4.4.0.
+- If you are using version 4.2, 4.1, or 4.1.x then you need to upgrade to version 4.3.1, 4.3.0, or 4.2.1.3 before upgrading to version 4.4.0.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.x.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
 - If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide.
@@ -30,14 +30,14 @@ For details, see [Upgrade instructions](../install-guide/upgrade-xml-documentati
 
 ## Compatibility matrix
 
-This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 4.4 release. 
+This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 4.4.0 release. 
 
 ### Adobe Experience Manager
 
-**4.4 Non-UUID**
+**4.4.0 Non-UUID**
 Version 6.5 Service Pack 19, 18, 17
 
-**4.4 UUID**
+**4.4.0 UUID**
 Version 6.5 Service Pack 19, 18, 17
 
 For more details, see the *Technical requirements* section in the Install and configure Adobe Experience Manager Guides guide.
@@ -46,8 +46,8 @@ For more details, see the *Technical requirements* section in the Install and co
 
 |Release| FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
 | --- | --- | --- | --- | --- |
-|4.4 (Non-UUID)| 2022 or higher |2020.2 or higher* | 2022 or higher | 2020.3 or higher |
-|4.4 (UUID) | 2022 or higher | 2020.2 or higher*  | 2022 or higher | 2020.4 or higher |
+|4.4.0 (Non-UUID)| 2022 or higher |2020.2 or higher* | 2022 or higher | 2020.3 or higher |
+|4.4.0 (UUID) | 2022 or higher | 2020.2 or higher*  | 2022 or higher | 2020.4 or higher |
 | | | | |
 
 *Baseline and conditions created in AEM are supported in FMPS releases starting from 2020.2.
@@ -56,8 +56,8 @@ For more details, see the *Technical requirements* section in the Install and co
 
 | Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
 | --- | --- | --- |--- |--- |
-| 4.4 (Non-UUID)|  2.3-regular-5| 2.3-regular-5 |  1.6 | 1.6  |
-| 4.4 (UUID) | 3.2-uuid-5|3.2-uuid-5 |2.3 | 2.3  |
+| 4.4.0 (Non-UUID)|  2.3-regular-5| 2.3-regular-5 |  1.6 | 1.6  |
+| 4.4.0 (UUID) | 3.2-uuid-5|3.2-uuid-5 |2.3 | 2.3  |
 |  |  |   |  
 
 
@@ -178,6 +178,6 @@ The bugs fixed in various areas are listed below:
 
 ## Known Issue
 
-Adobe has identified the following known issue for the 4.4 release:
+Adobe has identified the following known issue for the 4.4.0 release:
 
-* Version 1.0 isn't displayed on the UI for the duplicated DITA file.
+- Version 1.0 isn't displayed on the UI for the duplicated DITA file.
