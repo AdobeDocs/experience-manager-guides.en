@@ -8,9 +8,9 @@ This article covers the new and enhanced features in the February 2024 release o
 
 For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, view [Release Notes](release-notes-2023.12.0.md).
 
-## AI-based smart suggestions to author content
+## AI-based Smart Suggestions to author content
 
-Now, you can enhance your authoring journey with Smart Suggestions, a new AI-based feature in the Web Editor. While you author your content, this intelligent feature provides real-time suggestions for content references, improving your workflow and ensuring unparalleled efficiency.
+Now, you can enhance your authoring journey with Smart Suggestions, a new AI-based feature in the Web Editor. While you author your content, this intelligent feature provides real-time suggestions for content references, improving your workflow, adding accuracy, and ensuring unparalleled efficiency.
 
  
 To keep your content correct and consistent, the search and suggestions are limited to the content owned by your organization and closely matched to the keywords that you search for.  
@@ -18,21 +18,23 @@ To keep your content correct and consistent, the search and suggestions are limi
 ![Smart suggestions panel in the Web Editor ](web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
-*View smart suggestions to find and add matching content references from your files.*
+*View Smart Suggestions to find and add matching content references from your content repository.*
 
-You can also compare the current content with similar content in the other topics. Then, you can easily pick the pieces of content from various topics and add references for them to your current topic. Adding the content references makes updates more manageable, especially in larger documentation projects. For example, if you are creating a brochure about the latest features of your product, you can quickly pick and add real-time and updated specifications from the related documents.
+You can also compare the current content with similar content in the other topics. Then, you can easily pick the pieces of content from various topics and add them as content references into your current topic. Adding the content references makes updates more manageable, especially in larger documentation projects. For example, if you are creating a brochure about the latest features of your product, you can quickly pick and add real-time and updated specifications from the related documents.
 
 Using this intelligent feature reduces the manual effort of searching related content and helps you focus on new content creation.  It also helps maintain consistency and also facilitates better team collaboration.  
 
-Incorporating AI-based smart suggestion features in DITA authoring can transform your content creation process, making it more efficient and accurate. 
 
 ## Enhancement in the Translation UI
 
-The **Translation** panel has been improved.  You can view the **Available Languages** list and quickly select the locale to which you want to translate your project. You can also choose Select all to translate your project into all the available languages.
+The **Translation** panel has been improved.  You can view the **Available Languages** list and quickly select the locale in which you want to translate your project. With a single selection, you can also choose **Select all** to translate your project into all the available languages.
+
 ![translation panel](assets/translation-languages-4.4.png){width="300" align="left"}
 
-*Select the locales to which you want to translate your project.*
-To learn more about translation, view [](../user-guide/translation.md)
+
+
+*Select the locales in which you want to translate your project. Choose the default, baseline, or the latest version of files for translation.*
+Learn more about how to [translate content](../user-guide/translation.md).
 
 ## Split a list at the same level
 

@@ -11,8 +11,8 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 
 You can upgrade your current version of Experience Manager Guides to version 4.4.0:
 
-- If you are using version 4.3.1, 4.3.0, or 4.2.1.3, then you can directly upgrade to version 4.4.0.
-- If you are using version 4.2, 4.1, or 4.1.x then you need to upgrade to version 4.3.1, 4.3.0, or 4.2.1.3 before upgrading to version 4.4.0.
+- If you are using version 4.3.1, 4.3.0, or 4.2.1 (Hotfix 4.2.1.3), then you can directly upgrade to version 4.4.0.
+- If you are using version 4.2, 4.1, or 4.1.x then you need to upgrade to version 4.3.1, 4.3.0, or 4.2.1 (Hotfix 4.2.1.3) before upgrading to version 4.4.0.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.x.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
 - If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide.
@@ -53,7 +53,7 @@ Before you start the Experience Manager Guides upgrade process, ensure that you 
 1.  Imported the review comments in topics open for review.
 1.  Closed all active reviews.
 1.  Closed all translation tasks.
-1.  Uninstall any Experience Manager Guides hot fixes installed on the top of the previous version \(major or patch release\) of Experience Manager Guides.
+1.  Uninstall any Experience Manager Guides hotfixes installed on the top of the previous version \(major or patch release\) of Experience Manager Guides.
 
 **Before you install version 4.0**
 
@@ -284,6 +284,9 @@ and wait for it to be `false` again (this indicates the reindexing is complete).
 
 
 ## Upgrade to version 4.2.1 {#upgrade-version-4-2-1}
+>[!TIP]
+>
+>It is recommended to install Hotfix 4.2.1.3 on top of version 4.2.1.
 
 Upgrading to version 4.2.1 depends on the current version of Experience Manager Guides.
 
@@ -721,7 +724,7 @@ Perform the following steps for post processing the existing content and using t
 
 ## Upgrade to version 4.4.0 {#upgrade-version-4-4-0} 
 
-Upgrading to version 4.4.0 depends on the current version of Experience Manager Guides. If you are using version 4.3.1, 4.3.0, 4.2, or 4.2.1.3 then you can directly upgrade to version 4.4.0
+Upgrading to version 4.4.0 depends on the current version of Experience Manager Guides. If you are using version 4.3.1, 4.3.0, 4.2, or 4.2.1 (Hotfix 4.2.1.3) then you can directly upgrade to version 4.4.0
 
 >[!NOTE]
 >
@@ -731,7 +734,7 @@ Upgrading to version 4.4.0 depends on the current version of Experience Manager 
 
 Before you start the Experience Manager Guides 4.4.0 upgrade process, ensure that you have:
 
-1.  Upgraded to Experience Manager Guides version 4.3.1, 4.3.0, or 4.2.1.3 and completed their respective installation step.
+1.  Upgraded to Experience Manager Guides version 4.3.1, 4.3.0, or 4.2.1 (Hotfix 4.2.1.3) and completed their respective installation step.
 1.  Closed all translation tasks.
 1. Changed the log level to **INFO** for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` class and append these logs in a new log file, for example, `logs/translation_upgrade.log`.
 
