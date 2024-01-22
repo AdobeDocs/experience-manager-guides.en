@@ -533,7 +533,7 @@ Upgrading to version 4.3.1 depends on the current version of Experience Manager 
 Before you start the Experience Manager Guides 4.3.1 upgrade process, ensure that you have:
 
 1.  Upgraded to Experience Manager Guides version 4.3.0, 4.2, or 4.2.1 and completed their respective installation step.
-1.  (Optional) Closed all translation tasks.
+1.  Closed all translation tasks.
 1. Changed the log level to **INFO** for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` class and append these logs in a new log file, for example, `logs/translation_upgrade.log`.
 
 
@@ -732,7 +732,7 @@ Upgrading to version 4.4.0 depends on the current version of Experience Manager 
 Before you start the Experience Manager Guides 4.4.0 upgrade process, ensure that you have:
 
 1.  Upgraded to Experience Manager Guides version 4.3.1, 4.3.0, or 4.2.1.3 and completed their respective installation step.
-1. (Optional) Closed all translation tasks.
+1.  Closed all translation tasks.
 1. Changed the log level to **INFO** for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` class and append these logs in a new log file, for example, `logs/translation_upgrade.log`.
 
 
