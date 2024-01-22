@@ -284,13 +284,12 @@ and wait for it to be `false` again (this indicates the reindexing is complete).
 
 
 ## Upgrade to version 4.2.1 {#upgrade-version-4-2-1}
+
 >[!TIP]
 >
 >It is recommended to install Hotfix 4.2.1.3 on top of version 4.2.1.
 
-Upgrading to version 4.2.1 depends on the current version of Experience Manager Guides.
-
-If you are using version 4.1 or 4.1.x, or 4.2 then you can directly upgrade to version 4.2.1.
+Upgrading to version 4.2.1 depends on the current version of Experience Manager Guides. If you are using version 4.1 or 4.1.x, or 4.2 then you can directly upgrade to version 4.2.1.
 
 >[!NOTE]
 >
