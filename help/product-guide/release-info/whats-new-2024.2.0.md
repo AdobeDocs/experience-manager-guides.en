@@ -20,7 +20,7 @@ To keep your content correct and consistent, the search and suggestions are limi
 
 *View Smart Suggestions to find and add matching content references from your content repository.*
 
-You can also compare the current content with similar content in the other topics. Then, you can easily pick the pieces of content from various topics and add them as content references into your current topic. Adding the content references makes updates more manageable, especially in larger documentation projects. For example, if you are creating a brochure about the latest features of your product, you can quickly pick and add real-time and updated specifications from the related documents.
+You can also compare the current content with similar content in the other topics. Then, you can easily pick the pieces of content from various topics and add them as content references into your current topic. Adding the content references makes updates more manageable, especially in larger documentation projects. For example, suppose you are creating a brochure about the latest features of your product. In that case, you can quickly add the updated specifications as content references from the related feature documents.
 
 Using this intelligent feature reduces the manual effort of searching related content and helps you focus on new content creation.  It also helps maintain consistency and also facilitates better team collaboration.  
 
