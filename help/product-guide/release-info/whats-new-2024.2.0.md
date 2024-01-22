@@ -34,11 +34,12 @@ The **Translation** panel has been improved.  You can view the **Available Langu
 
 
 *Select the locales in which you want to translate your project. Choose the default, baseline, or the latest version of files for translation.*
+
 Learn more about how to [translate content](../user-guide/translation.md).
 
 ## Split a list at the same level
 
-Now, you can easily split your list in the Web Editor. You can select the **Split List** option from the context menu of a list item to split the current list and begin a new list at the same level. 
+Now, you can easily split your list in the Web Editor. Select the **Split List** option from the context menu of a list item to split the current list. A new list is created at the same level, starting with the list item you selected for the split.  
 
 ![translation panel](assets/context-menu-split-list.png){width="300" align="left"}
 
@@ -48,8 +49,8 @@ For more details, view the **Insert List** feature description in the [Left Pa
 
 ## Pass assets metadata to the PDF output
 
-Now, Experience Manager provides the capability to pass the assets' metadata properties from the DITA map  to the PDF output. 
-From the Native PDF output preset, you can choose the metadata that you want to pass to Native PDF publishing. You can select both the custom and the default properties.  The selected metadata properties are passed to the PDF file generated using Native PDF.
+Experience Manager now provides the capability to pass the assets' metadata properties from the DITA map  to the PDF output. 
+From the Native PDF output preset, you can choose the metadata that you want to pass to PDF publishing process. You can select both the custom and the default properties.  The selected metadata properties are passed to the PDF file generated using Native PDF.
 
 This feature is handy as it helps you  keep your asset properties such as author, creation date, or document title consistent. This makes it easier to organize, search, and categorize your documents.
 
@@ -58,7 +59,7 @@ For more details, view the **Advanced** settings in the [Publish PDF output](../
 ## Use metadata added in the `topicmeta` element for the PDF output
 
 Metadata feature in Native PDF publishing helps in content management and helps in searching files on the internet. 
-<img src="assets/pdf-metadata-4.4.png" alt="metadata tab" width=800>
+<img src="assets/pdf-metadata-4-4.png" alt="metadata tab" width=800>
 
 *Select an option to add and customize metadata options.*
 
@@ -79,13 +80,18 @@ This feature facilitates content reviews by displaying the added and the deleted
 
 Learn more about the **Version History** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
-## Search exact matching elements in the Insert Element dialog box
+## Search elements in the Insert Element dialog box
 
-Now you can easily find the elements in the Insert Element dialog box.  You can type a string in the search box and search for the elements that begin with the entered string.
-For example, you want to insert an element within a paragraph.  Enter ‘t’ to search for all valid elements that begin with ‘t’.
+You can now easily find the elements in the Insert Element dialog box.  You can type a string in the search box and get a list of all the valid elements that begin with the entered string.
+
+For example, while editing a paragraph you want to insert an element, then you can search a character 't' to get
+all valid elements that begin with ‘t’.
+
 
 ![Insert dialog box](assets/insert-element.png){width="300" align="left"}
-*Type a string to find elements beginning with the string.* 
+
+*Type a character to search for all valid elements that begin with the character.*
+
 
 For more details, view the **Insert Element** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
