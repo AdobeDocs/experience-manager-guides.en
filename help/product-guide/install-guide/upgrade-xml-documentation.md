@@ -198,7 +198,7 @@ After you install Experience Manager Guides, you may merge the various configura
     >
     > Refresh and verify that customized changes and the Experience Manager Guides post-processing step is present in the final workflow model.
 
-1.  Once **DAM Update Asset workflow**is validated, check corresponding launcher configurations. To do so, go to AEM Workflow interface and open launchers.
+1.  Once **DAM Update Asset workflow** is validated, check corresponding launcher configurations. To do so, go to AEM Workflow interface and open launchers.
 
     ```http
     http://localhost:4502/libs/cq/workflow/content/console.html
@@ -413,7 +413,7 @@ After you install Experience Manager Guides, you may merge the various configura
     >
     > Refresh and verify that customized changes and the Experience Manager Guides post-processing step is present in the final workflow model.
 
-1.  Once **DAM Update Asset workflow**is validated, check corresponding launcher configurations. To do so, go to AEM Workflow interface and open launchers.
+1.  Once **DAM Update Asset workflow** is validated, check corresponding launcher configurations. To do so, go to AEM Workflow interface and open launchers.
 
     ```http
     http://localhost:4502/libs/cq/workflow/content/console.html
