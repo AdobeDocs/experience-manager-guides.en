@@ -97,6 +97,40 @@ For more details, view [PDF Template](../native-pdf/pdf-template.md).
 
 
 
+
+## View files by title or filenames 
+
+You can now choose the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels from the Author view.
+
+![User Preferences dialog](assets/user-preferences-2311.png){width="550" align="left"}
+
+*Change the default way to view the files from the **User Preferences** dialog.*
+ 
+
+## Manage condition presets 
+
+You can define condition attributes in your DITA topics. Then, use the condition attributes in the condition preset to publish the content in a DITA map. Experience Manager Guides now also allows you to create and manage condition presets from the Web Editor. You can also easily edit, duplicate, or delete them.
+
+![Condtion Presets from the Manage tab of the Web editor ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+
+For more details, view [Use condtion presets](../user-guide/generate-output-use-condition-presets.md).
+
+## Restore file tabs on refreshing the browser
+
+Experience Manager Guides restores the state of the opened file tabs in the Web Editor when you refresh the browser. For more details, view the **Refresh browser while editing the files** section under [Edit topics in the Web Editor](../user-guide/web-editor-edit-topics.md).
+
+## Unwrap an element easily 
+
+Now you can easily unwrap an element using the option from the context menu of an element in the Web Editor. This helps you easily merge the element's text with its parent element. 
+For more details, view the **Unwrap an element** section from the [other features in the Web Editor](../user-guide/web-editor-other-features.md). 
+
+## Keyboard shortcuts to move the cursor 
+
+Experience Manager Guides now also allows you to use keyboard shortcuts to move the cursor in the Web Editor. You can use the keyboard shortcuts to quickly move one word left or right. You can also move to the beginning or the end of the line with the help of the keyboard shortcuts.
+Now, you can also use keyboard shortcuts to move the cursor to the beginning of the next element or the end of the previous element.
+Learn more about the [keyboard shortcuts in the Web Editor](../user-guide/web-editor-keyboard-shortcuts.md).
+
+
 ## Revamped experience to edit the attributes 
 
 Now, you get a revamped experience to add or edit the attributes for an element from the **Content Properties** panel in the Web Editor. 
