@@ -78,7 +78,7 @@ The bugs fixed in various areas are listed below:
 - The global navigation button is not working, and the dashboard fails to load. (14968)
 - In the Web Editor, the download map feature fails to trigger a pop-up notification when it is ready to download. (14626)
 - In the Web Editor, the download map feature fails to download a map with baseline. (14622)
-- Invalid DTD Error in the Experience Manager Guides as a Cloud Service version 2310. (14482)
+- Invalid DTD Error in the Experience Manager Guides. (14482)
 - The title in the Web Editor tab gets truncated after a dot(.) character. (14372)
 - Error messaging for duplicate map names in Assets UI isn't updated. (14320)
 - An error occurs in version creation logic during drag-and-drop of assets. (14291)
@@ -99,7 +99,6 @@ The bugs fixed in various areas are listed below:
 - Zip files are not recognized in the Web Editor, and you cannot drag and drop them. (12709)
 - The **Version History** panel in the Assets UI shows an incorrect timestamp for the **Current** field. (12624)
 - In the **Layout** view for a Bookmap, using **Move Right** to make a selected chapter a sub-element does not work. (12567)
-- Delay occurs in the post-processing of files that have been copied and pasted into the cloud services. (12457)
 - Creating a DITA file from a template with a filename starting with numeric characters results in a namespace error. (12188)
 - The rootmap setting persists in the Web Editor even if the user has not set it explicitly from the **User Preferences**. (11551)
 - The content with some attributes applied is not being highlighted in **Author** or **Preview** mode. (11063)
@@ -110,13 +109,14 @@ The bugs fixed in various areas are listed below:
 - The Web Editor gets uninstalled after reinstallation of Adobe Experience Manager Guides version 4.3.1. (14519)
 - The installer of version 4.3.1 encounters a filter conflict, resulting in the overriding of `apps/cq/core/content/projects/properties`. (14517)
 - A self-reference link appears under the list of **Broken Links** in Reports. (13539)
+- The preview screen for snippets is frozen. (14840)
 
 ### Publishing
 
 - In Native PDF publishing, Custom attributes within condition presets are not working for Native PDF publishing. (14943)
 - Unable to add a custom template from the **Outputs** tab in the Editor. (14846)
 - **AEM Site** preset is not working due to an empty template path. (14804)
-- Topics containing MathML equations causing errors in DITA map. (14790)
+- AEM Site regeneration fails for DITA maps with topics that contain MathML equations. (14790)
 - In Native PDF publishing, PDF generation throwing errors in getting dependencies for `Node.js` publishing. (14445)
 - **AEM Site** preset doesn't allow the selection of a template outside the `/content` hierarchy in the Web Editor. (14260)
 - The functionality to publish as content fragment is not working for files listed in search results. (14090)
@@ -136,30 +136,27 @@ The bugs fixed in various areas are listed below:
 - Missing **ditaval** option in folder profile level output presets created via Web Editor UI. (11903)
 - In the **AEM Site**  preset, the option to **Generate separate PDF for every topic** is non-functional. (11555)
 - Native PDF publishing lacks the support for CMYK color space conversion. (10754)
-- (14492) On upgrading to version 4.3.1,  some exceptions occur in the Native PDF node.
+- On upgrading to version 4.3.1,  some exceptions occur in the Native PDF node. (14492)
 - When generating the PDF output with Native PDF publishing, the file name is truncated after a period. (13620)
-- Dynamic baseline calls are using the name instead of title, which results in the failure of Export DITA map API. (14268)
+- Broken characters appear while creating the snippets in the Korean language. (13489)
 
 ### Management
 
 - Content reference is broken on copy-pasting the DITA files having self-reference links without GUID. (13540)
-- AEM cloud environments encounter MongoWrite exceptions due to large-sized nodes. (13509)
 - **Baseline Filter** files are not working with File Name in the Web Editor. (13486)
 - In the Web Editor, the baseline shows the title for the previous version instead of the selected version of the DITA file. (13444)
 - Disabling the indexing the parent DITA map to get a better performance may impact the functionality of certain features.(12213)
 - Condition presets for large DITA maps aren't getting created. (10936)
 - Unable to edit the presets for the collection's first maps while editing a map collection. (10649)
 - Labels from the `labels.json` file appear in random order in the Web Editor. (10508)
+- Dynamic baseline calls are using the name instead of title, which results in the failure of Export DITA map API. (14268)
 
 ### Review
 
-- The preview screen for snippets is frozen. (14840)
 - Right-click context menu is not working for **Accept** or **Reject** track changes. (14607)
 - Toggle to close DITA topics in the Review Screen is not working in the version 4.3.1 of Adobe Experience Manager Guides. (14537)
-- Side by side review panels of the previous and the current versions in the Web Editor are not correct in the Experience Manager Guides as a Cloud Service version 2310. (14156)
+- Symmetry issues occur in the side by side review panels of the previous and the current versions in the Web Editor. (14156)
 - Customizing email templates for review workflow doesn't work with overlay. (13954)
-- The **Close** button on the Review page in the Experience Manager Guides takes the users to the AEM Homepage. (13535)
-- Broken characters appear while creating the snippets in the Korean language. (13489)
 - Korean attachments in the Experience Manager Guides Review screen aren't clickable. (13436)
 - Map title gets cut off in the review and collaboration screen, with no option to view the full title. (13012)
 
@@ -170,11 +167,6 @@ The bugs fixed in various areas are listed below:
 - Auto approve isn't working sometimes, and exceptions occur if an incorrect value is set on **Translation Status**. (13607)
 - The baseline exported from the Translation dashboard fails and doesn't open in the target language. (12993)
 - Translated contents fail to sync from temporary translation projects, and DITA XML editor translation wizard incorrectly shows **In progress** status for approved jobs. (9938)
-
-### Accessibility
-
-- Unable to navigate through the author canvas user interface, as the focus becomes trapped in the Web Editor. (13517)
-
 
 ## Known Issue
 
