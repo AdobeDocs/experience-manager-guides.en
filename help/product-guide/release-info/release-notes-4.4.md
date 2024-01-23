@@ -110,6 +110,7 @@ The bugs fixed in various areas are listed below:
 - The installer of version 4.3.1 encounters a filter conflict, resulting in the overriding of `apps/cq/core/content/projects/properties`. (14517)
 - A self-reference link appears under the list of **Broken Links** in Reports. (13539)
 - The preview screen for snippets is frozen. (14840)
+- Broken characters appear while creating the snippets in the Korean language. (13489)
 
 ### Publishing
 
@@ -138,7 +139,7 @@ The bugs fixed in various areas are listed below:
 - Native PDF publishing lacks the support for CMYK color space conversion. (10754)
 - On upgrading to version 4.3.1,  some exceptions occur in the Native PDF node. (14492)
 - When generating the PDF output with Native PDF publishing, the file name is truncated after a period. (13620)
-- Broken characters appear while creating the snippets in the Korean language. (13489)
+
 
 ### Management
 
