@@ -24,8 +24,17 @@ You can also compare the current content with similar content in the other topic
 
 Using this intelligent feature reduces the manual effort of searching related content and helps you focus on new content creation.  It also helps maintain consistency and also facilitates better team collaboration.  
 
+## Revamped version history feature in the Web Editor
 
-## Enhancement in the Translation UI
+Now Experience Manager Guides provides an enhanced version history feature which allows you to compare the changes made to a document over time. In the new side by side view, you can easily compare the content and the metadata of the current version with any previous version of the same document. You can also view the labels and comments for the compared versions. As an administrator, you can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box. 
+
+![Version history dialog box](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+  *Preview the changes in the different versions of a topic.*
+
+
+Learn more about the **Version History** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
+
+## Enhanced Translation panel
 
 The **Translation** panel has been improved.  You can view the **Available Languages** list and quickly select the locale in which you want to translate your project. With a single selection, you can also choose **Select all** to translate your project into all the available languages.
 
@@ -37,50 +46,8 @@ The **Translation** panel has been improved.  You can view the **Available Langu
 
 Learn more about how to [translate content](../user-guide/translation.md).
 
-## Split a list at the same level
 
-Now, you can easily split your list in the Web Editor. Select the **Split List** option from the context menu of a list item to split the current list. A new list is created at the same level, starting with the list item you selected for the split.  
-
-![translation panel](assets/context-menu-split-list.png){width="300" align="left"}
-
-*Select the option to split the current list.*
-
-For more details, view the **Insert List** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
-
-## Pass assets metadata to the PDF output
-
-Experience Manager now provides the capability to pass the assets' metadata properties from the DITA map  to the PDF output. 
-From the Native PDF output preset, you can choose the metadata that you want to pass to PDF publishing process. You can select both the custom and the default properties.  The selected metadata properties are passed to the PDF file generated using Native PDF.
-
-This feature is handy as it helps you  keep your asset properties such as author, creation date, or document title consistent. This makes it easier to organize, search, and categorize your documents.
-
-For more details, view the **Advanced** settings in the [Publish PDF output](../web-editor/native-pdf-web-editor.md).
-
-## Use metadata added in the `topicmeta` element for the PDF output
-
-Metadata feature in Native PDF publishing helps in content management and helps in searching files on the internet. 
-<img src="assets/pdf-metadata-4-4.png" alt="metadata tab" width=800>
-
-*Select an option to add and customize metadata options.*
-
-Now Experience Manager Guides provides the option to use the metadata that you have added in the `topicmeta` element of the DITA map to populate the metadata fields of the PDF output. This option is selected by default.
-
-This feature helps in better document management, ensures consistency, and makes your documents searchable.
-
-To know more, view the **Metadata** tab in the [Publish PDF output](../web-editor/native-pdf-web-editor.md).
-
-## Enhanced version history 
-
-Now Experience Manager Guides provides an enhanced version history feature which allows you to track changes made to a document over time. You can easily compare the content and the metadata of the current version with any previous version of the same document. You can also view the labels and comments for the compared versions. As an administrator, you can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box. 
-
-![Version history dialog box](assets/version-history-dialog-web-editor.png){width="800" align="left"}
-  *Preview the changes in the different versions of a topic.*
-
-This feature facilitates content reviews by displaying the added and the deleted content. It also enhances collaboration by helping the authors and reviewers monitor the changes in the different versions of the document.
-
-Learn more about the **Version History** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
-
-## Enahanced search in the Insert Element dialog box
+## Improved search logic in the Insert Element dialog box
 
 You can now easily find the elements in the Insert Element dialog box.  You can type a string in the search box and get a list of all the valid elements that begin with the entered string.
 
@@ -95,8 +62,56 @@ all valid elements that begin with ‘t’.
 
 For more details, view the **Insert Element** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
-## Access file properties in all modes of Web Editor
+
+## Ability to split a list at the same level
+
+Now, you can easily split your list in the Web Editor. Select the **Split List** option from the context menu of a list item to split the current list. A new list is created at the same level, starting with the list item you selected for the split.  
+
+![translation panel](assets/context-menu-split-list.png){width="300" align="left"}
+
+*Select the option to split the current list.*
+
+For more details, view the **Insert List** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
+
+
+
+
+
+
+## Access file properties in the source mode of authoring 
 
 Now, you can access the right panel's **File Properties** feature in all four modes or views:  Layout, Author, Source, and Preview.  This helps you view your file's properties even when you switch between the different modes.
 
 For more details, view the **File Properties** feature description in the [Right Panel](../user-guide/web-editor-features.md#id2051EB003YK) section. 
+
+## Publish multiple output presets in parallel
+
+Experience Manager provides the feature to create baselines by automatically picking the topics according to the label applied to them. Now, you can also seamlessly publish multiple output presets with automatic baselines of the same DITA map. You don’t have to publish only one preset at a time but can easily publish multiple output presets in parallel.
+
+
+## Native PDF enhancements
+
+The following Native PDF enhancements have been done in the February 2024 release:
+
+### Pass assets metadata to the PDF output
+
+Experience Manager now provides the capability to pass the assets' metadata properties from the DITA map  to the PDF output. 
+From the Native PDF output preset, you can choose the metadata that you want to pass to PDF publishing process. You can select both the custom and the default properties.  The selected metadata properties are passed to the PDF file generated using Native PDF.
+
+This feature is handy as it helps you  keep your asset properties such as author, creation date, or document title consistent. This makes it easier to organize, search, and categorize your documents.
+
+For more details, view the **Advanced** settings in the [Publish PDF output](../web-editor/native-pdf-web-editor.md).
+
+
+### Use metadata added in the `topicmeta` element for the PDF output
+
+Metadata feature in Native PDF publishing helps in content management and helps in searching files on the internet. 
+<img src="assets/pdf-metadata-4-4.png" alt="metadata tab" width=800>
+
+*Select an option to add and customize metadata options.*
+
+Now Experience Manager Guides provides the option to use the metadata that you have added in the `topicmeta` element of the DITA map to populate the metadata fields of the PDF output. This option is selected by default.
+
+This feature helps in better document management, ensures consistency, and makes your documents searchable.
+
+To know more, view the **Metadata** tab in the [Publish PDF output](../web-editor/native-pdf-web-editor.md).
