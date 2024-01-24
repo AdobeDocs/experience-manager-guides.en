@@ -40,8 +40,6 @@ The **Translation** panel has been improved.  You can view the **Available Langu
 
 ![translation panel](assets/translation-languages-4.4.png){width="300" align="left"}
 
-
-
 *Select the locales in which you want to translate your project. Choose the default, baseline, or the latest version of files for translation.*
 
 Learn more about how to [translate content](../user-guide/translation.md).
@@ -72,11 +70,6 @@ Now, you can easily split your list in the Web Editor. Select the **Split List**
 *Select the option to split the current list.*
 
 For more details, view the **Insert List** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
-
-
-
-
-
 
 ## Access file properties in the source mode of authoring 
 
