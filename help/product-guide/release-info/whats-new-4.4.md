@@ -57,6 +57,7 @@ When you define key attributes for the topic or map references, you can also vie
 
 
 For more details, refer to the **Map View** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+
 ## Ability to duplicate a baseline based on label
 
 Experience Manager Guides now provides an enhanced user experience for creating the baselines from the Web Editor. 
