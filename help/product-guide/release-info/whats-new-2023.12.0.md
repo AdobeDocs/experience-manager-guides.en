@@ -121,13 +121,6 @@ It also allows you to duplicate a baseline based on the label. The reference ver
 
 Learn more about how to [create and manage baselines from the Web Editor](../user-guide/web-editor-baseline.md).
 
-## Improved process for the creation of bulk activation map collection
-
-The process of creating a bulk activation map collection is now more harmonious. Now, when the Activation Results page is displayed, you can view the results of activation and logs. 
-For more details, refer to [Create a bulk activation map collection](../user-guide/conf-bulk-activation-create-map-collection.md).
-
-
-
 ## Resolve cross-map links in the AEM Site output 
 
 Cross-map links (XREF with scope peer) getting rendered in the AEM Site output are now resolved as per the file title of the publishing context set for the generated map.
