@@ -759,34 +759,6 @@ Before you start the Experience Manager Guides 4.4.0 upgrade process, ensure tha
 1.  Clear the browser cache after installing the package.
 1.  Continue upgrading the customizations as detailed out in the next section.
 
-### Enable trigger of script via a Servlet{#enable-trigger-serverlet-4-4-0}
-
-POST:
-
-```
-http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
-```
-
-Response: 
-
-```
-{
-"msg": "Job is successfully submitted and lock node is created for future reference",
-"lockNodePath": "/var/dxml/executor-locks/translation-map-upgrade/1683190032886",
-"status": "SCHEDULED"
-}
-```
-
-In the above response JSON, the key `lockNodePath` holds the path to the node created in the repository pointing to the job submitted. It will automatically be deleted once the job is completed, till then, you can refer to this node for the current status of the job.
-
-Look for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` and `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` before proceeding to the next steps.
-
->[!NOTE]
->
-> You should check if the node is still present and the status of the job.
-
-**GET**: `http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json`
-
 
 ## After you install version 4.4.0
 
@@ -868,7 +840,7 @@ After you install Experience Manager Guides, you may merge the various configura
 
 >[!NOTE]
 >
-> You need not perform these steps if you upgrade from 4.3.0 or 4.2.1.
+> You need not perform these steps if you upgrade from 4.3.0 or 4.3.1.
 
 Perform the following steps for indexing the existing content and use the new find and replace text at map level:
 
@@ -882,7 +854,7 @@ Perform the following steps for indexing the existing content and use the new fi
 
 >[!NOTE]
 >
-> You need not perform these steps if you upgrade from 4.3.0 or 4.3.1
+> You need not perform these steps if you upgrade from 4.3.0 or 4.3.1.
 
 Perform the following steps for post processing the existing content and using the new broken link report:
 
@@ -907,8 +879,47 @@ Perform the following steps for post processing the existing content and using t
 
 1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
 
+### Enable trigger of script via a Servlet{#enable-trigger-serverlet-4-4-0}
+
+>[!NOTE]
+>
+> You need not perform these steps if you upgrade from 4.3.0 or 4.3.1.
+
+POST:
+
+```
+http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
+```
+
+Response: 
+
+```
+{
+"msg": "Job is successfully submitted and lock node is created for future reference",
+"lockNodePath": "/var/dxml/executor-locks/translation-map-upgrade/1683190032886",
+"status": "SCHEDULED"
+}
+```
+
+In the above response JSON, the key `lockNodePath` holds the path to the node created in the repository pointing to the job submitted. It will automatically be deleted once the job is completed, till then, you can refer to this node for the current status of the job.
+
+Look for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` and `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` before proceeding to the next steps.
+
+>[!NOTE]
+>
+> You should check if the node is still present and the status of the job.
+
+**GET**: `http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json`
 
 
+
+## Steps to handle the `'fmdita rewriter'` conflict
+
+Experience Manager Guides has a [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) module for handling the links generated in case of cross-maps (links between the topics of two different maps).
+
+If you have another custom sling rewriter in your codebase,  use an `'order'` value greater than 50, as Experience Manager Guides sling rewriter uses `'order'` 50.  To override this, you need a value >50. For more details, view [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+
+During this upgrade, since the `'order'` value is changed from 1000 to 50, you need to merge the existing custom rewriter, if any, with `'fmdita-rewriter'`.
 
 
 **Parent topic:**[Download and install](download-install.md)
