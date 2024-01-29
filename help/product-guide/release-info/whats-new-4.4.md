@@ -24,7 +24,7 @@ You can define condition attributes in your DITA topics. Then, use the condition
 
 ![Condtion Presets from the Manage tab of the Web editor ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
-For more details, view [Use condition presets](../user-guide/generate-output-use-condition-presets.md).
+For more details, view [Use condtion presets](../user-guide/generate-output-use-condition-presets.md).
 
 ## Revamped experience to edit the attributes 
 
@@ -172,6 +172,7 @@ Experience Manager Guides allows you, as an administrator, to configure the URL 
 
 Experience Manager provides the feature to create baselines by automatically picking the topics according to the label applied to them. Now, you can also seamlessly publish multiple output presets with automatic baselines of the same DITA map. You don’t have to publish only one preset at a time but can easily publish multiple output presets in parallel.
 
+Learn more about how to [create and manage baselines from the Web Editor](../user-guide/web-editor-baseline.md).
 
 ## Native PDF enhancements
 
@@ -211,10 +212,10 @@ You can apply styles and use HTML markup to format the variables.  You can also 
 Learn more about how to use [variables in the PDF output](../native-pdf/native-pdf-variables.md).
 
 
-### Propogate assets metadata to the PDF output
+### Propagate assets metadata to the PDF output
 
 Experience Manager now provides the capability to transfer the assets' metadata properties from the DITA map  to the PDF output. 
-From the Native PDF output preset, you can choose the metadata that you want to propogate to PDF publishing process. You can select both the custom and the default properties.  The selected metadata properties are transferred to the PDF file generated using Native PDF.
+From the Native PDF output preset, you can choose the metadata that you want to propagate to the PDF publishing process. You can select both the custom and the default properties.  The selected metadata properties are transferred to the PDF file generated using Native PDF.
 
 This feature is handy as it helps you  keep your asset properties such as author, creation date, or document title consistent. This makes it easier to organize, search, and categorize your documents.
 
