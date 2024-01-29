@@ -222,6 +222,27 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     ![](images/editor-setting-translation.png){width="550" align="left"}
 
+- **Metadata**: You can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box.  In the metadata path, specify the location of the nodes from which you want to pick the metadata. You can also define a custom name for the metadata as the label. The default properties are Title, Document State, and Tags.
+
+    The metadata can be picked from any property under the `/jcr:content` node of the asset, so you can add the path of the property as the Metadata path.
+    
+
+    An error is displayed if the metadata path is blank. If you leave the label blank, the last element is picked as the label. 
+
+    
+
+
+    ![metadata tab in the editor settings](images/editor-setting-metadata.png){width="550" align="left"}
+
+    *Configure the metadata for the **Version History** dialog box.*
+
+    
+    
+    
+    You can also define the order in which these metadata tags are displayed. To change the default order of these tags, select the dotted bars to drag and drop the tags at the desired location.
+    The metadata labels appear in the same sequence in the **Version History** of the Web Editor. 
+
+    
 
 **User Preferences** - ![](images/user_preference_editor_icon.svg)
 
@@ -264,9 +285,16 @@ The secondary toolbar appears when you open a topic for editing in the Web Edito
 
 **Insert Element** - ![](images/Add_icon.svg)
 
-Inserts a valid element at the current or next valid location. If you are working inside a block element like a `note`, then use the Insert Element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
+Inserts a valid element at the current or next valid location. You can also use the keyboard shortcut ***Alt***+***Enter*** to open the Insert Element pop-up. For example, you are editing a paragraph, then in the **Insert Element** pop-up, a list of elements appears that can be inserted in the paragraph. Select the element that you want to insert. You can use the keyboard to scroll through the list of elements and press ***Enter*** to insert the required element. You can also type a character or string in the search box and search for the elements that begin with it.
 
-![](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+ 
+![insert element](images/insert-element.png){width="300" align="left"}
+
+*Enter ‘t’ to search for all valid elements that begin with ‘t’.*
+
+If you are working inside a block element like a `note`, then use the Insert Element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
+
+![Insert element in a block element](images/note-in-para-insert-element_cs.png){width="800" align="left"}
 
 If you press Enter in the note element, a new paragraph is created within the note element itself. To insert a new element outside note, click the p element \(highlighted in screenshot\) in the elements breadcrumb and click on the Insert Element icon or press ***Alt***+***Enter*** to open the Insert Element pop-up. Then, select the desired element and press Enter to insert the selected element after the note element.
 
@@ -276,7 +304,7 @@ You can also add an element between two elements when a blinking block cursor ap
 
 For example, if you are working on a DITA topic, and the block cursor is blinking between the short description and the body, you can add `prolog` element and then add copyright, author, and other details.
 
-Another way of entering new element is by using the context menu. Right-click at any place in your document to invoke the context menu. From this menu choose Insert Element to display the Insert Element dialog and choose the element that you want to insert.
+Another way of entering new element is by using the context menu. Right-click at any place in your document to invoke the context menu. From this menu choose **Insert Element** to display the **Insert Element** dialog box and choose the element that you want to insert.
 
 ![](images/insert-element-before-after.png){width="300" align="left"}
 
@@ -291,6 +319,10 @@ Creates a numbered list at the current or next valid location. If you are on a n
 **Insert/Remove Bulleted List** - ![](images/BulletList_icon.svg)
 
 Creates a bulleted list at the current or next valid location. If you are on a bulleted list and click this icon, the item is converted into a normal paragraph.
+
+>[!NOTE]
+>
+>You can also select the **Split List** option from the context menu of a list item to split the current list and begin a new list at the same level.
 
 **Insert Table** - ![](images/Table_icon.svg)
 
@@ -634,9 +666,10 @@ To merge changes in a map file, perform the following steps:
 
 **Version History** - ![](images/version-history-web-editor-ico.svg)
 
-AEM Guides provides various ways to view the versions created for your topic files and also ways to revert to a specific version. However, most of these features are available outside the Web Editor.
 
-The Version History feature in the Web Editor allows you to not only check the available versions and labels on your active topic, but also gives you the flexibility to revert to any version from the editor itself.
+The **Version History** feature in the Web Editor allows you to check the available versions of your DITA files, compare them,  and revert to any version from the editor itself.
+
+In the version history, you can compare the  content and metadata of the current version (which can also be a working copy) with any previous version of the same file. You can also view the labels and comments for the compared versions.
 
 To access the version history and revert to a specific version of your topic, perform the following steps:
 
@@ -644,34 +677,54 @@ To access the version history and revert to a specific version of your topic, pe
 
 1. Click **Version History**.
 
-    The Version History dialog appears.
+    The **Version History** dialog box appears.
 
-    ![](images/version-history-dialog-web-editor.png){width="550" align="left"}
+    ![Version history dialog box](images/version-history-dialog-web-editor.png){width="550" align="left"}
+  *Preview the changes in the different versions of a topic.*
 
-1. Choose a version of the topic that you want to revert to in the **Select Version** drop-down list.
+1. Choose a version of the topic that you want to compare or revert to in the **Compare with** dropdown list.
 
     >[!NOTE]
     >
     > If a version has labels applied to it, they are also shown \(in brackets\) along with the version number.
 
-    Once you choose a version from the drop-down list, the Revert to Selected Version option is made available. The preview window displays the differences between the current version and the selected version of the topic.
+    
 
-    ![](images/version-history-revert-diff-dialog-web-editor.png){width="550" align="left"}
+1. Enable **View labels and comments** option to view the labels and comments applied to the current and the compared versions.
 
+1. You can also view the following information in the **Version History** dialog box:
+    
+    **Preview** tab: The newly added content is in green font, and the deleted content is in red font. 
+
+    **Metadata** tab: The newly added metadata is in green font, and the deleted metadata is in red font.
+    ![Metadata difference for versions ](images/metadata-version-diff.png){width="550" align="left"}
+    *Compare the metadata of different versions in the Version history.*
+
+    >[!NOTE]
+    >
+    > Your system administrator can change the metadata to be shown from the Metadata tab in the Editor Settings.
+
+    You can also view the user and time details of the current and the compared version.
+    
+
+
+1. Once you choose a version from the drop-down list, the **Revert to Selected Version option** is made available. The preview window displays the differences between the current version and the selected version of the topic.
+
+    
 1. Click **Revert to Selected Version** to revert your working copy with the selected version of the topic.
 
     The Revert Version dialog appears.
 
     ![](images/version-history-revert-dialog-save-working-copy.png){width="550" align="left"}
 
-1. \(*Optional*\) Provide a reason of reverting to an earlier version. You can also create a new version of the currently active working copy of your topic.
+1. \(*Optional*\) Provide a reason for reverting to an earlier version. You can also create a new version of the currently active working copy of your topic.
 
 1. Click **Confirm.**
 
-    Your working copy of the file is reverted to the selected version. If you chose to create a new version of the currently active working copy, then a new version of the file is also created with all working changes.
+    Your working copy of the file is reverted to the selected version. If you choose to create a new version of the currently active working copy, then a new version of the file is also created with all working changes.
 
 
-When you revert to an earlier version, a visual cue is shown indicating that version you are currently working on is not the latest version.
+When you revert to an earlier version, a visual cue is shown indicating that the version you are currently working on is not the latest version.
 
 ![](images/older-version-visual-cue.png){width="800" align="left"}
 
@@ -1103,8 +1156,8 @@ You can perform the following actions using the Options menu of the map file:
 - **Open Map Dashboard**: Open the map dashboard.
 
 - **View in Assets UI**: Use this to show a preview of the map file in the Assets UI. In this view, all topic files within the map are shown in a single unified page-by-page view.
-- **Download Map**: Select this option to open the **Download Map** dialog. 
-In the **Download Map** dialog, you can choose the following options:
+- **Download Map**: Select this option to open the **Download Map** dialog box. 
+In the **Download Map** dialog box, you can choose the following options:
     - **Use Baseline**: Select this option to get a list of Baselines created for the DITA map. If you want
     to download the map file and its contents based on a specific Baseline, select the Baseline
     from the drop-down list. For more details about working with Baselines, view [work with Baseline](./generate-output-use-baseline-for-publishing.md).
@@ -1112,7 +1165,10 @@ In the **Download Map** dialog, you can choose the following options:
     
      You can also download the map file without selecting any option. In that case, the last persisted versions of the referenced topics and media files are downloaded.
 
-    After you click the **Download** button, the map download request is queued. You receive the map download-ready notification if the map is ready to download. In case the download fails, you receive the notification that the map download failed
+    
+    After you click the **Download** button, the map export package request is queued. The **Success** dialog box is displayed if the package is created successfully.  You can click the **Download** button from the **Success** dialog box. 
+    
+    You receive the map download-ready notification if the map is ready to download. In case the download fails, you receive the notification that the map download failed.
 
     You can access the download link from the AEM notification Inbox. Select the generated map notification in the Inbox to download the map in .zip format.
 
@@ -1799,7 +1855,9 @@ If your administrator has created a profile for attributes, then you will get th
 
 **File Properties** -  ![](images/topic-properties-icon.svg)
 
-View the properties of the selected file by clicking the File Properties icon in the right panel. The File Properties has the following two sections:
+View the properties of the selected file by clicking the File Properties ![](images/topic-properties-icon.svg) icon in the right panel. The File Properties feature is available in all four modes or views: Layout, Author, Source, and Preview.
+
+The File Properties has the following two sections:
 
 **General**
 

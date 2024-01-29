@@ -81,16 +81,20 @@ Metadata is the description or definition of your content. Metadata helps in con
 
 Use the Metadata tab to set the metadata fileds such as the author's name, document title, keywords, copyright information, and other data fields for the PDF output. You can also add custom metadata for your PDF output. 
 
-This metadata is mapped to the metadata in the Description tab within the Document Properties of your output PDF.  
+This metadata is mapped to the metadata in the **Description** tab within the **Document Properties** of your output PDF.  
 
-**Note**: This metadata overrides the metadata defined at the book level. 
+
 
 <img src="assets/pdf-metadata.png" alt="metadata tab" width=600>
 
-From the Output presets, **select PDF** > **Metadata** to add and customize metadata options. 
+From the Output presets, select  **PDF** > **Native-PDF** > **Metadata** to add and customize metadata options. 
+* **Use Metdata added in topicmeta**
+
+   This option is selected by default. You can use the metadata that you have added in the topicmeta element of the DITA map to populate the metadata fields of the PDF output. 
+
 * **Provide XMP file**
 
-   Metadata fields can be directly populated by importing [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform) file. You can download a sample XMP file from here.
+  You can also directly populate the metadata fields by importing [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform) file. You can download a sample XMP file from here.
    
    [Download](assets/SampleXMP.xmp)
 
@@ -163,6 +167,7 @@ Use the following options to specify advanced settings to merge PDFs, use compre
 |  **Enable MathML equations** | Select this option to render MathML equations present in your content. The equations will be ignored otherwise by default.  | 
 |**Download temporary files**|Select this option if you want to download the interim HTML files created while generating the Native PDF output. You can later download the temporary files after generating the output.  |
 |  **PDF conformance** | It is the standard to which you intend to save your PDF to ensure it is compliant. Select from the dropdown to choose from the list of available PDF standards. For more details about the supported standards, see [About PDF standards](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). | 
+|**File properites**| Select the metadata that you want to pass to Native PDF publishing. The dropdown lists both the custom and the default properties. For example, `dc:description`, `dc:language`, `dc:title`, and `docstate` are the default properties while you can have `author` as the custom property. The selected metadata properties are passed to the PDF file generated using Native PDF. <br> These properties are picked from the `metadataList` file available at:`/libs/fmdita/config/metadataList`. <br>This file can be overlaid at: `/apps/fmdita/config/metadataList`.|
 
 
 ## Generate a PDF output {#generate-pdf-output} 

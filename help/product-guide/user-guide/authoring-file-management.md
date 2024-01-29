@@ -175,7 +175,7 @@ To move files in bulk, perform the following steps:
     > Select <img src="images/info-icon.svg" width="25">   near any field  to view more details about it. 
 
     - **Batch size**: Specify the number of files to move in a single batch. The default values if 50 files.
-    - **Sleep interval**: Specify the time in seconds that the process will wait before starting the next batch. During this sleep time interval, the system fixes the references to and from the moved files. The default sleep interval is 60 seconds.
+    - **Sleep interval (seconds)**: Specify the time in seconds that the process will wait before starting the next batch. During this sleep time interval, the system fixes the references to and from the moved files. The default sleep interval is 60 seconds.
 
 
     -   **Add suffix to duplicate folders**: In case you are moving folders that have same name, then you must select this option. For example, in the previous screenshot, the **Source Path** contains the name of folders to move. The folder named topic exists at two different locations — test-A and test-B. When you select this option, then the folders will move successfully. The first moved folder will be named topic whereas the second folder will be named topic0. The move operation adds a suffix in sequential series \(0, 1, 2, and so on\) to the folders with the same name.

@@ -31,8 +31,8 @@ Before performing steps in this procedure, ensure that you have created the requ
 ## Create a translation project 
 
 1.  In the Repository panel, open the DITA map file in map view.
-1.  Click the **Manage** tab. The Translation panel displays the hyperlinked title of the DITA map along with the **Languages** list.
-1.  From the **Languages** list, select the locale to which you want to translate your project. You can select **All** to translate your project into all the available languages.
+1.  Click the **Manage** tab. The Translation panel displays the **Available Languages** list.
+1.  From the **Available Languages** list, select the locale to which you want to translate your project. You can choose **Select all** to translate your project into all the available languages.
 
     >[!NOTE]
     >
@@ -40,11 +40,13 @@ Before performing steps in this procedure, ensure that you have created the requ
 
     >[!IMPORTANT]
     >
-    > Language shows only those languages for which a language folder is created parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
+    > The list shows only those languages for which a language folder is created parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
 
-    ![](images/translation-languages.png){width="350" align="left"}
+    ![](images/translation-languages.png){width="300" align="left"}
 
-1.  You can also use the following options:
+1.  You can also select one the following options to translate your project:
+
+    **None** Select this option to translate the default versions of the files. This option is selected by default. 
 
     **Use Baseline:** You can select a baseline to translate your project. Click Use Baseline and choose a baseline created on the map. All files that are a part of the selected Baseline are shown in the Translation page. Once your content is translated, you can export the translated Baseline. For more details about exporting the translated Baseline, see [Export translated Baseline](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
@@ -141,7 +143,7 @@ For example, if you have some source files with the version label `Release 1.0` 
 
 AEM Guides provides the feature to check the differences between the selected version and the last translated source version of the topics. You can choose to translate the **Out of Sync** files based on the changes made.
 
-![](images/translation-version-diff.png){width="800" align="left"}
+![](images/translation-version-diff.png){width="650" align="left"}
 
 Select the **Show difference**icon \(![](images/show-difference-icon.svg)\) for a topic to see the differences between the last translated version and the current version of the selected file.
 
