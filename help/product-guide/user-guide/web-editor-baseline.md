@@ -119,7 +119,7 @@ You can duplicate a baseline and modify it according to your requirements.
 
 The labels listed in the dropdown are based on the following criteria:
 - The labels should be added to one of the versions of the topics in the DITA map (on which the baseline is created).
-- And only the first-level references (topics or sub-maps) of the DITA map are considered to pick the labels.
+- And only the first-level references (topics or sub-maps) of the DITA map are considered for picking the labels.
 
 
 
