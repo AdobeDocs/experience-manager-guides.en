@@ -24,7 +24,7 @@ You can define condition attributes in your DITA topics. Then, use the condition
 
 ![Condtion Presets from the Manage tab of the Web editor ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
-For more details, view [Use condtion presets](../user-guide/generate-output-use-condition-presets.md).
+For more details, view [Use condition presets](../user-guide/generate-output-use-condition-presets.md).
 
 ## Revamped experience to edit the attributes 
 
