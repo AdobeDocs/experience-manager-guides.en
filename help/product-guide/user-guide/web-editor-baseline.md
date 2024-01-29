@@ -114,7 +114,7 @@ You can manage your existing baselines using the various features on the Baselin
 ### List of labels {#labels-list}
 
 You can view the following labels in the dropdown list:
-- Only the labels added to one of the versions of the topics of the DITA map (on which the baseline is created).
+- Only the labels added to one of the versions of the topics in the DITA map (on which the baseline is created).
 - In addition, the list of topics from which the label is picked is only from the first-level references of the DITA map.
 
 
