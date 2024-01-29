@@ -87,7 +87,7 @@ You can manage your existing baselines using the various features on the Baselin
 
     You can also perform the following operations on the baseline from the Options menu:
 
- ## Duplicate a baseline
+## Duplicate a baseline
 
 You can duplicate a baseline and modify it according to your requirements. 
    ![duplicate a baseline](images/baseline-duplicate.png){width="300" align="left"}
