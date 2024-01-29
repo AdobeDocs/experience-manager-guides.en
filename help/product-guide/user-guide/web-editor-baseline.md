@@ -86,19 +86,23 @@ You can manage your existing baselines using the various features on the Baselin
    
 
     You can also perform the following operations on the baseline from the Options menu:
-- **Duplicate a baseline**:  You can duplicate a baseline and modify it according to your requirements. 
+
+ ## Duplicate a baseline
+
+You can duplicate a baseline and modify it according to your requirements. 
    ![duplicate a baseline](images/baseline-duplicate.png){width="300" align="left"}
    *Duplicate a baseline based on a label or create an exact copy.*
-    1. Select **Duplicate** from the Options menu of a baseline. The **Duplicate baseline** dialog box opens.
+    
+ 1. Select **Duplicate** from the Options menu of a baseline. The **Duplicate baseline** dialog box opens.
         >[!NOTE]
         > 
         >The default name of the baseline is `<selected baseline name>`_suffix (like sample-baseline_1). You can change the name according to your requirements.
        
        In **Select the version based on**, you can either choose the **Exact copy** option or the **Label** option:
 
-         - **Exact copy**: Experience Manager Guides picks the same version of all the topics and creates an exact copy of the duplicated baseline. 
-         - **Label**: Using the dropdown, you can choose one of the [listed labels](#labels-list). Experience Manager Guides picks those versions of the topics with the selected label defined for them, while for the remaining topics, it picks the version from the duplicated baseline. For example, you select the label `Release 1.0` from the dropdown, then it picks those versions of the topics for which you have defined this label. For all other topics, it picks the version from the duplicated baseline.
-    1. Click **Duplicate**.
+    - **Exact copy**: Experience Manager Guides picks the same version of all the topics and creates an exact copy of the duplicated baseline. 
+    - **Label**: Using the dropdown, you can choose one of the [listed labels](#labels-list). Experience Manager Guides picks those versions of the topics with the selected label defined for them, while for the remaining topics, it picks the version from the duplicated baseline. For example, you select the label `Release 1.0` from the dropdown, then it picks those versions of the topics for which you have defined this label. For all other topics, it picks the version from the duplicated baseline.
+1. Click **Duplicate**.
     
 -  **Rename**, or **Delete** an existing baseline.
 -  Add, remove, or make changes to existing labels from the **Manage Labels** option for static baselines. If your administrator has configured pre-defined labels, then you are shown those labels in the Add Label dropdown list. For more information about adding labels, see [Use labels](web-editor-use-label.md#).
@@ -119,7 +123,7 @@ The labels listed in the dropdown are based on the following criteria:
 
 
 
-### Baseline filters
+## Baseline filters
 
 Using the Filters icon in the **Baseline Filters** panel you can apply filters on the baseline opened in the baseline editing window:
 
