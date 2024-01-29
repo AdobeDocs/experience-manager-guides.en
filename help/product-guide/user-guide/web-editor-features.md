@@ -667,7 +667,7 @@ To merge changes in a map file, perform the following steps:
 
 The **Version History** feature in the Web Editor allows you to check the available versions of your DITA files, compare them,  and revert to any version from the editor itself.
 
-In the version history, you can compare the current version's content and metadata with any previous version of the same file. You can also view the labels and comments for the compared versions.
+In the version history, you can compare the  content and metadata of the current version (which can also be a working copy) with any previous version of the same file. You can also view the labels and comments for the compared versions.
 
 To access the version history and revert to a specific version of your topic, perform the following steps:
 
