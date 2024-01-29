@@ -9,7 +9,7 @@ exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 >
 > It is recommended to use this Baseline feature from the Web Editor if you have upgraded to AEM Guides as a Cloud Service March release or later.
 
-AEM Guides provides the Baseline feature integrated inside the Web Editor that allows the users to create baselines and use them to publish or translate topics of different versions.
+AEM Guides provides the Baseline feature integrated inside the Web Editor that allows the users to create baselines and use them to publish or translate topics of different versions. They can also publish multiple output presets of the same DITA map in parallel.
 
 ## Create a Baseline 
 
@@ -52,7 +52,8 @@ You can create a baseline from the Web Editor by performing the following steps:
 
     ![Create a baseline](images/dynamic-baseline.png){width="300" align="left"}
 
-    - **Select Labels**: If the topics have labels specified for them, the labels are listed in the **Select Labels** dropdown. You can choose the label\(s\) from the list. The labels selected first are given higher priority over the later ones.
+    - **Select Labels**: If the topics have labels specified for them, the labels are listed in the **Select Labels** [dropdown list](#labels-list). You can choose the label\(s\) from the list. 
+    The labels selected first are given higher priority over the later ones.
 
         For dynamic baselines, the labels are pulled from the latest saved version and the current working copy of the map. For example, if you have created labels   `Label Release A.1.0 ` and `Label Release A.1.1` for versions 1.0 and 1.1 of Topic A and labels `Label Release B.1.0` and `Label Release B.1.1` for versions 1.0 and 1.1 of Topic B . Then you can add Topic A to Map A in version 1.0 and Topic B to Map A in 1.0* (working copy). In this case, you can view  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`,  and `Label Release B.1.1` in the dropdown of dynamic baseline labels.
 
@@ -96,7 +97,7 @@ You can manage your existing baselines using the various features on the Baselin
        In **Select the version based on**, you can either choose the **Exact copy** option or the **Label** option:
 
          - **Exact copy**: Experience Manager Guides picks the same version of all the topics and creates an exact copy of the duplicated baseline. 
-         - **Label**: You can choose a label from the dropdown. Experience Manager Guides picks those versions of the topics with the selected label defined for them, while for the remaining topics, it picks the version from the duplicated baseline. For example, you select the label `Release 1.0` from the dropdown, then it picks those versions of the topics for which you have defined this label. For all other topics, it picks the version from the duplicated baseline.
+         - **Label**: You can choose a label from the [dropdown list](#labels-list). Experience Manager Guides picks those versions of the topics with the selected label defined for them, while for the remaining topics, it picks the version from the duplicated baseline. For example, you select the label `Release 1.0` from the dropdown, then it picks those versions of the topics for which you have defined this label. For all other topics, it picks the version from the duplicated baseline.
     1. Click **Duplicate**.
     
 -  **Rename**, or **Delete** an existing baseline.
@@ -109,7 +110,16 @@ You can manage your existing baselines using the various features on the Baselin
 - **Edit properties** of an existing static baseline that you have set while creating the baseline.
 - Export the snapshot of a baseline in a Microsoft Excel file with the **Export Baseline** option.
 
-**Baseline filters**
+
+### List of labels {#labels-list}
+
+You can view the following labels in the dropdown list:
+-	Only the labels added to one of the versions of the topics of the DITA map (on which the baseline is created).
+-	In addition, the list of topics from which the label is picked is only first-level references of the DITA map.
+
+
+
+### Baseline filters
 
 Using the Filters icon in the **Baseline Filters** panel you can apply filters on the baseline opened in the baseline editing window:
 
