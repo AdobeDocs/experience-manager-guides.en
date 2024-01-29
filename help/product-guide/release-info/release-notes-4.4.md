@@ -115,6 +115,7 @@ The bugs fixed in various areas are listed below:
 ### Publishing
 
 - AEM Sites publishing fails and causes scope errors for files having `xref` to the DITA file that start with "HTTP". (15154)
+- In Native PDF publishing, the DITA map metadata properties cannot be used to populate the metadata for PDF file output. (15159)
 - In Native PDF publishing, Custom attributes within condition presets are not working for Native PDF publishing. (14943)
 - Unable to add a custom template from the **Outputs** tab in the Editor. (14846)
 - **AEM Site** preset is not working due to an empty template path. (14804)

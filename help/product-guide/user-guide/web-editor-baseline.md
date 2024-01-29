@@ -52,7 +52,7 @@ You can create a baseline from the Web Editor by performing the following steps:
 
     ![Create a baseline](images/dynamic-baseline.png){width="300" align="left"}
 
-    - **Select Labels**: If the topics have labels specified for them, the labels are listed in the **Select Labels** [dropdown list](#labels-list). You can choose the label\(s\) from the list. 
+    - **Select Labels**: If the topics have labels specified for them,  then use the **Select Labels** dropdown to choose from the [listed labels](#labels-list). 
     The labels selected first are given higher priority over the later ones.
 
         For dynamic baselines, the labels are pulled from the latest saved version and the current working copy of the map. For example, if you have created labels   `Label Release A.1.0 ` and `Label Release A.1.1` for versions 1.0 and 1.1 of Topic A and labels `Label Release B.1.0` and `Label Release B.1.1` for versions 1.0 and 1.1 of Topic B . Then you can add Topic A to Map A in version 1.0 and Topic B to Map A in 1.0* (working copy). In this case, you can view  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`,  and `Label Release B.1.1` in the dropdown of dynamic baseline labels.
@@ -97,7 +97,7 @@ You can manage your existing baselines using the various features on the Baselin
        In **Select the version based on**, you can either choose the **Exact copy** option or the **Label** option:
 
          - **Exact copy**: Experience Manager Guides picks the same version of all the topics and creates an exact copy of the duplicated baseline. 
-         - **Label**: You can choose a label from the [dropdown list](#labels-list). Experience Manager Guides picks those versions of the topics with the selected label defined for them, while for the remaining topics, it picks the version from the duplicated baseline. For example, you select the label `Release 1.0` from the dropdown, then it picks those versions of the topics for which you have defined this label. For all other topics, it picks the version from the duplicated baseline.
+         - **Label**: Using the dropdown, you can choose one of the [listed labels](#labels-list). Experience Manager Guides picks those versions of the topics with the selected label defined for them, while for the remaining topics, it picks the version from the duplicated baseline. For example, you select the label `Release 1.0` from the dropdown, then it picks those versions of the topics for which you have defined this label. For all other topics, it picks the version from the duplicated baseline.
     1. Click **Duplicate**.
     
 -  **Rename**, or **Delete** an existing baseline.
@@ -113,9 +113,9 @@ You can manage your existing baselines using the various features on the Baselin
 
 ### List of labels {#labels-list}
 
-You can view the following labels in the dropdown list:
-- Only the labels added to one of the versions of the topics in the DITA map (on which the baseline is created).
-- In addition, the list of topics from which the label is picked is only from the first-level references of the DITA map.
+The labels listed in the dropdown are based on the following criteria:
+- The labels should be added to one of the versions of the topics in the DITA map (on which the baseline is created).
+- And only the first-level references (topics or sub-maps) of the DITA map are considered to pick the labels.
 
 
 
