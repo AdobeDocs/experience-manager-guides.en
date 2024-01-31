@@ -54,9 +54,9 @@ breadcrumb-title: AEM Guides Guide
     + On-prem/Managed Services {#on-prem-release-notes}
     + 4.4.0 Release {#44-release}
         + What's new {#44-whats-new}
-          + [4.4 What's new](./release-info/whats-new-4.4.md)
-        + Release notes {#43-release-notes}
-          + [4.4 Release Notes](./release-info/release-notes-4.4.md)
+          + [4.4.0 What's new](./release-info/whats-new-4.4.md)
+        + Release notes {#44-release-notes}
+          + [4.4.0 Release Notes](./release-info/release-notes-4.4.md)
      + 4.3.0 Release {#43-release}
         + What's new {#43-whats-new}
           + [4.3.1 What's new](./release-info/whats-new-4.3.1-release.md)

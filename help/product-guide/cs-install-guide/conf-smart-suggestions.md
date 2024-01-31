@@ -4,7 +4,7 @@ description: Learn how to configure the smart suggestions for authoring
 ---
 # Configure the smart suggestions for authoring
 
-As an administrator, you can configure the Smart Suggestions feature for the authors. As the smart suggestion service is secured by Adobe IMS auth-based authentication integrate your environments with Adobe’s secure token-based authentication workflows and start using the new smart suggestion solution. The following configuration helps you to add AI configuration tab to folder profile. Once added, you can use the smart suggestions feature in the Web Editor.
+As an administrator, you can configure the Smart Suggestions feature for the authors. As the smart suggestion service is secured by Adobe IMS auth-based authentication integrate your environment with Adobe’s secure token-based authentication workflows and start using the new smart suggestion solution. The following configuration helps you to add AI configuration tab to folder profile. Once added, you can use the smart suggestions feature in the Web Editor.
 
 ## Create IMS configurations in Adobe Developer Console
 
@@ -29,8 +29,9 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
 
 1. Select the **OAuth Server-to-Server** link to view the credential details of your project.  
 
-![connected credentials](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
-*Connect to the project to view the credential details.*
+    ![connected credentials](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+
+    *Connect to the project to view the credential details.*
 1. Copy the CLIENT_ID and CLIENT_SECRET keys.
 
 You have now configured the OAuth authentication details. Keep these two keys handy as these are required in the next section.
@@ -102,6 +103,6 @@ Once this is done, you should be able to use the new microservice-based cloud pu
 |conref.inline.threshold|Threshold that controls precision/recall of suggestions fetched for the tag that the user is typing in currently.|-1.0 <= x <= 1.0|
 |conref.block.threshold|Threshold that controls precision/recall of suggestions fetched for tags across the entire file.|-1.0 <= x <= 1.0|
 |emerald.url|Endpoint for the Emerald vector database|[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|
-|instance.type|Type of the AEM instance. Make sure this is unique for each AEM instance smart suggestions is configured on. An use case would be to test the feature on stage environment with "instance.type" = "stage" while at the same time, the feature is also configured on "prod".|Any unique key identifying the environment "dev"/"stage"/"prod"/"test1"/"stage2"|
+|instance.type|Type of the AEM instance. Make sure this is unique for each AEM instance that the smart suggestions is configured on. A use case would be to test the feature on stage environment with "instance.type" = "stage" while at the same time, the feature is also configured on "prod".|Any unique key identifying the environment. Only alpha numeric values are allowed. "dev"/"stage"/"prod"/"test1"/"stage2"|
 
-Once you have configured,  the smart suggesstions icon is displayed in the right panel of the Web Editor. You can view the list of smart suggestions when you edit your topics. For more details, view [AI based smart suggestions for authoring](../user-guide/web-editor-content-snippet.md).
+Once you have configured,  the smart suggestions icon is displayed in the right panel of the Web Editor. You can view the list of smart suggestions when you edit your topics. For more details, view [AI based smart suggestions for authoring](../user-guide/authoring-ai-based-smart-suggestions.md) section in the Experience Manager User Guide.

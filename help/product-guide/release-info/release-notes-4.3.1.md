@@ -12,7 +12,7 @@ For more information about the new features and enhancements, see [What's new in
 ## Upgrade to 4.3.1 release of Experience Manager Guides
 
 
-You can easily upgrade your current version of  Guides to version 4.3.1. Before you proceed with upgrading to version 4.3.1 of Experience Manager Guides, you must consider the following points:
+You can easily upgrade your current version of  Experience Manager Guides to version 4.3.1. Before you proceed with upgrading to version 4.3.1 of Experience Manager Guides, you must consider the following points:
 You can upgrade your current version of Experience Manager Guides to version 4.3.1
 
 

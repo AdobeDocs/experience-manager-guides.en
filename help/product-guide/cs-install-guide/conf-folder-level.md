@@ -397,6 +397,43 @@ If you have updated an existing output preset, or you want to make a new output 
 1.  Click **OK** to apply changes from the selected output presets on all existing DITA maps.
 
 
+
+## Configure AI-based Smart Suggestions in the Web Editor
+
+For Experience Manager Guides in Cloud Services.
+
+You can configure the AI-based Smart Suggestions and help the authors reuse the existent content and easily create correct and consistent content references. The AI Configuration tab allows you to control the settings of the Smart Suggestions panel in the Web Editor.
+
+Perform the following steps to configure standard AI configuration to the global or folder-level profile:
+1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
+1. Select the **Adobe Experience Manager** link at the top and choose **Tools**.
+1. Select **Guides** from the list of tools and select the **Folder Profiles** tile.
+1. Select the profile tile that you want to configure.
+
+    >[!NOTE]
+    >
+    >You can configure AI-based Smart Suggestions to the global or a folder-level profile.
+
+1. On the profile page, select the **AI Configuration** tab.
+![AI configuration tab in global profile](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+
+1. Click **Edit**.
+1.	As an administrator, you can configure the following settings:
+
+    **Minimum characters**: Enter the minimum number of characters that the authors need to type in to get the suggestions. For example, if this number is 7, the author must add at least 7 characters to view a smart suggestion. 
+
+    **Maximum suggestions**: Enter the maximum number of suggestions the authors can get while authoring the content. For example, if this number is 5, the author can view five or fewer smart suggestions.
+
+    **Files and folders**: Select the files or folders from which the smart suggestions should be shown. For consistency of content, it's recommended that no two entries in the list have common files between them. Once you select the files and folders, they are listed.
+
+1.	Click **Save**.
+
+    >[!NOTE]
+    >
+    > The last indexed status details are displayed on the top after you save the file. 
+
+Learn more about how to view and add [AI-based Smart Suggestions](../user-guide/authoring-ai-based-smart-suggestions.md) to add content references while authoring in the Web Editor.
+
 ## Configure and customize the XML Web Editor {#id2065G300O5Z}
 
 By default, the XML Web Editor comes with a lot of features to help your authors create DITA documents. If you work in a restrictive environment, you can choose which features are exposed to your authors. The XML Editor Configuration tab allows you to easily control the features and also change the look-and-feel of your Web Editor. As an administrator, you can customize the following components of the Web Editor:
