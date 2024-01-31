@@ -13,6 +13,10 @@ breadcrumb-title: AEM Guides Guide
   + Release Notes {#release-notes}
     + Cloud Services {#cloud-release-notes}
       + [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
+      + 2024 Releases
+        + February Release {#2402-release}
+          + [What's new](./release-info/whats-new-2024.2.0.md)
+          + [Release Notes](./release-info/release-notes-2024.2.0.md)
       + 2023 Releases {#2023-releases}
         + December Release {#2312-release}
           + [What's new](./release-info/whats-new-2023.12.0.md)
@@ -102,6 +106,7 @@ breadcrumb-title: AEM Guides Guide
           + [Other features in the Web Editor](./user-guide/web-editor-other-features.md)
           + [Web Editor views](./user-guide/web-editor-views.md)
           + [Support for Schematron files](./user-guide/support-schematron-file.md)
+          + [AI-based Smart Suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
           + [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
           + [Add citations to your content](./user-guide/web-editor-apply-citations.md)
           + [Use data from your data sources](./user-guide/web-editor-content-snippet.md)

@@ -1,10 +1,10 @@
 ---
-title: AI-based Smart Suggestions
+title: AI-based Smart Suggestions to author content
 description: Learn how to view and utilize AI-based Smart Suggestions in the Web Editor.
 ---
 
 
-# AI-based Smart Suggestions
+# AI-based Smart Suggestions to author content
 Experience Manager Guides provides the **Smart Suggestions** feature that helps you create and improve your content. It checks the available content in your files and provides suggestions for creating content references after you enter a specific number of characters.  These suggestions are based on matching keywords and ideas from the existing content. 
 
 You can view the suggestions, compare them against the content of your current topic, and accept the appropriate recommendation.  This helps you create consistent and correct content.  For example, suppose you are creating a brochure about the latest features of your product. In that case, you can quickly view and add the updated specifications as content references from the related feature-specific documents.
