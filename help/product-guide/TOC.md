@@ -13,7 +13,7 @@ breadcrumb-title: AEM Guides Guide
   + Release Notes {#release-notes}
     + Cloud Services {#cloud-release-notes}
       + [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
-      + 2024 Releases
+      + 2024 Releases {#2024-releases}
         + February Release {#2402-release}
           + [What's new](./release-info/whats-new-2024.2.0.md)
           + [Release Notes](./release-info/release-notes-2024.2.0.md)
@@ -321,6 +321,7 @@ breadcrumb-title: AEM Guides Guide
     + Work with the Web Editor configurations {#web-editor-configs-cs}
       + [Customize Web Editor](./cs-install-guide/conf-web-editor.md)
       + [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
+      + [Configure the smart suggestions for authoring](./cs-install-guide/conf-smart-suggestions.md)
       + [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
       + [Configure display of UUID-based links](./cs-install-guide/conf-uuid-based-links.md)
       + [Open DITA topic or map files in same tab](./cs-install-guide/open-dita-files-same-tab.md)

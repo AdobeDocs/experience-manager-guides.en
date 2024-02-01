@@ -36,8 +36,7 @@ Perform the following steps to view the smart suggestions for adding appropriate
         >[!NOTE]
         >
         > You can only view the suggestions for the current viewport. To view suggestions for any other content in the document, scroll up or down to display it in the viewport.
-  1. You can view the smart suggestions  in the **Content Reuse** suggestions box.
-    
+  1. You can view the smart suggestions  in the **Content Reuse** suggestions box.  
   1. Select **Content Information** ![Content Information](images/smart-suggestions-content-info-icon.svg) to view the details.
         ![Content information panel](images/smart-suggestions-content-information.png){width="300" align="left"}
 
