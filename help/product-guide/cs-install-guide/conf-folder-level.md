@@ -418,7 +418,7 @@ Perform the following steps to configure standard AI configuration to the global
 ![AI configuration tab in global profile](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
 
 1. Click **Edit**.
-1.	As an administrator, you can configure the following settings:
+1. As an administrator, you can configure the following settings:
 
     **Minimum characters**: Enter the minimum number of characters that the authors need to type in to get the suggestions. For example, if this number is 7, the author must add at least 7 characters to view a smart suggestion. 
 
@@ -426,7 +426,7 @@ Perform the following steps to configure standard AI configuration to the global
 
     **Files and folders**: Select the files or folders from which the smart suggestions should be shown. For consistency of content, it's recommended that no two entries in the list have common files between them. Once you select the files and folders, they are listed.
 
-1.	Click **Save**.
+1. Click **Save**.
 
     >[!NOTE]
     >

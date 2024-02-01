@@ -5,6 +5,7 @@ description: Learn how to view and utilize AI-based Smart Suggestions in the Web
 
 
 # AI-based Smart Suggestions to author content
+
 Experience Manager Guides provides the **Smart Suggestions** feature that helps you create and improve your content. It checks the available content in your files and provides suggestions for creating content references after you enter a specific number of characters.  These suggestions are based on matching keywords and ideas from the existing content. 
 
 You can view the suggestions, compare them against the content of your current topic, and accept the appropriate recommendation.  This helps you create consistent and correct content.  For example, suppose you are creating a brochure about the latest features of your product. In that case, you can quickly view and add the updated specifications as content references from the related feature-specific documents.
@@ -25,9 +26,9 @@ Perform the following steps to view the smart suggestions for adding appropriate
 
 
 
-    >[!Note]
+    >[!NOTE]
     >
-    > Your administrator can define in the global or folder-level profile the files used to scan for providing suggestions, the minimum number of characters you need to enter to view the suggestions, and the number of suggestions you can view in the list.
+    >Your administrator can define in the global or folder-level profile the files used to scan for providing suggestions, the minimum number of characters you need to enter to view the suggestions, and the number of suggestions you can view in the list.
 
   1. Type in the content in your topic to view the related suggestions. 
   1. Select **Suggestions for the current tag** ![smart suggestions current tag icon](images/smart-suggestions-current-tag-icon.svg) or press *Ctrl* + *K* to view the authoring suggestions for the current tag.  The suggestions to view and add content references from the indexed files are displayed.
