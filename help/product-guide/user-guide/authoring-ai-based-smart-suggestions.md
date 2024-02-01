@@ -28,7 +28,7 @@ Perform the following steps to view the smart suggestions for adding appropriate
 
     >[!NOTE]
     >
-    >Your administrator can define in the global or folder-level profile the files used to scan for providing suggestions, the minimum number of characters you need to enter to view the suggestions, and the number of suggestions you can view in the list.
+    >Your administrator can define in the [global or folder-level profiles](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions) the files used to scan for providing suggestions, the minimum number of characters you need to enter to view the suggestions, and the number of suggestions you can view in the list.
 
   1. Type in the content in your topic to view the related suggestions. 
   1. Select **Suggestions for the current tag** ![smart suggestions current tag icon](images/smart-suggestions-current-tag-icon.svg) or press *Ctrl* + *K* to view the authoring suggestions for the current tag.  The suggestions to view and add content references from the indexed files are displayed.

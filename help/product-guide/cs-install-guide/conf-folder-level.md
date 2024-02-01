@@ -398,7 +398,7 @@ If you have updated an existing output preset, or you want to make a new output 
 
 
 
-## Configure AI-based Smart Suggestions in the Web Editor
+## Configure AI-based Smart Suggestions in the Web Editor {#conf-ai-smart-suggestions}
 
 For Experience Manager Guides in Cloud Services.
 
