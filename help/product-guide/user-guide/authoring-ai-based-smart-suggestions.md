@@ -32,7 +32,7 @@ Perform the following steps to view the smart suggestions for adding appropriate
 
   1. Type in the content in your topic to view the related suggestions. 
   1. Select **Suggestions for the current tag** ![smart suggestions current tag icon](images/smart-suggestions-current-tag-icon.svg) or press *Ctrl* + *K* to view the authoring suggestions for the current tag.  The suggestions to view and add content references from the indexed files are displayed.
-   1. Select **Suggestions for the complete document**  ![smart suggestions complete document icon](images/smart-suggestions-complete-document-icon.svg) or press *Ctrl* + *Shift* + *K* to view the suggestions to improve the complete document. Accept the appropriate recommendation and replace the content with the selected content reference.  
+  1. Select **Suggestions for the complete document**  ![smart suggestions complete document icon](images/smart-suggestions-complete-document-icon.svg) or press *Ctrl* + *Shift* + *K* to view the suggestions to improve the complete document. Accept the appropriate recommendation and replace the content with the selected content reference.  
         >[!NOTE]
         >
         > You can only view the suggestions for the current viewport. To view suggestions for any other content in the document, scroll up or down to display it in the viewport.
