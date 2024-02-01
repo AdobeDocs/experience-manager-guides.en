@@ -43,7 +43,7 @@ Perform the following steps to view the smart suggestions for adding appropriate
 
         *View the detailed information about the content reference.*
 
-	    1. The title of the topic that contains the content reference is displayed as a hyperlink. 
+        1. The title of the topic that contains the content reference is displayed as a hyperlink. 
         1. The path of the file that contains the content reference. 	
         1. The type of reference where the content is referred.
         1. The names of DITA maps where the content is referred to are displayed as hyperlinks.  		
