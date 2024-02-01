@@ -44,9 +44,9 @@ Perform the following steps to view the smart suggestions for adding appropriate
         *View the detailed information about the content reference.*
 
         1. The title of the topic that contains the content reference is displayed as a hyperlink. 
-        1. The path of the file that contains the content reference. 	
+        1. The path of the file that contains the content reference.
         1. The type of reference where the content is referred.
-        1. The names of DITA maps where the content is referred to are displayed as hyperlinks.  		
+        1. The names of DITA maps where the content is referred to are displayed as hyperlinks.
 1. Select **Suggested content preview** ![smart suggestions preview icon](images/smart-suggestions-preview-icon.svg) to compare the current content with the suggested content. This helps you compare the differences and determine if you want to add the content reference for the suggested content and make it consistent or retain your current content.
 
      ![Suggested content preview](images/smart-suggestions-suggested-content-preview.png){width="800" align="left"}
