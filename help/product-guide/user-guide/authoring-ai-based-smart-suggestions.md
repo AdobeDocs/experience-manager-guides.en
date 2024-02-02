@@ -39,7 +39,8 @@ Perform the following steps to view the smart suggestions for adding appropriate
         
   1. You can view the smart suggestions  in the **Content Reuse** suggestions box.  
   1. Select **Content Information** ![Content Information](images/smart-suggestions-content-info-icon.svg) to view the details.
-  ![check](images/aem-cloud-icon.png)
+  ![check](images/aem-cloud-icon.png){width="25" align="left"}
+
   
         ![Content information panel](images/smart-suggestions-content-information.png){width="300" align="left"}
 
