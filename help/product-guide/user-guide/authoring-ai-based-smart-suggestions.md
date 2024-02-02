@@ -22,7 +22,7 @@ When you open a topic in the Web Editor, the **Smart Suggestions** panel appears
 
 Perform the following steps to view the smart suggestions for adding appropriate content references to your topic:
 
-1. Select the **Smart Suggestions** ![smart suggestions icon](images/smart-suggestions-icon.svg) ![AEM Guides icon](images/aem-cloud-icon.svg) to open the panel.
+1. Select the **Smart Suggestions** ![smart suggestions icon](images/smart-suggestions-icon.svg) to open the panel.
 
 
 
@@ -39,6 +39,8 @@ Perform the following steps to view the smart suggestions for adding appropriate
         
   1. You can view the smart suggestions  in the **Content Reuse** suggestions box.  
   1. Select **Content Information** ![Content Information](images/smart-suggestions-content-info-icon.svg) to view the details.
+  ![check](images/aem-cloud-icon.png)
+  
         ![Content information panel](images/smart-suggestions-content-information.png){width="300" align="left"}
 
         *View the detailed information about the content reference.*
