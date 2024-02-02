@@ -106,7 +106,7 @@ breadcrumb-title: AEM Guides Guide
           + [Other features in the Web Editor](./user-guide/web-editor-other-features.md)
           + [Web Editor views](./user-guide/web-editor-views.md)
           + [Support for Schematron files](./user-guide/support-schematron-file.md)
-          + [AI-based Smart Suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
+          + [AI-powered Smart Suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
           + [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
           + [Add citations to your content](./user-guide/web-editor-apply-citations.md)
           + [Use data from your data sources](./user-guide/web-editor-content-snippet.md)
@@ -321,7 +321,7 @@ breadcrumb-title: AEM Guides Guide
     + Work with the Web Editor configurations {#web-editor-configs-cs}
       + [Customize Web Editor](./cs-install-guide/conf-web-editor.md)
       + [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
-      + [Configure the smart suggestions for authoring](./cs-install-guide/conf-smart-suggestions.md)
+      + [Configure the AI-powered smart suggestions for authoring](./cs-install-guide/conf-smart-suggestions.md)
       + [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
       + [Configure display of UUID-based links](./cs-install-guide/conf-uuid-based-links.md)
       + [Open DITA topic or map files in same tab](./cs-install-guide/open-dita-files-same-tab.md)

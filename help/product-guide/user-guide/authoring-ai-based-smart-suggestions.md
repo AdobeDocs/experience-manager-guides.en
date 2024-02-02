@@ -1,10 +1,10 @@
 ---
 title: AI-based Smart Suggestions to author content
-description: Learn how to view and utilize AI-based Smart Suggestions in the Web Editor.
+description: Learn how to view and utilize AI-powered Smart Suggestions in the Web Editor.
 ---
 
 
-# AI-based Smart Suggestions to author content
+# AI-powered Smart Suggestions to author content
 
 Experience Manager Guides provides the **Smart Suggestions** feature that helps you create and improve your content. It checks the available content in your files and provides suggestions for creating content references after you enter a specific number of characters.  These suggestions are based on matching keywords and ideas from the existing content. 
 
@@ -14,7 +14,7 @@ When you open a topic in the Web Editor, the **Smart Suggestions** panel appears
 
 >[!NOTE]
 >
-> Your administrator must configure the **Smart Suggestions** feature. For more details, view the [Configure smart suggestions for authoring](../cs-install-guide/conf-smart-suggestions.md) section in the Installation and Configuration Guide for Cloud Services. 
+> Your administrator must configure the **Smart Suggestions** feature. For more details, view the [Configure the AI-powered smart suggestions for authoring](../cs-install-guide/conf-smart-suggestions.md) section in the Installation and Configuration Guide for Cloud Services. 
 
 ![Smart suggestions panel](images/smart-suggestions-panel.png){width="300" align="left"}
 
