@@ -34,7 +34,7 @@ Now Experience Manager Guides provides an enhanced version history feature which
 
 Learn more about the **Version History** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
-## Enhanced Translation panel
+## Select all languages from the enhanced Translation panel 
 
 The **Translation** panel has been improved.  You can view the **Available Languages** list and quickly select the locale in which you want to translate your project. With a single selection, you can also choose **Select all** to translate your project into all the available languages.
 
