@@ -6,7 +6,7 @@ description: Learn the new and enhanced features in February 2024 release of Ado
 
 This article covers the new and enhanced features in the February 2024 release of Adobe Experience Manager Guides (later referred to as *Experience Manager Guides as a Cloud Service*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, view [Release Notes](release-notes-2023.12.0.md).
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, view [Release Notes](release-notes-2024.2.0.md).
 
 ## AI-based Smart Suggestions to author content
 
