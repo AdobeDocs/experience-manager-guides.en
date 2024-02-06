@@ -398,7 +398,7 @@ If you have updated an existing output preset, or you want to make a new output 
 
 
 
-## Configure AI-powered Smart Suggestions in the Web Editor {#conf-ai-smart-suggestions}
+## Configure AI-powered Smart Suggestions (beta) in the Web Editor {#conf-ai-smart-suggestions}
 
 ![AEM cloud ](assets/aem-cloud-icon.svg) For Experience Manager Guides in Cloud Services.
 

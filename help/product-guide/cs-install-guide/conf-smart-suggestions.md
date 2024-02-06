@@ -2,7 +2,7 @@
 title: Configure the smart suggestions for authoring
 description: Learn how to configure the smart suggestions for authoring
 ---
-# Configure the AI-powered smart suggestions for authoring
+# Configure the AI-powered smart suggestions (beta) for authoring
 
 As an administrator, you can configure the Smart Suggestions feature for the authors. The smart suggestion service is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe’s secure token-based authentication workflows and start using the new smart suggestion feature. The following configuration help you to add the **AI configuration** tab to folder profile. Once added, you can use the smart suggestions feature in the Web Editor.
 
