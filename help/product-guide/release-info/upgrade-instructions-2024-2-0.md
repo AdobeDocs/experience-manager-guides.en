@@ -1,13 +1,44 @@
 ---
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, February 2024 release
-description: Learn about the bug fixes and how to upgrade to the February 2024 release of Adobe Experience Manager Guides as a Cloud Service.
+description: Learn about the compatibility matrix and how to upgrade to the February 2024 release of Adobe Experience Manager Guides as a Cloud Service.
 
 ---
-# February 2024 release of Adobe Experience Manager Guides as a Cloud Service 
+# Upgrade instructions and compatibility matrix for the February 2024 release 
 
-This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version February 2024 of Adobe Experience Manager Guides as a Cloud Service (later referred as *Experience Manager Guides as a Cloud Service*).
+This article covers the upgrade instructions and the  compatibility matrix for February 2024 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For more information about the new features and enhancements, view [What's new in the February 2024 release of Experience Manager Guides as a Cloud Service](whats-new-2024.2.0.md).
+For more information about the new features and enhancements, view [What's new in the February 2024 release](whats-new-2024-2-0.md).
+
+For the list of issues that have been fixed in this release, 
+view [Fixed issues in the February 2024 release](fixed-issues-2024-2-0.md).
+
+
+
+## Compatibility matrix
+
+This section lists the compatibility matrix for the software applications supported by February 2024 release of Experience Manager Guides as a Cloud Service. 
+
+### FrameMaker and FrameMaker Publishing Server
+
+| Experience Manager Guides as a Cloud Release| FMPS | FrameMaker |
+| --- | --- | --- |
+| 2024.02.0 | Not compatible | 2022 or higher |
+| | | |
+
+
+### Oxygen Connector
+
+| Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
+| --- | --- | --- | --- | --- |
+| 2024.02.0|   3.1-uuid.17|   3.1-uuid.17 | 2.3 | 2.3 | 
+|  |  |  |  |
+
+
+### Knowledge base template version
+
+|Components package name| Components version | Template version|
+|---|---|---|
+|Experience Manager Guides Components Content Package for Cloud Service|dxml-components.all-1.2.2| aem-site-template-dxml.all-1.0.15|
 
 ## Upgrade to February 2024 release
 
@@ -100,77 +131,4 @@ If you have another custom sling rewriter in your codebase,  use an `'order'` va
 During this upgrade, since the `'order'` value is changed from 1000 to 50, you need to merge the existing custom rewriter, if any, with `'fmdita-rewriter'`.
 
 
-## Compatibility matrix
 
-This section lists the compatibility matrix for the software applications supported by Experience Manager Guides as a Cloud Service February 2024 release. 
-
-### FrameMaker and FrameMaker Publishing Server
-
-| Experience Manager Guides as a Cloud Release| FMPS | FrameMaker |
-| --- | --- | --- |
-| 2024.02.0 | Not compatible | 2022 or higher |
-| | | |
-
-
-### Oxygen Connector
-
-| Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
-| --- | --- | --- | --- | --- |
-| 2024.02.0|   3.1-uuid.17|   3.1-uuid.17 | 2.3 | 2.3 | 
-|  |  |  |  |
-
-
-### Knowledge base template version
-
-|Components package name| Components version | Template version|
-|---|---|---|
-|Experience Manager Guides Components Content Package for Cloud Service|dxml-components.all-1.2.2| aem-site-template-dxml.all-1.0.15|
-
-## Fixed issues
-
-The bugs fixed in various areas are listed below:
-
-### Authoring
-
-- Spell check in the Editor does not allow the selection of suggestions. (15045)
-- The global navigation button is not working, and the dashboard fails to load. (14968)
-- In the Web Editor, the download map feature fails to trigger a pop-up notification when it is ready to download. (14626)
-- In the Web Editor, the download map feature fails to download a map with baseline. (14622)
-- Invalid DTD Error in the Experience Manager Guides as a Cloud Service version 2310. (14482)
-- Dragging a glossary topic from the repository into a glossary map creates `topicref`. (10767)
-- The preview screen for snippets is frozen. (14840)
-- Labels from the `labels.json` file appear in random order in the Web Editor. (10508)
-
-### Publishing
-
-- In Native PDF publishing, custom attributes within condition presets are not working for Native PDF publishing. (14943)
-- In Native PDF publishing, key references are not getting resolved for December 2023 release  of Adobe Experience Manager Guides. (15085)
-- AEM Sites publishing fails and causes scope errors for files having `xref` to the DITA file that start with “HTTP”. (15154)
-- Unable to add a custom template from the **Outputs** tab in the Editor. (14846)
-- **AEM Site** preset is not working due to an empty template path. (14804)
-- AEM Site regeneration fails for DITA maps with topics that contain MathML equations. (14790)
-- In Native PDF publishing, PDF generation throwing errors in getting dependencies for `Node.js` publishing. (14445)
-- AEM preset doesn't allow the selection of a template outside the `/content` hierarchy in the Web Editor. (14260)
-- In the AEM Sites output,  the style or the line breaks were lost for the `<lines>` element having sub-elements. (12542)
-- Custom metadata is not available in the final output. (12116)
-- In Native PDF publishing, the DITA map metadata properties cannot be used to populate the metadata for PDF file output. (15159)
-
-
-
-### Management
-
-- **Baseline Filter** files are not working with File Name in the Web Editor. (13486)
-- Disabling the indexing the parent DITA map to get a better performance may impact the functionality of certain features.(12213)
-
-
-### Review
-
-- Right-click context menu is not working for **Accept** or **Reject** track changes. (14607)
-- Toggle to close DITA topics in the Review Screen is not working in the December 2023 release  of Adobe Experience Manager Guides. (14537)
-- Customizing email templates for review workflow doesn't work with overlay. (13954)
-
-## Known Issue
-
-Adobe has identified the following known issue for the February 2024 release:
-
-- Version 1.0 isn't displayed on the UI for the duplicated DITA file.

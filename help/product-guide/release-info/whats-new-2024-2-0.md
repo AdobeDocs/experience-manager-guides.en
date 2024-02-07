@@ -2,11 +2,17 @@
 title: Release Notes | What's New in the Adobe Experience Manager Guides, February 2024 release
 description: Learn the new and enhanced features in February 2024 release of Adobe Experience Manager Guides as a Cloud Service.
 ---
-# What's new in the February 2024 release of Adobe Experience Manager Guides as a Cloud Service
+# What's new in the February 2024 release 
 
-This article covers the new and enhanced features in the February 2024 release of Adobe Experience Manager Guides (later referred to as *Experience Manager Guides as a Cloud Service*).
+This article covers the new and enhanced features in the February 2024 release of Adobe Experience Manager Guides.
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, view [Release Notes](release-notes-2024.2.0.md).
+For the list of issues that have been fixed in this release, 
+view [Fixed issues in the February 2024 release](fixed-issues-2024-2-0.md).
+
+
+Learn about [upgrade instructions and compatibilty matrix of the February 2024 release](upgrade-instructions-2024-2-0.md).
+
+
 
 ## AI-based Smart Suggestions to author content
 
@@ -15,7 +21,7 @@ Now, you can enhance your authoring journey with Smart Suggestions, a new AI-bas
  
 To keep your content correct and consistent, the search and suggestions are limited to the content owned by your organization and closely matched to the keywords that you search for.  
 
-![Smart suggestions panel in the Web Editor ](web-editor-smart-suggestion.png) {width="800" align="left"}
+![Smart suggestions panel in the Web Editor ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *View Smart Suggestions to find and add matching content references from your content repository.*
