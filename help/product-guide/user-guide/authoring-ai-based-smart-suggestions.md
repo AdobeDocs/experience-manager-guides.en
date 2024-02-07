@@ -4,7 +4,7 @@ description: Learn how to view and utilize AI-powered Smart Suggestions in the W
 ---
 
 
-# AI-powered Smart Suggestions (beta) to author content
+# AI-powered Smart Suggestions to author content
 
 Experience Manager Guides provides the **Smart Suggestions** feature that helps you create consistent and accurate content.  
 
