@@ -40,7 +40,7 @@ Now Experience Manager Guides provides an enhanced version history feature which
 
 Learn more about the **Version History** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
-## Select all languages from the improved UI in the Translation panel 
+## Improved user experience in the Translation panel
 
 The **Translation** panel has been improved.  You can view the **Available Languages** list and quickly select the locale in which you want to translate your project. With a single selection, you can also choose **Select all** to translate your project into all the available languages.
 
@@ -83,7 +83,7 @@ Now, you can access the right panel's **File Properties** feature in all four mo
 
 For more details, view the **File Properties** feature description in the [Right Panel](../user-guide/web-editor-features.md#id2051EB003YK) section. 
 
-## Ability to publish multiple output presets in parallel for the automatic baselines of a DITA map 
+## Ability to publish multiple output presets with dynamic baselines in parallel 
 
 Experience Manager provides the feature to create baselines by automatically picking the topics according to the label applied to them. Now, you can also seamlessly publish multiple output presets with automatic baselines of the same DITA map. You don’t have to publish only one preset at a time but can easily publish multiple output presets in parallel.
 
