@@ -14,7 +14,7 @@ Learn about [upgrade instructions and compatibilty matrix of the February 2024 r
 
 
 
-## AI-based Smart Suggestions to author content
+## AI-powered Smart Suggestions to add content references while authoring content
 
 Now, you can enhance your authoring journey with Smart Suggestions, a new AI-based feature in the Web Editor. While you author your content, this intelligent feature provides real-time suggestions for content references, improving your workflow, adding accuracy, and ensuring unparalleled efficiency.
 
@@ -40,7 +40,7 @@ Now Experience Manager Guides provides an enhanced version history feature which
 
 Learn more about the **Version History** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
-## Select all languages from the enhanced Translation panel 
+## Select all languages from the improved UI in the Translation panel 
 
 The **Translation** panel has been improved.  You can view the **Available Languages** list and quickly select the locale in which you want to translate your project. With a single selection, you can also choose **Select all** to translate your project into all the available languages.
 
@@ -67,7 +67,7 @@ all valid elements that begin with ‘t’.
 For more details, view the **Insert Element** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
 
-## Ability to split a list at the same level
+## Ability to split the current list and start with a new list item at the same level
 
 Now, you can easily split your list in the Web Editor. Select the **Split List** option from the context menu of a list item to split the current list. A new list is created at the same level, starting with the list item you selected for the split.  
 
@@ -83,7 +83,7 @@ Now, you can access the right panel's **File Properties** feature in all four mo
 
 For more details, view the **File Properties** feature description in the [Right Panel](../user-guide/web-editor-features.md#id2051EB003YK) section. 
 
-## Publish multiple output presets in parallel
+## Ability to publish multiple output presets in parallel for the automatic baselines of a DITA map 
 
 Experience Manager provides the feature to create baselines by automatically picking the topics according to the label applied to them. Now, you can also seamlessly publish multiple output presets with automatic baselines of the same DITA map. You don’t have to publish only one preset at a time but can easily publish multiple output presets in parallel.
 
