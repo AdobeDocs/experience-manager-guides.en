@@ -5,7 +5,7 @@ description: Learn about the bug fixes in the February 2024 release of Adobe Exp
 ---
 # Fixed issues in the February 2024 release 
 
-This article covers the bugs fixed in various areas in version February 2024 of Adobe Experience Manager Guides as a Cloud Service.
+This article covers the bugs fixed in various areas of February 2024 release of Adobe Experience Manager Guides as a Cloud Service.
 
 For more information about the new features and enhancements, view [What's new in the February 2024 release](whats-new-2024-2-0.md).
 
