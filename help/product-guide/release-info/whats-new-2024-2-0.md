@@ -6,8 +6,7 @@ description: Learn the new and enhanced features in February 2024 release of Ado
 
 This article covers the new and enhanced features in the February 2024 release of Adobe Experience Manager Guides.
 
-For the list of issues that have been fixed in this release, 
-view [Fixed issues in the February 2024 release](fixed-issues-2024-2-0.md).
+For the list of issues that have been fixed in this release, view [Fixed issues in the February 2024 release](fixed-issues-2024-2-0.md).
 
 
 Learn about [upgrade instructions and compatibilty matrix of the February 2024 release](upgrade-instructions-2024-2-0.md).

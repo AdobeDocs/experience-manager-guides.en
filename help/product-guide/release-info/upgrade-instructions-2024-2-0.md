@@ -9,8 +9,7 @@ This article covers the upgrade instructions and the  compatibility matrix for F
 
 For more information about the new features and enhancements, view [What's new in the February 2024 release](whats-new-2024-2-0.md).
 
-For the list of issues that have been fixed in this release, 
-view [Fixed issues in the February 2024 release](fixed-issues-2024-2-0.md).
+For the list of issues that have been fixed in this release, view [Fixed issues in the February 2024 release](fixed-issues-2024-2-0.md).
 
 
 
