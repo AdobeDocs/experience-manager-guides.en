@@ -9,7 +9,7 @@ This article covers the bugs fixed in various areas of February 2024 release of 
 
 For more information about the new features and enhancements, view [What's new in the February 2024 release](whats-new-2024-2-0.md).
 
-Learn about [upgrade instructions and compatibilty matrix of the February 2024 release](upgrade-instructions-2024-2-0.md).
+Learn about [upgrade instructions for the February 2024 release](upgrade-instructions-2024-2-0.md).
 
 
 

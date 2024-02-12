@@ -3,7 +3,7 @@ title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience
 description: Learn about the compatibility matrix and how to upgrade to the February 2024 release of Adobe Experience Manager Guides as a Cloud Service.
 
 ---
-# Upgrade instructions and compatibility matrix for the February 2024 release 
+# Upgrade instructions for the February 2024 release 
 
 This article covers the upgrade instructions and the  compatibility matrix for February 2024 release of Adobe Experience Manager Guides as a Cloud Service.
 
