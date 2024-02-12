@@ -17,7 +17,7 @@ breadcrumb-title: AEM Guides Guide
         + February Release {#2402-release}
           + [What's new](./release-info/whats-new-2024-2-0.md)
           + [Fixed issues](./release-info/fixed-issues-2024-2-0.md)
-          + [Upgrade instructions and compatibility matrix](./release-info/upgrade-instructions-2024-2-0.md)
+          + [Upgrade instructions](./release-info/upgrade-instructions-2024-2-0.md)
       + 2023 Releases {#2023-releases}
         + December Release {#2312-release}
           + [What's new](./release-info/whats-new-2023.12.0.md)
