@@ -41,15 +41,14 @@ This section lists the compatibility matrix for the software applications suppor
 
 ## Upgrade to February 2024 release
 
-Upgrade your current Experience Manager Guides as a Cloud Service setup by performing the following steps:
+Experience Manager Guides is upgraded automatically upon upgrading the current (latest) release of Experience Manager as a Cloud Service.
 
-1. Check out the Cloud Services' Git code and switch to the branch configured in the Cloud Services pipeline corresponding to the environment that you want to upgrade.
-2. Update `<dox.version>` property in `/dox/dox.installer/pom.xml` file of your Cloud Services Git code to 2024.02.0.15.
-3. Commit the changes and run the Cloud Services pipeline to upgrade to the February 2024 release of Experience Manager Guides as a Cloud Service.
 
-## Steps to enable the trigger of a script via a servlet
+Perform the following steps for Experience Manager Guides as a Cloud Service if you haven't done earlier for your existing release:
 
-(Only if you are on a version prior to the June 2023 release of Experience Manager Guides as a Cloud Service)
+### Steps to enable the trigger of a script via a servlet
+
+(Only if you are on a release before the June 2023 release of Experience Manager Guides as a Cloud Service)
 
 After you complete the installation, you can choose to HIT the trigger to start the translation job:
 
@@ -82,9 +81,9 @@ GET
 http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json
 ```
 
-## Steps to post process the existing content to use the broken link report 
+### Steps to post process the existing content to use the broken link report 
 
-(Only if you are on a version prior to the June 2023 release of Experience Manager Guides as a Cloud Service)
+(Only if you are on a release before the June 2023 release of Experience Manager Guides as a Cloud Service)
 
 Perform the following steps for post-processing the existing content and using the new broken link report:
 
@@ -107,9 +106,9 @@ Perform the following steps for post-processing the existing content and using t
 
 1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
 
-## Steps to index the existing content to use the new find and replace and topic list under the Reports tab: 
+### Steps to index the existing content to use the new find and replace and topic list under the Reports tab: 
 
-(Only if you are on a version prior to the June 2023 release of Experience Manager Guides as a Cloud Service)
+(Only if you are on a release before the June 2023 release of Experience Manager Guides as a Cloud Service)
 
 Perform the following steps for indexing the existing content and use the new find and replace text at map level and topic list under the reports tab:
 
@@ -121,7 +120,7 @@ Perform the following steps for indexing the existing content and use the new fi
 
 1. Revert back to default or previous existing value of queryLimitReads if you have changed it in step 1.
 
-## Steps to handle the `'fmdita rewriter'` conflict
+### Steps to handle the `'fmdita rewriter'` conflict
 
 Experience Manager Guides has a [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) module for handling the links generated in case of cross-maps (links between the topics of two different maps).
 
