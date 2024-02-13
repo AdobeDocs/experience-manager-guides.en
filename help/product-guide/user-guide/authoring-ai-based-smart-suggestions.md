@@ -8,7 +8,7 @@ description: Learn how to view and utilize AI-powered Smart Suggestions in the W
 
 Experience Manager Guides provides the **Smart Suggestions** feature that helps you create consistent and accurate content.  
 
-While you author content, the **Smart Suggestions** feature can search and show the existing content that is similar to your content. You can then choose the best matching content you want to include in your current topic as a reference.
+While you author content, the **Smart Suggestions** feature can search and show the existing content that is semantically similar to your content. You can then choose the best matching content you want to include in your current topic as a reference.
 
 This helps you reuse existing content from your documentation repository and create consistent content. For example, you are making a document containing information about **Adobe Firefly**, including a paragraph about **Adobe**. In that case, you can quickly view and add the content reference from another topic, like **Adobe Photoshop**, which includes the same paragraph.
 
