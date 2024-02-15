@@ -9,7 +9,7 @@ role: Leader
 
 This article covers the new and enhanced features in version June 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](release-notes-2023.6.0.md).
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](release-notes-2023-6-0.md).
 
 ## Broken Links report in the Web Editor
 
@@ -32,7 +32,7 @@ For more details on the Options menu of a file, see the **Repository view** feat
 
 ### Add a watermark to PDF output for draft documents 
 
-Now you can add a watermark to the PDF output of the document which is yet not approved. This watermark does not appear if you generate the PDF for the document in ‘Approved’ docstate. For example, you can add a watermark Draft for your PDF output.
+Now you can add a watermark to the PDF output of the document which is yet not approved. This watermark does not appear if you generate the PDF for the document in 'Approved' docstate. For example, you can add a watermark Draft for your PDF output.
 
 For more details, see [Add a watermark to the PDF output for draft documents](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 

@@ -7,7 +7,7 @@ description: Learn about the bug fixes and how to upgrade to the February 2024 r
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version February 2024 of Adobe Experience Manager Guides as a Cloud Service (later referred as *Experience Manager Guides as a Cloud Service*).
 
-For more information about the new features and enhancements, view [What's new in the February 2024 release of Experience Manager Guides as a Cloud Service](whats-new-2024.02.0.md).
+For more information about the new features and enhancements, view [What's new in the February 2024 release of Experience Manager Guides as a Cloud Service](whats-new-2024-02-0.md).
 
 ## Upgrade to February 2024 release
 

@@ -6,7 +6,7 @@ description: Learn about the bug fixes and how to upgrade to  4.4.0 release of A
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version 4.4.0 of Adobe Experience Manager Guides (later referred as *Experience Manager Guides*).
 
-For more information about the new features and enhancements, see [What's new in 4.4.0 release of Adobe Experience Manager Guides](./whats-new-4.4.md).
+For more information about the new features and enhancements, see [What's new in 4.4.0 release of Adobe Experience Manager Guides](./whats-new-4-4.md).
 
 ## Upgrade to 4.4.0 release of Experience Manager Guides
 

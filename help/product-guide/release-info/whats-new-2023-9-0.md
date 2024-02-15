@@ -9,7 +9,7 @@ role: Leader
 
 This article covers the new and enhanced features in version  September 2023 of Adobe Experience Manager Guides (later referred to as *AEM Guides as a Cloud Service*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](release-notes-2023.9.0.md).
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](release-notes-2023-9-0.md).
 
 ## Connect to a data source and insert the topics
 
@@ -126,9 +126,9 @@ For more details, view the **Static pages** feature description in [Page Order](
 You can use variables to define a cross-reference. When you use a variable, its value is picked from the properties.
 
 Now you can also use {figure} and {table}.
-Use {figure}to add a cross-reference to the figure number. It picks the figure number from the auto number styles that you’ve defined for figcaption. 
+Use {figure}to add a cross-reference to the figure number. It picks the figure number from the auto number styles that you've defined for figcaption. 
 
-Use {table} to add a cross-reference to the table number. It picks the table number from the auto number styles that you’ve defined for caption.
+Use {table} to add a cross-reference to the table number. It picks the table number from the auto number styles that you've defined for caption.
 
 For more details, view [Cross references](../native-pdf/components-pdf-template.md##cross-references).
 

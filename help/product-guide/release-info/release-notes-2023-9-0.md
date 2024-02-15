@@ -9,7 +9,7 @@ role: Leader
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version September 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
-For more information about the new features and enhancements, see [What's new in September 2023 release of AEM Guides as a Cloud Service](whats-new-2023.9.0.md).
+For more information about the new features and enhancements, see [What's new in September 2023 release of AEM Guides as a Cloud Service](whats-new-2023-9-0.md).
 
 ## Upgrade to September 2023 release
 
@@ -126,19 +126,19 @@ The bugs fixed in various areas are listed below:
 
 ### Authoring
 
-- The topic file isn’t unlocked in the Web Editor, although the Unlock the File option and the Don’t Save option are selected. (12558)
+- The topic file isn't unlocked in the Web Editor, although the Unlock the File option and the Don't Save option are selected. (12558)
 - Unable to checkout a file in the Web Editor, despite choosing the NO option to discard the changes before check-in. (12557)
 - The tooltips for the Lock & Unlock file icons in the main toolbar within the Web Editor are not consistent with the icons displayed in the Repository View.(12555)
-- Cancel check out and Unlock option is displayed for a file in the Web Editor that isn’t yet checked out in Map View. (12556)
+- Cancel check out and Unlock option is displayed for a file in the Web Editor that isn't yet checked out in Map View. (12556)
 - Unable to select the PDF assets in the existing "topicref" links. (12477).
 - In the Repository View, the topics or images cannot be dragged after using the Search/Filter functionality. (12396)
 - Search results are disabled in the Find and Replace panel after opening one searched file. (12142)
-- The “8” number key on the side keyboard isn’t working in the AEM Guides editor. (12106)
+- The "8" number key on the side keyboard isn't working in the AEM Guides editor. (12106)
 
 - The prefix is duplicated in the preview mode of the Web Editor. (13133)
 - `Choicetable` rows are not displayed or cannot be selected. (12616)
 - The Web Editor throws validation errors in specific scenarios when creating a topic using a custom schema. (12576)
-- The ditaval topic template references don’t create a copy in the content folder when creating a map from the map template. (12150)
+- The ditaval topic template references don't create a copy in the content folder when creating a map from the map template. (12150)
 - The search box in DITA maps does not have a close button. (11867)
 - On saving long files in the Web Editor, `DirtyChecker` throws an exception with a long stack trace and fills the log files. (11860)
 - Creating DITA topics requires Delete permission on the corresponding folder node, although the map can be created with Write permission. (11706)
@@ -148,8 +148,8 @@ The bugs fixed in various areas are listed below:
 ### Management
 
 - The "title" field in DITA map metadata properties is overwritten by `<title>` element for the map. (10702)
-- Content reference is broken copy-pasting DITA files when the topic id isn’t the same as GUID. (12614)
-- In dynamic baselines, the list of labels isn’t pulled from the direct references of the working copy of a DITA map. (11917)
+- Content reference is broken copy-pasting DITA files when the topic id isn't the same as GUID. (12614)
+- In dynamic baselines, the list of labels isn't pulled from the direct references of the working copy of a DITA map. (11917)
 
 ### Publishing
 
@@ -159,16 +159,16 @@ The bugs fixed in various areas are listed below:
 - Native PDF | Including multiple xrefs extends the text beyond the column width. (13004)
 - Native PDF | When the topic and title have the same ID, it leads to a malformed generation of the PDF output. (12644)
 - Native PDF | On adding an outputclass to a parent `<topicref>` element in a DITA map and applying custom style to the outputclass, the styling is applied to elements within the topic body, including section titles.(12166)
-- Incremental publishing doesn’t work if a DITA map has multiple ditavalrefs. (12117)
+- Incremental publishing doesn't work if a DITA map has multiple ditavalrefs. (12117)
 - AEM Site | On creating a map with keydef pointing to a topic as a variable and adding processing-role=resource-only creates some unexpected pages. (12099)
-- If any assets from AEM’s DAM are used in any output other than the AEM site, then the metadata "jcr:createdBy" does not reflect the publisher’s name or the name of the user who last modified the DITA map or topic. (12090)
+- If any assets from AEM's DAM are used in any output other than the AEM site, then the metadata "jcr:createdBy" does not reflect the publisher's name or the name of the user who last modified the DITA map or topic. (12090)
 - AEM Sites | DITA map with topichead in the navtitle (with non-supported characters) leads to bad page URLs. (11978)
 - Native PDF | Issues occur in support of topichead / topicmeta / navtitle in Frontmatter and Backmatter. (11969)
 - Native PDF | Generating PDFs for large documents is time-consuming. (11955)
 - Native PDF | Renaming a preset throws a NullPointerException while generating a PDF output. (11889)
-- The `<conref>` content isn’t shown in the PDF output. (11131)
+- The `<conref>` content isn't shown in the PDF output. (11131)
 - An extra space gets added inside the `<div>` elements on toggling between the Author and Source view in the page layout editor. (10750)
-- The content replicated on the AEM Cloud manager isn’t visible on the Publish instance. (9564)
+- The content replicated on the AEM Cloud manager isn't visible on the Publish instance. (9564)
 
 ### Translation
 

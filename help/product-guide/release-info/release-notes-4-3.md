@@ -9,7 +9,7 @@ role: Leader
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version 4.3.0 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
-For more information about the new features and enhancements, see [What's new in 4.3.0 release of Adobe Experience Manager Guides](./whats-new-4.3-release.md).
+For more information about the new features and enhancements, see [What's new in 4.3.0 release of Adobe Experience Manager Guides](./whats-new-4-3-release.md).
 
 ## Upgrade to 4.3.0 release of AEM Guides
 
@@ -69,15 +69,15 @@ The bugs fixed in various areas are listed below:
 
 ### Authoring
 
-- The topic file isn’t unlocked in the Web Editor, although the Unlock the File option and the Don’t Save option are selected. (12558)
+- The topic file isn't unlocked in the Web Editor, although the Unlock the File option and the Don't Save option are selected. (12558)
 - Unable to checkout a file in the Web Editor, despite choosing the NO option to discard the changes before check-in. (12557)
 - The tooltips for the Lock & Unlock file icons in the main toolbar within the Web Editor are not consistent with the icons displayed in the Repository View.(12555)
-- Cancel check out and Unlock option is displayed for a file in the Web Editor that isn’t yet checked out in Map View. (12556)
+- Cancel check out and Unlock option is displayed for a file in the Web Editor that isn't yet checked out in Map View. (12556)
 - Unable to select the PDF assets in the existing "topicref" links. (12477).
 - On doing a merge and split in the tables, AEM Guides 4.2 generates additional table cells. (11793)
 - In the Repository View, the topics or images cannot be dragged after using the Search/Filter functionality. (12396)
 - Search results are disabled in the Find and Replace panel after opening one searched file. (12142)
-- The “8” number key on the side keyboard isn’t working in the AEM Guides editor. (12106)
+- The "8" number key on the side keyboard isn't working in the AEM Guides editor. (12106)
 - Inline/Display attributes do not show up in the Layout view of the Web Editor. (12498)
 - Global Profile UI config does not match with Folder Profile. (11970)
 - Content references are broken when DITA files are copied and pasted. (11959)
