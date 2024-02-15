@@ -9,7 +9,7 @@ role: Leader
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version 4.3.1 of Adobe Experience Manager Guides (later referred as *Experience Manager Guides*).
 
-For more information about the new features and enhancements, see [What's new in 4.3.1 release of Adobe Experience Manager Guides](./whats-new-4.3.1-release.md).
+For more information about the new features and enhancements, see [What's new in 4.3.1 release of Adobe Experience Manager Guides](./whats-new-4-3-1-release.md).
 
 ## Upgrade to 4.3.1 release of Experience Manager Guides
 
@@ -85,7 +85,7 @@ The bugs fixed in various areas are listed below:
 - The prefix is duplicated in the preview mode of the Web Editor. (13133)
 - `Choicetable` rows are not displayed or cannot be selected. (12616)
 - The Web Editor throws validation errors in specific scenarios when creating a topic using a custom schema. (12576)
-- The ditaval topic template references don’t create a copy in the content folder when creating a map from the map template. (12150)
+- The ditaval topic template references don't create a copy in the content folder when creating a map from the map template. (12150)
 
 - The search box in DITA maps does not have a close button. (11867)
 - On saving long files in the Web Editor, `DirtyChecker` throws an exception with a long stack trace and fills the log files. (11860)
@@ -93,7 +93,7 @@ The bugs fixed in various areas are listed below:
 - Web Editor shows an incorrect title when a slash is present. (10949)
 
 - If the title of a topic contains a slash "/", the tab in the editor only shows the letters coming after that. (13455)
-- The image preview doesn’t disappear after displaying the preview in the Editor. (13454)
+- The image preview doesn't disappear after displaying the preview in the Editor. (13454)
 - Some of the existing version or their labels are not displayed in the Version History after the upgrade to 4.x. (13247)
 - The Version History panel in Assets UI shows an incorrect timestamp for the **Current** field. (12624)
 - Topic with conref title is not resolved in Repository View or Map View.(13304)
@@ -110,23 +110,23 @@ The bugs fixed in various areas are listed below:
 - Native PDF | Including multiple xrefs extends the text beyond the column width. (13004)
 - Native PDF | When the topic and title have the same ID, it leads to a malformed generation of the PDF output. (12644)
 - Native PDF | On adding an outputclass to a parent `<topicref>` element in a DITA map and applying custom style to the outputclass, the styling is applied to elements within the topic body, including section titles. (12166)
-- Incremental publishing doesn’t work if a DITA map has multiple ditavalrefs. (12117)
+- Incremental publishing doesn't work if a DITA map has multiple ditavalrefs. (12117)
 - AEM Site | On creating a map with keydef pointing to a topic as a variable and adding processing-role=resource-only creates some unexpected pages. (12099)
-- If any assets from AEM’s DAM are used in any output other than the AEM site, then the metadata "jcr:createdBy" does not reflect the publisher’s name or the name of the user who last modified the DITA map or topic. (12090)
+- If any assets from AEM's DAM are used in any output other than the AEM site, then the metadata "jcr:createdBy" does not reflect the publisher's name or the name of the user who last modified the DITA map or topic. (12090)
 - AEM Sites | DITA map with topichead in the navtitle (with non-supported characters) leads to bad page URLs. (11978)
 - Native PDF | Issues occur in support of topichead / topicmeta / navtitle in Frontmatter and Backmatter. (11969)
 - Native PDF | Generating PDFs for large documents is time-consuming. (11955)
 - Native PDF | Renaming a preset throws a NullPointerException while generating a PDF output. (11889)
-- The `<conref>` content isn’t shown in the PDF output. (11131)
+- The `<conref>` content isn't shown in the PDF output. (11131)
 - An extra space gets added inside the `<div>` elements on toggling between the Author and Source view in the page layout editor. (10750)
-- The content replicated on the AEM Cloud manager isn’t visible on the Publish instance. (9564)
+- The content replicated on the AEM Cloud manager isn't visible on the Publish instance. (9564)
 
 
 ### Management
 
-- Version History doesn’t show even if the `dc:format` property isn't present for an asset. (10463)
-- Content reference is broken copy-pasting DITA files when the topic id isn’t the same as GUID. (12614)
-- In dynamic baselines, the list of labels isn’t pulled from the direct references of the working copy of a DITA map. (11917)
+- Version History doesn't show even if the `dc:format` property isn't present for an asset. (10463)
+- Content reference is broken copy-pasting DITA files when the topic id isn't the same as GUID. (12614)
+- In dynamic baselines, the list of labels isn't pulled from the direct references of the working copy of a DITA map. (11917)
 -  Baseline shows the incorrect number of files on the Map Dashboard when using the Browse all topics functionality. (13265)
 -  In the Web Editor, the baseline shows the title for the previous version instead of the selected version of the DITA file. (13444)
 
@@ -140,7 +140,7 @@ The bugs fixed in various areas are listed below:
 
 ### Translation
 
-- The baseline exported from the **Translation** dashboard fails and doesn’t open in the target language. (13466)
+- The baseline exported from the **Translation** dashboard fails and doesn't open in the target language. (13466)
 
 - New translation projects are created instead of adding new jobs to the selected existing translation projects.  (10214)
 - The title of the translated file is displayed in place of the title of the source file. (11630)

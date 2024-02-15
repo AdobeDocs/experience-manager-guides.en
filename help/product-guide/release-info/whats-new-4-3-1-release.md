@@ -9,7 +9,7 @@ role: Leader
 
 This article covers the new and enhanced features in version 4.3.1 of Adobe Experience Manager Guides (later referred as *Experience Manager Guides*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](./release-notes-4.3.1.md).
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](./release-notes-4-3-1.md).
 
 ## Connect to a data source and insert the topics
 

@@ -9,7 +9,7 @@ role: Leader
 
 This article covers the new and enhanced features in version 4.3.0 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](./release-notes-4.3.md).
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](./release-notes-4-3.md).
 
 
 ## Connect to a data source and insert data into your topics
@@ -21,7 +21,7 @@ Once added, you can view the configured connectors listed under the Data Sources
  
 <img  src="assets/data-sources.png" alt= "Data sources list in the panel" width=300>
 
-Create a content snippet to fetch the data from a connected data source. You can then insert the data into your topics and edit it. Once you’ve created a content snippet generator, you can reuse it to insert the data into any topic. 
+Create a content snippet to fetch the data from a connected data source. You can then insert the data into your topics and edit it. Once you've created a content snippet generator, you can reuse it to insert the data into any topic. 
 
 Now you can also create a topic from a connected data source. A topic can contain data in various formats, like tables, lists, and paragraphs. It also allows you to create a DITA map for all topics. You can associate metadata to the topic when pulling from a data source.
 
@@ -106,7 +106,7 @@ For more details, view [Support for language variables](../native-pdf/native-pdf
 
 ### Add a watermark to PDF output for draft documents 
 
-Now you can add a watermark to the PDF output of the document which is yet not approved. This watermark does not appear if you generate the PDF for the document in ‘Approved’ docstate. For example, you can add a watermark Draft for your PDF output.
+Now you can add a watermark to the PDF output of the document which is yet not approved. This watermark does not appear if you generate the PDF for the document in 'Approved' docstate. For example, you can add a watermark Draft for your PDF output.
 
 For more details, view [Add a watermark to the PDF output for draft documents](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
@@ -161,9 +161,9 @@ For more details, view the Static pages feature description in [Page Order](../n
 You can use variables to define a cross-reference. When you use a variable, its value is picked from the properties.
 
 Now you can also use {figure} and {table}.
-Use {figure}to add a cross-reference to the figure number. It picks the figure number from the auto number styles that you’ve defined for figcaption. 
+Use {figure}to add a cross-reference to the figure number. It picks the figure number from the auto number styles that you've defined for figcaption. 
 
-Use {table} to add a cross-reference to the table number. It picks the table number from the auto number styles that you’ve defined for caption.
+Use {table} to add a cross-reference to the table number. It picks the table number from the auto number styles that you've defined for caption.
 
 For more details, view [Cross references](../native-pdf/components-pdf-template.md##cross-references).
 
