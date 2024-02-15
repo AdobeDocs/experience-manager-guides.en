@@ -22,15 +22,15 @@ breadcrumb-title: AEM Guides Documentation
           + [Release Notes](./release-info/release-notes-2023-11-0.md)
         + October Release {#2310-release}
           + [What's new](./release-info/whats-new-2023-10-0.md)
-          + [Release Notes](./release-info/release-notes-2023.10.0.md)
+          + [Release Notes](./release-info/release-notes-2023-10-0.md)
         + September Release {#2309-release}
           + [What's new](./release-info/whats-new-2023-9-0.md)
-          + [Release Notes](./release-info/release-notes-2023.9.0.md)
+          + [Release Notes](./release-info/release-notes-2023-9-0.md)
         + July Release {#2307-release}
           + [What's new](./release-info/whats-new-2023-7-0.md)
           + [Release Notes](./release-info/release-notes-2023-7-0.md)
         + June Release {#2306-release}
-          + [What's new](./release-info/whats-new-2023.6.0.md)
+          + [What's new](./release-info/whats-new-2023-6-0.md)
           + [Release Notes](./release-info/release-notes-2023-6-0.md)
         + April Release {#2304-release}
           + [What's new](./release-info/whats-new-2023-4-0.md)
