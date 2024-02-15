@@ -19,7 +19,7 @@ Learn about [upgrade instructions for the February 2024 release](upgrade-instruc
 - The global navigation button is not working, and the dashboard fails to load. (14968)
 - In the Web Editor, the download map feature fails to trigger a pop-up notification when it is ready to download. (14626)
 - In the Web Editor, the download map feature fails to download a map with baseline. (14622)
-- Invalid DTD Error in the Experience Manager Guides as a Cloud Service version 2310. (14482)
+- Invalid DTD Error in the October 2023 release of Experience Manager Guides as a Cloud Service. (14482)
 - Dragging a glossary topic from the repository into a glossary map creates `topicref`. (10767)
 - The preview screen for snippets is frozen. (14840)
 - Labels from the `labels.json` file appear in random order in the Web Editor. (10508)
@@ -57,5 +57,5 @@ Learn about [upgrade instructions for the February 2024 release](upgrade-instruc
 Adobe has identified the following known issue for the February 2024 release:
 
 - Version 1.0 isn't displayed on the UI for the duplicated DITA file.
-
+- Propagation of asset metadata does not work for the February 2024 release with microservice enabled for any preset.
 
