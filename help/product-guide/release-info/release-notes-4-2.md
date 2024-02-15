@@ -9,7 +9,7 @@ role: Leader
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version 4.2 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
-For more information about the new features and enhancements, see [What's new in 4.2 release of Adobe Experience Manager Guides](whats-new-4.2-release.md).
+For more information about the new features and enhancements, see [What's new in 4.2 release of Adobe Experience Manager Guides](whats-new-4-2-release.md).
 
 ## Upgrade to 4.2 release of AEM Guides
 

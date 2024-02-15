@@ -9,7 +9,7 @@ role: Leader
 
 This article covers the new and enhanced features in version 4.2 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-4.2.md) article.
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-4-2.md) article.
 
 ## Generate reports from the Web Editor
 

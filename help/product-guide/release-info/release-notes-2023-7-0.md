@@ -9,7 +9,7 @@ role: Leader
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version July 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
-For more information about the new features and enhancements, see [What's new in July 2023 release of AEM Guides as a Cloud Service](whats-new-2023.7.0.md).
+For more information about the new features and enhancements, see [What's new in July 2023 release of AEM Guides as a Cloud Service](whats-new-2023-7-0.md).
 
 ## Upgrade to July 2023 release
 

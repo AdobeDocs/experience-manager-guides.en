@@ -9,7 +9,7 @@ role: Leader
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version October 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
-For more information about the new features and enhancements, see [What's new in the October 2023 release of AEM Guides as a Cloud Service](whats-new-2023.10.0.md).
+For more information about the new features and enhancements, see [What's new in the October 2023 release of AEM Guides as a Cloud Service](whats-new-2023-10-0.md).
 
 ## Upgrade to October 2023 release
 
@@ -141,7 +141,7 @@ The bugs fixed in various areas are listed below:
 
 ### Management
 
-- Version History doesn’t show even if the `dc:format` property isn't present for an asset. (10463)
+- Version History doesn't show even if the `dc:format` property isn't present for an asset. (10463)
 
 
 ### Review
@@ -152,7 +152,7 @@ The bugs fixed in various areas are listed below:
 
 ### Translation
 
-- The baseline exported from the **Translation** dashboard fails and doesn’t open in the target language. (13466)
+- The baseline exported from the **Translation** dashboard fails and doesn't open in the target language. (13466)
 
 - New translation projects are created instead of adding new jobs to the selected existing translation projects.  (10214)
 

@@ -9,7 +9,7 @@ role: Leader
 
 This article covers the new and enhanced features in version February 2023 of Adobe Experience Manager Guides (later referred as *AEM Guides as a Cloud Service*).
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-2023.2.0.md) article.
+For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see the [Release notes](release-notes-2023-2-0.md) article.
 
 
 ## Generate reports from the Web Editor

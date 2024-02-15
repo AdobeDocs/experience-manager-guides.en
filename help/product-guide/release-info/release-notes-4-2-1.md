@@ -9,7 +9,7 @@ role: Leader
 
 This release note covers the upgrade instructions, compatibility matrix, and issues fixed in version 4.2.1 of Adobe Experience Manager Guides (later referred as *AEM Guides*).
 
-For more information about the new features and enhancements, see [What's new in 4.2.1 release of Adobe Experience Manager Guides](whats-new-4.2.1-release.md).
+For more information about the new features and enhancements, see [What's new in 4.2.1 release of Adobe Experience Manager Guides](whats-new-4-2-1-release.md).
 
 ## Upgrade to 4.2.1 release of AEM Guides
 
@@ -75,7 +75,7 @@ The bugs fixed in various areas are listed below:
 * Difficulty in dragging and dropping a list-item, text is moved in place of the list-item. (11566)
 * On authoring in the element displayed in green (Track Changes,) the new content is displayed as track change even though the track change is disabled. (7021)
 * The browser (Web Editor) freezes on loading content with custom schema. (11211)
-* Native PDF | On creating an output preset with “Add to Folder Profile” option, PDF generation fails with a Null Pointer exception. (10950)
+* Native PDF | On creating an output preset with "Add to Folder Profile" option, PDF generation fails with a Null Pointer exception. (10950)
 * Native PDF | Image tag adds display-inline attribute to all the images. (10653)
 * Insertion for audio and video multimedia files fails in the YouTube format under the **Insert Multimedia** icon. (11320)
 * Validation error occurs when a map is created using the template which has a specialized title element. (11212)
@@ -92,7 +92,7 @@ The bugs fixed in various areas are listed below:
 
 * Native PDF | Publishing content that has an output class with brackets() leads to a publishing freeze. (11936)
 * JSON output | Map metadata having property value as `"value in spaces and double quotes"` leads to a publishing error. (11933)
-* Issue occurs in AEM Site search (doesn’t work beyond 2-3 level nodes). (11352)
+* Issue occurs in AEM Site search (doesn't work beyond 2-3 level nodes). (11352)
 * Web Editor | Output path and template cannot be selected in the AEM Preset. (11530) 
 * On upgrading from 4.1.x to 4.2 release the Native PDF engine does not work and throws NullPointerException even for the supported OS.(11526)
 * Download PDF process is not working appropriately in the Web Editor. (11496)
