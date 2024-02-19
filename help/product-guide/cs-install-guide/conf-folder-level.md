@@ -402,9 +402,9 @@ If you have updated an existing output preset, or you want to make a new output 
 
 For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
 
-You can configure the AI-powered Smart Suggestions and help the authors reuse the existent content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of the Smart Suggestions panel in the Web Editor.
+You can configure the AI-powered Smart Suggestions and help the authors reuse the existing content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of the Smart Suggestions panel in the Web Editor.
 
-Perform the following steps to configure standard AI configuration to the global or folder-level profile:
+Perform the following steps to configure standard AI configuration at the global or folder-level profile:
 1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
 1. Select the **Adobe Experience Manager** link at the top and choose **Tools**.
 1. Select **Guides** from the list of tools and select the **Folder Profiles** tile.
@@ -424,7 +424,7 @@ Perform the following steps to configure standard AI configuration to the global
 
     **Maximum suggestions**: Enter the maximum number of suggestions the authors can get while authoring the content. For example, if this number is 5, the author can view five or fewer smart suggestions.
 
-    **Files and folders**: Select the files or folders from which the smart suggestions should be shown. For consistency of content, it's recommended that no two entries in the list have common files between them. Once you select the files and folders, they are listed.
+    **Files and folders**: Select the files or folders from which the smart suggestions should be shown. *For consistency of content, it's recommended that no two entries in the list have common files between them*. Once you select the files and folders, they are listed.
 
 1. Click **Save**.
 
