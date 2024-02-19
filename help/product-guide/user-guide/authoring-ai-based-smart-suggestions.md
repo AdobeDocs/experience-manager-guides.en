@@ -38,7 +38,7 @@ Perform the following steps to view the smart suggestions for adding appropriate
 
   1. Type in the content in your topic to view the related suggestions. Ensure that the content's character length exceeds what your administrator has set in the folder profile for the content suggestions to appear.
 
-  1. Select **Suggestions for the current tag** ![smart suggestions current tag icon](images/smart-suggestions-current-tag-icon.svg) to view the authoring suggestions for the current tag.  The suggestions to view and add content references from the indexed files are displayed based on the content in the current tag.
+  1. Select **Suggestions for the current tag** ![smart suggestions current tag icon](images/smart-suggestions-current-tag-icon.svg) to view the authoring suggestions for the current tag where you place your mouse pointer.  The suggestions to view and add content references from the indexed files are displayed based on the content in the current tag.
   
       Keyboard shortcut: **Windows** (*Ctrl* + *K*),  **macOS** (*Command* + *K*)
   1. Select **Suggestions for the complete document**  ![smart suggestions complete document icon](images/smart-suggestions-complete-document-icon.svg) to view the suggestions based on the content present in the complete document.  The smart suggestions![smart suggestions icon](images/smart-suggestions-complete-document-icon.svg) icon is displayed next to the content where a suitable match is found. 
