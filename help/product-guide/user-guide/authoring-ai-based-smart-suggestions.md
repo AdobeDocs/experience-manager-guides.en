@@ -34,18 +34,23 @@ Perform the following steps to view the smart suggestions for adding appropriate
 
     >[!NOTE]
     >
-    > In the [global or folder-level profiles](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), your administrator needs to define the files or folders to index for smart suggestions, the minimum number of characters you need to enter to view the suggestions, and the number of suggestions you can view in the list.
+    > In the [global or folder-level profiles](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), your administrator needs to define the files or folders to index for smart suggestions, the minimum number of characters you need to enter to view the suggestions, and the maximum number of suggestions you can view in the list.
 
-  1. Type in the content in your topic to view the related suggestions. 
-  1. Select **Suggestions for the current tag** ![smart suggestions current tag icon](images/smart-suggestions-current-tag-icon.svg) or press *Ctrl* + *K* to view the authoring suggestions for the current tag.  The suggestions to view and add content references from the indexed files are displayed based on the content in the current tag.
-  1. Select **Suggestions for the complete document**  ![smart suggestions complete document icon](images/smart-suggestions-complete-document-icon.svg) or press *Ctrl* + *Shift* + *K* to view the suggestions based on the content present in the complete document.  The smart suggestions![smart suggestions icon](images/smart-suggestions-complete-document-icon.svg) icon is displayed next to the content where a suitable match is found. 
+  1. Type in the content in your topic to view the related suggestions. Ensure that the content's character length exceeds what your administrator has set in the folder profile for the content suggestions to appear.
+
+  1. Select **Suggestions for the current tag** ![smart suggestions current tag icon](images/smart-suggestions-current-tag-icon.svg) to view the authoring suggestions for the current tag.  The suggestions to view and add content references from the indexed files are displayed based on the content in the current tag.
+  
+      Keyboard shortcut: **Windows** (*Ctrl* + *K*),  **macOS** (*Command* + *K*)
+  1. Select **Suggestions for the complete document**  ![smart suggestions complete document icon](images/smart-suggestions-complete-document-icon.svg) to view the suggestions based on the content present in the complete document.  The smart suggestions![smart suggestions icon](images/smart-suggestions-complete-document-icon.svg) icon is displayed next to the content where a suitable match is found. 
+
+      Keyboard shortcut: **Windows** ( *Ctrl* + *Shift* +  *K* ),  **macOS** (*Command* + *Shift* + *K* )
 
         >[!NOTE]
         >
         > You can only view the suggestions for the current viewport (the content visible on the screen). To view suggestions for any other content in the document, scroll up or down to display it in the viewport and then select the ![smart suggestions icon](images/smart-suggestions-complete-document-icon.svg) icon .
    
-   1. Select the **Smart Suggestions** ![smart suggestions icon](images/smart-suggestions-complete-document-icon.svg) icon near the keywords you have added to your document to view the smart suggestions. 
-  1. You can view the smart suggestions  in the **Content Reuse** suggestions box.  
+   1. Select the **Smart Suggestions** ![smart suggestions icon](images/smart-suggestions-complete-document-icon.svg) icon near the tags you have added to your document to view the smart suggestions. 
+  1. You can view the smart suggestions  in the **Content Reuse** suggestions box.  Experience Manager Guides provides suggestions for exactly matching content and content with the same meaning. For example, you can search for the topic that contains the exact version number, like "release version 2023.03.12". You can also search for "Adobe is headquartered in San Jose, California," and find similar content like "San Jose has the quarters of many software companies like Adobe."
   1. Select **Content Information** ![Content Information](images/smart-suggestions-content-info-icon.svg) to view the details.
         ![Content information panel](images/smart-suggestions-content-information.png){width="300" align="left"}
 
@@ -54,7 +59,7 @@ Perform the following steps to view the smart suggestions for adding appropriate
         1. The title of the topic that contains the content reference is displayed as a hyperlink. 
         1. The path of the file that contains the content reference.
         1. The type of reference where the content is referred.
-        1. The names of DITA files where the content is referred to are displayed as hyperlinks.
+        1. The names of DITA files where the topic is referred to are displayed as hyperlinks.
 1. Select **Suggested content preview** ![smart suggestions preview icon](images/smart-suggestions-preview-icon.svg) to compare the current content with the suggested content. This helps you compare the differences and determine if you want to add the content reference for the suggested content and make it consistent or retain your current content.
 
      ![Suggested content preview](images/smart-suggestions-suggested-content-preview.png){width="800" align="left"}
