@@ -5,17 +5,18 @@ description: Learn how to customize webeditor by hiding 'DitaMap' option from fo
 
 # Show/Hide 'Create DitaMAP' from folder context menu in webeditor
 
-In this article, we will learn how to customize the webeditor to be able to hide or show the "Create DitaMap" option in folder context menu on the basis on user/group permissions.
+In this article, we will learn how to customize the Guides Web Editor to hide or show the "Create DitaMap" option in folder context menu on the basis on user/group permissions.
 In this use-case we will hide this option for all non-author users.
 
 ## Pre-requisites
 
-To achieve this use-case of to customizing the folder context menu in the Guides Web Editor, we will be leveraging the Guides Extension Framwork.
-Please go through this [documentation](https://github.com/adobe/guides-extension/tree/main) for more details.
+We will be leveraging the AEM Guides Extension package whuch allows you to customize the UI of you app as per you requirements.
+Please go through this [documentation](https://github.com/adobe/guides-extension/tree/main) to get more insights on how extension framwork works.
 
 Now lets get started and learn how to customize the folder context menu to hide this option for all non-author users.
 
 As you can see from below snippet, the "create DitaMap" option is visible for an author user.
+
 ![Show create DitaMap option](../../../assets/authoring/ditamap-show-author.png)
 
 Let us now see how we can hide this option using Guides Extension Framework.

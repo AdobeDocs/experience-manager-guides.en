@@ -5,7 +5,7 @@ description: Learn how customize webeditor by removing 'Delete' option from file
 
 # Remove 'Delete' option from file context menu in webeditor
 
-In this article we will learn how remove the 'Delete' option from file context menu in AEM Guides Web Editor for specific users or groups. For other customizations on file context menu options, please check Guides Extension framwork. More details can be found [here](https://github.com/adobe/guides-extension/tree/main).
+In this article we will learn how hide the 'Delete' option from file context menu in AEM Guides Web Editor for specific users or groups. For other customizations on file context menu options, please check Guides Extension framwork. More details can be found [here](https://github.com/adobe/guides-extension/tree/main).
 
 As you can see from below snippet, the file context menu has 'Delete'option available for this specific user.
 
