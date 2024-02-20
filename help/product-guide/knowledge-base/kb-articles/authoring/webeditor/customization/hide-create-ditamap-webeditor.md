@@ -10,8 +10,8 @@ In this use-case we will hide this option for all non-author users.
 
 ## Pre-requisites
 
-We will be leveraging the AEM Guides Extension package whuch allows you to customize the UI of you app as per you requirements.
-Please go through this [documentation](https://github.com/adobe/guides-extension/tree/main) to get more insights on how extension framwork works.
+We will be leveraging the AEM Guides Extension package which allows you to customize the UI of your app as per you requirements.
+Please go through this [documentation](https://github.com/adobe/guides-extension/tree/main) to get more insights on how Guides Extension Framework works.
 
 Now lets get started and learn how to customize the folder context menu to hide this option for all non-author users.
 
@@ -29,7 +29,7 @@ The implementation is broken in below parts:
 
   Each context menu has a controller id associated with it. This controller handles the on-event functionality for the various context menu options.
 
-  In this example, we will customize the folder context menu to hide the "Create DitaMap" option for non-authors. For this, we will make changes to the folder_options.ts file present under /src in guides extension framwork repository.
+  In this example, we will customize the folder context menu to hide the "Create DitaMap" option for non-authors. For this, we will make changes to the folder_options.ts file present under /src in guides extension framework repository.
 
   We are using "viewState" as "REPLACE" to hide this option from context menu.
   We are calling a new widget in this folder_options through the key 'id'.
@@ -58,7 +58,8 @@ const folderOptions = {
 
   A new widget creation (customoptions.ts) is needed to write the logic to hide this option for non-author users only. To achieve this we have used the 'show' key which acts as a toggle in our JSON structure.
 
-  An external servlet can be written to check the groups assigned to the user. We have used the AEM rolesapi call to fetch the user details and set the response in 'isAuthor'.
+  You can write your own external servlet to check the group details. This way, you can customize folder menu options for your custom group as well.
+  In this example, We have leveraged the OOTB AEM 'rolesapi' call to fetch the user details and set the response in 'isAuthor' as shown in above snippets.
 
 ```typescript
 const folderOptions = {
