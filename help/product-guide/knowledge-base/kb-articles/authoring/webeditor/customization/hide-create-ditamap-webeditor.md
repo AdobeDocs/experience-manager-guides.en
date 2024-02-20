@@ -8,17 +8,17 @@ description: Learn how to customize webeditor by hiding 'DitaMap' option from fo
 In this article, we will learn how to customize the webeditor to be able to hide or show the "Create DitaMap" option in folder context menu on the basis on user/group permissions.
 In this use-case we will hide this option for all non-author users.
 
-## Pre-requites
+## Pre-requisites
 
-We are using Guides Extension Framwork which allows the customers to customize the guides Web Editor as per their requirement.
-Please go through this [documentation](https://github.com/adobe/guides-extension/tree/main) for more understanding before implementation.
+To achieve this use-case of to customizing the folder context menu in the Guides Web Editor, we will be leveraging the Guides Extension Framwork.
+Please go through this [documentation](https://github.com/adobe/guides-extension/tree/main) for more details.
 
 Now lets get started and learn how to customize the folder context menu to hide this option for all non-author users.
 
 As you can see from below snippet, the "create DitaMap" option is visible for an author user.
 ![Show create DitaMap option](../../../assets/authoring/ditamap-show-author.png)
 
-Let us now see how we can hide this option using Guides Extension Framwork.
+Let us now see how we can hide this option using Guides Extension Framework.
 
 ## Implementation Steps
 
@@ -28,7 +28,7 @@ The implementation is broken in below parts:
 
   Each context menu has a controller id associated with it. This controller handles the on-event functionality for the various context menu options.
 
-  In this example, we will customize the folder contextmenu to hide the "Create DitaMap" option for non-authors. For this, we will make changes to the folder_options.ts file present under /src in guides extension framwork repository.
+  In this example, we will customize the folder context menu to hide the "Create DitaMap" option for non-authors. For this, we will make changes to the folder_options.ts file present under /src in guides extension framwork repository.
 
   We are using "viewState" as "REPLACE" to hide this option from context menu.
   We are calling a new widget in this folder_options through the key 'id'.
@@ -106,11 +106,13 @@ controller: {
 ```
 
 - **Adding the customized code**
+
   Import the folder_options.ts and customoptions.ts to the index.ts file under /src.
 
 ## Testing
 
 - Login to AEM with a user who is not a part of authors group. The Create DitaMap option would be hidden on any folder's context menu as shown below.
+  This use-case has been added to GIT, please find related resources below.
 
 ![Hide create DitaMap option](../../../assets/authoring/ditamap-hide-non-author.png)
 
