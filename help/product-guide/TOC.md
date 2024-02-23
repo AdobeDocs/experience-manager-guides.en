@@ -52,7 +52,7 @@ breadcrumb-title: AEM Guides Documentation
         - [February release notes](./release-info/release-notes-2022-2-0.md)
         - [January release notes](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
-    - 4.4.0 Release {#44-release}
+    - 4.4.0 Release {#440-release}
         - [What's new](./release-info/whats-new-4-4.md)
         - [Fixed issues](./release-info/fixed-issues-4-4.md)
         - [Upgrade instructions](./release-info/upgrade-instructions-4-4.md)
