@@ -2,11 +2,15 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 4.4.0 release
 description: Learn about the new and enhanced features in 4.4.0 release of Adobe Experience Manager Guides
 ---
-# What's new in 4.4.0 release of Adobe Experience Manager Guides (January 2024)
+# What's new in the 4.4.0 release (January 2024)
 
-This article covers the new and enhanced features in version 4.4.0 of Adobe Experience Manager Guides (later referred as *Experience Manager Guides*).
+This article covers the new and enhanced features in version 4.4.0 of Adobe Experience Manager Guides.
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, see [Release notes](./release-notes-4-4.md).
+For the list of issues that have been fixed in this release, view [Fixed issues in the 4.4.0 release](../release-info/fixed-issues-4-4.md).
+
+Learn about [upgrade instructions for the 4.4.0 release](../release-info/upgrade-instructions-4-4.md).
+
+
 
 ## Revamped version history feature in the Web Editor
 
