@@ -1,15 +1,15 @@
 ---
-title: Release Notes | What's New in the Adobe Experience Manager Guides, February 2024 release
-description: Learn the new and enhanced features in February 2024 release of Adobe Experience Manager Guides as a Cloud Service.
+title: Release Notes | What's New in the Adobe Experience Manager Guides, 2024.2.0 release
+description: Learn the new and enhanced features in 2024.2.0 release of Adobe Experience Manager Guides as a Cloud Service.
 ---
-# What's new in the February 2024 release 
+# What's new in the 2024.2.0 release 
 
-This article covers the new and enhanced features in the February 2024 release of Adobe Experience Manager Guides.
+This article covers the new and enhanced features in the 2024.2.0 release of Adobe Experience Manager Guides.
 
-For the list of issues that have been fixed in this release, view [Fixed issues in the February 2024 release](fixed-issues-2024-2-0.md).
+For the list of issues that have been fixed in this release, view [Fixed issues in the 2024.2.0 release](fixed-issues-2024-2-0.md).
 
 
-Learn about [upgrade instructions for the February 2024 release](upgrade-instructions-2024-2-0.md).
+Learn about [upgrade instructions for the 2024.2.0 release](upgrade-instructions-2024-2-0.md).
 
 
 
@@ -89,7 +89,7 @@ Experience Manager provides the feature to create baselines by automatically pic
 
 ## Native PDF enhancements
 
-The following Native PDF enhancements have been done in the February 2024 release:
+The following Native PDF enhancements have been done in the 2024.2.0 release:
 
 ### Pass assets metadata to the PDF output
 

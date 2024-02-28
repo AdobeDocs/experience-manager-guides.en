@@ -1,27 +1,27 @@
 ---
-title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, February 2024 release
-description: Learn about the compatibility matrix and how to upgrade to the February 2024 release of Adobe Experience Manager Guides as a Cloud Service.
+title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, 2024.2.0 release
+description: Learn about the compatibility matrix and how to upgrade to the 2024.2.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
 ---
-# Upgrade instructions for the February 2024 release 
+# Upgrade instructions for the 2024.2.0 release 
 
-This article covers the upgrade instructions and the  compatibility matrix for February 2024 release of Adobe Experience Manager Guides as a Cloud Service.
+This article covers the upgrade instructions and the  compatibility matrix for 2024.2.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For more information about the new features and enhancements, view [What's new in the February 2024 release](whats-new-2024-2-0.md).
+For more information about the new features and enhancements, view [What's new in the 2024.2.0 release](whats-new-2024-2-0.md).
 
-For the list of issues that have been fixed in this release, view [Fixed issues in the February 2024 release](fixed-issues-2024-2-0.md).
+For the list of issues that have been fixed in this release, view [Fixed issues in the 2024.2.0 release](fixed-issues-2024-2-0.md).
 
 
 
 ## Compatibility matrix
 
-This section lists the compatibility matrix for the software applications supported by February 2024 release of Experience Manager Guides as a Cloud Service. 
+This section lists the compatibility matrix for the software applications supported by 2024.2.0 release of Experience Manager Guides as a Cloud Service. 
 
 ### FrameMaker and FrameMaker Publishing Server
 
 | Experience Manager Guides as a Cloud Release| FMPS | FrameMaker |
 | --- | --- | --- |
-| 2024.02.0 | Not compatible | 2022 or higher |
+| 2024.2.0 | Not compatible | 2022 or higher |
 | | | |
 
 
@@ -29,7 +29,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 | Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
 | --- | --- | --- | --- | --- |
-| 2024.02.0|   3.4-uuid 1|   3.4-uuid 1 | 2.3 | 2.3 | 
+| 2024.2.0|   3.4-uuid 1|   3.4-uuid 1 | 2.3 | 2.3 | 
 |  |  |  |  |
 
 
@@ -39,7 +39,7 @@ This section lists the compatibility matrix for the software applications suppor
 |---|---|---|
 |Experience Manager Guides Components Content Package for Cloud Service|dxml-components.all-1.2.2| aem-site-template-dxml.all-1.0.15|
 
-## Upgrade to February 2024 release
+## Upgrade to 2024.2.0 release
 
 Experience Manager Guides is upgraded automatically upon upgrading the current (latest) release of Experience Manager as a Cloud Service.
 
