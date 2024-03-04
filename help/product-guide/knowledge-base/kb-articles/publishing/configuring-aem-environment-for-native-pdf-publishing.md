@@ -177,12 +177,6 @@ If the issue persists even after correcting the Java environment settings, pleas
 
 Validate the timeout property value for the nodejs node in  /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs in CRX repository. Default value is 300.
 
-### Error in extracting dependecy Exception (String too long)
-![String too long exception](..//assets/publishing/string-too-long-error.png)
-
-To workaround this exception :
-1.  Delete some styles which is not needed to make it smaller.
-2.  Create multiple stylesheet instead of a single large css.
 
 
 If you encounter any issues while performing any of the above steps, post your question on the AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) for assistance.
