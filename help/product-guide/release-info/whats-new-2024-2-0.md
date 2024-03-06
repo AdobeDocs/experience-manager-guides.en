@@ -29,6 +29,8 @@ You can also compare the current content with similar content in the other topic
 
 Using this intelligent feature reduces the manual effort of searching related content and helps you focus on new content creation.  It also helps maintain consistency and also facilitates better team collaboration.  
 
+Learn more about [AI-powered Smart suggestions to author content](../user-guide/authoring-ai-based-smart-suggestions.md).
+
 ## Revamped version history feature in the Web Editor
 
 Now Experience Manager Guides provides an enhanced version history feature which allows you to compare the changes made to a document over time. In the new side by side view, you can easily compare the content and the metadata of the current version with any previous version of the same document. You can also view the labels and comments for the compared versions. As an administrator, you can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box. 
