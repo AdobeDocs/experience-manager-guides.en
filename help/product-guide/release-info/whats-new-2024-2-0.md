@@ -1,28 +1,35 @@
 ---
-title: Release Notes | What's New in the Adobe Experience Manager Guides, February 2024 release
-description: Learn the new and enhanced features in February 2024 release of Adobe Experience Manager Guides as a Cloud Service.
+title: Release Notes | What's New in the Adobe Experience Manager Guides, 2024.2.0 release
+description: Learn the new and enhanced features in 2024.2.0 release of Adobe Experience Manager Guides as a Cloud Service.
 ---
-# What's new in the February 2024 release of Adobe Experience Manager Guides as a Cloud Service
+# What's new in the 2024.2.0 release 
 
-This article covers the new and enhanced features in the February 2024 release of Adobe Experience Manager Guides (later referred to as *Experience Manager Guides as a Cloud Service*).
+This article covers the new and enhanced features in the 2024.2.0 release of Adobe Experience Manager Guides.
 
-For more details on the upgrade instructions, compatibility matrix, and the issues fixed in this release, view [Release Notes](release-notes-2023-12-0.md).
+For the list of issues that have been fixed in this release, view [Fixed issues in the 2024.2.0 release](fixed-issues-2024-2-0.md).
 
-## AI-based Smart Suggestions to author content
+
+Learn about [upgrade instructions for the 2024.2.0 release](upgrade-instructions-2024-2-0.md).
+
+
+
+## AI-powered Smart Suggestions to add content references while authoring content
 
 Now, you can enhance your authoring journey with Smart Suggestions, a new AI-based feature in the Web Editor. While you author your content, this intelligent feature provides real-time suggestions for content references, improving your workflow, adding accuracy, and ensuring unparalleled efficiency.
 
  
 To keep your content correct and consistent, the search and suggestions are limited to the content owned by your organization and closely matched to the keywords that you search for.  
 
-![Smart suggestions panel in the Web Editor ](web-editor-smart-suggestion.png) {width="800" align="left"}
+![Smart suggestions panel in the Web Editor ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *View Smart Suggestions to find and add matching content references from your content repository.*
 
-You can also compare the current content with similar content in the other topics. Then, you can easily pick the pieces of content from various topics and add them as content references into your current topic. Adding the content references makes updates more manageable, especially in larger documentation projects. For example, suppose you are creating a brochure about the latest features of your product. In that case, you can quickly add the updated specifications as content references from the related feature documents.
+You can also compare the current content with similar content in the other topics. Then, you can easily pick the pieces of content from various topics and add them as content references into your current topic. Adding the content references makes updates more manageable, especially in larger documentation projects. For example, you are creating a brochure about the latest features of your product. In that case, you can quickly add the updated specifications as content references from the related feature documents.
 
 Using this intelligent feature reduces the manual effort of searching related content and helps you focus on new content creation.  It also helps maintain consistency and also facilitates better team collaboration.  
+
+Learn more about [AI-powered Smart suggestions to author content](../user-guide/authoring-ai-based-smart-suggestions.md).
 
 ## Revamped version history feature in the Web Editor
 
@@ -34,7 +41,7 @@ Now Experience Manager Guides provides an enhanced version history feature which
 
 Learn more about the **Version History** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
-## Enhanced Translation panel
+## Improved user experience in the Translation panel
 
 The **Translation** panel has been improved.  You can view the **Available Languages** list and quickly select the locale in which you want to translate your project. With a single selection, you can also choose **Select all** to translate your project into all the available languages.
 
@@ -61,7 +68,7 @@ all valid elements that begin with ‘t’.
 For more details, view the **Insert Element** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
 
-## Ability to split a list at the same level
+## Ability to split the current list and start with a new list item at the same level
 
 Now, you can easily split your list in the Web Editor. Select the **Split List** option from the context menu of a list item to split the current list. A new list is created at the same level, starting with the list item you selected for the split.  
 
@@ -77,14 +84,14 @@ Now, you can access the right panel's **File Properties** feature in all four mo
 
 For more details, view the **File Properties** feature description in the [Right Panel](../user-guide/web-editor-features.md#id2051EB003YK) section. 
 
-## Publish multiple output presets in parallel
+## Ability to publish multiple output presets with dynamic baselines in parallel 
 
 Experience Manager provides the feature to create baselines by automatically picking the topics according to the label applied to them. Now, you can also seamlessly publish multiple output presets with automatic baselines of the same DITA map. You don’t have to publish only one preset at a time but can easily publish multiple output presets in parallel.
 
 
 ## Native PDF enhancements
 
-The following Native PDF enhancements have been done in the February 2024 release:
+The following Native PDF enhancements have been done in the 2024.2.0 release:
 
 ### Pass assets metadata to the PDF output
 

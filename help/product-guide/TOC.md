@@ -9,10 +9,16 @@ breadcrumb-title: AEM Guides Documentation
 - [[!DNL AEM Guides] overview](overview.md)
 - [Disclaimer](./user-guide/rebranding-disclaimer.md)
 - Release Information {#release-info}
+
   - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
   - Release Notes {#release-notes}
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
+      - 2024 Releases {#2024-releases}
+        - 2024.2.0 Release {#2402-release}
+          - [What's new](./release-info/whats-new-2024-2-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2024-2-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2024-2-0.md)
       - 2023 Releases {#2023-releases}
         - December Release {#2312-release}
           - [What's new](./release-info/whats-new-2023-12-0.md)
@@ -102,6 +108,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Other features in the Web Editor](./user-guide/web-editor-other-features.md)
           - [Web Editor views](./user-guide/web-editor-views.md)
           - [Support for Schematron files](./user-guide/support-schematron-file.md)
+          - [AI-powered Smart Suggestions (beta) to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
           - [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
           - [Add citations to your content](./user-guide/web-editor-apply-citations.md)
           - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)
@@ -213,8 +220,8 @@ breadcrumb-title: AEM Guides Documentation
     - Content migration {#content-migration}
       - [Non-UUID to UUID content migration](./install-guide/migrate-uuid-non-uuid.md)
       - Migration process {#migration-process}
-        - [Migrate versioned content](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-        - [Migrate unversioned content](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+        - [Migrate non-UUID content with versions](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+        - [Migrate non-UUID content without versions](./install-guide/migrate-non-uuid-uuid-without-versions.md)
       - [Migrate existing content](./install-guide/migrate-content.md)
       - [Upload existing DITA content](./install-guide/migrate-content-upload-existing-dita-content.md)
       - [Migrate non-DITA content](./install-guide/migrate-content-non-dita.md)
@@ -316,6 +323,7 @@ breadcrumb-title: AEM Guides Documentation
     - Work with the Web Editor configurations {#web-editor-configs-cs}
       - [Customize Web Editor](./cs-install-guide/conf-web-editor.md)
       - [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
+      - [Configure the AI-powered smart suggestions for authoring](./cs-install-guide/conf-smart-suggestions.md)
       - [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
       - [Configure display of UUID-based links](./cs-install-guide/conf-uuid-based-links.md)
       - [Open DITA topic or map files in same tab](./cs-install-guide/open-dita-files-same-tab.md)

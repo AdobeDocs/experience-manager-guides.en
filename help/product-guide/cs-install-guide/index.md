@@ -6,7 +6,6 @@
     -   [Deploy AEM Guides module](download-install-dxml-first-time.md)
     -   [Configure Dispatcher](download-install-configure-dispatcher.md)
     -   [Verify AEM Guides installation](download-install-verify-dxml-installation.md)
-    -   [Upgrade AEM Guides](download-install-upgrade-dxml.md)
     -   [Configuration overrides](download-install-additional-config-override.md)
     -   [Recommendations for performance optimization](download-install-recommend-perf-optimiz.md)
 -   [User administration and security](user-admin-sec.md)

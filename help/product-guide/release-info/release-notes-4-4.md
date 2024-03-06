@@ -11,14 +11,14 @@ For more information about the new features and enhancements, see [What's new in
 ## Upgrade to 4.4.0 release of Experience Manager Guides
 
 
-You can easily upgrade your current version of  Guides to version 4.4.0. Before you proceed with upgrading to version 4.4.0 of Experience Manager Guides, you must consider the following points:
+You can easily upgrade your current version of Experience Manager Guides to version 4.4.0. Before you proceed with upgrading to version 4.4.0 of Experience Manager Guides, you must consider the following points:
 
 
 - If you are using version 4.3.1, 4.3.0, or 4.2.1 (Hotfix 4.2.1.3), then you can directly upgrade to version 4.4.0.
 - If you are using version 4.2, 4.1, or 4.1.x then you need to upgrade to version 4.3.1, 4.3.0, or 4.2.1 (Hotfix 4.2.1.3) before upgrading to version 4.4.0.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.x.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
-- If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide.
+- If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide available on [Adobe Experience Manager Guides Help PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html). 
 
 
 
