@@ -3,7 +3,7 @@ title: Release Notes | Fixed issues in Adobe Experience Manager Guides 4.3.1.5 r
 description: Learn about the bug fixes in the  4.3.1.5 release of Adobe Experience Manager Guides
 role: Leader
 ---
-# Fixed issues in the 4.3.1.5 release (March 2024)
+# Fixed issues in the 4.3.1.5 release 
 
 
 This article covers the bugs fixed in various areas of 4.3.1.5 release of Adobe Experience Manager Guides.
@@ -15,7 +15,6 @@ Learn about [upgrade instructions for the 4.3.1.5 release](../release-info/upgra
 
 ## Authoring
 
-- The **Favorites** collection in the Web Editor doesn't load or takes longer. (15543)
 - Adding spaces between inline elements within `<codeblock>` causes a line break in the generated output. (15247)
 - Experience issues occur while adding elements from the "Insert Element" dialog box. (15108)
 
