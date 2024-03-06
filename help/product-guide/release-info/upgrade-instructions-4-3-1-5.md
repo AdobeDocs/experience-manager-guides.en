@@ -16,14 +16,14 @@ For the list of issues that have been fixed in this release, view [Fixed issues 
 
 ## Compatibility matrix
 
-This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 4.4.0 release. 
+This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 4.3.1.5 release. 
 
 ### Adobe Experience Manager
 
 **4.3.1.5 Non-UUID**
 Version 6.5 Service Pack 18, 17, 16, 15, 14
 
-**4.4.0 UUID**
+**4.3.1.5 UUID**
 Version 6.5 Service Pack 18, 17, 16, 15, 14
 
 For more details, see the *Technical requirements* section in the Install and configure Adobe Experience Manager Guides guide.

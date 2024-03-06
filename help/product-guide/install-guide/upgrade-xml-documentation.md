@@ -50,7 +50,7 @@ Before running the process there are certain tasks that you must complete. The f
 >
 > This Upgrade process is applicable only from version 3.8.5 to version 4.0. For the process to upgrade from version 3.4 or higher to 3.8.5, refer to the *Upgrade Experience Manager Guides* section in the product-specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
-[Help Archival Page](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+
 
 ****Prerequisites****
 

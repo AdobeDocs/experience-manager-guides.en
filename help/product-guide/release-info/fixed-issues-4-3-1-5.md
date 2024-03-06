@@ -1,6 +1,6 @@
 ---
-title: Release Notes | Fixed issues in Adobe Experience Manager Guides 4.4.0 release
-description: Learn about the bug fixes in the  4.4.0 release of Adobe Experience Manager Guides
+title: Release Notes | Fixed issues in Adobe Experience Manager Guides 4.3.1.5 release
+description: Learn about the bug fixes in the  4.3.1.5 release of Adobe Experience Manager Guides
 role: Leader
 ---
 # Fixed issues in the 4.3.1.5 release (March 2024)
