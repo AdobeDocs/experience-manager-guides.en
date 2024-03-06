@@ -26,7 +26,8 @@ Version 6.5 Service Pack 19, 18, 17
 **4.4.0 UUID**
 Version 6.5 Service Pack 19, 18, 17
 
-For more details, see the *Technical requirements* section in the Install and configure Adobe Experience Manager Guides guide.
+
+For more details, view the [Technical requirements](../install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
 
 ### FrameMaker and FrameMaker Publishing Server
 
