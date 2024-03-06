@@ -10,7 +10,7 @@ Learn how to add [!DNL Experience Manager Guides] to your [!DNL Experience Manag
 
 >[!NOTE]
 >
-> Experience Manager Guides is only available as an automated add-on for Experience Manager as a Cloud Service. If you use manual deployments for Experience Manager Guides, please remove the line `<module>dox.installer</module> from file dox/pom.xml` in your cloud manage git codebase before enabling Experience Manager Guides for your program.
+> Starting release 2024.2.0, Experience Manager Guides is only available as an automated add-on for Experience Manager as a Cloud Service. If you use manual deployments for Experience Manager Guides, please remove the line `<module>dox.installer</module> from file dox/pom.xml` in your cloud manage git codebase before enabling Experience Manager Guides for your program.
 
 1. Login to [!UICONTROL Cloud Manager].
 
