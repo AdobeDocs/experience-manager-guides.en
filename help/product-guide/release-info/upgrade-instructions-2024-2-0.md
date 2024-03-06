@@ -7,14 +7,9 @@ description: Learn about the compatibility matrix and how to upgrade to the 2024
 
 This article covers the upgrade instructions and the  compatibility matrix for 2024.2.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-<<<<<<<< HEAD:help/product-guide/release-info/upgrade-instructions-2024-2-0.md
 For more information about the new features and enhancements, view [What's new in the 2024.2.0 release](whats-new-2024-2-0.md).
-========
-For more information about the new features and enhancements, view [What's new in the February 2024 release of Experience Manager Guides as a Cloud Service](whats-new-2024-02-0.md).
->>>>>>>> main:help/product-guide/release-info/release-notes-2024-02-0.md
 
 For the list of issues that have been fixed in this release, view [Fixed issues in the 2024.2.0 release](fixed-issues-2024-2-0.md).
-
 
 
 ## Compatibility matrix
