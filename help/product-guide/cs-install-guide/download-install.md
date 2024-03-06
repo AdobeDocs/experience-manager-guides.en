@@ -5,7 +5,7 @@ exl-id: 6387dd19-1bd1-4ce8-9428-968a6b838fbb
 ---
 # Download and install {#id1645E0O04MK}
 
-Starting release 2024.2.0, Experience Manager Guides is only available as an automated add-on for Experience Manager as a Cloud Service.
+Starting 2024.2.0 release, Experience Manager Guides is only available as an automated add-on for Experience Manager as a Cloud Service.
 
 If you are using December 2023 or earlier releases, you can download the Adobe Experience Manager Guides from the GitHub repository and install it. 
 
