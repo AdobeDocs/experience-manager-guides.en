@@ -298,7 +298,6 @@ breadcrumb-title: AEM Guides Guide
       + [Deploy AEM Guides module](./cs-install-guide/download-install-dxml-first-time.md)
       + [Configure Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
       + [Verify AEM Guides installation](./cs-install-guide/download-install-verify-dxml-installation.md)
-      + [Upgrade AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
       + [Configuration overrides](./cs-install-guide/download-install-additional-config-override.md)
       + [Recommendations for performance optimization](./cs-install-guide/download-install-recommend-perf-optimiz.md)
     + Work with user groups and security {#user-group-sec-cs}
