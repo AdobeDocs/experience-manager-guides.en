@@ -9,7 +9,6 @@ breadcrumb-title: AEM Guides Documentation
 - [[!DNL AEM Guides] overview](overview.md)
 - [Disclaimer](./user-guide/rebranding-disclaimer.md)
 - Release Information {#release-info}
-  - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
   - Release Notes {#release-notes}
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
@@ -52,10 +51,14 @@ breadcrumb-title: AEM Guides Documentation
         - [February release notes](./release-info/release-notes-2022-2-0.md)
         - [January release notes](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
+    - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
     - 4.4.0 Release {#440-release}
         - [What's new](./release-info/whats-new-4-4.md)
         - [Fixed issues](./release-info/fixed-issues-4-4.md)
         - [Upgrade instructions](./release-info/upgrade-instructions-4-4.md)
+    - 4.3.1.5 Release {#4315-release}
+        - [Fixed issues](./release-info/fixed-issues-4-3-1-5.md)
+        - [Upgrade instructions](./release-info/upgrade-instructions-4-3-1-5.md)    
     - 4.3.0 Release {#43-release}
       - What's new {#43-whats-new}
         - [4.3.1 What's new](./release-info/whats-new-4-3-1-release.md)
