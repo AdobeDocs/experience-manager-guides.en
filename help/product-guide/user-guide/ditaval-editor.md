@@ -2,6 +2,8 @@
 title: Use DITAVAL editor
 description: Understand how to create and edit DITAVAL files using the DIVATAL Editor in AEM Guides. Know how the DITAVAL editor supports DITAVAL files in author and source views.
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
+feature: Authoring, DITAVAL Editor
+role: User
 ---
 # DITAVAL editor {#ditaval-editor}
 

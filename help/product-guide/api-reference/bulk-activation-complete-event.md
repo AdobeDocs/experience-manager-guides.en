@@ -1,6 +1,9 @@
 ---
 title: Bulk activation complete event handler
 description: Learn about bulk activation complete event handler
+feature: Bulk Activation Event Handler
+role: Developer
+level: Experienced
 ---
 # Bulk activation complete event handler
 

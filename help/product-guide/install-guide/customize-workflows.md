@@ -2,6 +2,9 @@
 title: Configure and customize workflows
 description: Learn how to Configure and customize workflows
 exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
+feature: Workflow Configuration
+role: Admin
+level: Experienced
 ---
 # Configure and customize workflows {#id181AI0OJ0RO}
 

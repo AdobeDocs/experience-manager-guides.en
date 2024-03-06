@@ -2,6 +2,9 @@
 title: Configure global or folder-level profiles
 description: Learn how to Configure global or folder-level profiles
 exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
+feature: Profiles
+role: Admin
+level: Experienced
 ---
 # Configure global or folder-level profiles {#id181AH2003PF}
 

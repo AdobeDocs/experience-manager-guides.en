@@ -2,6 +2,8 @@
 title: Generate PDF
 description: Learn how to create a PDF preset from the web editor and the map dashboard. Configure PDF output preset in AEM Guides.
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
+feature: Publishing
+role: User
 ---
 # PDF {#id205BE600HAH}
 

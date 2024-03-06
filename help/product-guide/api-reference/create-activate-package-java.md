@@ -2,6 +2,9 @@
 title: Java-based API for creating and activating packages
 description: Learn about the Java-based API for creating and activating packages
 exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
+feature: Java-Based API Packages
+role: Developer
+level: Experienced
 ---
 # Java-based API for creating and activating packages {#id175UB30E05Z}
 

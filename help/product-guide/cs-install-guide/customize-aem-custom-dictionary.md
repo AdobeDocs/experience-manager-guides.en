@@ -2,6 +2,9 @@
 title: Customize AEM's default dictionary
 description: Learn how to Customize AEM's default dictionary
 exl-id: ecffcd14-6728-4938-a209-5c4b12af6fbb
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
 ---
 # Customize AEM's default dictionary {#id209SD8000WU}
 

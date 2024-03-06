@@ -1,7 +1,8 @@
 ---
-sidebar_position: 5
+title: List
+description: List
+role: User, Admin
 ---
-
 # List
 
 To display a list, we use the component list.
@@ -31,7 +32,7 @@ const listJSON =  {
 
 ```
 
-Usually itemConfig is a `widget`. To learn more about widgets go to [Widgets](../Widgets/basic_widget.md)
+Usually itemConfig is a `widget`. To learn more about widgets go to [Widgets](../Widgets/basic-widget.md)
 
 The rendered list will look like this:
 

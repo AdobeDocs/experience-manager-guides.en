@@ -2,6 +2,8 @@
 title: Extension Framework of AEM Guides - Customize Web-Editor and Review UI
 description: With the Guides extension framework you can customize the desired sections of Review Ui or Webeditor by using easy-to-update JSON, CSS, and JavaScript.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
+feature: Web Editor, Troubleshooting
+role: User, Admin
 ---
 # Extension Framework of AEM Guides: Customize Web-Editor and Review UI
 
@@ -39,11 +41,11 @@ In this session, you learnt about following:
 
 - **Extension Framework base repository** - [GIT](https://github.com/adobe/guides-extension/tree/main) 
  
-- **Documentation** - [on Experience League](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
+- **Documentation** - [on Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Documented common use cases** - [on Experience League](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
+- **Documented common use cases** - [on Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
  
-- **Public repository with samples** - [on GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Refer branch refer sc-expert-session
+- **Public repository with samples** - [on GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Refer branch sc-expert-session
 
 
 >[!NOTE]

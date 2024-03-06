@@ -1,6 +1,9 @@
 ---
 title: Native PDF | Use variables in the PDF output
 description: Use variables in the PDF output and output templates
+feature: Output Generation
+role: Admin
+level: Experienced
 ---
 # Variables in the PDF output
 

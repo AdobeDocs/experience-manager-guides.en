@@ -2,6 +2,9 @@
 title: User administration and security
 description: Learn how User administration and security works
 exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
+feature: User Management
+role: Admin
+level: Experienced
 ---
 # User administration and security {#id181AED00G5Z}
 

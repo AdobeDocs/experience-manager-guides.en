@@ -2,6 +2,8 @@
 title: Add new custom actionable button in webeditor toolbar
 description: Learn how add a new custom button in webeditor toolbar and call javascript to custom operate it.
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
+feature: Web Editor
+role: User, Admin
 ---
 # Add new custom actionable button in webeditor toolbar
 

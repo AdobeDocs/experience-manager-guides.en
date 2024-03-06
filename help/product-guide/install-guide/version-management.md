@@ -2,6 +2,9 @@
 title: Version management
 description: Learn how  Version management works
 exl-id: 24e44618-9c4e-4547-a00d-216ef3fb4854
+feature: Version Management
+role: Admin
+level: Experienced
 ---
 # Version management {#id181GB000XY4}
 

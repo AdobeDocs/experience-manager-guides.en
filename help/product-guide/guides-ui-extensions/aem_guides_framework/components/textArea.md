@@ -1,7 +1,8 @@
 ---
-sidebar_position: 3
+title: Textarea
+description: Textarea
+role: User, Admin
 ---
-
 # Text Field and Text Area
 
 To take text as an input, we use the components, text field and text area.

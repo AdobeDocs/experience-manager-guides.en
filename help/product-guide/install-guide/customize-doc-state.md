@@ -2,6 +2,9 @@
 title: Configure document states
 description: Learn how to Configure document states
 exl-id: d7603b4e-aae4-48ca-be84-8edb51626405
+feature: Document State
+role: Admin
+level: Experienced
 ---
 # Configure document states {#id181GB0400UI}
 

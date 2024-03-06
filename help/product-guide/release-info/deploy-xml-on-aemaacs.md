@@ -2,6 +2,8 @@
 title: How to add [!DNL Experience Manager Guides] to your [!DNL Experience Manager as a Cloud Service] environment
 description: Learn how to add [!DNL AEM Guides] to your [!DNL AEM as a Cloud Service] environment
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
+feature: Installation
+role: Leader
 ---
 # [!DNL Adobe Experience Manager Guides] as a Cloud Service deployment
 

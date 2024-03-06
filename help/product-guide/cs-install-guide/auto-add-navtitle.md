@@ -2,6 +2,9 @@
 title: Include @navtitle attribute by default
 description: Learn how to Include @navtitle attribute by default
 exl-id: 38711c0c-efa8-461a-92e1-ecfcdcdd36d3
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
 ---
 # Include @navtitle attribute by default {#id2115BC0J0XA}
 

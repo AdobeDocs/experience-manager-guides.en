@@ -2,6 +2,9 @@
 title: Configure output generation settings
 description: Learn how to Configure output generation settings
 exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
+feature: Output Generation
+role: Admin
+level: Experienced
 ---
 # Configure output generation settings {#id181AI0B0E30}
 

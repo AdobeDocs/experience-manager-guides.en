@@ -2,6 +2,9 @@
 title: Configure search for AEM Assets UI
 description: Learn how to Configure search for AEM Assets UI
 exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
+feature: Search Configuration
+role: Admin
+level: Experienced
 ---
 # Configure search for AEM Assets UI {#id192SC800MY4}
 
@@ -126,15 +129,15 @@ A rule consists of the following:
 xpath
 :   This is the XPath query that retrieves the elements or attributes from DITA files. The default configuration for the element rule retrieves all `prolog` elements. And, the default configuration for the attribute rule retrieves all attributes of `prolog` elements. You can specify an XPath query to serialize the elements or attributes that you want to search for.
 
-    The XPath query contains the class name of the document type. The `topic/topic` class is used for topic type DITA documents. If you want to create a rule for other DITA documents, then you must use the following class names:
+The XPath query contains the class name of the document type. The `topic/topic` class is used for topic type DITA documents. If you want to create a rule for other DITA documents, then you must use the following class names:
 
-    |Document Type|Class name|
-    |-------------|----------|
-    |Topic|- topic/topic|
-    |Task|- topic/topic task/task|
-    |Concept|- topic/topic concept/concept|
-    |Reference|- topic/topic reference/reference|
-    |Map|- map/map|
+|Document Type|Class name|
+|-------------|----------|
+|Topic|- topic/topic|
+|Task|- topic/topic task/task|
+|Concept|- topic/topic concept/concept|
+|Reference|- topic/topic reference/reference|
+|Map|- map/map|
 
 text
 :   If you want to search for the text within the specified element, then specify the yes value. If you specify no as value, then only the attributes within the element are serialized. The attributes that you want to search for need to be specified in the attribute set section.

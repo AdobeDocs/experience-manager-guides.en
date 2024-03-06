@@ -1,7 +1,8 @@
 ---
-sidebar_position: 2
+title: Label
+description: Label
+role: User, Admin
 ---
-
 # Label
 
 To display any text or string, we use the component, label.
