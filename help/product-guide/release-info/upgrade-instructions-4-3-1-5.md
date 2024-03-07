@@ -3,10 +3,10 @@ title: Release Notes | Upgrade instructions for Adobe Experience Manager Guides 
 description: Learn how to upgrade to  4.3.1.5 release of Adobe Experience Manager Guides
 role: Leader
 ---
-#  Upgrade instructions for the 4.3.1.5 release 
+
+# Upgrade instructions for the 4.3.1.5 release 
 
 This article covers the upgrade instructions and the  compatibility matrix for 4.3.1.5 release of Adobe Experience Manager Guides.
-
 
 
 For the list of issues that have been fixed in this release, view [Fixed issues in the 4.3.1.5 release](../release-info/fixed-issues-4-3-1-5.md).
