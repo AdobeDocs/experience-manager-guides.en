@@ -26,7 +26,7 @@ Version 6.5 Service Pack 18, 17, 16, 15, 14
 **4.3.1.5 UUID**
 Version 6.5 Service Pack 18, 17, 16, 15, 14
 
-For more details, view the [Technical requirements](../install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide .
+For more details, view the *Technical requirements* section in the On-Premise Installation and Configuration Guide .
 
 ### FrameMaker and FrameMaker Publishing Server
 
