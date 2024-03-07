@@ -6,8 +6,10 @@ feature: Installation
 role: Admin
 level: Experienced
 ---
-# Deploy AEM Guides module {#id213BCL00KEV}
+# Deploy Adobe Experience Manager Guides module {#id213BCL00KEV}
 
-You can start by deploying AEM Guides via the Cloud Manager. To deploy the module you can follow the instructions mentioned in [AEM Guides as a Cloud Service deployment](https://experienceleague.adobe.com/docs/experience-manager-xml-documentation-learn/tutorials/release-info/release-notes/cloud-release-notes/deploy-xml-on-aemaacs.html).
+You can start by deploying Experience Manager Guides via the Cloud Manager. To deploy the module you can follow the instructions mentioned in [AEM Guides as a Cloud Service deployment](../release-info/deploy-xml-on-aemaacs.md)
+
+
 
 **Parent topic:**[Download and install](download-install.md)

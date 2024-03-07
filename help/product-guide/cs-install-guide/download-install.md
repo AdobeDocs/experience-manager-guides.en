@@ -8,15 +8,16 @@ level: Experienced
 ---
 # Download and install {#id1645E0O04MK}
 
-The AEM Guides is made available through GitHub repository. You can download the AEM Guides from the GitHub repository and install it.
+Starting 2024.2.0 release, Experience Manager Guides is only available as an automated add-on for Experience Manager as a Cloud Service.
+
+If you are using December 2023 or earlier releases, you can download the Adobe Experience Manager Guides from the GitHub repository and install it. 
+
 
 -   **[Deploy AEM Guides module](download-install-dxml-first-time.md)**  
 
 -   **[Configure Dispatcher](download-install-configure-dispatcher.md)**  
 
 -   **[Verify AEM Guides installation](download-install-verify-dxml-installation.md)**  
-
--   **[Upgrade AEM Guides](download-install-upgrade-dxml.md)**  
 
 -   **[Configuration overrides](download-install-additional-config-override.md)**  
 
