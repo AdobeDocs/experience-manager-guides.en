@@ -14,7 +14,7 @@ level: Experienced
 
 You can upgrade your current version of Experience Manager Guides to version 4.4.0:
 
-- If you are using version 4.3.1, 4.3.0, or 4.2.1 (Hotfix 4.2.1.3), then you can directly upgrade to version 4.4.0.
+- If you are using version 4.3.1.5, 4.3.1, 4.3.0, or 4.2.1 (Hotfix 4.2.1.3), then you can directly upgrade to version 4.4.0.
 - If you are using version 4.2, 4.1, or 4.1.x then you need to upgrade to version 4.3.1, 4.3.0, or 4.2.1 (Hotfix 4.2.1.3) before upgrading to version 4.4.0.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.x.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
@@ -32,6 +32,7 @@ For more details, refer to the following procedures:
 -   [Upgrade to version 4.2.1](#upgrade-version-4-2-1)
 -   [Upgrade to version 4.3.0](#upgrade-version-4-3)
 -   [Upgrade to version 4.3.1](#upgrade-version-4-3-1)
+-   [Upgrade to version 4.3.1.5](#upgrade-version-4-3-1-5)
 -   [Upgrade to version 4.4.0](#upgrade-version-4-4-0)
 
 
@@ -47,7 +48,9 @@ Before running the process there are certain tasks that you must complete. The f
 
 >[!NOTE]
 >
-> This Upgrade process is applicable only from version 3.8.5 to version 4.0. For the process to upgrade from version 3.4 or higher to 3.8.5, refer to the *Upgrade Experience Manager Guides* section in the product-specific installation guide available in the [Help Archival Page](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> This Upgrade process is applicable only from version 3.8.5 to version 4.0. For the process to upgrade from version 3.4 or higher to 3.8.5, refer to the *Upgrade Experience Manager Guides* section in the product-specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+
+
 
 ****Prerequisites****
 
@@ -723,6 +726,48 @@ Perform the following steps for post processing the existing content and using t
 
 
 1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
+
+
+
+## Upgrade to version 4.3.1.5 {#upgrade-version-4-3-1-5} 
+
+Upgrading to version 4.3.1.5 depends on the current version of Experience Manager Guides. If you are using version 4.3.1  then you can directly upgrade to version 4.3.1.5.
+
+
+
+## Install version 4.3.1.5
+
+1. Download 4.3.1.5 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Install version 4.3.1.5 package.
+
+1. Wait for the installation process to complete successfully.
+1.  Continue upgrading the customizations as detailed out in the next section.
+
+
+## After you install version 4.3.1.5 
+
+
+>[!NOTE]
+>
+>If you want to use org.apache.velocity bundle, perform the following  steps before uploading the bundle:
+> 1. Go to `<server>:<port>/system/console/bundles`.
+> 1. Search for org.apache.velocity.
+> 1. Uninstall the searched bundle.
+> 1. Install the required velocity bundle.
+
+
+1.  Once the upgrade is complete, ensure any of the customizations/overlays are validated and updated to match the new application code. Some examples are given below:
+    -   Any components overlayed from `/libs/fmdita` or` /libs` should be compared with the new product code and updates should be done in overlayed files under `/apps` .
+    -   Any clientlib categories used from product, should be reviewed for changes. Any overridden configurations \(examples below\) should be compared with the latest ones so as to get the latest features:
+    -   `elementmapping.xml`
+    -   `ui\_config.json\` (may have been set in folder profiles\)
+    -   amended `com.adobe.fmdita.config.ConfigManager`
+
+
+
+
+
+
 
 ## Upgrade to version 4.4.0 {#upgrade-version-4-4-0} 
 
