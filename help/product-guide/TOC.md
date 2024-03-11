@@ -8,9 +8,8 @@ breadcrumb-title: AEM Guides Documentation
 
 - [[!DNL AEM Guides] overview](overview.md)
 - [Disclaimer](./user-guide/rebranding-disclaimer.md)
-- Release Information {#release-info}
-  - Release Notes {#release-notes}
-    - Cloud Services {#cloud-release-notes}
+- Release Notes {#release-notes}
+  - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2024 Releases {#2024-releases}
         - 2024.2.0 Release {#2402-release}
