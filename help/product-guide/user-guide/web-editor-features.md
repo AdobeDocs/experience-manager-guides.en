@@ -244,36 +244,45 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     
 
-**User Preferences** - ![](images/user_preference_editor_icon.svg)
+**User Preferences** - ![user preferences icon](images/user_preference_editor_icon.svg)
 
 The User Preferences are available to all authors. Using the preferences, an author can configure the following settings:
 
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Use device theme**: Select this checkbox to allow AEM Guides automatically switch between light and dark themes based on the theme of your device. 
+- **General**: The General tab allows you to configure the following settings:
 
-- **View files by**: Select the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels in the **Author** view. 
-    >[!NOTE]
-    >
-    > By default, the files are displayed by title in the Web Editor.
+    - **View files by**: Select the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels in the **Author** view. 
+        >[!NOTE]
+        >
+        > By default, the files are displayed by title in the Web Editor.
 
-- **Theme**: You can choose from the Light, Lightest, Dark, or Darkest themes for the editor. In case of Lightest theme, the toolbars and panels use more lighter gray color background. In case of Light theme, the toolbars and panels use light gray color background. In case of Darkest theme, the toolbars and panels use more darker black color background. In case of Dark theme, the toolbars and panels use black color background. In all themes, the content editing area is shown in white color background.
+    - **Theme**: You can choose from the Light or Dark themes for the editor. In case of Light theme, the toolbars and panels use light gray color background. In case of Dark theme, the toolbars and panels use black color background. In all themes, the content editing area is shown in white color background.
 
-- **Folder Profiles**: The Folder Profile controls various configurations related to conditional attributes, authoring templates, output presets and the Web Editor configurations. The Global Profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder Profiles list.
+    - **Folder Profiles**: The Folder Profile controls various configurations related to conditional attributes, authoring templates, output presets and the Web Editor configurations. The Global Profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder Profiles list.
 
-    The Web Editor's configurations that an administrator can define in the folder profile include: customizing user interface including the toolbar icons, Web Editor's layout, snippets, and root map. For more details, see *Configure global or folder-level profiles* in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+        The Web Editor's configurations that an administrator can define in the folder profile include: customizing user interface including the toolbar icons, Web Editor's layout, snippets, and root map. For more details, see *Configure global or folder-level profiles* in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-    >[!NOTE]
-    >
-    > The name of the current Folder Profile is displayed as a label for the User Preferences icon in the main toolbar.
+        >[!NOTE]
+         >
+        > The name of the current Folder Profile is displayed as a label for the User Preferences icon in the main toolbar.
 
-- **Base Path**: By default, when you access the AEM repository from the Web Editor, you are shown assets from the /content/dam location. Your working folder would most likely be a few folders inside the /content/dam/ folder. It would take you a few clicks to reach the working folder every time. You can set the Base Path to your working folder and the Repository View then shows you the content from that location upfront. This reduces the time to access your working folder. Also, when you insert any reference or media file in your topic, the file browse location starts with the folder set in the Base Path.
+    - **Base Path**: By default, when you access the AEM repository from the Web Editor, you are shown assets from the /content/dam location. Your working folder would most likely be a few folders inside the /content/dam/ folder. It would take you a few clicks to reach the working folder every time. You can set the Base Path to your working folder and the Repository View then shows you the content from that location upfront. This reduces the time to access your working folder. Also, when you insert any reference or media file in your topic, the file browse location starts with the folder set in the Base Path.
 
-- **Select Root Map**: Select a DITA map file to resolve key references or glossary entries. The selected root map takes the highest precedence to resolve key references. For more details, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
+    - **Select Root Map**: Select a DITA map file to resolve key references or glossary entries. The selected root map takes the highest precedence to resolve key references. For more details, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
 
->[!NOTE]
-> 
-> If you do not want to use any root map, then ensure that the **Select Root Map** field is blank.
+        >[!NOTE]
+        >    
+        > If you do not want to use any root map, then ensure that the **Select Root Map** field is blank.
+
+    - **Always locate files in the repository**: Select this option to show the location of a file in the repository while editing it in the Web Editor.
+
+- **Theme**: Select the themes for the Web Editor application and the source view of the content editing area.
+
+    
+    - **Application theme**: You can choose from the **Light** or **Dark** themes for the application. In the case of the **Light** theme, the toolbars and panels use a light gray color background. In the case of the **Dark** theme, the toolbars and panels use a black color background. Select **Use device theme** to allow Experience Manager Guides to select the light and dark themes based on the theme of your device.  In all themes, the content editing area is shown in white color background in the **Author** view.
+
+    - **Source view theme**:  -  You can choose from the **Light** or **Dark** themes for the content editing area in source view. In the case of the **Light** theme, the content editing area uses a light gray color background for the source view while in the case of **Dark** theme, it uses a black color background. Select **Use device theme** to allow Experience Manager Guides to select the light and dark themes based on the theme of your device.  
 
 **Author, Source, and Preview modes**
 
@@ -1826,10 +1835,13 @@ The right panel is a persistent panel which contains information about the curre
 
 The right panel gives you access to the following features:
 
-**Content Properties** -  ![](images/content-properties-icon.svg)
+**Content Properties** -  ![content poperties](images/content-properties-icon.svg)
 
-You can access the Content Properties feature by clicking the Content Properties icon in the right panel. The Content Properties panel contains information about the type of currently selected element in the document and its attributes. 
-You can easily add, edit, or delete the attributes.
+You can access the **Content Properties** feature by selecting the **Content Properties** icon in the right panel. The **Content Properties** panel contains information about the type of currently selected element in the document and its attributes. 
+
+**Type**: You can view and select the tags of the complete hierarchy for the current tag from the dropdown.
+
+**Attributes**: You can easily add, edit, or delete the attributes.
 
 1. Click **+ Add**. 
 
