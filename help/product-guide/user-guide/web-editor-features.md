@@ -264,7 +264,7 @@ The User Preferences are available to all authors. Using the preferences, an aut
         The Web Editor's configurations that an administrator can define in the folder profile include: customizing user interface including the toolbar icons, Web Editor's layout, snippets, and root map. For more details, see *Configure global or folder-level profiles* in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
         >[!NOTE]
-         >
+        >
         > The name of the current Folder Profile is displayed as a label for the User Preferences icon in the main toolbar.
 
     - **Base Path**: By default, when you access the AEM repository from the Web Editor, you are shown assets from the /content/dam location. Your working folder would most likely be a few folders inside the /content/dam/ folder. It would take you a few clicks to reach the working folder every time. You can set the Base Path to your working folder and the Repository View then shows you the content from that location upfront. This reduces the time to access your working folder. Also, when you insert any reference or media file in your topic, the file browse location starts with the folder set in the Base Path.
