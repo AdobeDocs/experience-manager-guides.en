@@ -155,13 +155,23 @@ You may see the following options depending on whether the file is locked/unlock
 
 - AEM Guides gives you an out-of-the-box support for inserting MathML equations by integration with [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) application. To insert a MathML equation, click the **Insert Element** icon and type mathml. When you select mathml element from the list, the Insert MathML dialog is displayed:
 
-![](images/insert-mathml-equation.png){width="550" align="left"}
+![insert mathml equation in mathml editor](images/insert-mathml-equation.png){width="550" align="left"}
 
 Using the MathML equation tools, create your equation and click Insert to add it to your document. The equation is inserted with light gray background, as shown below:
 
-![](images/sample-mathml-equation.PNG){width="400" align="left"}
+![sample mathml equation](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 At any time you can update an equation by right-clicking on an existing equation and selecting **Edit MathML** from the context menu.
+
+- **Validation of equations in the MathML editor**
+
+    Experience Guides validates MathML equations when you save a topic containing them.
+    When you insert an equation using the MathML editor, Experience Manager Guides highlights the equation in red if there are any syntax issues. You can correct it before inserting it. If you don't make any changes but select **Insert**, it displays a warning.
+    
+    ![validate mathml equation](images/validate-mathml-equation.png){width="400" align="left"}
+
+    If you insert the MathML equation that contains a syntax error, a validation error occurs when you try to save the topic.
+
 
 **Insert footnotes** 
 
