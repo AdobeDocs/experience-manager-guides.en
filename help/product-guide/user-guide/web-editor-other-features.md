@@ -165,7 +165,7 @@ At any time you can update an equation by right-clicking on an existing equation
 
 - **Validation of equations in the MathML editor**
 
-    Experience Guides validates MathML equations when you save a topic containing them.
+    Experience Manager Guides validates MathML equations when you save a topic containing them.
     When you insert an equation using the MathML editor, Experience Manager Guides highlights the equation in red if there are any syntax issues. You can correct it before inserting it. If you don't make any changes but select **Insert**, it displays a warning.
     
     ![validate mathml equation](images/validate-mathml-equation.png){width="400" align="left"}
