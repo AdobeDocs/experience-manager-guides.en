@@ -153,11 +153,11 @@ You may see the following options depending on whether the file is locked/unlock
 
 **Insert MathML equations** 
 
-- AEM Guides gives you an out-of-the-box support for inserting MathML equations by integration with [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) application. To insert a MathML equation, click the **Insert Element** icon and type mathml. When you select mathml element from the list, the Insert MathML dialog is displayed:
+- Experience Manager Guides gives you an out-of-the-box support for inserting MathML equations by integration with [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) application. To insert a MathML equation, select the **Insert Element** icon and type mathml. When you select mathml element from the list, the **Insert MathML** dialog is displayed:
 
 ![insert mathml equation in mathml editor](images/insert-mathml-equation.png){width="550" align="left"}
 
-Using the MathML equation tools, create your equation and click Insert to add it to your document. The equation is inserted with light gray background, as shown below:
+Using the MathML equation tools, create your equation and click **Insert** to add it to your document. The equation is inserted with light gray background, as shown below:
 
 ![sample mathml equation](images/sample-mathml-equation.PNG){width="400" align="left"}
 
