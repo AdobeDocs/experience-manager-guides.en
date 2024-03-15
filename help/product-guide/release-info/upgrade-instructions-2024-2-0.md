@@ -28,7 +28,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 | Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
 | --- | --- | --- | --- | --- |
-| 2024.2.0|   3.4-uuid 1|   3.4-uuid 1 | 2.3 | 2.3 | 
+| 2024.2.0|   3.5-uuid 1|   3.5-uuid 1 | 2.3 | 2.3 | 
 |  |  |  |  |
 
 
