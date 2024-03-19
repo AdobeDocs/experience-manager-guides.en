@@ -30,19 +30,34 @@ Before performing steps in this procedure, ensure that you have created the requ
 
 ## Create a translation project 
 
-1.  In the Repository panel, open the DITA map file in map view.
-1.  Click the **Manage** tab. The Translation panel displays the **Available Languages** list.
-1.  From the **Available Languages** list, select the locale to which you want to translate your project. You can choose **Select all** to translate your project into all the available languages.
+1.  In the **Repository** panel, open the DITA map file in map view.
+1.  Click the **Manage** tab. The **Translation panel** displays the available language groups.
 
-    >[!NOTE]
-    >
-    > The list contains the language folders along with their language codes. For example, French \(fr\) and German \(de\).
+
+2. As a user, you can view the language groups assigned to your folder profile. The language groups display the language folders along with their language codes. For example, the language group named G1 contains Italian \(it\), German \(de\), French \(fr\), and English \(en\) language folders.
+
+    ![translation panel](images/translation-languages.png){width="300" align="left"}
+
+    *Select the language groups or languages in which you want to translate your documents.* 
+
 
     >[!IMPORTANT]
     >
-    > The list shows only those languages for which a language folder is created parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
+    > You can only select and translate to the languages for which you have created the target folder parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
 
-    ![](images/translation-languages.png){width="300" align="left"}
+    
+
+1. You can select any language group as a target for the translation. If you **Select all**, the selected files are translated into all the available languages within the existing language groups.
+
+    The language folder option appears grayed out and shows a warning sign:
+
+    * If the target folder for a language is missing.
+    * If the target language is the same as the source. 
+If you create the target folder for a language after creating the language group, refresh the browser to enable the language in the language groups.  
+
+1. If you choose a particular language, it appears as selected under all language groups you have selected. So, when you translate to any language, it's translated in one go for all the language groups. For example, if German is present in both G1 and G2 language groups it is selected for both of them. 
+
+1. From the **Other languages** you can choose any language for which you have created the target folder but is not a part of any language groups. 
 
 1.  You can also select one the following options to translate your project:
 

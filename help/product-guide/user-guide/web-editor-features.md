@@ -216,7 +216,18 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
-- **Translation**: This tab contains the option to propagate the source labels to the target version.
+- **Translation**: This tab contains the options to create language groups, propagate the source labels to the target version, and clean up the translation project. 
+
+    **Language Groups**
+    Perform the following steps to create a new language group: 
+    1.	Select the Add ![add icon](images/Add_icon.svg) icon.
+    1.	Enter the language group name. Each language should have a unique name. You can view an error if the name field is empty or if the name isn't unique. 
+    1.	Select the languages from the dropdown. You can type the first few characters of the language, or the language code to filter the desired languages. For example, type ‘en’ to filter all the languages that contain ‘en’ at the beginning of their name or code.
+    1.	Select Done to add the selected languages to the group.
+    The languages are displayed. You can select Show more to view all the languages. 
+    1.	Hover over the languages in a group to edit <icon> or delete <icon> the language groups.
+    1.	Save the Editor settings.
+        As a user, you can view the language groups assigned to your folder profile.
 
     -  **Propagate source version labels to the target version**: Select this option to pass the label of the source file version to the translated file. By default, this is disabled.
 
