@@ -54,9 +54,9 @@ Before performing steps in this procedure, ensure that you have created the requ
     - If the target language is the same as the source. 
 If you create the target folder for a language after creating the language group, refresh the browser to enable the language in the language groups.  
 
-1. If you choose a particular language, it appears as selected under all language groups you have selected. So, when you translate to any language, it's translated in one go for all the language groups. For example, if German is present in both G1 and G2 language groups it is selected for both of them. 
+1. If you choose a particular language, it appears as selected under all language groups you have selected. So, when you translate to any language, it's translated in one go for all the language groups. For example, if German is present in both G1 and G2 language groups, it's selected for both. 
 
-1. From the **Other languages** you can choose any language for which you have created the target folder but is not a part of any language groups. 
+1. From the **Other languages**, you can choose any language for which you have created the target folder but isn't a part of any language groups. 
 
 1.  You can also select one the following options to translate your project:
 
