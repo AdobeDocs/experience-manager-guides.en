@@ -74,7 +74,8 @@ Perform the following steps to create a content snippet using the content snippe
 1. Select a data source to view the content snippet generators available for the selected data source.
 
     ![](images/code-snippet-generator.png){width="300" align="left"}
-*The Data Sources panel lists the available content snippet generators.* 
+    
+    *The Data Sources panel lists the available content snippet generators.* 
 
 1. Select **Add** to add a new content snippet generator. The **Add content snippet generator** panel opens.
 
@@ -95,9 +96,10 @@ The out-of-the-box templates for the selected data source are displayed in the d
 
 1. The **Resource** dropdown appears for some connectors like REST Client, Salsify, Akeneo, and Microsoft ADO.  Select any resource from the dropdown and connect to it to create a content snippet or a topic using the generator for it.  
     
-    >[!NOTE]
-    >
-    > Your administrator can configure default resources or add resources for multiple URLs while configuring the data source connectors. 
+     >[!NOTE]
+     >
+     > Your administrator can configure default resources or add resources for multiple URLs while configuring the data source connectors. 
+
 1. Click **Fetch** to fetch the data from the data source and apply the template on the data that results from the SQL query.
 
 1. You can view the data in the preview or the DITA source view. 
