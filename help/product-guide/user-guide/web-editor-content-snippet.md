@@ -82,7 +82,7 @@ Perform the following steps to create a content snippet using the content snippe
 
     >[!NOTE]
     >
-    >Experience Manager provides different sample queries for all resources in the various data sources. These map to the data source from which you are fetching the data.	 
+    >Experience Manager provides different sample queries for all resources in the various data sources. These map to the data source from which you are fetching the data.
 
 1. Select the template which maps with your data source from the **Data mapping template** dropdown.
 The out-of-the-box templates for the selected data source are displayed in the drop-down. For example, you can view the “sql-table” template for datasource named “PostgreSQL” datasource.
@@ -92,8 +92,10 @@ The out-of-the-box templates for the selected data source are displayed in the d
      > If your administrator has configured customized templates, then you’re also shown those templates in the drop-down list (based on the template path configurations done by your administrator). 
      >   
      >You can also use Velocity tools in the templates. Learn more about how to [use Velocity tools](#use-velocity-tools).
+
 1. The **Resource** dropdown appears for some connectors like REST Client, Salsify, Akeneo, and Microsoft ADO.  Select any resource from the dropdown and connect to it to create a content snippet or a topic using the generator for it.  
-    > [!NOTE]
+    
+    >[!NOTE]
     >
     > Your administrator can configure default resources or add resources for multiple URLs while configuring the data source connectors. 
 1. Click **Fetch** to fetch the data from the data source and apply the template on the data that results from the SQL query. 
