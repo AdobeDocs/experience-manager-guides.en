@@ -11,7 +11,7 @@ A **data source** is a system where you store and manage the data for your organ
 
 ## Data Sources panel
 
-Select **Data Sources** ![](images/data-source-icon.svg) in the left panel to view the connected data sources. The Data Sources panel opens and displays all the connected data sources. 
+Select **Data Sources** ![data source](images/data-source-icon.svg) in the left panel to view the connected data sources. The Data Sources panel opens and displays all the connected data sources. 
 
 Based on your setup your administrator can configure a data source connector:
 
@@ -78,7 +78,12 @@ Perform the following steps to create a content snippet using the content snippe
 
 1. Select **Add** to add a new content snippet generator. The **Add content snippet generator** panel opens.
 
-1. Enter the query in the Data query text box.
+1. Enter the query in the **Data query** text box.  Select **Copy sample query** to quickly copy a data query. Instead of manually creating the query, you can copy and paste the sample query into the **Data query** text box. Then, simply edit the query as per your data requirements. 
+
+    >[!NOTE]
+    >
+    >Experience Manager provides different sample queries for all resources in the various data sources. These map to the data source from which you are fetching the data.	 
+
 1. Select the template which maps with your data source from the **Data mapping template** dropdown.
 The out-of-the-box templates for the selected data source are displayed in the drop-down. For example, you can view the “sql-table” template for datasource named “PostgreSQL” datasource.
 
@@ -87,7 +92,10 @@ The out-of-the-box templates for the selected data source are displayed in the d
      > If your administrator has configured customized templates, then you’re also shown those templates in the drop-down list (based on the template path configurations done by your administrator). 
      >   
      >You can also use Velocity tools in the templates. Learn more about how to [use Velocity tools](#use-velocity-tools).
-
+1. The **Resource** dropdown appears for some connectors like REST Client, Salsify, Akeneo, and Microsoft ADO.  Select any resource from the dropdown and connect to it to create a content snippet or a topic using the generator for it.  
+    > [!NOTE]
+    >
+    > Your administrator can configure default resources or add resources for multiple URLs while configuring the data source connectors. 
 1. Click **Fetch** to fetch the data from the data source and apply the template on the data that results from the SQL query. 
 
 1. You can view the data in the preview or the DITA source view. 

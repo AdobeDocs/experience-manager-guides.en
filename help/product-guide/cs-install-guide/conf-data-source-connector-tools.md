@@ -10,6 +10,8 @@ level: Experienced
 
 Experience Manager Guides comes with the **Data Sources** tool that helps you configure out-of-the-box connectors for data sources. You can set up the JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, ElasticSearch, and Generic REST Client connectors.
 
+Besides these out-of-the-box connectors, Experience Manager Guides also provides the connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. Your administrator can download and install them. They can then configure these connectors. 
+
 To configure a connector, perform the following steps:
 
 1. Select the **Adobe Experience Manager** link at the top and choose Tools. 
@@ -31,14 +33,30 @@ To configure a connector, perform the following steps:
 1. Enter the configuration and connection details as per the database. 
 
     >[!TIP]
+    >
     >* Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the field to view more details about it.
     > * Fields with * are mandatory. For example, you can enter the following details for the ElasticSearch connector.
 
     * **Name**: Enter the name of the data source.
-    * Authentication type: Select the type of authentication from the drop-down. For example, Basic username-password authentication
+    * **Authentication type**: Select the type of authentication from the drop-down. For example, Basic username-password authentication
     * **Username**: Enter your username.
     * **Password**: Enter your username and password. 
     * **URL**: Add the API URL.
+
+        **Connect to multiple resources**: You can add or use multiple resources based on different URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft  Azure DevOps Boards  (ADO). Then, connect with them to create content snippets or topics using the generators for them. 
+        
+        Perform the following steps to create a resource:
+        1. Select ![add icon](assets/Add_icon.svg) in the **URL resource section** to add a resource for each URL. 
+        1. Configure all the details in the **Add resource** dialog box.
+        1. Click **Add**.
+        1. You can edit ![edit icon](assets/edit_pencil_icon.svg) or delete ![delete](assets/Delete_icon.svg) the resource from the URL resource list.
+        
+        1. You can also use the default resources available for data sources like Salsify, Akeneo, and Microsoft ADO. Toggle the options OFF for the resource you don't want to configure for a data source.
+
+        This helps you to quickly fetch data from any of the resources for a particular data source in a single content snippet or topic.
+
+1.  Select the **Exclude factory templates** option to exclude the factory templates from being used for topic and snippet generation. They will not appear under the **Data mapping template** dropdown in the  **Add content snippet generator** or the **Add topic generator** dialog box.
+
 
 1. Select **Test connection**. You can view the **Test Connection** button enabled only after you add the required details. View a success message if the connection details are correct. Otherwise, you might view an error message. 
 
