@@ -232,7 +232,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
     As a user, you can view the language groups assigned to your folder profile.
 
     -  **Propagate source version labels to the target version**: Select this option to pass the label of the source file version to the translated file. By default, this is disabled.
-    - **Translation project cleanup after completion**: Select this option to configure the translation projects to be disabled or deleted automatically after the translation. By default, None is selected, so the project exists after translation.
+    - **Translation project cleanup after completion**: Select this option to configure the translation projects to be disabled or deleted automatically after the translation. By default, **None** is selected, so the project exists after translation.
 
        
 
