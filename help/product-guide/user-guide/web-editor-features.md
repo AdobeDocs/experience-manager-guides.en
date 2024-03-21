@@ -271,8 +271,6 @@ The User Preferences are available to all authors. Using the preferences, an aut
         >
         > By default, the files are displayed by title in the Web Editor.
 
-    - **Theme**: You can choose from the Light or Dark themes for the editor. In case of Light theme, the toolbars and panels use light gray color background. In case of Dark theme, the toolbars and panels use black color background. In all themes, the content editing area is shown in white color background.
-
     - **Folder Profiles**: The Folder Profile controls various configurations related to conditional attributes, authoring templates, output presets and the Web Editor configurations. The Global Profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder Profiles list.
 
         The Web Editor's configurations that an administrator can define in the folder profile include: customizing user interface including the toolbar icons, Web Editor's layout, snippets, and root map. For more details, see *Configure global or folder-level profiles* in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
