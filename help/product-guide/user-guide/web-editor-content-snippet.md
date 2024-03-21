@@ -9,6 +9,8 @@ role: User
 
 A **data source** is a system where you store and manage the data for your organization. These are your systems of record like JIRA, SQL Databases, PIM, or PLM. AEM Guides provides the feature to connect with your data source and use the data from them.
 
+You can also connect to JSON data files using a file connector. Upload the JSON file from your computer or browse it from the Adobe Experience Manager assets. Then, create content snippets or topics using the generators.
+
 ## Data Sources panel
 
 Select **Data Sources** ![data source](images/data-source-icon.svg) in the left panel to view the connected data sources. The Data Sources panel opens and displays all the connected data sources. 
@@ -84,6 +86,12 @@ Perform the following steps to create a content snippet using the content snippe
     >[!NOTE]
     >
     >Experience Manager provides different sample queries for all resources in the various data sources. These map to the data source from which you are fetching the data.
+    
+1. If you use a file connector, you can upload the JSON file from your computer or browse a JSON file from Adobe Experience Manager assets.
+
+    >[!NOTE]
+    >
+    > You will view the options to upload or browse files in place of a data query if you use a file connector.
 
 1. Select the template which maps with your data source from the **Data mapping template** dropdown.
 The out-of-the-box templates for the selected data source are displayed in the drop-down. For example, you can view the “sql-table” template for datasource named “PostgreSQL” datasource.
@@ -173,6 +181,13 @@ Perform the following steps to create a topic using the topic generator:
       *Add the Data Query, Data mapping template, and Root node details for the topic generator and give it a unique name in the Fetch Configuration panel.*     
 
       1. Enter the query in the **Data query** text box.
+
+      1. If you use a file connector, you can upload the JSON file from your computer or browse a JSON file from Adobe Experience Manager assets.
+      
+            >[!NOTE]
+            >
+            > You will view the options to upload or browse files in place of a data query if you use a file connector.
+      
       1. Select the template which maps with your data source from the **Data mapping template** dropdown.
 
             >[!NOTE]

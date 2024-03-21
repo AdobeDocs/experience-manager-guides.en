@@ -10,7 +10,9 @@ level: Experienced
 
 Experience Manager Guides comes with the **Data Sources** tool that helps you configure out-of-the-box connectors for data sources. You can set up the JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, ElasticSearch, and Generic REST Client connectors.
 
-Besides these out-of-the-box connectors, Experience Manager Guides also provides the connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. Your administrator can download and install them. They can then configure these connectors. 
+Besides these out-of-the-box connectors, Experience Manager Guides provides the connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. You can download and install them. The users can then configure these connectors. 
+
+You can also connect to JSON data files using a file connector. Upload the JSON file from your computer or browse it from the Adobe Experience Manager assets. Then, create content snippets or topics using the generators.
 
 To configure a connector, perform the following steps:
 
