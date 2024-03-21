@@ -58,7 +58,9 @@ To configure a connector, perform the following steps:
 
     If the connector is saved successfully, you can view the connected data source on the page. 
 
-**Connect to multiple resources**: You can add or use multiple resources based on different URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft  Azure DevOps Boards  (ADO). Then, connect with them to create content snippets or topics using the generators for them. 
+**Connect to multiple resources**
+
+You can add or use multiple resources based on different URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft  Azure DevOps Boards  (ADO). Then, connect with them to create content snippets or topics using the generators for them. 
         
 Perform the following steps to create a resource:
 
