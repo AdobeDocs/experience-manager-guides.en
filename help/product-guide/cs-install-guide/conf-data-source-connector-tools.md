@@ -45,18 +45,7 @@ To configure a connector, perform the following steps:
     * **Password**: Enter your username and password. 
     * **URL**: Add the API URL.
 
-        **Connect to multiple resources**: You can add or use multiple resources based on different URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft  Azure DevOps Boards  (ADO). Then, connect with them to create content snippets or topics using the generators for them. 
         
-        Perform the following steps to create a resource:
-        1. Select ![add icon](assets/Add_icon.svg) in the **URL resource section** to add a resource for each URL. 
-        1. Configure all the details in the **Add resource** dialog box.
-        1. Click **Add**.
-        1. You can edit ![edit icon](assets/edit_pencil_icon.svg) or delete ![delete](assets/Delete_icon.svg) the resource from the URL resource list.
-        
-        1. You can also use the default resources available for data sources like Salsify, Akeneo, and Microsoft ADO. Toggle the options OFF for the resource you don't want to configure for a data source.
-
-        This helps you to quickly fetch data from any of the resources for a particular data source in a single content snippet or topic.
-
 1.  Select the **Exclude factory templates** option to exclude the factory templates from being used for topic and snippet generation. They will not appear under the **Data mapping template** dropdown in the  **Add content snippet generator** or the **Add topic generator** dialog box.
 
 
@@ -68,6 +57,19 @@ To configure a connector, perform the following steps:
 
 
     If the connector is saved successfully, you can view the connected data source on the page. 
+
+**Connect to multiple resources**: You can add or use multiple resources based on different URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft  Azure DevOps Boards  (ADO). Then, connect with them to create content snippets or topics using the generators for them. 
+        
+Perform the following steps to create a resource:
+
+   1. Select ![add icon](assets/Add_icon.svg) in the **URL resource section** to add a resource for each URL. 
+   1. Configure all the details in the **Add resource** dialog box.
+   1. Click **Add**.
+   1. You can edit ![edit icon](assets/edit_pencil_icon.svg) or delete ![delete](assets/Delete_icon.svg) the resource from the URL resource list.
+        
+   1. You can also use the default resources available for data sources like Salsify, Akeneo, and Microsoft ADO. Toggle the options OFF for the resource you don't want to configure for a data source.
+
+   This helps you to quickly fetch data from any of the resources for a particular data source in a single content snippet or topic.
 
 ## Features available for a connector
 
