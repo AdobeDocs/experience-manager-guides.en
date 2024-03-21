@@ -198,4 +198,18 @@ Click the name of the reference in the dialog to open it in preview mode. You ca
 
 ![](images/translation-in-progress.png){width="550" align="left"}
 
+
+## Automatically delete or disable a completed translation project 
+
+>[!NOTE]
+> 
+>This feature is available for the new translation projects you create using Experience Manager Guides 2404 release or later.  It will not impact any existing projects.
+
+Your administrator can configure the **Translation project cleanup after completion** option under the **Translation** tab in **Editor Settings** to disable or delete the translation projects automatically. 
+
+For effecting document management, Experience Manager Guides provides the ability to delete the translation projects after you have completed the translation. 
+
+You can also disable the translation projects if you want to use them later. Deleting a project deletes all files and folders present in the project. Disabling a project doesn’t delete it but maintains it in the repository. But you can’t update or edit a disabled project.  Deletion or disabling a project will not impact the translation status of any references.
+
+
 **Parent topic:**[Work with the Web Editor](web-editor.md)
