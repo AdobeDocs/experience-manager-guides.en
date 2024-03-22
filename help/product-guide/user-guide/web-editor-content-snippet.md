@@ -180,7 +180,11 @@ Perform the following steps to create a topic using the topic generator:
 
       *Add the Data Query, Data mapping template, and Root node details for the topic generator and give it a unique name in the Fetch Configuration panel.*     
 
-      1. Enter the query in the **Data query** text box.
+      1. Enter the query in the **Data query** text box. Select **Copy sample query** to quickly copy a data query. Instead of manually creating the query, you can copy and paste the sample query into the **Data query** text box. Then, simply edit the query as per your data requirements. 
+
+            >[!NOTE]
+            >
+            >Experience Manager provides different sample queries for all resources in the various data sources. These map to the data source from which you are fetching the data.
 
       1. If you use a file connector, you can upload the JSON file from your computer or browse a JSON file from Adobe Experience Manager assets.
       
