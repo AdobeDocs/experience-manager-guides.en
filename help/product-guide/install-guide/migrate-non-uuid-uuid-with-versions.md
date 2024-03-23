@@ -1,10 +1,10 @@
 ---
 title: Convert non-UUID content with versions to UUID content
 description: Learn how to migrate non-UUID content with versions to UUID content.
-
 feature: Migration
 role: Admin
 level: Experienced
+exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
 ---
 # Migrate versioned content
 
@@ -144,4 +144,3 @@ After migrating the server successfully, enable post-processing, tagging, and th
 
 
 1. After the validation is done, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
-

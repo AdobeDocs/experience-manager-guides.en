@@ -1,8 +1,8 @@
 ---
 title: External Datasource Integration for AEM Guides
 description: Integration of content data sources with AEM Guides .
-
 role: User, Admin
+exl-id: 02a6c2ea-a550-49d5-ae54-1cc24ef35287
 ---
 # External Datasource Integration for AEM Guides: How it works?
 

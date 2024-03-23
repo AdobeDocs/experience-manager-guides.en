@@ -2,8 +2,8 @@
 title: Topbar and Toolbar
 description: Customising topbar and toolbar
 role: User, Admin
+exl-id: 7065c9b8-67ac-4f6d-8124-daa547f2dc3b
 ---
-
 # Customising topbar and toolbar
 
 To customise the `topbar` and `toolbar`, we will be using the ids: `topbar` or `toolbar`, and follow the same view, controller structure.

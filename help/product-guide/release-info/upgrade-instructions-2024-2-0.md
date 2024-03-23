@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, 2024.2.0 release
 description: Learn about the compatibility matrix and how to upgrade to the 2024.2.0 release of Adobe Experience Manager Guides as a Cloud Service.
-
+exl-id: 7aaa4317-eb96-4fff-8a45-b38b9dfc234a
 ---
 # Upgrade instructions for the 2024.2.0 release 
 
@@ -126,6 +126,3 @@ Experience Manager Guides has a [**custom sling rewriter**](../cs-install-guide/
 If you have another custom sling rewriter in your codebase,  use an `'order'` value greater than 50, as Experience Manager Guides sling rewriter uses `'order'` 50.  To override this, you need a value >50. For more details, view [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 During this upgrade, since the `'order'` value is changed from 1000 to 50, you need to merge the existing custom rewriter, if any, with `'fmdita-rewriter'`.
-
-
-

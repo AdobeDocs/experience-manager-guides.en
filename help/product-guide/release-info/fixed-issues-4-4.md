@@ -2,6 +2,7 @@
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides 4.4.0 release
 description: Learn about the bug fixes in the  4.4.0 release of Adobe Experience Manager Guides
 role: Leader
+exl-id: ff3083d3-062b-4a79-875f-86991978a18e
 ---
 # Fixed issues in the 4.4.0 release (January 2024)
 

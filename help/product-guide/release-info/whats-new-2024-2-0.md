@@ -1,6 +1,7 @@
 ---
 title: Release Notes | What's New in the Adobe Experience Manager Guides, 2024.2.0 release
 description: Learn the new and enhanced features in 2024.2.0 release of Adobe Experience Manager Guides as a Cloud Service.
+exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
 ---
 # What's new in the 2024.2.0 release 
 

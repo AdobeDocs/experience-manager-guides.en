@@ -2,8 +2,8 @@
 title: Widgets
 description: Understanding Widgets
 role: User, Admin
+exl-id: 96e960df-d595-4d58-8ad4-27057f857bac
 ---
-
 # Widgets
 
 Multiple basic components, as discussed in the Components section can be combined to make a widget. 

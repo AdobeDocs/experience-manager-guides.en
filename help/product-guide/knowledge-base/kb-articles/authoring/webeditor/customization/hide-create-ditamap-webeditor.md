@@ -1,8 +1,8 @@
 ---
 title: Hide Create DitaMap option from Folder context menu options for specific users or groups.
 description: Learn how to customize webeditor by hiding 'DitaMap' option from folder context menu for specific users/groups
+exl-id: 796bfe3a-3950-4ade-9215-c33534791055
 ---
-
 # Show/Hide 'Create DitaMAP' from folder context menu in webeditor
 
 In this article, we will learn how to customize the Guides Web Editor to hide or show the "Create DitaMap" option in folder context menu on the basis on user/group permissions.

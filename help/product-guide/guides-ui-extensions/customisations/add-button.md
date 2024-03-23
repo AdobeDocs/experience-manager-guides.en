@@ -2,8 +2,8 @@
 title: Simple customisation
 description: Simple customisation example
 role: User, Admin
+exl-id: 7f19f0b0-2a1b-4a8b-b28c-3918a1bc9096
 ---
-
 # Simple customisation example
 
 Let us now how to integrate these customisations in our AEM Guides app.

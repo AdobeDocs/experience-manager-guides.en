@@ -1,8 +1,7 @@
 ---
 title: Translate content in Guides - Part 2
 description: Learn how to translate your content into multiple languages.
-
-
+exl-id: b61d4432-62bf-4fb5-8264-ac50dc93215b
 ---
 # Translating content using AEM Guides - Part 2
 

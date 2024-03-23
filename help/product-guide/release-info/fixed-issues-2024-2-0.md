@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2024.2.0 release
 description: Learn about the bug fixes in the 2024.2.0 release of Adobe Experience Manager Guides as a Cloud Service.
-
+exl-id: fae1ff07-6232-4e9a-a89e-5e760e807b9d
 ---
 # Fixed issues in the 2024.2.0 release 
 
@@ -58,4 +58,3 @@ Adobe has identified the following known issue for the 2024.2.0 release:
 
 - Version 1.0 isn't displayed on the UI for the duplicated DITA file.
 - Propagation of asset metadata does not work for the 2024.2.0 release with microservice enabled for any preset.
-

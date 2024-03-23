@@ -2,6 +2,7 @@
 title: Release Notes | Upgrade instructions for Adobe Experience Manager Guides 4.4.0 release
 description: Learn how to upgrade to  4.4.0 release of Adobe Experience Manager Guides
 role: Leader
+exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
 ---
 # Upgrade instructions for the 4.4.0 release (January 2024)
 
@@ -76,4 +77,3 @@ You can easily upgrade your current version of  Guides to version 4.4.0. Before 
 >You must install AEM service pack before upgrading Experience Manager Guides version.
 
 For details, view [Upgrade instructions for the On-premise releases](../install-guide/upgrade-xml-documentation.md) of Experience Manager Guides.
-

@@ -1,9 +1,9 @@
 ---
-title: Installation and set up 
+title: Installation and set up
 description: Installing and Using the AEM Guides Extension Package
 role: User, Admin
+exl-id: 0304c8d0-35a8-4712-a9af-36557e3b247f
 ---
-
 # Installing and Using the AEM Guides Extension Package
 
 Extensions give you the opportunity to customise your AEM Guides app to better suit your needs. This extension framework is supported with AEM Guides v4.3 onwards (on-prem) and 2310 (cloud).

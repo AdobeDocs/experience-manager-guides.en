@@ -1,9 +1,8 @@
 ---
 title: AI-powered Smart Suggestions to author content
 description: Learn how to view and utilize AI-powered Smart Suggestions in the Web Editor.
+exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
 ---
-
-
 # AI-powered Smart Suggestions to author content
 
 Experience Manager Guides provides the **Smart Suggestions** feature that helps you create consistent and accurate content.  
@@ -72,4 +71,3 @@ Perform the following steps to view the smart suggestions for adding appropriate
 
    
 This intelligent feature is handy and minimizes the effort of manual content searching, allowing you to concentrate more on generating new content. It also facilitates better team collaboration and helps maintain consistency in the content created by various authors.
-

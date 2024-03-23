@@ -2,8 +2,8 @@
 title: Components
 description: Review App Components
 role: User, Admin
+exl-id: 78d626f9-9f96-4748-a268-39fa57aef495
 ---
-
 # Components of the Review App
 
 Following are the major components of the review app:
