@@ -2,8 +2,8 @@
 title: Customising
 description: Customising the review app
 role: User, Admin
+exl-id: 9f6a4e9f-fc13-40b5-a30f-151c94faff81
 ---
-
 # Customising the review app
 
 To ease the customisation of the review app we have provided some hooks listed and explained below:

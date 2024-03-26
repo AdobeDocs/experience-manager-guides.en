@@ -4,6 +4,7 @@ description: Use variables in the PDF output and output templates
 feature: Output Generation
 role: Admin
 level: Experienced
+exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
 ---
 # Variables in the PDF output
 
@@ -218,5 +219,3 @@ Depending on your chosen variable set, you'll get an output corresponding to the
 *Generate the PDF output using variables in the page layout.*
 
 You can also quickly update the values for any variable set whenever required and regenerate the output. For example, if you need to update the details for a version, you can update the value of the version in the VersionNumber variable and regenerate the output.
-
-

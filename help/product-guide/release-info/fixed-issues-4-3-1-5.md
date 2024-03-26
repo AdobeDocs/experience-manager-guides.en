@@ -2,8 +2,8 @@
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides 4.3.1.5 release
 description: Learn about the bug fixes in the  4.3.1.5 release of Adobe Experience Manager Guides
 role: Leader
+exl-id: 082dca28-15da-417c-b511-74eb5ac68078
 ---
-
 # Fixed issues in the 4.3.1.5 release 
 
 
@@ -28,4 +28,3 @@ Learn about [upgrade instructions for the 4.3.1.5 release](../release-info/upgra
 ## Management
 
 - **fmditaTopicrefs** property shows relative paths instead of absolute paths. (15341)
-

@@ -2,6 +2,7 @@
 title: Jui Framework
 description: Understanding Jui Framework
 role: User, Admin
+exl-id: c193cf90-5916-4d8c-88f1-be5014beca1c
 ---
 # Jui Framework
 

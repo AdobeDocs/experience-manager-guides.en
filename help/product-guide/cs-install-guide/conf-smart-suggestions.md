@@ -1,6 +1,7 @@
 ---
 title: Configure the smart suggestions for authoring
 description: Learn how to configure the smart suggestions for authoring
+exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
 ---
 # Configure the AI-powered smart suggestions for authoring
 

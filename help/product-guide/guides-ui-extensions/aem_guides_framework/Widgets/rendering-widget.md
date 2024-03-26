@@ -2,6 +2,7 @@
 title: Rendering widgets
 description: How rendering works in JUI Widgets
 role: User, Admin
+exl-id: 381cc7b9-c957-40be-9db4-8347eefe2fa7
 ---
 # Rendering widgets
 

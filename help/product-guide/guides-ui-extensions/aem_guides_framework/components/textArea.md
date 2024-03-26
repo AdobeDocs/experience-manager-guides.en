@@ -2,6 +2,7 @@
 title: Textarea
 description: Textarea
 role: User, Admin
+exl-id: 4c576acc-fa6a-4c41-9b92-443ba51dc8ee
 ---
 # Text Field and Text Area
 

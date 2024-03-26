@@ -2,8 +2,8 @@
 title: Button
 description: Button
 role: User, Admin
+exl-id: 40e3f254-f94e-4f43-8ff5-2e6e1eb1cb6f
 ---
-
 # Button
 
 To display a button we use the component, button.

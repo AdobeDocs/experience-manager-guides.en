@@ -2,6 +2,7 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 4.4.0 release
 description: Learn about the new and enhanced features in 4.4.0 release of Adobe Experience Manager Guides
 role: Leader
+exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
 ---
 # What's new in the 4.4.0 release (January 2024)
 
@@ -264,35 +265,4 @@ For more details, view the [Advanced PDF Settings](../native-pdf/components-pdf-
 ### Improved resource management for Native PDF templates 
 
 Experience Manager Guides now has improved the resource management for Native PDF templates. You can now share and reuse resources, like images, CSS files, and font files, across multiple Native PDF templates. With this improvement, managing the resources for a large set of templates is much simpler. You don't need to create duplicate resources for each template, and you can keep them in a shared folder and use them in all Native PDF templates.
-For more details, view [PDF Template](../native-pdf/pdf-template.md). 
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+For more details, view [PDF Template](../native-pdf/pdf-template.md).
