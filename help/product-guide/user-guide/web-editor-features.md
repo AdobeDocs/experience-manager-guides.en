@@ -286,7 +286,7 @@ The User Preferences are available to all authors. Using the preferences, an aut
 
 - **Appearance**: Select the themes for the Web Editor application and the source view of the content editing area.
     
-    ![appearance tab of user preferences](images/user_preference_editor-appearance.PNG){width="550" align="left"}
+    ![appearance tab of user preferences](images/user_preference_editor_appearance.PNG){width="550" align="left"}
 
     - **View files by**: Select the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels in the **Author** view. 
         >[!NOTE]
