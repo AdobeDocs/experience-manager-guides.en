@@ -48,4 +48,9 @@ The Web Editor comes with a range of editing features that let you easily create
     ![](images/version-update-indicator.png){width="550" align="left"}
 
 
+
+    **Focus on an open file in the Repository View**
+
+   While you edit a topic, Experience Manager Guides provides the feature to focus on the topic in the Repository View. You can turn off the focus on the open topic with the **Always locate files in repository** option from the **Appearance** tab of the **User preferences**. 
+
 **Parent topic:**[Work with the Web Editor](web-editor.md)
