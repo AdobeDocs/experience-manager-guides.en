@@ -262,14 +262,11 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
 The User Preferences are available to all authors. Using the preferences, an author can configure the following settings:
 
-![](images/user_preference_editor.PNG){width="550" align="left"}
+
 
 - **General**: The General tab allows you to configure the following settings:
 
-    - **View files by**: Select the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels in the **Author** view. 
-        >[!NOTE]
-        >
-        > By default, the files are displayed by title in the Web Editor.
+    ![General tab of user preferences](images/user_preference_editor.PNG){width="550" align="left"}
 
     - **Folder Profiles**: The Folder Profile controls various configurations related to conditional attributes, authoring templates, output presets and the Web Editor configurations. The Global Profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder Profiles list.
 
@@ -287,14 +284,22 @@ The User Preferences are available to all authors. Using the preferences, an aut
         >    
         > If you do not want to use any root map, then ensure that the **Select Root Map** field is blank.
 
-    - **Always locate files in the repository**: Select this option to show the location of a file in the repository while editing it in the Web Editor.
+- **Appearance**: Select the themes for the Web Editor application and the source view of the content editing area.
+    
+    ![appearance tab of user preferences](images/user_preference_editor-appearance.PNG){width="550" align="left"}
 
-- **Theme**: Select the themes for the Web Editor application and the source view of the content editing area.
-
+    - **View files by**: Select the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels in the **Author** view. 
+        >[!NOTE]
+        >
+        > By default, the files are displayed by title in the Web Editor.
     
     - **Application theme**: You can choose from the **Light** or **Dark** themes for the application. In the case of the **Light** theme, the toolbars and panels use a light gray color background. In the case of the **Dark** theme, the toolbars and panels use a black color background. Select **Use device theme** to allow Experience Manager Guides to select the light and dark themes based on the theme of your device.  In all themes, the content editing area is shown in white color background in the **Author** view.
 
     - **Source view theme**:  -  You can choose from the **Light** or **Dark** themes for the content editing area in source view. In the case of the **Light** theme, the content editing area uses a light gray color background for the source view while in the case of **Dark** theme, it uses a black color background. Select **Use device theme** to allow Experience Manager Guides to select the light and dark themes based on the theme of your device.  
+    
+    - **Always locate files in the repository**: Select this option to show the location of a file in the repository while editing it in the Web Editor.
+
+    - **Show non-breaking space indicator in the author mode**: Select this option to show an indicator for the non-breaking spaces while editing it in the Web Editor. It's enabled by default.
 
 **Author, Source, and Preview modes**
 
