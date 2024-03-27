@@ -209,11 +209,11 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
 
 **White space handling for DITA elements**
 
-In XML, white space includes spaces, tabs, and blank lines (excluding hard returns). Experience Manager Guides converts multiple consequent white spaces into one space. This helps you preserve the WYSIWYG view of the Web Editor. 
+- In XML, white space includes spaces, tabs, and blank lines (excluding hard returns). Experience Manager Guides converts multiple consequent white spaces into one space. This helps you preserve the WYSIWYG view of the Web Editor. 
 
->[!NOTE]
->
->In some elements where white spaces need to be preserved according to the DITA rules, the multiple consequent white spaces are retained. For example, `<pre>` and `<codeblock>` elements. 
+    >[!NOTE]
+    >
+    >In some elements where white spaces need to be preserved according to the DITA rules, the multiple consequent white spaces are retained. For example, `<pre>` and `<codeblock>` elements. 
 
 
 **Preserving line breaks and indentation** 
@@ -223,11 +223,12 @@ In XML, white space includes spaces, tabs, and blank lines (excluding hard retur
 ![](images/new-line-support_cs.png){width="500" align="left"}
 
 
+
 **Handling non-breaking spaces in Web Editor** 
 
-You can insert non-breaking spaces in your document using the **Insert Special Characters**  ![insert special characters icon](images/insert-special-chars-icon.svg) icon or the **Alt** + **Space** shortcut keys.  These non-breaking spaces appear as an indicator while you edit a topic in the Web Editor. You can turn off the display of the non-breaking spaces with the **Show non-breaking space indicator in the author mode** option from the **Appearance** tab of the **User preferences** ![User preferences icon](images/user_preference_editor_icon.svg).. 
+- You can insert non-breaking spaces in your document using the **Insert Special Characters**  ![insert special characters icon](images/insert-special-chars-icon.svg) icon or the **Alt** + **Space** shortcut keys.  These non-breaking spaces appear as an indicator while you edit a topic in the Web Editor. You can turn off the display of the non-breaking spaces with the **Show non-breaking space indicator in the author mode** option from the **Appearance** tab of the **User preferences** ![User preferences icon](images/user_preference_editor_icon.svg).. 
 
-If you copy and paste content with a non-breaking space from any external sources into the **Author** view, the non-breaking space is converted into a space. 
+- If you copy and paste content with a non-breaking space from any external sources into the **Author** view, the non-breaking space is converted into a space. 
 However, if you copy and paste content with a non-breaking space from the **Author** view, it's preserved.
 
 
