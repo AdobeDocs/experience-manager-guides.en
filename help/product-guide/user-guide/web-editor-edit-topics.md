@@ -29,28 +29,34 @@ The Web Editor comes with a range of editing features that let you easily create
     >
     > If you do not wish to commit changes into AEM repository, click **Close**, and then click **Close Without Saving** in the Unsaved Changes dialog.
 
-    **Refresh browser while editing the files**
-    Experience Manager Guides provides the support to refresh the browser while you edit your content in the Web Editor. This feature helps you continue editing content in case you encounter an application error while working. If you hit the browser refresh while one or more files with unsaved changes are opened for editing, you are warned that the unsaved changes may be lost. You are given an option to cancel the refresh operation and save your files to preserve your changes.
+## Refresh browser while editing the files
 
-    Even on refreshing the browser, the views of the left and the right panel are retained in the Web Editor. Experience Manager Guides restores the last saved state of the files opened in the Web Editor when you refresh the browser. For example, the files opened in the Repository panel are opened again. The map panel is retained along with the previously opened map.
+Experience Manager Guides provides the support to refresh the browser while you edit your content in the Web Editor. This feature helps you continue editing content in case you encounter an application error while working. If you hit the browser refresh while one or more files with unsaved changes are opened for editing, you are warned that the unsaved changes may be lost. You are given an option to cancel the refresh operation and save your files to preserve your changes.
 
-    The active topic or DITA map is reopened in the content editing area.
+Even on refreshing the browser, the views of the left and the right panel are retained in the Web Editor. Experience Manager Guides restores the last saved state of the files opened in the Web Editor when you refresh the browser. For example, the files opened in the Repository panel are opened again. The map panel is retained along with the previously opened map.
 
-    The right panel is also reopened and displays the same view as before the refresh.
+The active topic or DITA map is reopened in the content editing area.
 
-    **Working copy indicator**
-    AEM Guides provides the working copy indicator which shows whether the current \(working copy\) of file is in sync with the saved version or not. If you have made any changes to your current copy and have not saved your file, a \* mark appears along with the title on the topic's file tab. This indicator acts as a reminder to save your changes and disappears when you save your file.
+The right panel is also reopened and displays the same view as before the refresh.
 
-    ![](images/working-copy-text-update-indicator.png){width="550" align="left"}
+## Working copy indicator
 
-    AEM Guides also indicates if the last saved \(working\) copy of the file is in sync with the saved version or not. If you have some unsaved changes between the working copy and the last saved version, a \* mark appears along with the version information shown in the right top corner of the topic's file tab. This indicator acts as a reminder to save and create a version from your current \(working\) copy of the file.
+AEM Guides provides the working copy indicator which shows whether the current \(working copy\) of file is in sync with the saved version or not. If you have made any changes to your current copy and have not saved your file, a \* mark appears along with the title on the topic's file tab. This indicator acts as a reminder to save your changes and disappears when you save your file.
 
-    ![](images/version-update-indicator.png){width="550" align="left"}
+![working copy indicator](images/working-copy-text-update-indicator.png){width="550" align="left"}
+
+AEM Guides also indicates if the last saved \(working\) copy of the file is in sync with the saved version or not. If you have some unsaved changes between the working copy and the last saved version, a \* mark appears along with the version information shown in the right top corner of the topic's file tab. This indicator acts as a reminder to save and create a version from your current \(working\) copy of the file.
+
+![Version update indicator](images/version-update-indicator.png){width="550" align="left"}
 
 
 
-    **Focus on an open file in the Repository View**
 
-   While you edit a topic, Experience Manager Guides provides the feature to focus on the topic in the Repository View. You can turn off the focus on the open topic with the **Always locate files in repository** option from the **Appearance** tab of the **User preferences**. 
+## Locate an open file in the Repository View
+
+While you open a file in the Web Editor, Experience Manager Guides provides the feature to locate the file in the Repository View. For example, it locates the current topic while you are editing it. 
+   
+You can turn off the feature to locate the file with the **Always locate files in repository** option from the **Appearance** tab of the **User preferences**. 
+
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
