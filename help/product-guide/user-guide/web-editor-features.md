@@ -890,7 +890,7 @@ The Web Editor provides enhanced filters for searching text. You can search for 
 
 ![](images/repository-filter-search.png){width="300" align="left"}
 
-*Apply filters to search for the files containing the text “general purpose.”* 
+*Apply filters to search for the files containing the text `general purpose.`* 
 
  Select the **Filter Search** \(![Search filter icon](images/filter-search-icon.svg)\)icon to open the Filter by pop-up. 
 
@@ -916,7 +916,7 @@ You can view the following options under the **General** and **Advanced** tabs.
 
 **General**
 
-- **Search results will be as follows**:  Search for some text in the files present on the selected path of the Adobe Experience Manager repository. This is in sync with the search box on the repository window. For example, if you have searched for "general purpose" in the search box on the repository panel,  it will also appear in the **Advanced filter** dialog box and vice versa.
+- **Search results will be as follows**:  Search for some text in the files present on the selected path of the Adobe Experience Manager repository. This is in sync with the search box on the repository window. For example, if you type `general purpose` in the search box on the repository panel,  it also appears in the **Advanced filter** dialog box and vice versa.
 
 - **Search in**: Select the path where you want to search the files present in the Adobe Experience Manager repository. 
 
@@ -938,7 +938,7 @@ You can view the following options under the **General** and **Advanced** tabs.
     >
     >Your system administrator can also configure the text filters and show or hide other filters. For more details see *Configure text filters* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-The list of filtered files that contain the searched text is displayed. For example, the files containing the text "general purpose" are listed in the previous screenshot. You can select multiple files from the filtered list to drag and drop them into a map opened for editing.
+The list of filtered files that contain the searched text is displayed. For example, the files containing the text `general purpose` are listed in the previous screenshot. You can select multiple files from the filtered list to drag and drop them into a map opened for editing.
 
 **Options menu**
 

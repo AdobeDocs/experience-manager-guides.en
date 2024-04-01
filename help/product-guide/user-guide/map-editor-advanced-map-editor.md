@@ -334,7 +334,13 @@ To edit topics through a DITA map, perform the following steps:
 
         You can choose to save all selected topics or deselect the topics that you do not want to save.
 
-    -   You can check in the topic using the **Save As New Version and Unlock** button. When you save a revision of the topic, a new revision is created and the lock is also release.
+    -   You can check in the topic using the **Save As New Version and Unlock** button. When you save a version of the topic, a new version is created and the lock is also released.
+
+        It's recommended to save your changes before checking in the files.  When you save the changes, the XML file is validated.
+
+    - You can also select and check in multiple topics using the **Save As New Version and Unlock** button. When you save a version of the topics, a new version is created for each topic, and the lock is also released. 
+    A success message is shown when the files are checked in. 
+
     -   If your administrator has enabled the option of checking in files on close, then you will be shown a prompt to save files whenever the checked out files are closed. With this option enabled, when you close the editor with changed files, you are shown the list of checked-out files that need to be saved. The checked out files are shown with a lock icon:
 
         ![](images/save-on-close.PNG){width="550" align="left"}
