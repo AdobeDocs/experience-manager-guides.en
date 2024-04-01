@@ -885,22 +885,60 @@ speed, or view picture in picture.
 
 **Filter Search**
 
-The Web Editor provides enhanced filters for searching text. Click the Filter Search \(![](images/filter-search-icon.svg)\)icon to open the filters panel. You can search for a text in the files present on the selected path of the AEM repository. For example, 'general purpose' is searched in the below given screenshot.
+The Web Editor provides enhanced filters for searching text. You can search for a text in the files present on the selected path of the Adobe Experience Manager repository. 
 
-![](images/repository-filter-search.png){width="400" align="left"}
 
-You also have the following options to filter the files and to narrow down your search in the AEM repository:
+![](images/repository-filter-search.png){width="300" align="left"}
 
-- **DITA Files**: You can look for all **DITA Topics** and **DITA Maps** present on the selected path.
-- **Non-DITA Files**: You can search for **Image Files**, **Multimedia**, and **Documents** in the selected path.
-- **DITA Elements**: You can also search for specific values in the attributes of the specified DITA elements.
-- **Checked Out By**: You can look for files which are checked out by the specified user.
-- **Last Modified**: You can look for files that have been last modified after a selected date but before a selected date. You can also look for files that have been last modified in the last 2 hours, last week, last month, or last year.
-- **Tags**: You can look for files that have specific tags applied on them. You can either type the tag or select it from the dropdown list.
+*Apply filters to search for the files containing the text “general purpose.”* 
 
-**Note:** Your system administrator can also configure the text filters and show or hide other filters. For more details see *Configure text filters* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+ Select the **Filter Search** \(![Search filter icon](images/filter-search-icon.svg)\)icon to open the Filter by pop-up. 
 
-The list of filtered files which contain the searched text is displayed. For example, in the above screenshot the files containing the text 'general purpose' are listed. You can select multiple files from the filtered list to drag and drop them in a map opened for editing.
+>[!NOTE]
+>
+> When you search any text or filter any files, a blue dot appears on the **Filter Search**  \(![Search filter icon](images/filter-search-icon.svg)\) icon to indicate that we are on the search panel and that some filters have been applied.
+
+You have the following options to filter the files and to narrow down your search in the Adobe Experience Manager repository:
+
+- **DITA Files**: You can look for all **DITA Topics** and **DITA Maps** present on the selected path. These are selected by default.
+- **Non-DITA Files**: You can search for **Ditaval Files**,  **Image Files**, **Multimedia**, **Documents**, and **Json** in the selected path.
+
+
+
+**Advanced Filtering**
+
+Select the **Advanced Filtering** ![advanced filter icon](images/advanced-filter-gear-icon.svg)icon to view the **Advanced filter** dialog box. 
+
+You can view the following options under the **General** and **Advanced** tabs.  
+
+![advanced filter dialog box](images/repository-filter-search-advanced.png) {width="800" align="left"}
+
+
+**General**
+
+- **Search results will be as follows**:  Search for some text in the files present on the selected path of the Adobe Experience Manager repository. This is in sync with the search box on the repository window. For example, if you have searched for "general purpose" in the search box on the repository panel,  it will also appear in the **Advanced filter** dialog box and vice versa.
+
+- **Search in**: Select the path where you want to search the files present in the Adobe Experience Manager repository. 
+
+- **Checked Out By**: You can look for files the specified user checks out.
+- **Last Modified**: You can look for files that have been last modified after a selected date but before a selected date. 
+- **Modified before**: You can look for files that have been last modified before a selected date.
+- **Time frame**: You can also look for files that have been last modified in the last 2 hours, last week, last month, or last year.
+- **Tags**: You can look for files that have specific tags applied to them. You can either type the tag or select it from the dropdown list.
+
+**Advanced**
+
+- **DITA Elements**: You can also search for specific values in the attributes of the specified DITA elements. 
+    - Select **Add element** ![add icon](images/Add_icon.svg) to add the elements, attributes, and values.  
+    - Apply the filters that you have selected. 
+
+- Select **Clear all** from the to clear all the applied filters. 
+
+    >[!NOTE]
+    >
+    >Your system administrator can also configure the text filters and show or hide other filters. For more details see *Configure text filters* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+
+The list of filtered files that contain the searched text is displayed. For example, the files containing the text "general purpose" are listed in the previous screenshot. You can select multiple files from the filtered list to drag and drop them into a map opened for editing.
 
 **Options menu**
 
@@ -917,7 +955,7 @@ You can perform the following actions using the Options menu available for a *fo
 
 
 
-- **Upload Assets**: Upload a file from your local system to the selected folder in AEM repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
+- **Upload Assets**: Upload a file from your local system to the selected folder in Adobe Experience Manager repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
 
     ![](images/upload-assets.png){width="550" align="left"}
 
