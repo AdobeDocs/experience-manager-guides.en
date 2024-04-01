@@ -923,7 +923,7 @@ You can view the following options under the **General** and **Advanced** tabs.
 - **Checked Out By**: You can look for files the specified user checks out.
 - **Last Modified**: You can look for files that have been last modified after a selected date but before a selected date. 
 - **Modified before**: You can look for files that have been last modified before a selected date.
-- **Time frame**: You can also look for files that have been last modified in the last 2 hours, last week, last month, or last year.
+- **Time frame**: You can also look for files that have been last modified in the last two hours, last week, last month, or last year.
 - **Tags**: You can look for files that have specific tags applied to them. You can either type the tag or select it from the dropdown list.
 
 **Advanced**
