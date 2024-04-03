@@ -1,7 +1,7 @@
 ---
 title: TOC (Table of Contents) publishing using NativePDF
 description: Publishing TOC and other booklist for your dita bookmap using NativePDF 
-feature: Native PDF Publishing
+feature: Native PDF Output
 author : Pulkit Nagpal(punagpal)
 role: User, Admin 
 ---
