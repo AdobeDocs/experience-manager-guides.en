@@ -7,7 +7,7 @@ role: User, Admin
 ---
 # Generate Bookmap's TOC in PDF publishing 
 
-## Setup your Bookmap
+## Set-up your Bookmap
 
 Include the `<toc>`  element:
 Within your bookmap's `<frontmatter>`element, locate the `<booklists>` element.  Nest a `<toc>` element inside `<booklists>` like this:
@@ -38,7 +38,7 @@ DITA specification allows placing the TOC and booklists  within the `<backmatter
 
 The TOC and booklists are automatically generated based on the structure defined in your bookmap.
 
-Once your bookmap is set up, use  Native PDF to generate the PDF output. It will process the bookmap structure and references, including the TOC and booklists.
+Once your bookmap is set up, use  Native PDF to generate the PDF output. It processes the bookmap structure and references, including the TOC and booklists.
 
 ## TOC design and its order in PDF
 
@@ -46,7 +46,7 @@ Native PDF functionality provides a convenient method for tailoring the layout a
 
 You can control design via seprate page-layout for TOC and styles via layout.css. 
 
-TOC and other Booklists order in PDF will be based on bookmap's structure only.
+TOC and other Booklists order in PDF are based on bookmap's structure only.
 
 ![toc](../assets/publishing/toc.png)
 
@@ -57,7 +57,7 @@ TOC and other Booklists order in PDF will be based on bookmap's structure only.
 
 Ditamaps themselves don't directly have  a table of contents (TOC) like a bookmap does. However, ditamaps play a crucial role in defining the structure for your content and indirectly contribute to the TOC generation process.
 
-If you are publishing Ditamap then Native PDF gives functionality to generate TOC and booklist automatically , You can enable/disable generation of TOC at ditamap from Native PDF settings.
+If you are publishing Ditamap, then Native PDF gives functionality to generate TOC and booklist automatically , You can enable/disable generation of TOC at ditamap from Native PDF settings.
 
 ![Enable Disable TOC](../assets/publishing/pageorder.png)
 
@@ -69,6 +69,6 @@ If you are publishing Ditamap then Native PDF gives functionality to generate TO
 <br>
 <br>
 
- Post your question on the AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) for any queries.
+ Post your questions on the AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) for any queries.
 
  
