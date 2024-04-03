@@ -10,7 +10,8 @@ role: User, Admin
 ## Setup your Bookmap
 
 Include the `<toc>`  element:
-Within your bookmap's `<frontmatter>`element, locate the `<booklists>` element.  Nest a <toc> element inside `<booklists>` like this:
+Within your bookmap's `<frontmatter>`element, locate the `<booklists>` element.  Nest a `<toc>` element inside `<booklists>` like this:
+
 ```
 <frontmatter>
   <booklists>
@@ -32,7 +33,8 @@ DITA specification allows placing the TOC and booklists  within the `<backmatter
       <indexlist/>
     </booklists>
   </backmatter>
-  ```
+
+```
 
 The TOC and booklists are automatically generated based on the structure defined in your bookmap.
 
@@ -50,6 +52,7 @@ TOC and other Booklists order in PDF will be based on bookmap's structure only.
 
 
 ## FAQ
+
 - ### How to Include a Ditamap's TOC in a PDF
 
 Ditamaps themselves don't directly have  a table of contents (TOC) like a bookmap does. However, ditamaps play a crucial role in defining the structure for your content and indirectly contribute to the TOC generation process.
