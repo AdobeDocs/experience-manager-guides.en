@@ -1,9 +1,10 @@
 ---
 title: TOC (Table of Contents) publishing using NativePDF
-description: Publishing TOC and other booklist for your dita bookmap using NativePDF 
+description: Publishing TOC and other booklist for your dita bookmap using NativePDF
 feature: Native PDF Output
-author : Pulkit Nagpal(punagpal)
-role: User, Admin 
+author: Pulkit Nagpal(punagpal)
+role: User, Admin
+exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
 ---
 # Generate Bookmap's TOC in PDF publishing 
 
@@ -70,5 +71,3 @@ If you are publishing Ditamap, then Native PDF gives functionality to generate T
 <br>
 
  Post your questions on the AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) for any queries.
-
- 
