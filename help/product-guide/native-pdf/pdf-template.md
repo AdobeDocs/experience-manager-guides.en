@@ -23,7 +23,7 @@ You can create custom PDF templates with specific page layouts and define format
 To create a new PDF template, perform the following steps:
 
 1. In the Web Editor, go to the **Output** tab.
-1. Select **Templates** <img src="./assets/template.svg" alt= "templates icon" width="25"> in the left panel.
+1. Select **Templates** ![templates icon](./assets/template.svg) in the left panel.
 
    <img src="assets/create-pdf-template.png" alt="Create PDF template" width="400">
 
