@@ -33,7 +33,7 @@ curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UT
 
  `activationTarget`
 
-***Valid values**
+**Valid values**
     
 `preview` or `publish` for Cloud Service and `publish` for On-Premise Software
 
