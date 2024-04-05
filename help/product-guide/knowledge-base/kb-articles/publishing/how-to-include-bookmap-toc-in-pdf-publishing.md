@@ -39,9 +39,10 @@ DITA specification allows placing the TOC and booklists  within the `<backmatter
 
 ```
 
-Sample structure of bookmap with TOC , figure-list and table-list in frontmatter and index-list in backmatter 
+Sample structure of bookmap with TOC , figure-list and table-list in frontmatter and index-list in backmatter. 
 
 ```
+
 <bookmap>
   <title>My Bookmap Title </title>
   <frontmatter>
@@ -62,6 +63,7 @@ Sample structure of bookmap with TOC , figure-list and table-list in frontmatter
     </booklists>
   </backmatter>
 </bookmap>
+
 ```
 
 The TOC and booklists are automatically generated based on the structure defined in your bookmap.
