@@ -1,7 +1,8 @@
+---
 title: DITA content re-use in AEM Guides
 description: This brief article tells how AEM Guides and DITA help you save time and effort when using content re-usability 
 role: User, Admin
-
+---
 # Content re-usability in AEM Guides 
 
 Adobe AEM Guides leverages DITA's strengths to provide a user-friendly interface for content reuse.
@@ -155,3 +156,4 @@ Make sure you have opened the root map/parent map in map-view which has a key de
 
 
 Post on the AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) for any queries.
+
