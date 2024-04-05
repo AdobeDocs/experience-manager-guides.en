@@ -1,11 +1,11 @@
 ---
-title: DITA content re-use in AEM Guides
+title: DITA content reuse in AEM Guides
 description: This brief article tells how AEM Guides and DITA help you save time and effort when using content re-usability 
 role: User, Admin
 ---
 # Content re-usability in AEM Guides 
 
-Adobe AEM Guides leverages DITA's strengths to provide a user-friendly interface for content reuse.
+Adobe AEM Guides leverage DITA's strengths to provide a user-friendly interface for content reuse.
 
 ## Reusability using topic references(topicref)
 
@@ -54,9 +54,9 @@ The content reference (conref) attribute allows you to link to other parts of yo
 
 For example:
 
-Let's suppose you are a financial enterprise and have a generic topic for KYC which contains KYC procedures for individuals, corporates, etc.
+Let's suppose you are a financial enterprise and have a generic topic for KYC which contains KYC procedures for individuals, corporate, and so forth.
 
-You want to utilize KYC for individuals in your "Saving account" and "Demat account" topics.
+You want to reuse individual KYC fragment for your "Saving account" and "Demat account" topics.
 
 ```
 <section id="kyc_requirements_saving_account">
@@ -69,16 +69,16 @@ You want to utilize KYC for individuals in your "Saving account" and "Demat acco
 
 Here `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita is the file identifier and #individual_kyc is the fragment identifier.
 
-Kyc_procedure.dita will continue to be the only single source of information. If there are any changes to the KYC process as required by regulations, you simply need to update one topic, and those changes will be automatically reflected in all topics that are referring to it. 
+Kyc_procedure.dita continues to be the only single source of information. If there are any changes to the KYC process as required by regulations, you simply need to update one topic, and those changes are automatically reflected in all topics that are referring to it. 
 
-Using AEM Guides, Its 2 click 
+Using AEM Guides, Its two click 
 
-Step 1: Click on Insert Reusable content 
+Step 1: Click Insert Reusable content 
 ![toolbar](../../assets/publishing/content-reusability_image1.png)
 
 <br>
 
-Step 2: Select your file and fragment which needs to be re-used.
+Step 2: Select your file and fragment which needs to be reused.
 ![conref](../../assets/publishing/content-reusability_image2.png)
 
 Similar to "conref", you can use "conkeyref" as well where instead of giving a content path, you can refer content via keys.
@@ -90,7 +90,7 @@ Code example :
 
 ```
 
-The key definition  will look like this :
+The key definition looks like this :
 
 ```
 <map id="ABC_manual">
@@ -115,20 +115,20 @@ Key - "Kyc_procedure" will continue to be the only single source of information.
 
 ```
 
-Here we changed the topic path from "kyc_procedure_2020.dita" to "kyc_procedure_2024.dita" due to recent regulation changes.
+Here  the topic path is changed from "kyc_procedure_2020.dita" to "kyc_procedure_2024.dita" due to recent regulation changes.
 
-Using AEM Guides, Its 2 click
+Using AEM Guides, Its two click
 
-Step 1: Click on Insert Reusable content 
+Step 1: Click Insert Reusable content 
 ![toolbar](../../assets/publishing/content-reusability_image1.png)
 
-Step 2: Select your root map (optional), key, and fragment that needs to be re-used.
+Step 2: Select your root map (optional), key, and fragment that needs to be reused.
 ![conkeyref](../../assets/publishing/content-reusability_image3.png)
 
 Here root map was auto-selected since it was already open in the map view 
 
 
-### Re-use content with a single click in AEM Guides 
+### Reuse content with a single click in AEM Guides 
 
 AEM Guides offers a "Reusable contents" capability to add content references at a single click.
 
@@ -136,7 +136,7 @@ Step 1: Add a generic topic to Reusable contents
 
 ![Add Reusable content](../../assets/publishing/content-reusability_image4.png)
 
-Step 2: Once added, Drag and drop the fragment that you want to re-use in any of your destination topic 
+Step 2: Once added, Drag, and drop the fragment that you want to reuse in in any of your destination topics.
 
 ![Add Reusable content gif](../../assets/publishing/content-reusability_image5.gif)
 
@@ -146,7 +146,7 @@ Step 2: Once added, Drag and drop the fragment that you want to re-use in any of
 
 - ### All content is not showing up after selection of file/key in the Reuse content dialog
 
-You need to assign IDs to fragments (Dita elements ) that you would like to re-use in other topics 
+You need to assign IDs to fragments (Dita elements ) that you would like to reuse in other topics 
 
 - ## Keys are not showing up in Reuse content dialog
 
