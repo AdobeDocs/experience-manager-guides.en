@@ -1638,7 +1638,7 @@ For example, use the following enumeration to restrict the `@platform` attribute
 </details>
 
 
-**Attributes drop-down**
+**Attributes** drop-down
 
 You can also change the value of the subject scheme using the **Attributes** dropdown from the **Content Properties** panel in the **Author** view. 
     ![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
@@ -1896,7 +1896,7 @@ You can access the **Content Properties** feature by selecting the **Content Pro
 
 **Type**: You can view and select the tags of the complete hierarchy for the current tag from the dropdown.
 
-**Attributes**: You can easily add, edit, or delete the attributes.
+**Attributes**: The **Attributes** dropdown panel is available in Layout, Author, and Source views. You can easily add, edit, or delete the attributes.
 
 1. Click **+ Add**. 
 
