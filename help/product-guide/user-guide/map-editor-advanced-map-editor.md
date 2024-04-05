@@ -338,8 +338,7 @@ To edit topics through a DITA map, perform the following steps:
 
         It's recommended to save your changes before checking in the files.  When you save the changes, the XML file is validated.
 
-    - You can also select and check in multiple topics using the **Save As New Version and Unlock** button. When you save a version of the topics, a new version is created for each topic, and the lock is also released. 
-    A success message is shown when the files are checked in. 
+    - You can also select and check in multiple topics using the **Save As New Version and Unlock** button. When you save a version of the topics, a new version is created for each topic, and the lock is also released. A success message is shown when the files are checked in. 
 
     -   If your administrator has enabled the option of checking in files on close, then you will be shown a prompt to save files whenever the checked out files are closed. With this option enabled, when you close the editor with changed files, you are shown the list of checked-out files that need to be saved. The checked out files are shown with a lock icon:
 
