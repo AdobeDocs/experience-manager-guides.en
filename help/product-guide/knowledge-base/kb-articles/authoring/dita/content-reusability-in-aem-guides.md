@@ -1,0 +1,157 @@
+title: DITA content re-use in AEM Guides
+description: This brief article tells how AEM Guides and DITA help you save time and effort when using content re-usability 
+role: User, Admin
+
+# Content re-usability in AEM Guides 
+
+Adobe AEM Guides leverages DITA's strengths to provide a user-friendly interface for content reuse.
+
+## Reusability using topic references(topicref)
+
+
+
+Let's suppose you are a Manufacturing company and have generic topics for safety precautions or troubleshooting techniques.
+
+These can be referenced and adapted in specific user manuals for each machine model, reducing redundancy and ensuring core safety information remains consistent.
+
+```
+<map id="user_manual_model 100" title="ABC Model 100 User Manual ">
+
+
+<topicref href="Safety_Information.dita" format="dita">
+</topicref>
+.
+.
+.
+.
+.
+</map>
+
+```
+
+
+Similarlary for Model 200
+
+```
+<map id="user_manual_model 200" title="ABC Model 200 User Manual ">
+
+
+<topicref href="Safety_Information.dita" format="dita">
+</topicref>
+.
+.
+.
+.
+.
+  
+</map>
+
+```
+## Reusability using content reference (conref & conkeyref)
+
+The content reference (conref) attribute allows you to link to other parts of your content. This promotes reusability and reduces redundancy.
+
+For example:
+
+Let's suppose you are a financial enterprise and have a generic topic for KYC which contains KYC procedures for individuals, corporates, etc.
+
+You want to utilize KYC for individuals in your "Saving account" and "Demat account" topics.
+
+```
+<section id="kyc_requirements_saving_account">
+  <title>Know Your Customer (KYC) Requirements</title>
+  <p>To comply with regulations and ensure customer identification, all individual applicants for savings  accounts must fulfill the KYC requirements as outlined below</p>
+  <p conref=kyc_procedures.dita#individual_kyc></p>
+</section>
+
+```
+
+Here `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita is the file identifier and #individual_kyc is the fragment identifier.
+
+Kyc_procedure.dita will continue to be the only single source of information. If there are any changes to the KYC process as required by regulations, you simply need to update one topic, and those changes will be automatically reflected in all topics that are referring to it. 
+
+Using AEM Guides, Its 2 click 
+
+Step 1: Click on Insert Reusable content 
+![toolbar](../../assets/publishing/content-reusability_image1.png)
+
+<br>
+
+Step 2: Select your file and fragment which needs to be re-used.
+![conref](../../assets/publishing/content-reusability_image2.png)
+
+Similar to "conref", you can use "conkeyref" as well where instead of giving a content path, you can refer content via keys.
+
+Code example :
+
+```
+<section conkeyref="kyc_procedure/individual_kyc_procedure" id="individual_kyc_procedure"></section>
+
+```
+
+The key definition  will look like this :
+
+```
+<map id="ABC_manual">
+  <title>ABC_Manual</title>
+  <topicref href="kyc_procedure_2020.dita" keys="kyc_procedure" processing-role="resource-only" type="concept">
+  </topicref>
+  <topicref href="savings_account.dita" type="concept">
+  </topicref>
+</map>
+```
+
+Key - "Kyc_procedure" will continue to be the only single source of information. If there are any changes to the KYC process as required by regulations, you simply need to update one topic path with a new topic path, and those changes will be automatically reflected in all topics that are referring to it. 
+
+```
+<map id="ABC_manual">
+  <title>ABC_Manual</title>
+  <topicref href="kyc_procedure_2024.dita" keys="kyc_procedure" processing-role="resource-only" type="concept">
+  </topicref>
+  <topicref href="savings_account.dita" type="concept">
+  </topicref>
+</map>
+
+```
+Here we changed the topic path from "kyc_procedure_2020.dita" to "kyc_procedure_2024.dita" due to recent regulation changes.
+
+Using AEM Guides, Its 2 click
+
+Step 1: Click on Insert Reusable content 
+![toolbar](../../assets/publishing/content-reusability_image1.png)
+
+Step 2: Select your root map (optional), key, and fragment that needs to be re-used.
+![conkeyref](../../assets/publishing/content-reusability_image3.png)
+
+Here root map was auto-selected since it was already open in the map view 
+
+
+### Re-use content with a single click in AEM Guides 
+
+AEM Guides offers a "Reusable contents" capability to add content references at a single click.
+
+Step 1: Add a generic topic to Reusable contents 
+
+![Add Reusable content](../../assets/publishing/content-reusability_image4.png)
+
+Step 2: Once added, Drag and drop the fragment that you want to re-use in any of your destination topic 
+
+![Add Reusable content gif](../../assets/publishing/content-reusability_image5.gif)
+
+    
+
+## FAQ
+
+- ### All content is not showing up after selection of file/key in the Reuse content dialog
+
+You need to assign IDs to fragments (Dita elements ) that you would like to re-use in other topics 
+
+- ## Keys are not showing up in Reuse content dialog
+
+Make sure you have opened the root map/parent map in map-view which has a key definition or add the root map path manually in the same dialog.
+
+
+<br>
+
+
+Post on the AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) for any queries.

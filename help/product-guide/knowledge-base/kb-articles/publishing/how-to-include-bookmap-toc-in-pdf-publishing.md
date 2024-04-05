@@ -13,6 +13,7 @@ Include the `<toc>`  element:
 Within your bookmap's `<frontmatter>`element, locate the `<booklists>` element.  Nest a `<toc>` element inside `<booklists>` like this:
 
 ```
+
 <frontmatter>
   <booklists>
     <toc/>  <figurelist/>
@@ -26,6 +27,7 @@ DITA specification allows placing the TOC and booklists  within the `<backmatter
 
 
 ```
+
 <backmatter>
     <booklists>
       <toc/>
@@ -34,6 +36,29 @@ DITA specification allows placing the TOC and booklists  within the `<backmatter
     </booklists>
   </backmatter>
 
+```
+Sample structure of bookmap with TOC , figure-list and table-list in frontmatter and index-list in backmatter 
+```
+<bookmap>
+  <title>My Bookmap Title </title>
+  <frontmatter>
+    <booklists>
+      <toc/>
+      <figurelist/>
+      <tablelist/>
+    </booklists>
+  </frontmatter>
+
+  <chapter href="chapter1.ditamap">
+  <chapter href="chapter2.ditamap">
+  </chapter>
+
+  <backmatter>
+    <booklists>
+      <indexlist/>
+    </booklists>
+  </backmatter>
+</bookmap>
 ```
 
 The TOC and booklists are automatically generated based on the structure defined in your bookmap.
@@ -69,6 +94,6 @@ If you are publishing Ditamap, then Native PDF gives functionality to generate T
 <br>
 <br>
 
- Post your questions on the AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) for any queries.
+ Post on the AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) for any queries.
 
  
