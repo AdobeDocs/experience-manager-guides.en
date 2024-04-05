@@ -31,11 +31,10 @@ These can be referenced and adapted in specific user manuals for each machine mo
 ```
 
 
-Similarlary for Model 200
+Similarly for Model 200
 
 ```
 <map id="user_manual_model 200" title="ABC Model 200 User Manual ">
-
 
 <topicref href="Safety_Information.dita" format="dita">
 </topicref>
@@ -48,6 +47,7 @@ Similarlary for Model 200
 </map>
 
 ```
+
 ## Reusability using content reference (conref & conkeyref)
 
 The content reference (conref) attribute allows you to link to other parts of your content. This promotes reusability and reduces redundancy.
@@ -114,6 +114,7 @@ Key - "Kyc_procedure" will continue to be the only single source of information.
 </map>
 
 ```
+
 Here we changed the topic path from "kyc_procedure_2020.dita" to "kyc_procedure_2024.dita" due to recent regulation changes.
 
 Using AEM Guides, Its 2 click
