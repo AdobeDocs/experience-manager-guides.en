@@ -7,6 +7,12 @@ role: User, Admin
 
 Adobe AEM Guides leverage DITA's strengths to provide a user-friendly interface for content reuse.
 
+In this Article we would talk about :
+
+1. Re-usability using topic reference (`topicrefs`)
+2. Re-usability using content reference (`conref` and `conkeyref`)
+3. Bonus tip to re-use content with drag and drop in AEM Guides 
+
 ## Reusability using topic references(topicref)
 
 
@@ -128,7 +134,7 @@ Step 2: Select your root map (optional), key, and fragment that needs to be reus
 Here root map was auto-selected since it was already open in the map view 
 
 
-### Reuse content with a single click in AEM Guides 
+## Reuse content with a single click in AEM Guides 
 
 AEM Guides offers a "Reusable contents" capability to add content references at a single click.
 
