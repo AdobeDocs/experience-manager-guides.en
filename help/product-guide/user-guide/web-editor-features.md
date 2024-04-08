@@ -311,7 +311,19 @@ The secondary toolbar appears when you open a topic for editing in the Web Edito
 
 **Insert Element** - ![](images/Add_icon.svg)
 
-Inserts a valid element at the current or next valid location. You can also use the keyboard shortcut ***Alt***+***Enter*** to open the Insert Element pop-up. For example, you are editing a paragraph, then in the **Insert Element** pop-up, a list of elements appears that can be inserted in the paragraph. Select the element that you want to insert. You can use the keyboard to scroll through the list of elements and press ***Enter*** to insert the required element. You can also type a character or string in the search box and search for the elements that begin with it.
+Inserts a valid element at the current or next valid location. You can also use the keyboard shortcut ***Alt***+***Enter*** to open the Insert Element pop-up. For example, you are editing a paragraph, then in the **Insert Element** pop-up, a list of elements appears that can be inserted in the paragraph. Select the element that you want to insert. You can use the keyboard to scroll through the list of elements and press ***Enter*** to insert the required element. 
+
+You can view two types of valid elements: 
+
+- **Valid elements at the current location**: The list displays the elements that you can insert at the current cursor location itself.  
+
+- **Valid elements outside the current location**: The list displays the elements that you can insert after any of the parents for the current element within the element hierarchy.   
+
+ 
+
+For example, if you are within the inline `<b>` element, you can insert elements like `<u>`, `<xref>`, `<i>` at the current location. In contrast, you can insert elements like `<table>` and `<topic>` outside the current location. 
+
+You can also type a character or string in the search box and search for the elements that begin with it.
 
  
 ![insert element](images/insert-element.png){width="300" align="left"}
