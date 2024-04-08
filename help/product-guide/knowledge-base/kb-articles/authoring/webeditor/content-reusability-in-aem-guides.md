@@ -1,7 +1,8 @@
 ---
 title: DITA content reuse in AEM Guides
-description: This brief article tells how AEM Guides and DITA help you save time and effort when using content re-usability 
+description: This brief article tells how AEM Guides and DITA help you save time and effort when using content re-usability
 role: User, Admin
+exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
 ---
 # Content re-usability in AEM Guides 
 
@@ -163,4 +164,3 @@ Make sure you have opened the root map/parent map in map-view which has a key de
 
 
 Post on the AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) for any queries.
-
