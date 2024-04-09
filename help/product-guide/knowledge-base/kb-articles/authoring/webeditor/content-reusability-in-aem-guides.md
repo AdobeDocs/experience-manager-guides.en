@@ -10,9 +10,9 @@ Adobe AEM Guides leverage DITA's strengths to provide a user-friendly interface 
 
 In this Article we would talk about :
 
-1. Re-usability using topic reference (`topicrefs`)
-2. Re-usability using content reference (`conref` and `conkeyref`)
-3. Bonus tip to re-use content with drag and drop in AEM Guides 
+1. [Re-usability using topic reference (`topicrefs`)](#reusability-using-topic-referencestopicref)
+2. [Re-usability using content reference (`conref` and `conkeyref`)](#reusability-using-content-reference-conref--conkeyref)
+3. [Bonus tip to re-use content with drag and drop in AEM Guides](#reuse-content-with-a-single-click-in-aem-guides)
 
 ## Reusability using topic references(topicref)
 
