@@ -1,18 +1,18 @@
 ---
 title: DITA content reuse in AEM Guides
-description: This brief article tells how AEM Guides and DITA help you save time and effort when using content re-usability
+description: This brief article tells how AEM Guides and DITA help you save time and effort when using content reusability
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
 ---
-# Content re-usability in AEM Guides 
+# Content reusability in AEM Guides 
 
 Adobe AEM Guides leverage DITA's strengths to provide a user-friendly interface for content reuse.
 
 In this Article we would talk about :
 
-1. [Re-usability using topic reference (`topicrefs`)](#reusability-using-topic-referencestopicref)
-2. [Re-usability using content reference (`conref` and `conkeyref`)](#reusability-using-content-reference-conref--conkeyref)
-3. [Bonus tip to re-use content with drag and drop in AEM Guides](#reuse-content-with-a-single-click-in-aem-guides)
+1. [Reusability using topic reference (`topicrefs`)](#reusability-using-topic-referencestopicref)
+2. [Reusability using content reference (`conref` and `conkeyref`)](#reusability-using-content-reference-conref--conkeyref)
+3. [Bonus tip to reuse content with drag and drop in AEM Guides](#reuse-content-with-a-single-click-in-aem-guides)
 
 ## Reusability using topic references(topicref)
 
@@ -78,7 +78,7 @@ Here `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita is the file 
 
 Kyc_procedure.dita continues to be the only single source of information. If there are any changes to the KYC process as required by regulations, you simply need to update one topic, and those changes are automatically reflected in all topics that are referring to it. 
 
-Using AEM Guides, Its two click 
+Using AEM Guides, Its two clicks
 
 Step 1: Click Insert Reusable content 
 ![toolbar](../../assets/publishing/content-reusability_image1.png)
@@ -124,7 +124,7 @@ Key - "Kyc_procedure" will continue to be the only single source of information.
 
 Here  the topic path is changed from "kyc_procedure_2020.dita" to "kyc_procedure_2024.dita" due to recent regulation changes.
 
-Using AEM Guides, Its two click
+Using AEM Guides, Its two clicks
 
 Step 1: Click Insert Reusable content 
 ![toolbar](../../assets/publishing/content-reusability_image1.png)
@@ -143,7 +143,7 @@ Step 1: Add a generic topic to Reusable contents
 
 ![Add Reusable content](../../assets/publishing/content-reusability_image4.png)
 
-Step 2: Once added, Drag, and drop the fragment that you want to reuse in in any of your destination topics.
+Step 2: Once added, Drag, and drop the fragment that you want to reuse in any of your destination topics.
 
 ![Add Reusable content gif](../../assets/publishing/content-reusability_image5.gif)
 
@@ -153,7 +153,7 @@ Step 2: Once added, Drag, and drop the fragment that you want to reuse in in any
 
 - ### All content is not showing up after selection of file/key in the Reuse content dialog
 
-You need to assign IDs to fragments (Dita elements ) that you would like to reuse in other topics 
+You must assign IDs to fragments (Dita elements ) that you would like to reuse in other topics 
 
 - ## Keys are not showing up in Reuse content dialog
 
