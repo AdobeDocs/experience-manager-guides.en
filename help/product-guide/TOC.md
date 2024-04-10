@@ -311,6 +311,7 @@ breadcrumb-title: AEM Guides Documentation
     - Work with custom DITA-OT and specialization {#custom-dita-ot-spec-cs}
       - [Use custom DITA-OT and DITA specialization](./cs-install-guide/dita-ot-specialization.md)
     - Configure UUID and non-UUID based filenames {#conf-non-uuid-filename-cs}
+      - [Configure post processing for a folder](./cs-install-guide/conf-folder-post-processing.md)
       - [Configure filenames](./cs-install-guide/conf-file-names.md)
       - [Configure auto-filenames based on UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
       - [Configure Regx for valid file name characters](./cs-install-guide/conf-file-names-valid-regx.md)
