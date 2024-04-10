@@ -15,12 +15,12 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|	`ignored.post.processing.paths`| String value to set any standard NODE_OPTIONS (multivalued property, strings with path which omit `/` at the end) <br> **Default Value**: `/content/dam/projects/translation_output`|
+|`com.adobe.fmdita.config.ConfigManager`| `ignored.post.processing.paths`| String value to set any standard NODE_OPTIONS (multivalued property, strings with path which omit `/` at the end) <br> **Default Value**: `/content/dam/projects/translation_output`|
 
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager`|	`enabled.post.processing.paths`|	String value to set any standard NODE_OPTIONS (multivalued property, strings with path which omit `/` at the end) <br> **Default Value**: `/content/dam` |
+| `com.adobe.fmdita.config.ConfigManager`| `enabled.post.processing.paths`|	String value to set any standard NODE_OPTIONS (multivalued property, strings with path which omit `/` at the end) <br> **Default Value**: `/content/dam` |
 
 
 ## Order of precedence 
