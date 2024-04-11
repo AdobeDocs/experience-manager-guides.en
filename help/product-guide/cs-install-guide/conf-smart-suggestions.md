@@ -50,10 +50,10 @@ Perform the following steps to add IMS configuration to the environment:
 1. Switch to the **Environments** tab.
 1. Select the environment name which you want to configure. This should navigate you to the **Environment Information** page.
 1. Switch to the **Configuration** tab.
-1.	Update the SERVICE_ACCOUNT_DETAILS JSON field.
-   >![NOTE]
-    >
-    >Ensure you are using the same name and configuration as given in the following screenshot.
+1. Update the SERVICE_ACCOUNT_DETAILS JSON field.
+  >![NOTE]
+  >
+  >Ensure you are using the same name and configuration as given in the following screenshot.
 
   ![ims service account configuration](assets/ims-service-account-config.png){width="800" align="left"}
  

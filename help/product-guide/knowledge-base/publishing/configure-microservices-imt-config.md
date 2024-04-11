@@ -1,5 +1,5 @@
 ---
-title: Configure Microservice-based publishing with OAuth Authentication  for AEM Guides as a Cloud Service
+title: Configure Microservice-based publishing with OAuth Authentication for AEM Guides as a Cloud Service
 description: Learn how to configure microservice-based publishing with OAuth authentication for AEM Guides.
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
@@ -15,7 +15,7 @@ For each publishing request, Experience Manager Guides as a Cloud Service runs a
 >
 > Microservice-based publishing in Experience Manager Guides supports PDF (both Native and DITA-OT based), HTML5, JSON, and CUSTOM types of output presets.
 
-As the cloud publishing service is secured by Adobe IMS OAuth-based authentication, perform the following steps to integrate their environments with Adobe's secure token-based authentication workflows and start using the  cloud-based scalable publishing solution.
+As the cloud publishing service is secured by Adobe IMS OAuth-based authentication, perform the following steps to integrate their environments with Adobe's secure token-based authentication workflows and start using the cloud-based scalable publishing solution.
 
 
 
@@ -37,29 +37,42 @@ Perform the following steps to create IMS configurations in **Adobe Developer Co
 
     <img src="assets/projects-tab.png" alt="projects tab" width=500>
 
+    *Select the **Projects** tab on the **Adobe Developer Console***
+
 1. To create a new empty project, select **Empty project** from the **Create new project** dropdown.
 
     <img src="assets/create-new-project.png" alt="create new project" width=500> 
 
-1. Select **API** from the **Add to Project** dropdown to add IO Management API to your project.
+    *Create a new empty project.*
+
+1. Select **API** from the **Add to Project** dropdown to add the IO Management API to your project.
 
     <img src="assets/add-project.png" alt="add project" width=300> 
+    
+    *Select the option to create an API project from the dropdown.*
 
     <img src="assets/io-management-api.png" alt="io management" width=500>
+
+    *Select **I/O Management API**.*
 
 1. Create a new OAuth credential and save it.
 
     <img src="assets/microservice-api-oauth.png" alt="generate key pair" width=500> 
 
+    *Configure an OAuth server-to-server credential.*
 
  
 1. Return to the **Projects** tab and select **Project overview** on the left. 
 
     <img src="assets/project-overview.png" alt="project overview" width=500> 
+    
+    *Get started on the new project.*
 
-1. Click the **Download** button on  the top to download the service JSON.
+1. Click the **Download** button on the top to download the service JSON.
 
     <img src="assets/download-json.png" alt="download json" width=500> 
+
+    *Download the JSON service details.*
 
 You have configured the OAuth authentication details and downloaded the JSON service details. Keep this file handy as it's required in the next section.
 
@@ -72,17 +85,17 @@ You have configured the OAuth authentication details and downloaded the JSON ser
 
 ### Update existing configuration
 
-If you are already using microservice for publishing using JWT (deprecated), perform the following steps to update the configurations:
+If you are already using a microservice for publishing using JWT (deprecated), perform the following steps to update the configurations:
 
 
 
-1. Open **Experience Manager** and select the program containing the environment you want to configure.
+1. Open **Experience Manager** and select the program containing the environment that you want to configure.
 1. Switch to the **Environments** tab.
 1. Select the name of the environment that you want to configure. This should navigate you to the **Environment Information** page.
 1. Switch to the **Configuration** tab.
 
-1.	Update the SERVICE_ACCOUNT_DETAILS JSON field with the  new OAuth JSON file you downloaded.
-1.	Delete the PRIVATE_KEY field.
+1. Update the SERVICE_ACCOUNT_DETAILS JSON field with the new OAuth JSON file that you downloaded.
+1. Delete the PRIVATE_KEY field.
 
 
 
@@ -90,15 +103,15 @@ If you are already using microservice for publishing using JWT (deprecated), per
 
     *Update the existing JWT environment configurations.*
 
-### First time configuration
+### First-time configuration
 
-To use publishing microservice for the first time, update the configurations according to the following steps: 
+To use a publishing microservice for the first time, update the configurations according to the following steps: 
 1. Open **Experience Manager** and select the program containing the environment you want to configure.
 1. Switch to the **Environments** tab.
 1. Select the name of the environment that you want to configure. This should navigate you to the **Environment Information** page.
 1. Switch to the **Configuration** tab.
 
-1.	Update the SERVICE_ACCOUNT_DETAILS JSON field. 
+1. Update the SERVICE_ACCOUNT_DETAILS JSON field. 
 
     >![NOTE]
     >
@@ -113,11 +126,11 @@ To use publishing microservice for the first time, update the configurations acc
 
 >[!NOTE]
 >
-> Skip the following steps if you are already using  microservice-based publishing:
+> Skip the following steps if you are already using microservice-based publishing:
 
 Once you have added the IMS configuration to the environment, perform the following steps to link these properties with Experience Manager Guides using OSGi: 
 
-1. In your cloud manager Git project code, add the following two files (For file contents, see [Appendix](#appendix)).
+1. In your cloud manager Git project code, add the following two files (for file contents, view [Appendix](#appendix)).
 
     * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
     * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
@@ -125,7 +138,7 @@ Once you have added the IMS configuration to the environment, perform the follow
 1. Commit and push your Git changes.
 1. Run the pipeline to apply the changes to the environment.
 
-Once this is done, you can use the  microservice-based cloud publishing.
+Once this is done, you can use the microservice-based cloud publishing.
 
 ## FAQs
 
