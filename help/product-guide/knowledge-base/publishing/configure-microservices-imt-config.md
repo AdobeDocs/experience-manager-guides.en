@@ -27,8 +27,8 @@ As the cloud publishing service is secured by Adobe IMS OAuth-based authenticati
 Perform the following steps to create IMS configurations in **Adobe Developer Console**:
 
 >![TIP]
-> 
->If you have already created an OAuth project to configure the AI-powered smart suggestions for authoring, you can skip the following steps to create the project.
+>
+> If you have already created an OAuth project to configure the AI-powered smart suggestions for authoring, you can skip the following steps to create the project.
 
 1. Open **Developer Console**: `https://developer.adobe.com/console`.
 
