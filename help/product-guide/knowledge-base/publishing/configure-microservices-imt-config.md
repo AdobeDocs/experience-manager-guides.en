@@ -48,17 +48,17 @@ Perform the following steps to create IMS configurations in **Adobe Developer Co
 
     <img src="assets/add-project.png" alt="add project" width=300> 
     
-    *Select the option to create an API project from the dropdown.*
+    *Select an API project from the dropdown.*
 
     <img src="assets/io-management-api.png" alt="io management" width=500>
 
-    *Select **I/O Management API**.*
+    *Add I/O Management API to your project.*
 
 1. Create a new OAuth credential and save it.
 
     <img src="assets/microservice-api-oauth.png" alt="generate key pair" width=500> 
 
-    *Configure an OAuth server-to-server credential.*
+    *Configure OAuth credential to your API.*
 
  
 1. Return to the **Projects** tab and select **Project overview** on the left. 
