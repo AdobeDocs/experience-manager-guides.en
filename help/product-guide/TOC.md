@@ -433,6 +433,8 @@ breadcrumb-title: AEM Guides Documentation
       - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
       - [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md)
+      - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
+
       - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
     - Workflows {#workflows}

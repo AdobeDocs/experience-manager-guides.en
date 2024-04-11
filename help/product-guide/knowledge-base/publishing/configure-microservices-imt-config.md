@@ -1,11 +1,11 @@
 ---
-title: Configure OAuth IMS to use microservice-based publishing for AEM Guides as a Cloud Service
-description: Learn how to COAuth IMS to use microservice-based publishing for AEM Guides.
+title: Configure Microservice-based publishing with OAuth Authentication  for AEM Guides as a Cloud Service
+description: Learn how to configure microservice-based publishing with OAuth authentication for AEM Guides.
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
 ---
-# Configure OAuth IMS to use microservice-based publishing 
+# Configure microservice-based publishing with OAuth authentication
 
 The publishing microservice allows you to run large publishing workloads concurrently on Experience Manager Guides as a Cloud Service and take advantage of the industry-leading Adobe I/O Runtime serverless platform.
 
@@ -15,7 +15,7 @@ For each publishing request, Experience Manager Guides as a Cloud Service runs a
 >
 > Microservice-based publishing in Experience Manager Guides supports PDF (both Native and DITA-OT based), HTML5, JSON, and CUSTOM types of output presets.
 
-As the cloud publishing service is secured by Adobe IMS JWT-based authentication, perform the following steps to integrate their environments with Adobe's secure token-based authentication workflows and start using the  cloud-based scalable publishing solution.
+As the cloud publishing service is secured by Adobe IMS OAuth-based authentication, perform the following steps to integrate their environments with Adobe's secure token-based authentication workflows and start using the  cloud-based scalable publishing solution.
 
 
 
@@ -26,6 +26,10 @@ As the cloud publishing service is secured by Adobe IMS JWT-based authentication
 **Role required to create the configurations**: System Administrator
 
 Perform the following steps to create IMS configurations in **Adobe Developer Console**:
+
+>![TIP]
+> 
+>If you have already created an OAuth project to configure the AI-powered smart suggestions for authoring, you can skip the following steps to create the project.
 
 1. Open **Developer Console**: `https://developer.adobe.com/console`.
 
