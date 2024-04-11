@@ -10,6 +10,11 @@ As an administrator, you can configure the Smart Suggestions feature for the aut
 ## Create IMS configurations in Adobe Developer Console
 
 Perform the following steps to create IMS configurations in Adobe Developer Console:
+
+>![TIP]
+> 
+>If you have already created an OAuth project to configure the microservice-based publishing, you can skip the following steps to create the project.
+
 1. Launch [Adobe Developer Console](https://developer.adobe.com/console). 
 1. After successfully logging in to Developer Console, you'll view the **Home** screen. The **Home** screen is where you can easily find information and quick links, including top-navigation links to Projects and Downloads.
 1. To create a new empty project, select  **Create new project** from the  **Quick start** links.
@@ -43,10 +48,16 @@ Perform the following steps to add IMS configuration to the environment:
 
 1. Open Experience Manager and then select your program  which contains the environment  you want to configure.
 1. Switch to the **Environments** tab.
-1. Select the environment name which you want to configure. This should navigate you to the Environment Information page.
+1. Select the environment name which you want to configure. This should navigate you to the **Environment Information** page.
 1. Switch to the **Configuration** tab.
-1. Add the CLIENT_ID and CLIENT_SECRET keys as shown in  the following screenshot. Make sure you are using the same names and configuration as highlighted below.
-![Environment configuration](assets/conf-ss-environment.png) {width="800" align="left"}
+1.	Update the SERVICE_ACCOUNT_DETAILS JSON field.
+   >![NOTE]
+    >
+    >Ensure you are using the same name and configuration as given in the following screenshot.
+
+  ![ims service account configuration](assets/ims-service-account-config.png){width="800" align="left"}
+ 
+
 *Add the environment configuration details.*
 
 
