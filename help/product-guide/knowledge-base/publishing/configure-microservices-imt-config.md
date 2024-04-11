@@ -26,9 +26,9 @@ As the cloud publishing service is secured by Adobe IMS OAuth-based authenticati
 
 Perform the following steps to create IMS configurations in **Adobe Developer Console**:
 
->![TIP]
+>[!NOTE]
 >
-> If you have already created an OAuth project to configure the AI-powered smart suggestions for authoring, you can skip the following steps to create the project.
+>If you have already created an OAuth project to configure the AI-powered smart suggestions for authoring, you can skip the following steps to create the project.
 
 1. Open **Developer Console**: `https://developer.adobe.com/console`.
 
@@ -110,11 +110,8 @@ To use a publishing microservice for the first time, update the configurations a
 1. Select the name of the environment that you want to configure. This should navigate you to the **Environment Information** page.
 1. Switch to the **Configuration** tab.
 
-1. Update the SERVICE_ACCOUNT_DETAILS JSON field. 
+1. Update the SERVICE_ACCOUNT_DETAILS JSON field. Ensure you are using the same name and configuration as given in the following screenshot.
 
-    >![NOTE]
-    >
-    >Ensure you are using the same name and configuration as given in the following screenshot.
 
 <img src="assets/jws-service-account-config.png" alt="ims service account configuration" width=500>
 
