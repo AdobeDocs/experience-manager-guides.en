@@ -219,21 +219,29 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 - **Translation**: This tab contains the options to create language groups, propagate the source labels to the target version, and clean up the translation project. 
      ![](images/editor-setting-translation.png){width="550" align="left"}
 
-    - **Language Groups**: As an administrator, you can create and mantain language groups which contain the folders for different languages and their locales.
-    
+    - **Language Groups**: As an administrator, you can  you can create a group of languages and use them as a set to translate the content.    
         Perform the following steps to create a new language group: 
         1. Select the Add ![add icon](images/Add_icon.svg) icon.
         1. Enter the language group name. Each language should have a unique name. You can view an error if the name field is empty or if the name isn't unique. 
-        1. Select the languages from the dropdown. You can type the first few characters of the language, or the language code to filter the desired languages. For example, type ‘en’ to filter all the languages that contain ‘en’ at the beginning of their name or code.
-        1. Select **Done** to add the selected languages to the group. The languages are displayed. You can select **Show more** to view all the languages. 
+        1. Select the languages from the dropdown. You can select multiple languages.
+        
+        Type the first few characters of the language, or the language code to filter the desired languages. For example, type ‘en’ to filter all the languages that contain ‘en’ at the beginning of their name or code.
+        1. Select **Done** to add the selected languages to the group. The languages are displayed. When you add three or more languages, **Show more** displays. You can select **Show more** to view all the languages present in the group.
+            >[!TIP]
+            >
+            > Toggle **Show more** to **Show less** and view only a few languages.
+
         1. Hover over the languages in a group to edit ![edit icon](images/edit_pencil_icon.svg) or delete ![delete](images/Delete_icon.svg) the language groups.
         1. Save the **Editor settings**.
 
-    As a user, you can view the language groups assigned to your folder profile.
+            >[!NOTE]
+            >
+            >As a user, you can view the language groups configured to your folder profile.
 
     -  **Propagate source version labels to the target version**: Select this option to pass the label of the source file version to the translated file. By default, this is disabled.
     - **Translation project cleanup after completion**: Select this option to configure the translation projects to be disabled or deleted automatically after the translation. By default, **None** is selected, so the project exists after translation.
-
+    
+        You can disable the translation projects if you want to use them later. Deleting a project permanently deletes all files and folders present in the project.
        
 
 - **Metadata**: You can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box.  In the metadata path, specify the location of the nodes from which you want to pick the metadata. You can also define a custom name for the metadata as the label. The default properties are Title, Document State, and Tags.

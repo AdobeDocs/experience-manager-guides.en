@@ -209,7 +209,7 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
 
 **White space handling for DITA elements**
 
-- In XML, white space includes spaces, tabs, and blank lines, excluding hard returns. Experience Manager Guides converts multiple consequent white spaces into one space. This helps you preserve the WYSIWYG view of the Web Editor. 
+- In XML, white spaces include spaces, tabs, carriage returns, and blank lines. Experience Manager Guides converts multiple consequent white spaces into one space. This helps you preserve the WYSIWYG view of the Web Editor. 
 
     >[!NOTE]
     >

@@ -33,7 +33,7 @@ Before performing steps in this procedure, ensure that you have created the requ
 1.  In the **Repository** panel, open the DITA map file in map view.
 1.  Click the **Manage** tab. The **Translation panel** displays the available language groups.
 
-1. As a user, you can view the language groups assigned to your folder profile. The language groups display the language folders along with their language codes. For example, the language group named G1 contains Italian \(it\), German \(de\), French \(fr\), and English \(en\) language folders.
+1. As a user, you can view the language groups configured to your folder profile. The language groups display the language folders along with their language codes. For example, the language group named G1 contains Italian \(it\), German \(de\), French \(fr\), and English \(en\) language folders.
 
     ![translation panel](images/translation-languages.png){width="300" align="left"}
 
