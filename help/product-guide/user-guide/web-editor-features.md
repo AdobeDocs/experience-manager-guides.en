@@ -912,7 +912,7 @@ The Web Editor provides enhanced filters for searching text. You can search and 
 
 *Apply filters to search for the files containing the text `general purpose.`* 
 
- Select the **Filter Search** \(![Search filter icon](images/filter-search-icon.svg)\)icon to open the Filter by pop-up. 
+ Select the **Filter Search** \(![Search filter icon](images/filter-search-icon.svg)\) icon to open the Filter by pop-up. 
 
 >[!NOTE]
 >
