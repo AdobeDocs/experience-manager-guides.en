@@ -905,7 +905,7 @@ speed, or view picture in picture.
 
 **Filter Search**
 
-The Web Editor provides enhanced filters for searching text. You can search for a text in the files present on the selected path of the Adobe Experience Manager repository. 
+The Web Editor provides enhanced filters for searching text. You can search and filter for a text in the files present on the selected path of the Adobe Experience Manager repository. It searches in the title, filename, and thecontent in the files.
 
 
 ![search files in repository view](images/repository-filter-search.png){width="300" align="left"}
@@ -918,12 +918,15 @@ The Web Editor provides enhanced filters for searching text. You can search for 
 >
 > When you search any text or filter any files, a blue dot appears on the **Filter Search**  \(![Search filter icon](images/filter-search-icon.svg)\) icon to indicate that we are on the search panel and that some filters have been applied.
 
+
 You have the following options to filter the files and to narrow down your search in the Adobe Experience Manager repository:
 
 - **DITA Files**: You can look for all **DITA Topics** and **DITA Maps** present on the selected path. These are selected by default.
 - **Non-DITA Files**: You can search for **Ditaval Files**,  **Image Files**, **Multimedia**, **Documents**, and **Json** in the selected path.
 
+![quick search filter ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
+*Use the quick filters to search for DITA and Non-DITA files.*
 
 **Advanced Filtering**
 
@@ -936,7 +939,9 @@ You can view the following options under the **General** and **Advanced** tabs.
 
 **General**
 
-- **Search results will be as follows**:  Search for some text in the files present on the selected path of the Adobe Experience Manager repository. This is in sync with the search box on the repository window. For example, if you type `general purpose` in the search box on the repository panel,  it also appears in the **Advanced filter** dialog box and vice versa.
+- **Search results will be as follows**:  Search for some text in the files present on the selected path of the Adobe Experience Manager repository. The text is searched in the title, filename, and content in the files.
+
+This is in sync with the search box on the repository window. For example, if you type `general purpose` in the search box on the repository panel,  it also appears in the **Advanced filter** dialog box and vice versa.
 
 - **Search in**: Select the path where you want to search the files present in the Adobe Experience Manager repository. 
 
@@ -952,13 +957,18 @@ You can view the following options under the **General** and **Advanced** tabs.
     - Select **Add element** ![add icon](images/Add_icon.svg) to add the elements, attributes, and values.  
     - Apply the filters that you have selected. 
 
-- Select **Clear all** from the to clear all the applied filters. 
+- Select **Clear all** to clear all the applied filters. 
 
+
+- Select the **Close filter** ![close icon](images/close-icon.svg) icon to close the filter and return to the tree view of the repository.
     >[!NOTE]
     >
     >Your system administrator can also configure the text filters and show or hide other filters. For more details see *Configure text filters* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-The list of filtered files that contain the searched text is displayed. For example, the files containing the text `general purpose` are listed in the previous screenshot. You can select multiple files from the filtered list to drag and drop them into a map opened for editing.
+    The list of filtered files that contain the searched text is displayed. For example, the files containing the text `general purpose` are listed in the previous screenshot. You can select multiple files from the filtered list to drag and drop them into a map opened for editing.
+
+
+
 
 **Options menu**
 
