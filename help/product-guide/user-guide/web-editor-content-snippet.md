@@ -158,6 +158,8 @@ The topic generator can create the topics containing the data and a DITA  map fo
 
 
 
+
+
 ### Create a topic
 
 Perform the following steps to create a topic using the topic generator:

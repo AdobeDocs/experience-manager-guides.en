@@ -113,3 +113,6 @@ You can also view the progress of checking in the topics from the **Save As New 
 
 Now you have a very enhanced experience while filtering files. The revamped filter functionality provides an improved way to search and navigate through files effortlessly. Enjoy benefits such as better organization of  quicker access to relevant files, streamlined organization, and a more intuitive user interface, making your search experience smoother and more efficient. 
 
+![search files in repository view](assets/repository-filter-search-2404.png){width="300" align="left"}
+
+*Apply filters to search for the files containing the text `general purpose.`*

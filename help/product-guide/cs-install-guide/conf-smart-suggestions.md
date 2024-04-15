@@ -38,9 +38,20 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
     ![connected credentials](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
     *Connect to the project to view the credential details.*
-1. Copy the CLIENT_ID and CLIENT_SECRET keys.
 
-You have now configured the OAuth authentication details. Keep these two keys handy as these are required in the next section.
+1. Return to the **Projects** tab and select **Project overview** on the left. 
+
+    <img src="assets/project-overview.png" alt="project overview" width=500> 
+    
+    *Get started on the new project.*
+
+1. Click the **Download** button on the top to download the service JSON.
+
+    <img src="assets/download-json.png" alt="download json" width=500> 
+
+    *Download the JSON service details.*
+
+You have configured the OAuth authentication details and downloaded the JSON service details. Keep this file handy as it's required in the next section.
 
 ### Add IMS configuration to the environment
 
