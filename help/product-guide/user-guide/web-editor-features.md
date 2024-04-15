@@ -905,7 +905,7 @@ speed, or view picture in picture.
 
 **Filter Search**
 
-The Web Editor provides enhanced filters for searching text. You can search and filter for a text in the files present on the selected path of the Adobe Experience Manager repository. It searches in the title, filename, and thecontent in the files.
+The Web Editor provides enhanced filters for searching text. You can search and filter for a text in the files present on the selected path of the Adobe Experience Manager repository. It searches in the title, filename, and content in the files.
 
 
 ![search files in repository view](images/repository-filter-search.png){width="300" align="left"}
