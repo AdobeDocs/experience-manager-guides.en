@@ -37,9 +37,9 @@ To create a bulk activation map collection, perform the following steps:
 
 1. Click **Done**.
 
-    The DITA map files are added to your bulk activation map collection.
+ The DITA map files are added to your bulk activation map collection.
 
-    ![](images/bulk-activation-collection-created.png){width="800" align="left"}
+ ![ created bulk activation collection](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 ## Maps and Presets tab 
 
@@ -65,9 +65,9 @@ The **Maps and Presets** tab presents information in the following columns:
 
 The **Audit History** tab presents information about the activated map outputs in the following columns:
 - **Map**: Shows the title of the DITA map file.
-- **Map Path** Shows the complete path of the DITA map file.
+- **Map Path**: Shows the complete path of the DITA map file.
 - **UUID** : Shows the unique identifier associated with the file.
-* **Language**: Shows the language code of the DITA map.
+- **Language**: Shows the language code of the DITA map.
 - **Preset**: Shows the title of the output preset configured on the map file. It also displays the icon based on the type of output preset.
 - **Status**: Shows the status of activation as successful or unsuccessful.
 - **Destination**: If you generate the output on cloud services, you can view the output's destination as Publish or Preview.
