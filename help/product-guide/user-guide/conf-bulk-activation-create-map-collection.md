@@ -64,20 +64,20 @@ The **Maps and Presets** tab presents information in the following columns:
 ## Audit History tab
 
 The **Audit History** tab presents information about the activated map outputs in the following columns:
-* **Map**: Shows the title of the DITA map file.
-* **Map Path** Shows the complete path of the DITA map file.
-* **UUID** : Shows the unique identifier associated with the file.
+- **Map**: Shows the title of the DITA map file.
+- **Map Path** Shows the complete path of the DITA map file.
+- **UUID** : Shows the unique identifier associated with the file.
 * **Language**: Shows the language code of the DITA map.
-* **Preset**: Shows the title of the output preset configured on the map file. It also displays the icon based on the type of output preset.
-* **Status**: Shows the status of activation as successful or unsuccessful.
-* **Destination**: If you generate the output on cloud services, you can view the output's destination as Publish or Preview.
+- **Preset**: Shows the title of the output preset configured on the map file. It also displays the icon based on the type of output preset.
+- **Status**: Shows the status of activation as successful or unsuccessful.
+- **Destination**: If you generate the output on cloud services, you can view the output's destination as Publish or Preview.
 
     >[!NOTE]
     >
     > The small ![](images/global-preset-icon.svg) icon indicates a folder profile level preset.
 
 - **Modified**: Indicates if the DITA map was updated after the last publication. Based on this information, you can decide whether to activate the output for this DITA map.
-* **Published**: Shows the date and time of the last published (or activated) output. If you select the link, the Activation Results page is displayed, which contains the logs with information about the root path where the content is activated.
+- **Published**: Shows the date and time of the last published (or activated) output. If you select the link, the Activation Results page is displayed, which contains the logs with information about the root path where the content is activated.
     >[!NOTE]
     >
     > The outputs in the **Audit History** tab are sorted based on the **Published** column.
