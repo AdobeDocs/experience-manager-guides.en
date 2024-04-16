@@ -39,15 +39,15 @@ You can activate the output to the **Preview** or **Publish** instances.
 
  **Preview**
 
-  *	To activate the output of selected maps, select the pregenerated map output and select **Publish to** > **Preview**.
-  *	To activate the output of all DITA maps with their configured presets, select the checkbox next to the **Map** column, and then select **Publish to** > **Publish**.
+* To activate the output of selected maps, select the pregenerated map output and select **Publish to** > **Preview**.
+*	To activate the output of all DITA maps with their configured presets, select the checkbox next to the **Map** column, and then select **Publish to** > **Publish**.
    
   
 **Publish**
 
-   * To activate the output of selected maps, select the pregenerated map output and select **Publish to** > **Publish**.
+* To activate the output of selected maps, select the pregenerated map output and select **Publish to** > **Publish**.
 
-   *  To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Publish to** > **Publish**.
+ *  To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Publish to** > **Publish**.
 
 
    >[!NOTE] 
@@ -66,8 +66,8 @@ Once the output is activated for the selected map files, the audit history tab i
 
 Do one of the following:
 
--   To activate output of selected maps, select the pregenerated map output and select **Quick Publish**.
--   To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Quick Publish.**
+-  To activate output of selected maps, select the pregenerated map output and select **Quick Publish**.
+-  To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Quick Publish.**
     ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
    
    >[!NOTE] 
