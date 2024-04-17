@@ -28,7 +28,7 @@ Once you have created a map collection for bulk activation, the next step is to 
     >Generate the output for the map using the output preset before activating them in the map collection. 
 
      
-You can view the ways to activate your collection based on your setup.
+View the different ways to activate your collection based on your setup.
 
 <details>
 <summary> Cloud Services </summary> 
