@@ -25,7 +25,7 @@ Use the instructions in [Configuration overrides](download-install-additional-co
 
 ## Order of precedence 
 
-By default, post-processing is done for every folder path. Permissions applied directly to a path or inherited from a parent closer in proximity to all its subfolders take precedence over those inherited from a more distant parent.
+By default, post-processing is done for every folder path. Permissions applied directly to a path or inherited from a parent closer in proximity to all its subfolders take precedence over those inherited from a more distant parent:
 
 * If the parent is ignored for post-processing but the child folder is enabled, then the child and all its successors are considered enabled.
 * If the parent is enabled for post-processing but the child is ignored, then the child and all its successors are considered ignored.
