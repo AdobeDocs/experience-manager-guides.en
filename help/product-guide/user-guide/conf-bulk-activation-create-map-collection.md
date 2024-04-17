@@ -78,9 +78,15 @@ The **Audit History** tab presents information about the activated map outputs i
 
 - **Modified**: Indicates if the DITA map was updated after the last publication. Based on this information, you can decide whether to activate the output for this DITA map.
 - **Published**: Shows the date and time of the last published (or activated) output. If you select the link, the Activation Results page is displayed, which contains the logs with information about the root path where the content is activated.
+    ![ created bulk activation collection audit history tab](images/bulk-collection-audit-history.png){width="800" align="left"}
+
+    *View the information about the activated map outputs in the **Audit History** tab.*
+
+
     >[!NOTE]
     >
     > The outputs in the **Audit History** tab are sorted based on the **Published** column.
+
 
 
 ## Left panel
@@ -93,4 +99,4 @@ The following filtering options are available on the left panel:
 
 The filters are updated when you switch from the **Maps and Presets** tab to the **Audit History** tab and vice versa. 
 
-**Parent topic:**[Bulk Activation of published content](conf-bulk-activation.md)
+**Parent topic: **[Bulk Activation of published content](conf-bulk-activation.md)

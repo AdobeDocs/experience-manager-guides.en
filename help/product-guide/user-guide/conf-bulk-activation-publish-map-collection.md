@@ -15,7 +15,7 @@ Once you have created a map collection for bulk activation, the next step is to 
 
 1.  Click on the **Bulk Publish Dashboard** tile.
 
-    A list of bulk activation map collections are displayed.
+    A list of bulk activation map collections is displayed.
 
 1.  Select the collection that you want to publish and click **Open**.
 
@@ -52,7 +52,7 @@ You can activate the output to the **Preview** or **Publish** instances.
 
    >[!NOTE] 
    > 
-   > The checkbox near a **Map** is enabled only if you have genrated the output for a map.
+   > The checkbox for a map output is enabled only if you have generated the output for a map.
 
 A success message is displayed when the map output is queued for publishing.
 
@@ -66,16 +66,17 @@ Once the output is activated for the selected map files, the audit history tab i
 
 Do one of the following:
 
-*  To activate output of selected maps, select the pregenerated map output and select **Quick Publish**.
+*  To activate the output of selected maps, select the pregenerated map output and select **Quick Publish**.
 *  To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Quick Publish.**
     ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
    
    >[!NOTE] 
    > 
-   > The checkbox near a **Map** is enabled only if you have genrated the output for a map.
+   >The checkbox for a map output is enabled only if you have generated the output for a map.
+
 
 A success message is displayed when the map output is queued for publishing.
 
 Once the output is activated for the selected map files, the audit history tab is updated, and the latest activated output appears on top. The **Published** column is updated with the publishing date and time. 
 
-**Parent topic:**[Bulk Activation of published content](conf-bulk-activation.md)
+**Parent topic: **[Bulk Activation of published content](conf-bulk-activation.md)
