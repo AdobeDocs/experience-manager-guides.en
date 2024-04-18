@@ -13,6 +13,10 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2024 Releases {#2024-releases}
+        - 2024.4.0 Release {#2404-release}
+          - [What's new](./release-info/whats-new-2024-4-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2024-4-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2024-4-0.md)
         - 2024.2.0 Release {#2402-release}
           - [What's new](./release-info/whats-new-2024-2-0.md)
           - [Fixed issues](./release-info/fixed-issues-2024-2-0.md)

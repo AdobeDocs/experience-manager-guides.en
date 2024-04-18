@@ -1,15 +1,15 @@
 ---
-title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2024.4.01 release
-description: Learn about the bug fixes in the 2024.04.01 release of Adobe Experience Manager Guides as a Cloud Service.
+title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2024.4.0 release
+description: Learn about the bug fixes in the 2024.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
 ---
 
-# Fixed issues in the 2024.04.01 release 
+# Fixed issues in the 2024.04.0 release 
 
-This article covers the bugs fixed in various areas of the 2024.04.01 release of Adobe Experience Manager Guides as a Cloud Service.
+This article covers the bugs fixed in various areas of the 2024.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For more information about the new features and enhancements, view [What's new in the 2024.04.01 release](whats-new-2024-4-1.md).
+For more information about the new features and enhancements, view [What's new in the 2024.04.0 release](whats-new-2024-04-0.md).
 
-Learn about [upgrade instructions for the 2024.04.01 release](upgrade-instructions-2024-04-01.md).
+Learn about [upgrade instructions for the 2024.04.0 release](upgrade-instructions-2024-04-0.md).
 
 ## Authoring
 
@@ -35,7 +35,7 @@ Learn about [upgrade instructions for the 2024.04.01 release](upgrade-instructio
 
 ## Management
 
-- Unclosed **Resource Resolvers** cause increasing session count and PathNotFoundException errors post 4.3.1 release. (15604)
+- Unclosed **Resource Resolvers** cause increasing session count and PathNotFoundException errors post the 2402.2.0 release of Experience Manager Guides as a Cloud Service. (15604)
 - The feature flag **fmdita.useapproval** is not working as expected. (15310)
 - Output preset changes from a folder profile fail for parent folders containing 2k maps. (14852)
 - Creating a Baseline using the Java API does not work with the 2402.2.0 release of Experience Manager Guides as a Cloud Service. (14787)
