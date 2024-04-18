@@ -54,6 +54,8 @@ Now you can view a separate tab on appearances in the **User Preferences**. This
 
 *Cusotmize the appearance accoording to your preferences.*
 
+Learn more about the **User preferences** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.  
+
 ## Locate an open file in the repository view of the Web Editor
 
 You can effeciently navigate and locate your file in the repository view while you are editing it. This feature also helps you quickly view the  file's location within the repository hierarchy.  
@@ -116,3 +118,30 @@ Now you have a very enhanced experience while filtering files. The revamped filt
 ![search files in repository view](assets/repository-filter-search-2404.png){width="300" align="left"}
 
 *Apply filters to search for the files containing the text `general purpose.`*
+
+
+## Clearly split elements list to view and insert them according to their position
+
+Now while editing a document in the Web Editor, you can view a clear list of valid elements and insert them at the current location. 
+
+ - **Valid elements at the current location** that you can insert at the current cursor location itself.
+ - **Valid elements outside the current location** that you can insert after any of the parents for the current element within the element hierarchy.
+
+![Insert element dialog](assets/insert-element-dialog.png){width="300" align="left"}
+
+This clearly split list of valid elements helps you maintain the content structure and follow the DITA standards. 
+
+Learn more about the **Insert Element** feature description in the [Secondary toolbar](../user-guide/web-editor-features.md#2051ea0j0y4) section. 
+
+## Content Properties Type appears as a dropdown menu
+
+Now the Content Properties **Type** appears as a dropdown menu.  You can view and select the tags of the complete hierarchy for the current tag from the dropdown.
+
+This dropdown menu helps you quickly access the relevant tags within the hierarchical structure.
+
+
+ ![type dropdown menu in content properties](assets/content-properties-type.png){width="300" align="left"}
+
+ *Select a tag from the  hierarchy for the current tag.*
+
+Learn more about the **Content Properties** feature description in the [Right Panel](../user-guide/web-editor-features.md#id2051eb003yk) section. 
