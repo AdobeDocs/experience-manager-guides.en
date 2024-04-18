@@ -1,14 +1,14 @@
 ---
-title: Release Notes | What's New in the Adobe Experience Manager Guides, 2024.4.0 release
-description: Learn the new and enhanced features in 2024.4.0 release of Adobe Experience Manager Guides as a Cloud Service.
+title: Release Notes | What's New in the Adobe Experience Manager Guides, 2024.4.1 release
+description: Learn the new and enhanced features in 2024.4.1 release of Adobe Experience Manager Guides as a Cloud Service.
 ---
-# What's new in the 2024.4.0 release 
+# What's new in the 2024.4.1 release 
 
-This article covers the new and enhanced features in the 2024.2.0 release of Adobe Experience Manager Guides.
+This article covers the new and enhanced features in the 2024.4.1 release of Adobe Experience Manager Guides.
 
-For the list of issues that have been fixed in this release, view [Fixed issues in the 2024.4.0 release](fixed-issues-2024-2-0.md).
+For the list of issues that have been fixed in this release, view [Fixed issues in the 2024.4.1 release](fixed-issues-2024-04-01.md).
 
-Learn about [upgrade instructions for the 2024.4.0 release](upgrade-instructions-2024-2-0.md).
+Learn about [upgrade instructions for the 2024.4.1 release](upgrade-instructions-2024-04-01.md).
 
 ## Create translation groups to translate into multiple languages
 

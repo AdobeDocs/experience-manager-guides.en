@@ -1,26 +1,25 @@
 ---
-title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, 2024.2.0 release
-description: Learn about the compatibility matrix and how to upgrade to the 2024.2.0 release of Adobe Experience Manager Guides as a Cloud Service.
+title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, 2024.04.01 release
+description: Learn about the compatibility matrix and how to upgrade to the 2024.04.01 release of Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 7aaa4317-eb96-4fff-8a45-b38b9dfc234a
 ---
-# Upgrade instructions for the 2024.2.0 release 
+# Upgrade instructions for the 2024.04.01 release 
 
-This article covers the upgrade instructions and the  compatibility matrix for 2024.2.0 release of Adobe Experience Manager Guides as a Cloud Service.
+This article covers the upgrade instructions and the  compatibility matrix for 2024.04.01 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For more information about the new features and enhancements, view [What's new in the 2024.2.0 release](whats-new-2024-2-0.md).
+For more information about the new features and enhancements, view [What's new in the 2024.04.01 release](whats-new-2024-4-1.md).
 
-For the list of issues that have been fixed in this release, view [Fixed issues in the 2024.2.0 release](fixed-issues-2024-2-0.md).
-
+For the list of issues that have been fixed in this release, view [Fixed issues in the 2024.04.01 release](fixed-issues-2024-04-01.md).
 
 ## Compatibility matrix
 
-This section lists the compatibility matrix for the software applications supported by 2024.2.0 release of Experience Manager Guides as a Cloud Service. 
+This section lists the compatibility matrix for the software applications supported by 2024.04.01 release of Experience Manager Guides as a Cloud Service. 
 
 ### FrameMaker and FrameMaker Publishing Server
 
 | Experience Manager Guides as a Cloud Release| FMPS | FrameMaker |
 | --- | --- | --- |
-| 2024.2.0 | Not compatible | 2022 or higher |
+| 2024.04.01 | Not compatible | 2022 or higher |
 | | | |
 
 
@@ -28,7 +27,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 | Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
 | --- | --- | --- | --- | --- |
-| 2024.2.0|   3.5-uuid 1|   3.5-uuid 1 | 2.3 | 2.3 | 
+| 2024.04.01|   3.4-uuid 1|   3.4-uuid 1 | 2.3 | 2.3 | 
 |  |  |  |  |
 
 
@@ -38,7 +37,7 @@ This section lists the compatibility matrix for the software applications suppor
 |---|---|---|
 |Experience Manager Guides Components Content Package for Cloud Service|dxml-components.all-1.2.2| aem-site-template-dxml.all-1.0.15|
 
-## Upgrade to 2024.2.0 release
+## Upgrade to 2024.04.01 release
 
 Experience Manager Guides is upgraded automatically upon upgrading the current (latest) release of Experience Manager as a Cloud Service.
 
@@ -113,11 +112,11 @@ Perform the following steps for indexing the existing content and use the new fi
 
 1. Run a POST request to the server (with correct authentication) - `http://<server:port>/bin/guides/map-find/indexing`. (Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed|| For example : `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
+1. You can also pass a root folder to index the DITA maps of a specific folder (and its subfolders). For example, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Note that if both the paths parameter and root parameter are passed, only the paths parameter is considered.
+
 1. The API will returns a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(For example: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Once the job is completed, the previous GET request responds with success. If job fails for some reason then failure can be seen from server logs.
-
-1. Revert back to default or previous existing value of queryLimitReads if you have changed it in step 1.
 
 ### Steps to handle the `'fmdita rewriter'` conflict
 
