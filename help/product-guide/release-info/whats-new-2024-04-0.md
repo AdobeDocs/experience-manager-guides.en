@@ -187,6 +187,7 @@ You can also view the progress of checking in the topics from the **Save As New 
 *View the list and status of the files checked in bulk from the Map Editor.*
 
 Learn how to [work with the Advanced Map Editor](../user-guide/map-editor-advanced-map-editor.md)
+
 ## Download the temporary file while generating the output through DITA-OT
 
 You can also download the temporary files generated when you publish the AEM Site, HTML, Custom, JSON, or PDF output through DITA-OT. This feature helps you to analyze any issues that might occur during the output generation process and troubleshoot effectively.  
