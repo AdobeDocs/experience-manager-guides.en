@@ -151,8 +151,8 @@ Now, you have a an enhanced experience while filtering files. The revamped filte
 
 While editing a document in the Web Editor, you can view a clearly split list of valid elements and insert them at the current location. 
 
- - **Valid elements at the current location** that you can insert at the current cursor location itself.
- - **Valid elements outside the current location** that you can insert after any of the parents for the current element within the element hierarchy.
+* **Valid elements at the current location** that you can insert at the current cursor location itself.
+* **Valid elements outside the current location** that you can insert after any of the parents for the current element within the element hierarchy.
 
 ![Insert element dialog](assets/insert-element-dialog.png){width="300" align="left"}
 
