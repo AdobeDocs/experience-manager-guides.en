@@ -61,10 +61,9 @@ Learn about [upgrade instructions for the 2024.04.0 release](upgrade-instruction
 - Unwanted, non-breaking spaces get added while editing at the end of a tag in the Web Editor. (11786)
 - Content gets deleted while correcting the spelling errors in DITA files. (11610)
 
+## Deprecated feature
 
-
- ## Deprecated feature
- The Service Account (JWT) credentials have been deprecated in favor of the OAuth Server-to-Server credentials. Your applications using the Service Account (JWT) credentials will stop working after Jan 1, 2025. You must migrate to the new credential by Jan 1, 2025, to ensure your application continues functioning. [Learn more](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+The Service Account (JWT) credentials have been deprecated in favor of the OAuth Server-to-Server credentials. Your applications using the Service Account (JWT) credentials will stop working after Jan 1, 2025. You must migrate to the new credential by Jan 1, 2025, to ensure your application continues functioning. [Learn more](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
 
 
