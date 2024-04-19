@@ -136,7 +136,7 @@ As an administrator, you can now disable the post processing and generation of U
 
 If you disable the post-processing for a folder, all its child folders are also ignored. However, Experience Manager Guides also allows you to enable the post processing of a child folder under the ignored folder. 
 
-
+Learn how to [disable post processing for a folder](../cs-install-guide/conf-folder-post-processing.md).
 
 ## Revamped experience to search and filter files in the repository view
 
@@ -146,6 +146,8 @@ Now, you have a an enhanced experience while filtering files. The revamped filte
 
 *Apply filters to search for the files containing the text `general purpose.`*
 
+
+Learn more about the **Filter Search** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 ## Clear list to view and insert valid elements according to their position
 
@@ -184,6 +186,7 @@ You can also view the progress of checking in the topics from the **Save As New 
 
 *View the list and status of the files checked in bulk from the Map Editor.*
 
+Learn how to [work with the Advanced Map Editor](../user-guide/map-editor-advanced-map-editor.md)
 ## Download the temporary file while generating the output through DITA-OT
 
 You can also download the temporary files generated when you publish the AEM Site, HTML, Custom, JSON, or PDF output through DITA-OT. This feature helps you to analyze any issues that might occur during the output generation process and troubleshoot effectively.  
@@ -192,4 +195,4 @@ You can also download the metadata.xml file if you have selected any metadata pr
 
 
 
-For more details about the presets, [Understanding the output presets](../user-guide/generate-output-understand-presets.md).
+For more details about the presets, view [Understanding the output presets](../user-guide/generate-output-understand-presets.md).
