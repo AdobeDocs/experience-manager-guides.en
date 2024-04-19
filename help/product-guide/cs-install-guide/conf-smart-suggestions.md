@@ -75,7 +75,7 @@ Once you have added the IMS configuration to the environment, perform the follow
 
 1. In you cloud manager Git project code, add the below given two files (for file contents, view [Appendix](#appendix)).
 
-    * `com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
+    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
     * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
 1. Ensure that the newly added files are getting covered by your `filter.xml`.
 1. Commit and push your Git changes.
@@ -88,15 +88,13 @@ Once this is done, you should be able to use the smart suggestions feature.
 ## Appendix {#appendix}
 
 **File**: 
-`com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
+`com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 
 **Content**:
 
 ```
 {
-  "client.id": "$[secret:CLIENT_ID]",
-  "client.secret": "$[secret:CLIENT_SECRET]",
-  "ims.url": "https://ims-na1.adobelogin.com"
+ "service.account.details": "$[secret:SERVICE_ACCOUNT_DETAILS]",
 }
 
 ```
