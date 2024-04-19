@@ -54,7 +54,7 @@ Before performing steps in this procedure, ensure that you have created the requ
     - If the target language is the same as the source. 
 
 
-    > [!NOTE]
+    >[!NOTE]
     >
     > If you create the target folder for a language after creating the language group, refresh the browser to enable the language in the language groups.  
 
