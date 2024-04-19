@@ -12,15 +12,15 @@ Learn about [upgrade instructions for the 2024.4.0 release](upgrade-instructions
 
 ## Create translation groups to translate into multiple languages
 
-Experience Manager Guides allows you to translate your content into a group of languages. This feature helps you organize and manage translations according to the needs of your organization. For example, if you need to translate your content for some countries in Europe, you can create a language group for European languages like English (EN), French (FR), German (DE), Spanish (ES), and Italian (IT).
+Experience Manager Guides allows you to translate your content into a group of languages. This feature helps you organize and manage translations according to your organization's needs. For example, if you need to translate your content for some countries in Europe, you can create a language group for European languages like English (EN), French (FR), German (DE), Spanish (ES), and Italian (IT).
 
 These language groups help you quickly translate your DITA content into the selected languages under various language groups.
 
 ![translation panel](assets/translation-languages-2404.png){width="300" align="left"}
 
-*Select the language groups or languages in which you want to translate your documents.* 
+*Select the language groups or languages you want to translate your documents.* 
 
-Your admin can create language groups and configure them to particular folder profiles. As a user, you can view the language groups that are configured to your folder profile.
+Your admin can create language groups and configure them to particular folder profiles. As a user, you can view the language groups configured to your folder profile.
 
 
 Overall, creating language groups enhances the efficiency and scalability of translation projects, ultimately improving the localization process across multiple languages.
@@ -30,7 +30,7 @@ Overall, creating language groups enhances the efficiency and scalability of tra
 Learn how to [translate documents from the Web Editor](../user-guide/translate-documents-web-editor.md).
 
 
-## Delete or disable the translation project automatically after translation
+## Delete or disable the translation project automatically after the translation
 
 Now, Experience Manager Guides allows you to disable or delete a translation project after it is complete. As an administrator, you can configure the translation projects to be disabled or deleted automatically after the translation is completed. 
 
@@ -98,7 +98,7 @@ As an adminsitrator you can add or use multiple resources based on different URL
 
 Then, as an user connect with them to create content snippets or topics using the generators for them. This feature is handy as you do not have to create data source for each URL. It helps you to quickly fetch data from any of the resources for a particular data source in a single content snippet or topic. 
 
-View more details about the data source connectors and how to [configure a data source connector from the user interface](../cs-install-guide/https://experienceleague-review.corp.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en).
+View more details about the data source connectors and how to [configure a data source connector from the user interface](../cs-install-guide/conf-data-source-connector-tools.md).
 
 Learn how to [use data from your data source](../user-guide/web-editor-content-snippet.md).
 
