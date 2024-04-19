@@ -70,7 +70,7 @@ The **Audit History** tab presents information about the activated map outputs i
 - **Language**: Shows the language code of the DITA map.
 - **Preset**: Shows the title of the output preset configured on the map file. It also displays the icon based on the type of output preset.
 - **Status**: Shows the status of activation as successful or unsuccessful.
-- **Destination**: If you generate the output on cloud services, you can view the output's destination as Publish or Preview.
+- **Destination**: If you generate the output on Experience Manager Guides as a Cloud Service, you can view the output's destination as Publish or Preview.
 
     >[!NOTE]
     >

@@ -4,7 +4,7 @@ description: Learn about the compatibility matrix and how to upgrade to the 2024
 ---
 # Upgrade instructions for the 2024.04.0 release 
 
-This article covers the upgrade instructions and the  compatibility matrix for 2024.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
+This article covers the upgrade instructions and the compatibility matrix for the 2024.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
 For more information about the new features and enhancements, view [What's new in the 2024.04.0 release](whats-new-2024-04-0.md).
 
@@ -12,7 +12,7 @@ For the list of issues fixed in this release, view [Fixed issues in the 2024.04.
 
 ## Compatibility matrix
 
-This section lists the compatibility matrix for the software applications supported by 2024.04.0 release of Experience Manager Guides as a Cloud Service. 
+This section lists the compatibility matrix for the software applications supported by the 2024.04.0 release of Experience Manager Guides as a Cloud Service. 
 
 ### FrameMaker and FrameMaker Publishing Server
 
@@ -26,7 +26,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 | Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
 | --- | --- | --- | --- | --- |
-| 2024.04.0|   3.4-uuid 1|   3.4-uuid 1 | 2.3 | 2.3 | 
+| 2024.04.0| 3.4-uuid 1|   3.4-uuid 1 | 2.3 | 2.3 | 
 |  |  |  |  |
 
 
@@ -41,7 +41,7 @@ This section lists the compatibility matrix for the software applications suppor
 Experience Manager Guides is upgraded automatically upon upgrading the current (latest) release of Experience Manager as a Cloud Service.
 
 
-Perform the following steps for Experience Manager Guides as a Cloud Service if you haven't done earlier for your existing release:
+Perform the following steps for Experience Manager Guides as a Cloud Service if you haven't done it earlier for your existing release:
 
 ### Steps to enable the trigger of a script via a servlet
 
@@ -65,7 +65,7 @@ Response:
 }
 ```
 
-In the previous response JSON, the key `lockNodePath` holds the path to the node created in the repository pointing to the job submitted. It will automatically be deleted once the job is completed, then you can refer to this node for the status of the job.
+In the previous response JSON, the key `lockNodePath` holds the path to the node created in the repository pointing to the job submitted. It is automatically deleted once the job is completed, then you can refer to this node for the status of the job.
 
 Wait till this job is completed before proceeding to the next steps. 
 
@@ -94,12 +94,12 @@ Perform the following steps for post-processing the existing content and using t
         |org.apache.jackrabbit.oak.query.QueryEngineSettingsService|queryLimitReads|Value: 200000 Default Value: 100000|
         |org.apache.jackrabbit.oak.query.QueryEngineSettingsService|queryLimitInMemory|Value: 200000 Default Value: 100000|
 
-1.  Run a POST request to the server (with correct authentication) - `http://<server>//bin/guides/reports/upgrade`.
+1. Run a POST request to the server (with correct authentication) - `http://<server>//bin/guides/reports/upgrade`.
 
-1.  The API returns a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. The API returns a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (For example: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1.  Once the job is completed, the previous GET request responds with success. If the job fails for some reason, then failure can be seen from server logs.
+1. Once the job is completed, the previous GET request responds with success. If the job fails for some reason, then the failure can be seen from server logs.
 
 1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
 
@@ -109,18 +109,18 @@ Perform the following steps for post-processing the existing content and using t
 
 Perform the following steps for indexing the existing content and use the new find and replace text at map level and topic list under the reports tab:
 
-1. Run a POST request to the server (with correct authentication) - `http://<server:port>/bin/guides/map-find/indexing`. (Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed|| For example : `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. Run a POST request to the server (with correct authentication) - `http://<server:port>/bin/guides/map-find/indexing`. (Optional: You can pass specific paths of the maps to index them, by default all maps are indexed|| For example : `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
 1. You can also pass a root folder to index the DITA maps of a specific folder (and its subfolders). For example, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Note that if both the paths parameter and root parameter are passed, only the paths parameter is considered.
 
-1. The API will returns a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(For example: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. The API returns a jobId. To check the status of the job, you can send a GET request with job id to the same end point - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(For example: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Once the job is completed, the previous GET request responds with success. If job fails for some reason then failure can be seen from server logs.
+1. Once the job is completed, the previous GET request responds with success. If the job fails for some reason then the failure can be seen from server logs.
 
 ### Steps to handle the `'fmdita rewriter'` conflict
 
 Experience Manager Guides has a [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) module for handling the links generated in case of cross-maps (links between the topics of two different maps).
 
-If you have another custom sling rewriter in your codebase,  use an `'order'` value greater than 50, as Experience Manager Guides sling rewriter uses `'order'` 50.  To override this, you need a value >50. For more details, view [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+If you have another custom sling rewriter in your codebase, use an `'order'` value greater than 50, as Experience Manager Guides sling rewriter uses `'order'` 50. To override this, you need a value >50. For more details, view [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
-During this upgrade, since the `'order'` value is changed from 1000 to 50, you need to merge the existing custom rewriter, if any, with `'fmdita-rewriter'`.
+During this upgrade, since the `'order'` value is changed from 1000 to 50, you need to merge the existing custom rewriter, if any, with `fmdita-rewriter`.

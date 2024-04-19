@@ -13,7 +13,7 @@ Learn about [upgrade instructions for the 2024.04.0 release](upgrade-instruction
 
 ## Authoring
 
-- **Copy** function fails to duplicate the empty folders in Adobe Experience Manager as a Cloud Service. (15353)
+- The **Copy** function fails to duplicate the empty folders in Adobe Experience Manager as a Cloud Service. (15353)
 - The Web Editor is unable to upload .pptx files. (14837)
 -  While finding a text in the Web Editor, the cursor returns to the first occurrence of the searched text, on pressing the Enter key. (14820)
 - Autosave causes multiple issues, it repositions the cursor and requires manual clicks in the document. (14253)
@@ -25,7 +25,7 @@ Learn about [upgrade instructions for the 2024.04.0 release](upgrade-instruction
 - AEM Site output generation fails when the **Delete Orphan Site** option is enabled. (15896)
 - The edit functionality is not working when adding files to the Map Collection. (15813)
 - In the JSON output, metadata from DITA map or topics fails to propagate to the JSON output files. (15713)
-- Native PDF publishing fails when renaming the preset. (15662)
+- Native PDF publishing fails while renaming the preset. (15662)
 - The **sourcePath** property is incorrect on the published AEM site output. (15502)
 - The language variables selection and customization are not working properly in the Native PDF Output Preset. (15399)
 - Native PDF generation fails when using a template with a large stylesheet or layout. (15344)
@@ -57,13 +57,13 @@ Learn about [upgrade instructions for the 2024.04.0 release](upgrade-instruction
 - Overlapping text issues occur in `<reltable>` and `<fig>` tags. (15238) 
 - Flickering issues occur in the **Attributes** panel. (15237)
 - On deleting a character or word within the content, the cursor jumps between the block elements. (15224)
-- **Attributes** panel is not displayed in the Source view of the Web Editor. (14387)
+- The **Attributes** panel is not displayed in the Source view of the Web Editor. (14387)
 - Unwanted, non-breaking spaces get added while editing at the end of a tag in the Web Editor. (11786)
 - Content gets deleted while correcting the spelling errors in DITA files. (11610)
 
 ## Deprecated feature
 
-The Service Account (JWT) credentials have been deprecated in favor of the OAuth Server-to-Server credentials. Your applications using the Service Account (JWT) credentials will stop working after Jan 1, 2025. You must migrate to the new credential by Jan 1, 2025, to ensure your application continues functioning. [Learn more](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+The Service Account (JWT) credentials have been deprecated in favor of the **OAuth Server-to-Server** credentials. Your applications using the Service Account (JWT) credentials will stop working after Jan 1, 2025. You must migrate to the new credential by Jan 1, 2025, to ensure that your application continues functioning. [Learn more](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
 
 
