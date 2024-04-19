@@ -1,7 +1,6 @@
 ---
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, 2024.04.0 release
 description: Learn about the compatibility matrix and how to upgrade to the 2024.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
-exl-id: 7aaa4317-eb96-4fff-8a45-b38b9dfc234a
 ---
 # Upgrade instructions for the 2024.04.0 release 
 
