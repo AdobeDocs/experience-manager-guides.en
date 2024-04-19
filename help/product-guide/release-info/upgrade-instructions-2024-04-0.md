@@ -9,7 +9,7 @@ This article covers the upgrade instructions and the  compatibility matrix for 2
 
 For more information about the new features and enhancements, view [What's new in the 2024.04.0 release](whats-new-2024-04-0.md).
 
-For the list of issues that have been fixed in this release, view [Fixed issues in the 2024.04.0 release](fixed-issues-2024-04-0.md).
+For the list of issues fixed in this release, view [Fixed issues in the 2024.04.0 release](fixed-issues-2024-04-0.md).
 
 ## Compatibility matrix
 

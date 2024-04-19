@@ -5,9 +5,9 @@ exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
 ---
 # What's new in the 2024.2.0 release 
 
-This article covers the new and enhanced features in the 2024.2.0 release of Adobe Experience Manager Guides.
+This article covers the new and enhanced features of the 2024.2.0 release of Adobe Experience Manager Guides.
 
-For the list of issues that have been fixed in this release, view [Fixed issues in the 2024.2.0 release](fixed-issues-2024-2-0.md).
+For the list of issues fixed in this release, view [Fixed issues in the 2024.2.0 release](fixed-issues-2024-2-0.md).
 
 
 Learn about [upgrade instructions for the 2024.2.0 release](upgrade-instructions-2024-2-0.md).
