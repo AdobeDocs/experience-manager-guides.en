@@ -13,14 +13,14 @@ role: User, Admin
 >[!NOTE]
 >
 > The Service Account (JWT) credentials have been deprecated in favor of the OAuth Server-to-Server credentials. Your applications using the Service Account (JWT) credentials will stop working after Jan 1, 2025. You must migrate to the new credential by Jan 1, 2025, to ensure your application continues functioning. [Learn more](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
->
-> As the Service Account (JWT) credentials have been deprecated, so it is recommended to use Adobe IMS OAuth-based authentication. Learn how to [configure microservice-based publishing with OAuth authentication](configure-microservices-imt-config.md) 
+
 
 
 Microservice-based publishing in for Adobe Experience Manager Guides as a Cloud Service supports PDF (both Native and DITA-OT based), HTML5, JSON, and CUSTOM types of output presets.
 
+As the Service Account (JWT) credentials have been deprecated, so it is recommended to use Adobe IMS OAuth-based authentication. Learn how to [configure microservice-based publishing with OAuth authentication](configure-microservices-imt-config.md) 
 
-As the cloud publishing service is secured by Adobe IMS JWT based authentication, customers should follow the below given steps to integrate their environments with Adobe's secure token-based authentication workflows and start using the new cloud based scalable publishing solution.
+For the cloud publishing service secured by Adobe IMS JWT based authentication, customers should follow the below given steps to integrate their environments with Adobe's secure token-based authentication workflows and start using the new cloud based scalable publishing solution.
 
 
 ## Create IMS configurations in Adobe Developer Console
