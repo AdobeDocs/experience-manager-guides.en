@@ -126,7 +126,7 @@ AEM Guides allows your administrators to configure the translation rules. The SR
 
 SRX files should be named as `<language-code>.srx`. For example, en-US, or ar-AE.  
 
->[Note]
+>[!NOTE]
 >The title is not case-sensitive, so you can have 'en-US' or 'en-us' or 'EN-us'. Also, AEM guides can resolve '-' (hyphen) or '_' (underscore). So, you can have 'en-US' or 'en_US'. 
 
 Also, you can put these files inside any folder under AEM assets root that is `./content/dam`. 
