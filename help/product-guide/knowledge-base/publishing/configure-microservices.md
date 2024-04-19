@@ -5,8 +5,8 @@ exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
 ---
-# Configure new microservice-based publishing for AEM Guides as a Cloud Service
-Configure microservice-based publishing with JWT authentication
+# Configure microservice-based publishing with JWT authentication 
+
 
 
 
@@ -17,7 +17,7 @@ Configure microservice-based publishing with JWT authentication
 > As the Service Account (JWT) credentials have been deprecated, so it is recommended to use Adobe IMS OAuth-based authentication. Learn how to [configure microservice-based publishing with OAuth authentication](configure-microservices-imt-config.md) 
 
 
-Microservice-based publishing in AEM Guides supports PDF (both Native and DITA-OT based), HTML5, JSON, and CUSTOM types of output presets.
+Microservice-based publishing in for Adobe Experience Manager Guides as a Cloud Service supports PDF (both Native and DITA-OT based), HTML5, JSON, and CUSTOM types of output presets.
 
 
 As the cloud publishing service is secured by Adobe IMS JWT based authentication, customers should follow the below given steps to integrate their environments with Adobe's secure token-based authentication workflows and start using the new cloud based scalable publishing solution.
@@ -79,7 +79,7 @@ Perform the following steps to add IMS configuration to the environment:
 >
 > You need to open, copy, and  paste the contents of private key and service details JSON file to the value column of the  Configuration panel as shown in the above screenshot.
 
-Once you have added the IMS configuration to the environment, perform the following steps to link these properties with AEM Guides using OSGi: 
+Once you have added the IMS configuration to the environment, perform the following steps to link these properties with Experience Manager Guides using OSGi: 
 
 1. In you cloud manager Git project code, add the below given two files (For file contents, see [Appendix](#appendix)).
 

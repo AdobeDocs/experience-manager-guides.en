@@ -436,7 +436,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-      - [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md)
+      - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
       - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
 
       - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
