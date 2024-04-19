@@ -7,8 +7,7 @@ role: User, Admin
 ---
 # Configure microservice-based publishing with JWT authentication 
 
-
-
+[!BADGE Cloud Service]{type=Informative}
 
 >[!NOTE]
 >
