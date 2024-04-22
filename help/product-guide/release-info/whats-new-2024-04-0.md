@@ -80,7 +80,6 @@ You can easily copy and paste the sample data query in the generators to create 
 
 ### Connect to JSON data files using a file connector 
 
-Now, as an administrator, Experience Guides allows you easily connect to JSON data files using a file connector. You can use the JSON files from your computer or the Adobe Experience Manager assets. Then, as a user, you can create content snippets or topics using the generators.
 
 Now, as an administrator, you can configure a JSON file connector to use JSON data files as a Data Source. Use it to import the JSON files from your computer or the Adobe Experience Manager assets. Then, as a user, you can create content snippets or topics using the generators.
 
