@@ -10,9 +10,9 @@ For the list of issues fixed in this release, view [Fixed issues in the 2024.4.0
 
 Learn about [upgrade instructions for the 2024.4.0 release](upgrade-instructions-2024-04-0.md).
 
-## Create language groups to translate into multiple languages
+## Ability to translate content into multiple languages using preconfigured language groups 
 
-Experience Manager Guides allows you to translate your content into a group of languages. This feature helps you organize and manage translations according to your organization's needs. For example, if you need to translate your content for some countries in Europe, you can create a language group for European languages like English (EN), French (FR), German (DE), Spanish (ES), and Italian (IT).
+Experience Manager Guides now allows you to create language groups and easily translate your content into a multiple languages. This feature helps you organize and manage translations according to your organization's needs. For example, if you need to translate your content for some countries in Europe, you can create a language group for European languages like English (EN), French (FR), German (DE), Spanish (ES), and Italian (IT).
 
 These language groups help you quickly translate your DITA content into the selected languages under various language groups.
 
@@ -20,7 +20,7 @@ These language groups help you quickly translate your DITA content into the sele
 
 *Select the language groups or languages you want to translate your documents.* 
 
-Your admin can create language groups and configure them to particular folder profiles. As a user, you can view the language groups configured to your folder profile.
+As an administrator you can create language groups and configure them to particular folder profiles. As a user, you can view the language groups configured to your folder profile.
 
 
 Overall, creating language groups enhances the efficiency and scalability of translation projects, ultimately improving the localization process across multiple languages.
