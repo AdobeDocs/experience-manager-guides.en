@@ -138,8 +138,7 @@ Once this is done, you can use the microservice-based cloud publishing.
 
 ## FAQs
 
-1. Can a single key be used on multiple cloud environments?
-    * Yes, you can generate one private key and use it for all environments, but you have to configure environment variables for all environments and use the same key.
+
 1. If OSGi configurations to use microservice are enabled, will the publishing process work on the local Experience Manager server with the same codebase?
     * No, if the flag `dxml.use.publish.microservice` is set to `true`, it always looks for microservice configurations. Set `dxml.use.publish.microservice` to `false` for the publishing to work on your local server.
 1. How much memory is allocated to the DITA process when using microservice-based publishing? Is this driven via the DITA profile and parameters?
@@ -155,8 +154,7 @@ Once this is done, you can use the microservice-based cloud publishing.
 
 ```
 {
-  "service.account.details": "$[secret:SERVICE_ACCOUNT_DETAILS]",
-  "private.key": "$[secret:PRIVATE_KEY]"
+"service.account.details": "$[secret:SERVICE_ACCOUNT_DETAILS]",
 }
 ```
 
