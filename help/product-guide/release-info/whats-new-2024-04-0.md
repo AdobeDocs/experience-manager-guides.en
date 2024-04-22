@@ -195,4 +195,4 @@ For more details about the presets, view [Understanding the output presets](../u
 
 ## Deprecated feature
 
-The Service Account (JWT) credentials have been deprecated in favor of the **OAuth Server-to-Server** credentials. Your applications using the Service Account (JWT) credentials will stop working after Jan 1, 2025. You must migrate to the new credential by Jan 1, 2025, to ensure that your application continues functioning. Learn how to [configure microservice-based publishing with OAuth authentication](configure-microservices-imt-config.md). 
+The Service Account (JWT) credentials have been deprecated in favor of the **OAuth Server-to-Server** credentials. Your applications using the Service Account (JWT) credentials will stop working after Jan 1, 2025. You must migrate to the new credential by Jan 1, 2025, to ensure that your application continues functioning. Learn how to [configure microservice-based publishing with OAuth authentication](../knowledge-base/publishing/configure-microservices-imt-config.md). 
