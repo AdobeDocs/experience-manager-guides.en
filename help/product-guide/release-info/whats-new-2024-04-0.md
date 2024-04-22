@@ -86,7 +86,7 @@ Now, as an administrator, you can configure a JSON file connector to use JSON da
 
 This feature helps you use the data stored in your JSON files, reuse it across various snippets, and update it dynamically.
 
-###  Configure multiple resource URLs for a connector to create content snippets or topics
+### Configure multiple resource URLs for a connector to create content snippets or topics
 
 As an administrator, you can configure multiple resource  URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO).
 
@@ -190,7 +190,9 @@ Learn how to [work with the Advanced Map Editor](../user-guide/map-editor-advanc
 You can also download the temporary files generated when you publish the AEM Site, HTML, Custom, JSON, or PDF output through DITA-OT. This feature helps you to analyze any issues that might occur during the output generation process and troubleshoot effectively.  
 You can also download the metadata.xml file if you have selected any metadata properties that have been passed to the output generated using DITA-OT. 
 
-
-
-
 For more details about the presets, view [Understanding the output presets](../user-guide/generate-output-understand-presets.md).
+
+
+## Deprecated feature
+
+The Service Account (JWT) credentials have been deprecated in favor of the **OAuth Server-to-Server** credentials. Your applications using the Service Account (JWT) credentials will stop working after Jan 1, 2025. You must migrate to the new credential by Jan 1, 2025, to ensure that your application continues functioning. Learn how to [configure microservice-based publishing with OAuth authentication](configure-microservices-imt-config.md). 
