@@ -23,7 +23,7 @@ These language groups help you quickly translate your DITA content into the sele
 As an administrator you can create language groups and configure them to particular folder profiles. As a user, you can view the language groups configured to your folder profile.
 
 
-Overall, creating language groups enhances the efficiency and scalability of translation projects, ultimately improving the localization process across multiple languages.
+Overall, creating language groups enhances the efficiency and productivity of translation projects, ultimately improving the localization process across multiple languages.
 
 
 Learn how to [translate documents from the Web Editor](../user-guide/translate-documents-web-editor.md).
@@ -47,19 +47,10 @@ This feature helps you efficiently use resources and manage files after completi
 Learn more about how to [automatically delete or disable the translation project](../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project).
 
 
-## Activate your bulk activation map collection on the publish instance
+## Activate the output for your maps in bulk activation collection on Preview instance
 
-With the Bulk Activation feature, you can quickly and easily activate your content from the authoring instance.  Now, in addition to activating the output for your bulk activation map collection on the publish instance, Experience Manager Gudies as Cloud Services provides the feature to activate it on the Preview instance. 
+Now, in addition to activating the output for your bulk activation collection on the publish instance, Experience Manager Gudies as Cloud Services provides the feature to activate it on the **Preview** instance. 
 
-It also provides the following enhancements for your bulk activation map collection:
-
-* Once the output is activated for the selected map files, the **Audit History** tab is updated, and the latest activated output appears on top. 
-
-* If you generate the output on Experience Manager Guides as a Cloud Service, you can view the output's destination as **Publish** or **Preview**.
-
-* The **Published** column is updated with the publishing date and time.
-
-* The filters in the left panel are updated when you switch from the **Maps and Presets** tab to the Audit History tab and vice versa.
 
 This feature helps you activate your content to a preview instance, allowing you to check how it looks and works before activating it to the **Publish** instance.
 
@@ -73,9 +64,11 @@ Learn how to [activate bulk activation map collection](../user-guide/conf-bulk-a
 
 ## Enhancements in the data source connectors
 
+The following enhancements have been made to the data source connectors for the 2024.4.0 release:
+
 ### Connect to Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources
 
-In addition to the out-of-the-box connectors, Experience Manager Guides also provides connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. As an administrator, you can download and install these connectors and configure them after installing them.
+In addition to the existing out-of-the-box connectors, Experience Manager Guides also provides connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. As an administrator, you can download and install these connectors and configure them after installing them.
 
 ### Copy and paste the sample query to create a content snippet or topic
 
@@ -89,11 +82,13 @@ You can easily copy and paste the sample data query in the generators to create 
 
 Now, as an administrator, Experience Guides allows you easily connect to JSON data files using a file connector. You can use the JSON files from your computer or the Adobe Experience Manager assets. Then, as a user, you can create content snippets or topics using the generators.
 
+Now, as an administrator, you can configure a JSON file connector to use JSON data files as a Data Source. Use it to import the JSON files from your computer or the Adobe Experience Manager assets. Then, as a user, you can create content snippets or topics using the generators.
+
 This feature helps you use the data stored in your JSON files, reuse it across various snippets, and update it dynamically.
 
-### Connect to multiple resources and use the data to create content snippets or topics
+###  Configure multiple resource URLs for a connector to create content snippets or topics
 
-As an administrator, you can add or use multiple resources based on different URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO).
+As an administrator, you can configure multiple resource  URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO).
 
 Then, as a user, connect with them to create content snippets or topics using the generators. This feature is handy as you don't have to create a data source for each URL. It helps you to quickly fetch data from any of the resources for a particular data source in a single content snippet or topic.
 
@@ -103,7 +98,7 @@ Learn how to [use data from your data source](../user-guide/web-editor-content-s
 
 ## UI improvements and a separate tab to change the appearance of the Web Editor
 
-You can now view a separate tab on appearances in the **User Preferences**, which helps you change your preferences easily. The new **Appearance** tab is better organized and more user-friendly. You can configure to view the files by title or filename, and change the theme of the application and the source view. It also helps you configure the settings to locate an open file in the repository view and to handle the non-breaking spaces.
+Configure your preferences easily using the new **Appearance** tab in the **User Preferences** dialog box. The new **Appearance** tab is better organized and more user-friendly. You can configure to view the files by title or filename, and change the theme of the application and the source view. It also helps you configure the settings to locate an open file in the repository view and to handle the non-breaking spaces.
 
 ![appearance tab of user preferences](assets/user_preference_editor_appearance.png){width="550" align="left"}
 
@@ -113,14 +108,16 @@ Learn more about the **User preferences** feature description in the [Left Pan
 
 ## Locate an open file in the repository view of the Web Editor
 
-While editing, you can efficiently navigate and locate your file in the repository view. This feature also helps you quickly view the file's location within the repository hierarchy.
+Configure the **Always locate files in the repository** option in the **User Preferences** to efficiently navigate and locate your file in the repository view. 
+
+While editing, this feature also helps you quickly view the file's location within the repository hierarchy.
 
 For more details, view [locate an open file in the repository view](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view).
 
 
 ## Improved handling of non-breaking spaces in Web Editor
 
-Experience Manager Guides allows you to display an indicator while editing documents in the Web Editor. It also improves the handling of non-breaking spaces. 
+Experience Manager Guides allows you to show a non-breaking space indicator while editing documents in the Web Editor. It also improves the handling of non-breaking spaces. 
 It converts multiple consecutive white spaces into a single space to preserve the WYSIWYG view of the Web Editor. This feature also helps improve the overall appearance and professionalism of the document.
 
 
@@ -129,14 +126,14 @@ For more details, view the [other features of the Web Editor](../user-guide/web-
 
 
 
-## Disable the post processing for a folder uploaded to the Adobe Experience Manager Assets server
+## Disable the postprocessing for selective folders on Adobe Experience Manager Assets
 
 
-As an administrator, you can now disable the post processing and generation of UUIDs when uploading your files and folders to the Experience Manager Assets server. This configuration might be helpful, especially when dealing with many assets or complex folder structures. It also helps multiple users quickly upload assets concurrently without interfering with each other.  
+As an administrator, you can now disable the postprocessing and generation of UUIDs for selective folders on Experience Manager Assets. This configuration might be helpful, especially when dealing with many assets or complex folder structures. It also helps multiple users quickly upload assets concurrently without interfering with each other.  
 
-If you disable the post-processing for a folder, all its child folders are also ignored. However, Experience Manager Guides also allows you to enable the post processing of a child folder under the ignored folder. 
+If you disable the postprocessing for a folder, all its child folders are also ignored. However, Experience Manager Guides also allows you to enable the postprocessing of a child folder under the ignored folder. 
 
-Learn how to [disable post processing for a folder](../cs-install-guide/conf-folder-post-processing.md).
+Learn how to [disable postprocessing for a folder](../cs-install-guide/conf-folder-post-processing.md).
 
 ## Revamped experience to search and filter files in the repository view
 
@@ -149,9 +146,9 @@ Now, you have a an enhanced experience while filtering files. The revamped filte
 
 Learn more about the **Filter Search** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
-## Clear list to view and insert valid elements according to their position
+## Segregated list to view and insert valid elements according to their position
 
-While editing a document in the Web Editor, you can view a clearly split list of valid elements and insert them at the current location. 
+While editing a document in the Web Editor, you can view a segregated list of valid elements and insert them at the current location. 
 
 * **Valid elements at the current location** that you can insert at the current cursor location itself.
 * **Valid elements outside the current location** that you can insert after any of the parents for the current element within the element hierarchy.
@@ -180,7 +177,7 @@ Learn more about the **Content Properties** feature description in the [Right 
 ## Improved performance while checking files in bulk from the Map Editor
 
 Experience Manager Guides improves the performance and experience of the checking-in feature for bulk files from the Map Editor. This improvement helps you check in files in bulk more quickly. 
-You can also view the progress of checking in the topics from the **Save As New Version and Unlock** dialog box. Finally, the success message appears after all selected checked out files are checked-in. 
+You can also view the progress of the check-in operation for the files from the **Save As New Version and Unlock** dialog box. Finally, the success message appears after the operation is complete and all selected checked-out files are checked-in.
 
 ![Save as new version and unlock dialog box](./assets/save-version-lock.png){width="300" align="left"}
 
