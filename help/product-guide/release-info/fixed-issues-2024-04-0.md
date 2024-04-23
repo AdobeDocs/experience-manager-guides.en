@@ -41,12 +41,12 @@ Learn about [upgrade instructions for the 2024.04.0 release](upgrade-instruction
 - Content isn't rendered properly in the published output if `<conref>` is used with an absolute path.
 - AEM Sites URL shortening is not working due to conflicts between the `fmdita rewriter` and `ResourceResolver`. (14793)
 - The **processing-role="resource-only"**, **search="no"**, and **chunk="to-content"** attributes appear irrespectively in AEM Sites output. (14442)
+- If a folder that contains 2k maps is selected as the root map, the changes applied to the output preset fail. (14852) 
 
 ## Management
 
 - Unclosed **Resource Resolvers** cause increasing session count and PathNotFoundException errors post the October 2023 release of Experience Manager Guides as a Cloud Service. (15604)
 - The feature flag **fmdita.useapproval** is not working as expected. (15310)
-- If a folder that contains 2k maps is selected as the root map, the changes applied to the output preset fail. (14852)  
 - Creating a baseline using the Java API does not work with the June 2023 release of Experience Manager Guides as a Cloud Service. (14787)
 - The `/bin/fmdita/import` API remains stuck in pending request indefinitely when the uploading assets exceed 500 MB. (14743)
 
