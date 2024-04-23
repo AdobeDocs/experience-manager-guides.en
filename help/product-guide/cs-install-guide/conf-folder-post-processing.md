@@ -8,7 +8,7 @@ level: Experienced
 
 # Disable postprocessing for a folder 
 
-Experience Manager Guides runs an additional processing, which is called postprocessing. By default, all uploaded assets are processed using the DAM Update Asset workflow. This also helps in generating the UUIDs
+By default, all uploaded assets are processed using the DAM Update Asset workflow. Experience Manager Guides runs an additional processing, called postprocessing, as a part of this workflow. This also helps in generating the UUIDs
 
 While uploading your files and folders to the *Adobe Experience Manager Assets* server, you can also disable the postprocessing and the generation of UUIDs. 
 
@@ -25,9 +25,9 @@ Use the instructions in [Configuration overrides](download-install-additional-co
 |`com.adobe.fmdita.config.ConfigManager`| `enabled.post.processing.paths`|String value to set any standard NODE_OPTIONS (multivalued property, strings with path that omit `/` at the end) <br> **Default Value**: `/content/dam` |
 
 
-## Order of precedence 
+## Rules to enable or disable postprocessing configurations
 
-By default, postprocessing is done for every folder path. Permissions are applied or ignored for any folder in the following order of precedence: 
+By default, postprocessing is done for every folder path under Experience Manager DAM folder. Configurations are applied for any folder according to the following rules: 
 
 * If the parent is ignored for postprocessing but the child folder is enabled, then the child and all its successors are considered enabled.
 * If the parent is enabled for postprocessing but the child is ignored, then the child and all its successors are considered ignored.
