@@ -41,7 +41,7 @@ Learn about [upgrade instructions for the 2024.04.0 release](upgrade-instruction
 - Content isn't rendered properly in the published output if `<conref>` is used with an absolute path.
 - AEM Sites URL shortening is not working due to conflicts between the `fmdita rewriter` and `ResourceResolver`. (14793)
 - The **processing-role="resource-only"**, **search="no"**, and **chunk="to-content"** attributes appear irrespectively in AEM Sites output. (14442)
-- If a folder that contains 2k maps is selected as the root map, the changes applied to the output preset fail. (14852) 
+- If a folder that contains 2k maps is set in the folder path inside any folder profile, the changes applied to the output preset fail.(14852) 
 
 ## Management
 
