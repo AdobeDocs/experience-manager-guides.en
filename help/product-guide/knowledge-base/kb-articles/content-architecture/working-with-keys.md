@@ -67,7 +67,7 @@ Here you have defined two definitions, as shown above, provided a [!UICONTROL ke
   <shortdesc></shortdesc>
   <body>
     <p>This is a sample topic using the keys defined in the global map</p>
-    <p>here i am using the key definition for AEM :<keywordkeyref="AEM"></keyword></p>
+    <p>here i am using the key definition for AEM :<keyword keyref="AEM"></keyword></p>
   </body>
 </topic>
 
