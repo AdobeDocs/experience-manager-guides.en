@@ -8,10 +8,12 @@ level: Experienced
 
 # Disable postprocessing for a folder 
 
-While uploading your files and folders to the *Adobe Experience Manager Assets* server, you can also disable postprocessing and the generation of UUIDs. It allows many users to upload files at the same time without any conflicts. 
+Experience Manager Guides runs an additional processing, which is called postprocessing. By default, all uploaded assets are processed using the DAM Update Asset workflow. This also helps in generating the UUIDs
+
+While uploading your files and folders to the *Adobe Experience Manager Assets* server, you can also disable the postprocessing and the generation of UUIDs. 
 
 
-Use the instructions in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to disable the postprocessing or ignore the postprocessing for a folder:
+Use the instructions in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to disable the postprocessing on a given path or ignore the postprocessing for a folder:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
@@ -25,7 +27,7 @@ Use the instructions in [Configuration overrides](download-install-additional-co
 
 ## Order of precedence 
 
-By default, postprocessing is done for every folder path. Permissions applied directly to a path or inherited from a parent closer in proximity to all its subfolders take precedence over those inherited from a more distant parent:
+By default, postprocessing is done for every folder path. Permissions are applied or ignored for any folder in the following order of precedence: 
 
 * If the parent is ignored for postprocessing but the child folder is enabled, then the child and all its successors are considered enabled.
 * If the parent is enabled for postprocessing but the child is ignored, then the child and all its successors are considered ignored.
