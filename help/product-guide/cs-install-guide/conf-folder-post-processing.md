@@ -25,7 +25,7 @@ Use the instructions in [Configuration overrides](download-install-additional-co
 |`com.adobe.fmdita.config.ConfigManager`| `enabled.post.processing.paths`|String value to set any standard NODE_OPTIONS (multivalued property, strings with path that omit `/` at the end) <br> **Default Value**: `/content/dam` |
 
 
-## Rules to enable or disable postprocessing configurations
+## Rules to enable or disable postprocessing 
 
 By default, postprocessing is done for every folder path under the Experience Manager DAM folder. Configurations are applied for any folder according to the following rules: 
 
