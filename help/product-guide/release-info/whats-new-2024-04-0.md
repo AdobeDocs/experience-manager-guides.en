@@ -76,7 +76,7 @@ In addition to the existing out-of-the-box connectors, Experience Manager Guides
 
 ### Copy and paste the sample query to create a content snippet or topic
 
-You can easily copy and paste the sample data query in the generators to create a content snippet or topic. With this feature, you don't have to remember the syntax or create a manual query. Instead of manually typing out the query, you can copy and paste a sample query, edit it, and use it to fetch the data per your requirements. 
+You can easily copy and paste the sample data query in the generator to create a content snippet or topic. With this feature, you don't have to remember the syntax or create a manual query. Instead of manually typing out the query, you can copy and paste a sample query, edit it, and use it to fetch the data per your requirements. 
 
 ![insert content snippet dialog box](assets/insert-content-snippet.png){width="800" align="left"}
 
