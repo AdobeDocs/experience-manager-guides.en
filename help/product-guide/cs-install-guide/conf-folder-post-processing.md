@@ -27,7 +27,7 @@ Use the instructions in [Configuration overrides](download-install-additional-co
 
 ## Rules to enable or disable postprocessing configurations
 
-By default, postprocessing is done for every folder path under Experience Manager DAM folder. Configurations are applied for any folder according to the following rules: 
+By default, postprocessing is done for every folder path under the Experience Manager DAM folder. Configurations are applied for any folder according to the following rules: 
 
 * If the parent is ignored for postprocessing but the child folder is enabled, then the child and all its successors are considered enabled.
 * If the parent is enabled for postprocessing but the child is ignored, then the child and all its successors are considered ignored.
