@@ -20,7 +20,7 @@ These language groups help you organize and manage your DITA content translation
 
 *Select the language groups or languages you want to translate your documents.* 
 
->[NOTE]
+>[!NOTE]
 >
 >If a language's target folder is missing or the target language is the same as the source, it's grayed out and shows a warning sign.
 
