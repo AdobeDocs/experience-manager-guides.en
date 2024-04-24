@@ -10,7 +10,7 @@ For the list of issues fixed in this release, view [Fixed issues in the 2024.4.0
 
 Learn about [upgrade instructions for the 2024.4.0 release](upgrade-instructions-2024-04-0.md).
 
-## Introducing multilingual content translation using preconfigured language groups 
+## Ability to translate content into multiple languages using preconfigured language groups
 
 Experience Manager Guides now allows you to create language groups and easily translate your content into multiple languages. This feature helps you organize and manage translations according to your organization's needs. 
 
@@ -101,7 +101,7 @@ View more details about the data source connectors and how to [configure a data 
 
 Learn how to [use data from your data source](../user-guide/web-editor-content-snippet.md).
 
-## Customize your Web Editor experience with new user preferences
+## Customize your Web Editor experience with new UI of user preferences
 
 The **User Preferences** dialog box in the Web Editor now includes a new **Appearance** tab. This new tab allows you to conveniently configure the most common look-and-feel preferences in the Web Editor interface.
 
@@ -144,19 +144,22 @@ Learn how to [disable postprocessing for a folder](../cs-install-guide/conf-fold
 
 ## Revamped experience to search and filter files in the repository view
 
-Now, you have an enhanced experience while filtering files. The revamped functionality to filter files provides an improved way to effortlessly search and navigate through files. Enjoy benefits such as quicker access to relevant files and a more intuitive user interface, making your search experience smoother and more efficient. 
+Now, you have an enhanced experience while filtering files. The revamped functionality to filter files provides an improved way to effortlessly search and navigate through files. 
 
-Besides the quick filters for DITA and Non-DITA files, you also have the new **Advanced filter** dialog box that clearly categorizes the general and the advanced filters. 
-The search filters in the **Advanced filter** dialog box are in sync with the search box on the repository window.
 
 ![search files in repository view](assets/repository-filter-search-2404.png){width="300" align="left"}
 
-*Apply filters to search for the files containing the text `general purpose.`*
+*Search for the files containing the text `general purpose.`*
 
+Enjoy benefits such as quicker access to relevant files and a more intuitive user interface, making your search experience smoother and more efficient. 
+
+![quick search filter ](assets/repository-filter-search-quick.png) {width="300" align="left"}
+
+*Use the quick filters to search for DITA and Non-DITA files.*
 
 Learn more about the **Filter Search** feature in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
-## Enhanced element insertion with segregated position-based lists
+## Segregated list to view and insert valid elements according to their position
 
 While editing a document in the Web Editor, you can now view a segregated list of elements that are valid at the current location and outside of the current location. Based on your requirements, you choose an element from the following options:
 
