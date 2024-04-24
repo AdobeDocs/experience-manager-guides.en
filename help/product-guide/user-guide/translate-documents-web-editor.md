@@ -30,19 +30,37 @@ Before performing steps in this procedure, ensure that you have created the requ
 
 ## Create a translation project 
 
-1.  In the Repository panel, open the DITA map file in map view.
-1.  Click the **Manage** tab. The Translation panel displays the **Available Languages** list.
-1.  From the **Available Languages** list, select the locale to which you want to translate your project. You can choose **Select all** to translate your project into all the available languages.
+1.  In the **Repository** panel, open the DITA map file in map view.
+1.  Click the **Manage** tab. The **Translation panel** displays the available language groups.
 
-    >[!NOTE]
-    >
-    > The list contains the language folders along with their language codes. For example, French \(fr\) and German \(de\).
+1. As a user, you can view the language groups configured to your folder profile. The language groups display the language folders along with their language codes. For example, the language group named G1 contains Italian \(it\), German \(de\), French \(fr\), and English \(en\) language folders.
+
+    ![translation panel](images/translation-languages.png){width="300" align="left"}
+
+    *Select the language groups or languages in which you want to translate your documents.* 
+
 
     >[!IMPORTANT]
     >
-    > The list shows only those languages for which a language folder is created parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
+    > You can only select and translate to the languages for which you have created the target folder parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
 
-    ![](images/translation-languages.png){width="300" align="left"}
+    
+
+1. You can select any language group as a target for the translation. If you **Select all**, the selected files are translated into all the available languages within the existing language groups.
+
+    The language folder option appears grayed out and shows a warning sign:
+
+    - If the target folder for a language is missing.
+    - If the target language is the same as the source. 
+
+
+    >[!NOTE]
+    >
+    > If you create the target folder for a language after creating the language group, refresh the browser to enable the language in the language groups.  
+
+1. If you choose a particular language, it appears as selected under all language groups you have selected. So, when you translate to any language, it's translated in one go for all the language groups. For example, if German is present in both G1 and G2 language groups, it's selected for both. 
+
+1. From the **Other languages**, you can choose any language for which you have created the target folder but isn't a part of any language groups. 
 
 1.  You can also select one the following options to translate your project:
 
@@ -108,7 +126,7 @@ AEM Guides allows your administrators to configure the translation rules. The SR
 
 SRX files should be named as `<language-code>.srx`. For example, en-US, or ar-AE.  
 
->[Note]
+>[!NOTE]
 >The title is not case-sensitive, so you can have 'en-US' or 'en-us' or 'EN-us'. Also, AEM guides can resolve '-' (hyphen) or '_' (underscore). So, you can have 'en-US' or 'en_US'. 
 
 Also, you can put these files inside any folder under AEM assets root that is `./content/dam`. 
@@ -183,5 +201,19 @@ Some of the references on your translation dashboard might be in progress status
 Click the name of the reference in the dialog to open it in preview mode. You can also click the translation project to start the translation.
 
 ![](images/translation-in-progress.png){width="550" align="left"}
+
+
+## Automatically delete or disable a completed translation project 
+
+>[!NOTE]
+> 
+>This feature is available for the new translation projects you create using Experience Manager Guides 2404 release or later.  It will not impact any existing projects.
+
+Your administrator can configure the **Translation project cleanup after completion** option under the **Translation** tab in **Editor Settings** to disable or delete the translation projects automatically. 
+
+For effecting document management, Experience Manager Guides provides the ability to delete the translation projects after you have completed the translation. 
+
+You can also disable the translation projects if you want to use them later. Deleting a project deletes all files and folders present in the project. Disabling a project doesn’t delete it but maintains it in the repository. But you can’t update or edit a disabled project.  Deletion or disabling a project will not impact the translation status of any references.
+
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)

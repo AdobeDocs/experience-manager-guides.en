@@ -153,15 +153,25 @@ You may see the following options depending on whether the file is locked/unlock
 
 **Insert MathML equations** 
 
-- AEM Guides gives you an out-of-the-box support for inserting MathML equations by integration with [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) application. To insert a MathML equation, click the **Insert Element** icon and type mathml. When you select mathml element from the list, the Insert MathML dialog is displayed:
+- Experience Manager Guides gives you an out-of-the-box support for inserting MathML equations by integration with [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) application. To insert a MathML equation, select the **Insert Element** icon and type mathml. When you select mathml element from the list, the **Insert MathML** dialog is displayed:
 
-![](images/insert-mathml-equation.png){width="550" align="left"}
+![insert mathml equation in mathml editor](images/insert-mathml-equation.png){width="550" align="left"}
 
-Using the MathML equation tools, create your equation and click Insert to add it to your document. The equation is inserted with light gray background, as shown below:
+Using the MathML equation tools, create your equation and click **Insert** to add it to your document. The equation is inserted with light gray background, as shown below:
 
-![](images/sample-mathml-equation.PNG){width="400" align="left"}
+![sample mathml equation](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 At any time you can update an equation by right-clicking on an existing equation and selecting **Edit MathML** from the context menu.
+
+- **Validation of equations in the MathML editor**
+
+    Experience Manager Guides validates MathML equations when you save a topic containing them.
+    When you insert an equation using the MathML editor, Experience Manager Guides highlights the equation in red if there are any syntax issues. You can correct it before inserting it. If you don't make any changes but select **Insert**, it displays a warning.
+    
+    ![validate mathml equation](images/validate-mathml-equation.png){width="400" align="left"}
+
+    If you insert the MathML equation that contains a syntax error, a validation error occurs when you try to save the topic.
+
 
 **Insert footnotes** 
 
@@ -197,11 +207,30 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
 
 - Unwrapping an element allows you to remove the element tag from the selected text and merge it with its parent element. For example, if you have a `p` element within a `note` element, you can unwrap the `p` element to merge the text directly within the `note` element. The **Unwrap Element** option is available in the context menu of the topic's breadcrumb. To unwrap an element, right-click on the element to open the context menu, then finally select **Unwrap Element** to remove the element and merge the element's text with its parent element.
 
+**White space handling for DITA elements**
+
+- In XML, white spaces include spaces, tabs, carriage returns, and blank lines. Experience Manager Guides converts multiple consequent white spaces into one space. This helps you preserve the WYSIWYG view of the Web Editor. 
+
+    >[!NOTE]
+    >
+    >In some elements where white spaces need to be preserved according to the DITA rules, the multiple consequent white spaces are retained. For example, `<pre>` and `<codeblock>` elements. 
+
+
 **Preserving line breaks and indentation** 
 
 - DITA elements that contain line break and spaces are supported and rendered as per their definition in the Author, Source, or Preview modes, and also in the final published output. The following screenshot shows the content within the `msgblock` element wherein the line breaks and spaces \(indentation\) have been preserved:
 
 ![](images/new-line-support_cs.png){width="500" align="left"}
+
+
+
+**Handling non-breaking spaces in Web Editor** 
+
+- You can insert non-breaking spaces in your document using the **Insert Special Characters**  ![insert special characters icon](images/insert-special-chars-icon.svg) icon or the **Alt** + **Space** shortcut keys.  These non-breaking spaces appear as an indicator while you edit a topic in the Web Editor. You can turn off the display of the non-breaking spaces with the **Show non-breaking space indicator in the author mode** option from the **Appearance** tab of the **User preferences** ![User preferences icon](images/user_preference_editor_icon.svg).. 
+
+- If you copy and paste content with a non-breaking space from any external sources into the **Author** view, the non-breaking space is converted into a space. 
+However, if you copy and paste content with a non-breaking space from the **Author** view, it's preserved.
+
 
 **Auto-generate element ID** 
 

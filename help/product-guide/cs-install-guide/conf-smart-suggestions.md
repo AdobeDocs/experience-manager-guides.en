@@ -10,6 +10,11 @@ As an administrator, you can configure the Smart Suggestions feature for the aut
 ## Create IMS configurations in Adobe Developer Console
 
 Perform the following steps to create IMS configurations in Adobe Developer Console:
+
+  >[!NOTE]
+  >
+  >If you have already created an OAuth project to configure the microservice-based publishing, you can skip the following steps to create the project.
+
 1. Launch [Adobe Developer Console](https://developer.adobe.com/console). 
 1. After successfully logging in to Developer Console, you'll view the **Home** screen. The **Home** screen is where you can easily find information and quick links, including top-navigation links to Projects and Downloads.
 1. To create a new empty project, select  **Create new project** from the  **Quick start** links.
@@ -33,9 +38,20 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
     ![connected credentials](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
     *Connect to the project to view the credential details.*
-1. Copy the CLIENT_ID and CLIENT_SECRET keys.
 
-You have now configured the OAuth authentication details. Keep these two keys handy as these are required in the next section.
+1. Return to the **Projects** tab and select **Project overview** on the left. 
+
+    <img src="assets/project-overview.png" alt="project overview" width=500> 
+    
+    *Get started on the new project.*
+
+1. Click the **Download** button on the top to download the service JSON.
+
+    <img src="assets/download-json.png" alt="download json" width=500> 
+
+    *Download the JSON service details.*
+
+You have configured the OAuth authentication details and downloaded the JSON service details. Keep this file handy as it's required in the next section.
 
 ### Add IMS configuration to the environment
 
@@ -43,10 +59,13 @@ Perform the following steps to add IMS configuration to the environment:
 
 1. Open Experience Manager and then select your program  which contains the environment  you want to configure.
 1. Switch to the **Environments** tab.
-1. Select the environment name which you want to configure. This should navigate you to the Environment Information page.
+1. Select the environment name which you want to configure. This should navigate you to the **Environment Information** page.
 1. Switch to the **Configuration** tab.
-1. Add the CLIENT_ID and CLIENT_SECRET keys as shown in  the following screenshot. Make sure you are using the same names and configuration as highlighted below.
-![Environment configuration](assets/conf-ss-environment.png) {width="800" align="left"}
+1. Update the SERVICE_ACCOUNT_DETAILS JSON field. Ensure you are using the same name and configuration as given in the following screenshot.
+
+  ![ims service account configuration](assets/ims-service-account-config.png){width="800" align="left"}
+ 
+
 *Add the environment configuration details.*
 
 
@@ -56,7 +75,7 @@ Once you have added the IMS configuration to the environment, perform the follow
 
 1. In you cloud manager Git project code, add the below given two files (for file contents, view [Appendix](#appendix)).
 
-    * `com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
+    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
     * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
 1. Ensure that the newly added files are getting covered by your `filter.xml`.
 1. Commit and push your Git changes.
@@ -69,15 +88,13 @@ Once this is done, you should be able to use the smart suggestions feature.
 ## Appendix {#appendix}
 
 **File**: 
-`com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
+`com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 
 **Content**:
 
 ```
 {
-  "client.id": "$[secret:CLIENT_ID]",
-  "client.secret": "$[secret:CLIENT_SECRET]",
-  "ims.url": "https://ims-na1.adobelogin.com"
+ "service.account.details": "$[secret:SERVICE_ACCOUNT_DETAILS]",
 }
 
 ```

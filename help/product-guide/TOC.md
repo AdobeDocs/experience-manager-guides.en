@@ -13,6 +13,10 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2024 Releases {#2024-releases}
+        - 2024.4.0 Release {#2404-release}
+          - [What's new](./release-info/whats-new-2024-04-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2024-04-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2024-04-0.md)
         - 2024.2.0 Release {#2402-release}
           - [What's new](./release-info/whats-new-2024-2-0.md)
           - [Fixed issues](./release-info/fixed-issues-2024-2-0.md)
@@ -109,7 +113,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Other features in the Web Editor](./user-guide/web-editor-other-features.md)
           - [Web Editor views](./user-guide/web-editor-views.md)
           - [Support for Schematron files](./user-guide/support-schematron-file.md)
-          - [AI-powered Smart Suggestions (beta) to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
+          - [AI-powered Smart Suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
           - [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
           - [Add citations to your content](./user-guide/web-editor-apply-citations.md)
           - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)
@@ -311,6 +315,7 @@ breadcrumb-title: AEM Guides Documentation
     - Work with custom DITA-OT and specialization {#custom-dita-ot-spec-cs}
       - [Use custom DITA-OT and DITA specialization](./cs-install-guide/dita-ot-specialization.md)
     - Configure UUID and non-UUID based filenames {#conf-non-uuid-filename-cs}
+      - [Configure post processing for a folder](./cs-install-guide/conf-folder-post-processing.md)
       - [Configure filenames](./cs-install-guide/conf-file-names.md)
       - [Configure auto-filenames based on UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
       - [Configure Regx for valid file name characters](./cs-install-guide/conf-file-names-valid-regx.md)
@@ -435,7 +440,9 @@ breadcrumb-title: AEM Guides Documentation
 
       - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-      - [Configure microservice-based publishing](./knowledge-base/publishing/configure-microservices.md)
+      - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
+      - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
+
       - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
     - Workflows {#workflows}

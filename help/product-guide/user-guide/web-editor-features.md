@@ -216,11 +216,33 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
-- **Translation**: This tab contains the option to propagate the source labels to the target version.
+- **Translation**: This tab contains the options to create language groups, propagate the source labels to the target version, and clean up the translation project. 
+     ![](images/editor-setting-translation.png){width="550" align="left"}
+
+    - **Language Groups**: As an administrator, you can  you can create a group of languages and use them as a set to translate the content.    
+        Perform the following steps to create a new language group: 
+        1. Select the Add ![add icon](images/Add_icon.svg) icon.
+        1. Enter the language group name. Each language should have a unique name. You can view an error if the name field is empty or if the name isn't unique. 
+        1. Select the languages from the dropdown. You can select multiple languages.
+        
+        Type the first few characters of the language, or the language code to filter the desired languages. For example, type ‘en’ to filter all the languages that contain ‘en’ at the beginning of their name or code.
+        1. Select **Done** to add the selected languages to the group. The languages are displayed. When you add three or more languages, **Show more** displays. You can select **Show more** to view all the languages present in the group.
+            >[!TIP]
+            >
+            > Toggle **Show more** to **Show less** and view only a few languages.
+
+        1. Hover over the languages in a group to edit ![edit icon](images/edit_pencil_icon.svg) or delete ![delete](images/Delete_icon.svg) the language groups.
+        1. Save the **Editor settings**.
+
+            >[!NOTE]
+            >
+            >As a user, you can view the language groups configured to your folder profile.
 
     -  **Propagate source version labels to the target version**: Select this option to pass the label of the source file version to the translated file. By default, this is disabled.
-
-    ![](images/editor-setting-translation.png){width="550" align="left"}
+    - **Translation project cleanup after completion**: Select this option to configure the translation projects to be disabled or deleted automatically after the translation. By default, **None** is selected, so the project exists after translation.
+    
+        You can disable the translation projects if you want to use them later. Deleting a project permanently deletes all files and folders present in the project.
+       
 
 - **Metadata**: You can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box.  In the metadata path, specify the location of the nodes from which you want to pick the metadata. You can also define a custom name for the metadata as the label. The default properties are Title, Document State, and Tags.
 
@@ -244,36 +266,48 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     
 
-**User Preferences** - ![](images/user_preference_editor_icon.svg)
+**User preferences** - ![user preferences icon](images/user_preference_editor_icon.svg)
 
-The User Preferences are available to all authors. Using the preferences, an author can configure the following settings:
+The User preferences are available to all authors. Using the preferences, an author can configure the following settings:
 
-![](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Use device theme**: Select this checkbox to allow AEM Guides automatically switch between light and dark themes based on the theme of your device. 
 
-- **View files by**: Select the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels in the **Author** view. 
-    >[!NOTE]
-    >
-    > By default, the files are displayed by title in the Web Editor.
+- **General**: The General tab allows you to configure the following settings:
 
-- **Theme**: You can choose from the Light, Lightest, Dark, or Darkest themes for the editor. In case of Lightest theme, the toolbars and panels use more lighter gray color background. In case of Light theme, the toolbars and panels use light gray color background. In case of Darkest theme, the toolbars and panels use more darker black color background. In case of Dark theme, the toolbars and panels use black color background. In all themes, the content editing area is shown in white color background.
+    ![General tab of user preferences](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Folder Profiles**: The Folder Profile controls various configurations related to conditional attributes, authoring templates, output presets and the Web Editor configurations. The Global Profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder Profiles list.
+    - **Folder Profiles**: The Folder Profile controls various configurations related to conditional attributes, authoring templates, output presets and the Web Editor configurations. The Global Profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder Profiles list.
 
-    The Web Editor's configurations that an administrator can define in the folder profile include: customizing user interface including the toolbar icons, Web Editor's layout, snippets, and root map. For more details, see *Configure global or folder-level profiles* in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+        The Web Editor's configurations that an administrator can define in the folder profile include: customizing user interface including the toolbar icons, Web Editor's layout, snippets, and root map. For more details, see *Configure global or folder-level profiles* in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-    >[!NOTE]
-    >
-    > The name of the current Folder Profile is displayed as a label for the User Preferences icon in the main toolbar.
+        >[!NOTE]
+        >
+        > The name of the current Folder Profile is displayed as a label for the User preferences icon in the main toolbar.
 
-- **Base Path**: By default, when you access the AEM repository from the Web Editor, you are shown assets from the /content/dam location. Your working folder would most likely be a few folders inside the /content/dam/ folder. It would take you a few clicks to reach the working folder every time. You can set the Base Path to your working folder and the Repository View then shows you the content from that location upfront. This reduces the time to access your working folder. Also, when you insert any reference or media file in your topic, the file browse location starts with the folder set in the Base Path.
+    - **Base Path**: By default, when you access the AEM repository from the Web Editor, you are shown assets from the /content/dam location. Your working folder would most likely be a few folders inside the /content/dam/ folder. It would take you a few clicks to reach the working folder every time. You can set the Base Path to your working folder and the Repository View then shows you the content from that location upfront. This reduces the time to access your working folder. Also, when you insert any reference or media file in your topic, the file browse location starts with the folder set in the Base Path.
 
-- **Select Root Map**: Select a DITA map file to resolve key references or glossary entries. The selected root map takes the highest precedence to resolve key references. For more details, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
+    - **Select Root Map**: Select a DITA map file to resolve key references or glossary entries. The selected root map takes the highest precedence to resolve key references. For more details, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
 
->[!NOTE]
-> 
-> If you do not want to use any root map, then ensure that the **Select Root Map** field is blank.
+        >[!NOTE]
+        >    
+        > If you do not want to use any root map, then ensure that the **Select Root Map** field is blank.
+
+- **Appearance**: Select the themes for the Web Editor application and the source view of the content editing area.
+    
+    ![appearance tab of user preferences](images/user_preference_editor_appearance.png){width="550" align="left"}
+
+    - **View files by**: Select the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels in the **Author** view. 
+        >[!NOTE]
+        >
+        > By default, the files are displayed by title in the Web Editor.
+    
+    - **Application theme**: You can choose from the **Light** or **Dark** themes for the application. In the case of the **Light** theme, the toolbars and panels use a light gray color background. In the case of the **Dark** theme, the toolbars and panels use a black color background. Select **Use device theme** to allow Experience Manager Guides to select the light and dark themes based on the theme of your device.  In all themes, the content editing area is shown in white color background in the **Author** view.
+
+    - **Source view theme**:  -  You can choose from the **Light** or **Dark** themes for the content editing area in source view. In the case of the **Light** theme, the content editing area uses a light gray color background for the source view while in the case of **Dark** theme, it uses a black color background. Select **Use device theme** to allow Experience Manager Guides to select the light and dark themes based on the theme of your device.  
+    
+    - **Always locate files in the repository**: Select this option to show the location of a file in the repository while editing it in the Web Editor.
+
+    - **Show non-breaking space indicator in the author mode**: Select this option to show an indicator for the non-breaking spaces while editing it in the Web Editor. It's enabled by default.
 
 **Author, Source, and Preview modes**
 
@@ -285,7 +319,19 @@ The secondary toolbar appears when you open a topic for editing in the Web Edito
 
 **Insert Element** - ![](images/Add_icon.svg)
 
-Inserts a valid element at the current or next valid location. You can also use the keyboard shortcut ***Alt***+***Enter*** to open the Insert Element pop-up. For example, you are editing a paragraph, then in the **Insert Element** pop-up, a list of elements appears that can be inserted in the paragraph. Select the element that you want to insert. You can use the keyboard to scroll through the list of elements and press ***Enter*** to insert the required element. You can also type a character or string in the search box and search for the elements that begin with it.
+Inserts a valid element at the current or next valid location. You can also use the keyboard shortcut ***Alt***+***Enter*** to open the Insert Element pop-up. For example, you are editing a paragraph, then in the **Insert Element** pop-up, a list of elements appears that can be inserted in the paragraph. Select the element that you want to insert. You can use the keyboard to scroll through the list of elements and press ***Enter*** to insert the required element. 
+
+You can view two types of valid elements: 
+
+- **Valid elements at the current location**: The list displays the elements that you can insert at the current cursor location itself.  
+
+- **Valid elements outside the current location**: The list displays the elements that you can insert after any of the parents for the current element within the element hierarchy.   
+
+ 
+
+For example, if you are within the inline `<b>` element, you can insert elements like `<u>`, `<xref>`, `<i>` at the current location. In contrast, you can insert elements like `<table>` and `<topic>` outside the current location. 
+
+You can also type a character or string in the search box and search for the elements that begin with it.
 
  
 ![insert element](images/insert-element.png){width="300" align="left"}
@@ -797,7 +843,7 @@ If you work on a set of files or folders, you can add them to your favorite list
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of files by filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User Preferences** ![](images/user_preference_editor_icon.svg).
+> As an administrator, you can also choose to view the list of files by filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
 
 To create a favorite list or collection, click the + icon next to Favorites panel to bring up the New Collection dia log:
 
@@ -842,7 +888,7 @@ When you click the Repository View icon, you get a list of files and folders ava
 
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of files by filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User Preferences** ![](images/user_preference_editor_icon.svg).
+> As an administrator, you can also choose to view the list of files by filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
 
 
 75 files are loaded at a time. Each time you click **Load more**… 75 files are loaded, and the button stops being displayed when all the files have been listed. This batch loading is efficient, and you can access the files faster in comparison to loading all the files existing in a folder.
@@ -859,22 +905,70 @@ speed, or view picture in picture.
 
 **Filter Search**
 
-The Web Editor provides enhanced filters for searching text. Click the Filter Search \(![](images/filter-search-icon.svg)\)icon to open the filters panel. You can search for a text in the files present on the selected path of the AEM repository. For example, 'general purpose' is searched in the below given screenshot.
+The Web Editor provides enhanced filters for searching text. You can search and filter for a text in the files present on the selected path of the Adobe Experience Manager repository. It searches in the title, filename, and content in the files.
 
-![](images/repository-filter-search.png){width="400" align="left"}
 
-You also have the following options to filter the files and to narrow down your search in the AEM repository:
+![search files in repository view](images/repository-filter-search.png){width="300" align="left"}
 
-- **DITA Files**: You can look for all **DITA Topics** and **DITA Maps** present on the selected path.
-- **Non-DITA Files**: You can search for **Image Files**, **Multimedia**, and **Documents** in the selected path.
-- **DITA Elements**: You can also search for specific values in the attributes of the specified DITA elements.
-- **Checked Out By**: You can look for files which are checked out by the specified user.
-- **Last Modified**: You can look for files that have been last modified after a selected date but before a selected date. You can also look for files that have been last modified in the last 2 hours, last week, last month, or last year.
-- **Tags**: You can look for files that have specific tags applied on them. You can either type the tag or select it from the dropdown list.
+*Apply filters to search for the files containing the text `general purpose.`* 
 
-**Note:** Your system administrator can also configure the text filters and show or hide other filters. For more details see *Configure text filters* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+ Select the **Filter Search** \(![Search filter icon](images/filter-search-icon.svg)\) icon to open the Filter by pop-up. 
 
-The list of filtered files which contain the searched text is displayed. For example, in the above screenshot the files containing the text 'general purpose' are listed. You can select multiple files from the filtered list to drag and drop them in a map opened for editing.
+>[!NOTE]
+>
+> When you search any text or filter any files, a blue dot appears on the **Filter Search**  \(![Search filter icon](images/filter-search-icon.svg)\) icon to indicate that we are on the search panel and that some filters have been applied.
+
+
+You have the following options to filter the files and to narrow down your search in the Adobe Experience Manager repository:
+
+- **DITA Files**: You can look for all **DITA Topics** and **DITA Maps** present on the selected path. These are selected by default.
+- **Non-DITA Files**: You can search for **Ditaval Files**,  **Image Files**, **Multimedia**, **Documents**, and **Json** in the selected path.
+
+![quick search filter ](images/repository-filter-search-quick.png) {width="300" align="left"}
+
+*Use the quick filters to search for DITA and Non-DITA files.*
+
+**Advanced Filtering**
+
+Select the **Advanced Filtering** ![advanced filter icon](images/advanced-filter-gear-icon.svg)icon to view the **Advanced filter** dialog box. 
+
+You can view the following options under the **General** and **Advanced** tabs.  
+
+![advanced filter dialog box](images/repository-filter-search-advanced.png) {width="800" align="left"}
+
+
+**General**
+
+- **Search results will be as follows**:  Search for some text in the files present on the selected path of the Adobe Experience Manager repository. The text is searched in the title, filename, and content in the files.
+
+This is in sync with the search box on the repository window. For example, if you type `general purpose` in the search box on the repository panel,  it also appears in the **Advanced filter** dialog box and vice versa.
+
+- **Search in**: Select the path where you want to search the files present in the Adobe Experience Manager repository. 
+
+- **Checked Out By**: You can look for files the specified user checks out.
+- **Last Modified**: You can look for files that have been last modified after a selected date but before a selected date. 
+- **Modified before**: You can look for files that have been last modified before a selected date.
+- **Time frame**: You can also look for files that have been last modified in the last two hours, last week, last month, or last year.
+- **Tags**: You can look for files that have specific tags applied to them. You can either type the tag or select it from the dropdown list.
+
+**Advanced**
+
+- **DITA Elements**: You can also search for specific values in the attributes of the specified DITA elements. 
+    - Select **Add element** ![add icon](images/Add_icon.svg) to add the elements, attributes, and values.  
+    - Apply the filters that you have selected. 
+
+- Select **Clear all** to clear all the applied filters. 
+
+
+- Select the **Close filter** ![close icon](images/close-icon.svg) icon to close the filter and return to the tree view of the repository.
+    >[!NOTE]
+    >
+    >Your system administrator can also configure the text filters and show or hide other filters. For more details see *Configure text filters* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+
+    The list of filtered files that contain the searched text is displayed. For example, the files containing the text `general purpose` are listed in the previous screenshot. You can select multiple files from the filtered list to drag and drop them into a map opened for editing.
+
+
+
 
 **Options menu**
 
@@ -891,7 +985,7 @@ You can perform the following actions using the Options menu available for a *fo
 
 
 
-- **Upload Assets**: Upload a file from your local system to the selected folder in AEM repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
+- **Upload Assets**: Upload a file from your local system to the selected folder in Adobe Experience Manager repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
 
     ![](images/upload-assets.png){width="550" align="left"}
 
@@ -1110,7 +1204,7 @@ When you click the Map View icon, you get a list of topics within the map file. 
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 >[!NOTE] 
 >
->As an administrator, you can also choose to view the filename of the parent map which is currently opened in the map view. Select the **File name** option of the **View files by** section in **User Preferences** ![](images/user_preference_editor_icon.svg).
+>As an administrator, you can also choose to view the filename of the parent map which is currently opened in the map view. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
 
 
 When you open a map in the map view, the title of the current map is displayed in the centre of the main toolbar. If the title is too long, then an ellipsis is displayed and you can also hover over the title to see the full title in the tool tip. 
@@ -1293,7 +1387,7 @@ You can simply drag-and-drop reusable content from the panel onto your current t
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of files by filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User Preferences** ![](images/user_preference_editor_icon.svg).
+> As an administrator, you can also choose to view the list of files by filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
 
 To add a DITA file to your Reusable Contents panel, use any of the following methods:
 
@@ -1458,7 +1552,7 @@ The following example shows how to use subject scheme in AEM Guides.
 
     ![](images/subject-scheme-root-map.png){width="550" align="left"}
 
-1. Set the parent map as the root map in the **User Preferences**. Once this map is added as your root map, the subject scheme is then shown in the Subject Scheme panel.
+1. Set the parent map as the root map in the **User preferences**. Once this map is added as your root map, the subject scheme is then shown in the Subject Scheme panel.
 
     ![](images/subject-scheme-user-preferences.png){width="400" align="left"}
 
@@ -1574,7 +1668,7 @@ For example, use the following enumeration to restrict the `@platform` attribute
 </details>
 
 
-**Attributes drop-down**
+**Attributes** drop-down
 
 You can also change the value of the subject scheme using the **Attributes** dropdown from the **Content Properties** panel in the **Author** view. 
     ![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
@@ -1655,7 +1749,7 @@ By default, you can view the files by titles. As you hover over a template, you 
 
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of files in the Web Editor. Select the **File name** option of the **View files by** section in **User Preferences** ![](images/user_preference_editor_icon.svg).
+> As an administrator, you can also choose to view the list of files in the Web Editor. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
 
 To create a template, Click the + icon next to Templates and choose a template that you want to create. If you select **Topic Template**, the Create New Topic Template dialog appears:
 
@@ -1677,7 +1771,7 @@ AEM Guides provides the feature to display all the review tasks in your projects
 The review panel displays the review tasks. By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of files by filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User Preferences** ![](images/user_preference_editor_icon.svg).
+> As an administrator, you can also choose to view the list of files by filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
 
 As an author, you can address the comments in a topic using the Web Editor. 
 
@@ -1720,7 +1814,7 @@ The Find and Replace icon is found at the bottom of the left panel. The Find and
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User Preferences** ![](images/user_preference_editor_icon.svg).
+> As an administrator, you can also choose to view the list of filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
 
 To perform the global search and replace, perform the following steps:
 
@@ -1810,7 +1904,7 @@ The content editing area is where the content of your topic or map is displayed.
 By default, you can view the file titles in the tabs. As you hover over a file, you can view the file title and the file path as a tooltip.   
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of files by filenames in the tabs. Select the **File name** option of the **View files by** section in **User Preferences** ![](images/user_preference_editor_icon.svg).
+> As an administrator, you can also choose to view the list of files by filenames in the tabs. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
 
  Below the file's tab, you have the breadcrumb of the element at current cursor location. On the top-right corner of the content editing area, the version number of the current topic is displayed.
 
@@ -1826,10 +1920,13 @@ The right panel is a persistent panel which contains information about the curre
 
 The right panel gives you access to the following features:
 
-**Content Properties** -  ![](images/content-properties-icon.svg)
+**Content Properties** -  ![content poperties](images/content-properties-icon.svg)
 
-You can access the Content Properties feature by clicking the Content Properties icon in the right panel. The Content Properties panel contains information about the type of currently selected element in the document and its attributes. 
-You can easily add, edit, or delete the attributes.
+You can access the **Content Properties** feature by selecting the **Content Properties** icon in the right panel. The **Content Properties** panel contains information about the type of currently selected element in the document and its attributes. 
+
+**Type**: You can view and select the tags of the complete hierarchy for the current tag from the dropdown.
+
+**Attributes**: The **Attributes** dropdown panel is available in Layout, Author, and Source views. You can easily add, edit, or delete the attributes.
 
 1. Click **+ Add**. 
 
@@ -1888,7 +1985,7 @@ The References section gives you access to the following features:
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of files by filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User Preferences** ![](images/user_preference_editor_icon.svg).
+> As an administrator, you can also choose to view the list of files by filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
 
 **Note:** All Used In and Outgoing references are hyperlinked to the documents. You can easily open and edit the linked documents.
 

@@ -43,5 +43,6 @@ There are many operations in the Web Editor that you can perform using the keybo
 |Open Print dialog|***Ctrl***+**P**|***Command***+**P**|
 |Undo last action|***Ctrl***+**Z**|***Command***+**Z**|
 |Redo last action|***Ctrl***+**Y**|***Command***+**Y**|
+|Insert non-breaking space `(&nbsp;)`  |***Alt***+**Space**|***Option***+**Space**|
 
 **Parent topic:** [Work with the Web Editor](web-editor.md)
