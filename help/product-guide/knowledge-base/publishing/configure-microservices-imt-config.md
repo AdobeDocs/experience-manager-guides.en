@@ -3,6 +3,7 @@ title: Configure Microservice-based publishing with OAuth Authentication for AEM
 description: Learn how to configure microservice-based publishing with OAuth authentication for AEM Guides.
 feature: Microservice in AEM Guides
 role: User, Admin
+exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
 ---
 # Configure microservice-based publishing with OAuth authentication
 
