@@ -66,7 +66,7 @@ This feature helps you activate your content to a preview instance, allowing you
 *View the information about the activated map outputs in the **Audit History** tab.*
 
 
-Learn more about  [bulk activation of map collection](../user-guide/conf-bulk-activation-publish-map-collection.md).
+Learn more about  [bulk activation](../user-guide/conf-bulk-activation-publish-map-collection.md).
 
 ## Enhancements in the data source connectors
 
@@ -74,7 +74,7 @@ The following enhancements have been made to the data source connectors for the 
 
 ### Connect to Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources
 
-In addition to the existing out-of-the-box connectors, Experience Manager Guides also provides connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. As an administrator, you can download and install these connectors and configure them to use the data from them.
+In addition to the existing out-of-the-box connectors, Experience Manager Guides also provides connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. As an administrator, you can download and install these connectors. Then, configure the installed connectors.
 
 ### Copy and paste the sample query to create a content snippet or topic
 
