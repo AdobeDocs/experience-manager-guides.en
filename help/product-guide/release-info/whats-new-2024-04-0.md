@@ -165,11 +165,13 @@ While editing a document in the Web Editor, you can now view a segregated list o
 
 ![Insert element dialog](assets/insert-element-dialog.png){width="300" align="left"}
 
+*View the segregated lists of valid elements to insert an element at the current location.* 
+
+
 This split list of valid elements helps you maintain the content structure and follow the DITA standards. 
 
 Learn more about the **Insert Element** feature in the [Secondary toolbar](../user-guide/web-editor-features.md#2051ea0j0y4) section. 
 
-*View the segregated lists of valid elements to insert an element at the current location.* 
 
 ## Content Properties Type appears as a dropdown menu
 
