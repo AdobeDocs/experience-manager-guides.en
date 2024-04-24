@@ -225,7 +225,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
         1. Enter the language group name. Each language should have a unique name. You can view an error if the name field is empty or if the name isn't unique. 
         1. Select the languages from the dropdown. You can select multiple languages.
         
-        Type the first few characters of the language, or the language code to filter the desired languages. For example, type ‘en’ to filter all the languages that contain ‘en’ at the beginning of their name or code.
+        Type the first few characters of the language, or the language code to filter the desired languages. For example, type 'en' to filter all the languages that contain 'en' at the beginning of their name or code.
         1. Select **Done** to add the selected languages to the group. The languages are displayed. When you add three or more languages, **Show more** displays. You can select **Show more** to view all the languages present in the group.
             >[!TIP]
             >
@@ -336,7 +336,7 @@ You can also type a character or string in the search box and search for the ele
  
 ![insert element](images/insert-element.png){width="300" align="left"}
 
-*Enter ‘t’ to search for all valid elements that begin with ‘t’.*
+*Enter 't' to search for all valid elements that begin with 't'.*
 
 If you are working inside a block element like a `note`, then use the Insert Element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
 
@@ -2012,3 +2012,4 @@ Using the Tracked Changes feature of the right panel, you can view the informati
 > Tracked Changes feature shows all updates that have been tracked using the Enable/Disable Track Changes feature of the main toolbar. For more details, see [Enable/Disable Track Changes](#id205DF0203Y4).
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
+

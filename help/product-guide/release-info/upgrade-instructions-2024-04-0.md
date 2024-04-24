@@ -124,3 +124,4 @@ Experience Manager Guides has a [**custom sling rewriter**](../cs-install-guide/
 If you have another custom sling rewriter in your codebase, use an `'order'` value greater than 50, as Experience Manager Guides sling rewriter uses `'order'` 50. To override this, you need a value >50. For more details, view [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 During this upgrade, since the `'order'` value is changed from 1000 to 50, you need to merge the existing custom rewriter, if any, with `fmdita-rewriter`.
+

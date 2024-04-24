@@ -79,3 +79,4 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |PID|Property Key|Property Value|
 |---|------------|--------------|
 |`com.adobe.fmdita.config.ConfigManager`|`postprocess.temporary.langcopies`|Boolean: <br> -   If you do not want to run the post-processing operation on the temporary files, then *Disable* \( false\) the **Post-process language copies** option.<br> -   If you want to run the post-processing operation on the temporary files, then *Enable* \( true\) the **Post-process language copies** option.<br> **Default value**: false|
+

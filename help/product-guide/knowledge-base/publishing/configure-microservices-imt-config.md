@@ -17,9 +17,6 @@ For each publishing request, Experience Manager Guides as a Cloud Service runs a
 As the cloud publishing service is secured by Adobe IMS OAuth-based authentication, perform the following steps to integrate their environments with Adobe's secure token-based authentication workflows and start using the cloud-based scalable publishing solution.
 
 
-
-
-
 ## Create IMS configurations in Adobe Developer Console
 
 **Role required to create the configurations**: System Administrator

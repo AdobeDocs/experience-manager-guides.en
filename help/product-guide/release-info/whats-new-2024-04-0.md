@@ -217,3 +217,4 @@ The Service Account (JWT) credentials have been deprecated in favor of the **OAu
 
 
 The cloud publishing service for Experience Manager Guides is now secured by Adobe IMS OAuth-based authentication. Learn how to [configure microservice-based publishing with OAuth authentication](../knowledge-base/publishing/configure-microservices-imt-config.md). 
+
