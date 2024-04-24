@@ -227,16 +227,17 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
         
         Type the first few characters of the language, or the language code to filter the desired languages. For example, type 'en' to filter all the languages that contain 'en' at the beginning of their name or code.
         1. Select **Done** to add the selected languages to the group. The languages are displayed. When you add three or more languages, **Show more** displays. You can select **Show more** to view all the languages present in the group.
-            >[!TIP]
-            >
-            > Toggle **Show more** to **Show less** and view only a few languages.
+
+           >[!TIP]
+           >
+           > Toggle **Show more** to **Show less** and view only a few languages.
 
         1. Hover over the languages in a group to edit ![edit icon](images/edit_pencil_icon.svg) or delete ![delete](images/Delete_icon.svg) the language groups.
         1. Save the **Editor settings**.
 
-            >[!NOTE]
-            >
-            >As a user, you can view the language groups configured to your folder profile.
+           >[!NOTE]
+           >
+           >As a user, you can view the language groups configured to your folder profile.
 
     -  **Propagate source version labels to the target version**: Select this option to pass the label of the source file version to the translated file. By default, this is disabled.
     - **Translation project cleanup after completion**: Select this option to configure the translation projects to be disabled or deleted automatically after the translation. By default, **None** is selected, so the project exists after translation.
@@ -296,10 +297,11 @@ The User preferences are available to all authors. Using the preferences, an aut
     
     ![appearance tab of user preferences](images/user_preference_editor_appearance.png){width="550" align="left"}
 
-    - **View files by**: Select the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels in the **Author** view. 
-        >[!NOTE]
-        >
-        > By default, the files are displayed by title in the Web Editor.
+    - **View files by**: Select the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels in the **Author** view.
+
+      >[!NOTE]
+      >
+      > By default, the files are displayed by title in the Web Editor.
     
     - **Application theme**: You can choose from the **Light** or **Dark** themes for the application. In the case of the **Light** theme, the toolbars and panels use a light gray color background. In the case of the **Dark** theme, the toolbars and panels use a black color background. Select **Use device theme** to allow Experience Manager Guides to select the light and dark themes based on the theme of your device.  In all themes, the content editing area is shown in white color background in the **Author** view.
 
@@ -840,7 +842,9 @@ The left panel gives you access to the following features:
 **Favorites** -  ![](images/favorite-collections.svg)
 
 If you work on a set of files or folders, you can add them to your favorite list to access them quickly. The Favorite list shows the list of documents that you have added and other publicly accessible list of favorite documents from the other users.
-By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
+
+By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.
+
 >[!NOTE]
 >
 > As an administrator, you can also choose to view the list of files by filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
@@ -872,6 +876,7 @@ To add a file to your favorite collection, use any of the following methods:
 You can also perform many actions using the Options menu available for a Favorites collection: 
 
 ![](images/favorites-options.png){width="400" align="left"}
+
 - **Rename**: Rename the selected collection. 
 - **Delete**: Delete the selected collection.  
 - **Refresh**: Get a fresh list of files and folders from the repository. 
@@ -901,7 +906,7 @@ speed, or view picture in picture.
 
 
 
- Select a map and press Enter or double-click to open it in the **Map View**. For more details, see the **Map View** feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section. Select a topic and press Enter or double-click to open it in the [Content editing area](#id2051EB000UI). Being able to navigate and open a file directly from the Web Editor saves time and increases productivity. 
+Select a map and press Enter or double-click to open it in the **Map View**. For more details, see the **Map View** feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section. Select a topic and press Enter or double-click to open it in the [Content editing area](#id2051EB000UI). Being able to navigate and open a file directly from the Web Editor saves time and increases productivity. 
 
 **Filter Search**
 
@@ -961,11 +966,12 @@ This is in sync with the search box on the repository window. For example, if yo
 
 
 - Select the **Close filter** ![close icon](images/close-icon.svg) icon to close the filter and return to the tree view of the repository.
+
     >[!NOTE]
     >
     >Your system administrator can also configure the text filters and show or hide other filters. For more details see *Configure text filters* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
-
-    The list of filtered files that contain the searched text is displayed. For example, the files containing the text `general purpose` are listed in the previous screenshot. You can select multiple files from the filtered list to drag and drop them into a map opened for editing.
+    >
+    >The list of filtered files that contain the searched text is displayed. For example, the files containing the text `general purpose` are listed in the previous screenshot. You can select multiple files from the filtered list to drag and drop them into a map opened for editing.
 
 
 
@@ -1063,6 +1069,7 @@ The various options in the Options menu are explained below:
     ![](images/rename-move-asset.png){width="550" align="left"}
 
     >[!NOTE]
+    >
     > You can also drag and drop a file to another destination folder. 
 
     **Exclusion scenarios**   
@@ -1073,7 +1080,8 @@ The various options in the Options menu are explained below:
 
     - If any other user checks out the file, you cannot rename or move it, you will not see the Rename or Move to option for the file. 
 
-    >[!NOTE] 
+    >[!NOTE]
+    >
     > If your administrator has given you the permissions on a folder, only then the **Rename** or **Move to** options are displayed. 
 
     <details>
@@ -1201,7 +1209,8 @@ Enter a **Title** for the folder, which is auto-converted into the folder name. 
 
 When you click the Map View icon, you get a list of topics within the map file. If you have not opened any map file, then the Map View appears blank. Double-clicking on any map file opens the map file in this view. You can double-click on any file within the map to open it in the Web Editor.
 
-By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
+By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.
+
 >[!NOTE] 
 >
 >As an administrator, you can also choose to view the filename of the parent map which is currently opened in the map view. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
@@ -1251,24 +1260,23 @@ You can perform the following actions using the Options menu of the map file:
 
 - **View in Assets UI**: Use this to show a preview of the map file in the Assets UI. In this view, all topic files within the map are shown in a single unified page-by-page view.
 - **Download Map**: Select this option to open the **Download Map** dialog box. 
+
 In the **Download Map** dialog box, you can choose the following options:
-    - **Use Baseline**: Select this option to get a list of Baselines created for the DITA map. If you want
-    to download the map file and its contents based on a specific Baseline, select the Baseline
-    from the drop-down list. For more details about working with Baselines, view [work with Baseline](./generate-output-use-baseline-for-publishing.md).
-    - **Flatten File Hierarchy**: Select this option to save all referenced topics and media files in a single folder.
-    
-     You can also download the map file without selecting any option. In that case, the last persisted versions of the referenced topics and media files are downloaded.
 
+- **Use Baseline**: Select this option to get a list of Baselines created for the DITA map. If you want to download the map file and its contents based on a specific Baseline, select the Baseline from the drop-down list. For more details about working with Baselines, view [work with Baseline](./generate-output-use-baseline-for-publishing.md).
+- **Flatten File Hierarchy**: Select this option to save all referenced topics and media files in a single folder.
+ 
+  You can also download the map file without selecting any option. In that case, the last persisted versions of the referenced topics and media files are downloaded.
+   
+  After you click the **Download** button, the map export package request is queued. The **Success** dialog box is displayed if the package is created successfully.  You can click the **Download** button from the **Success** dialog box. 
     
-    After you click the **Download** button, the map export package request is queued. The **Success** dialog box is displayed if the package is created successfully.  You can click the **Download** button from the **Success** dialog box. 
-    
-    You receive the map download-ready notification if the map is ready to download. In case the download fails, you receive the notification that the map download failed.
+  You receive the map download-ready notification if the map is ready to download. In case the download fails, you receive the notification that the map download failed.
 
-    You can access the download link from the AEM notification Inbox. Select the generated map notification in the Inbox to download the map in .zip format.
+  You can access the download link from the AEM notification Inbox. Select the generated map notification in the Inbox to download the map in .zip format.
 
-    >[!NOTE]
-    >
-    >  By default, the downloaded maps remain for five days in the AEM notification Inbox.
+  >[!NOTE]
+  >
+  >  By default, the downloaded maps remain for five days in the AEM notification Inbox.
 
 - **Generate Output**: Generate the output for the selected map file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 - **Close**: Closes the map file.
@@ -1328,7 +1336,7 @@ The Outline View offers the following features:
 
 - A tree view of all elements used in the document.
 
--  If an element has an ID, attribute, and text you can see them along with the element.
+- If an element has an ID, attribute, and text you can see them along with the element.
 
 - Access Outline View in both Author and Source views.
 
@@ -1384,7 +1392,8 @@ One of the main features of DITA is the ability to reuse content. The Reusable C
 
 You can simply drag-and-drop reusable content from the panel onto your current topic and it gets inserted easily and quickly. You can also get a preview of the content before inserting it in your document.
 
-By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
+By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.
+
 >[!NOTE]
 >
 > As an administrator, you can also choose to view the list of files by filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
@@ -1768,7 +1777,9 @@ Using the Options menu on an existing template, you can choose to **Edit** or **
 **Review** -  ![](images/active-review-tasklist-icon.svg)
 
 AEM Guides provides the feature to display all the review tasks in your projects. You can view all the review projects and the active review tasks within the review projects, that you're part of from the **Review** panel.  You can then open the review tasks to view the comments of the various reviewers. 
-The review panel displays the review tasks. By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
+
+The review panel displays the review tasks. By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.
+
 >[!NOTE]
 >
 > As an administrator, you can also choose to view the list of files by filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
@@ -1800,10 +1811,11 @@ To view the review comments in the active review tasks that are present in your 
 ![](images/active-review-task-comments.png){width="800" align="left"} 
 
 
-    >[!NOTE]
-    > 
-    > The **Review** panel and the **Comments** panel are in sync at all times. In the Comments panel, the comments are loaded based on the review task loaded in the Review panel. 
-    > For more information about how to address the comments, view [Address review comments](review-address-review-comments.md#).
+   >[!NOTE]
+   > 
+   > The **Review** panel and the **Comments** panel are in sync at all times. In the Comments panel, the comments are loaded based on the review task loaded in the Review panel. 
+   >
+   > For more information about how to address the comments, view [Address review comments](review-address-review-comments.md#).
 
 **Find and Replace** -  ![](images/FindAndReplace_icon.svg)
 
@@ -1812,6 +1824,7 @@ The Find and Replace icon is found at the bottom of the left panel. The Find and
 ![](images/map-find-replace.png){width="800" align="left"}
 
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
+
 >[!NOTE]
 >
 > As an administrator, you can also choose to view the list of filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
@@ -1820,6 +1833,7 @@ To perform the global search and replace, perform the following steps:
 
 1. Open the global **Find and Replace** panel.
 1. Click the **Look into** dropdown select one of the following options to perform the search.
+
     - **Current Map**: To search in the currently opened map
 
         >[!NOTE]
@@ -1873,9 +1887,7 @@ To perform the global search and replace, perform the following steps:
 
 1. Press Enter or select **Search** icon \( ![](images/search-icon.svg)\) to perform the search.
 1. Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
-
 1. Click **Replace Single Occurrence** \( ![](images/replace-icon.svg)\) to replace the currently highlighted search term in the topic or click Next Match ![](images/next-match-in-search.png) or ![](images/previous-match-in-search.png) Previous Match to move to the next or previous occurrence of the text.
-
 1. Click **Replace All in File** \( ![](images/replace-all-in-file-icon.svg)\)to replace all occurrences of the searched term in a single file with the replace term in a single click. You be shown a notification after replacing all the occurrences in the selected file.
 
     >[!NOTE]
@@ -1901,7 +1913,8 @@ You can also use the **Find in Map** option from the **Options** menu of a map t
 
 The content editing area is where the content of your topic or map is displayed. You make all content edits in this area. It gives a WYSIWYG view of the content you are editing. You can have multiple topics opened at the same time, which are displayed in their respective tabs.
 
-By default, you can view the file titles in the tabs. As you hover over a file, you can view the file title and the file path as a tooltip.   
+By default, you can view the file titles in the tabs. As you hover over a file, you can view the file title and the file path as a tooltip.
+
 >[!NOTE]
 >
 > As an administrator, you can also choose to view the list of files by filenames in the tabs. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
@@ -1983,6 +1996,7 @@ The References section gives you access to the following features:
 - **Outgoing Links:** The Outgoing Links lists the documents that are referred to in the current document.
 
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
+
 >[!NOTE]
 >
 > As an administrator, you can also choose to view the list of files by filenames in the Web Editor. Select the **File name** option of the **View files by** section in **User preferences** ![](images/user_preference_editor_icon.svg).
@@ -2012,4 +2026,3 @@ Using the Tracked Changes feature of the right panel, you can view the informati
 > Tracked Changes feature shows all updates that have been tracked using the Enable/Disable Track Changes feature of the main toolbar. For more details, see [Enable/Disable Track Changes](#id205DF0203Y4).
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
-
