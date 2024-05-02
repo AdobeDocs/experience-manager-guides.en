@@ -40,7 +40,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 Experience Manager Guides is upgraded automatically upon upgrading the current (latest) release of Experience Manager as a Cloud Service.
 
-> [!NOTE]
+>[!NOTE]
 >
 > Once you start using the current (latest) release, compare  any overridden configurations with the latest ones to get the latest features:
 >- ui_config.json (may have been set in folder profiles)
