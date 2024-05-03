@@ -34,7 +34,7 @@ Step 2: Create css and assign icon to this dita type
     - add a css file under client library folder, say "tree-icons.css"
         - add following code to it
         
-		```
+```
             .tree-item-icon {
                 &.custommaptype {
                     background-image: url('assets/custommap.svg')
@@ -43,7 +43,7 @@ Step 2: Create css and assign icon to this dita type
                     background-image: url('assets/customtopic.svg')
                 }
             }
-        ```
+```
 
     - add css.txt under the client library folder and add reference to "tree-icon.css" just created
     - save/deploy these changes
