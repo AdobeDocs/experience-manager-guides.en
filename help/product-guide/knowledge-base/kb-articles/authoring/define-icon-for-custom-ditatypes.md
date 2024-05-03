@@ -1,6 +1,7 @@
 ---
 title: Configuring icon for custom dita types
 description: Learn how to define icon for custom dita types for showing their icon on different UI in AEM
+exl-id: 5a259ea0-3b5f-4c6e-b488-1586767aa991
 ---
 # Configuring icon for custom/specialized dita (topic or map) types
 
