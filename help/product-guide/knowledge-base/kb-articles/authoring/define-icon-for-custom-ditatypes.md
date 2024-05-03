@@ -2,7 +2,7 @@
 title: Configuring icon for custom dita types
 description: Learn how to define icon for custom dita types for showing their icon on different UI in AEM
 ---
-# Configuring icon for custom dita (topic or map) type
+# Configuring icon for custom/specialized dita (topic or map) types
 
 
 ## Problem Statement
