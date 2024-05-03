@@ -2,17 +2,17 @@
 title: Configuring icon for custom dita types
 description: Learn how to define icon for custom dita types for showing their icon on different UI in AEM
 ---
-# Configuring icon for custom dita (topic or map) types
+# Configuring icon for custom dita (topic or map) type
 
 
 ## Problem Statement
 
-With custom schema used in AEM Guides, you can create custom topic or map types and with that you may notice the custom topics/maps do not show icon in the web-editor or Assets UI. See  below screenshot for reference 
+With custom schema used in AEM Guides, you can create custom topic or map types and with that you may notice the custom topic/map types do not show icon in the web-editor or Assets UI. See  below screenshot for reference 
 
 ![screenshot for reference](../assets/authoring/custom-ditatype-icon-notshown.png)
 
 
-So in order to assign a icon to the custom topic/map types you have to do following:
+So in order to assign a icon to the custom topic/map types, you have to do following:
 - Find the custom topic/map type
 - Write styles to add the desired icon for the custom type
 
