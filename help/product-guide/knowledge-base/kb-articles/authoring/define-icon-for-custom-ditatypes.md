@@ -44,7 +44,7 @@ Step 2: Create css and assign icon to this dita type
                 }
             }
         ```
-		
+
     - add css.txt under the client library folder and add reference to "tree-icon.css" just created
     - save/deploy these changes
 [Refer screenshot]) ./assets/authoring/custom-ditatype-icon-define-webeditor-styles.png) for more details.
