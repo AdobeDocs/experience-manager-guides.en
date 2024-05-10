@@ -278,8 +278,9 @@ breadcrumb-title: AEM Guides Documentation
         - [PDF Template](./native-pdf/pdf-template.md)
         - [Components of a PDF Template](./native-pdf/components-pdf-template.md)
         - [Design a page layout](./native-pdf/design-page-layout.md)
-        - [Variables in the PDF output](./native-pdf/native-pdf-variables.md)
+         - [Variables in the PDF output](./native-pdf/native-pdf-variables.md)
         - [Support for language variables](./native-pdf/native-pdf-language-variables.md)
+        - [Add a barcode to the PDF output](./native-pdf/add-barcode.md)
         - Common content styles {#content-styles}
           - [Work with the common content styles](./native-pdf/stylesheet.md)
           - [Work with custom change bars styles](./native-pdf/change-bar-style.md)
