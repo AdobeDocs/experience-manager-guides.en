@@ -206,3 +206,11 @@ If you select the **Download temporary files** option in the Advanced settings, 
 
 AEM Guides also provides the support for language variables. Select **Language Variables** <img src="./assets/language-variables.svg" width="25">  in the left panel to define a localized version of the out-of-the-box labels like Note, Caution, and Warning or static text in the PDF output. For more details, see [Support for language variables](../native-pdf/native-pdf-language-variables.md).
 
+
+
+### Support for Markdown documents
+
+Experience Manager Guides also provides support for your Markdown documents.  Markdown files are easy to author and also
+provide a variety of formatting options. Learn how to [author Markdown documents from the Web Editor](../user-guide/web-editor-markdown-topic.md). 
+
+You can add the Markdown topics to your DITA map and generate the PDF output using the Native PDF output presets.  Learn how to configure or [create a PDF output preset](#create-a-pdf-output-preset-create-output-preset). 
