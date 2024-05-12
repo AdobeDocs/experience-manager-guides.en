@@ -396,6 +396,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Extension Framework of AEM Guides](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
     - [External Datasource Integration](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
     - [Translate content in Guides - part 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
+    - [Define, Manage and Utilize Metadata](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
   - Articles {#kb-articles}
     - Authoring {#authoring} 
       - Web Editor {#webeditor}
