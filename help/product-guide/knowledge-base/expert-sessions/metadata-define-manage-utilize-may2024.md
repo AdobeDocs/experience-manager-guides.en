@@ -34,6 +34,7 @@ In this session, you learnt about the following:
 ## Related resources
 
 ### Documentation
+
 - [Metadata Schemas](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
 - [Metadata Profiles](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
 - [Managing metadata in DITA assets](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
@@ -43,6 +44,7 @@ In this session, you learnt about the following:
  
  
 ### Community Forum
+
 - For session-specific community interactions on Experience League, visit  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
