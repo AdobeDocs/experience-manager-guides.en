@@ -41,6 +41,7 @@ curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UT
 
 - For On-premise Software, if the parameter contains an invalid value, the error is logged, and publishing is done using the default value, `publish`. 
 
+If you do nto define the optional parameter, `activationTarget`, it activates using the default publish agent for both Cloud Service and On-premise Software.
 
 
 

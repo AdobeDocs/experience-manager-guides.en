@@ -73,7 +73,12 @@ throws GuidesApiException
 |`activationTarget`|String|(*Optional*) `preview` or `publish` for Cloud Service and `publish` for On-premise Software <br> - For Cloud Service, if the parameter contains an invalid value, then the package activation fails. <br> - For On-Premise Software, if the parameter contains an invalid value, the error is logged, and publishing is done using the default value, `publish`. |
 
 **Exception**:
-Throws ``java.io.IOException``.
+
+Throws `java.io.IOException` and `java.io.IllegalArgumentException`
+
+
+If you do nto define the optional parameter, `activationTarget`, it activates using the default publish agent for both Cloud Service and On-premise Software.
+ 
 
 **Example**:
 The following example shows how to build a JSON query:
