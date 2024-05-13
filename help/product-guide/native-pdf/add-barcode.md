@@ -100,9 +100,11 @@ The following screenshot displays a sample barcode in a PDF output.
 
 ## Barcode types {#barcode-types}
 
-| Type  | CSS attribute| Description | 
+Some of the commonly used barcodes are as follows:
+
+| Type  | -ro-barcode-type| Additional details | 
 | ---| --- | --- |
-| QR Code   | qrcode    |    | 
+| QR Code   | qrcode    |  The QR Code bar code symbology according to ISO/IEC 18004:2015.  | 
 |Code 128  | code128               |The Code 128 barcode symbology as defined in ISO/IEC 15417:2007.|
 Code 32| code32   | Code 32, also known as Italian harmacode.                           |               
 | Code 49  |code49     | Code 49 according to ANSI/AIM-BC6-2000.                            |  
