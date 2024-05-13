@@ -13,16 +13,44 @@ By default, all uploaded assets are processed using the DAM Update Asset workflo
 While uploading your files and folders to the *Adobe Experience Manager Assets* server, you can also disable the postprocessing and the generation of UUIDs. 
 
 
-Use the instructions in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to disable the postprocessing on a given path or ignore the postprocessing for a folder:
-
-|PID|Property Key|Property Value|
-|---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`| `ignored.post.processing.paths`| String value to set any standard NODE_OPTIONS (multivalued property, strings with path that omit `/` at the end) <br> **Default Value**: `/content/dam/projects/translation_output`|
+Perform the following steps to disable the postprocessing on a given path or ignore the postprocessing for a folder:
 
 
-|PID|Property Key|Property Value|
-|---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`| `enabled.post.processing.paths`|String value to set any standard NODE_OPTIONS (multivalued property, strings with path that omit `/` at the end) <br> **Default Value**: `/content/dam` |
+1.  Open the Adobe Experience Manager Web Console Configuration page.
+
+    The default URL to access the configuration page is:
+
+    ```http
+
+
+    http://<server name>:<port>/system/console/configMgr
+    ```
+
+1.  Search for and click on the **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundle.
+
+1.  Select the **Ignored Paths for Post Processing** option, to ignore a folder for post processing.
+
+    String value to set any standard NODE_OPTIONS (multivalued property, strings with path that omit `/` at the end)
+
+    **Default Value**: `/content/dam/projects/translation_output`
+
+    >[!NOTE]
+    >
+    > This property is disabled by default and the translation tab is available on the map dashboard.
+ 
+1. Select the **Enabled Paths for Post Processing** option, to enable a path for post processing.
+
+    String value to set any standard NODE_OPTIONS (multivalued property, strings with path that omit `/` at the end)
+
+    **Default Value**: `/content/dam/`
+
+    >[!NOTE]
+    >
+    > This property is disabled by default and the translation tab is available on the map dashboard.
+
+
+1.  Click **Save**.
+
 
 
 ## Rules to enable or disable postprocessing 
