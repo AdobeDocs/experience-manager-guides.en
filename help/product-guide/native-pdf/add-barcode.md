@@ -61,7 +61,7 @@ Modify the `Common.plt` file in the **Basic** template to add a barcode after th
 
 ### Update the template's CSS to render a barcode value
 
-Modify the `layout.css` file to render a barcode during the PDF generation. Various barcode types like 'qrcode' and 'pdf417' are supported.  For more details, see [Barcode types](#barcode-types).
+Modify the `layout.css` file to render a barcode during the PDF generation. Various barcode types like 'qrcode' and 'pdf417' are supported.  For more details, view [Barcode types](#barcode-types).
 
 
 
