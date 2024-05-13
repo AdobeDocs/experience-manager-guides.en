@@ -44,7 +44,7 @@ margin-top: 2mm;
 
     `<span class="barcode">Sample barcode</span></p>`.
 
-    > [!NOTE]
+    >[!NOTE]
     >
     > Use the same class name that you have defined in the `layout.css`.
 
