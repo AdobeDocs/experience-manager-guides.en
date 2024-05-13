@@ -5,9 +5,7 @@ description: Learn how to add barcodes.
 
 # Add a barcode to the PDF output
 
-A barcode is a data pattern that machines can read. Customers can scan barcodes with a barcode scanner or their smartphone camera. Encoding information such as product details, inventory numbers, or website URLs can be helpful.
-
-Adding barcodes helps you easily capture the data, enhances the customer experience, and facilitates better data management and security.
+A barcode is a data pattern that machines can read. Customers can scan barcodes with a barcode scanner or their smartphone camera. Encoding information such as product details, inventory numbers, or website URLs can be helpful. Adding barcodes helps you easily capture the data, enhances the customer experience, and facilitates better data management and security.
 
 You can create a style for the barcode. and use it to insert a barcode in a page layout. You can apply the style to a sample barcode in the desired page layout. 
 
