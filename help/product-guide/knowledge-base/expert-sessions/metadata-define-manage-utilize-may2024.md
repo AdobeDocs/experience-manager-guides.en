@@ -1,9 +1,8 @@
 ---
 title: Define, manage, utilize - Metadata
 description: Define, Manage and Utilize Metadata
-
+exl-id: 3ebcb752-ba73-4c4c-9340-125b1e984cd1
 ---
-
 # Define, Manage and Utilize Metadata
 
 Whether you are planning organization of content or categorizing the content into different types or publishing it for various end user groups or exposing content for search to an AI engine or giving end users ability to search on various facets - you need strategizing metadata for your content.
