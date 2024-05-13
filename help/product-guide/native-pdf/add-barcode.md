@@ -10,13 +10,75 @@ A barcode is a data pattern that machines can read. Customers can scan barcodes 
 You can create a style for the barcode. and use it to insert a barcode in a page layout. You can apply the style to a sample barcode in the desired page layout. 
 
 
-This tutorial helps you to add barcodes on top of every page in the PDF output. 
+This tutorial helps you to add barcodes in the PDF output. 
 
 ## Steps to generate a barcode
 
 To generate a barcode, perform the following steps: 
 
-### Add a resource ID to the DITA map
+### Update the template's CSS to render a barcode value
+
+Modify the `layout.css` file to render a barcode during the PDF generation. Various barcode types like 'qrcode' and 'pdf417' are supported.  For more details, view [Barcode types](#barcode-types).
+
+
+
+```css
+...
+.barcode { 
+-ro-replacedelement: barcode;   
+-ro-barcode-type: code128;   
+-ro-barcode-size: 100%;   
+-ro-barcode-content: content();   
+object-fit: contain;   
+margin-top: 2mm;
+ 
+}
+...
+```
+
+### Add a barcode placeholder in the template header and apply the style
+ 
+1. Edit **Templates** > **Page Layouts** 
+1. Select a page layout. For example, you can select the BackCover page layout, which contains the header or footer.
+1. Add the following span to the location where you want to insert the barcode.
+
+    `<span class="barcode">Sample barcode</span></p>`.
+
+    > [!NOTE]
+    >
+    > Use the same class name that you have defined in the `layout.css`.
+
+1. Replace `<Sample barcode>` with the value that you wish to display under the barcode.  
+
+You can view the barcode on generating the output PDF using the template, which includes the page layout. Once you have performed the previous steps, you can generate the PDF output with a barcode. 
+
+The following screenshot displays a sample barcode in a PDF output.
+
+<img src="./assets/barcode-output-sample.png" alt="Sample output with barcode" width=700>
+
+Modify the `Common.plt` file in the **Basic** template to add a barcode after the project title.  
+
+**Example 1**
+
+To create a barcode for an ISBN number:
+
+Add an ISBN number. Use the ISBN number to generate the barcode.
+
+```html
+...
+  <div data-region="header">
+    <p class="chapter-header"><span data-field="project-title" data-format="default">Project Title</span> </p>
+    <p><span class="barcode">978-1-56619-909-4</span></p>
+  </div>
+} 
+...
+```
+
+**Example 2**
+
+To create a barcode using the map metadata:
+
+
 
 Add a resource ID element to the DITA map. The resource ID serves as the main input to generate the barcode. 
 
@@ -39,10 +101,6 @@ You can also edit the resource ID in the Authoring mode.
 
 ![barcode sample map](./assets/barcode-map.png)
 
-### Add a barcode placeholder in the template header
-
-Modify the `Common.plt` file in the **Basic** template to add a barcode after the project title.  
-
 ```html
 ...
   <div data-region="header">
@@ -56,44 +114,6 @@ Modify the `Common.plt` file in the **Basic** template to add a barcode after th
 
 
 
-
-### Update the template's CSS to render a barcode value
-
-Modify the `layout.css` file to render a barcode during the PDF generation. Various barcode types like 'qrcode' and 'pdf417' are supported.  For more details, view [Barcode types](#barcode-types).
-
-
-
-```css
-...
-.barcode { 
--ro-replacedelement: barcode;   
--ro-barcode-type: code128;   
--ro-barcode-size: 100%;   
--ro-barcode-content: content();   
-object-fit: contain;   
-margin-top: 2mm;
- 
-}
-...
-```
-
-### Apply the style to a page layout
- 
-1. Edit **Templates** > **Page Layouts** 
-1. Select a page layout. For example, you can select the BackCover page layout, which contains the footer.
-1. Add the following span to the location where you want to insert the barcode.
-
-    `<span class="barcode">Sample barcode</span></p>`.
-
-1. Replace `<Sample barcode>` with the value that you wish to display under the barcode.  
-
-You can view the barcode on generating the output PDF using the template, which includes the page layout.  
-
-Once you have performed the previous steps, you can generate the PDF output with a barcode. 
-
-The following screenshot displays a sample barcode in a PDF output.
-
-<img src="./assets/barcode-output-sample.png" alt="Sample output with barcode" width=700>
 
 
 ## Barcode types {#barcode-types}
