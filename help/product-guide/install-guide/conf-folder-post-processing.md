@@ -26,7 +26,7 @@ Perform the following steps to disable the postprocessing on a given path or ign
     http://<server name>:<port>/system/console/configMgr
     ```
 
-1.  Search for and click on the **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundle.
+1.  Search for and click on the **com.adobe.fmdita.config.ConfigManager** bundle.
 
 1.  Select the **Ignored Paths for Post Processing** option, to ignore a folder for post processing.
 
