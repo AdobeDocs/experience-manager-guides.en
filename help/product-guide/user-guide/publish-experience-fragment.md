@@ -23,10 +23,10 @@ To generate an experience fragment, perform the following steps:
 For example, add `/conf/we-retail` in the cloud configuration. This configuration connects all the experience fragment templates with the folder.
     
     * To add the allowed template, specify the regular expression for retrieving the required templates in the **Allowed Templates** field. 
-For example:
-`/libs/cq/experience-fragments/components/experiencefragment/template`
+    For example: 
+    `/libs/cq/experience-fragments/components/experiencefragment/template`
 
-If you do not define an allowed template for a folder, the templates are picked from the parent folder or the templates folder by default. 
+        If you do not define an allowed template for a folder, the templates are picked from the parent folder or the templates folder by default. 
 
     ![add cloud configuration details in the folder properties](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
        *Add the cloud configuration in the folder properties to connect it with the fragment templates.* 
@@ -34,7 +34,8 @@ If you do not define an allowed template for a folder, the templates are picked 
 1. From the **Options** menu, select **Publish As** > **Experience fragment**.  
 1. In the **Generate Experience Fragment** dialog box, fill in the following details:
         ![Add the fragment model and mapping details in the Publish as experience fragment dialog](images/experience-fragment-generate.png){width="500" align="left"}
-       *Add the path, model, and mapping details to publish a topic or its elements as an experience fragment. You can overwrite an existing experience fragment.*  
+        
+    *Add the path, template, and mapping details to publish a topic or its elements as an experience fragment. You can overwrite an existing experience fragment.*  
 
     * **Path**: Browse and select the path of the folder where you want to publish the experience fragment. You can also select an existing experience fragment and republish it.
     * **Title**: Enter the title of the experience fragment.
