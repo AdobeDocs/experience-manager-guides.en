@@ -65,7 +65,7 @@ If you do not define an allowed template for a folder, the templates are picked 
 Once you’ve published the experience fragments, you can also use them on any Adobe Experience Manager site.
 
 
-## Options for an Experience Fragment 
+## Options menu for an Experience Fragment 
 
 You can also perform the following actions for an experience fragment from the Options menu:
 
