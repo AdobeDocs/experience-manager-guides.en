@@ -72,10 +72,10 @@ You can also perform the following actions for an experience fragment from the O
 
 * **Generate**: Republish the experience fragment to update it with the latest content from the DITA topic. When you regenerate the output, you cannot change the path, name, title, and template of the experience fragment. However, you can select different conditions while regenerating the output.
 
-* **Duplicate**: Duplicate an experience fragment. You cannot change the path, name, title, and the template of the experience fragment when you duplicate an experience fragment. You can select different condtions when you duplicate an experience fragment.
+* **Duplicate**: Duplicate an experience fragment. You can change the path, name, title, and the template of the experience fragment when you duplicate an experience fragment. You can also select different condtions when you duplicate an experience fragment.
 
 * **Remove**: Remove an experience fragment from the outputs list. A confirmation prompt appears. Once you confirm, the experience fragment is removed from the **Outputs** list. 
 
-* **View**: View the experience fragment in an editor. You can make changes and save them.
+* **View**: View the experience fragment in an editor. You can also make changes and save them.
 
  
