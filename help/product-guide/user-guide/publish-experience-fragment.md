@@ -1,7 +1,7 @@
 ---
 title: Publish a topic to an Experience Fragment
 description: Publish a topic or the elements within a topic to an Experience Fragment in AEM Guides.  Learn how to view the Experience Fragments present for a topic and republish them.
-exl-id: b1769e48-d721-4e93-b10f-04b385272be7
+
 feature: Publishing
 role: User
 ---
