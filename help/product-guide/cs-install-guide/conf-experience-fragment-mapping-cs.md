@@ -1,14 +1,13 @@
 ---
-title: Configure the JSON-based mapping between a topic and an Experience Fragment model.
-description: Learn how to configure the JSON-based mapping between a topic and an Experience Fragment model.
-exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
+title: Configure the JSON-based mapping between a topic and an Experience Fragment template.
+description: Learn how to configure the JSON-based mapping between a topic and an Experience Fragment template.
 feature: Output Generation
 role: Admin
 level: Experienced
 ---
 # Create a mapping between a topic and an Experience Fragment
 
-Adobe Experience Manager Guides provides the feature to create a JSON-based mapping between a topic and an Experience Fragment model. You can use this mapping to publish content present in some or all elements within a topic to an Experience Fragment. 
+Adobe Experience Manager Guides provides the feature to create a JSON-based mapping between a topic and an Experience Fragment template. You can use this mapping to publish content present in some or all elements within a topic to an Experience Fragment. 
 
 1. To download the *experienceFragmentMapping.json*, log into Adobe Experience Manager as an administrator.
 1. Select the Adobe Experience Manager link at the top and choose **Tools**.
