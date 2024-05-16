@@ -185,6 +185,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
     - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
     - [Publish to a content fragment](./user-guide/publish-content-fragment.md)
+    - [Publish to an Experience Fragment](./user-guide/publish-experience-fragment.md)
     - Bulk activation of content {#bulk-activation}
       - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
       - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
