@@ -7,14 +7,14 @@ role: User
 ---
 # Publish to a content fragment
 
-Content fragments are discrete pieces of content in AEM. They are structured content based on a content model. Content fragments are pure content without design or layout information. They can be authored and managed independently of the channels that AEM supports. Content fragments are modular, where content is broken down into smaller components.
+Content fragments are discrete pieces of content in Adobe Experience Manager. They are structured content based on a content model. Content fragments are pure content without design or layout information. They can be authored and managed independently of the channels that AEM supports. Content fragments are modular, where content is broken down into smaller components.
 
-AEM Guides allows you to publish a topic or the elements within a topic to a content fragment. You can create a JSON-based mapping between a topic and a content fragment model. Use this mapping to publish a topic or the elements within a topic to a content fragment. You can then use content fragments in any AEM site or extract the details via APIs supported by content fragments.
+Adobe Experience Manager Guides allows you to publish a topic or the elements within a topic to a content fragment. You can create a JSON-based mapping between a topic and a content fragment model. Use this mapping to publish a topic or the elements within a topic to a content fragment. You can then use content fragments in any Adobe Experience Manager site or extract the details via APIs supported by content fragments.
 
 
 To create a content fragment, perform the following steps:
 
-1. Create a [content fragment model](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) in AEM Assets. 
+1. Create a [content fragment model](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) in Adobe Experience Manager Assets. 
 1. Create a folder where you want to save the content fragments that you create based on the content fragment model. For example, "stock-content-fragments". 
 1. Edit the folder’s properties (for example, "stock-content-fragments") and add the path of the folder, which contains the content fragment model in the cloud configuration. 
 For example, add `/conf/we-retail` in the cloud configuration. This configuration connects all the content fragment models with the folder.       
@@ -34,30 +34,42 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
       
 
-        Based on your setup your administrator can add the mappings in the *contentFragmentMapping.json* file. 
+        Your administrator can add the mappings in the *contentFragmentMapping.json* file. Learn more about how to [create a mapping between a topic and a content fragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) in the  Installation and Configuration Guide. 
+
+    * You can also select different conditions to publish the content.  Select one of the following options:
+
+        * **None**: Select this option if you don’t want to apply any condition on the published output.
+        * **DITAVAL**: Select DITAVAL file(s) to generate personalized content. You can select multiple DITAVAL files using the browse dialog or by typing the file path. 
+        * **Condtion attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute in the condition preset to publish the relevant content.
     
-        <details>
-        <summary>Cloud Services</summary>
-     
-         Learn more about how to [create a mapping between a topic and a content fragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) in the  Cloud Services Installation and Configuration Guide. 
-        </details>
+        To know more about condition presets, view [Use condition presets](generate-output-use-condition-presets.md).
 
-        <details>
-        <summary> On-premise  Software</summary>
-
-        Learn more about how to [create a mapping between a topic and a content fragment](../install-guide/conf-content-fragment-mapping.md) in the On-premise Installation and Configuration Guide.
-
-        </details>
-    * Select the **Overwrite** checkbox if your content fragment already exists and you wish to overwrite it. AEM Guides displays an error if you don’t select the checkbox and your content fragment already exists. 
+       
+    * Select **Overwrite** if your content fragment already exists and you wish to overwrite it. Experience Manager Guides displays an error if you don’t select the checkbox and your content fragment already exists. 
 1. Click **Create** to publish the content fragment.
-1. You can view the content fragments for a topic under the **Fragments** section in the **File properties**.
+
+1. You can view the content fragments  for a topic under the **Outputs** section in the **File properties**.
  
-    ![View the content fragments for a topic](images/topic-content-fragments.png){width="300" align="left"}
+    ![View the content fragments for a topic](images/outputs-options-menu.png){width="300" align="left"}
        
      *View the content fragments present for a topic and republish them.*  
 
-You can also republish the content fragment to update the content fragment with the latest content from the DITA topic.
+
+Once you’ve published the content fragments, you can also use them in any Adobe Experience Manager Site.
 
 
 
-Once you’ve published the content fragments, you can also use them in any AEM site.
+
+## Options menu for an content fragment 
+
+You can also perform the following actions for an content fragment from the **Options** menu:
+
+* **Generate**: Republish the content fragment to update it with the latest content from the DITA topic. When you regenerate the output, you cannot change the path, name, title, and template of the content fragment. However, you can select different conditions while regenerating the output.
+
+* **Duplicate**: Duplicate an content fragment. You can change the path, name, title, and the template. You can also select different conditions when you duplicate an content fragment.
+
+* **Remove**: Remove an content fragment from the outputs list. A confirmation prompt appears. Once you confirm, the content fragment is removed from the **Outputs** list. 
+
+* **View**: View the content fragment in an editor. You can also make changes and save them.
+
+ 
