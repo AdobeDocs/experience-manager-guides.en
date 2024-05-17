@@ -67,9 +67,10 @@ Based on the translation workflow used in your setup, the component-based transl
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
     The default URL to access the configuration page is:
-    ```http
-    http://<server name>:<port>/system/console/configMgr
-    ```
+
+```http
+http://<server name>:<port>/system/console/configMgr
+```
 
 1.  Search for and click on the **com.adobe.fmdita.config.ConfigManager** bundle.
 
@@ -98,9 +99,11 @@ Based on the translation workflow used in your setup, provide the following (pro
 
     The default URL to access the configuration page is:
 
-    ```http
-    http://<server name>:<port>/system/console/configMgr
-    ```
+    ! Add the syntax of http as given in previous config
+    
+```http
+http://<server name>:<port>/system/console/configMgr
+```    
 
 1.  Search for and click on the **com.adobe.fmdita.config.ConfigManager** bundle.
 
