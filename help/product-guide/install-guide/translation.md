@@ -67,7 +67,6 @@ Based on the translation workflow used in your setup, the component-based transl
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
     The default URL to access the configuration page is:
-
     ```http
     http://<server name>:<port>/system/console/configMgr
     ```
@@ -86,8 +85,8 @@ Based on the translation workflow used in your setup, the component-based transl
 
 1.  Click **Save**.
 
-
-<!--- This was added for 2406 CS IG
+<!--- 
+This was added for 2406 CS IG
 
 ## Configure the legacy translation workflow 
 
@@ -107,7 +106,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 
 
-1.  Configure the **Component-Based DITA Translation Workflow** option as per your setup:
+1.  Configure the **Run legacy translation workflow** option as per your setup:
 
     -   If you use the latest translation workflow, then *Disable* \( `false`\) the **Run legacy translation workflow** option. The latest translation workflow is enabled by default. <br> 
 
