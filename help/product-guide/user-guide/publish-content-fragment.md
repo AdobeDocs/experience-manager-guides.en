@@ -7,7 +7,7 @@ role: User
 ---
 # Publish to a Content Fragment
 
-Content Fragments are discrete pieces of content in Adobe Experience Manager. They are structured content based on a content model. ContentContent Fragments are pure content without design or layout information. They can be authored and managed independently of the channels that AEM supports. ContentContent Fragments are modular, where content is broken down into smaller components.
+Content Fragments are discrete pieces of content in Adobe Experience Manager. They are structured content based on a content model. Content Fragments are pure content without design or layout information. They can be authored and managed independently of the channels that Adobe experience Manager supports. ContentContent Fragments are modular, where content is broken down into smaller components.
 
 Adobe Experience Manager Guides allows you to publish a topic or the elements within a topic to a Content Fragment. You can create a JSON-based mapping between a topic and a Content Fragment model. Use this mapping to publish a topic or the elements within a topic to a Content Fragment. You can then use Content Fragments in any Adobe Experience Manager site or extract the details via APIs supported by Content Fragments.
 
@@ -29,7 +29,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
     * **Path**: Browse and select the path of the folder where you want to publish the Content Fragment. You can also select an existing Content Fragment and publish it.
     * **Title**: Enter the title of the Content Fragment.
     * **Name**: Enter the name of the Content Fragment.
-    * **Model**: Select the Content Fragment model that you want to use to create your Content Fragment. The models are picked from the folder which you have configured in the cloud services. 
+    * **Model**: Select the Content Fragment model that you want to use to create your Content Fragment. The models are picked from the folder, which you have configured in the cloud services. 
     * **Mapping**: Select a mapping from the drop-down. It picks the mappings from the *contentFragmentMapping.json* file.  
 
       
@@ -40,7 +40,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
         * **None**: Select this option if you don’t want to apply any condition on the published output.
         * **DITAVAL**: Select DITAVAL file(s) to generate personalized content. You can select multiple DITAVAL files using the browse dialog or by typing the file path. 
-        * **Condtion attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute in the condition preset to publish the relevant content.
+        * **Condition attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute in the condition preset to publish the relevant content.
     
         To know more about condition presets, view [Use condition presets](generate-output-use-condition-presets.md).
 
