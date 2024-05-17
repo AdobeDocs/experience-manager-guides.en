@@ -103,8 +103,6 @@ Based on the translation workflow used in your setup, provide the following (pro
     ! Add the syntax of http as given in previous config
 
     Note: Configure htttp code as given in previous sample
-    http
-    http://<server name>:<port>/system/console/configMgr
     
 
 1.  Search for and click on the **com.adobe.fmdita.config.ConfigManager** bundle.
