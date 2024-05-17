@@ -86,6 +86,7 @@ Based on the translation workflow used in your setup, the component-based transl
 
 1.  Click **Save**.
 
+<!---
 
 This was added for 2406 CS IG
 
@@ -101,9 +102,10 @@ Based on the translation workflow used in your setup, provide the following (pro
 
     ! Add the syntax of http as given in previous config
 
-    ```http
+    Note: Configure htttp code as given in previous sample
+    http
     http://<server name>:<port>/system/console/configMgr
-    ```
+    
 
 1.  Search for and click on the **com.adobe.fmdita.config.ConfigManager** bundle.
 
@@ -118,12 +120,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 1.  Click **Save**.
 
 
-
-
-
-
-
-
+--->
 >[!IMPORTANT]
 >
 > After setting up the translation configurations, ensure that you set up the appropriate Cloud Configuration on the language folders.
