@@ -68,9 +68,9 @@ Based on the translation workflow used in your setup, the component-based transl
 
     The default URL to access the configuration page is:
 
-```http
-http://<server name>:<port>/system/console/configMgr
-```
+    ```http
+    http://<server name>:<port>/system/console/configMgr
+    ```
 
 1.  Search for and click on the **com.adobe.fmdita.config.ConfigManager** bundle.
 
