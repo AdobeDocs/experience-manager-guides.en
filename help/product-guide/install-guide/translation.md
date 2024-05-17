@@ -100,10 +100,10 @@ Based on the translation workflow used in your setup, provide the following (pro
     The default URL to access the configuration page is:
 
     ! Add the syntax of http as given in previous config
-    
-```http
-http://<server name>:<port>/system/console/configMgr
-```    
+
+    ```http
+    http://<server name>:<port>/system/console/configMgr
+    ```    
 
 1.  Search for and click on the **com.adobe.fmdita.config.ConfigManager** bundle.
 
