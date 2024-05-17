@@ -62,9 +62,26 @@ Based on the translation workflow used in your setup, the component-based transl
 |---|------------|--------------|
 |`com.adobe.fmdita.config.ConfigManager`|`component.translation`|Boolean: <br> -   If you are using human translation, then *Disable* \( `false`\) the **Component-Based Translation Workflow** option. <br> -   If you are using machine translation, then *Enable \( `true`\)* the **Component-Based Translation Workflow** option.|
 
+
+
+## Configure the legacy translation workflow 
+
+It is recommended that you use the latest translation workflow, which provides enhanced performance. However, you can configure the legacy translation workflow if necessary.
+
+Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to configure the legacy translation workflow:
+ 
+
+
+
+|PID|Property Key|Property Value|
+|---|------------|--------------|
+|`com.adobe.fmdita.config.ConfigManager`|`translation.workflow.version.legacy`|Boolean: <br> - If you use the latest translation workflow, then *Disable* \( `false`\) the **Run legacy translation workflow** option. The latest translation workflow is enabled by default. <br> -   If you use the legacy translation, then *Enable \( `true`\)* the **Run legacy translation workflow** option.|
+
+
+
 >[!NOTE]
 >
-> If you are using translation connector, then ensure that you have configured the connector as described in the *[Configuring the Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* topic in AEM documentation.
+> If you are using translation connector, then ensure that you have configured the connector as described in the *[Configuring the Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* topic in Adobe Experience Manager documentation.
 
 >[!IMPORTANT]
 >
