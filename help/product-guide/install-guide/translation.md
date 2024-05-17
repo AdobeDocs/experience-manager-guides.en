@@ -103,7 +103,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 
     ```http
     http://<server name>:<port>/system/console/configMgr
-    ```    
+    ```
 
 1.  Search for and click on the **com.adobe.fmdita.config.ConfigManager** bundle.
 
