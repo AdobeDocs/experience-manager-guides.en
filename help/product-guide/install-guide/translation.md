@@ -86,7 +86,7 @@ Based on the translation workflow used in your setup, the component-based transl
 
 1.  Click **Save**.
 
-<!--- 
+
 This was added for 2406 CS IG
 
 ## Configure the legacy translation workflow 
@@ -116,7 +116,7 @@ Based on the translation workflow used in your setup, provide the following (pro
     -   If you use the legacy translation, then *Enable \( `true`\)* the **Run legacy translation workflow** option.
 
 1.  Click **Save**.
---->
+
 
 
 
