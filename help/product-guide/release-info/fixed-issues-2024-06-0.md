@@ -70,6 +70,6 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 
 ## Reports
 
-- The inaccurate Topic List counts in Experience Manager Guides UI due to unpatched properties when copying DITA assets impact the reports generated for a DTIA map. (15529)
+- The inaccurate **Topic List** counts in Experience Manager Guides UI due to unpatched properties when copying DITA assets impact the reports generated for a DTIA map. (15529)
 - Topics containing external references with *%20* in the URL display broken file references. (15347)
 
