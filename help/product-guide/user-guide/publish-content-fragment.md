@@ -48,7 +48,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
     * Select **Overwrite existing content** if your Content Fragment already exists and you wish to overwrite it. Experience Manager Guides displays an error if you don’t select the checkbox and your Content Fragment already exists. 
 1. Click **Create** to publish the Content Fragment.
 
-1. You can view the Content Fragments  for a topic under the **Outputs** section in the **File properties**.
+1. You can view the Content Fragments  for a topic under the **Outputs** section in the **File Properties**.
  
     ![View the Content Fragments for a topic](images/outputs-options-menu.png){width="300" align="left"}
        

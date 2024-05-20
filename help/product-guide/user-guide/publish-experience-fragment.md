@@ -59,7 +59,7 @@ To generate an Experience Fragment, perform the following steps:
         
     * Select the **Overwrite existing content** checkbox if your Experience Fragment already exists and you wish to overwrite it. Experience Manager Guides displays an error if you don’t select the checkbox and your Experience Fragment already exists. 
 1. Click **Generate** to publish the Experience Fragment.
-1. You can view the Experience Fragments for a topic under the **Outputs** section in the **File properties**. The Experience Fragments appear according to the date and time of their publishing. 
+1. You can view the Experience Fragments for a topic under the **Outputs** section in the **File Properties**. The Experience Fragments appear according to the date and time of their publishing. 
  
     ![View the Experience Fragments for a topic](images/experience-fragment-outputs.png){width=300 align="left"}
        
