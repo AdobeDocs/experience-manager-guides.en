@@ -32,7 +32,7 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 - Lack of APIs or events to capture attribute addition to an element or insertion of a new element. (15351)
 - Inability to add `<data>` tag within `<ol>` tag in the Web Editor. (15161)
 - When Unified Shell is enabled, the **Version Label Management** dialog box incorrectly displays **Main Content** for versions without labels. (15039)
-- The **Content Properties** panel loads slowly, particularly with a delay of three seconds on workday files. (14958)
+- The **File Properties** panel loads slowly, particularly with a delay of three seconds on workday files. (14958)
 - The UI becomes stuck due to the  `element_placeholder.ts` component. (14957)
 - Pressing the **Enter** key in a table cell within the text does not split the paragraph as expected. (14251)
 - The Experience Manager DITA Guide fails to trigger the **Save** function after using the auto-indent feature. (16482)
@@ -71,5 +71,5 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 ## Reports
 
 - The inaccurate Topic List counts in Experience Manager Guides UI due to unpatched properties when copying DITA assets impact the reports generated for a DTIA map. (15529)
-- Topics containing external references with **"%20"** in the URL display broken file references. (15347)
+- Topics containing external references with *%20* in the URL display broken file references. (15347)
 
