@@ -34,7 +34,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 |Components package name| Components version | Template version|
 |---|---|---|
-|Experience Manager Guides Components Content Package for Cloud Service|dxml-components.all-1.2.2| aem-site-template-dxml.all-1.0.15|
+|Experience Manager Guides Components Content Package for Cloud Service|dxml-components.all-1.2.2| aem-site-template-dxml.all-1.0.16|
 
 ## Upgrade to 2024.06.0 release
 
