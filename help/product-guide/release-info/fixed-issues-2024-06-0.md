@@ -60,7 +60,7 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 ## Translation
 
 - Unable to create XLIFF projects with human translation. (16964)
-- Translation projects experience UTF conversion problems. (16530)
+- Translation projects experience UTF conversion problems with the October 2023 release of Experience Manager Guides. (16530)
 - Translation projects fail to add new language jobs to Adobe Experience Manager 6.5 SP18 with the October 2023 release of Experience Manager Guides. (15398)
 
 ## Cloud Service
