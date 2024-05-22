@@ -368,3 +368,68 @@ In the following example, we will create a new window's title (`wintitle`) style
 The following screenshot displays the wintitle style being applied to the text "Primary Control".
 
 <img src="./assets/other-style-wintitle.png" width="500">
+
+
+## Define a unique style for a single page layout
+
+While publishing the Native PDF output, all styles get merged in the final PDF, and it's crucial to assign a unique style to each template within the CSS.
+Use distinct CSS style names to apply specific fonts and styles to different sections of a PDF. For example, you can define the desired font for the cover page using the following CSS.  
+
+```css
+...
+[data-page-layout="Front"] * { 
+    font-size: 18pt; 
+}  
+...
+```
+
+
+The rest of the document will use the default font you specified for the body tag in `content.css` or `layout.css`. This ensures that styles are not merged and that each section retains its intended design. If you want different font sizes, create specific styles for them.
+
+For example, you can define the following styles to define font size 18 on the front cover page and font size 11 pt for the back cover page:
+
+```css
+...
+
+[data-page-layout="Front"] p { //For front-cover template 
+  font-size: 18pt; 
+} 
+  
+[data-page-layout="Back"] p
+{ //For back-cover template 
+  font-size: 11pt; 
+}  
+...
+```
+
+>[!NOTE]
+>
+> In the previous example, "Front" and "Back" are the sample names of the layout files that you can use in the templates.
+
+
+## Define custom  CSS style for  prefix and suffix content
+
+If you define the custom CSS styles, they are given the first precedence while generating the Native PDF output.
+The following default CSS style hides both prefix and suffix content.
+
+```css
+...
+.prefix-content, .suffix-content{
+    display: none;
+} 
+...
+```
+
+You can add the following CSS to the template `content.css` to show the note prefix label:
+To allow these prefixes within the `<note>` element, include the following CSS in your `content.css`: 
+
+```css
+...
+.prefix-content{
+    display: inline !important;
+}
+...
+```
+
+The `<note>` element generates an additional `<span>` with the class prefix-content corresponding to its type attribute. This CSS rule targets the `.prefix-content` class within `<note>` elements with a type attribute, allowing you to style or manipulate the prefix content as needed. 
+
