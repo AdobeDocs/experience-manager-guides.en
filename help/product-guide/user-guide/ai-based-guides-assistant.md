@@ -16,7 +16,7 @@ For example, you need to create a topic for your documentation. You can ask a qu
 When you open the Web Editor, the **Guides Assistant** panel appears on the right.
 
 NOTE
-Your administrator must configure the Guides Assistant feature. For more details, view the Configure the AI-powered Guides Assistant section in the Installation and Configuration Guide for Cloud Services.
+Your administrator must configure the Guides Assistant feature. For more details, view the [Configure the AI-powered Guides Assistant](../cs-install-guide/conf-guides-assistant.md) section in the Installation and Configuration Guide for Cloud Services.
 
 
 
