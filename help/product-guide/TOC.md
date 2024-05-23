@@ -11,7 +11,6 @@ breadcrumb-title: AEM Guides Documentation
 - Release Information {#release-info}
 - [AEM Guides releases roadmap](./release-info/aem-guides-releases-roadmap.md)
   - Release Notes {#release-notes}
-  - [AEM Guides releases roadmap](./release-info/aem-guides-releases-roadmap.md)
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2024 Releases {#2024-releases}
