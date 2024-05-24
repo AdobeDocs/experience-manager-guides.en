@@ -16,7 +16,7 @@ Before installing AEM Guides 4.4, ensure your system meets the following technic
 
 >[!IMPORTANT]
 >
-> For AEM Site output generation, your AEM's publish instance must have Service Pack 19, 18, or 17 .
+> For AEM Site output generation, your AEM's publish instance must have Service Pack 20, 19, 18, or 17 .
 
 **Operating systems**
 
