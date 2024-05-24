@@ -11,7 +11,7 @@ While authoring your documents in the Web Editor, you can use the GenAI-based Gu
 You can ask your questions and find the relevant content. You get the appropriate content from authentic documentation, not any Web-based search. This search is entirely conversational. You can ask questions, and then, based on the response, you can also ask further questions. The response also includes links to the articles, which you can refer to for details. 
 
 For example, you need to create a topic for your documentation. You can ask, “How to create a topic?”. You get a response and the links for the relevant article. Then, if you want to learn how to generate the PDF output for the document, you can ask questions about it.
-When you open the Web Editor, the Guides assistant panel appears on the right.
+
 
 
 When you open the Web Editor, the **Guides assistant** panel appears on the right.
