@@ -34,7 +34,7 @@ Perform the following steps to view the conversational search for finding approp
 
     >[!NOTE]
     >
-    > In the [global or folder-level profiles](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), your administrator needs to define the default questions that appear in the panel. 
+    > In the [global or folder-level profiles](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant), your administrator needs to define the default questions that appear in the panel. 
 
   1. Type the question to find the related content in the Experience Manager Guides documentation. You can select the default question in the panel or type your question in the text box.
 
