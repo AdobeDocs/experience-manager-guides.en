@@ -10,7 +10,7 @@ description: Learn how to view and utilize AI-powered Guides Assistant in the We
 While authoring your documents in the Web Editor, you can use the GenAI-based Guides assistant. This conversational search feature helps you find relevant content from the Experience Manager Guides documentation.
 You can ask your questions and find the relevant content. You get the appropriate content from authentic documentation, not any Web-based search. This search is entirely conversational. You can ask questions, and then, based on the response, you can also ask further questions. The response also includes links to the articles, which you can refer to for details. 
 
-For example, you need to create a topic for your documentation. You can ask, “How to create a topic?”. You get a response and the links for the relevant article. Then, if you want to learn how to generate the PDF output for the document, you can ask questions about it.
+For example, you need to create a topic for your documentation. You can ask, *How to create a topic?*. You get a response and the links for the relevant article. Then, if you want to learn how to generate the PDF output for the document, you can ask questions about it.
 
 
 
