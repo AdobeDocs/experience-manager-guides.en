@@ -12,7 +12,7 @@ Before installing AEM Guides 4.4, ensure your system meets the following technic
 
 **Adobe Experience Manager**
 
--   Version 6.5 Service Pack 19, 18, or 17 
+-   Version 6.5 Service Pack 20, 19, 18, or 17 
 
 >[!IMPORTANT]
 >
