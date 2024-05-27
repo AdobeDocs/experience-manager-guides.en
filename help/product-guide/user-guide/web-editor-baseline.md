@@ -57,6 +57,10 @@ You can create a baseline from the Web Editor by performing the following steps:
     - **Select Labels**: If the topics have labels specified for them,  then use the **Select Labels** dropdown to choose from the [listed labels](#labels-list). 
     The labels selected first are given higher priority over the later ones.
 
+    >[!NOTE]
+    >
+    >while the labels are being pulled a loader appears, and the dropdown is disabled. 
+
         For dynamic baselines, the labels are pulled from the latest saved version and the current working copy of the map. For example, if you have created labels   `Label Release A.1.0 ` and `Label Release A.1.1` for versions 1.0 and 1.1 of Topic A and labels `Label Release B.1.0` and `Label Release B.1.1` for versions 1.0 and 1.1 of Topic B . Then you can add Topic A to Map A in version 1.0 and Topic B to Map A in 1.0* (working copy). In this case, you can view  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`,  and `Label Release B.1.1` in the dropdown of dynamic baseline labels.
 
 1. **Indirect References**: For indirect references within the DITA map, you are given the following options:
