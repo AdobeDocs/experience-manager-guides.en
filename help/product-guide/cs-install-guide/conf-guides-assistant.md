@@ -99,21 +99,6 @@ Once this is done, you should be able to use the **Guides assistant** feature.
 
 ```
 
-**File**: `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
-
-**Content**:
-
-```
-{
-  "smart.suggestion.flag":true,
-  "conref.inline.threshold":0.6,
-  "conref.block.threshold":0.7,
-  "emerald.url":"https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1",
-  "instance.type":"prod"
-}
-```
-
-
 
 Once you have configured, the **Guides assistant** ![Guides assistant](assets/guides-assistant-icon.svg) icon is displayed in the right panel of the Web Editor. Select the icon to view the **Guides assistant** panel. 
 For more details, view the [AI-powered Guides assistant for authoring](../user-guide/ai-based-guides-assistant.md) section in the Experience Manager User Guide.

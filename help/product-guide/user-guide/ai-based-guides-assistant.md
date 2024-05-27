@@ -7,10 +7,10 @@ description: Learn how to view and utilize AI-powered Guides Assistant in the We
 
 
 
-While authoring your documents in the Web Editor, you can use the GenAI-based Guides assistant. This conversational search feature helps you find relevant content from the Experience Manager Guides documentation.
-You can ask your questions and find the relevant content. You get the appropriate content from authentic documentation, not any Web-based search. This search is entirely conversational. You can ask questions, and then, based on the response, you can also ask further questions. The response also includes links to the articles, which you can refer to for details. 
+While authoring your documents in the Web Editor, you can use the GenAI-based Guides assistant. This conversational search feature helps you find relevant content from the [Adobe Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+You can ask your questions and get answers in an informative way. You get the appropriate content from authentic documentation, not any Web-based search. This search is entirely conversational. You can ask questions, and then, based on the response, you can also ask further questions. The response also includes links to the articles, which you can refer to for details. 
 
-For example, you need to create a topic for your documentation. You can ask, *How to create a topic?*. You get a response and the links for the relevant article. Then, if you want to learn how to generate the PDF output for the document, you can ask questions about it.
+For example, you may want  to create a topic for your documentation. You can ask, *How to create a topic?* You get a response and the links for the relevant article. Then, if you want to learn how to generate the PDF output for the document, you can ask questions about it.
 
 
 
@@ -40,7 +40,7 @@ Perform the following steps to view the conversational search for finding approp
 
   1. Select **Send**  ![Send icon](images/send-icon.svg)  or press **Enter**  to view the response to your questions.
   
-      Depending on your question, you may view the content along with applicable images and links to the articles.
+      Depending on your question, you may view the content, applicable images, and links to the articles.
 
         ![Guides assistant panel response](images/guides-assistant-panel-response.png){width="300" align="left"}
 
@@ -51,7 +51,7 @@ Perform the following steps to view the conversational search for finding approp
 
    
     
-1. Select the links to the articles present at the end and view detailed information related to your question.
+1. Select the links to the articles at the end and view detailed information about your question.
 
 
 1. Select **Clear Conversation** ![clear conversation](images/clear-conversation-icon.svg) to remove the conversation history from the panel. You can then start a fresh conversation and find the relevant content. 
