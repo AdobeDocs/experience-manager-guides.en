@@ -3,32 +3,32 @@ title: AI-powered Guides assistant to search content
 description: Learn how to view and utilize AI-powered Guides Assistant in the Web Editor.
 ---
 
-# AI-powered Guides assistant to search content
+# AI-powered Guides Assistant to search content
 
 
 
-While authoring your documents in the Web Editor, you can use the GenAI-based Guides assistant. This conversational search feature helps you find relevant content from the [Adobe Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
-You can ask your questions and get answers in an informative way. You get the appropriate content from authentic documentation, not any Web-based search. This search is entirely conversational. You can ask questions, and then, based on the response, you can also ask further questions. The response also includes links to the articles, which you can refer to for details. 
+While authoring your documents in the Web Editor, you can use the GenAI-based Guides Assistant. This conversational search feature helps you find relevant content from the [Adobe Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+You can ask your questions and get answers in an informative way. The answer to your query is based on the content from the product documentation. This search is entirely conversational. You can ask questions, and then, based on the response, you can also ask further questions. The response also includes links to source documents, which you can refer to for details. 
 
-For example, you may want  to create a topic for your documentation. You can ask, *How to create a topic?* You get a response and the links for the related articles. Then, if you want to learn how to generate the PDF output for the document, you can ask questions about it.
+For example, you may want to create a topic in Experience Manager Guides for your documentation. You can ask, *How to create a topic?* You get a response and the links for the related articles. Then, if you want to learn how to generate the PDF output for the document, you can ask questions about it. For example, *How to publish a topic to a PDF?* or *How to generate the PDF output for a topic?*  
 
 
 
-When you open the Web Editor, the **Guides assistant** panel appears on the right.
+When you open the Web Editor, the **Guides Assistant** panel appears on the right.
 
 
 
 >[!NOTE]
 >
-> Your administrator must configure the **Guides assistant** feature. For more details, view the [Configure the AI-powered Guides assistant to search content](../cs-install-guide/conf-guides-assistant.md) section in the Installation and Configuration Guide for Cloud Services. 
+> Your administrator must configure the **Guides Assistant** feature. For more details, view the [Configure the AI-powered Guides Assistant to search content](../cs-install-guide/conf-guides-assistant.md) section in the Installation and Configuration Guide for Cloud Services. 
 
-![Guides assistant panel](images/guides-assistant-panel.png){width="300" align="left"}
+![Guides Assistant panel](images/guides-assistant-panel.png){width="300" align="left"}
 
-*View the **Guides assistant** panel.*
+*View the **Guides Assistant** panel.*
 
-Perform the following steps to view the conversational search for finding appropriate content to resolve your queries:
+Perform the following steps to use the conversational search to find appropriate content and resolve your queries:
 
-1. Select **Guides assistant** ![Guides assistant icon](images/guides-assistant-icon.svg) to open the panel.
+1. Select **Guides Assistant** ![Guides assistant icon](images/guides-assistant-icon.svg) to open the panel.
 
 
 
@@ -54,7 +54,6 @@ Perform the following steps to view the conversational search for finding approp
 1. Select the links to the articles at the end and view detailed information about your question.
 
 
-1. Select **Clear Conversation** ![clear conversation](images/clear-conversation-icon.svg) to remove the conversation history from the panel. You can then start a fresh conversation and find the relevant content. 
+1. Select **Clear Conversation** ![clear conversation](images/clear-conversation-icon.svg) to remove the conversation history from the panel. You can then start a fresh conversation and find relevant content. 
 
-   
-This smart feature helps you quickly find the authentic information. It minimizes the effort of manual content searching, allowing you to concentrate more on generating new content.
+This smart feature helps you find solutions quickly and lets you focus on your documentation and efficiently complete your tasks.

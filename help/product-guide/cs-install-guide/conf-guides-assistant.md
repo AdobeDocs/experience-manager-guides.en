@@ -1,11 +1,11 @@
 ---
 title: Configure the Guides assistant to search content
-description: Learn how to configure the Guides assistant to search content
+description: Learn how to configure the Guides Assistant to search content
 ---
 
-# Configure the AI-powered Guides assistant to search content
+# Configure the AI-powered Guides Assistant to search content
 
-As an administrator, you can configure the Guides Assistant feature for the authors. The Guides assistant service is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe’s secure token-based authentication workflows and start using the new Guides assistant feature. The following configurations help you to add the **AI configuration** tab to a folder profile. Once added, you can use the Guides assistant feature in the Web Editor.
+As an administrator, you can configure the Guides Assistant feature for the authors. The Guides Assistant service is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe’s secure token-based authentication workflows and start using the new Guides Assistant feature. The following configurations help you to add the **AI configuration** tab to a folder profile. Once added, you can use the Guides Assistant feature in the Web Editor.
 
 ## Create IMS configurations in Adobe Developer Console
 
@@ -81,7 +81,7 @@ Once you have added the IMS configuration to the environment, perform the follow
 1. Commit and push your Git changes.
 1. Run the pipeline to apply the changes to the environment.
 
-Once this is done, you should be able to use the **Guides assistant** feature.
+Once this is done, you should be able to use the **Guides Assistant** feature.
 
 
 
@@ -100,5 +100,5 @@ Once this is done, you should be able to use the **Guides assistant** feature.
 ```
 
 
-Once you have configured, the **Guides assistant** ![Guides assistant](assets/guides-assistant-icon.svg) icon is displayed in the right panel of the Web Editor. Select the icon to view the **Guides assistant** panel. 
-For more details, view the [AI-powered Guides assistant for authoring](../user-guide/ai-based-guides-assistant.md) section in the Experience Manager User Guide.
+Once you have configured, the **Guides Assistant** ![Guides Assistant](assets/guides-assistant-icon.svg) icon is displayed in the right panel of the Web Editor. Select the icon to view the **Guides Assistant** panel. 
+For more details, view the [AI-powered Guides Assistant to search content](../user-guide/ai-based-guides-assistant.md) section in the Experience Manager User Guide.

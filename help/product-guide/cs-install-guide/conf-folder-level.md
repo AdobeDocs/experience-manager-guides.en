@@ -440,13 +440,13 @@ Learn more about how to view and add [AI-based Smart Suggestions](../user-guide/
 
 
 
-## Configure AI-powered Guides assistant in the Web Editor {#conf-ai-guides-assistant}
+## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
 
 For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-You can configure the AI-powered **Guides assistant** to help the authors ask questions and easily find the required content from the Experience Manager Guides documentation.
+You can configure the AI-powered **Guides Assistant** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
-The **XML Editor Configuration** tab allows you to configure the default questions of the **Guides assistant panel** in the Web Editor.
+The **XML Editor Configuration** tab allows you to configure the default questions of the **Guides Assistant panel** in the Web Editor.
 
 >[!NOTE]
 >
