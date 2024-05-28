@@ -31,9 +31,9 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
         ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](images/content-fragment-publish.png){width="500" align="left"}
        *Add the path, model, and mapping details to publish a topic or its elements as a Content Fragment. You can overwrite an existing Content Fragment.*  
 
-      > [!NOTE]
+    >[!NOTE]
     >
-    > You can also publish a  Content Fragment from the **Repository View**. Select the topic that you want to publish as a Content Fragment. And then, from the **Options** menu, select **Publish As** > **Content Fragment**.
+    >You can also publish a  Content Fragment from the **Repository View**. Select the topic that you want to publish as a Content Fragment. And then, from the **Options** menu, select **Publish As** > **Content Fragment**.
     * **Path**: Browse and select the path of the folder where you want to publish the Content Fragment. If you select an existing Content Fragment, it overwrites the contents of the mapped fields.
     * **Title**: Type the title of the Content Fragment. By default, the title is populated with the title of the topic. You can edit it. This title is used to generate the name of the Content Fragment.
     * **Name**: Type the name of the Content Fragment. By default, the name is populated with the title of the topic, and the spaces are replaced with '_'. For example, *sample_content_fragment*. You can edit it.  This name is used to generate the URL for the Content Fragment.
