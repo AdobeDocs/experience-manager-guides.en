@@ -12,7 +12,7 @@ Experience Manager Guides comes with the **Data Sources** tool that helps you co
 
 
 Besides these out-of-the-box connectors, Experience Manager Guides provides the connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. You can download and install these open-source connectors from the [Maven Central repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). The users can then configure these connectors. 
-Learn how to [install an opens-source connector](#install-open-source-connector).
+Learn how to [install an open-source connector](#install-open-source-connector).
 
 
 
@@ -64,7 +64,7 @@ To configure a connector, perform the following steps:
 
 **Connect to multiple resources**
 
-You can add or use multiple resources based on different URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft  Azure DevOps Boards  (ADO). Then, connect with them to create content snippets or topics using the generators for them. 
+You can add or use multiple resources based on different URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO). Then, connect with them to create content snippets or topics using the generators for them. 
         
 Perform the following steps to create a resource:
 
@@ -81,8 +81,9 @@ Perform the following steps to create a resource:
 
 ## Install an open-source connector{#install-open-source-connector}
 
-To publish a dependency on the cloud that is present on Maven Central, you need to include and embed the dependency for an open-source connector.
-1. Add the pendency in `all/pom.xml`  in your cloud manager Git project code. For example, you can run the following dependency for Microsoft Azure DevOps Boards data source connector.
+To publish a dependency present on the [Maven Central repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) to the Cloud Services, you need to include and embed the dependency for an open-source connector.
+
+1. Add the dependency in `all/pom.xml`  in your cloud manager Git project code. For example, you can run the following dependency for Microsoft Azure DevOps Boards data source connector.
 
     
     ```
