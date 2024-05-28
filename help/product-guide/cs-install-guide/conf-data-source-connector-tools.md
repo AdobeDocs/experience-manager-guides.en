@@ -82,7 +82,7 @@ Perform the following steps to create a resource:
 ## Install an open-source connector{#install-open-source-connector}
 
 To publish a dependency on the cloud that is present on Maven Central, you need to include and embed the dependency for an open-source connector.
-1.	Add the pendency in `all/pom.xml`  in your cloud manager Git project code. For example, you can run the following dependency for Microsoft Azure DevOps Boards data source connector.
+1. Add the pendency in `all/pom.xml`  in your cloud manager Git project code. For example, you can run the following dependency for Microsoft Azure DevOps Boards data source connector.
 
     
     ```
@@ -94,7 +94,7 @@ To publish a dependency on the cloud that is present on Maven Central, you need 
     </dependency> 
     ```
 
-1.	 Embed the added dependency. 
+1. Embed the added dependency. 
     
         ```
         <embedded>
@@ -105,7 +105,7 @@ To publish a dependency on the cloud that is present on Maven Central, you need 
         </embedded> 
         ```
 
-1.	Run the pipeline to apply the changes in the Cloud Services. 
+1. Run the pipeline to apply the changes in the Cloud Services. 
 The connector is installed in your environment.
 
 
