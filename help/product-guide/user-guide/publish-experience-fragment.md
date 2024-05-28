@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 ---
 
-# Publish an Experience Fragment
+# Publish Experience Fragments
 
 Experience Fragments are pieces of modular content in Adobe Experience Manager. These content blocks are based on templates and encapsulate both the content and its layout. These reusable pieces of content allow content creators to assemble and deliver consistent, scalable experiences across multiple channels that Experience Manager supports. This feature helps you easily create consistent marketing experiences efficiently, such as newsletters, promotion banners, and customer testimonials.  
 
