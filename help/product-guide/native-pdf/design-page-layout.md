@@ -346,19 +346,28 @@ Fields are very useful when you want to insert a piece of information that is pr
 
 There are the following categories for fields that you can insert in your page layout:
 
+* Metadata
+* Topic Title
+* Chapter Title
+* Map Title
+* Page Number
+* Chapter Number
+* Total Pages
 * Date
 * Time
-* Topic Title
-* Project Title
-* Page Number
-* Total Page
-* Chapter Title
-* Chapter Number
-* Metadata
+
 
 Each of these field categories contain different variations in which the field information can be inserted. For example, a Date field can have different variations such as `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` and so on. Similarly, Page Number can have variations in the form of roman, decimal, or even locale-specific formats such as _Arabic_, _Devanagari_, _Hebrew_, and more.
 
 In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA map content, and it can be easily inserted in your page layout. 
+
+In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA map content,  or it can be picked from the DITA Map file properties or the Topic file properties and easily inserted into your page layout.
+
+DITA map content is the metadata that you have defined in the `<topicmeta>` element. **Map file properties** and **Topic file properties** define the asset metadata, which can be accessed from the CRXDE Lite mode.
+
+You can choose to have specific metadata for different topics or use the metadata of the DITA map for all topics. You can also add multiple metadata fields in a page layout. For example, you can add the metadata field for a map title and use the DITA map file properties on the first page of a chapter. You can also add the metadata field for a topic title and use the Topic file properties on all pages. 
+If topics merge, the metadata of the first topic is picked. For example, if one topic ends on a page while the other begins on the same page, the metadata of the first topic is picked.
+
 
 You can also select the metadata properties from your assets and add them to the page layout. The asset metadata is then published for your PDF output. These metadata properties of the assets are set from the **Properties** page of the DITA map or bookmap file.
 
@@ -389,7 +398,7 @@ In the following example, we will insert a page number and a chapter title in th
 
 1. Select the **Page Number** category from the Field list, the **default(1)** page number format from the Format list, and click **Insert**.
 
-    <img src="./assets/insert-page-number-field.svg" width="400">
+    <img src="./assets/insert-page-number-field.png" width="400">
 
     >[!NOTE]
     >
