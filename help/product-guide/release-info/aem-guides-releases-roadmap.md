@@ -1,7 +1,8 @@
 ---
 title: Adobe Experience Manager Guides releases roadmap 2024
 description: Get information about the live and upcoming releases of Adobe Experience Manager Guides on-prem and Adobe Experience Manager Guides as a Cloud Service
-role: Admin, Leader, Developer, User 
+role: Admin, Leader, Developer, User
+exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
 ---
 # [!DNL Experience Manager Guides] releases information {#aem-guides-releases-roadmap}
 
@@ -28,6 +29,3 @@ Product updates in terms of new features, enhancements, and bug fixes for suppor
 |---|---|---|---|---|---|
 |Adobe Experience Manager Guides 4.4.0|Release|Jan 29, 2024|[Here](whats-new-4-4.md)|[Here](upgrade-instructions-4-4.md)|Released|
 |Adobe Experience Manager Guides 4.6.0|Release|July 3<sup>rd</sup> week, 2024|||Target|
-
-
-
