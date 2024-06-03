@@ -359,14 +359,13 @@ There are the following categories for fields that you can insert in your page l
 
 Each of these field categories contain different variations in which the field information can be inserted. For example, a Date field can have different variations such as `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` and so on. Similarly, Page Number can have variations in the form of roman, decimal, or even locale-specific formats such as _Arabic_, _Devanagari_, _Hebrew_, and more.
 
-In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA map content, and it can be easily inserted in your page layout. 
 
 In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA map content,  or it can be picked from the DITA Map file properties or the Topic file properties and easily inserted into your page layout.
 
 DITA map content is the metadata that you have defined in the `<topicmeta>` element. **Map file properties** and **Topic file properties** define the asset metadata, which can be accessed from the **Properties** page. 
 
 You can choose to have specific metadata for different topics or use the metadata of the DITA map for all topics. You can also add multiple metadata fields in a page layout. For example, you can add the metadata field for a map title and use the DITA map file properties on the first page of a chapter. You can also add the metadata field for a topic title and use the Topic file properties on all pages. 
-If topics merge, the metadata of the first topic is picked. For example, if one topic ends on a page while the other begins on the same page, the metadata of the first topic is picked.
+If topics merge, the metadata of the first topic is picked. For example, if one topic ends on a page while the other begins on the same page, the metadata of the first topic is picked. 
 
 You can also add custom properties and then insert them as fields in the page layout.
 
