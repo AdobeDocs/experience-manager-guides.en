@@ -37,11 +37,6 @@ Use this feature to add specific metadata for each topic, such as keywords, desc
 *Add metadata to the fields in your page layouts.*
 
 
-
-
-
-
-
 ## Ability to select partial content across elements and perform operations
 
 Experience Manager Guides enhances your experience of selecting the content across the elements in the Web Editor. You can easily select content across elements and perform various operations like making it bold, italics, and underlined. You can also quickly delete the content that you have selected across elements. Once the content is deleted, if necessary, the remaining content is put under a single valid element.
@@ -66,4 +61,4 @@ For more details, view [support for Markdown documents](../web-editor/native-pdf
 
 The translation feature is faster and more stable than ever. It comes with a new architecture that provides enhanced performance. The project creation time is now 700 % faster than earlier, and the conflicts during the process are nearly nonexistent. This improved performance helps you with faster translations, ensuring smooth operation even for large translation projects.
 This feature is quite helpful as it elevates the overall translation experience by improving productivity.  
-Learn more about how to [translate documents from the Web Editor](../user-guide/translate-documents-web-editor).
+Learn more about how to [translate documents from the Web Editor](../user-guide/translate-documents-web-editor.md).
