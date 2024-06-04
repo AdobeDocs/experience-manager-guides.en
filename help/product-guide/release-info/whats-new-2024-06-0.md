@@ -36,6 +36,7 @@ Use this feature to add specific metadata for each topic, such as keywords, desc
 
 *Add metadata to the fields in your page layouts.*
 
+Learn how to [add fields and metadata](../native-pdf/design-page-layout.md#add-fields-metadata) in a page layout.
 
 ## Ability to select partial content across elements and perform operations
 
@@ -48,7 +49,7 @@ You can also select the content and then surround the content under a valid DITA
 
 Now, you can also seamlessly toggle the bold, underline, or italics formatting for the partially or cross-selected content. Overall, these enhancements provide a better experience and help you improve your efficiency while editing your documents. 
 
-For more details, view [Other features in the Web Editor](../user-guide/web-editor-other-features.md).
+For more details, view [Partial selection of content across element](../user-guide/web-editor-edit-topics.md#partial-selection-of-content-across-elements).
 
 ## Support for Markdown documents in Native PDF publishing
 
