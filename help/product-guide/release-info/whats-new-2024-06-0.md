@@ -10,3 +10,60 @@ For the list of issues fixed in this release, view [Fixed issues in the 2024.06.
 
 Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instructions-2024-06-0.md).
 
+
+## Publish a topic or its elements to an Experience Fragment
+
+An Experience Fragment is a modular content unit within Adobe Experience Manager that integrates content and layout. 
+
+
+Experience Manager Guides allow you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic and its elements in an Experience Fragment. Experience Fragments are instrumental and can help you create consistent and engaging experiences and reuse them across multiple channels. For example, you can create experience fragments for headers or footers with branding elements, promotional banners, customer testimonials, and event promotions.  
+
+
+   ![file properties options tab](./assets/file-properties-outputs-tab.png){width="300" align="left"}
+
+For more details, view [Publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
+
+
+## Ability to pass the topic asset metadata to Native PDF output
+
+
+
+Now, Experience Manager Guides allows you to add the topic asset metadata while generating the Native PDF output. You can add the metadata from the topic file properties to the page layouts. 
+Use this feature to add specific metadata for each topic, such as keywords, descriptions, and author information, to the topic page headers and footers. This feature helps you maintain consistency of metadata in your PDF output. It also helps in improving the searchability of your content.
+
+
+![add metadata native pdf](./assets/add-metadata-native-pdf.png ) {width="300" align="left"}
+
+*Add metadata to the fields in your page layouts.*
+
+
+
+
+
+
+
+## Ability to select partial content across elements and perform operations
+
+Experience Manager Guides enhances your experience of selecting the content across the elements in the Web Editor. You can easily select content across elements and perform various operations like making it bold, italics, and underlined. You can also quickly delete the content that you have selected across elements. Once the content is deleted, if necessary, the remaining content is put under a single valid element.
+
+You can also select the content and then surround the content under a valid DITA element.
+![surround element dialog box](./assets/surround-element.png) {width="300" align="left"}
+
+*Surround the selected content with a valid element.*
+
+Now, you can also seamlessly toggle the bold, underline, or italics formatting for the partially or cross-selected content. Overall, these enhancements provide a better experience and help you improve your efficiency while editing your documents. 
+
+For more details, view [Other features in the Web Editor](../user-guide/web-editor-other-features.md).
+
+## Support for Markdown documents in Native PDF publishing
+
+Experience Manager Guides also supports Markdown documents in Native PDF publishing. This feature is handy and helps you generate PDFs for the Markdown files in your DITA map. Markdown support in PDF helps you easily create, manage, and share your documents.
+
+For more details, view [support for Markdown documents](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents).
+
+
+## Improved performance and scalability for larger translation projects
+
+The translation feature is faster and more stable than ever. It comes with a new architecture that provides enhanced performance. The project creation time is now 700 % faster than earlier, and the conflicts during the process are nearly nonexistent. This improved performance helps you with faster translations, ensuring smooth operation even for large translation projects.
+This feature is quite helpful as it elevates the overall translation experience by improving productivity.  
+Learn more about how to [translate documents from the Web Editor](../user-guide/translate-documents-web-editor).
