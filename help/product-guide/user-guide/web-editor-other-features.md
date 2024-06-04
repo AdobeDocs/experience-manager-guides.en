@@ -190,7 +190,7 @@ Similarly, if you delete the selected content, the remaining content after the d
         >
         > You can also view the Surround with element dialog box by selecting the context menu of the selected content.
 
-    -	Select an element from the dialog box. The selected content is wrapped under that element. For example, if you select the content in a paragraph and then choose the `<note>` element from the **Surround with element** dialog box, the selected content appears under a note.  
+    - Select an element from the dialog box. The selected content is wrapped under that element. For example, if you select the content in a paragraph and then choose the `<note>` element from the **Surround with element** dialog box, the selected content appears under a note.  
     ![surround element dialog box](./images/surround-element.png) {width="300" align="left"}  
 
 
