@@ -29,6 +29,24 @@ The Web Editor comes with a range of editing features that let you easily create
     >
     > If you do not wish to commit changes into AEM repository, click **Close**, and then click **Close Without Saving** in the Unsaved Changes dialog.
 
+
+## Partial selection of content across elements
+
+Experience Manager Guides also allows you to select content across elements. After selecting the content, you can perform the following operations:
+- Formatting and deletion: Make the selected content bold, italics, underline, or even delete the selected content. The content from the valid open tags is then merged and appears under a single element. For example, you can select the content within a paragraph and extend the selection to another paragraph. Then, if you make the selected content bold, all the bold content from the open tags is merged and appears under a single paragraph element.
+
+Similarly, if you delete the selected content, the remaining content after the deletion in the open tags is merged. 
+
+- Surround the content with a valid element: Perform the following steps to wrap the content with a valid element:
+    - Select the content within an element.
+    - Select the ![add](images/Add_icon.svg) icon from the secondary toolbar on the top to view the **Surround with Element** dialog box. The dialog box lists the valid elements for the selected content.
+        >[!NOTE]
+        >
+        > You can also view the Surround with element dialog box by selecting the context menu of the selected content.
+
+    - Select an element from the dialog box. The selected content is wrapped under that element. For example, if you select the content in a paragraph and then choose the `<note>` element from the **Surround with element** dialog box, the selected content appears under a note.  
+    ![surround element dialog box](./images/surround-element.png) {width="300" align="left"}  
+
 ## Refresh browser while editing the files
 
 Experience Manager Guides provides the support to refresh the browser while you edit your content in the Web Editor. This feature helps you continue editing content in case you encounter an application error while working. If you hit the browser refresh while one or more files with unsaved changes are opened for editing, you are warned that the unsaved changes may be lost. You are given an option to cancel the refresh operation and save your files to preserve your changes.
