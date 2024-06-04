@@ -88,4 +88,4 @@ Sample file:
 ]
 ```
 
- You can publish the whole topic with the default mapping. Select the `Full Topic` mapping from the dropdown in the **Publish As Content Fragment** dialog box and have "topicData" field in the content fragment model.
+ You can publish the whole topic with the default mapping. Select the `Full Topic` mapping from the dropdown **Generate Content Fragment** dialog box, and have "topicData" field in the content fragment model.

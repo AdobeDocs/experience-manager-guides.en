@@ -27,7 +27,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
     *Add a new Content Fragment from the File Properties of a topic*.
 
-1. In the **Generate Content Fragment** dialog, fill in the following details:
+1. In the **Generate Content Fragment** dialog box, fill in the following details:
         ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](images/content-fragment-publish.png){width="500" align="left"}
        *Add the path, model, and mapping details to publish a topic or its elements as a Content Fragment. You can overwrite an existing Content Fragment.*  
 

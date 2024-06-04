@@ -66,7 +66,7 @@ Based on the translation workflow used in your setup, the component-based transl
 
 ## Configure the legacy translation workflow 
 
-It is recommended that you use the latest translation workflow, which provides enhanced performance. However, if you want to use, you can configure the legacy translation workflow.
+It is recommended that you use the latest translation workflow, which provides enhanced performance. However, if you want to use the legacy translation workflow, you can configure it.
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to configure the legacy translation workflow:
  
