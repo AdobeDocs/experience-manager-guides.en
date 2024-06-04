@@ -40,7 +40,7 @@ To generate an Experience Fragment, perform the following steps:
 
     >[!NOTE]
     >
-    > You can also publish an Experience  Fragment from the **Repository View**. Select the topic that you want to publish as an Experience Fragment. And then, from the **Options** menu, select **Publish As** > **Experience Fragment**.
+    > You can also publish an Experience  Fragment from the **Repository View**. Select the topic that you want to publish as an Experience Fragment. Then, from the **Options** menu, select **Publish As** > **Experience Fragment**.
 
 1. In the **Generate Experience Fragment** dialog box, fill in the following details:
         ![Add the fragment model and mapping details in the Publish as Experience Fragment dialog](images/experience-fragment-generate.png){width="500" align="left"}
