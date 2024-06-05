@@ -129,3 +129,37 @@ Experience Manager Guides has a [**custom sling rewriter**](../cs-install-guide/
 If you have another custom sling rewriter in your codebase, use an `'order'` value greater than 50, as Experience Manager Guides sling rewriter uses `'order'` 50. To override this, you need a value >50. For more details, view [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 During this upgrade, since the `'order'` value is changed from 1000 to 50, you need to merge the existing custom rewriter, if any, with `fmdita-rewriter`.
+
+
+
+### Steps to perform B-Tree migration for Content Fragments
+
+If references are not displayed for content fragments, you can choose to HIT the trigger to start the migration job:
+
+POST: 
+```
+http://localhost:4503/bin/guides/script/start?jobType=cf-reference-store-btree-migration
+
+```
+
+
+Response:
+```
+{
+"msg": "Job is successfully submitted and lock node is created for future reference",
+"lockNodePath": "/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886",
+"status": "SCHEDULED"
+}
+```
+In the previous response, JSON, the key `lockNodePath` holds the path to the node created in the repository, which points to the job submitted. It will automatically be deleted once the job is completed. You can refer to this node for the status of the job.
+
+Wait till this job is completed before proceeding to the next steps.
+
+>[!NOTE] 
+>
+>You should check if the node is still present, and the status of the job.
+
+GET: 
+```
+http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json
+```
