@@ -83,7 +83,7 @@ Perform the following steps to create a resource:
 
 To publish a dependency present on the [Maven Central repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) to the Cloud Services, you need to include and embed the dependency for an open-source connector.
 
-1. Add the dependency in `all/pom.xml`  in your cloud manager Git project code. For example, you can run the following dependency for Microsoft Azure DevOps Boards data source connector.
+1. Add the dependency in `all/pom.xml`  in your cloud manager Git project code. For example, you can add the following dependency for Microsoft Azure DevOps Boards data source connector.
 
     
     ```
