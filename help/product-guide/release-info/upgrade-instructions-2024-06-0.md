@@ -137,6 +137,7 @@ During this upgrade, since the `'order'` value is changed from 1000 to 50, you n
 If references are not displayed for content fragments, you can choose to HIT the trigger to start the migration job:
 
 POST: 
+
 ```
 http://localhost:4503/bin/guides/script/start?jobType=cf-reference-store-btree-migration
 
@@ -144,6 +145,7 @@ http://localhost:4503/bin/guides/script/start?jobType=cf-reference-store-btree-m
 
 
 Response:
+
 ```
 {
 "msg": "Job is successfully submitted and lock node is created for future reference",
@@ -151,6 +153,7 @@ Response:
 "status": "SCHEDULED"
 }
 ```
+
 In the previous response, JSON, the key `lockNodePath` holds the path to the node created in the repository, which points to the job submitted. It will automatically be deleted once the job is completed. You can refer to this node for the status of the job.
 
 Wait till this job is completed before proceeding to the next steps.
@@ -160,6 +163,7 @@ Wait till this job is completed before proceeding to the next steps.
 >You should check if the node is still present, and the status of the job.
 
 GET: 
+
 ```
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json
 ```
