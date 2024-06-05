@@ -440,7 +440,7 @@ Learn more about how to view and add [AI-based Smart Suggestions](../user-guide/
 
 
 
-## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
+<!--## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
 
 For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
@@ -485,7 +485,7 @@ Perform the following steps to configure the default questions:
     > The default questions appear in the **Guides assistant** panel after you save the file. 
 
 
-Learn more about using the [AI-powered Guides assistant](../user-guide/ai-based-guides-assistant.md) to find the required content from the Experience Manager Guides documentation.
+Learn more about using the [AI-powered Guides assistant](../user-guide/ai-based-guides-assistant.md) to find the required content from the Experience Manager Guides documentation. -->
 
 
 ## Configure and customize the XML Web Editor {#id2065G300O5Z}

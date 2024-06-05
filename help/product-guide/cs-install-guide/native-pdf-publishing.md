@@ -19,6 +19,7 @@ For more details, view the following:
 * [Design a page layout](../native-pdf/design-page-layout.md)
 * [Support for language variables](../native-pdf/native-pdf-language-variables.md)
 * [Variables in the PDF output](../native-pdf/native-pdf-variables.md)
+*  [Add a barcode to the PDF output](../native-pdf/add-barcode.md)
 * Common content styles {#content-styles}
     * [Work with the common content styles](../native-pdf/stylesheet.md)
     * [Work with custom change bars styles](../native-pdf/change-bar-style.md)
