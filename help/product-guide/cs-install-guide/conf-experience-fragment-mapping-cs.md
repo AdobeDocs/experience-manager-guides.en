@@ -13,7 +13,7 @@ Adobe Experience Manager Guides provides the feature to create a JSON-based mapp
 1. Select the Adobe Experience Manager link at the top and choose **Tools**.
 1. Select Guides from the list of tools and select the **Folder Profiles**.
 1. Select the profile tile that you want to configure. For example, select the **Global Profile** tile.
-   >[!NOTE]
+    >[!NOTE]
     >
     > You can configure the mapping for the global or a folder-level profile.
 1. Select the **XML Editor Configuration** tab and select the **Edit** icon on the top.
