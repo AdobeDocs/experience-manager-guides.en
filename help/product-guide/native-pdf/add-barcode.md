@@ -36,7 +36,11 @@ margin-top: 2mm;
 ...
 ```
 
-### Add a barcode placeholder in the template header and apply the style
+###  Use the CSS style to generate the barcode 
+
+**Example 1** 
+
+ Add a barcode placeholder in the template header and apply the style:
  
 1. Edit **Templates** > **Page Layouts** 
 1. Select a page layout. For example, you can select the BackCover page layout, which contains the header or footer.
@@ -54,15 +58,13 @@ You can view the barcode on generating the output PDF using the template, which 
 
 The following screenshot displays a sample barcode in a PDF output.
 
-<img src="./assets/barcode-output-sample.png" alt="Sample output with barcode" width=700>
+  <img src="./assets/barcode-output-sample.png" alt="Sample output with barcode" width=700>
+
+**Example 2**
 
 Modify the `Common.plt` file in the **Basic** template to add a barcode after the project title.  
 
-**Example 1**
-
-To create a barcode for an ISBN number:
-
-Add an ISBN number. Use the ISBN number to generate the barcode.
+To create a barcode for an ISBN number, add an ISBN number. Then use the ISBN number to generate the barcode.
 
 ```html
 ...
@@ -74,10 +76,9 @@ Add an ISBN number. Use the ISBN number to generate the barcode.
 ...
 ```
 
-**Example 2**
+**Example 3**
 
 To create a barcode using the map metadata:
-
 
 
 Add a resource ID element to the DITA map. The resource ID serves as the main input to generate the barcode. 
@@ -102,19 +103,12 @@ You can also edit the resource ID in the Authoring mode.
 ![barcode sample map](./assets/barcode-map.png)
 
 ```html
-...
   <div data-region="header">
     <p class="chapter-header"><span data-field="project-title" data-format="default">Project Title</span> </p>
     <p><span class="barcode" data-field="metadata" data-format="default" data-subtype="//resourceid/@id">Resource ID (barcode)</span></p>
   </div>
 } 
-...
 ```
-
-
-
-
-
 
 ## Barcode types {#barcode-types}
 
