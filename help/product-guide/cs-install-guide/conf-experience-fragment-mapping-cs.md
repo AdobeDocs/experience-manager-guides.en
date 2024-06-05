@@ -39,10 +39,17 @@ Adobe Experience Manager Guides provides the feature to create a JSON-based mapp
 
         `"attributeMap": array`
 
-       
-
-
+         
 1. Save the file and upload it.
+
+Experience Manager Guides converts the complete topic to HTML and maps each HRML element to some core component that is used in the Experience Fragment. For example, the content in a `<p>` tag can be mapped to create a text component in the Experience Fragment.
+*	`name`: Specify the HTML element. For example, `<div>`, `<img>`
+*	`class`: Specify the XML tag. For example, `<p>` `<image>`
+*	`resourceType`: Specify the resource type of the component. For example, `wcm/foundation/components/text` is the resourceType for the wcm `text` component.
+*	`attributeMap`: Provide additional information to the component, such as whether a text component should be rendered as `RichText` or contains the `fileReference` of an image component.
+
+
+
 
 Sample file:
 

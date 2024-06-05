@@ -386,20 +386,16 @@ Use distinct CSS style names to apply specific fonts and styles to different sec
 
 The rest of the document will use the default font you specified for the body tag in `content.css` or `layout.css`. This ensures that styles are not merged and that each section retains its intended design. If you want different font sizes, create specific styles for them.
 
-For example, you can define the following styles to define font size 18 on the front cover page and font size 11 pt for the back cover page:
+For example, you can define the following styles to define font size 18 on the front cover page paragraphs and font size 11 pt for the back cover page:
 
 ```css
-...
-
-[data-page-layout="Front"] p { //For front-cover template 
+[data-page-layout="Front"] p { //For all paragraphs inside Front page
   font-size: 18pt; 
 } 
   
-[data-page-layout="Back"] p
-{ //For back-cover template 
+[data-page-layout="Back"] p { //For all paragraphs inside Back page
   font-size: 11pt; 
-}  
-...
+}
 ```
 
 >[!NOTE]
@@ -420,7 +416,6 @@ The following default CSS style hides both prefix and suffix content.
 ...
 ```
 
-You can add the following CSS to the template `content.css` to show the note prefix label:
 To allow these prefixes within the `<note>` element, include the following CSS in your `content.css`: 
 
 ```css
