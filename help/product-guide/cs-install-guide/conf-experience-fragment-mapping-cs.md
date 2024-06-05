@@ -155,5 +155,5 @@ Sample file:
 
 While publishing the Experience Fragments from the Web Editor, select the `Template` from the dropdown in the **Generate Experience Fragment** dialog box to view the mapping available for the template in the **Mapping** field. If no custom mapping is present for a template, then the default mapping is listed. You can use the default mapping to publish the whole topic as an Experience Fragment. 
 
-For more details, view [Publish Experience Fragments](../user-guide/).  
+For more details, view [Publish Experience Fragments](../user-guide/publish-experience-fragment.md).  
  
