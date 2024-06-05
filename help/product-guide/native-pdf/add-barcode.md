@@ -38,6 +38,8 @@ margin-top: 2mm;
 
 ### Use the CSS style to generate the barcode 
 
+You can generate the barcode in different ways. Some of the examples are as follows:
+
 **Example 1** 
 
  Add a barcode placeholder in the template header and apply the style:
