@@ -36,7 +36,7 @@ margin-top: 2mm;
 ...
 ```
 
-###  Use the CSS style to generate the barcode 
+### Use the CSS style to generate the barcode 
 
 **Example 1** 
 
@@ -68,6 +68,7 @@ To create a barcode for an ISBN number, add an ISBN number. Then use the ISBN nu
 
 ```html
 ...
+
   <div data-region="header">
     <p class="chapter-header"><span data-field="project-title" data-format="default">Project Title</span> </p>
     <p><span class="barcode">978-1-56619-909-4</span></p>
