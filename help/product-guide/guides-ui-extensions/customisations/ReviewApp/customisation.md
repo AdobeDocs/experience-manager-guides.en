@@ -22,10 +22,10 @@ Let us update the `commentRationale` to "This is an important sentence." and the
 This can be done using the syntax:
 
 ```typescript
- this.updateExtraProps(
-        {'commentRationale': 'This is an important sentence.',
-        'severity': 'CRITICAL'}
-      )
+  this.next('updateExtraProps', {
+    'commentRationale': 'This is an important sentence.',
+    'severity': 'CRITICAL'
+  })
 ```
 
 The above code snippet will handle the updation and saving of the values. The saved values can be rendered on the UI by defining the view.
@@ -61,7 +61,7 @@ Say we want to send an extraProp, `userInfo`, everytime a new comment or reply i
 ```typescript
     onNewCommentEvent(args){
       const events = _.get(args, "events")
-      const currTopicIndex = tcx.model.getValue(tcx.model.KEYS.REVIEW_CURR_TOPIC) || this.model.currTopicIndex || "0"
+      const currTopicIndex = tcx.model.getValue(tcx.model.KEYS.REVIEW_CURR_TOPIC) || this.getValue('currTopicIndex') || "0"
       const event = _.get(_.get(events, currTopicIndex), '0')
       const newComment = _.get(args, 'newComment')
       const newReply = _.get(args, 'newReply')
@@ -84,7 +84,8 @@ In the above code snippet, we are checking if the dispatched event was a new com
           'userEmail': userData?.email || '',
         }
         const data = {... event, extraProps}
-        this.sendExtraProps(
+        this.next(
+          'sendExtraProps',
           data
         )
       })
