@@ -47,14 +47,14 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
     * You can also select different conditions to publish the content.  Select one of the following options:
 
+        
+        * **None**: Select this option if you don’t want to apply any condition on the published output.
+        * **Using DITAVAL**: Select DITAVAL file(s) to generate output, which includes specific content. You can select the DITAVAL file using the browse dialog or by typing the file path. 
+        * **Using attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute in the condition preset to publish the relevant content.
         >[!NOTE] 
         > 
         >Conditions are enabled only if condition attributes are defined in the topic.
 
-        * **None**: Select this option if you don’t want to apply any condition on the published output.
-        * **Using DITAVAL**: Select DITAVAL file(s) to generate output, which includes specific content. You can select multiple DITAVAL files using the browse dialog or by typing the file path. 
-        * **Using attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute in the condition preset to publish the relevant content.
-    
         To know more about condition presets, view [Use condition presets](generate-output-use-condition-presets.md).
 
        

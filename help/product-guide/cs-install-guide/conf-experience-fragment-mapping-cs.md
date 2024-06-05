@@ -42,10 +42,10 @@ Adobe Experience Manager Guides provides the feature to create a JSON-based mapp
          
 1. Save the file and upload it.
 
-Experience Manager Guides converts the complete topic to HTML and maps each HRML element to some core component that is used in the Experience Fragment. For example, the content in a `<p>` tag can be mapped to create a text component in the Experience Fragment.
+Experience Manager Guides converts the complete topic to HTML which can then be mapped to the core components used in the Experience Fragment. For example, the content in a `<p>` tag can be mapped to create a text component in the Experience Fragment.
 * `name`: Specify the HTML element. For example, `<div>`, `<img>`
-* `class`: Specify the XML tag. For example, `<p>` `<image>`
-* `resourceType`: Specify the resource type of the component. For example, `wcm/foundation/components/text` is the resourceType for the wcm `text` component.
+* `class`: Specify the DITA element tag corresponding to the HTML element. For example, `<p>` `<image>`
+* `resourceType`: Specify the resource type applicable for the component used in Experience Fragment. For example, `wcm/foundation/components/text` is the resourceType for the wcm `text` component.
 * `attributeMap`: Provide additional information to the component, such as whether a text component should be rendered as `RichText` or contains the `fileReference` of an image component.
 
 
@@ -153,5 +153,7 @@ Sample file:
 
 
 
-Select the `Template` from the dropdown in the **Generate Experience Fragment** dialog box to view the mapping available for the template in the **Mapping** field. If no custom mapping is present for a template, then the default mapping is listed. You can use the default mapping to publish the whole topic as an Experience Fragment. 
+While publishing the Experience Fragments from the Web Editor, select the `Template` from the dropdown in the **Generate Experience Fragment** dialog box to view the mapping available for the template in the **Mapping** field. If no custom mapping is present for a template, then the default mapping is listed. You can use the default mapping to publish the whole topic as an Experience Fragment. 
+
+For more details, view [Publish Experience Fragments](../user-guide/).  
  
