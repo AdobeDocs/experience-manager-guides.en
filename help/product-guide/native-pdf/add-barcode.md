@@ -58,7 +58,7 @@ You can view the barcode on generating the output PDF using the template, which 
 
 The following screenshot displays a sample barcode in a PDF output.
 
-  <img src="./assets/barcode-output-sample.png" alt="Sample output with barcode" width=700>
+  <img src="./assets/barcode-output-sample.png" alt="Sample output with barcode" width=700  border="2px">
 
 **Example 2**
 
