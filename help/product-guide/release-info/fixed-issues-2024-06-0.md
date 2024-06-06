@@ -71,3 +71,11 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 - The inaccurate **Topic List** counts in Experience Manager Guides UI due to unpatched properties when copying DITA assets impact the reports generated for a DTIA map. (15529)
 - Topics containing external references with *%20* in the URL display broken file references. (15347)
 
+
+## Known issues
+
+Adobe has identified the following known issues for the 2024.06.0 release:
+
+* Native PDF Publishing fails when Vimeo content is added to the topic.
+* The **Topic properties** are not displayed as per the selected format in the metadata fields of a page layout.
+* `xrefs` are not clickable in the **Assets** view on an automation server.
