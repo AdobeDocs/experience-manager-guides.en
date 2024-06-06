@@ -17,8 +17,8 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 - The functionality to change the document state from the  **File Properties** panel isn't working correctly and changes to the *Draft* state. (17088)
 - When changing the XML editor settings using a custom folder profile, the `ui_config.json` gets updated with an incorrect file. (17011)
 - In the **Repository** panel, the **Filter** search doesn't retain the value of **Checked out by** field when reopening the **Advanced filter** dialog box. (16935)
-- Linked images from the topics fail to appear in the baseline after version creation.(16931)
-- Reusable content panels don't list elements when the **User preferences** are set to view files by **Filename**.(16896)
+- Linked images from the topics fail to appear in the baseline after version creation. (16931)
+- Reusable content panels don't list elements when the **User preferences** are set to view files by **Filename**. (16896)
 - Subelements within the table title element fail to render in the **Preview** mode of Experience Manager Guides. (16691)
 - Execution of postprocess script fails due to **FileNotFoundException** exception. (16517)
 - Vimeo videos don't support fullscreen functionality in Experience Manager Guides. (15996)
@@ -50,7 +50,7 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 - The first PDF is not versioned when a Native PDF output is generated. (10305)
 - In Native PDF, nested DITA topics  are displayed incorrectly in the Table of Contents (TOC). (16742) 
 - Thumbnails generated from Dynamic Media for video files fail to persist in the published output. (15656)
-- Output generation fails for Native PDF Publishing on an ARM64 processor.(16968)
+- Output generation fails for Native PDF Publishing on an ARM64 processor. (16968)
 
 ## Management
 
