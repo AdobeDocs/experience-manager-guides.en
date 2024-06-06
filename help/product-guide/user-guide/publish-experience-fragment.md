@@ -34,7 +34,7 @@ To generate an Experience Fragment, perform the following steps:
        *Add the cloud configuration in the folder properties to connect it with the fragment templates.* 
 1. To generate an Experience Fragment, select **New Output** ![new output icon](./images/Add_icon.svg) from the **Outputs** section in the **File Properties** of a topic.
 1. Select **Experience Fragment**.  
-    ![file properties options tab](./images/file-properties-outputs-tab.png){width="300" align="left"}
+    ![file properties options tab](./images/file-properties-outputs.png){width="300" align="left"}
 
     *Add a new Experience Fragment from the File Properties of a topic*.
 
