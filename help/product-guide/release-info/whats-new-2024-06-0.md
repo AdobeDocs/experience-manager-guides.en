@@ -13,10 +13,10 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 
 ## Publish a topic or its elements to an Experience Fragment
 
-An Experience Fragment is a modular content unit within Adobe Experience Manager that integrates content and layout. 
+An Experience Fragment is a modular content unit within Adobe Experience Manager that integrates content and layout. Experience Fragments are instrumental in creating consistent and engaging experiences and reuse them across multiple channels.
 
 
-Experience Manager Guides allow you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic and its elements in an Experience Fragment. Experience Fragments are instrumental and can help you create consistent and engaging experiences and reuse them across multiple channels. For example, you can create experience fragments for headers or footers with branding elements, promotional banners, customer testimonials, and event promotions.  
+Experience Manager Guides now allows you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic and its elements in an Experience Fragment.  For example, you can create experience fragments for headers or footers with branding elements, promotional banners, customer testimonials, and event promotions.  
 
 
    ![file properties options tab](./assets/file-properties-outputs-tab.png){width="300" align="left"}

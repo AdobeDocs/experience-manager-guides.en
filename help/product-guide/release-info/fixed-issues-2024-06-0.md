@@ -16,8 +16,8 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 - The copy and paste operation of topics exceeding 15KB fails with an unexpected error. (17171)
 - The functionality to change the document state from the  **File Properties** panel isn't working correctly and changes to the *Draft* state. (17088)
 - When changing the XML editor settings using a custom folder profile, the `ui_config.json` gets updated with an incorrect file. (17011)
-- In the Web Editor, the **Filter** search doesn't show the earlier selected values when reopening the **Advanced filter** dialog box in the **Repository** panel search. (16935)
-- Linked images from the topics fail to appear in the baseline after bulk **Save as New Version and Unlock** is selected.(16931)
+- In the **Repository** panel, the **Filter** search doesn't retain the value of **Checked out by** field when reopening the **Advanced filter** dialog box. (16935)
+- Linked images from the topics fail to appear in the baseline after version creation.(16931)
 - Reusable content panels don't list elements when the **User preferences** are set to view files by **Filename**.(16896)
 - Subelements within the table title element fail to render in the **Preview** mode of Experience Manager Guides. (16691)
 - Execution of postprocess script fails due to **FileNotFoundException** exception. (16517)
@@ -32,13 +32,12 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 - Inability to add `<data>` tag within `<ol>` tag in the Web Editor. (15161)
 - When Unified Shell is enabled, the **Version Label Management** dialog box incorrectly displays **Main Content** for versions without labels. (15039)
 - Large files load slowly in the Web Editor, with a delay of a few seconds. (14958)
-- Performance issues occur while authoring large files in the Web Editor. (14957)
 - Pressing the **Enter** key in a table cell within the text does not split the paragraph as expected. (14251)
 - The Experience Manager DITA Guide fails to trigger the **Save** function after using the auto-indent feature. (16482)
 - Review topics don't appear in the correct order. (16319)
 - In the **Author** view, a copy-and-paste issue occurs on using non-breaking spaces and results in overflowing of text. (15541)
 
-- On adding a `<conref>` in a DITA map , the Map ID of the parent map is also appended along with the ID.(15226)
+- In `<othermeta>` element within `<topicmeta>`on adding a `<conref>`to another DITA map, the map ID is also appended along with the ID of the element. (15226)
 - The `<conref>` cannot be updated from the **Attributes** panel when making changes. (15209)
 - When selecting an image within a table cell, the entire cell is selected. (15188)
 
@@ -51,7 +50,7 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 - The first PDF is not versioned when a Native PDF output is generated. (10305)
 - In Native PDF, nested DITA topics  are displayed incorrectly in the Table of Contents (TOC). (16742) 
 - Thumbnails generated from Dynamic Media for video files fail to persist in the published output. (15656)
-- Output generation fails for Native PDF Publishing on an AEM64 processor.(16968)
+- Output generation fails for Native PDF Publishing on an ARM64 processor.(16968)
 
 ## Management
 
@@ -78,4 +77,4 @@ Adobe has identified the following known issues for the 2024.06.0 release:
 
 * Native PDF Publishing fails when Vimeo content is added to the topic.
 * The **Topic properties** are not displayed as per the selected format in the metadata fields of a page layout.
-* `xrefs` are not clickable in the **Assets** view on an automation server.
+* `xrefs` are not clickable in the **Assets** view.
