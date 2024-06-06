@@ -75,6 +75,6 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 
 Adobe has identified the following known issues for the 2024.06.0 release:
 
-* Native PDF Publishing fails when Vimeo content is added to the topic.
-* The **Topic properties** are not displayed as per the selected format in the metadata fields of a page layout.
-* `xrefs` are not clickable in the **Assets** view.
+- Native PDF Publishing fails when Vimeo content is added to the topic.
+- The **Topic properties** are not displayed as per the selected format in the metadata fields of a page layout.
+- `xrefs` are not clickable in the **Assets** view.
