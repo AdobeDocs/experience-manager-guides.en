@@ -12,12 +12,7 @@ Adobe Experience Manager Guides provides the feature to create a JSON-based mapp
 1. To download the *experienceFragmentMapping.json*, log into Adobe Experience Manager as an administrator.
 1. Select the Adobe Experience Manager link at the top and choose **Tools**.
 1. Select Guides from the list of tools and select the **Folder Profiles**.
-1. Select the profile tile that you want to configure. For example, select the **Global Profile** tile.
-
-   >[!NOTE]
-   >
-   > You can configure the mapping for the global or a folder-level profile.
-   
+1. Select the profile tile that you want to configure. You can configure the mapping for the global or a folder-level profile. For example, select the **Global Profile** tile.
 1. Select the **XML Editor Configuration** tab and select the **Edit** icon on the top.
 1. Select the **Download** icon to download the *experienceFragmentMapping.json*  file on your local system. You can then make changes to the file and then upload the same.
 
