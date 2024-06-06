@@ -51,7 +51,7 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 - The first PDF is not versioned when a Native PDF output is generated. (10305)
 - In Native PDF, nested DITA topics  are displayed incorrectly in the Table of Contents (TOC). (16742) 
 - Thumbnails generated from Dynamic Media for video files fail to persist in the published output. (15656)
-- Output generation fails for Native PDF Publishing on AEM64 processor.(16968)
+- Output generation fails for Native PDF Publishing on an AEM64 processor.(16968)
 
 ## Management
 
@@ -64,7 +64,7 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 ## Cloud Service
 
 - Adobe Experience Manager Tools navigation is unresponsive. (17118)
-- Build Transform phase in Cloud Services deployment fails with errors  from the DITA codebase. (14432)
+- Build Transform phase in Cloud Services deployment fails with errors from the DITA codebase. (14432)
 
 ## Reports
 
