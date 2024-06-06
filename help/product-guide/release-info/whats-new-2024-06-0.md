@@ -19,16 +19,16 @@ An Experience Fragment is a modular content unit within Adobe Experience Manager
 Experience Manager Guides now allows you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic and its elements in an Experience Fragment.  For example, you can create experience fragments for headers or footers with branding elements, promotional banners, customer testimonials, and event promotions.  
 
 
-   ![file properties options tab](./assets/file-properties-outputs-tab.png){width="300" align="left"}
+   ![file properties options tab](./assets/file-properties-outputs.png){width="300" align="left"}
 
 For more details, view [Publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
 
 
-## Ability to pass the topic asset metadata to Native PDF output
+## Ability to pass the topic file properties to Native PDF output
 
 
 
-Now, Experience Manager Guides allows you to add the topic asset metadata while generating the Native PDF output. You can add the metadata from the topic file properties to the page layouts. 
+Now, Experience Manager Guides allows you to add the metadata from the topic file properties to the page layouts while generating the Native PDF output. 
 Use this feature to add specific metadata for each topic, such as keywords, descriptions, and author information, to the topic page headers and footers. This feature helps you maintain consistency of metadata in your PDF output. It also helps in improving the searchability of your content.
 
 

@@ -37,7 +37,7 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 - Review topics don't appear in the correct order. (16319)
 - In the **Author** view, a copy-and-paste issue occurs on using non-breaking spaces and results in overflowing of text. (15541)
 
-- In `<othermeta>` element within `<topicmeta>`on adding a `<conref>`to another DITA map, the map ID is also appended along with the ID of the element. (15226)
+- In `<othermeta>` element within `<topicmeta>`, on adding a `<conref>`to another DITA map, the map ID is also appended along with the ID of the element. (15226)
 - The `<conref>` cannot be updated from the **Attributes** panel when making changes. (15209)
 - When selecting an image within a table cell, the entire cell is selected. (15188)
 
