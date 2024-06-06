@@ -15,9 +15,9 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 
 - The copy and paste operation of topics exceeding 15KB fails with an unexpected error. (17171)
 - The functionality to change the document state from the  **File Properties** panel isn't working correctly and changes to the *Draft* state. (17088)
-- The changes in the `ui_config.json` file of the custom folder profile are replaced by the Global Profile on the Adobe Experience Manager Stage environment. (17011)
+- When changing the XML editor settings using a custom folder profile, the `ui_config.json` gets updated with an incorrect file. (17011)
 - In the Web Editor, the **Filter** search doesn't show the earlier selected values when reopening the **Advanced filter** dialog box in the **Repository** panel search. (16935)
-- Linked images from the topics fail to appear in the baseline after version creation. (16931)
+- Linked images from the topics fail to appear in the baseline after bulk **Save as New Version and Unlock** is selected.(16931)
 - Reusable content panels don't list elements when the **User preferences** are set to view files by **Filename**.(16896)
 - Subelements within the table title element fail to render in the **Preview** mode of Experience Manager Guides. (16691)
 - Execution of postprocess script fails due to **FileNotFoundException** exception. (16517)
@@ -26,32 +26,32 @@ Learn about [upgrade instructions for the 2024.06.0 release](upgrade-instruction
 - Content deletion occurs due to duplicate GUIDs when templates are installed via code but remain unprocessed. (15858)
 - Experience Manager Guides fail to adhere to the **Processing Role** attribute in **Preview** mode. (15787)
 - The Editor intermittently deletes extra text beyond the selected area.  (15708)
-- Thumbnails generated from Dynamic Media for video files fail to persist in the published output. (15656)
 - Inability to copy and paste large tables from Word documents or HTML into the Web Editor. (15369)
 - The **Copy** function fails for empty folders in Experience Manager Guides as a Cloud Service. (15353)
 - Lack of APIs or events to capture attribute addition to an element or insertion of a new element. (15351)
 - Inability to add `<data>` tag within `<ol>` tag in the Web Editor. (15161)
 - When Unified Shell is enabled, the **Version Label Management** dialog box incorrectly displays **Main Content** for versions without labels. (15039)
-- The **File Properties** panel loads slowly, particularly with a delay of three seconds on workday files. (14958)
-- The UI becomes stuck due to the  `element_placeholder.ts` component. (14957)
+- Large files load slowly in the Web Editor, with a delay of a few seconds. (14958)
+- Performance issues occur while authoring large files in the Web Editor. (14957)
 - Pressing the **Enter** key in a table cell within the text does not split the paragraph as expected. (14251)
 - The Experience Manager DITA Guide fails to trigger the **Save** function after using the auto-indent feature. (16482)
 - Review topics don't appear in the correct order. (16319)
-- In the **Author** view, a copy-and-paste issue results in text overflow and disrupts content publishing. (15541)
-- DITAMAP `conrefs` to othermeta required attributes lack essential values like `-dita-use-conref-target`. (15227)
-- DITAMAP `conrefs` incorrectly include an ID. (15226)
-- Unable to select `Conref` during updates from the **Attributes** panel.(15209)
+- In the **Author** view, a copy-and-paste issue occurs on using non-breaking spaces and results in overflowing of text. (15541)
+
+- On adding a `<conref>` in a DITA map , the Map ID of the parent map is also appended along with the ID.(15226)
+- The `<conref>` cannot be updated from the **Attributes** panel when making changes. (15209)
 - When selecting an image within a table cell, the entire cell is selected. (15188)
 
 ## Publishing
 
-- Adobe Experience Manager Site publishing fails after upgrading to the February release of Adobe Experience Manager Guides as a Cloud Service. (16855)
+
 - Crossmap linking fails to display all parent maps in the publishing context settings for a link that has the `peer @scope`. (16700)
 - On adding any new or removing any existing attributes, the old attributes are retained in the **Condition Presets**. (15890)
 - The RTL language content isn't handled  correctly in the Native PDF publishing output. (15709)
 - The first PDF is not versioned when a Native PDF output is generated. (10305)
 - In Native PDF, nested DITA topics  are displayed incorrectly in the Table of Contents (TOC). (16742) 
-
+- Thumbnails generated from Dynamic Media for video files fail to persist in the published output. (15656)
+- Output generation fails for Native PDF Publishing on AEM64 processor.(16968)
 
 ## Management
 
