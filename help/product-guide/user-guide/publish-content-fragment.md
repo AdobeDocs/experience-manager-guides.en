@@ -55,8 +55,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
         > 
         >Conditions are enabled only if condition attributes are defined in the topic.
 
-        To know more about condition presets, view [Use condition presets](generate-output-use-condition-presets.md).
-
+        
        
     * Select **Overwrite existing content** if your Content Fragment already exists and you wish to overwrite it. Experience Manager Guides displays an error if you don’t select the checkbox and your Content Fragment already exists. 
 1. Click **Generate** to publish the Content Fragment.

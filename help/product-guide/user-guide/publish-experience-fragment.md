@@ -68,8 +68,7 @@ To generate an Experience Fragment, perform the following steps:
         > 
         >Conditions are enabled only if condition attributes are defined in the topic.
         
-        To know more about condition presets, view [Use condition presets](generate-output-use-condition-presets.md).
-        
+           
     * Select the **Overwrite existing content** checkbox if your Experience Fragment already exists and you wish to overwrite it. Experience Manager Guides displays an error if you don’t select the checkbox and your Experience Fragment already exists. 
 1. Click **Generate** to publish the Experience Fragment.
 1. You can view the Experience Fragments for a topic under the **Outputs** section in the **File Properties**. The Experience Fragments appear according to the date and time of their publishing, with the latest as the first. 
