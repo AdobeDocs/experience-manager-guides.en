@@ -367,7 +367,7 @@ In addition to the predefined fields, you can also add metadata information as v
 * **Topic file properties** define the asset metadata, which you can access  from the **Properties** page of a Topic. 
 
 
-You can combine **Map file properties** and **Topic file properties** in a single document. For example, you can add the Map metadata on the cover page and the metadata of the individual topics on all the topic pages. To do this, you can add the metadata field for a map title and use the DITA map file properties on the cover page. Then, add the metadata field for a topic title and use the Topic file properties on all pages. You can also add multiple metadata fields in a page layout. 
+You can combine **Map file properties** and **Topic file properties** in a single document. For example, you can publish a PDF with the map title on the cover page and the topic title in the header of other pages. To do this, you can add the metadata for the map title from the **Map file properties** to the cover page layout. Then, add the metadata for the topic title from **Topic file properties**  to the header on chapter page layouts.
 
 If one topic ends on a page while the other begins on the same page, the metadata of the first topic is picked. You can also add custom properties and then insert them as fields in the page layout.
 
