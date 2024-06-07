@@ -32,6 +32,11 @@ For more details, view [Publish Experience Fragments](../user-guide/publish-expe
 
  - You can also publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**. 
 
+    ![file properties options tab](./assets/file-properties-outputs-tab.png){width="300" align="left"}
+
+For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
+
+
 ## Ability to pass metadata from topic file properties to Native PDF output
 
 
