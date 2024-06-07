@@ -103,7 +103,7 @@ In the following example, the resource ID serves as the main input to generate t
 
 
 
-You can use the resource ID in page layout as follows:
+You can use the resource ID in a page layout as follows:
 
 
 ```html
