@@ -24,13 +24,20 @@ Experience Manager Guides now allows you to publish a topic or its elements to a
 For more details, view [Publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
 
 
-## Ability to pass the topic file properties to Native PDF output
+## Enhancements in the Content Fragment publishing
+
+  Experience Manager Guides also provides some helpful enhancements in Content Fragments: 
+
+ - You can easily filter content with conditions while publishing to a Content Fragment. You can filter the content using a DITAVAL file or add condition attributes to your DITA topics. 
+
+ - You can also publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**. 
+
+## Ability to pass metadata from topic file properties to Native PDF output
 
 
 
-Now, Experience Manager Guides allows you to add the metadata from the topic file properties to the page layouts while generating the Native PDF output. 
-Use this feature to add specific metadata for each topic, such as keywords, descriptions, and author information, to the topic page headers and footers. This feature helps you maintain consistency of metadata in your PDF output. It also helps in improving the searchability of your content.
 
+Now, Experience Manager Guides allows you to add the metadata from the topic file properties to the page layouts while generating the Native PDF output. Use this feature to add specific metadata for each topic, such as tags and descriptions. This feature helps you maintain consistency of metadata in your PDF output and improve the searchability of your content.
 
 ![add metadata native pdf](./assets/add-metadata-native-pdf.png ) {width="300" align="left"}
 
@@ -40,14 +47,14 @@ Learn how to [add fields and metadata](../native-pdf/design-page-layout.md#add-f
 
 ## Ability to select partial content across elements and perform operations
 
-Experience Manager Guides enhances your experience of selecting the content across the elements in the Web Editor. You can easily select content across elements and perform various operations like making it bold, italics, and underlined. You can also quickly delete the content that you have selected across elements. Once the content is deleted, if necessary, the remaining content is put under a single valid element.
+Experience Manager Guides enhances your experience of selecting the content across the elements in the Web Editor. You can easily select content across elements and perform various operations like making it bold, italics, and underlined. This feature allows you to seamlessly apply or remove the formatting for partially selected content. You can also quickly delete the content that you have selected across elements. Once the content is deleted, if necessary, the remaining content is put under a single valid element.
 
 You can also select the content and then surround the content under a valid DITA element.
 ![surround element dialog box](./assets/surround-element.png) {width="300" align="left"}
 
 *Surround the selected content with a valid element.*
 
-Now, you can also seamlessly toggle the bold, underline, or italics formatting for the partially or cross-selected content. Overall, these enhancements provide a better experience and help you improve your efficiency while editing your documents. 
+Overall, these enhancements provide a better experience and help you improve your efficiency while editing your documents. 
 
 For more details, view [Partial selection of content across element](../user-guide/web-editor-edit-topics.md#partial-selection-of-content-across-elements).
 
@@ -58,8 +65,10 @@ Experience Manager Guides also supports Markdown documents in Native PDF publish
 For more details, view [support for Markdown documents](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents).
 
 
-## Improved performance and scalability for larger translation projects
+## Improved performance and scalability for large translation projects
 
-The translation feature is faster and more stable than ever. It comes with a new architecture that provides enhanced performance. The project creation time is now 700 % faster than earlier, and the conflicts during the process are nearly nonexistent. This improved performance helps you with faster translations, ensuring smooth operation even for large translation projects.
-This feature is quite helpful as it elevates the overall translation experience by improving productivity.  
+The translation feature is faster and more scalable than ever. It comes with a new architecture that provides enhanced performance. The project creation time is now 700 % faster than earlier, and the conflicts during the process are nearly nonexistent. This improved performance helps you with faster translations, ensuring smooth operation even for large translation projects.
+
+This improvement is very beneficial as it enhances productivity and overall experience.
+
 Learn more about how to [translate documents from the Web Editor](../user-guide/translate-documents-web-editor.md).
