@@ -62,7 +62,7 @@ To generate an Experience Fragment, perform the following steps:
                
         * **None**: Select this option if you don’t want to apply any condition on the published output.
         * **Using DITAVAL**: Select the DITAVAL file to generate personalized content. You can select the DITAVAL file using the browse dialog or by typing the file path. 
-        * **Using attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute in the condition preset to publish the relevant content.
+        * **Using attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute to publish the relevant content.
         
         >[!NOTE] 
         > 
