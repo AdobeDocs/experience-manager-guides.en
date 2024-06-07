@@ -177,6 +177,7 @@ At any time you can update an equation by right-clicking on an existing equation
 
 - Insert footnote in your content by using the `fn` element. In the authoring mode, the footnote value is shown inline with the content. However, when you switch you the Preview mode or publish your document, the footnote appears at the end of the topic.
 
+
 **Rename or replace an element** 
 
 - The Web Editor displays the element's breadcrumb at the top of the topic. If you want to swap or replace an element with another element, then you can do so from the breadcrumb's context menu. For example, you can swap `p` element with `note` or any other valid element at the context.

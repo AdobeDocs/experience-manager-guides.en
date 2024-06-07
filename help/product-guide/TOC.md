@@ -14,6 +14,10 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2024 Releases {#2024-releases}
+        - 2024.6.0 Release {#2406-release}
+          - [What's new](./release-info/whats-new-2024-06-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2024-06-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2024-06-0.md)
         - 2024.4.0 Release {#2404-release}
           - [What's new](./release-info/whats-new-2024-04-0.md)
           - [Fixed issues](./release-info/fixed-issues-2024-04-0.md)
@@ -115,6 +119,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Web Editor views](./user-guide/web-editor-views.md)
           - [Support for Schematron files](./user-guide/support-schematron-file.md)
           - [AI-powered Smart Suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
+         
           - [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
           - [Add citations to your content](./user-guide/web-editor-apply-citations.md)
           - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)
@@ -185,7 +190,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)
     - [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
     - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
-    - [Publish to a content fragment](./user-guide/publish-content-fragment.md)
+    - [Publish Content Fragments](./user-guide/publish-content-fragment.md)
+    - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
     - Bulk activation of content {#bulk-activation}
       - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
       - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -234,6 +240,7 @@ breadcrumb-title: AEM Guides Documentation
     - Work with custom DITA-OT and specialization {#custom-dita-ot-spec}
       - [Use custom DITA-OT and DITA specialization](./install-guide/dita-ot-specialization.md)
     - Configure UUID and non-UUID based filenames {#conf-non-uuid-filename}
+     - [Configure post processing for a folder](./install-guide/conf-folder-post-processing.md)
       - [Configure filenames](./install-guide/conf-file-names.md)
       - [Configure auto-filenames based on UUID](./install-guide/conf-auto-uuid-filenames.md)
       - [Configure Regx for valid file name characters](./install-guide/conf-file-names-valid-regx.md)
@@ -279,8 +286,9 @@ breadcrumb-title: AEM Guides Documentation
         - [PDF Template](./native-pdf/pdf-template.md)
         - [Components of a PDF Template](./native-pdf/components-pdf-template.md)
         - [Design a page layout](./native-pdf/design-page-layout.md)
-        - [Variables in the PDF output](./native-pdf/native-pdf-variables.md)
+         - [Variables in the PDF output](./native-pdf/native-pdf-variables.md)
         - [Support for language variables](./native-pdf/native-pdf-language-variables.md)
+        - [Add a barcode to the PDF output](./native-pdf/add-barcode.md)
         - Common content styles {#content-styles}
           - [Work with the common content styles](./native-pdf/stylesheet.md)
           - [Work with custom change bars styles](./native-pdf/change-bar-style.md)
@@ -289,8 +297,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
           - [Apply styles to footnotes](./native-pdf/footnote-number-style.md)
       - [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
-      - [Create a mapping between a topic and a content fragment](./install-guide/conf-content-fragment-mapping.md)
-    - Work with custom workflows {#custom-workflow}
+      - Work with custom workflows {#custom-workflow}
       - [Configure and customize workflows](./install-guide/customize-workflows.md)
     - Work with translation configurations {#translate-config}
       - [Translate content](./install-guide/translation.md)
@@ -331,7 +338,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Customize Web Editor](./cs-install-guide/conf-web-editor.md)
       - [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
       - [Configure the AI-powered smart suggestions for authoring](./cs-install-guide/conf-smart-suggestions.md)
-      - [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
+       - [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
       - [Configure display of UUID-based links](./cs-install-guide/conf-uuid-based-links.md)
       - [Open DITA topic or map files in same tab](./cs-install-guide/open-dita-files-same-tab.md)
       - [Configure a custom panel in the left panel](./cs-install-guide/configure-custom-panel.md)
@@ -359,6 +366,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       - [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
+      - [Create a mapping between a topic and an experience fragment](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
     - Work with custom workflows {#custom-workflow-cs}
       - [Configure and customize workflows](./cs-install-guide/customize-workflows.md)
     - Work with translation configurations {#translate-config-cs}

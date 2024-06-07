@@ -437,6 +437,57 @@ Perform the following steps to configure standard AI configuration at the global
 
 Learn more about how to view and add [AI-based Smart Suggestions](../user-guide/authoring-ai-based-smart-suggestions.md) to add content references while authoring in the Web Editor.
 
+
+
+
+<!--## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
+
+For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+
+You can configure the AI-powered **Guides Assistant** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+
+The **XML Editor Configuration** tab allows you to configure the default questions of the **Guides Assistant panel** in the Web Editor.
+
+>[!NOTE]
+>
+>You can configure up to 10 default questions. 
+
+Perform the following steps to configure the default questions:
+
+1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
+1. Select the **Adobe Experience Manager** link at the top and choose **Tools**.
+1. Select **Guides** from the list of tools and select the **Folder Profiles** tile.
+1. Select the profile tile that you want to configure.
+
+    >[!NOTE]
+    >
+    >You can configure default questions for the **Guides assistant panel** to the global or a folder-level profile.
+
+1.  Select the **XML Editor Configuration** tab. 
+
+1. Click the **Edit** icon on the top.
+1.  In the **XML Editor UI configuration** section, select the **Download** icon to download the `ui_config.json` file on your local system.
+1.  In the `ui_config.json` file, add the sample questions.
+
+    **Example of sample questions**:
+
+    ```json
+    "assistantSampleQuestions": [
+    "How to create a new topic",
+    "How to create a new map",
+    "What is a baseline" ]
+    ```
+
+1. Save the file and upload it.
+
+    >[!NOTE]
+    >
+    > The default questions appear in the **Guides assistant** panel after you save the file. 
+
+
+Learn more about using the [AI-powered Guides assistant](../user-guide/ai-based-guides-assistant.md) to find the required content from the Experience Manager Guides documentation. -->
+
+
 ## Configure and customize the XML Web Editor {#id2065G300O5Z}
 
 By default, the XML Web Editor comes with a lot of features to help your authors create DITA documents. If you work in a restrictive environment, you can choose which features are exposed to your authors. The XML Editor Configuration tab allows you to easily control the features and also change the look-and-feel of your Web Editor. As an administrator, you can customize the following components of the Web Editor:

@@ -35,9 +35,17 @@ curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UT
 
 **Valid values**
     
-`preview` or `publish` for Cloud Service and `publish` for On-Premise Software
+`preview` or `publish` for Cloud Service and `publish` for On-premise Software
 
-If the parameter contains an invalid value, then the activation of the package fails. The following example shows the API call using the curl command with optional parameter:
+- For Cloud Service, if the parameter contains an invalid value, then the package activation fails. 
+
+- For On-premise Software, if the parameter contains an invalid value, the error is logged, and publishing is done using the default value, `publish`. 
+
+If you do nto define the optional parameter, `activationTarget`, it activates using the default publish agent for both Cloud Service and On-premise Software.
+
+
+
+The following example shows the API call using the curl command with optional parameter:
 
 
     ```XML

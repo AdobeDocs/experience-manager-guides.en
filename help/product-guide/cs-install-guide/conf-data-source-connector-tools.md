@@ -10,7 +10,11 @@ level: Experienced
 
 Experience Manager Guides comes with the **Data Sources** tool that helps you configure out-of-the-box connectors for data sources. You can set up the JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, ElasticSearch, and Generic REST Client connectors.
 
-Besides these out-of-the-box connectors, Experience Manager Guides provides the connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. You can download and install them. The users can then configure these connectors. 
+
+Besides these out-of-the-box connectors, Experience Manager Guides provides the connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. You can download and install these open-source connectors from the [Maven Central repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). The users can then configure these connectors. 
+Learn how to [install an open-source connector](#install-open-source-connector).
+
+
 
 You can also connect to JSON data files using a file connector. Upload the JSON file from your computer or browse it from the Adobe Experience Manager assets. Then, create content snippets or topics using the generators.
 
@@ -60,7 +64,7 @@ To configure a connector, perform the following steps:
 
 **Connect to multiple resources**
 
-You can add or use multiple resources based on different URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft  Azure DevOps Boards  (ADO). Then, connect with them to create content snippets or topics using the generators for them. 
+You can add or use multiple resources based on different URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO). Then, connect with them to create content snippets or topics using the generators for them. 
         
 Perform the following steps to create a resource:
 
@@ -72,6 +76,39 @@ Perform the following steps to create a resource:
    1. You can also use the default resources available for data sources like Salsify, Akeneo, and Microsoft ADO. Toggle the options OFF for the resource you don't want to configure for a data source.
 
    This helps you to quickly fetch data from any of the resources for a particular data source in a single content snippet or topic.
+
+
+
+## Install an open-source connector{#install-open-source-connector}
+
+To publish a dependency present on the [Maven Central repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) to the Cloud Services, you need to include and embed the dependency for an open-source connector.
+
+1. Add the dependency in `all/pom.xml`  in your cloud manager Git project code. For example, you can add the following dependency for Microsoft Azure DevOps Boards data source connector.
+
+    
+    ```
+    <dependency>
+        <groupId>com.adobe.aem.addon.guides</groupId>
+        <artifactId>konnect-azure-devops</artifactId>
+        <version>1.0.0</version>
+        <type>jar</type>
+    </dependency> 
+    ```
+
+1. Embed the added dependency. 
+    
+        ```
+        <embedded>
+            <groupId>com.adobe.aem.addon.guides</groupId>
+            <artifactId>konnect-azure-devops</artifactId>
+            <type>jar</type>
+            <target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install</target>
+        </embedded> 
+        ```
+
+1. Run the pipeline to apply the changes in the Cloud Services. 
+The connector is installed in your environment.
+
 
 ## Features available for a connector
 

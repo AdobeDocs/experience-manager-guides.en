@@ -36,7 +36,10 @@ The `activate` method creates a CRX package on the author instance and replicate
 >
 > Errors encountered during the creation or activation process are written to the `outputstream`.
 
+### Example with two parameters 
+
 **Syntax**:
+
 
 ```JAVA
 public static void activate
@@ -48,15 +51,34 @@ public static void activate
 throws GuidesApiException
 ```
 
+### Example with third optional parameter
+
+```JAVA
+public static void activate
+(
+  String json, 
+  OutputStream outputstream,
+  String activationTarget, 
+  Session session
+) 
+throws GuidesApiException
+```
+
 **Parameters**:
 |Name|Type|Description|
 |----|----|-----------|
-|`json`|String|JSON string that determines the CRX package to be built. Use the following format to create the JSON string: <br>- `activate`: Is of type Boolean \(`true`/`false`\). Determines whether the CRX package created in the author instance is replicated to the publish instance. <br> - `rules`: Is of type JSON Array. An array of JSON rules which are processed sequentially to build the CRX package. <br> - `rootPath`: Is of type String. The base path upon which the node/property queries are executed. If no node/property queries are present, the root path and all nodes present under the root path are included in the CRX package. <br> - `nodeQueries`: Is of type Regex Array. An array of regular expressions used to include specific files under the root path. <br> - `propertyQueries`: Is of type JSON Array. An array of JSON Objects with each JSON Object consisting of an XPath query to be executed on the root path and the name of a property present in each JCR node after the query is executed. The value of the property in each JCR node should be a path or an array of paths. The paths present in this property are added to the CRX package.|
+|`json`|String|JSON string that determines the CRX package to be built. Use the following format to create the JSON string: <br>- `activate`: Is of type Boolean \(`true`/`false`\). Determines whether the CRX package created in the author instance is replicated to the publish instance. <br> - `rules`: Is of type JSON Array. An array of JSON rules, which are processed sequentially to build the CRX package. <br> - `rootPath`: Is of type String. The base path upon which the node/property queries are executed. If no node/property queries are present, the root path and all nodes present under the root path are included in the CRX package. <br> - `nodeQueries`: Is of type Regex Array. An array of regular expressions used to include specific files under the root path. <br> - `propertyQueries`: Is of type JSON Array. An array of JSON Objects with each JSON Object consisting of an XPath query to be executed on the root path and the name of a property present in each JCR node after the query is executed. The value of the property in each JCR node should be a path or an array of paths. The paths present in this property are added to the CRX package.|
 |`outputstream`|java.io.OutputStream|This is used to write the result of various stages, such as query execution, file inclusion, CRX package creation, or activation. Any error encountered during creation or activation process are written to the `outputstream`. This is useful for debugging.|
 |`session`|String|A valid JCR session with activation permission.|
+|`activationTarget`|String|(*Optional*) `preview` or `publish` for Cloud Service and `publish` for On-premise Software <br> - For Cloud Service, if the parameter contains an invalid value, then the package activation fails. <br> - For On-Premise Software, if the parameter contains an invalid value, the error is logged, and publishing is done using the default value, `publish`. |
 
 **Exception**:
-Throws ``java.io.IOException``.
+
+Throws `java.io.IOException` and `java.io.IllegalArgumentException`
+
+
+If you do not define the optional parameter, `activationTarget`, it activates using the default publish agent for both Cloud Service and On-premise Software.
+ 
 
 **Example**:
 The following example shows how to build a JSON query:

@@ -346,25 +346,39 @@ Fields are very useful when you want to insert a piece of information that is pr
 
 There are the following categories for fields that you can insert in your page layout:
 
+* Metadata
+* Topic Title
+* Chapter Title
+* Map Title
+* Page Number
+* Chapter Number
+* Total Pages
 * Date
 * Time
-* Topic Title
-* Project Title
-* Page Number
-* Total Page
-* Chapter Title
-* Chapter Number
-* Metadata
+
 
 Each of these field categories contain different variations in which the field information can be inserted. For example, a Date field can have different variations such as `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` and so on. Similarly, Page Number can have variations in the form of roman, decimal, or even locale-specific formats such as _Arabic_, _Devanagari_, _Hebrew_, and more.
 
-In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA map content, and it can be easily inserted in your page layout. 
 
-You can also select the metadata properties from your assets and add them to the page layout. The asset metadata is then published for your PDF output. These metadata properties of the assets are set from the **Properties** page of the DITA map or bookmap file.
+In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA **Map content**,  or it can be picked from the DITA **Map file properties** or the **Topic file properties** and easily inserted into your page layout.
+
+You can select the metadata from the following options:
+
+* **Map content** includes the metadata that you have defined in the `<topicmeta>` element of the DITA map. 
+* **Map file properties** includes the metadata, which you can access from the **Properties** page of a DITA map. 
+* **Topic file properties** includes the metadata, which you can access  from the **Properties** page of a Topic. 
+
+
+You can combine metadata from **Map file properties** and **Topic file properties** in a single document. For example, you can publish a PDF with the map title on the cover page and the topic title in the header of other pages. To do this, you can add the map title metadata from the **Map file properties** to the cover page layout. Then, add the topic title metadata from the **Topic file properties**  to the header on Chapters and Topics page layout.
+
+If one topic ends on a page while the other begins on the same page, the metadata of the first topic is picked. You can also add custom properties and then insert them as fields in the page layout.
+
 
 >[!NOTE]
 >
 > The metadata fields are displayed according to your selection of asset or map in the **From** dropdown.
+
+
 
 
 <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
@@ -389,7 +403,7 @@ In the following example, we will insert a page number and a chapter title in th
 
 1. Select the **Page Number** category from the Field list, the **default(1)** page number format from the Format list, and click **Insert**.
 
-    <img src="./assets/insert-page-number-field.svg" width="400">
+    <img src="./assets/insert-page-number-field.png" width="400">
 
     >[!NOTE]
     >
