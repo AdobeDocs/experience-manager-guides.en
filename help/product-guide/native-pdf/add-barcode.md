@@ -54,7 +54,7 @@ You can generate the barcode in different ways. Some of the examples are as foll
     >
     > Use the same class name that you have defined in the `layout.css`.
 
-1. Replace `<Sample barcode>` with the value that you wish to display under the barcode.  
+1. Replace `<Sample barcode>` with the value that you want the barcode scanner to read..  
 
 You can view the barcode on generating the output PDF using the template, which includes the page layout. Once you have performed the previous steps, you can generate the PDF output with a barcode. 
 
@@ -100,8 +100,7 @@ Add a resource ID element to the DITA map. The resource ID serves as the main in
 </map>  
 ```
 
-You can also edit the resource ID in the Authoring mode. 
-
+Use any metadata present in the `<topicmeta>` element of a DITA map to display as a barcode. Ensure to use the correct XPath. For example, you can add a `<resourceid>` in the `<topicmeta>` of a DITA map and use it's value for a barcode.
 
 ![barcode sample map](./assets/barcode-map.png)
 
