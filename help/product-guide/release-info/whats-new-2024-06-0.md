@@ -39,10 +39,7 @@ For more details, view [Publish Content Fragments](../user-guide/publish-content
 
 ## Ability to pass metadata from topic file properties to Native PDF output
 
-
-
-
-Now, Experience Manager Guides allows you to add the metadata from the topic file properties to the page layouts while generating the Native PDF output. Use this feature to add specific metadata for each topic, such as title, tags and descriptions. This feature helps you maintain consistency of metadata in your PDF output and improve the searchability of your content.
+Now, Experience Manager Guides allows you to add the metadata from the topic file properties to the page layouts while generating the Native PDF output. Use this feature to add specific metadata for each topic, such as title, tags, and description. You can also customize your published PDF based on the topic's metadata, such as add a watermark to the topic background based on the topic's document state.
 
 ![add metadata native pdf](./assets/add-metadata-native-pdf.png ) {width="300" align="left"}
 
