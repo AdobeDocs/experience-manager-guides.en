@@ -362,12 +362,14 @@ Each of these field categories contain different variations in which the field i
 
 In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA **Map content**,  or it can be picked from the DITA **Map file properties** or the **Topic file properties** and easily inserted into your page layout.
 
-* **Map content** is the metadata that you have defined in the `<topicmeta>` element of the DITA map. 
-* **Map file properties** define the asset metadata, which you can access from the **Properties** page of a DITA map. 
-* **Topic file properties** define the asset metadata, which you can access  from the **Properties** page of a Topic. 
+You can select the metadata from the following options:
+
+* **Map content** includes the metadata that you have defined in the `<topicmeta>` element of the DITA map. 
+* **Map file properties** includes the metadata, which you can access from the **Properties** page of a DITA map. 
+* **Topic file properties** includes the metadata, which you can access  from the **Properties** page of a Topic. 
 
 
-You can combine **Map file properties** and **Topic file properties** in a single document. For example, you can publish a PDF with the map title on the cover page and the topic title in the header of other pages. To do this, you can add the metadata for the map title from the **Map file properties** to the cover page layout. Then, add the metadata for the topic title from **Topic file properties**  to the header on chapter page layouts.
+You can combine metadata from **Map file properties** and **Topic file properties** in a single document. For example, you can publish a PDF with the map title on the cover page and the topic title in the header of other pages. To do this, you can add the map title metadata from the **Map file properties** to the cover page layout. Then, add the topic title metadata from the **Topic file properties**  to the header on chapter page layout.
 
 If one topic ends on a page while the other begins on the same page, the metadata of the first topic is picked. You can also add custom properties and then insert them as fields in the page layout.
 
