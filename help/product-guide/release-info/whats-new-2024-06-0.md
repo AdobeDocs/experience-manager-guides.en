@@ -37,7 +37,7 @@ For more details, view [Publish Experience Fragments](../user-guide/publish-expe
 
 
 
-Now, Experience Manager Guides allows you to add the metadata from the topic file properties to the page layouts while generating the Native PDF output. Use this feature to add specific metadata for each topic, such as tags and descriptions. This feature helps you maintain consistency of metadata in your PDF output and improve the searchability of your content.
+Now, Experience Manager Guides allows you to add the metadata from the topic file properties to the page layouts while generating the Native PDF output. Use this feature to add specific metadata for each topic, such as title, tags and descriptions. This feature helps you maintain consistency of metadata in your PDF output and improve the searchability of your content.
 
 ![add metadata native pdf](./assets/add-metadata-native-pdf.png ) {width="300" align="left"}
 
