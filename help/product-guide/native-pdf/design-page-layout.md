@@ -369,7 +369,7 @@ You can select the metadata from the following options:
 * **Topic file properties** includes the metadata, which you can access  from the **Properties** page of a Topic. 
 
 
-You can combine metadata from **Map file properties** and **Topic file properties** in a single document. For example, you can publish a PDF with the map title on the cover page and the topic title in the header of other pages. To do this, you can add the map title metadata from the **Map file properties** to the cover page layout. Then, add the topic title metadata from the **Topic file properties**  to the header on chapter page layout.
+You can combine metadata from **Map file properties** and **Topic file properties** in a single document. For example, you can publish a PDF with the map title on the cover page and the topic title in the header of other pages. To do this, you can add the map title metadata from the **Map file properties** to the cover page layout. Then, add the topic title metadata from the **Topic file properties**  to the header on Chapters and Topics page layout.
 
 If one topic ends on a page while the other begins on the same page, the metadata of the first topic is picked. You can also add custom properties and then insert them as fields in the page layout.
 
