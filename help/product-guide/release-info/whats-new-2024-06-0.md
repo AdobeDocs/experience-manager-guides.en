@@ -28,7 +28,7 @@ For more details, view [Publish Experience Fragments](../user-guide/publish-expe
 
   Experience Manager Guides also provides some helpful enhancements in Content Fragments: 
 
- - You can easily filter content with conditions while publishing to a Content Fragment. You can filter the content using a DITAVAL file or add condition attributes to your DITA topics. 
+ - You can easily filter content with conditions while publishing to a Content Fragment, using a DITAVAL file or condition attributes. 
 
  - You can also publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**. 
 
