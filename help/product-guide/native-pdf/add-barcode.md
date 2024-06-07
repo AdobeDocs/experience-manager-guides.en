@@ -83,8 +83,9 @@ To create a barcode for an ISBN number, add an ISBN number. Then use the ISBN nu
 
 To create a barcode using the map metadata:
 
+Use any metadata present in the `<topicmeta>` element of a DITA map to display as a barcode. Ensure to use the correct XPath. For example, you can add a `<resourceid>` in the `<topicmeta>` of a DITA map.
 
-Add a resource ID element to the DITA map. The resource ID serves as the main input to generate the barcode. 
+In the following example, the resource ID serves as the main input to generate the barcode. 
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -100,9 +101,10 @@ Add a resource ID element to the DITA map. The resource ID serves as the main in
 </map>  
 ```
 
-Use any metadata present in the `<topicmeta>` element of a DITA map to display as a barcode. Ensure to use the correct XPath. For example, you can add a `<resourceid>` in the `<topicmeta>` of a DITA map and use it's value for a barcode.
 
-![barcode sample map](./assets/barcode-map.png)
+
+You can use the resource ID in page layout as follows:
+
 
 ```html
   <div data-region="header">
