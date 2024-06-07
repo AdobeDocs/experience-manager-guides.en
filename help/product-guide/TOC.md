@@ -9,6 +9,7 @@ breadcrumb-title: AEM Guides Documentation
 - [[!DNL AEM Guides] overview](overview.md)
 - [Disclaimer](./user-guide/rebranding-disclaimer.md)
 - Release Information {#release-info}
+  - [AEM Guides releases roadmap](./release-info/aem-guides-releases-roadmap.md)
   - Release Notes {#release-notes}
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
@@ -404,10 +405,9 @@ breadcrumb-title: AEM Guides Documentation
     - [Extension Framework of AEM Guides](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
     - [External Datasource Integration](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
     - [Translate content in Guides - part 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
+    - [Define, Manage and Utilize Metadata](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
   - Articles {#kb-articles}
-    - Authoring {#authoring}
-      - Reports {#reports}
-        - [Manage metadata for your DITA content](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
+    - Authoring {#authoring} 
       - Web Editor {#webeditor}
         -  [Content re-usability in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
         - Customizing {#customizing}
@@ -417,6 +417,9 @@ breadcrumb-title: AEM Guides Documentation
           - [Customize File ContextMenu](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
         - Schematron {#schematron}
           - [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+      - Reports {#reports}
+        - [Manage metadata for your DITA content](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
+      - [Define icon for custom dita types](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
     - Guides Extention Framework {#extention-framework}
       - Aem Guides Framework {#aem-guides-framework}
         - [Basic Customisations](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)

@@ -68,6 +68,9 @@ Perform the following steps to view the smart suggestions for adding appropriate
 1. Click **Accept** to add the suggested content reference in the **Suggested content preview** dialog box.
 1. You can also select **Accept** or **Decline** in the **Content Reuse** suggestions box for the appropriate recommendations.
 
-
    
 This intelligent feature is handy and minimizes the effort of manual content searching, allowing you to concentrate more on generating new content. It also facilitates better team collaboration and helps maintain consistency in the content created by various authors.
+
+>[!NOTE]
+>
+>Smart suggestions don’t retain your data beyond the current session. For responses, smart suggestions rely solely upon the index created on the content residing within your internal database. External AI tools are not used, ensuring your data remains within the system.

@@ -1,6 +1,7 @@
 ---
 title: Release Notes | What's New in the Adobe Experience Manager Guides, 2024.4.0 release
 description: Learn the new and enhanced features in the 2024.4.0 release of Adobe Experience Manager Guides as a Cloud Service.
+exl-id: e9db535a-5ad5-4ff0-94af-b4425594316a
 ---
 # What's new in the 2024.4.0 release 
 
@@ -216,4 +217,4 @@ For more details about the presets, view [Understanding the output presets](../u
 The Service Account (JWT) credentials have been deprecated in favor of the **OAuth Server-to-Server** credentials. Your applications using the Service Account (JWT) credentials will stop working after Jan 1, 2025. You must migrate to the new credential by Jan 1, 2025, to ensure that your application continues functioning. 
 
 
-The cloud publishing service for Experience Manager Guides is now secured by Adobe IMS OAuth-based authentication. Learn how to [configure microservice-based publishing with OAuth authentication](../knowledge-base/publishing/configure-microservices-imt-config.md). 
+The cloud publishing service for Experience Manager Guides is now secured by Adobe IMS OAuth-based authentication. Learn how to [configure microservice-based publishing with OAuth authentication](../knowledge-base/publishing/configure-microservices-imt-config.md).

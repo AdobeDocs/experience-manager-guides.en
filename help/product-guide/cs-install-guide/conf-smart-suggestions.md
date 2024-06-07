@@ -5,7 +5,7 @@ exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
 ---
 # Configure the AI-powered smart suggestions for authoring
 
-As an administrator, you can configure the Smart Suggestions feature for the authors. The smart suggestion service is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe’s secure token-based authentication workflows and start using the new smart suggestion feature. The following configuration help you to add the **AI configuration** tab to folder profile. Once added, you can use the smart suggestions feature in the Web Editor.
+As an administrator, you can configure the Smart Suggestions feature for the authors. The smart suggestion service is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe's secure token-based authentication workflows and start using the new smart suggestion feature. The following configuration help you to add the **AI configuration** tab to folder profile. Once added, you can use the smart suggestions feature in the Web Editor.
 
 ## Create IMS configurations in Adobe Developer Console
 
@@ -28,8 +28,10 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
 *Add I/O Management API to your project.*
 
 1. Create a new **OAuth credential** and save it.
-![OAuth credential tile in configure API](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
-*Configure OAuth credential to your API.*
+
+   ![OAuth credential tile in configure API](assets/conf-ss-OAuth-credential.png)
+
+   *Configure OAuth credential to your API.*
 
 1. In the  **Projects** tab, choose **OAuth Server to Server** option and then select the newly created credentials.
 

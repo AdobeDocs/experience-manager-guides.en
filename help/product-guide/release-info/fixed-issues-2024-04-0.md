@@ -1,8 +1,8 @@
 ---
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2024.4.0 release
 description: Learn about the bug fixes in the 2024.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
+exl-id: 35351d71-7739-4ad3-a063-67adf64906bf
 ---
-
 # Fixed issues in the 2024.04.0 release 
 
 This article covers the bugs fixed in various areas of the 2024.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
@@ -58,4 +58,3 @@ Learn about [upgrade instructions for the 2024.04.0 release](upgrade-instruction
 ## Translation
 
 - **Accept Translation** fails to complete the translation of temporary files. (14665)
-

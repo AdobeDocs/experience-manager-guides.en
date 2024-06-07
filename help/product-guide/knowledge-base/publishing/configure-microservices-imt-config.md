@@ -3,6 +3,7 @@ title: Configure Microservice-based publishing with OAuth Authentication for AEM
 description: Learn how to configure microservice-based publishing with OAuth authentication for AEM Guides.
 feature: Microservice in AEM Guides
 role: User, Admin
+exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
 ---
 # Configure microservice-based publishing with OAuth authentication
 
@@ -15,9 +16,6 @@ For each publishing request, Experience Manager Guides as a Cloud Service runs a
 > Microservice-based publishing in Experience Manager Guides supports PDF (both Native and DITA-OT based), HTML5, JSON, and CUSTOM types of output presets.
 
 As the cloud publishing service is secured by Adobe IMS OAuth-based authentication, perform the following steps to integrate their environments with Adobe's secure token-based authentication workflows and start using the cloud-based scalable publishing solution.
-
-
-
 
 
 ## Create IMS configurations in Adobe Developer Console
