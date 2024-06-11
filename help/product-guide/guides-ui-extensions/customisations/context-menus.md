@@ -82,7 +82,7 @@ const fileOptions = {
 
     controller: {
         downloadFile(){
-            const path  = this.model.selectedItem.path
+            const path  = this.getValue('selectedItems')[0].path
             this.loader.loadDitaFile(path).then((file) => {
               function download_file(name, contents) {
                 const mime_type = "text/plain";

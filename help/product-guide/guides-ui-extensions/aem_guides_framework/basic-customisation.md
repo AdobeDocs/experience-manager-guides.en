@@ -13,20 +13,21 @@ Our app follows a MVC (Model, View, Controller) structure
 The model defines the various attributes and store their values. The values of the various attributes stored in the model can be accessed from the controller using the syntax
 
 ```typescript
-this.model.attributeName
+this.getValue('attributeName')
 ```
 
 For customisation in the app, all newly created attributes will be added under a map in the model.
 To set a new attribute in the model we will use the following syntax in the controller:
 
 ```typescript
-this.model.extraProps.set("key", value)
+// If a key is not already in model then it will be added to extraProps
+this.setValue('key', value)
 ```
 
 To access an attribute added to the model we will use the following syntax:
 
 ```typescript
-const value = this.model.extraProps.get("key")
+const value = this.getValue("key")
 ```
 
 ## View
@@ -82,13 +83,13 @@ in this case, `extraProps.buttonLabel` holds the label of the button
 
 ```typescript
   controller: {
-    init: function () {
-      this.model.extraProps.set("buttonLabel", "Submit")
+    init: function (context) {
+      context.setValue("buttonLabel", "Submit")
     },
 
     switchButtonLabel(){
-        const buttonLabel = this.model.extraProps.get("buttonLabel") === "Submit"? "Cancel" : "Submit"
-        this.model.extraProps.set("buttonLabel", buttonLabel)
+        const buttonLabel = this.getValue("buttonLabel") === "Submit"? "Cancel" : "Submit"
+        this.setValue("buttonLabel", buttonLabel)
     }
   }
 ```
