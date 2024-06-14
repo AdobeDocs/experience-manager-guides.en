@@ -14,12 +14,8 @@ Perform these steps to migrate your content from non-UUID version 4.3.1 to UUID 
 >[!IMPORTANT]
 >
 > * Before migrating content to the UUID server, ensure that you have a non-UUID server with a compatible AEM Guides version installed on it.
-> *	If you are using a version before 4.3.1, upgrade to version 4.3.1. Follow the [upgrade instructions](./upgrade-xml-documentation.md) specific to the licensed version of your product. 
+> * If you are using a version before 4.3.1, upgrade to version 4.3.1. Follow the [upgrade instructions](./upgrade-xml-documentation.md) specific to the licensed version of your product. 
 > * Currently, versions later than 4.3.1 are not supported for migration.
-
-
->
-
 
 
 ## Package installation
