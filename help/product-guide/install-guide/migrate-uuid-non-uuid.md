@@ -14,7 +14,7 @@ Perform these steps to migrate your content from non-UUID version 4.3.1 to UUID 
 >[!IMPORTANT]
 >
 > Before migrating content to the UUID server, ensure that you've a non-UUID server with compatible AEM Guides version  installed on it.
-Follow the [upgrade instructions](./upgrade-xml-documentation.md) specific to the licensed version of your product. 
+>Follow the [upgrade instructions](./upgrade-xml-documentation.md) specific to the licensed version of your product. 
 
 
 
@@ -23,9 +23,7 @@ Follow the [upgrade instructions](./upgrade-xml-documentation.md) specific to th
 Download the required packages from Adobe Software Distribution Portal, based on your version:
 
 
-1. **Download version 4.3.2**: [
-com.adobe.fmdita-6.5-uuid-4.3.2.1976.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?pack[…]migration%2F2-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1976.zip
-)
+1. **Download version 4.3.2**: [com.adobe.fmdita-6.5-uuid-4.3.2.1976.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?pack[…]migration%2F2-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1976.zip)
 
 1. **Pre-migration**: [com.adobe.guides.pre-uuid-migration-1.2.26.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?pack[…]ion%2F2-0%2Fcom.adobe.guides.pre-uuid-migration-1.2.26.zip)
 1. **Migration**: [com.adobe.guides.uuid-upgrade-1.2.99.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?pack[…]migration%2F2-0%2Fcom.adobe.guides.uuid-upgrade-1.2.99.zip)
