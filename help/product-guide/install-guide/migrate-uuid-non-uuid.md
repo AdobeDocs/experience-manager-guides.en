@@ -53,7 +53,7 @@ Perform the following checks on non-UUID version 4.3.1:
 
 
 1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
-1. Select **Compatibility Assessment from the left panel and browse the  `/content/dam` folder path for all assets.
+1. Select **Compatibility Assessment** from the left panel and browse the  `/content/dam` folder path for all assets.
 1. Check the compatibility to list the following information:
     * Total files
     * Estimated time for migration
