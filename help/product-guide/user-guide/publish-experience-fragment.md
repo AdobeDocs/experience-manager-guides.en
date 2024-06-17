@@ -3,8 +3,8 @@ title: Publish a topic to an Experience Fragment
 description: Publish a topic or the elements within a topic to an Experience Fragment in AEM Guides.  Learn how to view the Experience Fragments present for a topic and republish them.
 feature: Publishing
 role: User
+exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
 ---
-
 # Publish Experience Fragments
 
 Experience Fragments are pieces of modular content in Adobe Experience Manager. These content blocks are based on templates and encapsulate both the content and its layout. These reusable pieces of content allow content creators to assemble and deliver consistent, scalable experiences across multiple channels that Experience Manager supports. This feature helps you easily create consistent marketing experiences efficiently, such as newsletters, promotion banners, and customer testimonials.  
@@ -94,5 +94,3 @@ You can also perform the following actions for an Experience Fragment from the *
 * **Remove**: Remove an Experience Fragment from the outputs list. A confirmation prompt appears. Once you confirm, the Experience Fragment is removed from the **Outputs** list. But the Experience Fragment is not deleted from the folder.
 
 * **View**: View the Experience Fragment editor. You can also make changes and save them.
-
- 
