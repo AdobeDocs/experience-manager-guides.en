@@ -21,7 +21,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/fmdita/exportditamap
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`ditamap`|String|Yes|Absolute path of the DITA map file in AEM repository.|
-|`baseline`|String|Yes|The title of the baseline that is used to retrieve the versioned content. <br> **Note:** The value is case-sensitive. |
+|`baseline`|String|No|The title of the baseline that is used to retrieve the versioned content. <br> **Note:** The value is case-sensitive. |
 
 **Response values**:
 A .zip file whose contents are written to the output stream of the response.
