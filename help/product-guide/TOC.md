@@ -271,6 +271,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Install packages for Article-based publishing](./install-guide/configure-article-based-publishing.md)
       - [Configure a data source connector](./install-guide/conf-data-source-connector.md)
       - [Configure a data source connector from the user interface](./install-guide/conf-data-source-connector-tools.md)
+      - [Configure custom data source connectors](./install-guide/conf-custom-data-source-connector.md)
       - [Set the Advanced Map Editor as default](./install-guide/conf-map-editor.md)
       - [Include @navtitle attribute by default](./install-guide/auto-add-navtitle.md)
       - [Configure the option to edit in Oxygen](./cs-install-guide/conf-edit-in-oxygen.md)
