@@ -10,22 +10,22 @@ level: Experienced
 Experience Manager Guides allows you to customize the connectors according to your requirements and then use them with the different data sources. To customize a connector, you need to set up the connector interface, implement the important functions, and then configure the interface. You can also provide the resources along with the custom connectors.
 
 
-* Customize a connector
-    * [Connector Interface](#cusomize-connector)
-        * [Important functions](#important-fuctions)
+* [Customize a connector](#customize-connector)
+    * [Connector Interface](#setup-interface)
+        * [Important functions](#important-functions)
         * [Types of default connector implementations](#default-connectors)
     * [Config Interface](#config-interface)
         * [Types of default config implementations](#default-config-types)
         * [Concrete config implementations](#concrete-config-implementation)
     * [Resources](#resources)
 
-## Customize a connector for Experience Manager Guides {#cusomize-connector}
+## Customize a connector for Experience Manager Guides {#customize-connector}
 
 You can customize or configure a connector for a data source using the pre-defined interfaces and abstract classes. The entire source code is available at [https://github.com/adobe/guides-data-source-connectors/tree/main/konnect-definitions](https://github.com/adobe/guides-data-source-connectors/tree/main/konnect-definitions). 
 
 
 
-## Set up the connector interface {#setup-intercace}
+## Set up the connector interface {#setup-interface}
 
 Perform the following steps to set up the interface and then implement the functions as per your requirements:
 
@@ -35,7 +35,7 @@ Perform the following steps to set up the interface and then implement the funct
 
 Once you set up the interface, it acts as a blueprint for implementing various types of data connectors, ensuring that the connectors meet any specific integration and operational requirements within a larger software ecosystem.
 
-## Important functions {#important-fuctions}
+## Important functions {#important-functions}
 
 Implement the following important functions: 
 
