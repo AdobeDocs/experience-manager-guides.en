@@ -4,8 +4,8 @@ description: Learn how to disable postprocessing for a folder uploaded to Adobe 
 feature: Filename Configuration
 role: Admin
 level: Experienced
+exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
 ---
-
 # Disable postprocessing for a folder 
 
 By default, all uploaded assets are processed using the DAM Update Asset workflow. Experience Manager Guides runs an additional processing, called postprocessing, as a part of this workflow. This also helps in generating the UUIDs

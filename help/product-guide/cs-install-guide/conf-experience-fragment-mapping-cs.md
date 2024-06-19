@@ -4,6 +4,7 @@ description: Learn how to configure the JSON-based mapping between a topic and a
 feature: Output Generation
 role: Admin
 level: Experienced
+exl-id: 2b59db60-61b5-4a7e-bbf1-35cab8b89323
 ---
 # Create a mapping between a topic and an Experience Fragment
 
@@ -152,5 +153,4 @@ Sample file:
 
 While publishing the Experience Fragments from the Web Editor, select the `Template` from the dropdown in the **Generate Experience Fragment** dialog box to view the mapping available for the template in the **Mapping** field. If no custom mapping is present for a template, then the default mapping is listed. You can use the default mapping to publish the whole topic as an Experience Fragment. 
 
-For more details, view [Publish Experience Fragments](../user-guide/publish-experience-fragment.md).  
- 
+For more details, view [Publish Experience Fragments](../user-guide/publish-experience-fragment.md).

@@ -1,8 +1,8 @@
 ---
 title: Native PDF Publish Feature | Add barcode
 description: Learn how to add barcodes.
+exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
 ---
-
 # Add a barcode to the PDF output
 
 A barcode is a data pattern that machines can read. Customers can scan barcodes with a barcode scanner or their smartphone camera. Encoding information such as product details, inventory numbers, or website URLs can be helpful. Adding barcodes helps you easily capture the data, enhances the customer experience, and facilitates better data management and security.
@@ -150,6 +150,3 @@ Code 32| code32   | Code 32, also known as Italian harmacode.                   
 | Aztec Code  | aztec-code   |Aztec Code bar code symbology According to ISO/IEC 24778:2008.|                            |
 | DataMatrix        |data-matrix             |  Data Matrix ECC 200 bar code symbology According to ISO/IEC 16022:2006.                          |
 | Code One    | code-one                |                            |
-
-
-
