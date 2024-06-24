@@ -38,7 +38,7 @@ Key differences between the UUID and Non-UUID builds are as follows:
 >* Customers will need to decide between UUID and Non-UUID mode at the time of first setup (in case you need help, please connect with Customer Success Manager to help you make the decision based on your usecase).
 >* When upgrading from one version of AEM Guides to a newer version, customers will need to ensure they pick the same mode (UUID / non-UUID) to match their existing mode. A Non-UUID build should not be directly upgrade to a UUID build. Moving from Non-UUID build to UUID build would need content migration.
 
-**Upgrading Builds**
+**Upgrading builds**
 
 When you are upgrading from an older version to a newer version of [!DNL AEM Guides], you might need to execute migration scripts. Refer to Release Notes and version specific documentation for upgrade instructions.
 
