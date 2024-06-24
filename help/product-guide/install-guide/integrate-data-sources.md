@@ -20,7 +20,7 @@ The integration framework of a data source primarily encompasses two main compon
 
 ### External Data Sources
 
-Some of the data sources that you can connect from Experience Manager Guides  are as follows:
+Some of the data sources that you can connect from Experience Manager Guides are as follows:
 
 - Relational Databases (RDBMS)
     - PostgreSQL, MySQL, Microsoft SQL Server, MariaDB, and SQLite
@@ -45,7 +45,7 @@ Through the use of an authenticated connector, data is transferred from an exter
 Perform the following steps to integrate the content into Experience Manager Guides:
 
 1. **Set up the data source connector**
-    - o	The data source connector serves as the interface to establish connectivity with the external data sources. You must configure the connector to establish the connection and include the authentication methods, such as `Basic Auth` or `API key Auth`. All configuration details, including encrypted information, are securely stored in Adobe Experience Manager.
+    - The data source connector serves as the interface to establish connectivity with the external data sources. You must configure the connector to establish the connection and include the authentication methods, such as `Basic Auth` or `API key Auth`. All configuration details, including encrypted information, are securely stored in Adobe Experience Manager.
     - The connector layer is designed to be extensible, allowing you to create your implementations for connecting to various systems that are not provided out-of-the-box by Experience Manager Guides.
       ![Connector Layer](assets/data-source-connector-layer.jpg)
    >[!NOTE]
@@ -96,7 +96,7 @@ Perform the following steps to integrate the content into Experience Manager Gui
       - Data generated from same data source but different templates
         ![Data Generated](assets/data-source-templates-topics.png){width="800" align="left"}        
 
-3. **Generate content using the templates** 
+1. **Generate content using the templates** 
    - You can generate the content from the templates that you have created. 
    - You can generate various types of content:
         - Snippet: This is one-time usable content. You can generate the data from the connector in the defined template and then embed it in the desirable tag.
@@ -104,7 +104,7 @@ Perform the following steps to integrate the content into Experience Manager Gui
         - DITA Topic + Map: You can also generate a complete map can also with the topic and then use the data for publishing directly or use it as a *Reusable Component* in other data.
 
 
-4. **Publish the integrated content** 
+1. **Publish the integrated content** 
    - Publishing is the OOTB feature of Experience Manager  Guides and you can directly publish all the data generated from the external system as PDF or AEM Site output. 
 
 ### Learn how to configure data sources
