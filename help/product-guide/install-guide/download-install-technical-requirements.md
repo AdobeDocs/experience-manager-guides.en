@@ -12,7 +12,7 @@ Before installing Adobe Experience Manager Guides, ensure your system meets the 
 
 >[!IMPORTANT]
 >
-> For AEM Site output generation in 4.4 release, your Adobe Experience Manager's publish instance must have Service Pack 20, 19, 18, or 17.
+> For AEM Site output generation in 4.6 release, your Adobe Experience Manager's publish instance must have Service Pack 20, 19, 18, or 17.
 
 
 
