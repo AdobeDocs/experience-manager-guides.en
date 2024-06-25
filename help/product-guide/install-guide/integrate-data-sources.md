@@ -37,7 +37,7 @@ Some of the data sources that you can connect from Experience Manager Guides are
 
 
 Through the use of an authenticated connector, data is transferred from an external system and generates data within Experience Manager Guides.
-![Architecture](assets/Konnect-Architecture.gif)
+![Architecture](assets/konnect-architecture.gif)
 
 
 ### Integration in Experience Manager Guides
