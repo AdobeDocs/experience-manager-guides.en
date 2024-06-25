@@ -107,9 +107,8 @@ Perform the following steps to integrate the content into Experience Manager Gui
 1. **Publish the integrated content** 
    - Publishing is the OOTB feature of Experience Manager Guides and you can directly publish all the data generated from the external system as PDF or AEM Site output. 
 
-### [!MORELIKETHIS]
-
-The following documents provide more details on configuring the connectors and using them in your instance.
-
-1. [Configure a data source connector](conf-data-source-connector-tools.md)
-2. [Generate content using snippets or topics](../user-guide/web-editor-content-snippet.md)
+> [!MORELIKETHIS]
+>
+> The following documents provide more details on configuring the connectors and using them in your instance.
+> - [Configure a data source connector](conf-data-source-connector-tools.md)
+> - [Generate content using snippets or topics](../user-guide/web-editor-content-snippet.md)
