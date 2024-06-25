@@ -269,6 +269,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure text filters](./install-guide/config-text-filters.md)
       - [Configure the number of LimitReads for a query](./install-guide/conf-query-limitreads.md)
       - [Install packages for Article-based publishing](./install-guide/configure-article-based-publishing.md)
+      -[Integrate data sources](./install-guide/integrate-data-sources.md)
       - [Configure a data source connector](./install-guide/conf-data-source-connector.md)
       - [Configure a data source connector from the user interface](./install-guide/conf-data-source-connector-tools.md)
       - [Configure custom data source connectors](./install-guide/conf-custom-data-source-connector.md)
