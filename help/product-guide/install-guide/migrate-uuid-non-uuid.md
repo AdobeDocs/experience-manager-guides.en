@@ -117,7 +117,7 @@ Perform the following checks on non-UUID version 4.3.1:
 
     ![System upgrade tab in migration](assets/migration-system-upgrade.png)
 
-1. Select **System upgrade** from the left panel to run the migration. Start on a folder with smaller data before running it on `/content/dam`. It is possible to migrate files in batches. However, it is important to migrate all files are migrated for the system to be working. Only files, which are not DITA assets and are not used in any DITA assets can be skipped for migration.
+1. Select **System upgrade** from the left panel to run the migration. It's recommended to migrate all the data at once, as the system does the batching optimally internally. Only files that are not DITA assets and are not used in any DITA assets can be skipped for migration.
 
 1. (Optional) Select the folders for which you want to skip the migration. Use this option to migrate these folders later or skip migrating them. Ensure that these folders don't have any DITA assets and aren't referred by (and in the future won't be referred by) any DITA assets.
 
@@ -163,3 +163,8 @@ After migrating the server successfully, enable post-processing, tagging, and th
 
 1. After the validation is done, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 
+
+
+
+
+If the system is restarted or migration is aborted, the script will resume if it's re-run with the same parameters as before. Contact your customer success team if issues are reported due to the shutdown.
