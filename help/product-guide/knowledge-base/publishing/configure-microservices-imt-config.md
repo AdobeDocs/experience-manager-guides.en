@@ -2,7 +2,7 @@
 title: Configure Microservice-based publishing with OAuth Authentication for AEM Guides as a Cloud Service
 description: Learn how to configure microservice-based publishing with OAuth authentication for AEM Guides.
 feature: Microservice in AEM Guides
-role: Admin
+role: User, Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
 ---
 # Configure microservice-based publishing with OAuth authentication
@@ -80,7 +80,7 @@ You have configured the OAuth authentication details and downloaded the JSON ser
 >
 >If you've already created an OAuth project for smart suggestions, then you can reuse the same project for microservices and skip the following steps to add IMS configuration to the environment.
 
-### Update existing configuration (JWT   to OAuth shift )
+### Update existing configuration
 
 If you are already using a microservice for publishing using JWT (deprecated), perform the following steps to update the configurations:
 
@@ -108,7 +108,7 @@ To use a publishing microservice for the first time, update the configurations a
 1. Select the name of the environment that you want to configure. This should navigate you to the **Environment Information** page.
 1. Switch to the **Configuration** tab.
 
-1. Create a new configuration named as SERVICE_ACCOUNT_DETAILS. In value, add OAuth JSON file's content that you downloaded from developer console .
+1. Update the SERVICE_ACCOUNT_DETAILS JSON field. Ensure you are using the same name and configuration as given in the following screenshot.
 
 
 <img src="assets/jws-service-account-config.png" alt="ims service account configuration" width=500>
@@ -116,7 +116,7 @@ To use a publishing microservice for the first time, update the configurations a
 *Configure the environment for the first time.*
 
 
-### First time code changes for microservice-based publishing enablement 
+### Use microservice-based publishing for the first time
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ To use a publishing microservice for the first time, update the configurations a
 
 Once you have added the IMS configuration to the environment, perform the following steps to link these properties with Experience Manager Guides using OSGi: 
 
-1. In your cloud manager Git project code, add the following two files into `/apps/fmditaCustom/config` (for file contents, view [Appendix](#appendix)).
+1. In your cloud manager Git project code, add the following two files (for file contents, view [Appendix](#appendix)).
 
     * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
     * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
