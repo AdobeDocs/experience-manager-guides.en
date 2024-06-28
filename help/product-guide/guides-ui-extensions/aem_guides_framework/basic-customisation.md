@@ -83,8 +83,8 @@ in this case, `extraProps.buttonLabel` holds the label of the button
 
 ```typescript
   controller: {
-    init: function (context) {
-      context.setValue("buttonLabel", "Submit")
+    init: function () {
+      this.setValue("buttonLabel", "Submit")
     },
 
     switchButtonLabel(){
