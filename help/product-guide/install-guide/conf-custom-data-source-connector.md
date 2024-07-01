@@ -64,11 +64,11 @@ Implement the following important functions:
 
 Besides implementing the default connectors, you can also implement one of the following default abstract classes:
 
-* Rest Connector
-* File Connector
-* GraphQL Connector
-* SQL Connector
-* NoSQL Connector
+- Rest Connector
+- File Connector
+- GraphQL Connector
+- SQL Connector
+- NoSQL Connector
 
 
 If a connector fits into one of these types, extend the connector to the corresponding base class. Otherwise, create it from scratch by implementing the connector interface.
