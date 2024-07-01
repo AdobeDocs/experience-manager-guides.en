@@ -165,6 +165,6 @@ After migrating the server successfully, enable post-processing, tagging, and th
 
 
 
-
-
-If the system is restarted or migration is aborted, the script will resume if it's re-run with the same parameters as before. Contact your customer success team if issues are reported due to the shutdown.
+>[!NOTE]
+>
+>If you restart the system or the migration is aborted, the script will resume when you re-run it with the same parameters as before. Contact your customer success team if you get issues due to the shutdown.
