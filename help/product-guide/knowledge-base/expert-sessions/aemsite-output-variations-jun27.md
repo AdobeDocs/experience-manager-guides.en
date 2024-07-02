@@ -11,7 +11,7 @@ role: User, Admin
 A well-defined layout of a web experience results in consistent application branding
 and design along with uniformity and coherence throughout the digital
 experience/pages of the platform.
-Adobe Experience Manager Guides offers different variations of AEM site output which helps achieve exceptional digital experience.
+Adobe Experience Manager Guides offers different variations of AEM site output which helps in achieving exceptional digital experience.
 
 ## Session overview
 
@@ -19,7 +19,7 @@ In this session, you will learn how to generate different variations of AEM site
 
 ## Session recording
 
-> [!VIDEO](https://video.tv.adobe.com/v/3430649/)
+[!VIDEO](https://video.tv.adobe.com/v/3430649/)
 
 ## Highlights
 
@@ -45,12 +45,13 @@ In this session, you learn about the following:
 
 - **Community Forum** - For session-specific community interactions on Experience League, visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
-> [!NOTE]
->
-> The features shown in this session are available on the following versions of AEM Guides:
->
-> - On-prem 4.1 and later
-> - Cloud Services 2211 and later
+---
+
+**NOTE**
+
+The features shown in this session are shown on the cloud release version 2406 of AEM Guides:
+
+---
 
 ## Contact us
 
