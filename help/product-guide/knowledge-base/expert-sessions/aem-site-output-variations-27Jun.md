@@ -4,7 +4,7 @@ description: Learn how to generate different variations of AEM Sites output from
 exl-id:
 ---
 
-## Session overview
+# Session overview
 
 A well-defined layout of a web experience results in consistent application branding
 and design along with uniformity and coherence throughout the digital
