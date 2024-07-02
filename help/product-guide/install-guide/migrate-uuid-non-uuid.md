@@ -42,7 +42,7 @@ Perform the following checks on non-UUID version 4.3.1:
 
 
 
-1. (Optional) If there are more than 100,000 DITA files in the system, update the `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` to a larger value (any value greater than the number of assets present, for example 200,000) and then redeploy.
+1. (Optional) If there are more than 100,000 DITA files in the system, update the `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` to a larger value (any value greater than the number of assets present, for example 200,000).
 
    |PID|Property Key|Property Value|
    |---|---|---|
@@ -101,9 +101,9 @@ Perform the following checks on non-UUID version 4.3.1:
 1. Disable the property Enable validation (`validation.enabled`) in Day CQ Tagging Service.
 
 1. Ensure that `uuid.regex` property folder is set properly in `com.adobe.fmdita.config.ConfigManager`. If it's blank, set it to the default value - `^GUID-(?<id>.*)`.
-1. Add a separate logger for `com.adobe.fmdita.uuid` The browser response is also available at `/content/uuid-upgrade/logs`.
+1. Add a separate logger for `com.adobe.fmdita.uuid` and `com.adobe.guides.uuid`. 
 
-1. (Optional, if not done earlier) If there are more than 100,000 DITA files in the system, update the `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` to a larger value (any value greater than the number of assets present, for example 200,000) and then redeploy.
+1. (Optional, if not done earlier) If there are more than 100,000 DITA files in the system, update the `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` to a larger value (any value greater than the number of assets present, for example 200,000).
 
    |PID|Property Key|Property Value|
    |---|---|---|
@@ -143,6 +143,10 @@ Select **Baseline/Review Upgrade** from the left panel to migrate the baselines 
 ![Baseline and review tab in migration](assets/migration-baseline-review-upgrade.png)
 
 
+>[!NOTE]
+>
+>If you restart the system or the migration is aborted, the script will resume when you re-run it with the same parameters as before. Contact your customer success team if you get issues due to the shutdown.
+
 ### Step 3: Restore the configuration
 
 After migrating the server successfully, enable post-processing, tagging, and the following workflows (including all the other workflows that were disabled initially during the migration) to continue working on the server.
@@ -154,6 +158,8 @@ After migrating the server successfully, enable post-processing, tagging, and th
 >
 >If some files are not processed or corrupted before migration, they will be corrupted before migration and remain corrupted even after migration.
 
+
+
 ## Migration validation
 
 1. Once the migration is completed, select **Validate system upgrade** from the left panel and validate the output files before and after the migration to ensure that the migration is successful. 
@@ -164,7 +170,3 @@ After migrating the server successfully, enable post-processing, tagging, and th
 1. After the validation is done, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 
 
-
->[!NOTE]
->
->If you restart the system or the migration is aborted, the script will resume when you re-run it with the same parameters as before. Contact your customer success team if you get issues due to the shutdown.
