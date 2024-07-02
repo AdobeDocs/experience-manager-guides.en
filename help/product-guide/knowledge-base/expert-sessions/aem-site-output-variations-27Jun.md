@@ -19,7 +19,7 @@ In this session, you will learn how to generate different variations of AEM site
 
 ## Session recording
 
-> [!VIDEO](https://video.tv.adobe.com/v/3430649/)
+>[!VIDEO](https://video.tv.adobe.com/v/3430649/)
 
 ## Highlights
 
@@ -45,9 +45,9 @@ In this session, you learn about the following:
 
 - **Community Forum** - For session-specific community interactions on Experience League, visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
-> [!NOTE]
+>[!NOTE]
 >
-> The features shown in this session are shown on the cloud release version 2406 of AEM Guides:
+>The features shown in this session are shown on the cloud release version 2406 of AEM Guides:
 
 ## Contact us
 
