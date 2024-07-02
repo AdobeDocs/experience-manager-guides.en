@@ -64,11 +64,11 @@ Implement the following important functions:
 
 Besides implementing the default connectors, you can also implement one of the following default abstract classes:
 
-* Rest Connector
-* File Connector
-* GraphQL Connector
-* SQL Connector
-* NoSQL Connector
+- Rest Connector
+- File Connector
+- GraphQL Connector
+- SQL Connector
+- NoSQL Connector
 
 
 If a connector fits into one of these types, extend the connector to the corresponding base class. Otherwise, create it from scratch by implementing the connector interface.
@@ -88,9 +88,9 @@ Overall, the `Config` interface is a crucial part of the workflow for connecting
 
 There are three types of default abstract config implementations for Authentication:
 
-* RestConfig
-* SqlConfig
-* NoSqlConfig
+- RestConfig
+- SqlConfig
+- NoSqlConfig
 
 If a config aligns with one of these types, it can extend the corresponding base class. Otherwise, it can be created from scratch by implementing the Config interface.
 
@@ -98,12 +98,12 @@ If a config aligns with one of these types, it can extend the corresponding base
 
 For each abstract config class, you also get the concrete implementations you can use directly for authentication. These implementations include:
 
-* API Key Auth Config
-* Basic Auth Token-based Config
-* Basic Auth Config
-* Bearer token config
-* Username Password config for SQL
-* Connection string auth config for NoSQL
+- API Key Auth Config
+- Basic Auth Token-based Config
+- Basic Auth Config
+- Bearer token config
+- Username Password config for SQL
+- Connection string auth config for NoSQL
 
 ### Additional Resources{#resources}
 
@@ -111,6 +111,6 @@ Experience Manager Guides also allows you to provide custom resources for logos 
 To make them usable by the connector, it's mandatory to implement these connector functions:
 
 
-* `getLogoSvg` - Returns the logo SVG as a string.
+- `getLogoSvg` - Returns the logo SVG as a string.
 
-* `getTemplates` - Returns the list of templates in the given format.
+- `getTemplates` - Returns the list of templates in the given format.
