@@ -9,7 +9,6 @@ level: Experienced
 
 Experience Manager Guides allows you to customize the connectors according to your requirements and then use them with the different data sources. To customize a connector, you need to implement the connector interface and its important functions, and then configure the interface. You can also provide the resources along with the custom connectors.
 
-
 - [Configure custom data source connectors](#configure-custom-data-source-connectors)
   - [Customize a connector for Experience Manager Guides {#customize-connector}](#customize-a-connector-for-experience-manager-guides-customize-connector)
   - [Implement the connector interface {#implement-interface}](#implement-the-connector-interface-implement-interface)
@@ -19,6 +18,10 @@ Experience Manager Guides allows you to customize the connectors according to yo
     - [Types of default configs implementations {#default-config-types}](#types-of-default-configs-implementations-default-config-types)
     - [Concrete config implementations {#concrete-config-implementation}](#concrete-config-implementations-concrete-config-implementation)
     - [Additional Resources{#resources}](#additional-resourcesresources)
+  
+
+
+
 
 ## Customize a connector for Experience Manager Guides {#customize-connector}
 
