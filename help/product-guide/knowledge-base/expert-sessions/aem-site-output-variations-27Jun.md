@@ -1,7 +1,7 @@
 ---
 title: Output variations for AEM Sites
 description: Learn how to generate different variations of AEM Sites output from AEM Guides
-exl-id:
+
 ---
 
 # Session overview

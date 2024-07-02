@@ -91,6 +91,7 @@ breadcrumb-title: AEM Guides Documentation
       - [4.0.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
       - [3.8.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - User Guide {#user-guide}
+
   - Introduction {#about-aem-guide}
     - [About [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] working and key features {#aemg-works-features}
@@ -102,12 +103,15 @@ breadcrumb-title: AEM Guides Documentation
     - [Manage files and folders](./user-guide/authoring-file-management.md)
     - [Download files](./user-guide/authoring-download-assets.md)
   - Author Content {#author-content}
+
     - [Authoring overview](./user-guide/authoring-content.md)
     - Topic creation and preview {#create-preview-topics}
+
       - [Create and preview topics](./user-guide/create-preview-topics.md)
       - [Create topics](./user-guide/web-editor-create-topics.md)
       - [Preview a topic](./user-guide/web-editor-preview-topics.md)
       - Author content {#author-content-aem-guides}
+
         - [Way to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
         - Web Editor {#work-with-web-editor}
 
@@ -144,10 +148,12 @@ breadcrumb-title: AEM Guides Documentation
           - [Other features in the map editors](./user-guide/map-editor-other-features.md)
         - DITAVAL Editor {#ditaval-editor}
           - [Work with the DITAVAL editor](./user-guide/ditaval-editor.md)
+
       - Desktop tools for authoring content {#author-using-desktop-tools}
         - [Author content using desktop tools](./user-guide/author-desktop-tools.md)
         - [Work with FrameMaker](./user-guide/author-desktop-framemaker.md)
         - [Work with Oxygen](./user-guide/author-desktop-oxygen.md)
+
   - Review content {#review-topic-maps}
     - [Review topics or maps](./user-guide/review.md)
     - [Create a DITA project](./user-guide/authoring-create-dita-project.md)
@@ -216,6 +222,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Content Reuse Report](./user-guide/reports-content-reuse.md)
     - [Conversion Status Report](./user-guide/reports-convertion-status.md)
     - [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md)
+
 - Installation and configuration {#install-guide}
   - On-premise {#on-prem-ig}
     - [On-premise basics](./install-guide/introduction.md)
@@ -410,7 +417,6 @@ breadcrumb-title: AEM Guides Documentation
     - [Translate content in Guides - part 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
     - [Define, Manage and Utilize Metadata](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
     - [AEM site output variations](./knowledge-base/expert-sessions/aem-site-output-variations-27Jun.md)
-  - [AEM Site output variations](./knowledge-base/expert-sessions/aem-site-output-variations-27Jun.md)
   - Articles {#kb-articles}
 
     - Authoring {#authoring}
