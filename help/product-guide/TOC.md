@@ -72,7 +72,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Upgrade instructions](./release-info/upgrade-instructions-4-4.md)
       - 4.3.1.5 Release {#4315-release}
         - [Fixed issues](./release-info/fixed-issues-4-3-1-5.md)
-        - [Upgrade instructions](./release-info/upgrade-instructions-4-3-1-5.md)    
+        - [Upgrade instructions](./release-info/upgrade-instructions-4-3-1-5.md)
       - 4.3.0 Release {#43-release}
         - What's new {#43-whats-new}
           - [4.3.1 What's new](./release-info/whats-new-4-3-1-release.md)
@@ -110,6 +110,7 @@ breadcrumb-title: AEM Guides Documentation
       - Author content {#author-content-aem-guides}
         - [Way to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
         - Web Editor {#work-with-web-editor}
+
           - [Work with the Web Editor](./user-guide/web-editor.md)
           - [Launch the Web Editor](./user-guide/web-editor-launch-editor.md)
           - [Edit topics in the Web Editor](./user-guide/web-editor-edit-topics.md)
@@ -119,7 +120,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Web Editor views](./user-guide/web-editor-views.md)
           - [Support for Schematron files](./user-guide/support-schematron-file.md)
           - [AI-powered Smart Suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
-         
+
           - [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
           - [Add citations to your content](./user-guide/web-editor-apply-citations.md)
           - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)
@@ -133,6 +134,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Create and manage baselines from the Web Editor](./user-guide/web-editor-baseline.md)
           - [Document state](./user-guide/web-editor-document-states.md)
           - [Use labels](./user-guide/web-editor-use-label.md)
+
         - Map Editor {#work-with-map-editor}
           - [Work with the Map Editor](./user-guide/map-editor.md)
           - [Create a map](./user-guide/map-editor-create-map.md)
@@ -240,11 +242,11 @@ breadcrumb-title: AEM Guides Documentation
     - Work with custom DITA-OT and specialization {#custom-dita-ot-spec}
       - [Use custom DITA-OT and DITA specialization](./install-guide/dita-ot-specialization.md)
     - Configure UUID and non-UUID based filenames {#conf-non-uuid-filename}
-     - [Configure post processing for a folder](./install-guide/conf-folder-post-processing.md)
-      - [Configure filenames](./install-guide/conf-file-names.md)
-      - [Configure auto-filenames based on UUID](./install-guide/conf-auto-uuid-filenames.md)
-      - [Configure Regx for valid file name characters](./install-guide/conf-file-names-valid-regx.md)
-      - [Configure valid file names for AEM Site output](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+    - [Configure post processing for a folder](./install-guide/conf-folder-post-processing.md)
+    - [Configure filenames](./install-guide/conf-file-names.md)
+    - [Configure auto-filenames based on UUID](./install-guide/conf-auto-uuid-filenames.md)
+    - [Configure Regx for valid file name characters](./install-guide/conf-file-names-valid-regx.md)
+    - [Configure valid file names for AEM Site output](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
     - Work with topic and map templates {#topic-map-template}
       - [Configure topic and map templates](./install-guide/conf-template-tags.md)
       - [Configure custom DITA topic template](./install-guide/conf-template-tags-custom-dita-topic-template.md)
@@ -286,7 +288,7 @@ breadcrumb-title: AEM Guides Documentation
         - [PDF Template](./native-pdf/pdf-template.md)
         - [Components of a PDF Template](./native-pdf/components-pdf-template.md)
         - [Design a page layout](./native-pdf/design-page-layout.md)
-         - [Variables in the PDF output](./native-pdf/native-pdf-variables.md)
+        - [Variables in the PDF output](./native-pdf/native-pdf-variables.md)
         - [Support for language variables](./native-pdf/native-pdf-language-variables.md)
         - [Add a barcode to the PDF output](./native-pdf/add-barcode.md)
         - Common content styles {#content-styles}
@@ -338,7 +340,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Customize Web Editor](./cs-install-guide/conf-web-editor.md)
       - [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
       - [Configure the AI-powered smart suggestions for authoring](./cs-install-guide/conf-smart-suggestions.md)
-       - [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
+      - [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
       - [Configure display of UUID-based links](./cs-install-guide/conf-uuid-based-links.md)
       - [Open DITA topic or map files in same tab](./cs-install-guide/open-dita-files-same-tab.md)
       - [Configure a custom panel in the left panel](./cs-install-guide/configure-custom-panel.md)
@@ -392,6 +394,7 @@ breadcrumb-title: AEM Guides Documentation
   - [Bulk activation complete event handler](./api-reference/bulk-activation-complete-event.md)
   - [Conversion process event handler](./api-reference/conversion-complete-event.md)
 - Knowledge Base {#knowledge-base}
+
   - Expert Session {#expert-session}
     - [Expert Session Overview](./knowledge-base/expert-sessions/expert-session.md)
     - [Translate content](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
@@ -406,11 +409,13 @@ breadcrumb-title: AEM Guides Documentation
     - [External Datasource Integration](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
     - [Translate content in Guides - part 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
     - [Define, Manage and Utilize Metadata](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
-	- [AEM Site output variations](./knowledge-base/expert-sessions/aem-site-output-variations-27Jun.md)
+    - [AEM site output variations](./knowledge-base/expert-sessions/aem-site-output-variations-27Jun.md)
+  - [AEM Site output variations](./knowledge-base/expert-sessions/aem-site-output-variations-27Jun.md)
   - Articles {#kb-articles}
-    - Authoring {#authoring} 
+
+    - Authoring {#authoring}
       - Web Editor {#webeditor}
-        -  [Content re-usability in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
+        - [Content re-usability in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
         - Customizing {#customizing}
           - [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
           - [Add custom styles to Web Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
@@ -446,6 +451,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
           - [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
     - Publishing {#publishing}
+
       - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
 
       - [Generate Bookmap's TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
@@ -457,6 +463,7 @@ breadcrumb-title: AEM Guides Documentation
 
       - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+
     - Workflows {#workflows}
       - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
     - Translation {#translation}
@@ -464,4 +471,5 @@ breadcrumb-title: AEM Guides Documentation
     - Use Cases {#use-cases}
       - [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
       - [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
+
   - [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
