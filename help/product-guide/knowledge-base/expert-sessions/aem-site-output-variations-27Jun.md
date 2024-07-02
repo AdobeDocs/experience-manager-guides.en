@@ -2,31 +2,19 @@
 title: Output variations for AEM Sites
 description: Learn how to generate different variations of AEM Sites output from AEM Guides
 exl-id:
-feature: Content Management, Publishing, Troubleshooting
-role: User, Admin
 ---
 
-# AEM Site output variations
+## Session overview
 
 A well-defined layout of a web experience results in consistent application branding
 and design along with uniformity and coherence throughout the digital
 experience/pages of the platform.
 All of this can be achieved through different variations of AEM site output offered by Adobe experience manager Guides.
-
-## Session overview
-
 In this session, you will learn how to generate different variations of AEM sites output.
 
 ## Session recording
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430649/)
-
-## Highlights
-
-- **Date** - June 27, 2024
-- **Number of attendees** - 120
-- **Duration** - 60 minutes
-- **Audience** - Customers, partners, and Adobe employees
 
 ## Key takeaways
 
@@ -36,6 +24,13 @@ In this session, you will learn about the following:
 - Understanding how to build variations based on templates or publishing mechanisms
 - Differences in using each template/mechanism
 - Using pre-existing Sites templates to build AEM sites output
+
+## Highlights
+
+- **Date** - June 27, 2024
+- **Number of attendees** - 120
+- **Duration** - 60 minutes
+- **Audience** - Customers, partners, and Adobe employees
 
 ## Related resources
 
