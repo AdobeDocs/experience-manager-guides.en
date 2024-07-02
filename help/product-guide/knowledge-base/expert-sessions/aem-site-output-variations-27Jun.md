@@ -11,7 +11,7 @@ role: User, Admin
 A well-defined layout of a web experience results in consistent application branding
 and design along with uniformity and coherence throughout the digital
 experience/pages of the platform.
-Adobe Experience Manager Guides offers different variations of AEM site output which helps in achieving exceptional digital experience.
+All of this can be achieved through different variations of AEM site output offered by Adobe experience manager Guides.
 
 ## Session overview
 
@@ -30,7 +30,7 @@ In this session, you will learn how to generate different variations of AEM site
 
 ## Key takeaways
 
-In this session, you learn about the following:
+In this session, you will learn about the following:
 
 - Different Templates type offerings in AEM
 - Understanding how to build variations based on templates or publishing mechanisms
@@ -39,15 +39,19 @@ In this session, you learn about the following:
 
 ## Related resources
 
-- [AEM Site Output](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
 
-- [Knowledgebase output](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
+- [AEM Site Output Publishing](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
+
+- [KB Output publishing](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
+
+- [AEM templates]
+(https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
 - **Community Forum** - For session-specific community interactions on Experience League, visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
->The features shown in this session are shown on the cloud release version 2406 of AEM Guides:
+> THe featured showcased in the session are shown in Cloud release version 2406 of AEM Guides.
 
 ## Contact us
 
