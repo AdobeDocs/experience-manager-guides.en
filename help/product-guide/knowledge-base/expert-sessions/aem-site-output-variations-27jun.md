@@ -39,14 +39,13 @@ In this session, you will learn about the following:
 
 - [KB Output publishing](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
-- [AEM templates]
-(https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
+- [AEM Templates](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
 - **Community Forum** - For session-specific community interactions on Experience League, visit [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> THe featured showcased in the session are shown in Cloud release version 2406 of AEM Guides.
+> The features showcased in the session are shown in Cloud release version 2406 of AEM Guides.
 
 ## Contact us
 
