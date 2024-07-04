@@ -57,7 +57,7 @@ To generate an Experience Manager Sites page, perform the following steps:
 1. Click **Generate** to publish the Sites page.
 1. You can view the Sites page for a topic under the **Outputs** section in the **File Properties**. The Sites pages appear according to the date and time of their publishing, with the latest as the first. 
  
-    ![View the Sites page for a topic](images/experience-fragment-outputs.png){width=300 align="left"}
+    ![View the Sites page for a topic](images/aem-sites-outputs.png){width=300 align="left"}
        
      *View the Sites page present for a topic and republish them.*  
 
