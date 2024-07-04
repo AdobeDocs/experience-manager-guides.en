@@ -1,11 +1,11 @@
 ---
-title: Publish a topic to an Adobe Experience Manager Sites page
+title: Publish a topic to an AEM Sites page
 description: Publish a topic or the elements within a topic to an Adobe Experience Manager Sites output.  Learn how to view the Experience Manager Sites page present for a topic and republish them.
 feature: Publishing
 role: User
 
 ---
-# Publish Experience Manager Sites page
+# Publish Experience Manager Sites pages
 
 
 Experience Manager Sites page refers to DITA content published on Adobe Experience Manager website. Experience Manager Guides allow you to publish an independent topic to an Experience Manager Sites page. This feature allows you to publish a topic and its elements without creating a DITA map and the output presets. You can easily update the topic, republish the Sites page, and reuse it across different web pages.
@@ -73,8 +73,8 @@ You can also perform the following actions for an Experience Fragment from the *
 
 * **Generate**: Republish the Sites page to update it with the latest content from the DITA topic. When you regenerate the output, you cannot change the path, name, title, and template of the Sites page. However, you can select different conditions while regenerating the output.
 
-* **Duplicate**: Duplicate a Sites page. You can change the path, name, title, and the template. You can also select different conditions when you duplicate an Sites page.
+* **Duplicate**: Duplicate a Sites page. You can change the path, name, title, and the template. You can also select different conditions when you duplicate a Sites page.
 
-* **Remove**: Remove an Sites page from the outputs list. A confirmation prompt appears. Once you confirm, the Sites page is removed from the **Outputs** list. But the Sites page is not deleted from the folder.
+* **Remove**: Remove a Sites page from the outputs list. A confirmation prompt appears. Once you confirm, the Sites page is removed from the **Outputs** list. But the Sites page is not deleted from the folder.
 
 * **View**: View the Sites page editor. You can also make changes and save them.
