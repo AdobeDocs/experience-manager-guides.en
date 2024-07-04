@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 
 ---
-# Publish Experience Manager Sites pages
+# Publish Adobe Experience Manager Sites pages
 
 
 Experience Manager Sites page refers to DITA content published on the Adobe Experience Manager website. Experience Manager Guides allow you to publish an independent topic to an Experience Manager Sites page. This feature allows you to publish a topic and its elements without creating a DITA map and the output presets. You can easily update the topic, republish the Experience Manager Sites page, and reuse it across different web pages.

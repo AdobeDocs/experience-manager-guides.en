@@ -192,7 +192,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
     - [Publish Content Fragments](./user-guide/publish-content-fragment.md)
     - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
-    - [Publish Experience Manager Sites pages](./user-guide/publish-aem-sites.md)
+    - [Publish AEM Sites pages](./user-guide/publish-aem-sites.md)
     - Bulk activation of content {#bulk-activation}
       - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
       - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
