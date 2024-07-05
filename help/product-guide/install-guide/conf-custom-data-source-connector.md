@@ -88,8 +88,6 @@ Overall, the `Config` interface is a crucial part of the workflow for connecting
 
 ### Types of default configs implementations {#default-config-types}
 
-The *konnect-definitions* library ships with pre-defined implementations of the Config interface for some widely used authentication configs. You can use these configs directly in the connector or define new using the Config interface.
-
 There are three types of default abstract config implementations for Authentication:
 
 - RestConfig
@@ -100,7 +98,7 @@ If a config aligns with one of these types, it can extend the corresponding base
 
 ### Concrete config implementations {#concrete-config-implementation}
 
-For each abstract config class, you also get the concrete implementations you can use directly for authentication. These implementations include:
+The *konnect-definitions* library ships with pre-defined implementations of the Config interface for some widely used authentication configs. You can use these configs directly in the connector or define new using the Config interface. These implementations include:
 
 - API Key Auth Config
 - Basic Auth Token-based Config
