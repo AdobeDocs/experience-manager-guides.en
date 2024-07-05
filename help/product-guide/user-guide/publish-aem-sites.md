@@ -33,11 +33,11 @@ To generate an Experience Manager Sites page, perform the following steps:
 1. In the **Generate Sites page** dialog box, fill in the following details:
         ![Add the path and template details in Generate Sites page](images/aem-sites-page-generate.png){width="500" align="left"}
         
-    *Add the path, title, name, and mapping details to publish a topic or its elements as a Sites page. You can overwrite an existing Experience Manager Sites page.*  
+    *Add the path, title, name, and template details to publish a topic or its elements as a Sites page. You can overwrite an existing Experience Manager Sites page.*  
 
     * **Path**: Browse and select the path of the folder where you want to publish the Experience Manager Sites page. You can also select an existing Experience Manager Sites page and republish it.
     * **Title**: Type the title of the Experience Manager Sites page. By default, the title is populated with the title of the topic. You can edit it. This title is used to generate the name of the Experience Manager Sites page.
-    * **Name**: Type the name of the Experience Manager Sites page. By default, the name is populated with the title of the topic and the spaces are replaced with '_'. For example, *sample_sites_page*. You can edit it. This name is used to generate the URL for the Experience Manager Sites page.
+    * **Name**: Type the name of the Experience Manager Sites page. By default, the name is populated with the topic title, and non-allowed characters like spaces and special characters are replaced with '_'. For example, *sample_sites_page*. You can edit it. This name is used to generate the URL for the Experience Manager Sites page.
     * **Template**: Select the Experience Manager Sites page template to create your Experience Manager Sites page. You can view the templates in the folder on the path you select. Your administrator can also upload custom templates. 
 
 
@@ -71,7 +71,7 @@ Once you’ve published the Sites page, you can also use them on any Adobe Exper
 
 You can also perform the following actions for an Experience Manager Sites from the **Options** menu:
 
-* **Generate**: Republish the Experience Manager Sites page to update it with the latest content from the DITA topic. When you regenerate the output, you cannot change the path, name, title, and template of the Sites page. However, you can select different conditions while regenerating the output.
+* **Generate**: Republish the Experience Manager Sites page to update it with the latest content from the DITA topic. When you regenerate the output without changing the path, name, title, template, and conditions, the Experience Manager Sites page simply gets updated with the latest content.
 
 * **Duplicate**: Duplicate an Experience Manager Sites page. You can change the path, name, title, and the template. You can also select different conditions when you duplicate a Sites page.
 
