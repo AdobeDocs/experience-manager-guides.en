@@ -62,6 +62,8 @@ Implement the following important functions:
 
 ## Types of default connector implementations {#default-connectors}
 
+The *konnect-definitions* library ships abstract connector implementations and with predefined functions to run queries. These connector implementations act as templates that can be directly extended and used as is. If a custom implementation is required, its functions can be overridden.
+
 Besides implementing the default connectors, you can also implement one of the following default abstract classes:
 
 - Rest Connector
@@ -85,6 +87,8 @@ A config implementation defines how authentication is handled to connect to a da
 Overall, the `Config` interface is a crucial part of the workflow for connecting to data sources, focusing specifically on authentication configuration.
 
 ### Types of default configs implementations {#default-config-types}
+
+The *konnect-definitions* library ships with pre-defined implementations of the Config interface for some widely used authentication configs. You can use these configs directly in the connector or define new using the Config interface.
 
 There are three types of default abstract config implementations for Authentication:
 
