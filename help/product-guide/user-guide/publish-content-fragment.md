@@ -47,7 +47,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
     * **Name**: Type the name of the Content Fragment. By default, the name is populated with the title of the topic, and the spaces are replaced with '_'. For example, *sample_content_fragment*. You can edit it.  This name is used to generate the URL for the Content Fragment.
 
     * You can also select different conditions to publish the content.  Select one of the following options:
-         >[!NOTE] 
+        >[!NOTE] 
         > 
         > Conditions are enabled only if condition attributes are defined in the topic.
         
