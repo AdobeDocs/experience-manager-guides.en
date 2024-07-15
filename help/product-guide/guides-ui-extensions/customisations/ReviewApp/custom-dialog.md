@@ -109,7 +109,7 @@ const acceptWithModification = {
 ```
 
 
-# Calling a custom dialog
+## Calling a custom dialog
 
 This example curtails the information related to how to add a button to open a custom dialog.
 Let's consider `review_comment` panel for this. You can find full extension here:
@@ -161,7 +161,7 @@ const reviewComment = {
 }
 ```
 
-# How to pass args to a custom dialog
+## How to pass args to a custom dialog
 
 Here you can see we pass `args` with the dialog id and we pass an onSuccess with this to handle a callback in case of success event.
 We can also pass `onCancel` if we want to provide some custom callbacks on click of cancel and handle it inside your cancel event in dialog.
