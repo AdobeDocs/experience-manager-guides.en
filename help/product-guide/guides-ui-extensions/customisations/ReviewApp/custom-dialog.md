@@ -8,7 +8,7 @@ role: User, Admin
 
 To provide a glimpse of how to add a custom dialog in review app follow below steps:
 
-### Usage Example
+## Usage Example
 
 ```typescript
 const acceptWithModification = {

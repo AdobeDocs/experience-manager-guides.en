@@ -6,7 +6,7 @@ exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
 ---
 # Customising the app
 
-# Exposed functionality under extension framework
+## Exposed functionality under extension framework
 
 We have exposed a set of functions and getters under a `proxy` which can be used to access data, config and trigger events.
 
