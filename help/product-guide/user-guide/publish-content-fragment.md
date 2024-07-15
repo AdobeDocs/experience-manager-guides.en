@@ -23,7 +23,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
 1. To generate a Content Fragment, select **New Output** ![new output icon](./images/Add_icon.svg) from the **Outputs** section in the **File Properties** of a topic.
 1. Select **Content Fragment**.  
-    ![file properties options tab](./images/file-properties-outputs-tab.png)
+    ![file properties options tab](./images/file-properties-outputs-tab.png) {width="300" align="left"}
 
     *Add a new Content Fragment from the File Properties of a topic*.
 
@@ -35,7 +35,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
     > If you are using 4.6 or 2409 or later versions, you view the options under the **General** and **Mapping** tabs.
     
     **General** tab 
-            ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](images/generate-content-fragment.png){width="500" align="left"}
+            ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](images/generate-content-fragment.png)
         *Add the path, name, title, and condition filtering to publish a topic or its elements as a Content Fragment. You can overwrite an existing Content Fragment.*  
 
     >[!NOTE]
@@ -65,7 +65,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
     **Mapping** tab
 
-   ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](images/content-fragment-mapping.png){width="500" align="left"}
+   ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](images/content-fragment-mapping.png)
 
     *Add the content fragment model, and mapping details to publish a topic or its elements as a Content Fragment. You can overwrite an existing Content Fragment.*  
 

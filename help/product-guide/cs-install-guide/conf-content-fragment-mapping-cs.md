@@ -15,7 +15,7 @@ Adobe Experience Manager Guides allows you to create a JSON-based mapping betwee
 >[!NOTE] 
 > 
 > If you are using 4.6 or 2409 or later versions, you need not create this mapping, you can drag the topic elements to map them to the AEM components present in the content fragment model.
-> Learn more about how to [publish content fragment](../user-guide/publish-content-fragment.md). 
+> Learn more about how to [publish content fragments](../user-guide/publish-content-fragment.md). 
 
 
 1. To download the *contentFragmentMapping.json*, log into Adobe Experience Manager as an administrator.
