@@ -7,7 +7,7 @@ role: User
 ---
 # Publish Content Fragments
 
-Content Fragments are discrete pieces of content in Adobe Experience Manager. They are structured content based on a content model. Content Fragments are pure content without design or layout information. They can be authored and managed independently of the channels that Adobe experience Manager supports. Content Fragments are modular, where content is broken down into smaller components.
+Content Fragments are discrete pieces of content in Adobe Experience Manager. They are structured content based on a content model. Content Fragments are pure content without design or layout information. They can be authored and managed independently of the channels that Adobe Experience Manager supports. Content Fragments are modular, where content is broken down into smaller components.
 
 Adobe Experience Manager Guides allows you to publish a topic or the elements within a topic to a Content Fragment. You can create a JSON-based mapping between a topic and a Content Fragment model. Use this mapping to publish a topic or the elements within a topic to a Content Fragment. You can then use Content Fragments in any Adobe Experience Manager site or extract the details via APIs supported by Content Fragments.
 
@@ -29,10 +29,14 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
 1. In the **Generate Content Fragment** dialog box, fill in the following details:
 
+    >[!NOTE]    
+    >
+    > If you are using 4.4 or 2406 or earlier versions, you view the options in a single tab.
+    > If you are using 4.6 or 2409 or later versions, you view the options under the **General** and **Mapping** tabs.
     
     **General** tab 
-        ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](images/generate-content-fragment.png){width="500" align="left"}
-       *Add the path, name, title, and condition filtering to publish a topic or its elements as a Content Fragment. You can overwrite an existing Content Fragment.*  
+            ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](images/generate-content-fragment.png){width="500" align="left"}
+        *Add the path, name, title, and condition filtering to publish a topic or its elements as a Content Fragment. You can overwrite an existing Content Fragment.*  
 
     >[!NOTE]
     >
@@ -42,19 +46,21 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
     * **Title**: Type the title of the Content Fragment. By default, the title is populated with the title of the topic. You can edit it. This title is used to generate the name of the Content Fragment.
     * **Name**: Type the name of the Content Fragment. By default, the name is populated with the title of the topic, and the spaces are replaced with '_'. For example, *sample_content_fragment*. You can edit it.  This name is used to generate the URL for the Content Fragment.
 
- * You can also select different conditions to publish the content.  Select one of the following options:
-
-        
-     * **None**: Select this option if you don’t want to apply any condition on the published output.
-    * **Using DITAVAL**: Select the DITAVAL file to generate output, which includes specific content. You can select the DITAVAL file using the browse dialog or by typing the file path. 
-    * **Using attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute to publish the relevant content.
-        >[!NOTE] 
+    * You can also select different conditions to publish the content.  Select one of the following options:
+         >[!NOTE] 
         > 
-        >Conditions are enabled only if condition attributes are defined in the topic.
-
+        > Conditions are enabled only if condition attributes are defined in the topic.
         
+        * **None**: Select this option if you don’t want to apply any condition on the published output.
+        * **Using DITAVAL**: Select the DITAVAL file to generate output, which includes specific content. You can select the DITAVAL file using the browse dialog or by typing the file path. 
+        * **Using attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute to publish the relevant content.
+
+          
        
-    * Select **Overwrite existing content** if your Content Fragment already exists and you wish to overwrite it. Experience Manager Guides displays an error if you don’t select the checkbox and your Content Fragment already exists. 
+        >[!NOTE]    
+        >
+        > If you are using 4.4 or 2406 or earlier versions, select **Overwrite existing content** if your Content Fragment already exists and you wish to overwrite it. Experience Manager Guides displays an error if you don’t select the checkbox and your Content Fragment already exists. 
+
 
 
     **Mapping** tab
@@ -67,9 +73,9 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
     * **Mapping**: You can view the topic elements that have an id attribute applied to them. Drag the topic elements to map them to the AEM components present in the content fragment model.  
     
     
-    >[!NOTE]    
-    >
-    > If you are using 4.6 or 2406 or earlier versions, select a mapping from the drop-down. It picks the mappings from the *contentFragmentMapping.json* file.  Your administrator can add the mappings in the *contentFragmentMapping.json* file. Learn more about how to [create a mapping between a topic and a Content Fragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) in the Installation and Configuration Guide. 
+        >[!NOTE]    
+        >
+        > If you are using 4.4 or 2406 or earlier versions, select a mapping from the drop-down. It picks the mappings from the *contentFragmentMapping.json* file.  Your administrator can add the mappings in the *contentFragmentMapping.json* file. Learn more about how to [create a mapping between a topic and a Content Fragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) in the Installation and Configuration Guide. 
 
 1. Click **Generate** to publish the Content Fragment.
 
