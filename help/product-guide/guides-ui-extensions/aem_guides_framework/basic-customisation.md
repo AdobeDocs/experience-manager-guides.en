@@ -6,6 +6,26 @@ exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
 ---
 # Customising the app
 
+# Exposed functionality under extension framework
+
+We have exposed a set of functions and getters under a `proxy` which can be used to access data, config and trigger events.
+
+```typescript
+* getValue
+* setValue
+* subject
+* subscribe
+* subscribeAppEvent
+* subscribeAppModel
+* subscribeParentEvent
+* parentEventHandlerNext
+* appModelNext 
+* appEventHandlerNext
+* next
+* viewConfig
+* args
+```
+
 Our app follows a MVC (Model, View, Controller) structure
 
 ## Model
