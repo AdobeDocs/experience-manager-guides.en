@@ -18,6 +18,7 @@ A GET method that converts Word documents into DITA format.
 http://*<aem-guides-server\>*: *<port-number\>*/bin/fmdita/conversion
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |``operation``|String|Yes|Name of the operation being called. The value of this parameter is ``word2dita``. <br> **Note:** The value is case-insensitive. |
