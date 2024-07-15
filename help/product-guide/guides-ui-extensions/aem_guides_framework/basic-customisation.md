@@ -8,22 +8,32 @@ exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
 
 ## Exposed functionality under extension framework
 
-We have exposed a set of functions and getters under a `proxy` which can be used to access data, config and trigger events.
+We have exposed a set of functions and getters under a `proxy` which can be used to access data, config and trigger events. Below is a list and how to access them.
 
 ```typescript
-* getValue
-* setValue
-* subject
-* subscribe
-* subscribeAppEvent
-* subscribeAppModel
-* subscribeParentEvent
-* parentEventHandlerNext
-* appModelNext 
-* appEventHandlerNext
-* next
-* viewConfig
-* args
+interface EventData {
+  key?: string,
+  keys?: string[]
+  view?: any,
+  next?: any,
+  error?: any,
+  completed?: any,
+  id?: any
+}
+
+* getValue(key)
+* setValue(key, value)
+* subject // getter
+* subscribe(opts: EventData)
+* subscribeAppEvent(opts: EventData)
+* subscribeAppModel(key, next)
+* subscribeParentEvent(opts: EventData)
+* parentEventHandlerNext(eventName: string, opts: any)
+* appModelNext(eventName:string, opts) 
+* appEventHandlerNext(eventName:string, opts)
+* next(eventName:string, opts, eventHandler?)
+* viewConfig //getter
+* args //getter
 ```
 
 Our app follows a MVC (Model, View, Controller) structure
@@ -116,3 +126,111 @@ in this case, `extraProps.buttonLabel` holds the label of the button
 
 Below GIF shows the above code in action
 ![basic_customisation](imgs/basic_customisation.gif "Basic customisation button")
+
+
+### View config example
+
+In this case we access search mode event using `viewConfig` and trigger an event to update it
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        console.log('Logging view config ', this.viewConfig)
+        this.next(this.viewConfig.items[1].searchModeChangedEvent, { searchMode: true })
+      }
+    }
+  }
+```
+
+### Subscribe example
+
+In this case we add subscription on file rename to console log when file rename option is clicked
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribe({
+          key: 'rename',
+          next: () => { console.log('rename using extension') }
+        })
+      }
+    }
+  }
+```
+
+### Subscribe app event example
+
+In this case we console log on active document changed (changing tabs in editor UI)
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribeAppEvent({
+          key: 'app.active_document_changed',
+          next: () => { console.log('Extension: active document changed') }
+        })
+      }
+    }
+  }
+```
+
+### Subscribe app model events example
+
+Example for subscribing app model events such as `app.mode`
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribeAppModel('app.mode',
+          () => { console.log('app mode subs') }
+        )
+      }
+    }
+  }
+```
+
+### Parent controller events example
+
+In this we add subscription on `tabChange` event which is an event of `left_panel_container` controller which acts 
+as parent controller for `repository_panel`
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribeParentEvent({
+          key: 'tabChange',
+          next: () => { console.log('tab change subs') }
+        })
+        this.parentEventHandlerNext('tabChange', {
+          data: 'map_panel'
+        )
+      }
+    }
+  }
+```
+
+### App model and app controller next
+
+They can be directly triggered by knowing correct event to fire and its data
+
+```typescript
+  { 
+    id: 'file_options', 
+    controller: {
+      init: function () {
+        this.appModelNext('app.mode', 'author')
+        this.appEventHandlerNext('app.active_document_changed', 'active doc changed')   
+      }
+    }
+  } 
+```

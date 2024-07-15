@@ -53,29 +53,6 @@ const fileOptions = {
 
   controller: {
     downloadFile() {
-      console.log('args: ', this.args)
-      console.log('view confgi: ', this.viewConfig)
-      console.log('subject: ', this.subject)
-      this.subscribe({
-        key: 'rename',
-        next: () => { console.log('extenson sub rename') }
-      })
-      this.subscribeAppEvent({
-        key: 'app.active_document_changed',
-        next: () => { console.log('active doc changed subs') }
-      })
-      this.subscribeAppModel('download + console',
-        () => { console.log('app mode subs') }
-      )
-      this.subscribeParentEvent({
-        key: 'tabChange',
-        next: () => { console.log('tab change subs') }
-      })
-      this.parentEventHandlerNext('tabChange', {
-        data: 'repository_panel'
-      })
-      this.appModelNext('app.mode', 'author')
-      this.appEventHandlerNext('app.active_document_changed', 'active doc changed')
       const path = this.getValue('selectedItems')[0].path
       loadDitaFile(path, true).then((file) => {
         function download_file(name, contents) {
