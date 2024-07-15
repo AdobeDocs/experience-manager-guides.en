@@ -18,6 +18,7 @@ A GET method that registers a data source connector.
 `http://server:port/bin/guides/v1/konnect/config/register?path=<uploaded file path>`
 
 **Parameter**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`path`|String|Yes|A string which points to a path in the AEM repository. It can be a path in the `/content/dam or /var/dxml`.|
