@@ -113,7 +113,7 @@ const acceptWithModification = {
 
 This example curtails the information related to how to add a button to open a custom dialog.
 Let's consider `review_comment` panel for this. You can find full extension here:
-[Review Comment](./examples/review_app_examples/review_comment.ts)
+[Review Comment](../../examples/review_app_examples/review_comment.ts)
 
 ```typescript
 
