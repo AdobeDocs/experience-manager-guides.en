@@ -27,12 +27,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
     *Add a new Content Fragment from the File Properties of a topic*.
 
-1. In the **Generate Content Fragment** dialog box, fill in the following details:
-
-    >[!NOTE]    
-    >
-    > If you are using 4.4 or 2406 or earlier versions, you view the options in a single tab.
-    > If you are using 4.6 or 2409 or later versions, you view the options under the **General** and **Mapping** tabs.
+1. In the **Generate Content Fragment** dialog box, fill in the following details under the **General** and **Mapping** tabs.
     
     **General** tab 
             ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](images/generate-content-fragment.png)
@@ -57,10 +52,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
           
        
-        >[!NOTE]    
-        >
-        > If you are using 4.4 or 2406 or earlier versions, select **Overwrite existing content** if your Content Fragment already exists and you wish to overwrite it. Experience Manager Guides displays an error if you don’t select the checkbox and your Content Fragment already exists. 
-
+    
 
 
     **Mapping** tab
@@ -70,7 +62,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
     *Add the content fragment model, and mapping details to publish a topic or its elements as a Content Fragment. You can overwrite an existing Content Fragment.*  
 
     * **Model**: Select the Content Fragment model that you want to use to create your Content Fragment. The models are picked from the folder, which you have configured in the cloud services. 
-    * **Mapping**: You can view the topic elements that have an id attribute applied to them. Drag the topic elements to map them to the AEM components present in the content fragment model.  
+    * **Mapping**: You can view the topic elements that have an id attribute applied to them. Drag the topic elements to the fields present in the content fragment model.
     
     
         >[!NOTE]    
