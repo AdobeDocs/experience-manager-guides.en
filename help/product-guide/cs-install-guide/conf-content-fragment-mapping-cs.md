@@ -10,7 +10,7 @@ level: Experienced
 
 
 
-Adobe Experience Manager Guides allows you to create a JSON-based mapping between a topic and a content fragment model. If you are using 4.4 or 2406 or earlier versions, you can use JSON-based mapping to publish content present in some or all elements within a topic to a content fragment. 
+Adobe Experience Manager Guides allows you to create a JSON-based mapping between a topic and a content fragment model. You can use JSON-based mapping to publish content present in some or all elements within a topic to a content fragment. 
 
 >[!NOTE] 
 > 
