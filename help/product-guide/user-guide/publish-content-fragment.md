@@ -9,7 +9,9 @@ role: User
 
 Content Fragments are discrete pieces of content in Adobe Experience Manager. They are structured content based on a content model. Content Fragments are pure content without design or layout information. They can be authored and managed independently of the channels that Adobe Experience Manager supports. Content Fragments are modular, where content is broken down into smaller components.
 
-Adobe Experience Manager Guides allows you to publish a topic or the elements within a topic to a Content Fragment. You can create a JSON-based mapping between a topic and a Content Fragment model. Use this mapping to publish a topic or the elements within a topic to a Content Fragment. You can then use Content Fragments in any Adobe Experience Manager site or extract the details via APIs supported by Content Fragments.
+Adobe Experience Manager Guides allows you to publish a topic or the elements within a topic to a Content Fragment. Mapping: You can assign id attribute to the elements in a topic. Then, view the topic elements that have an id attribute applied to them and map. Drag the topic elements to the fields present in the content fragment model.
+
+You can create a JSON-based mapping between a topic and a Content Fragment model. Use this mapping to publish a topic or the elements within a topic to a Content Fragment. You can then use Content Fragments in any Adobe Experience Manager site or extract the details via APIs supported by Content Fragments.
 
 
 To create a Content Fragment, perform the following steps:
