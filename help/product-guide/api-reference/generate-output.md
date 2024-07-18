@@ -43,6 +43,7 @@ throws GuidesApiException
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|
