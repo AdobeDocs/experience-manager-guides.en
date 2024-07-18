@@ -45,6 +45,19 @@ Now each context menu has a `controller id` associated with it. This controller 
 Let us take an example to understand
 
 ```js title=customise_context_menu.js"
+const loadDitaFile = (filePath, uuid) =>{
+  return $.ajax({
+    type: 'POST',
+    url: '/bin/referencelistener',
+    data: {
+        operation: 'getdita',
+        path: filePath,
+        type: uuid ? 'UUID' : 'PATH',
+        cache: false,
+    },
+  })
+}
+
 const fileOptions = {
     id: "file_options",
     contextMenuWidget: "repository_panel",
@@ -83,7 +96,7 @@ const fileOptions = {
     controller: {
         downloadFile(){
             const path  = this.getValue('selectedItems')[0].path
-            this.loader.loadDitaFile(path).then((file) => {
+            loadDitaFile(path).then((file) => {
               function download_file(name, contents) {
                 const mime_type = "text/plain";
         

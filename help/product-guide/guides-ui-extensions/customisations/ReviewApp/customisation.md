@@ -11,7 +11,7 @@ To ease the customisation of the review app we have provided some hooks listed a
 ## Review-Comment
 
 - id: `review_comment`
-- hook: `this.updateExtraProps`:
+- hook: `this.next('updateExtraProps')`:
 
 As discussed [here](../../aem_guides_framework/basic-customisation.md), any new attribute added during customisation goes under `this.model.extraProps`. The method `updateExtraProps` allows you to add attributes to a review comment, handling the updation and storage of the added attribute on the server as well.
 
@@ -74,8 +74,20 @@ Say we want to send an extraProp, `userInfo`, everytime a new comment or reply i
 In the above code snippet, we are checking if the dispatched event was a new comment or reply. In case of a new comment or reply, we are calling the method `setUserInfo`
 
 ```typescript
+    const getUserInfo = (userId) => {
+      return $.ajax({
+        url: '/bin/dxml/xmleditor/userinfo',
+        data: {
+          username: userId,
+        },
+        success: (data) => {
+          return data
+        }
+      })
+    }
+
     setUserInfo(event) {
-      this.loader?.getUserInfo(event.user).subscribe(userData => {
+      getUserInfo(event.user).done(userData => {
         const extraProps = {
           "userFirstName": userData?.givenName || '',
           "userLastName": userData?.familyName || '',

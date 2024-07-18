@@ -453,9 +453,12 @@ breadcrumb-title: AEM Guides Documentation
         - [Simple customisation](./guides-ui-extensions/customisations/add-button.md)
         - [Customising Context Menus](./guides-ui-extensions/customisations/context-menus.md)
         - [Customising Toolbar & Topbar](./guides-ui-extensions/customisations/toolbar-topbar.md)
+        - [Examples](./guides-ui-extensions/examples.md)
+        - [Customisable Jsons](./guides-ui-extensions/JSONs.md)
         - Review{#review-app-customisations}
           - [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
           - [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+          - [Custom Dialog](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
     - Publishing {#publishing}
 
       - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
