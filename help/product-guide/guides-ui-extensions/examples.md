@@ -48,6 +48,9 @@ In this file, we calculate and assign the unique comment ID, mentioned in the `R
 6. [Accept with Modification Dialog](./examples/review_app_examples/accept_with_modification_dialog.ts)
 This is an example of adding new widgets to the app. Here we have created a new dialogue, that has two input text fields: `Revised Text` and `Adjudicator Comment Rationale`
 
+7. [Save Revision](./examples/save_revision.ts)
+This is asn example of how to update an exisitng dialog. We add a button for publish in this.
+
 ![Accept With Modification Dialog](./imgs/accept_with_modification_dialogue.png)
 
 Here's the review panel before and after customisation:
