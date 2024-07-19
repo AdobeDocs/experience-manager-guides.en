@@ -26,10 +26,11 @@ By default, your users do not see the **Open in FrameMaker** button on the AEM t
 
 1.  Search for and click on the **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundle.
 
-    ![](assets/open-in-fm-toolbar.png){width="550" align="left"}
+    ![](assets/open-in-fm-config.png){width="550" align="left"}
 
 1.  Select the **Show Open in FrameMaker Button** option.
 
+1. If you are using version 4.6 and FrameMaker 2022 September release - Update 3, you must enable the **FrameMaker Version 2022 Update 3 or above** config for your users to open your DITA documents directly in FrameMaker.  By default it is disabled.
 1.  Click **Save**.
 
 
@@ -37,28 +38,3 @@ When you enable the **Show Open in FrameMaker Button** option, then the **Open i
 
 
 
-## Enable FrameMaker September 2022 - Update 3
-
-
-If you are using version 4.6 and FrameMaker 2022 Septemeber release - Update 3, you must enable the **FrameMaker Version 2022 Update 3 or above** config for your users to open your DITA documents directly in FrameMaker.
-   
-By default, the **FrameMaker Version 2022 Update 3 or above** option is disabled.
-
-Perform the following steps to enable the option:
-:
-
-1.  Open the Adobe Experience Manager Web Console Configuration page.
-
-    The default URL to access the configuration page is:
-
-    ```http
-    http://<server name>:<port>/system/console/configMgr
-    ```
-
-1.  Search for and click on the **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundle.
-
-    ![](assets/open-in-fm-toolbar.png){width="550" align="left"}
-
-1.  Select the **FrameMaker Version 2022 Update 3 or above** option.
-
-1.  Click **Save**.
