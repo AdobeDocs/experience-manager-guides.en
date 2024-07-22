@@ -115,9 +115,6 @@ badgeAll: label="Legacy Guide - More Info" type="Informative" url="/help/legacy-
     - [Work with Baseline](./user-guide/generate-output-use-baseline-for-publishing.md)
     - [Generate output for a DITA map from the map console](./user-guide/generate-output-for-a-dita-map.md)
     - [Use Map Collection for output generation](./user-guide/generate-output-use-map-collection-output-generation.md)
-    - Use native PDF publishing feature {#web-editor}
-      - [Publish PDF output](./web-editor/native-pdf-web-editor.md)
-      - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)
     - [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
     - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
     - [Publish Content Fragments](./user-guide/publish-content-fragment.md)
@@ -147,6 +144,10 @@ badgeAll: label="Legacy Guide - More Info" type="Informative" url="/help/legacy-
 
 <!--
   - Articles {#kb-articles}
+
+    - Use native PDF publishing feature {#web-editor}
+      - [Publish PDF output](./web-editor/native-pdf-web-editor.md)
+      - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)
 
     - Authoring {#authoring}
       - Web Editor {#webeditor}
