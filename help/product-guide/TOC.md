@@ -329,6 +329,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Migrate existing content](./cs-install-guide/migrate-content.md)
       - [Upload existing DITA content](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
       - [Migrate non-DITA content](./cs-install-guide/migrate-content-non-dita.md)
+      - [Migrate content from On-premise to Cloud Service](./cs-install-guide/migrate-on-premise-content-cloud.md)
     - Work with custom DITA-OT and specialization {#custom-dita-ot-spec-cs}
       - [Use custom DITA-OT and DITA specialization](./cs-install-guide/dita-ot-specialization.md)
     - Configure UUID and non-UUID based filenames {#conf-non-uuid-filename-cs}
