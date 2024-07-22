@@ -139,7 +139,7 @@ Extraction will take minutes, and you'll view the status as updated.
 
 
 
-## Content Transfer Tool on a Publish Instance
+## Run Content Transfer Tool on a Publish Instance
 
 Install Content Transfer Tool on the source Publish instance to move content to the target Publish instance. 
 The Content Transfer Tool does not differentiate between published and unpublished content when ingesting content into a Publish environment. The content specified in the migration set is ingested into the chosen target instance. The user can ingest a migration set into an Author instance, Publish instance, or both. 
