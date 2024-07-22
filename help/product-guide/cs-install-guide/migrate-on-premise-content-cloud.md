@@ -149,7 +149,7 @@ The Content Transfer Tool does not differentiate between published and unpublish
 Perform the following steps for the recommended approach: 
 
 * Use the same version of the **Content Transfer Tool** that was used on the Author instance. 
-Only a single Publish node must be migrated. Prior to beginning the extraction, remove it from the load balancer. 
+Migrate only a single Publish node. Prior to beginning the extraction, remove it from the load balancer. 
 * During ingestion to publish, the Publish tier will not be scaled down (unlike the author). 
 
 >[!NOTE]
