@@ -29,9 +29,8 @@ For more details, view [Publish Experience Fragments](../user-guide/publish-expe
 
 Experience Manager Guides also provides some helpful enhancements in Content Fragments: 
 
- - You can easily filter content with conditions while publishing to a Content Fragment, using a DITAVAL file or conditional attributes. 
-
- - You can also publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**. 
+- You can easily filter content with conditions while publishing to a Content Fragment, using a DITAVAL file or conditional attributes. 
+- You can also publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**. 
 
 ![file properties options tab](./assets/file-properties-outputs-tab.png){width="300" align="left"}
 
