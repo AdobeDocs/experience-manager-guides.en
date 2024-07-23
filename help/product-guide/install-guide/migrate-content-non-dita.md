@@ -140,7 +140,7 @@ Perform the following steps to convert your existing InDesign documents into DIT
 1. Add the following properties in `idml2dita_io.xml` file:
 
     ```
-    <entry       key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+    <entry key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
 
     <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
     ```
