@@ -1,9 +1,9 @@
 ---
 title: Custom dialog
-description: How to add a custom dialog 
+description: How to add a custom dialog
 role: User, Admin
+exl-id: 00ea7f6f-1130-433f-b557-c2ea552b17c7
 ---
-
 # Adding a custom dialog
 
 To provide a glimpse of how to add a custom dialog in review app follow below steps:

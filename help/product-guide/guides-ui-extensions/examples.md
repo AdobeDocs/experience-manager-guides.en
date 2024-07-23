@@ -1,8 +1,8 @@
 ---
 title: Examples
 description: List of customisation examples
+exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
 ---
-
 # Examples
 
 In this package we have also provided some customisation examples (available at `guides_extension/src`) . Below is a brief description for each of them.

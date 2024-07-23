@@ -2,8 +2,8 @@
 title: Exposed JSONs
 description: List of exposed JSONs
 role: User, Admin
+exl-id: 7ad86795-d26b-464a-94f6-ffaf3376b252
 ---
-
 # Customisable JSON
 
 Context Menus:
