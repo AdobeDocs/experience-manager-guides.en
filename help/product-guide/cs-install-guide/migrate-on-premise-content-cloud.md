@@ -88,12 +88,12 @@ Perform the following steps to migrate your Experience Manager Guides content to
 1. On the On-premise instance select **Tools** > **Operations** > **Content Migration** > **Content Transfer**.
  
 
-1. Select **Content Transfer**, create a migration set, and paste the extraction key copied from the cloud acceleration manager. This verifies the key and shows the validity after entering the value.
+1. Select **Content Transfer**, create a migration set, and paste the extraction key copied from the cloud acceleration manager. This establishes a connection between the source and the target. Then it verifies the key and shows the validity after entering the value.
 
 1. Enable the **Include versions** option to include the file versions. 
  ![](./assets/migration-create-migration-set.png)
 
-1. Provide the path you want to migrate and click **Save**. This establishes a connection between the source and the target.
+1. Provide the path you want to migrate and click **Save**. 
 For example,  `/content/we-retail`
 or
 `/content/dam/wknd-events`
@@ -122,7 +122,10 @@ or
 Extraction will take minutes, and you'll view the status as updated.
     ![migration set extraction](./assets/migration-set-extraction.png)
  
-1. Go to your cloud acceleration manager, select the three dots, and then select **View details**. 
+1. Once the extraction is complete and indicated by the status `finished`, go to Cloud Acceleration Manager  and select the project you created in step 18. 
+For more information select the three dots, and then select **View details**. 
+
+
 1. In the Migration set details pop-up, verify the migration set configuration and close the pop up.
  
     You can view the paths and other setings as shown in the following screenshot:
@@ -146,15 +149,15 @@ The Content Transfer Tool does not differentiate between published and unpublish
 
 ### Recommended Approach 
 
-Perform the following steps for the recommended approach: 
+Consider the following recommendations: 
 
 * Use the same version of the **Content Transfer Tool** that was used on the Author instance. 
-Migrate only a single Publish node. Prior to beginning the extraction, remove it from the load balancer. 
-* During ingestion to publish, the Publish tier will not be scaled down (unlike the author). 
+* During ingestion to Publish, the Publish tier will not be scaled down (unlike the author). 
+* Migrate only a single Publish node. Prior to beginning the extraction, remove it from the load balancer. 
 
 >[!NOTE]
 >
-> As a precaution, avoid any user-initiated write operations, such as: 
+> As a precaution, make sure that no write operations happen on the Publish instances including user initiated actions like:
 > * Content distribution from AEM as a Cloud Service Author to Publish in that environment 
 > * User Sync between Publish instances
 
