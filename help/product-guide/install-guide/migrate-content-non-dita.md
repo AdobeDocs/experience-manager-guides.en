@@ -124,27 +124,42 @@ Perform the following steps to convert your existing InDesign documents into DIT
 
     `/libs/fmdita/config/idml2dita_io.xml`
 
-1.  Create an overlay node of the `config` folder within the `apps` node.
+1.  To create a custom configuration according to your requirements, create an overlay node of the `config` folder within the `apps` node.
+
+1. Copy the following files or folders from the `libs` folder to the apps folder:
+
+    - `/fmdita/config/idml2dita_io.xml`
+    - `/fmdita/idml2dita/config`
+    -	`/fmdita/idml2dita/xsl`
 
 1.  Navigate to the configuration file available in the `apps` node:
 
     `/apps/fmdita/config/idml2dita_io.xml`
 
-    Configure the following parameters in the `idml2dita_io.xml` file:
+1.	Add the mapping of the configs present in the `idml12dita` folder within the `idml2dita_io.xml` file.
+7.	Add the following properties in `idml2dita_io.xml` file:
 
-    -   In the `inputDir` element, specify the location of the input folder wherein your source InDesign documents are available. For example, if your InDesign documents are stored in a folder named `indesigntodita` in `projects` folder, then specify the location as: `/content/dam/idmlfiles/indesigntodita/`
+    ```
+    <entry          key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
 
-    -   In the`outputDir` element, specify the location of the output folder or keep the default output location to save the converted DITA document. If the specified output folder does not exist on DAM, then the conversion workflow creates the output folder.
+    <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+    ```
 
-    -   In the `mapStyle` element, specify the location of the map file that contains mappings for InDesign document styles to DITA elements. The default mapping is stored in the file located at:
+Configure the following parameters in the `idml2dita_io.xml` file:
 
-        ```XML
-        /stmap.adobeidml.xml
-        ```
+-   In the `inputDir` element, specify the location of the input folder wherein your source InDesign documents are available. For example, if your InDesign documents are stored in a folder named `indesigntodita` in `projects` folder, then specify the location as: `/content/dam/idmlfiles/indesigntodita/`
 
-        >[!NOTE]
-        >
-        > For more information about the structure of `stmap.adobeidml.xml` file and how you can customize it, see the [Prepare the mapping file for InDesign to DITA migration](appendix.md#id194AF0003HT) section in *Appendix*.
+-   In the`outputDir` element, specify the location of the output folder or keep the default output location to save the converted DITA document. If the specified output folder does not exist on DAM, then the conversion workflow creates the output folder.
+
+-   In the `mapStyle` element, specify the location of the map file that contains mappings for InDesign document styles to DITA elements. The default mapping is stored in the file located at:
+
+```XML
+    /stmap.adobeidml.xml
+```
+
+>[!NOTE]
+>
+> For more information about the structure of `stmap.adobeidml.xml` file and how you can customize it, see the [Prepare the mapping file for InDesign to DITA migration](appendix.md#id194AF0003HT) section in *Appendix*.
 
 1.  Save the `idml2dita_io.xml` file.
 
