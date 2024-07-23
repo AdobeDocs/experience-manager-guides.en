@@ -3,6 +3,7 @@ title: Work with the Map Editor
 description: Work with the Map Editor in AEM Guides. Learn to create and edit a map file in AEM map editor.
 feature: Authoring, Map Editor
 role: User
+exl-id: 1928364f-3ea9-4e53-9184-dad8fe40f58c
 ---
 # Work with the Map Editor {#id181OF0M30Y4}
 

@@ -3,6 +3,7 @@ title: Download files
 description: Learn how to download files from the DITA map console in AEM Guides and export a DITA map file in AEM repository.
 feature: Content Management
 role: User
+exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
 ---
 # Download files {#id216MC0H0BE8}
 

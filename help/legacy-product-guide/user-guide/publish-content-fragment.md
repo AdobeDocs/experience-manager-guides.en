@@ -3,6 +3,7 @@ title: Publish a topic to a Content Fragment
 description: Publish a topic or the elements within a topic to a Content Fragment in AEM Guides.  Learn how to view the Content Fragments present for a topic and republish them.
 feature: Publishing
 role: User
+exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
 ---
 # Publish Content Fragments
 
@@ -86,5 +87,3 @@ You can also perform the following actions for a Content Fragment from the **Opt
     > No content is deleted from the Content Fragment by this action.
 
 * **View**: View the Content Fragment editor. You can also make changes and save them.
-
- 

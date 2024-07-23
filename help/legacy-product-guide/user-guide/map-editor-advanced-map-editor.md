@@ -3,6 +3,7 @@ title: Work with the Advanced Map Editor
 description: Learn how to work with the advanced map editor in AEM Guides. Know the features of the advanced Map Editor. Edit topics through a DITA map and use layout view, author view, and preview mode.
 feature: Authoring, Map Editor
 role: User
+exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
 ---
 # Work with the Advanced Map Editor {#id1942D0S0IHS}
 

@@ -3,6 +3,7 @@ title: Use HTML5
 description: Learn how to create an HTML5 preset from the web editor and map dashboard. Configure HTML5 output preset in AEM Guides.
 feature: Publishing
 role: User
+exl-id: e0ea38ac-84f1-4022-91e3-4827f123b26f
 ---
 # HTML5 {#id205BE700XO1}
 

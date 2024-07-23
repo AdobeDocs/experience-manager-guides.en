@@ -3,6 +3,7 @@ title: Use labels
 description: Discover the use of labels for different versions of a file in AEM Guides. Learn how to add or delete a label to a version of a topic.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
+exl-id: bd488298-57d7-46fb-9820-cec8d0db8bd5
 ---
 # Use labels {#id164JBG0M0T1}
 

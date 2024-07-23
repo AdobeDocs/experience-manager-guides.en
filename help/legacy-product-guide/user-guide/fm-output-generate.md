@@ -3,6 +3,7 @@ title: Generate output of .book or .fm files
 description: Learn how to generate output of .book or .fm files in AEM Guides.
 feature: Publishing FrameMaker Documents
 role: User
+exl-id: 9b5760bd-817c-4d8d-ab37-ab8699ac62fa
 ---
 # Generate output of .book or .fm files {#generating_output_fm_docs}
 

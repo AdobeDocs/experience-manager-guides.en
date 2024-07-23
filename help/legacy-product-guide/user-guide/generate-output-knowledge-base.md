@@ -3,6 +3,7 @@ title: Knowledge Base
 description: Learn how to create Knowledge Base preset from the web editor and the map dashboard. Configure Knowledge Base output preset in AEM Guides.
 feature: Publishing
 role: User
+exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
 ---
 # Knowledge Base {#knowledge-base}
 
