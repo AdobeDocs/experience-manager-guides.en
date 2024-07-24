@@ -83,7 +83,7 @@ Perform the following steps to migrate your Experience Manager Guides content to
     >  Ensure you download the latest version.
 
 1. Upload and install the package `content-transfer.all-3.0.10.zip` in the **Package Manager** of your On-premise instance.
-    ![install package](./assets/migration-aem-cloud-service.png)
+
 
 1. On the On-premise instance select **Tools** > **Operations** > **Content Migration** > **Content Transfer**.
  
