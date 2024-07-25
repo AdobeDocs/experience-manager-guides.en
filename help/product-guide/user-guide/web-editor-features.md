@@ -1800,7 +1800,7 @@ To view the review comments in the active review tasks that are present in your 
     - Select ![](images/filter-search-icon.svg)  to open the **Filter** dialog. You can select all or only specific projects. The selected projects are listed in the **Review** panel.
     ![](images/active-review-select-project.png){width="300" align="left"}
 
-       The **Tasks initiated by me** option is enabled by default. It allows you to view only the tasks that you've initiated. The toggle state of the **Tasks initiated by me** option is maintained even after refreshing the page.
+       The **Tasks initiated by me** option is enabled by default. It allows you to view only the tasks that you've initiated. The toggle state of this option is maintained even after refreshing the page.
 
 1. By default, in your review project you will view a flat list of topics that have comments associated with them. Apply the required filters from the left rail to filter the topics based on the review comments present in them:
 
