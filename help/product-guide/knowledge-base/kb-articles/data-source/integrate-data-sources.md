@@ -110,5 +110,5 @@ Perform the following steps to integrate the content into Experience Manager Gui
 >[!MORELIKETHIS]
 >
 > The following documents provide more details on configuring the connectors and using them in your instance.
-> - [Configure a data source connector](conf-data-source-connector-tools.md)
-> - [Generate content using snippets or topics](../user-guide/web-editor-content-snippet.md)
+> - [Configure a data source connector](../../../install-guide/conf-data-source-connector-tools.md)
+> - [Generate content using snippets or topics](../../../user-guide/web-editor-content-snippet.md)
