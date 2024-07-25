@@ -21,6 +21,7 @@ You can download the **Content Transfer Tool** as a ZIP file from the **Software
 1. Select **AEM as a Cloud Service** tab on the **Software Distribution** portal.
 1. Search **Content Transfer Tool**.
 1. Select **Content Transfer Tool** from the list and download it. 
+
 ![install package](./assets/migration-aem-cloud-service.png)
 Then install the package via **Package Manager** on your source Adobe Experience Manager instance. Make sure to download the latest version. 
 For more details on the latest version, view  [Release Notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en). 
@@ -82,6 +83,7 @@ Perform the following steps to migrate your Experience Manager Guides content to
     >  Ensure you download the latest version.
 
 1. Upload and install the package `content-transfer.all-3.0.10.zip` in the **Package Manager** of your On-premise instance.
+![install package](./assets/migration-aem-cloud-service.png)
 
 
 1. On the On-premise instance select **Tools** > **Operations** > **Content Migration** > **Content Transfer**.
