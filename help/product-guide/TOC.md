@@ -271,7 +271,6 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure the number of LimitReads for a query](./install-guide/conf-query-limitreads.md)
       - [Install packages for Article-based publishing](./install-guide/configure-article-based-publishing.md)
       - [Configure a data source connector from the user interface](./install-guide/conf-data-source-connector-tools.md)
-      - [Configure custom data source connectors](./install-guide/conf-custom-data-source-connector.md)
       - [Set the Advanced Map Editor as default](./install-guide/conf-map-editor.md)
       - [Include @navtitle attribute by default](./install-guide/auto-add-navtitle.md)
       - [Configure the option to edit in Oxygen](./cs-install-guide/conf-edit-in-oxygen.md)
@@ -448,8 +447,8 @@ breadcrumb-title: AEM Guides Documentation
           - [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
           - [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
     - External data source {#external-data-source}
-      - [Integrate data sources](./install-guide/integrate-data-sources.md)
-      - [Configure a data source connector](./install-guide/conf-data-source-connector.md)
+      - [Integrate data sources](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
+      - [Configure a data source connector](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
     
     - Publishing {#publishing}
       - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
