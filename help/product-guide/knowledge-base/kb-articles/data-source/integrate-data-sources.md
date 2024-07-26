@@ -50,7 +50,7 @@ Perform the following steps to integrate the content into Experience Manager Gui
       ![Connector Layer](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
-   > Access the Konnect definition module and implement the Connector interface to create a custom connector. Learn more about how to [configure custom data source connectors](./integrate-data-sources.md).
+   > Access the Konnect definition module and implement the Connector interface to create a custom connector. Learn more about how to [configure custom data source connectors](./conf-custom-data-source-connector.md).
    
 1. **Customize the Velocity templates** 
 
