@@ -17,7 +17,7 @@ Lets talk about each options :
 
 ### Option 1: Import existing markdown in AEM Guides and use them directly inside ditamap to publish 
 
-It has Simpler setup and faster implementation . But, Limited functionality utilization of AEM Guides feature like content re-usability.
+It has Simpler setup and faster implementation. But, Limited functionality utilization of AEM Guides feature like content re-usability.
 
 User need to add attribute `format="markdown" ` or `format="mdita"` so that publishing engines understands the type of file and publish accordingly. 
 
@@ -28,11 +28,11 @@ Sample file : [Markdown Ditamap](https://acrobat.adobe.com/id/urn:aaid:sc:AP:da3
 
 #### Publish to PDF and Web output 
 
-AEM Guides gives both Web (Html5/AEM Site) and PDF (Native PDF / DITA-OT) option to publish ditamap with Markdown content 
+AEM Guides gives both Web (Html5/AEM Site) and PDF (Native-PDF/DITA-OT) option to publish ditamap with Markdown content 
 
 ### Option 2 : Convert Markdown to DITA format
 
-Full utilization of AEM Guides functionality which content re-usability, conditional processing translation, baseline etc. But, It would need  Upfront efforts to convert `.md` to `.dita` format.
+Full utilization of AEM Guides functionality which content re-usability, conditional processing translation, baseline etc. But, It would need upfront efforts to convert `.md` to `.dita` format.
 
 Markdown to DITA can be converted using external tools like Adobe FrameMaker and DITA-OT.
 
