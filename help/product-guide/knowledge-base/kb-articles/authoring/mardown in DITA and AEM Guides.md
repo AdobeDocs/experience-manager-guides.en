@@ -45,6 +45,6 @@ Sample file converted using Adobe FrameMaker : [Markdown to DITA sample](https:/
 
 #### Publish to PDF and Web output 
 
-Once markdown files are converted into DITA. User can seamlessly publish output to any formats available in AEM Guides.
+Once markdown files are converted into DITA,User can seamlessly publish output to any formats available in AEM Guides.
 
 Available formats in AEM Guides : [Output formats](../../../user-guide/generate-output-understand-presets.md)
