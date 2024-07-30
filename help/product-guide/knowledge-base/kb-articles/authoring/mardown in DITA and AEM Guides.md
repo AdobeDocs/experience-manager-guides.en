@@ -42,10 +42,9 @@ For Adobe FrameMaker ,refer : [Import markdown](https://www.adobe.com/in/product
 For DITA-OT ,refer : [Markdown as Input](https://www.dita-ot.org/dev/topics/markdown-input.html)
 
 Sample file converted  using Adobe FrameMaker : [Markdown to DITA sample](https://acrobat.adobe.com/id/urn:aaid:sc:AP:874881f3-ba43-410c-abc6-2df899536d79)
+
 #### Publish to PDF and web output 
 
 Once markdown files are converted into DITA , You can seamlessly publish output to any formats available in AEM Guides.
 
 Available formats in AEM Guides : [Output formats](../../../user-guide/generate-output-understand-presets.md)
-
-
