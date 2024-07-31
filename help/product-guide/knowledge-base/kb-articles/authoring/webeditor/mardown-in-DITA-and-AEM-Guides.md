@@ -22,7 +22,7 @@ User need to add attribute `format="markdown" ` or `format="mdita"` so that publ
 
 Sample file : [Markdown Ditamap](https://acrobat.adobe.com/id/urn:aaid:sc:AP:da31137e-be84-44fb-8974-d038eeff0283)
 
-![screenshot for reference](../assets/authoring/markdown_map.png)
+![screenshot for reference](../../assets/authoring/markdown_map.png)
 
 
 #### Publish to PDF and Web output 
