@@ -48,6 +48,7 @@ Session session) throws GuidesApiException
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |``attributeNames``|String|A list of attribute names.|
