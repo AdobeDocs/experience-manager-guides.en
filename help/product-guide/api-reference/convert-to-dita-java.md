@@ -44,6 +44,7 @@ public static void convertHtmlToDita(Session session,
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|
@@ -70,6 +71,7 @@ public static void convertWordToDita(Session session,
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|

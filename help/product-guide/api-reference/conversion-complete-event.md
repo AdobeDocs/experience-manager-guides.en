@@ -20,7 +20,8 @@ Event details are explained below:
 com/adobe/fmdita/conversion/complete 
 ```
 
-**Parameters**:   
+**Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`status`|String|The return status for the operation performed. The possible options are: -   SUCCESS: The conversion process completed successfully. <br> -   COMPLETED WITH ERRORS: The conversion process completed, but with some errors. <br>-   FAILED: The conversion process failed due to some fatal error.|
