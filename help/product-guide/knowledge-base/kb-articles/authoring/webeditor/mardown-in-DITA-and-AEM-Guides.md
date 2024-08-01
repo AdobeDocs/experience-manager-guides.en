@@ -1,7 +1,6 @@
 ---
 title: Use Markdown in DITA AEM Guides
 description: Migrate and use markdown in DITA AEM Guides 
-exl-id: 5a259ea0-3b5f-4c6e-b488-1586767aa991
 ---
 # Use Markdown in AEM Guides
 
@@ -23,7 +22,7 @@ User need to add attribute `format="markdown" ` or `format="mdita"` so that publ
 
 Sample file : [Markdown Ditamap](https://acrobat.adobe.com/id/urn:aaid:sc:AP:da31137e-be84-44fb-8974-d038eeff0283)
 
-![screenshot for reference](../assets/authoring/markdown_map.png)
+![screenshot for reference](../../assets/authoring/markdown_map.png)
 
 
 #### Publish to PDF and Web output 
@@ -47,4 +46,4 @@ Sample file converted using Adobe FrameMaker : [Markdown to DITA sample](https:/
 
 Once markdown files are converted into DITA, User can seamlessly publish output to any formats available in AEM Guides.
 
-Available formats in AEM Guides : [Output formats](../../../user-guide/generate-output-understand-presets.md)
+Available formats in AEM Guides : [Output formats](../../../../user-guide/generate-output-understand-presets.md)
