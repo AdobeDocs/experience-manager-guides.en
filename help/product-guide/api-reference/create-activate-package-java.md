@@ -65,6 +65,7 @@ throws GuidesApiException
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`json`|String|JSON string that determines the CRX package to be built. Use the following format to create the JSON string: <br>- `activate`: Is of type Boolean \(`true`/`false`\). Determines whether the CRX package created in the author instance is replicated to the publish instance. <br> - `rules`: Is of type JSON Array. An array of JSON rules, which are processed sequentially to build the CRX package. <br> - `rootPath`: Is of type String. The base path upon which the node/property queries are executed. If no node/property queries are present, the root path and all nodes present under the root path are included in the CRX package. <br> - `nodeQueries`: Is of type Regex Array. An array of regular expressions used to include specific files under the root path. <br> - `propertyQueries`: Is of type JSON Array. An array of JSON Objects with each JSON Object consisting of an XPath query to be executed on the root path and the name of a property present in each JCR node after the query is executed. The value of the property in each JCR node should be a path or an array of paths. The paths present in this property are added to the CRX package.|
