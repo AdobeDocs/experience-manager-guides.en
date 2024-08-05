@@ -68,8 +68,7 @@ Perform the following steps to migrate your Experience Manager Guides content to
 1. After the creation, select the three dots and select **Copy extraction key**.
  
 
-1. Click **Copy to clipboard**.
-  Create your first project.
+1. Click **Copy to clipboard**. Create your first project.
   ![extraction key](./assets/migration-copy-to-clipboard.png)
 
 1. Select **Adobe Experience Manager**  on the top and then select the **Software Distribution** tile. 
@@ -119,17 +118,14 @@ or
 1. Select the **migration set** and then select **Extract** on the top.
  ![migration set extraction ](./assets/migration-extract.png)
 
-1. Verify details in the **Migration Set Extraction** pop up for the paths and configurations you selected and click **Extract**. 
-Extraction will take minutes, and you'll view the status as updated.
+1. Verify details in the **Migration Set Extraction** pop up for the paths and configurations you selected and click **Extract**. Extraction will take minutes, and you'll view the status as updated.
     ![migration set extraction](./assets/migration-set-extraction.png)
  
-1. Once the extraction is complete and indicated by the status `finished`, go to Cloud Acceleration Manager  and select the project you created in step 18. 
+1. Once the extraction is complete and indicated by the status `finished`, go to Cloud Acceleration Manager and select the project you created in step 18. 
 For more information select the three dots, and then select **View details**. 
 
 
-1. In the Migration set details pop-up, verify the migration set configuration and close the pop up.
- 
-    You can view the paths and other setings as shown in the following screenshot:
+1. In the Migration set details pop-up, verify the migration set configuration and close the pop up. You can view the paths and other setings as shown in the following screenshot:
  ![migration-details](./assets/migration-details.png)
 
 
@@ -140,8 +136,6 @@ For more information select the three dots, and then select **View details**.
 1. Pick the migration set, select your environment's required server, and then click **Ingest**.
 
     ![new ingestion](./assets/migration-new-ingestion.png)
-
-
 
 ## Run Content Transfer Tool on a Publish Instance
 
