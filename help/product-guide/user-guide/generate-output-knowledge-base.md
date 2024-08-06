@@ -46,6 +46,7 @@ In the Web editor, the following configurations have been organized under the **
 |Categories| Select a category from the dropdown to publish the topics of the TOC  in that category on the Salesforce site.|
 
 You can also view the following options in the Salesforce and ServiceNow presets:
+
 | Options | Description |
 | --- | --- |
 |Remove the topic heading from the article body.|Select this option to remove the topic heading from the article in the published output. |
@@ -68,6 +69,7 @@ You can also view the following options in the Salesforce and ServiceNow presets
 |Category| Select a category from the dropdown to publish the topics of the TOC  in that category on the Adobe Expereince Manager site. |
 |Section Template and Article Template| These are the structural components used to organize the content of your output. These are predefined in the Adobe Experience Manager Site template. |
 | Post Generation Workflow | When you choose this option, a new Post Generation Workflow dropdown list containing all workflows configured in Adobe Experience Manager  is displayed . You must select a workflow that you want to execute after completion of the output generation workflow.<br>Learn more about how to [customize post-output generation workflow](../install-guide/customize-workflows.md#id17A6GI004Y4) section in the Installation and Configuration Guide. |
+
 >[!TIP]
 > 
 >Select **Refresh** ![refresh icon](images/navtitle-refresh-icon.svg) to populate the respective templates in the fields as per the Knowledge Base template that you have selected.

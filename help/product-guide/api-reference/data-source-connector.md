@@ -15,12 +15,15 @@ The following REST API allows you to register a data source connector.
 A GET method that registers a data source connector.
 
 **Request URL**:
+
 `http://server:port/bin/guides/v1/konnect/config/register?path=<uploaded file path>`
 
-**Parameter**:
+**Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`path`|String|Yes|A string which points to a path in the AEM repository. It can be a path in the `/content/dam or /var/dxml`.|
 
-**Example**:   
+**Example**:
+
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`

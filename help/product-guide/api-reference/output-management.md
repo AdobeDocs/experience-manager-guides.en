@@ -17,7 +17,8 @@ A POST method that retrieves all output presets configured for a DITA map.
 **Request URL**:
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
-**Parameters**:   
+**Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`:operation`|String|Yes|Name of the operation being called. The value of this parameter is `getalloutputs`.<br> **Note:** The value is case-insensitive.|
@@ -62,6 +63,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 |`outputType`|String|Yes|Type of output generated using this preset, for example AEM Site, PDF, EPUB or other. The available options are:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   CUSTOM|
 
 **Response values**:
+
 |Element|Description|
 |-------|-----------|
 |`outputName`|A unique name for the newly created output preset. This name is derived from the value of the `outputTitle` parameter.|
@@ -100,6 +102,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 |`outputName`|String|Yes|Name of the output preset for which the details have to be retrieved.|
 
 **Response values**:
+
 |Element|Description|
 |-------|-----------|
 |`outputName`|Name of the output preset. Output names are unique in the scope of the DITA map they are defined in.|
