@@ -18,6 +18,7 @@ A GET method that downloads a DITA map with all its dependents such as reference
 http://*<aem-guides-server\>*: *<port-number\>*/bin/fmdita/exportditamap
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`ditamap`|String|Yes|Absolute path of the DITA map file in AEM repository.|
@@ -34,6 +35,7 @@ A POST method that initiates an export for a DITA map with all its dependents su
 http:*//<aem-guides-server\>: <port-number\>/bin/dxml/async-export*
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`ditamap`|String|Yes|Absolute path of the DITA map file in AEM repository.|

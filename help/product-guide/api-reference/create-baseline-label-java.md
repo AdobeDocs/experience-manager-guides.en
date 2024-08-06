@@ -48,6 +48,7 @@ throws GuidesApiException
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session. The user session needs to have both read and write permissions for the DITA map and read permission for all the reference files included in the baseline.|
@@ -74,6 +75,7 @@ Date versionDate) throws GuidesApiException
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session. The user session needs to have both read and write permissions for the DITA map and read permission for all the reference files included in the baseline.|
@@ -102,6 +104,7 @@ public static void applyLabel(Session session,
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|
@@ -127,6 +130,7 @@ String label) throws GuidesApiException
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|

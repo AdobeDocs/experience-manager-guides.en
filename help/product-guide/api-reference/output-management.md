@@ -53,6 +53,7 @@ A POST method that creates a new output preset for a DITA map.
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`:operation`|String|Yes|Name of the operation being called. The value of this parameter is ``createoutput``.<br> **Note:** The value is case-insensitive.|
@@ -73,6 +74,7 @@ A POST method that saves changes made in an output preset.
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`:operation`|String|Yes|Name of the operation being called. The value of this parameter is ``saveoutput``.<br> **Note:** The value is case-insensitive.|
@@ -90,6 +92,7 @@ A POST method that retrieves an existing output preset.
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`:operation`|String|Yes|Name of the operation being called. The value of this parameter is `getoutput`. <br>**Note:** The value is case-insensitive.|
@@ -125,6 +128,7 @@ A GET method that generates output using one or more output presets.
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`operation`|String|Yes|Name of the operation being called. The value of this parameter is `GENERATEOUTPUT`.<br> **Note:** The value is case-sensitive.|
@@ -142,6 +146,7 @@ A GET method that generates incremental output for an AEM Site using one or more
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`operation`|String|Yes|Name of the operation being called. The value of this parameter is `INCREMENTALPUBLISH`. <br>**Note:** The value is case-sensitive.|
@@ -186,6 +191,7 @@ A POST method that deletes an output preset.
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`:operation`|String|Yes|Name of the operation being called. The value of this parameter is `deleteoutput`.<br> **Note:** The value is case-insensitive.|
