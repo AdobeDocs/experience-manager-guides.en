@@ -36,6 +36,8 @@ For more details on the latest version, view  [Release Notes](https://experience
 * Upto 20TB repository size is supported
 * Total Lucene Index size of 25 GB
 * Length of a node name must be less than 150 bytes 
+* Experience Manager Guides should be on the UUID version. If you are using a non-UUID version of Adobe Experience Manager Guides, first migrate to UUID using the steps in  [Migrate non-DITA content](./migrate-content-non-dita.md).
+
 
 
 Perform the following steps to migrate your Experience Manager Guides content to Experience Manager as a cloud service.
@@ -112,7 +114,7 @@ or
     * `/apps`
     * `/libs`
     * `/home`
-    * `/etc` You are allowd to select some `/etc` paths in CTT.
+    * `/etc` You are allowEd to select some `/etc` paths in CTT.
 
 1. Click **Save** 
 1. Select the **migration set** and then select **Extract** on the top.
