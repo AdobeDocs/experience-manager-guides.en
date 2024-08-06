@@ -68,6 +68,23 @@ AEM Guides also indicates if the last saved \(working\) copy of the file is in s
 ![Version update indicator](images/version-update-indicator.png){width="550" align="left"}
 
 
+## Open locked files in Author and Source modes
+
+When a DITA or Markdown file is locked or checked out by another user, editing or modifying the content is not possible. However, you can still view the file in a read-only format in both the **Author** and **Source** modes, in addition to the **Preview** mode.
+
+In the read-only mode, you have the ability to view the content, tags, and attributes within the **Author** or **Source** modes. You can also modify the file properties.
+
+The toolbar displays the following icons for read-only access:
+* Toggle Tags view
+* Version History
+* Version Label
+
+Experience Manager Guides also displays a **Read only access** indicator near the version number.
+ 
+![view read only file in author mode](images/locked-file-editor.png)
+
+You can access the **Layout** view for read-only DITA maps. This view lets you see the DITA map and its properties but prevents edits.
+
 
 
 ## Locate an open file in the Repository View

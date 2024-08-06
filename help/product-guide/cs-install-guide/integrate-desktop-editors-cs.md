@@ -25,7 +25,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 
 
-If you are using version 2409 and FrameMaker 2022 September release - Update 3, you must enable the **FrameMaker Version 2022 Update 3 or above** config for your users to open your DITA documents directly in FrameMaker.  By default it is disabled.
+If you are using version 2409 and FrameMaker 2022 September release - Update 3, you must enable the **FrameMaker Version 2022 Update 3 or above** config for your users to pass on the Experience Manager Guides server details to FrameMaker.  By default it is disabled.
 
 
 |PID|Property Key|Property Value|
