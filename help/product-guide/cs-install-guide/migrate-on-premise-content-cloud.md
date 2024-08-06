@@ -12,7 +12,7 @@ With Experience Manager as a Cloud Service, your teams can focus on innovating i
 
 This article provides a detailed, step-by-step process for migrating your On-premise or Managed Services Experience Manager Guides content to Cloud Services, ensuring a smooth transition to the cloud-based platform.
 
-### Pre-requisites
+## Pre-requisites
 
 * Adobe Experience Manager 6.4 or later versions
 * Experience Manager Guides should be on the UUID version. If you are using a non-UUID version of Adobe Experience Manager Guides, first migrate to UUID using the steps in  [Migrate non-DITA content](./migrate-content-non-dita.md).
