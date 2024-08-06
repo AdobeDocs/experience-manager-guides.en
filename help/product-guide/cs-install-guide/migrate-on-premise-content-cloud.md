@@ -7,9 +7,20 @@ level: Experienced
 ---
 # Migrate content from On-premise to Cloud Service
 
-Experience Manager as a Cloud Service provides a scalable, secure, and agile technology foundation for Experience Manager Assets, Forms, and Screens. This allows marketers and IT professionals to focus on delivering impactful experiences at scale.
+Experience Manager as a Cloud Service provides a scalable, secure, and agile technology foundation for Experience Manager Guides, Assets, Forms, and Screens. This allows marketers and IT professionals to focus on delivering impactful experiences at scale.
 With Experience Manager as a Cloud Service, your teams can focus on innovating instead of planning for product upgrades. New product features are thoroughly tested and delivered to your teams without interruption so they can always access the latest version of Adobe Experience Manager.
+
 This article provides a detailed, step-by-step process for migrating your On-premise or Managed Services Experience Manager Guides content to Cloud Services, ensuring a smooth transition to the cloud-based platform.
+
+## Pre-requisites
+
+* Adobe Experience Manager 6.4 or later versions
+* Experience Manager Guides should be on the UUID version. If you are using a non-UUID version of Adobe Experience Manager Guides, first migrate to UUID using the steps in  [Migrate non-DITA content](./migrate-content-non-dita.md).
+* Access to **Cloud Acceleration Manager** for the cloud instance where you wish to migrate the content 
+* Upto 20TB repository size is supported
+* Total Lucene Index size of 25 GB
+* Length of a node name must be less than 150 bytes 
+
 
 ## Migration process
 
@@ -30,15 +41,11 @@ For more details on the latest version, view  [Release Notes](https://experience
 > 
 > Only version 2.0.0 and higher is supported, and it's recommended to use the latest version.
 
-### Pre-requisites
-
-* Adobe Experience Manager 6.4 or later versions
-* Upto 20TB repository size is supported
-* Total Lucene Index size of 25 GB
-* Length of a node name must be less than 150 bytes 
 
 
-Perform the following steps to migrate your Experience Manager Guides content to Experience Manager as a cloud service.
+
+
+Perform the following steps to migrate Experience Manager Guides content to Experience Manager as a cloud service.
 
 1. Log in to [experience.adobe.com](https://experience.adobe.com/) and select **Experience Manager**.
 
@@ -94,9 +101,9 @@ Perform the following steps to migrate your Experience Manager Guides content to
  ![](./assets/migration-create-migration-set.png)
 
 1. Provide the path you want to migrate and click **Save**. 
-For example,  `/content/we-retail`
+For example,  `/content/sites`
 or
-`/content/dam/wknd-events`
+`/content/dam/tech-docs`
 ![included  paths](./assets/migration-included-paths.png)
 
  
@@ -112,7 +119,7 @@ or
     * `/apps`
     * `/libs`
     * `/home`
-    * `/etc` You are allowd to select some `/etc` paths in CTT.
+    * `/etc` You are allowed to select some `/etc` paths in CTT.
 
 1. Click **Save** 
 1. Select the **migration set** and then select **Extract** on the top.
