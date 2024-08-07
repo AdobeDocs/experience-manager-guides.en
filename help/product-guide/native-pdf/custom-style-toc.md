@@ -71,15 +71,15 @@ Using the above styling attributes, a change bar is added to the left of the *Hi
 <img src="./assets/pdf-output-topic-content.jpg" width=500>
 
 ## Remove empty rows from the TOC
-If you have not defined the title for any topics, empty rows appear in the TOC for such topics. To remove the empty rows from the TOC, add the following style in the `layout.css`:
+
+If you have not defined the title for any topics, empty rows appear in the TOC for such topics. 
+
+To remove the empty rows from the TOC and the mini TOC, add the following style in the `layout.css`:
 
 ```css
-...
 .toc-body a:empty,
 .chaptoc-body a:empty {
     display: none;
 } 
-
-...
 ```
 
