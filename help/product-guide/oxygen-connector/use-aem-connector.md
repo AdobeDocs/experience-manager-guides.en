@@ -23,13 +23,13 @@ Once you have the installer, install it on your local machine where the Oxygen X
 
 ### Technical requirements 
 
--   Oxygen XML Author version 25.1
+-   Oxygen XML Author version 26
 
--   Adobe Experience Manager Guides version 4.3 or higher
+-   Adobe Experience Manager Guides version 4.6 or higher
 
--   Adobe Experience Manager version 6.5 with Service Pack 14, 15, 16, and 17
+-   Adobe Experience Manager version 6.5 with Service Pack 20, 19, 18, and 17
 
--   Operating system supported by Oxygen XML Author version 25.1
+-   Operating system supported by Oxygen XML Author version 26
 
 -   Java Development Kit
     -   Oracle SE 8 JRE 1.8
@@ -153,7 +153,7 @@ Update the given files to configure the web authentication settings in the Oxyge
 >
 >Take a backup of the file before updating it.
 
-**For Mac and Oxygen 25.1**
+**For Mac and Oxygen 26.1**
 
 Add the following lines in env.sh
 
@@ -179,7 +179,7 @@ Add the following lines in the oxygenAuthor.sh
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**For Windows and Oxygen 25.1**
+**For Windows and Oxygen 26.1**
 
 Add the following lines in env.bat
 
@@ -741,7 +741,7 @@ Solution: Perform the following steps to  set up the loggers for oXygen and JxBr
 
     ```
 
-1. Save the file in the `Oxygen Author 25` directory. (For example, the path would be: `C:\Program Files\Oxygen XML Author 25\logback.xml`)
+1. Save the file in the `Oxygen Author 26` directory. (For example, the path would be: `C:\Program Files\Oxygen XML Author 26\logback.xml`)
 
 1. Close the file. This will enable oXygen logs, which will be available at path: `${user.home}/Desktop/oxygenLog/oxygen.log`
 1. Open the `oxygenAuthor.bat` file in a text editor.
