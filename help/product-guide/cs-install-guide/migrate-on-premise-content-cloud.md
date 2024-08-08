@@ -15,7 +15,7 @@ This article provides a detailed, step-by-step process for migrating your On-pre
 ## Pre-requisites
 
 * Adobe Experience Manager 6.4 or later versions
-* Experience Manager Guides should be on the UUID version. If you are using a non-UUID version of Adobe Experience Manager Guides, first migrate to UUID using the steps in  [Migrate non-DITA content](./migrate-content-non-dita.md).
+* Experience Manager Guides should be on the UUID version. If you are using a non-UUID version of Adobe Experience Manager Guides, first migrate to UUID using the steps in  [Migrate non-DITA content](../install-guide/migrate-uuid-non-uuid.md).
 * Access to **Cloud Acceleration Manager** for the cloud instance where you wish to migrate the content 
 * Upto 20TB repository size is supported
 * Total Lucene Index size of 25 GB
