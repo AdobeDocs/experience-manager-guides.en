@@ -27,7 +27,7 @@ Once you have the installer, install it on your local machine where the Oxygen X
 
 -   Adobe Experience Manager Guides version 4.6 or higher
 
--   Adobe Experience Manager version 6.5 with Service Pack 20, 19, 18, and 17
+-   Adobe Experience Manager version 6.5 with Service Pack 21, 20, and 19
 
 -   Operating system supported by Oxygen XML Author version 26
 
