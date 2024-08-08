@@ -25,7 +25,7 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 - Reusable content panels don’t list elements when the **User preferences** are set to view files by **Filename**. (16896)
 - Subelements within the table title element fail to render in the **Preview** mode of Experience Manager Guides. (16691)
 - Execution of postprocess script fails due to **FileNotFoundException** exception. (16517)
-- **Special characters** written with escape characters are removed from the topic after being uploaded to Experience Manager Guides.(16495)
+- **Special characters** written with escape characters are removed from the topic after being uploaded to Experience Manager Guides. (16495)
 - Vimeo videos don’t support fullscreen functionality in Experience Manager Guides. (15996)
 - Pasting long preformatted text sequences in `<pre>` or `<codeblock>` elements leads to truncated text. (15859)
 - Content deletion occurs due to duplicate GUIDs when templates are installed via code but remain unprocessed. (15858)
@@ -86,7 +86,7 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 - Creating a baseline using the Java API does not work with the June 2023 release of Experience Manager Guides as a Cloud Service. (14787)
 - The `/bin/fmdita/import` API remains stuck in pending request indefinitely when the uploading assets exceed 500 MB. (14743)
 - Editing an existing baseline and selecting a specific version triggers application errors. (14451)
-- Opening a DITA topic or map in a new tab for editing freezes the selection navigation in the Assets UI.(4992)
+- Opening a DITA topic or map in a new tab for editing freezes the selection navigation in the Assets UI. (4992)
 
 
 ## Review
@@ -144,4 +144,4 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 
 ## General
 
-- The condition preset doesn't fetch updated attributes after upgrading from 4.3.0 to 4.4.0 release of Experience Manager Guides.
+- The condition preset doesn't fetch updated attributes after upgrading from 4.3.0 to 4.4.0 release of Experience Manager Guides. (18174)
