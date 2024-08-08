@@ -11,7 +11,7 @@ role: Leader
 This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Experience Manager Guides.
 
 
-### Authoring
+## Authoring
 
 - The **Find** option isn't working in the **Source** view. (18610)
 - **Check out** and **Check in** icons appear together when `autocheckout` is configured in xmleditor. (18088)
@@ -47,7 +47,7 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 - In the source view, `</conbody>` is occasionally inserted in incorrect locations. (11305)
 - The component path `/libs/fmdita/components/versions` is hardcoded and the users can't overlay it. (8779)
 
-### Publishing
+## Publishing
 
 - Cross-reference to the key is not getting resolved in the Native PDF output. (18087)
 - The **duplicate_value** error intermittently occurs when republishing an existing article in Salesforce. (17932)
@@ -71,8 +71,11 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 - AEM Sites URL shortening isn't working due to conflicts between the `fmdita rewriter` and `ResourceResolver`. (14793)
 - Native PDF generation fails with an error related to getting dependencies for Node.js. (14445)
 - The **processing-role=“resource-only”**, **search=“no”**, and **chunk=“to-content”** attributes appear irrespectively in AEM Sites output. (14442)
+- `<Conref>` doesn't appear when publishing the Native PDF output from the **Preview** mode of the Web Editor. (17827)
+- In Native PDF, nested DITA topics are displayed incorrectly in the Table of Contents (TOC). (16742)
 
-### Management
+
+## Management
 
 - The referenced PDF isn't activated from the **Bulk Publish Dashboard** during the Bulk Activation of published content. (17793)
 - InDesign to DITA conversion has a hardcoded configuration path so the custom config files are not picked. (16891)
@@ -86,13 +89,13 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 - Opening a DITA topic or map in a new tab for editing freezes the selection navigation in the Assets UI.(4992)
 
 
-### Review
+## Review
 
 - Fetching the user list while creating a review task fails if the user count exceeds 25. (17329)
 - Deleting review nodes disrupts the ability to open and view comments in Adobe Experience Manager Guides. (15366)
 - In the Web Editor, the Review panel loads slowly. (14680)
 
-### Translation
+## Translation
 
 - The references of translated assets are not updated. (18086)
 - Unable to create XLIFF projects with human translation. (16964)
@@ -122,27 +125,23 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 - Unwanted, non-breaking spaces get added while editing at the end of a tag in the Web Editor. (11786)
 - Content gets deleted while correcting the spelling errors in DITA files. (11610)
 
-### Cloud Service
+## Cloud Service
 
 - The DITA version incorrectly displays the username in the Assets UI. (17580)
 - Adobe Experience Manager Tools navigation is unresponsive. (17118)
 - Build Transform phase in Cloud Services deployment fails with errors from the DITA codebase. (14432)
 
-### Reports
+## Reports
 
 - Dynamic titles with `<conkeyref>` don't appear in the Report topic list. (16967)
 - The inaccurate **Topic List** counts in Experience Manager Guides UI due to unpatched properties when copying DITA assets impact the reports generated for a DTIA map. (15529)
 - Topics containing external references with %20 in the URL display broken file references. (15347)
 
-### Native PDF
 
-- `<Conref>` doesn't appear when publishing the Native PDF output from the **Preview** mode of the Web Editor. (17827)
-- In Native PDF, nested DITA topics are displayed incorrectly in the Table of Contents (TOC). (16742)
-
-### API
+## API
 
 - Topic regeneration fails due to the OOTB Regenerate Topic or incremental publish API failure. (18452)
 
-### General
+## General
 
 - The condition preset doesn't fetch updated attributes after upgrading from 4.3.0 to 4.4.0 release of Experience Manager Guides.
