@@ -23,13 +23,13 @@ Once you have the installer, install it on your local machine where the Oxygen X
 
 ### Technical requirements 
 
--   Oxygen XML Author version 26
+-   Oxygen XML Author version 26.1
 
 -   Adobe Experience Manager Guides version 4.6 or higher
 
 -   Adobe Experience Manager version 6.5 with Service Pack 21, 20, and 19
 
--   Operating system supported by Oxygen XML Author version 26
+-   Operating system supported by Oxygen XML Author version 26.1
 
 -   Java Development Kit
     -   Oracle SE 8 JRE 1.8
@@ -179,7 +179,7 @@ Add the following lines in the oxygenAuthor.sh
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**For Windows and Oxygen 26**
+**For Windows and Oxygen 26.1**
 
 Add the following lines in env.bat
 
