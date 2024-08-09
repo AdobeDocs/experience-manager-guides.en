@@ -1,6 +1,6 @@
 ---
 title: Deployment options and migration to Cloud
-description: AEM Guides: different deployment options, and migrating content from on-prem setup to AEMaaCS
+description: AEM Guides, different deployment options, and migrating content from on-prem setup to AEMaaCS
 exl-id: 
 ---
 # Deployment options and migration to Cloud
