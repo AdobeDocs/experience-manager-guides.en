@@ -417,7 +417,8 @@ breadcrumb-title: AEM Guides Documentation
     - [External Datasource Integration](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
     - [Translate content in Guides - part 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
     - [Define, Manage and Utilize Metadata](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
-    - [AEM site output variations](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
+    - [AEM Sites output variations](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
+    - [Deployment options and migration to Cloud](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
   - Articles {#kb-articles}
 
     - Authoring {#authoring}
