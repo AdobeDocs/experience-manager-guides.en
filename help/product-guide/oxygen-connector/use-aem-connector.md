@@ -153,7 +153,7 @@ Update the given files to configure the web authentication settings in the Oxyge
 >
 >Take a backup of the file before updating it.
 
-**For Mac and Oxygen 26**
+**For Mac and Oxygen 26.1**
 
 Add the following lines in env.sh
 
