@@ -84,7 +84,6 @@ Dummy links cause validation to fail
 
 -->
 
-
 ## Additional Resources
 
 * [[!DNL AEM Guides] Online User Guide](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
