@@ -1504,11 +1504,17 @@ To add or define a condition, click the + icon next to Conditions panel to bring
 
 From the Attribute list, select the conditional attribute that you want to define, enter a value for the condition, then specify the label that is displayed in the Conditions panel. Define a group for the condition. You can add multiple condtions to a group. You can also define a color for the condition. This color is set as the background color of the content on which the condition is applied.
 
-You can group the conditions and organize them in a nested folder structure.  This helps create conditions at multiple levels and organize content better. Use the grouped conditions to organize and manage complex documentation. 
+You can group the conditions and structure them in nested folders. Groups help you create conditions at multiple levels and organize them better for use in the content. 
 
 For example, you can create condition groups of products like *Acrobat* and *AEM Guides*. You can select the conditional attributes for both groups. Under each group, you can have specific values like *User*, *Admin*, *Reviewer*, and *Author*.  
 
+>[!NOTE]
+>
+> Either type in to create a new group or select an existing group for a particular attribute.
+
 You can use `/` and define sub-groups define sub-groups like `AEM Guides/Cloud Service`.
+
+
 
 ![condtions organised in a nested hierarchy](images/conditions-nested-hierarchy.png){width="300" align="left"}
 
