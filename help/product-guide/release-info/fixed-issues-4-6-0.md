@@ -61,7 +61,7 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 - Deleting review nodes disrupts the ability to open and view comments in Adobe Experience Manager Guides. (15366)
 - The DITA version incorrectly displays the username in the Assets UI. (17580)
 - The `<title>` element is automatically added when the `<fig>` element is inserted as a snippet. (18562)
-- Issues occur while uploading a large number of files, leading to dense datasets and increasing the repository size exponentially. (17008)
+- Issues occur while uploading a large number of files with dense datasets to Experience Manager Guides.(17008)
 - The Web Editor fails to display the correct keyword by default, especially if the keyword is defined differently in child maps. (14748)
 - The **Document State** is not displayed when editing the properties of more than 50 files in bulk from the Map view of the Web Editor. (14574)
 - The behavior of the Close button is inconsistent when using the Auto Save functionality. (10996)
