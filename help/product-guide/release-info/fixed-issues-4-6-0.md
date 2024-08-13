@@ -66,6 +66,7 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 - The **Document State** is not displayed when editing the properties of more than 50 files in bulk from the Map view of the Web Editor. (14574)
 - The behavior of the Close button is inconsistent when using the Auto Save functionality. (10996)
 - Validation issues occur in MathML elements when inserting any new element or modifying equations. (10624)
+- The Track Changes functionality does not work with text that begins with Korean characters. (14538)
 
 
 
@@ -98,8 +99,8 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 - If a folder that contains 2k maps is set in the folder path inside any folder profile, the changes applied to the output preset fail. (14852)
 - Topic regeneration fails due to the OOTB Regenerate Topic or incremental publish API failure. (18452)
 - The condition preset doesn't fetch updated attributes after upgrading Experience Manager Guides. (18174)
-- The Condition preset does not update the attributes for a topic when upgrading from the 4.3 to 4.4 release of Experience Manager Guides. (18174)
-- The Condition preset does not update the attributes for a topic when upgrading from the 4.3 to 4.4 release of Experience Manager Guides. (18174)
+- Content references are not correctly resolved for Native PDF output if the file containing key definitions is not in the same folder as the DITA map. (15062)
+
 
 ## Management
 
@@ -124,7 +125,7 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 - Review topics don’t appear in the correct order. (16319)
 - In the Web Editor, the Review panel loads slowly. (14680)
 - The pipeline fails with Experience Manager Guides damAssetLucene-8-custom-1 and issues occur in indexing the content. (14752)
-- When a user updates a Review Task, not all assigned reviewers receive a notification about the update. (9496)
+- When a user updates a Review task, not all assigned reviewers receive a notification about the update. (9496)
 
 ## Translation
 
