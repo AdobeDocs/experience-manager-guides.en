@@ -31,7 +31,6 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 - Inability to copy and paste large tables from Word documents or HTML into the Web Editor. (15369)
 - Lack of APIs or events to capture attribute addition to an element or insertion of a new element. (15351)
 - Inability to add `<data>` tag within `<ol>` tag in the Web Editor. (15161)
-- When Unified Shell is enabled, the **Version Label Management** dialog box incorrectly displays **Main Content** for versions without labels. (15039)
 - The **Element** placeholder component causes the UI to freeze. (14957)
 - The Web Editor is unable to upload .pptx files. (14837)
 - While finding a text in the Web Editor, the cursor returns to the first occurrence of the searched text, on pressing the Enter key. (14820)
@@ -92,7 +91,7 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 - AEM Sites URL shortening isn't working due to conflicts between the `fmdita rewriter` and `ResourceResolver`. (14793)
 - Native PDF generation fails with an error related to getting dependencies for Node.js. (14445)
 - The **processing-role=“resource-only”**, **search=“no”**, and **chunk=“to-content”** attributes appear irrespectively in AEM Sites output. (14442)
-- `<Conref>` doesn't appear when publishing the Native PDF output from the **Preview** mode of the Web Editor. (17827)
+- •	<Conref> doesn't get resolved when publishing the Native PDF output from the `Preview` mode of the Web Editor. (17827)
 - In Native PDF, nested DITA topics are displayed incorrectly in the Table of Contents (TOC). (16742)
 - Thumbnails generated from **Dynamic Media** for video files fail to persist in the published output. (15656)
 - The referenced PDF isn't activated from the **Bulk Publish Dashboard** during the Bulk Activation of published content. (17793)
@@ -124,7 +123,7 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 - Fetching the user list while creating a review task fails if the user count exceeds 25. (17329)
 - Review topics don’t appear in the correct order. (16319)
 - In the Web Editor, the Review panel loads slowly. (14680)
-- The pipeline fails with Experience Manager Guides damAssetLucene-8-custom-1 and issues occur in indexing the content. (14752)
+- Reviewers cannot add, highlight, or strike out spaces when performing a document review in Experience Manager Guides. (14752)
 - When a user updates a Review task, not all assigned reviewers receive a notification about the update. (9496)
 
 ## Translation

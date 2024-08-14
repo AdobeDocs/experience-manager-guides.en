@@ -8,6 +8,12 @@ level: Experienced
 ---
 # Java-based API to work with folder profiles {#id175UB30E05Z}
 
+> [!NOTE]
+>
+> You can use Java-based APIs available in Experience Manager Guides to create custom plugins and extend out-of-the-box workflows. This article will be archived in November 2024. For latest and detailed documentation on using the Java-based APIs, view [javadoc.io](https://javadoc.io/).
+
+
+
 The following Java-based API allows you to add conditional attributes to a folder-level profile. This API is available in the form of a bundle. You must include this bundle in your code to use this APIs.
 
 Bundle details:
