@@ -8,7 +8,7 @@ level: Experienced
 ---
 # Java-based API to work with folder profiles {#id175UB30E05Z}
 
-> [!NOTE]
+>[!NOTE]
 >
 > You can use Java-based APIs available in Experience Manager Guides to create custom plugins and extend out-of-the-box workflows. This article will be archived in November 2024. For latest and detailed documentation on using the Java-based APIs, view [javadoc.io](https://javadoc.io/).
 
