@@ -12,6 +12,7 @@ The following options are available for the AEM Site output:
 You can create the AEM site preset in two ways:
 
 ## From the Web Editor
+
 In the Repository panel, open the DITA map file in Map View, then in the Output tab, select the + icon to create an output preset, and then select AEM Site from the type drop-down in the Add preset dialog.
 
 From the Web editor, you can create the following types of AEM Site presets:
@@ -135,7 +136,7 @@ To open output presets for AEM Site, click on a DITA map file from the Assets UI
 >
 > See the *AEM Site publishing* section in the Best practices guide for best practices around creating AEM Site output.
 
-## AEM Site configuration {#id_aem_site_config}
+## AEM Site configuration 
 
 The following options are available for the AEM Site output:
 

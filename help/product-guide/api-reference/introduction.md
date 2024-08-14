@@ -218,6 +218,7 @@ To use the API JAR, you need to add the dependency to your project's pom.xml as 
 > Since the packages inside the API JAR are still the same, no code change is required to use this API JAR in the existing cloud projects.
 
 ### Java-based APIs
+
 You can use Java-based APIs available in Experience Manager Guides to create custom plugins and extend out-of-the-box workflows. For detailed documentation on using the Java-based APIs, view [javadoc.io](https://javadoc.io/).
 
 ## Additional resources 

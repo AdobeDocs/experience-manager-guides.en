@@ -91,7 +91,7 @@ This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Ex
 - AEM Sites URL shortening isn't working due to conflicts between the `fmdita rewriter` and `ResourceResolver`. (14793)
 - Native PDF generation fails with an error related to getting dependencies for Node.js. (14445)
 - The **processing-role=“resource-only”**, **search=“no”**, and **chunk=“to-content”** attributes appear irrespectively in AEM Sites output. (14442)
-- •	<Conref> doesn't get resolved when publishing the Native PDF output from the `Preview` mode of the Web Editor. (17827)
+- `<Conref>` doesn't get resolved when publishing the Native PDF output from the `Preview` mode of the Web Editor. (17827)
 - In Native PDF, nested DITA topics are displayed incorrectly in the Table of Contents (TOC). (16742)
 - Thumbnails generated from **Dynamic Media** for video files fail to persist in the published output. (15656)
 - The referenced PDF isn't activated from the **Bulk Publish Dashboard** during the Bulk Activation of published content. (17793)
