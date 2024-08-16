@@ -9,7 +9,12 @@ role: User
 
 Content Fragments are discrete pieces of content in Adobe Experience Manager. They are structured content based on a content model. Content Fragments are pure content without design or layout information. They can be authored and managed independently of the channels that Adobe Experience Manager supports. Content Fragments are modular, where content is broken down into smaller components.
 
-Adobe Experience Manager Guides allows you to publish a topic or the elements within a topic to a Content Fragment. Mapping: You can assign id attribute to the elements in a topic. Then, view the topic elements that have an id attribute applied to them and map. Drag the topic elements to the fields present in the content fragment model.
+Manager Guides allows you to publish a topic or its elements to a content fragment. 
+
+>[!NOTE] 
+>
+>You can choose only the elements that have an id defined.
+
 
 To create a Content Fragment, perform the following steps:
 
@@ -30,11 +35,8 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
     
     **General** tab 
             ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](images/generate-content-fragment.png)
-        *Add the path, name, title, and condition filtering to publish a topic or its elements as a Content Fragment. You can overwrite an existing Content Fragment.*  
+        *Add the path, name, title, and condition filtering to publish a topic or its elements as a Content Fragment.*  
 
-    >[!NOTE]
-    >
-    >You can also publish a  Content Fragment from the **Repository View**. Select the topic that you want to publish as a Content Fragment. Then, from the **Options** menu, select **Publish As** > **Content Fragment**.
 
     * **Path**: Browse and select the path of the folder where you want to publish the Content Fragment. If you select an existing Content Fragment, it overwrites the contents of the mapped fields.
     * **Title**: Type the title of the Content Fragment. By default, the title is populated with the title of the topic. You can edit it. This title is used to generate the name of the Content Fragment.
@@ -46,7 +48,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
         > Conditions are enabled only if condition attributes are defined in the topic.
         
         * **None**: Select this option if you don’t want to apply any condition on the published output.
-        * **Using DITAVAL**: Select the DITAVAL file to generate output, which includes specific content. You can select the DITAVAL file using the browse dialog or by typing the file path. 
+        * **Using DITAVAL**: Select the DITAVAL file to include or exclude specific content in the generated output. You can select the DITAVAL file using the browse dialog or by typing the file path. 
         * **Using attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute to publish the relevant content.
 
           
@@ -58,7 +60,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
    ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](images/content-fragment-mapping.png)
 
-    *Add the content fragment model, and mapping details to publish a topic or its elements as a Content Fragment. You can overwrite an existing Content Fragment.*  
+    *Add the content fragment model, and mapping details to publish a topic or its elements as a Content Fragment.*  
 
     * **Model**: Select the Content Fragment model that you want to use to create your Content Fragment. The models are picked from the folder, which you have configured in the cloud services. 
     * **Mapping**: You can view the topic elements that have an id attribute applied to them. Drag the topic elements to the fields present in the content fragment model.
@@ -86,9 +88,9 @@ Once you’ve published the Content Fragments, you can also use them in any Adob
 
 You can also perform the following actions for a Content Fragment from the **Options** menu:
 
-* **Generate**: Republish the Content Fragment to update it with the latest content from the DITA topic. When you regenerate the output, you cannot change the path, name, title, model, and mapping of the Content Fragment. However, you can select different conditions while regenerating the output.
+* **Generate**: Republish the Content Fragment to update it with the latest content from the DITA topic. When you regenerate the output, you can change the path, name, title, model, and mapping of the Content Fragment. You can also select different conditions while regenerating the output.
 
-* **Duplicate**: Duplicate a Content Fragment. You can change the path, name, title, model, and the mapping. You can also select different conditions when you duplicate a Content Fragment.
+* **Duplicate**: Duplicate a Content Fragment. You can change the path, name, title, model, and the mapping. You can also select different conditions when you duplicate a Content Fragment to create a Content Fragment variant.
 
 * **Remove**: Remove a Content Fragment from the outputs list. A confirmation prompt appears. Once you confirm, the Content Fragment is removed from the **Outputs** list. 
 
