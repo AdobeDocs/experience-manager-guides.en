@@ -13,7 +13,7 @@ Manager Guides allows you to publish a topic or its elements to a content fragme
 
 >[!NOTE] 
 >
->You can choose only the elements that have an id defined.
+>You can choose only the elements that have an id attribute  defined.
 
 
 To create a Content Fragment, perform the following steps:
