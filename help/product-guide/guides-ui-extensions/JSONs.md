@@ -6,6 +6,10 @@ exl-id: 7ad86795-d26b-464a-94f6-ffaf3376b252
 ---
 # Customisable JSON
 
+Editor:
+
+- [`other_attribute_list_item`](./jsons/editor/other_attribute_list_item.json)
+
 Context Menus:
 
 - [`file_options`](./jsons/context_menus/file_options.json)
