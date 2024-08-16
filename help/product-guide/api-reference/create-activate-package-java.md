@@ -14,7 +14,6 @@ level: Experienced
 View [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) for the latest and detailed documentation on using the Java-based API.
 
 
-
 The following Java-based API allows you to create and activate CRX packages. This API is available in the form of a bundle. You must include this bundle in your code to use this APIs.
 
 Bundle details:
