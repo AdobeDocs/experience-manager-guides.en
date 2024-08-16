@@ -11,6 +11,10 @@ role: Leader
 This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Experience Manager Guides.
 
 
+For more information about the new features and enhancements, view [What's new in  the 4.6.0 release](whats-new-4-6.md).
+
+Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade-instructions-4-6-0.md).
+
 ## Authoring
 
 - The **Find** option isn't working in the **Source** view. (18610)
