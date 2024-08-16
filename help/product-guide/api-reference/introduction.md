@@ -219,7 +219,10 @@ To use the API JAR, you need to add the dependency to your project's pom.xml as 
 
 ### Java-based APIs
 
-You can use Java-based APIs available in Experience Manager Guides to create custom plugins and extend out-of-the-box workflows. For detailed documentation on using the Java-based APIs, view [javadoc.io](https://javadoc.io/).
+You can use Java-based APIs available in Experience Manager Guides to create custom plugins and extend out-of-the-box workflows. For detailed documentation on using the Java-based APIs, view [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api]).
+
+
+
 
 ## Additional resources 
 
