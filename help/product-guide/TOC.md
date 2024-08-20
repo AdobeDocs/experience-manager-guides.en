@@ -67,7 +67,10 @@ breadcrumb-title: AEM Guides Documentation
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
       - 4.6.0 Release {#460-release}
-          - [Fixed issues](./release-info/fixed-issues-4-6-0.md)
+          - [What's new](./release-info/whats-new-4-6.md)
+          - [Fixed issues](./release-info/fixed-issues-4-6-0.md)     
+          - [Upgrade instructions](./release-info/upgrade-instructions-4-6.md)
+
       - 4.4.0 Release {#440-release}
         - [What's new](./release-info/whats-new-4-4.md)
         - [Fixed issues](./release-info/fixed-issues-4-4.md)
