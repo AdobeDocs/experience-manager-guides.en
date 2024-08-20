@@ -69,7 +69,7 @@ breadcrumb-title: AEM Guides Documentation
       - 4.6.0 Release {#460-release}
           - [What's new](./release-info/whats-new-4-6.md)
           - [Fixed issues](./release-info/fixed-issues-4-6-0.md)     
-          - [Upgrade instructions](./release-info/upgrade-instructions-4-6.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2024-06-0.md)
 
       - 4.4.0 Release {#440-release}
         - [What's new](./release-info/whats-new-4-4.md)
