@@ -13,6 +13,10 @@ Perform these steps to migrate your content from non-UUID version 4.3.1 to UUID 
 
 >[!IMPORTANT]
 >
+> * Before you start the migration process, ensure that you have:
+>
+>   1.  Closed all active reviews.
+>   1.  Closed all translation tasks.
 > * Before migrating content to the UUID server, ensure that you have a non-UUID server with a compatible AEM Guides version installed on it.
 > * If you are using a version before 4.3.1, upgrade to version 4.3.1. Follow the [upgrade instructions](./upgrade-xml-documentation.md) specific to the licensed version of your product. 
 > * Currently, versions later than 4.3.1 are not supported for migration.
@@ -145,7 +149,7 @@ Select **Baseline/Review Upgrade** from the left panel to migrate the baselines 
 
 >[!NOTE]
 >
->If you restart the system or the migration is aborted, the script resumes when you re-run it with the same parameters as before. Contact your customer success team if you get issues due to the shutdown.
+>If you restart the system or the migration is aborted, the script will resumes when you re-run it with the same parameters as before. Contact your customer success team if you get issues due to the shutdown.
 
 ### Step 3: Restore the configuration
 
