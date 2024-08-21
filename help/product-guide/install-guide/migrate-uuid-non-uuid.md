@@ -87,7 +87,7 @@ Perform the following checks on non-UUID version 4.3.1:
 
 1. Select *Enable Post Processing Workflow Launchers* in `com.adobe.fmdita.config.ConfigManager` and *Enable Version Postprocessing* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
-1. Install the UUID version of the supported release over the non-UUID version. For example, if you're using 4.3.1 non-UUID build, you need to install UUID version 4.3.2 and run the migration.
+1. Install the UUID version of the supported release over the non-UUID version. For example, if you're using 4.3.1 non-UUID build, you need to install UUID version 4.3.2 [com.adobe.fmdita-6.5-uuid-4.3.2.1976.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F2-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1976.zip) and run the migration.
 
 
 
@@ -117,11 +117,11 @@ Perform the following checks on non-UUID version 4.3.1:
 
     ![System upgrade tab in migration](assets/migration-system-upgrade.png)
 
-1. Select **System upgrade** from the left panel to run the migration. It's recommended to migrate all the data at once, as the system does the batching optimally internally. Only files that are not DITA assets and are not used in any DITA assets can be skipped for migration.
+1. Select **System upgrade** from the left panel to run the migration. It's recommended to migrate all the data at once, as the system optimally handles batching internally. Only files that are not DITA assets and are not used in any DITA assets can be skipped for migration.
 
 1. (Optional) Select the folders for which you want to skip the migration. Use this option to migrate these folders later or skip migrating them. Ensure that these folders don't have any DITA assets and aren't referred by (and in the future won't be referred by) any DITA assets.
 
-1. Select *Enable dita asset backup* to create a backup of asset before migration. This backup will be used to rollback in case there is an error in migrating a file. The backup is deleted, if the migration is successful. However, this slows down the migration process.
+1. Select *Enable dita asset backup* to create a backup of asset before migration. This backup is used to rollback in case there is an error in migrating a file. The backup is deleted, if the migration is successful. However, this slows down the migration process.
 
 1. Start the migration. 
 
@@ -145,14 +145,20 @@ Select **Baseline/Review Upgrade** from the left panel to migrate the baselines 
 
 >[!NOTE]
 >
->If you restart the system or the migration is aborted, the script will resume when you re-run it with the same parameters as before. Contact your customer success team if you get issues due to the shutdown.
+>If you restart the system or the migration is aborted, the script resumes when you re-run it with the same parameters as before. Contact your customer success team if you get issues due to the shutdown.
 
 ### Step 3: Restore the configuration
 
-After migrating the server successfully, enable post-processing, tagging, and the following workflows (including all the other workflows that were disabled initially during the migration) to continue working on the server.
+* After migrating the server successfully enable the following workflows and configurations (including all the other workflows that were disabled initially during the migration) to continue working on the server:
 
-* DAM Update Asset workflow
-* DAM Metadata workflow
+    * DAM Update Asset workflow
+    * DAM Metadata workflow
+
+* Enable the following configurations:
+    * **Enable Post Processing Workflow Launchers** in `com.adobe.fmdita.config.ConfigManager`
+    * **Enable Version Postprocessing** in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`
+
+* Enable the property **Enable validation** (validation.enabled) in Day CQ Tagging Service.
 
 >[!NOTE]
 >

@@ -1172,4 +1172,17 @@ If you have another custom sling rewriter in your codebase,  use an `'order'` va
 During this upgrade, since the `'order'` value is changed from 1000 to 50, you need to merge the existing custom rewriter, if any, with `'fmdita-rewriter'`.
 
 
+## Steps to reindex the `oak indexes`
+
+1. Open `crx/de` and navigate to the index path:  `/oak:index/guidesAssetProperties`
+2. Set the reindex property as `true` (`false` by default) and click **Save All**.
+3. Once the reindex is complete, the reindex property is set to `false` again, and the reindex count is incremented by 1. 
+
+    >[!NOTE]
+    >
+    > This may take a few minutes, depending on the amount of data present.
+4. Follow the same steps for other added or modified indices: `guidesBulkActivation` and `guidesKonnectTemplateIndex`. 
+
+
+
 **Parent topic:** [Download and install](download-install.md)
