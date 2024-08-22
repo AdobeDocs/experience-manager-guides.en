@@ -5,12 +5,6 @@ role: Developer
 feature: DITA-OT publishing
 ---
 
-## Background
-
-With AEM Guides, you can use DITA-OT plugins to publish to output formats of your choice suing the configured plugins, and
-you can also pass metadata of the assets managed in AEM DAM to the DITA-OT process to use it in the generated output - see the documentation on [how to setup ditamap/topics to pass metadata through output presets](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
-
-
 # About this Article
 
 In this article we will explain how to implement changes to DITA-OT plugin to read the metadata.xml _(available in temporary files)_ and utilize the properties, passed by AEM Guides publishing workflow, in DITA-OT plugins and set it in the generated output. 
@@ -20,6 +14,11 @@ On a high level, below are the steps that you will learn in this article:
 - On output generation, access this metadata.xml in the DITA-OT temp directory
 - Implementation in the DITA-OT plugin to read this _metadata.xml_ and using the available properties in the generated output
 - Checking the generated output to see the propagated metadata
+
+## Background
+
+With AEM Guides, you can use DITA-OT plugins to publish to output formats of your choice suing the configured plugins, and
+you can also pass metadata of the assets managed in AEM DAM to the DITA-OT process to use it in the generated output - see the documentation on [how to setup ditamap/topics to pass metadata through output presets](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Assumptions
@@ -63,7 +62,7 @@ In the downloaded temporary files package you will notice a metadata.xml file wh
 
 - This file contains a list of all the assets which are published, each having:
     - path of the file in DITA directory [id attribute of Path element]
-    - and list of metadata property value pairs [under <metadata> element]
+    - and list of metadata property value pairs [under _metadata_ element]
 
 ```
         <Path id="topics\about-this-document.dita">
@@ -80,7 +79,7 @@ In the downloaded temporary files package you will notice a metadata.xml file wh
 #### Accessing the metadata for each asset in DITA-OT plugin
 
 For the DITA-OT plugin to read the _metadata.xml_ and properties available in it we need to do following:
-1. Define the custom plugin settings in the _plugins.xml_, where define the params and integrator for plugin iniriation, our sample plugin file will look as below:
+- Define the custom plugin settings in the _plugins.xml_, where define the params and integrator for plugin iniriation, our sample plugin file will look as below:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -93,9 +92,9 @@ For the DITA-OT plugin to read the _metadata.xml_ and properties available in it
 </plugin>
 ```
 
-2. On plugin initiation:
-- set a variable to point to the metadata.xml file i.e. in the _integrator.xml_ under the plugin set a property to define the path of the metadata file, and
-- define the file that runs custom xsl transformation rules, i.e. _args.xsl_, which in our case will point to the file _xsl/adobe-html5.xsl_. 
+- On plugin initiation:
+    - set a variable to point to the metadata.xml file i.e. in the _integrator.xml_ under the plugin set a property to define the path of the metadata file, and
+    - define the file that runs custom xsl transformation rules, i.e. _args.xsl_, which in our case will point to the file _xsl/adobe-html5.xsl_. 
 Refer code below:
 
 ```
@@ -105,7 +104,7 @@ Refer code below:
     <makeurl file="${input.dirname}/metadata.xml" property="metadata.url"/>
 ```
 
-3. Pass the value of the variable _metadata.url_ to the custom XSL to utilize it as you need, i.e. in the existing/created _param.xml_ pass the parameter to the plugin, see below a sample params.xml file:
+- Pass the value of the variable _metadata.url_ to the custom XSL to utilize it as you need, i.e. in the existing/created _param.xml_ pass the parameter to the plugin, see below a sample params.xml file:
 
 ```
     <?xml version="1.0" encoding="UTF-8"?>
@@ -114,7 +113,7 @@ Refer code below:
     </params>
 ```
 
-4. In the custom XSL transformation file _xsl/adobe-html5.xsl_ you can read the metadata values from the metadata file and set it in the output the way you want. In this example we will add the metadata values to the html head > meta tags. Refer code below:
+- In the custom XSL transformation file _xsl/adobe-html5.xsl_ you can read the metadata values from the metadata file and set it in the output the way you want. In this example we will add the metadata values to the html head > meta tags. Refer code below:
 
 ```
 <xsl:import href="plugin:org.dita.html5:xsl/dita2html5.xsl"/>
@@ -141,10 +140,11 @@ You can test the plugin by running following command to test it with the tempora
 ```
 ./dita --input=docsrc/samples/HTML5/aem_forms_documentation.ditamap --format=adobe.html
 ```
+
 Assuming you have copied the downloaded temporary files under the directory "DITA-OT/docsrc/samples/HTML5".
 You can also download the sample given in resources section below.
 
-When the above command is executed you can check the output in the directory "DITA-OT/bin/out", where you can check the html files generated for the topic "about-this-document.dita" which will have the custom metadata in the <head> element
+When the above command is executed you can check the output in the directory "DITA-OT/bin/out", where you can check the html files generated for the topic "about-this-document.dita" which will have the custom metadata in the _head_ element
 
 ```
 <head>
