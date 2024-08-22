@@ -463,16 +463,14 @@ breadcrumb-title: AEM Guides Documentation
           - [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
           - [Custom Dialog](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
     - Publishing {#publishing}
-
-      - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
+	  - DITA-OT {#dita-ot}
+	    - [Use AEM metadata in plugin](./knowledge-base/kb-articles/publishing/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
+	  - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       - [Generate Bookmap's TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
-      - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+	  - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
       - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
       - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
       - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
