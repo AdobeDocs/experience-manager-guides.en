@@ -3,7 +3,7 @@ title: Propagate AEM Assets metadata to DITA-OT plugin generated output
 description: Configuring DITA-OT plugin and content in AEM to push metadata to generated output
 ---
 
-# About this Article
+# Propagate AEM Assets metadata to DITA-OT plugin generated output
 
 In this article we will explain how to implement changes to DITA-OT plugin to read the metadata.xml _(available in temporary files)_ and utilize the properties, passed by AEM Guides publishing workflow, in DITA-OT plugins and set it in the generated output. 
 
