@@ -60,7 +60,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
    ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](images/content-fragment-mapping.png)
 
-    *Add the content fragment model, and mapping details to publish a topic or its elements as a Content Fragment.*  
+    *Select the content fragment model, and add the mapping details to publish a topic or its elements as a Content Fragment.*  
 
     * **Model**: Select the Content Fragment model that you want to use to create your Content Fragment. The models are picked from the folder, which you have configured on Experience Manager Guides server. 
     * **Mapping**: You can view the topic elements that have an id attribute applied to them. Drag the topic elements to the fields present in the content fragment model.
