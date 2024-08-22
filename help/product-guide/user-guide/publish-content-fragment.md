@@ -42,7 +42,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
     * **Title**: Type the title of the Content Fragment. By default, the title is populated with the title of the topic. You can edit it. This title is used to generate the name of the Content Fragment.
     * **Name**: Type the name of the Content Fragment. By default, the name is populated with the title of the topic, and the spaces are replaced with '_'. For example, *sample_content_fragment*. You can edit it.  This name is used to generate the URL for the Content Fragment.
 
-    * You can also select different conditions to publish the content.  Select one of the following options:
+    * You can select different conditions to create content fragment variants. Select one of the following options:
         >[!NOTE] 
         > 
         > Conditions are enabled only if condition attributes are defined in the topic.
@@ -62,8 +62,9 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
     *Add the content fragment model, and mapping details to publish a topic or its elements as a Content Fragment.*  
 
-    * **Model**: Select the Content Fragment model that you want to use to create your Content Fragment. The models are picked from the folder, which you have configured in the cloud services. 
+    * **Model**: Select the Content Fragment model that you want to use to create your Content Fragment. The models are picked from the folder, which you have configured on Experience Manager Guides server. 
     * **Mapping**: You can view the topic elements that have an id attribute applied to them. Drag the topic elements to the fields present in the content fragment model.
+    The right side is populated with the published Content Fragment contents in case of an existing Content Fragment. These can be overwritten with the topic contents if necessary. You can also select **Undo** to revert the mapping changes.
     
     
         >[!NOTE]    
