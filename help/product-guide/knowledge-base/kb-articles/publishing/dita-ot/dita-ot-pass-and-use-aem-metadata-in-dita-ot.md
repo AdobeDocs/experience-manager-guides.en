@@ -17,8 +17,8 @@ On a high level, below are the steps that you will learn in this article:
 
 ## Background
 
-With AEM Guides, you can use DITA-OT plugins to publish to output formats of your choice suing the configured plugins, and
-you can also pass metadata of the assets managed in AEM DAM to the DITA-OT process to use it in the generated output - see the documentation on [how to setup ditamap/topics to pass metadata through output presets](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+With AEM Guides, you can use DITA-OT plugins to publish to output formats of your choice using the configured plugins, and
+you can also pass metadata of the assets managed in AEM DAM to the DITA-OT process to use it in the generated output - see the documentation on [how to setup ditamap/topics to pass metadata through output preset](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Assumptions
@@ -55,7 +55,7 @@ Refer screenshot below to understand the steps given above:
 
 #### Accessing the metadata.xml in temporary directory 
 
-In the downloaded temporary files package you will notice a metadata.xml file where you can see the structure of the properties and values (see screenshot below)
+In the downloaded temporary files package, you will notice a metadata.xml file where you can see the structure of the properties and values (see screenshot below)
 ![metadata.xml structure and constructs](../../assets/publishing/publish-tempfiles-metadata-structure.png)
 
 ##### Understand metadata.xml
