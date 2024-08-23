@@ -18,6 +18,7 @@ A POST method that adds conditional attributes to a given folder-level profile.
 http://*<aem-guides-server\>*: *<port-number\>*/bin/fmdita/folderprofiles
 
 **Parameters**:   
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`:operation`|String|Yes|Name of the operation being called. The value of this parameter is ``ADDATTRIBUTEPROFILES``. <br> **Note:** The value is case-insensitive.|

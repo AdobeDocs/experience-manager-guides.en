@@ -329,6 +329,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Migrate existing content](./cs-install-guide/migrate-content.md)
       - [Upload existing DITA content](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
       - [Migrate non-DITA content](./cs-install-guide/migrate-content-non-dita.md)
+      - [Migrate content from On-premise to Cloud Service](./cs-install-guide/migrate-on-premise-content-cloud.md)
     - Work with custom DITA-OT and specialization {#custom-dita-ot-spec-cs}
       - [Use custom DITA-OT and DITA specialization](./cs-install-guide/dita-ot-specialization.md)
     - Configure UUID and non-UUID based filenames {#conf-non-uuid-filename-cs}
@@ -416,12 +417,14 @@ breadcrumb-title: AEM Guides Documentation
     - [External Datasource Integration](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
     - [Translate content in Guides - part 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
     - [Define, Manage and Utilize Metadata](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
-    - [AEM site output variations](./knowledge-base/expert-sessions/aem-site-output-variations-27jun.md)
+    - [AEM Sites output variations](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
+    - [Deployment options and migration to Cloud](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
   - Articles {#kb-articles}
 
     - Authoring {#authoring}
       - Web Editor {#webeditor}
         - [Content re-usability in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
+        - [Use Markdown in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
         - Customizing {#customizing}
           - [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
           - [Add custom styles to Web Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
@@ -453,20 +456,21 @@ breadcrumb-title: AEM Guides Documentation
         - [Simple customisation](./guides-ui-extensions/customisations/add-button.md)
         - [Customising Context Menus](./guides-ui-extensions/customisations/context-menus.md)
         - [Customising Toolbar & Topbar](./guides-ui-extensions/customisations/toolbar-topbar.md)
+        - [Examples](./guides-ui-extensions/examples.md)
+        - [Customisable Jsons](./guides-ui-extensions/JSONs.md)
         - Review{#review-app-customisations}
           - [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
           - [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+          - [Custom Dialog](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
     - Publishing {#publishing}
-
+      - DITA-OT {#dita-ot}
+        - [Use AEM metadata in plugin](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
       - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
       - [Generate Bookmap's TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
       - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
       - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
       - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
       - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 

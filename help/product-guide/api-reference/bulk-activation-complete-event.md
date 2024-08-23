@@ -21,6 +21,7 @@ com/adobe/fmdita/replication/complete
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`path`|String|The path of the file that triggered this event. <br> For example, `/content/output/sites/ditamap1-ditamap`. <br> It is a list of paths serialized as a JSON array.|

@@ -18,6 +18,7 @@ A POST method that retrieves all output presets configured for a DITA map.
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
 **Parameters**:   
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`:operation`|String|Yes|Name of the operation being called. The value of this parameter is `getalloutputs`.<br> **Note:** The value is case-insensitive.|
@@ -53,6 +54,7 @@ A POST method that creates a new output preset for a DITA map.
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`:operation`|String|Yes|Name of the operation being called. The value of this parameter is ``createoutput``.<br> **Note:** The value is case-insensitive.|
@@ -61,6 +63,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 |`outputType`|String|Yes|Type of output generated using this preset, for example AEM Site, PDF, EPUB or other. The available options are:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   CUSTOM|
 
 **Response values**:
+
 |Element|Description|
 |-------|-----------|
 |`outputName`|A unique name for the newly created output preset. This name is derived from the value of the `outputTitle` parameter.|
@@ -73,6 +76,7 @@ A POST method that saves changes made in an output preset.
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`:operation`|String|Yes|Name of the operation being called. The value of this parameter is ``saveoutput``.<br> **Note:** The value is case-insensitive.|
@@ -90,6 +94,7 @@ A POST method that retrieves an existing output preset.
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`:operation`|String|Yes|Name of the operation being called. The value of this parameter is `getoutput`. <br>**Note:** The value is case-insensitive.|
@@ -97,6 +102,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 |`outputName`|String|Yes|Name of the output preset for which the details have to be retrieved.|
 
 **Response values**:
+
 |Element|Description|
 |-------|-----------|
 |`outputName`|Name of the output preset. Output names are unique in the scope of the DITA map they are defined in.|
@@ -125,6 +131,7 @@ A GET method that generates output using one or more output presets.
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`operation`|String|Yes|Name of the operation being called. The value of this parameter is `GENERATEOUTPUT`.<br> **Note:** The value is case-sensitive.|
@@ -142,6 +149,7 @@ A GET method that generates incremental output for an AEM Site using one or more
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`operation`|String|Yes|Name of the operation being called. The value of this parameter is `INCREMENTALPUBLISH`. <br>**Note:** The value is case-sensitive.|
@@ -186,6 +194,7 @@ A POST method that deletes an output preset.
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
 **Parameters**:
+
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`:operation`|String|Yes|Name of the operation being called. The value of this parameter is `deleteoutput`.<br> **Note:** The value is case-insensitive.|

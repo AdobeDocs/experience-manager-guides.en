@@ -1,9 +1,8 @@
 ---
 title: Output variations for AEM Sites
 description: Learn how to generate different variations of AEM Sites output from AEM Guides
-
+exl-id: 47881e72-b289-4bf0-8824-55825f1502b2
 ---
-
 # Session overview
 
 A well-defined layout of a web experience results in consistent application branding

@@ -51,6 +51,7 @@ public static void zipMapWithDependents(Session session,
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|
@@ -87,6 +88,7 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|
@@ -111,6 +113,7 @@ public static List<HashMap<String,String>> getBaselineList(
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|
@@ -136,6 +139,7 @@ public static List<HashMap<String,String>> getConditionalPresetList (
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|
@@ -161,6 +165,7 @@ public static String getDitavalFromConditionalPreset
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|
@@ -183,6 +188,7 @@ public static List
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`rootNode`|javax.jcr.Node|The root node for which all dependencies are to be retrieved.|
