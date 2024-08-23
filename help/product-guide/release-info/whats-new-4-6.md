@@ -13,255 +13,274 @@ Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade
 
 
 
-## Revamped version history feature in the Web Editor
+## Publish a topic or its elements to an Experience Fragment
 
-Now Experience Manager Guides provides an enhanced version history feature which allows you to compare the changes made to a document over time. In the new side by side view, you can easily compare the content and the metadata of the current version with any previous version of the same document. You can also view the labels and comments for the compared versions. As an administrator, you can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box. 
+An Experience Fragment is a modular content unit within Adobe Experience Manager that integrates content and layout. Experience Fragments are instrumental in creating consistent and engaging experiences, which can be further reused across multiple channels.
 
-![Version history dialog box](assets/version-history-dialog-web-editor.png){width="800" align="left"}
-  *Preview the changes in the different versions of a topic.*
 
+Experience Manager Guides now allows you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic and its elements in an Experience Fragment. For example, you can create experience fragments for headers or footers with branding elements, promotional banners, customer testimonials, and event promotions.
 
-Learn more about the **Version History** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
-## Manage condition presets 
-
-You can define condition attributes in your DITA topics. Then, use the condition attributes in the condition preset to publish the content in a DITA map. Experience Manager Guides now also provides an enriched experience in the Web Editor, which helps you create and manage condition presets more efficiently. You can also easily edit, duplicate, or delete them. 
-
-![Condtion Presets from the Manage tab of the Web editor ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
-
-For more details, view [Use condtion presets](../user-guide/generate-output-use-condition-presets.md).
-
-## Revamped experience to edit the attributes 
-
-Now, you get a revamped experience to add or edit the attributes for an element from the **Content Properties** panel in the Web Editor. 
-
-![Attributes panel](assets/attributes-multiple-properties.png){width="300" align="left"}
-
-*Add attributes from the Content Properties panel.*
-
-You can also easily edit and delete the attributes. 
-For more details, refer to the **Content Properties** feature description within the [Right Panel](../user-guide/web-editor-features.md#id2051EB003YK) section.
-
-## Edit metadata while authoring 
-
-Now, while authoring, you can update the file metadata tags using the dropdown from the **File Properties** in the right panel. You can also select **Edit more properties** to update more metadata.
-
-![file-properties](assets/file-properties-general.png){width="300" align="left"}
-
-*Update metadata and edit file properties from the right panel.*
-
-For more details, refer to the **File Properties** feature description within the [Right Panel](../user-guide/web-editor-features.md#id2051EB003YK) section.
-
-## View key attributes in the Map View
-
-When you define key attributes for the topic or map references, you can also view the title, the corresponding icon, and the key in the left panel. The key is displayed as `key=<key-name>`.
-
-![keys in map view](assets/view-key-title-map-view.png) {width="300" align="left"}
-
-*View the key attribute in the Map View.*
-
-
-For more details, refer to the **Map View** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
-
-## Ability to duplicate a baseline based on label
-
-Experience Manager Guides now provides an enhanced user experience for creating the baselines from the Web Editor. 
-The options **Manual update** and **Automatic update** are more intuitive and help you easily choose between creating a static baseline or updating it automatically according to the labels.
-
-![create new baseline](assets/dynamic-baseline-4-4.png) {width="300" align="left"}
-*Create baseline from the Web Editor.*
-
-It also allows you to duplicate a baseline based on the label. The reference version is picked based on the given label (if it exists) while duplicating, or else picks the version from the duplicated baseline.
-
-
-![duplicate a baseline ](assets/duplicate-baseline.png) {width="300" align="left"}
-
-*Duplicate a baseline based on a label or create an exact copy.*
-
-Learn more about how to [create and manage baselines from the Web Editor](../user-guide/web-editor-baseline.md).
-
-## Enhanced Map collection dashboard
-
-Experience Manager Guides provides an enhanced Map collection dashboard. In a map collection, you can quickly configure the metadata properties in bulk for the DITA maps. This feature is handy as you don’t have to update the metadata properties for each DITA map individually.
- 
-Now, you can view the filename of the DITA map. You can also view the Baselines. This helps you quickly find the baseline used for a preset.
-
-![Map collection dashboard](assets/map-collection-dashboard.png){width="800" align="left"}
-
-*View, edit, and generate output from the map collection dashboard.* 
-
-Learn how to [use Map Collection for output generation](../user-guide/generate-output-use-map-collection-output-generation.md).
-
-## Enhanced Translation panel
-
-The **Translation** panel has been improved.  You can view the **Available Languages** list and quickly select the locale in which you want to translate your project. With a single selection, you can also choose **Select all** to translate your project into all the available languages.
-
-![translation panel](assets/translation-languages-4.4.png){width="300" align="left"}
-
-
-
-*Select the locales in which you want to translate your project. Choose the default, baseline, or the latest version of files for translation.*
-
-Learn more about how to [translate content](../user-guide/translation.md).
-
-## Improved search logic in the Insert Element dialog box
-
-You can now easily find the elements in the Insert Element dialog box.  You can type a string in the search box and get a list of all the valid elements that begin with the entered string.
-
-For example, while editing a paragraph you want to insert an element, then you can search a character 't' to get
-all valid elements that begin with ‘t’.
-
-
-![Insert dialog box](assets/insert-element.png){width="300" align="left"}
-
-*Type a character to search for all valid elements that begin with the character.*
-
-
-For more details, view the **Insert Element** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
-
-
-## Ability to split a list at the same level
-
-Now, you can easily split your list in the Web Editor. Select the **Split List** option from the context menu of a list item to split the current list. A new list is created at the same level, starting with the list item you selected for the split.  
-
-![translation panel](assets/context-menu-split-list.png){width="300" align="left"}
-
-*Select the option to split the current list.*
-
-For more details, view the **Insert List** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
-
-## Unwrap DITA elements easily 
-
-Now you can easily unwrap an element using the option from the context menu of an element in the Web Editor. This helps you easily merge the element's text with its parent element. 
-For more details, view the **Unwrap an element** section from the [other features in the Web Editor](../user-guide/web-editor-other-features.md). 
-
-## Access file properties in the source mode of authoring 
-
-Now, you can access the right panel's **File Properties** feature in all four modes or views:  Layout, Author, Source, and Preview.  This helps you view your file's properties even when you switch between the different modes.
-
-For more details, view the **File Properties** feature description in the [Right Panel](../user-guide/web-editor-features.md#id2051EB003YK) section. 
-
-
-## View files by title or filenames 
-
-You can now choose the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels from the Author view.
-
-![User Preferences dialog](assets/user-preferences-2311.png){width="550" align="left"}
-
-*Change the default way to view the files from the **User Preferences** dialog.*
-
-
-## Restore file tabs on refreshing the browser
-
-Experience Manager Guides restores the state of the opened file tabs in the Web Editor when you refresh the browser. For more details, view the **Refresh browser while editing the files** section under [Edit topics in the Web Editor](../user-guide/web-editor-edit-topics.md).
-
-
-## Ability to navigate using the keyboard shortcuts 
-
-Experience Manager Guides now also allows you to use keyboard shortcuts to move the cursor in the Web Editor. You can use the keyboard shortcuts to quickly move one word left or right. You can also move to the beginning or the end of the line with the help of the keyboard shortcuts.
-Now, you can also use keyboard shortcuts to move the cursor to the beginning of the next element or the end of the previous element.
-Learn more about the [keyboard shortcuts in the Web Editor](../user-guide/web-editor-keyboard-shortcuts.md).
-
-
-## Resolve cross-map links in the AEM Site output 
-
-Cross-map links (XREF with scope peer) getting rendered in the AEM Site output are now resolved as per the file title of the publishing context set for the generated map.
-
-
-## Configure the URL of the AEM Site output to use the document title
-
-Experience Manager Guides allows you, as an administrator, to configure the URL of the AEM Site output. If the filename doesn’t exist or contains all special characters, you can configure to replace them with a separator in the URL of the AEM Site output. You can also replace them with the first child topic’s name. Learn how to [configure the URL of the AEM Site output to use the document title](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).
-
-
-## Publish multiple output presets in parallel
-
-Experience Manager provides the feature to create baselines by automatically picking the topics according to the label applied to them. Now, you can also seamlessly publish multiple output presets with automatic baselines of the same DITA map. You don’t have to publish only one preset at a time but can easily publish multiple output presets in parallel.
-
-Learn more about how to [create and manage baselines from the Web Editor](../user-guide/web-editor-baseline.md).
-
-## Native PDF enhancements
-
-The following Native PDF enhancements have been done in the 4.4.0 release:
-
-### Use variables in the PDF output 
-
-You can use variables to dynamically insert and manage reusable information. Experience Manager Guides helps you create, edit, and preview variables while you generate the PDF output. You can quickly modify the values of variables and make your documents portable and easy to update.
-
-![native pdf variables](assets/add-variable-default.png){width="800" align="left"}
-
-*Create and manage variables in the Web Editor.* 
-
-You can also create variable sets that override the default values and assign alternate values to your variables. Insert these variables within the page layout and use the same PDF layout, you don't have to create separate layouts for every set of values. For example, you can create a variable set for each product release. This variable set can consist of variables for different product details like product name, version number, and release date. Then, you can add different values for these variables.
-
-**Variable set 1: Adobe-set1**
-
-* ProductName: Experience Manager Guides 
-* VersionNumber: 2311
-* ReleaseDate: 11/02/2023
-
-**Variable set 2: Adobe-set2**
-
-* ProductName: Experience Manager Guides 
-* VersionNumber: 2310
-* ReleaseDate: 09/27/2023
  
 
-
-<img src="./assets/native-pdf-variable-output.png" alt= "Footer in PDF output" width=500 border="2px">
-
-*Generate the PDF output using variables in the PDF layout.*
-
-You can apply styles and use HTML markup to format the variables.  You can also quickly update the values for any variables whenever required and regenerate the output. For example, if you need to update the details for a version, you can edit the value of the version in the VersionNumber variable and regenerate the output.
+For more details, view [Publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
 
 
-Learn more about how to use [variables in the PDF output](../native-pdf/native-pdf-variables.md).
+## Enhancements in the Content Fragment publishing
+
+Experience Manager Guides also provides some helpful enhancements in Content Fragments: 
+
+ - You can easily filter content with conditions while publishing to a Content Fragment, using a DITAVAL file or conditional attributes. 
+
+ - You can also publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**. 
+
+![file properties options tab](./assets/file-properties-outputs-tab.png){width="300" align="left"}
+
+For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
+
+## Ability to pass metadata from topic file properties to Native PDF output
+
+Now, Experience Manager Guides allows you to add the metadata from a topic's file properties to the page layouts while generating the Native PDF output. Use this feature to add topic-specific metadata such as the title, tags, and description to the page layouts. You can also customize your published PDF based on the topic's metadata, such as adding a watermark to the topic's background based on the topic's document state.
+
+![add metadata native pdf](./assets/add-metadata-native-pdf.png ) {width="300" align="left"}
+
+*Add metadata to the fields in your page layouts.*
+
+Learn how to [add fields and metadata](../native-pdf/design-page-layout.md#add-fields-metadata) in a page layout.
+
+## Select partial content across elements for operations
+
+Experience Manager Guides enhances your experience of selecting the content across the elements in the Web Editor. You can easily select content across different elements and perform operations like making it bold, italics, and underlined. This feature allows you to seamlessly apply or remove the formatting for partially selected content. You can also quickly delete the content that you have selected across elements. Once the content is deleted, if necessary, the remaining content is automatically merged under a single valid element.
+
+You can also select partial content across elements and then surround the content under a valid DITA element.
+![surround element dialog box](./assets/surround-element.png) {width="300" align="left"}
+
+*Surround the selected content with a valid element.*
+
+Overall, these enhancements provide a better experience and help you improve your efficiency while editing your documents. 
+
+For more details, view [Partial selection of content across element](../user-guide/web-editor-edit-topics.md#partial-selection-of-content-across-elements).
+
+## Support for Markdown documents in Native PDF publishing
+
+Experience Manager Guides also supports Markdown documents in Native PDF publishing. This feature is handy and helps you generate PDFs for the Markdown files in your DITA map. Markdown support in Native PDF publishing helps you easily create, manage, and share your documents.
+
+For more details, view [support for Markdown documents](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents).
 
 
-### Propagate assets metadata to the PDF output
+## Improved performance and scalability for large translation projects
 
-Experience Manager now provides the capability to transfer the assets' metadata properties from the DITA map  to the PDF output. 
-From the Native PDF output preset, you can choose the metadata that you want to propagate to the PDF publishing process. You can select both the custom and the default properties.  The selected metadata properties are transferred to the PDF file generated using Native PDF.
+The translation feature is faster and more scalable than ever. It comes with a new architecture that provides enhanced performance. The project creation time is now faster than earlier, and the conflicts during the process are nearly nonexistent. This improved performance helps you with faster translations, ensuring smooth operation even for large translation projects.
 
-This feature is handy as it helps you  keep your asset properties such as author, creation date, or document title consistent. This makes it easier to organize, search, and categorize your documents.
+This improvement is very beneficial as it enhances productivity and overall experience.
 
-For more details, view the **Advanced** settings in the [Publish PDF output](../web-editor/native-pdf-web-editor.md).
+Learn more about how to [translate documents from the Web Editor](../user-guide/translate-documents-web-editor.md).
 
-### Use metadata added in the `topicmeta` element for the PDF output
 
-Metadata feature in Native PDF publishing helps in content management and helps in searching files on the internet. 
-<img src="assets/pdf-metadata-4-4.png" alt="metadata tab" width=800>
+## Ability to translate content into multiple languages using preconfigured language groups
 
-*Select an option to add and customize metadata options.*
+Experience Manager Guides now allows you to create language groups and easily translate your content into multiple languages. This feature helps you organize and manage translations according to your organization's needs. 
 
-Now Experience Manager Guides provides the option to use the metadata that you have added in the `topicmeta` element of the DITA map to populate the metadata fields of the PDF output. This option is selected by default.
+For example, if you need to translate your content for some countries in Europe, you can create a language group for European languages like English (EN), French (FR), German (DE), Spanish (ES), and Italian (IT).
 
-This feature helps in better document management, ensures consistency, and makes your documents searchable.
 
-To know more, view the **Metadata** tab in the [Publish PDF output](../web-editor/native-pdf-web-editor.md).
 
-### Use and duplicate out-of-the-box PDF templates 
+![translation panel](assets/translation-languages-2404.png){width="300" align="left"}
 
-Experience Manager Guides provides out-of-the-box  or factory PDF templates. Duplicate the factory PDF templates to create the custom PDF templates.
+*Select the language groups or languages you want to translate your documents.* 
 
-Now, you can also preview the thumbnail image for a template while creating and duplicating a template. You can also edit or delete this image. This feature is useful for branding or distinguishing templates with similar names.
-Learn more about the [PDF template](../native-pdf/pdf-template.md).
+>[!NOTE]
+>
+>If a language's target folder is missing or the target language is the same as the source, it's grayed out and shows a warning sign.
+
+As an administrator you can create language groups and configure them to multiple folder profiles. As an author, you can view the language groups that are configured on your folder profile.
+
+
+Overall, creating language groups enhances the efficiency and productivity of translation projects, ultimately improving the localization process across multiple languages.
+
+
+Learn how to [translate documents from the Web Editor](../user-guide/translate-documents-web-editor.md).
+
+
+
+## Delete or disable the translation project automatically after the translation
+
+Now, as an administrator, you can configure the translation projects to be disabled or deleted automatically after completing the translation. This feature helps you efficiently use resources and manage files after completing the translation. 
+
+Deleting a project permanently removes all files and folders present in the project. Deletion of the translation projects also enables you to free up the occupied disk space. 
+
+You can disable the translation projects if you want to use them later. 
+
+![](assets/editor-setting-translation.png){width="550" align="left"}
+
+
+*Configure language groups and the cleanup settings for translation projects.*
+
+
+Learn more about how to [automatically delete or disable the translation project](../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project).
+
+
+## Activate the output for your maps in bulk activation collection on Preview instance
+
+Now, in addition to activating the output for your bulk activation collection on the publish instance, Experience Manager Gudies as Cloud Services provides the feature to activate it on the **Preview** instance. 
+
+
+This feature helps you activate your content to a preview instance, allowing you to check how it looks and works before activating it to the **Publish** instance.
+
+
+ ![ created bulk activation collection audit history tab](assets/bulk-collection-audit-history.png){width="800" align="left"}
+
+*View the information about the activated map outputs in the **Audit History** tab.*
+
+
+Learn more about  [bulk activation](../user-guide/conf-bulk-activation-publish-map-collection.md).
+
+## Enhancements in the data source connectors
+
+The following enhancements have been made to the data source connectors for the 2024.4.0 release:
+
+### Connect to Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources
+
+In addition to the existing out-of-the-box connectors, Experience Manager Guides also provides connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. As an administrator, you can download and install these connectors. Then, configure the installed connectors.
+
+### Copy and paste the sample query to create a content snippet or topic
+
+You can easily copy and paste a sample data query in the generator to create a content snippet or topic. With this feature, you don't have to remember the syntax or create a  query manually. Instead of manually typing the query, you can copy and paste a sample query, edit it, and use it to fetch the data per your requirements. 
+
+![insert content snippet dialog box](assets/insert-content-snippet.png){width="800" align="left"}
+
+ *Copy and edit a sample query to create the content snippet.*
+
+### Connect to JSON data files using a file connector 
+
+
+Now, as an administrator, you can configure a JSON file connector to use JSON data files as a data source. Use the connector to import the JSON files from your computer or the Adobe Experience Manager Assets. Then, as an author, you can create content snippets or topics using the generators.
+
+This feature helps you use the data stored in your JSON files and reuse it across various snippets. The content is also updated dynamically whenever you update the JSON files.
+
+### Configure multiple resource URLs for a connector to create content snippets or topics
+
+As an administrator, you can configure multiple resource  URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO).
+
+Then, as an author, connect with the data sources to create content snippets or topics using the generators. This feature is handy as you don't have to create a data source for each URL. It helps you to quickly fetch data from any of the resources for a particular data source in a single content snippet or topic.
+
+View more details about the data source connectors and how to [configure a data source connector from the user interface](../cs-install-guide/conf-data-source-connector-tools.md).
+
+Learn how to [use data from your data source](../user-guide/web-editor-content-snippet.md).
+
+## Customize your Web Editor experience with new UI of user preferences
+
+The **User Preferences** dialog box in the Web Editor now includes a new **Appearance** tab. This new tab allows you to conveniently configure the most common look-and-feel preferences in the Web Editor interface.
+
+You can configure to view the files by title or filename, and change the theme of the application and the source view. It also helps you configure the settings to locate an open file in the repository view and to handle the non-breaking spaces.
+
+![appearance tab of user preferences](assets/user_preference_editor_appearance.png){width="550" align="left"}
+
+*Customize the appearance according to your preferences.*
+
+Learn more about the **User preferences** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+
+## Locate an open file in the repository view of the Web Editor
+
+Select the **Always locate files in the repository** option in the **User Preferences** to quickly navigate and locate your file in the repository view. You don't have to manually search for it. 
+
+While editing, this feature also helps you easily view the file's location within the repository hierarchy.
+
+For more details, view [locate an open file in the repository view](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view).
+
+
+## Improved handling of non-breaking spaces in the Web Editor
+
+Experience Manager Guides allows you to show a non-breaking space indicator while editing documents in the Web Editor. It also improves the handling of non-breaking spaces. 
+It converts multiple consecutive white spaces into a single space to preserve the WYSIWYG view of the document in the Web Editor. This feature also helps improve the overall appearance and professionalism of the document.
+
+
+For more details, view the [other features of the Web Editor](../user-guide/web-editor-other-features.md).
+
+
+
+
+## Disable the postprocessing for selective folders on Adobe Experience Manager Assets
+
+
+As an administrator, you can now disable the postprocessing and generation of UUIDs for selective folders on Experience Manager Assets. This configuration might be helpful, especially when dealing with many assets or complex folder structures. It also helps multiple users quickly upload the assets concurrently without interfering with each other.  
+
+Disabling postprocessing for a folder also affects all its child folders. However, Experience Manager Guides now offers the ability to selectively enable postprocessing for individual child folders within the ignored folder.
+
+Learn how to [disable postprocessing for a folder](../cs-install-guide/conf-folder-post-processing.md).
+
+## Revamped experience to search and filter files in the repository view
+
+Now, you have an enhanced experience while filtering files. The revamped functionality to filter files provides an improved way to effortlessly search and navigate through files. 
+
+
+![search files in repository view](assets/repository-filter-search-2404.png){width="300" align="left"}
+
+*Search for the files containing the text `general purpose.`*
+
+Enjoy benefits such as quicker access to relevant files and a more intuitive user interface, making your search experience smoother and more efficient. 
+
+![quick search filter ](assets/repository-filter-search-quick.png) {width="300" align="left"}
+
+*Use the quick filters to search for DITA and Non-DITA files.*
+
+Learn more about the **Filter Search** feature in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+
+## Segregated list to view and insert valid elements according to their position
+
+While editing a document in the Web Editor, you can now view a segregated list of elements that are valid at the current location and outside of the current location. Based on your requirements, you choose an element from the following options:
+
+* **Valid elements at the current location** that you can insert at the current cursor location itself.
+* **Valid elements outside the current location** that you can insert after any of the parents for the current element within the element hierarchy.
+
+![Insert element dialog](assets/insert-element-dialog.png){width="300" align="left"}
+
+*View the segregated lists of valid elements to insert an element at the current location.* 
+
+
+This split list of valid elements helps you maintain the content structure and follow the DITA standards. 
+
+Learn more about the **Insert Element** feature in the [Secondary toolbar](../user-guide/web-editor-features.md#2051ea0j0y4) section. 
+
+
+## Content Properties Type appears as a dropdown menu
+
+Now, the Content Properties **Type** appears as a dropdown menu. You can view and select the tags of the complete hierarchy for the current tag from the dropdown.
+
+This dropdown menu helps you quickly access the relevant tags within the hierarchical structure.
+
+
+ ![type dropdown menu in content properties](assets/content-properties-type.png){width="300" align="left"}
+
+ *Select a tag from the hierarchy for the current tag.*
+
+Learn more about the **Content Properties** feature in the [Right Panel](../user-guide/web-editor-features.md#id2051eb003yk) section. 
+
+
+
+## Improved performance while checking files in bulk from the Map Editor
+
+Experience Manager Guides improves the performance and experience of the bulk files check-in feature from the Map Editor. This improvement helps you check in the files in bulk more quickly. 
+You can also view the progress of the check-in operation for the files from the **Save As New Version and Unlock** dialog box. Finally, the success message appears after the operation is complete and all selected checked-out files are checked-in.
+
+![Save as new version and unlock dialog box](./assets/save-version-lock.png){width="300" align="left"}
+
+*View the list and status of the files checked in bulk from the Map Editor.*
+
+Learn how to [work with the Advanced Map Editor](../user-guide/map-editor-advanced-map-editor.md)
+
+## Download the temporary file while generating the output through DITA-OT
+
+You can also download the temporary files generated when you publish the AEM Site, HTML, Custom, JSON, or PDF output through DITA-OT. This feature helps you to analyze any issues that might occur during the output generation process and troubleshoot effectively.  
+You can also download the metadata.xml file if you have selected any metadata properties that have been passed to the output generated using DITA-OT. 
+
+For more details about the presets, view [Understanding the output presets](../user-guide/generate-output-understand-presets.md).
+
+
+## Replace IMS JWT credentials with IMS OAuth credentials for Microservice-based publishing
  
-![Duplicate PDF template dialog](assets/duplicate-template.png){width="550" align="left"}
 
-*Duplicate an existing PDF template.*
-
-
-### Change the order of pages and publish multiple pages per sheet
-
-Besides publishing the pages according to the source document, you can also change the order of pages in PDF while publishing a multi-page document.  This gives you the flexibility to publish the pages in various orders, like all odd, or all even pages first. You can also publish as a booklet and read the pages like a book. You can also decide the number of pages you want to publish on a single sheet of paper. For more details, view the [Page Organization](../native-pdf/components-pdf-template.md#page-organization) section. 
-
-### Sort glossary terms based on sort keys
-
-Now, you can also sort the glossary terms based on sort keys. You can use the tag ‘sort-as’ to define a sort key for the glossary terms. Then, you can sort them based on sort keys in place of the terms. This allows you to sort the glossary terms according to terms used in different languages. You can also define a single sort key for a glossary term with a phrase or a group of words. 
-For more details, view the [Advanced PDF Settings](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
+The Service Account (JWT) credentials have been deprecated in favor of the **OAuth Server-to-Server** credentials. Your applications using the Service Account (JWT) credentials will stop working after Jan 1, 2025. You must migrate to the new credential by Jan 1, 2025, to ensure that your application continues functioning. 
 
 
-### Improved resource management for Native PDF templates 
-
-Experience Manager Guides now has improved the resource management for Native PDF templates. You can now share and reuse resources, like images, CSS files, and font files, across multiple Native PDF templates. With this improvement, managing the resources for a large set of templates is much simpler. You don't need to create duplicate resources for each template, and you can keep them in a shared folder and use them in all Native PDF templates.
-For more details, view [PDF Template](../native-pdf/pdf-template.md).
+The cloud publishing service for Experience Manager Guides is now secured by Adobe IMS OAuth-based authentication. Learn how to [configure microservice-based publishing with OAuth authentication](../knowledge-base/publishing/configure-microservices-imt-config.md).
