@@ -103,7 +103,7 @@ For more details, view [purge older versions](https://experienceleague.adobe.com
     |---|---|---|
     |`com.adobe.fmdita.config.ConfigManager`|Enable Post Processing Workflow Launchers|Disable|
     |`com.adobe.fmdita.config.ConfigManager`|uuid regex|^GUID-(?<id>.*)|
-     |`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`|EEnable Version Postprocessing|Disable|
+      |`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`|EEnable Version Postprocessing|Disable|
     |Day CQ Tagging Service|Enable validation (validation.enabled)|Disable|
 
 1. Add a separate logger for: 
