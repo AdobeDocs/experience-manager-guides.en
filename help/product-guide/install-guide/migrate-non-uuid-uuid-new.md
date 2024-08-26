@@ -43,19 +43,9 @@ Perform the following checks on non-UUID version 4.3.1:
    >* You need administrator permission to execute the migration. 
    >* Fixing the files with errors before proceeding with the migration is recommended. 
 
-
-
 1. (Optional) If there are more than 100,000 DITA files in the system, update the query limit configs for the script to work:
 
     * Navigate to `/system/console/configMgr and increase both the configs to more than number of assets - queryLimitInMemory` and `queryLimitReads under org.apache.jackrabbit.oak.query.QueryEngineSettingsService`
-
-
-
-
-
-    
-
-
 
 1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
 1. Select **Compatibility Assessment** from the left panel and browse the  `/content/dam` folder path for all assets.
@@ -81,13 +71,14 @@ Perform the following checks on non-UUID version 4.3.1:
    >[!NOTE]
    >
    >This utility does not remove any versions used in baselines or reviews or has any labels.   
+
 For more details, view [purge older versions](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/version-mgt/version-management#purge-older-versions-of-dita-files).
 
 
 ## Migration prerequisites
 
 1. Execute UUID migration only on an Author instance.
-2. Ensure the following infrastructure readiness:
+1. Ensure the following infrastructure readiness:
     * Author instance is upsized in terms of CPU and memory to support faster processing and additional memory needed for bulk activity. for example, if the current allocated CPU and memory are 8 vCPU and 24 GB heap - then use double the size for this activity. 
     * The overall disk space and temporary disk space
     * `(crx-quickstart directory)`
@@ -115,8 +106,6 @@ For more details, view [purge older versions](https://experienceleague.adobe.com
     |`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`|EEnable Version Postprocessing|Disable|
     |Day CQ Tagging Service|Enable validation (validation.enabled)|Disable|
 
-
-
 1. Add a separate logger for: 
     * `com.adobe.fmdita.uuid` 
     * `com.adobe.guides.uuid`. 
@@ -130,7 +119,6 @@ For more details, view [purge older versions](https://experienceleague.adobe.com
    |org.apache.jackrabbit.oak.query.QueryEngineSettingsService|queryLimitReads|Value: 200000 <br> Default Value: 100000|
 
 ## Migration
-
 
 1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 
@@ -162,12 +150,9 @@ For more details, view [purge older versions](https://experienceleague.adobe.com
 
     Also, it's important to make sure that the content migration is done for all the media assets, such as images and graphics you have used in the DITA content.
 
-
-
 1. Once all the files are migrated, select **Baseline/Review Upgrade** from the left panel to migrate the baselines and review at the folder level.  
 
 ![Baseline and review tab in migration](assets/migration-baseline-review-upgrade.png)
-
 
 >[!NOTE]
 >
@@ -187,7 +172,6 @@ For more details, view [purge older versions](https://experienceleague.adobe.com
 |Number of files upgraded with errors 0| Number of DITA maps whose baselines did not upgrade|
 |Number of files skipped 1647| Number of DITA maps that did not have any baseline|
 | Number of files failed to upgrade 128| number of baseline objects, which were not valid (they were empty)- list can be seen in the report (excel)| Check if there are errors other than `baselineObj not found on`|
-
 
 
 ## Postmigration 
@@ -219,5 +203,3 @@ For more details, view [purge older versions](https://experienceleague.adobe.com
     > If before migration, the property, **Use title for AEM Site page names** inside `com.adobe.fmdita.config.ConfigManager`, set to *False*, then after migration this property needs to be updated.
 
 1. After the validation is done, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
-
-
