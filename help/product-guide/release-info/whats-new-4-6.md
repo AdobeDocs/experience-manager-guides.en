@@ -68,9 +68,9 @@ If a DITA or Markdown file is locked or checked out by another user, you cannot 
 In read-only mode, you can view the content along with the tags and attributes within the Author or Source mode and edit the file properties.
 
 The following icons are displayed on the toolbar: 
-•	Tags view
-•	Version history: no edit but can view the differences
-•	Version label: no edit but can view
+- Tags view
+- Version history: no edit but can view the differences
+- Version label: no edit but can view
 
 You can also access the Layout view for read-only DITA maps. You can only view the DITA map and its properties, but you can’t edit it. 
  
@@ -274,8 +274,8 @@ Learn more about the **Filter Search** feature in the [Left Panel](../user-gui
 
 While editing a document in the Web Editor, you can now view a segregated list of elements that are valid at the current location and outside of the current location. Based on your requirements, you choose an element from the following options:
 
-* **Valid elements at the current location** that you can insert at the current cursor location itself.
-* **Valid elements outside the current location** that you can insert after any of the parents for the current element within the element hierarchy.
+- **Valid elements at the current location** that you can insert at the current cursor location itself.
+- **Valid elements outside the current location** that you can insert after any of the parents for the current element within the element hierarchy.
 
 ![Insert element dialog](assets/insert-element-dialog.png){width="300" align="left"}
 
