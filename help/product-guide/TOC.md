@@ -444,12 +444,12 @@ breadcrumb-title: AEM Guides Documentation
           - [Icon](./guides-ui-extensions/aem_guides_framework/components/icon.md)
           - [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
           - [List](./guides-ui-extensions/aem_guides_framework/components/list.md)
-          - [Textarea](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+          - [Textarea](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
         - Widgets {#framework-widgets}
           - [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
           - [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
       - Getting Started {#getting-started}
-        - [Introduction](./guides-ui-extensions/getting-started/Introduction.md)
+        - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
         - [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
         - [Extension Repositry intro](./guides-ui-extensions/getting-started/extension-repo-intro.md)
       - Customisations {#customisations}
@@ -457,7 +457,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Customising Context Menus](./guides-ui-extensions/customisations/context-menus.md)
         - [Customising Toolbar & Topbar](./guides-ui-extensions/customisations/toolbar-topbar.md)
         - [Examples](./guides-ui-extensions/examples.md)
-        - [Customisable Jsons](./guides-ui-extensions/JSONs.md)
+        - [Customisable Jsons](./guides-ui-extensions/jsons.md)
         - Review{#review-app-customisations}
           - [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
           - [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
