@@ -1,6 +1,6 @@
 ---
 title: Release Notes | What's New in Adobe Experience Manager Guides 4.4.0 release
-description: Learn about the new and enhanced features in 4.4.0 release of Adobe Experience Manager Guides
+description: Learn about the new and enhanced features in the 4.4.0 release of Adobe Experience Manager Guides
 role: Leader
 ---
 # What's new in the 4.6.0 release (August 2024)
@@ -30,13 +30,55 @@ For more details, view [Publish Experience Fragments](../user-guide/publish-expe
 
 Experience Manager Guides also provides some helpful enhancements in Content Fragments: 
 
+- Experience Manager Guides allows you to publish a topic or its elements to a content fragment.
+
+ - You can publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**.
+    ![file properties options tab](./assets/file-properties-outputs-tab-4-6.png) {width="300" align="left"}
+
  - You can easily filter content with conditions while publishing to a Content Fragment, using a DITAVAL file or conditional attributes. 
 
- - You can also publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**. 
 
-![file properties options tab](./assets/file-properties-outputs-tab.png){width="300" align="left"}
+ 
+  - You can  also select different conditions to create content fragment variants. 
 
-For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
+    ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](assets/content-fragment-mapping.png)
+
+    For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
+
+
+## Effortless publishing of single topics to Sites pages
+
+Experience Manager Guides now allows you to publish individual topics directly to Adobe Experience Manager Sites pages. This feature lets you publish a topic and its elements independently, ensuring your content is always up-to-date and relevant. The ability to update topics and republish them to Sites pages quickly means that your web content remains dynamic and responsive to changing needs.  You can use this feature to publish marketing materials or any other standalone content quickly.
+
+One of the standout advantages is the ability to reuse published topics across different web pages, enhance content consistency, and reduce redundancy. Additionally, Experience Manager Guides lets you apply conditions and filter content to cater to different audience segments, providing a personalized experience for your users. This targeted approach ensures that the right content reaches the right audience, maximizing engagement and effectiveness.
+
+![Add the path and template details in Generate Sites page](assets/aem-sites-page-generate.png){width="500" align="left"}
+
+Learn how to [publish Experience Manager Sites pages](../user-guide/publish-aem-sites.md).
+
+## Nested folder hierarchy for HTML5 output
+
+You can now also generate the HTML5 output in a nested folder hierarchy. This implies that the content's original folder structure, with files organized into subfolders, is replicated in the output.
+This feature allows for more complex organization and categorization of files, making it easier to manage and navigate large volumes of data. It's more useful when dealing with diverse data sets or multiple projects. 
+
+
+## Read-only access to Author and Source mode for locked files
+
+If a DITA or Markdown file is locked or checked out by another user, you cannot edit or change the content. Besides the Preview, you can also view it as a read-only file in the Author or Source mode. 
+In read-only mode, you can view the content along with the tags and attributes within the Author or Source mode and edit the file properties.
+
+The following icons are displayed on the toolbar: 
+•	Tags view
+•	Version history: no edit but can view the differences
+•	Version label: no edit but can view
+
+You can also access the Layout view for read-only DITA maps. You can only view the DITA map and its properties, but you can’t edit it. 
+ 
+
+![locked file editor](./assets/locked-file-editor.png)
+*View the locked files in Author and Source mode.*
+
+Learn how to [open locked files in Author and Source modes](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
 
 ## Ability to pass metadata from topic file properties to Native PDF output
 
@@ -47,6 +89,8 @@ Now, Experience Manager Guides allows you to add the metadata from a topic's fil
 *Add metadata to the fields in your page layouts.*
 
 Learn how to [add fields and metadata](../native-pdf/design-page-layout.md#add-fields-metadata) in a page layout.
+
+
 
 ## Select partial content across elements for operations
 
@@ -122,7 +166,7 @@ Learn more about how to [automatically delete or disable the translation project
 
 ## Activate the output for your maps in bulk activation collection on Preview instance
 
-Now, in addition to activating the output for your bulk activation collection on the publish instance, Experience Manager Gudies as Cloud Services provides the feature to activate it on the **Preview** instance. 
+Now, in addition to activating the output for your bulk activation collection on the publish instance, Experience Manager Guides as Cloud Services provides the feature to activate it on the **Preview** instance. 
 
 
 This feature helps you activate your content to a preview instance, allowing you to check how it looks and works before activating it to the **Publish** instance.
@@ -133,7 +177,7 @@ This feature helps you activate your content to a preview instance, allowing you
 *View the information about the activated map outputs in the **Audit History** tab.*
 
 
-Learn more about  [bulk activation](../user-guide/conf-bulk-activation-publish-map-collection.md).
+Learn more about [bulk activation](../user-guide/conf-bulk-activation-publish-map-collection.md).
 
 ## Enhancements in the data source connectors
 
@@ -145,7 +189,7 @@ In addition to the existing out-of-the-box connectors, Experience Manager Guides
 
 ### Copy and paste the sample query to create a content snippet or topic
 
-You can easily copy and paste a sample data query in the generator to create a content snippet or topic. With this feature, you don't have to remember the syntax or create a  query manually. Instead of manually typing the query, you can copy and paste a sample query, edit it, and use it to fetch the data per your requirements. 
+You can easily copy and paste a sample data query in the generator to create a content snippet or topic. With this feature, you don't have to remember the syntax or create a query manually. Instead of manually typing the query, you can copy and paste a sample query, edit it, and use it to fetch the data per your requirements. 
 
 ![insert content snippet dialog box](assets/insert-content-snippet.png){width="800" align="left"}
 
@@ -160,7 +204,7 @@ This feature helps you use the data stored in your JSON files and reuse it acros
 
 ### Configure multiple resource URLs for a connector to create content snippets or topics
 
-As an administrator, you can configure multiple resource  URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO).
+As an administrator, you can configure multiple resource URLs for some connectors like Generic REST Client, Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO).
 
 Then, as an author, connect with the data sources to create content snippets or topics using the generators. This feature is handy as you don't have to create a data source for each URL. It helps you to quickly fetch data from any of the resources for a particular data source in a single content snippet or topic.
 
@@ -168,7 +212,7 @@ View more details about the data source connectors and how to [configure a data 
 
 Learn how to [use data from your data source](../user-guide/web-editor-content-snippet.md).
 
-## Customize your Web Editor experience with new UI of user preferences
+## Customize your Web Editor experience with a new UI of user preferences
 
 The **User Preferences** dialog box in the Web Editor now includes a new **Appearance** tab. This new tab allows you to conveniently configure the most common look-and-feel preferences in the Web Editor interface.
 
@@ -277,10 +321,3 @@ You can also download the metadata.xml file if you have selected any metadata pr
 For more details about the presets, view [Understanding the output presets](../user-guide/generate-output-understand-presets.md).
 
 
-## Replace IMS JWT credentials with IMS OAuth credentials for Microservice-based publishing
- 
-
-The Service Account (JWT) credentials have been deprecated in favor of the **OAuth Server-to-Server** credentials. Your applications using the Service Account (JWT) credentials will stop working after Jan 1, 2025. You must migrate to the new credential by Jan 1, 2025, to ensure that your application continues functioning. 
-
-
-The cloud publishing service for Experience Manager Guides is now secured by Adobe IMS OAuth-based authentication. Learn how to [configure microservice-based publishing with OAuth authentication](../knowledge-base/publishing/configure-microservices-imt-config.md).
