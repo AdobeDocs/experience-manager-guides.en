@@ -30,8 +30,6 @@ Download the required packages from Adobe Software Distribution Portal, based on
 1. **Download UUID version 4.3.2**: [com.adobe.fmdita-6.5-uuid-4.3.2.1976.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F2-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1976.zip)
 1. **Migration**: [com.adobe.guides.uuid-upgrade-1.2.99.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F2-0%2Fcom.adobe.guides.uuid-upgrade-1.2.99.zip)
 
-
-
 ## Premigration checks
 
 Perform the following checks on non-UUID version 4.3.1:
@@ -100,11 +98,12 @@ For more details, view [purge older versions](https://experienceleague.adobe.com
      >Ideally any workflow launchers, which run on any path inside `content/dam` should be disabled.
 
 1. Update the following configurations as per the suggested changes:
+
     |Configuration|Property|Value|
     |---|---|---|
     |`com.adobe.fmdita.config.ConfigManager`|Enable Post Processing Workflow Launchers|Disable|
     |`com.adobe.fmdita.config.ConfigManager`|uuid regex|^GUID-(?<id>.*)|
-    |`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`|EEnable Version Postprocessing|Disable|
+     |`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`|EEnable Version Postprocessing|Disable|
     |Day CQ Tagging Service|Enable validation (validation.enabled)|Disable|
 
 1. Add a separate logger for: 
@@ -166,7 +165,7 @@ For more details, view [purge older versions](https://experienceleague.adobe.com
 
 **Step: Upgrade Baselines**
 
-|Summary after process completion|	How to interpret	|Action|
+|Summary after process completion| How to interpret	|Action|
 |---|---|---|
 | Total number of files 4833 |Number of DITA maps that had at least 1 baseline |
 |Number of files upgraded successfully 4705|Number of DITA maps, which were successfully upgraded with all baselines| | 
@@ -199,7 +198,7 @@ For more details, view [purge older versions](https://experienceleague.adobe.com
     |---|---|---|---|
     |`com.adobe.fmdita.config.ConfigManager`|**Use title for AEM Site page names**|False (default value)|True|
 
-    > [!NOTE]
+    >[!NOTE]
     >
     > If before migration, the property, **Use title for AEM Site page names** inside `com.adobe.fmdita.config.ConfigManager`, set to *False*, then after migration this property needs to be updated.
 
