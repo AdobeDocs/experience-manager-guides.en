@@ -101,7 +101,7 @@ You can also perform the following actions for a Content Fragment from the **Opt
 
 * **View**: View the Content Fragment editor. You can also make changes and save them.
 
-## Improved UUID content migration 
+## Improved Non-UUID to UUID content migration
  
 The new UUID content migration script has been significantly optimized, making the content migration from Non-UUID to UUID 30 times faster than the earlier script. It includes features such as resuming from checkpoints, live insights, estimated completion time, and detailed reporting, ensuring a harmonious migration process. Notably, the migration process preserves asset metadata without any changes. The script has been tested and verified on a large dataset of 3 million assets, confirming its efficiency and reliability for large-scale migrations.
 
