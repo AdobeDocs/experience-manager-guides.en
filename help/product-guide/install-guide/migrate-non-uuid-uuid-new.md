@@ -99,12 +99,12 @@ For more details, view [purge older versions](https://experienceleague.adobe.com
 
 1. Update the following configurations as per the suggested changes:
 
-    |Configuration|Property|Value|
-    |---|---|---|
-    |`com.adobe.fmdita.config.ConfigManager`|Enable Post Processing Workflow Launchers|Disable|
-    |`com.adobe.fmdita.config.ConfigManager`|uuid regex|^GUID-(?<id>.*)|
-      |`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`|EEnable Version Postprocessing|Disable|
-    |Day CQ Tagging Service|Enable validation (validation.enabled)|Disable|
+   |Configuration|Property|Value|
+   |---|---|---|
+   |`com.adobe.fmdita.config.ConfigManager`|Enable Post Processing Workflow Launchers|Disable|
+   |`com.adobe.fmdita.config.ConfigManager`|uuid regex|^GUID-(?<id>.*)|
+    |`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`|EEnable Version Postprocessing|Disable|
+   |Day CQ Tagging Service|Enable validation (validation.enabled)|Disable|
 
 1. Add a separate logger for: 
     * `com.adobe.fmdita.uuid` 
@@ -168,7 +168,7 @@ For more details, view [purge older versions](https://experienceleague.adobe.com
 |Summary after process completion| How to interpret	|Action|
 |---|---|---|
 | Total number of files 4833 |Number of DITA maps that had at least 1 baseline |
-|Number of files upgraded successfully 4705|Number of DITA maps, which were successfully upgraded with all baselines| | 
+|Number of files upgraded successfully 4705|Number of DITA maps, which were successfully upgraded with all baselines|  
 |Number of files upgraded with errors 0| Number of DITA maps whose baselines did not upgrade|
 |Number of files skipped 1647| Number of DITA maps that did not have any baseline|
 | Number of files failed to upgrade 128| number of baseline objects, which were not valid (they were empty)- list can be seen in the report (excel)| Check if there are errors other than `baselineObj not found on`|
