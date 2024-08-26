@@ -32,7 +32,7 @@ Download the required packages from Adobe Software Distribution Portal, based on
 
 
 
-## Pre-migration
+## Premigration checks
 
 Perform the following checks on non-UUID version 4.3.1:
 
@@ -45,11 +45,13 @@ Perform the following checks on non-UUID version 4.3.1:
 
 
 
-1. (Optional) If there are more than 100,000 DITA files in the system, update the `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` to a larger value (any value greater than the number of assets present, for example 200,000).
+1. (Optional) If there are more than 100,000 DITA files in the system, update the query limit configs for the script to work:
 
-   |PID|Property Key|Property Value|
-   |---|---|---|
-   |org.apache.jackrabbit.oak.query.QueryEngineSettingsService|queryLimitReads|Value: 200000 <br> Default Value: 100000|
+    * Navigate to `/system/console/configMgr and increase both the configs to more than number of assets - queryLimitInMemory` and `queryLimitReads under org.apache.jackrabbit.oak.query.QueryEngineSettingsService`
+
+
+
+
 
     
 
@@ -66,6 +68,8 @@ Perform the following checks on non-UUID version 4.3.1:
     ![compatibility assessment tab in migration](assets/migration-compatibility-assessment.png)
 
 
+1. If the error appears, then analyise the logs and fix those errors. You can re-run the compatibility matrix after fixing the errors.
+
 1. Select **Configure Validations** from the left panel. Then, **Select map** and **Select preset** of the map to configure them. The current output validation list displays the output files present before migration and can be validated against the output files generated post-migration later. 
 
     By selecting multiple and large DITA maps, you can validate that all the content has been successfully migrated without issues. Selecting presets with baselines in them, also ensures that baselines and versions are migrated successfully.
@@ -77,34 +81,47 @@ Perform the following checks on non-UUID version 4.3.1:
    >[!NOTE]
    >
    >This utility does not remove any versions used in baselines or reviews or has any labels.   
+For more details, view [purge older versions](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/version-mgt/version-management#purge-older-versions-of-dita-files).
 
 
+## Migration prerequisites
 
-## Migration 
-
-### Step 1: Update configuration
-
-1. Ensure that the free space available is at least ten times the space taken by AEM (crx-quickstart directory) during migration. Once you complete the migration, you can reclaim most of the disk space by running compaction (refer to [Revision Cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
-
-1. Install the new package for uuid migration.
-
-1. Select *Enable Post Processing Workflow Launchers* in `com.adobe.fmdita.config.ConfigManager` and *Enable Version Postprocessing* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
+1. Execute UUID migration only on an Author instance.
+2. Ensure the following infrastructure readiness:
+    * Author instance is upsized in terms of CPU and memory to support faster processing and additional memory needed for bulk activity. for example, if the current allocated CPU and memory are 8 vCPU and 24 GB heap - then use double the size for this activity. 
+    * The overall disk space and temporary disk space
+    * `(crx-quickstart directory)`
+    * You should have a buffer for 10 times of what is already consumed. Once you complete the migration, you can reclaim most of the disk space by running compaction.
+    * Do run **Offline Tar compaction** before starting this activity.
+    * Make sure that no indexing or system maintenance is planned during the window of this migration.
 
 1. Install the UUID version of the supported release over the non-UUID version. For example, if you're using 4.3.1 non-UUID build, you need to install UUID version 4.3.2 [com.adobe.fmdita-6.5-uuid-4.3.2.1976.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F2-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1976.zip) and run the migration.
 
 
-
-1. Disable the following workflows and any other workflow that runs on `/content/dam` using launchers in `http://<server-name>/libs/cq/workflow/content/console.html`.
+1. Install the uuid migration upgrade package [com.adobe.guides.uuid-upgrade-1.2.110](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F2-0%2Fcom.adobe.guides.uuid-upgrade-1.2.99.zip).
+1. Disable launchers for the following workflows using the URL: `http://<server-name>/libs/cq/workflow/content/console.html`.
 
     * DAM Update Asset workflow
     * DAM Metadata Writeback workflow
 
-1. Disable *Enable Post Processing Workflow Launchers* in `com.adobe.fmdita.config.ConfigManager` and disable *Enable Version Postprocessing* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`. 
+     >[!NOTE]
+     >
+     >Ideally any workflow launchers, which run on any path inside `content/dam` should be disabled.
+1. Update the following configurations as per the suggested changes:
+    |Configuration|Property|Value|
+    |---|---|---|
+    |`com.adobe.fmdita.config.ConfigManager`|Enable Post Processing Workflow Launchers|Disable|
+    |`com.adobe.fmdita.config.ConfigManager`|uuid regex|^GUID-(?<id>.*)|
+    |`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`|EEnable Version Postprocessing|Disable|
+    |Day CQ Tagging Service|Enable validation (validation.enabled)|Disable|
 
-1. Disable the property Enable validation (`validation.enabled`) in Day CQ Tagging Service.
 
-1. Ensure that `uuid.regex` property folder is set properly in `com.adobe.fmdita.config.ConfigManager`. If it's blank, set it to the default value - `^GUID-(?<id>.*)`.
-1. Add a separate logger for `com.adobe.fmdita.uuid` and `com.adobe.guides.uuid`. 
+
+1. Add a separate logger for: 
+    * `com.adobe.fmdita.uuid` 
+    * `com.adobe.guides.uuid`. 
+
+    The summary logs are also available at `/content/uuid-upgrade/logs`.
 
 1. (Optional, if not done earlier) If there are more than 100,000 DITA files in the system, update the `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` to a larger value (any value greater than the number of assets present, for example 200,000).
 
@@ -112,13 +129,16 @@ Perform the following checks on non-UUID version 4.3.1:
    |---|---|---|
    |org.apache.jackrabbit.oak.query.QueryEngineSettingsService|queryLimitReads|Value: 200000 <br> Default Value: 100000|
 
-### Step 2: Run the migration and validate
+## Migration
 
-#### Install the migration package
 
 1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 
     ![System upgrade tab in migration](assets/migration-system-upgrade.png)
+    >[!NOTE]
+    >
+    > If you choose "Enable DITA asset backup", the temporary backup files are stored under `/content/uuid-upgrade` and the DITA file backups are deleted when the migration of a file is complete.
+
 
 1. Select **System upgrade** from the left panel to run the migration. It's recommended to migrate all the data at once, as the system optimally handles batching internally. Only files that are not DITA assets and are not used in any DITA assets can be skipped for migration.
 
@@ -127,21 +147,24 @@ Perform the following checks on non-UUID version 4.3.1:
 1. Select *Enable dita asset backup* to create a backup of asset before migration. This backup is used to rollback in case there is an error in migrating a file. The backup is deleted, if the migration is successful. However, this slows down the migration process.
 
 1. Start the migration. 
+    >[!NOTE]
+    >
+    > Download the full logs and observe if there were any errors. If any error or exception is found *Do not proceed* but first fix the error. Common errors are listed at the end of this article.
 
 1. Once the migration is complete, the report is available to download and entire logs can also be downloaded.
 
 1. Select **Download Report** while the migration is running to check whether all files in the folder are upgraded correctly and whether all features work only for that folder.
 
 
->[!NOTE]
->
-> Content migration can be run on a folder level, the complete `/content/dam`, or the same folder (rerun migration).
+    >[!NOTE]
+    >
+    > Content migration can be run on a folder level, the complete `/content/dam`, or the same folder (rerun migration).
 
-Also, it's important to make sure that the content migration is done for all the media assets, such as images and graphics you have used in the DITA content.
+    Also, it's important to make sure that the content migration is done for all the media assets, such as images and graphics you have used in the DITA content.
 
-#### Baseline and Review migration
 
-Select **Baseline/Review Upgrade** from the left panel to migrate the baselines and review at the folder level.  
+
+1. Once all the files are migrated, select **Baseline/Review Upgrade** from the left panel to migrate the baselines and review at the folder level.  
 
 ![Baseline and review tab in migration](assets/migration-baseline-review-upgrade.png)
 
@@ -150,31 +173,50 @@ Select **Baseline/Review Upgrade** from the left panel to migrate the baselines 
 >
 >If you restart the system or the migration is aborted, the script will resumes when you re-run it with the same parameters as before. Contact your customer success team if you get issues due to the shutdown.
 
-### Step 3: Restore the configuration
+## Analyzing the reports from each step
 
-* After migrating the server successfully enable the following workflows and configurations (including all the other workflows that were disabled initially during the migration) to continue working on the server:
+ **Step: System Upgrade**
 
-    * DAM Update Asset workflow
-    * DAM Metadata workflow
 
-* Enable the following configurations:
-    * **Enable Post Processing Workflow Launchers** in `com.adobe.fmdita.config.ConfigManager`
-    * **Enable Version Postprocessing** in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`
+**Step: Upgrade Baselines**
 
-* Enable the property **Enable validation** (validation.enabled) in Day CQ Tagging Service.
-
->[!NOTE]
->
->If some files are not processed or corrupted before migration, they will be corrupted before migration and remain corrupted even after migration.
+| Summary after process completion|	How to interpret	|Action|
+|---|---|---|
+| Total number of files 4833 |Number of DITA maps that had at least 1 baseline |
+|Number of files upgraded successfully 4705|Number of DITA maps, which were successfully upgraded with all baselines| | 
+|Number of files upgraded with errors 0| Number of DITA maps whose baselines did not upgrade|
+|Number of files skipped 1647| Number of DITA maps that did not have any baseline|
+| Number of files failed to upgrade 128| number of baseline objects, which were not valid (they were empty)- list can be seen in the report (excel)| Check if there are errors other than `baselineObj not found on`|
 
 
 
-## Migration validation
+## Postmigration 
 
 1. Once the migration is completed, select **Validate system upgrade** from the left panel and validate the output files before and after the migration to ensure that the migration is successful. 
 
     ![Validate system upgrade tab in migration](assets/migration-validate-system-upgrade.png)
 
+1. After migrating the server successfully enable the following workflows and configurations (including all the other workflows that were disabled initially during the migration) to continue working on the server:
+
+    * DAM Update Asset workflow
+    * DAM Metadata workflow
+1. Enable the following configurations:
+
+    |Configuration|Property|Value|
+    |---|---|---|
+    |`com.adobe.fmdita.config.ConfigManager`|*Enable Post Processing Workflow Launchers*|Enable|
+    |`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`|*Enable Version Postprocessing*|Enable|
+    |Day CQ Tagging Service|*Enable validation (validation.enabled)*|Enable|
+
+1. Assets properties to review post migration:
+
+    |Configuration|Property|Pre migration value on Non-UUID|Post migration value on UUID|
+    |---|---|---|---|
+    |`com.adobe.fmdita.config.ConfigManager`|	**Use title for AEM Site page names**|False (default value)|True|
+
+    >[!NOTE]
+    >
+    > If before migration, the property, **Use title for AEM Site page names** inside `com.adobe.fmdita.config.ConfigManager`, set to *False*, then after migration this property needs to be updated.
 
 1. After the validation is done, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 
