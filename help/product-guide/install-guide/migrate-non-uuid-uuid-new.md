@@ -98,6 +98,7 @@ For more details, view [purge older versions](https://experienceleague.adobe.com
      >[!NOTE]
      >
      >Ideally any workflow launchers, which run on any path inside `content/dam` should be disabled.
+
 1. Update the following configurations as per the suggested changes:
     |Configuration|Property|Value|
     |---|---|---|
@@ -165,7 +166,7 @@ For more details, view [purge older versions](https://experienceleague.adobe.com
 
 **Step: Upgrade Baselines**
 
-| Summary after process completion|	How to interpret	|Action|
+|Summary after process completion|	How to interpret	|Action|
 |---|---|---|
 | Total number of files 4833 |Number of DITA maps that had at least 1 baseline |
 |Number of files upgraded successfully 4705|Number of DITA maps, which were successfully upgraded with all baselines| | 
@@ -196,9 +197,9 @@ For more details, view [purge older versions](https://experienceleague.adobe.com
 
     |Configuration|Property|Pre migration value on Non-UUID|Post migration value on UUID|
     |---|---|---|---|
-    |`com.adobe.fmdita.config.ConfigManager`|	**Use title for AEM Site page names**|False (default value)|True|
+    |`com.adobe.fmdita.config.ConfigManager`|**Use title for AEM Site page names**|False (default value)|True|
 
-    >[!NOTE]
+    > [!NOTE]
     >
     > If before migration, the property, **Use title for AEM Site page names** inside `com.adobe.fmdita.config.ConfigManager`, set to *False*, then after migration this property needs to be updated.
 
