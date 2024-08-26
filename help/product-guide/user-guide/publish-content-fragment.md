@@ -9,7 +9,7 @@ role: User
 
 Content Fragments are discrete pieces of content in Adobe Experience Manager. They are structured content based on a content model. Content Fragments are pure content without design or layout information. They can be authored and managed independently of the channels that Adobe Experience Manager supports. Content Fragments are modular, where content is broken down into smaller components.
 
-Manager Guides allows you to publish a topic or its elements to a content fragment. 
+Experience Manager Guides allows you to publish a topic or its elements to a content fragment. 
 
 >[!NOTE] 
 >
