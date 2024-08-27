@@ -88,7 +88,9 @@ Experience Manager Guides also displays a **Read only access** indicator near th
 
 You can access the **Layout** view for read-only DITA maps. This view lets you see the DITA map and its properties but prevents edits.
 
-
+>[!NOTE]
+>
+> Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access the read-only files in the Author and Source modes.
 
 ## Locate an open file in the Repository View
 
