@@ -147,11 +147,11 @@ Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade
 
 Adobe has identified the following known issues for the 4.6.0 release:
 
-- Condition filtering applied in the Native PDF preset isn't being applied for single topic publishing via Download as PDF. 
+- Condition filtering applied in the Native PDF preset isn't being applied for single topic publishing via **Download as PDF**. 
 - If we try to publish a single topic from the map panel view, selected topics in the preset are always published. 
 - SVG UTF-8 images are displaced in the Native PDF output compared to prior PDF outputs. 
 - The topic's reference appears to be fixed in the user interface when created from the topic toolbar of the map, even if the data is correct. 
 - Native PDF Publishing fails for certain specific data. 
-- Default active PDF preset downloads incorrect PDF when Download as PDF is used.  
+- Default active PDF preset downloads incorrect PDF when **Download as PDF** is used.  
 
 
