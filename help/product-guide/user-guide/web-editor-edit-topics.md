@@ -90,7 +90,7 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
 >[!NOTE]
 >
-> Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access the read-only files in the Layout, Author, and Source modes.
+> Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access the read-only files in the  Author, Source, and Layout modes.
 
 ## Locate an open file in the Repository View
 
