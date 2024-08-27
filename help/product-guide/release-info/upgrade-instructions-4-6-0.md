@@ -49,6 +49,16 @@ For more details, view the [Technical requirements](../install-guide/download-in
 |---|---|---|
 |Experience Manager Guides Components Content Package for Cloud Service|dxml-components.all-1.2.2| aem-site-template-dxml.all-1.0.15|
 
+### New AEM Site template version
+
+
+| Components version | Template version|
+|---|---|
+
+
+
+
+
 ## Upgrade to 4.6.0 release of Experience Manager Guides
 
 You can easily upgrade your current version of Guides to version 4.6.0. Before you proceed with upgrading to version 4.6.0 of Experience Manager Guides, you must consider the following points:

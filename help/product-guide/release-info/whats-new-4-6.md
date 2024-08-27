@@ -91,6 +91,14 @@ Now, Experience Manager Guides allows you to add the metadata from a topic's fil
 Learn how to [add fields and metadata](../native-pdf/design-page-layout.md#add-fields-metadata) in a page layout.
 
 
+## Improved Non-UUID to UUID content migration
+
+The new UUID Migration script has been significantly optimized, making the migration from Non-UUID to UUID 30 times faster than the earlier script. It includes features such as resuming from checkpoints, live insights, estimated completion time, and detailed reporting, ensuring a harmonious migration process. Notably, the migration process preserves asset metadata without any changes. The script has been tested and verified on a large dataset of 3 million assets, confirming its efficiency and reliability for large-scale migrations.
+
+Learn more about [non-uuid to UUID content migration](../install-guide/migrate-non-uuid-uuid-new.md).
+
+
+
 
 ## Select partial content across elements for operations
 
