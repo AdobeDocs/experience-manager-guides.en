@@ -14,11 +14,12 @@ level: Experienced
 
 You can upgrade your current version of Experience Manager Guides to version 4.6.0:
 
-- If you are using version 4.3.1.5, 4.3.1, 4.3.0, or 4.2.1 (Hotfix 4.2.1.3), then you can directly upgrade to version 4.4.0.
-- If you are using version 4.2, 4.1, or 4.1.x then you need to upgrade to version 4.3.1, 4.3.0, or 4.2.1 (Hotfix 4.2.1.3) before upgrading to version 4.4.0.
+
+- If you are using version 4.4, 4.3.1, or 4.3.0 , then you can directly upgrade to version 4.6.0. 
+- If you are using version 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 4.6.0.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.x.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
-- If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide.
+- If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -1088,6 +1089,17 @@ After you install Experience Manager Guides, you may merge the various configura
 
 1. If you have added any customizations in damAssetLucene, you may need to apply them again. After making those changes, set reindex as true. This will reindex all the existing nodes with the customizations. Once completed, the reindex flag will be set to false again. This may take a few hours depending on number of assets in the system.
 
+## Steps to reindex the Experience Manager Guides indexes
+
+1. Open `crx/de` and navigate to the index path:  `/oak:index/guidesAssetProperties`
+2. Set the reindex property as `true` (`false` by default) and click **Save All**.
+3. Once the reindex is complete, the reindex property is set to `false` again, and the reindex count is incremented by 1. 
+
+    >[!NOTE]
+    >
+    > This may take a few minutes, depending on the amount of data present.
+4. Follow the same steps for other added or modified indices: `guidesBulkActivation`, `guidesPeerLinkIndex`,  and `guidesKonnectTemplateIndex`. 
+
 ## Steps to index the existing content
 
 >[!NOTE]
@@ -1102,66 +1114,7 @@ Perform the following steps for indexing the existing content and use the new fi
 
 -   Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
   
-## Steps to post process the existing content to use the broken link report 
 
->[!NOTE]
->
-> You need not perform these steps if you upgrade from 4.3.0 or 4.3.1.
-
-Perform the following steps for post processing the existing content and using the new broken link report:
-
-1. (Optional) If there are more than 100,000 dita files in the system, update the `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` to a larger value (any value greater than the number of assets present, for example 200,000) and then redeploy.
-
-   |PID|Property Key|Property Value|
-   |---|---|---|
-   |org.apache.jackrabbit.oak.query.QueryEngineSettingsService|queryLimitReads|Value: 200000 <br> Default Value: 100000|
-
-1. Execute the following APIs to run post-processing on all the files:
-
-    |End Point| /bin/guides/reports/upgrade|
-    |---|---|
-    |Request Type| **POST**  This script is a POST request hence should be executed via agents like Postman. |
-    | Expected Response | The API will return a jobId. To check the status of the job, you can send a GET request with job id to the same end point.<br> Sample URL: `http://<server:port>/bin/guides/reports/upgrade`|
-
-    |End Point| /bin/guides/reports/upgrade|
-    |---|---|
-    |Request Type| **GET** |
-    |Param| jobId: Pass the jobId received from the previous post request.|
-    |Expected Response | - Once the job is complete, the GET request responds with success. <br> - In case there are errors,  share the error logs along with API output with your customer success team.  <br>Sample URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
-
-1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
-
-### Enable trigger of script via a Servlet{#enable-trigger-serverlet-4-6-0}
-
->[!NOTE]
->
-> You need not perform these steps if you upgrade from 4.3.0 or 4.3.1.
-
-POST:
-
-```
-http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
-```
-
-Response: 
-
-```
-{
-"msg": "Job is successfully submitted and lock node is created for future reference",
-"lockNodePath": "/var/dxml/executor-locks/translation-map-upgrade/1683190032886",
-"status": "SCHEDULED"
-}
-```
-
-In the above response JSON, the key `lockNodePath` holds the path to the node created in the repository pointing to the job submitted. It will automatically be deleted once the job is completed, till then, you can refer to this node for the current status of the job.
-
-Wait till this job is completed before proceeding to the next steps.
-
->[!NOTE]
->
-> You should check if the node is still present and the status of the job.
-
-**GET**: `http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json`
 
 ## Steps to handle the `'fmdita rewriter'` conflict
 
@@ -1172,16 +1125,7 @@ If you have another custom sling rewriter in your codebase,  use an `'order'` va
 During this upgrade, since the `'order'` value is changed from 1000 to 50, you need to merge the existing custom rewriter, if any, with `'fmdita-rewriter'`.
 
 
-## Steps to reindex the `oak indexes`
 
-1. Open `crx/de` and navigate to the index path:  `/oak:index/guidesAssetProperties`
-2. Set the reindex property as `true` (`false` by default) and click **Save All**.
-3. Once the reindex is complete, the reindex property is set to `false` again, and the reindex count is incremented by 1. 
-
-    >[!NOTE]
-    >
-    > This may take a few minutes, depending on the amount of data present.
-4. Follow the same steps for other added or modified indices: `guidesBulkActivation` and `guidesKonnectTemplateIndex`. 
 
 
 

@@ -39,8 +39,8 @@ For more details, view the [Technical requirements](../install-guide/download-in
 
 | Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
 | --- | --- | --- |--- |--- |
-| 4.6.0 (Non-UUID)|  2.7-regular-1| 2.7-regular-1 |  1.6 | 1.6  |
-| 4.6.0 (UUID) | 3.4-uuid-1|3.4-uuid-1 |2.3 | 2.3  |
+| 4.6.0 (Non-UUID)|  2.8-regular-10| 2.8-regular-10 |  1.6 | 1.6  |
+| 4.6.0 (UUID) | 3.6-uuid.9|3.6-uuid.9 |2.3 | 2.3  |
 |  |  |   |  
 
 ### Knowledge base template version
@@ -53,8 +53,8 @@ For more details, view the [Technical requirements](../install-guide/download-in
 
 You can easily upgrade your current version of Guides to version 4.6.0. Before you proceed with upgrading to version 4.6.0 of Experience Manager Guides, you must consider the following points:
 
-- If you are using version 4.3.1, 4.3.0, or 4.2.1 (Hotfix 4.2.1.3), then you can directly upgrade to version 4.4.0.
-- If you are using version 4.2, 4.1, or 4.1.x then you need to upgrade to version 4.3.1, 4.3.0, or 4.2.1 (Hotfix 4.2.1.3) before upgrading to version 4.4.0.
+- If you are using version 4.4, 4.3.1, or 4.3.0 , then you can directly upgrade to version 4.6.0. 
+- If you are using version 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 4.6.0.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.x.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
 - If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
