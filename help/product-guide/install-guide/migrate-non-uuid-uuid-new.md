@@ -70,7 +70,7 @@ Perform the following checks on non-UUID version 4.3.1:
    >
    >This utility does not remove any versions used in baselines or reviews or has any labels.   
 
-For more details, view [purge older versions](../install-guide/version-management#purge-older-versions-of-dita-files).
+For more details, view [purge older versions](../install-guide/version-management.md#purge-older-versions-of-dita-files).
 
 
 ## Migration prerequisites
@@ -78,9 +78,7 @@ For more details, view [purge older versions](../install-guide/version-managemen
 1. Execute UUID migration only on an Author instance.
 1. Ensure the following infrastructure readiness:
     * Author instance is upsized in terms of CPU and memory to support faster processing and additional memory needed for bulk activity. for example, if the current allocated CPU and memory are 8 vCPU and 24 GB heap - then use double the size for this activity. 
-    * The overall disk space and temporary disk space
-    * `(crx-quickstart directory)`
-    * You should have a buffer for 10 times of what is already consumed. Once you complete the migration, you can reclaim most of the disk space by running compaction.
+    * The overall disk space and temporary disk space `(crx-quickstart directory)` should have a buffer of 10 times what is already consumed. Once you complete the migration, you can reclaim most of the disk space by running compaction.
     * Do run **Offline Tar compaction** before starting this activity.
     * Make sure that no indexing or system maintenance is planned during the window of this migration.
 
