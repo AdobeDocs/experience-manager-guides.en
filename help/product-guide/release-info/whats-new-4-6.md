@@ -56,6 +56,7 @@ You can also download the metadata.xml file if you have selected any metadata pr
 For more details about the presets, view [Understanding the output presets](../user-guide/generate-output-understand-presets.md).
 
 ## Editorial enhancements
+
 The following editorial enhancements have been made to the 4.6.0 release:
 
 ### Read-only access to Author and Source mode for locked files
@@ -125,8 +126,8 @@ Enjoy benefits such as quicker access to relevant files and a more intuitive use
 
 
 >[!NOTE]
- >
- > Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access this feature.
+>
+> Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access this feature.
  
 Learn more about the **Filter Search** feature in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
