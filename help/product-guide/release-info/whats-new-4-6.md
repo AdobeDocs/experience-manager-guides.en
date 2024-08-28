@@ -186,7 +186,7 @@ Learn more about the **User preferences** feature description in the [Left Pan
 
 
 
-### Ability to view the properties from the hierarchy of an element
+### Ability to view properties of any element from the element hierarchy
 
 Now, the Content Properties **Type** appears as a dropdown menu. You can view and select the tags of the complete hierarchy for the current tag from the dropdown.
 
