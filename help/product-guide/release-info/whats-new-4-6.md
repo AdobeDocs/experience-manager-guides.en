@@ -55,6 +55,39 @@ You can also download the metadata.xml file if you have selected any metadata pr
 
 For more details about the presets, view [Understanding the output presets](../user-guide/generate-output-understand-presets.md).
 
+
+## Publish a topic or its elements to an Experience Fragment
+
+An Experience Fragment is a modular content unit within Adobe Experience Manager that integrates content and layout. Experience Fragments are instrumental in creating consistent and engaging experiences, which can be further reused across multiple channels. For example, you can create experience fragments for headers or footers with branding elements, promotional banners, customer testimonials, and event promotions.
+
+
+Experience Manager Guides now allows you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic or its elements and an Experience Fragment template.  
+
+  You can also create Experience Fragment variations by using the condtion filters. 
+ Learn more about how to [publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
+
+
+
+
+
+## Enhancements in the Content Fragment publishing
+
+Experience Manager Guides also provides some helpful enhancements in Content Fragments: 
+
+- Experience Manager Guides allows you to publish a topic or its elements to a content fragment.
+
+ - You can publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**.
+    ![file properties options tab](./assets/file-properties-outputs-tab-4-6.png) {width="300" align="left"}
+
+ - You can easily create Content Fragment variations by filtering content with conditions while publishing to a Content Fragment. 
+
+Use the new mapping interface to easily select and publish the elements to a Content Fragment. 
+Now, Content Fragment publishing only replaces the mapped content instead of overwriting the complete Content Fragment. This feature allows a Content Fragment to contain data from multiple sources, such as multiple topics or the Content Fragment editor.
+
+   ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](assets/content-fragment-mapping.png)
+
+   For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
+
 ## Editorial enhancements
 
 The following editorial enhancements have been made to the 4.6.0 release:
@@ -181,45 +214,6 @@ Learn how to [work with the Advanced Map Editor](../user-guide/map-editor-advanc
 
 
 
-
-
-
-
-
-
-## Publish a topic or its elements to an Experience Fragment
-
-An Experience Fragment is a modular content unit within Adobe Experience Manager that integrates content and layout. Experience Fragments are instrumental in creating consistent and engaging experiences, which can be further reused across multiple channels. For example, you can create experience fragments for headers or footers with branding elements, promotional banners, customer testimonials, and event promotions.
-
-
-Experience Manager Guides now allows you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic or its elements and an Experience Fragment template.  
-
-  You can also create Experience Fragment variations by using the condtion filters. 
- Learn more about how to [publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
-
-
-
-
-
-## Enhancements in the Content Fragment publishing
-
-Experience Manager Guides also provides some helpful enhancements in Content Fragments: 
-
-- Experience Manager Guides allows you to publish a topic or its elements to a content fragment.
-
- - You can publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**.
-    ![file properties options tab](./assets/file-properties-outputs-tab-4-6.png) {width="300" align="left"}
-
- - You can easily create Content Fragment variations by filtering content with conditions while publishing to a Content Fragment. 
-
-Use the new mapping interface to easily select and publish the elements to a Content Fragment. 
-Now, Content Fragment publishing only replaces the mapped content instead of overwriting the complete Content Fragment. This feature allows a Content Fragment to contain data from multiple sources, such as multiple topics or the Content Fragment editor.
-
-   ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](assets/content-fragment-mapping.png)
-
-   For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
-
-
 ## Nested folder hierarchy for HTML5 output
 
 You can now also generate the HTML5 output in a nested folder hierarchy. This implies that the content's original folder structure, with files organized into subfolders, is replicated in the output.
@@ -227,12 +221,6 @@ This feature allows for more complex organization and categorization of files, m
 
 
 Learn more about how to [generate HTML5 output](../user-guide/generate-output-html5.md)
-
-
-
-
-
-
 
 
 ## Content lifecycle management enhancements
