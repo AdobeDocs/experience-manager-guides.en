@@ -14,7 +14,7 @@ Adobe Experience Manager Guides allows you to create a JSON-based mapping betwee
 
 >[!NOTE] 
 > 
-> If you are using 4.6 or 2409 or later versions, you need not create this mapping, you can drag the topic elements to the fields present in the content fragment model.
+> If you are using 4.6 or later versions, you need not create this mapping, you can drag the topic elements to the fields present in the content fragment model.
 > Learn more about how to [publish content fragments](../user-guide/publish-content-fragment.md). 
 
 

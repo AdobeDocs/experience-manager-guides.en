@@ -69,7 +69,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
     
         >[!NOTE]    
         >
-        > If you are using 4.4 or 2406 or earlier versions, select a mapping from the drop-down. It picks the mappings from the *contentFragmentMapping.json* file.  Your administrator can add the mappings in the *contentFragmentMapping.json* file. Learn more about how to [create a mapping between a topic and a Content Fragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) in the Installation and Configuration Guide. 
+        > If you are using 4.4 or earlier versions, select a mapping from the drop-down. It picks the mappings from the *contentFragmentMapping.json* file.  Your administrator can add the mappings in the *contentFragmentMapping.json* file. Learn more about how to [create a mapping between a topic and a Content Fragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) in the Installation and Configuration Guide. 
 
 1. Click **Generate** to publish the Content Fragment.
 
