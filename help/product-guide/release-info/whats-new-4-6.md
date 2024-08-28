@@ -214,10 +214,10 @@ Learn how to [work with the Advanced Map Editor](../user-guide/map-editor-advanc
 
 
 
-## Nested folder hierarchy for HTML5 output
+## Option to either choose flat or nested file hierarchy for HTML5 output
 
-You can now also generate the HTML5 output in a nested folder hierarchy. This implies that the content's original folder structure, with files organized into subfolders, is replicated in the output.
-This feature allows for more complex organization and categorization of files, making it easier to manage and navigate large volumes of data. It's more useful when dealing with diverse data sets or multiple projects. 
+Now, Experience Manager Guides allows you to retain the flat folder hierarchy for the temporary files wherein the entire content is published in HTML5 output format and saved in a single folder.
+If you don't choose to flatten the file hierarchy, the HTML5 output is generated in a nested folder hierarchy. This implies that the content's original folder structure, with files organized into subfolders, is replicated in the output. This nested folder hierarchy allows for more complex organization and categorization of files, making it easier to manage and navigate large volumes of data.
 
 
 Learn more about how to [generate HTML5 output](../user-guide/generate-output-html5.md)
