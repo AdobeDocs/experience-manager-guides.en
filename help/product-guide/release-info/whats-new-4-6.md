@@ -12,7 +12,7 @@ For the list of issues that have been fixed in this release, view [Fixed issues 
 Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade-instructions-4-6-0.md).
 
 
-## Content publishing enhancements 
+## Publishing enhancements 
 
 The following content publishing enhancements have been made in the 4.6.0 release: 
 
