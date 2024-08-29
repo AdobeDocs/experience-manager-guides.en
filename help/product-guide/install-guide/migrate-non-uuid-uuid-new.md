@@ -34,7 +34,7 @@ Download the required packages from Adobe Software Distribution Portal, based on
 
 Perform the following checks on non-UUID version 4.3.1:
 
-1. Install the pre-migration package over version 4.3.1.
+1. Install the pre-migration package [com.adobe.guides.pre-uuid-migration-1.2.27.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.pre-uuid-migration-1.2.27.zip) over version 4.3.1.
 
    >[!NOTE]
    >
