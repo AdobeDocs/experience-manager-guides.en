@@ -41,7 +41,7 @@ Perform the following checks on non-UUID version 4.3.1:
    >* You need administrator permission to execute the migration. 
    >* Fixing the files with errors before proceeding with the migration is recommended. 
 
-1. (Optional) If there are more than 100,000 DITA files in the system, update the query limit configs for the script to work:
+1. If there are more than 100,000 DITA files in the system, update the query limit configs for the script to work:
 
     * Navigate to `/system/console/configMgr and increase both the configs to more than number of assets - queryLimitInMemory` and `queryLimitReads under org.apache.jackrabbit.oak.query.QueryEngineSettingsService`
 
@@ -109,7 +109,7 @@ For more details, view [purge older versions](../install-guide/version-managemen
     * `com.adobe.guides.uuid`. 
 
 
-1. (Optional, if not done earlier) If there are more than 100,000 DITA files in the system, update the `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` to a larger value (any value greater than the number of assets present, for example 200,000).
+1. (If not done earlier) If there are more than 100,000 DITA files in the system, update the `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` to a larger value (any value greater than the number of assets present, for example 200,000).
 
    |PID|Property Key|Property Value|
    |---|---|---|
