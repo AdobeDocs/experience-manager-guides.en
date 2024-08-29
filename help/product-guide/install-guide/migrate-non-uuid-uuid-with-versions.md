@@ -8,6 +8,11 @@ exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
 ---
 # Migrate versioned content
 
+>[!NOTE]
+>
+> You can migrate your non-UUID content to UUID content in Experience Manager Guides. This article will be archived in November 2024.
+>View [**Non-UUID to UUID content migration**](./migrate-non-uuid-uuid-new.md) for the latest and detailed documentation.
+
 Perform these steps to migrate your non-UUID versioned content to UUID content. 
 
 >[!NOTE]
