@@ -10,6 +10,8 @@ To customise the `topbar` and `toolbar`, we will be using the ids: `topbar` or `
 
 Below is a trivial example of toolbar customisation. Here, we have removed the `Insert Numbered List` button, and replaced the `Insert Paragraph` button with our own component using a customised on-click handler.
 
+For accessing functionality exposed under `proxy` object we will need to acces it using `this.proxy.getValue` lets say for fetching a value.
+
 ```js title = toolbar_customisation.js
 const toolbarExtend = {
     id: "toolbar",
@@ -40,7 +42,15 @@ const toolbarExtend = {
         ]
     },
     controller: {
-
+        init: function() {
+            console.log(this.proxy.getValue("canUndo"))
+            this.proxy.subscribeAppEvent({
+              key: "editor.preview_rendered",
+              next: async function (e) {
+                console.log(this.proxy.getValue("canUndo"))
+              }.bind(this)
+            })
+        },
         INSERT_P(){
             this.next("AUTHOR_INSERT_ELEMENT",  "p" )
         }

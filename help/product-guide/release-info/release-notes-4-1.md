@@ -12,6 +12,7 @@ This release notes covers the upgrade instructions, new features, and enhancemen
 ## Upgrade to the latest release
 
 You can easily upgrade your current version of AEM Guides to version 4.1.3. Before you proceed with upgrading to version 4.1.3 of AEM Guides, you must consider the following points:
+
 * If you are using version 4.1 or 4.1.x, then you can directly upgrade to version 4.1.3.
 * If you are using version 4.0.x, then you need to upgrade to version 4.1 or 4.1.x before upgrading to 4.1.3.
 * If you are using version 3.8.5, then you need to upgrade to version 4.0.x before upgrading to 4.1.
@@ -229,7 +230,7 @@ You can also refer to other map templates and topic templates from the customize
 The customized map template can help you very easily replicate the map templates and the entire referred folder structure. These customized templates are especially useful to create and recreate multiple maps which have recursive structures and references. 
 
 * **Schematron support**
-“Schematron” refers to a rule-based validation language used to define tests for an XML file. Using a Schematron file you can define certain rules and then validate them for a DITA topic or a map. Web editor supports Schematron files. You can import the Schematron files and also edit them in Web Editor. The Schematron support in the Web Editor helps you in validating the files against a set of rules and maintaining consistency and correctness across the topics. 
+"Schematron" refers to a rule-based validation language used to define tests for an XML file. Using a Schematron file you can define certain rules and then validate them for a DITA topic or a map. Web editor supports Schematron files. You can import the Schematron files and also edit them in Web Editor. The Schematron support in the Web Editor helps you in validating the files against a set of rules and maintaining consistency and correctness across the topics. 
 
 ![validate schematron](assets/schematron-validate.png)
 
@@ -337,7 +338,7 @@ The bugs fixed in various areas are listed below:
 * The element list (Alt+Enter) appears grayed out in Dark/Darkest theme. (7913)
 * Version is not updated on saving the revision of a topic from map panel toolbar. (8228)
 * xref cannot be inserted even at valid locations. (8354)
-* 'getversionlabels' operation has limitations and doesn’t give expected performance. (8513) 
+* 'getversionlabels' operation has limitations and doesn't give expected performance. (8513) 
 * Issues occur with confirmation dialog on closing a locked or edited file which is not currently opened in editor. (8692)
 * Error occurs on adding a user as an administrator in the folder profile when the user ID is numeric. (8908)
 * Translation panel is visible even on opening the DITA map in the Map Editor. (9053)
@@ -354,7 +355,7 @@ The bugs fixed in various areas are listed below:
 * Review task description does not appear in the email notification being sent when a new review task is being assigned. (8507)
 * Download map API | Temporary folders not getting cleaned up in case download process errors out. (8523)
 * `columnpreview.jsp` is dependent on SP.  (8543)
-* Output jobs with status like ‘Waiting’ or ‘Executing’ do not get cleaned up in the Publish Dashboard.  (8569)
+* Output jobs with status like 'Waiting' or 'Executing' do not get cleaned up in the Publish Dashboard.  (8569)
 * Default icon picked on generating a report using the Generate button, even when the icon property is defined. (8573)
 * Issues occur in review process while upgrading from 3.8.X to 4.0. (8788)
 * In the Review panel of the Web Editor, if a username is long, the icons to accept/reject are not displayed clearly. (8793)
@@ -385,7 +386,7 @@ The bugs fixed in various areas are listed below:
 * Lock icon is displayed in the repository view even when the file is checked in from the editor.  (5756)
 * Unable to add frontmatter, backmatter elements in a bookmap using the Author view of the Web Editor. (7652)
 * The Preview mode does not support `deliveryTarget` conditional processing attribute in DITA. (7685)
-* On opening a glossary topic in the XML editor, AEM forces to save it even if it hasn’t been modified. (8105)
+* On opening a glossary topic in the XML editor, AEM forces to save it even if it hasn't been modified. (8105)
 * Insert references dialog opens on adding subjectref to a map using UI. (8212)
 * Reuse content panel crashes on searching special characters `[` or `*` .(8279)
 * On authoring Glossentry, the Web Editor shows the content as a Note. (8384)
@@ -394,7 +395,7 @@ The bugs fixed in various areas are listed below:
 * Unable to close an unlocked topic. (8545)
 * No option exists to choose the Knowledge Base path in article-based publishing presets. (8636)
 * Attributes are  missing on adding a chapter into bookmap using Drag-and-drop from the Favorites view. (8746)
-* Insert Keyword dialog doesn’t have the search ability and keywords are not listed in sorted order. (9094)
+* Insert Keyword dialog doesn't have the search ability and keywords are not listed in sorted order. (9094)
 * Performing a search in XML Editor causes the page to freeze. (9452) 
 * Sites are missing in AEM presets under the Output tab. (9567)
 * SVG images that do not render correctly in author modes of XML Editor. (9426)
