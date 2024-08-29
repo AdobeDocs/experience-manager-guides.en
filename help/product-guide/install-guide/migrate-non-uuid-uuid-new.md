@@ -191,8 +191,8 @@ For more details, view [purge older versions](../install-guide/version-managemen
     * DAM Metadata workflow
 
     >[!NOTE]
-     >
-     >Ideally any workflow launchers, which were running on any path inside `content/dam` before the migration should be enabled.
+    >
+    >Ideally any workflow launchers, which were running on any path inside `content/dam` before the migration should be enabled.
 
 1. Enable the following configurations:
 
