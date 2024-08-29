@@ -160,16 +160,23 @@ For more details, view [purge older versions](../install-guide/version-managemen
 
  **Step: System Upgrade**
 
+|Summary after process completion|How to interpret?|Action|
+|---|---|---|
+|Total number of files: 345997| Total number of files processed under given set of folders | NA|
+|Number of files upgraded successfully: 344516| Number of files migrated successfully to UUID |NA|
+|Number of files upgraded with errors: 29| Errors occurred in these files and should be the same as those reported in the premigration step| NA|
+|Number of files skipped: 1452| Some files in the DAM repository may have subassets, and those subassets are skipped as they are not eligible for UUID migration|NA|
+|Number of files failed to upgrade: 0<br><br>Total time taken: 2:40:06.157| If there are then the logs have to be analyzed for any issues| Check the exception, you may have to fix the error and re-run the migration|
 
 **Step: Upgrade Baselines**
 
-|Summary after process completion|How to interpret|Action|
+|Summary after process completion|How to interpret?|Action|
 |---|---|---|
-| Total number of files 4833 |Number of DITA maps that had at least 1 baseline |
-|Number of files upgraded successfully 4705|Number of DITA maps, which were successfully upgraded with all baselines|  
-|Number of files upgraded with errors 0| Number of DITA maps whose baselines did not upgrade|
-|Number of files skipped 1647| Number of DITA maps that did not have any baseline|
-| Number of files failed to upgrade 128| number of baseline objects, which were not valid (they were empty)- list can be seen in the report (excel)| Check if there are errors other than `baselineObj not found on`|
+| Total number of files: 4833 |Number of DITA maps that had at least 1 baseline |
+|Number of files upgraded successfully: 4705|Number of DITA maps, which were successfully upgraded with all baselines|  
+|Number of files upgraded with errors: 0| Number of DITA maps whose baselines did not upgrade|
+|Number of files skipped: 1647| Number of DITA maps that did not have any baseline|
+| Number of files failed to upgrade: 128| Number of baseline objects, which were not valid (they were empty)- list can be seen in the report (excel)| Check if there are errors other than `baselineObj not found on`|
 
 
 ## Postmigration 
