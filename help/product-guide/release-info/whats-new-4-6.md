@@ -26,6 +26,39 @@ One of the standout advantages is the ability to reuse published topics across d
 
 Learn how to [publish Experience Manager Sites pages](../user-guide/publish-aem-sites.md).
 
+### Publish a topic or its elements to an Experience Fragment
+
+An Experience Fragment is a modular content unit within Adobe Experience Manager that integrates content and layout. Experience Fragments are instrumental in creating consistent and engaging experiences, which can be further reused across multiple channels. For example, you can create experience fragments for headers or footers with branding elements, promotional banners, customer testimonials, and event promotions.
+
+
+Experience Manager Guides now allows you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic or its elements and an Experience Fragment template.  
+
+  You can also create Experience Fragment variations by using the condtion filters. 
+ Learn more about how to [publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
+
+
+
+
+
+### Enhancements in the Content Fragment publishing
+
+Experience Manager Guides also provides some helpful enhancements in Content Fragments: 
+
+- Experience Manager Guides allows you to publish a topic or its elements to a content fragment.
+
+ - You can publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**.
+    ![file properties options tab](./assets/file-properties-outputs-tab-4-6.png) {width="300" align="left"}
+
+ - You can easily create Content Fragment variations by filtering content with conditions while publishing to a Content Fragment. 
+
+Use the new mapping interface to easily select and publish the elements to a Content Fragment. 
+Now, Content Fragment publishing only replaces the mapped content instead of overwriting the complete Content Fragment. This feature allows a Content Fragment to contain data from multiple sources, such as multiple topics or the Content Fragment editor.
+
+   ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](assets/content-fragment-mapping.png)
+
+   For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
+
+
 
 ### Ability to pass metadata from topic file properties to Native PDF output
 
@@ -56,39 +89,8 @@ You can also download the metadata.xml file if you have selected any metadata pr
 For more details about the presets, view [Understanding the output presets](../user-guide/generate-output-understand-presets.md).
 
 
-## Publish a topic or its elements to an Experience Fragment
 
-An Experience Fragment is a modular content unit within Adobe Experience Manager that integrates content and layout. Experience Fragments are instrumental in creating consistent and engaging experiences, which can be further reused across multiple channels. For example, you can create experience fragments for headers or footers with branding elements, promotional banners, customer testimonials, and event promotions.
-
-
-Experience Manager Guides now allows you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic or its elements and an Experience Fragment template.  
-
-  You can also create Experience Fragment variations by using the condtion filters. 
- Learn more about how to [publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
-
-
-
-
-
-## Enhancements in the Content Fragment publishing
-
-Experience Manager Guides also provides some helpful enhancements in Content Fragments: 
-
-- Experience Manager Guides allows you to publish a topic or its elements to a content fragment.
-
- - You can publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**.
-    ![file properties options tab](./assets/file-properties-outputs-tab-4-6.png) {width="300" align="left"}
-
- - You can easily create Content Fragment variations by filtering content with conditions while publishing to a Content Fragment. 
-
-Use the new mapping interface to easily select and publish the elements to a Content Fragment. 
-Now, Content Fragment publishing only replaces the mapped content instead of overwriting the complete Content Fragment. This feature allows a Content Fragment to contain data from multiple sources, such as multiple topics or the Content Fragment editor.
-
-   ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](assets/content-fragment-mapping.png)
-
-   For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
-
-## Editorial enhancements
+## Editor enhancements
 
 The following editorial enhancements have been made to the 4.6.0 release:
 
@@ -184,6 +186,22 @@ You can configure to view the files by title or filename, and change the theme o
 
 Learn more about the **User preferences** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
+
+### Locate an open file in the repository view of the Web Editor
+
+Select the **Always locate files in the repository** option in the **User Preferences** to navigate quickly and locate your file in the repository view. You don't have to search manually for it. 
+
+While editing, this feature also helps you easily view the file's location within the repository hierarchy.
+
+For more details, view [locate an open file in the repository view](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view).
+
+## Improved handling of non-breaking spaces in the Web Editor
+
+Experience Manager Guides allows you to show a non-breaking space indicator while editing documents in the Web Editor. It also improves the handling of non-breaking spaces. 
+It converts multiple consecutive white spaces into a single space to preserve the WYSIWYG view of the document in the Web Editor. This feature also helps improve the overall appearance and professionalism of the document.
+
+
+For more details, view the [other features of the Web Editor](../user-guide/web-editor-other-features.md).
 
 
 ### Ability to view properties of any element from the element hierarchy
@@ -284,11 +302,6 @@ You can disable the translation projects if you want to use them later.
 Learn more about how to [automatically delete or disable the translation project](../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project).
 
 
-
-
-
-
-
 ### Disable the postprocessing for selective folders on Adobe Experience Manager Assets
 
 
@@ -297,12 +310,6 @@ As an administrator, you can now disable the postprocessing and generation of UU
 Disabling postprocessing for a folder also affects all its child folders. However, Experience Manager Guides now offers the ability to selectively enable postprocessing for individual child folders within the ignored folder.
 
 Learn how to [disable postprocessing for a folder](../cs-install-guide/conf-folder-post-processing.md).
-
-
-
-
-
-
 
 
 ## Enhancements in the data source connectors
@@ -337,24 +344,4 @@ Then, as an author, connect with the data sources to create content snippets or 
 View more details about the data source connectors and how to [configure a data source connector from the user interface](../cs-install-guide/conf-data-source-connector-tools.md).
 
 Learn how to [use data from your data source](../user-guide/web-editor-content-snippet.md).
-
-
-
-## Locate an open file in the repository view of the Web Editor
-
-Select the **Always locate files in the repository** option in the **User Preferences** to navigate quickly and locate your file in the repository view. You don't have to search manually for it. 
-
-While editing, this feature also helps you easily view the file's location within the repository hierarchy.
-
-For more details, view [locate an open file in the repository view](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view).
-
-
-## Improved handling of non-breaking spaces in the Web Editor
-
-Experience Manager Guides allows you to show a non-breaking space indicator while editing documents in the Web Editor. It also improves the handling of non-breaking spaces. 
-It converts multiple consecutive white spaces into a single space to preserve the WYSIWYG view of the document in the Web Editor. This feature also helps improve the overall appearance and professionalism of the document.
-
-
-For more details, view the [other features of the Web Editor](../user-guide/web-editor-other-features.md).
-
 
