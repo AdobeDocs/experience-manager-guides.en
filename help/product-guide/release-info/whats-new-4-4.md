@@ -21,8 +21,7 @@ Now Experience Manager Guides provides an enhanced version history feature which
 ![Version history dialog box](assets/version-history-dialog-web-editor.png){width="800" align="left"}
   *Preview the changes in the different versions of a topic.*
 
-
-Learn more about the **Version History** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
+Learn more about the **Version History** feature description in the [Left Panel (legacy)](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
 ## Manage condition presets 
 
@@ -83,7 +82,7 @@ Learn more about how to [create and manage baselines from the Web Editor](../use
 
 ## Enhanced Map collection dashboard
 
-Experience Manager Guides provides an enhanced Map collection dashboard. In a map collection, you can quickly configure the metadata properties in bulk for the DITA maps. This feature is handy as you don’t have to update the metadata properties for each DITA map individually.
+Experience Manager Guides provides an enhanced Map collection dashboard. In a map collection, you can quickly configure the metadata properties in bulk for the DITA maps. This feature is handy as you don't have to update the metadata properties for each DITA map individually.
  
 Now, you can view the filename of the DITA map. You can also view the Baselines. This helps you quickly find the baseline used for a preset.
 
@@ -110,7 +109,7 @@ Learn more about how to [translate content](../user-guide/translation.md).
 You can now easily find the elements in the Insert Element dialog box.  You can type a string in the search box and get a list of all the valid elements that begin with the entered string.
 
 For example, while editing a paragraph you want to insert an element, then you can search a character 't' to get
-all valid elements that begin with ‘t’.
+all valid elements that begin with 't'.
 
 
 ![Insert dialog box](assets/insert-element.png){width="300" align="left"}
@@ -171,12 +170,12 @@ Cross-map links (XREF with scope peer) getting rendered in the AEM Site output a
 
 ## Configure the URL of the AEM Site output to use the document title
 
-Experience Manager Guides allows you, as an administrator, to configure the URL of the AEM Site output. If the filename doesn’t exist or contains all special characters, you can configure to replace them with a separator in the URL of the AEM Site output. You can also replace them with the first child topic’s name. Learn how to [configure the URL of the AEM Site output to use the document title](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).
+Experience Manager Guides allows you, as an administrator, to configure the URL of the AEM Site output. If the filename doesn't exist or contains all special characters, you can configure to replace them with a separator in the URL of the AEM Site output. You can also replace them with the first child topic's name. Learn how to [configure the URL of the AEM Site output to use the document title](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).
 
 
 ## Publish multiple output presets in parallel
 
-Experience Manager provides the feature to create baselines by automatically picking the topics according to the label applied to them. Now, you can also seamlessly publish multiple output presets with automatic baselines of the same DITA map. You don’t have to publish only one preset at a time but can easily publish multiple output presets in parallel.
+Experience Manager provides the feature to create baselines by automatically picking the topics according to the label applied to them. Now, you can also seamlessly publish multiple output presets with automatic baselines of the same DITA map. You don't have to publish only one preset at a time but can easily publish multiple output presets in parallel.
 
 Learn more about how to [create and manage baselines from the Web Editor](../user-guide/web-editor-baseline.md).
 
@@ -258,7 +257,7 @@ Besides publishing the pages according to the source document, you can also chan
 
 ### Sort glossary terms based on sort keys
 
-Now, you can also sort the glossary terms based on sort keys. You can use the tag ‘sort-as’ to define a sort key for the glossary terms. Then, you can sort them based on sort keys in place of the terms. This allows you to sort the glossary terms according to terms used in different languages. You can also define a single sort key for a glossary term with a phrase or a group of words. 
+Now, you can also sort the glossary terms based on sort keys. You can use the tag 'sort-as' to define a sort key for the glossary terms. Then, you can sort them based on sort keys in place of the terms. This allows you to sort the glossary terms according to terms used in different languages. You can also define a single sort key for a glossary term with a phrase or a group of words. 
 For more details, view the [Advanced PDF Settings](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
 
 
