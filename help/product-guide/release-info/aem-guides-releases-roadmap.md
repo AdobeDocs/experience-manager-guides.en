@@ -21,7 +21,9 @@ The releases for Experience Manager Guides as a Cloud Service are planned as fol
 |Adobe Experience Manager Guides 2024.2.0|Automatic Update|March 06, 2024|[Here](whats-new-2024-2-0.md)|[Here](upgrade-instructions-2024-2-0.md)|[Here](fixed-issues-2024-2-0.md)|Updated|
 |Adobe Experience Manager Guides 2024.4.0|Automatic Update|April 26, 2024|[Here](whats-new-2024-04-0.md)|[Here](upgrade-instructions-2024-04-0.md)|[Here](fixed-issues-2024-04-0.md)|Updated|
 |Adobe Experience Manager Guides 2024.6.0|Automatic Update|June 10-12, 2024|[Here](whats-new-2024-06-0.md)|[Here](upgrade-instructions-2024-06-0.md)|[Here](fixed-issues-2024-06-0.md)|Updated|
-|Adobe Experience Manager Guides 2024.8.0|Automatic Update|Mid-Aug, 2024||||Target|
+|Adobe Experience Manager Guides 2024.9.0|Automatic Update|September 02-04, 2024||||To ensure the best experience, we’re moving this release to the next cycle, as we have identified a showstopper. We’ll share the updated release date shortly.|
+
+{style="table-layout:auto"}
 
 ## [!DNL Experience Manager Guides] On-premise and Managed Services (2024 calendar) {#aem-guides-roadmap-on-prem}
 
@@ -30,4 +32,4 @@ Product updates in terms of new features, enhancements, and bug fixes for suppor
 | Release |Event |Schedule |What's new | Upgrade instructions | Status|
 |---|---|---|---|---|---|
 |Adobe Experience Manager Guides 4.4.0|Release|Jan 29, 2024|[Here](whats-new-4-4.md)|[Here](upgrade-instructions-4-4.md)|Released|
-|Adobe Experience Manager Guides 4.6.0|Release|July 26-30, 2024|||Target|
+|Adobe Experience Manager Guides 4.6.0|Release|August 26-30, 2024|||Target|
