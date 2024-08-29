@@ -56,7 +56,7 @@ Perform the following checks on non-UUID version 4.3.1:
     ![compatibility assessment tab in migration](assets/migration-compatibility-assessment.png)
 
 
-1. If the error appears, then analyise the logs and fix those errors. You can re-run the compatibility matrix after fixing the errors.
+1. If the error appears, then analyze the logs and fix those errors. You can re-run the compatibility matrix after fixing the errors.
 
 1. Select **Configure Validations** from the left panel. Then, **Select map** and **Select preset** of the map to configure them. The current output validation list displays the output files present before migration and can be validated against the output files generated post-migration later. 
 
@@ -77,7 +77,7 @@ For more details, view [purge older versions](../install-guide/version-managemen
 
 1. Execute UUID migration only on an Author instance.
 1. Ensure the following infrastructure readiness:
-    * Author instance is upsized in terms of CPU and memory to support faster processing and additional memory needed for bulk activity. for example, if the current allocated CPU and memory are 8 vCPU and 24 GB heap - then use double the size for this activity. 
+    * Author instance is upsized in terms of CPU and memory to support faster processing and additional memory needed for bulk activity. for example, if the current allocated CPU and memory are 8 vCPU and 24 GB heap, then use double the size for this activity. 
     * The overall disk space and temporary disk space `(crx-quickstart directory)` should have a buffer of 10 times what is already consumed. Once you complete the migration, you can reclaim most of the disk space by running compaction.
     * Do run **Offline Tar compaction** before starting this activity.
     * Make sure that no indexing or system maintenance is planned during the window of this migration.
@@ -162,21 +162,22 @@ For more details, view [purge older versions](../install-guide/version-managemen
 
 |Summary after process completion|How to interpret?|Action|
 |---|---|---|
-|Total number of files: 345997| Total number of files processed under given set of folders | NA|
-|Number of files upgraded successfully: 344516| Number of files migrated successfully to UUID |NA|
-|Number of files upgraded with errors: 29| Errors occurred in these files and should be the same as those reported in the premigration step| NA|
-|Number of files skipped: 1452| Some files in the DAM repository may have subassets, and those subassets are skipped as they are not eligible for UUID migration|NA|
-|Number of files failed to upgrade: 0<br><br>Total time taken: 2:40:06.157| If there are then the logs have to be analyzed for any issues| Check the exception, you may have to fix the error and re-run the migration|
+|Total number of files: 345997| Total number of files processed under the given set of folders. | NA|
+|Number of files upgraded successfully: 344516| Number of files migrated successfully to UUID. |NA|
+|Number of files upgraded with errors: 29| Errors occurred in these files and should be the same as those reported in the premigration step.| NA|
+|Number of files skipped: 1452| Some files in the DAM repository may have subassets, and those subassets are skipped as they are not eligible for UUID migration.|NA|
+|Number of files failed to upgrade: 0| If the count isn't 0, then the logs have to be analyzed for any issues.| Check the exception, you may have to fix the error and re-run the migration.|
+|Total time taken: 2:40:06.157|||
 
 **Step: Upgrade Baselines**
 
 |Summary after process completion|How to interpret?|Action|
 |---|---|---|
-| Total number of files: 4833 |Number of DITA maps that had at least 1 baseline |
-|Number of files upgraded successfully: 4705|Number of DITA maps, which were successfully upgraded with all baselines|  
-|Number of files upgraded with errors: 0| Number of DITA maps whose baselines did not upgrade|
-|Number of files skipped: 1647| Number of DITA maps that did not have any baseline|
-| Number of files failed to upgrade: 128| Number of baseline objects, which were not valid (they were empty)- list can be seen in the report (excel)| Check if there are errors other than `baselineObj not found on`|
+| Total number of files: 4833 |Number of DITA maps with at least 1 baseline. |
+|Number of files upgraded successfully: 4705|Number of DITA maps, successfully upgraded with all baselines.|  
+|Number of files upgraded with errors: 0| Number of DITA maps whose baselines didn't upgrade.|
+|Number of files skipped: 1647| Number of DITA maps without any baseline.|
+| Number of files failed to upgrade: 128| The number of baseline objects that were not valid (they were empty) is listed in the report (Excel).| Check if there are errors other than: `baselineObj not found on`|
 
 
 ## Postmigration 
