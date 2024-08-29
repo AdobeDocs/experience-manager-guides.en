@@ -127,7 +127,7 @@ For more details, view [purge older versions](../install-guide/version-managemen
 
 1. Select **System upgrade** from the left panel to run the migration. It's recommended to migrate all the data at once, as the system optimally handles batching internally. Only files that are not DITA assets and are not used in any DITA assets can be skipped for migration.
 
-1. (Optional) Select the folders for which you want to skip the migration. Use this option to migrate these folders later or skip migrating them. Ensure that these folders don't have any DITA assets and aren't referred by (and in the future won't be referred by) any DITA assets.
+1. (Optional) Select the folders for which you want to skip the migration. Use this option to migrate these folders later or skip migrating them. Ensure that these folders don't have any DITA assets and aren't referred by (and in the future won't be referred by) any DITA assets. For example, `content/dam/projects`.
 
 1. Select *Enable dita asset backup* to create a backup of asset before migration. This backup is used to rollback in case there is an error in migrating a file. The backup is deleted, if the migration is successful. However, this slows down the migration process.
 
