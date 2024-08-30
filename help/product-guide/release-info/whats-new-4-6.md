@@ -59,15 +59,16 @@ Now, Content Fragment publishing only replaces the mapped content instead of ove
    For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
 
 ### AEM Site preset reorganization
+
 The settings have been reorganized to help you quickly configure the output preset and generate the AEM Site output. 
 You can view the General, Content, and Cross map reference tabs.
-a.	General: This contains the general configurations to generate the output. You can specify the site and output path, existing output pages, delete the previously generated pages for removed topics, select the design template, retain the temporary files, and specify the post-generation workflow.
-b.	Content: This contains the different content settings. You can filter the content for publishing and select the metadata properties.
-c.	Cross map references: This lists## topics containing cross map references or xrefs to topics available in other DITA maps. It also shows the parent maps and the available presets for the cross map references.
+- **General**: This tab contains the general configurations to generate the output. You can specify the site and output path, existing output pages, delete the previously generated pages for removed topics, select the design template, retain the temporary files, and specify the post-generation workflow.
+**Content**: This tab contains the different content settings. You can filter the content for publishing and select the metadata properties.
+**Cross map references**: This tab lists the topics containing cross map references or xrefs to topics available in other DITA maps. It also shows the parent maps and the available presets for the cross map references.
 
 You can create the existing Adobe Experience Manager Site presets by selecting the **Use legacy component mapping** option in the New output preset dialog box.
 
-###  Cross map references from AEM Sites presets in the Web Editor
+### Cross map references from AEM Sites presets in the Web Editor
 
 The latest enhancement to Experience Manager Guides introduces cross map references in the AEM Sites presets of the Web Editor. In the Web Editor, users can specify the publishing context for linked files from other maps by selecting the AEM Site output preset of the DITA map they wish to publish.  You can specify the publishing context for a list of cross map references or xrefs to topics available in other DITA maps. For example, Topic 1 in Map A contains an xref to Topic 2, whose parent is Map B.  You can select a specific preset or the most recently published output for each source topic to generate the output. 
 
