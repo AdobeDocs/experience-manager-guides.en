@@ -30,13 +30,13 @@ Learn how to [publish Experience Manager Sites pages](../user-guide/publish-aem-
 
 An Experience Fragment is a modular content unit within Adobe Experience Manager that integrates content and layout. Experience Fragments are instrumental in creating consistent and engaging experiences, which can be further reused across multiple channels. For example, you can create experience fragments for headers or footers with branding elements, promotional banners, customer testimonials, and event promotions.
 
+   ![file properties options tab](./assets/file-properties-outputs-4-6.png) {width="300" align="left"}
+*Publish and view the Experience Fragments of a topic from the **Outputs** section in the **File Properties**.*
 
 Experience Manager Guides now allows you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic or its elements and an Experience Fragment template.  
 
   You can also create Experience Fragment variations by using the condtion filters. 
  Learn more about how to [publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
-
-
 
 
 
@@ -47,7 +47,7 @@ Experience Manager Guides also provides some helpful enhancements in Content Fra
 - Experience Manager Guides allows you to publish a topic or its elements to a content fragment.
 
  - You can publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**.
-    ![file properties options tab](./assets/file-properties-outputs-tab-4-6.png) {width="300" align="left"}
+
 
  - You can easily create Content Fragment variations by filtering content with conditions while publishing to a Content Fragment. 
 
@@ -57,6 +57,21 @@ Now, Content Fragment publishing only replaces the mapped content instead of ove
    ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](assets/content-fragment-mapping.png)
 
    For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
+
+### AEM Site preset reorganization
+The settings have been reorganized to help you quickly configure the output preset and generate the AEM Site output. 
+You can view the General, Content, and Cross map reference tabs.
+a.	General: This contains the general configurations to generate the output. You can specify the site and output path, existing output pages, delete the previously generated pages for removed topics, select the design template, retain the temporary files, and specify the post-generation workflow.
+b.	Content: This contains the different content settings. You can filter the content for publishing and select the metadata properties.
+c.	Cross map references: This lists## topics containing cross map references or xrefs to topics available in other DITA maps. It also shows the parent maps and the available presets for the cross map references.
+
+You can create the existing Adobe Experience Manager Site presets by selecting the **Use legacy component mapping** option in the New output preset dialog box.
+
+###  Cross map references from AEM Sites presets in the Web Editor
+
+The latest enhancement to Experience Manager Guides introduces cross map references in the AEM Sites presets of the Web Editor. In the Web Editor, users can specify the publishing context for linked files from other maps by selecting the AEM Site output preset of the DITA map they wish to publish.  You can specify the publishing context for a list of cross map references or xrefs to topics available in other DITA maps. For example, Topic 1 in Map A contains an xref to Topic 2, whose parent is Map B.  You can select a specific preset or the most recently published output for each source topic to generate the output. 
+
+You can also add the same topic with different publishing contexts as cross-references, providing greater flexibility and control over their content. For example, Topic 3 can be added as a cross map reference twice, and the parent map of the first link is Map B, while the parent map of the second link is Map C.
 
 
 

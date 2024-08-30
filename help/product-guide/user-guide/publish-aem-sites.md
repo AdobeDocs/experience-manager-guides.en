@@ -8,7 +8,7 @@ role: User
 # Publish Adobe Experience Manager Sites pages
 
 
-Experience Manager Sites page refers to content published on the Adobe Experience Manager website. Experience Manager Guides allow you to publish an independent topic to a Sites page. 
+Experience Manager Sites page refers to content published on the Adobe Experience Manager website. Experience Manager Guides allow you to publish a standalone topic to a Sites page. 
 
 This feature allows you to publish a topic and its elements without creating a DITA map and the output presets. You can easily update the topic, republish the Sites page, and reuse it across different web pages. Using this feature you can easily publish stand alone articles or marketing content. 
 
@@ -24,10 +24,6 @@ To generate an Sites page, perform the following steps:
 1. Select **New Output** ![new output icon](./images/Add_icon.svg) from the **Outputs** section in the **File Properties** of a topic.
 1. Select **Sites page**.  
 
-
-   
-
-  
 
 1. In the **Generate Sites page** dialog box, fill in the following details:
         ![Add the path and template details in Generate Sites page](images/aem-sites-page-generate.png){width="500" align="left"}
