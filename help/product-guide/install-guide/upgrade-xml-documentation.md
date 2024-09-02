@@ -1102,11 +1102,9 @@ After you install Experience Manager Guides, you may merge the various configura
 
 ## Steps to index the existing content
 
->[!NOTE]
->
-> You need not perform these steps if you upgrade from 4.3.0 or 4.3.1.
 
-Perform the following steps for indexing the existing content and use the new find and replace text at map level:
+
+Perform the following steps for indexing the existing content:
 
 - Run a POST request to the server \(with correct authentication\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: You can pass specific paths of the maps to index them, by default all maps will be indexed || Example : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
