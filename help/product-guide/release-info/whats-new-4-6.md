@@ -23,11 +23,11 @@ The following content publishing enhancements have been made in the 4.6.0 releas
 An Experience Fragment is a modular content unit within Adobe Experience Manager that integrates content and layout. Experience Fragments are instrumental in creating consistent and engaging experiences, which can be further reused across multiple channels. For example, you can create experience fragments for headers or footers with branding elements, promotional banners, customer testimonials, and event promotions.
 
    ![file properties options tab](./assets/file-properties-outputs-4-6.png) {width="300" align="left"}
+
 *Publish and view the Experience Fragments of a topic from the **Outputs** section in the **File Properties**.*
 
-Experience Manager Guides now allows you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic or its elements and an Experience Fragment template.  
+Experience Manager Guides now allows you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic or its elements and an Experience Fragment template. You can also create Experience Fragment variations by using the conditions filters. 
 
-  You can also create Experience Fragment variations by using the conditions filters. 
  Learn more about how to [publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
 
 
@@ -43,7 +43,8 @@ Experience Manager Guides also provides some helpful enhancements in Content Fra
 
  - You can easily create Content Fragment variations by filtering content with conditions while publishing to a Content Fragment. 
 
-Use the new mapping interface to easily select and publish the elements to a Content Fragment. 
+- Use the new mapping interface to easily select and publish the elements to a Content Fragment. 
+
 Now, Content Fragment publishing only replaces the mapped content instead of overwriting the complete Content Fragment. This feature allows a Content Fragment to contain data from multiple sources, such as multiple topics or the Content Fragment editor.
 
    ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](assets/content-fragment-mapping.png)
@@ -56,9 +57,7 @@ The settings have been reorganized to help you quickly configure the output pres
 You can view the **General**, **Content**, and **Cross map reference** tabs:
 - **General**: Contains the general configurations to generate the output. You can specify the site and output path, delete or overwrite existing output pages, delete the previously generated pages for removed topics, select the design template, retain the temporary files, and specify the post-generation workflow.
 - **Content**: Contains the settings applicable to the content for output generation. You can filter the content, select the baseline of the DITA map, and the metadata properties for publishing. 
-- **Cross map references**: This list contains topics containing cross-map references with scope =”peer”. You can also select the publishing contexts, including the parent maps and the available presets for these cross map references.
-
-This tab appears if you use the Experience Manager Guides (UUID) version.
+- **Cross map references**: This list contains topics containing cross-map references with scope =”peer”. You can also select the publishing contexts, including the parent maps and the available presets for these cross map references. This tab appears if you use the Experience Manager Guides (UUID) version.
 
 You can create the existing AEM Site presets by selecting the **Use legacy component mapping** option in the New output preset dialog box.
 
@@ -70,7 +69,7 @@ Cross map references in Experience Manager Guides help improve content navigatio
 
   You can specify the publishing context for a list of cross map references to topics available in other DITA maps with scope=”peer”. For example, Topic 1 in Map A contains a reference to Topic 2. Topic 2 can be present in single or multiple maps.  You can select the parent map and a specific preset or the most recently published output for each link.  
 
-If the same topic is referred to more than once in a file, then you can add a different publishing context for each instance, providing greater flexibility and control over their content. For example, Topic 3 is present in both Map B and Map C. Topic 1 contains two references to Topic 3. You can choose Map B as a parent map for the first link and Map C as the parent for the second link.
+If the same topic is referred to more than once in a file, then you can add a different publishing context for each instance. This provides greater flexibility and control over their content. For example, Topic 3 is present in both Map B and Map C. Topic 1 contains two references to Topic 3. You can choose Map B as a parent map for the first link and Map C as the parent for the second link.
 
  ![Legacy aem site preset](assets/aem-sites-legacy.png) 
  
