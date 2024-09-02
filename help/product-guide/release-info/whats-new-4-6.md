@@ -56,7 +56,7 @@ Now, Content Fragment publishing only replaces the mapped content instead of ove
 The settings have been reorganized to help you quickly configure the output preset and generate the AEM Sites output. 
 You can create the existing AEM Sites presets by selecting the **Use legacy component mapping** option in the **New output preset** dialog box.
 
-You can view the **General**, **Content**, and **Cross map reference** tabs:
+View the **General**, **Content**, and **Cross map reference** tabs in the AEM Sites presets:
 - **General**: Contains the general configurations to generate the output. You can specify the site and output path, delete or overwrite existing output pages, delete the previously generated pages for removed topics, select the design template, retain the temporary files, and specify the post-generation workflow.
 - **Content**: Contains the settings applicable to the content for output generation. You can select the filters, the baseline of the DITA map, and the metadata properties for publishing. 
 - **Cross map references**: This list contains topics containing cross-map references with scope =”peer”. You can also select the publishing contexts, including the parent maps and the available presets for these cross map references. This tab appears if you use the Experience Manager Guides (UUID) version.
