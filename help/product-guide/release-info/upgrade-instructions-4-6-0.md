@@ -3,7 +3,7 @@ title: Release Notes | Upgrade instructions for Adobe Experience Manager Guides 
 description: Learn how to upgrade to  4.6.0 release of Adobe Experience Manager Guides
 role: Leader
 ---
-# Upgrade instructions for the 4.6.0 release (August 2024)
+# Upgrade instructions for the 4.6.0 release (September 2024)
 
 This article covers the upgrade instructions and the  compatibility matrix for 4.6.0 release of Adobe Experience Manager Guides.
 

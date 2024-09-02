@@ -3,7 +3,7 @@ title: Release Notes | What's New in Adobe Experience Manager Guides 4.4.0 relea
 description: Learn about the new and enhanced features in the 4.4.0 release of Adobe Experience Manager Guides
 role: Leader
 ---
-# What's new in the 4.6.0 release (August 2024)
+# What's new in the 4.6.0 release (September 2024)
 
 This article covers the new and enhanced features in version 4.6.0 of Adobe Experience Manager Guides.
 
@@ -16,15 +16,7 @@ Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade
 
 The following content publishing enhancements have been made in the 4.6.0 release: 
 
-### Effortless publishing of single topics to Sites pages
 
-Experience Manager Guides now allows you to publish individual topics directly to Adobe Experience Manager Sites pages. This feature lets you publish a topic and its elements independently, ensuring your content is always up-to-date and relevant. The ability to update topics and republish them to Sites pages quickly means that your web content remains dynamic and responsive to changing needs.  You can use this feature to publish marketing materials or any other standalone content quickly.
-
-One of the standout advantages is the ability to reuse published topics across different web pages, enhance content consistency, and reduce redundancy. Additionally, Experience Manager Guides lets you apply conditions and filter content to cater to different audience segments, providing a personalized experience for your users. This targeted approach ensures that the right content reaches the right audience, maximizing engagement and effectiveness.
-
-![Add the path and template details in Generate Sites page](assets/aem-sites-page-generate.png){width="500" align="left"}
-
-Learn how to [publish Experience Manager Sites pages](../user-guide/publish-aem-sites.md).
 
 ### Publish a topic or its elements to an Experience Fragment
 
@@ -104,6 +96,14 @@ You can also download the metadata.xml file if you have selected any metadata pr
 
 For more details about the presets, view [Understanding the output presets](../user-guide/generate-output-understand-presets.md).
 
+
+### Option to either choose flat or nested file hierarchy for HTML5 output
+
+Now, Experience Manager Guides allows you to retain the flat folder hierarchy for the temporary files wherein the entire content is published in HTML5 output format and saved in a single folder.
+If you don't choose to flatten the file hierarchy, the HTML5 output is generated in a nested folder hierarchy. This implies that the content's original folder structure, with files organized into subfolders, is replicated in the output. This nested folder hierarchy allows for more complex organization and categorization of files, making it easier to manage and navigate large volumes of data.
+
+
+Learn more about how to [generate HTML5 output](../user-guide/generate-output-html5.md)
 
 
 ## Editor enhancements
@@ -211,7 +211,7 @@ While editing, this feature also helps you easily view the file's location withi
 
 For more details, view [locate an open file in the repository view](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view).
 
-## Improved handling of non-breaking spaces in the Web Editor
+### Improved handling of non-breaking spaces in the Web Editor
 
 Experience Manager Guides allows you to show a non-breaking space indicator while editing documents in the Web Editor. It also improves the handling of non-breaking spaces. 
 It converts multiple consecutive white spaces into a single space to preserve the WYSIWYG view of the document in the Web Editor. This feature also helps improve the overall appearance and professionalism of the document.
@@ -248,13 +248,6 @@ Learn how to [work with the Advanced Map Editor](../user-guide/map-editor-advanc
 
 
 
-## Option to either choose flat or nested file hierarchy for HTML5 output
-
-Now, Experience Manager Guides allows you to retain the flat folder hierarchy for the temporary files wherein the entire content is published in HTML5 output format and saved in a single folder.
-If you don't choose to flatten the file hierarchy, the HTML5 output is generated in a nested folder hierarchy. This implies that the content's original folder structure, with files organized into subfolders, is replicated in the output. This nested folder hierarchy allows for more complex organization and categorization of files, making it easier to manage and navigate large volumes of data.
-
-
-Learn more about how to [generate HTML5 output](../user-guide/generate-output-html5.md)
 
 
 ## Content lifecycle management enhancements

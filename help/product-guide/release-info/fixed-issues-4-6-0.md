@@ -5,7 +5,7 @@ role: Leader
 
 ---
 
-# Fixed issues in the 4.6.0 release (August 2024)
+# Fixed issues in the 4.6.0 release (September 2024)
 
 
 This article covers the bugs fixed in various areas of 4.6.0 release of Adobe Experience Manager Guides.
