@@ -62,7 +62,7 @@ This tab appears if you use the Experience Manager Guides (UUID) version.
 
 You can create the existing AEM Site presets by selecting the **Use legacy component mapping** option in the New output preset dialog box.
 
-###  Cross map references from AEM Site presets in the Web Editor
+### Cross map references from AEM Site presets in the Web Editor
 
 The latest enhancement to Experience Manager Guides introduces cross map references in the AEM Site presets of the Web Editor.
 Cross map references in Experience Manager Guides help improve content navigation, increase content reuse, and enhance user experience.
