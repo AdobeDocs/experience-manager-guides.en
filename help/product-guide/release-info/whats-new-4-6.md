@@ -26,9 +26,9 @@ An Experience Fragment is a modular content unit within Adobe Experience Manager
 
 *Publish and view the Experience Fragments of a topic from the **Outputs** section in the **File Properties**.*
 
-Experience Manager Guides now allows you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic or its elements and an Experience Fragment template. You can also create Experience Fragment variations by using the conditions filters. 
+Experience Manager Guides now allows you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic or its elements and an Experience Fragment template. You can also create Experience Fragment variations by using the condition filters. 
 
- Learn more about how to [publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
+ Learn more about how to [Publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
 
 
 
@@ -51,19 +51,21 @@ Now, Content Fragment publishing only replaces the mapped content instead of ove
 
    For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
 
-### AEM Site preset reorganized for ease of use
+### AEM Sites preset reorganized for ease of use
 
-The settings have been reorganized to help you quickly configure the output preset and generate the AEM Site output. 
+The settings have been reorganized to help you quickly configure the output preset and generate the AEM Sites output. 
+You can create the existing AEM Sites presets by selecting the **Use legacy component mapping** option in the **New output preset** dialog box.
+
 You can view the **General**, **Content**, and **Cross map reference** tabs:
 - **General**: Contains the general configurations to generate the output. You can specify the site and output path, delete or overwrite existing output pages, delete the previously generated pages for removed topics, select the design template, retain the temporary files, and specify the post-generation workflow.
-- **Content**: Contains the settings applicable to the content for output generation. You can filter the content, select the baseline of the DITA map, and the metadata properties for publishing. 
+- **Content**: Contains the settings applicable to the content for output generation. You can select the filters, the baseline of the DITA map, and the metadata properties for publishing. 
 - **Cross map references**: This list contains topics containing cross-map references with scope =”peer”. You can also select the publishing contexts, including the parent maps and the available presets for these cross map references. This tab appears if you use the Experience Manager Guides (UUID) version.
 
-You can create the existing AEM Site presets by selecting the **Use legacy component mapping** option in the New output preset dialog box.
 
-### Cross map references from AEM Site presets in the Web Editor
 
-The latest enhancement to Experience Manager Guides introduces cross map references in the AEM Site presets of the Web Editor.
+### Cross map references from AEM Sites presets in the Web Editor
+
+The latest enhancement to Experience Manager Guides introduces cross map references in the AEM Sites presets of the Web Editor.
 Cross map references in Experience Manager Guides help improve content navigation, increase content reuse, and enhance user experience.
 
 
@@ -71,9 +73,9 @@ Cross map references in Experience Manager Guides help improve content navigatio
 
 If the same topic is referred to more than once in a file, then you can add a different publishing context for each instance. This provides greater flexibility and control over their content. For example, Topic 3 is present in both Map B and Map C. Topic 1 contains two references to Topic 3. You can choose Map B as a parent map for the first link and Map C as the parent for the second link.
 
- ![Legacy aem site preset](assets/aem-sites-legacy.png) 
+ ![Legacy AEM Sites preset](assets/aem-sites-legacy.png) 
  
- *Specify the publishing context for the linked topics from the **Cross map references** tab of the **AEM Site** preset.*
+ *Specify the publishing context for the linked topics from the **Cross map references** tab of the **AEM Sites** preset.*
 
 
 
@@ -103,7 +105,7 @@ For more details, view [support for Markdown documents](../web-editor/native-pdf
 
 ### Download the temporary file while generating the output through DITA-OT
 
-You can also download the temporary files generated when you publish the AEM Site, HTML, Custom, JSON, or PDF output through DITA-OT. This feature helps you to analyze any issues that might occur during the output generation process and troubleshoot effectively.  
+You can also download the temporary files generated when you publish the AEM Sites, HTML, Custom, JSON, or PDF output through DITA-OT. This feature helps you to analyze any issues that might occur during the output generation process and troubleshoot effectively.  
 You can also download the metadata.xml file if you have selected any metadata properties that have been passed to the output generated using DITA-OT. 
 
 For more details about the presets, view [Understanding the output presets](../user-guide/generate-output-understand-presets.md).
