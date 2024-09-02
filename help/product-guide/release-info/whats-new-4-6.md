@@ -27,7 +27,7 @@ An Experience Fragment is a modular content unit within Adobe Experience Manager
 
 Experience Manager Guides now allows you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic or its elements and an Experience Fragment template.  
 
-  You can also create Experience Fragment variations by using the condtion filters. 
+  You can also create Experience Fragment variations by using the conditions filters. 
  Learn more about how to [publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
 
 
@@ -50,21 +50,34 @@ Now, Content Fragment publishing only replaces the mapped content instead of ove
 
    For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
 
-### AEM Site preset reorganization
+### AEM Site preset reorganized for ease of use
 
 The settings have been reorganized to help you quickly configure the output preset and generate the AEM Site output. 
-You can view the General, Content, and Cross map reference tabs.
-- **General**: This tab contains the general configurations to generate the output. You can specify the site and output path, existing output pages, delete the previously generated pages for removed topics, select the design template, retain the temporary files, and specify the post-generation workflow.
-**Content**: This tab contains the different content settings. You can filter the content for publishing and select the metadata properties.
-**Cross map references**: This tab lists the topics containing cross map references or xrefs to topics available in other DITA maps. It also shows the parent maps and the available presets for the cross map references.
+You can view the **General**, **Content**, and **Cross map reference** tabs:
+- **General**: Contains the general configurations to generate the output. You can specify the site and output path, delete or overwrite existing output pages, delete the previously generated pages for removed topics, select the design template, retain the temporary files, and specify the post-generation workflow.
+- **Content**: Contains the settings applicable to the content for output generation. You can filter the content, select the baseline of the DITA map, and the metadata properties for publishing. 
+- **Cross map references**: This list contains topics containing cross-map references with scope =”peer”. You can also select the publishing contexts, including the parent maps and the available presets for these cross map references.
 
-You can create the existing Adobe Experience Manager Site presets by selecting the **Use legacy component mapping** option in the New output preset dialog box.
+This tab appears if you use the Experience Manager Guides (UUID) version.
 
-### Cross map references from AEM Sites presets in the Web Editor
+You can create the existing AEM Site presets by selecting the **Use legacy component mapping** option in the New output preset dialog box.
 
-The latest enhancement to Experience Manager Guides introduces cross map references in the AEM Sites presets of the Web Editor. In the Web Editor, users can specify the publishing context for linked files from other maps by selecting the AEM Site output preset of the DITA map they wish to publish.  You can specify the publishing context for a list of cross map references or xrefs to topics available in other DITA maps. For example, Topic 1 in Map A contains an xref to Topic 2, whose parent is Map B.  You can select a specific preset or the most recently published output for each source topic to generate the output. 
+###  Cross map references from AEM Site presets in the Web Editor
 
-You can also add the same topic with different publishing contexts as cross-references, providing greater flexibility and control over their content. For example, Topic 3 can be added as a cross map reference twice, and the parent map of the first link is Map B, while the parent map of the second link is Map C.
+The latest enhancement to Experience Manager Guides introduces cross map references in the AEM Site presets of the Web Editor.
+Cross map references in Experience Manager Guides help improve content navigation, increase content reuse, and enhance user experience.
+
+
+  You can specify the publishing context for a list of cross map references to topics available in other DITA maps with scope=”peer”. For example, Topic 1 in Map A contains a reference to Topic 2. Topic 2 can be present in single or multiple maps.  You can select the parent map and a specific preset or the most recently published output for each link.  
+
+If the same topic is referred to more than once in a file, then you can add a different publishing context for each instance, providing greater flexibility and control over their content. For example, Topic 3 is present in both Map B and Map C. Topic 1 contains two references to Topic 3. You can choose Map B as a parent map for the first link and Map C as the parent for the second link.
+
+ ![Legacy aem site preset](assets/aem-sites-legacy.png) 
+ 
+ *Specify the publishing context for the linked topics from the **Cross map references** tab of the **AEM Site** preset.*
+
+
+
 
 
 
@@ -97,7 +110,7 @@ You can also download the metadata.xml file if you have selected any metadata pr
 For more details about the presets, view [Understanding the output presets](../user-guide/generate-output-understand-presets.md).
 
 
-### Option to either choose flat or nested file hierarchy for HTML5 output
+### Option to either choose a flat or nested file hierarchy for HTML5 output
 
 Now, Experience Manager Guides allows you to retain the flat folder hierarchy for the temporary files wherein the entire content is published in HTML5 output format and saved in a single folder.
 If you don't choose to flatten the file hierarchy, the HTML5 output is generated in a nested folder hierarchy. This implies that the content's original folder structure, with files organized into subfolders, is replicated in the output. This nested folder hierarchy allows for more complex organization and categorization of files, making it easier to manage and navigate large volumes of data.
@@ -182,7 +195,7 @@ Enjoy benefits such as quicker access to relevant files and a more intuitive use
  
 Learn more about the **Filter Search** feature in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
-### Grouped condtions for enhanced content organization
+### Grouped conditions for enhanced content organization
 
 Experience Manager Guides now allows you to group conditions and present them in a nested hierarchy, allowing you to add multiple conditions to a single group. By grouping conditions, you can better organize and apply them across your content.
 
@@ -224,7 +237,7 @@ For more details, view the [other features of the Web Editor](../user-guide/web-
 
 Now, the Content Properties **Type** appears as a dropdown menu. You can view and select the tags of the complete hierarchy for the current tag from the dropdown.
 
-This dropdown menu helps you quicly access the content properties for the selected tag.
+This dropdown menu helps you quickly access the content properties for the selected tag.
 
 
  ![type dropdown menu in content properties](assets/content-properties-type.png){width="300" align="left"}
@@ -264,7 +277,7 @@ For example, if you need to translate your content for some countries in Europe,
 
 ![translation panel](assets/translation-languages-2404.png){width="300" align="left"}
 
-*Select the language groups or languages you want to translate your documents.* 
+*Select the language groups or languages that you want to translate your documents.* 
 
 >[!NOTE]
 >
