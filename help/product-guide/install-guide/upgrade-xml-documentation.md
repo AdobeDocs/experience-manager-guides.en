@@ -1113,7 +1113,7 @@ Perform the following steps for indexing the existing content:
 -   Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
 
 
-> [!NOTE]
+>[!NOTE]
 >
 > If you are using the custom schema, you must define the path of the custom DTD and XSD catalog.xml files in the AEM repository in the **Integrate Catalogs** option.
 
