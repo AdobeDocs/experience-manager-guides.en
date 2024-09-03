@@ -59,7 +59,7 @@ You can create the existing AEM Sites presets by selecting the **Use legacy comp
 View the **General**, **Content**, and **Cross map reference** tabs in the AEM Sites presets:
 - **General**: Contains the general configurations to generate the output. You can specify the site and output path, delete or overwrite existing output pages, delete the previously generated pages for removed topics, select the design template, retain the temporary files, and specify the post-generation workflow.
 - **Content**: Contains the settings applicable to the content for output generation. You can select the filters, the baseline of the DITA map, and the metadata properties for publishing. 
-- **Cross map references**: This list contains topics containing cross-map references with scope =”peer”. You can also select the publishing contexts, including the parent maps and the available presets for these cross map references. This tab appears if you use the Experience Manager Guides (UUID) version.
+- **Cross map references**: This list contains topics containing cross-map references with scope =”peer”. You can specify the publishing context for a list of cross map references with scope=”peer” to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version.
 
 
 
@@ -98,7 +98,7 @@ Learn how to [add fields and metadata](../native-pdf/design-page-layout.md#add-f
 
 ### Support for Markdown documents in Native PDF publishing
 
-Experience Manager Guides also supports Markdown documents in Native PDF publishing. This feature is handy and helps you generate PDFs for the Markdown files in your DITA map. Markdown support in Native PDF publishing helps you easily create, manage, and share your documents.
+Experience Manager Guides also supports Markdown documents in Native PDF publishing. This feature is handy and helps you generate PDFs for the Markdown files in your DITA map. 
 
 For more details, view [support for Markdown documents](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents).
 
