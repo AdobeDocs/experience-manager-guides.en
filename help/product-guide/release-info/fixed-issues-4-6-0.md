@@ -147,7 +147,7 @@ Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade
 
 Adobe has identified the following known issues for the 4.6.0 release:
 
-- Experience Manager Guides displays an error when you cut and paste. ·       
+ 
 - Experience Manager Guides throws an error when you cut and paste the content with a spell check error.
 - Opening a new AEM Sites preset marks the topic as dirty.
 - **Save Changes** dialog box is displayed on closing the Native PDF preset even when the preset isn't edited.
