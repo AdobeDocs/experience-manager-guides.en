@@ -150,7 +150,6 @@ Adobe has identified the following known issues for the 4.6.0 release:
  
 - Experience Manager Guides throws an error when you cut and paste the content with a spell check error.
 - Opening a new AEM Sites preset marks the topic as dirty.
-- **Save Changes** dialog box is displayed on closing the Native PDF preset even when the preset isn't edited.
 - The selected panel isn't getting retained on browser refresh from the **Output** tab.
 - References are broken in the new AEM Sites output for topics not part of the DITA map.
 - Unable to drag and drop topics between two `topicrefs` in the **Author** view.
