@@ -52,12 +52,9 @@ For more details, view the [Technical requirements](../install-guide/download-in
 ### New AEM Site template version
 
 
-| Components version | Template version|
+| Components version | Site version|
 |---|---|
-
-
-
-
+|guides-components.all-1.0.0|aemg-docs.all-1.0.0 |
 
 ## Upgrade to 4.6.0 release of Experience Manager Guides
 
