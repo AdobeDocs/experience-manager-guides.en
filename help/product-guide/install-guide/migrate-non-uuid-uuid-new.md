@@ -13,7 +13,6 @@ Perform these steps to migrate your content from non-UUID version 4.3.1 to UUID 
 >[!IMPORTANT]
 >
 > * Before you start the migration process, ensure that you have:
->
 >   1.  Closed all active reviews.
 >   1.  Closed all translation tasks.
 > * Before migrating content to the UUID server, ensure that you have a non-UUID server with a compatible AEM Guides version installed on it.
@@ -21,13 +20,13 @@ Perform these steps to migrate your content from non-UUID version 4.3.1 to UUID 
 > * Currently, versions later than 4.3.1 are not supported for migration.
 
 
-## Package installation
+## Required packages
 
 Download the required packages from Adobe Software Distribution Portal, based on your version:
 
 
 1. **Pre-migration**: [com.adobe.guides.pre-uuid-migration-1.2.27.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.pre-uuid-migration-1.2.27.zip)
-1. **Download UUID version 4.3.2**: [com.adobe.fmdita-6.5-uuid-4.3.2.1977.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1977.zip)
+1. **UUID version 4.3.2**: [com.adobe.fmdita-6.5-uuid-4.3.2.1977.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1977.zip)
 1. **Migration**: [com.adobe.guides.uuid-upgrade-1.2.110.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.uuid-upgrade-1.2.110.zip)
 
 ## Premigration checks
