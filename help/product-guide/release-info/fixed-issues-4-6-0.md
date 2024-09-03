@@ -147,16 +147,16 @@ Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade
 
 Adobe has identified the following known issues for the 4.6.0 release:
 
-•	Experience Manager Guides throws an Exception when you cut and paste the content with a spell check error.
-•	Opening a new AEM Sites preset marks the topic as dirty.
-•	Save changes dialog box is displayed on closing the Native PDF preset even when the preset isn't edited.
-•	The selected panel is not getting retained on browser refresh from the Output tab.
-•	References are broken in the Native AEM Site output for topics that are not part of the map.
-•	Unable to Drag and Drop topics between two topicrefs in the Author view.
-•	Condition filtering applied in the preset isn't getting applied via ‘Download as PDF’.
-•	Single topic generation from the map panel generates all topics selected in the Native AEM Site preset.
-•	The topic’s reference appears broken in the user interface, when it's inserted from the top toolbar of the DITA map.
-•	Native PDF generation fails for a DITA map if it has any missing references.
+- Experience Manager Guides throws an Exception when you cut and paste the content with a spell check error.
+- Opening a New AEM Sites preset marks the topic as dirty.
+- **Save Changes** dialog box is displayed on closing the Native PDF preset even when the preset isn't edited.
+- The selected panel is not getting retained on browser refresh from the Output tab.
+- References are broken in the New AEM Sites output for topics that are not part of the map.
+- Unable to drag and drop topics between two `topicrefs` in the **Author** view.
+- Condition filtering applied in the preset isn't getting applied via **Download as PDF**.
+- Single topic generation from the map panel generates all topics selected in the New AEM Sites preset.
+- The topic’s reference appears broken in the user interface, when it's inserted from the top toolbar of the DITA map.
+- Native PDF generation fails for a DITA map if it has any missing references.
 
 
 
