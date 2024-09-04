@@ -33,7 +33,5 @@ Refer : [Automatically delete or disable a completed translation project](https:
 ![Automated settings to delete and disable translation project  in AEM Guides  ](../assets/translation/translation-project-image3.png)
 
 
-## 
-
 
 
