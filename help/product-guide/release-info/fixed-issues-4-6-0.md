@@ -148,14 +148,12 @@ Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade
 Adobe has identified the following known issues for the 4.6.0 release:
 
  
-- Experience Manager Guides throws an error when you cut and paste the content with a spell check error.
 - Opening a new AEM Sites preset marks the topic as dirty.
 - The selected panel isn't getting retained on browser refresh from the **Output** tab.
-- References are broken in the new AEM Sites output for topics not part of the DITA map.
 - Unable to drag and drop topics between two `topicrefs` in the **Author** view.
 - Condition filtering applied in the preset isn't getting applied via **Download as PDF**.
 - Single topic generation from the map panel generates all topics selected in the new AEM Sites preset.
-- The topic’s reference appears broken in the user interface when inserted from the top toolbar of the DITA map.
+- The topic's reference appears broken in the user interface when inserted from the top toolbar of the DITA map.
 - Native PDF generation fails for a DITA map if it has missing references.
 
 
