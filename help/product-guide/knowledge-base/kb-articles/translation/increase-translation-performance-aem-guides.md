@@ -31,7 +31,3 @@ You can continue to follow the same steps as mentioned above. Starting with vers
 Refer : [Automatically delete or disable a completed translation project](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/translate-documents-web-editor#automatically-delete-or-disable-a-completed-translation-project)
 
 ![Automated settings to delete and disable translation project  in AEM Guides  ](../assets/translation/translation-project-image3.png)
-
-
-
-
