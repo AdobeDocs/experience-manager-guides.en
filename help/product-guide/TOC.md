@@ -477,6 +477,7 @@ breadcrumb-title: AEM Guides Documentation
     - Workflows {#workflows}
       - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
     - Translation {#translation}
+      - [Best Practices to increase translation performance](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
       - [Exclude paragraphs from translation](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
     - Use Cases {#use-cases}
       - [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
