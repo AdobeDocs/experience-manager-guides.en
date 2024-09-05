@@ -13,7 +13,7 @@ Each translation project generates multiple user groups for access, leading to a
 
 **Following the best practices outlined below will help maintain an efficient environment.**
 
-## If you are on older build then  4.6(on-prem) or 2404(cloud):
+## If you are on older build than  4.6(on-prem) or 2404(cloud):
 
 -  Mark all projects as "Inactive" once translation is complete and approved.The project remains available for review and is simply marked as inactive.
     - Following these steps will help maintain overall translation performance in good health.
