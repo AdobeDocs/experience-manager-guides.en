@@ -153,6 +153,7 @@ Adobe has identified the following known issues for the 4.6.0 release:
 - Single topic generation from the map panel generates all topics selected in the **AEM Sites** preset (non-legacy).
 - The topic’s reference appears broken in the user interface when inserted from the top toolbar of the DITA map.
 - Native PDF generation fails for a DITA map if it has missing references.
+- Once a topic’s document state is updated to **Done**, the **Start a New Release** icon is only available on the **Preview** mode of the topic.
 
 
 
