@@ -1,6 +1,7 @@
 ---
 title: Use Markdown in DITA AEM Guides
-description: Migrate and use markdown in DITA AEM Guides 
+description: Migrate and use markdown in DITA AEM Guides
+exl-id: a94c0129-df40-4b61-ac60-679b2ffe7e86
 ---
 # Use Markdown in AEM Guides
 

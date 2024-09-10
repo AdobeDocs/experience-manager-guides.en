@@ -1,9 +1,9 @@
 ---
-title: Increase translation performance for your DITA files in AEM guides 
-description: Best Practices, tips and tricks to increase DITA translation project performance in AEM Guides 
+title: Increase translation performance for your DITA files in AEM guides
+description: Best Practices, tips and tricks to increase DITA translation project performance in AEM Guides
 feature: Translation
 role: User, Admin
-
+exl-id: d7e4f3ae-2143-4767-b7ab-c89f5e5eef59
 ---
 # Best practices to follow for translation in AEM Guides 
 
