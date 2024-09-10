@@ -141,6 +141,8 @@ Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade
 - References are not correctly filtered as Direct or Indirect while translating into multiple languages. (17891)
 - XLIFF-based translation fails with error for "Non-admin" users.(17296)
 - The title of translated files reverts to English after the second translation, even though the content has been translated. (15200)
+- When selecting a translation project with the **Translation Status** as **In progress**, an incorrect page opens. (13248)
+- The translation projects created by selecting the **Create structure only** option don't have UUIDs assigned. (18980)
 
 
 ## Known issues
