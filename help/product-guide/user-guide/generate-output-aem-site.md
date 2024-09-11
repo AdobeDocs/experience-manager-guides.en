@@ -70,7 +70,7 @@ The following options are available for the AEM Site output:
 
 You can generate the AEM Site output for one or more topics, or the entire DITA map from the Web Editor. You need to create output presets for your DITA map and then you can easily generate the AEM Site output for your map. If you have updated a few topics in your map, you can also generate the AEM Site output only for those topics from the Web Editor. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 
-### Generate output linking topics from other maps
+### Generate output of linking topics from other maps
 
 It is a very common scenario to have a large set of documentation spread across multiple folders and DITA maps. It becomes extremely complex to publish content that is linked from various places. By default, all links `<xref>` are created with the `local` `@scope`. Publishing such topics does not involve any challenge, as it uses direct link to the topic. In case the topic is outside the current DITA map, the link does not show the linked content.
 
