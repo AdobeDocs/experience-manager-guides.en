@@ -5,7 +5,7 @@ role: Leader
 ---
 # What's new in the 4.6.0 release (September 2024)
 
-This article covers the new and enhanced features in version 4.6.0 of Adobe Experience Manager Guides.
+This article covers the new and enhanced features introduced with version 4.6.0 of Adobe Experience Manager Guides.
 
 For the list of issues that have been fixed in this release, view [Fixed issues in the 4.6.0 release](../release-info/fixed-issues-4-6-0.md).
 
@@ -122,7 +122,7 @@ Learn more about how to [generate HTML5 output](../user-guide/generate-output-ht
 
 ## Editor enhancements
 
-The following editorial enhancements have been made to the 4.6.0 release:
+The following editor enhancements have been added in the 4.6.0 release:
 
 ### Read-only access to Author and Source mode for locked files
 
@@ -132,7 +132,7 @@ In read-only mode, you can view the content along with the tags and attributes w
 You can also access the **Layout** view for read-only DITA maps. 
  >[!NOTE]
  >
- > Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access the read-only files in the Author, Source, and Layout modes.
+ > Your folder profile administrators must update *ui_config.json* so that you can harmoniously access the read-only files in the Author, Source, and Layout modes.
 
 ![locked file editor](./assets/locked-file-editor.png)
 *View the locked files in Author and Source mode.*
@@ -144,15 +144,11 @@ Learn how to [open locked files in Author and Source modes](../user-guide/web-ed
 
 ### Select partial content across elements for operations
 
-Experience Manager Guides enhances your experience of selecting the content across the elements in the Web Editor. You can easily select content across different elements and perform operations like making it bold, italics, and underlined. This feature allows you to seamlessly apply or remove the formatting for partially selected content. You can also quickly delete the content that you have selected across elements. Once the content is deleted, if necessary, the remaining content is automatically merged under a single valid element.
+Experience Manager Guides enhances your experience of selecting the content across the elements in the Web Editor. You can easily select content across different elements and perform operations like making it bold, italics, and underlined. 
 
-You can also select partial content across elements and then surround the content under a valid DITA element.
-![surround element dialog box](./assets/surround-element.png) {width="300" align="left"}
-
-*Surround the selected content with a valid element.*
+This feature allows you to seamlessly apply or remove the formatting for partially selected content. You can also quickly delete the content that you have selected across elements. Once the content is deleted, if necessary, the remaining content is automatically merged under a single valid element. You can also select partial content across elements and then surround the content under a valid DITA element. 
 
 Overall, these enhancements provide a better experience and help you improve your efficiency while editing your documents. 
-
 For more details, view [Partial selection of content across element](../user-guide/web-editor-edit-topics.md#partial-selection-of-content-across-elements).
 
 
@@ -192,7 +188,7 @@ Enjoy benefits such as quicker access to relevant files and a more intuitive use
 
 >[!NOTE]
 >
-> Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access this feature.
+> Your folder profile administrators must update *ui_config.json* so that you can harmoniously access this feature.
  
 Learn more about the **Filter Search** feature in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
@@ -291,13 +287,6 @@ Overall, creating language groups enhances the efficiency and productivity of tr
 
 
 Learn how to [translate documents from the Web Editor](../user-guide/translate-documents-web-editor.md).
-
-
-### Improved Non-UUID to UUID content migration
-
-The new UUID Migration script has been significantly optimized, making the migration from Non-UUID to UUID 30 times faster than the earlier script. It includes features such as resuming from checkpoints, live insights, estimated completion time, and detailed reporting, ensuring a harmonious migration process. Notably, the migration process preserves asset metadata without any changes. The script has been tested and verified on a large dataset of 3 million assets, confirming its efficiency and reliability for large-scale migrations.
-
-Learn more about [non-uuid to UUID content migration](../install-guide/migrate-non-uuid-uuid-new.md).
 
 
 ### Improved performance and scalability for large translation projects
