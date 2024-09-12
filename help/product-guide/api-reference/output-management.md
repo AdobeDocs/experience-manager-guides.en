@@ -17,7 +17,7 @@ A POST method that retrieves all output presets configured for a DITA map.
 **Request URL**:
 http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 
-**Parameters**:   
+**Parameters**:
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|

@@ -14,8 +14,10 @@ Perform the following steps to download and install AEM Guides for the first tim
 >
 > If you want to use Livefyre along with AEM Guides, ensure that you install the Livefyre versions earlier than 3.0 before installing AEM Guides. If you are using Livefyre version 3.0 or higher, then there is no such restriction.
 
-1.  Download AEM Guides from Adobe Software Distribution Portal.
-
+1.  Download AEM Guides from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+    >[!NOTE]
+    >
+    >Before installing Experience Manager Guides, ensure your system meets the [technical requirements](../install-guide/download-install-technical-requirements.md).
 1.  Log into your AEM instance and navigate to the CRX Package Manager. The default URL to access the package manager is:
 
     ```http

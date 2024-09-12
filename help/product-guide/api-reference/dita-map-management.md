@@ -58,7 +58,7 @@ A GET method that retrieves the status of export for a DITA map with all its dep
 **Request URL**:
 http:*//<aem-guides-server\>: <port-number\>/bin/dxml/async-export*
 
-**Parameters**
+**Parameters**:
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
