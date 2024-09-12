@@ -1,9 +1,10 @@
 ---
-title: Migrate content from On-premise to Cloud Services 
-description: Learn how to migrate the content from On-premise software to Cloud Services 
+title: Migrate content from On-premise to Cloud Services
+description: Learn how to migrate the content from On-premise software to Cloud Services
 feature: Migration
 role: Admin
 level: Experienced
+exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
 ---
 # Migrate content from On-premise to Cloud Service
 
@@ -179,7 +180,3 @@ If extraction fails due to the following error then you can resolve this by impo
 
 
 *Enable SSL Logging.*
- 
-
-
-
