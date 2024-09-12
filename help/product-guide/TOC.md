@@ -247,8 +247,8 @@ breadcrumb-title: AEM Guides Documentation
     - Content migration {#content-migration}
       - [Non-UUID to UUID content migration](./install-guide/migrate-uuid-non-uuid.md)
       - Migration process {#migration-process}
-          - [Migrate non-UUID content with versions](./install-guide/migrate-non-uuid-uuid-new.md)
-          - [Migrate non-UUID content with versions (legacy)](./install-guide/migrate-non-uuid-uuid-with-versions.md) 
+          - [Migrate non-UUID content with versions](./install-guide/migrate-non-uuid-uuid.md)
+          - [Migrate non-UUID content with versions (legacy)](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md) 
       - [Migrate existing content](./install-guide/migrate-content.md)
       - [Upload existing DITA content](./install-guide/migrate-content-upload-existing-dita-content.md)
       - [Migrate non-DITA content](./install-guide/migrate-content-non-dita.md)
