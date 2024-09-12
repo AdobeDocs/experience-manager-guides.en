@@ -179,6 +179,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Introduction to output presets](./user-guide/generate-output-understand-presets.md)
     - Output presets in AEM Guides {#output-presets-aemg}
       - [AEM Site](./user-guide/generate-output-aem-site.md)
+      - [AEM Site Web Editor](./user-guide/generate-output-aem-site-web-editor.md)
       - [PDF](./user-guide/generate-output-pdf.md)
       - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
       - [HTML5](./user-guide/generate-output-html5.md)
@@ -291,6 +292,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Integrate desktop-based XML editors](./install-guide/integrate-desktop-editors.md)
     - Work with output generation settings {#output-gen-config}
       - [Configure output generation settings](./install-guide/conf-output-generation.md)
+      - [Download and install aem sites templates](./install-guide/download-install-aem-sites-templates)
       - Native PDF Publishing {#config-native-pdf-publish}
         - [PDF Template](./native-pdf/pdf-template.md)
         - [Components of a PDF Template](./native-pdf/components-pdf-template.md)

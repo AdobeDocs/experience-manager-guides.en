@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 ---
 
-# Download and install  AEM Sites templates
+# Download and install AEM Sites templates
 
-Perform the following steps to download and install  AEM Sites templates:
+Perform the following steps to download and install AEM Sites templates:
 
 
 ## Package installation
@@ -40,10 +40,10 @@ https://github.com/adobe/aemg-sites-components/).
 
 ## Configure the templates to use with the AEM Sites presets
 
-Once the package is installed **AEMG** folder is created in the Sites UI with the following components. 
+Once the package is installed, **AEMG** folder is created in the Sites UI with the following components. 
 - Within the **AEMG** folder, Experience Manager Guides provides many out-of-the-box samples like **Search**, **Sign in**, **Docs**,  and **Support**. 
-- A langeuage folder for English(en)is present in the **AEMG** folder. You can create similar folders for other languages. For example, French (fr).   
-- A sample folder **Product1** is presnt in the **Docs** folder.   
+- A language folder for English(en)is present in the **AEMG** folder. You can create similar folders for other languages. For example, French (fr).   
+- A sample folder **Product1** is present in the **Docs** folder.   
 - Experience Manager Guides also provides the following out-of-the-box templates: 
 
     - **Content Page**
@@ -55,7 +55,7 @@ Once the package is installed **AEMG** folder is created in the Sites UI with th
 Use these samples and templates to generate your AEM Sites outputs. For example, you can use the **Home Page** template in the **Product1** folder to create your product Home page. You can also create your topic pages using the **Topic Page** template.
 
 
-Besides the out-of-the-box  templates you can also create your custom templates.
+Besides the out-of-the-box templates, you can also create your custom templates.
 
 Perform the following steps to create the custom templates for your AEM Sites:  
 1. Once the package are installed, select **Sites** from the Global Navigation.
@@ -63,7 +63,7 @@ Perform the following steps to create the custom templates for your AEM Sites:
 1. Within the Sites UI, click **Create** button on the top-right corner.
 1. Select **Page** from the **Create** dropdown.
 1. Select **Home page** and then click **Next**. 
-1. Enter the Site title and the Site name and click **Create** on the top-right corner. An AEM site template is created using the **Home page** site template. For example, you can create a Home page for the your product `Product ABC`.
+1. Enter the Site title and the Site name and click **Create** on the top-right corner. An AEM site template is created using the **Home page** site template. For example, you can create a Home page for your product `Product ABC`.
 
 
 >[!NOTE]

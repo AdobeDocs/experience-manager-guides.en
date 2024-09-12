@@ -7,10 +7,10 @@ role: User
 ---
 # AEM Sites {#id205BE3008SW}
 
-You can AEM Sites presets from the Web Editor and confiure them to generate the AEM Sites output.
 
+You can create AEM Sites presets from the Web Editor and configure them to generate the AEM Sites output.
 
-## Create AEM Presets
+## Create AEM Sites Presets
 Perform the following steps to create the AEM Sites presets from the Web Editor:
 
 1. In the Repository panel, open the DITA map file in Map View.
