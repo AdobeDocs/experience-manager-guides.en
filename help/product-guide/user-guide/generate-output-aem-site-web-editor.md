@@ -1,6 +1,6 @@
 ---
 title: AEM Sites
-description: Create and configure AEM Sites preset in AEM Guides. Use AEM Sites support to generate article-based output, output linking topics, publish conref, and search a string within the content.
+description: Create and configure AEM Sites preset in the Web Editor . Use AEM Sites support to generate aem sites output, article-based output, and output linking topics, .
 feature: Publishing
 role: User
 ---
