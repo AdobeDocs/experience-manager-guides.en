@@ -13,7 +13,7 @@ Perform the following steps to download and install  AEM Sites templates on Expe
 ## Package installation
 
 To use the templates, install the components package via cloud deployment: 
-* [guides-components-all.zip](
+- [guides-components-all.zip](
 https://github.com/adobe/aemg-sites-components/).
 
 
@@ -22,13 +22,13 @@ Perform the following steps to create an AEM Sites using the template:
 
 
 1. Create AEM Sites using the template: 
-    1. Within the Sites UI, click **Create** button on the top-right corner.
-    1. Select **Site from template** from the **Create** dropdown.
+1. Within the Sites UI, click **Create** button on the top-right corner.
+1. Select **Site from template** from the **Create** dropdown.
 
-    1. Import sites template [aemg-docs-1.0.0.zip](https://github.com/adobe/aemg-docs) using **Import** option.
-    1. Select `AEMG Docs 1.0.0` and then click **Next**.
-    1. Enter `Site title` and `Site name`.
-    1. Click **Create**. The package is installed and an AEM Sites template is created. 
+1. Import sites template [aemg-docs-1.0.0.zip](https://github.com/adobe/aemg-docs) using **Import** option.
+1. Select `AEMG Docs 1.0.0` and then click **Next**.
+1. Enter `Site title` and `Site name`.
+1. Click **Create**. The package is installed and an AEM Sites template is created. 
     
 Learn more about [Adding a Site Template to AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/site-templates#adding).
 
@@ -44,7 +44,7 @@ Once the package is installed, **AEMG** folder is created in the Sites UI with t
 - Within the **AEMG** folder, Experience Manager Guides provides many out-of-the-box samples like **Search**, **Sign in**, **Docs**,  and **Support**. 
 - A language folder for English(en)is present in the **AEMG** folder. You can create similar folders for other languages. For example, French (fr).   
 - A sample folder **Product1** is present in the **Docs** folder.   
-- Experience Manager Guides also provides the following out-of-the-box templates: 
+- Experience Manager Guides also provides the following predefined templates: 
 
     - **Content Page**
     - **Home Page**
@@ -55,7 +55,7 @@ Once the package is installed, **AEMG** folder is created in the Sites UI with t
 Use these samples and templates to generate your AEM Sites outputs. For example, you can use the **Home Page** template in the **Product1** folder to create your product Home page. You can also create your topic pages using the **Topic Page** template.
 
 
-Besides the out-of-the-box templates, you can also create your custom templates.
+Besides the predefined templates, you can also create your custom templates.
 
 Perform the following steps to create the custom templates for your AEM Sites:  
 1. Once the package are installed, select **Sites** from the Global Navigation.

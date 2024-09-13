@@ -44,7 +44,7 @@ Once the package is installed, **AEMG** folder is created in the Sites UI with t
 - Within the **AEMG** folder, Experience Manager Guides provides many out-of-the-box samples like **Search**, **Sign in**, **Docs**,  and **Support**. 
 - A language folder for English(en)is present in the **AEMG** folder. You can create similar folders for other languages. For example, French (fr).   
 - A sample folder **Product1** is present in the **Docs** folder.   
-- Experience Manager Guides also provides the following out-of-the-box templates: 
+- Experience Manager Guides also provides the following predefined templates: 
 
     - **Content Page**
     - **Home Page**
@@ -55,7 +55,7 @@ Once the package is installed, **AEMG** folder is created in the Sites UI with t
 Use these samples and templates to generate your AEM Sites outputs. For example, you can use the **Home Page** template in the **Product1** folder to create your product Home page. You can also create your topic pages using the **Topic Page** template.
 
 
-Besides the out-of-the-box templates, you can also create your custom templates.
+Besides the predefined templates, you can also create your custom templates.
 
 Perform the following steps to create the custom templates for your AEM Sites:  
 1. Once the package are installed, select **Sites** from the Global Navigation.
