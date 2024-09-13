@@ -31,6 +31,7 @@ A Ditamap or Bookmap must be created to publish content in PDF format.
 Sample Bookmap structure :
 
 ```
+
 <bookmap>
   <title>My Bookmap Title </title>
   <frontmatter>
@@ -53,7 +54,9 @@ Sample Bookmap structure :
 </bookmap>
 
 ```
+
 Sample Ditamap structure:
+
 ```
 <map title="My map Title">
 
@@ -63,6 +66,7 @@ Sample Ditamap structure:
   </topicref>
   
 </map>
+
 ```
 
 The Coverpage of PDF is  automatically generated if Bookmap contains `<frontmatter>`.
@@ -73,6 +77,7 @@ The Coverpage of PDF is  automatically generated if Bookmap contains `<frontmatt
 In this section , We will setup our template (You can use /duplicate Hi-tech to get started)
 
 ### Setup your template :
+
 - Go to your Native PDF template.
 - Go to your Froncover/cover page layout and edit it.
 - Here, Add your branding image  in `data-region="content"`
@@ -97,9 +102,9 @@ In case of Bookmap, Sequence of Page Layout Oder is controlled from Bookmap's  s
 
 To achieve this for Bookmap , We will utilize NativePDF's Javascript feature.
 
-1.  Add below Javascript in your template's resource folder 
+-  Add below Javascript in your template's resource folder 
 
-```
+  ```
 
 window.addEventListener('DOMContentLoaded', function () {
 
@@ -124,17 +129,17 @@ window.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-```
+  ```
 
-2.  Include this Javascript in your chapter template.
+- Include this Javascript in your chapter template.
 ![Include Javascript in chapter template ](../assets/publishing/branding-image4.png)
 
-3. Enable Javascript from your preset option
+- Enable Javascript from your preset option
 ![Enable Javascript preset setting](../assets/publishing/branding-image5.png)
 
-4. Publish!
+- Publish!
 
-## Attachmentts :
+## Attachments :
 
 - [Sample DITA Content package](../assets/publishing/Sample-content-package.zip)
 - [Sample PDF template package](../assets/publishing/NativePDF_DemoTemplate.zip)
@@ -142,6 +147,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
 
 ## Other Resources:
+
 - [How to include DITA Bookmap's toc in PDF](./how-to-include-bookmap-toc-in-pdf-publishing.md)
 - [Expert session Video on Native PDF](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
 
