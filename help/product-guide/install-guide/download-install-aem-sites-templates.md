@@ -14,10 +14,10 @@ Perform the following steps to download and install AEM Sites templates:
 ## Package installation
 
 1.  Download the following AEM Sites templates: 
-    * [guides-components-all.zip](
+    - [guides-components-all.zip](
 https://github.com/adobe/aemg-sites-components/).
 
-    * [aemg-docs-1.0.0.zip](https://github.com/adobe/aemg-docs)
+    - [aemg-docs-1.0.0.zip](https://github.com/adobe/aemg-docs)
 
 1.  Log into your AEM instance and navigate to the CRX Package Manager. The default URL to access the package manager is:
 
@@ -71,6 +71,7 @@ Perform the following steps to create the custom templates for your AEM Sites:
 >Once you have created the Home Page, you can use this path as the **Publish Path** for generating the output of your AEM Sites presets. For example, `aemg-docs-en/docs/product-abc`.
 
 ## Editing topic templates for AEM Sites
+
 You can also customize the topic templates for your AEM Sites. You can edit the content or configure the properties of the different AEM components in your topic. For example, you can add components, or change the font, or the background of the components.  
 Perform the following steps to edit the topic templates:
 1. Select the template that you wish to edit. 
