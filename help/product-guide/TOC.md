@@ -466,6 +466,7 @@ breadcrumb-title: AEM Guides Documentation
       - DITA-OT {#dita-ot}
         - [Use AEM metadata in plugin](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
       - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+      - [Add Enterprise Branding to First Page of PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
       - [Generate Bookmap's TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
       - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
