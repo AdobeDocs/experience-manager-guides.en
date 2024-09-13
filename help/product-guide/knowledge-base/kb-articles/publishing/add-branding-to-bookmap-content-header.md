@@ -104,7 +104,7 @@ To achieve this for Bookmap , We will utilize NativePDF's Javascript feature.
 
 -  Add below Javascript in your template's resource folder 
 
-  ```
+```
 
 window.addEventListener('DOMContentLoaded', function () {
 
@@ -129,7 +129,7 @@ window.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-  ```
+```
 
 - Include this Javascript in your chapter template.
 ![Include Javascript in chapter template ](../assets/publishing/branding-image4.png)
