@@ -31,7 +31,6 @@ With [!DNL AEM Guides] solution, enterprises can deliver seamless and personaliz
 
     _Learn how to generate output using [!DNL Adobe Experience Manager Guides]. Learn about various features available for output generation - reports, baselines, conditions, troubleshooting, bulk publishing and activation._
 
-
 <!--
 
 Dummy links cause validation to fail
@@ -84,9 +83,9 @@ Dummy links cause validation to fail
 
 -->
 
-
 ## Additional Resources
 
 * [[!DNL AEM Guides] Online User Guide](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
 * [[!DNL AEM Guides] PDF Guides](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
+

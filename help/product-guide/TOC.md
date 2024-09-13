@@ -66,6 +66,11 @@ breadcrumb-title: AEM Guides Documentation
         - [January release notes](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
+      - 4.6.0 Release {#460-release}
+          - [What's new](./release-info/whats-new-4-6.md)
+          - [Fixed issues](./release-info/fixed-issues-4-6-0.md)     
+          - [Upgrade instructions](./release-info/upgrade-instructions-4-6-0.md)
+
       - 4.4.0 Release {#440-release}
         - [What's new](./release-info/whats-new-4-4.md)
         - [Fixed issues](./release-info/fixed-issues-4-4.md)
@@ -201,6 +206,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
     - [Publish Content Fragments](./user-guide/publish-content-fragment.md)
     - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
+    - [Publish AEM Sites pages](./user-guide/publish-aem-sites.md)
     - Bulk activation of content {#bulk-activation}
       - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
       - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -242,8 +248,8 @@ breadcrumb-title: AEM Guides Documentation
     - Content migration {#content-migration}
       - [Non-UUID to UUID content migration](./install-guide/migrate-uuid-non-uuid.md)
       - Migration process {#migration-process}
-        - [Migrate non-UUID content with versions](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-        - [Migrate non-UUID content without versions](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+          - [Migrate non-UUID content with versions](./install-guide/migrate-non-uuid-uuid.md)
+          - [Migrate non-UUID content with versions (legacy)](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md) 
       - [Migrate existing content](./install-guide/migrate-content.md)
       - [Upload existing DITA content](./install-guide/migrate-content-upload-existing-dita-content.md)
       - [Migrate non-DITA content](./install-guide/migrate-content-non-dita.md)
@@ -279,7 +285,6 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure text filters](./install-guide/config-text-filters.md)
       - [Configure the number of LimitReads for a query](./install-guide/conf-query-limitreads.md)
       - [Install packages for Article-based publishing](./install-guide/configure-article-based-publishing.md)
-      - [Configure a data source connector](./install-guide/conf-data-source-connector.md)
       - [Configure a data source connector from the user interface](./install-guide/conf-data-source-connector-tools.md)
       - [Set the Advanced Map Editor as default](./install-guide/conf-map-editor.md)
       - [Include @navtitle attribute by default](./install-guide/auto-add-navtitle.md)
@@ -331,6 +336,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Migrate existing content](./cs-install-guide/migrate-content.md)
       - [Upload existing DITA content](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
       - [Migrate non-DITA content](./cs-install-guide/migrate-content-non-dita.md)
+      - [Migrate content from On-premise to Cloud Service](./cs-install-guide/migrate-on-premise-content-cloud.md)
     - Work with custom DITA-OT and specialization {#custom-dita-ot-spec-cs}
       - [Use custom DITA-OT and DITA specialization](./cs-install-guide/dita-ot-specialization.md)
     - Configure UUID and non-UUID based filenames {#conf-non-uuid-filename-cs}
@@ -372,7 +378,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure global or folder-level profiles](./cs-install-guide/conf-folder-level.md)
     - Configure versions {#version-mgt-cs}
       - [Version management](./cs-install-guide/version-management.md)
-    - Work with output generation settings {#output-gen-config-cs}
+    - Work with desktop-based XML editors {#desktop-xml-editor}
+      - Work with output generation settings {#output-gen-config-cs}
       - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
       - [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
@@ -418,12 +425,14 @@ breadcrumb-title: AEM Guides Documentation
     - [External Datasource Integration](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
     - [Translate content in Guides - part 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
     - [Define, Manage and Utilize Metadata](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
-    - [AEM site output variations](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
+    - [AEM Sites output variations](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
+    - [Deployment options and migration to Cloud](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
   - Articles {#kb-articles}
 
     - Authoring {#authoring}
       - Web Editor {#webeditor}
         - [Content re-usability in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
+        - [Use Markdown in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
         - Customizing {#customizing}
           - [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
           - [Add custom styles to Web Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
@@ -443,12 +452,12 @@ breadcrumb-title: AEM Guides Documentation
           - [Icon](./guides-ui-extensions/aem_guides_framework/components/icon.md)
           - [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
           - [List](./guides-ui-extensions/aem_guides_framework/components/list.md)
-          - [Textarea](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+          - [Textarea](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
         - Widgets {#framework-widgets}
           - [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
           - [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
       - Getting Started {#getting-started}
-        - [Introduction](./guides-ui-extensions/getting-started/Introduction.md)
+        - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
         - [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
         - [Extension Repositry intro](./guides-ui-extensions/getting-started/extension-repo-intro.md)
       - Customisations {#customisations}
@@ -456,28 +465,31 @@ breadcrumb-title: AEM Guides Documentation
         - [Customising Context Menus](./guides-ui-extensions/customisations/context-menus.md)
         - [Customising Toolbar & Topbar](./guides-ui-extensions/customisations/toolbar-topbar.md)
         - [Examples](./guides-ui-extensions/examples.md)
-        - [Customisable Jsons](./guides-ui-extensions/JSONs.md)
+        - [Customisable Jsons](./guides-ui-extensions/jsons.md)
         - Review{#review-app-customisations}
           - [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
           - [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
           - [Custom Dialog](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
+    - External data source {#external-data-source}
+      - [Integrate data sources](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
+      - [Configure a data source connector](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+    
     - Publishing {#publishing}
-
+      - DITA-OT {#dita-ot}
+        - [Use AEM metadata in plugin](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
       - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
       - [Generate Bookmap's TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
       - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
       - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
       - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
       - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
     - Workflows {#workflows}
       - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
     - Translation {#translation}
+      - [Best Practices to increase translation performance](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
       - [Exclude paragraphs from translation](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
     - Use Cases {#use-cases}
       - [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)

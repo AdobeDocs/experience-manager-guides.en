@@ -2,13 +2,14 @@
 title: DITA content reuse in AEM Guides
 description: This brief article tells how AEM Guides and DITA help you save time and effort when using content reusability
 role: User, Admin
+author: Pulkit Nagpal(punagpal)
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
 ---
 # Content reusability in AEM Guides 
 
 Adobe AEM Guides leverage DITA's strengths to provide a user-friendly interface for content reuse.
 
-In this Article we would talk about :
+This article will discuss:
 
 1. [Reusability using topic reference (`topicrefs`)](#reusability-using-topic-referencestopicref)
 2. [Reusability using content reference (`conref` and `conkeyref`)](#reusability-using-content-reference-conref--conkeyref)
@@ -76,7 +77,7 @@ You want to reuse individual KYC fragment for your "Saving account" and "Demat a
 
 Here `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita is the file identifier and #individual_kyc is the fragment identifier.
 
-Kyc_procedure.dita continues to be the only single source of information. If there are any changes to the KYC process as required by regulations, you simply need to update one topic, and those changes are automatically reflected in all topics that are referring to it. 
+Kyc_procedure.dita continues to be the only single source of information. If regulatory changes require updates to the KYC process, update the topic path with the new one. The changes will automatically reflect in all topics that reference it.
 
 Using AEM Guides, Its two clicks
 
@@ -88,7 +89,7 @@ Step 1: Click Insert Reusable content
 Step 2: Select your file and fragment which needs to be reused.
 ![conref](../../assets/publishing/content-reusability_image2.png)
 
-Similar to "conref", you can use "conkeyref" as well where instead of giving a content path, you can refer content via keys.
+Similar to 'conref,' you can use 'conkeyref' as well where instead of giving a content path, you refer to content via key
 
 Code example :
 
@@ -109,7 +110,7 @@ The key definition looks like this :
 </map>
 ```
 
-Key - "Kyc_procedure" will continue to be the only single source of information. If there are any changes to the KYC process as required by regulations, you simply need to update one topic path with a new topic path, and those changes will be automatically reflected in all topics that are referring to it. 
+Key - 'Kyc_procedure' continues to be the single source of information. If there are any changes to the KYC process as required by regulations, you simply need to update one topic path with a new topic path, and those changes are automatically reflected in all topics that are referring to it. 
 
 ```
 <map id="ABC_manual">
@@ -122,7 +123,7 @@ Key - "Kyc_procedure" will continue to be the only single source of information.
 
 ```
 
-Here  the topic path is changed from "kyc_procedure_2020.dita" to "kyc_procedure_2024.dita" due to recent regulation changes.
+Here the topic path is changed from "kyc_procedure_2020.dita" to "kyc_procedure_2024.dita" due to recent regulation changes.
 
 Using AEM Guides, Its two clicks
 
@@ -132,7 +133,7 @@ Step 1: Click Insert Reusable content
 Step 2: Select your root map (optional), key, and fragment that needs to be reused.
 ![conkeyref](../../assets/publishing/content-reusability_image3.png)
 
-Here root map was auto-selected since it was already open in the map view 
+Here the root map was auto-selected since it was already open in the map view.
 
 
 ## Reuse content with a single click in AEM Guides 
@@ -153,13 +154,15 @@ Step 2: Once added, Drag, and drop the fragment that you want to reuse in any of
 
 - ### All content is not showing up after selection of file/key in the Reuse content dialog
 
-You must assign IDs to fragments (Dita elements ) that you would like to reuse in other topics 
+Assign IDs to fragments (Dita elements) that you would like to reuse in other topics 
 
-- ## Keys are not showing up in Reuse content dialog
+- ## Keys are not showing up in the Reuse content dialog
 
-Make sure you have opened the root map/parent map in map-view which has a key definition or add the root map path manually in the same dialog.
+  Make sure you have opened the root map/parent map in map-view, which has a key definition or add the root map path manually in the same dialog.
 
 
+<br>
+<br>
 <br>
 
 

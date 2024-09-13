@@ -8,6 +8,13 @@ level: Experienced
 ---
 # Java-based APIs to work with DITA maps {#id175UB30E05Z}
 
+>[!NOTE]
+>
+> You can use Java-based APIs available in Experience Manager Guides to create custom plugins and extend out-of-the-box workflows. This article will be archived in November 2024.
+> View [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) for the latest and detailed documentation on using the Java-based API.
+
+
+
 The following Java-based APIs allow you to work with DITA maps in AEM Guides. These APIs are available in the form of a bundle. You must include this bundle in your code to use these APIs.
 
 Bundle details:
@@ -51,6 +58,7 @@ public static void zipMapWithDependents(Session session,
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|
@@ -87,6 +95,7 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|
@@ -111,6 +120,7 @@ public static List<HashMap<String,String>> getBaselineList(
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|
@@ -136,6 +146,7 @@ public static List<HashMap<String,String>> getConditionalPresetList (
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|
@@ -161,6 +172,7 @@ public static String getDitavalFromConditionalPreset
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`session`|javax.jcr.Session|A valid JCR session.|
@@ -183,6 +195,7 @@ public static List
 ```
 
 **Parameters**:
+
 |Name|Type|Description|
 |----|----|-----------|
 |`rootNode`|javax.jcr.Node|The root node for which all dependencies are to be retrieved.|

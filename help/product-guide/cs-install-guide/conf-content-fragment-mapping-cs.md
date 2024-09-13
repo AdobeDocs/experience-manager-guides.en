@@ -8,7 +8,15 @@ level: Experienced
 ---
 # Create a mapping between a topic and a content fragment
 
-AEM Guides provides the feature to create a JSON-based mapping between a topic and a content fragment model. You can use this mapping to publish content present in some or all elements within a topic to a content fragment. 
+
+
+Adobe Experience Manager Guides allows you to create a JSON-based mapping between a topic and a content fragment model. You can use JSON-based mapping to publish content present in some or all elements within a topic to a content fragment. 
+
+>[!NOTE] 
+> 
+> If you are using 4.6 or later versions, you need not create this mapping, you can drag the topic elements to the fields present in the content fragment model.
+> Learn more about how to [publish content fragments](../user-guide/publish-content-fragment.md). 
+
 
 1. To download the *contentFragmentMapping.json*, log into Adobe Experience Manager as an administrator.
 1. Select the Adobe Experience Manager link at the top and choose **Tools**.
