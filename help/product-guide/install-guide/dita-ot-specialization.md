@@ -107,7 +107,7 @@ Perform the following steps to create a new profile and configure it to use cust
     |DITA-OT Build XML|\(*Optional*\) Specify the path of the custom Ant build script bundled with the customized DITA-OT plug-in. This path is relative to the DITA-OT directory on your file system.|
     |DITA-OT Ant Script Folder|\(Optional\) Specify the path of the DITA-OT Ant script folder. This path is relative to the DITA-OT directory on your file system.|
     |DITA-OT Environment Variables|*\(Optional\)* Specify environment variables to pass on to the DITA-OT process. By default, AEM Guides adds four variables - `ANT_OPTS`, `ANT_HOME`, `PATH`, and `CLASSPATH`. <br> You can reuse any of the existing system environment variables or properties for building new environment variables. For example, if you have `JAVA_HOME` system variable defined in your system and you want to define a new environment variable called `JAVA_BIN` that is built using `JAVA_HOME`. Then, you can add the definition of `JAVA_BIN` as:<br> `JAVA_BIN= ${JAVA_HOME}/bin` <br> **Note** You can also use Java system properties to build environment variables. For example, if AEM start script defines a Java system property `java.io.tmpdir` to a temporary directory, you can use this property to define new variable as: `${java.io.tmpdir}/fmdita/dita_ot`. <br> **Important** To reuse any existing system variable or property, it must be enclosed within `${}`.|
-    |Overwrite DITA-OT Output|*\(Optional\)* If this option is selected, then you can specify the DITA-OT package available on your local system to generate output using DITA-OT. This configuration is set on activation of the ConfigManager. <br> If you want to specify the path of a DITA-OT package that is stored on AEM server, then deselect this option.|
+    |Overwrite DITA-OT Output|*\(Optional\)* If this option is selected, then you can specify the DITA-OT package available on your local system to generate output using DITA-OT. This configuration is set on activation of the ConfigManager. <br> If you want to specify the path of a DITA-OT package that is stored on AEM server, then deselect this option. |
     |AEM DITA-OT Zip Path/ Local DITA-OT Directory Path|Depending on your selection in the Overwrite DITA-OT Output, specify the complete path where the custom DITA-OT.zip file is stored. This could be the path in your AEM repository or local system.|
     |DITA-OT Plug-in Path|Path of the custom plug-in. This plug-in is integrated automatically with the main DITA-OT package.|
     |Integrate Catalogs|\(*Optional*\) Path of the custom DTD and XSD catalog.xml files in the AEM repository. This should be provided only when the catalogs are missing from the DITA-OT package. These catalogs are automatically integrated with the main DITA-OT as a plug-in.|
@@ -159,11 +159,13 @@ Perform the following steps to create a new profile and configure it to use spec
 
 1.  Select **Guides** from the list of tools.
 
-1.  Click on the**DITA Profiles** tile.
+1.  Click on the **DITA Profiles** tile.
 
     >[!NOTE]
     >
     > The Default Profile information is displayed on the Profiles page. If you have upgraded AEM Guides from version 2.2 to 2.5.1 or 2.6, then all changes made through the configuration manager are automatically picked and stored in the Default Profile.
+
+    
 
 1.  You can choose to edit the Default Profile, create a new profile, or duplicate settings from the Default Profile to create a new profile.
 
@@ -172,6 +174,12 @@ Perform the following steps to create a new profile and configure it to use spec
     > You cannot delete the Default Profile. However, all new profiles that you create can be edited and deleted.
 
 1.  In the **Schema** \> **Catalog** settings, specify the path of the custom DTD and XSD `catalog.xml` files in your AEM repository.
+
+    >[!NOTE]
+    >
+    > If you are using the custom schema, you must define the path of the custom DTD and XSD catalog.xml files in the AEM repository in the **Integrate Catalogs** option.
+
+    
 
 1. Select the **Add System ID Catalog** option.
 

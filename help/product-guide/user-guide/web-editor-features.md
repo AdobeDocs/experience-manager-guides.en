@@ -1502,7 +1502,22 @@ To add or define a condition, click the + icon next to Conditions panel to bring
 
 ![](images/conditional-panel-create-cond.png){width="400" align="left"}
 
-From the Attribute list, select the conditional attribute that you want to define, enter a value for the condition, then specify the label that is displayed in the Conditions panel. You can also define a color for the condition. This color is set as the background color of the content on which the condition is applied
+From the Attribute list, select the conditional attribute that you want to define, enter a value for the condition, then specify the label that is displayed in the Conditions panel. Define a group for the condition. You can add multiple condtions to a group. You can also define a color for the condition. This color is set as the background color of the content on which the condition is applied.
+
+You can group the conditions and structure them in nested folders. Groups help you create conditions at multiple levels and organize them better for use in the content. 
+
+For example, you can create condition groups of products like *Acrobat* and *AEM Guides*. You can select the conditional attributes for both groups. Under each group, you can have specific values like *User*, *Admin*, *Reviewer*, and *Author*.  
+
+>[!NOTE]
+>
+> Either type in to create a new group or select an existing group for a particular attribute.
+
+You can use `/` and define sub-groups define sub-groups like `AEM Guides/Cloud Service`.
+
+
+
+![condtions organised in a nested hierarchy](images/conditions-nested-hierarchy.png){width="300" align="left"}
+
 
 To edit a condition, choose **Edit** from the Options menu. The Edit Condition dialog appears:
 
@@ -1800,7 +1815,7 @@ To view the review comments in the active review tasks that are present in your 
     - Select ![](images/filter-search-icon.svg)  to open the **Filter** dialog. You can select all or only specific projects. The selected projects are listed in the **Review** panel.
     ![](images/active-review-select-project.png){width="300" align="left"}
 
-       The **Tasks initiated by me** option is enabled by default. It allows you to view only the tasks that you've initiated. 
+       The **Tasks initiated by me** option is enabled by default. It allows you to view only the tasks that you've initiated. The toggle state of this option is maintained even after refreshing the page.
 
 1. By default, in your review project you will view a flat list of topics that have comments associated with them. Apply the required filters from the left rail to filter the topics based on the review comments present in them:
 
