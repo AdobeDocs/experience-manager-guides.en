@@ -1,11 +1,11 @@
 ---
-title: Incorporate Enterprise Branding on the First Page of DITA published PDF
+title: Add Enterprise Branding to First Page of DITA PDF
 description: Achieve company branding by seamlessly merging the cover page with the chapter page, ensuring the enterprise's identity is prominently displayed at the top of the content.
 feature: Native PDF publishing
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
 ---
-# Incorporate Enterprise Branding on the First Page of DITA published PDF
+# Add Enterprise Branding to First Page of DITA PDF
 
 ## Article will cover : 
 
@@ -31,7 +31,6 @@ A Ditamap or Bookmap must be created to publish content in PDF format.
 Sample Bookmap structure :
 
 ```
-
 <bookmap>
   <title>My Bookmap Title </title>
   <frontmatter>
@@ -143,5 +142,6 @@ window.addEventListener('DOMContentLoaded', function () {
 
 
 ## Other Resources:
-
+- [How to include DITA Bookmap's toc in PDF](./how-to-include-bookmap-toc-in-pdf-publishing.md)
+- [Expert session Video on Native PDF](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
 
