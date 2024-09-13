@@ -8,33 +8,33 @@ level: Experienced
 ---
 # Technical requirements {#id213BCG003XA}
 
-Before installing AEM Guides 4.4, ensure your system meets the following technical requirements:
-
-**Adobe Experience Manager**
-
--   Version 6.5 Service Pack 20, 19, 18, or 17 
+Before installing Adobe Experience Manager Guides, ensure your system meets the following technical requirements for the given release:
 
 >[!IMPORTANT]
 >
-> For AEM Site output generation, your AEM's publish instance must have Service Pack 20, 19, 18, or 17 .
-
-**Operating systems**
-
--   Microsoft Windows Server 2012 R2
-
--   Red Hat Linux 7 and 6
+> For AEM Site output generation in 4.6 release, your Adobe Experience Manager's publish instance must have Service Pack 21, 20, 19. 
 
 
-**Java Development Kit**
-
--   Oracle SE 11 JRE 11.x
-
--   Oracle SE 8 JRE 1.8.x
 
 
-**Web browser**
+**Supported browser**
 
 -   Google Chrome
 
 
-**Parent topic:**[Download and install](download-install.md)
+>[!NOTE]
+>
+> [Learn more about the Experience Manager Guides releases and download the build](../release-info/latest-release-info.md). 
+
+
+| [!DNL AEM Guides] Release  |  Technical Specifications|   
+|---|---|
+|**AEM Guides 4.6.0**|  **Non-UUID and UUID 4.6.0** <ul><li> AEM 6.5  SP 21, SP20, or SP19<br><br> <li>   Java: 11 or 8 <br><br>   <li>Operating Systems: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |
+|**AEM Guides 4.4.0**|  **Non-UUID and UUID 4.4.0** <ul><li> AEM 6.5  SP20, SP19, SP18, or SP17  <br><br> <li>   Java: 11 or 8 <br><br>   <li>Operating Systems: <ul><li> Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |
+|**AEM Guides 4.2** |  **Non-UUID and UUID 4.2.1**<br><br><ul> <li>AEM 6.5 SP15, SP14, SP13, or SP12 <br><br><li>Java: 11 or 8   <br><br><li> Operating Systems: <ul><li>Windows Server 2012 R2  <li>Red Hat Linux 7 and 6</ul></ul> <br>**Non-UUID and UUID 4.2**<br><br><ul> <li>AEM 6.5 SP15, SP14, SP13, or SP12 <br><br><li>Java: 11 or 8<br><br> <li> Operating Systems: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |
+|**AEM Guides 4.1** |**Non-UUID and UUID 4.1.2**<br><br> <ul><li>AEM 6.5 SP13, SP12, SP11, or SP10 <br><br> <li>Java: 11 or 8<br><br> <li>Operating Systems: <ul><li>Windows Server 2012 R2 <br><li> Red Hat Linux 7 and 6 </ul></ul><br><br> **Non-UUID and UUID 4.1**<br><br><ul> <li>AEM 6.5 SP13, SP12, SP11, or SP10 <br><li>Java: 11 or 8<li>Operating Systems: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 and 6 |
+| **AEM Guides 4.0**  |   **Non-UUID and UUID 4.0.3**<br><br><ul><li> AEM 6.5 SP12, SP11, SP10, or SP9 <br><li>Java: 11 or 8 <br><br> <li>Operating Systems: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6<br><br> </ul></ul>**Non-UUID and UUID 4.0.2** <br><br><ul><li> AEM 6.5 SP12, SP11, SP10, or SP9 <br><li>Java: 11 or 8 <br><br> <li>Operating Systems: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6<br><br> </ul></ul>**Non-UUID and UUID 4.0**<br> <br> <ul><li>AEM 6.5 SP11, SP10 or SP9 <br><li>Java: 11 or 8<br><br><li> Operating Systems: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 and 6 | 
+| **AEM Guides 3.8.5** <br> 3.8.5 is a SP release on top of 3.8. <br>3.8 release must not be installed standalone as 3.8.5 SP contains a critical fix. <br>Customers must first install 3.8 and then SP 3.8.5. |    **Non-UUID** <br> <ul><li>AEM 6.5 SP9 or SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3   <br><br> <li>Operating Systems: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 and 6</ul><br> **UUID** <br><li> AEM 6.5 SP9 or SP8 <br><br> <li> Operating Systems: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6|
+
+
+**Parent topic:** [Download and install](download-install.md)

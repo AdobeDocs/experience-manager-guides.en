@@ -213,4 +213,6 @@ For more details, view [purge older versions](../install-guide/version-managemen
     >
     > If before migration, the property, **Use title for AEM Site page names** inside `com.adobe.fmdita.config.ConfigManager`, set to *False*, then after migration this property needs to be updated.
 
+
 1. After the validation is done, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+
