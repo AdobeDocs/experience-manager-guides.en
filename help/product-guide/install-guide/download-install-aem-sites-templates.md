@@ -8,7 +8,7 @@ level: Experienced
 
 # Download and install AEM Sites templates
 
-Perform the following steps to download and install AEM Sites templates:
+Perform the following steps to download and install AEM Sites templates on Experience Manager Guides for On-premise Software:
 
 
 ## Package installation

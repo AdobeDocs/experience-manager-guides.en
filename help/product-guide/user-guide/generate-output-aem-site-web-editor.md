@@ -8,7 +8,14 @@ role: User
 
 # AEM Sites {#id205BE3008SW}
 
+
 You can create AEM Sites presets from the Web Editor and configure them to generate the AEM Sites output.
+
+AEM Sites presets in Experience Manager Guides use the DITA-OT method to convert content into normalized formats and then into HTML. This HTML is subsequently used to create AEM Sites pages. AEM Sites leverage core WCM components, facilitating efficient content creation and management.
+
+Experience Manager Guides provide predefined templates for creating AEM Sites. These presets help you ensure consistency in content layout and structure. You can also create custom templates based on these predefined templates, and apply styles accordingly.
+
+
 
 ## Create AEM Sites Presets
 
@@ -20,12 +27,16 @@ Perform the following steps to create the AEM Sites presets from the Web Editor:
 
 ![New ](images/new-aem-sites-dialog-box.png)
 
-You can either use the DITA-OT or the native method of Experience Manager Guides to convert the content into normalized content and then to HTML. Then, use the HTML to create the AEM Sites pages. The AEM Sites presets use the core WCM components and help you create customized components for AEM Sites. With the AEM Sites presets, you can use the predefined templates to ensure consistency in content layout and structure or create custom templates.
+
+
 
 
 >[!NOTE]
 >
->Before configuring the AEM Sites presets, your administrator needs to create an AEM Sites structure using the templates. For more details, view [Download and install AEM Sites templates](../install-guide/download-install-aem-sites-templates).
+>Before configuring the AEM Sites presets for Experience Manager Guides, your administrator needs to create an AEM Sites structure using the templates. 
+- **On-premise Software**: Learn more about how to [download and install AEM Sites templates](../install-guide/download-install-aem-sites-templates) for On-premise Software .
+- **Cloud Service**: Learn more about how to [download and install AEM Sites templates](../cs-install-guide/download-install-aem-sites-templates-cs.md) for Cloud Service.
+
 
 ### AEM Sites presets based on legacy component mapping 
 
@@ -64,12 +75,13 @@ The **General** tab contains the following configurations:
 
 The **Content** tab contains the following configurations:
 
+- Use Baseline
 - Condition filtering
 - Additional DITA-OT command line arguments
 - Metadata
     - File (Assets) properties
 - Use map properties as fallback
-- Use Baseline
+
 
 For details, refer to [AEM Sites configuration](aem_sites_config). 
 
@@ -99,11 +111,11 @@ The following options are available for the AEM Sites output:
 |Generate page names based on|  **Topic filename**: Uses the DITA topic's file name to create the Site names. <br> **Topic title**: Uses the DITA topic's title to create the Experience Manager Site names.|
 | Cleanup previously generated pages| -  **Delete previously generated pages for topic removed from the map**: If you select this option, then all orphan pages are deleted from the published AEM Site. For this feature to run successfully, you must publish the entire DITA map and not use the incremental publishing.<br><br>Let's say you have published a DITA map, which contains topics a.dita, b.dita, and c.dita. Before publishing the map again, you removed b.dita topic from the map. Now, if you have selected this option, then all content related to b.dita is removed from the AEM Sites output and only a.dita and c.dita are published.<br><br>This feature does not remove any published child map. For example, if your parent map contains a child map, and you remove the entire child map, then the child map content is not deleted from the published output. However, if you remove any topic from a child map and republish, then the removed topic's content is deleted from the AEM Sites output.<br><br> Also, if there is any referenced content, and that content is removed before republishing, then the referenced content's data is not removed.<br><br>**Note**: Information about deleted orphan pages is also captured in the output generation logs. For more information about accessing the log files, [View and check the log file](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Caution**: On deleting the topics, the pages become unavailable from the published site. So, before the topics are deleted, a warning appears. You must confirm to delete them.<br><br>- **Delete all pages created by other sources at this path**: If you select this option, all pages published on this path from other maps, individual topics, or any other source are deleted. The pages also become unavailable from the published site. So, before the topics are deleted, a warning appears. You must confirm to delete them.|
 | Post Generation Workflow | When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow. |
+| Use Baseline | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.<br><br>**Important**: When you are generating incremental output for the AEM Site, then the output is created using the current version of the files and not the attached Baseline.<br><br>View [Work with Baseline](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) for more details. |
 | Conditional filtering | Select one of the following options:<br><br>**None Applied**: Select this option if you do not want to apply any condition on the published output.<br>**DITAVal file**: Select DITAVal file(s) to generate conditionalized content. You can select multiple DITAVal files using the browse dialog or by typing file path. Use the cross icon near the file name to remove it. DITAVal files are evaluated in the order specified, so the conditions specified in the first file take precedence over the matching conditions specified in later files. You can maintain the file order by adding or deleting files. If the DITAVal file is moved to some other location or is deleted, it is not automatically deleted from the map dashboard. You need to update the location in case files are moved or deleted. You can hover over the file name to view the path in the AEM repository where the file is stored. You can only select DITAVal files and an error is displayed if you select any other file type.<br>**Condition preset**: Select a condition preset from the drop-down to apply a condition while publishing the output. This option is visible if you have added a condition for the DITA map file. The conditional settings are available in the Condition Presets tab of the DITA map console. To know more about condition preset, view [Use condition presets](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Additional DITA-OT Command Line Arguments | Specify the additional arguments that you want DITA-OT to process while generating output. For details about the command-line arguments supported in DITA-OT, view [DITA-OT documentation](https://www.dita-ot.org/). |
 | File (Assets) Properties | Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties you select from the dropdown list appear under the **File Properties** field. Select the cross icon next to the property to remove it. <br><br>**Note**: The metadata properties are case-sensitive.<br><br>*If you have selected a Baseline, then the values for the properties are based on the version of the selected Baseline.<br>* If you have not selected a Baseline, then the values for the properties are based on the latest version.<br><br>You can also pass on the metadata to the output using DITA-OT publishing. For more details view, [Pass on the metadata to the output using DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Note**: If you have not defined the `cq:tags` in the Properties option, then the values for `cq:tags` are picked from the current working copy even if you have selected a Baseline for publishing. |
 | Use map properties as fallback | If selected, the properties defined for the map file are also copied into the topics where such properties are not defined. Consider the following points while using this option:<br><br>*Only String, Date, or Long (singe and multi-valued) properties can be passed on to the AEM Site pages.<br>* The metadata values for a String type property does not support any special characters (such as `@, #, " "`).<br>* This option should be used along with the `Properties` option. |
-| Use Baseline | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.<br><br>**Important**: When you are generating incremental output for the AEM Site, then the output is created using the current version of the files and not the attached Baseline.<br><br>View [Work with Baseline](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) for more details. |
 | Existing Output Pages | Select the **Overwrite Content** option to overwrite content in the existing pages. This option only overwrites content present under the content and head nodes of the page. This option enables blended publishing of content. Selecting this option provides an option to select deleting orphan pages from the published output. This is also the *default* option for creating the AEM Sites output.<br><br>Select the **Delete and Create** option to force delete any existing pages during publishing. This option deletes the page node along with its content and all child pages under it. Use this option if you have changed the design template of your output preset or if you want any extra pages already present in the destination to be removed.| 
 | Retain temporary files | Select this option to retain the temporary files generated by DITA-OT. If you are experiencing errors while generating output through DITA-OT, select this option to retain the temporary files. You can then use those files to troubleshoot output generation errors.<br> <br>  After generating the output, select the **Download temporary files** ![download temporary files icon](images/download-temp-files-icon.png) icon to download the ZIP folder containing the temporary files. <br><br> **Note**: If file properties are added during generation, the output temporary files also include a *metadata.xml* file containing those properties. | 
 
