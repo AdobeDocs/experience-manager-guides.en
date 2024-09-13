@@ -1,7 +1,7 @@
 ---
 title: Download and install AEM Sites templates
 description: Learn how to Download and install AEM Sites templates
-feature: Installation, AEM Sites
+feature: Installation
 role: Admin
 level: Experienced
 ---
