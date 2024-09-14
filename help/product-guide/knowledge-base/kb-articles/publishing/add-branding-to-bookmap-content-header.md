@@ -1,32 +1,32 @@
 ---
-title: Add Enterprise Branding to First Page of DITA PDF
-description: Achieve company branding by seamlessly merging the cover page with the chapter page, ensuring the enterprise's identity is prominently displayed at the top of the content.
+title: Add Enterprise Branding to the First Page of a DITA PDF
+description: Achieve company branding by integrating the cover page and chapter page, ensuring the enterprise's identity is clearly displayed at the top of the content.
 feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
 ---
-# Add Enterprise Branding to First Page of DITA PDF
+# Add Enterprise Branding to the First Page of a DITA PDF
 
-## Article will cover : 
+## This article will cover: 
 
-Achieving Enterprise branding by seamlessly merging the cover page with the chapter page, ensuring the enterprise's identity is prominently displayed at the top of the content.
+Achieving Enterprise branding by seamlessly merging the FrontCover page with the chapter page, ensuring the enterprise's identity is prominently displayed at the top of the content.
 
--   [Set-up your Content](#set-up-your-content)
--   [Create necessary changes in PDF  Template](#create-necessary-changes-in-pdf-template)
+-   [Set up your Content](#set-up-your-content)
+-   [Make the Necessary Changes in the PDF Template](#create-necessary-changes-in-pdf-template)
 
 **Before:**
 
-![Before fixing branding](../assets/publishing/branding-image1.png)
+![Before fixing branding: Screenshot showing pre-branded PDF layout](../assets/publishing/branding-image1.png)
 <br>
 <br>
 
 **After:**
 
-![After fixing branding](../assets/publishing/branding-image2.png)
+![After fixing branding: Screenshot showing post-branded PDF layout](../assets/publishing/branding-image2.png)
 
-## Set-up your Content
+## Set up your Content
 
-A Ditamap or Bookmap must be created to publish content in PDF format.
+To publish content in PDF format, you must create a Ditamap or Bookmap.
 
 Sample Bookmap structure :
 
@@ -62,87 +62,82 @@ Sample Ditamap structure:
 
   <topicref href="topic1.dita" >
   </topicref>
-  <topicref href="topic2.dita" ">
+  <topicref href="topic2.dita">
   </topicref>
   
 </map>
 
 ```
 
-The Coverpage of PDF is  automatically generated if Bookmap contains `<frontmatter>`.
+The FrontCover of PDF is automatically generated if Bookmap contains `<frontmatter>`.
 
 
-## Create necessary changes in PDF Template
+## Make the Necessary Changes in the PDF Template
 
-In this section , We will setup our template (You can use /duplicate Hi-tech to get started)
+In this section, we will set up our template. (You can use or duplicate the Hi-tech template to get started.)
 
-### Setup your template :
+### Set up your Template :
 
 - Go to your Native PDF template.
-- Go to your Froncover/cover page layout and edit it.
-- Here, Add your branding image  in `data-region="content"`
+- Go to your FrontCover page layout and edit it.
+- Here, add your branding image in `data-region="content"`.
 - Add other necessary changes in your chapter template if needed.
-- Now follow below steps based on your content.
+- Now follow the steps below based on your content.
 
 
-#### If you re using Ditamap for PDF generation :
+#### If you are using Ditamap for PDF generation :
 
-When publishing a DITAMAP, Native PDF provides the functionality to automatically generate a front page. The option to enable or disable front page generation can be configured in the Native PDF template.
+When publishing a DITAMAP, Native PDF provides the functionality to automatically generate a FrontCover page. The option to enable or disable FrontCover Page generation can be configured in the Native PDF template.
 
 To merge:
 - Go to your Native PDF template settings --> Page Layout Order
 - Now merge FrontCover with Next page i.e Chapter & Topics.
-![Merging FrontCover with Chapter](../assets/publishing/branding-image3.png)
+![Merging FrontCover with Chapter: Screenshot showing Native PDF template settings](../assets/publishing/branding-image3.png)
 - Save template, Select this template for your preset and publish!
 
 
 #### If you are using Bookmap for PDF generation 
 
-In case of Bookmap, Sequence of Page Layout Oder is controlled from Bookmap's  structure rather than template's order.
+In the case of a Bookmap, the sequence of Page Layout Order is controlled by the Bookmap's structure rather than the template's order.
 
-To achieve this for Bookmap , We will utilize NativePDF's Javascript feature.
+To achieve this for Bookmap , We will utilize NativePDF's JavaScript feature.
 
--  Add below Javascript in your template's resource folder 
+-  Add below JavaScript in your template's resource folder 
 
 ```
 
 window.addEventListener('DOMContentLoaded', function () {
-
     window.pdfLayout.onAfterPagination(function () {
         var frontMatterWrappers = document.querySelectorAll('.rh-front-matter-wrapper');
 
         frontMatterWrappers.forEach(function(wrapper) {
-         
             var contentDiv = wrapper.querySelector('div[data-region="content"]');
-
-      
             var chapterBody = document.querySelector('.chapter-body');
 
-        
             if (contentDiv && chapterBody) {
                 chapterBody.insertBefore(contentDiv, chapterBody.firstChild);
             }
 
-           
             wrapper.remove();
         });
     });
 });
 
+
 ```
 
-- Include this Javascript in your chapter template.
-![Include Javascript in chapter template ](../assets/publishing/branding-image4.png)
+- Include this JavaScript in your chapter template.
+![Include JavaScript in chapter template: Screenshot showing entry in page layout PDF template](../assets/publishing/branding-image4.png)
 
-- Enable Javascript from your preset option
-![Enable Javascript preset setting](../assets/publishing/branding-image5.png)
+- Enable JavaScript from your preset option
+![Enable JavaScript preset setting: Screenshot showing Preset setting to enable JavaScript](../assets/publishing/branding-image5.png)
 
 - Publish!
 
 ## Attachments :
 
-- [Sample PDF template package](../assets/publishing/NativePDF_DemoTemplate.zip)
-- [Sample Preset package](../assets/publishing/Preset_Package.zip)
+- [Download the sample PDF template package to see the applied changes.](../assets/publishing/NativePDF_DemoTemplate.zip)
+- [Download the sample PDF Preset package to see the applied changes.](../assets/publishing/Preset_Package.zip)
 
 
 ## Other Resources:
