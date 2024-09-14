@@ -141,7 +141,6 @@ window.addEventListener('DOMContentLoaded', function () {
 
 ## Attachments :
 
-- [Sample DITA Content package](../assets/publishing/Sample-content-package.zip)
 - [Sample PDF template package](../assets/publishing/NativePDF_DemoTemplate.zip)
 - [Sample Preset package](../assets/publishing/Preset_Package.zip)
 
