@@ -1,7 +1,7 @@
 ---
 title: Add Enterprise Branding to First Page of DITA PDF
 description: Achieve company branding by seamlessly merging the cover page with the chapter page, ensuring the enterprise's identity is prominently displayed at the top of the content.
-feature: Native PDF publishing
+feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
 ---
