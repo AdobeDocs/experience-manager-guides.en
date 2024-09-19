@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 ---
 
-# AEM Sites presets in the Web Editor{#id205BE3008SW}
+# AEM Sites presets in the Web Editor
 
 
 You can create AEM Sites presets from the Web Editor and configure them to generate the AEM Sites output. AEM Sites output is based on the composite components mapping along with the `guides-components`, facilitating efficient content creation and management.
