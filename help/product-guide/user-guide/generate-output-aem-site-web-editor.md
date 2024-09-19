@@ -1,11 +1,11 @@
 ---
 title: AEM Sites
-description: Create and configure AEM Sites preset in the Web Editor . Use AEM Sites support to generate aem sites output, article-based output, and output linking topics, .
+description: Create and configure AEM Sites preset in the Web Editor and generate AEM Sites output for DITA map, selected topics, and linked topics.
 feature: Publishing
 role: User
 ---
 
-# AEM Sites {#id205BE3008SW}
+# AEM Sites presets in the Web Editor{#id205BE3008SW}
 
 
 You can create AEM Sites presets from the Web Editor and configure them to generate the AEM Sites output.
