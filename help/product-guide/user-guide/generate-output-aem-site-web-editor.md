@@ -1,6 +1,6 @@
 ---
 title: AEM Sites
-description: Create and configure AEM Sites preset in the Web Editor and generate AEM Sites output for DITA map, selected topics, and linked topics.
+description: Create and configure the AEM Sites preset in the Web Editor and generate AEM Sites output for DITA map, selected topics, and linked topics.
 feature: Publishing
 role: User
 ---
@@ -10,9 +10,9 @@ role: User
 
 You can create AEM Sites presets from the Web Editor and configure them to generate the AEM Sites output.
 
-AEM Sites presets in Experience Manager Guides use the DITA-OT method to convert content into normalized formats and then into HTML. This HTML is subsequently used to create AEM Sites pages. AEM Sites uses core WCM components along with the Experience Manager Guides components, facilitating efficient content creation and management.
+ AEM Sites is based on the composite components mapping along with the `guides-components`, facilitating efficient content creation and management.
 
-Experience Manager Guides provide predefined templates for creating AEM Sites. These presets help you ensure consistency in content layout and structure. 
+Experience Manager Guides provides predefined templates for creating AEM Sites. These presets help you ensure consistency in content layout and structure. 
 - [Create home pages](../cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) based on these predefined templates. 
 - You can [edit topic templates](../cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation) and apply styles according to your requirements.
 - You can also [customize existing AEM Sites templates](../cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates).
@@ -26,7 +26,7 @@ Perform the following steps to create the AEM Sites presets from the Web Editor:
 1. In the Repository panel, open the DITA map file in Map View.
 1. In the **Output** tab, select the + icon to create an output preset.
 1. Select **AEM Sites** from the **Type** drop-down in the **New output preset** dialog box.
-1. To create an AEM Sites preset based on based on core components mapping, deselect the **Use legacy component mapping** option from the **New output preset** dialog box.
+1. Deselect the **Use legacy component mapping** option from the **New output preset** dialog box.
 
 ![New ](images/new-aem-sites-dialog-box.png)
 
@@ -37,7 +37,7 @@ Perform the following steps to create the AEM Sites presets from the Web Editor:
 >[!NOTE]
 >
 >Before configuring the AEM Sites presets for Experience Manager Guides, your administrator needs to create an AEM Sites structure using the templates. 
-- **On-premise Software**: Learn more about how to [download and install AEM Sites templates](../cs-install-guide/download-install-aem-sites-templates.md) for On-premise Software .
+- **On-premise Software**: Learn more about how to [download and install AEM Sites templates](../install-guide/download-install-aem-sites-templates.md) for On-premise Software.
 - **Cloud Service**: Learn more about how to [download and install AEM Sites templates](../cs-install-guide/download-install-aem-sites-templates-cs.md) for Cloud Service.
 
 
@@ -93,9 +93,7 @@ For details, refer to [AEM Sites configuration](#aem_sites_config).
 
 **Topic List**
 
-The **Topic List** displays the list of topics present in the current working copy of the DITA map. You can select specific topics and generate the AEM Sites output only for them. By default, all topics are included.
-
-Using this feature, you can create customized guides or manuals for different products or user groups. You can also generate AEM Sites pages tailored for different campaigns or audience segments.
+The **Topic List** displays the list of topics present in the current working copy of the DITA map. By default, all topics are included. You can select specific topics and generate the AEM Sites output only for them. For example, you have updated some topics so you can publish only those topics instead of publish the entire DITA map.
 
 **Topic List** tab is present in the AEM presets that are not created based on legacy mapping. 
 
@@ -117,10 +115,10 @@ The following options are available for the AEM Sites output:
 | AEM Sites options | Description |
 | --- | --- |
 |Use site path|Use this option to publish your content to an Experience Manager Site. Select this option if you know the exact site path where you want the output to be published. Also, mention the full path in the Site path field.|
-|Site path|This option appears if you select **Use site path** option. Browse the exact Experience  Manager Site path where you want the output to be published. |
-|Site|Name of the Experience Manager Sites to which you want to publish your content. The options in the dropdown are populated based on the list of sites available in AEM Sites. <br>Select **Refresh** ![refreseh icon](images/navtitle-refresh-icon.svg) to fetch a fresh list of options and reflect the udpated data.|
+|Site path|This option appears if you select **Use site path** option. Browse the exact Experience Manager Site path where you want the output to be published. |
+|Site|Name of the Experience Manager Sites to which you want to publish your content. The options in the dropdown are populated based on the list of sites available in AEM Sites. <br>Select **Refresh** ![refreseh icon](images/navtitle-refresh-icon.svg) to fetch a fresh list of options and reflect the updated data.|
 | Publish Path | The path within your AEM repository where the output is stored. The Publish Path is populated with all the paths that contain pages created based on the Home Page template. The AEM Sites output of the DITA map is generated under this path.  For example, if you specify the Site as `AEMG-Docs` and the Publish Path as `aemg-docs-en/docs/product-abc.`, then the AEM Sites output is generated under the `aemg-docs-en/docs/product-abc/` node in `crx/de`.|
-| Topic page template |The structural components that you can use to organize content consistently across multiple documents. These templates are predefined in the Adobe Experience Manager Site template. The options are populated with all the topic page templates available for the selected Site. Select the template you want to apply to all the output topics. |
+| Topic page template |The structural components that you can use to organize content consistently across multiple documents. These templates are predefined in the Adobe Experience Manager Site template. The options are populated with all the topic page templates available for the selected Site. Select the template that you want to apply to all the output topics. |
 |Generate page names based on|  **Topic filename**: Uses the DITA topic's file name to create the Site URL. <br> **Topic title**: Uses the DITA topic's title to create the Experience Manager Site names.|
 | Cleanup previously generated pages| -  **Delete previously generated pages for topic removed from the map**: If the structure of the DTIA map changes, you can use this option to remove the previously generated pages for the removed topics. This feature is available only for full map publishing.<br><br>Let's say you have published a DITA map, which contains topics a.dita, b.dita, and c.dita. Before publishing the map again, you removed b.dita topic from the map. Now, if you have selected this option, then all content related to b.dita is removed from the AEM Sites output and only a.dita and c.dita are published.<br><br>**Note**: Information about deleted pages is also captured in the output generation logs. For more information about accessing the log files, [View and check the log file](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Caution**: On deleting the topics, the pages become unavailable from the published site. So, before the topics are deleted, a warning appears. You must confirm to delete them.<br><br>- **Delete all pages created by other sources at this path**: If you select this option, all pages published on this path from other maps, individual topics, or any other source are deleted. The pages also become unavailable from the published site. So, before the topics are deleted, a warning appears. You must confirm to delete them.|
 | Post Generation Workflow | When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow. |
