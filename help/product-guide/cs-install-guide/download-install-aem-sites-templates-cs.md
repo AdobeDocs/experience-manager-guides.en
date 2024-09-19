@@ -24,7 +24,7 @@ Perform the following steps to create an AEM Sites using the template:
 1. Within the Sites UI, click the **Create** button on the top-right corner.
 1. Select **Site from template** from the **Create** dropdown.
 
-1. Import sites templates: [aemg-docs-1.0.0.zip]( https://github.com/adobe/aemg-sites-template/releases/tag/v1.0.0) using **Import** option.
+1. Import sites templates: [aemg-docs-1.0.0.zip](https://github.com/adobe/aemg-sites-template/releases/tag/v1.0.0) using **Import** option.
 1. Select `AEMG Docs 1.0.0` and then click **Next**.
 1. Enter `Site title` and `Site name`.
 1. Click **Create**. The package is installed and an AEM Sites template is created. 
@@ -102,10 +102,9 @@ You need the following two types of templates:
     -  Detail Page or Topic Page Template: Use this template for the content of topics of a map. All the Sites pages of DITA/XML content are created using Topic Page templates. To create these templates, there are two pre-requisites:
         - Add a text component to the template, contained in a container component, with a mandatory property. `text="$topic.content$"`. 
 ![container page template](assets/customize-existing-aem-templates-container.png)
- 	 
-    - Reflect the same container and text component in the structure of the same template, as shown in the following screenshot:
+       - Reflect the same container and text component in the structure of the same template, as shown in the following screenshot:
 ![structure of container template](assets/customize-existing-aem-templates-structure.png)
- 	 
+
 ### Tag Category Page as documentation container
 
 Assuming a site hierarchy is created for the documentation pages using the previous template, choose one of the category pages created in that site hierarchy. Tag the category page as a Documentation container by giving it an ID. 

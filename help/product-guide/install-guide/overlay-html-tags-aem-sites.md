@@ -12,9 +12,9 @@ You can add and customize HTML tags in AEM Sites output generated using the AEM 
 
 Perform the following steps to overlay and update the `config.xml` file:
 
-1.	Log into AEM and open the CRXDE Lite mode.
+1. Log into AEM and open the CRXDE Lite mode.
 
-1.	Navigate to the configuration file available at the following location:
+1. Navigate to the configuration file available at the following location:
 
     `/libs/fmdita/cq/xssprotection/config.xml`
 
@@ -25,8 +25,9 @@ Perform the following steps to overlay and update the `config.xml` file:
     `/apps/fmdita/config/config.xml`
 
 1.  Update the following tags for the videos:
-    ```XML
-            <tag name="video" action="validate">
+  
+	```XML
+    <tag name="video" action="validate">
 	    <attribute name="src">
 		<regexp-list>
 			<regexp name="anything"/>
@@ -75,7 +76,7 @@ Perform the following steps to overlay and update the `config.xml` file:
 1. Update the following tags for the image maps: 
 
     ```XML
-        <tag name="map" action="validate">
+    <tag name="map" action="validate">
 	<attribute    name="name">
 		<regexp-list>
 			<regexp name="anything"/>
