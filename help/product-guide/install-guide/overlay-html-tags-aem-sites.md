@@ -76,7 +76,62 @@ Perform the following steps to overlay and update the `config.xml` file:
 
 1. Update the following tags for the image maps: 
 
-
+	```XML
+    	<tag name="map" action="validate">
+	<attribute    name="name">
+		<regexp-list>
+			<regexp name="anything"/>
+		</regexp-list>
+	</attribute>
+    </tag>
+    <!-- Image & image related tags -->
+    <tag name="img" action="validate">
+	<attribute name="src" onInvalid="removeTag">
+		<regexp-list>
+			<regexp name="onsiteURL"/>
+			<regexp name="offsiteURL"/>
+		</regexp-list>
+	</attribute>
+	<attribute name="name"/>
+	<attribute name="alt"/>
+	<attribute name="height"/>
+	<attribute name="width"/>
+	<attribute name="border"/>
+	<attribute name="align"/>
+	<attribute name="usemap">
+		<regexp-list>
+			<regexp name="anything"/>
+		</regexp-list>
+	</attribute>
+	<attribute name="hspace">
+		<regexp-list>
+			<regexp name="number"/>
+		</regexp-list>
+	</attribute>
+	<attribute name="vspace">
+		<regexp-list>
+			<regexp name="number"/>
+		</regexp-list>
+	</attribute>
+    </tag>
+    <tag name="area" action="validate">
+	<attribute name="shape">
+		<regexp-list>
+			<regexp name="anything"/>
+		</regexp-list>
+	</attribute>
+	<attribute name="coords">
+		<regexp-list>
+			<regexp name="anything"/>
+		</regexp-list>
+	</attribute>
+	<attribute name="href">
+		<regexp-list>
+			<regexp name="anything"/>
+		</regexp-list>
+	</attribute>
+   </tag>
+	```
 
 1. Save the file.
 
