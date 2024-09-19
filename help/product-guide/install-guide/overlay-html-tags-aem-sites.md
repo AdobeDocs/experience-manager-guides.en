@@ -72,11 +72,11 @@ Perform the following steps to overlay and update the `config.xml` file:
 	</attribute>
     </tag>
 
-	```
+   ```
 
 1. Update the following tags for the image maps: 
 
-	```XML
+   ```XML
     	<tag name="map" action="validate">
 	<attribute    name="name">
 		<regexp-list>
@@ -131,7 +131,7 @@ Perform the following steps to overlay and update the `config.xml` file:
 		</regexp-list>
 	</attribute>
    </tag>
-	```
+   ```
 
 1. Save the file.
 
