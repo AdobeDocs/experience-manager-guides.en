@@ -76,7 +76,7 @@ Perform the following steps to overlay and update the `config.xml` file:
 
 1. Update the following tags for the image maps: 
 
-	
+
 
 1. Save the file.
 
