@@ -8,7 +8,6 @@ role: User
 
 You can create AEM Sites presets from the map dashboard and configure them to generate the AEM Sites output.
 
-To open output presets for AEM Site, select on a DITA map file from the Assets UI, then select the Output Presets, and then select the AEM Site output option. In the map dashboard, click **Edit** on the top to update the various configurations, and then click **Save**.
 
 The following options are available for the AEM Sites output:
 

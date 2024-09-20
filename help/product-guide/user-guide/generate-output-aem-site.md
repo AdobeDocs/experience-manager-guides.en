@@ -15,7 +15,7 @@ You can create and configure the AEM Sites presets from the Web Editor or the ma
 
 1. In the Repository panel, open the DITA map file in Map View.
 1. In the Output tab, select the + icon to create an output preset. 
-1. Select AEM Site from the type drop-down in the Add preset dialog box. 
+1. Select AEM Site from the type drop-down in the **New output preset** dialog box. 
 
 Learn more about [AEM Sites Presets in the Web Editor](generate-output-aem-site-web-editor.md).
 
