@@ -440,7 +440,7 @@ Learn more about how to view and add [AI-based Smart Suggestions](../user-guide/
 
 
 
-<!--## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
+## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
 
 For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
