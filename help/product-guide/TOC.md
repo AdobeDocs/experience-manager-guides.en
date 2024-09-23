@@ -379,8 +379,9 @@ breadcrumb-title: AEM Guides Documentation
     - Configure versions {#version-mgt-cs}
       - [Version management](./cs-install-guide/version-management.md)
     - Work with desktop-based XML editors {#desktop-xml-editor}
-      - Work with output generation settings {#output-gen-config-cs}
-      - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
+       - [Integrate desktop-based XML editors](./cs-install-guide/integrate-desktop-editors-cs.md)
+    - Work with output generation settings {#output-gen-config-cs}
+        - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
       - [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       - [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
