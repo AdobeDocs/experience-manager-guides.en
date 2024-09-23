@@ -14,19 +14,19 @@ Perform the following steps to overlay and update the `config.xml` file:
 
 1. Log into AEM and open the CRXDE Lite mode.
 
-1. Navigate to the configuration file available at the following location:
+2. Navigate to the configuration file available at the following location:
 
     `/libs/fmdita/cq/xssprotection/config.xml`
 
-1. Create an overlay node of the `xssprotection` folder within the apps node.
+3. Create an overlay node of the `xssprotection` folder within the apps node.
 
-1. Navigate to the configuration file available in the `apps` node:
+4. Navigate to the configuration file available in the `apps` node:
 
     `/apps/fmdita/config/config.xml`
 
-1.  Update the following tags for the videos:
+5.  Update the following tags for the videos:
   
-	```XML
+```XML
     <tag name="video" action="validate">
    	<attribute name="src">
       <regexp-list>
@@ -71,12 +71,11 @@ Perform the following steps to overlay and update the `config.xml` file:
         </regexp-list>
       </attribute>
     </tag>
+ ```
 
-	```
+6. Update the following tags for the image maps: 
 
-1. Update the following tags for the image maps: 
-
-	```XML
+```XML
     	<tag name="map" action="validate">
 	<attribute    name="name">
 		<regexp-list>
@@ -131,8 +130,7 @@ Perform the following steps to overlay and update the `config.xml` file:
 		</regexp-list>
 	</attribute>
    </tag>
-	```
-
-1. Save the file.
+```
+7. Save the file.
 
 Learn more about the best practices of [Security](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security). 
