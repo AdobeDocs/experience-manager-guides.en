@@ -1,5 +1,5 @@
 ---
-title: Release Notes | What's New in Adobe Experience Manager Guides 4.4.0 release
+title: Release Notes | What's New in Adobe Experience Manager Guides 2024.10.0release
 description: Learn about the new and enhanced features in the 2024.10.0 release of Adobe Experience Manager Guides
 role: Leader
 ---
@@ -65,13 +65,6 @@ If the same topic is referred to more than once in a file, then you can add a di
 
 
 
-
-
-
-
-
-
-
 ### Option to either choose a flat or nested file hierarchy for HTML5 output
 
 Now, Experience Manager Guides allows you to retain the flat folder hierarchy for the temporary files wherein the entire content is published in HTML5 output format and saved in a single folder.
@@ -102,13 +95,6 @@ You can also access the **Layout** view for read-only DITA maps.
 Learn how to [open locked files in Author and Source modes](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
 
 
-
-
-
-
-
-
-
 ### Grouped conditions for enhanced content organization
 
 Experience Manager Guides now allows you to group conditions and present them in a nested hierarchy, allowing you to add multiple conditions to a single group. By grouping conditions, you can better organize and apply them across your content.
@@ -118,11 +104,7 @@ Experience Manager Guides now allows you to group conditions and present them in
 Learn more about the **Conditions** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 
-## Content lifecycle management enhancements
-
-The content lifecycle management has been enhanced in the following ways:
-
-### Ability to translate content into multiple languages using preconfigured language groups
+## Ability to translate content into multiple languages using preconfigured language groups
 
 Experience Manager Guides now allows you to create language groups and easily translate your content into multiple languages. This feature helps you organize and manage translations according to your organization's needs. 
 
