@@ -6,6 +6,9 @@ description: Learn about the bug fixes in the 2024.10.0 release of Adobe Experie
 
 This article covers the bugs fixed in various areas of the 2024.10.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
+For more information about the new features and enhancements, view [What's new in the 2024.10.0 release](whats-new-2024-10-0.md).
+
+Learn about [upgrade instructions for the 2024.10.0 release](upgrade-instructions-2024-10-0.md).
 
 
 ## Authoring
