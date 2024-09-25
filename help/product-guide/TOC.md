@@ -359,7 +359,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
       - [Configure the AI-powered smart suggestions for authoring](./cs-install-guide/conf-smart-suggestions.md)
       
-      - [Configure the AI-powered Guides Assistant to search content](./cs-install-guide/conf-guides-assistant.md)
+      - [Configure the AI-powered Smart Help to search content](./cs-install-guide/conf-smart-help.md)
       - [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
       - [Configure display of UUID-based links](./cs-install-guide/conf-uuid-based-links.md)
       - [Open DITA topic or map files in same tab](./cs-install-guide/open-dita-files-same-tab.md)
