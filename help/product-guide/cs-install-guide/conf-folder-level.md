@@ -485,7 +485,7 @@ Perform the following steps to configure the default questions:
     > The default questions appear in the **Smart Help** panel after you save the file. 
 
 
-Learn more about using the [AI-powered Smart Help](../user-guide/ai-based-guides-assistant.md) to find the required content from the Experience Manager Guides documentation.
+Learn more about using the [AI-powered Smart Help](../user-guide/ai-based-smart-help.md) to find the required content from the Experience Manager Guides documentation.
 
 
 ## Configure and customize the XML Web Editor {#id2065G300O5Z}
