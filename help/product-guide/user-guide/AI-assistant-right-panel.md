@@ -11,7 +11,7 @@ Experience Manager Guides provides an AI Assistant tool that helps you make your
 >[!NOTE]
 >
 > To add AI Assistant feature in the right panel, your system administrator must select the **AI Assistant** option under the **Panels** tab in the **Editor Settings**.
-Also, you must check out your document to view the AI Assistant icon.  
+> Also, you must check out your document to view the AI Assistant icon.  
 
 
 
