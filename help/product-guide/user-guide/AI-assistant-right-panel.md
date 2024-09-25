@@ -4,13 +4,13 @@ description: Learn how to Use the AI Assistant to author documents with smart ef
 ---
 
 
-# AI Assistant to author documents with smart efficiency `
+# AI Assistant to author documents with smart efficiency
 
 Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. You’ll experience simplified document handling through intelligent suggestions and optimization. Using this tool, you can improve and translate the selected content. Based on the selected content, you can create a short description. You can smartly convert a paragraph to a list or view the smart suggestions to reuse the content. The text prompt feature allows you to ask a query or instruct and generate an output for the selected content.
 
 >[!NOTE]
 >
->To add AI Assistant feature in the right panel, your system administrator must select the **AI Assistant** option under the **Panels** tab in the **Editor Settings**.
+> To add AI Assistant feature in the right panel, your system administrator must select the **AI Assistant** option under the **Panels** tab in the **Editor Settings**.
 Also, you must check out your document to view the AI Assistant icon.  
 
 
@@ -31,7 +31,7 @@ You can also perform the following actions:
 - **Accept**: Replace the selected content in the topic with the suggested content.  
 - **Cancel**: Cancels the reusable content action. Returns to the initial state of the panel.
 
-> [!NOTE]
+>[!NOTE]
 >
 > Selecting the **Cancel**  icon in the feature panel  also returns you to the initial state.
 
@@ -46,14 +46,14 @@ You can give a prompt in the following ways:
 1. Choose a prompt from the suggested prompts 
 1. Edit a suggested prompt to create a custom prompt. 
 
-    > [!NOTE]
+    >[!NOTE]
     >
     > The suggested prompts are configured in the `ui_config.json` by your administrator. 
 
 1. Enter your prompt in the text box.
 For example, you can generate a summary of the features of a product and use it in your report to showcase the product. You can also use this feature to compare two products. For example, you can also create a comparison table for the features of two products.
 
-> [!NOTE]
+>[!NOTE]
 >
 > The responses are generated based on the selected content.
 
@@ -104,7 +104,7 @@ This feature intelligently converts a selected paragraph into a list.  It analyz
 Perform the following steps to itemize content:
 
 1. Select the content. 
-1.	Select  to convert the selected content into a list. 
+1. Select  to convert the selected content into a list. 
 The AI Assistant tool converts the content smartly into a list of items. 
 1. (Optional) Select **Expand** to opens the **Itemize content** editor. It displays the current and the generated content. You can edit the source layout content and check the preview.
  
