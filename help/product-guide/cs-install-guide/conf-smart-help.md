@@ -100,5 +100,5 @@ Once this is done, you should be able to use the **Smart Help** feature.
 ```
 
 
-Once you have configured, the **Smart Help** ![Smart Help](assets/guides-assistant-icon.svg) icon is displayed in the right panel of the Web Editor. Select the icon to view the **Smart Help** panel. 
-For more details, view the [AI-powered Smart Help to search content](../user-guide/ai-based-guides-assistant.md) section in the Experience Manager User Guide.
+Once you have configured, the **Smart Help** ![Smart Help](assets/smart-help-icon.svg) icon is displayed in the right panel of the Web Editor. Select the icon to view the **Smart Help** panel. 
+For more details, view the [AI-powered Smart Help to search content](../user-guide/ai-based-smart-help.md) section in the Experience Manager User Guide.

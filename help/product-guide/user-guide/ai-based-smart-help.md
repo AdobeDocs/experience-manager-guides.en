@@ -20,15 +20,15 @@ When you open the Web Editor, the **Smart Help** panel appears on the right.
 
 >[!NOTE]
 >
-> Your administrator must configure the **Smart Help** feature. For more details, view the [Configure the AI-powered Smart Help to search content](../cs-install-guide/conf-guides-assistant.md) section in the Installation and Configuration Guide for Cloud Services. 
+> Your administrator must configure the **Smart Help** feature. For more details, view the [Configure the AI-powered Smart Help to search content](../cs-install-guide/conf-smart-help.md) section in the Installation and Configuration Guide for Cloud Services. 
 
-![Smart Help panel](images/guides-assistant-panel.png){width="300" align="left"}
+![Smart Help panel](images/smart-help-panel.png){width="300" align="left"}
 
 *View the **Smart Help** panel.*
 
 Perform the following steps to use the conversational search to find appropriate content and resolve your queries:
 
-1. Select **Smart Help** ![Smart Help icon](images/guides-assistant-icon.svg) to open the panel.
+1. Select **Smart Help** ![Smart Help icon](images/smart-help-icon.svg) to open the panel.
 
 
 
@@ -42,7 +42,7 @@ Perform the following steps to use the conversational search to find appropriate
   
       Depending on your question, you may view the content, applicable images, and links to the articles.
 
-        ![Smart Help panel response](images/guides-assistant-panel-response.png){width="300" align="left"}
+        ![Smart Help panel response](images/smart-help-panel-response.png){width="300" align="left"}
 
 
         *Select the sample question and view the content and images in response.* 
