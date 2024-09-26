@@ -5,7 +5,7 @@ role: Leader
 ---
 # What's new in the 2024.10.0 release (September 2024)
 
-This article covers the new and enhanced features introduced with version 2024.10.0 of Adobe Experience Manager Guides.
+This article covers the new and enhanced features introduced with 2024.10.0 release of Adobe Experience Manager Guides as a Cloud Service..
 
 For the list of issues fixed in this release, view [Fixed issues in the 2024.10.0 release](fixed-issues-2024-10-0.md).
 
@@ -63,7 +63,7 @@ If the same topic is referred to more than once in a file, then you can add a di
  
  *Specify the publishing context for the linked topics from the **Cross map references** tab of the **AEM Sites** preset.*
 
-
+Learn more about [AEM Sites Presets](../user-guide/generate-output-aem-site.md).
 
 ### Option to either choose a flat or nested file hierarchy for HTML5 output
 
