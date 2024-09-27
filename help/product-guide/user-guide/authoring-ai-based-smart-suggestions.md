@@ -20,16 +20,16 @@ Perform the following steps to view the smart suggestions for adding appropriate
   1. Select the content in your topic to view the related suggestions. Ensure that the content's character length exceeds what your administrator has set in the folder profile for the content suggestions to appear.
   1. From the AI Assstant panel, select **Suggest reusable content** ![ai suggest reusable content icon ](./images/ai-suggest-reusable-content-icon.svg).
 
-  1. Select **Suggestions for the current tag** ![smart suggestions current tag icon](images/smart-suggestions-current-tag-icon.svg) to view the authoring suggestions for the current tag where you place your mouse pointer.  The suggestions to view and add content references from the indexed files are displayed based on the content in the current tag.
+  1. Select **Suggestions for the current tag**  to view the authoring suggestions for the current tag where you place your mouse pointer.  The suggestions to view and add content references from the indexed files are displayed based on the content in the current tag.
   
-      Keyboard shortcut: **Windows** (*Ctrl* + *K*),  **macOS** (*Command* + *K*)
-  1. Select **Suggestions for the complete document**  ![smart suggestions complete document icon](images/smart-suggestions-complete-document-icon.svg) to view the suggestions based on the content present in the complete document.  The smart suggestions![smart suggestions icon](images/smart-suggestions-complete-document-icon.svg) icon is displayed next to the content where a suitable match is found. 
+    
+  1. Select **Suggestions for the complete document**  ! to view the suggestions based on the content present in the complete document.  The **Suggest reusable content** ![ai suggest reusable content icon ](./images/ai-suggest-reusable-content-icon.svg) icon is displayed next to the content where a suitable match is found. 
 
-      Keyboard shortcut: **Windows** ( *Ctrl* + *Shift* +  *K* ),  **macOS** (*Command* + *Shift* + *K* )
+
 
         >[!NOTE]
         >
-        > You can only view the suggestions for the current viewport (the content visible on the screen). To view suggestions for any other content in the document, scroll up or down to display it in the viewport and then select the ![smart suggestions icon](images/smart-suggestions-complete-document-icon.svg) icon .
+        > You can only view the suggestions for the current viewport (the content visible on the screen). To view suggestions for any other content in the document, scroll up or down to display it in the viewport and then select **Suggest reusable content** ![ai suggest reusable content icon ](./images/ai-suggest-reusable-content-icon.svg).
    
    1. Select the **Suggest reusable content**![Suggest reusable content icon](images/ai-suggest-reusable-content-icon.svg) icon near the tags you have added to your document to view the smart suggestions. 
   1. You can view the smart suggestions  in the **Suggest reusable content** suggestions box.  Experience Manager Guides provides suggestions for exactly matching content and content with the same meaning. For example, you can search for the topic that contains the exact version number, like "release version 2023.03.12". You can also search for "Adobe is headquartered in San Jose, California," and find similar content like "San Jose has the quarters of many software companies like Adobe."

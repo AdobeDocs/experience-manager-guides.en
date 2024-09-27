@@ -6,11 +6,11 @@ description: Learn how to Use the AI Assistant to author documents with smart ef
 
 # AI Assistant to author documents with smart efficiency
 
-Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. You experience simplified document handling through intelligent suggestions and optimization. Using this tool, view the smart suggestions to reuse the content from the existing content repository. The text prompt feature allows you to ask a query or instruct and generate an output for the selected content. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic. This feature also helps you to easily improve and translate the selected content.
+Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. You experience simplified document handling through intelligent suggestions and optimization. Using this tool, view the smart suggestions to reuse the content from the existing content repository. Use text prompt feature allows you to ask a query or instruct and generate an output for the selected content. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic. This feature also helps you to easily improve and translate the selected content.
 
 >[!NOTE]
 >
-> To add the AI Assistant feature in the right panel, your system administrator must select the **AI Assistant** option under the **Panels** tab in the **Editor Settings**.
+> To add the AI Assistant feature in the right panel, your system administrator must select the **AI Assistant** option under the **Panels** tab in the **Editor Settings** ![Editor Settings icon](./images/editor_settings_icon.svg).
 > Also, you must check out your document to view the AI Assistant icon.  
 
 After selecting the text in a topic, you can choose to perform any of the AI Assistant actions:
@@ -78,7 +78,7 @@ You can use a text prompt to analyze the content, answer queries, or generate th
 Improves the selected content. Check the spelling, language, and grammatical structure and suggest a better version of the content. It also enhances the quality of sentences.
 
 1. Select the content. 
-1. Select **Improve content** ![ai improve content icon](./images/ai-suggest-reusable-content-icon.svg) to find the suggestions for the improved content. 
+1. Select **Improve content** ![ai improve content icon](./images/ai-improve-icon.svg) to find the suggestions for the improved content. 
 1. Select **Regenerate** for another suggestion of improved content. 
 
 1. (Optional) Select **Expand** to open the improved content editor. It displays the current and generated content. You can edit the content in the source layout and also check the preview.

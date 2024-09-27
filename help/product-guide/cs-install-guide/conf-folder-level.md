@@ -401,7 +401,7 @@ If you have updated an existing output preset, or you want to make a new output 
 
 
 
-## Configure AI-powered Smart Suggestions in the Web Editor {#conf-ai-smart-suggestions}
+## Configure AI-powered smart suggestions in the Web Editor {#conf-ai-smart-suggestions}
 
 For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
 
@@ -435,7 +435,7 @@ Perform the following steps to configure standard AI configuration at the global
     >
     > The last indexed status details are displayed on the top after you save the file. 
 
-Learn more about how to view and add [AI-based Smart Suggestions](../user-guide/authoring-ai-based-smart-suggestions.md) to add content references while authoring in the Web Editor.
+Learn more about how to view and add [AI-based smart suggestions](../user-guide/authoring-ai-based-smart-suggestions.md) to add content references while authoring in the Web Editor.
 
 
 
