@@ -1,5 +1,5 @@
 ---
-title: Migrate content: from non-uuid to UUID 
+title: Migrate content from non-uuid to UUID 
 description: AEM Guides, migrate non-uuid content to uuid
 
 ---
