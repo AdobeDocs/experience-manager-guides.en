@@ -1,13 +1,13 @@
 ---
 title: AI-powered Smart Suggestions to author content
-description: Learn how to view and utilize AI-powered Smart Suggestions in the Web Editor.
+description: Learn how to view and utilize AI-powered smart suggestions in the Web Editor.
 exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
 ---
 # AI-powered smart suggestions to author content
 
 Experience Manager Guides provides the smart suggestions that help you create consistent and accurate content.  
 
-While you author content, the **Suggest reusable content feature can search using AI and show the existing content that is semantically similar to your content. You can then choose the best matching content you want to include in your current topic as a reference.
+While you author content, the **Suggest reusable content** feature can search using AI and show the existing content that is semantically similar to your content. You can then choose the best matching content you want to include in your current topic as a reference.
 
 This helps you reuse existing content from your documentation repository and create consistent content. For example, you are making a document containing information about **Adobe Firefly**, including a paragraph about **Adobe**. In that case, you can quickly view and add the content reference from another topic, like **Adobe Photoshop**, which includes the same paragraph.
 >[!NOTE]
