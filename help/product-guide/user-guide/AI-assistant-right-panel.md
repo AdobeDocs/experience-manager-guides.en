@@ -23,7 +23,7 @@ After selecting the text in a topic, you can choose to perform any of the AI Ass
 
 
 Use the **Suggest reusable content** ![ai suggest reusable content icon ](./images/ai-suggest-reusable-content-icon.svg) feature to author content consistently and accurately. You can select the content, and Experience Manager Guides provides suggestions about how to reuse the existing content in your repository. 
-Learn more about using [AI-powered Smart Suggestions to author content](authoring-ai-based-smart-suggestions.md).
+Learn more about using [AI-powered smart suggestions to author content](authoring-ai-based-smart-suggestions.md).
 
 
 
