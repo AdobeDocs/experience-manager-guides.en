@@ -156,7 +156,7 @@ Adobe has identified the following known issues for the 4.6.0 release:
 - The topic’s reference appears broken in the user interface when inserted from the top toolbar of the DITA map.
 - Native PDF generation fails for a DITA map if it has missing references.
 - Once a topic’s document state is updated to **Done**, the **Start a New Release** icon is only available on the **Preview** mode of the topic.
- - When selecting a DITA asset in the Asset UI, the option **Open in FrameMaker** appears, even though it is disabled in the configuration settings.
+ - When selecting a DITA file in the Asset UI, the option **Open in FrameMaker** appears, even though it is disabled in the configuration settings.
 
 
 
