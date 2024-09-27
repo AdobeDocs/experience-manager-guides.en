@@ -405,7 +405,7 @@ If you have updated an existing output preset, or you want to make a new output 
 
 For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
 
-You can configure the AI-powered Smart Suggestions and help the authors reuse the existing content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of the Smart Suggestions panel in the Web Editor.
+You can configure the AI-powered smart suggestions and help the authors reuse the existing content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of  **Suggest reusable content** from the AI Assistant panel in the Web Editor.
 
 Perform the following steps to configure standard AI configuration at the global or folder-level profile:
 1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
@@ -415,7 +415,7 @@ Perform the following steps to configure standard AI configuration at the global
 
     >[!NOTE]
     >
-    >You can configure AI-based Smart Suggestions to the global or a folder-level profile.
+    >You can configure AI-based smart suggestions to the global or a folder-level profile.
 
 1. On the profile page, select the **AI Configuration** tab.
 ![AI configuration tab in global profile](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
