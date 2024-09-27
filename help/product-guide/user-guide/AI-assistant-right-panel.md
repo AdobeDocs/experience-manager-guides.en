@@ -107,6 +107,8 @@ You can also perform the following actions:
 
 - Select **Expand** to open the **Create shortdesc** editor. 
 
+![ai assistant create short description editor](./images/ai-assistant-create-short-desc.png)
+
 
 
 
