@@ -34,6 +34,7 @@ Perform the following steps to view the smart suggestions for adding appropriate
 
   1. You can view the smart suggestions  in the **Suggest reusable content** suggestions box.  Experience Manager Guides provides suggestions for exactly matching content and content with the same meaning. For example, you can search for the topic that contains the exact version number, like "release version 2023.03.12". You can also search for "Adobe is headquartered in San Jose, California," and find similar content like "San Jose has the quarters of many software companies like Adobe."
   1. Select **Content Information** ![Content Information](images/smart-suggestions-content-info-icon.svg) to view the details.
+  
         ![Content information panel](images/smart-suggestions-content-information.png){width="300" align="left"}
 
         *View the detailed information about the content reference.*
