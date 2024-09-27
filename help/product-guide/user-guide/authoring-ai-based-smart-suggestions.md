@@ -20,10 +20,10 @@ Perform the following steps to view the smart suggestions for adding appropriate
   1. Select the content in your topic to view the related suggestions. Ensure that the content's character length exceeds what your administrator has set in the folder profile for the content suggestions to appear.
   1. From the AI Assistant panel, select **Suggest reusable content** ![ai suggest reusable content icon ](./images/ai-suggest-reusable-content-icon.svg).
 
-  1. Select **Suggestions for the current tag to view the authoring suggestions for the current tag where you place your mouse pointer.  The suggestions to view and add content references from the indexed files are displayed based on the content in the current tag.
+  1. Select a tag to view the authoring suggestions for the current tag .  The suggestions to view and add content references from the indexed files are displayed based on the content in the current tag. You can also select multiple tags.
   
     
-  1. Select **Suggestions for the complete document! to view the suggestions based on the content present in the complete document.  The **Suggest reusable content** ![ai suggest reusable content icon ](./images/ai-suggest-reusable-content-icon.svg) icon is displayed next to the content where a suitable match is found. 
+  1. Select all tags to view the suggestions based on the content present in the complete document.  The **Suggest reusable content** ![ai suggest reusable content icon ](./images/ai-suggest-reusable-content-icon.svg) icon is displayed next to the content where a suitable match is found. 
 
 
 
@@ -31,7 +31,7 @@ Perform the following steps to view the smart suggestions for adding appropriate
         >
         > You can only view the suggestions for the current viewport (the content visible on the screen). To view suggestions for any other content in the document, scroll up or down to display it in the viewport, and then select **Suggest reusable content** ![ai suggest reusable content icon ](./images/ai-suggest-reusable-content-icon.svg).
    
-   1. Select the **Suggest reusable content**![Suggest reusable content icon](images/ai-suggest-reusable-content-icon.svg) icon near the tags you have added to your document to view the smart suggestions. 
+
   1. You can view the smart suggestions  in the **Suggest reusable content** suggestions box.  Experience Manager Guides provides suggestions for exactly matching content and content with the same meaning. For example, you can search for the topic that contains the exact version number, like "release version 2023.03.12". You can also search for "Adobe is headquartered in San Jose, California," and find similar content like "San Jose has the quarters of many software companies like Adobe."
   1. Select **Content Information** ![Content Information](images/smart-suggestions-content-info-icon.svg) to view the details.
         ![Content information panel](images/smart-suggestions-content-information.png){width="300" align="left"}
@@ -42,13 +42,13 @@ Perform the following steps to view the smart suggestions for adding appropriate
         1. The path of the file that contains the content reference.
         1. The type of reference where the content is referred.
         1. The names of DITA files where the topic is referred to are displayed as hyperlinks.
-1. Select **Preview to compare the current content with the suggested content. This helps you compare the differences and determine if you want to add the content reference for the suggested content and make it consistent or retain your current content.
+1. Select **Preview** ![preview icon](./images/expand-icon.svg) to compare the current content with the suggested content. This helps you compare the differences and determine if you want to add the content reference for the suggested content and make it consistent or retain your current content.
 
-     ![Suggest reusable content preview](images/ai-assistant-suggest-reusable-content.png){width="800" align="left"}
+     ![Suggest reusable content preview](images/ai-assistant-suggest-reusable-content.png)
 
     *Preview the comparison between the current content and the suggested content.*
  
-1. Click **Accept** to add the suggested content reference in the Suggest reusable content** preview.
+1. Click **Accept** to add the suggested content reference in the **Suggest reusable content** preview.
 1. You can also select **Accept** or **Dismiss** in the **Suggest reusable content** suggestions box for the appropriate recommendations.
 
    

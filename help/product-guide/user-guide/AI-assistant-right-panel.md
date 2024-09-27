@@ -51,9 +51,9 @@ You can use a text prompt to analyze the content, answer queries, or generate th
     - Enter your prompt in the text box. 
   
 
-1. Select **Regenerate** for another response or output based on your prompt, like the AI tools.
+1. Select **Regenerate** ![Regenerate icon](./images/refresh-icon.svg) for another response or output based on your prompt, like the AI tools.
 
-1. (Optional) Select **Expand** to open the **Use text prompt** editor. It displays the current and the generated content. You can edit the source layout content and check the preview.
+1. (Optional) Select **Expand** ![expandicon](./images/expand-icon.svg)  to open the **Use text prompt** editor. It displays the current and the generated content. You can edit the source layout content and check the preview.
  
 
     >[!NOTE]
