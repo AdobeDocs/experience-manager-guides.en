@@ -32,9 +32,9 @@ Perform the following steps to view the smart suggestions for adding appropriate
         > You can only view the suggestions for the current viewport (the content visible on the screen). To view suggestions for any other content in the document, scroll up or down to display it in the viewport, and then select **Suggest reusable content** ![ai suggest reusable content icon ](./images/ai-suggest-reusable-content-icon.svg).
    
 
-  1. You can view the smart suggestions  in the **Suggest reusable content** suggestions box.  Experience Manager Guides provides suggestions for exactly matching content and content with the same meaning. For example, you can search for the topic that contains the exact version number, like "release version 2023.03.12". You can also search for "Adobe is headquartered in San Jose, California," and find similar content like "San Jose has the quarters of many software companies like Adobe."
+  1. You can view the smart suggestions in the suggestions panel.  Experience Manager Guides provides suggestions content that is contextually similar or has the same meaning. For example, you can search for the topic that contains the exact version number, like "release version 2023.03.12". You can also search for "Adobe is headquartered in San Jose, California," and find similar content like "San Jose has the quarters of many software companies like Adobe."
   1. Select **Content Information** ![Content Information](images/smart-suggestions-content-info-icon.svg) to view the details.
-  
+
         ![Content information panel](images/smart-suggestions-content-information.png){width="300" align="left"}
 
         *View the detailed information about the content reference.*
@@ -50,7 +50,7 @@ Perform the following steps to view the smart suggestions for adding appropriate
     *Preview the comparison between the current content and the suggested content.*
  
 1. Click **Accept** to add the suggested content reference in the **Suggest reusable content** preview.
-1. You can also select **Accept** or **Dismiss** in the **Suggest reusable content** suggestions box for the appropriate recommendations.
+1. You can also select **Accept** or **Dismiss** in the suggestions panel for the appropriate recommendations.
 
    
 This intelligent feature is handy and minimizes the effort of manual content searching, allowing you to concentrate more on generating new content. It also facilitates better team collaboration and helps maintain consistency in the content created by various authors.
