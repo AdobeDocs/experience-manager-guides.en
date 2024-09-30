@@ -49,4 +49,17 @@ Next time you create a new map, your template shows up in the Blueprint page. Fo
 >
 > See *the Custom templates* section in the Best practices guide for best practices around using custom map templates.
 
-**Parent topic:**[Configure topic and map templates](conf-template-tags.md)
+
+## Customize the number of references in a DITA map
+
+Your DITA map creation fails if the async operation timings exceeds 60 seconds. You can configure the number of references in a DITA map template for which the map creation is a sync operation. 
+
+Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to specify number of references in the DITA map template to keep the process synchronous:
+
+|PID|Property Key|Property Value|
+|---|------------|--------------|
+|com.adobe.fmdita.xmleditor.config.XmlEditorConfig|	xmleditor.asyncmapcreation|> 0 <br> **Default value**: 5|
+
+
+
+**Parent topic:** [Configure topic and map templates](conf-template-tags.md)
