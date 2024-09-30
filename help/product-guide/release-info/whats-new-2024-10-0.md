@@ -104,28 +104,5 @@ Experience Manager Guides now allows you to group conditions and present them in
 Learn more about the **Conditions** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 
-## Ability to translate content into multiple languages using preconfigured language groups
-
-Experience Manager Guides now allows you to create language groups and easily translate your content into multiple languages. This feature helps you organize and manage translations according to your organization's needs. 
-
-For example, if you need to translate your content for some countries in Europe, you can create a language group for European languages like English (EN), French (FR), German (DE), Spanish (ES), and Italian (IT).
-
-
-
-![translation panel](assets/translation-languages-2404.png){width="300" align="left"}
-
-*Select the language groups or languages that you want to translate your documents.* 
-
->[!NOTE]
->
->If a language's target folder is missing or the target language is the same as the source, it's grayed out and shows a warning sign.
-
-As an administrator you can create language groups and configure them to multiple folder profiles. As an author, you can view the language groups that are configured on your folder profile.
-
-
-Overall, creating language groups enhances the efficiency and productivity of translation projects, ultimately improving the localization process across multiple languages.
-
-
-Learn how to [translate documents from the Web Editor](../user-guide/translate-documents-web-editor.md).
 
 
