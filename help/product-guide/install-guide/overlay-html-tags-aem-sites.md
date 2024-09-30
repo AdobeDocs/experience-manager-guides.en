@@ -71,7 +71,7 @@ Perform the following steps to overlay and update the `config.xml` file:
         </regexp-list>
       </attribute>
     </tag>
- ```
+```
 
 1. Update the following tags for the image maps: 
 
