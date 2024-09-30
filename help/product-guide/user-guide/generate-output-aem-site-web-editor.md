@@ -39,6 +39,10 @@ Perform the following steps to create the AEM Sites presets from the Web Editor:
 - **Cloud Service**: Learn more about how to [download and install AEM Sites templates](../cs-install-guide/download-install-aem-sites-templates-cs.md) for Cloud Service.
 
 
+>[!NOTE]
+>
+> Publish the pages at the AEM Sites level to view the output correctly on the **Publish** instance without CSS disruption.
+
 ### Add presets to the current folder profile
 
 As an administrator, Experience Manager Guides allows you to create and manage output presets for the Global and Folder Profiles. Select the **Add to current folder profile** option from the **New output preset** dialog box to create an output preset for the current folder profile. ![folder profile icon](images/global-preset-icon.svg) icon indicates a folder profile level preset.  Learn more about [Manage Global and Folder Profile output presets](./web-editor-manage-output-presets.md).  
