@@ -113,6 +113,7 @@ You can also perform the following actions:
 
 
 ## Itemize content 
+
 This feature intelligently converts a selected paragraph into a list.  It analyzes the content and creates a logical list of items. You don’t have to manually create the items. For example, if you have a paragraph detailing the steps to create a user account, the tool can transform this into a step-by-step list, eliminating the need to manually create items one by one.
 
 ![ai assistant itemize content icon](./images/ai-assisstant-itemise-content.png)
