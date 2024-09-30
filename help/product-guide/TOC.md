@@ -183,9 +183,10 @@ breadcrumb-title: AEM Guides Documentation
     - [Output generation basics](./user-guide/generate-output.md)
     - [Introduction to output presets](./user-guide/generate-output-understand-presets.md)
     - Output presets in AEM Guides {#output-presets-aemg}
+      
       - [AEM Sites](./user-guide/generate-output-aem-site.md)
-        - [AEM Sites presets on the map dashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
-        - [AEM Sites presets in the Web Editor](./user-guide/generate-output-aem-site-web-editor.md)
+      - [AEM Sites presets on the map dashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
+      - [AEM Sites presets in the Web Editor](./user-guide/generate-output-aem-site-web-editor.md)
       - [PDF](./user-guide/generate-output-pdf.md)
       - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
       - [HTML5](./user-guide/generate-output-html5.md)
@@ -299,7 +300,7 @@ breadcrumb-title: AEM Guides Documentation
     - Work with output generation settings {#output-gen-config}
       - [Configure output generation settings](./install-guide/conf-output-generation.md)
       - [Download and install aem sites templates](./install-guide/download-install-aem-sites-templates.md)
-      - [Overlay HTML tags in AEM Sites output](./install-guide/video-images-aem-sites-non-legacy.md)
+      - [Overlay HTML tags in AEM Sites output](./install-guide/overlay-html-tags-aem-sites.md)
       - Native PDF Publishing {#config-native-pdf-publish}
         - [PDF Template](./native-pdf/pdf-template.md)
         - [Components of a PDF Template](./native-pdf/components-pdf-template.md)
