@@ -71,7 +71,7 @@ Perform the following steps to overlay and update the `config.xml` file:
         </regexp-list>
       </attribute>
     </tag>
-```
+ ```
 
 1. Update the following tags for the image maps: 
 
@@ -133,5 +133,6 @@ Perform the following steps to overlay and update the `config.xml` file:
 ```
 
 1. Save the file.
+
 
 Learn more about the best practices of [Security](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security). 
