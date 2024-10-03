@@ -32,10 +32,13 @@ Learn about [upgrade instructions for the 2024.10.0 release](upgrade-instruction
 - `<Topicref>` added using `<keyref>` doesn't display in Native PDF. (11974)
 - The component path `/libs/fmdita/components/versions` is hardcoded and the users can't overlay it. (8779)
 - Opening a DITA topic or map in a new tab for editing freezes the selection navigation in the Assets UI. (4992)
+- Downloading a DITA map with large video files triggers out-of-memory error in the logs and fail on the UI. (18884)
+- When inserting a MathML equation containing the "<" symbol, an **Invalid character** error is generated. (18742)
+- Incorrect UUID generation during the content ingestion process leads to broken submap references in the ingested map. (18308)
+- In some cases, delay in loading search results and processing new DITA topics is observed. (16837, 16836)
 
 ## Publishing
 
-- The condition preset doesn't fetch updated attributes after upgrading Experience Manager Guides. (18174)
 - Cross-reference to the key is not getting resolved in the Native PDF output. (18087)
 - The **duplicate_value** error intermittently occurs when republishing an existing article in Salesforce. (17932)
 - Styling and content formatting in customer templates change automatically when layout includes metadata fields, causing incorrect formatting in published PDFs. (17900)
@@ -50,25 +53,32 @@ Learn about [upgrade instructions for the 2024.10.0 release](upgrade-instruction
 - `<Conref>` doesn't get resolved in the `Preview` mode of the Web Editor and the Native PDF output. (17827)
 - The referenced PDF isn't activated from the **Bulk Publish Dashboard** during the Bulk Activation of published content. (17793)
 - Content references are not correctly resolved for Native PDF output if the file containing key definitions is not in the same folder as the DITA map. (15062)
+- When a DITA map contains heading levels up to 7 or higher, the level 7 heading is incorrectly treated as a level 1 heading in the Native PDF output. (19698)
+- When an element is applied to the text in the editor mode, the spacing before and after the text doesn't show in Preview mode or the output formats (PDF or HTML). (19308)
+- Post generation workflows triggered manually fails due to an NULL POINTER EXCEPTION in the workflow, leading to the content being uploaded 11 times. (18880)
+
 
 ## Management
 
-- The fmditaMaprefs and fmditakeydefrefs properties display relative paths, despite setting absolute paths for the DITA map and topics. (18353)
 - The path for the Overlay functionality is hard-coded for the Korean language file and is not correctly selected. (17089)
 - Dynamic titles with `<conkeyref>` don't appear in the Report topic list. (16967)
+- Changes/customization made to the **Save Version** dialog do not reflect when using Guides Extension Framework. (17828)
 - InDesign to DITA conversion has a hardcoded configuration path so the custom config files are not picked. (16891)
-- Error in installing Guides packages in large repositories. (15160)
+
 
 ### Review
 
 - Fetching the user list while creating a review task fails if the user count exceeds 25. (17329)
+- When sending a task topic for review, if a command (cmd) is added in one or more steps, the review panel displays the prefix `importance-none` before each step containing the command. (19699)
 
 ## Translation
 
 - The references of translated assets are not updated. (18086)
 - References are not correctly filtered as Direct or Indirect while translating into multiple languages. (17891)
 - Unable to create XLIFF projects with human translation. (16964)
-- The title with `<conref>` or `<conkeyref>` doesn't resolve in the Baseline and Translation dashboards of the Web Editor. (16961, 16879)
 - Adding an updated topic in an active translation project results in a duplicate topic and the process fails. (7688)
+- The translation projects created by selecting the **Create structure only** option don’t have UUIDs assigned. (18980)
+- When selecting a translation project with the **Translation Status** as **In progress**, an incorrect page opens. (13248)
+- The title with `<conref>` or `<conkeyref>` doesn’t resolve in the Baseline and Translation dashboards of the Web Editor. (16961, 16879)
 
 
