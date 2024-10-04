@@ -70,8 +70,7 @@ Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade
 - The behavior of the Close button is inconsistent when using the Auto Save functionality. (10996)
 - Validation issues occur in MathML elements when inserting any new element or modifying equations. (10624)
 - The Track Changes functionality does not work with text that begins with Korean characters. (14538)
-
-
+- Linked images from the topics fail to appear in the baseline after version creation. (16931)
 
 ## Publishing
 
