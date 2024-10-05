@@ -35,7 +35,7 @@ Learn about [upgrade instructions for the 2024.10.0 release](upgrade-instruction
 - Downloading a DITA map with large video files triggers out-of-memory error in the logs and fail on the UI. (18884)
 - When inserting a MathML equation containing the "<" symbol, an **Invalid character** error is generated. (18742)
 - Incorrect UUID generation during the content ingestion process leads to broken submap references in the ingested map. (18308)
-- In some cases, delay in loading search results and processing new DITA topics is observed. (16837, 16836)
+- In some cases, delays in processing a new DITA topic is observed when created from the web editor. (16836)
 
 ## Publishing
 
@@ -51,25 +51,25 @@ Learn about [upgrade instructions for the 2024.10.0 release](upgrade-instruction
 - AEM Site generation and incremental publish API isn't working as expected. (16666)
 - Native PDF generation fails with an error related to getting dependencies for Node.js. (14445)
 - `<Conref>` doesn't get resolved in the `Preview` mode of the Web Editor and the Native PDF output. (17827)
-- The referenced PDF isn't activated from the **Bulk Publish Dashboard** during the Bulk Activation of published content. (17793)
 - Content references are not correctly resolved for Native PDF output if the file containing key definitions is not in the same folder as the DITA map. (15062)
 - When a DITA map contains heading levels up to 7 or higher, the level 7 heading is incorrectly treated as a level 1 heading in the Native PDF output. (19698)
-- When an element is applied to the text in the editor mode, the spacing before and after the text doesn't show in Preview mode or the output formats (PDF or HTML). (19308)
+- When a content piece (text) is wrapped inside an element, the spaces before and after the text do not show in the Preview or Output formats. (19308)
 - Post generation workflows triggered manually fails due to an NULL POINTER EXCEPTION in the workflow, leading to the content being uploaded 11 times. (18880)
+- **Bulk Publish Dashboard** shows blank for maps that are still in the translation process. (19352)
 
 
 ## Management
 
 - The path for the Overlay functionality is hard-coded for the Korean language file and is not correctly selected. (17089)
-- Dynamic titles with `<conkeyref>` don't appear in the Report topic list. (16967)
 - Changes/customization made to the **Save Version** dialog do not reflect when using Guides Extension Framework. (17828)
 - InDesign to DITA conversion has a hardcoded configuration path so the custom config files are not picked. (16891)
+- Complete references/assets do not download when a DITA map containing large dependencies/references is downloaded using Baseline. (19099)
 
 
 ### Review
 
 - Fetching the user list while creating a review task fails if the user count exceeds 25. (17329)
-- When sending a task topic for review, if a command (cmd) is added in one or more steps, the review panel displays the prefix `importance-none` before each step containing the command. (19699)
+- If a task-topic contains `<cmd>` tag in one or more steps, the review panel displays the attribute `importance` as a prefix in all the steps containing the tag. (19699)
 
 ## Translation
 
@@ -79,6 +79,6 @@ Learn about [upgrade instructions for the 2024.10.0 release](upgrade-instruction
 - Adding an updated topic in an active translation project results in a duplicate topic and the process fails. (7688)
 - The translation projects created by selecting the **Create structure only** option don’t have UUIDs assigned. (18980)
 - When selecting a translation project with the **Translation Status** as **In progress**, an incorrect page opens. (13248)
-- The title with `<conref>` or `<conkeyref>` doesn’t resolve in the Baseline and Translation dashboards of the Web Editor. (16961, 16879)
+- The title with `<conref>` doesn’t resolve in the Baseline and Translation dashboards of the Web Editor. (16961)
 
 
