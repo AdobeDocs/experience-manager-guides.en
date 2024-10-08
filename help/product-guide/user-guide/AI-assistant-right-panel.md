@@ -6,14 +6,15 @@ description: Learn how to Use the AI Assistant to author documents with smart ef
 
 # AI Assistant to author documents with smart efficiency
 
-Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. You experience simplified document handling through intelligent suggestions and optimization. Using this tool, view the smart suggestions to reuse the content from the existing content repository. Use text prompt feature allows you to ask a query or instruct and generate an output for the selected content. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic. This feature also helps you to easily improve and translate the selected content.
+Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. You experience simplified document handling through intelligent suggestions and optimization. Using this tool, view the smart suggestions to reuse the content from the existing content repository. Use text prompt feature  for providing a prompt or instructions to change the content and generate an output. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic. This feature also helps you to easily improve and translate the selected content.
+
 
 >[!NOTE]
 >
 > To add the AI Assistant feature in the right panel, your system administrator must select the **AI Assistant** option under the **Panels** tab in the **Editor Settings** ![Editor Settings icon](./images/editor_settings_icon.svg).
 > Also, you must check out your document to view the AI Assistant icon.  
 
-After selecting the text in a topic, you can choose to perform any of the AI Assistant actions:
+This feature is available for DITA topics only. After selecting the text in a topic, you can choose to perform any of the AI Assistant actions:
 
 ![ai assistant](./images/ai-assistant-panel.png)
 
@@ -34,15 +35,15 @@ Learn more about using [AI-powered smart suggestions to author content](authorin
 
 A text prompt is an instruction, question, or statement that guides the AI Assistant in generating a specific response or output.
 
-You can use a text prompt to analyze the content, answer queries, or generate the required output. For example, you can generate a summary of the features of a product and use it in your report to showcase the product. You can also use this feature to compare two products. For example, you can also create a comparison table for the features of two products.
+You can use a text prompt to change the content and generate an output.  For example, you can generate a summary of the features of a product and use it in your report to showcase the product. You can also use this feature to compare two products. For example, you can also create a comparison table for the features of two products.
 
 
-1. Select the text for which you want to use the text prompt and generate an output.
+1. Select the text for which you want to use the text prompt.
 1. Select **Use text prompt** ![ai use text prompt icon](./images/ai-use-text-prompt.svg)from the **AI Assistant**  panel.
 1. Give a prompt in one of the following ways:
 
     - Choose a prompt from the suggested prompts. 
-    - Edit a suggested prompt to create a custom prompt. 
+    - Revise or edit a suggested prompt to create a custom prompt as per your requirements.
 
         >[!NOTE]
         >
@@ -60,10 +61,13 @@ You can use a text prompt to analyze the content, answer queries, or generate th
     >
     > The responses are generated based on the selected content.
 
+
+
 1. You can also edit the prompt in the editor and regenerate the response. For example, you can change the prompt to make the text more concise to approximately 40 words.
  
     ![ai assistant text prompt editor](./images/ai-assisstant-text-prompt.png)
 
+1. You can verify the source of the generated content and edit it if required.
 
 1. Select **Accept** to replace the selected content in the topic with the generated content.  
 1. **Cancel**: Cancels the text prompt action. Returns to the initial state of the panel.
@@ -83,11 +87,13 @@ Improves the selected content. Check the spelling, language, and grammatical str
 
 1. (Optional) Select **Expand** to open the improved content editor. It displays the current and generated content. You can edit the content in the source layout and also check the preview.
 
-    >[!NOTE]
-    >
-    > Selecting the cross button also returns you to the initial state.
+
 
 ![ai assistant improve content editor](./images/ai-assisstant-improve-content.png)
+
+Accept the suggestion, or regenerate for a different response, or cancel the action to go back to the previous state.
+
+
 
 
 
