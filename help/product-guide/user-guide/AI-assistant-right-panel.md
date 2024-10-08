@@ -6,7 +6,7 @@ description: Learn how to Use the AI Assistant to author documents with smart ef
 
 # AI Assistant to author documents with smart efficiency
 
-Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. You experience simplified document handling through intelligent suggestions and optimization. Using this tool, view the smart suggestions to reuse the content from the existing content repository. Use text prompt feature  for providing a prompt or instructions to change the content and generate an output. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic. This feature also helps you to easily improve and translate the selected content.
+Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. You experience simplified document handling through intelligent suggestions and optimization. Using this tool, view the smart suggestions to reuse the content from the existing content repository. Use the text prompt feature to provide a prompt and change the content or generate an output as per your requirements. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic. This feature also helps you to easily improve and translate the selected content.
 
 
 >[!NOTE]
