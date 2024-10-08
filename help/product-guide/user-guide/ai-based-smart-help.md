@@ -7,7 +7,7 @@ description: Learn how to view and utilize AI-powered Smart Help in the Web Edit
 
 
 
-While authoring your documents in the Web Editor, you can use the GenAI-based Smart Help. This conversational search feature helps you find relevant content from the [Adobe Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Experience Manager Guides provides the GenAI-based Smart Help, a conversational search feature that helps you find relevant content from the [Adobe Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 You can ask your questions and get answers in an informative way. The answer to your query is based on the content from the product documentation. This search is entirely conversational. You can ask questions, and then, based on the response, you can also ask further questions. The response also includes links to source documents, which you can refer to for details. 
 
 For example, you may want to create a topic in Experience Manager Guides for your documentation. You can ask, *How to create a topic?* You get a response and the links for the related articles. Then, if you want to learn how to generate the PDF output for the document, you can ask questions about it. For example, *How to publish a topic to a PDF?* or *How to generate the PDF output for a topic?*  

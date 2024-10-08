@@ -16,6 +16,38 @@ Learn about [upgrade instructions for the 2024.10.0  release](../release-info/up
 
 The following content publishing enhancements have been made in the 2024.10.0  release: 
 
+### Publish a topic or its elements to an Experience Fragment
+
+An Experience Fragment is a modular content unit within Adobe Experience Manager that integrates content and layout. Experience Manager Guides now allows you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic or its elements and an Experience Fragment template. You can also create Experience Fragment variations by using the condition filters. 
+
+   ![file properties options tab](./assets/file-properties-outputs-4-6.png) {width="300" align="left"}
+
+*Publish and view the Experience Fragments of a topic from the **Outputs** section in the **File Properties**.*
+
+
+
+ Learn more about how to [Publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
+
+
+
+### Enhancements in the Content Fragment publishing
+
+Experience Manager Guides also provides some helpful enhancements in Content Fragments: 
+
+- Experience Manager Guides allows you to publish a topic or its elements to a content fragment.
+
+ - You can publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**.
+
+
+ - You can easily create Content Fragment variations by filtering content with conditions while publishing to a Content Fragment. 
+
+- Use the new mapping interface to easily select and publish the elements to a Content Fragment. 
+
+Now, Content Fragment publishing only replaces the mapped content instead of overwriting the complete Content Fragment. This feature allows a Content Fragment to contain data from multiple sources, such as multiple topics or the Content Fragment editor.
+
+   ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](assets/content-fragment-mapping.png)
+
+   For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
 
 
 ### Enhancements in the Content Fragment publishing
