@@ -3,7 +3,7 @@ title: Release Notes | What's New in Adobe Experience Manager Guides 2024.10.0re
 description: Learn about the new and enhanced features in the 2024.10.0 release of Adobe Experience Manager Guides
 role: Leader
 ---
-# What's new in the 2024.10.0 release (September 2024)
+# What's new in the 2024.10.0 release (October 2024)
 
 This article covers the new and enhanced features introduced with 2024.10.0 release of Adobe Experience Manager Guides as a Cloud Service..
 
