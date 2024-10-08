@@ -39,9 +39,9 @@ Now, Content Fragment publishing only replaces the mapped content instead of ove
    For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
 
 
-### Publish an Experience Fragment based on condition filters
+### Publish Experience Fragment variants based on condition filters
 
-Experience Manager Guides allows you to publish a topic or its elements to an Experience Fragment. Now you can also create Experience Fragment variations by using the condition or DITAVAL filters and reuse across different channels or for different audience.
+Experience Manager Guides allows you to publish a topic or its elements to an Experience Fragment. Now, you can also create Experience Fragment variants by using the condition or DITAVAL filters and reuse them across different channels or for different audiences.
 
  Learn more about how to [Publish Experience Fragments](../user-guide/publish-experience-fragment.md). 
 
