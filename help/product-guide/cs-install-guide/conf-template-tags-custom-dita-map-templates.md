@@ -52,7 +52,12 @@ Next time you create a new map, your template shows up in the Blueprint page. Fo
 
 ## Customize the number of references in a DITA map
 
-Your DITA map creation fails if the async operation timings exceeds 60 seconds. You can configure the number of references in a DITA map template for which the map creation is a sync operation. 
+When creating a DITA map with large topic references using a custom template, the map creation would fail if the total processing time exceeds 60 seconds.
+
+To prevent this, configure the **asynchronous** DITA map processing in the XmlEditorConfig that allows tasks to run in parallel and reduce processing times for larger DITA maps. 
+
+You can configure the threshold for asynchronous processing based on the number of references in the DITA map. By default, maps with more than 5 references will be created via asynchronous operations, while maps with fewer references will continue using synchronous operations.
+ 
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to specify number of references in the DITA map template to keep the process synchronous:
 
