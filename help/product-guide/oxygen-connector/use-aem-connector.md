@@ -350,7 +350,7 @@ Once you have connected to the AEM repository, you can open files for editing in
 
 >[!NOTE]
 >
->Hovering over the images or videos in a topic in the Oxygen XML Author’s editor only shows the UUID of the selected item. To locate it in the repository, right-click on the media file and select **Show in Repository**. 
+>Hovering over the images or videos in a topic in the Oxygen XML Author’s editor only shows the UUID of the selected item. To locate it in the repository, right-click on the displayed image or the object tag (only in case of videos, audios, and other media files) and select **Show in Repository**. 
 
 
 
