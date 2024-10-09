@@ -52,10 +52,6 @@ Next time you create a new map, your template shows up in the Blueprint page. Fo
 
 ## Customize the number of references in a DITA map
 
-When creating a DITA map with large topic references using a custom template, the map creation would fail if the total processing time exceeds 60 seconds.
-
-To prevent this, configure the **asynchronous** DITA map processing in the XmlEditorConfig that allows tasks to run in parallel and reduce processing times for larger DITA maps. 
-
 You can configure the threshold for asynchronous processing based on the number of references in the DITA map. By default, maps with more than 5 references will be created via asynchronous operations, while maps with fewer references will continue using synchronous operations.
  
 
@@ -65,6 +61,8 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |---|------------|--------------|
 |com.adobe.fmdita.xmleditor.config.XmlEditorConfig|	xmleditor.asyncmapcreation|> 0 <br> **Default value**: 5|
 
+When creating a DITA map with large topic references using a custom template, the map creation would fail on the cloud server if the total processing time exceeds 60 seconds.
 
+To prevent this, configure **asynchronous dita map creation** in XmlEditorConfig that allows tasks to run in parallel and reduce processing times for larger DITA maps. 
 
 **Parent topic:** [Configure topic and map templates](conf-template-tags.md)
