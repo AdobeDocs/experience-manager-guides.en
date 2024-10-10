@@ -1,11 +1,11 @@
 ---
-title: Configure the Guides assistant to search content
-description: Learn how to configure the Guides Assistant to search content
+title: Configure the Smart Help to search content
+description: Learn how to configure the Smart Help to search content
 ---
 
-# Configure the AI-powered Guides Assistant to search content
+# Configure the AI-powered Smart Help to search content
 
-As an administrator, you can configure the Guides Assistant feature for the authors. The Guides Assistant service is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe’s secure token-based authentication workflows and start using the new Guides Assistant feature. The following configurations help you to add the **AI configuration** tab to a folder profile. Once added, you can use the Guides Assistant feature in the Web Editor.
+As an administrator, you can configure the Smart Help feature for the authors. The Smart Help service is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe’s secure token-based authentication workflows and start using the new Smart Help feature. The following configurations help you to add the **AI configuration** tab to a folder profile. Once added, you can use the Smart Help feature in the Web Editor.
 
 ## Create IMS configurations in Adobe Developer Console
 
@@ -13,7 +13,7 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
 
   >[!NOTE]
   >
-  >If you have already created an OAuth project to configure the Smart Suggestions feature or the microservice-based publishing, you can skip the following steps to create the project.
+  >If you have already created an OAuth project to configure the Smart Suggestions feature or the microservice-based publishing, you can skip the following steps to create the project. You can begin with Step 8.
 
 1. Launch [Adobe Developer Console](https://developer.adobe.com/console). 
 1. After successfully logging in to Developer Console, you'll view the **Home** screen. The **Home** screen is where you can easily find information and quick links, including top-navigation links to Projects and Downloads.
@@ -81,7 +81,7 @@ Once you have added the IMS configuration to the environment, perform the follow
 1. Commit and push your Git changes.
 1. Run the pipeline to apply the changes to the environment.
 
-Once this is done, you should be able to use the **Guides Assistant** feature.
+Once this is done, you should be able to use the **Smart Help** feature.
 
 
 
@@ -100,5 +100,5 @@ Once this is done, you should be able to use the **Guides Assistant** feature.
 ```
 
 
-Once you have configured, the **Guides Assistant** ![Guides Assistant](assets/guides-assistant-icon.svg) icon is displayed in the right panel of the Web Editor. Select the icon to view the **Guides Assistant** panel. 
-For more details, view the [AI-powered Guides Assistant to search content](../user-guide/ai-based-guides-assistant.md) section in the Experience Manager User Guide.
+Once you have configured, the **Smart Help** ![Smart Help](assets/smart-help-icon.svg) icon is displayed in the right panel of the Web Editor. Select the icon to view the **Smart Help** panel. 
+For more details, view the [AI-powered Smart Help to search content](../user-guide/ai-based-smart-help.md) section in the Experience Manager User Guide.

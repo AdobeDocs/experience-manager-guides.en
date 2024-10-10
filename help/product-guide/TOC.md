@@ -14,6 +14,10 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2024 Releases {#2024-releases}
+        - 2024.10.0 Release {#2406-release}
+          - [What's new](./release-info/whats-new-2024-10-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2024-10-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2024-10-0.md)
         - 2024.6.0 Release {#2406-release}
           - [What's new](./release-info/whats-new-2024-06-0.md)
           - [Fixed issues](./release-info/fixed-issues-2024-06-0.md)
@@ -129,7 +133,8 @@ breadcrumb-title: AEM Guides Documentation
           - [Web Editor views](./user-guide/web-editor-views.md)
           - [Support for Schematron files](./user-guide/support-schematron-file.md)
           - [AI-powered Smart Suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
-
+          - [AI-powered Smart Help to search content](./user-guide/ai-based-smart-help.md)
+          - [AI Assistant to author documents with smart efficiency](./user-guide/AI-assistant-right-panel.md)
           - [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
           - [Add citations to your content](./user-guide/web-editor-apply-citations.md)
           - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)
@@ -358,6 +363,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Customize Web Editor](./cs-install-guide/conf-web-editor.md)
       - [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
       - [Configure the AI-powered smart suggestions for authoring](./cs-install-guide/conf-smart-suggestions.md)
+      
+      - [Configure the AI-powered Smart Help to search content](./cs-install-guide/conf-smart-help.md)
       - [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
       - [Configure display of UUID-based links](./cs-install-guide/conf-uuid-based-links.md)
       - [Open DITA topic or map files in same tab](./cs-install-guide/open-dita-files-same-tab.md)
@@ -382,9 +389,9 @@ breadcrumb-title: AEM Guides Documentation
     - Configure versions {#version-mgt-cs}
       - [Version management](./cs-install-guide/version-management.md)
     - Work with desktop-based XML editors {#desktop-xml-editor}
-      - Work with output generation settings {#output-gen-config-cs}
-      - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
-     - [Download and install aem sites templates](./cs-install-guide/download-install-aem-sites-templates-cs.md)
+       - [Integrate desktop-based XML editors](./cs-install-guide/integrate-desktop-editors-cs.md)
+    - Work with output generation settings {#output-gen-config-cs}
+       - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
       - [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       - [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
