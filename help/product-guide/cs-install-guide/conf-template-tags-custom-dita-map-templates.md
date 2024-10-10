@@ -59,7 +59,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|com.adobe.fmdita.xmleditor.config.XmlEditorConfig|	xmleditor.asyncmapcreation|> 0 <br> **Default value**: 5|
+|com.adobe.fmdita.xmleditor.config.XmlEditorConfig|xmleditor.asyncmapcreation|> 0 <br> **Default value**: 5|
 
 When creating a DITA map with large topic references using a custom template, the map creation would fail on the cloud server if the total processing time exceeds 60 seconds.
 
