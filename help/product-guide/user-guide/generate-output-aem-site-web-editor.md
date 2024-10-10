@@ -39,9 +39,7 @@ Perform the following steps to create the AEM Sites presets from the Web Editor:
 - **Cloud Service**: Learn more about how to [download and install AEM Sites templates](../cs-install-guide/download-install-aem-sites-templates-cs.md) for Cloud Service.
 
 
->[!NOTE]
->
-> Publish the pages at the AEM Sites level to view the output correctly on the **Publish** instance without CSS disruption.
+
 
 ### Add presets to the current folder profile
 
@@ -162,7 +160,9 @@ Perform the following steps to create and configure an AEM Sites preset:
 1. Generate AEM Sites for the corresponding map. For example, `/content/AEMG-Docs-Site/en/docs/product`.
 
 
-
+    >[!NOTE]
+    >
+    > If you are publishing content to an AEM site for the first time, it is recommended to publish the pages at the site level. This ensures the output is displayed correctly on the **Publish** instance without any CSS disruption.
 
 
 
