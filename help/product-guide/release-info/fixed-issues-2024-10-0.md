@@ -36,7 +36,7 @@ Learn about [upgrade instructions for the 2024.10.0 release](upgrade-instruction
 - When inserting a MathML equation containing the "<" symbol, an **Invalid character** error is generated. (18742)
 - Incorrect UUID generation during the content ingestion process leads to broken submap references in the ingested map. (18308)
 - In some cases, delays in processing a new DITA topic is observed when created from the web editor. (16836)
-- Searching files in the **Repository** inside the web editor takes too long and sometimes fails to load the results. (16837)
+- Searching files in the **Repository** inside the Web Editor takes too long and sometimes fails to load the results. (16837)
 
 ## Publishing
 
