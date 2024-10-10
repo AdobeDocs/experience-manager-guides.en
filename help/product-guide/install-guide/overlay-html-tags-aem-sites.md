@@ -24,7 +24,9 @@ Perform the following steps to overlay and update the `config.xml` file:
 
     `/apps/fmdita/config/config.xml`
 
-1.  Update the following tags for the videos:
+1.  Update the following tags for the videos and images. Then, save the file.
+
+Videos:
   
 ```XML
     <tag name="video" action="validate">
@@ -73,7 +75,7 @@ Perform the following steps to overlay and update the `config.xml` file:
     </tag>
 ```
 
-1. Update the following tags for the image maps: 
+Image maps: 
 
 ```XML
     	<tag name="map" action="validate">
@@ -132,7 +134,7 @@ Perform the following steps to overlay and update the `config.xml` file:
    </tag>
 ```
 
-1. Save the file.
+
 
 
 Learn more about the best practices of [Security](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security). 
