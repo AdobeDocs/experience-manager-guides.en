@@ -431,6 +431,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Define, Manage and Utilize Metadata](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
     - [AEM Sites output variations](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
     - [Deployment options and migration to Cloud](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
+    - [Migrate content from non-uuid to UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
   - Articles {#kb-articles}
 
     - Authoring {#authoring}
