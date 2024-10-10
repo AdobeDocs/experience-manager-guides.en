@@ -188,7 +188,10 @@ breadcrumb-title: AEM Guides Documentation
     - [Output generation basics](./user-guide/generate-output.md)
     - [Introduction to output presets](./user-guide/generate-output-understand-presets.md)
     - Output presets in AEM Guides {#output-presets-aemg}
-      - [AEM Site](./user-guide/generate-output-aem-site.md)
+      
+      - [AEM Sites](./user-guide/generate-output-aem-site.md)
+      - [AEM Sites presets on the map dashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
+      - [AEM Sites presets in the Web Editor](./user-guide/generate-output-aem-site-web-editor.md)
       - [PDF](./user-guide/generate-output-pdf.md)
       - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
       - [HTML5](./user-guide/generate-output-html5.md)
@@ -301,6 +304,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Integrate desktop-based XML editors](./install-guide/integrate-desktop-editors.md)
     - Work with output generation settings {#output-gen-config}
       - [Configure output generation settings](./install-guide/conf-output-generation.md)
+      - [Download and install aem sites templates](./install-guide/download-install-aem-sites-templates.md)
+      - [Overlay HTML tags in AEM Sites output](./install-guide/overlay-html-tags-aem-sites.md)
       - Native PDF Publishing {#config-native-pdf-publish}
         - [PDF Template](./native-pdf/pdf-template.md)
         - [Components of a PDF Template](./native-pdf/components-pdf-template.md)
@@ -386,7 +391,7 @@ breadcrumb-title: AEM Guides Documentation
     - Work with desktop-based XML editors {#desktop-xml-editor}
        - [Integrate desktop-based XML editors](./cs-install-guide/integrate-desktop-editors-cs.md)
     - Work with output generation settings {#output-gen-config-cs}
-        - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
+       - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
       - [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       - [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
@@ -433,6 +438,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Define, Manage and Utilize Metadata](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
     - [AEM Sites output variations](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
     - [Deployment options and migration to Cloud](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
+    - [Migrate content from non-uuid to UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
   - Articles {#kb-articles}
 
     - Authoring {#authoring}

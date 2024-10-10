@@ -70,8 +70,7 @@ Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade
 - The behavior of the Close button is inconsistent when using the Auto Save functionality. (10996)
 - Validation issues occur in MathML elements when inserting any new element or modifying equations. (10624)
 - The Track Changes functionality does not work with text that begins with Korean characters. (14538)
-
-
+- Linked images from the topics fail to appear in the baseline after version creation. (16931)
 
 ## Publishing
 
@@ -156,6 +155,8 @@ Adobe has identified the following known issues for the 4.6.0 release:
 - The topic’s reference appears broken in the user interface when inserted from the top toolbar of the DITA map.
 - Native PDF generation fails for a DITA map if it has missing references.
 - Once a topic’s document state is updated to **Done**, the **Start a New Release** icon is only available on the **Preview** mode of the topic.
+ - When selecting a DITA file in the Asset UI, the option **Open in FrameMaker** appears, even though it is disabled in the configuration settings.
+ 
 
 
 
