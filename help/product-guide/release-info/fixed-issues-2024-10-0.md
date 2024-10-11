@@ -83,6 +83,7 @@ Learn about [upgrade instructions for the 2024.10.0 release](upgrade-instruction
 - The title with `<conref>` doesn’t resolve in the Baseline and Translation dashboards of the Web Editor. (16961)
 
 ## Known Issues
+
 - Opening an AEM Sites preset (non-legacy) marks the topic as dirty. 
 - The selected panel isn’t getting retained on browser refresh from the Output tab.
 - Unable to drag and drop topic between two topicrefs in the **Author** view. 
