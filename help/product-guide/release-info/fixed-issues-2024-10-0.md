@@ -82,4 +82,13 @@ Learn about [upgrade instructions for the 2024.10.0 release](upgrade-instruction
 - When selecting a translation project with the **Translation Status** as **In progress**, an incorrect page opens. (13248)
 - The title with `<conref>` doesn’t resolve in the Baseline and Translation dashboards of the Web Editor. (16961)
 
-
+## Known Issues
+- Opening an AEM Sites preset (non-legacy) marks the topic as dirty. 
+- The selected panel isn’t getting retained on browser refresh from the Output tab.
+- Unable to drag and drop topic between two topicrefs in the **Author** view. 
+- Condition filtering applied in the preset isn’t getting applied via **Download as PDF**. 
+- Single topic generation from the map panel generates all topics selected in the AEM Sites preset (non-legacy). 
+- The topic’s reference appears broken in the user interface when inserted from the top toolbar of the DITA map. 
+- Native PDF generation fails for a DITA map if it has missing references.
+- Single topic publishing of AEM Site with conditions fails on microservices enabled environment. 
+- Once a topic’s document state is updated to **Done**, the **Start a New Release** icon is only available on the **Preview** mode of the topic.
