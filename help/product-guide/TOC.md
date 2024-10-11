@@ -392,6 +392,7 @@ breadcrumb-title: AEM Guides Documentation
        - [Integrate desktop-based XML editors](./cs-install-guide/integrate-desktop-editors-cs.md)
     - Work with output generation settings {#output-gen-config-cs}
        - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
+        - [Download and install aem sites templates](./cs-install-guide/download-install-aem-sites-templates-cs.md)
       - [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       - [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)

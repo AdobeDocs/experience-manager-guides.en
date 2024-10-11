@@ -10,7 +10,7 @@ level: Experienced
 
 Perform the following steps to download and install AEM Sites templates on Experience Manager Guides as Cloud Service:
 
-## Package installation
+## Package installation{#package-installation}
 
 To use the templates, install the components package via cloud deployment: 
 - [guides-components-all.zip](https://github.com/adobe/aemg-sites-components/releases/tag/v1.0.0)
@@ -68,7 +68,7 @@ Use these samples and templates to generate your AEM Sites outputs:
 
 Learn more about how the create and configure [AEM Sites presets in the Web Editor](../user-guide/generate-output-aem-site-web-editor.md).
 
-## Create a home page using the template
+## Create a home page using the template{#create-a-home-page-using-the-template}
 
 Perform the following steps to create the home page for your product:  
 1. Once the package is installed, select **Sites** from the Global Navigation.
@@ -93,7 +93,7 @@ Perform the following steps to edit the topic templates:
 The AEM Template Editor opens. You can edit your topic template. Learn more about [Creating Page Templates](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
 
 
-## Customize existing AEM Sites templates 
+## Customize existing AEM Sites templates {#customize-existing-aem-sites-templates}
 
 Besides the predefined templates, you can also use your existing templates with the AEM Sites presets. Perform the following steps to customize existing AEM Sites templates:
 
