@@ -340,7 +340,7 @@ Once you have connected to the AEM repository, you can open files for editing in
 
 1.  Right-click on a file in the AEM Guides panel that you want to open for editing.
 
-1.  Select **Open** from the context menu.
+1.  Select **Open** from the context menu. Or you can double click on the file to open it.
 
     The file is opened in Oxygen XML Author's editor.
 
@@ -348,12 +348,14 @@ Once you have connected to the AEM repository, you can open files for editing in
 
     When you hover the mouse pointer over a file's tab, you are shown the server path along with its UUID. In the above screenshot, the UUID of the document is highlighted.
 
+>[!NOTE]
+>
+>Hovering over the images or videos in a topic in the Oxygen XML Author’s editor only shows the UUID of the selected item. To locate it in the repository, right-click on the displayed image or the object tag (only in case of videos, audios, and other media files) and select **Show in Repository**. 
+
+
 
 If you have selected the **Auto-Checkout File when Opened** option \(in the Preferences dialog\), then on opening a file, the file is automatically checked out and is available for editing. To open a file, you can either double-click on a file name or right-click on the file name and choose **Open** from the context menu. If this option is not selected, then the file is opened in read-only mode.
 
->[!NOTE]
->
->You can also double-click on a file to open it.
 
 ### Open file in AEM Guides' editor {#id195GH0V30KX}
 

@@ -401,11 +401,11 @@ If you have updated an existing output preset, or you want to make a new output 
 
 
 
-## Configure AI-powered Smart Suggestions in the Web Editor {#conf-ai-smart-suggestions}
+## Configure AI-powered smart suggestions in the Web Editor {#conf-ai-smart-suggestions}
 
 For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
 
-You can configure the AI-powered Smart Suggestions and help the authors reuse the existing content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of the Smart Suggestions panel in the Web Editor.
+You can configure the AI-powered smart suggestions and help the authors reuse the existing content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of  **Suggest reusable content** from the AI Assistant panel in the Web Editor.
 
 Perform the following steps to configure standard AI configuration at the global or folder-level profile:
 1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
@@ -415,7 +415,7 @@ Perform the following steps to configure standard AI configuration at the global
 
     >[!NOTE]
     >
-    >You can configure AI-based Smart Suggestions to the global or a folder-level profile.
+    >You can configure AI-based smart suggestions to the global or a folder-level profile.
 
 1. On the profile page, select the **AI Configuration** tab.
 ![AI configuration tab in global profile](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
@@ -435,18 +435,18 @@ Perform the following steps to configure standard AI configuration at the global
     >
     > The last indexed status details are displayed on the top after you save the file. 
 
-Learn more about how to view and add [AI-based Smart Suggestions](../user-guide/authoring-ai-based-smart-suggestions.md) to add content references while authoring in the Web Editor.
+Learn more about how to view and add [AI-based smart suggestions](../user-guide/authoring-ai-based-smart-suggestions.md) to add content references while authoring in the Web Editor.
 
 
 
 
-<!--## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
+## Configure AI-powered Smart Help in the Web Editor {#conf-ai-guides-assistant}
 
 For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-You can configure the AI-powered **Guides Assistant** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+You can configure the AI-powered **Smart Help** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
-The **XML Editor Configuration** tab allows you to configure the default questions of the **Guides Assistant panel** in the Web Editor.
+The **XML Editor Configuration** tab allows you to configure the default questions of the **Smart Help panel** in the Web Editor.
 
 >[!NOTE]
 >
@@ -461,7 +461,7 @@ Perform the following steps to configure the default questions:
 
     >[!NOTE]
     >
-    >You can configure default questions for the **Guides assistant panel** to the global or a folder-level profile.
+    >You can configure default questions for the **Smart Help panel** to the global or a folder-level profile.
 
 1.  Select the **XML Editor Configuration** tab. 
 
@@ -482,10 +482,10 @@ Perform the following steps to configure the default questions:
 
     >[!NOTE]
     >
-    > The default questions appear in the **Guides assistant** panel after you save the file. 
+    > The default questions appear in the **Smart Help** panel after you save the file. 
 
 
-Learn more about using the [AI-powered Guides assistant](../user-guide/ai-based-guides-assistant.md) to find the required content from the Experience Manager Guides documentation. -->
+Learn more about using the [AI-powered Smart Help](../user-guide/ai-based-smart-help.md) to find the required content from the Experience Manager Guides documentation.
 
 
 ## Configure and customize the XML Web Editor {#id2065G300O5Z}
