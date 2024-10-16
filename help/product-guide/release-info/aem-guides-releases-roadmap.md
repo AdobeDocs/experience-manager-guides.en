@@ -12,7 +12,7 @@ exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
 >
 >The dates below and roadmap updates available in this article are for information only and are subject to change at any time.
 
-## [!DNL Experience Manager Guides] as a [!DNL Cloud Service] (2024 calendar) {#aem-guides-roadmap-cs}
+## [!DNL Experience Manager Guides] as a [!DNL Cloud Service] {#aem-guides-roadmap-cs}
 
 The releases for Experience Manager Guides as a Cloud Service are planned as follows:
 
@@ -27,7 +27,7 @@ The releases for Experience Manager Guides as a Cloud Service are planned as fol
 
 {style="table-layout:auto"}
 
-## [!DNL Experience Manager Guides] On-premise and Managed Services (2024 calendar) {#aem-guides-roadmap-on-prem}
+## [!DNL Experience Manager Guides] On-premise and Managed Services {#aem-guides-roadmap-on-prem}
 
 Product updates in terms of new features, enhancements, and bug fixes for supported Adobe Experience Manager Guides on-premise and Managed Services release schedule is as follows:
 
