@@ -35,6 +35,6 @@ Product updates in terms of new features, enhancements, and bug fixes for suppor
 |---|---|---|---|---|---|
 |Adobe Experience Manager Guides 4.4.0|Release|January 29, 2024|[Here](whats-new-4-4.md)|[Here](upgrade-instructions-4-4.md)|Released|
 |Adobe Experience Manager Guides 4.6.0|Release|September 12, 2024|[Here](whats-new-4-6.md)|[Here](upgrade-instructions-4-6-0.md)|Released|
-|Adobe Experience Manager Guides 4.6.1|Service Pack 1|October, 2024|||Target|
+|Adobe Experience Manager Guides 4.6.1|Service Pack 1|End of October, 2024|||Target|
 |Adobe Experience Manager Guides 5.0.0|Release|~ February, 2025|||Target|
 |Adobe Experience Manager Guides 5.1.0|Release|~ August, 2025|||Target|
