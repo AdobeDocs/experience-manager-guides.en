@@ -131,12 +131,29 @@ Perform the following steps to convert your existing InDesign documents into DIT
 1.  Navigate to the default configuration file available at the following location:
 
     `/libs/fmdita/config/idml2dita_io.xml`
+1.  To create a custom configuration according to your requirements, create an overlay node of the `config` folder within the `apps` node.
 
-1.  Create an overlay node of the `config` folder within the `apps` node.
+1. Copy the following files or folders from the `libs` folder to the apps folder:
+
+    - `/fmdita/config/idml2dita_io.xml`
+    - `/fmdita/idml2dita/config`
+    - `/fmdita/idml2dita/xsl`
 
 1.  Navigate to the configuration file available in the `apps` node:
 
     `/apps/fmdita/config/idml2dita_io.xml`
+
+1. Add the mapping of the configs present in the `idml12dita` folder within the `idml2dita_io.xml` file.
+1. Add the following properties in `idml2dita_io.xml` file:
+
+    ```
+    <entry          key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+
+    <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+    ```
+
+1.  Create an overlay node of the `config` folder within the `apps` node.
+
 
     Configure the following parameters in the `idml2dita_io.xml` file:
 
