@@ -33,12 +33,12 @@ Learn about [upgrade instructions for the 4.6.1 release](../release-info/upgrade
 
 ## Management
 
-- In some cases, migratring content using scripts results in numerous **Unclosed ResourceResolver** errors. (18488)
+- In some cases, migrating content using scripts results in numerous **Unclosed ResourceResolver** errors. (18488)
 
 ## Baseline
 
 - Editing and then Saving a Baseline on a Cloud setup timesout after 1 minute if the Baseline has large number of topics or maps. (19558)
-- Publication labels are displayed in a random order when creating New or Duplicate Baselines for topics and maps. (19307)
+- Publication labels are displayed in a random order when publshing using New or Duplicate Baselines. (19307)
 
 
 ## Translation
