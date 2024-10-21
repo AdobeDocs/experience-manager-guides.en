@@ -9,16 +9,16 @@ role: User, Admin
 
 ## This article will cover: 
 
-Adding custom font to reinforce brand identity and visual consistency across all your content.
+Adding the custom font to reinforce brand identity and visual consistency across all your content.
 
 This process involves 3 steps: 
 
-- [Upload custom font ](#step-1--upload-custom-font-to-resource-folder-of-your-template)
-- [Make necessary changes in PDF templates's stylesheet](#step-2--make-necessary-changes-in-pdf-templatess-stylesheet)
+- [Upload the custom font ](#step-1--upload-the-custom-font-to-the-resource-folder-of-your-template)
+- [Make necessary changes in the PDF templates's stylesheet](#step-2--make-necessary-changes-in-pdf-templatess-stylesheet)
 
 - [Embed used fonts (Optional)](#step-3-optional--embed-used-font-in-pdf)
 
-## Step 1 : Upload custom font to resource folder of your template 
+## Step 1 : Upload the custom font to the resource folder of your template 
 
 ![Custom font upload and import ](../assets/publishing/custom-font1.png)
 
@@ -32,7 +32,7 @@ This process involves 3 steps:
 
 ## FAQ
 
-- ### Can I use Adobe fonts ?
+- ### Can I use Adobe Fonts ?
 
 > Yes, Go to fonts.adobe.com and click "Add to web project".
 > 
