@@ -18,7 +18,7 @@ Learn about [upgrade instructions for the 4.6.1 release](../release-info/upgrade
 ## Authoring
 
 - DITA map creation on a UUID instance fails when `xmleditor.uniquefilenames`is enabled in `XMLEditorConfig`. (21201)
-- Comments or Labels entered while saving a file in the Web Editor do not save in the version history when **Ask for Check-in on Close** or **Ask for New Version on Close** is enabled in `XMLEditorConfig`. 
+- Comments or Labels entered while saving a file in the Web Editor do not save in the version history when **Ask for Check-in on Close** or **Ask for New Version on Close** is enabled in `XMLEditorConfig`. (20065) 
 - Document state marked as **Done** reverts back to **Draft** on saving as a new version. (20006)
 - Unable to add a PDF file as image in the Web Editor. (21206)
 
@@ -43,7 +43,7 @@ Learn about [upgrade instructions for the 4.6.1 release](../release-info/upgrade
 
 ## Translation
 
-- Map translation using Baseline becomes slow and eventually fails to load the list of all the associated topics and maps files.
+- Map translation using Baseline becomes slow and eventually fails to load the list of all the associated topics and maps files. (19733)
 
 ## General
 
