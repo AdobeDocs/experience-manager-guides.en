@@ -490,6 +490,7 @@ breadcrumb-title: AEM Guides Documentation
     - Publishing {#publishing}
       - DITA-OT {#dita-ot}
         - [Use AEM metadata in plugin](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
+      - [Add custom Fonts to your DITA Native PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
       - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
       - [Add Enterprise Branding to the First Page of a PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
       - [Generate Bookmap's TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
