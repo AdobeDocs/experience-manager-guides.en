@@ -978,6 +978,10 @@ During this upgrade, since the `'order'` value is changed from 1000 to 50, you n
 
 ## Upgrade to version 4.6.0 {#upgrade-version-4-6-0} 
 
+>[!Tip]
+>
+>It is recommended to install Hotfix 4.6.1 on top of version 4.6.0.
+
 Upgrading to version 4.6.0 depends on the current version of Experience Manager Guides. If you are using version 4.4.0, 4.3.1, 4.3.0, 4.2, or 4.2.1 (Hotfix 4.2.1.3) then you can directly upgrade to version 4.6.0
 
 >[!NOTE]
