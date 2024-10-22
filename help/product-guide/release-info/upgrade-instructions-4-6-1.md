@@ -3,7 +3,7 @@ title: Release Notes | Upgrade instructions for Adobe Experience Manager Guides 
 description: Learn how to upgrade to  4.6.1 release of Adobe Experience Manager Guides
 role: Leader
 ---
-# Upgrade instructions for the 4.6.1 release (September 2024)
+# Upgrade instructions for the 4.6.1 release (October 2024)
 
 This article covers the upgrade instructions and the  compatibility matrix for 4.6.1 release of Adobe Experience Manager Guides.
 
@@ -13,7 +13,7 @@ For the list of issues that have been fixed in this release, view [Fixed issues 
 
 ## Compatibility matrix
 
-This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 4.6.0 release. 
+This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 4.6.1 release. 
 
 ### Adobe Experience Manager
 
@@ -62,7 +62,7 @@ You can easily upgrade your current version of Guides to version 4.6.1. Before y
 
 - If you are using version 4.6.0, then you can directly upgrade to version 4.6.1.
 - If you are using version 4.4, 4.3.1, or 4.3.0 , then you need to upgrade to version 4.6.0 before upgrading to 4.6.1. 
-- If you are using version 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 4.6.1.
+- If you are using version 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 4.6.0.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.x.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
 - If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
