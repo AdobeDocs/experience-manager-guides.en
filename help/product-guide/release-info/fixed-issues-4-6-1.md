@@ -17,9 +17,9 @@ The upgrade process for the 4.6.1 release follows the same steps as the 4.6.0 re
 
 - DITA map creation on a UUID instance fails when `xmleditor.uniquefilenames`is enabled in `XMLEditorConfig`. (21201)
 - When closing a file, comments and labels added in the **Save Changes and Unlock File** dialog box are not getting saved in the Version History with the new version. This is specific to a use case where **Ask for Check-in on Close** or **Ask for New Version on Close** is enabled in `XMLEditorConfig`. (20065) 
-- The Document State marked as **Done** reverts to **Draft** before saving a new version, resulting in the **Done** state not persisting in any document versions.(20006)
+- The Document State marked as **Done** reverts to **Draft** before saving a new version, resulting in the **Done** state not persisting in any document versions. (20006)
 - Unable to add a PDF file as an image reference in a topic in the Web Editor. (21206)
-- Selecting a DITA file in the Assets UI shows the **Open in FrameMaker** option, even when disabled in the configuration.
+- Selecting a DITA file in the Assets UI shows the **Open in FrameMaker** option, even when disabled in the configuration. (20082)
 
 
 ## Publishing
