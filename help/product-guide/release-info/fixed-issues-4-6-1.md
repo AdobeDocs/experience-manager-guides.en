@@ -33,7 +33,7 @@ The upgrade process for the 4.6.1 release follows the same steps as the 4.6.0 re
 ## Management
 
 - Resource leaks occur due to Unclosed **ResourceResolver** errors in logs. (18488)
-- When creating a new or duplicate baseline, labels display in a random order. (19307)
+- When creating a new or duplicate baseline, labels are displayed in a random order. (19307)
 
 
 
