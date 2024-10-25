@@ -28,7 +28,7 @@ The upgrade process for the 4.6.1 release follows the same steps as the 4.6.0 re
 - When publishing a topic to Salesforce, the PDF file links fails to resolve. (19304)
 - The `DUPLICATE_VALUE` error occurs intermittently when attempting to republish an existing article in Salesforce. (17932)
 - In the Native PDF output, chapter titles are missing from the TOC, leading to an incorrect hierarchy. (21840)
-- When publishing an AEM Site, only a limited number of attributes are available for inclusion in the TOC. (7483)
+- When publishing AEM Sites, only a limited number of attributes are available for inclusion in the TOC. (7483)
 
 ## Management
 
