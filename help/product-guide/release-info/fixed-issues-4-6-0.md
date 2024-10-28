@@ -102,6 +102,7 @@ Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade
 - Topic regeneration fails due to the OOTB Regenerate Topic or incremental publish API failure. (18452)
 - The condition preset doesn't fetch updated attributes after upgrading Experience Manager Guides. (18174)
 - Content references are not correctly resolved for Native PDF output if the file containing key definitions is not in the same folder as the DITA map. (15062)
+- Bulk Activation of published content isn’t working for localized maps. (17638)
 
 
 ## Management
