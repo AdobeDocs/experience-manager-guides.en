@@ -14,10 +14,13 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2024 Releases {#2024-releases}
-        - 2024.10.0 Release {#2410-release}
-          - [What's new](./release-info/whats-new-2024-10-0.md)
-          - [Fixed issues](./release-info/fixed-issues-2024-10-0.md)
-          - [Upgrade instructions](./release-info/upgrade-instructions-2024-10-0.md)
+        - 2024.10.x Release {#2410-release}
+          - 2024.10.1 Release {#2410-1-release}
+            - [Fixed issues](./release-info/fixed-issues-2024-10-1.md)
+          - 2024.10.0 Release {#2410-0-release}
+            - [What's new](./release-info/whats-new-2024-10-0.md)
+            - [Fixed issues](./release-info/fixed-issues-2024-10-0.md)
+            - [Upgrade instructions](./release-info/upgrade-instructions-2024-10-0.md)
         - 2024.6.0 Release {#2406-release}
           - [What's new](./release-info/whats-new-2024-06-0.md)
           - [Fixed issues](./release-info/fixed-issues-2024-06-0.md)
@@ -70,11 +73,14 @@ breadcrumb-title: AEM Guides Documentation
         - [January release notes](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
+
+      - 4.6.1 Release {#461-release}
+          - [Fixed issues](./release-info/fixed-issues-4-6-1.md)     
+          - [Upgrade instructions](./release-info/upgrade-instructions-4-6-1.md)     
       - 4.6.0 Release {#460-release}
           - [What's new](./release-info/whats-new-4-6.md)
           - [Fixed issues](./release-info/fixed-issues-4-6-0.md)     
           - [Upgrade instructions](./release-info/upgrade-instructions-4-6-0.md)
-
       - 4.4.0 Release {#440-release}
         - [What's new](./release-info/whats-new-4-4.md)
         - [Fixed issues](./release-info/fixed-issues-4-4.md)
@@ -488,17 +494,22 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure a data source connector](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
     
     - Publishing {#publishing}
+      
+      - Native PDF {#native-pdf}
+        -  [Add custom Fonts to your DITA Native PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
+        - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+        - [Add Enterprise Branding to the First Page of a PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
+        - [Generate Bookmap's TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
       - DITA-OT {#dita-ot}
         - [Use AEM metadata in plugin](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
-      - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-      - [Add Enterprise Branding to the First Page of a PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
-      - [Generate Bookmap's TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+        - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+      
       - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
       - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
       - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
       - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-      - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+      
 
     - Workflows {#workflows}
       - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
