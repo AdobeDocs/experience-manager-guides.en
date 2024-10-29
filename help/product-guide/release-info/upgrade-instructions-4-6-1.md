@@ -7,9 +7,7 @@ role: Leader
 
 This article covers the upgrade instructions and the  compatibility matrix for 4.6.1 release of Adobe Experience Manager Guides.
 
-For more information about the new features and enhancements, view [What's new in the 4.6.1 release](../release-info/whats-new-4-6-1.md).
-
-For the list of issues that have been fixed in this release, view [Fixed issues in the 4.6.1 release](../release-info/fixed-issues-4-6-0.md).
+For the list of issues that have been fixed in this release, view [Fixed issues in the 4.6.1 release](fixed-issues-4-6-1.md).
 
 ## Compatibility matrix
 
@@ -71,4 +69,4 @@ You can easily upgrade your current version of Guides to version 4.6.1. Before y
 >
 >You must install AEM service pack before upgrading Experience Manager Guides version.
 
-For details, view [Upgrade instructions for the On-premise releases](../install-guide/upgrade-xml-documentation.md) of Experience Manager Guides.
+The upgrade process for the 4.6.1 release follows the same steps as the 4.6.0 release. For detailed instructions, view [Upgrade instructions for the On-premise releases](../install-guide/upgrade-xml-documentation.md) of Experience Manager Guides.
