@@ -979,7 +979,7 @@ During this upgrade, since the `'order'` value is changed from 1000 to 50, you n
 
 ## Upgrade to version 4.6.0 {#upgrade-version-4-6-0} 
 
->[!Tip]
+>[!TIP]
 >
 > It is recommended to install Hotfix 4.6.1 on top of version 4.6.0. The upgrade process for the 4.6.1 release follows the same steps as the 4.6.0 release. 
 
