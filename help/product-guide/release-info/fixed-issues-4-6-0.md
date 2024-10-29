@@ -103,6 +103,8 @@ Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade
 - The condition preset doesn't fetch updated attributes after upgrading Experience Manager Guides. (18174)
 - Content references are not correctly resolved for Native PDF output if the file containing key definitions is not in the same folder as the DITA map. (15062)
 - Bulk Publish Dashboard shows blank for maps that are still in the translation process. (19352)
+- Bulk Activation of published content isn’t working for localized maps. (17638)
+
 
 
 ## Management
