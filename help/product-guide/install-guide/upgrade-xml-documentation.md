@@ -981,13 +981,13 @@ During this upgrade, since the `'order'` value is changed from 1000 to 50, you n
 
 >[!Tip]
 >
->It is recommended to install Hotfix 4.6.1 on top of version 4.6.0. The upgrade process for the 4.6.1 release follows the same steps as the 4.6.0 release.
+> It is recommended to install Hotfix 4.6.1 on top of version 4.6.0. The upgrade process for the 4.6.1 release follows the same steps as the 4.6.0 release. 
 
-Upgrading to version 4.6.0 depends on the current version of Experience Manager Guides. If you are using version 4.4.0, 4.3.1, 4.3.0, 4.2, or 4.2.1 (Hotfix 4.2.1.3) then you can directly upgrade to version 4.6.0
+Upgrading to version 4.6.0 depends on the current version of Experience Manager Guides. If you are using version 4.4.0, 4.3.1, 4.3.0, 4.2, or 4.2.1 (Hotfix 4.2.1.3) then you can directly upgrade to version 4.6.0.
 
 >[!NOTE]
 >
->The post-processing and indexing may take a few hours. We recommend you to start the upgrade process during the off-peak hours.
+> The post-processing and indexing may take a few hours. We recommend you to start the upgrade process during the off-peak hours.
 
 ****Prerequisites****
 
