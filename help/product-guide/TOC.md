@@ -14,10 +14,13 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2024 Releases {#2024-releases}
-        - 2024.10.0 Release {#2410-release}
-          - [What's new](./release-info/whats-new-2024-10-0.md)
-          - [Fixed issues](./release-info/fixed-issues-2024-10-0.md)
-          - [Upgrade instructions](./release-info/upgrade-instructions-2024-10-0.md)
+        - 2024.10.x Release {#2410-release}
+          - 2024.10.1 Release {#2410-1-release}
+            - [Fixed issues](./release-info/fixed-issues-2024-10-1.md)
+          - 2024.10.0 Release {#2410-0-release}
+            - [What's new](./release-info/whats-new-2024-10-0.md)
+            - [Fixed issues](./release-info/fixed-issues-2024-10-0.md)
+            - [Upgrade instructions](./release-info/upgrade-instructions-2024-10-0.md)
         - 2024.6.0 Release {#2406-release}
           - [What's new](./release-info/whats-new-2024-06-0.md)
           - [Fixed issues](./release-info/fixed-issues-2024-06-0.md)
@@ -70,11 +73,13 @@ breadcrumb-title: AEM Guides Documentation
         - [January release notes](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
+      - 4.6.1 Release {#461-release}
+          - [Fixed issues](./release-info/fixed-issues-4-6-1.md)     
+          - [Upgrade instructions](./release-info/upgrade-instructions-4-6-1.md)     
       - 4.6.0 Release {#460-release}
           - [What's new](./release-info/whats-new-4-6.md)
           - [Fixed issues](./release-info/fixed-issues-4-6-0.md)     
           - [Upgrade instructions](./release-info/upgrade-instructions-4-6-0.md)
-
       - 4.4.0 Release {#440-release}
         - [What's new](./release-info/whats-new-4-4.md)
         - [Fixed issues](./release-info/fixed-issues-4-4.md)
@@ -100,7 +105,6 @@ breadcrumb-title: AEM Guides Documentation
       - [4.0.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
       - [3.8.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - User Guide {#user-guide}
-
   - Introduction {#about-aem-guide}
     - [About [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] working and key features {#aemg-works-features}
@@ -112,18 +116,14 @@ breadcrumb-title: AEM Guides Documentation
     - [Manage files and folders](./user-guide/authoring-file-management.md)
     - [Download files](./user-guide/authoring-download-assets.md)
   - Author Content {#author-content}
-
     - [Authoring overview](./user-guide/authoring-content.md)
     - Topic creation and preview {#create-preview-topics}
-
       - [Create and preview topics](./user-guide/create-preview-topics.md)
       - [Create topics](./user-guide/web-editor-create-topics.md)
       - [Preview a topic](./user-guide/web-editor-preview-topics.md)
       - Author content {#author-content-aem-guides}
-
         - [Way to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
         - Web Editor {#work-with-web-editor}
-
           - [Work with the Web Editor](./user-guide/web-editor.md)
           - [Launch the Web Editor](./user-guide/web-editor-launch-editor.md)
           - [Edit topics in the Web Editor](./user-guide/web-editor-edit-topics.md)
@@ -148,7 +148,6 @@ breadcrumb-title: AEM Guides Documentation
           - [Create and manage baselines from the Web Editor](./user-guide/web-editor-baseline.md)
           - [Document state](./user-guide/web-editor-document-states.md)
           - [Use labels](./user-guide/web-editor-use-label.md)
-
         - Map Editor {#work-with-map-editor}
           - [Work with the Map Editor](./user-guide/map-editor.md)
           - [Create a map](./user-guide/map-editor-create-map.md)
@@ -158,12 +157,10 @@ breadcrumb-title: AEM Guides Documentation
           - [Other features in the map editors](./user-guide/map-editor-other-features.md)
         - DITAVAL Editor {#ditaval-editor}
           - [Work with the DITAVAL editor](./user-guide/ditaval-editor.md)
-
       - Desktop tools for authoring content {#author-using-desktop-tools}
         - [Author content using desktop tools](./user-guide/author-desktop-tools.md)
         - [Work with FrameMaker](./user-guide/author-desktop-framemaker.md)
         - [Work with Oxygen](./user-guide/author-desktop-oxygen.md)
-
   - Review content {#review-topic-maps}
     - [Review topics or maps](./user-guide/review.md)
     - [Create a DITA project](./user-guide/authoring-create-dita-project.md)
@@ -187,8 +184,7 @@ breadcrumb-title: AEM Guides Documentation
   - Output Generation {#output-gen}
     - [Output generation basics](./user-guide/generate-output.md)
     - [Introduction to output presets](./user-guide/generate-output-understand-presets.md)
-    - Output presets in AEM Guides {#output-presets-aemg}
-      
+    - Output presets in AEM Guides {#output-presets-aemg}      
       - [AEM Sites](./user-guide/generate-output-aem-site.md)
       - [AEM Sites presets on the map dashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
       - [AEM Sites presets in the Web Editor](./user-guide/generate-output-aem-site-web-editor.md)
@@ -236,7 +232,6 @@ breadcrumb-title: AEM Guides Documentation
     - [Content Reuse Report](./user-guide/reports-content-reuse.md)
     - [Conversion Status Report](./user-guide/reports-convertion-status.md)
     - [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md)
-
 - Installation and configuration {#install-guide}
   - On-premise {#on-prem-ig}
     - [On-premise basics](./install-guide/introduction.md)
@@ -362,8 +357,7 @@ breadcrumb-title: AEM Guides Documentation
     - Work with the Web Editor configurations {#web-editor-configs-cs}
       - [Customize Web Editor](./cs-install-guide/conf-web-editor.md)
       - [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
-      - [Configure the AI-powered smart suggestions for authoring](./cs-install-guide/conf-smart-suggestions.md)
-      
+      - [Configure the AI-powered smart suggestions for authoring](./cs-install-guide/conf-smart-suggestions.md)      
       - [Configure the AI-powered Smart Help to search content](./cs-install-guide/conf-smart-help.md)
       - [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
       - [Configure display of UUID-based links](./cs-install-guide/conf-uuid-based-links.md)
@@ -422,7 +416,6 @@ breadcrumb-title: AEM Guides Documentation
   - [Bulk activation complete event handler](./api-reference/bulk-activation-complete-event.md)
   - [Conversion process event handler](./api-reference/conversion-complete-event.md)
 - Knowledge Base {#knowledge-base}
-
   - Expert Session {#expert-session}
     - [Expert Session Overview](./knowledge-base/expert-sessions/expert-session.md)
     - [Translate content](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
@@ -441,7 +434,6 @@ breadcrumb-title: AEM Guides Documentation
     - [Deployment options and migration to Cloud](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
     - [Migrate content from non-uuid to UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
   - Articles {#kb-articles}
-
     - Authoring {#authoring}
       - Web Editor {#webeditor}
         - [Content re-usability in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
@@ -485,10 +477,8 @@ breadcrumb-title: AEM Guides Documentation
           - [Custom Dialog](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
     - External data source {#external-data-source}
       - [Integrate data sources](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
-      - [Configure a data source connector](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
-    
-    - Publishing {#publishing}
-      
+      - [Configure a data source connector](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)    
+    - Publishing {#publishing}      
       - Native PDF {#native-pdf}
         -  [Add custom Fonts to your DITA Native PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
         - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -497,14 +487,11 @@ breadcrumb-title: AEM Guides Documentation
       - DITA-OT {#dita-ot}
         - [Use AEM metadata in plugin](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
         - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
-      - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-      
+      - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)      
       - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
       - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
       - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
-      - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-      
-
+      - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)    
     - Workflows {#workflows}
       - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
     - Translation {#translation}
@@ -513,5 +500,4 @@ breadcrumb-title: AEM Guides Documentation
     - Use Cases {#use-cases}
       - [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
       - [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-
   - [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
