@@ -108,10 +108,15 @@ Perform the following steps to configure the legacy translation workflow:
 
 1.  Configure the legacy translation workflow option as per your setup:
 
-    - If you use the latest translation workflow, then Disable ( false) the **Run legacy translation workflow** option. The latest translation workflow is enabled by default.
-    - If you use the legacy translation, then Enable ( true) the **Run legacy translation workflow** option.
+    - (*Default*) If you use the latest translation workflow, then Disable the **Run legacy translation workflow** option. 
+    - If you use the legacy translation workflow, then Enable the **Run legacy translation workflow** option.
     
 4.  Click **Save**.
+
+> [!Note]
+>
+> It is recommended to use the legacy translation workflow if any customizations are enabled in the current translation process. 
+
 
 
 
