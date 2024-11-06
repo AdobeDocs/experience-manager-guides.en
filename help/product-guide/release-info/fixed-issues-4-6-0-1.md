@@ -10,7 +10,7 @@ role: Leader
 
 This article covers the bugs fixed in various areas of 4.6.0.1 release of Adobe Experience Manager Guides.
 
-Learn about [upgrade instructions for the 4.6.0.1 release](/upgrade-instructions-4-6-0-1.md).
+Learn about [upgrade instructions for the 4.6.0.1 release](upgrade-instructions-4-6-0-1.md).
 
 ## Authoring
 

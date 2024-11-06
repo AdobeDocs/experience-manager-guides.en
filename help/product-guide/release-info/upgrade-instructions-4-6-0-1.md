@@ -7,7 +7,7 @@ role: Leader
 
 This article covers the upgrade instructions and the  compatibility matrix for 4.6.0.1 release of Adobe Experience Manager Guides.
 
-For the list of issues that have been fixed in this release, view [Fixed issues in the 4.6.0.1 release](/fixed-issues-4-6-0-1.md).
+For the list of issues that have been fixed in this release, view [Fixed issues in the 4.6.0.1 release](fixed-issues-4-6-0-1.md).
 
 ## Compatibility matrix
 
