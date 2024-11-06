@@ -1,16 +1,16 @@
 ---
-title: Release Notes | Fixed issues in Adobe Experience Manager Guides 4.6.0.1 release
-description: Learn about the bug fixes in the  4.6.0.1 release of Adobe Experience Manager Guides
+title: Release Notes | Fixed issues in Adobe Experience Manager Guides 4.6.0 Service Pack 1 release
+description: Learn about the bug fixes in the  4.6.0 Service Pack 1 release of Adobe Experience Manager Guides
 role: Leader
 
 ---
 
-# Fixed issues in the 4.6.0.1 release (October 2024)
+# Fixed issues in the 4.6.0 Service Pack 1 release (October 2024)
 
 
-This article covers the bugs fixed in various areas of 4.6.0.1 release of Adobe Experience Manager Guides.
+This article covers the bugs fixed in various areas of 4.6.0 Service Pack 1 release of Adobe Experience Manager Guides.
 
-Learn about [upgrade instructions for the 4.6.0.1 release](upgrade-instructions-4-6-0-1.md).
+Learn about [upgrade instructions for the 4.6.0 Service Pack 1 release](upgrade-instructions-4-6-0-sp1.md).
 
 ## Authoring
 

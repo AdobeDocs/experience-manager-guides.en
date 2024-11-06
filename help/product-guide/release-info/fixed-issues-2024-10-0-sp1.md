@@ -1,10 +1,10 @@
 ---
-title: Release Notes | Fixed issues in the 2024.10.1 release of Adobe Experience Manager Guides 
-description: Learn about the bug fixes in the 2024.10.1 release of Adobe Experience Manager Guides as a Cloud Service.
+title: Release Notes | Fixed issues in the 2024.10.0 Service Pack 1 release of Adobe Experience Manager Guides 
+description: Learn about the bug fixes in the 2024.10.0 Service Pack 1 release of Adobe Experience Manager Guides as a Cloud Service.
 ---
-# Fixed issues in the 2024.10.1 release
+# Fixed issues in the 2024.10.0 Service Pack 1 release
 
-This article covers the bugs fixed in various areas of the 2024.10.1 release of Adobe Experience Manager Guides as a Cloud Service.
+This article covers the bugs fixed in various areas of the 2024.10.0 Service Pack 1 release of Adobe Experience Manager Guides as a Cloud Service.
 
 ## Authoring
 

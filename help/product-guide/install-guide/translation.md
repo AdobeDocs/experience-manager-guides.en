@@ -110,8 +110,8 @@ By default, the legacy translation workflow option is disabled. You can configur
 
 1.  Configure the legacy translation workflow option as per your setup:
 
-    - (*Default*) If you use the latest translation workflow, then Disable the **Run legacy translation workflow** option. 
-    - If you use the legacy translation workflow, then Enable the **Run legacy translation workflow** option.
+    - (*Default*) If you want to use the latest translation workflow, then Disable the **Run legacy translation workflow** option. 
+    - If you want to use the legacy translation workflow, then Enable the **Run legacy translation workflow** option.
     
 4.  Click **Save**.
 
