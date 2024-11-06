@@ -113,7 +113,7 @@ By default, the legacy translation workflow option is disabled. You can configur
     - (*Default*) If you want to use the latest translation workflow, then Disable the **Run legacy translation workflow** option. 
     - If you want to use the legacy translation workflow, then Enable the **Run legacy translation workflow** option.
     
-4.  Click **Save**.
+1.  Click **Save**.
 
 
 
