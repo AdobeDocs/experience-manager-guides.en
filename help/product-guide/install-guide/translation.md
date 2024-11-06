@@ -92,9 +92,11 @@ Based on the translation workflow used in your setup, the component-based transl
 
 ## Configure the legacy translation workflow
 
-It is recommended that you use the latest translation workflow, which provides enhanced performance. However, if there are any customizations enabled in your current translation process, consider using the legacy translation workflow. 
+>[!IMPORTANT]
+> 
+> It is recommended that you use the latest translation workflow, which provides enhanced performance. However, if there are any customizations enabled in your current translation process, consider using the legacy translation workflow. 
 
-Perform the following steps to configure the legacy translation workflow:
+By default, the legacy translation workflow option is disabled. You can configure this option by performing the following steps:
 
 1. Open the Adobe Experience Manager Web Console Configuration page.
 
