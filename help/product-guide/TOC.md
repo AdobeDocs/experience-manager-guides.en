@@ -14,13 +14,12 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2024 Releases {#2024-releases}
-        - 2024.10.x Release {#2410-release}
-          - 2024.10.1 Release {#2410-1-release}
-            - [Fixed issues](./release-info/fixed-issues-2024-10-1.md)
-          - 2024.10.0 Release {#2410-0-release}
-            - [What's new](./release-info/whats-new-2024-10-0.md)
-            - [Fixed issues](./release-info/fixed-issues-2024-10-0.md)
-            - [Upgrade instructions](./release-info/upgrade-instructions-2024-10-0.md)
+        - 2024.10.0 SP1 Release {#2410-0-sp1-release}
+          - [Fixed issues](./release-info/fixed-issues-2024-10-0-sp1.md)
+        - 2024.10.0 Release {#2410-0-release}
+          - [What's new](./release-info/whats-new-2024-10-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2024-10-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2024-10-0.md)
         - 2024.6.0 Release {#2406-release}
           - [What's new](./release-info/whats-new-2024-06-0.md)
           - [Fixed issues](./release-info/fixed-issues-2024-06-0.md)
@@ -73,9 +72,9 @@ breadcrumb-title: AEM Guides Documentation
         - [January release notes](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
-      - 4.6.1 Release {#461-release}
-          - [Fixed issues](./release-info/fixed-issues-4-6-1.md)     
-          - [Upgrade instructions](./release-info/upgrade-instructions-4-6-1.md)     
+      - 4.6.0 SP1 Release {#460-sp1-release}
+          - [Fixed issues](./release-info/fixed-issues-4-6-0-sp1.md)     
+          - [Upgrade instructions](./release-info/upgrade-instructions-4-6-0-sp1.md)     
       - 4.6.0 Release {#460-release}
           - [What's new](./release-info/whats-new-4-6.md)
           - [Fixed issues](./release-info/fixed-issues-4-6-0.md)     

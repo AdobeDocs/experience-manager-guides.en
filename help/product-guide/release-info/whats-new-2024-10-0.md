@@ -5,7 +5,7 @@ role: Leader
 ---
 # What's new in the 2024.10.0 release (October 2024)
 
-This article covers the new and enhanced features introduced with 2024.10.0 release of Adobe Experience Manager Guides as a Cloud Service..
+This article covers the new and enhanced features introduced with 2024.10.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
 For the list of issues fixed in this release, view [Fixed issues in the 2024.10.0 release](fixed-issues-2024-10-0.md).
 
