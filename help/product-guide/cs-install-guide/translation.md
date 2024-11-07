@@ -66,12 +66,10 @@ Based on the translation workflow used in your setup, the component-based transl
 
 ## Configure the legacy translation workflow 
 
-It is recommended that you use the latest translation workflow, which provides enhanced performance. However, if you want to use the legacy translation workflow, you can configure it.
+It is recommended that you use or switch to the latest translation workflow, available in AEM Guides 2024.06.0 and onwards, for an enhanced performance. However, if any existing customizations in your translation process are impacted by the new workflow, consider reverting to the legacy translation workflow as a workaround.
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to configure the legacy translation workflow:
  
-
-
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
