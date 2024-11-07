@@ -94,7 +94,8 @@ Based on the translation workflow used in your setup, the component-based transl
 
 >[!IMPORTANT]
 > 
-> It is recommended that you use or switch to the latest translation workflow, available in AEM Guides 4.6.0 and onwards, for an enhanced performance. However, if any existing customizations in your translation process are impacted by the new workflow, consider reverting to the legacy translation workflow as a workaround.
+> It is recommended that you use or switch to the latest translation workflow, available in AEM Guides 4.6.0 and onwards, for an enhanced performance. However, if you've enabled any customization in the translation process and it is impacted by the new workflow, consider reverting to the legacy translation workflow as a workaround.
+
 
 
 By default, the legacy translation workflow option is disabled. You can configure this option by performing the following steps:
