@@ -4,6 +4,7 @@ description: Learn how to Integrate desktop-based XML editors
 feature: Publishing FrameMaker Documents
 role: Admin
 level: Experienced
+exl-id: 86ba53fa-0e08-4791-9018-09fe974691da
 ---
 # Integrate desktop-based XML editors 
 
@@ -35,6 +36,3 @@ If you are using version 2409 and FrameMaker 2022 September release - Update 3, 
 
 
 When you set *openinframebuttonshow* property to true, then the **Open in FrameMaker** button is shown on selecting any DITA file in the AEM repository. When this property is not set to *true*, the **Open in FrameMaker** button is shown only when you select a .fm or a .book file in the repository.
-
-
-

@@ -2,9 +2,8 @@
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides 4.6.0 Service Pack 1 release
 description: Learn about the bug fixes in the  4.6.0 Service Pack 1 release of Adobe Experience Manager Guides
 role: Leader
-
+exl-id: ab45ac10-8a97-4ade-accc-2b884da0e973
 ---
-
 # Fixed issues in the 4.6.0 Service Pack 1 release (October 2024)
 
 
@@ -33,12 +32,3 @@ Learn about [upgrade instructions for the 4.6.0 Service Pack 1 release](upgrade-
 
 - Resource leaks occur due to Unclosed **ResourceResolver** errors in logs. (18488)
 - When creating a new or duplicate baseline, labels are displayed in a random order. (19307)
-
-
-
-
-
-
-
-
-

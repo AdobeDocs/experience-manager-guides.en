@@ -2,6 +2,7 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 2024.10.0release
 description: Learn about the new and enhanced features in the 2024.10.0 release of Adobe Experience Manager Guides
 role: Leader
+exl-id: 13135928-f0fe-4147-83ac-8b06ca241ed7
 ---
 # What's new in the 2024.10.0 release (October 2024)
 
@@ -111,7 +112,3 @@ Experience Manager Guides now allows you to group conditions and present them in
 ![condtions organised in a nested hierarchy](assets/conditions-nested-hierarchy.png){width="300" align="left"}
 
 Learn more about the **Conditions** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
-
-
-
-

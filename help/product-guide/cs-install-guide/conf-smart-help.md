@@ -1,8 +1,8 @@
 ---
 title: Configure the Smart Help to search content
 description: Learn how to configure the Smart Help to search content
+exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
 ---
-
 # Configure the AI-powered Smart Help to search content
 
 As an administrator, you can configure the Smart Help feature for the authors. The Smart Help service is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe’s secure token-based authentication workflows and start using the new Smart Help feature. The following configurations help you to add the **AI configuration** tab to a folder profile. Once added, you can use the Smart Help feature in the Web Editor.

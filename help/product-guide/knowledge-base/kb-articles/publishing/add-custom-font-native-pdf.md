@@ -1,9 +1,10 @@
 ---
 title: Add custom fonts to your DITA PDF
-description: Achieve custom font integration to reinforce brand identity and visual consistency across all your content in Native DITA PDFs. 
+description: Achieve custom font integration to reinforce brand identity and visual consistency across all your content in Native DITA PDFs.
 feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
+exl-id: 151e3b1c-6340-4ff2-84d4-246bc4b68065
 ---
 # Add custom Fonts to your DITA Native PDF
 

@@ -2,9 +2,8 @@
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides 4.6.0 release
 description: Learn about the bug fixes in the  4.6.0 release of Adobe Experience Manager Guides
 role: Leader
-
+exl-id: fd12d627-5163-4edd-b28e-bef13267fcc9
 ---
-
 # Fixed issues in the 4.6.0 release (September 2024)
 
 
@@ -159,7 +158,3 @@ Adobe has identified the following known issues for the 4.6.0 release:
 - Native PDF generation fails for a DITA map if it has missing references.
 - Once a topic’s document state is updated to **Done**, the **Start a New Release** icon is only available on the **Preview** mode of the topic.
  - When selecting a DITA file in the Asset UI, the option **Open in FrameMaker** appears, even though it is disabled in the configuration settings.
- 
-
-
-

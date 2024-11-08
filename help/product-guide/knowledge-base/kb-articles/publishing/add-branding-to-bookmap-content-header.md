@@ -4,6 +4,7 @@ description: Achieve company branding by integrating the cover page and chapter 
 feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
+exl-id: ab452529-3c7f-4057-a0f6-212b9f52a99d
 ---
 # Add Enterprise Branding to the First Page of a DITA PDF
 
@@ -144,4 +145,3 @@ window.addEventListener('DOMContentLoaded', function () {
 
 - [How to include DITA Bookmap's toc in PDF](./how-to-include-bookmap-toc-in-pdf-publishing.md)
 - [Expert session Video on Native PDF](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
-

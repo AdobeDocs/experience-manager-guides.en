@@ -2,6 +2,7 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 4.4.0 release
 description: Learn about the new and enhanced features in the 4.4.0 release of Adobe Experience Manager Guides
 role: Leader
+exl-id: 3e73d595-a574-4104-af46-6994685a2f4c
 ---
 # What's new in the 4.6.0 release (September 2024)
 
@@ -356,4 +357,3 @@ Then, as an author, connect with the data sources to create content snippets or 
 View more details about the data source connectors and how to [configure a data source connector from the user interface](../cs-install-guide/conf-data-source-connector-tools.md).
 
 Learn how to [use data from your data source](../user-guide/web-editor-content-snippet.md).
-

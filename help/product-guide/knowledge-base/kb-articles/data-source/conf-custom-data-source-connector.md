@@ -4,6 +4,7 @@ description: Learn how to configure a custom connector for the data sources.
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: ef7ab117-7541-4e89-9ba4-22254a17efc0
 ---
 # Configure custom data source connectors
 

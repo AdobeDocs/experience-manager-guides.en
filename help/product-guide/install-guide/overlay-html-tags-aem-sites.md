@@ -4,8 +4,8 @@ description: Configure the video and the image settings for aem sites output bas
 feature: Installation
 role: Admin
 level: Experienced
+exl-id: 726420e0-fe52-4334-b72a-8eb8bcae4d6c
 ---
-
 # Overlay HTML tags in AEM Sites output 
 
 You can add and customize HTML tags in AEM Sites output generated using the AEM Sites preset based on core components mapping from the Web Editor. To customize the HTML tags, you can overlay the `config.xml` file. For example, you can configure the video and image maps in AEM Sites output.
@@ -137,4 +137,4 @@ Image maps:
 
 
 
-Learn more about the best practices of [Security](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security). 
+Learn more about the best practices of [Security](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).

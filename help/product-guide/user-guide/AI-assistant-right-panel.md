@@ -1,9 +1,8 @@
 ---
 title: Use the AI Assistant to author documents smartly `
 description: Learn how to Use the AI Assistant to author documents with smart efficiency in the Web Editor.
+exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 ---
-
-
 # AI Assistant to author documents with smart efficiency
 
 Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. You experience simplified document handling through intelligent suggestions and optimization. Using this tool, view the smart suggestions to reuse the content from the existing content repository. Use the text prompt feature to provide a prompt and change the content or generate an output as per your requirements. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic. This feature also helps you to easily improve and translate the selected content.
@@ -147,4 +146,3 @@ Perform the following steps to translate the content:
 1. You can also select another language from the dropdown menu and regenerate the content in the chosen language. For example, if you select French and then select **Regenerate**, the content is translated into French.
 
 ![ai assistant translate content](./images/ai-assisstant-translate-content.png)
-

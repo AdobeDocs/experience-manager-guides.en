@@ -1,6 +1,7 @@
 ---
-title: Release Notes | Fixed issues in the 2024.10.0 Service Pack 1 release of Adobe Experience Manager Guides 
+title: Release Notes | Fixed issues in the 2024.10.0 Service Pack 1 release of Adobe Experience Manager Guides
 description: Learn about the bug fixes in the 2024.10.0 Service Pack 1 release of Adobe Experience Manager Guides as a Cloud Service.
+exl-id: d5fa200b-1f15-4ec2-adf9-a29382afc3de
 ---
 # Fixed issues in the 2024.10.0 Service Pack 1 release
 

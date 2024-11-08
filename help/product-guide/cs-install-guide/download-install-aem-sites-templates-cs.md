@@ -4,8 +4,8 @@ description: Learn how to Download and install AEM Sites templates
 feature: Installation
 role: Admin
 level: Experienced
+exl-id: 18cb85df-adfb-4bce-8af8-796aed79cb80
 ---
-
 # Download and install AEM Sites templates
 
 Perform the following steps to download and install AEM Sites templates on Experience Manager Guides as Cloud Service:
@@ -117,8 +117,3 @@ Assuming a site hierarchy is created for the documentation pages using the previ
 To do so, assign its property `id` a value `category-page`. Refer to the following screenshot:
  
 ![tag category page](assets/customize-existing-aem-templates-tagging.png)
-
-
-
-
-

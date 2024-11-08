@@ -4,8 +4,8 @@ description: Learn how to Download and install AEM Sites templates
 feature: Installation
 role: Admin
 level: Experienced
+exl-id: ca446ee4-a377-4e08-8008-21db3a2fe669
 ---
-
 # Download and install AEM Sites templates
 
 Perform the following steps to download and install AEM Sites templates on Experience Manager Guides for On-premise Software:
