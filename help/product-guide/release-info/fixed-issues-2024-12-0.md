@@ -28,8 +28,8 @@ This article covers the bugs fixed in various areas of the 2024.12.0 release of 
 
 ## Baseline
 
-- Editing and then Saving a Baseline on a Cloud setup timesout after 1 minute if the Baseline has large number of topics or maps. (19558)
+- Editing and then saving a baseline on a cloud setup timesout after 1 minute if the baseline has large number of topics or maps. (19558)
 
 ## Translation
 
-- Map translation using Baseline becomes slow and eventually fails to load the list of all the associated topics and maps files. (19733)
+- Map translation using baseline becomes slow and eventually fails to load the list of all the associated topics and maps files. (19733)
