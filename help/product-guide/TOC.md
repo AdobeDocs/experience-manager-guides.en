@@ -133,7 +133,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Support for Schematron files](./user-guide/support-schematron-file.md)
           - [AI-powered Smart Suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
           - [AI-powered Smart Help to search content](./user-guide/ai-based-smart-help.md)
-          - [AI Assistant to author documents with smart efficiency](./user-guide/AI-assistant-right-panel.md)
+          - [AI Assistant to author documents with smart efficiency](./user-guide/ai-assistant-right-panel-bob.md)
           - [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
           - [Add citations to your content](./user-guide/web-editor-apply-citations.md)
           - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)
