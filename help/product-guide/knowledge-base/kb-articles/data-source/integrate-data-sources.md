@@ -1,6 +1,7 @@
 ---
 title: Architecture of External Data Sources Integration in AEM Guides
 description: Learn about the architecture of External Data Sources Integration in AEM Guides.
+exl-id: ce99033a-0ce1-4696-9d4c-89187273b0bd
 ---
 # External data sources integration
 

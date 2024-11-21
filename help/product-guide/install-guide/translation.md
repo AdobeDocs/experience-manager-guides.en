@@ -86,6 +86,40 @@ Based on the translation workflow used in your setup, the component-based transl
 
 1.  Click **Save**.
 
+>[!IMPORTANT]
+>
+> After setting up the translation configurations, ensure that you set up the appropriate Cloud Configuration on the language folders.
+
+## Configure the legacy translation workflow
+
+>[!IMPORTANT]
+> 
+> It is recommended that you use the latest translation workflow, which provides enhanced performance. However, if there are any customizations enabled in your current translation process, consider using the legacy translation workflow. 
+
+By default, the legacy translation workflow option is disabled. You can configure this option by performing the following steps:
+
+1. Open the Adobe Experience Manager Web Console Configuration page.
+
+    The default URL to access the configuration page is:
+
+    ```http
+    http://<server name>:<port>/system/console/configMgr
+    ```
+
+1.  Search for and click on the **com.adobe.fmdita.config.ConfigManager** bundle.
+
+1.  Configure the legacy translation workflow option as per your setup:
+
+    - (*Default*) If you want to use the latest translation workflow, then Disable the **Run legacy translation workflow** option. 
+    - If you want to use the legacy translation workflow, then Enable the **Run legacy translation workflow** option.
+    
+1.  Click **Save**.
+
+
+
+
+
+
 <!---
 
 This was added for 2406 CS IG
@@ -119,9 +153,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 
 --->
->[!IMPORTANT]
->
-> After setting up the translation configurations, ensure that you set up the appropriate Cloud Configuration on the language folders.
+
 
 ## Configure post-processing of temporary language copies 
 

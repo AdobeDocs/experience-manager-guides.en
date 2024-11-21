@@ -2,9 +2,8 @@
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides 4.6.0 release
 description: Learn about the bug fixes in the  4.6.0 release of Adobe Experience Manager Guides
 role: Leader
-
+exl-id: fd12d627-5163-4edd-b28e-bef13267fcc9
 ---
-
 # Fixed issues in the 4.6.0 release (September 2024)
 
 
@@ -70,8 +69,7 @@ Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade
 - The behavior of the Close button is inconsistent when using the Auto Save functionality. (10996)
 - Validation issues occur in MathML elements when inserting any new element or modifying equations. (10624)
 - The Track Changes functionality does not work with text that begins with Korean characters. (14538)
-
-
+- Linked images from the topics fail to appear in the baseline after version creation. (16931)
 
 ## Publishing
 
@@ -103,6 +101,9 @@ Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade
 - Topic regeneration fails due to the OOTB Regenerate Topic or incremental publish API failure. (18452)
 - The condition preset doesn't fetch updated attributes after upgrading Experience Manager Guides. (18174)
 - Content references are not correctly resolved for Native PDF output if the file containing key definitions is not in the same folder as the DITA map. (15062)
+- Bulk Publish Dashboard shows blank for maps that are still in the translation process. (19352)
+- Bulk Activation of published content isn’t working for localized maps. (17638)
+
 
 
 ## Management
@@ -156,6 +157,4 @@ Adobe has identified the following known issues for the 4.6.0 release:
 - The topic’s reference appears broken in the user interface when inserted from the top toolbar of the DITA map.
 - Native PDF generation fails for a DITA map if it has missing references.
 - Once a topic’s document state is updated to **Done**, the **Start a New Release** icon is only available on the **Preview** mode of the topic.
-
-
-
+ - When selecting a DITA file in the Asset UI, the option **Open in FrameMaker** appears, even though it is disabled in the configuration settings.

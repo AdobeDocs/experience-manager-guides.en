@@ -2,6 +2,7 @@
 title: Release Notes | Upgrade instructions for Adobe Experience Manager Guides 4.6.0 release
 description: Learn how to upgrade to  4.6.0 release of Adobe Experience Manager Guides
 role: Leader
+exl-id: 03d0d85b-7324-441f-9b35-66a63691d630
 ---
 # Upgrade instructions for the 4.6.0 release (September 2024)
 

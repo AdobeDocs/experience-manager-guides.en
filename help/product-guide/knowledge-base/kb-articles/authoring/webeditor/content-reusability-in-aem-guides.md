@@ -2,6 +2,7 @@
 title: DITA content reuse in AEM Guides
 description: This brief article tells how AEM Guides and DITA help you save time and effort when using content reusability
 role: User, Admin
+author: Pulkit Nagpal(punagpal)
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
 ---
 # Content reusability in AEM Guides 
