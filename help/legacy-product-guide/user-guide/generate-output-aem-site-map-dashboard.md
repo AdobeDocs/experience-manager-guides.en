@@ -3,7 +3,6 @@ title: AEM Site
 description: Create and configure AEM sites preset in AEM Guides from the Map Dashboard. Use AEM sites support to generate article-based output, publish linked topics , conref, and search a string within the content.
 feature: Publishing
 role: User
-exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
 ---
 # AEM Sites presets on the map dashboard {#id205BE3008SW}
 

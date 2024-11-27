@@ -3,7 +3,6 @@ title: AEM Sites
 description: Create and configure the AEM Sites preset in the Web Editor and generate AEM Sites output for DITA map, selected topics, and linked topics.
 feature: Publishing
 role: User
-exl-id: f3657268-9dee-43af-b643-499dbc3ca948
 ---
 # AEM Sites presets in the Web Editor
 
@@ -98,7 +97,7 @@ The **Topic List** displays the list of topics present in the current working co
 **Topic List** tab is present in the AEM presets that are not created based on legacy mapping. 
 
 **Cross-map references**
-This list contains topics containing cross-map references with `scope =”peer”`. You can specify the publishing context for a list of cross map references with `scope=”peer”` to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version.
+This list contains topics containing cross-map references with `scope ="peer"`. You can specify the publishing context for a list of cross map references with `scope="peer"` to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version.
 
 
 
@@ -152,7 +151,7 @@ Perform the following steps to create and configure an AEM Sites preset:
     1. Select the complete Site path: 
         1. Select **Use Site path** option.
         1. Select the complete Site path. For example, `/content/AEMG-Docs-Site/en/docs/product1`.
-        1. The ‘Topic page template’ is automatically set as `Topic Page`. 
+        1. The 'Topic page template' is automatically set as `Topic Page`. 
         
 
 1. Save the changes done to the preset.
@@ -189,13 +188,13 @@ If you want to use AEM Sites presets from the Web Editor, either create a new pr
 
 1. Open the **Cross map references** tab. 
 
-    You are shown a list of topics and their references. You can specify the publishing context for a list of cross map references to topics available in other DITA maps with  `scope=”peer”`. 
+    You are shown a list of topics and their references. You can specify the publishing context for a list of cross map references to topics available in other DITA maps with  `scope="peer"`. 
 
     To use the cross-map reference panel from Web Editor, `<xrefs>` must have unique IDs. Unique IDs for `<xrefs>` will be automatically generated on editing/saving the older content if the ID isn't there.
 
     >[!NOTE]
     >
-    >The **Cross map references** tab shows topics that are linked using the `scope=”peer”` only. For links with `scope=”local”`, you don’t need to specify the publishing context.
+    >The **Cross map references** tab shows topics that are linked using the `scope="peer"` only. For links with `scope="local"`, you don't need to specify the publishing context.
 
     All linked topics have their latest output preset and map selected by default. The publishing context for all the linked topics is set to `<Most recently generated>` map by default.
  
@@ -204,15 +203,15 @@ If you want to use AEM Sites presets from the Web Editor, either create a new pr
 1. If you want to use the most recently published output of each dependent file in the map, select **Use most recently generated** publish context for all dependent topics.
 You should publish the map selected as the parent map before publishing the map containing linked topics. If the map with linked topics isn't published, the links appear as normal text instead of hyperlinks in the AEM Sites output.
 You should select the same type of AEM Sites preset for the linked topic. For example, if the current AEM Sites preset uses legacy component mapping, then select a similar AEM Sites preset of the linked topic. 
-1. In the Parent Map drop-down list, select the map file with whose output you want to link the current map’s output.
-Selecting a map file shows the map’s UUID in the Parent Map UUID column. The Output Presets associated with the chosen map are listed in the Parent Map’s Preset list. For example, Topic 1 in Map A contains a reference to Topic 2. Topic 2 can be present in single or multiple maps. You can select the parent map and a specific preset or the most recently published output for each link.
+1. In the Parent Map drop-down list, select the map file with whose output you want to link the current map's output.
+Selecting a map file shows the map's UUID in the Parent Map UUID column. The Output Presets associated with the chosen map are listed in the Parent Map's Preset list. For example, Topic 1 in Map A contains a reference to Topic 2. Topic 2 can be present in single or multiple maps. You can select the parent map and a specific preset or the most recently published output for each link.
 
 1. If the same topic is referred to more than once in a file, then you can add a different publishing context for each instance. This provides greater flexibility and control over their content. For example, Topic 3 is present in both Map B and Map C. Topic 1 contains two references to Topic 3. You can choose Map B as a parent map for the first link and Map C as the parent for the second link.
 
-1. In the Parent Map’s Preset drop-down list, select the output preset with which you want to link the current map’s output.
+1. In the Parent Map's Preset drop-down list, select the output preset with which you want to link the current map's output.
     >[!NOTE]
     >
-    > The different AEM Sites presets of the current map appear in the dropdown list. If you don’t select a preset, a warning icon appears, and the output generation, fails.
+    > The different AEM Sites presets of the current map appear in the dropdown list. If you don't select a preset, a warning icon appears, and the output generation, fails.
 1. Select the required map and its output preset for all source topics and select **Generate**.
 
 

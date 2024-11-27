@@ -1,7 +1,6 @@
 ---
 title: Use Quick Generate panel
 description: Use the quick generate panel in AEM Guides. Learn how to generate and view output from the quick generate panel.
-exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 ---

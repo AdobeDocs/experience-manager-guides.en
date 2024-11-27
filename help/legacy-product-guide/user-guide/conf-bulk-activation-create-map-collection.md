@@ -1,7 +1,6 @@
 ---
 title: Create a bulk activation map collection
 description: Learn how to create a bulk activation map collection in AEM guides.
-exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
 ---

@@ -3,7 +3,6 @@ title: Publish a topic to an AEM Sites page
 description: Publish a topic or the elements within a topic to an Adobe Experience Manager Sites output.  Learn how to view the Experience Manager Sites page present for a topic and republish them.
 feature: Publishing
 role: User
-exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
 ---
 # Publish Adobe Experience Manager Sites pages
 
@@ -39,7 +38,7 @@ To generate an Sites page, perform the following steps:
     * You can also select different conditions to publish the content.  Select one of the following options:
 
                
-        * **None**: Select this option if you don’t want to apply any condition on the published output.
+        * **None**: Select this option if you don't want to apply any condition on the published output.
         * **Using DITAVAL**: Select the DITAVAL file to generate personalized content. You can select the DITAVAL file using the browse dialog or by typing the file path. 
         * **Using attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute to publish the relevant content.
         
@@ -59,7 +58,7 @@ To generate an Sites page, perform the following steps:
  
 
 
-Once you’ve published the Sites page, you can also use them on any Adobe Experience Manager Site.
+Once you've published the Sites page, you can also use them on any Adobe Experience Manager Site.
 
 
 ## Options menu for an Experience Manager Sites

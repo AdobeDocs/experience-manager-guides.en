@@ -1,7 +1,6 @@
 ---
 title: AI-powered Smart Suggestions to author content
 description: Learn how to view and utilize AI-powered smart suggestions in the Web Editor.
-exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
 ---
 # AI-powered smart suggestions to author content
 
@@ -57,4 +56,4 @@ This intelligent feature is handy and minimizes the effort of manual content sea
 
 >[!NOTE]
 >
->Smart suggestions don’t retain your data beyond the current session. For responses, smart suggestions rely solely upon the index created on the content residing within your internal database. External AI tools are not used, ensuring your data remains within the system.
+>Smart suggestions don't retain your data beyond the current session. For responses, smart suggestions rely solely upon the index created on the content residing within your internal database. External AI tools are not used, ensuring your data remains within the system.

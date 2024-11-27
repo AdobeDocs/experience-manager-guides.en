@@ -1,7 +1,6 @@
 ---
 title: Publish a topic to a Content Fragment
 description: Publish a topic or the elements within a topic to a Content Fragment in AEM Guides.  Learn how to view the Content Fragments present for a topic and republish them.
-exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
 ---
@@ -20,7 +19,7 @@ To create a Content Fragment, perform the following steps:
 
 1. Create a [Content Fragment model](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) in Adobe Experience Manager Assets. 
 1. Create a folder where you want to save the Content Fragments that you create based on the Content Fragment model. For example, "stock-content-fragments". 
-1. Edit the folder’s properties (for example, "stock-content-fragments") and add the path of the folder, which contains the Content Fragment model in the cloud configuration. 
+1. Edit the folder's properties (for example, "stock-content-fragments") and add the path of the folder, which contains the Content Fragment model in the cloud configuration. 
 For example, add `/conf/we-retail` in the cloud configuration. This configuration connects all the Content Fragment models with the folder.       
  ![add cloud configuration details in the folder properties](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
        *Add the cloud configuration in the folder properties to connect it with the fragment models.* 
@@ -47,7 +46,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
         > 
         > Conditions are enabled only if condition attributes are defined in the topic.
         
-        * **None**: Select this option if you don’t want to apply any condition on the published output.
+        * **None**: Select this option if you don't want to apply any condition on the published output.
         * **Using DITAVAL**: Select the DITAVAL file to include or exclude specific content in the generated output. You can select the DITAVAL file using the browse dialog or by typing the file path. 
         * **Using attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute to publish the relevant content.
 
@@ -80,7 +79,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
      *View the Content Fragments present for a topic and republish them.*  
 
 
-Once you’ve published the Content Fragments, you can also use them in any Adobe Experience Manager Site.
+Once you've published the Content Fragments, you can also use them in any Adobe Experience Manager Site.
 
 
 
