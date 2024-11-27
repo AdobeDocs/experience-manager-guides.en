@@ -109,16 +109,14 @@ breadcrumb-title: AEM Guides Documentation
     - [!DNL AEM Guides] working and key features {#aemg-works-features}
       - [How [!DNL AEM Guides] works](./user-guide/intro-how-dxml-works.md)
       - [Key [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
+      - [AEM Guides Home page experience](./user-guide/intro-home-page.md)
   - Manage Content {#manage-content}
     - [Key concepts, roles and permissions, and pre-requisites](./user-guide/authoring.md)
     - [Upload files](./user-guide/authoring-upload-existing-files.md)
     - [Manage files and folders](./user-guide/authoring-file-management.md)
     - [Download files](./user-guide/authoring-download-assets.md)
-  - Workfront Integration {#workfront-integration}
-    - [Overview]
-    - [Key features]
-    - [Create tasks]
-    - [Manage tasks]
+  - Workfront in AEM Guides {#workfront-integration}
+    - [Workfront integration](./user-guide/workfront-integration.md)
   - Author Content {#author-content}
     - [Authoring overview](./user-guide/authoring-content.md)
     - Topic creation and preview {#create-preview-topics}
