@@ -3,7 +3,7 @@ title: Publish a topic to an Experience Fragment
 description: Publish a topic or the elements within a topic to an Experience Fragment in AEM Guides.  Learn how to view the Experience Fragments present for a topic and republish them.
 feature: Publishing
 role: User
-exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
+exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
 ---
 # Publish Experience Fragments
 
@@ -55,7 +55,7 @@ To generate an Experience Fragment, perform the following steps:
 
       
 
-        Your administrator can add the mappings in the *experienceFragmentMapping.json* file.  Learn more about how to [create a mapping between a topic and an Experience Fragment](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) in the Installation and Configuration Guide.
+        Your administrator can add the mappings in the *experienceFragmentMapping.json* file.  Learn more about how to [create a mapping between a topic and an Experience Fragment](../cs-install-guide/conf-experience-fragment-mapping-cs.md) in the Installation and Configuration Guide.
 
     * You can also select different conditions to publish the content.  Select one of the following options:
 

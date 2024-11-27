@@ -1,9 +1,9 @@
 ---
 title: EPUB
 description: Generate and configure EPUB output for FrameMaker documents in AEM Guides.
+exl-id: cafa3683-673b-47de-9729-58764303a7de
 feature: Publishing FrameMaker Documents
 role: User
-exl-id: b8d16ae9-5cbd-4fa1-b231-f06307e8ee17
 ---
 # EPUB {#id205BB0V0PQZ}
 

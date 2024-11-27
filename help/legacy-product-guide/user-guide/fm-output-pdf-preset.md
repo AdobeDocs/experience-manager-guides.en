@@ -1,9 +1,9 @@
 ---
 title: PDF
 description: Generate and configure PDF output for FrameMaker documents in AEM Guides.
+exl-id: df3d3cd8-2aa1-4d82-8756-c3f5555cb904
 feature: Publishing FrameMaker Documents
 role: User
-exl-id: 3a8cb163-94ac-48b1-ae6b-1309179f462a
 ---
 # PDF {#id205BB0T20RH}
 

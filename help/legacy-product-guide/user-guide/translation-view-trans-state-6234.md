@@ -1,9 +1,9 @@
 ---
 title: View translation status
 description: Learn how to view the translation status and translated language copies for each topic in a DITA map in AEM Guides.
+exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-exl-id: 261c24f2-be9e-4a6b-9b1f-0850d960d49e
 ---
 # View translation status {#id169SEK00KOW}
 

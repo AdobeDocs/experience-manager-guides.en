@@ -1,9 +1,9 @@
 ---
 title: Author content using AEM Guides
 description: Author content efficiently using AEM Guides. Learn how to create, edit, and publish your documents in AEM Guides.
+exl-id: 9e29dde4-a9de-41e0-86c8-ca949bd3669c
 feature: Authoring
 role: User
-exl-id: 6d898419-b8f9-4a22-a6be-8b7b0e96a461
 ---
 # Author content using AEM Guides {#id221EB0P0E20}
 

@@ -1,9 +1,9 @@
 ---
 title: Insert a content snippet from your data source
 description: Use data from your data source in AEM Guides. Learn how to insert a content snippet from your data source. Create a topic using the topic generator.
+exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
 ---
 # Use data from your data source
 
@@ -21,18 +21,18 @@ Based on your setup your administrator can configure a data source connector:
 <summary> Cloud Services </summary> 
 
 
-- If you're using the October 2023 release or later, learn how to [configure a data source connector from the user interface](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) in the Cloud Services Installation and Configuration Guide.
+- If you're using the October 2023 release or later, learn how to [configure a data source connector from the user interface](../cs-install-guide/conf-data-source-connector-tools.md) in the Cloud Services Installation and Configuration Guide.
 
-- If you're using the July 2023 or September 2023 release, learn how to [configure a data source connector](/help/product-guide/cs-install-guide/conf-data-source-connector.md) in the Cloud Services Installation and Configuration Guide.
+- If you're using the July 2023 or September 2023 release, learn how to [configure a data source connector](../cs-install-guide/conf-data-source-connector.md) in the Cloud Services Installation and Configuration Guide.
 
 </details>
 
 <details>    
 <summary>  On-premise Software </summary>
 
-- If you're using the 4.3.1 release or later, learn how to [configure a data source connector from the user interface](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) in the On-premise Installation and Configuration Guide.
+- If you're using the 4.3.1 release or later, learn how to [configure a data source connector from the user interface](../cs-install-guide/conf-data-source-connector-tools.md) in the On-premise Installation and Configuration Guide.
 
-- If you're using the 4.3 release, learn how to [configure a data source connector](/help/product-guide/cs-install-guide/conf-data-source-connector.md) in the On-premise Installation and Configuration Guide.
+- If you're using the 4.3 release, learn how to [configure a data source connector](../cs-install-guide/conf-data-source-connector.md) in the On-premise Installation and Configuration Guide.
 </details>
 
 

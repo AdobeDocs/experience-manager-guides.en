@@ -1,9 +1,9 @@
 ---
 title: Work with FrameMaker
 description: Know about FrameMaker support for content authoring and publishing in AEM Guides.
+exl-id: 6797912b-3325-413c-ac88-877599b94678
 feature: Authoring, Desktop Tools
 role: User
-exl-id: e1375804-2e02-4f51-9097-0781ebeaf66d
 ---
 # Work with FrameMaker {#id221BH0L03XA}
 

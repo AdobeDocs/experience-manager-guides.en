@@ -1,9 +1,9 @@
 ---
 title: Preview a topic
 description: Learn how to preview a topic in AEM Guides. Know about the features available in preview mode. Branch, revert, and subsequent versioning in AEM guides.
+exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
 ---
 # Preview a topic {#id1696II000QR}
 

@@ -1,9 +1,9 @@
 ---
 title: Reverted files version history report
 description: View reverted files version history reports in AEM Guides. Learn how to access revert version logs from the Assets UI, topic preview, and AEMs tools selection.
+exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
-exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
 ---
 # Reverted files version history report {#id205BBC00PRK}
 

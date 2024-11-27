@@ -1,9 +1,9 @@
 ---
 title: Generate output of FrameMaker documents
 description: Learn how to generate output of FrameMaker documents in AEM guides to publish them in PDF, HTML5, and EPUB format.
+exl-id: c19564c2-90f7-411d-835e-b2d1b0ada9c5
 feature: Publishing FrameMaker Documents
 role: User
-exl-id: ddb6b1ee-7993-479f-993c-d2ce686b10b3
 ---
 # Generate output of FrameMaker documents {#id1645H8040HD}
 

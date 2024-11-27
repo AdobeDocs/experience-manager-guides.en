@@ -1,9 +1,9 @@
 ---
 title: Keyboard shortcuts in the Web Editor
 description: Discover time-saving keyboard shortcuts in the web editor of AEM Guides.
+exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-exl-id: 418412ab-cce6-4398-9f84-6f63285ffc6d
 ---
 # Keyboard shortcuts in the Web Editor {#id2056B0A0WHT}
 

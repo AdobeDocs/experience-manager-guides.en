@@ -1,9 +1,9 @@
 ---
 title: Create output presets from the Web Editor
 description: Create output presets from the web editor. Learn how to edit, rename, duplicate, and delete an output preset in AEM Guides.
+exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-exl-id: ce8e3614-907b-4172-a8f0-e81e4dc096df
 ---
 # Create output presets from the Web Editor {#id218CL400JW3}
 

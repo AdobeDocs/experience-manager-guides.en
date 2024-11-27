@@ -1,14 +1,14 @@
 ---
 title: Address review comments
 description: Learn how to address review comments as an author in AEM Guides. Discover how an author can edit, filter, accept, or reject comments in a document.
-feature: Reviewing
+exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
+feature: Reviewing 
 role: User
-exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
 ---
 # Address review comments {#id2056B0X0KBI}
 
 
-As an author, you can address comments in a topic using the Web Editor. The comments are loaded based on the review task selected in the Review panel. For more details, view the **Review** panel ![](images/active-review-tasklist-icon.svg) feature description in the [Left Panel](/help/product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) section.
+As an author, you can address comments in a topic using the Web Editor. The comments are loaded based on the review task selected in the Review panel. For more details, view the **Review** panel ![](images/active-review-tasklist-icon.svg) feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 The following sections describe ways of editing comments in the Web Editor.
 

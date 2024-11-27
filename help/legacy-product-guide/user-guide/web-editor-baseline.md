@@ -1,9 +1,9 @@
 ---
 title: Create and manage baselines from the Web Editor
 description: Create and manage baselines from the web editor in AEM Guides. Learn how to create baselines on the basis of labels and apply filters to the baselines.
+exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
 ---
 # Create and manage baselines from the Web Editor {#id223MB0ZF043}
 
@@ -148,3 +148,4 @@ Using the Filters icon in the **Baseline Filters** panel you can apply filters o
 Once you have edited the baseline, you can click the **Save** button on the top to save the changes to the baseline. You can click the **Reset** button if you don't want to save the change and reset the baseline. When you click the **Reset** button a warning is displayed that your unsaved changes would be lost.
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
+ 

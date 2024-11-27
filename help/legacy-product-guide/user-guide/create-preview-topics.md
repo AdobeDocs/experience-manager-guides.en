@@ -1,9 +1,9 @@
 ---
 title: Create and preview topics
 description: Learn how to create and preview DITA topics from the Assets UI in AEM Guides.
+exl-id: 17db1827-f5e6-48a9-8989-5e24c3671e55
 feature: Authoring
 role: User
-exl-id: 71929e00-adda-4644-be4a-df9574cc8e46
 ---
 # Create and preview topics {#id21BQE0RJ042}
 
