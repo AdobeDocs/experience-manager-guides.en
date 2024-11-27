@@ -3,7 +3,6 @@ title: Reports
 description: Learn how to create DITA map reports in AEM Guides.
 feature: Report Generation
 role: User
-exl-id: 377664ec-b7e5-48b9-ae47-ddae8968736b
 ---
 # Reports {#id1645H9007MZ}
 

@@ -3,7 +3,6 @@ title: Conversion Status Report
 description: Convert documents of different formats into DITA in AEM Guides. Learn how to add filters and view a conversion status report.
 feature: Report Generation
 role: User
-exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
 ---
 # Conversion Status Report {#id205BBA00WZZ}
 

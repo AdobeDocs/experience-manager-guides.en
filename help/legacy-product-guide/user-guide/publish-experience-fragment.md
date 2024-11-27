@@ -3,7 +3,6 @@ title: Publish a topic to an Experience Fragment
 description: Publish a topic or the elements within a topic to an Experience Fragment in AEM Guides.  Learn how to view the Experience Fragments present for a topic and republish them.
 feature: Publishing
 role: User
-exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
 ---
 # Publish Experience Fragments
 
@@ -19,7 +18,7 @@ To generate an Experience Fragment, perform the following steps:
 
 1.  Create a folder in the Experience Fragments. Use this folder to save the Experience Fragments that you create based on the Experience Fragment templates. For example, *sales-experience-fragments*. 
 1. Select the folder and then select the **Properties** icon from the top.
-1. Edit the folder’s properties (for example, *sales-experience-fragments*).
+1. Edit the folder's properties (for example, *sales-experience-fragments*).
    
     
     *  **Title**: View or edit the title of the folder.
@@ -55,12 +54,12 @@ To generate an Experience Fragment, perform the following steps:
 
       
 
-        Your administrator can add the mappings in the *experienceFragmentMapping.json* file.  Learn more about how to [create a mapping between a topic and an Experience Fragment](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) in the Installation and Configuration Guide.
+        Your administrator can add the mappings in the *experienceFragmentMapping.json* file.  Learn more about how to [create a mapping between a topic and an Experience Fragment](../cs-install-guide/conf-experience-fragment-mapping-cs.md) in the Installation and Configuration Guide.
 
     * You can also select different conditions to publish the content.  Select one of the following options:
 
                
-        * **None**: Select this option if you don’t want to apply any condition on the published output.
+        * **None**: Select this option if you don't want to apply any condition on the published output.
         * **Using DITAVAL**: Select the DITAVAL file to generate personalized content. You can select the DITAVAL file using the browse dialog or by typing the file path. 
         * **Using attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute to publish the relevant content.
         
@@ -69,7 +68,7 @@ To generate an Experience Fragment, perform the following steps:
         >Conditions are enabled only if condition attributes are defined in the topic.
         
            
-    * Select the **Overwrite existing content** checkbox if your Experience Fragment already exists and you wish to overwrite it. Experience Manager Guides displays an error if you don’t select the checkbox and your Experience Fragment already exists. 
+    * Select the **Overwrite existing content** checkbox if your Experience Fragment already exists and you wish to overwrite it. Experience Manager Guides displays an error if you don't select the checkbox and your Experience Fragment already exists. 
 1. Click **Generate** to publish the Experience Fragment.
 1. You can view the Experience Fragments for a topic under the **Outputs** section in the **File Properties**. The Experience Fragments appear according to the date and time of their publishing, with the latest as the first. 
  
@@ -80,7 +79,7 @@ To generate an Experience Fragment, perform the following steps:
  
 
 
-Once you’ve published the Experience Fragments, you can also use them on any Adobe Experience Manager Site.
+Once you've published the Experience Fragments, you can also use them on any Adobe Experience Manager Site.
 
 
 ## Options menu for an Experience Fragment 

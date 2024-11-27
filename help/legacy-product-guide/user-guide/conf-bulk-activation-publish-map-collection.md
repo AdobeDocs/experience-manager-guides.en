@@ -3,7 +3,6 @@ title: Activate output
 description: Activate output of DITA maps in AEM Guides. Learn how to activate your content on the publishing instance.
 feature: Publishing, Bulk Activation
 role: User
-exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
 ---
 # Activate output {#id214GGF00V5U}
 

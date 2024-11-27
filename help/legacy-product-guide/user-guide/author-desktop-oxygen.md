@@ -3,7 +3,6 @@ title: Work with Oxygen
 description: Know about Oxygen XML Editor support for content authoring and publishing in AEM Guides.
 feature: Authoring, Desktop Tools
 role: User
-exl-id: c6395d35-b8fd-446e-a17a-df7f5a432053
 ---
 # Work with Oxygen {#id221BH0V0UE8}
 

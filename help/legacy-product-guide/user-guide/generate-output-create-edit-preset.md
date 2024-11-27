@@ -3,7 +3,6 @@ title: Create, edit, duplicate, or remove an output preset
 description: Learn how to create, edit, duplicate, and delete a custom output preset in AEM Guides.
 feature: Publishing
 role: User
-exl-id: f770dd7e-0c52-4a97-ba93-ddd12832d5ae
 ---
 # Create, edit, duplicate, or remove an output preset {#id205BEH0K09Z}
 

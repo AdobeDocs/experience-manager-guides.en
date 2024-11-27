@@ -3,7 +3,6 @@ title: Create maps based on customized templates
 description: Learn to create a customizes template, use them to create new map files, and pass on the defined title to a DITA map in AEM Guides.
 feature: Authoring, Map Editor
 role: User
-exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
 ---
 # Create maps based on customized templates {#id225VF0808MP}
 
@@ -88,18 +87,17 @@ The map template created message appears. You can add the template to your globa
 Your administrator can also create a folder and configure it to be the folder wherein you can create and save the templates. 
 
 Based on your setup learn how to configure custom DITA template folder path:
+<details>
+    <summary> Cloud Services </summary>
 
-+++ Cloud Services
+ Learn how to [configure custom DITA template folder path](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in the  Cloud Services Installation and Configuration Guide. 
+ </details>
 
-Learn how to [configure custom DITA template folder path](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z){target="_blank"} in the  Cloud Services Installation and Configuration Guide. 
-
-+++
-
-+++ On-premise  Software
-
-Learn how to [configure custom DITA template folder path](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in the  On-premise Installation and Configuration Guide.
-
-+++
+<details>
+    <summary> On-premise  Software</summary>
+     
+Learn how to [configure custom DITA template folder path](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in the  On-premise Installation and Configuration Guide.
+     </details>
 
 ## Pass on the title defined in the templates
 

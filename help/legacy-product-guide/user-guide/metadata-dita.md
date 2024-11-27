@@ -3,7 +3,6 @@ title: Work with metadata in AEM
 description: Learn how to create assets and add metadata using Adobe Experience Manager Assets. Manage metadata from AEM Guides.
 feature: Metadata Management
 role: User
-exl-id: 578ea79c-cfb7-4902-b6d5-9d8a010fe26a
 ---
 # Work with metadata in AEM {#id21BJ00QD0XA}
 

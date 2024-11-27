@@ -3,7 +3,6 @@ title: Introduction to the output presets
 description: Publish FrameMaker documents in AEM Guides. Learn how to generate output for FrameMaker documents in PDF, HTML5, and EPUB formats.
 feature: Publishing FrameMaker Documents
 role: User
-exl-id: 691773e5-547f-4638-9ce0-f6d08e1153d7
 ---
 # Understanding the output presets {#understanding_output_settings}
 
