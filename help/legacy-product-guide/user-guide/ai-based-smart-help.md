@@ -19,7 +19,7 @@ When you open the Web Editor, the **Smart Help** panel appears on the right.
 
 >[!NOTE]
 >
-> Your administrator must configure the **Smart Help** feature. For more details, view the [Configure the AI-powered Smart Help to search content](../cs-install-guide/conf-smart-help.md) section in the Installation and Configuration Guide for Cloud Services. 
+> Your administrator must configure the **Smart Help** feature. For more details, view the [Configure the AI-powered Smart Help to search content](/help/product-guide/cs-install-guide/conf-smart-help.md) section in the Installation and Configuration Guide for Cloud Services. 
 
 ![Smart Help panel](images/smart-help-panel.png){width="300" align="left"}
 
@@ -33,7 +33,7 @@ Perform the following steps to use the conversational search to find appropriate
 
     >[!NOTE]
     >
-    > In the [global or folder-level profiles](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant), your administrator needs to define the default questions that appear in the panel. 
+    > In the [global or folder-level profiles](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant), your administrator needs to define the default questions that appear in the panel. 
 
   1. Type the question to find the related content in the Experience Manager Guides documentation. You can select the default question in the panel or type your question in the text box.
 

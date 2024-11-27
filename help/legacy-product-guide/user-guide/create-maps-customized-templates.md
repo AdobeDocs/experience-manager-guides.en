@@ -96,7 +96,7 @@ Based on your setup learn how to configure custom DITA template folder path:
 <details>
     <summary> On-premise  Software</summary>
      
-Learn how to [configure custom DITA template folder path](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in the  On-premise Installation and Configuration Guide.
+Learn how to [configure custom DITA template folder path](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in the  On-premise Installation and Configuration Guide.
      </details>
 
 ## Pass on the title defined in the templates

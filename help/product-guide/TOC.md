@@ -114,6 +114,11 @@ breadcrumb-title: AEM Guides Documentation
     - [Upload files](./user-guide/authoring-upload-existing-files.md)
     - [Manage files and folders](./user-guide/authoring-file-management.md)
     - [Download files](./user-guide/authoring-download-assets.md)
+  - Workfront Integration {#workfront-integration}
+    - [Overview]
+    - [Key features]
+    - [Create tasks]
+    - [Manage tasks]
   - Author Content {#author-content}
     - [Authoring overview](./user-guide/authoring-content.md)
     - Topic creation and preview {#create-preview-topics}
