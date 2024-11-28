@@ -155,7 +155,7 @@ To configure the page names, perform the following steps:
 For example, if the *@navtitle* in `<topichead>` has all special characters and you set the `aemsite.pagetitle` property to true, then by default, it uses a separator. If you set the `nodename.systemDefinedPageName` property to true, it shows the first child topic’s name.
 
 
-### Configure filename sanitization rules for creating topics and publishing AEM Site output {#id2164D0KD0XA}
+### Configure filename sanitization rules for creating topics and publishing output in AEM Sites and other formats {#id2164D0KD0XA}
 
 As an administrator, you can define a list of valid special characters allowed in filenames, which eventually form the URL of an AEM Site output. In earlier releases, users were allowed to define filenames containing special characters such as `@`, `$`, `>`, and more. These special characters resulted in encoded URL on generation of AEM Site pages.
 
@@ -172,6 +172,10 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |PID|Property Key|Property Value|
 |---|------------|--------------|
 |`com.adobe.fmdita.common.SanitizeNodeNameImpl`|`aemsite.DisallowedFileNameChars`|Ensure that the property is set to ``'<>`@$``. You can add more special characters to this list.|
+
+> [!NOTE]
+> 
+> The above configuration applies to all output formats. This means that when generating a PDF, HTML, or custom output, the final output will follow the configured filename sanitization rules.
 
 You can also configure the other properties such as use lower case in filenames, separator to handle invalid characters, and maximum number of characters allowed in the filenames. To configure these properties, add the following key value pairs in the configuration file:
 
