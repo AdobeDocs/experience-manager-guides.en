@@ -65,7 +65,7 @@ Do one of the following:
     >
     > You view a warning if you select another preset or close the preset without saving it. 
 
-Once you create a condition preset, it appears under the **Condition Presets** dropdown of the Output presets. Learn more about how to [Publish PDF output](../web-editor/native-pdf-web-editor.md). 
+Once you create a condition preset, it appears under the **Condition Presets** dropdown of the Output presets. Learn more about how to [Publish PDF output](/help/product-guide/web-editor/native-pdf-web-editor.md). 
 
 ### Rename a condition preset
 

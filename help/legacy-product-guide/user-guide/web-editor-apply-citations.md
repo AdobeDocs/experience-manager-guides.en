@@ -251,10 +251,10 @@ Once you have inserted citations in the topic, you can publish content with cita
 
 In the Native PDF output, the citations appear within the content where you have inserted them. You can also create a Bibliography page. When you click any citation, you are redirected to the bibliography page.
 
-Create a **Citations** page layout in the PDF templates, and include it in your document. All the citations used in the book get listed on one page that appears in the PDF output. To learn more about creating a page layout, view [Create a page layout](../native-pdf/components-pdf-template.md#create-page-layout).
+Create a **Citations** page layout in the PDF templates, and include it in your document. All the citations used in the book get listed on one page that appears in the PDF output. To learn more about creating a page layout, view [Create a page layout](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
-To change the view and feel of the citation page, view [Customize PDF templates](../native-pdf/pdf-template.md).
+To change the view and feel of the citation page, view [Customize PDF templates](/help/product-guide/native-pdf/pdf-template.md).
 
 
 
@@ -266,4 +266,4 @@ Apply formatting to the citation when added to the topic.
 
 1. In the Search panel, search for `<cite>`.
 
-To learn more about styles, view [Work with the common content styles](../native-pdf/stylesheet.md).
+To learn more about styles, view [Work with the common content styles](/help/product-guide/native-pdf/stylesheet.md).
