@@ -20,18 +20,18 @@ Based on your setup your administrator can configure a data source connector:
 <summary> Cloud Services </summary> 
 
 
-- If you're using the October 2023 release or later, learn how to [configure a data source connector from the user interface](../cs-install-guide/conf-data-source-connector-tools.md) in the Cloud Services Installation and Configuration Guide.
+- If you're using the October 2023 release or later, learn how to [configure a data source connector from the user interface](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) in the Cloud Services Installation and Configuration Guide.
 
-- If you're using the July 2023 or September 2023 release, learn how to [configure a data source connector](../cs-install-guide/conf-data-source-connector.md) in the Cloud Services Installation and Configuration Guide.
+- If you're using the July 2023 or September 2023 release, learn how to [configure a data source connector](/help/product-guide/cs-install-guide/conf-data-source-connector.md) in the Cloud Services Installation and Configuration Guide.
 
 </details>
 
 <details>    
 <summary>  On-premise Software </summary>
 
-- If you're using the 4.3.1 release or later, learn how to [configure a data source connector from the user interface](../cs-install-guide/conf-data-source-connector-tools.md) in the On-premise Installation and Configuration Guide.
+- If you're using the 4.3.1 release or later, learn how to [configure a data source connector from the user interface](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) in the On-premise Installation and Configuration Guide.
 
-- If you're using the 4.3 release, learn how to [configure a data source connector](../cs-install-guide/conf-data-source-connector.md) in the On-premise Installation and Configuration Guide.
+- If you're using the 4.3 release, learn how to [configure a data source connector](/help/product-guide/cs-install-guide/conf-data-source-connector.md) in the On-premise Installation and Configuration Guide.
 </details>
 
 

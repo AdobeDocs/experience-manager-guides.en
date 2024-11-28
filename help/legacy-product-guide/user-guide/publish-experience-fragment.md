@@ -54,7 +54,7 @@ To generate an Experience Fragment, perform the following steps:
 
       
 
-        Your administrator can add the mappings in the *experienceFragmentMapping.json* file.  Learn more about how to [create a mapping between a topic and an Experience Fragment](../cs-install-guide/conf-experience-fragment-mapping-cs.md) in the Installation and Configuration Guide.
+        Your administrator can add the mappings in the *experienceFragmentMapping.json* file.  Learn more about how to [create a mapping between a topic and an Experience Fragment](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) in the Installation and Configuration Guide.
 
     * You can also select different conditions to publish the content.  Select one of the following options:
 

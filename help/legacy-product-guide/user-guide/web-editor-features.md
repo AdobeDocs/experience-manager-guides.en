@@ -599,7 +599,7 @@ If you are in the Map View and you expand the parent map, you can check out all 
  
 The tooltip for Check in/Check out is determined by the title property in the `ui_config.json` file.
 
-For more details, view [Configure the title for Check in and Check out icons](../install-guide/conf-checkin-checkout-title.md) in the On-premise Installation and configuration Guide.
+For more details, view [Configure the title for Check in and Check out icons](/help/product-guide/install-guide/conf-checkin-checkout-title.md) in the On-premise Installation and configuration Guide.
 
 
 **Toggle Tags View** - ![](images/Label_icon.svg)
@@ -1136,7 +1136,7 @@ The various options in the Options menu are explained below:
 
     >[!NOTE] 
     >
-    >Contact your customer success team to get this feature enabled in the environment. This isn't enabled as a part of the out-of-the-box support. For more details, view the [Configure the option to edit in Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) section in the Installation and Configuration Guide.
+    >Contact your customer success team to get this feature enabled in the environment. This isn't enabled as a part of the out-of-the-box support. For more details, view the [Configure the option to edit in Oxygen ](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) section in the Installation and Configuration Guide.
  
 
 - **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view.

@@ -25,7 +25,7 @@ In the Web editor, the following configurations have been organized under the **
 | --- | --- |
 | Apply conditions using | Select one of the following options:<br><br>* **None applied**: Select this option if you don't want to apply any condition on the published output.<br>* **DITAVAL file**: Select DITAVAL file(s) to generate personalized content. You can select multiple DITAVAL files using the browse dialog or by typing the file path. Use the cross icon near the file name to remove it. DITAVAL files are evaluated in the order specified, so the conditions specified in the first file take precedence over the matching conditions specified in later files. You can maintain the file order by adding or deleting files. If the DITAVAL file is moved to another location or deleted, it's not automatically deleted from the preset. You need to update the location in case files are moved or deleted. You can hover over the file name to view the path in the Adobe Experience Manager repository where the file is stored. You can only select DITAVAL files, and an error is displayed if you select any other file type.<br>* **Condition preset**: Select a condition preset from the dropdown to apply a condition while publishing the output. The option is visible if you have added a condition present in the Condition Presets tab of the DITA map console. To know more about condition presets, view [Use condition presets](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Use Baseline | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.<br><br>View [Work with Baseline](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) for more details. |
-| Post Generation Workflow | When you choose this option, a new Post Generation Workflow drop-down list containing all workflows configured in Adobe Experience Manager is displayed. You must select a workflow you want to execute after the output generation is complete.<br><br>**Note**: Learn more about how to [customize post-output generation workflow](../cs-install-guide/customize-workflows.md#id17A6GI004Y4) section in the Installation and Configuration Guide for Cloud Services. |
+| Post Generation Workflow | When you choose this option, a new Post Generation Workflow drop-down list containing all workflows configured in Adobe Experience Manager is displayed. You must select a workflow you want to execute after the output generation is complete.<br><br>**Note**: Learn more about how to [customize post-output generation workflow](/help/product-guide/cs-install-guide/customize-workflows.md#id17A6GI004Y4) section in the Installation and Configuration Guide for Cloud Services. |
 
 ### ServiceNow
 
@@ -58,7 +58,7 @@ You can also view the following options in the Salesforce and ServiceNow presets
 
 >[!NOTE]
 >
->You can use Adobe Experience Manager Knowledge Base preset if your administrator has configured it. For more details, view [Article-based publishing from the Web Editor](../install-guide/configure-article-based-publishing.md) section in the Installation and Configuration Guide.
+>You can use Adobe Experience Manager Knowledge Base preset if your administrator has configured it. For more details, view [Article-based publishing from the Web Editor](/help/product-guide/install-guide/configure-article-based-publishing.md) section in the Installation and Configuration Guide.
 
 | Adobe Experience Manager options | Description |
 | --- | --- |
@@ -67,7 +67,7 @@ You can also view the following options in the Salesforce and ServiceNow presets
 |Site| Use this field to select the required Adobe Experience Manager Knowledge Base. You can configure knowledge bases in the Adobe Experience Manager site to store the content based on the permissions. The articles from this DITA map can be published to these knowledge bases.  |
 |Category| Select a category from the dropdown to publish the topics of the TOC  in that category on the Adobe Expereince Manager site. |
 |Section Template and Article Template| These are the structural components used to organize the content of your output. These are predefined in the Adobe Experience Manager Site template. |
-| Post Generation Workflow | When you choose this option, a new Post Generation Workflow dropdown list containing all workflows configured in Adobe Experience Manager  is displayed . You must select a workflow that you want to execute after completion of the output generation workflow.<br>Learn more about how to [customize post-output generation workflow](../install-guide/customize-workflows.md#id17A6GI004Y4) section in the Installation and Configuration Guide. |
+| Post Generation Workflow | When you choose this option, a new Post Generation Workflow dropdown list containing all workflows configured in Adobe Experience Manager  is displayed . You must select a workflow that you want to execute after completion of the output generation workflow.<br>Learn more about how to [customize post-output generation workflow](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4) section in the Installation and Configuration Guide. |
 
 >[!TIP]
 > 

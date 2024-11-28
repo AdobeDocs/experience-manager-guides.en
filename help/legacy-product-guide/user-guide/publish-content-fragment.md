@@ -68,7 +68,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
     
         >[!NOTE]    
         >
-        > If you are using 4.4 or earlier versions, select a mapping from the drop-down. It picks the mappings from the *contentFragmentMapping.json* file.  Your administrator can add the mappings in the *contentFragmentMapping.json* file. Learn more about how to [create a mapping between a topic and a Content Fragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) in the Installation and Configuration Guide. 
+        > If you are using 4.4 or earlier versions, select a mapping from the drop-down. It picks the mappings from the *contentFragmentMapping.json* file.  Your administrator can add the mappings in the *contentFragmentMapping.json* file. Learn more about how to [create a mapping between a topic and a Content Fragment](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md) in the Installation and Configuration Guide. 
 
 1. Click **Generate** to publish the Content Fragment.
 
@@ -104,4 +104,4 @@ You can also perform the following actions for a Content Fragment from the **Opt
  
 The new UUID content migration script has been significantly optimized, making the content migration from Non-UUID to UUID 30 times faster than the earlier script. It includes features such as resuming from checkpoints, live insights, estimated completion time, and detailed reporting, ensuring a harmonious migration process. Notably, the migration process preserves asset metadata without any changes. The script has been tested and verified on a large dataset of 3 million assets, confirming its efficiency and reliability for large-scale migrations.
 
-Learn more about [Non-UUID to UUID content migration](../install-guide/migrate-non-uuid-uuid.md).
+Learn more about [Non-UUID to UUID content migration](/help/product-guide/install-guide/migrate-non-uuid-uuid.md).
