@@ -49,7 +49,9 @@ To create a review task and send topics for review, perform the following steps:
 
     ![](images/create-review-task-023.png){width="650" align="left"}
 
-1.  Enter a **Title** for the task and select a DITA **Project** from the drop-down list.
+1.  Enter a **Title** for the task and select a DITA Project. 
+
+1.  In the **Project** drop-down field, select a DITA project for this review task. You can also type the project name to quickly locate it in the drop-down list.
 
 1.  In the **Assign To** drop-down field, select the reviewers to whom you want to send the topics for review.
 
@@ -170,7 +172,9 @@ To send one or multiple topics along with the map file for review, perform the f
 
 1.  In the toolbar, click **Create Review Task**. The review task creation page is displayed.
 
-1.  Enter a **Title** for the task and select a DITA **Project** from the drop-down list.
+1.  Enter a **Title** for the task.
+
+1. In the **Project** drop-down field, select a DITA project for this review task. You can also type the project name to quickly locate it in the drop-down list.
 
     >[!NOTE]
     >
