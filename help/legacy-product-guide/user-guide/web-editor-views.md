@@ -3,6 +3,7 @@ title: Web Editor views
 description: View documents in author, source, and preview mode. Learn how to view content based on conditional filters, view the track changes markups, and export a topic as PDF in AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
+exl-id: dbc27856-6903-4694-9875-77dc778c80bd
 ---
 # Web Editor views {#id204GK0D0V5Z}
 

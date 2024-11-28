@@ -3,6 +3,7 @@ title: Launch the Web Editor
 description: Learn how to launch the web editor from the AEM Navigation Page, AEM Assets UI, and DITA map Console in AEM Guides.
 feature: Authoring, Web Editor
 role: User
+exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
 ---
 # Launch the Web Editor {#id2056B0140HS}
 

@@ -1,8 +1,9 @@
 ---
 title: Manage review tasks using the Review Dashboard
 description: Manage review tasks from the Review Dashboard in AEM Guides. Learn the perform actions under the task, content, reviewers tab and check the status of a review task.
-feature: Reviewing 
+feature: Reviewing
 role: User
+exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
 ---
 # Manage review tasks using the Review Dashboard {#id2056B0Y70X4}
 

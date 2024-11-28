@@ -3,6 +3,7 @@ title: Smart Tagging
 description: Learn how to add smart tags in AEM Guides. Use XML Keyword Extract tool to extract relevant keywords.
 feature: Metadata Management
 role: User
+exl-id: dd5b2648-37e1-4737-bd9d-8618f735d11f
 ---
 # Smart Tagging {#id216KH0ID0Y8}
 

@@ -3,6 +3,7 @@ title: Use condition presets
 description: Know the use of condition presets in AEM Guides. Learn to create, edit, copy, and delete condition presets in AEM.
 feature: Publishing
 role: User
+exl-id: 991179c7-186e-4b23-b918-248f596644ec
 ---
 # Use condition presets {#id1825FL004PN}
 

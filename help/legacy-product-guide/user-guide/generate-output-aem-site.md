@@ -3,6 +3,7 @@ title: AEM Sites
 description: Create and configure AEM site preset in AEM Guides. Use AEM site support to generate article-based output, output linking topics, publish conref, and search a string within the content.
 feature: Publishing
 role: User
+exl-id: b8e49fd3-1f98-471f-b285-572fd07df33a
 ---
 # AEM Sites {#id205BE3008SW}
 

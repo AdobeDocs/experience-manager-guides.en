@@ -3,6 +3,7 @@ title: Other features in the Web Editor
 description: Explore other features of the web editor in AEM Guides. Learn how to use these features for improved authoring in AEM Guides.
 feature: Authoring, Web Editor
 role: User
+exl-id: 7639fa76-b319-44b5-9ff8-2b8c1a716b7b
 ---
 # Other features in the Web Editor {#id2056B0B0YPF}
 

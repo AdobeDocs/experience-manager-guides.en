@@ -1,8 +1,9 @@
 ---
 title: Create a DITA project
 description: Create a DITA project using a template in AEM Guides. Learn how to use a DITA project to initiate the reviews.
-feature: Reviewing 
+feature: Reviewing
 role: User
+exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
 ---
 # Create a DITA project {#id1645HA00NM6}
 
