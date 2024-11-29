@@ -173,7 +173,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |---|------------|--------------|
 |`com.adobe.fmdita.common.SanitizeNodeNameImpl`|`aemsite.DisallowedFileNameChars`|Ensure that the property is set to ``'<>`@$``. You can add more special characters to this list.|
 
-> [!NOTE]
+>[!NOTE]
 > 
 > The above configuration applies to all output formats. This means that when generating a PDF, HTML, or custom output, the final output will follow the configured filename sanitization rules.
 
