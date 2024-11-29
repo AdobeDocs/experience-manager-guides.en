@@ -34,7 +34,7 @@ Perform the following steps to create the AEM Sites presets from the Web Editor:
 >[!NOTE]
 >
 >Before configuring the AEM Sites presets for Experience Manager Guides, your administrator needs to create an AEM Sites structure using the templates. 
-- **On-premise Software**: Learn more about how to [download and install AEM Sites templates](../install-guide/download-install-aem-sites-templates.md) for On-premise Software.
+- **On-premise Software**: Learn more about how to [download and install AEM Sites templates](/help/product-guide/install-guide/download-install-aem-sites-templates.md) for On-premise Software.
 - **Cloud Service**: Learn more about how to [download and install AEM Sites templates](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) for Cloud Service.
 
 
@@ -134,7 +134,7 @@ The following options are available for the AEM Sites output:
 Experience Manager Guides allows you to use the out of the box templates or add your own AEM Sites templates.
 
 Before configuring the AEM Sites presets, ensure to create an AEM Sites structure using the templates.  
-For more details, view [Download and install AEM Sites templates](../install-guide/download-install-aem-sites-templates.md).
+For more details, view [Download and install AEM Sites templates](/help/product-guide/install-guide/download-install-aem-sites-templates.md).
 
 
 
