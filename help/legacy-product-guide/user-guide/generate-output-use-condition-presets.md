@@ -3,6 +3,7 @@ title: Use condition presets
 description: Know the use of condition presets in AEM Guides. Learn to create, edit, copy, and delete condition presets in AEM.
 feature: Publishing
 role: User
+exl-id: 991179c7-186e-4b23-b918-248f596644ec
 ---
 # Use condition presets {#id1825FL004PN}
 
@@ -65,7 +66,7 @@ Do one of the following:
     >
     > You view a warning if you select another preset or close the preset without saving it. 
 
-Once you create a condition preset, it appears under the **Condition Presets** dropdown of the Output presets. Learn more about how to [Publish PDF output](../web-editor/native-pdf-web-editor.md). 
+Once you create a condition preset, it appears under the **Condition Presets** dropdown of the Output presets. Learn more about how to [Publish PDF output](/help/product-guide/web-editor/native-pdf-web-editor.md). 
 
 ### Rename a condition preset
 

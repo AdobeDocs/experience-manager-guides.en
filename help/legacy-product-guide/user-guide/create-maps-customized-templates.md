@@ -3,6 +3,7 @@ title: Create maps based on customized templates
 description: Learn to create a customizes template, use them to create new map files, and pass on the defined title to a DITA map in AEM Guides.
 feature: Authoring, Map Editor
 role: User
+exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
 ---
 # Create maps based on customized templates {#id225VF0808MP}
 
@@ -90,7 +91,7 @@ Based on your setup learn how to configure custom DITA template folder path:
 <details>
     <summary> Cloud Services </summary>
 
- Learn how to [configure custom DITA template folder path](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in the  Cloud Services Installation and Configuration Guide. 
+ Learn how to [configure custom DITA template folder path](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in the  Cloud Services Installation and Configuration Guide. 
  </details>
 
 <details>

@@ -3,6 +3,7 @@ title: Edit topics in the Web Editor
 description: Learn to edit topics in the web editor. Know about various editing features to modify your topic files in AEM Guides.
 feature: Authoring, Web Editor
 role: User
+exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
 ---
 # Edit topics in the Web Editor {#id2056B040VUI}
 

@@ -3,6 +3,7 @@ title: Publish a topic to a Content Fragment
 description: Publish a topic or the elements within a topic to a Content Fragment in AEM Guides.  Learn how to view the Content Fragments present for a topic and republish them.
 feature: Publishing
 role: User
+exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
 ---
 # Publish Content Fragments
 
@@ -104,4 +105,4 @@ You can also perform the following actions for a Content Fragment from the **Opt
  
 The new UUID content migration script has been significantly optimized, making the content migration from Non-UUID to UUID 30 times faster than the earlier script. It includes features such as resuming from checkpoints, live insights, estimated completion time, and detailed reporting, ensuring a harmonious migration process. Notably, the migration process preserves asset metadata without any changes. The script has been tested and verified on a large dataset of 3 million assets, confirming its efficiency and reliability for large-scale migrations.
 
-Learn more about [Non-UUID to UUID content migration](../install-guide/migrate-non-uuid-uuid.md).
+Learn more about [Non-UUID to UUID content migration](/help/product-guide/install-guide/migrate-non-uuid-uuid.md).

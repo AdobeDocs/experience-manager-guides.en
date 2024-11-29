@@ -3,6 +3,7 @@ title: Use Map Collection for output generation
 description: Learn how to create and delete a map collection and add or delete a DITA map. Configure, generate and cancel an output generation task from a map collection in AEM Guides.
 feature: Publishing
 role: User
+exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
 ---
 # Use Map Collection for output generation {#id1723F20G0HS}
 

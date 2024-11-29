@@ -3,6 +3,7 @@ title: Know the Web Editor features
 description: Discover features of the web editor in AEM Guides. Know the web editor's interface, including the main toolbar, secondary toolbar, left panel, content editing area, and right panel.
 feature: Authoring, Features of Web Editor
 role: User
+exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
 ---
 # Know the Web Editor features {#id176NC500V5Z}
 
@@ -599,7 +600,7 @@ If you are in the Map View and you expand the parent map, you can check out all 
  
 The tooltip for Check in/Check out is determined by the title property in the `ui_config.json` file.
 
-For more details, view [Configure the title for Check in and Check out icons](../install-guide/conf-checkin-checkout-title.md) in the On-premise Installation and configuration Guide.
+For more details, view [Configure the title for Check in and Check out icons](/help/product-guide/install-guide/conf-checkin-checkout-title.md) in the On-premise Installation and configuration Guide.
 
 
 **Toggle Tags View** - ![](images/Label_icon.svg)

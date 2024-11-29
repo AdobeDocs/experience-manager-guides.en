@@ -3,6 +3,7 @@ title: JSON
 description: Learn how to create JSON preset from the web editor and the map dashboard. Configure JSON output preset in AEM Guides.
 feature: Publishing
 role: User
+exl-id: dbc082e9-e75e-414d-a1d1-41f919b345af
 ---
 # JSON {#id231KK0180T4}
 

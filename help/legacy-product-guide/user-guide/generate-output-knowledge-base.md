@@ -3,6 +3,7 @@ title: Knowledge Base
 description: Learn how to create Knowledge Base preset from the web editor and the map dashboard. Configure Knowledge Base output preset in AEM Guides.
 feature: Publishing
 role: User
+exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
 ---
 # Knowledge Base {#knowledge-base}
 
@@ -58,7 +59,7 @@ You can also view the following options in the Salesforce and ServiceNow presets
 
 >[!NOTE]
 >
->You can use Adobe Experience Manager Knowledge Base preset if your administrator has configured it. For more details, view [Article-based publishing from the Web Editor](../install-guide/configure-article-based-publishing.md) section in the Installation and Configuration Guide.
+>You can use Adobe Experience Manager Knowledge Base preset if your administrator has configured it. For more details, view [Article-based publishing from the Web Editor](/help/product-guide/install-guide/configure-article-based-publishing.md) section in the Installation and Configuration Guide.
 
 | Adobe Experience Manager options | Description |
 | --- | --- |
@@ -67,7 +68,7 @@ You can also view the following options in the Salesforce and ServiceNow presets
 |Site| Use this field to select the required Adobe Experience Manager Knowledge Base. You can configure knowledge bases in the Adobe Experience Manager site to store the content based on the permissions. The articles from this DITA map can be published to these knowledge bases.  |
 |Category| Select a category from the dropdown to publish the topics of the TOC  in that category on the Adobe Expereince Manager site. |
 |Section Template and Article Template| These are the structural components used to organize the content of your output. These are predefined in the Adobe Experience Manager Site template. |
-| Post Generation Workflow | When you choose this option, a new Post Generation Workflow dropdown list containing all workflows configured in Adobe Experience Manager  is displayed . You must select a workflow that you want to execute after completion of the output generation workflow.<br>Learn more about how to [customize post-output generation workflow](../install-guide/customize-workflows.md#id17A6GI004Y4) section in the Installation and Configuration Guide. |
+| Post Generation Workflow | When you choose this option, a new Post Generation Workflow dropdown list containing all workflows configured in Adobe Experience Manager  is displayed . You must select a workflow that you want to execute after completion of the output generation workflow.<br>Learn more about how to [customize post-output generation workflow](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4) section in the Installation and Configuration Guide. |
 
 >[!TIP]
 > 
