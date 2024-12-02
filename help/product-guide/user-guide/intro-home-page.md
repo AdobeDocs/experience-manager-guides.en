@@ -93,7 +93,7 @@ The Overview layer acts like a personalized dashboard and provides you quick acc
 
     The **New collection** drop-down menu allows you to create a new collection and add it to the **Collections** widget.
 
-> [!NOTE]
+>[!NOTE]
 >
 > The widgets also provide you with options to sort and resize columns for a customized view. To view these options, click on the column header and the options would display in a list.  
 

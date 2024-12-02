@@ -26,7 +26,8 @@ Perform the following steps to create the AEM Sites presets from the Web Editor:
 1. Select **AEM Sites** from the **Type** drop-down in the **New output preset** dialog box.
 1. Deselect the **Use legacy component mapping** option from the **New output preset** dialog box.
 
-![New ](images/new-aem-sites-dialog-box.png)
+![New ](images/new-aem-sites-dialog-box.png) 
+{width="800" align="left"}
 
 
 
@@ -57,7 +58,8 @@ Some options may differ for the presets that use legacy component mapping.
 
 The configurations are organized under the **General**, **Content**, **Topic list**, and **Cross map references** tabs.
 
-![aem sites preset settings](images/aem-sites-new-config.png)
+![aem sites preset settings](images/aem-sites-new-config.png){width="800" align="left"}
+
 **General**
 
 The **General** tab contains the following configurations related to generating outputs:
@@ -95,7 +97,7 @@ For details, refer to [AEM Sites configuration](#aem_sites_config).
 
 The **Topic list** tab is displayed when AEM Sites presets are created without using the **Legacy component mapping** option. It displays the list of topics present in the current working copy of the DITA map. By default, all topics are included. You can select specific topics and generate the AEM Sites output only for them. For example, you have updated some topics so you can publish only those topics instead of publish the entire DITA map.
 
-![aem sites topic list](images/aem-presets-topic-list.png)
+![aem sites topic list](images/aem-presets-topic-list.png) {width="800" align="left"}
 
 When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline. However, this feature of using a Baseline for incremental output generation is available for only New AEM Sites publishing.
 
