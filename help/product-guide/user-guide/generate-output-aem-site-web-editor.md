@@ -93,13 +93,11 @@ For details, refer to [AEM Sites configuration](#aem_sites_config).
 
 **Topic List**
 
-The **Topic List** displays the list of topics present in the current working copy of the DITA map. By default, all topics are included. You can select specific topics and generate the AEM Sites output only for them. For example, you have updated some topics so you can publish only those topics instead of publish the entire DITA map.
+The **Topic list** tab is displayed when AEM Sites presets are created without using the **Legacy component mapping** option. It displays the list of topics present in the current working copy of the DITA map. By default, all topics are included. You can select specific topics and generate the AEM Sites output only for them. For example, you have updated some topics so you can publish only those topics instead of publish the entire DITA map.
 
-If a Baseline is created for the selected DITA map, it can be used to generate incremental AEM Sites output. To view the Baseline topics in the **Topic List**, create a new AEM Sites preset that is not based on legacy mapping and enable the **Baseline** option in the **Content** dialog box.
+![aem sites topic list](images/aem-presets-topic-list.png)
 
- >[!NOTE]
- >
- > The **Topic List** tab is present in the AEM presets that are not created based on legacy mapping. 
+When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline. However, this feature of using a Baseline for incremental output generation is available for only New AEM Sites publishing.
 
 **Cross-map references**
 This list contains topics containing cross-map references with `scope =”peer”`. You can specify the publishing context for a list of cross map references with `scope=”peer”` to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version.
