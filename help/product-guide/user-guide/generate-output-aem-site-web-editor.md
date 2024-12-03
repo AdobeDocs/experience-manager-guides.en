@@ -26,8 +26,7 @@ Perform the following steps to create the AEM Sites presets from the Web Editor:
 1. Select **AEM Sites** from the **Type** drop-down in the **New output preset** dialog box.
 1. Deselect the **Use legacy component mapping** option from the **New output preset** dialog box.
 
-    ![New ](images/new-aem-sites-dialog-box.png) 
-    width="800" align="left"}
+    ![New ](images/new-aem-sites-dialog-box.png){width="800" align="left"}
 
 
 
