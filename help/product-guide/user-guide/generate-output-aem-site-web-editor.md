@@ -103,6 +103,7 @@ The **Topic list** tab is displayed when AEM Sites presets are created without u
 > When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline.
 
 **Cross-map references**
+
 This list contains topics containing cross-map references with `scope =”peer”`. You can specify the publishing context for a list of cross map references with `scope=”peer”` to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version.
 
 
