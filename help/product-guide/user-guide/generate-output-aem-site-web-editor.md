@@ -26,8 +26,8 @@ Perform the following steps to create the AEM Sites presets from the Web Editor:
 1. Select **AEM Sites** from the **Type** drop-down in the **New output preset** dialog box.
 1. Deselect the **Use legacy component mapping** option from the **New output preset** dialog box.
 
-![New ](images/new-aem-sites-dialog-box.png) 
-{width="800" align="left"}
+    ![New ](images/new-aem-sites-dialog-box.png) 
+    width="800" align="left"}
 
 
 
@@ -99,7 +99,9 @@ The **Topic list** tab is displayed when AEM Sites presets are created without u
 
 ![aem sites topic list](images/aem-presets-topic-list.png) {width="800" align="left"}
 
-When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline. However, this feature of using a Baseline for incremental output generation is available for only New AEM Sites publishing.
+>[!NOTE] 
+>
+> When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline.
 
 **Cross-map references**
 This list contains topics containing cross-map references with `scope =”peer”`. You can specify the publishing context for a list of cross map references with `scope=”peer”` to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version.

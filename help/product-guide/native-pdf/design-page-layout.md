@@ -360,7 +360,7 @@ There are the following categories for fields that you can insert in your page l
 Each of these field categories contain different variations in which the field information can be inserted. For example, a Date field can have different variations such as `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` and so on. Similarly, Page Number can have variations in the form of roman, decimal, or even locale-specific formats such as _Arabic_, _Devanagari_, _Hebrew_, and more.
 
 
-In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA **Map content**,  or it can be picked from the DITA **Map file properties**, **Topic file properties**, or **Topic content properties** and easily inserted into your page layout.
+In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata can be stored in your source DITA **Map content**, **Topic content**, or can be picked from the DITA **Map file properties**, **Topic file properties**. 
 
 You can select the metadata from the following options:
 
