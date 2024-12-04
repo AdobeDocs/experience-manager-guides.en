@@ -24,7 +24,7 @@ The header bar is the top-bar of the Home page that displays the Adobe Experienc
 
 ## Navigation bar 
 
-The navigation bar surfaces tools to switch navigation, customize the overview layout, and expand or minimize the workspace view. It also displays the Experience Manager Guides profile that is currently being used.
+The navigation bar surfaces tools to switch navigation, customize the overview layout, and adjust the page view. It also displays the Experience Manager Guides profile that is currently being used.
 
 ![](images/aem-home-nav-bar.png){width="800" align="left"}
 
@@ -35,13 +35,13 @@ Features available in the navigation bar are explained as follows:
    - **Editor**: An easy-to-use web-based Editor that allows you to create and manage structured documents in AEM Guides. [Get to know the Editor interface.](./web-editor.md) 
    - **Map console**: Provides you a dedicated workspace to handle all aspects of map management and publishing.   
  - **AI Assistant**: [AI-powered Smart Help](./ai-based-smart-help.md) feature that helps you find relevant content from the Adobe Experience Manager Guides Documentation. 
- - **Customize overview section**: Allows you to hide or show the widgets in the Overview layer. 
+ - **Customize overview section**: Allows you to hide or show the widgets in the Widget section. 
  - **Profile in use**: Displays the Experience Manager Guides profile that is currently being used.  
- - **Expand view**: Allows you to expand the page view by selecting the **Expand** icon. In this view, the Top-header is hidden, maximizing the content space. To return to the standard view, select the **Exit the expanded view** icon. 
+ - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the Top-header is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
 
 ## Left panel 
 
-The left panel gives you access to the various sections available in the Experience Manager Guides, including Overview, Map collections, Bulk publish, Publish queue, and User preferences. You can expand or collapse it by selecting the Expand Sidebar icon placed at the bottom-left corner of the interface. 
+The left panel gives you quick access to Overview, Map collections, Bulk publish, Publish queue, and User preferences features. You can expand the panel by selecting the **Expand** icon placed at the bottom-left corner of the interface. Once expanded, use the **Collapse** icon to collapse the panel.
 
 ![](images/aem-home-left-panel.png){width="800" align="left"}
 
@@ -83,7 +83,7 @@ Features available in the left panel are explained as follows:
 
  - **Collections**: If you work on a set of files or folders, you can add them to this widget to access them quickly. Once added, you can view the files by Titles along with other key details about the Owner and Created On dates. As you click on the column dropdown, you can view the options to sort and resize the column.  
 
-   The Collectios widget also displays the collection's breadcrumb at the top of the widget. You can click on it to go back to a specific folder within the hierachy. 
+   The selected collection's breadcrumb are displayed at the top of the Collection widget. You can click on it to go back to a specific folder within the hierachy. 
 
     The following options are available when you hover over a collection:
      - **Rename**: Allows you to rename the selected collection.  
@@ -103,7 +103,7 @@ Features available in the left panel are explained as follows:
 
 >[!NOTE]
 >
-> The widgets also provide you with options to sort and resize columns for a customized view. To view these options, click on the column header and the options would display in a list.  
+> The widgets in the Widget section also provide you with options to sort and resize columns for a customized view. To view these options, click on the column header and the options would display in a list.  
 
 ### Map collections 
 
