@@ -67,7 +67,12 @@ Features available in the left panel are explained as follows:
 
 ### Overview 
 
-**Overview** acts like a personalized dashboard designed to enhance productivity. It features a Widget section where the following widgets are displayed: 
+**Overview** acts like a personalized dashboard designed to enhance productivity. It features different widgets that help you stay organized and focused. The area where these widgets are placed is the **Widget section**.
+
+The widgets also provide you with options to sort and resize columns for a customized view. To view these options, click on the column header and the options would display in a list.  
+
+
+The following widgets are present in the Widget section:
 
  - **Recent Files**: The widget provides you a snapshot of recently-opened files (a list of files that you accessed in the Editor) along with the key file details including Title, File name, File type, File path, and Accessed on dates. From [User Preferences](#user-preferences), you can set the maximum number of files that can be displayed in this widget. By default, this limit is set to **20**. 
 
@@ -76,10 +81,10 @@ Features available in the left panel are explained as follows:
    - **Open in editor**: Allows you to open the selected file in the Editor. You can also open it by selecting the file title. 
    - **Pin/unpin**: Allows you to pin one or more files to the Recent files widget. Pinned files are displayed at the top in widget list. To unpin a file, use the **Unpin** option.   
    - **Remove**: Allows you to remove the selected file from the Recent files widget. 
-
+   
     **Create new file from the New File drop-down menu**  
 
-    The **New file** drop-down menu allows you to create a topic or DITA map right from the **Recent files** widget section. On successful file creation, you will be redirected to the Editor interface where you can work upon the file. 
+    The **New file** drop-down menu allows you to create a topic or DITA map right from the **Recent files** widget. On successful file creation, you will be redirected to the Editor interface where you can work upon the file. 
 
  - **Collections**: If you work on a set of files or folders, you can add them to this widget to access them quickly. Once added, you can view the files by Titles along with other key details about the Owner and Created On dates. As you click on the column dropdown, you can view the options to sort and resize the column.  
 
@@ -103,7 +108,7 @@ Features available in the left panel are explained as follows:
 
 >[!NOTE]
 >
-> The widgets in the Widget section also provide you with options to sort and resize columns for a customized view. To view these options, click on the column header and the options would display in a list.  
+> In addition, if your administrator has configured Workfront integration in the system, then **Your tasks** widget is also shown in the Widget section. Learn about [working with Workfront Integration](./workfront-integration.md)
 
 ### Map collections 
 
