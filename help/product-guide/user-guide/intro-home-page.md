@@ -6,7 +6,7 @@ role: User
 ---
 # Adobe Experience Manager Guides Home page experience
 
-The Home page is the first thing that you see when logging into Experience Manager Guides. It provides you with a unified and intuitive welcome screen experience, which includes a quick view of recent files, collections, and more.
+The Home page is the first thing that you see when logging into Experience Manager Guides. It provides you with a unified and intuitive welcome screen experience, which includes a quick view of the files that you recently accessed, collections, and more.
 
 ![](images/aem-home-page.png){width="800" align="left"}
 
@@ -15,17 +15,16 @@ The Experience Manager Guides Home page is divided into the following sections:
  - Header bar 
  - Navigation bar 
  - Left panel 
- - Widget section  
 
 ## Header bar 
 
-The header bar is the top-bar of the Home page that displays the Adobe Experience Manager logo (or a Unified Shell if you are using the Unified Shell as your Experience Manager Guides UI).  
+The header bar is the top-bar of the Home page that displays the Adobe Experience Manager logo (or a Unified Shell if you are using the Unified Shell as your Experience Manager Guides UI). Select the logo to navigate to the Experience Manager Navigation page
 
 ![](images/aem-home-header.png){width="800" align="left"}
 
 ## Navigation bar 
 
-The navigation bar surfaces tools to switch navigation, customize the overview layout, and expand or minimize the workspace view. It also displays the Experience Manager Guides profile (Global Profile or Folder Profile) that is currently being used.
+The navigation bar surfaces tools to switch navigation, customize the overview layout, and expand or minimize the workspace view. It also displays the Experience Manager Guides profile that is currently being used.
 
 ![](images/aem-home-nav-bar.png){width="800" align="left"}
 
@@ -35,18 +34,25 @@ Features available in the navigation bar are explained as follows:
    - **Home**: The default view that you see when logging into Experience Manager Guides.
    - **Editor**: An easy-to-use web-based Editor that allows you to create and manage structured documents in AEM Guides. [Get to know the Editor interface.](./web-editor.md) 
    - **Map console**: Provides you a dedicated workspace to handle all aspects of map management and publishing.   
- - **AI Assistant**: An [AI Assistant tool](./ai-assistant-right-panel.md) that helps you make your authoring smarter and faster. 
+ - **AI Assistant**: [AI-powered Smart Help](./ai-based-smart-help.md) feature that helps you find relevant content from the Adobe Experience Manager Guides Documentation. 
  - **Customize overview section**: Allows you to hide or show the widgets in the Overview layer. 
- - **Profile in use**: Displays Global profile or Folder profile (name) that is currently being used.  
- - **Adjust view**: Allows you to expand or minimize the current workspace. Expanding the view hides the header bar, while minimizing it restores the header bar to its original position 
+ - **Profile in use**: Displays the Experience Manager Guides profile that is currently being used.  
+ - **Expand view**: Allows you to expand the page view by selecting the **Expand** icon. In this view, the Top-header is hidden, maximizing the content space. To return to the standard view, select the **Exit the expanded view** icon. 
 
 ## Left panel 
 
-The left panel is a persistent panel. You can expand or collapse it by selecting the Expand Sidebar icon placed at the bottom-left corner of the interface. 
+The left panel gives you access to the various sections available in the Experience Manager Guides, including Overview, Map collections, Bulk publish, Publish queue, and User preferences. You can expand or collapse it by selecting the Expand Sidebar icon placed at the bottom-left corner of the interface. 
 
 ![](images/aem-home-left-panel.png){width="800" align="left"}
 
-The left panel provides a quick access to the following: 
+What you view on this panel depends on your user role. The following table lists the roles and the respective sections that are displayed in the left panel.
+
+ - **Admin & Publisher**: The ability to view all the sections in the panel.
+ - **Author**: The ability to view all the sections except publishing. Author do not have access to Map collections, Publish queue, and Bulk publish section.
+ - **Reviewer**: The ability to view the Overview section only. Selecting the Overview section either displays a default empty state message or the Workfront tasks widget depending on whether Workfront is configured.  
+   
+
+Features available in the left panel are explained as follows: 
 
 - [Overview](#overview)
 - [Map Collections](#map-collections) 
@@ -61,21 +67,23 @@ The left panel provides a quick access to the following:
 
 ### Overview 
 
-The Overview layer acts like a personalized dashboard and provides you quick access to essential items for enhanced productivity. It features a Widget section where the following widgets are displayed: 
+**Overview** acts like a personalized dashboard designed to enhance productivity. It features a Widget section where the following widgets are displayed: 
 
- - **Recent Files**: The widget provides you a snapshot of recently-used files (a list of files that you accessed in the Editor) along with the key file details including Title, File name, File type, File path, and Accessed on dates. 
+ - **Recent Files**: The widget provides you a snapshot of recently-opened files (a list of files that you accessed in the Editor) along with the key file details including Title, File name, File type, File path, and Accessed on dates. From [User Preferences](#user-preferences), you can set the maximum number of files that can be displayed in this widget. By default, this limit is set to **20**. 
 
-    The following options are available when you hover over a file:  
+   The following options are available when you hover over a file:  
 
    - **Open in editor**: Allows you to open the selected file in the Editor. You can also open it by selecting the file title. 
-   - **Pin**: Allows you to pin the selected file in the widget 
+   - **Pin/unpin**: Allows you to pin one or more files to the Recent files widget. Pinned files are displayed at the top in widget list. To unpin a file, use the **Unpin** option.   
    - **Remove**: Allows you to remove the selected file from the Recent files widget. 
 
     **Create new file from the New File drop-down menu**  
 
-    The **New file** drop-down menu allows you to create a topic or DITA Map right from the **Recent files** widget section. On successful file creation, you will be redirected to the Editor interface where you can work upon the file. 
+    The **New file** drop-down menu allows you to create a topic or DITA map right from the **Recent files** widget section. On successful file creation, you will be redirected to the Editor interface where you can work upon the file. 
 
- - **Collections**: If you work on a set of files or folders, you can add them to this widget to access them quickly. Once added, you can view the files by Titles along with their respective Owner names and Created on dates.  As you click on the column dropdown, you can view the options to sort and resize the column.  
+ - **Collections**: If you work on a set of files or folders, you can add them to this widget to access them quickly. Once added, you can view the files by Titles along with other key details about the Owner and Created On dates. As you click on the column dropdown, you can view the options to sort and resize the column.  
+
+   The Collectios widget also displays the collection's breadcrumb at the top of the widget. You can click on it to go back to a specific folder within the hierachy. 
 
     The following options are available when you hover over a collection:
      - **Rename**: Allows you to rename the selected collection.  
@@ -83,7 +91,7 @@ The Overview layer acts like a personalized dashboard and provides you quick acc
      - **View in Assets UI**: Allows you to open the selected collection in the Assets UI. 
 
      You can open a collection by selecting the Collection title. The following options are available when you hover a Collection file:
-      - **Open in editor**: Allows you to open the selected file in the Editor. You can also open it by selecting the file title. 
+      - **Open in editor**: Allows you to open the selected file in the Editor. You can also open it by clicking the file title. 
       - **Open in map console**: Allows you to open the selected map file in the map console. (Available only for a DITA map file).
       - **Add to collections**: Allows you to add the selected file to a new or existing collection.
       - **Remove from collections**: Allows you to remove the selected file from the collections list.
@@ -99,17 +107,17 @@ The Overview layer acts like a personalized dashboard and provides you quick acc
 
 ### Map collections 
 
-Experience Manager Guides provides you the ability to organize your content for publishing by using a dashboard called **Map collections**. To use this feature, select **Map collections** from the Left panel. It takes you to the Map collections folder in the **Assets UI** where you can [use map collection for output generation.](./generate-output-use-map-collection-output-generation.md)  
+Experience Manager Guides provides you the ability to organize your content for publishing by using a dashboard called **Map collections**. To use this feature, select **Map collections** from the Left panel. It takes you to the Map collections page in the **Assets UI** where you can [use map collection for output generation.](./generate-output-use-map-collection-output-generation.md)  
 
 ### Bulk publish 
 
-The Bulk Activation feature allows you to quickly and easily activate your content from authoring to publishing instance. To use this feature, select **Bulk publish** from the Left panel. It takes you to the Bulk Activation Collections folder in the Assets UI where you can manage as well as [create a bulk activation map collection.](./conf-bulk-activation-publish-map-collection.md) 
+The Bulk Activation feature allows you to quickly and easily activate your content from authoring to publishing instance. To use this feature, select **Bulk publish** from the Left panel. It takes you to the Bulk Activation Collections page in the Assets UI where you can manage as well as [create a bulk activation map collection.](./conf-bulk-activation-publish-map-collection.md) 
 
 ### Publish queue 
 
 When you have a large set of publishing tasks running on your system, it becomes practically impossible to check each DITA map individually to monitor its publishing task. Experience Manager Guides gives the administrators and publishers a unified view of all publishing tasks running in the system.  
 
-To use this feature, select **Publish queue** from the Left panel. It takes you to the Publish dashboard folder in the Assets UI where you can [manage publish tasks using the publish dashboard](./generate-output-publish-dashboard.md). 
+To use this feature, select **Publish queue** from the Left panel. It takes you to the Publish dashboard page in the Assets UI where you can [manage publish tasks using the publish dashboard](./generate-output-publish-dashboard.md). 
 
 ### User preferences 
 
@@ -134,10 +142,3 @@ The User preferences are available to all authors. Using the preferences, you ca
      - **Source view theme**: You can choose from the Light or Dark themes for the content editing area in source view. In the case of the Light theme, the content editing area uses a light grey color background for the source view while in the case of Dark theme, it uses a black color background. Select **Use device** theme to allow Experience Manager Guides to select the light and dark themes based on the theme of your device.
     - **Always locate files in the repository**: Select this option to show the location of a file in the repository while editing it in the Editor.
      - **Show non-breaking space indicator in the author mode**: Select this option to show an indicator for the non-breaking spaces while editing it in the Editor. It’s enabled by default.
-
-
-## Widget section
-
-When you select the **Overview** and **User Preferences** section in the Left panel, the widgets configured for the selected section is displayed on the right. This section where widgets are displayed is the Widget section of the interface.  
-
-
