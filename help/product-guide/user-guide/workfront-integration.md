@@ -33,7 +33,7 @@ Perform the following steps to access your Workfront tasks:
     
 3. Sign in to **Workfront** using the same email address as used in Experience Manager Guides. If already signed-up, jump to Step-4.
 
-4. The **Workfront tasks page** is displayed on the right, featuring two tabs - **Created by You** and **Assigned to You**. Use these tabs to [manage Workfront tasks](#manage-workfront-tasks).
+   The **Workfront tasks page** is displayed on the right, featuring two tabs - **Created by You** and **Assigned to You**. Use these tabs to [manage Workfront tasks](#manage-workfront-tasks).
 
 
 ### Working with the Your Tasks widget
@@ -58,12 +58,12 @@ Perform the following steps to create a new Workfront task:
    The **Create task** dialog box is displayed.
 2. In the **General** tab, enter the following task details: 
 
-    - **Task type**: Select the task type that you want to create. The available options are: **Authoring**, **Reviewing**, **Publishing**, and **Translation**. 
-    - **Project**: Select the project within which you want to create this the task. 
-    - **Task name**: Enter a descriptive name for the task. 
-    - **Description**: Enter a brief description of the task. 
-    - **Due on**: Set the due date for task completion. 
-    - **Assignee**: Select an assignee for the task.  
+    * **Task type**: Select the task type that you want to create. The available options are: **Authoring**, **Reviewing**, **Publishing**, and **Translation**. 
+    * **Project**: Select the project within which you want to create this the task. 
+    * **Task name**: Enter a descriptive name for the task. 
+    * **Description**: Enter a brief description of the task. 
+    * **Due on**: Set the due date for task completion. 
+    * **Assignee**: Select an assignee for the task.  
 3. Select **Create**.
 
 A new task has been is created and listed under the **Created by you** tab. 
@@ -89,8 +89,8 @@ Perform the following steps to attach an asset:
 
 To help you manage your Workfront tasks easily, the tasks are organized into two seperate tabs:
 
- - Created by you
- - Assigned to you
+ * Created by you
+ * Assigned to you
 
 All tasks created by you and assigned to you are listed under two seperate tabs - **Created by you** and **Assigned to You** in tabular form, giving you key task details like project name, assignees, task creation date, task completion date, and task status. 
 
@@ -127,7 +127,7 @@ Perform the following steps to work upon an authoring task:
 4. Make the required edits and select **Mark as done**. 
 5. Switch to the **Comments** tab to add a comment to this task. These comments will reflect on the Workfront's project dashboard.  
 
-    >[NOTE]
+    >[!NOTE]
     >
     > Once the task is marked as done, it will be removed from the **Created by you** tab for the user who initiated this task. 
 
@@ -148,7 +148,7 @@ Perform the following steps to work upon a review task:
 6. Select **Mark as done**.
 7. Switch to the **Comments** tab to add a comment to this task. These comments will reflect on the Workfront's project dashboard.  
 
-    >[NOTE]
+    >[!NOTE]
     >
     > Marking the task as done by the Reviewer does not indicate the completion of the task. All review tasks are assigned back to the user who created the task (ideally an author who requested for a review). They can review the comments added by the Reviewer in the Editor and reply if needed. Once all the suggested changes are incorporated, the Task Owner can complete the task by selecting **Mark as Done**.
 
@@ -166,7 +166,7 @@ Perform the following steps to work upon a translation task:
 6. Navigate to the Workfront section and select **Mark as done** to indicate that the task is complete.  
 7. Switch to the **Comments** tab to add a comment to this task. These comments will reflect on the Workfront's project dashboard.  
 
-    >[NOTE]
+    >[!NOTE]
     >
     > Once the task is marked as done, it will be removed from the **Created by you** tab for the user who initiated this task. 
 
@@ -180,9 +180,9 @@ Perform the following steps to work upon a publishing task:
 2. Select the task or click the Open icon next to the task to open it in the **map console**.    
 3. Review task details and the file attached for publishing. 
 4. Navigate to the **Output presets** and perform the required publishing actions.
-6. Navigate to the Workfront section and select **Mark as done** to indicate that the task is complete.  
-7. Switch to the **Comments** tab to add a comment to this task. These comments will reflect on the Workfront's project dashboard. 
+5. Navigate to the Workfront section and select **Mark as done** to indicate that the task is complete.  
+6. Switch to the **Comments** tab to add a comment to this task. These comments will reflect on the Workfront's project dashboard. 
 
-    >[NOTE]
+    >[!NOTE]
     >
     > Once the task is marked as done, it will be removed from the **Created by you** tab for the user who initiated this task. 

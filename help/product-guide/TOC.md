@@ -386,6 +386,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Version management](./cs-install-guide/version-management.md)
     - Work with desktop-based XML editors {#desktop-xml-editor}
        - [Integrate desktop-based XML editors](./cs-install-guide/integrate-desktop-editors-cs.md)
+    - Configure Workfront {#configure-workfront-cs}
+       - [Configure Workfront](./cs-install-guide/conf-workfront.md)
     - Work with output generation settings {#output-gen-config-cs}
        - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
         - [Download and install aem sites templates](./cs-install-guide/download-install-aem-sites-templates-cs.md)
