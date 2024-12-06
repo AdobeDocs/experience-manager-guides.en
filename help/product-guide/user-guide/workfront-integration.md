@@ -12,7 +12,7 @@ With this integration, you can create and manage Workfront tasks directly from E
 
 Similarly, depending on your role, you can also manage tasks related to Authoring, Publishing, and Translation, ensuring a seamless and efficient workflow throughout the content lifecycle.
 
-## Key features:
+**Key features**
 
 With the native Adobe Workfront integration, you can: 
 
@@ -22,7 +22,7 @@ With the native Adobe Workfront integration, you can:
 * Monitor project health using Workfront's intuitive dashboard, offering real-time insights into project performance. 
 * Maintain a detailed audit trail to easily review and track key project activities from the past. 
 
-# Get started 
+## Get started 
 
 Once configured and enabled by your administrator, Workfront tasks can be accessed right from the [Experience Manager Guides Home page](./intro-home-page.md). 
 
@@ -36,7 +36,7 @@ Perform the following steps to access your Workfront tasks:
 4. The **Workfront tasks page** is displayed on the right, featuring two tabs - **Created by You** and **Assigned to You**. Use these tabs to [manage Workfront tasks](#manage-workfront-tasks).
 
 
-## Working with the Your Tasks widget
+### Working with the Your Tasks widget
 
 **Your tasks** is a widget where a list of Workfront tasks(that are assigned to you and are in Open state) is displayed along with the key task details including name of the task, associated project, due date, and the current status.
 
@@ -44,12 +44,12 @@ You can access **Your Tasks** from the [Overview section](./intro-home-page.md#o
 
 The following options are available when you hover over a task:  
 
- - **Open**: Allows you to open a task. Based on your [task type](#workfront-task-types), the task opens in the Editor, Map Console, or Review UI. You can also open a task by simply selecting the task name. 
- - **Task details**: Allows you to view key task details before opening the task. 
+* **Open**: Allows you to open a task. Based on your task type, the task opens in the Editor, Map Console, or Review UI. You can also open a task by simply selecting the task name. 
+* **Task details**: Allows you to view key task details before opening the task. 
 
 The widget also provide you with options to sort and resize columns for a customized view. To apply sorting to a column, select the column header and the options would display in a list. To adjust a column's width, hover over the column divider line in the header, then drag to resize.
 
-# Create Workfront Tasks
+## Create Workfront tasks
 
 Perform the following steps to create a new Workfront task: 
 
@@ -85,7 +85,7 @@ Perform the following steps to attach an asset:
 >
 > As a project manager, you can view this newly created task in your Workfront dashboard along with other key task details.
 
-# Manage Workfront tasks
+## Manage Workfront tasks
 
 To help you manage your Workfront tasks easily, the tasks are organized into two seperate tabs:
 
@@ -105,7 +105,7 @@ You can perform the following functions on a task assigned to you:
 * **Open**: Allows you to open the task. Depending on the type of the task, it will open in the Web Editor, Map Console, or Review UI. 
 * **Task details** - Displays the task's details and attached asset.
 
-# Working with Workfront Assigned tasks 
+## Working with Workfront Assigned tasks 
 
 To check for a task assigned to you, you can go to the **Your Tasks** widget and get a list of tasks assigned to you. 
 
@@ -117,7 +117,7 @@ Or, navigate to the **Workfront** section in the left panel and get a list of ta
 
 The following sections walk you through the process of working with different types of tasks assigned to you: 
 
-## Authoring tasks
+### Authoring tasks
 
 Perform the following steps to work upon an authoring task: 
 
@@ -131,7 +131,7 @@ Perform the following steps to work upon an authoring task:
     >
     > Once the task is marked as done, it will be removed from the **Created by you** tab for the user who initiated this task. 
 
-## Review tasks
+### Review tasks
 
 As a reviewer, you can review a Workfront review task assigned to you in the Editor.  
 
@@ -152,7 +152,7 @@ Perform the following steps to work upon a review task:
     >
     > Marking the task as done by the Reviewer does not indicate the completion of the task. All review tasks are assigned back to the user who created the task (ideally an author who requested for a review). They can review the comments added by the Reviewer in the Editor and reply if needed. Once all the suggested changes are incorporated, the Task Owner can complete the task by selecting **Mark as Done**.
 
-## Translation tasks
+### Translation tasks
 
 As a translator, you can perform various translation actions on a Workfront Translation task assigned to you in the Editor.  
 
@@ -170,7 +170,7 @@ Perform the following steps to work upon a translation task:
     >
     > Once the task is marked as done, it will be removed from the **Created by you** tab for the user who initiated this task. 
 
-## Publishing tasks
+### Publishing tasks
 
 As a Publisher, you can view details and publish a Publishing Workfront task assigned to you in the Web Editor.  
 
