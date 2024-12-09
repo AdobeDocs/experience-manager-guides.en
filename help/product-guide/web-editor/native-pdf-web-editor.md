@@ -148,6 +148,27 @@ Protect your PDF by adding restrictions to open and read the file. Use the below
 |**Set password to open the document**|   Select to add a secure password to view your PDF file. Specify a password in the **User password** field. Users can open the PDF only by entering the password provided in this field.  |
 |  **Set the document restrictions**  | Select to restrict how users can interact with your PDF. Specify a password in the **Owner Password** field for the below restriction settings to work.  <br><ul><li> **Printing** Select to allow a user to print the PDF. <br> <li> **Draft quality printing** Select to allow a user to print the PDF in a lower resolution.  <br> <li> **Content copying** Select to allow a user to copy contents from the PDF.   <br> <li> **Annotations** Select to allow a user to add a note or comment in the PDF.  <br> <li> **Content modifications** Select to allow a user to alter the contents in the PDF.  <br> <li> **Content copying for accessibility** Select to allow screen readers to read and navigate content in PDF.  <br>  **Document assembly** Select to allow users to insert pages in the PDF.  <br> **Note**: The users need to enter the owner password to change any restrictions from the File > Properties in Adobe Acrobat. |  
 
+### Print
+
+Configure the print production settings to assign printer marks, select color models, and specify properties related to printing of your PDF output.
+
+* **Printer Marks**: When you prepare a document for print production, printer marks are added to the page boundaries to assist in proper alignment, trimming, and color selection during printing. By selecting a printer mark, the page boundary is extended to accommodate the mark, which are trimmed during print. You can choose to display the following printer marks in your PDF output:
+   * **Trim Marks**: Select the option to place a mark at each corner of the trim area to indicate where the paper needs to be trimmed after printing.
+   * **Bleed Marks**: Select to place a mark at each corner of the bleed box to indicate the trim area for the extended image.
+   * **Registration Marks**: Select to place a mark outside the crop area for aligning the different separations in a color document.
+   * **Color Bars**: Select to add a strip of colors outside the trim area to maintain color consistency and adjust ink density when printing.
+
+   Set dimensions for the selected printer marks using the **Line Width**, **Line Color**, and **Bleed Box Width** options.
+
+* **Media Box size**: This is the overall page size including the extended area occupied by printer marks. Use the drop-down option to select the page size for your PDF output or create your own custom size.
+
+* **Color Space**: You are given an option to choose from RGB or CMYK color spaces to print your PDF document. Choose RGB to display the generated PDF digitally and CMYK for physical printing. Colors defined in the document are converted to the chosen color space.
+    >[!NOTE]
+    >
+    >An ICC color profile is necessary for PDF/A creation if using CMYK color space.
+
+   <!--For more information on applying these print settings, see *Printing preferences*.-->
+
 **Advanced**
 
 Use the following options to specify advanced settings to merge PDFs, use compression, select compliance standard, and more. 
@@ -165,9 +186,11 @@ Use the following options to specify advanced settings to merge PDFs, use compre
 |  **Use custom resolution (pixels per inch)** | It is the page display resolution at pixels per inch. Enter a preferred value in the field that appears when this option is selected. The default value is 96 pixels per inch. Set a higher value to fit more content in an inch, and vice versa, if you set a lower value. | 
 |  **Show Watermark** | Select this option to superimpose a watermark in your output. You can enter a new text string in the text box with the character casing the way you want. <br><br>Use static text or language variables to publish the localized version of the watermark.  Depending on your chosen language, the localized value is automatically picked in the PDF output. For example, you can print ‘Publisher’ as a watermark in English and ‘Auteure’ in French.  <br> Format: `${lng:<variable name>}`. For example, `$ {lng:publisher-label}` where `publisher-label` is a language variable. <br> Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the option to view more details about it. | 
 |  **Enable MathML equations** | Select this option to render MathML equations present in your content. The equations will be ignored otherwise by default.  | 
-|**Download temporary files**|Select this option if you want to download the interim HTML files created while generating the Native PDF output. You can later download the temporary files after generating the output.  |
+|**Create interactive PDF form**|Select this option if you want to include interactive and customizable PDF form fields for enhanced user input in generated PDF outputs. |
+| **Include track changes** | Select this option if you want to include tracked changes in the generated PDF for easy review and comparison.|
+|**Retain temporary files**|Select this option if you want to retain the interim HTML files created while generating the Native PDF output. You can later download the temporary files after generating the output.  |
 |  **PDF conformance** | It is the standard to which you intend to save your PDF to ensure it is compliant. Select from the dropdown to choose from the list of available PDF standards. For more details about the supported standards, see [About PDF standards](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). | 
-|**File properites**| Select the metadata that you want to pass to Native PDF publishing. The dropdown lists both the custom and the default properties. For example, `dc:description`, `dc:language`, `dc:title`, and `docstate` are the default properties while you can have `author` as the custom property. The selected metadata properties are passed to the PDF file generated using Native PDF. <br> These properties are picked from the `metadataList` file available at:`/libs/fmdita/config/metadataList`. <br>This file can be overlaid at: `/apps/fmdita/config/metadataList`.|
+|**File properties**| Select the metadata that you want to pass to Native PDF publishing. The dropdown lists both the custom and the default properties. For example, `dc:description`, `dc:language`, `dc:title`, and `docstate` are the default properties while you can have `author` as the custom property. The selected metadata properties are passed to the PDF file generated using Native PDF. <br> These properties are picked from the `metadataList` file available at:`/libs/fmdita/config/metadataList`. <br>This file can be overlaid at: `/apps/fmdita/config/metadataList`.|
 
 
 ## Generate a PDF output {#generate-pdf-output} 

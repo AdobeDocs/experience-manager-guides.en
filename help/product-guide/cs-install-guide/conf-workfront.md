@@ -13,11 +13,10 @@ Learn more about [Workfront integration with Adobe Experience Manager Guides](..
 
 ## Prerequisites 
 
-Before getting started, ensure: 
+Before getting started, ensure that: 
 
-1. You have the Administrator access to both Adobe Workfront and Experience Manager Guides. 
-
-2. The users created on Adobe Workfront share the same email address as that of Experience Manager Guides. 
+1. You have the Administrator access to both Adobe Workfront and Experience Manager Guides. 2. 
+2. You have created the [Experience Manager Guides Custom form](#create-experience-manager-guides-custom-form). 
 
 ### Get Started 
 
@@ -46,6 +45,8 @@ To map Experience Manager Guides workflows with Workfront, [create a new custom 
 |Single line text| Review URL   | review-url  | - |
 
 Select **Close and Save**, and then **Apply** to save the changes.  
+
+Once configured, [add users to Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) using the same email addresses they have in Experience Manager Guides. 
 
 
 

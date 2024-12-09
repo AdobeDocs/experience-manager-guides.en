@@ -391,30 +391,6 @@ Choose this option to publish multiple pages on a single sheet of paper.  Then, 
 
 Define the target sheet size and the orientation in which you want to publish the sheet. You can also specify the margin and the padding properties of the sheet.
 
-
-
-
-### Print
-
-Configure the print production settings to assign printer marks, select color models, and specify properties related to printing of your PDF output.
-
-* **Printer Marks**: When you prepare a document for print production, printer marks are added to the page boundaries to assist in proper alignment, trimming, and color selection during printing. By selecting a printer mark, the page boundary is extended to accommodate the mark, which are trimmed during print. You can choose to display the following printer marks in your PDF output:
-   * **Trim Marks**: Select the option to place a mark at each corner of the trim area to indicate where the paper needs to be trimmed after printing.
-   * **Bleed Marks**: Select to place a mark at each corner of the bleed box to indicate the trim area for the extended image.
-   * **Registration Marks**: Select to place a mark outside the crop area for aligning the different separations in a color document.
-   * **Color Bars**: Select to add a strip of colors outside the trim area to maintain color consistency and adjust ink density when printing.
-
-   Set dimensions for the selected printer marks using the **Line Width**, **Line Color**, and **Bleed Box Width** options.
-
-* **Media Box size**: This is the overall page size including the extended area occupied by printer marks. Use the drop-down option to select the page size for your PDF output or create your own custom size.
-
-* **Color Space**: You are given an option to choose from RGB or CMYK color spaces to print your PDF document. Choose RGB to display the generated PDF digitally and CMYK for physical printing. Colors defined in the document are converted to the chosen color space.
-    >[!NOTE]
-    >
-    >An ICC color profile is necessary for PDF/A creation if using CMYK color space.
-
-   <!--For more information on applying these print settings, see *Printing preferences*.-->
-
 ### Cross-references {#cross-references}
 
 Use the **Cross-reference** tab to define how the cross-references are published the PDF. You can format the cross-references for topic title, tables, figures, and more.
