@@ -7,28 +7,25 @@ role: Leader
 # Fixed issues in the 4.6.0 Service Pack 2 release (January 2025)
 
 
-This article covers the bugs fixed in various areas of 4.6.0 Service Pack 1 release of Adobe Experience Manager Guides.
+This article covers the bugs fixed in various areas of 4.6.0 Service Pack 2 release of Adobe Experience Manager Guides.
 
-Learn about [upgrade instructions for the 4.6.0 Service Pack 1 release](upgrade-instructions-4-6-0-sp1.md).
+Learn about [upgrade instructions for the 4.6.0 Service Pack 2 release](upgrade-instructions-4-6-0-sp2.md).
 
 ## Authoring
 
-- DITA map creation on a UUID instance fails when `xmleditor.uniquefilenames`is enabled in `XMLEditorConfig`. (21201)
-- When closing a file, comments and labels added in the **Save Changes and Unlock File** dialog box are not getting saved in the Version History with the new version. This is specific to a use case where **Ask for Check-in on Close** or **Ask for New Version on Close** is enabled in `XMLEditorConfig`. (20065) 
-- The Document State marked as **Done** reverts to **Draft** before saving a new version, resulting in the **Done** state not persisting in any document versions. (20006)
-- Unable to add a PDF file as an image reference in a topic in the Web Editor. (21206)
-- Selecting a DITA file in the Assets UI shows the **Open in FrameMaker** option, even when disabled in the configuration. (20082)
-
+- All condition groups are lost and the conditions become flattened on updating the conditions from the folder profile. (23526)
+- Changing the header rows value for a table in the **Content properties** panel does not apply the updated value. (23213)
+- When adding new topic files in DITA map using **Topic reference** option on the layout view, it shows a broken link. (22859)
+- When adding topics using **Topic reference** option, the selected topics are inserted in reverse order. (22858)
+- If an external link contains a UUID pattern, it breaks the link. (22574)
 
 ## Publishing
 
-- Uploading attachments to Salesforce fails if the attachment path exceeds the allowed length. (19420)
-- When publishing a topic to Salesforce, the PDF file links fails to resolve. (19304)
-- The `DUPLICATE_VALUE` error occurs intermittently when attempting to republish an existing article in Salesforce. (17932)
-- In the Native PDF output, chapter titles are missing from the TOC, leading to an incorrect hierarchy. (21840)
-- When publishing AEM Sites, only a limited number of attributes are available for inclusion in the TOC. (7483)
+- An endless in-progress screen with no error message is shown when some articles are published on Salesforce. (23664)
+- The `xref` does not retain the relative link even when the **scope** of link is set to **external**. (23059)
+- For topics having errors like broken links, the Salesforce publishing fails and  progress bar is shown indefinitely. (22985)
+- Native PDF generation fails for content with **chunk** attribute set to **to-content**. (21772)
 
-## Management
+## Translation
 
-- Resource leaks occur due to Unclosed **ResourceResolver** errors in logs. (18488)
-- When creating a new or duplicate baseline, labels are displayed in a random order. (19307)
+- During translation, moving a topic in the source path (en_us) to a different folder results in broken references in the target locale. (24152)
