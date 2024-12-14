@@ -74,9 +74,16 @@ The widgets also provide you with options to sort and resize columns for a custo
 
 The following widgets are present in the Widgets section:
 
-- **Recent Files**: The widget provides you a snapshot of recently-opened files (a list of files that you accessed in the Editor) along with the key file details including Title, File name, File type, File path, and Accessed on dates. You can sort and resize the columns by selecting options from the column dropdown menu.
+- **Recent Files**: The widget provides you a snapshot of recently-opened files (a list of files that you accessed in the Editor) along with the key file details including Title, File name, File type, File path, and Accessed on dates. 
+  
+  ![](images/aem-home-recent-files.png){width="800" align="left"}
+  
+  You can sort and resize the columns by selecting options from the column dropdown menu.
 
-From [User Preferences](#user-preferences), you can set the maximum number of files that can be displayed in this widget. By default, this limit is set to **20**. 
+  ![](images/aem-home-recent-files-sort-resize-options.png){width="800" align="left"}
+
+  
+  From [User Preferences](#user-preferences), you can set the maximum number of files that can be displayed in this widget. By default, this limit is set to **20**. 
 
   The following options are available when you hover over a file:  
 
@@ -84,13 +91,19 @@ From [User Preferences](#user-preferences), you can set the maximum number of fi
   - **Pin/unpin**: Allows you to pin one or more files to the Recent files widget. Pinned files are displayed at the top in widget list. To unpin a file, use the **Unpin** option.   
   - **Remove**: Allows you to remove the file from the Recent files widget. 
    
-  **Create new file from the New File drop-down menu**  
+  **Create new file from the New file dropdown menu**  
 
-  The **New file** drop-down menu allows you to create a topic or DITA map right from the **Recent files** widget. On successful file creation, you will be redirected to the Editor interface where you can work upon the file. 
+  The **New file** dropdown menu allows you to create a topic or DITA map right from the **Recent files** widget. On successful file creation, you will be redirected to the Editor interface where you can work upon the file. 
 
-- **Collections**: If you work on a set of files or folders, you can add them to this widget to access them quickly. Once added, you can view the files by Titles along with other key details about the Owner and Created On dates. As you select the column dropdown, you can view the options to sort and resize the column.  
+- **Collections**: If you work on a set of files or folders, you can add them to this widget to access them quickly. Once added, you can view the files by Title along with other key details about the Owner and Created On dates.
+
+  ![](images/aem-home-collections.png){width="800" align="left"}
+  
+  As you select the column dropdown, you can view the options to sort and resize the column.  
 
   The selected collection's breadcrumb are displayed at the top of the Collection widget. You can select it to go back to a specific folder within the hierachy. 
+
+  ![](images/aem-home-collections-breadcrumbs.png){width="800" align="left"}
 
   The following options are available when you hover over a collection:
     - **Rename**: Allows you to rename the collection.  
@@ -110,7 +123,7 @@ From [User Preferences](#user-preferences), you can set the maximum number of fi
 
 >[!NOTE]
 >
-> In addition, if your administrator has configured Workfront integration in the system, then **Your tasks** widget is also shown in the Widgets section. Learn about [working with Workfront Integration](./workfront-integration.md)
+> In addition, if your administrator has configured Adobe Workfront integration in the system, then **Your tasks** widget is also shown in the Widgets section. Learn about [integrating Experience Manager Guides with Adobe Workfront](./workfront-integration.md)
 
 ### Map collections 
 
