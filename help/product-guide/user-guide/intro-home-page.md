@@ -18,7 +18,7 @@ The Experience Manager Guides Home page is divided into the following sections:
 
 ## Header bar 
 
-The header bar is the top-bar of the Home page that displays the Adobe Experience Manager logo (or a Unified Shell if you are using the Unified Shell as your Experience Manager Guides UI). When you select the logo, it directs you to the Experience Manager Navigation page. 
+The header bar is the top bar of the Home page that displays the Adobe Experience Manager logo (or a Unified Shell if you are using the Unified Shell as your Experience Manager Guides UI). When you select the logo, it directs you to the Experience Manager Navigation page. 
 
 ![](images/aem-home-header.png){width="800" align="left"}
 
@@ -37,7 +37,7 @@ Features available in the navigation bar are explained as follows:
 - **AI Assistant**: [AI-powered Smart Help](./ai-based-smart-help.md) feature that helps you find relevant content from the Adobe Experience Manager Guides Documentation. 
 - **Customize overview section**: Allows you to hide or show the widgets in the Widgets section. 
 - **Folder profile in use**: Displays the folder profile that is currently being used.  
-- **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the Top-header is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
+- **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
 
 ## Left panel 
 
@@ -62,7 +62,7 @@ Features available in the left panel are explained as follows:
 
 >[!NOTE]
 >
-> In addition, if your administrator has configured Adobe Workfront integration in the system, then a **Workfront** option is also shown in the Left panel. Learn about [working with Workfront Integration](./workfront-integration.md)
+> In addition, if your administrator has configured Adobe Workfront integration in the system, then a **Workfront** option is also shown in the left panel. Learn about [Adobe Workfront integration](./workfront-integration.md) in Experience Manager Guides.
  
 
 ### Overview 
@@ -95,12 +95,11 @@ The following widgets are present in the Widgets section:
 
   The **New file** dropdown menu allows you to create a topic or DITA map right from the **Recent files** widget. On successful file creation, you will be redirected to the Editor interface where you can work upon the file. 
 
-- **Collections**: If you work on a set of files or folders, you can add them to this widget to access them quickly. Once added, you can view the files by Title along with other key details about the Owner and Created On dates.
+- **Collections**: If you work on a set of files or folders, you can add them to this widget to access them quickly. Once added, you can view the files by Title along with other key details such as Owner and Created On dates. As you select the column dropdown, you can view the options to sort and resize the column.  
+
 
   ![](images/aem-home-collections.png){width="800" align="left"}
   
-  As you select the column dropdown, you can view the options to sort and resize the column.  
-
   The selected collection's breadcrumb are displayed at the top of the Collection widget. You can select it to go back to a specific folder within the hierachy. 
 
   ![](images/aem-home-collections-breadcrumbs.png){width="800" align="left"}
@@ -123,21 +122,21 @@ The following widgets are present in the Widgets section:
 
 >[!NOTE]
 >
-> In addition, if your administrator has configured Adobe Workfront integration in the system, then **Your tasks** widget is also shown in the Widgets section. Learn about [integrating Experience Manager Guides with Adobe Workfront](./workfront-integration.md)
+> In addition, if your administrator has configured Adobe Workfront integration in the system, then **Your tasks** widget is also shown in the Widgets section. Learn more about [Adobe Workfront integration](./workfront-integration.md#working-with-the-your-tasks-widget) in Experience Manager Guides.
 
 ### Map collections 
 
-Experience Manager Guides provides you the ability to organize your content for publishing by using a dashboard called **Map collections**. To use this feature, select **Map collections** from the Left panel. It takes you to the Map collections page in the **Assets UI** where you can [use map collection for output generation.](./generate-output-use-map-collection-output-generation.md)  
+Experience Manager Guides provides you the ability to organize your content for publishing by using a dashboard called **Map collections**. To use this feature, select **Map collections** from the left panel. It takes you to the Map collections page in the **Assets UI** where you can [use map collection for output generation.](./generate-output-use-map-collection-output-generation.md)  
 
 ### Bulk publish 
 
-The Bulk Activation feature allows you to quickly and easily activate your content from authoring to publishing instance. To use this feature, select **Bulk publish** from the Left panel. It takes you to the Bulk Activation Collections page in the Assets UI where you can manage as well as [create a bulk activation map collection.](./conf-bulk-activation-publish-map-collection.md) 
+The Bulk Activation feature allows you to quickly and easily activate your content from authoring to publishing instance. To use this feature, select **Bulk publish** from the left panel. It takes you to the Bulk Activation Collections page in the Assets UI where you can manage as well as [create a bulk activation map collection.](./conf-bulk-activation-publish-map-collection.md) 
 
 ### Publish queue 
 
 When you have a large set of publishing tasks running on your system, it becomes practically impossible to check each DITA map individually to monitor its publishing task. Experience Manager Guides gives the administrators and publishers a unified view of all publishing tasks running in the system.  
 
-To use this feature, select **Publish queue** from the Left panel. It takes you to the Publish dashboard page in the Assets UI where you can [manage publish tasks using the publish dashboard](./generate-output-publish-dashboard.md). 
+To use this feature, select **Publish queue** from the left panel. It takes you to the Publish dashboard page in the Assets UI where you can [manage publish tasks using the publish dashboard](./generate-output-publish-dashboard.md). 
 
 ### User preferences 
 
