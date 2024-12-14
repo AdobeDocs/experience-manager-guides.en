@@ -5,11 +5,11 @@ feature: Workfront Configuration
 role: Admin
 level: Experienced
 ---
-# Configure Workfront
+# Configure workfront
 
-Adobe Workfront is a cloud-based work management solution that helps teams and organizations plan, track and manage their work efficiently. The integration between Experience Manager Guides and Workfront provides you with a unified workspace to seamlessly author and manage content, as well as allocate and track tasks. 
+Adobe Workfront is a cloud-based work management solution that helps teams and organizations plan, track and manage their work efficiently. The integration between Experience Manager Guides and Adobe Workfront gives you access to robust project management features on top of Experience Manager Guides core CCMS capabilities, allowing you to plan, allocate, and track tasks more efficiently.  
 
-Learn more about [Workfront integration with Adobe Experience Manager Guides](../user-guide/workfront-integration.md)
+Learn more about [Adobe Workfront integration](../user-guide/workfront-integration.md) in Experience Manager Guides.
 
 ## Prerequisites 
 
