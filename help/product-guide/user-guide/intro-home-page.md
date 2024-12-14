@@ -6,7 +6,7 @@ role: User
 ---
 # Adobe Experience Manager Guides Home page experience
 
-The Home page is the first thing that you see when logging into Experience Manager Guides. It provides you with a unified and intuitive welcome screen experience, which includes a quick view of the files that you recently accessed, collections, and more.
+The Home page is the first thing that you view when logging into Experience Manager Guides. It provides you with a unified and intuitive welcome screen experience, which includes a quick view of the files that you recently accessed, collections, and more.
 
 ![](images/aem-home-page.png){width="800" align="left"}
 
@@ -18,25 +18,25 @@ The Experience Manager Guides Home page is divided into the following sections:
 
 ## Header bar 
 
-The header bar is the top-bar of the Home page that displays the Adobe Experience Manager logo (or a Unified Shell if you are using the Unified Shell as your Experience Manager Guides UI). Select the logo to navigate to the Experience Manager Navigation page
+The header bar is the top-bar of the Home page that displays the Adobe Experience Manager logo (or a Unified Shell if you are using the Unified Shell as your Experience Manager Guides UI). When you select the logo, it directs you to the Experience Manager Navigation page. 
 
 ![](images/aem-home-header.png){width="800" align="left"}
 
 ## Navigation bar 
 
-The navigation bar surfaces tools to switch navigation, customize the overview layout, and adjust the page view. It also displays the Experience Manager Guides profile that is currently being used.
+The navigation bar surfaces tools to switch navigation, customize the overview layout, and adjust the page view. It also displays the current folder profile in use.
 
 ![](images/aem-home-nav-bar.png){width="800" align="left"}
 
 Features available in the navigation bar are explained as follows: 
 
 - **Navigation switcher**: Allows seamless navigation to other pages: 
-  - **Home**: The default view that you see when logging into Experience Manager Guides.
-  - **Editor**: An easy-to-use web-based Editor that allows you to create and manage structured documents in AEM Guides. [Get to know the Editor interface.](./web-editor.md) 
+  - **Home**: The default page that you view when logging into Experience Manager Guides.
+  - **Editor**: An easy-to-use web-based Editor that allows you to create and manage structured documents in Experience Manager Guides. [Get to know the Editor interface.](./web-editor.md) 
   - **Map console**: Provides you a dedicated workspace to handle all aspects of map management and publishing.   
 - **AI Assistant**: [AI-powered Smart Help](./ai-based-smart-help.md) feature that helps you find relevant content from the Adobe Experience Manager Guides Documentation. 
-- **Customize overview section**: Allows you to hide or show the widgets in the Widget section. 
-- **Profile in use**: Displays the Experience Manager Guides profile that is currently being used.  
+- **Customize overview section**: Allows you to hide or show the widgets in the Widgets section. 
+- **Folder profile in use**: Displays the folder profile that is currently being used.  
 - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the Top-header is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
 
 ## Left panel 
@@ -48,8 +48,8 @@ The left panel gives you quick access to Overview, Map collections, Bulk publish
 What you view on this panel depends on your user role. The following table lists the roles and the respective sections that are displayed in the left panel.
 
 - **Admin & Publisher**: The ability to view all the sections in the panel.
-- **Author**: The ability to view all the sections except publishing. Author do not have access to Map collections, Publish queue, and Bulk publish section.
-- **Reviewer**: The ability to view the Overview section only. Selecting the Overview section either displays a default empty state message or the Workfront tasks widget depending on whether Workfront is configured.  
+- **Author**: The ability to view all the sections except publishing. Authors do not have access to Map collections, Publish queue, and Bulk publish section.
+- **Reviewer**: The ability to view the Overview section only. Selecting the Overview section either displays a default empty state message or the Workfront tasks widget depending on whether Adobe Workfront is configured.  
    
 
 Features available in the left panel are explained as follows: 
@@ -62,53 +62,55 @@ Features available in the left panel are explained as follows:
 
 >[!NOTE]
 >
-> In addition, if your administrator has configured Workfront integration in the system, then a **Workfront** option is also shown in the Left panel. Learn about [working with Workfront Integration](./workfront-integration.md)
+> In addition, if your administrator has configured Adobe Workfront integration in the system, then a **Workfront** option is also shown in the Left panel. Learn about [working with Workfront Integration](./workfront-integration.md)
  
 
 ### Overview 
 
-**Overview** acts like a personalized dashboard designed to enhance productivity. It features different widgets that help you stay organized and focused. The area where these widgets are placed is the **Widget section**.
+**Overview** acts like a personalized dashboard designed to enhance productivity. It features different widgets that help you stay organized and focused. The area where these widgets are placed is the **Widgets section**.
 
-The widgets also provide you with options to sort and resize columns for a customized view. To view these options, click on the column header and the options would display in a list.  
+The widgets also provide you with options to sort and resize columns for a customized view. To view these options, select the column header and the options would display in a list.  
 
 
-The following widgets are present in the Widget section:
+The following widgets are present in the Widgets section:
 
-- **Recent Files**: The widget provides you a snapshot of recently-opened files (a list of files that you accessed in the Editor) along with the key file details including Title, File name, File type, File path, and Accessed on dates. From [User Preferences](#user-preferences), you can set the maximum number of files that can be displayed in this widget. By default, this limit is set to **20**. 
+- **Recent Files**: The widget provides you a snapshot of recently-opened files (a list of files that you accessed in the Editor) along with the key file details including Title, File name, File type, File path, and Accessed on dates. You can sort and resize the columns by selecting options from the column dropdown menu.
+
+From [User Preferences](#user-preferences), you can set the maximum number of files that can be displayed in this widget. By default, this limit is set to **20**. 
 
   The following options are available when you hover over a file:  
 
-  - **Open in editor**: Allows you to open the selected file in the Editor. You can also open it by selecting the file title. 
+  - **Open in editor**: Allows you to open the file in the Editor. You can also open a file by simply selecting it.   
   - **Pin/unpin**: Allows you to pin one or more files to the Recent files widget. Pinned files are displayed at the top in widget list. To unpin a file, use the **Unpin** option.   
-  - **Remove**: Allows you to remove the selected file from the Recent files widget. 
+  - **Remove**: Allows you to remove the file from the Recent files widget. 
    
   **Create new file from the New File drop-down menu**  
 
   The **New file** drop-down menu allows you to create a topic or DITA map right from the **Recent files** widget. On successful file creation, you will be redirected to the Editor interface where you can work upon the file. 
 
-- **Collections**: If you work on a set of files or folders, you can add them to this widget to access them quickly. Once added, you can view the files by Titles along with other key details about the Owner and Created On dates. As you click on the column dropdown, you can view the options to sort and resize the column.  
+- **Collections**: If you work on a set of files or folders, you can add them to this widget to access them quickly. Once added, you can view the files by Titles along with other key details about the Owner and Created On dates. As you select the column dropdown, you can view the options to sort and resize the column.  
 
-  The selected collection's breadcrumb are displayed at the top of the Collection widget. You can click on it to go back to a specific folder within the hierachy. 
+  The selected collection's breadcrumb are displayed at the top of the Collection widget. You can select it to go back to a specific folder within the hierachy. 
 
   The following options are available when you hover over a collection:
-    - **Rename**: Allows you to rename the selected collection.  
-    - **Delete**: Allows you to delete the selected collection. 
-    - **View in Assets UI**: Allows you to open the selected collection in the Assets UI. 
+    - **Rename**: Allows you to rename the collection.  
+    - **Delete**: Allows you to delete the collection. 
+    - **View in Assets UI**: Allows you to open the collection in the Assets UI. 
 
     You can open a collection by selecting the Collection title. The following options are available when you hover a Collection file:
-    - **Open in editor**: Allows you to open the selected file in the Editor. You can also open it by clicking the file title. 
-    - **Open in map console**: Allows you to open the selected map file in the map console. (Available only for a DITA map file).
-    - **Add to collections**: Allows you to add the selected file to a new or existing collection.
-    - **Remove from collections**: Allows you to remove the selected file from the collections list.
-    - **View in Assets UI**: Allows you to locate the selected file in Assets UI. 
+    - **Open in editor**: Allows you to open the file in the Editor. Alternatively, you can select the file title to open the file. 
+    - **Open in map console**: Allows you to open the map file in the map console. (Available only for a DITA map file).
+    - **Add to collections**: Allows you to add the file to a new or existing collection.
+    - **Remove from collections**: Allows you to remove the file from the collections list.
+    - **View in Assets UI**: Allows you to locate the file in Assets UI. 
 
-    **Create new collection from the New collection drop-down menu**  
+    **Create new collection from the New collection dropdown menu**  
 
-  The **New collection** drop-down menu allows you to create a new collection and add it to the **Collections** widget.
+  The **New collection** dropdown menu allows you to create a new collection and add it to the **Collections** widget.
 
 >[!NOTE]
 >
-> In addition, if your administrator has configured Workfront integration in the system, then **Your tasks** widget is also shown in the Widget section. Learn about [working with Workfront Integration](./workfront-integration.md)
+> In addition, if your administrator has configured Workfront integration in the system, then **Your tasks** widget is also shown in the Widgets section. Learn about [working with Workfront Integration](./workfront-integration.md)
 
 ### Map collections 
 
@@ -133,7 +135,7 @@ The User preferences are available to all authors. Using the preferences, you ca
   ![](images/user_preference_editor.PNG){width="800" align="left"}
 
   - **Folder profile**: The Folder profile controls various configurations related to conditional attributes, authoring templates, output presets and the Editor configurations. The Global profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder profiles list.     
-  - **Base path**: By default, when you access the Experience Manager Guides repository from the Editor, you are shown assets from the /content/dam location. Your working folder would most likely be a few folders inside the /content/dam/ folder. It would take you a few clicks to reach the working folder every time. You can set the Base path to your working folder and the Repository view then shows you the content from that location upfront. This reduces the time to access your working folder. Also, when you insert any reference or media file in your topic, the file browse location starts with the folder set in the Base path.
+  - **Base path**: By default, when you access the Experience Manager Guides repository from the Editor, you are shown assets from the /content/dam location. Your working folder would most likely be a few folders inside the /content/dam/ folder. You can set the Base path to your working folder and the Repository view then shows you the content from that location upfront. This reduces the time to access your working folder. Also, when you insert any reference or media file in your topic, the file browse location starts with the folder set in the Base path.
     - **Select Root Map**: Select a DITA map file to resolve key references or glossary entries. The selected root map takes the highest precedence to resolve key references. For more details, view [Resolve key references](./map-editor-other-features.md). 
     - **Maximum number of recent files**: Use this field, to set a maximum limit on the files that are displayed in the Recent files widget.
     - **Set default map opening behavior**: Here, you can select a default behavior the system will follow while opening a DITA map file. 
