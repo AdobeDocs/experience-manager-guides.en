@@ -32,7 +32,12 @@ Perform the following steps to configure Adobe Workfront in Experience Manager G
 
 1. Open the **Tools panel** and select **Guides**.  
 2. Select **Configure Workfront**. 
-3. On the **Workfront Configuration** page, enter the full URL of your organization's Workfront Domain, Client ID, and Client Secret Key.  
+
+   The **Workfront configuration** page is displayed.
+
+   ![](.images/configure-workfront.PNG){width="800" align="left"}
+   
+3. On the **Workfront configuration** page, enter the full URL of your organization's Workfront Domain, Client ID, and Client Secret Key.  
    
    To access the **Client ID** and **Client Secret** key configured in your Adobe Workfront setup, navigate to `Setup >> oAuth2 Applications`. 
 
@@ -41,9 +46,11 @@ Perform the following steps to configure Adobe Workfront in Experience Manager G
 
    You are redirected to the Adobe Workfront Sign in page.
 
+
 5. Sign in using your Adobe Workfront email address, and then select **Allow access** to let the Oauth2 application access your respective Adobe Workfront account.
 
-   You are automatically redirected to the Workfront Configuration page. 
+   You are automatically redirected to the Workfront configuration page on Experience Manager Guides. 
+
 5. In the custom form dropdown list, select the Adobe Workfront custom form that you created for Experience Manager Guides.
 6. Select **Close and Save**, and then **Apply** to save the changes.  
 
