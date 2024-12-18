@@ -47,10 +47,12 @@ Perform the following steps to access your Adobe Workfront tasks:
 The following features are available on the Workfront tasks page:
 
 * [New task](#create-workfront-tasks): Allows you to create Adobe Workfront tasks right from the Experience Manager Guides interface.
-* [Assigned to you](#assigned-to-you): Lists all tasks that are assigned to you and still active.  
-* [Created by you](#created-by-you): Lists all tasks that you have created and are still active.  
+* [Assigned to you](#managing-tasks-assigned-to-you): Lists all tasks that are assigned to you and still active.  
+* [Created by you](#managing-tasks-created-by-you): Lists all tasks that you have created and are still active.  
 
-The Workfront tasks page also includes a link out icon ![](./images/Smock_LinkOut_18_N.svg), which, when selected, takes you to the Adobe Workfront project dashboard. 
+The Workfront tasks page also includes a link out icon ![](./images/Smock_LinkOut_18_N.svg), which, when selected, takes you to the Adobe Workfront project page. On this project page, you can view task details, view comments, add comments, and access other features based on the permissions that are mapped with your Adobe Workfront account. 
+
+For more details, view [Overview of the Project, Task, and Issue dates in Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates).
 
 ### Create Workfront tasks
 
@@ -73,13 +75,29 @@ Perform the following steps to create a new Adobe Workfront task:
     * **Assignee**: Select an assignee for the task.  
 3.  In the **Assets** tab, select **Add** to attach an asset to this task. 
 
-    ![](./images/workfront-create-tasks-asset.png){width="300" align="left"}
+     ![](./images/workfront-create-tasks-asset.png){width="300" align="left"}
+    
+    * For authoring, publishing, and translation tasks, you are prompted to select the location of the required topic in the **Select path** dialog box. The selected topic is added to the task as soon as the **Create** button is selected.
+     
+        ![](./images/attach-asset.png){width="300" align="left"}
+    
+    * For review tasks, you are first prompted to select Asset type (Map or Topics), and then the selected topics are displayed as following:
+        
+        ![](./images/attach-asset-topics.png){width="300" align="left"}
+
+        In this case, the following actions are available to modify your selection before sending for review:
+
+        * Unselect some topics or remove all topics from the list. 
+        * Filter the topic list based on document state.
+        * Edit or set the version of selected topics to **Latest version** or **Version on** as per the need. 
+        
+        For more details, view [send topics for review](./review-send-topics-for-review.md).        
+          
 
     >[!NOTE]
     >
     > Attaching an asset to a task provides assignees quick access to a topic, map or any other file they need to work upon. For authoring, publishing, and translation tasks, attaching an asset is optional but can be helpful to streamline workflows. However, for review tasks, attaching an asset is mandatory. 
 
-    > For more details on attaching assets to various task types, view [manage Workfront tasks](). 
 4. Select **Create**.
 
 A new task is created and listed under the **Created by you** tab. 
@@ -88,7 +106,7 @@ A new task is created and listed under the **Created by you** tab.
 >
 > As a project manager, you can view this newly created task in your Workfront dashboard along with other key task details.
 
-### Created by you
+### Managing tasks created by you
 
 All tasks that you have created and are still active are displayed in the **Created by you** tab on the Workfront tasks page, giving you key task details like project name, assignees, task creation date, task completion date, and task status. 
 
@@ -108,7 +126,7 @@ Allows you to edit task details added while creating the task. All fields are ed
 
 Displays the task information, including details entered during task creation, task status, and any attached assets. 
 
-### Assigned to you
+### Managing tasks assigned to you
 
 All tasks that are assigned to you and still active are displayed in the **Assigned to you** tab on the Workfront tasks page, giving you key task details like project name, assignees, due date, and task status. 
 
@@ -163,7 +181,7 @@ Perform the following steps to work upon an authoring task:
     ![Authoring tasks in the Your tasks widget](./images/authoring-task-access-your-tasks.png){width="300" align="left"}
     *Caption: Authoring task in the Your tasks widget*
 2. Hover over the task you want to work on and select&nbsp; ![](images/Smock_OpenIn_18_N.svg)&nbsp; to open it. You can also open the task by simply selecting the task. 
-   All authoring tasks open up in the Editor. 
+   All authoring tasks open in the Editor. 
 3. Review the task details in the **Details** tab and select the **Asset** file to open it. 
 
     ![](./images/authoring-task-review-details-editor.png){width="300" align="left"}
@@ -195,21 +213,19 @@ Perform the following steps to work upon a review task assigned to you.
     ![](./images/review-task-access-review-ui.png){width="300" align="left"}
 
 3. Perform the required review. For details on how to review a topic, view [review topics](./review-topics.md).
-4. Once the review is complete, select **Mark as done** to indicate that the task is complete.
+4. Once the review is complete, select **Mark as done**.
 5. Switch to the **Comments** tab to add a comment to this task. These comments will also reflect on the Adobe Workfront project dashboard.  
 
-Marking the task as done by the Reviewer does not indicate the completion of the task. All review tasks are assigned back to the user who created the task (ideally an author who requested for a review). 
+Marking the task as done by the reviewer does not indicate the completion of the task. All review tasks are assigned back to the user who created the task (ideally an author who requested for a review). 
 
 Authors can access completed review tasks from the **Assigned to you** tab on the Workfront tasks page.
     
 ![Review tasks in the Author mode](./images/review-task-author-mode.png){width="800" align="left"}
 *Caption: Review task assigned back to authors*
     
-Selecting the task or the open icon ![](images/Smock_OpenIn_18_N.svg) opens the task in the Editor where the author can review the reviewer's comments, respond, and re-assign the task to the reviewer if needed. 
+Selecting the task or the open icon ![](images/Smock_OpenIn_18_N.svg) opens the task in the Editor where the author can review the reviewer's comments, edit the task by updating the version of the topics, and then re-assign the task back to reviewer if needed. 
 
-This process forms a continuous cycle, where the task moves back and forth between the author and reviewer until it is fully completed.
-   
-Once all the suggested changes are incorporated, the author can complete the task by selecting **Mark as Done**. 
+This process forms a continuous cycle, where the task moves back and forth between the author and reviewer until it is fully completed. Once all the suggested changes are incorporated, the author can complete the task by selecting **Mark as Done**. 
 
 ### Translation tasks
 

@@ -7,7 +7,7 @@ level: Experienced
 ---
 # Configure Adobe Workfront
 
-Adobe Workfront is a cloud-based work management solution that helps teams and organizations plan, track and manage their work efficiently. The integration between Experience Manager Guides and Adobe Workfront gives you access to robust project management features on top of Experience Manager Guides core CCMS capabilities, allowing you to plan, allocate, and track tasks more efficiently.  
+Adobe Workfront is a cloud-based work management solution that helps teams and organizations plan, track and manage their work efficiently. The integration between Experience Manager Guides and Adobe Workfront gives you access to robust project management features on top of Experience Manager Guides core CCMS capabilities, allowing you to plan, allocate, and track tasks efficiently.  
 
 Learn more about [Adobe Workfront integration](../user-guide/workfront-integration.md) in Experience Manager Guides.
 
@@ -15,7 +15,7 @@ Learn more about [Adobe Workfront integration](../user-guide/workfront-integrati
 
 Before getting started, ensure that: 
 
-1. You have standard access to Adobe Workfront and Administrator access to Experience Manager Guides.
+1. You have standard access to Adobe Workfront and administrator access to Experience Manager Guides.
 2. You [create a new custom form in Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) required for Experience Manager Guides by specifically using the below fields: 
 
     | Field type | Label| Name | Choices (Show values enabled) |
@@ -26,7 +26,7 @@ Before getting started, ensure that:
     |Text with formatting|Reviewer List   | reviewer-list  | -  |
     |Single line text| Review URL   | review-url  | - |
 
-### Get Started 
+### Get started 
 
 Perform the following steps to configure Adobe Workfront in Experience Manager Guides. 
 
@@ -37,7 +37,7 @@ Perform the following steps to configure Adobe Workfront in Experience Manager G
 
    ![](.images/configure-workfront.PNG){width="800" align="left"}
    
-3. On the **Workfront configuration** page, enter the full URL of your organization's Workfront Domain, Client ID, and Client Secret Key.  
+3. On the **Workfront configuration** page, enter the full URL of your organization's Workfront Domain, Client ID, and Client Secret key.  
    
    To access the **Client ID** and **Client Secret** key configured in your Adobe Workfront setup, navigate to `Setup >> oAuth2 Applications`. 
 
@@ -45,14 +45,12 @@ Perform the following steps to configure Adobe Workfront in Experience Manager G
 4. Select **Login and verify**. 
 
    You are redirected to the Adobe Workfront Sign in page.
-
-
 5. Sign in using your Adobe Workfront email address, and then select **Allow access** to let the Oauth2 application access your respective Adobe Workfront account.
 
    You are automatically redirected to the Workfront configuration page on Experience Manager Guides. 
 
-5. In the custom form dropdown list, select the Adobe Workfront custom form that you created for Experience Manager Guides.
-6. Select **Close and Save**, and then **Apply** to save the changes.  
+6. In the custom form dropdown list, select the Adobe Workfront custom form that you created for Experience Manager Guides.
+7. Select **Close and Save**, and then **Apply** to save the changes.  
 
 Once configured, [add users to Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) using the same email addresses they have in Experience Manager Guides. 
 
