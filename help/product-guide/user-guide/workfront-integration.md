@@ -50,7 +50,7 @@ The following features are available on the Workfront tasks page:
 * [Assigned to you](#managing-tasks-assigned-to-you): Lists all tasks that are assigned to you and still active.  
 * [Created by you](#managing-tasks-created-by-you): Lists all tasks that you have created and are still active.  
 
-The Workfront tasks page also includes a link out icon ![](./images/Smock_LinkOut_18_N.svg), which, when selected, takes you to the Adobe Workfront project page. On this project page, you can view task details, view comments, add comments, and access other features based on the permissions that are mapped with your Adobe Workfront account. 
+The Workfront tasks page also includes a link out icon ![](./images/Smock_LinkOut_18_N.svg), which, when selected, takes you to the Adobe Workfront project page. Here, you can view task details, view comments, add comments, and access other features based on the permissions that are mapped with your Adobe Workfront account. 
 
 For more details, view [Overview of the Project, Task, and Issue dates in Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates).
 
@@ -78,7 +78,7 @@ Perform the following steps to create a new Adobe Workfront task:
      ![](./images/workfront-create-tasks-asset.png){width="300" align="left"}
     
     * For authoring, publishing, and translation tasks, you are prompted to select the location of the required topic in the **Select path** dialog box. The selected topic is added to the task as soon as the **Create** button is selected.
-     
+
         ![](./images/attach-asset.png){width="300" align="left"}
     
     * For review tasks, you are first prompted to select Asset type (Map or Topics), and then the selected topics are displayed as following:
@@ -104,7 +104,7 @@ A new task is created and listed under the **Created by you** tab.
 
 >[!NOTE]
 >
-> As a project manager, you can view this newly created task in your Workfront dashboard along with other key task details.
+> As a project manager, you can view this newly created task in your Adobe Workfront dashboard along with other key task details. For more details, view [understand dashboards](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Managing tasks created by you
 
