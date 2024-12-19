@@ -51,15 +51,16 @@ The step by step process to remove the Contens title from bookmarks is as follow
 
 Before the change:
 
-```css
+```
 <h1 class="toc-title">Contents</h1>
 ```
 
 After the change:
 
-```css
+```
 <p class="toc-title">Contents</p>
 ```
+
 Save the changes and re-generate the output. 
 
 
