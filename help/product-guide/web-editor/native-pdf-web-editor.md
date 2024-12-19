@@ -170,6 +170,11 @@ Configure the print production settings to assign printer marks, select color mo
 * **Media Box size**: This is the overall page size including the extended area occupied by printer marks. Use the drop-down option to select the page size for your PDF output or create your own custom size.
 
 * **Color Space**: You are given an option to choose from RGB or CMYK color spaces to print your PDF document. Choose RGB to display the generated PDF digitally and CMYK for physical printing. Colors defined in the document are converted to the chosen color space.
+
+* **ICC profile**: Here, you can manage color accuracy across devices by specifying an ICC profile. This ensures consistent color rendering in the printed output. 
+
+To configure this setting, specify the ICC profile file path on your server and provide the ICC profile name for easy identification. Alternatively, if the ICC profile is stored online, you can provide its URL instead of the file path.
+
     >[!NOTE]
     >
     >An ICC color profile is necessary for PDF/A creation if using CMYK color space.
