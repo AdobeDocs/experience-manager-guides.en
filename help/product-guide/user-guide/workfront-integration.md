@@ -249,7 +249,7 @@ You can perform various translation actions on Adobe Workfront translation tasks
 
 Perform the following steps to work upon a translation task: 
 
-1. Access the task either from the **Your tasks** widget or **Assigned to you** tab. 
+1. Access the task either from the [Overview](#accessing-assigned-tasks-from-overview-section) section or [Assigned to you](#managing-tasks-assigned-to-you) tab. 
 
    ![Translation tasks in the Assigned to you tab](./images/translation-tasks-access.png){width="300" align="left"}
     *Caption: Translation task in the Assigned to you tab*
@@ -277,7 +277,7 @@ As a publisher, you can view details and publish a publishing task assigned to y
 
 Perform the following steps to work upon a publishing task: 
 
-1. Access the task either from the **Your tasks** widget or **Assigned to you** tab.
+1. Access the task either from the [Overview](#accessing-assigned-tasks-from-overview-section) section or [Assigned to you](#managing-tasks-assigned-to-you) tab. 
 
     ![Publishing tasks in the Assigned to you tab](./images/publishing-tasks-access.png){width="300" align="left"}
     *Caption: Publishing task in the Assigned to you tab*
