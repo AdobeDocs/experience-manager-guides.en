@@ -21,7 +21,7 @@ With the Experience Manager Guides and Adobe Workfront integration, you can:
 * Receive email notifications from Adobe Workfront whenever new tasks are assigned. For more details, view [Notifications overview](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications).
 * Monitor project health using Adobe Workfront's intuitive dashboard, offering real-time insights into project performance. 
 
-    Learn about the Adobe Workfront's robust project management capabilities enabled for project managers through this integration.
+    To learn about the Adobe Workfront's robust project management capabilities enabled for project managers through in Experience Manager Guides, view [Plan a project overview](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
 
 ## Get started 
 
@@ -232,14 +232,12 @@ Marking the task as done by the reviewer does not indicate the completion of the
 >
 If the task is assigned to multiple reviewers, then it is re-assigned to the task creator only after all reviewers have marked it as done. 
 
-Review tasks re-assigned to the creator/authors for review incorporation, can be accessed from [Overview](#accessing-assigned-tasks-from-overview-section) section or from [Assigned to you](#managing-tasks-assigned-to-you) tab. For such tasks,the task state for the assignee changes to **Authoring** while the task type remains as **Review**. 
+Review tasks re-assigned to the creator/authors for review incorporation, can be accessed from [Overview](#accessing-assigned-tasks-from-overview-section) section or from [Assigned to you](#managing-tasks-assigned-to-you) tab. 
 
-
-
-Authors can access completed review tasks from the **Assigned to you** tab on the Workfront tasks page.
-    
 ![Review tasks in the Author mode](./images/review-task-author-mode.png){width="800" align="left"}
-*Caption: Review task assigned back to authors*
+*Caption: Review task assigned back to authors* 
+
+For such tasks,the task state for the assignee changes to **Authoring** while the task type remains as **Review**. 
     
 Selecting the task or the open icon ![](images/Smock_OpenIn_18_N.svg) opens the task in the Editor where the author can [address review comments](../user-guide/review-address-review-comments.md), edit the task by updating the version of the topics, and then re-assign the task back to reviewer if needed. 
 
