@@ -44,23 +44,26 @@ For more information, see [Generate a PDF output](#generate-pdf-output).
 
 ## Create a PDF output preset {#create-output-preset}
 
-The first step in generating a PDF output is to create a PDF output preset, which is a collection of publishing properties assigned to a map. You can create an output preset for any map which is open in the Map View panel or configure an existing preset to quickly generate a PDF for the same map. 
+The first step in generating a PDF output is to create a PDF output preset, which is a collection of publishing properties assigned to a map. You can create an output preset for any map which is open in the Map console or configure an existing preset to quickly generate a PDF for the same map. 
 
 From the PDF output preset you can select a template, apply conditions, set restrictions to control how a user interacts with your PDF, configure advanced settings like compression, conformance, and more.  
 
 To create or configure a PDF output preset: 
 
-1. In the Output tab, click **Presets** in the left sidebar. 
-The Preset panel opens. <br>
- <img src="assets/preset-panel.png" alt="preset panel" width=600>
+1. Open the map file in **Map console**. 
 
-1. In the output **Presets** panel, do one of the following:  
+   The **Output presets** panel opens. <br>
+
+    <img src="assets/preset-panel.png" alt="preset panel" width=600>
+
+1. In the **Output Presets** panel, do one of the following:  
    * Double-click a predefined PDF output preset to view it.
-   * Click the + icon against **Presets** to add a new output preset of **Type: PDF**  
+   * Select ![](assets/Smock_Add_18_N.svg) located next to Output presets to add a new output preset of **Type: PDF**.
 
 1. To configure settings of an existing PDF preset:   
-   * Click the  **Options** ![options](assets/options.svg) icon next to the desired output Preset and select **Edit**. 
-You can use the following settings in the **General**, **Metadata**, **Layout**, **Security**, and **Advanced** tabs to configure a PDF output preset: 
+   * Double-click the PDF output preset and the settings would display on the right. Edit the settings to modify the preset. 
+
+You can use the following settings in the **General**, **Metadata**, **Layout**, **Security**, **Print**, and **Advanced** tabs to configure a PDF output preset: 
 
 **General**
 
@@ -149,6 +152,10 @@ Protect your PDF by adding restrictions to open and read the file. Use the below
 |  **Set the document restrictions**  | Select to restrict how users can interact with your PDF. Specify a password in the **Owner Password** field for the below restriction settings to work.  <br><ul><li> **Printing** Select to allow a user to print the PDF. <br> <li> **Draft quality printing** Select to allow a user to print the PDF in a lower resolution.  <br> <li> **Content copying** Select to allow a user to copy contents from the PDF.   <br> <li> **Annotations** Select to allow a user to add a note or comment in the PDF.  <br> <li> **Content modifications** Select to allow a user to alter the contents in the PDF.  <br> <li> **Content copying for accessibility** Select to allow screen readers to read and navigate content in PDF.  <br>  **Document assembly** Select to allow users to insert pages in the PDF.  <br> **Note**: The users need to enter the owner password to change any restrictions from the File > Properties in Adobe Acrobat. |  
 
 ### Print
+
+>![NOTE]
+>
+> Starting with the Experience Manager Guides 5.0/2025.02.0 release, the Print section is now part of the **Output presets** panel. 
 
 Configure the print production settings to assign printer marks, select color models, and specify properties related to printing of your PDF output.
 

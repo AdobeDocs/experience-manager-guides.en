@@ -89,7 +89,6 @@ While CSS files are provided for content and layout, you can create a new styles
 
 By default, whenever you create a new page layout, the `layout.css` file is included within the new page layout. If you want the page layout to contain styles from a different CSS file, then you can simply drag-and-drop the desired CSS file on the new page layout's content editing area. To validate if the CSS file has been embedded within the page layout, switch to the Source view and you will find a link to the CSS file in the `<head>` element.  
 
-
 To create a stylesheet, follow the below steps:
 1. In the **Templates** panel, do one of the following:
    * Hover over the **Stylesheets** tab and click the (*Options* icon) **...** and choose **New Stylesheet**.
@@ -192,6 +191,10 @@ The selected file is imported and listed under the Resources folder.
 
 Use the Settings section to configure the advanced settings for PDF's page layout, starting PDF from odd or even page, formats for the cross-references, and enabling printing marks in the final PDF that's generated
 using the template.
+
+>![NOTE]
+>
+> Starting with Experience Manager Guides 5.0/2025.02.0 release, the **Print** section in Advanced PDF settings has been moved to the **Output presets** panel. To configure Print settings, view [Publish PDF output](../web-editor/native-pdf-web-editor.md#print).
 
 To configure, click **Settings** in the **Templates** panel to view the following options:
 
