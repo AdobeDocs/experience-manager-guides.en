@@ -15,17 +15,18 @@ Learn about [upgrade instructions for the 4.6.0 Service Pack 2 release](upgrade-
 
 - All condition groups are lost and the conditions become flattened on updating the conditions from the folder profile. (23526)
 - Changing the header rows value for a table in the **Content properties** panel does not apply the updated value. (23213)
-- When adding new topic files in DITA map using **Topic reference** option on the layout view, it shows a broken link. (22859)
-- When adding topics using **Topic reference** option, the selected topics are inserted in reverse order. (22858)
-- If an external link contains a UUID pattern, it breaks the link. (22574)
+- When adding new topic references in DITA map using **Topic reference** element dialog in the layout view, the added references are shown as broken link. (22859)
+- When adding topics in DITA map using **Topic reference** element dialog in the author view, the selected topics are inserted in reverse order of being selected. (22858)
 
 ## Publishing
 
-- An endless in-progress screen with no error message is shown when some articles are published on Salesforce. (23664)
-- The `xref` does not retain the relative link even when the **scope** of link is set to **external**. (23059)
-- For topics having errors like broken links, the Salesforce publishing fails and  progress bar is shown indefinitely. (22985)
+- Publishing to Salesforce fails when content contains non breaking spaces. (23664)
+- The `xref` converts to relative link even when the **scope** of link is set to **external**. (23059)
+- For topics having errors like broken links, the Salesforce publishing fails and progress bar is shown indefinitely. (22985)
 - Native PDF generation fails for content with **chunk** attribute set to **to-content**. (21772)
+- If an external link contains a UUID, it goes in post processing and converts the external link to UUID link thereby breaking the link on web editor and also on the publishing sites. (22574)
+- When choosing **Edit properties**, the baseline dialog does not show the previously saved criteria for dynamic baseline. (23964)
 
 ## Translation
 
-- During translation, moving a topic in the source path (en_us) to a different folder results in broken references in the target locale. (24152)
+- During latest translation (for non-UUID), moving a topic in the source path to a different folder results in broken references in the target locale. (24152)
