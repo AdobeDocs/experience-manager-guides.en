@@ -33,7 +33,9 @@ Perform the following steps to configure Adobe Workfront in Experience Manager G
 1. Open the **Tools panel** and select **Guides**.  
 2. Select **Configure Workfront**. 
 
-   The **Workfront configuration** page is displayed. 
+   The **Workfront configuration** page is displayed.
+
+   ![](assets/configure-workfront-page.png) 
      
 3. On the **Workfront configuration** page, enter the full URL of your organization's Workfront domain, Client ID, and Client Secret key.  
    
