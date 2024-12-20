@@ -384,6 +384,10 @@ Once a table is inserted, you can modify table using the context menu.
 
 ![](images/table-context-menu_cs.png){width="550" align="left"}
 
+>![NOTE]
+>
+> You can also copy a table from MS Word or Excel and paste it into Experience Manager Guides topic file. The copied table will be pasted as either `<simpletable>` or `<tgroup>` depending on the settings configured in the XML Editor Configuration. 
+
 Using the table's context menu, you can:
 
 - Insert cells, rows, or columns
