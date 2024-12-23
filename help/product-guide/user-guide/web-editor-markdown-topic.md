@@ -51,15 +51,15 @@ The top-header is the top bar of the Editor interface. Features available in the
  ![](images/markdown-header.png){width="550" align="left"}
 
 
-* **Topic tab**: Displays the currently opened topic in a tab. By default, you can view the file titles in the tab. As you hover over a file, you can view the file title and the file path as a tooltip.
+* **Topic tab**: Displays the currently opened topics in a tab. By default, you can view the file titles in the tab. As you hover over a file, you can view the file title and the file path as a tooltip.
 
     >![NOTE]
     >
     > As an administrator, you can also choose to view the list of files by filenames in the tabs. View [User preferences](/intro-home-page.md#user-preferences) for details.
 * **Save all**: Saves the changes you have made in all opened topics. If you have multiple topics opened in the Editor, selecting **Save all** or pressing `Crtl+S` shortcut keys saves all documents in one click. You do not have to individually save each document.
 * **AI Assistant**: [AI-powered Smart Help](./ai-based-smart-help.md) feature that helps you find relevant content from the Adobe Experience Manager Guides Documentation.
-* **More actions**: Allows you to navigate to the Assets UI. 
-* **Expand view**: Allows you to expand the page view using the Expand icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the Exit the expanded view icon.
+* **More actions**: Allows you to navigate to the **Assets UI** and **Settings**. 
+* **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon.
 
 ### Main toolbar
 
