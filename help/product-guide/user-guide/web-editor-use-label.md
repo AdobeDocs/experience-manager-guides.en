@@ -7,7 +7,7 @@ role: User
 ---
 # Use labels {#id164JBG0M0T1}
 
-AEM Guides allows you to add labels to different versions of a file. You can use these labels to specify the version that you want to include in a baseline for publishing. For more information about using labels to create a baseline, see [Work with Baseline](generate-output-use-baseline-for-publishing.md#).
+Adobe Experience Manager Guides allows you to add labels to different versions of a file. You can use these labels to specify the version that you want to include in a baseline for publishing. For more information about using labels to create a baseline, see [Work with Baseline](generate-output-use-baseline-for-publishing.md#).
 
 For example, if you want to use *version 1.0* of a topic in *release 1.0* and *version 1.1* of the same topic in *release 2.0*, you can add *release 1.0* label on the *version 1.0* and *release 2.0* label on the *version 1.1*.
 
@@ -17,10 +17,9 @@ Once you have added the labels, you can create a baseline and specify which vers
 
 Perform the following steps to add a label to your topic:
 
-1.  In the Assets UI, select a topic
-1.  Click the left rail selector icon and select **Version History**.
-1.  In the Version History, click a version where you want to add a label.
-
+1.  In the Assets UI, select a topic, and open it.
+1.  Select the left rail selector icon and select **Version History**.
+1.  In the Version History dropdown, select a version where you want to add a label.
 1.  Enter a label for the selected version and press Enter. For example, *2.6 Release*.
 
     >[!NOTE]
@@ -40,13 +39,13 @@ Perform the following steps to add a label to your topic:
 Perform the following steps to delete a label:
 
 1.  In the Assets UI, select a topic that has a label added to it.
-1.  Click the left rail selector icon and select **Version History**.
+1.  Select the left rail selector icon and select **Version History**.
 
     In the Version History, you will see all the versions of a topic and the labels attached to them. The following image shows an example of different versions of a topic and one version has labels added to it.
 
     ![](images/labels.png){width="300" align="left"}
 
-1.  Click the delete button \(**X**\) to delete the label.
+1.  Select the delete button \(**X**\) to delete the label.
 
     ![](images/delete-labels.png){width="300" align="left"}
 

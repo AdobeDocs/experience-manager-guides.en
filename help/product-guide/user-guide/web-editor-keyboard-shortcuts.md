@@ -1,13 +1,13 @@
 ---
-title: Keyboard shortcuts in the Web Editor
+title: Keyboard shortcuts in the Editor
 description: Discover time-saving keyboard shortcuts in the web editor of AEM Guides.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
 ---
-# Keyboard shortcuts in the Web Editor {#id2056B0A0WHT}
+# Keyboard shortcuts in the Editor {#id2056B0A0WHT}
 
-There are many operations in the Web Editor that you can perform using the keyboard shortcuts. The following table lists these keyboard shortcuts:
+There are many operations in the Editor that you can perform using the keyboard shortcuts. The following table lists these keyboard shortcuts:
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ There are many operations in the Web Editor that you can perform using the keybo
 |Focus on the current editor|**Ctrl***+**Shift**+***0***|***Command***+**Shift**+***0***|
 |Save document in Author or Source view|***Ctrl***+**Shift**+***S***|***Command***+**Shift**+***S***|
 |Save all opened documents in Author or Source view|***Ctrl***+***S***|***Command***+***S***|
-|Show Insert Element dialog|***Alt***+***Enter***|***Option***+***Enter***|
+|Show Insert Element dialog|***Alt***+***1***|***Option***+***Enter***|
 |Show Insert Element dialog to insert element before the selected element|***Alt***+***Shift***+***Enter***|***Option***+***Shift***+***Enter***|
 |Move the cursor one word to the left.|***Ctrl***+***Left Arrow***| ***Option***+***Left Arrow***|
 |Move the cursor one word to the right.|***Ctrl***+***Right Arrow***|***Option***+***Right Arrow***|
