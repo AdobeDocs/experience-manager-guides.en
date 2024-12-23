@@ -7,7 +7,7 @@ role: User
 ---
 # Author Markdown documents from the Editor {#id223MIE0B079}
 
-Markdown is a lightweight markup language that can help you add formatting elements to plain text documents. AEM Guides provides the feature to create, author, and preview a Markdown \(.md\) topic from the Editor. You can also upload the existing Markdown documents and edit them in the Editor.
+Markdown is a lightweight markup language that can help you add formatting elements to plain text documents. Adobe Experience Manager Guides provides the feature to create, author, and preview a Markdown \(.md\) topic from the Editor. You can also upload the existing Markdown documents and edit them in the Editor.
 
 ## Create a Markdown topic 
 
@@ -41,7 +41,7 @@ This section walks you through the various features that are available in the Ed
 * [Top header](#top-header)
 * [Main toolbar](#main-toolbar)
 * [Content editing area](#content-editing-area)
-* [Footer](#footer)
+* [Source, Side-by-side, and Preview modes](#source-side-by-side-and-preview-modes)
 * [Right panel](#right-panel)
 
 ### Top header
