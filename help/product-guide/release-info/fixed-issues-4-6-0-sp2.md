@@ -26,6 +26,7 @@ Learn about [upgrade instructions for the 4.6.0 Service Pack 2 release](upgrade-
 - Native PDF generation fails for content with **chunk** attribute set to **to-content**. (21772)
 - If an external link contains a UUID, it goes in post processing and converts the external link to UUID link thereby breaking the link on web editor and also on the publishing sites. (22574)
 - When choosing **Edit properties**, the baseline dialog does not show the previously saved criteria for dynamic baseline. (23964)
+- For maps having broken links, the Salesforce publishing fails and progress bar is shown indefinitely. (24963)
 
 ## Translation
 
