@@ -5,11 +5,11 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Configure display of pastd tables
+# Configure display of pasted tables
 
-Using the secondary toolbar in the Editor, you can insert a simple table at the current or next valid location in a topic file. You can also copy a table from Microsoft Word or Excel and paste it directly into a topic file.
+Using the secondary toolbar in the Editor, you can insert a simple table at the current or next valid location of a topic. You can also copy a table from Microsoft Word or Excel and paste it directly into a topic file.
 
-Administrators can configure how copied tables are displayed. By default, tables copied from Microsoft Word or Excel are converted to `<simpletable>`. However, you can change this setting to display copied tables as `<tgroup>` by updating the XML Editor Configuration setting.
+Administrators can configure how copied tables are displayed. By default, such copied tables are displayed as `<simpletable>` in the editor if they include edits or merged rows/columns. However, you can change this setting to display copied tables as `<tgroup>` by updating the XML Editor Configuration setting.
 
 To update the default table format, perform the following steps:
 

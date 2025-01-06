@@ -24,6 +24,8 @@ AEM Guides comes bundled with a powerful Web Editor that allows your authors to 
 
 -   **[Configure display of UUID-based links](conf-uuid-based-links.md)**  
 
+-   **[Configure display of pasted tables](conf-pasted-tables)**
+
 -   **[Open DITA topic or map files in same tab](open-dita-files-same-tab.md)**  
 
 -   **[Configure a custom panel in the left panel](configure-custom-panel.md)**  
@@ -53,3 +55,5 @@ AEM Guides comes bundled with a powerful Web Editor that allows your authors to 
 -   **[Set the Advanced Map Editor as default](conf-map-editor.md)**  
 
 -   **[Include @navtitle attribute by default](auto-add-navtitle.md)**
+
+
