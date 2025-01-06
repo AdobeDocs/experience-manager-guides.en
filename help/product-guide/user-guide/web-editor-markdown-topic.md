@@ -90,8 +90,8 @@ For markdown authoring, the Editor supports three different viewing modes to ass
 
 ![](images/markdown-footer.png){width="550" align="left"}
 
-* Side-by-side
 * Source
+* Side-by-side
 * Preview
 
 **Source**
