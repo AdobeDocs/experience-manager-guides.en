@@ -72,6 +72,7 @@ Perform the following steps to review a topic:
 1.  Open the Comments panel by clicking the **Comments** icon at the top-right corner of the toolbar.
 
     Provide review comments by selecting an appropriate comment type from the toolbar and press Enter to submit your comment.
+    The comment box supports multi-line entries and allows users to expand it as needed for providing comprehensive comments.
 
     >[!NOTE]
     >
@@ -134,7 +135,7 @@ The tasks that you can perform using the Comments panel are described below:
     >
     > The Options menu appears only when you hover over your own comments. It is not displayed for the comments by other reviewers.
 
--   All participating users can respond to comments submitted by other users. On a comment, click **Reply** and press Enter to submit a response.
+-   All participating users can respond to comments submitted by other users. On a comment, click **Reply** and press Enter to submit a response. The reply box is multi-line and expandable, which helps users provide detailed replies to comments.
 
 **Preview mode**
 
