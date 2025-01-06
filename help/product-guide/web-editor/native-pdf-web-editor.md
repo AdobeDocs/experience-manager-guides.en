@@ -52,18 +52,19 @@ To create or configure a PDF output preset:
 
 1. Open the map file in **Map console**. 
 
-   The **Output presets** panel opens. <br>
-
-    <img src="assets/preset-panel.png" alt="preset panel" width=600>
+   The **Output presets** panel opens.   
 
 1. In the **Output Presets** panel, do one of the following:  
    * Double-click a predefined PDF output preset to view it.
    * Select ![](assets/Smock_Add_18_N.svg) located next to Output presets to add a new output preset of **Type: PDF**.
-
+  
 1. To configure settings of an existing PDF preset:   
    * Double-click the PDF output preset and the settings would display on the right. Edit the settings to modify the preset. 
 
 You can use the following settings in the **General**, **Metadata**, **Layout**, **Security**, **Print**, and **Advanced** tabs to configure a PDF output preset: 
+
+<img src="assets/preset-panel.png" alt="preset panel" width=600> 
+
 
 **General**
 
@@ -155,7 +156,7 @@ Protect your PDF by adding restrictions to open and read the file. Use the below
 
 >![NOTE]
 >
-> Starting with the Experience Manager Guides 5.0/2025.02.0 release, the Print section is now part of the **Output presets** panel. 
+> Starting with the Experience Manager Guides 5.0/2025.02.0 release, the Print section is now part of the **Native PDF Output presets**. 
 
 Configure the print production settings to assign printer marks, select color models, and specify properties related to printing of your PDF output.
 
