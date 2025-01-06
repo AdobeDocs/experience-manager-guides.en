@@ -38,15 +38,15 @@ Perform the following steps to create a Markdown topic from the Editor:
 
 This section walks you through the various features that are available in the Editor for Markdown topic authoring. The authoring interface is divided into the following sections or areas:
 
-* [Top header](#top-header)
 * [Main toolbar](#main-toolbar)
+* [Secondary toolbar](#secondary-toolbar)
 * [Content editing area](#content-editing-area)
 * [Source, Side-by-side, and Preview modes](#source-side-by-side-and-preview-modes)
 * [Right panel](#right-panel)
 
-### Top header
+### Main toolbar
 
-The top-header is the top bar of the Editor interface. Features available in the top header are explained as follows:
+The main toolbar is the top bar of the Editor interface. Features available in the main toolbar are explained as follows:
 
  ![](images/markdown-header.png){width="550" align="left"}
 
@@ -55,15 +55,15 @@ The top-header is the top bar of the Editor interface. Features available in the
 
     >![NOTE]
     >
-    > As an administrator, you can also choose to view the list of files by filenames in the tabs. View [User preferences](/intro-home-page.md#user-preferences) for details.
+    > As an administrator, you can also choose to view the list of files by filenames in the tabs. View [User preferences](./intro-home-page.md#user-preferences) for details.
 * **Save all**: Saves the changes you have made in all opened topics. If you have multiple topics opened in the Editor, selecting **Save all** or pressing `Crtl+S` shortcut keys saves all documents in one click. You do not have to individually save each document.
 * **AI Assistant**: [AI-powered Smart Help](./ai-based-smart-help.md) feature that helps you find relevant content from the Adobe Experience Manager Guides Documentation.
-* **More actions**: Allows you to navigate to the **Assets UI** and **Settings**. 
+* **More actions**: Allows you to navigate to the **Assets UI**. As an administrator, you also get an option to navigate to the **Settings** page. Learn how to work with [settings](./web-editor-features.md#main-toolbar) or editor settings. 
 * **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon.
 
-### Main toolbar
+### Secondary toolbar
 
-The main toolbar is located just below the top-header. Features available in the main toolbar are explained as follows:
+The secondary toolbar is located just below the main toolbar. Features available in the secondary toolbar are explained as follows:
 
  ![](images/markdown-main-toolbar.png){width="550" align="left"}
 
@@ -86,11 +86,34 @@ The content editing area is where the content of your markdown topic is displaye
 
 ### Source, Side-by-side, and Preview modes
 
-At the bottom-right corner of the content editing area, you get options to view Source view, Side-by-side view, and Preview of the currently opened topic. 
+For markdown authoring, the Editor supports three different viewing modes to assist with content creation and formatting:
 
 ![](images/markdown-footer.png){width="550" align="left"}
 
-For details about the various authoring and document viewing modes, view [Editor views](./web-editor-views.md).
+* Side-by-side
+* Source
+* Preview
+
+**Source**
+
+This is the markdown code view of the Editor. You can edit markdown topics as you would do in any regular markdown editor. In the Source view, you have the options to save a revision of the document, insert headings, insert table, insert image, and more.
+
+Use this view if you want to focus solely on writing and editing the raw markdown without viewing the rendered output.
+
+**Side-by-side**
+
+This mode splits the Editor into two panels:
+
+* The Source panel that displays the markdown topic you are editing.
+* The Preview Panel that shows the rendered output of the markdown topic in real time.
+
+![](images/markdown-topic-side-by-side.png){width="550" align="left"}
+
+Use this view if you want to view the rendered output in realtime as you edit markdown topics.
+
+**Preview**
+
+Opening a markdown topic in the Preview mode shows how a topic will be displayed when it is viewed by a user in their browser. In this view, all the editing features are removed from the toolbar. However, you can stil access the **Save as new versions**, **Lock/unlock** features in the toolbar, and the **File properties** feature in the right panel. 
 
 ### Right panel
 
