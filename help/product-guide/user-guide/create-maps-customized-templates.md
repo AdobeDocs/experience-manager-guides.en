@@ -17,7 +17,7 @@ You can refer to other map templates and topic templates from the customized map
 
 ## Create customized templates 
 
-AEM Guides allows you to create customized maps and topics from the dita-templates folder. You can use these customized templates to create your map and topic. You can also share these templates with your authors, and they can use them to create their files. Using these templates, you can allow the authors to keep separate copies of certain resources which are inside the templates folder.
+Adobe Experience Manager Guides allows you to create customized maps and topics from the dita-templates folder. You can use these customized templates to create your map and topic. You can also share these templates with your authors, and they can use them to create their files. Using these templates, you can allow the authors to keep separate copies of certain resources which are inside the templates folder.
 
 >[!NOTE]
 >
@@ -25,11 +25,10 @@ AEM Guides allows you to create customized maps and topics from the dita-templat
 
 
 You can create map and topic templates in the following ways:
-1. Templates pane of the [Left panel](./web-editor-features.md#left-panel-id2051ea0m0hs)
+1. Templates pane of the [Left panel](./web-editor-features.md#templates)
 1. [Templates in Assets UI](#templates-assets-ui)
-1. [Options menu](#templates-in-assets-ui)
-
-### Templates in Assets UI {#templates-assets-ui}
+1. [Options menu](#options-menu)
+### Templates in Assets UI 
 
 **Topic template**
 
@@ -39,29 +38,29 @@ Perform the following steps to create a topic template:
 
     ![](images/dita-templates.png){width="800" align="left"}
 
-1.  Click **topics** folder to open it.Click **Create \> DITA Template**.
-1.  On the Blueprint page, select **Topic** and then click **Next.**
+1.  Select the **topics** folder to open it. Select **Create \> DITA Template**.
+1.  On the Blueprint page, select **Topic** and then select **Next.**
 1.  On the Properties page, specify the topic template **Title**.
-1.  Specify the file **Name**
+1.  Specify the file **Name**.
 
     >[!NOTE]
     >
     > The file name must have the .dita extension.
 
 1.  \(Optional\) Add a description.
-1.  Click **Create**. The topic template created message appears. You can then open the topic template and edit it.
+1.  Select **Create**. The topic template created message appears. You can then open the topic template and edit it.
 
 **Map template**
 
 Perform the following steps to create a map template:
 
 1.  In the **Assets UI**, navigate to the dita-templates folder.
-1.  Click **maps** folder to open it.
-1.  Click **Create \> DITA Template.**
+1.  Select **maps** folder to open it.
+1.  Select **Create \> DITA Template.**
 
     ![](images/create-dita-template.png){width="300" align="left"}
 
-1.  On the Blueprint page, select **Map** and click **Next**.
+1.  On the Blueprint page, select **Map** and select **Next**.
 1.  On the Properties page, specify the map template **Title**.
 1.  Specify the file **Name**.
 
@@ -69,9 +68,9 @@ Perform the following steps to create a map template:
     >
     > The file name must have the .ditamap extension.
 
-1.  (Optional\) Add a description.Click **Create**. The map template created message appears. You can then open the map template and edit it. You can add the references for the topic templates, map templates, and also other assets in the map template.
+1.  (Optional\) Add a description. Select **Create**. The map template created message appears. You can then open the map template and edit it. You can add the references for the topic templates, map templates, and also other assets in the map template.
 
-### Options menu {#options-menu}
+### Options menu 
 
 To create a map or topic template, perform the following steps:
 
@@ -151,13 +150,13 @@ Example
 
 >[!NOTE]
 >
-> The map template must be configured and made available for authoring by your administrator. For more details, see *Configure authoring templates* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+> The map template must be configured and made available for authoring by your administrator. For more details, view *Configure authoring templates* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 Perform the following steps to create a map using the custom map template:
 
 1.  In the **Assets UI,** navigate to the folder where you want to create the map.
-1.  Click **Create \> DITA Map**.
-1.  On the Blueprint page, select the map template you want to use and click **Next**. For example, if you have created a map template 'test-template', select it.
+1.  Select **Create \> DITA Map**.
+1.  On the Blueprint page, select the map template you want to use and select **Next**. For example, if you have created a map template 'test-template', select it.
 1.  On the Properties page, specify the map **Title**.
 1.  Specify the file **Name**.
 
@@ -165,7 +164,7 @@ Perform the following steps to create a map using the custom map template:
     >
     > The file name must have the .ditamap extension.
 
-1. Click **Create**. The map created message appears.
+1. Select **Create**. The map created message appears.
 
 
 The map generates all assets which are referred to inside the template folder. Some types of assets that are referred in a map can be as follows:

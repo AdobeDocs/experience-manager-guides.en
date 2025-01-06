@@ -7,22 +7,22 @@ role: User
 ---
 # Preview a topic {#id1696II000QR}
 
-Once a topic is created, AEM Guides generates a preview of the topic. The Preview mode provides various features that you can use to work with your document.
+Once a topic is created, Adobe Experience Manager Guides generates a preview of the topic. The Preview mode provides various features that you can use to work with your document.
 
 Perform the following steps to preview a topic:
 
 1.  In the Assets UI, navigate to the topic that you want to view.
-1.  Click on the topic you want to view.
+1.  Click the topic you want to view.
 
     A preview of the topic is displayed in the Assets UI.
 
     >[!NOTE]
     >
-    > You can see the version of the active topic or DITA map in the top right corner of the topic's file tab.
+    > You can view the version of the active topic or DITA map in the top right corner of the topic's file tab.
 
     >[!IMPORTANT]
     >
-    > The positioning of the following features in the Preview toolbar could differ based on your AEM server's setup. Some of the features might be available in the main toolbar, while other could be available under the More menu.
+    > The positioning of the following features in the Preview toolbar could differ based on your Adobe Experience Manager server's setup. Some of the features might be available in the main toolbar, while other could be available under the More menu.
 
 ## Features available in preview mode
 
@@ -46,11 +46,11 @@ The \(+\) icon in the **Used In** references section allows you to further navig
 
 ![](images/used-in-dialog_cs.png){width="800" align="left"}
 
-Clicking the ![](images/right-arrow-used-in-dialog.svg)icon next to a document shows the map or topic files where that document is being further referred.
+Selecting the ![](images/right-arrow-used-in-dialog.svg)icon next to a document shows the map or topic files where that document is being further referred.
 
 **Conditional Filtering \(A/B\)**
 
-If your topic has conditional content, then you will see the A/B icon on the toolbar. Clicking on this icon opens a pop-up that allows you to filter the content as per the available conditions in the topic.
+If your topic has conditional content, then you will see the A/B icon on the toolbar. Selecting this icon opens a pop-up that allows you to filter the content as per the available conditions in the topic.
 
 >[!NOTE]
 >
@@ -64,15 +64,15 @@ If your topic has conditional content, then you will see the A/B icon on the too
 
 **Key Resolution** 
 
-- If you want to use a keyspace file for the topic, click the Key Resolution icon. You can then choose a key space from the Key Resolution pop-up.
+- If you want to use a keyspace file for the topic, select the Key Resolution icon. You can then choose a key space from the Key Resolution pop-up.
 
 **Source** 
 
-- Open the XML source code of a file. You can view the underlying XML code of a map, topic or DITAVAL file by opening the file in the Preview mode and clicking the Source icon. The XML Source pop-up displays the XML source code. You can select a specific code from the file or press `Ctrl`+`a` to select the entire content.
+- Open the XML source code of a file. You can view the underlying XML code of a map, topic or DITAVAL file by opening the file in the Preview mode and selecting the Source icon. The XML Source pop-up displays the XML source code. You can select a specific code from the file or press `Ctrl`+`a` to select the entire content.
 
     >[!NOTE]
     >
-    > To get the source code view of a DITA map file, select the file in Assets UI and click Source.
+    > To get the source code view of a DITA map file, select the file in Assets UI and select Source.
 
     ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
 
@@ -100,7 +100,7 @@ If you share the link from DITA map console or a file's preview mode, then the u
 
 **Check Out/Check In** 
 
-- Toggles the Check Out and Check In features. When a file is checked out, the current user gets an exclusive write permission on the file. A checked out file can be opened in the Web Editor for editing. Once you have made the required changes, click the Check In icon to save the file in DAM.
+- Toggles the Check Out and Check In features. When a file is checked out, the current user gets an exclusive write permission on the file. A checked out file can be opened in the Web Editor for editing. Once you have made the required change, select the Check In icon to save the file in DAM.
 
 When you check out a topic, the status of the file is shown as checked out in the card view and in the list view.
 
@@ -130,11 +130,11 @@ If the Checked Out column is not visible, select **View Settings** under **List 
 
     1.  Open the topic in Preview mode.
 
-    1.  In the left rail, click **Version History** and select a version.
+    1.  In the left rail, select **Version History** and select a version.
 
         ![](images/timeline-versions62_cs.png){width="800" align="left"}
 
-    1.  From the listed versions, select the one that you want to use as the base version and click **Preview Version**. The preview of the selected version is shown in the Version Preview window.
+    1.  From the listed versions, select the one that you want to use as the base version and select **Preview Version**. The preview of the selected version is shown in the Version Preview window.
 
     1.  From the **Show Diff** list, select the version with which you want to compare the base version.
 
@@ -159,7 +159,7 @@ If the Checked Out column is not visible, select **View Settings** under **List 
 
     For any new topic, the first version is numbered as 1.0. Thereafter, every new version of the topic is saved with an incremental number such as 1.1, 1.2, and so on. Once you create a branch of a topic, a new branch is created taking the version number from where the branch is created and adding a .0 at the end of the version. As seen in the illustration, a new branch is created from version 1.1 of a topic. The new branch is versioned as 1.1.0. Thereafter, every time you save a new version of the topic in this branch, it gets an incremental version number such as 1.1.1, 1.1.2, and so on.
 
-    Similar to branching, you can also revert your working or current version to any version that exists in the repository. To revert to a version, simply select the desired version of the topic and click **Revert to This Version** in the **Version History** panel.
+    Similar to branching, you can also revert your working or current version to any version that exists in the repository. To revert to a version, simply select the desired version of the topic and select **Revert to This Version** in the **Version History** panel.
 
     Perform the following steps to create a branch, revert to a version, and maintain subsequent versions of a topic:
 
@@ -175,7 +175,7 @@ If the Checked Out column is not visible, select **View Settings** under **List 
 
     1.  Select the topic for which you want to create a branch.
 
-    1.  In the left rail, click **Version History**.
+    1.  In the left rail, select **Version History**.
 
         >[!NOTE]
         >
@@ -189,7 +189,7 @@ If the Checked Out column is not visible, select **View Settings** under **List 
         >
         > The current version of a topic contains *\(Current\)* mentioned next to the version number.
 
-    1.  Click **Revert to This Version**.
+    1.  Select **Revert to This Version**.
 
         A message appears asking you to confirm the creation of a new branch.
 
@@ -207,7 +207,7 @@ If the Checked Out column is not visible, select **View Settings** under **List 
 
             ![](images/new_version_without_working_copy.png){width="300" align="left"}
 
-    1.  Click **OK**.
+    1.  Select **OK**.
 
 
     A new branch is created from the selected version of the topic. The above process is also applicable for reverting to a specific version of a topic. Reverting to a specific version technically means that you create a new branch from the selected version and make that version the current working copy of the topic. You can also view the history of files that have been reverted in the Version Revert History report. For more details about this report, see [Reverted files version history report](reports-reverted-file-version-history.md#).

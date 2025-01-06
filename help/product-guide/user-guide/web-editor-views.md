@@ -5,13 +5,17 @@ exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
 ---
-# Web Editor views {#id204GK0D0V5Z}
+# The Editor views {#id204GK0D0V5Z}
 
-AEM Guides' Web Editor supports viewing documents in three different modes or views:
+The Editor interface in Adobe Experience Manager supports viewing documents in three different modes or views:
+
+* [Author](#author)
+* [Source](#source)
+* [Preview](#preview)
 
 ## Author
 
-This is a typical What You See is What You Get \(WYSISYG\) view of the Web Editor. You can edit topic as you would do in any regular rich-text editor. In the Author view, you have the options to save a revision of the document, find and replace content, insert element, insert hyperlink, insert content reference, and more.
+This is a typical **What You See is What You Get** \(WYSISYG\) view of the Editor. You can edit topic as you would do in any regular rich-text editor. In the Author view, you have the options to save a revision of the document, find and replace content, insert element, insert hyperlink, insert content reference, and more.
 
 >[!NOTE]
 >
@@ -115,7 +119,7 @@ There are three **Tracking** options that you can choose from:
 
 ### Export a topic as PDF {#id2114BL00B5U}
 
-PDF is one of the most common output formats that is used at every possible stage of the document development cycle. AEM Guides provides you the flexibility to generate the PDF of an individual topic or an entire map file. Export as PDF feature allows the Author, Publisher, or an Administrator to easily generate the PDF output for an individual topic. It uses the DITA-OT configurations saved at the folder-level profile to generate the PDF.
+PDF is one of the most common output formats that is used at every possible stage of the document development cycle. Experience Manager Guides provides you the flexibility to generate the PDF of an individual topic or an entire map file. Export as PDF feature allows the Author, Publisher, or an Administrator to easily generate the PDF output for an individual topic. It uses the DITA-OT configurations saved at the folder-level profile to generate the PDF.
 
 This feature supports the following functionalities:
 
@@ -128,7 +132,7 @@ To export a topic as PDF, follow these steps:
 
 1.  Open the topic in Preview mode.
 
-1.  Click the **Export as PDF** \(![](images/export-as-pdf-icon.svg)\) icon.
+1.  Select the **Export as PDF** \(![](images/export-as-pdf-icon.svg)\) icon.
 
     The Export as PDF dialog is displayed.
 
@@ -136,7 +140,7 @@ To export a topic as PDF, follow these steps:
 
 1.  *\(Optional\)* Specify the DITA-OT transformation name and any command-line arguments that you want to use.
 
-1.  Click **Download**.
+1.  Select **Download**.
 
     >[!NOTE]
     >

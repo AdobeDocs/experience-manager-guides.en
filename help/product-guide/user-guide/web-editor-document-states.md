@@ -77,15 +77,13 @@ To use the document approval feature, perform the following steps:
     >
     > If your administrator has not configured a predefined list of labels, then you are shown a free-form text field to enter a label.
 
-1.  Once the document is successfully marked as approved, then a **Preview** of the document is shown in the read-only mode.
+1.  Once the document is successfully marked as approved, then a **Preview** of the document is shown in the read-only mode. All the editing options are removed from all the three modes - Author, Source, and Preview. However, you still get access to the **Menu** dropdown that features the **Version history** and **Tags** options. 
 
-<!-- change image 
     ![](images/approved-doc-read-only.png){width="650" align="left"}
--->
 
     >[!NOTE]
     >
-    > In the Preview mode all editing options are removed from the toolbar. In addition, the Author and Source view of the document as also removed from the top navigation.
+    > In the Preview mode, the Menu dropdown featuring the Version history and Tags options, is removed from the toolbar. 
 
 
 Once a document is marked as approved, it is no longer available for editing. If you want to use the document for the next release, then you need to bring it back to the *Draft* state. To change the document state of an approved document back to *Draft* mode, perform the following steps:

@@ -5,7 +5,7 @@ exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 ---
-# Create output presets from the Web Editor {#id218CL400JW3}
+# Create output presets from the Editor {#id218CL400JW3}
 
 Perform the following steps to create output presets for your DITA map:
 
