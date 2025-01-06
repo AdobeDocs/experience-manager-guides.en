@@ -114,7 +114,7 @@ There are three **Tracking** options that you can choose from:
 
     The following image shows the preview of a map file with markups:
 
-    ![](images/preview-map-with-track-changes.PNG){width="800" align="left"}
+    ![](images/preview-map-with-track-changes.png){width="800" align="left"}
 
 
 ### Export a topic as PDF {#id2114BL00B5U}

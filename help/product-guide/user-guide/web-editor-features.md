@@ -93,7 +93,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     With this setting, when you try to add an attribute to an element, you only see the list of attributes configured in the list.
 
-    ![](images/editor-setting-add-attributes-list.PNG){width="300" align="left"}
+    ![](images/editor-setting-add-attributes-list.png){width="300" align="left"}
 
 - **Colors**
 - **Font list**
