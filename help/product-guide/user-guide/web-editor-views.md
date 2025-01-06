@@ -88,9 +88,9 @@ Opening a topic in the Preview mode shows how a topic will be displayed when it 
 
 The Preview mode gives you the following functionalities:
 
--   [View content based on conditional filters](#id2114BI00VXA)
--   [View the track changes markups](#id2114BJ00CE8)
--   [Export a topic as PDF](#id2114BL00B5U)
+* [View content based on conditional filters](#id2114BI00VXA)
+* [View the track changes markups](#id2114BJ00CE8)
+* [Export a topic as PDF](#id2114BL00B5U)
 
 ### View content based on conditional filters {#id2114BI00VXA}
 

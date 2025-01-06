@@ -966,11 +966,11 @@ You can perform the following actions using the Options menu available for a *fo
         ![](images/create-topic-dialog.png){width="300" align="left"}
 
    3. In the **New topic** dialog box, provide the following details:
-     - A Title for the topic.
-     - \(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
-     - A template on which the topic will be based. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, Markdown, Glossary, and Troubleshooting templates. If your folder has a Folder Profile configured on it, then you will see only those topic templates that are configured on the Folder profile.
+        - A Title for the topic.
+        - \(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
+        - A template on which the topic will be based. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, Markdown, Glossary, and Troubleshooting templates. If your folder has a Folder Profile configured on it, then you will see only those topic templates that are configured on the Folder profile.
 
-     - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
+        - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
     
     4. Select **Create**. The topic is created at the specified path. Also, the topic is opened in the Editor for editing.
 
@@ -982,10 +982,10 @@ You can perform the following actions using the Options menu available for a *fo
         ![](images/create-map-dialog.png){width="300" align="left"}
 
    3. In the **New map** dialog box, provide the following details:
-     - A Title for the map.
-     - *\(Optional\)* The file name for the map. The file name is auto-suggested based on the map title. In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
-     - A template on which the map will be based. For example, for an out-of-the-box setup, you can choose from the Bookmap or DITA map templates.
-     - Path where you want to save the map file. By default, the path of currently selected folder in the repository is shown in the Path field.
+        - A Title for the map.
+        - *\(Optional\)* The file name for the map. The file name is auto-suggested based on the map title. In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
+        - A template on which the map will be based. For example, for an out-of-the-box setup, you can choose from the Bookmap or DITA map templates.
+        - Path where you want to save the map file. By default, the path of currently selected folder in the repository is shown in the Path field.
    4. Select **Create**. The map is created and added within the folder specified in the Path field. Also, the map is opened in the Map view. You can open the map file in the Map Editor and add topic to it. For more information about adding topics to a map file, view [Create a map](map-editor-create-map.md#). Alternatively, select **Open in map console** to open the map in Map console.
 
     Steps to create a new folder:
@@ -996,8 +996,8 @@ You can perform the following actions using the Options menu available for a *fo
         ![](images/new-folder-dialog_cs.png){width="300" align="left"}
 
    3. In the **New folder** dialog box, provide the following details:
-     - A Title for the folder, which is auto-converted into the folder name.
-     - Path where you want to save the folder. By default, the path of currently selected folder in the repository is shown in the Path field. 
+        - A Title for the folder, which is auto-converted into the folder name.
+        - Path where you want to save the folder. By default, the path of currently selected folder in the repository is shown in the Path field. 
    4. Select **Create**. The folder is created and added within the folder from where the create folder option was executed.
 
 - **Upload Assets**: Upload a file from your local system to the selected folder in Adobe Experience Manager repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
