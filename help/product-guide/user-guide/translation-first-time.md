@@ -132,6 +132,6 @@ After the translation completes, the status of the translation job changes to *R
 
 >[!NOTE]
 >
-> If you reject the translation for one or more topics in a translation job, the **In Progress** translation status of all the rejected topics reverts to their original status. The status of the referred topics is checked and reverted according to the latest translation state. Also, the translation files created in the destination project are not deleted even if the translation is rejected for them.
+> If you reject the translation for one or more topics in a translation job, the **In Progress** translation status of all the rejected topics reverts to their original status. The status of the referred topics is checked and reverted according to the latest translation state. Also, the translation files created in the destination project are not deleted even if the translation is rejected for them. Additionally, if you cancel or delete the translation job or delete the entire project, the **In Progress** translation status reverts to their original status.
 
 **Parent topic:**[Translate content](translation.md)
