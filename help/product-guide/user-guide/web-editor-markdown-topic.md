@@ -67,7 +67,7 @@ The secondary toolbar is located just below the main toolbar. Features available
 
  ![](images/markdown-main-toolbar.png){width="550" align="left"}
 
- | Features       | Description   | 
+| Features       | Description   | 
 |----------------|----------------|
 | Editing actions  | Provides access to various document editing features including **Undo**, **Copy**, **Delete**, and **Find and replace**. You can access the available options from the **Menu** dropdown. | 
 | Text formatting options | Provides access to various text formatting options including **Headings**, **Bold**, **Italic**, **Strikethrough**, **Code**, and **Block quote**.|

@@ -220,10 +220,11 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 ## Secondary toolbar
   
 The secondary toolbar appears when you open a topic for editing in the Editor. Features available in the secondary toolbar are as follows:
-* [Menu dropdown](#menu-dropdown)
-* [Content insertion options](#content-insertion-options)
-* [Save as new version](#save-as-new-version)
-* [Lock/unlock](#lockunlock)
+
+- [Menu dropdown](#menu-dropdown)
+- [Content insertion options](#content-insertion-options)
+- [Save as new version](#save-as-new-version)
+- [Lock/unlock](#lockunlock)
 
 ### Menu dropdown 
 
@@ -282,7 +283,7 @@ To access the version history and revert to a specific version of your topic, pe
 
     >[!NOTE]
     >
-    Your system administrator can change the metadata to be shown from the Metadata tab in the **Settings**.
+    > Your system administrator can change the metadata to be shown from the Metadata tab in the **Settings**.
 
 You can also view the user and time details of the current and the compared version.
   
@@ -350,7 +351,7 @@ To add labels to your topic from the Editor, perform the following steps:
 
 When you work in a multi-author environment, it becomes difficult to track what changes the other authors have made in a topic or map. The Merge feature gives you more control over not only viewing the changes, but also what changes are retained in the latest version of the document.
 
-* **Merge topic files**
+- **Merge topic files**
 
   To merge changes in a topic, perform the following steps:
 
@@ -379,7 +380,7 @@ When you work in a multi-author environment, it becomes difficult to track what 
        You can choose to accept or reject all comments from the Tracked changes panel or accept or reject individual comment.
 
 
-* **Merge map files**
+ - **Merge map files**
 
     To merge changes in a map file, perform the following steps:
 
@@ -784,27 +785,27 @@ The left panel gives you quick access to Collections, Repository view, Map view,
 
 The left panel gives you access to the following features:
 
-* [Collections](#collections)
-* [Repository](#repository)
-* [Map](#map)
-* [Reusable content](#reusable-content)
-* [Outline](#outline)
+- [Collections](#collections)
+- [Repository](#repository)
+- [Map](#map)
+- [Reusable content](#reusable-content)
+- [Outline](#outline)
 
 Some of the features in the left panel are available under the **More** section. Select the More icon ![](images/Smock_MoreSmallList_18_N.svg) to access the below features: 
 
-* [Glossary](#glossary)
-* [Conditions](#conditions)
-* [Subject scheme](#subject-scheme)
-* [Snippets](#snippets)
-* [Templates](#templates)
-* [Citations](#citations)
-* [Language variables](#language-variables)
-* [Variables](#variables)
-* [Find and replace](#find-and-replace)
-* [Data sources](#data-sources)
-* [PDF templates](#pdf-templates)
-* [Review](#review)
-* [System reports](#system-reports)
+- [Glossary](#glossary)
+- [Conditions](#conditions)
+- [Subject scheme](#subject-scheme)
+- [Snippets](#snippets)
+- [Templates](#templates)
+- [Citations](#citations)
+- [Language variables](#language-variables)
+- [Variables](#variables)
+- [Find and replace](#find-and-replace)
+- [Data sources](#data-sources)
+- [PDF templates](#pdf-templates)
+- [Review](#review)
+- [System reports](#system-reports)
 
 An additional option labeled as **Workfront** is also displayed under **More** in the left panel if Adobe Workfront is configured. 
 
@@ -956,7 +957,7 @@ You can perform the following actions using the Options menu available for a *fo
 ![](images/options-menu-folder_cs.PNG){width="550" align="left"}
 
 
-* **New**: Create a new DITA topic, DITA map, or a folder. 
+- **New**: Create a new DITA topic, DITA map, or a folder. 
 
    Steps to create a new topic:
    1. Select **New** > **Topic**.
@@ -967,11 +968,9 @@ You can perform the following actions using the Options menu available for a *fo
    3. In the **New topic** dialog box, provide the following details:
      - A Title for the topic.
      - \(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
-     - A template on which the topic will be based. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, Markdown, Glossary, and Troubleshooting templates.
-       
-       If your folder has a Folder Profile configured on it, then you will see only those topic templates that are configured on the Folder profile.
+     - A template on which the topic will be based. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, Markdown, Glossary, and Troubleshooting templates. If your folder has a Folder Profile configured on it, then you will see only those topic templates that are configured on the Folder profile.
 
-    - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
+     - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
     
     4. Select **Create**. The topic is created at the specified path. Also, the topic is opened in the Editor for editing.
 
@@ -1881,10 +1880,10 @@ The right panel contains information about the currently selected document.
 
 The right panel gives you access to the following features:
 
-* [Content properties](#content-properties)
-* [File properties](#file-properties)
-* [Review](#review-1)
-* [Track changes](#track-changes)
+- [Content properties](#content-properties)
+- [File properties](#file-properties)
+- [Review](#review-1)
+- [Track changes](#track-changes)
 
 ### Content properties
 

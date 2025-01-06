@@ -52,11 +52,11 @@ Once, the preset is created, you can configure the various options available for
 
 You can configure the Out-of-the-box Sites template  in two ways:
 
-* In the **Sites** field, select the AEM sites where you want to publish your output.  For example, `AEMG Docs`.
+- In the **Sites** field, select the AEM sites where you want to publish your output.  For example, `AEMG Docs`.
 
     The **Publish path** and the **Topic page template** options are automatically set in the dropdown.  For example,  `AEMG-Docs-Site/en/docs/product1` and `Topic page` are set respectively. You can also choose the other options from the dropdown.
 
-* Or, Select the **Use Sites path** option to select the complete Sites path, and then select a **Map page template**. 
+- Or, Select the **Use Sites path** option to select the complete Sites path, and then select a **Map page template**. 
 
     You can browse a predefined Sites path or specify a custom path even if the specified path has not been pre-created within the AEM Sites structure. In such cases, the system creates the necessary structure during the publishing process by using the selected map homepage template.
 
@@ -76,10 +76,10 @@ Once configured, save the changes done to the preset, and select **Generate** to
 
 The configurations are organized under the following tabs.
  
-* [General](#general)
-* [Content](#content)
-* [Topic list](#topic-list)
-* [Cross map references](#cross-map-references)
+- [General](#general)
+- [Content](#content)
+- [Topic list](#topic-list)
+- [Cross map references](#cross-map-references)
 
 ### General
 

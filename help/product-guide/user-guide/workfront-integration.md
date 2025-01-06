@@ -238,6 +238,9 @@ Review tasks re-assigned to the creator/authors for review incorporation, can be
 *Caption: Review task assigned back to authors* 
 
 For such tasks,the task state for the assignee changes to **Authoring** while the task type remains as **Review**. 
+
+![](./images/review-tasks-with-authoring-doc-state.png){width="300" align="left"}
+
     
 Selecting the task or the open icon ![](images/Smock_OpenIn_18_N.svg) opens the task in the Editor where the author can [address review comments](../user-guide/review-address-review-comments.md), edit the task by updating the version of the topics, and then re-assign the task back to reviewer if needed. 
 

@@ -25,27 +25,27 @@ This is a typical **What You See is What You Get** \(WYSISYG\) view of the Edito
 
 The Source view displays the underlying XML that makes up the topic. If you are comfortable working with XML directly, then you should use the Source view. In addition to making regular text edits in this view, you can also add elements and attributes using the Smart Catalog, or find and replace text, elements, or attributes.
 
--   To invoke the Smart Catalog, place the cursor at the end of any element tag where you want to insert the new element and enter "<". The editor shows a list of all valid XML elements that you can insert at that location. Use the arrow keys to select the element that you want to insert and press Enter. When you enter the closing bracket "\> the closing tag for the element is automatically added.
+* To invoke the Smart Catalog, place the cursor at the end of any element tag where you want to insert the new element and enter "<". The editor shows a list of all valid XML elements that you can insert at that location. Use the arrow keys to select the element that you want to insert and press Enter. When you enter the closing bracket "\> the closing tag for the element is automatically added.
 
     ![](images/smart-catalog-elements.png){width="400" align="left"}
 
--   You can also change an element easily from the Source view. For example, if you change the opening tag of a `p` element to `note`, then the closing `p` tag is automatically changed to `/note`. In case you replace an element with an incorrect element, then you are immediately shown the Validation Error.
+* You can also change an element easily from the Source view. For example, if you change the opening tag of a `p` element to `note`, then the closing `p` tag is automatically changed to `/note`. In case you replace an element with an incorrect element, then you are immediately shown the Validation Error.
 
--   If you want to add an attribute to an element, place the cursor inside the element tag and press the Space bar. A list of valid attributes for that element is sown in the Smart Catalog. Use the arrow keys to select the desired element and hit Enter to insert the element. To specify a value for the attribute, enter the equals sign \(=\) and the editor automatically enters the opening and closing quotes "" wherein you can specify the attribute's value.
+* If you want to add an attribute to an element, place the cursor inside the element tag and press the Space bar. A list of valid attributes for that element is sown in the Smart Catalog. Use the arrow keys to select the desired element and hit Enter to insert the element. To specify a value for the attribute, enter the equals sign \(=\) and the editor automatically enters the opening and closing quotes "" wherein you can specify the attribute's value.
 
     ![](images/smart-catalog-attribute.png){width="350" align="left"}
 
--   In the Source view, there is an Auto Indent option that reorganizes the XML code in presentable and easily readable format. Also, if you select any text and switch from Author to Source or from Source to Author view, the selected text is also highlighted in the other view.
--   Another powerful feature in the Source view is the XML validation in your document. If you open a document containing invalid XML, it is opened in the Source view with the information about invalid XML. For example, in the following screenshot the exact information about the erroneous XML is given in the Parse Error pop-up.
+* In the Source view, there is an Auto Indent option that reorganizes the XML code in presentable and easily readable format. Also, if you select any text and switch from Author to Source or from Source to Author view, the selected text is also highlighted in the other view.
+* Another powerful feature in the Source view is the XML validation in your document. If you open a document containing invalid XML, it is opened in the Source view with the information about invalid XML. For example, in the following screenshot the exact information about the erroneous XML is given in the Parse Error pop-up.
 
     ![](images/invalid-topic-xml.png){width="650" align="left"}
 
     In the above screenshot, a cross highlight is used to point the line containing erroneous XML.
 
--   The Find and Replace feature allows you to search for any text, element, or attribute in the Source View. 
+* The Find and Replace feature allows you to search for any text, element, or attribute in the Source View. 
 For more details, see the **Find and Replace** feature description in the [Main toolbar](web-editor-features.md#id#id2051EA0G05Z) section. 
 
--   The Source View provides many shortcuts to help you quickly navigate and work on a document. The following table lists the supported actions and their shortcut keys:
+* The Source View provides many shortcuts to help you quickly navigate and work on a document. The following table lists the supported actions and their shortcut keys:
 
     |To do this|Use this shortcut|
     |----------|-----------------|
@@ -108,9 +108,9 @@ If a document contains track changes markups \(or visual cues\), then you can al
 
 There are three **Tracking** options that you can choose from:
 
--   **No Markup**: In this view, all insertions and deletions are accepted, and a simple view of the document is presented. In this view, you do not see any track changes markups.
--   **Original**: In this view, all insertions are rejected and all deletions are restored back, and then a preview is shown. Simply, you get the original form of the document before you enabled the track changes mode.
--   **Show Markup**: In this view, you get all markups for inserted and deleted content.
+* **No Markup**: In this view, all insertions and deletions are accepted, and a simple view of the document is presented. In this view, you do not see any track changes markups.
+* **Original**: In this view, all insertions are rejected and all deletions are restored back, and then a preview is shown. Simply, you get the original form of the document before you enabled the track changes mode.
+* **Show Markup**: In this view, you get all markups for inserted and deleted content.
 
     The following image shows the preview of a map file with markups:
 
@@ -123,10 +123,10 @@ PDF is one of the most common output formats that is used at every possible stag
 
 This feature supports the following functionalities:
 
--   Generate the PDF of the currently active working copy of a topic.
--   Accept the DITA-OT transformation name and command-line arguments to generate the PDF.
--   Save the generated output on local system.
--   Resolve key and content references used in the topic before generating the output.
+* Generate the PDF of the currently active working copy of a topic.
+* Accept the DITA-OT transformation name and command-line arguments to generate the PDF.
+* Save the generated output on local system.
+* Resolve key and content references used in the topic before generating the output.
 
 To export a topic as PDF, follow these steps:
 

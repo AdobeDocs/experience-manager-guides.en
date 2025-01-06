@@ -41,10 +41,10 @@ Perform the following steps to create an output preset for the Global and Folder
 
 You can also perform the following operations on the preset from the Options menu:
 
-* **Generate output**: Allows you generate an output for an existing preset in one click.
-* **View output** and **View log**: Quick links to view the generated output and logs. 
-* **Rename**, **Duplicate**, or **Delete** an existing output preset from the **Options** menu.
- * **Default PDF**: Allows you to select the existing PDF preset as default pdf preset. The selected preset would be, then used as the default preset to generate the PDF output using the **Download as PDF** option for a map.
+- **Generate output**: Allows you generate an output for an existing preset in one click.
+- **View output** and **View log**: Quick links to view the generated output and logs. 
+- **Rename**, **Duplicate**, or **Delete** an existing output preset from the **Options** menu.
+- **Default PDF**: Allows you to select the existing PDF preset as default pdf preset. The selected preset would be, then used as the default preset to generate the PDF output using the **Download as PDF** option for a map.
 
 >[!NOTE]
 >

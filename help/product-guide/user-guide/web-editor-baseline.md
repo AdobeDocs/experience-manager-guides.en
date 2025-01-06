@@ -79,9 +79,9 @@ Baselines created using the automatic update configuration are updated dynamical
 
 You can manage your existing baselines using the various features on the Baseline dashboard.
 
-- You can search for an existing baseline using the text box in the Baseline panel. Use the **Apply Filter** icon to show all baselines or list the baselines with the creation status as Successful, In-Progress, or Failed.
-- Use the **Refresh** icon in the Baseline panel to recheck for all baselines and display a fresh list of baselines for the DITA map that's opened in the Map View.
-- Select the baseline to view or edit the contents of an existing static baseline in the **Baseline** panel. The baseline editing window displays the DITA map file, map's contents or topics, and the referenced content.
+* You can search for an existing baseline using the text box in the Baseline panel. Use the **Apply Filter** icon to show all baselines or list the baselines with the creation status as Successful, In-Progress, or Failed.
+* Use the **Refresh** icon in the Baseline panel to recheck for all baselines and display a fresh list of baselines for the DITA map that's opened in the Map View.
+* Select the baseline to view or edit the contents of an existing static baseline in the **Baseline** panel. The baseline editing window displays the DITA map file, map's contents or topics, and the referenced content.
 
     >[!NOTE]
     >
@@ -127,8 +127,8 @@ You can duplicate a baseline and modify it according to your requirements.
 ### List of labels {#labels-list}
 
 The labels listed in the dropdown are based on the following criteria:
-- The labels should be added to one of the versions of the topics in the DITA map (on which the baseline is created).
-- And only the first-level references (topics or sub-maps) of the DITA map are considered for picking the labels.
+* The labels should be added to one of the versions of the topics in the DITA map (on which the baseline is created).
+* And only the first-level references (topics or sub-maps) of the DITA map are considered for picking the labels.
 
 ## Baseline filters
 
@@ -136,9 +136,9 @@ Using the Filters icon in the **Baseline Filters** panel you can apply filters o
 
 ![baseline filters](images/baseline-filter.png){width="300" align="left"}
 
-- Filter the files based on filenames, or file location.
-- Filter the files based on the values for different columns like File Type, Reference Type and so on.
-- Choose the columns to be displayed in the baseline editing window.
+* Filter the files based on filenames, or file location.
+* Filter the files based on the values for different columns like File Type, Reference Type and so on.
+* Choose the columns to be displayed in the baseline editing window.
 
 >[!NOTE]
 >
