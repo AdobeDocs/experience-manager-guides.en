@@ -521,7 +521,7 @@ Inserts a table at the current or next valid location. Select the Table icon to 
 
 >![NOTE]
 >
-> You can also copy a table from MS Word or Excel and paste it into Experience Manager Guides topic file. The copied table will be pasted as either `<simpletable>` or `<tgroup>` depending on the settings configured in the XML Editor Configuration. 
+> You can also copy a table from MS Word or Excel and paste it into Experience Manager Guides topic file. The copied table will be pasted as either `<simpletable>` or `<tgroup>` depending on the settings configured in the XML Editor Configuration. For more details, view [Configure the display of pasted tables](../cs-install-guide/conf-pasted-tables.md). 
 
 You can specify the number of rows and columns required in the table. If you want to keep the first row as table header, select the **Set first row as header** option. To add a title to your table, enter it in the Title field.
 
