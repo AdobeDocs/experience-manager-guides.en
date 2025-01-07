@@ -20,9 +20,13 @@ However, you can search or filter any comments. You can also choose to show or h
  
 ## As an author
 
-As an author you can see the status as closed in the Review panel. You can read a comment but cannot accept or reject a comment. You cannot edit or delete any comments. You also cannot add the reply for the comment. The Outdated Comments icon and the Import Comments into Author View icon are not displayed in a completed review task.
+You can view the completed review tasks in the **Active review** panel. You can search or filter review tasks based on Projects. For example, you can select specific projects in the **Filter** dialog box and have them displayed in the Active review panel. You can further filter the results using the **Tasks initiated by me** and **Show only active tasks** options. 
 
-However, you can search or filter any comments. You can download any attachments but cannot upload or delete any attachments for the comments.
+![](images/review-filters.png){width="800" align="left"}
+
+For closed review tasks, you can read a comment but cannot accept or reject a comment. You cannot edit or delete any comments. You also cannot add the reply for the comment. The Outdated Comments icon and the Import Comments into Author View icon are not displayed in a completed review task. 
+
+You can also search or filter any comments present in the Review panel. You can download any attachments but cannot upload or delete any attachments for the comments.
 
 ![](images/completed-task-author.png){width="800" align="left"}
 

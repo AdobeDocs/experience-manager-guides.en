@@ -156,7 +156,7 @@ Protect your PDF by adding restrictions to open and read the file. Use the below
 
 >![NOTE]
 >
-> Starting with the Experience Manager Guides 5.0/2025.02.0 release, the Print section is now part of the **Native PDF Output presets**. 
+> Starting with the Experience Manager Guides 5.0/2025.02.0 release, the Print section is now part of the **Native PDF Output preset**. 
 
 Configure the print production settings to assign printer marks, select color models, and specify properties related to printing of your PDF output.
 
