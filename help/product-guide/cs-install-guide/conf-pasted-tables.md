@@ -9,13 +9,17 @@ level: Experienced
 
 Using the secondary toolbar in the Editor, you can insert a simple table at the current or next valid location of a topic. You can also copy a table from Microsoft Word or Excel and paste it directly into a topic file.
 
-Administrators can configure how copied tables are displayed. By default, such copied tables are displayed as `<simpletable>` in the editor if they include edits or merged rows/columns. However, you can change this setting to display copied tables as `<tgroup>` by updating the XML Editor Configuration setting.
+Administrators can configure how copied tables are displayed. By default, such copied tables are displayed as `simpletable` in the editor. However, you can change this setting to display copied tables as `tgroup` by updating the XML Editor Configuration setting.
+
+>[!NOTE]
+>
+> If you copy a table with merged rows or columns, then the table will be pasted as normal table `trgoup` and not `simpletable` irrespective of the table setting configured in the XML Editor Configuration. 
 
 To update the default table format, perform the following steps:
 
 1. Open the Adobe Experience Manager Navigations page and select **Tools** on the left.
 2. In the Tools panel, select **Guides** from the list of tools.
-3. Select **Folder Profiles**, and then select the **Global Profile** tile. 
+3. Select **Folder Profiles**, and then select the profile where you want to update the table setting. 
 4. Navigate to the **XML Editor Configuration** tab. 
 5. Select the **Edit** icon on the top.
 6. Select the **Download** icon to download the `ui_config.json` file on your local system. 
