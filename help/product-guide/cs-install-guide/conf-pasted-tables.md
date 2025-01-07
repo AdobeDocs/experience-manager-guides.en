@@ -20,21 +20,8 @@ To update the default table format, perform the following steps:
 5. Select the **Edit** icon on the top.
 6. Select the **Download** icon to download the `ui_config.json` file on your local system. 
 7. In the `ui_config.json` file, update the `simpletable` setting as shown below: 
-
-    The `simpletable` setting:
-
-
-    ```
-
-    "htmlToDitaMapping":{ "table": {"name" : "simpletable"} },
-
-    ```
-
-    Setting updated to `tgroup`:
-
-
-    ```
-    
+ 
+    ```    
     "htmlToDitaMapping":{ "table": {
     "name" : "tgroup",
     "wrapTag" : {
@@ -42,6 +29,9 @@ To update the default table format, perform the following steps:
         "html" : "div"
     }
     } },
+    
+    ```
 
-8. Save the file and upload it.
+
+Once updated, save the file and upload it.
 
