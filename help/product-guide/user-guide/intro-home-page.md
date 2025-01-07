@@ -26,6 +26,10 @@ The header bar is the top bar of the Home page that displays the Adobe Experienc
 
 The navigation bar surfaces tools to switch navigation, customize the overview layout, and adjust the page view. It also displays the current folder profile in use.
 
+>[!NOTE]
+>
+> If using the Adobe Experience Manager Guides as a Cloud Service, an additional feature labeled as **AI Assistant** is displayed in the navigation bar. 
+
 ![](images/aem-home-nav-bar.png){width="800" align="left"}
 
 Features available in the navigation bar are explained as follows: 
@@ -34,7 +38,8 @@ Features available in the navigation bar are explained as follows:
   - **Home**: The default page that you view when logging into Experience Manager Guides.
   - **Editor**: An easy-to-use web-based Editor that allows you to create and manage structured documents in Experience Manager Guides. [Get to know the Editor interface.](./web-editor.md) 
   - **Map console**: Provides you a dedicated workspace to handle all aspects of map management and publishing.   
-- **AI Assistant**: [AI-powered Smart Help](./ai-based-smart-help.md) feature that helps you find relevant content from the Adobe Experience Manager Guides Documentation. 
+- **AI Assistant**: [AI-powered Smart Help](./ai-based-smart-help.md) feature that helps you find relevant content from the Adobe Experience Manager Guides Documentation. Additionally, when working in the Editor interface, you can leverage the smart authoring capabilities of AI Assistant that help simplifies document handling through intelligent suggestions and optimization. 
+The AI Assistant feature is currently available for Adobe Experience Manager as Cloud Service.  
 - **Customize overview section**: Allows you to hide or show the widgets in the Widgets section. 
 - **Folder profile in use**: Displays the folder profile that is currently being used.  
 - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
@@ -67,9 +72,9 @@ Features available in the left panel are explained as follows:
 
 ### Overview 
 
-**Overview** acts like a personalized dashboard designed to enhance productivity. It features different widgets that help you stay organized and focused. The area where these widgets are placed is the **Widgets section**.
+**Overview** acts like a personalized dashboard designed to enhance productivity. It features different widgets that help you stay organized and focused. 
 
-The widgets also provide you with options to sort and resize columns for a customized view. To view these options, select the column header and the options would display in a list.  
+The widgets also provide you with options to sort and resize columns. To view these options, select the column header and the options would display in a list.  
 
 
 The following widgets are present in the Widgets section:
@@ -78,7 +83,7 @@ The following widgets are present in the Widgets section:
   
   ![](images/aem-home-recent-files.png){width="800" align="left"}
   
-  You can sort and resize the columns by selecting options from the column dropdown menu.
+  You can sort and resize the columns by selecting options from the column dropdown menu. By default, the data is sorted based on last accessed date and time. 
 
   ![](images/aem-home-recent-files-sort-resize-options.png){width="800" align="left"}
 
@@ -104,12 +109,14 @@ The following widgets are present in the Widgets section:
 
   ![](images/aem-home-collections-breadcrumbs.png){width="800" align="left"}
 
-  The following options are available when you hover over a collection:
+  The following options are available when you hover over a collection and select the More icon ![](images/Smock_MoreSmallList_18_N.svg) :
+
     - **Rename**: Allows you to rename the collection.  
     - **Delete**: Allows you to delete the collection. 
     - **View in Assets UI**: Allows you to open the collection in the Assets UI. 
 
-    You can open a collection by selecting the Collection title. The following options are available when you hover a Collection file:
+    You can open a collection by selecting the Collection title. The following options are available when you hover a Collection file and select the More icon ![](images/Smock_MoreSmallList_18_N.svg) :
+
     - **Open in editor**: Allows you to open the file in the Editor. Alternatively, you can select the file title to open the file. 
     - **Open in map console**: Allows you to open the map file in the map console. (Available only for a DITA map file).
     - **Add to collections**: Allows you to add the file to a new or existing collection.
@@ -156,8 +163,10 @@ The User preferences are available to all authors. Using the preferences, you ca
 
   ![](images/user_preference_editor_appearance.png){width="800" align="left"}
  
-    - **View files by**: Select the default way to view the files in the Editor. You can view the list of files by the titles or the filenames from the various panels in the Author view. By default, the files are displayed by title in the Editor.
-    - **Application theme**: You can choose from the Light or Dark themes for the application. In the case of the Light theme, the toolbars and panels use a light grey color background. In the case of the Dark theme, the toolbars and panels use a black color background. Select **Use device** theme to allow Experience Manager Guides to select the light and dark themes based on the theme of your device. In all themes, the content editing area is shown in white color background in the Author view.
-    - **Source view theme**: You can choose from the Light or Dark themes for the content editing area in source view. In the case of the Light theme, the content editing area uses a light grey color background for the source view while in the case of Dark theme, it uses a black color background. Select **Use device** theme to allow Experience Manager Guides to select the light and dark themes based on the theme of your device.
+    - **Editor files display configuration**: Select the default way to view the files in the Editor. You can view the list of files by the titles or the filenames from the various panels in the Author view. By default, the files are displayed by title in the Editor.
+    - **Application theme and Source view**: You can choose from the Light or Dark themes for the application and source view. In the case of the Light theme, the toolbars and panels use a light grey color background. In the case of the Dark theme, the toolbars and panels use a black color background. Select **Use device** theme to allow Experience Manager Guides to select the light and dark themes based on the theme of your device. 
+    
+      In all themes, the content editing area is shown in white color background in the Author view.
+    
     - **Always locate files in the repository**: Select this option to show the location of a file in the repository while editing it in the Editor.
     - **Show non-breaking space indicator in the author mode**: Select this option to show an indicator for the non-breaking spaces while editing it in the Editor. It’s enabled by default.
