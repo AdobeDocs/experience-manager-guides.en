@@ -8,7 +8,7 @@ level: Experienced
 ---
 # Support for language variables
 
-AEM Guides provides the feature to use language variables. You can use language variables to define localized strings in the PDF output or to localize any static text in the output templates. You can use CSS styles to localize the strings coming from a CSS.
+Adobe Experience Manager Guides provides the feature to use language variables. You can use language variables to define localized strings in the PDF output or to localize any static text in the output templates. You can use CSS styles to localize the strings coming from a CSS.
 
 ## Use language variables in the PDF output
 
@@ -59,14 +59,13 @@ You can also create new language variables. For example, you can create a user v
 
 ## Add a new language variable 
 
-1. In the Web Editor, go to the Output tab.
-1. Select **Language Variables** <img src="./assets/language-variables.svg" width="25"> in the left panel.
-1. Select **Edit** to open the **Language Variables** window. The application and the user variables present in the selected language are listed in alphabetical order. The values are displayed according to the selected language. For example, if you select the French language, “Tip” is displayed as “Conseil.” 
+1. In the Editor, navigate to the Left panel and select **Language variables**. This option is available under the More section.
+1. Select **Edit** to open the **Language variables** window. The application and the user variables present in the selected language are listed in alphabetical order. The values are displayed according to the selected language. For example, if you select the French language, “Tip” is displayed as “Conseil.” 
 1. From the **Language** dropdown, select the desired language in which you want to edit a variable.
 
    >[!NOTE]
    >
-   > If you do not view the desired languages, enable the desired language from the **Language Variable Settings**. Select Settings <img src="./assets/settings-icon.svg" width="25">  to open the **Language Variables Settings** dialog.
+   > If you do not view the desired languages, enable the desired language from the **Configure languages**  settings. Select Settings <img src="./assets/settings-icon.svg" width="25">  to open the **Configure languages**  dialog box.
 
 1. Enter the variable name in the **Name** column and its value in the **Value** column.
 
@@ -132,7 +131,7 @@ You can also choose to **Delete** or **Duplicate** the user variables. Deleting 
 
 ### Edit or revert the application variables
 
-You can also edit the values for an application variable. Later, you can revert an application variable to the original value. **Revert Variable** <img src="./assets/application-variable-revert.svg" width="25">  appears for an application variable with a changed value. 
+You can also edit the values for an application variable. Later, you can revert an application variable to the original value. **Reset** <img src="./assets/application-variable-revert.svg" width="25">  appears for an application variable with a changed value. 
 
 ## Use language variables in the output templates
 

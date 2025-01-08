@@ -13,7 +13,7 @@ Perform the following steps to create a map file:
 
 1.  In the Assets UI, navigate to the location where you want to create the map file.
 
-1.  Click **Create** \> **DITA Map**.
+1.  Select **Create** \> **DITA Map**.
 
 1.  On the Blueprint page, select the type of map templates you want to use and select **Next**.
 

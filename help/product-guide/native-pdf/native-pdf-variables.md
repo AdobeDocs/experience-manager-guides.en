@@ -21,8 +21,7 @@ Perform the following steps to create a variable:
  *Create variables and define values for them.*
 
 
-1. In the Web Editor, go to the **Output** tab.
-1. Select **Variables** <img alt= "variable icon" src="./assets/variables-icon.svg" width="25"> in the left panel.
+1. In the Editor, navigate to the Left panel and select **Variables** <img alt= "variable icon" src="./assets/variables-icon.svg" width="25">. This option is available under the More section.
 1. Select **Edit** <img alt= "Edit pencil icon" src="./assets/edit_pencil_icon.svg" width="25"> to open the **Variables** editor. 
  The variables are listed alphabetically. 
 1. Enter the variable name in the **Name** column and its value in the **Value** column.
@@ -51,7 +50,7 @@ You can edit a variable in two ways:
 1. Select a variable in the **Variables** panel. 
 1. Hover over the variable to view the **Options** menu and then select the **Edit** option.
 1. In the **Edit Variable** dialog box, you can edit the default value of the selected variable.
-1. Click **Done**.
+1. Select **Done**.
 
 **From the Variables editor** 
 
@@ -88,9 +87,6 @@ The preview of the variable displays the default value. For example, if you have
 1. Hover over the variable in the list to view the **Options** menu.
 1. Select **Preview**.
 
- 
-
-
 ### Duplicate a variable
 
 You can duplicate a variable and modify the value according to your requirements. 
@@ -124,8 +120,6 @@ Adobe Experience Manager Guides also supports variable sets, which let you assig
 ### Configure variable sets
 
 You need to configure variable sets before adding any variables to them. 
-
-
 
 1. Select **Settings** <img alt= "Settings icon" src="./assets/settings-icon.svg" width="25"> to open the **Configure variable sets** dialog box. 
  ![configure variable set](assets/configure-variable-set.png){width="550" align="left"} 

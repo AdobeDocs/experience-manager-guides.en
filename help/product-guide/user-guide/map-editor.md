@@ -7,13 +7,17 @@ role: User
 ---
 # Work with the Map Editor {#id181OF0M30Y4}
 
-Adobe Experience Manager Guides' Map Editor allows you to create and edit map files. Using the Map Editor, you can edit two types of files — DITA map and bookmap. You can create these files using the **Create** \> **DITA Map** workflow. You can also create your own map templates and create maps based on your custom template. These templates must be added to the folder profile to show up in the template selection Blueprint and the Web Editor.
+Adobe Experience Manager Guides' Map Editor allows you to create and edit map files. Using the Map Editor, you can edit two types of files — DITA map and bookmap. You can create these files using the **Create** \> **DITA Map** workflow. You can also create your own map templates and create maps based on your custom template. These templates must be added to the folder profile to show up in the template selection Blueprint and the Editor.
 
 Note that Global and Folder profile configuration is only available to folder-level administrative users. For the details on setting up global and folder-level profiles, see *Configure authoring templates* in  Install and configure Adobe Experience Manager Guides for your setup.
 
+<!------------------------------------
+
 The Map Editor comes in two modes — the Basic Map Editor and the Advanced Map Editor. The Basic Map Editor is available only through configuration. If your administrator has enabled it, then only the Basic Map Editor will be available for use. By default, all new maps are opened for editing in the Advanced Map Editor. The Advanced Map Editor is available within the Editor itself, which is used for editing DITA topic files.
 
-This topic walks you through the process of creating a DITA map and then using the Advanced Map Editor and Basic Map Editor to edit map files.
+-------->
+
+This topic walks you through the process of creating a DITA map and then using the Map Editor to edit map files.
 
 >[!TIP]
 >

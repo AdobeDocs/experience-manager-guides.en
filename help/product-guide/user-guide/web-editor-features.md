@@ -96,7 +96,6 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
     ![](images/editor-setting-add-attributes-list.png){width="300" align="left"}
 
 - **Colors**: Displays a list of pre-configured background colors for **Conditions**. Users can select a background color when applying a condition to a topic. As an administrator, you can also create and add custom background colors to the list. To add a new color, enter the desired name in the **Color Name** field, choose a custom color, and select the **+** icon. The custom color will appear at the end of the color list.
-- **Font list**
 
 - **Publish profiles**: This contains the Profiles that can be used to publish the **Knowledge Base** output. You can create a new profile for a target knowledge base. For example, Salesforce or ServiceNow.
 
@@ -592,6 +591,21 @@ The context menu provides options to cut, copy, or paste the image or media. You
 
 The other options in the context menu allow you to copy path, edit an image map, rename element, create a snippet, or generate IDs for the selected element.
 
+**Insert/Edit Image Map** - ![](images/imagemap-rectangle.svg)
+
+Inserts an image map on the selected image. An image with clickable areas that link to topics or web pages is called an image map.
+
+Select an image in the current topic and select the Insert/Edit Image Map icon to open the insert Image Map dialog box.
+
+![](images/insert-image-map.png){width="650" align="left"}
+
+Choose the preferred shape Rectangle ![](images/imagemap-rectangle-toolbar.png), Circle ![](images/imagemap-circle-toolbar.png), or Polygon ![](images/imagemap-polygon-toolbr.png) to define an area over an image that you want to use as a link. After defining an area, the Reference dialog appears wherein you need to specify the link to internal or external content:
+
+![](images/reference-dialog.png){width="650" align="left"}
+
+If areas overlap, you can bring the shape forward or send it backward by clicking on the respective icon in the toolbar. You can also remove an area by selecting it and clicking the Delete icon. Double-clicking on an area opens the Reference dialog wherein you can change the destination link. Once you have marked the required areas on your image, save the changes by clicking Done.
+
+
 **Multimedia** - ![](images/insert-multimedia-icon.svg)
 
 Inserts different types of multimedia files. Select the Multimedia dropdown icon and choose the type of file you want to insert. The supported multimedia formats are:
@@ -802,10 +816,9 @@ Some of the features in the left panel are available under the **More** section.
 - [Language variables](#language-variables)
 - [Variables](#variables)
 - [Find and replace](#find-and-replace)
-- [Data sources](#data-sources)
 - [PDF templates](#pdf-templates)
 - [Review](#review)
-- [System reports](#system-reports)
+
 
 An additional option labeled as **Workfront** is also displayed under **More** in the left panel if Adobe Workfront is configured. 
 
@@ -1275,7 +1288,7 @@ You can perform the following actions using the Options menu:
 
 >[!NOTE]
 >
-> You can also open and edit the properties of selected topics in a DITA map from the **More Options** menu at the bottom of the Map view.
+> You can also open and edit the properties of selected topics in a DITA map from the **More Options** menu under References.
 
 ### Reusable content
 
@@ -1809,9 +1822,9 @@ You can also use the **Find in map** option from the **Options** menu of a map t
 
 ![](images/map-options-menu.png){width="550" align="left"}
 
-### Data sources
-
 ### PDF templates
+
+Enables you to work with various PDF templates. For details, view [PDF templates](../native-pdf/pdf-template). 
 
 ### Review
 
@@ -1855,8 +1868,7 @@ To view the review comments in the active review tasks that are present in your 
    > The **Review** panel and the **Comments** panel are in sync at all times. In the Comments panel, the comments are loaded based on the review task loaded in the Review panel. 
    >
    > For more information about how to address the comments, view [Address review comments](review-address-review-comments.md#).
-
-### System reports 
+ 
 
 ## Content editing area 
 
@@ -1980,21 +1992,5 @@ Using the Tracked changes feature of the right panel, you can view the informati
 >
 > Tracked changes feature shows all updates that have been tracked using the Enable/Disable Track Changes feature of the [main toolbar](#main-toolbar).
 
-<!---------------------------
-
-**Insert/Edit Image Map** - ![](images/imagemap-rectangle.svg)
-
-Inserts an image map on the selected image. An image with clickable areas that link to topics or web pages is called an image map.
-
-Select an image in the current topic and click the Insert/Edit Image Map icon to open the insert Image Map dialog.
-
-![](images/insert-image-map.png){width="650" align="left"}
-
-Choose the preferred shape Rectangle ![](images/imagemap-rectangle-toolbar.png), Circle ![](images/imagemap-circle-toolbar.png), or Polygon ![](images/imagemap-polygon-toolbr.png) to define an area over an image that you want to use as a link. After defining an area, the Reference dialog appears wherein you need to specify the link to internal or external content:
-
-![](images/reference-dialog.png){width="650" align="left"}
-
-If areas overlap, you can bring the shape forward or send it backward by clicking on the respective icon in the toolbar. You can also remove an area by selecting it and clicking the Delete icon. Double-clicking on an area opens the Reference dialog wherein you can change the destination link. Once you have marked the required areas on your image, save the changes by clicking Done.
------>
 
 **Parent topic:**[Work with the Editor](web-editor.md)
