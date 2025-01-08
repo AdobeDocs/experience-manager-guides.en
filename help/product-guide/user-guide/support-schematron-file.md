@@ -20,40 +20,40 @@ Perform the following steps to import the Schematron files:
 
   ![](images/scematron-panel-add.png){width="300" align="left"}
 
-1. Navigate to the required folder (where you want to upload the files) in *Repository View*.
-1. Click the **Options** icon to open the context menu and choose **Upload Assets**.
-1. In the **Upload Assets** dialog, you can change the destination folder in the **Select Asset Folder** field.
-1. Click **Choose Files** and browse to select the Schematron files. You can select one or more Schematron files and then click **Upload**.
+1. Navigate to the required folder (where you want to upload the files) in *Repository*.
+1. Select the **Options** icon to open the context menu and choose **Upload assets**.
+1. In the **Upload assets** dialog, you can change the destination folder in the **Select Asset Folder** field.
+1. Select **Choose Files** and browse to select the Schematron files. You can select one or more Schematron files and then select **Upload**.
 
 ## Validate a DITA topic or map with Schematron
 
-After importing Schematron files, you can edit them in the Web Editor. You can use the Schematron files to validate the topics or a DITA map. For example, you can create the following rules for a DITA map or topic:
+After importing Schematron files, you can edit them in the Editor. You can use the Schematron files to validate the topics or a DITA map. For example, you can create the following rules for a DITA map or topic:
 
 * A title is defined for a DITA map.
 * A short description of a certain length has been added.
 * There should be at least one topicref in the map.
 
-When you open a topic in the Web Editor, a Schematron Validation panel appears in the right. Perform the following steps to add and validate a topic or map with a Schematron file:
+When you open a topic in the Editor, a Schematron Validation panel appears in the right. Perform the following steps to add and validate a topic or map with a Schematron file:
 ![](images/schematron-validate.png){width="300" align="left"}
 
-1. Click the Schematron icon (), to open the Schematron panel.
-1. Use Add Schematron File to add Schematron files. 
+1. Select the Schematron icon (), to open the Schematron panel.
+1. Use **Add Schematron File** to add Schematron files. 
 1. If the Schematron file has no errors, it is added and listed in the Validation panel. An error message is displayed for the Schematron file containing errors.
     >[!NOTE]
     >
     >You can use the cross icon near the Schematron file name to remove it.
-1. Click Validate with Schematron to validate the topic. 
+1. Select **Validate with Schematron** to validate the topic. 
 
     * If the topic breaks no rules, the validation success message is displayed for the file.
     * If the topic breaks a rule, for example, if it doesn't contain a title and is validated for the above given Schematron, it displays a validation error.
 
-1. Click the error message to highlight the element containing the error in the opened topic/map.
+1. Select the error message to highlight the element containing the error in the opened topic/map.
 
-The Schematron support in the Web Editor helps you in validating the files against a set of rules and maintaining consistency and correctness across the topics.
+The Schematron support in the Editor helps you in validating the files against a set of rules and maintaining consistency and correctness across the topics.
 
 ## Use assert and report statements to check for rules{#schematron-assert-report}
 
-AEM Guides also supports the assert and report statements in Schematron. These statements help you validate your DITA topics.
+Experience Manager Guides also supports the assert and report statements in Schematron. These statements help you validate your DITA topics.
 
 ### Assert statement
 
@@ -101,7 +101,7 @@ No one word titles.
 
 ## Define abstract patterns{#schematron-abstract-patterns} 
 
-AEM Guides also supports abstract patterns in Schematron. You can define generic abstract patterns reuse these abstract patterns.  You can create placeholder parameters that specify the actual pattern. 
+Experience Manager Guides also supports abstract patterns in Schematron. You can define generic abstract patterns reuse these abstract patterns.  You can create placeholder parameters that specify the actual pattern. 
 
 
 Using abstract patterns can simplify your Schematron schema by reducing the duplication of rules and making it easier to manage and update your validation logic. It can also make your schema easier to understand, as you can define complex validation logic in a single abstract pattern that can be reused throughout the schema. 

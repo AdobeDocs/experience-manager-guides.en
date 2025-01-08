@@ -3,21 +3,17 @@ title: Use the AI Assistant to author documents smartly `
 description: Learn how to Use the AI Assistant to author documents with smart efficiency in the Web Editor.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 ---
-# AI Assistant to author documents with smart efficiency
+# AI Assistant Authoring to author documents smartly
 
-Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. You experience simplified document handling through intelligent suggestions and optimization. Using this tool, view the smart suggestions to reuse the content from the existing content repository. Use the text prompt feature to provide a prompt and change the content or generate an output as per your requirements. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic. This feature also helps you to easily improve and translate the selected content.
-
+Adobe Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. You experience simplified document handling through intelligent suggestions and optimization. Using this tool, view the smart suggestions to reuse the content from the existing content repository. Use the text prompt feature to provide a prompt and change the content or generate an output as per your requirements. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic. This feature also helps you to easily improve and translate the selected content.
 
 >[!NOTE]
 >
-> To add the AI Assistant feature in the right panel, your system administrator must select the **AI Assistant** option under the **Panels** tab in the **Editor Settings** ![Editor Settings icon](./images/editor_settings_icon.svg).
-> Also, you must check out your document to view the AI Assistant icon.  
+> This Authoring feature is available for DITA topics only, and can be accessed from the Editor interface only. On the Home page and Map console, only the **Help** panel is displayed. 
 
-This feature is available for DITA topics only. After selecting the text in a topic, you can choose to perform any of the AI Assistant actions:
+After selecting the text in a topic, you can choose to perform any of the AI Assistant actions:
 
 ![ai assistant](./images/ai-assistant-panel.png)
-
-
 
 ## Suggest reusable content 
 
@@ -26,11 +22,7 @@ Use the **Suggest reusable content** ![ai suggest reusable content icon ](./imag
 Learn more about using [AI-powered smart suggestions to author content](authoring-ai-based-smart-suggestions.md).
 
 
-
-
-
 ## Use text prompt 
-
 
 A text prompt is an instruction, question, or statement that guides the AI Assistant in generating a specific response or output.
 
@@ -38,7 +30,7 @@ You can use a text prompt to change the content and generate an output.  For exa
 
 
 1. Select the text for which you want to use the text prompt.
-1. Select **Use text prompt** ![ai use text prompt icon](./images/ai-use-text-prompt.svg)from the **AI Assistant**  panel.
+1. Select **Use text prompt** ![ai use text prompt icon](./images/ai-use-text-prompt.svg)from the **Authoring**  panel.
 1. Give a prompt in one of the following ways:
 
     - Choose a prompt from the suggested prompts. 
@@ -88,7 +80,7 @@ Improves the selected content. Check the spelling, language, and grammatical str
 
 
 
-![ai assistant improve content editor](./images/ai-assisstant-improve-content.png)
+    ![ai assistant improve content editor](./images/ai-assisstant-improve-content.png)
 
 Accept the suggestion, or regenerate for a different response, or cancel the action to go back to the previous state.
 
@@ -112,7 +104,7 @@ You can also perform the following actions:
 
 - Select **Expand** to open the **Create shortdesc** editor. 
 
-![ai assistant create short description editor](./images/ai-assistant-create-short-desc.png)
+    ![ai assistant create short description editor](./images/ai-assistant-create-short-desc.png)
 
 
 
@@ -127,7 +119,7 @@ This feature intelligently converts a selected paragraph into a list.  It analyz
 
 1. Select the content. 
 1. Select **Itemize content** ![ai itemize content icon](./images/ai-itemize-icon.svg) to convert the selected content into a list. 
-The AI Assistant tool converts the content smartly into a list of items. 
+The Authoring tool in the AI Assistant panel converts the content smartly into a list of items. 
 1. (Optional) Select **Expand** to open the **Itemize content** editor. 
  1. Once your list is ready, accept the changes in the generated content. The generated content then replaces the selected content.  
 
@@ -135,11 +127,12 @@ The AI Assistant tool converts the content smartly into a list of items.
 
 ## Translate content 
 
-Use this intelligent feature to translate the selected content to the target language. For example, you can add content in English and quickly translate it into German.
+Use this intelligent feature to translate the selected content to the target language. For example, you can add content in English and quickly translate it into Arabic.
+
 Perform the following steps to translate the content:
 
 1. Select the content that you want to translate.
-1. Select **Translate content** ![ai translate content icon](./images/ai-translate-content-icon.svg) from the AI Assistant panel.
+1. Select **Translate content** ![ai translate content icon](./images/ai-translate-content-icon.svg) from the **Authoring** panel.
 1. Select the target language from the dropdown. The translated content appears in the AI Assistant panel.
 
 1. (Optional) Select **Expand** to open the **Translate content** editor. 

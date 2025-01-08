@@ -11,17 +11,19 @@ Perform the following steps to create output presets for your DITA map:
 
 1.  In the Assets UI, navigate to the map file that you want to edit.
 
-1.  To get an exclusive lock on the map file, select the map file and click **Check Out**.
+1.  To get an exclusive lock on the map file, select the map file and select **Checkout**.
 
 1.  Select the **Edit Topics** option from the action menu on the map file.
 
-    The map file is opened for editing in the Web Editor.
+    The map file is opened for editing in the Editor.
 
     >[!NOTE]
     >
     > You can add or delete any topic from the map using the Advanced Map Editor. For more details, see [Work with the Advanced Map Editor](map-editor-advanced-map-editor.md#).
 
-1.  In the **Output** tab, select the + icon to create an output preset for your DITA map.
+1.  Select the **Open in map console** icon. The map opens in the map console. 
+
+1. Navigate to the **Output presets** tab and select the + icon to create an output preset for your DITA map.
 
     ![](images/output-tab-preset_cs.png){width="350" align="left"}
 
