@@ -17,7 +17,7 @@ The **Topic List** view provides detailed information about your topics, such as
 
 You can create a report of the topics by performing the following steps:
 
-1.  In the **Repository** panel, open the DITA map file in Map View.
+1.  In the **Repository** panel, open the DITA map file in Map view.
 1.  Select the **Open in map console** icon.
 
     ![](images/map-console.png){width="600" align="left"}
@@ -53,8 +53,8 @@ Experience Manager Guides allows you to tag DITA content from the Web editor. Yo
 
 To view the metadata of your references in the current DITA map, perform the following steps:
 
-1.  In the Repository panel, open the DITA map file in Map View.
-1.  Select the **Open in map console** icon.
+1.  In the Repository panel, open the DITA map file in map View.
+1.  Select the **Open in Map console** icon.
 
     ![](images/map-console.png){width="600" align="left"}
 
@@ -62,8 +62,8 @@ To view the metadata of your references in the current DITA map, perform the fol
 1.  Select **Metadata** from the Reports panel. The metadata list of all the references in the DITA map is displayed. This includes the media references also.
 
     >[!NOTE]
-            >
-            > The metadata report is paginated. You can simply scroll down and all the new set of records keeps loading from the metadata. Also, you can select all the files that are appearing (as well as all the metadata records) in a single stroke by checking in the check box appearing adjacent to **Title**.
+    >
+    > The metadata report is paginated. You can simply scroll down and all the new set of records keeps loading from the metadata. Also, you can select all the files that are appearing (as well as all the metadata records) in a single stroke by checking in the check box appearing adjacent to **Title**.
     
 
 
@@ -117,7 +117,7 @@ To view the metadata of your references in the current DITA map, perform the fol
 
 **Add custom metadata fields**
 
-This feature enables you to add custom metadata columns as per requirement, which are then displayed in the metadata reports. It also provides enhanced flexibility in metadata reporting.
+This feature enables you to add custom metadata columns as per requirement, which are then displayed in the metadata reports. It also provides enhanced flexibility in metadata reporting. To add new custom metadata field perform the following steps:
 
 1.  To add a custom metadata field, select **Settings** from the three dots on the top-right corner of the metadata page.
 
@@ -128,7 +128,7 @@ This feature enables you to add custom metadata columns as per requirement, whic
 
     ![](images/add-custom-metadata.png){width="600" align="left"}
 
-1.  Specify a specific metadata path and an appropriate title for the same which you wnat to add in the columns of metadata report. For example a custom metada with the title languange and a specific path is added. 
+1.  Specify a specific metadata path and an appropriate title for the same which you want to add in the columns of metadata report. For example a custom metada with the title language and a specific path is added. 
 
     ![](images/added-custom-field.png){width="600" align="left"}
 
@@ -140,12 +140,14 @@ This feature enables you to add custom metadata columns as per requirement, whic
 
     ![](images/added-field.png){width="600" align="left"}
 
+Similarly, you can follow the aforementioned steps to add any new custom metadata fields based on your requirement that are needed in the metadata reports.
+
   
 ## Generate a multimedia report 
 
 The **Multimedia** report provides detailed information about the multimedia used in your map, such as the title, type \(audio, video, and images\), files in which multimedia is used, and the reference type of the files, in which they have been used. You can also view the UUID and the location of the multimedia within the repository. You can create a report of the multimedia by performing the following steps:
 
-1.  In the **Repository** panel, open the DITA map file in Map View.
+1.  In the **Repository** panel, open the DITA map file in Map view.
 1.  Select the **Open in map console** icon.
 
     ![](images/map-console.png){width="600" align="left"}
@@ -187,12 +189,12 @@ The **Multimedia** report provides detailed information about the multimedia use
 1.  Select **Download** to download the current snapshot of the multimedia in the DITA map. The excel sheet contains the selected columns and the multimedia filtered in the **Multimedia** view. You can then open this multimedia excel sheet in MS Excel.
 
 
-## View and fix the broken links{#report-broken-links}
+## View and fix the broken links
 
 The **Broken Links** is a useful report which provides you with the details of the broken links present in your current map. You can view the broken links, which can be for DITA topics, multimedia file references, content key references, and so on. You also have the ability to fix the them here itself.
 The report provides detailed information such as the broken link, link type, files in which reference is used, and the type of files they have been used in. 
 You can view the report for broken links by performing the following steps:
-1. In the **Repository** panel, open the DITA map file in Map View.
+1. In the **Repository** panel, open the DITA map file in Map view.
 1. Select the **Open in map console** icon.
 
     ![](images/map-console.png){width="600" align="left"}
