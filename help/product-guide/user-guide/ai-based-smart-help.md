@@ -1,20 +1,17 @@
 ---
 title: AI-powered Smart Help to search content
-description: Learn how to view and utilize AI-powered Smart Help in the Web Editor.
+description: Learn how to view and utilize AI-powered Smart Help in the SEditor.
 exl-id: 61a15208-9600-4bb8-adc0-feca1a0ffef3
 ---
-# AI-powered Smart Help to search content
+# AI-powered smart Help to search content
 
+Experience Manager Guides provides the GenAI-based smart Help, a conversational search feature that helps you find relevant content from the [Adobe Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
-
-Experience Manager Guides provides the GenAI-based Smart Help, a conversational search feature that helps you find relevant content from the [Adobe Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 You can ask your questions and get answers in an informative way. The answer to your query is based on the content from the product documentation. This search is entirely conversational. You can ask questions, and then, based on the response, you can also ask further questions. The response also includes links to source documents, which you can refer to for details. 
 
 For example, you may want to create a topic in Experience Manager Guides for your documentation. You can ask, *How to create a topic?* You get a response and the links for the related articles. Then, if you want to learn how to generate the PDF output for the document, you can ask questions about it. For example, *How to publish a topic to a PDF?* or *How to generate the PDF output for a topic?*  
 
-
-
-When you open the Web Editor, the **Smart Help** panel appears on the right.
+When you open **AI Assistant** on the Homepage, Map console, or Editor, the **Help** panel opens on the right. In case of Editor, the Authoring panel also appears that give you smart authoring capabilities. For details, view [AI Assistant to author documents smartly](./ai-assistant-right-panel.md)
 
 
 
@@ -28,9 +25,7 @@ When you open the Web Editor, the **Smart Help** panel appears on the right.
 
 Perform the following steps to use the conversational search to find appropriate content and resolve your queries:
 
-1. Select **Smart Help** ![Smart Help icon](images/smart-help-icon.svg) to open the panel.
-
-
+1. Select **AI Assistant** to open the Help panel. 
 
     >[!NOTE]
     >
@@ -54,6 +49,15 @@ Perform the following steps to use the conversational search to find appropriate
 1. Select the links to the articles at the end and view detailed information about your question.
 
 
-1. Select **Clear Conversation** ![clear conversation](images/clear-conversation-icon.svg) to remove the conversation history from the panel. You can then start a fresh conversation and find relevant content. 
+1. Select **Clear conversation** ![clear conversation](images/clear-conversation-icon.svg) to remove the conversation history from the panel. You can then start a fresh conversation and find relevant content. 
 
 This smart feature helps you find solutions quickly and lets you focus on your documentation and efficiently complete your tasks.
+
+## Options available for AI Assitant Help responses
+
+When you receive a response to your query from the AI Assistant, you can take the following actions to engage with or provide feedback on the content:
+
+ - **Copy**: Copy the response text for use in your documents.
+ - **Like**: Indicate that the response was helpful or accurate.
+ - **Dislike**: Mark the response as unhelpful or incorrect.
+ - **Report**: Flag the response for review if it contains errors or inaccurate content.

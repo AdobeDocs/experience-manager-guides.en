@@ -5,7 +5,7 @@ exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
 ---
 # AI-powered smart suggestions to author content
 
-Experience Manager Guides provides the smart suggestions that help you create consistent and accurate content.  
+Adobe Experience Manager Guides provides the smart suggestions that help you create consistent and accurate content.  
 
 While you author content, the **Suggest reusable content** feature in the AI Assistant tool can search using AI and show the existing content that is semantically similar to your content. You can then choose the best matching content you want to include in your current topic as a reference.
 
@@ -18,7 +18,7 @@ Perform the following steps to view the smart suggestions for adding appropriate
 
 
   1. Select the content in your topic to view the related suggestions. Ensure that the content's character length exceeds what your administrator has set in the folder profile for the content suggestions to appear.
-  1. From the AI Assistant panel, select **Suggest reusable content** ![ai suggest reusable content icon ](./images/ai-suggest-reusable-content-icon.svg).
+  1. From the **Authoring panel** in AI Assistant, select **Suggest reusable content** ![ai suggest reusable content icon ](./images/ai-suggest-reusable-content-icon.svg).
 
   1. Select a tag to view the authoring suggestions for the current tag .  The suggestions to view and add content references from the indexed files are displayed based on the content in the current tag. You can also select multiple tags.
   
@@ -49,7 +49,7 @@ Perform the following steps to view the smart suggestions for adding appropriate
 
     *Preview the comparison between the current content and the suggested content.*
  
-1. Click **Accept** to add the suggested content reference in the **Suggest reusable content** preview.
+1. Select **Accept** to add the suggested content reference in the **Suggest reusable content** preview.
 1. You can also select **Accept** or **Dismiss** in the suggestions panel for the appropriate recommendations.
 
    
