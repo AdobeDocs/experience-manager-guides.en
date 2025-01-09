@@ -45,9 +45,11 @@ Perform the following steps to view the DITA Map Report:
 
         - **Document State**: The current state of the document - Draft, In-Review or Reviewed.
 
+        - **Missing Elements**: Lists the number of missing images or broken cross-references, if any.
+
         - **Missing Topics \(B\)**: If there are topics with broken references, then those topics are listed under the Missing Topics list.
 
-        - **Missing Elements**: Lists the number of missing images or broken cross-references, if any.
+        - **Open in Framemaker \(C\)**: Lists the number of missing images or broken cross-references, if any.
 
         - **Open in Editor \(D\)**: Selecting this icon opens the topic in the Web Editor.
 

@@ -9,7 +9,7 @@ role: User
 
 When you are working on multiple simultaneous releases along with multiple authors, your content is bound to have multiple versions. There could be some common information across multiple releases, which different authors could use in their project. To handle such work assignments, authors could end up with multiple versions of files. Such versions could simply be a newer version of a file or a revert to an earlier version. It is a complex task to identify when a file was reverted and why.
 
-AEM Guides allows you to generate a version history report for an individual file or for all files in a folder. This version history gives you a consolidate view of all versions of a file that were reverted and who created those versions and the reason for creating those versions.
+Adobe Experience Manager Guides allows you to generate a version history report for an individual file or for all files in a folder. This version history gives you a consolidate view of all versions of a file that were reverted and who created those versions and the reason for creating those versions.
 
 You can access this report from the following places:
 

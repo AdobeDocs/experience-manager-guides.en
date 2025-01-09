@@ -7,11 +7,11 @@ role: User
 ---
 # Conversion Status Report {#id205BBA00WZZ}
 
-AEM Guides provides a robust conversion feature to convert documents of various formats into DITA. The Conversion Status Report provides a consolidated view of all conversion tasks executed by AEM Guides.
+Adobe Experience Manager Guides provides a robust conversion feature to convert documents of various formats into DITA. The Conversion Status Report provides a consolidated view of all conversion tasks executed by Experience Manager Guides.
 
 Perform the following steps to view the Conversion Status Report:
 
-1.  Select the Adobe Experience Manager logo at the top and choose **Tools**.
+1.  Select Adobe Experience Manager logo at the top and choose **Tools**.
 
 1.  Select **Guides** from the list of tools.
 
@@ -27,9 +27,9 @@ Perform the following steps to view the Conversion Status Report:
 
         You can filter the report data on the basis of File Type and conversion Status. In the File Type, you can choose to see the report data for Word document, structured HTML, XML, DocBook and IDML type of documents. In the Status, you can choose to see the report data for tasks that have executed Successfully, Failed, Active, or Queued.
 
-        The following screenshot displays the report data for conversion tasks that have Failed, Active, and Queued status.
+        The following screenshot displays the report data for conversion tasks that has Success status.
 
-        ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
+        ![](images/conversion-report-failed-active-queued-new.png){width="800" align="left"}
 
     -   **Report data:**
 
@@ -37,7 +37,7 @@ Perform the following steps to view the Conversion Status Report:
 
         - **File Name**: Name of the source file on which the conversion process was executed. Selecting the File Name link takes you to the source document location.
 
-        - **File Type**: Type of the source document, which could be Word, structured HTML, XML, and DocBook.
+        - **File Type**: Type of the source document, which could be Word, structured HTML, XML, IDML and DocBook.
 
         - **Added By**: Name of the user who executed the conversion task.
 
