@@ -239,14 +239,14 @@ Review tasks re-assigned to the creator/authors for review incorporation, can be
 ![Review tasks in the Author mode](./images/review-task-author-mode.png){width="800" align="left"}
 *Caption: Review task assigned back to authors* 
 
-For such tasks, the task state for the assignee changes to **Authoring** while the task type remains as **Review**. This state change happens only when the review is completed by all the reviewers.
+For such tasks, the task state for the assignee changes to **Authoring** while the task type remains as **Review**. This state change happens when the review is completed by all the reviewers.
 
 ![](./images/review-tasks-with-authoring-doc-state.png){width="300" align="left"}
 
     
 Selecting the task or the open icon ![](images/Smock_OpenIn_18_N.svg) opens the task in the Editor where the author can [address review comments](../user-guide/review-address-review-comments.md), edit the task by updating the version of the topics, and then re-assign the task back to reviewer if needed. 
 
-Author can also edit the task and assign it to another author, delegating the task of incorporating the comments. To do this, select **Edit** >> **Change assignee**, and then select an asisgnee from the list.  
+Author can also edit the task and assign it to another author, delegating the task of incorporating the comments. To do this, select **Edit**, change the Task state to **Authoring**, and then select **Change assignee**. You can now select an assignee from the list.  
 
 This process forms a continuous cycle, where the task moves back and forth between the author and reviewer until it is fully completed. Once all the suggested changes are incorporated, the author can complete the task by selecting **Mark as Done**. 
 
