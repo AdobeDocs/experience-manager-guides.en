@@ -94,9 +94,9 @@ Perform the following steps to create a new Adobe Workfront task:
 
         The following actions are available to modify your selection before sending for review:
 
-        * Unselect some topics or remove all topics from the list. 
+        * Unselect some topics from the list. 
         * Filter the topic list based on document state.
-        * Edit or set the version of selected topics to **Latest version**, **Version on**, and **Baseline**(only available for maps) as per the need. 
+        * Edit or set the version of selected topics to **Latest version**, **Version on basis of dates**, and **Baseline**(only available for maps) as per the need. 
         
         For more details, view [send topics for review](./review-send-topics-for-review.md).        
           
@@ -128,6 +128,8 @@ Allows you to open the task. Depending on the type of the task, it will open in 
 **Edit** - ![](images/Smock_Edit_18_N.svg)
 
 Allows you to edit task details added while creating the task. All fields are editable except Task type and Project. Also, you can only edit tasks that are created by you. Assigned tasks can not be edited. 
+
+Also, you can add or remove assets when editing an Authoring, Publishing or Translation task. However, for a Review task, you can only change the version of the assets sent for review.  
 
 **Task details** - ![](images/Smock_InfoOutline_18_N.svg)
 
@@ -237,12 +239,14 @@ Review tasks re-assigned to the creator/authors for review incorporation, can be
 ![Review tasks in the Author mode](./images/review-task-author-mode.png){width="800" align="left"}
 *Caption: Review task assigned back to authors* 
 
-For such tasks,the task state for the assignee changes to **Authoring** while the task type remains as **Review**. 
+For such tasks, the task state for the assignee changes to **Authoring** while the task type remains as **Review**. This state change happens only when the review is completed by all the reviewers.
 
 ![](./images/review-tasks-with-authoring-doc-state.png){width="300" align="left"}
 
     
 Selecting the task or the open icon ![](images/Smock_OpenIn_18_N.svg) opens the task in the Editor where the author can [address review comments](../user-guide/review-address-review-comments.md), edit the task by updating the version of the topics, and then re-assign the task back to reviewer if needed. 
+
+Author can also edit the task and assign it to another author, delegating the task of incorporating the comments. To do this, select **Edit** >> **Change assignee**, and then select an asisgnee from the list.  
 
 This process forms a continuous cycle, where the task moves back and forth between the author and reviewer until it is fully completed. Once all the suggested changes are incorporated, the author can complete the task by selecting **Mark as Done**. 
 
