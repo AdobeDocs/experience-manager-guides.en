@@ -23,9 +23,7 @@ Perform the following steps to create output presets for your DITA map:
 
 1. Select the **Open in map console** icon. The map opens in the map console. 
 
-1. Navigate to the **Output presets** tab and select the + icon to create an output preset for your DITA map.
-
-    ![](images/output-tab-preset_cs.png){width="350" align="left"}
+1. Navigate to the **Output presets** tab and select the + icon to create an output preset for your DITA map.   
 
 1. Select **Knowledge Base** from the **Type** drop-down, enter name, and select **Adobe Experience Manager** in the **New output preset** dialog box.
 1. Select the **Add to current folder profile** option to create an output preset for the current folder profile. ![folder profile icon](images/global-preset-icon.svg) icon indicates a folder profile level preset.  
