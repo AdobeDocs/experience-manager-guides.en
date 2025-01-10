@@ -76,33 +76,38 @@ To view the metadata of your references in the current DITA map, perform the fol
     
 
 1.  From the **Filters** panel you can filter your topics based on the **Document State** \(for example if your topics are in Edit, In-Review, or Reviewed state, these are listed\), **References** \(direct or indirect\), **File Type** \(Map, Topic, Document, Image, Video and Others\) of the reference.
+
+    >[!NOTE]
+    >
+    > All the filters provide an exhaustive list of options present in the system.
+
 1.  You can also choose to view only the **Files with no tags** or also choose specific tags from the **Tags** filter to view the files associated with them.
-    1.  You can also use the following topic filtering options to choose to display the following columns in the metadata list:
-        -   **Title** \(selected by default\) The title of the referenced file is specified in the DITA map. You can select the file to edit it.<!--You can also select and play an audio or video file in the Web Editor. You can change the volume or the view of the video. In the shortcut menu you also have the options to download, change playback speed, or view picture in picture.-->
+1.  You can also use the following topic filtering options to choose to display the following columns in the metadata list:
+    -   **Title** \(selected by default\) The title of the referenced file is specified in the DITA map. You can select the file to edit it.<!--You can also select and play an audio or video file in the Web Editor. You can change the volume or the view of the video. In the shortcut menu you also have the options to download, change playback speed, or view picture in picture.-->
 
-            >[!NOTE]
-            >
-            > A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user.
+        >[!NOTE]
+        >
+        > A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user.
 
-        -   **File Name** The name of the file.
-        -   **File Location** The complete path of the file.
-        -   **UUID** The universally unique identifier \(UUID\) of the file.
-        -   **Tags** \(selected by default\) Tags applied on the file.
+    -   **File Name** The name of the file.
+    -   **File Location** The complete path of the file.
+    -   **UUID** The universally unique identifier \(UUID\) of the file.
+    -   **Tags** \(selected by default\) Tags applied on the file.
 
-            >[!NOTE]
-            >
-            > By default, you can view two tags for a file. To view more tags, select **Show More**. Select **Show Less** to contract the list again.
+        >[!NOTE]
+        >
+        > By default, you can view two tags for a file. To view more tags, select **Show More**. Select **Show Less** to contract the list again.
 
-        -   **Document State** \(selected by default\) The current state of the reference file.
-        -   **Reference Type** The type of reference – direct or indirect
-        -   **File Type** \(selected by default\) Type of the source file. The available options are Map, Topic, and Image.
-        -   **Locked by** The user who has locked the file.
+    -   **Document State** \(selected by default\) The current state of the reference file.
+    -   **Reference Type** The type of reference – direct or indirect
+    -   **File Type** \(selected by default\) Type of the source file. The available options are Map, Topic, and Image.
+    -   **Locked by** The user who has locked the file.
 
         >[!NOTE]
         >
         > The metadata report is paginated. You can simply scroll down and all the new set of records keeps loading from the metadata. Also, you can select all the files that are appearing by checking in the check box appearing adjacent to **Title**. For selecting all the metadata records you can select the tab **Select all ...files** appearing above the Title bar.   
         
-        ![](images/all-selection.png){width="800" align="left"}
+        ![](images/all-selection.png){width="800" align="left"}       
 
 
 1.  Select **Download** to download the snapshot of all the references in the DITA map. The excel sheet contains the selected columns and the references filtered in the **Metadata** view. You can then open this metadata excel file in MS Excel.
