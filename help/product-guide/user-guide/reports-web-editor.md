@@ -5,11 +5,11 @@ exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
 ---
-# DITA map report from the Web Editor {#id231HF0Z0NXA}
+# DITA map report from the Editor {#id231HF0Z0NXA}
 
-Adobe Experience Manager Guides comes with a feature in the Web Editor that enables you to check the overall integrity of your references and generate reports for them.
+Adobe Experience Manager Guides comes with a feature in the Editor that enables you to check the overall integrity of your references and generate reports for them.
 
-You can view the topic list, manage the metadata of all references, view the multimedia list and fix all the broken links for the current map from the **Reports** tab in the Web Editor.
+You can view the topic list, manage the metadata of all references, view the multimedia list and fix all the broken links for the current map from the **Reports** tab in the Editor.
 
 ## Generate an Excel file from the Topic List view 
 
@@ -57,7 +57,7 @@ You can view a report of the topics by performing the following steps:
 
 **Manage metadata in bulk from the Metadata report**
 
-Experience Manager Guides allows you to tag DITA content from the Web editor. You can apply tags on an individual topic or use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or on a sub-map. You can also change the document state of all selected topics to the next possible common document state.
+Experience Manager Guides allows you to tag DITA content from the Editor. You can apply tags on an individual topic or use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or on a sub-map. You can also change the document state of all selected topics to the next possible common document state.
 
 ## View metadata 
 

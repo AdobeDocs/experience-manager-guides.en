@@ -51,7 +51,7 @@ Perform the following steps to view the DITA Map Report:
 
         - **Open in Framemaker \(C\)**: Lists the number of missing images or broken cross-references, if any.
 
-        - **Open in Editor \(D\)**: Selecting this icon opens the topic in the Web Editor.
+        - **Open in Editor \(D\)**: Selecting this icon opens the topic in the Editor.
 
 
     Items highlighted under **E** are described below:
@@ -83,7 +83,7 @@ Perform the following steps to generate the CSV of a DITA map report:
     ![](images/download-report-dialog-new.png){width="550" align="left"}
 
 
-    You can also download the CSV of the generated report later from the AEM notification Inbox.
+    You can also download the CSV of the generated report later from the Experience Manager Notification Inbox.
 
     Select the generated report in the Inbox to download the report.
 

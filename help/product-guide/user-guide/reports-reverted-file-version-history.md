@@ -19,7 +19,7 @@ You can access this report from the following places:
 
 -   **Topic preview**: when you are previewing a topic, there also you can bring up the **Version History** panel from the left rail. You will get a panel similar to the Assets UI from where you can select the **Revert Version Logs** link to access the reverted version history of the active document.
 
--   **AEM's Tools section**: you can also access this report from AEM's Tools section. The following procedure explains how you can access the revert version history from the AEM's Tools section.
+-   **Adobe Experience Manager Tools section**: you can also access this report from Experience Manager Tools section. The following procedure explains how you can access the revert version history from the Experience Manager Tools section.
 
 
 Perform the following steps to access the Revert History report:
