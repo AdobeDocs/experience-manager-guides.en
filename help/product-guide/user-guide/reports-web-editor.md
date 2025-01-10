@@ -9,15 +9,20 @@ role: User
 
 Adobe Experience Manager Guides comes with a feature in the Web Editor that enables you to check the overall integrity of your references and generate reports for them.
 
-You can view the topic list, manage the metadata of all references, and view the multimedia list for the current map from the **Reports** tab in the Web Editor.
+You can view the topic list, manage the metadata of all references, view the multimedia list and fix all the broken links for the current map from the **Reports** tab in the Web Editor.
 
 ## Generate an Excel file from the Topic List view 
 
 The **Topic List** view provides detailed information about your topics, such as the reference type, document state, and author.
 
-You can create a report of the topics by performing the following steps:
+You can view a report of the topics by performing the following steps:
 
 1.  In the **Repository** panel, open the DITA map file in Map view.
+
+    >[!NOTE]
+    >
+    > You can also open a DITA map directly in the **Map console** tab from the drop-down on the left top of the home page.
+    
 1.  Select the **Open in map console** icon.
 
     ![](images/map-console.png){width="600" align="left"}
@@ -27,7 +32,12 @@ You can create a report of the topics by performing the following steps:
 
     ![](images/web-editor-topiclist-panel-new.png){width="800" align="left"}
 
-1.  From the **Filters** panel you can filter your topics based on the **Reference type** \(direct or indirect\), **Document State** \(the current state of your topics. For example if your topics are in Edit, In-Review, or Reviewed state, these are listed\) or the **Author** of the topic.
+1.  From the **Filters** panel you can filter your topics based on the **Reference type** \(direct or indirect\), **Document State** \(for example if your topics are in Edit, In-Review, or Reviewed state, these are listed\) or the **Author** of the topic.
+
+    >[!NOTE]
+    >
+    > All the filters provide an exhaustive list of options present in the system.
+
 
 1.  You can also use the following topic filtering options to choose to display the following columns in the list:
 
@@ -36,14 +46,14 @@ You can create a report of the topics by performing the following steps:
     -   **UUID** The universally unique identifier \(UUID\) of the file.
     -   **File Location** The complete path of the topic.
     -   **Reference Type** The type of reference – direct or indirect.
-    -   **Document State** The current state of the topic.
+    -   **Document State** The state of the topic.
     -   **Author** The user who worked last on the topic.
     -   **Parent Map** The list of all maps where the topic is directly referenced.
     >[!NOTE]
     >
     > Select **Refresh** to get a fresh list of topics and view any change in your map file or if any reference within your topic file is updated.
 
-1.  Select **Download** to download the current snapshot of the topics in the DITA map. The excel sheet contains the selected columns and the topics filtered in the **Topic List** view. You can then open this topic list excel file in MS Excel.
+1.  Select **Download** to download the snapshot of all the topics in the DITA map. The excel sheet contains the selected columns and the topics filtered in the **Topic List** view. You can then open this topic list excel file in MS Excel.
 
 **Manage metadata in bulk from the Metadata report**
 
@@ -59,20 +69,16 @@ To view the metadata of your references in the current DITA map, perform the fol
     ![](images/map-console.png){width="600" align="left"}
 
 1.  Select **Reports** from the left panel.
-1.  Select **Metadata** from the Reports panel. The metadata list of all the references in the DITA map is displayed. This includes the media references also.
+1.  Select **Metadata** from the Reports panel. The metadata list of all the references in the DITA map is displayed. This includes the media references also.  
 
-    >[!NOTE]
-    >
-    > The metadata report is paginated. You can simply scroll down and all the new set of records keeps loading from the metadata. Also, you can select all the files that are appearing (as well as all the metadata records) in a single stroke by checking in the check box appearing adjacent to **Title**.
+
+    ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}    
     
 
-
-    ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}
-
-1.  From the **Filters** panel you can filter your topics based on the **Document State** \(the current state of your topics. For example if your topics are in Edit, In-Review, or Reviewed state, these are listed\), **References** \(direct or indirect\), **File Type** \(Map, Topic, Document, Image, Video and Others\) of the reference.
+1.  From the **Filters** panel you can filter your topics based on the **Document State** \(for example if your topics are in Edit, In-Review, or Reviewed state, these are listed\), **References** \(direct or indirect\), **File Type** \(Map, Topic, Document, Image, Video and Others\) of the reference.
 1.  You can also choose to view only the **Files with no tags** or also choose specific tags from the **Tags** filter to view the files associated with them.
     1.  You can also use the following topic filtering options to choose to display the following columns in the metadata list:
-        -   **Title** \(selected by default\) The title of the referenced file is specified in the DITA map. You can select the file to edit it.You can also select and play an audio or video file in the Web Editor. You can change the volume or the view of the video. In the shortcut menu you also have the options to download, change playback speed, or view picture in picture.
+        -   **Title** \(selected by default\) The title of the referenced file is specified in the DITA map. You can select the file to edit it.<!--You can also select and play an audio or video file in the Web Editor. You can change the volume or the view of the video. In the shortcut menu you also have the options to download, change playback speed, or view picture in picture.-->
 
             >[!NOTE]
             >
@@ -91,7 +97,15 @@ To view the metadata of your references in the current DITA map, perform the fol
         -   **Reference Type** The type of reference – direct or indirect
         -   **File Type** \(selected by default\) Type of the source file. The available options are Map, Topic, and Image.
         -   **Locked by** The user who has locked the file.
-1.  Select **Download** to download the current snapshot of the references in the DITA map. The excel sheet contains the selected columns and the references filtered in the Topic List view. You can then open this metadata excel file in MS Excel.
+
+        >[!NOTE]
+        >
+        > The metadata report is paginated. You can simply scroll down and all the new set of records keeps loading from the metadata. Also, you can select all the files that are appearing by checking in the check box appearing adjacent to **Title**. For selecting all the metadata records you can select the tab **Select all ...files** appearing above the Title bar.   
+        
+        ![](images/all-selection.png){width="800" align="left"}
+
+
+1.  Select **Download** to download the snapshot of all the references in the DITA map. The excel sheet contains the selected columns and the references filtered in the **Metadata** view. You can then open this metadata excel file in MS Excel.
 
 **Update metadata**
 
@@ -111,7 +125,7 @@ To view the metadata of your references in the current DITA map, perform the fol
     >
     > The common tags applied on all the selected topics are listed.
 
-1.  Select a new document state if you want to change the document state of all the selected references. The dopdown displays the common possible state for all selected topics. For example, if the current state of your topics is In-Review, then you can view Draft, Approved, or Reviewed state.
+1.  Select a new document state if you want to change the document state of all the selected references. The drop-down displays the common possible state for all selected topics. For example, if the current state of your topics is In-Review, then you can view Draft, Approved, or Reviewed state.
 1.  Select **Update** to update the metadata. A confirmation message is displayed for the metadata whether it is updated successfully or has any failed updates. You also select **Download Report** to download the metadata CSV from the confirmation dialog. This CSV contains the details of the update status for the selected references.
 
 
@@ -128,24 +142,27 @@ This feature enables you to add custom metadata columns as per requirement, whic
 
     ![](images/add-custom-metadata.png){width="600" align="left"}
 
-1.  Specify a specific metadata path and an appropriate title for the same which you want to add in the columns of metadata report. For example a custom metada with the title language and a specific path is added. 
-
-    ![](images/added-custom-field.png){width="600" align="left"}
+1.  Specify a specific metadata path and an appropriate title for the same which you want to add in the columns of metadata report. For example a custom metadata with the title language and a specific path is added. 
 
     >[!NOTE]
     >
     > If you want to remove a particular metadata column, you can delete it from the list displayed. Additionally, you can edit the **Label** to alter the display title of column.
 
-1.  Select **Save**. A new custom column **Language** is added in the list of Columns on the Filter panel. 
+    ![](images/added-custom-field.png){width="600" align="left"}
+
+    
+
+1.  Select **Save** and **Refresh** the Metadata view. A new custom column **Language** is added in the list of Columns in the Filter panel. 
 
     ![](images/added-field.png){width="600" align="left"}
 
-Similarly, you can follow the aforementioned steps to add any new custom metadata fields based on your requirement that are needed in the metadata reports.
+  
+  Similarly, you can follow the aforementioned steps to add any new custom metadata fields based on your requirement that are needed in the metadata reports.
 
   
 ## Generate a multimedia report 
 
-The **Multimedia** report provides detailed information about the multimedia used in your map, such as the title, type \(audio, video, and images\), files in which multimedia is used, and the reference type of the files, in which they have been used. You can also view the UUID and the location of the multimedia within the repository. You can create a report of the multimedia by performing the following steps:
+The **Multimedia** report provides detailed information about the multimedia used in your map, such as the title, type \(audio, video, and images\), files in which multimedia is used, and the reference type of the files, in which they have been used. You can also view the UUID and the location of the multimedia within the repository. You can view a report of the multimedia by performing the following steps:
 
 1.  In the **Repository** panel, open the DITA map file in Map view.
 1.  Select the **Open in map console** icon.
@@ -186,7 +203,7 @@ The **Multimedia** report provides detailed information about the multimedia use
 
     ![](images/video-web-editor.png){width="800" align="left"}-->
 
-1.  Select **Download** to download the current snapshot of the multimedia in the DITA map. The excel sheet contains the selected columns and the multimedia filtered in the **Multimedia** view. You can then open this multimedia excel sheet in MS Excel.
+1.  Select **Download** to download the snapshot of the all multimedia in the DITA map. The excel sheet contains the selected columns and the multimedia filtered in the **Multimedia** view. You can then open this multimedia excel sheet in MS Excel.
 
 
 ## View and fix the broken links
@@ -237,7 +254,7 @@ You can view the report for broken links by performing the following steps:
 1. You need to update the required reference details in the **Update Link** dialog. The details required in **Update Link** dialog would depend on the type of reference.     
 Once you fix a link, it is not displayed under the list of broken links. Instead, you can view it under the Topic List or Metadata. 
 
-1. Select **Download** to download the current snapshot of the broken links in the DITA map. The excel file contains the selected columns and the broken links filtered in the Broken Links view. You can then open and view this excel file in any MS Excel.
+1. Select **Download** to download the snapshot of all the broken links in the DITA map. The excel file contains the selected columns and the broken links filtered in the Broken Links view. You can then open and view this excel file in any MS Excel.
 
 
 **Parent topic:**[Reports](reports-intro.md)
