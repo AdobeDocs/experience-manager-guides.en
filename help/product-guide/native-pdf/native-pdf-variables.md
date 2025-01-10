@@ -10,8 +10,6 @@ exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
 
 A variable is a name-value pair of data that serves as a reusable piece of information. This makes your content portable and easy to update. When you modify a variable or its value, every occurrence of that variable or value is updated.
 
-
-
 ## Create a new variable
 
 Perform the following steps to create a variable:
@@ -78,7 +76,7 @@ The preview of the variable displays the default value. For example, if you have
 1. Select a variable in the **Variables** panel. 
 1. Hover over the variable to view the **Options** menu and then select the **Preview** option.
 
- ![variable preview from the variables panel](assets/variables-panel-preview-default.png){width="550" align="left"}
+      ![variable preview from the variables panel](assets/variables-panel-preview-default.png){width="550" align="left"}
 
  *Preview the default value for a variable.*
  
