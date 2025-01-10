@@ -67,7 +67,7 @@ You can use the data from data sources in two ways:
 
 ## Insert a content snippet from your data source
 
-AEM Guides provides the feature to connect with your data source. You can fetch your data, insert it into your topics, and edit it. You can easily create a content snippet using the content snippet generator and reuse it within your topics. 
+Adobe Experience Manager Guides provides the feature to connect with your data source. You can fetch your data, insert it into your topics, and edit it. You can easily create a content snippet using the content snippet generator and reuse it within your topics. 
 
 Perform the following steps to create a content snippet using the content snippet generator and insert it in your topic:
 

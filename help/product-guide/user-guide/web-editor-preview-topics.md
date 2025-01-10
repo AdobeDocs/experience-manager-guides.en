@@ -12,13 +12,13 @@ Once a topic is created, Adobe Experience Manager Guides generates a preview of 
 Perform the following steps to preview a topic:
 
 1.  In the Assets UI, navigate to the topic that you want to view.
-1.  Click the topic you want to view.
+1.  Select the topic you want to view.
 
     A preview of the topic is displayed in the Assets UI.
 
     >[!NOTE]
     >
-    > You can view the version of the active topic or DITA map in the top right corner of the topic's file tab.
+    > You can view the version of the active topic or DITA map in the top right corner of the secondary toolbar.
 
     >[!IMPORTANT]
     >
@@ -54,13 +54,13 @@ If your topic has conditional content, then you will see the A/B icon on the too
 
 >[!NOTE]
 >
-> The conditional content is highlighted using light background color in the Web Editor.
+> The conditional content is highlighted using light background color in the Editor.
 
 ![](images/conditional-popup_cs.png){width="300" align="left"}
 
 **Edit** 
 
-- Open the topic for editing in the Web Editor. The **Edit** option will not be available if your administrator has enabled the **Disable Edit Without Checkout** option. With the option enabled, you will see the **Edit** option only after checking out a topic file.
+- Open the topic for editing in the Editor. The **Edit** option will not be available if your administrator has enabled the **Disable edit without locking the file** option. With the option enabled, you will view the **Edit** option only after locking a topic file.
 
 **Key Resolution** 
 
@@ -98,11 +98,11 @@ If you share the link from DITA map console or a file's preview mode, then the u
 >
 > The link cannot be used as a reference link in other topic, it only gives direct access to the file in the repository. Also, the link remains valid as long as the file is available in the repository. Even if the file is moved to some other location in the repository, the link remain valid. The link will fail only when the file is deleted from the repository.
 
-**Check Out/Check In** 
+**Checkout/Checkin** 
 
-- Toggles the Check Out and Check In features. When a file is checked out, the current user gets an exclusive write permission on the file. A checked out file can be opened in the Web Editor for editing. Once you have made the required change, select the Check In icon to save the file in DAM.
+- Toggles the Checkout and Checkin features. When a file is checked out, the current user gets an exclusive write permission on the file. A checked out file can be opened in the Editor for editing. Once you have made the required change, select the Checkin icon to save the file in DAM.
 
-When you check out a topic, the status of the file is shown as checked out in the card view and in the list view.
+When you checkout a topic, the status of the file is shown as checked out in the card view and in the list view.
 
 Checked out file in the card view:
 
@@ -112,13 +112,13 @@ Checked out file in the list view:
 
 ![](images/checkout-list-62.png){width="550" align="left"}
 
-If the Checked Out column is not visible, select **View Settings** under **List View** and select the **Checked Out** status in the **Configure Columns** dialog.
+If the Checked out column is not visible, select **View Settings** under **List View** and select the **Checked Out** status in the **Configure Columns** dialog.
 
 ![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
 
 >[!TIP]
 >
-> See the Versioning of content section in the Best practices guide for best practices around working with file check-out and check-in.
+> View the Versioning of content section in the Best practices guide for best practices around working with file checkout and checkin.
 
 **Web-based version difference** 
 
@@ -157,7 +157,7 @@ If the Checked Out column is not visible, select **View Settings** under **List 
 
     ![](images/branching_illustration.png){width="550" align="center"}
 
-    For any new topic, the first version is numbered as 1.0. Thereafter, every new version of the topic is saved with an incremental number such as 1.1, 1.2, and so on. Once you create a branch of a topic, a new branch is created taking the version number from where the branch is created and adding a .0 at the end of the version. As seen in the illustration, a new branch is created from version 1.1 of a topic. The new branch is versioned as 1.1.0. Thereafter, every time you save a new version of the topic in this branch, it gets an incremental version number such as 1.1.1, 1.1.2, and so on.
+    For any new topic, the first version is numbered as 1.0. Thereafter, every new version of the topic is saved with an incremental number such as 1.1, 1.2, and so on. Once you create a branch of a topic, a new branch is created taking the version number from where the branch is created and adding a .0 at the end of the version. As showcased in the illustration, a new branch is created from version 1.1 of a topic. The new branch is versioned as 1.1.0. Thereafter, every time you save a new version of the topic in this branch, it gets an incremental version number such as 1.1.1, 1.1.2, and so on.
 
     Similar to branching, you can also revert your working or current version to any version that exists in the repository. To revert to a version, simply select the desired version of the topic and select **Revert to This Version** in the **Version History** panel.
 

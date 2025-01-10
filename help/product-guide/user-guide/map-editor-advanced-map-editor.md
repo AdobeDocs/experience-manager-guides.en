@@ -37,6 +37,10 @@ Perform the following steps to build your map file using the Advanced Map Editor
 
     The map file is opened for editing in the in the Editor.
 
+    >[!NOTE]
+    >
+    > If you have recently accessed the map file that you want to edit, you can view the file in the [Recents files widget on the Home page](./intro-home-page.md#overview) and open it in the Editor.  
+
 1.  Select the **Edit** icon.
 
     ![](images/edit-map-icon.png){width="550" align="left"}
@@ -47,7 +51,7 @@ Perform the following steps to build your map file using the Advanced Map Editor
 
     -   **A** - \(*Main toolbar*\): This is similar to the Editor's main toolbar. View [Main toolbar](./web-editor-features.md#main-toolbar) in the Editor for more details.
 
-    -   **B** - \(*Secondary toolbar*\) This is the Secondary toolbar that allows you to work with map files. For more information about the functionalities available through Secondary toolbar, view [Features available in the Advanced Map Editor's toolbar](#id205DEC0005Z).
+    -   **B** - \(*Secondary toolbar*\) This is the Secondary toolbar that allows you to work with map files. For more information about the functionalities available through Secondary toolbar, view [Features available in the Advanced Map Editor's toolbar](#features-available-in-the-advanced-map-editors-toolbar).
     
     -   **C** - \(*Map views*\): Allows you to switch the Map Editor between the Layout, Author, Source and Preview. The **Layout** view allows you to organize the topics in a DITA map. This gives the tree or hierarchical view of the map. The **Author** view allows you to edit the topics in the Map Editor. This also gives the WYSIWYG view of the map file. The **Source** view allows you to work with the underlying XML of the map file. The Preview gives you a consolidated view of all topic and sub-maps within the map file. 
 
@@ -244,6 +248,8 @@ Displays the **Insert element before**or **Insert element after**  dialog box. S
 
 Displays the **Insert element** dialog box. Select the element that you want to insert. You can use the keyboard to scroll through the list of elements and press Enter to insert the required element. Alternatively, you can click directly on the element to insert it in the map.
 
+<!-----------------------------------------------------------
+
 **Relationship table** - ![](images/relationship_table_icon.svg)
 
 Inserts a relationship table in the map.
@@ -298,6 +304,7 @@ If you want to delete a topic from your table, click the cross icon next to the 
 **Delete the relationship table**
 
 If you want to delete the relationship table, click anywhere outside the relationship table and click Delete. For details, view [Work with relationship tables in the Map Editor](map-editor-basic-map-editor.md).
+----->
 
 **Reusable content** - ![](images/content-reuse-icon.png)
 
@@ -309,9 +316,9 @@ Synchronizes the `title` element of a referenced file in a map with the value sp
 
 >[!NOTE]
 >
-> Your administrator can configure auto-adding `@navtitle` attribute to every reference file that you add to a map. For more details about configuring auto-adding `@navtitle` attribute, see *Include @navtitle attribute by default* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+> Your administrator can configure auto-adding `@navtitle` attribute to every reference file that you add to a map. For more details about configuring auto-adding `@navtitle` attribute, view *Include @navtitle attribute by default* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-Click the Refresh Navigation Title Attribute icon to synchronize the `title` element's and `@navtitle` attribute's values.
+Select the Refresh Navigation Title Attribute icon to synchronize the `title` element's and `@navtitle` attribute's values.
 
 **Tags** 
 

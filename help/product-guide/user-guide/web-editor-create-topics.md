@@ -39,7 +39,7 @@ Perform the following steps to create a topic:
 
     You can choose to open the topic for editing in the Web Editor, or the save the topic file in the Adobe Experience Manager repository.
 
-    Every new topic that you create from the Assets UI **Create** \> **DITA Topic** or the Editor is assigned a unique topic ID. The value of this ID is the file name itself. Also, a new document is saved as the latest working copy of the topic in DAM. Until you save a revision of a newly created topic, you will not view any version number in the Version History. If you open the topic for editing, the version information is shown in the right top corner of the topic file's tab:
+    Every new topic that you create from the Assets UI **Create** \> **DITA Topic** or the Editor is assigned a unique topic ID. The value of this ID is the file name itself. Also, a new document is saved as the latest working copy of the topic in DAM. Until you save a revision of a newly created topic, you will not view any version number in the Version History. If you open the topic for editing, the version information is shown in the right top corner of the secondary toolbar:
 
     ![](images/topic-version-none_cs.png){width="550" align="left"}
 
@@ -48,7 +48,7 @@ Perform the following steps to create a topic:
 
 >[!NOTE]
 >
-> If your administrator has configured your Web Editor to check out files before editing, then you will not be able to edit a file until you check it out. Similarly, if configured, you will be asked to check-in any checked-out file before closing it.
+> If your administrator has configured your Editor to lock files before editing, then you will not be able to edit a file until you lock it. Similarly, if configured, you will be asked to unlock any locked file before closing it.
 
 >[!IMPORTANT]
 >

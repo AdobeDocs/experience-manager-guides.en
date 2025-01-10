@@ -21,7 +21,7 @@ This topic walks you through the process of creating a DITA map and then using t
 
 >[!TIP]
 >
-> See the *Map Editor* section in the Best practices guide for best practices around working with the Map Editor.
+> View the *Map Editor* section in the Best practices guide for best practices around working with the Map Editor.
 
 -   **[Create a map](map-editor-create-map.md)**  
 

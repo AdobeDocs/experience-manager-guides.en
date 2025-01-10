@@ -31,7 +31,7 @@ Saves the changes you have made in all opened topics. If you have multiple topic
 
 **AI Assistant**
 
-AI-powered Smart Help and Authoring feature that helps you find relevant content from the Adobe Experience Manager Guides Documentation and simplifies document handling through intelligent suggestions and optimization.
+[AI-powered Smart Help and Authoring feature](./ai-assistant.md) that helps you find relevant content from the Adobe Experience Manager Guides Documentation and simplifies document handling through intelligent suggestions and optimization.
 
 **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar containing the Adobe Experience Manager logo, is hidden. This maximizes the content space for editing. To return to the standard view, use the **Exit the expanded view** icon.
 
@@ -250,7 +250,7 @@ In the Source view, the **Find and replace** feature is extremely useful for sea
 
 **Version history**
 
-The **Version History** feature in the Editor allows you to check the available versions of your DITA files, compare them, and revert to any version from the Editor itself.
+The **Version history** feature in the Editor allows you to check the available versions of your DITA files, compare them, and revert to any version from the Editor itself.
 
 In the version history, you can compare the content and metadata of the current version (which can also be a working copy) with any previous version of the same file. You can also view the labels and comments for the compared versions.
 
@@ -543,9 +543,9 @@ Using the table's context menu, you can:
 - Generate IDs
 
 
-You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel (on the right), the property **Type** changes to **Multiple entry**.
+You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel (on the right), the property **Type** changes to **entry**.
 
-1. In the **Attributes** section, click **+Add**. 
+1. In the **Attributes** section, select **+Add**. 
 1. Select the `@valign` attribute from the **Attribute** dropdown list. 
 1. From the value dropdown list, select the desired text alignment you want to apply on the selected table cells. 
 1. Select **Add.**
@@ -621,7 +621,7 @@ On selecting the Audio or Video file option, you are shown the repository view t
 >
 > While adding a YouTube video link, you need to replace the string `watch?v=` with `embed` in the URL. For example, to add a YouTube video link: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, you need to add it as: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. This change ensures that the video gets embedded in the AEM Site and PDF output.
 
-You can also add the Audio or Video File from the Insert Multimedia dialog. Select the Audio/Video File option and then, select the browse icon to launch the repository view. Select the audio or video file from the repository and click **Select** to add the link of the file in the Audio/Video File field. In case you choose a video file, then a preview of the file is also shown in the Preview area. You can play the video file to see its preview.
+You can also add the Audio or Video File from the Insert Multimedia dialog. Select the Audio/Video File option and then, select the browse icon to launch the repository view. Select the audio or video file from the repository and select **Select** to add the link of the file in the Audio/Video File field. In case you choose a video file, then a preview of the file is also shown in the Preview area. You can play the video file to see its preview.
 
 ![](images/insert-multimedia.png){width="650" align="left"}
 
@@ -629,7 +629,7 @@ You can also add the Audio or Video File from the Insert Multimedia dialog. Sele
 
 Insert references of type — Content Reference, Content Key Reference, Key Reference, File Reference, Web Link, or Email Link.
 
-Click the **Select File** icon \(for Content Reference and File Reference\) or **Select Root Map** icon \(for Content Key Reference and Key Reference\) and select the desired file or content to link to.
+Select the **Select File** icon \(for Content Reference and File Reference\) or **Select Root Map** icon \(for Content Key Reference and Key Reference\) and select the desired file or content to link to.
 
 ![](images/insert-references.png){width="650" align="left"}
 
@@ -693,7 +693,7 @@ Based on the setting for inserting links, you could either see the UUID of the i
 
 You can also embed the referred content within the topic by right-clicking on the referred content and choosing **Replace Reference with Content** from the context menu.
 
-**Symbol** -  ![](images/insert-special-chars-icon.svg)
+**Symbol** 
 
 Inserts special characters in your topic. Select the Symbol icon to open the Insert Special Character dialog box.
 
@@ -735,11 +735,11 @@ When you choose a snippet from the list, it gets inserted at the current or next
 
 **Citations** 
 
-Create Citations and add them to you content. Learn how to [add and manage citations in your content](./web-editor-apply-citations.md).
+Create Citations and add them to your content. Learn how to [add and manage citations in your content](./web-editor-apply-citations.md).
 
 **Query data**
 
-Connect with your data source and use the data to create content. Learn how to [use data from your data source](./web-editor-content-snippet.md)
+Connect with your data source and use the data to create content. Learn how to [use data from your data source](./web-editor-content-snippet.md).
 
 ### Save as new version
 
@@ -1526,7 +1526,7 @@ The following example shows how to use subject scheme in Experience Manager Guid
     </subjectScheme>
     ```
 
-    ![](images/subject-scheme-panel.png){width="300" align="left"}
+    ![](images/subject-scheme-panel-new.png){width="300" align="left"}
 
 1. Save the file with a.ditamap extension and upload it to any folder in DAM.
 
@@ -1534,16 +1534,18 @@ The following example shows how to use subject scheme in Experience Manager Guid
     >
     > You can add a reference to the subject scheme file in the parent DITA map.
 
-    ![](images/subject-scheme-root-map.png){width="550" align="left"}
+    ![](images/subject-scheme-root-map-new.png){width="550" align="left"}
 
 1. Set the parent map as the root map in the **User preferences**. Once this map is added as your root map, the subject scheme is then shown in the Subject scheme panel.
 
-    ![](images/subject-scheme-user-preferences.png){width="400" align="left"}
+    ![](images/subject-scheme-user-preferences-new.png){width="400" align="left"}
+   
 
 1. In the Editor, open the file where you want to use the subject scheme definitions.
 1. Apply the subject scheme to your content by simply dragging and dropping the desired subject scheme onto your content. The content is then highlighted in the defined color.
 
-    ![](images/subject-scheme-apply.png){width="650" align="left"}
+    ![](images/subject-scheme-apply.png){width="400" align="left"}
+    
 
 **Handling hierarchical definitions of subject definitions and enumerations**
 

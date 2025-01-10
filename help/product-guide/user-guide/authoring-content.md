@@ -15,6 +15,6 @@ You can also use desktop tools to create your content. These tools help you to e
 
 -   **[Create and preview topics](create-preview-topics.md)**  
 
--   **[Author content using AEM Guides](authoring-content-xml-doc.md)**  
+-   **[Author content using Experience Manager Guides](authoring-content-xml-doc.md)**  
 
 -   **[Author content using desktop tools](author-desktop-tools.md)**

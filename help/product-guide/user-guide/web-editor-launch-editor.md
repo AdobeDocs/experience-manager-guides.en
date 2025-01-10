@@ -9,14 +9,14 @@ role: User
 
 You can launch the Editor from the following locations:
 
--   [Adobe Experience Manager Navigation page](#id2056BG00RZJ)
--   [Adobe Experience Manager Assets UI](#id2056BG0307U)
--   [Map console](#id2056BG090BF)
+- [Adobe Experience Manager Navigation page](#adobe-experience-manager-navigation-page)
+- [Adobe Experience Manager Assets UI](#adobe-experience-manager-assets-ui)
+- [Adobe Experience Manager Guides Home page](#home-page)
+- [Map console](#map-console)
 
 The following sections cover the details of how you can access and launch the Editor from various locations.
 
-## Adobe Experience Manager Navigation page {#id2056BG00RZJ}
-
+## Adobe Experience Manager Navigation page 
 When you log into Experience Manager, you are shown the Navigation page:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
@@ -35,7 +35,8 @@ As you have launched the Editor without selecting any file, a blank Editor scree
 
 -  Select the Adobe Experience Manager logo, located at the top-left corner of the top header, to go back to the Experience Manager Navigation page. 
 
-## Adobe Experience Manager Assets UI {#id2056BG0307U}
+
+## Adobe Experience Manager Assets UI 
 
 Another location from where you can launch the Editor is from the Experience Manager Assets UI. You can select one or more topics and open them directly in the Editor. 
 
@@ -57,7 +58,7 @@ To open a topic in the Editor, follow these steps:
 
     >[!IMPORTANT]
     >
-    > If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not check out the file, you will not be able to see the edit option.
+    > If your administrator has configured the **Disable edit without locking the file** option, then you must check out the file before editing. If you do not check out the file, you will not be able to see the edit option.
 
 1.  Close the asset selection mode and select the topic that you want to edit.
 
@@ -90,14 +91,20 @@ To open a map in the Editor, follow these steps:
 
     ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
-1.  The topic is opened in the Web Editor.
+1.  The topic opens in the Editor.
 
     >[!IMPORTANT]
     >
-    > If your administrator has configured the **Disable Edit Without Checkout** option, then you must check out the file before editing. If you do not check out the file, then the document opens in the editor in read-only mode.
+    > If your administrator has configured the **Disable edit without locking the file** option, then you must check out the file before editing. If you do not check out the file, then the document opens in the editor in read-only mode.
+
+## Home page 
+
+You can also launch the Editor from the Experience Manager Guides Home page. The Overview section on Home page features different widgets that help you stay organized and focused. You can launch the Editor from the **Recent files** widget and **Collections** widget. 
+
+For details, view the Overview section in [Adobe Experience Manager Guides Home page experience](/intro-home-page.md#overview).
 
 
-## Map console {#id2056BG090BF}
+## Map console 
 
 To open the Editor from Map console, follow these steps:
 
@@ -119,18 +126,9 @@ To open the Editor from Map console, follow these steps:
 
     ![](images/map-console-edit-topics.png){width="500" align="left"}
 
-## Overview section
-
-You can also launch the Editor from the Overview section. The Overview section features different widgets that help you stay organized and focused. Recent files is one of such widgets that allows you to create a file ( Topic or Map file) as well open an file from the list for editing. 
-
-For more details, refer to the Recent files widget in [Adobe Experience Manager Guides Home page experience](/intro-home-page.md#overview)
-
--  Select the Adobe Experience Manager logo, located at the top-left corner of the top header, to go back to the Experience Manager Navigation page. 
-
-[Experience Manager Guides Home page](/intro-home-page.md), navigate to the navigation bar, and then select **Map console** from the dropdown. The Home page is selected by default.
 
  
 
 
 
-**Parent topic:**[Work with the Web Editor](web-editor.md)
+**Parent topic:**[Work with the Editor](web-editor.md)
