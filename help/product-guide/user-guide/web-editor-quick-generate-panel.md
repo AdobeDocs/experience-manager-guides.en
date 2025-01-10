@@ -7,6 +7,11 @@ role: User
 ---
 # Use Quick Generate panel to generate and view output {#id22AKE050F5L}
 
+>[!NOTE]
+>
+> The Quick Generate panel, previously available in Adobe Experience Manager Guides, has been deprecated starting from version 4.0 and 2502. You can't access the Quick Generate panel to generate and view output
+
+
 AEM Guides provides a **Quick Generate** panel integrated inside the Web Editor. This panel allows you to simultaneously generate the output for the output presets created for a DITA map. You can generate the output for one or more presets, or all presets created for a DITA map. You can also use the **Quick Generate** panel to later view the output generated for the presets.
 
 >[!NOTE]

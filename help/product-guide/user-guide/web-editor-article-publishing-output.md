@@ -7,6 +7,10 @@ role: User
 ---
 # Generate output from the Repository panel or the Map View panel {#id218CL6010AE}
 
+>[!NOTE]
+>
+> The Quick Generate panel, previously available in Adobe Experience Manager Guides, has been deprecated starting from version 4.0 and 2502. You can't access the Quick Generate panel to generate output from the Repository panel or the Map view panel.
+
 You can also use the output presets created for your DITA map to generate output from the Repository panel or the Map View panel.
 
 -   Use the **Quick Generate** feature within the Repository panel or the Map View panel to generate output for the selected single topic or the entire DITA map.
