@@ -1,7 +1,6 @@
 ---
 title: Use the AI Assistant to author documents smartly `
 description: Learn how to Use the AI Assistant to author documents with smart efficiency in the Web Editor.
-exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 ---
 # AI Assistant to author documents with smart efficiency
 
@@ -119,7 +118,7 @@ You can also perform the following actions:
 
 ## Itemize content 
 
-This feature intelligently converts a selected paragraph into a list.  It analyzes the content and creates a logical list of items. You don’t have to manually create the items. For example, if you have a paragraph detailing the steps to create a user account, the tool can transform this into a step-by-step list, eliminating the need to manually create items one by one.
+This feature intelligently converts a selected paragraph into a list.  It analyzes the content and creates a logical list of items. You don't have to manually create the items. For example, if you have a paragraph detailing the steps to create a user account, the tool can transform this into a step-by-step list, eliminating the need to manually create items one by one.
 
 ![ai assistant itemize content icon](./images/ai-assisstant-itemise-content.png)
 

@@ -94,11 +94,11 @@ Perform the following steps to create a content snippet using the content snippe
     > You will view the options to upload or browse files in place of a data query if you use a file connector.
 
 1. Select the template which maps with your data source from the **Data mapping template** dropdown.
-The out-of-the-box templates for the selected data source are displayed in the drop-down. For example, you can view the “sql-table” template for datasource named “PostgreSQL” datasource.
+The out-of-the-box templates for the selected data source are displayed in the drop-down. For example, you can view the "sql-table" template for datasource named "PostgreSQL" datasource.
 
      >[!NOTE] 
      >  
-     > If your administrator has configured customized templates, then you’re also shown those templates in the drop-down list (based on the template path configurations done by your administrator). 
+     > If your administrator has configured customized templates, then you're also shown those templates in the drop-down list (based on the template path configurations done by your administrator). 
      >   
      >You can also use Velocity tools in the templates. Learn more about how to [use Velocity tools](#use-velocity-tools).
 
@@ -114,8 +114,8 @@ The out-of-the-box templates for the selected data source are displayed in the d
 
    1. The preview shows how the data will be displayed when inserted into the content. The preview displays a small fraction of the data in the format of the selected template. 
    For example:
-        - If you’ve selected the sql-table template, you can view the SQL data in a tabular format. 
-        - If you’ve selected the jira-ordered-list template, you can view an ordered list for the Jira issues.
+        - If you've selected the sql-table template, you can view the SQL data in a tabular format. 
+        - If you've selected the jira-ordered-list template, you can view an ordered list for the Jira issues.
 
     1. The source view shows the data in the DITA source view. 
  ![](images/add-content-snippet-generator.png){width="800" align="left"}
@@ -200,7 +200,7 @@ Perform the following steps to create a topic using the topic generator:
             >
             > If your administrator has configured customized templates, then you're also shown those templates in the drop-down list (based on the template path configurations done by your administrator). For example, you can create a topic template containing an ordered list, tables, paragraphs, or other DITA elements.
 
-      1. Enter the **Root node**. This is the node at which you want to access your data. The topic generator then creates each topic at the level defined in the root node. For example, you can add ‘issues’ as the root node in Jira. So, if a query returns 13 issues, you will get 13 topics, one topic for each issue.
+      1. Enter the **Root node**. This is the node at which you want to access your data. The topic generator then creates each topic at the level defined in the root node. For example, you can add 'issues' as the root node in Jira. So, if a query returns 13 issues, you will get 13 topics, one topic for each issue.
 
       1. Click **Fetch** to fetch the data from the data source and apply the template on the data that results from the SQL query. The preview shows a small fraction of how the topic appears in the format of the selected template. For example, you can view a single Jira issue with all the fields that result from the query.
       1. Enter the name of the topic generator. 
@@ -234,7 +234,7 @@ Perform the following steps to create a topic using the topic generator:
  
     *Add the metadata properties in the Metadata panel to pass to the topics.*
 
-1. Enter the generator’s name and click **Save** to save the query results. A new topic generator is added to the list.
+1. Enter the generator's name and click **Save** to save the query results. A new topic generator is added to the list.
 
 1. Click **Save and Generate** to save the topic generator and generate new topics from the topic generator. 
 

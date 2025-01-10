@@ -101,6 +101,8 @@ badgeAll: label="Legacy Guide - More Info" type="Informative" url="/help/legacy-
     - [Introduction to output presets](./user-guide/generate-output-understand-presets.md)
     - Output presets in AEM Guides {#output-presets-aemg}
       - [AEM Site](./user-guide/generate-output-aem-site.md)
+      - [AEM Sites presets on the map dashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
+      - [AEM Sites presets in the Web Editor](./user-guide/generate-output-aem-site-web-editor.md)
       - [PDF](./user-guide/generate-output-pdf.md)
       - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
       - [HTML5](./user-guide/generate-output-html5.md)
