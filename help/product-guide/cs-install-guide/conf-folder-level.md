@@ -488,13 +488,21 @@ Perform the following steps to configure the default questions:
 Learn more about using the [AI-powered Smart Help](../user-guide/ai-based-smart-help.md) to find the required content from the Experience Manager Guides documentation.
 
 
-## Configure and customize the XML Web Editor {#id2065G300O5Z}
+## Configure and customize the XML Editor {#id2065G300O5Z}
 
-By default, the XML Web Editor comes with a lot of features to help your authors create DITA documents. If you work in a restrictive environment, you can choose which features are exposed to your authors. The XML Editor Configuration tab allows you to easily control the features and also change the look-and-feel of your Web Editor. As an administrator, you can customize the following components of the Web Editor:
+By default, the XML Editor comes with a lot of features to help your authors create DITA documents. If you work in a restrictive environment, you can choose which features are exposed to your authors. The XML Editor Configuration tab allows you to easily control the features and also change the look-and-feel of your Editor. As an administrator, you can customize the following components of the Editor:
 
 **XML Editor UI Configuration**
 
-This setting controls the toolbar and the other user interface elements of the Web Editor. Click the Download icon to download the ui\_config.json file on your local system. You can then make changes to the file and the upload the same. Depending upon where you are uploading the file at, global or folder-level profile, the changes are applied accordingly. For more details about how to customize the XML Editor using the ui\_config.json file, see [Customize toolbar](conf-web-editor-customize-toolbar.md#).
+This setting enables you to create JSON extensions that reflect modifications made in the `ui_config.json` file. You can independently upload these extensions at the Folder profile level, offering enhanced flexibility and customization. For instance, when you make changes to the **XML Editor Configuration**, such as updating a button, the system automatically identifies the differences. By uploading these changes to the **XML Editor UI Configuration** and converting them into JSON extensions using the **Convert UI Config to JSON** button, the system generates an extension that incorporates the new functionality. 
+
+**XML Editor page layout**
+
+This feature allows you to upload CSS files to style the new extensions uploaded under the **XML Editor UI Configuration**. The uploaded CSS is applied consistently across all relevant applications, ensuring a unified and polished appearance for your UI customizations.
+
+**XML Editor Configuration**
+
+This setting controls the toolbar and the other user interface elements of the Editor. Select the **Download** icon to download the `ui\_config.json` file on your local system. You can then make changes to the file and the upload the same. Depending upon where you are uploading the file at, global or folder-level profile, the changes are applied accordingly. For more details about how to customize the XML Editor using the `ui\_config.json file`, view [Customize toolbar](conf-web-editor-customize-toolbar.md#).
 
 **CSS Template Layout**
 

@@ -57,3 +57,38 @@ const toolbarExtend = {
     }
 }
 ```
+In another example, we would create a custom toolbar button that can jump directly to desired sub-options of **Cross reference** such as Email, File reference, Weblink, etc. 
+
+```js title = toolbar_customisation.js
+const toolbarExtend = {
+    id: "editor_toolbar",
+    view: {
+        items: [
+            
+                {
+                    "component": "button",
+                    "icon": "fileHTML",
+                    "variant": "action",
+                    "quiet": true,
+                    "title": "External URL Link",
+                    "on-click": "openExternalLinkDialogP",
+            
+                target: {
+                    key:"title",value: "Insert Bulleted List",                    
+                    viewState: VIEW_STATE.REPLACE
+                }
+            }
+        ]
+    },
+    controller: {
+        openExternalLinkDialog() {
+            tcx.eventHandler.next ("AUTHOR_INSERT_ELEMENT")
+            t{
+          args:"<xref href='' scope='external' format = 'dita' ></xref>",activeTabId:"conkey_reference"
+        }
+    }
+  }
+}
+```
+
+Here, `activeTabId` is the enum for selecting the correct tab. By default, selecting the the Cross reference tab opens `file_link`. You can change the `activeTabId` values to  `content_reference`, `conkey_reference`, `key_reference`, `file_link`, `web_link`, and ` email_link` based on the requirement. 
