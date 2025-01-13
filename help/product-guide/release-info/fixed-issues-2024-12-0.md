@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Fixed issues in the 2024.12.0 release of Adobe Experience Manager Guides
 description: Learn about the bug fixes in the 2024.12.0 release of Adobe Experience Manager Guides as a Cloud Service.
-
+exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
 ---
 # Fixed issues in the 2024.12.0 release
 
