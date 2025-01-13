@@ -7,6 +7,8 @@ exl-id: d5fa200b-1f15-4ec2-adf9-a29382afc3de
 
 This article covers the bugs fixed in various areas of the 2024.12.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
+Learn about [upgrade instructions for the 2024.12.0 release](./upgrade-instructions-2024-12-0.md).
+
 ## Authoring
 
 - DITA map creation on a UUID instance fails when `xmleditor.uniquefilenames` is enabled in `XMLEditorConfig`. (21201)
