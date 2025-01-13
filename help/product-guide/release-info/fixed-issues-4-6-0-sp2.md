@@ -1,15 +1,15 @@
 ---
-title: Release Notes | Fixed issues in Adobe Experience Manager Guides 4.6.0 Service Pack 2 release
-description: Learn about the bug fixes in the  4.6.0 Service Pack 2 release of Adobe Experience Manager Guides
+title: Release Notes | Fixed issues in Adobe Experience Manager Guides 4.6.0 Service Pack 3 release
+description: Learn about the bug fixes in the  4.6.0 Service Pack 3 release of Adobe Experience Manager Guides
 role: Leader
 
 ---
-# Fixed issues in the 4.6.0 Service Pack 2 release (January 2025)
+# Fixed issues in the 4.6.0 Service Pack 3 release (January 2025)
 
 
-This article covers the bugs fixed in various areas of 4.6.0 Service Pack 2 release of Adobe Experience Manager Guides.
+This article covers the bugs fixed in various areas of 4.6.0 Service Pack 3 release of Adobe Experience Manager Guides.
 
-Learn about [upgrade instructions for the 4.6.0 Service Pack 2 release](upgrade-instructions-4-6-0-sp2.md).
+Learn about [upgrade instructions for the 4.6.0 Service Pack 3 release](upgrade-instructions-4-6-0-sp2.md).
 
 ## Authoring
 
