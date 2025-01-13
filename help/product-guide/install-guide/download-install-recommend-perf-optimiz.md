@@ -108,17 +108,5 @@ This can be done at run time through Felix console or via code deployment.
 **Result of this change**
 An increased number of the **Limit AEM Site Pages in Heap** property optimizes the AEM Site output generation process.
 
-## Optimize number of post-processing threads \(Mandatory, depending on the use case\) 
-
-**What is the change?**
-This change is required if you are bulk uploading DITA content.
-
-Set the **Post Process Threads** property under `com.adobe.fmdita.config.ConfigManager` to `1`.
-
-**When to configure?**
-This can be done at run time.
-
-**Result of this change**
-This change reduces the post-processing time on bulk upload of DITA files.
 
 **Parent topic:**[Download and install](download-install.md)
