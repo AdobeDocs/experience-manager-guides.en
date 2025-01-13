@@ -17,6 +17,7 @@ AEM Guides comes with powerful capabilities that enable you to translate your co
     >
     > Microsoft Translator is available only as a trial license.
 
+-   **[Translate documents from the Map console](translate-documents-web-editor.md)**  
 
 -   **[Best practices for content translation](translation-first-time.md)**  
 

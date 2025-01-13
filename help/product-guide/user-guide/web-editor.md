@@ -25,16 +25,6 @@ Also, the Editor is DITA-aware and it supports DITA 1.3, 1.2 standards, lightwei
 
 -   **[Author Markdown documents from the Editor](web-editor-markdown-topic.md)**  
 
--   **[Manage Global and Folder Profile output presets](web-editor-manage-output-presets.md)**  
-
--   **[Article-based publishing from the Editor](web-editor-article-publishing.md)**  
-
--   **[Use Quick Generate panel to generate and view output](web-editor-quick-generate-panel.md)**  
-
--   **[Translate documents from the Editor](translate-documents-web-editor.md)**  
-
--   **[Create and manage baselines from the Editor](web-editor-baseline.md)**  
-
 -   **[Document state](web-editor-document-states.md)**  
 
 -   **[Use labels](web-editor-use-label.md)**  
