@@ -7,9 +7,9 @@ exl-id: 61a15208-9600-4bb8-adc0-feca1a0ffef3
 
 Experience Manager Guides provides the GenAI-based smart Help, a conversational search feature that helps you find relevant content from the [Adobe Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
-You can ask your questions and get answers in an informative way. The answer to your query is based on the content from the product documentation. This search is entirely conversational. You can ask questions, and then, based on the response, you can also ask further questions. The response also includes links to source documents, which you can refer to for details. 
+You can ask your questions and get answers in an informative way. The answer to your query is based on the content from the product documentation. This search is entirely conversational. You can ask questions about the various features of a product or can choose to ask troubleshooting queries. Based on the response, you can also ask further questions. The response also includes links to source documents, which you can refer to for details. 
 
-For example, you may want to create a topic in Experience Manager Guides for your documentation. You can ask, *How to create a topic?* You get a response and the links for the related articles. Then, if you want to learn how to generate the PDF output for the document, you can ask questions about it. For example, *How to publish a topic to a PDF?* or *How to generate the PDF output for a topic?*  
+For example, you may want to ask open discovery questions like *How can I export this dataset??* You get a response and the links for the related articles. Then, if you want to learn how to use the specific method to export the dataset, you can ask questions about it. For example, *How do I use [specific method] to export the dataset?* 
 
 When you open **AI Assistant** on the Homepage, Map console, or Editor, the **Help** panel opens on the right. In case of Editor, the Authoring panel also appears that give you smart authoring capabilities. For details, view [AI Assistant to author documents smartly](./ai-assistant-right-panel.md)
 
@@ -17,11 +17,11 @@ When you open **AI Assistant** on the Homepage, Map console, or Editor, the **He
 
 >[!NOTE]
 >
-> Your administrator must configure the **Smart Help** feature. For more details, view the [Configure the AI-powered Smart Help to search content](../cs-install-guide/conf-smart-help.md) section in the Installation and Configuration Guide for Cloud Services. 
+> Your administrator must configure the **Help** feature. For more details, view the [Configure the AI-powered Help to search content](../cs-install-guide/conf-smart-help.md) section in the Installation and Configuration Guide for Cloud Services. 
 
 ![Smart Help panel](images/smart-help-panel.png){width="300" align="left"}
 
-*View the **Smart Help** panel.*
+*View the **Help** panel.*
 
 Perform the following steps to use the conversational search to find appropriate content and resolve your queries:
 
