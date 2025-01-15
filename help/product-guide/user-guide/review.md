@@ -9,7 +9,7 @@ role: User
 
 Almost all technical documents need to go through multiple rounds of reviews. In most cases, a review cycle involves more than one reviewer. Addressing and responding to comments from multiple reviewers is always challenging for authors. Also, in a multiple reviewer scenario, it is helpful if one reviewer can also see the comments made by other reviewers.
 
-Some of the main features offered by AEM Guides to the *initiators \(or authors\)* are:
+Some of the main features offered by Adobe Experience Manager Guides to the *initiators \(or authors\)* are:
 
 -   Create a DITA project for the review workflow.
 -   Send one or more topics for review in a single review task.

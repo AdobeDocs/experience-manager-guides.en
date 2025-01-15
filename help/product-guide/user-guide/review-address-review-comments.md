@@ -18,7 +18,7 @@ An author can address comments in a document from the Web Editor. Visual indicat
 >
 > While addressing review comments \(for an active review document\), ensure that you—do not open the in-review topic in multiple tabs with full tags view enabled, do not switch between the Author and Source view modes.
 
-![](images/comments-page-web-editor_cs.png){width="800" align="left"}
+![](images/comments-page-web-editor_cs-new.png){width="800" align="left"}
 
 In the Web Editor mode, the right panel contains the Review and Tracked Changes icons. The Review panel shows all comments made in your document by reviewers. The **Tracked Changes** panel shows the status of all inserted and deleted comments in your document.
 
@@ -36,23 +36,23 @@ In the Web Editor mode, the right panel contains the Review and Tracked Changes 
     >
     > If the root map of your review task is different from the authoring root map, it displays the information about it to indicate that the authoring and the review root map don't match.
 
--   **C**: If you have updated your topic after initiating the review, then clicking on Revert Topic to Review Version icon reverts your working copy back to the version that was shared for review. This makes it easier for you to incorporate the review feedback directly in the version that was shared for review. After incorporating the feedback, you can save changes in the reverted version or create a new revision of your topic. If you choose to create a new revision of your topic, then a new branch is created from the topic version that was shared for review. For example, if you shared version `1.2` of a topic for review while the current authoring version is `1.3`, then you can use this icon to switch back to version `1.2` for incorporating review comments. If you choose to create a new revision after incorporating changes to version `1.2`, then a new branch with version `1.2.0` is created for the topic.
+-   **C**: If you have updated your topic after initiating the review, then selecting Revert Topic to Review Version icon reverts your working copy back to the version that was shared for review. This makes it easier for you to incorporate the review feedback directly in the version that was shared for review. After incorporating the feedback, you can save changes in the reverted version or create a new revision of your topic. If you choose to create a new revision of your topic, then a new branch is created from the topic version that was shared for review. For example, if you shared version `1.2` of a topic for review while the current authoring version is `1.3`, then you can use this icon to switch back to version `1.2` for incorporating review comments. If you choose to create a new revision after incorporating changes to version `1.2`, then a new branch with version `1.2.0` is created for the topic.
 
     Typically, after incorporating review feedback, you would like to merge changes from the latest version of the topic. To do so, use the [Merge](web-editor-features.md#id205DF04E0HS) feature to get all updates made after the topic was shared for review.
 
 -   **D**: Open the side-by-side view to display the commented version of the topic. As seen in the above screenshot, the leftmost section is the latest version of the topic wherein you can make changes. The next section is the commented version of the topic. As you navigate between comments in the topic, the side view changes and displays that version of the topic on which the comment was made. Each comment in the comment panel is linked to the corresponding text in this section. It helps you identify the commented text. The comments are displayed in the order of the commented text in the document.
 
-    You can see the version number at the top of the side view. Clicking on this icon again hides the commented version of the topic.
+    You can see the version number at the top of the side view. Selecting this icon again hides the commented version of the topic.
 
--   E: Import the inserted and deleted \(or Strikethrough\) comments in the topic directly. After clicking the Import icon, all text insertions and deletions are shown in the working copy of the topic. Now, there are two ways of accepting or rejecting comments.
+-   E: Import the inserted and deleted \(or Strikethrough\) comments in the topic directly. After selecting the Import icon, all text insertions and deletions are shown in the working copy of the topic. Now, there are two ways of accepting or rejecting comments.
 
     If you want to incorporate the suggested change \(insertion or deletion\) one at a time, simply right-click on the comment in the content and select Accept Change or Reject Change. Depending on your selection, the comment is accepted or rejected. In case of accepted comment, the content is added in the content; and in case of rejection, it is removed from the content. Also, the status of the comment is changed in the Review panel.
 
-    ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
+    ![](images/import-comment-accept-web-editor_cs-new.png){width="800" align="left"}
 
-    You can also use the review feature in the right panel to accept or reject comments. Clicking on any comment highlights the comment in the document.
+    You can also use the Track Change feature in the right panel to accept or reject comments. Selecting any comment highlights the comment in the document.
 
-    ![](images/changes-tab_cs.png){width="800" align="left"}
+    ![](images/changes-tab_cs-new.png){width="800" align="left"}
 
     >[!IMPORTANT]
     >
