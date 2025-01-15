@@ -117,9 +117,8 @@ The **Topic list** tab is displayed when AEM Sites presets are created without u
 
 >[!NOTE] 
 >
-> When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline.
-
-> The incremental publishing from the topics list should be used only when there is no change to the structure of the map. If there is a change in the map structure/TOC, then the entire map should be published once to update the TOC.
+> When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline.<br>
+> The incremental publishing from the Topics list should be used only when there is no change to the structure of the map. If there is a change in the map structure/TOC, then the entire map should be published once to update the TOC.
 
 ### Cross map references
 
