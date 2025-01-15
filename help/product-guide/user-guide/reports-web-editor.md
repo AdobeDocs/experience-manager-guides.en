@@ -5,9 +5,9 @@ exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
 ---
-# DITA map report from the Editor {#id231HF0Z0NXA}
+# DITA map report from the Map Console {#id231HF0Z0NXA}
 
-Adobe Experience Manager Guides comes with a feature in the Editor that enables you to check the overall integrity of your references and generate reports for them.
+Adobe Experience Manager Guides comes with a feature in the Map Console that enables you to check the overall integrity of your references and generate reports for them.
 
 You can view the topic list, manage the metadata of all references, view the multimedia list and fix all the broken links for the current map from the **Reports** tab in the Editor.
 
