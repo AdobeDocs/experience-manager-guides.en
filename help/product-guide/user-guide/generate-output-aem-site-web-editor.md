@@ -89,7 +89,7 @@ In the General tab, the following options are available for the AEM Sites output
 | --- | --- |
 |Use site path|Use this option to publish your content to an Experience Manager Site.|
 |Site path|**This option appears if you select **Use site path** option**. Browse the predefined Experience Manager Site path or specify a custom path where you want the output to be published. The **Use Sites option** allows you to specify the entire publishing path even if the specified path has not been pre-created within the AEM Sites structure. In such cases, the system creates the necessary structure during the publishing process by using the selected map homepage template.|
-|Map page template|**This option appears if you select **Use site path** option**. Select a template you want to apply for home pages.|
+|Map page template|**This option appears if you select **Use site path** option**. Select a template you want to apply for map home pages.|
 |Site|Name of the Experience Manager Sites to which you want to publish your content. The options in the dropdown are populated based on the list of sites available in AEM Sites. <br>Select **Refresh** ![refreseh icon](images/navtitle-refresh-icon.svg) to fetch a fresh list of options and reflect the udpated data.|
 | Publish Path | The path within your AEM repository where the output is stored. The Publish Path is populated with all the paths that contain pages created based on the Home Page template. The AEM Sites output of the DITA map is generated under this path.  For example, if you specify the Site as `AEMG-Docs` and the Publish Path as `aemg-docs-en/docs/product-abc.`, then the AEM Sites output is generated under the `aemg-docs-en/docs/product-abc/` node in `crx/de`.|
 |Topic page template|Select the template you want to apply to all the output topics.|
@@ -117,7 +117,8 @@ The **Topic list** tab is displayed when AEM Sites presets are created without u
 
 >[!NOTE] 
 >
-> When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline.
+> When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline.<br>
+> The incremental publishing from the Topics list should be used only when there is no change to the structure of the map. If there is a change in the map structure/TOC, then the entire map should be published once to update the TOC.
 
 ### Cross map references
 
