@@ -24,7 +24,7 @@ Event details are explained below:
 **Event name**:
 
 ```
-com/adobe/fmdita/postprocess/complete 
+com/adobe/guides/postprocess/complete 
 ```
 
 **Parameters**:
