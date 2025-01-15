@@ -10,11 +10,11 @@ level: Experienced
 
 ## UUID and Cloud Service
 
-Adobe Experience Manager Guides exposes com/adobe/fmdita/postprocess/complete event that is used to perform any post-processing operations. This event is triggered whenever an operation is performed on a DITA file. The following operations on a DITA file trigger this event:
+Adobe Experience Manager Guides exposes `com/adobe/guides/postprocess/complete` event that is used to perform any post-processing operations. This event is triggered whenever an operation is performed on a DITA file. The following operations on a DITA file trigger this event:
 
 - Upload
-- Creation
-- Modification
+- Create
+- Modify
 
 
 You need to create an Adobe Experience Manager event handler to read the properties available in this event and do further processing.
@@ -33,8 +33,9 @@ com/adobe/fmdita/postprocess/complete
 |----|----|-----------|
 |`path`|String|The path of the file that triggered this event. Typically, this is the file on which an operation has been performed.|
 |`eventType`|String|The type of event i.e. CREATE or MODIFY.|
-|`status`|String|The return status for the operation performed. The possible options are: - <br>- SUCCESS: The post-processing operation completed successfully. <br>- COMPLETED WITH ERRORS: The post-processing operation completed, but with some errors. <br>- FAILED: The post-processing operation failed due to some fatal error.|
+|`status`|String|The return status for the operation performed. The possible options are: - <br>- SUCCESS: The post-processing operation completed successfully. <br>- FAILED: The post-processing operation failed due to some fatal error.|
 |`errorMsg`|String|The error message in case of post-processing operation failure.|
+|`uuid`|String|The UUID of the file that triggered this event. Typically, this is the file on which an operation has been performed.|
 
 **Sample Event Listerner**
 
