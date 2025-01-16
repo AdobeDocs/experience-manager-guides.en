@@ -565,6 +565,10 @@ Inserts an image at the current or next valid location. Select the Image icon to
 
 You can add image/Figure Title and Alternate Text for the image in the Insert Image dialog box.
 
+>![NOTE]
+>
+> When you insert an image and specify an alternate text for the same, it is added within the `<alt>` element in accordance with the latest DITA standards. The use of the `@alt` attribute for alternate text is deprecated, but it remains supported in previous DITA versions.
+
 Using the **Select File** option, you can search for the required image file by file name. You can also filter the search results by Path \(to search in\), Collections, File Type, and Tags. Once you have found the required image file, select the file and click **Select** to insert the image in your document. You can insert various formats of image files, such as `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd`, and more.
 
 Once you have inserted an image, you can change the height, width, placement, and attributes from the Content properties panel. Select the image file and then make changes in the Content properties panel in the right panel.
