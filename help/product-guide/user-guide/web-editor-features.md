@@ -1988,6 +1988,10 @@ If you have created multiple Review projects, you can select one from the drop-d
 
 Using the review panel, you can view and post replies to the comments given on the topic. You can accept or reject the comments one by one.
 
+>[!NOTE]
+>
+> The comment box and reply box supports multi-line entries and allows users to expand it as needed for providing comprehensive comments as well as detailed reply to the comments. You can use **Shift** + **Enter** to go to the next line while writing the comments or replies.
+
 For more information, view [Address review comments](review-address-review-comments.md#).
 
 ### Track changes 
