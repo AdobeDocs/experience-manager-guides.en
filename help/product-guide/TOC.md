@@ -128,7 +128,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Preview a topic](./user-guide/web-editor-preview-topics.md)
       - Author content {#author-content-aem-guides}
         - [Way to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
-        - Web Editor {#work-with-web-editor}
+        - Editor {#work-with-web-editor}
           - [Work with the Editor](./user-guide/web-editor.md)
           - [Launch the Editor](./user-guide/web-editor-launch-editor.md)
           - [Edit topics in the Editor](./user-guide/web-editor-edit-topics.md)
@@ -239,12 +239,13 @@ breadcrumb-title: AEM Guides Documentation
       - [View translation status](./user-guide/translation-view-trans-state-6234.md)
       - [Translate modified topics](./user-guide/translation-modified-topics-6234.md)
   
-- AI Assistant in AEM Guides {#ai-assistant}
+- AI Assistant in AEM Guides {#ai-assistant-aem}
   - [AI-Assistant overview](./user-guide/ai-assistant.md)
   - [AI-powered smart Help to search content](./user-guide/ai-based-smart-help.md)
   - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
   - [AI-powered smart suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
-
+  - [FAQ](./user-guide/ai-assistant-faq.md)
+  
 - Installation and configuration {#install-guide}
   - On-premise {#on-prem-ig}
     - [On-premise basics](./install-guide/introduction.md)

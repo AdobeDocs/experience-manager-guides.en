@@ -58,7 +58,7 @@ For more details, view [AI Assistant in Experience Manager Guides](../user-guide
 
 ![](assets/ai-assistant-panel.png){width="300" align="left"}
 
-## Revamped the Markdown authoring experience 
+## Enhanced the Markdown authoring experience 
 
 Now, experience a cleaner and more efficient way to author markdown topics. Experience Manager Guides introduces a revamped interface and added features for markdown authoring, including Side-by-side view, editor toolbar, seamless publishing to AEM Sites and PDF, and more.  
 
@@ -78,7 +78,7 @@ The following Native PDF enhancements have been done in the 2025.02.0 release:
 
     For more details, view [publish PDF output](../web-editor/native-pdf-web-editor.md) 
 
-- Ability to include the metadata from a topic’s <prolog> element into the page layouts while creating Native PDF output. Now, incorporate topic-specific metadata into the page layouts, including copyright, author, and other pertinent details. 
+- Ability to include the metadata from a topic's `prolog` element into the page layouts, such as copyright, author, and other details, while creating Native PDF output. 
 
     ![](assets/metadata-topic-content.png){width="300" align="left"}
 
@@ -87,7 +87,7 @@ The following Native PDF enhancements have been done in the 2025.02.0 release:
 The following Table enhancements have been done in the 2025.02.0 release:
 
 - Ability to configure the values for header rows, body rows and columns by updating the table template in `ui_config.json` for table and simpletable. 
--  ability to configure the table settings in `ui_config_json` to display pasted tables, when pasted from external sources like MS Excel and Word, as simpletable or normal table. 
+- Ability to configure the table settings in `ui_config.json` to display pasted tables, when pasted from external sources like MS Excel and Word, as simpletable or normal table. 
 
     For more details, view the Tables section in [Know the Editor features](../user-guide/web-editor-features.md#content-insertion-options).  
 
@@ -130,7 +130,7 @@ Now, create a custom toolbar button for **Cross-reference** to directly access o
 
 For more details, view [customizing the topbar and toolbar](../guides-ui-extensions/customisations/toolbar-topbar.md).
 
-## Enhanced Support for Post-Processing Operations
+## Enhanced support for post-processing operations
 
 The support for post-processing operations in Experience Manager Guides is now extended to UUID and Cloud environments, ensuring compatibility with modern workflows and systems.
 

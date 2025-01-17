@@ -20,11 +20,15 @@ Before getting started, ensure that:
 
     | Field type | Label| Name | Choices (Show values enabled) |
     |------------|------|------|-------------------------------|
-    |Single-select dropdown | Task Type | task-type | Authoring, Publishing, Translation, Review | 
-    |Single-select dropdown | Task State | task-state  | Authoring, Review | 
+    |Single-select dropdown | Task Type | task-type | Authoring (value = AUTHOR), Publishing (value = PUBLISH), Translation (value = TRANSLATION), Review (value = REVIEW) | 
+    |Single-select dropdown | Task State | task-state  | Authoring (value = AUTHOR), Review (value = REVIEW)| 
     |Text with formatting|Author List   | author-list  |  - | 
     |Text with formatting|Reviewer List   | reviewer-list  | -  |
     |Single line text| Review URL   | review-url  | - |
+
+>[!NOTE]
+>
+> In the above table, the choices represent the options available under the **Task type** field. For each option, you would require to provide the **task name** and **task value**. The name and values for each task type must be exactly same as mentioned in the above table. For example, for task type Author, provide **Authoring** as name and **AUTHOR** as its corresponding value.  
 
 ## Get started 
 
@@ -41,7 +45,8 @@ Perform the following steps to configure Adobe Workfront in Experience Manager G
    
    To access the **Client ID** and **Client Secret** key configured in your Adobe Workfront setup, navigate to `Setup >> Systems>> oAuth2 Applications`. 
 
-    For more details about configuring your Adobe Workfront domain, view [Create OAuth2 applications for Workfront integrations](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application) 
+    For more details about configuring your Adobe Workfront domain, view the Authorization code flow section in [Create OAuth2 applications for Workfront integrations](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
+
 4. Select **Login and verify**. 
 
    You are redirected to the Adobe Workfront Sign in page.
