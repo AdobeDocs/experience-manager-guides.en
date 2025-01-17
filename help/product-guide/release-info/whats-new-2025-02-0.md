@@ -86,8 +86,8 @@ The following Native PDF enhancements have been done in the 2025.02.0 release:
 
 The following Table enhancements have been done in the 2025.02.0 release:
 
-- Ability to configure the values for header rows, body rows and columns by updating the table template in `ui_config.json` for table and simpletable. 
-- Ability to configure the table settings in `ui_config.json` to display pasted tables, when pasted from external sources like MS Excel and Word, as simpletable or normal table. 
+- Ability to configure the default values for header rows, body rows and columns in the table template for table and simpletable. 
+- Ability to configure the table settings to display pasted tables as simpletable or normal table. 
 
     For more details, view the Tables section in [Know the Editor features](../user-guide/web-editor-features.md#content-insertion-options).  
 
