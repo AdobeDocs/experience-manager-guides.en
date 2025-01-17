@@ -176,9 +176,9 @@ Configure the print production settings to assign printer marks, select color mo
 
 To configure this setting, specify the ICC profile file path on your server and provide the ICC profile name for easy identification. Alternatively, if the ICC profile is stored online, you can provide its URL instead of the file path.
 
-    >[!NOTE]
-    >
-    >An ICC color profile is necessary for PDF/A creation if using CMYK color space.
+   >[!NOTE]
+   >
+   > An ICC color profile is necessary for PDF/A creation if using CMYK color space.
 
    <!--For more information on applying these print settings, see *Printing preferences*.-->
 
