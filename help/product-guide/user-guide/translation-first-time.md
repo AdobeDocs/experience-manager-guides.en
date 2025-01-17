@@ -16,14 +16,14 @@ Consider the following point for translating content:
 -   The cloud configuration should be same as that of the source folder and there should be only one cloud configuration in one folder. You can create multiple folders under /conf, if you want to use multiple translation connectors.
 -   A folder should not have more than 1000 files in it.
 -   Ensure that the user tasked with initiating the translation process has Read, Modify, Create, and Delete permissions on the source and target language folders.
--   As translating content requires creation of a translation project, the user must have access to create project in AEM.
+-   As translating content requires creation of a translation project, the user must have access to create project in Adobe Experience Manager.
 -   If you want to use Conditional Presets with your map, you must create them before initiating the translation process. As Conditional Presets are also bundled in the translated version of the map, creating the presets before initiating the translation process ensure that they are available in the translated version.
--   Content translation process must be started from DITA map console and not the AEM Assets UI.
+-   Content translation process must be started from DITA map console and not the Adobe Experience Manager Assets UI.
 -   The Component-Based DITA Translation Workflow must not be used if you are translating content via human translation. However, this option must be used for machine translation.
 -   The globally used content and media that don't require localization, should be kept out of the language copies.
 -   All the common content that has to be localized, should be kept in a common folder under the language folder.
 
-The following illustration shows an example of a folder structure in AEM when you have globally used content and three language copies.
+The following illustration shows an example of a folder structure in Adobe Experience Manager when you have globally used content and three language copies.
 
 ![](images/aem-directory_structure.png){width="800" align="left"}
 
@@ -43,16 +43,16 @@ Perform the following steps to configure the human or machine translation servic
 
     >[!NOTE]
     >
-    > See [Configuring the Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in AEM documentation for details on integrating with third-party translation services.
+    > See [Configuring the Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in Adobe Experience Manager documentation for details on integrating with third-party translation services.
 
-1.  Click **Save & Close** to save the updated folder properties.
+1.  Select **Save & Close** to save the updated folder properties.
 
 
 >[!TIP]
 >
 > See the *Translation* section in the Best practices guide for the best practices around translating content.
 
-## Create a new translation project 
+<!--## Create a new translation project 
 
 Perform the following steps to create a translation project:
 
@@ -106,7 +106,7 @@ Perform the following steps to create a translation project:
 The Translation tab has following sections:
 
 -   **Summary**: Shows the number of referenced topics and source language along with its code.
--   **Details**: Shows the topic title, type of topic, language code of the topic, source language, version of the source topic, label added to the topic, and translation status.
+-   **Details**: Shows the topic title, type of topic, language code of the topic, source language, version of the source topic, label added to the topic, and translation status.-->
 
 
 
@@ -117,15 +117,15 @@ Perform the following steps to start the translation job:
 
 1.  In the **Projects** console, navigate to the project folder you created for localization.
 
-1.  Click the localization project to open the details page.
+1.  Select the localization project to open the details page.
 
-1.  Click the arrow on the **Translation Job** tile, and select **Start** from the list to start the translation workflow.
+1.  Select the arrow on the **Translation Job** tile, and select **Start** from the list to start the translation workflow.
 
     >[!NOTE]
     >
     > If you are using Human translation service, then you need to export the content for translation. Once you have the translated content, then you need to import it back into the translation project.
 
-1.  To view the status of the translation job, click the ellipsis at the bottom of the **Translation Job** tile.
+1.  To view the status of the translation job, select the ellipsis at the bottom of the **Translation Job** tile.
 
 
 After the translation completes, the status of the translation job changes to *Ready to Review*. To complete the translation process, you need to accept the translated copy and asset metadata from the Translation Job tile in the Project console.

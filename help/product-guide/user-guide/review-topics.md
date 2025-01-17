@@ -92,13 +92,13 @@ When you view a single topic, then you get an additional option to switch back t
 
 ![](images/comments-toolbar.png){width="350" align="left"}
 
--   **Highlight** \(![](images/review-highlight-icon.svg)\): To add a highlight comment, select the text and click the Highlight icon. Or, select the Highlight icon and select the desired text:
+-   **Highlight** \(![](images/review-highlight-icon.svg)\): To add a highlight comment, select the text and then select the Highlight icon. Or, select the Highlight icon and select the desired text:
 
     ![](images/highlight-comment.png){width="650" align="left"}
 
     A pop-up appears in the Comments panel wherein you can add your comment for the highlighted content.
 
--   **Strikethrough** \(![](images/review-text-strike-through-icon.svg)\): If you want to suggest content removal, you can do so by selecting the content and clicking the Strikethrough icon. Or, select the desired text and select the Delete key:
+-   **Strikethrough** \(![](images/review-text-strike-through-icon.svg)\): If you want to suggest content removal, you can do so by selecting the content and then selecting the Strikethrough icon. Or, select the desired text and select the Delete key:
 
     A pop-up appears in the Comments panel wherein you can add your comment for the deleted content.
 
