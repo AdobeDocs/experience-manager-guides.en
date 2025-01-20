@@ -12,10 +12,10 @@ level: Experienced
 >
 > Follow the upgrade instructions specific to the licensed version of your product.
 
-You can upgrade your current version of Experience Manager Guides to version 4.6.0 Service Pack 2:
+You can upgrade your current version of Experience Manager Guides to version 4.6.0 Service Pack 3:
 
 
-- If you are using version 4.6.0 or 4.6.0 Service Pack 1, then you can directly upgrade to 4.6.0 Service Pack 2.
+- If you are using version 4.6.0 or 4.6.0 Service Pack 1, then you can directly upgrade to 4.6.0 Service Pack 3.
 - If you are using version 4.4, 4.3.1, or 4.3.0 , then you need to upgrade to version 4.6.0. 
 - If you are using version 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 4.6.0.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.x.
@@ -981,7 +981,7 @@ During this upgrade, since the `'order'` value is changed from 1000 to 50, you n
 
 >[!TIP]
 >
-> It is recommended to install 4.6.0 Service Pack 2 on top of version 4.6.0 or 4.6.0 Service Pack 1. The upgrade process for the 4.6.0 Service Pack 2 release follows the same steps as the 4.6.0 release. 
+> It is recommended to install 4.6.0 Service Pack 3 on top of version 4.6.0 or 4.6.0 Service Pack 1. The upgrade process for the 4.6.0 Service Pack 3 release follows the same steps as the 4.6.0 release. 
 
 Upgrading to version 4.6.0 depends on the current version of Experience Manager Guides. If you are using version 4.4.0, 4.3.1, 4.3.0, 4.2, or 4.2.1 (Hotfix 4.2.1.3) then you can directly upgrade to version 4.6.0.
 
