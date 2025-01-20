@@ -7,7 +7,7 @@ role: User
 ---
 # Translate content {#id1645H700L67}
 
-AEM Guides comes with powerful capabilities that enable you to translate your content into multiple languages. Both, human and machine translation workflows are supported by AEM Guides.
+Adobe Experience Manager Guides comes with powerful capabilities that enable you to translate your content into multiple languages. Both, human and machine translation workflows are supported by Experience Manager Guides.
 
 -   **Human translation** - Assets are sent to your translation provider and translated by professional translators. When complete, the translated assets are returned and they are then imported back into AEM.
 
