@@ -60,7 +60,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 
     You can browse a predefined Sites path or specify a custom path even if the specified path has not been pre-created within the AEM Sites structure. In such cases, the system creates the necessary structure during the publishing process by using the selected map homepage template.
 
-   For example, you can specify the path `/content/AEMG-Docs-Site/en/docs/product4/topic1` where the `product4`does not exist in the strcuture. In this case, the system automatically creates `product4` using the selected **Map page template** and publish the output(topic1) within this newly created page. 
+   For example, you can specify the path `/content/AEMG-Docs-Site/en/docs/product4` where the `product4`does not exist in the strcuture. In this case, the system automatically creates `product4` using the selected **Map page template** and publish the output within this newly created page. 
    
    The **Topic page template** is automatically set as `Topic Page`. However, you can choose to select other available options in the dropdown.
 
