@@ -11,7 +11,7 @@ role: User
 >
 > The smart tagging feature is not available out of the box and it requires custom implementation for which you need to consult your system administrator.
 
-AEM Guides comes with the feature to add smart tags. You can use XML Keyword Extract tool to extract smart tags. This tool uses artificial intelligence to understand the content and provide relevant keywords. You can use smart tags to improve your search engine optimization \(SEO\) and help the users to find your related content.
+Adobe Experience Manager Guides comes with the feature to add smart tags. You can use XML Keyword Extract tool to extract smart tags. This tool uses artificial intelligence to understand the content and provide relevant keywords. You can use smart tags to improve your search engine optimization \(SEO\) and help the users to find your related content.
 
 Perform the following steps to create smart tags:
 
