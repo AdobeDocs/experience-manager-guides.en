@@ -8,10 +8,6 @@ role: Leader
 
 This article covers the new and enhanced features introduced with 2025.02.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For the list of issues fixed in this release, view [Fixed issues in the 2025.02.0 release](fixed-issues-2025-02-0.md).
-
-Learn about [upgrade instructions for the 2025.02.0  release](../release-info/upgrade-instructions-2025-02-0.md).
-
 ## Experience Manager Guides in a new look and feel 
 
 Adobe Experience Manager Guides now features a revamped design and enhanced features to help you work faster and more efficiently than ever before. 
@@ -68,19 +64,19 @@ For more details, view [Markdown authoring](../user-guide/web-editor-markdown-to
 
 The following Native PDF enhancements have been done in the 2025.02.0 release:
 
- - Introduced an option to enable or disable the DITA-OT preprocessing for Native PDF output. By default, the setting is set to Enabled.
+- Introduced an option to enable or disable the DITA-OT preprocessing for Native PDF output. By default, the setting is set to**Enabled**.
 
     ![](assets/ditaot-setting-enabled.png){width="300" align="left"}
 
- - Now, you can add a **Contents** title in the Native PDF bookmark, which when selected, takes you to the TOC page in the PDF. You can enable or disable this feature by configuring the `ui_config.json` setting.  
-
--   The Print settings for Native PDF output generation have been moved from **Templates** setting to the **Native PDF Output preset**.  
+- The Print settings for Native PDF output generation have been moved from **Templates** setting to the **Native PDF Output preset**.  
 
     For more details, view [publish PDF output](../web-editor/native-pdf-web-editor.md) 
 
 - Ability to include the metadata from a topic's `prolog` element into the page layouts, such as copyright, author, and other details, while creating Native PDF output. 
 
     ![](assets/metadata-topic-content.png){width="300" align="left"}
+
+- Ability to include the **Contents** title in the Native PDF bookmark, which when selected, takes you to the TOC page in the PDF. You can enable or disable this feature by configuring the `ui_config.json` setting.  
 
 ## Enhancements in the Table configuration
 
@@ -142,5 +138,5 @@ Experience Manager Guides no longer supports the **Quick Generate** feature to g
 
 This feature has been removed from both the Repository and Map view panels. It is recommended to use the **Map console** for all map management and publishing related actions. 
 
-For more details, view [Output generation](../user-guide/generate-output).
+For more details, view [Map management and publishing](../user-guide/map-management-and-publishing.md).
 
