@@ -135,3 +135,12 @@ For more details, view [customizing the topbar and toolbar](../guides-ui-extensi
 The support for post-processing operations in Experience Manager Guides is now extended to UUID and Cloud environments, ensuring compatibility with modern workflows and systems.
 
 For more details, view [Post-processing event handler](../api-reference/post-process-event.md). 
+
+## Deprecated features
+
+Experience Manager Guides no longer supports the **Quick Generate** feature to generate output directly from the Repository view or Map view. 
+
+This feature has been removed from both the Repository and Map view panels. It is recommended to use the **Map console** for all map management and publishing related actions. 
+
+For more details, view [Output generation](../user-guide/generate-output).
+
