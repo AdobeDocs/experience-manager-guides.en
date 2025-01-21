@@ -11,13 +11,13 @@ Once you have created a map collection for bulk activation, the next step is to 
 
 1.  Select **Guides** from the list of tools.
 
-1.  Click on the Adobe Experience Manager link at the top and choose **Tools**.
+1.  Select the Adobe Experience Manager link at the top and choose **Tools**.
 
-1.  Click on the **Bulk Publish Dashboard** tile.
+1.  Select the **Bulk Publish Dashboard** tile.
 
     A list of bulk activation map collections is displayed.
 
-1.  Select the collection that you want to publish and click **Open**.
+1.  Select the collection that you want to publish and select **Open**.
 
     ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 

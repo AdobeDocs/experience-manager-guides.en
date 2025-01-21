@@ -7,17 +7,17 @@ role: User
 ---
 # Bulk Activation of published content {#id214GG080LE8}
 
-In a real world scenario, your authors would have access on the authoring instance of AEM while the actual content gets published onto the publishing instance of AEM. The publishing instances could then be further deployed across different geo-locations. The published output has to move onto these publishing server through different processes. The process of moving content from authoring instance to the publishing instance is termed as activation or replication of content.
+In a real world scenario, your authors would have access on the authoring instance of Adobe Experience Manager while the actual content gets published onto the publishing instance of Adobe Experience Manager. The publishing instances could then be further deployed across different geo-locations. The published output has to move onto these publishing server through different processes. The process of moving content from authoring instance to the publishing instance is termed as activation or replication of content.
 
 >[!NOTE]
 >
-> For more details about how to setup the author and publish instance in AEM, see [Author and Publish Architectural Overview](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> For more details about how to setup the author and publish instance in Adobe Experience Manager, see [Author and Publish Architectural Overview](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
-With AEM Guides' Bulk Activation feature, you can quickly and easily activate your content from authoring to publishing instance. The Bulk activation feature gives you the flexibility to:
+With Experience Manager Guides' Bulk Activation feature, you can quickly and easily activate your content from authoring to publishing instance. The Bulk activation feature gives you the flexibility to:
 
 -   Add one or more multiple maps \(to a map collection\) to a single activation task
 
--   Select one or multiple output presets that you would like to publish. You can add AEM Site, PDF, Native PDF, HTML5, Custom, and
+-   Select one or multiple output presets that you would like to publish. You can add Adobe Experience Manager Site, PDF, Native PDF, HTML5, Custom, and
 JSON output presets.
 
 

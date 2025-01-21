@@ -17,13 +17,13 @@ To create a bulk activation map collection, perform the following steps:
 
     For the first time, a blank collections page is displayed. If you had created bulk activation collections earlier, then they are shown on this page.
 
-1.  Click **Create**.
+1.  Select **Create**.
 
-1.  Enter a title for your bulk activation map collection and click **Create**.
+1.  Enter a title for your bulk activation map collection and select **Create**.
 
     A success message is displayed on creation of the bulk activation map collection.
 
-1.  Click **Open** on the success message.
+1.  Select **Open** on the success message.
 
 1.  Select **Edit** and then select **Add Maps**.
 
@@ -35,7 +35,7 @@ To create a bulk activation map collection, perform the following steps:
 
      You can choose multiple output presets across available locales.
 
-1. Click **Done**.
+1. Select **Done**.
 
  The DITA map files are added to your bulk activation map collection.
 
