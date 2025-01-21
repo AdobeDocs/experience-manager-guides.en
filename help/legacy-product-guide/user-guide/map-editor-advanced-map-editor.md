@@ -380,4 +380,4 @@ You can access a map's preview from:
     -   The current topic in map preview is also highlighted in the map tree.
 
 
-**Parent topic:**[Work with the Map Editor](map-editor.md)
+**Parent topic:** [Work with the Map Editor](map-editor.md)
