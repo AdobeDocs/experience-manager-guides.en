@@ -9,7 +9,7 @@ Experience Manager Guides provides the GenAI-based smart Help, a conversational 
 
 You can ask your questions and get answers in an informative way. The answer to your query is based on the content from the product documentation. This search is entirely conversational. You can ask questions about the various features of a product or can choose to ask troubleshooting queries. Based on the response, you can also ask further questions. The response also includes links to source documents, which you can refer to for details. 
 
-For example, you may want to ask open discovery questions like *How can I export this dataset??* You get a response and the links for the related articles. Then, if you want to learn how to use the specific method to export the dataset, you can ask questions about it. For example, *How do I use [specific method] to export the dataset?* 
+For example, you may want to ask open discovery questions like *How can I create a topic?* You get a response and the links for the related articles. Then, if you want to learn how to use the specific method to export the dataset, you can ask questions about it. For example, *How do I publish a map to PDF?* 
 
 When you open **AI Assistant** on the Homepage, Map console, or Editor, the **Help** panel opens on the right. In case of Editor, the Authoring panel also appears that give you smart authoring capabilities. For details, view [AI Assistant to author documents smartly](./ai-assistant-right-panel.md)
 

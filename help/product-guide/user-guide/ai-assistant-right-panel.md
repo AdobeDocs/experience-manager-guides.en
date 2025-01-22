@@ -3,9 +3,9 @@ title: Use the AI Assistant to author documents smartly `
 description: Learn how to Use the AI Assistant to author documents with smart efficiency in the Web Editor.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 ---
-# AI Assistant Authoring to author documents smartly
+# Authoring assistant to author documents smartly
 
-Adobe Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. Using this tool, view the smart suggestions to reuse the content from the existing content repository. Use the text prompt feature to provide a prompt and change the content or generate an output as per your requirements. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic. This feature also helps you to easily improve and translate the selected content.
+Adobe Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. Using this tool, view the smart suggestions to reuse the content from the existing content repository. Use the text prompt feature to provide a prompt and change the content or generate an output as per your requirements. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic based on the selected content. This feature also helps you to easily improve and translate the selected content.
 
 >[!NOTE]
 >
@@ -26,8 +26,7 @@ Learn more about using [AI-powered smart suggestions to author content](authorin
 
 A text prompt is an instruction, question, or statement that guides the AI Assistant in generating a specific response or output.
 
-You can use a text prompt to change the content and generate an output.  For example, you can generate a summary of the features of a product and use it in your report to showcase the product. You can also use this feature to compare two products. For example, you can also create a comparison table for the features of two products.
-
+You can use a text prompt to change the content and generate an output.  For example, you can select the content of your current topic and use the prompt *Make the text more concise*. Similarly, you can use a text prompt to add an attribute to the tag used in the selected content. 
 
 1. Select the text for which you want to use the text prompt.
 1. Select **Use text prompt** ![ai use text prompt icon](./images/ai-use-text-prompt.svg)from the **Authoring**  panel.
@@ -69,8 +68,7 @@ You can use a text prompt to change the content and generate an output.  For exa
 
 ## Improve content 
 
-
-Improves the selected content. Check the spelling, language, and grammatical structure and suggest a better version of the content. It also enhances the quality of sentences.
+Use the **Improve content** feature to improves the content of the current topic. You can select the content to check spelling, language, and grammatical structure, and suggest a better version of the content. It also enhances the quality of sentences.
 
 1. Select the content. 
 1. Select **Improve content** ![ai improve content icon](./images/ai-improve-icon.svg) to find the suggestions for the improved content. 
