@@ -42,7 +42,7 @@ Before proceeding, ensure the following pre-requisites are met:
 - In AEM Guides, define keywords using `<keydef>` elements in the DITA map to correspond to the CCVAR.
 - For example:
 
-  ```xml
+```xml
   <keydef keys="product">
     <topicmeta>
       <keywords>
@@ -50,7 +50,7 @@ Before proceeding, ensure the following pre-requisites are met:
       </keywords>
     </topicmeta>
   </keydef>
-  ```
+```
   
 - The `keys` attribute (`product` in this example) will be used to reference this variable in your DITA topics.
 
@@ -60,7 +60,9 @@ Before proceeding, ensure the following pre-requisites are met:
 - In the topic, use the keyword wherever the CCVar is to be used.
 - For example:
 
+```xml
   <p>This is the title of the product: <keyword keyref="product"/> </p>
+```
   
 - The `keyref` attribute points to the `keys` value defined in the `<keydef>` element (`product` in this case).
 - During output generation, the keyword will be replaced with the corresponding CCVar value.
@@ -71,10 +73,10 @@ Before proceeding, ensure the following pre-requisites are met:
 - When you generate output for AEM Sites, the keyword references will be resolved to the corresponding dynamic values.
 - For example:
   - If `((page_properties.pageTitle))` resolves to `My Product`, the output will display:
-    
-	```
-    This is the title of the product: My Product.
-    ```
+
+```xml
+   This is the title of the product: My Product.
+```
 
 
 ## Example Use Case
@@ -83,7 +85,7 @@ Suppose you want to dynamically insert the language of the page into your DITA t
 
 1. **Define the Keyword in the DITA Map**:
 
-   ```xml
+```xml
    <keydef keys="pageLanguage">
      <topicmeta>
        <keywords>
@@ -91,20 +93,20 @@ Suppose you want to dynamically insert the language of the page into your DITA t
        </keywords>
      </topicmeta>
    </keydef>
-    ```
+```
 
 2. **Reference the Keyword in a DITA Topic**:
 
-   ```xml
+```xml
    <p>The title of this page is: <keyword keyref="pageLanguage"/>.</p>
-   ```
+```
 
 3. **Generated Output**:
    - If `((inherited_page_properties.jcr:language))` resolves to `en`, the output will display:
     
-	```
+```
      The language of this page is: en.
-     ```
+```
 
    
 ### Resources
