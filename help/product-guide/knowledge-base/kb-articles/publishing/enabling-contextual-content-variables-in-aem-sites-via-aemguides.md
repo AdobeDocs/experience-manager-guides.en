@@ -42,6 +42,7 @@ Before proceeding, ensure the following pre-requisites are met:
 - In AEM Guides, define keywords using `<keydef>` elements in the DITA map to correspond to the CCVAR.
 - For example:
 
+  ```xml
   <keydef keys="product">
     <topicmeta>
       <keywords>
@@ -49,6 +50,7 @@ Before proceeding, ensure the following pre-requisites are met:
       </keywords>
     </topicmeta>
   </keydef>
+  ```
   
 - The `keys` attribute (`product` in this example) will be used to reference this variable in your DITA topics.
 
@@ -69,15 +71,18 @@ Before proceeding, ensure the following pre-requisites are met:
 - When you generate output for AEM Sites, the keyword references will be resolved to the corresponding dynamic values.
 - For example:
   - If `((page_properties.pageTitle))` resolves to `My Product`, the output will display:
-    ```
+    
+	```
     This is the title of the product: My Product.
 
     ```
+	
 ## Example Use Case
 
 Suppose you want to dynamically insert the language of the page into your DITA topics. Here’s how you can achieve this:
 
 1. **Define the Keyword in the DITA Map**:
+
    ```xml
    <keydef keys="pageLanguage">
      <topicmeta>
@@ -86,18 +91,23 @@ Suppose you want to dynamically insert the language of the page into your DITA t
        </keywords>
      </topicmeta>
    </keydef>
-   
+	``` 
+	
 2. **Reference the Keyword in a DITA Topic**:
+
    ```xml
    <p>The title of this page is: <keyword keyref="pageLanguage"/>.</p>
-
+	```
+	
 3. **Generated Output**:
    - If `((inherited_page_properties.jcr:language))` resolves to `en`, the output will display:
-     ```
+    
+	```
      The language of this page is: en.
      ```
 
    
 #### Resources
+
 For more details on **Contextual Content Variables**, refer to the official documentation:  
 [Contextual Content Variables in AEM Commons](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)
