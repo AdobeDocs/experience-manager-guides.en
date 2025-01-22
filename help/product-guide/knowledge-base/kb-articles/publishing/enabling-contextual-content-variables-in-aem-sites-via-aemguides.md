@@ -95,13 +95,13 @@ Suppose you want to dynamically insert the language of the page into your DITA t
    </keydef>
 ```
 
-2. **Reference the Keyword in a DITA Topic**:
+1. **Reference the Keyword in a DITA Topic**:
 
 ```xml
    <p>The title of this page is: <keyword keyref="pageLanguage"/>.</p>
 ```
 
-3. **Generated Output**:
+1. **Generated Output**:
 
 If `((inherited_page_properties.jcr:language))` resolves to `en`, the output will display:
     
