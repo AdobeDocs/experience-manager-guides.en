@@ -2,7 +2,7 @@
 title: Use the AI Assistant to author documents smartly `
 description: Learn how to Use the AI Assistant to search and author documents smartly in Adobe Experience Manager Guides.
 ---
-# AI Assistant overview 
+# AI Assistant(Beta) overview 
 
 The AI Assistant in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your content through smart authoring and content reuse experiences. It brings together two robust AI features — **Authoring** and **Help** — into the Experience Manager Guides interface, enabling you to author documents and access information faster and more efficiently. 
 
