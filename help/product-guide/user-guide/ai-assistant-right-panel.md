@@ -68,7 +68,7 @@ You can use a text prompt to change the content and generate an output.  For exa
 
 ## Improve content 
 
-Use the **Improve content** feature to improves the content of the current topic. You can select the content to check spelling, language, and grammatical structure, and suggest a better version of the content. It also enhances the quality of sentences.
+Use the **Improve content** feature to improve the content of the current topic. You can select the content to check spelling, language, and grammatical structure, and suggest a better version of the content. It also enhances the quality of sentences.
 
 1. Select the content. 
 1. Select **Improve content** ![ai improve content icon](./images/ai-improve-icon.svg) to find the suggestions for the improved content. 
