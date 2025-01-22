@@ -83,7 +83,7 @@ Before proceeding, ensure the following pre-requisites are met:
 
 Suppose you want to dynamically insert the language of the page into your DITA topics. Here’s how you can achieve this:
 
-1. **Define the Keyword in the DITA Map**:
+**Define the Keyword in the DITA Map**:
 
 ```xml
    <keydef keys="pageLanguage">
@@ -95,13 +95,13 @@ Suppose you want to dynamically insert the language of the page into your DITA t
    </keydef>
 ```
 
-1. **Reference the Keyword in a DITA Topic**:
+**Reference the Keyword in a DITA Topic**:
 
 ```xml
    <p>The title of this page is: <keyword keyref="pageLanguage"/>.</p>
 ```
 
-1. **Generated Output**:
+**Generated Output**:
 
 If `((inherited_page_properties.jcr:language))` resolves to `en`, the output will display:
     
