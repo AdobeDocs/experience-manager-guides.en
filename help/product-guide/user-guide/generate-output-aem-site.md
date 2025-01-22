@@ -7,9 +7,12 @@ role: User
 ---
 # AEM Sites {#id205BE3008SW}
 
-You can create and configure the AEM Sites presets from the Map console, or the Map dashbaord.
+You can create and condigure the AEM Sites preset in two ways:
 
-**From the Map console**
+- [From the Map console](#from-the-map-console)
+- [From the Map dashboard](#from-the-map-dashboard) 
+
+## From the Map console
 
 Perform the following steps to configure the AEM Sites presets from the Map console:
 
@@ -23,7 +26,8 @@ Perform the following steps to configure the AEM Sites presets from the Map cons
    
 Learn more about [AEM Sites Presets in the Map console](generate-output-aem-site-web-editor.md).
 
-**From the Map dashboard**
+
+## From the Map dashboard
 
 Perform the following steps to configure the AEM Sites presets from the Map dashboard:
 

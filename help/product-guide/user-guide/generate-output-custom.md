@@ -11,9 +11,34 @@ The Custom output presets are available for custom DITA-OT plug-ins. You can cre
 
 You can create the Custom preset in two ways:
 
-**From the Web Editor:** In the Repository panel, open the DITA map file in Map View, then in the Output tab, select the + icon to create an output preset, and then select Custom from the type drop-down in the Add preset dialog.
+- [From the Map console](#from-the-map-console)
+- [From the Map dashboard](#from-the-map-dashboard) 
 
-In the Web editor the configurations have been organized under General and Advanced tabs:
+## From the Map console
+
+Perform the following steps to create the custom preset from the map console:
+
+1. [Open a DITA map file in the Map console](./open-files-map-console.md). 
+
+    You can also access the map file from the **Recent files** widget in the [Overview section](./intro-home-page.md#overview). The selected map file would open in Map console. 
+1. In the **Output presets** tab, select the + icon to create an output preset. 
+1. Select **Custom** from the Type dropdown in the **New output preset** dialog box. 
+1. In the **Name** field, provide a name to this preset.
+1. Select the **Add to current folder profile** option to create an output preset for the current folder profile. ![folder profile icon](images/global-preset-icon.svg) icon indicates a folder profile level preset.  
+
+   Learn more about [Manage Global and Folder Profile output presets](./web-editor-manage-output-presets.md).
+
+ 1. Select **Add**.   
+
+    The Custom preset is created.
+
+    ![](images/custom-preset-dialog.png){width="300" align="left"}
+
+### Custom preset configuration in Map console
+
+In the Map console, the preset configurations have been organized under General and Advanced tabs:
+
+![](images/custom-preset-config.png){width="800" align="left"}
 
 **General**
 
@@ -34,13 +59,20 @@ The Advanced tab contains the following configurations:
 -   Retain temporary files
 -   File Properties
 
-For details, refer to [Custom configuration](#id231KJA00REJ).
+For details, refer to [Custom preset configuration](#custom-preset-configuration).
 
-**From the map dashboard**
+## From the Map dashboard
 
-To open output presets for PDF, click on a DITA map file from the Assets UI, then click on Output Presets, and then click on the HTML5 option. In the Map dashboard, click **Edit** on the top to update the various configurations, and then click **Save**.
+Perform the following steps to create the custom preset from the map dashboard:
 
-**Custom configuration**
+1. Open a DITA map file in the Assets UI.
+1. Select the **Output Presets** tab, and then select the **Custom preset** option. 
+1. Select **Edit** on the top to update available configurations, and then select **Save**.
+
+    ![](images/custom-preset-config-map-dashboard.png){width="300" align="left"}
+
+
+## Custom preset configuration
 
 The following options are available for the Custom output preset:
 

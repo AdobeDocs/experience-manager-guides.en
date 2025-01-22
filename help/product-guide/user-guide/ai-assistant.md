@@ -12,7 +12,8 @@ The AI Assistant in Adobe Experience Manager Guides is a powerful, AI-driven too
 
 
 The **Authoring** feature in AI Assistant makes your authoring process smarter and faster. It offers capabilities such as generating intelligent suggestions for content reuse, translating content, improving content quality, and more, all based on your selected content. This feature enhances the overall authoring experience and the productivity of authors. 
-![ai assistant](./images/ai-assistant-panel.png)
+
+![ai assistant](./images/ai-assistant-panel.png){width="300" align="left"}
 
 
 For more details, view [Authoring](./ai-assistant-right-panel.md).

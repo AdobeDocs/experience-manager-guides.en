@@ -21,10 +21,8 @@ Perform the following steps to create the PDF preset from the map console:
     You can also access the map file from the **Recent files** widget in the [Overview section](./intro-home-page.md#overview). The selected map file would open in Map console. 
 1. In the **Output presets** tab, select the + icon to create an output preset. 
 1. Select **PDF** from the Type dropdown in the **New output preset** dialog box. 
-1. In the **Generate PDF Using** field, select a method to generate PDF. The available options are; DITA-OT, Native PDF, or FMPS \(if your system administrator has configured it\).
-
-    ![](./images/pdf-preset-map-console.png){width="350" align="left"}
-
+1. In the **Name** field, provide a name to this preset.
+1. In the **Generate PDF Using** field, select a method to generate PDF. The available options are; DITA-OT, Native PDF, or FMPS \(if your system administrator has configured it\).  
 1. Select the **Add to current folder profile** option to create an output preset for the current folder profile. ![folder profile icon](images/global-preset-icon.svg) icon indicates a folder profile level preset.  
 
    Learn more about [Manage Global and Folder Profile output presets](./web-editor-manage-output-presets.md).
@@ -33,11 +31,15 @@ Perform the following steps to create the PDF preset from the map console:
 
     The preset for PDF is created.
 
+    ![](./images/pdf-preset-map-console.png){width="350" align="left"}
+
 ### PDF configuration in Map console
 
 For Native PDF Output configuration, view [Publish PDF output](../web-editor/native-pdf-web-editor.md).
 
 For the DITA-OT output, the preset configuration have been organized under General and Advanced tabs:
+
+![](./images/dita-ot-preset-config.png){width="350" align="left"}
 
 **General**
 
@@ -68,15 +70,12 @@ Perform the following steps to create the PDF preset from the map dashboard:
 1. Select the **Output Presets** tab, and then select the **PDF** option. 
 1. In the Map dashboard, select **Edit** on the top to update available configurations, and then select **Save**.
 
+    ![](./images/pdf-preset-map-dashboard.png){width="350" align="left"}
+
+
 ## PDF configuration
 
 The following options are available for the PDF output:
-
-the configurations for the PDF preset are organized under General and Advanced tabs:
-
-
-
-The following options are available for the PDF Output:
 
 | PDF options | Description |
 | --- | --- |

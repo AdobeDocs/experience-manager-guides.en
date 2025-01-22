@@ -41,7 +41,7 @@ It is a very common scenario to have a large set of documentation spread across 
 
 Another way of linking content is to create a link using the `peer` `@scope`. For such content, the link is resolved at run-time by picking the file's title and the configured context for the linked topic from the DITA map's publishing context. The following screenshot shows the Properties panel for a link that has the `peer` `@scope`:
 
-![](images/peer-link-scope-link.png){width="800" align="left"}
+![](images/peer-link-scope-link-new.png){width="800" align="left"}
 
 To simplify publishing of complex maps and topics that link to other topics in other maps, Adobe Experience Manager Guides allows you to set the publishing context for each output preset.
 

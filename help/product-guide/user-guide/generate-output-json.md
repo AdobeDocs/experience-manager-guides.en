@@ -7,11 +7,25 @@ role: User
 ---
 # JSON {#id231KK0180T4}
 
-You can create the JSON preset from the Web Editor:
+You can create the JSON preset from the Map console using the following steps:
 
-In the Repository panel, open the DITA map file in Map View, then in the Output tab, select the + icon to create an output preset, and then select JSON from the type drop-down in the Add preset dialog.
+1. [Open a DITA map file in the Map console](./open-files-map-console.md). 
 
-In the Web editor, the following configurations have been organized under the **General** tab:
+    You can also access the map file from the **Recent files** widget in the [Overview section](./intro-home-page.md#overview). The selected map file would open in Map console. 
+1. In the **Output presets** tab, select the + icon to create an output preset. 
+1. Select **JSON** from the Type dropdown in the **New output preset** dialog box. 
+1. In the **Name** field, provide a name to this preset.
+1. Select the **Add to current folder profile** option to create an output preset for the current folder profile. ![folder profile icon](images/global-preset-icon.svg) icon indicates a folder profile level preset.  
+
+   Learn more about [Manage Global and Folder Profile output presets](./web-editor-manage-output-presets.md).
+
+ 1. Select **Add**.   
+
+    The JSON preset is created.
+
+    ![](images/JSON-preset-dialog.png){width="300" align="left"}
+
+Once the preset is created, you can configure the following preset configurations that are available under the the General tab. 
 
 -   Output Path
 -   Index File
@@ -21,16 +35,20 @@ In the Web editor, the following configurations have been organized under the **
 -   Properties to Propagate in the Output
 -   Post Generation Workflow
 
-For details, refer to [JSON configuration](#id231KJA00REJ).
+For details, refer to [JSON configuration](#json-configuration).
+
+![](images/json-preset-config.png){width="800" align="left"}
 
 
-**JSON configuration**
+
+
+## JSON configuration
 
 The following options are available for the JSON preset:
 
 >[!NOTE]
 >
-> You can also edit the JSON file in the Web Editor.
+> You can also edit the JSON file in the Editor.
 
 | JSON options | Description |
 | --- | --- |

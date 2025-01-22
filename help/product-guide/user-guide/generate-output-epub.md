@@ -11,9 +11,15 @@ You can create the EPUB preset from the map dashboard.
 
 >[!NOTE]
 >
-> You can choose the method to generate HTML5 using the DITA-OT or FMPS \(if your system administrator has configured it\).
+> You can choose the method to generate EPUB using the DITA-OT or FMPS \(if your system administrator has configured it\).
 
-To open output presets for EPUB, open the DITA map file in the Assets UI, and then select the **EPUB** option in **Output Presets**. The following options are available for the EPUB Output:
+Perform the following steps to create the EPUB preset from the map dashboard:
+
+1. Open a DITA map file in the Assets UI.
+1. Select the **Output Presets** tab, and then select the **EPUB** option. 
+1. Select **Edit** on the top to update available configurations, and then select **Save**.
+
+    ![](images/epub-preset-config-map-dashboard.png){width="300" align="left"}
 
 | EPUB options | Description |
 | --- | --- |

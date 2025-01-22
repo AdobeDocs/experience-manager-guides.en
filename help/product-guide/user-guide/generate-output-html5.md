@@ -23,7 +23,8 @@ Perform the following steps to create the HTML5 preset from the map console:
     You can also access the map file from the **Recent files** widget in the [Overview section](./intro-home-page.md#overview). The selected map file would open in Map console. 
 1. In the **Output presets** tab, select the + icon to create an output preset. 
 1. Select **HTML5** from the Type dropdown in the **New output preset** dialog box. 
-1. In the **Generate PDF Using** field, select a method to generate HTML5. The available options are; DITA-OT or FMPS \(if your system administrator has configured it\).
+1. In the **Name** field, provide a name to this preset.
+1. In the **Generate HTML Using** field, select a method to generate HTML5. The available options are; DITA-OT or FMPS \(if your system administrator has configured it\).
 1. Select the **Add to current folder profile** option to create an output preset for the current folder profile. ![folder profile icon](images/global-preset-icon.svg) icon indicates a folder profile level preset.  
 
    Learn more about [Manage Global and Folder Profile output presets](./web-editor-manage-output-presets.md).
@@ -31,6 +32,8 @@ Perform the following steps to create the HTML5 preset from the map console:
  1. Select **Add**.   
 
     The preset for HTML5 is created.
+
+    ![](images/HTML5-preset-dialog.png){width="300" align="left"}
 
 ### HTML5 configuration in Map console
 
@@ -57,6 +60,9 @@ The Advanced tab contains the following configurations:
 
 For details, refer to [HTML5 configuration](#html5-configuration).
 
+![](images/html5-preset-config.png){width="800" align="left"}
+
+
 ## From the map dashboard
 
 Perform the following steps to create the HTML5 preset from the map dashboard:
@@ -64,7 +70,9 @@ Perform the following steps to create the HTML5 preset from the map dashboard:
 1. Open a DITA map file in the Assets UI.
 1. Select the **Output Presets** tab, and then select the **HTML5** option. 
 1. In the Map dashboard, select **Edit** on the top to update available configurations, and then select **Save**.
-**From the map dashboard**
+
+    ![](images/html5-preset-config-map-dashboard.png){width="800" align="left"}
+
 
 ## HTML5 configuration
 
