@@ -102,7 +102,8 @@ Suppose you want to dynamically insert the language of the page into your DITA t
 ```
 
 3. **Generated Output**:
-   - If `((inherited_page_properties.jcr:language))` resolves to `en`, the output will display:
+
+If `((inherited_page_properties.jcr:language))` resolves to `en`, the output will display:
     
 ```
      The language of this page is: en.
