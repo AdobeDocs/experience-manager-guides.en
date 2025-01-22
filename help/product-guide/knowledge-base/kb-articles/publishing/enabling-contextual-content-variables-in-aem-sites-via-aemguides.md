@@ -1,11 +1,11 @@
 ---
-title: Enabling Contextual Content Variables (CCVAR) in AEM Sites via AEM Guides
-description: Working with Contextual Content Variables (CCVAR) in AEM Sites via AEM Guides
+title: Enabling Contextual Content Variables (CCVAR) in AEM Sites pages generated from AEM Guides
+description: Working with Contextual Content Variables (CCVAR) in AEM Sites pages generated from AEM Guides
 feature: Web Editor
 role: User, Admin
 exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
 ---
-# Enabling Contextual Content Variables (CCVAR) in AEM Sites via AEM Guides
+# Enabling Contextual Content Variables (CCVAR) in AEM Sites pages generated from AEM Guides
 
 Contextual Content Variables (CCVAR) is an ACS Commons capability that enables authors to use dynamic content variables directly in their authored text. While CCVAR is commonly used in AEM Sites, this article explains how to achieve similar functionality via pages generated from content authored in **AEM Guides** *primarily by using keywords defined in the DITA map*.
 
@@ -15,7 +15,7 @@ Contextual Content Variables (CCVAR) is an ACS Commons capability that enables a
 CCVAR allows authors to insert dynamic variables into their content, which are resolved at runtime based on the context. For example, variables like `((page_properties.pageTitle))` can dynamically pull the page title during content rendering.
 
 
-## How to Enable CCVAR in AEM Sites Generated from AEM Guides?
+## How to Enable CCVAR in AEM Sites pages generated from AEM Guides?
 
 Considering AEM Guides is used as the source of all content (including AEM Sites, PDF, or HTML5), to enable CCVARs on pages generated from AEM Guides, you need to use keywords to define the CCVAR name. To do this in Guides, define **keywords** in your DITA map using `<keydef>` elements. These keywords can correspond to dynamic values (or CCVAR names), allowing you to reference them in your DITA topics.
 
