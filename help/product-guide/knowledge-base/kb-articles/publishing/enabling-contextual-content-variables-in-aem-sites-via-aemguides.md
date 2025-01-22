@@ -1,9 +1,10 @@
 ---
 title: Enabling Contextual Content Variables (CCVAR) in AEM Sites via AEM Guides
 description: Working with Contextual Content Variables (CCVAR) in AEM Sites via AEM Guides
-exl-id: 
+
 feature: Web Editor
 role: User, Admin
+
 ---
 # Enabling Contextual Content Variables (CCVAR) in AEM Sites via AEM Guides
 

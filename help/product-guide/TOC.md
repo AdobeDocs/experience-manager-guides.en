@@ -505,4 +505,5 @@ breadcrumb-title: AEM Guides Documentation
     - Use Cases {#use-cases}
       - [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
       - [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
+      - [Enabling contextual content variables in aemsites via aemguides](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
   - [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
