@@ -66,16 +66,17 @@ Based on the translation workflow used in your setup, the component-based transl
 
 ## Configure the legacy translation workflow 
 
-It is recommended that you use the latest translation workflow, which provides enhanced performance. However, if you want to use the legacy translation workflow, you can configure it.
+>[!IMPORTANT]
+>
+> It is recommended that you use the latest translation workflow, available in AEM Guides 2024.06.0 and onwards, for an enhanced performance. However, if you've enabled any customization in the translation process and it is impacted by the new workflow, consider reverting to the legacy translation workflow as a workaround.
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to configure the legacy translation workflow:
  
 
-
-
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`translation.workflow.version.legacy`|Boolean: <br> - If you use the latest translation workflow, then *Disable* \( `false`\) the **Run legacy translation workflow** option. The latest translation workflow is enabled by default. <br> -   If you use the legacy translation, then *Enable \( `true`\)* the **Run legacy translation workflow** option.|
+|`com.adobe.fmdita.config.ConfigManager`|`translation.workflow.version.legacy`|Boolean: <br> - If you use the latest translation workflow, then *Disable* \( `false`\) the **Run legacy translation workflow** option.  <br> -   If you use the legacy translation, then *Enable \( `true`\)* the **Run legacy translation workflow** option. <br> **Default value**: false|
+
 
 
 
