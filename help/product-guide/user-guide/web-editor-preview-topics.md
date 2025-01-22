@@ -32,7 +32,7 @@ You can perform the following operations from the toolbar in the preview mode:
 
 **Properties**
 
-View the properties of the selected topic. Based on your AEM version, you could see properties like metadata, schedule \(de\)activation, references, document state and more.
+View the properties of the selected topic. Based on your Adobe Experience Manager version, you could see properties like metadata, schedule \(de\)activation, references, document state and more.
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ If your topic has conditional content, then you will see the A/B icon on the too
 
 **Share UUID Link** 
 
-- AEM Guides allows you to share the UUID-based links for DITA maps, topics, and image files from the following places:
+- Experience Manager Guides allows you to share the UUID-based links for DITA maps, topics, and image files from the following places:
 
     -   Assets UI
     -   DITA map's console
@@ -147,7 +147,7 @@ If the Checked out column is not visible, select **View Settings** under **List 
 
 ### Branch, revert, and subsequent versioning {#id193PG0Y051X}
 
-- In a typical authoring environment, you would need to create a new branch of a topic to cater to a specific release. Just like any other version management system, AEM Guides allows you to create a branch from an existing version of a topic, or revert to an older version of a topic. Using the version management features offered by AEM Guides, you can perform the following tasks:
+- In a typical authoring environment, you would need to create a new branch of a topic to cater to a specific release. Just like any other version management system, Experience Manager Guides allows you to create a branch from an existing version of a topic, or revert to an older version of a topic. Using the version management features offered by Experience Manager Guides, you can perform the following tasks:
 
     -   Create a branch from an existing version of a topic
     -   Create subsequent versions in a new branch

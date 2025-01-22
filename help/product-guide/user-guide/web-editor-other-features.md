@@ -137,7 +137,7 @@ You may view the following options depending on whether the file is locked/unloc
 
 **Support for article-based publishing** 
 
-- From the Editor, you can generate the output for one or more topics, or the entire DITA map. You need to create output presets for your DITA map and then you can easily generate the output for one or more topics. If you have updated a few topics in your map, you can also generate the output only for those topics from the Editor. For more details, view [Article-based publishing from the Editor](web-editor-article-publishing.md#id218CK0U019I).
+- From the Editor, you can generate the output for one or more topics, or the entire DITA map. You need to create output presets for your DITA map and then you can easily generate the output for one or more topics. If you have updated a few topics in your map, you can also generate the output only for those topics from the Editor. For more details, view [Article-based publishing](web-editor-article-publishing.md#id218CK0U019I).
 
 **Support for Markdown documents** 
 

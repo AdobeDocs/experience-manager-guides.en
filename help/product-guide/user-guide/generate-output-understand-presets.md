@@ -7,18 +7,18 @@ role: User
 ---
 # Understanding the output presets {#understanding_output_settings}
 
-AEM Guides supports creating output in the most popular formats like AEM Site, PDF, Knowledge Base, HTML5, EPUB, JSON, and custom output through DITA-OT, Native PDF, and FMPS. Using these output formats, you can configure various output presets. An output preset represents a customized output format in which you would like the content to be published.
+Experience Manager Guides supports creating output in the most popular formats like AEM Sites, PDF, Knowledge Base, HTML5, EPUB, JSON, and custom output through DITA-OT, Native PDF, and FMPS. Using these output formats, you can configure various output presets. An output preset represents a customized output format in which you would like the content to be published.
 
 The following sections explain the options available for the supported output formats.
 
 You can create presets in two ways:
 
--   **From the Web Editor**: You can create AEM Site, PDF, Knowledge Base, HTML5, Custom, and JSON output preset and generate the respective outputs.
--   **From the map dashboard**: You can create AEM Site, PDF, HTML5, EPUB, and custom output preset and generate the respective outputs.
+-   **From the map console**: You can create AEM Sites, PDF, Knowledge Base, HTML5, Custom, and JSON output preset and generate the respective outputs.
+-   **From the map dashboard**: You can create AEM Sites, PDF, HTML5, EPUB, and custom output preset and generate the respective outputs.
 
 The following sections explain the options available for the supported output formats.
 
--   **[AEM Site](generate-output-aem-site.md)**  
+-   **[AEM Sites](generate-output-aem-site.md)**  
 
 -   **[PDF](generate-output-pdf.md)**  
 

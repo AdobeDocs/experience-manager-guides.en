@@ -33,13 +33,13 @@ Perform the following steps to create a topic:
 
     If your administrator has configured automatic file name based on UUID setting, then you will not see the option to specify the file name. A UUID-based file name is automatically assigned to the file.
 
-    If the file naming option is available, then also the name is automatically suggested based on the **Title** of your document. If you want to manually specify the document name, then ensure that the **Name** does not contain any spaces, apostrophe, or braces and ends with .xml or.dita. By default, AEM Guides replaces all special characters with hyphens. See the Filenames section in the Best practices guide for best practices around naming DITA files.
+    If the file naming option is available, then also the name is automatically suggested based on the **Title** of your document. If you want to manually specify the document name, then ensure that the **Name** does not contain any spaces, apostrophe, or braces and ends with .xml or.dita. By default, Experience Manager Guides replaces all special characters with hyphens. See the Filenames section in the Best practices guide for best practices around naming DITA files.
 
 1.  Select **Create**. The Topic Created message appears.
 
-    You can choose to open the topic for editing in the Web Editor, or the save the topic file in the Adobe Experience Manager repository.
+    You can choose to open the topic for editing in the Editor, or the save the topic file in the Adobe Experience Manager repository.
 
-    Every new topic that you create from the Assets UI **Create** \> **DITA Topic** or the Editor is assigned a unique topic ID. The value of this ID is the file name itself. Also, a new document is saved as the latest working copy of the topic in DAM. Until you save a revision of a newly created topic, you will not view any version number in the Version History. If you open the topic for editing, the version information is shown in the right top corner of the secondary toolbar:
+    Every new topic that you create from the Assets UI **Create** \> **DITA Topic** or the Editor is assigned a unique topic ID. The value of this ID is the file name itself. Also, a new document is saved as the latest working copy of the topic in DAM. Until you save a revision of a newly created topic, you will not view any version number in the Version History. If you open the topic for editing, the version information is shown in the right top corner of the toolbar:
 
     ![](images/topic-version-none_cs.png){width="550" align="left"}
 

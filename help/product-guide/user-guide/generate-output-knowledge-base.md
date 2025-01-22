@@ -7,17 +7,29 @@ exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
 ---
 # Knowledge Base {#knowledge-base}
 
-You can create the **Knowledge Base** preset from the Web Editor:
+You can create the **Knowledge Base** preset from the Map console using the following steps:
 
-In the Repository panel, open the DITA map file in **Map View**, then in the **Output** tab, select the + icon to create an output preset, and then select **Knowledge Base** from the **Type** dropdown in the **New output preset** dialog. You can name the preset and choose the target to generate the output using the **Adobe Experience Manager**, **Salesforce**, or **ServiceNow**.
+1. [Open a DITA map file in the Map console](./open-files-map-console.md). 
 
+    You can also access the map file from the **Recent files** widget in the [Overview section](./intro-home-page.md#overview). The selected map file would open in Map console. 
+1. In the **Output presets** tab, select the + icon to create an output preset. 
+1. Select **Knowledge Base** from the Type dropdown in the **New output preset** dialog box. 
+1. In the **Target** field, select a target for the generated output. The available options are; **Adobe Experience Manager**, **Salesforce**, and **ServiceNow**.
 
+    ![](./images/knowledge-base-preset-dialog-box.png){width="350" align="left"}
 
+1. Select the **Add to current folder profile** option to create an output preset for the current folder profile. ![folder profile icon](images/global-preset-icon.svg) icon indicates a folder profile level preset.  
+
+   Learn more about [Manage Global and Folder Profile output presets](./web-editor-manage-output-presets.md).
+
+ 1. Select **Add**.   
+
+    The preset for Knowledge Base is created.
 
 ## Knowledge Base configuration{#knowledge-base-configuration}
 
 
-In the Web editor, the following configurations have been organized under the **General** and **Articles** tabs. You can also configure the settings for the specific **Knowledge Base** you have selected as a target, **Adobe Experience Manager**, **Salesforce**, or **ServiceNow**.
+The following configurations have been organized under the **General** and **Articles** tabs. You can also configure the settings for the specific **Knowledge Base** you have selected as a target, **Adobe Experience Manager**, **Salesforce**, or **ServiceNow**.
 
 
 ### General
@@ -59,7 +71,7 @@ You can also view the following options in the Salesforce and ServiceNow presets
 
 >[!NOTE]
 >
->You can use Adobe Experience Manager Knowledge Base preset if your administrator has configured it. For more details, view [Article-based publishing from the Web Editor](../install-guide/configure-article-based-publishing.md) section in the Installation and Configuration Guide.
+>You can use Adobe Experience Manager Knowledge Base preset if your administrator has configured it. For more details, view [Article-based publishing from the Map console](../install-guide/configure-article-based-publishing.md) section in the Installation and Configuration Guide.
 
 | Adobe Experience Manager options | Description |
 | --- | --- |

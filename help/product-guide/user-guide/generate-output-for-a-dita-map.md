@@ -5,7 +5,21 @@ exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
 ---
-# Generate output for a DITA map from the map console {#id1825FG00UHT}
+# Generate output for a DITA map from the Map console 
+
+Perform the following steps to generate output for a DITA map:
+
+1. [Open a map file in the Map console](./open-files-map-console.md).
+2. The DITA map console is displayed with the list of **Output presets** available to generate output.
+
+    ![](images/output-preset-options-map-console.png){width="300" align="left"}
+
+3. Select a preset that you want to use for generating the output. You can also create a new output preset. 
+4. Select **Generate output** to start the generation process.
+
+## Generate output for a DITA map from the Assets UI {#id1825FG00UHT}
+
+You can also use the Assets UI to generate output for a DITA map file. 
 
 Perform the following steps to generate output for a DITA map:
 
@@ -21,26 +35,24 @@ Perform the following steps to generate output for a DITA map:
     >
     > If you are generating the AEM Site output, then the publishing process uses the structure defined in the `.ditamap` file to create AEM Site structure.
 
-1.  Click the Generate icon to start the output generation process.
+1.  Select the **Generate** icon to start the output generation process.
 
 
-You can view the current status of the output generation request by clicking on Outputs. For more information, see [View the status of the output generation task](#viewing_output_history)
+You can view the current status of the output generation request in the **Outputs** tab. For more information, see [View the status of the output generation task](#view-the-status-of-the-output-generation-task).
 
 >[!IMPORTANT]
 >
 > If an output generation process for a preset is either in the queue or in progress, you cannot initiate another output generation task for the same preset.
 
-You can generate the PDF output for one or more output presets created for a DITA map from the Web Editor. For more details, see [Use Quick Generate panel to generate and view output for the presets](web-editor-quick-generate-panel.md#).
-
-You can also generate the AEM Site output for one or more topics, or the entire DITA map from the Web Editor. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
+You can also generate the AEM Sites output for one or more topics, or the entire DITA map from the Map console. For more details, view [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Incremental output generation {#generating_standalone_topic}
 
 >[!NOTE]
 >
-> Incremental output generation is applicable only for AEM Site output. Also, you can only regenerate DITA \(.dita/.xml\) topics from a DITA map or sub-maps. If you select a DITA map, sub-map, topic group, or a topic with `@processing-role="resource-only"`, then the regenerate option is not available.
+> Incremental output generation is applicable only for AEM Sites output. Also, you can only regenerate DITA \(.dita/.xml\) topics from a DITA map or sub-maps. If you select a DITA map, sub-map, topic group, or a topic with `@processing-role="resource-only"`, then the regenerate option is not available.
 
-There could be a number of instances where you would update only a few topics in your DITA map and push only those updated topics live. To handle such scenarios, AEM Guides allows you to create incremental outputs. If you have updated a few topics, you do not need to regenerate the entire DITA map. You can select only the updated topics and regenerate them.
+There could be a number of instances where you would update only a few topics in your DITA map and push only those updated topics live. To handle such scenarios, Experience Manager Guides allows you to create incremental outputs. If you have updated a few topics, you do not need to regenerate the entire DITA map. You can select only the updated topics and regenerate them.
 
 If your map is chunked and you have updated a single topic in that map, then you need to regenerate the entire map for the updated topic or content to reflect in the output. You will not get the output regeneration option at a topic level, it is only available at the \(chunked\) map level. This is applicable to the parent map and all sub-maps.
 
@@ -48,9 +60,9 @@ Perform the following steps to regenerate output for a specific topic or a group
 
 >[!IMPORTANT]
 >
-> When you are regenerating the AEM Site output, then the output is created using the current version of the files and not the attached Baseline.
+> When you are regenerating the AEM Sites output, then the output is created using the current version of the files and not the attached Baseline.
 
-1.  In the Assets UI, navigate to and click on the DITA map file.
+1.  In the Assets UI, navigate to and select the DITA map file.
 
     The DITA map console appears with the list of Output Presets available to generate output.
 
@@ -66,30 +78,30 @@ Perform the following steps to regenerate output for a specific topic or a group
 
     ![](images/regenerate-topics.png){width="800" align="left"}
 
-1.  Click **Regenerate**.
+1.  Select **Regenerate**.
 
-    The Regenerate Selected Topics page appears.
+    The **Regenerate Selected Topics** page appears.
 
 1.  Select the output preset that you want to use to regenerate the selected topics.
 
-1.  Click **Regenerate** to start the output generation process.
+1.  Select **Regenerate** to start the output generation process.
 
 
 >[!IMPORTANT]
 >
 > If you rename a topic title and regenerate the topic, the updated topic title does not reflect in the DITA map table of contents. To update the topic title in the TOC, you must generate the entire DITA map.
 
-You can view the current status of the output generation request by clicking on Outputs. For more information, see [View the status of the output generation task](#viewing_output_history).
+You can view the current status of the output generation request by clicking on Outputs. For more information, view [View the status of the output generation task](#view-the-status-of-the-output-generation-task).
 
-## View the status of the output generation task {#viewing_output_history}
+## View the status of the output generation task 
 
-Once you initiate the output generation task for a map or regenerate selected topics, AEM Guides sends this task to the output generation queue. This queue is updated in real time, showing the status of each output generation task in the queue.
+Once you initiate the output generation task for a map or regenerate selected topics, Experience Manager Guides sends this task to the output generation queue. This queue is updated in real time, showing the status of each output generation task in the queue.
 
 Perform the following steps to view the output generation queue:
 
-1.  In the Assets UI, navigate to and click on the map file for which you want to check the output generation status.
+1.  In the Assets UI, navigate to and open the map file for which you want to check the output generation status.
 
-1.  Click **Outputs**.
+1.  Select **OUTPUTS**.
 
     ![](images/output-queued.png){width="800" align="left"}
 
@@ -99,7 +111,7 @@ Perform the following steps to view the output generation queue:
 
         Lists the outputs that are either waiting to be generated or are under generation process. The queued or in progress tasks are shown with a blue color icon before the preset name. You can also find the output generation setting or preset used for the queued task, the type, user who initiated the task, time since when the task is queued, and the current status.
 
-        Click on the link to access the **Publish Dashboard** and view the current running status. A list of all active publishing tasks is available in the Publish Dashboard. The **Queued Outputs** and the **Publish Dashboard**link are displayed only when there are outputs that are either waiting to be generated or are under generation process. They don't appear when the output tasks have been completed.For more details on Publish Dashboard, see [Manage publish tasks using the Publish Dashboard](generate-output-publish-dashboard.md#).
+        Click on the link to access the **Publish Dashboard** and view the current running status. A list of all active publishing tasks is available in the Publish Dashboard. The **Queued Outputs** and the **Publish Dashboard**link are displayed only when there are outputs that are either waiting to be generated or are under generation process. They don't appear when the output tasks have been completed.For more details on Publish Dashboard, view [Manage publish tasks using the Publish Dashboard](generate-output-publish-dashboard.md#).
 
     -   **Generated Outputs**
 
@@ -116,23 +128,23 @@ Perform the following steps to view the output generation queue:
 
 ## Cancel an output generation task {#id2061H100T5Z}
 
-AEM Guides gives publishers a simple and easy way to cancel any ongoing publishing task. As a publisher, you can cancel an ongoing publishing task from the DITA map console or the [Publish Dashboard](generate-output-publish-dashboard.md#).
+Experience Manager Guides gives publishers a simple and easy way to cancel any ongoing publishing task. As a publisher, you can cancel an ongoing publishing task from the DITA map console or the [Publish Dashboard](generate-output-publish-dashboard.md#).
 
 Perform the following steps to cancel an output generation task from the DITA map console:
 
-1.  In the Assets UI, navigate to and click on the map file for which you want to cancel an ongoing output generation task.
+1.  In the Assets UI, navigate to and open the map file for which you want to cancel an ongoing output generation task.
 
-1.  Click **Outputs**.
+1.  Select **OUTPUTS**.
 
-1.  In the Queued Outputs list, hover the pointer over a task that you want to cancel.
+1.  In the **Queued Outputs** list, hover the pointer over a task that you want to cancel.
 
-1.  Click the *Cancel This Job* icon.
+1.  Select the **Cancel This Job** icon.
 
     ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
 
-1.  Click **Yes** on the Confirm Cancellation message prompt.
+1.  Select **Yes** on the **Confirm Cancellation** message prompt.
 
-    ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
+    ![](images/confirm-cancel-output-map-console.png){width="800" align="left"}
 
     If the task has not yet started, the cancel command is executed on the task. For a task that is being canceled, the Status is set to Canceling.
 
@@ -147,17 +159,17 @@ When you generate multiple outputs for a DITA map, over a period of time the Gen
 
 Perform the following steps to remove an output task from the Generated Output list:
 
-1.  In the Assets UI, navigate to and click on the map file from which you want to delete the tasks.
+1.  In the Assets UI, navigate to and open the map file from which you want to delete the tasks.
 
-1.  Click **Outputs**.
+1.  Select **OUTPUTS**.
 
-1.  In the Generated Outputs list, hover the pointer over a task that you want to delete.
+1.  In the **Generated Outputs** list, hover the pointer over a task that you want to delete.
 
-1.  Click the delete icon.
+1.  Select the delete icon.
 
     ![](images/delete-output-task.png){width="800" align="left"}
 
-1.  Click **Yes** on the Confirm Delete message prompt.
+1.  Select **Yes** on the **Confirm Delete** message prompt.
 
     The task is deleted from the Generated Outputs list.
 

@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
 ---
-# AEM Sites preset in the Editor
+# AEM Sites preset in the Map console
 
 You can create AEM Sites preset from the Editor and configure them to generate the AEM Sites output. AEM Sites output is based on the composite components mapping along with the `guides-components`, facilitating efficient content creation and management.
 
@@ -20,8 +20,7 @@ Experience Manager Guides provides predefined templates for creating AEM Sites. 
 
 Perform the following steps to create the AEM Sites preset from the Editor:
 
-1. In the Repository panel, open the DITA map file in Map View.
-1. Select the **Open in map console** icon to open the map file in Map console.
+1. [Open the DITA map file in map console](./open-files-map-console.md). 
 1. In the **Output presets** panel, select the + icon to create an output preset.
 1. Select **AEM Sites** from the **Type** drop-down in the **New output preset** dialog box.
 1. Deselect the **Use legacy component mapping** option.
@@ -141,7 +140,7 @@ Perform the following steps to specify the publishing context for cross-linked f
     - For presets created from the map dashboard. Refer to Map dashboard tooltip appears.
     - For OOTB presets, Refer to Map dashboard tooltip appears.
     - For global presets,  Create a local copy of this global preset to set cross map references.
-If you want to use AEM Sites presets from the Web Editor, either create a new preset or duplicate the existing one.
+If you want to use AEM Sites presets from the Map console, either create a new preset or duplicate the existing one.
 
 1. Open the **Cross map references** tab. 
 

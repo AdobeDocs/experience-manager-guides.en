@@ -140,7 +140,6 @@ breadcrumb-title: AEM Guides Documentation
           - [Author Markdown documents from the Editor](./user-guide/web-editor-markdown-topic.md)
           - [Add citations to your content](./user-guide/web-editor-apply-citations.md)
           - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)   
-                
           - [Document state](./user-guide/web-editor-document-states.md)
           - [Use labels](./user-guide/web-editor-use-label.md)
         - Map Editor {#work-with-map-editor}
@@ -177,8 +176,8 @@ breadcrumb-title: AEM Guides Documentation
        - [Introduction to output presets](./user-guide/generate-output-understand-presets.md)
         - Output presets in AEM Guides {#output-presets-aemg}      
           - [AEM Sites](./user-guide/generate-output-aem-site.md)
+          - [AEM Sites presets in the map console](./user-guide/generate-output-aem-site-web-editor.md)
           - [AEM Sites presets on the map dashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
-          - [AEM Sites presets in the Web Editor](./user-guide/generate-output-aem-site-web-editor.md)
           - [PDF](./user-guide/generate-output-pdf.md)
           - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
           - [HTML5](./user-guide/generate-output-html5.md)
@@ -228,8 +227,9 @@ breadcrumb-title: AEM Guides Documentation
       - [Conversion Status Report](./user-guide/reports-convertion-status.md)
       - [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md) 
     - Use Baseline {#work-with-baseline}
-      - [Work with Baseline](./user-guide/generate-output-use-baseline-for-publishing.md)
-      - [Create and manage baselines from the Web Editor](./user-guide/web-editor-baseline.md)
+      - [Baselines overview](./user-guide/web-editor-baseline.md)
+      - [Work with Baseline from the Assets UI](./user-guide/generate-output-use-baseline-for-publishing.md)
+      - [Create and manage baselines from the Map console](./user-guide/web-editor-baseline.md)
     - Use condition presets {#use-condition-presets}
       - [Use condition presets](./user-guide/generate-output-use-condition-presets.md)
     - Content translation {#translate-content}

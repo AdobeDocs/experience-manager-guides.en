@@ -31,9 +31,9 @@ The following options are available for the AEM Sites output:
 
 ## Additional note on AEM Sites 
 
-### Generate article-based output from the Web Editor
+### Generate article-based output from the Map console
 
-You can generate the AEM Sites output for one or more topics, or the entire DITA map from the Web Editor. You need to create output presets for your DITA map and then you can easily generate the AEM Sites output for your map. If you have updated a few topics in your map, you can also generate the AEM Sites output only for those topics from the Web Editor. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
+You can generate the AEM Sites output for one or more topics, or the entire DITA map from the Map console. You need to create output presets for your DITA map and then you can easily generate the AEM Sites output for your map. If you have updated a few topics in your map, you can also generate the AEM Sites output only for those topics from the Map console. For more details, view [Article-based publishing from the Map console](web-editor-article-publishing.md#id218CK0U019I).
 
 ### Generate output of linking topics from other maps
 
@@ -43,7 +43,7 @@ Another way of linking content is to create a link using the `peer` `@scope`. Fo
 
 ![](images/peer-link-scope-link.png){width="800" align="left"}
 
-To simplify publishing of complex maps and topics that link to other topics in other maps, AEM Guides allows you to set the publishing context for each output preset.
+To simplify publishing of complex maps and topics that link to other topics in other maps, Adobe Experience Manager Guides allows you to set the publishing context for each output preset.
 
 The publishing context allows you to specify which topic has to be used from which map for publishing a specific output. Let's understand this with the help of an example — let's say you have four folders: sample a, sample b, sample c, and sample d. Each folder contains a DITA map — DITA map A, DITA map B, DITA map C, and DITA map D. Cross-map linking will happen when a topic in DITA map A links to a topic in DITA map B, C, or D. In the following screenshot, a sample concept topic contains links \(or references\) to files that are a part of other DITA maps.
 
@@ -73,7 +73,7 @@ Perform the following steps to specify the publishing context for cross-linked f
 
     ![](images/default-publish-context.png){width="800" align="left"}
 
-1.  To change the default selection of DITA map and preset, click **Edit** \(in the main toolbar\).
+1.  To change the default selection of DITA map and preset, select **Edit** \(in the main toolbar\).
 
 1.  If you want to use the most recently published output of each dependent file in the map, select **Use most recently generated publish context for all dependent topics**.
 
@@ -83,9 +83,9 @@ Perform the following steps to specify the publishing context for cross-linked f
 
 1.  In the **Parent Map's Preset** drop-down list, select the output preset that you want to link the current map's output with.
 
-1.  Select the required map and its output preset for all dependent topics and click **Done**.
+1.  Select the required map and its output preset for all dependent topics and select **Done**.
     
-    The context for the dependent topics is now set. You can generate the output for the current map. For more information about generating output, see [Generate output for a DITA map from the map console](generate-output-for-a-dita-map.md#).
+    The context for the dependent topics is now set. You can generate the output for the current map. For more information about generating output, view [Generate output for a DITA map from the map console](generate-output-for-a-dita-map.md#).
 
 ### Blended publishing
 
@@ -106,6 +106,6 @@ You can search for a string in the AEM Sites output. By default, you can search 
  
 ![Search AEM Sites output](images/aem-output-search.png){width="650" align="left"}
 
-For more details see *Configure flattening of AEM Site node structure* section in the Install and configure Adobe Experience Manager Guides guide.
+For more details, view *Configure flattening of AEM Site node structure* section in the Install and configure Adobe Experience Manager Guides guide.
 
 **Parent topic:**[Understanding the output presets](generate-output-understand-presets.md)

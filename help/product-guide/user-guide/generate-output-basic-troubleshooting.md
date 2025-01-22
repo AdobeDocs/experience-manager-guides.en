@@ -7,7 +7,7 @@ role: User
 ---
 # Basic troubleshooting {#id1821I0Y0G0A}
 
-While working with AEM Guides, you could encounter errors while publishing or opening your document. Such errors could be in the DITA map, topic, or in AEM Guides process itself. This section provides information about how to access and parse information in the output generation log file. Also, if your DITA topic is too large, then you might see the JSP compilation error. This section also provides information about how to resolve the JSP compilation error.
+While working with Adobe Experience Manager Guides, you could encounter errors while publishing or opening your document. Such errors could be in the DITA map, topic, or in xperience Manager Guides Guides process itself. This section provides information about how to access and parse information in the output generation log file. Also, if your DITA topic is too large, then you might see the JSP compilation error. This section also provides information about how to resolve the JSP compilation error.
 
 ## View and check the log file {#id1822G0P0CHS}
 
@@ -21,7 +21,7 @@ Perform the following steps to view and check the output generation log file:
 
     In the above screenshot, the first and third icons show failed output generation. The second icon shows a successful output generation but with messages. The last one is a successful output generation without any message.
 
-1.  Click on the link in the **Generated At** column after the job is complete.
+1.  Select the link in the **Generated At** column after the job is complete.
 
     The log file opens in a new tab.
 
@@ -42,13 +42,13 @@ Perform the following steps to view and check the output generation log file:
 
 Perform the following steps to copy and check the output generation log file in a text editor:
 
-1.  Once you have initiated the output generation process, click **Outputs** in the DITA map console.
+1.  Once you have initiated the output generation process, select **Outputs** in the DITA map console.
 
-1.  Click on the link in the **Generated At** column after the job is complete.
+1.  Select the link in the **Generated At** column after the job is complete.
 
     The log file opens in a new tab.
 
-1.  Click **Copy Log** button. The log file is copied to the clipboard.
+1.  Select **Copy Log** button. The log file is copied to the clipboard.
 1.  Open a text editor and paste the log file in the editor.
 
 1.  Scroll through the log file and check for messages.
@@ -78,7 +78,7 @@ Perform the following steps to resolve this issue:
 
     The Adobe Experience Manager Web Console Configuration page appears.
 
-1.  Search for and click on the *Apache Sling Main Servlet* component.
+1.  Search for and select the *Apache Sling Main Servlet* component.
 
     The configurable options for the Apache Sling Main Servlet are displayed.
 

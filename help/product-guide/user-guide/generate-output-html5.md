@@ -11,13 +11,30 @@ The HTML5 output is generated in a flat folder hierarchy. This implies that the 
 
 You can create the HTML preset in two ways:
 
-**From the Web Editor:** In the Repository panel, open the DITA map file in Map View, then in the Output tab, select the + icon to create an output preset, and then select HTML5 from the type drop-down in the Add preset dialog.
+- [From the Map console](#from-the-map-console)
+- [From the Map dashboard](#from-the-map-dashboard) 
 
->[!NOTE]
->
-> You can choose the method to generate HTML5 using the DITA-OT or FMPS \(if your system administrator has configured it\).
+## From the Map console
 
-In the Web editor the configurations have been organized under General and Advanced tabs:
+Perform the following steps to create the HTML5 preset from the map console:
+
+1. [Open a DITA map file in the Map console](./open-files-map-console.md). 
+
+    You can also access the map file from the **Recent files** widget in the [Overview section](./intro-home-page.md#overview). The selected map file would open in Map console. 
+1. In the **Output presets** tab, select the + icon to create an output preset. 
+1. Select **HTML5** from the Type dropdown in the **New output preset** dialog box. 
+1. In the **Generate PDF Using** field, select a method to generate HTML5. The available options are; DITA-OT or FMPS \(if your system administrator has configured it\).
+1. Select the **Add to current folder profile** option to create an output preset for the current folder profile. ![folder profile icon](images/global-preset-icon.svg) icon indicates a folder profile level preset.  
+
+   Learn more about [Manage Global and Folder Profile output presets](./web-editor-manage-output-presets.md).
+
+ 1. Select **Add**.   
+
+    The preset for HTML5 is created.
+
+### HTML5 configuration in Map console
+
+For the DITA-OT output, the preset configuration have been organized under General and Advanced tabs:
 
 **General**
 
@@ -38,13 +55,18 @@ The Advanced tab contains the following configurations:
 -   Retain temporary files
 -   File Properties
 
-For details, refer to [HTML5 configuration](#id231KJA00REJ).
+For details, refer to [HTML5 configuration](#html5-configuration).
 
+## From the map dashboard
+
+Perform the following steps to create the HTML5 preset from the map dashboard:
+
+1. Open a DITA map file in the Assets UI.
+1. Select the **Output Presets** tab, and then select the **HTML5** option. 
+1. In the Map dashboard, select **Edit** on the top to update available configurations, and then select **Save**.
 **From the map dashboard**
 
-To open output presets for PDF, click on a DITA map file from the Assets UI, then click on Output Presets, and then click on the HTML5 option. In the Map dashboard, click **Edit** on the top to update the various configurations, and then click **Save**.
-
-**HTML5 configuration**
+## HTML5 configuration
 
 The following options are available for the HTML5 output:
 

@@ -1,24 +1,23 @@
 ---
-title: Create and manage baselines from the Web Editor
-description: Create and manage baselines from the web editor in AEM Guides. Learn how to create baselines on the basis of labels and apply filters to the baselines.
+title: Create and manage baselines from the Map console
+description: Create and manage baselines from the map console in Adobe Experience Manager Guides. Learn how to create baselines on the basis of labels and apply filters to the baselines.
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 ---
-# Create and manage baselines from the Editor {#id223MB0ZF043}
+# Create and manage baselines from Map console {#id223MB0ZF043}
 
 >[!TIP]
 >
-> It is recommended to use this Baseline feature from the Editor if you have upgraded to Adobe Experience Manager Guides as a Cloud Service March release or later.
+> It is recommended to use this Baseline feature from the Map console.
 
-Experience Manager Guides provides the Baseline feature integrated inside the Editor that allows the users to create baselines and use them to publish or translate topics of different versions. They can also publish multiple output presets of the same DITA map in parallel.
+Experience Manager Guides provides the Baseline feature integrated inside the Map console that allows the users to create baselines and use them to publish or translate topics of different versions. They can also publish multiple output presets of the same DITA map in parallel.
 
 ## Create a Baseline 
 
-You can create a baseline from the Editor by performing the following steps:
+You can create a baseline from the Map console by performing the following steps:
 
-1. In the Repository panel, open the DITA map file in Map View.
-1. Select the **Open in map console** icon. The **Output presets** panel is displayed. 
+1. [Open the DITA map file in Map console](./open-files-map-console.md).
 1. Navigate to the **Baseline** tab, and select the + icon at the top-right to start creating a baseline.
 1. In the **New baseline** dialog box, provide the following details:
 
@@ -28,7 +27,7 @@ You can create a baseline from the Editor by performing the following steps:
     * In **Configuration**, choose [Manual update](#configuring-baseline-for-manual-update) or [Automatic update](#configuring-baseline-for-automatic-update).
     * Select **Apply**.
 
-The baseline is created. The baseline creation happens asynchronously, so you can continue working on other files in the Editor. Once the baseline is created, a pop-up message is displayed confirming that the baseline has been created, and you also receive an Inbox notification for the same.
+The baseline is created. The baseline creation happens asynchronously, so you can continue working on other files. Once the baseline is created, a pop-up message is displayed confirming that the baseline has been created, and you also receive an Inbox notification for the same.
 
 ### Configuring Baseline for Manual update
 
@@ -75,7 +74,7 @@ Baselines created using the automatic update configuration are updated dynamical
      * **Use selected label**: You can create a baseline with the selected label defined for a version of topics.
      * **Use the latest version or the working copy**: Use the latest version of topics that do not have the specified label applied on them, or if no version has been created, then use the working copy of the topics to create the baseline.
 
-## Manage baselines 
+## Manage Baselines 
 
 You can manage your existing baselines using the various features on the Baseline dashboard.
 
@@ -118,7 +117,7 @@ You can duplicate a baseline and modify it according to your requirements.
 
     >[!NOTE]
     >
-    > The process to add or remove labels happens asynchronously, so you can continue working on other files in the Editor. Once the label is added or removed, a pop-up message is displayed confirming that the label has been added or removed, and you also receive an Inbox notification for the same.
+    > The process to add or remove labels happens asynchronously, so you can continue working on other files. Once the label is added or removed, a pop-up message is displayed confirming that the label has been added or removed, and you also receive an Inbox notification for the same.
 
 * **Edit properties** of an existing static baseline that you have set while creating the baseline.
 * Export the snapshot of a baseline in a Microsoft Excel file with the **Export Baseline** option.
@@ -148,5 +147,5 @@ Using the Filters icon in the **Baseline Filters** panel you can apply filters o
 
 Once you have edited the baseline, select **Save**  to save the changes to the baseline. You can select **Reset** if you don't want to save the change and reset the baseline. When you select **Reset**, a warning is displayed that your unsaved changes would be lost.
 
-**Parent topic:**[Work with the Web Editor](web-editor.md)
+**Parent topic:**[Output generation](generate-output.md)
  
