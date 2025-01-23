@@ -3,94 +3,80 @@ title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2024.10.
 description: Learn about the bug fixes in the 2024.10.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
 ---
-# Fixed issues in the 2024.10.0 release 
+# Fixed issues in the 2025.02.0 release 
 
-This article covers the bugs fixed in various areas of the 2024.10.0 release of Adobe Experience Manager Guides as a Cloud Service.
+This article covers the bugs fixed in various areas of the 2025.02.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For more information about the new features and enhancements, view [What's new in the 2024.10.0 release](whats-new-2024-10-0.md).
+For more information about the new features and enhancements, view [What's new in the 2025.02.0 release](whats-new-2025-02-0.md).
 
-Learn about [upgrade instructions for the 2024.10.0 release](upgrade-instructions-2024-10-0.md).
+Learn about [upgrade instructions for the 2025.02.0 release](upgrade-instructions-2025-02-0.md).
 
 
 ## Authoring
 
-- The **Find** option isn't working in the **Source** view. (18610)
-- The `<title>` element is automatically added when the `<fig>` element is inserted as a snippet. (18562)
-- Topic regeneration fails due to the OOTB Regenerate Topic or incremental publish API failure. (18452)
-- Experience Manager Guides instance becomes unstable and the error logs increase in size upto 30-40 GB after accessing the Assets UI. (18414)
-- **Check out** and **Check in** icons appear together when `autocheckout` is configured in xmleditor. (18088)
-- Copy-paste of images from the Author view is not working in 2024.06.0 release of Adobe Experience Manager Guides as a Cloud Service.(18062)
-- `<conref>` for a topic referenced within a DITA map isn't getting reflected in the preview within the editor. (17794)
-- Large DITA maps load slowly and take time in switching to the **Layout** view. (17590)
-- The DITA version incorrectly displays the username in the Assets UI. (17580)
-- Errors for duplicate image IDs in the topics restrict the user from saving or authoring a topic. (17528)
-- Issues occur while uploading a large number of files with dense datasets to Experience Manager Guides.(17008)
-- Intermittent failures occur with the PDF rendering functionality in Experience Manager Guides as a Cloud Service. (16966)
-- While creating a DITA map based on a template, the OOTB DXML workflow causes process interruptions and leads to 503 unserviceable errors. (16529)
-- **Special characters** written with escape characters are removed from the topic after being uploaded to Experience Manager Guides. (16495)
-- File checked out by "" error message displays incorrectly when editing files are moved from another tab, when tokens are expired, or when the user is logged out. (15223)
-- Large files don't load in the Web Editor and cause the browser to freeze. (13227)
-- `<Topicref>` added using `<keyref>` doesn't display in Native PDF. (11974)
-- The component path `/libs/fmdita/components/versions` is hardcoded and the users can't overlay it. (8779)
-- Opening a DITA topic or map in a new tab for editing freezes the selection navigation in the Assets UI. (4992)
-- Downloading a DITA map with large video files triggers out-of-memory error in the logs and fail on the UI. (18884)
-- When inserting a MathML equation containing the "<" symbol, an **Invalid character** error is generated. (18742)
-- Incorrect UUID generation during the content ingestion process leads to broken submap references in the ingested map. (18308)
-- In some cases, delays in processing a new DITA topic is observed when created from the web editor. (16836)
-- Searching files in the **Repository** inside the Web Editor takes too long and sometimes fails to load the results. (16837)
+- When updating conditions from the folder profile, all the condition groups are lost and the conditions become flattened. (23526)
+- Changing the header rows value for a table in the **Content properties** panel does not apply the updated value. (23213)
+- For subsequent Guides document state transitions, a page refresh is required. (19421)
+- When adding topics in DITA map using Topic reference element dialog in the author view, the selected topics are inserted in reverse order of being selected. (8031)
+- For the UI of Create Review, the topic title and DITA icon are misaligned. (11670)
+- The setting **Sanitize page names & filenames for AEM Sites & other output formats** is applicable to all the output formats. (7651)
+- When deleting folders containing large number of data, the operation fails. (17107)
+- When you cancel/delete the translation job or delete the project, the translation dashboard shows in-progress status. (18417)
+- When you enable unified shell for a cloud instance, the topic preview does not open from map dashboard. (18826)
+- When switching between Author view and Source view, the leading spaces in `<pre>` or `<codeblock>` elements get deleted and the file gets saved with this deletion. (19987)
+- The table header rows count is non-configurable by the users. (19955)
+- When you increment the version of a file that is recently changed to **Done** state, the document state reverts to **Draft** on using **Save as new version** and the **Done** state is lost in the **Version History**. (20006)
+- If an external link contains a UUID, it goes in post processing and converts the external link to UUID link thereby breaking the link on web editor and also on the publishing sites. (22574)
+- When list items are moved outside the para tag, the list item contents are lost. (22764)
+- When adding topics in DITA map using Topic reference element dialog in the author view, the selected topics are inserted in reverse order of being selected. (22858)
+- When adding new topic references in DITA map using **Topic reference** element dialog in the layout view, the added references are shown as broken link. (22859)
+- For a simple table, the **Rename** element is not visible. (22860)
+- When you insert an `xref` that utilizes key-based referencing with link text, the link text fails to display in Experience Manager Guides. (18775)
+- Dragging and dropping an image within a topic in **Author View** causes the image reference to break, leading to data loss. (25769)
+- Multiple images cannot be selected from the repository for addition to a topic. (25104)
+- When pasting an image into a topic that was copied from any tool, the image does not paste, and no new asset is created. (24983)
+- Dragging a `topicref` over another (in **Author** or **Layout** view) prompts a confirmation for replacement instead of nesting, and selecting 'No' on the confirmation dialog still causes content to be replaced, leading to data loss. (18602)
 
 ## Publishing
 
-- Cross-reference to the key is not getting resolved in the Native PDF output. (18087)
-- The **duplicate_value** error intermittently occurs when republishing an existing article in Salesforce. (17932)
-- Styling and content formatting in customer templates change automatically when layout includes metadata fields, causing incorrect formatting in published PDFs. (17900)
-- Salesforce connection validation fails with the lightning URL. (17797)
-- The referenced PDF isn't activated from the **Bulk Publish Dashboard** during the Bulk Activation of published content. (17793)
-- Bulk Activation of published content isn't working for localized maps. (17638)
-- When selecting the **Use metadata added in the topicmeta** option, the metadata properties are not propagated in the document proprieties of the Native PDF output. (17283)
-- Condition filtering in Native PDF output isn't working as expected compared to DITA-OT. (17095)
-- TOC does not honor `<sub>` or `<sup>` tags in the Native PDF output. (17028)
-- AEM Site generation and incremental publish API isn't working as expected. (16666)
-- Native PDF generation fails with an error related to getting dependencies for Node.js. (14445)
-- `<Conref>` doesn't get resolved in the `Preview` mode of the Web Editor and the Native PDF output. (17827)
-- Content references are not correctly resolved for Native PDF output if the file containing key definitions is not in the same folder as the DITA map. (15062)
-- When a DITA map contains heading levels up to 7 or higher, the level 7 heading is incorrectly treated as a level 1 heading in the Native PDF output. (19698)
-- When a content piece (text) is wrapped inside an element, the spaces before and after the text do not show in the Preview or Output formats. (19308)
-- Post generation workflows triggered manually fails due to an NULL POINTER EXCEPTION in the workflow, leading to the content being uploaded 11 times. (18880)
-- **Bulk Publish Dashboard** shows blank for maps that are still in the translation process. (19352)
+- Publishing to Salesforce fails when content contains non-breaking spaces. (23664)
+- The `xref` converts to relative link even when the **scope** of link is set to **external**. (23059)
+- For topics having errors like broken links, the Salesforce publishing fails and progress bar is shown indefinitely. (22985)
+- For HTML5 based publishing, DITA-OT flag generate.copy.outer is getting applied automatically. (24299)
+- When generating a native output, the `ditavalref` element is not supported. (16320)
+- Native pdf publishing fails for "PDF/X-4" conformance option with an error stating that "PDF/X-4 documents require a non-empty title". (16904) 
+- `<keyref>` for cross-references in native PDF fails, when placeholder text is used. (19365)
+- In the template settings, the ICC file path does not work when browsing the internal DAM path in **File** field and the **Name** field has no validation. (14741)
+- When editing large CSS file in the native PDF CSS editor, a significant lag is observed. (16915)
+- When generating multiple DITA maps using the same folder profile preset the publishing fails. (18800)
+- For topics having a multi valued metadata/property when passed to DITA OT, the publishing fails. (19001) 
+- For a map containing topic references under `<topichead>` with a valid `<navtitle>`, the generated TOC does not show the `<navtitle>` as setup in the `<topichead>`, rather shows the filename or title of the `<topichead>` underneath it. (19735)
+- Native PDF generation fails for content with chunk attribute set to to-content. (21772)
+- For Salesforce publishing, all the uploaded images have metadata displayed in the article. (21764)
+- When choosing **Edit properties**, the baseline dialog does not show the previously saved criteria for dynamic baseline. (23964)
+- For content state which reaches end state the baseline skips indirect reference. (19148)
 
 
 ## Management
 
-- The path for the Overlay functionality is hard-coded for the Korean language file and is not correctly selected. (17089)
-- Changes/customization made to the **Save Version** dialog do not reflect when using Guides Extension Framework. (17828)
-- InDesign to DITA conversion has a hardcoded configuration path so the custom config files are not picked. (16891)
-- Complete references/assets do not download when a DITA map containing large dependencies/references is downloaded using Baseline. (19099)
-
-
-### Review
-
-- Fetching the user list while creating a review task fails if the user count exceeds 25. (17329)
-- If a task-topic contains `<cmd>` tag in one or more steps, the review panel displays the attribute `importance` as a prefix in all the steps containing the tag. (19699)
+- There is a memory leakage, when working with Collections in the Editor. (18488)
+- The CSS style in the Force delete dialog box is misaligned. (21933) 
+- When any JSON is updated in the folder profile for XML Editor Configuration, the save operation disrupts the XML Editor Configuration. (22414)
+- When uploading any non-DITA files (like PDF, image etc.), a Null Pointer exception gets logged in. (5432)
+- When duplicating any folder profile, its admin user list also gets copied from the original folder profile. (19067)
+- When moving large folders (containing a large volume of DITA content, up to 200,000 items) within the Digital Asset Management (DAM) system an error occurs. (20107)
+- When using dynamic title with `<conkeyref>`, it does not resolve properly in Guides Report Topic list. (20144)
 
 ## Translation
 
-- The references of translated assets are not updated. (18086)
-- References are not correctly filtered as Direct or Indirect while translating into multiple languages. (17891)
-- Unable to create XLIFF projects with human translation. (16964)
-- Adding an updated topic in an active translation project results in a duplicate topic and the process fails. (7688)
-- The translation projects created by selecting the **Create structure only** option don’t have UUIDs assigned. (18980)
-- When selecting a translation project with the **Translation Status** as **In progress**, an incorrect page opens. (13248)
-- The title with `<conref>` doesn’t resolve in the Baseline and Translation dashboards of the Web Editor. (16961)
+- When you send two versions of the same topic for translation and the second version is approved before the first version the first version gets lost. (22200)
 
-## Known Issues
 
-- Opening an AEM Sites preset (non-legacy) marks the topic as dirty. 
-- The selected panel isn’t getting retained on browser refresh from the Output tab.
-- Unable to drag and drop topic between two topicrefs in the **Author** view. 
-- Condition filtering applied in the preset isn’t getting applied via **Download as PDF**. 
-- Single topic generation from the map panel generates all topics selected in the AEM Sites preset (non-legacy). 
-- The topic’s reference appears broken in the user interface when inserted from the top toolbar of the DITA map. 
-- Native PDF generation fails for a DITA map if it has missing references.
-- Single topic publishing of AEM Site with conditions fails on microservices enabled environment. 
-- Once a topic’s document state is updated to **Done**, the **Start a New Release** icon is only available on the **Preview** mode of the topic.
+## API's
+
+- For Java-based APIs, attempts to work with the baseline result in an error. (19385)
+
+
+## Review
+
+- When selecting multiple topics for review in a map, the email notification that reviewer receives indicates that all topics in the map are available for review, rather than just the selected ones. (23214)
