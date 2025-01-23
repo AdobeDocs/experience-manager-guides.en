@@ -75,6 +75,9 @@ breadcrumb-title: AEM Guides Documentation
         - [January release notes](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
+      - 4.6.0 SP3 Release {#460-sp3-release}
+          - [Fixed issues](./release-info/fixed-issues-4-6-0-sp2.md)     
+          - [Upgrade instructions](./release-info/upgrade-instructions-4-6-0-sp2.md)
       - 4.6.0 SP1 Release {#460-sp1-release}
           - [Fixed issues](./release-info/fixed-issues-4-6-0-sp1.md)     
           - [Upgrade instructions](./release-info/upgrade-instructions-4-6-0-sp1.md)     
@@ -516,4 +519,5 @@ breadcrumb-title: AEM Guides Documentation
     - Use Cases {#use-cases}
       - [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
       - [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
+      - [Enabling Contextual Content Variables (CCVAR) in AEM Sites pages generated from AEM Guides](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
   - [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)

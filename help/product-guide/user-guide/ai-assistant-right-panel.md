@@ -94,12 +94,12 @@ For example, you can list the system requirements and generate a short descripti
 
 
 1. Select the content. 
-1. Select **Create shortdesc ![ai create short description icon](./images/ai-create-shortdesc-icon.svg)** to create a short description for the current topic. 
+1. Select **Create shortdesc** ![ai create short description icon](./images/ai-create-shortdesc-icon.svg) to create a short description for the current topic. 
 1. Select **Accept** to create a new short description if the short description isn't already present. If a short description exists, you need to confirm it before replacing it with the new short description.
 
 You can also perform the following actions: 
-- Select **Regenerate** to generate another short description for your topic, like the AI tools.
 
+- Select **Regenerate** to generate another short description for your topic, like the AI tools.
 - Select **Expand** to open the **Create shortdesc** editor. 
 
     ![ai assistant create short description editor](./images/ai-assistant-create-short-desc.png)
@@ -119,7 +119,7 @@ This feature intelligently converts a selected paragraph into a list.  It analyz
 1. Select **Itemize content** ![ai itemize content icon](./images/ai-itemize-icon.svg) to convert the selected content into a list. 
 The Authoring tool in the AI Assistant panel converts the content smartly into a list of items. 
 1. (Optional) Select **Expand** to open the **Itemize content** editor. 
- 1. Once your list is ready, accept the changes in the generated content. The generated content then replaces the selected content.  
+1. Once your list is ready, accept the changes in the generated content. The generated content then replaces the selected content.  
 
 
 
