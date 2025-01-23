@@ -19,7 +19,7 @@ To generate an Experience Fragment, perform the following steps:
 
 1.  Create a folder in the Experience Fragments. Use this folder to save the Experience Fragments that you create based on the Experience Fragment templates. For example, *sales-experience-fragments*. 
 1. Select the folder and then select the **Properties** icon from the top.
-1. Edit the folder’s properties (for example, *sales-experience-fragments*).
+1. Edit the folder's properties (for example, *sales-experience-fragments*).
    
     
     *  **Title**: View or edit the title of the folder.
@@ -34,7 +34,7 @@ To generate an Experience Fragment, perform the following steps:
        *Add the cloud configuration in the folder properties to connect it with the fragment templates.* 
 1. To generate an Experience Fragment, select **New Output** ![new output icon](./images/Add_icon.svg) from the **Outputs** section in the **File Properties** of a topic.
 1. Select **Experience Fragment**.  
-    ![file properties options tab](./images/file-properties-outputs.png){width="300" align="left"}
+    ![file properties options tab](./images/file-properties-outputs-new.png){width="300" align="left"}
 
     *Add a new Experience Fragment from the File Properties of a topic*.
 
@@ -60,7 +60,7 @@ To generate an Experience Fragment, perform the following steps:
     * You can also select different conditions to publish the content.  Select one of the following options:
 
                
-        * **None**: Select this option if you don’t want to apply any condition on the published output.
+        * **None**: Select this option if you don't want to apply any condition on the published output.
         * **Using DITAVAL**: Select the DITAVAL file to generate personalized content. You can select the DITAVAL file using the browse dialog or by typing the file path. 
         * **Using attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute to publish the relevant content.
         
@@ -69,18 +69,18 @@ To generate an Experience Fragment, perform the following steps:
         >Conditions are enabled only if condition attributes are defined in the topic.
         
            
-    * Select the **Overwrite existing content** checkbox if your Experience Fragment already exists and you wish to overwrite it. Experience Manager Guides displays an error if you don’t select the checkbox and your Experience Fragment already exists. 
-1. Click **Generate** to publish the Experience Fragment.
+    * Select the **Overwrite existing content** checkbox if your Experience Fragment already exists and you wish to overwrite it. Experience Manager Guides displays an error if you don't select the checkbox and your Experience Fragment already exists. 
+1. Select **Generate** to publish the Experience Fragment.
 1. You can view the Experience Fragments for a topic under the **Outputs** section in the **File Properties**. The Experience Fragments appear according to the date and time of their publishing, with the latest as the first. 
  
-    ![View the Experience Fragments for a topic](images/experience-fragment-outputs.png){width=300 align="left"}
+    ![View the Experience Fragments for a topic](images/experience-fragment-outputs-new.png){width=300 align="left"}
        
      *View the Experience Fragments present for a topic and republish them.*  
 
  
 
 
-Once you’ve published the Experience Fragments, you can also use them on any Adobe Experience Manager Site.
+Once you've published the Experience Fragments, you can also use them on any Adobe Experience Manager Site.
 
 
 ## Options menu for an Experience Fragment 
