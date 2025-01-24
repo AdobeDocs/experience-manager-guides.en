@@ -7,7 +7,7 @@ role: User
 ---
 # Pass on the metadata to the output using DITA-OT {#id21BJ00QD0XA}
 
-Metadata is additional information about the output. In AEM Guides you can pass on the existing metadata or create custom metadata tags. You can pass on metadata to AEM, PDF, HTML5, EPUB, and Custom format outputs using DITA-OT publishing.
+Metadata is additional information about the output. In Adobe Experience Manager Guides, you can pass on the existing metadata or create custom metadata tags. You can pass on metadata to AEM, PDF, HTML5, EPUB, and Custom format outputs using DITA-OT publishing.
 
 Perform the following steps to pass on the metadata to the output using DITA-OT publishing:
 
@@ -33,7 +33,7 @@ Perform the following steps to pass on the metadata to the output using DITA-OT 
 
     ![](images/selected-metadata-properties.png){width="300" align="left"}
 
-1.  Click **Done** on the top left to save the changes.
+1.  Select **Done** on the top left to save the changes.
 1.  Generate the output.
 
 The selected metadata properties will be passed to the output generated using DITA-OT.

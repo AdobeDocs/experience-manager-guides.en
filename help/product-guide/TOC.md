@@ -187,9 +187,9 @@ breadcrumb-title: AEM Guides Documentation
         - [EPUB](./user-guide/generate-output-epub.md)
         - [Custom](./user-guide/generate-output-custom.md)
         - [JSON](./user-guide/generate-output-json.md)
+      - [Create, edit, duplicate, or remove an output preset](./user-guide/generate-output-create-edit-preset.md)
       - [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
       - [Use variables for setting the Destination Path, Site Name, or File Name options](./user-guide/generate-output-use-variables.md)
-      - [Create, edit, duplicate, or remove an output preset](./user-guide/generate-output-create-edit-preset.md)
       - [Pass on the metadata to the output using DITA-OT](./user-guide/pass-metadata-dita-ot.md)
       - [Conditional attribute profiling](./user-guide/generate-output-conditional-attribute-profiling.md)
       - [Generate output for a DITA map from the map console](./user-guide/generate-output-for-a-dita-map.md)
@@ -202,11 +202,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Publish Content Fragments](./user-guide/publish-content-fragment.md)
       - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
       - [Publish AEM Sites pages](./user-guide/publish-aem-sites.md)
-      - Article-based publishing {#article-based-pub}
-        - [Article-based publishing from the Web Editor](./user-guide/web-editor-article-publishing.md)
-        - [Create output presets from the Web Editor](./user-guide/web-editor-article-publishing-presets.md)
-        - [Generate output from the Repository panel or the Map View panel](./user-guide/web-editor-article-publishing-output.md)
-        - [Use Quick Generate panel to generate and view output](./user-guide/web-editor-quick-generate-panel.md)
+      - [Publish Knowledge Base Articles](./user-guide/web-editor-article-publishing.md)
       - Bulk activation of content {#bulk-activation}
         - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
         - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
