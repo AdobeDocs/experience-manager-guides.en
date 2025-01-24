@@ -44,7 +44,7 @@ Learn about [upgrade instructions for the 2025.02.0 release](upgrade-instruction
 - For topics having errors like broken links, the Salesforce publishing fails and progress bar is shown indefinitely. (22985)
 - For Salesforce publishing, all the uploaded images have metadata displayed in the article. (21764)
 - Native pdf publishing fails for **PDF/X-4** conformance option with an error stating that **PDF/X-4 documents require a non-empty title**. (16904)
-- `<keyref>` for cross-references in Native PDF fails, when placeholder text is used. (19365)
+- When placeholder text is used, `<keyref>` for cross-references in Native PDF fails to resolve. (19365)
 - Native PDF generation fails for content with **chunk attribute** set to **to-content**. (21772)
 - When generating a Native PDF output, the `ditavalref` element is not supported. (16320)
 - When editing large CSS file in the Native PDF CSS editor, a significant lag is observed. (16915)
