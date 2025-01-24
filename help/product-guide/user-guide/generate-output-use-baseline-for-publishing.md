@@ -5,13 +5,9 @@ exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
 ---
-# Work with Baseline from the Assets UI {#id1825FI0J0PF}
+# Work with Baseline from the Map dashboard {#id1825FI0J0PF}
 
-The Baseline feature allows you to create a version of your topics and assets that can then be used for publishing or translation. For example, if your DITA map has `topicA` and `imageA`, you can create a Baseline to use the 3rd version of `topicA`, but the 4th version of `ImageA`. Once you have a Baseline in place, you can publish or translate topics of different versions with a single click.
-
-Selecting a Baseline is optional for output presets and a DITA map can have more than one Baseline. However, each output preset within a DITA map can be associated with only a single Baseline. If no Baseline is specified at the time of publishing, then the output is published using the latest version of the content.
-
-Similarly, selecting a Baseline to translate content is optional. However, if you choose to translate content using a Baseline, the contents of the Baseline are also saved along with the translated copies. You can then use the translated Baseline to perform further operations like share it with external publishers or archive it. For more information about exporting a translated Baseline, view [Export translated Baseline](#id196SE600GHS).
+Experience Manager Guides provides the Baseline feature that allows the users to create baselines and use them to publish or translate topics of different versions. They can also publish multiple output presets of the same DITA map in parallel.
 
 >[!TIP]
 >
@@ -77,17 +73,17 @@ Perform the following steps to edit an existing baseline:
 
 1.  Select the Baseline and select **Edit**.
 1.  Make the required changes in the baseline. You can change the name and version of the topic or referenced content.
-1.  If you want to use a different version for one or more topics, then you can do so by manually selecting those topics. Click **Browse Topic**, select the topic for which you want to use a different version. From the Select a Version drop-down list for the selected topic, select a version of the topic that you want to use in the baseline and select **OK**.
+1.  If you want to use a different version for one or more topics, then you can do so by manually selecting those topics. Select **Browse Topic**, select the topic for which you want to use a different version. From the Select a Version drop-down list for the selected topic, select a version of the topic that you want to use in the baseline and select **OK**.
 
     ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
 
     The information about the topic and it's selected version is stored in the backend. You can repeat this step to change the selected version for multiple topics.
 
-1. To load all topics and media files referred from the DITA  map, click the **Browse All Topics** link. The UUID of topics and media files is also shown below the topic title or the \(media\) file name.
+1. To load all topics and media files referred from the DITA  map, select the **Browse All Topics** link. The UUID of topics and media files is also shown below the topic title or the \(media\) file name.
 
     >[!NOTE]
     >
-    > If you have a very large set of files in your DITA map, with nested maps and topics, then clicking Browse All Topics could take some time to load all files.
+    > If you have a very large set of files in your DITA map, with nested maps and topics, then selecting Browse All Topics could take some time to load all files.
 
     The contents of your map are presented in the three sections: the map file, Content \(topic references\), and Referred Content \(nested topics, maps, and other assets\). Once you have all the referenced content available, you can individually select the version of the topic that you want to use in your baseline.
 
@@ -102,7 +98,7 @@ Perform the following steps to edit an existing baseline:
     >[!NOTE]
     >
     > If you want to specify a different version for any particular resource, you can do so by choosing the desired version from the **Version** drop-down list.
-1.  Click **Save**.
+1.  Select **Save**.
 
 **Duplicate Baselines**
 

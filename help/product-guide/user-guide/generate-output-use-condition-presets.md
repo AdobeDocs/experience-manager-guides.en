@@ -11,23 +11,22 @@ You can define attributes in your DITA topics and the use the condition preset t
 
 You can create condition presets in two ways:
 
-* From the Map console: Allows you to create and manage the condition presets for a DITA map from the Map console. 
-* From the Map dashboard: Allows you to create and manage the condition presets for a DITA map from the Map dashboard.
+ - [From the Map console](#condition-presets-from-the-map-console)
+ - [From the Map dashboard](#condition-presets-from-the-map-dashboard)
 
 
 ## Condition presets from the map console
 
-Experience Manager Guides allows you to manage condition presets from the Web Editor and use them within the **Output presets** to generate the final output.
+Experience Manager Guides allows you to manage condition presets from the Map console and use them within the **Output presets** to generate the final output.
 
 You can create and view the condition presets, view the attributes, and manage the actions for the current map from the **Condition presets** view in the Map console.
 
 <img src="images//manage-condtions-presets.png" alt= "Condtion presets in map consoler" width="800" border="1px">
 
-
-
 ### Create a condition preset
 
-The **Condition Presets** view provides detailed information about the condition presets, such as their attributes, values,  and the actions.
+The **Condition Presets** view provides detailed information about the condition presets, such as their attributes, values, and the actions.
+
 You can create a condition preset of the topics by performing the following steps:
 
 1. [Open the DITA map file in Map console](./open-files-map-console.md). 
@@ -42,7 +41,7 @@ You can create a condition preset of the topics by performing the following step
 1. Select **Create**.
 
     The new condition preset is added to the list.
-1. Double-click a condition preset to view the attributes and the actions.
+1. Select the condition preset to view the attributes and the actions.
 
     The **Attributes** panel shows all the attributes added to any references present in the map. The right panel shows only the conditions that you have added to the condition presets.
 1. Do any of the following to add the attributes:
@@ -96,7 +95,7 @@ Perform the following steps to duplicate a condition preset:
 
 Perform the following steps to delete condition presets:
 
-1. Hover over  a condition preset from the **Condition presets** panel.
+1. Hover over a condition preset from the **Condition presets** panel.
 1. Select **Delete** from the Options menu to open the **Delete condition preset** dialog box.
 1.  Select **Delete**.
 
@@ -109,8 +108,8 @@ Perform the following steps to delete condition presets:
 
 Perform the following steps to create a condition preset:
 
-1.  Select **Condition Presets** tab in the DITA map console.
-1.  Click **Create** button.
+1.  Select **Condition Presets** tab in the DITA map dashboard.
+1.  Select **Create**.
 1.  Enter a name for the preset in **Name Condition**.
 1.  Select one of the following default actions from **Set default action to** drop-down:
 
@@ -128,23 +127,23 @@ Perform the following steps to create a condition preset:
 1.  \(Optional\) If required, you can override the default action applied to the attributes in Step 4. Do one of the following:
     *   Select multiple attributes, choose an action from **Set the action for selected conditions to**, and click **Apply**.
     *   Select an action for an attribute from the **Action** drop-down.
-1.  Click **Save**.
+1.  Select **Save**.
 
 ### Edit a condition preset 
 
 You can make changes in an existing condition preset to change the actions applied to the attributes in the condition preset. Perform the following steps to edit a condition preset:
 
 1.  Select **Condition Presets** tab in the DITA map console.
-1.  Click **Edit** button.
+1.  Select **Edit** button.
 1.  Make required changes for all the attributes in the condition preset.
-1.  Click **Save**.
+1.  Select **Save**.
 
 ### Create a copy of a condition preset 
 
 You can create a copy of a condition preset and then modify it according to your requirement. Perform the following steps to create a copy of a condition preset:
 
 1.  Select **Condition Presets** tab in the DITA map console.
-1.  Click **Duplicate** button.
+1.  Select **Duplicate** button.
 
     >[!NOTE]
     >
@@ -153,7 +152,7 @@ You can create a copy of a condition preset and then modify it according to your
     You can change the name according to your requirement.
 
 1.  \(Optional\) Make required changes for all the attributes in the condition preset.
-1.  Click **Save**.
+1.  Select **Save**.
 
 ### Delete condition preset 
 
@@ -161,7 +160,7 @@ You can delete one or more condition presets from the **Condition Preset** tab o
 
 1.  Select **Condition Presets** tab in the DITA map console.
 1.  Select the condition preset\(s\) that you want to delete.
-1.  Click **Remove** button.
-1.  Click **Remove** to confirm the action.
+1.  Select **Remove** button.
+1.  Select **Remove** to confirm the action.
 
 **Parent topic:**[Output generation](generate-output.md)

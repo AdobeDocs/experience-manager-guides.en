@@ -227,9 +227,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Conversion Status Report](./user-guide/reports-convertion-status.md)
       - [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md) 
     - Use Baseline {#work-with-baseline}
-      - [Baselines overview](./user-guide/web-editor-baseline.md)
-      - [Work with Baseline from the Assets UI](./user-guide/generate-output-use-baseline-for-publishing.md)
-      - [Create and manage baselines from the Map console](./user-guide/web-editor-baseline.md)
+      - [Create and manage baselines from Map console](./user-guide/web-editor-baseline.md)
+      - [Work with Baseline from the Map dashboard](./user-guide/generate-output-use-baseline-for-publishing.md)
     - Use condition presets {#use-condition-presets}
       - [Use condition presets](./user-guide/generate-output-use-condition-presets.md)
     - Content translation {#translate-content}
