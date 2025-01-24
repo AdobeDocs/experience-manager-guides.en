@@ -174,6 +174,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Smart Tagging](./user-guide/web-editor-smart-tagging.md)
     - [Bulk tagging of DITA content](./user-guide/map-editor-bulk-tagging.md)
   - Map management and publishing {#map-management-and-publishing}  
+    - [Map console for map management and publishing](./user-guide/map-management-and-publishing.md)
     - Output Generation {#output-gen}
       - [Output generation basics](./user-guide/generate-output.md)
       - [Introduction to output presets](./user-guide/generate-output-understand-presets.md)
