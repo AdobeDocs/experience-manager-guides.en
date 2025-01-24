@@ -11,7 +11,7 @@ In any organization, a product can have multiple types of documentation. As a pu
 
 Adobe Experience Manager Guides provides you the ability to organize your content for publishing by using a dashboard called Map Collection. A Map Collection allows you to assemble all different types of documents in a single unit. You can choose what type of output you want to generate for each document in your Map Collection. In addition, you can also generate output and see the output generation progress from the publishing dashboard.
 
-Map Collection gives you an option to view if there is any change in any map from the last published output. You can view the details in the Maps and Presets tab of your Map Collection and then republish the output if required. For more information, see Adding a map to a map collection.
+Map Collection gives you an option to view if there is any change in any map from the last published output. You can view the details in the Maps and Presets tab of your Map Collection and then republish the output if required. 
 
 ## Create a map collection and add DITA maps 
 

@@ -9,8 +9,6 @@ role: User
 
 Experience Manager Guides supports creating output in the most popular formats like AEM Sites, PDF, Knowledge Base, HTML5, EPUB, JSON, and custom output through DITA-OT, Native PDF, and FMPS. Using these output formats, you can configure various output presets. Here, an output preset represents a customized output format in which you would like the content to be published.
 
-The following sections explain the options available for the supported output formats.
-
 You can create and manage output presets in two ways:
 
 -   **From the map console**: You can create AEM Sites, PDF, Knowledge Base, HTML5, Custom, and JSON output preset and generate the respective outputs.

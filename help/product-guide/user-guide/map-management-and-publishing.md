@@ -4,11 +4,15 @@ description: Learn how to publish and manage maps in Adobe Experience Manager Gu
 feature: Pubishing
 role: User
 ---
-# Map management and publishing 
+# Map console for map management and publishing 
 
 Adobe Experience Manager Guides offers a dedicated console, known as the **Map console**, to streamline all your map management and publishing tasks. This centralized platform enhances productivity and accuracy in your map-related activities by providing you options to generate outputs, translate content, access reports, and more – all at one place. 
 
+![file properties options tab](./images/map-console-screen.png){width="300" align="left"}
+
 ## Features available in Map console:
+
+The following features are available when you [open a DITA map file in Map console](./open-files-map-console.md):
 
 -	**Output generation**
 

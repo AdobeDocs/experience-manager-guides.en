@@ -69,8 +69,6 @@ Perform the following steps to create the custom preset from the map dashboard:
 1. Ensure that the **Output Presets** tab is selected.
 1. Select **Create** in the toolbar.
 
-    ![](images/create-new-preset-map-dashboard.png){width="300" align="left"}
-
     A new output preset creation form is displayed.
 
 1.  Enter the required configuration details for the Custom preset. 

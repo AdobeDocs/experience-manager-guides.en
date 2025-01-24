@@ -12,19 +12,12 @@ Experience Manager Sites page refers to content published on the Adobe Experienc
 
 This feature allows you to publish a topic and its elements without creating a DITA map and the output presets. You can easily update the topic, republish the Sites page, and reuse it across different web pages. Using this feature you can easily publish stand alone articles or marketing content. 
 
-
-
-
-
 To generate an Sites page, perform the following steps:
 
-
-
-       
-1. Select **New Output** ![new output icon](./images/Add_icon.svg) from the **Outputs** section in the **File Properties** of a topic.
+     
+1. Open the topic in the Editor and select File Propertie form the right panel.
+1. Select **New output** icon![new output icon](./images/Add_icon.svg) from the **Outputs** section.
 1. Select **Sites page**.  
-
-
 1. In the **Generate Sites page** dialog box, fill in the following details:
         ![Add the path and template details in Generate Sites page](images/aem-sites-page-generate.png){width="500" align="left"}
         
@@ -49,15 +42,12 @@ To generate an Sites page, perform the following steps:
         
            
 
-1. Click **Generate** to publish the Sites page.
+1. Select **Generate** to publish the Sites page.
 1. You can view the Sites page for a topic under the **Outputs** section in the **File Properties**. The Sites pages appear according to the date and time of their publishing, with the latest as the first. 
  
-    ![View the Sites page for a topic](images/aem-sites-outputs.png){width=300 align="left"}
+    ![View the Sites page for a topic](images/aem-sites-output-new.png){width=300 align="left"}
        
      *View the Sites page present for a topic and republish them.*  
-
- 
-
 
 Once you’ve published the Sites page, you can also use them on any Adobe Experience Manager Site.
 

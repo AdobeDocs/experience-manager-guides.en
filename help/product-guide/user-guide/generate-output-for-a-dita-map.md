@@ -44,7 +44,7 @@ You can view the current status of the output generation request in the **Output
 >
 > If an output generation process for a preset is either in the queue or in progress, you cannot initiate another output generation task for the same preset.
 
-You can also generate the AEM Sites output for one or more topics, or the entire DITA map from the Map console. For more details, view [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
+You can also generate the AEM Sites output for one or more topics, or the entire DITA map from the Map console. For more details, view [Article-based publishing from the Map console](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Incremental output generation {#generating_standalone_topic}
 
