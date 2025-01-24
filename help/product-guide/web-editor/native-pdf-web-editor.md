@@ -208,24 +208,23 @@ Use the following options to specify advanced settings to merge PDFs, use compre
 
 ## Generate a PDF output {#generate-pdf-output} 
 
-Once you have configured the output preset you can generate output from the Presets panel, using the **Generate Preset** feature.  
+Once you have configured the output preset you can generate output from the Presets panel, using the **Generate** feature.  
 
-1. Under the **Author** tab, select the **Repository** View.  
-This opens the Repository panel.  
+<img src="assets/generate-preset-map-console.png" alt="metadata tab" width=600>
 
-1. In the Repository panel, open the DITA map file in **Map View**.  
+Alternatively, open the preset and select **Generate output**.
 
-1. In the **Output** tab, click **Presets** to view the Preset panel. 
-To create or configure an output preset, see [Create a PDF output preset](#create-output-preset). 
-1. To save your settings, click the **Save All** ![save all](assets/SaveFloppy_icon.svg) icon in the upper-left corner of the standard toolbar in the Output view.    
-1. Click the **Generate Preset** ![generate preset](assets/generate-output.svg) icon on the top bar.
-You can view a progress bar next to the selected output preset in the Output Presets panel. 
-1. Once the output generation is complete, click  **View Output** ![view output](assets/view-output.svg) icon on the top bar to view the output.  
+<img src="assets/generate-output-pdf.png" alt="metadata tab" width=600>
+
+
+Once the output generation is complete, select **View output** ![view output](assets/view-output.svg) icon to view the output.  
+
 A **Success** dialog box is visible at the lower-right corner of the screen.
+
 If an output is not successful, the below error message is displayed.
 <img src="assets/error-log.png" alt ="error log" width =250>
 
-To view the error log, click **Dismiss**, hover over the selected preset tab, and click ![options](assets/options.svg) **Options** > **View Log**.
+To view the error log, select **Dismiss**, hover over the selected preset tab, and click ![options](assets/options.svg) **Options** > **View Log**.
 
 ### Download temporary files after generating the Native PDF output
 
@@ -237,16 +236,15 @@ If you select the **Download temporary files** option in the Advanced settings, 
 > The **Download temporary files**  ![download temporary files](assets/native-pdf-download-temporary-files-icon.svg) icon appears only if you have generated the last PDF output using the preset wherein you have selected the option in the **Advanced** tab. 
 
 
-
 ### Use language variables 
 
-AEM Guides also provides the support for language variables. Select **Language Variables** <img src="./assets/language-variables.svg" width="25">  in the left panel to define a localized version of the out-of-the-box labels like Note, Caution, and Warning or static text in the PDF output. For more details, see [Support for language variables](../native-pdf/native-pdf-language-variables.md).
+AEM Guides also provides the support for language variables. Select **Language Variables** <img src="./assets/language-variables.svg" width="25">  in the left panel to define a localized version of the out-of-the-box labels like Note, Caution, and Warning or static text in the PDF output. For more details, view [Support for language variables](../native-pdf/native-pdf-language-variables.md).
 
 
 
 ### Support for Markdown documents
 
 Experience Manager Guides also provides support for your Markdown documents.  Markdown files are easy to author and also
-provide a variety of formatting options. Learn how to [author Markdown documents from the Web Editor](../user-guide/web-editor-markdown-topic.md). 
+provide a variety of formatting options. Learn how to [author Markdown documents from the Editor](../user-guide/web-editor-markdown-topic.md). 
 
 You can add the Markdown topics to your DITA map and generate the PDF output using the Native PDF output presets.  Learn how to configure or [create a PDF output preset](#create-a-pdf-output-preset-create-output-preset). 

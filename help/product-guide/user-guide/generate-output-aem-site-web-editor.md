@@ -1,13 +1,13 @@
 ---
 title: AEM Sites
-description: Create and configure the AEM Sites preset in the Web Editor and generate AEM Sites output for DITA map, selected topics, and linked topics.
+description: Create and configure the AEM Sites preset in the Map cosole and generate AEM Sites output for DITA map, selected topics, and linked topics.
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
 ---
 # AEM Sites preset in the Map console
 
-You can create AEM Sites preset from the Editor and configure them to generate the AEM Sites output. AEM Sites output is based on the composite components mapping along with the `guides-components`, facilitating efficient content creation and management.
+You can create AEM Sites preset from the Map console and configure them to generate the AEM Sites output. AEM Sites output is based on the composite components mapping along with the `guides-components`, facilitating efficient content creation and management.
 
 Experience Manager Guides provides predefined templates for creating AEM Sites. These presets help you ensure consistency in content layout and structure. 
 - [Create home pages](../cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) based on these predefined templates. 
@@ -18,7 +18,7 @@ Experience Manager Guides provides predefined templates for creating AEM Sites. 
 
 ## Create AEM Sites Preset
 
-Perform the following steps to create the AEM Sites preset from the Editor:
+Perform the following steps to create the AEM Sites preset from the Map conssole:
 
 1. [Open the DITA map file in map console](./open-files-map-console.md). 
 1. In the **Output presets** panel, select the + icon to create an output preset.
@@ -146,7 +146,7 @@ If you want to use AEM Sites presets from the Map console, either create a new p
 
     You are shown a list of topics and their references. You can specify the publishing context for a list of cross map references to topics available in other DITA maps with  `scope=”peer”`. 
 
-    To use the cross-map reference panel from Web Editor, `<xrefs>` must have unique IDs. Unique IDs for `<xrefs>` will be automatically generated on editing/saving the older content if the ID isn't there.
+    To use the cross-map reference panel from Editor, `<xrefs>` must have unique IDs. Unique IDs for `<xrefs>` will be automatically generated on editing/saving the older content if the ID isn't there.
 
     >[!NOTE]
     >
