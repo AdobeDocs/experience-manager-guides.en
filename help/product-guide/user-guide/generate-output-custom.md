@@ -65,11 +65,16 @@ For details, refer to [Custom preset configuration](#custom-preset-configuration
 
 Perform the following steps to create the custom preset from the map dashboard:
 
-1. Open a DITA map file in the Assets UI.
-1. Select the **Output Presets** tab, and then select the **Custom preset** option. 
-1. Select **Edit** on the top to update available configurations, and then select **Save**.
+1. In the Assets UI, navigate to and select the DITA map to open it in map dashboard.
+1. Ensure that the **Output Presets** tab is selected.
+1. Select **Create** in the toolbar.
 
-    ![](images/custom-preset-config-map-dashboard.png){width="300" align="left"}
+    ![](images/create-new-preset-map-dashboard.png){width="300" align="left"}
+
+    A new output preset creation form is displayed.
+
+1.  Enter the required configuration details for the Custom preset. 
+1.  Select **Done** to save the preset settings.
 
 
 ## Custom preset configuration

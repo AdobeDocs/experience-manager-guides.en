@@ -67,12 +67,16 @@ For details, refer to [HTML5 configuration](#html5-configuration).
 
 Perform the following steps to create the HTML5 preset from the map dashboard:
 
-1. Open a DITA map file in the Assets UI.
-1. Select the **Output Presets** tab, and then select the **HTML5** option. 
-1. In the Map dashboard, select **Edit** on the top to update available configurations, and then select **Save**.
+1. In the Assets UI, navigate to and select the DITA map to open it in map dashboard.
+1. Ensure that the **Output Presets** tab is selected.
+1. Select **Create** in the toolbar.
 
-    ![](images/html5-preset-config-map-dashboard.png){width="800" align="left"}
+    ![](images/create-new-preset-map-dashboard.png){width="300" align="left"}
 
+    A new output preset creation form is displayed.
+
+1.  Enter the required configuration details for the HTML5 preset. 
+1.  Select **Done** to save the preset settings.
 
 ## HTML5 configuration
 
