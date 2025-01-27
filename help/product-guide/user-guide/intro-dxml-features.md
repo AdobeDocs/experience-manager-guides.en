@@ -53,6 +53,14 @@ Make publishing error-free by easily checking and correcting content before it g
 **Extensive tag management support for personalized output**   
 Drive deeper end-user engagement and content adoption through highly relevant content experiences. With AEM Guides, you can leverage the extensive tag management support in Experience Manager to apply relevant tags on DITA source content. Use these tags to provide highly personalized content experiences to end users.
 
+**AI-powered conversational search and authoring**
+
+Enhance productivity with AI-powered conversational search and content reuse features in Experience Manager Guides. Use the GenAI-based conversational search to quickly find relevant content from the Experience Manager Guides documentation. Use smart suggestions to reuse the content from the existing content repository or enhance productivity with one-click content enhancement features such as smartly convert a paragraph to a list, create a short description, improve and translate the selected content.
+
+**Plan, assign, and execute tasks from one place**.
+
+Unlock the robust project management capabilities in Experience Manager Guides that allows you to plan, allocate, and track tasks efficiently without relying on multiple, non-integrated tools. Seamlessly manage all Experience Manager Guides workflows, including authoring, reviewing, publishing, and translating content from one interface. Experience streamlined project management and unlock new levels of efficiency and productivity.
+
 **Native integration with Adobe FrameMaker**
 Enjoy a fast and seamless experience while working with Experience Manager and FrameMaker (2015 release) Update 4 or later.
 
