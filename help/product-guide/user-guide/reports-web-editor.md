@@ -163,18 +163,21 @@ This feature enables you to add custom metadata columns as per requirement, whic
 
     
 
-1.  Select **Save** and **Refresh** the Metadata view. A new custom column **Language** is added in the list of Columns in the Filter panel. 
+1.  Select **Save** and **Refresh** the Metadata view. A new custom column **Language** is added in the list of Columns in the Filter panel.
+
+    >[!NOTE]
+    >
+    > Adding a new metadata column also gets reflected in the **Version History** panel in the Editor.
+
+
 
     ![](images/updated-custom-field.png){width="600" align="left"}
 
   
   Similarly, you can follow the aforementioned steps to add any new custom metadata fields based on your requirement that are needed in the metadata reports.
-
-    >[!NOTE]
-    >
-    > Adding a new metadata column also gets reflected in the **Version History** panel in the Editor. 
-
-  
+    
+      
+ 
 ## Multimedia report 
 
 The **Multimedia** report provides detailed information about the multimedia used in your map, such as the title, type \(audio, video, and images\), files in which multimedia is used, and the reference type of the files, in which they have been used. You can also view the UUID and the location of the multimedia within the repository. You can view a report of the multimedia by performing the following steps:
