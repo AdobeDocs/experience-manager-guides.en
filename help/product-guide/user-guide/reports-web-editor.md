@@ -1,6 +1,6 @@
 ---
-title: DITA map report from the Web Editor
-description: Generate DITA map reports from web editor in AEM Guides. Learn how to generate a CSV for a topic list, multimedia, metadata, and broken links reports.
+title: DITA map report from the Guides Map Console
+description: Generate DITA map reports from map console in AEM Guides. Learn how to generate excel sheet for a topic list, multimedia, metadata, and broken links reports.
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
@@ -9,13 +9,7 @@ role: User
 
 Adobe Experience Manager Guides comes with a feature in the Map Console that enables you to check the overall integrity of your references and generate reports for them.
 
-You can view the topic list, manage the metadata of all references, view the multimedia list and fix all the broken links for the current map from the **Reports** tab in the Editor.
-
-## Generate an Excel file from the Topic List view 
-
-The **Topic List** view provides detailed information about your topics, such as the reference type, document state, and author.
-
-You can view a report of the topics by performing the following steps:
+You can view the topic list, manage the metadata of all references, view the multimedia list and fix all the broken links for the current map from the **Reports** tab in the Map Console which you can access as follows: 
 
 1.  In the **Repository** panel, open the DITA map file in Map view.
 
@@ -28,6 +22,18 @@ You can view a report of the topics by performing the following steps:
     ![](images/map-console.png){width="600" align="left"}
 
 1.  Select **Reports** from the left panel.
+
+You can locate all the four reports from the **Reports** panel. Based on your requirement you can select any of the reports as shown here.
+
+![](images/reports-demo.png){width="800" align="left"}
+
+
+## Topic List report 
+
+The **Topic List** view provides detailed information about your topics, such as the reference type, document state, and author.
+
+You can view the topic list report of a map by performing the following steps:
+
 1.  Select **Topic List** from the Reports panel. The list of topics present in the DITA map is displayed.
 
     ![](images/web-editor-topiclist-panel-new.png){width="800" align="left"}
@@ -63,12 +69,12 @@ Experience Manager Guides allows you to tag DITA content from the Editor. You ca
 
 To view the metadata of your references in the current DITA map, perform the following steps:
 
-1.  In the Repository panel, open the DITA map file in map View.
+<!--1.  In the Repository panel, open the DITA map file in map View.
 1.  Select the **Open in Map console** icon.
 
     ![](images/map-console.png){width="600" align="left"}
 
-1.  Select **Reports** from the left panel.
+1.  Select **Reports** from the left panel.-->
 1.  Select **Metadata** from the Reports panel. The metadata list of all the references in the DITA map is displayed. This includes the media references also.  
 
 
@@ -134,7 +140,7 @@ To view the metadata of your references in the current DITA map, perform the fol
 1.  Select **Update** to update the metadata. A confirmation message is displayed for the metadata whether it is updated successfully or has any failed updates. You also select **Download Report** to download the metadata CSV from the confirmation dialog. This CSV contains the details of the update status for the selected references.
 
 
-**Add custom metadata fields**
+**Add custom metadata columns**
 
 This feature enables you to add custom metadata columns as per requirement, which are then displayed in the metadata reports. It also provides enhanced flexibility in metadata reporting. To add new custom metadata field perform the following steps:
 
@@ -159,26 +165,30 @@ This feature enables you to add custom metadata columns as per requirement, whic
 
 1.  Select **Save** and **Refresh** the Metadata view. A new custom column **Language** is added in the list of Columns in the Filter panel. 
 
-    ![](images/added-field.png){width="600" align="left"}
+    ![](images/updated-custom-field.png){width="600" align="left"}
 
   
   Similarly, you can follow the aforementioned steps to add any new custom metadata fields based on your requirement that are needed in the metadata reports.
 
+    >[!NOTE]
+    >
+    > Adding a new metadata column also gets reflected in the **Version History** panel in the Editor. 
+
   
-## Generate a multimedia report 
+## Multimedia report 
 
 The **Multimedia** report provides detailed information about the multimedia used in your map, such as the title, type \(audio, video, and images\), files in which multimedia is used, and the reference type of the files, in which they have been used. You can also view the UUID and the location of the multimedia within the repository. You can view a report of the multimedia by performing the following steps:
 
-1.  In the **Repository** panel, open the DITA map file in Map view.
+<!--1.  In the **Repository** panel, open the DITA map file in Map view.
 1.  Select the **Open in map console** icon.
 
     ![](images/map-console.png){width="600" align="left"}
 
-1.  Select **Reports** from the left panel.
+1.  Select **Reports** from the left panel.-->
 1.  Select **Multimedia** from the Report panel. The list of multimedia present in the DITA map is displayed.
 1.  From the **Filters** panel you can order the list by multimedia or by the names of used in references.
 
-    -   When you order by **Multimedia**, the****name of the multimedia is displayed in the first column and then the names of all references in which they have been used, are displayed in another column on the same row. For example, the following screenshot shows the multimedia testSong.mp3 in the first column and two references in which it is used, are displayed in the third column on the same row.
+    -   When you order by **Multimedia**, the name of the multimedia is displayed in the first column and then the names of all references in which they have been used, are displayed in another column on the same row. For example, the following screenshot shows the multimedia testSong.mp3 in the first column and two references in which it is used, are displayed in the third column on the same row.
 
         ![](images/multimedia-report-file-order-new.png){width="650" align="left"}
 
@@ -216,12 +226,12 @@ The **Multimedia** report provides detailed information about the multimedia use
 The **Broken Links** is a useful report which provides you with the details of the broken links present in your current map. You can view the broken links, which can be for DITA topics, multimedia file references, content key references, and so on. You also have the ability to fix the them here itself.
 The report provides detailed information such as the broken link, link type, files in which reference is used, and the type of files they have been used in. 
 You can view the report for broken links by performing the following steps:
-1. In the **Repository** panel, open the DITA map file in Map view.
+<!--1. In the **Repository** panel, open the DITA map file in Map view.
 1. Select the **Open in map console** icon.
 
     ![](images/map-console.png){width="600" align="left"}
 
-1.  Select **Reports** from the left panel.
+1.  Select **Reports** from the left panel.-->
 1. Select **Broken Links** from the Reports panel. The list of broken links or references present in the DITA map is displayed.
 1. From the **Filters** panel you can order the list by links or by the names of used in references.
 
