@@ -57,7 +57,7 @@ Drive deeper end-user engagement and content adoption through highly relevant co
 
 Enhance productivity with AI-powered smart help and content reuse features in Experience Manager Guides. Use the GenAI-based smart help to quickly find relevant content from the Experience Manager Guides documentation. Use smart suggestions to reuse the content from the existing content repository or enhance productivity with one-click content enhancement features such as smartly convert a paragraph to a list, create a short description, improve and translate the selected content.
 
-**Plan, assign, and execute tasks from one place**.
+**Leverage native integration with Adobe Workfront for robust work management capabilities**.
 
 Unlock the robust project management capabilities in Experience Manager Guides that allows you to plan, allocate, and track tasks efficiently without relying on multiple, non-integrated tools. Seamlessly manage all Experience Manager Guides workflows, including authoring, reviewing, publishing, and translating content from one interface. Experience streamlined project management and unlock new levels of efficiency and productivity.
 
