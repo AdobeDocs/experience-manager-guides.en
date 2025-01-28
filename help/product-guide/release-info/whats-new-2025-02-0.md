@@ -8,9 +8,9 @@ role: Leader
 
 This article covers the new and enhanced features introduced with 2025.02.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-## Experience Manager Guides in a new look and feel 
+## Revamped Experience Manager Guides UI for enhanced productivity and experience
 
-Adobe Experience Manager Guides now features a revamped design and enhanced features to help you work faster and more efficiently than ever before. 
+Adobe Experience Manager Guides now features a revamped design and enhanced features to help you work faster and more efficiently than ever before. The new UI brings an intuitive and enhanced user experience, with an all-new home page, a cleaner and more organized editor toolbar, dedicated map console, and enhanced features. 
 
 The key highlights are as follows: 
 
@@ -21,7 +21,7 @@ The key highlights are as follows:
     ![](assets/aem-home-page.png){width="800" align="left"}
 
 
- - **New Editor experience**: Now, experience the Editor in a new look and feel. The revamped editor interface features a cleaner toolbar and enhanced features to help author documents faster and more efficiently.  
+ - **New Editor experience**: Now, experience the Editor in a new look and feel. The revamped editor interface features a cleaner and more organized toolbar, seamless navigation, and overall intuitive experience to help author documents faster and more efficiently.  
  
     Get to [know the Editor features](../user-guide/web-editor-features.md). 
 
@@ -33,15 +33,15 @@ The key highlights are as follows:
 
     ![](assets/map-console-new-ui.png){width="800" align="left"}
 
-## Adobe Workfront integration in Experience Manager Guides 
+## Integration with Adobe Workfront for robust work management capabilities 
 
 Experience Manager Guides now integrates seamlessly with Adobe Workfront, giving you access to robust project management features on top of Experience Manager Guides core CCMS capabilities. 
 
 With this integration, you can create and manage Adobe Workfront tasks directly from Experience Manager Guides. For example, as an author, you can create a review task (with one or more DITA topics or maps added) directly within the Experience Manager Guides interface and assign it to a reviewer. As a reviewer, you can work on assigned tasks in the Experience Manager Guides Review UI and return them to the author with comments. Similarly, you can create a publishing and translation task, and then assign it to the users who are required to work upon it.
 
-The integration also provides you the ability to monitor your work queues, ensuring you stay organized and on top of all your tasks (assigned tasks).
+The integration also provides you the ability to monitor your work queues, ensuring you stay organized and on top of all your tasks (assigned tasks). It also enables project managers to leverage the power of Adobe Workfront for in-depth project management within Experience Manager Guides.
 
-For more details, view [Workfront integration](../user-guide/workfront-integration.md). 
+For more details, refer [Workfront integration](../user-guide/workfront-integration.md). 
 
 ![](assets/workfront-integration-ui.png){width="800" align="left"}
 
@@ -54,15 +54,31 @@ For more details, view [AI Assistant in Experience Manager Guides](../user-guide
 
 ![](assets/ai-assistant-panel.png){width="300" align="left"}
 
-## Enhanced the Markdown authoring experience 
+## The all-new Markdown editor for rich authoring experience 
 
-Now, experience a cleaner and more efficient way to author markdown topics. Experience Manager Guides introduces a revamped interface and added features for markdown authoring, including Side-by-side view, editor toolbar, seamless publishing to AEM Sites and PDF, and more.  
+Now, experience a cleaner, more efficient, and powerful way to author markdown topics. Experience Manager Guides introduces a new Markdown editor interface with a well organized toolbar and advanced features, including a **Side-by-side** view to author and preview content at the same time. It also enables seamless publishing of Markdown topics that are a part of a map, to multiple channels.
 
 For more details, view [Markdown authoring](../user-guide/web-editor-markdown-topic.md). 
 
+![](assets/markdown-topic-side-by-side.png){width="300" align="left"}
+
+## Editor enhancements 
+
+## Review enhancements
+
+## Publishing enhancements
+
+## Content management enhancements
+
+### Custom metadata fields in reports
+
+This feature allows you to create custom metadata fields for reports. You can easily add these fields through **Settings**. Once created, you can view these fields under **Columns** in the Filter panel of the Reports, where you can select or deselect them to control their visibility. 
+
+For more details, refer [DITA map report from the Map Console](../user-guide/reports-web-editor.md)
+
 ## Native PDF enhancements
 
-The following Native PDF enhancements have been done in the 2025.02.0 release:
+The following Native PDF enhancements have been made as part of the release:
 
 - Introduced an option to enable or disable the DITA-OT preprocessing for Native PDF output. By default, the setting is set to**Enabled**.
 
@@ -82,8 +98,8 @@ The following Native PDF enhancements have been done in the 2025.02.0 release:
 
 The following Table enhancements have been done in the 2025.02.0 release:
 
-- Ability to configure the default values for header rows, body rows and columns in the table template for table and simpletable. 
-- Ability to configure the table settings to display pasted tables as simpletable or normal table. 
+- Ability to configure the default values for header rows, body rows and columns in the table or simpletable insertion dialog. 
+- Ability to configure the table settings to paste tables copied from external sources as simpletable or a table. 
 
     For more details, view the Tables section in [Know the Editor features](../user-guide/web-editor-features.md#content-insertion-options).  
 
@@ -98,7 +114,7 @@ The friendly name feature for DITA elements has been improved. Now, default enum
 
 ## Refresh button in the Translation UI 
 
-Introducing a Refresh button in the Translation UI that allows you to refresh the target languages list and baseline list in one click. 
+Introducing a Refresh button in the Translation UI that allows you to refresh the translation dashboard with updated files and status.
 
 ## Use Baseline while generating incremental AEM Sites output 
 
@@ -112,13 +128,15 @@ The following Review enhancements have been done in the 2025.02.0 release:
 
 - Now, when creating a review task, you can type in a project name to quickly locate and select it in the Project drop-down list. This enhancement removes the need to scroll through lengthy project lists, making it faster and more efficient to assign review tasks, especially when managing multiple projects. 
 
-- In the Editor and Review UI, the review comment box now support multi-line entries. You can expand it as needed for comprehensive comments, and also use **Shift**+**Enter** to go to the next line. 
+- In the Editor and Review UI, the review comment box now support multi-line entries. You can use **Shift**+**Enter** to go the next line. You can also expand the comment box while writing the comment.   
 
--  Now, you can access the review comments even when the review task is marked closed. 
+  For more details, view [Review topics](../user-guide/review-topics.md).  
 
-## Alternate text attributes for images enhanced
+-  Now, you can access the review comments even when the review task is marked closed. With the latest UI enhancements, the Review panel now features an option to access closed review tasks. 
+
+## Alternate text for images now added as an element
   
-  Images now use the `<alt>` attribute for alternate text, as per modern DITA standards. The use of `@alt` attribute for alternate text has been deprecated but remains supported in earlier DITA versions. 
+  Images now use the `<alt>` element for alternate text, as per the latest DITA standards. The use of `@alt` attribute for alternate text has been deprecated but remains supported in earlier DITA versions. 
 
 ## Customizing Cross-reference in the editor toolbar 
 
