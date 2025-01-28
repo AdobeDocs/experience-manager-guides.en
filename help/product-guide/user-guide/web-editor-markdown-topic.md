@@ -23,6 +23,9 @@ Perform the following steps to create a Markdown topic from the Editor:
     * **Template**: Select **Markdown** from the dropdown list. The template **Topic** is selected by default. 
     * **Path**: Browse the path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
 
+    >![NOTE]
+    >
+    > In case of an upgrade, you need to add the Markdown template into the current folder profile in use. For details on how to add authoring templates in Experience Manager Guides, view [Configure global or folder-level profiles](../cs-install-guide/conf-folder-level.md).
 1. Select **Create**.
 
    The Markdown topic is created at the selected path and is open for editing.
@@ -38,15 +41,17 @@ Perform the following steps to create a Markdown topic from the Editor:
 
 This section walks you through the various features that are available in the Editor for Markdown topic authoring. The authoring interface is divided into the following sections or areas:
 
-* [Main toolbar](#main-toolbar)
-* [Secondary toolbar](#secondary-toolbar)
+* [Tab bar](#tab-bar)
+* [Toolbar](#toolbar)
 * [Content editing area](#content-editing-area)
 * [Source, Side-by-side, and Preview modes](#source-side-by-side-and-preview-modes)
 * [Right panel](#right-panel)
 
-### Main toolbar
+### Tab bar 
 
-The main toolbar is the top bar of the Editor interface. Features available in the main toolbar are explained as follows:
+The tab bar features the file tabs of the topics or maps that are currently opened in the Editor along with other file-level options. 
+
+Features available in the tab bar are explained as follows:
 
  ![](images/markdown-header.png){width="550" align="left"}
 
@@ -61,15 +66,15 @@ The main toolbar is the top bar of the Editor interface. Features available in t
 * **More actions**: Allows you to navigate to the **Assets UI**. As an administrator, you also get an option to navigate to the **Settings** page. Learn how to work with [settings](./web-editor-features.md#main-toolbar) or editor settings. 
 * **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon.
 
-### Secondary toolbar
+### Toolbar
 
-The secondary toolbar is located just below the main toolbar. Features available in the secondary toolbar are explained as follows:
+The toolbar is located just below the tab bar. Features available in the toolbar are explained as follows:
 
  ![](images/markdown-main-toolbar.png){width="550" align="left"}
 
 | Features       | Description   | 
 |----------------|----------------|
-| Editing actions  | Provides access to various document editing features including **Undo**, **Copy**, **Delete**, and **Find and replace**. You can access the available options from the **Menu** dropdown. | 
+| Editing actions  | Provides access to various document editing features including **Cut** &nbsp;![](images/Smock_Cut_18_N.svg), **Undo** &nbsp;![](images/Smock_Undo_18_N.svg), **Copy** &nbsp;![](images/Smock_Copy_18_N.svg), **Delete** &nbsp;![](images/Smock_DeleteOutline_18_N.svg), and **Find and replace** &nbsp;![](images/Smock_FindandReplace_18_N.svg). You can access the available options from the **Menu** dropdown. | 
 | Text formatting options | Provides access to various text formatting options including **Headings**, **Bold**, **Italic**, **Strikethrough**, **Code**, and **Block quote**.|
 | Content insertion options | Provides options to insert a **Numbered list**, **Ordered list**, **Table**, **Image**, **Cross reference**, and **Symbol** into a document.| 
 | Version history|  Allows you to create versions of markdown files and view the history of changes. You can compare different versions and revert to previous ones if needed. The Version history option is present in the **Menu** dropdown.|

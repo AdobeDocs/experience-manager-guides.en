@@ -53,9 +53,9 @@ Make publishing error-free by easily checking and correcting content before it g
 **Extensive tag management support for personalized output**   
 Drive deeper end-user engagement and content adoption through highly relevant content experiences. With AEM Guides, you can leverage the extensive tag management support in Experience Manager to apply relevant tags on DITA source content. Use these tags to provide highly personalized content experiences to end users.
 
-**AI-powered conversational search and authoring**
+**GenAI powered smart help and authoring**
 
-Enhance productivity with AI-powered conversational search and content reuse features in Experience Manager Guides. Use the GenAI-based conversational search to quickly find relevant content from the Experience Manager Guides documentation. Use smart suggestions to reuse the content from the existing content repository or enhance productivity with one-click content enhancement features such as smartly convert a paragraph to a list, create a short description, improve and translate the selected content.
+Enhance productivity with AI-powered smart help and content reuse features in Experience Manager Guides. Use the GenAI-based smart help to quickly find relevant content from the Experience Manager Guides documentation. Use smart suggestions to reuse the content from the existing content repository or enhance productivity with one-click content enhancement features such as smartly convert a paragraph to a list, create a short description, improve and translate the selected content.
 
 **Plan, assign, and execute tasks from one place**.
 
