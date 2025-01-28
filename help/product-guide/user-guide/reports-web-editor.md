@@ -167,8 +167,7 @@ This feature enables you to add custom metadata columns as per requirement, whic
 
     >[!NOTE]
     >
-    > Adding a new metadata column also gets reflected in the **Version History** panel in the Editor.
-
+    > Adding a new metadata column also gets reflected in the **Version History** panel in the Editor. For more information, view **[Metadata](web-editor-features.md)**.
 
 
     ![](images/updated-custom-field.png){width="600" align="left"}
