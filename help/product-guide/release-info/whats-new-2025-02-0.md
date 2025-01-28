@@ -64,21 +64,50 @@ For more details, view [Markdown authoring](../user-guide/web-editor-markdown-to
 
 ## Editor enhancements 
 
-## Review enhancements
+The following Editor enhancements has been made as part of the new release:
+
+**Enhancements to Table insertion**
+
+- Ability to configure the default values for header rows, body rows and columns in the table or simpletable insertion dialog. 
+- Ability to configure the table settings to paste tables copied from external sources as simpletable or a table. 
+
+    For more details, view the Tables section in [Know the Editor features](../user-guide/web-editor-features.md#content-insertion-options).  
+
+**Enhanced the friendly name feature for DITA elements** 
+
+The friendly name feature for DITA elements has been improved. Now, default enumerated values are retained when a friendly name is assigned to an element, and the updated name is reflected in breadcrumbs, Content properties, the Reusable content panel, the Glossary panel, and other relevant locations. 
+
+**Enhanced experience for filtered searches**
+
+The asset display limit for filtered search results in the Adobe Experience Manager Guides Repository has been increased. The search results now return all relevant assets or files that match the search criteria. You can scroll through the list to load more results, eliminating the need to perform repeated searches to locate the required assets.
+
+**Alternate text for images now added as an element**
+  
+  Images now use the `<alt>` element for alternate text, as per the latest DITA standards. The use of `@alt` attribute for alternate text has been deprecated but remains supported in earlier DITA versions. 
+
+**Customizing Cross-reference in the editor toolbar**
+
+Now, create a custom toolbar button for **Cross-reference** to directly access one of the menu options. For example, you can configure this option to directly jump to a web link, email link, file reference, or any other available option as per the requirement. 
+
+For more details, view [customizing the topbar and toolbar](../guides-ui-extensions/customisations/toolbar-topbar.md).
+
+## Review enhancements 
+
+The following Review enhancements have been done in the 2025.02.0 release:
+
+- Now, when creating a review task, you can type in a project name to quickly locate and select it in the Project drop-down list. This enhancement removes the need to scroll through lengthy project lists, making it faster and more efficient to assign review tasks, especially when managing multiple projects. 
+
+- In the Editor and Review UI, the review comment box now support multi-line entries. You can use **Shift**+**Enter** to go the next line. You can also expand the comment box while writing the comment.   
+
+  For more details, view [Review topics](../user-guide/review-topics.md).  
+
+-  Now, you can access the review comments even when the review task is marked closed. With the latest enhancements, the Review panel features both active and closed review tasks for each project, categorized under **Active tasks** and **Closed tasks**. When you select a closed review task, the corresponding comments are displayed in the Comments panel on the right, ensuring continuous access to important review comments even after a task is closed. 
+
+   For more details, view the Review section of the [Know the Editor features](../user-guide/web-editor-features.md).
 
 ## Publishing enhancements
 
-## Content management enhancements
-
-### Custom metadata fields in reports
-
-This feature allows you to create custom metadata fields for reports. You can easily add these fields through **Settings**. Once created, you can view these fields under **Columns** in the Filter panel of the Reports, where you can select or deselect them to control their visibility. 
-
-For more details, refer [DITA map report from the Map Console](../user-guide/reports-web-editor.md)
-
-## Native PDF enhancements
-
-The following Native PDF enhancements have been made as part of the release:
+The following publishing enhancements has been made as part of the new release:
 
 - Introduced an option to enable or disable the DITA-OT preprocessing for Native PDF output. By default, the setting is set to**Enabled**.
 
@@ -94,61 +123,55 @@ The following Native PDF enhancements have been made as part of the release:
 
 - Ability to include the **Contents** title in the Native PDF bookmark, which when selected, takes you to the TOC page in the PDF. You can enable or disable this feature by configuring the `ui_config.json` setting.  
 
-## Enhancements in the Table configuration
 
-The following Table enhancements have been done in the 2025.02.0 release:
-
-- Ability to configure the default values for header rows, body rows and columns in the table or simpletable insertion dialog. 
-- Ability to configure the table settings to paste tables copied from external sources as simpletable or a table. 
-
-    For more details, view the Tables section in [Know the Editor features](../user-guide/web-editor-features.md#content-insertion-options).  
-
-## Enhanced experience for filtered searches 
-
-The asset display limit for filtered search results in the Adobe Experience Manager Guides Repository has been increased. The search results now return all relevant assets or files that match the search criteria. You can scroll through the list to load more results, eliminating the need to perform repeated searches to locate the required assets. 
-
-
-## Enhanced the friendly name feature for DITA elements  
-
-The friendly name feature for DITA elements has been improved. Now, default enumerated values are retained when a friendly name is assigned to an element, and the updated name is reflected in breadcrumbs, Content properties, the Reusable content panel, the Glossary panel, and other relevant locations. 
-
-## Refresh button in the Translation UI 
-
-Introducing a Refresh button in the Translation UI that allows you to refresh the translation dashboard with updated files and status.
-
-## Use Baseline while generating incremental AEM Sites output 
+**Use Baseline while generating incremental AEM Sites output** 
 
 Experience Manager Guides now allows you to use a Baseline when generating incremental AEM Sites output. You can create a new AEM Sites preset, with the legacy mapping option disabled, to use the baseline feature for incremental output generation.   
 
 Learn about [working with AEM Sites presets](../user-guide/generate-output-aem-site-web-editor.md). 
 
-## Review enhancements 
+## Content management enhancements
 
-The following Review enhancements have been done in the 2025.02.0 release:
+The following content management enhancements has been made as part of the new release:
 
-- Now, when creating a review task, you can type in a project name to quickly locate and select it in the Project drop-down list. This enhancement removes the need to scroll through lengthy project lists, making it faster and more efficient to assign review tasks, especially when managing multiple projects. 
+**Refresh button in the Translation UI**
 
-- In the Editor and Review UI, the review comment box now support multi-line entries. You can use **Shift**+**Enter** to go the next line. You can also expand the comment box while writing the comment.   
+Introducing a Refresh button in the Translation UI that allows you to refresh the translation dashboard with updated files and status.
 
-  For more details, view [Review topics](../user-guide/review-topics.md).  
-
--  Now, you can access the review comments even when the review task is marked closed. With the latest UI enhancements, the Review panel now features an option to access closed review tasks. 
-
-## Alternate text for images now added as an element
-  
-  Images now use the `<alt>` element for alternate text, as per the latest DITA standards. The use of `@alt` attribute for alternate text has been deprecated but remains supported in earlier DITA versions. 
-
-## Customizing Cross-reference in the editor toolbar 
-
-Now, create a custom toolbar button for **Cross-reference** to directly access one of the menu options. For example, you can configure this option to directly jump to a web link, email link, file reference, or any other available option as per the requirement. 
-
-For more details, view [customizing the topbar and toolbar](../guides-ui-extensions/customisations/toolbar-topbar.md).
-
-## Enhanced support for post-processing operations
+**Enhanced support for post-processing operations**
 
 The support for post-processing operations in Experience Manager Guides is now extended to UUID and Cloud environments, ensuring compatibility with modern workflows and systems.
 
 For more details, view [Post-processing event handler](../api-reference/post-process-event.md). 
+
+### Custom metadata fields in reports
+
+This feature allows you to create custom metadata fields for reports. You can easily add these fields through **Settings**. Once created, you can view these fields under **Columns** in the Filter panel of the Reports, where you can select or deselect them to control their visibility. 
+
+For more details, refer [DITA map report from the Map Console](../user-guide/reports-web-editor.md)
+
+## Native PDF enhancements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Deprecated features
 
