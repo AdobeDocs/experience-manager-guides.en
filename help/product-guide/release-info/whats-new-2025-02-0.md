@@ -109,6 +109,8 @@ The following Review enhancements have been done in the 2025.02.0 release:
 
 The following publishing enhancements has been made as part of the new release:
 
+**Enhancements to the Native PDF**
+
 - Introduced an option to enable or disable the DITA-OT preprocessing for Native PDF output. By default, the setting is set to**Enabled**.
 
     ![](assets/ditaot-setting-enabled.png){width="300" align="left"}
@@ -138,39 +140,17 @@ The following content management enhancements has been made as part of the new r
 
 Introducing a Refresh button in the Translation UI that allows you to refresh the translation dashboard with updated files and status.
 
-**Enhanced support for post-processing operations**
-
-The support for post-processing operations in Experience Manager Guides is now extended to UUID and Cloud environments, ensuring compatibility with modern workflows and systems.
-
-For more details, view [Post-processing event handler](../api-reference/post-process-event.md). 
-
-### Custom metadata fields in reports
+**Custom metadata fields in reports**
 
 This feature allows you to create custom metadata fields for reports. You can easily add these fields through **Settings**. Once created, you can view these fields under **Columns** in the Filter panel of the Reports, where you can select or deselect them to control their visibility. 
 
 For more details, refer [DITA map report from the Map Console](../user-guide/reports-web-editor.md)
 
-## Native PDF enhancements
+**Enhanced support for post-processing operations**
 
+The support for post-processing operations in Experience Manager Guides is now extended to UUID and Cloud environments, ensuring compatibility with modern workflows and systems.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+For more details, view [Post-processing event handler](../api-reference/post-process-event.md). 
 
 
 ## Deprecated features
