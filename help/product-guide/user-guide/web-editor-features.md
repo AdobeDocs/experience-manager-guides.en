@@ -1873,7 +1873,7 @@ To view the review comments in the active review tasks that are present in your 
    > 
    > The **Review** panel and the **Comments** panel are in sync at all times. In the Comments panel, the comments are loaded based on the review task loaded in the Review panel.
    >You can view the closed review tasks in the left rail of Review Panel along with the active review tasks.
-   >Additionally, for a closed review task you can see the review comments in the Comments panel on the right but the **Import** and **Revert Version** buttons are disabled. 
+   >Additionally, for a closed review task you can see the review comments in the Comments panel on the right but the **Import Comments** and **Revert Version** buttons are disabled. 
    >For more information about how to address the comments, view [Address review comments](review-address-review-comments.md#).
  
 
