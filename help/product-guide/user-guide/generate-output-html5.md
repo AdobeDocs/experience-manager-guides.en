@@ -33,7 +33,7 @@ Perform the following steps to create the HTML5 preset from the map console:
 
     The preset for HTML5 is created.
 
-    ![](images/HTML5-preset-dialog.png){width="300" align="left"}
+    ![](images/html5-preset-dialog-new.png){width="300" align="left"}
 
 ### HTML5 configuration in Map console
 

@@ -1,7 +1,7 @@
 ---
 title: Map management and publishing in Adobe Experience Manager Guides 
 description: Learn how to publish and manage maps in Adobe Experience Manager Guides.
-feature: Pubishing
+feature: Publishing
 role: User
 ---
 # Map console for map management and publishing 

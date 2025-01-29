@@ -377,7 +377,7 @@ To edit topics through a DITA map, perform the following steps:
 
     -   You can save them individually. If you close without saving your topics, you will view a dialog box prompting you to save the unsaved topics:
 
-        ![](images/save-multiple-topics.png){width="550" align="left"}
+        ![](images/save-multiple-topics-new.png){width="550" align="left"}
 
         You can choose to save all selected topics or deselect the topics that you do not want to save.
 
@@ -389,7 +389,7 @@ To edit topics through a DITA map, perform the following steps:
 
     -   If your administrator has enabled the option of unlocking files on close, then you will be shown a prompt to save files whenever the locked files are closed. With this option enabled, when you close the editor with changed files, you are shown the list of locked files that need to be saved. The locked files are shown with a lock icon:
 
-        ![](images/save-on-close.png){width="550" align="left"}
+        ![](images/save-on-close-new.png){width="550" align="left"}
       
 
 
