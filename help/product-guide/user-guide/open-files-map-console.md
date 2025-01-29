@@ -14,14 +14,13 @@ Perform the following steps to open a DITA map file in Map console:
     
     Since no map file is selected, you are promted to select a map file to use the map management and publishing features.
     
-    ![New ](images/no-map-selected-screen.png){width="800" 
-    align="left"}
+    ![New](images/no-map-selected-screen.png)
 2. Click **Select path**, and select a path where your DITA map file is located.
 
     The map file opens in the map console.
 
-    ![New ](images/map-console-screen.png){width="800" 
-    align="left"}
+    ![New](images/map-console-screen.png){width="800"align="left"}
+    
     
 ## Open map files from the Editor 
     

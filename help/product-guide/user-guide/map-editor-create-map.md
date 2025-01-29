@@ -51,8 +51,8 @@ Perform the following steps to create a map file:
 
 You can also create a map from the Adobe Experience Manager Guides:
 
- - **Home page**: Open the home page and navigate to the Overview section. In the Recent files widget, select **New file**>> **DITA map**. 
- - **Editor**: In the Editor, navigate to **Repository**. Select the **+** icon from the repository panel, and then select **DITA map** from the options menu. 
+- **Home page**: Open the home page and navigate to the Overview section. In the Recent files widget, select **New file**>> **DITA map**. 
+- **Editor**: In the Editor, navigate to **Repository**. Select the **+** icon from the repository panel, and then select **DITA map** from the options menu. 
 
 
 

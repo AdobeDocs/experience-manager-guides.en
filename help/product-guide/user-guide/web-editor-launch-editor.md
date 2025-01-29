@@ -17,6 +17,7 @@ You can launch the Editor from the following locations:
 The following sections cover the details of how you can access and launch the Editor from various locations.
 
 ## Adobe Experience Manager Navigation page 
+
 When you log into Experience Manager, you are shown the Navigation page:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}

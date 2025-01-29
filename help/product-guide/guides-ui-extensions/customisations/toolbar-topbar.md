@@ -56,6 +56,7 @@ const toolbarExtend = {
         }
     }
 }
+
 ```
 In another example, we would create a custom toolbar button that can jump directly to desired sub-options of **Cross reference** such as Email, File reference, Weblink, etc. 
 

@@ -14,20 +14,20 @@ Adobe Experience Manager Guides now features a revamped design and enhanced feat
 
 The key highlights are as follows: 
 
- - **Introducing Home page**: Experience Manager Guides now features a Home page that offers an intuitive welcome screen experience, including a quick view of the files that you recently accessed, collections, and more. 
+- **Introducing Home page**: Experience Manager Guides now features a Home page that offers an intuitive welcome screen experience, including a quick view of the files that you recently accessed, collections, and more. 
  
     For more details, view [Adobe Experience Manager Guides Home page experience](../user-guide/intro-home-page.md). 
 
     ![](assets/aem-home-page.png){width="800" align="left"}
 
 
- - **New Editor experience**: Now, experience the Editor in a new look and feel. The revamped editor interface features a cleaner and more organized toolbar, seamless navigation, and overall intuitive experience to help author documents faster and more efficiently.  
+- **New Editor experience**: Now, experience the Editor in a new look and feel. The revamped editor interface features a cleaner and more organized toolbar, seamless navigation, and overall intuitive experience to help author documents faster and more efficiently.  
  
     Get to [know the Editor features](../user-guide/web-editor-features.md). 
 
     ![](assets/editor-new-ui.png){width="800" align="left"}
 
- - **Dedicated Map console**: Introducing Map console, a dedicated console where all the map management and publishing features are clubbed. Now, you get options to generate output, translate content, create reports, and more - all directly from Map console. 
+- **Dedicated Map console**: Introducing Map console, a dedicated console where all the map management and publishing features are clubbed. Now, you get options to generate output, translate content, create reports, and more - all directly from Map console. 
  
     Learn more about [map management and publishing](../user-guide/map-management-and-publishing.md). 
 

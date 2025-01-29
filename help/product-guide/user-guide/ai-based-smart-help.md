@@ -57,7 +57,7 @@ This smart feature helps you find solutions quickly and lets you focus on your d
 
 When you receive a response to your query from the AI Assistant, you can take the following actions to engage with or provide feedback on the content:
 
- - **Copy**: Copy the response text for use in your documents.
- - **Like**: Indicate that the response was helpful or accurate.
- - **Dislike**: Mark the response as unhelpful or incorrect.
- - **Report**: Flag the response for review if it contains errors or inaccurate content.
+- **Copy**: Copy the response text for use in your documents.
+- **Like**: Indicate that the response was helpful or accurate.
+- **Dislike**: Mark the response as unhelpful or incorrect.
+- **Report**: Flag the response for review if it contains errors or inaccurate content.

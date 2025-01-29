@@ -25,7 +25,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
     ![](images/map-collections-page.png){width="350" align="left"}
 
-    >[NOTE]
+    >[!NOTE]
     >
     > You can also open the Assets UI and select **Map Collections**. If the Map Collections page is not available, then select the **Navigation** option in the left rail, and then select **Map Collections**.
     

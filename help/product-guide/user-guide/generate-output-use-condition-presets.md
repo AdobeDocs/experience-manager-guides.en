@@ -11,8 +11,8 @@ You can define attributes in your DITA topics and the use the condition preset t
 
 You can create condition presets in two ways:
 
- - [From the Map console](#condition-presets-from-the-map-console)
- - [From the Map dashboard](#condition-presets-from-the-map-dashboard)
+- [From the Map console](#condition-presets-from-the-map-console)
+- [From the Map dashboard](#condition-presets-from-the-map-dashboard)
 
 
 ## Condition presets from the map console
@@ -45,22 +45,22 @@ You can create a condition preset of the topics by performing the following step
 
     The **Attributes** panel shows all the attributes added to any references present in the map. The right panel shows only the conditions that you have added to the condition presets.
 1. Do any of the following to add the attributes:
-    * Select one or more attributes to add all the values under them to the condition preset. For example, you can select the `platform` attribute to add all its values.
-    * Select one or more attribute values to add them to the condition preset. For example, you can select the `Unix` and `Win` values of the platform attribute 
-    * Select any attribute and value pair and drag it to the center panel. For example, you can select the `Unix` value of the platform attribute and drag it.
-    * **Select all** to add all the attributes and their values to the condition preset.
-    By default, the action for an attribute is `Include`.
+    - Select one or more attributes to add all the values under them to the condition preset. For example, you can select the `platform` attribute to add all its values.
+    - Select one or more attribute values to add them to the condition preset. For example, you can select the `Unix` and `Win` values of the platform attribute 
+    - Select any attribute and value pair and drag it to the center panel. For example, you can select the `Unix` value of the platform attribute and drag it.
+    -  **Select all** to add all the attributes and their values to the condition preset. By default, the action for an attribute is `Include`.
 
 1. Select **Add**. You can repeat this step to add more attributes. The attributes that you add move from the central to the right panel.  
 1. Select **Remove** from the actions bar on the top to remove the selected attributes in the right panel. 
 1.  (Optional) If required, you can override the action applied to the attributes. 
-Do one of the following:
-    * For any attribute, select one of the following actions from the Action drop-down.
-        * Include
-        * Exclude
-        * Passthrough
-        * Flag
-    * Select multiple attribute rows from the right panel and choose an action from the actions bar on the top. For example, you can select **Exclude** action for the selected attributes.
+
+    Do one of the following:
+    For any attribute, select one of the following actions from the Action drop-down.
+        - Include
+        - Exclude
+        - Passthrough
+        - Flag
+    Select multiple attribute rows from the right panel and choose an action from the actions bar on the top. For example, you can select **Exclude** action for the selected attributes.
 1.  Select **Save** to save the condition preset. 
 
     >[!NOTE]
@@ -113,20 +113,20 @@ Perform the following steps to create a condition preset:
 1.  Enter a name for the preset in **Name Condition**.
 1.  Select one of the following default actions from **Set default action to** drop-down:
 
-    *   Include
-    *   Exclude
-    *   Passthrough
-    *   Flag
+    - Include
+    - Exclude
+    - Passthrough
+    - Flag
     The action is set as default action for all the attributes whether they are added to the condition preset or not.
 
     For example, you have 15 condition attributes in your document and you have included four of them in the condition preset. If you select **exclude** as default action, it is applied to all 15 attributes.
 
 1.  Do any of the following to add the attributes:
-    *   Click **Add** to one attribute to the condition preset. You can repeat this step to add more attributes.
-    *   Click **Add all** to add all the attributes to the condition preset.
+    - Seledt **Add** to one attribute to the condition preset. You can repeat this step to add more attributes.
+    - Select **Add all** to add all the attributes to the condition preset.
 1.  \(Optional\) If required, you can override the default action applied to the attributes in Step 4. Do one of the following:
-    *   Select multiple attributes, choose an action from **Set the action for selected conditions to**, and click **Apply**.
-    *   Select an action for an attribute from the **Action** drop-down.
+    - Select multiple attributes, choose an action from **Set the action for selected conditions to**, and click **Apply**.
+    - Select an action for an attribute from the **Action** drop-down.
 1.  Select **Save**.
 
 ### Edit a condition preset 
