@@ -151,5 +151,18 @@ The References section gives you access to the following features:
 >
 > All Used In and Outgoing links references are hyperlinked to the documents. You can easily open and edit the linked documents.
 
+## Feature exclusions 
+
+The following Experience Manager Guides features are currently not applicable for Markdown authoring:
+
+1. Review
+2. Merge
+3. Find and replace (in the map file)
+4. AI Assistant 
+5. Track changes
+
+Additionally, the editor interface does not support the display of topic's breadcrumbs and contexual menu when working with a markdown file in Experience Manager Guides. Also, the preview in the side-by-side view does not support auto-scroll w.r.t the position of the cursor in the Author mode. 
+
+
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)

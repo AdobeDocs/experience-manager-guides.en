@@ -46,9 +46,9 @@ For more details, refer [Workfront integration](../user-guide/workfront-integrat
 ![](assets/workfront-integration-ui.png){width="800" align="left"}
 
 
-## AI Assistant(Beta) Revamped 
+## AI Assistant(Beta) for GenAI powered smart help and authoring
 
-The **AI Assistant** in Experience Manager Guides now features a new user interface, designed to enhance productivity and user experience by bringing together its smart **Authoring** and **Help** features at one place. Now, unlock the power of AI with a click of a button. Choose to launch the AI-powered conversational search feature or enhance productivity with smart authoring.  
+Now, experience enhanced productivity with GenAI powered smart help and content reuse features in Experience Manager Guides. With AI Assistant, quickly find relevant content from the Experience Manager Guides documentation, use smart suggestions to reuse the content from the existing content repository or enhance productivity with one-click content enhancement features such as smartly convert a paragraph to a list, create a short description, improve and translate the selected content.
 
 For more details, view [AI Assistant in Experience Manager Guides](../user-guide/ai-assistant.md).  
 
@@ -111,20 +111,19 @@ The following publishing enhancements has been made as part of the new release:
 
 **Enhancements to the Native PDF**
 
+- Ability to include the metadata from a topic's `prolog` element, such as copyright, author, and other details, into the page layouts when generating Native PDF output. 
+
+    ![](assets/metadata-topic-content.png){width="300" align="left"}
+    
 - Introduced an option to enable or disable the DITA-OT preprocessing for Native PDF output. By default, the setting is set to**Enabled**.
 
     ![](assets/ditaot-setting-enabled.png){width="300" align="left"}
 
-- The Print settings for Native PDF output generation have been moved from **Templates** setting to the **Native PDF Output preset**.  
+- The Print settings for Native PDF output generation have been moved from **Templates** setting to the **Native PDF Output preset** for better usability. You can now use the same template for online and print PDFs with different print settings such as color profile.  
 
     For more details, view [publish PDF output](../web-editor/native-pdf-web-editor.md) 
 
-- Ability to include the metadata from a topic's `prolog` element into the page layouts, such as copyright, author, and other details, while creating Native PDF output. 
-
-    ![](assets/metadata-topic-content.png){width="300" align="left"}
-
-- Ability to include the **Contents** title in the Native PDF bookmark, which when selected, takes you to the TOC page in the PDF. You can enable or disable this feature by configuring the `ui_config.json` setting.  
-
+- Ability to include the **Contents** title in the Native PDF bookmark, which when selected, takes you to the TOC page in the PDF. This facilitates seamless page navigation, especially in long PDFs. 
 
 **Use Baseline while generating incremental AEM Sites output** 
 
