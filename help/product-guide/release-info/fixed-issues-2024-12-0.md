@@ -44,11 +44,12 @@ Adobe has identified the following known issues in the 2024.12.0 release of Adob
 
 While sending content for translation, the project creation fails with the following log errors:
 
- - `com.adobe.cq.wcm.translation.impl.TranslationPrepareResource` Error while processing Translation project
+`com.adobe.cq.wcm.translation.impl.TranslationPrepareResource` Error while processing Translation project
 
- - `com.adobe.cq.projects.api.ProjectException`: Unable to create the project
+`com.adobe.cq.projects.api.ProjectException`: Unable to create the project
 
- - Caused by: `org.apache.jackrabbit.oak.api.CommitFailedException`: `OakAccess0000`: Access denied
+Caused by: `org.apache.jackrabbit.oak.api.CommitFailedException`: `OakAccess0000`: Access denied
+
 
 **Workaround**: To resolve this issue, perform the following workaround steps:
 
