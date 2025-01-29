@@ -47,7 +47,7 @@ Perform the following steps to send a modified topic for re-translation:
 
 1.  Navigate to the translation project in the Project console. A new translation job card is created in the folder. Select the ellipsis to see the assets of the folder.
 
-    ![](images/incremental-job-new.PNG){width="300" align="left"}
+    ![](images/incremental-job-new.png){width="300" align="left"}
 
 1.  To start the translation, select the arrow on the translation job card and select **Start** from the list. A message notifies that the job has started.
 
