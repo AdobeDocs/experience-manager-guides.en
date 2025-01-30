@@ -1,6 +1,6 @@
 ---
 title: DITA map report from the Guides Map Console
-description: Generate DITA map reports from map console in AEM Guides. Learn how to generate excel sheet for a topic list, multimedia, metadata, and broken links reports.
+description: Generate DITA map reports from map console in AEM Guides. Learn how to view and download excel sheet for a topic list, multimedia, metadata, and broken links reports.
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
@@ -216,11 +216,13 @@ The **Multimedia** report provides detailed information about the multimedia use
     >
     > Select **Refresh** to get a fresh list of multimedia and view any change in your map file or if any multimedia within your DITA map is updated.
 
+1. Select **Download** to download the snapshot of the all multimedia in the DITA map. The excel sheet contains the selected columns and the multimedia filtered in the **Multimedia** view. You can then open this multimedia excel sheet in MS Excel.    
+
 <!--1.  You can also select and play an audio or video file in the Web Editor. You can change the volume or the view of the video. In the shortcut menu you also have the options to download, change playback speed, or view picture in picture.
 
     ![](images/video-web-editor.png){width="800" align="left"}-->
 
-1.  Select **Download** to download the snapshot of the all multimedia in the DITA map. The excel sheet contains the selected columns and the multimedia filtered in the **Multimedia** view. You can then open this multimedia excel sheet in MS Excel.
+
 
 
 ## View and fix the broken links
