@@ -7,7 +7,7 @@ role: User
 ---
 # Manage files and folders {#id2116G0L08XA}
 
-This section explains how AEM Guides handles the basic file operations, such as copy, paste, drag-and-drop, and delete files. The following scenarios are possible:
+This section explains how Adobe Experience Manager Guides handles the basic file operations, such as copy, paste, drag-and-drop, and delete files. The following scenarios are possible:
 
 ## Copy and paste files 
 
@@ -93,11 +93,11 @@ With replace or moving the files, if you choose the option to create a version f
 
 ## Move files in bulk {#move-files-bulk}
 
-AEM Guides comes with the Bulk Move Tool that helps an administrator to move a folder having large number of files from one location to another. This tool can easily move files within one or more folders into a different folder in your AEM repository. One of the major features of this tool is that it not only moves a large number of files, but it also maintains the references to and from the files being moved. You can tweak the number of files that you can move in batches without hampering the authoring and publishing tasks.
+Experience Manager Guides comes with the Bulk Move Tool that helps an administrator to move a folder having large number of files from one location to another. This tool can easily move files within one or more folders into a different folder in your Adobe Experience Manager repository. One of the major features of this tool is that it not only moves a large number of files, but it also maintains the references to and from the files being moved. You can tweak the number of files that you can move in batches without hampering the authoring and publishing tasks.
 
 >[!NOTE]
 >
-> The Bulk Move Tool works only at folder-level. If you want to move individual topic or map files, then use the regular move tool from AEM's Assets UI.
+> The Bulk Move Tool works only at folder-level. If you want to move individual topic or map files, then use the regular move tool from Adobe Experience Manager's Assets UI.
 
 Here are some of the features provided by the Bulk Move Tool:
 
@@ -118,9 +118,9 @@ You must consider the following points before running the batch process:
 
 To move files in bulk, perform the following steps:
 
-1.  Click on the Adobe Experience Manager link at the top and choose **Tools**.
+1.  Select the Adobe Experience Manager link at the top and choose **Tools**.
 1.  Select **Guides** from the list of tools.
-1.  Click on the **Bulk Move Tool** tile. 
+1.  Select the **Bulk Move Tool** tile. 
 1. The Bulk Move Tool page is displayed based on your setup. Provide the following details on the **Bulk Move Tool** page:
 
     <details>
@@ -145,7 +145,7 @@ To move files in bulk, perform the following steps:
         - You can also type or copy and paste the source location. Press Enter to add the folder to the list. 
 
             The selected folders are listed along with their path. Hover over the folder tag to view the complete path.
-        - You can also remove any folder by clicking **Remove** <img src="images/remove-folder.svg" width="25"> near the folder.
+        - You can also remove any folder by selecting **Remove** <img src="images/remove-folder.svg" width="25"> near the folder.
 
 
     -   **Destination path**: Specify the location where you want to move the source folders.
@@ -156,7 +156,7 @@ To move files in bulk, perform the following steps:
         The selected folder is displayed along with its path in the text box. 
 
 
-    -   Click **Bulk move**.
+    -   Select **Bulk move**.
 
         The system starts moving files from the source to destination location. Once the process completes, a summary of the move process is shown at the right of the page.
 
@@ -194,7 +194,7 @@ To move files in bulk, perform the following steps:
             - You can also type or copy and paste the source location. Press Enter to add the folder to the list. 
 
                 The selected folders are listed along with their path. Hover over the folder tag to view the complete path.
-            - You can also remove any folder by clicking **Remove** <img src="images/remove-folder.svg" width="25"> near the folder.
+            - You can also remove any folder by selecting **Remove** <img src="images/remove-folder.svg" width="25"> near the folder.
 
 
     -   **Destination path**: Specify the location where you want to move the source folders.
@@ -204,7 +204,7 @@ To move files in bulk, perform the following steps:
 
              The selected folder is displayed along with its path in the text box. 
              
-    -   Click **Bulk move**.     
+    -   Select **Bulk move**.     
 
          The system starts moving files from the source to destination location. Once the process completes, a summary of the move process is shown at the right of the page.
         ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
@@ -212,11 +212,11 @@ To move files in bulk, perform the following steps:
 
 ## Search DITA content 
 
-By default, AEM does not recognize DITA content, thus, it doesn't provide any mechanism to search DITA content within its repository. AEM Guides adds a layer on top of AEM, which enables AEM to understand and process DITA content. The Search DITA content feature in AEM Guides allows you to search for DITA content within AEM repository.
+By default, Adobe Experience Manager does not recognize DITA content, thus, it doesn't provide any mechanism to search DITA content within its repository. Experience Manager Guides adds a layer on top of Adobe Experience Manager, which enables Adobe Experience Manager to understand and process DITA content. The Search DITA content feature in Experience Manager Guides allows you to search for DITA content within Adobe Experience Manager repository.
 
 >[!NOTE]
 >
->Your system administrator can configure the **DITA Element** search component and then you can use the feature from the AEM Assets UI. For more details see, *Add DITA Element search component in Assets UI* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+>Your system administrator can configure the **DITA Element** search component and then you can use the feature from the Adobe Experience Manager Assets UI. For more details see, *Add DITA Element search component in Assets UI* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 Using the search feature, you can:
 
@@ -224,7 +224,7 @@ Using the search feature, you can:
 -   Search for DITA content based on an attribute value; for example, `@platform`= windows
 -   Use a combination of DITA element and attribute value; for example, `author`= xml `AND` `@platform`= windows
 
-Perform the following steps to search for DITA content within AEM repository:
+Perform the following steps to search for DITA content within Adobe Experience Manager repository:
 
 1.  Open the Assets UI.
 
@@ -253,13 +253,13 @@ Perform the following steps to search for DITA content within AEM repository:
 
 **Checkout status filter in search**
 
-In addition to the DITA Element filter, AEM Guides also lets you to search for content based on their checkout status. This is helpful when you want to quickly filter out files that are currently checked out by you and want to check them back in.
+In addition to the DITA Element filter, Experience Manager Guides also lets you to search for content based on their checkout status. This is helpful when you want to quickly filter out files that are currently checked out by you and want to check them back in.
 
 Perform the following steps to search for files based on their checkout status:
 
 1.  Open the Assets UI.
 
-1.  Click **Filter** in the left rail.
+1.  Select **Filter** in the left rail.
 1.  Enter your search keyword in the Search bar.
 1.  Apply the required filters from the left rail.
 
@@ -270,7 +270,7 @@ Perform the following steps to search for files based on their checkout status:
 
 ## Delete files 
 
-Deleting files from AEM repository is a restricted feature, which is controlled by your system administrator. Based on the configurations, deleting files could be restricted if they are:
+Deleting files from Adobe Experience Manager repository is a restricted feature, which is controlled by your system administrator. Based on the configurations, deleting files could be restricted if they are:
 
 -   Checked-out
 -   Have incoming or outgoing references
@@ -301,12 +301,12 @@ If your media file has undergone any changes, you can find and preview the files
 
 1.  Access the file in **Assets UI**.
 1.  Select the file for which you want to view the version history.
-1.  In the left rail, click **Version History** and select a version.
+1.  In the left rail, select **Version History** and select a version.
 1.  You can also see the thumbnails of the different versions under Version History.
 
     ![](images/media-version-history-icon.png){width="800" align="center"}
 
-1.  From the listed versions, select the one that you want to use as the base version and click **Preview Version**. The preview of the selected version is shown in the Version Preview window.
+1.  From the listed versions, select the one that you want to use as the base version and select **Preview Version**. The preview of the selected version is shown in the Version Preview window.
 
     ![](images/media-version-preview.png){width="650" align="center"}
 

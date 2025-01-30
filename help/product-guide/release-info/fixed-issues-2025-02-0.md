@@ -47,7 +47,7 @@ Learn about [upgrade instructions for the 2025.02.0 release](upgrade-instruction
 - When multiple publishing requests are initiated for different maps using the same folder profile preset, publishing fails. (18800)
 - For topics having a multi valued metadata/property when passed to DITA OT, the publishing fails. (19001) 
 - The **Edit properties** dialog for a baseline does not show the previously saved criteria for dynamic baseline.  (23964)
-- The Baseline does not include indirect references when content is in the final document state. (19148)
+- The baseline does not include indirect references when content is in the final document state. (19148)
 - The setting **Sanitize page names & filenames for AEM Sites & other output formats** is applicable to all the output formats. (7651)
 - If an external link contains a UUID, it goes in post processing and converts the external link to UUID link thereby breaking the link on web editor and also on the publishing sites. (22574)
 
@@ -55,7 +55,7 @@ Learn about [upgrade instructions for the 2025.02.0 release](upgrade-instruction
 ## Management
 
 - Resource leaks occur due to Unclosed **ResourceResolver** errors in logs. (18488)
-- The title and icon of **Force delete** dialog box is misaligned in Assets UI. (21933) 
+- The title and icon of the **Force delete** dialog box are misaligned in the Assets UI. (21933) 
 - When any JSON is updated in the folder profile for XML Editor Configuration, the save operation disrupts the XML Editor Configuration. (22414)
 - When duplicating any folder profile, its admin user list also gets copied from the original folder profile. (19067)
 - When moving large folders (containing a large volume of DITA content, up to 200,000 items) from Assets UI within the Digital Asset Management (DAM) system, an error occurs. (20107)
