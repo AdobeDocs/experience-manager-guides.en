@@ -27,7 +27,7 @@ You can locate all the four reports from the **Reports** panel. Based on your re
 
 ![](images/reports-demo.png){width="800" align="left"}
 
-As shown above there are four types of reports that can be accessed through the **Reports** panel. Each of the reports are discussed in detail along with their accessibility and features below. 
+The Reports panel provides access to four different types of reports. Each report, along with its accessibility and features, is discussed in detail below. 
 
 
 ## Topic List report 
