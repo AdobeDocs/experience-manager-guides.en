@@ -77,4 +77,19 @@ Learn about [upgrade instructions for the 2025.02.0 release](upgrade-instruction
 
 - When creating a **Baseline** using the Guides API by triggering **BaslinUtlis** service, an error occurs. (19385)
 
+## Known issues
+
+Adobe has identified the following known issues for the 2025.02.0 release:
+
+- Using images as variables in the PDF template cover page is not resolving correctly in the PDF output.
+- Using **Locate in repository** for a topic does not scroll to the precise location of the topic.
+- Sorting by title in the **Topic list** reports is not functioning when using `<conref>` or `<conkeyref>` in the title.
+- Switching the folder profile does not immediately reflect changes on the UI without refreshing the browser.
+- Extension framework is not functioning.
+- Selective publishing is not supported when there is a TOC change in the map.
+- Publishing a map containing external links and cross-references with Markdown fails on Windows server.
+- Converting a bulleted list to a numbered list still displays the bullet in the Editor.
+- Content is not being published for the Native AEM site when it involves a Markdown file.
+
+
 
