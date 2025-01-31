@@ -156,7 +156,7 @@ The References section gives you access to the following features:
 >
 > All Used In and Outgoing links references are hyperlinked to the documents. You can easily open and edit the linked documents.
 
-## Feature exclusions 
+## Feature limitations
 
 The following Experience Manager Guides features are currently not applicable for Markdown authoring:
 
