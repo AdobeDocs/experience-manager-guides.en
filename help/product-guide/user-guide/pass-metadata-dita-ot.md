@@ -38,4 +38,11 @@ Perform the following steps to pass on the metadata to the output using DITA-OT 
 
 The selected metadata properties will be passed to the output generated using DITA-OT.
 
+>[!NOTE]
+>
+> As of 2025.02.0 and 5.0 release of Experience Manager Guides, the functionality to pass root map metadata arguements through DITA-OT command line has been deprecated. 
+However, to avoid any disruptions, a new property has been added in the `Config.Manager` to enable or disable the functionality. 
+
+For more details, view [Configure output generation settings](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard).
+
 **Parent topic:**[Output generation](generate-output.md)

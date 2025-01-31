@@ -418,6 +418,18 @@ In order to validate the metadata values passed to the DITA-OT, local environmen
 >
 > If particular metadata is not present for the file, <meta\> tag with the key will not appear as the property for that file in the metadata.xml file.
 
+## Configure the DITA-OT command line arguement field on the DITA map dashboard 
+
+To use the DITA-OT command line arguement field to pass root map metadata, perform the following steps:
+
+1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
+1.  In the configuration file, provide the following \(property\) details to configure the DITA-OT command line arguement field on the map dashboard.
+
+|PID|Property Key|Property Value|
+|---|------------|--------------|
+|`com.adobe.fmdita.config.ConfigManager`|`pass.metadata.args.cmd.line`|Boolean\(`true/false`\).**Default value**: `true`|
+
+
 ## Customize DITA element mapping with AEM components {#id1679J600HEL}
 
 DITA elements in the AEM Guides are mapped to their corresponding AEM components. AEM Guides uses this mapping in workflows such as publishing and review to convert DITA element to a corresponding AEM component. The mapping is defined in the `elementmapping.xml` file, which can be accessed using the package manager.
@@ -680,3 +692,4 @@ Use the instructions given in [Configuration overrides](download-install-additio
 >[!TIP]
 >
 > See the *Output history* section in the Best practices guide for best practices around working with output history.
+

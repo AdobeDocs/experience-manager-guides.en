@@ -54,6 +54,20 @@ For more details, view [AI Assistant in Experience Manager Guides](../user-guide
 
 ![](assets/ai-assistant-panel.png){width="300" align="left"}
 
+## AEM Sites publishing now made more seamless and intuitive
+
+Introducing single topic publishing to AEM Sites pages that allows you to publish individual topics directly to Adobe Experience Manager Sites pages. This means, you no longer need to create and publish an entire map if you want to publish a single topic. This streamlines the publishing process, making it more efficient when working with standalone content, such as marketing collateral, monthly newsletters, or any other standalone content. 
+
+![](assets/aem-sites-page-generate.png){width="300" align="left"}
+
+Also, experience faster and scalable publishing to AEM Sites with the all-new publishing engine, optimized with composite component mapping and a new editable template. With New AEM Sites publishing, you can access all topics present in your DITA map and selectively generate the AEM Sites output only for specific topics. 
+
+![](assets/aem-presets-topic-list.png){width="300" align="left"}
+
+If you prefer not to use topics from the current version of your DITA map, use the Baseline feature, from the **Content** tab, to generate incremental AEM Sites output.
+
+Learn more about [AEM Sites publishing](../user-guide/generate-output-aem-site-web-editor.md).
+
 ## The all-new Markdown editor for rich authoring experience 
 
 Now, experience a cleaner, more efficient, and powerful way to author markdown topics. Experience Manager Guides introduces a new Markdown editor interface with a well organized toolbar and advanced features, including a **Side-by-side** view to author and preview content at the same time. It also enables seamless publishing of Markdown topics that are a part of a map, to multiple channels.
@@ -115,7 +129,7 @@ The following publishing enhancements has been made as part of the new release:
 
     ![](assets/metadata-topic-content.png){width="300" align="left"}
     
-- Introduced an option to enable or disable the DITA-OT preprocessing for Native PDF output. By default, the setting is set to**Enabled**.
+- Introduced an option to enable or disable the DITA-OT preprocessing for Native PDF output. Enable this option if your content requires DITA-OT-based normalization or custom DITA-OT plugins during processing. This ensures consistent content formatting and supports any required transformations. By default, the setting is set to**Enabled**.
 
     ![](assets/ditaot-setting-enabled.png){width="300" align="left"}
 
@@ -125,11 +139,6 @@ The following publishing enhancements has been made as part of the new release:
 
 - Ability to include the **Contents** title in the Native PDF bookmark, which when selected, takes you to the TOC page in the PDF. This facilitates seamless page navigation, especially in long PDFs. 
 
-**Use Baseline while generating incremental AEM Sites output** 
-
-Experience Manager Guides now allows you to use a Baseline when generating incremental AEM Sites output. You can create a new AEM Sites preset, with the legacy mapping option disabled, to use the baseline feature for incremental output generation.   
-
-Learn about [working with AEM Sites presets](../user-guide/generate-output-aem-site-web-editor.md). 
 
 ## Content management enhancements
 
@@ -145,18 +154,28 @@ This feature allows you to create custom metadata fields for reports. You can ea
 
 For more details, refer [DITA map report from the Map Console](../user-guide/reports-web-editor.md)
 
-**Enhanced support for post-processing operations**
+**Enhancement to Asset post-processing workflow** 
 
-The support for post-processing operations in Experience Manager Guides is now extended to UUID and Cloud environments, ensuring compatibility with modern workflows and systems.
+The support for Asset post-processing has been provided via the REST API as well as API SDK. Now, the Asset processing event would be triggered and can be listened to define further workflow. 
 
 For more details, view [Post-processing event handler](../api-reference/post-process-event.md). 
 
 
 ## Deprecated features
 
+**Quick Generate**
+
 Experience Manager Guides no longer supports the **Quick Generate** feature to generate output directly from the Repository view or Map view. 
 
 This feature has been removed from both the Repository and Map view panels. It is recommended to use the **Map console** for all map management and publishing related actions. 
 
 For more details, view [Map management and publishing](../user-guide/map-management-and-publishing.md).
+
+**Pass root map metadata arguements to DITA-OT Command line**
+
+The ability to pass root map metadata arguements through DITA-OT command line has been deprecated as part of the release. Now, it is reccomended to use the **Property** field in the map dashboard to pass the required DITA-OT metadata.  
+
+However to avoid any disruptions, a new property has been added in the `Config.Manager` to enable or disable the functionality. 
+
+For more details, view [Configure output generation settings](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard).
 

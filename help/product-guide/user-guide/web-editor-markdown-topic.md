@@ -41,12 +41,13 @@ Perform the following steps to create a Markdown topic from the Editor:
 
 This section walks you through the various features that are available in the Editor for Markdown topic authoring. The authoring interface is divided into the following sections or areas:
 
-* [Tab bar](#tab-bar)
 * [Toolbar](#toolbar)
 * [Content editing area](#content-editing-area)
 * [Source, Side-by-side, and Preview modes](#source-side-by-side-and-preview-modes)
 * [Right panel](#right-panel)
 
+
+<!--
 ### Tab bar 
 
 The tab bar features the file tabs of the topics or maps that are currently opened in the Editor along with other file-level options. 
@@ -54,6 +55,8 @@ The tab bar features the file tabs of the topics or maps that are currently open
 Features available in the tab bar are explained as follows:
 
  ![](images/markdown-header.png){width="550" align="left"}
+
+
 
 
 * **Topic tab**: Displays the currently opened topics in a tab. By default, you can view the file titles in the tab. As you hover over a file, you can view the file title and the file path as a tooltip.
@@ -65,6 +68,8 @@ Features available in the tab bar are explained as follows:
 * **AI Assistant**: [AI-powered Smart Help](./ai-based-smart-help.md) feature that helps you find relevant content from the Adobe Experience Manager Guides Documentation.
 * **More actions**: Allows you to navigate to the **Assets UI**. As an administrator, you also get an option to navigate to the **Settings** page. Learn how to work with [settings](./web-editor-features.md#main-toolbar) or editor settings. 
 * **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon.
+
+-->
 
 ### Toolbar
 
@@ -157,12 +162,14 @@ The following Experience Manager Guides features are currently not applicable fo
 
 1. Review
 2. Merge
-3. Find and replace (in the map file)
-4. AI Assistant 
-5. Track changes
+3. AI Assistant 
+4. Track changes
+5. Find and replace
+6. Search and Filter 
 
- 
-
+>[!NOTE]
+>
+> The **Find and replace** feature does not processes Markdown files at the respository level. This includes searching for a Markdown file within a map or folder. However, it can still be used within the Markdown editor. Also, the **Search** and **Filter** options in the Repository view do not processes Markdown files. 
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
