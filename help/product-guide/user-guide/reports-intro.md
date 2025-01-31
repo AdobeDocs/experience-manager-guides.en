@@ -15,7 +15,7 @@ You can access DITA map reports in two ways:
 
 -   **From the map dashboard**: Allows you to generate the DITA map report and provides the detailed information both at map-level and topic-level.
 
--   **[DITA map report from the Web Editor](reports-web-editor.md)**  
+-   **[DITA map report from the Map Console](reports-web-editor.md)**  
 
 -   **[DITA map report from the map dashboard](reports-ditamap.md)**  
 

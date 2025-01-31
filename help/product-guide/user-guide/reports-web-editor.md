@@ -27,10 +27,12 @@ You can locate all the four reports from the **Reports** panel. Based on your re
 
 ![](images/reports-demo.png){width="800" align="left"}
 
+As shown above there are four types of reports that can be accessed through the **Reports** panel. Each one of them are discussed in detail below.  
+
 
 ## Topic List report 
 
-The **Topic List** view provides detailed information about your topics, such as the reference type, document state, and author.
+The **Topic List** report provides detailed information about your topics, such as the reference type, document state, and author.
 
 You can view the topic list report of a map by performing the following steps:
 
@@ -61,20 +63,12 @@ You can view the topic list report of a map by performing the following steps:
 
 1.  Select **Download** to download the snapshot of all the topics in the DITA map. The excel sheet contains the selected columns and the topics filtered in the **Topic List** view. You can then open this topic list excel file in MS Excel.
 
-**Manage metadata in bulk from the Metadata report**
+## Metadata report
 
-Experience Manager Guides allows you to tag DITA content from the Editor. You can apply tags on an individual topic or use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or on a sub-map. You can also change the document state of all selected topics to the next possible common document state.
+The **Metadata report** provides a detailed report of your references in the current DITA map such as the reference type, document state, tags, file location etc. 
 
-## View metadata 
+You can view the metadata report of a map by performing the following steps:
 
-To view the metadata of your references in the current DITA map, perform the following steps:
-
-<!--1.  In the Repository panel, open the DITA map file in map View.
-1.  Select the **Open in Map console** icon.
-
-    ![](images/map-console.png){width="600" align="left"}
-
-1.  Select **Reports** from the left panel.-->
 1.  Select **Metadata** from the Reports panel. The metadata list of all the references in the DITA map is displayed. This includes the media references also.  
 
 
@@ -89,7 +83,7 @@ To view the metadata of your references in the current DITA map, perform the fol
 
 1.  You can also choose to view only the **Files with no tags** or also choose specific tags from the **Tags** filter to view the files associated with them.
 1.  You can also use the following topic filtering options to choose to display the following columns in the metadata list:
-    -   **Title** \(selected by default\) The title of the referenced file is specified in the DITA map. You can select the file to edit it.<!--You can also select and play an audio or video file in the Web Editor. You can change the volume or the view of the video. In the shortcut menu you also have the options to download, change playback speed, or view picture in picture.-->
+    -   **Title** \(selected by default\) The title of the referenced file is specified in the DITA map. You can select the file to edit it.
 
         >[!NOTE]
         >
@@ -117,6 +111,11 @@ To view the metadata of your references in the current DITA map, perform the fol
 
 
 1.  Select **Download** to download the snapshot of all the references in the DITA map. The excel sheet contains the selected columns and the references filtered in the **Metadata** view. You can then open this metadata excel file in MS Excel.
+
+**Manage metadata in bulk from the Metadata report**
+
+Experience Manager Guides allow you to tag DITA content from the Web editor.You can apply tags on an individual topic or use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or on a sub-map. You can also change the document state of all selected topics to the next possible common document state.
+
 
 **Update metadata**
 
@@ -181,12 +180,6 @@ This feature enables you to add custom metadata columns as per requirement, whic
 
 The **Multimedia** report provides detailed information about the multimedia used in your map, such as the title, type \(audio, video, and images\), files in which multimedia is used, and the reference type of the files, in which they have been used. You can also view the UUID and the location of the multimedia within the repository. You can view a report of the multimedia by performing the following steps:
 
-<!--1.  In the **Repository** panel, open the DITA map file in Map view.
-1.  Select the **Open in map console** icon.
-
-    ![](images/map-console.png){width="600" align="left"}
-
-1.  Select **Reports** from the left panel.-->
 1.  Select **Multimedia** from the Report panel. The list of multimedia present in the DITA map is displayed.
 1.  From the **Filters** panel you can order the list by multimedia or by the names of used in references.
 
@@ -218,24 +211,13 @@ The **Multimedia** report provides detailed information about the multimedia use
 
 1. Select **Download** to download the snapshot of the all multimedia in the DITA map. The excel sheet contains the selected columns and the multimedia filtered in the **Multimedia** view. You can then open this multimedia excel sheet in MS Excel.    
 
-<!--1.  You can also select and play an audio or video file in the Web Editor. You can change the volume or the view of the video. In the shortcut menu you also have the options to download, change playback speed, or view picture in picture.
-
-    ![](images/video-web-editor.png){width="800" align="left"}-->
-
-
-
 
 ## View and fix the broken links
 
 The **Broken Links** is a useful report which provides you with the details of the broken links present in your current map. You can view the broken links, which can be for DITA topics, multimedia file references, content key references, and so on. You also have the ability to fix the them here itself.
 The report provides detailed information such as the broken link, link type, files in which reference is used, and the type of files they have been used in. 
 You can view the report for broken links by performing the following steps:
-<!--1. In the **Repository** panel, open the DITA map file in Map view.
-1. Select the **Open in map console** icon.
 
-    ![](images/map-console.png){width="600" align="left"}
-
-1.  Select **Reports** from the left panel.-->
 1. Select **Broken Links** from the Reports panel. The list of broken links or references present in the DITA map is displayed.
 1. From the **Filters** panel you can order the list by links or by the names of used in references.
 
