@@ -27,7 +27,7 @@ You can locate all the four reports from the **Reports** panel. Based on your re
 
 ![](images/reports-demo.png){width="800" align="left"}
 
-As shown above there are four types of reports that can be accessed through the **Reports** panel. Each one of them are discussed in detail below.  
+As shown above there are four types of reports that can be accessed through the **Reports** panel. 
 
 
 ## Topic List report 
@@ -114,7 +114,7 @@ You can view the metadata report of a map by performing the following steps:
 
 **Manage metadata in bulk from the Metadata report**
 
-Experience Manager Guides allow you to tag DITA content from the Web editor.You can apply tags on an individual topic or use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or on a sub-map. You can also change the document state of all selected topics to the next possible common document state.
+Experience Manager Guides allow you to tag DITA content.You can apply tags on an individual topic or use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or on a sub-map. You can also change the document state of all selected topics to the next possible common document state.
 
 
 **Update metadata**
