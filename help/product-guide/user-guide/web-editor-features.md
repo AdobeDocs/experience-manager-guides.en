@@ -68,6 +68,8 @@ The Settings option is available only for administrators and allows configuring 
     -  **Citations**
        Change the style of citations. Choose the citation style from the drop-down you want to use in your project. For more details, view [Change citation styles](./web-editor-apply-citations.md#change-citation-style).
 
+    -  **AI Assistant**
+       Select this to enable the [AI Assistant](./ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature. 
 
 **Panels**: This setting controls the panels that are shown in the left and right panels of the Editor and Map console. You can toggle the switch to show or hide the desired panel.
 

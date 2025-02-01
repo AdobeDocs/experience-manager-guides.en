@@ -1,57 +1,33 @@
 ---
-title: Work with the Advanced Map Editor
-description: Learn how to work with the advanced map editor in AEM Guides. Know the features of the advanced Map Editor. Edit topics through a DITA map and use layout view, author view, and preview mode.
+title: Work with the Map Editor
+description: Learn how to work with the map editor in Adobe Experience Manager Guides. Know the features of the Map Editor. Edit topics through a DITA map and use layout view, author view, and preview mode.
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
 ---
-# Work with the Advanced Map Editor {#id1942D0S0IHS}
+# Work with the Map Editor {#id1942D0S0IHS}
 
-The Advanced Map Editor comes with intuitive user interface and it is similar to the Editor. When you open a map file in the Editor, you get an option to edit the map file using the Advanced Map Editor interface. The Advanced Map Editor allows you to add topic references, key references, structure your content and more.
+The Map Editor comes with intuitive user interface and it is similar to the Editor. When you open a map file in the Editor, you get an option to edit the map file using the Map Editor interface. The Map Editor allows you to add topic references, key references, structure your content and more.
 
-In addition to editing map files directly from the Editor, you can also open topic files in a map for editing the Editor. This topic walks you through the features in the Advanced Map Editor and how you can open and edit files in a DITA map in the Editor.
+In addition to editing map files directly from the Editor, you can also open topic files in a map for editing the Editor. This topic walks you through the features in the Map Editor and how you can open and edit files in a DITA map in the Editor.
 
 ## Add topics to a map file 
 
-Perform the following steps to build your map file using the Advanced Map Editor:
+Perform the following steps to build your map file using the Map Editor:
 
-1.  In the Assets UI, navigate to the map file that you want to edit.
-
-    >[!NOTE]
-    >
-    > Ensure that you have not enabled the asset Select mode.
-
-1.  To get an exclusive lock on the map file, select the map file and then select the **Checkout** opption on the top.
-
-    >[!NOTE]
-    >
-    > Once you have an exclusive lock on a map file, other users would not be able to edit the map. However, they would be able to work on the topics within the map file. If your administrator has configured your Editor to lock files before editing, then you will not be able to edit a file until you lock it. 
-
-1.  With the map file selected, select **Edit Topics**.
-
-    ![](images/edit-map-main-menu.png){width="800" align="left"}
-
-    Or, you can also select the **Edit Topics** option from the action menu on the map file:
-
-    ![](images/edit-map-action-menu.png){width="800" align="left"}
-
-    The map file is opened for editing in the in the Editor.
-
-    >[!NOTE]
-    >
-    > If you have recently accessed the map file that you want to edit, you can view the file in the [Recents files widget on the Home page](./intro-home-page.md#overview) and open it in the Editor.  
-
+1. In the Repository view, navigate to and open the map file that you want to edit.
 1.  Select the **Edit** icon.
 
     ![](images/edit-map-icon.png){width="550" align="left"}
-
-    The map is opened in the Advanced Map Editor interface. If you have opened a new map file, then only the title of the map is shown in the editor.
+   
+2. The map file opens in the Map Editor. If you have opened a new map file, then only the title of the map is shown in the editor.
 
     ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
-    -   **A** - \(*Main toolbar*\): This is similar to the Editor's main toolbar. View [Main toolbar](./web-editor-features.md#main-toolbar) in the Editor for more details.
+        
+    -   **A** - \(*Tab bar*\): This is similar to the Editor's tab bar. View [tab bar](./web-editor-features.md#tab-bar) in the Editor for more details.
 
-    -   **B** - \(*Secondary toolbar*\) This is the Secondary toolbar that allows you to work with map files. For more information about the functionalities available through Secondary toolbar, view [Features available in the Advanced Map Editor's toolbar](#features-available-in-the-advanced-map-editors-toolbar).
+    -   **B** - \(*Toolbar*\) This is the toolbar that allows you to work with map files. For more information about the functionalities available through the toolbar, view [Features available in the Map Editor's toolbar](#features-available-in-the-advanced-map-editors-toolbar).
     
     -   **C** - \(*Map views*\): Allows you to switch the Map Editor between the Layout, Author, Source and Preview. The **Layout** view allows you to organize the topics in a DITA map. This gives the tree or hierarchical view of the map. The **Author** view allows you to edit the topics in the Map Editor. This also gives the WYSIWYG view of the map file. The **Source** view allows you to work with the underlying XML of the map file. The Preview gives you a consolidated view of all topic and sub-maps within the map file. 
 
@@ -93,14 +69,46 @@ Perform the following steps to build your map file using the Advanced Map Editor
 
 1.  Select **Save**.
 
+## Add topics to a map file from the Assets UI
 
-## Features available in the Advanced Map Editor's toolbar 
+Perform the following steps to access and open a file in the Editor from the Assets UI:
 
-The toolbar in the Advanced Map Editor is similar to the topic Editor. The basic operations like toggling the left panel, saving map, creating a new version of map, undo/redo last operation, and delete the selected elements are common in both editors. For detail about how these operations work, view [Know the Editor features](web-editor-features.md#) section.
+1.  In the Assets UI, navigate to the map file that you want to edit.
 
-The following map-specific operations are also available on the toolbar in the Layout and Author views:
+    >[!NOTE]
+    >
+    > Ensure that you have not enabled the asset Select mode.
 
-## Layout view {#id205DEC0005Z_layout_view}
+1.  To get an exclusive lock on the map file, select the map file and then select the **Checkout** opption on the top.
+
+    >[!NOTE]
+    >
+    > Once you have an exclusive lock on a map file, other users would not be able to edit the map. However, they would be able to work on the topics within the map file. If your administrator has configured your Editor to lock files before editing, then you will not be able to edit a file until you lock it. 
+
+1.  With the map file selected, select **Edit Topics**.
+
+    ![](images/edit-map-main-menu.png){width="800" align="left"}
+
+    Or, you can also select the **Edit Topics** option from the action menu on the map file:
+
+    ![](images/edit-map-action-menu.png){width="800" align="left"}
+
+    The map file is opened for editing in the in the Editor. To add topics to the map file, follow the steps (4-8) in [Add topics to a map file](#add-topics-to-a-map-file).
+
+## Features available in the Map Editor's toolbar 
+
+The toolbar in the Map Editor is similar to the topic Editor. The basic operations like toggling the left panel, saving map, creating a new version of map, undo/redo last operation, and delete the selected elements are common in both editors. For detail about how these operations work, view [Know the Editor features](web-editor-features.md#) section.
+
+The options that you view in the editor toolbar are based on the Map Editor view. There are four view that are available in the Map editor:
+
+- [Layout](#layout-view)
+- [Author](#author-view)
+- [Source](#source-view)
+- [Preview](#preview)
+    
+The following sections cover the toolbar options available in the different views of the Map Editor:
+
+### Layout view
 
 When you open a map for editing it opens the Layout view of the Map Editor.The Layout view displays the map hierarchy in a tree view and allows you to organize the topics in a map.
 
@@ -108,20 +116,20 @@ When you open a map for editing it opens the Layout view of the Map Editor.The L
 >
 > The Layout view only displays the references present in a map. If any references are broken, then a small cross symbol is displayed on the left of the reference
 
-You can perform the following tasks in the Layout view:
+The following options are available on the toolbar in the Layout view:
 
-**Insert Topic reference** - ![](images/insert-topic-reference.png)
+**Topic reference** - ![](images/insert-topic-reference.png)
 
 Displays the topic search dialog. Navigate to the topic/map file that you want to insert and click **Select** to add it to the map. 
 
 ![](images/insert-topic-reference-dialog.png){width="800" align="left"}
 
 
-**Insert Topic group** – ![](images/insert-topic-group.png)
+**Topic group** – ![](images/insert-topic-group.png)
 
 Insert the `topicgroup` element. For more information about grouping topics, view the [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentation in OASIS DITA Language Specification.
 
-**Insert Key definition** – ![](images/Key_icon.svg)
+**Key definition** – ![](images/Key_icon.svg)
 
 Displays the Insert Keydef dialog. Use this dialog to define any key definition that you want to use in the map.
 
@@ -151,7 +159,7 @@ Select the up or down arrow icons' to move the topic up or down in the hierarchy
 >
 > You can also drag-and-drop the references to move them in a map.
 
-**Lock/Unlock** - ![](images/LockClosed_icon.svg) / ![](images/LockOpen_icon.svg)
+**Lock/Unlock**  
 
 Gets a lock on the map file and release the lock. If you have unsaved changes in your map file, then at the time of releasing the lock, you are prompted to save the map file. The changes are saved in the current version of the map file.
 
@@ -212,33 +220,11 @@ In addition to organizing topics in the map file, you can also perform the follo
 
 If you have applied any conditions on a topic, a filter icon is displayed on the right of the topic. When you hover your pointer over a filter icon, you are shown the applied condition and its attribute value.
 
+### Author view
 
-## Right panel in the Map Editor 
+The **Author** view allows you to edit your DITA map in the Editor. This shows the WYSIWYG view of the Map Editor and some of the icons displayed in Author view are same as the Layout view. 
 
-The right panel displays the Content Properties and the Map Properties in the Layout view of the Map Editor.
-
-**Content properties**
-
-The Content properties panel contains information about the type of currently selected topic in the map, its link URL, and its attributes. For more details, view [Content Properties](web-editor-features.md#right-panel) in the Editor.
-
--   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under the **Display attributes** tab in the editor settings. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the platform attribute defined as 'Android'.
-
-    ![layout view](images/layout-inline-attributes.png){width="650" align="left"}
-
-   
-    For more details, view the *Display attributes* within the *Settings* feature description in the [Editor](web-editor-features.md#main-toolbar).
-
--   **Metadata** Using the metadata , you can set the metadata information. You can define the Nav Title, Link Text, Short Description, and Keywords.
-
-For more information about the standard topic attributes and metadata, view the [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentation in OASIS DITA Language Specification.
-
-**Map properties**
-
-Displays the Map Properties dialog wherein you can set the attributes and metadata information for the map.
-
-## Author view
-
-The **Author** view allows you to edit your DITA map in the Editor. This shows the WYSIWYG view of the Map Editor and some of the icons displayed in Author view are same as the Layout view. In addition, you can see the following icons and perform the related tasks from the Author view:
+In addition, you can view the following icons and perform the related tasks from the Author view:
 
 **Insert before/Insert after** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -247,6 +233,9 @@ Displays the **Insert element before**or **Insert element after**  dialog box. S
 **Element** - ![](images/Add_icon.svg)
 
 Displays the **Insert element** dialog box. Select the element that you want to insert. You can use the keyboard to scroll through the list of elements and press Enter to insert the required element. Alternatively, you can click directly on the element to insert it in the map.
+
+
+
 
 <!-----------------------------------------------------------
 
@@ -332,6 +321,42 @@ You can keep a track of all updates made in the map file by enabling the Track C
 
 You can create a review task of the current topic or map file directly from the Editor. Open the file for which you want to create the review task and select **Create review task** to initiate the review creation process. Follow the instructions given in the [Review topics or maps](review.md#) for more details.
 
+### Source view
+
+This view allows you to edit content in its raw format, providing full control over the structure and formatting.
+
+In this view, the toolbar provides basic content editing and insertion options including Cut, Copy, Undo, Redo, Delete, Find and replace, Version label, Merge, Save as new version, Lock and Unlock.
+
+### Preview
+
+The Preview mode renders the content as it will appear in the final output, enabling you to review the layout and formatting before publishing it. 
+
+No content editing or insertion options are availble in the toolbar in the Preview mode. You can not edit the content in this view. However, you can use the **Save as new version** and **Lock** or **Unlock** features. 
+
+## Right panel in the Map Editor 
+
+The right panel displays the Content Properties and the Map Properties in the Layout view of the Map Editor.
+
+**Content properties**
+
+The Content properties panel contains information about the type of currently selected topic in the map, its link URL, and its attributes. For more details, view [Content Properties](web-editor-features.md#right-panel) in the Editor.
+
+-   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under the **Display attributes** tab in the editor settings. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the platform attribute defined as 'Android'.
+
+    ![layout view](images/layout-inline-attributes.png){width="650" align="left"}
+
+   
+    For more details, view the *Display attributes* within the *Settings* feature description in the [Editor](web-editor-features.md#main-toolbar).
+
+-   **Metadata** Using the metadata , you can set the metadata information. You can define the Nav Title, Link Text, Short Description, and Keywords.
+
+For more information about the standard topic attributes and metadata, view the [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentation in OASIS DITA Language Specification.
+
+**Map properties**
+
+Displays the Map Properties dialog wherein you can set the attributes and metadata information for the map.
+
+
 ## Edit topics through DITA map {#id17ACJ0F0FHS}
 
 Editing an individual topic doesn't give the complete context to the author. An author would have no information about where a topic is placed in a DITA map. Without this contextual information, it becomes a bit difficult for authors to create content.
@@ -340,32 +365,15 @@ Experience Manager Guides allows authors to open a DITA map in the Editor and vi
 
 To edit topics through a DITA map, perform the following steps:
 
-1.  In the Assets UI, navigate to the DITA map that contains the topics that you want to edit.
-1.  Select the DITA map to open it in DITA map console.
-1.  Select the **Topics** tab to view a list of topics available in the DITA map.
+1. In the Repository panel, navigate to and open the DITA map file that you to want to edit. 
 
-    >[!TIP]
-    >
-    > The Topics tab gives you an option to download the map file with its dependents. For more details, view [Export a DITA map file](authoring-download-assets.md#id218UBA00IXA).
+    The map file opens in the Map view. 
 
-1.  In the main toolbar, select **Edit Topics**.
+>[!NOTE]
+>
+> You can also use the Assets UI to open a DITA map file. Navigate to the DITA map file that contains the topics you want to edit and select **Edit Topics** in the main toolbar to launch the Editor.
 
-    The DITA map opens in the Editor.
-
-    >[!NOTE]
-    >
-    > You can also select the DITA map file in the Assets UI and select **Edit Topics** in the main toolbar to launch the Editor.
-
-    ![](images/web-editor-map-view_cs.png){width="350" align="left"}
-
-1.  \(*Optional*\) You can also select a topic from the map and lock the file before editing. To lock file\(s\), select one or more files from the left pane and select **Lock**. You can also release the lock on any file by selecting the locked file and selecting the **Unlock** icon in the Map view.
-
-    >[!IMPORTANT]
-    >
-    > If your administrator has configured the **Disable edit without locking the file** option, then you must lock the file before editing. 
-
-    
-1.  Select any topic link to open it in the Editor for editing.
+1. Select any topic link to open it in the Editor for editing.
 
     You can open multiple topics in the editor and each topic is opened in a new tab in the editor. Even if your DITA map contains sub-maps, topics from the sub-maps are also opened in a new tab for editing. If you want to view the topics under a sub-map, you can click and expand the sub-map.
 
@@ -390,12 +398,10 @@ To edit topics through a DITA map, perform the following steps:
     -   If your administrator has enabled the option of unlocking files on close, then you will be shown a prompt to save files whenever the locked files are closed. With this option enabled, when you close the editor with changed files, you are shown the list of locked files that need to be saved. The locked files are shown with a lock icon:
 
         ![](images/save-on-close-new.png){width="550" align="left"}
-      
-
-
+ 
 ## Preview a map 
 
-In addition to be able to see the position of each topic file within a map, it is desirable to view the map content in one consecutive flow. The Preview map feature allows you to view the entire content of the map file in a single click. You don't have to generate an output of the map file to see how the entire map will look like once published. You can simply access the map's preview and all topics and sub-maps are rendered in the form of a book.
+In addition to be able to see the position of each topic file within a map, it is desirable to view the map content in one consecutive flow. The Preview map feature allows you to view the entire content of the map file in a single click. You don't have to generate an output of the map file to view how the entire map will look like once published. You can simply access the map's preview and all topics and sub-maps are rendered in the form of a book.
 
 You can access a map's preview from:
 
@@ -405,7 +411,7 @@ You can access a map's preview from:
     >
     > If the *Preview Map* option is not visible in the main toolbar, it might have moved under the **More** toolbar menu.
 
--   **Advanced Map Editor**: In the Advanced Map Editor, select **Preview** from the options menu to view the preview of the current map.
+-   **Map Editor**: In the Map Editor, select **Preview** from the options menu to view the preview of the current map.
 
     ![](images/map-preview-icon.png){width="350" align="left"}
 

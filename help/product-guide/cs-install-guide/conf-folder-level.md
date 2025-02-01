@@ -401,9 +401,41 @@ If you have updated an existing output preset, or you want to make a new output 
 
 
 
-## Configure AI-powered smart suggestions in the Web Editor {#conf-ai-smart-suggestions}
+## Configure AI Assistant for smart help and authoring 
 
 For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
+
+The AI Assistant in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your content through smart authoring and content reuse experiences. It brings together two robust AI features — **Authoring** and **Help** — into the Experience Manager Guides interface, enabling you to author documents and access information faster and more efficiently. 
+
+The following sections walk you through the configuration steps required for AI Assistant.
+
+- [Enable AI Assistant configuration](#enable-ai-assistant-configuration)
+- [Configure AI-powered smart suggestions](#configure-ai-powered-smart-suggestions)
+- [Configure AI-powered smart help](#configure-ai-powered-smart-help)
+
+### Enable AI Assistant configuration
+
+To use the GenAI based smart help and content reuse features of AI Assistant, enable the functionality by performing the following steps:
+
+1.	Open Adobe Experience Manager and then select your program which contains the environment you want to configure.
+2.	Switch to the Environments tab.
+3.	Select the environment name which you want to configure. This should navigate you to the Environment Information page.
+4.	Switch to the Configuration tab.
+5.	Select Add/Update.
+6.	Add the `ENABLE_GUIDES_AI`flag. Ensure you are using the same name and configuration as given in the following screenshot.
+
+    ![](assets/conf-folder-ai-assistant-enable.png){width="300" align="left"}
+ 
+    Setting the flag to **true** enables the functionality, while setting it to **false** disables it.
+
+
+To enable the AI Assistant feature on the Experience Manager Guides UI, enusre that the **AI Assistant** option is enabled in the **Settings**. 
+
+For more details, view [Know the editor features](../user-guide/web-editor-features.md).
+
+![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+
+### Configure AI-powered smart suggestions
 
 You can configure the AI-powered smart suggestions and help the authors reuse the existing content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of  **Suggest reusable content** from the AI Assistant panel in the Web Editor.
 
@@ -437,10 +469,7 @@ Perform the following steps to configure standard AI configuration at the global
 
 Learn more about how to view and add [AI-based smart suggestions](../user-guide/authoring-ai-based-smart-suggestions.md) to add content references while authoring in the Web Editor.
 
-
-
-
-## Configure AI-powered Smart Help in the Web Editor {#conf-ai-guides-assistant}
+### Configure AI-powered smart help
 
 For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 

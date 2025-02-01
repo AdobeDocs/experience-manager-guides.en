@@ -1,13 +1,13 @@
 ---
 title: Other features in the map editors
-description: Discover some common features in the Basic and Advanced Map Editors. Learn how to resolve key references in the Map editor.
+description: Discover some common features in the Map Editor. Learn how to resolve key references in the Map editor.
 exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
 ---
-# Other features in the map editors {#id1942D0T0HUI}
+# Other features in the map editor {#id1942D0T0HUI}
 
-Some common features in the Basic and Advanced Map Editors are:
+Some common features in the Map Editor are:
 
 ## Resolve key references {#id176GD01H05Z}
 
