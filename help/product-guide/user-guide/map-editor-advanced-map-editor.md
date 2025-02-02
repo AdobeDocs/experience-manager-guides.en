@@ -118,7 +118,7 @@ When you open a map for editing it opens the Layout view of the Map Editor.The L
 
 The following options are available on the toolbar in the Layout view:
 
-**Topic reference** - ![](images/insert-topic-reference.png)
+**Topic reference** - ![](images/insert-topic-reference.svg)
 
 Displays the topic search dialog. Navigate to the topic/map file that you want to insert and click **Select** to add it to the map. 
 
@@ -193,7 +193,7 @@ Shows or hides a checkbox for each topic. You can use the checkbox to select the
 
 **Options menu in the layout view**
 
-In addition to organizing topics in the map file, you can also perform the following actions using the Options menu available for an element in the Layout view:
+In addition to organizing topics in the map file, you can also perform the following actions using the Options menu that appears on hovering over a file or right-clicking within the editor in the layout view:
 
 ![](images/map-editor-options-menu.png){width="650" align="left"}
 
@@ -341,7 +341,7 @@ The right panel displays the Content Properties and the Map Properties in the La
 
 The Content properties panel contains information about the type of currently selected topic in the map, its link URL, and its attributes. For more details, view [Content Properties](web-editor-features.md#right-panel) in the Editor.
 
--   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under the **Display attributes** tab in the editor settings. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the platform attribute defined as 'Android'.
+-   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under the **Display attributes** tab in the editor settings. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the `audience` attribute are defined as `US`.
 
     ![layout view](images/layout-inline-attributes.png){width="650" align="left"}
 
