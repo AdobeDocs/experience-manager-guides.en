@@ -34,7 +34,7 @@ The map is created at the specified path. Also, the map is opened in the Map Edi
 
 ![](images/map-file-in-map-editor.png){width="300" align="left"}
 
-## Create a map from te Assets UI
+## Create a map from the Assets UI
 
 You can also create a map file from the Assets UI and open it in the Map Editor for editing. 
 
