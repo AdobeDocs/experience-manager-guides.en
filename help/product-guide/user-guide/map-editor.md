@@ -27,11 +27,9 @@ This topic walks you through the process of creating a DITA map and then using t
 
 -   **[Create maps based on customized templates](create-maps-customized-templates.md)**  
 
--   **[Work with the Advanced Map Editor](map-editor-advanced-map-editor.md)**  
+-   **[Work with the Map Editor](map-editor-advanced-map-editor.md)**  
 
--   **[Work with the Basic Map Editor](map-editor-basic-map-editor.md)**  
-
--   **[Other features in the map editors](map-editor-other-features.md)**  
+-   **[Other features in the Map Editor](map-editor-other-features.md)**  
 
 
 **Parent topic:**[Author content using AEM Guides](authoring-content-xml-doc.md)

@@ -25,8 +25,8 @@ Adobe Experience Manager Guides allows you to create customized maps and topics 
 
 
 You can create map and topic templates in the following ways:
-1. Templates pane of the [Left panel](./web-editor-features.md#templates)
-1. [Templates in Assets UI](#templates-assets-ui)
+1. [Left panel of the Editor](./web-editor-features.md#templates)
+1. [Assets UI](#templates-assets-ui)
 1. [Options menu](#options-menu)
 
 ### Templates in Assets UI 

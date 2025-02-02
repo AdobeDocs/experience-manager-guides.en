@@ -1,6 +1,6 @@
 ---
 title: Document state
-description: Learn the types of document states in AEM Guides. Know how to change or view the document state and use the document state in DDLC.
+description: Learn the types of document states in Adobe Experience Manager Guides. Know how to change or view the document state and use the document state in DDLC.
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
@@ -25,9 +25,20 @@ You can also manually change the document state for a single or multiple documen
 >
 > A document can exist in only one state at a time.
 
-## Change document state 
+## Change document state from the Editor
 
 To change the state of a document, perform the following steps:
+
+1. Open the document in the Editor and then select File properties from the Right panel.
+1. In the File properties panel, select the new state from the **Document state** dropdown. You can select only those document states that are allowed in the State Transition section of the Document State profile.
+
+    >[!NOTE]
+    >
+    >Administrators can view all document states and change the document to any possible state. 
+
+1. Select **Save** in the confirmation prompt. 
+
+## Change document state from the Assets UI
 
 1.  In the Assets UI, select one or more documents for which you want to change the document state.
 1.  In the main toolbar, select **Properties**.
@@ -39,7 +50,7 @@ To change the state of a document, perform the following steps:
 
 1.  Select **Save & Close**.
 
-## View document state 
+### View document state 
 
 The card view of the Assets UI shows the current state along with the creation date and size of the respective DITA topic or DITA map.
 
