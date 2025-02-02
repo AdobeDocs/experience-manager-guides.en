@@ -27,7 +27,7 @@ Perform the following steps to build your map file using the Map Editor:
         
     -   **A** - \(*Tab bar*\): This is similar to the Editor's tab bar. View [tab bar](./web-editor-features.md#tab-bar) in the Editor for more details.
 
-    -   **B** - \(*Toolbar*\) This is the toolbar that allows you to work with map files. For more information about the functionalities available through the toolbar, view [Features available in the Map Editor's toolbar](#features-available-in-the-advanced-map-editors-toolbar).
+    -   **B** - \(*Toolbar*\) This is the toolbar that allows you to work with map files. For more information about the functionalities available through the toolbar, view [Features available in the Map Editor's toolbar](#features-available-in-the-map-editors-toolbar).
     
     -   **C** - \(*Map views*\): Allows you to switch the Map Editor between the Layout, Author, Source and Preview. The **Layout** view allows you to organize the topics in a DITA map. This gives the tree or hierarchical view of the map. The **Author** view allows you to edit the topics in the Map Editor. This also gives the WYSIWYG view of the map file. The **Source** view allows you to work with the underlying XML of the map file. The Preview gives you a consolidated view of all topic and sub-maps within the map file. 
 
@@ -99,7 +99,7 @@ Perform the following steps to access and open a file in the Editor from the Ass
 
 The toolbar in the Map Editor is similar to the topic Editor. The basic operations like toggling the left panel, saving map, creating a new version of map, undo/redo last operation, and delete the selected elements are common in both editors. For detail about how these operations work, view [Know the Editor features](web-editor-features.md#) section.
 
-The options that you view in the editor toolbar are based on the Map Editor view. There are four view that are available in the Map editor:
+The options that you view in the editor toolbar are based on the Map Editor view. There are four views that are available in the Map Editor:
 
 - [Layout](#layout-view)
 - [Author](#author-view)
