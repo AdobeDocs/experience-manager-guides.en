@@ -35,3 +35,31 @@ Learn about [upgrade instructions for the 2024.12.0 release](./upgrade-instructi
 ## Translation
 
 - Map translation using baseline becomes slow and eventually fails to load the list of all the associated topics and maps files. (19733)
+
+## Known issues with workaround
+
+Adobe has identified the following known issues in the 2024.12.0 release of Adobe Experience Manager Guides as a Cloud Service.
+
+**Project creation fails while processing content translation**  
+
+While sending content for translation, the project creation fails with the following log errors:
+
+`com.adobe.cq.wcm.translation.impl.TranslationPrepareResource` Error while processing Translation project
+
+`com.adobe.cq.projects.api.ProjectException`: Unable to create the project
+
+Caused by: `org.apache.jackrabbit.oak.api.CommitFailedException`: `OakAccess0000`: Access denied
+
+
+**Workaround**: To resolve this issue, perform the following workaround steps:
+
+1. Add a repoinit file. In case, the file does not exist, create the file by performing the [sample repoinit config creation steps](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854). 
+2. Add the following line in the file and deploy the code:
+
+    ```
+    { "scripts": [ "set principal ACL for translation-job-service\n allow jcr:all on /home/users/system/cq:services/internal/translation\nend" ] }
+
+    ```
+
+3. Test the translation after deployment. 
+ 
