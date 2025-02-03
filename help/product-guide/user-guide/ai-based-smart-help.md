@@ -55,9 +55,12 @@ This smart feature helps you find solutions quickly and lets you focus on your d
 
 ## Options available for AI Assitant Help responses
 
-When you receive a response to your query from the AI Assistant, you can take the following actions to engage with or provide feedback on the content:
+When you receive a response from AI Assistant in the **Help** panel, you can interact with it or provide feedback to enhance its accuracy and reliability. Your feedback helps the Experience Manager Guides team enhance the accuracy and relevance of AI Assistant responses, improving its performance over time. 
+
+The following options are available to engage with or provide feedback on the responses provided by AI Assistant **Help** panel:
 
 - **Copy**: Copy the response text for use in your documents.
 - **Like**: Indicate that the response was helpful or accurate.
 - **Dislike**: Mark the response as unhelpful or incorrect.
 - **Report**: Flag the response for review if it contains errors or inaccurate content.
+
