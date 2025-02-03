@@ -58,7 +58,7 @@ Learn about [upgrade instructions for the 2025.02.0 release](upgrade-instruction
 - The title and icon of the **Force delete** dialog box are misaligned in the Assets UI. (21933) 
 - When any JSON is updated in the folder profile for XML Editor Configuration, the save operation disrupts the XML Editor Configuration. (22414)
 - When duplicating any folder profile, its admin user list also gets copied from the original folder profile. (19067)
-- When moving large folders (containing a large volume of DITA content, up to 200,000 items) from Assets UI within the Digital Asset Management (DAM) system, an error occurs. (20107)
+- When moving large folders (containing a large volume of DITA content, up to 200,000 items) from Assets UI, an error occurs. (20107)
 - When using dynamic title with `<conkeyref>`, it does not resolve properly in **Guides Report Topic list**. (20144)
 - Editing the **Folder** profile with unified shell enabled, leads to blank UI. (22212)
 - When deleting folders containing large number of files, the operation fails. (17107)
