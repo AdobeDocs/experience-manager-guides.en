@@ -417,12 +417,12 @@ The following sections walk you through the configuration steps required for AI 
 
 To use the GenAI based smart help and content reuse features of AI Assistant, enable the functionality by performing the following steps:
 
-1.	Open Adobe Experience Manager and then select your program which contains the environment you want to configure.
-2.	Switch to the Environments tab.
-3.	Select the environment name which you want to configure. This should navigate you to the Environment Information page.
-4.	Switch to the Configuration tab.
-5.	Select Add/Update.
-6.	Add the `ENABLE_GUIDES_AI`flag. Ensure you are using the same name and configuration as given in the following screenshot.
+1. Open Adobe Experience Manager and then select your program which contains the environment you want to configure.
+2. Switch to the Environments tab.
+3. Select the environment name which you want to configure. This should navigate you to the Environment Information page.
+4. Switch to the Configuration tab.
+5. Select Add/Update.
+6. Add the `ENABLE_GUIDES_AI`flag. Ensure you are using the same name and configuration as given in the following screenshot.
 
     ![](assets/conf-folder-ai-assistant-enable.png){width="300" align="left"}
  

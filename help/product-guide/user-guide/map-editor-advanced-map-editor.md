@@ -20,7 +20,7 @@ Perform the following steps to build your map file using the Map Editor:
 
     ![](images/edit-map-icon.png){width="550" align="left"}
    
-2. The map file opens in the Map Editor. If you have opened a new map file, then only the title of the map is shown in the editor.
+1. The map file opens in the Map Editor. If you have opened a new map file, then only the title of the map is shown in the editor.
 
     ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
