@@ -4,7 +4,7 @@ description: Learn how to Use the AI Assistant to search and author documents sm
 ---
 # AI Assistant(Beta) overview 
 
-When authoring content, it can be time-consuming to search for specific information within the [Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview). You may, sometimes, need to navigate through multiple documents before you find the right instructions. Also, as a technical writer, you may not want to spend time on constant editing and reworking, that could be better spent on creating new content.
+When authoring content, it can be time-consuming to search for specific information within the [Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview). You may, sometimes, need to navigate through multiple documents before you find the right instructions. Also, as an author, you may not want to spend time on constant editing and reworking, that could be better spent on creating new content.
 
 **AI Assistant** addresses this gap efficiently and helps shift your focus back to writing, improving your productivity and the overall authoring experience. 
 
@@ -30,15 +30,25 @@ For more details, view [Help](./ai-based-smart-help.md).
 
 For questions about security and privacy concerns, view [AI Assistant security FAQ](./ai-assistant-faq.md).
 
+For steps on configuring AI Assistant, view the [Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring) section in **Configure global or folder profile levels** document. 
+
 ## Get started with AI Assistant
 
-When you use the **AI Asistant** for the first-time, you are prompted to submit your consent before you use the Experience Manager Guides Generative AI features. Perform the following steps to submit your consent:
+When you use the **AI Asistant** for the first-time, you are prompted to submit your consent before you use the Experience Manager Guides Generative AI features. 
+
+Perform the following steps to launch AI Assistant: 
 
 1. Login to Experience Manager Guides
-1. On the Home page, select AI Assistant. 
+1. On the Home page, select **AI Assistant** from the top.   Ensure that the AI Assistant feature is enabled by your administrator. 
 
-    The AI Assistant page is displayed highlighting its key fetaures, general guidelines, and a **Learn More** link.
-1. Read the content carefully and select **Learn more** to submit your consent.
-1.   
+    The AI Assistant page is displayed highlighting its key fetaures, user guidelines link, and a **Get started** button.
+
+    ![Smart Help panel](images/get-started-ai.png){width="300" align="left"}
+
+1. Read the user guidelines carefully and then select  **Get started** to launch the AI Assistant. 
+
+
+
+
 
 

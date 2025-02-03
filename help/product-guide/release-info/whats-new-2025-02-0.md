@@ -54,13 +54,9 @@ For more details, view [AI Assistant in Experience Manager Guides](../user-guide
 
 ![](assets/ai-assistant-panel.png){width="300" align="left"}
 
-## AEM Sites publishing now made more seamless and intuitive
+## Introducing new AEM Sites publishing with more enhanced features
 
-Introducing single topic publishing to AEM Sites pages that allows you to publish individual topics directly to Adobe Experience Manager Sites pages. This means, you no longer need to create and publish an entire map if you want to publish a single topic. This streamlines the publishing process, making it more efficient when working with standalone content, such as marketing collateral, monthly newsletters, or any other standalone content. 
-
-![](assets/aem-sites-page-generate.png){width="300" align="left"}
-
-Also, experience faster and scalable publishing to AEM Sites with the all-new publishing engine, optimized with composite component mapping and a new editable template. With New AEM Sites publishing, you can access all topics present in your DITA map and selectively generate the AEM Sites output only for specific topics. 
+Experience faster and scalable publishing to AEM Sites with the all-new publishing engine, optimized with composite component mapping and a new editable template. With the new AEM Sites publishing, you can access all topics present in your DITA map and selectively generate the AEM Sites output only for specific topics. 
 
 ![](assets/aem-presets-topic-list.png){width="300" align="left"}
 
@@ -68,11 +64,19 @@ If you prefer not to use topics from the current version of your DITA map, use t
 
 Learn more about [AEM Sites publishing](../user-guide/generate-output-aem-site-web-editor.md).
 
+## Single topic publishing introduced for AEM Sites 
+
+Introducing single topic publishing to AEM Sites pages that allows you to publish individual topics directly to Adobe Experience Manager Sites pages. This means, you no longer need to create and publish an entire map if you want to publish a single topic. This streamlines the publishing process, making it more efficient when working with standalone content, such as marketing collateral, monthly newsletters, or any other standalone content. 
+
+![](assets/aem-sites-page-generate.png){width="300" align="left"}
+
+
+
 ## The all-new Markdown editor for rich authoring experience 
 
 Now, experience a cleaner, more efficient, and powerful way to author markdown topics. Experience Manager Guides introduces a new Markdown editor interface with a well organized toolbar and advanced features, including a **Side-by-side** view to author and preview content at the same time. It also enables seamless publishing of Markdown topics that are a part of a map, to multiple channels.
 
-For more details, view [Markdown authoring](../user-guide/web-editor-markdown-topic.md). 
+For more details, refer [Markdown authoring](../user-guide/web-editor-markdown-topic.md). 
 
 ![](assets/markdown-topic-side-by-side.png){width="300" align="left"}
 
@@ -115,7 +119,7 @@ The following Review enhancements have been done in the 2025.02.0 release:
 
   For more details, view [Review topics](../user-guide/review-topics.md).  
 
--  Now, you can access the review comments even when the review task is marked closed. With the latest enhancements, the Review panel features both active and closed review tasks for each project, categorized under **Active tasks** and **Closed tasks**. When you select a closed review task, the corresponding comments are displayed in the Comments panel on the right, ensuring continuous access to important review comments even after a task is closed. 
+-  Now, authors can access the review comments in the Editor even when the review task is marked closed. With the latest enhancements, the Review panel features both active and closed review tasks for each project in the Editor. When you select a closed review task, the corresponding comments are displayed in the Comments panel on the right, ensuring continuous access to important review comments even after a task is closed. 
 
    For more details, view the Review section of the [Know the Editor features](../user-guide/web-editor-features.md).
 
@@ -144,15 +148,15 @@ The following publishing enhancements has been made as part of the new release:
 
 The following content management enhancements has been made as part of the new release:
 
-**Refresh button in the Translation UI**
-
-Introducing a Refresh button in the Translation UI that allows you to refresh the translation dashboard with updated files and status.
-
 **Custom metadata fields in reports**
 
 This feature allows you to create custom metadata fields for reports. You can easily add these fields through **Settings**. Once created, you can view these fields under **Columns** in the Filter panel of the Reports, where you can select or deselect them to control their visibility. 
 
-For more details, refer [DITA map report from the Map Console](../user-guide/reports-web-editor.md)
+For more details, refer [DITA map report from the Map Console](../user-guide/reports-web-editor.md).
+
+**Refresh button in the Translation UI**
+
+Introducing a Refresh button in the Translation UI that allows you to refresh the translation dashboard with updated files and status.
 
 **Enhancement to Asset post-processing workflow** 
 

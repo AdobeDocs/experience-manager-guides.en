@@ -1,9 +1,9 @@
 ---
 title: AI-powered Smart Help to search content
-description: Learn how to view and utilize AI-powered Smart Help in the SEditor.
+description: Learn how to view and utilize AI-powered Smart Help.
 exl-id: 61a15208-9600-4bb8-adc0-feca1a0ffef3
 ---
-# AI-powered smart Help to search content
+# AI-powered smart Help for enhanced efficiency
 
 Experience Manager Guides provides the GenAI-based smart Help, a conversational search feature that helps you find relevant content from the [Adobe Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
