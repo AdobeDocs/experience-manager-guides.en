@@ -128,7 +128,7 @@ Perform the following steps to start the translation job:
 1.  To view the status of the translation job, select the ellipsis at the bottom of the **Translation Job** tile.
 
 
-After the translation completes, the status of the translation job changes to *Ready to Review*. To complete the translation process, you need to accept the translated copy and asset metadata from the Translation Job tile in the Project console.
+After the translation completes, the status of the translation job changes to *Ready to Review*. To complete the translation process, you need to accept the translated copy and asset metadata from the Translation Job tile in the Project console. If you want to start a new translation project, view [Create a translation project](translate-documents-web-editor.md).
 
 >[!NOTE]
 >
