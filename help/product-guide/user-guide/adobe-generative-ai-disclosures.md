@@ -1,11 +1,11 @@
 ---
-title: FAQ about AI Assistant in Adobe Experience Manager Guides
-description: Learn about the frequently asked questions on AI Assistant in Adobe Experience Manager Guides.
+title: Adobe Generative AI User Discloures 
+description: Learn about the Generative AI user discloures when using AI Assistant in Adobe Experience Manager Guides. 
 ---
 
-# AI Assistant user discloures  
+# Adobe Generative AI user disclosures  
 
-User Guidelines governing your access and use of Experience Manager Guides AI Assistant  are found here.
+User Guidelines governing your access and use of Adobe Experience Manager Guides Generative AI features are found [here](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
 In addition, please always use your judgment to evaluate generated output and any source attributions. Acrobat and Acrobat Reader generative AI features are built upon powerful, emerging large language model technologies that may generate outputs that are inaccurate or misleading, or otherwise reflect content that does not represent Adobe’s views. This is especially true if you try to use these features to generate outputs that are unrelated to your source document.  
 
