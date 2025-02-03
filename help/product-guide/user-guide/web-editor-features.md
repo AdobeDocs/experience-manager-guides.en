@@ -789,11 +789,11 @@ If you are in the Map View and you expand the parent map, you can lock all files
 
 In the Repository panel, the locked files are displayed with a lock icon. When you hover over this lock icon, the Locked by you/username is displayed as a tooltip. 
 
-![](images/web-editor-locked-by-icon-new.png){width=350" align="left"}
+![](images/web-editor-locked-by-icon-new.png){width="350" align="left"}
 
 As an administrator, you also get access to the **Force unlock** feature that allows you to unlock the file locked by other users. Use this feature to access the editing rights on a file locked by other users. 
 
-![](images/web-editor-force-unlock-new.png){width=350" align="left"}
+![](images/web-editor-force-unlock-new.png){width="350" align="left"}
 
 ## Left panel
 
