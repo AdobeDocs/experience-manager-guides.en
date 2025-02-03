@@ -23,7 +23,7 @@ Information in the following sections is for publishers who will use the output 
 
 -   [Use condition presets](generate-output-use-condition-presets.md#)
 
--   [Work with Baseline](baselines-overview.md#)
+-   [Work with Baseline](web-editor-baseline.md#)
 
 -   [Generate output for a DITA map from the map console](generate-output-for-a-dita-map.md#)
 

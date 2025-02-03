@@ -204,6 +204,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
       - [Publish AEM Sites pages](./user-guide/publish-aem-sites.md)
       - [Publish Knowledge Base Articles](./user-guide/web-editor-article-publishing.md)
+      - [Open files in Map console](./user-guide/open-files-map-console.md)
       - Bulk activation of content {#bulk-activation}
         - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
         - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -376,6 +377,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure the AI-powered Smart Help to search content](./cs-install-guide/conf-smart-help.md)
       - [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
       - [Configure display of UUID-based links](./cs-install-guide/conf-uuid-based-links.md)
+      -  [Configure display of pasted tables](./cs-install-guide/conf-pasted-tables.md) 
       - [Open DITA topic or map files in same tab](./cs-install-guide/open-dita-files-same-tab.md)
       - [Configure a custom panel in the left panel](./cs-install-guide/configure-custom-panel.md)
       - [Configure file auto-save in the Web Editor](./cs-install-guide/auto-save-in-editor.md)

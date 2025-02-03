@@ -1,7 +1,7 @@
 ---
 title: Configure Adobe Workfront in Experience Manager Guides 
 description: Learn how to Configure Workfront in Experience Manager Guides
-feature: Workfront Configuration
+feature: Authoring
 role: Admin
 level: Experienced
 ---
