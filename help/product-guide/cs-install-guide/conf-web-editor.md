@@ -24,7 +24,7 @@ AEM Guides comes bundled with a powerful Web Editor that allows your authors to 
 
 -   **[Configure display of UUID-based links](conf-uuid-based-links.md)**  
 
--   **[Configure display of pasted tables](conf-pasted-tables)**
+-   **[Configure display of pasted tables](conf-pasted-tables.md)**
 
 -   **[Open DITA topic or map files in same tab](open-dita-files-same-tab.md)**  
 

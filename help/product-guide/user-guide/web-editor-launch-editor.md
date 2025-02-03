@@ -102,7 +102,7 @@ To open a map in the Editor, follow these steps:
 
 You can also launch the Editor from the Experience Manager Guides Home page. The Overview section on Home page features different widgets that help you stay organized and focused. You can launch the Editor from the **Recent files** widget and **Collections** widget. 
 
-For details, view the Overview section in [Adobe Experience Manager Guides Home page experience](/intro-home-page.md#overview).
+For details, view the Overview section in [Adobe Experience Manager Guides Home page experience](./intro-home-page.md).
 
 
 ## Map console 

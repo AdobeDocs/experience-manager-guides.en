@@ -18,7 +18,7 @@ The following features are available when you [open a DITA map file in Map conso
 
 With Map console, you can efficiently generate outputs in various formats, including AEM Sites, PDF, HTML5, EPUB, JSON, and custom output through DITA-OT, Native PDF publishing, and FMPS. You can generate output for an entire DITA map or you can selectively publish only a few topics that you have updated. You can also use the Baseline publishing feature to selectively publish a specific version of your DITA map or topic.
 
-For more details, view [Output generation](./generate-output).
+For more details, view [Output generation](./generate-output.md).
 
 **Report creation and management**
 

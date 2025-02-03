@@ -1832,7 +1832,7 @@ You can also use the **Find in map** option from the **Options** menu of a map t
 
 ### PDF templates
 
-Enables you to work with various PDF templates. For details, view [PDF templates](../native-pdf/pdf-template). 
+Enables you to work with various PDF templates. For details, view [PDF templates](../native-pdf/pdf-template.md). 
 
 ### Review
 
