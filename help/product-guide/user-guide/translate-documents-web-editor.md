@@ -5,7 +5,7 @@ exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
 ---
-# Translate documents from the Editor {#id21BKF0Z0YZF}
+# Translate documents from the Map Console {#id21BKF0Z0YZF}
 
 >[!TIP]
 >
@@ -109,7 +109,7 @@ Before performing steps in this procedure, ensure that you have created the requ
 
 - If you select **Add to existing translation project**, this operation updates the existing asset entry in the project if the asset is already added and the related translation job state is in the *Draft* state.
     - If the destination language is not present in the project, a new project is created for the single-language translation project, and a new job is created for multi-language translation project.
-    - If the job is already present for the destination language and the job status isn’t in the *Draft* state, a new job is created within the same project to add the assets for translation.
+    - If the job is already present for the destination language and the job status isn't in the *Draft* state, a new job is created within the same project to add the assets for translation.
 
     >[!NOTE]
     >
@@ -214,7 +214,7 @@ Your administrator can configure the **Translation project cleanup after complet
 
 For effecting document management, Experience Manager Guides provides the ability to delete the translation projects after you have completed the translation. 
 
-You can also disable the translation projects if you want to use them later. Deleting a project deletes all files and folders present in the project. Disabling a project doesn’t delete it but maintains it in the repository. But you can’t update or edit a disabled project.  Deletion or disabling a project will not impact the translation status of any references.
+You can also disable the translation projects if you want to use them later. Deleting a project deletes all files and folders present in the project. Disabling a project doesn't delete it but maintains it in the repository. But you can't update or edit a disabled project.  Deletion or disabling a project will not impact the translation status of any references.
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
