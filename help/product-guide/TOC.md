@@ -243,7 +243,9 @@ breadcrumb-title: AEM Guides Documentation
   - [AI-powered smart Help to search content](./user-guide/ai-based-smart-help.md)
   - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
   - [AI-powered smart suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
+  - [Adobe Generative AI user disclosures](./user-guide/adobe-generative-ai-disclosures.md)
   - [FAQ](./user-guide/ai-assistant-faq.md)
+
   
 - Installation and configuration {#install-guide}
   - On-premise {#on-prem-ig}
