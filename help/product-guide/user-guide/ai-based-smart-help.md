@@ -60,7 +60,6 @@ When you receive a response from AI Assistant in the **Help** panel, you can int
 The following options are available to engage with or provide feedback on the responses provided by AI Assistant **Help** panel:
 
 - **Copy**: Copy the response text for use in your documents.
-- **Like**: Indicate that the response was helpful or accurate.
-- **Dislike**: Mark the response as unhelpful or incorrect.
-- **Report**: Flag the response for review if it contains errors or inaccurate content.
-
+- **Like**: Indicate that the response was helpful or accurate. Select the Like icon to like the response or use the **Tell us more** option to provide detailed feedback.  
+- **Dislike**: Mark the response as unhelpful or incorrect. Select the Dislike icon to like the response or use the **Tell us more** option to provide detailed feedback.  
+- **Report**: Flag the response for review if it contains errors or inaccurate content. Select the flag icon to open the **Report results** dialog. Select from the available options or provide a custom feedback. 
