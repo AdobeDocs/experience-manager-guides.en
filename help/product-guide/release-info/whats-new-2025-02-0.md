@@ -159,7 +159,7 @@ The following content management enhancements has been made as part of the new r
 
 **Custom metadata fields in reports**
 
-This feature allows you to configure custom metadata fields for reports. You can easily configure add these fields through **Settings**. Once configured, you can view these fields under **Columns** in the Filter panel of the Reports, where you can select or deselect them to control their visibility. 
+This feature allows you to configure custom metadata fields for reports through **Settings**. Once configured, you can view these fields under **Columns** in the Filter panel of the Reports, where you can select or deselect them to control their visibility. 
 
 For more details, refer [DITA map report from the Map Console](../user-guide/reports-web-editor.md).
 
