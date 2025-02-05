@@ -141,13 +141,13 @@ The following publishing enhancements has been made as part of the new release:
     
 - Introduced an option to enable or disable the DITA-OT preprocessing for Native PDF output. Enable this option if your content requires DITA-OT-based normalization or custom DITA-OT plugins during processing. This gives you greater control over how content is processed for PDF generation. By default, the setting is set to **Enabled**.
 
-    For more details, view [publish pdf output](../user-guide/generate-output-pdf.md) 
+    For more details, view [Working with PDF output preset](../user-guide/generate-output-pdf.md) 
 
     ![](assets/ditaot-setting-enabled.png){width="300" align="left"}
 
 - The Print settings for Native PDF output generation have been moved from **Templates** setting to the **Native PDF Output preset** for better usability. You can now use the same template for online and print PDFs with different print settings such as color profile.  
 
-    For more details, view [Working with PDF output preset](../web-editor/native-pdf-web-editor.md) 
+    For more details, view [Publish PDF output](../web-editor/native-pdf-web-editor.md) 
 
 - Ability to add a bookmark for the TOC page in the Native PDF output for seamless page navigation, especially in long PDFs. 
     
