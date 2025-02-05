@@ -5,7 +5,7 @@ description: Learn about the Generative AI user discloures when using AI Assista
 
 # Adobe Experience Manager Guides Generative AI user disclosures  
 
-User Guidelines governing your access and use of Experience Manager Guides AI Assistant are found [here](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
+User Guidelines governing your access and use of Experience Manager Guides AI Assistant are found [here](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.htmlS).
 
 In addition, please always use your judgment to evaluate generated output and any source attributions. Experience Manager Guides generative AI features are built upon powerful, emerging large language model technologies that may generate outputs that are inaccurate or misleading, or otherwise reflect content that does not represent Adobe’s views.   
 

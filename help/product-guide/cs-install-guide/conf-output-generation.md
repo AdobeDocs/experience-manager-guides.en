@@ -418,16 +418,20 @@ In order to validate the metadata values passed to the DITA-OT, local environmen
 >
 > If particular metadata is not present for the file, <meta\> tag with the key will not appear as the property for that file in the metadata.xml file.
 
-## Configure the DITA-OT command line arguement field on the DITA map dashboard 
+## Configure the DITA-OT command line argument field  
 
-To use the DITA-OT command line arguement field to pass root map metadata, perform the following steps:
+To use the DITA-OT command line argument field to pass root map metadata, perform the following steps:
 
 1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
-1.  In the configuration file, provide the following \(property\) details to configure the DITA-OT command line arguement field on the map dashboard.
+1.  In the configuration file, provide the following \(property\) details to configure the DITA-OT command line argument field in the Preset:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
 |`com.adobe.fmdita.config.ConfigManager`|`pass.metadata.args.cmd.line`|Boolean\(`true/false`\).**Default value**: `true`|
+
+- Setting the property value to **true** enables the DITA-OT command line functionality, allowing you to pass the metadata through DITA-OT command line.
+- Setting the property value to **false** disables the DITA-OT command line functionality. You can then, use the Property field in the Preset to pass the metadata. 
+
 
 
 ## Customize DITA element mapping with AEM components {#id1679J600HEL}
