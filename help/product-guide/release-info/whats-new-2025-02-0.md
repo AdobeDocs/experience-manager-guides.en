@@ -48,29 +48,31 @@ For more details, refer [Workfront integration](../user-guide/workfront-integrat
 ![](assets/workfront-integration-ui.png){width="800" align="left"}
 
 
-## AI Assistant (Beta) with AI-powered smart authoring and help features for enhanced productivity 
+## AI Assistant (Beta) with smart authoring and help features for enhanced productivity 
 
-Now, experience enhanced productivity with AI-powered smart authoring and help features in Experience Manager Guides. With AI Assistant, quickly find relevant content from the Experience Manager Guides documentation, use smart suggestions to reuse the content from the existing content repository and enhance productivity with one-click content enhancement features.
+Now, experience enhanced productivity with AI-powered smart authoring and help features in Experience Manager Guides. With AI Assistant, quickly find relevant content from the Experience Manager Guides documentation and save time. Also, enhance productivity with one-click content enhancement features and smart suggestions to reuse content from the existing Experience Manager Guides repository. 
 
 For more details, view [AI Assistant in Experience Manager Guides](../user-guide/ai-assistant.md).  
 
 ![](assets/ai-assistant-panel.png){width="300" align="left"}
 
-## Introducing faster and more scalable New AEM Sites publishing
+## Faster and more scalable New AEM Sites publishing engine 
 
-Experience faster and scalable publishing to AEM Sites with the all-new publishing engine, optimized with composite component mapping to reduce the number of components being created for an AEM Sites page, leading to faster page creation and faster page rendering. It is available with new, out-of-the-box editable templates which can be customized as per the requirement using Adobe Experience Manager Template editor. The templates utilize a mix of WCM core components and specialized Experience Manager Guides components to ensure that your end users get the best experience on your Sites page. You can also customize your existing templates to leverage the power of this new publishing engine.
-
-![](assets/new-aem-sites-preset.png){width="300" align="left"}
+Experience faster and scalable publishing to AEM Sites with the all-new publishing engine, optimized with composite component for faster page creation and faster page rendering. It is available with new, out-of-the-box editable templates which can be customized as your requirements using Adobe Experience Manager Template editor. The templates utilize a mix of WCM core components and specialized Guides components to ensure that your end users get the best experience on your AEM Sites pages. You can also customize your existing templates to leverage the power of this new publishing engine.
 
 Learn more about [AEM Sites publishing](../user-guide/generate-output-aem-site-web-editor.md).
 
+![](assets/new-aem-sites-preset.png){width="300" align="left"}
+
+
 ## Seamlessly publish standalone content to AEM Sites with Single topic publishing 
 
-Introducing single topic publishing to AEM Sites pages that allows you to publish individual topics directly to Adobe Experience Manager Sites pages without needing to publish an entire map.  This streamlines the publishing process, making it more efficient when working with standalone content, such as marketing collateral, monthly newsletters, or any other standalone content. Additionally, it simplifies content maintenance, allowing for quicker updates and easier management of individual topics without impacting the entire map or related content.
+Introducing single topic publishing to AEM Sites pages that allows you to publish individual topics directly to Adobe Experience Manager Sites pages without needing to publish an entire map.  This streamlines the publishing process, making it more efficient when working with standalone content, such as marketing collateral, technical bulletins, or any other standalone content. It also simplifies content maintenance by eliminating the need to create unnecessary maps for single topic publishing. 
+
+For more details, view [Publish AEM Sites pages](../user-guide/publish-aem-sites.md).
 
 ![](assets/aem-sites-page-generate.png){width="300" align="left"}
 
-For more details, view [Publish AEM Sites pages](../user-guide/publish-aem-sites.md).
 
 
 ## The all-new Markdown editor for rich authoring experience 
@@ -116,7 +118,7 @@ The following Review enhancements have been done in the 2025.02.0 release:
 
 - Now, when creating a review task, you can type in a project name to quickly locate and select it in the Project drop-down list. This enhancement removes the need to scroll through lengthy project lists, making it faster and more efficient to assign review tasks, especially when managing multiple projects. 
 
-- In the Editor and Review UI, the review comment box now support multi-line entries. You can use **Shift**+**Enter** to go the next line. You can also expand the comment box while writing the comment.   
+- In the Editor and Review UI, the review **Reply** box now support multi-line entries. You can use **Shift**+**Enter** to go the next line. You can also expand the comment box while writing the comment.   
 
   For more details, view [Review topics](../user-guide/review-topics.md).  
 
@@ -132,18 +134,20 @@ The following publishing enhancements has been made as part of the new release:
 
 - Ability to include the metadata from a topic's `prolog` element, such as copyright, author, and other details, into the page layouts when generating Native PDF output. This ensures the generated PDFs are more detailed and provide essential context, making them more informative for the reader.
 
-  For more details, view [Design a page layout](../native-pdf/design-page-layout.md#add-fields-and-metadata-add-fields-metadata). 
+  For more details, view [Add fields and metadata in page layout](../native-pdf/design-page-layout.md#add-fields-and-metadata-add-fields-metadata).
 
     ![](assets/metadata-topic-content.png){width="300" align="left"}
     
     
 - Introduced an option to enable or disable the DITA-OT preprocessing for Native PDF output. Enable this option if your content requires DITA-OT-based normalization or custom DITA-OT plugins during processing. This gives you greater control over how content is processed for PDF generation. By default, the setting is set to **Enabled**.
 
+    For more details, view [publish pdf output](../user-guide/generate-output-pdf.md) 
+
     ![](assets/ditaot-setting-enabled.png){width="300" align="left"}
 
 - The Print settings for Native PDF output generation have been moved from **Templates** setting to the **Native PDF Output preset** for better usability. You can now use the same template for online and print PDFs with different print settings such as color profile.  
 
-    For more details, view [Publish PDF output](../web-editor/native-pdf-web-editor.md) 
+    For more details, view [Working with PDF output preset](../web-editor/native-pdf-web-editor.md) 
 
 - Ability to add a bookmark for the TOC page in the Native PDF output for seamless page navigation, especially in long PDFs. 
     
@@ -155,7 +159,7 @@ The following content management enhancements has been made as part of the new r
 
 **Custom metadata fields in reports**
 
-This feature allows you to create custom metadata fields for reports. You can easily add these fields through **Settings**. Once created, you can view these fields under **Columns** in the Filter panel of the Reports, where you can select or deselect them to control their visibility. 
+This feature allows you to configure custom metadata fields for reports. You can easily configure add these fields through **Settings**. Once configured, you can view these fields under **Columns** in the Filter panel of the Reports, where you can select or deselect them to control their visibility. 
 
 For more details, refer [DITA map report from the Map Console](../user-guide/reports-web-editor.md).
 
@@ -186,5 +190,5 @@ The ability to pass root map metadata arguments through DITA-OT command line has
 
 To continue passing the metadata in DITA-OT command line, you need to update the `pass.metadata.args.cmd.line` in the `Config.Manager`.  
 
-For more details, view [Configure output generation settings](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard).
+For more details, view [Configure output generation settings](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-argument-field-to-accept-root-map-metadatament-field).
 
