@@ -13,10 +13,10 @@ In addition, please always use your judgment to evaluate generated output and an
 
 ## Attributions
 
-AI Assistant is powered by generative AI models, and the technology is still evolving and not perfect, not all answers are helpful or accurate. As a result, the AI Assistant may not find and display answers to your questions — even when the information is in your content. And rarely, the AI Assistant may provide incorrect attributions. For example, you may receive a clickable citation or cue that takes you to an unrelated section instead of providing helpful information on where the answer came from in the content. Please double-check all AI-generated responses.
+AI Assistant is powered by generative AI models, and the technology is still evolving and not perfect, not all answers are helpful or accurate. As a result, the AI Assistant may not find and display answers to your questions — even when the information is in your content. And rarely, the AI Assistant may provide incorrect attributions. 
 
 ## Feedback
 
-We provide a feedback mechanism directly within the AI Assistant to help us improve accuracy and other performance issues. This is an ongoing process, and we will continue to work together with our customers and community to harness the power of this new technology responsibly.
+We provide a feedback mechanism directly within the AI Assistant to help us improve accuracy. This is an ongoing process, and we will continue to work together with our customers and community to harness the power of this new technology responsibly.
 
 

@@ -50,15 +50,15 @@ For more details, refer [Workfront integration](../user-guide/workfront-integrat
 
 ## AI Assistant (Beta) with smart authoring and help features for enhanced productivity 
 
-Now, experience enhanced productivity with AI-powered smart authoring and help features in Experience Manager Guides. With AI Assistant, quickly find relevant content from the Experience Manager Guides documentation and save time. Also, enhance productivity with one-click content enhancement features and smart suggestions to reuse content from the existing Experience Manager Guides repository. 
+Now, experience enhanced productivity with AI-powered smart authoring and help features in Experience Manager Guides. With AI Assistant, improve efficiency with smart authoring features and smart suggestions to reuse content from the existing repository. Use smart help to quickly find relevant answers to your queries related to Experience Manager Guides features, its workflows, and more.
 
 For more details, view [AI Assistant in Experience Manager Guides](../user-guide/ai-assistant.md).  
 
 ![](assets/ai-assistant-panel.png){width="300" align="left"}
 
-## Faster and more scalable New AEM Sites publishing engine 
+## Faster and scalable New AEM Sites publishing engine 
 
-Experience faster and scalable publishing to AEM Sites with the all-new publishing engine, optimized with composite component for faster page creation and faster page rendering. It is available with new, out-of-the-box editable templates which can be customized as your requirements using Adobe Experience Manager Template editor. The templates utilize a mix of WCM core components and specialized Guides components to ensure that your end users get the best experience on your AEM Sites pages. You can also customize your existing templates to leverage the power of this new publishing engine.
+Experience faster and scalable publishing to AEM Sites with the all-new publishing engine, optimized with composite component mapping for faster page creation and rendering. It is available with new, out-of-the-box editable templates which can be customized as per your requirements using AEM Template editor. The templates utilize a mix of WCM core components and specialized Guides components to ensure that your end users get the best experience on your AEM Sites pages. You can also customize your existing templates to leverage the power of this new publishing engine.
 
 Learn more about [AEM Sites publishing](../user-guide/generate-output-aem-site-web-editor.md).
 
@@ -67,7 +67,7 @@ Learn more about [AEM Sites publishing](../user-guide/generate-output-aem-site-w
 
 ## Seamlessly publish standalone content to AEM Sites with Single topic publishing 
 
-Introducing single topic publishing to AEM Sites pages that allows you to publish individual topics directly to Adobe Experience Manager Sites pages without needing to publish an entire map.  This streamlines the publishing process, making it more efficient when working with standalone content, such as marketing collateral, technical bulletins, or any other standalone content. It also simplifies content maintenance by eliminating the need to create unnecessary maps for single topic publishing. 
+Introducing single topic publishing to AEM Sites pages that allows you to publish individual topics directly to Adobe Experience Manager Sites pages without needing to publish an entire map.  This streamlines the publishing process, making it more efficient when working with standalone content, such as marketing content, technical bulletins, or any other standalone content. It also simplifies content maintenance by eliminating the need to create maps for publishing single topics. 
 
 For more details, view [Publish AEM Sites pages](../user-guide/publish-aem-sites.md).
 
@@ -186,9 +186,9 @@ For more details, view [Map management and publishing](../user-guide/map-managem
 
 **Pass root map metadata arguments to DITA-OT command line**
 
-The ability to pass root map metadata arguments through DITA-OT command line has been deprecated as part of the release. Now, it is reccomended to use the **Property** field in the Preset to pass the required DITA-OT metadata.  
+The ability to pass root map metadata arguments through DITA-OT command line has been deprecated as part of the release. Now, it is reccomended to use the **File property** or **Metadata** field in the Preset to pass the required DITA-OT metadata.  
 
 To continue passing the metadata in DITA-OT command line, you need to update the `pass.metadata.args.cmd.line` in the `Config.Manager`.  
 
-For more details, view [Configure output generation settings](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-argument-field-to-accept-root-map-metadatament-field).
+For more details, view [Configure output generation settings](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-argument-field-to-accept-root-map-metadata).
 
