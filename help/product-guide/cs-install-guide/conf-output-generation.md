@@ -418,7 +418,7 @@ In order to validate the metadata values passed to the DITA-OT, local environmen
 >
 > If particular metadata is not present for the file, <meta\> tag with the key will not appear as the property for that file in the metadata.xml file.
 
-## Configure the DITA-OT command line argument field  
+## Configure the DITA-OT command line argument field to accept root map metadata
 
 To use the DITA-OT command line argument field to pass root map metadata, perform the following steps:
 
