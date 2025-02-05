@@ -7,7 +7,7 @@ role: User
 ---
 # DITA map report from the Map Console {#id231HF0Z0NXA}
 
-Adobe Experience Manager Guides comes with a feature in the Map Console that enables you to check the overall integrity of your references and generate reports for them.
+Adobe Experience Manager Guides comes with a feature in the Map console that enables you to check the overall integrity of your map and generate reports for it.
 
 You can view the topic list, manage the metadata of all references, view the multimedia list and fix all the broken links for the current map from the **Reports** tab in the Map Console which you can access as follows: 
 
@@ -69,7 +69,7 @@ The **Metadata report** provides a detailed report of your references in the cur
 
 You can view the metadata report of a map by performing the following steps:
 
-1.  Select **Metadata** from the Reports panel. The metadata list of all the references in the DITA map is displayed. This includes the media references also.  
+1.  Select **Metadata** from the Reports panel. The list of all references of a map is displayed along with it's metadata such as tags, document state, custom metadata. This includes the media references also.  
 
 
     ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}    
@@ -105,7 +105,7 @@ You can view the metadata report of a map by performing the following steps:
 
         >[!NOTE]
         >
-        > The metadata report is paginated. You can simply scroll down and all the new set of records keeps loading from the metadata. Also, you can select all the files that are appearing by checking in the check box appearing adjacent to **Title**. For selecting all the metadata records you can select the tab **Select all ...files** appearing above the Title bar.   
+        > You can select all the files that are appearing by checking in the check box appearing adjacent to **Title**. For selecting all the records, you can select the tab **Select all ...files** appearing above the Title bar.   
         
         ![](images/all-selection.png){width="800" align="left"}       
 
@@ -114,7 +114,7 @@ You can view the metadata report of a map by performing the following steps:
 
 **Manage metadata in bulk from the Metadata report**
 
-Experience Manager Guides allow you to tag DITA content.You can apply tags on an individual topic or use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or on a sub-map. You can also change the document state of all selected topics to the next possible common document state.
+You can apply tags on an individual topic or use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or on a sub-map. You can also change the document state of all selected topics to the next possible common document state.
 
 
 **Update metadata**
@@ -136,7 +136,7 @@ Experience Manager Guides allow you to tag DITA content.You can apply tags on an
     > The common tags applied on all the selected topics are listed.
 
 1.  Select a new document state if you want to change the document state of all the selected references. The drop-down displays the common possible state for all selected topics. For example, if the current state of your topics is In-Review, then you can view Draft, Approved, or Reviewed state.
-1.  Select **Update** to update the metadata. A confirmation message is displayed for the metadata whether it is updated successfully or has any failed updates. You also select **Download Report** to download the metadata CSV from the confirmation dialog. This CSV contains the details of the update status for the selected references.
+1.  Select **Update** to update the metadata. A confirmation message is displayed for the metadata whether it is updated successfully or has any failed updates. You also select **Download Report** to download the snapshot of the report. This CSV contains the details of the updated status for the selected references.
 
 
 **Add custom metadata columns**
@@ -192,11 +192,7 @@ The **Multimedia** report provides detailed information about the multimedia use
         ![](images/multimedia-report-used-in-order-new.png){width="650" align="left"}
 
 1.  You can filter your multimedia based on the **Multimedia Type**, and **Reference Type**. The list of multimedia files is displayed based on your selection in the drop-down. For example, you can choose to display only the audio references in your DITA map, and a file shows only the audio references used in it.
-
-    >[!NOTE]
-    >
-    > Depending on the type of multimedia used in your map, Image, Video, and Audio are listed in the **Multimedia Type** drop-down, and Direct or Indirect are listed in the **Reference Type** dropdown.
-
+    
 1.  You can also use the following filtering options to choose to display the following columns in the list:
 
     -   **Multimedia** \(selected by default\) The title of the multimedia is specified in the DITA map. You can select the multimedia to edit it.
@@ -214,7 +210,7 @@ The **Multimedia** report provides detailed information about the multimedia use
 
 ## View and fix the broken links
 
-The **Broken Links** is a useful report which provides you with the details of the broken links present in your current map. You can view the broken links, which can be for DITA topics, multimedia file references, content key references, and so on. You also have the ability to fix the them here itself.
+The **Broken Links** is a useful report which provides you with the details of the broken links present in your current map. You can view the broken links, which can be for DITA topics, multimedia file references, content key references, and so on. You also have the ability to fix them here itself.
 The report provides detailed information such as the broken link, link type, files in which reference is used, and the type of files they have been used in. 
 You can view the report for broken links by performing the following steps:
 
@@ -226,9 +222,9 @@ You can view the report for broken links by performing the following steps:
  
     – If you order by **Used In** column, you will view the transposed view wherein the names of the references in which the broken links have been used are listed in the first column while the broken links are listed in another column on the same row. For example, the following screenshot shows the reference (in which the broken link is used) `m_ElectricalSpecs_900.ditamap` in the first column and the broken links are displayed in the third column on the same row.
     ![](images/broken-link-filter-usedin-new.png){width="800" align="left"}
-1. You can filter your broken links based on the **File Type** and **Link Type**. The list of broken links is displayed based on your selection in the drop-down. For example, you can choose to display only the content references in your DITA map, and a file shows only the content references used in it.
+1. You can filter your broken links based on the **File Type** and **Link Type**. The list of broken links is displayed based on your selection in the drop-down. For example, you can choose to display only the content references in your DITA map, and a file shows only the broken content references used in it.
 
-    Depending on the type of references used in your map, DITA Topic, DITA Map, File reference, Key reference, Content Reference, Content Key Reference, Image Reference, Multimedia File Reference, and Multimedia Key Reference are listed in the **Link Type** drop-down, and DITA Topic, DITA Map, Document,Image, Video, Audio, and Others are listed in the **File Type** dropdown.
+    DITA Topic, DITA Map, File reference, Key reference, Content Reference, Content Key Reference, Image Reference, Multimedia File Reference, and Multimedia Key Reference are available values for **Link Type** drop-down, and DITA Topic, DITA Map, Document,Image, Video, Audio, and Others are available values for **File Type** dropdown.
 1. You can also use the following filtering options to choose to display the following columns in the list:
 
     – **Broken Link** (selected by default) The path of the broken link is specified in the DITA map. 

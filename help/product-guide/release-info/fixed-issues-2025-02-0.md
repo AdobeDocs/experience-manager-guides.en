@@ -30,6 +30,8 @@ Learn about [upgrade instructions for the 2025.02.0 release](upgrade-instruction
 - When copying an image from any external product (for example, MS PowerPoint) and pasting it into Guides, the functionality to upload the asset on the fly for use in the file breaks. (24983)
 - Dragging a `topicref` over another (in **Author** or **Layout** view) prompts a confirmation for replacement instead of nesting, and selecting **No** on the confirmation dialog still causes content to be replaced, leading to data loss. (18602)
 - You can't add multiple shortcuts to a single event, nor can you add an argument to an event when triggering it from a shortcut. (19066)
+- When reloading the browser, the previously closed image tab reopens. (19267)
+- Partially selecting text in a paragraph or list element and dragging it outside the element causes content loss when switching between **Author** and **Source** views. (25790)
 
 ## Publishing
 
@@ -81,15 +83,15 @@ Learn about [upgrade instructions for the 2025.02.0 release](upgrade-instruction
 
 Adobe has identified the following known issues for the 2025.02.0 release:
 
-- Using images as variables in the PDF template cover page is not resolving correctly in the PDF output.
-- Using **Locate in repository** for a topic does not scroll to the precise location of the topic.
-- Sorting by title in the **Topic list** reports is not functioning when using `<conref>` or `<conkeyref>` in the title.
+- When using images as variables in the PDF template, it does not resolves in the output.
+- When using **Locate in repository** from the Map console for a map/topic, it fails to accurately point the location if the repository is collapsed or if the map/topic is located towards the bottom of the repository.
+- In **Topic list** reports, sorting by title fails for assets with `<conref>` or `<conkeyref>` in the title, causing these entries to always appear at the top.
 - Switching the folder profile does not immediately reflect changes on the UI without refreshing the browser.
-- Extension framework is not functioning.
-- Selective publishing is not supported when there is a TOC change in the map.
-- Publishing a map containing external links and cross-references with Markdown fails on Windows server.
+- Due to changes in the Guides UI, the extension framework does not support customizations made in the previous versions of Guides.
+- The complete TOC of the map does not update when selectively publishing topics from the map.
+- Publishing a map that contains a Markdown file with internal image references, fails on Windows servers.
 - Converting a bulleted list to a numbered list still displays the bullet in the Editor.
-- Content is not being published for the Native AEM site when it involves a Markdown file.
+- Publishing to native AEM site fails when markdown files are referred in a map. 
 
 
 
