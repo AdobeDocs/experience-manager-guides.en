@@ -92,6 +92,8 @@ Adobe has identified the following known issues for the 2025.02.0 release:
 - Publishing a map that contains a Markdown file with internal image references, fails on Windows servers.
 - Converting a bulleted list to a numbered list still displays the bullet in the Editor.
 - Publishing to native AEM site fails when markdown files are referred in a map. 
+- The position of Background color is misaligned in the UI of **Condition's Panel**.
+- When you use image as a `<keyref>`, the **Reference Type** of the image is not shown in the **Multimedia report**.
 
 
 
