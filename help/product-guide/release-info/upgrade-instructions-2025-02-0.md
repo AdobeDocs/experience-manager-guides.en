@@ -27,7 +27,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 | Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
 | --- | --- | --- | --- | --- |
-| 2025.02.0| 3.7-uuid 2|   3.7-uuid 2 | 2.3 | 2.3 | 
+| 2025.02.0| 3.8 -uuid 1|   3.8 -uuid 1 | 2.3 | 2.3 | 
 |  |  |  |  |
 
 
@@ -35,7 +35,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 |Components package name| Components version | Template version|
 |---|---|---|
-|Experience Manager Guides Components Content Package for Cloud Service|dxml-components.all-1.2.2| aem-site-template-dxml.all-1.0.16|
+|Experience Manager Guides Components Content Package for Cloud Service|guides-components.all-1.3.0| aem-site-template-dxml-1.0.17|
 
 ## Upgrade to 2025.02.0 release
 
