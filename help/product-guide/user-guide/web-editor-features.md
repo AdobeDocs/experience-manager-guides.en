@@ -21,7 +21,7 @@ The following subsection cover in details the various sections of the Editor.
 
 The main toolbar is at the top of the Editor's interface and it provides access to the following features:
 
-**Save all** - ![](images/Icon%20group.svg)
+**Save all** 
 
 Saves the changes you have made in all opened topics. If you have multiple topics opened in the Editor, selecting **Save all** or using the **Crtl**+**S** shortcut keys saves all documents in one click. You do not have to individually save each document.
 
