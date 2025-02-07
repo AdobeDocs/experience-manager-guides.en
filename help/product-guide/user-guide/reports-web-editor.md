@@ -113,6 +113,8 @@ You can apply tags on an individual topic or use the bulk tagging feature to app
 
 ### Update metadata
 
+To update metadata, perform the following steps:
+
 1.  To update metadata, select the files for which you want to update. You can select the files that are appearing in the Metadata panel, by checking in the check box appearing adjacent to **Title**. If you want to select all the records, use the **Select all** tab above the Title bar as shown below.
 
     >[!NOTE]
