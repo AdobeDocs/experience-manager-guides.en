@@ -13,12 +13,6 @@ For example, you may want to ask questions like *How do I publish a map?* You ge
 
 When you open **AI Assistant** on the Homepage, Map console, or Editor, the **Help** panel opens on the right. In case of Editor, the Authoring panel also appears that give you smart authoring capabilities. For details, view [AI Assistant to author documents smartly](./ai-assistant-right-panel.md)
 
-
-
->[!NOTE]
->
-> Your administrator must configure the **Help** feature. For more details, view the [Configure the AI-powered Help to search content](../cs-install-guide/conf-smart-help.md) section in the Installation and Configuration Guide for Cloud Services. 
-
 ![Smart Help panel](images/smart-help-panel.png){width="300" align="left"}
 
 *View the **Help** panel.*
