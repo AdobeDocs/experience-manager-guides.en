@@ -11,9 +11,9 @@ In an organizational setup, you want to verify the overall completeness of your 
 
 You can access DITA map reports in two ways:
 
--   **From the Map Console**: Allows you to generate topic list, manage the metadata of all references, view the multimedia list and fix all the broken links for the current DITA map from the Editor. You can sort the topics or filter them based on your selection. You also have the feature to bulk update the metadata of the selected topics. All the reports are paginated. You can simply scroll down and the new set of records keep loading.
+-   **From the Map console**: Allows you to generate topic list, manage the metadata of all references, view the multimedia list and fix all the broken links for the current DITA map from the Editor. You can sort the topics or filter them based on your selection. You also have the feature to bulk update the metadata of the selected topics. All the reports are paginated. You can simply scroll down and the new set of records keep loading.
 
--   **From the map dashboard**: Allows you to generate the DITA map report and provides the detailed information both at map-level and topic-level.
+-   **From the Map dashboard**: Allows you to generate the DITA map report and provides the detailed information both at map-level and topic-level.
 
 -   **[DITA map report from the Map Console](reports-web-editor.md)**  
 

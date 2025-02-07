@@ -69,7 +69,7 @@ The **Metadata report** provides a detailed report of your references in the cur
 
 You can view the metadata report of a map by performing the following steps:
 
-1.  Select **Metadata** from the Reports panel. The list of all references of a map is displayed along with it's metadata such as tags, document state, custom metadata. This includes the media references also.  
+1.  Select **Metadata** from the Reports panel. The list of all references of a map is displayed along with it's metadata such as tags, document state, custom metadata. This includes the media references also. To add a new custom metadata column, view [Add custom metadata](#add-custom-metadata-columns).   
 
 
     ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}    
@@ -101,29 +101,26 @@ You can view the metadata report of a map by performing the following steps:
     -   **Document State** \(selected by default\) The current state of the reference file.
     -   **Reference Type** The type of reference – direct or indirect
     -   **File Type** \(selected by default\) Type of the source file. The available options are Map, Topic, and Image.
-    -   **Locked by** The user who has locked the file.
-
-        >[!NOTE]
-        >
-        > You can select all the files that are appearing by checking in the check box appearing adjacent to **Title**. For selecting all the records, you can select the tab **Select all ...files** appearing above the Title bar.   
-        
-        ![](images/all-selection.png){width="800" align="left"}       
+    -   **Locked by** The user who has locked the file.              
 
 
 1.  Select **Download** to download the snapshot of all the references in the DITA map. The excel sheet contains the selected columns and the references filtered in the **Metadata** view. You can then open this metadata excel file in MS Excel.
 
-**Manage metadata in bulk from the Metadata report**
+### Manage metadata in bulk from the Metadata report
 
 You can apply tags on an individual topic or use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or on a sub-map. You can also change the document state of all selected topics to the next possible common document state.
 
 
-**Update metadata**
+### Update metadata
 
-1.  To update metadata, select the files for which you want to update.
+1.  To update metadata, select the files for which you want to update. You can select all the files that are appearing by checking in the check box appearing adjacent to **Title**. For selecting all the records, you can select the tab **Select all 1329 files** appearing above the Title bar as shown below.
+
+   ![](images/all-selection.png){width="800" align="left"}  
+
 
     >[!NOTE]
     >
-    > You cannot select any checked-out files. A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user.
+    > You cannot select any checked-out files. A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user.    
 
 1.  Select **Manage** from the top.
 
@@ -139,11 +136,11 @@ You can apply tags on an individual topic or use the bulk tagging feature to app
 1.  Select **Update** to update the metadata. A confirmation message is displayed for the metadata whether it is updated successfully or has any failed updates. You also select **Download Report** to download the snapshot of the report. This CSV contains the details of the updated status for the selected references.
 
 
-**Add custom metadata columns**
+### Add custom metadata columns
 
-This feature enables you to add custom metadata columns as per requirement, which are then displayed in the metadata reports. It also provides enhanced flexibility in metadata reporting. To add new custom metadata field perform the following steps:
+This feature enables you to add custom metadata columns as per requirement, which are then displayed in the metadata reports. It also provides enhanced flexibility in metadata reporting. To add new custom metadata column perform the following steps:
 
-1.  To add a custom metadata field, select **Settings** from the three dots on the top-right corner of the metadata page.
+1.  To add a custom metadata column, select **Settings** from the three dots on the top-right corner of the metadata page.
 
     ![](images/custom-metadata-setting.png){width="600" align="left"}
 
