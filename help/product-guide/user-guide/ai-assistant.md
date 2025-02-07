@@ -45,7 +45,7 @@ Perform the following steps to launch AI Assistant:
 
 [Adobe Generative AI disclosures](./adobe-generative-ai-disclosures.md)
 
-[Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
+[Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-smart-suggestions.md)
 
 
 
