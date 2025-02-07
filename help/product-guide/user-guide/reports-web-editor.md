@@ -115,12 +115,12 @@ You can apply tags on an individual topic or use the bulk tagging feature to app
 
 1.  To update metadata, select the files for which you want to update. You can select all the files that are appearing by checking in the check box appearing adjacent to **Title**. For selecting all the records, you can select the tab **Select all 1329 files** appearing above the Title bar as shown below.
 
-   ![](images/all-selection.png){width="800" align="left"}  
-
-
     >[!NOTE]
     >
-    > You cannot select any checked-out files. A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user.    
+    > You cannot select any checked-out files. A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user.
+
+    ![](images/all-selection.png){width="800" align="left"}
+        
 
 1.  Select **Manage** from the top.
 
