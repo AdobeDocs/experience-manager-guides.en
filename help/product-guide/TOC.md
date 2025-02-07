@@ -149,8 +149,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Work with the Map Editor](./user-guide/map-editor.md)
           - [Create a map](./user-guide/map-editor-create-map.md)
           - [Create maps based on customized templates](./user-guide/create-maps-customized-templates.md)
-          - [Work with the Advanced Map Editor](./user-guide/map-editor-advanced-map-editor.md)
-          - [Work with the Basic Map Editor](./user-guide/map-editor-basic-map-editor.md)
+          - [Map Editor features](./user-guide/map-editor-advanced-map-editor.md)
           - [Other features in the map editors](./user-guide/map-editor-other-features.md)
         - DITAVAL Editor {#ditaval-editor}
           - [Work with the DITAVAL editor](./user-guide/ditaval-editor.md)

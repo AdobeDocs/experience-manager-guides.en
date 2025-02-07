@@ -1,6 +1,6 @@
 ---
-title: Work with the Map Editor
-description: Learn how to work with the map editor in Adobe Experience Manager Guides. Know the features of the Map Editor. Edit topics through a DITA map and use layout view, author view, and preview mode.
+title: Map Editor features
+description: Know the features of the Map Editor in Adobe Experience Manager Guides. Edit topics through a DITA map and use layout view, author view, and preview mode.
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
