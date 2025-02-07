@@ -18,7 +18,7 @@ The options that you view in the editor toolbar are based on the Map Editor view
     
 The following sections cover the toolbar options available in the different views of the Map Editor:
 
-### Layout view
+## Layout view
 
 When you open a map for editing it opens the Layout view of the Map Editor.The Layout view displays the map hierarchy in a tree view and allows you to organize the topics in a map.
 
@@ -130,7 +130,7 @@ In addition to organizing topics in the map file, you can also perform the follo
 
 If you have applied any conditions on a topic, a filter icon is displayed on the right of the topic. When you hover your pointer over a filter icon, you are shown the applied condition and its attribute value.
 
-### Author view
+## Author view
 
 The **Author** view allows you to edit your DITA map in the Editor. This shows the WYSIWYG view of the Map Editor and some of the icons displayed in Author view are same as the Layout view. 
 
@@ -231,13 +231,13 @@ You can keep a track of all updates made in the map file by enabling the Track C
 
 You can create a review task of the current topic or map file directly from the Editor. Open the file for which you want to create the review task and select **Create review task** to initiate the review creation process. Follow the instructions given in the [Review topics or maps](review.md#) for more details.
 
-### Source view
+## Source view
 
 This view allows you to edit content in its raw format, providing full control over the structure and formatting.
 
 In this view, the toolbar provides basic content editing and insertion options including Cut, Copy, Undo, Redo, Delete, Find and replace, Version label, Merge, Save as new version, Lock and Unlock.
 
-### Preview
+## Preview
 
 The Preview mode renders the content as it will appear in the final output, enabling you to review the layout and formatting before publishing it. 
 

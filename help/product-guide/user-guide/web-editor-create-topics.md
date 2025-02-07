@@ -40,7 +40,7 @@ Perform the following steps to create a topic from the Editor:
 
     ![](images/create-topic-dialog-new.png){width="300" align="left"}
     
-4. Select **Create**. 
+5. Select **Create**. 
     
 The map is created at the specified path. Also, the map is opened in the Map Editor for editing.
 
