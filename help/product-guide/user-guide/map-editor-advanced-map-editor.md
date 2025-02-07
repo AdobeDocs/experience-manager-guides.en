@@ -118,7 +118,7 @@ When you open a map for editing it opens the Layout view of the Map Editor.The L
 
 The following options are available on the toolbar in the Layout view:
 
-**Topic reference** - ![](images/insert-topic-reference.svg)
+**Topic reference** - ![](images/topic-reference.svg)
 
 Displays the topic search dialog. Navigate to the topic/map file that you want to insert and click **Select** to add it to the map. 
 
