@@ -61,7 +61,7 @@ You can view the topic list report of a map by performing the following steps:
     >
     > Select **Refresh** to get a fresh list of topics and view any change in your map file or if any reference within your topic file is updated.
 
-1.  Select **Download** to download the snapshot of all the topics in the DITA map. The excel sheet contains the selected columns and the topics filtered in the **Topic List** view. You can then open this topic list excel file in MS Excel.
+1.  Select **Download** to download the snapshot of all the topics in the DITA map. The excel sheet contains the selected columns and the topics filtered in the **Topic List** view.
 
 ## Metadata report
 
@@ -69,7 +69,7 @@ The **Metadata report** provides a detailed report of your references in the cur
 
 You can view the metadata report of a map by performing the following steps:
 
-1.  Select **Metadata** from the Reports panel. The list of all references of a map is displayed along with it's metadata such as tags, document state, custom metadata. This includes the media references also. To add a new custom metadata column, refer to [Add custom metadata fields](#add-custom-metadata-columns) section.   
+1.  Select **Metadata** from the Reports panel. The list of all references of a map is displayed along with it's metadata such as tags, document state, custom metadata. To add a new custom metadata column, refer to [Add custom metadata columns](#add-custom-metadata-columns) section.   
 
 
     ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}    
@@ -104,7 +104,7 @@ You can view the metadata report of a map by performing the following steps:
     -   **Locked by** The user who has locked the file.              
 
 
-1.  Select **Download** to download the snapshot of all the references in the DITA map. The excel sheet contains the selected columns and the references filtered in the **Metadata** view. You can then open this metadata excel file in MS Excel.
+1.  Select **Download** to download the snapshot of all the references in the DITA map. The excel sheet contains the selected columns and the references filtered in the **Metadata** view. 
 
 ### Manage metadata in bulk from the Metadata report
 
@@ -135,7 +135,7 @@ To update metadata, perform the following steps:
     > The common tags applied on all the selected topics are listed.
 
 1.  Select a new document state if you want to change the document state of all the selected references. The drop-down displays the common possible state for all selected topics. For example, if the current state of your topics is In-Review, then you can view Draft, Approved, or Reviewed state.
-1.  Select **Update** to update the metadata. A confirmation message is displayed for the metadata whether it is updated successfully or has any failed updates. You also select **Download Report** to download the snapshot of the report. This CSV contains the details of the updated status for the selected references.
+1.  Select **Update** to update the metadata. A confirmation message is displayed for the metadata whether it is updated successfully or has any failed updates. You also select **Download Report** to download the snapshot of the report. This snapshot contains the details of the updated status for the selected references.
 
 
 ### Add custom metadata columns
@@ -204,10 +204,10 @@ The **Multimedia** report provides detailed information about the multimedia use
     >
     > Select **Refresh** to get a fresh list of multimedia and view any change in your map file or if any multimedia within your DITA map is updated.
 
-1. Select **Download** to download the snapshot of the all multimedia in the DITA map. The excel sheet contains the selected columns and the multimedia filtered in the **Multimedia** view. You can then open this multimedia excel sheet in MS Excel.    
+1. Select **Download** to download the snapshot of the all multimedia in the DITA map. The excel sheet contains the selected columns and the multimedia filtered in the **Multimedia** view.    
 
 
-## View and fix the broken links
+## Broken links report
 
 The **Broken Links** is a useful report which provides you with the details of the broken links present in your current map. You can view the broken links, which can be for DITA topics, multimedia file references, content key references, and so on. You also have the ability to fix them here itself.
 The report provides detailed information such as the broken link, link type, files in which reference is used, and the type of files they have been used in. 
@@ -257,7 +257,7 @@ You can view the report for broken links by performing the following steps:
 1. You need to update the required reference details in the **Update Link** dialog. The details required in **Update Link** dialog would depend on the type of reference.     
 Once you fix a link, it is not displayed under the list of broken links. Instead, you can view it under the Topic List or Metadata. 
 
-1. Select **Download** to download the snapshot of all the broken links in the DITA map. The excel file contains the selected columns and the broken links filtered in the Broken Links view. You can then open and view this excel file in any MS Excel.
+1. Select **Download** to download the snapshot of all the broken links in the DITA map. The excel file contains the selected columns and the broken links filtered in the Broken Links view. 
 
 
 **Parent topic:**[Reports](reports-intro.md)
