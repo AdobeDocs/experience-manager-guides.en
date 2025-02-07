@@ -5,7 +5,7 @@ description: Learn about the Generative AI user discloures when using AI Assista
 
 # Adobe Experience Manager Guides Generative AI user disclosures  
 
-User Guidelines governing your access and use of Experience Manager Guides AI Assistant are found [here](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.htmlS).
+User Guidelines governing your access and use of Experience Manager Guides AI Assistant are found [here](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 By using Assistant "beta" (“Beta”), You hereby acknowledge that the use of Beta is provided “as is” without warranty of any kind. Adobe shall have no obligation to maintain, correct, update, change, modify or otherwise support the Beta. You are advised to use caution and not to rely in any way on the correct functioning or performance of such Beta and/or accompanying materials. The Beta is considered Confidential Information of Adobe. Adobe may use prompts, data, and other materials that are input or imported into the Beta and responses provided to You for product improvement and development. Any “Feedback” (information regarding the Beta including but not limited to problems or defects you encounter while using the Beta, suggestions, improvements, and recommendations) provided by You to Adobe is hereby assigned to Adobe including all rights, title, and interest in and to such Feedback.  
 

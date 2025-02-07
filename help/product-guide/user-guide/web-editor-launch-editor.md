@@ -30,11 +30,13 @@ To launch the Editor, go to the navigation bar, and then select **Editor** from 
 
 ![](images/editor-home-page-dropdown.png){width="350" align="left"}
 
-As you have launched the Editor without selecting any file, a blank Editor screen is shown. You can also open a file for editing from Experience Manager **Repository** or your favorite **Collections**.
+Alternatively, you can launch the Editor from the **Recent files** widget or **Collections** widget of [Adobe Experience Manager Guides Home page experience](./intro-home-page.md).
+
+As you have launched the Editor without selecting any file, a blank Editor screen is shown. You can open a file for editing from Experience Manager **Repository** or your **Collections**.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
--  Select the Adobe Experience Manager logo, located at the top-left corner of the top header, to go back to the Experience Manager Navigation page. 
+Select the Adobe Experience Manager logo, located at the top-left corner of the top header, to go back to the Experience Manager Navigation page. 
 
 
 ## Adobe Experience Manager Assets UI 
@@ -98,13 +100,6 @@ To open a map in the Editor, follow these steps:
     >
     > If your administrator has configured the **Disable edit without locking the file** option, then you must check out the file before editing. If you do not check out the file, then the document opens in the editor in read-only mode.
 
-## Home page 
-
-You can also launch the Editor from the Experience Manager Guides Home page. The Overview section on Home page features different widgets that help you stay organized and focused. You can launch the Editor from the **Recent files** widget and **Collections** widget. 
-
-For details, view the Overview section in [Adobe Experience Manager Guides Home page experience](./intro-home-page.md).
-
-
 ## Map console 
 
 To open the Editor from Map console, follow these steps:
@@ -113,19 +108,19 @@ To open the Editor from Map console, follow these steps:
 
     ![](images/editor-map-console-dropdown.png){width="350" align="left"}
 
-    As you have launched the Map console without selecting any map file, a blank Map console screen is shown. You can also open a map file from Experience Manager **Repository** or your favorite **Collections**.
+    As you have launched the Map console without selecting any map file, a blank Map console screen is shown. You can also open a map file from Experience Manager **Repository** or your **Collections**.
 
     ![](images/launch-map-console.png){width="500" align="left"}
 
-1. Select **Select map** to open a map file containing the topics that you want to edit in the Editor.
+1. Click **Select map** to open a map file containing the topics that you want to edit in the Editor.
 1. Select the path where your map file is located. The selected map file is added to the Map console. 
 1. Navigate to the map file and select **Open in editor** from the dropdown. 
 
-    ![](images/map-console-open-in-editor.png){width="500" align="left"}
+    ![](images/map-console-open-in-editor.png){width="800" align="left"}
 
     The map file containing the topics is open for editing in the Editor.
 
-    ![](images/map-console-edit-topics.png){width="500" align="left"}
+    ![](images/map-console-edit-topics.png){width="800" align="left"}
 
 
  
