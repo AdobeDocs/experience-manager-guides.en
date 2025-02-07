@@ -125,11 +125,11 @@ Displays the topic search dialog. Navigate to the topic/map file that you want t
 ![](images/insert-topic-reference-dialog.png){width="800" align="left"}
 
 
-**Topic group** – ![](images/insert-topic-group.png)
+**Topic group** – ![](images/topic-group.svg)
 
 Insert the `topicgroup` element. For more information about grouping topics, view the [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentation in OASIS DITA Language Specification.
 
-**Key definition** – ![](images/Key_icon.svg)
+**Key definition** – ![](images/key-definition.svg)
 
 Displays the Insert Keydef dialog. Use this dialog to define any key definition that you want to use in the map.
 
@@ -147,11 +147,11 @@ This icon is displayed when you open a bookmap for editing. You can insert compo
 
 This icon is displayed when you open a bookmap for editing. You can insert components for a end of the book like an Index, a Glossary, and a List of Figures.
 
-**Move the selected item left/right** - ![](images/left-arrow-icon.png) / ![](images/right-arrow-icon.png)
+**Move the selected item left/right** - ![](images/move-left.svg) / ![](images/move-right.svg)
 
 Select the left arrow to move the topic towards left side in the hierarchy. This essentially promotes the respective topic one level up in the hierarchy. For example, selecting the left arrow while a child topic is selected make it the sibling of the topic above it. Similarly, if you select the right arrow, the topic is pushed towards the right side making it the child of the topic above it.
 
-**Move the selected item up/down ![](images/arrowup.svg)** - / ![](images/arrowdown.svg)
+**Move the selected item up/down** ![](images/move-up.svg) - / ![](images/move-down.svg)
 
 Select the up or down arrow icons' to move the topic up or down in the hierarchy.
 
@@ -163,7 +163,7 @@ Select the up or down arrow icons' to move the topic up or down in the hierarchy
 
 Gets a lock on the map file and release the lock. If you have unsaved changes in your map file, then at the time of releasing the lock, you are prompted to save the map file. The changes are saved in the current version of the map file.
 
-**Merge** - ![](images/merge-icon.svg)
+**Merge** - ![](images/merge.svg)
 
 For more details about merging content from a different version of the same or a different file, view [Merge](web-editor-features.md#menu-dropdown) in the Editor.
 
@@ -171,7 +171,7 @@ For more details about merging content from a different version of the same or a
 
 Check the available versions and labels on your active topic, and revert to any version from the editor itself.
 
-**Version label** - ![](images/version-label-icon.svg)
+**Version label** - ![](images/version-label.svg)
 
 Displays the version label management dialog. Select a version from the dropdown list. Choose the label you want to apply to the selected version and click **Add label** to add it.
 
@@ -295,11 +295,11 @@ If you want to delete a topic from your table, click the cross icon next to the 
 If you want to delete the relationship table, click anywhere outside the relationship table and click Delete. For details, view [Work with relationship tables in the Map Editor](map-editor-basic-map-editor.md).
 ----->
 
-**Reusable content** - ![](images/content-reuse-icon.png)
+**Reusable content** - ![](images/reusable-content.svg)
 
 Displays the **Reuse content** dialog box. Use this dialog to insert the content that you want to reuse in your map.
 
-**Refresh navigation title attribute** - ![](images/navtitle-refresh-icon.svg)
+**Refresh navigation title attribute** - ![](images/refresh.svg)
 
 Synchronizes the `title` element of a referenced file in a map with the value specified in its `@navtitle` attribute. You can add different types of reference files in a map, for example topic, reference, task, \(sub\) maps, and so on. Most of these files support the `@navtitle` attribute. If a file contains the `@navtitle` attribute, then the `@navtitle` attribute for the same file in map is updated. In case the `@navtitle` attribute is not present, then the `@navtitle` attribute is added to that reference file and its `title` is also updated to display the `@navtitle`.
 
@@ -313,11 +313,11 @@ Select the Refresh Navigation Title Attribute icon to synchronize the `title` el
 
 Shows or hides the XML tags. The tags serve as visual cues indicating an element's boundary. In this mode, if you want to insert a topic/map reference, then drag-and-drop the desired file before or after the tag. The horizontal bar is not shown in the Tags View mode.
 
-**Track changes** - ![](images/track-change-icon.svg)
+**Track changes** - ![](images/track-changes.svg)
 
 You can keep a track of all updates made in the map file by enabling the Track Changes mode. After enabling the track changes, all insertions and deletions are captured in the document. For more details, view [Track changes](web-editor-features.md#track-changes) in the Editor.
 
-**Create review task** - ![](images/create-review-task-icon.svg)
+**Create review task** - ![](images/create-review-task.svg)
 
 You can create a review task of the current topic or map file directly from the Editor. Open the file for which you want to create the review task and select **Create review task** to initiate the review creation process. Follow the instructions given in the [Review topics or maps](review.md#) for more details.
 
