@@ -17,7 +17,7 @@ With Experience Manager Guides' Bulk Activation feature, you can quickly and eas
 
 -   Add one or more multiple maps \(to a map collection\) to a single activation task
 
--   Select one or multiple output presets that you would like to publish. You can add Adobe Experience Manager Site, PDF, Native PDF, HTML5, Custom, and
+-   Select one or multiple output presets that you would like to activate. You can add Adobe Experience Manager Site, PDF, Native PDF, HTML5, Custom, and
 JSON output presets.
 
 
