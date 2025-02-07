@@ -44,9 +44,9 @@ You can use a text prompt to change the content. For example, you can select the
 
 1. Select **Regenerate** ![Regenerate icon](./images/refresh-icon.svg) for another response or output based on your prompt, like the AI tools.
 
-1. (Optional) Select **Expand** ![expandicon](./images/expand-icon.svg)  to open the **Use text prompt** editor. It displays the current and the generated content. You can edit the source layout content and check the preview.
+1. (Optional) Select **Expand** ![expandicon](./images/expand-icon.svg) to open the **Use text prompt** editor. It displays the current and the generated content. You can edit the source layout content and check the preview.
     
-    ![ai assistant text prompt editor](./images/ai-assisstant-text-prompt.png)
+    ![ai assistant text prompt editor](./images/text-prompt.png)
 
 
     >[!NOTE]
