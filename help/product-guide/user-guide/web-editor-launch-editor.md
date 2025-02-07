@@ -11,7 +11,6 @@ You can launch the Editor from the following locations:
 
 - [Adobe Experience Manager Navigation page](#adobe-experience-manager-navigation-page)
 - [Adobe Experience Manager Assets UI](#adobe-experience-manager-assets-ui)
-- [Adobe Experience Manager Guides Home page](#home-page)
 - [Map console](#map-console)
 
 The following sections cover the details of how you can access and launch the Editor from various locations.
