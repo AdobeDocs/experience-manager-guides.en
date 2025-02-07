@@ -69,7 +69,7 @@ The **Metadata report** provides a detailed report of your references in the cur
 
 You can view the metadata report of a map by performing the following steps:
 
-1.  Select **Metadata** from the Reports panel. The list of all references of a map is displayed along with it's metadata such as tags, document state, custom metadata. This includes the media references also. To add a new custom metadata column, view [Add custom metadata](#add-custom-metadata-columns).   
+1.  Select **Metadata** from the Reports panel. The list of all references of a map is displayed along with it's metadata such as tags, document state, custom metadata. This includes the media references also. To add a new custom metadata column, refer to [Add custom metadata fields](#add-custom-metadata-columns) section.   
 
 
     ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}    
