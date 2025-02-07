@@ -209,20 +209,20 @@ The **Multimedia** report provides detailed information about the multimedia use
 
 ## Broken links report
 
-The **Broken Links** is a useful report which provides you with the details of the broken links present in your current map. You can view the broken links, which can be for DITA topics, multimedia file references, content key references, and so on. You also have the ability to fix them here itself.
+The **Broken links** is a useful report which provides you with the details of the broken links present in your current map. You can view the broken links, which can be for DITA topics, multimedia file references, content key references, and so on. You also have the ability to fix them here itself.
 The report provides detailed information such as the broken link, link type, files in which reference is used, and the type of files they have been used in. 
 You can view the report for broken links by performing the following steps:
 
-1. Select **Broken Links** from the Reports panel. The list of broken links or references present in the DITA map is displayed.
+1. Select **Broken links** from the Reports panel. The list of broken links or references present in the DITA map is displayed.
 1. From the **Filters** panel you can order the list by links or by the names of used in references.
 
-    – When you order by **Broken Link**, the paths of the broken links are displayed in the first column and then the names of all references in which they have been used, are displayed in another column on separate rows. If the same broken link is used in multiple files, then they are displayed on one row and are shown as grouped or sub-rows. For example, the following screenshot shows two broken links in the first column and the reference in which they are used, `m_ElectricalSpecs_900.ditamap` is displayed in the third column on two separate rows.
+    – When you order by **Broken link**, the paths of the broken links are displayed in the first column and then the names of all references in which they have been used, are displayed in another column on separate rows. If the same broken link is used in multiple files, then they are displayed on one row and are shown as grouped or sub-rows. For example, the following screenshot shows two broken links in the first column and the reference in which they are used, `m_ElectricalSpecs_900.ditamap` is displayed in the third column on two separate rows.
 
 
     ![](images/broken-link-report-new.png){width="800" align="left"}
 
      
-    – If you order by **Used In** column, you will view the transposed view wherein the names of the references in which the broken links have been used are listed in the first column while the broken links are listed in another column on the same row. For example, the following screenshot shows the reference (in which the broken link is used) `m_ElectricalSpecs_900.ditamap` in the first column and the broken links are displayed in the third column on the same row.
+    – If you order by **Used in** column, you will view the transposed view wherein the names of the references in which the broken links have been used are listed in the first column while the broken links are listed in another column on the same row. For example, the following screenshot shows the reference (in which the broken link is used) `m_ElectricalSpecs_900.ditamap` in the first column and the broken links are displayed in the third column on the same row.
     
 
     ![](images/broken-link-filter-usedin-new.png){width="800" align="left"}
