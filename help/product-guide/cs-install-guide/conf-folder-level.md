@@ -405,7 +405,7 @@ If you have updated an existing output preset, or you want to make a new output 
 
 For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
 
-The AI Assistant in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your content through smart authoring and content reuse experiences. It brings together two robust AI features — **Authoring** and **Help** — into the Experience Manager Guides interface, enabling you to author documents and access information faster and more efficiently. 
+The AI Assistant in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your content through smart authoring and content reuse experiences. It brings together two robust AI features — **Authoring** and **Help** — into the Experience Manager Guides interface, enabling you to author documents and access information faster and more efficiently.
 
 For configuration details, view [AI Assistant configuration](./conf-smart-suggestions.md). 
 

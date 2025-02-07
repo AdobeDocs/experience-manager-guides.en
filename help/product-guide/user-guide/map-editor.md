@@ -27,7 +27,7 @@ This topic walks you through the process of creating a DITA map and then using t
 
 -   **[Create maps based on customized templates](create-maps-customized-templates.md)**  
 
--   **[Work with the Map Editor](map-editor-advanced-map-editor.md)**  
+-   **[Map Editor features](map-editor-advanced-map-editor.md)**  
 
 -   **[Other features in the Map Editor](map-editor-other-features.md)**  
 

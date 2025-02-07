@@ -9,6 +9,26 @@ role: User
 
 Once a topic is created, Adobe Experience Manager Guides generates a preview of the topic. The Preview mode provides various features that you can use to work with your document.
 
+There are two ways to preview a topic in Experience Manager Guides:
+
+- [From the Map console](#preview-topics-from-the-editor)
+- [From the Assets UI](#preview-topics-from-the-assets-ui)
+
+## Preview topics from the Editor
+
+Perform the following steps to preview a topic from the Editor:
+
+1. In the Respository panel, navigate to the topic that you want to view.
+1. Hover over the topic that you want to preview and select **Preview** from the Options menu.
+
+    ![](images/preview-topic.png){width="600" align="left"}
+
+    The Preview of the topic is displayed. 
+
+    ![](images/preview-pop-up.png){width="800" align="left"}
+
+## Preview topics from the Assets UI
+
 Perform the following steps to preview a topic:
 
 1.  In the Assets UI, navigate to the topic that you want to view.
@@ -24,11 +44,12 @@ Perform the following steps to preview a topic:
     >
     > The positioning of the following features in the Preview toolbar could differ based on your Adobe Experience Manager server's setup. Some of the features might be available in the main toolbar, while other could be available under the More menu.
 
-## Features available in preview mode
+## Features available in the Assets UI for Preview 
+
+The following operations are available in the toolbar when using the Preview feature from the Assets UI, 
 
 ![](images/preview-screen.png){width="800" align="left"}
 
-You can perform the following operations from the toolbar in the preview mode:
 
 **Properties**
 

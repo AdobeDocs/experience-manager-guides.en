@@ -13,20 +13,16 @@ The **AI Assistant** in Adobe Experience Manager Guides is a powerful, AI-driven
 
 The **Authoring** feature in AI Assistant makes your authoring process smarter and faster. It offers capabilities such as generating intelligent suggestions for content reuse, translating content, improving content quality, and more, all based on your selected content. This feature enhances the overall authoring experience and the productivity of authors. 
 
-![ai assistant](./images/ai-assistant-panel.png){width="300" align="left"}
-
-
 For more details, view [Authoring](./ai-assistant-right-panel.md).
+
+![ai assistant](./images/ai-assistant-panel.png){width="300" align="left"}
 
 The **Help** feature in AI Assistant is an intuitive, chat-based tool designed to help you better understand Experience Manager Guides, troubleshoot issues, and search through information within Adobe Experience Manager Guides Documentation. Instead of searching through user guides and reference documents, you can use the **Help** feature to quickly find relevant answers to your queries. This helps save time and allows you to focus on content creation, resulting in enhanced productivity and efficiency.
 
-![Smart Help panel](images/smart-help-panel.png){width="300" align="left"}
-
 For more details, view [Help](./ai-based-smart-help.md).
 
-For questions about security and privacy concerns, view [AI Assistant security FAQ](./ai-assistant-faq.md).
 
-For steps on configuring AI Assistant, view the [Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring) section in **Configure global or folder profile levels** document. 
+![Smart Help panel](images/smart-help-panel.png){width="300" align="left"}
 
 ## Get started with AI Assistant
 
@@ -43,6 +39,13 @@ Perform the following steps to launch AI Assistant:
 
 1. Read the user guidelines carefully and then select  **Get started** to launch the AI Assistant. 
 
+**Related topics**
+
+[AI Assistant security FAQ](./ai-assistant-faq.md)
+
+[Adobe Generative AI disclosures](./adobe-generative-ai-disclosures.md)
+
+[Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
 
 
 

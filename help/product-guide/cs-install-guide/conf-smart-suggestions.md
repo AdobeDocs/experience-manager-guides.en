@@ -7,6 +7,15 @@ exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
 
 As an administrator, you can configure the AI Assistant feature in Experience Manager Guides. The smart suggestion service is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe's secure token-based authentication workflows and start using the AI Assistant feature. The following configuration help you to add the **AI configuration** tab to folder profile. Once added, you can use the AI Assistant feature in Experience Manager Guides.
 
+Perform the following steps to configure AI Assistant:
+
+1. [Create IMS configuration in Adobe Developer Console](#create-ims-configurations-in-adobe-developer-console).
+2. [Add IMS configurations to environment](#add-ims-configuration-to-the-environment)
+3. [Enable AI flag in the environment](#enable-ai-flag-in-the-environment)
+4. [Apply changes to the environment](#apply-changes-to-the-environment)
+5. [Enable AI Assistant in Folder Profile](#enable-ai-assistant-in-folder-profile)
+6. [Configure Smart Suggestions in Folder Profile](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
+
 ## Create IMS configurations in Adobe Developer Console
 
 Perform the following steps to create IMS configurations in Adobe Developer Console:
@@ -55,7 +64,7 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
 
 You have configured the OAuth authentication details and downloaded the JSON service details. Keep this file handy as it's required in the next section.
 
-### Add IMS configuration to the environment
+## Add IMS configuration to the environment
 
 Perform the following steps to add IMS configuration to the environment:
 
@@ -72,21 +81,21 @@ Perform the following steps to add IMS configuration to the environment:
  
     Setting the flag to **true** enables the functionality, while setting it to **false** disables it.
 
+## Enable AI flag in the environment 
 
-To enable the AI Assistant feature on the Experience Manager Guides UI, ensure that the **AI Assistant** option is enabled in the **Settings**. 
+To enable the AI Assistant feature on the Experience Manager Guides UI, add the `ENABLES_GUIDES_AI` flag in the environment. 
 
-For more details, view [Know the Editor features](../user-guide/web-editor-features.md).
+Ensure that you are using the same name and configuration as given in the following screenshot.
 
-![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+![](assets/conf-folder-ai-assistant-enable.png){width="800" align="left"}
+ 
+Setting the flag to **true** enables the functionality, while setting it to **false** disables it.
 
-*Add the environment configuration details.*
+## Apply changes to the environment
 
+Once you have added the IMS configuration and enabled the AI Assistant flag to the environment, perform the following steps to link these properties with AEM Guides using OSGi: 
 
-
-
-Once you have added the IMS configuration to the environment, perform the following steps to link these properties with AEM Guides using OSGi: 
-
-1. In you cloud manager Git project code, add the below given two files (for file contents, view [Appendix](#appendix)).
+1. In your cloud manager Git project code, add the below given two files (for file contents, view [Appendix](#appendix)).
 
     * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
     * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
@@ -94,8 +103,19 @@ Once you have added the IMS configuration to the environment, perform the follow
 1. Commit and push your Git changes.
 1. Run the pipeline to apply the changes on the environment.
 
-Once this is done, you should be able to use the smart suggestions feature.
+## Enable AI Assistant in Folder Profile
 
+Once the configuration changes are applied, enable the AI Assistant feature for the desired Folder profile. 
+
+For more details, view [Know the Editor features](../user-guide/web-editor-features.md).
+
+![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+
+## Configure Smart Suggestions in Folder Profile
+
+After enabling the AI Assistant feature, configure the Smart Suggestions functionality in Folder Profile. 
+
+For details, refer to [Configure Smart Suggestions in Folder Profile](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring). 
 
 
 ## Appendix {#appendix}
