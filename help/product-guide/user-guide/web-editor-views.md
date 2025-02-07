@@ -130,17 +130,11 @@ This feature supports the following functionalities:
 
 To export a topic as PDF, follow these steps:
 
-1.  Open the topic in Preview mode.
+1.  Open the topic in Preview mode. Ensure that the topic is a part of a map file.
 
-1.  Select the **Export as PDF** \(![](images/export-as-pdf-icon.svg)\) icon.
+1.  Select the **Download as PDF** option form the top. 
 
-    The Export as PDF dialog is displayed.
-
-    ![](images/export-as-pdf-dialog.png){width="350" align="left"}
-
-1.  *\(Optional\)* Specify the DITA-OT transformation name and any command-line arguments that you want to use.
-
-1.  Select **Download**.
+    ![](images/download-as-pdf-preview.png) icon.
 
     >[!NOTE]
     >
