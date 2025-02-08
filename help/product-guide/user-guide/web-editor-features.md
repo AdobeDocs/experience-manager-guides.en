@@ -1,6 +1,6 @@
 ---
 title: Know the Editor features
-description: Discover features of the Editor in Adobe Experience Manager Guides. Know the editor's interface, including the main toolbar, secondary toolbar, left panel, content editing area, and right panel.
+description: Discover features of the Editor in Adobe Experience Manager Guides. Know the editor's interface, including the Header bar, tab bar, toolbar, left panel, content editing area, and right panel.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
@@ -9,17 +9,39 @@ role: User
 
 This section walks you through the various features that are available in the Editor. We can divide the Editor into the following sections or areas:
 
-- [Main toolbar](#main-toolbar)
-- [Secondary toolbar](#secondary-toolbar)
+- [Header bar](#header-bar)
+- [Tab bar](#tab-bar)
+- [Toolbar](#toolbar)
 - [Left panel](#left-panel)
 - [Content editing area](#content-editing-area)
 - [Right panel](#right-panel)
 
 The following subsection cover in details the various sections of the Editor.
 
-## Main toolbar
+## Header bar
 
-The main toolbar is at the top of the Editor's interface and it provides access to the following features:
+The header bar is the top bar of the Editor that displays the Adobe Experience Manager logo (or a Unified Shell if you are using the Unified Shell as your Experience Manager Guides UI). When you select the logo, it directs you to the Experience Manager Navigation page.
+
+![](./images/aem-home-header.png)
+
+Use the **Expand** icon in the toolbar to hide the header bar and maximize the content area. To restore the standard view, select **Exit the expanded view**.
+
+
+## Tab bar
+
+The Tab bar is at the top of the Editor's interface and it provides access to the following features:
+
+![](./images/tab-bar.png)
+
+**Tabs**
+
+Displays the currently opened topics in the Editor as file tabs. You can have multiple topics opened at the same time, which are displayed in their respective tabs in the tab bar. By default, you can view the file titles in the tabs. As you hover over a file, you can view the file title and the file path as a tooltip.
+
+>![NOTE]
+>
+> As an administrator, you can also choose to view the list of files by filenames in the tabs. Select the **Filename** option of the **Editor files display configuration** section in [User preferences](./intro-home-page.md#user-preferences).
+
+Selecting the file tab opens a context menu featuring Save as new version, Copy, Locate in, Add to, Properties, Split, Download as PDF, and Close options. 
 
 **Save all** 
 
@@ -31,13 +53,22 @@ Saves the changes you have made in all opened topics. If you have multiple topic
 
 **AI Assistant**
 
-[AI-powered Smart Help and Authoring feature](./ai-assistant.md) that helps you find relevant content from the Adobe Experience Manager Guides Documentation and simplifies document handling through intelligent suggestions and optimization.
+A powerful, AI-driven tool designed to enhance your productivity through smart help and authoring features. It brings together two robust AI features — **Authoring** and **Help** — into the Experience Manager Guides interface, enabling you to author content and access information from Experience Manager Guides documentation faster and more efficiently. 
+
+>[!NOTE]
+>
+> The AI Assistant feature is currently available for Adobe Experience Manager Guides as a Cloud Service.
 
 **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar containing the Adobe Experience Manager logo, is hidden. This maximizes the content space for editing. To return to the standard view, use the **Exit the expanded view** icon.
 
 **More actions**: Allows you to navigate to the **Assets UI** and **Settings**. 
 
-The Settings option is available only for administrators and allows configuring the following settings:
+The **Assets UI** option takes you to a destination based on your setup:
+
+ - Cloud Services: If you are using Cloud Services, selecting the Assets UI optionTakes you to the AEM Navigation page.
+ - On-premise software: If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the Assets UI option takes you to your current file path in the Assets UI. 
+
+The **Settings** option is available only for administrators and folder profile administrators, and allows configuring the following settings:
 
 >[!NOTE]
 >
@@ -71,7 +102,9 @@ The Settings option is available only for administrators and allows configuring 
     -  **AI Assistant**
        Select this to enable the [AI Assistant](./ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature. 
 
-**Panels**: This setting controls the panels that are shown in the left and right panels of the Editor and Map console. You can toggle the switch to show or hide the desired panel.
+**Panels**: This setting controls the panels that are shown in the left and right panels of the Editor and Map console. You can toggle the button to show or hide the desired panel. Panels can be rearranged using a drag-and-drop function, allowing you to set their order. A panel can also be moved from the **More** section to the main section, and vice-versa as per the requirement. 
+
+A maximum of eight panels can be displayed at a time. Any changes made to the panel settings are applied immediately. 
 
 ![](images/editor-setting-panel.png){width="650" align="left"}
 
@@ -218,18 +251,22 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
     You can also define the order in which these metadata tags are displayed. To change the default order of these tags, select the dotted bars to drag and drop the tags at the desired location.
     The metadata labels appear in the same sequence in the **Version history** dialog box of the Editor. 
 
-## Secondary toolbar
+## Toolbar
   
-The secondary toolbar appears when you open a topic for editing in the Editor. Features available in the secondary toolbar are as follows:
+The toolbar appears when you open a topic or map for editing in the Editor. Features available in the toolbar are as follows:
 
 - [Menu dropdown](#menu-dropdown)
 - [Content insertion options](#content-insertion-options)
-- [Save as new version](#save-as-new-version)
+- [Version information and  Save as new version button](#save-as-new-version)
 - [Lock/unlock](#lockunlock)
+
+>[!NOTE]
+>
+> The features listed above are applicable only for topic files. When working with a map file, different options are displayed in the toolbar based on the current Map editor view. Learn about the Map editor toolbar options in the [Map editor features](./map-editor-advanced-map-editor.md) document.
 
 ### Menu dropdown 
 
-The Menu dropdown provides access to the various editing actions, Find and replace, Version history, Version label, Merge, Create review task, Track changes, and Tags feature. 
+The Menu dropdown provides access to the editing actions, Find and replace, Version history, Version label, Merge, Create review task, Track changes, and Tags feature. 
 
 The detailed explanation of these features is as follows:
 
@@ -240,7 +277,7 @@ When editing a topic in the Editor, access the various editing actions such as *
 
 **Find and replace**
 
-The **Find and replace** feature is available in Author and Source view modes. when enabled, the Find and Replace text bar appears at the bottom of the topic editing area. You can use the shortcut keys **CTRL**+**F** to invoke the Find and replace bar.
+The **Find and replace** feature is available in Author and Source view modes. When enabled, the Find and Replace text bar appears at the bottom of the topic editing area. You can use the shortcut keys **CTRL**+**F** to invoke the Find and replace bar.
 
 ![](images/find-replace-bar.png){width="800" align="left"}
 
@@ -252,9 +289,11 @@ In the Source view, the **Find and replace** feature is extremely useful for sea
 
 **Version history**
 
-The **Version history** feature in the Editor allows you to check the available versions of your DITA files, compare them, and revert to any version from the Editor itself.
+The **Version history** feature in the Editor allows you to check the available versions of your DITA files, compare them, and revert to any version from the Editor itself. You can compare the content and metadata of the current version (which can also be a working copy) with any previous version of the same file. You can also view the labels and comments for the compared versions.
 
-In the version history, you can compare the content and metadata of the current version (which can also be a working copy) with any previous version of the same file. You can also view the labels and comments for the compared versions.
+>[!NOTE]
+>
+> The Version history options only appears if there are changes made to the first version of the topic or map. 
 
 To access the version history and revert to a specific version of your topic, perform the following steps:
 
@@ -284,7 +323,7 @@ To access the version history and revert to a specific version of your topic, pe
 
     >[!NOTE]
     >
-    > Your system administrator can change the metadata to be shown from the Metadata tab in the **Settings**.
+    > Your system administrator can change the metadata to be shown from the Metadata tab in the **Settings**. For details, refer to the the **More actions** section of the [Tab bar](#tab-bar).
 
 You can also view the user and time details of the current and the compared version.
   
@@ -412,7 +451,7 @@ When you work in a multi-author environment, it becomes difficult to track what 
 
 **Create review task** 
 
-You can create a review task of the current topic or map file directly from the Editor. Open the file for which you want to create the review task and select **Create review task** from the Menu dropdown to initiate the review creation process.
+You can [create a review task](./review-send-topics-for-review.md) of the current topic or map file directly from the Editor. Open the file for which you want to create the review task and select **Create review task** from the Menu dropdown to initiate the review creation process.
 
 **Track changes**
 
@@ -440,9 +479,9 @@ If you want to accept or reject all changes with a single click, select **Accept
 
 **Tags**
 
-Tags are visual cues indicating an element's boundaries. An element boundary marks the beginning and end of an element. You can then use these boundaries as a visual cue to place the insertion point or select the text within a boundary. If you want to insert another element before or after an element in the document, you can place the insertion point before or after the opening or closing boundary of the element.
+The **Tags** feature in the Editor is a toggle button that controls the visibility of DITA elements. When enabled, it displays structural tags within the content, allowing you to view and manage the underlying DITA elements more effectively. When disabled, the editor hides these tags, providing a cleaner and more focused authoring environment.
 
-The following screenshot shows a document with the Tags view ON:
+The following screenshot shows a document with the Tags view enabled:
 
 ![](images/tags-view.png){width="650" align="left"}
 
@@ -747,13 +786,21 @@ Create Citations and add them to your content. Learn how to [add and manage cita
 
 Connect with your data source and use the data to create content. Learn how to [use data from your data source](./web-editor-content-snippet.md).
 
-### Save as new version
+### Version information and Save as new version
 
-Saves the changes you have made in your topic and also creates a new version of your topic. If you are working on a newly created topic, the version information is shown as **none**.
+The **Version information & Save as new version** feature combines version tracking and content saving into a single functionality.
 
-![](images/save-all-first-version-none_cs.png){width="800" align="left"}
+- Version information displays the current version of the topic or map. An asterisk (*) appears next to the version number to indicate unsaved changes. 
 
-The version number changes with every new version that is created for the topic or map file.
+    The version number changes with every new version that is created for the topic or map file. If you are working on a newly created document, the version information is shown as **none**.
+
+    ![](images/version-information.png){width="800" align="left"}
+
+
+- **Save as new version** is a button that saves the changes you have made in your topic and also creates a new version of your topic.
+
+    ![](images/save-as-new-version.png){width="800" align="left"}
+
 
 When you choose to save a topic or map using **Save as new version**, the following dialog box appears:
 
@@ -791,6 +838,8 @@ In the Repository panel, the locked files are displayed with a lock icon. When y
 
 ![](images/web-editor-locked-by-icon-new.png){width="350" align="left"}
 
+If a file is locked by another user, hovering over the lock icon in the Repository displays the name of the user who locked it. In this case, the file opens in Read-only mode, with **Read-only access** displayed next to the version information.
+
 As an administrator, you also get access to the **Force unlock** feature that allows you to unlock the file locked by other users. Use this feature to access the editing rights on a file locked by other users. 
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
@@ -826,13 +875,13 @@ Some of the features in the left panel are available under the **More** section.
 - [Review](#review)
 
 
-An additional option labeled as **Workfront** is also displayed under **More** in the left panel if Adobe Workfront is configured. 
+An additional option labeled as **Workfront** is also displayed in the left panel if Adobe Workfront is configured. 
 
 For details, view [Workfront integration](./workfront-integration.md).
 
 >[!NOTE]
 >
-> The features available in the left panel are managed by your administrator, enabling them to enable or disable the individual features present in the left panel. Only enabled features are displayed in the left panel. For more details, view the [Main toolbar](#main-toolbar) section of this guide. 
+> The features available in the left panel are managed by your administrator, allowing them to enable or disable the individual features present in the left panel. Only enabled features are displayed in the left panel. For more details, view the **Panels** section of [Tab bar](#tab-bar). 
 
 The detailed explanation of the left panel features is as follows:
 
@@ -1183,7 +1232,7 @@ By default, you can view the files by titles. As you hover over a file, you can 
 >As an administrator, you can also choose to view the filename of the parent map which is currently opened in the map view. Select the **File name** option of the **View files by** section in **User preferences**.
 
 
-When you open a map in the map view, the title of the current map is displayed in the centre of the main toolbar. If the title is too long, then an ellipsis is displayed and you can also hover over the title to see the full title in the tool tip. 
+When you open a map in the map view, the title of the current map is displayed in the centre of the Tab bar. If the title is too long, then an ellipsis is displayed and you can also hover over the title to see the full title in the tool tip. 
 
 When you define key attributes for the topic or map references, you can view the title, the corresponding icon, and the key in the left panel. The key is displayed as `keys=<key-name>`. 
 
@@ -1682,7 +1731,7 @@ You can also change the values from the attribute's drop-down in the Source view
 
 You can also view and apply the subject scheme from the Conditions panel.
 
-To view the subject scheme from the Conditions panel, your system administrator must select the **Show subject scheme in the Conditions panel** option under the General tab in Settings. For more details, view the **Settings** section in the [Main toolbar](#main-toolbar).
+To view the subject scheme from the Conditions panel, your system administrator must select the **Show subject scheme in the Conditions panel** option under the General tab in Settings. For more details, view the **Settings** section in the [Tab bar](#main-toolbar).
 
 The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
 
@@ -1881,16 +1930,21 @@ To view the review comments in the active review tasks that are present in your 
 
 ## Content editing area 
 
-The content editing area is where the content of your topic or map is displayed. You make all content edits in this area. It gives a WYSIWYG view of the content you are editing. You can have multiple topics opened at the same time, which are displayed in their respective tabs.
+The content editing area is where the content of your topic or map is displayed. You make all content edits in this area. It gives a WYSIWYG view of the content you are editing. 
 
-By default, you can view the file titles in the tabs. As you hover over a file, you can view the file title and the file path as a tooltip.
+At the bottom-left of the content editing area, you have the breadcrumb of the element at current cursor location. In the bottom-right corner, the available [Editor views](./web-editor-views.md) are displayed.
 
->[!NOTE]
->
-> As an administrator, you can also choose to view the list of files by filenames in the tabs. Select the **File name** option of the **View files by** section in **User preferences**.
+ ![](images/content-editing-area.png){width="800" 
+ align="left"}
 
- ![](images/content-editing-area.png){width="650" align="left"}
+ When working with a map file, the content editing area is disaplayed with different options including, a Layout view for the map file and the ability to open topic files present in the map from the layout view and author view. 
 
+ ![](images/content-editing-area-maps.png){width="800" 
+ align="left"}
+
+ For more details, view [Map editor features](./map-editor-advanced-map-editor.md).
+
+**Rename or replace an element** 
 ## Right panel
 
 The right panel contains information about the currently selected document.
@@ -1905,6 +1959,7 @@ The right panel gives you access to the following features:
 - [File properties](#file-properties)
 - [Review](#review-1)
 - [Track changes](#track-changes)
+- [Schematron](#schematron)
 
 ### Content properties
 
@@ -2003,7 +2058,14 @@ Using the Tracked changes feature of the right panel, you can view the informati
 
 >[!NOTE]
 >
-> Tracked changes feature shows all updates that have been tracked using the Enable/Disable Track Changes feature of the [main toolbar](#main-toolbar).
+> Tracked changes feature shows all updates that have been tracked using the Enable/Disable Track Changes feature of the [Tab bar](#main-toolbar).
+
+### Schematron
+
+"Schematron" refers to a rule-based validation language used to define tests for an XML file. The Editor supports Schematron files. You can import the Schematron files and also edit them in the Editor. Using a Schematron file you can define certain rules and then validate them for a DITA topic or a map.
+
+Learn how to work with Schematron files in Experience Manager Guides, refer to [Support for Schematron files](./support-schematron-file.md).
+
 
 
 **Parent topic:**[Work with the Editor](web-editor.md)

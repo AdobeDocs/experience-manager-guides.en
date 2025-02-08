@@ -7,11 +7,11 @@ role: User
 ---
 # Support for Schematron files
 
-"Schematron" refers to a rule-based validation language used to define tests for an XML file. Web editor supports Schematron files. You can import the Schematron files and also edit them in Web Editor. Using a Schematron file you can define certain rules and then validate them for a DITA topic or a map.
+"Schematron" refers to a rule-based validation language used to define tests for an XML file. The Editor supports Schematron files. You can import the Schematron files and also edit them in the Editor. Using a Schematron file you can define certain rules and then validate them for a DITA topic or a map.
 
 >[!NOTE]
 >
-> Web editor supports ISO Schematron.
+> Editor supports ISO Schematron.
 
 
 ## Import Schematron files
