@@ -642,7 +642,7 @@ The context menu provides options to cut, copy, or paste the image or media. You
 
 The other options in the context menu allow you to copy path, edit an image map, rename element, create a snippet, or generate IDs for the selected element.
 
-**Insert/Edit Image Map** - ![](images/imagemap-rectangle.svg)
+**Insert/Edit Image Map** 
 
 Inserts an image map on the selected image. An image with clickable areas that link to topics or web pages is called an image map.
 
@@ -657,7 +657,7 @@ Choose the preferred shape Rectangle ![](images/imagemap-rectangle-toolbar.png),
 If areas overlap, you can bring the shape forward or send it backward by clicking on the respective icon in the toolbar. You can also remove an area by selecting it and clicking the Delete icon. Double-clicking on an area opens the Reference dialog wherein you can change the destination link. Once you have marked the required areas on your image, save the changes by clicking Done.
 
 
-**Multimedia** - ![](images/insert-multimedia-icon.svg)
+**Multimedia** 
 
 Inserts different types of multimedia files. Select the Multimedia dropdown icon and choose the type of file you want to insert. The supported multimedia formats are:
 
@@ -676,7 +676,7 @@ You can also add the Audio or Video File from the Insert Multimedia dialog. Sele
 
 ![](images/insert-multimedia.png){width="650" align="left"}
 
-**Cross Reference** - ![](images/Reference_icon.svg)
+**Cross Reference** 
 
 Insert references of type — Content Reference, Content Key Reference, Key Reference, File Reference, Web Link, or Email Link.
 
@@ -726,7 +726,7 @@ You can search for Non-DITA Files like the Image Files, Multimedia, and document
 The list of filtered files which contain the searched text is displayed. For example, in the above screenshot the files containing the text 'general' are listed. You can also preview the content of the file.
 
 
-**Reusable Content** - ![](images/content-reuse-icon.svg)
+**Reusable Content** - ![](images/reusable-content.svg)
 
 Reuse content that exists within any other document in your project. You can insert content by directly linking to the content in a file or by using a key reference, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z). When you select the Reusable content icon, you get the Reuse Content dialog box:
 
@@ -744,7 +744,7 @@ Based on the setting for inserting links, you could either see the UUID of the i
 
 You can also embed the referred content within the topic by right-clicking on the referred content and choosing **Replace Reference with Content** from the context menu.
 
-**Symbol** 
+**Symbol** - ![](images/symbol-icon.svg)
 
 Inserts special characters in your topic. Select the Symbol icon to open the Insert Special Character dialog box.
 
@@ -784,11 +784,11 @@ When you choose a snippet from the list, it gets inserted at the current or next
 
 ![](images/error-snippet.png){width="400" align="left"}
 
-**Citations** 
+**Citations** - ![](images/Citations_icon.svg)
 
 Create Citations and add them to your content. Learn how to [add and manage citations in your content](./web-editor-apply-citations.md).
 
-**Query data**
+**Data sources** - ![](images/Datasources_icon.svg)
 
 Connect with your data source and use the data to create content. Learn how to [use data from your data source](./web-editor-content-snippet.md).
 
@@ -1420,13 +1420,13 @@ The Outline view offers the following features:
 
     ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
 
-- Drag and drop elements. You can easily replace an element by dropping another element on it. If you drag and drop an element over another element and you see a square box around the element, it indicates that the element will get replaced. It replaces the element on which the element is dropped.
+- Drag and drop elements. You can easily replace an element by dropping another element on it. If you drag and drop an element over another element and you see a dashed rectangle box around the element, it indicates that the element will get replaced. It replaces the element on which the element is dropped.
 
-    ![](images/replace-element-outline-view_cs.png){width="300" align="left"}
+    ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
 
     If you drag and drop an element, a dashed rectangle indicates that the element can be placed at the current location. If the drag and drop is invalid, then an error message is shown to indicate that the operation is not allowed.
 
-    ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
+    ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
 
 - The **Options** menu in the *Outline* view allows you to perform generic operations such as Cut, Copy, Delete, Generate ID, Insert element before or after the current element, Rename or replace an element, Wrap an element, Unwrap an element, and create a snippet out of the selected element.
 
@@ -1605,7 +1605,7 @@ The following example shows how to use subject scheme in Experience Manager Guid
 1. In the Editor, open the file where you want to use the subject scheme definitions.
 1. Apply the subject scheme to your content by simply dragging and dropping the desired subject scheme onto your content. The content is then highlighted in the defined color.
 
-    ![](images/subject-scheme-apply.png){width="400" align="left"}
+    
     
 
 **Handling hierarchical definitions of subject definitions and enumerations**
@@ -1716,12 +1716,10 @@ For example, use the following enumeration to restrict the `@platform` attribute
 
 You can also change the value of the subject scheme using the **Attributes** dropdown from the **Content properties** panel in the **Author** view. 
 
-![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
-
 Perform the following steps to change the value:
 
  1. Select an attribute from the **Attribute** dropdown. 
- 1. Select **Edit** ![edit-icon](images/edit_pencil_icon.svg). 
+ 1. Select **Edit**.
  1. Select the required value from the **Value** dropdown.
  1. Select **Update**.   
 
@@ -1740,8 +1738,6 @@ You can also view and apply the subject scheme from the Conditions panel.
 To view the subject scheme from the Conditions panel, your system administrator must select the **Show subject scheme in the Conditions panel** option under the General tab in Settings. For more details, view the **Settings** section in the [Tab bar](#main-toolbar).
 
 The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
-
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
 You can add conditions to your content by dragging and dropping the desired condition onto your content. The conditional content is highlighted using the color defined for the condition.
 
