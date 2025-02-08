@@ -65,8 +65,8 @@ A powerful, AI-driven tool designed to enhance your productivity through smart h
 
 The **Assets UI** option takes you to a destination based on your setup:
 
- - Cloud Services: If you are using Cloud Services, selecting the Assets UI optionTakes you to the AEM Navigation page.
- - On-premise software: If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the Assets UI option takes you to your current file path in the Assets UI. 
+- **Cloud Services**: If you are using Cloud Services, selecting the Assets UI optionTakes you to the AEM Navigation page.
+- **On-premise software**: If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the Assets UI option takes you to your current file path in the Assets UI. 
 
 The **Settings** option is available only for administrators and folder profile administrators, and allows configuring the following settings:
 
@@ -1934,17 +1934,14 @@ The content editing area is where the content of your topic or map is displayed.
 
 At the bottom-left of the content editing area, you have the breadcrumb of the element at current cursor location. In the bottom-right corner, the available [Editor views](./web-editor-views.md) are displayed.
 
- ![](images/content-editing-area.png){width="800" 
- align="left"}
+![](images/content-editing-area.png){width="800" align="left"}
 
- When working with a map file, the content editing area is disaplayed with different options including, a Layout view for the map file and the ability to open topic files present in the map from the layout view and author view. 
+When working with a map file, the content editing area is disaplayed with different options including, a Layout view for the map file and the ability to open topic files present in the map from the layout view and author view. 
 
- ![](images/content-editing-area-maps.png){width="800" 
- align="left"}
+![](images/content-editing-area-maps.png){width="800" align="left"}
 
- For more details, view [Map editor features](./map-editor-advanced-map-editor.md).
+For more details, view [Map editor features](./map-editor-advanced-map-editor.md).
 
-**Rename or replace an element** 
 ## Right panel
 
 The right panel contains information about the currently selected document.
