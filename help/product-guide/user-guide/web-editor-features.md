@@ -102,11 +102,17 @@ The **Settings** option is available only for administrators and folder profile 
     -  **AI Assistant**
        Select this to enable the [AI Assistant](./ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature. 
 
-**Panels**: This setting controls the panels that are shown in the left and right panels of the Editor and Map console. You can toggle the button to show or hide the desired panel. Panels can be rearranged using a drag-and-drop function, allowing you to set their order. A panel can also be moved from the **More** section to the main section, and vice-versa as per the requirement. 
+**Panels**: This setting controls the panels that are shown in the left and right panels of the Editor and Map console. You can toggle the button to show or hide the desired panel. 
+
+![](images/editor-setting-panel.png){width="650" align="left"}
+
+You can also define the order in which the features present in panels are displayed. To change the default order of the available features in the panels, select the dotted bars to drag and drop the feature tabs at the desired location. A feature can also be moved from the **More** section to the main section of a panel, and vice-versa as per the requirement. Once re-ordered, the features appear in the same sequence in the respective right and left panels. 
+
+![](images/panels-screen.png){width="650" align="left"}
+
 
 A maximum of eight panels can be displayed at a time. Any changes made to the panel settings are applied immediately. 
 
-![](images/editor-setting-panel.png){width="650" align="left"}
 
 >[!NOTE]
 >
