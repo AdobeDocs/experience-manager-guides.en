@@ -17,11 +17,9 @@ You can create condition presets in two ways:
 
 ## Condition presets from the map console
 
-Experience Manager Guides allows you to manage condition presets from the Map console and use them within the **Output presets** to generate the final output.
+Experience Manager Guides allows you to create and manage condition presets from the Map console and use them within the **Output presets** to generate the final conditional output.
 
-You can create and view the condition presets, view the attributes, and manage the actions for the current map from the **Condition presets** view in the Map console.
-
-<img src="images//manage-condtions-presets.png" alt= "Condtion presets in map consoler" width="800" border="1px">
+<img src="images/manage-condtions-presets.png" alt= "Condtion presets in map consoler" width="800" border="1px">
 
 ### Create a condition preset
 
@@ -55,7 +53,7 @@ You can create a condition preset of the topics by performing the following step
 1.  (Optional) If required, you can override the action applied to the attributes. 
 
     Do one of the following:
-    For any attribute, select one of the following actions from the Action drop-down.
+    For any attribute, select one of the following actions from the Action drop-down or from the toolbar.
         - Include
         - Exclude
         - Passthrough

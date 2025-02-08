@@ -19,9 +19,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
 1.  Open the [Experience Manager Guides Home page](./intro-home-page.md#map-collections) and select **Map collections**. 
 
-    ![](images/map-collections-option-home-page.png){width="350" align="left"}
-
-    The **Map Collections** page is displayed.
+    The **Map Collections** page opens in a new tab.
 
     ![](images/map-collections-page.png){width="350" align="left"}
 
@@ -97,8 +95,8 @@ To configure and generate the output using a Map Collection, perform the followi
 
 1.  Do one of the following:
 
-    -   To generate output of selected maps, select the map files and click **Generate Selected**.
-    -   To generate output of all DITA maps with their configured presets, click **Generate All**.
+    -   To generate output of selected maps, select the map files and select **Generate Selected**.
+    -   To generate output of all DITA maps with their configured presets, select **Generate All**.
 
     >[!IMPORTANT]
     >

@@ -1781,7 +1781,7 @@ To insert a snippet, use any of the following methods:
 
 ### Templates 
 
-The Templates panel is available to only administrators. Using this panel, and administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *map* and *topic* type templates.
+The Templates panel is available to only administrators. Using this panel, administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *map* and *topic* type templates.
 
 ![](images/templates-panel_cs.png){width="550" align="left"}
 

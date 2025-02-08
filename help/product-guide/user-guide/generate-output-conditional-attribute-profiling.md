@@ -19,7 +19,7 @@ To define conditional attributes, perform the following steps:
 
 1.  Select the Adobe Experience Manager logo at the top and choose **Tools**.
 
-1.  Select **Guides** from the list of tools.
+1.  In the Tools panel, select **Guides**.
 
 1.  Select the **Folder Profiles** tile and select a Folder Profile.
 

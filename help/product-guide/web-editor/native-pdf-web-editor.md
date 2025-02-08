@@ -2,7 +2,7 @@
 title: Native PDF | PDF output generation
 description: Learn how to use native PDF publishing, create and generate a PDF output preset, download temporary files after generating the Native PDF output, and use language variables in AEM Guides.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-feature: Publishing, Web Editor, Native PDF Output
+feature: Publishing, Native PDF Output
 role: User
 ---
 # Publish PDF output
@@ -74,7 +74,7 @@ Use to specify basic output settings, such as specify output path, PDF file name
 | --- | --- |
 |**Output Path**|The path within the AEM repository where the PDF output is stored. Ensure that the output path is not located inside the project folder. If left blank, the output gets generated in the default DITA map output location.<br>You can also use the following out-of-box variables to define the Output Path. You can use a single or a combination of variables to define this option. <br> `${map_filename}`: Uses the DITA map files name to create the destination path. <br> `${map_title}`: Uses the DITA map title to create the destination path. <br>`${preset_name}`: Uses the output preset name to create the destination path. <br> `${language_code}`: Uses the language code where the map file is located to create the destination path. <br> `${map_parentpath}`: Uses the complete path of the map file to create the destination path.  <br>`${path_after_langfolder}`: Uses the path of the map file after the language folder to create the destination path.| 
 |  **PDF File**  | Specify a file name to save the PDF. By default, the PDF file name adds the DITA map name along with the preset name. For example, ditamap is 'TestMap' and the name of the preset is 'preset1' then the default name of the pdf will be 'TestMap_preset1.pdf'. <br>You can also use the following out-of-box variables to define the PDF File. You can use a single or a combination of variables to define this option. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`.  |
-| **Apply Conditions Using** |   For conditionalized content, choose from the below options to generate a PDF output based on those conditions: <br><ul> <li> **None Applied** Select this option if you do not want to apply any condition on the map and source content. <br><li> **Ditaval File** Select a DITAVAL file to generate conditionalized content. To select, click against Condition Preset and locate the file. <br> <li> **Condition Preset** Select a condition preset from the drop-down to apply a condition while publishing the output. This option is visible if you have added a condition for the DITA map file. The conditional settings are available in the Condition Presets tab of the DITA map console. To know more about condition preset, see [Use condition presets](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul>|
+| **Apply Conditions Using** |   For conditionalized content, choose from the below options to generate a PDF output based on those conditions: <br><ul> <li> **None Applied** Select this option if you do not want to apply any condition on the map and source content. <br><li> **Ditaval File** Select a DITAVAL file to generate conditionalized content. To select, select Condition Preset and locate the file. <br> <li> **Condition Preset** Select a condition preset from the drop-down to apply a condition while publishing the output. This option is visible if you have added a condition for the DITA map file. The conditional settings are available in the Condition Presets tab of the DITA map console. To know more about condition preset, see [Use condition presets](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul>|
 |  **Use Baseline**  | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish. See [Work with Baseline](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) for more details.  |
 |  **Create PDF with Change Bar between Published Versions**  | Use the following options to create a PDF showing the differences in content between two versions using change bars:   <br><ul><li> **Baseline of the Previous Version** Choose the baseline version which you want to compare with the current version or another baseline. A change bar appears in the PDF to indicate the modified content. A change bar is a vertical line that visually identifies new or revised content. The change bar appears on the left of the content that has been inserted, changed, or deleted. <br> **Note**: If you select **Use Baseline** and choose a baseline to publish, the comparison will be done between the two selected baseline versions. For example, if you choose baseline Version 1.3 under **Use Baseline**, and Version 1.1 under **Baseline of the Previous Version**, the comparison will be done between baseline Version 1.1 and baseline Version 1.3. <br><li> **Show Added Text** Select to show the inserted text in green color and underlined. This option is selected by default. <br> <li> **Show Deleted Text** Select to show the deleted text in red color and marked with a strikethrough. This option is selected by default. <br>**Note** You can also customize the styling of the change bar, inserted content, or deleted content using the stylesheet.<br></ul> |
 | **Post Generation Workflow** |Select to show a drop-down list that contains all workflows configured in AEM. You can select the workflow you want to execute after the completion of PDF generation workflow.|
@@ -103,17 +103,17 @@ From the Output presets, select  **PDF** > **Native-PDF** > **Metadata** to add 
    [Download](assets/SampleXMP.xmp)
 
    Alternatively, you can generate an XMP file using Adobe Acrobat.
-   1. Click **File** > **Properties** in Acrobat.
-   1. Under **Description**, click **Additional Metadata**.
+   1. Select **File** > **Properties** in Acrobat.
+   1. Under **Description**, select **Additional Metadata**.
    1. From the left panel, select **Advanced**. 
-   1. Click on **Save**.
+   1. Select **Save**.
 
    XMP file is saved on the device.
 
 * **Provide metadata names and values**
 
    1. Add name by selecting from the drop-down or add a custom metadata by typing directly in the name field.
-   1. Enter the value for the metadata and click on '+' icon.
+   1. Enter the value for the metadata and select the '+' icon.
 The metadata is added to the list of metadata for the PDF. 
 
 You can also use variables to define the metadata values.  You can use the metadata defined for the DITA map or bookmap file as variables. The metadata can be found under the `/jcr:content/metadata` node of the DITA map or bookmap file.
@@ -224,7 +224,7 @@ A **Success** dialog box is visible at the lower-right corner of the screen.
 If an output is not successful, the below error message is displayed.
 <img src="assets/error-log.png" alt ="error log" width =250>
 
-To view the error log, select **Dismiss**, hover over the selected preset tab, and click ![options](assets/options.svg) **Options** > **View Log**.
+To view the error log, select **Dismiss**, hover over the selected preset tab, and select ![options](assets/options.svg) **Options** > **View Log**.
 
 ### Download temporary files after generating the Native PDF output
 
