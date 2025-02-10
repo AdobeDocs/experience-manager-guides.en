@@ -59,7 +59,7 @@ Perform the following steps to review a topic:
 
     ![](images/review-read-only.png){width="800" align="left"}
 
-    In the above screenshot, the General description topic is shared for review the current reviewer,which is shown normally. However, the next topic, History of flight content is not shared for review and it is shown in read-only mode. The topic which is currently in focus is also highlighted in the TOC.
+    In the above screenshot, the General description topic is shared for review with the current reviewer,which is shown normally. However, the next topic, History of flight content is not shared for review and it is shown in read-only mode. The topic which is currently in focus is also highlighted in the TOC.
 
     The following screen appears when a topic or multiple topics are selected and shared for review:
 
@@ -72,7 +72,7 @@ Perform the following steps to review a topic:
 1.  Open the Comments panel by selecting the **Comments** icon at the top-right corner of the toolbar.
 
     Provide review comments by selecting an appropriate comment type from the toolbar and press Enter to submit your comment.
-    The comment box supports multi-line entries and allows users to expand it as needed for providing comprehensive comments. You can use **Shift** + **Enter** to go to the next line while writing the comment.
+    The comment box supports multi-line entries and allows users to expand it as needed for providing detailed feedback. You can use **Shift** + **Enter** to go to the next line while writing the comment.
 
     >[!NOTE]
     >
@@ -80,7 +80,7 @@ Perform the following steps to review a topic:
 
 1.  Select **Close** button once you complete reviewing the topic. On selecting the **Close** button, you will be redirected to the page from where you accessed the review topic.
 
-## Addition features available on the review screen 
+## Additional features available on the review screen 
 
 **Document view and topic view** - By default, if multiple topics are shared for review, then a composite document view of topics is shown to the reviewers. In case of a DITA map review, all topics in the map are presented in the form of a single document, resembling a book view. If you want, you can also select a particular topic and only that topic is then shown on the review screen.
 
@@ -92,17 +92,17 @@ When you view a single topic, then you get an additional option to switch back t
 
 ![](images/comments-toolbar.png){width="350" align="left"}
 
--   **Highlight** \(![](images/review-highlight-icon.svg)\): To add a highlight comment, select the text and then select the Highlight icon. Or, select the Highlight icon and select the desired text:
+-   **Highlight** \(![](images/review-highlight-icon.svg)\): To add a highlight comment, select the text and choose the Highlight icon. Or, you can first choose the Highlight icon and then select the desired text.
 
     ![](images/highlight-comment.png){width="650" align="left"}
 
     A pop-up appears in the Comments panel wherein you can add your comment for the highlighted content.
 
--   **Strikethrough** \(![](images/review-text-strike-through-icon.svg)\): If you want to suggest content removal, you can do so by selecting the content and then selecting the Strikethrough icon. Or, select the desired text and select the Delete key:
+-   **Strikethrough** \(![](images/review-text-strike-through-icon.svg)\): If you want to suggest content removal, you can do so by selecting the content and then choosing the Strikethrough icon. Or, you can first select the desired text and then choose the Delete key.
 
     A pop-up appears in the Comments panel wherein you can add your comment for the deleted content.
 
--   **Insert Text** \(![](images/review-insert-text-icon.svg)\): If you want to insert text, select the Insert Text icon and place the cursor where you want to insert the text and type in the information. Or, place the cursor where you want to insert text and start typing. The added information appears in green colored font:
+-   **Insert Text** \(![](images/review-insert-text-icon.svg)\): If you want to insert text, select the Insert Text icon and place the cursor where you want to insert the text and type in the information. Or, place the cursor where you want to insert text and start typing. The added information appears in green colored font.
 
 -   **Add Comment**\(![](images/review-comment-icon.svg)\): If you want to add a sticky note type of comment, select the Add Comment icon and enter the comment in the pop-up.
 
@@ -115,7 +115,7 @@ You can also highlight or strikethrough text quickly with the contextual toolbar
 
     ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
 
-1.  Select the **Highlight**or **Strikethrough** icon.
+1.  Select the **Highlight** or **Strikethrough** icon.
 1.  You can add comments in the comment panel for the highlight or strikethrough action.
 
 **Review using the Comments panel** - The Comments panel displays a list of comments given on the current topic. This panel also lists comments from other reviewers, if the topic is sent to multiple reviewers. Each comment in the comment panel is linked to the corresponding text in the current topic. It helps you identify the commented text. Each comment displays the name of the reviewer who has added the comment along with the timestamp.

@@ -10,7 +10,7 @@ role: User
 
 As an author, you can address comments in a topic using the Web Editor. The comments are loaded based on the review task selected in the Review panel. For more details, view the **Review** panel ![](images/active-review-tasklist-icon.svg) feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
-The following sections describe ways of editing comments in the Web Editor.
+The following sections describe ways of addressing comments in the Web Editor.
 
 An author can address comments in a document from the Web Editor. Visual indicators are provided indicating whether comments that were inserted \(text\), deleted or highlighted. Also the type of comment is mentioned at the top of every comment entry.
 
@@ -20,7 +20,7 @@ An author can address comments in a document from the Web Editor. Visual indicat
 
 ![](images/comments-page-web-editor_cs-new.png){width="800" align="left"}
 
-In the Web Editor mode, the right panel contains the Review and Tracked Changes icons. The Review panel shows all comments made in your document by reviewers. The **Tracked Changes** panel shows the status of all inserted and deleted comments in your document.
+In the Web Editor mode, the right panel contains the Review and Track Changes icons. The Review panel shows all comments made in your document by reviewers. The **Track Changes** panel shows the status of all inserted and deleted comments in your document.
 
 -   **A**: Select a review task to see review comments. If your topic has been shared for review in multiple review tasks, you will see those tasks listed in this drop-down.
 
@@ -50,7 +50,7 @@ In the Web Editor mode, the right panel contains the Review and Tracked Changes 
 
     ![](images/import-comment-accept-web-editor_cs-new.png){width="800" align="left"}
 
-    You can also use the Track Change feature in the right panel to accept or reject comments. Selecting any comment highlights the comment in the document.
+    You can also use the Track Changes panel to accept or reject comments. Selecting any comment highlights the comment in the document.
 
     ![](images/changes-tab_cs-new.png){width="800" align="left"}
 

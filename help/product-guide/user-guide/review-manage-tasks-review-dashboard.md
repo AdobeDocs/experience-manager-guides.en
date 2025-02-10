@@ -103,7 +103,7 @@ You can perform the following actions under the **Reviewers** tab:
 
 ## Check the status of a review task {#check-review-status-id199RF0A0UHS}
 
-From the main Review Dashboard page, if you select a review task and select **Status**, the status report of the review task is shown:
+From the main Review Dashboard page, if you select a review task and choose **Status**, the status report of the review task is shown.
 
 ![](images/review-status-report.png){width="800" align="left"}
 

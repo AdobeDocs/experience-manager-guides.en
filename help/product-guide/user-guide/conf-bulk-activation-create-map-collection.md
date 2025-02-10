@@ -9,9 +9,9 @@ role: User
 
 To create a bulk activation map collection, perform the following steps:
 
-1.  Select **Guides** from the list of tools.
+1.  Select the Adobe Experience Manager logo at the top and choose **Tools**.
 
-1.  Select the Adobe Experience Manager link at the top and choose **Tools**.
+1.  Select **Guides** from the list of tools.
 
 1.  Select the **Bulk Publish Dashboard** tile.
 
