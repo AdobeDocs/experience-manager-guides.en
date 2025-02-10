@@ -12,6 +12,10 @@ This article covers the new and enhanced features introduced with 2025.02.0 rele
 
 Adobe Experience Manager Guides now features a revamped design and enhanced features to help you work faster and more efficiently than ever before. The new UI brings an intuitive and enhanced user experience, with an all-new home page, a cleaner and more organized editor toolbar, dedicated map console, and enhanced features. 
 
+>[!INFO]
+>
+> To view the new Experience Manager Guides UI in action, watch the [![Overview video](assets/Video_icon.svg)](https://adobe-my.sharepoint.com/:v:/p/mbhalla/EZu_RS6ct9pFkk1m9H_0g4QBzZD5v_Z1fRV_B0QNQL1xvw?e=3I2zPS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 The key highlights are as follows: 
 
 - **Introducing Home page**: Experience Manager Guides now features a Home page that offers an intuitive welcome screen experience, including a quick view of the files that you recently accessed, collections, and more. 
@@ -33,7 +37,7 @@ The key highlights are as follows:
 
     ![](assets/map-console-new-ui.png){width="800" align="left"}
 
-Watch this [overview video](https://adobe-my.sharepoint.com/:v:/p/mbhalla/EZu_RS6ct9pFkk1m9H_0g4QBzZD5v_Z1fRV_B0QNQL1xvw?e=3I2zPS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) to view the new Experience Manager Guides UI in action. 
+
 
 ## Integration with Adobe Workfront for robust work management capabilities 
 

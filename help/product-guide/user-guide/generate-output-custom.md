@@ -1,6 +1,6 @@
 ---
 title: Custom
-description: Learn how to create custom preset from the web editor and map dashboard. Configure a custom output preset in AEM Guides.
+description: Learn how to create custom preset from the map console and map dashboard. Configure a custom output preset in AEM Guides.
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
@@ -40,8 +40,6 @@ In the Map console, the preset configurations have been organized under General 
 
 ![](images/custom-preset-config.png){width="800" align="left"}
 
-**General**
-
 The **General** tab contains the following configurations:
 
 -   DITA-OT Command Line Arguments
@@ -52,32 +50,16 @@ The **General** tab contains the following configurations:
 -   Use Baseline \(If a baseline is created for a map\)
 -   Post Generation Workflow
 
-**Advanced**
-
-The Advanced tab contains the following configurations:
+The **Advanced** tab contains the following configurations:
 
 -   Retain temporary files
 -   File Properties
 
-For details, refer to [Custom preset configuration](#custom-preset-configuration).
+The details of each configuration option are listed below.
 
-## From the Map dashboard
-
-Perform the following steps to create the custom preset from the map dashboard:
-
-1. In the Assets UI, navigate to and select the DITA map to open it in map dashboard.
-1. Ensure that the **Output Presets** tab is selected.
-1. Select **Create** in the toolbar.
-
-    A new output preset creation form is displayed.
-
-1.  Enter the required configuration details for the Custom preset. 
-1.  Select **Done** to save the preset settings.
-
-
-## Custom preset configuration
-
-The following options are available for the Custom output preset:
+>[!NOTE]
+>
+> Some configuration options may vary when configuring the preset from the Map dashboard.
 
 | Custom output options | Description |
 | --- | --- |
@@ -92,5 +74,23 @@ The following options are available for the Custom output preset:
 | Run Post Generation Workflow | When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.<br><br>**Note**: For more information about creating a custom post-output generation workflow, see _Customize post-output generation workflow_ in Install and configure Adobe Experience Manager Guides as a Cloud Service. |
 | Use Baseline | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.<br><br>See [Work with Baseline](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) for more detail. |
 | File Properties | Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties you select from the dropdown list appear under the **File Properties** field. Select the cross icon next to the property to remove it. <br><br>**Note**: You can also pass on the metadata to the output using DITA-OT publishing. For more details see, [Pass on the metadata to the output using DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+
+
+## From the Map dashboard
+
+Perform the following steps to create the custom preset from the Map dashboard:
+
+1. In the Assets UI, navigate to and select the DITA map to open it in Map dashboard.
+1. Ensure that the **Output Presets** tab is selected.
+1. Select **Create** in the toolbar.
+
+    A new output preset creation form is displayed.
+
+1.  Enter the required configuration details for the Custom preset. 
+1.  Select **Done** to save the preset settings.
+
+For details on preset configuration options, view the [Custom preset configuration](#custom-preset-configuration-in-map-console) section of this guide.
+
+
 
 **Parent topic:**[Understanding the output presets](generate-output-understand-presets.md)
