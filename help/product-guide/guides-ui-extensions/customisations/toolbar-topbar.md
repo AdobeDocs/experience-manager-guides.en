@@ -6,7 +6,7 @@ exl-id: 7065c9b8-67ac-4f6d-8124-daa547f2dc3b
 ---
 # Customizing topbar and toolbar
 
-To customize the `topbar` and `toolbar`, we will be using the ids: `topbar` or `toolbar`, and follow the same view, controller structure.
+To customize the `topbar` and `toolbar`, you can use the ids: `topbar` or `toolbar`, and follow the same view, controller structure.
 
 >[!NOTE]
 >
@@ -16,11 +16,11 @@ Below is a trivial example of toolbar customization. Here, we have removed the `
 
 >[!TIP]
 >
->Since **editor_toolbar** is designed to render buttons, adding widgets to it may disrupt its CSS and responsiveness. It is recommended to include only buttons or basic components, such as label.
+>Since **editor_toolbar** is designed to render buttons, adding widgets to it may disrupt its CSS and responsiveness. It is recommended to include only buttons or basic components, such as a label.
 
-For accessing functionality exposed under `proxy` object we will need to acces it using `this.getValue` lets say for fetching a value.
+For accessing functionality exposed under the `proxy` object, you need to acces it using `this.getValue`, lets say for fetching a value.
 
-For AEM guides 5.0 and 2502 and further you can refer to below example for customization.
+For AEM Guides 5.0 and 2502 release and further, you can refer to below example for toolbar customization.
 
 ```js title = toolbar_customization.js
 const toolbarExtend = {
@@ -83,10 +83,11 @@ const toolbarExtend = {
     }
 }
 ```
+Once customized, the final output can be seen as follows: 
 
 ![editor_toolbar](imgs/editor_toolbar.png)
 
-For customizing toolbar on 4.6 you can refer to below example.
+Refer to the below example if customizing the toolbar on AEM Guides 4.6 release, and previous version. 
 
 ```js title = toolbar_customization.js
 const topbarExtend = {
@@ -203,6 +204,8 @@ const topbarExtend = {
 }
 ```
 
+Once customized, the final output can be seen as follows: 
+
 ![toolbar](imgs/toolbar.png)
 
 
@@ -241,4 +244,4 @@ const toolbarExtend = {
 }
 ```
 
-Here, `activeTabId` is the enum for selecting the correct tab. By default, selecting the the Cross reference tab opens `file_link`. You can change the `activeTabId` values to  `content_reference`, `conkey_reference`, `key_reference`, `file_link`, `web_link`, and ` email_link` based on the requirement. 
+Here, `activeTabId` is the enum for selecting the correct tab. By default, selecting the Cross reference tab opens `file_link`. You can change the `activeTabId` values to  `content_reference`, `conkey_reference`, `key_reference`, `file_link`, `web_link`, and ` email_link` based on the requirement. 

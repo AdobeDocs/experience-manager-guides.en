@@ -79,7 +79,7 @@ The toolbar is located just below the tab bar. Features available in the toolbar
 
 | Features       | Description   | 
 |----------------|----------------|
-| Editing actions  | Provides access to various document editing features including **Cut** &nbsp;![](images/S_Cut_18_N.svg), **Undo** &nbsp;![](images/S_Undo_18_N.svg), **Redo** &nbsp;![](images/S_Redo_18_N.svg) **Copy** &nbsp;![](images/S_Copy_18_N.svg), **Delete** &nbsp;![](images/S_Delete_18_N.svg), and **Find and replace** &nbsp;![](images/S_FindAndReplace_18_N.svg). You can access the available options from the **Menu** dropdown. | 
+| Editing actions  | Provides access to various document editing features including **Cut** &nbsp;![](images/S_Cut_18_N.svg), **Undo** &nbsp;![](images/S_Undo_18_N.svg), **Redo** &nbsp;![](images/S_Redo_18_N.svg), **Copy** &nbsp;![](images/S_Copy_18_N.svg), **Delete** &nbsp;![](images/S_Delete_18_N.svg), and **Find and replace** &nbsp;![](images/S_FindAndReplace_18_N.svg). You can access the available options from the **Menu** dropdown. | 
 | Text formatting options | Provides access to various text formatting options including **Headings** &nbsp;![](images/S_DisplayHeading_18_N.svg), **Bold** &nbsp;![](images/S_TextBold_18_N.svg), **Italic** &nbsp;![](images/S_TextItalic_18_N.svg), **Strikethrough** &nbsp;![](images/S_TextStrikethrough_18_N.svg), **Code** &nbsp;![](images/S_Code_18_N.svg), and **Block quote** &nbsp;![](images/S_BlockQuoteMultipleLines_18_N.svg).|
 | Content insertion options | Provides options to insert a **Numbered list** &nbsp;![](images/S_TextNumbered_18_N.svg), **Ordered list** &nbsp;![](images/S_TextBulleted_18_N.svg), **Table** &nbsp;![](images/tableAdd.svg), **Image**&nbsp;![](images/S_ImageAdd_18_N.svg), **Cross reference** &nbsp;![](images/S_LinkGlobe_18_N.svg), and **Symbol** &nbsp;![](images/S_SpecialCharacter_18_N.svg) into a document.<br><br> **Note**: You can also drag and drop images and other files into the Markdown editor. Files are added as cross-reference links, while images are displayed as standard image elements.| 
 | Version history|  Allows you to create versions of markdown files and view the history of changes. You can compare different versions and revert to previous ones if needed. The Version history option is present in the **Menu** dropdown.|
@@ -92,7 +92,7 @@ The toolbar is located just below the tab bar. Features available in the toolbar
 
 ### Content editing area
 
-The content editing area displays the Markdown source of your topic, where you make all content edits. In Side-by-side view, this area splits into two sections - Markdown source view on the left and Preview on the right. You can have multiple topics opened at the same time, which are displayed in their respective tabs.
+The content editing area displays the Markdown source of your topic, where you make all content edits. In the Side-by-side view, this area splits into two sections - Markdown source view on the left and Preview on the right. You can have multiple topics opened at the same time, which are displayed in their respective tabs.
 
 ### Source, Side-by-side, and Preview modes
 

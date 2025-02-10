@@ -14,7 +14,7 @@ Adobe Experience Manager Guides now features a revamped design and enhanced feat
 
 >[!INFO]
 >
-> To view the new Experience Manager Guides UI in action, watch the [![Overview video](assets/Video_icon.svg)](https://adobe-my.sharepoint.com/:v:/p/mbhalla/EZu_RS6ct9pFkk1m9H_0g4QBzZD5v_Z1fRV_B0QNQL1xvw?e=3I2zPS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+> To view the new Experience Manager Guides UI in action, watch the overview video [![](assets/Video_icon.svg)](https://adobe-my.sharepoint.com/:v:/p/mbhalla/EZu_RS6ct9pFkk1m9H_0g4QBzZD5v_Z1fRV_B0QNQL1xvw?e=3I2zPS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D).
 
 The key highlights are as follows: 
 
@@ -66,7 +66,7 @@ Experience faster and scalable publishing to AEM Sites with the all-new publishi
 
 Learn more about [AEM Sites publishing](../user-guide/generate-output-aem-site-web-editor.md).
 
-![](assets/new-aem-sites-preset.png){width="300" align="left"}
+![](assets/new-aem-sites-preset.png){width="500" align="left"}
 
 
 ## Seamlessly publish standalone content to AEM Sites with Single topic publishing 
@@ -75,7 +75,7 @@ Introducing single topic publishing to AEM Sites pages that allows you to publis
 
 For more details, view [Publish AEM Sites pages](../user-guide/publish-aem-sites.md).
 
-![](assets/aem-sites-page-generate.png){width="300" align="left"}
+![](assets/aem-sites-page-generate.png){width="500" align="left"}
 
 
 
@@ -85,7 +85,7 @@ Now, experience a cleaner, more efficient, and powerful way to author markdown t
 
 For more details, refer [Markdown authoring](../user-guide/web-editor-markdown-topic.md). 
 
-![](assets/markdown-topic-side-by-side.png){width="300" align="left"}
+![](assets/markdown-topic-side-by-side.png){width="800" align="left"}
 
 ## Editor enhancements 
 
@@ -147,7 +147,7 @@ The following publishing enhancements has been made as part of the new release:
 
     For more details, view [Working with PDF output preset](../user-guide/generate-output-pdf.md) 
 
-    ![](assets/ditaot-setting-enabled.png){width="300" align="left"}
+    ![](assets/ditaot-setting-enabled.png){width="500" align="left"}
 
 - The Print settings for Native PDF output generation have been moved from **Templates** setting to the **Native PDF Output preset** for better usability. You can now use the same template for online and print PDFs with different print settings such as color profile.  
 
