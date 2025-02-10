@@ -83,6 +83,8 @@ const toolbarExtend = {
     }
 }
 ```
+
+
 Once customized, the final output can be seen as follows: 
 
 ![editor_toolbar](imgs/editor_toolbar.png)
