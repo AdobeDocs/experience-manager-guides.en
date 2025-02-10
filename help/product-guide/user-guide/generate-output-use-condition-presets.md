@@ -54,10 +54,12 @@ You can create a condition preset of the topics by performing the following step
 
     Do one of the following:
     For any attribute, select one of the following actions from the Action drop-down or from the toolbar.
-        - Include
-        - Exclude
-        - Passthrough
-        - Flag
+
+    - Include
+    - Exclude
+    - Passthrough
+    - Flag
+    
     Select multiple attribute rows from the right panel and choose an action from the actions bar on the top. For example, you can select **Exclude** action for the selected attributes.
 1.  Select **Save** to save the condition preset. 
 
