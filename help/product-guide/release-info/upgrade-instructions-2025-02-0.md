@@ -37,6 +37,14 @@ This section lists the compatibility matrix for the software applications suppor
 |---|---|---|
 |Experience Manager Guides Components Content Package for Cloud Service|guides-components.all-1.3.0| aem-site-template-dxml-1.0.17|
 
+
+### New AEM Site template version
+
+|Components version | Site version|
+|---|---|
+|guides-components.all-1.3.0| aemg-sites-template-1.2.0|
+
+
 ## Upgrade to 2025.02.0 release
 
 Experience Manager Guides is upgraded automatically upon upgrading the current (latest) release of Experience Manager as a Cloud Service.

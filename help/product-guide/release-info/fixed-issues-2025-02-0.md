@@ -84,13 +84,13 @@ Learn about [upgrade instructions for the 2025.02.0 release](upgrade-instruction
 Adobe has identified the following known issues for the 2025.02.0 release:
 
 - When using images as variables in the PDF template, it does not resolves in the output.
-- When using **Locate in repository** from the Map console for a map/topic, it fails to accurately point the location if the repository is collapsed or if the map/topic is located towards the bottom of the repository.
+- The **Locate in repository** capability does not work when opening the Guides Editor for the first time, but starts working as expected after refreshing the browser.
 - In **Topic list** reports, sorting by title fails for assets with `<conref>` or `<conkeyref>` in the title, causing these entries to always appear at the top.
 - Switching the folder profile does not immediately reflect changes on the UI without refreshing the browser.
-- Due to changes in the Guides UI, the extension framework does not support customizations made in the previous versions of Guides.
+- The extension framework customizations made prior to Guides 2025.02.x.x, may not function as intended.
 - The complete TOC of the map does not update when selectively publishing topics from the map.
 - Publishing a map that contains a Markdown file with internal image references, fails on Windows servers.
-- Converting a bulleted list to a numbered list still displays the bullet in the Editor.
+- The bulleted list fails to convert to numbered list in Markdown.
 - Publishing to native AEM site fails when markdown files are referred in a map. 
 - The position of Background color is misaligned in the UI of **Condition's Panel**.
 - When you use image as a `<keyref>`, the **Reference Type** of the image is not shown in the **Multimedia report**.
