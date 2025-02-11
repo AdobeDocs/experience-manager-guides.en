@@ -14,9 +14,9 @@ You can create the Custom preset in two ways:
 - [From the Map console](#from-the-map-console)
 - [From the Map dashboard](#from-the-map-dashboard) 
 
-## From the Map console
+## Create the Custom preset from the Map console
 
-Perform the following steps to create the custom preset from the map console:
+Perform the following steps to create the Custom preset from the Map console:
 
 1. [Open a DITA map file in the Map console](./open-files-map-console.md). 
 
@@ -34,32 +34,37 @@ Perform the following steps to create the custom preset from the map console:
 
     ![](images/custom-preset-dialog.png){width="300" align="left"}
 
-### Custom preset configuration in Map console
-
 In the Map console, the preset configurations have been organized under General and Advanced tabs:
 
 ![](images/custom-preset-config.png){width="800" align="left"}
 
-The **General** tab contains the following configurations:
+For details on preset configuration options, refer to the [Custom preset configurations](#custom-preset-configurations) section.
 
--   DITA-OT Command Line Arguments
--   Transformation Name
--   File Name
--   Output Path
--   Apply Conditions Using \(If the conditions are defined for a map\)
--   Use Baseline \(If a baseline is created for a map\)
--   Post Generation Workflow
 
-The **Advanced** tab contains the following configurations:
+## Create the Custom preset from the Map dashboard
 
--   Retain temporary files
--   File Properties
+Perform the following steps to create the Custom preset from the Map dashboard:
 
-The details of each configuration option are listed below.
+1. In the Assets UI, navigate to and select the DITA map to open it in Map dashboard.
+1. Ensure that the **Output Presets** tab is selected.
+1. Select **Create** in the toolbar.
 
->[!NOTE]
->
-> Some of the configuration options listed below may vary or apply specifically to the Map dashboard, while others are applicable to both Map console and Map dashboard.
+    A new output preset creation form is displayed.
+
+    ![](images/new-output-preset-map-dashboard.png){width="650" align="left"}
+
+1.  Enter the required configuration details for the Custom preset. 
+1.  Select **Done** to save the preset settings.
+
+For details on preset configuration options, refer to the [Custom preset configurations](#custom-preset-configurations) section.
+
+## Custom preset configurations
+
+Configuration options vary slightly depending on whether you are configuring the preset from the Map console or the Map dashboard. Some options apply only to the Map dashboard, while others apply to both.
+
+In cases where the same configuration has two different field labels, a **/** separates them in the table below. The first represents the label in the Map console, and the second represents the different label in the Map dashboard. 
+
+For example: Output path/Destination Path - **Output path** is the field name in the Map console, while **Destination Path** is the field name in the Map dashboard.
 
 | Custom output options | Description |
 | --- | --- |
@@ -75,22 +80,5 @@ The details of each configuration option are listed below.
 | Use Baseline | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.<br><br>See [Work with Baseline](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) for more detail. |
 | File Properties | Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties you select from the dropdown list appear under the **File Properties** field. Select the cross icon next to the property to remove it. <br><br>**Note**: You can also pass on the metadata to the output using DITA-OT publishing. For more details see, [Pass on the metadata to the output using DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
-
-## From the Map dashboard
-
-Perform the following steps to create the custom preset from the Map dashboard:
-
-1. In the Assets UI, navigate to and select the DITA map to open it in Map dashboard.
-1. Ensure that the **Output Presets** tab is selected.
-1. Select **Create** in the toolbar.
-
-    A new output preset creation form is displayed.
-
-1.  Enter the required configuration details for the Custom preset. 
-1.  Select **Done** to save the preset settings.
-
-For details on preset configuration options, view the [Custom preset configuration](#custom-preset-configuration-in-map-console) section of this guide.
-
-
-
 **Parent topic:**[Understanding the output presets](generate-output-understand-presets.md)
+
