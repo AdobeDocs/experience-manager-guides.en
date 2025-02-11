@@ -22,16 +22,16 @@ The Map console interface is divided into the following sections:
     - **Navigation switcher**: Allows seamless navigation to other pages - Editor or Home page: 
     - **Selected feature name**: Displays the name of the selected feature panel. For example, selecting Output presets in the left panel opens the **Output preset** panel on the right with its name shown in the navigation bar. 
     - **Selected map file**: Displays the name of the currently selected map file. You can open it in the Editor or choose a different map file for the Map console.
-    - **More actions**: Provides options to navigate to the Assets UI and Settings. For details, refe to the More actions section of the [Know the Editor features](./web-editor-features.md) document.
+    - **More actions**: Provides options to navigate to the **Assets UI** and **Settings**. For details, refer to the **More actions** section of the [Know the Editor features](./web-editor-features.md#tab-bar) document.
     - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
 
     >[!NOTE]
     >
-    > If using the Adobe Experience Manager Guides as a Cloud Service, an additional feature labeled as **AI Assistant** is displayed in the navigation bar. 
+    > If using the Adobe Experience Manager Guides as a Cloud Service, an additional feature [AI Assistant](./ai-assistant.md) is displayed in the navigation bar. 
 
 - (**B**) **Left panel**: The left panel gives you quick access to Output generation, Report creation and management, Baseline, Condition presets, and Content translation features. 
 
-    For more details, view the [Map console features](./map-console-features.md).
+    For more details, refer to the [Map console features](#map-console-features) section below.
 
 - (**C**) **Feature panel**: Displays the selected Map console feature panel with the options to create, configure, and manage the map and publishing related actions.   
 - (**D**) **Feature configuration area** - The main configuration area where the selected feature settings are configured. 

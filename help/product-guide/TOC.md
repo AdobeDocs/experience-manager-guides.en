@@ -178,7 +178,8 @@ breadcrumb-title: AEM Guides Documentation
     - [Smart Tagging](./user-guide/web-editor-smart-tagging.md)
     - [Bulk tagging of DITA content](./user-guide/map-editor-bulk-tagging.md)
   - Map management and publishing {#map-management-and-publishing}  
-    - [Map console for map management and publishing](./user-guide/map-management-and-publishing.md)
+    - [Map console overview](./user-guide/map-console-overview.md)
+    - [Open files in Map console](./user-guide/open-files-map-console.md)
     - Output Generation {#output-gen}
       - [Output generation basics](./user-guide/generate-output.md)
       - [Introduction to output presets](./user-guide/generate-output-understand-presets.md)
@@ -208,7 +209,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
       - [Publish AEM Sites pages](./user-guide/publish-aem-sites.md)
       - [Publish Knowledge Base Articles](./user-guide/web-editor-article-publishing.md)
-      - [Open files in Map console](./user-guide/open-files-map-console.md)
+      
       - Bulk activation of content {#bulk-activation}
         - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
         - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
