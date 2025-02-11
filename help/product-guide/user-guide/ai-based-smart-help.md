@@ -7,7 +7,7 @@ exl-id: 61a15208-9600-4bb8-adc0-feca1a0ffef3
 
 Experience Manager Guides provides the GenAI-based smart Help, a conversational search feature that helps you find relevant content from the [Adobe Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
-You can ask your questions and get answers in an informative way. The answer to your query is based on the content from the product documentation. This search is entirely conversational. You can ask questions about the various features of a product or can choose to ask troubleshooting queries. Based on the response, you can also ask further questions. The response also includes links to source documents, which you can refer to for details. 
+You can ask your questions and get answers in an informative way. The answer to your query is based on the content from the product documentation. This search is entirely conversational. You can ask questions about the various features of Experience Manager Guides or can choose to ask troubleshooting queries. Based on the response, you can also ask further questions. The response also includes links to source documents, which you can refer to for details. 
 
 For example, you may want to ask questions like *How do I publish a map?* You get a response and the links for the related articles. Then, if you want to learn how to use a specific method to publish the ouput, you can ask questions about it. For example, *How do I publish a map to PDF?* 
 

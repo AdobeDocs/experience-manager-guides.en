@@ -14,7 +14,7 @@ Adobe Experience Manager Guides now features a revamped design and enhanced feat
 
 >[!INFO]
 >
-> To view the new Experience Manager Guides UI in action, watch the overview video [![](assets/Video_icon.svg)](https://adobe-my.sharepoint.com/:v:/p/mbhalla/EZu_RS6ct9pFkk1m9H_0g4QBzZD5v_Z1fRV_B0QNQL1xvw?e=3I2zPS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D).
+> To view the new Experience Manager Guides UI in action, watch the overview video [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://adobe-my.sharepoint.com/:v:/p/mbhalla/EZu_RS6ct9pFkk1m9H_0g4QBzZD5v_Z1fRV_B0QNQL1xvw?e=3I2zPS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D).
 
 The key highlights are as follows: 
 

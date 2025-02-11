@@ -6,7 +6,7 @@ role: User
 ---
 # Adobe Experience Manager Guides Home page experience
 
-The Home page is the first thing that you view when logging into Experience Manager Guides. It provides you with a unified and intuitive welcome screen experience, which includes a quick view of the files that you recently accessed, collections, and more.
+The Home page is the first screen that you view when logging into Experience Manager Guides. It provides you with a unified and intuitive welcome screen experience, which includes a quick view of the files that you recently accessed, collections, and more.
 
 ![](images/aem-home-page.png){width="800" align="left"}
 
