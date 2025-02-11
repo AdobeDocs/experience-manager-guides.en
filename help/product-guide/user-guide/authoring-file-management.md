@@ -118,7 +118,7 @@ You must consider the following points before running the batch process:
 
 To move files in bulk, perform the following steps:
 
-1.  Select the Adobe Experience Manager link at the top and choose **Tools**.
+1.  Select the Adobe Experience Manager logo at the top and choose **Tools**.
 1.  Select **Guides** from the list of tools.
 1.  Select the **Bulk Move Tool** tile. 
 1. The Bulk Move Tool page is displayed based on your setup. Provide the following details on the **Bulk Move Tool** page:
@@ -140,7 +140,7 @@ To move files in bulk, perform the following steps:
 
     -   **Source path\(s\)**: Specify the location of folders that you want to move. 
        
-         - Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the browse file dialog. Select the folders you want to move and click **Select** to complete the process. 
+         - Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the browse file dialog. Select the folders you want to move and choose **Select** to complete the process. 
 
         - You can also type or copy and paste the source location. Press Enter to add the folder to the list. 
 
@@ -150,7 +150,7 @@ To move files in bulk, perform the following steps:
 
     -   **Destination path**: Specify the location where you want to move the source folders.
 
-        - Select  **Browse Folder** <img src="images/browse-folder-icon.svg" width="25"> to open the browse file dialog. Select the location where you want to move the source folders. and click Select to complete the process.
+        - Select  **Browse Folder** <img src="images/browse-folder-icon.svg" width="25"> to open the browse file dialog. Select the location where you want to move the source folders. and choose Select to complete the process.
         - You can also type or copy and paste the destination path. 
 
         The selected folder is displayed along with its path in the text box. 
@@ -189,7 +189,7 @@ To move files in bulk, perform the following steps:
 
      -   **Source path\(s\)**: Specify the location of folders that you want to move. 
         
-            - Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the browse file dialog. Select the folders you want to move and click **Select** to complete the process. 
+            - Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the browse file dialog. Select the folders you want to move and choose **Select** to complete the process. 
 
             - You can also type or copy and paste the source location. Press Enter to add the folder to the list. 
 
@@ -199,7 +199,7 @@ To move files in bulk, perform the following steps:
 
     -   **Destination path**: Specify the location where you want to move the source folders.
 
-        - Select  **Browse Folder** <img src="images/browse-folder-icon.svg" width="25"> to open the browse file dialog. Select the location where you want to move the source folders. and click Select to complete the process.
+        - Select  **Browse Folder** <img src="images/browse-folder-icon.svg" width="25"> to open the browse file dialog. Select the location where you want to move the source folders. and choose Select to complete the process.
         - You can also type or copy and paste the destination path. 
 
              The selected folder is displayed along with its path in the text box. 
