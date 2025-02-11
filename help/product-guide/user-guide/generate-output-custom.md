@@ -34,7 +34,7 @@ Perform the following steps to create the Custom preset from the Map console:
 
     ![](images/custom-preset-dialog.png){width="300" align="left"}
 
-In the Map console, the preset configurations have been organized under General and Advanced tabs:
+In the Map console, the preset configurations have been organized under the **General** and **Advanced** tabs:
 
 ![](images/custom-preset-config.png){width="800" align="left"}
 
@@ -62,9 +62,9 @@ For details on preset configuration options, refer to the [Custom preset configu
 
 Configuration options vary slightly depending on whether you are configuring the preset from the Map console or the Map dashboard. Some options apply only to the Map dashboard, while others apply to both.
 
-In cases where the same configuration has two different field labels, a **/** separates them in the table below. The first represents the label in the Map console, and the second represents the different label in the Map dashboard. 
+In cases where the same configuration has two different field labels, a **/** separates them in the table below. The first represents the label in the Map console, and the second represents the label in the Map dashboard. 
 
-For example: Output path/Destination Path - **Output path** is the field name in the Map console, while **Destination Path** is the field name in the Map dashboard.
+For example, **Output path/Destination Path** - Here, **Output path** is the label used in the Map console, while **Destination Path** is the label used in the Map dashboard for the same configuration.
 
 | Custom output options | Description |
 | --- | --- |
