@@ -11,7 +11,7 @@ Once a topic is created, Adobe Experience Manager Guides generates a preview of 
 
 There are two ways to preview a topic in Experience Manager Guides:
 
-- [From the Map console](#preview-topics-from-the-editor)
+- [From the Editor](#preview-topics-from-the-editor)
 - [From the Assets UI](#preview-topics-from-the-assets-ui)
 
 ## Preview topics from the Editor
@@ -166,7 +166,7 @@ If the Checked out column is not visible, select **View Settings** under **List 
         ![](images/version-difference.png){width="800" align="left"}
 
 
-### Branch, revert, and subsequent versioning {#id193PG0Y051X}
+### Branch, revert, and subsequent versioning
 
 - In a typical authoring environment, you would need to create a new branch of a topic to cater to a specific release. Just like any other version management system, Experience Manager Guides allows you to create a branch from an existing version of a topic, or revert to an older version of a topic. Using the version management features offered by Experience Manager Guides, you can perform the following tasks:
 

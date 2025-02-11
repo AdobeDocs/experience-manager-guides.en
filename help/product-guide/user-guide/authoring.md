@@ -25,7 +25,7 @@ Move or rename files or change folder structure in the content repository, witho
 
 Experience Manager Guides provides version management for your digital assets. You can easily enable this functionality from a DITA authoring application of choice. Allowing your writers to perform the standard version control functions such as check-in and check-out.
 
-For more information about creating versions or reverting to a specific version, see [Branch, revert, and subsequent versioning](web-editor-preview-topics.md#id193PG0Y051X).
+For more information about creating versions or reverting to a specific version, see [Branch, revert, and subsequent versioning](web-editor-preview-topics.md#branch-revert-and-subsequent-versioning).
 
 **Native DITA handling**
 
