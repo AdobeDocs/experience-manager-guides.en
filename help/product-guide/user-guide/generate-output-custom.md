@@ -34,9 +34,26 @@ Perform the following steps to create the Custom preset from the Map console:
 
     ![](images/custom-preset-dialog.png){width="300" align="left"}
 
-In the Map console, the preset configurations are organized under the **General** and **Advanced** tabs:
+In the Map console, the preset configurations are organized under the **General** and **Advanced** tabs. 
 
 ![](images/custom-preset-config.png){width="800" align="left"}
+
+The **General** tab contains the following configurations:
+
+- DITA-OT command line arguments
+- Transformation name
+- File name
+- Output path
+- Conditional filtering \(If the conditions are defined for a map\)
+- Use baseline \(If a baseline is created for a map\)
+- Post generation workflow
+
+**Advanced**
+
+The Advanced tab contains the following configurations:
+
+- Retain temporary files
+- File properties 
 
 For details on preset configuration options, refer to the [Custom preset configurations](#custom-preset-configurations) section.
 

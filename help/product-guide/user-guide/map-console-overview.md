@@ -11,7 +11,7 @@ Adobe Experience Manager Guides offers a dedicated console, known as the **Map c
 
 ![file properties options tab](./images/map-console-screen.png){width="800" align="left"}
 
-The Map console interface is divided into the following sections:
+The Map console interface is primarily divided into two sections - **Left panel** and **Navigation bar**.
 
 ![New](images/map-console-sections.png){width="800" align="left"}
 
@@ -32,9 +32,6 @@ The Map console interface is divided into the following sections:
 - (**B**) **Left panel**: The left panel gives you quick access to Output generation, Report creation and management, Baseline, Condition presets, and Content translation features. 
 
     For more details, refer to the [Map console features](#map-console-features) section below.
-
-- (**C**) **Feature panel**: Displays the selected Map console feature panel with the options to create, configure, and manage the map and publishing related actions.   
-- (**D**) **Feature configuration area** - The main configuration area where the selected feature settings are configured. 
 
 ## Map console features 
 
