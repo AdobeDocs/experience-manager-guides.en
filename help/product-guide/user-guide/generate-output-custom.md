@@ -11,8 +11,8 @@ The Custom output presets are available for custom DITA-OT plug-ins. You can cre
 
 You can create the Custom preset in two ways:
 
-- [From the Map console](#from-the-map-console)
-- [From the Map dashboard](#from-the-map-dashboard) 
+- [Create the Custom preset from the Map console](#create-the-custom-preset-from-the-map-console)
+- [Create the Custom preset from the Map dashboard](#create-the-custom-preset-from-the-map-dashboard) 
 
 ## Create the Custom preset from the Map console
 
@@ -24,9 +24,9 @@ Perform the following steps to create the Custom preset from the Map console:
 1. In the **Output presets** tab, select the + icon to create an output preset. 
 1. Select **Custom** from the Type dropdown in the **New output preset** dialog box. 
 1. In the **Name** field, provide a name to this preset.
-1. Select the **Add to current folder profile** option to create an output preset for the current folder profile. ![folder profile icon](images/global-preset-icon.svg) icon indicates a folder profile level preset.  
+1. Select the **Add to current folder profile** option to create an output preset within the current folder profile. The ![folder profile icon](images/global-preset-icon.svg) indicates a folder-profile-level preset.  
 
-   Learn more about [Manage Global and Folder Profile output presets](./web-editor-manage-output-presets.md).
+   Learn more about [Manage Global and Folder profile output presets](./web-editor-manage-output-presets.md).
 
  1. Select **Add**.   
 
@@ -34,7 +34,7 @@ Perform the following steps to create the Custom preset from the Map console:
 
     ![](images/custom-preset-dialog.png){width="300" align="left"}
 
-In the Map console, the preset configurations have been organized under the **General** and **Advanced** tabs:
+In the Map console, the preset configurations are organized under the **General** and **Advanced** tabs:
 
 ![](images/custom-preset-config.png){width="800" align="left"}
 
@@ -68,8 +68,8 @@ For example, **Output path/Destination Path** - Here, **Output path** is the lab
 
 | Custom output options | Description |
 | --- | --- |
-| Output Type (Applicable for Map dashboard only) | The type of output you want to generate. To generate output using custom DITA-OT plug-in, choose the Custom option. |
-| Setting Name (Applicable for Map dashboard only) | Give a descriptive name for the output settings you are creating. For example, you can specify _Internal customers output_ or _end-users output_. |
+| Output Type (*Applicable for Map dashboard only*) | The type of output you want to generate. To generate output using custom DITA-OT plug-in, choose the Custom option. |
+| Setting Name (*Applicable for Map dashboard only*) | Give a descriptive name for the output settings you are creating. For example, you can specify _Internal customers output_ or _end-users output_. |
 | DITA-OT Command Line Arguments | Specify the additional arguments that you want DITA-OT to process while generating output. For details about the command-line arguments supported in DITA-OT, see [DITA-OT documentation](https://www.dita-ot.org/). |
 | Transformation Name | Specify the type of output you want to generate. This is required if you want to generate output using your own custom plug-in, which is integrated in the DITA-OT plug-in. For example, if you want to generate XHTML output, specify `xhtml`. For a list of transformations available in DITA-OT, see [DITA-OT transformations (output formats)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) in OASIS DITA-OT User Guide. |
 | File Name | Specify the file name with which you want to save the output.<br><br>**Note**: If you do not provide a file name, then the DITA map's title is used to generate the final output file name. If the map does not have a title, then the DITA map's file name is used to name is the final output. The file name is sanitized using the rules configured in the system to handle any invalid character. |

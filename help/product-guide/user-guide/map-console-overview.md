@@ -1,18 +1,44 @@
 ---
-title: Map management and publishing in Adobe Experience Manager Guides 
-description: Learn how to publish and manage maps in Adobe Experience Manager Guides.
+title: Map console in Adobe Experience Manager Guides 
+description: Learn about Map console and the various available features that allow you to publish and manage maps in Adobe Experience Manager Guides.
 feature: Publishing
 role: User
 ---
-# Map console for map management and publishing 
 
-Adobe Experience Manager Guides offers a dedicated console, known as the **Map console**, to streamline all your map management and publishing tasks. This centralized platform enhances productivity and accuracy in your map-related activities by providing you options to generate outputs, translate content, access reports, and more – all at one place. 
+# Map console overview 
 
-![file properties options tab](./images/map-console-screen.png){width="300" align="left"}
+Adobe Experience Manager Guides offers a dedicated console, known as the **Map console**, to streamline all your map management and publishing tasks. This centralized interface enhances productivity and accuracy in your map-related activities by providing you options to generate outputs, translate content, access reports, and more – all at one place. 
 
-## Features available in Map console:
+![file properties options tab](./images/map-console-screen.png){width="800" align="left"}
 
-The following features are available when you [open a DITA map file in Map console](./open-files-map-console.md):
+The Map console interface is divided into the following sections:
+
+![New](images/map-console-sections.png){width="800" align="left"}
+
+- (**A**) **Navigation bar**: The navigation bar surfaces tools to switch navigation, adjust the page view, and displays the name of the selected map file and feature panel.  
+
+    Features available in the navigation bar are explained as follows: 
+
+    - **Navigation switcher**: Allows seamless navigation to other pages - Editor or Home page: 
+    - **Selected feature name**: Displays the name of the selected feature panel. For example, selecting Output presets in the left panel opens the **Output preset** panel on the right with its name shown in the navigation bar. 
+    - **Selected map file**: Displays the name of the currently selected map file. You can open it in the Editor or choose a different map file for the Map console.
+    - **More actions**: Provides options to navigate to the Assets UI and Settings. For details, refe to the More actions section of the [Know the Editor features](./web-editor-features.md) document.
+    - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
+
+    >[!NOTE]
+    >
+    > If using the Adobe Experience Manager Guides as a Cloud Service, an additional feature labeled as **AI Assistant** is displayed in the navigation bar. 
+
+- (**B**) **Left panel**: The left panel gives you quick access to Output generation, Report creation and management, Baseline, Condition presets, and Content translation features. 
+
+    For more details, view the [Map console features](./map-console-features.md).
+
+- (**C**) **Feature panel**: Displays the selected Map console feature panel with the options to create, configure, and manage the map and publishing related actions.   
+- (**D**) **Feature configuration area** - The main configuration area where the selected feature settings are configured. 
+
+## Map console features 
+
+The following features are available in the Left panel when you [open a DITA map file in Map console](./open-files-map-console.md). 
 
 **Output generation**
 
