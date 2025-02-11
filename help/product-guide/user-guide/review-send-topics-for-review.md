@@ -37,7 +37,7 @@ To create a review task and send topics for review, perform the following steps:
 
 1.  Navigate to the required folder in the Assets UI.
 
-1.  Click the **Select** icon in the quick action and select the topics you want to send for review.
+1.  Choose the **Select** icon in the quick action and select the topics you want to send for review.
 
     ![](images/select-asset-62.png){width="300" align="left"}
 

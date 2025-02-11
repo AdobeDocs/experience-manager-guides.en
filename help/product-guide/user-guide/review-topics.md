@@ -48,7 +48,7 @@ Perform the following steps to review a topic:
 
         >[!NOTE]
         >
-        > On applying the fiters, only the comments which match the selected filters are displayed in the comments panel. The number of filtered comments are shown on the left in the topics panel.
+        > On applying the filters, only the comments which match the selected filters are displayed in the comments panel. The number of filtered comments are shown on the left in the topics panel.
 
     -   **E**: A topic that is assigned for review to the current reviewer is shown in black and can be selected. When the reviewer selects a topic link that topic is brought to the top of the screen.
     -   **F**: A topic that is not available for review is grayed out. The topic is shown in read-only mode and you are not allowed to add any review comments on such topics.
@@ -126,8 +126,8 @@ The tasks that you can perform using the Comments panel are described below:
 
 -   Selecting a comment highlights and shows the corresponding comment's location in the document.
 -   You can add replies to comments.
--   You can edit your own comment by selecting your commented text in the Comments panel and then selecting **Edit** from the Options menu.
--   You can delete your own comments by selecting the comment in the Comments panel and then selecting the **Delete** option from the Options menu.
+-   You can edit your own comment by selecting your commented text in the Comments panel and then choosing **Edit** from the Options menu.
+-   You can delete your own comments by selecting the comment in the Comments panel and then choosing the **Delete** option from the Options menu.
 
     ![](images/review-comment-options-menu.png){width="300" align="left"}
 
@@ -242,6 +242,6 @@ Select one or more of the following filtering options from the **Filter Type** d
     On using the filters the comments on the right panel get filtered according to the selection, and the number of comments in the left panel is updated accordingly.
 
 
-To remove the filter and view all the comments, deselelect all filters from the **Filter Type** dialog and select **Apply**.
+To remove the filter and view all the comments, deselect all filters from the **Filter Type** dialog and select **Apply**.
 
 **Parent topic:**[Review topics or maps](review.md)
