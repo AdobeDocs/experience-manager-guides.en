@@ -29,7 +29,7 @@ In the Web Editor mode, the right panel contains the Review and Track Changes ic
 -   **B:**  Select **Review details** ![](images/active-review-info-icon.svg) in the **Comments** panel to view more information about the review task:
 
     - **Name**: Name of the review task .
-    - **Review Version**: Dispalys the version associated with the selected review task. This helps you to keep a track of the version that you had shared for review
+    - **Review Version**: Displays the version associated with the selected review task. This helps you to keep a track of the version that you had shared for review
     - **Status**: Current status of the review task.
     
     >[!NOTE]
