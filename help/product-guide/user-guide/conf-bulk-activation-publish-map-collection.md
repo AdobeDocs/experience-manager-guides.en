@@ -15,7 +15,7 @@ Once you have created a map collection for bulk activation, the next step is to 
 
 1.  Select the **Bulk Publish Dashboard** tile.
 
-    The Bulk Publish Dashboard is displayed with a list of bulk activation map collections. You can also access this dashboard from the Left panel of the [AEM Guides Home page](intro-home-page.md).
+    The Bulk Publish Dashboard is displayed with a list of bulk activation map collections. You can also access this dashboard from the Left panel of the [Adobe Experience Manager Guides Home page](intro-home-page.md).
 
 1.  Select the collection that you want to publish and select **Open**.
 
