@@ -514,7 +514,7 @@ This setting controls the toolbar and the other user interface elements of the E
 
 >[!NOTE]
 >
-> From AEM Guides 5.0 and 2502 release onwards, it is recommended to use extension JSON instead od `ui_config.json` for customization. For details, refer to the **XML Editor UI Configuration** section above.
+> For AEM Guides 5.0 and 2502 release, and newer versions, it is recommended to use extension JSON instead of `ui_config.json` for customization. For details, refer to the **XML Editor UI Configuration** section above.
 
 **CSS Template Layout**
 
