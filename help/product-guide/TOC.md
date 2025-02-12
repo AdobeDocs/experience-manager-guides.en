@@ -244,13 +244,13 @@ breadcrumb-title: AEM Guides Documentation
       - [View translation status](./user-guide/translation-view-trans-state-6234.md)
       - [Translate modified topics](./user-guide/translation-modified-topics-6234.md)
   
-- AI Assistant in AEM Guides {#ai-assistant-aem}
-  - [AI-Assistant overview](./user-guide/ai-assistant.md)
-  - [AI-powered smart Help to search content](./user-guide/ai-based-smart-help.md)
-  - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
-  - [AI-powered smart suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
-  - [Adobe Generative AI user disclosures](./user-guide/adobe-generative-ai-disclosures.md)
-  - [FAQ](./user-guide/ai-assistant-faq.md)
+  - AI Assistant in AEM Guides {#ai-assistant-aem}
+    - [Adobe Generative AI user disclosures](./user-guide/adobe-generative-ai-disclosures.md)
+    - [AI-Assistant overview](./user-guide/ai-assistant.md)
+    - [AI-powered smart Help to search content](./user-guide/ai-based-smart-help.md)
+    - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
+    - [AI-powered smart suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
+    - [FAQ](./user-guide/ai-assistant-faq.md)
 
   
 - Installation and configuration {#install-guide}
