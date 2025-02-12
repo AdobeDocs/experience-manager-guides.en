@@ -5,12 +5,9 @@ exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
 ---
-# Create, edit, duplicate, or remove an output preset {#id205BEH0K09Z}
+# Edit, duplicate, or remove an output preset {#id205BEH0K09Z}
 
-You can create, configure, and manage output presets from the Map console and Map dashboard. Both ways, you get options to create, edit, duplicate, and remove an output preset. 
-
-The following sections explains how to create or manage a preset both from the map console or the map dashboard. 
-
+You can manage output presets from the Map console and Map dashboard. Both ways, you get options to edit, duplicate, and remove an output preset as illustrated in the following section. 
 
 ## Using Map console 
 
