@@ -33,7 +33,7 @@ The key highlights are as follows:
 
 - **Dedicated Map console**: Introducing Map console, a dedicated console where all the map management and publishing features are clubbed. Now, you get options to generate output, translate content, create reports, and more - all directly from Map console. 
  
-    Learn more about [map management and publishing](../user-guide/map-management-and-publishing.md). 
+    Learn more about [map management and publishing](../user-guide/map-console-overview.md). 
 
     ![](assets/map-console-new-ui.png){width="800" align="left"}
 
@@ -186,7 +186,7 @@ Experience Manager Guides no longer supports the **Quick Generate** feature to g
 
 This feature has been removed from both the Repository and Map view panels. It is recommended to use the **Map console** for all map management and publishing related actions. 
 
-For more details, view [Map management and publishing](../user-guide/map-management-and-publishing.md).
+For more details, view [Map management and publishing](../user-guide/map-console-overview.md).
 
 **Pass root map metadata arguments to DITA-OT command line**
 

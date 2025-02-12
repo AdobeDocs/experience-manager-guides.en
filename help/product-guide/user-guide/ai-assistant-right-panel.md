@@ -42,7 +42,7 @@ You can use a text prompt to change the content. For example, you can select the
     - Enter your prompt in the text box. 
   
 
-1. Select **Regenerate** ![Regenerate icon](./images/refresh-icon.svg) for another response or output based on your prompt, like the AI tools.
+1. Select **Regenerate** ![Regenerate icon](./images/refresh-icon.svg) for another response or output based on your prompt.
 
 1. (Optional) Select **Expand** ![expandicon](./images/expand-icon.svg) to open the **Use text prompt** editor. It displays the current and the generated content. You can edit the source layout content and check the preview.
     
@@ -99,7 +99,7 @@ For example, you can list the system requirements and generate a short descripti
 
 You can also perform the following actions: 
 
-- Select **Regenerate** to generate another short description for your topic, like the AI tools.
+- Select **Regenerate** to generate another short description for your topic.
 - Select **Expand** to open the **Create shortdesc** editor. 
 
     ![ai assistant create short description editor](./images/ai-assistant-create-short-desc.png)

@@ -5,7 +5,7 @@ exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
 ---
 # Configure the AI Assistant
 
-As an administrator, you can configure the AI Assistant feature in Experience Manager Guides. The smart suggestion service is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe's secure token-based authentication workflows and start using the AI Assistant feature. The following configuration help you to add the **AI configuration** tab to folder profile. Once added, you can use the AI Assistant feature in Experience Manager Guides.
+As an administrator, you can configure the AI Assistant feature in Experience Manager Guides. AI Assistant is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe's secure token-based authentication workflows and start using the AI Assistant feature. The following configuration help you to add the **AI configuration** tab to folder profile. Once added, you can use the AI Assistant feature in Experience Manager Guides.
 
 Perform the following steps to configure AI Assistant:
 

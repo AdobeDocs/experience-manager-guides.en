@@ -5,7 +5,7 @@ exl-id: 61a15208-9600-4bb8-adc0-feca1a0ffef3
 ---
 # AI-powered smart Help for enhanced efficiency
 
-Experience Manager Guides provides the GenAI-based smart Help, a conversational search feature that helps you find relevant content from the [Adobe Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Experience Manager Guides provides the GenAI-based smart Help, a conversational search feature that helps you find relevant content from [Adobe Experience Manager Guides documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 You can ask your questions and get answers in an informative way. The answer to your query is based on the content from the product documentation. This search is entirely conversational. You can ask questions about the various features of Experience Manager Guides or can choose to ask troubleshooting queries. Based on the response, you can also ask further questions. The response also includes links to source documents, which you can refer to for details. 
 
@@ -17,7 +17,7 @@ When you open **AI Assistant** on the Homepage, Map console, or Editor, the **He
 
 *View the **Help** panel.*
 
-Perform the following steps to use the conversational search to find appropriate content and resolve your queries:
+Perform the following steps to use the Help panel to find appropriate content and resolve your queries:
 
 1. Select **AI Assistant** to open the Help panel. 
 
@@ -40,20 +40,22 @@ Perform the following steps to use the conversational search to find appropriate
 
    
     
-1. Select the links to the articles at the end and view detailed information about your question.
+1. Select the links to the articles at the end and view detailed information about the answer to your question.
 
 
 1. Select **Clear conversation** ![clear conversation](images/clear-conversation-icon.svg) to remove the conversation history from the panel. You can then start a fresh conversation and find relevant content. 
 
-This smart feature helps you find solutions quickly and lets you focus on your documentation and efficiently complete your tasks.
+Instead of searching through user guides and reference documents, you can use the **Help** feature to quickly find relevant answers to your queries. This helps save time and allows you to focus on content creation, resulting in enhanced productivity and efficiency.
 
-## Options available for AI Assitant Help responses
+## Options available for AI Assistant Help responses
 
 When you receive a response from AI Assistant in the **Help** panel, you can interact with it or provide feedback to enhance its accuracy and reliability. Your feedback helps the Experience Manager Guides team enhance the accuracy and relevance of AI Assistant responses, improving its performance over time. 
 
 The following options are available to engage with or provide feedback on the responses provided by AI Assistant **Help** panel:
 
-- **Copy**: Copy the response text for use in your documents.
-- **Like**: Indicate that the response was helpful or accurate. Select the Like icon to like the response or use the **Tell us more** option to provide detailed feedback.  
-- **Dislike**: Mark the response as unhelpful or incorrect. Select the Dislike icon to like the response or use the **Tell us more** option to provide detailed feedback.  
+![](images/ai-assistant-response-options.png){width="300" align="left"}
+
+- **Copy**: Copy the response for use in your documents.
+- **Like**: Indicate that the response was helpful or accurate. Select the Like icon to like the response and use the **Tell us more** option to provide detailed feedback.  
+- **Dislike**: Mark the response as unhelpful or incorrect. Select the Dislike icon to like the response and use the **Tell us more** option to provide detailed feedback.  
 - **Report**: Flag the response for review if it contains errors or inaccurate content. Select the flag icon to open the **Report results** dialog. Select from the available options or provide a custom feedback. 
