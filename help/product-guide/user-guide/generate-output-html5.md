@@ -1,20 +1,20 @@
 ---
 title: Use HTML5
-description: Learn how to create an HTML5 preset from the web editor and map dashboard. Configure HTML5 output preset in AEM Guides.
+description: Learn how to create an HTML5 preset from the map console and map dashboard. Configure HTML5 output preset in AEM Guides.
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
 ---
 # HTML5 {#id205BE700XO1}
 
-The HTML5 output is generated in a flat folder hierarchy. This implies that the folder structure used by the content in the repository is not replicated in the HTML5 output. The entire content is published in HTML5 output format and saved in a single folder. The file names are also replaced with the UUIDs of the files in the generated output. The only file that doesn't have a UUID-based filename is the index.html file.
+You can create a custom DITA-OT output preset to publish output using DITA-OT and FMPS (If configured by your admistrator).
 
-You can create the HTML preset in two ways:
+You can create the HTML5 preset in two ways:
 
-- [From the Map console](#from-the-map-console)
-- [From the Map dashboard](#from-the-map-dashboard) 
+- [Create HTML5 output preset from the Map console](#create-html5-output-preset-from-the-map-console)
+- [Create HTML5 output preset from the Map dashboard](#create-html5-output-preset-from-the-map-dashboard)
 
-## From the Map console
+## Create HTML5 output preset from the Map console
 
 Perform the following steps to create the HTML5 preset from the map console:
 
@@ -24,10 +24,10 @@ Perform the following steps to create the HTML5 preset from the map console:
 1. In the **Output presets** tab, select the + icon to create an output preset. 
 1. Select **HTML5** from the Type dropdown in the **New output preset** dialog box. 
 1. In the **Name** field, provide a name to this preset.
-1. In the **Generate HTML Using** field, select a method to generate HTML5. The available options are; DITA-OT or FMPS \(if your system administrator has configured it\).
-1. Select the **Add to current folder profile** option to create an output preset for the current folder profile. ![folder profile icon](images/global-preset-icon.svg) icon indicates a folder profile level preset.  
+1. In the **Generate HTML Using** field, select DITA-OT. 
+1. Select the **Add to current folder profile** option to create an output preset within the current folder profile. ![folder profile icon](images/global-preset-icon.svg) indicates a folder-profile-level preset.  
 
-   Learn more about [Manage Global and Folder Profile output presets](./web-editor-manage-output-presets.md).
+   Learn more about [Manage Global and Folder profile output presets](./web-editor-manage-output-presets.md).
 
  1. Select **Add**.   
 
@@ -35,23 +35,62 @@ Perform the following steps to create the HTML5 preset from the map console:
 
     ![](images/html5-preset-dialog-new.png){width="300" align="left"}
 
-### HTML5 configuration in Map console
-
-For the DITA-OT output, the preset configuration have been organized under General and Advanced tabs:
+In the Map console, the preset configurations are organized under the **General** and **Advanced** tabs. 
 
 The **General** tab contains the following configurations:
 
+- Output path
+- DITA-OT command line arguments
+- File name
+- Conditional filtering \(If the conditions are defined for a map\)
+- Use baseline \(If a baseline is created for a map\)
+- Post generation workflow
+
+**Advanced**
+
+The Advanced tab contains the following configurations:
+
+- Transformation name
+- Retain temporary files
+- Flatten file hierarchy 
+- File properties 
+
+For details on preset configuration options, refer to the [Custom preset configurations](#custom-preset-configurations) section.
+
+## Create HTML5 output preset from the Map dashboard
+
+Perform the following steps to create the HTML5 preset from the map dashboard:
+
+1. In the Assets UI, navigate to and select the DITA map to open it in map dashboard.
+1. Ensure that the **Output Presets** tab is selected.
+1. Select **Create** in the toolbar.
+
+    A new output preset creation form is displayed.
+
+1.  Enter the required configuration details for the HTML5 preset. 
+1.  Select **Done** to save the preset settings.
+
+For details on preset configuration options, refer to the [Custom preset configurations](#custom-preset-configurations) section.
+
+## Custom preset configurations
+
+Configuration options vary slightly depending on whether you are configuring the preset from the Map console or the Map dashboard. Some options apply only to the Map dashboard, while others apply to both.
+
+In cases where the same configuration has two different field labels, a **/** separates them in the table below. The first represents the label in the Map console, and the second represents the label in the Map dashboard. 
+
+For example, **Output path/Destination Path** - Here, **Output path** is the label used in the Map console, while **Destination Path** is the label used in the Map dashboard for the same configuration.
+
 | HTML5 options | Description |
 | --- | --- |
-| Output Type | The type of output you want to generate. To generate HTML5 output, choose the HTML5 option. |
-| Setting Name | Give a descriptive name for the HTML5 output settings you are creating. For example, you can specify _Internal customers output_ or _end-users output_. |
-| DITA-OT Command Line Arguments |  Specify the additional arguments that you want DITA-OT to process while generating output. <br><br> NOTE: Starting with the 2502 and 5.0 release of Experience Manager Guides, the `generate.copy.outer` parameter is no longer managed internally. This change means that if your HTML5 content resides outside the map directory, you need to explicitly set the parameter `-Dgenerate.copy.outer=3` in the **DITA-OT Command Line Arguments** field. This ensures that the content is correctly processed and included in your output. For more details on handling content outside the map directory, view [DITA-OT documentation](https://www.dita-ot.org/dev/parameters/generate-copy-outer#:~:text=The%20generate.,located%20outside%20the%20map%20directory/). |
-| Generate Responsive Using | Select DITA-OT to generate the HTML5 output. |
+| Output Type (*Applicable for Map dashboard only*) | The type of output you want to generate. To generate HTML5 output, choose the HTML5 option. |
+| Setting Name (*Applicable for Map dashboard only*) | Give a descriptive name for the HTML5 output settings you are creating. For example, you can specify _Internal customers output_ or _end-users output_. |
+| Generate Responsive Using (*Applicable for Map dashboard only*) | Select **DITA-OT** to generate the HTML5 output. Select **FrameMaker Publishing Server** if your administrator has configured this option. Some of the configuration options vary when FMPS is selected. |
+| Output path/Destination Path | The path within your AEM repository where the HTML5 output is stored. |
+| DITA-OT command line arguments |  Specify the additional arguments that you want DITA-OT to process while generating output. <br><br> NOTE: Starting with the 2502 and 5.0 release of Experience Manager Guides, the `generate.copy.outer` parameter is no longer managed internally. This change means that if your HTML5 content resides outside the map directory, you need to explicitly set the parameter `-Dgenerate.copy.outer=3` in the **DITA-OT Command Line Arguments** field. This ensures that the content is correctly processed and included in your output. For more details on handling content outside the map directory, view [DITA-OT documentation](https://www.dita-ot.org/dev/parameters/generate-copy-outer#:~:text=The%20generate.,located%20outside%20the%20map%20directory/). |
+| File Name | Specify the file name with which you want to save the HTML5 output.<br><br>**Note**: If you do not provide a file name, then the DITA map's title is used to generate the final HTML5 output file name. If the map does not have a title, then the DITA map's file name is used to name is the final HTML5 output. The file name is sanitized using the rules configured in the system to handle any invalid character. |
 | Conditioning filtering | Select one of the following options:<br><br>* **None applied**: Select this option if you do not want to apply any condition on the published output.<br>* **DITAVal file**: Select DITAVal file(s) to generate personalized content. You can select multiple DITAVal files using the browse dialog or by typing file path. Use the cross icon near the file name to remove it. DITAVal files are evaluated in the order specified, so the conditions specified in the first file take precedence over the matching conditions specified in later files. You can maintain the file order by adding or deleting files. If the DITAVal file is moved to some other location or is deleted, it is not automatically deleted from the map dashboard. You need to update the location in case files are moved or deleted. You can hover over the file name to see the path in the AEM repository where the file is stored. You can only select DITAVal files and an error is displayed if you have selected any other file type. FrameMaker Publishing Server doesn't support multiple DITAVAL files.<br>* **Condition preset**: Select a condition preset from the drop-down to apply a condition while publishing the output. The option is visible if you have added a condition present in the Condition Presets tab of the DITA map console. To know more about condition preset, see [Use condition presets](generate-output-use-condition-presets.md#id1825FL004PN).<br><br>You can select multiple DITAVAL files using the browse dialog or by typing file path. Use the cross icon near the file name to remove it. DITAVAL files are evaluated in the order specified, so the conditions specified in the first file take precedence over the matching conditions specified in later files. You can maintain the file order by adding or deleting files. You need to update the location in case files are moved or deleted. You can hover over the file name to see the path in the AEM repository where the file is stored. You can only save DITAVAL files. An error is displayed if you have selected any other file.<br><br>**Note**: FrameMaker Publishing Server doesn't support multiple DITAVAL files. |
-| Transformation Name | Specify the type of output you want to generate. This is required if you want to generate output using your own custom plug-in, which is integrated in the DITA-OT plug-in. For example, if you want to generate XHTML output, specify `xhtml`. For a list of transformations available in DITA-OT, see [DITA-OT transformations (output formats)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) in OASIS DITA-OT User Guide. |
-| File Name | Specify the file name with which you want to save the HTML5 output.<br><br>**Note**:If you do not provide a file name, then the DITA map's title is used to generate the final HTML5 output file name. If the map does not have a title, then the DITA map's file name is used to name is the final HTML5 output. The file name is sanitized using the rules configured in the system to handle any invalid character. |
 | Post generation workflow | When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.<br><br>**Note**:For more information about creating a custom post-output generation workflow, see _Customize post-output generation workflow_ in Install and configure Adobe Experience Manager Guides as a Cloud Service. |
-| Output Path | The path within your AEM repository where the HTML5 output is stored. |
+| Transformation name | Specify the type of output you want to generate. This is required if you want to generate output using your own custom plug-in, which is integrated in the DITA-OT plug-in. For example, if you want to generate XHTML output, specify `xhtml`. For a list of transformations available in DITA-OT, see [DITA-OT transformations (output formats)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) in OASIS DITA-OT User Guide. |
 | Retain temporary files | Select this option to retain the temporary files generated by DITA-OT. If you are experiencing errors while generating output through DITA-OT, select this option to retain the temporary files. You can then use those files to troubleshoot output generation errors.<br> <br>  After generating the output, select the **Download temporary files** ![download temporary files icon](images/download-temp-files-icon.png) icon to download the ZIP folder containing the temporary files. <br><br> **Note**:  If file properties are added during generation, the output temporary files also include a *metadata.xml* file containing those properties. | 
 | Use Baseline | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.<br><br>See [Work with Baseline](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) for more detail. |
 |File Properties | Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties you select from the dropdown list appear under the **File Properties** field. Select the cross icon next to the property to remove it. <br><br>**Note**: You can also pass on the metadata to the output using DITA-OT publishing. For more details see, [Pass on the metadata to the output using DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
@@ -65,19 +104,6 @@ The **Advanced** tab contains the following configurations:
 |Flatten file hierarchy|Select the option to generate the HTML5 output in a flat folder hierarchy. The entire content is published in HTML5 output format in a flat file hierarchy and saved in a single folder. <br> If you deselect this option, the output is generated in a nested folder hierarchy, and the entire folder structure is replicated.|
 |File Properties | Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties you select from the dropdown list appear under the **File Properties** field. Select the cross icon next to the property to remove it. <br><br>**Note**: You can also pass on the metadata to the output using DITA-OT publishing. For more details see, [Pass on the metadata to the output using DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
-## From the map dashboard
 
-Perform the following steps to create the HTML5 preset from the map dashboard:
-
-1. In the Assets UI, navigate to and select the DITA map to open it in map dashboard.
-1. Ensure that the **Output Presets** tab is selected.
-1. Select **Create** in the toolbar.
-
-    A new output preset creation form is displayed.
-
-1.  Enter the required configuration details for the HTML5 preset. 
-1.  Select **Done** to save the preset settings.
-
-For configuration details, refer to the [HTML5 configuration in Map console](#html5-configuration-in-map-console) section. Note that some of the configuration options may vary when accessed from the Map dashboard.  
 
 **Parent topic:**[Understanding the output presets](generate-output-understand-presets.md)
