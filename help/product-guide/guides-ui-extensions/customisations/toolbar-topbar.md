@@ -89,7 +89,7 @@ Once customized, the final output can be seen as follows:
 
 ![editor_toolbar](imgs/editor_toolbar.png)
 
-Refer to the below example if customizing the toolbar on AEM Guides 4.6 release, and previous version. 
+Refer to the below example if customizing the toolbar on AEM Guides 4.6.x release, and previous version. 
 
 ```js title = toolbar_customization.js
 const topbarExtend = {
