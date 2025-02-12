@@ -1801,20 +1801,7 @@ By default, you can view the files by titles. As you hover over a template, you 
 >
 > As an administrator, you can also choose to view the list of files in the Editor. Select the **File name** option of the **View files by** section in **User preferences**.
 
-To create a template, select the + icon next to Templates and choose a template that you want to create. If you select **Topic Template**, the **New Topic Template** dialog box appears:
-
-![](images/create-new-topic-template.PNG){width="400" align="left"}
-
-Choose the type of template that you want to create from the **Template** drop-down list. Provide the **Title**, which appears in the Templates panel. The **Name** of the template is auto suggested based on the title, however, you can provide a different file name.
-
->[!NOTE]
->
-> In case your administrator has enabled automatic file names based on UUID setting, then you will not view the Name field.
-
-Once the template is created, you need to add it to your global or folder-level profile. After the template is added, your authors will start viewing the new template in the topic/map creation process.
-
-Using the Options menu on an existing template, you can choose to **Edit** or **Duplicate** it. In case of duplication, the template's structure and type \(of document\) is retained and you can reuse it to create another template from it.
-
+To learn how to create custom templates, view [Create maps based on customized templates](./create-maps-customized-templates.md). 
 
 ### Citations 
 
