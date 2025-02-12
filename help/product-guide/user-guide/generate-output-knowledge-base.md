@@ -54,7 +54,7 @@ The configuration options change based on the target that you select.
 
 **Adobe Experience Manager**
 
-The follwowing configuration options are displayed for **Adobe Experience Manager** as target:
+The following configuration options are displayed for **Adobe Experience Manager** as target:
 
 
 >[!NOTE]
@@ -76,7 +76,7 @@ The follwowing configuration options are displayed for **Adobe Experience Manage
 
 **ServiceNOW**
 
-The follwowing configuration options are displayed for **ServiceNOW** as target:
+The following configuration options are displayed for **ServiceNOW** as target:
 
 | ServiceNow  options | Description |
 | --- | --- |
@@ -86,7 +86,7 @@ The follwowing configuration options are displayed for **ServiceNOW** as target:
 
 **Salesforce**
 
-The follwowing configuration options are displayed for **Salesforce** as target:
+The following configuration options are displayed for **Salesforce** as target:
 
 | Salesforce  options | Description |
 | --- | --- |
