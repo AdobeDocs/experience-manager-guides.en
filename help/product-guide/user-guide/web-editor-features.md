@@ -65,8 +65,18 @@ A powerful, AI-driven tool designed to enhance your productivity through smart h
 
 The **Assets UI** option takes you to a destination based on your setup:
 
-- **Cloud Services**: If you are using Cloud Services, selecting the Assets UI optionTakes you to the AEM Navigation page.
-- **On-premise software**: If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the Assets UI option takes you to your current file path in the Assets UI. 
+<details>
+<summary> Cloud Services </summary> 
+
+- If you are using Cloud Services, selecting the Assets UI option takes you to the AEM Navigation page.
+
+</details>
+
+<details>    
+<summary>  On-premise Software </summary>
+
+- If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the Assets UI option takes you to your current file path in the Assets UI.
+</details>
 
 The **Settings** option is available only for administrators and folder profile administrators, and allows configuring the following settings:
 
@@ -788,7 +798,7 @@ When you choose a snippet from the list, it gets inserted at the current or next
 
 Create Citations and add them to your content. Learn how to [add and manage citations in your content](./web-editor-apply-citations.md).
 
-**Data sources** - ![](images/Datasources_icon.svg)
+**Query data** - ![](images/data-sources-new-icon.svg)
 
 Connect with your data source and use the data to create content. Learn how to [use data from your data source](./web-editor-content-snippet.md).
 
