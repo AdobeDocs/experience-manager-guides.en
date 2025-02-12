@@ -3,7 +3,7 @@ title: Use the AI Assistant to author documents smartly `
 description: Learn how to Use the AI Assistant to author documents with smart efficiency.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 ---
-# Authoring assistant to author documents smartly
+# Author documents smartly with AI Assistant (Beta)
 
 Adobe Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. Using this tool, view the smart suggestions to reuse the content from the existing content repository. Use the text prompt feature to provide a prompt and change the content as per your requirements. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic based on the selected content. This feature also helps you to easily improve and translate the selected content.
 

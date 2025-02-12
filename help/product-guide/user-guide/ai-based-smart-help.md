@@ -3,7 +3,7 @@ title: AI-powered Smart Help to search content
 description: Learn how to view and utilize AI-powered Smart Help.
 exl-id: 61a15208-9600-4bb8-adc0-feca1a0ffef3
 ---
-# AI-powered smart Help for enhanced efficiency
+# Enhance efficiency with smart Help in AI Assistant (Beta)
 
 Experience Manager Guides provides the GenAI-based smart Help, a conversational search feature that helps you find relevant content from [Adobe Experience Manager Guides documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
@@ -36,10 +36,6 @@ Perform the following steps to use the Help panel to find appropriate content an
 
         *Select the sample question and view the content and images in response.* 
       
-
-
-   
-    
 1. Select the links to the articles at the end and view detailed information about the answer to your question.
 
 
