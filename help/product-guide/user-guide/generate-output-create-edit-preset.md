@@ -20,7 +20,7 @@ Additionally, you can duplicate or delete an output preset using the **Options**
 
 ## Using Map dashboard
 
-You can create, edit, duplicate and delete an output preset using the map dashboard by selecting the required tab from the top bar as shown below 
+You can create, edit, duplicate and delete an output preset using the map dashboard by selecting the required tab from the top bar as shown below. 
 
 ![](images/create-new-preset-map-dashboard.png){width="800" align="left"}
 

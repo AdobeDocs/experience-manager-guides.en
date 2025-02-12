@@ -7,4 +7,4 @@ role: User, Leader, Admin, Developer
 ---
 # Disclaimer {#id2263D0P0TYU}
 
-*Adobe Experience Manager Guides* was formerly branded as *XML Documentation for Adobe Experience Manager*. Please note certain references within the documentation may still refer to prior branding but are still applicable to the current offering.
+*Adobe Experience Manager Guides* was formerly branded as *XML Documentation for Adobe Experience Manager*. Please note certain references within the documentation may still refer to prior branding but are still applicable to the current offering. Also, the AI Assistant feature is currently available only for Adobe Experience Manager Guides as a Cloud Service.
