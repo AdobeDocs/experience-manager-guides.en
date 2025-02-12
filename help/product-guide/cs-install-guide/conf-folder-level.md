@@ -100,7 +100,7 @@ Perform the following steps to configure the global profile:
 
 1.  To configure **Output Presets**, see [Configure output presets](#id18AGD0IH0Y4).
 
-1.  To configure XML Editor Configuration, see [Configure and customize the XML Web Editor](#id2065G300O5Z).
+1.  To configure XML Editor Configuration, see [Configure and customize the XML Editor](#id2065G300O5Z).
 
 1.  After making all required updates, save and close the **Global Profile**.
 
@@ -498,15 +498,21 @@ By default, the XML Editor comes with a lot of features to help your authors cre
 
 **XML Editor UI Configuration**
 
-This setting enables you to create JSON extensions that reflect modifications made in the `ui_config.json` file. You can independently upload these extensions at the Folder profile level, offering enhanced flexibility and customization. For instance, when you make changes to the **XML Editor Configuration**, such as updating a button, the system automatically identifies the differences. By uploading these changes to the **XML Editor UI Configuration** and converting them into JSON extensions using the **Convert UI Config to JSON** button, the system generates an extension that incorporates the new functionality. 
+This setting enables you to create JSON extensions that reflect modifications made in the `ui_config.json` file. You can independently upload these extensions at the Folder profile level, offering enhanced flexibility and customization. For instance, when you make changes to the **XML Editor Configuration**, such as updating a button, the system automatically identifies the differences. By uploading these changes to the **XML Editor UI Configuration** and converting them into JSON extensions using the **Convert UI Config to JSON** button, the system generates an extension that incorporates the new functionality.
+
+Learn more about [customizing JSON configurations and converting UI configurations for the new AEM Guides Editor](https://git.corp.adobe.com/AdobeDocs/experience-manager-guides-learn.en/blob/988c288fc03e509a3a55e87b1e1ecd8fd07d1c92/help%2Fcourses%2Fcourse-3%2Fconver-ui-config.md).
 
 **XML Editor page layout**
 
-This feature allows you to upload CSS files to style the new extensions uploaded under the **XML Editor UI Configuration**. The uploaded CSS is applied consistently across all relevant applications, ensuring a unified and polished appearance for your UI customizations.
+This feature allows you to upload CSS files to style the new extensions uploaded under the **XML Editor UI Configuration**. The uploaded CSS is applied consistently across all relevant applications, ensuring a unified and polished appearance for your UI customizations. 
 
 **XML Editor Configuration**
 
 This setting controls the toolbar and the other user interface elements of the Editor. Select the **Download** icon to download the `ui\_config.json` file on your local system. You can then make changes to the file and the upload the same. Depending upon where you are uploading the file at, global or folder-level profile, the changes are applied accordingly. For more details about how to customize the XML Editor using the `ui\_config.json file`, view [Customize toolbar](conf-web-editor-customize-toolbar.md#).
+
+>[!NOTE]
+>
+> Customizing the XML Editor using the `ui_config.json` file is supported until the AEM Guides 2412 and 4.0 releases. For newer versions, it is recommended to use extension JSON for customization. For details, refer to the **XML Editor UI Configuration** section above.
 
 **CSS Template Layout**
 
