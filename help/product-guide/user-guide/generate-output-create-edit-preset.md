@@ -9,12 +9,31 @@ role: User
 
 You can create, configure, and manage output presets from the Map console and Map dashboard. Both ways, you get options to create, edit, duplicate, and remove an output preset. 
 
-The following sections exaplain how to create or manage a preset from map console or map dashboard. 
+The following sections explains how to create or manage a preset both from the map console or the map dashboard. 
 
-- [Create a new output preset](#create-a-new-output-preset)
+
+## Using Map console 
+
+You can edit the selected output preset by directly changing the required fields to the needed preset settings. 
+Additionally, you can duplicate or delete an output preset using the **Options** dropdown menu as shown below.
+
+
+![](images/delete-preset-map-console.png){width="800" align="left"}
+
+
+## Using Map dashboard
+
+You can create, edit, duplicate and delete an output preset using the map dashboard by selecting the required tab from the top bar as shown below 
+
+![](images/create-new-preset-map-dashboard.png){width="800" align="left"}
+
+
+ 
+
+<!--- [Create a new output preset](#create-a-new-output-preset)
 - [Edit an output preset](#edit-an-output-preset)
 - [Duplicate an output preset](#duplicate-an-output-preset)
-- [Delete an output preset](#delete-an-output-preset)   
+- [Delete an output preset](#delete-an-output-preset) 
 
 ## Create a new output preset 
 
@@ -114,7 +133,7 @@ Perform the following steps to delete an existing output preset from the **Map d
 1.  Select the output preset that you want to delete, and then select **Delete Preset** in the toolbar.
 1.  Select **Delete** on the confirmation prompt.
 
-    The preset is removed from the Output Presets list.
+    The preset is removed from the Output Presets list.-->
 
 
 **Parent topic:**[Output generation](generate-output.md)
