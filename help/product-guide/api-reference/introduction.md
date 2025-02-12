@@ -209,7 +209,7 @@ To use the API JAR, you need to add the dependency to your project's pom.xml as 
 <dependency>
    <groupId>com.adobe.aem</groupId>
    <artifactId>aem-dox-sdk-api</artifactId>
-   <version>2024.12.0</version>
+   <version>${RELEASE}</version>
 </dependency>
 ```
 
