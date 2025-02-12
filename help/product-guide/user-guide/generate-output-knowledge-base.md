@@ -29,10 +29,9 @@ Perform the following steps to create the **Knowledge Base** preset from the Map
 ## Knowledge Base configuration{#knowledge-base-configuration}
 
 
-The following configurations have been organized under the **General** and **Articles** tabs. 
+The Knowledge Base preset configurations are organized under the **General**, **Articles**, and the selected target (**AEM**/ **ServiceNOW**/ **Salesforce**) tabs. 
 
-You can also configure the settings for the specific **Knowledge Base** you have selected as a target, **Adobe Experience Manager**, **Salesforce**, or **ServiceNow**.
-
+![](./images/kb-aem-preset.png){width="550" align="left"}
 
 ### General
 
