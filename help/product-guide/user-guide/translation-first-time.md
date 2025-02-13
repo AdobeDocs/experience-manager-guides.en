@@ -52,62 +52,6 @@ Perform the following steps to configure the human or machine translation servic
     >
     > See the *Translation* section in the Best practices guide for the best practices around translating content.
 
-<!--## Create a new translation project 
-
-Perform the following steps to create a translation project:
-
->[!NOTE]
->
-> Before performing steps in this procedure, ensure that you have created the required language root and target folders as described in the [Best practices for content translation](#id1678G0S702F).
-
-1.  In the Assets UI, click on the DITA map file.
-
-1.  Click the **Translation** tab.
-
-1.  From the **Target Languages** list, select the locale to which you want to translate your project and click **Done**.
-
-    A Summary and Details of topics and associated assets is shown.
-
-    >[!IMPORTANT]
-    >
-    > The **Target Languages** show only those languages for which a language folder is created parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
-
-1.  Select the topics that you want to send for translation.
-
-    You can also use the following topic filtering options:
-
-    >[!NOTE]
-    >
-    > After applying the required filter, click **Done** in the Filter panel to filter topics based on your selection.
-
-    -   **Translation Status**: Choose to filter topics based on their translation status. The available options are: Out of Sync, Missing Copy, In Progress, and In Sync.
-    -   **Search**: Enter one or multiple terms to search in the topic titles.
-    -   **Source Type**: Choose to filter topics based on their file types. The available options are: All, DITA, DITA Map, Resource.
-    -   **Source Version Modified After**: Choose to filter topic based on their modification date and time. All topics modified after the specified date and time are shown in the list.
-    -   **Baseline**: Click Use Baseline and choose a baseline created on the map. All files that are a part of the selected Baseline are shown in the Translation page. You can choose the desired files from the baseline and proceed with the translation process. Once your content is translated, you can export the translated Baseline. For more details about exporting the translated Baseline, see [Export translated Baseline](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
-1.  Click **Create/Update Language Copies** at the bottom of the Filter panel.
-
-1.  From the **Project** list, select **Create a New Translation Project**.
-
-    >[!NOTE]
-    >
-    > If you already have a translation project, you can add topics to that project. Select **Add to Existing Translation Project** option from the **Project** list and choose a project from the **Existing Translation Project** list.
-
-1.  In the **Project Title** field, enter a title for the project.
-
-1.  Select the **Include DITA Map** option to send the map for translation.
-1.  Click **Start** to create a new translation project.
-
-    A new translation project is created with the selected version of the topics. At this time, a pop-up message is displayed confirming that the translation project has been created. Once all target language copies are available in the translation project, you get a notification in the Inbox. Once the target language copies area available in the translation project, you can then go ahead and start the translation job.
-
-    ![](images/status-translation-uuid.png){width="800" align="left"}
-
-
-The Translation tab has following sections:
-
--   **Summary**: Shows the number of referenced topics and source language along with its code.
--   **Details**: Shows the topic title, type of topic, language code of the topic, source language, version of the source topic, label added to the topic, and translation status.-->
-
 
 ## Start the translation job {#id225IK030OE8}
 

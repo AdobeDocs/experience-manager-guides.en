@@ -227,8 +227,8 @@ breadcrumb-title: AEM Guides Documentation
         - [View the status of the output generation task](./user-guide/fm-output-view-status.md)
     - Reports in AEM Guides {#reports-aem-guide}
       - [Introduction to reports](./user-guide/reports-intro.md)
-      - [DITA map report from the Web Editor](./user-guide/reports-web-editor.md)
-      - [DITA map report from the map dashboard](./user-guide/reports-ditamap.md)
+      - [DITA map report from the Map console](./user-guide/reports-web-editor.md)
+      - [DITA map report from the Map dashboard](./user-guide/reports-ditamap.md)
       - [Content Reuse Report](./user-guide/reports-content-reuse.md)
       - [Conversion Status Report](./user-guide/reports-convertion-status.md)
       - [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md) 
