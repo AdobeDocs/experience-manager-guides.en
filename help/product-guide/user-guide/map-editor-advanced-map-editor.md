@@ -30,7 +30,7 @@ The following options are available on the toolbar in the Layout view:
 
 **Topic reference** - ![](images/topic-reference.svg)
 
-Displays the topic search dialog. Navigate to the topic/map file that you want to insert and click **Select** to add it to the map. 
+Displays the topic search dialog. Navigate to the topic/map file that you want to insert and choose **Select** to add it to the map. 
 
 ![](images/insert-topic-reference-dialog.png){width="800" align="left"}
 
@@ -83,7 +83,7 @@ Check the available versions and labels on your active topic, and revert to any 
 
 **Version label** - ![](images/version-label.svg)
 
-Displays the version label management dialog. Select a version from the dropdown list. Choose the label you want to apply to the selected version and click **Add label** to add it.
+Displays the version label management dialog. Select a version from the dropdown list. Choose the label you want to apply to the selected version and select **Add label** to add it.
 
 **Show filename**
 
@@ -144,7 +144,7 @@ Displays the **Insert element before**or **Insert element after**  dialog box. S
 
 **Element** - ![](images/Add_icon.svg)
 
-Displays the **Insert element** dialog box. Select the element that you want to insert. You can use the keyboard to scroll through the list of elements and press Enter to insert the required element. Alternatively, you can click directly on the element to insert it in the map.
+Displays the **Insert element** dialog box. Select the element that you want to insert. You can use the keyboard to scroll through the list of elements and press Enter to insert the required element. Alternatively, you can select the element to insert it in the map.
 
 
 
@@ -307,11 +307,11 @@ To edit topics through a DITA map, perform the following steps:
 
 1. Select any topic link to open it in the Editor for editing.
 
-    You can open multiple topics in the editor and each topic is opened in a new tab in the editor. Even if your DITA map contains sub-maps, topics from the sub-maps are also opened in a new tab for editing. If you want to view the topics under a sub-map, you can click and expand the sub-map.
+    You can open multiple topics in the editor and each topic is opened in a new tab in the editor. Even if your DITA map contains sub-maps, topics from the sub-maps are also opened in a new tab for editing. If you want to view the topics under a sub-map, you can select and expand the sub-map.
 
     ![](images/web-editor-multiple-topics.png){width="800" align="left"}
 
-    If you select a map file, the map is opened in a new tab of the web browser.
+    If you select a map file, the map is opened in a new tab of the Editor.
 
 1.  Once you have finished editing the topics, you can do the following:
 

@@ -61,21 +61,21 @@ A powerful, AI-driven tool designed to enhance your productivity through smart h
 
 **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar containing the Adobe Experience Manager logo, is hidden. This maximizes the content space for editing. To return to the standard view, use the **Exit the expanded view** icon.
 
-**More actions**: Allows you to navigate to the **Assets UI** and **Settings**. 
+**More actions**: Allows you to navigate to the **Assets** and **Settings**. 
 
-The **Assets UI** option takes you to a destination based on your setup:
+The **Assets** option takes you to a destination based on your setup:
 
 <details>
 <summary> Cloud Services </summary> 
 
-- If you are using Cloud Services, selecting the Assets UI option takes you to the AEM Navigation page.
+- If you are using Cloud Services, selecting the **Assets** option takes you to the AEM Navigation page.
 
 </details>
 
 <details>    
 <summary>  On-premise Software </summary>
 
-- If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the Assets UI option takes you to your current file path in the Assets UI.
+- If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the **Assets** option takes you to your current file path in the Assets UI.
 </details>
 
 The **Settings** option is available only for administrators and folder profile administrators, and allows configuring the following settings:
@@ -1935,11 +1935,11 @@ At the bottom-left of the content editing area, you have the breadcrumb of the e
 
 ![](images/content-editing-area.png){width="800" align="left"}
 
-To learn about the Editor views and the features available in the respective views, view [Editor views](./web-editor-views.md).
+To learn more about the Editor views available for a topic file in the content editing area, view [Editor views](./web-editor-views.md).
 
 >[!NOTE]
 >
-> If you are working on a map file, then different Editor views are displayed in the content editing area , including a **Layout** view for the map file. For more details, view [Map editor features](./map-editor-advanced-map-editor.md).
+> If you are working on a map file, then different options or views are displayed in the content editing area , including a **Layout** view for the map file. For more details, view [Map editor features](./map-editor-advanced-map-editor.md).
 
 ## Right panel
 
