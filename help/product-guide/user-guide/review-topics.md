@@ -19,7 +19,7 @@ Perform the following steps to review a topic:
     >
     > You can also access the topic review link from your Inbox notifications area in the Adobe Experience Manager User Interface.
 
-1.  Depending on the way the topic review is initiated, you could see any one of the following two screens:
+1.  Depending on the way the topic review is initiated, you could view any one of the following two screens:
 
     >[!NOTE]
     >
@@ -44,7 +44,7 @@ Perform the following steps to review a topic:
         Select  ![](images/view-options.svg) near the search bar to  choose to view all topics or view topics with comments. By default, you can view all topics present in the review task.
  
 
-    -   **D**: The numbers highlighted by ***F*** can be filtered by choosing the desired filter option from here. You can filter comments by its type, status, reviewer, or version. For example, if you want to see how many Strikethrough comments have been made in each of the under review topic, select the filter icon and then choose **Review Type** \> **Deletion**.
+    -   **D**: The numbers highlighted by ***F*** can be filtered by choosing the desired filter option from here. You can filter comments by its type, status, reviewer, or version. For example, if you want to view how many Strikethrough comments have been made in each of the under review topic, select the filter icon and then choose **Review Type** \> **Deletion**.
 
         >[!NOTE]
         >
@@ -167,7 +167,7 @@ Perform the following steps to add attachment to your comment:
 
     The selected files are shown along with the comment in the Comments panel.
 
-    In the Comments panel you can see the file name and its size. You also have an option to remove a file by selecting the delete icon ![](images/Delete_icon.svg) associated with the file name.
+    In the Comments panel you can view the file name and its size. You also have an option to remove a file by selecting the delete icon ![](images/Delete_icon.svg) associated with the file name.
 
 1.  Select **Submit**.
 
@@ -176,7 +176,7 @@ Perform the following steps to add attachment to your comment:
 
 **Additional notes on working with attachments:**
 
--   By default, only two files attached with a comment are shown. If there are more files, then **View Attachment** button on the right shows the number of all attachments \(which are more than two\) associated with the comment. You can select the number to view all attachments. For example, if you have four attachments with a comment, you will see +2 on the button.
+-   By default, only two files attached with a comment are shown. If there are more files, then **View Attachment** button on the right shows the number of all attachments \(which are more than two\) associated with the comment. You can select the number to view all attachments. For example, if you have four attachments with a comment, you will view +2 on the button.
 
 ![](images/review-view-attachment.png){width="550" align="left"}
 
@@ -195,11 +195,11 @@ The other reviewers or authors get only the download attachment option.
 ![](images/attach-files-comments-panel.png){width="550" align="left"}
 
 
-**Conditions panel** -   If your topic has conditional content, then you will see the **Conditions** \(![](images/conditions-icon.svg)\) icon on the right. Selecting **Conditions** icon opens the Conditions panel that allows you to highlight the content as per the available conditions in the topic.
+**Conditions panel** -   If your topic has conditional content, then you will view the **Conditions** \(![](images/conditions-icon.svg)\) icon on the right. Selecting **Conditions** icon opens the Conditions panel that allows you to highlight the content as per the available conditions in the topic.
 
 :   By default **Highlight All Conditions** option is enabled, all conditions are selected, the entire content is displayed, and the conditionalized content is shown as highlighted both in review and preview mode.
 
-:   You can disable **Highlight All Conditions** option and see all the content present in the topic as normal text without any highlights.
+:   You can disable **Highlight All Conditions** option and view all the content present in the topic as normal text without any highlights.
 
 ![](images/review-conditions-panel.png){width="350" align="left"}
 

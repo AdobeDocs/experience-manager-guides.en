@@ -43,14 +43,9 @@ Perform the following steps to configure the human or machine translation servic
 
     >[!NOTE]
     >
-    > See [Configuring the Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in Adobe Experience Manager documentation for details on integrating with third-party translation services.
+    > View [Configuring the Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in Adobe Experience Manager documentation for details on integrating with third-party translation services.
 
-1.  Select **Save & Close** to save the updated folder properties.
-
-
-    >[!TIP]
-    >
-    > See the *Translation* section in the Best practices guide for the best practices around translating content.
+1.  Select **Save & Close** to save the updated folder properties.    
 
 
 ## Start the translation job {#id225IK030OE8}

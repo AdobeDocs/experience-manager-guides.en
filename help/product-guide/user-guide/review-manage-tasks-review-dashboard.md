@@ -71,11 +71,11 @@ You can perform the following actions under the **Content** tab:
 
 -   Change the version of the topic sent for review. You can choose the latest version of the topic, version as on date, version with specific label, or version with a specific baseline \(for a DITA map\).
 
--   Select **Update** to share the updated version of the topic with the reviewers. The reviewers get an email notification stating that the newer version of topic has been sent for review. The next time a reviewer opens the topic, they see the updated version of the topic.
+-   Select **Update** to share the updated version of the topic with the reviewers. The reviewers get an email notification stating that the newer version of topic has been sent for review. The next time a reviewer opens the topic, they view the updated version of the topic.
 
     >[!NOTE]
     >
-    > In case of an updated version of a topic, the old comments are retained in the newer version as well. Reviewers can also see the differences between the two versions.
+    > In case of an updated version of a topic, the old comments are retained in the newer version as well. Reviewers can also view the differences between the two versions.
 
 -   Select **Complete** to mark the review task as complete before the due date. When an individual topic's task is marked as Complete, the review of the selected topic is closed. However, in case of topics shared for review through a DITA map, marking the DITA map task as Complete will close the review of all topics within the map that were shared for review.
 

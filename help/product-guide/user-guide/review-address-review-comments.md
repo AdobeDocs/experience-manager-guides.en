@@ -22,9 +22,9 @@ An author can address comments in a document from the Web Editor. Visual indicat
 
 In the Web Editor mode, the right panel contains the Review and Track Changes icons. The Review panel shows all comments made in your document by reviewers. The **Track Changes** panel shows the status of all inserted and deleted comments in your document.
 
--   **A**: Select a review task to see review comments. If your topic has been shared for review in multiple review tasks, you will see those tasks listed in this drop-down.
+-   **A**: Select a review task to view review comments. If your topic has been shared for review in multiple review tasks, you will view those tasks listed in this drop-down.
 
-    When you select a review task from the list, you get to see the comments made by reviewers in that task. You can address the review comments independently in tasks, which mean that any update on a comment is visible to reviewers of that respective task only.
+    When you select a review task from the list, you get to view the comments made by reviewers in that task. You can address the review comments independently in tasks, which mean that any update on a comment is visible to reviewers of that respective task only.
 
 -   **B:**  Select **Review details** ![](images/active-review-info-icon.svg) in the **Comments** panel to view more information about the review task:
 
@@ -42,7 +42,7 @@ In the Web Editor mode, the right panel contains the Review and Track Changes ic
 
 -   **D**: Open the side-by-side view to display the commented version of the topic. As seen in the above screenshot, the leftmost section is the latest version of the topic wherein you can make changes. The next section is the commented version of the topic. As you navigate between comments in the topic, the side view changes and displays that version of the topic on which the comment was made. Each comment in the comment panel is linked to the corresponding text in this section. It helps you identify the commented text. The comments are displayed in the order of the commented text in the document.
 
-    You can see the version number at the top of the side view. Selecting this icon again hides the commented version of the topic.
+    You can view the version number at the top of the side view. Selecting this icon again hides the commented version of the topic.
 
 -   E: Import the inserted and deleted \(or Strikethrough\) comments in the topic directly. After selecting the Import icon, all text insertions and deletions are shown in the working copy of the topic. Now, there are two ways of accepting or rejecting comments.
 
@@ -64,7 +64,7 @@ In the Web Editor mode, the right panel contains the Review and Track Changes ic
 -   **G**: Search for a text within comments.
 -   **H**: Accept or reject a comment.
 
--   **I**: Apply a filter on the comments. You can filter to see comments on the basis of Review Type \(all, highlighted, deleted, inserted, or sticky note\), Review Status \(all, accepted, rejected, or none\), Reviewers \(all or specific reviewer\(s\)\), or Versions of topic.
+-   **I**: Apply a filter on the comments. You can filter to view comments on the basis of Review Type \(all, highlighted, deleted, inserted, or sticky note\), Review Status \(all, accepted, rejected, or none\), Reviewers \(all or specific reviewer\(s\)\), or Versions of topic.
 
 
 **Parent topic:**[Review topics or maps](review.md)

@@ -7,7 +7,7 @@ role: User
 ---
 # Review topics or maps {#id1645H6010Q5}
 
-Almost all technical documents need to go through multiple rounds of reviews. In most cases, a review cycle involves more than one reviewer. Addressing and responding to comments from multiple reviewers is always challenging for authors. Also, in a multiple reviewer scenario, it is helpful if one reviewer can also see the comments made by other reviewers.
+Almost all technical documents need to go through multiple rounds of reviews. In most cases, a review cycle involves more than one reviewer. Addressing and responding to comments from multiple reviewers is always challenging for authors. Also, in a multiple reviewer scenario, it is helpful if one reviewer can also view the comments made by other reviewers.
 
 Some of the main features offered by Adobe Experience Manager Guides to the *initiators \(or authors\)* are:
 
@@ -24,7 +24,7 @@ Some of the main features offered by Adobe Experience Manager Guides to the *ini
 
 -   Group and filter comments based on version of topic.
 
--   See side-by-side differences between different versions of topics shared for review.
+-   View side-by-side differences between different versions of topics shared for review.
 
 -   Automatically import \(deleted or inserted\) comments into the version of topic that was shared for review.
 
@@ -39,13 +39,13 @@ Features available to the *reviewers*:
 -   Use the Review Panel to add comments or respond to comments from other users.
 -   Easily know the version of topic under review.
 -   Receive a notification when a task is assigned to them for review.
--   See differences between older and newer version of topic shared for review.
--   See comments made by other reviewers or replies on comments from author in real time.
+-   View differences between older and newer version of topic shared for review.
+-   View comments made by other reviewers or replies on comments from author in real time.
 -   Access comments given on older version of topic.
 
 >[!NOTE]
 >
-> See the *Review* section in the Best practices guide for best practices around creating review task.
+> View the *Review* section in the Best practices guide for best practices around creating review task.
 
 -   **[Create a DITA project](authoring-create-dita-project.md)**  
 

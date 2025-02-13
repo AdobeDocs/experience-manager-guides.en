@@ -13,9 +13,9 @@ You can create a DITA project and then use it to initiate your reviews. A projec
 
 You can add team members to a project who could then be assigned various roles – Authors, Reviewers, and Publishers.
 
-Once you have created your DITA project, you can initiate your review from the Editor or the Assets UI. For more details, see [Send topics for review](review-send-topics-for-review.md#).
+Once you have created your DITA project, you can initiate your review from the Editor or the Assets UI. For more details, view [Send topics for review](review-send-topics-for-review.md#).
 
-Similarly, whenever an author initiates any review workflow the selected members of the project get an email notification. To configure email notifications, see *Customize email templates* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+Similarly, whenever an author initiates any review workflow the selected members of the project get an email notification. To configure email notifications, view *Customize email templates* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 Perform the following steps to create a DITA project:
 
@@ -51,13 +51,13 @@ Perform the following steps to create a DITA project:
 
         >[!NOTE]
         >
-        >You will see other user types in this drop-down list, but for a DITA project you should only choose from Authors, Reviewers, or Publishers user type. Even if you add a user of a different type, that user will not be able to access any DITA-specific features available in Experience Manager Guides.
+        >You will view other user types in this drop-down list, but for a DITA project you should only choose from Authors, Reviewers, or Publishers user type. Even if you add a user of a different type, that user will not be able to access any DITA-specific features available in Experience Manager Guides.
 
     1.  Select **Add**.
 
         >[!NOTE]
         >
-        >If you are using Experience Manager Guides version 3.5 or earlier, you are shown an option to select a DITA map file to resolve key references for topic editing, preview and review workflows. In 3.6 and later versions, you can set the root map through the Editor. For more information, see the [User Preferences](web-editor-features.md#id2087G0P40SB) in the Editor. Another way of setting the root map is by configuring it at the global or folder-level profiles. For more details, see *Configure global or folder-level profiles* in the Installation and Configuration Guide.
+        >If you are using Experience Manager Guides version 3.5 or earlier, you are shown an option to select a DITA map file to resolve key references for topic editing, preview and review workflows. In 3.6 and later versions, you can set the root map through the Editor. For more information, view the [User Preferences](web-editor-features.md#id2087G0P40SB) in the Editor. Another way of setting the root map is by configuring it at the global or folder-level profiles. For more details, view *Configure global or folder-level profiles* in the Installation and Configuration Guide.
 
     Information in the **Advanced** tab:
 

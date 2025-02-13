@@ -7,7 +7,7 @@ role: User
 ---
 # Upload files {#id176FF000JUI}
 
-Most likely you would have a repository of existing DITA content that you would like to use with Adobe Experience Manager Guides. For such existing content, you can use any of the following approaches to bulk upload your content into Adobe Experience Manager repository:
+Most likely you would have a repository of existing DITA content that you would like to use with Adobe Experience Manager Guides. For such existing content, you can use any of the following approaches to bulk upload your content into Adobe Experience Manager repository.
 
 >[!IMPORTANT]
 >
@@ -33,11 +33,11 @@ For more details about using bulk upload feature in FrameMaker, see the section 
 
 ## Error handling while uploading content {#id201MI0I04Y4}
 
-In case of any failure to upload one or more files, a prompt is displayed at the end of the upload process with a list of files that failed to upload:
+In case of any failure to upload one or more files, a prompt is displayed at the end of the upload process with a list of files that failed to upload as shown in the snippet below.
 
 ![](images/uuid-files-failed-to-upload_cs.png){width="650" align="center"}
 
-For more details about how the various file uploading scenarios, see [Upload DITA content](authoring-file-management.md#).
+For more details about how the various file uploading scenarios function, view [Manage files and folders](authoring-file-management.md#).
 
  In case you use a tool like Adobe Experience Manager desktop app or Asset bulk ingestor, then the action to perform on a duplicate file is controlled by a setting in the Adobe Experience Manager server. Contact your system administrator to know about this configuration.
 

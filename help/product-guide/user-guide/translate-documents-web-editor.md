@@ -15,7 +15,7 @@ Experience Manager Guides comes with a powerful feature in the Editor that enabl
 
 >[!NOTE]
 >
-> Your administrator can configure the Manage tab \(used for translation\) in the Editor. For more details, see *Configure the translation feature in the Editor* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+> Your administrator can configure the Manage tab \(used for translation\) in the Editor. For more details, view *Configure the translation feature in the Editor* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 ## Before you begin 
 
@@ -67,7 +67,7 @@ Before performing steps in this procedure, ensure that you have created the requ
 
     **None** Select this option to translate the default versions of the files. This option is selected by default. 
 
-    **Use Baseline:** You can select a baseline to translate your project. Select **Use Baseline** and choose a baseline created on the map. All files that are a part of the selected Baseline are shown in the Translation page. Once your content is translated, you can export the translated Baseline. For more details about exporting the translated Baseline, see [Export translated Baseline](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+    **Use Baseline:** You can select a baseline to translate your project. Select **Use Baseline** and choose a baseline created on the map. All files that are a part of the selected Baseline are shown in the Translation page. Once your content is translated, you can export the translated Baseline. For more details about exporting the translated Baseline, view [Export translated Baseline](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
     **Use Latest Version as on**: Choose to filter the version of topics based on their creation date and time. When you select a date and time only the latest version of the files created on or before the selected date and time are shown.
 
@@ -119,7 +119,7 @@ Before performing steps in this procedure, ensure that you have created the requ
 1.  In the **Project Title** field, enter a title for the project.
 1. Select **Submit** to create a new translation project.
 
-    A new translation project is created with the selected version of the topics. At this time, a pop-up message is displayed confirming that the translation project has been created. Once all target language copies are available in the translation project, you get a notification in the Inbox. Once the target language copies are available in the translation project, you can then go ahead and start the translation job. For details see, [Start the translation job](translation-first-time.md#id225IK030OE8).
+    A new translation project is created with the selected version of the topics. At this time, a pop-up message is displayed confirming that the translation project has been created. Once all target language copies are available in the translation project, you get a notification in the Inbox. Once the target language copies are available in the translation project, you can then go ahead and start the translation job. For details view, [Start the translation job](translation-first-time.md#id225IK030OE8).
 
     >[!NOTE]
     >
@@ -142,7 +142,7 @@ It is recommended that for a better performance you should keep only SRX files i
  
 Experience Manager Guides picks the SRX rules according to the source language of the translation project. It looks for a custom SRX file for a language, and if you do not define a custom SRX file, then it picks the rules as per the out of the box translation rules. 
 
-For details on setting up global and folder-level profiles, see *Configure authoring templates* section in Install and configure Adobe Experience Manager Guides as a Cloud Service. 
+For details on setting up global and folder-level profiles, view *Configure authoring templates* section in Install and configure Adobe Experience Manager Guides as a Cloud Service. 
 
 ## Pass the version label to the target version 
 
@@ -164,7 +164,7 @@ AEM Guides provides the feature to check the differences between the selected ve
 
 ![](images/translation-version-diff.png){width="650" align="left"}
 
-Select the **Show difference**icon \(![](images/show-difference-icon.svg)\) for a topic to see the differences between the last translated version and the current version of the selected file.
+Select the **Show difference**icon \(![](images/show-difference-icon.svg)\) for a topic to view the differences between the last translated version and the current version of the selected file.
 
 >[!NOTE]
 >
@@ -193,11 +193,11 @@ To dismiss the Out of Sync status, perform the following steps:
 
 ## View In Progress translation projects for a map or topic 
 
-Some of the references on your translation dashboard might be in progress status. These references have a **In Progress** link under **Translation Status** column. When you select the link, the **In Progress Projects** dialog opens. In the dialog, you can see the list of all In Progress translation projects \(along with the target language\) which contain the selected reference.
+Some of the references on your translation dashboard might be in progress status. These references have a **In Progress** link under **Translation Status** column. When you select the link, the **In Progress Projects** dialog opens. In the dialog, you can view the list of all In Progress translation projects \(along with the target language\) which contain the selected reference.
 
 >[!NOTE]
 >
-> You can see the In Progress link for the translated projects created in AEM Guides as a Cloud Service February 2023 release or later.
+> You can view the In Progress link for the translated projects created in AEM Guides as a Cloud Service February 2023 release or later.
 
 Select the name of the reference in the dialog to open it in preview mode. You can also select the translation project to start the translation.
 

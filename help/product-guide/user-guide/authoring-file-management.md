@@ -55,13 +55,13 @@ This section explains how Adobe Experience Manager Guides handles the basic file
 
     >[!NOTE]
     >
-    > **Create new Version for Uploaded File** feature must be enabled by your administrator. If this feature is enabled, a new version for the uploaded file is created. If the option is deselected, then a version of the uploaded file is not created. For more details, see *Create New Version for Uploaded File* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    > **Create new Version for Uploaded File** feature must be enabled by your administrator. If this feature is enabled, a new version for the uploaded file is created. If the option is deselected, then a version of the uploaded file is not created. For more details, view *Create New Version for Uploaded File* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
     If a file is already checked out for edits by another user, and you attempt to upload and overwrite the existing file, then it fails and displays an error.
 
     >[!NOTE]
     >
-    >The **Overwrite Checked out File on Upload** feature must be disabled by your administrator. If this feature is enabled, you can overwrite checked-out files. If the feature is not enabled, then a checked out file is prevented from being overwritten. For more details, see *Overwrite Checked out File on Upload* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    >The **Overwrite Checked out File on Upload** feature must be disabled by your administrator. If this feature is enabled, you can overwrite checked-out files. If the feature is not enabled, then a checked out file is prevented from being overwritten. For more details, view *Overwrite Checked out File on Upload* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 
 -   *Drag-and-drop files at different location*: A new copy of the file is created and a new UUID is also assigned to it at the new location. Here, the file name is same as the original file name.
@@ -77,7 +77,7 @@ When the file is overwritten, there is no change in the file name or its UUID.
 
 If you select the **Create Version for the Existing Working Copy** option, then a new version from the working copy of the document is created; the new file is uploaded, a new version of the file is also created, and it is made as the working copy of the document.
 
-**Create new Version for Uploaded File** feature must be enabled by your administrator. If this feature is enabled, a new version for the uploaded file is created. If the option is deselected, then a version of the uploaded file is not created. For more details, see *Create New Version for Uploaded file* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+**Create new Version for Uploaded File** feature must be enabled by your administrator. If this feature is enabled, a new version for the uploaded file is created. If the option is deselected, then a version of the uploaded file is not created. For more details, view *Create New Version for Uploaded file* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 
 *Drag-and-drop file at different location*: You are given the options to **Overwrite Existing File\(s\)**, **Move File\(s\) to New Location**, and an option to create a version of the existing working copy.
@@ -216,7 +216,7 @@ By default, Adobe Experience Manager does not recognize DITA content, thus, it d
 
 >[!NOTE]
 >
->Your system administrator can configure the **DITA Element** search component and then you can use the feature from the Adobe Experience Manager Assets UI. For more details see, *Add DITA Element search component in Assets UI* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+>Your system administrator can configure the **DITA Element** search component and then you can use the feature from the Adobe Experience Manager Assets UI. For more details view, *Add DITA Element search component in Assets UI* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 Using the search feature, you can:
 
@@ -279,7 +279,7 @@ You could also delete files only if you belong to a specific user group that has
 
 >[!NOTE]
 >
-> For more details on the configurations on file management, see *Prevent deletion of checked out files* and *Prevent deletion of referenced files* sections in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+> For more details on the configurations on file management, view *Prevent deletion of checked out files* and *Prevent deletion of referenced files* sections in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 If your administrator has given the file delete permission to all user, then the following message is displayed when you delete files containing references:
 
@@ -302,7 +302,7 @@ If your media file has undergone any changes, you can find and preview the files
 1.  Access the file in **Assets UI**.
 1.  Select the file for which you want to view the version history.
 1.  In the left rail, select **Version History** and select a version.
-1.  You can also see the thumbnails of the different versions under Version History.
+1.  You can also view the thumbnails of the different versions under Version History.
 
     ![](images/media-version-history-icon.png){width="800" align="center"}
 

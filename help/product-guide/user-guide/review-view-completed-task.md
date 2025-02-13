@@ -11,7 +11,7 @@ You can complete review tasks for those projects for which you are the Author (o
 
 ## As a reviewer
 
-As a reviewer, you can see an indicator in the comments panel to show that the review has ended. The comments toolbar is not displayed, so you cannot highlight, strikethrough, insert text, or add comments. You can read a comment but cannot edit or delete any comments. You also cannot add a reply to the comments. You cannot see the contextual toolbar (used to highlight or strikethrough any text). The outdated comments icon is also not displayed in a completed review task.
+As a reviewer, you can view an indicator in the comments panel to show that the review has ended. The comments toolbar is not displayed, so you cannot highlight, strikethrough, insert text, or add comments. You can read a comment but cannot edit or delete any comments. You also cannot add a reply to the comments. You cannot view the contextual toolbar (used to highlight or strikethrough any text). The outdated comments icon is also not displayed in a completed review task.
 
 However, you can search or filter any comments. You can also choose to show or hide conditions and display conditionalized content accordingly. You can download any attachments but cannot upload or delete any attachments for the comments.
 

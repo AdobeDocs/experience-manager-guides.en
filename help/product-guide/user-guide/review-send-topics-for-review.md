@@ -9,11 +9,11 @@ role: User
 
 The review workflow creates a multi-reviewer environment wherein the initiator specifies a list of topics for review, add multiple reviewers, and assigns a timeline for the review task. Adobe Experience Manager Guides allows users belonging to the Authors and Publishers groups to initiate a review.
 
-As the review workflow is project-specific, the initiator of review must be a part of the project team or have rights to create a project. At the time of creating a project, you define the team members for the project and assign them various roles or groups. For more information about projects, see [Create a DITA project](authoring-create-dita-project.md#).
+As the review workflow is project-specific, the initiator of review must be a part of the project team or have rights to create a project. At the time of creating a project, you define the team members for the project and assign them various roles or groups. For more information about projects, view [Create a DITA project](authoring-create-dita-project.md#).
 
 You can create a review task from:
 
--   **Editor**: Allows you to send an individual topic or DITA map for review. Note that the workflow for creating a review task is common across the Editor and Assets UI. Only the method of launching the review workflow differs. For information about launching the review workflow from the Editor, see the [Create Review Task](web-editor-features.md#id215OCJ00JXA) feature in the Editor.
+-   **Editor**: Allows you to send an individual topic or DITA map for review. Note that the workflow for creating a review task is common across the Editor and Assets UI. Only the method of launching the review workflow differs. For information about launching the review workflow from the Editor, view the [Create Review Task](web-editor-features.md#id215OCJ00JXA) feature in the Editor.
 
 -   **Assets UI**: Allows you to send one or multiple topics and DITA map for review. Sharing documents for review from Assets UI workflow is covered under this topic.
 
@@ -55,11 +55,11 @@ To create a review task and send topics for review, perform the following steps:
 
 1.  In the **Assign To** drop-down field, select the reviewers to whom you want to send the topics for review.
 
-    You can assign a review task to individual users of the project or to user groups. Note that you can assign a review task to individual users only when you are a part of the project's administrator group, else you will only see the user groups in the Assign To field.
+    You can assign a review task to individual users of the project or to user groups. Note that you can assign a review task to individual users only when you are a part of the project's administrator group, else you will only view the user groups in the Assign To field.
 
     >[!NOTE]
     >
-    > Review workflow is project-specific. When you create projects, you add the team members to the project and assign them to groups. So when you select the project here, you get to choose the members who are a part of that project. For more information about projects, see [Create a DITA project](authoring-create-dita-project.md#).
+    > Review workflow is project-specific. When you create projects, you add the team members to the project and assign them to groups. So when you select the project here, you get to choose the members who are a part of that project. For more information about projects, view [Create a DITA project](authoring-create-dita-project.md#).
 
 1.  Enter a **Description** for the task.
 
@@ -77,7 +77,7 @@ To create a review task and send topics for review, perform the following steps:
 
     >[!NOTE]
     >
-    > The selected root map takes the highest precedence to resolve key references. For more details, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
+    > The selected root map takes the highest precedence to resolve key references. For more details, view [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
 
 1.  As you can assign different reviewers to different topics, **Allow Assignees to Review Any Topic** option controls whether reviewers can review all topics in a review task or only those topics that they are assigned to review.
 
@@ -148,7 +148,7 @@ In case multiple topics are assigned, the reviewers can view and select them in 
 
 A DITA map is a logical organization of topics within a book. When you send an individual topic for review, the reviewer does not get any information about the location of that topic in the book. If a reviewer has information about the exact location of the topic being reviewed, the reviewer gets a better context of the topic being reviewed.
 
-Experience Manager Guides allows you to send one or more topics in a DITA map for review at the same time. The reviewer gets to see the complete map file along with topics that have been shared for review. This makes it easier for the reviewer to get a context of the topic in the map or book file.
+Experience Manager Guides allows you to send one or more topics in a DITA map for review at the same time. The reviewer gets to view the complete map file along with topics that have been shared for review. This makes it easier for the reviewer to get a context of the topic in the map or book file.
 
 You can share the same DITA map in for review in multiple review tasks. For example, if in a DITA map there are topic A, B, C, D and E. In one review task you can share A, B, and C for review and in another review task you can send topics C, D and E for review. The review process allows for sharing the same topic and map file in multiple review tasks. For the common topic in multiple review tasks, the comments given in one review task do not overwrite or merge with the comments in the other review tasks.
 
@@ -182,11 +182,11 @@ To send one or multiple topics along with the map file for review, perform the f
 
 1.  In the **Assign To** drop-down field, select the reviewers to whom you want to send the topics for review.
 
-    You can assign a review task to individual users of the project or to user groups. Note that you can assign a review task to individual users only when you are a part of the project's administrator group, else you will only see the user groups in the Assign To field.
+    You can assign a review task to individual users of the project or to user groups. Note that you can assign a review task to individual users only when you are a part of the project's administrator group, else you will only view the user groups in the Assign To field.
 
     >[!NOTE]
     >
-    > Review workflow is project specific. When you create projects, you add the team members to the project and assign them to groups. So when you select the project here, you get to choose the members who are a part of that project. For more information about projects, see [Create a DITA project](authoring-create-dita-project.md#).
+    > Review workflow is project specific. When you create projects, you add the team members to the project and assign them to groups. So when you select the project here, you get to choose the members who are a part of that project. For more information about projects, view [Create a DITA project](authoring-create-dita-project.md#).
 
 1.  Enter a **Description** for the task.
 

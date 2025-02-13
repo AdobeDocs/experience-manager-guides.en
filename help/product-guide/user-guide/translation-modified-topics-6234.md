@@ -7,7 +7,7 @@ role: User
 ---
 # Translate modified topics {#id16A5A0B6072}
 
-If you make changes in some of the topics, then those topics require re-translation. You can keep track of modified topics from DITA map. From the source language copy folder, select the DITA map file from the Map Console and select the Translation tab. You can see the status of each topic whether it requires re-translation or not.
+If you make changes in some of the topics, then those topics require re-translation. You can keep track of modified topics from DITA map. From the source language copy folder, select the DITA map file from the Map Console and select the Translation tab. You can view the status of each topic whether it requires re-translation or not.
 
 Perform the following steps to send a modified topic for re-translation:
 
@@ -17,13 +17,13 @@ Perform the following steps to send a modified topic for re-translation:
 
 1.  In the **Translation** panel on the left, select the **Available Languages** that you want to check the status for and select **Apply**.
 
-    You can see the translation status for each topic. The topics that have another revision of topic available than what was sent for translation, show an **Out of Sync** status.
+    You can view the translation status for each topic. The topics that have another revision of topic available than what was sent for translation, show an **Out of Sync** status.
 
     >[!NOTE]
     >
     > The translation workflow compares the last saved revision of the topic file in the source language folder with the translated version.
 
-    If you select the arrow to see further details. you can see the particular language copy that is out of sync.
+    If you select the arrow to view further details, you can view the particular language copy that is out of sync.
 
     ![](images/out-of-sync-uuid-new.png){width="800" align="left"}
 
@@ -45,7 +45,7 @@ Perform the following steps to send a modified topic for re-translation:
 
     A confirmation message is displayed showing that the topic has been sent for translation.
 
-1.  Navigate to the translation project in the Project console. A new translation job card is created in the folder. Select the ellipsis to see the assets of the folder.
+1.  Navigate to the translation project in the Project console. A new translation job card is created in the folder. Select the ellipsis to view the assets of the folder.
 
     ![](images/incremental-job-new.png){width="300" align="left"}
 
@@ -57,9 +57,9 @@ Perform the following steps to send a modified topic for re-translation:
     >
     > If you are using Human translation service, then you need to export the content for translation. Once you have the translated content, then you need to import it back into the translation project.
 
-1. After the translation completes, the status changes to **Ready to Review**. Select the ellipsis to see topic details and do one of the following from the toolbar:
+1. After the translation completes, the status changes to **Ready to Review**. Select the ellipsis to view topic details and do one of the following from the toolbar:
 
-    -   Select **Reveal in Assets** to see and verify the translation.
+    -   Select **Reveal in Assets** to view and verify the translation.
 
     -   Select **Accept Translation** if you think that the changes have been translated correctly. A confirmation message is displayed.
 

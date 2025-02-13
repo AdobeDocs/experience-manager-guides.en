@@ -7,7 +7,7 @@ role: User
 ---
 # Download files {#id216MC0H0BE8}
 
-You can download assets including DITA and non-DITA files. There are multiple ways in which you can download assets, some methods are native to Adobe Experience Manager and others are supported by Adobe Experience Manager Guides. For native Adobe Experience Manager assets download information, see [Download assets from Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) in Adobe Experience Manager documentation. The following section explains the mechanism of downloading files via DITA map console in Experience Manager Guides.
+You can download assets including DITA and non-DITA files. There are multiple ways in which you can download assets, some methods are native to Adobe Experience Manager and others are supported by Adobe Experience Manager Guides. For native Adobe Experience Manager assets download information, view [Download assets from Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) in Adobe Experience Manager documentation. The following section explains the mechanism of downloading files via DITA map console in Experience Manager Guides.
 
 ## Export a DITA map file 
 
