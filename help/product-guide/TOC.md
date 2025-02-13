@@ -193,7 +193,7 @@ breadcrumb-title: AEM Guides Documentation
         - [EPUB](./user-guide/generate-output-epub.md)
         - [Custom](./user-guide/generate-output-custom.md)
         - [JSON](./user-guide/generate-output-json.md)
-      - [Create, edit, duplicate, or remove an output preset](./user-guide/generate-output-create-edit-preset.md)
+      - [Edit, duplicate, or remove an output preset](./user-guide/generate-output-create-edit-preset.md)
       - [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
       - [Use variables for setting the Destination Path, Site Name, or File Name options](./user-guide/generate-output-use-variables.md)
       - [Pass on the metadata to the output using DITA-OT](./user-guide/pass-metadata-dita-ot.md)
