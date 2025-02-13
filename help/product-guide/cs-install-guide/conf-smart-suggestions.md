@@ -75,11 +75,6 @@ Perform the following steps to add IMS configuration to the environment:
 1. Update the SERVICE_ACCOUNT_DETAILS JSON field. Ensure you are using the same name and configuration as given in the following screenshot.
 
     ![ims service account configuration](assets/ims-service-account-config.png){width="800" align="left"}
-1. Add the `ENABLE_GUIDES_AI`flag. Ensure that you are using the same name and configuration as given in the following screenshot.
-
-    ![](assets/conf-folder-ai-assistant-enable.png){width="300" align="left"}
- 
-    Setting the flag to **true** enables the functionality, while setting it to **false** disables it.
 
 ## Enable AI flag in the environment 
 
