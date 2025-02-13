@@ -134,7 +134,7 @@ SRX files should be named as `<language-code>.srx`. For example, en-US, or ar-AE
 >[!NOTE]
 >The title is not case-sensitive, so you can have 'en-US' or 'en-us' or 'EN-us'. Also, Experience Manager Guides can resolve '-' (hyphen) or '_' (underscore). So, you can have 'en-US' or 'en_US'. 
 
-Also, you can put these files inside any folder under AEM assets root that is `./content/dam`. 
+Also, you can put these files inside any folder under Adobe Experience Manager assets root that is `./content/dam`. 
 
 Once you've created the folder which contains the SRX files, you can add the folder path in the Translation SRX location configuration inside your folder profile.  
 
