@@ -96,9 +96,9 @@ Before performing steps in this procedure, ensure that you have created the requ
     Besides a new translation project, you also can select from the following options:
 
     -   You can choose to **Create structure only** for the translation project.
-    -  You can choose to **Create a new XLIFF translation project** to convert the XML content into the XML Localization Interchange File Format (XLIFF). XLIFF is an open XML-based format that is used to standardize the data transfer between various tools used in the content translation process. AEM Guides supports XLIFF version 1.2.
+    -  You can choose to **Create a new XLIFF translation project** to convert the XML content into the XML Localization Interchange File Format (XLIFF). XLIFF is an open XML-based format that is used to standardize the data transfer between various tools used in the content translation process. Experience Manager Guides supports XLIFF version 1.2.
     In an XLIFF project, the content is exported to the industry standard XLIFF format, which can be provided to Translation vendors. XLIFF format empowers potential reuse of segments that you have already translated during the translation phase.  
-    After the XLIFF content is translated, it can be imported into AEM Guides, creating a translated version of the original DITA project. 
+    After the XLIFF content is translated, it can be imported into Experience Manager Guides, creating a translated version of the original DITA project. 
 
         >[!NOTE]
         >
@@ -132,7 +132,7 @@ Experience Manager Guides allows your administrators to configure the translatio
 SRX files should be named as `<language-code>.srx`. For example, en-US, or ar-AE.  
 
 >[!NOTE]
->The title is not case-sensitive, so you can have 'en-US' or 'en-us' or 'EN-us'. Also, AEM guides can resolve '-' (hyphen) or '_' (underscore). So, you can have 'en-US' or 'en_US'. 
+>The title is not case-sensitive, so you can have 'en-US' or 'en-us' or 'EN-us'. Also, Experience Manager Guides can resolve '-' (hyphen) or '_' (underscore). So, you can have 'en-US' or 'en_US'. 
 
 Also, you can put these files inside any folder under AEM assets root that is `./content/dam`. 
 
@@ -146,7 +146,7 @@ For details on setting up global and folder-level profiles, view *Configure auth
 
 ## Pass the version label to the target version 
 
-AEM Guides allows you to pass the label of the source file to the target file. This will help you easily identify the source version for the translated file.
+Experience Manager Guides allows you to pass the label of the source file to the target file. This will help you easily identify the source version for the translated file.
 
 To add the source version label in the target copy, your system administrator must enable the **Propagate source version labels to the target version** option under the **Translation** tab in **Settings**.
 
@@ -160,7 +160,7 @@ For example, if you have some source files with the version label `Release 1.0` 
 
 ## View version difference for Out of Sync files  
 
-AEM Guides provides the feature to check the differences between the selected version and the last translated source version of the topics. You can choose to translate the **Out of Sync** files based on the changes made.
+Experience Manager Guides provides the feature to check the differences between the selected version and the last translated source version of the topics. You can choose to translate the **Out of Sync** files based on the changes made.
 
 ![](images/translation-version-diff.png){width="650" align="left"}
 
@@ -197,7 +197,7 @@ Some of the references on your translation dashboard might be in progress status
 
 >[!NOTE]
 >
-> You can view the In Progress link for the translated projects created in AEM Guides as a Cloud Service February 2023 release or later.
+> You can view the In Progress link for the translated projects created in Adobe Experience Manager Guides as a Cloud Service February 2023 release or later.
 
 Select the name of the reference in the dialog to open it in preview mode. You can also select the translation project to start the translation.
 
