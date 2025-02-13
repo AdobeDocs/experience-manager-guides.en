@@ -67,7 +67,7 @@ Before performing steps in this procedure, ensure that you have created the requ
 
     **None** Select this option to translate the default versions of the files. This option is selected by default. 
 
-    **Use Baseline:** You can select a baseline to translate your project. Click Use Baseline and choose a baseline created on the map. All files that are a part of the selected Baseline are shown in the Translation page. Once your content is translated, you can export the translated Baseline. For more details about exporting the translated Baseline, see [Export translated Baseline](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+    **Use Baseline:** You can select a baseline to translate your project. Select **Use Baseline** and choose a baseline created on the map. All files that are a part of the selected Baseline are shown in the Translation page. Once your content is translated, you can export the translated Baseline. For more details about exporting the translated Baseline, see [Export translated Baseline](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
     **Use Latest Version as on**: Choose to filter the version of topics based on their creation date and time. When you select a date and time only the latest version of the files created on or before the selected date and time are shown.
 
@@ -85,7 +85,7 @@ Before performing steps in this procedure, ensure that you have created the requ
     -   **Target Language**: The language to which you want to translate the source file
     -   **Translation Status**: The available options are: Out of Sync, Missing Copy, In Progress, and In Sync.
     -   **Target Label**: Label for the selected version of the target file
-1.  Click **Send for Translation** on the top right corner.
+1.  Select **Send for Translation** on the top right corner.
 
     ![](images/translation-send.png){width="800" align="left"}
 
@@ -185,7 +185,7 @@ To dismiss the Out of Sync status, perform the following steps:
 
     ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
-1.  Click **Force Sync**. It sets the status to In sync for the selected Out of sync assets.
+1.  Select **Force Sync**. It sets the status to In sync for the selected Out of sync assets.
 
 >[!NOTE]
 >
@@ -193,13 +193,13 @@ To dismiss the Out of Sync status, perform the following steps:
 
 ## View In Progress translation projects for a map or topic 
 
-Some of the references on your translation dashboard might be in progress status. These references have a **In Progress** link under **Translation Status** column. When you click the link, the **In Progress Projects** dialog opens. In the dialog, you can see the list of all In Progress translation projects \(along with the target language\) which contain the selected reference.
+Some of the references on your translation dashboard might be in progress status. These references have a **In Progress** link under **Translation Status** column. When you select the link, the **In Progress Projects** dialog opens. In the dialog, you can see the list of all In Progress translation projects \(along with the target language\) which contain the selected reference.
 
 >[!NOTE]
 >
 > You can see the In Progress link for the translated projects created in AEM Guides as a Cloud Service February 2023 release or later.
 
-Click the name of the reference in the dialog to open it in preview mode. You can also click the translation project to start the translation.
+Select the name of the reference in the dialog to open it in preview mode. You can also select the translation project to start the translation.
 
 ![](images/translation-in-progress.png){width="550" align="left"}
 
