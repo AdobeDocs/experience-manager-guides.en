@@ -15,17 +15,17 @@ Adobe Experience Manager Guides allows you to create DITA topics of type — top
 
 There are two ways to create topics in Experience Manager Guides:
 
-- [From the Editor](#create-topics-from-the-editor)
-- [From the Assets UI](#create-topics-from-the-assets-ui)
+- [Create topics from the Editor](#create-topics-from-the-editor)
+- [Create topics from the Assets UI](#create-topics-from-the-assets-ui)
 
 ## Create topics from the Editor
 
 Perform the following steps to create a topic from the Editor:
 
-1. In the Repository panel, select the **New file** icon and then select **New topic** from the dropdown menu. 
+1. In the Repository panel, select the **New file** icon and then select **Topic** from the dropdown menu. 
 
-    ![](images/create-map-options.png){width="300" align="left"}
-
+    ![](create-topic-option.png){width="500" align="left"}
+    
     You can also access this option from the [Experience Manager Guides Home page](./intro-home-page.md) and the options menu of a folder in the Respository view. 
 
 2. The **New topic** dialog box is displayed.
@@ -36,14 +36,12 @@ Perform the following steps to create a topic from the Editor:
     - A template on which the topic will be based. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, Markdown, Glossary, and Troubleshooting templates. If your folder has a Folder Profile configured on it, then you will see only those topic templates that are configured on the Folder profile.
     - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
     
-4. Select **Create**. The topic is created at the specified path. Also, the topic is opened in the Editor for editing.
+4. Select **Create**.
 
     ![](images/create-topic-dialog-new.png){width="300" align="left"}
     
-5. Select **Create**. 
+The topic is created at the specified path. Also, the topic is opened in the Editor for editing. 
     
-The map is created at the specified path. Also, the map is opened in the Map Editor for editing.
-
 ![](images/new-topic-editor.png){width="800" align="left"}
 
 ## Create topics from the Assets UI 
