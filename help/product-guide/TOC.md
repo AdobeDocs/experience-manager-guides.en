@@ -240,7 +240,7 @@ breadcrumb-title: AEM Guides Documentation
     - Content translation {#translate-content}
       - [Translate content](./user-guide/translation.md)
       - [Best practices for content translation](./user-guide/translation-first-time.md)
-      - [Translate documents from the Web Editor](./user-guide/translate-documents-web-editor.md)
+      - [Translate documents from the Map console](./user-guide/translate-documents-web-editor.md)
       - [View translation status](./user-guide/translation-view-trans-state-6234.md)
       - [Translate modified topics](./user-guide/translation-modified-topics-6234.md)
   
