@@ -134,6 +134,8 @@ If you have applied any conditions on a topic, a filter icon is displayed on the
 
 The **Author** view allows you to edit your DITA map in the Editor. This shows the WYSIWYG view of the Map Editor and some of the icons displayed in Author view are same as the Layout view. 
 
+![](images/map-editor-author-view.png){width="800" align="left"}
+
 In addition, you can view the following icons and perform the related tasks from the Author view:
 
 **Insert before/Insert after** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
@@ -235,32 +237,52 @@ You can create a review task of the current topic or map file directly from the 
 
 This view allows you to edit content in its raw format, providing full control over the structure and formatting.
 
-In this view, the toolbar provides basic content editing and insertion options including Cut, Copy, Undo, Redo, Delete, Find and replace, Version label, Merge, Save as new version, Lock and Unlock.
+![](images/map-editor-source-view.png){width="800" align="left"}
+
+
+In this view, the toolbar provides basic content editing and insertion options available under the **Menu** dropdown including Cut, Copy, Undo, Redo, Delete, Find and replace, Version label, Merge, Save as new version, Lock and Unlock.
 
 ## Preview
 
 The Preview mode renders the content as it will appear in the final output, enabling you to review the layout and formatting before publishing it. 
 
-No content editing or insertion options are availble in the toolbar in the Preview mode. You can not edit the content in this view. However, you can use the **Save as new version** and **Lock** or **Unlock** features. 
+In addition to be able to see the position of each topic file within a map, it is desirable to view the map content in one consecutive flow. The Preview map feature allows you to view the entire content of the map file in a single click. You don't have to generate an output of the map file to view how the entire map will look like once published. You can simply access the map's preview and all topics and sub-maps are rendered in the form of a book.
 
-## Right panel in the Map Editor 
+![](images/map-editor-preview.png){width="800" align="left"}
 
-The right panel displays the Content Properties and the Map Properties in the Layout view of the Map Editor.
+>[!NOTE]
+>
+> No content editing or insertion options are available in the toolbar in the Preview mode. You can not edit the content in this view. However, you can use the **Save as new version** and **Lock** or **Unlock** features. 
 
-**Content properties**
+You can perform the following additional tasks in the preview mode:
 
-The Content properties panel contains information about the type of currently selected topic in the map, its link URL, and its attributes. For more details, view [Content Properties](web-editor-features.md#right-panel) in the Editor.
+-   Right-click on a topic, and select **Edit** to open the topic for editing in a new tab.
 
--   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under the **Display attributes** tab in the editor settings. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the `audience` attribute are defined as `US`.
+    >[!NOTE]
+    >
+    > If you don't have editing rights, then the topic will open in read-only mode.
 
-    ![layout view](images/layout-inline-attributes.png){width="650" align="left"}
+-   Jump to the desired topic by selecting the topic title in the map tree \(in left panel\).
 
-   
-    For more details, view the *Display attributes* within the *Settings* feature description in the [Editor](web-editor-features.md#main-toolbar).
+-   The current topic in map preview is also highlighted in the map tree.
 
--   **Metadata** Using the metadata , you can set the metadata information. You can define the Nav Title, Link Text, Short Description, and Keywords.
+**Other ways to preview a map file**
 
-For more information about the standard topic attributes and metadata, view the [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentation in OASIS DITA Language Specification.
+You can access a map's preview from:
+
+-   **Assets UI**: In the Assets UI, navigate to the map location, select the map file, and choose **Preview Map** in the Toolbar. The map's preview is shown in a new tab. You can view the content of all topics in the preview mode. In this view, you cannot edit any topic.
+
+    >[!NOTE]
+    >
+    > If the *Preview Map* option is not visible in the main toolbar, it might have moved under the **More** toolbar menu.
+
+-   **Map Editor**: In the Map Editor, select **Preview** from the options menu to view the preview of the current map.
+
+    ![](images/map-preview-icon.png){width="350" align="left"}
+
+    The preview of the map is displayed in a pop-up box. 
+
+    ![](images/map-editor-preview-pop-up.png){width="500" align="left"}
 
 **Map properties**
 
@@ -308,34 +330,27 @@ To edit topics through a DITA map, perform the following steps:
     -   If your administrator has enabled the option of unlocking files on close, then you will be shown a prompt to save files whenever the locked files are closed. With this option enabled, when you close the editor with changed files, you are shown the list of locked files that need to be saved. The locked files are shown with a lock icon:
 
         ![](images/save-on-close-new.png){width="550" align="left"}
+
+## Right panel in the Map Editor 
+
+The right panel displays the Content Properties and the Map Properties in the Layout view of the Map Editor.
+
+**Content properties**
+
+The Content properties panel contains information about the type of currently selected topic in the map, its link URL, and its attributes. For more details, view [Content Properties](web-editor-features.md#right-panel) in the Editor.
+
+-   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under the **Display attributes** tab in the editor settings. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the `audience` attribute are defined as `US`.
+
+    ![layout view](images/layout-inline-attributes.png){width="650" align="left"}
+
+   
+    For more details, view the *Display attributes* within the *Settings* feature description in the [Editor](web-editor-features.md#main-toolbar).
+
+-   **Metadata** Using the metadata , you can set the metadata information. You can define the Nav Title, Link Text, Short Description, and Keywords.
+
+For more information about the standard topic attributes and metadata, view the [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentation in OASIS DITA Language Specification.
  
-## Preview a map 
 
-In addition to be able to see the position of each topic file within a map, it is desirable to view the map content in one consecutive flow. The Preview map feature allows you to view the entire content of the map file in a single click. You don't have to generate an output of the map file to view how the entire map will look like once published. You can simply access the map's preview and all topics and sub-maps are rendered in the form of a book.
-
-You can access a map's preview from:
-
--   **Assets UI**: In the Assets UI, navigate to the map location, select the map file, and choose **Preview Map** in the Toolbar. The map's preview is shown in a new tab. You can view the content of all topics in the preview mode. In this view, you cannot edit any topic.
-
-    >[!NOTE]
-    >
-    > If the *Preview Map* option is not visible in the main toolbar, it might have moved under the **More** toolbar menu.
-
--   **Map Editor**: In the Map Editor, select **Preview** from the options menu to view the preview of the current map.
-
-    ![](images/map-preview-icon.png){width="350" align="left"}
-
-    You can perform the following additional tasks in the preview mode:
-
-    -   Right-click on a topic, and select **Edit** to open the topic for editing in a new tab.
-
-        >[!NOTE]
-        >
-        > If you don't have editing rights, then the topic will open in read-only mode.
-
-    -   Jump to the desired topic by selecting the topic title in the map tree \(in left panel\).
-
-    -   The current topic in map preview is also highlighted in the map tree.
 
 
 **Parent topic:** [Work with the Map Editor](map-editor.md)

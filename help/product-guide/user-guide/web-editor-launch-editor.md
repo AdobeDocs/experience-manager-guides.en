@@ -29,13 +29,14 @@ To launch the Editor, go to the navigation bar, and then select **Editor** from 
 
 ![](images/editor-home-page-dropdown.png){width="350" align="left"}
 
-Alternatively, you can launch the Editor from the **Recent files** widget or **Collections** widget of [Adobe Experience Manager Guides Home page experience](./intro-home-page.md).
-
 As you have launched the Editor without selecting any file, a blank Editor screen is shown. You can open a file for editing from Experience Manager **Repository** or your **Collections**.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-Select the Adobe Experience Manager logo, located at the top-left corner of the top header, to go back to the Experience Manager Navigation page. 
+Alternatively, you can also launch the Editor by opening the existing files present in the **Recent files** widget and **Collections** widget of [Adobe Experience Manager Guides Home page experience](./intro-home-page.md).
+
+
+To go back to the Experience Manager Navigation page, select the Adobe Experience Manager logo located at the top-left corner of the top header. 
 
 
 ## Adobe Experience Manager Assets UI 

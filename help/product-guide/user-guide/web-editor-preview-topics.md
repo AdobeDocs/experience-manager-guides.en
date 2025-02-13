@@ -27,6 +27,13 @@ Perform the following steps to preview a topic from the Editor:
 
     ![](images/preview-pop-up.png){width="800" align="left"}
 
+**Preview topics from the Preview mode**
+
+When you open a topic in the Editor and switch to the **Preview** mode, located in the bottom-right corner of the content editing area, you can view a preview of the currently opened topic.
+
+For more details, view [Editor views](./web-editor-views.md#preview).
+
+
 ## Preview topics from the Assets UI
 
 Perform the following steps to preview a topic:

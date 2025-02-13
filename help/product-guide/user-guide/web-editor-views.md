@@ -1,13 +1,13 @@
 ---
-title: Web Editor views
-description: View documents in author, source, and preview mode. Learn how to view content based on conditional filters, view the track changes markups, and export a topic as PDF in AEM Guides.
+title: Editor views for topics
+description: View topics in author, source, and preview mode. Learn how to view content based on conditional filters, view the track changes markups, and export a topic as PDF in AEM Guides.
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
 ---
-# The Editor views {#id204GK0D0V5Z}
+# Editor views for topics {#id204GK0D0V5Z}
 
-The Editor interface in Adobe Experience Manager supports viewing documents in three different modes or views:
+The Editor interface in Adobe Experience Manager supports viewing topics in three different modes or views:
 
 * [Author](#author)
 * [Source](#source)

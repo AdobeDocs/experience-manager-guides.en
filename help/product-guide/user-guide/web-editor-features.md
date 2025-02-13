@@ -1935,11 +1935,11 @@ At the bottom-left of the content editing area, you have the breadcrumb of the e
 
 ![](images/content-editing-area.png){width="800" align="left"}
 
-When working with a map file, the content editing area is disaplayed with different options including, a Layout view for the map file and the ability to open topic files present in the map from the layout view and author view. 
+To learn about the Editor views and the features available in the respective views, view [Editor views](./web-editor-views.md).
 
-![](images/content-editing-area-maps.png){width="800" align="left"}
-
-For more details, view [Map editor features](./map-editor-advanced-map-editor.md).
+>[!NOTE]
+>
+> If you are working on a map file, then the content editing area presents different views, including a **Layout** view for the map file. For more details, view [Map editor features](./map-editor-advanced-map-editor.md).
 
 ## Right panel
 
