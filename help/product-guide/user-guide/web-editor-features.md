@@ -1931,7 +1931,7 @@ To view the review comments in the active review tasks that are present in your 
 
 The content editing area is where the content of your topic or map is displayed. You make all content edits in this area. It gives a WYSIWYG view of the content you are editing. 
 
-At the bottom-left of the content editing area, you have the breadcrumb of the element at current cursor location. In the bottom-right corner, the available [Editor views](./web-editor-views.md) are displayed.
+At the bottom-left of the content editing area, you have the breadcrumb of the element at current cursor location. In the bottom-right corner, the available Editor views are displayed.
 
 ![](images/content-editing-area.png){width="800" align="left"}
 
@@ -1939,7 +1939,7 @@ To learn about the Editor views and the features available in the respective vie
 
 >[!NOTE]
 >
-> If you are working on a map file, then the content editing area presents different views, including a **Layout** view for the map file. For more details, view [Map editor features](./map-editor-advanced-map-editor.md).
+> If you are working on a map file, then different Editor views are displayed in the content editing area , including a **Layout** view for the map file. For more details, view [Map editor features](./map-editor-advanced-map-editor.md).
 
 ## Right panel
 
