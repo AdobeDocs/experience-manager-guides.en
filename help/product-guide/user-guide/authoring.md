@@ -37,7 +37,7 @@ Experience Manager Guides provides three out-of-the-box groups. These groups are
 
 >[!TIP]
 >
-> See the *Permissions*section in the Best practices guide for best practices around setting user permissions.
+> See the *Permissions* section in the Best practices guide for best practices around setting user permissions.
 
 The following table lists various tasks and the groups that can perform those tasks:
 
