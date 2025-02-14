@@ -16,7 +16,7 @@ You can create the HTML5 preset in two ways:
 
 ## Create HTML5 output preset from the Map console
 
-Perform the following steps to create the HTML5 preset from the map console:
+Perform the following steps to create the HTML5 preset from the Map console:
 
 1. [Open a DITA map file in the Map console](./open-files-map-console.md). 
 
@@ -35,9 +35,9 @@ Perform the following steps to create the HTML5 preset from the map console:
 
     ![](images/html5-preset-dialog-new.png){width="300" align="left"}
 
-In the Map console, the preset configurations are organized under the **General** and **Advanced** tabs. 
+In the Map console, the preset configuration options are organized under the **General** and **Advanced** tabs. 
 
-The **General** tab contains the following configurations:
+The **General** tab contains the following configuration options:
 
 - Output path
 - DITA-OT command line arguments
@@ -48,20 +48,20 @@ The **General** tab contains the following configurations:
 
 **Advanced**
 
-The Advanced tab contains the following configurations:
+The Advanced tab contains the following configuration options:
 
 - Transformation name
 - Retain temporary files
 - Flatten file hierarchy 
 - File properties 
 
-For details on preset configuration options, refer to the [Custom preset configurations](#custom-preset-configurations) section.
+For details on preset configuration options, refer to the [Custom preset configuration](#custom-preset-configuration) section.
 
 ## Create HTML5 output preset from the Map dashboard
 
-Perform the following steps to create the HTML5 preset from the map dashboard:
+Perform the following steps to create the HTML5 preset from the Map dashboard:
 
-1. In the Assets UI, navigate to and select the DITA map to open it in map dashboard.
+1. In the Assets UI, navigate to and select the DITA map to open it in Map dashboard.
 1. Ensure that the **Output Presets** tab is selected.
 1. Select **Create** in the toolbar.
 
@@ -70,9 +70,9 @@ Perform the following steps to create the HTML5 preset from the map dashboard:
 1.  Enter the required configuration details for the HTML5 preset. 
 1.  Select **Done** to save the preset settings.
 
-For details on preset configuration options, refer to the [Custom preset configurations](#custom-preset-configurations) section.
+For details on preset configuration options, refer to the [Custom preset configuration](#custom-preset-configuration) section.
 
-## Custom preset configurations
+## Custom preset configuration
 
 Configuration options vary slightly depending on whether you are configuring the preset from the Map console or the Map dashboard. Some options apply only to the Map dashboard, while others apply to both.
 

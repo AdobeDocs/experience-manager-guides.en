@@ -209,6 +209,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
       - [Publish AEM Sites pages](./user-guide/publish-aem-sites.md)
       - [Publish Knowledge Base Articles](./user-guide/web-editor-article-publishing.md)
+      - [Generate output manage process](./user-guide/generate-output-manage-process.md)
       
       - Bulk activation of content {#bulk-activation}
         - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
