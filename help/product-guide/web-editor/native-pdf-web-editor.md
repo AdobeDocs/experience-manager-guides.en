@@ -44,9 +44,9 @@ For more information, view [Generate a PDF output](#generate-pdf-output).
 
 The following sections walk you through the steps to generate the Native PDF output:
 
-- [Create an output preset](#create-an-output-preset) 
-- [Configure Native PDF preset options](#configure-native-pdf-preset-options)
-- [Generate output](#generate-output)
+* [Create an output preset](#create-an-output-preset) 
+* [Configure Native PDF preset options](#configure-native-pdf-preset-options)
+* [Generate output](#generate-output)
 
 ### Create an output preset
 

@@ -51,7 +51,7 @@ If working on the **Assets UI**, perform the following steps to pass on the meta
 
 1. In the **Assets UI**, navigate to and choose the DITA map file for which you want to pass the metadata to the DITA-OT.
 1. Select and edit an output preset to which you want to pass the metadata fields. For example, select PDF output preset.
-1. Select **DITA-OT** under **Generate /<output> Using** option in the selected output preset.
+1. Select **DITA-OT** option in the selected output preset.
 
     ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
 
