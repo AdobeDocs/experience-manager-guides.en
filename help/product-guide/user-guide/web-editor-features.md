@@ -65,18 +65,10 @@ A powerful, AI-driven tool designed to enhance your productivity through smart h
 
 The **Assets** option takes you to a destination based on your setup:
 
-<details>
-<summary> Cloud Services </summary> 
+- **Cloud Services**: If you are using Cloud Services, selecting the **Assets** option takes you to the AEM Navigation page.
 
-- If you are using Cloud Services, selecting the **Assets** option takes you to the AEM Navigation page.
+- **On-premise Software**: If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the **Assets** option takes you to your current file path in the Assets UI.
 
-</details>
-
-<details>    
-<summary>  On-premise Software </summary>
-
-- If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the **Assets** option takes you to your current file path in the Assets UI.
-</details>
 
 The **Settings** option is available only for administrators and folder profile administrators, and allows configuring the following settings:
 
