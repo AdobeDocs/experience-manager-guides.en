@@ -55,7 +55,7 @@ The Advanced tab contains the following configuration options:
 - Flatten file hierarchy 
 - File properties 
 
-For details on preset configuration options, refer to the [Custom preset configuration](#custom-preset-configuration) section.
+For details on preset configuration options, refer to the [HTML5 preset configuration](#html5-preset-configuration) section.
 
 ## Create HTML5 output preset from the Map dashboard
 
@@ -70,9 +70,9 @@ Perform the following steps to create the HTML5 preset from the Map dashboard:
 1.  Enter the required configuration details for the HTML5 preset. 
 1.  Select **Done** to save the preset settings.
 
-For details on preset configuration options, refer to the [Custom preset configuration](#custom-preset-configuration) section.
+For details on preset configuration options, refer to the [HTML5 preset configuration](#html5-preset-configuration) section.
 
-## Custom preset configuration
+## HTML5 preset configuration
 
 Configuration options vary slightly depending on whether you are configuring the preset from the Map console or the Map dashboard. Some options apply only to the Map dashboard, while others apply to both.
 
