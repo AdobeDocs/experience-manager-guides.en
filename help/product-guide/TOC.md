@@ -184,7 +184,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Output generation basics](./user-guide/generate-output.md)
       - [Introduction to output presets](./user-guide/generate-output-understand-presets.md)
       - Output presets in AEM Guides {#output-presets-aemg}      
-        - [AEM Sites](./user-guide/generate-output-aem-site.md)
+        - AEM Sites {#aem-sites}  
         - [AEM Sites presets in the map console](./user-guide/generate-output-aem-site-web-editor.md)
         - [AEM Sites presets on the map dashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
         - [PDF](./user-guide/generate-output-pdf.md)
@@ -198,19 +198,19 @@ breadcrumb-title: AEM Guides Documentation
       - [Use variables for setting the Destination Path, Site Name, or File Name options](./user-guide/generate-output-use-variables.md)
       - [Pass on the metadata to the output using DITA-OT](./user-guide/pass-metadata-dita-ot.md)
       - [Conditional attribute profiling](./user-guide/generate-output-conditional-attribute-profiling.md)
-      - [Generate output for a DITA map from the map console](./user-guide/generate-output-for-a-dita-map.md)
+      - Generate output {#generate-output} 
+        - [Generate output for a DITA map](./user-guide/generate-output-for-a-dita-map.md)
+        - [Generate Knowledge Base output](./user-guide/web-editor-article-publishing.md)
+        - [Generate Native PDF output](./web-editor/native-pdf-web-editor.md)
+        - Single topic publishing {#single-topic-publishing}
+          - [Publish Content Fragments](./user-guide/publish-content-fragment.md)
+          - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
+          - [Publish AEM Sites pages](./user-guide/publish-aem-sites.md)
+          - [Incremental output generation](./user-guide/generate-output-aem-site.md)
       - [Use Map Collection for output generation](./user-guide/generate-output-use-map-collection-output-generation.md)
-      - Use native PDF publishing feature {#web-editor}
-        - [Publish PDF output](./web-editor/native-pdf-web-editor.md)
-        - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)
+      - [Manage output generation process](./user-guide/generate-output-manage-process.md)
       - [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
       - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
-      - [Publish Content Fragments](./user-guide/publish-content-fragment.md)
-      - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
-      - [Publish AEM Sites pages](./user-guide/publish-aem-sites.md)
-      - [Publish Knowledge Base Articles](./user-guide/web-editor-article-publishing.md)
-      - [Generate output manage process](./user-guide/generate-output-manage-process.md)
-      
       - Bulk activation of content {#bulk-activation}
         - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
         - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -313,6 +313,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Set the Advanced Map Editor as default](./install-guide/conf-map-editor.md)
       - [Include @navtitle attribute by default](./install-guide/auto-add-navtitle.md)
       - [Configure the option to edit in Oxygen](./cs-install-guide/conf-edit-in-oxygen.md)
+      - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)
     - Work with global and folder-level profiles {#global-folder-profiles}
       - [Configure global or folder-level profiles](./install-guide/conf-folder-level.md)
     - Configure versions {#version-mgt}

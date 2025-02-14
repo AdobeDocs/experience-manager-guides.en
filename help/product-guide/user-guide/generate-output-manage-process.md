@@ -4,7 +4,7 @@ description: Manage the output generation process in AEM Sites, PDF, HTML5, EPUB
 feature: Publishing
 role: User
 ---
-# Manage output generation processes 
+# Manage output generation process
 
 Adobe Experience Manager Guides allows you to perform the following actions on the generated output:
 

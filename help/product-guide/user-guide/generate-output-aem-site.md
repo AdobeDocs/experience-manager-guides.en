@@ -1,47 +1,80 @@
 ---
-title: AEM Sites
-description: Create and configure AEM site preset in AEM Guides. Use AEM site support to generate article-based output, output linking topics, publish conref, and search a string within the content.
+title: Incremental output generation
+description: Learn how incremental output generation for AEM Sites works in AEM Guides. 
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
 ---
-# AEM Sites {#id205BE3008SW}
 
-You can create the AEM Sites preset in two ways:
+# Incremental output generation
 
-- [From the Map console](#from-the-map-console)
-- [From the Map dashboard](#from-the-map-dashboard) 
+>[!NOTE]
+>
+> Incremental output generation is applicable only for AEM Sites output. Also, you can only regenerate DITA \(.dita/.xml\) topics from a DITA map or sub-maps. If you select a DITA map, sub-map, topic group, or a topic with `@processing-role="resource-only"`, then the regenerate option is not available.
 
-## From the Map console
+There could be a number of instances where you would update only a few topics in your DITA map and push only those updated topics live. To handle such scenarios, Experience Manager Guides allows you to create incremental outputs. If you have updated a few topics, you do not need to regenerate the entire DITA map. You can select only the updated topics and regenerate them.
 
-Perform the following steps to create the AEM Sites presets from the Map console:
+If your map is chunked and you have updated a single topic in that map, then you need to regenerate the entire map for the updated topic or content to reflect in the output. You will not get the output regeneration option at a topic level, it is only available at the \(chunked\) map level. This is applicable to the parent map and all sub-maps.
 
-1. [Open the DITA map file in map console](./open-files-map-console.md). 
-1. In the **Output presets** panel, select the + icon to create an output preset.
-1. Select **AEM Sites** from the **Type** drop-down in the **New output preset** dialog box.
+Perform the following steps to regenerate output for a specific topic or a group of topics:
 
-    >![NOTE]
+>[!IMPORTANT]
+>
+> When you are regenerating the AEM Sites output, then the output is created using the current version of the files and not the attached Baseline.
+
+## Generate incremental output from Map console
+
+Perform the following steps to generate incremental output for AEM Sites using Map console:
+
+1. [Open the DITA map file in Map console](./open-files-map-console.md).
+1. Select the AEM Sites preset for which you want to generate incremental output.
+1. In the **Topics** tab, select the topics that you want to publish. 
+
+    ![aem sites topic list](images/aem-presets-topic-list.png) {width="800" align="left"}
+
+    >[!NOTE] 
     >
-    > You can also access the map file from the **Recent files** widget in the [Overview section](./intro-home-page.md#overview). The selected map file would open in Map console. 
-1. Select **Add**.   
+    > When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline.<br><br>
+    > The incremental publishing from the Topics list should be used only when there is no change to the structure of the map. If there is a change in the map structure/TOC, then the entire map should be published once to update the TOC.
+1. Select **Save** to save the changes.
+1. Select **Generate output** to generate the output.
 
-    The preset for AEM Sites is created.
 
-For more details on AEM Sites preset creation and configuration, view [AEM Sites Presets in the Map console](generate-output-aem-site-web-editor.md).
+## Generate incremental output from Map dashboard
 
-## From the Map dashboard
+Perform the following steps to generate incremental output for AEM Sites using Map dashboard:
 
-Perform the following steps to configure the AEM Sites presets from the Map dashboard:
+1.  In the Assets UI, navigate to and select the DITA map file.
 
-1. In the Assets UI, navigate to and select the DITA map to open it in map dashboard.
-1. Ensure that the **Output Presets** tab is selected.
-1. Select **Create** in the toolbar.
+    The DITA map console appears with the list of Output Presets available to generate output.
 
-    ![](images/create-new-preset-map-dashboard.png){width="300" align="left"}
+1.  Select the **Topics** tab.
 
-    A new output preset creation form is displayed.
+    A list of topics available in the DITA map is displayed.
 
-1.  Select **AEM Sites** in the Output Type field, enter the other required details.
-1.  Select **Done** to save the preset settings.
+1.  Select the topics that you want to regenerate.
 
-For more details on AEM Sites preset creation and configuration, view [AEM Sites Presets on the map dashboard](generate-output-aem-site-map-dashboard.md).
+    >[!NOTE]
+    >
+    > If you have added new topics to the DITA map, you will not be able to generate those new topics from here. You must first publish the newly added topics by using the DITA map publish function.
+
+    ![](images/regenerate-topics.png){width="800" align="left"}
+
+1.  Select **Regenerate**.
+
+    The **Regenerate Selected Topics** page appears.
+
+1.  Select the output preset that you want to use to regenerate the selected topics.
+
+1.  Select **Regenerate** to start the output generation process.
+
+
+>[!IMPORTANT]
+>
+> If you rename a topic title and regenerate the topic, the updated topic title does not reflect in the DITA map table of contents. To update the topic title in the TOC, you must generate the entire DITA map.
+
+You can view the current status of the output generation request in the **Outputs** tab. For more information, view [View the status of the output generation task](#view-the-status-of-the-output-generation-task).
+
+
+
+**Parent topic:** [Understanding the output presets](generate-output-understand-presets.md)
