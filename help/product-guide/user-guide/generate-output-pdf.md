@@ -9,12 +9,12 @@ role: User
 
 You can create the PDF preset in two ways:
 
-- [Create PDF output preset from the Map console](#create-pdf-output-preset-from-the-map-console)
-- [Create PDF output preset from the Map dashboard](#create-pdf-output-preset-from-the-map-dashboard) 
+- [Create the PDF preset from the Map console](#create-the-pdf-preset-from-the-map-console)
+- [Create the PDF preset from the Map dashboard](#create-the-pdf-preset-from-the-map-dashboard) 
 
-## Create PDF output preset from the Map console
+## Create the PDF preset from the Map console
 
-Perform the following steps to create the PDF preset from the map console:
+Perform the following steps to create the PDF preset from the Map console:
 
 1. [Open a DITA map file in the Map console](./open-files-map-console.md). 
 
@@ -33,7 +33,7 @@ Perform the following steps to create the PDF preset from the map console:
 
     ![](./images/pdf-preset-map-console.png){width="350" align="left"}
 
-For the PDF output using DITA-OT, the preset configurations are organized under the **General** and **Advanced** tabs in Map console. 
+For the PDF output using DITA-OT, the preset configuration options are organized under the **General** and **Advanced** tabs in Map console. 
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ For the PDF output using DITA-OT, the preset configurations are organized under 
 
 **General**
 
-The **General** tab contains the following configurations:
+The **General** tab contains the following configuration options:
 
 - Output path
 - DITA-OT command line arguments
@@ -54,16 +54,16 @@ The **General** tab contains the following configurations:
 
 **Advanced**
 
-The **Advanced** tab contains the following configurations:
+The **Advanced** tab contains the following configuration options:
 
 -   Enable versioning
 -   Retain temporary files
 -   File properties
 
-For details on preset configuration options, refer to the [Custom preset configurations](#custom-preset-configurations) section.
+For details on preset configuration options, refer to the [Custom preset configuration](#custom-preset-configuration) section.
 
 
-## Create PDF output preset from the Map dashboard
+## Create the PDF preset from the Map dashboard
 
 Perform the following steps to create the PDF preset from the map dashboard:
 
@@ -76,7 +76,7 @@ Perform the following steps to create the PDF preset from the map dashboard:
 1.  Enter the required configuration details for the PDF preset. 
 1.  Select **Done** to save the preset settings.
 
-## Custom preset configurations
+## PDF preset configuration
 
 Configuration options vary slightly depending on whether you are configuring the preset from the Map console or the Map dashboard. Some options apply only to the Map dashboard, while others apply to both.
 
@@ -89,15 +89,15 @@ For example, **Output path/Destination Path** - Here, **Output path** is the lab
 | Output Type (*Applicable for Map dashboard only*) | The type of output you want to generate. To generate PDF output, choose the PDF option. |
 | Setting Name (*Applicable for Map dashboard only*) | Give a descriptive name for the PDF output settings you are creating. For example, you can specify _Internal customers output_ or _end-users output_. |
 | Generate PDF Using (*Applicable for Map dashboard only*)| Select **DITA-OT** to generate the PDF output. Select **FrameMaker Publishing Server** if your administrator has configured this option. Some of the configuration options vary when FMPS is selected. |
-| Output path/Destination Path | The path within your AEM repository where the PDF is stored.<br><br>You can also use variables while setting the Destination Path. For more details about using variables, see [Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md#id18BUG70K05Z). |
-| DITA-OT Command Line Arguments | Specify the additional arguments that you want DITA-OT to process while generating output. For details about the command-line arguments supported in DITA-OT, see [DITA-OT documentation](https://www.dita-ot.org/). |
-| Transformation name | Specify the type of output you want to generate. This is required if you want to generate output using your own custom plug-in, which is integrated in the DITA-OT plug-in. For example, if you want to generate XHTML output, specify `xhtml`. For a list of transformations available in DITA-OT, see [DITA-OT transformations (output formats)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) in OASIS DITA-OT User Guide. |
-| PDF file name/File Name | Specify the file name with which you want to save the PDF.<br><br>You can also use variables while setting the PDF File Name. For more details about using variables, see [Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md#id18BUG70K05Z).<br><br>**Note**: If you do not provide a file name, then the DITA map's title is used to generate the final PDF's file name. If the map does not have a title, then the DITA map's file name is used to name is the final PDF. The file name is sanitized using the rules configured in the system to handle any invalid character. |
-| Conditional filtering/Apply Conditions using | Select one of the following options:<br><br>* **None applied**: Select this option if you do not want to apply any condition on the published output.<br>* **DITAVal file**: Select DITAVal file(s) to generate personalized content. You can select multiple DITAVal files using the browse dialog or by typing file path. Use the cross icon near the file name to remove it. DITAVal files are evaluated in the order specified, so the conditions specified in the first file take precedence over the matching conditions specified in later files. You can maintain the file order by adding or deleting files. If the DITAVal file is moved to some other location or is deleted, it is not automatically deleted from the map dashboard. You need to update the location in case files are moved or deleted. You can hover over the file name to see the path in the AEM repository where the file is stored. You can only select DITAVal files and an error is displayed if you have selected any other file type. FrameMaker Publishing Server doesn't support multiple DITAVAL files.<br>* **Condition preset**: Select a condition preset from the drop-down to apply a condition while publishing the output. The option is visible if you have added a condition present in the Condition Presets tab of the DITA map console. To know more about condition preset, see [Use condition presets](generate-output-use-condition-presets.md#id1825FL004PN). |
-| Run Post Generation Workflow | When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.<br><br>**Note**: For more information about creating a custom post-output generation workflow, see Customize post-output generation workflow in Install and configure Adobe Experience Manager Guides as a Cloud Service. |
-| Use Baseline | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.<br><br>See [Work with Baseline](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) for more detail. |
+| Output path/Destination Path | The path within your AEM repository where the PDF is stored.<br><br>You can also use variables while setting the Destination Path. For more details about using variables, view [Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md#id18BUG70K05Z). |
+| DITA-OT Command Line Arguments | Specify the additional arguments that you want DITA-OT to process while generating output. For details about the command-line arguments supported in DITA-OT, view [DITA-OT documentation](https://www.dita-ot.org/). |
+| Transformation name | Specify the type of output you want to generate. This is required if you want to generate output using your own custom plug-in, which is integrated in the DITA-OT plug-in. For example, if you want to generate XHTML output, specify `xhtml`. For a list of transformations available in DITA-OT, view [DITA-OT transformations (output formats)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) in OASIS DITA-OT User Guide. |
+| PDF file name/File Name | Specify the file name with which you want to save the PDF.<br><br>You can also use variables while setting the PDF File Name. For more details about using variables, view [Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md#id18BUG70K05Z).<br><br>**Note**: If you do not provide a file name, then the DITA map's title is used to generate the final PDF's file name. If the map does not have a title, then the DITA map's file name is used to name is the final PDF. The file name is sanitized using the rules configured in the system to handle any invalid character. |
+| Conditional filtering/Apply Conditions using | Select one of the following options:<br><br>* **None applied**: Select this option if you do not want to apply any condition on the published output.<br>* **DITAVal file**: Select DITAVal file(s) to generate personalized content. You can select multiple DITAVal files using the browse dialog or by typing file path. Use the cross icon near the file name to remove it. DITAVal files are evaluated in the order specified, so the conditions specified in the first file take precedence over the matching conditions specified in later files. You can maintain the file order by adding or deleting files. If the DITAVal file is moved to some other location or is deleted, it is not automatically deleted from the map dashboard. You need to update the location in case files are moved or deleted. You can hover over the file name to view the path in the AEM repository where the file is stored. You can only select DITAVal files and an error is displayed if you have selected any other file type. FrameMaker Publishing Server doesn't support multiple DITAVAL files.<br>* **Condition preset**: Select a condition preset from the drop-down to apply a condition while publishing the output. The option is visible if you have added a condition present in the Condition Presets tab of the DITA map console. To know more about condition preset, view [Use condition presets](generate-output-use-condition-presets.md#id1825FL004PN). |
+| Run Post Generation Workflow | When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow.<br><br>**Note**: For more information about creating a custom post-output generation workflow, view Customize post-output generation workflow in Install and configure Adobe Experience Manager Guides as a Cloud Service. |
+| Use Baseline | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.<br><br>View [Work with Baseline](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) for more detail. |
 | Retain temporary files | Select this option to retain the temporary files generated by DITA-OT. If you are experiencing errors while generating output through DITA-OT, select this option to retain the temporary files. You can then use those files to troubleshoot output generation errors.<br> <br>  After generating the output, select the **Download temporary files** ![download temporary files icon](images/download-temp-files-icon.png) icon to download the ZIP folder containing the temporary files. <br><br> **Note**:  If file properties are added during generation, the output temporary files also include a *metadata.xml* file containing those properties.| 
-| File properties | Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties you select from the dropdown list appear under the **File Properties** field. Select the cross icon next to the property to remove it. <br><br>Note: You can also pass on the metadata to the output using DITA-OT publishing. For more details see, [Pass on the metadata to the output using DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| File properties | Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties you select from the dropdown list appear under the **File Properties** field. Select the cross icon next to the property to remove it. <br><br>Note: You can also pass on the metadata to the output using DITA-OT publishing. For more details view, [Pass on the metadata to the output using DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 
 **Parent topic:**[Understanding the output presets](generate-output-understand-presets.md)

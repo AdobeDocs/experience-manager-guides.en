@@ -7,7 +7,7 @@ role: User
 ---
 # JSON {#id231KK0180T4}
 
-You can create the JSON preset from the Map console using the following steps:
+Perform the following steps to create the JSON preset from the Map console:
 
 1. [Open a DITA map file in the Map console](./open-files-map-console.md). 
 
@@ -15,9 +15,9 @@ You can create the JSON preset from the Map console using the following steps:
 1. In the **Output presets** tab, select the + icon to create an output preset. 
 1. Select **JSON** from the Type dropdown in the **New output preset** dialog box. 
 1. In the **Name** field, provide a name to this preset.
-1. Select the **Add to current folder profile** option to create an output preset for the current folder profile. ![folder profile icon](images/global-preset-icon.svg) icon indicates a folder profile level preset.  
+1. Select the **Add to current folder profile** option to create an output preset within the current folder profile. The ![folder profile icon](images/global-preset-icon.svg) indicates a folder-profile-level preset.  
 
-   Learn more about [Manage Global and Folder Profile output presets](./web-editor-manage-output-presets.md).
+   Learn more about [Manage Global and Folder profile output presets](./web-editor-manage-output-presets.md).
 
  1. Select **Add**.   
 

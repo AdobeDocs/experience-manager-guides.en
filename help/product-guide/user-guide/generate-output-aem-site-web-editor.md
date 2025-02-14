@@ -1,6 +1,6 @@
 ---
 title: AEM Sites
-description: Create and configure the AEM Sites preset in the Map cosole and generate AEM Sites output for DITA map, selected topics, and linked topics.
+description: Create and configure the AEM Sites preset in the Map cosole using the composite component mapping and legacy component mapping.
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
@@ -86,7 +86,7 @@ In the Map console, the preset configuration options for composite component map
 
 **General**
 
-In the **General** tab, the following options are available for the AEM Sites output:
+The **General** tab contains the following configuration options:
 
 | AEM Sites options | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ In the **General** tab, the following options are available for the AEM Sites ou
 
 **Content**
 
-In the **Content** tab, the following options are available for the AEM Sites output:
+The **Content** tab contains the following configuration options:
 
 | AEM Sites options | Description |
 | --- | --- |
@@ -151,7 +151,7 @@ In the Map console, the preset configuration options for legacy component mappin
 
 **General**
 
-In the **General** tab, the following options are available for the AEM Sites output:
+The **General** tab contains the following configuration options:
 
 | AEM Sites options | Description |
 | --- | --- |
@@ -165,7 +165,7 @@ In the **General** tab, the following options are available for the AEM Sites ou
 
 **Content**
 
-In the **Content** tab, the following options are available for the AEM Sites output:
+The **Content** tab contains the following configuration options:
 
 | AEM Sites options | Description |
 | --- | --- |

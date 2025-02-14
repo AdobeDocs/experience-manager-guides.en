@@ -7,7 +7,7 @@ exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
 ---
 # Knowledge Base {#knowledge-base}
 
-Perform the following steps to create the **Knowledge Base** preset from the Map consoles:
+Perform the following steps to create the **Knowledge Base** preset from the Map console:
 
 1. [Open a DITA map file in the Map console](./open-files-map-console.md). 
 
@@ -29,7 +29,7 @@ Perform the following steps to create the **Knowledge Base** preset from the Map
 ## Knowledge Base configuration{#knowledge-base-configuration}
 
 
-The Knowledge Base preset configurations are organized under the **General**, **Articles**, and the selected target (**AEM**/ **ServiceNOW**/ **Salesforce**) tabs. 
+The Knowledge Base preset configuration options are organized under the **General**, **Articles**, and the selected target (**AEM**/ **ServiceNOW**/ **Salesforce**) tabs. 
 
 ![](./images/kb-aem-preset.png){width="550" align="left"}
 
