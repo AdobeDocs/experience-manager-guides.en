@@ -62,11 +62,11 @@ Perform the following steps to view the DITA Map Report:
 
     - **Cross Reference**: Path of the cross-referenced content is shown along with its UUID. If you select the title of the referred content, the corresponding topic is opened in Preview mode. Broken cross-references are listed in red color.
 
-    - **Review**: Shows the status of the review task of the topic. You can see the status \(open or close\), due date, and assignee for the topic under review. If you select the topic link, it opens the topic in review mode.
+    - **Review**: Shows the status of the review task of the topic. You can view the status \(open or close\), due date, and assignee for the topic under review. If you select the topic link, it opens the topic in review mode.
 
     - **Used In**: Shows a list of other topics or maps where the topic is used. The UUID of all such topics and maps is also listed.
 
-Besides the report for each individual topic, administrators also have access to information such as publishing history of a DITA map. For more information about the history of generated outputs, see [View the status of the output generation task](generate-output-for-a-dita-map.md#viewing_output_history).
+Besides the report for each individual topic, administrators also have access to information such as publishing history of a DITA map. For more information about the history of generated outputs, refer to [View the status of the output generation task](generate-output-for-a-dita-map.md#viewing_output_history) section.
 
 ## Generate the CSV of DITA map report 
 

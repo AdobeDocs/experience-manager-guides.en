@@ -7,7 +7,7 @@ role: User
 ---
 # Content Reuse Report {#id205BB900OQD}
 
-Another useful report that you can generate is the Content Reuse Report. This report calculates the average content usage percentage, which is very useful for project managers and business owners to see the amount of content that is being reused.
+Another useful report that you can generate is the Content Reuse Report. This report calculates the average content usage percentage, which is very useful for project managers and business owners to view the amount of content that is being reused.
 
 >[!TIP]
 >

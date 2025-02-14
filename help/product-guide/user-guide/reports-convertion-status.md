@@ -25,7 +25,7 @@ Perform the following steps to view the Conversion Status Report:
 
     -   **Filter:**
 
-        You can filter the report data on the basis of File Type and conversion Status. In the File Type, you can choose to see the report data for Word document, structured HTML, XML, DocBook and IDML type of documents. In the Status, you can choose to see the report data for tasks that have executed Successfully, Failed, Active, or Queued.
+        You can filter the report data on the basis of File Type and conversion Status. In the File Type, you can choose to view the report data for Word document, structured HTML, XML, DocBook and IDML type of documents. In the Status, you can choose to view the report data for tasks that have executed Successfully, Failed, Active, or Queued.
 
         The following screenshot displays the report data for conversion tasks that has Success status.
 
