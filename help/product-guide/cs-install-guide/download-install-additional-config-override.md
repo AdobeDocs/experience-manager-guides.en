@@ -55,4 +55,6 @@ Perform the following steps to configure Experience Manager Guides UI:
 
     ![](assets/enable-penultimate-ui.png){width="800" align="left"}
 
+    Setting the value to **true** activates the new UI, while **false** reverts to the previous UI.
+
 **Parent topic:**[Download and install](download-install.md)
