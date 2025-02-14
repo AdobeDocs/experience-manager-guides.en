@@ -13,7 +13,7 @@ AI Assistant in Adobe Experience Manager Guides is built ensuring privacy and se
 
 ## Is the content I provide to AI Assistant shared with others?
 
-No, the content and prompts you provide to AI Assistant are not shared with other customers. AI Assistant processes your inputs only to generate responses within your workspace and does not use them to train models for others. For more details, view [Adobe Generative AI user guidelines](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
+No, the content and prompts you provide to AI Assistant are not shared with other customers. AI Assistant processes your inputs only to generate responses within your workspace and does not use them to train models for others. For more details, view [Adobe Generative AI user guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 ## Can I give feedback on the AI Assistant's responses? 
 

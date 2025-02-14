@@ -42,7 +42,7 @@ Perform the following steps to launch AI Assistant:
 
 [AI Assistant security FAQ](./ai-assistant-faq.md)
 
-[Adobe Generative AI disclosures](./adobe-generative-ai-disclosures.md)
+[Adobe Experience Manager Guides Generative AI disclosures](./adobe-generative-ai-disclosures.md)
 
 [Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-smart-suggestions.md)
 
