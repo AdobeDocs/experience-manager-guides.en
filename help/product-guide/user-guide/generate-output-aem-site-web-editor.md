@@ -7,7 +7,7 @@ exl-id: f3657268-9dee-43af-b643-499dbc3ca948
 ---
 # AEM Sites preset in the Map console
 
-You can create AEM Sites preset from the Map console and configure them to generate the AEM Sites output. There are to ways to create  the AEM Sites output:
+You can create AEM Sites preset from the Map console and configure them to generate the AEM Sites output. There are two ways to create  the AEM Sites output:
 
 - [Use composite component mapping](#use-composite-component-mapping) 
 - [Use legacy component mapping](#use-legacy-component-mapping)
@@ -65,6 +65,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
    The **Topic page template** is automatically set as `Topic Page`. However, you can choose to select other available options in the dropdown.
 
 --->
+
 ### AEM Sites preset configuration for composite component mapping
 
 >[!NOTE]
@@ -122,6 +123,18 @@ The **Topic list** tab displays the list of topics present in the current workin
 > When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline.<br><br>
 > The incremental publishing from the Topics list should be used only when there is no change to the structure of the map. If there is a change in the map structure/TOC, then the entire map should be published once to update the TOC.
 
+**Cross map references**
+
+This list contains topics containing cross-map references with `scope =”peer”`. You can specify the publishing context for a list of cross map references with `scope=”peer”` to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version. 
+
+For more details, refer to the [Working with linked topics](#working-with-linked-topics) section below.
+
+Once configured, save the changes done to the preset, and select **Generate** to generate AEM Sites for the corresponding map. 
+
+>[!NOTE]
+>
+> If you are publishing content to AEM sites for the first time, it is recommended to publish the pages at the site level. This ensures the output is displayed correctly on the **Publish** instance without any CSS disruption.
+
 ## Use legacy component mapping
 
 The steps to create the AEM Sites preset using legacy component mapping are the same as those outlined in [Composite component mapping](#use-composite-component-mapping) section above. However, while creating the preset, ensure that you select the **Use legacy component mapping** option in the **New output preset** dialog.
@@ -145,7 +158,7 @@ In the **General** tab, the following options are available for the AEM Sites ou
 | Site Name | A site name where the output is stored in your AEM repository.<br><br>A node in the AEM repository is created with the name specified here. If you do not specify the Site Name, then the site node is created with the DITA map file name.<br><br>The Site Name you specify here is also used as the title in the browser tab.<br><br>You can also use variables while setting the Site Name. |
 | Output path | The path within your AEM repository where the output is stored. While generating the final output, the Site name and Output path are combined. For example, if you specify the Site name as `user-guide` and the Output Path as `/content/output/aem-guides`, then the final output is generated under the `/content/output/aem-guides/user-guide` node.<br><br>You can also use variables while setting the output path. |
 | Existing output pages | Select the **Overwrite Content** option to overwrite content in the existing pages. This option only overwrites content present under the content and head nodes of the page. This option enables blended publishing of content. Selecting this option provides an option to select deleting orphan pages from the published output. This is also the *default* option for creating the AEM Sites output.<br><br>Select the **Delete and Create** option to force delete any existing pages during publishing. This option deletes the page node along with its content and all child pages under it. Use this option if you have changed the design template of your output preset or if you want any extra pages already present in the destination to be removed. |
-|Delete previously generated pages for topics removed from the map| If the structure of the DTIA map changes, you can use this option to remove the previously generated pages for the removed topics. This feature is available only for full map publishing.<br><br>Let's say you have published a DITA map, which contains topics a.dita, b.dita, and c.dita. Before publishing the map again, you removed b.dita topic from the map. Now, if you have selected this option, then all content related to b.dita is removed from the AEM Sites output and only a.dita and c.dita are published.<br><br>**Note**: Information about deleted pages is also captured in the output generation logs. For more information about accessing the log files, [View and check the log file](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Caution**: On deleting the topics, the pages become unavailable from the published site. So, before the topics are deleted, a warning appears. You must confirm to delete them. 
+|Delete previously generated pages for topics removed from the map| If the structure of the DTIA map changes, you can use this option to remove the previously generated pages for the removed topics. This feature is available only for full map publishing.<br><br>Let's say you have published a DITA map, which contains topics a.dita, b.dita, and c.dita. Before publishing the map again, you removed b.dita topic from the map. Now, if you have selected this option, then all content related to b.dita is removed from the AEM Sites output and only a.dita and c.dita are published.<br><br>**Note**: Information about deleted pages is also captured in the output generation logs. For more information about accessing the log files, [View and check the log file](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Caution**: On deleting the topics, the pages become unavailable from the published site. So, before the topics are deleted, a warning appears. You must confirm to delete them.|
 | Design | Select the design template that you want to use to generate the output.<br><br>For details about how to use custom design templates to generate output, contact your publishing administrator. |
 | Post Generation Workflow | When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow. |
 | Retain temporary files | Select this option to retain the temporary files generated by DITA-OT. If you are experiencing errors while generating output through DITA-OT, select this option to retain the temporary files. You can then use those files to troubleshoot output generation errors.<br> <br>  After generating the output, select the **Download temporary files** ![download temporary files icon](images/download-temp-files-icon.svg) icon to download the ZIP folder containing the temporary files. <br><br> **Note**: If file properties are added during generation, the output temporary files also include a *metadata.xml* file containing those properties. | 
@@ -165,19 +178,18 @@ In the **Content** tab, the following options are available for the AEM Sites ou
 
 This list contains topics containing cross-map references with `scope =”peer”`. You can specify the publishing context for a list of cross map references with `scope=”peer”` to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version. 
 
-For more details, refer to the [Publish linked topics](#publish-linked-topics) section below.
+For more details, refer to the [Working with linked topics](#working-with-linked-topics) section below.
 
-## Publish linked topics
+## Working with linked topics
 
-Experience Manager Guides simplifies the publishing of complex documents by allowing you to create topic references using the `peer @scope`. You can then define the publishing context of these references from the AEM Sites presets and finally generate the output of the linked topics. 
+Experience Manager Guides allows you to create topic references using the `peer @scope`. You can then define the publishing context of these references from the AEM Sites presets and finally generate the output of the linked topics. 
+
 For more details, view [Generate output of linking topics from other maps](../user-guide/generate-output-aem-site.md#generate-output-linking-topics-from-other-maps).
 
 
 Perform the following steps to specify the publishing context for cross-linked files:
-1. Open the **Output Presets** tab of the DITA map you want to publish.
-1. Select the **AEM Sites** output preset.
 
-    You can view the **General**, **Content**, **Topic list**, and **Cross map references** tabs. **Cross map references** tab appears if you use the Experience Manager Guides (UUID) version. 
+1. Open the **Cross map references** tab. To view this tab,  ensure that the `<xrefs>` have unique IDs. Unique IDs for `<xrefs>` will be automatically generated on editing/saving the older content if the ID isn't there.
 
     You'll not be able to view the cross-map linking in the following cases:
     - For the presets created before the 4.6 release, the Cross references tab is disabled and a tool tip, **Refer to Map dashboard**, appears.
@@ -186,11 +198,7 @@ Perform the following steps to specify the publishing context for cross-linked f
     - For global presets, create a local copy of this global preset to set cross map references.
 
 
-1. Open the **Cross map references** tab. 
-
-    You are shown a list of topics and their references. You can specify the publishing context for a list of cross map references to topics available in other DITA maps with  `scope=”peer”`. 
-
-    To use the cross-map reference panel from Editor, `<xrefs>` must have unique IDs. Unique IDs for `<xrefs>` will be automatically generated on editing/saving the older content if the ID isn't there.
+1. A list of topics and their references is displayed
 
     >[!NOTE]
     >
@@ -198,7 +206,7 @@ Perform the following steps to specify the publishing context for cross-linked f
 
     All linked topics have their latest output preset and map selected by default. The publishing context for all the linked topics is set to `<Most recently generated>` map by default.
  
-    ![Cross map references](images/aem-sites-cross-map-references.png)
+    ![Cross map references](images/aem-sites-preset-cross-map-references.png)
 
 1. If you want to use the most recently published output of each dependent file in the map, select **Use most recently generated** publish context for all dependent topics.
 You should publish the map selected as the parent map before publishing the map containing linked topics. If the map with linked topics isn't published, the links appear as normal text instead of hyperlinks in the AEM Sites output.
@@ -213,15 +221,6 @@ Selecting a map file shows the map’s UUID in the Parent Map UUID column. The O
     >
     > The different AEM Sites presets of the current map appear in the dropdown list. If you don’t select a preset, a warning icon appears, and the output generation, fails.
 1. Select the required map and its output preset for all source topics and select **Generate**.
-
-## Additional notes for publishing
-
-Once configured, save the changes done to the preset, and select **Generate** to generate AEM Sites for the corresponding map. 
-
->[!NOTE]
->
-> If you are publishing content to AEM sites for the first time, it is recommended to publish the pages at the site level. This ensures the output is displayed correctly on the **Publish** instance without any CSS disruption.
-
 
 
 
