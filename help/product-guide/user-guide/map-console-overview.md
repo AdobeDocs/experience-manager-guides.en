@@ -11,16 +11,15 @@ Adobe Experience Manager Guides offers a dedicated console, known as the **Map c
 
 ![file properties options tab](./images/map-console-screen.png){width="800" align="left"}
 
-The Map console interface is primarily divided into two sections - **Left panel** and **Navigation bar**.
+The Map console interface is primarily divided into two sections - **Navigation bar** and **Left panel**.
 
 ![New](images/map-console-sections.png){width="800" align="left"}
 
-- (**A**) **Navigation bar**: The navigation bar surfaces tools to switch navigation, adjust the page view, and displays the name of the selected map file and feature panel.  
+- (**A**) **Navigation bar**: The navigation bar surfaces tools to switch navigation, adjust the page view, and displays the name of the selected map file.   
 
     Features available in the navigation bar are explained as follows: 
 
     - **Navigation switcher**: Allows seamless navigation to other pages - Editor or Home page: 
-    - **Selected feature name**: Displays the name of the selected feature panel. For example, selecting Output presets in the left panel opens the **Output preset** panel on the right with its name shown in the navigation bar. 
     - **Selected map file**: Displays the name of the currently selected map file. You can open it in the Editor or choose a different map file for the Map console.
     - **More actions**: Provides options to navigate to the **Assets UI** and **Settings**. For details, refer to the **More actions** section of the [Know the Editor features](./web-editor-features.md#tab-bar) document.
     - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
@@ -49,13 +48,13 @@ In an organizational setup, you want to verify the overall completeness of your 
 
 For more details, view [Reports in Experience Manager Guides](./reports-intro.md).
 
-**Using Baseline**
+**Baseline**
 
 Experience Manager Guides provides the Baseline feature that allows you to create a version of your topics and assets that can then be used for publishing or translation. You can also publish multiple output presets of the same DITA map in parallel. 
 
 Learn how to [create and manage Baselines in Experience Manager Guides](./web-editor-baseline.md).
 
-**Using Condition presets** 
+**Condition presets** 
 
 Experience Manager Guides allows you to define attributes in your DITA topics and the use the condition preset to specify what happens with the attribute in the final output. For example, you can add attributes as version 1.0 and version 2.0 in your content, and use a condition preset to include version 1.0 for release 1.0 and exclude version 2.0. Similarly, you can add attributes as OS Windows and OS Linux to your content, and then include or exclude the relevant content for your final output according to the operating system.
 
