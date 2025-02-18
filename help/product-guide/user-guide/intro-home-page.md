@@ -38,8 +38,8 @@ Features available in the navigation bar are explained as follows:
   - **Home**: The default page that you view when logging into Experience Manager Guides.
   - **Editor**: An easy-to-use web-based Editor that allows you to create and manage structured documents in Experience Manager Guides. [Get to know the Editor interface.](./web-editor.md) 
   - **Map console**: Provides you a dedicated workspace to handle all aspects of map management and publishing.   
-- **AI Assistant**: [AI-powered Smart Help](./ai-based-smart-help.md) feature that helps you find relevant content from the Adobe Experience Manager Guides Documentation. Additionally, when working in the Editor interface, you can leverage the smart authoring capabilities of AI Assistant that help simplifies document handling through intelligent suggestions and optimization. 
-The AI Assistant feature is currently available for Adobe Experience Manager as Cloud Service.  
+- **AI Assistant**: [AI-powered smart Help](./ai-based-smart-help.md) feature that helps you find relevant content from the Adobe Experience Manager Guides Documentation. Additionally, when working in the Editor interface, you can leverage the smart authoring capabilities of AI Assistant that help simplifies document handling through intelligent suggestions and optimization. 
+The AI Assistant feature is currently only available for Adobe Experience Manager as Cloud Service.  
 - **Customize overview section**: Allows you to hide or show the widgets in the Widgets section. 
 - **Folder profile in use**: Displays the folder profile that is currently being used.  
 - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
@@ -48,7 +48,7 @@ The AI Assistant feature is currently available for Adobe Experience Manager as 
 
 The left panel gives you quick access to Overview, Map collections, Bulk publish, Publish queue, and User preferences features. You can expand the panel by selecting the **Expand** icon placed at the bottom-left corner of the interface. Once expanded, use the **Collapse** icon to collapse the panel.
 
-![](images/aem-home-left-panel.png){width="800" align="left"}
+![](images/aem-home-left-panel.png){width="300" align="left"}
 
 What you view on this panel depends on your user role. The following table lists the roles and the respective sections that are displayed in the left panel.
 

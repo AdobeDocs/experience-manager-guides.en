@@ -12,9 +12,7 @@ Significantly improve authoring productivity through single-sourcing of modular 
 
 The built-in web-based editor helps you easily author and effectively manage DITA topics, maps, and DITAVAL files. The built-in editor has a simple and intuitive word-processing interface, which provides an easy entry for subject matter experts, casual contributors, and reviewers who might not be trained to use DITA. With the intelligent Insert Element functionality, you don't have to worry about placing an element at the correct location. An element is always inserted at the next available valid location.
 
-You can also check-out and check-in files from the new options made available in AEM toolbar and web editor.
-
-If your organization uses a specialized form of DITA, the web editor can be customized to create and edit specialized DITA documents. For more details about using DITA specialization, see *Use custom DITA-OT and DITA specialization* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+If your organization uses a specialized form of DITA, the Editor can be customized to create and edit specialized DITA documents. For more details about using DITA specialization, view *Use custom DITA-OT and DITA specialization* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 Currently, the built-in editor supports the following DITA standards:
 
@@ -54,11 +52,9 @@ Make publishing error-free by easily checking and correcting content before it g
 Drive deeper end-user engagement and content adoption through highly relevant content experiences. With AEM Guides, you can leverage the extensive tag management support in Experience Manager to apply relevant tags on DITA source content. Use these tags to provide highly personalized content experiences to end users.
 
 **GenAI powered smart help and authoring**
+Enhance productivity with AI-powered smart help and content reuse features in Experience Manager Guides. Use the GenAI-based smart help to quickly find relevant content from the Experience Manager Guides documentation. Use smart suggestions to reuse the content from the existing content repository or enhance productivity with content enhancement features such as smartly convert a paragraph to a list, create a short description, improve and translate the selected content.
 
-Enhance productivity with AI-powered smart help and content reuse features in Experience Manager Guides. Use the GenAI-based smart help to quickly find relevant content from the Experience Manager Guides documentation. Use smart suggestions to reuse the content from the existing content repository or enhance productivity with one-click content enhancement features such as smartly convert a paragraph to a list, create a short description, improve and translate the selected content.
-
-**Leverage native integration with Adobe Workfront for robust work management capabilities**.
-
+**Leverage native integration with Adobe Workfront for robust work management capabilities**
 Unlock the robust project management capabilities in Experience Manager Guides that allows you to plan, allocate, and track tasks efficiently without relying on multiple, non-integrated tools. Seamlessly manage all Experience Manager Guides workflows, including authoring, reviewing, publishing, and translating content from one interface. Experience streamlined project management and unlock new levels of efficiency and productivity.
 
 **Native integration with Adobe FrameMaker**
