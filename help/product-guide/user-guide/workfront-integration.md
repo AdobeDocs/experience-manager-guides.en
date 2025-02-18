@@ -34,7 +34,7 @@ Perform the following steps to access your Adobe Workfront tasks:
 
    The **Workfront tasks** page is displayed. 
 
-   ![](./images/workfront-sign-in.png){width="300" align="left"}     
+   ![](./images/workfront-sign-in.png){width="800" align="left"}     
 3. Select **Sign In**. 
    
    You are redirected to the Adobe Workfront Sign In page.
@@ -42,7 +42,7 @@ Perform the following steps to access your Adobe Workfront tasks:
 
    You are automatically redirected to the **Workfront tasks** page on Experience Manager Guides.
      
-   ![](./images/workfront-tasks-page.png){width="300" align="left"}  
+   ![](./images/workfront-tasks-page.png){width="800" align="left"}  
    
 ## Features available on the Workfront tasks page
 
@@ -66,7 +66,7 @@ Perform the following steps to create a new Adobe Workfront task:
 
    The **Create task** dialog box is displayed.
 
-   ![](./images/workfront-create-task.png){width="300" align="left"} 
+   ![](./images/workfront-create-task.png){width="650" align="left"} 
 2. In the **General** tab, enter the following task details: 
 
     * **Task type**: Select the task type that you want to create. The available options are: **Authoring**, **Reviewing**, **Publishing**, and **Translation**. 
@@ -77,19 +77,21 @@ Perform the following steps to create a new Adobe Workfront task:
     * **Assignee**: Select an assignee for the task.  
 3.  In the **Assets** tab, select **Add** to add an asset to this task. 
 
-     ![](./images/workfront-create-tasks-asset.png){width="300" align="left"}
+     ![](./images/workfront-create-tasks-asset.png){width="650" align="left"}
     
     * For authoring, publishing, and translation tasks, you are prompted to select the location of the required file in the **Select path** dialog box. The selected file(a topic for authoring and map for publishing and translation) is added to the task as soon as the **Create** button is selected.
 
-        ![](./images/attach-asset.png){width="300" align="left"}
+        ![](./images/attach-asset.png){width="650" align="left"}
     
     * For review tasks, you are first prompted to select Asset type (Map or Topics), and then the selected files are displayed as following:
 
 
-        ![Adding maps to a review task](./images/attach-asset-topics.png){width="300" align="left"}    
+        ![Adding maps to a review task](./images/attach-asset-topics.png){width="650" align="left"}    
+        
         *Caption: Adding topics to a review task* 
 
-        ![Adding maps to a review task](./images/attach-asset-maps.png){width="300" align="left"}    
+        ![Adding maps to a review task](./images/attach-asset-maps.png){width="650" align="left"}    
+        
         *Caption: Adding maps to a review task* 
 
         The following actions are available to modify your selection before sending for review:
@@ -117,7 +119,7 @@ A new task is created and listed under the **Created by you** tab.
 
 All tasks that you have created and are still active are displayed in the **Created by you** tab on the Workfront tasks page, giving you key task details like project name, assignees, task creation date, task completion date, and task status. 
 
-![](./images/workfront-tasks-created-by-you.png){width="300" align="left"}
+![](./images/workfront-tasks-created-by-you.png){width="800" align="left"}
 
 The following options are available when you hover over a task present in the Created by you tab: 
 
@@ -139,7 +141,7 @@ Displays the task information, including details entered during task creation, t
 
 All tasks that are assigned to you and still active are displayed in the **Assigned to you** tab on the Workfront tasks page, giving you key task details like project name, assignees, due date, and task status. 
 
-![](./images/workfront-tasks-assigned-to-you.png){width="300" align="left"}
+![](./images/workfront-tasks-assigned-to-you.png){width="800" align="left"}
 
 The following options are available when you hover over a task present in the Assigned to you tab: 
 
@@ -151,7 +153,7 @@ Allows you to open the task. Depending on the type of the task, it will open in 
 
 Displays the task information, including details entered during task creation, task status, and any added assets. 
 
-![](images/task-details.png){width="300" align="left"}
+![](images/task-details.png){width="800" align="left"}
 
 #### Accessing assigned tasks from Overview section
 
@@ -186,16 +188,18 @@ Perform the following steps to work upon an authoring task:
 
 1. Access the task either from the [Overview](#accessing-assigned-tasks-from-overview-section) section or [Assigned to you](#managing-tasks-assigned-to-you) tab. 
 
-    ![Authoring tasks in the Assigned to you tab](./images/authoring-task-access.png){width="300" align="left"}
+    ![Authoring tasks in the Assigned to you tab](./images/authoring-task-access.png){width="650" align="left"}
+    
     *Caption: Authoring task in the Assigned to you tab*
 
-    ![Authoring tasks in the Your tasks widget](./images/authoring-task-access-your-tasks.png){width="300" align="left"}
+    ![Authoring tasks in the Your tasks widget](./images/authoring-task-access-your-tasks.png){width="650" align="left"}
+    
     *Caption: Authoring task in the Your tasks widget*
 2. Hover over the task you want to work on and select&nbsp; ![](images/Smock_OpenIn_18_N.svg)&nbsp; to open it. You can also open the task by simply selecting the task. 
    All authoring tasks open in the Editor. 
 3. Review the task details in the **Details** tab and select the **Asset** file to open it. 
 
-    ![](./images/authoring-task-review-details-editor.png){width="300" align="left"}
+    ![](./images/authoring-task-review-details-editor.png){width="650" align="left"}
 
 4. Make the required edits and select **Mark as done**. 
 5. Switch to the **Comments** tab to add a comment to this task. These comments, added at task level, will also reflect on the Adobe Workfront project dashboard.  
@@ -212,16 +216,18 @@ Perform the following steps to work upon a review task assigned to you.
 
 1. Access the task either from the [Overview](#accessing-assigned-tasks-from-overview-section) section or [Assigned to you](#managing-tasks-assigned-to-you) tab. 
 
-    ![Review tasks in the Assigned to you tab](./images/review-task-access.png){width="300" align="left"}
+    ![Review tasks in the Assigned to you tab](./images/review-task-access.png){width="650" align="left"}
+    
     *Caption: Review task in the Assigned to you tab*
 
-    ![Review tasks in the Your tasks widget](./images/review-task-access-your-tasks.png){width="300" align="left"}
+    ![Review tasks in the Your tasks widget](./images/review-task-access-your-tasks.png){width="650" align="left"}
+    
     *Caption: Authoring task in the Your tasks widget*
 2. Hover over the task you want to work on and select&nbsp; ![](images/Smock_OpenIn_18_N.svg)&nbsp; to open it. You can also open the task by simply selecting the task. 
 
     For reviewers, the review task opens in the **Review UI**. 
     
-    ![](./images/review-task-access-review-ui.png){width="300" align="left"}
+    ![](./images/review-task-access-review-ui.png){width="650" align="left"}
 
 3. Perform the required review. For details on how to review a topic, view [review topics](./review-topics.md).
 4. Once the review is complete, select **Mark as done**.
@@ -258,19 +264,21 @@ Perform the following steps to work upon a translation task:
 
 1. Access the task either from the [Overview](#accessing-assigned-tasks-from-overview-section) section or [Assigned to you](#managing-tasks-assigned-to-you) tab. 
 
-   ![Translation tasks in the Assigned to you tab](./images/translation-tasks-access.png){width="300" align="left"}
+   ![Translation tasks in the Assigned to you tab](./images/translation-tasks-access.png){width="650" align="left"}
+    
     *Caption: Translation task in the Assigned to you tab*
 
-   ![Translation tasks in the Your tasks widget](./images/translation-tasks-access-your-tasks.png){width="300" align="left"}
+   ![Translation tasks in the Your tasks widget](./images/translation-tasks-access-your-tasks.png){width="650" align="left"}
+    
     *Caption: Translation task in the Your tasks widget* 
 
 2. Hover over the task you want to work on and select&nbsp; ![](images/Smock_OpenIn_18_N.svg)&nbsp; to open it in the **Map console**. You can also open the task by simply selecting the task. 
 3. Review task details and the file added for translation. 
 
-   ![](./images/translation-tasks-review-details.png){width="300" align="left"}
+   ![](./images/translation-tasks-review-details.png){width="650" align="left"}
 4. Navigate to the **Translation** tab for the various translation options. Learn how to [translate content](../user-guide/translation.md) in Experience Manager Guides. 
 5. Perform the required translation and select **Send for translation**. 
-   ![](./images/translation-tasks-send-translation.png){width="300" align="left"} 
+   ![](./images/translation-tasks-send-translation.png){width="650" align="left"} 
 6. Navigate to the **Workfront** section and select **Mark as done** to indicate that the task is complete.  
 7. Switch to the **Comments** tab to add a comment to this task. These comments, added at task level, will reflect on the Adobe Workfront project dashboard.  
 
@@ -286,15 +294,17 @@ Perform the following steps to work upon a publishing task:
 
 1. Access the task either from the [Overview](#accessing-assigned-tasks-from-overview-section) section or [Assigned to you](#managing-tasks-assigned-to-you) tab. 
 
-    ![Publishing tasks in the Assigned to you tab](./images/publishing-tasks-access.png){width="300" align="left"}
+    ![Publishing tasks in the Assigned to you tab](./images/publishing-tasks-access.png){width="650" align="left"}
+    
     *Caption: Publishing task in the Assigned to you tab*
 
-    ![Publishing tasks in the Your tasks widget](./images/publishing-tasks-access-your-tasks.png){width="300" align="left"}
+    ![Publishing tasks in the Your tasks widget](./images/publishing-tasks-access-your-tasks.png){width="650" align="left"}
+    
     *Caption: Publishing task in the Your tasks widget*
 2. Hover over the task you want to work on and select&nbsp; ![](images/Smock_OpenIn_18_N.svg)&nbsp; to open it in the **Map console**. You can also open the task by simply selecting the task.  
 3. Review task details and the file added for publishing.
 
-   ![](./images/publishing-tasks-review-details.png){width="300" align="left"}
+   ![](./images/publishing-tasks-review-details.png){width="650" align="left"}
 4. Navigate to the **Output presets** and perform the publishing actions required to publish the task. For more details, view [understanding the output presets](../user-guide/generate-output-understand-presets.md/). 
 5. Once publishing is complete, navigate to the **Workfront** section and select **Mark as done** to indicate that the task is complete.  
 6. Switch to the **Comments** tab to add a comment to this task. These comments, added at task level, will reflect on the Workfront's project dashboard. 
