@@ -40,7 +40,7 @@ Perform the following steps to create the PDF preset from the Map console:
 
 Once the preset is created, configure the Native PDF preset settings. The preset configuration options for DITA-OT are organized under the **General**, **Metadata**, **Layout**, **Security**, **Print**, and **Advanced** tabs.
 
-<img src="assets/preset-panel.png" alt="preset panel" width=600> 
+<img src="assets/preset-panel.png" alt="preset panel" width=800> 
 
 **General**
 
