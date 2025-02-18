@@ -21,16 +21,16 @@ Generating a PDF using Native PDF publishing has two aspects:
 
 Perform the following steps to create the PDF preset from the Map console:
 
-1. [Open a DITA map file in the Map console](./open-files-map-console.md). 
+1. [Open a DITA map file in the Map console](../user-guide/open-files-map-console.md). 
 
-    You can also access the map file from the **Recent files** widget in the [Overview section](./intro-home-page.md#overview). The selected map file would open in Map console. 
+    You can also access the map file from the **Recent files** widget in the [Overview section](../user-guide/intro-home-page.md#overview). The selected map file would open in Map console. 
 1. In the **Output presets** tab, select the + icon to create an output preset. 
 1. Select **PDF** from the Type dropdown in the **New output preset** dialog box. 
 1. In the **Name** field, provide a name to this preset.
 1. In the **Generate PDF Using** field, select **Native-PDF**.
 1. Select the **Add to current folder profile** option to create an output preset within the current folder profile. The ![folder profile icon](./assets/global-preset-icon.svg) indicates a folder-profile-level preset.  
 
-   Learn more about [Manage Global and Folder profile output presets](./web-editor-manage-output-presets.md).
+   Learn more about [Manage Global and Folder profile output presets](../user-guide/web-editor-manage-output-presets.md).
 
  1. Select **Add**.   
 
