@@ -243,6 +243,7 @@ If the task is assigned to multiple reviewers, then it is re-assigned to the tas
 Review tasks re-assigned to the creator/authors for review incorporation, can be accessed from [Overview](#accessing-assigned-tasks-from-overview-section) section or from [Assigned to you](#managing-tasks-assigned-to-you) tab. 
 
 ![Review tasks in the Author mode](./images/review-task-author-mode.png){width="800" align="left"}
+
 *Caption: Review task assigned back to authors* 
 
 For such tasks, the task state for the assignee changes to **Authoring** while the task type remains as **Review**. This state change happens when the review is completed by all the reviewers.
@@ -300,7 +301,7 @@ Perform the following steps to work upon a publishing task:
 
     ![Publishing tasks in the Your tasks widget](./images/publishing-tasks-access-your-tasks.png){width="650" align="left"}
     
-    *Caption: Publishing task in the Your tasks widget*
+    *Publishing task in the Your tasks widget*
 2. Hover over the task you want to work on and select&nbsp; ![](images/Smock_OpenIn_18_N.svg)&nbsp; to open it in the **Map console**. You can also open the task by simply selecting the task.  
 3. Review task details and the file added for publishing.
 

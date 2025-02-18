@@ -187,7 +187,10 @@ breadcrumb-title: AEM Guides Documentation
         - AEM Sites {#aem-sites}  
           - [AEM Sites presets in the map console](./user-guide/generate-output-aem-site-web-editor.md)
           - [AEM Sites presets on the map dashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
-        - [PDF](./user-guide/generate-output-pdf.md)
+        - PDF {#pdf-preset}
+          - [PDF output preset overview](./user-guide/generate-output-pdf.md)
+          - [DITA-OT PDF output preset](./user-guide/generate-output-pdf-dita-ot.md)
+          - [Native PDF output preset](./web-editor/native-pdf-web-editor.md)
         - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
         - [HTML5](./user-guide/generate-output-html5.md)
         - [EPUB](./user-guide/generate-output-epub.md)

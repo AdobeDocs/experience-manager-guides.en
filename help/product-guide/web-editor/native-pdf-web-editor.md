@@ -5,30 +5,7 @@ exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
 ---
-# Generate Native PDF output
-
-With AEM Guides, you can generate PDFs of individual topics or an entire map file. You can publish your content in a PDF format using one of the three methods below: 
-
-* **DITA-OT**  
-
-Use this method to generate a PDF output for a map from the map dashboard. You can set publishing properties before generating the PDF by creating an output preset for the map that is open in the map dashboard. To create or edit an output preset, view the *Understanding the output presets* section in the [AEM Guides as a Cloud Service User Guide](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf). 
-
-For more information on generating a PDF using the DITA-OT method, view [Generate PDF using DITA-OT](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html). 
-
-* **FrameMaker Publishing Server (FMPS)**
-
-Use this method to generate a PDF output from not only the DITA content, but also FrameMaker documents (.book and .fm) available in your AEM repository. The PDF can be created by configuring an output preset and published using FrameMaker Publishing Server (FMPS). You can design and configure the look-and-feel of your output for PDF and other formats and store the same in a setting file (.sts). This setting file is then used by FMPS to generate output for a DITA map or .book file. To create or edit an output preset, see the  *Understanding the output presets* section in the [AEM Guides as a Cloud Service User Guide](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
-
-For more information on configuring FMPS, see [Generate output from FrameMaker documents](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html). 
-
-* **Native PDF publishing** 
-
-Use this method to generate a feature-rich PDF output based on W3C CSS3 and CSS paged media standards. With Native PDF publishing, you can use templates to set the layout and styling for your content and apply various settings to fine-tune your PDF. In addition, you can modify and create your own templates with the template editor. 
-
- For more information on Native PDF publishing, view [Using Native PDF publishing](#working-with-native-pdf-publishing) section below.
-
-
-## Working with Native PDF publishing
+# Native PDF output preset
 
 When authoring content, it becomes essential to ensure that the content is optimized for viewing, editing, and printing. Using standards such as the W3C CSS3 for content styling and CSS paged media standards for page definition properties such as size, margins, orientation, page breaks, headers, footers, and page numbering, you can set the view and layout for your PDF document ensuring consistency and usability. The Native PDF publishing feature uses these standards to generate a PDF. 
 
@@ -40,26 +17,30 @@ Generating a PDF using Native PDF publishing has two aspects:
 
 * Create or configure a PDF output preset to control the PDF settings. Once you create a PDF output preset, you can generate the PDF.  
 
-For more information, view [Generate a PDF output](#generate-pdf-output).
+## Create an output preset
 
-The following sections walk you through the steps to generate the Native PDF output:
+Perform the following steps to create the PDF preset from the Map console:
 
-* [Create an output preset](#create-an-output-preset) 
-* [Configure Native PDF preset options](#configure-native-pdf-preset-options)
-* [Generate output](#generate-output)
+1. [Open a DITA map file in the Map console](./open-files-map-console.md). 
 
-### Create an output preset
+    You can also access the map file from the **Recent files** widget in the [Overview section](./intro-home-page.md#overview). The selected map file would open in Map console. 
+1. In the **Output presets** tab, select the + icon to create an output preset. 
+1. Select **PDF** from the Type dropdown in the **New output preset** dialog box. 
+1. In the **Name** field, provide a name to this preset.
+1. In the **Generate PDF Using** field, select **Native-PDF**.
+1. Select the **Add to current folder profile** option to create an output preset within the current folder profile. The ![folder profile icon](./assets/global-preset-icon.svg) indicates a folder-profile-level preset.  
 
-You can create an output preset of Native PDF using the Map console and Map dashboard. This is the first step towards generating Native PDF output. 
+   Learn more about [Manage Global and Folder profile output presets](./web-editor-manage-output-presets.md).
 
-For detailed explanation of preset creation, view [Generate PDF output preset](../user-guide/generate-output-pdf.md#create-the-pdf-preset-from-the-map-console).
+ 1. Select **Add**.   
 
-### Configure Native PDF preset options
+    The preset for PDF is created.
 
-Once the preset is created, configure the following settings in the **General**, **Metadata**, **Layout**, **Security**, **Print**, and **Advanced** tabs to configure a PDF output preset: 
+## Native PDF preset configuration
+
+Once the preset is created, configure the Native PDF preset settings. The preset configuration options for DITA-OT are organized under the **General**, **Metadata**, **Layout**, **Security**, **Print**, and **Advanced** tabs.
 
 <img src="assets/preset-panel.png" alt="preset panel" width=600> 
-
 
 **General**
 
@@ -201,28 +182,11 @@ Use the following options to specify advanced settings to merge PDFs, use compre
 |**File properties**| Select the metadata that you want to pass to Native PDF publishing. The dropdown lists both the custom and the default properties. For example, `dc:description`, `dc:language`, `dc:title`, and `docstate` are the default properties while you can have `author` as the custom property. The selected metadata properties are passed to the PDF file generated using Native PDF. <br> These properties are picked from the `metadataList` file available at:`/libs/fmdita/config/metadataList`. <br>This file can be overlaid at: `/apps/fmdita/config/metadataList`.|
 
 
-### Generate output 
 
-Once the presets are configured, you can generate output from the Presets panel, using the **Generate** feature.  
-
-<img src="assets/generate-preset-map-console.png" alt="metadata tab" width=600>
-
-Alternatively, open the preset and select **Generate output**.
-
-<img src="assets/generate-output-pdf.png" alt="metadata tab" width=600>
+<!--------------
 
 
-Once the output generation is complete, select **View output** ![view output](assets/view-output.svg) icon to view the output.  
-
-A **Success** dialog box is visible at the lower-right corner of the screen.
-
-If an output is not successful, the below error message is displayed.
-
-<img src="assets/error-log.png" alt ="error log" width =250>
-
-To view the error log, select **Dismiss**, hover over the selected preset tab, and select ![options](assets/options.svg) **Options** > **View Log**.
-
-### Additional notes for Native PDF output
+### Additional notes for PDF output
 
 **Download temporary files after generating the Native PDF output**
 
@@ -236,7 +200,7 @@ If you select the **Download temporary files** option in the Advanced settings, 
 
 **Use language variables**
 
-AEM Guides also provides the support for language variables. Select **Language Variables** <img src="./assets/language-variables.svg" width="25">  in the left panel to define a localized version of the out-of-the-box labels like Note, Caution, and Warning or static text in the PDF output. For more details, view [Support for language variables](../native-pdf/native-pdf-language-variables.md).
+AEM Guides also provides the support for language variables. Select **Language Variables** <img src="assets/language-variables.svg" width="25">  in the left panel to define a localized version of the out-of-the-box labels like Note, Caution, and Warning or static text in the PDF output. For more details, view [Support for language variables](../native-pdf/native-pdf-language-variables.md).
 
 
 **Support for Markdown documents**
@@ -244,3 +208,5 @@ AEM Guides also provides the support for language variables. Select **Language V
 Experience Manager Guides also provides support for your Markdown documents.  Markdown files are easy to author and also provide a variety of formatting options. Learn how to [author Markdown documents from the Editor](../user-guide/web-editor-markdown-topic.md). 
 
 You can add the Markdown topics to your DITA map and generate the PDF output using the Native PDF output presets.  Learn how to configure or [create a PDF output preset](#create-a-pdf-output-preset-create-output-preset). 
+
+--------------->

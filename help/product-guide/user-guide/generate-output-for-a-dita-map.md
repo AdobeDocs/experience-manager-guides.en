@@ -19,10 +19,24 @@ Perform the following steps to generate output for a DITA map using Map conosle:
 1. [Open a map file in the Map console](./open-files-map-console.md).
 2. The DITA map console is displayed with the list of **Output presets** available to generate output.
 
-    ![](images/output-preset-options-map-console.png){width="300" align="left"}
+3. Open the preset that you want to use for generating the output, and select **Generate output** to start the generation process.
 
-3. Select a preset that you want to use for generating the output. You can also create a new output preset. 
-4. Select **Generate output** to start the generation process.
+    <img src="images/generate-output-pdf.png" alt="metadata tab" width=600>
+
+    Or, hover over the preset and select **Generate** from the preset context menu.
+    
+    
+    <img src="images/generate-preset-map-console.png" alt="metadata tab" width=600>
+
+Once the output generation is complete, select **View output** to view the output.  
+    
+A **Success** dialog box is visible at the lower-right corner of the screen.
+    
+If an output is not successful, the below error message is displayed.
+    
+<img src="images/error-log.png" alt ="error log" width =250>
+    
+To view the error log, select **Dismiss**, hover over the selected preset tab, and select **View log** from the preset context menu.
 
 ## Generate output for a DITA map from the Map dashboard 
 
