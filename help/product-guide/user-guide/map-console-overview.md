@@ -28,7 +28,7 @@ The Map console interface is primarily divided into two sections - **Navigation 
     >
     > If using the Adobe Experience Manager Guides as a Cloud Service, an additional feature [AI Assistant](./ai-assistant.md) is displayed in the navigation bar. 
 
-- (**B**) **Left panel**: The left panel gives you quick access to Output generation, Report creation and management, Baseline, Condition presets, and Content translation features. 
+- (**B**) **Left panel**: The left panel gives you quick access to Output generation, Report creation and management, Baseline, Condition presets, Content translation, and Workfront (only if configured) features. 
 
     For more details, refer to the [Map console features](#map-console-features) section below.
 
@@ -69,7 +69,7 @@ In Map console, you get access to all the options required to get started with t
 
 **Workfront**
 
-The Workfront feature is also present in the Map console that allows you to work with Adobe Worfront tasks right from the Experience Manager Guides. 
+The Workfront feature is also present in the Map console that allows you to work with Adobe Workfront tasks right from the Experience Manager Guides. 
 
 Learn about [Adobe Workfront integration in Experience Manager Guides](./workfront-integration.md). 
   

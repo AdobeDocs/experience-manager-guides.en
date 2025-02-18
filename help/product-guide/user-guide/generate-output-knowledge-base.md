@@ -29,7 +29,7 @@ Perform the following steps to create the **Knowledge Base** preset from the Map
 ## Knowledge Base configuration{#knowledge-base-configuration}
 
 
-The Knowledge Base preset configuration options are organized under the **General**, **Articles**, and the selected target (**AEM**/ **ServiceNOW**/ **Salesforce**) tabs. 
+The Knowledge Base preset configuration options are organized under the **General**, **Articles**, and the selected target (**AEM**/ **ServiceNow**/ **Salesforce**) tabs. 
 
 ![](./images/kb-aem-preset.png){width="550" align="left"}
 
@@ -47,7 +47,7 @@ The following configuration options are available under the **General** tab:
 
 This tab displays the tree or hierarchical view of the map. Choose the topics you want to publish to a knowledge base. Expand a TOC node and choose the topics that you want to publish. 
 
-### Target - Adobe Experience Manager/ServiceNOW/Salesforce
+### Target - Adobe Experience Manager/ServiceNow/Salesforce
 
 The configuration options change based on the target that you select.
 
@@ -74,9 +74,9 @@ The following configuration options are displayed for **Adobe Experience Manager
 > 
 >Select the **Refresh** icon to populate the respective templates in the fields as per the Knowledge Base template that you have selected.
 
-**ServiceNOW**
+**ServiceNow**
 
-The following configuration options are displayed for **ServiceNOW** as target:
+The following configuration options are displayed for **ServiceNow** as target:
 
 | ServiceNow  options | Description |
 | --- | --- |

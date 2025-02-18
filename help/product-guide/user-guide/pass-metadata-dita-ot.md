@@ -9,15 +9,17 @@ role: User
 
 Metadata is additional information about the output. In Adobe Experience Manager Guides, you can pass on the existing metadata or create custom metadata tags. You can pass on metadata to AEM, PDF, HTML5, EPUB, and Custom format outputs using DITA-OT publishing.
 
+There are two ways to pass on the metadata to the Output using DITA-OT:
+
+- [Using Map console](#using-map-console)
+- [Using Map dashboard](#using-map-dashboard)
+
+## Using Map console
+
 Perform the following steps to pass on the metadata to the output using DITA-OT publishing:
 
 1.  [Open the DITA map file in map console](./open-files-map-console.md) for which you want to pass the metadata to the DITA-OT. 
-1.  Select and open an output preset to which you want to pass the metadata fields. For example, select PDF output preset. Ensure that it is created using the **DITA-OT** option. 
-
-    >[!NOTE]
-    >
-    > You can also use the Map dashboard to pass on the metadata to the output. For this, you can open the DITA Map file in the Assets UI for which you want to pass the metadata to the DITA-OT. In the **Output Presets** tab, select and edit an output preset to which you want to pass the metadata fields. Select the **DITA-OT** option under Generate <output\> Using in the selected output Preset.
-
+1.  Select and open an output preset to which you want to pass the metadata fields. For example, select PDF output preset. Ensure that it is created using the **DITA-OT** option.    
 1.  From the **File properties** dropdown select the metadata that you want to pass to DITA-OT publishing.
 
     ![](images/custom-metadata-output-preset-new.png){width="800" align="left"}
@@ -45,7 +47,7 @@ The selected metadata properties will be passed to the output generated using DI
 >
 > As of 2025.02.0 and 5.0 release of Experience Manager Guides, the functionality to pass root map metadata arguements through DITA-OT command line has been deprecated. However, to avoid any disruptions, a new property has been added in the `Config.Manager` to enable or disable the functionality.  For more details, view [Configure output generation settings](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard).
 
-**Using Map dashboard**
+## Using Map dashboard
 
 If working on the **Assets UI**, perform the following steps to pass on the metadata to the output using DITA-OT publishing:
 
