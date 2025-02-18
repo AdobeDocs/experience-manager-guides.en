@@ -204,7 +204,6 @@ breadcrumb-title: AEM Guides Documentation
       - Generate output {#generate-output} 
         - [Generate output for a DITA map](./user-guide/generate-output-for-a-dita-map.md)
         - [Generate Knowledge Base output](./user-guide/web-editor-article-publishing.md)
-        - [Generate Native PDF output](./web-editor/native-pdf-web-editor.md)
         - Single topic publishing {#single-topic-publishing}
           - [Publish Content Fragments](./user-guide/publish-content-fragment.md)
           - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
