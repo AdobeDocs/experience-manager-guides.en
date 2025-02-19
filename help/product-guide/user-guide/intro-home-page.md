@@ -36,10 +36,11 @@ Features available in the navigation bar are explained as follows:
 
 - **Navigation switcher**: Allows seamless navigation to other pages: 
   - **Home**: The default page that you view when logging into Experience Manager Guides.
-  - **Editor**: An easy-to-use web-based Editor that allows you to create and manage structured documents in Experience Manager Guides. [Get to know the Editor interface.](./web-editor.md) 
-  - **Map console**: Provides you a dedicated workspace to handle all aspects of map management and publishing.   
-- **AI Assistant**: [AI-powered smart Help](./ai-based-smart-help.md) feature that helps you find relevant content from the Adobe Experience Manager Guides Documentation. Additionally, when working in the Editor interface, you can leverage the smart authoring capabilities of AI Assistant that help simplifies document handling through intelligent suggestions and optimization. 
-The AI Assistant feature is currently only available for Adobe Experience Manager as Cloud Service.  
+  - **Editor**: An easy-to-use web-based Editor that allows you to create and manage structured documents in Experience Manager Guides. [Get to know the Editor interface](./web-editor.md). 
+  - **Map console**: Provides you a dedicated workspace to handle all aspects of map management and publishing. [Get to know the Map console interface](./map-console-overview.md).
+- **AI Assistant**: A powerful, AI-driven tool designed to enhance your productivity through smart help features. Additionally, when working in the Editor interface, you can leverage the smart authoring capabilities of AI Assistant that makes your authoring process smarter and faster through intelligent suggestions for content reuse and optimization.  
+
+  The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.  
 - **Customize overview section**: Allows you to hide or show the widgets in the Widgets section. 
 - **Folder profile in use**: Displays the folder profile that is currently being used.  
 - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
@@ -137,7 +138,7 @@ Experience Manager Guides provides you with the ability to organize your content
 
 ### Bulk publish 
 
-The Bulk Activation feature allows you to quickly and easily activate your content from authoring to publishing instance. To use this feature, select **Bulk publish** from the left panel. It takes you to the Bulk Activation Collections page in the Assets UI where you can manage as well as [create a bulk activation map collection.](./conf-bulk-activation-publish-map-collection.md) 
+The Bulk Activation feature allows you to quickly and easily activate your content from authoring to publishing instance. To use this feature, select **Bulk publish** from the left panel. It takes you to the Bulk Activation Collections page in the Assets UI where you can create and manage [Bulk activation of published content](./conf-bulk-activation.md). 
 
 ### Publish queue 
 
