@@ -113,7 +113,7 @@ A new task is created and listed under the **Created by you** tab.
 
 >[!NOTE]
 >
-> As a project manager, you can view this newly created task in your Adobe Workfront dashboard along with other key task details. For more details, views understand dashboards](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
+> As a project manager, you can view this newly created task in your Adobe Workfront dashboard along with other key task details. For more details, view [Understand dashboards](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Managing tasks created by you
 
