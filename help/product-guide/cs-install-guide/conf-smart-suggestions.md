@@ -93,7 +93,7 @@ Once you have added the IMS configuration and enabled the AI Assistant flag to t
 1. In your cloud manager Git project code, add the below given two files (for file contents, view [Appendix](#appendix)).
 
     * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
-    * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
+    * `com.adobe.guides.ai.config.service.AiConfigImpl.cfg.json`
 1. Ensure that the newly added files are getting covered by your `filter.xml`.
 1. Commit and push your Git changes.
 1. Run the pipeline to apply the changes on the environment.
@@ -139,8 +139,7 @@ For details, refer to [Configure Smart Suggestions in Folder Profile](./conf-fol
   "emerald.url":"https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1",
   "instance.type":"prod",
   "chat.url":"https://aem-guides-ai.adobe.io"
-
-  }
+}
 ```
 
 ## AI Assistant configuration details
@@ -149,7 +148,8 @@ For details, refer to [Configure Smart Suggestions in Folder Profile](./conf-fol
 |---|---|---|---|
 |conref.inline.threshold|Threshold that controls the precision/recall of suggestions fetched for the tag that the user is typing in currently.|Any value from -1.0 to 1.0.|0.6|
 |conref.block.threshold|Threshold that controls precision/recall of suggestions fetched for tags across the entire file.|Any value from -1.0 to 1.0.|0.7|
-|emerald.url|Endpoint for the Emerald vector database|[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|
+|emerald.url|Endpoint for the Smart Suggestion vector database|[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|
+|chat.url|Endpoint for the AI assistant service|[https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io)|[https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io)|
 |instance.type|Type of the AEM instance. Make sure this is unique for each AEM instance that the smart suggestions is configured on. A use case would be to test the feature on stage environment with "instance.type" = "stage" while at the same time, the feature is also configured on "prod".|Any unique key identifying the environment. Only *alpha numeric* values are allowed. "dev"/"stage"/"prod"/"test1"/"stage2"|"prod"|
 
 Once you have configured, the AI Assistant icon is displayed in the Home page and Editor of the Experience Manager Guides. For more details, view [AI Assistant](../user-guide/ai-assistant.md) section in the Experience Manager User Guide.
