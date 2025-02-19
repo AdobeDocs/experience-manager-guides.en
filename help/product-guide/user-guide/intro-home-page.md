@@ -79,7 +79,7 @@ The widgets also provide you with options to sort and resize columns. To view th
 
 The following widgets are present in the Widgets section:
 
-- **Recent Files**: The widget provides you a snapshot of recently-opened files (a list of files that you accessed in the Editor) along with the key file details including Title, File name, File type, File path, and Accessed on dates. 
+- **Recent Files**: The widget provides you with a snapshot of recently opened files (a list of files that you accessed in the Editor) along with the key file details including Title, File name, File type, File path, and Accessed on dates. 
   
   ![](images/aem-home-recent-files.png){width="800" align="left"}
   
@@ -105,17 +105,17 @@ The following widgets are present in the Widgets section:
 
   ![](images/aem-home-collections.png){width="800" align="left"}
   
-  The selected collection's breadcrumb are displayed at the top of the Collection widget. You can select it to go back to a specific folder within the hierachy. 
+  The selected collection's breadcrumbs are displayed at the top of the Collection widget. You can select it to go back to a specific folder within the hierarchy. 
 
   ![](images/aem-home-collections-breadcrumbs.png){width="800" align="left"}
 
-  The following options are available when you hover over a collection and select the More icon ![](images/Smock_MoreSmallList_18_N.svg) :
+  The following options are available when you hover over a collection and select the More icon ![](images/Smock_MoreSmallList_18_N.svg):
 
     - **Rename**: Allows you to rename the collection.  
     - **Delete**: Allows you to delete the collection. 
     - **View in Assets UI**: Allows you to open the collection in the Assets UI. 
 
-    You can open a collection by selecting the Collection title. The following options are available when you hover a Collection file and select the More icon ![](images/Smock_MoreSmallList_18_N.svg) :
+    You can open a collection by selecting the Collection title. The following options are available when you hover a Collection file and select the More icon ![](images/Smock_MoreSmallList_18_N.svg):
 
     - **Open in editor**: Allows you to open the file in the Editor. Alternatively, you can select the file title to open the file. 
     - **Open in map console**: Allows you to open the map file in the map console. (Available only for a DITA map file).
@@ -133,7 +133,7 @@ The following widgets are present in the Widgets section:
 
 ### Map collections 
 
-Experience Manager Guides provides you the ability to organize your content for publishing by using a dashboard called **Map collections**. To use this feature, select **Map collections** from the left panel. It takes you to the Map collections page in the **Assets UI** where you can [use map collection for output generation.](./generate-output-use-map-collection-output-generation.md)  
+Experience Manager Guides provides you with the ability to organize your content for publishing by using a dashboard called **Map collections**. To use this feature, select **Map collections** from the left panel. It takes you to the Map collections page in the **Assets UI** where you can [use map collection for output generation.](./generate-output-use-map-collection-output-generation.md)  
 
 ### Bulk publish 
 
@@ -159,7 +159,7 @@ The User preferences are available to all authors. Using the preferences, you ca
     - **Maximum number of recent files**: Use this field, to set a maximum limit on the files that are displayed in the Recent files widget.
     - **Set default map opening behavior**: Here, you can select a default behavior the system will follow while opening a DITA map file. 
 
-- **Appearance**: The Apperance tab provides you with the options to select the themes for the application and the source view of the content editing area. Use this tab to configure the following settings:
+- **Appearance**: The Appearance tab provides you with the options to select the themes for the application and the source view of the content editing area. Use this tab to configure the following settings:
 
   ![](images/user_preference_editor_appearance.png){width="800" align="left"}
  

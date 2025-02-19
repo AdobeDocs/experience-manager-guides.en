@@ -38,7 +38,7 @@ Perform the following steps to access your Adobe Workfront tasks:
 3. Select **Sign In**. 
    
    You are redirected to the Adobe Workfront Sign In page.
-4. Sign in using the same email address as used in Experience Manager Guides, and then select **Allow access** to let the the application access your Adobe Workfront account.
+4. Sign in using the same email address as used in Experience Manager Guides, and then select **Allow access** to let the application access your Adobe Workfront account.
 
    You are automatically redirected to the **Workfront tasks** page on Experience Manager Guides.
      
@@ -88,11 +88,11 @@ Perform the following steps to create a new Adobe Workfront task:
 
         ![Adding maps to a review task](./images/attach-asset-topics.png){width="650" align="left"}    
         
-        *Caption: Adding topics to a review task* 
+        *Adding topics to a review task* 
 
         ![Adding maps to a review task](./images/attach-asset-maps.png){width="650" align="left"}    
         
-        *Caption: Adding maps to a review task* 
+        *Adding maps to a review task* 
 
         The following actions are available to modify your selection before sending for review:
 
@@ -113,7 +113,7 @@ A new task is created and listed under the **Created by you** tab.
 
 >[!NOTE]
 >
-> As a project manager, you can view this newly created task in your Adobe Workfront dashboard along with other key task details. For more details, view [understand dashboards](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
+> As a project manager, you can view this newly created task in your Adobe Workfront dashboard along with other key task details. For more details, views understand dashboards](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Managing tasks created by you
 
@@ -190,11 +190,11 @@ Perform the following steps to work upon an authoring task:
 
     ![Authoring tasks in the Assigned to you tab](./images/authoring-task-access.png){width="650" align="left"}
     
-    *Caption: Authoring task in the Assigned to you tab*
+    *Authoring task in the Assigned to you tab*
 
     ![Authoring tasks in the Your tasks widget](./images/authoring-task-access-your-tasks.png){width="650" align="left"}
     
-    *Caption: Authoring task in the Your tasks widget*
+    *Authoring task in the Your tasks widget*
 2. Hover over the task you want to work on and select&nbsp; ![](images/Smock_OpenIn_18_N.svg)&nbsp; to open it. You can also open the task by simply selecting the task. 
    All authoring tasks open in the Editor. 
 3. Review the task details in the **Details** tab and select the **Asset** file to open it. 
@@ -206,7 +206,7 @@ Perform the following steps to work upon an authoring task:
 
     >[!NOTE]
     >
-    > Once the task is marked as done, it will be removed from both your assigned task list and the task intiator's **Created by you** task list.  
+    > Once the task is marked as done, it will be removed from both your assigned task list and the task initiator's **Created by you** task list.  
 
 ### Review tasks
 
@@ -218,11 +218,11 @@ Perform the following steps to work upon a review task assigned to you.
 
     ![Review tasks in the Assigned to you tab](./images/review-task-access.png){width="650" align="left"}
     
-    *Caption: Review task in the Assigned to you tab*
+    *Review task in the Assigned to you tab*
 
     ![Review tasks in the Your tasks widget](./images/review-task-access-your-tasks.png){width="650" align="left"}
     
-    *Caption: Authoring task in the Your tasks widget*
+    *Authoring task in the Your tasks widget*
 2. Hover over the task you want to work on and select&nbsp; ![](images/Smock_OpenIn_18_N.svg)&nbsp; to open it. You can also open the task by simply selecting the task. 
 
     For reviewers, the review task opens in the **Review UI**. 
@@ -244,7 +244,7 @@ Review tasks re-assigned to the creator/authors for review incorporation, can be
 
 ![Review tasks in the Author mode](./images/review-task-author-mode.png){width="800" align="left"}
 
-*Caption: Review task assigned back to authors* 
+*Review task assigned back to authors* 
 
 For such tasks, the task state for the assignee changes to **Authoring** while the task type remains as **Review**. This state change happens when the review is completed by all the reviewers.
 
@@ -267,11 +267,11 @@ Perform the following steps to work upon a translation task:
 
    ![Translation tasks in the Assigned to you tab](./images/translation-tasks-access.png){width="650" align="left"}
     
-    *Caption: Translation task in the Assigned to you tab*
+    *Translation task in the Assigned to you tab*
 
    ![Translation tasks in the Your tasks widget](./images/translation-tasks-access-your-tasks.png){width="650" align="left"}
     
-    *Caption: Translation task in the Your tasks widget* 
+    *Translation task in the Your tasks widget* 
 
 2. Hover over the task you want to work on and select&nbsp; ![](images/Smock_OpenIn_18_N.svg)&nbsp; to open it in the **Map console**. You can also open the task by simply selecting the task. 
 3. Review task details and the file added for translation. 
@@ -285,7 +285,7 @@ Perform the following steps to work upon a translation task:
 
     >[!NOTE]
     >
-    > Once the task is marked as done, it will be removed from both your assigned task list and the task intiator's **Created by you** task list.
+    > Once the task is marked as done, it will be removed from both your assigned task list and the task initiator's **Created by you** task list.
 
 ### Publishing tasks
 
@@ -297,7 +297,7 @@ Perform the following steps to work upon a publishing task:
 
     ![Publishing tasks in the Assigned to you tab](./images/publishing-tasks-access.png){width="650" align="left"}
     
-    *Caption: Publishing task in the Assigned to you tab*
+    *Publishing task in the Assigned to you tab*
 
     ![Publishing tasks in the Your tasks widget](./images/publishing-tasks-access-your-tasks.png){width="650" align="left"}
     
@@ -312,4 +312,4 @@ Perform the following steps to work upon a publishing task:
 
     >[!NOTE]
     >
-    > Once the task is marked as done, it will be removed from both your assigned task list and the task intiator's **Created by you** task list. 
+    > Once the task is marked as done, it will be removed from both your assigned task list and the task initiator's **Created by you** task list. 
