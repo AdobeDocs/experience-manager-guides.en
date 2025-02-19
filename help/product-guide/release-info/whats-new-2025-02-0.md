@@ -6,7 +6,7 @@ role: Leader
 ---
 # What's new in the 2025.02.0 release (February 2025)
 
-This article covers the new and enhanced features introduced with 2025.02.0 release of Adobe Experience Manager Guides as a Cloud Service.
+This article covers the new and enhanced features introduced with the 2025.02.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
 ## Revamped Experience Manager Guides UI for enhanced productivity and experience
 
@@ -21,13 +21,13 @@ The key highlights are as follows:
     ![](assets/aem-home-page.png){width="800" align="left"}
 
 
-- **New Editor experience**: Now, experience the Editor in a new look and feel. The revamped editor interface features a cleaner and more organized toolbar, seamless navigation, and overall intuitive experience to help author documents faster and more efficiently.  
+- **New Editor experience**: Now, experience the Editor in a new look and feel. The revamped editor interface features a cleaner and more organized toolbar, seamless navigation, and an overall intuitive experience to help author documents faster and more efficiently.  
  
     Get to [know the Editor features](../user-guide/web-editor-features.md). 
 
     ![](assets/editor-new-ui.png){width="800" align="left"}
 
-- **Dedicated Map console**: Introducing Map console, a dedicated console where all the map management and publishing features are clubbed. Now, you get options to generate output, translate content, create reports, and more - all directly from Map console. 
+- **Dedicated Map console**: Introducing Map console, a dedicated console where all the map management and publishing features are clubbed. Now, you get options to generate output, translate content, create reports, and more - all directly from the Map console. 
  
     Learn more about [map management and publishing](../user-guide/map-console-overview.md). 
 
@@ -41,9 +41,9 @@ Experience Manager Guides now integrates seamlessly with Adobe Workfront, giving
 
 With this integration, you can create and manage Adobe Workfront tasks directly from Experience Manager Guides. For example, as an author, you can create a review task (with one or more DITA topics or maps added) directly within the Experience Manager Guides interface and assign it to a reviewer. As a reviewer, you can work on assigned tasks in the Experience Manager Guides Review UI and return them to the author with comments. Similarly, you can create a publishing and translation task, and then assign it to the users who are required to work upon it.
 
-The integration also provides you the ability to monitor your work queues, ensuring you stay organized and on top of all your tasks (assigned tasks). It also enables project managers to leverage the power of Adobe Workfront for in-depth project management within Experience Manager Guides.
+The integration also provides you with the ability to monitor your work queues, ensuring you stay organized and on top of all your tasks (assigned tasks). It also enables project managers to leverage the power of Adobe Workfront for in-depth project management within Experience Manager Guides.
 
-For more details, refer [Workfront integration](../user-guide/workfront-integration.md). 
+For more details, refer to [Workfront integration](../user-guide/workfront-integration.md). 
 
 ![](assets/workfront-integration-ui.png){width="800" align="left"}
 
@@ -58,7 +58,7 @@ For more details, view [AI Assistant in Experience Manager Guides](../user-guide
 
 ## Faster and scalable New AEM Sites publishing engine 
 
-Experience faster and scalable publishing to AEM Sites with the all-new publishing engine, optimized with composite component mapping for faster page creation and rendering. It is available with new, out-of-the-box editable templates which can be customized as per your requirements using AEM Template editor. The templates utilize a mix of WCM core components and specialized Guides components to ensure that your end users get the best experience on your AEM Sites pages. You can also customize your existing templates to leverage the power of this new publishing engine.
+Experience faster and scalable publishing to AEM Sites with the all-new publishing engine, optimized with composite component mapping for faster page creation and rendering. It is available with new, out-of-the-box editable templates which can be customized as per your requirements using the AEM Template editor. The templates utilize a mix of WCM core components and specialized Guides components to ensure that your end users get the best experience on your AEM Sites pages. You can also customize your existing templates to leverage the power of this new publishing engine.
 
 Learn more about [AEM Sites publishing](../user-guide/generate-output-aem-site-web-editor.md).
 
@@ -79,13 +79,13 @@ For more details, view [Publish AEM Sites pages](../user-guide/publish-aem-sites
 
 Now, experience a cleaner, more efficient, and powerful way to author markdown topics. Experience Manager Guides introduces a new Markdown editor interface with a well organized toolbar and advanced features, including a **Side-by-side** view to author and preview content at the same time. It also enables seamless publishing of Markdown topics that are a part of a map, to multiple channels.
 
-For more details, refer [Markdown authoring](../user-guide/web-editor-markdown-topic.md). 
+For more details, refer to [Markdown authoring](../user-guide/web-editor-markdown-topic.md). 
 
 ![](assets/markdown-topic-side-by-side.png){width="800" align="left"}
 
 ## Editor enhancements 
 
-The following Editor enhancements has been made as part of the new release:
+The following Editor enhancements have been made as part of the new release:
 
 **Enhancements to Table insertion**
 
@@ -118,7 +118,7 @@ The following Review enhancements have been done in the 2025.02.0 release:
 
 - Now, when creating a review task, you can type in a project name to quickly locate and select it in the Project drop-down list. This enhancement removes the need to scroll through lengthy project lists, making it faster and more efficient to assign review tasks, especially when managing multiple projects. 
 
-- In the Editor and Review UI, the review **Reply** box now support multi-line entries. You can use **Shift**+**Enter** to go the next line. You can also expand the comment box while writing the comment.   
+- In the Editor and Review UI, the review **Reply** box now support multi-line entries. You can use **Shift**+**Enter** to go to the next line. You can also expand the comment box while writing the comment.   
 
   For more details, view [Review topics](../user-guide/review-topics.md).  
 
@@ -128,7 +128,7 @@ The following Review enhancements have been done in the 2025.02.0 release:
 
 ## Publishing enhancements
 
-The following publishing enhancements has been made as part of the new release:
+The following publishing enhancements have been made as part of the new release:
 
 **Enhancements to the Native PDF**
 
@@ -145,7 +145,7 @@ The following publishing enhancements has been made as part of the new release:
 
     ![](assets/ditaot-setting-enabled.png){width="500" align="left"}
 
-- The Print settings for Native PDF output generation have been moved from **Templates** setting to the **Native PDF Output preset** for better usability. You can now use the same template for online and print PDFs with different print settings such as color profile.  
+- The Print settings for Native PDF output generation have been moved from the **Templates** setting to the **Native PDF Output preset** for better usability. You can now use the same template for online and print PDFs with different print settings such as color profile.  
 
     For more details, view [Publish PDF output](../web-editor/native-pdf-web-editor.md) 
 
@@ -155,13 +155,13 @@ The following publishing enhancements has been made as part of the new release:
 
 ## Content management enhancements
 
-The following content management enhancements has been made as part of the new release:
+The following content management enhancements have been made as part of the new release:
 
 **Custom metadata fields in reports**
 
 This feature allows you to configure custom metadata fields for reports through **Settings**. Once configured, you can view these fields under **Columns** in the Filter panel of the Reports, where you can select or deselect them to control their visibility. 
 
-For more details, refer [DITA map report from the Map Console](../user-guide/reports-web-editor.md).
+For more details, refer the [DITA map report from the Map Console](../user-guide/reports-web-editor.md).
 
 **Refresh button in the Translation UI**
 
@@ -169,7 +169,7 @@ Introducing a Refresh button in the Translation UI that allows you to refresh th
 
 **Enhancement to Asset post-processing workflow** 
 
-The support for Asset post-processing has been provided via the REST API as well as API SDK. Now, the Asset processing event would be triggered and can be listened to define further workflow. 
+The support for Asset post-processing has been provided via the REST API as well as the API SDK. Now, the Asset processing event would be triggered and can be listened to define further workflow. 
 
 For more details, view [Post-processing event handler](../api-reference/post-process-event.md). 
 
@@ -186,7 +186,7 @@ For more details, view [Map management and publishing](../user-guide/map-console
 
 **Pass root map metadata arguments to DITA-OT command line**
 
-The ability to pass root map metadata arguments through DITA-OT command line has been deprecated as part of the release. Now, it is reccomended to use the **File property** or **Metadata** field in the Preset to pass the required DITA-OT metadata.  
+The ability to pass root map metadata arguments through DITA-OT command line has been deprecated as part of the release. Now, it is recommended to use the **File property** or **Metadata** field in the Preset to pass the required DITA-OT metadata.  
 
 To continue passing the metadata in DITA-OT command line, you need to update the `pass.metadata.args.cmd.line` in the `Config.Manager`.  
 
