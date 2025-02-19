@@ -27,7 +27,7 @@ The key highlights are as follows:
 
     ![](assets/editor-new-ui.png){width="800" align="left"}
 
-- **Dedicated Map console**: Introducing Map console, a dedicated console where all the map management and publishing features are clubbed. Now, you get options to generate output, translate content, create reports, and more - all directly from the Map console. 
+- **Dedicated Map console**: Introducing Map console, a dedicated console where all the map management and publishing features are clubbed. Now, you get options to generate output, translate content, create reports, and more - all within one interface. 
  
     Learn more about [map management and publishing](../user-guide/map-console-overview.md). 
 
@@ -67,7 +67,7 @@ Learn more about [AEM Sites publishing](../user-guide/generate-output-aem-site-w
 
 ## Seamlessly publish standalone content to AEM Sites with Single topic publishing 
 
-Introducing single topic publishing to AEM Sites pages that allows you to publish individual topics directly to Adobe Experience Manager Sites pages without needing to publish an entire map.  This streamlines the publishing process, making it more efficient when working with standalone content, such as marketing content, technical bulletins, or any other standalone content. It also simplifies content maintenance by eliminating the need to create maps for publishing single topics. 
+Introducing single topic publishing to AEM Sites pages that allows you to publish individual topics directly to AEM Sites pages without needing to publish an entire map.  This streamlines the publishing process, making it more efficient when working with standalone content, such as marketing content, technical bulletins, or any other standalone content. It also simplifies content maintenance by eliminating the need to create maps for publishing single topics. 
 
 For more details, view [Publish AEM Sites pages](../user-guide/publish-aem-sites.md).
 
@@ -147,7 +147,7 @@ The following publishing enhancements have been made as part of the new release:
 
 - The Print settings for Native PDF output generation have been moved from the **Templates** setting to the **Native PDF Output preset** for better usability. You can now use the same template for online and print PDFs with different print settings such as color profile.  
 
-    For more details, view [Publish PDF output](../web-editor/native-pdf-web-editor.md) 
+    For more details, view [Native PDF output preset](../web-editor/native-pdf-web-editor.md) 
 
 - Ability to add a bookmark for the TOC page in the Native PDF output for seamless page navigation, especially in long PDFs. 
     
