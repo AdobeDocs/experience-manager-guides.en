@@ -150,6 +150,8 @@ breadcrumb-title: AEM Guides Documentation
         - [Use the DITAVAL editor](./user-guide/ditaval-editor.md)
       - Desktop tools for authoring content {#author-using-desktop-tools}
         - [Author content using desktop tools](./user-guide/author-desktop-tools.md)
+        - [Work with FrameMaker](./user-guide/author-desktop-framemaker.md)
+        - [Work with Oxygen](./user-guide/author-desktop-oxygen.md)
   - Review and collaboration {#review-collaboration}
     - [Introduction to review](./user-guide/review.md)
     - [Create a DITA project](./user-guide/authoring-create-dita-project.md)
@@ -186,7 +188,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Custom](./user-guide/generate-output-custom.md)
         - [JSON](./user-guide/generate-output-json.md)
       - [Edit, duplicate, or remove an output preset](./user-guide/generate-output-create-edit-preset.md)
-      - Conditionalize content {conditional-content} 
+      - Conditionalize content {#conditional-content} 
         - [Use condition presets](./user-guide/generate-output-use-condition-presets.md)
         - [Conditional attribute profiling](./user-guide/generate-output-conditional-attribute-profiling.md)
       - Use Baseline {#work-with-baseline}
@@ -248,7 +250,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Upload files](./user-guide/authoring-upload-existing-files.md)
         - [Manage files and folders](./user-guide/authoring-file-management.md)
         - [Download files](./user-guide/authoring-download-assets.md)
-    - Editor best practices and keyboard shortcuts {editor-bp-ks}
+    - Editor best practices and keyboard shortcuts {#editor-bp-ks}
         - [Best practices for working with the Editor](./user-guide/web-editor-edit-topics.md)
         - [Keyboard shortcuts in the Editor](./user-guide/web-editor-keyboard-shortcuts.md)
 - [User Guide (Old UI)](../legacy-product-guide/user-guide/intro.md)  
