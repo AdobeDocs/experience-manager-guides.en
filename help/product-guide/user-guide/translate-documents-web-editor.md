@@ -107,23 +107,25 @@ Before performing steps in this procedure, ensure that you have created the requ
     -   You can select **Create a new multi-lingual translation project** which will include translation jobs for all languages that you have selected for translation. For example, if you have selected French, German, and Spanish it will create a project which contains translation jobs for all three languages.
     -   If you already have a translation project, you can add topics to that project. Select **Add to existing translation project** option from the Project list and choose a project from the Existing Translation Project list. You can sort these projects by most recent, ascending, or descending order.
 
-- If you select **Add to existing translation project**, this operation updates the existing asset entry in the project if the asset is already added and the related translation job state is in the *Draft* state.
-    - If the destination language is not present in the project, a new project is created for the single-language translation project, and a new job is created for multi-language translation project.
-    - If the job is already present for the destination language and the job status isn't in the *Draft* state, a new job is created within the same project to add the assets for translation.
+    - If you select **Add to existing translation project**, this operation updates the existing asset entry in the project if the asset is already added and the related translation job state is in the *Draft* state.
+        - If the destination language is not present in the project, a new project is created for the single-language translation project, and a new job is created for multi-language translation project.
+
+        - If the job is already present for the destination language and the job status isn't in the *Draft* state, a new job is created within the same project to add the assets for translation.
 
     >[!NOTE]
     >
     > If your existing project is a scoping project, it has '\(Scoping\)' appended in its name.
 
--   If you need to create the scope for a project to be translated, you can select **Create a new scoping translation project**. This will not send the copies for translation and the original translation status of the files is maintained. There is no impact on the destination language copy of the referred topics which are sent for scoping.
-1.  In the **Project Title** field, enter a title for the project.
+    - If you need to create the scope for a project to be translated, you can select **Create a new scoping translation project**. This will not send the copies for translation and the original translation status of the files is maintained. There is no impact on the destination language copy of the referred topics which are sent for scoping.
+
+1. In the **Project Title** field, enter a title for the project.
 1. Select **Submit** to create a new translation project.
 
-    A new translation project is created with the selected version of the topics. At this time, a pop-up message is displayed confirming that the translation project has been created. Once all target language copies are available in the translation project, you get a notification in the Inbox. Once the target language copies are available in the translation project, you can then go ahead and start the translation job. For details view, [Start the translation job](translation-first-time.md#id225IK030OE8).
+A new translation project is created with the selected version of the topics. At this time, a pop-up message is displayed confirming that the translation project has been created. Once all target language copies are available in the translation project, you get a notification in the Inbox. Once the target language copies are available in the translation project, you can then go ahead and start the translation job. For details view, [Start the translation job](translation-first-time.md#id225IK030OE8).
 
-    >[!NOTE]
-    >
-    > If you reject the translation for one or more topics in a translation job, the **In Progress** translation status of all the rejected topics reverts to their original status. The status of the referred topics is checked and reverted according to the latest translation state. Also, the translation files created in the destination project are not deleted even if the translation is rejected for them.
+>[!NOTE]
+>
+> If you reject the translation for one or more topics in a translation job, the **In Progress** translation status of all the rejected topics reverts to their original status. The status of the referred topics is checked and reverted according to the latest translation state. Also, the translation files created in the destination project are not deleted even if the translation is rejected for them.
 
 ## Add the translation rules  
 
