@@ -11,25 +11,25 @@ Most likely you would have a repository of existing DITA content that you would 
 
 >[!IMPORTANT]
 >
-> See [Add digital assets to Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) for detailed information in the supported content upload methods in Adobe Experience Manager.
+> View [Add digital assets to Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) for detailed information in the supported content upload methods in Adobe Experience Manager.
 
 ## Assets Console user interface 
 
-You can select content on your desktop and drag on the Adobe Experience Manager user interface \(web browser\) to the destination folder. For more details, see [Upload assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) in Adobe Experience Manager documentation.
+You can select content on your desktop and drag on the Adobe Experience Manager user interface \(web browser\) to the destination folder. For more details, view [Upload assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) in Adobe Experience Manager documentation.
 
 ## Adobe Experience Manager desktop app 
 
-Use Adobe Experience Manager desktop app if you are a creative professional, and want to manage the assets on your local desktop. You can open and edit these assets with your desktop applications. You can also maintain versions and share your files with other users. For more details, see [Adobe Experience Manager desktop app](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
+Use Adobe Experience Manager desktop app if you are a creative professional, and want to manage the assets on your local desktop. You can open and edit these assets with your desktop applications. You can also maintain versions and share your files with other users. For more details, view [Adobe Experience Manager desktop app](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
 
 ## Asset bulk ingestor 
 
-If you have large-scale migrations and occasional bulk ingestions, use Asset bulk ingestor to upload your content. Using this tool, you can upload bulk content from supported datastores like Azure or S3. For more details, see [Asset bulk ingestor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
+If you have large-scale migrations and occasional bulk ingestions, use Asset bulk ingestor to upload your content. Using this tool, you can upload bulk content from supported datastores like Azure or S3. For more details, view [Asset bulk ingestor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
 ## Use FrameMaker for bulk upload 
 
 Adobe FrameMaker comes with a powerful Adobe Experience Manager connector that allows you to easily upload your existing DITA and other FrameMaker documents \(`.book` and `.fm`\) into Adobe Experience Manager. You can use various file upload functionalities such as uploading a single file, uploading a complete folder with or without dependencies \(like content references, cross-references, and graphics\).
 
-For more details about using bulk upload feature in FrameMaker, see the section *Create a CRX folder and upload files* in FrameMaker User Guide.
+For more details about using bulk upload feature in FrameMaker, view the section *Create a CRX folder and upload files* in FrameMaker User Guide.
 
 ## Error handling while uploading content {#id201MI0I04Y4}
 

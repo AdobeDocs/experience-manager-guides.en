@@ -19,7 +19,7 @@ Perform the following steps to download a DITA map file along with its dependent
 
 1.  Select the DITA map to open it in DITA map console.
 
-1.  Select the **Topics** tab to see a list of topics available in the DITA map.
+1.  Select the **Topics** tab to view the list of topics available in the DITA map.
 
 1.  In the main toolbar, select **Download Map**.
 
@@ -29,7 +29,7 @@ Perform the following steps to download a DITA map file along with its dependent
 
 1.  Select **Download**. In the Download Map dialog, you can choose the following options:
 
-    -   **Use Baseline**: Select this option to get a list of Baselines created for the DITA map. If you want to download the map file and its contents based on a specific Baseline, select the Baseline from the drop-down list. For more details about working with Baselines, see [Work with Baseline](generate-output-use-baseline-for-publishing.md#).
+    -   **Use Baseline**: Select this option to get a list of Baselines created for the DITA map. If you want to download the map file and its contents based on a specific Baseline, select the Baseline from the drop-down list. For more details about working with Baselines, view [Work with Baseline](generate-output-use-baseline-for-publishing.md#).
     -   **Flatten File Hierarchy**: Select this option to save all referenced topics and media files in a single folder.
     >[!NOTE]
     >
