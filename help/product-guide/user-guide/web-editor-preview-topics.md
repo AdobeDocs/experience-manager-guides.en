@@ -1,6 +1,6 @@
 ---
 title: Preview a topic
-description: Learn how to preview a topic in AEM Guides. Know about the features available in preview mode. Branch, revert, and subsequent versioning in AEM guides.
+description: Learn how to preview a topic in Adobe Experience Manager Guides. Know about the features available in preview mode. Branch, revert, and subsequent versioning in Experience Manager Guides.
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
@@ -60,11 +60,11 @@ The following operations are available in the toolbar when using the Preview fea
 
 **Properties**
 
-View the properties of the selected topic. Based on your Adobe Experience Manager version, you could see properties like metadata, schedule \(de\)activation, references, document state and more.
+View the properties of the selected topic. Based on your Adobe Experience Manager version, you could view properties like metadata, schedule \(de\)activation, references, document state and more.
 
 >[!NOTE]
 >
-> A topic's title property is auto-populated from the `title` tag of the DITA topic or map. If you make any change in the title using the properties window that change is lost. If you want to update the title property, you should do it using the Web editor.
+> A topic's title property is auto-populated from the `title` tag of the DITA topic or map. If you make any change in the title using the properties window that change is lost. If you want to update the title property, you should do it using the editor.
 
 The Properties page contains useful information about the references, such as where a map or topic is being used, or what references are contained in a document. The Properties page lists two types of references for a document - **Used In** and **Outgoing References**.
 
@@ -78,7 +78,7 @@ Selecting the ![](images/right-arrow-used-in-dialog.svg)icon next to a document 
 
 **Conditional Filtering \(A/B\)**
 
-If your topic has conditional content, then you will see the A/B icon on the toolbar. Selecting this icon opens a pop-up that allows you to filter the content as per the available conditions in the topic.
+If your topic has conditional content, then you will view the A/B icon on the toolbar. Selecting this icon opens a pop-up that allows you to filter the content as per the available conditions in the topic.
 
 >[!NOTE]
 >
@@ -238,6 +238,6 @@ If the Checked out column is not visible, select **View Settings** under **List 
     1.  Select **OK**.
 
 
-    A new branch is created from the selected version of the topic. The above process is also applicable for reverting to a specific version of a topic. Reverting to a specific version technically means that you create a new branch from the selected version and make that version the current working copy of the topic. You can also view the history of files that have been reverted in the Version Revert History report. For more details about this report, see [Reverted files version history report](reports-reverted-file-version-history.md#).
+    A new branch is created from the selected version of the topic. The above process is also applicable for reverting to a specific version of a topic. Reverting to a specific version technically means that you create a new branch from the selected version and make that version the current working copy of the topic. You can also view the history of files that have been reverted in the Version Revert History report. For more details about this report, view [Reverted files version history report](reports-reverted-file-version-history.md#).
 
 **Parent topic:**[Create and preview topics](create-preview-topics.md)

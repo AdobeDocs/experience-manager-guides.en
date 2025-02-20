@@ -92,7 +92,7 @@ The **Settings** option is available only for administrators and folder profile 
 
              ![](images/subject-scheme-title.png){width="550" align="left"}
 
-        -  **Show subject scheme in the Conditions panel**: Select this to see a subject scheme in the conditions panel. If you deselect this, the defined conditions are shown in the conditions panel.
+        -  **Show subject scheme in the Conditions panel**: Select this to view a subject scheme in the conditions panel. If you deselect this, the defined conditions are shown in the conditions panel.
 
     -  **Authoring**
 
@@ -134,7 +134,7 @@ In the following screenshot, only 3 out of 4 configured elements from the previo
 
     ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
-    With this setting, when you try to add an attribute to an element, you only see the list of attributes configured in the list.
+    With this setting, when you try to add an attribute to an element, you only view the list of attributes configured in the list.
 
     ![](images/editor-setting-add-attributes-list.png){width="300" align="left"}
 
@@ -357,7 +357,7 @@ Once you choose a version from the drop-down list, the **Revert to selected vers
 
 Labels help you identify the stage in which a particular topic is in the DDLC \(Document Development Life Cycle\). For example, when you are working on a topic, you could set the label as "Approved". Once a topic is published and made available to customers, you can assign "Released" label to that topic.
 
-Experience Manager Guides allows you to specify labels in a free-form text format or use a set of predefined labels. The custom label would allow any author in the system to specify a label as per their choice. This gives flexibility; however, it introduces inconsistent labels in the system. To overcome this issue, administrators can configure a set of predefined labels. For more information about configuring predefined labels, see *Configure and customize the XML Web Editor* in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+Experience Manager Guides allows you to specify labels in a free-form text format or use a set of predefined labels. The custom label would allow any author in the system to specify a label as per their choice. This gives flexibility; however, it introduces inconsistent labels in the system. To overcome this issue, administrators can configure a set of predefined labels. For more information about configuring predefined labels, view *Configure and customize the XML Web Editor* in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 These labels are shown in the form of a drop-down list to authors wherever they need to specify a label. This ensures that only predefined, consistent labels are used in the system.
 
@@ -634,7 +634,7 @@ You can also add other properties for an image file by selecting the required pr
 
 >[!NOTE]
 >
->You can also define clickable areas \(image map\) in your image. For more details, see the **Insert/Edit Image Map** feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section. 
+>You can also define clickable areas \(image map\) in your image. For more details, view the **Insert/Edit Image Map** feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section. 
 
 **Context menu for image or media files**
 
@@ -674,7 +674,7 @@ On selecting the Audio or Video file option, you are shown the repository view t
 >
 > While adding a YouTube video link, you need to replace the string `watch?v=` with `embed` in the URL. For example, to add a YouTube video link: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, you need to add it as: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. This change ensures that the video gets embedded in the AEM Site and PDF output.
 
-You can also add the Audio or Video File from the Insert Multimedia dialog. Select the Audio/Video File option and then, select the browse icon to launch the repository view. Select the audio or video file from the repository and select **Select** to add the link of the file in the Audio/Video File field. In case you choose a video file, then a preview of the file is also shown in the Preview area. You can play the video file to see its preview.
+You can also add the Audio or Video File from the Insert Multimedia dialog. Select the Audio/Video File option and then, select the browse icon to launch the repository view. Select the audio or video file from the repository and select **Select** to add the link of the file in the Audio/Video File field. In case you choose a video file, then a preview of the file is also shown in the Preview area. You can play the video file to view its preview.
 
 ![](images/insert-multimedia.png){width="650" align="left"}
 
@@ -697,7 +697,7 @@ You can also search using the UUID of the file that you want to reference. For C
 
 ![](images/insert-content-using-uuid-search.png){width="650" align="left"}
 
-If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will see the UUID of the referenced content in the **Link** property.
+If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will view the UUID of the referenced content in the **Link** property.
 
 ![](images/ref-link-uuid_cs.png){width="800" align="left"}
 
@@ -723,14 +723,14 @@ You can search for Non-DITA Files like the Image Files, Multimedia, and document
 
 >[!NOTE]
 >
-> Your system administrator can also configure the text filters and show or hide other filters. For more details see Configure text filters section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+> Your system administrator can also configure the text filters and show or hide other filters. For more details view Configure text filters section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 The list of filtered files which contain the searched text is displayed. For example, in the above screenshot the files containing the text 'general' are listed. You can also preview the content of the file.
 
 
 **Reusable Content** - ![](images/reusable-content.svg)
 
-Reuse content that exists within any other document in your project. You can insert content by directly linking to the content in a file or by using a key reference, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z). When you select the Reusable content icon, you get the Reuse Content dialog box:
+Reuse content that exists within any other document in your project. You can insert content by directly linking to the content in a file or by using a key reference, view [Resolve key references](map-editor-other-features.md#id176GD01H05Z). When you select the Reusable content icon, you get the Reuse Content dialog box:
 
 ![](images/reuse-content-dialog.png){width="650" align="left"}
 
@@ -738,7 +738,7 @@ In the Reuse Content dialog box, select DITA file for file references or the DIT
 
 For inserting Content Reference, you can also enter the UUID of the file and the reusable content from that file is listed in the Preview section.
 
-Based on the setting for inserting links, you could either see the UUID of the inserted content or the relative path in the Properties panel or the Source code view. The link is always created using the UUID of the referenced content. See Configure UUID-based links in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+Based on the setting for inserting links, you could either view the UUID of the inserted content or the relative path in the Properties panel or the Source code view. The link is always created using the UUID of the referenced content. view Configure UUID-based links in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 >[!NOTE]
 >
@@ -818,7 +818,7 @@ Enter comments and version labels to identify the changes and select **Save** to
 
 When you choose the **Save as new version** option, the first version of the topic is created in DAM, which also becomes the currently active version of your topic. Later, if you revert to an older version of the topic, then that becomes your current active version of the topic.
 
-If your administrator has pre-configured version labels, then you will see those labels in a drop-down list. You can choose a label from the list of available labels and save your document.
+If your administrator has pre-configured version labels, then you will view those labels in a drop-down list. You can choose a label from the list of available labels and save your document.
 
 ![](images/web-editor-pre-defined-labels.PNG){width="300" align="left"}
 
@@ -1018,13 +1018,13 @@ This is in sync with the search box on the repository window. For example, if yo
 
     >[!NOTE]
     >
-    >Your system administrator can also configure the text filters and show or hide other filters. For more details see *Configure text filters* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+    >Your system administrator can also configure the text filters and show or hide other filters. For more details view *Configure text filters* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
     >
     >The list of filtered files that contain the searched text is displayed. For example, the files containing the text `personal spaceship` are listed in the previous screenshot. You can select multiple files from the filtered list to drag and drop them into a map opened for editing.
 
 **Options menu**
 
-In addition to opening files from the left panel, you can also perform many actions using the Options menu available in the Repository view. You will see different options, depending on whether you choose a folder, topic file, or a media file.
+In addition to opening files from the left panel, you can also perform many actions using the Options menu available in the Repository view. You will view different options, depending on whether you choose a folder, topic file, or a media file.
 
 **Options for a folder**
 
@@ -1043,8 +1043,8 @@ You can perform the following actions using the Options menu available for a *fo
 
    3. In the **New topic** dialog box, provide the following details:
         - A Title for the topic.
-        - \(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
-        - A template on which the topic will be based. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, Markdown, Glossary, and Troubleshooting templates. If your folder has a Folder Profile configured on it, then you will see only those topic templates that are configured on the Folder profile.
+        - \(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then you will not view the Name field.
+        - A template on which the topic will be based. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, Markdown, Glossary, and Troubleshooting templates. If your folder has a Folder Profile configured on it, then you will view only those topic templates that are configured on the Folder profile.
 
         - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
     
@@ -1059,7 +1059,7 @@ You can perform the following actions using the Options menu available for a *fo
 
    3. In the **New map** dialog box, provide the following details:
         - A Title for the map.
-        - *\(Optional\)* The file name for the map. The file name is auto-suggested based on the map title. In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
+        - *\(Optional\)* The file name for the map. The file name is auto-suggested based on the map title. In case your administrator has enabled automatic file names based on UUID setting, then you will not view the Name field.
         - A template on which the map will be based. For example, for an out-of-the-box setup, you can choose from the Bookmap or DITA map templates.
         - Path where you want to save the map file. By default, the path of currently selected folder in the repository is shown in the Path field.
    4. Select **Create**. The map is created and added within the folder specified in the Path field. Also, the map is opened in the Map view. You can open the map file in the Map Editor and add topic to it. For more information about adding topics to a map file, view [Create a map](map-editor-create-map.md#). Alternatively, select **Open in map console** to open the map in Map console.
@@ -1082,7 +1082,7 @@ You can perform the following actions using the Options menu available for a *fo
 
     You can select a folder where you want to upload the file and a preview of the image is also shown. If you want to rename the file, you can do so in the file name text box. Select **Upload** to complete the file upload process. If you have dragged and dropped an image file on a topic, then the image file is added in the article, and it is also uploaded.
 
-    If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will see the UUID of the uploaded image in the **Source** property.
+    If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will view the UUID of the uploaded image in the **Source** property.
 
     ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
 
@@ -1182,7 +1182,7 @@ The various options in the Options menu are explained below:
 
         >[!NOTE]
         >
-        > If your administrator has prevented the deletion of locked files, only then the error message is displayed. For more details, see *Prevent deletion of checked out files* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+        > If your administrator has prevented the deletion of locked files, only then the error message is displayed. For more details, view *Prevent deletion of checked out files* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
     - If the file is added to a collection, the **Force Delete** dialog box is displayed, and you can forcefully delete it.
     - If the file is referenced from any other file then **Force Delete** dialog with the confirmation message is displayed, and you can forcefully delete the file:
@@ -1191,7 +1191,7 @@ The various options in the Options menu are explained below:
 
         >[!NOTE]
         >
-        > If your administrator has given the file delete permission, then **Force Delete** is enabled. Else, **Force Delete** is disabled and a message is displayed that you do not have permission to delete referenced files. For more details, see *Prevent deletion of referenced files* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+        > If your administrator has given the file delete permission, then **Force Delete** is enabled. Else, **Force Delete** is disabled and a message is displayed that you do not have permission to delete referenced files. For more details, view *Prevent deletion of referenced files* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
     - If you delete a referenced topic and you have opened the file containing references for edit, it will show the broken link for the referenced file.
 
@@ -1240,7 +1240,7 @@ By default, you can view the files by titles. As you hover over a file, you can 
 >As an administrator, you can also choose to view the filename of the parent map which is currently opened in the map view. Select the **File name** option of the **View files by** section in **User preferences**.
 
 
-When you open a map in the map view, the title of the current map is displayed in the centre of the Tab bar. If the title is too long, then an ellipsis is displayed and you can also hover over the title to see the full title in the tool tip. 
+When you open a map in the map view, the title of the current map is displayed in the centre of the Tab bar. If the title is too long, then an ellipsis is displayed and you can also hover over the title to view the full title in the tool tip. 
 
 When you define key attributes for the topic or map references, you can view the title, the corresponding icon, and the key in the left panel. The key is displayed as `keys=<key-name>`. 
 
@@ -1376,7 +1376,7 @@ To add a DITA file to your Reusable content panel, use any of the following meth
 - Right-click on a file's tab in the editor to open the context menu and choose **Add to** > **Reusable content**.
 
 
-Once the file is added, you can see all reusable content elements from the file in the Reusable content panel. Reusable content is shown with their IDs and element names.
+Once the file is added, you can view all reusable content elements from the file in the Reusable content panel. Reusable content is shown with their IDs and element names.
 
 When you add a file to the Reusable content list, the file's title is shown instead of the UUID of the file. To check the UUID of the file, mouse hover over the file's title and the UUID of the file is displayed in the tooltip.
 
@@ -1412,17 +1412,17 @@ The Outline view offers the following features:
 
 - A tree view of all elements used in the document.
 
-- If an element has an ID, attribute, and text you can see them along with the element.
+- If an element has an ID, attribute, and text you can view them along with the element.
 
 - Access Outline view in both Author and Source views.
 
 - Use the filter drop-down list to show all elements or only the broken references:
 
-- Clicking on an element in the Outline view selects the element's content in the Author or Source view.The Outline view remains in sync with the Author and Source view. If you make any changes in any view, you can see them in the Outline view. For example, if you add a paragraph or update an element in the Author view, it is shown in the Outline view. 
+- Clicking on an element in the Outline view selects the element's content in the Author or Source view.The Outline view remains in sync with the Author and Source view. If you make any changes in any view, you can view them in the Outline view. For example, if you add a paragraph or update an element in the Author view, it is shown in the Outline view. 
 
     ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
 
-- Drag and drop elements. You can easily replace an element by dropping another element on it. If you drag and drop an element over another element and you see a dashed rectangle box around the element, it indicates that the element will get replaced. It replaces the element on which the element is dropped.
+- Drag and drop elements. You can easily replace an element by dropping another element on it. If you drag and drop an element over another element and you view a dashed rectangle box around the element, it indicates that the element will get replaced. It replaces the element on which the element is dropped.
 
     ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
 
@@ -1434,7 +1434,7 @@ The Outline view offers the following features:
 
 >[!NOTE]
 >
->For more details on Generate ID, Insert element before or after the current element, and Unwrap an element, see [Other features in the Editor](web-editor-other-features.md#).
+>For more details on Generate ID, Insert element before or after the current element, and Unwrap an element, view [Other features in the Editor](web-editor-other-features.md#).
 
 **View Configure**
 
@@ -1499,7 +1499,7 @@ You can configure the following settings of the Hotspot tool:
 
 - **Convert** button appears if you select **Automatically for all topics** option. Select **Convert** to convert all the terms found in the document to linked glossary abbreviations.
 
-A list of the **Topics Updated** with the converted terms and **Topics with Error** is displayed. Hover over the \( ![](images/info-icon.svg)\) icon near Topics with Error to see the details of the error.
+A list of the **Topics Updated** with the converted terms and **Topics with Error** is displayed. Hover over the \( ![](images/info-icon.svg)\) icon near Topics with Error to view the details of the error.
 
 >[!NOTE]
 >
@@ -1860,9 +1860,9 @@ To enable the **Replace all** icon, your system administrator must select the op
 
     >[!NOTE]
     >
-    > Hover over a file from the search result list to see Replace all in File icon on the right of it. You also get the Ignore File icon to remove the file from the search result. The files which you ignore are removed from the list and the searched term is not replaced in them.
+    > Hover over a file from the search result list to view Replace all in File icon on the right of it. You also get the Ignore File icon to remove the file from the search result. The files which you ignore are removed from the list and the searched term is not replaced in them.
 
-Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will see "Replace all in progress" status. You can also abort the replace all operation in between or see the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
+Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between or view the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
 
 ![](images/replace-all-in-progress.png){width="400" align="left"}
 
@@ -1915,7 +1915,7 @@ To view the review comments in the active review tasks that are present in your 
    > 
    > The **Review** panel and the **Comments** panel are in sync at all times. In the Comments panel, the comments are loaded based on the review task loaded in the Review panel.
    >You can view the closed review tasks in the left rail of Review Panel along with the active review tasks.
-   >Additionally, for a closed review task you can see the review comments in the Comments panel on the right but the **Import Comments** and **Revert Version** buttons are disabled. 
+   >Additionally, for a closed review task you can view the review comments in the Comments panel on the right but the **Import Comments** and **Revert Version** buttons are disabled. 
    >For more information about how to address the comments, view [Address review comments](review-address-review-comments.md#).
  
 
@@ -1997,7 +1997,7 @@ The General section gives you access to the following features:
 - **Created on**: Displays date and time on which the topic was created.
 - **Modified on**: Displays the date and time on which the topic was modified. 
 - **Locked by**: Shows the user who locked the topic.
-- **Document state**: You can select and update the document state of the currently opened topic. For more details, See [Document State](web-editor-document-states.md#).
+- **Document state**: You can select and update the document state of the currently opened topic. For more details, view [Document State](web-editor-document-states.md#).
 
 >[!NOTE]
 >

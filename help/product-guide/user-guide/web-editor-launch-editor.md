@@ -1,6 +1,6 @@
 ---
 title: Launch the Editor
-description: Learn how to launch the Editor from the AEM Navigation Page, AEM Assets UI, and DITA map Console in AEM Guides.
+description: Learn how to launch the Editor from the AEM Navigation Page, AEM Assets UI, and Map Console in Adobe Experience Manager Guides.
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
@@ -49,7 +49,7 @@ To open a topic in the Editor, follow these steps:
 
     >[!NOTE]
     >
-    > You can also see the UUID of the topic.
+    > You can also view the UUID of the topic.
 
     ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
 
@@ -71,7 +71,7 @@ To open a topic in the Editor, follow these steps:
 
     >[!IMPORTANT]
     >
-    > If you want to open multiple topics for editing, select the desired topics from the Asset UI and select **Edit**. Ensure that your browser does not have pop-up blocker enabled, else only the first topic in the selected list is opened for editing.
+    > If you want to open multiple topics for editing, select the desired topics from the Asset UI and select **Edit**. Ensure that your browser does not have a pop-up blocker enabled, else only the first topic in the selected list is opened for editing.
 
     ![](images/edit-from-preview_cs.png){width="800" align="left"}
 
@@ -102,7 +102,7 @@ To open a map in the Editor, follow these steps:
 
 ## Map console 
 
-To open the Editor from Map console, follow these steps:
+To open the Editor from the Map console, follow these steps:
 
 1. Open the Home page and launch Map console. 
 
@@ -112,7 +112,7 @@ To open the Editor from Map console, follow these steps:
 
     ![](images/launch-map-console.png){width="500" align="left"}
 
-1. Click **Select map** to open a map file containing the topics that you want to edit in the Editor.
+1. Choose **Select map** to open a map file containing the topics that you want to edit in the Editor.
 1. Select the path where your map file is located. The selected map file is added to the Map console. 
 1. Navigate to the map file and select **Open in editor** from the dropdown. 
 
@@ -127,4 +127,4 @@ To open the Editor from Map console, follow these steps:
 
 
 
-**Parent topic:**[Work with the Editor](web-editor.md)
+**Parent topic**: [Work with the Editor](web-editor.md)
