@@ -253,7 +253,7 @@ breadcrumb-title: AEM Guides Documentation
     - Editor best practices and keyboard shortcuts {#editor-bp-ks}
         - [Best practices for working with the Editor](./user-guide/web-editor-edit-topics.md)
         - [Keyboard shortcuts in the Editor](./user-guide/web-editor-keyboard-shortcuts.md)
-- [User Guide (Old UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-legacy/user-guide/about-aem-guide/intro-legacy)
+- [User Guide (Old UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-legacy/user-guide/about-aem-guide/intro)
 - Installation and configuration {#install-guide}
   - On-premise {#on-prem-ig}
     - [On-premise basics](./install-guide/introduction.md)

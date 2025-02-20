@@ -13,7 +13,7 @@ badgeAll: label="Legacy Guide - More Info" type="Informative" url="/help/legacy-
 - [Release notes (primary guide)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
 - User Guide (Old UI) {#user-guide}
   - Introduction {#about-aem-guide}
-    - [About [!DNL Adobe Experience Manager Guides]](./user-guide/intro-legacy.md)
+    - [About [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] working and key features {#aemg-works-features}
       - [How [!DNL AEM Guides] works](./user-guide/intro-how-dxml-works.md)
       - [Key [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
