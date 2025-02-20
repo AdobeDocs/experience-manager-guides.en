@@ -3,7 +3,7 @@ title: About Adobe Experience Manager Guides
 description: Learn about Adobe Experience Manager Guides, an enterprise-grade DITA-based component content management solution. Know the benefits of AEM Guides.
 feature: Introduction
 role: User
-exl-id: 629a7bd6-9f72-49ef-8fa5-923a729098f2
+
 ---
 # About Adobe Experience Manager Guides {#id1645E0A50MY}
 
