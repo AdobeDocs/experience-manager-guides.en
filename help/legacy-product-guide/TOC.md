@@ -133,4 +133,3 @@ badgeAll: label="Legacy Guide - More Info" type="Informative" url="/help/legacy-
     - [Content Reuse Report](./user-guide/reports-content-reuse.md)
     - [Conversion Status Report](./user-guide/reports-convertion-status.md)
     - [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md)
-- [User Guide (New UI)](../product-guide/user-guide/intro.md)
