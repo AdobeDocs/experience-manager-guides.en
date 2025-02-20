@@ -69,4 +69,4 @@ Following is a list of other helpful resources of AEM Guides, which are availabl
 * Quick Start Guide
 * [Help* Archival Page](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (access older release documentation)
 
-**Parent topic:**[About Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Parent topic:**[About Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro-legacy.md)
