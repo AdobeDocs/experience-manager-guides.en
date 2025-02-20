@@ -1,6 +1,6 @@
 ---
 title: Work with the Editor
-description: Create and edit structured documents using web editor. Learn how to work with the web editor following the DITA standards in AEM Guides.
+description: Create and edit structured documents using editor. Learn how to work with the editor following the DITA standards in Adobe Experience Manager Guides.
 exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
@@ -30,4 +30,4 @@ Also, the Editor is DITA-aware and it supports DITA 1.3, 1.2 standards, lightwei
 -   **[Use labels](web-editor-use-label.md)**  
 
 
-**Parent topic:**[Author content using AEM Guides](authoring-content-xml-doc.md)
+**Parent topic:**[Author content using Experience Manager Guides](authoring-content-xml-doc.md)

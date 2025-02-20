@@ -1,6 +1,6 @@
 ---
 title: Create and preview topics
-description: Learn how to create and preview DITA topics in AEM Guides.
+description: Learn how to create and preview DITA topics in Adobe Experience Manager Guides.
 exl-id: 17db1827-f5e6-48a9-8989-5e24c3671e55
 feature: Authoring
 role: User

@@ -32,8 +32,8 @@ Perform the following steps to create a topic from the Editor:
     
 3. In the **New topic** dialog box, provide the following details:
     - A Title for the topic.
-    - \(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
-    - A template on which the topic will be based. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, Markdown, Glossary, and Troubleshooting templates. If your folder has a Folder Profile configured on it, then you will see only those topic templates that are configured on the Folder profile.
+    - \(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then you will not view the Name field.
+    - A template on which the topic will be based. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, Markdown, Glossary, and Troubleshooting templates. If your folder has a Folder Profile configured on it, then you will view only those topic templates that are configured on the Folder profile.
     - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
     
 4. Select **Create**.
@@ -66,7 +66,7 @@ Perform the following steps to create a topic from the Assets UI:
 
 1.  \(Optional\) Specify the file **Name**.
 
-    If your administrator has configured automatic file name based on UUID setting, then you will not see the option to specify the file name. A UUID-based file name is automatically assigned to the file.
+    If your administrator has configured automatic file name based on UUID setting, then you will not view the option to specify the file name. A UUID-based file name is automatically assigned to the file.
 
     If the file naming option is available, then also the name is automatically suggested based on the **Title** of your document. If you want to manually specify the document name, then ensure that the **Name** does not contain any spaces, apostrophe, or braces and ends with .xml or.dita. By default, Experience Manager Guides replaces all special characters with hyphens. View the Filenames section in the Best practices guide for best practices around naming DITA files.
 

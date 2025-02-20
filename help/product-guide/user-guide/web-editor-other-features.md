@@ -1,6 +1,6 @@
 ---
 title: Other features in the Editor
-description: Explore other features of the Editor in AEM Guides. Learn how to use these features for improved authoring in AEM Guides.
+description: Explore other features of the Editor in Adobe Experience Manager Guides. Learn how to use these features for improved authoring in Experience Manager Guides.
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
@@ -42,7 +42,7 @@ The various options in the context menu are explained below:
 
 ***Save As New Version***
 
-To create a new version of the file, select **Save As New Version**. For more details about **Save** and **Save As New Version**, see [Know the Editor features](web-editor-features.md#).
+To create a new version of the file, select **Save As New Version**. For more details about **Save** and **Save As New Version**, view [Know the Editor features](web-editor-features.md#).
 
 ***Copy***: You can choose from the following options:
 
@@ -65,7 +65,7 @@ To create a new version of the file, select **Save As New Version**. For more de
 
 ***Properties***
 
-To see the AEM properties page of the selected file, select **Properties**.
+To view the AEM properties page of the selected file, select **Properties**.
 
 ***Split***: You can choose from the following options:
 
@@ -79,7 +79,7 @@ By default, the Editor allows you to view one topic at a time. There could be in
 
 ***Quick Generate***
 
-Generate the output for the selected file. Output can be generated only for files that are a part of an output preset. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
+Generate the output for the selected file. Output can be generated only for files that are a part of an output preset. For more details, view [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 
 --->
 
@@ -91,7 +91,7 @@ If you want to close the file from which you invoked the context menu, then sele
 
 **File close and save scenarios** 
 
-When you try to close a file opened in the Editor using the **Close** button on the file's tab or the **Close** option in the Options menu, AEM Guides prompts you to save your edits and unlock a locked file.
+When you try to close a file opened in the Editor using the **Close** button on the file's tab or the **Close** option in the Options menu, Experience Manager Guides prompts you to save your edits and unlock a locked file.
 
 The prompts are based on the following configurations selected by your administrator:
 
