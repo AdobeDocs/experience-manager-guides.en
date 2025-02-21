@@ -61,7 +61,7 @@ To open a topic in the Editor, follow these steps:
 
     >[!IMPORTANT]
     >
-    > If your administrator has configured the **Disable edit without locking the file** option, then you must check out the file before editing. If you do not check out the file, you will not be able to see the edit option.
+    > If your administrator has configured the **Disable edit without locking the file** option, then you must check out the file before editing. If you do not check out the file, you will not be able to view the edit option.
 
 1.  Close the asset selection mode and select the topic that you want to edit.
 
@@ -127,4 +127,4 @@ To open the Editor from the Map console, follow these steps:
 
 
 
-**Parent topic**: [Work with the Editor](web-editor.md)
+**Parent topic**: [Introduction to the Editor](web-editor.md)

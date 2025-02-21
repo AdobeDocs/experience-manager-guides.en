@@ -38,7 +38,7 @@ Based on your setup your administrator can configure a data source connector:
 
 >[!NOTE]
 >
-> You will see the data sources for which your administrator has configured the connector. 
+> You will view the data sources for which your administrator has configured the connector. 
 
 
 ## Show list view or tile view  

@@ -16,7 +16,7 @@ Perform the following steps to create a Markdown topic from the Editor:
 1.  In the Repository panel, select ![](images/Add_icon.svg), and then select **Topic** from the dropdown.
 1.  In the **New topic** dialog box, provide the following details:
 
-    ![](images/create-markdown-dialog.png){width="350" align="left"}
+    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
     * **Title**: Provide a title for the topic.
     * **Name**: The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then the Name field won't be displayed.
@@ -30,10 +30,10 @@ Perform the following steps to create a Markdown topic from the Editor:
 
    The Markdown topic is created at the selected path and is open for editing.
 
-   ![](images/markdown-topic-author.png){width="550" align="left"}
+   ![](images/markdown-topic-author.png){width="650" align="left"}
 
 
- >![NOTE]
+ >[!NOTE]
  >
  > You can also create a markdown topic for a Folder within the Repository panel. Select the folder within which you want to create a markdown topic and select **New**, and then select **Topic** from the Options menu. You can now create a markdown topic by providing topic details in the **Create topic** dialog box. 
 
@@ -75,7 +75,7 @@ Features available in the tab bar are explained as follows:
 
 The toolbar is located just below the tab bar. Features available in the toolbar are explained as follows:
 
- ![](images/markdown-main-toolbar.png){width="550" align="left"}
+ ![](images/markdown-main-toolbar.png){width="800" align="left"}
 
 | Features       | Description   | 
 |----------------|----------------|
@@ -88,7 +88,7 @@ The toolbar is located just below the tab bar. Features available in the toolbar
 
 >[!NOTE]
 >
-> The **Version history** feature and the fetaures mentioned under editing actions, text formatting, and content insertion can be accessed from both the **Source** and **Side-by-side** views of the markdown topic.
+> The **Version history** feature and the features mentioned under editing actions, text formatting, and content insertion can be accessed from both the **Source** and **Side-by-side** views of the markdown topic.
 
 ### Content editing area
 
@@ -98,7 +98,7 @@ The content editing area displays the Markdown source of your topic, where you m
 
 For markdown authoring, the Editor supports three different viewing modes to assist with content creation and formatting:
 
-![](images/markdown-footer.png){width="550" align="left"}
+![](images/markdown-footer.png){width="800" align="left"}
 
 * Source
 * Side-by-side
@@ -119,15 +119,15 @@ This mode splits the Editor into two panels:
 
 ![](images/markdown-topic-side-by-side.png){width="550" align="left"}
 
-Use this view if you want to view the rendered output in realtime as you edit markdown topics.
+Use this view if you want to view the rendered output in real time as you edit markdown topics.
 
 **Preview**
 
-Opening a markdown topic in the Preview mode shows how a topic will be displayed when it is viewed by a user in their browser. In this view, all the editing features are removed from the toolbar. However, you can stil access the **Save as new versions**, **Lock/unlock** features in the toolbar, and the **File properties** feature in the right panel. 
+Opening a markdown topic in the Preview mode shows how a topic will be displayed when it is viewed by a user in their browser. In this view, all the editing features are removed from the toolbar. However, you can still access the **Save as new versions**, **Lock/unlock** features in the toolbar, and the **File properties** feature in the right panel. 
 
 ### Right panel
 
-The right panel gives you access to the **File properties**  panel. 
+The right panel gives you access to the **File properties panel. 
 
 The File Properties has the following two sections:
 
@@ -141,7 +141,7 @@ The General section gives you access to the following features:
 * **Created on**: Displays date and time on which the topic was created.
 * **Modified on**: Displays date and time on which the topic was modified.
 * **Locked by**: Shows the user who checked out the topic.
-* **Document state**: You can select and update the document state of the currently opened topic. For more details, See Document State.
+* **Document state**: You can select and update the document state of the currently opened topic. For more details, view [Document State](./web-editor-document-states.md).
 * **Tags**: These are the metadata tags of the topic. They are set from the tags field in the properties page. You can type or select them from the dropdown. The tags appear under the dropdown. To delete a tag, select the cross icon next to the tag.
 * **Edit more properties**: You can edit more properties from the file properties page.
 
@@ -150,7 +150,7 @@ The General section gives you access to the following features:
 The References section gives you access to the following features:
 
 * **Used in**: The Used in references list the documents where the current file is being referred or used.
-* **Outgoing links**: The Outgoing links lists the documents that are referred to in the current document.
+* **Outgoing links**: The Outgoing links list the documents that are referred to in the current document.
 
 >![NOTE]
 >
@@ -169,7 +169,7 @@ The following Experience Manager Guides features are currently not applicable fo
 
 >[!NOTE]
 >
-> The **Find and replace** feature does not processes Markdown files at the respository level. This includes searching for a Markdown file within a map or folder. However, it can still be used within the Markdown editor. Also, the **Search** and **Filter** options in the Repository view do not processes Markdown files. 
+> The **Find and replace** feature does not process Markdown files at the repository level. This includes searching for a Markdown file within a map or folder. However, it can still be used within the Markdown editor. Also, the **Search** and **Filter** options in the Repository view do not process Markdown files. 
 
 
-**Parent topic:**[Work with the Web Editor](web-editor.md)
+**Parent topic:**[Introduction to the Editor](web-editor.md)

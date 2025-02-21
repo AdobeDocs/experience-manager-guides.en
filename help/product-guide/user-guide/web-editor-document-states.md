@@ -46,7 +46,7 @@ To change the state of a document, perform the following steps:
 
     >[!NOTE]
     >
-    >Administrators can see all document states and change the document to any possible state.
+    >Administrators can view all document states and change the document to any possible state.
 
 1.  Select **Save & Close**.
 
@@ -68,7 +68,7 @@ To use the document approval feature, perform the following steps:
 
 >[!NOTE]
 >
-> The approval workflow feature must be enabled by your administrator. For more details, see *Enable approval workflow* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+> The approval workflow feature must be enabled by your administrator. For more details, view *Enable approval workflow* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 1.  In the Editor, open the document that you want to mark for approval.
 
@@ -108,4 +108,4 @@ Once a document is marked as approved, it is no longer available for editing. If
     The document's state is changed to Draft and the document is opened in the Editor in the edit mode.
 
 
-**Parent topic:**[Work with the Web Editor](web-editor.md)
+**Parent topic:**[Introduction to the Editor](web-editor.md)

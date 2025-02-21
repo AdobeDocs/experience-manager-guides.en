@@ -1,11 +1,11 @@
 ---
-title: Other features in the Editor
+title: Additional features in the Editor
 description: Explore other features of the Editor in Adobe Experience Manager Guides. Learn how to use these features for improved authoring in Experience Manager Guides.
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
 ---
-# Other features in the Editor {#id2056B0B0YPF}
+# Additional features in the Editor {#id2056B0B0YPF}
 
 There are some other useful features in the Editor that you can make use of:
 
@@ -240,4 +240,4 @@ Do the following to automatically generate ID for one or multiple elements:
     Alternatively you can right-click in the breadcrumb and select **Generate IDs**.
 
 
-**Parent topic:**[Work with the Editor](web-editor.md)
+**Parent topic:**[Introduction to the Editor](web-editor.md)

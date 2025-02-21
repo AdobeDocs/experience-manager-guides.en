@@ -27,9 +27,10 @@ Experience Manager Guides supports multiple styles of citations, such as Modern 
 To add citations, follow these steps:
 
 1. Select the **Citations** ![citations icon](images/citations-icon.svg) icon in the left panel.
-The **Citations** panel opens.
+    
+    The **Citations** panel opens.
 
-    ![](images/citation-panel.png){width="300" align="left"}
+    ![](images/citation-panel.png){width="350" align="left"}
 
 1. In the **Citations** panel, select ![Add icon](images/Add_icon.svg). From the dropdown you can choose to add a new citation or to import  a citation.
 
@@ -159,7 +160,7 @@ You can preview the content and format of the citation in the preview pane.
    >
    >The preview is based on the citation style that your administrator has selected in the **Settings**.
 
-1. Click anywhere on the screen to close the preview box.
+1. Select anywhere on the screen to close the preview box.
 
     ![](images/citation-preview.png){width="550" align="left"}
 

@@ -43,7 +43,7 @@ The Source view displays the underlying XML that makes up the topic. If you are 
     In the above screenshot, a cross highlight is used to point the line containing erroneous XML.
 
 * The Find and Replace feature allows you to search for any text, element, or attribute in the Source View. 
-For more details, see the **Find and Replace** feature description in the [Main toolbar](web-editor-features.md#id#id2051EA0G05Z) section. 
+For more details, view the **Find and Replace** feature description in the [Tab bar](web-editor-features.md#tab-bar) section. 
 
 * The Source View provides many shortcuts to help you quickly navigate and work on a document. The following table lists the supported actions and their shortcut keys:
 
@@ -108,13 +108,13 @@ If a document contains track changes markups \(or visual cues\), then you can al
 
 There are three **Tracking** options that you can choose from:
 
-* **No Markup**: In this view, all insertions and deletions are accepted, and a simple view of the document is presented. In this view, you do not see any track changes markups.
+* **No Markup**: In this view, all insertions and deletions are accepted, and a simple view of the document is presented. In this view, you do not view any track changes markups.
 * **Original**: In this view, all insertions are rejected and all deletions are restored back, and then a preview is shown. Simply, you get the original form of the document before you enabled the track changes mode.
 * **Show Markup**: In this view, you get all markups for inserted and deleted content.
 
     The following image shows the preview of a map file with markups:
 
-    ![](images/preview-map-with-track-changes.png){width="800" align="left"}
+    ![](images/preview-map-with-track-changes.png){width="300" align="left"}
 
 
 ### Export a topic as PDF {#id2114BL00B5U}
@@ -143,4 +143,4 @@ To export a topic as PDF, follow these steps:
     The PDF is generated and opened in a new tab or you are shown a dialog to save the PDF on your local system.
 
 
-**Parent topic:**[Work with the Web Editor](web-editor.md)
+**Parent topic:**[Introduction to the Web Editor](web-editor.md)

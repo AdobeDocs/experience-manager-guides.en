@@ -14,4 +14,4 @@ Adobe Experience Manager Guides comes with a powerful feature to create and prev
 -   **[Preview a topic](web-editor-preview-topics.md)**  
 
 
-**Parent topic:**[Author content](authoring-content.md)
+**Parent topic:**[Introduction to the Editor](web-editor.md)

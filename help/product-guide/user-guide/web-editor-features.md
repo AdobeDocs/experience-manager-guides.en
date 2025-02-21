@@ -108,7 +108,7 @@ The **Settings** option is available only for administrators and folder profile 
 
 ![](images/editor-setting-panel.png){width="650" align="left"}
 
-You can also define the order in which the features present in panels are displayed. To change the default order of the available features in the panels, select the dotted bars to drag and drop the feature tabs at the desired location. A feature can also be moved from the **More** section to the main section of a panel, and vice versa as per the requirement. Once re-ordered, the features appear in the same sequence in the respective right and left panels. 
+You can also define the order in which the features present in panels are displayed. To change the default order of the available features in the panels, select the dotted bars to drag and drop the feature tabs at the desired location. A feature can also be moved from the **More** section to the main section of a panel, and vice versa as per the requirement. Once re-ordered, the features appear in the same sequence in the respective right and left panel. 
 
 ![](images/panels-screen.png){width="650" align="left"}
 
@@ -384,7 +384,7 @@ To add labels to your topic from the Editor, perform the following steps:
 
     >[!NOTE]
     >
-    > If a label is already applied on a version, it is displayed next to the version number in the drop-down list and below the Select Version list. You can remove an existing label by clicking the \(**x**\) icon next to the label.
+    > If a label is already applied on a version, it is displayed next to the version number in the drop-down list and below the Select Version list. You can remove an existing label by selecting the \(**x**\) icon next to the label.
 
 1. In case your administrator has defined a list of labels, then you are shown a drop-down list of the labels from where you can choose the labels that you want to apply. You can select multiple labels from the drop-down list.
 
@@ -637,7 +637,7 @@ You can also add other properties for an image file by selecting the required pr
 
 >[!NOTE]
 >
->You can also define clickable areas \(image map\) in your image. For more details, view the **Insert/Edit Image Map** feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section. 
+>You can also define clickable areas \(image map\) in your image. For more details, view the **Insert/Edit Image Map** feature description in the [Left panel](web-editor-features.md#left-panel) section. 
 
 **Context menu for image or media files**
 
@@ -659,7 +659,7 @@ Choose the preferred shape Rectangle ![](images/imagemap-rectangle-toolbar.png),
 
 ![](images/reference-dialog.png){width="650" align="left"}
 
-If areas overlap, you can bring the shape forward or send it backward by clicking on the respective icon in the toolbar. You can also remove an area by selecting it and clicking the Delete icon. Double-clicking on an area opens the Reference dialog wherein you can change the destination link. Once you have marked the required areas on your image, save the changes by clicking Done.
+If areas overlap, you can bring the shape forward or send it backward by clicking on the respective icon in the toolbar. You can also remove an area by selecting it and clicking the Delete icon. Double-clicking on an area opens the Reference dialog wherein you can change the destination link. Once you have marked the required areas on your image, save the changes by selecting **Done**.
 
 
 **Multimedia** 
@@ -777,7 +777,7 @@ You can change the keyword's attributes or add a new attribute to the keyword.
 
 **Snippets** - ![](images/insert-snippet-icon.svg)
 
-Insert a snippet at the current or next valid location. For this feature to work, you must have snippets defined in your system. For more information about adding a snippet, view the **Snippet** feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section. 
+Insert a snippet at the current or next valid location. For this feature to work, you must have snippets defined in your system. For more information about adding a snippet, view the **Snippet** feature description in the [Left panel](web-editor-features.md#left-panel) section. 
 
 When you select the Snippets option, you are shown the Insert Snippet catalog. The catalog is context-sensitive, which indicates that it will show the snippets only if they are allowed at the current location.
 
@@ -1419,7 +1419,7 @@ The Outline view offers the following features:
 
 - Use the filter drop-down list to show all elements or only the broken references:
 
-- Clicking on an element in the Outline view selects the element's content in the Author or Source view. The Outline view remains in sync with the Author and Source view. If you make any changes in any view, you can view them in the Outline view. For example, if you add a paragraph or update an element in the Author view, it is shown in the Outline view. 
+- Choosing an element in the Outline view selects the element's content in the Author or Source view. The Outline view remains in sync with the Author and Source view. If you make any changes in any view, you can view them in the Outline view. For example, if you add a paragraph or update an element in the Author view, it is shown in the Outline view. 
 
     ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
 
@@ -1738,7 +1738,7 @@ You can also change the values from the attribute's drop-down in the Source view
 
 You can also view and apply the subject scheme from the Conditions panel.
 
-To view the subject scheme from the Conditions panel, your system administrator must select the **Show subject scheme in the Conditions panel** option under the General tab in Settings. For more details, view the **Settings** section in the [Tab bar](#main-toolbar).
+To view the subject scheme from the Conditions panel, your system administrator must select the **Show subject scheme in the Conditions panel** option under the General tab in Settings. For more details, view the **Settings** section in the [Tab bar](#tab-bar).
 
 The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
 
@@ -2046,7 +2046,7 @@ Using the Tracked changes feature of the right panel, you can view the informati
 
 >[!NOTE]
 >
-> Tracked changes feature shows all updates that have been tracked using the Enable/Disable Track Changes feature of the [Tab bar](#main-toolbar).
+> Tracked changes feature shows all updates that have been tracked using the Enable/Disable Track Changes feature of the [Tab bar](#tab-bar).
 
 ### Schematron
 
@@ -2056,4 +2056,4 @@ Learn how to work with Schematron files in Experience Manager Guides, refer to [
 
 
 
-**Parent topic**: [Work with the Editor](web-editor.md)
+**Parent topic**: [Introduction to the Editor](web-editor.md)
