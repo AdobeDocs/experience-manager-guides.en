@@ -50,4 +50,4 @@ Perform the following steps to view the Conversion Status Report:
         - **Output**: Path of the successfully converted document. Selecting on the Output link takes you to the location where the output is saved.
 
 
-**Parent topic:**[Reports](reports-intro.md)
+**Parent topic:**[Introduction to reports](reports-intro.md)

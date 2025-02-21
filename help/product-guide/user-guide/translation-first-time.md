@@ -73,4 +73,4 @@ After the translation completes, the status of the translation job changes to *R
 >- If you reject, delete or cancel the translation job for a topic present in multiple projects (for any one of the projects), the **In Progress** translation status of the topic does not revert but that project gets removed from the **In Progress** project list for that given asset. 
 >- Additionally, if you cancel or delete the translation job or delete the entire project, the **In Progress** translation status reverts to their original status.
 
-**Parent topic:**[Translate content](translation.md)
+**Parent topic:**[Content translation overview](translation.md)

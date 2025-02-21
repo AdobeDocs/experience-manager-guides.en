@@ -22,4 +22,4 @@ Perform the following steps to view the translation status of a DITA map:
 
     ![](images/translation-status-new.png){width="800" align="left"}
 
-**Parent topic:**[Translate content](translation.md)
+**Parent topic:**[Content translation overview](translation.md)

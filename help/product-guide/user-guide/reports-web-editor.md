@@ -260,4 +260,4 @@ Once you fix a link, it is not displayed under the list of broken links. Instead
 1. Select **Download** to download the snapshot of all the broken links in the DITA map. The excel file contains the selected columns and the broken links filtered in the Broken Links view. 
 
 
-**Parent topic:**[Reports](reports-intro.md)
+**Parent topic:**[Introduction to reports](reports-intro.md)

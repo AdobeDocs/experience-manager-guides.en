@@ -51,4 +51,4 @@ Perform the following steps to access the Revert History report:
     - **Comment**: Any comment given by the user who reverted the file.
 
 
-**Parent topic:**[Reports](reports-intro.md)
+**Parent topic:**[Introduction to reports](reports-intro.md)

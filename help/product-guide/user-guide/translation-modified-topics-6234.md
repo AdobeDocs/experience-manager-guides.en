@@ -72,4 +72,4 @@ Perform the following steps to send a modified topic for re-translation:
 1. Navigate back to the DITA map file in the source language folder in Assets UI. The re-translated topics are now In sync.
 
 
-**Parent topic:**[Translate content](translation.md)
+**Parent topic:**[Content translation overview](translation.md)

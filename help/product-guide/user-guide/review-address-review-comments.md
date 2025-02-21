@@ -67,4 +67,4 @@ In the Web Editor mode, the right panel contains the Review and Track Changes ic
 -   **I**: Apply a filter on the comments. You can filter to view comments on the basis of Review Type \(all, highlighted, deleted, inserted, or sticky note\), Review Status \(all, accepted, rejected, or none\), Reviewers \(all or specific reviewer\(s\)\), or Versions of topic.
 
 
-**Parent topic:**[Review topics or maps](review.md)
+**Parent topic:**[Introduction to review](review.md)

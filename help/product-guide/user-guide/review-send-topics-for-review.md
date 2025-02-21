@@ -263,4 +263,4 @@ To send one or multiple topics along with the map file for review, perform the f
 
 An email is sent to all the reviewers, notifying that they have been assigned topics for review. The email contains a direct link that they can use to access the topic in a browser window. The topics along with the DITA map are opened in the review mode.
 
-**Parent topic:**[Review topics or maps](review.md)
+**Parent topic:**[Introduction to review](review.md)

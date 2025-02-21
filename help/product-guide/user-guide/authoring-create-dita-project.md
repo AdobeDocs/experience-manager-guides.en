@@ -70,4 +70,4 @@ Perform the following steps to create a DITA project:
 1.  Select **Open** to open your project page.
 
 
-**Parent topic:**[Review topics or maps](review.md)
+**Parent topic:**[Introduction to review](review.md)

@@ -91,4 +91,4 @@ Perform the following steps to generate the CSV of a DITA map report:
 
 Once the report is downloaded in the Inbox you can also select the report and use the Open icon on the top to open the selected report.
 
-**Parent topic:**[Reports](reports-intro.md)
+**Parent topic:**[Introduction to reports](reports-intro.md)

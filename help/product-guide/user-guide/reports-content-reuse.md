@@ -56,4 +56,4 @@ Perform the following steps to view the Content Reuse Report:
 >
 > You can also export the Content Reuse Report in CSV format. To do so, select Export to CSV link at the top-left corner of the screen and choose a location to save the CSV file. You can then open this CSV file in any CSV editor.
 
-**Parent topic:**[Reports](reports-intro.md)
+**Parent topic:**[Introduction to reports](reports-intro.md)

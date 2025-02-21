@@ -32,4 +32,4 @@ Once the review task is reassigned, the Assignee column displays the name of the
 
 The assigned reviewer receives a notification in the Inbox for the re-assigned review task.
 
-**Parent topic:**[Review topics or maps](review.md)
+**Parent topic:**[Introduction to review](review.md)

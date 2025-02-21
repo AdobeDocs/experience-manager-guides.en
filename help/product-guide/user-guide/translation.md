@@ -5,7 +5,7 @@ exl-id: 88df750c-fb26-47f1-a884-b9e2f96b96ea
 feature: Translation
 role: User
 ---
-# Translate content {#id1645H700L67}
+# Content translation overview {#id1645H700L67}
 
 Adobe Experience Manager Guides comes with powerful capabilities that enable you to translate your content into multiple languages. Both, human and machine translation workflows are supported by Experience Manager Guides.
 
@@ -17,9 +17,10 @@ Adobe Experience Manager Guides comes with powerful capabilities that enable you
     >
     > Microsoft Translator is available only as a trial license.
 
--   **[Translate documents from the Map console](translate-documents-web-editor.md)**  
 
--   **[Best practices for content translation](translation-first-time.md)**  
+-   **[Best practices for content translation](translation-first-time.md)**
+
+-   **[Translate documents from the Map console](translate-documents-web-editor.md)**   
 
 -   **[View translation status](translation-view-trans-state-6234.md)**  
 

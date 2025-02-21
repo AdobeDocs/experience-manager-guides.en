@@ -244,4 +244,4 @@ Select one or more of the following filtering options from the **Filter Type** d
 
 To remove the filter and view all the comments, deselect all filters from the **Filter Type** dialog and select **Apply**.
 
-**Parent topic:**[Review topics or maps](review.md)
+**Parent topic:**[Introduction to review](review.md)

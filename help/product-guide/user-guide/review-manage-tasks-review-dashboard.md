@@ -118,4 +118,4 @@ The status report for the review task contains the following details:
 -   Total number of comments made on all topics. In case of multiple topics under review, the number of comments for each topic is mentioned \(in brackets\) against the topic name.
 -   The date when any topic was last accessed by the reviewer.
 
-**Parent topic:**[Review topics or maps](review.md)
+**Parent topic:**[Introduction to review](review.md)
