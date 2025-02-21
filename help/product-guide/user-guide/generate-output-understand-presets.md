@@ -11,8 +11,8 @@ Experience Manager Guides supports creating output in the most popular formats l
 
 You can create and manage output presets in two ways:
 
--   **From the map console**: You can create AEM Sites, PDF, Knowledge Base, HTML5, Custom, and JSON output preset and generate the respective outputs.
--   **From the map dashboard**: You can create AEM Sites, PDF, HTML5, EPUB, and custom output preset and generate the respective outputs.
+-   **From the Map console**: You can create AEM Sites, PDF, Knowledge Base, HTML5, Custom, and JSON output preset and generate the respective outputs.
+-   **From the Map dashboard**: You can create AEM Sites, PDF, HTML5, EPUB, and custom output preset and generate the respective outputs.
 
 For more details, view [create, edit, duplicate, or remove an output preset](./generate-output-create-edit-preset.md). 
 

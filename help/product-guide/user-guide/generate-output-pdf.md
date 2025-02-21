@@ -1,13 +1,13 @@
 ---
 title: PDF preset types
-description: Learn about the types of PDF preset you can create using AEM Guides. 
+description: Learn about the types of PDF preset you can create using Adobe Experience Manager Guides. 
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
 feature: Publishing
 role: User
 ---
-# PDF preset overview {#id205BE600HAH}
+# PDF output preset overview {#id205BE600HAH}
 
-With AEM Guides, you can create PDF presets to generate PDFs of individual topics or an entire map file. You can publish your content in a PDF format using one of the three methods below: 
+With Experience Manager Guides, you can create PDF presets to generate PDFs of individual topics or an entire map file. You can publish your content in a PDF format using one of the three methods below: 
 
 **DITA-OT**  
 

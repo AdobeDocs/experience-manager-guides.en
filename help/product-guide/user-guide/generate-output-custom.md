@@ -1,6 +1,6 @@
 ---
 title: Custom
-description: Learn how to create custom preset from the map console and map dashboard. Configure a custom output preset in AEM Guides.
+description: Learn how to create custom preset from the map console and map dashboard. Configure a custom output preset in Experience Manager Guides.
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User

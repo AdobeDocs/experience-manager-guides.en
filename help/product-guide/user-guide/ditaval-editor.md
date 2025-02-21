@@ -24,15 +24,15 @@ Perform the following steps to create a DITAVAL file:
 
 1. In the Repository panel, select the **New file** icon and then select **Topic** from the dropdown menu. 
 
-    ![](images/new-file-option.png){width="300" align="left"}
+    ![](images/new-file-option.png){width="800" align="left"}
 
-    You can also access this option from the [Experience Manager Guides Home page](./intro-home-page.md) and the options menu of a folder in the Respository view. 
+    You can also access this option from the [Experience Manager Guides Home page](./intro-home-page.md) and the options menu of a folder in the Repository view. 
 
 2. The **New topic** dialog box is displayed.
     
 3. In the **New topic** dialog box, provide the following details:
     - A Title for the topic.
-    - \(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then you will not see the Name field.
+    - \(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then you will not view the Name field.
     - A template on which the topic will be based. For a DITAVAL file, select **Ditaval** from the dropdown list.
     - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
 
@@ -43,7 +43,7 @@ Perform the following steps to create a DITAVAL file:
     
 The topic is created at the specified path. Also, the topic is opened in the Editor for editing.
 
-![](images/ditaval-file-editor.png){width="300" align="left"}
+![](images/ditaval-file-editor.png){width="800" align="left"}
 
 ## Edit DITAVAL file
 

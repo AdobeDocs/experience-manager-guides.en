@@ -13,7 +13,7 @@ Adobe Experience Manager Guides provides an AI Assistant tool that helps you mak
 
 After selecting the text in a topic, you can choose to perform any of the AI Assistant actions:
 
-![ai assistant](./images/ai-assistant-panel.png)
+![ai assistant](./images/ai-assistant-panel.png){width="300" align="left"}
 
 ## Suggest reusable content 
 

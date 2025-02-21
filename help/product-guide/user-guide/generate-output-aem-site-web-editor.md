@@ -14,7 +14,7 @@ You can create AEM Sites preset from the Map console and configure them to gener
 
 >[!TIP]
 >
-> It is recommended that you use the composite component mapping, available in the AEM Guides 2502 and 5.0 release, and newer versions, for an enhanced performance. 
+> It is recommended that you use the composite component mapping, available in the Experience Manager Guides 2502 release, and newer versions, for an enhanced performance. 
 
 ## Use composite component mapping 
 
@@ -43,7 +43,7 @@ Perform the following steps to create the AEM Sites preset using composite compo
     The preset for AEM Sites is created.
 
 
-    ![New ](images/new-aem-sites-dialog-box.png){width="800" align="left"}
+    ![New ](images/new-aem-sites-dialog-box.png){width="300" align="left"}
 
 <!-----------------------
 ### Generate the AEM Sites output using the templates
@@ -82,7 +82,7 @@ In the Map console, the preset configuration options for composite component map
 - Topic list
 - Cross map references 
 
-![New ](images/aem-sites-new-config.png){width="800" align="left"}
+![New ](images/aem-sites-new-config.png){width="650" align="left"}
 
 **General**
 
@@ -118,10 +118,10 @@ The **Topic list** tab displays the list of topics present in the current workin
 
 ![aem sites topic list](images/aem-presets-topic-list.png) {width="800" align="left"}
 
+
 >[!NOTE] 
 >
-> When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline.<br><br>
-> The incremental publishing from the Topics list should be used only when there is no change to the structure of the map. If there is a change in the map structure/TOC, then the entire map should be published once to update the TOC.
+> When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline. Alos, the incremental publishing from the Topics list should be used only when there is no change to the structure of the map. If there is a change in the map structure/TOC, then the entire map should be published once to update the TOC.
 
 **Cross map references**
 
@@ -220,6 +220,7 @@ Selecting a map file shows the map’s UUID in the Parent Map UUID column. The O
     >[!NOTE]
     >
     > The different AEM Sites presets of the current map appear in the dropdown list. If you don’t select a preset, a warning icon appears, and the output generation, fails.
+
 1. Select the required map and its output preset for all source topics and select **Generate**.
 
 

@@ -66,9 +66,9 @@ The following configuration options are displayed for **Adobe Experience Manager
 |Use article path|Select this option to view the **Article path** of the folder that contains the Knowledge Base templates.|
 | Article Path| This field appears if you select the option **Use article path**. Browse to select the  Knowledge Base Site within your Adobe Experience Manager repository where the output is stored. |
 |Site| Use this field to select the required Adobe Experience Manager Knowledge Base. You can configure knowledge bases in the Adobe Experience Manager site to store the content based on the permissions. The articles from this DITA map can be published to these knowledge bases.  |
-|Category| Select a category from the dropdown to publish the topics of the TOC  in that category on the Adobe Expereince Manager site. |
+|Category| Select a category from the dropdown to publish the topics of the TOC  in that category on the Adobe Experience Manager site. |
 |Section Template and Article Template| These are the structural components used to organize the content of your output. These are predefined in the Adobe Experience Manager Site template. |
-| Post Generation Workflow | When you choose this option, a new Post Generation Workflow dropdown list containing all workflows configured in Adobe Experience Manager  is displayed . You must select a workflow that you want to execute after completion of the output generation workflow.<br>Learn more about how to [customize post-output generation workflow](../install-guide/customize-workflows.md#id17A6GI004Y4) section in the Installation and Configuration Guide. |
+| Post Generation Workflow | When you choose this option, a new Post Generation Workflow dropdown list containing all workflows configured in Adobe Experience Manager is displayed . You must select a workflow that you want to execute after completion of the output generation workflow.<br>Learn more about how to [customize post-output generation workflow](../install-guide/customize-workflows.md#id17A6GI004Y4) section in the Installation and Configuration Guide. |
 
 >[!TIP]
 > 
@@ -93,7 +93,7 @@ The following configuration options are displayed for **Salesforce** as target:
 | Publish Profile | Use the drop-down to select from the Salesforce connection profiles your administrator configures. To learn more about how your administrator can create a publish profile, view the **Settings** feature description in the [Tab bar](./web-editor-features.md#tab-bar) section. |
 |Record Type| Use the dropdown to select among the record types set up in Salesforce as per the visibility settings based on your user profile. Salesforce Record Types are a way of grouping many records of one type for that object. They define how your publication is organized. For example, you can select FAQ Record Type and publish as per the FAQ page layout and fields.|
 |Article Content Field|You can have different fields and a unique layout for each record type template. Use these fields to enter specific information depending on the type of article. For example, you can view a FAQ article's title, answer, and equation.|
-|Categories| Select a category from the dropdown to publish the topics of the TOC  in that category on the Salesforce site.|
+|Categories| Select a category from the dropdown to publish the topics of the TOC in that category on the Salesforce site.|
 
 **Some more options**
 

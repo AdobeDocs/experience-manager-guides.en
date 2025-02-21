@@ -33,7 +33,7 @@ The following options are available for the AEM Sites output:
 
 ### Generate article-based output from the Map console
 
-You can generate the AEM Sites output for one or more topics, or the entire DITA map from the Map console. You need to create output presets for your DITA map and then you can easily generate the AEM Sites output for your map. If you have updated a few topics in your map, you can also generate the AEM Sites output only for those topics from the Map console. For more details, view [Article-based publishing from the Map console](web-editor-article-publishing.md#id218CK0U019I).
+You can generate the AEM Sites output for one or more topics, or the entire DITA map from the Map console. You need to create output presets for your DITA map and then you can easily generate the AEM Sites output for your map. If you have updated a few topics in your map, you can also generate the AEM Sites output only for those topics from the Map console. For more details, view [Generate Knowledge Base output](web-editor-article-publishing.md#id218CK0U019I).
 
 ### Generate output of linking topics from other maps
 

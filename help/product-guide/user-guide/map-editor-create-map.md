@@ -165,4 +165,4 @@ Perform the following steps to add topics to a map file from the Assets UI:
 
 
 
-**Parent topic: Introduction to the Map Editor](map-editor.md)
+**Parent topic: [Introduction to the Map Editor](map-editor.md)
