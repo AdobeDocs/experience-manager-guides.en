@@ -1,6 +1,6 @@
 ---
 title: Create maps based on customized templates
-description: Learn to create a customizes template, use them to create new map files, and pass on the defined title to a DITA map in AEM Guides.
+description: Learn to create a customizes template, use them to create new map files, and pass on the defined title to a DITA map in Experience Manager Guides.
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
@@ -33,7 +33,7 @@ You can create map and topic templates in the following ways:
 
 The **Templates** feature is present in the [Left panel of the Editor](./web-editor-features.md#left-panel) interface, and is only available for administrators. Using this panel, administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *map* and *topic* type templates.
 
-![](images/templates-panel_cs.png){width="550" align="left"}
+![](images/templates-panel_cs.png){width="300" align="left"}
 
 By default, you can view the files by titles. As you hover over a template, you can view the file title and the file name as a tooltip.   
 
@@ -50,11 +50,11 @@ Perform the following steps to create a topic or map template from the Editor:
 1. Choose **Topic template** or **Map template** from the dropdown menu based on the type of template you want to create.   
 1. If you select **Topic template**, then the **New topic template** dialog box is displayed.
 
-    ![](images/new-topic-template-dialog.png){width="500" align="left"}
+    ![](images/new-topic-template-dialog.png){width="300" align="left"}
 
     If you select **Map template**, then the **New map template** dialog box is displayed.
 
-    ![](images/map-template-dialog.png){width="500" align="left"}
+    ![](images/map-template-dialog.png){width="300" align="left"}
 
     You can also select **Folder** from the dropdown list if you want to first create a folder within the **topic** or **map** folder.  
 
@@ -224,4 +224,4 @@ The map generates all assets which are referred to inside the template folder. S
 
 -   If another map or topic is created at the same level in the folder, then the names of the newly created assets are appended with 0,1,2, and so on. You can choose to open the map for editing or save the map file in the repository.
 
-**Parent topic:**[Work with the Map Editor](map-editor.md)
+**Parent topic:**[Introduction to the Map Editor](map-editor.md)

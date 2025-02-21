@@ -143,4 +143,4 @@ To export a topic as PDF, follow these steps:
     The PDF is generated and opened in a new tab or you are shown a dialog to save the PDF on your local system.
 
 
-**Parent topic:**[Introduction to the Web Editor](web-editor.md)
+**Parent topic:**[Introduction to the Editor](web-editor.md)

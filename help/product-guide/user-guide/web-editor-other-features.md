@@ -19,11 +19,12 @@ You get the following functions in the context menu of an opened media file's ta
 
 ![](images/media-file-context-menu.png){width="300" align="left"}
 
+
 **Single DITA file**
 
 You get the following functions in the context menu of an opened file's tab:
 
-:   ![](images/single-file-context-menu.png){width="300" align="left"}
+![](images/single-file-context-menu.png){width="400" align="left"}
 
 **Multiple files**
 
@@ -71,9 +72,9 @@ To view the AEM properties page of the selected file, select **Properties**.
 
 **Up, Down, Left, or Right**
 
-By default, the Editor allows you to view one topic at a time. There could be instances wherein you would like to view two or more topics at the same time. Splitting the editor's screen allows you to view multiple topics at the same time. For example, if you have two topics - A and B opened in the editor. Right-clicking on topic B and choosing **Split \> Up** divides the editor window into two parts. Topic B is displayed in the upper half and Topic A is displayed in the bottom half. Similarly, you can also split the screen horizontally by selecting **Split \> Left** or **Split \> Right**. The following screenshot of the Editor displays topics split horizontally and vertically. In each split, you can have a different view. For example in the following screenshot, the screen 1 is in Source view mode, screen 2 has two documents opened in Author mode, and screen 3 is in the Preview mode. You can move your documents from one screen to the other by dragging the file tab and dropping it on to the screen where you want to place it. Similarly, you can also reorder file tabs by dragging and moving them as per your preference.
+By default, the Editor allows you to view one topic at a time. There could be instances wherein you would like to view two or more topics at the same time. Splitting the editor's screen allows you to view multiple topics at the same time. For example, if you have two topics - A and B opened in the editor. Right-clicking on topic B and choosing **Split \> Up** divides the editor window into two parts. Topic B is displayed in the upper half and Topic A is displayed in the bottom half. Similarly, you can also split the screen horizontally by selecting **Split \> Left** or **Split \> Right**. You can move your documents from one screen to the other by dragging the file tab and dropping it on to the screen where you want to place it. Similarly, you can also reorder file tabs by dragging and moving them as per your preference.
 
-![](images/split-editor.png){width="800" align="left"}
+
 
 <!--------------------------------------------
 

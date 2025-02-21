@@ -20,7 +20,7 @@ The following sections cover the toolbar options available in the different view
 
 ## Layout view
 
-When you open a map for editing it opens the Layout view of the Map Editor.The Layout view displays the map hierarchy in a tree view and allows you to organize the topics in a map.
+When you open a map for editing it opens the Layout view of the Map Editor. The Layout view displays the map hierarchy in a tree view and allows you to organize the topics in a map.
 
 >[!NOTE]
 >
@@ -55,11 +55,11 @@ This icon is displayed when you open a bookmap for editing. You can insert compo
 
 **Insert Back matter** - ![](images/backmatter.svg)
 
-This icon is displayed when you open a bookmap for editing. You can insert components for a end of the book like an Index, a Glossary, and a List of Figures.
+This icon is displayed when you open a bookmap for editing. You can insert components for at the end of the book like an Index, a Glossary, and a List of Figures.
 
 **Move the selected item left/right** - ![](images/move-left.svg) / ![](images/move-right.svg)
 
-Select the left arrow to move the topic towards left side in the hierarchy. This essentially promotes the respective topic one level up in the hierarchy. For example, selecting the left arrow while a child topic is selected make it the sibling of the topic above it. Similarly, if you select the right arrow, the topic is pushed towards the right side making it the child of the topic above it.
+Select the left arrow to move the topic towards the left side in the hierarchy. This essentially promotes the respective topic one level up in the hierarchy. For example, selecting the left arrow while a child topic is selected, make it the sibling of the topic above it. Similarly, if you select the right arrow, the topic is pushed towards the right side making it the child of the topic above it.
 
 **Move the selected item up/down** ![](images/move-up.svg) - / ![](images/move-down.svg)
 
@@ -110,7 +110,7 @@ In addition to organizing topics in the map file, you can also perform the follo
 -   **Add**: You can choose to add a new topic or an empty reference from the Map Editor:
     -   **Empty reference**: This option allows you to add an empty reference in your DITA map. You can double-click the inserted empty reference later and add the Topic details. 
     -   **New topic**: When you choose to create a new topic from the menu, you get the **New topic** dialog box. In the **New topic** dialog box, provide the required details and select **Create**. 
--   **Move**: You can choose to move a topic up/down/right/left in the hierarchy.You can also drag-and-drop a topic or a map from the repository panel to the map opened in the Map Editor.
+-   **Move**: You can choose to move a topic up/down/right/left in the hierarchy. You can also drag-and-drop a topic or a map from the repository panel to the map opened in the Map Editor.
 -   **Undo**: Undo the last operation in the Layout view.
 -   **Redo**: Redo the last operation in the Layout view.
 -   **Copy**: Copy the selected reference from the map file.
@@ -140,7 +140,7 @@ In addition, you can view the following icons and perform the related tasks from
 
 **Insert before/Insert after** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Displays the **Insert element before**or **Insert element after**  dialog box. Select the element that you want to insert in the map. Depending on the operation, the new element is inserted before or after the current element in the map.
+Displays the **Insert element before or **Insert element after dialog box. Select the element that you want to insert in the map. Depending on the operation, the new element is inserted before or after the current element in the map.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -246,7 +246,7 @@ In this view, the toolbar provides basic content editing and insertion options a
 
 The Preview mode renders the content as it will appear in the final output, enabling you to review the layout and formatting before publishing it. 
 
-In addition to be able to see the position of each topic file within a map, it is desirable to view the map content in one consecutive flow. The Preview map feature allows you to view the entire content of the map file in a single click. You don't have to generate an output of the map file to view how the entire map will look like once published. You can simply access the map's preview and all topics and sub-maps are rendered in the form of a book.
+In addition to be able to view the position of each topic file within a map, it is desirable to view the map content in one consecutive flow. The Preview map feature allows you to view the entire content of the map file in a single click. You don't have to generate an output of the map file to view how the entire map will look like once published. You can simply access the map's preview and all topics and sub-maps are rendered in the form of a book.
 
 ![](images/map-editor-preview.png){width="800" align="left"}
 
@@ -278,7 +278,7 @@ You can access a map's preview from:
 
 -   **Map Editor**: In the Map Editor, select **Preview** from the options menu to view the preview of the current map.
 
-    ![](images/map-preview-icon.png){width="350" align="left"}
+    ![](images/map-preview-icon.png){width="650" align="left"}
 
     The preview of the map is displayed in a pop-up box. 
 
@@ -293,7 +293,7 @@ Displays the Map Properties dialog wherein you can set the attributes and metada
 
 Editing an individual topic doesn't give the complete context to the author. An author would have no information about where a topic is placed in a DITA map. Without this contextual information, it becomes a bit difficult for authors to create content.
 
-Experience Manager Guides allows authors to open a DITA map in the Editor and view the placement of topics within the map. This helps authors to know where exactly the topic is placed within the map and create more relevant content. Also, if there are multiple authors working on a project, they can know what all topics are available in the map and reuse content, wherever required.
+Experience Manager Guides allows authors to open a DITA map in the Editor and view the placement of topics within the map. This helps authors to know exactly where the topic is placed within the map and create more relevant content. Also, if there are multiple authors working on a project, they can know what all topics are available in the map and reuse content, wherever required.
 
 To edit topics through a DITA map, perform the following steps:
 
@@ -317,7 +317,7 @@ To edit topics through a DITA map, perform the following steps:
 
     -   You can save them individually. If you close without saving your topics, you will view a dialog box prompting you to save the unsaved topics:
 
-        ![](images/save-multiple-topics-new.png){width="550" align="left"}
+        ![](images/save-multiple-topics-new.png){width="300" align="left"}
 
         You can choose to save all selected topics or deselect the topics that you do not want to save.
 
@@ -329,7 +329,7 @@ To edit topics through a DITA map, perform the following steps:
 
     -   If your administrator has enabled the option of unlocking files on close, then you will be shown a prompt to save files whenever the locked files are closed. With this option enabled, when you close the editor with changed files, you are shown the list of locked files that need to be saved. The locked files are shown with a lock icon:
 
-        ![](images/save-on-close-new.png){width="550" align="left"}
+        ![](images/save-on-close-new.png){width="350" align="left"}
 
 ## Right panel in the Map Editor 
 
@@ -353,4 +353,4 @@ For more information about the standard topic attributes and metadata, view the 
 
 
 
-**Parent topic:** [Work with the Map Editor](map-editor.md)
+**Parent topic:** [Introduction to the Map Editor](map-editor.md)
