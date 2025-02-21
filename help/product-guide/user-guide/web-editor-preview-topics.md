@@ -45,7 +45,7 @@ Perform the following steps to preview a topic:
 
     >[!NOTE]
     >
-    > You can view the version of the active topic or DITA map in the top right corner of the secondary toolbar.
+    > You can view the version of the active topic or DITA map in the top right corner of the toolbar.
 
     >[!IMPORTANT]
     >

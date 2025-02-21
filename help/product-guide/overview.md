@@ -85,7 +85,7 @@ Dummy links cause validation to fail
 
 ## Additional Resources
 
-* [[!DNL Experience Manager Guides] Online User Guide](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
-* [[!DNL Experience Manager Guides] PDF Guides](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
+* [[!DNL Experience Manager Guides] User Guide (Old UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-legacy/user-guide/overview)
+* [[!DNL AEM Guides] Learn & Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [Experience League - Explore AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
 

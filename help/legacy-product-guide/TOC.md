@@ -8,8 +8,8 @@ badgeAll: label="Legacy Guide - More Info" type="Informative" url="/help/legacy-
 
 # [!DNL Adobe Experience Manager Guides (Legacy)] {#using-legacy}
 
+- [AEM Guides Documentation (Legacy)](legacy.md)
 - [[!DNL AEM Guides] overview](overview.md)
-- [Understanding legacy](legacy.md)
 - [Release notes (primary guide)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
 - User Guide (Old UI) {#user-guide}
   - Introduction {#about-aem-guide}

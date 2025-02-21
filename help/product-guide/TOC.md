@@ -148,7 +148,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Additional features in the Map Editor](./user-guide/map-editor-other-features.md)
     - DITAVAL Editor {#ditaval-editor}
         - [Use the DITAVAL editor](./user-guide/ditaval-editor.md)
-      - Desktop tools for authoring content {#author-using-desktop-tools}
+    - Desktop tools for authoring content {#author-using-desktop-tools}
         - [Author content using desktop tools](./user-guide/author-desktop-tools.md)
         - [Work with FrameMaker](./user-guide/author-desktop-framemaker.md)
         - [Work with Oxygen](./user-guide/author-desktop-oxygen.md)
@@ -253,7 +253,7 @@ breadcrumb-title: AEM Guides Documentation
     - Editor best practices and keyboard shortcuts {#editor-bp-ks}
         - [Best practices for working with the Editor](./user-guide/web-editor-edit-topics.md)
         - [Keyboard shortcuts in the Editor](./user-guide/web-editor-keyboard-shortcuts.md)
-- [User Guide (Old UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-legacy/user-guide/about-aem-guide/intro)
+- [User Guide (Old UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-legacy/user-guide/overview)
 - Installation and configuration {#install-guide}
   - On-premise {#on-prem-ig}
     - [On-premise basics](./install-guide/introduction.md)

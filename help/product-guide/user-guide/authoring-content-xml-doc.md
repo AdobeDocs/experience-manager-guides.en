@@ -9,15 +9,10 @@ role: User
 
 Experience Manager Guides comes with the three out-of-the-box editors. you can use them to create, edit, and publish your documents.
 
-1.  **Editor**: Use it to create and edit structured documents.
-1.  **Map Editor**: Use it to create and edit DITA map and bookmap files.
-1.  **Ditaval Editor**: Use it to generate conditional output.
+1.  **Editor**: Use it to create and edit structured documents. [Get to know the Editor interface](web-editor.md).
+1.  **Map Editor**: Use it to create and edit DITA map and bookmap files. [Work with the Map Editor](map-editor.md).
+1.  **Ditaval Editor**: Use it to generate conditional output. [Learn more about DITAVAL Editor](ditaval-editor.md).
 
--   **[Work with the Editor](web-editor.md)**  
-
--   **[Work with the Map Editor](map-editor.md)**  
-
--   **[DITAVAL editor](ditaval-editor.md)**  
 
 
 **Parent topic:**[Author content](authoring-content.md)

@@ -9,9 +9,10 @@ role: User
 
 Adobe Experience Manager Guides allows you to create DITA topics of type — topic, task, concept, reference, glossary, DITAVAL, Markdown and more. Apart from creating topics based on the out-of-the-box templates, you can also define your custom templates. These templates must be added to the folder profile to show up in the template selection Blueprint and the Editor.
 
->![NOTE]
+>[!NOTE]
 >
 > The Global and Folder profile configuration is only available to folder-level administrative users. For the details on setting up global and folder-level profiles, view *Configure authoring templates* in  Install and configure Adobe Experience Manager Guides for your setup.
+
 
 There are two ways to create topics in Experience Manager Guides:
 
@@ -80,7 +81,7 @@ Perform the following steps to create a topic from the Assets UI:
 
     ![](images/topic-version-none_cs.png){width="550" align="left"}
 
-2. The version information for a newly created topic is shown as *none*. When you save a new version, then it is assigned a version number as 1.0. For more information about saving a new version, view [Save as new version](web-editor-features.md#save-as-new-version).
+2. The version information for a newly created topic is shown as *none*. When you save a new version, then it is assigned a version number as 1.0. 
 
 3. If your administrator has configured your Editor to lock files before editing, then you will not be able to edit a file until you lock it. Similarly, if configured, you will be asked to unlock any locked file before closing it.
 

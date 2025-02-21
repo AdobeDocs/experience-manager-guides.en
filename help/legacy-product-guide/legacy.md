@@ -1,11 +1,11 @@
 ---
-title: Legacy
-description: Legacy description
+title: AEM Guides Documentation (Legacy)
+description: Know about the AEM Guides legacy documentation.
 exl-id: 25cd90ed-ae73-4185-90f5-6ace9d76a796
 ---
 
-# Legacy overview
+# AEM Guides Documentation (Legacy)
 
-This user guide is designed for users of the old user interface of Experience Manager Guides. If you are using the new interface, please refer to the updated user guide for the new user experience, available [here](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro).
+Starting with the 2502 release, Experience Manager Guides features a new UI and an updated User Guide to enhance usability and streamline workflows. If you're using the latest version, refer to the [New User Guide](../product-guide/overview.md) for the most up-to-date information.
 
-For a seamless transition, ensure you are using the guide that matches your current interface.
+If you are using a previous version of Experience Manager Guides, the legacy documentation remains available to support your ongoing needs. You can continue to access the [Old User Guide](overview.md) for detailed information on previous UI workflows and features.

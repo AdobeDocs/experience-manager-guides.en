@@ -1,11 +1,11 @@
 ---
-title: Work with the Editor
+title: Introduction to the Editor
 description: Create and edit structured documents using editor. Learn how to work with the editor following the DITA standards in Adobe Experience Manager Guides.
 exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
 ---
-# Work with the Editor {#id181OD0QE05Z}
+# Introduction to the Editor {#id181OD0QE05Z}
 
 Experience Manager Guides comes with an easy-to-use Editor for creating and editing structured documents. The editor hides all the complexities of the DITA structure from the writer. The editor provides a list of DITA elements that a user would usually need to work within a document.
 
@@ -13,13 +13,11 @@ Also, the Editor is DITA-aware and it supports DITA 1.3, 1.2 standards, lightwei
 
 -   **[Launch the Editor](web-editor-launch-editor.md)**  
 
--   **[Edit topics in the Editor](web-editor-edit-topics.md)**  
+-   **[Create and preview topics](create-preview-topics.md)**  
 
 -   **[Know the Editor features](web-editor-features.md)**  
 
--   **[Keyboard shortcuts in the Editor](web-editor-keyboard-shortcuts.md)**  
-
--   **[Other features in the Editor](web-editor-other-features.md)**  
+-   **[Additional features in the Editor](web-editor-other-features.md)**  
 
 -   **[Editor views](web-editor-views.md)**  
 
