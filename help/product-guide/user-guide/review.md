@@ -5,7 +5,7 @@ exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing 
 role: User
 ---
-# Review topics or maps {#id1645H6010Q5}
+# Introduction to review {#id1645H6010Q5}
 
 Almost all technical documents need to go through multiple rounds of reviews. In most cases, a review cycle involves more than one reviewer. Addressing and responding to comments from multiple reviewers is always challenging for authors. Also, in a multiple reviewer scenario, it is helpful if one reviewer can also view the comments made by other reviewers.
 
