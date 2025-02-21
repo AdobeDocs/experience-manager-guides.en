@@ -7,7 +7,7 @@ role: User
 ---
 # Generate output of FrameMaker documents {#id1645H8040HD}
 
-Starting with AEM Guides 1.1, you can also publish FrameMaker documents \(`.book` and `.fm`\) available in your AEM repository. If a book file contains a combination of DITA and FrameMaker documents, AEM Guides allows you to publish such documents as well. FrameMaker documents can be published into the following formats:
+Starting with Adobe Experience Manager Guides 1.1, you can also publish FrameMaker documents \(`.book` and `.fm`\) available in your Adobe Experience Manager repository. If a book file contains a combination of DITA and FrameMaker documents, Experience Manager Guides allows you to publish such documents as well. FrameMaker documents can be published into the following formats:
 
 -   PDF
 
@@ -16,7 +16,7 @@ Starting with AEM Guides 1.1, you can also publish FrameMaker documents \(`.book
 -   EPUB
 
 
-As an author, you just click a few links and the output gets generated. You can generate output for an entire book file or you can selectively publish individual FrameMaker files. Before generating the output, you can also make changes to your FrameMaker files. When you select a .fm or a .book file in AEM repository, you get the **Open in FrameMaker** button on the toolbar. Clicking on this button opens up the selected file in FrameMaker.
+As an author, you just select a few links and the output gets generated. You can generate output for an entire book file or you can selectively publish individual FrameMaker files. Before generating the output, you can also make changes to your FrameMaker files. When you select a .fm or a .book file in Adobe Experience Manager repository, you get the **Open in FrameMaker** button on the toolbar. Selecting this button opens up the selected file in FrameMaker.
 
 Information in the following sections is for publishers who will use the output generation workflows to publish FrameMaker documents:
 
