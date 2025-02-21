@@ -7,7 +7,7 @@ role: User
 ---
 # Manage publish tasks using the Publish Dashboard {#id205CC08305Z}
 
-When you have a large set of publishing tasks running on your system, it becomes practically impossible to check each DITA map individually to monitor its publishing task. AEM Guides gives the administrators and publishers one unified view of all publishing tasks running in the system. A list of all active publishing tasks is available in the Publish Dashboard.
+When you have a large set of publishing tasks running on your system, it becomes practically impossible to check each DITA map individually to monitor its publishing task. Adobe Experience Manager Guides gives the administrators and publishers one unified view of all publishing tasks running in the system. A list of all active publishing tasks is available in the Publish Dashboard.
 
 The Publish Dashboard gives a complete overview of all publishing tasks currently running in the system.
 
@@ -31,7 +31,7 @@ The Publish Dashboard contains the following details:
 
 The left panel in the Publish Dashboard provides the following filtering options:
 
-- **Output Preset** - Select one or more output presets for which you want to see the currently active publishing tasks. In the following screenshot, the publishing tasks are filtered to show only those tasks that use the AEM Site output preset:
+- **Output Preset** - Select one or more output presets for which you want to view the currently active publishing tasks. In the following screenshot, the publishing tasks are filtered to show only those tasks that use the AEM Site output preset:
 
     ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 

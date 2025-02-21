@@ -7,13 +7,13 @@ role: User
 ---
 # Basic troubleshooting {#id1821I0Y0G0A}
 
-While working with Adobe Experience Manager Guides, you could encounter errors while publishing or opening your document. Such errors could be in the DITA map, topic, or in xperience Manager Guides Guides process itself. This section provides information about how to access and parse information in the output generation log file. Also, if your DITA topic is too large, then you might see the JSP compilation error. This section also provides information about how to resolve the JSP compilation error.
+While working with Adobe Experience Manager Guides, you could encounter errors while publishing or opening your document. Such errors could be in the DITA map, topic, or in Experience Manager Guides process itself. This section provides information about how to access and parse information in the output generation log file. Also, if your DITA topic is too large, then you might view the JSP compilation error. This section also provides information about how to resolve the JSP compilation error.
 
 ## View and check the log file {#id1822G0P0CHS}
 
 Perform the following steps to view and check the output generation log file:
 
-1.  Once you have initiated the output generation process, click **Outputs** in the DITA map console.
+1.  Once you have initiated the output generation process, select **Outputs** in the DITA map console.
 
     The **General** column of the **Generated Outputs** shows the icons to give a visual cue about the success or failure of the output generation.
 
@@ -53,24 +53,24 @@ Perform the following steps to copy and check the output generation log file in 
 
 1.  Scroll through the log file and check for messages.
 
-    The following information will help you determine whether there is an error in the DITA file or AEM Guides process:
+    The following information will help you determine whether there is an error in the DITA file or Experience Manager Guides process:
 
     -   *DITA map file related error*: In case there is an error found in the DITA map file or any other file contained in the DITA map, the log file will contain a string, "BUILD FAILED". You can check the information given in the log file to locate the erroneous file and fix the issue.
 
-    In the following sample log file snippet, you can see the `BUILD FAILED` message along with the reason for the error.
+    In the following sample log file snippet, you can view the `BUILD FAILED` message along with the reason for the error.
 
     ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-    -   *AEM Guides-related error*: The other type of error that you can identify in the log file is related to AEM Guides process itself. In this case, the DITA map file is parsed successfully, but the output generation process fails because of some internal error in AEM Guides. For such kind of errors, you have to seek help from the technical support team.
+    -   *Experience Manager Guides-related error*: The other type of error that you can identify in the log file is related to Experience Manager Guides process itself. In this case, the DITA map file is parsed successfully, but the output generation process fails because of some internal error in Experience Manager Guides. For such kind of errors, you have to seek help from the technical support team.
 
-    In the following sample log file snippet, you can see the `BUILD SUCCESSFUL` message, followed by other technical error.
+    In the following sample log file snippet, you can view the `BUILD SUCCESSFUL` message, followed by other technical error.
 
     ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## Resolve JSP compilation error 
 
-If your DITA topic is too large, then you might see the JSP compilation error \(`org.apache.sling.api.request.TooManyCallsException`\) in your browser. This error might appear when you open a topic for editing, reviewing, or publishing.
+If your DITA topic is too large, then you might view the JSP compilation error \(`org.apache.sling.api.request.TooManyCallsException`\) in your browser. This error might appear when you open a topic for editing, reviewing, or publishing.
 
 Perform the following steps to resolve this issue:
 
