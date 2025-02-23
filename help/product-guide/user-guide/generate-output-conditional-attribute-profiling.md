@@ -48,7 +48,7 @@ To define conditional attributes, perform the following steps:
 1.  Select **Save** to save the changes.
 
 
-The `platform` attribute is stored in the system. Whenever an author decides to use the `platform` attribute in a DITA topic in a folder, they will see the values in the Properties tab in the Editor.
+The `platform` attribute is stored in the system. Whenever an author decides to use the `platform` attribute in a DITA topic in a folder, they can view the values in the Properties tab in the Editor.
 
 ![](images/properties-tab.png){width="350" align="left"}
 

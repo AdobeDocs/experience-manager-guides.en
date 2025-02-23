@@ -31,7 +31,7 @@ Perform the following steps to create an output preset for the Global and Folder
     >
     > These presets added to the folder profile are independent of the maps, so the map specific configurations are not present for these presets.
 
-1.  You can select **Generate output** icon at the top-right corner to generate the output for the maps related to the created output preset. You will see the status of the output generation process. To view the output, select **View Output** in the **Success** dialog box.
+1.  You can select **Generate output** icon at the top-right corner to generate the output for the maps related to the created output preset. You can view the status of the output generation process. To view the output, select **View Output** in the **Success** dialog box.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Perform the following steps to create an output preset for the Global and Folder
 
 You can also perform the following operations on the preset from the Options menu:
 
-- **Generate output**: Allows you generate an output for an existing preset in one click.
+- **Generate output**: Allows you to generate an output for an existing preset.
 - **View output** and **View log**: Quick links to view the generated output and logs. 
 - **Rename**, **Duplicate**, or **Delete** an existing output preset from the **Options** menu.
 - **Default PDF**: Allows you to select the existing PDF preset as default pdf preset. The selected preset would be, then used as the default preset to generate the PDF output using the **Download as PDF** option for a map.

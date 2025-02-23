@@ -125,7 +125,7 @@ Perform the following steps to create a condition preset:
     - Seledt **Add** to one attribute to the condition preset. You can repeat this step to add more attributes.
     - Select **Add all** to add all the attributes to the condition preset.
 1.  \(Optional\) If required, you can override the default action applied to the attributes in Step 4. Do one of the following:
-    - Select multiple attributes, choose an action from **Set the action for selected conditions to**, and click **Apply**.
+    - Select multiple attributes, choose an action from **Set the action for selected conditions to**, and select **Apply**.
     - Select an action for an attribute from the **Action** drop-down.
 1.  Select **Save**.
 

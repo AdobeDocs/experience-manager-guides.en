@@ -7,9 +7,9 @@ role: User
 ---
 # Use Map Collection for output generation {#id1723F20G0HS}
 
-In any organization, a product can have multiple types of documentation. As a publishing specialist, you would like to control what output you want to generate for which document. Also, there should be a way to batch publish multiple documents with a single click.
+In any organization, a product can have multiple types of documentation. As a publishing specialist, you would like to control what output you want to generate for which document. Also, there should be a way to batch publish multiple documents in a single go.
 
-Adobe Experience Manager Guides provides you the ability to organize your content for publishing by using a dashboard called Map Collection. A Map Collection allows you to assemble all different types of documents in a single unit. You can choose what type of output you want to generate for each document in your Map Collection. In addition, you can also generate output and see the output generation progress from the publishing dashboard.
+Adobe Experience Manager Guides provides you the ability to organize your content for publishing by using a dashboard called Map Collection. A Map Collection allows you to assemble all different types of documents in a single unit. You can choose what type of output you want to generate for each document in your Map Collection. In addition, you can also generate output and view the output generation progress from the publishing dashboard.
 
 Map Collection gives you an option to view if there is any change in any map from the last published output. You can view the details in the Maps and Presets tab of your Map Collection and then republish the output if required. 
 

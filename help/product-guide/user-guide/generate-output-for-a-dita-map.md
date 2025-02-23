@@ -42,7 +42,7 @@ To view the error log, select **Dismiss**, hover over the selected preset tab, a
 
 Perform the following steps to generate output for a DITA map using Map dashboard:
 
-1.  In the Assets UI, navigate to and click on the DITA map file that you want to publish.
+1.  In the Assets UI, navigate to and select the DITA map file that you want to publish.
 
     The DITA map console appears with the list of Output Presets available to generate output.
 

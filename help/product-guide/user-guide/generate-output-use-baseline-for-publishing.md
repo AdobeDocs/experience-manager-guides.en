@@ -38,9 +38,9 @@ Perform the following steps to create a baseline:
 
     - **Label**: Select this option to pick the topics according to the label applied to them. Enter a label to filter the list based on the entered string. From the filtered out list, you can choose a label to select topics and other assets having the specified label.
     
-        When you select Label, you are also given an additional option to use the latest version of topics that do not have the specified label applied on them. If you do not select this option, and there’s any topic or media file that doesn’t have the specified label on it, then the baseline creation process will fail. For more information about adding labels, see Use labels.
+        When you select Label, you are also given an additional option to use the latest version of topics that do not have the specified label applied on them. If you do not select this option, and there's any topic or media file that doesn't have the specified label on it, then the baseline creation process will fail. For more information about adding labels, view Use labels.
 
-    - **Version on**: Picks the topics’ version as on the specified date and time. Note that the time that you specify here corresponds to the timezone of your AEM server. If your server is at a different timezone, then the topics will be picked up as per your server’s timezone and not your local timezone.
+    - **Version on**: Picks the topics' version as on the specified date and time. Note that the time that you specify here corresponds to the timezone of your Adobe Experience Manager server. If your server is at a different timezone, then the topics will be picked up as per your server's timezone and not your local timezone.
         
         Once you have selected a label or version as on date, then all referenced topics and media files within the map are selected accordingly. This selection of topics is not shown on the user interface, but it is saved in the backend.
 5. Select **Save**.

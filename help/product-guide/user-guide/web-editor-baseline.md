@@ -7,7 +7,7 @@ role: User
 ---
 # Create and manage baselines from Map console {#id223MB0ZF043}
 
-The Baseline feature allows you to create a version of your topics and assets that can then be used for publishing or translation. For example, if your DITA map has `topicA` and `imageA`, you can create a Baseline to use the 3rd version of `topicA`, but the 4th version of `ImageA`. Once you have a Baseline in place, you can publish or translate topics of different versions with a single click.
+The Baseline feature allows you to create a version of your topics and assets that can then be used for publishing or translation. For example, if your DITA map has `topicA` and `imageA`, you can create a Baseline to use the 3rd version of `topicA`, but the 4th version of `ImageA`. Once you have a Baseline in place, you can publish or translate topics of different versions in a single step.
 
 Selecting a Baseline is optional for output presets and a DITA map can have more than one Baseline. However, each output preset within a DITA map can be associated with only a single Baseline. If no Baseline is specified at the time of publishing, then the output is published using the latest version of the content.
 
@@ -124,7 +124,7 @@ You can duplicate a baseline and modify it according to your requirements.
 1. Select **Duplicate**.
     
 - **Rename**, or **Delete** an existing baseline**.
-- **Manage labels** that allows you to add, remove, or make changes to existing labels for static baselines. If your administrator has configured pre-defined labels, then you are shown those labels in the Add Label dropdown list. For more information about adding labels, see [Use labels](web-editor-use-label.md#).
+- **Manage labels** that allows you to add, remove, or make changes to existing labels for static baselines. If your administrator has configured pre-defined labels, then you are shown those labels in the Add Label dropdown list. For more information about adding labels,view [Use labels](web-editor-use-label.md#).
 
     >[!NOTE]
     >

@@ -24,7 +24,7 @@ To generate an Experience Fragment, perform the following steps:
     
     *  **Title**: View or edit the title of the folder.
     
-    * **Allowed Templates**: Contains the list of templates that can be added as child pages of the experiencefragment. To add the allowed template, specify the regular expression for retrieving the required templates in the **Allowed Templates** field. 
+    * **Allowed Templates**: Contains the list of templates that can be added as child pages of the experience fragment. To add the allowed template, specify the regular expression for retrieving the required templates in the **Allowed Templates** field. 
     For example: 
     `/libs/cq/experience-fragments/components/experiencefragment/template`
 
