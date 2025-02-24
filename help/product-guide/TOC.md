@@ -120,7 +120,7 @@ breadcrumb-title: AEM Guides Documentation
     - [!DNL AEM Guides] working and key features {#aemg-works-features}
       - [How [!DNL AEM Guides] works](./user-guide/intro-how-dxml-works.md)
       - [Key [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
-  - **[[!DNL AEM Guides] Home page experience]**(./user-guide/intro-home-page.md)
+  - [[!DNL AEM Guides] Home page experience](./user-guide/intro-home-page.md)
   - Author content {#author-content}
     - [Authoring overview](./user-guide/authoring-content.md)
     - [Ways to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
@@ -250,7 +250,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Upload files](./user-guide/authoring-upload-existing-files.md)
         - [Manage files and folders](./user-guide/authoring-file-management.md)
         - [Download files](./user-guide/authoring-download-assets.md)
-- **[User Guide (Old UI)]**(https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- [User Guide (Old UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation and configuration {#install-guide}
   - On-premise {#on-prem-ig}
     - [On-premise basics](./install-guide/introduction.md)
