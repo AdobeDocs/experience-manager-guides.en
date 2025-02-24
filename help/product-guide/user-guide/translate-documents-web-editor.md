@@ -100,9 +100,9 @@ Before performing steps in this procedure, ensure that you have created the requ
     In an XLIFF project, the content is exported to the industry standard XLIFF format, which can be provided to Translation vendors. XLIFF format empowers potential reuse of segments that you have already translated during the translation phase.  
     After the XLIFF content is translated, it can be imported into Experience Manager Guides, creating a translated version of the original DITA project. 
 
-        >[!NOTE]
-        >
-        > XLIFF export only works with human translation configuration. 
+    >[!NOTE]
+    >
+    > XLIFF export only works with human translation configuration. 
 
     -   You can select **Create a new multi-lingual translation project** which will include translation jobs for all languages that you have selected for translation. For example, if you have selected French, German, and Spanish it will create a project which contains translation jobs for all three languages.
     -   If you already have a translation project, you can add topics to that project. Select **Add to existing translation project** option from the Project list and choose a project from the Existing Translation Project list. You can sort these projects by most recent, ascending, or descending order.
@@ -134,7 +134,8 @@ Experience Manager Guides allows your administrators to configure the translatio
 SRX files should be named as `<language-code>.srx`. For example, en-US, or ar-AE.  
 
 >[!NOTE]
->The title is not case-sensitive, so you can have 'en-US' or 'en-us' or 'EN-us'. Also, Experience Manager Guides can resolve '-' (hyphen) or '_' (underscore). So, you can have 'en-US' or 'en_US'. 
+> 
+> The title is not case-sensitive, so you can have 'en-US' or 'en-us' or 'EN-us'. Also, Experience Manager Guides can resolve '-' (hyphen) or '_' (underscore). So, you can have 'en-US' or 'en_US'. 
 
 Also, you can put these files inside any folder under Adobe Experience Manager assets root that is `./content/dam`. 
 
@@ -219,4 +220,4 @@ For effecting document management, Experience Manager Guides provides the abilit
 You can also disable the translation projects if you want to use them later. Deleting a project deletes all files and folders present in the project. Disabling a project doesn't delete it but maintains it in the repository. But you can't update or edit a disabled project.  Deletion or disabling a project will not impact the translation status of any references.
 
 
-**Parent topic:**[Work with the Web Editor](web-editor.md)
+**Parent topic:**[Introduction to the Editor](web-editor.md)
