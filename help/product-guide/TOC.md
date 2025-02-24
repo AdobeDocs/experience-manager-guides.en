@@ -252,7 +252,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Manage files and folders](./user-guide/authoring-file-management.md)
         - [Download files](./user-guide/authoring-download-assets.md)
 - User Guide (Old UI) {#user-guide-old-ui}
-  - [AEM Guides overview)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guides overview](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation and configuration {#install-guide}
   - On-premise {#on-prem-ig}
     - [On-premise basics](./install-guide/introduction.md)
@@ -383,7 +383,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure the AI-powered Smart Help to search content](./cs-install-guide/conf-smart-help.md)
       - [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
       - [Configure display of UUID-based links](./cs-install-guide/conf-uuid-based-links.md)
-      -  [Configure display of pasted tables](./cs-install-guide/conf-pasted-tables.md) 
+      - [Configure display of pasted tables](./cs-install-guide/conf-pasted-tables.md) 
       - [Open DITA topic or map files in same tab](./cs-install-guide/open-dita-files-same-tab.md)
       - [Configure a custom panel in the left panel](./cs-install-guide/configure-custom-panel.md)
       - [Configure file auto-save in the Web Editor](./cs-install-guide/auto-save-in-editor.md)
@@ -406,12 +406,12 @@ breadcrumb-title: AEM Guides Documentation
     - Configure versions {#version-mgt-cs}
       - [Version management](./cs-install-guide/version-management.md)
     - Work with desktop-based XML editors {#desktop-xml-editor}
-       - [Integrate desktop-based XML editors](./cs-install-guide/integrate-desktop-editors-cs.md)
+      - [Integrate desktop-based XML editors](./cs-install-guide/integrate-desktop-editors-cs.md)
     - Configure Workfront {#configure-workfront-cs}
-       - [Configure Workfront](./cs-install-guide/conf-workfront.md)
+      - [Configure Workfront](./cs-install-guide/conf-workfront.md)
     - Work with output generation settings {#output-gen-config-cs}
-       - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
-        - [Download and install aem sites templates](./cs-install-guide/download-install-aem-sites-templates-cs.md)
+      - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
+      - [Download and install aem sites templates](./cs-install-guide/download-install-aem-sites-templates-cs.md)
       - [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       - [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
