@@ -1,5 +1,5 @@
 ---
-title: Reports
+title: Introduction to reports
 description: Learn how to view DITA map reports in AEM Guides.
 exl-id: 1f8a33ba-d6e5-448f-b40b-646b9fdc0b19
 feature: Report Generation
