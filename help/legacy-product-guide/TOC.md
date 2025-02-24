@@ -1,19 +1,17 @@
 ---
-user-guide-title: Experience Manager Guides (Legacy)
+user-guide-title: Experience Manager Guides Old UI
 user-guide-description: Read product documentation for Adobe Experience Manager Guides.
 breadcrumb-title: AEM Guides Documentation
 hide: yes
-badgeAll: label="Legacy Guide - More Info" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="Legacy Guide"
+badgeAll: label="Old UI Guide - More Info" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Old UI Guide"
 ---
 
-# [!DNL Adobe Experience Manager Guides (Legacy)] {#using-legacy}
+# [!DNL Adobe Experience Manager Guides Old UI] {#using-old-ui}
 
+- [Disclaimer](disclaimer.md)
 - [[!DNL AEM Guides] overview](overview.md)
-- [Understanding legacy](legacy.md)
-- [Release notes (primary guide)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
-
-- User Guide {#user-guide}
-
+- [Release information](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
+- User Guide (Old UI) {#user-guide}
   - Introduction {#about-aem-guide}
     - [About [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] working and key features {#aemg-works-features}
@@ -25,18 +23,14 @@ badgeAll: label="Legacy Guide - More Info" type="Informative" url="/help/legacy-
     - [Manage files and folders](./user-guide/authoring-file-management.md)
     - [Download files](./user-guide/authoring-download-assets.md)
   - Author Content {#author-content}
-
     - [Authoring overview](./user-guide/authoring-content.md)
     - Topic creation and preview {#create-preview-topics}
-
       - [Create and preview topics](./user-guide/create-preview-topics.md)
       - [Create topics](./user-guide/web-editor-create-topics.md)
       - [Preview a topic](./user-guide/web-editor-preview-topics.md)
       - Author content {#author-content-aem-guides}
-
         - [Way to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
         - Web Editor {#work-with-web-editor}
-
           - [Work with the Web Editor](./user-guide/web-editor.md)
           - [Launch the Web Editor](./user-guide/web-editor-launch-editor.md)
           - [Edit topics in the Web Editor](./user-guide/web-editor-edit-topics.md)
@@ -46,7 +40,6 @@ badgeAll: label="Legacy Guide - More Info" type="Informative" url="/help/legacy-
           - [Web Editor views](./user-guide/web-editor-views.md)
           - [Support for Schematron files](./user-guide/support-schematron-file.md)
           - [AI-powered Smart Suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
-
           - [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
           - [Add citations to your content](./user-guide/web-editor-apply-citations.md)
           - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)
@@ -60,7 +53,6 @@ badgeAll: label="Legacy Guide - More Info" type="Informative" url="/help/legacy-
           - [Create and manage baselines from the Web Editor](./user-guide/web-editor-baseline.md)
           - [Document state](./user-guide/web-editor-document-states.md)
           - [Use labels](./user-guide/web-editor-use-label.md)
-
         - Map Editor {#work-with-map-editor}
           - [Work with the Map Editor](./user-guide/map-editor.md)
           - [Create a map](./user-guide/map-editor-create-map.md)
@@ -70,12 +62,10 @@ badgeAll: label="Legacy Guide - More Info" type="Informative" url="/help/legacy-
           - [Other features in the map editors](./user-guide/map-editor-other-features.md)
         - DITAVAL Editor {#ditaval-editor}
           - [Work with the DITAVAL editor](./user-guide/ditaval-editor.md)
-
       - Desktop tools for authoring content {#author-using-desktop-tools}
         - [Author content using desktop tools](./user-guide/author-desktop-tools.md)
         - [Work with FrameMaker](./user-guide/author-desktop-framemaker.md)
         - [Work with Oxygen](./user-guide/author-desktop-oxygen.md)
-
   - Review content {#review-topic-maps}
     - [Review topics or maps](./user-guide/review.md)
     - [Create a DITA project](./user-guide/authoring-create-dita-project.md)
@@ -143,76 +133,4 @@ badgeAll: label="Legacy Guide - More Info" type="Informative" url="/help/legacy-
     - [Content Reuse Report](./user-guide/reports-content-reuse.md)
     - [Conversion Status Report](./user-guide/reports-convertion-status.md)
     - [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md)
-
-<!--
-  - Articles {#kb-articles}
-
-    - Use native PDF publishing feature {#web-editor}
-      - [Publish PDF output](./web-editor/native-pdf-web-editor.md)
-      - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)
-
-    - Authoring {#authoring}
-      - Web Editor {#webeditor}
-        - [Content re-usability in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
-        - Customizing {#customizing}
-          - [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-          - [Add custom styles to Web Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
-          - [Customize Folder ContextMenu](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
-          - [Customize File ContextMenu](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
-        - Schematron {#schematron}
-          - [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
-      - Reports {#reports}
-        - [Manage metadata for your DITA content](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
-      - [Define icon for custom dita types](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
-    - Guides Extention Framework {#extention-framework}
-      - Aem Guides Framework {#aem-guides-framework}
-        - [Basic Customisations](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
-        - [JUI Framework](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
-        - Components {#framework-components}
-          - [Button](./guides-ui-extensions/aem_guides_framework/components/button.md)
-          - [Icon](./guides-ui-extensions/aem_guides_framework/components/icon.md)
-          - [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
-          - [List](./guides-ui-extensions/aem_guides_framework/components/list.md)
-          - [Textarea](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
-        - Widgets {#framework-widgets}
-          - [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
-          - [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-      - Getting Started {#getting-started}
-        - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
-        - [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
-        - [Extension Repositry intro](./guides-ui-extensions/getting-started/extension-repo-intro.md)
-      - Customisations {#customisations}
-        - [Simple customisation](./guides-ui-extensions/customisations/add-button.md)
-        - [Customising Context Menus](./guides-ui-extensions/customisations/context-menus.md)
-        - [Customising Toolbar & Topbar](./guides-ui-extensions/customisations/toolbar-topbar.md)
-        - [Examples](./guides-ui-extensions/examples.md)
-        - [Customisable Jsons](./guides-ui-extensions/JSONs.md)
-        - Review{#review-app-customisations}
-          - [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
-          - [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
-          - [Custom Dialog](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
-    - Publishing {#publishing}
-
-      - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
-      - [Generate Bookmap's TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
-      - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-      - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-      - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
-      - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
-      - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-      - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
-
-    - Workflows {#workflows}
-      - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
-    - Translation {#translation}
-      - [Exclude paragraphs from translation](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
-    - Use Cases {#use-cases}
-      - [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
-      - [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-
-  - [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
-
--->
+- [User Guide (New UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro)

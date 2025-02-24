@@ -89,7 +89,6 @@ While CSS files are provided for content and layout, you can create a new styles
 
 By default, whenever you create a new page layout, the `layout.css` file is included within the new page layout. If you want the page layout to contain styles from a different CSS file, then you can simply drag-and-drop the desired CSS file on the new page layout's content editing area. To validate if the CSS file has been embedded within the page layout, switch to the Source view and you will find a link to the CSS file in the `<head>` element.  
 
-
 To create a stylesheet, follow the below steps:
 1. In the **Templates** panel, do one of the following:
    * Hover over the **Stylesheets** tab and click the (*Options* icon) **...** and choose **New Stylesheet**.
@@ -192,6 +191,10 @@ The selected file is imported and listed under the Resources folder.
 
 Use the Settings section to configure the advanced settings for PDF's page layout, starting PDF from odd or even page, formats for the cross-references, and enabling printing marks in the final PDF that's generated
 using the template.
+
+>![NOTE]
+>
+> Starting with Experience Manager Guides 5.0/2025.02.0 release, the **Print** section in Advanced PDF settings has been moved to the **Output presets** panel. To configure Print settings, view [Publish PDF output](../web-editor/native-pdf-web-editor.md#print).
 
 To configure, click **Settings** in the **Templates** panel to view the following options:
 
@@ -390,30 +393,6 @@ The given page order results in a PDF having the following page numbers from the
 Choose this option to publish multiple pages on a single sheet of paper.  Then, select the number of rows and columns and publish the pages like a grid on a single sheet. For example, you can publish the pages as a grid of 2 rows and 4 columns. 
 
 Define the target sheet size and the orientation in which you want to publish the sheet. You can also specify the margin and the padding properties of the sheet.
-
-
-
-
-### Print
-
-Configure the print production settings to assign printer marks, select color models, and specify properties related to printing of your PDF output.
-
-* **Printer Marks**: When you prepare a document for print production, printer marks are added to the page boundaries to assist in proper alignment, trimming, and color selection during printing. By selecting a printer mark, the page boundary is extended to accommodate the mark, which are trimmed during print. You can choose to display the following printer marks in your PDF output:
-   * **Trim Marks**: Select the option to place a mark at each corner of the trim area to indicate where the paper needs to be trimmed after printing.
-   * **Bleed Marks**: Select to place a mark at each corner of the bleed box to indicate the trim area for the extended image.
-   * **Registration Marks**: Select to place a mark outside the crop area for aligning the different separations in a color document.
-   * **Color Bars**: Select to add a strip of colors outside the trim area to maintain color consistency and adjust ink density when printing.
-
-   Set dimensions for the selected printer marks using the **Line Width**, **Line Color**, and **Bleed Box Width** options.
-
-* **Media Box size**: This is the overall page size including the extended area occupied by printer marks. Use the drop-down option to select the page size for your PDF output or create your own custom size.
-
-* **Color Space**: You are given an option to choose from RGB or CMYK color spaces to print your PDF document. Choose RGB to display the generated PDF digitally and CMYK for physical printing. Colors defined in the document are converted to the chosen color space.
-    >[!NOTE]
-    >
-    >An ICC color profile is necessary for PDF/A creation if using CMYK color space.
-
-   <!--For more information on applying these print settings, see *Printing preferences*.-->
 
 ### Cross-references {#cross-references}
 

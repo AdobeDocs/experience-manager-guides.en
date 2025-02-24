@@ -9,19 +9,20 @@ role: User
 
 You can delete a bulk activation map collection when it is no longer needed. To delete a bulk activation map collection, perform the following steps:
 
-1.  Select **Guides** from the list of tools.
+1.  Select the Adobe Experience Manager logo at the top and choose **Tools**.
 
-1.  Click on the Adobe Experience Manager link at the top and choose **Tools**.
+1.  In the **Tools** panel, select **Guides**.
 
-1.  Click on the **Bulk Publish Dashboard** tile.
+1.  Select the **Bulk Publish Dashboard** tile.
 
-    A list of bulk activation map collections are displayed.
+    The Bulk Publish Dashboard is displayed with a list of bulk activation map collections. You can also access this dashboard from the Left panel of the [Adobe Experience Manager Guides Home page](intro-home-page.md).    
+    
 
-1.  Select the collection that you want to edit and click **Delete**.
+1.  Select the collection that you want to edit and select **Delete**.
 
     A delete confirmation message appears.
 
-1.  Click **Yes**.
+1.  Select **Yes**.
 
     The bulk activation map collection is deleted from the system.
 

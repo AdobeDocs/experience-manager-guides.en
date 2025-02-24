@@ -208,8 +208,8 @@ To use the API JAR, you need to add the dependency to your project's pom.xml as 
 ```XML
 <dependency>
    <groupId>com.adobe.aem</groupId>
-   <artifactId>aem-guides-sdk-api</artifactId>
-   <version>2022.5</version>
+   <artifactId>aem-dox-sdk-api</artifactId>
+   <version>${RELEASE}</version>
 </dependency>
 ```
 

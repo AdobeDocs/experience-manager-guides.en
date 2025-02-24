@@ -1,23 +1,19 @@
 ---
 title: Use the AI Assistant to author documents smartly `
-description: Learn how to Use the AI Assistant to author documents with smart efficiency in the Web Editor.
+description: Learn how to Use the AI Assistant to author documents with smart efficiency.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 ---
-# AI Assistant to author documents with smart efficiency
+# Author documents smartly with AI Assistant (Beta)
 
-Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. You experience simplified document handling through intelligent suggestions and optimization. Using this tool, view the smart suggestions to reuse the content from the existing content repository. Use the text prompt feature to provide a prompt and change the content or generate an output as per your requirements. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic. This feature also helps you to easily improve and translate the selected content.
-
+Adobe Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. Using this tool, view the smart suggestions to reuse the content from the existing content repository. Use the text prompt feature to provide a prompt and change the content as per your requirements. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic based on the selected content. This feature also helps you to easily improve and translate the selected content.
 
 >[!NOTE]
 >
-> To add the AI Assistant feature in the right panel, your system administrator must select the **AI Assistant** option under the **Panels** tab in the **Editor Settings** ![Editor Settings icon](./images/editor_settings_icon.svg).
-> Also, you must check out your document to view the AI Assistant icon.  
+> This Authoring feature is available for DITA topics only, and can be accessed from the Editor interface only. On the Home page and Map console, only the **Help** panel is displayed. 
 
-This feature is available for DITA topics only. After selecting the text in a topic, you can choose to perform any of the AI Assistant actions:
+After selecting the text in a topic, you can choose to perform any of the AI Assistant actions:
 
-![ai assistant](./images/ai-assistant-panel.png)
-
-
+![ai assistant](./images/ai-assistant-panel.png){width="300" align="left"}
 
 ## Suggest reusable content 
 
@@ -26,19 +22,14 @@ Use the **Suggest reusable content** ![ai suggest reusable content icon ](./imag
 Learn more about using [AI-powered smart suggestions to author content](authoring-ai-based-smart-suggestions.md).
 
 
-
-
-
 ## Use text prompt 
 
+A text prompt is an instruction, question, or statement that guides the AI Assistant in generating a specific response.
 
-A text prompt is an instruction, question, or statement that guides the AI Assistant in generating a specific response or output.
-
-You can use a text prompt to change the content and generate an output.  For example, you can generate a summary of the features of a product and use it in your report to showcase the product. You can also use this feature to compare two products. For example, you can also create a comparison table for the features of two products.
-
+You can use a text prompt to change the content. For example, you can select the content of your current topic and use the prompt *Make the text more concise*. Similarly, you can use a text prompt to add an attribute to the tag used in the selected content. 
 
 1. Select the text for which you want to use the text prompt.
-1. Select **Use text prompt** ![ai use text prompt icon](./images/ai-use-text-prompt.svg)from the **AI Assistant**  panel.
+1. Select **Use text prompt** ![ai use text prompt icon](./images/ai-use-text-prompt.svg)from the **Authoring**  panel.
 1. Give a prompt in one of the following ways:
 
     - Choose a prompt from the suggested prompts. 
@@ -51,10 +42,12 @@ You can use a text prompt to change the content and generate an output.  For exa
     - Enter your prompt in the text box. 
   
 
-1. Select **Regenerate** ![Regenerate icon](./images/refresh-icon.svg) for another response or output based on your prompt, like the AI tools.
+1. Select **Regenerate** ![Regenerate icon](./images/refresh-icon.svg) for another response or output based on your prompt.
 
-1. (Optional) Select **Expand** ![expandicon](./images/expand-icon.svg)  to open the **Use text prompt** editor. It displays the current and the generated content. You can edit the source layout content and check the preview.
- 
+1. (Optional) Select **Expand** ![expandicon](./images/expand-icon.svg) to open the **Use text prompt** editor. It displays the current and the generated content. You can edit the source layout content and check the preview.
+    
+    ![ai assistant text prompt editor](./images/text-prompt.png)
+
 
     >[!NOTE]
     >
@@ -64,21 +57,18 @@ You can use a text prompt to change the content and generate an output.  For exa
 
 1. You can also edit the prompt in the editor and regenerate the response. For example, you can change the prompt to make the text more concise to approximately 40 words.
  
-    ![ai assistant text prompt editor](./images/ai-assisstant-text-prompt.png)
-
 1. You can verify the source of the generated content and edit it if required.
 
 1. Select **Accept** to replace the selected content in the topic with the generated content.  
-1. **Cancel**: Cancels the text prompt action. Returns to the initial state of the panel.
+1. **Cancel**: Cancels the text prompt action. Returns to the Authoring panel. 
 
     >[!NOTE]
     >
-    > Selecting the **Cancel** icon in the feature panel also returns you to the initial state.
+    > Selecting the **Dismiss** icon in the Authoring panel returns you to to the initial state of the AI Assistant.
 
 ## Improve content 
 
-
-Improves the selected content. Check the spelling, language, and grammatical structure and suggest a better version of the content. It also enhances the quality of sentences.
+Use the **Improve content** feature to improve the quality of the selected content of the current topic. You can select the content to check spelling, language, and grammatical structure, and suggest a better version of the content. It also enhances the quality of sentences.
 
 1. Select the content. 
 1. Select **Improve content** ![ai improve content icon](./images/ai-improve-icon.svg) to find the suggestions for the improved content. 
@@ -88,9 +78,9 @@ Improves the selected content. Check the spelling, language, and grammatical str
 
 
 
-![ai assistant improve content editor](./images/ai-assisstant-improve-content.png)
+    ![ai assistant improve content editor](./images/ai-assisstant-improve-content.png)
 
-Accept the suggestion, or regenerate for a different response, or cancel the action to go back to the previous state.
+Accept the suggestion, edit the response in the source view before accepting, regenerate for a different response, or cancel the action to go back to the previous state.
 
 
 
@@ -109,10 +99,10 @@ For example, you can list the system requirements and generate a short descripti
 
 You can also perform the following actions: 
 
-- Select **Regenerate** to generate another short description for your topic, like the AI tools.
+- Select **Regenerate** to generate another short description for your topic.
 - Select **Expand** to open the **Create shortdesc** editor. 
 
-![ai assistant create short description editor](./images/ai-assistant-create-short-desc.png)
+    ![ai assistant create short description editor](./images/ai-assistant-create-short-desc.png)
 
 
 
@@ -127,7 +117,7 @@ This feature intelligently converts a selected paragraph into a list.  It analyz
 
 1. Select the content. 
 1. Select **Itemize content** ![ai itemize content icon](./images/ai-itemize-icon.svg) to convert the selected content into a list. 
-The AI Assistant tool converts the content smartly into a list of items. 
+The Authoring tool in the AI Assistant panel converts the content smartly into a list of items. 
 1. (Optional) Select **Expand** to open the **Itemize content** editor. 
 1. Once your list is ready, accept the changes in the generated content. The generated content then replaces the selected content.  
 
@@ -135,11 +125,12 @@ The AI Assistant tool converts the content smartly into a list of items.
 
 ## Translate content 
 
-Use this intelligent feature to translate the selected content to the target language. For example, you can add content in English and quickly translate it into German.
+Use this intelligent feature to translate the selected content to the target language, making it highly useful when adding notes in different languages. For example, you can add content in English and quickly translate it into Arabic.
+
 Perform the following steps to translate the content:
 
 1. Select the content that you want to translate.
-1. Select **Translate content** ![ai translate content icon](./images/ai-translate-content-icon.svg) from the AI Assistant panel.
+1. Select **Translate content** ![ai translate content icon](./images/ai-translate-content-icon.svg) from the **Authoring** panel.
 1. Select the target language from the dropdown. The translated content appears in the AI Assistant panel.
 
 1. (Optional) Select **Expand** to open the **Translate content** editor. 

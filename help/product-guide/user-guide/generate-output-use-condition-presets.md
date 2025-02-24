@@ -11,28 +11,25 @@ You can define attributes in your DITA topics and the use the condition preset t
 
 You can create condition presets in two ways:
 
-* From the Web Editor: Allows you to create and manage the condition presets for a DITA map from the Web Editor. 
-* From the map dashboard: Allows you to create and manage the condition presets for a DITA map from the map dashboard.
+- [From the Map console](#condition-presets-from-the-map-console)
+- [From the Map dashboard](#condition-presets-from-the-map-dashboard)
 
 
-## Condition presets from the Web Editor
+## Condition presets from the map console
 
-Experience Manager Guides allows you to manage condition presets from the Web Editor and use them within the Output presets to generate the final output.
-You can create and view the condition presets, view the attributes, and manage the actions for the current map from the **Condition Presets** view in the Web Editor.
+Experience Manager Guides allows you to create and manage condition presets from the Map console and use them within the **Output presets** to generate the final conditional output.
 
-<img src="images//manage-condtions-presets.png" alt= "Condtion presets in web editor" width="800" border="1px">
-
-
+<img src="images/manage-condtions-presets.png" alt= "Condtion presets in map consoler" width="800" border="1px">
 
 ### Create a condition preset
 
-The **Condition Presets** view provides detailed information about the condition presets, such as their attributes, values,  and the actions.
+The **Condition Presets** view provides detailed information about the condition presets, such as their attributes, values, and the actions.
+
 You can create a condition preset of the topics by performing the following steps:
 
-1. In the **Repository** panel, open the DITA map file in Map View.
-1. Select the **Manage** tab.
-1. Select **Condition Presets** on the left. The list of conditions presets defined for the DITA map is displayed.
-1. Select the + icon next to **Condition Presets** to open the **New Condition Preset** dialog. 
+1. [Open the DITA map file in Map console](./open-files-map-console.md). 
+1. Navigate to the **Condition presets** on the left. The list of conditions presets defined for the DITA map is displayed.
+1. Select the + icon next to **Condition presets** to open the **New condition preset** dialog box. 
 1. Enter a unique name for the preset.
  
     >[!NOTE]
@@ -40,108 +37,113 @@ You can create a condition preset of the topics by performing the following step
     > You view an error if the name field is empty or if you enter an Invalid character or a name that is the same as an existing condition preset. You can use a hyphen '-' or underscore '_' as a separator.
 
 1. Select **Create**.
-The new condition preset is added to the list.
-1. Double-click a condition preset to view the attributes and the actions.
-The **Attributes** panel shows all the attributes added to any references present in the map. The right panel shows only the conditions that you have added to the condition presets.
+
+    The new condition preset is added to the list.
+1. Select the condition preset to view the attributes and the actions.
+
+    The **Attributes** panel shows all the attributes added to any references present in the map. The right panel shows only the conditions that you have added to the condition presets.
 1. Do any of the following to add the attributes:
-    * Select one or more attributes to add all the values under them to the condition preset. For example, you can select the `platform` attribute to add all its values.
-    * Select one or more attribute values to add them to the condition preset. For example, you can select the `Unix` and `Win` values of the platform attribute 
-    * Select any attribute and value pair and drag it to the center panel. For example, you can select the `Unix` value of the platform attribute and drag it.
-    * **Select all** to add all the attributes and their values to the condition preset.
-    By default, the action for an attribute is `Include`.
+    - Select one or more attributes to add all the values under them to the condition preset. For example, you can select the `platform` attribute to add all its values.
+    - Select one or more attribute values to add them to the condition preset. For example, you can select the `Unix` and `Win` values of the platform attribute 
+    - Select any attribute and value pair and drag it to the center panel. For example, you can select the `Unix` value of the platform attribute and drag it.
+    -  **Select all** to add all the attributes and their values to the condition preset. By default, the action for an attribute is `Include`.
 
 1. Select **Add**. You can repeat this step to add more attributes. The attributes that you add move from the central to the right panel.  
-1. Select Remove from the actions bar on the top to remove the selected attributes in the right panel. 
+1. Select **Remove** from the actions bar on the top to remove the selected attributes in the right panel. 
 1.  (Optional) If required, you can override the action applied to the attributes. 
-Do one of the following:
-    * For any attribute, select one of the following actions from the Action drop-down.
-        * Include
-        * Exclude
-        * Passthrough
-        * Flag
-    * Select multiple attribute rows from the right panel and choose an action from the actions bar on the top. For example, you can select Exclude action for the selected attributes.
+
+    Do one of the following:
+    For any attribute, select one of the following actions from the Action drop-down or from the toolbar.
+
+    - Include
+    - Exclude
+    - Passthrough
+    - Flag
+    
+    Select multiple attribute rows from the right panel and choose an action from the actions bar on the top. For example, you can select **Exclude** action for the selected attributes.
 1.  Select **Save** to save the condition preset. 
 
     >[!NOTE]
     >
     > You view a warning if you select another preset or close the preset without saving it. 
 
-Once you create a condition preset, it appears under the **Condition Presets** dropdown of the Output presets. Learn more about how to [Publish PDF output](../web-editor/native-pdf-web-editor.md). 
+Once you create a condition preset, it appears under the **Condition presets** dropdown of the **Output presets**. Learn more about how to [Publish PDF output](../web-editor/native-pdf-web-editor.md). 
 
 ### Rename a condition preset
 
 Perform the following steps to rename a condition preset:
 
-1. Hover over a condition preset from the **Condition Presets** panel.
-1. Select **Rename** from the Options menu to open the **Rename condition preset** dialog.
+1. Hover over a condition preset from the **Condition presets** panel.
+1. Select **Rename** from the Options menu to open the **Rename condition preset** dialog box.
 1. Edit the name of the condition preset.
-1. Click **Rename**.
+1. Select **Rename**.
 
 ### Duplicate a condition preset
 
 Perform the following steps to duplicate a condition preset:
 
-1. Hover over  a condition preset from the **Condition Presets** panel.
-1. Select **Duplicate** from the Options menu to open the **Duplicate condition preset** dialog.
+1. Hover over  a condition preset from the **Condition presets** panel.
+1. Select **Duplicate** from the Options menu to open the **Duplicate condition preset** dialog box.
+
     >[!NOTE]
     >
     > The default name of the preset is `<selected condition preset name>_1`. You can change the name according to your requirements.
     
-1. Click **Duplicate**.
+1. Select **Duplicate**.
 
 ### Delete condition preset
 
 Perform the following steps to delete condition presets:
 
-1. Hover over  a condition preset from the **Condition Presets** panel.
-1. Select **Delete** from the Options menu to open the **Delete condition preset** dialog.
-1.  Click **Delete**.
+1. Hover over a condition preset from the **Condition presets** panel.
+1. Select **Delete** from the Options menu to open the **Delete condition preset** dialog box.
+1.  Select **Delete**.
 
 
 
-## Condition presets from the map dashboard
+## Condition presets from the Map dashboard
 
 
 ### Create a condition preset 
 
 Perform the following steps to create a condition preset:
 
-1.  Select **Condition Presets** tab in the DITA map console.
-1.  Click **Create** button.
+1.  Select **Condition Presets** tab in the DITA map dashboard.
+1.  Select **Create**.
 1.  Enter a name for the preset in **Name Condition**.
 1.  Select one of the following default actions from **Set default action to** drop-down:
 
-    *   Include
-    *   Exclude
-    *   Passthrough
-    *   Flag
+    - Include
+    - Exclude
+    - Passthrough
+    - Flag
     The action is set as default action for all the attributes whether they are added to the condition preset or not.
 
     For example, you have 15 condition attributes in your document and you have included four of them in the condition preset. If you select **exclude** as default action, it is applied to all 15 attributes.
 
 1.  Do any of the following to add the attributes:
-    *   Click **Add** to one attribute to the condition preset. You can repeat this step to add more attributes.
-    *   Click **Add all** to add all the attributes to the condition preset.
+    - Seledt **Add** to one attribute to the condition preset. You can repeat this step to add more attributes.
+    - Select **Add all** to add all the attributes to the condition preset.
 1.  \(Optional\) If required, you can override the default action applied to the attributes in Step 4. Do one of the following:
-    *   Select multiple attributes, choose an action from **Set the action for selected conditions to**, and click **Apply**.
-    *   Select an action for an attribute from the **Action** drop-down.
-1.  Click **Save**.
+    - Select multiple attributes, choose an action from **Set the action for selected conditions to**, and select **Apply**.
+    - Select an action for an attribute from the **Action** drop-down.
+1.  Select **Save**.
 
 ### Edit a condition preset 
 
 You can make changes in an existing condition preset to change the actions applied to the attributes in the condition preset. Perform the following steps to edit a condition preset:
 
 1.  Select **Condition Presets** tab in the DITA map console.
-1.  Click **Edit** button.
+1.  Select **Edit** button.
 1.  Make required changes for all the attributes in the condition preset.
-1.  Click **Save**.
+1.  Select **Save**.
 
 ### Create a copy of a condition preset 
 
 You can create a copy of a condition preset and then modify it according to your requirement. Perform the following steps to create a copy of a condition preset:
 
 1.  Select **Condition Presets** tab in the DITA map console.
-1.  Click **Duplicate** button.
+1.  Select **Duplicate** button.
 
     >[!NOTE]
     >
@@ -150,7 +152,7 @@ You can create a copy of a condition preset and then modify it according to your
     You can change the name according to your requirement.
 
 1.  \(Optional\) Make required changes for all the attributes in the condition preset.
-1.  Click **Save**.
+1.  Select **Save**.
 
 ### Delete condition preset 
 
@@ -158,7 +160,7 @@ You can delete one or more condition presets from the **Condition Preset** tab o
 
 1.  Select **Condition Presets** tab in the DITA map console.
 1.  Select the condition preset\(s\) that you want to delete.
-1.  Click **Remove** button.
-1.  Click **Remove** to confirm the action.
+1.  Select **Remove** button.
+1.  Select **Remove** to confirm the action.
 
 **Parent topic:**[Output generation](generate-output.md)

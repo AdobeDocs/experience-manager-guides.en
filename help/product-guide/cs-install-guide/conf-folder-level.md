@@ -67,6 +67,8 @@ Using the Folder Profiles tile in the Guides settings, you can configure setting
 -   **XML Editor Configurations**: Use this tab to customize the look-and-feel and various features of the Web Editor. The following configurable settings are available for the Web Editor:
 
     -   XML Editor UI Configuration
+    -   XML Editor Page Layout
+    -   XML Editor Configuration
     -   CSS Template Layout
     -   XML Editor Snippets
     -   XML Content Version Labels
@@ -100,7 +102,7 @@ Perform the following steps to configure the global profile:
 
 1.  To configure **Output Presets**, see [Configure output presets](#id18AGD0IH0Y4).
 
-1.  To configure XML Editor Configuration, see [Configure and customize the XML Web Editor](#id2065G300O5Z).
+1.  To configure XML Editor Configuration, see [Configure and customize the XML Editor](#id2065G300O5Z).
 
 1.  After making all required updates, save and close the **Global Profile**.
 
@@ -401,9 +403,15 @@ If you have updated an existing output preset, or you want to make a new output 
 
 
 
-## Configure AI-powered smart suggestions in the Web Editor {#conf-ai-smart-suggestions}
+## Configure AI Assistant for smart help and authoring 
 
 For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
+
+The AI Assistant in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your content through smart authoring and content reuse experiences. It brings together two robust AI features — **Authoring** and **Help** — into the Experience Manager Guides interface, enabling you to author documents and access information faster and more efficiently.
+
+For configuration details, view [AI Assistant configuration](./conf-smart-suggestions.md). 
+
+**Configure AI-powered smart suggestions**
 
 You can configure the AI-powered smart suggestions and help the authors reuse the existing content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of  **Suggest reusable content** from the AI Assistant panel in the Web Editor.
 
@@ -418,9 +426,10 @@ Perform the following steps to configure standard AI configuration at the global
     >You can configure AI-based smart suggestions to the global or a folder-level profile.
 
 1. On the profile page, select the **AI Configuration** tab.
-![AI configuration tab in global profile](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
 
-1. Click **Edit**.
+    ![AI configuration tab in global profile](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+
+1. Select **Edit**.
 1. As an administrator, you can configure the following settings:
 
     **Minimum characters**: Enter the minimum number of characters that the authors need to type in to get the suggestions. For example, if this number is 7, the author must add at least 7 characters to view a smart suggestion. 
@@ -437,16 +446,13 @@ Perform the following steps to configure standard AI configuration at the global
 
 Learn more about how to view and add [AI-based smart suggestions](../user-guide/authoring-ai-based-smart-suggestions.md) to add content references while authoring in the Web Editor.
 
-
-
-
-## Configure AI-powered Smart Help in the Web Editor {#conf-ai-guides-assistant}
+**Customize the default questions for smart help**
 
 For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-You can configure the AI-powered **Smart Help** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+You can configure the AI-powered smart **Help** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
-The **XML Editor Configuration** tab allows you to configure the default questions of the **Smart Help panel** in the Web Editor.
+The **XML Editor Configuration** tab allows you to configure the default questions of the **Help** panel.
 
 >[!NOTE]
 >
@@ -488,13 +494,27 @@ Perform the following steps to configure the default questions:
 Learn more about using the [AI-powered Smart Help](../user-guide/ai-based-smart-help.md) to find the required content from the Experience Manager Guides documentation.
 
 
-## Configure and customize the XML Web Editor {#id2065G300O5Z}
+## Configure and customize the XML Editor {#id2065G300O5Z}
 
-By default, the XML Web Editor comes with a lot of features to help your authors create DITA documents. If you work in a restrictive environment, you can choose which features are exposed to your authors. The XML Editor Configuration tab allows you to easily control the features and also change the look-and-feel of your Web Editor. As an administrator, you can customize the following components of the Web Editor:
+By default, the XML Editor comes with a lot of features to help your authors create DITA documents. If you work in a restrictive environment, you can choose which features are exposed to your authors. The XML Editor Configuration tab allows you to easily control the features and also change the look-and-feel of your Editor. As an administrator, you can customize the following components of the Editor:
 
 **XML Editor UI Configuration**
 
-This setting controls the toolbar and the other user interface elements of the Web Editor. Click the Download icon to download the ui\_config.json file on your local system. You can then make changes to the file and the upload the same. Depending upon where you are uploading the file at, global or folder-level profile, the changes are applied accordingly. For more details about how to customize the XML Editor using the ui\_config.json file, see [Customize toolbar](conf-web-editor-customize-toolbar.md#).
+This setting enables you to create JSON extensions that reflect modifications made in the `ui_config.json` file. You can independently upload these extensions at the Folder profile level, offering enhanced flexibility and customization. For instance, when you make changes to the **XML Editor Configuration**, such as updating a button, the system automatically identifies the differences. By uploading these changes to the **XML Editor UI Configuration** and converting them into JSON extensions using the **Convert UI Config to JSON** button, the system generates an extension that incorporates the new functionality.
+
+Learn more about **customizing JSON configurations and converting UI configurations for the new AEM Guides Editor**.
+
+**XML Editor page layout**
+
+This feature allows you to upload CSS files to style the new extensions uploaded under the **XML Editor UI Configuration**. The uploaded CSS is applied consistently across all relevant applications, ensuring a unified and polished appearance for your UI customizations. 
+
+**XML Editor Configuration**
+
+This setting controls the toolbar and the other user interface elements of the Editor. Select the **Download** icon to download the `ui\_config.json` file on your local system. You can then make changes to the file and the upload the same. Depending upon where you are uploading the file at, global or folder-level profile, the changes are applied accordingly. For more details about how to customize the XML Editor using the `ui\_config.json file`, view [Customize toolbar](conf-web-editor-customize-toolbar.md#).
+
+>[!NOTE]
+>
+> For AEM Guides 2502 release, and newer versions, it is recommended to use extension JSON instead of `ui_config.json` for customization. For details, refer to the **XML Editor UI Configuration** section above.
 
 **CSS Template Layout**
 

@@ -9,21 +9,24 @@ role: User
 
 To create a bulk activation map collection, perform the following steps:
 
-1.  Select **Guides** from the list of tools.
+1.  Select the Adobe Experience Manager logo at the top and choose **Tools**.
 
-1.  Select the Adobe Experience Manager link at the top and choose **Tools**.
+1.  In the **Tools** panel, select **Guides**.   
 
 1.  Select the **Bulk Publish Dashboard** tile.
 
+    The Bulk Publish Dashboard is displayed. You can also access this dashboard from the Left panel of the [Adobe Experience Manager Guides Home page](intro-home-page.md).
+    
     For the first time, a blank collections page is displayed. If you had created bulk activation collections earlier, then they are shown on this page.
+    
 
-1.  Click **Create**.
+1.  Select **Create**.
 
-1.  Enter a title for your bulk activation map collection and click **Create**.
+1.  Enter a title for your bulk activation map collection and select **Create**.
 
     A success message is displayed on creation of the bulk activation map collection.
 
-1.  Click **Open** on the success message.
+1.  Select **Open** on the success message.
 
 1.  Select **Edit** and then select **Add Maps**.
 
@@ -35,7 +38,7 @@ To create a bulk activation map collection, perform the following steps:
 
      You can choose multiple output presets across available locales.
 
-1. Click **Done**.
+1. Select **Done**.
 
  The DITA map files are added to your bulk activation map collection.
 

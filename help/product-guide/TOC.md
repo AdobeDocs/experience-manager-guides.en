@@ -13,6 +13,11 @@ breadcrumb-title: AEM Guides Documentation
   - Release Notes {#release-notes}
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
+      - 2025 Releases {#2025-releases}
+        - 2025.02.0 Release {#2502-release} 
+          - [What's new](./release-info/whats-new-2025-02-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2025-02-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2025-02-0.md)
       - 2024 Releases {#2024-releases}
         - 2024.12.0 Release {#2412-release}
           - [Fixed issues](./release-info/fixed-issues-2024-12-0.md)
@@ -109,134 +114,143 @@ breadcrumb-title: AEM Guides Documentation
       - [4.1.x Release Notes](./release-info/release-notes-4-1.md)
       - [4.0.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
       - [3.8.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
-- User Guide {#user-guide}
-  - Introduction {#about-aem-guide}
+- User Guide (New UI) {#user-guide}
+  - Introduction {#about-aemg}
     - [About [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] working and key features {#aemg-works-features}
       - [How [!DNL AEM Guides] works](./user-guide/intro-how-dxml-works.md)
       - [Key [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
-  - Manage Content {#manage-content}
-    - [Key concepts, roles and permissions, and pre-requisites](./user-guide/authoring.md)
-    - [Upload files](./user-guide/authoring-upload-existing-files.md)
-    - [Manage files and folders](./user-guide/authoring-file-management.md)
-    - [Download files](./user-guide/authoring-download-assets.md)
-  - Author Content {#author-content}
+  - [[!DNL AEM Guides] Home page experience](./user-guide/intro-home-page.md)
+  - Author content {#author-content}
     - [Authoring overview](./user-guide/authoring-content.md)
-    - Topic creation and preview {#create-preview-topics}
-      - [Create and preview topics](./user-guide/create-preview-topics.md)
-      - [Create topics](./user-guide/web-editor-create-topics.md)
-      - [Preview a topic](./user-guide/web-editor-preview-topics.md)
-      - Author content {#author-content-aem-guides}
-        - [Way to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
-        - Web Editor {#work-with-web-editor}
-          - [Work with the Web Editor](./user-guide/web-editor.md)
-          - [Launch the Web Editor](./user-guide/web-editor-launch-editor.md)
-          - [Edit topics in the Web Editor](./user-guide/web-editor-edit-topics.md)
-          - [Know the Web Editor features](./user-guide/web-editor-features.md)
-          - [Keyboard shortcuts in the Web Editor](./user-guide/web-editor-keyboard-shortcuts.md)
-          - [Other features in the Web Editor](./user-guide/web-editor-other-features.md)
-          - [Web Editor views](./user-guide/web-editor-views.md)
-          - [Support for Schematron files](./user-guide/support-schematron-file.md)
-          - [AI-powered Smart Suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
-          - [AI-powered Smart Help to search content](./user-guide/ai-based-smart-help.md)
-          - [AI Assistant to author documents with smart efficiency](./user-guide/ai-assistant-right-panel.md)
-          - [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
-          - [Add citations to your content](./user-guide/web-editor-apply-citations.md)
-          - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)
-          - [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
-          - Article-based publishing {#article-based-pub}
-            - [Article-based publishing from the Web Editor](./user-guide/web-editor-article-publishing.md)
-            - [Create output presets from the Web Editor](./user-guide/web-editor-article-publishing-presets.md)
-            - [Generate output from the Repository panel or the Map View panel](./user-guide/web-editor-article-publishing-output.md)
-            - [Use Quick Generate panel to generate and view output](./user-guide/web-editor-quick-generate-panel.md)
-          - [Translate documents from the Web Editor](./user-guide/translate-documents-web-editor.md)
-          - [Create and manage baselines from the Web Editor](./user-guide/web-editor-baseline.md)
-          - [Document state](./user-guide/web-editor-document-states.md)
-          - [Use labels](./user-guide/web-editor-use-label.md)
-        - Map Editor {#work-with-map-editor}
-          - [Work with the Map Editor](./user-guide/map-editor.md)
-          - [Create a map](./user-guide/map-editor-create-map.md)
-          - [Create maps based on customized templates](./user-guide/create-maps-customized-templates.md)
-          - [Work with the Advanced Map Editor](./user-guide/map-editor-advanced-map-editor.md)
-          - [Work with the Basic Map Editor](./user-guide/map-editor-basic-map-editor.md)
-          - [Other features in the map editors](./user-guide/map-editor-other-features.md)
-        - DITAVAL Editor {#ditaval-editor}
-          - [Work with the DITAVAL editor](./user-guide/ditaval-editor.md)
-      - Desktop tools for authoring content {#author-using-desktop-tools}
+    - [Ways to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
+    - Editor {#work-with-editor}
+        - [Introduction to the Editor](./user-guide/web-editor.md)
+        - [Launch the Editor](./user-guide/web-editor-launch-editor.md)
+        - [Edit topics in the Editor](./user-guide/web-editor-edit-topics.md)
+        - Topic creation and preview {#create-preview-topics}
+          - [Create and preview topics](./user-guide/create-preview-topics.md)
+          - [Create topics](./user-guide/web-editor-create-topics.md)
+          - [Preview a topic](./user-guide/web-editor-preview-topics.md)
+        - [Know the Editor features](./user-guide/web-editor-features.md)
+        - [Additional features in the Editor](./user-guide/web-editor-other-features.md)
+        - [Keyboard shortcuts in the Editor](./user-guide/web-editor-keyboard-shortcuts.md)
+        - [Editor views](./user-guide/web-editor-views.md)
+        - [Support for Schematron files](./user-guide/support-schematron-file.md)
+        - [Author Markdown documents from the Editor](./user-guide/web-editor-markdown-topic.md)
+        - [Add citations to your content](./user-guide/web-editor-apply-citations.md)
+        - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)   
+        - [Document state](./user-guide/web-editor-document-states.md)
+        - [Use labels](./user-guide/web-editor-use-label.md)
+    - Map Editor {#map-editor}
+        - [Introduction to the Map Editor](./user-guide/map-editor.md)
+        - [Create a map](./user-guide/map-editor-create-map.md)
+        - [Create maps based on customized templates](./user-guide/create-maps-customized-templates.md)
+        - [Map Editor features](./user-guide/map-editor-advanced-map-editor.md)
+        - [Additional features in the Map Editor](./user-guide/map-editor-other-features.md)
+    - DITAVAL editor {#ditaval-editor}
+        - [Use the DITAVAL editor](./user-guide/ditaval-editor.md)
+    - Desktop tools for authoring content {#author-using-desktop-tools}
         - [Author content using desktop tools](./user-guide/author-desktop-tools.md)
-        - [Work with FrameMaker](./user-guide/author-desktop-framemaker.md)
-        - [Work with Oxygen](./user-guide/author-desktop-oxygen.md)
-  - Review content {#review-topic-maps}
-    - [Review topics or maps](./user-guide/review.md)
+  - Review {#review}
+    - [Introduction to review](./user-guide/review.md)
     - [Create a DITA project](./user-guide/authoring-create-dita-project.md)
     - [Send topics for review](./user-guide/review-send-topics-for-review.md)
     - [Reassign review task using notification](./user-guide/reassign-review-using-notification.md)
-    - Topic review {#review-topics}
-      - [Review topics](./user-guide/review-topics.md)
-      - [Address review comments](./user-guide/review-address-review-comments.md)
+    - [Review topics](./user-guide/review-topics.md)
+    - [Address review comments](./user-guide/review-address-review-comments.md)
     - [Manage review tasks using the Review Dashboard](./user-guide/review-manage-tasks-review-dashboard.md)
     - [View a completed review task](./user-guide/review-view-completed-task.md)
-  - Metadata in AEM Guides {#manaege-metadata}
+  - Collaborate using Adobe Workfront {#workfront-integration}
+    - [Workfront integration with Experience Manager Guides](./user-guide/workfront-integration.md)
+  - Metadata and tagging {#manage-metadata}
     - [Manage metadata](./user-guide/manage-metadata.md)
     - [Work with metadata in AEM](./user-guide/metadata-dita.md)
-    - [Smart Tagging](./user-guide/web-editor-smart-tagging.md)
+    - [Smart tagging](./user-guide/web-editor-smart-tagging.md)
     - [Bulk tagging of DITA content](./user-guide/map-editor-bulk-tagging.md)
-  - Content translation {#translate-content}
-    - [Translate content](./user-guide/translation.md)
-    - [Best practices for content translation](./user-guide/translation-first-time.md)
-    - [View translation status](./user-guide/translation-view-trans-state-6234.md)
-    - [Translate modified topics](./user-guide/translation-modified-topics-6234.md)
-  - Output Generation {#output-gen}
-    - [Output generation basics](./user-guide/generate-output.md)
-    - [Introduction to output presets](./user-guide/generate-output-understand-presets.md)
-    - Output presets in AEM Guides {#output-presets-aemg}      
-      - [AEM Sites](./user-guide/generate-output-aem-site.md)
-      - [AEM Sites presets on the map dashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
-      - [AEM Sites presets in the Web Editor](./user-guide/generate-output-aem-site-web-editor.md)
-      - [PDF](./user-guide/generate-output-pdf.md)
-      - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
-      - [HTML5](./user-guide/generate-output-html5.md)
-      - [EPUB](./user-guide/generate-output-epub.md)
-      - [Custom](./user-guide/generate-output-custom.md)
-      - [JSON](./user-guide/generate-output-json.md)
-    - [Use variables for setting the Destination Path, Site Name, or File Name options](./user-guide/generate-output-use-variables.md)
-    - [Create, edit, duplicate, or remove an output preset](./user-guide/generate-output-create-edit-preset.md)
-    - [Pass on the metadata to the output using DITA-OT](./user-guide/pass-metadata-dita-ot.md)
-    - [Conditional attribute profiling](./user-guide/generate-output-conditional-attribute-profiling.md)
-    - [Use condition presets](./user-guide/generate-output-use-condition-presets.md)
-    - [Work with Baseline](./user-guide/generate-output-use-baseline-for-publishing.md)
-    - [Generate output for a DITA map from the map console](./user-guide/generate-output-for-a-dita-map.md)
-    - [Use Map Collection for output generation](./user-guide/generate-output-use-map-collection-output-generation.md)
-    - Use native PDF publishing feature {#web-editor}
-      - [Publish PDF output](./web-editor/native-pdf-web-editor.md)
-      - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)
-    - [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
-    - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
-    - [Publish Content Fragments](./user-guide/publish-content-fragment.md)
-    - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
-    - [Publish AEM Sites pages](./user-guide/publish-aem-sites.md)
-    - Bulk activation of content {#bulk-activation}
-      - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
-      - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
-      - [Activate output](./user-guide/conf-bulk-activation-publish-map-collection.md)
-      - [Edit a bulk activation map collection](./user-guide/conf-bulk-activation-edit-map-collection.md)
-      - [Delete a bulk activation map collection](./user-guide/conf-bulk-activation-delete-map-collection.md)
+  - Map management and publishing {#map-management-publishing}  
+    - [Map console overview](./user-guide/map-console-overview.md)
+    - [Open files in Map console](./user-guide/open-files-map-console.md)
+    - Output Generation {#output-gen}
+      - [Output generation basics](./user-guide/generate-output.md)
+      - Output presets in AEM Guides {#output-presets-aemg} 
+        - [Introduction to output presets](./user-guide/generate-output-understand-presets.md)
+        - AEM Sites {#aem-sites}  
+          - [AEM Sites preset in the Map console](./user-guide/generate-output-aem-site-web-editor.md)
+          - [AEM Sites preset in the Map dashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
+        - PDF {#pdf-preset}
+          - [PDF output preset overview](./user-guide/generate-output-pdf.md)
+          - [DITA-OT PDF output preset](./user-guide/generate-output-pdf-dita-ot.md)
+          - [Native PDF output preset](./web-editor/native-pdf-web-editor.md)
+        - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
+        - [HTML5](./user-guide/generate-output-html5.md)
+        - [EPUB](./user-guide/generate-output-epub.md)
+        - [Custom](./user-guide/generate-output-custom.md)
+        - [JSON](./user-guide/generate-output-json.md)
+      - [Edit, duplicate, or delete an output preset](./user-guide/generate-output-create-edit-preset.md)
+      - Conditionalize content {#conditional-content} 
+        - [Use condition presets](./user-guide/generate-output-use-condition-presets.md)
+        - [Conditional attribute profiling](./user-guide/generate-output-conditional-attribute-profiling.md)
+      - Use Baseline {#work-with-baseline}
+        - [Create and manage Baselines from Map console](./user-guide/web-editor-baseline.md)
+        - [Create and manage Baselines from the Map dashboard](./user-guide/generate-output-use-baseline-for-publishing.md)
+      - [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
+      - [Use variables for setting the Destination Path, Site Name, or File Name options](./user-guide/generate-output-use-variables.md)
+      - [Pass on the metadata to the output using DITA-OT](./user-guide/pass-metadata-dita-ot.md)
+      - Reports {#reports-aem-guide}
+        - [Introduction to reports](./user-guide/reports-intro.md)
+        - [DITA map report from the Map console](./user-guide/reports-web-editor.md)
+        - [DITA map report from the Map dashboard](./user-guide/reports-ditamap.md)
+        - [Content Reuse Report](./user-guide/reports-content-reuse.md)
+        - [Conversion Status Report](./user-guide/reports-convertion-status.md)
+        - [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md) 
+      - Content translation {#translate-content}
+        - [Content translation overview](./user-guide/translation.md)
+        - [Best practices for content translation](./user-guide/translation-first-time.md)
+        - [Translate documents from the Map console](./user-guide/translate-documents-web-editor.md)
+        - [View translation status](./user-guide/translation-view-trans-state-6234.md)
+        - [Translate modified topics](./user-guide/translation-modified-topics-6234.md)
+      - Generate output {#generate-output} 
+        - [Generate output for a DITA map](./user-guide/generate-output-for-a-dita-map.md)
+        - [Generate Knowledge Base output](./user-guide/web-editor-article-publishing.md)
+        - Single topic publishing {#single-topic-publishing}
+          - [Publish Content Fragments](./user-guide/publish-content-fragment.md)
+          - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
+          - [Publish AEM Sites pages](./user-guide/publish-aem-sites.md)
+          - [Incremental output generation](./user-guide/generate-output-aem-site.md)
+      - [Use Map Collection for output generation](./user-guide/generate-output-use-map-collection-output-generation.md)
+      - [Manage output generation process](./user-guide/generate-output-manage-process.md)
+      - [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
+      - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
+      - Bulk activation of content {#bulk-activation}
+        - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
+        - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
+        - [Activate output](./user-guide/conf-bulk-activation-publish-map-collection.md)
+        - [Edit a bulk activation map collection](./user-guide/conf-bulk-activation-edit-map-collection.md)
+        - [Delete a bulk activation map collection](./user-guide/conf-bulk-activation-delete-map-collection.md)
   - Output generation of FrameMaker Documents {#generate-fm-output}
-    - [Generate output of FrameMaker documents](./user-guide/fm-output-generatation.md)
-    - Supported presets {#fm-docs-generating-presets}
-      - [Presets for generating FrameMaker documents](./user-guide/fm-output-understand-presets.md)
-      - [PDF](./user-guide/fm-output-pdf-preset.md)
-      - [HTML5](./user-guide/fm-output-html5-preset.md)
-      - [EPUB](./user-guide/fm-output-epub-preset.md)
-    - [Generate output of .book or .fm files](./user-guide/fm-output-generate.md)
-    - [View the status of the output generation task](./user-guide/fm-output-view-status.md)
-  - Reports in AEM Guides {#reports-aem-guide}
-    - [Introduction to reports](./user-guide/reports-intro.md)
-    - [DITA map report from the Web Editor](./user-guide/reports-web-editor.md)
-    - [DITA map report from the map dashboard](./user-guide/reports-ditamap.md)
-    - [Content Reuse Report](./user-guide/reports-content-reuse.md)
-    - [Conversion Status Report](./user-guide/reports-convertion-status.md)
-    - [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md)
+      - [FrameMaker output generation basics](./user-guide/fm-output-generatation.md)
+      - Supported presets {#fm-docs-generating-presets}
+        - [Presets for generating FrameMaker documents](./user-guide/fm-output-understand-presets.md)
+        - [PDF](./user-guide/fm-output-pdf-preset.md)
+        - [HTML5](./user-guide/fm-output-html5-preset.md)
+        - [EPUB](./user-guide/fm-output-epub-preset.md)
+      - [Generate output of .book or .fm files](./user-guide/fm-output-generate.md)
+      - [View the status of the output generation task](./user-guide/fm-output-view-status.md)
+  - AI Assistant in AEM Guides {#ai-assistant-aem}
+    - [Adobe Generative AI user disclosures](./user-guide/adobe-generative-ai-disclosures.md)
+    - [AI Assistant overview](./user-guide/ai-assistant.md)
+    - [AI-powered smart Help to search content](./user-guide/ai-based-smart-help.md)
+    - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
+    - [AI-powered smart suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
+    - [FAQ](./user-guide/ai-assistant-faq.md)
+  - Appendix {#appendix}
+    - Manage Content {#manage-content}
+        - [Key concepts, roles and permissions, and pre-requisites](./user-guide/authoring.md)
+        - [Upload files](./user-guide/authoring-upload-existing-files.md)
+        - [Manage files and folders](./user-guide/authoring-file-management.md)
+        - [Download files](./user-guide/authoring-download-assets.md)
+- [User Guide (Old UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation and configuration {#install-guide}
   - On-premise {#on-prem-ig}
     - [On-premise basics](./install-guide/introduction.md)
@@ -296,6 +310,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Set the Advanced Map Editor as default](./install-guide/conf-map-editor.md)
       - [Include @navtitle attribute by default](./install-guide/auto-add-navtitle.md)
       - [Configure the option to edit in Oxygen](./cs-install-guide/conf-edit-in-oxygen.md)
+      - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)
     - Work with global and folder-level profiles {#global-folder-profiles}
       - [Configure global or folder-level profiles](./install-guide/conf-folder-level.md)
     - Configure versions {#version-mgt}
@@ -366,6 +381,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure the AI-powered Smart Help to search content](./cs-install-guide/conf-smart-help.md)
       - [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
       - [Configure display of UUID-based links](./cs-install-guide/conf-uuid-based-links.md)
+      -  [Configure display of pasted tables](./cs-install-guide/conf-pasted-tables.md) 
       - [Open DITA topic or map files in same tab](./cs-install-guide/open-dita-files-same-tab.md)
       - [Configure a custom panel in the left panel](./cs-install-guide/configure-custom-panel.md)
       - [Configure file auto-save in the Web Editor](./cs-install-guide/auto-save-in-editor.md)
@@ -389,6 +405,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Version management](./cs-install-guide/version-management.md)
     - Work with desktop-based XML editors {#desktop-xml-editor}
        - [Integrate desktop-based XML editors](./cs-install-guide/integrate-desktop-editors-cs.md)
+    - Configure Workfront {#configure-workfront-cs}
+       - [Configure Workfront](./cs-install-guide/conf-workfront.md)
     - Work with output generation settings {#output-gen-config-cs}
        - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
         - [Download and install aem sites templates](./cs-install-guide/download-install-aem-sites-templates-cs.md)

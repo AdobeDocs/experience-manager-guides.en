@@ -13,7 +13,7 @@ You can also connect to JSON data files using a file connector. Upload the JSON 
 
 ## Data Sources panel
 
-Select **Data Sources** ![data source](images/data-source-icon.svg) in the left panel to view the connected data sources. The Data Sources panel opens and displays all the connected data sources. 
+Select **Data Sources** ![data source](images/data-sources-new-icon.svg) in the left panel to view the connected data sources. The Data Sources panel opens and displays all the connected data sources. 
 
 Based on your setup your administrator can configure a data source connector:
 
@@ -38,22 +38,22 @@ Based on your setup your administrator can configure a data source connector:
 
 >[!NOTE]
 >
-> You will see the data sources for which your administrator has configured the connector. 
+> You will view the data sources for which your administrator has configured the connector. 
 
 
-## Show List View or Tile View  
+## Show list view or tile view  
 
-You can toggle between the List View or Tile View to view the various data sources in the form of a list or as tiles. 
+You can toggle between the List view or tile View to view the various data sources in the form of a list or as tiles. 
 
 Select a data source to view the content snippet generators and the topic generators available for the selected data source.
 
-### List View  ![](images/data-sources-list-view-icon.svg) 
+### List view  
 
   ![](images/data-sources-list-view.png){width="300" align="left"}
 
 *List of connected data sources.*
  
-### Tile View   ![](images/data-sources-tile-view-icon.svg) 
+### Tile view    
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
 
@@ -64,14 +64,13 @@ You can use the data from data sources in two ways:
 - Create a topic 
 
 
-
 ## Insert a content snippet from your data source
 
-AEM Guides provides the feature to connect with your data source. You can fetch your data, insert it into your topics, and edit it. You can easily create a content snippet using the content snippet generator and reuse it within your topics. 
+Adobe Experience Manager Guides provides the feature to connect with your data source. You can fetch your data, insert it into your topics, and edit it. You can easily create a content snippet using the content snippet generator and reuse it within your topics. 
 
 Perform the following steps to create a content snippet using the content snippet generator and insert it in your topic:
 
-1. Select **Data Sources** ![](images/data-source-icon.svg)   in the left panel to view the connected data sources. 
+1. Select **Data Sources** ![](images/data-sources-new-icon.svg) in the left panel to view the connected data sources. 
     
 1. Select a data source to view the content snippet generators available for the selected data source.
 
@@ -81,11 +80,13 @@ Perform the following steps to create a content snippet using the content snippe
 
 1. Select **Add** to add a new content snippet generator. The **Add content snippet generator** panel opens.
 
+    ![](images/add-content-snippet-generator-empty-screen.png){width="500" align="left"}
+
 1. Enter the query in the **Data query** text box.  Select **Copy sample query** to quickly copy a data query. Instead of manually creating the query, you can copy and paste the sample query into the **Data query** text box. Then, simply edit the query as per your data requirements. 
 
     >[!NOTE]
     >
-    >Experience Manager provides different sample queries for all resources in the various data sources. These map to the data source from which you are fetching the data.
+    > Experience Manager provides different sample queries for all resources in the various data sources. These map to the data source from which you are fetching the data.
     
 1. If you use a file connector, you can upload the JSON file from your computer or browse a JSON file from Adobe Experience Manager assets.
 
@@ -108,7 +109,7 @@ The out-of-the-box templates for the selected data source are displayed in the d
      >
      > Your administrator can configure default resources or add resources for multiple URLs while configuring the data source connectors. 
 
-1. Click **Fetch** to fetch the data from the data source and apply the template on the data that results from the SQL query.
+1. Select **Fetch** to fetch the data from the data source and apply the template on the data that results from the SQL query.
 
 1. You can view the data in the preview or the DITA source view. 
 
@@ -118,10 +119,11 @@ The out-of-the-box templates for the selected data source are displayed in the d
         - If you’ve selected the jira-ordered-list template, you can view an ordered list for the Jira issues.
 
     1. The source view shows the data in the DITA source view. 
- ![](images/add-content-snippet-generator.png){width="800" align="left"}
+
+        ![](images/add-content-snippet-generator-preview.png){width="500" align="left"}
  *Add a content snippet generator. View the data in source or preview mode.* 
 
-1. To save the results of the query, enter the name of the generator and then click **ADD**.   A new content snippet generator is added to the list.
+1. To save the results of the query, enter the name of the generator and then select **Add**.   A new content snippet generator is added to the list.
 
     >[!NOTE]
     >
@@ -132,7 +134,7 @@ The out-of-the-box templates for the selected data source are displayed in the d
 Right-click on a content snippet generator to open the Options. Using the options, you can perform the following operations:
 
 - **Preview**: Use this option to open a pane and view a small fraction of how the data is displayed in the output.
-- **Insert**: Use this option to insert the selected content snippet into the topic opened for editing in the Web Editor. As the data is inserted as a snippet, you can also edit the data within your topic in the Web Editor.
+- **Insert**: Use this option to insert the selected content snippet into the topic opened for editing in the Editor. As the data is inserted as a snippet, you can also edit the data within your topic in the Editor.
 
     >[!NOTE]
     > 
@@ -142,11 +144,11 @@ Right-click on a content snippet generator to open the Options. Using the option
 - **Delete**: Use this option to delete the selected content snippet generator.
 - **Duplicate**: Use this option to create a duplicate or a copy of the selected content snippet generator. The duplicate is created with a suffix (like generator_1) by default. 
 
-### Insert a query snippet
+### Insert a query data
 
-You can also use the **Insert Query Snippet** ![](images/data-source-icon.svg)   from the main toolbar to insert the data snippet into the topics.  You can select a generator from the dropdown, edit your query, or change the template and insert the data in your topic.
+You can also use the **Query data** ![](images/data-sources-new-icon.svg) from the toolbar to insert the data snippet into the topics.  You can select a generator from the dropdown, edit your query, or change the template and insert the data in your topic.
 
-![](images/insert-content-snippet.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){width="800" align="left"}
 
  *Edit and insert a data snippet.*
 
@@ -178,7 +180,7 @@ Perform the following steps to create a topic using the topic generator:
 
      **Fetch Configuration**
      
-      ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
+      ![](images/fetch-configuration.png){width="300" align="left"}
 
       *Add the Data Query, Data mapping template, and Root node details for the topic generator and give it a unique name in the Fetch Configuration panel.*     
 
@@ -202,7 +204,7 @@ Perform the following steps to create a topic using the topic generator:
 
       1. Enter the **Root node**. This is the node at which you want to access your data. The topic generator then creates each topic at the level defined in the root node. For example, you can add ‘issues’ as the root node in Jira. So, if a query returns 13 issues, you will get 13 topics, one topic for each issue.
 
-      1. Click **Fetch** to fetch the data from the data source and apply the template on the data that results from the SQL query. The preview shows a small fraction of how the topic appears in the format of the selected template. For example, you can view a single Jira issue with all the fields that result from the query.
+      1. Select **Fetch** to fetch the data from the data source and apply the template on the data that results from the SQL query. The preview shows a small fraction of how the topic appears in the format of the selected template. For example, you can view a single Jira issue with all the fields that result from the query.
       1. Enter the name of the topic generator. 
 
          >[!NOTE]
@@ -234,13 +236,13 @@ Perform the following steps to create a topic using the topic generator:
  
     *Add the metadata properties in the Metadata panel to pass to the topics.*
 
-1. Enter the generator’s name and click **Save** to save the query results. A new topic generator is added to the list.
+1. Enter the generator’s name and select **Save** to save the query results. A new topic generator is added to the list.
 
-1. Click **Save and Generate** to save the topic generator and generate new topics from the topic generator. 
+1. Select **Save and Generate** to save the topic generator and generate new topics from the topic generator. 
 
 
 
-   ![](images/edit-topic-generator.png){width="650" align="left"}
+   ![](images/add-topic-generator.png){width="800" align="left"}
     
     *Generate new topics from an existing topic generator.*
 
@@ -277,7 +279,7 @@ Right-click on a topic generator to open the **Options**. Using the options, you
 Experience Manager templates also support the Velocity tools (version 2.0). These tools help you apply various functions to the data you fetch from the data sources. Learn more about the use of the [Velocity tools](https://velocity.apache.org/tools/2.0/generic.html) and the functions that you can apply.
 
 Perform the following steps to use a Velocity tool in a template:
-1. Edit a Velocity template in the Web Editor.  
+1. Edit a Velocity template in the Editor.  
 1. Add a tool and its function in the `<tool.function>` format. For example: 
     - To generate a random number using the math tool, use `$mathTool.random`.
     - To generate the sum of numbers using the math tool, use `$mathTool.add(num1, num2)`.

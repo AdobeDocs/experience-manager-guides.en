@@ -1,11 +1,20 @@
 ---
-title: Configure the smart suggestions for authoring
-description: Learn how to configure the smart suggestions for authoring
+title: Configure AI Assistant for smart help and authoring 
+description: Learn how to configure the AI Assistant in Experience Manager Guides 
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
 ---
-# Configure the AI-powered smart suggestions for authoring
+# Configure the AI Assistant
 
-As an administrator, you can configure the Smart Suggestions feature for the authors. The smart suggestion service is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe's secure token-based authentication workflows and start using the new smart suggestion feature. The following configuration help you to add the **AI configuration** tab to folder profile. Once added, you can use the smart suggestions feature in the Web Editor.
+As an administrator, you can configure the AI Assistant feature in Experience Manager Guides. AI Assistant is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe's secure token-based authentication workflows and start using the AI Assistant feature. The following configuration help you to add the **AI configuration** tab to folder profile. Once added, you can use the AI Assistant feature in Experience Manager Guides.
+
+Perform the following steps to configure AI Assistant:
+
+1. [Create IMS configuration in Adobe Developer Console](#create-ims-configurations-in-adobe-developer-console).
+2. [Add IMS configurations to environment](#add-ims-configuration-to-the-environment)
+3. [Enable AI flag in the environment](#enable-ai-flag-in-the-environment)
+4. [Apply changes to the environment](#apply-changes-to-the-environment)
+5. [Enable AI Assistant in Folder Profile](#enable-ai-assistant-in-folder-profile)
+6. [Configure Smart Suggestions in Folder Profile](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
 
 ## Create IMS configurations in Adobe Developer Console
 
@@ -47,7 +56,7 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
     
     *Get started on the new project.*
 
-1. Click the **Download** button on the top to download the service JSON.
+1. Select the **Download** button on the top to download the service JSON.
 
     <img src="assets/download-json.png" alt="download json" width=500> 
 
@@ -55,7 +64,7 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
 
 You have configured the OAuth authentication details and downloaded the JSON service details. Keep this file handy as it's required in the next section.
 
-### Add IMS configuration to the environment
+## Add IMS configuration to the environment
 
 Perform the following steps to add IMS configuration to the environment:
 
@@ -65,26 +74,43 @@ Perform the following steps to add IMS configuration to the environment:
 1. Switch to the **Configuration** tab.
 1. Update the SERVICE_ACCOUNT_DETAILS JSON field. Ensure you are using the same name and configuration as given in the following screenshot.
 
-  ![ims service account configuration](assets/ims-service-account-config.png){width="800" align="left"}
+    ![ims service account configuration](assets/ims-service-account-config.png){width="800" align="left"}
+
+## Enable AI flag in the environment 
+
+To enable the AI Assistant feature on the Experience Manager Guides UI, add the `ENABLES_GUIDES_AI` flag in the environment. 
+
+Ensure that you are using the same name and configuration as given in the following screenshot.
+
+![](assets/conf-folder-ai-assistant-enable.png){width="800" align="left"}
  
+Setting the flag to **true** enables the functionality, while setting it to **false** disables it.
 
-*Add the environment configuration details.*
+## Apply changes to the environment
 
+Once you have added the IMS configuration and enabled the AI Assistant flag to the environment, perform the following steps to link these properties with AEM Guides using OSGi: 
 
-
-
-Once you have added the IMS configuration to the environment, perform the following steps to link these properties with AEM Guides using OSGi: 
-
-1. In you cloud manager Git project code, add the below given two files (for file contents, view [Appendix](#appendix)).
+1. In your cloud manager Git project code, add the below given two files (for file contents, view [Appendix](#appendix)).
 
     * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
-    * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
+    * `com.adobe.guides.ai.config.service.AiConfigImpl.cfg.json`
 1. Ensure that the newly added files are getting covered by your `filter.xml`.
 1. Commit and push your Git changes.
 1. Run the pipeline to apply the changes on the environment.
 
-Once this is done, you should be able to use the smart suggestions feature.
+## Enable AI Assistant in Folder Profile
 
+Once the configuration changes are applied, enable the AI Assistant feature for the desired Folder profile. 
+
+For more details, view [Know the Editor features](../user-guide/web-editor-features.md).
+
+![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+
+## Configure Smart Suggestions in Folder Profile
+
+After enabling the AI Assistant feature, configure the Smart Suggestions functionality in Folder Profile. 
+
+For details, refer to [Configure Smart Suggestions in Folder Profile](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring). 
 
 
 ## Appendix {#appendix}
@@ -101,28 +127,29 @@ Once this is done, you should be able to use the smart suggestions feature.
 
 ```
 
-**File**: `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
+**File**: `com.adobe.guides.ai.config.service.AiConfigImpl.cfg.json`
 
 **Content**:
 
 ```
 {
-  "smart.suggestion.flag":true,
   "conref.inline.threshold":0.6,
   "conref.block.threshold":0.7,
+  "related.link.threshold":0.5,
   "emerald.url":"https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1",
-  "instance.type":"prod"
+  "instance.type":"prod",
+  "chat.url":"https://aem-guides-ai.adobe.io"
 }
 ```
 
-## Smart Suggestions configuration details
+## AI Assistant configuration details
 
 |Key|Description|Allowed Values|Default Value|
 |---|---|---|---|
-|smart.suggestion.flag|Controls whether smart suggestions is enabled or not|true/false| false|
 |conref.inline.threshold|Threshold that controls the precision/recall of suggestions fetched for the tag that the user is typing in currently.|Any value from -1.0 to 1.0.|0.6|
 |conref.block.threshold|Threshold that controls precision/recall of suggestions fetched for tags across the entire file.|Any value from -1.0 to 1.0.|0.7|
-|emerald.url|Endpoint for the Emerald vector database|[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|
+|emerald.url|Endpoint for the Smart Suggestion vector database|[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|
+|chat.url|Endpoint for the AI assistant service|[https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io)|[https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io)|
 |instance.type|Type of the AEM instance. Make sure this is unique for each AEM instance that the smart suggestions is configured on. A use case would be to test the feature on stage environment with "instance.type" = "stage" while at the same time, the feature is also configured on "prod".|Any unique key identifying the environment. Only *alpha numeric* values are allowed. "dev"/"stage"/"prod"/"test1"/"stage2"|"prod"|
 
-Once you have configured,  the smart suggestions icon is displayed in the right panel of the Web Editor. You can view the list of smart suggestions when you edit your topics. For more details, view [AI based smart suggestions for authoring](../user-guide/authoring-ai-based-smart-suggestions.md) section in the Experience Manager User Guide.
+Once you have configured, the AI Assistant icon is displayed in the Home page and Editor of the Experience Manager Guides. For more details, view [AI Assistant](../user-guide/ai-assistant.md) section in the Experience Manager User Guide.

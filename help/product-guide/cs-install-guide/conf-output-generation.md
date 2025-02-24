@@ -155,7 +155,7 @@ To configure the page names, perform the following steps:
 For example, if the *@navtitle* in `<topichead>` has all special characters and you set the `aemsite.pagetitle` property to true, then by default, it uses a separator. If you set the `nodename.systemDefinedPageName` property to true, it shows the first child topic’s name.
 
 
-### Configure filename sanitization rules for creating topics and publishing AEM Site output {#id2164D0KD0XA}
+### Configure filename sanitization rules for creating topics and publishing output in AEM Sites and other formats {#id2164D0KD0XA}
 
 As an administrator, you can define a list of valid special characters allowed in filenames, which eventually form the URL of an AEM Site output. In earlier releases, users were allowed to define filenames containing special characters such as `@`, `$`, `>`, and more. These special characters resulted in encoded URL on generation of AEM Site pages.
 
@@ -172,6 +172,10 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |PID|Property Key|Property Value|
 |---|------------|--------------|
 |`com.adobe.fmdita.common.SanitizeNodeNameImpl`|`aemsite.DisallowedFileNameChars`|Ensure that the property is set to ``'<>`@$``. You can add more special characters to this list.|
+
+>[!NOTE]
+> 
+> The above configuration applies to all output formats. This means that when generating a PDF, HTML, or custom output, the final output will follow the configured filename sanitization rules.
 
 You can also configure the other properties such as use lower case in filenames, separator to handle invalid characters, and maximum number of characters allowed in the filenames. To configure these properties, add the following key value pairs in the configuration file:
 
@@ -413,6 +417,22 @@ In order to validate the metadata values passed to the DITA-OT, local environmen
 >[!NOTE]
 >
 > If particular metadata is not present for the file, <meta\> tag with the key will not appear as the property for that file in the metadata.xml file.
+
+## Configure the DITA-OT command line argument field to accept root map metadata
+
+To use the DITA-OT command line argument field to pass root map metadata, perform the following steps:
+
+1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
+1.  In the configuration file, provide the following \(property\) details to configure the DITA-OT command line argument field in the Preset:
+
+|PID|Property Key|Property Value|
+|---|------------|--------------|
+|`com.adobe.fmdita.config.ConfigManager`|`pass.metadata.args.cmd.line`|Boolean\(`true/false`\).**Default value**: `true`|
+
+- Setting the property value to **true** enables the DITA-OT command line functionality, allowing you to pass the metadata through DITA-OT command line.
+- Setting the property value to **false** disables the DITA-OT command line functionality. You can then, use the Property field in the Preset to pass the metadata. 
+
+
 
 ## Customize DITA element mapping with AEM components {#id1679J600HEL}
 
@@ -676,3 +696,4 @@ Use the instructions given in [Configuration overrides](download-install-additio
 >[!TIP]
 >
 > See the *Output history* section in the Best practices guide for best practices around working with output history.
+

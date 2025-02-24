@@ -1,15 +1,15 @@
 ---
-title: Review topics or maps
+title: Introduction to review
 description: Efficiently review topics or maps in AEM Guides for smooth content evaluation. Know the features for authors and reviewers in AEM Guides.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing 
 role: User
 ---
-# Review topics or maps {#id1645H6010Q5}
+# Introduction to review {#id1645H6010Q5}
 
-Almost all technical documents need to go through multiple rounds of reviews. In most cases, a review cycle involves more than one reviewer. Addressing and responding to comments from multiple reviewers is always challenging for authors. Also, in a multiple reviewer scenario, it is helpful if one reviewer can also see the comments made by other reviewers.
+Almost all technical documents need to go through multiple rounds of reviews. In most cases, a review cycle involves more than one reviewer. Addressing and responding to comments from multiple reviewers is always challenging for authors. Also, in a multiple reviewer scenario, it is helpful if one reviewer can also view the comments made by other reviewers.
 
-Some of the main features offered by AEM Guides to the *initiators \(or authors\)* are:
+Some of the main features offered by Adobe Experience Manager Guides to the *initiators \(or authors\)* are:
 
 -   Create a DITA project for the review workflow.
 -   Send one or more topics for review in a single review task.
@@ -24,7 +24,7 @@ Some of the main features offered by AEM Guides to the *initiators \(or authors\
 
 -   Group and filter comments based on version of topic.
 
--   See side-by-side differences between different versions of topics shared for review.
+-   View side-by-side differences between different versions of topics shared for review.
 
 -   Automatically import \(deleted or inserted\) comments into the version of topic that was shared for review.
 
@@ -39,13 +39,13 @@ Features available to the *reviewers*:
 -   Use the Review Panel to add comments or respond to comments from other users.
 -   Easily know the version of topic under review.
 -   Receive a notification when a task is assigned to them for review.
--   See differences between older and newer version of topic shared for review.
--   See comments made by other reviewers or replies on comments from author in real time.
+-   View differences between older and newer version of topic shared for review.
+-   View comments made by other reviewers or replies on comments from author in real time.
 -   Access comments given on older version of topic.
 
 >[!NOTE]
 >
-> See the *Review* section in the Best practices guide for best practices around creating review task.
+> View the *Review* section in the Best practices guide for best practices around creating review task.
 
 -   **[Create a DITA project](authoring-create-dita-project.md)**  
 

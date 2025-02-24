@@ -1,6 +1,6 @@
 ---
 title: Use DITAVAL editor
-description: Understand how to create and edit DITAVAL files using the DIVATAL Editor in AEM Guides. Know how the DITAVAL editor supports DITAVAL files in author and source views.
+description: Understand how to create and edit DITAVAL files using the DIVATAL Editor in Adobe Experience Manager Guides. Know how the DITAVAL editor supports DITAVAL files in author and source views.
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
@@ -9,75 +9,85 @@ role: User
 
 DITAVAL files are used to generate conditional output. In a single topic, you can add conditions using element attributes to conditionalize content. Then, you create a DITAVAL file wherein you specify the conditions that should be picked up to generate content, and which condition should be left out from the final output.
 
-AEM Guides allows you to easily create and edit DITAVAL files using the DITAVAL editor. The DITAVAL editor retrieves the attributes \(or tags\) defined in your system, and you can use them to create or edit DITAVAL files. For more details about creating and managing tags in AEM, see [Administering Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) section in AEM documentation.
+Adobe Experience Manager Guides allows you to easily create and edit DITAVAL files using the DITAVAL editor. The DITAVAL editor retrieves the attributes \(or tags\) defined in your system, and you can use them to create or edit DITAVAL files. For more details about creating and managing tags in Adobe Experience Manager, view [Administering Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) section in Adobe Experience Manager documentation.
+
+The following sections cover the options available for a DITAVAL file in Experience Manager Guides.
+
+- [Create DITAVAL file](#create-ditaval-file)
+- [Edit DITAVAL file](#edit-ditaval-file)
+- [DITAVAl file editor views](#ditaval-editor-views)
+- [Working with DITAVAL file in the Assets UI](#working-with-ditaval-files-in-the-assets-ui)
 
 ## Create DITAVAL file 
 
 Perform the following steps to create a DITAVAL file:
 
-1.  In the Assets UI, navigate to the location where you want to create the DITAVAL file.
+1. In the Repository panel, select the **New file** icon and then select **Topic** from the dropdown menu. 
 
-1.  Click **Create** \> **DITA Topic**.
+    ![](images/new-file-option.png){width="800" align="left"}
 
-1.  On the Blueprint page, select DITAVAL file template and click **Next**.
+    You can also access this option from the [Experience Manager Guides Home page](./intro-home-page.md) and the options menu of a folder in the Repository view. 
 
-1.  On the Properties page, specify the **Title** and **Name** for the DITAVAL file.
+2. The **New topic** dialog box is displayed.
+    
+3. In the **New topic** dialog box, provide the following details:
+    - A Title for the topic.
+    - \(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then you will not view the Name field.
+    - A template on which the topic will be based. For a DITAVAL file, select **Ditaval** from the dropdown list.
+    - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
 
-    >[!NOTE]
-    >
-    > The name is automatically suggested based on the Title of your file. If you want to manually specify the file name, then ensure that the Name does not contain any spaces, apostrophe, or braces and ends with .ditaval.
+    ![](images/new-topic-dialog-ditaval.png){width="300" align="left"}
 
-1.  Click **Create**. The Topic Created message appears.
+    
+4. Select **Create**. 
+    
+The topic is created at the specified path. Also, the topic is opened in the Editor for editing.
 
-    You can choose to open the DITAVAL file for editing in the DITAVAL editor, or the save the topic file in the AEM repository.
+![](images/ditaval-file-editor.png){width="800" align="left"}
 
+## Edit DITAVAL file
 
-## Edit DITAVAL file 
+When you create a DITAVAL topic, it opens in the Editor for editing. To edit an existing DITAVAL topic, navigate to the folder or map where the DITAVAL topic is located, and then select **Edit** from the **Options** menu.
 
-Perform the following steps to edit a DITAVAL file:
+The DITAVAL editor allows you to perform the following tasks:
 
-1.  In the Assets UI, navigate to the DITAVAL file that you want to edit.
+- Toggle Left Panel
 
-1.  To get an exclusive lock on the file, select the file and click **Check Out**.
+   Toggle the left panel view. If you have opened the DITAVAL file through DITA map, the map and repository are shown in this panel. For more information about opening a file through DITA map, view [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
-1.  Select the file and click **Edit** to open the file in AEM Guides DITAVAL editor.
+- Save
 
-    The DITAVAL editor allows you to perform the following tasks:
+   Saves the changes you have made in the file. All your changes are saved in the current version of your file.
 
-    A: Toggle Left Panel
-    Toggle the left panel view. If you have opened the DITAVAL file through DITA map, the map and repository are shown in this panel. For more information about opening a file through DITA map, see [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+- Add Prop
+    
+   Add a single property in your DITAVAL file.
 
-    B: Save
-    Saves the changes you have made in the file. All your changes are saved in the current version of your file.
+   ![](images/ditaval-editor-props-new.png)
 
-    C: Add Property
-    Add a single property in your DITAVAL file.
+   The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file. There are five attributes that are supported - `audience`, `platform`, `product`, `props`, and `otherprops`.
 
-    ![](images/ditaval-editor-props.png)
+    The second drop-down list shows the values configured for the selected attribute. Then, the next drop-down list shows the actions that you can configure on the selected attribute. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag`. For more information about these values, view the definition of [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA documentation
 
-    The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file. There are five attributes that are supported - `audience`, `platform`, `product`, `props`, and `otherprops`.
+- Add All Properties
 
-    The second drop-down list shows the values configured for the selected attribute. Then, the next drop-down list shows the actions that you can configure on the selected attribute. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag`. For more information about these values, see the definition of [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA documentation
-
-    D: Add All Properties
-    If you want to add all conditional properties or attributes defined in your system with a single click, use the Add All Properties feature.
+   If you want to add all conditional properties or attributes defined in your system with a single click, use the Add All Properties feature.
 
     >[!NOTE]
     >
     > If all defined conditional properties already exist in the DITAVAL file, you cannot add more properties. You get an error message in this scenario.
 
-    ![](images/ditaval-all-props.png)
+    ![](images/ditaval-all-props-new.png)
 
-1.  Once you have finished editing your DITAVAL file, click **Save**.
+Once you have finished editing your DITAVAL file, select **Save**.
 
-    >[!NOTE]
-    >
-    > If you close the file without saving, the changes will be lost. If you do not wish to commit changes into AEM repository, click **Close**, and then click **Close Without Saving** in the **Unsaved Changes** dialog.
-
+>[!NOTE]
+>
+> If you close the file without saving, the changes will be lost. If you do not wish to commit changes into Adobe Experience Manager repository, select **Close**, and then select **Close Without Saving** in the **Unsaved Changes** dialog.
 
 ## DITAVAL editor views 
 
-AEM Guides' DITAVAL editor supports viewing DITAVAL files in two different modes or views:
+Adobe Experience Manager Guides' DITAVAL editor supports viewing DITAVAL files in two different modes or views:
 
 **Author**:   This is a typical What You See is What You Get \(WYSISYG\) view of the DITAVAL editor. You can add or remove properties using the simple user interface, which presents the properties, its values, and actions in drop-down list. In the Author view, you have the options to insert an individual property and insert all properties with a single click.
 
@@ -87,4 +97,38 @@ You can also find the version of the DITAVAL file that you are currently working
 
 To invoke the Smart Catalog, place the cursor at the end of any property definition and enter "<". The editor will show a list of all valid XML elements that you can insert at that location.
 
-![](images/ditaval-source-view.png)
+![](images/ditaval-source-view-new.png)
+
+
+## Working with DITAVAL files in the Assets UI
+
+You can also create a DITAVAL file from the Assets UI. The steps to create a new DITAVAL topic are as follows:
+
+1.  In the Assets UI, navigate to the location where you want to create the DITAVAL file.
+
+1.  Select **Create** \> **DITA Topic**.
+
+1.  On the Blueprint page, select DITAVAL file template and select **Next**.
+
+1.  On the Properties page, specify the **Title** and **Name** for the DITAVAL file.
+
+    >[!NOTE]
+    >
+    > The name is automatically suggested based on the Title of your file. If you want to manually specify the file name, then ensure that the Name does not contain any spaces, apostrophe, or braces and ends with .ditaval.
+
+1.  Select **Create**. 
+
+    The Topic Created message appears.
+
+You can choose to open the DITAVAL file for editing in the DITAVAL editor, or the save the topic file in the Adobe Experience Manager repository.
+
+Perform the following steps to edit an existing DITAVAL file:
+
+1.  In the Assets UI, navigate to the DITAVAL file that you want to edit.
+
+1.  To get an exclusive lock on the file, select the file and select **Check Out**.
+
+1.  Select the file and select **Edit** to open the file in Adobe Experience Manager Guides DITAVAL editor.
+
+
+

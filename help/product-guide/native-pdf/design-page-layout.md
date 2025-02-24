@@ -360,12 +360,13 @@ There are the following categories for fields that you can insert in your page l
 Each of these field categories contain different variations in which the field information can be inserted. For example, a Date field can have different variations such as `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` and so on. Similarly, Page Number can have variations in the form of roman, decimal, or even locale-specific formats such as _Arabic_, _Devanagari_, _Hebrew_, and more.
 
 
-In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata is stored in your source DITA **Map content**,  or it can be picked from the DITA **Map file properties** or the **Topic file properties** and easily inserted into your page layout.
+In addition to the predefined fields, you can also add metadata information as variables or fields in your page layout. This metadata can be stored in your source DITA **Map content**, **Topic content**, or can be picked from the DITA **Map file properties**, **Topic file properties**. 
 
 You can select the metadata from the following options:
 
 * **Map content** includes the metadata that you have defined in the `<topicmeta>` element of the DITA map. 
 * **Map file properties** includes the metadata, which you can access from the **Properties** page of a DITA map. 
+* **Topic content** includes metadata defined in the `<prolog>` element of a DITA topic, such as copyright, author, and other details. To fetch individual `<prolog>` elements, you can use simple XPath expressions (e.g., //author for the author name). For attribute metadata, include the `@` symbol in the XPath (e.g., //critdates/revised/@modified for the modified date). 
 * **Topic file properties** includes the metadata, which you can access  from the **Properties** page of a Topic. 
 
 

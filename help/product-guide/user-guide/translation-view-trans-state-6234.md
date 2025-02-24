@@ -11,12 +11,15 @@ You can view the translation status and the translated language copies for each 
 
 Perform the following steps to view the translation status of a DITA map:
 
-1.  Navigate to the DITA map file of the source language copy.
-1.  Click the **Translation** tab.
-1.  In the **Filter** panel on the left, select the **Translate Languages** that you want to check the status for and click **Done**.
+1.  Navigate to the required DITA map file through the **Map Console** in the Editor.
+1.  Select the **Translation** tab.
+1.  In the **Translation** panel on the left, check-in the language from the **Available Languages** list that you want to check the status for and select **Apply**.
+1. All the topics with the target language as selected gets displayed along with the   translation status.
 
     >[!NOTE]
     >
-    > You can further filter the content on the basis of their Translation Status \(as Out of Sync Missing Copy, In Progress, or In sync\), Source Type \(as All, DITA, DITA map, or Resource\), modification date. You can also enter keywords to search for specific topics.
+    > You can further filter the content on the basis of their Translation Status \(as Out of Sync Missing Copy, In Progress, or In sync\), Source Type \(as All, DITA, DITA map, or Resource\), and modification date. Additionally, you can enter keywords to search for specific topics. You can use **Refresh** to update the status if any changes have been made. 
 
-**Parent topic:**[Translate content](translation.md)
+    ![](images/translation-status-new.png){width="800" align="left"}
+
+**Parent topic:**[Content translation overview](translation.md)

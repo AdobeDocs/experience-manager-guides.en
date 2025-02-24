@@ -9,17 +9,17 @@ role: User
 
 Citations are references to the source of information added to your content. Using citations, you can credit the authors of the source information and help readers to follow up on the source information. Adding citations makes your content more reliable and prevents plagiarism. They also allow you to display well-researched content.
 
-In AEM Guides, you can add and import citations and apply them to your content. You can add these citations from any source of books, websites, and journals. 
+In Adobe Experience Manager Guides, you can add and import citations and apply them to your content. You can add these citations from any source of books, websites, and journals. 
 
 
-AEM Guides helps you to edit, preview, and sort your citations. After adding your citations into the content, you can generate the output using Native PDF. You can also add the bibliography or references page in the Native PDF output. 
+Experience Manager Guides helps you to edit, preview, and sort your citations. After adding your citations into the content, you can generate the output using Native PDF. You can also add the bibliography or references page in the Native PDF output. 
 
-AEM Guides supports multiple styles of citations, such as Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE), and American Heart Association (AHA). The recommendation is to use them clearly and consistently. 
+Experience Manager Guides supports multiple styles of citations, such as Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE), and American Heart Association (AHA). The recommendation is to use them clearly and consistently. 
 
 
 >[!NOTE]
 >
->Currently AEM Guides only supports Native PDF for citations.
+>Currently Experience Manager Guides only supports Native PDF for citations.
 
 
 ## Add citations 
@@ -27,14 +27,16 @@ AEM Guides supports multiple styles of citations, such as Modern Language Associ
 To add citations, follow these steps:
 
 1. Select the **Citations** ![citations icon](images/citations-icon.svg) icon in the left panel.
-The **Citations** panel opens.
+    
+    The **Citations** panel opens.
 
-    ![](images/citation-panel.png){width="300" align="left"}
+    ![](images/citation-panel.png){width="350" align="left"}
 
 1. In the **Citations** panel, select ![Add icon](images/Add_icon.svg). From the dropdown you can choose to add a new citation or to import  a citation.
 
-1. Select **New Citation** to add a new citation.
-The **Add Citation** dialog box opens.
+1. Select **New citation** to add a new citation.
+
+    The **Add Citation** dialog box opens.
 
     ![citation panel in the web editor](images/citation-add.png) {width="300" align="left"}
 
@@ -60,10 +62,6 @@ The **Add Citation** dialog box opens.
     |**Series** <br>Add the series of the book. || **Unique ID** <br> Add a unique ID for the citation.A Unique ID is a unique identifier for that citation.|
     | **URL**  <br>  Add the web link to the book.| 
     | **Unique ID** <br> Add a unique ID for the citation. A Unique ID is a unique identifier for that citation.|
-
- 
-
- 
 
 1. Select **Done**.
 
@@ -91,8 +89,8 @@ To import citations, follow these steps:
     Once the file is imported successfully, you can view the references in the citations panel.
 
     >[!NOTE]
-    > <ol><li> AEM Guides imports only those citations which are unique and not already present.
-    > <li> AEM Guides can import citations from a Book, Journal, or a Website. Currently it does not support citations from other sources.
+    > <ol><li> Experience Manager Guides imports only those citations which are unique and not already present.
+    > <li> Experience Manager Guides can import citations from a Book, Journal, or a Website. Currently it does not support citations from other sources.
  
 ## Manage citations
 
@@ -121,7 +119,7 @@ The **Citations** panel opens.
 
 ### Change citation style {#change-citation-style}
 
-Your system administrator can change the style of citations from the **Citations**  dropdown in the **General Settings** tab in the **Editor Settings**. 
+Your system administrator can change the style of citations from the **Citations**  dropdown in the **General** tab in the **Settings**. 
 These styles determine the way how citations appear in the preview pane or the Native PDF output.
 
 The following options are available in the dropdown:
@@ -158,17 +156,17 @@ Hover over the name of the citation from the list. Select     ![](images/options
 1. Select **Preview**.
 You can preview the content and format of the citation in the preview pane.
 
-    >[!NOTE]
-    >
-    >The preview is based on the citation style that your administrator has selected in the **Editor Settings**.
+   >[!NOTE]
+   >
+   >The preview is based on the citation style that your administrator has selected in the **Settings**.
 
-1. Click anywhere on the screen to close the preview box.
+1. Select anywhere on the screen to close the preview box.
 
     ![](images/citation-preview.png){width="550" align="left"}
 
 >[!NOTE]  
 >
-> You can also preview a citation inserted in a topic from the Assets UI or the Preview tab of the Web Editor.
+> You can also preview a citation inserted in a topic from the Assets UI or the Preview tab of the Editor.
 
 ## Insert citations
 
@@ -183,11 +181,11 @@ You can insert citations to the topic from the main toolbar or the left panel.
 ### From the main toolbar 
 
 1. Select the **Citations** ![citations icon ](images/citations-icon.svg) icon in the main toolbar. 
-1. In the **Citations** dialog, choose the citation. You can also select multiple citations. 
+1. In the **Citations** dialog box, choose the citation. You can also select multiple citations. 
  ![citation dialog](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. You can filter citations by typing the first few alphabets in the search panel of the **Citation** dialog box.
 
-1. Click **Done**. 
+1. Select **Done**. 
  The selected citation is added at the cursor location in your topic. 
  
 
@@ -195,7 +193,7 @@ You can insert citations to the topic from the main toolbar or the left panel.
 
 >[!NOTE]
 > 
->To view the **Citations** icon from the left panel, your system administrator must select the **Citations** option in the **Panels** tab in **Editor Settings**.
+>To view the **Citations** icon from the left panel, your system administrator must enable the **Citations** option in the **Panels** tab in **Settings**.
 
 1. Select **Citations** ![citations icon ](images/citations-icon.svg) icon in the left panel. 
 1. Drag the citation from the **Citations** panel and drop it at the appropriate location in the topic.  
@@ -213,7 +211,7 @@ Once you have inserted citations in the topic, you can preview them in the Web E
 
 ## Delete a citation
 
-You can delete a citations from the Citaitons panel or from a topic where you have inserted.
+You can delete a citations from the Citations panel or from a topic where you have inserted.
 
 ### Delete a Citation from Citations panel
 
@@ -250,13 +248,12 @@ In the topic, place your cursor at the end of the citation.
 
 Once you have inserted citations in the topic, you can publish content with citations using Native PDF. 
 
-In the Native PDF output, the citations appear within the content where you have inserted them. You can also create a Bibliography page. When you click any citation, you are redirected to the bibliography page.
+In the Native PDF output, the citations appear within the content where you have inserted them. You can also create a Bibliography page. When you select a citation, you are redirected to the bibliography page.
 
 Create a **Citations** page layout in the PDF templates, and include it in your document. All the citations used in the book get listed on one page that appears in the PDF output. To learn more about creating a page layout, view [Create a page layout](../native-pdf/components-pdf-template.md#create-page-layout).
 
 
 To change the view and feel of the citation page, view [Customize PDF templates](../native-pdf/pdf-template.md).
-
 
 
 ### Apply content style to a citation
