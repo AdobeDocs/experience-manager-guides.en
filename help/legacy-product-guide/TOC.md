@@ -1,16 +1,16 @@
 ---
-user-guide-title: Experience Manager Guides (Legacy)
+user-guide-title: Experience Manager Guides Old UI
 user-guide-description: Read product documentation for Adobe Experience Manager Guides.
 breadcrumb-title: AEM Guides Documentation
 hide: yes
-badgeAll: label="Legacy Guide - More Info" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="Legacy Guide"
+badgeAll: label="Old UI Guide - More Info" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Old UI Guide"
 ---
 
-# [!DNL Adobe Experience Manager Guides (Legacy)] {#using-legacy}
+# [!DNL Adobe Experience Manager Guides Old UI] {#using-old-ui}
 
-- [AEM Guides Documentation (Legacy)](legacy.md)
+- [Disclaimer](disclaimer.md)
 - [[!DNL AEM Guides] overview](overview.md)
-- [Release notes (primary guide)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
+- [Release information](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
 - User Guide (Old UI) {#user-guide}
   - Introduction {#about-aem-guide}
     - [About [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)

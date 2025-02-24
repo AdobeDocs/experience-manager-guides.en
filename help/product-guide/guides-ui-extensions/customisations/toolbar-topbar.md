@@ -10,7 +10,7 @@ To customize the `topbar` and `toolbar`, you can use the ids: `topbar` or `toolb
 
 >[!NOTE]
 >
->Starting with the 2502 and 5.0 release of Experience Manager Guides, the id **toolbar** has been renamed to **editor toolbar**. If you are using the previous versions, you can customize the toolbar using the **toolbar** id. We now do not have any id as **topbar** and in place have a **editor_tab_bar**.
+>Starting with the 2502 release of Experience Manager Guides, the id **toolbar** has been renamed to **editor toolbar**. If you are using the previous versions, you can customize the toolbar using the **toolbar** id. We now do not have any id as **topbar** and in place have a **editor_tab_bar**.
 
 Below is a trivial example of toolbar customization. Here, we have removed the `Insert Numbered List` button, and replaced the `Insert Paragraph` button with our own component using a customized on-click handler.
 
@@ -20,7 +20,7 @@ Below is a trivial example of toolbar customization. Here, we have removed the `
 
 For accessing functionality exposed under the `proxy` object, you need to acces it using `this.getValue`, lets say for fetching a value.
 
-For AEM Guides 5.0 and 2502 release and further, you can refer to below example for toolbar customization.
+For AEM Guides 2502 release and further, you can refer to below example for toolbar customization.
 
 ```js title = toolbar_customization.js
 const toolbarExtend = {

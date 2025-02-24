@@ -120,19 +120,21 @@ breadcrumb-title: AEM Guides Documentation
     - [!DNL AEM Guides] working and key features {#aemg-works-features}
       - [How [!DNL AEM Guides] works](./user-guide/intro-how-dxml-works.md)
       - [Key [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
-  - [[!DNL AEM Guides] Home page experience](./user-guide/intro-home-page.md)
+  - **[[!DNL AEM Guides] Home page experience]**(./user-guide/intro-home-page.md)
   - Author content {#author-content}
     - [Authoring overview](./user-guide/authoring-content.md)
     - [Ways to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
     - Editor {#work-with-editor}
         - [Introduction to the Editor](./user-guide/web-editor.md)
         - [Launch the Editor](./user-guide/web-editor-launch-editor.md)
+        - [Edit topics in the Editor](./user-guide/web-editor-edit-topics.md)
         - Topic creation and preview {#create-preview-topics}
-            - [Create and preview topics](./user-guide/create-preview-topics.md)
-            - [Create topics](./user-guide/web-editor-create-topics.md)
-            - [Preview a topic](./user-guide/web-editor-preview-topics.md)
+          - [Create and preview topics](./user-guide/create-preview-topics.md)
+          - [Create topics](./user-guide/web-editor-create-topics.md)
+          - [Preview a topic](./user-guide/web-editor-preview-topics.md)
         - [Know the Editor features](./user-guide/web-editor-features.md)
         - [Additional features in the Editor](./user-guide/web-editor-other-features.md)
+        - [Keyboard shortcuts in the Editor](./user-guide/web-editor-keyboard-shortcuts.md)
         - [Editor views](./user-guide/web-editor-views.md)
         - [Support for Schematron files](./user-guide/support-schematron-file.md)
         - [Author Markdown documents from the Editor](./user-guide/web-editor-markdown-topic.md)
@@ -146,11 +148,11 @@ breadcrumb-title: AEM Guides Documentation
         - [Create maps based on customized templates](./user-guide/create-maps-customized-templates.md)
         - [Map Editor features](./user-guide/map-editor-advanced-map-editor.md)
         - [Additional features in the Map Editor](./user-guide/map-editor-other-features.md)
-    - DITAVAL Editor {#ditaval-editor}
+    - DITAVAL editor {#ditaval-editor}
         - [Use the DITAVAL editor](./user-guide/ditaval-editor.md)
     - Desktop tools for authoring content {#author-using-desktop-tools}
         - [Author content using desktop tools](./user-guide/author-desktop-tools.md)
-  - Review and collaboration {#review-collaboration}
+  - Review {#review}
     - [Introduction to review](./user-guide/review.md)
     - [Create a DITA project](./user-guide/authoring-create-dita-project.md)
     - [Send topics for review](./user-guide/review-send-topics-for-review.md)
@@ -159,8 +161,8 @@ breadcrumb-title: AEM Guides Documentation
     - [Address review comments](./user-guide/review-address-review-comments.md)
     - [Manage review tasks using the Review Dashboard](./user-guide/review-manage-tasks-review-dashboard.md)
     - [View a completed review task](./user-guide/review-view-completed-task.md)
-    - Collaborate using Adobe Workfront {#workfront-integration}
-        - [Workfront integration with Experience Manager Guides](./user-guide/workfront-integration.md)
+  - Collaborate using Adobe Workfront {#workfront-integration}
+    - [Workfront integration with Experience Manager Guides](./user-guide/workfront-integration.md)
   - Metadata and tagging {#manage-metadata}
     - [Manage metadata](./user-guide/manage-metadata.md)
     - [Work with metadata in AEM](./user-guide/metadata-dita.md)
@@ -195,6 +197,19 @@ breadcrumb-title: AEM Guides Documentation
       - [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
       - [Use variables for setting the Destination Path, Site Name, or File Name options](./user-guide/generate-output-use-variables.md)
       - [Pass on the metadata to the output using DITA-OT](./user-guide/pass-metadata-dita-ot.md)
+      - Reports {#reports-aem-guide}
+        - [Introduction to reports](./user-guide/reports-intro.md)
+        - [DITA map report from the Map console](./user-guide/reports-web-editor.md)
+        - [DITA map report from the Map dashboard](./user-guide/reports-ditamap.md)
+        - [Content Reuse Report](./user-guide/reports-content-reuse.md)
+        - [Conversion Status Report](./user-guide/reports-convertion-status.md)
+        - [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md) 
+      - Content translation {#translate-content}
+        - [Content translation overview](./user-guide/translation.md)
+        - [Best practices for content translation](./user-guide/translation-first-time.md)
+        - [Translate documents from the Map console](./user-guide/translate-documents-web-editor.md)
+        - [View translation status](./user-guide/translation-view-trans-state-6234.md)
+        - [Translate modified topics](./user-guide/translation-modified-topics-6234.md)
       - Generate output {#generate-output} 
         - [Generate output for a DITA map](./user-guide/generate-output-for-a-dita-map.md)
         - [Generate Knowledge Base output](./user-guide/web-editor-article-publishing.md)
@@ -213,28 +228,15 @@ breadcrumb-title: AEM Guides Documentation
         - [Activate output](./user-guide/conf-bulk-activation-publish-map-collection.md)
         - [Edit a bulk activation map collection](./user-guide/conf-bulk-activation-edit-map-collection.md)
         - [Delete a bulk activation map collection](./user-guide/conf-bulk-activation-delete-map-collection.md)
-      - Output generation of FrameMaker Documents {#generate-fm-output}
-        - [FrameMaker output generation basics](./user-guide/fm-output-generatation.md)
-        - Supported presets {#fm-docs-generating-presets}
-          - [Presets for generating FrameMaker documents](./user-guide/fm-output-understand-presets.md)
-          - [PDF](./user-guide/fm-output-pdf-preset.md)
-          - [HTML5](./user-guide/fm-output-html5-preset.md)
-          - [EPUB](./user-guide/fm-output-epub-preset.md)
-        - [Generate output of .book or .fm files](./user-guide/fm-output-generate.md)
-        - [View the status of the output generation task](./user-guide/fm-output-view-status.md)
-  - Reports {#reports-aem-guide}
-    - [Introduction to reports](./user-guide/reports-intro.md)
-    - [DITA map report from the Map console](./user-guide/reports-web-editor.md)
-    - [DITA map report from the Map dashboard](./user-guide/reports-ditamap.md)
-    - [Content Reuse Report](./user-guide/reports-content-reuse.md)
-    - [Conversion Status Report](./user-guide/reports-convertion-status.md)
-    - [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md) 
-  - Content translation {#translate-content}
-    - [Content translation overview](./user-guide/translation.md)
-    - [Best practices for content translation](./user-guide/translation-first-time.md)
-    - [Translate documents from the Map console](./user-guide/translate-documents-web-editor.md)
-    - [View translation status](./user-guide/translation-view-trans-state-6234.md)
-    - [Translate modified topics](./user-guide/translation-modified-topics-6234.md)
+  - Output generation of FrameMaker Documents {#generate-fm-output}
+      - [FrameMaker output generation basics](./user-guide/fm-output-generatation.md)
+      - Supported presets {#fm-docs-generating-presets}
+        - [Presets for generating FrameMaker documents](./user-guide/fm-output-understand-presets.md)
+        - [PDF](./user-guide/fm-output-pdf-preset.md)
+        - [HTML5](./user-guide/fm-output-html5-preset.md)
+        - [EPUB](./user-guide/fm-output-epub-preset.md)
+      - [Generate output of .book or .fm files](./user-guide/fm-output-generate.md)
+      - [View the status of the output generation task](./user-guide/fm-output-view-status.md)
   - AI Assistant in AEM Guides {#ai-assistant-aem}
     - [Adobe Generative AI user disclosures](./user-guide/adobe-generative-ai-disclosures.md)
     - [AI Assistant overview](./user-guide/ai-assistant.md)
@@ -248,10 +250,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Upload files](./user-guide/authoring-upload-existing-files.md)
         - [Manage files and folders](./user-guide/authoring-file-management.md)
         - [Download files](./user-guide/authoring-download-assets.md)
-    - Editor best practices and keyboard shortcuts {#editor-bp-ks}
-        - [Best practices for working with the Editor](./user-guide/web-editor-edit-topics.md)
-        - [Keyboard shortcuts in the Editor](./user-guide/web-editor-keyboard-shortcuts.md)
-- [User Guide (Old UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-legacy/overview)
+- **[User Guide (Old UI)]**(https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation and configuration {#install-guide}
   - On-premise {#on-prem-ig}
     - [On-premise basics](./install-guide/introduction.md)

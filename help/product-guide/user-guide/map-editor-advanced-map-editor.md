@@ -231,7 +231,7 @@ You can keep a track of all updates made in the map file by enabling the Track C
 
 **Create review task** - ![](images/create-review-task.svg)
 
-You can create a review task of the current topic or map file directly from the Editor. Open the file for which you want to create the review task and select **Create review task** to initiate the review creation process. Follow the instructions given in the [Review topics or maps](review.md#) for more details.
+You can create a review task of the current topic or map file directly from the Editor. Open the file for which you want to create the review task and select **Create review task** to initiate the review creation process. Follow the instructions given in the [Introduction to review](review.md#) for more details.
 
 ## Source view
 
