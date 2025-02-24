@@ -120,7 +120,8 @@ breadcrumb-title: AEM Guides Documentation
     - [!DNL AEM Guides] working and key features {#aemg-works-features}
       - [How [!DNL AEM Guides] works](./user-guide/intro-how-dxml-works.md)
       - [Key [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
-  - [[!DNL AEM Guides] Home page experience](./user-guide/intro-home-page.md)
+  - Home page {#home-page}
+    - [[!DNL AEM Guides] Home page experience](./user-guide/intro-home-page.md)
   - Author content {#author-content}
     - [Authoring overview](./user-guide/authoring-content.md)
     - [Ways to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
@@ -152,7 +153,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Use the DITAVAL editor](./user-guide/ditaval-editor.md)
     - Desktop tools for authoring content {#author-using-desktop-tools}
         - [Author content using desktop tools](./user-guide/author-desktop-tools.md)
-  - Review {#review}
+  - Review content {#review}
     - [Introduction to review](./user-guide/review.md)
     - [Create a DITA project](./user-guide/authoring-create-dita-project.md)
     - [Send topics for review](./user-guide/review-send-topics-for-review.md)
@@ -171,6 +172,19 @@ breadcrumb-title: AEM Guides Documentation
   - Map management and publishing {#map-management-publishing}  
     - [Map console overview](./user-guide/map-console-overview.md)
     - [Open files in Map console](./user-guide/open-files-map-console.md)
+    - Reports {#reports-aem-guide}
+      - [Introduction to reports](./user-guide/reports-intro.md)
+      - [DITA map report from the Map console](./user-guide/reports-web-editor.md)
+      - [DITA map report from the Map dashboard](./user-guide/reports-ditamap.md)
+      - [Content Reuse Report](./user-guide/reports-content-reuse.md)
+      - [Conversion Status Report](./user-guide/reports-convertion-status.md)
+      - [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md) 
+    - Content translation {#translate-content}
+      - [Content translation overview](./user-guide/translation.md)
+      - [Best practices for content translation](./user-guide/translation-first-time.md)
+      - [Translate documents from the Map console](./user-guide/translate-documents-web-editor.md)
+      - [View translation status](./user-guide/translation-view-trans-state-6234.md)
+      - [Translate modified topics](./user-guide/translation-modified-topics-6234.md)
     - Output Generation {#output-gen}
       - [Output generation basics](./user-guide/generate-output.md)
       - Output presets in AEM Guides {#output-presets-aemg} 
@@ -197,19 +211,6 @@ breadcrumb-title: AEM Guides Documentation
       - [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
       - [Use variables for setting the Destination Path, Site Name, or File Name options](./user-guide/generate-output-use-variables.md)
       - [Pass on the metadata to the output using DITA-OT](./user-guide/pass-metadata-dita-ot.md)
-      - Reports {#reports-aem-guide}
-        - [Introduction to reports](./user-guide/reports-intro.md)
-        - [DITA map report from the Map console](./user-guide/reports-web-editor.md)
-        - [DITA map report from the Map dashboard](./user-guide/reports-ditamap.md)
-        - [Content Reuse Report](./user-guide/reports-content-reuse.md)
-        - [Conversion Status Report](./user-guide/reports-convertion-status.md)
-        - [Reverted files version history report](./user-guide/reports-reverted-file-version-history.md) 
-      - Content translation {#translate-content}
-        - [Content translation overview](./user-guide/translation.md)
-        - [Best practices for content translation](./user-guide/translation-first-time.md)
-        - [Translate documents from the Map console](./user-guide/translate-documents-web-editor.md)
-        - [View translation status](./user-guide/translation-view-trans-state-6234.md)
-        - [Translate modified topics](./user-guide/translation-modified-topics-6234.md)
       - Generate output {#generate-output} 
         - [Generate output for a DITA map](./user-guide/generate-output-for-a-dita-map.md)
         - [Generate Knowledge Base output](./user-guide/web-editor-article-publishing.md)
@@ -222,12 +223,12 @@ breadcrumb-title: AEM Guides Documentation
       - [Manage output generation process](./user-guide/generate-output-manage-process.md)
       - [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
       - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
-      - Bulk activation of content {#bulk-activation}
-        - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
-        - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
-        - [Activate output](./user-guide/conf-bulk-activation-publish-map-collection.md)
-        - [Edit a bulk activation map collection](./user-guide/conf-bulk-activation-edit-map-collection.md)
-        - [Delete a bulk activation map collection](./user-guide/conf-bulk-activation-delete-map-collection.md)
+    - Bulk activation of content {#bulk-activation}
+      - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
+      - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
+      - [Activate output](./user-guide/conf-bulk-activation-publish-map-collection.md)
+      - [Edit a bulk activation map collection](./user-guide/conf-bulk-activation-edit-map-collection.md)
+      - [Delete a bulk activation map collection](./user-guide/conf-bulk-activation-delete-map-collection.md)
   - Output generation of FrameMaker Documents {#generate-fm-output}
       - [FrameMaker output generation basics](./user-guide/fm-output-generatation.md)
       - Supported presets {#fm-docs-generating-presets}
@@ -250,7 +251,8 @@ breadcrumb-title: AEM Guides Documentation
         - [Upload files](./user-guide/authoring-upload-existing-files.md)
         - [Manage files and folders](./user-guide/authoring-file-management.md)
         - [Download files](./user-guide/authoring-download-assets.md)
-- [User Guide (Old UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- User Guide (Old UI) {#user-guide-old-ui}
+  - [AEM Guides overview)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation and configuration {#install-guide}
   - On-premise {#on-prem-ig}
     - [On-premise basics](./install-guide/introduction.md)

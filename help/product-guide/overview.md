@@ -31,61 +31,10 @@ With [!DNL Experience Manager Guides] solution, enterprises can deliver seamless
 
     _Learn how to generate output using [!DNL Adobe Experience Manager Guides]. Learn about various features available for output generation - reports, baselines, conditions, troubleshooting, bulk publishing and activation._
 
-<!--
-
-Dummy links cause validation to fail
-
-## Staff Picks
-
-<table>
-<tr>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-   <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-</tr>
-</table>
-
--->
 
 ## Additional Resources
 
-* [[!DNL Experience Manager Guides] User Guide (Old UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-legacy/user-guide/overview)
+* [[!DNL Experience Manager Guides] User Guide (Old UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 * [[!DNL AEM Guides] Learn & Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - Explore AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
 
