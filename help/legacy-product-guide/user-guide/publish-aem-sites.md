@@ -3,6 +3,7 @@ title: Publish a topic to an AEM Sites page
 description: Publish a topic or the elements within a topic to an Adobe Experience Manager Sites output.  Learn how to view the Experience Manager Sites page present for a topic and republish them.
 feature: Publishing
 role: User
+hide: yes
 ---
 # Publish Adobe Experience Manager Sites pages
 

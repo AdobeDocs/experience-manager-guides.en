@@ -3,6 +3,7 @@ title: Review topics or maps
 description: Efficiently review topics or maps in AEM Guides for smooth content evaluation. Know the features for authors and reviewers in AEM Guides.
 feature: Reviewing
 role: User
+hide: yes
 exl-id: 21e444e5-28ae-49f0-9010-c8687da16371
 ---
 # Review topics or maps {#id1645H6010Q5}

@@ -3,6 +3,7 @@ title: Know the Web Editor features
 description: Discover features of the web editor in AEM Guides. Know the web editor's interface, including the main toolbar, secondary toolbar, left panel, content editing area, and right panel.
 feature: Authoring, Features of Web Editor
 role: User
+hide: yes
 exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
 ---
 # Know the Web Editor features {#id176NC500V5Z}
