@@ -1,9 +1,10 @@
 ---
-title: Configure Adobe Workfront in Experience Manager Guides 
+title: Configure Adobe Workfront in Experience Manager Guides
 description: Learn how to Configure Workfront in Experience Manager Guides
 feature: Authoring
 role: Admin
 level: Experienced
+exl-id: 1f72642c-e694-47cd-9182-f4f4aaf69655
 ---
 # Configure Adobe Workfront
 
@@ -57,7 +58,4 @@ Perform the following steps to configure Adobe Workfront in Experience Manager G
 6. In the custom form dropdown list, select the Adobe Workfront custom form that you created for Experience Manager Guides. View [Prerequisites](#prerequisites).
 7. Select **Save and close** to apply and save the Workfront configuration changes.  
 
-Once configured, [add users to Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) using the same email addresses they have in Experience Manager Guides. 
-
-
-
+Once configured, [add users to Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) using the same email addresses they have in Experience Manager Guides.

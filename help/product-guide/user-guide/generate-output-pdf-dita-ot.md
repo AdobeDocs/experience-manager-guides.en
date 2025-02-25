@@ -3,6 +3,7 @@ title: Generate PDF using DITA-OT
 description: Learn how to create a PDF preset using DITA-OT from the map console and the map dashboard. Configure PDF output preset in AEM Guides.
 feature: Publishing
 role: User
+exl-id: 6ac82dad-34af-4f9e-8b52-4e4f2eb982a4
 ---
 # Create DITA-OT PDF output preset {#id205BE600HAH}
 

@@ -1,10 +1,10 @@
 ---
-title: Map console in Adobe Experience Manager Guides 
+title: Map console in Adobe Experience Manager Guides
 description: Learn about Map console and the various available features that allow you to publish and manage maps in Adobe Experience Manager Guides.
 feature: Publishing
 role: User
+exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
 ---
-
 # Map console overview 
 
 Adobe Experience Manager Guides offers a dedicated console, known as the **Map console**, to streamline all your map management and publishing tasks. This centralized interface enhances productivity and accuracy in your map-related activities by providing you options to generate outputs, translate content, access reports, and more – all at one place. 

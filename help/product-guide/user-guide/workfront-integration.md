@@ -3,6 +3,7 @@ title: Workfront integration
 description: Learn how to integrate Workfront with Adobe Experience Manager Guides and start creating tasks for authoring, publishing, reviewing, and translation workflows.
 feature: Authoring
 role: User
+exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
 ---
 # Workfront integration
 
@@ -312,4 +313,4 @@ Perform the following steps to work upon a publishing task:
 
     >[!NOTE]
     >
-    > Once the task is marked as done, it will be removed from both your assigned task list and the task initiator's **Created by you** task list. 
+    > Once the task is marked as done, it will be removed from both your assigned task list and the task initiator's **Created by you** task list.

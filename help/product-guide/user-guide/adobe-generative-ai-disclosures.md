@@ -1,8 +1,8 @@
 ---
-title: Adobe Experience Manager Guides Generative AI user disclosures 
-description: Learn about the Generative AI user discloures when using AI Assistant in Adobe Experience Manager Guides. 
+title: Adobe Experience Manager Guides Generative AI user disclosures
+description: Learn about the Generative AI user discloures when using AI Assistant in Adobe Experience Manager Guides.
+exl-id: 3860edc6-a58f-48f5-a67e-8b0085d4d22d
 ---
-
 # Adobe Experience Manager Guides Generative AI user disclosures  
 
 User Guidelines governing your access and use of Experience Manager Guides AI Assistant are found [here](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
@@ -20,5 +20,3 @@ AI Assistant is powered by generative AI models, and the technology is still evo
 ## Feedback
 
 We provide a feedback mechanism directly within the AI Assistant to help us improve accuracy. This is an ongoing process, and we will continue to work together with our customers and community to harness the power of this new technology responsibly.
-
-

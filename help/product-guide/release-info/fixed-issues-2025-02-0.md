@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2025.02.0 release
 description: Learn about the bug fixes in the 2025.02.0 release of Adobe Experience Manager Guides as a Cloud Service.
-
+exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
 ---
 # Fixed issues in the 2025.02.0 release 
 
@@ -95,6 +95,3 @@ Adobe has identified the following known issues for the 2025.02.0 release:
 - The position of Background color is misaligned in the UI of **Condition's Panel**.
 - When you use image as a `<keyref>`, the **Reference Type** of the image is not shown in the **Multimedia report**.
 - In some cases, the lock functionality for CSS files is not working as expected, allowing other users to edit and save the files even when they are locked by another user.
-
-
-

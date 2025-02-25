@@ -1,6 +1,7 @@
 ---
 title: Use the AI Assistant to author documents smartly `
 description: Learn how to Use the AI Assistant to search and author documents smartly in Adobe Experience Manager Guides.
+exl-id: c18e8761-333e-40ef-9e16-e71a194a754a
 ---
 # AI Assistant (Beta)  
 
@@ -45,8 +46,3 @@ Perform the following steps to launch AI Assistant:
 [Adobe Experience Manager Guides Generative AI disclosures](./adobe-generative-ai-disclosures.md)
 
 [Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-smart-suggestions.md)
-
-
-
-
-

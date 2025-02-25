@@ -3,6 +3,7 @@ title: Output generation
 description: Manage the output generation process in AEM Sites, PDF, HTML5, EPUB, custom, and JSON through DITA-OT plug-ins, Native PDF publishing, and FMPS in AEM Guides.
 feature: Publishing
 role: User
+exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
 ---
 # Manage output generation process
 
@@ -89,4 +90,3 @@ Perform the following steps to remove an output task from the Generated Output l
 1.  Select **Yes** on the **Confirm Delete** message prompt.
 
     The task is deleted from the Generated Outputs list.
-

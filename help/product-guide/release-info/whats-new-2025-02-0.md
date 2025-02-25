@@ -2,7 +2,7 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 2025.02.0 release
 description: Learn about the new and enhanced features in the 2025.02.0 release of Adobe Experience Manager Guides
 role: Leader
-
+exl-id: 3e3177e8-cd29-4a86-b786-7c7a1d0047d9
 ---
 # What's new in the 2025.02.0 release (February 2025)
 
@@ -191,4 +191,3 @@ The ability to pass root map metadata arguments through DITA-OT command line has
 To continue passing the metadata in DITA-OT command line, you need to update the `pass.metadata.args.cmd.line` in the `Config.Manager`.  
 
 For more details, view [Configure output generation settings](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-argument-field-to-accept-root-map-metadata).
-
