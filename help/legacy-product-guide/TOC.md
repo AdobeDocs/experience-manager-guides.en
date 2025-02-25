@@ -40,6 +40,8 @@ badgeAll: label="Old UI Guide - More Info" type="Informative" url="/help/legacy-
           - [Web Editor views](./user-guide/web-editor-views.md)
           - [Support for Schematron files](./user-guide/support-schematron-file.md)
           - [AI-powered Smart Suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
+          - [AI-powered Smart Help to search content](./user-guide/ai-based-smart-help.md)
+          - [AI Assistant to author documents with smart efficiency](./user-guide/ai-assistant-right-panel.md)
           - [Author Markdown documents from the Web Editor](./user-guide/web-editor-markdown-topic.md)
           - [Add citations to your content](./user-guide/web-editor-apply-citations.md)
           - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)
@@ -111,6 +113,7 @@ badgeAll: label="Old UI Guide - More Info" type="Informative" url="/help/legacy-
     - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
     - [Publish Content Fragments](./user-guide/publish-content-fragment.md)
     - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
+    - [Publish AEM Sites pages](./user-guide/publish-aem-sites.md)
     - Bulk activation of content {#bulk-activation}
       - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
       - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
