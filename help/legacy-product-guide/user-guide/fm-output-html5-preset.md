@@ -3,6 +3,7 @@ title: HTML5
 description: Generate and configure HTML5 output for FrameMaker documents in AEM Guides.
 feature: Publishing FrameMaker Documents
 role: User
+hide: yes
 exl-id: 284fafeb-cc0f-49c0-86a3-3aec7418a632
 ---
 # HTML5 {#id205BB0U70MG}

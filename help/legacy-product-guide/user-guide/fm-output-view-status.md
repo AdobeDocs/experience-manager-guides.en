@@ -3,6 +3,7 @@ title: View the status of the output generation task
 description: View the output generation queue of FrameMaker documents. Learn how to view the status of an output generation task.
 feature: Publishing FrameMaker Documents
 role: User
+hide: yes
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
 ---
 # View the status of the output generation task {#viewing_output_history}

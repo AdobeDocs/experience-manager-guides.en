@@ -3,6 +3,7 @@ title: AEM Sites
 description: Create and configure the AEM Sites preset in the Web Editor and generate AEM Sites output for DITA map, selected topics, and linked topics.
 feature: Publishing
 role: User
+hide: yes
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
 ---
 # AEM Sites presets in the Web Editor
