@@ -502,7 +502,7 @@ By default, the XML Editor comes with a lot of features to help your authors cre
 
 This setting enables you to create JSON extensions that reflect modifications made in the `ui_config.json` file. You can independently upload these extensions at the Folder profile level, offering enhanced flexibility and customization. For instance, when you make changes to the **XML Editor Configuration**, such as updating a button, the system automatically identifies the differences. By uploading these changes to the **XML Editor UI Configuration** and converting them into JSON extensions using the **Convert UI Config to JSON** button, the system generates an extension that incorporates the new functionality.
 
-Learn more about **customizing JSON configurations and converting UI configurations for the new AEM Guides Editor**.
+Learn more about [customizing JSON configurations and converting UI configurations for the new AEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 **XML Editor page layout**
 

@@ -1,6 +1,7 @@
 ---
 title: Use the AI Assistant to author documents smartly `
 description: Learn how to Use the AI Assistant to author documents with smart efficiency in the Web Editor.
+hide: yes
 ---
 # AI Assistant to author documents with smart efficiency
 

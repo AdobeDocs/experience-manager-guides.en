@@ -3,6 +3,7 @@ title: Upload files
 description: Learn how to upload your files to the AEM repository and handle errors. Know assets console user interface, AEM desktop app, asset bulk ingestor, and use FrameMaker for bulk upload.
 feature: Content Management
 role: User
+hide: yes
 exl-id: fcb2cc43-6a36-42f2-a695-7a50ae1031a0
 ---
 # Upload files {#id176FF000JUI}

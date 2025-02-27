@@ -3,12 +3,13 @@ title: Use variables for setting the Destination Path, Site Name, or File Name o
 description: Learn how to use variables for setting the Destination Path, Site Name, or File Name options. Know out-of-the-box variables supported in AEM Guides.
 feature: Publishing
 role: User
+hide: yes
 exl-id: 19d9121f-6b72-445c-a7d9-07f00026b654
 ---
 # Use variables for setting the Destination Path, Site Name, or File Name options
 
 
-While generating outputs in AEM Site or PDFs, you can use variables to define the Destination Path, AEM Site Name, or PDF File Name options. You can use a single or a combination of variables to define theses options.
+While generating outputs in AEM Site or PDFs, you can use variables to define the Destination Path, AEM Site Name, or PDF File Name options. You can use a single or a combination of variables to define these options.
 
 The following table lists the variables that are supported out of the box:
 

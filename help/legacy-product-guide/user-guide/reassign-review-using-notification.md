@@ -3,6 +3,7 @@ title: Reassign review task using notification
 description: Reassign a review task using notifications in AEM Guides. Know how to reassign a reviewer task from the inbox notification.
 feature: Reviewing
 role: User
+hide: yes
 exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
 ---
 # Reassign review task using notification {#id21BNH03M0KS}

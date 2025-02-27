@@ -3,6 +3,7 @@ title: Document state
 description: Learn the types of document states in AEM Guides. Know how to change or view the document state and use the document state in DDLC.
 feature: Authoring, Features of Web Editor, Document State
 role: User
+hide: yes
 exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
 ---
 # Document state {#id1821HC00URO}

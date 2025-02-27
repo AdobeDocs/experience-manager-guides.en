@@ -3,6 +3,7 @@ title: Address review comments
 description: Learn how to address review comments as an author in AEM Guides. Discover how an author can edit, filter, accept, or reject comments in a document.
 feature: Reviewing
 role: User
+hide: yes
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
 ---
 # Address review comments {#id2056B0X0KBI}

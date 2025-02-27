@@ -1,6 +1,7 @@
 ---
 title: AI-powered Smart Suggestions to author content
 description: Learn how to view and utilize AI-powered smart suggestions in the Web Editor.
+hide: yes
 exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
 ---
 # AI-powered smart suggestions to author content
