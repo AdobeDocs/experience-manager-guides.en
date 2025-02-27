@@ -4,6 +4,7 @@ description: Publish a topic or the elements within a topic to an Adobe Experien
 feature: Publishing
 role: User
 hide: yes
+exl-id: 3e77747d-ff04-465c-9305-fd6f1c74df04
 ---
 # Publish Adobe Experience Manager Sites pages
 

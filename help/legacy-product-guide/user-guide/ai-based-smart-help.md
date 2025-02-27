@@ -1,7 +1,8 @@
 ---
 title: AI-powered Smart Help to search content
 description: Learn how to view and utilize AI-powered Smart Help in the Web Editor.
-hide: yes 
+hide: yes
+exl-id: cf08f6a9-bf92-47d9-9952-da0301ea7023
 ---
 # AI-powered Smart Help to search content
 
