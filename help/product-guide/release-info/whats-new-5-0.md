@@ -1,16 +1,16 @@
 ---
-title: Release Notes | What's New in Adobe Experience Manager Guides 5.0 release
-description: Learn about the new and enhanced features in the 5.0 release of Adobe Experience Manager Guides
+title: Release Notes | What's New in Adobe Experience Manager Guides 5.0.0 release
+description: Learn about the new and enhanced features in the 5.0.0 release of Adobe Experience Manager Guides
 role: Leader
 
 ---
-# What's new in the 5.0 release (March 2025)
+# What's new in the 5.0.0 release (March 2025)
 
-This article covers the new and enhanced features introduced with version 5.0 of Adobe Experience Manager Guides.
+This article covers the new and enhanced features introduced with version 5.0.0 of Adobe Experience Manager Guides.
 
-For the list of issues that have been fixed in this release, view [Fixed issues in the 5.0 release](../release-info/fixed-issues-5-0-0.md).
+For the list of issues that have been fixed in this release, view [Fixed issues in the 5.0.0 release](../release-info/fixed-issues-5-0-0.md).
 
-Learn about [upgrade instructions for the 4.6.0 release](../release-info/upgrade-instructions-5-0-0.md).
+Learn about [upgrade instructions for the 5.0.0 release](../release-info/upgrade-instructions-5-0-0.md).
 
 ## Revamped Experience Manager Guides UI for enhanced productivity and experience
 
@@ -110,7 +110,7 @@ For more details, view [customizing the topbar and toolbar](../guides-ui-extensi
 
 ## Review enhancements 
 
-The following Review enhancements have been done in the 2025.02.0 release:
+The following Review enhancements have been made as part of the new release:
 
 - Now, when creating a review task, you can type in a project name to quickly locate and select it in the Project drop-down list. This enhancement removes the need to scroll through lengthy project lists, making it faster and more efficient to assign review tasks, especially when managing multiple projects. 
 
