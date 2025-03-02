@@ -1,7 +1,6 @@
 ---
 title: Migrate Delta content
 description: AEM Guides, migrate delta content
-exl-id: 
 ---
 # "Delta" content migration
 
