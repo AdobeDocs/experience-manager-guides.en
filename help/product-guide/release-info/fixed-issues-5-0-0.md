@@ -81,8 +81,11 @@ Learn about [upgrade instructions for the 5.0.0 release](upgrade-instructions-5-
 
 Adobe has identified the following known issues for 5.0.0 release:
 
+- In some cases, the lock functionality for CSS files is not working as expected, allowing other users to edit and save the files even when they are locked by another user.
+- Unable to exit the Map console view when Baseline is dirty with autosave enabled.
+- The position of Background color is misaligned in the UI of **Condition's Panel**.
+- When you use image as a `<keyref>`, the **Reference Type** of the image is not shown in the **Multimedia report**.
 - When using images as variables in the PDF template, it does not resolves in the output.
-- The **Locate in repository** capability does not work when opening the Guides Editor for the first time, but starts working as expected after refreshing the browser.
 - In **Topic list** reports, sorting by title fails for assets with `<conref>` or `<conkeyref>` in the title, causing these entries to always appear at the top.
 - Switching the folder profile does not immediately reflect changes on the UI without refreshing the browser.
 - The extension framework customizations made prior to Guides 2025.02.x.x, may not function as intended.
@@ -90,7 +93,5 @@ Adobe has identified the following known issues for 5.0.0 release:
 - Publishing a map that contains a Markdown file with internal image references, fails on Windows servers.
 - The bulleted list fails to convert to numbered list in Markdown.
 - Publishing to native AEM site fails when markdown files are referred in a map. 
-- The position of Background color is misaligned in the UI of **Condition's Panel**.
-- When you use image as a `<keyref>`, the **Reference Type** of the image is not shown in the **Multimedia report**.
-- In some cases, the lock functionality for CSS files is not working as expected, allowing other users to edit and save the files even when they are locked by another user.
-- Unable to exit the Map console view when Baseline is dirty with autosave enabled.
+
+

@@ -18,7 +18,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 **5.0.0 UUID**
 
-Version 6.5 Service Pack 21, 20, and 19
+Version 6.5 Service Pack 22, Service Pack 21, and Service Pack 20
 
 For more details, view the [Technical requirements](../install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
 
@@ -53,7 +53,7 @@ For more details, view the [Technical requirements](../install-guide/download-in
 You can easily upgrade your current version of Guides to version 5.0.0. Before you proceed with upgrading to version 5.0.0 of Experience Manager Guides, you must consider the following points:
 
 - If you are using version 4.6.3, 4.6.1, 4.6, or 4.4, then you can directly upgrade to version 5.0.0. 
-- If you are using version 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 5.0..
+- If you are using version 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 5.0.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.x.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
 - If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
@@ -63,13 +63,3 @@ You can easily upgrade your current version of Guides to version 5.0.0. Before y
 >You must install AEM service pack before upgrading Experience Manager Guides version.
 
 For details, view [Upgrade instructions for the On-premise releases](../install-guide/upgrade-xml-documentation.md) of Experience Manager Guides.
-
-## Post upgrade instructions
-
-### Steps to reindex the damAssetLucene: [to be performed after upgrade to 5.0.0]
-
-Index definition is updated for damAssetLucene with Guides. Follow this documentation to reindex the damAssetLucene: https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460
-
->[!NOTE]
->
-> While following the documentation make sure both properties (reindex=true and reindex-async=true for /oak:index/damAssetLucene) are updated simultaneously via save operation.
