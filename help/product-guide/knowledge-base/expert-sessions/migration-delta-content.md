@@ -11,7 +11,7 @@ Since we know that delta migration is about transfering content between two exis
 
 ## Session recording
 
->[!VIDEO](https://video.tv.adobe.com/v/3434807/uuid-migration-content-migration-guides-migration?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448785/#uuid-migration-#delta-content-migration-#aem-guides-#content-migration?quality=12&learn=on)
 
 
 ## Highlights
