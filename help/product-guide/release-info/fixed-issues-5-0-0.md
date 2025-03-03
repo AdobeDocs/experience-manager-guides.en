@@ -8,7 +8,7 @@ description: Learn about the bug fixes in the 5.0.0 release of Adobe Experience 
 This article covers the bugs fixed in various areas of 5.0.0 release of Adobe Experience Manager Guides.
 
 
-For more information about the new features and enhancements, view [What's new in the 5.0.0 release](whats-new-2025-02-0.md).
+For more information about the new features and enhancements, view [What's new in the 5.0.0 release](whats-new-5-0.md).
 
 Learn about [upgrade instructions for the 5.0.0 release](upgrade-instructions-5-0-0.md).
 
