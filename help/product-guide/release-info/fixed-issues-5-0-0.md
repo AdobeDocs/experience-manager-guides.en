@@ -88,7 +88,7 @@ Adobe has identified the following known issues for 5.0.0 release:
 - When using images as variables in the PDF template, it does not resolves in the output.
 - In **Topic list** reports, sorting by title fails for assets with `<conref>` or `<conkeyref>` in the title, causing these entries to always appear at the top.
 - Switching the folder profile does not immediately reflect changes on the UI without refreshing the browser.
-- The extension framework customizations made prior to Guides 2025.02.x.x, may not function as intended.
+- The extension framework customizations made prior to Guides 5.0.0, may not function as intended.
 - The complete TOC of the map does not update when selectively publishing topics from the map.
 - Publishing a map that contains a Markdown file with internal image references, fails on Windows servers.
 - The bulleted list fails to convert to numbered list in Markdown.
