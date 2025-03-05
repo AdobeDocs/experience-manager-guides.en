@@ -1239,7 +1239,7 @@ The various options in the Options menu are explained below:
 
 ### Map 
 
-When you select the Map view icon, the Map view is displayed where a a list of topics within the map file is displayed. If you have not opened any map file, then the Map view appears blank. Double-clicking on any map file opens the map file in this view. You can double-click on any file within the map to open it in the Editor.
+When you select the Map view icon, the Map view is displayed where a list of topics within the map file is displayed. If you have not opened any map file, then the Map view appears blank. Double-clicking on any map file opens the map file in this view. You can double-click on any file within the map to open it in the Editor.
 
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.
 
@@ -1566,8 +1566,8 @@ The following example shows how to use subject scheme in Experience Manager Guid
 
 1. Create a subject scheme file in a tool of your choice. The following XML code creates subject scheme that binds values for the `platform` attribute.
 
-    ```XML
-    <?xml version="1.0" encoding="UTF-8"?>
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd">
     <subjectScheme id="GUID-4f942f63-9a20-4355-999f-eab7c6273270">
         <title>rw</title>
@@ -1593,9 +1593,9 @@ The following example shows how to use subject scheme in Experience Manager Guid
             <subjectdef keyref="app">    </subjectdef>
         </enumerationdef>
     </subjectScheme>
-    ```
+```
 
-    ![](images/subject-scheme-panel-new.png){width="300" align="left"}
+![](images/subject-scheme-panel-new.png){width="300" align="left"}
 
 1. Save the file with a.ditamap extension and upload it to any folder in DAM.
 
@@ -1624,7 +1624,7 @@ The subject definitions are defined in `subject_scheme_map_1.ditamap`
 
  
 ```XML
-  <?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?> 
     <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
     <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
 
@@ -1668,7 +1668,7 @@ The subject definitions are defined in `subject_scheme_map_1.ditamap`
 The enumeration definition is present in    subject_scheme_map_2.ditamap. 
 
 ```XML
-    ?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?> 
         <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
         <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
         <title>subject_scheme_map_2</title> 
