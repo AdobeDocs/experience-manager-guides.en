@@ -794,7 +794,7 @@ Before you start the Experience Manager Guides 4.4.0 upgrade process, ensure tha
 
 1. Download 4.4.0 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Install version 4.4.0 package.
-1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-of-script-via-a-servlet-for-440).
+1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-of-script-via-a-servlet).
 
 1.  After you complete the package installation, wait for the following message\(s\) in the logs:
 
@@ -931,7 +931,7 @@ Perform the following steps for post processing the existing content and using t
 
 1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
 
-### Enable trigger of script via a Servlet (for 4.4.0)
+### Enable trigger of script via a Servlet 
 
 >[!NOTE]
 >
@@ -1002,7 +1002,7 @@ Before you start the Experience Manager Guides 4.6.0 upgrade process, ensure tha
 
 1. Download 4.6.0 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Install version 4.6.0 package.
-1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-of-script-via-a-servlet-for-440).
+1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-of-script-via-a-servlet).
 
 1.  After you complete the package installation, wait for the following message\(s\) in the logs:
 
@@ -1157,7 +1157,7 @@ Before you start the Experience Manager Guides 5.0.0 upgrade process, ensure tha
 
 1. Download 5.0.0 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Install version 5.0.0 package.
-1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-of-script-via-a-servlet-for-440).
+1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-of-script-via-a-servlet).
 
 1.  After you complete the package installation, wait for the following message\(s\) in the logs:
 
