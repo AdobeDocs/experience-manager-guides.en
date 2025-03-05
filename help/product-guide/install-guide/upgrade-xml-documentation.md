@@ -44,7 +44,7 @@ For more details, refer to the following procedures:
 >
 > Before you begin to upgrade, take a complete system backup to avoid any loss of data.
 
-## Upgrade from version 3.8.5 to version 4.0 {#id2256DK003E1}
+## Upgrade from version 3.8.5 to version 4.0
 
 If you are using Experience Manager Guides version 3.8.5, then you can upgrade to version 4.0 of Experience Manager Guides. With the upgrade feature, you don't have to uninstall the previous version of Experience Manager Guides.
 
@@ -123,7 +123,7 @@ This API is designed to migrate the system data as mentioned in the **Migration 
     -   The URL pattern /libs/cq/security/userinfo.json is not cached.
 1.  Clear dispatcher cache \(to clear any `clientlibs` cached\).
 
-## Upgrade to version 4.2 {#id22A3F500SXA}
+## Upgrade to version 4.2 
 
 Upgrading to version 4.2 depends on the current version of Experience Manager Guides.
 
@@ -293,7 +293,7 @@ and wait for it to be `false` again (this indicates the reindexing is complete).
 1. Run the indexing script again by performing the previous steps.
 
 
-## Upgrade to version 4.2.1 {#upgrade-version-4-2-1}
+## Upgrade to version 4.2.1
 
 >[!TIP]
 >
@@ -321,7 +321,7 @@ Before you start the Experience Manager Guides 4.2.1 upgrade process, ensure tha
 
 1.  Download 4.2.1 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1.  Install version 4.2.1 package.
-1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-serverlet).
+1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-of-script-via-a-servlet-for-421).
 
 
 1.  After you complete the package installation, wait for the following message\(s\) in the logs:
@@ -339,7 +339,7 @@ Before you start the Experience Manager Guides 4.2.1 upgrade process, ensure tha
 1.  Clear the browser cache after installing the package.
 1.  Continue upgrading the customizations as detailed out in the next section.
 
-### Enable trigger of script via a Servlet{#enable-trigger-serverlet}
+### Enable trigger of script via a Servlet (for 4.2.1)
 
 POST:
 
@@ -474,7 +474,7 @@ Perform the following steps for indexing the existing content and use the new fi
 -   Once the job is complete, the above GET request will respond with success and mention if any maps failed. The successfully indexed maps can be confirmed from the server logs.
 
 
-## Upgrade to version 4.3.0 {#upgrade-version-4-3} 
+## Upgrade to version 4.3.0
 
 Upgrading to version 4.3.0 depends on the current version of Experience Manager Guides. If you are using version 4.2 or 4.2.x then you can directly upgrade to version 4.3.0.
 
@@ -532,7 +532,7 @@ Perform the following steps for post processing the existing content and using t
 
 
 
-## Upgrade to version 4.3.1 {#upgrade-version-4-3-1} 
+## Upgrade to version 4.3.1
 
 Upgrading to version 4.3.1 depends on the current version of Experience Manager Guides. If you are using version 4.3.0, 4.2, or 4.2.1 then you can directly upgrade to version 4.3.1.
 
@@ -553,7 +553,7 @@ Before you start the Experience Manager Guides 4.3.1 upgrade process, ensure tha
 
 1. Download 4.3.1 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Install version 4.3.1 package.
-1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-serverlet-4-3-1).
+1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-of-script-via-a-servlet-for-431).
 
 
 1.  After you complete the package installation, wait for the following message\(s\) in the logs:
@@ -571,9 +571,9 @@ Before you start the Experience Manager Guides 4.3.1 upgrade process, ensure tha
 1.  Clear the browser cache after installing the package.
 1.  Continue upgrading the customizations as detailed out in the next section.
 
-### Enable trigger of script via a Servlet{#enable-trigger-serverlet-4-3-1}
+### Enable trigger of script via a Servlet (for 4.3.1) 
 
-POST:
+POST: 
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -733,7 +733,7 @@ Perform the following steps for post processing the existing content and using t
 
 
 
-## Upgrade to version 4.3.1.5 {#upgrade-version-4-3-1-5} 
+## Upgrade to version 4.3.1.5
 
 Upgrading to version 4.3.1.5 depends on the current version of Experience Manager Guides. If you are using version 4.3.1  then you can directly upgrade to version 4.3.1.5.
 
@@ -773,7 +773,7 @@ Upgrading to version 4.3.1.5 depends on the current version of Experience Manage
 
 
 
-## Upgrade to version 4.4.0 {#upgrade-version-4-4-0} 
+## Upgrade to version 4.4.0
 
 Upgrading to version 4.4.0 depends on the current version of Experience Manager Guides. If you are using version 4.3.1, 4.3.0, 4.2, or 4.2.1 (Hotfix 4.2.1.3) then you can directly upgrade to version 4.4.0
 
@@ -977,7 +977,7 @@ During this upgrade, since the `'order'` value is changed from 1000 to 50, you n
 **Parent topic:**[Download and install](download-install.md)
 
 
-## Upgrade to version 4.6.0 {#upgrade-version-4-6-0} 
+## Upgrade to version 4.6.0
 
 >[!TIP]
 >
@@ -1134,7 +1134,7 @@ If you have another custom sling rewriter in your codebase,  use an `'order'` va
 During this upgrade, since the `'order'` value is changed from 1000 to 50, you need to merge the existing custom rewriter, if any, with `'fmdita-rewriter'`.
 
 
-## Upgrade to version 5.0.0 {#upgrade-version-5-0-0} 
+## Upgrade to version 5.0.0
 
 >[!TIP]
 >
