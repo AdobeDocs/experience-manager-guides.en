@@ -1717,8 +1717,6 @@ For example, use the following enumeration to restrict the `@platform` attribute
   </enumerationdef>
 ```
 
-</details>
-
 
 **Attributes** drop-down
 
