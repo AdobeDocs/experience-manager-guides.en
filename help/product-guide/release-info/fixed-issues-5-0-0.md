@@ -83,6 +83,7 @@ Adobe has identified the following known issues for 5.0.0 release:
 
 - In some cases, the lock functionality for CSS files is not working as expected, allowing other users to edit and save the files even when they are locked by another user.
 - Unable to exit the Map console view when Baseline is dirty with autosave enabled.
+- Applying preset setting changes does not reflect at the presets that have already been created within the map if preset name has any uppercase character.
 - The position of Background color is misaligned in the UI of **Condition's Panel**.
 - When you use image as a `<keyref>`, the **Reference Type** of the image is not shown in the **Multimedia report**.
 - When using images as variables in the PDF template, it does not resolves in the output.
