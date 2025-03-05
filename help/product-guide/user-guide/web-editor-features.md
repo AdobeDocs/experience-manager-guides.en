@@ -1239,7 +1239,7 @@ The various options in the Options menu are explained below:
 
 ### Map 
 
-When you select the Map view icon, the Map view is displayed where a a list of topics within the map file is displayed. If you have not opened any map file, then the Map view appears blank. Double-clicking on any map file opens the map file in this view. You can double-click on any file within the map to open it in the Editor.
+When you select the Map view icon, the Map view is displayed where a list of topics within the map file is displayed. If you have not opened any map file, then the Map view appears blank. Double-clicking on any map file opens the map file in this view. You can double-click on any file within the map to open it in the Editor.
 
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.
 
