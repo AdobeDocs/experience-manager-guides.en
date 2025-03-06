@@ -1,15 +1,16 @@
 ---
-title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2025.02.0 release
-description: Learn about the bug fixes in the 2025.02.0 release of Adobe Experience Manager Guides as a Cloud Service.
-exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
+title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 5.0.0 release
+description: Learn about the bug fixes in the 5.0.0 release of Adobe Experience Manager Guides.
+
 ---
-# Fixed issues in the 2025.02.0 release 
+# Fixed issues in the 5.0.0 release (March 2025)
 
-This article covers the bugs fixed in various areas of the 2025.02.0 release of Adobe Experience Manager Guides as a Cloud Service.
+This article covers the bugs fixed in various areas of 5.0.0 release of Adobe Experience Manager Guides.
 
-For more information about the new features and enhancements, view [What's new in the 2025.02.0 release](whats-new-2025-02-0.md).
 
-Learn about [upgrade instructions for the 2025.02.0 release](upgrade-instructions-2025-02-0.md).
+For more information about the new features and enhancements, view [What's new in the 5.0.0 release](whats-new-5-0.md).
+
+Learn about [upgrade instructions for the 5.0.0 release](upgrade-instructions-5-0-0.md).
 
 
 ## Authoring
@@ -56,16 +57,13 @@ Learn about [upgrade instructions for the 2025.02.0 release](upgrade-instruction
 
 ## Management
 
-- Resource leaks occur due to Unclosed **ResourceResolver** errors in logs. (18488)
 - The title and icon of the **Force delete** dialog box are misaligned in the Assets UI. (21933) 
 - When any JSON is updated in the folder profile for XML Editor Configuration, the save operation disrupts the XML Editor Configuration. (22414)
 - When duplicating any folder profile, its admin user list also gets copied from the original folder profile. (19067)
 - When moving large folders (containing a large volume of DITA content, up to 200,000 items) from Assets UI, an error occurs. (20107)
-- When using dynamic title with `<conkeyref>`, it does not resolve properly in **Guides Report Topic list**. (20144)
 - Editing the **Folder** profile with unified shell enabled, leads to blank UI. (22212)
 - When deleting folders containing large number of files, the operation fails. (17107)
 - When you cancel/delete the translation job or delete the project, the translation dashboard shows **In progress** status. (18417)
-- When you enable unified shell for a cloud instance, the topic preview does not open from map dashboard. (18826)
 - When you send two versions of an untranslated topic simultaneously using non-legacy translation and approve the second version before the first, the translation project with the first version gets broken. (22200)
 
 
@@ -81,18 +79,20 @@ Learn about [upgrade instructions for the 2025.02.0 release](upgrade-instruction
 
 ## Known issues
 
-Adobe has identified the following known issues for the 2025.02.0 release:
+Adobe has identified the following known issues for 5.0.0 release:
 
+- In some cases, the lock functionality for CSS files is not working as expected, allowing other users to edit and save the files even when they are locked by another user.
+- Unable to exit the Map console view when Baseline is dirty with autosave enabled.
+- Applying preset setting changes does not reflect at the presets that have already been created within the map if preset name has any uppercase character.
+- The position of Background color is misaligned in the UI of **Condition's Panel**.
+- When you use image as a `<keyref>`, the **Reference Type** of the image is not shown in the **Multimedia report**.
 - When using images as variables in the PDF template, it does not resolves in the output.
-- The **Locate in repository** capability does not work when opening the Guides Editor for the first time, but starts working as expected after refreshing the browser.
 - In **Topic list** reports, sorting by title fails for assets with `<conref>` or `<conkeyref>` in the title, causing these entries to always appear at the top.
 - Switching the folder profile does not immediately reflect changes on the UI without refreshing the browser.
-- The extension framework customizations made prior to Guides 2025.02.x.x, may not function as intended.
+- The extension framework customizations made prior to Guides 5.0.0, may not function as intended.
 - The complete TOC of the map does not update when selectively publishing topics from the map.
 - Publishing a map that contains a Markdown file with internal image references, fails on Windows servers.
 - The bulleted list fails to convert to numbered list in Markdown.
 - Publishing to native AEM site fails when markdown files are referred in a map. 
-- The position of Background color is misaligned in the UI of **Condition's Panel**.
-- When you use image as a `<keyref>`, the **Reference Type** of the image is not shown in the **Multimedia report**.
-- In some cases, the lock functionality for CSS files is not working as expected, allowing other users to edit and save the files even when they are locked by another user.
-- Applying preset setting changes does not reflect at the presets that have already been created within the map if preset name has any uppercase character.
+
+
