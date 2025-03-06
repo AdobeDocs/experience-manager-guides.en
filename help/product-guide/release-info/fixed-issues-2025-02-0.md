@@ -95,3 +95,4 @@ Adobe has identified the following known issues for the 2025.02.0 release:
 - The position of Background color is misaligned in the UI of **Condition's Panel**.
 - When you use image as a `<keyref>`, the **Reference Type** of the image is not shown in the **Multimedia report**.
 - In some cases, the lock functionality for CSS files is not working as expected, allowing other users to edit and save the files even when they are locked by another user.
+- Applying preset setting changes does not reflect at the presets that have already been created within the map if preset name has any uppercase character.
