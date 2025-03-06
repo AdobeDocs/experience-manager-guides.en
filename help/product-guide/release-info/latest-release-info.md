@@ -56,7 +56,7 @@ The following list contains the latest [!DNL AEM Guides] packages available for 
 
 >[!NOTE]
 >
-> The support for Non-UUID build has been deprecated from 5.0.0 release of Experience Manager Guides. If you were using the Non-UUID build prior to version AEM 5.0.0, contact your Customer Success Manager for the required the migration process.
+> The support for Non-UUID build has been deprecated from 5.0.0 release of Experience Manager Guides. If you were using the Non-UUID build prior to version AEM 5.0.0, contact your Customer Success Manager for the required migration process from Non-UUID to UUID build.
 
 | [!DNL AEM Guides] Release  | Release Notes |   Build Download Links |
 |---|---|---|
