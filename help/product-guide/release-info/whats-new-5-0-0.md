@@ -29,13 +29,13 @@ The key highlights are as follows:
  
     Get to [know the Editor features](../user-guide/web-editor-features.md). 
 
-    ![](assets/editor-new-ui-what's-new.png){width="800" align="left"}
+    ![](assets/editor-new-ui-whats-new.png){width="800" align="left"}
 
 - **Dedicated Map console**: Introducing Map console, a dedicated console where all the map management and publishing features are clubbed. Now, you get options to generate output, translate content, create reports, and more - all within one interface. 
  
     Learn more about [map management and publishing](../user-guide/map-console-overview.md). 
 
-    ![](assets/map-console-new-ui-what's-new.png){width="800" align="left"}
+    ![](assets/map-console-new-ui-whats-new.png){width="800" align="left"}
 
 
 
@@ -49,7 +49,7 @@ The integration also provides you with the ability to monitor your work queues, 
 
 For more details, refer to [Workfront integration](../user-guide/workfront-integration.md). 
 
-![](assets/workfront-new-ui-what's-new.png){width="800" align="left"}
+![](assets/workfront-new-ui-whats-new.png){width="800" align="left"}
 
 
 ## Faster and scalable New AEM Sites publishing engine 
