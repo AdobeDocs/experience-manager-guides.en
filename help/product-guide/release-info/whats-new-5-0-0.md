@@ -22,7 +22,7 @@ The key highlights are as follows:
  
     For more details, view [Adobe Experience Manager Guides Home page experience](../user-guide/intro-home-page.md). 
 
-    ![](assets/aem-home-page-what's-new.png){width="800" align="left"}
+    ![](assets/aem-home-page-new.png){width="800" align="left"}
 
 
 - **New Editor experience**: Now, experience the Editor in a new look and feel. The revamped editor interface features a cleaner and more organized toolbar, seamless navigation, and an overall intuitive experience to help author documents faster and more efficiently.  
