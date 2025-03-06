@@ -52,13 +52,11 @@ Please reach out to your customer success manager to validate the upgrade path.
 >
 >Reach out to your Customer Success Manager for access to [!DNL AEM Guides] builds for AEM as a Cloud Service.
 
-The following list contains the latest [!DNL AEM Guides] packages available for installation on AMS or On-Prem, download links of packages, and other helpful information. It is recommended to only use the latest build of [!DNL AEM Guides]. If for some reason, you need access to older builds, please connect with your account's Customer Success Manager.
-
-
+The following list contains the latest [!DNL AEM Guides] packages available for installation on AMS or On-Prem, download links of packages, and other helpful information. Before installing Experience Manager Guides, ensure your system meets the [technical requirements](../install-guide/download-install-technical-requirements.md). Also, it is recommended to only use the latest build of [!DNL AEM Guides]. If for some reason, you need access to older builds, please connect with your account's Customer Success Manager.
 
 >[!NOTE]
 >
->Before installing Experience Manager Guides, ensure your system meets the [technical requirements](../install-guide/download-install-technical-requirements.md).
+> The support for Non-UUID build has been deprecated from 5.0.0 release of Experience Manager Guides. If you were using the Non-UUID build prior to version AEM 5.0.0, contact your Customer Success Manager for the required the migration process.
 
 | [!DNL AEM Guides] Release  | Release Notes |   Build Download Links |
 |---|---|---|
