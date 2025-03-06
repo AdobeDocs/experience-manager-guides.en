@@ -458,6 +458,7 @@ breadcrumb-title: AEM Guides Documentation
     - [AEM Sites output variations](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
     - [Deployment options and migration to Cloud](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
     - [Migrate content from non-uuid to UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
+    - [Delta content migration](./knowledge-base/expert-sessions/migration-delta-content.md)
   - Articles {#kb-articles}
     - Authoring {#authoring}
       - Web Editor {#webeditor}
