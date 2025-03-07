@@ -22,7 +22,7 @@ The key highlights are as follows:
  
     For more details, view [Adobe Experience Manager Guides Home page experience](../user-guide/intro-home-page.md). 
 
-    ![](assets/aem-home-page-new.png){width="800" align="left"}
+    ![](assets/aem-home-page-whats-new.png){width="800" align="left"}
 
 
 - **New Editor experience**: Now, experience the Editor in a new look and feel. The revamped editor interface features a cleaner and more organized toolbar, seamless navigation, and an overall intuitive experience to help author documents faster and more efficiently.  
@@ -49,7 +49,7 @@ The integration also provides you with the ability to monitor your work queues, 
 
 For more details, refer to [Workfront integration](../user-guide/workfront-integration.md). 
 
-![](assets/workfront-new-ui-whats-new.png){width="800" align="left"}
+![](assets/workfront-new.png){width="800" align="left"}
 
 
 ## Faster and scalable New AEM Sites publishing engine 
