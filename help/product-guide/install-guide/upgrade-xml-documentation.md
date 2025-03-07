@@ -1292,7 +1292,7 @@ During this upgrade, since the `'order'` value is changed from 1000 to 50, you n
 
 ## Steps to reindex the damAssetLucene
 
-Index definition is updated for damAssetLucene with Guides. Refer https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460 to reindex the damAssetLucene after upgrading to 5.0.0 version.
+Index definition is updated for damAssetLucene with Guides. Refer to [this article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) for reindexing the damAssetLucene after upgrading to 5.0.0 version.
 
 >[!NOTE]
 >
