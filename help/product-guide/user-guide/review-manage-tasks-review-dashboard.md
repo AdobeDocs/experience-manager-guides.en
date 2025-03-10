@@ -53,7 +53,9 @@ You can perform the following actions under the **Task** tab:
 -   Update the description of the task in the **Description** field.
 -   Modify the **Due Date**. You can prepone or postpone the deadline for the completion of the task.
 -   Select the option to restrict users to review only those topics that are assigned to them.
--   Select **Update** to update the modified details.
+-   Select **Update** to update the modified details. 
+
+    A toast message is displayed to confirm if the update is successful or not.
 -   Select **Complete** to mark the review task as complete before the due date. When an individual topic's task is marked as Complete, the review of the selected topic is closed. However, in case of topics shared for review through a DITA map, marking the DITA map task as Complete will close the review of all topics within the map that were shared for review.
 -   Select **Duplicate** to create a copy of the review task. The process of creating a duplicate review task is similar to creating a new review task. Once you launch the duplicate task workflow, you are shown the Create Review Task page. You need to provide the new task details as explained in [Send topics for review](review-send-topics-for-review.md#).
 
