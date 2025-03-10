@@ -187,7 +187,7 @@ To move files in bulk, perform the following steps:
         If you do not select this option, then the checked out files are moved to the destination folder in the same checked out status. However, there could be some loss of data in this moving process.
     
 
-     -   **Source path\(s\)**: Specify the location of folders that you want to move. 
+    -   **Source path\(s\)**: Specify the location of folders that you want to move. 
         
         - Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the **Select path** dialog. Select the folders you want to move and choose **Select** to complete the process. You can select multiple folders placed at different locations in the path browser. The path of the selected folders will be retained, allowing you to easily review or modify them when you reopen the dialog.
 
