@@ -6,7 +6,7 @@ role: Leader
 ---
 # Upgrade instructions for the 4.6.0 Service Pack 4 release (March 2025)
 
-This article covers the upgrade instructions and the  compatibility matrix for 4.6.0 Service Pack 3 release of Adobe Experience Manager Guides.
+This article covers the upgrade instructions and the  compatibility matrix for 4.6.0 Service Pack 4 release of Adobe Experience Manager Guides.
 
 For the list of issues that have been fixed in this release, view [Fixed issues in the 4.6.0 Service Pack 4 release](fixed-issues-4-6-0-sp4.md).
 
@@ -69,4 +69,4 @@ You can easily upgrade your current version of Guides to 4.6.0 Service Pack 4. B
 >
 >You must install AEM service pack before upgrading Experience Manager Guides version.
 
-The upgrade process for the 4.6.0 Service Pack 3 release follows the same steps as the 4.6.0 release. For detailed instructions, view [Upgrade instructions for the On-premise releases](../install-guide/upgrade-xml-documentation.md) of Experience Manager Guides.
+The upgrade process for the 4.6.0 Service Pack 4 release follows the same steps as the 4.6.0 release. For detailed instructions, view [Upgrade instructions for the On-premise releases](../install-guide/upgrade-xml-documentation.md) of Experience Manager Guides.
