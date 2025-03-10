@@ -15,7 +15,7 @@ Learn about [upgrade instructions for the 4.6.0 Service Pack 4 release](upgrade-
 
 - Dragging and dropping an image within a topic in **Author** view causes the image reference to break, leading to data loss. (25769)
 - Dragging and dropping a `topicref` within a Map in **Author** view fails to perform the intended operation and removes the `topicref` next to the dragged `topicref`. (19460)
-- Failing to close JCR session connections while updating or creating topics resulting in memory leaks and service downtime. (26282)
+- Failing to close JCR session connections while updating or creating topics result in memory leaks and service downtime. (26282)
 
 ## Publishing
 
