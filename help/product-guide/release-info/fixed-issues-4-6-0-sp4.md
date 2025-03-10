@@ -14,11 +14,11 @@ Learn about [upgrade instructions for the 4.6.0 Service Pack 4 release](upgrade-
 ## Authoring
 
 - Dragging and dropping an image within a topic in **Author** view causes the image reference to break, leading to data loss. (25769)
-- Dragging and dropping a `topicref` in Author view fails to perform the intended operation and removes the `topicref` next to the dragged `topicref`. (19460)
-- Failing to close JCR session connections while updating or creating topics caused memory leaks and service downtime. (26282)
+- Dragging and dropping a `topicref` in **Author** view fails to perform the intended operation and removes the `topicref` next to the dragged `topicref`. (19460)
+- Failing to close JCR session connections while updating or creating topics resulting in memory leaks and service downtime. (26282)
 
 ## Publishing
 
-- Publishing the Native PDF continues indefinitely, if the dita content has a weblink without having scope='external'. (26434)
-- When creating a new baseline with a large number of labels, it causes the loader to fail and prevents the labels from being fetched. (16232)
-- For Native PDF and AEM site publishing, the publishing process is not progressing and times out with the timeout information in the logs. (26516)
+- Native PDF publishing continues indefinitely, if the DITA content has a weblink without having scope=`external`. (26434)
+- When creating a new baseline with a large number of labels, it causes the labels loader to fail and prevents the labels from being fetched. (16232)
+- For Native PDF and AEM site publishing, the publishing process does not progress and times out with the timeout information in the logs. (26516)
