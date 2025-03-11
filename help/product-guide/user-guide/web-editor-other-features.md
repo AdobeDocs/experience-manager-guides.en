@@ -242,7 +242,7 @@ Do the following to automatically generate ID for one or multiple elements:
 
 
 
-**Large Files Handling in Editor**
+**Handling large files in the Editor**
 
 The key features aimed at improving the handling of large files are mentioned as follows:
 
