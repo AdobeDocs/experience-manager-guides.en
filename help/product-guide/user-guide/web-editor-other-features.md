@@ -241,4 +241,18 @@ Do the following to automatically generate ID for one or multiple elements:
     Alternatively you can right-click in the breadcrumb and select **Generate IDs**.
 
 
+
+**Large Files Handling in Editor**
+
+The key features aimed at improving the handling of large files are mentioned as follows:
+
+1. Automatic disabling of certain functionalities such as undo, redo, outline panel, and dirty marker to enhance performance.
+1. A toast notification system for large files is displayed as shown in the snippet below. It also highlights the number of elements it contains based on the number added in tag count of the uiconfig.json file. 
+
+![](images/add-toast-notification.png){width="800" align="left"}
+
+
+1. The number of tag count is also displayed on the bottom most bar of the interface as highlighted in the snippet. When you select this tag count value a pop up is displayed mentioning the details. Selecting the **Learn more** tab on it redirects you to JUI framework page.
+1. The toast notification is available only for DITA files and is visible for all the views (Author, Source and Layout). Also the **Save as** and **Save as New Version** is always available for the large files.
+
 **Parent topic:**[Introduction to the Editor](web-editor.md)
