@@ -31,13 +31,13 @@ Learn about [upgrade instructions for the 2025.04.0 release](upgrade-instruction
 - The order of customized filters set in the repository filters is not retained as defined. Additionally, performing an advanced filtering operation on the custom fields results in an application error. (21193)
 - In the Baseline and Translation UI, the document state of the working copy of a topic is displayed for all versions of a topic instead of the selected version. (20674) 
 - Unable to remove the empty lines in a code block element from Author view. (20672)
-- New ids fail to generate for elements defined in snippets or templates, even when the **auto-generate ID** option is enabled in `XMLEditorConfig`. (21734)
+- New ids fail to generate for elements defined in snippets or templates, even when the **auto generate ID** option is enabled in `XMLEditorConfig`. (21734)
 - Creating a new dita asset from dita templates copies the replication properties from corresponding dita templates. (21193) 
 
 
 ## Publishing
 
- - Unable to embed video links in Native pdf even when the 'Embed Multimedia Files' option is enabled in the PDF preset. (9989)
+ - Unable to embed video links in Native pdf even when the **Embed Multimedia Files** option is enabled in the PDF preset. (9989)
 
 ## Review
 
