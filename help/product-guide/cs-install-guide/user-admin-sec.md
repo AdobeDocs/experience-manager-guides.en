@@ -19,7 +19,7 @@ The following topics in AEM documentation will help you understand the user admi
 
 ## User groups created by AEM Guides {#id181TF0K0MHT}
 
-AEM Guides provides three out-of-the-box groups to manage different tasks in a DITA project. These groups are: *Authors*, *Reviewers*, and *Publishers*. Depending upon the group a user is associated with, they are allowed to perform specific tasks. For example, publishing task can be performed only by a publisher, but not by an author or a reviewer. Similarly, an author can create a new topic, and a reviewer can only review a topic.
+AEM Guides provides three out-of-the-box groups. These groups are: *Authors*, *Reviewers*, and *Publishers*. Depending upon the group a user is associated with, they are allowed to perform specific tasks. For example, publishing task can be performed only by a publisher, but not by an author or a reviewer. Similarly, an author can create a new topic, and a reviewer can only review a topic.
 
 >[!TIP]
 >
