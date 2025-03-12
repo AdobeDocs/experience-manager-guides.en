@@ -246,7 +246,7 @@ Do the following to automatically generate ID for one or multiple elements:
 
 The key features aimed at improving the handling of large files are mentioned as follows:
 
-- To enhance performance, certain functionalities like undo, redo, the outline panel, and the dirty marker are disabled. It is recommended to break topics into smaller sections to improve functionality.
+- To enhance performance, certain functionalities like undo, redo, the outline panel, and the dirty marker are disabled. It is recommended to break topics into smaller topics for optimal experience.
 
 - An alert message is displayed at the top for large files, as shown in the snippet below. This alert highlights the number of elements based on the value specified in the **largeFileTagCount** parameter of the uiconfig.json file. By default, **largeFileTagCount** is set to 2500.
 
