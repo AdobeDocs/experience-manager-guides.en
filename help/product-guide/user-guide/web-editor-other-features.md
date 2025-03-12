@@ -250,12 +250,12 @@ The key features aimed at improving the handling of large files are mentioned as
 
 - An alert message is displayed at the top for large files as shown in the snippet below. It highlights the number of elements based on the number specified in the **largeFileTagCount** of the uiconfig.json file. The default value of **largeFileTagCount** is 2500.
 
-![](images/add-toast-notification.png){width="800" align="left"}
+![](images/add-toast-notification.png){width="600" align="left"}
 
 
 - The tag count is also displayed on the bottom bar of the interface, as shown in the snippet below. When you select this tag count value, a tool tip appears. Selecting the **Learn more** tab provides you with the details about handling large files.
 
-![](images/add-toast-tag-count.png){width="800" align="left"}
+![](images/add-toast-tag-count.png){width="600" align="left"}
 
 
 - The alert message is available only for DITA files and is visible across all views Author, Source, and Layout.
