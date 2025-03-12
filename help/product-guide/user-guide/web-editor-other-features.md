@@ -248,16 +248,16 @@ The key features aimed at improving the handling of large files are mentioned as
 
 - To enhance performance, certain functionalities like undo, redo, the outline panel, and the dirty marker are disabled. It is recommended to break topics into smaller sections to improve functionality.
 
-- An alert message is displayed at the top for large files as shown in the snippet below. It highlights the number of elements based on the number specified in the **largeFileTagCount** of the uiconfig.json file. The default value of **largeFileTagCount** is 2500.
+- An alert message is displayed at the top for large files, as shown in the snippet below. This alert highlights the number of elements based on the value specified in the **largeFileTagCount** parameter of the uiconfig.json file. By default, **largeFileTagCount** is set to 2500.
 
 ![](images/add-toast-notification.png){width="600" align="left"}
 
 
-- The tag count is also displayed on the bottom bar of the interface, as shown in the snippet below. When you select this tag count value, a tool tip appears. Selecting the **Learn more** tab provides you with the details about handling large files.
+- Additionally, the tag count is displayed on the bottom bar of the interface. When you hover over this tag count value, a tooltip appears. Selecting the **Learn more** tab provides details about handling large files.
 
 ![](images/add-toast-tag-count.png){width="600" align="left"}
 
 
-- The alert message is available only for DITA files and is visible across all views Author, Source, and Layout.
+- The alert message is available only for DITA files and is visible across all views: Author, Source, and Layout.
 
 **Parent topic:**[Introduction to the Editor](web-editor.md)
