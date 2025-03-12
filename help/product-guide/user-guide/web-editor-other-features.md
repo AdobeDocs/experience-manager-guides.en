@@ -246,18 +246,18 @@ Do the following to automatically generate ID for one or multiple elements:
 
 The key features aimed at improving the handling of large files are mentioned as follows:
 
-- Certain functionalities such as undo, redo, outline panel, and dirty marker are disabled to enhance performance.
+- To enhance performance, certain functionalities like undo, redo, the outline panel, and the dirty marker are disabled. It is recommended to break topics into smaller sections to improve functionality.
 
-- A toast notification system for large files is displayed as shown in the snippet below. It also highlights the number of elements based on the tag count specified in the uiconfig.json file. 
+- An alert message is displayed at the top for large files as shown in the snippet below. It highlights the number of elements based on the number specified in the **largeFileTagCount** of the uiconfig.json file. The default value of **largeFileTagCount** is 2500.
 
 ![](images/add-toast-notification.png){width="800" align="left"}
 
 
-- The tag count is also displayed on the bottom bar of the interface, as highlighted in the snippet. When you select this tag count value, a pop-up appears showing the details. Selecting the **Learn more** tab on it redirects you to [Jui Framework](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/aem-guides-framework/jui-framework).
+- The tag count is also displayed on the bottom bar of the interface, as shown in the snippet below. When you select this tag count value, a tool tip appears. Selecting the **Learn more** tab provides you with the details about handling large files.
 
 ![](images/add-toast-tag-count.png){width="800" align="left"}
 
 
-- The toast notification is available only for DITA files and is visible across all views (Author, Source, and Layout). Additionally, the **Save as** and **Save as New Version** options are always accessible for large files.
+- The alert message is available only for DITA files and is visible across all views Author, Source, and Layout.
 
 **Parent topic:**[Introduction to the Editor](web-editor.md)
