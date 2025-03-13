@@ -25,15 +25,13 @@ Perform the following steps to download a DITA map file along with its dependent
 
     The Download Map dialog appears.
 
-    ![](images/download-map-new.png){width="300" align="left"}
+    ![](images/download-map.png){width="300" align="left"}
 
 1.  Select **Download**. In the Download Map dialog, you can choose the following options:
 
     -   **Use Baseline**: Select this option to get a list of Baselines created for the DITA map. If you want to download the map file and its contents based on a specific Baseline, select the Baseline from the drop-down list. For more details about working with Baselines, view [Work with Baseline](generate-output-use-baseline-for-publishing.md#).
     
-    -   **Flatten File Hierarchy**: Select this option to save all referenced topics and media files in a single folder. Selecting this option, disables the **Use filename** option and downloads the map files using GUIDs only.
-
-    -   **Use filename**: Select this option to download the DITA map files with the actual name of the file as present in the map. 
+    -   **Flatten File Hierarchy**: Select this option to save all referenced topics and media files in a single folder.     
 
 
     >[!NOTE]
