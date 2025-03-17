@@ -12,7 +12,7 @@ By default, the Web Editor is shipped with the most common editorial features re
 
 >[!NOTE]
 >
-> When migrating from the old UI to the new AEM Guides UI (applicable from 2502 and 5.0 release of AEM Guides), updates to `ui_config` must be converted to more flexible and modular UI configurations. This framework helps adopt changes seamlessly into the editor_toolbar and other toolbars. For details, view [Overview of Convert UI Config](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> When migrating from the old UI to the new AEM Guides UI (applicable from 2502 and 5.0 release of AEM Guides), updates to `ui_config` must be converted to more flexible and modular UI configurations. This framework helps adopt changes seamlessly into the editor_toolbar and other target widget as applicable. For details, view [Overview of Convert UI Config](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 There are two ways of customizing the Web Editor's toolbar:
 
