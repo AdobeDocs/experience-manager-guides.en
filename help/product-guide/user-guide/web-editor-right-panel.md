@@ -28,6 +28,10 @@ You can access the **Content properties** feature by selecting the **Content pro
 
 **Attributes**: The **Attributes** dropdown panel is available in Layout, Author, and Source views. You can easily add, edit, or delete the attributes.
 
+<details>
+    <summary> Steps to add attributes </summary>
+
+
 1. Select **Add**. 
 
     ![attrubutes in content properties](images/properties-tab-attributes_cs.png){width="300" align="left"}
@@ -40,12 +44,16 @@ You can access the **Content properties** feature by selecting the **Content pro
 
 1. To delete the attribute, hover over it and select **Delete** ![delete-icon](images/Delete_icon.svg). 
 
+</details>
+
 
 >[!NOTE]
 >
 > Even if your topic contains referenced content, you can add attributes on it using the properties panel.
 
 If your administrator has created a profile for attributes, then you will get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. This way you can also create conditional content, which can then be used to create conditional output. For more information about generating output using conditional presets, view [Use condition presets](generate-output-use-condition-presets.md#).
+
+
 
 ## File properties
 
