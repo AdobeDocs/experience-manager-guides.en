@@ -542,17 +542,13 @@ Using the configuration file in this section, you can create some default snippe
 
 The following details are required to create a snippet:
 
-snippetID
-:   A unique ID for the snippet. It can take an alphanumeric value.
+**snippetID** - A unique ID for the snippet. It can take an alphanumeric value.
 
-name
-:   A descriptive name to identify the snippet. This name shows up in the Snippets panel.
+**name** - A descriptive name to identify the snippet. This name shows up in the Snippets panel.
 
-description
-:   Add a descriptive information for the snippet.
+**description** - Add a descriptive information for the snippet.
 
-value
-:   Provide the XML code of the snippet.
+**value** - Provide the XML code of the snippet.
 
 >[!NOTE]
 >
