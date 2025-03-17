@@ -48,8 +48,11 @@ The **Version history** feature in the Editor allows you to check the available 
 >
 > The Version history options only appear if there are changes made to the first version of the topic or map. 
 
-To access the version history and revert to a specific version of your topic, perform the following steps:
 
+<details>
+    <summary> Steps to access the version history </summary>
+
+ 
 1. Open a topic in the Editor.
 1. Select **Version history** from the **Menu** dropdown.
 
@@ -99,6 +102,9 @@ To access the version history and revert to a specific version of your topic, pe
     When you revert to an earlier version, a visual cue is shown indicating that the version you are currently working on is not the latest version.
 
     ![](images/older-version-visual-cue.png){width="800" align="left"}
+
+ </details>
+
 
 **Version labels**
 
