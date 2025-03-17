@@ -55,6 +55,10 @@ By default, you can view the files by titles. As you hover over a file, you can 
 >
 > As an administrator, you can also choose to view the list of files by filenames in the Editor. Select the **File name** option of the **Editor files display configuration** section in **User preferences**. 
 
+<details>
+    <summary> Create a new collection </summary>
+
+
 To create a new collection, Select the + icon next to Collections panel to bring up the **New collection** dialog box:
 
 ![](images/favorite-new-collection.PNG){width="300" align="left"}
@@ -64,6 +68,12 @@ Enter a title and description for the collection that you want to create. If you
 >[!NOTE]
 >
 > You can also create a collection from the Experience Manager Guides Home page. Open the home page, navigate to the **Collections** widget in the [Overview section](./intro-home-page.md#overview), and select **New collection**.  
+
+</details>
+
+<details>
+    <summary> Add a file to collections </summary>
+
 
 To add a file to collections, use any of the following methods:
 
@@ -80,6 +90,8 @@ To add a file to collections, use any of the following methods:
 >
 > - To remove an item from the favorites list, select the Options icon next to the item in a Favorites collection and choose **Remove from collections**.
 > - To preview the file without opening it, select a file and then select **Preview** from the Options menu. 
+
+</details>
 
 **Options menu for a collection**  
 
@@ -187,7 +199,10 @@ You can perform the following actions using the Options menu available for a *fo
 
 - **New**: Create a new DITA topic, DITA map, or a folder. 
 
-   Steps to create a new topic:
+<details>
+    <summary> Steps to create a new topic </summary>
+
+Steps to create a new topic:
    1. Select **New** > **Topic**.
    2. The **New topic** dialog box is displayed.
     
@@ -202,7 +217,13 @@ You can perform the following actions using the Options menu available for a *fo
     
     4. Select **Create**. The topic is created at the specified path. Also, the topic is opened in the Editor for editing.
 
-    Steps to create a new DITA map:
+</details>
+
+<details>
+<summary> Steps to create a new DITA map </summary>
+
+
+Steps to create a new DITA map:
 
    1. Select **New** > **DITA map**.
    2. The **New map** dialog box is displayed.
@@ -215,8 +236,12 @@ You can perform the following actions using the Options menu available for a *fo
         - A template on which the map will be based. For example, for an out-of-the-box setup, you can choose from the Bookmap or DITA map templates.
         - Path where you want to save the map file. By default, the path of currently selected folder in the repository is shown in the Path field.
    4. Select **Create**. The map is created and added within the folder specified in the Path field. Also, the map is opened in the Map view. You can open the map file in the Map Editor and add topic to it. For more information about adding topics to a map file, view [Create a map](map-editor-create-map.md#). Alternatively, select **Open in map console** to open the map in Map console.
+</details>
 
-    Steps to create a new folder:
+<details>
+<summary> Steps to create a new folder </summary>
+
+Steps to create a new folder:
 
    1. Select **New** > **Folder**.
    2. The **New folder** dialog box is displayed.
@@ -227,6 +252,8 @@ You can perform the following actions using the Options menu available for a *fo
         - A Title for the folder, which is auto-converted into the folder name.
         - Path where you want to save the folder. By default, the path of currently selected folder in the repository is shown in the Path field. 
    4. Select **Create**. The folder is created and added within the folder from where the create folder option was executed.
+
+   </details>
 
 - **Upload Assets**: Upload a file from your local system to the selected folder in Adobe Experience Manager repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
 
@@ -619,12 +646,16 @@ Experience Manager Guides allows you to easily create and use the glossary type 
 
 To insert a term from the glossary, simply drag-and-drop the entry from the panel to the desired location in your topic. The Options menu of a glossary term allows you to get a quick **Preview** of the entry term, **Copy path** of the entry term file, or locate the entry term file in the repository.
 
+<details>
+    <summary> Steps to search and replace text in glossary abbreviations </summary>
+
 Perform the following steps to search text terms and replace them with glossary abbreviations:
 
 1. Open the DITA topic or map in which you wish to search and convert the text or terms.
 1. Select the glossary panel to view the glossary terms present in the root map. You can drag-and-drop these terms to add them to the open topic.
 1. Select the **Hotspot** tool \( ![](images/hotspot-icon.svg)\) in the Glossary panel to search and convert specific text terms to linked glossary abbreviations. Also, vice versa you can use it to search glossary abbreviations and convert them to text terms.
 
+</details>
     
 
 You can configure the following settings of the Hotspot tool:
@@ -706,6 +737,8 @@ You can easily create and then use the subject scheme in a subject scheme map. O
 
 Experience Manager Guides also supports nested level subject scheme maps, and you can have multiple subject schemes defined under the root subject scheme map.
 
+<details>
+    <summary> How to use subject scheme in Experience Manager Guides </summary>
 The following example shows how to use subject scheme in Experience Manager Guides.
 
 1. Create a subject scheme file in a tool of your choice. The following XML code creates subject scheme that binds values for the `platform` attribute.
@@ -756,11 +789,10 @@ The following example shows how to use subject scheme in Experience Manager Guid
 
 1. In the Editor, open the file where you want to use the subject scheme definitions.
 1. Apply the subject scheme to your content by simply dragging and dropping the desired subject scheme onto your content. The content is then highlighted in the defined color.
-
+</details>
     
-    
-
-**Handling hierarchical definitions of subject definitions and enumerations**
+<details>
+    <summary> Handling hierarchical definitions of subject definitions and enumerations </summary>
 
   Besides handling the enumerations and the subject definitions present in the same map, Experience Manager Guides also provides the feature to define enumerations and subject definitions in two separate maps. You can define one or more subject definitions in a map and the enumeration definitions in another map and then add the map reference. For example, the following XML code creates subject definitions and enumeration definitions in two separate maps. 
 
@@ -843,7 +875,11 @@ The subject-enumeration references are resolved in the following order of priori
  
 The references are not resolved if the enumeration is not found in the same map and the referenced map. 
 
-**Restrict the values to a specific element**
+</details>  
+
+<details>
+    <summary> Restrict the values to a specific element </summary>
+
 
 You can also restrict the conditions to some elements within a topic. Use the `<elementdef>` tag to define the element and the `<attributedef>` tag to define the condition that can be applied to the element.  If you don't add the `<elementdef>` tag, you can apply the conditions to all elements. 
 For example, use the following enumeration to restrict the `@platform` attribute to the `<shortdesc>` element.  The other conditions are visible for all elements.
@@ -974,6 +1010,10 @@ By default, you can view the files by titles. As you hover over a file, you can 
 >
 > As an administrator, you can also choose to view the list of filenames in the Editor. Select the **File name** option of the **Editor files display configuration** section in **User preferences**.
 
+<details>
+    <summary> Perform the global search and replace </summary>
+
+
 To perform the global search and replace, perform the following steps:
 
 1. Open the global **Find and replace** panel.
@@ -1020,6 +1060,8 @@ You can also use the **Find in map** option from the **Options** menu of a map t
 
 ![](images/map-options-menu.png){width="550" align="left"}
 
+</details>
+
 ## PDF templates
 
 Enables you to work with various PDF templates. For details, view [PDF templates](../native-pdf/pdf-template.md). 
@@ -1035,6 +1077,10 @@ The review panel displays the review tasks. By default, you can view the files b
 > As an administrator, you can also choose to view the list of files by filenames in the Editor. Select the **File name** option of the **Editor files display configuration** section in **User preferences**.
 
 As an author, you can address the comments in a topic using the Editor. 
+
+<details>
+    <summary> Steps to review comments </summary>
+
 
 To view the review comments in the active review tasks that are present in your projects, perform the following steps:
 
@@ -1068,6 +1114,6 @@ To view the review comments in the active review tasks that are present in your 
    >Additionally, for a closed review task you can view the review comments in the Comments panel on the right but the **Import Comments** and **Revert Version** buttons are disabled. 
    >For more information about how to address the comments, view [Address review comments](review-address-review-comments.md#).
  
-
+</details>
 
 **Parent topic:**[Introduction to the Editor](web-editor.md)

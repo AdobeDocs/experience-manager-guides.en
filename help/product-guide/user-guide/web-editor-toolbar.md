@@ -116,7 +116,8 @@ These labels are shown in the form of a drop-down list to authors wherever they 
 
 There are different methods through which you can apply labels to your topics - [Version history](web-editor-use-label.md) panel in Assets UI, [Baselines](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) UI, and the Editor. The Version Label feature in the Editor gives authors a quick and easy way to assign labels to their topics.
 
-To add labels to your topic from the Editor, perform the following steps:
+<details>
+    <summary> Steps to add labels to your topic from the Editor </summary>
 
 1. Open a topic in the Editor.
 
@@ -148,67 +149,72 @@ To add labels to your topic from the Editor, perform the following steps:
 
 1. In the Apply Label confirmation message, select the **Move label(If used on another version)** option to move labels from an existing version to the selected version. If you do not select this option and there are labels that are assigned to a different version of the topic, then they are not moved to the selected topic's version. Such labels are ignored in the label application process.
 
+</details>
+
 **Merge**
 
 When you work in a multi-author environment, it becomes difficult to track what changes the other authors have made in a topic or map. The Merge feature gives you more control over not only viewing the changes, but also what changes are retained in the latest version of the document.
 
-- **Merge topic files**
+<details>
+    <summary> Merge topic files </summary>
 
-  To merge changes in a topic, perform the following steps:
+To merge changes in a topic, perform the following steps:
 
-    1. Open a topic in the Editor.
+1. Open a topic in the Editor.
 
-    1. Select **Merge**.
+1. Select **Merge**.
 
-       The Merge dialog appears.
+    The Merge dialog appears.
 
-        ![](images/merge-changes-in-topic.png){width="550" align="left"}
+    ![](images/merge-changes-in-topic.png){width="550" align="left"}
 
-    1. *\(Optional\)* You can also browse and select a new file from some other location in your repository.
+1. *\(Optional\)* You can also browse and select a new file from some other location in your repository.
 
-    1. Select a version of the file with which you want to compare the current version of the file.
+1. Select a version of the file with which you want to compare the current version of the file.
 
-    1. From the Options, choose:
+1. From the Options, choose:
 
-        - **Track changes from selected version**: This option shows all content updates in the form of tracked changes. You can then choose to accept or reject changes in the document one at a time or all in one go.
+    - **Track changes from selected version**: This option shows all content updates in the form of tracked changes. You can then choose to accept or reject changes in the document one at a time or all in one go.
 
-        - **Revert to selected version**: This option reverts the current version of the document to the selected version. This option does not give you any control on what content is accepted or rejected.
+    - **Revert to selected version**: This option reverts the current version of the document to the selected version. This option does not give you any control on what content is accepted or rejected.
 
-    1. Select **Done**.
+1. Select **Done**.
 
-    1. If you selected the **Track changes from selected version** option, then all changes from the selected version are shown in the Tracked changes feature of the right panel.
+1. If you selected the **Track changes from selected version** option, then all changes from the selected version are shown in the Tracked changes feature of the right panel.
 
-       You can choose to accept or reject all comments from the Tracked changes panel or accept or reject individual comment.
+    You can choose to accept or reject all comments from the Tracked changes panel or accept or reject individual comment.
+</details>
 
+<details>
+    <summary> Merge map files </summary>
 
- - **Merge map files**
+To merge changes in a map file, perform the following steps:
 
-    To merge changes in a map file, perform the following steps:
+1. Open a map in the Editor.
 
-    1. Open a map in the Editor.
+1. Select **Merge**.
 
-    1. Select **Merge**.
+    The Merge dialog box appears.
 
-       The Merge dialog box appears.
+    ![](images/merge-changes-in-map.png){width="550" align="left"}
 
-        ![](images/merge-changes-in-map.png){width="550" align="left"}
+1. *\(Optional\)* You can also browse and select a new file from some other location in your repository.
 
-    1. *\(Optional\)* You can also browse and select a new file from some other location in your repository.
+1. Select a version of the file with which you want to compare the current version of the file.
 
-    1. Select a version of the file with which you want to compare the current version of the file.
+1. From the Options, choose:
 
-    1. From the Options, choose:
+    - **Track changes from selected version**: This option shows all content updates in the form of track changes. You can then choose to accept or reject changes in the document one at a time or all in one go.
 
-        - **Track changes from selected version**: This option shows all content updates in the form of track changes. You can then choose to accept or reject changes in the document one at a time or all in one go.
+    - **Revert to selected version**: This option reverts the current version of the document to the selected version. This option does not give you any control on what content is accepted or rejected.
 
-        - **Revert to selected version**: This option reverts the current version of the document to the selected version. This option does not give you any control on what content is accepted or rejected.
+1. Select **Done**.
 
-    1. Select **Done**.
+1. If you selected the **Track changes from selected version** option, then all changes from the selected version are shown in the Tracked changes panel \(on the right\).
 
-    1. If you selected the **Track changes from selected version** option, then all changes from the selected version are shown in the Tracked changes panel \(on the right\).
+    You can choose to accept or reject all changes from the Tracked Changes panel or accept or reject individual change in the map file.
 
-        You can choose to accept or reject all changes from the Tracked Changes panel or accept or reject individual change in the map file.
-
+</details>
 
 **Create review task** 
 
@@ -344,6 +350,8 @@ Using the table's context menu, you can:
 
 - Generate IDs
 
+<details>
+    <summary> Define attributes on multiple cells, entire row, or column of a table </summary>
 
 You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel (on the right), the property **Type** changes to **entry**.
 
@@ -353,6 +361,8 @@ You can also define attributes on multiple cells, entire row, or column of a tab
 1. Select **Add.**
 
 ![](images/align-table-cell_cs.png){width="800" align="left"}
+
+</details>
 
 **Image** - ![](images/Image_icon.svg)
 
