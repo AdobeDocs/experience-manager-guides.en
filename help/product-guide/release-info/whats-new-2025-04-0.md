@@ -2,7 +2,6 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 2025.04.0 release
 description: Learn about the new and enhanced features in the 2025.04.0 release of Adobe Experience Manager Guides
 role: Leader
-exl-id: 3e3177e8-cd29-4a86-b786-7c7a1d0047d9
 ---
 # What's new in the 2025.04.0 release (April 2025)
 
@@ -25,4 +24,10 @@ Additionally, the tag count is shown on the bottom bar, with a tooltip appearing
 
 The Export Baseline feature has been enhanced to allow you to export a snapshot of the baseline in a Microsoft Excel file. This snapshot now includes the document state along with key details such as the title, file name, file type, version number. By incorporating the **document state** metadata, this feature offers a comprehensive view of document statuses, enhancing tracking and management within your workflow.
 
-## Reusable panel enhancement
+## Enhanced Search experience for Reusable panel
+
+Experience Manager Guides introduces an enhanced search experience in the Reusable Panel. With this update, searching for any keyword now scans all containers, not just the open ones, ensuring you find the exact position of the keyword across all occurrences, whether the containers are open or collapsed. Additionally, when you clear the search bar, the original state of all containers is retained, providing a more efficient and user-friendly search functionality.
+
+## DITA OT version update for microservice containers
+
+For microservice-enabled cloud environments, we will transition to using Java 21, ensuring that the existing DITA-OT and native PDF generation processes remain unaffected. The existing workflow of DITA-OT 3 with the current Java 11 version will continue to function seamlessly with Java 21.  Additionally, DITA-OT 4  will be fully operational, allowing users to generate PDFs using DITA-OT and native PDF, as well as produce outputs for native AEM sites and other formats.
