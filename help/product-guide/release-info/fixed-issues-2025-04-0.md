@@ -11,33 +11,30 @@ For more information about the new features and enhancements, view [What's new i
 
 Learn about [upgrade instructions for the 2025.04.0 release](upgrade-instructions-2025-04-0.md).
 
-
-## Publishing
-
-- In the legacy AEM Sites output, section links within nested topics of a map do not resolve correctly when manually set in Source mode. Instead of navigating to the intended section, they redirect to the main topic that contains the nested topic. (26103)
-- Inconsistent error logging for HTML5 output generation failures in different environments, despite using the same Experience Manager Guides version. (25969) 
-
-## Editor 
-
-- Unable to access file properties from the repository panel if the parent folder name includes "&" character. (25762)
-- Options to save changes and save as a new version work for even locked files in the Editor. (23875)
-
 ## Authoring
-
 
 - Special character insertion box in the Editor fails to load for German locale. (24537) 
 - Comments and labels added while saving a new version of a DITAVAL file are not getting saved in the Version History with the new version. (24076)
-- When working with a map that contains a large number of references, the right panel in the Editor does not refresh while switching between the referenced files. (23344)
-- The order of customized filters set in the repository filters is not retained as defined. Additionally, performing an advanced filtering operation on the custom fields results in an application error. (21193)
-- In the Baseline and Translation UI, the document state of the working copy of a topic is displayed for all versions of a topic instead of the selected version. (20674) 
-- Unable to remove the empty lines in a code block element from Author view. (20672)
-- New ids fail to generate for elements defined in snippets or templates, even when the **auto generate ID** option is enabled in `XMLEditorConfig`. (21734)
-- Creating a new dita asset from dita templates copies the replication properties from corresponding dita templates. (21193) 
-
+- When working with a map that contains a large number of references, the right panel in the Editor does not refresh and displays incorrect referenced while switching between the map files. (23344)
+- The outgoing and incoming references in the Right panel do not refresh properly when switching between map files. This issue occurs specifically when the map files contain a large number of references.
+- The Repository filter does not retain the order of custom filters defined in the `ui_config.json`. (21193)
+- Deleting multiple lines of text in a `codeblock` element creates an empty space which can not be removed from Author view. (20672)
+- New ids fail to generate for elements when such elements are added via snippets or created via templates, even when the **auto generate ID** option is enabled in `XMLEditorConfig`. (21734)
+- Creating a new dita asset from dita templates copies the replication properties from corresponding dita templates. (25145) 
+- Unable to access file properties from the repository panel if the parent folder name includes "&" character. (25762)
+- The topics are saved as a new version without locking the file even when **Ask for new version on close** option is enabled in `XMLEditorConfig`(23875)
 
 ## Publishing
 
- - Unable to embed video links in Native pdf even when the **Embed Multimedia Files** option is enabled in the PDF preset. (9989)
+- In the legacy AEM Sites output, section links within nested topics of a map do not resolve correctly when manually set in Source mode or the content is imported from an external source. Instead of navigating to the intended section, they redirect to the main topic that contains the nested topic. (26103)
+- If the `scope=external` attribute is missing from external links in a DITA topic, HTML5 publishing fails without indicating the files where this attribute is missing in the error logs, especially when the microservice is enabled. (25969) 
+- Unable to embed video links in Native pdf even when the **Embed Multimedia Files** option is enabled in the PDF preset. (9989)
+- Unable to pass the metadata properties to map landing pages generated using new AEM Sites publishing. (27288) 
+
+## Management 
+
+- Document state from the working copy of a topic is displayed against all the versions of that topic in the Translation and Baseline UI. (20674) 
+
 
 ## Review
 
