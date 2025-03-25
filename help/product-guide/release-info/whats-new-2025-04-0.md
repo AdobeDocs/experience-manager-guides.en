@@ -7,6 +7,10 @@ role: Leader
 
 This article covers the new and enhanced features introduced with the 2025.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
+For the list of issues fixed in this release, view [Fixed issues in the 2025.04.0 release](fixed-issues-2025-04-0.md).
+
+Learn about [upgrade instructions for the 2025.04.0  release](../release-info/upgrade-instructions-2025-04-0.md).
+
 ## New 'Format' attribute introduced for external web links
 
 Adobe Experience Manager Guides now features a **format** attribute for files linked to external web pages using DITA within the editor. This attribute will be displayed in the **Source view** and will clearly indicate the file type, such as:
