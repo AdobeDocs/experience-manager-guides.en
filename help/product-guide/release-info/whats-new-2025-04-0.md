@@ -20,7 +20,7 @@ Additionally, the tag count is shown on the bottom bar, with a tooltip appearing
 
 For more details, view [Handling large files in the Editor](../user-guide/web-editor-other-features.md). 
 
-![](assets/add-toast-tag-count.png){width="300" align="left"}
+![](assets/add-toast-tag-count.png){width="600" align="left"}
 
 ## Exported Baseline now includes Document state
 
