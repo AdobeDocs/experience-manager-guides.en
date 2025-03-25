@@ -2,7 +2,7 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 5.0.0 release
 description: Learn about the new and enhanced features in the 5.0.0 release of Adobe Experience Manager Guides
 role: Leader
-
+exl-id: 523667d9-fed4-4798-9554-2a27033c8027
 ---
 # What's new in the 5.0.0 release (March 2025)
 

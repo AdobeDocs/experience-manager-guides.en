@@ -122,7 +122,7 @@ For details, refer to [Configure Smart Suggestions in Folder Profile](./conf-fol
 
 ```
 {
- "service.account.details": "$[secret:SERVICE_ACCOUNT_DETAILS]",
+ "service.account.details": "$[secret:SERVICE_ACCOUNT_DETAILS]"
 }
 
 ```
