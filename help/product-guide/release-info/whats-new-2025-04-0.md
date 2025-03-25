@@ -9,10 +9,16 @@ This article covers the new and enhanced features introduced with the 2025.04.0 
 
 ## New 'Format' attribute introduced for external web links
 
-Adobe Experience Manager Guides now features a **format** attribute for files linked to external web pages using DITA within the editor. This attribute will be displayed in the source view and will clearly indicate the file type, such as for files with a **.pdf** extension, the format will be set to **.pdf**. Similarly, files with a **.html** extension will have their format set to **html** and for **.dita** or **.ditamap** files their format set to **dita**. Additionally, files with a **.xml** extension will also have their format set to **dita**. For files without any extension, the format will be left blank. Furthermore, for any cross-references (xrefs) with a scope set to **external**, the format will be set to **html** regardless of the file extension in the xref.
+Adobe Experience Manager Guides now features a **format** attribute for files linked to external web pages using DITA within the editor. This attribute will be displayed in the **Source view** and will clearly indicate the file type, such as:
+
+- For files with a **.pdf** extension, the format will be set to **pdf**
+- For files with a **.html** extension, the format will be set to **html**
+- For files with a **.dita** or **.ditamap** files, the format will be set to **dita**
+
+Additionally, files with a **.xml** extension will also have their format set to **dita**. For files without any extension, the format will be left blank. Furthermore, for any reference links  with a scope set to **external**, the format will be set to **html** regardless of the file extension in the reference links.
 
 
-## Handling large files in the Editor for enhanced productivity 
+## Improved handling of large files in the Editor 
 
 Experience Manager Guides has introduced several key features to improve the handling of large files. To enhance performance, functionalities such as undo, redo, outline panel, and the dirty marker are disabled for large files. An alert message is displayed at the top of the interface for large files as shown in the snippet below, indicating the number of elements based on the **largeFileTagCount** parameter in the **uiconfig.json** file. 
 
