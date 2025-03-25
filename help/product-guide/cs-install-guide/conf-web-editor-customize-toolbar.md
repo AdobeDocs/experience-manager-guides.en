@@ -10,6 +10,10 @@ level: Experienced
 
 By default, the Web Editor is shipped with the most common editorial features required by any DITA editor. Features such as inserting elements of type list \(numbered or bulleted\), cross-reference, content reference, table, paragraph, and character formatting are available in the editor. In addition to these basic elements, you can customize the Web Editor to insert elements that are used in your authoring environment.
 
+>[!NOTE]
+>
+> When migrating from the old UI to the new AEM Guides UI (applicable from 2502 and 5.0 release of AEM Guides), updates to `ui_config` must be converted to more flexible and modular UI configurations. This framework helps adopt changes seamlessly into the editor_toolbar and other target widget as applicable. For details, view [Overview of Convert UI Config](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+
 There are two ways of customizing the Web Editor's toolbar:
 
 -   Add a new functionality to the toolbar

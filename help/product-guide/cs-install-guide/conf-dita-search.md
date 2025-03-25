@@ -126,8 +126,7 @@ In the rule set section, you can specify:
 
 A rule consists of the following:
 
-xpath
-:   This is the XPath query that retrieves the elements or attributes from DITA files. The default configuration for the element rule retrieves all `prolog` elements. And, the default configuration for the attribute rule retrieves all attributes of `prolog` elements. You can specify an XPath query to serialize the elements or attributes that you want to search for.
+**xpath** - This is the XPath query that retrieves the elements or attributes from DITA files. The default configuration for the element rule retrieves all `prolog` elements. And, the default configuration for the attribute rule retrieves all attributes of `prolog` elements. You can specify an XPath query to serialize the elements or attributes that you want to search for.
 
 The XPath query contains the class name of the document type. The `topic/topic` class is used for topic type DITA documents. If you want to create a rule for other DITA documents, then you must use the following class names:
 
@@ -139,19 +138,15 @@ The XPath query contains the class name of the document type. The `topic/topic` 
 |Reference|- topic/topic reference/reference|
 |Map|- map/map|
 
-text
-:   If you want to search for the text within the specified element, then specify the yes value. If you specify no as value, then only the attributes within the element are serialized. The attributes that you want to search for need to be specified in the attribute set section.
+**text** - If you want to search for the text within the specified element, then specify the yes value. If you specify no as value, then only the attributes within the element are serialized. The attributes that you want to search for need to be specified in the attribute set section.
 
-attributeset
-:   Specify the ID of the attribute set that you want to associate with this rule. The value all-attrs is a special case to indicate that all attributes for this rule must be serialized.
+**attributeset** - Specify the ID of the attribute set that you want to associate with this rule. The value all-attrs is a special case to indicate that all attributes for this rule must be serialized.
 
 An attribute set contains a list of attributes that you want to search for within DITA content. The attribute set contains the following:
 
-id
-:   A unique identifier for the attribute set. This id is specified in the attributeset parameter of a rule set.
+**id** - A unique identifier for the attribute set. This id is specified in the attributeset parameter of a rule set.
 
-attribute
-:   A list of attributes that you want to search. For each attribute, you need to create an individual entry in the `attribute` element.
+**attribute** - A list of attributes that you want to search. For each attribute, you need to create an individual entry in the `attribute` element.
 
 Perform the following steps to add custom DITA elements or attributes in the search serialization file:
 
