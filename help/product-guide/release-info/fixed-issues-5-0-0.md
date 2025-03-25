@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 5.0.0 release
 description: Learn about the bug fixes in the 5.0.0 release of Adobe Experience Manager Guides.
-
+exl-id: dcc97f9b-f1c0-45bc-84eb-8c0c1a857b6a
 ---
 # Fixed issues in the 5.0.0 release (March 2025)
 
@@ -93,6 +93,4 @@ Adobe has identified the following known issues for 5.0.0 release:
 - The complete TOC of the map does not update when selectively publishing topics from the map.
 - Publishing a map that contains a Markdown file with internal image references, fails on Windows servers.
 - The bulleted list fails to convert to numbered list in Markdown.
-- Publishing to native AEM site fails when markdown files are referred in a map. 
-
-
+- Publishing to native AEM site fails when markdown files are referred in a map.
