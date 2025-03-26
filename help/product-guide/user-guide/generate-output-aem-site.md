@@ -30,7 +30,7 @@ Perform the following steps to generate incremental output for AEM Sites using M
 1. Select the AEM Sites preset for which you want to generate incremental output.
 1. In the **Topics** tab, select the topics that you want to publish. 
 
-    ![aem sites topic list](images/aem-presets-topic-list.png) {width="800" align="left"}
+    ![aem sites topic list](images/aem-presets-topic-list.png) {align="left"}
 
     >[!NOTE] 
     >
@@ -58,7 +58,7 @@ Perform the following steps to generate incremental output for AEM Sites using M
     >
     > If you have added new topics to the DITA map, you will not be able to generate those new topics from here. You must first publish the newly added topics by using the DITA map publish function.
 
-    ![](images/regenerate-topics.png){width="800" align="left"}
+    ![](images/regenerate-topics.png){align="left"}
 
 1.  Select **Regenerate**.
 

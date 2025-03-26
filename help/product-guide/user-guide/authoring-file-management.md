@@ -304,7 +304,7 @@ If your media file has undergone any changes, you can find and preview the files
 1.  In the left rail, select **Version History** and select a version.
 1.  You can also view the thumbnails of the different versions under Version History.
 
-    ![](images/media-version-history-icon.png){width="800" align="center"}
+    ![](images/media-version-history-icon.png){align="center"}
 
 1.  From the listed versions, select the one that you want to use as the base version and select **Preview Version**. The preview of the selected version is shown in the Version Preview window.
 

@@ -25,7 +25,7 @@ Perform the following steps to send a modified topic for re-translation:
 
     If you select the arrow to view further details, you can view the particular language copy that is out of sync.
 
-    ![](images/out-of-sync-uuid-new.png){width="800" align="left"}
+    ![](images/out-of-sync-uuid-new.png){align="left"}
 
 1.  Select the check box to select the topics that you want to send for re-translation.
 

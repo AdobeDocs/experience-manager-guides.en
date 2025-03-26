@@ -25,7 +25,7 @@ Perform the following steps to preview a topic from the Editor:
 
     The Preview of the topic is displayed. 
 
-    ![](images/preview-pop-up.png){width="800" align="left"}
+    ![](images/preview-pop-up.png){align="left"}
 
 **Preview topics from the Preview mode**
 
@@ -55,7 +55,7 @@ Perform the following steps to preview a topic:
 
 The following operations are available in the toolbar when using the Preview feature from the Assets UI, 
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){align="left"}
 
 
 **Properties**
@@ -72,7 +72,7 @@ The **Used In** references list the documents where the current file is being re
 
 The \(+\) icon in the **Used In** references section allows you to further navigate upwards to find where that topic is being used or referred.
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){align="left"}
 
 Selecting the ![](images/right-arrow-used-in-dialog.svg)icon next to a document shows the map or topic files where that document is being further referred.
 
@@ -102,7 +102,7 @@ If your topic has conditional content, then you will view the A/B icon on the to
     >
     > To get the source code view of a DITA map file, select the file in Assets UI and select Source.
 
-    ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+    ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
 
 **Share UUID Link** 
 
@@ -114,7 +114,7 @@ If your topic has conditional content, then you will view the A/B icon on the to
 
 A new option **Share UUID Link** is shown in the toolbar of the above-mentioned areas. The following screenshot shows the **Share UUID Link** option in the Preview mode of a topic:
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){align="left"}
 
 In the Asset UI, this option is visible when you select a file. While in the Preview mode, this option is available in the main toolbar by default. In a DITA map console, this option is visible in the Output Presets section.
 
@@ -142,7 +142,7 @@ Checked out file in the list view:
 
 If the Checked out column is not visible, select **View Settings** under **List View** and select the **Checked Out** status in the **Configure Columns** dialog.
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){align="left"}
 
 >[!TIP]
 >
@@ -160,17 +160,17 @@ If the Checked out column is not visible, select **View Settings** under **List 
 
     1.  In the left rail, select **Version History** and select a version.
 
-        ![](images/timeline-versions62_cs.png){width="800" align="left"}
+        ![](images/timeline-versions62_cs.png){align="left"}
 
     1.  From the listed versions, select the one that you want to use as the base version and select **Preview Version**. The preview of the selected version is shown in the Version Preview window.
 
     1.  From the **Show Diff** list, select the version with which you want to compare the base version.
 
-        ![](images/show-diff-list-cropped.png){width="800" align="left"}
+        ![](images/show-diff-list-cropped.png){align="left"}
 
         The changed content is highlighted in the topic preview. Content highlighted in green signifies the newly added content and content in red is the deleted content.
 
-        ![](images/version-difference.png){width="800" align="left"}
+        ![](images/version-difference.png){align="left"}
 
 
 ## Branch, revert, and subsequent versioning
