@@ -25,7 +25,7 @@ Perform the following steps to create a topic from the Editor:
 
 1. In the Repository panel, select the **New file** icon and then select **Topic** from the dropdown menu. 
 
-    ![](create-topic-option.png){width="500" align="left"}
+    ![](images/create-topic-option.png){width="500" align="left"}
     
     You can also access this option from the [Experience Manager Guides Home page](./intro-home-page.md) and the options menu of a folder in the Respository view. 
 
