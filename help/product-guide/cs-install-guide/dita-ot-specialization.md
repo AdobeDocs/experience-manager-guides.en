@@ -14,7 +14,7 @@ If you want to process Ant parameters while publishing any output, AEM Guides gi
 
 >[!NOTE]
 >
-> AEM Guides is shipped with DITA-OT version 3.3.2. However, AEM Guides supports DITA-OT version 1.7 and above. For the complete list of DITA-OT versions, see [DITA-OT versions](http://www.dita-ot.org/download).
+> AEM Guides is shipped with DITA-OT version 3.3.2, but it supports a range of versions from DITA-OT 1.7 to DITA-OT 4.x. For a comprehensive list of DITA-OT versions, see [DITA-OT versions](http://www.dita-ot.org/download).
 
 >[!TIP]
 >
