@@ -1,4 +1,4 @@
- ---
+---
 title: About Opening Files in Map Console
 description: Learn about the ways to open a DITA map file in Map Console interface of Adobe Experience Manager Guides.
 feature: Publishing
