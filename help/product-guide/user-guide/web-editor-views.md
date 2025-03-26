@@ -98,7 +98,7 @@ If you have used conditions in your topic or map, those conditions are shown in 
 
 The following image shows a topic that uses two conditions — `Audience` and `Product`. The conditionalized content is highlighted with yellow background.
 
-![](images/preview-filters.png){width="800" align="left"}
+![](images/preview-filters.png){align="left"}
 
 ### View the track changes markups {#id2114BJ00CE8}
 

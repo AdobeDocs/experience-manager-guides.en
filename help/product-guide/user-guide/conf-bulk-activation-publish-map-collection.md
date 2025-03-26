@@ -19,7 +19,7 @@ Once you have created a map collection for bulk activation, the next step is to 
 
 1.  Select the collection that you want to publish and select **Open**.
 
-    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
+    ![](images/bulk-activation-collection-open.png){align="left"}
 
 1.  \(*Optional*\) Apply the required filters from the left rail to filter map on the basis of their modified \(status\), output preset, or language.
 

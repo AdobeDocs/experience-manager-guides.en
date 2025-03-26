@@ -43,7 +43,7 @@ Perform the following steps to create a topic from the Editor:
     
 The topic is created at the specified path. Also, the topic is opened in the Editor for editing. 
     
-![](images/new-topic-editor.png){width="800" align="left"}
+![](images/new-topic-editor.png){align="left"}
 
 ## Create topics from the Assets UI 
 
@@ -55,7 +55,7 @@ Perform the following steps to create a topic from the Assets UI:
 
 1.  On the Blueprint page, select the type of DITA document you want to create and select **Next**.
 
-    ![](images/create_dita_topic.png){width="800" align="left"}
+    ![](images/create_dita_topic.png){align="left"}
 
     By default, Experience Manager Guides provides the most commonly used DITA topics templates. You can configure more topic templates as per your organizational requirements, view *Configure authoring templates* in  Install and configure Adobe Experience Manager Guides for your setup.
 

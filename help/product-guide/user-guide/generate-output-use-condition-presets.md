@@ -19,7 +19,7 @@ You can create condition presets in two ways:
 
 Experience Manager Guides allows you to create and manage condition presets from the Map console and use them within the **Output presets** to generate the final conditional output.
 
-<img src="images/manage-condtions-presets.png" alt= "Condtion presets in map consoler" width="800" border="1px">
+<img src="images/manage-condtions-presets.png" alt= "Condtion presets in map consoler" border="1px">
 
 ### Create a condition preset
 

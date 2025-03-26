@@ -15,19 +15,19 @@ As a reviewer, you can view an indicator in the comments panel to show that the 
 
 However, you can search or filter any comments. You can also choose to show or hide conditions and display conditionalized content accordingly. You can download any attachments but cannot upload or delete any attachments for the comments.
 
-![](images/complete-task-reviewer-new.png){width="800" align="left"}
+![](images/complete-task-reviewer-new.png){align="left"}
 
  
 ## As an author
 
 You can view the completed review tasks in the **Review** panel at a project level from the  **Closed tasks** section as shown in the screenshot. You can search or filter review tasks based on Projects. For example, you can select specific projects in the **Filter** dialog box and have them displayed in the Active review panel. You can further filter the results using the **Tasks initiated by me** and **Show only active tasks** options. 
 
-![](images/review-filters-new.png){width="800" align="left"}
+![](images/review-filters-new.png){align="left"}
 
 For closed review tasks, you can read a comment but cannot accept or reject a comment. You cannot edit or delete any comments. You also cannot add any reply for the comment. The Outdated Comments icon and the Import Comments into Author View icon are not displayed for a completed review task. The Revert topic icon and import icon gets disabled after the review task is completed as shown in screenshot.
 
 You can also search or filter any comments present in the Review panel. You can download any attachments but cannot upload or delete any attachments for the comments.
 
-![](images/completed-task-author-new.png){width="800" align="left"}
+![](images/completed-task-author-new.png){align="left"}
 
 So, both as a reviewer or an author you can view the reviewed content along with the comments, but you cannot make any changes in a completed review task.

@@ -38,7 +38,7 @@ Perform the following steps to build your map file:
 
     The map file is opened for editing in the Map Editor. Using the Map Editor, you build a map by using the currently available topics that are displayed in the References rail.
 
-    ![](images/dita-map-01.png){width="800" align="left"}
+    ![](images/dita-map-01.png){align="left"}
 
 1.  Using the **References** rail, navigate to the folder that contains the topics or sub-maps that you want to add.
 
@@ -67,13 +67,13 @@ Perform the following steps to build your map file:
 
 The main toolbar in the Basic Map Editor allows you to perform the following tasks:
 
-![](images/ditamap-toolbar-actions.png){width="800" align="left"}
+![](images/ditamap-toolbar-actions.png){align="left"}
 
 **A: Search**
 
 You can search for and include the required topics from DAM. Clicking on this icon displays the Search dialog:
 
-![](images/search-dita-map.png){width="800" align="left"}
+![](images/search-dita-map.png){align="left"}
 
 Enter the keywords you want to search for, these keywords are matched in the topic's filename, content, and even attribute values. Once the search results are available, select the desired topic\(s\) and click the Check button to add the selected files at the end of your map structure. You can filter your search results by specifying Modify Date parameters.
 

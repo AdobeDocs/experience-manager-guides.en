@@ -79,7 +79,7 @@ Peform the following steps to create a map or topic template from the Assets UI:
 
 1.  In the **Assets UI**, navigate to the dita-templates folder.
 
-    ![](images/dita-templates.png){width="800" align="left"}
+    ![](images/dita-templates.png){align="left"}
 
 1.  Open the **topics** folder if you want to create a **Topic** template. Open the **maps** folder if you want to create a **Map** template. 
 1. Select **Create \> DITA Template**.

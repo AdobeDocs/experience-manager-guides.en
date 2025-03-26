@@ -39,7 +39,7 @@ To define conditional attributes, perform the following steps:
 
     The following screenshot shows the definition for the `platform` attribute with value of `unix` and a label of `Red Hat Linux`.
 
-    ![](images/add-profile-new.png){width="800" align="left"}
+    ![](images/add-profile-new.png){align="left"}
 
 1.  If you want to add more values for the same attribute, select the **+** icon and enter additional value and label.
 

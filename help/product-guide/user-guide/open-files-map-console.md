@@ -1,4 +1,4 @@
----
+ ---
 title: About Opening Files in Map Console
 description: Learn about the ways to open a DITA map file in Map Console interface of Adobe Experience Manager Guides.
 feature: Publishing
@@ -39,4 +39,4 @@ You can also open an existing map file in the Map console from the Editor.
 
     The map file opens in the Map console. 
 
-    ![New ](images/map-console.png){width="800" align="left"}
+    ![New ](images/map-console.png){align="left"}

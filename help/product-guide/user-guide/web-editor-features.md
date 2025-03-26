@@ -293,7 +293,7 @@ When editing a topic in the Editor, access the various editing actions such as *
 
 The **Find and replace** feature is available in Author and Source view modes. When enabled, the Find and Replace text bar appears at the bottom of the topic editing area. You can use the shortcut keys **CTRL**+**F** to invoke the Find and replace bar.
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 Using the settings icon \(![](images/settings-find-replace-icon.svg)\), you can toggle the **Ignore case** and **Whole word only** search options. To perform the case-insensitive search, turn on (or select) the **Ignore case** option. Else, if you want to perform the case-sensitive search, turn off (or deselect) the **Ignore case** option. You can also choose to search a whole word.
 
@@ -359,7 +359,7 @@ To access the version history and revert to a specific version of your topic, pe
 
     When you revert to an earlier version, a visual cue is shown indicating that the version you are currently working on is not the latest version.
 
-    ![](images/older-version-visual-cue.png){width="800" align="left"}
+    ![](images/older-version-visual-cue.png){align="left"}
 
 **Version labels**
 
@@ -538,7 +538,7 @@ You can also type a character or string in the search box and search for the ele
 
 If you are working inside a block element like a `note`, then use the Insert element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
 
-![Insert element in a block element](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![Insert element in a block element](images/note-in-para-insert-element_cs.png){align="left"}
 
 If you press Enter in the note element, a new paragraph is created within the note element itself. To insert a new element outside note, select the p element \(highlighted in screenshot\) in the elements breadcrumb and then select the Element icon or press ***Alt***+***Enter*** to open the Insert element dialog box. Then, select the desired element and press Enter to insert the selected element after the note element.
 
@@ -607,7 +607,7 @@ You can also define attributes on multiple cells, entire row, or column of a tab
 1. From the value dropdown list, select the desired text alignment you want to apply on the selected table cells. 
 1. Select **Add.**
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 **Image** - ![](images/Image_icon.svg)
 
@@ -630,7 +630,7 @@ Using the **Select File** option, you can search for the required image file by 
 
 Once you have inserted an image, you can change the height, width, placement, and attributes from the Content properties panel. Select the image file and then make changes in the Content properties panel in the right panel.
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 The Source field displays the UUID of the inserted image file. You can find the complete path of the inserted image file by hovering the mouse pointer over the Source field. The path is displayed in the tooltip.
 
@@ -707,7 +707,7 @@ You can also search using the UUID of the file that you want to reference. For C
 
 If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will view the UUID of the referenced content in the **Link** property.
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -810,12 +810,12 @@ The **Version information & Save as new version** feature combines version track
 
     The version number changes with every new version that is created for the topic or map file. If you are working on a newly created document, the version information is shown as **none**.
 
-    ![](images/version-information.png){width="800" align="left"}
+    ![](images/version-information.png){align="left"}
 
 
 - **Save as new version** is a button that saves the changes you have made in your topic and also creates a new version of your topic.
 
-    ![](images/save-as-new-version.png){width="800" align="left"}
+    ![](images/save-as-new-version.png){align="left"}
 
 
 When you choose to save a topic or map using **Save as new version**, the following dialog box appears:
@@ -836,7 +836,7 @@ If your topic is under review, your reviewers will get a notification saying tha
 
 When you hover your pointer over a topic's title, you are shown the file title, file path, and the version number.
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -846,7 +846,7 @@ When you hover your pointer over a topic's title, you are shown the file title, 
 
 Locks or unlocks the current file. Locking a file gives you an exclusive write access to the file. This restricts other users from editing the file. Unlock the file if you want others to have editing access. When the file is unlocked, the changes are saved in the current version of the file.
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 If you are in the Map View and you expand the parent map, you can lock all files in the map with a single click. Simply expand the parent map file and select the parent file, which results in selecting all files within the map. Then you can select **Lock**  ![](images/LockClosed_icon.svg) to get the lock on all files within the map.
 
@@ -929,7 +929,7 @@ To add a file to collections, use any of the following methods:
 
 - Right-click on a file's tab in the editor to open the context menu. Choose **Add to** > **Collections** to add the file to your favorites list.
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){width="800" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
  
 
 >[!NOTE]
@@ -1092,7 +1092,7 @@ You can perform the following actions using the Options menu available for a *fo
 
     If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will view the UUID of the uploaded image in the **Source** property.
 
-    ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+    ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
 - **Find files in folder**: Shifts the focus to repository search wherein you can enter the search term. The search is performed under the selected folder in the repository. You can also apply a filter to return DITA Files, Image Files, or both.
 
@@ -1144,7 +1144,7 @@ The various options in the Options menu are explained below:
 
 - **Preview**: Get a quick preview of the file (.dita, .xml, audio, video, or image) without opening it. You can resize the preview pane. If the content contains any `<xref>` or `<conref>`, you can select it to open it in a new tab. The title of the file appears in the window. If no title is present, then the filename appears. To close the **Preview** panel, you can either select the close icon or select anywhere outside the pane.  
 
-    ![](images/quick-preview_cs.png){width="800" align="left"}
+    ![](images/quick-preview_cs.png){align="left"}
 
 -  **Rename**: Use this option to rename the selected file. Enter the name of the new file in the **Rename Asset** dialog.  
     - You can rename a file of any type. 
@@ -1264,7 +1264,7 @@ The following options are available for a map file in the Map view:
 
 You can perform the following actions using the Options menu of the map file:
 
-![Options menu in Map view](images/options-menu-map-view_cs.png){width="800" align="left"}
+![Options menu in Map view](images/options-menu-map-view_cs.png){align="left"}
 
 - **Edit**: Open the map file for editing in the Map Editor.
 
@@ -1320,7 +1320,7 @@ You can perform the following actions using the Options menu of the map file:
 
 The following screenshot shows the Options menu for a file in the map view:
 
-![](images/options-menu-file_cs.PNG){width="800" align="left"}
+![](images/options-menu-file_cs.PNG){align="left"}
 
 You can perform the following actions using the Options menu:
 
@@ -1430,11 +1430,11 @@ The Outline view offers the following features:
 
 - Drag and drop elements. You can easily replace an element by dropping another element on it. If you drag and drop an element over another element and you view a dashed rectangle box around the element, it indicates that the element will get replaced. It replaces the element on which the element is dropped.
 
-    ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
+    ![](images/replace-element-outline-view_cs.png){align="left"}
 
     If you drag and drop an element, a dashed rectangle indicates that the element can be placed at the current location. If the drag and drop is invalid, then an error message is shown to indicate that the operation is not allowed.
 
-    ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
+    ![](images/drop-element-outline-view_cs.png){align="left"}
 
 - The **Options** menu in the *Outline* view allows you to perform generic operations such as Cut, Copy, Delete, Generate ID, Insert element before or after the current element, Rename or replace an element, Wrap an element, Unwrap an element, and create a snippet out of the selected element.
 
@@ -1517,7 +1517,7 @@ The Conditions panel displays the conditional attributes defined by your adminis
 
 You can also apply multiple conditions on an element by dragging-and-dropping multiple conditions on an element. When you apply multiple conditions on an element, the Properties panel displays the applied conditions separated with a comma.
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){align="left"}
 
 However, in the Code view the conditions are separated using a space delimiter. When you add or edit a condition in Code view, ensure that multiple conditions are separated using a space.
 
@@ -1525,7 +1525,7 @@ However, in the Code view the conditions are separated using a space delimiter. 
 >
 > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete conditions. Else, as a normal author, you will only get the option to apply conditions.
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){align="left"}
 
 To add or define a condition, select the + icon next to Conditions panel to bring up the Define Condition dialog box:
 
@@ -1755,7 +1755,7 @@ Snippets are small content fragments that can be reused across various topics in
 >
 > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete snippets. Else, as a normal author, you will only get the options to preview and insert a snippet.
 
-![](images/snippets-panel_cs.png){width="800" align="left"}
+![](images/snippets-panel_cs.png){align="left"}
 
 To add a snippet, use any of the following methods:
 
@@ -1820,7 +1820,7 @@ Experience Manager Guides allows you to create and manage variables for Native P
 
 The Find and replace icon is located at the bottom of the left panel. The Find and replace panel allows you to search for and replace text across files in a map or a folder within your repository. You can find and replace in all topics of a map as well as topics present in the sub-maps within the map.
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){align="left"}
 
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 
@@ -1913,7 +1913,7 @@ To view the review comments in the active review tasks that are present in your 
 1. You can also enter the search term or text you want to find in the topic's title or file path. The topics which contain the term in the title or the file path are listed. 
 1. Double-click any topic to open it in the author view. You can view the comments in the **Comments** panel.
 
-    ![](images/active-review-task-comments.png){width="800" align="left"} 
+    ![](images/active-review-task-comments.png){align="left"} 
 
    >[!NOTE]
    > 
@@ -1929,7 +1929,7 @@ The content editing area is where the content of your topic or map is displayed.
 
 At the bottom-left of the content editing area, you have the breadcrumb of the element at current cursor location. In the bottom-right corner, the available Editor views are displayed.
 
-![](images/content-editing-area.png){width="800" align="left"}
+![](images/content-editing-area.png){align="left"}
 
 To learn more about the Editor views available for a topic file in the content editing area, view [Editor views](./web-editor-views.md).
 

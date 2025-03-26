@@ -46,7 +46,7 @@ Perform the following steps to generate output for one or more topics in your DI
     -   **Map**: Lists the DITA maps which contain the selected topic.
     -   **Status**: Displays the publishing status of each topic.
     To view the output, hover the mouse pointer over the topic and click View Output.
-    ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+    ![](images/output-multiple-maps_cs.png){align="left"}
 
 
 ## Generate output for a DITA map from the Web Editor 

@@ -54,7 +54,7 @@ To change the state of a document, perform the following steps:
 
 The card view of the Assets UI shows the current state along with the creation date and size of the respective DITA topic or DITA map.
 
-![](images/document_state.png){width="800" align="left"}
+![](images/document_state.png){align="left"}
 
 ## Use document states in DDLC 
 
