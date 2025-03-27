@@ -40,7 +40,14 @@ Learn about [upgrade instructions for the 2025.04.0 release](upgrade-instruction
 
 - Updating the details of a review task in the Review dashboard does not confirm whether the update was successful or unsuccessful. (8051) 
 
+## Known Issues
 
+Adobe has identified the following known issues for the 2025.04.0 release:
+
+- The reference count in the Baseline UI does not update upon editing the Baseline. It only updates when the changes are saved. (28015)
+- When multiple tabs are open in the Editor, performing an **Undo** operation in the **Source** view of a file reverts the last edit but also switches to the previously opened tab.  (27891)
+- The **AEM Spell Check** option appears in the **Menu** dropdown list, even when the **Browser spell check** option is enabled in the Editor settings. (27993)
+- An additional version is created and shown in the **Version History** panel when you edit an image in the Assets UI and save it. (28001) 
 
 
  
