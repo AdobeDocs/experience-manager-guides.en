@@ -7,9 +7,9 @@ description: Learn about the compatibility matrix and how to upgrade to the 2025
 
 This article covers the upgrade instructions and the compatibility matrix for the 2025.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For more information about the new features and enhancements, view [What's new in the 2025.02.0 release](whats-new-2025-04-0.md).
+For more information about the new features and enhancements, view [What's new in the 2025.04.0 release](whats-new-2025-04-0.md).
 
-For the list of issues fixed in this release, view [Fixed issues in the 2025.02.0 release](fixed-issues-2025-04-0.md).
+For the list of issues fixed in this release, view [Fixed issues in the 2025.04.0 release](fixed-issues-2025-04-0.md).
 
 ## Compatibility matrix
 
@@ -19,7 +19,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 | Experience Manager Guides as a Cloud Release| FMPS | FrameMaker |
 | --- | --- | --- |
-| 2025.02.0 | Not compatible | 2022 or higher |
+| 2025.04.0 | Not compatible | 2022 or higher |
 | | | |
 
 
@@ -27,7 +27,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 | Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
 | --- | --- | --- | --- | --- |
-| 2025.02.0| 3.8 -uuid 1|   3.8 -uuid 1 | 2.3 | 2.3 | 
+| 2025.04.0| 3.8 -uuid 1|   3.8 -uuid 1 | 2.3 | 2.3 | 
 |  |  |  |  |
 
 
@@ -45,7 +45,7 @@ This section lists the compatibility matrix for the software applications suppor
 |guides-components.all-1.3.0| aemg-sites-template-1.2.0|
 
 
-## Upgrade to 2025.02.0 release
+## Upgrade to 2025.04.0 release
 
 Experience Manager Guides is upgraded automatically upon upgrading the current (latest) release of Experience Manager as a Cloud Service.
 
