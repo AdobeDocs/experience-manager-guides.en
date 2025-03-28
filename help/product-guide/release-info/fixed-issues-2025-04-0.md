@@ -15,7 +15,7 @@ Learn about [upgrade instructions for the 2025.04.0 release](upgrade-instruction
 
 - Special character insertion box in the Editor fails to load for German locale. (24537) 
 - Comments and labels added while saving a new version of a DITAVAL file are not getting saved in the Version History with the new version. (24076)
-- The outgoing and incoming references in the Right panel do not refresh properly when switching between map files. This issue occurs specifically when the map files contain a large number of references. (23344)
+- The outgoing and incoming references under **File properties** in the right panel do not refresh properly when switching between map files. This issue occurs specifically when the map files contain a large number of references. (23344)
 - The Repository filter does not retain the order of custom filters defined in the `ui_config.json`. (21193)
 - Deleting multiple lines of text in a `codeblock` element creates an empty space which can not be removed from Author view. (20672)
 - New ids fail to generate for elements when such elements are added via snippets or created via templates, even when the **auto generate ID** option is enabled in `XMLEditorConfig`. (21734)
