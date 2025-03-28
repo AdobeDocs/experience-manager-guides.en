@@ -15,14 +15,13 @@ Learn about [upgrade instructions for the 2025.04.0 release](upgrade-instruction
 
 - Special character insertion box in the Editor fails to load for German locale. (24537) 
 - Comments and labels added while saving a new version of a DITAVAL file are not getting saved in the Version History with the new version. (24076)
-- When working with a map that contains a large number of references, the right panel in the Editor does not refresh and displays incorrect referenced while switching between the map files. (23344)
-- The outgoing and incoming references in the Right panel do not refresh properly when switching between map files. This issue occurs specifically when the map files contain a large number of references.
+- The outgoing and incoming references in the Right panel do not refresh properly when switching between map files. This issue occurs specifically when the map files contain a large number of references. (23344)
 - The Repository filter does not retain the order of custom filters defined in the `ui_config.json`. (21193)
 - Deleting multiple lines of text in a `codeblock` element creates an empty space which can not be removed from Author view. (20672)
 - New ids fail to generate for elements when such elements are added via snippets or created via templates, even when the **auto generate ID** option is enabled in `XMLEditorConfig`. (21734)
 - Creating a new dita asset from dita templates copies the replication properties from corresponding dita templates. (25145) 
 - Unable to access file properties from the repository panel if the parent folder name includes "&" character. (25762)
-- The topics are saved as a new version without locking the file even when **Ask for new version on close** option is enabled in `XMLEditorConfig`(23875)
+- Closing a topic file allows it to be saved as a new version, even when the topic is locked. This issue occurs specifically when the **Ask for new version on close** option is enabled in `XMLEditorConfig`. (23875)
 
 ## Publishing
 
