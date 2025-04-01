@@ -191,7 +191,7 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
 
 -   You can access the Rename Element dialog by invoking the Options menu of an element in the Outline panel.
 
-### Wrapping and unwrapping an element
+## Wrapping and unwrapping an element
 
 **Wrap an element** 
 
@@ -205,7 +205,7 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
 
 Unwrapping an element allows you to remove the element tag from the selected text and merge it with its parent element. For example, if you have a `p` element within a `note` element, you can unwrap the `p` element to merge the text directly within the `note` element. The **Unwrap Element** option is available in the context menu of the topic's breadcrumb. To unwrap an element, right-click on the element to open the context menu, then finally select **Unwrap Element** to remove the element and merge the element's text with its parent element.
 
-### White space handling for DITA elements
+## White space handling for DITA elements
 
 In XML, white spaces include spaces, tabs, carriage returns, and blank lines. Experience Manager Guides converts multiple consequent white spaces into one space. This helps you preserve the WYSIWYG view of the Editor. 
 
@@ -222,7 +222,7 @@ DITA elements that contain line break and spaces are supported and rendered as p
 
 
 
-### Handling non-breaking spaces in Editor 
+## Handling non-breaking spaces in Editor 
 
 - You can insert non-breaking spaces in your document using the **Symobol**  ![](images/symbol-icon.svg) icon or the **Alt** + **Space** shortcut keys.  These non-breaking spaces appear as an indicator while you edit a topic in the Editor. You can turn off the display of the non-breaking spaces with the **Show non-breaking space indicator in the author mode** option from the **Appearance** tab of [User preferences](./intro-home-page.md#user-preferences).
 
@@ -230,7 +230,7 @@ DITA elements that contain line break and spaces are supported and rendered as p
 However, if you copy and paste content with a non-breaking space from the **Author** view, it's preserved.
 
 
-### Auto-generate element ID 
+## Auto-generate element ID 
 
 You can automatically generate IDs for the elements in your DITA topic. These IDs are unique within a DITA topic. For example, if you generate IDs for a paragraph element, the IDs will be p\_1, p2, p\_3, and so on. You can select multiple elements and generate IDs for each selected element.
 
@@ -244,7 +244,7 @@ Do the following to automatically generate ID for one or multiple elements:
 
 
 
-### Handling large files in the Editor
+## Handling large files in the Editor
 
 The key features aimed at improving the handling of large files are mentioned as follows:
 
