@@ -9,7 +9,7 @@ role: User
 
 There are some other useful features in the Editor that you can make use of:
 
-**Context menu functions on a file's tab** 
+## Context menu functions on a file's tab 
 
 When you open a file in the Editor, you can perform various actions from the context menu. You might view different options depending on whether you open a media file, single DITA file, or multiple files.
 
@@ -136,17 +136,19 @@ The Editor provides a smart file browse dialog. The editor remembers the last us
 >
 > In case of an image, audio, or video file, the file browse dialog defaults to the file's location and not the last used location.
 
-**Support for article-based publishing** 
+### Support for article-based publishing 
 
 From the Editor, you can generate the output for one or more topics, or the entire DITA map. You need to create output presets for your DITA map and then you can easily generate the output for one or more topics. If you have updated a few topics in your map, you can also generate the output only for those topics from the Editor. For more details, view [Article-based publishing](web-editor-article-publishing.md#id218CK0U019I).
 
-**Support for Markdown documents** 
+### Support for Markdown documents 
 
 The Editor allows you to use Markdown documents \(.md\) along with your DITA documents. You can easily author and preview a Markdown document in the Editor and also add it in your map file through DITA map editor. For more details, view [Author Markdown documents from the Editor](web-editor-markdown-topic.md#).
 
-**Support for DITA glossary term topic** 
+### Support for DITA glossary term topic 
 
 The Editor support DITA glossary terms that you can insert by adding `term` or `abbreviated-form` elements.
+
+### Working with MathML equations
 
 **Insert MathML equations** 
 
@@ -168,12 +170,12 @@ At any time you can update an equation by right-clicking on an existing equation
     If you insert the MathML equation that contains a syntax error, a validation error occurs when you try to save the topic.
 
 
-**Insert footnotes** 
+### Insert footnotes 
 
 Insert footnote in your content by using the `fn` element. In the authoring mode, the footnote value is shown inline with the content. However, when you switch you the Preview mode or publish your document, the footnote appears at the end of the topic.
 
 
-**Rename or replace an element** 
+### Rename or replace an element 
 
 The Editor displays the element's breadcrumb at the bottom-left of the topic. If you want to swap or replace an element with another element, then you can do so from the breadcrumb's context menu. For example, you can swap `p` element with `note` or any other valid element at the context.
 
@@ -189,7 +191,7 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
 
 -   You can access the Rename Element dialog by invoking the Options menu of an element in the Outline panel.
 
-
+### Wrapping and unwrapping an element
 
 **Wrap an element** 
 
@@ -203,7 +205,7 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
 
 Unwrapping an element allows you to remove the element tag from the selected text and merge it with its parent element. For example, if you have a `p` element within a `note` element, you can unwrap the `p` element to merge the text directly within the `note` element. The **Unwrap Element** option is available in the context menu of the topic's breadcrumb. To unwrap an element, right-click on the element to open the context menu, then finally select **Unwrap Element** to remove the element and merge the element's text with its parent element.
 
-**White space handling for DITA elements**
+### White space handling for DITA elements
 
 In XML, white spaces include spaces, tabs, carriage returns, and blank lines. Experience Manager Guides converts multiple consequent white spaces into one space. This helps you preserve the WYSIWYG view of the Editor. 
 
@@ -212,7 +214,7 @@ In XML, white spaces include spaces, tabs, carriage returns, and blank lines. Ex
     >In some elements where white spaces need to be preserved according to the DITA rules, the multiple consequent white spaces are retained. For example, `<pre>` and `<codeblock>` elements. 
 
 
-**Preserving line breaks and indentation** 
+## Preserving line breaks and indentation 
 
 DITA elements that contain line break and spaces are supported and rendered as per their definition in the Author, Source, or Preview modes, and also in the final published output. The following screenshot shows the content within the `msgblock` element wherein the line breaks and spaces \(indentation\) have been preserved:
 
@@ -220,7 +222,7 @@ DITA elements that contain line break and spaces are supported and rendered as p
 
 
 
-**Handling non-breaking spaces in Editor** 
+### Handling non-breaking spaces in Editor 
 
 - You can insert non-breaking spaces in your document using the **Symobol**  ![](images/symbol-icon.svg) icon or the **Alt** + **Space** shortcut keys.  These non-breaking spaces appear as an indicator while you edit a topic in the Editor. You can turn off the display of the non-breaking spaces with the **Show non-breaking space indicator in the author mode** option from the **Appearance** tab of [User preferences](./intro-home-page.md#user-preferences).
 
@@ -228,7 +230,7 @@ DITA elements that contain line break and spaces are supported and rendered as p
 However, if you copy and paste content with a non-breaking space from the **Author** view, it's preserved.
 
 
-**Auto-generate element ID** 
+### Auto-generate element ID 
 
 You can automatically generate IDs for the elements in your DITA topic. These IDs are unique within a DITA topic. For example, if you generate IDs for a paragraph element, the IDs will be p\_1, p2, p\_3, and so on. You can select multiple elements and generate IDs for each selected element.
 
@@ -242,7 +244,7 @@ Do the following to automatically generate ID for one or multiple elements:
 
 
 
-**Handling large files in the Editor**
+### Handling large files in the Editor
 
 The key features aimed at improving the handling of large files are mentioned as follows:
 
