@@ -82,15 +82,3 @@ The following table lists various tasks and the groups that can perform those ta
 [1](#fnsrc_1) If *Authors* and *Publishers* are invited for a review.
 
 [2](#fnsrc_2) Depending on the rights given to the user in the document state profile.
-
-## Pre-requisites to content authoring 
-
-**Work with global or folder-level profiles**
-
-In an enterprise, different groups or products may use different authoring templates, output templates, conditional attribute profiles \(or subject schemes\), and Web Editor configurations. Configuring these only at an enterprise \(or global\) level can make authors experience difficult, as they will view templates or profiles that are not relevant to them.
-
-Experience Manager Guides allows you to configure authoring \(topic or map\) templates, output templates, conditional attribute, and Web Editor configurations at an enterprise \(global\) level as well as at a folder level. This way, you can segregate the configurations for different departments or products in your enterprise.
-
-Also, you can delegate the folder-specific configurations to a department or product administrators to decentralize the administration.
-
-For details on setting up global and folder-level profiles, view *Configure global or folder-level profiles* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
