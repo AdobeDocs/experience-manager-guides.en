@@ -136,19 +136,19 @@ The Editor provides a smart file browse dialog. The editor remembers the last us
 >
 > In case of an image, audio, or video file, the file browse dialog defaults to the file's location and not the last used location.
 
-### Support for article-based publishing 
+## Support for article-based publishing 
 
 From the Editor, you can generate the output for one or more topics, or the entire DITA map. You need to create output presets for your DITA map and then you can easily generate the output for one or more topics. If you have updated a few topics in your map, you can also generate the output only for those topics from the Editor. For more details, view [Article-based publishing](web-editor-article-publishing.md#id218CK0U019I).
 
-### Support for Markdown documents 
+## Support for Markdown documents 
 
 The Editor allows you to use Markdown documents \(.md\) along with your DITA documents. You can easily author and preview a Markdown document in the Editor and also add it in your map file through DITA map editor. For more details, view [Author Markdown documents from the Editor](web-editor-markdown-topic.md#).
 
-### Support for DITA glossary term topic 
+## Support for DITA glossary term topic 
 
 The Editor support DITA glossary terms that you can insert by adding `term` or `abbreviated-form` elements.
 
-### Working with MathML equations
+## Working with MathML equations
 
 **Insert MathML equations** 
 
@@ -170,12 +170,12 @@ At any time you can update an equation by right-clicking on an existing equation
     If you insert the MathML equation that contains a syntax error, a validation error occurs when you try to save the topic.
 
 
-### Insert footnotes 
+## Insert footnotes 
 
 Insert footnote in your content by using the `fn` element. In the authoring mode, the footnote value is shown inline with the content. However, when you switch you the Preview mode or publish your document, the footnote appears at the end of the topic.
 
 
-### Rename or replace an element 
+## Rename or replace an element 
 
 The Editor displays the element's breadcrumb at the bottom-left of the topic. If you want to swap or replace an element with another element, then you can do so from the breadcrumb's context menu. For example, you can swap `p` element with `note` or any other valid element at the context.
 
