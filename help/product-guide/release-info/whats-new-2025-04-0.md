@@ -11,9 +11,9 @@ For the list of issues fixed in this release, view [Fixed issues in the 2025.04.
 
 Learn about [upgrade instructions for the 2025.04.0  release](../release-info/upgrade-instructions-2025-04-0.md).
 
-## New 'Format' attribute introduced for reference links
+## 'Format' attribute added for reference links
 
-Adobe Experience Manager Guides now adds a **format** attribute for reference links (external or local) within the Editor. This attribute is displayed in the **Source view** and clearly indicates the file type, such as:
+Adobe Experience Manager Guides now adds a **format** attribute for reference links within the Editor. This attribute is displayed in the **Source view** and clearly indicates the file type, such as:
 
 - For files with a **.pdf** extension, the format will be set to **pdf**
 - For files with a **.html** extension, the format will be set to **html**
@@ -22,7 +22,7 @@ Adobe Experience Manager Guides now adds a **format** attribute for reference li
 Additionally, files with a **.xml** extension will also have their format set to **dita**. For files without any extension, the format will be left blank. Furthermore, for any reference links  with a scope set to **external**, the format will be set to **html** regardless of the file extension in the reference links.
 
 
-## Notification for large files and limited functionality in the Editor 
+## Accurate Communication for Large Files in the Editor 
 
 Experience Manager Guides now notifies that a file is classified as large file, and certain functionalities, such as undo, redo, the outline panel, and the dirty marker, may not work as expected. An alert message is displayed at the top of the interface for large files as shown in the snippet below, indicating the number of elements based on the **largeFileTagCount** parameter in the **uiconfig.json** file. 
 
