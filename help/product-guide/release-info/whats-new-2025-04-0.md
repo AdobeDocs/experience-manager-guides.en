@@ -11,9 +11,9 @@ For the list of issues fixed in this release, view [Fixed issues in the 2025.04.
 
 Learn about [upgrade instructions for the 2025.04.0  release](../release-info/upgrade-instructions-2025-04-0.md).
 
-## New 'Format' attribute introduced for external web links
+## New 'Format' attribute introduced for reference links
 
-Adobe Experience Manager Guides adds a **format** attribute for reference links (external or local) within the Editor. This attribute is displayed in the **Source view** and clearly indicates the file type, such as:
+Adobe Experience Manager Guides now adds a **format** attribute for reference links (external or local) within the Editor. This attribute is displayed in the **Source view** and clearly indicates the file type, such as:
 
 - For files with a **.pdf** extension, the format will be set to **pdf**
 - For files with a **.html** extension, the format will be set to **html**
