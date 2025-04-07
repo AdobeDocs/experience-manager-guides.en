@@ -150,7 +150,7 @@ The Editor support DITA glossary terms that you can insert by adding `term` or `
 
 ## Work with MathML equations
 
-**Insert MathML equations** 
+## Insert MathML equations 
 
 Experience Manager Guides gives you an out-of-the-box support for inserting MathML equations by integration with [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) application. To insert a MathML equation, select the **Element** icon and type mathml. When you select mathml element from the list, the **Insert MathML** dialog is displayed:
 
@@ -160,7 +160,7 @@ Using the MathML equation tools, create your equation and select **Insert** to a
 
 At any time you can update an equation by right-clicking on an existing equation and selecting **Edit MathML** from the context menu.
 
-**Validation of equations in the MathML editor**
+### Validation of equations in the MathML editor
 
 Experience Manager Guides validates MathML equations when you save a topic containing them.
 When you insert an equation using the MathML editor, Experience Manager Guides highlights the equation in red if there are any syntax issues. You can correct it before inserting it. If you don't make any changes but select **Insert**, it displays a warning.
@@ -193,7 +193,7 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
 
 ## Wrapping and unwrapping an element
 
-**Wrap an element** 
+## Wrap an element 
 
 - Wrapping an element allows you to add an element tag to the selected text. You can wrap the text to any child element following DITA standards. For example, if you have text under a `note` element, then you can wrap the text to a `p` element. 
     
@@ -201,7 +201,7 @@ In addition to the context menu of the breadcrumb, the Rename Element dialog can
 
 - You can also select the text or the element in the content and then select the **Wrap Element**  option from the context menu.
 
-**Unwrap an element** 
+## Unwrap an element 
 
 Unwrapping an element allows you to remove the element tag from the selected text and merge it with its parent element. For example, if you have a `p` element within a `note` element, you can unwrap the `p` element to merge the text directly within the `note` element. The **Unwrap Element** option is available in the context menu of the topic's breadcrumb. To unwrap an element, right-click on the element to open the context menu, then finally select **Unwrap Element** to remove the element and merge the element's text with its parent element.
 
