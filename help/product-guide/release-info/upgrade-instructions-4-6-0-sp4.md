@@ -4,7 +4,7 @@ description: Learn how to upgrade to  4.6.0 Service Pack 4 release of Adobe Expe
 role: Leader
 
 ---
-# Upgrade instructions for the 4.6.0 Service Pack 4 release (March 2025)
+# Upgrade instructions for the 4.6.0 Service Pack 4 release (April 2025)
 
 This article covers the upgrade instructions and the  compatibility matrix for 4.6.0 Service Pack 4 release of Adobe Experience Manager Guides.
 

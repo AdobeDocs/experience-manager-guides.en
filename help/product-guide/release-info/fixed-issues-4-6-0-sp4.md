@@ -4,7 +4,7 @@ description: Learn about the bug fixes in the  4.6.0 Service Pack 4 release of A
 role: Leader
 
 ---
-# Fixed issues in the 4.6.0 Service Pack 4 release (March 2025)
+# Fixed issues in the 4.6.0 Service Pack 4 release (April 2025)
 
 
 This article covers the bugs fixed in various areas of 4.6.0 Service Pack 4 release of Adobe Experience Manager Guides.
