@@ -9,7 +9,7 @@ exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
 
 The Home page is the first screen that you view when logging into Experience Manager Guides. It provides you with a unified and intuitive welcome screen experience, which includes a quick view of the files that you recently accessed, collections, and more.
 
-![](images/aem-home-page.png){width="800" align="left"}
+![](images/aem-home-page.png){align="left"}
 
 The Experience Manager Guides Home page is divided into the following sections: 
 
@@ -21,7 +21,7 @@ The Experience Manager Guides Home page is divided into the following sections:
 
 The header bar is the top bar of the Home page that displays the Adobe Experience Manager logo (or a Unified Shell if you are using the Unified Shell as your Experience Manager Guides UI). When you select the logo, it directs you to the Experience Manager Navigation page. 
 
-![](images/aem-home-header.png){width="800" align="left"}
+![](images/aem-home-header.png){align="left"}
 
 ## Navigation bar 
 
@@ -31,7 +31,7 @@ The navigation bar surfaces tools to switch navigation, customize the overview l
 >
 > If using the Adobe Experience Manager Guides as a Cloud Service, an additional feature labeled as **AI Assistant** is displayed in the navigation bar. 
 
-![](images/aem-home-nav-bar.png){width="800" align="left"}
+![](images/aem-home-nav-bar.png){align="left"}
 
 Features available in the navigation bar are explained as follows: 
 
@@ -83,11 +83,11 @@ The following widgets are present in the Widgets section:
 
 - **Recent Files**: The widget provides you with a snapshot of recently opened files (a list of files that you accessed in the Editor) along with the key file details including Title, File name, File type, File path, and Accessed on dates. 
   
-  ![](images/aem-home-recent-files.png){width="800" align="left"}
+  ![](images/aem-home-recent-files.png){align="left"}
   
   You can sort and resize the columns by selecting options from the column dropdown menu. By default, the data is sorted based on last accessed date and time. 
 
-  ![](images/aem-home-recent-files-sort-resize-options.png){width="800" align="left"}
+  ![](images/aem-home-recent-files-sort-resize-options.png){align="left"}
 
   
   From [User Preferences](#user-preferences), you can set the maximum number of files that can be displayed in this widget. By default, this limit is set to **20**. 
@@ -105,11 +105,11 @@ The following widgets are present in the Widgets section:
 - **Collections**: If you work on a set of files or folders, you can add them to this widget to access them quickly. Once added, you can view the files by Title along with other key details such as Owner and Created On dates. As you select the column dropdown, you can view the options to sort and resize the column.  
 
 
-  ![](images/aem-home-collections.png){width="800" align="left"}
+  ![](images/aem-home-collections.png){align="left"}
   
   The selected collection's breadcrumbs are displayed at the top of the Collection widget. You can select it to go back to a specific folder within the hierarchy. 
 
-  ![](images/aem-home-collections-breadcrumbs.png){width="800" align="left"}
+  ![](images/aem-home-collections-breadcrumbs.png){align="left"}
 
   The following options are available when you hover over a collection and select the More icon ![](images/Smock_MoreSmallList_18_N.svg):
 
@@ -153,7 +153,7 @@ The User preferences are available to all authors. Using the preferences, you ca
 
 - **General**: The General tab allows you to configure the following settings:
 
-  ![](images/user_preference_editor.PNG){width="800" align="left"}
+  ![](images/user_preference_editor.PNG){align="left"}
 
   - **Folder profile**: The Folder profile controls various configurations related to conditional attributes, authoring templates, output presets and the Editor configurations. The Global profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder profiles list.     
   - **Base path**: By default, when you access the Experience Manager Guides repository from the Editor, you are shown assets from the /content/dam location. Your working folder would most likely be a few folders inside the /content/dam/ folder. You can set the Base path to your working folder and the Repository view then shows you the content from that location upfront. This reduces the time to access your working folder. Also, when you insert any reference or media file in your topic, the file browse location starts with the folder set in the Base path.
@@ -163,7 +163,7 @@ The User preferences are available to all authors. Using the preferences, you ca
 
 - **Appearance**: The Appearance tab provides you with the options to select the themes for the application and the source view of the content editing area. Use this tab to configure the following settings:
 
-  ![](images/user_preference_editor_appearance.png){width="800" align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
  
     - **Editor files display configuration**: Select the default way to view the files in the Editor. You can view the list of files by the titles or the filenames from the various panels in the Author view. By default, the files are displayed by title in the Editor.
     - **Application theme and Source view**: You can choose from the Light or Dark themes for the application and source view. In the case of the Light theme, the toolbars and panels use a light grey color background. In the case of the Dark theme, the toolbars and panels use a black color background. Select **Use device** theme to allow Experience Manager Guides to select the light and dark themes based on the theme of your device. 

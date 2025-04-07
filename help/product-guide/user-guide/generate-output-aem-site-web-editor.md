@@ -116,7 +116,7 @@ The **Content** tab contains the following configuration options:
 
 The **Topic list** tab displays the list of topics present in the current working copy of the DITA map. By default, all topics are included. You can select specific topics and generate the AEM Sites output only for them. For example, you have updated some topics so you can publish only those topics instead of publishing the entire DITA map.
 
-![aem sites topic list](images/aem-presets-topic-list.png) {width="800" align="left"}
+![aem sites topic list](images/aem-presets-topic-list.png) {align="left"}
 
 
 >[!NOTE] 
