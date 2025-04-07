@@ -87,7 +87,7 @@ Before performing steps in this procedure, ensure that you have created the requ
     -   **Target Label**: Label for the selected version of the target file
 1.  Select **Send for Translation** on the top right corner.
 
-    ![](images/translation-send.png){width="800" align="left"}
+    ![](images/translation-send.png){align="left"}
 
 1.  From the dropdown, select **Create a New Translation Project**.
 

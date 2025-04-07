@@ -75,7 +75,7 @@ Features available in the tab bar are explained as follows:
 
 The toolbar is located just below the tab bar. Features available in the toolbar are explained as follows:
 
- ![](images/markdown-main-toolbar.png){width="800" align="left"}
+ ![](images/markdown-main-toolbar.png){align="left"}
 
 | Features       | Description   | 
 |----------------|----------------|
@@ -98,7 +98,7 @@ The content editing area displays the Markdown source of your topic, where you m
 
 For markdown authoring, the Editor supports three different viewing modes to assist with content creation and formatting:
 
-![](images/markdown-footer.png){width="800" align="left"}
+![](images/markdown-footer.png){align="left"}
 
 * Source
 * Side-by-side

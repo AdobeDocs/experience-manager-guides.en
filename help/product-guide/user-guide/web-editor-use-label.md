@@ -44,7 +44,7 @@ Perform the following steps to add a label to your topic from the Editor:
 
 To delete a version label from a topic, use the **Remove** icon provided against each label added in the Version Label Management dialog. 
 
-![](images/remove-version-label.png){width="800" align="left"}
+![](images/remove-version-label.png){align="left"}
 
 
 ## Working with labels from the Assets UI

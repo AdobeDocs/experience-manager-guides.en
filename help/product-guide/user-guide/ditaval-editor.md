@@ -24,7 +24,7 @@ Perform the following steps to create a DITAVAL file:
 
 1. In the Repository panel, select the **New file** icon and then select **Topic** from the dropdown menu. 
 
-    ![](images/new-file-option.png){width="800" align="left"}
+    ![](images/new-file-option.png){align="left"}
 
     You can also access this option from the [Experience Manager Guides Home page](./intro-home-page.md) and the options menu of a folder in the Repository view. 
 
@@ -43,7 +43,7 @@ Perform the following steps to create a DITAVAL file:
     
 The topic is created at the specified path. Also, the topic is opened in the Editor for editing.
 
-![](images/ditaval-file-editor.png){width="800" align="left"}
+![](images/ditaval-file-editor.png){align="left"}
 
 ## Edit DITAVAL file
 
