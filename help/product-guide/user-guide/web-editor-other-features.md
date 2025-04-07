@@ -160,14 +160,14 @@ Using the MathML equation tools, create your equation and select **Insert** to a
 
 At any time you can update an equation by right-clicking on an existing equation and selecting **Edit MathML** from the context menu.
 
-- **Validation of equations in the MathML editor**
+**Validation of equations in the MathML editor**
 
-    Experience Manager Guides validates MathML equations when you save a topic containing them.
-    When you insert an equation using the MathML editor, Experience Manager Guides highlights the equation in red if there are any syntax issues. You can correct it before inserting it. If you don't make any changes but select **Insert**, it displays a warning.
+Experience Manager Guides validates MathML equations when you save a topic containing them.
+When you insert an equation using the MathML editor, Experience Manager Guides highlights the equation in red if there are any syntax issues. You can correct it before inserting it. If you don't make any changes but select **Insert**, it displays a warning.
     
-    ![validate mathml equation](images/validate-mathml-equation.png){width="400" align="left"}
+![validate mathml equation](images/validate-mathml-equation.png){width="400" align="left"}
 
-    If you insert the MathML equation that contains a syntax error, a validation error occurs when you try to save the topic.
+If you insert the MathML equation that contains a syntax error, a validation error occurs when you try to save the topic.
 
 
 ## Insert footnotes 
