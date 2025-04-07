@@ -24,7 +24,7 @@ Perform the following steps to create smart tags:
 1.  Select the Run Post Process option. A message is displayed on the successful initiation of the tool.
 1.  The tags are automatically extracted and can be seen on the Properties page of the selected topic.
 
-    ![](images/properties-smart-tags.png){width="800" align="left"}
+    ![](images/properties-smart-tags.png){align="left"}
 
     >[!NOTE]
     >

@@ -48,7 +48,7 @@ Perform the following steps to generate output for a DITA map using Map dashboar
 
 1.  Select one or multiple Output Presets that you want to use for generating the output.
 
-    ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+    ![](images/generate-multiple-outputs-uuid.png){align="left"}
 
 1.  Select the **Generate** icon to start the output generation process.
 

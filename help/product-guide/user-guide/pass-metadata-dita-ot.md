@@ -22,7 +22,7 @@ Perform the following steps to pass on the metadata to the output using DITA-OT 
 1.  Select and open an output preset to which you want to pass the metadata fields. For example, select PDF output preset. Ensure that it is created using the **DITA-OT** option.    
 1.  From the **File properties** dropdown select the metadata that you want to pass to DITA-OT publishing.
 
-    ![](images/custom-metadata-output-preset-new.png){width="800" align="left"}
+    ![](images/custom-metadata-output-preset-new.png){align="left"}
 
     Properties dropdown lists both the custom and the default properties. For example, in the above screenshot `dc:description`, `dc:language`, `dc:title`, and `docstate` are the default properties.
 
@@ -55,7 +55,7 @@ If working on the **Assets UI**, perform the following steps to pass on the meta
 1. Select and edit an output preset to which you want to pass the metadata fields. For example, select PDF output preset.
 1. Select **DITA-OT** option in the selected output preset.
 
-    ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+    ![](images/custom-meta-data-output-preset.png){align="left"}
 
 1. From the Properties drop down select the metadata that you want to pass to DITA-OT publishing.
 

@@ -35,21 +35,21 @@ Perform the following steps to create output presets for your DITA map:
     The preset for Knowledge Base is created.
 
 
-    ![New ](images/knowledge-base-preset-dialog-box.png){width="800" align="left"}
+    ![New ](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 Once the preset is created, you can generate the output for specific knowledge base articles. To do this, navigate to the **Articles** tab and select the topics for which you wish to generate the output.
 1. Select **Generate output** at the top to generate the output.
 
-    ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+    ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. In the **Confirm files for publishing** prompt, select the files you want to publish and confirm by selecting **Publish**.
 
-    ![New ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+    ![New ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 You will view the status of the output generation process. The **Topics** column lists the topics for which output is being generated while the **Status** column displays the publishing status of each topic.
 
 
-![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+![](images/add-preset-output-generated_cs.png){align="left"}
 
 To view the output, close the Output Generated dialog box and select **View output** on the preset page. 
 
