@@ -148,7 +148,7 @@ The Editor allows you to use Markdown documents \(.md\) along with your DITA doc
 
 The Editor support DITA glossary terms that you can insert by adding `term` or `abbreviated-form` elements.
 
-## Working with MathML equations
+## Work with MathML equations
 
 **Insert MathML equations** 
 
