@@ -22,6 +22,7 @@ Learn about [upgrade instructions for the 2025.04.0 release](upgrade-instruction
 - Creating a new dita asset from dita templates copies the replication properties from corresponding dita templates. (25145) 
 - Unable to access file properties from the repository panel if the parent folder name includes "&" character. (25762)
 - Closing a topic file allows it to be saved as a new version, even when the topic is locked. This issue occurs specifically when the **Ask for new version on close** option is enabled in `XMLEditorConfig`. (23875)
+- The current maximum width of the repository panel hides topic and map titles when the content hierarchy is deeply nested. (27751)
 
 ## Publishing
 
