@@ -22,3 +22,9 @@ Learn about [upgrade instructions for the 4.6.0 Service Pack 4 release](upgrade-
 - Native PDF publishing continues indefinitely, if the DITA content has a weblink without having scope as `external`. (26434)
 - When creating a new baseline with a large number of labels, it causes the labels loader to fail and prevents the labels from being fetched. (16232)
 - Publishing of Native PDFs and AEM sites stalls and gets queued, when there are errors in the content. (26516)
+
+## Known issues
+
+Adobe has identified the following known issues for 5.0.0 release:
+
+- Native PDF publishing on Windows encounters failures when DITA content contains an external link that does not include the `scope` attribute.
