@@ -25,6 +25,6 @@ Learn about [upgrade instructions for the 4.6.0 Service Pack 4 release](upgrade-
 
 ## Known issues
 
-Adobe has identified the following known issues for this release:
+Adobe has identified the following known issue for this release:
 
 - Native PDF publishing on Windows encounters failures when DITA content contains an external link that does not include the `scope` attribute.
