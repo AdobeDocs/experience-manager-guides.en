@@ -466,6 +466,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Deployment options and migration to Cloud](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
     - [Migrate content from non-uuid to UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
     - [Delta content migration](./knowledge-base/expert-sessions/migration-delta-content.md)
+    - [Smarter PDF Publishing with Native PDF](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
   - Articles {#kb-articles}
     - Authoring {#authoring}
       - Web Editor {#webeditor}
