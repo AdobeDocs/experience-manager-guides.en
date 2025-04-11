@@ -2,7 +2,7 @@
 title: Release Notes | Upgrade instructions for Adobe Experience Manager Guides 4.6.0 Service Pack 4 release
 description: Learn how to upgrade to  4.6.0 Service Pack 4 release of Adobe Experience Manager Guides
 role: Leader
-
+exl-id: d0914e8a-7c7f-47da-9655-697f95f7d4ff
 ---
 # Upgrade instructions for the 4.6.0 Service Pack 4 release (April 2025)
 

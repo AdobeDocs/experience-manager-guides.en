@@ -2,7 +2,7 @@
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides 4.6.0 Service Pack 4 release
 description: Learn about the bug fixes in the  4.6.0 Service Pack 4 release of Adobe Experience Manager Guides
 role: Leader
-
+exl-id: ad69ea47-7880-43d1-8567-cd608fedb462
 ---
 # Fixed issues in the 4.6.0 Service Pack 4 release (April 2025)
 
