@@ -207,9 +207,9 @@ Unwrapping an element allows you to remove the element tag from the selected tex
 
 In XML, white spaces include spaces, tabs, carriage returns, and blank lines. Experience Manager Guides converts multiple consequent white spaces into one space. This helps you preserve the WYSIWYG view of the Editor. 
 
-    >[!NOTE]
-    >
-    >In some elements where white spaces need to be preserved according to the DITA rules, the multiple consequent white spaces are retained. For example, `<pre>` and `<codeblock>` elements. 
+>[!NOTE]
+>
+> In some elements where white spaces need to be preserved according to the DITA rules, the multiple consequent white spaces are retained. For example, `<pre>` and `<codeblock>` elements. 
 
 
 **Preserving line breaks and indentation** 
