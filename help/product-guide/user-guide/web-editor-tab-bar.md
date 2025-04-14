@@ -1,8 +1,9 @@
 ---
-title: Tab bar in Editor  
+title: Tab bar in Editor
 description: Get to know the Tab bar in the Editor. Learn about the Editor interface and features in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
+exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 ---
 # Tab bar in the Editor 
 

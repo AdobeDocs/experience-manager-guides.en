@@ -1,8 +1,9 @@
 ---
-title: Left panel in Editor  
+title: Left panel in Editor
 description: Get to know the Left panel in the Editor. Learn about the Editor interface and features in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
+exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 ---
 # Left panel in the Editor 
 

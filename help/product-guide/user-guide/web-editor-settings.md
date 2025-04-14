@@ -3,6 +3,7 @@ title: Editor views for topics
 description: View topics in author, source, and preview mode. Learn how to view content based on conditional filters, view the track changes markups, and export a topic as PDF in AEM Guides.
 Sfeature: Authoring, Features of Web Editor
 role: User
+exl-id: fad2874f-dab5-4538-8502-f7112c51d941
 ---
 # Editor settings
 

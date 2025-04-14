@@ -1,8 +1,9 @@
 ---
-title: Right panel in Editor  
+title: Right panel in Editor
 description: Get to know the Right panel in the Editor. Learn about Editor interface and features in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
+exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
 ---
 # Right panel in the Editor 
 

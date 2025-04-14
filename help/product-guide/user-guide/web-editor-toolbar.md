@@ -1,8 +1,9 @@
 ---
-title: Toolbar in Editor  
+title: Toolbar in Editor
 description: Get to know the Toolbar in the Editor. Learn about Editor interface and features in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
+exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
 ---
 # Toolbar in the Editor 
 

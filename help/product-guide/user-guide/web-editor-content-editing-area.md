@@ -1,8 +1,9 @@
 ---
-title: Content editing area in Editor  
+title: Content editing area in Editor
 description: Get to know the content editing area in the Editor. Learn about Editor interface and features in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
+exl-id: 4f481438-618d-4291-b3aa-43ee0dd2e86d
 ---
 # Content editing area in the Editor 
 

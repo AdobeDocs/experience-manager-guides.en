@@ -1,8 +1,9 @@
 ---
-title: Header bar in Editor  
+title: Header bar in Editor
 description: Get to know the Header bar in the Editor. Learn about Editor interface and features in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
+exl-id: 97f72025-e0d1-494e-957a-32bba5732dc5
 ---
 # Header bar in the Editor 
 
