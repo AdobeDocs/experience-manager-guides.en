@@ -15,14 +15,14 @@ The **Authoring** feature in AI Assistant makes your authoring process smarter a
 
 For more details, view [Authoring](./ai-assistant-right-panel.md).
 
-![ai assistant](./images/ai-assistant-panel.png){width="300" align="left"}
+![ai assistant](./images/ai-assistant-panel.png){align="left"}
 
 The **Help** feature in AI Assistant is an intuitive, chat-based tool designed to help you better understand Experience Manager Guides, troubleshoot issues, and search through information within Adobe Experience Manager Guides Documentation. Instead of searching through user guides and reference documents, you can use the **Help** feature to quickly find relevant answers to your queries. This helps save time and allows you to focus on content creation, resulting in enhanced productivity and efficiency.
 
 For more details, view [Help](./ai-based-smart-help.md).
 
 
-![Smart Help panel](images/smart-help-panel.png){width="300" align="left"}
+![Smart Help panel](images/smart-help-panel.png){align="left"}
 
 ## Get started with AI Assistant
 
@@ -35,7 +35,7 @@ Perform the following steps to launch AI Assistant:
 
     The AI Assistant page is displayed highlighting its key fetaures, user guidelines link, and a **Get started** button.
 
-    ![Smart Help panel](images/get-started-ai.png){width="300" align="left"}
+    ![Smart Help panel](images/get-started-ai.png){align="left"}
 
 1. Read the user guidelines carefully and then select  **Get started** to launch the AI Assistant. 
 

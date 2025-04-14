@@ -24,7 +24,7 @@ Perform the following steps to re-assign a review task from the Inbox notificati
     >
     > The reviewer must have the permissions to reassign and should be a part of the user-administrator group.
 
-    ![](images/reassign-user-inbox.png){width="800" align="left"}
+    ![](images/reassign-user-inbox.png){align="left"}
 
 1.  Select **Re-assign**.
 

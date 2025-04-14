@@ -25,7 +25,7 @@ You can view the topic list, manage the metadata of all references, view the mul
 
 You can locate all the four reports from the **Reports** panel. Based on your requirement you can select any of the reports as shown here.
 
-![](images/reports-demo.png){width="800" align="left"}
+![](images/reports-demo.png){align="left"}
 
 The Reports panel provides access to four different types of reports. Each report, along with its accessibility and features, is discussed in detail below. 
 
@@ -38,7 +38,7 @@ You can view the topic list report of a map by performing the following steps:
 
 1.  Select **Topic List** from the Reports panel. The list of topics present in the DITA map is displayed.
 
-    ![](images/web-editor-topiclist-panel-new.png){width="800" align="left"}
+    ![](images/web-editor-topiclist-panel-new.png){align="left"}
 
 1.  From the **Filters** panel you can filter your topics based on the **Reference type** \(direct or indirect\), **Document State** \(for example if your topics are in Edit, In-Review, or Reviewed state, these are listed\) or the **Author** of the topic.
 
@@ -72,7 +72,7 @@ You can view the metadata report of a map by performing the following steps:
 1.  Select **Metadata** from the Reports panel. The list of all references of a map is displayed along with it's metadata such as tags, document state, custom metadata. To add a new custom metadata column, refer to [Add custom metadata columns](#add-custom-metadata-columns) section.   
 
 
-    ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}    
+    ![](images/web-editor-metadata-panel-new.png){align="left"}    
     
 
 1.  From the **Filters** panel you can filter your topics based on the **Document State** \(for example if your topics are in Edit, In-Review, or Reviewed state, these are listed\), **References** \(direct or indirect\), **File Type** \(Map, Topic, Document, Image, Video and Others\) of the reference.
@@ -121,7 +121,7 @@ To update metadata, perform the following steps:
     >
     > You cannot select any checked-out files. A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user.
 
-    ![](images/all-selection.png){width="800" align="left"}
+    ![](images/all-selection.png){align="left"}
         
 
 1.  Select **Manage** from the top.
@@ -219,13 +219,13 @@ You can view the report for broken links by performing the following steps:
     – When you order by **Broken link**, the paths of the broken links are displayed in the first column and then the names of all references in which they have been used, are displayed in another column on separate rows. If the same broken link is used in multiple files, then they are displayed on one row and are shown as grouped or sub-rows. For example, the following screenshot shows two broken links in the first column and the reference in which they are used, `m_ElectricalSpecs_900.ditamap` is displayed in the third column on two separate rows.
 
 
-    ![](images/broken-link-report-new.png){width="800" align="left"}
+    ![](images/broken-link-report-new.png){align="left"}
 
      
     – If you order by **Used in** column, you will view the transposed view wherein the names of the references in which the broken links have been used are listed in the first column while the broken links are listed in another column on the same row. For example, the following screenshot shows the reference (in which the broken link is used) `m_ElectricalSpecs_900.ditamap` in the first column and the broken links are displayed in the third column on the same row.
     
 
-    ![](images/broken-link-filter-usedin-new.png){width="800" align="left"}
+    ![](images/broken-link-filter-usedin-new.png){align="left"}
 
 
 1. You can filter your broken links based on the **File Type** and **Link Type**. The list of broken links is displayed based on your selection in the drop-down. For example, you can choose to display only the content references in your DITA map, and a file shows only the broken content references used in it.

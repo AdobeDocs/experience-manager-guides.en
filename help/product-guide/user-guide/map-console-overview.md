@@ -9,11 +9,11 @@ exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
 
 Adobe Experience Manager Guides offers a dedicated console, known as the **Map console**, to streamline all your map management and publishing tasks. This centralized interface enhances productivity and accuracy in your map-related activities by providing you options to generate outputs, translate content, access reports, and more – all at one place. 
 
-![file properties options tab](./images/map-console-screen.png){width="800" align="left"}
+![file properties options tab](./images/map-console-screen.png){align="left"}
 
 The Map console interface is primarily divided into two sections - **Navigation bar** and **Left panel**.
 
-![New](images/map-console-sections.png){width="800" align="left"}
+![New](images/map-console-sections.png){align="left"}
 
 - (**A**) **Navigation bar**: The navigation bar surfaces tools to switch navigation, adjust the page view, and displays the name of the selected map file.   
 

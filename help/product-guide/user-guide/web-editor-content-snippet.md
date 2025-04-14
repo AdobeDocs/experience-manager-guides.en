@@ -148,7 +148,7 @@ Right-click on a content snippet generator to open the Options. Using the option
 
 You can also use the **Query data** ![](images/data-sources-new-icon.svg) from the toolbar to insert the data snippet into the topics.  You can select a generator from the dropdown, edit your query, or change the template and insert the data in your topic.
 
-![](images/add-content-snippet-generator.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){align="left"}
 
  *Edit and insert a data snippet.*
 
@@ -242,7 +242,7 @@ Perform the following steps to create a topic using the topic generator:
 
 
 
-   ![](images/add-topic-generator.png){width="800" align="left"}
+   ![](images/add-topic-generator.png){align="left"}
     
     *Generate new topics from an existing topic generator.*
 

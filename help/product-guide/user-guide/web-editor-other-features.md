@@ -216,7 +216,7 @@ In XML, white spaces include spaces, tabs, carriage returns, and blank lines. Ex
 
 DITA elements that contain line break and spaces are supported and rendered as per their definition in the Author, Source, or Preview modes, and also in the final published output. The following screenshot shows the content within the `msgblock` element wherein the line breaks and spaces \(indentation\) have been preserved:
 
-![](images/new-line-support_cs.png){width="800" align="left"}
+![](images/new-line-support_cs.png){align="left"}
 
 
 

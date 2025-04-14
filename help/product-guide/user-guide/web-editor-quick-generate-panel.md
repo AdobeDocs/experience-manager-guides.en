@@ -18,7 +18,7 @@ AEM Guides provides a **Quick Generate** panel integrated inside the Web Editor.
 >
 > The **Quick Generate** panel appears for the DITA map opened in the Map View panel.
 
-![](images/quick-generate-map-view.png){width="800" align="left"}
+![](images/quick-generate-map-view.png){align="left"}
 
 Perform the following steps to generate the output from the **Quick Generate** panel:
 

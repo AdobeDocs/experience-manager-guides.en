@@ -25,7 +25,7 @@ Perform the following steps to view and check the output generation log file:
 
     The log file opens in a new tab.
 
-    ![](images/log-file.png){width="800" align="left"}
+    ![](images/log-file.png){align="left"}
 
 1.  Apply following filters to highlight the text in the log file:
     -   Fatal: Highlights the fatal errors in the log file with pink color.

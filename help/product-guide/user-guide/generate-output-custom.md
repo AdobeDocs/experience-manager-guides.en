@@ -36,7 +36,7 @@ Perform the following steps to create the Custom preset from the Map console:
 
 In the Map console, the preset configuration options are organized under the **General** and **Advanced** tabs. 
 
-![](images/custom-preset-config.png){width="800" align="left"}
+![](images/custom-preset-config.png){align="left"}
 
 The **General** tab contains the following configuration options:
 

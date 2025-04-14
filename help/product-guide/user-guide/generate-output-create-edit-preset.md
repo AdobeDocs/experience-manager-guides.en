@@ -1,5 +1,5 @@
 ---
-title: Create, edit, duplicate, or remove an output preset
+title: Edit, duplicate, or remove an output preset
 description: Learn how to create, edit, duplicate, and delete a custom output preset in AEM Guides.
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
@@ -16,14 +16,14 @@ You can edit the selected output preset by directly changing the required fields
 Additionally, you can duplicate or delete an output preset using the **Options** dropdown menu as shown below.
 
 
-![](images/delete-preset-map-console.png){width="800" align="left"}
+![](images/delete-preset-map-console.png){align="left"}
 
 
 ## Using Map dashboard
 
 You can edit, duplicate and delete an output preset using the map dashboard by selecting the required tab from the top bar as shown below. 
 
-![](images/create-new-preset-map-dashboard-new.png){width="800" align="left"}
+![](images/create-new-preset-map-dashboard-new.png){align="left"}
 
 
 

@@ -34,7 +34,7 @@ Perform the following steps to access the Revert History report:
 
 1.  Select **Show Logs** to generate the report for the selected file or folder.
 
-    ![](images/revert-version-history-report.png){width="800" align="left"}
+    ![](images/revert-version-history-report.png){align="left"}
 
     The report contains the following details:
 

@@ -32,7 +32,7 @@ The following options are available on the toolbar in the Layout view:
 
 Displays the topic search dialog. Navigate to the topic/map file that you want to insert and choose **Select** to add it to the map. 
 
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){align="left"}
 
 
 **Topic group** – ![](images/topic-group.svg)
@@ -134,7 +134,7 @@ If you have applied any conditions on a topic, a filter icon is displayed on the
 
 The **Author** view allows you to edit your DITA map in the Editor. This shows the WYSIWYG view of the Map Editor and some of the icons displayed in Author view are same as the Layout view. 
 
-![](images/map-editor-author-view.png){width="800" align="left"}
+![](images/map-editor-author-view.png){align="left"}
 
 In addition, you can view the following icons and perform the related tasks from the Author view:
 
@@ -237,7 +237,7 @@ You can create a review task of the current topic or map file directly from the 
 
 This view allows you to edit content in its raw format, providing full control over the structure and formatting.
 
-![](images/map-editor-source-view.png){width="800" align="left"}
+![](images/map-editor-source-view.png){align="left"}
 
 
 In this view, the toolbar provides basic content editing and insertion options available under the **Menu** dropdown including Cut, Copy, Undo, Redo, Delete, Find and replace, Version label, Merge, Save as new version, Lock and Unlock.
@@ -248,7 +248,7 @@ The Preview mode renders the content as it will appear in the final output, enab
 
 In addition to be able to view the position of each topic file within a map, it is desirable to view the map content in one consecutive flow. The Preview map feature allows you to view the entire content of the map file in a single click. You don't have to generate an output of the map file to view how the entire map will look like once published. You can simply access the map's preview and all topics and sub-maps are rendered in the form of a book.
 
-![](images/map-editor-preview.png){width="800" align="left"}
+![](images/map-editor-preview.png){align="left"}
 
 >[!NOTE]
 >
@@ -309,7 +309,7 @@ To edit topics through a DITA map, perform the following steps:
 
     You can open multiple topics in the editor and each topic is opened in a new tab in the editor. Even if your DITA map contains sub-maps, topics from the sub-maps are also opened in a new tab for editing. If you want to view the topics under a sub-map, you can select and expand the sub-map.
 
-    ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+    ![](images/web-editor-multiple-topics.png){align="left"}
 
     If you select a map file, the map is opened in a new tab of the Editor.
 

@@ -32,7 +32,7 @@ Perform the following steps to review a topic:
 
     The following screen appears when a DITA map is used to initiate the review workflow:
 
-    ![](images/multiple-topics-review.png){width="800" align="left"}
+    ![](images/multiple-topics-review.png){align="left"}
 
     The following options are available on this screen:
 
@@ -57,13 +57,13 @@ Perform the following steps to review a topic:
 
     All topics in the map are shown as a single composite document. The topics that the reviewer is allowed to review are shown normally. The topics that the review is not allowed to review are not shown.
 
-    ![](images/review-read-only.png){width="800" align="left"}
+    ![](images/review-read-only.png){align="left"}
 
     In the above screenshot, the General description topic is shared for review with the current reviewer,which is shown normally. However, the next topic, History of flight content is not shared for review and it is shown in read-only mode. The topic which is currently in focus is also highlighted in the TOC.
 
     The following screen appears when a topic or multiple topics are selected and shared for review:
 
-    ![](images/review-composite-view.png){width="800" align="left"}
+    ![](images/review-composite-view.png){align="left"}
 
     >[!NOTE]
     >
@@ -86,7 +86,7 @@ Perform the following steps to review a topic:
 
 When you view a single topic, then you get an additional option to switch back to the document view. In the following screenshot, a particular topic from a map file is opened for review. The highlighted option — **Show Document View** allows user to switch back to the document view of the map file.
 
-![](images/switch-document-view.png){width="800" align="left"}
+![](images/switch-document-view.png){align="left"}
 
 **Working with different types of commenting tools** - You can add inline comments by highlighting text, striking through text, inserting text, or adding a comment note. The different types of commenting tools provided in the Comments toolbar are described below:
 
@@ -153,7 +153,7 @@ The following screenshot shows the content in *Preview* mode:
 
 When you insert any of the comments, the commenting pop-up appears. After providing additional comments or information in the pop-up, you submit it by hitting Enter. Once the comment is added, you get the option to add an attachment to that comment.
 
-![](images/comment-pop-up-panel.png){width="800" align="left"}
+![](images/comment-pop-up-panel.png){align="left"}
 
 In the above screenshot, the document contains the highlight comment's pop-up and the comment is also added in the Comments panel. The file attachment icon ![](images/file-attach-review.svg)is available along with the comment at both the locations.
 
@@ -221,7 +221,7 @@ In the preview mode, the non-conditionalized content and the conditionalized con
 
 -   Selecting Outdated Comment icon \(![](images/outdated-comment-icon.svg)\) displays the differences in between the latest and the commented version of the document. The version numbers \(of the versions that are being compared\) are displayed at the top of the documents.
 
-    ![](images/comments-page-review-mode.png){width="800" align="left"}
+    ![](images/comments-page-review-mode.png){align="left"}
 
     >[!NOTE]
     >

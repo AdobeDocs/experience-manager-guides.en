@@ -1,5 +1,5 @@
 ---
-title: Translate documents from the Web Editor
+title: Translate documents from the Map Console
 description: Translate your content into multiple languages from the web editor. Learn how to create a translation project, add rules, view versions, and dismiss out-of-sync files in AEM Guides.
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
@@ -87,7 +87,7 @@ Before performing steps in this procedure, ensure that you have created the requ
     -   **Target Label**: Label for the selected version of the target file
 1.  Select **Send for Translation** on the top right corner.
 
-    ![](images/translation-send.png){width="800" align="left"}
+    ![](images/translation-send.png){align="left"}
 
 1.  From the dropdown, select **Create a New Translation Project**.
 

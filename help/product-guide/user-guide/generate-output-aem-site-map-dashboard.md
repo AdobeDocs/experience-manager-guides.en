@@ -41,7 +41,7 @@ It is a very common scenario to have a large set of documentation spread across 
 
 Another way of linking content is to create a link using the `peer` `@scope`. For such content, the link is resolved at run-time by picking the file's title and the configured context for the linked topic from the DITA map's publishing context. The following screenshot shows the Properties panel for a link that has the `peer` `@scope`:
 
-![](images/peer-link-scope-link-new.png){width="800" align="left"}
+![](images/peer-link-scope-link-new.png){align="left"}
 
 To simplify publishing of complex maps and topics that link to other topics in other maps, Adobe Experience Manager Guides allows you to set the publishing context for each output preset.
 
@@ -59,7 +59,7 @@ Perform the following steps to specify the publishing context for cross-linked f
 
     You get the AEM Presets Settings and Publish Context tabs.
 
-    ![](images/aem-site-publish-settings.png){width="800" align="left"}
+    ![](images/aem-site-publish-settings.png){align="left"}
 
 1.  Open the **Publish Context** tab.
 
@@ -71,7 +71,7 @@ Perform the following steps to specify the publishing context for cross-linked f
 
     By default, all linked topics have their latest output preset and map selected.
 
-    ![](images/default-publish-context.png){width="800" align="left"}
+    ![](images/default-publish-context.png){align="left"}
 
 1.  To change the default selection of DITA map and preset, select **Edit** \(in the main toolbar\).
 
