@@ -11,7 +11,7 @@ The **Settings** option present in the [Tab bar] of the Editor is available only
 - [General](#general)
 - [Panels](#panels)
 - [Elements list](#elements-list)
-- [Attrubutes list](#attributes-list)
+- [Attributes list](#attributes-list)
 - [Colors](#colors)
 - [Publish profiles](#publish-profiles)
 - [Validation](#validation)
