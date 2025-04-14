@@ -4,6 +4,7 @@ description: Discover features of the Editor in Adobe Experience Manager Guides.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
+hidefromtoc: yes
 ---
 # Know the Editor features {#id176NC500V5Z}
 
