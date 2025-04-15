@@ -1,13 +1,13 @@
 ---
-title: Editor views for topics
-description: View topics in author, source, and preview mode. Learn how to view content based on conditional filters, view the track changes markups, and export a topic as PDF in AEM Guides.
-Sfeature: Authoring, Features of Web Editor
+title: Editor settings in Experience Manager Guides
+description: Learn about the various settings available in the Editor interface of Experience Manager Guides. 
+feature: Authoring, Features of Web Editor
 role: User
 exl-id: fad2874f-dab5-4538-8502-f7112c51d941
 ---
 # Editor settings
 
-The **Settings** option present in the [Tab bar] of the Editor is available only for administrators and folder profile administrators, and allows configuring the following settings:
+The **Settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the Editor is available only for administrators and folder profile administrators, and allows configuring the following settings:
 
 - [General](#general)
 - [Panels](#panels)

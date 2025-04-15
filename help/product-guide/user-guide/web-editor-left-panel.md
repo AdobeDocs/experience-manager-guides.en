@@ -42,7 +42,7 @@ For details, view [Workfront integration](./workfront-integration.md).
 
 >[!NOTE]
 >
-> The features available in the left panel are managed by your administrator, allowing them to enable or disable the individual features present in the left panel. Only enabled features are displayed in the left panel. For more details, view the **Panels** section of [Tab bar](#tab-bar). 
+> The features available in the left panel are managed by your administrator, allowing them to enable or disable the individual features present in the left panel. Only enabled features are displayed in the left panel. For more details, view the **Panels** section of [Tab bar](./web-editor-tab-bar.md). 
 
 The detailed explanation of the left panel features is as follows:
 
@@ -84,7 +84,7 @@ To add a file to collections, use any of the following methods:
 
 - Right-click on a file's tab in the editor to open the context menu. Choose **Add to** > **Collections** to add the file to your favorites list.
 
-    ![](images/favorite-add-from-file-context-menu_cs.png){width="800" align="left"}
+    ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
  
 
 >[!NOTE]
@@ -126,7 +126,7 @@ You can also select and play an audio or video file in the Editor. You can chang
 the view of the video. In the shortcut menu you also have the options to download, change playback
 speed, or view picture in picture.
 
-Select a map and press Enter or double-click to open it in the **Map view**. For more details, view the **Map view** feature description in the [Left panel](#left-panel) section. Select a topic and press Enter or double-click to open it in the [Content editing area](#content-editing-area). Being able to navigate and open a file directly from the Editor saves time and increases productivity. 
+Select a map and press Enter or double-click to open it in the **Map view**. For more details, view the **Map view** feature description in the left panel. Select a topic and press Enter or double-click to open it in the [Content editing area](./web-editor-content-editing-area.md). Being able to navigate and open a file directly from the Editor saves time and increases productivity. 
 
 **Filter Search in Repository**
 
@@ -214,8 +214,7 @@ Steps to create a new topic:
         - \(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then you will not view the Name field.
         - A template on which the topic will be based. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, Markdown, Glossary, and Troubleshooting templates. If your folder has a Folder Profile configured on it, then you will view only those topic templates that are configured on the Folder profile.
 
-        - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
-    
+        - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.    
     4. Select **Create**. The topic is created at the specified path. Also, the topic is opened in the Editor for editing.
 
 </details>
@@ -264,7 +263,7 @@ Steps to create a new folder:
 
     If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will view the UUID of the uploaded image in the **Source** property.
 
-    ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+    ![](images/uuid-in-source-upload-image_cs.png){   align="left"}
 
 - **Find files in folder**: Shifts the focus to repository search wherein you can enter the search term. The search is performed under the selected folder in the repository. You can also apply a filter to return DITA Files, Image Files, or both.
 
@@ -316,7 +315,7 @@ The various options in the Options menu are explained below:
 
 - **Preview**: Get a quick preview of the file (.dita, .xml, audio, video, or image) without opening it. You can resize the preview pane. If the content contains any `<xref>` or `<conref>`, you can select it to open it in a new tab. The title of the file appears in the window. If no title is present, then the filename appears. To close the **Preview** panel, you can either select the close icon or select anywhere outside the pane.  
 
-    ![](images/quick-preview_cs.png){width="800" align="left"}
+    ![](images/quick-preview_cs.png){   align="left"}
 
 -  **Rename**: Use this option to rename the selected file. Enter the name of the new file in the **Rename Asset** dialog.  
     - You can rename a file of any type. 
@@ -436,7 +435,7 @@ The following options are available for a map file in the Map view:
 
 You can perform the following actions using the Options menu of the map file:
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![](images/options-menu-map-view_cs.png){   align="left"}
 
 - **Edit**: Open the map file for editing in the Map Editor.
 
@@ -492,7 +491,7 @@ You can perform the following actions using the Options menu of the map file:
 
 The following screenshot shows the Options menu for a file in the map view:
 
-![](images/options-menu-file_cs.PNG){width="800" align="left"}
+![](images/options-menu-file_cs.PNG){   align="left"}
 
 You can perform the following actions using the Options menu:
 
@@ -602,11 +601,11 @@ The Outline view offers the following features:
 
 - Drag and drop elements. You can easily replace an element by dropping another element on it. If you drag and drop an element over another element and you view a dashed rectangle box around the element, it indicates that the element will get replaced. It replaces the element on which the element is dropped.
 
-    ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
+    ![](images/replace-element-outline-view_cs.png){   align="left"}
 
     If you drag and drop an element, a dashed rectangle indicates that the element can be placed at the current location. If the drag and drop is invalid, then an error message is shown to indicate that the operation is not allowed.
 
-    ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
+    ![](images/drop-element-outline-view_cs.png){   align="left"}
 
 - The **Options** menu in the *Outline* view allows you to perform generic operations such as Cut, Copy, Delete, Generate ID, Insert element before or after the current element, Rename or replace an element, Wrap an element, Unwrap an element, and create a snippet out of the selected element.
 
@@ -629,7 +628,7 @@ If a block element has its own text, it is displayed along with that block eleme
 If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. You can also assign display attributes configured by your administrator under the **Display attributes** tab in the **Settings**. The attributes defined for an element are displayed in the Layout and the Outline view.
 
 
-For more details, view the *Display attributes* within the *Settings* feature description in the [Left panel](#left-panel) section.
+For more details, view the *Display attributes* within the *Settings* feature description in the left panel.
 
 **Search feature**
 
@@ -693,7 +692,7 @@ The Conditions panel displays the conditional attributes defined by your adminis
 
 You can also apply multiple conditions on an element by dragging-and-dropping multiple conditions on an element. When you apply multiple conditions on an element, the Properties panel displays the applied conditions separated with a comma.
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){   align="left"}
 
 However, in the Code view the conditions are separated using a space delimiter. When you add or edit a condition in Code view, ensure that multiple conditions are separated using a space.
 
@@ -701,7 +700,7 @@ However, in the Code view the conditions are separated using a space delimiter. 
 >
 > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete conditions. Else, as a normal author, you will only get the option to apply conditions.
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){   align="left"}
 
 To add or define a condition, select the + icon next to Conditions panel to bring up the Define Condition dialog box:
 
@@ -924,7 +923,7 @@ You can also change the values from the attribute's drop-down in the Source view
 
 You can also view and apply the subject scheme from the Conditions panel.
 
-To view the subject scheme from the Conditions panel, your system administrator must select the **Show subject scheme in the Conditions panel** option under the General tab in Settings. For more details, view the **Settings** section in the [Tab bar](#tab-bar).
+To view the subject scheme from the Conditions panel, your system administrator must select the **Show subject scheme in the Conditions panel** option under the General tab in Settings. For more details, view the **Settings** section in the [Tab bar](./web-editor-tab-bar.md).
 
 The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
 
@@ -938,7 +937,7 @@ Snippets are small content fragments that can be reused across various topics in
 >
 > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete snippets. Else, as a normal author, you will only get the options to preview and insert a snippet.
 
-![](images/snippets-panel_cs.png){width="800" align="left"}
+![](images/snippets-panel_cs.png){   align="left"}
 
 To add a snippet, use any of the following methods:
 
@@ -1003,7 +1002,7 @@ Experience Manager Guides allows you to create and manage variables for Native P
 
 The Find and replace icon is located at the bottom of the left panel. The Find and replace panel allows you to search for and replace text across files in a map or a folder within your repository. You can find and replace in all topics of a map as well as topics present in the sub-maps within the map.
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){   align="left"}
 
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 
@@ -1106,7 +1105,7 @@ To view the review comments in the active review tasks that are present in your 
 1. You can also enter the search term or text you want to find in the topic's title or file path. The topics which contain the term in the title or the file path are listed. 
 1. Double-click any topic to open it in the author view. You can view the comments in the **Comments** panel.
 
-    ![](images/active-review-task-comments.png){width="800" align="left"} 
+    ![](images/active-review-task-comments.png){   align="left"} 
 
    >[!NOTE]
    > 
