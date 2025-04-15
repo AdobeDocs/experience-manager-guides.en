@@ -32,7 +32,7 @@ When editing a topic in the Editor, access the various editing actions such as *
 
 The **Find and replace** feature is available in Author and Source view modes. When enabled, the Find and Replace text bar appears at the bottom of the topic editing area. You can use the shortcut keys **CTRL**+**F** to invoke the Find and replace bar.
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 Using the settings icon \(![](images/settings-find-replace-icon.svg)\), you can toggle the **Ignore case** and **Whole word only** search options. To perform the case-insensitive search, turn on \(or select\) the **Ignore case** option. Else, if you want to perform the case-sensitive search, turn off \(or deselect\) the **Ignore case** option. You can also choose to search a whole word.
 
@@ -50,7 +50,7 @@ The **Version history** feature in the Editor allows you to check the available 
 
 
 <details>
-    <summary> Steps to access the version history </summary>
+    <summary> Steps to access the Version history </summary>
 
  
 1. Open a topic in the Editor.
@@ -101,7 +101,7 @@ The **Version history** feature in the Editor allows you to check the available 
 
     When you revert to an earlier version, a visual cue is shown indicating that the version you are currently working on is not the latest version.
 
-    ![](images/older-version-visual-cue.png){width="800" align="left"}
+    ![](images/older-version-visual-cue.png){  align="left"}
 
  </details>
 
@@ -289,7 +289,7 @@ You can also type a character or string in the search box and search for the ele
 
 If you are working inside a block element like a `note`, then use the Insert element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
 
-![Insert element in a block element](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![Insert element in a block element](images/note-in-para-insert-element_cs.png){  align="left"}
 
 If you press Enter in the note element, a new paragraph is created within the note element itself. To insert a new element outside note, select the p element \(highlighted in screenshot\) in the elements breadcrumb and then select the Element icon or press ***Alt***+***Enter*** to open the Insert element dialog box. Then, select the desired element and press Enter to insert the selected element after the note element.
 
@@ -360,7 +360,7 @@ You can also define attributes on multiple cells, entire row, or column of a tab
 1. From the value dropdown list, select the desired text alignment you want to apply on the selected table cells. 
 1. Select **Add.**
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){  align="left"}
 
 </details>
 
@@ -373,11 +373,11 @@ Inserts an image at the current or next valid location. Select the Image icon to
 > You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the **Upload Assets** workflow.  For more details, view the **Upload Assets** workflow in the [Left panel](#left-panel) section. 
 
 
-![](images/insert-image.png){width="650" align="left"}
+![](images/insert-image.png){width="300" align="left"}
 
 You can add an image/Figure Title and Alternate Text for the image in the Insert Image dialog box.
 
->![NOTE]
+>[!NOTE]
 >
 > When you insert an image and specify an alternate text for the same, it is added within the `<alt>` element in accordance with the latest DITA standards. The use of the `@alt` attribute for alternate text is deprecated, but it remains supported in previous DITA versions.
 
@@ -385,7 +385,7 @@ Using the **Select File** option, you can search for the required image file by 
 
 Once you have inserted an image, you can change the height, width, placement, and attributes from the Content properties panel. Select the image file and then make changes in the Content properties panel in the right panel.
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){  align="left"}
 
 The Source field displays the UUID of the inserted image file. You can find the complete path of the inserted image file by hovering the mouse pointer over the Source field. The path is displayed in the tooltip.
 
@@ -462,7 +462,7 @@ You can also search using the UUID of the file that you want to reference. For C
 
 If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will view the UUID of the referenced content in the **Link** property.
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){  align="left"}
 
 >[!NOTE]
 >
@@ -517,7 +517,7 @@ Inserts special characters in your topic. Select the Symbol icon to open the Ins
 >
 > Experience Manager Guides provides movable and resizable dialog boxes. Dialogs that have two cross lines at the bottom-right corner can be resized. The cross lines in the Special Character dialog are shown below.
 
-![](images/insert-special-char.png){width="550" align="left"}
+![](images/insert-special-char.png){width="350" align="left"}
 
 In the Insert Special Character dialog box, you can search for a special character using its name. All special characters are stored under various categories. Use the Select Category drop-down list and select a category. The special characters available within the selected category are displayed. You can navigate the list of special character using the arrow keys or select the desired character that you want to insert. The Name and Hex Code of the selected special character are displayed below the list. Select **Insert** to insert the selected character in your document.
 
@@ -537,7 +537,7 @@ You can change the keyword's attributes or add a new attribute to the keyword.
 
 **Snippets** - ![](images/insert-snippet-icon.svg)
 
-Insert a snippet at the current or next valid location. For this feature to work, you must have snippets defined in your system. For more information about adding a snippet, view the **Snippet** feature description in the [Left panel](web-editor-features.md#left-panel) section. 
+Insert a snippet at the current or next valid location. For this feature to work, you must have snippets defined in your system. For more information about adding a snippet, view the **Snippet** feature description in the [Left panel](./web-editor-left-panel.md) section. 
 
 When you select the Snippets option, you are shown the Insert Snippet catalog. The catalog is context-sensitive, which indicates that it will show the snippets only if they are allowed at the current location.
 
@@ -565,12 +565,12 @@ The **Version information & Save as new version** feature combines version track
 
     The version number changes with every new version that is created for the topic or map file. If you are working on a newly created document, the version information is shown as **none**.
 
-    ![](images/version-information.png){width="800" align="left"}
+    ![](images/version-information.png){  align="left"}
 
 
 - **Save as new version** is a button that saves the changes you have made in your topic and also creates a new version of your topic.
 
-    ![](images/save-as-new-version.png){width="800" align="left"}
+    ![](images/save-as-new-version.png){  align="left"}
 
 
 When you choose to save a topic or map using **Save as new version**, the following dialog box appears:
@@ -591,7 +591,7 @@ If your topic is under review, your reviewers will get a notification saying tha
 
 When you hover your pointer over a topic's title, you are shown the file title, file path, and the version number.
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){  align="left"}
 
 >[!NOTE]
 >
@@ -601,7 +601,7 @@ When you hover your pointer over a topic's title, you are shown the file title, 
 
 Locks or unlocks the current file. Locking a file gives you an exclusive write access to the file. This restricts other users from editing the file. Unlock the file if you want others to have editing access. When the file is unlocked, the changes are saved in the current version of the file.
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){  align="left"}
 
 If you are in the Map View and you expand the parent map, you can lock all files in the map with a single click. Simply expand the parent map file and select the parent file, which results in selecting all files within the map. Then you can select **Lock**  ![](images/LockClosed_icon.svg) to get the lock on all files within the map.
 

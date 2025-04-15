@@ -8,12 +8,12 @@ role: User
 
 The header bar is the top bar of the Editor that displays the Adobe Experience Manager logo (or a Unified Shell if you are using the Unified Shell as your Experience Manager Guides UI). When you select the logo, it directs you to the Experience Manager Navigation page.
 
-![](./images/web-editor-header-bar.png){width="800" align="left"}
+![](./images/web-editor-header-bar.png){align="left"}
 
-Use the **Expand** icon in the toolbar to hide the header bar and maximize the content area. 
+Use the **Expand** icon in the toolbar to hide the header bar and maximize the content area. To restore the standard view, select **Exit the expanded view**.
 
-![](./images/web-editor-header-bar-expand-option.png){width="550" align="left"}
+![](./images/web-editor-header-bar-expand-option.png){width="350" align="left"}
 
-To restore the standard view, select **Exit the expanded view**.
+
 
 **Parent topic:**[Introduction to the Editor](web-editor.md)

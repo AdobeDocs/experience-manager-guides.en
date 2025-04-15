@@ -124,7 +124,7 @@ Using the Tracked changes feature of the right panel, you can view the informati
 
 >[!NOTE]
 >
-> Tracked changes feature shows all updates that have been tracked using the Enable/Disable Track Changes feature of the [Tab bar](#tab-bar).
+> Tracked changes feature shows all updates that have been tracked using the Enable/Disable Track Changes feature of the [Tab bar](./web-editor-tab-bar.md).
 
 ## Schematron
 
