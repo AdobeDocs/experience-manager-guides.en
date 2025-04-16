@@ -42,7 +42,7 @@ Learn about [upgrade instructions for the 2025.04.0 release](upgrade-instruction
 
 ## Translation
 
-- Translations submitted through Experience Manager Guides do not include the attached assets, causing the **Start** button for translation workflow to become unavailable to users. 
+- Translations submitted through Experience Manager Guides do not include the attached assets, causing the **Start** button for translation job to become unavailable to users. 
 
 ## Known Issues
 
