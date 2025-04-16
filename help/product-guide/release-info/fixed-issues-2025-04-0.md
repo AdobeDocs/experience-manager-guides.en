@@ -40,6 +40,10 @@ Learn about [upgrade instructions for the 2025.04.0 release](upgrade-instruction
 
 - Updating the details of a review task in the Review dashboard does not confirm whether the update was successful or unsuccessful. (8051) 
 
+## Translation
+
+- Translations submitted through Experience Manager Guides do not include the attached assets, causing the **Start** button for translation workflow to become unavailable to users. 
+
 ## Known Issues
 
 Adobe has identified the following known issues for the 2025.04.0 release:
