@@ -11,7 +11,7 @@ The following options are available for the HTML5 output:
 
 >[!NOTE]
 >
-> To open output presets for HTML5, click on a FrameMaker \(`.fm` or `.book`\) file, then click on Output Presets, and then click on the HTML5 option.
+> To open output presets for HTML5, select a FrameMaker \(`.fm` or `.book`\) file, then select the Output Presets, and choose the HTML5 option.
 
 |HTML5 option|Description|
 |------------|-----------|

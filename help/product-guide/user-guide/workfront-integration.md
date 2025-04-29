@@ -79,7 +79,9 @@ Perform the following steps to create a new Adobe Workfront task:
 3.  In the **Assets** tab, select **Add** to add an asset to this task. 
 
      ![](./images/workfront-create-tasks-asset.png){align="left"}
-    
+
+     The **Select path** dialog is displayed. Select a path to the required asset. You can add multiple assets by selecting the valid paths in the path browser. Your selected paths will be retained, allowing you to easily review or modify them when you reopen the dialog.
+         
     * For authoring, publishing, and translation tasks, you are prompted to select the location of the required file in the **Select path** dialog box. The selected file (a topic for authoring and map for publishing and translation) is added to the task as soon as the **Create** button is selected.
 
         ![](./images/attach-asset.png){align="left"}

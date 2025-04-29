@@ -140,7 +140,7 @@ To move files in bulk, perform the following steps:
 
     -   **Source path\(s\)**: Specify the location of folders that you want to move. 
        
-         - Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the browse file dialog. Select the folders you want to move and choose **Select** to complete the process. 
+         - Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the **Select path** dialog. Select the folders you want to move and choose **Select** to complete the process. You can select multiple folders placed at different locations in the path browser. The path of the selected folders will be retained, allowing you to easily review or modify them when you reopen the dialog.
 
         - You can also type or copy and paste the source location. Press Enter to add the folder to the list. 
 
@@ -187,14 +187,14 @@ To move files in bulk, perform the following steps:
         If you do not select this option, then the checked out files are moved to the destination folder in the same checked out status. However, there could be some loss of data in this moving process.
     
 
-     -   **Source path\(s\)**: Specify the location of folders that you want to move. 
+    -   **Source path\(s\)**: Specify the location of folders that you want to move. 
         
-            - Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the browse file dialog. Select the folders you want to move and choose **Select** to complete the process. 
+        - Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the **Select path** dialog. Select the folders you want to move and choose **Select** to complete the process. You can select multiple folders placed at different locations in the path browser. The path of the selected folders will be retained, allowing you to easily review or modify them when you reopen the dialog.
 
-            - You can also type or copy and paste the source location. Press Enter to add the folder to the list. 
-
-                The selected folders are listed along with their path. Hover over the folder tag to view the complete path.
-            - You can also remove any folder by selecting **Remove** <img src="images/remove-folder.svg" width="25"> near the folder.
+        - You can also type or copy and paste the source location. Press Enter to add the folder to the list. 
+            
+            The selected folders are listed along with their path. Hover over the folder tag to view the complete path.
+        - You can also remove any folder by selecting **Remove** <img src="images/remove-folder.svg" width="25"> near the folder.
 
 
     -   **Destination path**: Specify the location where you want to move the source folders.

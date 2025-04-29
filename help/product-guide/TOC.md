@@ -14,6 +14,10 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2025 Releases {#2025-releases}
+        - 2025.04.0 Release {#2504-release} 
+          - [What's new](./release-info/whats-new-2025-04-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2025-04-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2025-04-0.md)
         - 2025.02.0 Release {#2502-release} 
           - [What's new](./release-info/whats-new-2025-02-0.md)
           - [Fixed issues](./release-info/fixed-issues-2025-02-0.md)
@@ -188,7 +192,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Map console overview](./user-guide/map-console-overview.md)
     - [Open files in Map console](./user-guide/open-files-map-console.md)
     - Reports {#reports-aem-guide}
-      - [Introduction to reports](./user-guide/reports-intro.md)
+      - [Introduction to Reports](./user-guide/reports-intro.md)
       - [DITA map report from the Map console](./user-guide/reports-web-editor.md)
       - [DITA map report from the Map dashboard](./user-guide/reports-ditamap.md)
       - [Content Reuse Report](./user-guide/reports-content-reuse.md)
