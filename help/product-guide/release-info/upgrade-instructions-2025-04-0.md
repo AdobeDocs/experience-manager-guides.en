@@ -20,7 +20,6 @@ This section lists the compatibility matrix for the software applications suppor
 | Experience Manager Guides as a Cloud Release| FMPS | FrameMaker |
 | --- | --- | --- |
 | 2025.04.0 | Not compatible | 2022 or higher |
-| | | |
 
 
 ### Oxygen Connector
@@ -28,7 +27,6 @@ This section lists the compatibility matrix for the software applications suppor
 | Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
 | --- | --- | --- | --- | --- |
 | 2025.04.0| 3.8 -uuid 1|   3.8 -uuid 1 | 2.3 | 2.3 | 
-|  |  |  |  |
 
 
 ### Knowledge base template version
