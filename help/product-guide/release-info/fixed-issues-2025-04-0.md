@@ -19,7 +19,7 @@ Learn about [upgrade instructions for the 2025.04.0 release](upgrade-instruction
 - The Repository filter does not retain the order of custom filters defined in the `ui_config.json`. (21193)
 - Deleting multiple lines of text in a `codeblock` element creates an empty space which can not be removed from Author view. (20672)
 - New ids fail to generate for elements when such elements are added via snippets or created via templates, even when the **auto generate ID** option is enabled in `XMLEditorConfig`. (21734)
-- Creating a new dita asset from dita templates copies the replication properties from corresponding dita templates. (25145) 
+- Creating a new DITA asset from DITA templates copies the replication properties from corresponding DITA templates. (25145) 
 - Unable to access file properties from the repository panel if the parent folder name includes "&" character. (25762)
 - Closing a topic file allows it to be saved as a new version, even when the topic is locked. This issue occurs specifically when the **Ask for new version on close** option is enabled in `XMLEditorConfig`. (23875)
 - The current maximum width of the repository panel hides topic and map titles when the content hierarchy is deeply nested. (27751)
@@ -28,7 +28,7 @@ Learn about [upgrade instructions for the 2025.04.0 release](upgrade-instruction
 
 - In the legacy AEM Sites output, section links within nested topics of a map do not resolve correctly when manually set in Source mode or the content is imported from an external source. Instead of navigating to the intended section, they redirect to the main topic that contains the nested topic. (26103)
 - If the `scope=external` attribute is missing from external links in a DITA topic, HTML5 publishing fails without indicating the files where this attribute is missing in the error logs, especially when the microservice is enabled. (25969) 
-- Unable to embed video links in Native pdf even when the **Embed Multimedia Files** option is enabled in the PDF preset. (9989)
+- Unable to embed video links in Native PDF even when the **Embed Multimedia Files** option is enabled in the PDF preset. (9989)
 - Unable to pass the metadata properties to map landing pages generated using new AEM Sites publishing. (27288) 
 
 ## Management 
