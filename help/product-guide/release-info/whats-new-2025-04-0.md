@@ -28,7 +28,7 @@ Experience Manager Guides now notifies that a file is classified as large file, 
 
 Additionally, the tag count is shown on the bottom bar, with a tooltip appearing when you hover over it. Selecting the **Learn more** tab provides detailed information about handling large files. This alert is available only for DITA files and is visible across all views: Author, Source, and Layout.
 
-For more details, view [Handling large files in the Editor](../user-guide/web-editor-other-features.md). 
+For more details, view [Handling large files in the Editor](../user-guide/web-editor-other-features.md#handling-large-files-in-the-editor). 
 
 ![](assets/add-toast-tag-count.png){width="800" align="left"}
 
