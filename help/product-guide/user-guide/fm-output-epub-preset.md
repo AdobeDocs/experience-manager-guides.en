@@ -11,7 +11,7 @@ The following options are available for the EPUB output:
 
 >[!NOTE]
 >
-> To open output presets for EPUB, click on a FrameMaker \(`.fm` or `.book`\) file, then click on Output Presets, and then click on the EPUB option.
+> To open output presets for EPUB, select a FrameMaker \(`.fm` or `.book`\) file, then select the Output Presets, and choose the EPUB option.
 
 |EPUB option|Description|
 |-----------|-----------|

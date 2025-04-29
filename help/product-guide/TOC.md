@@ -192,7 +192,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Map console overview](./user-guide/map-console-overview.md)
     - [Open files in Map console](./user-guide/open-files-map-console.md)
     - Reports {#reports-aem-guide}
-      - [Introduction to reports](./user-guide/reports-intro.md)
+      - [Introduction to Reports](./user-guide/reports-intro.md)
       - [DITA map report from the Map console](./user-guide/reports-web-editor.md)
       - [DITA map report from the Map dashboard](./user-guide/reports-ditamap.md)
       - [Content Reuse Report](./user-guide/reports-content-reuse.md)

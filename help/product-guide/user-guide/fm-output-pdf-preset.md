@@ -11,7 +11,7 @@ The following options are available for the PDF Output:
 
 >[!NOTE]
 >
-> To open output presets for PDF, click on a FrameMaker \(`.fm` or `.book`\) file, then click on Output Presets, and then click on the PDF Output option.
+> To open output presets for PDF, select a FrameMaker \(`.fm` or `.book`\) file, then select the Output Presets, and choose the PDF Output option.
 
 |PDF options|Description|
 |-----------|-----------|
