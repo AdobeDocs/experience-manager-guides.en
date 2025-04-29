@@ -88,6 +88,9 @@ breadcrumb-title: AEM Guides Documentation
         - [What's new](./release-info/whats-new-5-0-0.md)
         - [Fixed issues](./release-info/fixed-issues-5-0-0.md)
         - [Upgrade instructions](./release-info/upgrade-instructions-5-0-0.md)
+      - 4.6.0 SP4 Release {#460-sp4-release}
+          - [Fixed issues](./release-info/fixed-issues-4-6-0-sp4.md)     
+          - [Upgrade instructions](./release-info/upgrade-instructions-4-6-0-sp4.md)
       - 4.6.0 SP3 Release {#460-sp3-release}
           - [Fixed issues](./release-info/fixed-issues-4-6-0-sp2.md)     
           - [Upgrade instructions](./release-info/upgrade-instructions-4-6-0-sp2.md)
@@ -142,7 +145,15 @@ breadcrumb-title: AEM Guides Documentation
           - [Create topics](./user-guide/web-editor-create-topics.md)
           - [Preview a topic](./user-guide/web-editor-preview-topics.md)
         - [Know the Editor features](./user-guide/web-editor-features.md)
+        - Know the Editor interface and features {#editor-interface-features}
+          - [Header bar](./user-guide/web-editor-header-bar.md)
+          - [Tab bar](./user-guide/web-editor-tab-bar.md)
+          - [Toolbar](./user-guide/web-editor-toolbar.md)
+          - [Left panel](./user-guide/web-editor-left-panel.md)
+          - [Content editing area](./user-guide/web-editor-content-editing-area.md)
+          - [Right panel](./user-guide/web-editor-right-panel.md)
         - [Additional features in the Editor](./user-guide/web-editor-other-features.md)
+        - [Working with the Editor Settings](./user-guide/web-editor-settings.md)
         - [Keyboard shortcuts in the Editor](./user-guide/web-editor-keyboard-shortcuts.md)
         - [Editor views](./user-guide/web-editor-views.md)
         - [Support for Schematron files](./user-guide/support-schematron-file.md)
@@ -467,6 +478,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Deployment options and migration to Cloud](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
     - [Migrate content from non-uuid to UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
     - [Delta content migration](./knowledge-base/expert-sessions/migration-delta-content.md)
+    - [Smarter PDF Publishing with Native PDF](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
   - Articles {#kb-articles}
     - Authoring {#authoring}
       - Web Editor {#webeditor}
