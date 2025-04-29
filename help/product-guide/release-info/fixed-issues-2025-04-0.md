@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2025.04.0 release
 description: Learn about the bug fixes in the 2025.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
-
+exl-id: ad3e95b5-4903-4387-8e4d-c4b9ba77fee2
 ---
 # Fixed issues in the 2025.04.0 release 
 
@@ -57,10 +57,3 @@ Adobe has identified the following known issues for the 2025.04.0 release:
 - A topic within a DITA map fails to publish in the AEM Sites output when it is being used as both `keydef` and `topicref` within its submaps. (22269)
 - In AEM Sites output, images break when Baseline is not applied while publishing. (28043)
 - An application error occurs when multiple topics of a map are edited and then closed using the **Close all** option, with the **Ask on save version on close** setting enabled.(27931)
-
-
-
- 
-
- 
-
