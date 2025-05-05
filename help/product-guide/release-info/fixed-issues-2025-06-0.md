@@ -18,9 +18,10 @@ Learn about [upgrade instructions for the 2025.06.0 release](upgrade-instruction
 
 ## Publishing
 
-- Native PDF publishing continues indefinitely, if the DITA content has a weblink without having scope as external. (26434) 
+- Native PDF publishing continues indefinitely, if the DITA content has a weblink without having scope as `external`. (26434) 
 - Publishing of Native PDFs and AEM sites stalls and gets queued, when there are errors in the content. (26516)
-- 
+- When creating a new baseline with a large number of labels, it causes the labels loader to fail and prevents the labels from being fetched. (16232)
+- When generating AEM Site pages with titles containing multiple words with spaces, the map title is displayed with hyphens in place of spaces. (27903)
 
 ## Review
 
