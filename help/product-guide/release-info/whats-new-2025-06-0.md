@@ -14,11 +14,13 @@ Learn about [upgrade instructions for the 2025.06.0  release](../release-info/up
 
 ## System configuration file now included in the temporary files generated for presets
 
-The latest enhancement to Experience Manager Guides adds a new `system_config.json` file to the temporary files generated for DITA OT, HTML, PDF, or JSON presets. This file is automatically included when you enable the **Retain temporary files** option for the presets and generate output.
+The latest enhancement to Experience Manager Guides adds a new `system_config.json` file to the temporary files generated while publishing HTML, PDF, and JSON outputs using DITA-OT, as well as Native PDF output.
 
-The `system_config.json` file contains key instance details, including the Author URL, Local URL, and Publish URL, which provide clearer context and improve the traceability of the downloaded content package.
+This file is automatically included when you enable the **Retain temporary files** option for the presets and generate output.
 
-Within the temporary files, `system_config.json` is placed alongside the existing `metadata.xml` file, ensuring that both system configuration and content metadata are available together. This makes it easier to support local processing, previewing, and publishing workflows.
+The `system_config.json` file contains key instance details, including the Author URL, Local URL, and Publish URL, which provide clearer context and improve the traceability of the downloaded URLs.
+
+Within the temporary files, `system_config.json` is placed alongside the existing `metadata.xml` file, ensuring that both system configuration and content metadata are available together. This makes it easier to support custom processing, previewing, and publishing workflows.
 
 
 
