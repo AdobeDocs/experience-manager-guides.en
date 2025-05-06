@@ -138,7 +138,8 @@ For details, refer to [Configure Smart Suggestions in Folder Profile](./conf-fol
   "related.link.threshold":0.5,
   "emerald.url":"https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1",
   "instance.type":"prod",
-  "chat.url":"https://aem-guides-ai.adobe.io"
+  "chat.url":"https://aem-guides-ai-v2.adobe.io",
+  “site.id”: “id_f651abc807c84f52b425737bb93f87ba”
 }
 ```
 
@@ -149,7 +150,8 @@ For details, refer to [Configure Smart Suggestions in Folder Profile](./conf-fol
 |conref.inline.threshold|Threshold that controls the precision/recall of suggestions fetched for the tag that the user is typing in currently.|Any value from -1.0 to 1.0.|0.6|
 |conref.block.threshold|Threshold that controls precision/recall of suggestions fetched for tags across the entire file.|Any value from -1.0 to 1.0.|0.7|
 |emerald.url|Endpoint for the Smart Suggestion vector database|[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|
-|chat.url|Endpoint for the AI assistant service|[https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io)|[https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io)|
+|chat.url|Endpoint for the AI assistant service|[https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai.adobe.io)|[https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io)|
+|site.id|Endpoint for the AI assistant service|id_f651abc807c84f52b425737bb93f87ba|id_f651abc807c84f52b425737bb93f87ba|
 |instance.type|Type of the AEM instance. Make sure this is unique for each AEM instance that the smart suggestions is configured on. A use case would be to test the feature on stage environment with "instance.type" = "stage" while at the same time, the feature is also configured on "prod".|Any unique key identifying the environment. Only *alpha numeric* values are allowed. "dev"/"stage"/"prod"/"test1"/"stage2"|"prod"|
 
 Once you have configured, the AI Assistant icon is displayed in the Home page and Editor of the Experience Manager Guides. For more details, view [AI Assistant](../user-guide/ai-assistant.md) section in the Experience Manager User Guide.
