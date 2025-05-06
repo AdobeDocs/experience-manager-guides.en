@@ -15,6 +15,11 @@ Learn about [upgrade instructions for the 2025.06.0 release](upgrade-instruction
 
 - When opening a DITA map with the unified shell enabled, the editor refreshes intermittently. (26919)
 - Failing to close JCR session connections while updating or creating topics result in memory leaks and service downtime. (26282)
+- Dragging the columns changes their width from percentage to pixel values, which results in distorted or misaligned tables.(23128)
+- When content is pasted into a `codeblock`, the spacing from the source formatting is not preserved in the Author view. (27478)
+- Multi-line text within `codeblock` causes text overflow issues during PDF generation. (15541)
+- When adding a map to the `bookmap`, it gets stored in `fmditatopicrefs` instead of `fmditamaprefs`. (25480)
+- The **Insert image** dialog fails to render correctly on a high-resolution or zoomed-out screens causing the figure title and alternate text fields to be not displayed. (26459)
 
 ## Publishing
 
@@ -22,14 +27,16 @@ Learn about [upgrade instructions for the 2025.06.0 release](upgrade-instruction
 - Publishing of Native PDFs and AEM sites stalls and gets queued, when there are errors in the content. (26516)
 - When creating a new baseline with a large number of labels, it causes the labels loader to fail and prevents the labels from being fetched. (16232)
 - When generating AEM Site pages with titles containing multiple words with spaces, the map title is displayed with hyphens in place of spaces. (27903)
+- Generating output using the Native PDF preset results in the metadata property remaining unresolved when included in the document properties. (25680)
+
 
 ## Review
 
-- Updating the details of a review task in the Review dashboard does not confirm whether the update was successful or unsuccessful. (8051) 
+- When resizing the screen for Review UI, the content panel does not get resized and the content (long sentences) gets cropped. (25292)
 
 ## Known Issues
 
-Adobe has identified the following known issues for the 2025.04.0 release:
+Adobe has identified the following known issues for the 2025.06.0 release:
 
 - The reference count in the Baseline UI does not update upon editing the Baseline. It only updates when the changes are saved. (28015)
 - When multiple tabs are open in the Editor, performing an **Undo** operation in the **Source** view of a file reverts the last edit but also switches to the previously opened tab. (27891)
