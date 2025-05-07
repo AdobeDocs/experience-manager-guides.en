@@ -16,18 +16,18 @@ Learn about [upgrade instructions for the 2025.06.0 release](upgrade-instruction
 - When opening a DITA map with the unified shell enabled, the editor refreshes intermittently. (26919)
 - Failing to close JCR session connections while updating or creating topics result in memory leaks and service downtime. (26282)
 - Dragging the columns changes their width from percentage to pixel values, which results in distorted or misaligned tables.(23128)
-- When content is pasted into a `codeblock`, the spacing from the source formatting is not preserved in the Author view. (27478)
+- When content is pasted into a `codeblock`, the spacing from the source formatting is not preserved in the **Author** view. (27478)
 - Multi-line text within `codeblock` causes text overflow issues during PDF generation. (15541)
 - When adding a map to the `bookmap`, it gets stored in `fmditatopicrefs` instead of `fmditamaprefs`. (25480)
-- The **Insert image** dialog fails to render correctly on a high-resolution or zoomed-out screens causing the figure title and alternate text fields to be not displayed. (26459)
+- The **Insert image** dialog fails to render correctly on a high-resolution or zoomed-out screens causing the figure title and alternate text fields to disappear. (26459)
 
 ## Publishing
 
 - Native PDF publishing continues indefinitely, if the DITA content has a weblink without having scope as `external`. (26434) 
 - Publishing of Native PDFs and AEM sites stalls and gets queued, when there are errors in the content. (26516)
 - When creating a new baseline with a large number of labels, it causes the labels loader to fail and prevents the labels from being fetched. (16232)
-- When generating AEM Site pages with titles containing multiple words with spaces, the map title is displayed with hyphens in place of spaces. (27903)
-- Generating output using the Native PDF preset results in the metadata property remaining unresolved when included in the document properties. (25680)
+- When generating AEM Site pages with titles that include multiple words separated by spaces, the map title displays hyphens instead of spaces. (27903)
+- For Native PDF, an invalid metadata property name is not getting resolved and is displayed as string in **document properties**. (25680)
 
 
 ## Review
