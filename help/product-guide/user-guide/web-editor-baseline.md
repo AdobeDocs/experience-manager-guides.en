@@ -47,7 +47,11 @@ The baseline is created. The baseline creation happens asynchronously, so you ca
 In **Select the version based on,** select one of the following options:
 
 - **Date**  : Picks the topics' version as on the specified date and time.
-- **Label**: Select this option to pick the topics according to the label applied to them. If the topics have labels specified for them, the labels are listed in the dropdown. You can choose a label from the list. You can also add a label in the text box. 
+- **Label**: Select this option to pick the topics according to the label applied to them. If the topics have labels specified for them, the labels are listed in the dropdown. You can choose a label from the list. You can also add a label in the text box.
+
+    >[!NOTE]
+    >
+    > When choosing labels, the labels loader remains visible until all labels have been successfully fetched and fully loaded. Once loaded, the labels are displayed in a case-insensitive alphabetical order. They are retrieved in batches of 20, with infinite scrolling enabled in the dropdown to load additional batches as you scroll.  
 
     For the direct references in static baselines, the labels are pulled from the latest saved version of the map. For example, if you have created labels `Label Release 1.0` and `Label Release 1.1` for versions 1.0 and 1.1 of Topic A, and then add Topic A to the map saved as version 1.0. In this case, you can view the labels `Label Release 1.0` and `Label Release 1.1` in the dropdown for static baseline labels.
 
