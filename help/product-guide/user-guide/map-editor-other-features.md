@@ -1,11 +1,11 @@
 ---
-title: Other features in the map editors
-description: Discover some common features in the Map Editor. Learn how to resolve key references in the Map editor.
+title: Other features in the Map Editor
+description: Discover some common features in the Map Editor. Learn how to resolve key references in the Map Editor.
 exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
 ---
-# Additional features in the map editor {#id1942D0T0HUI}
+# Additional features in the Map Editor {#id1942D0T0HUI}
 
 Some common features in the Map Editor are:
 
@@ -34,5 +34,36 @@ This root map will be applicable for all assets \(folders and sub-folders\) asso
 **Topic preview** - In the topic preview mode, select the Key Resolution icon in the toolbar and select the DITA file to be used for key references.
 
 **Topic edit view** - Select the Key Resolution icon while editing a DITA topic and select the DITA file to use for resolving the key references.
+
+## Add navigation references
+
+The `navref` element is used inside a DITA map to include navigation references from another DITA map. This allows authors to reuse navigation structure, such as shared menus or links, without merging the actual content of the referenced map into the output.
+
+>[!NOTE]
+>
+> The `navref` element is intended solely for navigation purposes within the map structure. It does not contribute to the generated DITA map output and is excluded from processing and display in the Map view, Reports, Baseline, Translation, and Preview. 
+
+To add navigation references to a map, perform the followin steps:
+
+1. Open the DITA map file where you want to add a navigation reference.
+
+    The map file opens in the Map Editor.
+1. Switch to the Author view and place the cursor at a valid location for a navigation reference.
+1. Select the **Element** option from the toolbar.
+1. In the **Insert element** dialog, select **navref**.
+
+    ![](./images/select-navref-element.png)
+1. The **Select path** dialog is displyed. Select a map file you want to include as navigation reference in your map, and choose **Select**.
+
+A navigation reference of the selected map file is added at the specified location. Also, the title of referenced map is displayed in both Author view and Layout view. 
+    
+![](./images/navref-added-author-view.png) 
+
+*Author view*
+
+![](./images/navref-added-layout-view.png)
+
+*Layout view*
+
 
 **Parent topic:**[Introduction to the Map Editor](map-editor.md)
