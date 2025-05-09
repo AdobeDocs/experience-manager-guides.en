@@ -39,7 +39,7 @@ This root map will be applicable for all assets \(folders and sub-folders\) asso
 
 The `navref` element is used inside a DITA map to include navigation references from another DITA map. This allows authors to reuse navigation structure, such as shared menus or links, without merging the actual content of the referenced map into the output.
 
->[!NOTE]]
+>[!NOTE]
 >
 > The `navref` element is intended solely for navigation purposes within the map structure. It does not contribute to the generated DITA map output and is excluded from processing and display in the Map view, Reports, Baseline, Translation, and Preview. 
 
@@ -50,10 +50,10 @@ To add navigation references to a map, perform the followin steps:
     The map file opens in the Map Editor.
 1. Switch to the Author view and place the cursor at a valid location for a navigation reference.
 1. Select the **Element** option from the toolbar.
-1. In the Insert element dialog, select **navref**.
+1. In the **Insert element** dialog, select **navref**.
 
     ![](./images/select-navref-element.png)
-1. The **Select path** dialog is disaplyed. Select a map file you want to include as navigation reference in your map, and choose **Select**.
+1. The **Select path** dialog is displyed. Select a map file you want to include as navigation reference in your map, and choose **Select**.
 
 A navigation reference of the selected map file is added at the specified location. Also, the title of referenced map is displayed in both Author view and Layout view. 
     
