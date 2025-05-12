@@ -15,7 +15,9 @@ Follow the below mentioned steps to process or reprocess the assets
 
 1. Select the **Tools** icon on the left panel of the Experience Manager home page.
 1. Select **Guides** from the list and then select the **Assets Processor** Tile.
-![Guides-asset-processor](images/guides-asset-processor.png){width="550" align="left"}
+
+    ![flow-asset-processor](images/flow-asset-processor.png){width="550" align="left"}
+
 1. The Guides Asset Processor window opens with the following details:
 
     **Execution ID**: It is the unique Id for each reprocessing task that you perform.
@@ -30,7 +32,12 @@ Follow the below mentioned steps to process or reprocess the assets
 
     **Status**: Points to the status of migration as In progress, Completed or Cancelled.
 
-1. To start the process, select the **New Process** tab on the top right corner of the window.  
+    ![Guides-asset-processor](images/guides-asset-processor.png){width="550" align="left"}
+
+1. To start the process, select the **New Process** tab on the top right corner of the window.
+
+    ![Guides-asset-processor](images/new-process-asset-processor.png){width="550" align="left"}
+
 1. Select the folder you want to reprocess. You can also select the folders (within the parent selected folder) you want to exclude or ignore.
 
     >[!NOTE]
