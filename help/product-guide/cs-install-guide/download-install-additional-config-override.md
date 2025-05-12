@@ -36,6 +36,10 @@ For making any configuration updates, the following generic approach should be u
 
 ## Configure the Experience Manager Guides UI  
 
+>[!NOTE]
+>
+> The Penultimate UI setting, available until the 2504 release of Experience Manager Guides, has been deprecated. Starting from the 2506 release, you can no longer use this setting to switch back to the old UI.
+
 The 2025.02.0 release of Adobe Experience Manager Guides brings a revamped UI and enhanced features to help you work faster and more efficiently than ever before. This includes, an all-new home page, a cleaner and more organized editor toolbar, dedicated map console, and enhanced features. 
 
 To ensure a smooth transition and minimize disruptions, Experience Manager Guides provides a configuration option that allows you to switch back to the old UI ( and vice-versa) as needed. 

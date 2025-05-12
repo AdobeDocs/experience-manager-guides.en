@@ -28,7 +28,7 @@ A pop-up alert is now displayed when your Adobe Experience Manager session expir
 
 Experience Manager Guides features a redesigned **Download map** dialog in the Editor. This enhancement introduces a new **Use actual file names** option to the dialog and reorganizes the existing options under **Flatten file hierarchy** and **Retain file hierarchy**. These improvements give you better control over how your map files are named and structured during map.
 
-For more details, view []().
+For more details, view [Download files](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
 
 ## Enhanced `navref` handling in the Editor
