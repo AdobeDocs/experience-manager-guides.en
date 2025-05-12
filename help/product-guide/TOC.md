@@ -167,6 +167,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Create a map](./user-guide/map-editor-create-map.md)
         - [Create maps based on customized templates](./user-guide/create-maps-customized-templates.md)
         - [Map Editor features](./user-guide/map-editor-advanced-map-editor.md)
+        - [Download files](./user-guide/authoring-download-assets.md)
         - [Additional features in the Map Editor](./user-guide/map-editor-other-features.md)
     - DITAVAL editor {#ditaval-editor}
         - [Use the DITAVAL editor](./user-guide/ditaval-editor.md)
@@ -269,7 +270,8 @@ breadcrumb-title: AEM Guides Documentation
         - [Key concepts, roles and permissions, and pre-requisites](./user-guide/authoring.md)
         - [Upload files](./user-guide/authoring-upload-existing-files.md)
         - [Manage files and folders](./user-guide/authoring-file-management.md)
-        - [Download files](./user-guide/authoring-download-assets.md)
+    - Troubleshooting {#troubleshooting}
+        - [Session timeout notification in Experience Manager Guides](./user-guide/session-timeout-notification.md)
 - User Guide (Old UI) {#user-guide-old-ui}
   - [AEM Guides overview](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation and configuration {#install-guide}
