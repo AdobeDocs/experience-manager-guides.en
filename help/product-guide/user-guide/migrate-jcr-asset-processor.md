@@ -14,7 +14,7 @@ In data-intensive workflows such as publishing, efficient asset management is cr
 Follow the below mentioned steps to process or reprocess the assets
 
 1. Select the **Tools** icon on the left panel of the Experience Manager home page.
-1. Select **Guides** from the list and then select the **Assets Processor** Tile.
+1. Select **Guides** from the list and then select the **Asset Processor** Tile.
 
     ![flow-asset-processor](images/flow-asset-processor.png){width="550" align="left"}
 
@@ -46,4 +46,11 @@ Follow the below mentioned steps to process or reprocess the assets
 
 1. Select **Create**. You get a pop-up showing Success and the Process triggered successfully as shown in the snippet. 
 1. You can see the status of the migration process on the window. Additionally, you can restart the migration process by selecting the restart icon that appear on hovering in front of the Execution Id of the tasks you triggered.
+
+    ![restart-asset-processor](images/restart-asset-processor.png){width="550" align="left"}
+
 1. You can also view the logs of the migration process of your folder by selecting the View logs icon that appears hovering in front of the Execution Id of the tasks you triggered.
+
+    ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
+
+
