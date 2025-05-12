@@ -47,11 +47,11 @@ Follow the below mentioned steps to process or reprocess the assets
 1. Select **Create**. You get a pop-up showing Success and the Process triggered successfully as shown in the snippet. 
 
     ![Message-asset-processor](images/message-asset-processor.png){width="550" align="left"}
-1. You can see the status of the migration process on the window. Additionally, you can restart the migration process by selecting the restart icon that appear on hovering in front of the Execution Id of the tasks you triggered.
+1. You can see the status of the migration process on the window. Additionally, you can restart the migration process by selecting the **Restart** icon that appears on hovering adjacent to the Execution Id of the tasks you triggered.
 
     ![restart-asset-processor](images/restart-asset-processor.png){width="550" align="left"}
 
-1. You can also view the logs of the migration process of your folder by selecting the View logs icon that appears hovering in front of the Execution Id of the tasks you triggered.
+1. You can also view the logs of the migration process of your folder by selecting the **View logs** icon that appears on hovering  adjacent to the Execution Id of the tasks you triggered.
 
     ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
 
