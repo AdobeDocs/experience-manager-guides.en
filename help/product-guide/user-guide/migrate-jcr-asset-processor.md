@@ -36,15 +36,17 @@ Follow the below mentioned steps to process or reprocess the assets
 
 1. To start the process, select the **New Process** tab on the top right corner of the window.
 
-    ![Guides-asset-processor](images/new-process-asset-processor.png){width="550" align="left"}
+    ![New-process-asset-processor](images/new-process-asset-processor.png){width="550" align="left"}
 
-1. Select the folder you want to reprocess. You can also select the folders (within the parent selected folder) you want to exclude or ignore.
+1. Select the folder you want to process or reprocess. You can also select the folders (within the parent selected folder) which you want to exclude or ignore.
 
     >[!NOTE]
     >
-    > Only one folder can be selected at a given time. For specific operations you   can exclude multiple folders.
+    > Only one folder can be selected at a given time for processing. For specific operations, you can exclude multiple folders.
 
 1. Select **Create**. You get a pop-up showing Success and the Process triggered successfully as shown in the snippet. 
+
+    ![Message-asset-processor](images/message-asset-processor.png){width="550" align="left"}
 1. You can see the status of the migration process on the window. Additionally, you can restart the migration process by selecting the restart icon that appear on hovering in front of the Execution Id of the tasks you triggered.
 
     ![restart-asset-processor](images/restart-asset-processor.png){width="550" align="left"}
