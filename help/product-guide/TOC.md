@@ -479,6 +479,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Migrate content from non-uuid to UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
     - [Delta content migration](./knowledge-base/expert-sessions/migration-delta-content.md)
     - [Smarter PDF Publishing with Native PDF](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
+    - [New UX and AI Capabilities in AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
   - Articles {#kb-articles}
     - Authoring {#authoring}
       - Web Editor {#webeditor}
