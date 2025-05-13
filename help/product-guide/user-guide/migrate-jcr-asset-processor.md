@@ -11,10 +11,11 @@ In data-intensive workflows such as publishing, efficient asset management is cr
 
 ## Processing the assets
 
-Follow the below mentioned steps to process or reprocess the assets
+Follow the below mentioned steps to process or reprocess the assets:
 
-1. Select the **Tools** icon on the left panel of the Experience Manager home page.
-1. Select **Guides** from the list and then select the **Asset Processor** Tile.
+1. Select the Adobe Experience Manager logo at the top and choose **Tools**.
+1. In the **Tools** panel select **Guides**.
+1. Select the **Asset Processor** Tile.
 
     ![flow-asset-processor](images/flow-asset-processor.png){width="550" align="left"}
 
@@ -34,7 +35,7 @@ Follow the below mentioned steps to process or reprocess the assets
 
     ![Guides-asset-processor](images/guides-asset-processor.png){width="550" align="left"}
 
-1. To start the process, select the **New Process** tab on the top right corner of the window.
+1. Select **New Process** tab on the top right corner of the window to start a new processing task.
 
     ![New-process-asset-processor](images/new-process-asset-processor.png){width="550" align="left"}
 
@@ -44,14 +45,20 @@ Follow the below mentioned steps to process or reprocess the assets
     >
     > Only one folder can be selected at a given time for processing. For specific operations, you can exclude multiple folders.
 
-1. Select **Create**. You get a pop-up showing Success and the Process triggered successfully as shown in the snippet. 
+1. Select **Create**. You get a pop-up showing **Success and the Process triggered successfully** as shown in the snippet. The same is reflected in the list. You can see the status of the migration process on the window.
 
     ![Message-asset-processor](images/message-asset-processor.png){width="550" align="left"}
-1. You can see the status of the migration process on the window. Additionally, you can restart the migration process by selecting the **Restart** icon that appears on hovering adjacent to the Execution Id of the tasks you triggered.
+
+
+## Additional options for the processing tasks   
+
+Additional options are available for the processing task once it has been initiated. You can access these options by hovering over the Execution ID of your task. Details of these options are provided below:
+
+1. **Restart** : Restarts the asset processing task.
 
     ![restart-asset-processor](images/restart-asset-processor.png){width="550" align="left"}
 
-1. You can also view the logs of the migration process of your folder by selecting the **View logs** icon that appears on hovering  adjacent to the Execution Id of the tasks you triggered.
+1. **View logs**: Shows the logs for the asset processing task.
 
     ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
 
