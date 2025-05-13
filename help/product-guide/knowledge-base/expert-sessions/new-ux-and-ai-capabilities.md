@@ -22,9 +22,9 @@ In the content creation journey, delivering consistent, high-quality output depe
 ## Key takeaways
 
 In this session, we covered:
-- The redesigned personalized landing page for quick access to recent files, collections, and workfront.
+- The redesigned personalized landing page for quick access to recent files, collections, and workfront tasks.
 - Simplified navigation for transitions between authoring, publishing, and content management.
-- Dedicated map console that consolidates publishing, translation, and reporting tasks in one place.
+- Dedicated map console that consolidates publishing, translation, and reporting capabilities in one place.
 - Smarter content reuse through AI-driven suggestions.
 - Content enhancements such as translations, summaries, and real-time content improvements during authoring.
 - AI-driven Help panel providing contextual assistance within the authoring environment.
@@ -34,9 +34,9 @@ In this session, we covered:
 
 - [New Home page experience](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [AI Capabilities](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [AI Capabilities in AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [New Home page experience](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [Configure AI Assistant](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
