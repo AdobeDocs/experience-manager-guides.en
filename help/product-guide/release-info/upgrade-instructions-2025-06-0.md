@@ -13,20 +13,20 @@ For the list of issues fixed in this release, view [Fixed issues in the 2025.06.
 
 ## Compatibility matrix
 
-This section points the compatibility matrix for the software applications supported by the 2025.04.0 release of Experience Manager Guides as a Cloud Service. 
+This section points the compatibility matrix for the software applications supported by the 2025.06.0 release of Experience Manager Guides as a Cloud Service. 
 
 ### FrameMaker and FrameMaker Publishing Server
 
 | Experience Manager Guides as a Cloud Release| FMPS | FrameMaker |
 | --- | --- | --- |
-| 2025.04.0 | Not compatible | 2022 or higher |
+| 2025.06.0 | Not compatible | 2022 or higher |
 
 
 ### Oxygen Connector
 
 | Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
 | --- | --- | --- | --- | --- |
-| 2025.04.0| 3.8 -uuid 1|   3.8 -uuid 1 | 2.3 | 2.3 | 
+| 2025.06.0| 3.8 -uuid 1|   3.8 -uuid 1 | 2.3 | 2.3 | 
 
 
 ### Knowledge base template version
