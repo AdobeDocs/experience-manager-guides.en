@@ -54,11 +54,11 @@ Follow the below mentioned steps to process or reprocess the assets:
 
 Additional options are available for the processing task once it has been initiated. You can access these options by hovering over the Execution ID of your task. Details of these options are provided below:
 
-1. **Restart** : Restarts the asset processing task.
+- **Restart** : Restarts the asset processing task.
 
     ![restart-asset-processor](images/restart-asset-processor.png){width="550" align="left"}
 
-1. **View logs**: Shows the logs for the asset processing task.
+- **View logs**: Shows the logs for the asset processing task.
 
     ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
 
