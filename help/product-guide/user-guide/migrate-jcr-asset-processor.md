@@ -21,17 +21,17 @@ Follow the below mentioned steps to process or reprocess the assets:
 
 1. The Guides Asset Processor window opens with the following details:
 
-    **Execution ID**: It is the unique Id for each reprocessing task that you perform.
+    -   **Execution ID**: It is the unique Id for each reprocessing task that you perform.
 
-    **Folder**: Shows the folder selected for migration.
+    -   **Folder**: Shows the folder selected for migration.
 
-    **Excluded Folders**: Points to the folder that is excluded from migration.
+    -   **Excluded Folders**: Points to the folder that is excluded from migration.
 
-    **Start time:** Shows the date and time the migration process is initiated.
+    -   **Start time:** Shows the date and time the migration process is initiated.
 
-    **End Time**: Shows the date and time the migration process ends.
+    -   **End Time**: Shows the date and time the migration process ends.
 
-    **Status**: Points to the status of migration as In progress, Completed or Cancelled.
+    -   **Status**: Points to the status of migration as In progress, Completed or Cancelled.
 
     ![Guides-asset-processor](images/guides-asset-processor.png){width="550" align="left"}
 
