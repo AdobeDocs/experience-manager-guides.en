@@ -1,7 +1,7 @@
 ---
 title: New UX and AI Capabilities in AEM Guides
 description: Discover how the redesigned user experience and AI assistants in AEM Guides streamline authoring, enhance navigation, and bring real-time intelligence into your content workflows.
-
+exl-id: 26daaae5-1f10-42bf-91b5-93cdb6df6625
 ---
 # New UX and AI Capabilities in AEM Guides
 
