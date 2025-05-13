@@ -22,14 +22,11 @@ In the content creation journey, delivering consistent, high-quality output depe
 ## Key takeaways
 
 In this session, we covered:
-### UX Enhancements:
-- The redesigned personalized landing page for quick access to recent files, collections, and more
-- Simplified navigation for transitions between authoring, publishing, and content management
+- The redesigned personalized landing page for quick access to recent files, collections, and workfront.
+- Simplified navigation for transitions between authoring, publishing, and content management.
 - Dedicated map console that consolidates publishing, translation, and reporting tasks in one place.
-
-### AI Capabilities:
 - Smarter content reuse through AI-driven suggestions.
-- Content enhancements such as translations, summaries, and real-time content improvements during authoring
+- Content enhancements such as translations, summaries, and real-time content improvements during authoring.
 - AI-driven Help panel providing contextual assistance within the authoring environment.
 
 
