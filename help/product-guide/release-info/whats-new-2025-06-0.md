@@ -24,6 +24,10 @@ For more details, view [Understand the output presets](../user-guide/generate-ou
 
 A pop-up alert is now displayed when your Adobe Experience Manager session expires due to inactivity or auto logout. Upon resuming editing after an idle period, a pop-up alert is triggered to notify that the session has expired. This allows you to log back in or refresh before continuing, ensuring all edits are properly saved. This feature helps prevent accidental content loss and ensures a smoother, more reliable experience, even after extended periods of inactivity.
 
+![](assets/sign-out-prompt.png)
+
+For more details, view [Why does Experience Manager Guides log me out after session timeout](../user-guide/session-timeout-notification.md).
+
 ## Enhanced map download options in the Editor
 
 Experience Manager Guides features a redesigned **Download map** dialog in the Editor. This enhancement introduces a new **Use actual file names** option to the dialog and reorganizes the existing options under **Flatten file hierarchy** and **Retain file hierarchy**. These improvements give you better control over how your map files are named and structured during map.

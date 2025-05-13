@@ -86,6 +86,14 @@ Ensure that you are using the same name and configuration as given in the follow
  
 Setting the flag to **true** enables the functionality, while setting it to **false** disables it.
 
+## Add the GUIDES_AI_SITE_ID variable in the environment 
+
+Add the `GUIDES_AI_SITE_ID` variable in your environment (Cloud Manager) and set the value to `id_f651abc807c84f52b425737bb93f87ba` to enable it. 
+
+Ensure that you are using the same name and configuration as given in the following screenshot.
+
+![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+ 
 ## Apply changes to the environment
 
 Once you have added the IMS configuration and enabled the AI Assistant flag to the environment, perform the following steps to link these properties with AEM Guides using OSGi: 
