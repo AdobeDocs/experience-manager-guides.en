@@ -23,15 +23,15 @@ Follow the below mentioned steps to process or reprocess the assets:
 
     -   **Execution ID**: It is the unique Id for each reprocessing task that you perform.
 
-    -   **Folder**: Shows the folder selected for migration.
+    -   **Folder**: Shows the folder selected for reprocessing.
 
-    -   **Excluded Folders**: Points to the folder that is excluded from migration.
+    -   **Excluded Folders**: Points to the folder that is excluded from reprocessing.
 
-    -   **Start time:** Shows the date and time the migration process is initiated.
+    -   **Start time:** Shows the date and time the reprocessing process is initiated.
 
-    -   **End Time**: Shows the date and time the migration process ends.
+    -   **End Time**: Shows the date and time the reprocessing process ends.
 
-    -   **Status**: Points to the status of migration as In progress, Completed or Cancelled.
+    -   **Status**: Points to the status of reprocessing as In progress, Completed or Cancelled.
 
     ![Guides-asset-processor](images/guides-asset-processor.png){width="550" align="left"}
 
@@ -45,7 +45,7 @@ Follow the below mentioned steps to process or reprocess the assets:
     >
     > Only one folder can be selected at a given time for processing. For specific operations, you can exclude multiple folders.
 
-1. Select **Create**. You get a pop-up showing **Success and the Process triggered successfully** as shown in the snippet. The same is reflected in the list. You can see the status of the migration process on the window.
+1. Select **Create**. You get a pop-up showing **Success and the Process triggered successfully** as shown in the snippet. The same is reflected in the list. You can see the status of the reprocessing task on the window.
 
     ![Message-asset-processor](images/message-asset-processor.png){width="550" align="left"}
 
