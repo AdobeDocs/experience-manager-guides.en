@@ -33,4 +33,4 @@ The session expiry alert helps prevent data loss by restricting you from making 
 
 
 
-**Parent topic:**[Introduction to the Editor](web-editor.md)
+
