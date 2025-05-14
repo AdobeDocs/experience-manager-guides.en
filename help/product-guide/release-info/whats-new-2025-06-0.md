@@ -34,6 +34,8 @@ Experience Manager Guides features a redesigned **Download map** dialog in the E
 
 For more details, view [Download files](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
+![](assets/download-map-dialog-new.png){width="300" align="left"}
+
 
 ## Enhanced `navref` handling in the Editor
 
