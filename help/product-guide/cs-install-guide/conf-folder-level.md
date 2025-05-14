@@ -504,6 +504,10 @@ This setting enables you to create JSON extensions that reflect modifications ma
 
 Learn more about [customizing JSON configurations and converting UI configurations for the new AEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
+>[!NOTE]
+>
+> When customizing the app using the extension framework, it is recommended to use only the supported essential React Spectrum components such as Tree, Table, Checkbox, radio button and radio group, etc., to avoid any issues during the deployment. 
+
 **XML Editor page layout**
 
 This feature allows you to upload CSS files to style the new extensions uploaded under the **XML Editor UI Configuration**. The uploaded CSS is applied consistently across all relevant applications, ensuring a unified and polished appearance for your UI customizations. 
