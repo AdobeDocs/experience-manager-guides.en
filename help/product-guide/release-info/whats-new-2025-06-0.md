@@ -20,13 +20,13 @@ The `system_config.json` file contains key instance details, including the Autho
 
 For more details, view [Understand the output presets](../user-guide/generate-output-understand-presets.md).
 
-## Auto sign-out prompt to prevent accidental content loss
+## Session timeout prompt to prevent accidental content loss
 
 A pop-up alert is now displayed when your Adobe Experience Manager session expires due to inactivity or auto logout. Upon resuming editing after an idle period, a pop-up alert is triggered to notify that the session has expired. This allows you to log back in or refresh before continuing, ensuring all edits are properly saved. This feature helps prevent accidental content loss and ensures a smoother, more reliable experience, even after extended periods of inactivity.
 
 ![](assets/sign-out-prompt.png)
 
-Learn more about [auto sign-out prompt](../user-guide/auto-sign-out-prompt.md) in Experience Manager Guides. 
+Learn more about [session timeout prompt](../user-guide/session-timeout-prompt.md) in Experience Manager Guides. 
 
 ## Enhanced map download options in the Editor
 

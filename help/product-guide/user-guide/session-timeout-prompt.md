@@ -1,6 +1,6 @@
 ---
-title: Handling auto sign out issues in Experience Manager Guides 
-description: Get to know the auto sign out issue in Experience Manager Guides and its resolution. 
+title: Understanding the session timeouts in Experience Manager Guides 
+description: Get to know about sessions timeouts in Experience Manager Guides. 
 feature: Authoring, Publishing
 role: User
 
