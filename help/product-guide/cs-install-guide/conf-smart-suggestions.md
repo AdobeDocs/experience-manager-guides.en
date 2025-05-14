@@ -12,6 +12,7 @@ Perform the following steps to configure AI Assistant:
 1. [Create IMS configuration in Adobe Developer Console](#create-ims-configurations-in-adobe-developer-console).
 2. [Add IMS configurations to environment](#add-ims-configuration-to-the-environment)
 3. [Enable AI flag in the environment](#enable-ai-flag-in-the-environment)
+4. [Add the GUIDES_AI_SITE_ID variable in the environment](#add-the-guides_ai_site_id-variable-in-the-environment)
 4. [Apply changes to the environment](#apply-changes-to-the-environment)
 5. [Enable AI Assistant in Folder Profile](#enable-ai-assistant-in-folder-profile)
 6. [Configure Smart Suggestions in Folder Profile](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
@@ -146,9 +147,8 @@ For details, refer to [Configure Smart Suggestions in Folder Profile](./conf-fol
   "related.link.threshold":0.5,
   "emerald.url":"https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1",
   "instance.type":"prod",
-  "chat.url":"https://aem-guides-ai-v2.adobe.io",
-  “site.id”: “id_f651abc807c84f52b425737bb93f87ba”
-}
+  "chat.url":"https://aem-guides-ai-v2.adobe.io"
+  }
 ```
 
 ## AI Assistant configuration details
@@ -159,7 +159,6 @@ For details, refer to [Configure Smart Suggestions in Folder Profile](./conf-fol
 |conref.block.threshold|Threshold that controls precision/recall of suggestions fetched for tags across the entire file.|Any value from -1.0 to 1.0.|0.7|
 |emerald.url|Endpoint for the Smart Suggestion vector database|[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|[https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1)|
 |chat.url|Endpoint for the AI assistant service|[https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io)|[https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io)|
-|site.id|Identifier for the context containing indexed AEM Guides documentation pages.|id_f651abc807c84f52b425737bb93f87ba|id_f651abc807c84f52b425737bb93f87ba|
 |instance.type|Type of the AEM instance. Make sure this is unique for each AEM instance that the smart suggestions is configured on. A use case would be to test the feature on stage environment with "instance.type" = "stage" while at the same time, the feature is also configured on "prod".|Any unique key identifying the environment. Only *alpha numeric* values are allowed. "dev"/"stage"/"prod"/"test1"/"stage2"|"prod"|
 
 Once you have configured, the AI Assistant icon is displayed in the Home page and Editor of the Experience Manager Guides. For more details, view [AI Assistant](../user-guide/ai-assistant.md) section in the Experience Manager User Guide.
