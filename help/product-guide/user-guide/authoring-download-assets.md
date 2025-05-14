@@ -26,11 +26,20 @@ Perform the following steps to download a DITA map file from the Editor:
 
 1. In the Download Map dialog, you can choose the following options:
 
-    -   **Use baseline**: Select this option to get a list of Baselines created for the DITA map. If you want to download the map file and its contents based on a specific Baseline, select the Baseline from the drop-down list. For more details about working with Baselines, view [Work with Baseline](generate-output-use-baseline-for-publishing.md#).
+    - **Use baseline**: Select this option to get a list of Baselines created for the DITA map. If you want to download the map file and its contents based on a specific Baseline, select the Baseline from the drop-down list. For more details about working with Baselines, view [Work with Baseline](generate-output-use-baseline-for-publishing.md#).
     
-    - **Use GUID file name**: Select this option to download the map file with the GUID file name. This option is available for both **Retain file hierarchy** and **Flatten file hierarchy**.
-    - **Use actual file name** Select this option to download the map file with its actual file name. This option is available only for the **Retain file hierarchy**.
+    - **File hierarchy options**: When downloading files, you can choose how the folder structure is handled using the File Hierarchy dropdown. The available options are:
+    
+        - **Retain file hierarchy**: Select this option from the dropdown to retain the existing folder structure for the downloaded files in your system. 
 
+            The options available under this method are as follows:
+
+            - **Use GUID file name** – Downloads the map file with GUID as file name.
+
+            - **Use actual file name** – Downloads the map file with its original file name.
+
+        - **Flatten file hierarchy**: Select this option from the dropdown to download all referenced topics and media files in a single folder. Only the **Use GUID file name** option is available for map files when using this method. 
+    
     >[!NOTE]
     >
     > You can also download the map file without selecting any option. In that case, the last persisted version of the referenced topics and media files are downloaded.
