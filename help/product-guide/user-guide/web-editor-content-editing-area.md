@@ -11,7 +11,7 @@ The content editing area is where the content of your topic or map is displayed.
 
 At the bottom-left of the content editing area, you have the breadcrumb of the element at current cursor location. In the bottom-right corner, the available Editor views are displayed.
 
-![](images/content-editing-area.png){width="800" align="left"}
+![](images/content-editing-area.png)
 
 To learn more about the Editor views available for a topic file in the content editing area, view [Editor views](./web-editor-views.md).
 
