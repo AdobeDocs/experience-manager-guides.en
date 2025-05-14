@@ -82,7 +82,7 @@ The **Version history** feature in the Editor allows you to check the available 
 
     >[!NOTE]
     >
-    > Your system administrator can change the metadata to be shown from the Metadata tab in the **Settings**. For details, refer to the **More actions** section of the [Tab bar](#tab-bar).
+    > Your system administrator can change the metadata to be shown from the Metadata tab in the **Settings**. For details, refer to the **More actions** section of the [Tab bar](./web-editor-tab-bar.md).
 
     You can also view the user and time details of the current and the compared version.
   
@@ -126,7 +126,7 @@ There are different methods through which you can apply labels to your topics - 
 
     The Version Label Management dialog box is displayed.
 
-    ![](images/version-label-management-dialog.png){width="650" align="left"}
+    ![](images/version-label-management-dialog.png){width="350" align="left"}
 
     The Version Label Management dialog box is split into two parts — the left panel has a list of versions available for the topic along with label drop-down list \(or a text box to enter a label\) and the right panel with a preview of the topic.
 
@@ -243,7 +243,7 @@ If you want to accept or reject all changes with a single click, select **Accept
 
 >[!NOTE]
 >
-> The Preview mode allows you to view the document with or without the changed content's markups. For more details, view the [Preview](web-editor-views.md#preview-mode-id19AAGL00163) mode.
+> The Preview mode allows you to view the document with or without the changed content's markups. For more details, view the [Preview](web-editor-views.md#preview-mode) mode.
 
 **Tags**
 
@@ -371,7 +371,7 @@ Inserts an image at the current or next valid location. Select the Image icon to
 
 >[!NOTE]
 >
-> You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the **Upload Assets** workflow.  For more details, view the **Upload Assets** workflow in the [Left panel](#left-panel) section. 
+> You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the **Upload Assets** workflow.  For more details, view the **Upload Assets** workflow in the [Left panel](./web-editor-left-panel.md) section. 
 
 
 ![](images/insert-image.png){width="300" align="left"}
