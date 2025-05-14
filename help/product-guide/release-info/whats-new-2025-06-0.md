@@ -12,7 +12,7 @@ For the list of issues fixed in this release, view [Fixed issues in the 2025.06.
 
 Learn about [upgrade instructions for the 2025.06.0  release](../release-info/upgrade-instructions-2025-06-0.md).
 
-## System configuration file now included in the temporary files generated for presets
+## System configuration file now included in the published output under temporary files 
 
 The latest publishing enhancements to Experience Manager Guides now adds a new `system_config.json` file to the temporary files generated while publishing HTML, PDF, and JSON outputs using DITA-OT, as well as Native PDF output. This file is automatically included when you enable the **Retain temporary files** option for the presets and generate the output.
 
@@ -20,13 +20,13 @@ The `system_config.json` file contains key instance details, including the Autho
 
 For more details, view [Understand the output presets](../user-guide/generate-output-understand-presets.md).
 
-## Session timeout notifications to prevent accidental content loss
+## Auto sign-out prompt to prevent accidental content loss
 
 A pop-up alert is now displayed when your Adobe Experience Manager session expires due to inactivity or auto logout. Upon resuming editing after an idle period, a pop-up alert is triggered to notify that the session has expired. This allows you to log back in or refresh before continuing, ensuring all edits are properly saved. This feature helps prevent accidental content loss and ensures a smoother, more reliable experience, even after extended periods of inactivity.
 
 ![](assets/sign-out-prompt.png)
 
-For more details, view [Why does Experience Manager Guides log me out after session timeout](../user-guide/session-timeout-notification.md).
+Learn more about [auto sign-out prompt](../user-guide/auto-sign-out-prompt.md) in Experience Manager Guides. 
 
 ## Enhanced map download options in the Editor
 
