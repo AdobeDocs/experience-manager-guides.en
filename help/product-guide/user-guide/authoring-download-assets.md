@@ -28,7 +28,7 @@ Perform the following steps to download a DITA map file from the Editor:
 
     - **Use baseline**: Select this option to get a list of Baselines created for the DITA map. If you want to download the map file and its contents based on a specific Baseline, select the Baseline from the drop-down list. For more details about working with Baselines, view [Work with Baseline](generate-output-use-baseline-for-publishing.md#).
     
-    - **File hierarchy options**: When downloading files, you can choose how the folder structure is handled using the File Hierarchy dropdown. The available options are:
+    - **File hierarchy options**: Select this option to choose how the folder structure is handled for your downloaded map files using the file hierarchy dropdown. The available options are:
     
         - **Retain file hierarchy**: Select this option from the dropdown to retain the existing folder structure for the downloaded files in your system. 
 
