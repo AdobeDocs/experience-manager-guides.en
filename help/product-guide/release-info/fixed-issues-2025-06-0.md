@@ -40,4 +40,6 @@ Adobe has identified the following known issues for the 2025.06.0 release:
 
 - With the **Tags View** off, any text typed after a `codeblock` after pressing the downward arrow key is moving the text into a new `p` element, instead of continuing inline after the code block. (GUIDES-29083)
 - When using the **Find and Replace** option, after applying the **Replace Single Occurrence** operation on a file for the first instance, no further actions can be performed on the remaining files. (GUIDES-28930)
+- In a folder profile, when an already indexed asset is deleted from the UI, the corresponding indexed path is not removed, and an attempt to re-index fails with an error message. (GUIDES-29147)
+- If a map contains cyclic dependencies and the user opens the Map Preview, the Source, Author, and Layout views become inaccessible until the page is refreshed. (GUIDES-28334)
 
