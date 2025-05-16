@@ -20,6 +20,7 @@ Learn about [upgrade instructions for the 2025.06.0 release](upgrade-instruction
 - When adding a map to the `bookmap`, it gets stored in `fmditatopicrefs` instead of `fmditamaprefs`. (GUIDES-25480)
 - The **Insert image** dialog fails to render correctly on a high-resolution or zoomed-out screens causing the figure title and alternate text fields to disappear. (GUIDES-26459)
 
+
 ## Publishing
 
 - Native PDF publishing continues indefinitely, if the DITA content has a weblink without having scope as `external`. (GUIDES-26434) 
@@ -28,6 +29,7 @@ Learn about [upgrade instructions for the 2025.06.0 release](upgrade-instruction
 - When generating AEM Site pages with titles that include multiple words separated by spaces, the map title displays hyphens instead of spaces. (GUIDES-27903)
 - For Native PDF, an invalid metadata property name is not getting resolved and is displayed as `unresolved property name` in **document properties**. (GUIDES-25680)
 - Multi-line text within `codeblock` causes text overflow issues during PDF generation. (GUIDES-15541)
+- When adding maps to the map collection, assets other than maps (likes topics etc.) are displayed, and the translated map languages are also not properly sorted.(GUIDES-25085)
 
 
 ## Review
