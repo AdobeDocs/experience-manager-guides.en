@@ -55,6 +55,10 @@ Perform the following steps to review a topic:
 
     -   **G**: Number of comments received on a topic. This number changes based on the filter that you apply.
 
+    >[!NOTE]
+    >
+    > All screen resolutions more than 1600px are compatible with the default panel (left and right) widths, meaning no horizontal scroll bar will appear in these cases and the content doesn't gets wrapped in the document view. Also you can always resize the screen to maintain the appropriate document view in the Review UI.
+
     All topics in the map are shown as a single composite document. The topics that the reviewer is allowed to review are shown normally. The topics that the review is not allowed to review are not shown.
 
     ![](images/review-read-only.png){align="left"}
