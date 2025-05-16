@@ -12,7 +12,7 @@ For the list of issues fixed in this release, view [Fixed issues in the 2025.06.
 
 Learn about [upgrade instructions for the 2025.06.0  release](../release-info/upgrade-instructions-2025-06-0.md).
 
-## Published output now includes Author and Publish URLs through new config file
+## Temporary files for published output now includes Author and Publish URLs through new config file
 
 The latest publishing enhancements to Experience Manager Guides now adds a new `system_config.json` file to the temporary files generated while publishing HTML, PDF, and JSON outputs using DITA-OT, as well as Native PDF output. This file is automatically included when you enable the **Retain temporary files** option for the presets and generate the output.
 
@@ -39,6 +39,6 @@ For more details, view [Download files](../user-guide/authoring-download-assets.
 
 ## Enhanced `navref` handling in the Editor
 
-The latest enhancements to the Editor improve the handling of `navref` elements in a DITA map. Now, when you add a `navref` element to a map, the **Select path** dialog opens, allowing you to easily choose the map references to include as navigation links in your map. Once added, the title of the added map is displayed in both Author view and Layout view, providing better visibility of the included navigation during authoring. The added `navref` element links are also automatically shown and updated in the Editor.
+The latest enhancements to the Editor improve the handling of `navref` elements in a DITA map. Now, when you add a `navref` element to a map, the **Select path** dialog opens, allowing you to easily choose the map references to include as navigation links in your map. Once added, the title of the added map is displayed in both Author view and Layout view, providing better visibility of the included navigation during authoring.  Additionally, the added `navref` element resolves automatically to display the referred map in the Editor.
 
 For more details, view [Add navigation references](../user-guide/map-editor-other-features.md#add-navigation-references).
