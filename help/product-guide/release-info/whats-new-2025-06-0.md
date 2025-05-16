@@ -12,7 +12,7 @@ For the list of issues fixed in this release, view [Fixed issues in the 2025.06.
 
 Learn about [upgrade instructions for the 2025.06.0  release](../release-info/upgrade-instructions-2025-06-0.md).
 
-## Temporary files for published output now includes Author and Publish URLs through new config file
+## Temporary files for published output now include Author and Publish URLs in a new config file
 
 The latest publishing enhancements to Experience Manager Guides now adds a new `system_config.json` file to the temporary files generated while publishing HTML, PDF, and JSON outputs using DITA-OT, as well as Native PDF output. This file is automatically included when you enable the **Retain temporary files** option for the presets and generate the output.
 
