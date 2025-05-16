@@ -29,7 +29,8 @@ Before getting started, ensure that:
 
 >[!NOTE]
 >
-> In the above table, the choices represent the options available under the **Task type** field. For each option, you would require to provide the **task name** and **task value**. The name and values for each task type must be exactly same as mentioned in the above table. For example, for task type Author, provide **Authoring** as name and **AUTHOR** as its corresponding value.  
+> In the above table, the choices represent the options available under the **Task type** field. For each option, you would require to provide the **task name** and **task value**. The name and values for each task type must be exactly same as mentioned in the above table. For example, for task type Author, provide **Authoring** as name and **AUTHOR** as its corresponding value.
+> When working with on-prem services, always ensure that `localhost` is replaced with the correct server address in the **Day CQ Link Externalizer** configuration to properly receive the Review URL.  
 
 ## Get started 
 
