@@ -14,7 +14,7 @@ Learn about [upgrade instructions for the 2025.06.0  release](../release-info/up
 
 ## Temporary files for published output now include Author and Publish URLs in a new config file
 
-The latest publishing enhancements to Experience Manager Guides now adds a new `system_config.json` file to the temporary files generated while publishing HTML, PDF, and JSON outputs using DITA-OT, as well as Native PDF output. This file is automatically included when you enable the **Retain temporary files** option for the presets and generate the output.
+The latest publishing enhancements to Experience Manager Guides now adds a new `system_config.json` file to the temporary files generated while publishing HTML, PDF, and JSON outputs using DITA-OT, as well as Native PDF output. This file is automatically included in the publishing job and also accessible through temporary files when you enable the **Retain temporary files** option for the presets and generate the output.
 
 The `system_config.json` file contains key instance details, including the Author URL, Local URL, and Publish URL, which provide clearer context and improve the traceability of the downloaded URLs.
 
@@ -22,7 +22,7 @@ For more details, view [Understand the output presets](../user-guide/generate-ou
 
 ## Session timeout prompt to prevent accidental content loss
 
-A pop-up alert is now displayed when your Adobe Experience Manager session expires due to inactivity or auto logout. Upon resuming editing after an idle period, a pop-up alert is triggered to notify that the session has expired. This allows you to log back in or refresh before continuing, ensuring all edits are properly saved. This feature helps prevent accidental content loss and ensures a smoother, more reliable experience, even after extended periods of inactivity.
+A pop-up alert is now displayed when your Adobe Experience Manager session expires and you are logged out due to inactivity. Upon resuming editing after an idle period, a pop-up alert is triggered to notify that the session has expired. This allows you to log back in or refresh before continuing, ensuring all edits are properly saved. This feature helps prevent accidental content loss and ensures a smoother, more reliable experience, even after extended periods of inactivity.
 
 ![](assets/sign-out-prompt.png)
 
