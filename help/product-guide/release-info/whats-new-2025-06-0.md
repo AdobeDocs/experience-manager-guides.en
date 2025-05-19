@@ -22,7 +22,7 @@ For more details, view [Understand the output presets](../user-guide/generate-ou
 
 ## Session timeout prompt to prevent accidental content loss
 
-A pop-up alert is now displayed when your Adobe Experience Manager session expires and you are logged out due to inactivity. Upon resuming editing after an idle period, a pop-up alert is triggered to notify that the session has expired. This allows you to log back in or refresh before continuing, ensuring all edits are properly saved. This feature helps prevent accidental content loss and ensures a smoother, more reliable experience, even after extended periods of inactivity.
+A pop-up message now notifies you when your Adobe Experience Manager session expires and you are logged out due to inactivity. This message is triggered when you attempt to edit content in Experience Manager Guides after the session has ended. The feature helps reduce the risk of losing unsaved work and enhances the overall reliability and fluidity of the experience, even during periods of inactivity.
 
 ![](assets/sign-out-prompt.png)
 
