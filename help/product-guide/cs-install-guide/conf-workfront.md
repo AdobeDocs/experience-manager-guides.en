@@ -25,7 +25,8 @@ Before getting started, ensure that:
     |Single-select dropdown | Task State | task-state  | Authoring (value = AUTHOR), Review (value = REVIEW)| 
     |Text with formatting|Author List   | author-list  |  - | 
     |Text with formatting|Reviewer List   | reviewer-list  | -  |
-    |Single line text| Review URL   | review-url  | - |
+    |Single line text| Task URL   | task-url  | - |
+    |Single Line Text | Email subject  | email-subject  | - |
 
 >[!NOTE]
 >
