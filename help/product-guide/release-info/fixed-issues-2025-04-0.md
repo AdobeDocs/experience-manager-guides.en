@@ -59,10 +59,10 @@ Adobe has identified the following known issues for the 2025.04.0 release:
 
 The following known issue can be resolved using given the workaround:
 
-###Issue:
+### Issue
 
 In AEM Sites output, images break when Baseline is not applied while publishing. (28043)
 
-###Workaround: 
+### Workaround
 
 You can publish such assets from **Assets UI**, post which the link becomes operational.
