@@ -56,7 +56,13 @@ Adobe has identified the following known issues for the 2025.04.0 release:
 - Switching between presets that use the same Baseline deactivates the **Save** button for the current preset. (28025) 
 - A topic within a DITA map fails to publish in the AEM Sites output when it is being used as both `keydef` and `topicref` within its submaps. (22269)
 - An application error occurs when multiple topics of a map are edited and then closed using the **Close all** option, with the **Ask on save version on close** setting enabled.(27931)
-- In AEM Sites output, images break when Baseline is not applied while publishing. (28043)
-  
-  **Workaround:** 
-  You can publish such assets from **Assets UI**, post which the link becomes operational.
+
+The following known issue can be resolved using given the workaround:
+
+###Issue:
+
+In AEM Sites output, images break when Baseline is not applied while publishing. (28043)
+
+###Workaround: 
+
+You can publish such assets from **Assets UI**, post which the link becomes operational.
