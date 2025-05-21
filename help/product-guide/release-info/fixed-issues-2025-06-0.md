@@ -45,7 +45,7 @@ Adobe has identified the following known issue for the 2025.06.0 release:
 Adobe has identified the following known issues with a workaround:
 
 +++In a folder profile, when an already indexed asset is deleted from the UI, the corresponding indexed path is not removed, and an attempt to re-index fails with an error message. (GUIDES-29147)
-***Workaround:*** You must remove the obsolete path that no longer exists from the Guides before initiating re-indexing.
+***Workaround:*** You must remove the obsolete path that no longer exists before initiating the re-indexing.
 
 +++
 
