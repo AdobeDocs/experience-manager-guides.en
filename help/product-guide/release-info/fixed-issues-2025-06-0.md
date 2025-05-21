@@ -36,7 +36,7 @@ Learn about [upgrade instructions for the 2025.06.0 release](upgrade-instruction
 
 - The document view in the Review UI does not wrap the content for some screen sizes, requiring users to scroll horizontally to view the full content. (GUIDES-25292)
 
-## Known Issues
+<!--## Known Issues
 
 Adobe has identified the following known issue for the 2025.06.0 release:
 
@@ -52,5 +52,17 @@ Adobe has identified the following known issues with a workaround:
 +++If a map contains cyclic dependencies and you open the Map Preview, the Source, Author, and Layout views become inaccessible until the page is refreshed. (GUIDES-28334)
 ***Workaround:*** You must refresh the page to restore access to these views.
 
-+++
++++-->
+
+## Known Issues
+
+Adobe has identified the following known issue for the 2025.06.0 release:
+
+- When using the **Find and Replace** option, after applying the **Replace Single Occurrence** operation on a file, no further actions can be performed in the **Find and Replace** panel. (GUIDES-28930)
+
+- In a folder profile, when an already indexed asset is deleted from the UI, the corresponding indexed path is not removed, and an attempt to re-index fails with an error message. (GUIDES-29147)
+***Workaround:*** You must remove the obsolete path that no longer exists before initiating the re-indexing.
+
+- If a map contains cyclic dependencies and you open the Map Preview, the Source, Author, and Layout views become inaccessible until the page is refreshed. (GUIDES-28334)
+***Workaround:*** You must refresh the page to restore access to these views.
 
