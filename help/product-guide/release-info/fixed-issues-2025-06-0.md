@@ -38,10 +38,19 @@ Learn about [upgrade instructions for the 2025.06.0 release](upgrade-instruction
 
 ## Known Issues
 
-Adobe has identified the following known issues for the 2025.06.0 release:
+Adobe has identified the following known issue for the 2025.06.0 release:
 
-- With the **Tags View** off, any text typed after a `codeblock` after pressing the downward arrow key is moving the text into a new `p` element, instead of continuing inline after the code block. (GUIDES-29083)
-- When using the **Find and Replace** option, after applying the **Replace Single Occurrence** operation on a file for the first instance, no further actions can be performed on the remaining files. (GUIDES-28930)
-- In a folder profile, when an already indexed asset is deleted from the UI, the corresponding indexed path is not removed, and an attempt to re-index fails with an error message. (GUIDES-29147)
-- If a map contains cyclic dependencies and the user opens the Map Preview, the Source, Author, and Layout views become inaccessible until the page is refreshed. (GUIDES-28334)
+- When using the **Find and Replace** option, after applying the **Replace Single Occurrence** operation on a file, no further actions can be performed in the **Find and Replace** panel. (GUIDES-28930)
+
+Adobe has identified the following known issues with a workaround:
+
++++In a folder profile, when an already indexed asset is deleted from the UI, the corresponding indexed path is not removed, and an attempt to re-index fails with an error message. (GUIDES-29147)
+***Workaround:*** You must remove the obsolete path that no longer exists from the Guides before initiating re-indexing.
+
++++
+
++++If a map contains cyclic dependencies and you open the Map Preview, the Source, Author, and Layout views become inaccessible until the page is refreshed. (GUIDES-28334)
+***Workaround:*** You must refresh the page to restore access to these views.
+
++++
 
