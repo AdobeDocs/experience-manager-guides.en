@@ -50,6 +50,7 @@ Product updates in terms of new features, enhancements, and bug fixes for suppor
 | Release |Event |Schedule |What's new | Upgrade instructions | Status|
 |---|---|---|---|---|---|
 |Adobe Experience Manager Guides 5.0.0|Service Pack 1|June 04, 2025|||Target|
+|Adobe Experience Manager Guides 5.1.0|Release|~ August, 2025|||Target|
 
 ### Live releases
 
