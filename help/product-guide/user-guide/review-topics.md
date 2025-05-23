@@ -89,7 +89,7 @@ When you view a single topic, then you get an additional option to switch back t
 
 >[!NOTE]
 >
-> All screen resolutions more than 1600px are compatible with the default panel (left and right) widths, meaning no horizontal scroll bar will appear in these cases and the content doesn't gets wrapped in the document view. Also you can always resize the screen to maintain the appropriate document view in the Review UI.
+> Any screen resolution greater than 1600px is compatible with the default panel widths (left and right), ensuring that no horizontal scroll bar appears and the content remains properly aligned in the document view. Also you can always resize the screen to maintain the appropriate document view in the Review UI.
 
 
 
