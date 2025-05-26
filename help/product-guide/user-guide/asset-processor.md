@@ -47,8 +47,8 @@ Follow the below mentioned steps to process or reprocess the assets:
 
     >[!NOTE]
     >
-    > * Only one folder can be selected at a given time for processing. For specific operations, you can exclude multiple folders.
-    > * The system supports adding multiple requests for processing but processes them one at a time to manage memory usage efficiently. 
+    >Only one folder can be selected at a given time for processing. For specific operations, you can exclude multiple folders.
+    <!-->> * The system supports adding multiple requests for processing but processes them one at a time to manage memory usage efficiently.-->
 
 1. Select **Create**. You get a pop-up showing **Success and the Process triggered successfully** as shown in the snippet. The same is reflected in the list. You can see the status of the reprocessing task on the window.
 
