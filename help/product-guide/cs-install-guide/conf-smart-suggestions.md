@@ -79,7 +79,7 @@ Perform the following steps to add IMS configuration to the environment:
 
 ## Enable AI flag in the environment 
 
-To enable the AI Assistant feature on the Experience Manager Guides UI, add the `ENABLES_GUIDES_AI` flag in the environment. 
+To enable the AI Assistant feature on the Experience Manager Guides UI, add the `ENABLE_GUIDES_AI` flag in the environment. 
 
 Ensure that you are using the same name and configuration as given in the following screenshot.
 
