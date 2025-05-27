@@ -14,6 +14,10 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2025 Releases {#2025-releases}
+        - 2025.06.0 Release {#2506-release} 
+          - [What's new](./release-info/whats-new-2025-06-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2025-06-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2025-06-0.md)
         - 2025.04.0 Release {#2504-release} 
           - [What's new](./release-info/whats-new-2025-04-0.md)
           - [Fixed issues](./release-info/fixed-issues-2025-04-0.md)
@@ -270,6 +274,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Key concepts, roles and permissions, and pre-requisites](./user-guide/authoring.md)
         - [Upload files](./user-guide/authoring-upload-existing-files.md)
         - [Manage files and folders](./user-guide/authoring-file-management.md)
+        - [Process or reprocess assets](./user-guide/asset-processor.md)
     - Troubleshooting {#troubleshooting}
         - [Session timeout](./user-guide/session-timeout-prompt.md)
 - User Guide (Old UI) {#user-guide-old-ui}
