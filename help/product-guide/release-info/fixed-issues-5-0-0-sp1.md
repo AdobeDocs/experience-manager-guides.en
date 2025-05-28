@@ -13,7 +13,7 @@ Learn about [upgrade instructions for the 4.6.0 Service Pack 4 release](upgrade-
 ## Authoring
 
 - When content is pasted into a code block or when spaces are added in the code block and the view is switched, the spacing is lost. (GUIDES-27478)
-- In a <codeblock>, wrapping words with inline tags like <b>, <i>, or <varname> in the Source Editor removes surrounding spaces after switching views.
+- In a `codeblock`, wrapping words with inline tags like `b`, `i`, or `variable name` in the Source Editor removes surrounding spaces after switching views.
 
 ## Asset Management
 
