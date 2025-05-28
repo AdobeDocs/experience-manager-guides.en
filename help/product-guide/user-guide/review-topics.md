@@ -55,6 +55,7 @@ Perform the following steps to review a topic:
 
     -   **G**: Number of comments received on a topic. This number changes based on the filter that you apply.
 
+    
     All topics in the map are shown as a single composite document. The topics that the reviewer is allowed to review are shown normally. The topics that the review is not allowed to review are not shown.
 
     ![](images/review-read-only.png){align="left"}
@@ -85,6 +86,12 @@ Perform the following steps to review a topic:
 **Document view and topic view** - By default, if multiple topics are shared for review, then a composite document view of topics is shown to the reviewers. In case of a DITA map review, all topics in the map are presented in the form of a single document, resembling a book view. If you want, you can also select a particular topic and only that topic is then shown on the review screen.
 
 When you view a single topic, then you get an additional option to switch back to the document view. In the following screenshot, a particular topic from a map file is opened for review. The highlighted option — **Show Document View** allows user to switch back to the document view of the map file.
+
+>[!NOTE]
+>
+> Any screen resolution with a width greater than 1600px is compatible with the default panel widths (left and right), ensuring that no horizontal scroll bar appears and the content remains properly aligned in the document view. Also you can always resize the screen to maintain the appropriate document view in the Review UI.
+
+
 
 ![](images/switch-document-view.png){align="left"}
 

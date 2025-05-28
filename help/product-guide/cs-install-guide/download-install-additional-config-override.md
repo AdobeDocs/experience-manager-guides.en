@@ -42,7 +42,7 @@ To ensure a smooth transition and minimize disruptions, Experience Manager Guide
 
 >[!IMPORTANT]
 >
-> This configuration option to switch between the new and old UI will be available until the 2025.4.0 release. After that, the new UI will become the default, and the option to switch back to the previous UI will no longer be supported.
+> This configuration option to switch between the new and old UI was supported until the 2025.4.0 release. With the 2025.6.0 release, this setting is deprecated and can no longer be used to revert to the old UI.
 
 Perform the following steps to configure Experience Manager Guides UI: 
 

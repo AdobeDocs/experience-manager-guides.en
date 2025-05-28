@@ -374,7 +374,7 @@ Inserts an image at the current or next valid location. Select the Image icon to
 > You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the **Upload Assets** workflow.  For more details, view the **Upload Assets** workflow in the [Left panel](./web-editor-left-panel.md) section. 
 
 
-![](images/insert-image.png){width="300" align="left"}
+![](images/insert-image-new-dialog.png){width="300" align="left"}
 
 You can add an image/Figure Title and Alternate Text for the image in the Insert Image dialog box.
 
