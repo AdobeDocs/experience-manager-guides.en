@@ -4,6 +4,7 @@ description: Learn how to process assets
 feature: Migration
 role: Admin
 level: Experienced
+exl-id: 27786098-119c-4b7a-8275-8a89d435294f
 ---
 # Processing or reprocessing assets
 
@@ -73,7 +74,3 @@ Additional options are available for the processing task once it has been initia
 - **View logs**: Shows the logs for the asset processing task. For in-progress tasks, the  log shows detailed processing info, including estimated time remaining and asset status. This log list displays up to the latest 500 entries. The full log can be downloaded.
 
     ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
-
-
-
-

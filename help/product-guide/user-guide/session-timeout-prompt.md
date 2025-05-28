@@ -1,9 +1,9 @@
 ---
-title: Understanding the session timeouts in Experience Manager Guides 
-description: Get to know about sessions timeouts in Experience Manager Guides. 
+title: Understanding the session timeouts in Experience Manager Guides
+description: Get to know about sessions timeouts in Experience Manager Guides.
 feature: Authoring, Publishing
 role: User
-
+exl-id: f09b1215-4753-4dfd-89ef-1629257e5efe
 ---
 # Why does Experience Manager Guides sign me out after certain period of time? 
 
@@ -29,8 +29,3 @@ When an inactive session is detected:
 **Next steps**
 
 The session expiry alert helps prevent data loss by restricting you from making changes to the application during an inactive session. To avoid accidental loss of content, it is recommended that you save your work regularly in the Editor, especially before stepping away from your system for an extended period.
-
-
-
-
-
