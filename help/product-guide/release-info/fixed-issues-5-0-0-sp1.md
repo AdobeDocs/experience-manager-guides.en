@@ -27,7 +27,7 @@ Learn about [upgrade instructions for the 5.0.0 Service Pack 1 release](upgrade-
 
 ## Publishing
 
-- When modifying the settings of an output preset within the folder profile and selecting Apply Preset Changes, the changes are not propagated to the output presets present in the DITA map. (GUIDES-26694)
+- When modifying the settings of an output preset within the folder profile and selecting **Apply Preset Changes**, the changes are not propagated to the output presets present in the DITA map. (GUIDES-26694)
 
 ## Review
 
