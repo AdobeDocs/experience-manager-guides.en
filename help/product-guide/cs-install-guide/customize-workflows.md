@@ -49,6 +49,9 @@ workflowdata.getMetaDataMap().put("assignee","user-one", "user-two");
 workflowdata.getMetaDataMap().put("status","1");
 workflowdata.getMetaDataMap().put("projectPath","/content/projects/review");
 workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
+workflowdata.getMetaDataMap().put("reviewType", "AEM");
+workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
+workflowdata.getMetaDataMap().put("isDitamap","false");
 ```
 
 You can create this script in the `/etc/workflows/scripts` node. The following table describes the properties being assigned by this ECMA script:
@@ -65,6 +68,13 @@ You can create this script in the `/etc/workflows/scripts` node. The following t
 |`assignee`|String|User ID of the users to whom you want to send the topic\(s\) for review.|
 |`status`|Integer|A static value set as 1.|
 |`startTime`|Long|Use the `System.currentTimeMillis()` function to get the current system time.|
+|`projectPath`|String|Path of the review project to which the review task will be assigned e.g.: /content/projects/samplereviewproject.|
+|`reviewType`|String|Static value "AEM".|
+|`versionJson`|JSON object|versionJson is list of topics going in the review where each topic object has following structure { "path": "/content/dam/1-topic.dita", "version": "1.1", "review": true, "reviewers": [ "projects-we_retail-editor" ] }|
+|`isDitamap`|Boolean|false/true|
+|`ditamapHierarchy`|JSON Object|In case the map is sent for review then the value here should be like:[ { "path": "GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap", "items": [ { "path": "GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita", "title": "", "items": [] } ] } ].|
+
+
 
 Once you have created the script, call it before calling the Create Review process in your workflow. Then, depending on your requirements, you can call the other review workflow processes.
 

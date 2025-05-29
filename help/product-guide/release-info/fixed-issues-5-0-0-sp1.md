@@ -14,21 +14,21 @@ Learn about [upgrade instructions for the 5.0.0 Service Pack 1 release](upgrade-
 ## Authoring
 
 - When content is pasted into a `codeblock` or when spaces are added in the `codeblock` and the view is switched, the spacing is lost. (GUIDES-29347)
-- In a `codeblock`, when wrapping words with inline tags like `b`, `i`, or `varname` in the Source view, the surrounding spaces are removed after switching views. (GUIDES- 28188)
+- The surrounding space is being lost from inline tags such as `b`, `i`, and `varname` within `code blocks`, as well as from XML comments, when switching views. (GUIDES- 28188)
 
 ## Asset Management
 
-- When you open a topic in Author view after refreshing the browser, the previously applied tags in the **File Properties** panel are lost, and adding new tags overwrites the existing ones. (GUIDES-29078)
-- For a DITA map with a large number of dependent files, the **Manage** button in the metadata panel either becomes unresponsive or responds slowly. (GUIDES-29778)
+- When opening a topic in **Author** view after a browser refresh, previously applied tags in the **File Properties** panel are not retained, and adding new tags overwrites the existing ones, particularly when a large number of tags are available for selection. (GUIDES-29078)
+- When generating a Metadata report for a DITA map containing a large number of assets, the **Manage** button becomes unresponsive or exhibit delayed response. (GUIDES-29778)
 
 ## Translation 
 
-- After performing AEM maintenance update, the **Start** button required to initiate the translation job was missing, preventing the translation workflow from being started. (GUIDES-28237)
+- When sending assets for translation from Guides, the assets are not being added in the Translation job, which causes the **Start** button to not appear thereby preventing you to initiate the translation job. (GUIDES-28237)
 
-## Platform
+## Publishing
 
-- When modifying an already applied preset using **Apply Preset Changes** in a folder profile, the updates are not reflected on the map. (GUIDES-26694)
+- When modifying the settings of an output preset within the folder profile and selecting Apply Preset Changes, the changes are not propagated to the output presets present in the DITA map. (GUIDES-26694)
 
 ## Review
 
-- After Workfront integration, attempts to create review tasks via the AEM workflow consistently failed. (GUIDES-28214)
+- Attempts to create review tasks through the AEM workflow consistently failed due to the review node not being created. (GUIDES-28214)
