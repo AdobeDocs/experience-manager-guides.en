@@ -14,7 +14,7 @@ Learn about [upgrade instructions for the 5.0.0 Service Pack 1 release](upgrade-
 ## Authoring
 
 - When content is pasted into a `codeblock` or when spaces are added in the `codeblock` and the view is switched, the spacing is lost. (GUIDES-29347)
-- The surrounding space is being lost from inline tags such as `b`, `i`, and `varname` within `code blocks`, as well as from XML comments, when switching views. (GUIDES- 28188)
+- The surrounding space is being lost from inline tags such as `b`, `i`, and `varname` within a `code block`, as well as from XML comments, when switching views. (GUIDES- 28188)
 
 ## Asset Management
 
@@ -31,4 +31,4 @@ Learn about [upgrade instructions for the 5.0.0 Service Pack 1 release](upgrade-
 
 ## Review
 
-- Attempts to create review tasks through the AEM workflow consistently failed due to the review node not being created. (GUIDES-28214)
+- Attempts to create review tasks through the AEM workflow consistently fails due to the review node not being created. (GUIDES-28214)
