@@ -14,7 +14,7 @@ Learn about [upgrade instructions for the 5.0.0 Service Pack 1 release](upgrade-
 ## Authoring
 
 - When content is pasted into a `codeblock` or when spaces are added in the `codeblock` and the view is switched, the spacing is lost. (GUIDES-29347)
-- The surrounding space is being lost from inline tags such as `b`, `i`, and `varname` within a `code block`, as well as from XML comments, when switching views. (GUIDES- 28188)
+- When an XML comment is added within an element in the **Source** view, the leading and trailing spaces around the comment are lost upon switching views. (GUIDES- 28188)
 
 ## Asset Management
 
