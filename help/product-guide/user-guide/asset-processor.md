@@ -22,7 +22,7 @@ Follow the below mentioned steps to process or reprocess the assets:
 1. In the **Tools** panel select **Guides**.
 1. Select the **Asset Processor** Tile.
 
-    ![flow-asset-processor](images/flow-asset-processor.png){width="550" align="left"}
+    ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
 
 1. The Guides Asset Processor window opens with the details shown below. Also, only the information pertaining to the last five migrations are displayed on this window. 
 
@@ -38,7 +38,7 @@ Follow the below mentioned steps to process or reprocess the assets:
 
     -   **Status**: Points to the status of reprocessing as In progress, Completed or Cancelled.
 
-    ![Guides-asset-processor](images/guides-asset-processor.png){width="550" align="left"}
+    ![Guides-asset-processor](images/guides-asset-processor.png){align="left"}
 
 1. Select **New Process** tab on the top right corner of the window to start a new processing task.
 
@@ -61,16 +61,16 @@ Additional options are available for the processing task once it has been initia
 
 - **Restart** : Restarts the previously successful asset processing task.
 
-    ![restart-asset-processor](images/restart-asset-processor.png){width="550" align="left"}
+    ![restart-asset-processor](images/restart-asset-processor.png){align="left"}
 
 - **Resume** : Resumes the previously cancelled or failed asset processing task.
 
-    ![resume-asset-processor](images/resume-asset-processor.png){width="550" align="left"}
+    ![resume-asset-processor](images/resume-asset-processor.png){align="left"}
 
 - **Cancel** : Cancels the currently in-progress asset processing task.
 
-    ![cancel-asset-processor](images/cancel-asset-processor.png){width="550" align="left"}
+    ![cancel-asset-processor](images/cancel-asset-processor.png){align="left"}
 
 - **View logs**: Shows the logs for the asset processing task. For in-progress tasks, the  log shows detailed processing info, including estimated time remaining and asset status. This log list displays up to the latest 500 entries. The full log can be downloaded.
 
-    ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
+    ![logs-asset-processor](images/logs-asset-processor.png){align="left"}
