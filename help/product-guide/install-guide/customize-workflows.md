@@ -62,7 +62,7 @@ workflowdata.getMetaDataMap().put("isDitamap","false");
 
 **For Map**
 
-```javascript
+```json
 var workflowdata = workItem.getWorkflowData();
 workflowdata.getMetaDataMap().put("initiator", "admin");
 workflowdata.getMetaDataMap().put("operation", "AEM_REVIEW");
