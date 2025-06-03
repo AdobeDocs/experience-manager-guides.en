@@ -23,7 +23,7 @@ Learn about [upgrade instructions for the 5.0.0 Service Pack 1 release](upgrade-
 
 ## Translation 
 
-- When sending assets for translation from Guides, the assets are not being added in the Translation job, which causes the **Start** button to not appear thereby preventing you to initiate the translation job. (GUIDES-28237)
+- When sending assets for translation from Experience Manager Guides, the assets are not added in the Translation job, which prevents the **Start** button from appearing and stops you from initiating the translation job. (GUIDES-28237)
 
 ## Publishing
 
@@ -31,4 +31,4 @@ Learn about [upgrade instructions for the 5.0.0 Service Pack 1 release](upgrade-
 
 ## Review
 
-- Attempts to create review tasks through the AEM workflow consistently fails due to the review node not being created. (GUIDES-28214)
+- Attempts to create review tasks through the AEM workflow consistently fails because the review node is not created. (GUIDES-28214)
