@@ -2,8 +2,8 @@
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides 5.0.0 Service Pack 1 release
 description: Learn about the bug fixes in the 5.0.0 Service Pack 1 release of Adobe Experience Manager Guides
 role: Leader
+exl-id: 1d0bc3d0-aedf-4f67-b6f7-2208facdee96
 ---
-
 # Fixed issues in the 5.0.0 Service Pack 1 release (June 2025)
 
 
