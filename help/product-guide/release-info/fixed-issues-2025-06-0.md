@@ -13,7 +13,6 @@ Learn about [upgrade instructions for the 2025.06.0 release](upgrade-instruction
 
 ## Authoring
 
-- When opening a DITA map with the unified shell enabled, the editor refreshes intermittently. (GUIDES-26919)
 - Failing to close JCR session connections while updating or creating topics result in memory leaks and service downtime. (GUIDES-26282)
 - Dragging the columns changes their width from percentage to pixel values, which results in distorted or misaligned tables.(GUIDES-23128)
 - When content is pasted into a `code block` or when spaces are added in the `code block` and the view is switched, the spacing is lost. (GUIDES-27478)
@@ -42,6 +41,8 @@ Learn about [upgrade instructions for the 2025.06.0 release](upgrade-instruction
 Adobe has identified the following known issue for the 2025.06.0 release:
 
 - When using the Find and Replace option, after applying the Replace Single Occurrence operation on a file, no further actions can be performed in the Find and Replace panel. (GUIDES-28930)
+
+- When opening a DITA map with the unified shell enabled, the editor refreshes intermittently. (GUIDES-26919)
 
 - In a folder profile, when an already indexed asset is deleted from the UI, the corresponding indexed path is not removed, and an attempt to re-index fails with an error message. (GUIDES-29147) <br>**Workaround:** You must remove the obsolete path that no longer exists before initiating the re-indexing.
 

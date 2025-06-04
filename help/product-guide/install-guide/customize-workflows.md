@@ -38,7 +38,9 @@ AEM Guides allows you to customize the default review workflow. You can use the 
 -   **Schedule Job to Close Review**: This process ensures that the review process completes on reaching the deadline.
 
 
-When you are creating a custom review workflow, the first task is to set the required metadata needed by the Create Review process. To do so, you can create an ECMA script. A sample of the ECMA script that assigns the metadata is given below:
+When you are creating a custom review workflow, the first task is to set the required metadata needed by the Create Review process. To do so, you can create an ECMA script. A sample of the ECMA script that assigns the metadata is given below for both topic as well as map.
+
+**For Topic**
 
 ```json
 var workflowdata=workItem.getWorkflowData();
@@ -53,6 +55,35 @@ workflowdata.getMetaDataMap().put("assignee","user-one", "user-two");
 workflowdata.getMetaDataMap().put("status","1");
 workflowdata.getMetaDataMap().put("projectPath","/content/projects/review");
 workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
+workflowdata.getMetaDataMap().put("reviewType", "AEM");
+workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
+workflowdata.getMetaDataMap().put("isDitamap","false");
+```
+
+**For Map**
+
+```json
+var workflowdata = workItem.getWorkflowData();
+workflowdata.getMetaDataMap().put("initiator", "admin");
+workflowdata.getMetaDataMap().put("operation", "AEM_REVIEW");
+workflowdata.getMetaDataMap().put("orgTopics", "GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita|GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita|GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita|");
+var payloadJson = "{\"referrer\":\"\",\"rootMap\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"asset\":[\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\"],\"base\":\"/content/dam\"}";
+workflowdata.getMetaDataMap().put("payloadJson", payloadJson);
+workflowdata.getMetaDataMap().put("deadline", "2047-06-27T13:19:00.000+05:30");
+workflowdata.getMetaDataMap().put("title", "Review task via workflow with map");
+workflowdata.getMetaDataMap().put("description", "Review task via workflow with map Description");
+workflowdata.getMetaDataMap().put("assignee", "user-one");
+workflowdata.getMetaDataMap().put("status", "1");
+workflowdata.getMetaDataMap().put("projectPath", "/content/projects/review_project_via_workflow");
+workflowdata.getMetaDataMap().put("startTime", new Date().getTime());
+var versionJson = "[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]}]";
+workflowdata.getMetaDataMap().put("versionJson", versionJson);
+workflowdata.getMetaDataMap().put("notifyViaEmail", "true");
+workflowdata.getMetaDataMap().put("allowAllReviewers", "false");
+workflowdata.getMetaDataMap().put("isDitamap", "true");
+workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
+var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
+workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 ```
 
 You can create this script in the `/etc/workflows/scripts` node. The following table describes the properties being assigned by this ECMA script:
@@ -69,6 +100,15 @@ You can create this script in the `/etc/workflows/scripts` node. The following t
 |`assignee`|String|User ID of the users to whom you want to send the topic\(s\) for review.|
 |`status`|Integer|A static value set as 1.|
 |`startTime`|Long|Use the `System.currentTimeMillis()` function to get the current system time.|
+|`projectPath`|String|Path of the review project to which the review task will be assigned e.g.: /content/projects/samplereviewproject.|
+|`reviewType`|String|Static value "AEM".|
+|`versionJson`|JSON object|versionJson is list of topics going in the review where each topic object has following structure { "path": "/content/dam/1-topic.dita", "version": "1.1", "review": true, "reviewers": [ "projects-we_retail-editor" ] }|
+|`isDitamap`|Boolean|false/true|
+|`ditamapHierarchy`|JSON Object|In case the map is sent for review then the value here should be like:[ { "path": "GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap", "items": [ { "path": "GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita", "title": "", "items": [] } ] } ].|
+|`ditamap`|String|Specify the path of the ditamap of the review task|
+|`allowAllReviewers`|Boolean|false/true|
+|`notifyViaEmail`|Boolean|false/true|
+
 
 Once you have created the script, call it before calling the Create Review process in your workflow. Then, depending on your requirements, you can call the other review workflow processes.
 
