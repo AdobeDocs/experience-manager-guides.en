@@ -13,7 +13,6 @@ Learn about [upgrade instructions for the 2025.06.0 release](upgrade-instruction
 
 ## Authoring
 
-- When opening a DITA map with the unified shell enabled, the editor refreshes intermittently. (GUIDES-26919)
 - Failing to close JCR session connections while updating or creating topics result in memory leaks and service downtime. (GUIDES-26282)
 - Dragging the columns changes their width from percentage to pixel values, which results in distorted or misaligned tables.(GUIDES-23128)
 - When content is pasted into a `code block` or when spaces are added in the `code block` and the view is switched, the spacing is lost. (GUIDES-27478)
