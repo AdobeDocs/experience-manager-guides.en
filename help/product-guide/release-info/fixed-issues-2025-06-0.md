@@ -44,6 +44,6 @@ Adobe has identified the following known issue for the 2025.06.0 release:
 
 - When opening a DITA map with the unified shell enabled, the editor refreshes intermittently. (GUIDES-26919)
 
-- In a folder profile, when an already indexed asset is deleted from the UI, the corresponding indexed path is not removed, and an attempt to re-index fails with an error message. (GUIDES-29147) <br>**Workaround:** You must remove the obsolete path that no longer exists before initiating the re-indexing.
+- For AI configuration under folder profile, when an already indexed asset is deleted from the UI, the corresponding indexed path is not removed, and an attempt to re-index fails with an error message. (GUIDES-29147) <br>**Workaround:** You must remove the obsolete path that no longer exists before initiating the re-indexing.
 
-- If a map contains cyclic dependencies and you open the Map Preview, the Source, Author, and Layout views become inaccessible until the page is refreshed. (GUIDES-28334) <br>**Workaround:** You must refresh the page to restore access to these views.
+- If a map contains cyclic dependencies and you open the Map Preview - the Source, Author, and Layout views become inaccessible until the browser is refreshed. (GUIDES-28334) <br>**Workaround:** You must refresh the browser to restore access to these views.
