@@ -42,3 +42,13 @@ For more details, view [Download files](../user-guide/authoring-download-assets.
 The latest enhancements to the Editor improve the handling of `navref` elements in a DITA map. Now, when you add a `navref` element to a map, the **Select path** dialog opens, allowing you to easily choose the map references to include as navigation links in your map. Once added, the title of the added map is displayed in both Author view and Layout view, providing better visibility of the included navigation during authoring.  Additionally, the added `navref` element resolves automatically to display the referred map in the Editor.
 
 For more details, view [Add navigation references](../user-guide/map-editor-other-features.md#add-navigation-references).
+
+## Performance enhancements in AI Assistant
+
+The release introduces enhancements to the AI Assistant backend engine, offering improved performance and greater stability. To enable this update and continue using AI Assistant Help:
+
+- Update the `chat.url` configuration to reflect the new end point URL.
+- Add a new environment variable `GUIDES_AI_SITE_ID` in Cloud Manager.
+
+For details, view [Configure the AI Assistant](../cs-install-guide/conf-smart-suggestions.md).
+
