@@ -45,7 +45,10 @@ For more details, view [Add navigation references](../user-guide/map-editor-othe
 
 ## Performance enhancements in AI Assistant
 
-With the latest enhancements to the AI Assistant backend engine and the end point URL, the feature now offers a better performance and stability. However, to enable these updates, certain configuration changes would be required on your end. 
+The release introduces enhancements to the AI Assistant backend engine, offering improved performance and greater stability. To enable this update and continue using AI Assistant Help:
+
+- Update the `chat.url` configuration to reflect the new end point URL.
+- Add a new environment variable `GUIDES_AI_SITE_ID` in Cloud Manager.
 
 For details, view [Configure the AI Assistant](../cs-install-guide/conf-smart-suggestions.md).
 
