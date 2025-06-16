@@ -18,9 +18,9 @@ If your map is chunked and you have updated a single topic in that map, then you
 
 Perform the following steps to regenerate output for a specific topic or a group of topics:
 
->[!IMPORTANT]
+<!-->>[!IMPORTANT]
 >
-> When you are regenerating the AEM Sites output, then the output is created using the current version of the files and not the attached Baseline.
+> When you are regenerating the AEM Sites output, then the output is created using the current version of the files and not the attached Baseline.-->
 
 ## Generate incremental output from Map console
 
@@ -66,7 +66,8 @@ Perform the following steps to generate incremental output for AEM Sites using M
 
 1.  Select the output preset that you want to use to regenerate the selected topics.
 
-    In the AEM Sites output preset, you can define a baseline by selecting specific versions of topics at the map's preset level. The topic versions included in the selected baseline will be used to generate the output accordingly. For details on setting a baseline for a map, see Work with baseline.   
+    For the AEM Sites output preset, you can define a baseline by selecting specific versions of topics you need at the map's preset level. The topic versions included in the selected baseline will be used to generate the output accordingly. For details on using a baseline for a map for AEM Site preset, see [Use legacy component mapping](./generate-output-aem-site-web-editor.md#use-legacy-component-mapping).
+
 
 1.  Select **Regenerate** to start the output generation process.
 
