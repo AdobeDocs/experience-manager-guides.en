@@ -18,10 +18,6 @@ If your map is chunked and you have updated a single topic in that map, then you
 
 Perform the following steps to regenerate output for a specific topic or a group of topics:
 
-<!-->>[!IMPORTANT]
->
-> When you are regenerating the AEM Sites output, then the output is created using the current version of the files and not the attached Baseline.-->
-
 ## Generate incremental output from Map console
 
 Perform the following steps to generate incremental output for AEM Sites using Map console:
