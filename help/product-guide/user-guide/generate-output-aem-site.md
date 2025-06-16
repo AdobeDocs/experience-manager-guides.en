@@ -66,6 +66,8 @@ Perform the following steps to generate incremental output for AEM Sites using M
 
 1.  Select the output preset that you want to use to regenerate the selected topics.
 
+    In the AEM Sites output preset, you can define a baseline by selecting specific versions of topics at the map's preset level. The topic versions included in the selected baseline will be used to generate the output accordingly. For details on setting a baseline for a map, see Work with baseline.   
+
 1.  Select **Regenerate** to start the output generation process.
 
 
