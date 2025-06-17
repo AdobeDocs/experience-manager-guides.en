@@ -79,6 +79,40 @@ The DITAVAL editor allows you to perform the following tasks:
 
     ![](images/ditaval-all-props-new.png)
 
+- Add Rev Prop
+
+   If you want to add specific revision number for the DITAVAL file you can add it using 
+   **Add rev prop**. You can define the appropriate values and the action for the property.
+   The attribute for rev prop is fixed as rev in the Source view.
+
+   ![](images/ditaval-rev-props.png)
+
+- Add Flags
+
+  To flag the content in the output, you can add flag as the action for a given attribute in the file. Additionally you can also add various Flag styles to it using the **Flag style**.
+
+  ![](images/ditaval-flag-style.png)
+   
+  **Background Color**: Select the hue, saturation, contrast from the Background color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
+
+  ![](images/ditaval-background-color.png)
+
+  **Text Color**: Select the hue, saturation, contrast from the Text  color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
+
+  ![](images/ditaval-text-color.png)
+
+  **Styling options**: You can add some styling options as well to the flag like Bold. Italics, Underline, Overline, Double underline.
+
+  ![](images/ditaval-styling-option.png)
+
+  **Start and End Flags**: You can add images as start and end flags using the **Add Flag** button. To select images, use **Browse Assets** to pick from the Guides repository or **Add File** to upload from your local system. You can also provide alternate text for the images.
+
+  ![](images/ditaval-start-end-flags.png) 
+
+  **Style conflict**: It resolves the conflicts that occur when a single element contains multiple properties with different Flag styles. In such cases, the value defined in the style conflict properties is selected, effectively acting as a default value picker for background and text colors.
+
+  ![](images/ditaval-style-conflict.png) 
+
 Once you have finished editing your DITAVAL file, select **Save**.
 
 >[!NOTE]
