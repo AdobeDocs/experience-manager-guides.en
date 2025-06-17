@@ -63,7 +63,7 @@ The DITAVAL editor allows you to perform the following tasks:
     
    Add a single property in your DITAVAL file.
 
-   ![](images/ditaval-editor-props-new.png)
+   ![](images/ditaval-editor-props-new.png) {width="300" align="left"}
 
    The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file. There are five attributes that are supported - `audience`, `platform`, `product`, `props`, and `otherprops`.
 
@@ -77,7 +77,7 @@ The DITAVAL editor allows you to perform the following tasks:
     >
     > If all defined conditional properties already exist in the DITAVAL file, you cannot add more properties. You get an error message in this scenario.
 
-    ![](images/ditaval-all-props-new.png)
+    ![](images/ditaval-all-props-new.png) {width="300" align="left"}
 
 - Add Rev Prop
 
@@ -85,33 +85,44 @@ The DITAVAL editor allows you to perform the following tasks:
    **Add rev prop**. You can define the appropriate values and the action for the property.
    The attribute for rev prop is fixed as rev in the Source view.
 
-   ![](images/ditaval-rev-props.png)
+   ![](images/ditaval-rev-props.png) {width="300" align="left"}
 
 - Add Flags
 
   To flag the content in the output, you can add flag as the action for a given attribute in the file. Additionally you can also add various Flag styles to it using the **Flag style**.
 
-  ![](images/ditaval-flag-style.png)
+
+  ![](images/ditaval-flag-style.png) {width="300" align="left"}
+
    
   **Background Color**: Select the hue, saturation, contrast from the Background color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
 
-  ![](images/ditaval-background-color.png)
+
+  ![](images/ditaval-background-color.png) {width="300" align="left"}
+
+
 
   **Text Color**: Select the hue, saturation, contrast from the Text  color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
 
-  ![](images/ditaval-text-color.png)
+
+  ![](images/ditaval-text-color.png) {width="300" align="left"}
+
+
 
   **Styling options**: You can add some styling options as well to the flag like Bold. Italics, Underline, Overline, Double underline.
+  
 
-  ![](images/ditaval-styling-option.png)
+  ![](images/ditaval-styling-option.png) {width="300" align="left"}
+
+
 
   **Start and End Flags**: You can add images as start and end flags using the **Add Flag** button. To select images, use **Browse Assets** to pick from the Guides repository or **Add File** to upload from your local system. You can also provide alternate text for the images.
 
-  ![](images/ditaval-start-end-flags.png) 
+  ![](images/ditaval-start-end-flags.png) {width="300" align="left"}
 
   **Style conflict**: It resolves the conflicts that occur when a single element contains multiple properties with different Flag styles. In such cases, the value defined in the style conflict properties is selected, effectively acting as a default value picker for background and text colors.
 
-  ![](images/ditaval-style-conflict.png) 
+  ![](images/ditaval-style-conflict.png) {width="300" align="left"}
 
 Once you have finished editing your DITAVAL file, select **Save**.
 
