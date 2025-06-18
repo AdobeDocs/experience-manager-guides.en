@@ -77,14 +77,19 @@ If you want to add all conditional properties or attributes defined in your syst
 >
 > If all defined conditional properties already exist in the DITAVAL file, you cannot add more properties. You get an error message in this scenario.
 
-    ![](images/ditaval-all-props-new.png){width="650" align="left"}
+
+![](images/ditaval-all-props-new.png){width="650" align="left"}
+
 
 ### Add Rev Prop
 
 If you want to add specific revision number for the DITAVAL file you can add it using **Add rev prop**. You can define the appropriate values and the action for the property.
 The attribute for rev prop is fixed as rev in the Source view.
 
+
 ![](images/ditaval-rev-props.png){width="650" align="left"}
+
+
 
 ### Add Flags
 
