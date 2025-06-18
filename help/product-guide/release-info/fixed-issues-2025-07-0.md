@@ -37,6 +37,6 @@ Learn about [upgrade instructions for the 2025.07.0 release](upgrade-instruction
 
 ## Platform
 
-- Performance issues like longer loading times and intermittent timeouts are observed when working with large collections. (GUIDES-29065), (GUIDES-28793)
+- Performance issues like longer loading times and intermittent timeouts are observed when working with large collections. (GUIDES-29065, GUIDES-28793)
 - Vulnerabilities associated with the deprecated Guava library being used in the AEM Guides components uploaded on Experience Manager Guides.(GUIDES-27402)
 
