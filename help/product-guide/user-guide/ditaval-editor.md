@@ -24,7 +24,7 @@ Perform the following steps to create a DITAVAL file:
 
 1. In the Repository panel, select the **New file** icon and then select **Topic** from the dropdown menu. 
 
-    ![](images/new-file-option.png){align="left"}
+    ![](images/new-file-option.png){width="300" align="left"}
 
     You can also access this option from the [Experience Manager Guides Home page](./intro-home-page.md) and the options menu of a folder in the Repository view. 
 
@@ -49,80 +49,90 @@ The topic is created at the specified path. Also, the topic is opened in the Edi
 
 When you create a DITAVAL topic, it opens in the Editor for editing. To edit an existing DITAVAL topic, navigate to the folder or map where the DITAVAL topic is located, and then select **Edit** from the **Options** menu.
 
-The DITAVAL editor allows you to perform the following tasks:
+The DITAVAL editor allows you to perform the tasks as listed below.
 
-- Toggle Left Panel
+### Toggle Left Panel
 
-   Toggle the left panel view. If you have opened the DITAVAL file through DITA map, the map and repository are shown in this panel. For more information about opening a file through DITA map, view [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+Toggle the left panel view. If you have opened the DITAVAL file through DITA map, the map and repository are shown in this panel. For more information about opening a file through DITA map, view [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
-- Save
+### Save
 
-   Saves the changes you have made in the file. All your changes are saved in the current version of your file.
+Saves the changes you have made in the file. All your changes are saved in the current version of your file.
 
-- Add Prop
+### Add Prop
     
-   Add a single property in your DITAVAL file.
+Add a single property in your DITAVAL file.
 
-   ![](images/ditaval-editor-props-new.png) {width="300" align="left"}
+![](images/ditaval-editor-props-new.png){width="650" align="left"}
 
-   The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file. There are five attributes that are supported - `audience`, `platform`, `product`, `props`, and `otherprops`.
+The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file. There are five attributes that are supported - `audience`, `platform`, `product`, `props`, and `otherprops`.
 
-    The second drop-down list shows the values configured for the selected attribute. Then, the next drop-down list shows the actions that you can configure on the selected attribute. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag`. For more information about these values, view the definition of [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA documentation
+The second drop-down list shows the values configured for the selected attribute. Then, the next drop-down list shows the actions that you can configure on the selected attribute. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag`. For more information about these values, view the definition of [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA documentation
 
-- Add All Properties
+### Add All Properties
 
-   If you want to add all conditional properties or attributes defined in your system with a single click, use the Add All Properties feature.
+If you want to add all conditional properties or attributes defined in your system with a single click, use the Add All Properties feature.
 
-    >[!NOTE]
-    >
-    > If all defined conditional properties already exist in the DITAVAL file, you cannot add more properties. You get an error message in this scenario.
-
-    ![](images/ditaval-all-props-new.png) {width="650" align="left"}
-
-- Add Rev Prop
-
-   If you want to add specific revision number for the DITAVAL file you can add it using 
-   **Add rev prop**. You can define the appropriate values and the action for the property.
-   The attribute for rev prop is fixed as rev in the Source view.
-
-   ![](images/ditaval-rev-props.png) {width="650" align="left"}
-
-- Add Flags
-
-  To flag the content in the output, you can add flag as the action for a given attribute in the file. Additionally you can also add various Flag styles to it using the **Flag style**.
+>[!NOTE]
+>
+> If all defined conditional properties already exist in the DITAVAL file, you cannot add more properties. You get an error message in this scenario.
 
 
-  ![](images/ditaval-flag-style.png) {width="650" align="left"}
+![](images/ditaval-all-props-new.png){width="650" align="left"}
+
+
+### Add Rev Prop
+
+If you want to add specific revision number for the DITAVAL file you can add it using **Add rev prop**. You can define the appropriate values and the action for the property.
+The attribute for rev prop is fixed as rev in the Source view.
+
+
+![](images/ditaval-rev-props.png){width="650" align="left"}
+
+
+
+### Add Flags
+
+To flag the content in the output, you can add flag as the action for a given attribute in the file. Additionally you can also add various Flag styles to it using the **Flag style** as mentioned below.
+
+
+![](images/ditaval-flag-style.png){width="650" align="left"}
 
    
-  **Background Color**: Select the hue, saturation, contrast from the Background color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
+- **Background Color**: Select the hue, saturation, contrast from the Background color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
 
 
-  ![](images/ditaval-background-color.png) {width="650" align="left"}
-
-
-
-  **Text Color**: Select the hue, saturation, contrast from the Text  color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
-
-
-  ![](images/ditaval-text-color.png) {width="650" align="left"}
+![](images/ditaval-background-color.png){width="650" align="left"}
 
 
 
-  **Styling options**: You can add some styling options as well to the flag like Bold. Italics, Underline, Overline, Double underline.
+- **Text Color**: Select the hue, saturation, contrast from the Text  color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
 
 
-  ![](images/ditaval-styling-option.png) {width="650" align="left"}
+![](images/ditaval-text-color.png){width="650" align="left"}
 
 
 
-  **Start and End Flags**: You can add images as start and end flags using the **Add Flag** button. To select images, use **Browse Assets** to pick from the Guides repository or **Add File** to upload from your local system. You can also provide alternate text for the images.
+- **Styling options**: You can add some styling options as well to the flag like Bold. Italics, Underline, Overline, Double underline.
 
-  ![](images/ditaval-start-end-flags.png) {width="650" align="left"}
 
-  **Style conflict**: It resolves the conflicts that occur when a single element contains multiple properties with different Flag styles. In such cases, the value defined in the style conflict properties is selected, effectively acting as a default value picker for background and text colors.
+![](images/ditaval-styling-option.png){width="650" align="left"}
 
-  ![](images/ditaval-style-conflict.png) {width="650" align="left"}
+
+
+- **Start and End Flags**: You can add images as start and end flags using the **Add Flag** button. To select images, use **Browse Assets** to pick from the Guides repository or **Add File** to upload from your local system. You can also provide alternate text for the images.
+
+
+![](images/ditaval-start-end-flags.png){width="650" align="left"}
+
+
+
+- **Style conflict**: It resolves the conflicts that occur when a single element contains multiple properties with different Flag styles. In such cases, the value defined in the style conflict properties is selected, effectively acting as a default value picker for background and text colors.
+
+
+![](images/ditaval-style-conflict.png){width="650" align="left"}
+
+
 
 Once you have finished editing your DITAVAL file, select **Save**.
 
