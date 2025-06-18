@@ -30,9 +30,9 @@ Learn about [upgrade instructions for the 2025.07.0 release](upgrade-instruction
 ## Publishing
 
 - Code quality error occurs when deploying the AEM Sites publishing components package `guides-components.all-1.3.0.zip` through Cloud Manager. (GUIDES-28873)
-- When publishing a DITA map containing the `chunk=to-content` attribute, using the native AEM Sites publishing, duplicate JCR nodes are created, leading to redundant content structure and rendering in AEM Sites. (GUIDES-28104)
-- When publishing a DITA map using the new AEM Sites output, if a topic has the `chunk =to-content` attribute and the output is set to use topic titles as page names, the generated page name incorrectly displays the word `chunk` instead of retaining the original topic name. (GUIDES-28102)
-- The `cq:template` property set in the AEM Sites topic template for new AEM Sites publishing displays an incorrect value, affecting template structure and content rendering. (GUIDES-27789)
+- Publishing a DITA map with `chunk=to-content` attribute creates duplicate JCR nodes in the new AEM Sites output, leading to redundant content structure in AEM Sites. (GUIDES-28104)
+- When publishing a DITA map using the new AEM Sites output, if a topic has the `chunk =to-content` attribute and the output is set to use topic titles as page names, the generated page name incorrectly displays the word **chunk** instead of retaining the original topic name. (GUIDES-28102)
+- The `cq:template` property set in the AEM Guides topic template for new AEM Sites publishing displays an incorrect value, affecting template structure and content rendering. (GUIDES-27789)
 
 
 ## Platform
