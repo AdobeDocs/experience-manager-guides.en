@@ -26,19 +26,19 @@ Perform the following steps to generate incremental output for AEM Sites using M
 1. Select the AEM Sites preset for which you want to generate incremental output.
 1. In the **Topics** tab, select the topics that you want to publish. 
 
-- Without baseline 
+    - Without baseline 
+    
+       ![aem sites topic list](images/aem-presets-topic-list.png) {align="left"}
 
-    ![aem sites topic list](images/aem-presets-topic-list.png) {align="left"}
+    - With baseline
 
-- With baseline selected
-
-    ![aem sites topic list with baseline](images/aem-presets-topic-list-new.png) {align="left"}
+       ![aem sites topic list with baseline](images/aem-presets-topic-list-new.png) {align="left"}
 
     >[!NOTE] 
     >
     > When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline.<br><br>
     > The incremental publishing from the Topics list should be used only when there is no change to the structure of the map. If there is a change in the map structure/TOC, then the entire map should be published once to update the TOC.
-    
+
 1. Select **Save** to save the changes.
 1. Select **Generate output** to generate the output.
 
