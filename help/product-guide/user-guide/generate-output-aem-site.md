@@ -69,7 +69,7 @@ Perform the following steps to generate incremental output for AEM Sites using m
 
 1.  Select the output preset that you want to use to regenerate the selected topics.
 
-    When creating AEM Sites output preset using legacy component mapping, if a baseline is selected, the topic versions included in that baseline are used for output generation. Additionally, incremental publishing from the Topics list should be used only when there are no changes to the map structure. For details on using AEM site preset, view [AEM Sites presets on the map dashboard](./generate-output-aem-site-map-dashboard.md).
+    For AEM Sites output preset using legacy component mapping, if a baseline is selected, the topic versions included in the selected baseline are used for output generation. Additionally, incremental publishing from the Topics list should be used only when there are no changes to the map structure. If there is a change in the map structure/TOC, then the entire map should be published once to update the TOC. For details on using AEM site preset, view [AEM Sites presets on the map dashboard](./generate-output-aem-site-map-dashboard.md).
 
 
 1.  Select **Regenerate** to start the output generation process.
