@@ -18,7 +18,7 @@ If your map is chunked and you have updated a single topic in that map, then you
 
 Perform the following steps to regenerate output for a specific topic or a group of topics:
 
-## Generate incremental output from Map console (using composite component mapping)
+## Generate incremental output from Map console (for AEM sites using composite component mapping)
 
 Perform the following steps to generate incremental output for AEM Sites using Map console:
 
@@ -43,7 +43,7 @@ Perform the following steps to generate incremental output for AEM Sites using M
 1. Select **Generate output** to generate the output.
 
 
-## Generate incremental output from Map dashboard (using legacy component mapping)
+## Generate incremental output from Map dashboard (for AEM sites using legacy component mapping)
 
 Perform the following steps to generate incremental output for AEM Sites using map dashboard:
 
