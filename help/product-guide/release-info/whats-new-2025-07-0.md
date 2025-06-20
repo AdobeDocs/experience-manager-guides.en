@@ -12,8 +12,8 @@ For the list of issues fixed in this release, view [Fixed issues in the 2025.07.
 
 Learn about [upgrade instructions for the 2025.07.0  release](../release-info/upgrade-instructions-2025-07-0.md).
 
-## Enhanced incremental output generation with version-specific topics
+## Support for baseline driven incremental publishing via map dashboard for AEM Sites output using legacy component mapping
 
-The incremental output generation process has been enhanced to support publishing specific versions of topics defined in the selected baseline for AEM sites using legacy component mapping, ensuring accurate propagation of the content in the output. This improvement brings greater consistency and traceability to published content.
+The incremental output generation process has been enhanced to support publishing specific versions of topics defined in the selected baseline for AEM sites using legacy component mapping, ensuring accurate propagation of the content in the output.
 
 For more details, view [Incremental output generation](../user-guide/generate-output-aem-site.md).
