@@ -108,7 +108,7 @@ There are majorly four actions available for a given property that can be used w
 
 **Passthrough:** Include the content in output, and preserve the attribute value as part of the output stream for further processing by a runtime engine, for example runtime filtering based on individual user settings.
 
-**Add Flags:** To flag the content in the output, you can add flag as the action for a given attribute in the file. Additionally you can also add various Flag styles to it using the **Flag style** as mentioned below.
+**Add Flags:** To flag content in the output, you can set flag as the action for the desired attribute in the file. You can also apply different flag styles by using the **Flag style** dropdown as shown in the snippet below.
 
 
 ![](images/ditaval-flag-style.png){width="650" align="left"}
@@ -148,8 +148,9 @@ There are majorly four actions available for a given property that can be used w
 ![](images/ditaval-style-conflict.png){width="650" align="left"}
 
 
+### Saving the content
 
-Once you have finished editing your DITAVAL file, select **Save**.
+Once you have finished editing your DITAVAL file, select **Save** on the Tab bar.
 
 >[!NOTE]
 >
