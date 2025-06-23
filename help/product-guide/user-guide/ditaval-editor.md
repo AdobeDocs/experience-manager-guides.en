@@ -49,17 +49,28 @@ The topic is created at the specified path. Also, the topic is opened in the Edi
 
 When you create a DITAVAL topic, it opens in the Editor for editing. To edit an existing DITAVAL topic, navigate to the folder or map where the DITAVAL topic is located, and then select **Edit** from the **Options** menu.
 
-The DITAVAL editor allows you to perform the tasks as listed below.
+The DITAVAL editor allows you to perform multiple tasks as listed below using the options in the Editor Toolbar.
 
-### Toggle Left Panel
+### Editor Toolbar options
 
-Toggle the left panel view. If you have opened the DITAVAL file through DITA map, the map and repository are shown in this panel. For more information about opening a file through DITA map, view [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+#### Menu dropdown
 
-### Save
+The Menu dropdown provides access to the editing actions, Find and replace, Version history, Version label, Merge, Create review task, Track changes, and Tags feature.
+For more details, view [Menu dropdown options](./web-editor-toolbar.md#menu-dropdown)
 
-Saves the changes you have made in the file. All your changes are saved in the current version of your file.
+#### Version information and Save as new version
 
-### Add Prop
+The Version information & Save as new version feature combines version tracking and content saving into a single functionality.
+For more details, view [Save as new version](./web-editor-toolbar.md#version-information-and-save-as-new-version)
+
+
+#### Lock/unlock
+
+Locks or unlocks the current file. Locking a file gives you an exclusive write access to the file. 
+For more details, view [Lock unlock the file](./web-editor-toolbar.md#lockunlock)
+
+
+#### Add Prop
     
 Add a single property in your DITAVAL file.
 
@@ -69,9 +80,9 @@ The first drop-down lists the allowed DITA attributes that you can use in the DI
 
 The second drop-down list shows the values configured for the selected attribute. Then, the next drop-down list shows the actions that you can configure on the selected attribute. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag`. For more information about these values, view the definition of [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA documentation
 
-### Add All Properties
+#### Add All Props
 
-If you want to add all conditional properties or attributes defined in your system with a single click, use the Add All Properties feature.
+If you want to add all conditional properties or attributes defined in your system with a single click, use the Add All Props feature.
 
 >[!NOTE]
 >
@@ -81,19 +92,23 @@ If you want to add all conditional properties or attributes defined in your syst
 ![](images/ditaval-all-props-new.png){width="650" align="left"}
 
 
-### Add Rev Prop
+#### Add Rev Prop
 
-If you want to add specific revision number for the DITAVAL file you can add it using **Add rev prop**. You can define the appropriate values and the action for the property.
-The attribute for rev prop is fixed as rev in the Source view.
-
+To add a specific revision number to a tag in XML, you can use use the Add rev prop option. This adds a rev attribute to the tag, with the value defined in the Value field along with the selected action for the property. This revision attribute can later be used to filter relevant XML content based on the specified revision number when generating the output.
 
 ![](images/ditaval-rev-props.png){width="650" align="left"}
 
+### Actions for property
 
+There are majorly four actions available for a given property that can be used which are listed as follows:
 
-### Add Flags
+**Include:** Include the content in output. This is the default behavior unless otherwise set.
 
-To flag the content in the output, you can add flag as the action for a given attribute in the file. Additionally you can also add various Flag styles to it using the **Flag style** as mentioned below.
+**Exclude:** Exclude the content from output (if all values in the particular attribute are excluded).
+
+**Passthrough:** Include the content in output, and preserve the attribute value as part of the output stream for further processing by a runtime engine, for example runtime filtering based on individual user settings.
+
+**Add Flags:** To flag the content in the output, you can add flag as the action for a given attribute in the file. Additionally you can also add various Flag styles to it using the **Flag style** as mentioned below.
 
 
 ![](images/ditaval-flag-style.png){width="650" align="left"}
