@@ -49,9 +49,9 @@ The topic is created at the specified path. Also, the topic is opened in the Edi
 
 When you create a DITAVAL topic, it opens in the Editor for editing. To edit an existing DITAVAL topic, navigate to the folder or map where the DITAVAL topic is located, and then select **Edit** from the **Options** menu.
 
-The DITAVAL editor allows you to perform multiple tasks as listed below using the options in the Editor Toolbar.
+The DITAVAL editor allows you to perform multiple tasks as listed below using the options in the Editor toolbar.
 
-### Editor Toolbar options
+### Editor toolbar options
 
 #### Menu dropdown
 
@@ -128,14 +128,14 @@ There are majorly four actions available for a given property that can be used w
 
 
 
-- **Styling options**: You can add some styling options as well to the flag like Bold. Italics, Underline, Overline, Double underline.
+- **Styling options**: You can add some styling options as well like Bold, Italics, Underline, Overline, Double underline.
 
 
 ![](images/ditaval-styling-option.png){width="650" align="left"}
 
 
 
-- **Start and End Flags**: You can add images as start and end flags using the **Add Flag** button. To select images, use **Browse Assets** to pick from the Guides repository or **Add File** to upload from your local system. You can also provide alternate text for the images.
+- **Start and End Flags**: You can insert images as start and end flags using the **Add Flag** button. To choose images, either use **Browse Assets** to select from the Guides repository or **Add File** to upload from your local system. Additionally, you can specify alternate text for the images.
 
 
 ![](images/ditaval-start-end-flags.png){width="650" align="left"}
@@ -148,7 +148,7 @@ There are majorly four actions available for a given property that can be used w
 ![](images/ditaval-style-conflict.png){width="650" align="left"}
 
 
-### Saving the content
+### Save the content
 
 Once you have finished editing your DITAVAL file, select **Save** on the Tab bar.
 
