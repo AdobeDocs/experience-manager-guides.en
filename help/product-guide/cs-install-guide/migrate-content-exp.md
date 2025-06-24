@@ -19,7 +19,7 @@ The migration process for Cloud Service and On-premises/Managed Services follows
 - Upload existing DITA content using:
     - **[WebDAV & FrameMaker for On-Premises/Managed Service)](migrate-content-upload-existing-dita-content-exp.md)** 
     - **[Digital assets for Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets)**
-- [Configure UUID filename pattern](./cs-install-guide/migrate-content-configure-uuid-filename-pattern-exp.md)
-- [Use curl commands](./cs-install-guide/migrate-content-use-curl-command-exp.md)     
-- [Migrate content from On-premise to Cloud Service exp](./cs-install-guide/migrate-on-premise-content-cloud-exp.md)
-- [Migrate non-DITA content exp](./cs-install-guide/migrate-content-non-dita-exp.md)
+- [Configure UUID filename pattern](./migrate-content-configure-uuid-filename-pattern-exp.md)
+- [Use curl commands](./migrate-content-use-curl-command-exp.md)     
+- [Migrate content from On-premise to Cloud Service exp](./migrate-on-premise-content-cloud-exp.md)
+- [Migrate non-DITA content exp](./migrate-content-non-dita-exp.md)
