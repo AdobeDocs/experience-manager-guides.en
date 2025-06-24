@@ -456,6 +456,16 @@ breadcrumb-title: AEM Guides Documentation
     - Work with AEM Assets search {#aem-asset-search-cs}
       - [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
     - [Appendix](./cs-install-guide/appendix.md)
+    - Content migrate exp {#migrate-con-cs-exp}
+      - [Migrate existing content](./cs-install-guide/migrate-content-exp.md)
+      - [Upload existing DITA content using WebDAV & FrameMaker (On-prem)](./cs-install-guide/migrate-content-upload-existing-dita-content-exp.md)
+      - [Configure UUID filename pattern](./cs-install-guide/migrate-content-configure-uuid-filename-pattern-exp.md)
+      - [Use curl commands](./cs-install-guide/migrate-content-use-curl-command-exp.md)     
+      - [Migrate content from On-premise to Cloud Service exp](./cs-install-guide/migrate-on-premise-content-cloud-exp.md)
+      - [Migrate non-DITA content exp](./cs-install-guide/migrate-content-non-dita-exp.md)
+    - Work with global and folder-level profiles exp {#global-folder-profiles-cs-exp}
+      - [Configure global or folder-level profiles](./cs-install-guide/conf-folder-level-exp.md)
+
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
   - [REST APIs for Output management](./api-reference/output-management.md)
