@@ -4,12 +4,9 @@ description: Learn how to Upload existing DITA content in Experience Manager Gui
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: yes
-hide: yes
----
-# Upload existing DITA content using WebDAV tool and FrameMaker 
 
-[!BADGE Applies to]{type=Caution tooltip="Check deployment"}: ![](assets/Smock_Building_18_N.svg)
+---
+# Upload existing DITA content using WebDAV tool and FrameMaker (For On-premises only)
 
 Most likely you would have a repository of existing DITA content that you would like to use with AEM Guides. For such existing content, you can use any of the following approaches to bulk upload your content into the AEM repository.
 

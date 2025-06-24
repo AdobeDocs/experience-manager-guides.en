@@ -465,6 +465,10 @@ breadcrumb-title: AEM Guides Documentation
       - [Migrate non-DITA content exp](./cs-install-guide/migrate-content-non-dita-exp.md)
     - Work with global and folder-level profiles exp {#global-folder-profiles-cs-exp}
       - [Configure global or folder-level profiles](./cs-install-guide/conf-folder-level-exp.md)
+    - Work with user groups and security exp {#user-group-sec-cs-exp}
+      - [User administration and security exp](./cs-install-guide/user-admin-sec-exp.md)
+    - Deploy and configure AEM Guides as Cloud Service exp {#deploy-conf-aemg-cs-exp}
+      - [Configure Dispatcher exp](./cs-install-guide/download-install-configure-dispatcher-exp.md)
 
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)

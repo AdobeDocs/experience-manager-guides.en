@@ -4,10 +4,13 @@ description: Learn how to Configure global or folder-level profiles
 feature: Profiles
 role: Admin
 level: Experienced
-hidefromtoc: yes
-hide: yes
+
 ---
 # Configure global or folder-level profiles {#id181AH2003PF}
+
+>[!INFO]
+>
+> This article contains sections that are applicable to a specific deployment type - Cloud Service or On-premises/Managed services. Ensure you select only the tab relevant to your deployment type.
 
 In an enterprise, different groups or products may use different authoring templates, output templates, conditional attribute profiles \(or subject schemes\), and Web Editor configurations. Configuring these only at an enterprise \(or global\) level can make authors experience difficult, as they will see templates or profiles that are not relevant to them.
 
@@ -508,7 +511,7 @@ If you have updated an existing output preset, or you want to make a new output 
 
 
 
-## Configure AI Assistant for smart help and authoring (for Cloud Service only)
+## Configure AI Assistant for smart help and authoring (For Cloud Service only)
 
 For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 

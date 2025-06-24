@@ -4,10 +4,9 @@ description: Learn how to use curl commands on the uploaded content in Experienc
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: yes
-hide: yes
+
 ---
-# Use curl commands
+# Use curl commands (For Cloud Service, On-premises)
 
 You can also use curl commands to create a folder in DAM, upload files, and add metadata on the uploaded content.
 

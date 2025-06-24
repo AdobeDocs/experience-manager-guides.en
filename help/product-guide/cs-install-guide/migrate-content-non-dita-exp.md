@@ -4,8 +4,7 @@ description: Learn how to Migrate non-DITA content
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: yes
-hide: yes
+
 ---
 # Migrate non-DITA content {#id181AH0R02HT}
 
@@ -21,6 +20,9 @@ This section guides you through the migration process to migrate non-DITA docume
 
 -   [Any other structured document](#id1949B0590YK)
 
+>[!INFO]
+>
+> This article contains sections that are applicable to a specific deployment type - Cloud Service or On-premises/Managed services. Ensure you select only the tab relevant to your deployment type.
 
 ## Migrate Microsoft Word documents {#id1949B040Z5Z}
 

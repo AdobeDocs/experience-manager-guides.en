@@ -4,8 +4,7 @@ description: Learn how to configure UUID filename pattern
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: yes
-hide: yes
+
 ---
 # Configure UUID filename pattern
 
@@ -13,7 +12,7 @@ When you import content, it is not necessary that your file names will be based 
 
 ## Steps to configure UUID filename pattern
 
->[!CAUTION]
+>[!INFO]
 >
 > The steps to configure UUID filename pattern differ based on your deployment type: Cloud or On-Premise. Select only the tab relevant to your deployment.
 
