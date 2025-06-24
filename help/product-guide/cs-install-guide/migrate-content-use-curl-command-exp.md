@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 
 ---
-# Use curl commands (For Cloud Service, On-premises)
+# Use curl commands
 
-You can also use curl commands to create a folder in DAM, upload files, and add metadata on the uploaded content.
+You can also use curl commands to create a folder in DAM, upload files, and add metadata on the uploaded content for Cloud Service and On-premise.
 
 ## Create a folder
 

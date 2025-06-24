@@ -9,10 +9,10 @@ level: Experienced
 
 You can configure the dispatcher using any of the following methods, based on your deployment type.
 
-- [Configure Dispatcher for Cloud services](#configure-dispatcher-for-cloud-services)
+- [Configure Dispatcher for Cloud Service](#configure-dispatcher-for-cloud-services)
 - [Configure Dispatcher for On-premise](#configure-dispatcher-for-on-premise)
 
-## Configure Dispatcher for Cloud Services
+## Configure Dispatcher for Cloud Service
 
 Dispatcher is Adobe Experience Manager's caching and/or load balancing tool. For more details, refer to [Dispatcher in the Cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
 

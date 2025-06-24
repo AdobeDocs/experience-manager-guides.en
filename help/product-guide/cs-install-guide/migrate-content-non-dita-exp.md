@@ -22,7 +22,7 @@ This section guides you through the migration process to migrate non-DITA docume
 
 >[!INFO]
 >
-> This article contains sections that are applicable to a specific deployment type - Cloud Service or On-premises/Managed services. Ensure you select only the tab relevant to your deployment type.
+> This article contains sections that are applicable to a specific deployment type - Cloud Service or On-premise. Ensure you select only the tab relevant to your deployment type.
 
 ## Migrate Microsoft Word documents {#id1949B040Z5Z}
 
@@ -59,7 +59,7 @@ By default, AEM Guides uses the [Word-to-DITA \(Word2DITA\) transformation frame
 
 >[!CAUTION]
 >
-> The steps to convert your existing Word documents into DITA topic type document differ based on your deployment type: Cloud Service or On-Premise. Select only the tab relevant to your deployment.
+> The steps to convert your existing Word documents into DITA topic type document differ based on your deployment type: Cloud Service or On-premise. Select only the tab relevant to your deployment.
 
 >[!BEGINTABS]
 
@@ -303,7 +303,7 @@ Apart from the considerations for creating the ZIP file, your XHTML document mus
 
 >[!CAUTION]
 >
-> The steps to convert your existing XHTML document into DITA topic differ based on your deployment type: Cloud Service or On-Premise. Select only the tab relevant to your deployment.
+> The steps to convert your existing XHTML document into DITA topic differ based on your deployment type: Cloud Service or On-premise. Select only the tab relevant to your deployment.
 
 >[!BEGINTABS]
 
@@ -484,7 +484,7 @@ AEM Guides allows you to convert your existing structured documents into valid D
 
 >[!CAUTION]
 >
-> The steps to migrate any other structured document differ based on your deployment type: Cloud Service or On-Premise. Select only the tab relevant to your deployment.
+> The steps to migrate any other structured document differ based on your deployment type: Cloud Service or On-premise. Select only the tab relevant to your deployment.
 
 >[!BEGINTABS]
 

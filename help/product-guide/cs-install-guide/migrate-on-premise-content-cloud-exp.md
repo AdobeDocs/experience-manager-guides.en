@@ -7,12 +7,12 @@ level: Experienced
 
 
 ---
-# Migrate content from On-premise to Cloud Service (For On-premises only)
+# Migrate content from On-premise to Cloud Service (For On-premise only)
 
 Experience Manager as a Cloud Service provides a scalable, secure, and agile technology foundation for Experience Manager Guides, Assets, Forms, and Screens. This allows marketers and IT professionals to focus on delivering impactful experiences at scale.
 With Experience Manager as a Cloud Service, your teams can focus on innovating instead of planning for product upgrades. New product features are thoroughly tested and delivered to your teams without interruption so they can always access the latest version of Adobe Experience Manager.
 
-This article provides a detailed, step-by-step process for migrating your On-premise or Managed Services Experience Manager Guides content to Cloud Services, ensuring a smooth transition to the cloud-based platform.
+This article provides a detailed, step-by-step process for migrating your On-premise or Managed Services Experience Manager Guides content to Cloud Service, ensuring a smooth transition to the cloud-based platform.
 
 ## Pre-requisites
 
@@ -26,7 +26,7 @@ This article provides a detailed, step-by-step process for migrating your On-pre
 
 ## Migration process
 
-**Content Transfer Tool** is a tool developed by Adobe that you can use to initiate the migration of existing content from a source Adobe Experience Manager On-premise or Managed Services instance to the target Experience Manager Cloud Service instance.
+**Content Transfer Tool** is a tool developed by Adobe that you can use to initiate the migration of existing content from a source Adobe Experience Manager On-premise instance to the target Experience Manager Cloud Service instance.
 This tool also transfers principals (users or groups) automatically. 
 
 You can download the **Content Transfer Tool** as a ZIP file from the **Software Distribution** portal:
