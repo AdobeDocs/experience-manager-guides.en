@@ -57,7 +57,7 @@ By default, AEM Guides uses the [Word-to-DITA \(Word2DITA\) transformation frame
 
 ### Convert your existing Word documents into DITA topic type document
 
->[!CAUTION]
+>[!INFO]
 >
 > The steps to convert your existing Word documents into DITA topic type document differ based on your deployment type: Cloud Service or On-premise. Select only the tab relevant to your deployment.
 
@@ -186,7 +186,7 @@ The conversion process involves the following actions in the backend:
 
 Broadly, the conversion process requires you to [Prepare InDesign files for conversion](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) and [Prepare the mapping file for InDesign to DITA migration](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), then you need to follow the given procedure of running the conversion process.
 
-Perform the following steps to convert your existing InDesign documents into DITA topic type document:
+Perform the following steps to convert your existing InDesign documents into DITA topic type document for Cloud Service and On-premise:
 
 1.  Log into AEM and open the CRXDE Lite mode.
 
@@ -301,7 +301,7 @@ Apart from the considerations for creating the ZIP file, your XHTML document mus
 
 ### Convert your existing XHTML document into DITA topic
 
->[!CAUTION]
+>[!INFO]
 >
 > The steps to convert your existing XHTML document into DITA topic differ based on your deployment type: Cloud Service or On-premise. Select only the tab relevant to your deployment.
 
@@ -417,7 +417,7 @@ AEM Guides allows you to convert your existing unstructured FrameMaker \(`.fm` a
 
 Also, If you want to specify some additional attributes with your custom or valid DITA element, you can define those in the style2attrMap.xml file. For example, you can specify the `type` attribute with the value of `important` to be passed on with the `impnote` element. This additional information can be specified in the style2attrMap.xml file.
 
-To convert your existing unstructured FrameMaker documents into DITA format, perform the following steps:
+To convert your existing unstructured FrameMaker documents into DITA format, perform the following steps for Cloud Service and On-premise:
 
 1.  Create style mappings in FrameMaker and save those settings in a .sts file.
 
@@ -482,7 +482,7 @@ AEM Guides allows you to convert your existing structured documents into valid D
 
 **Steps to migrate any other structured document**
 
->[!CAUTION]
+>[!INFO]
 >
 > The steps to migrate any other structured document differ based on your deployment type: Cloud Service or On-premise. Select only the tab relevant to your deployment.
 
