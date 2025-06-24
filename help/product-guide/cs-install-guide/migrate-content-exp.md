@@ -15,6 +15,6 @@ AEM Guides allows you to convert a variety of structured and unstructured docume
 >
 > See the *Content migration and upload* section in the Best practices guide for best practices around using migrating and uploading existing content.
 
--   **[Upload existing DITA content using Framemaker and WebDav tool (On-Prem)](migrate-content-upload-existing-dita-content.md)**  
--   **[Use Curl command to upload DITA content](./migrate-content-use-curl-command.md)**
--   **[Configure UUID file pattern](./migrate-content-configure-uuid-filename-pattern.md)**
+-   **[Upload existing DITA content using Framemaker and WebDav tool (On-Prem)](migrate-content-upload-existing-dita-content-exp.md)**  
+-   **[Use Curl command to upload DITA content](./migrate-content-use-curl-command-exp.md)**
+-   **[Configure UUID file pattern](./migrate-content-configure-uuid-filename-pattern-exp.md)**
