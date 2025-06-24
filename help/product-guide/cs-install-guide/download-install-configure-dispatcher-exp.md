@@ -7,6 +7,11 @@ level: Experienced
 ---
 # Configure Dispatcher {#id213BCM0M05U}
 
+You can configure the dispatcher using any of the following methods, based on your deployment type.
+
+- [Configure Dispatcher for Cloud services](#configure-dispatcher-for-cloud-services)
+- [Configure Dispatcher for On-premise](#configure-dispatcher-for-on-premise)
+
 ## Configure Dispatcher for Cloud Services
 
 Dispatcher is Adobe Experience Manager's caching and/or load balancing tool. For more details, refer to [Dispatcher in the Cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
@@ -19,7 +24,7 @@ Dispatcher is Adobe Experience Manager's caching and/or load balancing tool. For
 > AEM as a cloud service doesn't support dispatcher for author instance.
 
 
-## Configure Dispatcher for On-Premises and Managed Services
+## Configure Dispatcher for On-premise
 
 If you plan to use a Dispatcher on AEM Author instance along with AEM Guides, then you need to perform the following additional configurations to complete the setup:
 

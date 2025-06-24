@@ -10,7 +10,7 @@ level: Experienced
 
 >[!INFO]
 >
-> This article contains sections that are applicable to a specific deployment type - Cloud Service or On-premises/Managed services. Ensure you select only the tab relevant to your deployment type.
+> This article contains sections that are applicable to a specific deployment type - Cloud Service or On-premise. Ensure you select only the tab relevant to your deployment type.
 
 In an enterprise, different groups or products may use different authoring templates, output templates, conditional attribute profiles \(or subject schemes\), and Web Editor configurations. Configuring these only at an enterprise \(or global\) level can make authors experience difficult, as they will see templates or profiles that are not relevant to them.
 
@@ -86,7 +86,7 @@ The following sections walk you through the process of configuring global profil
 
 ## Configure global profile 
 
-Perform the following steps to configure the global profile:
+Perform the following steps to configure the global profile for Cloud Service and On-premise:
 
 1.  Log into Adobe Experience Manager as an administrator.
 
@@ -113,7 +113,7 @@ Perform the following steps to configure the global profile:
 
 ## Create and configure a folder-level profile 
 
-Perform the following steps to configure a folder-level profile:
+Perform the following steps to configure a folder-level profile for Cloud Service and On-premise:
 
 1.  Log into Adobe Experience Manager as an administrator.
 
@@ -172,7 +172,7 @@ Now you are ready to configure the conditional attributes, templates, output pre
 
 ## Configure conditional attributes for global or folder-level profiles {#id1889D0I305Z}
 
-Perform the following steps to configure standard DITA-supported conditional attributes at global or folder-level:
+Perform the following steps to configure standard DITA-supported conditional attributes at global or folder-level for Cloud Service and On-premise:
 
 1.  Log into Adobe Experience Manager as an administrator or the user having administrative rights on a folder-level profile.
 
@@ -208,11 +208,11 @@ Perform the following steps to configure standard DITA-supported conditional att
 
 **Use custom attribute** 
 
-If you are using custom attribute, then it must be a valid DITA attribute supported by the DTD. If you want to use any attribute, which is not a standard DITA attribute, then perform the following additional steps depending on the services you are using:
+If you are using custom attribute, then it must be a valid DITA attribute supported by the DTD. If you want to use any attribute, which is not a standard DITA attribute, the steps differ based on your deployment type: Cloud or On-Premise. Select only the tab relevant to your deployment.
 
 >[!BEGINTABS]
 
->[!TAB Cloud services]
+>[!TAB Cloud Service]
 
 1.  Add the custom attribute to the DTD file. For example, if your DTD file is commonElements.mod, then you need to locate this file in the DTD directory. The default path of the system DTD file is:
 
@@ -232,7 +232,7 @@ If you are using custom attribute, then it must be a valid DITA attribute suppor
 
 1.  Add custom attributes to the global or folder-level profile.
 
->[!TAB On-prem services]
+>[!TAB On-premise]
 
 1.  Add the custom attribute to the DTD file. For example, if your DTD file is commonElements.mod, then you need to locate this file in the DTD directory. The default path of the system DTD file is:
 
@@ -269,11 +269,11 @@ If you are using custom attribute, then it must be a valid DITA attribute suppor
 
 ## Configure templates {#id1889D0IL0Y4}
 
-You can configure the authoring templates based on the services you are using as mentioned below.
+The steps to configure the authoring templates differ based on your deployment type: Cloud or On-Premise. Select only the tab relevant to your deployment.
 
 >[!BEGINTABS]
 
->[!TAB Cloud services]
+>[!TAB Cloud Service]
 
 AEM Guides comes with 7 out-of-the-box topic templates, 2 DITA map templates, and 3 PDF templates. You can choose to have only a few templates available to your authors and publishers. In case you use a custom template, the same can be configured and made available for authoring and publishing. You use the **Templates** tab in the Folder Profiles configuration to add or remove topic, map, or PDF templates from global or folder-level profiles.
 
@@ -335,7 +335,7 @@ Perform the following steps to add the topic, map, or PDF templates into a folde
 
 In case you have configured the templates on a folder-level profile, the configured templates get associated with the configured folder. All projects created under the configured folder will have access to only those templates that are configured under the folder-level profile.
 
->[!TAB On-prem services]
+>[!TAB On-premise]
 
 AEM Guides comes with 7 out-of-the-box authoring templates and 2 DITA map templates. You can choose to have only a few templates available to your authors. In case you use a custom template, the same can be configured and made available for authoring. You use the Authoring Template tab in the Folder Profiles configuration to add or remove topic or map templates from global or folder-level profiles.
 
@@ -398,7 +398,7 @@ In case you have configured the templates on a folder-level profile, the configu
 
 AEM Guides provides an easy way of creating authoring templates. As a system administrator, you can use the Web Editor to create authoring templates from scratch. You can then add the new template in the global profile or assign it to a specific folder using the folder-specific profile.
 
-Perform the following steps to create a custom authoring template:
+Perform the following steps to create a custom authoring template for Cloud Service and On-premise:
 
 1.  Log into Adobe Experience Manager as an administrator.
 
@@ -443,7 +443,7 @@ Once the default output presets have been created in the system, all DITA maps c
 
 In addition to the presets configured at the global or enterprise level, a publisher would still have the rights to create more output presets. However, those presets are tied to the DITA map for which they are created. For more details about creating regular output presets for a DITA map, see *Create, edit, duplicate, or remove an output preset* in the Using Adobe Experience Manager Guides.
 
-Perform the following steps to configure global or folder-specific output presets:
+Perform the following steps to configure global or folder-specific output presets for Cloud Service and On-premise:
 
 1.  Log into Adobe Experience Manager as an administrator or the user having administrative rights on a folder-specific profile.
 
@@ -479,7 +479,7 @@ All DITA maps created or uploaded after this will have the new or updated output
 
 A new output preset created at the global level is made available to all new DITA maps that you create going forward. Similarly, if a new output preset is created at a folder-level, then that preset is made available to all maps that will be created in the configured folder. By default, a new output preset is not made available to any existing DITA map.
 
-If you have updated an existing output preset, or you want to make a new output preset available to existing DITA maps, then perform the following steps:
+If you have updated an existing output preset, or you want to make a new output preset available to existing DITA maps, then perform the following steps for Cloud Service and On-premise:
 
 1.  Log into Adobe Experience Manager as an administrator or the user having administrative rights on a folder-specific profile.
 
@@ -604,13 +604,15 @@ Learn more about using the [AI-powered Smart Help](../user-guide/ai-based-smart-
 
 ## Configure and customize the XML Editor {#id2065G300O5Z}
 
-By default, the XML Editor comes with a lot of features to help your authors create DITA documents. If you work in a restrictive environment, you can choose which features are exposed to your authors. The XML Editor Configuration tab allows you to easily control the features and also change the look-and-feel of your Editor. As an administrator, you can customize the following components of the Editor:
+By default, the XML Editor comes with a lot of features to help your authors create DITA documents. If you work in a restrictive environment, you can choose which features are exposed to your authors. The XML Editor Configuration tab allows you to easily control the features and also change the look-and-feel of your Editor. As an administrator, you can customize the following components of the Editor. 
 
 **XML Editor UI Configuration**
 
+The configuration differs based on your deployment type: Cloud or On-Premise. Select only the tab relevant to your deployment.
+
 >[!BEGINTABS]
 
->[!TAB Cloud services]
+>[!TAB Cloud Service]
 
 This setting enables you to create JSON extensions that reflect modifications made in the `ui_config.json` file. You can independently upload these extensions at the Folder profile level, offering enhanced flexibility and customization. For instance, when you make changes to the **XML Editor Configuration**, such as updating a button, the system automatically identifies the differences. By uploading these changes to the **XML Editor UI Configuration** and converting them into JSON extensions using the **Convert UI Config to JSON** button, the system generates an extension that incorporates the new functionality.
 
@@ -632,7 +634,7 @@ This setting controls the toolbar and the other user interface elements of the E
 >
 > For AEM Guides 2502 release, and newer versions, it is recommended to use extension JSON instead of `ui_config.json` for customization. For details, refer to the **XML Editor UI Configuration** section above.
 
->[!TAB On-prem services]
+>[!TAB On-premise]
 
 This setting controls the toolbar and the other user interface elements of the Web Editor. Click the **Download** icon to download the latest ui\_config.json file on your local system. You can then make changes to the file and the upload the same. Click the **Download Default**icon to download the default ui\_config.json file on your local system. You can always download the default file, make changes to it, and upload it.Depending upon where you are uploading the file at, global or folder-level profile, the changes are applied accordingly. For more details about how to customize the XML Editor using the ui\_config.json file, see [Customize toolbar](conf-web-editor-customize-toolbar.md#).
 

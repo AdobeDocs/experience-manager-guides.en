@@ -11,7 +11,7 @@ To access and configure features in the AEM Guides, you need to create users. Th
 
 The following topics in Adobe Experience Manager documentation will help you understand the user administration and security-related concepts and features:
 
-| Cloud Services | On Premises |
+| Cloud Services | On Premise |
 |---|---|
 | [AEM users, groups and permissions](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)<br>[User Administration and Security](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) | [Users and Groups in AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[Permissions in AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[Managing Users and Groups](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[Managing Permissions](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
 
