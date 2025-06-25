@@ -40,3 +40,11 @@ Learn about [upgrade instructions for the 2025.07.0 release](upgrade-instruction
 - Performance issues like longer loading times and intermittent timeouts are observed when working with large collections. (GUIDES-29065, GUIDES-28793)
 - Vulnerabilities associated with the deprecated Guava library being used in the AEM Guides components uploaded on Experience Manager Guides.(GUIDES-27402)
 
+# Known issues
+
+Adobe has identified the following known issues for the 2025.07.0 release:
+
+- When working with Markdown topics, a **Topic reference** button appears in the Editor toolbar, but it does not function. (GUIDES-31038)
+- When folders with uppercase names are uploaded using Adobe Experience Manager desktop app, the casing is not retained and the names appear in lowercase in the Editor. (GUIDES-30909)
+- In the **Merge** dialog, the dropdown list incorrectly displays **Main content** instead of showing the available versions of the selected topic. (GUIDES-30820)
+- When opening a DITA map with the unified shell enabled, the editor refreshes intermittently.(GUIDES-26919)
