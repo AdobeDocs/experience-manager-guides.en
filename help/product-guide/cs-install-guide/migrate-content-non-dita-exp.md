@@ -6,25 +6,25 @@ role: Admin
 level: Experienced
 
 ---
-# Migrate non-DITA content {#id181AH0R02HT}
+# Migrate non-DITA content 
 
 This section guides you through the migration process to migrate non-DITA documents into DITA format. AEM Guides provides migration from the following sources:
 
--   [Microsoft Word](#id1949B040Z5Z)
+-   [Microsoft Word](#migrate-microsoft-word-documents)
 
--   [InDesign documents](#id195AD0B0K5Z)
+-   [XHTML](#migrate-xhtml-documents)
 
--   [XHTML](#id1949B04L0Y4)
+-   [InDesign documents](#migrate-adobe-indesign-documents)
 
--   [Unstructured FrameMaker documents](#id1949B050VUI)
+-   [Unstructured FrameMaker documents](#migrate-unstructured-framemaker-documents)
 
--   [Any other structured document](#id1949B0590YK)
+-   [Any other structured document](#migrate-any-other-structured-document)
 
 >[!INFO]
 >
 > This article contains sections that are applicable to a specific deployment type - Cloud Service or On-premise. Ensure you select only the tab relevant to your deployment type.
 
-## Migrate Microsoft Word documents {#id1949B040Z5Z}
+## Migrate Microsoft Word documents 
 
 AEM Guides allows you to migrate your existing Word documents \(`.docx`\) into DITA topic type documents. You need to specify the input and output folder locations along with other parameters and the document gets converted into DITA document. Depending on the content, you could have a .dita file and a .ditamap file.
 
@@ -57,9 +57,8 @@ By default, AEM Guides uses the [Word-to-DITA \(Word2DITA\) transformation frame
 
 ### Convert your existing Word documents into DITA topic type document
 
->[!INFO]
->
-> The steps to convert your existing Word documents into DITA topic type document differ based on your deployment type: Cloud Service or On-premise. Select only the tab relevant to your deployment.
+Convert your existing Word documents into DITA topic type document based on your deployment type: Cloud Service or On-premise. Select only the tab relevant to your deployment.
+
 
 >[!BEGINTABS]
 
@@ -167,82 +166,7 @@ Using the `config` `/config` block, you can define one or multiple blocks of con
 
 >[!ENDTABS]
 
-## Migrate Adobe InDesign documents {#id195AD0B0K5Z}
-
-AEM Guides allows you to convert InDesign documents. Similar to FrameMaker, InDesign also allows you to create unstructured and structured documents. The unstructured documents use the paragraph and character styles to format content. The structured document use elements and their corresponding attributes.
-
-The conversion process requires mapping the paragraph and character style formats to relevant DITA elements. Similarly, in case of structured documents, the mapping file will contain one-to-one mapping of InDesign elements and attributes with DITA elements and attributes.
-
-The conversion process involves the following actions in the backend:
-
--   The *InDesign Markup Language* \(IDML\) file is unpacked to a working directory.
--   The designmap.xml file is read to locate the individual InDesign stories.
--   All stories are merged into a single XML instance, 'empty' stories are discarded.
--   All embedded graphics are exported.
--   Pre-conversion of standard structures such as tables and graphics into DITA format.
--   Style or structure mapping to final output based on the mapping file.
--   Creation and validation of individual DITA topics and DITA map files.
--   Deletion of temporary files.
-
-Broadly, the conversion process requires you to [Prepare InDesign files for conversion](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) and [Prepare the mapping file for InDesign to DITA migration](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), then you need to follow the given procedure of running the conversion process.
-
-Perform the following steps to convert your existing InDesign documents into DITA topic type document for Cloud Service and On-premise:
-
-1.  Log into AEM and open the CRXDE Lite mode.
-
-1.  Navigate to the default configuration file available at the following location:
-
-    `/libs/fmdita/config/idml2dita_io.xml`
-1.  To create a custom configuration according to your requirements, create an overlay node of the `config` folder within the `apps` node.
-
-1. Copy the following files or folders from the `libs` folder to the apps folder:
-
-    - `/fmdita/config/idml2dita_io.xml`
-    - `/fmdita/idml2dita/config`
-    - `/fmdita/idml2dita/xsl`
-
-1.  Navigate to the configuration file available in the `apps` node:
-
-    `/apps/fmdita/config/idml2dita_io.xml`
-
-1. Add the mapping of the configs present in the `idml12dita` folder within the `idml2dita_io.xml` file.
-1. Add the following properties in `idml2dita_io.xml` file:
-
-    ```
-    <entry          key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
-
-    <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
-    ```
-
-1.  Create an overlay node of the `config` folder within the `apps` node. 
-
-
-    Configure the following parameters in the `idml2dita_io.xml` file:
-
-    -   In the `inputDir` element, specify the location of the input folder wherein your source InDesign documents are available. For example, if your InDesign documents are stored in a folder named `indesigntodita` in `projects` folder, then specify the location as: `/content/dam/idmlfiles/indesigntodita/`
-
-    -   In the`outputDir` element, specify the location of the output folder or keep the default output location to save the converted DITA document. If the specified output folder does not exist on DAM, then the conversion workflow creates the output folder.
-
-    -   In the `mapStyle` element, specify the location of the map file that contains mappings for InDesign document styles to DITA elements. The default mapping is stored in the file located at:
-
-        ```
-        /stmap.adobeidml.xml
-        ```
-
-        >[!NOTE]
-        >
-        > For more information about the structure of `stmap.adobeidml.xml` file and how you can customize it, see the section [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT) in Appendix.
-
-1.  Save the `idml2dita_io.xml` file.
-
-1.  After configuring the required parameters in the `idml2dita_io.xml` file, log into AEM and open the Assets UI.
-
-1.  Navigate to the input folder location \(`indesigntodita`\).
-
-1.  Upload the source InDesign documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](migrate-content-upload-existing-dita-content.md#).
-
-
-## Migrate XHTML documents {#id1949B04L0Y4}
+## Migrate XHTML documents 
 
 AEM Guides allows you to convert your existing XHTML documents into DITA topic type documents. You need to specify the input and output folder locations along with other parameters and the documents get converted into DITA format. There are two methods that you can use to convert your structured HTML documents:
 
@@ -299,11 +223,7 @@ The following points must be considered for uploading your documents in a ZIP fi
 
 Apart from the considerations for creating the ZIP file, your XHTML document must also be well structured. For example, your document should have a *Title*, followed by *Heading 1*, *Heading 2*, and so on. Each of the headings should have some content in it. If your document is not well structured, the migration process might not work as expected.
 
-### Convert your existing XHTML document into DITA topic
-
->[!INFO]
->
-> The steps to convert your existing XHTML document into DITA topic differ based on your deployment type: Cloud Service or On-premise. Select only the tab relevant to your deployment.
+Convert your existing XHTML document into DITA topic based on your deployment type: Cloud Service or On-premise. Select only the tab relevant to your deployment.
 
 >[!BEGINTABS]
 
@@ -411,80 +331,85 @@ Using the `<config> </config>` block, you can define one or multiple blocks of c
 
 >[!ENDTABS]
 
-## Migrate unstructured FrameMaker documents {#id1949B050VUI}
+## Migrate Adobe InDesign documents 
 
-AEM Guides allows you to convert your existing unstructured FrameMaker \(`.fm` and `.book`\) documents into DITA documents. The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
+AEM Guides allows you to convert InDesign documents. Similar to FrameMaker, InDesign also allows you to create unstructured and structured documents. The unstructured documents use the paragraph and character styles to format content. The structured document use elements and their corresponding attributes.
 
-Also, If you want to specify some additional attributes with your custom or valid DITA element, you can define those in the style2attrMap.xml file. For example, you can specify the `type` attribute with the value of `important` to be passed on with the `impnote` element. This additional information can be specified in the style2attrMap.xml file.
+The conversion process requires mapping the paragraph and character style formats to relevant DITA elements. Similarly, in case of structured documents, the mapping file will contain one-to-one mapping of InDesign elements and attributes with DITA elements and attributes.
 
-To convert your existing unstructured FrameMaker documents into DITA format, perform the following steps for Cloud Service and On-premise:
+The conversion process for Cloud Service or On-premise involves the following actions in the backend:
 
-1.  Create style mappings in FrameMaker and save those settings in a .sts file.
+-   The *InDesign Markup Language* \(IDML\) file is unpacked to a working directory.
+-   The designmap.xml file is read to locate the individual InDesign stories.
+-   All stories are merged into a single XML instance, 'empty' stories are discarded.
+-   All embedded graphics are exported.
+-   Pre-conversion of standard structures such as tables and graphics into DITA format.
+-   Style or structure mapping to final output based on the mapping file.
+-   Creation and validation of individual DITA topics and DITA map files.
+-   Deletion of temporary files.
 
-1.  Use the Package Manager to download /libs/fmdita/config/ditaElems.xml file.
+Broadly, the conversion process requires you to [Prepare InDesign files for conversion](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) and [Prepare the mapping file for InDesign to DITA migration](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), then you need to follow the given procedure of running the conversion process.
 
-1.  If you have custom DITA elements, define those in the `ditaElems.xml` file available at the following location:
+Perform the following steps to convert your existing InDesign documents into DITA topic type document for Cloud Service and On-premise:
 
-    `/libs/fmdita/config/ditaElems.xml`
+1.  Log into AEM and open the CRXDE Lite mode.
 
-1.  Create a copy of the ditaElems.xml file at the following location in your Cloud Manager's Git repository:
+1.  Navigate to the default configuration file available at the following location:
 
-    `/apps/fmdita/config/ditaElems.xml`
+    `/libs/fmdita/config/idml2dita_io.xml`
+1.  To create a custom configuration according to your requirements, create an overlay node of the `config` folder within the `apps` node.
+
+1. Copy the following files or folders from the `libs` folder to the apps folder:
+
+    - `/fmdita/config/idml2dita_io.xml`
+    - `/fmdita/idml2dita/config`
+    - `/fmdita/idml2dita/xsl`
 
 1.  Navigate to the configuration file available in the `apps` node:
 
-    `/apps/fmdita/config/ditaElems.xml`
+    `/apps/fmdita/config/idml2dita_io.xml`
 
-    The `ditaElems.xml` file contains a single configurable parameter:
+1. Add the mapping of the configs present in the `idml12dita` folder within the `idml2dita_io.xml` file.
+1. Add the following properties in `idml2dita_io.xml` file:
 
-    -   In the `elem` parameter, specify the name of the custom element that you want to use in your converted DITA documents. This element would be passed on as is in the generated DITA documents.
+    ```
+    <entry          key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
 
-1.  If you want to specify additional attributes, define those in the `style2attrMap.xml` file available at the following location:
-
-    `/libs/fmdita/config/style2attrMap.xml`
+    <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+    ```
 
 1.  Create an overlay node of the `config` folder within the `apps` node. 
 
-1.  Navigate to the configuration file available in the `apps` node:
 
-    `/apps/fmdita/config/style2attrMap.xml`
+    Configure the following parameters in the `idml2dita_io.xml` file:
 
-    The `style2attrMap.xml` file contains the following configurable parameters:
+    -   In the `inputDir` element, specify the location of the input folder wherein your source InDesign documents are available. For example, if your InDesign documents are stored in a folder named `indesigntodita` in `projects` folder, then specify the location as: `/content/dam/idmlfiles/indesigntodita/`
 
-    -   In the `fmStyle` parameter, specify the source format used in the FrameMaker document that you want to map.
+    -   In the`outputDir` element, specify the location of the output folder or keep the default output location to save the converted DITA document. If the specified output folder does not exist on DAM, then the conversion workflow creates the output folder.
 
-    -   In the`ditaAttr` element, specify the DITA attribute that you want to map with the source format.
+    -   In the `mapStyle` element, specify the location of the map file that contains mappings for InDesign document styles to DITA elements. The default mapping is stored in the file located at:
 
-    -   In the `ditaVal` element, specify the value for the mapped attribute. If you don't have any value, you can leave this entry blank.
+        ```
+        /stmap.adobeidml.xml
+        ```
 
-1.  Save the `style2attrMap.xml` file.
+        >[!NOTE]
+        >
+        > For more information about the structure of `stmap.adobeidml.xml` file and how you can customize it, see the section [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT) in Appendix.
 
-1. After configuring the required parameters in the `style2attrMap.xml` file, log into AEM and open the Assets UI.
+1.  Save the `idml2dita_io.xml` file.
 
-1. Navigate to and click on the FrameMaker document that you want to convert.
+1.  After configuring the required parameters in the `idml2dita_io.xml` file, log into AEM and open the Assets UI.
 
-    The DITA map console appears showing the list of Output Presets available to generate output.
+1.  Navigate to the input folder location \(`indesigntodita`\).
 
-1. Select DITA output format and configure the required parameters.
+1.  Upload the source InDesign documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](migrate-content-upload-existing-dita-content.md#).
 
-    >[!NOTE]
-    >
-    > You must use the same settings file \(.sts\) that you created in FrameMaker. Also, specify the Settings Name and Destination Path.
-
-1. Click the **Generate** icon to start the output generation process.
-
-
-Using the `<attrMap> </attrMap>` block, you can define one or multiple blocks of configurations for conversion. Depending on the content, you could have a .dita file and a .ditamap file as the converted files.
-
-## Migrate any other structured document {#id1949B0590YK}
+## Migrate any other structured document 
 
 AEM Guides allows you to convert your existing structured documents into valid DITA documents. You need to specify the input and output folder locations, the location of your transformation file, the extension with which the final output is saved, and whether a new version of the document is required or not.
 
-**Steps to migrate any other structured document**
-
->[!INFO]
->
-> The steps to migrate any other structured document differ based on your deployment type: Cloud Service or On-premise. Select only the tab relevant to your deployment.
+Migrate any other structured document based on your deployment type: Cloud Service or On-premise. Select only the tab relevant to your deployment.
 
 >[!BEGINTABS]
 
@@ -563,5 +488,72 @@ Using the `<config> </config>` block, you can define one or multiple blocks of c
 Using the `<config> </config>` block, you can define one or multiple blocks of configurations for conversion. The conversion workflow gets executed and the final output in the form of a DITA topic is saved in the location specified in the `outputDir` element.
 
 >[!ENDTABS]
+
+## Migrate unstructured FrameMaker documents 
+
+AEM Guides allows you to convert your existing unstructured FrameMaker \(`.fm` and `.book`\) documents into DITA documents. The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
+
+Also, If you want to specify some additional attributes with your custom or valid DITA element, you can define those in the style2attrMap.xml file. For example, you can specify the `type` attribute with the value of `important` to be passed on with the `impnote` element. This additional information can be specified in the style2attrMap.xml file.
+
+To convert your existing unstructured FrameMaker documents into DITA format, perform the following steps for Cloud Service and On-premise:
+
+1.  Create style mappings in FrameMaker and save those settings in a .sts file.
+
+1.  Use the Package Manager to download /libs/fmdita/config/ditaElems.xml file.
+
+1.  If you have custom DITA elements, define those in the `ditaElems.xml` file available at the following location:
+
+    `/libs/fmdita/config/ditaElems.xml`
+
+1.  Create a copy of the ditaElems.xml file at the following location in your Cloud Manager's Git repository:
+
+    `/apps/fmdita/config/ditaElems.xml`
+
+1.  Navigate to the configuration file available in the `apps` node:
+
+    `/apps/fmdita/config/ditaElems.xml`
+
+    The `ditaElems.xml` file contains a single configurable parameter:
+
+    -   In the `elem` parameter, specify the name of the custom element that you want to use in your converted DITA documents. This element would be passed on as is in the generated DITA documents.
+
+1.  If you want to specify additional attributes, define those in the `style2attrMap.xml` file available at the following location:
+
+    `/libs/fmdita/config/style2attrMap.xml`
+
+1.  Create an overlay node of the `config` folder within the `apps` node. 
+
+1.  Navigate to the configuration file available in the `apps` node:
+
+    `/apps/fmdita/config/style2attrMap.xml`
+
+    The `style2attrMap.xml` file contains the following configurable parameters:
+
+    -   In the `fmStyle` parameter, specify the source format used in the FrameMaker document that you want to map.
+
+    -   In the`ditaAttr` element, specify the DITA attribute that you want to map with the source format.
+
+    -   In the `ditaVal` element, specify the value for the mapped attribute. If you don't have any value, you can leave this entry blank.
+
+1.  Save the `style2attrMap.xml` file.
+
+1. After configuring the required parameters in the `style2attrMap.xml` file, log into AEM and open the Assets UI.
+
+1. Navigate to and click on the FrameMaker document that you want to convert.
+
+    The DITA map console appears showing the list of Output Presets available to generate output.
+
+1. Select DITA output format and configure the required parameters.
+
+    >[!NOTE]
+    >
+    > You must use the same settings file \(.sts\) that you created in FrameMaker. Also, specify the Settings Name and Destination Path.
+
+1. Click the **Generate** icon to start the output generation process.
+
+
+Using the `<attrMap> </attrMap>` block, you can define one or multiple blocks of configurations for conversion. Depending on the content, you could have a .dita file and a .ditamap file as the converted files.
+
+
 
 **Parent topic:**[Migrate existing content](migrate-content.md)

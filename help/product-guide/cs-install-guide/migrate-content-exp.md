@@ -14,7 +14,7 @@ AEM Guides allows you to convert a variety of structured and unstructured docume
 >
 > See the *Content migration and upload* section in the Best practices guide for best practices around using migrating and uploading existing content.
 
-The migration process for Cloud Service and On-premises/Managed Services follows the below sequence:
+The migration process for Cloud Service and On-premise/Managed Services follows the below sequence:
 
 - Upload existing DITA content using:
     - [WebDAV & FrameMaker for On-premise](migrate-content-upload-existing-dita-content-exp.md)

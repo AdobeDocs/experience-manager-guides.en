@@ -14,7 +14,7 @@ When you import content, it is not necessary that your file names will be based 
 
 >[!INFO]
 >
-> The steps to configure UUID filename pattern differ based on your deployment type: Cloud or On-premise. Select only the tab relevant to your deployment.
+> The steps to configure UUID filename pattern differ based on your deployment type: Cloud Service or On-premise. Select only the tab relevant to your deployment.
 
 >[!BEGINTABS]
 

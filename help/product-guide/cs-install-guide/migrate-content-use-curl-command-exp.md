@@ -8,7 +8,7 @@ level: Experienced
 ---
 # Use curl commands
 
-You can also use curl commands to create a folder in DAM, upload files, and add metadata on the uploaded content for Cloud Service and On-premise.
+You can also use curl commands to create a folder in DAM, upload files, and add metadata on the uploaded content. The process to use these curl commands remains same for both Cloud Service and On-premise.
 
 ## Create a folder
 

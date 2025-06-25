@@ -7,7 +7,7 @@ level: Experienced
 
 
 ---
-# Migrate content from On-premise to Cloud Service (For On-premise only)
+# Migrate content from On-premise to Cloud Service 
 
 Experience Manager as a Cloud Service provides a scalable, secure, and agile technology foundation for Experience Manager Guides, Assets, Forms, and Screens. This allows marketers and IT professionals to focus on delivering impactful experiences at scale.
 With Experience Manager as a Cloud Service, your teams can focus on innovating instead of planning for product upgrades. New product features are thoroughly tested and delivered to your teams without interruption so they can always access the latest version of Adobe Experience Manager.
