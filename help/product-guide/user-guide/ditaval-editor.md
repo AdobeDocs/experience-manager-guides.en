@@ -76,7 +76,7 @@ To add a specific revision number to a tag in XML, you can use use the Add rev p
 
 #### Add All Props
 
-If you want to add all conditional properties or attributes defined in your system with a single click, use the Add All Props feature.
+If you want to add all conditional properties or attributes defined in your system with a single click, use the Add All Props feature. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag` . The details for these actions are mentioned below.
 
 >[!NOTE]
 >
