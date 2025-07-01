@@ -66,7 +66,7 @@ Add a single property in your DITAVAL file.
 
 The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file.
 
-The second drop-down list shows the values configured for the selected attribute. Then, the next drop-down list shows the actions that you can configure on the selected attribute. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag`. For more information about these values, view the definition of [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA documentation
+The second drop-down list shows the values configured for the selected attribute. Then, the next drop-down list shows the actions that you can configure on the selected attribute. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag`. For more information about these values, view the definition of [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA documentation. For details of the action of properties of the attributes, view [Actions of property](#actions-for-property).
 
 #### Add Rev Prop
 
@@ -86,19 +86,8 @@ If you want to add all conditional properties or attributes defined in your syst
 ![](images/ditaval-all-props-new.png){width="650" align="left"}
 
 
-#### Version information and Save as new version
 
-The Version information & Save as new version feature combines version tracking and content saving into a single functionality.
-For more details, view [Save as new version](./web-editor-toolbar.md#version-information-and-save-as-new-version)
-
-
-#### Lock/unlock
-
-Locks or unlocks the current file. Locking a file gives you an exclusive write access to the file. 
-For more details, view [Lock unlock the file](./web-editor-toolbar.md#lockunlock)
-
-
-### Actions for property
+##### Actions for property
 
 There are majorly four actions available for a given property that can be used which are listed as follows:
 
@@ -146,6 +135,18 @@ There are majorly four actions available for a given property that can be used w
 
 
 ![](images/ditaval-style-conflict.png){width="650" align="left"}
+
+
+#### Version information and Save as new version
+
+The Version information & Save as new version feature combines version tracking and content saving into a single functionality.
+For more details, view [Save as new version](./web-editor-toolbar.md#version-information-and-save-as-new-version)
+
+
+#### Lock/unlock
+
+Locks or unlocks the current file. Locking a file gives you an exclusive write access to the file. 
+For more details, view [Lock unlock the file](./web-editor-toolbar.md#lockunlock)
 
 
 ### Save the content
