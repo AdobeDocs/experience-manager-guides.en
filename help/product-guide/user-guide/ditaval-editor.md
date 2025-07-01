@@ -9,7 +9,7 @@ role: User
 
 DITAVAL files are used to generate conditional output. In a single topic, you can add conditions using element attributes to conditionalize content. Then, you create a DITAVAL file wherein you specify the conditions that should be picked up to generate content, and which condition should be left out from the final output.
 
-Adobe Experience Manager Guides allows you to easily create and edit DITAVAL files using the DITAVAL editor. The DITAVAL editor retrieves the attributes \(or tags\) defined in your system, and you can use them to create or edit DITAVAL files. For more details about creating and managing tags in Adobe Experience Manager, view [Administering Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) section in Adobe Experience Manager documentation.
+Adobe Experience Manager Guides allows you to easily create and edit DITAVAL files using the DITAVAL editor. The DITAVAL editor retrieves the attributes (which can be used as conditions) defined in your system, and you can use them to create or edit DITAVAL files. For more details about creating and managing conditions in Adobe Experience Manager, view [Administering Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) section in Adobe Experience Manager documentation.
 
 The following sections cover the options available for a DITAVAL file in Experience Manager Guides.
 
@@ -58,27 +58,21 @@ The DITAVAL editor allows you to perform multiple tasks as listed below using th
 The Menu dropdown provides access to the editing actions, Find and replace, Version history, Version label, Merge, Create review task, Track changes, and Tags feature.
 For more details, view [Menu dropdown options](./web-editor-toolbar.md#menu-dropdown)
 
-#### Version information and Save as new version
-
-The Version information & Save as new version feature combines version tracking and content saving into a single functionality.
-For more details, view [Save as new version](./web-editor-toolbar.md#version-information-and-save-as-new-version)
-
-
-#### Lock/unlock
-
-Locks or unlocks the current file. Locking a file gives you an exclusive write access to the file. 
-For more details, view [Lock unlock the file](./web-editor-toolbar.md#lockunlock)
-
-
 #### Add Prop
     
 Add a single property in your DITAVAL file.
 
 ![](images/ditaval-editor-props-new.png){width="650" align="left"}
 
-The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file. There are five attributes that are supported - `audience`, `platform`, `product`, `props`, and `otherprops`.
+The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file.
 
 The second drop-down list shows the values configured for the selected attribute. Then, the next drop-down list shows the actions that you can configure on the selected attribute. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag`. For more information about these values, view the definition of [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA documentation
+
+#### Add Rev Prop
+
+To add a specific revision number to a tag in XML, you can use use the Add rev prop option. This adds a rev attribute to the tag, with the value defined in the Value field along with the selected action for the property. This revision attribute can later be used to filter relevant XML content based on the specified revision number when generating the output.
+
+![](images/ditaval-rev-props.png){width="650" align="left"}
 
 #### Add All Props
 
@@ -92,11 +86,17 @@ If you want to add all conditional properties or attributes defined in your syst
 ![](images/ditaval-all-props-new.png){width="650" align="left"}
 
 
-#### Add Rev Prop
+#### Version information and Save as new version
 
-To add a specific revision number to a tag in XML, you can use use the Add rev prop option. This adds a rev attribute to the tag, with the value defined in the Value field along with the selected action for the property. This revision attribute can later be used to filter relevant XML content based on the specified revision number when generating the output.
+The Version information & Save as new version feature combines version tracking and content saving into a single functionality.
+For more details, view [Save as new version](./web-editor-toolbar.md#version-information-and-save-as-new-version)
 
-![](images/ditaval-rev-props.png){width="650" align="left"}
+
+#### Lock/unlock
+
+Locks or unlocks the current file. Locking a file gives you an exclusive write access to the file. 
+For more details, view [Lock unlock the file](./web-editor-toolbar.md#lockunlock)
+
 
 ### Actions for property
 
