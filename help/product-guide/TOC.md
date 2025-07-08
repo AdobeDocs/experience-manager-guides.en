@@ -14,7 +14,7 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2025 Releases {#2025-releases}
-      - 2025.07.0 Release {#2506-release} 
+      - 2025.07.0 Release {#2507-release} 
           - [What's new](./release-info/whats-new-2025-07-0.md)
           - [Fixed issues](./release-info/fixed-issues-2025-07-0.md)
           - [Upgrade instructions](./release-info/upgrade-instructions-2025-07-0.md)
