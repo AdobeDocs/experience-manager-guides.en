@@ -9,7 +9,7 @@ role: User
 
 DITAVAL files are used to generate conditional output. In a single topic, you can add conditions using element attributes to conditionalize content. Then, you create a DITAVAL file wherein you specify the conditions that should be picked up to generate content, and which condition should be left out from the final output.
 
-Adobe Experience Manager Guides allows you to easily create and edit DITAVAL files using the DITAVAL editor. The DITAVAL editor retrieves the attributes \(or tags\) defined in your system, and you can use them to create or edit DITAVAL files. For more details about creating and managing tags in Adobe Experience Manager, view [Administering Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) section in Adobe Experience Manager documentation.
+Adobe Experience Manager Guides allows you to easily create and edit DITAVAL files using the DITAVAL editor. The DITAVAL editor retrieves the attributes (which can be used as conditions) defined in your system, and you can use them to create or edit DITAVAL files. For more details about creating and managing conditions in Adobe Experience Manager, view [Administering Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) section in Adobe Experience Manager documentation.
 
 The following sections cover the options available for a DITAVAL file in Experience Manager Guides.
 
@@ -24,7 +24,7 @@ Perform the following steps to create a DITAVAL file:
 
 1. In the Repository panel, select the **New file** icon and then select **Topic** from the dropdown menu. 
 
-    ![](images/new-file-option.png){align="left"}
+    ![](images/new-file-option.png){width="300" align="left"}
 
     You can also access this option from the [Experience Manager Guides Home page](./intro-home-page.md) and the options menu of a folder in the Repository view. 
 
@@ -49,37 +49,109 @@ The topic is created at the specified path. Also, the topic is opened in the Edi
 
 When you create a DITAVAL topic, it opens in the Editor for editing. To edit an existing DITAVAL topic, navigate to the folder or map where the DITAVAL topic is located, and then select **Edit** from the **Options** menu.
 
-The DITAVAL editor allows you to perform the following tasks:
+The DITAVAL editor allows you to perform multiple tasks as listed below using the options in the Editor toolbar.
 
-- Toggle Left Panel
+### Editor toolbar options
 
-   Toggle the left panel view. If you have opened the DITAVAL file through DITA map, the map and repository are shown in this panel. For more information about opening a file through DITA map, view [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+#### Menu dropdown
 
-- Save
+The Menu dropdown provides access to the editing actions, Find and replace, Version history, Version label, Merge, Create review task, Track changes, and Tags feature.
+For more details, view [Menu dropdown options](./web-editor-toolbar.md#menu-dropdown)
 
-   Saves the changes you have made in the file. All your changes are saved in the current version of your file.
-
-- Add Prop
+#### Add Prop
     
-   Add a single property in your DITAVAL file.
+Add a single property in your DITAVAL file.
 
-   ![](images/ditaval-editor-props-new.png)
+![](images/ditaval-editor-props-new.png){width="650" align="left"}
 
-   The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file. There are five attributes that are supported - `audience`, `platform`, `product`, `props`, and `otherprops`.
+The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file.
 
-    The second drop-down list shows the values configured for the selected attribute. Then, the next drop-down list shows the actions that you can configure on the selected attribute. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag`. For more information about these values, view the definition of [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA documentation
+The second drop-down list shows the values configured for the selected attribute. Then, the next drop-down list shows the actions that you can configure on the selected attribute. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag`. For more information about these values, view the definition of [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA documentation. For details of the action of the properties added in the attributes, view [Actions for property](#actions-for-property).
 
-- Add All Properties
+#### Add Rev Prop
 
-   If you want to add all conditional properties or attributes defined in your system with a single click, use the Add All Properties feature.
+To add a specific revision number to a tag in XML, you can use use the Add rev prop option. This adds a rev attribute to the tag, with the value defined in the Value field along with the selected action for the property. This revision attribute can later be used to filter relevant XML content based on the specified revision number when generating the output.
 
-    >[!NOTE]
-    >
-    > If all defined conditional properties already exist in the DITAVAL file, you cannot add more properties. You get an error message in this scenario.
+![](images/ditaval-rev-props.png){width="650" align="left"}
 
-    ![](images/ditaval-all-props-new.png)
+#### Add All Props
 
-Once you have finished editing your DITAVAL file, select **Save**.
+If you want to add all conditional properties or attributes defined in your system with a single click, use the Add All Props feature. The allowed values in the action drop-down are - `include`, `exclude`, `passthrough`, and `flag` . The details for these actions are mentioned below.
+
+>[!NOTE]
+>
+> If all defined conditional properties already exist in the DITAVAL file, you cannot add more properties. You get an error message in this scenario.
+
+
+![](images/ditaval-all-props-new.png){width="650" align="left"}
+
+
+
+##### Actions for property
+
+There are majorly four actions available for a given property that can be used which are listed as follows:
+
+**Include:** Include the content in output. This is the default behavior unless otherwise set.
+
+**Exclude:** Exclude the content from output (if all values in the particular attribute are excluded).
+
+**Passthrough:** Include the content in output, and preserve the attribute value as part of the output stream for further processing by a runtime engine, for example runtime filtering based on individual user settings.
+
+**Add Flags:** To flag content in the output, you can set flag as the action for the desired attribute in the file. You can also apply different flag styles by using the **Flag style** dropdown as shown in the snippet below.
+
+
+![](images/ditaval-flag-style.png){width="650" align="left"}
+
+   
+- **Background Color**: Select the hue, saturation, contrast from the Background color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
+
+
+![](images/ditaval-background-color.png){width="650" align="left"}
+
+
+
+- **Text Color**: Select the hue, saturation, contrast from the Text  color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
+
+
+![](images/ditaval-text-color.png){width="650" align="left"}
+
+
+
+- **Styling options**: You can add some styling options as well like Bold, Italics, Underline, Overline, Double underline.
+
+
+![](images/ditaval-styling-option.png){width="650" align="left"}
+
+
+
+- **Start and End Flags**: You can insert images as start and end flags using the **Add Flag** button. To choose images, either use **Browse Assets** to select from the Guides repository or **Add File** to upload from your local system. Additionally, you can specify alternate text for the images.
+
+
+![](images/ditaval-start-end-flags.png){width="650" align="left"}
+
+
+
+- **Style conflict**: It resolves the conflicts that occur when a single element contains multiple properties with different Flag styles. In such cases, the value defined in the style conflict properties is selected, effectively acting as a default value picker for background and text colors.
+
+
+![](images/ditaval-style-conflict.png){width="650" align="left"}
+
+
+#### Version information and Save as new version
+
+The Version information & Save as new version feature combines version tracking and content saving into a single functionality.
+For more details, view [Save as new version](./web-editor-toolbar.md#version-information-and-save-as-new-version)
+
+
+#### Lock/unlock
+
+Locks or unlocks the current file. Locking a file gives you an exclusive write access to the file. 
+For more details, view [Lock unlock the file](./web-editor-toolbar.md#lockunlock)
+
+
+### Save the content
+
+Once you have finished editing your DITAVAL file, select **Save** on the Tab bar.
 
 >[!NOTE]
 >

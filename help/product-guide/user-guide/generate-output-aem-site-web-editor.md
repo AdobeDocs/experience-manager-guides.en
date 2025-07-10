@@ -125,7 +125,7 @@ The **Topic list** tab displays the list of topics present in the current workin
 
 **Cross map references**
 
-This list contains topics containing cross-map references with `scope =”peer”`. You can specify the publishing context for a list of cross map references with `scope=”peer”` to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version. 
+This list contains topics containing cross-map references with `scope ="peer"`. You can specify the publishing context for a list of cross map references with `scope="peer"` to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version. 
 
 For more details, refer to the [Working with linked topics](#working-with-linked-topics) section below.
 
@@ -165,18 +165,20 @@ The **General** tab contains the following configuration options:
 
 **Content**
 
+![New ](images/aem-sites-content-tab.png){width="650" align="left"}
+
 The **Content** tab contains the following configuration options:
 
 | AEM Sites options | Description |
 | --- | --- |
-| Use Baseline | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.<br><br>View [Work with Baseline](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) for more details. |
+| Use Baseline | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.<br><br>View [Work with Baseline](./web-editor-baseline.md) for more details. |
 | Conditional filtering | Select one of the following options:<br><br>**None**: Select this option if you do not want to apply any condition on the published output.<br>**Using DITAVAL**: Select DITAVal file(s) to generate conditionalized content. You can select multiple DITAVal files using the browse dialog or by typing file path. Use the cross icon near the file name to remove it. DITAVal files are evaluated in the order specified, so the conditions specified in the first file take precedence over the matching conditions specified in later files. You can maintain the file order by adding or deleting files. If the DITAVal file is moved to some other location or is deleted, it is not automatically deleted from the map dashboard. You need to update the location in case files are moved or deleted. You can hover over the file name to view the path in the AEM repository where the file is stored. You can only select DITAVal files and an error is displayed if you select any other file type.<br>**Condition preset**: Select a condition preset from the drop-down to apply a condition while publishing the output. This option is visible if you have added a condition for the DITA map file. The conditional settings are available in the Condition Presets tab of the DITA map console. To know more about condition preset, view [Use condition presets](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Metadata <br> <br>File (Assets) Properties | Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties you select from the dropdown list appear under the **File Properties** field. Select the cross icon next to the property to remove it. <br><br>**Note**: The metadata properties are case-sensitive.<br><br>*If you have selected a Baseline, then the values for the properties are based on the version of the selected Baseline.<br>* If you have not selected a Baseline, then the values for the properties are based on the latest version.<br><br>You can also pass on the metadata to the output using DITA-OT publishing. For more details view, [Pass on the metadata to the output using DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Note**: If you have not defined the `cq:tags` in the Properties option, then the values for `cq:tags` are picked from the current working copy even if you have selected a Baseline for publishing. |
 | Metadata <br> <br>Use map properties as fallback | If selected, the properties defined for the map file are also copied into the topics where such properties are not defined. Consider the following points while using this option:<br><br>*Only String, Date, or Long (singe and multi-valued) properties can be passed on to the AEM Site pages.<br>* The metadata values for a String type property does not support any special characters (such as `@, #, " "`).<br>* This option should be used along with the `Properties` option. |
 
 **Cross map references**
 
-This list contains topics containing cross-map references with `scope =”peer”`. You can specify the publishing context for a list of cross map references with `scope=”peer”` to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version. 
+This list contains topics containing cross-map references with `scope ="peer"`. You can specify the publishing context for a list of cross map references with `scope="peer"` to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version. 
 
 For more details, refer to the [Working with linked topics](#working-with-linked-topics) section below.
 
@@ -202,7 +204,7 @@ Perform the following steps to specify the publishing context for cross-linked f
 
     >[!NOTE]
     >
-    >The **Cross map references** tab shows topics that are linked using the `scope=”peer”` only. For links with `scope=”local”`, you don’t need to specify the publishing context.
+    >The **Cross map references** tab shows topics that are linked using the `scope="peer"` only. For links with `scope="local"`, you don't need to specify the publishing context.
 
     All linked topics have their latest output preset and map selected by default. The publishing context for all the linked topics is set to `<Most recently generated>` map by default.
  
@@ -211,15 +213,15 @@ Perform the following steps to specify the publishing context for cross-linked f
 1. If you want to use the most recently published output of each dependent file in the map, select **Use most recently generated** publish context for all dependent topics.
 You should publish the map selected as the parent map before publishing the map containing linked topics. If the map with linked topics isn't published, the links appear as normal text instead of hyperlinks in the AEM Sites output.
 You should select the same type of AEM Sites preset for the linked topic. For example, if the current AEM Sites preset uses legacy component mapping, then select a similar AEM Sites preset of the linked topic. 
-1. In the Parent Map drop-down list, select the map file with whose output you want to link the current map’s output.
-Selecting a map file shows the map’s UUID in the Parent Map UUID column. The Output Presets associated with the chosen map are listed in the Parent Map’s Preset list. For example, Topic 1 in Map A contains a reference to Topic 2. Topic 2 can be present in single or multiple maps. You can select the parent map and a specific preset or the most recently published output for each link.
+1. In the Parent Map drop-down list, select the map file with whose output you want to link the current map's output.
+Selecting a map file shows the map's UUID in the Parent Map UUID column. The Output Presets associated with the chosen map are listed in the Parent Map's Preset list. For example, Topic 1 in Map A contains a reference to Topic 2. Topic 2 can be present in single or multiple maps. You can select the parent map and a specific preset or the most recently published output for each link.
 
 1. If the same topic is referred to more than once in a file, then you can add a different publishing context for each instance. This provides greater flexibility and control over their content. For example, Topic 3 is present in both Map B and Map C. Topic 1 contains two references to Topic 3. You can choose Map B as a parent map for the first link and Map C as the parent for the second link.
 
-1. In the Parent Map’s Preset drop-down list, select the output preset with which you want to link the current map’s output.
+1. In the Parent Map's Preset drop-down list, select the output preset with which you want to link the current map's output.
     >[!NOTE]
     >
-    > The different AEM Sites presets of the current map appear in the dropdown list. If you don’t select a preset, a warning icon appears, and the output generation, fails.
+    > The different AEM Sites presets of the current map appear in the dropdown list. If you don't select a preset, a warning icon appears, and the output generation, fails.
 
 1. Select the required map and its output preset for all source topics and select **Generate**.
 

@@ -18,11 +18,7 @@ If your map is chunked and you have updated a single topic in that map, then you
 
 Perform the following steps to regenerate output for a specific topic or a group of topics:
 
->[!IMPORTANT]
->
-> When you are regenerating the AEM Sites output, then the output is created using the current version of the files and not the attached Baseline.
-
-## Generate incremental output from Map console
+## Generate incremental output from Map console (for AEM sites using composite component mapping)
 
 Perform the following steps to generate incremental output for AEM Sites using Map console:
 
@@ -30,19 +26,26 @@ Perform the following steps to generate incremental output for AEM Sites using M
 1. Select the AEM Sites preset for which you want to generate incremental output.
 1. In the **Topics** tab, select the topics that you want to publish. 
 
-    ![aem sites topic list](images/aem-presets-topic-list.png) {align="left"}
+    - Without baseline 
+    
+       ![aem sites topic list](images/aem-presets-topic-list.png) {align="left"}
+
+    - With baseline
+
+       ![aem sites topic list with baseline](images/aem-presets-topic-list-new.png) {align="left"}
 
     >[!NOTE] 
     >
     > When a Baseline is selected in the **Content** tab, the Topic list displays topics and their versions from the attached Baseline.<br><br>
     > The incremental publishing from the Topics list should be used only when there is no change to the structure of the map. If there is a change in the map structure/TOC, then the entire map should be published once to update the TOC.
+
 1. Select **Save** to save the changes.
 1. Select **Generate output** to generate the output.
 
 
-## Generate incremental output from Map dashboard
+## Generate incremental output from Map dashboard (for AEM sites using legacy component mapping)
 
-Perform the following steps to generate incremental output for AEM Sites using Map dashboard:
+Perform the following steps to generate incremental output for AEM Sites using map dashboard:
 
 1.  In the Assets UI, navigate to and select the DITA map file.
 
@@ -65,6 +68,9 @@ Perform the following steps to generate incremental output for AEM Sites using M
     The **Regenerate Selected Topics** page appears.
 
 1.  Select the output preset that you want to use to regenerate the selected topics.
+
+    For AEM Sites output preset using legacy component mapping, if a baseline is selected, the topic versions included in the selected baseline are used for output generation. Additionally, incremental publishing from the Topics list should be used only when there are no changes to the map structure. If there is a change in the map structure/TOC, then the entire map should be published once to update the TOC. For details on using AEM site preset, view [AEM Sites presets on the map dashboard](./generate-output-aem-site-map-dashboard.md).
+
 
 1.  Select **Regenerate** to start the output generation process.
 
