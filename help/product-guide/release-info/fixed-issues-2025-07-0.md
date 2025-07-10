@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2025.07.0 release
 description: Learn about the bug fixes in the 2025.07.0 release of Adobe Experience Manager Guides as a Cloud Service.
-
+exl-id: 0744e821-5aee-432b-a6c8-7ed6538935db
 ---
 # Fixed issues in the 2025.07.0 release 
 
