@@ -16,10 +16,10 @@ Perform the following steps to add new content in your course:
     
     ![](assets/learning-course-content.png)
 2. Select the type of content you want to create. The available options are:  
-    - **Learning content**: The main material in a course consists of short, focused pieces like steps, examples, or explanations that teach a specific skill or idea. For more details, view [Create and customize Learning content](/create-content.md). 
+    - **Learning content**: The main material in a course consists of short, focused pieces like steps, examples, or explanations that teach a specific skill or idea. For more details, view [Create and customize Learning content](./create-content.md). 
     - **Learning summary**: A quick review at the end of a course chapter that reminds learners of the key points they just learned.    
-    - **Quiz**: A set of questions used to check how well someone understands what they've learned. For more details, view [Create and manage Quiz](/create-quiz.md). 
-    - **Question bank**: A shared pool of reusable questions that can be used to create quizzes quickly and consistently. For more details, view [Question bank](/create-qb). 
+    - **Quiz**: A set of questions used to check how well someone understands what they've learned. For more details, view [Create and manage Quiz](./create-quiz.md). 
+    - **Question bank**: A shared pool of reusable questions that can be used to create quizzes quickly and consistently. For more details, view [Question bank](./create-qb.md). 
     - **Learning group**: A Learning Group helps organize related learning content like chapters, topics, and other modules into a logical order, building a clear hierarchy that makes it easier to manage and reuse training materials.     
 3. Select **Create**. 
     The selected content is created and added to the course.  
