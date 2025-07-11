@@ -41,13 +41,13 @@ You can add existing content from your content repository to your course. Perfor
 
 You can remove any topic from the course by selecting the **Options** menu for that specific topic and then selecting **Remove** as shown below.
 
-![](assets/remove-learning-content.png){width="650" align="center"}
+![](assets/remove-learning-content.png){width="350" align="left"}
 
 ## Create course versions 
 
 You can control the versioning of your course by selecting the **Options** menu > **Versioning**.  
 
-![](assets/course-versioning.png){width="650" align="center"}
+![](assets/course-versioning.png){width="650" align="left"}
 
 You get the following options for versioning a course: 
 

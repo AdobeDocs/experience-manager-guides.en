@@ -12,7 +12,7 @@ Perform the following steps to access the Learning and Training content interfac
 2. On the AEM Navigation page, select **Guides**. 
 3. You are now on the **Experience Manager Guides Home page**. Use the navigation switcher to switch to the Editor view.  
 
-    ![](assets/aem-navigation-switcher.png){width="300" align="center"}
+    ![](assets/aem-navigation-switcher.png){width="300" align="left"}
 
 4. Open the **Repository** panel and navigate to the folder within which you want to create a course and select **New > Course** from the **Options** menu. 
 
