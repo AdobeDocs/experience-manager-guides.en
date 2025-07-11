@@ -15,7 +15,7 @@ Perform the following steps to generate a PDF:
     
 1. Once the generation process is complete, a success message appears confirming the PDF has been created.  
 
-    ![](assets/learning-pdf-generated.png){width="650" align="left"} 
+    ![](assets/learning-pdf-generated.png){width="350" align="left"} 
 
 1. You can download the PDF by selecting **View output** on the success message as well as from the toolbar. 
 

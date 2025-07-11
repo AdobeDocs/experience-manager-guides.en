@@ -1,12 +1,12 @@
 ---
-title: Insert questions to quiz
-description: Learn how to insert questions to the quiz in the Learning and Training content,
+title: Insert questions into a quiz
+description: Learn how to insert questions into a quiz in the Learning and Training content,
 feature: Authoring 
 role: User
 ---
-# Insert questions to Quiz 
+# Insert questions into a quiz 
 
-Perform the following steps to add questions to the quiz: 
+Perform the following steps to insert questions into a quiz: 
 
 1. Choose the desired question type from the **Questions** dropdown menu in the toolbar. Based on your requirements, you can add questions using any of the three formats available: True or False, Single correct, and Multiple correct as shown below. 
 

@@ -15,7 +15,7 @@ Perform the following steps to generate a SCORM output:
     
 1. Once the generation is complete, a success message appears confirming the **filename.zip** file has been created. You can preview the output using **View output** on the success message.   
   
-    ![](assets/scorm-success-message.png){width="650" align="left"}
+    ![](assets/scorm-success-message.png){width="350" align="left"}
 
 1. You can download or preview the output by selecting **Download output** or **Preview output** respectively. 
    

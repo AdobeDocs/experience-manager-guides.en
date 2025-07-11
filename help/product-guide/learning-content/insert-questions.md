@@ -10,7 +10,7 @@ Perform the following steps, for inserting questions from question bank in the q
 
 1. Select **Insert from question bank** option from the **Questions** dropdown menu in the toolbar as shown below. The **Insert from question bank** dialog opens.  
 
-    ![](assets/insert-from-question-bank.png){width="650" align="left"}
+    ![](assets/insert-from-question-bank.png){width="350" align="left"}
     
 1. Specify the path to the question bank stored in your repository and select the questions you wish to insert into your quiz, as shown below. You can also select all the questions of the Question bank, using **Select all**.  
 

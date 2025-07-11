@@ -4,7 +4,7 @@ description: Gives the overview of the Learning content component in the Learnin
 feature: Authoring
 role: User
 ---
-# Overview 
+# Learning content overview
 
 The Learning content enables you to create template-driven content within your eLearning course. It allows you to incorporate various elements, such as text, widgets, images, and multimedia to enhance the learning experience.
 

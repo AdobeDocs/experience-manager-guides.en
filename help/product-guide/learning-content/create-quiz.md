@@ -15,7 +15,7 @@ Perform the following steps to add quiz to a course:
 1. Select **Quiz**.  
     A **New quiz** dialog opens to specify the relevant details of the quiz. You can select the template from the dropdown menu and specify a suitable title for the same.   
 
-    ![](assets/create-quiz.png){width="650" align="left"}
+    ![](assets/create-quiz.png){width="350" align="left"}
 
 1. Select **Create**. 
    

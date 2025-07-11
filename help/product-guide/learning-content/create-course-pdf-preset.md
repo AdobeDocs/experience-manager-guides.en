@@ -10,7 +10,7 @@ Perform the following steps to create a PDF output preset:
 
 1. Open the course in **Map console**.
 
-    ![](assets/open-in-map-console.png){width="650" align="left"}
+    ![](assets/open-in-map-console.png){width="350" align="left"}
     
 1. In the **Output presets** tab, select the + icon to create an output preset.    
 1. Select **PDF** from the **Type** dropdown in the New output preset dialog.

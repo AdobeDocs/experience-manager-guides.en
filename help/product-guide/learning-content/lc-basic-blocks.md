@@ -38,7 +38,7 @@ You can use the basic editing features available on the Learning content toolbar
 
 - **Symbols**: Adds symbols of your choice to the content from a list as shown below. You can use it from the **More** menu on the toolbar.
 
-    ![](assets/symbol-learning-content.png){width="650" align="left"}
+    ![](assets/symbol-learning-content.png){width="350" align="left"}
 
 
 - **Hyperlinks**: Adds hyperlinks to the required location in your content. You can use it from the **More** menu on the toolbar. It can be a file reference, web URL, or an e-mail link as shown below. 

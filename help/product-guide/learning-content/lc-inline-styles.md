@@ -10,7 +10,7 @@ Apply inline styles to customize the appearance of specific text directly within
 
 >[!NOTE]
 >
-> These styling options will be visible only if they are enabled by the administrator. 
+> These styling options will be visible only if they are enabled by the Administrator. 
 
 ![](assets/content-properties-learning-content.png){width="350" align="left"}
 

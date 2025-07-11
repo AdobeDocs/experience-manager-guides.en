@@ -15,11 +15,11 @@ Perform the following steps to add Learning content to a course:
 1. Select **Learning content**.
    The New learning content dialog is displayed.  
 
-    ![](assets/learning-content-dialog.png){width="650" align="left"}
+    ![](assets/learning-content-dialog.png){width="350" align="left"}
 
 1. Select the template you want from the dropdown menu. 
   
-    ![](assets/template-types-lc.png){width="650" align="left"}
+    ![](assets/template-types-lc.png){width="350" align="left"}
 
 1. Provide a suitable title for the Learning content. 
 1. Select **Create**.

@@ -483,7 +483,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Insert questions from Question bank](./learning-content/insert-questions.md)
       - [Quiz properties](./learning-content/quiz-properties.md) 
     - Publish your course {#publish-course} 
-      - [Overview](./learning-content/publish-overview.md)
+      - [About course publishing](./learning-content/publish-overview.md)
       - [Supported presets](./learning-content/course-presets.md)
       - Publish course in SCORM format {#scorm-output}
         - [Create SCORM output preset](./learning-content/create-scorm-preset.md)
