@@ -24,7 +24,7 @@ Perform the following steps to create your first course:
     - The file name for the course. The file name is auto suggested based on the course Title. In case your Administrator has enabled automatic file names based on the UUID setting, then you will not view the File name field. 
     - Path where you want to save the course. By default, the path of the currently selected folder in the repository is shown in the Path field. 
 3. Select **Create**. 
-    The course is created at the specified path based on the selected template. Also, 	the course opens in the Course manager for editing.  
+    The course is created at the specified path based on the selected template. Also, the course opens in the Course manager for editing.  
 
     ![](assets/course-manager-read-only-mode.png)
 

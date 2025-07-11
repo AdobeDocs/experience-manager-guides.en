@@ -4,7 +4,7 @@ description: Understand the basics of Course manager when working with Learning 
 feature: Authoring 
 role: User
 ---
-## Understand the basics of the Course manager  
+# Understand the basics of the Course manager  
 
 The **Course manager** is your central workspace for creating and managing courses. When you create a new course, it automatically opens in the Course manager panel from where you can start building your course.  
 
