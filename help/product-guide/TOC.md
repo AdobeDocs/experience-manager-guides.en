@@ -457,7 +457,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
     - [Appendix](./cs-install-guide/appendix.md)
 - Learning and Training Content {#learning-training-content}
-  - Get started guide {#get-started}
+  - Getting started guide {#get-started}
     - Introduction {#intro-lc}
       - [Overview of the Learning and Training content](./learning-content/intro.md)
       - [Access Learning and Training content interface](./learning-content/access-lc-interface.md)
@@ -477,7 +477,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Quiz overview](./learning-content/quiz-overview.md)
       - [Create Quiz](./learning-content/create-quiz.md)
       - [Edit Quiz](./learning-content/edit-quiz.md)
-      - [Insert questions to the Quiz](./learning-content/quiz-insert-questions.md)
+      - [Insert questions into a Quiz](./learning-content/quiz-insert-questions.md)
       - Question bank {#question-bank}
         - [Create Question bank](./learning-content/create-qb.md)
         - [Insert questions from Question bank](./learning-content/insert-questions.md)

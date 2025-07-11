@@ -16,5 +16,5 @@ Once your course content is complete, output presets are configured to publish t
 
 The following diagram outlines the course workflow at a glance. 
 
-![](assets/learning-course-workflow.jpg)
+![](assets/learning-course-workflow.png)
 
