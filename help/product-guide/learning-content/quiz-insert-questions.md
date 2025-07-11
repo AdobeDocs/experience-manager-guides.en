@@ -4,7 +4,7 @@ description: Learn how to insert questions into a quiz in the Learning and Train
 feature: Authoring 
 role: User
 ---
-# Insert questions into a quiz 
+# Insert questions into a Quiz 
 
 Perform the following steps to insert questions into a quiz: 
 

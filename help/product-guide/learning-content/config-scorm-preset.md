@@ -4,7 +4,7 @@ description: Learn about the various SCORM preset configuration in the Learning 
 feature: Authoring 
 role: User
 ---
-# SCORM preset configuration
+# Configure SCORM output preset
 
 After the preset is created, configure the SCORM preset settings. The preset configuration options are organized under General, Content and Publish tabs.
 
