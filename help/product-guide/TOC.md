@@ -456,7 +456,47 @@ breadcrumb-title: AEM Guides Documentation
     - Work with AEM Assets search {#aem-asset-search-cs}
       - [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
     - [Appendix](./cs-install-guide/appendix.md)
-    
+- Learning and Training Content {#learning-training-content}
+  - Get started guide {#get-started}
+    - Introduction {#intro-lc}
+      - [Overview of the Learning and Training content](./learning-content/intro.md)
+      - [Access Learning and Training content interface](./learning-content/access-lc-interface.md)
+    - Set up your course {#setup-course}
+      - [Course overview](./learning-content/course-overview.md)
+      - [Create your first course](./learning-content/create-first-course.md)
+      - [Understand Course manager basics](./learning-content/course-manager-basics.md)
+      - [Manage your course](./learning-content/manage-course.md)
+    - Create and customize Learning content {#customize-lc}
+      - [Learning content overview](./learning-content/lc-overview.md)
+      - [Create Learning content](./learning-content/create-content.md)
+      - [Edit Learning content](./learning-content/edit-content.md)
+      - [Add basic building blocks](./learning-content/lc-basic-blocks.md)
+      - [Use interactive widgets](./learning-content/lc-widgets.md)
+      - [Use inline styles](./learning-content/lc-inline-styles.md)
+    - Create and manage quiz {#quiz}
+      - [Quiz overview](./learning-content/quiz-overview.md)
+      - [Create Quiz](./learning-content/create-quiz.md)
+      - [Edit Quiz](./learning-content/edit-quiz.md)
+      - [Insert questions to the Quiz](./learning-content/quiz-insert-questions.md)
+      - Question bank {#question-bank}
+        - [Create Question bank](./learning-content/create-qb.md)
+        - [Insert questions from Question bank](./learning-content/insert-questions.md)
+      - [Quiz properties](./learning-content/quiz-properties.md) 
+    - Publish your course {#publish-course} 
+      - [Overview](./learning-content/publish-overview.md)
+      - [Supported presets](./learning-content/course-presets.md)
+      - Publish course in SCORM format {#scorm-output}
+        - [Create SCORM output preset](./learning-content/create-scorm-preset.md)
+        - [Configure SCORM output preset](./learning-content/config-scorm-preset.md)
+        - [Generate SCORM output](./learning-content/generate-scorm-output.md)
+      - Publish course in PDF format {#pdf-output}
+        - [Create PDF output preset](./learning-content/create-course-pdf-preset.md)
+        - [Configure PDF output preset](./learning-content/config-course-pdf-preset.md)
+        - [Generate PDF](./learning-content/generate-course-pdf.md)
+  - Configuration guide {#config-lc}
+    - [About this guide](./lc-config-guide/introduction.md)
+    - [Configure Folder profiles](./lc-config-guide/lc-folder-profile.md)
+    - [Configure other settings](./lc-config-guide/lc-other-settings.md)    
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
   - [REST APIs for Output management](./api-reference/output-management.md)
