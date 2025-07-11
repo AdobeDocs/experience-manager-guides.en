@@ -8,7 +8,7 @@ role: User
 
 Perform the following steps to add Learning content to a course: 
 
-1. Open a course in the Course manager and select **Add new** from the **Options** menu.  
+1. Open a course in the **Course manager** and select **Add new** from the **Options** menu.  
 
     ![](assets/workflow-learning-content.png){width="650" align="left"}
     
