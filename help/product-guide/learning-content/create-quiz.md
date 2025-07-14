@@ -1,8 +1,9 @@
 ---
 title: Create Quiz
 description: Learn about creating Quiz in the Learning and Training content.
-feature: Authoring 
+feature: Authoring
 role: User
+exl-id: 96c1d233-66d8-4f4e-b08a-d533d74fe0ff
 ---
 # Create Quiz
 
@@ -24,4 +25,3 @@ A Quiz is added as part of the course and is displayed in the Course manager pan
 >[!NOTE]
 >
 >  Once you create a quiz, it is automatically assigned Version 1.0.
-

@@ -3,6 +3,7 @@ title: Create question bank
 description: Learn how to create a Question bank in the Learning and Training content
 feature: Authoring
 role: User
+exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
 ---
 # Create Question bank   
 
@@ -18,8 +19,3 @@ To streamline quiz creation and reuse, you can create a customized question bank
 1. Select **Create**. 
     A Question bank is added as part of the course and is displayed in the Course manager panel.
 1. You can add questions to the question bank in the same manner as you do for a quiz, while also having the flexibility to configure the properties of each question during the process. For more details, view [Insert questions into a quiz](./quiz-insert-questions.md).
-
-
-
-
-

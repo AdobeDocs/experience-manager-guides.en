@@ -1,8 +1,9 @@
 ---
 title: Create Learning content
 description: Talks about creating a Learning content in the Learning and Training content.
-feature: Authoring 
+feature: Authoring
 role: User
+exl-id: a08a165d-801b-4b35-9626-b27471349327
 ---
 # Create Learning content
 
@@ -28,5 +29,4 @@ Learning content is created within the course and appears in the Course manager 
 
 >[!NOTE]
 >
-> Once you create new learning content, it is automatically assigned Version 1.0. 
-
+> Once you create new learning content, it is automatically assigned Version 1.0.

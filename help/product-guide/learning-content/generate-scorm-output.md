@@ -1,8 +1,9 @@
 ---
 title: Generate SCORM output
 description: Learn how to generate a SCORM output in the Learning and Training content
-feature: Authoring 
+feature: Authoring
 role: User
+exl-id: 3de623d6-c547-42a5-9ce4-c3e09accb8b1
 ---
 # Generate SCORM output 
 
@@ -21,7 +22,4 @@ Perform the following steps to generate a SCORM output:
    
     ![](assets/scorm-view-output.png){width="650" align="left"} 
 
-You can upload the ZIP file to your LMS to make the course available to your learners.     
-
-
-    
+You can upload the ZIP file to your LMS to make the course available to your learners.

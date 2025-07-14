@@ -1,8 +1,9 @@
 ---
-title: Manage a course in Learning and Training content  
-description: Learn about the various features present in Experience Manager Guides that allow you to manage your course efficiently.  
-feature: Authoring 
+title: Manage a course in Learning and Training content
+description: Learn about the various features present in Experience Manager Guides that allow you to manage your course efficiently.
+feature: Authoring
 role: User
+exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
 ---
 # Manage your course  
 
@@ -64,7 +65,3 @@ The **Show** option determines how topics are displayed. You can choose to prese
 > These view settings apply only within the Course manager and have no impact on the published output. 
 
 ![](assets/course-display-settings.png)
-
-
-
-    

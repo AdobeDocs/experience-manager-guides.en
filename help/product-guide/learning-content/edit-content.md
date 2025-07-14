@@ -1,8 +1,9 @@
 ---
 title: Edit Learning content
 description: Talks about how to edit the Learning content in the Learning and Training content
-feature: Authoring 
+feature: Authoring
 role: User
+exl-id: 5ff569bd-cd46-4238-ade2-5367ff60180f
 ---
 # Edit Learning content
 
@@ -18,5 +19,4 @@ Perform the following steps for editing the Learning content:
 
     ![](assets/saving-learning-content.png){width="650" align="left"}
 
-1. After saving the content, you can **Unlock** the topic for others to edit. 
-   
+1. After saving the content, you can **Unlock** the topic for others to edit.

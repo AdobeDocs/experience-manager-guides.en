@@ -1,8 +1,9 @@
 ---
 title: Use interactive widgets
-description: Learn about the interactive widgets you can use in the Learning content. 
-feature: Authoring 
+description: Learn about the interactive widgets you can use in the Learning content.
+feature: Authoring
 role: User
+exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
 ---
 # Use interactive widgets
 

@@ -1,8 +1,9 @@
 ---
-title: Add basic building blocks to your Learning content 
+title: Add basic building blocks to your Learning content
 description: Learn about the basic building blocks you can add to your Learning content in the Learning and Training content
-feature: Authoring 
+feature: Authoring
 role: User
+exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
 ---
 # Add basic building blocks to your Learning content 
 
@@ -44,5 +45,3 @@ You can use the basic editing features available on the Learning content toolbar
 - **Hyperlinks**: Adds hyperlinks to the required location in your content. You can use it from the **More** menu on the toolbar. It can be a file reference, web URL, or an e-mail link as shown below. 
 
     ![](assets/hyperlink-learning-content.png){width="650" align="left"}
-
-     

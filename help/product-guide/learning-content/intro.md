@@ -1,8 +1,9 @@
 ---
-title: Introduction to Learning and Training content 
-description: Learn about the Learning and Training content feature present in Adobe Experience Manager Guides.  
-feature: Authoring 
+title: Introduction to Learning and Training content
+description: Learn about the Learning and Training content feature present in Adobe Experience Manager Guides.
+feature: Authoring
 role: User
+exl-id: d00bc88c-e6ec-4aa3-971a-e9fbabe9a965
 ---
 # Overview of the Learning and Training content
 
@@ -19,8 +20,4 @@ The key capabilities are as follows:
 - Support for structured authoring and content reuse 
 - Quiz creation and management  
 - Industry-leading translation management 
-- Multi-channel publishing using out-of-the-box SCORM and PDF output formats 
-
-
-
-    
+- Multi-channel publishing using out-of-the-box SCORM and PDF output formats

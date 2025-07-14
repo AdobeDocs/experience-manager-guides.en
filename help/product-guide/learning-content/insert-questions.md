@@ -1,8 +1,9 @@
 ---
 title: Insert questions from Question bank
 description: Learn how to insert questions from Question bank in Quiz for Learning and Training content
-feature: Authoring 
+feature: Authoring
 role: User
+exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
 ---
 # Insert questions from Question bank
 
