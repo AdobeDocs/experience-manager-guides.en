@@ -127,7 +127,7 @@ Perform the following steps to create a new output template for the Learning and
     ![](assets/output-template-types.png){width="650" align="left"}
 4. Based on the selected Output template type, a dialog is displayed where you can create a new template based on the available templates.  
 
-     ![](assets/select-scorm-template-dialog.png){width="350" align="left"}
+     ![](assets/new-scorm-template-dialog.png){width="350" align="left"}
 
 5. Select **Create**. 
 
@@ -179,7 +179,7 @@ This setting allows you to configure the Editor for HTML-based authoring. Key co
 
 ![](assets/configure-html-editor-setting.png){width="350" align="left"}
 
-- **Hide inline styling**: Enable this option to prevent Authors from applying inline formatting to the course content. When enabled, all the inline styling options like Fonts, Border, Layout, Background, and Columns present in the right panel of the Editor remain hidden for Authors. However, Authors can still use the global class-based styling options available in the **Styles** panel. This helps maintain consistency with your organization’s style guidelines. 
+- **Hide inline styling**: Enable this option to prevent Authors from applying inline formatting to the course content. When enabled, all the inline styling options like Fonts, Border, Layout, Background, and Columns present in the right panel of the Editor remain hidden for Authors. However, Authors can still use the global class-based styling options available in the **Styles** panel. This helps maintain consistency with your organization's style guidelines. 
 - **Hide Source view for Authors**: Enable this option to restrict access to the HTML source code. This is useful when you want to simplify the editing experience or avoid accidental changes to the underlying code. 
 
 ## Manage Publish profiles 
