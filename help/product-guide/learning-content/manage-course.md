@@ -20,7 +20,7 @@ Perform the following steps to add new content in your course:
     - **Learning summary**: A quick review at the end of a course chapter that reminds learners of the key points they just learned.    
     - **Quiz**: A set of questions used to check how well someone understands what they've learned. For more details, view [Create and manage Quiz](./create-quiz.md). 
     - **Question bank**: A shared pool of reusable questions that can be used to create quizzes quickly and consistently. For more details, view [Question bank](./create-qb.md). 
-    - **Learning group**: A Learning Group helps organize related learning content like chapters, topics, and other modules into a logical order, building a clear hierarchy that makes it easier to manage and reuse training materials.     
+    - **Learning group**: A Learning group helps organize related learning content like chapters, topics, and other modules into a logical order, building a clear hierarchy that makes it easier to manage and reuse training materials.     
 3. Select **Create**. 
     The selected content is created and added to the course.  
 
@@ -30,24 +30,24 @@ You can add existing content from your content repository to your course. Perfor
 
 1. Select the **Options** menu > **Add existing**.  
 2. Select the type of course content you want to create.  
-3. In the Select path dialog, navigate to the content location and select the desired Learning content. 
+3. In the **Select path** dialog, navigate to the content location and select the desired Learning content. 
 
     ![](assets/add-existing-learning-content.png)
 4. Choose **Select**. 
 
- The selected Learning content is added to the course from the repository.  
+ The selected course content is added to the course from the repository.  
 
 ## Remove content 
 
 You can remove any topic from the course by selecting the **Options** menu for that specific topic and then selecting **Remove** as shown below.
 
-![](assets/remove-learning-content.png){width="350" align="left"}
+![](assets/remove-learning-content.png)
 
 ## Create course versions 
 
 You can control the versioning of your course by selecting the **Options** menu > **Versioning**.  
 
-![](assets/course-versioning.png){width="650" align="left"}
+![](assets/course-versioning.png)
 
 You get the following options for versioning a course: 
 
