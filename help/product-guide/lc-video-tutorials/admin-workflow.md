@@ -12,7 +12,7 @@ Learn about the various aspects of Administrator workflow when working with Lear
 
 |Title and Description| Video Link|
 |----|-----|
-|Overview|[Overview](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)|
+|Overview|[Overview](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on){target="_blank"}|
 
 
     
