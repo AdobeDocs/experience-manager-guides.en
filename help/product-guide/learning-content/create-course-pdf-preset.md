@@ -12,7 +12,7 @@ Perform the following steps to create a PDF output preset:
 
     ![](assets/open-in-map-console.png){width="350" align="left"}
     
-1. In the **Output presets** tab, select the + icon to create an output preset.    
+1. In the **Output presets** panel, select the + icon to create an output preset.    
 1. Select **PDF** from the **Type** dropdown in the New output preset dialog.
 1. In the **Name** field, provide a name for this preset.
 1. In the **Generate PDF Using** field, select **Native PDF**.

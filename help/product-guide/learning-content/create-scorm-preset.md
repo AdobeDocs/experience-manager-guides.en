@@ -12,15 +12,17 @@ Perform the following steps to create a SCORM output preset:
 
     ![](assets/open-in-map-console.png){width="350" align="left"}
     
-1. In the **Output presets** tab, select the + icon to create an output preset.    
+1. In the **Output presets** panel, select the + icon to create an output preset.    
 1. Select **SCORM** from the **Type** dropdown in the **New output preset** dialog.  
   
     ![](assets/scorm-preset.png){width="350" align="left"}
 
-1. In the **Name** field, provide a name for this preset. 
+1. In the **Name** field, provide a name for this preset.
+1. Select the **Add to current folder profile** option to create an output preset within the current folder profile. 
 1. Select **Add**.
-   The SCORM preset is created. A SCORM preset page opens where you can do the necessary configurations.
 
-   ![](assets/scorm-output-preset.png){width="800" align="left"} 
+The SCORM preset is created. A SCORM preset page opens where you can do the necessary configurations.
+
+![](assets/scorm-output-preset.png){align="left"} 
 
     
