@@ -2,9 +2,8 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 2025.08.0 release
 description: Learn about the new and enhanced features in the 2025.08.0 release of Adobe Experience Manager Guides
 role: Leader
-exl-id: 9596738c-f5ec-4135-a15d-fca05e668e70
 ---
-# What's new in the 2025.08.0 release (July 2025)
+# What's new in the 2025.08.0 release (August 2025)
 
 This article covers the new and enhanced features introduced with the 2025.08.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
@@ -12,8 +11,10 @@ For the list of issues fixed in this release, view [Fixed issues in the 2025.08.
 
 Learn about [upgrade instructions for the 2025.08.0  release](../release-info/upgrade-instructions-2025-08-0.md).
 
-## Support for baseline driven incremental publishing via map dashboard for AEM Sites output using legacy component mapping
+## Temporary files for published output now include Author and Publish URLs in a new config file
 
-The incremental output generation process has been enhanced to support publishing specific versions of topics defined in the selected baseline for AEM sites using legacy component mapping, ensuring accurate propagation of the content in the output.
+The latest publishing enhancements to Experience Manager Guides now adds a new `system_config.json` file to the temporary files generated while publishing HTML, PDF, and JSON outputs using DITA-OT, as well as Native PDF output. This file is automatically included in the publishing job and also accessible through temporary files when you enable the **Retain temporary files** option for the presets and generate the output.
 
-For more details, view [Incremental output generation](../user-guide/generate-output-aem-site.md).
+The `system_config.json` file contains key instance details, including the Author URL, Local URL, and Publish URL, which provide clearer context and improve the traceability of the downloaded URLs.
+
+For more details, view [Understand the output presets](../user-guide/generate-output-understand-presets.md).
