@@ -10,7 +10,8 @@ Learn about the various aspects of Author workflow when working with Learning an
 
 |Title and Description| Video Link|
 |----|-----|
-|Overview <br> This is the Overview of the authoring environment.|[Overview](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on){target="_blank"}|
+|Setup Authoring Environment <br> This video will walk you through the process of setting up the authoring environment to work with the Learning and Training content.|[Launch video](https://video.tv.adobe.com/v/3464836/learning-content-aem-guides){target="_blank"}|
+|Upcoming tutorial <br> Video description.|[Launch video](https://video.tv.adobe.com/){target="_blank"}|
 
 
 
