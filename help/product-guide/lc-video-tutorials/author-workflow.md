@@ -1,8 +1,9 @@
 ---
 title: Author workflow
-description: Learn about the Author workflow for Learning and Training content in Experience Manager Guides.  
-feature: Authoring 
+description: Learn about the Author workflow for Learning and Training content in Experience Manager Guides.
+feature: Authoring
 role: User
+exl-id: 18b7e018-287c-4e52-a05e-5472eedf1c54
 ---
 # Author workflow
 
