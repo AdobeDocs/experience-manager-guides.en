@@ -7,12 +7,12 @@ level: Experienced
 ---
 # Administrator workflow
 
-Learn about the various aspects of Administrator workflow when working with Learning and Training content in Experience Manager Guides.
+Learn about the various aspects of the Administrator workflow when working with Learning and Training content in Experience Manager Guides.
 
 
 |Title and Description| Video Link|
 |----|-----|
-|Overview <br> This is the Overview of the administrator environment.|[Overview](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on){target="_blank"}|
+|Set up authoring environment as an Administrator <br> This video walks you through the step-by-step process for setting up the folder hierarchy, folder profiles, authoring and output templates, and editor preferences.|[Launch video](https://video.tv.adobe.com/v/3464835/learning-content-aem-guides){target="_blank"}|
 
 
     
