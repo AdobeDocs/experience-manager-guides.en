@@ -1,9 +1,10 @@
 ---
 title: Configure Other Settings
-description: Learn about how to configure folders, assets folders, variables, snippets, conditions, and more for different departments in Experience Manager Guides.  
-feature: Authoring 
+description: Learn about how to configure folders, assets folders, variables, snippets, conditions, and more for different departments in Experience Manager Guides.
+feature: Authoring
 role: Admin
 level: Experienced
+exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
 ---
 # Configure other settings 
 
@@ -37,4 +38,4 @@ As an Administrator, you can also configure the following settings for the Learn
 
 - **Editor toolbar**: You can customize the Editor toolbar as per your organizational needs. For example, you may prefer to change the name of a toolbar button, change its location, and so on.  
 
-    For details, view [Configure and customize the XML Editor](../cs-install-guide/conf-folder-level.md#configure-and-customize-the-xml-editor-id2065g300o5z). 
+    For details, view [Configure and customize the XML Editor](../cs-install-guide/conf-folder-level.md#configure-and-customize-the-xml-editor-id2065g300o5z).

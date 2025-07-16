@@ -1,8 +1,9 @@
 ---
-title: Use inline styles 
+title: Use inline styles
 description: Learn about how to use various inline styles when creating Learning content in the Learning and Training content
-feature: Authoring 
+feature: Authoring
 role: User
+exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
 ---
 # Use inline styles 
 

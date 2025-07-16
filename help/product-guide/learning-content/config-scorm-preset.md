@@ -1,8 +1,9 @@
 ---
 title: SCORM preset configuration
 description: Learn about the various SCORM preset configuration in the Learning and Training content
-feature: Authoring 
+feature: Authoring
 role: User
+exl-id: b3000708-6120-4725-bea1-0b8e58048948
 ---
 # Configure SCORM output preset
 
@@ -20,6 +21,4 @@ After the preset is created, configure the SCORM preset settings. The preset con
   
     ![](assets/scorm-publish-tab.png){width="650" align="left"}
 
-Once all the changes are configured, save the changes for the SCORM preset using **Save** on the right corner of the toolbar of the SCORM preset page. 
-
-    
+Once all the changes are configured, save the changes for the SCORM preset using **Save** on the right corner of the toolbar of the SCORM preset page.

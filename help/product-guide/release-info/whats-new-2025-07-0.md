@@ -2,7 +2,7 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 2025.07.0 release
 description: Learn about the new and enhanced features in the 2025.07.0 release of Adobe Experience Manager Guides
 role: Leader
-
+exl-id: 9596738c-f5ec-4135-a15d-fca05e668e70
 ---
 # What's new in the 2025.07.0 release (July 2025)
 

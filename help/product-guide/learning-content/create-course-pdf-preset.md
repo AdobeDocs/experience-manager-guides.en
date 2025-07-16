@@ -1,8 +1,9 @@
 ---
 title: Create PDF preset
-description: Create a PDF preset in the Learning and Training content 
-feature: Authoring 
+description: Create a PDF preset in the Learning and Training content
+feature: Authoring
 role: User
+exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3
 ---
 # Create a PDF output preset
 
@@ -21,6 +22,4 @@ Perform the following steps to create a PDF output preset:
    
 The PDF preset page opens where you can do the necessary configurations. 
 
-   ![](assets/learning-pdf-preset.png){width="650" align="left"} 
-
-    
+   ![](assets/learning-pdf-preset.png){width="650" align="left"}

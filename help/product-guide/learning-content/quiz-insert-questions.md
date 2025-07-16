@@ -1,8 +1,9 @@
 ---
 title: Insert questions into a quiz
 description: Learn how to insert questions into a quiz in the Learning and Training content,
-feature: Authoring 
+feature: Authoring
 role: User
+exl-id: dff38476-c078-4970-b967-05a902430015
 ---
 # Insert questions into a Quiz 
 
@@ -19,4 +20,3 @@ Perform the following steps to insert questions into a quiz:
     ![](assets/question-properties.png){width="650" align="left"}
 
 1. Save all the changes you have made in the quiz.
-

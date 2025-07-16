@@ -1,9 +1,10 @@
 ---
 title: Configure Folder Profiles
-description: Learn about how to configure folder profiles when working with the Learning and Training content in Experience Manager Guides.  
-feature: Authoring 
+description: Learn about how to configure folder profiles when working with the Learning and Training content in Experience Manager Guides.
+feature: Authoring
 role: Admin
 level: Experienced
+exl-id: dc26ae48-c953-492c-823a-5f65157b6902
 ---
 # Configure Folder profiles
 

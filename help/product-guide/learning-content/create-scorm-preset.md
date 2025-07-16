@@ -1,8 +1,9 @@
 ---
 title: Create SCORM preset
-description: Learn how to create a SCORM preset in the Learning and Training content 
-feature: Authoring 
+description: Learn how to create a SCORM preset in the Learning and Training content
+feature: Authoring
 role: User
+exl-id: 4a433b9d-594d-42b5-8c59-f246eda7e631
 ---
 # Create a SCORM output preset
 
@@ -23,6 +24,4 @@ Perform the following steps to create a SCORM output preset:
 
 The SCORM preset is created. A SCORM preset page opens where you can do the necessary configurations.
 
-![](assets/scorm-output-preset.png){align="left"} 
-
-    
+![](assets/scorm-output-preset.png){width="800" align="left"}

@@ -1,8 +1,9 @@
 ---
-title: Create your first course 
-description: Learn how to get started with your first Learning course in Adobe Experience Manager Guides.  
-feature: Authoring 
+title: Create your first course
+description: Learn how to get started with your first Learning course in Adobe Experience Manager Guides.
+feature: Authoring
 role: User
+exl-id: 8680482d-5688-4bb5-890f-c5a7e4bfdba1
 ---
 # Create your first course 
 
@@ -27,6 +28,3 @@ Perform the following steps to create your first course:
     The course is created at the specified path based on the selected template. Also, the course opens in the Course manager for editing.  
 
     ![](assets/course-manager-read-only-mode.png)
-
-
-    
