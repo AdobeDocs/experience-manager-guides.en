@@ -14,7 +14,7 @@ Perform the following steps to add Learning content to a course:
     ![](assets/workflow-learning-content.png){width="650" align="left"}
     
 1. Select **Learning content**.
-   The New learning content dialog is displayed.  
+   The **New learning content** dialog is displayed.  
 
     ![](assets/learning-content-dialog.png){width="350" align="left"}
 

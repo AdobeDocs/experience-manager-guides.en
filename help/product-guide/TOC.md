@@ -316,7 +316,10 @@ breadcrumb-title: AEM Guides Documentation
     - Configuration guide {#config-lc}
       - [About this guide](./lc-config-guide/introduction.md)
       - [Configure Folder profiles](./lc-config-guide/lc-folder-profile.md)
-      - [Configure other settings](./lc-config-guide/lc-other-settings.md)   
+      - [Configure other settings](./lc-config-guide/lc-other-settings.md) 
+    - Video tutorials {#lc-video}  
+      - [Author workflow](./lc-video-tutorials/author-workflow.md)
+      - [Administrator workflow](./lc-video-tutorials/admin-workflow.md)
   - Appendix {#appendix}
     - Manage Content {#manage-content}
         - [Key concepts, roles and permissions, and pre-requisites](./user-guide/authoring.md)

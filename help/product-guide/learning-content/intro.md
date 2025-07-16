@@ -9,7 +9,7 @@ exl-id: d00bc88c-e6ec-4aa3-971a-e9fbabe9a965
 
 The support for Learning and Training content makes it easy to create and manage interactive eLearning content within enterprise environments. You can create courses using templates, add interactive elements (such as accordions, carousels, multimedia, and more), add quizzes using different question types or through a Question bank, and publish the course in supported output formats. 
 
-![](assets/learning-and-training-content-components.jpg)
+![](assets/learning-and-training-content-components.png)
 
 ## Core capabilities at a glance
 
