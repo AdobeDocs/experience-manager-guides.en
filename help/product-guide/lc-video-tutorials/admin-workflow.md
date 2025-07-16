@@ -7,13 +7,13 @@ level: Experienced
 ---
 # Administrator workflow
 
-Learn about the various aspects of the Administrator workflow when working with Learning and Training content in Experience Manager Guides.
+This page provides quick access to videos that cover key administrator workflows for Learning and Training content in AEM Guides, helping you set up authoring, content management, translation, and publishing configurations.
 
-
-|Title and Description| Video Link|
-|----|-----|
-|**Set up authoring environment as an Administrator** <br> This video walks you through the step-by-step process for setting up the folder hierarchy, folder profiles, authoring and output templates, and editor preferences.|[Launch video](https://video.tv.adobe.com/v/3464835/learning-content-aem-guides){target="_blank"}|
-|**Upcoming tutorial** <br> Video description.|[Launch video](https://video.tv.adobe.com/){target="_blank"}|
+| Title | Description | Video Link |
+|-------|-------------|------------|
+| Overview of AEM Guides for Administrators | Covers key setup tasks for AEM Guides administrators, including folder structure, permissions, reusable content, and editor customization. | [Launch video](https://video.tv.adobe.com/v/3464906/learning-content-aem-guides){target="_blank"} |
+| Authoring Environment Setup in AEM Guides | A step-by-step guide to setting up the authoring environment in AEM Guides, including folder hierarchy, folder profiles, authoring and output templates, and editor preferences. | [Launch video](https://video.tv.adobe.com/v/3464835/learning-content-aem-guides){target="_blank"} |
+| Managing Authoring Templates | Explains how to create, customize, and apply authoring templates in AEM Guides, including working with folder profiles, stylesheets, and reusable assets. | [Launch video](https://video.tv.adobe.com/v/3464907){target="_blank"} |
 
 
     
