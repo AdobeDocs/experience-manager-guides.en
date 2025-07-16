@@ -317,7 +317,7 @@ breadcrumb-title: AEM Guides Documentation
       - [About this guide](./lc-config-guide/introduction.md)
       - [Configure Folder profiles](./lc-config-guide/lc-folder-profile.md)
       - [Configure other settings](./lc-config-guide/lc-other-settings.md) 
-    - Learning content video tutorials {#lc-video}  
+    - Video tutorials {#lc-video}  
       - [Author workflow](./lc-video-tutorials/author-workflow.md)
       - [Administrator workflow](./lc-video-tutorials/admin-workflow.md)
   - Appendix {#appendix}
