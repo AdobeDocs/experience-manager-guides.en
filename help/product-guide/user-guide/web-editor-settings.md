@@ -36,7 +36,7 @@ The **Settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the
 
     After enabling the **AI Assistant** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below. Disabling any option will hide it from the Authoring tab in the AI Assistant interface for authors. 
     These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the editor settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Editor settings** and save the updated configuration.  
-    For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](./ai-assistant-right-panel.md)
+    For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](./ai-assistant-right-panel.md).
 
     To manage the settings from the **Authoring quick actions** menu, you can: 
 
