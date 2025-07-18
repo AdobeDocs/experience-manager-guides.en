@@ -8,7 +8,7 @@ role: User
 
 This article explains how to access the Learning and Training content interface and set up the correct Folder profile and Base path for learning courses. 
 
-## Access to the Learning and training content interface 
+## Access to the Learning and Training content interface 
 
 Perform the following steps to access the Learning and Training content interface:  
 
@@ -34,7 +34,7 @@ Folder profiles define the authoring templates, output templates, output presets
 
 The User preferences page consists of two tabs:
 
- - **General**: Allows you to select a Folder profile, base path, root map, and more.
+ - **General**: Allows you to select a Folder profile, Base path, Root map, and more.
  - **Appearance**: Provides you with the options to select the themes for the application and the source view of the Learning content.
 
  For details, view [User preferences](../user-guide/intro-home-page.md#user-preferences) in Experience Manager Guides. 
