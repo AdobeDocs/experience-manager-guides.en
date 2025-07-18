@@ -8,7 +8,7 @@ role: User
 
 This article explains how to access the Learning and Training content interface and set up the correct Folder profile and Base path for learning courses. 
 
-## Access to Learning interface 
+## Access to the Learning and training interface 
 
 Perform the following steps to access the Learning and Training content interface:  
 
@@ -28,12 +28,9 @@ Perform the following steps to access the Learning and Training content interfac
 
 To get started with the Learning and Training content interface, you must first set up the correct **Folder profile** and **Base path** in the **User preferences** setting on Experience Manager Guides Home page. 
 
-![](assets/setup-folder-profile.png){width="300" align="left"}
+![](assets/setup-folder-profile.png)
 
-
->[!NOTE]
->
-> Folder profiles define the authoring templates, output templates, output presets, and other folder-level settings. Experience Manager Guides supports multiple folder profiles, enabling Administrators to segregate the configurations for different departments or products in your enterprise. Using an incorrect folder profile may result in missing templates or limited functionality. If you are unsure which folder profile to use, contact your Administrator before proceeding.
+Folder profiles define the authoring templates, output templates, output presets, and other folder-level settings. Experience Manager Guides supports multiple folder profiles, enabling Administrators to segregate the configurations for different departments or products in your enterprise. Using an incorrect folder profile may result in missing templates or limited functionality. If you are unsure which folder profile to use, contact your Administrator before proceeding.
 
 The User preferences page consists of two tabs:
 
