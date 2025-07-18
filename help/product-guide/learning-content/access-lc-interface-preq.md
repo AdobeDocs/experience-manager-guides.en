@@ -1,14 +1,14 @@
 ---
-title: Introduction to the user interface and key prerequisites
-description: Get to know the user interface of Learning and Training content in Adobe Experience Manager Guides.
+title: Explore the interface and prerequisites
+description: Explore the interface and prerequisites when working with the Learning and Training content in Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 ---
-# Introduction to the user interface and key prerequisites 
+# Explore the interface and prerequisites
 
 This article explains how to access the user interface and set up the correct Folder profile and Base path for learning courses. 
 
-## Access the user interface 
+## Access and navigate the interface 
 
 Perform the following steps to access the user interface:  
 
