@@ -9,6 +9,7 @@ role: User
 This article explains how to access the Learning and Training content interface and set up the correct Folder profile and Base path for learning courses. 
 
 ## Access to Learning interface 
+
 Perform the following steps to access the Learning and Training content interface:  
 
 1. Log in to your AEM instance. 
