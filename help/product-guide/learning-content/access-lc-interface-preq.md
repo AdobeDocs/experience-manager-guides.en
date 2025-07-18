@@ -8,7 +8,7 @@ role: User
 
 This article explains how to access the Learning and Training content interface and set up the correct Folder profile and Base path for learning courses. 
 
-## Access to the Learning and training interface 
+## Access to the Learning and training content interface 
 
 Perform the following steps to access the Learning and Training content interface:  
 
@@ -17,7 +17,7 @@ Perform the following steps to access the Learning and Training content interfac
 3. You are now on the **Experience Manager Guides Home page**. Use the navigation switcher to switch to the following views: 
 
     - **Home**: The default page that you view when logging into Experience Manager Guides. It allows you to configure various folder-level settings. 
-    - **Editor**: An easy-to-use web-based Editor that allows you to create and manage learning courses in Experience Manager Guides. 
+    - **Editor**: An easy-to-use Editor that allows you to author course content in Experience Manager Guides. 
     - **Map console**: Provides you a dedicated workspace to handle all aspects of course publishing. 
 
     For details, view [Adobe Experience Manager Guides Home page experience](../user-guide/intro-home-page.md).

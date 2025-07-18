@@ -282,7 +282,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Overview of the Learning and Training content](./learning-content/intro.md)        
       - Set up your course {#setup-course}
         - [Course overview](./learning-content/course-overview.md)
-        - [Introduction to the user interface and prequisites](./learning-content/access-lc-interface-preq.md)
+        - [Introduction to the user interface and prerequisites](./learning-content/access-lc-interface-preq.md)
         - [Create your first course](./learning-content/create-first-course.md)
         - [Understand Course manager basics](./learning-content/course-manager-basics.md)
         - [Manage your course](./learning-content/manage-course.md)
