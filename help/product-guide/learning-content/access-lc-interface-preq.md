@@ -22,7 +22,7 @@ Perform the following steps to access the user interface:
 
     For details, view [Adobe Experience Manager Guides Home page experience](../user-guide/intro-home-page.md).
 
-    ![](assets/aem-navigation-switcher.png){width="300" align="left"}
+    ![](assets/aem-navigation-switcher.png){width="350" align="left"}
 
 ## Prerequisites 
 
