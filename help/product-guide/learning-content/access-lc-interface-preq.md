@@ -1,16 +1,16 @@
 ---
 title: Introduction to the user interface and key prerequisites
-description: Get to know the Learning and Training content interface in Adobe Experience Manager Guides.
+description: Get to know the user interface of Learning and Training content in Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 ---
 # Introduction to the user interface and key prerequisites 
 
-This article explains how to access the Learning and Training content interface and set up the correct Folder profile and Base path for learning courses. 
+This article explains how to access the user interface and set up the correct Folder profile and Base path for learning courses. 
 
-## Access to the Learning and Training content interface 
+## Access the user interface 
 
-Perform the following steps to access the Learning and Training content interface:  
+Perform the following steps to access the user interface:  
 
 1. Log in to your AEM instance. 
 2. On the AEM Navigation page, select **Guides**. 
@@ -24,9 +24,9 @@ Perform the following steps to access the Learning and Training content interfac
 
     ![](assets/aem-navigation-switcher.png){width="300" align="left"}
 
-## Prerequisites for working with the interface
+## Prerequisites 
 
-To get started with the Learning and Training content interface, you must first set up the correct **Folder profile** and **Base path** in the **User preferences** setting on Experience Manager Guides Home page. 
+To get started with the user interface, you must first set up the correct **Folder profile** and **Base path** in the **User preferences** setting on Experience Manager Guides Home page. 
 
 ![](assets/setup-folder-profile.png)
 
