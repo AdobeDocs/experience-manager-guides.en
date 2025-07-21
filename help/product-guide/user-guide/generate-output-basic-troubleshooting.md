@@ -15,24 +15,32 @@ Perform the following steps to view and check the output generation log file:
 
 1.  Once you have initiated the output generation process, select **Outputs** in the DITA map console.
 
-    The **General** column of the **Generated Outputs** shows the icons to give a visual cue about the success or failure of the output generation.
+    The **Generation setting** column of the **Generated Outputs** shows the color to give a visual cue about the success or failure of the output generation for different output presets.     
 
-    ![](images/output-general-settings.png){width="300" align="left"}
+    ![](images/output-general-settings-new.png){width="300" align="left"}
 
-    In the above screenshot, the first and third icons show failed output generation. The second icon shows a successful output generation but with messages. The last one is a successful output generation without any message.
+    In the screenshot above:
+    
+    - Red color indicates failed output generation.
+    - Green color indicates a successful output generation.
+    - Amber color indicates a successful output generation with errors.
+
+    >[!NOTE]
+    >
+    > The colors on the **Output** tab, which denote the status of various output results, are different from the colors that is used to categorize the various types of error within the log files.  
 
 1.  Select the link in the **Generated At** column after the job is complete.
 
     The log file opens in a new tab.
 
-    ![](images/log-file.png){align="left"}
+    ![](images/log-file-new.png){align="left"}
 
 1.  Apply following filters to highlight the text in the log file:
-    -   Fatal: Highlights the fatal errors in the log file with pink color.
-    -   Error: Highlights the errors in the log file with orange color.
-    -   Warning: Highlights the warnings in the log file with purple color.
-    -   Info: Highlights the information messages in the log file with blue color.
-    -   Exception: Highlights the exceptions in the log file with yellow color.
+    -   Fatal: Highlights the fatal errors in the log file with dark red color.
+    -   Error: Highlights the errors in the log file with red color. Exceptions are treated as errors and are similarly highlighted in red.
+    -   Warning: Highlights the warnings in the log file with amber color.
+    -   Info: Highlights the information messages in the log file with green color.
+    
 1.  Use the up and down navigation buttons to jump to the highlighted text in the log file.
 
     Alternatively, scroll through the log file and check the messages.
