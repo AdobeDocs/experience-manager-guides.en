@@ -22,7 +22,6 @@ This section explains how Adobe Experience Manager Guides handles the basic file
 -   *If the file with the same name does not exist in the destination folder*: A new copy of the file is created and a new UUID is also assigned to it at the new location. Here, the file name is same as the UUID.
 -   *If the file with the same name already exists in the destination folder*: A new copy of the file is created and a new UUID is also assigned to it. The file name is same as the UUID.
 
-
 ## Copy and paste folders 
 
 **Copy and paste folder at the same location**
@@ -37,6 +36,16 @@ This section explains how Adobe Experience Manager Guides handles the basic file
 -   *The folder has files with human readable filenames*: A new copy of the folder is created and a new UUID is also assigned to all files within the folder at the new location. Here, there is no change in the folder or file names.
 
 -   *The folder has files with filenames based on a UUID pattern*: A new copy of the folder is created with the same name as the original folder. A new UUID is also assigned to all files within the new folder. The file names are also changed; the file names are same as the new UUID.
+
+**Success message and notification**
+
+The copy-paste operation for folders in the Assets UI runs asynchronously in the background, allowing you to continue working while the system processes the request. A pop-up message is displayed to indicate the process has been initiated.   
+
+![](images/copy-folders-success-popup.png){width="350" align="left"}
+
+Once the operation is complete, a success or failure notification is triggered to indicate whether the operation was successful or failed.
+
+![](images/copy-folders-success-notification.png){width="650" align="left"}
 
 
 ## Drag-and-drop files 

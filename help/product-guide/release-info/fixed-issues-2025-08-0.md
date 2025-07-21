@@ -13,15 +13,14 @@ Learn about [upgrade instructions for the 2025.08.0 release](upgrade-instruction
 
 ## Authoring
 
-- When an XML comment is added within an element in the Source view, the leading and trailing spaces around the comment are lost upon switching views. (GUIDES-29781)
-- Multimedia options do not work when present inside the ellipsis icon (the **More** menu) in the toolbar. (GUIDES-29583)
-- When creating a new topic through the Assets UI or Editor, the topic does not automatically open in the Editor if the `xmleditor.uniquefilenames` setting is set to true in `XMLEditorConfig`. (GUIDES-28171)
-- Spaces added within a MathML equation in the Source view are not retained upon switching the Editor views. (GUIDES-26111)
+- **CSS** and **Page layout** files in Native PDF templates exhibit inconsistent file locking behavior, allowing edits even when the files are locked. (26688)
+- Refreshing the page after adding custom buttons to the left panel creates duplicate tabs. (30899)
 
 ## Asset management
 
-- When opening a topic in Author view after a browser refresh, previously applied tags in the File Properties panel are not retained, and adding new tags overwrites the existing ones, particularly when a large number of tags are available for selection. (GUIDES-29078)
-- When generating a Metadata report for a DITA map containing a large number of assets, the **Manage** button becomes unresponsive or exhibits a delayed response. (GUIDES-28443)
+- Copying a folder with a large number of assets from the Assets UI leads to an API timeout. The operation continues to run in the backend and completes after some time, but no success or failure message, or notification is shown in the UI. (GUIDES-30900)
+- Copy-paste operation performed on a folder in the Assets UI fails due to post-processing errors. (GUIDES-30840)
+- Copy-paste operation fails for folders containing compound assets (assets with subassets)in the Assets UI. (28107)
 
 ## Review
 
@@ -29,7 +28,9 @@ Learn about [upgrade instructions for the 2025.08.0 release](upgrade-instruction
 
 ## Publishing
 
-- Code quality error occurs when deploying the AEM Sites publishing components package `guides-components.all-1.3.0.zip` through Cloud Manager. (GUIDES-28873)
+- In the Native PDF output, the List of Index (LOI) appears in a non-alphabetical order order and nested index terms are not grouped properly, making the index difficult to navigate. (29090)
+
+Code quality error occurs when deploying the AEM Sites publishing components package `guides-components.all-1.3.0.zip` through Cloud Manager. (GUIDES-28873)
 - Publishing a DITA map with `chunk=to-content` attribute creates duplicate JCR nodes in the new AEM Sites output, leading to redundant content structure in AEM Sites. (GUIDES-28104)
 - When publishing a DITA map using the new AEM Sites output, if a topic has the `chunk =to-content` attribute and the output is set to use topic titles as page names, the generated page name incorrectly displays the word **chunk** instead of retaining the original topic name. (GUIDES-28102)
 - The `cq:template` property set in the AEM Guides topic template for new AEM Sites publishing displays an incorrect value, affecting template structure and content rendering. (GUIDES-27789)
