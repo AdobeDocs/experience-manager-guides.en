@@ -12,6 +12,6 @@ This page provides quick access to videos that cover key administrator workflows
 
 | Title | Description | Video Link |
 |-------|-------------|------------|
-| Overview of AEM Guides for Administrators | Covers key setup tasks for AEM Guides administrators, including folder structure, permissions, reusable content, and editor customization. | [Launch video](https://video.tv.adobe.com/v/3464906/learning-content-aem-guides){target="_blank"} |
-| Authoring Environment Setup in AEM Guides | A step-by-step guide to setting up the authoring environment in AEM Guides, including folder hierarchy, folder profiles, authoring and output templates, and editor preferences. | [Launch video](https://video.tv.adobe.com/v/3464835/learning-content-aem-guides){target="_blank"} |
-| Managing Authoring Templates | Explains how to create, customize, and apply authoring templates in AEM Guides, including working with folder profiles, stylesheets, and reusable assets. | [Launch video](https://video.tv.adobe.com/v/3464907){target="_blank"} |
+| Overview of AEM Guides for Administrators | Covers key setup tasks for AEM Guides administrators, including folder structure, permissions, reusable content, and editor customization. | [Launch video](https://video.tv.adobe.com/v/3469321){target="_blank"} |
+| Authoring Environment Setup in AEM Guides | A step-by-step guide to setting up the authoring environment in AEM Guides, including folder hierarchy, folder profiles, authoring and output templates, and editor preferences. | [Launch video](https://video.tv.adobe.com/v/3469527/learning-content-aem-guides){target="_blank"} |
+| Managing Authoring Templates | Explains how to create, customize, and apply authoring templates in AEM Guides, including working with folder profiles, stylesheets, and reusable assets. | [Launch video](https://video.tv.adobe.com/v/3469528/aem-guides-learning-content){target="_blank"} |
