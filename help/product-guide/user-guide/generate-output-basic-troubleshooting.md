@@ -21,9 +21,9 @@ Perform the following steps to view and check the output generation log file:
 
     In the screenshot above:
     
-    - Red color indicates failed output generation.
-    - Green color indicates a successful output generation.
-    - Amber color indicates a successful output generation with errors.
+    - Red indicates failed output generation.
+    - Green indicates a successful output generation.
+    - Amber indicates a successful output generation with errors.
 
     >[!NOTE]
     >
