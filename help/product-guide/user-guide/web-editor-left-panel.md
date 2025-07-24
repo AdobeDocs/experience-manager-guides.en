@@ -107,7 +107,7 @@ You can also perform many actions using the Options menu available for a Collect
 
 >[!NOTE]
 >
-> You can also refresh the list using the Refresh icon on the top. 
+> You can refresh the list using the **Refresh** icon at the top. Additionally refreshing the list reloads the collections, and as a result, any expanded collections in the panel gets collapsed.
 
 
 ## Repository 
