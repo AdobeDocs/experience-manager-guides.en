@@ -221,52 +221,52 @@ To merge changes in a map file, perform the following steps:
 
 You can [create a review task](./review-send-topics-for-review.md) of the current topic or map file directly from the Editor. Open the file for which you want to create the review task and select **Create review task** from the Menu dropdown to initiate the review creation process.
 
-**Track changes**
+**Show menu**
 
-You can keep a track of all updates made on a document by enabling the Track changes mode. After enabling the track changes, all insertions and deletions are captured in the document. All deleted content is highlighted using Strikethrough and all insertions are highlighted in green color text. In addition, you also get the change bars at the edge of the topic page. Again, a red bar is shown for deleted content and a green bar is shown for added content. In case there is an addition and deletion on the same line, then both green and red bars are shown.
+The Show menu comprises of the following features of Track changes, Tags and Non-breaking space indicator. 
 
+- **Track changes:** You can keep a track of all updates made on a document by enabling the Track changes mode. After enabling the track changes, all insertions and deletions are captured in the document. All deleted content is highlighted using Strikethrough and all insertions are highlighted in green color text. In addition, you also get the change bars at the edge of the topic page. Again, a red bar is shown for deleted content and a green bar is shown for added content. In case there is an addition and deletion on the same line, then both green and red bars are shown.
 The following screenshot highlights the deleted and inserted content along with the change bars:
+ ![](images/track-changes-content.png){width="650" align="left"}
 
-![](images/track-changes-content.png){width="650" align="left"}
+  A typical use case for tracking changes in a document can be for doing peer review. You can enable track changes and share your document for review, and the reviewer then makes changes with track changes ON. When you receive the document, you should then have a mechanism to view the suggested updates along with a convenient way to accept or reject changes.
 
-A typical use case for tracking changes in a document can be for doing peer review. You can enable track changes and share your document for review, and the reviewer then makes changes with track changes ON. When you receive the document, you should then have a mechanism to view the suggested updates along with a convenient way to accept or reject changes.
+  Experience Manager Guides provides the Tracked changes feature that contains information about the updates made in the document. The Tracked changes feature provides information about what updates were made, who made them, and at what time. Using the Tracked changes feature, you can also easily accept or reject the suggested updates in the document.
 
-Experience Manager Guides provides the Tracked changes feature that contains information about the updates made in the document. The Tracked changes feature provides information about what updates were made, who made them, and at what time. Using the Tracked changes feature, you can also easily accept or reject the suggested updates in the document.
+  To access the feature, select the **Track changes** icon in the right panel.
 
-To access the feature, select the **Track changes** icon in the right panel.
+  ![](images/changes-panel_cs.png){width="300" align="left"}
 
-![](images/changes-panel_cs.png){width="300" align="left"}
+  Selecting a tracked change selects the changed content in the document. You can accept a change by selecting the Accept Change icon or reject it by selecting the Reject Change.
 
-Selecting a tracked change selects the changed content in the document. You can accept a change by selecting the Accept Change icon or reject it by selecting the Reject Change.
+  If you want to accept or reject all changes with a single click, select **Accept all changes** or **Reject all changes**.
 
-If you want to accept or reject all changes with a single click, select **Accept all changes** or **Reject all changes**.
+  >[!NOTE]
+  >
+  > The Preview mode allows you to view the document with or without the changed content's markups. For more details, view the [Preview](web-editor-views.md#preview-mode) mode.
 
->[!NOTE]
->
-> The Preview mode allows you to view the document with or without the changed content's markups. For more details, view the [Preview](web-editor-views.md#preview-mode) mode.
+- **Tags:** The **Tags** feature in the Editor is a toggle button that controls the visibility of DITA elements. When enabled, it displays structural tags within the content, allowing you to view and manage the underlying DITA elements more effectively. When disabled, the editor hides these tags, providing a cleaner and more focused authoring environment.
 
-**Tags**
+  The following screenshot shows a document with the Tags view enabled:
 
-The **Tags** feature in the Editor is a toggle button that controls the visibility of DITA elements. When enabled, it displays structural tags within the content, allowing you to view and manage the underlying DITA elements more effectively. When disabled, the editor hides these tags, providing a cleaner and more focused authoring environment.
+  ![](images/tags-view.png){width="650" align="left"}
 
-The following screenshot shows a document with the Tags view enabled:
+  The following operations can be performed in a document with Tags:
 
-![](images/tags-view.png){width="650" align="left"}
+    - **Select an element**: Select the opening or closing tag of an element to select its content.
 
-The following operations can be performed in a document with Tags:
+    - **Expand or collapse tags**: Select the + or - sign in a tag to expand or collapse it.
 
-- **Select an element**: Select the opening or closing tag of an element to select its content.
+    - **Use the context menu**: The context menu provides options to cut, copy, or paste the selected element. You can also insert an element before or after the selected element. The other options allow you to Generate ID or open the Properties panel for the selected element.
 
-- **Expand or collapse tags**: Select the + or - sign in a tag to expand or collapse it.
-
-- **Use the context menu**: The context menu provides options to cut, copy, or paste the selected element. You can also insert an element before or after the selected element. The other options allow you to Generate ID or open the Properties panel for the selected element.
-
-- **Drag-and-drop elements**: Select an element's tag and easily drag-and-drop it on your document. If the drop location is a valid location where the element is allowed, the element is placed at the dropped location.
+    - **Drag-and-drop elements**: Select an element's tag and easily drag-and-drop it on your document. If the drop location is a valid location where the element is allowed, the element is placed at the dropped location.
 
 
->[!NOTE]
->
-> If a user enables the Tags view from the Editor, it remains enabled even across the sessions. This means that you don't have to enable the Tags view again to access it later. The default value for Tags view for a new user's session is determined by the `tagsView` property in the `ui\_config.json` file. For more details, view the [Configure default value for Tags View](../cs-install-guide/configure-default-value-tags-view.md) section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+  >[!NOTE]
+  >
+  > If a user enables the Tags view from the Editor, it remains enabled even across the sessions. This means that you don't have to enable the Tags view again to access it later. The default value for Tags view for a new user's session is determined by the `tagsView` property in the `ui\_config.json` file. For more details, view the [Configure default value for Tags View](../cs-install-guide/configure-default-value-tags-view.md) section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+
+- **Non-breaking space:** Select this option to show an indicator for the non-breaking spaces while editing it in the Editor. It's enabled by default and is visible only in the **Author** view.
 
 ## Content insertion options
 
