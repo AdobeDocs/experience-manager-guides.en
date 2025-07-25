@@ -20,9 +20,11 @@ The toolbar appears when you open a topic or map for editing in the Editor. Feat
 
 ## Menu dropdown 
 
-The Menu dropdown provides access to the editing actions, Find and replace, Version history, Version label, Merge, Create review task, Track changes, and Tags feature. 
+The Menu dropdown provides access to the editing actions, Find and replace, Version history, Version label, Merge, Create review task, and Show menu (which includes Track changes, Tags, Non-breaking space).
 
-The detailed explanation of these features is as follows:
+![Menu dropdown for Editor toolbar](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
+
+The detailed explanation of these features are as follows:
 
 **Editing actions**
 
@@ -223,7 +225,7 @@ You can [create a review task](./review-send-topics-for-review.md) of the curren
 
 **Show menu**
 
-The Show menu comprises of the following features of Track changes, Tags and Non-breaking space indicator. 
+The Show menu comprises of the following features: 
 
 - **Track changes:** You can keep a track of all updates made on a document by enabling the Track changes mode. After enabling the track changes, all insertions and deletions are captured in the document. All deleted content is highlighted using Strikethrough and all insertions are highlighted in green color text. In addition, you also get the change bars at the edge of the topic page. Again, a red bar is shown for deleted content and a green bar is shown for added content. In case there is an addition and deletion on the same line, then both green and red bars are shown.
 The following screenshot highlights the deleted and inserted content along with the change bars:
@@ -266,7 +268,7 @@ The following screenshot highlights the deleted and inserted content along with 
   >
   > If a user enables the Tags view from the Editor, it remains enabled even across the sessions. This means that you don't have to enable the Tags view again to access it later. The default value for Tags view for a new user's session is determined by the `tagsView` property in the `ui\_config.json` file. For more details, view the [Configure default value for Tags View](../cs-install-guide/configure-default-value-tags-view.md) section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-- **Non-breaking space:** Select this option to show an indicator for the non-breaking spaces while editing it in the Editor. It's enabled by default and is visible only in the **Author** view.
+- **Non-breaking space:** Enable this option to show an indicator for the non-breaking spaces while editing it in the Editor. It is visible only in the **Author** view for DITA topic and DITA maps.
 
 ## Content insertion options
 
