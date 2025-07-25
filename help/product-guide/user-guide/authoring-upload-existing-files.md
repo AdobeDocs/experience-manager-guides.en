@@ -15,7 +15,9 @@ Most likely you would have a repository of existing DITA content that you would 
 
 ## Assets Console user interface 
 
-You can select content on your desktop and drag on the Adobe Experience Manager user interface \(web browser\) to the destination folder. For more details, view [Upload assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) in Adobe Experience Manager documentation.
+To [add digital assets to Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling#upload-assets) using the Assets Console user interface, select the required asset on your desktop and drag on the Adobe Experience Manager user interface \(web browser\) to the destination folder. When uploading assets, ensure that the filenames do not include any unsupported or forbidden characters.
+
+For more details, view [Filename handling and forbidden characters](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling) section in Adobe Experience Manager documentation.
 
 ## Adobe Experience Manager desktop app 
 
