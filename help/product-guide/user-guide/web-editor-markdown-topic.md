@@ -166,9 +166,7 @@ The following Experience Manager Guides features are currently not applicable fo
 4. Track changes
 
 
->[!NOTE]
->
-> The **Find and replace** feature does not process Markdown files at the repository level. This includes searching for a Markdown file within a map or folder. However, it can still be used within the Markdown editor. Also, the **Search** and **Filter** options in the Repository view do not process Markdown files. 
+
 
 
 **Parent topic:**[Introduction to the Editor](web-editor.md)
