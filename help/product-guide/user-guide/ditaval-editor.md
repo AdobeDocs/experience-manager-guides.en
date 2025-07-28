@@ -24,7 +24,7 @@ Perform the following steps to create a DITAVAL file:
 
 1. In the Repository panel, select the **New file** icon and then select **Topic** from the dropdown menu. 
 
-    ![](images/new-file-option.png){width="300" align="left"}
+    ![](images/new-file-option.png){width="350" align="left"}
 
     You can also access this option from the [Experience Manager Guides Home page](./intro-home-page.md) and the options menu of a folder in the Repository view. 
 
@@ -36,7 +36,7 @@ Perform the following steps to create a DITAVAL file:
     - A template on which the topic will be based. For a DITAVAL file, select **Ditaval** from the dropdown list.
     - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
 
-    ![](images/new-topic-dialog-ditaval.png){width="300" align="left"}
+    ![](images/new-topic-dialog-ditaval.png){width="350" align="left"}
 
     
 4. Select **Create**. 
@@ -113,21 +113,21 @@ There are majorly four actions available for a given property that can be used w
 - **Text Color**: Select the hue, saturation, contrast from the Text  color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
 
 
-![](images/ditaval-text-color.png){width="650" align="left"}
+![](images/ditaval-text-color.png){width="350" align="left"}
 
 
 
 - **Styling options**: You can add some styling options as well like Bold, Italics, Underline, Overline, Double underline.
 
 
-![](images/ditaval-styling-option.png){width="650" align="left"}
+![](images/ditaval-styling-option.png){width="350" align="left"}
 
 
 
 - **Start and End Flags**: You can insert images as start and end flags using the **Add Flag** button. To choose images, either use **Browse Assets** to select from the Guides repository or **Add File** to upload from your local system. Additionally, you can specify alternate text for the images.
 
 
-![](images/ditaval-start-end-flags.png){width="650" align="left"}
+![](images/ditaval-start-end-flags.png){width="3W50" align="left"}
 
 
 
