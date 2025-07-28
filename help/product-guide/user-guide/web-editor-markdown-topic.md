@@ -152,7 +152,7 @@ The References section gives you access to the following features:
 * **Used in**: The Used in references list the documents where the current file is being referred or used.
 * **Outgoing links**: The Outgoing links list the documents that are referred to in the current document.
 
->![NOTE]
+>[!NOTE]
 >
 > All Used In and Outgoing links references are hyperlinked to the documents. You can easily open and edit the linked documents.
 
@@ -164,8 +164,7 @@ The following Experience Manager Guides features are currently not applicable fo
 2. Merge
 3. AI Assistant 
 4. Track changes
-5. Find and replace
-6. Search and Filter 
+
 
 >[!NOTE]
 >

@@ -146,12 +146,16 @@ The Editor provides enhanced filters for searching text. You can search and filt
 
 You have the following options to filter the files and to narrow down your search in the Adobe Experience Manager repository:
 
-- **DITA Files**: You can look for all **DITA Topics** and **DITA Maps** present on the selected path. These are selected by default.
+- **DITA Files**: You can look for all **DITA Topics**, and **DITA Maps** present on the selected path. These are selected by default. 
 - **Non-DITA Files**: You can search for **Ditaval Files**,  **Image Files**, **Multimedia**, **Documents**, and **JSON** in the selected path.
 
     ![quick search filter ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
     *Use the quick filters to search for DITA and Non-DITA files.*
+
+>[!NOTE]
+>
+> You can also use the **DITA Topic** filter to search for content specific to Markdown files in the repository, including titles, topic content, and properties. This feature currently applies only to newly created Markdown files.
 
 **Advanced filtering**
 
@@ -1000,9 +1004,9 @@ Experience Manager Guides allows you to create and manage variables for Native P
 
 ## Find and replace
 
-The Find and replace icon is located at the bottom of the left panel. The Find and replace panel allows you to search for and replace text across files in a map or a folder within your repository. You can find and replace in all topics of a map as well as topics present in the sub-maps within the map.
+The Find and replace icon is located at the bottom of the left panel. The Find and replace panel allows you to search for and replace text across files in a map or a folder within your repository. You can perform Find and replace operations across all topics in a map, including topics in sub-maps and Markdown files.
 
-![](images/map-find-replace.png){   align="left"}
+![](images/map-find-replace.png){align="left"}
 
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 
