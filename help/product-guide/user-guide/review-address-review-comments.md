@@ -8,19 +8,19 @@ role: User
 # Address review comments {#id2056B0X0KBI}
 
 
-As an author, you can address comments in a topic using the Web Editor. The comments are loaded based on the review task selected in the Review panel. For more details, view the **Review** panel ![](images/active-review-tasklist-icon.svg) feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+As an Author, you can address comments in a topic using the Editor. The comments are loaded based on the review task selected in the Review panel. For more details, view the **Review** panel ![](images/active-review-tasklist-icon.svg) feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
-The following sections describe ways of addressing comments in the Web Editor.
+The following sections describe ways of addressing comments in the Editor.
 
-An author can address comments in a document from the Web Editor. Visual indicators are provided indicating whether comments that were inserted \(text\), deleted or highlighted. Also the type of comment is mentioned at the top of every comment entry.
+An Author can address comments in a document from the Editor. Visual indicators are provided indicating whether comments that were inserted \(text\), deleted or highlighted. Also the type of comment is mentioned at the top of every comment entry.
 
 >[!NOTE]
 >
-> While addressing review comments \(for an active review document\), ensure that you—do not open the in-review topic in multiple tabs with full tags view enabled, do not switch between the Author and Source view modes.
+> While addressing review comments \(for an active review document\), ensure that you do not open the in-review topic in multiple tabs with full tags view enabled, do not switch between the Author and Source view modes.
 
 ![](images/comments-page-web-editor_cs-new.png){align="left"}
 
-In the Web Editor mode, the right panel contains the Review and Track Changes icons. The Review panel shows all comments made in your document by reviewers. The **Track Changes** panel shows the status of all inserted and deleted comments in your document.
+In the Editor, the right panel contains the Review and Track changes icons. The Review panel shows all comments made in your document by Reviewers. The **Track changes** panel shows the status of all inserted and deleted comments in your document.
 
 -   **A**: Select a review task to view review comments. If your topic has been shared for review in multiple review tasks, you will view those tasks listed in this drop-down.
 
@@ -36,7 +36,7 @@ In the Web Editor mode, the right panel contains the Review and Track Changes ic
     >
     > If the root map of your review task is different from the authoring root map, it displays the information about it to indicate that the authoring and the review root map don't match.
 
--   **C**: If you have updated your topic after initiating the review, then selecting Revert Topic to Review Version icon reverts your working copy back to the version that was shared for review. This makes it easier for you to incorporate the review feedback directly in the version that was shared for review. After incorporating the feedback, you can save changes in the reverted version or create a new revision of your topic. If you choose to create a new revision of your topic, then a new branch is created from the topic version that was shared for review. For example, if you shared version `1.2` of a topic for review while the current authoring version is `1.3`, then you can use this icon to switch back to version `1.2` for incorporating review comments. If you choose to create a new revision after incorporating changes to version `1.2`, then a new branch with version `1.2.0` is created for the topic.
+-   **C**: If you have updated your topic after initiating the review, then selecting **Revert Topic to Review Version** icon reverts your working copy back to the version that was shared for review. This makes it easier for you to incorporate the review feedback directly in the version that was shared for review. After incorporating the feedback, you can save changes in the reverted version or create a new revision of your topic. If you choose to create a new revision of your topic, then a new branch is created from the topic version that was shared for review. For example, if you shared version `1.2` of a topic for review while the current authoring version is `1.3`, then you can use this icon to switch back to version `1.2` for incorporating review comments. If you choose to create a new revision after incorporating changes to version `1.2`, then a new branch with version `1.2.0` is created for the topic.
 
     Typically, after incorporating review feedback, you would like to merge changes from the latest version of the topic. To do so, use the [Merge](web-editor-features.md#id205DF04E0HS) feature to get all updates made after the topic was shared for review.
 
@@ -50,7 +50,7 @@ In the Web Editor mode, the right panel contains the Review and Track Changes ic
 
     ![](images/import-comment-accept-web-editor_cs-new.png){align="left"}
 
-    You can also use the Track Changes panel to accept or reject comments. Selecting any comment highlights the comment in the document.
+    You can also use the Track changes panel to accept or reject comments. Selecting any comment highlights the comment in the document.
 
     ![](images/changes-tab_cs-new.png){align="left"}
 
@@ -65,6 +65,15 @@ In the Web Editor mode, the right panel contains the Review and Track Changes ic
 -   **H**: Accept or reject a comment.
 
 -   **I**: Apply a filter on the comments. You can filter to view comments on the basis of Review Type \(all, highlighted, deleted, inserted, or sticky note\), Review Status \(all, accepted, rejected, or none\), Reviewers \(all or specific reviewer\(s\)\), or Versions of topic.
+
+**Reply to a comment by tagging other users**
+
+As an Author and initiator of the review task, you can reply to review comments and tag other users involved in the same review task to direct their attention or assign follow-ups. This functionality is available only for active review tasks.
+
+![](images/tag-users-review.png){width="350" align="left"}
+*Caption:Tag users as an initiator/Author*
+
+
 
 
 **Parent topic:**[Introduction to review](review.md)

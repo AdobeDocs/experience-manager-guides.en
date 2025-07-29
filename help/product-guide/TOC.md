@@ -191,10 +191,12 @@ breadcrumb-title: AEM Guides Documentation
   - Review content {#review}
     - [Introduction to review](./user-guide/review.md)
     - [Create a DITA project](./user-guide/authoring-create-dita-project.md)
-    - [Send topics for review](./user-guide/review-send-topics-for-review.md)
-    - [Reassign review task using notification](./user-guide/reassign-review-using-notification.md)
+    - [Send topics for review](./user-guide/review-send-topics-for-review.md)    
     - [Review topics](./user-guide/review-topics.md)
-    - [Address review comments](./user-guide/review-address-review-comments.md)
+    - [Reassign review task using notification](./user-guide/reassign-review-using-notification.md)
+    - [Close a review task as a Reviewer](./user-guide/)
+    - [Address review comments as an Author](./user-guide/review-address-review-comments.md)
+    - [Reopen or close a review task as an Author](./user-guide/)
     - [Manage review tasks using the Review Dashboard](./user-guide/review-manage-tasks-review-dashboard.md)
     - [View a completed review task](./user-guide/review-view-completed-task.md)
   - Collaborate using Adobe Workfront {#workfront-integration}
