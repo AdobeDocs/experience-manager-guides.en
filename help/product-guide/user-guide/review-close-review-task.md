@@ -23,6 +23,10 @@ As the initiator of the review task, you can then decide how to proceed based on
 
 1. Open the Review task in the Editor. 
 2. In the Review panel, select the review task from the **Active tasks** list.
+    
+    >[!NOTE]
+    >
+    > You can also open the task in the task dashboard for a more comprehensive view. To do this, select **Open in task dashboard** from the Options menu of any active review task. This opens the task details in the Assets UI.
 
     ![](images/review-panel-active-review-tasks.png)
 3. Select the **Task comments** panel to access and review the task level comments added by the Reviewer.
