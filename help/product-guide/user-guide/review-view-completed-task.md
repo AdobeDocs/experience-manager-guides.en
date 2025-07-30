@@ -1,45 +1,33 @@
 ---
-title: Close a review task as a Reviewer
-description: Know how to view a completed review task as a Reviewer or an author in AEM Guides.
+title: View a completed review task
+description: Know how to view a completed review task as a reviewer or an author in AEM Guides.
 exl-id: 7c468a1c-046c-4b40-9f0b-1a67e6cf65fe
 feature: Reviewing 
 role: User
 ---
-# Complete the review task as a Reviewer
+# View a completed review task
 
->[!IMPORTANT]
->
-> The features covered in this article are available only if configured by your Administrator at the backend. Contact your your Administrator for details. 
+You can complete review tasks for those projects for which you are the Author (or initiator). Once a review task is complete, you and all reviewers can access it in read-only mode.
 
-As a Reviewer, you can mark a review task as complete once all the required feedback has been provided and addressed by the Author or task initiator. By marking the task as complete, you indicate that your part of the review is completed and leave final comments for the Author.
+## As a reviewer
 
-Peform the following steps to complete a review task:
+As a reviewer, you can view an indicator in the comments panel to show that the review has ended. The comments toolbar is not displayed, so you cannot highlight, strikethrough, insert text, or add comments. You can read a comment but cannot edit or delete any comments. You also cannot add a reply to the comments. You cannot view the contextual toolbar (used to highlight or strikethrough any text). The outdated comments icon is also not displayed in a completed review task.
 
-1. Open the review task assigned to you.
-2. Navigate to the **Comments** panel and select **Mark as done** from the top. 
+However, you can search or filter any comments. You can also choose to show or hide conditions and display conditionalized content accordingly. You can download any attachments but cannot upload or delete any attachments for the comments.
 
-    ![](images/review-task-mark-as-done.png){width="350" align="left"}
+![](images/complete-task-reviewer-new.png){align="left"}
 
-    The **Complete task** dialog is displayed.
-3. In the **Complete task** dialog, add final comments for the Author and select **Complete**. 
+ 
+## As an author
 
-     ![](images/complete-task-dialog.png){width="350" align="left"}
+You can view the completed review tasks in the **Review** panel at a project level from the  **Closed tasks** section as shown in the screenshot. You can search or filter review tasks based on Projects. For example, you can select specific projects in the **Filter** dialog box and have them displayed in the Active review panel. You can further filter the results using the **Tasks initiated by me** and **Show only active tasks** options. 
 
-You have successfully marked the task as completed, and its status is now set to **Complete**. No further actions are allowed once the task is marked as completed. 
+![](images/review-filters-new.png){align="left"}
 
-![](images/task-completed-status.png){width="350" align="left"}
+For closed review tasks, you can read a comment but cannot accept or reject a comment. You cannot edit or delete any comments. You also cannot add any reply for the comment. The Outdated Comments icon and the Import Comments into Author View icon are not displayed for a completed review task. The Revert topic icon and import icon gets disabled after the review task is completed as shown in screenshot.
 
-## View task level comments
+You can also search or filter any comments present in the Review panel. You can download any attachments but cannot upload or delete any attachments for the comments.
 
-All task level comments are displayed in the **Tasks comments** panel, which is available in read-only mode in the read only mode. When you complete a review task with a final comment, your input is recorded in this panel for future reference. 
+![](images/completed-task-author-new.png){align="left"}
 
-To access task level comments from the Review UI, navigate to the left panel and select the **Task comments** icon. 
-
-![](images/task-comments-icon){width="350" align="left"}
-
-The **Task comments** panel is displayed on the right.
-
-![](images/task-comments-reviewer.png){width="650" align="left"}
-
-The **Task comments** panel is also accessible to the Author or initiator of the review task, ensuring clear and traceable communication throughout the review process. After reviewing the task level feedback, the Author can either request a re-review or close the review task. In both cases, all comments captured during the review process remain available in the **Task comments** panel for reference.
-
+So, both as a reviewer or an author you can view the reviewed content along with the comments, but you cannot make any changes in a completed review task.
