@@ -21,7 +21,7 @@ Some of the main features offered by Adobe Experience Manager Guides to the *ini
 -   Share an updated version of the topic for review from the Review Dashboard.
 
 -   Access comments shared on different versions of topic.
-
+-   Reply to a comment by tagging users involved in the same review task.
 -   Group and filter comments based on version of topic.
 
 -   View side-by-side differences between different versions of topics shared for review.
@@ -35,6 +35,7 @@ Features available to the *reviewers*:
 -   Switch between composite view and individual topic view.
 -   Use the commenting tools, such as text insertion, deletion, highlight, and note/comment to provide their feedback.
 -   Attach one or multiple files to a review comment.
+-   Reply to a comment by tagging users involved in the same review task.
 -   Download attachments from a comment.
 -   Use the Review Panel to add comments or respond to comments from other users.
 -   Easily know the version of topic under review.
