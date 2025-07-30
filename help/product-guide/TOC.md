@@ -194,9 +194,9 @@ breadcrumb-title: AEM Guides Documentation
     - [Send topics for review](./user-guide/review-send-topics-for-review.md)    
     - [Review topics](./user-guide/review-topics.md)
     - [Reassign review task using notification](./user-guide/reassign-review-using-notification.md)
-    - [Close a review task as a Reviewer](./user-guide/)
-    - [Address review comments as an Author](./user-guide/review-address-review-comments.md)
-    - [Reopen or close a review task as an Author](./user-guide/)
+    - [Complete the review task as a Reviewer](./user-guide/review-complete-review-tasks.md)
+    - [Address review comments](./user-guide/review-address-review-comments.md)
+    - [Close or request re-review for a review task](./user-guide/review-close-review-task.md)
     - [Manage review tasks using the Review Dashboard](./user-guide/review-manage-tasks-review-dashboard.md)
     - [View a completed review task](./user-guide/review-view-completed-task.md)
   - Collaborate using Adobe Workfront {#workfront-integration}
