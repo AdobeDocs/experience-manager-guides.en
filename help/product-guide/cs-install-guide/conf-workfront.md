@@ -22,7 +22,7 @@ Before getting started, ensure that:
     | Field type | Label| Name | Choices (Show values enabled) |
     |------------|------|------|-------------------------------|
     |Single-select dropdown | Task Type | task-type | Authoring (value = AUTHOR), Publishing (value = PUBLISH), Translation (value = TRANSLATION), Review (value = REVIEW) | 
-    |Single-select dropdown | Task State | task-state  | Authoring (value = AUTHOR), Review (value = REVIEW)| 
+    |Single-select dropdown | Task State | task-state  | Authoring (value = AUTHOR), Publishing (value = PUBLISH), Translation (value = TRANSLATION), Review (value = REVIEW)| 
     |Text with formatting|Author List   | author-list  |  - | 
     |Text with formatting|Reviewer List   | reviewer-list  | -  |
     |Single line text| Review URL   | review-url  | - |

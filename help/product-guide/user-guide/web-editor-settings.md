@@ -27,18 +27,18 @@ The **Settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the
 
 ## General
 
- The General settings allow you to configure the dictionary to use with the Editor. This tab contains five sections: **AI Assistant**, **Authoring**, **Citations**, **Condition**, and **Spell check**.
+ The General settings allow you to configure the settings to use the Editor. This tab contains five sections: **AI Assistant**, **Authoring**, **Citations**, **Condition**, and **Spell check**.
 
 ![](images/editor-setting-general-new.png){width="350" align="left"}
 
 - **AI Assistant**
     Select this to enable the [AI Assistant](./ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
 
-    After enabling the **AI Assistant** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below. Disabling any option will hide it from the Authoring tab in the AI Assistant interface for authors. 
+    After enabling the **AI Assistant** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below.  
     These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the editor settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Editor settings** and save the updated configuration.  
     For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](./ai-assistant-right-panel.md).
 
-    To manage the settings from the **Authoring quick actions** menu, you can: 
+    From the **Authoring quick actions** menu, you can: 
 
     - use the toggles to enable or disable specific options that authors can access when working with AI Assistant.
 
