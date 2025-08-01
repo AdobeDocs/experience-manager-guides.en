@@ -7,7 +7,6 @@ role: User
 ---
 # Address review comments {#id2056B0X0KBI}
 
-
 As an Author, you can address comments in a topic using the Editor. The comments are loaded based on the review task selected in the Review panel. For more details, view the **Review** panel ![](images/active-review-tasklist-icon.svg) feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 The following sections describe ways of addressing comments in the Editor.
@@ -74,5 +73,11 @@ As an Author and initiator of the review task, you can reply to review comments 
 *Caption:Tag users as an initiator/Author*
 
 Tagged users receive both an email and an AEM notification, ensuring they’re promptly informed. 
+
+**Access review comments using the Review UI**
+
+If you are the initiator or Author of a review task and open it from the Assets UI, the topic will launch in the Review UI. Since this task is not assigned to you, you can view and reply to comments but cannot perform any review actions. The comments toolbar remains disabled for users who are not assigned to the task.
+
+![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
 **Parent topic:**[Introduction to review](review.md)
