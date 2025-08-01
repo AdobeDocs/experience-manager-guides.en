@@ -68,12 +68,11 @@ In the Editor, the right panel contains the Review and Track changes icons. The 
 
 **Reply to a comment by tagging other users**
 
-As an Author and initiator of the review task, you can reply to review comments and tag other users involved in the same review task to direct their attention or assign follow-ups. This functionality is available only for active review tasks.
+As an Author and initiator of the review task, you can reply to review comments and tag other users involved in the same review task to direct their attention or assign follow-ups. This functionality is available only for active review tasks. 
 
 ![](images/tag-users-review.png){width="350" align="left"}
 *Caption:Tag users as an initiator/Author*
 
-
-
+Tagged users receive both an email and an AEM notification, ensuring they’re promptly informed. 
 
 **Parent topic:**[Introduction to review](review.md)

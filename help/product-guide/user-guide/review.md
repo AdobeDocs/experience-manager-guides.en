@@ -21,7 +21,7 @@ Some of the main features offered by Adobe Experience Manager Guides to the *ini
 -   Share an updated version of the topic for review from the Review Dashboard.
 
 -   Access comments shared on different versions of topic.
--   Reply to a comment by tagging users involved in the same review task.
+-   Easily tag users of sepcific review task in comments or replies for quick action and follow-ups. Tagged users are immediately notified through both AEM and Email notification.
 -   Group and filter comments based on version of topic.
 
 -   View side-by-side differences between different versions of topics shared for review.

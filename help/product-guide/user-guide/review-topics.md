@@ -158,16 +158,15 @@ The following screenshot shows the content in *Preview* mode:
 
 ![](images/review-preview-mode.png){width="550" align="left"}
 
-**Reply to a comment by tagging other users**
+**Tag task users in a comment**
 
-When collaborating on a review task with multiple reviewers, you can enhance communication by tagging specific users in the comment reply box. As a reviewer or the initiator, you can reply to any comment and tag other users involved in the same review task to direct their attention or assign follow-ups. This functionality is available only for active review tasks.
-
-![](images/tag-users-review.png){width="350" align="left"}
-*Caption:Tag users as an initiator/Author*
+When collaborating on a review task with multiple reviewers, you can enhance communication by tagging specific users in both new comments and replies. As a reviewer, you can initiate a comment or respond to an existing one while tagging other users involved in the same review task to draw their attention or assign follow-ups. This functionality is available only for active review tasks.
 
 ![](images/tag-users-review-ui.png){width="350" align="left"}
-*Caption:Tag users as a reviewer*
 
+Tagged users receive both an email and an AEM notification, ensuring they’re promptly informed. 
+
+![](images/mentioned-in-tags-author.png){width="350" align="left"}
 
 **Add attachments to comments** -   If you want to supplement your comment by providing additional information which is available in some other file, you can do so by attaching it with your comment. As a reviewer, you can easily add one or multiple files from your local system to your comment. A file can be added to all supported forms of comments - Highlight, Strikethrough, Insert Text, or a Comment.
 
