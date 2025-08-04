@@ -7,7 +7,7 @@ level: Experienced
 ---
 # Configure Base Output Location for publishing PDF
 
-To configure the base output location for a native PDF preset or DITA-OT PDF , perform the following steps:
+To configure the base output location for a Native PDF or DITA-OT PDF , perform the following steps:
 
 1. Use the instructions given in [Configuration overrides](../cs-install-guide/download-install-additional-config-override.md) to create the configuration file.
 

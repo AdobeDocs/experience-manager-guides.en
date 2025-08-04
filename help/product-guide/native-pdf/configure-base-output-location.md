@@ -7,7 +7,7 @@ level: Experienced
 ---
 # Configure Base Output Location for publishing PDF
 
-Perform the following steps to configure the base output location for a native PDF preset or DITA-OT PDF:
+Perform the following steps to configure the base output location for a Native PDF or DITA-OT PDF preset:
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
