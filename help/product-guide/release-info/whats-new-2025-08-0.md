@@ -68,9 +68,11 @@ You are also given the option to remove any previously selected DITAVAL files, a
 
 For more details, view [Native PDF preset](../web-editor/native-pdf-web-editor.md#native-pdf-preset-configuration)
 
-## New output path variable support for PDF generation
+## New output path variable support for output generation
 
-This release introduces an enhancement for Native PDF and DITA-OT PDF output, wherein the output path is now defined as a dynamic variable, providing greater flexibility and control. Instead of manually setting static paths, the output location can be managed by defining the value of this variable, at the time of installation.
+This release introduces a significant enhancement to output presets; including Native PDF, DITA-OT PDF, JSON, HTML5, and Custom by enabling dynamic output path configuration. Rather than relying on static paths, users can now define the output location using a variable (`${base_output_path}`) during installation, offering improved flexibility and control over content delivery.
 
-For more details, view [Output path for Native PDF preset](../web-editor/native-pdf-web-editor.md#native-pdf-preset-configuration)
+With this update, the default static path `/content/dam/fmdita-outputs` is no longer mandatory, allowing users to specify custom output paths as per their requirements. All the output paths associated with the global folder profile presets will be automatically migrated to utilize the new base output path variable. For custom folder profiles, however, migration is not automatic; you are advised to contact the Customer Success team for assistance.
+
+For more details, view [Understand the output presets](../user-guide/generate-output-understand-presets.md)
 
