@@ -41,7 +41,7 @@ To include `@navtitle` attribute by default in reference files' properties, perf
     "required": {"navtitle": true}
     ```
 
-    When set to `true`, the **Refresh navtitle attribute** button is enabled to show up in the Editor toolbar. When set to `false` or left empty, the button remains hidden in the Editor. 
+    When set to `true`, the **Refresh navigation title attribute** button is enabled to show up in the Editor toolbar. When set to `false` or left empty, the button remains hidden in the Editor. 
 1. Save the file.
 
 1. Upload the file in the corresponding profile \(Global or Folder\).
