@@ -54,6 +54,7 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 workflowdata.getMetaDataMap().put("reviewType", "AEM");
 workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
 workflowdata.getMetaDataMap().put("isDitamap","false");
+workflowdata.getMetaDataMap().put("review_version","3.0");
 ```
 
 **For Map**
@@ -80,6 +81,7 @@ workflowdata.getMetaDataMap().put("isDitamap", "true");
 workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
 var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
 workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
+workflowdata.getMetaDataMap().put("review_version","3.0");
 ```
 
 You can create these script in the `/etc/workflows/scripts` node. The following table describes the properties being assigned by both of the aforementioned ECMA script.
@@ -104,6 +106,7 @@ You can create these script in the `/etc/workflows/scripts` node. The following 
 |`ditamap`|String|Specify the path of the ditamap of the review task|
 |`allowAllReviewers`|Boolean|false/true|
 |`notifyViaEmail`|Boolean|false/true|
+|`review_version`|String|Specifies the current version of the Review workflow i.e `3.0` .<br> To enable the new review workflow features for [Authors](../user-guide/review-close-review-task.md) and [Reviewers](../user-guide/review-complete-review-tasks.md), ensure that the `review_version` is set to `3.0`.|
 
 
 Once you have created the script, call it before calling the Create Review process in your workflow. Then, depending on your requirements, you can call the other review workflow processes.
