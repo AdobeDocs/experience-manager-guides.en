@@ -42,7 +42,7 @@ The **Settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the
 
     - use the toggles to enable or disable specific options that authors can access when working with AI Assistant.
 
-    - to change the order in which the options appear, drag and drop them as needed.  
+    - change the order in which the options appear, drag and drop them as needed.  
 
     ![](images/authoring-quick-actions.png){width="350" align="left"} 
 
