@@ -126,11 +126,11 @@ Adding a workflow in the **Adobe Granite Workflow Purge Configuration** ensures 
 
 For more details about configuring the **Adobe Granite Workflow Purge Configuration**, see *Administering Workflow Instances* in AEM documentation.
 
-### Customize email and AEM notification templates 
+### Customize email and AEM notification
 
 A number of the AEM Guides workflows make use of email notifications. For example, if you initiate a review task, an email notification is sent to the reviewers. However, to ensure that the email notification is sent, you have to enable this functionality in AEM. To enable email notification in AEM, see the article [Sending Email](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#sending-email) in AEM documentation.
 
-The AEM Guides contains a set of email templates that you can customize. Perform the following steps to customize these templates:
+The AEM Guides contains a set of email templates that you can customize. Perform the following steps to customize these notifications:
 
 1.  Use the Package Manager to download `/libs/fmdita/mail/review` file.
 
@@ -144,15 +144,15 @@ The AEM Guides contains a set of email templates that you can customize. Perform
     - `CSS`
     - `email-notification`
 
-    The detailed description of these folders is explained below:
+    The detailed description of these sub-folders is explained below:
 
     |Review sub-folders|Description|
     |-----------------|-----------|
-    |`aem-notification`|Contains different AEM notification types available for customization. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Within these sub-folders, `primary.vm` and `secondary.vm` files are located, allowing you to customize the AEM notification title and description, respectively.| 
-    |`CSS`|Contains the `email-notification.css` file for customizing the styling of email templates.|
-    |`email-notification`|Contains different email notification types available for customization. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Within these sub-folders, `primary.vm` and `secondary.vm` files are located, allowing you to customize the email notification subject and body, respectively.|
+    |`aem-notification`|Contains different AEM notification types available for customization. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Within these sub-folders, `primary.vm` and `secondary.vm` files are located that allow you to customize the AEM notification title and description, respectively.| 
+    |`CSS`|Contains the `email-notification.css` file for customizing the styling of email notifications.|
+    |`email-notification`|Contains different email notification types available for customization. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Within these sub-folders, `primary.vm` and `secondary.vm` files are located that allow you to customize the email notification subject and body, respectively.|
 
-While customizing an email or AEM notification template, ensure that you only use the following predefined set of variables. 
+While customizing an email or AEM notification, ensure that you only use the following predefined set of variables. 
 
 
 | **Variable name**       | **Description**                                               | **Data type** | **Used in notification type(s)**                                      |
