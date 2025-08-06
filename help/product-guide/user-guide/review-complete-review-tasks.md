@@ -8,7 +8,7 @@ role: User
 
 >[!IMPORTANT]
 >
-> The features covered in this article are available only if configured by your Administrator at the backend. Contact your your Administrator for details. 
+> The features explained in this article are not enabled as a part of the out-of-the-box support. Contact your customer success team to get this feature enabled in the environment.  
 
 As a Reviewer, you can mark a review task as complete once all the required feedback has been provided and addressed by the Author or task initiator. By marking the task as complete, you indicate that your part of the review is completed and leave final comments for the Author.
 
@@ -22,17 +22,25 @@ Peform the following steps to complete a review task:
     The **Complete task** dialog is displayed.
 3. In the **Complete task** dialog, add final comments for the Author and select **Complete**. 
 
-     ![](images/complete-task-dialog.png){width="350" align="left"}
+>[!NOTE]
+>
+> The task-level comments serve as a summary or final comments, and are distinct from the text-level comments added during the topic review. In this dialog, you may either outline follow-up actions such as requesting the Author to address specific comments and resend the task for review or indicate that the review is complete.  
 
-You have successfully marked the task as completed, and its status is now set to **Complete**. No further actions are allowed once the task is marked as completed. 
+![](images/complete-task-dialog-followup.png){width="350" align="left"}
+*Caption: Complete task dialog with follow-up action*
+
+![](images/complete-task-dialog.png){width="350" align="left"}
+*Caption: Complete task dialog confirming completion*
+
+You have successfully marked the task as completed, and its status is now set to **Complete**. No further actions are allowed once the task is marked as completed. A notification is sent to the Author or initiator of the review task to draw their immediate attention. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md).
 
 ![](images/task-completed-status.png){width="350" align="left"}
 
-## View task level comments
+## View task-level comments
 
-All task level comments are displayed in the **Tasks comments** panel, which is available in read-only mode in the read only mode. When you complete a review task with a final comment, your input is recorded in this panel for future reference. 
+All task-level comments are displayed in the **Tasks comments** panel, which is available in read-only mode in the read only mode. When you complete a review task with a final comment, your input is recorded in this panel for future reference.
 
-To access task level comments from the Review UI, navigate to the left panel and select the **Task comments** icon. 
+To access task-level comments from the Review UI, navigate to the left panel and select the **Task comments** icon. 
 
 ![](images/task-comments-icon){width="350" align="left"}
 
@@ -40,5 +48,5 @@ The **Task comments** panel is displayed on the right.
 
 ![](images/task-comments-reviewer.png){width="650" align="left"}
 
-The **Task comments** panel is also accessible to the Author or initiator of the review task, ensuring clear and traceable communication throughout the review process. After reviewing the task level feedback, the Author can either request a re-review or close the review task. In both cases, all comments captured during the review process remain available in the **Task comments** panel for reference.
+The **Task comments** panel is also accessible to the Author or initiator of the review task, ensuring clear and traceable communication throughout the review process. After reviewing the task-level feedback, the Author can either request a re-review or close the review task. In both cases, all comments captured during the review process remain available in the **Task comments** panel for reference.
 

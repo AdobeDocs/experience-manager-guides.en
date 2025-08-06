@@ -106,7 +106,7 @@ You can create these script in the `/etc/workflows/scripts` node. The following 
 |`ditamap`|String|Specify the path of the ditamap of the review task|
 |`allowAllReviewers`|Boolean|false/true|
 |`notifyViaEmail`|Boolean|false/true|
-|`review_version`|String|Specifies the current version of the Review workflow i.e `3.0` .<br> To enable the new review workflow features for [Authors](../user-guide/review-close-review-task.md) and [Reviewers](../user-guide/review-complete-review-tasks.md), ensure that the `review_version` is set to `3.0`.|
+|`review_version`|String|Specifies the current version of the Review workflow. The default value is set to `3.0` .<br> To enable the new review workflow features for [Authors](../user-guide/review-close-review-task.md) and [Reviewers](../user-guide/review-complete-review-tasks.md), ensure that the `review_version` is set to `3.0`.|
 
 
 Once you have created the script, call it before calling the Create Review process in your workflow. Then, depending on your requirements, you can call the other review workflow processes.
@@ -126,26 +126,56 @@ Adding a workflow in the **Adobe Granite Workflow Purge Configuration** ensures 
 
 For more details about configuring the **Adobe Granite Workflow Purge Configuration**, see *Administering Workflow Instances* in AEM documentation.
 
-### Customize email templates 
+### Customize email and AEM notification templates 
 
 A number of the AEM Guides workflows make use of email notifications. For example, if you initiate a review task, an email notification is sent to the reviewers. However, to ensure that the email notification is sent, you have to enable this functionality in AEM. To enable email notification in AEM, see the article [Sending Email](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#sending-email) in AEM documentation.
 
 The AEM Guides contains a set of email templates that you can customize. Perform the following steps to customize these templates:
 
-1.  Use the Package Manager to download `/libs/fmdita/mail` file.
+1.  Use the Package Manager to download `/libs/fmdita/mail/review` file.
 
     >[!NOTE]
     >
     > Do not make any customizations in the default configuration files available in the ``libs`` node. You must create an overlay of the ``libs`` node in the ``apps`` node and update the required files in the ``apps`` node only.
 
-1.  The mail folder contains the following customizable templates:
+1.  The `review` folder contains the following sub-folders:
 
-    |Template Filename|Description|
+    - `aem-notification`
+    - `CSS`
+    - `email-notification`
+
+    The detailed description of these folders is explained below:
+
+    |Review sub-folders|Description|
     |-----------------|-----------|
-    |closereview.html|This email template is used when a review task is closed.|
-    |createreview.html|This email template is used when a new review task is created.|
-    |reviewapproval.css|This CSS file contains the styling of email templates.|
+    |`aem-notification`|Contains different AEM notification types available for customization. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Within these sub-folders, `primary.vm` and `secondary.vm` files are located, allowing you to customize the AEM notification title and description, respectively.| 
+    |`CSS`|Contains the `email-notification.css` file for customizing the styling of email templates.|
+    |`email-notification`|Contains different email notification types available for customization. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Within these sub-folders, `primary.vm` and `secondary.vm` files are located, allowing you to customize the email notification subject and body, respectively.|
 
+While customizing an email or AEM notification template, ensure that you only use the following predefined set of variables. 
+
+
+| **Variable name**       | **Description**                                               | **Data type** | **Used in notification type(s)**                                      |
+|-------------------------|---------------------------------------------------------------|---------------|------------------------------------------------------------------------|
+| `contentPath`           | Path to the content being reviewed                            | String        | Task link generation                                                   |
+| `projectPath`           | Path to the project containing the review task                | String        | Internal linking                                                       |
+| `reviewTitle`           | Title of the review task                                      | String        | Notification title, email subject                                     |
+| `projectName`           | Name of the project                                           | String        | Email body                                                             |
+| `commentator`           | Name of the user who added a comment                         | String        | Mention notifications                                                  |
+| `commentExcerpt`        | Snippet of the comment added                                 | String        | Email body, notification text                                         |
+| `taskLink`              | Direct link to the review task                               | URL           | Email body, notification text                                         |
+| `authorName`            | Name of the author who created or updated the review task    | String        | Email body, notification text                                         |
+| `dueDate`               | Due date of the review task                                  | Date          | Email body                                                             |
+| `reviewerName`          | Name of the reviewer assigned to the task                    | String        | Email body, notification text                                         |
+| `user`                  | Generic placeholder for the user receiving the notification  | String        | Generic templates                                                      |
+| `recipient`             | Specific user receiving the notification                     | String        | Email header                                                           |
+| `closed`                | Indicates that the review task has been closed               | String        | Review closed                                                          |
+| `reviewer-removed`      | Indicates that a reviewer has been removed from the task     | String        | Reviewer removed                                                       |
+| `requested`             | Indicates that a re-review has been requested                | String        | Re-review requested                                                    |
+| `feedback-provided`     | Indicates that feedback has been submitted by a reviewer     | String        | Feedback submitted                                                     |
+| `feedback-addressed`    | Indicates that feedback has been addressed by the author     | String        | Re-review requested                                                    |
+| `content-updated`       | Indicates that content was updated during the review process | String        | Content updated by author while reviewers are reviewing               |
+| `tag-mention`           | Indicates that a user was mentioned in a comment             | String        | Tag mention                                                            |
 
 ## Customize post-output generation workflow {#id17A6GI004Y4}
 
