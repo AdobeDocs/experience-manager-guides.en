@@ -51,7 +51,7 @@ For more details, view [Use the DITAVAL Editor](../user-guide/ditaval-editor.md)
 
 - **Multiple DITAVAL files support for Native PDF:** For Native PDF, now multiple DITAVAL files can be added, each displayed as a tagged entry for easy identification and removal, providing greater flexibility and control over conditional content in PDF outputs
 
-    Additionally, this update enhances output preset creation by enabling editable DITAVAL fields across formats, allowing users to manually specify DITAVAL paths. .
+    Additionally, this update enhances output preset creation by enabling editable DITAVAL fields across formats, allowing users to manually specify DITAVAL paths.
 
     For more details, view [Output presets](../user-guide/generate-output-understand-presets.md) in Experience Manager Guides.
 
