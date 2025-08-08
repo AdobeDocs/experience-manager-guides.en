@@ -41,7 +41,7 @@ Learn about [upgrade instructions for the 2025.08.0 release](upgrade-instruction
 
 - Copying a DITA map from the Assets UI also copies its attached Baseline to the new map. (GUIDES-11227)
 
-## Home 
+## Home page 
 
 - The Home page goes blank when one of the files listed in the **Recent files** widget is based on a template whose source template does not include a thumbnail. (GUIDES-31506)
 
