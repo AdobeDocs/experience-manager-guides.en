@@ -10,7 +10,7 @@ role: User
 >
 > The features explained in this article are not enabled as a part of the out-of-the-box support. Contact your customer success team to get this feature enabled in the environment.  
 
-As a Reviewer, you can mark a review task as complete once all the required feedback has been provided and addressed by the Author or task initiator. By marking the task as complete, you indicate that your part of the review is completed and leave final comments for the Author.
+As a Reviewer you can mark a review task as complete once you have reviewed all the content and want to notify the Author. You can also leave any final comments at this stage.
 
 Peform the following steps to complete a review task:
 
@@ -36,17 +36,25 @@ You have successfully marked the task as completed, and its status is now set to
 
 ![](images/task-completed-status.png){width="350" align="left"}
 
+Based on the feedback, if the Author or initiator of the task decides to [close the review task](./review-close-review-task.md), the task status on the Review UI is changed to **Closed**. 
+
+![](images/review-status-closed-review-ui.png){width="350" align="left"}
+
 ## View task-level comments
 
-All task-level comments are displayed in the **Tasks comments** panel, which is available in read-only mode in the read only mode. When you complete a review task with a final comment, your input is recorded in this panel for future reference.
+All task-level comments are displayed in the **Tasks comments** dialog, which is available in the read-only mode. When you complete a review task with a final comment, your input is recorded in this dialog for future reference.
 
 To access task-level comments from the Review UI, navigate to the left panel and select the **Task comments** icon. 
 
-![](images/task-comments-icon){width="350" align="left"}
+![](images/task-comments-icon.png){width="350" align="left"}
 
-The **Task comments** panel is displayed on the right.
+The **Task comments** dialog is displayed on the right. 
 
 ![](images/task-comments-reviewer.png){width="650" align="left"}
 
-The **Task comments** panel is also accessible to the Author or initiator of the review task, ensuring clear and traceable communication throughout the review process. After reviewing the task-level feedback, the Author can either request a re-review or close the review task. In both cases, all comments captured during the review process remain available in the **Task comments** panel for reference.
+The comments within the dialog are displayed in chronological order, with the recent comments appearing first and the oldest comments appearing last. This order helps you follow the conversation as it progressed over time.
+
+The **Task comments** dialog is accessible to all the users involved in the review task, including the Author or initiator of the review task and other Reviewers. Hence, the comments from other Reviewers (if involved) might also appear in the Task comments dialog. This helps ensure clear and traceable communication throughout the review process. 
+
+After reviewing the task-level feedback, the Author can either request a re-review or close the review task. In both cases, all comments captured during the review process remain available in the **Task comments** dialog for reference.
 
