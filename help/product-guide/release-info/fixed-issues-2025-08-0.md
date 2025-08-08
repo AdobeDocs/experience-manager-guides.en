@@ -20,7 +20,7 @@ Learn about [upgrade instructions for the 2025.08.0 release](upgrade-instruction
 - When opening a DITA map with the unified shell enabled, the Editor refreshes intermittently.(GUIDES-26919)
 - When a DITA map is selected in Map view, the selection count is displayed incorrectly at first because the child nodes of the map are not selected. The correct selection count and inclusion of all child nodes are only reflected upon subsequent selection. (GUIDES-25663)
 - Markdown files are not retrieved when searched in the Repository panel using the **DITA topic** filter. Also, the **Find and Replace** do not work for Markdown files and related content. (GUIDES-27133)
-- Unable to customize the **Show**, **Hide**, and **Add New** options present in the **Menu** dropdown of the Editor toolbar using extension framework. (GUIDES-28748) 
+- Unable to customize the **Menu dropdown** of Editor toolbar using the extension framework. As a result, you can not hide or show any existing buttons or add new buttons in the Menu dropdown. (GUIDES-28748) 
 
 ## Asset management
 
