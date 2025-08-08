@@ -33,7 +33,8 @@ Before getting started, ensure that:
 >
 > * In the above table, the choices represent the options available under the **Task type** field. For each option, you would require to provide the **task name** and **task value**. The name and values for each task type must be exactly same as mentioned in the above table. For example, for task type Author, provide **Authoring** as name and **AUTHOR** as its corresponding value.
 > * When working with on-prem services, always ensure that `localhost` is replaced with the correct server address in the **Day CQ Link Externalizer** configuration to properly receive the resolved task link in the email notifications.
-> * When working with Workfront, ensure you are a part of the **user-administrators** group to access the user list and **workflow-users** group for creating a review task.    
+> * When creating a review task in Workfront, users (authors or reviewers) must be part of the **workflow-users** group. Additionally, as an **Author** you must be a part of the **content-authors** and **authors** group, while as a **Reviewer** you must be a part of the **reviewers** group. 
+   
 
 ## Get started 
 
