@@ -16,11 +16,11 @@ Learn about [upgrade instructions for the 2025.08.0 release](upgrade-instruction
 - **CSS** and **Page layout** files in Native PDF templates exhibit inconsistent file locking behavior, allowing edits even when the files are locked. (GUIDES-26688)
 - Refreshing the page after adding custom buttons to the left panel creates duplicate tabs. (GUIDES-30899)
 - When XML content containing angular brackets (such as </ or />) is added within a `code block` element in a topic, the code block element appears blank in the final output. (GUIDES-31007)
-- The value of `canCheckIn` and `canCheckOut` are not being set correctly when a file is checked out and checked in from the Editor toolbar.(GUIDES-29890)
+- The values of global variables `canCheckIn` and `canCheckOut` are not being set correctly when a file is checked out and checked in from the Editor toolbar.(GUIDES-29890)
 - When opening a DITA map with the unified shell enabled, the Editor refreshes intermittently.(GUIDES-26919)
 - When a DITA map is selected in Map view, the selection count is displayed incorrectly at first because the child nodes of the map are not selected. The correct selection count and inclusion of all child nodes are only reflected upon subsequent selection. (GUIDES-25663)
-- Markdown files, content, and other related properties are not retrieved when searched in the Repository panel using the **DITA topic** filter. Also, the **Find and Replace** do not work for Markdown files and related content. (GUIDES-27133)
-- Unable to show or hide the options present in the **Menu** dropdown of the Editor toolbar. (GUIDES-28748) 
+- Markdown files are not retrieved when searched in the Repository panel using the **DITA topic** filter. Also, the **Find and Replace** do not work for Markdown files and related content. (GUIDES-27133)
+- Unable to customize the **Show**, **Hide**, and **Add New** options present in the **Menu** dropdown of the Editor toolbar using extension framework. (GUIDES-28748) 
 
 ## Asset management
 
@@ -34,9 +34,16 @@ Learn about [upgrade instructions for the 2025.08.0 release](upgrade-instruction
 ## Publishing
 
 - In the Native PDF output, the List of Index (LOI) appears in a non-alphabetical order and nested index terms are not grouped properly, making the index difficult to navigate. (GUIDES-29090)
-- The **Map page template** and **Topic page template** dropdown lists in the New AEM Sites output preset page appears blank when the destination path contains a variable with a colon. (GUIDES-28119)
-- When a DITA map contains different types of topic references such as Concept, Reference or Task, and it is merged using the `chunk=to-content` attribute to generate a single page output on New AEM Sites, the content does not get published properly due to publishing errors. (GUIDES-28118)
+- The **Map page template** and **Topic page template** dropdown list in the AEM Sites component mapping output preset page appears blank when the destination path contains a variable with a colon. (GUIDES-28119)
+- When a DITA map contains different types of topic references such as Concept, Reference or Task, and it is merged using the `chunk=to-content` attribute to generate single page output on AEM Sites with component mapping, the content does not get published properly due to publishing errors. (GUIDES-28118)
 
 ## Baseline
 
-- After copying a DITA map with an existing Baseline from the Assets UI, the Baseline in the copied map cannot be modified. Specifically, the versions of the assets in the Baseline cannot be updated or changed. (GUIDES-11227)
+- Copying a DITA map from the Assets UI also copies its attached Baseline to the new map. (GUIDES-11227)
+
+## Home page 
+
+- The Home page goes blank when one of the files listed in the **Recent files** widget is based on a template whose source template does not include a thumbnail. (GUIDES-31506)
+
+
+ 
