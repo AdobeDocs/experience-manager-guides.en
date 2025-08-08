@@ -45,15 +45,15 @@ This update introduces several enhancements that simplify creating, managing, an
 The key highlights are as follows:
 
 - **Enhanced flagging support in authoring DITAVAL files:** Experience Manager Guides brings new capabilities for customizing the content publishing through enhanced flagging support in DITAVAL files. You can now apply start and end flags around specific content, including images, and enrich flagged sections with formatting options like bold, italics, and more. To handle condition overlaps, the **Style conflict** can be configured, which includes setting a default background and text color, ensuring clarity and consistency in the output. These flags are fully supported in Native PDF generation, and the resulting output accurately and comprehensively reflects all applied styling elements.
-For more details, view [Use the DITAVAL Editor](../user-guide/ditaval-editor.md)
+For more details, view [Use the DITAVAL Editor](../user-guide/ditaval-editor.md).
 
     ![](assets/ditaval-flag-style.png){width="650" align="left"}
 
-- **Multiple DITAVAL files in Native PDF output:** For Native PDF, now multiple DITAVAL files can be added, each displayed as a tagged entry for easy identification and removal, providing greater flexibility and control over conditional content in PDF outputs
+- **Multiple DITAVAL files support for Native PDF:** For Native PDF, now multiple DITAVAL files can be added, each displayed as a tagged entry for easy identification and removal, providing greater flexibility and control over conditional content in PDF outputs
 
     Additionally, this update enhances output preset creation by enabling editable DITAVAL fields across formats, allowing users to manually specify DITAVAL paths. .
 
-    For more details, view [Use the DITAVAL Editor](../user-guide/ditaval-editor.md) and [Output presets](../user-guide/generate-output-understand-presets.md) in Experience Manager Guides.
+    For more details, view [Output presets](../user-guide/generate-output-understand-presets.md) in Experience Manager Guides.
 
 ## Improved output generation log filtering
 
