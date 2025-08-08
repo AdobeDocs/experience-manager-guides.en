@@ -12,14 +12,13 @@ For the list of issues fixed in this release, view [Fixed issues in the 2025.08.
 Learn about [upgrade instructions for the 2025.08.0  release](../release-info/upgrade-instructions-2025-08-0.md).
 
 
-## Enhanced Review Workflow
+## Enhanced Review workflow
 
 With this release, the review workflow mechanism has been significantly enhanced to introduce various new features like improved task management workflows with actionable notifications, ability to tag users to seek immediate attention, and access to project and task details from the review panel for ease of use.
 
 These workflow improvements enhance collaboration and efficiency by streamlining task management and enabling prompt user engagement. Users can quickly act on notifications, access relevant details, and stay aligned within the review environment.
 
-For more details, view 
-
+For more details, view [Introduction to review](../user-guide/review.md)
 
 ## Configurable AI Assistant actions in the Editor settings
 
@@ -37,9 +36,9 @@ This update brings new capabilities for customizing the content publishing throu
 
 Additionally, this update enhances output preset creation by enabling editable DITAVAL fields across formats, allowing users to manually specify DITAVAL paths. For Native PDF, multiple DITAVAL files can be added, each displayed as a tagged entry for easy identification and removal, providing greater flexibility and control over conditional content in PDF outputs.
 
-![](assets/ditaval-flag-style.png){width="650" align="left"}
-
 For more details, view [Use the DITAVAL Editor](../user-guide/ditaval-editor.md) and [Output presets](../user-guide/generate-output-understand-presets.md) in Experience Manager Guides.
+
+![](assets/ditaval-flag-style.png){width="650" align="left"}
 
 
 ## Improved log filtering for better visibility
@@ -67,9 +66,9 @@ For more details, view [Understand the output presets](../user-guide/generate-ou
 
 ## UI improvements in Editor toolbar and User preferences
 
-with this release the settings within the **User preferences** on the Home page for General and Appearance tabs have been re-structured. It includes renaming the label **Opening preferences for Maps** and moving the Non-breaking spaces toggle to Editor toolbar.
+With this release the settings within the **User preferences** on the Home page for General and Appearance tabs have been re-structured. It includes renaming the label **Opening preferences for Maps** and moving the Non-breaking spaces toggle to Editor toolbar.
 
-Additionally, in the Editor toolbar some quick-access toggles for enabling or disabling Track Changes, Tags, and Non-Breaking Spaces are grouped under **Show** option within the Menu dropdown for better usability.
+Additionally, in the Editor toolbar some quick-access toggles for enabling or disabling Track Changes, Tags, and Non-Breaking Spaces are now grouped under **Show** option within the Menu dropdown for better usability.
 
 For more details, view [Toolbar in the Editor](../user-guide/web-editor-toolbar.md#menu-dropdown).
 
