@@ -10,7 +10,7 @@ role: User
 >
 > The features explained in this article are not enabled as a part of the out-of-the-box support. Contact your customer success team to get this feature enabled in the environment.  
 
-As a Reviewer you can mark a review task as complete once you have reviewed all the content and want to notify the Author. You can also leave any final comments at this stage.
+As a Reviewer, you can mark a review task as complete once you have reviewed all the content and want to notify the Author. You can also leave any final comments at this stage.
 
 Peform the following steps to complete a review task:
 
