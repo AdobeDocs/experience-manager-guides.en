@@ -14,9 +14,16 @@ Learn about [upgrade instructions for the 2025.08.0  release](../release-info/up
 
 ## Enhanced review workflow
 
-With this release, the review workflow mechanism has been significantly enhanced to introduce various new features like improved task management workflows with actionable notifications, ability to tag users to seek immediate attention, and access to project and task details from the review panel for ease of use.
+With this release, the review workflow has been significantly enhanced to better support seamless communication between authors and reviewers. Key updates include:
 
-These workflow improvements enhance collaboration and efficiency by streamlining task management and enabling prompt user engagement. Users can quickly act on notifications, access relevant details, and stay aligned within the review environment.
+- Task management workflows with actionable notifications
+- Ability to tag users to seek immediate attention
+- Access to project and task details from review panel for ease of use
+
+With these enhancements users can now expect:
+
+- Efficient and timely review cycles
+- Reduced manual effort during feedback exchanges
 
 For more details, view [Introduction to review](../user-guide/review.md)
 
@@ -33,20 +40,28 @@ Learn more about [AI assistant in Editor settings](../user-guide/web-editor-sett
 
 ## Improved experience for creating and using DITAVAL files
 
-This update brings new capabilities for customizing the content publishing through enhanced flagging support in DITAVAL files. You can now apply start and end flags around specific content, including images, and enrich flagged sections with formatting options like bold, italics, and more. To handle condition overlaps, the **Style conflict** can be configured, which includes setting a default background and text color, ensuring clarity and consistency in the output. These flags are fully supported in Native PDF generation, and the resulting output accurately and comprehensively reflects all applied styling elements.
+This update introduces several enhancements that simplify creating, managing, and applying DITAVAL files, enabling better control over conditional content and styling across outputs.
 
-Additionally, this update enhances output preset creation by enabling editable DITAVAL fields across formats, allowing users to manually specify DITAVAL paths. For Native PDF, now multiple DITAVAL files can be added, each displayed as a tagged entry for easy identification and removal, providing greater flexibility and control over conditional content in PDF outputs.
+The key highlights are as follows:
 
-For more details, view [Use the DITAVAL Editor](../user-guide/ditaval-editor.md) and [Output presets](../user-guide/generate-output-understand-presets.md) in Experience Manager Guides.
+- **Enhanced flagging support in authoring DITAVAL files:** Experience Manager Guides brings new capabilities for customizing the content publishing through enhanced flagging support in DITAVAL files. You can now apply start and end flags around specific content, including images, and enrich flagged sections with formatting options like bold, italics, and more. To handle condition overlaps, the **Style conflict** can be configured, which includes setting a default background and text color, ensuring clarity and consistency in the output. These flags are fully supported in Native PDF generation, and the resulting output accurately and comprehensively reflects all applied styling elements.
+For more details, view [Use the DITAVAL Editor](../user-guide/ditaval-editor.md)
 
 ![](assets/ditaval-flag-style.png){width="650" align="left"}
 
+- **Multiple DITAVAL files in Native PDF output:** For Native PDF, now multiple DITAVAL files can be added, each displayed as a tagged entry for easy identification and removal, providing greater flexibility and control over conditional content in PDF outputs
+
+Additionally, this update enhances output preset creation by enabling editable DITAVAL fields across formats, allowing users to manually specify DITAVAL paths. .
+
+For more details, view [Use the DITAVAL Editor](../user-guide/ditaval-editor.md) and [Output presets](../user-guide/generate-output-understand-presets.md) in Experience Manager Guides.
 
 ## Improved output generation log filtering
 
-This release introduces upgraded log filtering capabilities that offer enhanced clarity. You can now filter output generation logs by four distinct levels; **Info**, **Warn**, **Error** (including both errors and exceptions), and **Fatal**; with intuitive color-coded indicators that simplify analysis and sharpen visibility across the log stream. This improvement empowers you to navigate logs more efficiently and locate the critical issues with precision. 
+This release brings in UI improvements to output generation log filtering capability. You can now filter the output generation logs better for all the four distinct levels; **Info**, **Warn**, **Error** (including both errors and exceptions), and **Fatal**; with improved and intuitive color-coded indicators that simplify analysis and sharpen visibility across the log stream. This improvement empowers you to navigate logs more efficiently and locate the critical issues with precision. 
 
 For more details, view [Basic troubleshooting](../user-guide/generate-output-basic-troubleshooting.md).
+
+![](./assets/log-file-new.png){align="left"}
 
 
 ## Temporary files for published output now include Author and Publish URLs in a new config file
