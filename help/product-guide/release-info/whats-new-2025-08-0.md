@@ -35,7 +35,7 @@ Learn more about [AI assistant in Editor settings](../user-guide/web-editor-sett
 
 This update brings new capabilities for customizing the content publishing through enhanced flagging support in DITAVAL files. You can now apply start and end flags around specific content, including images, and enrich flagged sections with formatting options like bold, italics, and more. To handle condition overlaps, the **Style conflict** can be configured, which includes setting a default background and text color, ensuring clarity and consistency in the output. These flags are fully supported in Native PDF generation, and the resulting output accurately and comprehensively reflects all applied styling elements.
 
-Additionally, this update enhances output preset creation by enabling editable DITAVAL fields across formats, allowing users to manually specify DITAVAL paths. For Native PDF, multiple DITAVAL files can be added, each displayed as a tagged entry for easy identification and removal, providing greater flexibility and control over conditional content in PDF outputs.
+Additionally, this update enhances output preset creation by enabling editable DITAVAL fields across formats, allowing users to manually specify DITAVAL paths. For Native PDF, now multiple DITAVAL files can be added, each displayed as a tagged entry for easy identification and removal, providing greater flexibility and control over conditional content in PDF outputs.
 
 For more details, view [Use the DITAVAL Editor](../user-guide/ditaval-editor.md) and [Output presets](../user-guide/generate-output-understand-presets.md) in Experience Manager Guides.
 
@@ -59,7 +59,7 @@ For more details, view [Understand the output presets](../user-guide/generate-ou
 
 ## New output path variable support for output generation
 
-This update introduces dynamic output path configuration for output presets like Native PDF, DITA-OT PDF, JSON, HTML5, and Custom by enabling . Rather than relying on static paths, users can now define the output location using a variable (`${base_output_path}`) during installation, offering greater flexibility. the previous default path `/content/dam/fmdita-outputs` is no longer mandatory
+This update introduces dynamic output path configuration for output presets like Native PDF, DITA-OT PDF, JSON, HTML5, and Custom by enabling . Instead of using a fixed path, users can now define the output location using the `${base_output_path}` variable during installation, offering greater flexibility. The previous default path `/content/dam/fmdita-outputs` is no longer mandatory.
 
 All the output paths associated with the global folder profile presets will be automatically migrated to utilize the new base output path variable. For custom folder profiles, however, migration is not automatic; you are advised to contact the Customer Success team for assistance.
 
@@ -67,7 +67,7 @@ For more details, view [Understand the output presets](../user-guide/generate-ou
 
 ## UI improvements in Editor toolbar and User preferences
 
-With this release the settings within the **User preferences** on the Home page for General and Appearance tabs have been re-structured. It includes renaming the label **Opening preferences for Maps** and moving the Non-breaking spaces toggle to Editor toolbar.
+With this release the settings within the **User preferences** on the Home page for General and Appearance tabs have been re-structured. It includes renaming the label **Opening preferences for Maps** and moving the Non-breaking spaces toggle to the Editor toolbar.
 
 Additionally, in the Editor toolbar some quick-access toggles for enabling or disabling Track Changes, Tags, and Non-Breaking Spaces are now grouped under **Show** option within the Menu dropdown for better usability.
 
