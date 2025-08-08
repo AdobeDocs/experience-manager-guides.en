@@ -12,7 +12,7 @@ For the list of issues fixed in this release, view [Fixed issues in the 2025.08.
 Learn about [upgrade instructions for the 2025.08.0  release](../release-info/upgrade-instructions-2025-08-0.md).
 
 
-## Enhanced Review workflow
+## Enhanced review workflow
 
 With this release, the review workflow mechanism has been significantly enhanced to introduce various new features like improved task management workflows with actionable notifications, ability to tag users to seek immediate attention, and access to project and task details from the review panel for ease of use.
 
@@ -26,9 +26,10 @@ The latest update introduces enhanced configuration for **Authoring quick action
 
 Once the **AI Assistant** toggle is enabled, Administrators can selectively choose which quick actions are visible under the **Authoring** tab, helping streamline author interactions. These visibility settings are specific to each folder profile.
 
+Learn more about [AI assistant in Editor settings](../user-guide/web-editor-settings.md#general) in Experience Manager Guides.
+
 ![](assets/authoring-quick-actions.png){width="350" align="left"}
 
-Learn more about [AI assistant in Editor settings](../user-guide/web-editor-settings.md#general) in Experience Manager Guides.
 
 ## Improved experience for creating and using DITAVAL files
 
@@ -41,7 +42,7 @@ For more details, view [Use the DITAVAL Editor](../user-guide/ditaval-editor.md)
 ![](assets/ditaval-flag-style.png){width="650" align="left"}
 
 
-## Improved log filtering for better visibility
+## Improved output generation log filtering
 
 This release introduces upgraded log filtering capabilities that offer enhanced clarity. You can now filter output generation logs by four distinct levels; **Info**, **Warn**, **Error** (including both errors and exceptions), and **Fatal**; with intuitive color-coded indicators that simplify analysis and sharpen visibility across the log stream. This improvement empowers you to navigate logs more efficiently and locate the critical issues with precision. 
 
