@@ -45,5 +45,13 @@ Learn about [upgrade instructions for the 2025.08.0 release](upgrade-instruction
 
 - The Home page goes blank when one of the files listed in the **Recent files** widget is based on a template whose source template does not include a thumbnail. (GUIDES-31506)
 
+## Known issues
+
+Adobe has identified the following known issues for the 2025.08.0 release:
+
+- When switching between the **Author**, **Source**, and **Preview** modes, the content editing area does not update to reflect the content from the selected mode. Instead, it continues to display the content from the previously selected mode. (GUIDES-32719) <br> **Workaround**: Refresh the page to update the content and resolve the issue.
+- Images with spaces in filenames fail to display in the output when flagged using conditional attributes. (GUIDES-13164)
+- In the **Content properties** panel, the Attributes field closes automatically when you try to update a reference from the **Update link** dialog, preventing the link from being updated. (GUIDES-17767)
+
 
  
