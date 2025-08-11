@@ -26,10 +26,10 @@ As the initiator of the review task, you can then decide how to proceed based on
     
     >[!NOTE]
     >
-    > You can also open the task in the task dashboard for a more comprehensive view. To do this, select **Open in task dashboard** from the Options menu of any active review task. This opens the task details in the Assets UI.
+    > You can also open the task in the task dashboard for a more comprehensive view. To do this, select **Open in task dashboard** from the Options menu of any active review task. This opens the task details in the Projects console.
 
-    ![](images/review-panel-active-review-tasks.png)
-3. Select the **Task comments** panel to access and review the task level comments added by the Reviewer.
+    ![](images/task-dashboard-selection-author-view.png)
+3. Select the **Task comments** dialog to access and review the task level comments added by the Reviewer.
 
     ![](images/task-comments-selection-author-view.png).
 
@@ -39,7 +39,7 @@ As the initiator of the review task, you can then decide how to proceed based on
 3. Select **Update task** to take further action on the selected review task.     
 4. In the **Update task** dialog, choose one of the following actions:
 
-    - **Reqest a re-review**: Initiates another round of review. You can select a different version of the topic for review. By default, the latest (or the last-edited) version of the topic or map file is selected. Reviewers who completed the previous review will receive a notification to provide feedback on the updated version. Other Reviewers, who haven't mark the review task as complete, are notified about the topic update.       
+    - **Reqest a re-review**: Initiates another round of review. You can select a different version of the topic for review. By default, the latest (or the last-edited) version of the topic or map file sent for review is selected. Reviewers who completed the previous review will receive a notification to provide feedback on the updated version. Other Reviewers, who haven't marked the review task as complete, are notified about the topic update.       
 
     - **Close review**: Closes the review task. The **Update task** button present at the bottom of the Review panel changes to **Closed** and a notification is sent to all users involved in the review task indicating its closure.
     
@@ -55,6 +55,6 @@ As an Author or initiator of a review task, when you close the task, the **Updat
 
  ![](images/review-task-status-closed-review-panel.png)
     
-Also, the **Update task** button present in the Review panel remains disabled for the other users of the review task. For example, as one of the reviewers of a review task, if you open the task in the Editor, the Update task button will be disabled with a message **You don't have permission to act on this act**. Only the initiator of a review task has permission to update the task from the Editor. 
+Also, the **Update task** button present in the Review panel remains disabled for the other users of the review task. For example, as one of the reviewers of a review task, if you open the task in the Editor, the Update task button will be disabled with a message **You don't have permission to act on this task**. Only the initiator of a review task has permission to update the task from the Editor. 
 
  ![](images/update-task-button-disabled.png)
