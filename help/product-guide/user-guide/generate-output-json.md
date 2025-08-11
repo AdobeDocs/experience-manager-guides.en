@@ -37,7 +37,7 @@ Once the preset is created, you can configure the following preset configuration
 
 For details, refer to [JSON configuration](#json-configuration).
 
-![](images/json-preset-config.png){align="left"}
+![](images/json-preset-config-new.png){align="left"}
 
 ## JSON configuration
 
