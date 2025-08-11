@@ -1092,7 +1092,7 @@ To view the review comments in the active review tasks that are present in your 
 
     ![](images/web-editor-review-panel.png){width="300" align="left"}
 1. Select a review project and then select a review task from the list to open it. 
-1. You can select the **Open project dashboard** icon to open the project in the Assets UI. 
+1. You can select the **Open project dashboard** icon to open the project in the **Projects console**. 
 
     ![](images/web-editor-project-dashboard.png){width="300" align="left"}
 
