@@ -130,7 +130,7 @@ For more details about configuring the **Adobe Granite Workflow Purge Configurat
 
 A number of the AEM Guides workflows make use of email notifications. For example, if you initiate a review task, an email notification is sent to the reviewers. However, to ensure that the email notification is sent, you have to enable this functionality in AEM. To enable email notification in AEM, see the article [Sending Email](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#sending-email) in AEM documentation.
 
-The AEM Guides contains a set of email and aem notification types that you can customize. Perform the following steps to customize these notifications:
+The AEM Guides contains a set of email and AEM notifications used in review workflow that you can customize. Perform the following steps to customize these notifications:
 
 1.  Use the Package Manager to download `/libs/fmdita/mail/review` file.
 
@@ -157,8 +157,8 @@ While customizing an email or AEM notification, ensure that you only use the fol
 
 | **Variable name**       | **Description**                                               | **Data type** | **Used in notification type(s)**                                      |
 |-------------------------|---------------------------------------------------------------|---------------|------------------------------------------------------------------------|
-| `contentPath`           | Path to the content being reviewed                            | String        | Task link generation                                                   |
-| `projectPath`           | Path to the project containing the review task                | String        | Internal linking                                                       |
+| `contentPath`           | Path to the content being reviewed                            | String        | A quick link to the task                                                   |
+| `projectPath`           | Path to the project containing the review task                | String        |      A quick link to the project location                                                  |
 | `reviewTitle`           | Title of the review task                                      | String        | Notification title, email subject                                     |
 | `projectName`           | Name of the project                                           | String        | Email body                                                             |
 | `commentator`           | Name of the user who added a comment                         | String        | Mention notifications                                                  |
