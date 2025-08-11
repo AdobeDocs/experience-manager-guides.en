@@ -168,7 +168,7 @@ When collaborating on a review task with multiple reviewers, you can enhance com
 
 ![](images/tag-users-review-ui.png){width="350" align="left"}
 
-Tagged users receive both an email and an AEM notification, ensuring they’re promptly informed. 
+Tagged users receive both an email and an AEM notification, ensuring they’re promptly informed. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md). 
 
 ![](images/mentioned-in-tags-author.png){width="350" align="left"}
 
