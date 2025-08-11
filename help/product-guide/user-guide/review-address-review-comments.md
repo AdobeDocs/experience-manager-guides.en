@@ -69,10 +69,14 @@ In the Editor, the right panel contains the Review and Track changes icons. The 
 
 As an Author and initiator of the review task, you can reply to review comments and tag other users involved in the same review task to direct their attention or assign follow-ups. This functionality is available only for active review tasks. 
 
+>[!NOTE]
+>
+> To view the list of users assigned to a review task and tag them in a comment, you must have *Read* access on `/home/users and /home/groups` nodes. For details, view [User administration and security](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> If tagging still isn't available after confirming access, your Administrator may need to assign a `user-admin` license to enable this functionality.
+
 ![](images/tag-users-review.png){width="350" align="left"}
 *Caption:Tag users as an initiator/Author*
 
-Tagged users receive both an email and an AEM notification, ensuring they’re promptly informed. 
+Tagged users receive both an email and an AEM notification, ensuring they’re promptly informed. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md).
 
 **Access review comments using the Review UI**
 

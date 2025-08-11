@@ -21,7 +21,7 @@ Some of the main features offered by Adobe Experience Manager Guides to the *ini
 -   Share an updated version of the topic for review from the Review Dashboard.
 
 -   Access comments shared on different versions of topic.
--   Easily tag users of sepcific review task in comments or replies for quick action and follow-ups. Tagged users are immediately notified through both AEM and Email notification.
+-   Easily tag users of specific review task in comments or replies for quick action and follow-ups. Tagged users are immediately notified through both AEM and Email notification.
 -   Group and filter comments based on version of topic.
 
 -   View side-by-side differences between different versions of topics shared for review.
@@ -52,10 +52,18 @@ Features available to the *reviewers*:
 
 -   **[Send topics for review](review-send-topics-for-review.md)**  
 
+-   **[Review topics](./user-guide/review-topics.md)**
+
 -   **[Reassign review task using notification](reassign-review-using-notification.md)**  
+
+-   **[Complete the review task as a Reviewer](./user-guide/review-complete-review-tasks.md)**
 
 -   **[Review topics](review-topics.md)**  
 
 -   **[Address review comments](review-address-review-comments.md)**  
 
+-   **[Close or request re-review for a review task](./user-guide/review-close-review-task.md)**
+
 -   **[Manage review tasks using the Review Dashboard](review-manage-tasks-review-dashboard.md)**
+
+-   **[View a completed review task](./user-guide/review-view-completed-task.md)**

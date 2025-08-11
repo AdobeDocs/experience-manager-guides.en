@@ -162,6 +162,10 @@ The following screenshot shows the content in *Preview* mode:
 
 When collaborating on a review task with multiple reviewers, you can enhance communication by tagging specific users in both new comments and replies. As a reviewer, you can initiate a comment or respond to an existing one while tagging other users involved in the same review task to draw their attention or assign follow-ups. This functionality is available only for active review tasks.
 
+>[!NOTE]
+>
+> To view the list of users assigned to a review task and tag them in a comment, you must have *Read* access on `/home/users and /home/groups` nodes. For details, view [User administration and security](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> If tagging still isn't available after confirming access, your Administrator may need to assign a `user-admin` license to enable this functionality.
+
 ![](images/tag-users-review-ui.png){width="350" align="left"}
 
 Tagged users receive both an email and an AEM notification, ensuring they’re promptly informed. 
