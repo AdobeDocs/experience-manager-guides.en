@@ -80,7 +80,7 @@ Tagged users receive both an email and an AEM notification, ensuring they’re p
 
 **Access review comments using the Review UI**
 
-If you are the initiator or Author of a review task and open it from the Assets UI, the topic will launch in the Review UI. Since this task is not assigned to you, you can view and reply to comments but cannot perform any review actions. The comments toolbar remains disabled for users who are not assigned to the task.
+If you are the initiator or Author of a review task and open it from the **Projects console**, the topic will launch in the Review UI. Since this task is not assigned to you, you can view and reply to comments but cannot perform any review actions. The comments toolbar remains disabled for users who are not assigned to the task.
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
