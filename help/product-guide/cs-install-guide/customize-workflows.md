@@ -106,7 +106,7 @@ You can create these script in the `/etc/workflows/scripts` node. The following 
 |`ditamap`|String|Specify the path of the ditamap of the review task|
 |`allowAllReviewers`|Boolean|false/true|
 |`notifyViaEmail`|Boolean|false/true|
-|`review_version`|String|Specifies the current version of the Review workflow. The default value is set to `3.0` .<br> To enable the new review workflow features for [Authors](../user-guide/review-close-review-task.md) and [Reviewers](../user-guide/review-complete-review-tasks.md), ensure that the `review_version` is set to `3.0`.|
+|`reviewVersion`|String|Specifies the current version of the Review workflow. The default value is set to `3.0` .<br> To enable the new review workflow features for [Authors](../user-guide/review-close-review-task.md) and [Reviewers](../user-guide/review-complete-review-tasks.md), ensure that the `review_version` is set to `3.0`.|
 
 
 Once you have created the script, call it before calling the Create Review process in your workflow. Then, depending on your requirements, you can call the other review workflow processes.
