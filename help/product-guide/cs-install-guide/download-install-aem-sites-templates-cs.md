@@ -69,13 +69,13 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
 
     **Option 1: Use the Site Dropdown**
 
-    1. Select Site as the one created above (e.g., AEMG Docs Site).
-    2. Verify that the Publish path and Topic page template are automatically set to: Publish path: /content/AEMG-Docs-Site/en/docs/product and Topic page template: Topic Page.
+    1. Select **Site** as the one created above (e.g., AEMG Docs Site).
+    2. Verify that the **Publish path** and **Topic page** template are automatically set to: Publish path: /content/AEMG-Docs-Site/en/docs/product and Topic page template: Topic Page.
 
     **Option 2: Use the Site Path**
 
-    1. Set the Site path manually as /content/AEMG-Docs-Site/en/docs/product.
-    2. Verify that the Topic page template is automatically set to Topic Page.
+    1. Set the **Site path** manually as /content/AEMG-Docs-Site/en/docs/product.
+    2. Verify that the **Topic page** template is automatically set to Topic Page.
 
 3. Save the changes made to the preset.
 
