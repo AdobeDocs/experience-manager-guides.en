@@ -68,13 +68,13 @@ For more details, view [Basic troubleshooting](../user-guide/generate-output-bas
 
 The latest publishing enhancements to Experience Manager Guides now adds a new `system_config.xml` file to the temporary files generated while publishing HTML, PDF, and JSON outputs using DITA-OT, as well as Native PDF output. This file is automatically included in the publishing job and also accessible through temporary files when you enable the **Retain temporary files** option for the presets and generate the output.
 
-The `system_config.xml` file contains key instance details, including the Author URL, Local URL, and Publish URL, which provide clearer context and improve the traceability of the downloaded URLs.
+The `system_config.xml` file contains AEM instance details, including the Author URL, Local URL, and Publish URL, which provide clearer context and improve the traceability of the downloaded URLs.
 
 For more details, view [Understand the output presets](../user-guide/generate-output-understand-presets.md).
 
 ## New output path variable support for output generation
 
-This update introduces dynamic output path configuration for output presets like Native PDF, DITA-OT PDF, JSON, HTML5, and Custom by enabling . Instead of using a fixed path, users can now define the output location using the `${base_output_path}` variable during installation, offering greater flexibility. The previous default path `/content/dam/fmdita-outputs` is no longer mandatory.
+This update introduces dynamic `output path` configuration for output presets like Native PDF, DITA-OT PDF, JSON, HTML5, and Custom. Instead of using a fixed path, users can now define the output location using the `${base_output_path}` variable during installation, offering greater flexibility. The previous default path `/content/dam/fmdita-outputs` is no longer mandatory.
 
 All the output paths associated with the global folder profile presets will be automatically migrated to utilize the new base output path variable. For custom folder profiles, however, migration is not automatic; you are advised to contact the Customer Success team for assistance.
 
