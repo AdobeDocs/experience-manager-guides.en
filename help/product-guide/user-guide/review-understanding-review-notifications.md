@@ -44,7 +44,7 @@ Additionally, if a task contains comments, a comment excerpt ( a part of the  th
 - When you are tagged in a comment, an excerpt of the tagged comment appears in the email notification.
 - When a task-level comment is added to a review task you are part of, an excerpt of that comment appears in the email notification.
 
-For a complete list of predefined variables, and review notification customization, view [Configure and customize workflows](../cs-install-guide/customize-workflows.md#customize-email-and-aem-notification-templates).
+For a complete list of predefined variables and review notification customization, view [Configure and customize workflows](../cs-install-guide/customize-workflows.md#customize-email-and-aem-notification-templates).
 
 
 
