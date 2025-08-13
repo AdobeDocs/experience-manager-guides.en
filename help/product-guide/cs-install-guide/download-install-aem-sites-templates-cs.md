@@ -8,89 +8,88 @@ exl-id: 18cb85df-adfb-4bce-8af8-796aed79cb80
 ---
 # Download and install AEM Sites templates
 
-Perform the following steps to download and install AEM Sites templates on Experience Manager Guides as Cloud Service:
+This guide provides step-by-step instructions to set up and configure the latest AEM Guides template for generating AEM Sites pages in a cloud environment. Follow these steps to install the required packages, create and configure presets, and generate AEM Sites.
 
-## Package installation{#package-installation}
+## Prerequisites
 
-To use the templates, install the components package via cloud deployment: 
-- [guides-components-all.zip](https://github.com/adobe/aemg-sites-components/releases/tag/v1.0.0)
+Before proceeding with the setup, ensure the following pre-requisites are met:
+
+- Adobe Experience Manager (AEM) Cloud: A running instance of AEM as a Cloud Service with AEM Guides 2502 or later versions.
+
+- Required Permissions: Download the following packages:
+
+    - Access to Cloud Manager to deploy packages.
+    - Access to Git Repository associated with your environment.
+    - Permissions to create and modify presets in AEM Guides.
+
+- Required Permissions: Download the following packages:
+
+    - Components package: guides-components.all-1.3.0.zip
+    - Sites template: aemg-docs-1.2.0.zip    
+
+## Package Installation via Cloud Deployment (Install Components Package (guides-components.all-1.x.x.zip))
+
+1. Navigate to **Repositories** in the left panel of Cloud Manager.
+2. Select **Access Repo Info** and copy the git clone command.
+3. Clone the repository to your local system using the provided username and password (generate password if required).
+4. In your locally cloned repository, create a new Maven bundle or add to an existing one.
+5. Ensure the structure /jcr_root/apps/fmdita/install exists in the Maven project.
+6. Place the downloaded guides-components.all-1.x.x.zip file in the install folder. 
+7. Open the filters.xml file located in the META-INF folder of the parent content directory.
+8. Add the following filter: <filter root="/apps/fmdita" mode="merge"/>
+9. Update the pom.xml file as per your environment requirements. 
+10. Push the changes to the main Git repository.
+11. Navigate to **Pipelines** in Cloud Manager and run the pipeline for the desired environment.
+12. Once the deployment is complete, the components package will be installed on the AEM Cloud environment.
 
 
-    
-Perform the following steps to create an AEM Sites using the template: 
+## Create Site using installed templates
 
+1. Go to the AEM Sites page (<servername>/sites.html/content).
+2. Select **Create** > **Site** from Template.
+3. Import the sites template aemg-docs-1.x.x.zip using the **Import** option.
+4. Select **AEMG Docs 1.x.x** and then select **Next**.
+5. Enter the **Site Title** and **Site Name**.
+6. Select **Create**.
 
-1. Create AEM Sites using the template: 
-1. Within the Sites UI, click the **Create** button on the top-right corner.
-1. Select **Site from template** from the **Create** dropdown.
+## Create AEM Site Preset
 
-1. Import sites templates: [aemg-docs-1.0.0.zip](https://github.com/adobe/aemg-sites-template/releases/tag/v1.0.0) using **Import** option.
-1. Select `AEMG Docs 1.0.0` and then click **Next**.
-1. Enter `Site title` and `Site name`.
-1. Click **Create**. The package is installed and an AEM Sites template is created. 
-    
-Learn more about [Adding a Site Template to AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/site-templates#adding).
+1. Open a DITA map in AEM Guides and navigate to the **Output** panel.
+2. Select **Create Preset**.
+3. Select the type as **AEM Sites**.
+4. Enter a name for the preset.
+5. Uncheck the **Use legacy component mapping** setting.
+6. Select **Add** to create the preset.
+7. Configure AEM Site Preset: There are two options to configure the out-of-the-box (OOTB) site:
 
+    **Option 1**
+
+    1. Select Site as the one created above (e.g., AEMG Docs Site).
+    2. Verify that the Publish path and Topic page template are automatically set to: Publish path: /content/AEMG-Docs-Site/en/docs/product and Topic page template: Topic Page.
+
+    **Option 2**
+
+    1. Set the Site path manually as /content/AEMG-Docs-Site/en/docs/product.
+    2. Verify that the Topic page template is automatically set to Topic Page.
+
+8. Save the changes made to the preset.
+
+## Generate AEM Sites
+
+1. With the preset configured, generate the AEM Site for the corresponding DITA map.
+2. The generated site will be available at the path: /content/AEMG-Docs-Site/en/docs/product.
+3. As an optional step, if you want to change the default path for site generation:
+    - Navigate to **AEM Sites**.
+    - Create a new product page under the OOTB site structure.
+    - Navigate to **AEMG Docs** > **English** > **Docs**. 
+    - Select the **Home** page and then select **Next**.
+    - Enter the **Title** and **Name** for the page.
+    - Select **Create**.
 
 >[!NOTE]
 >
->Once you have created the home page, you can use this path as the **Publish Path** for generating the output of your AEM Sites presets. For example, `aemg-docs-en/docs/product-abc`.
-
-
-## Configure the templates to use with the AEM Sites presets
-
-Once the package is installed, a site named **AEMG** is created in the Sites UI. This sample site shows how you can set up the site structure for generating AEM Sites output. This is just a sample. You can create custom sites per your requirements.
-
-![AEMG Sites sample pages](assets/aemg-sites-sample-pages.png)
-
-
- **AEMG** contains the following components. 
-- A folder for English(en) language is present in the **AEMG** folder. You can create similar language copies as per your requirements. For example, a multilingual website includes English (en), German (de), and French(fr) language copies.  Learn more about how to create a language copy using the [Language Copy Wizard](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
-- Within the English(en) language folder, Experience Manager Guides provides many out-of-the-box sample pages like **Search**, **Sign in**, **Docs**, and **Support**. 
-
-- **Docs** is the sample Documentation Home Page. It serves as a central location for all product-related documentation
- and displays each product for which documentation is available as individual tiles.
-
-- Along with the Documentation Home Page, there are sample pages for **Search**, **Sign in**, and **Support**. You can customize these samples as per your requirements.  
-- You can have home pages for individual products such as Product1. A sample page **Product1** is present under **Docs**, which is the Documentation Home Page. 
- 
-- Experience Manager Guides also provides the following predefined templates: 
-
-    - **Content Page** template: Use this template to create the standard pages that contain most of the product site's content. They can include text, images, videos, and other content elements. This template contains only the header and the footer. Customize and use it to create any page as per your requirements. For example, you can create the support page or the sign-in page for your product.
-    - **Home Page** template: The main landing page of a website, which includes an overview, key sections like the key elements and features, and navigation links. For example, the main page of a product ABC connects to the other content or feature pages.
-    - **Topic Page** template: The pages used for organizing and presenting topic-based content. For example, a user guide contains different topic pages, each of which contains a specific topic related to features and troubleshooting.
-   
-   ![Sites template](assets/sites-ui-templates.png)
-   
-Use these samples and templates to generate your AEM Sites outputs:
-- A product home page corresponds to a map home page and is created using the Home Page template. Select this path in the AEM Sites preset to publish the map’s contents under it. The product home page can include other home pages. 
-- For example, you have a product like Experience Manager Guides and need three manuals for users, administrators, and developers.  Create a home page for each manual using the Home Page template and then select the corresponding home page in the AEM Sites output preset.
-
-Learn more about how the create and configure [AEM Sites presets in the Web Editor](../user-guide/generate-output-aem-site-web-editor.md).
-
-## Create a home page using the template{#create-a-home-page-using-the-template}
-
-Perform the following steps to create the home page for your product:  
-1. Once the package is installed, select **Sites** from the Global Navigation.
-1. Select the "AEMG Docs" template installed in the Sites UI.
-1. Within the Sites UI, click the **Create** button on the top-right corner.
-1. Select **Page** from the **Create** dropdown.
-1. Select **Home Page** and then click **Next**. 
-1. Enter the Site title and the Site name and click **Create** on the top-right corner. An AEM site template is created using the **Home Page** site template. For example, you can create a home page for your product `Product ABC`.
-
-
->[!NOTE]
->
->Once you have created the home page, you can use this path as the **Publish Path** for generating the output of your AEM Sites presets. For example, `aemg-docs-en/docs/product-abc`.
-
-## Edit topic templates for AEM Sites
-
-You can also customize the topic templates for your AEM Sites. You can edit the content or configure the properties of the different AEM components in your topic. For example, you can add or remove components as per your requirements.  
-Perform the following steps to edit the topic templates:
-1. Select the template that you wish to edit. 
-1. Select the **Edit** icon on the top.
-
-The AEM Template Editor opens. You can edit your topic template. Learn more about [Creating Page Templates](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
+> * Ensure all configurations are tested in a non-production environment before deploying to production.
+> * Refer to the official Deploying to AEM as a Cloud Service documentation for additional details.
 
 
 ## Customize existing AEM Sites templates {#customize-existing-aem-sites-templates}
