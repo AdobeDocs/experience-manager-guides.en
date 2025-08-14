@@ -15,7 +15,7 @@ As a Reviewer, you can mark a review task as complete once you have reviewed all
 Peform the following steps to complete a review task:
 
 1. Open the review task assigned to you.
-2. Navigate to the **Comments** panel and select **Mark as done** from the top. 
+2. Select **Mark as done** from the top as shown below: 
 
     ![](images/review-task-mark-as-done.png){width="350" align="left"}
 
