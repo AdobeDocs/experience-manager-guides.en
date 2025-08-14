@@ -167,7 +167,6 @@ While customizing an email or AEM notification, ensure that you only use the fol
 
 | **Variable name**       | **Description**                                               | **Data type** |
 |-------------------------|---------------------------------------------------------------|---------------|
-| `contentPath`           | Path to the content being reviewed                            | String        |
 | `projectPath`           | Path to the project containing the review task                | String        |
 | `reviewTitle`           | Title of the review task                                      | String        |
 | `projectName`           | Name of the project                                           | String        | 
@@ -179,7 +178,7 @@ While customizing an email or AEM notification, ensure that you only use the fol
 | `reviewerName`          | Name of the reviewer assigned to the task                    | String        | 
 | `user`                  | User involved in the review task, such as Author, Reviewer, or even Administrator. | String        | 
 | `recipient`             | Specific user receiving the notification                     | String        | 
-| `tag-mention`           | Indicates that a user was mentioned in a comment             | String        |                                                         |
+                                                       |
 
 ## Customize post-output generation workflow {#id17A6GI004Y4}
 
