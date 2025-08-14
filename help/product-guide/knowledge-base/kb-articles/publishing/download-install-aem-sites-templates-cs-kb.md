@@ -16,7 +16,7 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
 
 - **Adobe Experience Manager (AEM) Cloud**: A running instance of **AEM as a Cloud Service** with **AEM Guides 2502 or later versions**.
 
-- **Required Permissions**: Download the following packages:
+- **Required Permissions**: You must have the following permissions:
 
     - Access to **Cloud Manager** to deploy packages.
     - Access to **Git Repository** associated with your environment.
@@ -24,12 +24,14 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
 
 - **Download Packages**: Download the following packages from Software Distribution Portal:
 
-    - Components package: guides-components.all-1.3.0.zip
-    - Sites template: aemg-docs-1.2.0.zip    
+    - Components package: guides-components.all-1.x.0.zip
+    - Sites template: aemg-docs-1.x.0.zip    
 
-## Package installation via Cloud Deployment (Install Components Package (guides-components.all-1.x.x.zip))
+## Package installation via Cloud deployment
+
+Install the **Components Package (guides-components.all-1.x.x.zip)** and perform the following steps
   
-1. **Clone Git Repository:**  
+1. **Clone Git repository:**  
     1. Navigate to **Repositories** in the left panel of Cloud Manager.
     2. Select **Access Repo Info** and copy the git clone command.
 
@@ -48,7 +50,7 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
 3. **Update filters.xml:**  
 
     1. Open the filters.xml file located in the META-INF folder of the parent content directory.
-    2. Add the following filter: <filter root="/apps/fmdita" mode="merge"/>
+    2. Add the following filter: filter root="/apps/fmdita" mode="merge"/
 
 
         ![Add filter](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
@@ -63,7 +65,7 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
 ## Create Site using installed templates
 
 1. **Import Sites Template:**
-    1. Go to the AEM Sites page (<servername>/sites.html/content).
+    1. Go to the AEM Sites page (servername/sites.html/content).
     2. Select **Create** > **Site** from Template.
     3. Import the sites template aemg-docs-1.x.x.zip using the **Import** option.
 2. **Select Template:** Select **AEMG Docs 1.x.x** and then select **Next**.
@@ -90,32 +92,34 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
     **Option 1: Use the Site Dropdown**
 
     1. Select **Site** as the one created above (e.g., AEMG Docs Site).
-    2. Verify that the **Publish path** and **Topic page** template are automatically set to: Publish path: /content/AEMG-Docs-Site/en/docs/product and Topic page template: Topic Page.
+    2. Verify that the **Publish path** and **Topic page** template are automatically set to: 
+        - Publish path: /content/AEMG-Docs-Site/en/docs/product
+        - Topic page template: Topic Page
 
-        ![Use the site dropdown to configure the AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="650" align="left"}
+        ![Use the site dropdown to configure the AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
 
     **Option 2: Use the Site Path**
 
     1. Set the **Site path** manually as /content/AEMG-Docs-Site/en/docs/product.
     2. Verify that the **Topic page** template is automatically set to Topic Page.
 
-        ![Use the site path to configure the AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+        ![Use the site path to configure the AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="350" align="left"}
 
-3. Save the changes made to the preset.
+3. **Save the preset:** Save the changes made to the preset.
 
 ## Generate AEM Sites
 
 1. **Generate Site:**
     1. With the preset configured, generate the AEM Site for the corresponding DITA map.
     2. The generated site will be available at the path: /content/AEMG-Docs-Site/en/docs/product.
-2. **Change the Default Generation Path (Optional):** As an optional step, if you want to change the default path for site generation:
+2. **Change the Default Generation Path (Optional):** If you want to change the default path for site generation, perform the following steps:
     1. Navigate to **AEM Sites**.
     2. Create a new product page under the OOTB site structure.
     3. Navigate to **AEMG Docs** > **English** > **Docs**.
 
         ![Create page](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650" align="left"}      
 
-    4. Select the **Home** page and then select **Next**.
+    4. Select the **Home page** tile and then select **Next**.
 
         ![Select Home tile](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
 

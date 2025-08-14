@@ -16,7 +16,7 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
 
 - **Adobe Experience Manager (AEM):** A running instance of **AEM 6.5** with **Service Pack** 21, 20, and 19 and **AEM Guides 4.6.0**, or later versions installed.
 
-- **Required Permissions**: Download the following packages:
+- **Required Permissions**: Ensure to have the following permissions:
 
     - Access to  **Software Distribution Portal** to download the required packages
     - Access to **CRX Package Manager** to install packages in AEM.
@@ -54,9 +54,11 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
     **Option 1: Use the Site Dropdown**
 
     1. Select **Site** as **AEMG Docs**.
-    2. Verify that the **Publish path** and **Topic page template** are automatically set to: Publish path: aemg-docs/en/docs/product1 and Topic page template: Topic Page.
+    2. Verify that the **Publish path** and **Topic page template** are automatically set to:    
+        - Publish path: aemg-docs/en/docs/product1 
+        - Topic page template: Topic Page.
 
-        [Use Site Dropdown](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
+        ![Use Site Dropdown](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
 
     **Option 2: Use the Site Path**
 
@@ -65,31 +67,25 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
 
         ![Use Site Path](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
 
-3. Save the changes made to the preset.
+3. **Save the preset:** Save the changes made to the preset.
 
 ## Generate AEM Sites
 
 1. **Generate Site:**
     1. With the preset configured, you can now generate the AEM Site for the corresponding DITA map.
     2. The generated site will be available at the path: /content/aemg-docs/en/docs/product1.
-2. **Change the Default Generation Path (Optional):**
-As an optional step, if you want to change the default path for site generation:
+2. **Change the Default Generation Path (Optional):** If you want to change the default path for site generation, perform the following steps:
+
     1. Navigate to **AEM Sites**.
     2. Create a new product page under the OOTB site structure.
-    3. Navigate to **AEMG Docs** > **English** > **Docs**. 
-    4. Select the **Home** page and then select **Next**.
+    3. Navigate to **AEMG Docs** > **English** > **Docs**.
+
+        ![Create page in AEM Site structure ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+
+    4. Select the **Home page** tile and then select **Next**.
+
+        ![Select home page tile](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
+
     5. Enter the **Title** and **Name** for the page.
     6. Select **Create**.
-
-## Change the Default Path to generate site pages
-
-1. The default path for site generation can be customized as needed by creating new pages in the AEM Sites structure.
-
-    ![Create page in AEM Site structure ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
-
-2. Select  Home page and then select **Next**.
-
-    ![Select home page tile](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
-
-3. Enter the **Title** and **Name** for the page and select **Create**.
 
