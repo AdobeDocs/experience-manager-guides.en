@@ -1,6 +1,6 @@
 ---
-title: Download and install AEM Sites templates
-description: Learn how to Download and install AEM Sites templates
+title: Download and install AEM Sites templates for on-Prem Services
+description: Learn how to Download and install AEM Sites templates for on Prem Services
 feature: Installation
 role: Admin
 level: Experienced
@@ -30,10 +30,10 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
 ## Package installation using CRX Package Manager
   
 1. **Install the Components Package:**  
-    1. Navigate to **CRX Package Manager** (http://<your-aem-instance>/crx/packmgr).
+    1. Navigate to [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr).
     2. Upload and install the on-prem-guides-components.all-1.x.0.zip package.
     
-2. **Install the Sites Package:** o    Upload and install the aemg-docs.all-1.x.0.zip package using the CRX Package Manager.
+2. **Install the Sites Package:** Upload and install the aemg-docs.all-1.x.0.zip package using the CRX Package Manager.
    
 
 ## Create and configure AEM Site Preset
@@ -45,6 +45,10 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
     4. Enter a name for the preset.
     5. Uncheck the **Use legacy component mapping** setting.
     6. Select **Add** to create the preset.
+
+        ![New output preset dialog](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+
+    
 2. **Configure AEM Site Preset:** There are two options to configure the out-of-the-box (OOTB) site:
 
     **Option 1: Use the Site Dropdown**
@@ -52,10 +56,14 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
     1. Select **Site** as **AEMG Docs**.
     2. Verify that the **Publish path** and **Topic page template** are automatically set to: Publish path: aemg-docs/en/docs/product1 and Topic page template: Topic Page.
 
+        [Use Site Dropdown](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
+
     **Option 2: Use the Site Path**
 
     1. Set the **Site path** manually as /content/aemg-docs/en/docs/product1.
     2. Verify that the **Topic page template** is automatically set to Topic Page.
+
+        ![Use Site Path](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
 
 3. Save the changes made to the preset.
 
@@ -76,6 +84,12 @@ As an optional step, if you want to change the default path for site generation:
 ## Change the Default Path to generate site pages
 
 1. The default path for site generation can be customized as needed by creating new pages in the AEM Sites structure.
+
+    ![Create page in AEM Site structure ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+
 2. Select  Home page and then select **Next**.
+
+    ![Select home page tile](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
+
 3. Enter the **Title** and **Name** for the page and select **Create**.
 

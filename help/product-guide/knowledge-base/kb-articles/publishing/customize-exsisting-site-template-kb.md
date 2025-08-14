@@ -1,6 +1,6 @@
 ---
-title: Download and install AEM Sites templates
-description: Learn how to Download and install AEM Sites templates
+title: Customize existing AEM Site templates for AEM Guides
+description: Learn how to customize existing AEM Site templates for AEM Guides
 feature: Installation
 role: Admin
 level: Experienced
@@ -48,7 +48,13 @@ The Documentation Container Page template is used to create the Product Document
 
 - It serves as the entry point or homepage for a specific set of documentation (e.g., a product manual or guide).
 - Add id="category-page" property to the jcr:content of the template, This ensures all pages created from this template are automatically treated as documentation containers by AEM Guides.
+
+    ![Adding id="category-page"](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
+
 - Add a Text component with the mandatory property: text="$category.html$".
+
+    ![Adding text component](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+
 - Typically includes navigation elements, such as links to sections or topics within the documentation.
 - It can be customized to include branding, headers, footers, and other design elements.
 
@@ -59,8 +65,10 @@ If you have a DITA map for a product manual, the documentation container page te
 
 - The Topic Page template is used to create pages for individual DITA topics.
 - Each topic in a DITA map is rendered as a separate page using this template.
-- Contains a Text component with the mandatory property:
-text="$topic.content$".
+- Contains a Text component with the mandatory property: text="$topic.content$".
+
+    ![Adding text component with mandatory property](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
+
 - This placeholder is replaced with the actual content of the DITA topic during site generation.
     - The text component is typically placed inside a Container Component to ensure proper layout and styling.
     - Can be customized to include consistent headers, footers, and navigation elements across all topic pages.
@@ -70,17 +78,31 @@ If you have a DITA topic about "Installation Instructions," the topic page templ
 
 **Container component:**
 
+![Adding container component](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+
 >[!NOTE]
 >
 > Ensure that components using sling:resourceType under wcm/foundation/components are migrated to the corresponding core/wcm/components.
 
 Add the same (container and text component) in the structure of the same template:
 
+![Adding container and text component](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+
 ## Render Guides Components in customized templates
 
 To enable core AEM Guides components features such as Table of Contents, page redirection, navigation, and metadata display, you need to include specific AEM Guides components in your custom templates. These components must be explicitly added to the corresponding editable templates (Documentation Container Page or Topic Page) to ensure the intended functionality is available during site generation and runtime.
 
 Refer to the table below for the list of components and their usage:
+
+|Feature|Component name|Description|Recommended Template|
+|---|---|---|---|
+|Table of Contents|guidessidenavigation|Renders full TOC from the DITA map|Documentation Container|
+|Page Redirect|childredirect|Redirects to the first topic page in the map|Documentation Container|
+|Mini TOC|minitoc|Displays TOC for the current topic|Topic Page|
+|Last Updated|pageproperty|Displays last modified date|Topic Page|
+|Pager|pager|Allows navigation between previous and next topic pages|Topic Page|
+|Language Navigation|languagenavigation|Enables switching between different language versions|Either template|
+
 
 ## Component use cases
 
@@ -98,6 +120,8 @@ By default, the client libraries (clientlibs) provided in the AEM Guides compone
     1. Open the **Product Page** in **Editor Mode**.
     2. Click **Edit Template** (this will open a URL like editor.html/conf/<site-name>/settings/wcm/templates/<template-name>/structure.html).
 
+        ![Edit template](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"}
+
 2. **Update Page Policy:**
 
     1. Go to the Page Information button and select Page Policy.
@@ -105,10 +129,12 @@ By default, the client libraries (clientlibs) provided in the AEM Guides compone
         - Client Libraries
         - Client Libraries JavaScript Page Head
 
-3. Save the template after adding the required client libraries.        
+3. Save the template after adding the required client libraries.
+
+    ![Add client libraries](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
 
 
 >[!NOTE]
 >
 > * Ensure that the templates are tested in a non-production environment before deploying to production.
-> * Refer to the official AEM Guides and AEM Sites documentation for additional details.
+> * Refer to the official [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) and [AEM Sites documentation](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring) for additional details.
