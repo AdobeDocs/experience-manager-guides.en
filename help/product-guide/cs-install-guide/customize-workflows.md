@@ -132,7 +132,7 @@ A number of the AEM Guides workflows make use of email notifications. For exampl
 
 The AEM Guides contains a set of email and AEM notifications used in review workflow that you can customize. Perform the following steps to customize these notifications:
 
-1.  Use the Package Manager to download `/libs/fmdita/mail/review` file.
+1.  Use the Package Manager to download `/libs/fmdita/mail/review` folder.
 
     >[!NOTE]
     >
@@ -152,30 +152,34 @@ The AEM Guides contains a set of email and AEM notifications used in review work
     |`CSS`|Contains the `email-notification.css` file for customizing the styling of email notifications.|
     |`email-notification`|Contains different email notification types available for customization. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Within these sub-folders, `primary.vm` and `secondary.vm` files are located that allow you to customize the email notification subject and body, respectively.|
 
-While customizing an email or AEM notification, ensure that you only use the following predefined set of variables. 
+The definition of each notification type is outlined below:
+
+- `closed`: Triggers when a review task is closed. 
+- `content-updated`: Triggers when an Author or initiator updates the content. 
+- `feedback-addressed`: Triggers when Author or initiator addresses the comments and requests a re-review from the Reviewer.
+- `feedback-provided` Triggers when Reviewer marks the task as complete by providing task-level comments to the Author or initiator of the review task. 
+- `requested`: Triggers when an Author or initiator creates a review task.  
+- `reviewer-removed`: Triggers when a Reviewer is unassigned from the review task.  
+- `tag-mention`: Triggers when a user is mentioned or tagged in review comments. 
+
+While customizing an email or AEM notification, ensure that you only use the following predefined set of variables that are used in `primary.vm` and `secondary.vm` files. 
 
 
-| **Variable name**       | **Description**                                               | **Data type** | **Used in notification type(s)**                                      |
-|-------------------------|---------------------------------------------------------------|---------------|------------------------------------------------------------------------|
-| `contentPath`           | Path to the content being reviewed                            | String        | A quick link to the task                                                   |
-| `projectPath`           | Path to the project containing the review task                | String        |      A quick link to the project location                                                  |
-| `reviewTitle`           | Title of the review task                                      | String        | Notification title, email subject                                     |
-| `projectName`           | Name of the project                                           | String        | Email body                                                             |
-| `commentator`           | Name of the user who added a comment                         | String        | Mention notifications                                                  |
-| `commentExcerpt`        | Snippet of the comment added                                 | String        | Email body, notification text                                         |
-| `taskLink`              | Direct link to the review task                               | URL           | Email body, notification text                                         |
-| `authorName`            | Name of the author who created or updated the review task    | String        | Email body, notification text                                         |
-| `dueDate`               | Due date of the review task                                  | Date          | Email body                                                             |
-| `reviewerName`          | Name of the reviewer assigned to the task                    | String        | Email body, notification text                                         |
-| `user`                  | Generic placeholder for the user receiving the notification  | String        | Generic templates                                                      |
-| `recipient`             | Specific user receiving the notification                     | String        | Email header                                                           |
-| `closed`                | Indicates that the review task has been closed               | String        | Review closed                                                          |
-| `reviewer-removed`      | Indicates that a reviewer has been removed from the task     | String        | Reviewer removed                                                       |
-| `requested`             | Indicates that a re-review has been requested                | String        | Re-review requested                                                    |
-| `feedback-provided`     | Indicates that feedback has been submitted by a reviewer     | String        | Feedback submitted                                                     |
-| `feedback-addressed`    | Indicates that feedback has been addressed by the author     | String        | Re-review requested                                                    |
-| `content-updated`       | Indicates that content was updated during the review process | String        | Content updated by author while reviewers are reviewing               |
-| `tag-mention`           | Indicates that a user was mentioned in a comment             | String        | Tag mention                                                            |
+| **Variable name**       | **Description**                                               | **Data type** |
+|-------------------------|---------------------------------------------------------------|---------------|
+| `contentPath`           | Path to the content being reviewed                            | String        |
+| `projectPath`           | Path to the project containing the review task                | String        |
+| `reviewTitle`           | Title of the review task                                      | String        |
+| `projectName`           | Name of the project                                           | String        | 
+| `commentator`           | Name of the user who added a comment                         | String        | 
+| `commentExcerpt`        | Snippet of the comment added                                 | String        | 
+| `taskLink`              | Direct link to the review task                               | URL           | 
+| `authorName`            | Name of the author who created or updated the review task    | String        | 
+| `dueDate`               | Due date of the review task                                  | Date          | 
+| `reviewerName`          | Name of the reviewer assigned to the task                    | String        | 
+| `user`                  | User involved in the review task, such as Author, Reviewer, or even Administrator. | String        | 
+| `recipient`             | Specific user receiving the notification                     | String        | 
+| `tag-mention`           | Indicates that a user was mentioned in a comment             | String        |                                                         |
 
 ## Customize post-output generation workflow {#id17A6GI004Y4}
 
