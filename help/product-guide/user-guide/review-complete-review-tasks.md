@@ -12,7 +12,7 @@ role: User
 
 As a Reviewer, you can mark a review task as complete once you have reviewed all the content and want to notify the Author. You can also leave any final comments at this stage.
 
-Peform the following steps to complete a review task:
+Perform the following steps to complete a review task:
 
 1. Open the review task assigned to you.
 2. Select **Mark as done** from the top as shown below: 
