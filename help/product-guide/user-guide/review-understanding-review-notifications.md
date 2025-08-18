@@ -16,7 +16,7 @@ Whenever a review-related action is performed, such as task assignment, completi
 The below table provides an overview of the different types of review notifications, what actions trigger them, and how they appear across different formats:
 
 
-### Review notification formats with sample values
+## Review notification formats with sample values
 
 | **Review action**           | **Notification title (AEM)**                     | **Notification text (AEM)**                                | **Email subject**                                      | **Email notification text**                                                                 | **Recipient**               |
 |-----------------------------|--------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------|------------------------------------------------------------------------------------------------|-----------------------------|

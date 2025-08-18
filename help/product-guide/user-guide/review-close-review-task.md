@@ -36,8 +36,8 @@ As the initiator of the review task, you can then decide how to proceed based on
     The **Task comments** dialog is displayed on the right. 
 
     ![](images/task-comments-dialog-editor.png).
-3. Select **Update task** to take further action on the selected review task.     
-4. In the **Update task** dialog, choose one of the following actions:
+4. Select **Update task** to take further action on the selected review task.     
+5. In the **Update task** dialog, choose one of the following actions:
 
     - **Reqest a re-review**: Initiates another round of review. You can select a different version of the topic for review. By default, the latest (or the last-edited) version of the topic or map file sent for review is selected. Reviewers who completed the previous review will receive a notification to provide feedback on the updated version. Other Reviewers, who haven't marked the review task as complete, are notified about the topic update.       
 
@@ -46,9 +46,8 @@ As the initiator of the review task, you can then decide how to proceed based on
     For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md).
 
     ![](images/update-task-dialog.png).
-     
         
-5. Select **Confirm**.
+6. Select **Confirm**.
 
 
 As an Author or initiator of a review task, when you close the task, the **Update task** button present at the bottom of the Review panel is changed to **Closed**, indicating the task is no longer active. 

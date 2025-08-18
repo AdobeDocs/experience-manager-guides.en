@@ -217,8 +217,7 @@ Allows you to keep the `@navtitle` attribute and the `title` element of a refere
 
 >[!NOTE]
 >
-> Your administrator can choose to show or hide this button in the Map Editor toolbar using a configuration property.
-They can also enable automatic addition of the `@navtitle` attribute when files are added to a map. For more details, view [Include @navtitle attribute by default](../cs-install-guide/auto-add-navtitle.md)* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+> Your administrator can choose to show or hide this button in the Map Editor toolbar using a configuration property. They can also enable automatic addition of the `@navtitle` attribute when files are added to a map. For more details, view [Include @navtitle attribute by default](../cs-install-guide/auto-add-navtitle.md)* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 **Tags** 
 
