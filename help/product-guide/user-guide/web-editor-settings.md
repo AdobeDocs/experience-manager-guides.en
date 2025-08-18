@@ -27,11 +27,34 @@ The **Settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the
 
 ## General
 
- The General settings allow you to configure the dictionary to use with the Editor. This tab contains four sections: **Spell check**, **Condition**, **Authoring**, and **Citations** .
+ The General settings allow you to configure the settings to use the Editor. This tab contains five sections: **AI Assistant**, **Authoring**, **Citations**, **Condition**, and **Spell check**.
 
-![](images/editor-setting-general.png){width="650" align="left"}
+![](images/editor-setting-general-new.png){width="350" align="left"}
 
-- **Spell check**: There are two options — **AEM spell check** and **Browser spell check**. By default, the editor uses the Browser spell check feature, wherein the spell-check is performed using the browser's in-built dictionary. You can switch to AEM spell check to use Adobe Experience Manager's dictionary, which can also be customized to add your custom word list. For more information about customizing AEM dictionary, view [Customize AEM's default dictionary](../cs-install-guide/customize-aem-custom-dictionary.md) section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.        
+- **AI Assistant**
+    Select this to enable the [AI Assistant](./ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
+
+    After enabling the **AI Assistant** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below.  
+    These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the editor settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Editor settings** and save the updated configuration.  
+    For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](./ai-assistant-right-panel.md).
+
+    From the **Authoring quick actions** menu, you can: 
+
+    - use the toggles to enable or disable specific options that authors can access when working with AI Assistant.
+
+    - change the order in which the options appear, drag and drop them as needed.  
+
+    ![](images/authoring-quick-actions.png){width="350" align="left"} 
+
+    
+
+- **Authoring**
+
+    - **Enable Replace All**: Select this to view the **Replace All** icon in the **Find and replace** panel.
+
+- **Citations**
+    
+    Change the style of citations. Choose the citation style from the drop-down you want to use in your project. For more details, view [Change citation styles](./web-editor-apply-citations.md#change-citation-style).        
 
 -  **Condition**
 
@@ -45,18 +68,10 @@ The **Settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the
 
     -  **Show subject scheme in the Conditions panel**: Select this to view a subject scheme in the conditions panel. If you deselect this, the defined conditions are shown in the conditions panel.
 
--  **Authoring**
+- **Spell check**
+    There are two options — **AEM spell check** and **Browser spell check**. By default, the editor uses the Browser spell check feature, wherein the spell-check is performed using the browser's in-built dictionary. You can switch to AEM spell check to use Adobe Experience Manager's dictionary, which can also be customized to add your custom word list. For more information about customizing AEM dictionary, view [Customize AEM's default dictionary](../cs-install-guide/customize-aem-custom-dictionary.md) section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.    
 
-    - **Enable Replace All**: Select this to view the **Replace All** icon in the **Find and replace** panel.        
-
--  **Citations**
-    
-    Change the style of citations. Choose the citation style from the drop-down you want to use in your project. For more details, view [Change citation styles](./web-editor-apply-citations.md#change-citation-style).
-
--  **AI Assistant**
-       Select this to enable the [AI Assistant](./ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature. 
-
-
+ 
 ## Panels
 
 This setting controls the panels that are shown in the left and right panels of the Editor and Map console. You can toggle the button to show or hide the desired panel. 

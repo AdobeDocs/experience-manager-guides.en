@@ -14,6 +14,10 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2025 Releases {#2025-releases}
+        - 2025.08.0 Release {#2508-release} 
+          - [What's new](./release-info/whats-new-2025-08-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2025-08-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2025-08-0.md)
         - 2025.07.0 Release {#2507-release} 
           - [What's new](./release-info/whats-new-2025-07-0.md)
           - [Fixed issues](./release-info/fixed-issues-2025-07-0.md)
@@ -187,10 +191,12 @@ breadcrumb-title: AEM Guides Documentation
   - Review content {#review}
     - [Introduction to review](./user-guide/review.md)
     - [Create a DITA project](./user-guide/authoring-create-dita-project.md)
-    - [Send topics for review](./user-guide/review-send-topics-for-review.md)
-    - [Reassign review task using notification](./user-guide/reassign-review-using-notification.md)
+    - [Send topics for review](./user-guide/review-send-topics-for-review.md)    
     - [Review topics](./user-guide/review-topics.md)
+    - [Reassign review task using notification](./user-guide/reassign-review-using-notification.md)
+    - [Complete the review task as a Reviewer](./user-guide/review-complete-review-tasks.md)
     - [Address review comments](./user-guide/review-address-review-comments.md)
+    - [Close or request re-review for a review task](./user-guide/review-close-review-task.md)
     - [Manage review tasks using the Review Dashboard](./user-guide/review-manage-tasks-review-dashboard.md)
     - [View a completed review task](./user-guide/review-view-completed-task.md)
   - Collaborate using Adobe Workfront {#workfront-integration}

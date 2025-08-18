@@ -213,13 +213,12 @@ Displays the **Reuse content** dialog box. Use this dialog to insert the content
 
 **Refresh navigation title attribute** - ![](images/refresh.svg)
 
-Synchronizes the `title` element of a referenced file in a map with the value specified in its `@navtitle` attribute. You can add different types of reference files in a map, for example topic, reference, task, \(sub\) maps, and so on. Most of these files support the `@navtitle` attribute. If a file contains the `@navtitle` attribute, then the `@navtitle` attribute for the same file in map is updated. In case the `@navtitle` attribute is not present, then the `@navtitle` attribute is added to that reference file and its `title` is also updated to display the `@navtitle`.
+Allows you to keep the `@navtitle` attribute and the `title` element of a referenced file in sync. You can add different types of files to a map, such as topics, tasks, references, or submaps. Most of these support the `@navtitle` attribute, which controls how the file name appears in the map or table of contents. If a file contains the `@navtitle` attribute, then the `@navtitle` attribute for the same file in map is updated. In case the `@navtitle` attribute is not present, then the `@navtitle` attribute is added to that reference file and its `title` is also updated to display the `@navtitle`.
 
 >[!NOTE]
 >
-> Your administrator can configure auto-adding `@navtitle` attribute to every reference file that you add to a map. For more details about configuring auto-adding `@navtitle` attribute, view *Include @navtitle attribute by default* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
-
-Select the Refresh Navigation Title Attribute icon to synchronize the `title` element's and `@navtitle` attribute's values.
+> Your administrator can choose to show or hide this button in the Map Editor toolbar using a configuration property.
+They can also enable automatic addition of the `@navtitle` attribute when files are added to a map. For more details, view [Include @navtitle attribute by default](../cs-install-guide/auto-add-navtitle.md)* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 **Tags** 
 

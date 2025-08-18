@@ -153,22 +153,22 @@ The User preferences are available to all authors. Using the preferences, you ca
 
 - **General**: The General tab allows you to configure the following settings:
 
-  ![](images/user_preference_editor.PNG){align="left"}
+  ![](images/user_preference_editor-new.png){align="left"}
 
   - **Folder profile**: The Folder profile controls various configurations related to conditional attributes, authoring templates, output presets and the Editor configurations. The Global profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder profiles list.     
   - **Base path**: By default, when you access the Experience Manager Guides repository from the Editor, you are shown assets from the /content/dam location. Your working folder would most likely be a few folders inside the /content/dam/ folder. You can set the Base path to your working folder and the Repository view then shows you the content from that location upfront. This reduces the time to access your working folder. Also, when you insert any reference or media file in your topic, the file browse location starts with the folder set in the Base path.
-    - **Select Root Map**: Select a DITA map file to resolve key references or glossary entries. The selected root map takes the highest precedence to resolve key references. For more details, view [Resolve key references](./map-editor-other-features.md). 
-    - **Maximum number of recent files**: Use this field, to set a maximum limit on the files that are displayed in the Recent files widget.
-    - **Set default map opening behavior**: Here, you can select a default behavior the system will follow while opening a DITA map file. 
+  - **Select Root Map**: Select a DITA map file to resolve key references or glossary entries. The selected root map takes the highest precedence to resolve key references. For more details, view [Resolve key references](./map-editor-other-features.md). 
+  - **Maximum number of recent files**: Use this field, to set a maximum limit on the files that are displayed in the Recent files widget.
+  - **Opening preferences for Maps**: Here, you can select a default behavior the system will follow while opening a DITA map file. 
 
 - **Appearance**: The Appearance tab provides you with the options to select the themes for the application and the source view of the content editing area. Use this tab to configure the following settings:
 
-  ![](images/user_preference_editor_appearance.png){align="left"}
+  ![](images/user_preference_editor_appearance-new.png){align="left"}
  
-    - **Editor files display configuration**: Select the default way to view the files in the Editor. You can view the list of files by the titles or the filenames from the various panels in the Author view. By default, the files are displayed by title in the Editor.
     - **Application theme and Source view**: You can choose from the Light or Dark themes for the application and source view. In the case of the Light theme, the toolbars and panels use a light grey color background. In the case of the Dark theme, the toolbars and panels use a black color background. Select **Use device** theme to allow Experience Manager Guides to select the light and dark themes based on the theme of your device. 
     
       In all themes, the content editing area is shown in white color background in the Author view.
+
+    - **Editor files display configuration**: Select the default way to view the files in the Editor. You can view the list of files by the titles or the file names from the various panels in the Author view. By default, the files are displayed by title in the Editor.
     
     - **Always locate files in the repository**: Select this option to show the location of a file in the repository while editing it in the Editor.
-    - **Show non-breaking space indicator in the author mode**: Select this option to show an indicator for the non-breaking spaces while editing it in the Editor. It’s enabled by default.
