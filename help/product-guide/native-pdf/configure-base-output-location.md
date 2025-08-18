@@ -1,11 +1,11 @@
 ---
-title: Configure Base Output Location for Publishing Output
-description: Configure Base Output Location for Publishing Output
+title: Configure Base Output Location for Publishing Output for On-Premise services
+description: Configure Base Output Location for Publishing Output for On-Premise services
 feature: Output Generation
 role: Admin
 level: Experienced
 ---
-# Configure Base Output Location for publishing output
+# Configure Base Output Location for publishing output for On-Premise services
 
 Perform the following steps to configure the base output location:
 

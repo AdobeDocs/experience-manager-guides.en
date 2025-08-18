@@ -421,6 +421,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
           - [Apply styles to footnotes](./native-pdf/footnote-number-style.md)
       - [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
+      - [Configure Base Output Location for publishing output](./native-pdf/configure-base-output-location.md)
       - Work with custom workflows {#custom-workflow}
       - [Configure and customize workflows](./install-guide/customize-workflows.md)
     - Work with translation configurations {#translate-config}
@@ -499,6 +500,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       - [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
       - [Create a mapping between a topic and an experience fragment](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
+      - [Configure Base Output Location for publishing output](./native-pdf/configure-base-location-cs.md)
     - Work with custom workflows {#custom-workflow-cs}
       - [Configure and customize workflows](./cs-install-guide/customize-workflows.md)
     - Work with translation configurations {#translate-config-cs}

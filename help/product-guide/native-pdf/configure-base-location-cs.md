@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 ---
-# Configure Base Output Location for publishing output
+# Configure Base Output Location for publishing output for Cloud services
 
 To configure the base output location perform the following steps:
 
