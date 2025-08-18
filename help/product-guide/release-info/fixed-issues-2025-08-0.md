@@ -50,8 +50,12 @@ Learn about [upgrade instructions for the 2025.08.0 release](upgrade-instruction
 Adobe has identified the following known issues for the 2025.08.0 release:
 
 - When switching between the **Author**, **Source**, and **Preview** modes, the content editing area does not update to reflect the content from the selected mode. Instead, it continues to display the content from the previously selected mode. (GUIDES-32719) <br> **Workaround**: Refresh the page to update the content and resolve the issue.
-- Images with spaces in filenames fail to display in the output when flagged using conditional attributes. (GUIDES-13164)
+- Images with spaces in filenames fail to display in the output when flagged using conditional attributes. (GUIDES-33858)
 - In the **Content properties** panel, the Attributes field closes automatically when you try to update a reference from the **Update link** dialog, preventing the link from being updated. (GUIDES-17767)
 
 
- 
+ When switching between the **Author**, **Source**, or **Preview** modes, the selected mode does not update selected mode is not highlighted to indicate it is selected.
+
+Selected mode is not highlighted on the Author, Source, and Preview buttons after the open file is renamed or moved.
+
+Switching between the Author, Source, and Preview modes does not highlight the selected mode when the file open in the Editor is moved or renamed.
