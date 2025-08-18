@@ -199,6 +199,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Close or request re-review for a review task](./user-guide/review-close-review-task.md)
     - [Manage review tasks using the Review Dashboard](./user-guide/review-manage-tasks-review-dashboard.md)
     - [View a completed review task](./user-guide/review-view-completed-task.md)
+    - [Understanding review notifications](./user-guide/review-understanding-review-notifications.md)
   - Collaborate using Adobe Workfront {#workfront-integration}
     - [Workfront integration with Experience Manager Guides](./user-guide/workfront-integration.md)
   - Metadata and tagging {#manage-metadata}
