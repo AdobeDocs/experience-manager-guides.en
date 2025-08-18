@@ -52,18 +52,20 @@ Features available to the *reviewers*:
 
 -   **[Send topics for review](review-send-topics-for-review.md)**  
 
--   **[Review topics](./user-guide/review-topics.md)**
+-   **[Review topics](review-topics.md)**
 
 -   **[Reassign review task using notification](reassign-review-using-notification.md)**  
 
--   **[Complete the review task as a Reviewer](./user-guide/review-complete-review-tasks.md)**
+-   **[Complete the review task as a Reviewer](review-complete-review-tasks.md)**
 
 -   **[Review topics](review-topics.md)**  
 
 -   **[Address review comments](review-address-review-comments.md)**  
 
--   **[Close or request re-review for a review task](./user-guide/review-close-review-task.md)**
+-   **[Close or request re-review for a review task](review-close-review-task.md)**
 
 -   **[Manage review tasks using the Review Dashboard](review-manage-tasks-review-dashboard.md)**
 
--   **[View a completed review task](./user-guide/review-view-completed-task.md)**
+-   **[View a completed review task](review-view-completed-task.md)**
+
+-   **[Understanding review notifications](review-understanding-review-notifications.md)**

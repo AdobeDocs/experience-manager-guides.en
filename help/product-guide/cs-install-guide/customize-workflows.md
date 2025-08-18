@@ -100,7 +100,7 @@ You can create these script in the `/etc/workflows/scripts` node. The following 
 |`startTime`|Long|Use the `System.currentTimeMillis()` function to get the current system time.|
 |`projectPath`|String|Path of the review project to which the review task will be assigned e.g.: /content/projects/samplereviewproject.|
 |`reviewType`|String|Static value "AEM".|
-|`versionJson`|JSON object|versionJson is list of topics going in the review where each topic object has following structure { "path": "/content/dam/1-topic.dita", "version": "1.1", "review": true, "reviewers": [ "projects-we_retail-editor" ] }|
+|`versionJson`|JSON object|versionJson is list of topics going in the review where each topic object has following structure [ { "path": "/content/dam/1-topic.dita", "version": "1.1", "review": true, "reviewers": [ "projects-we_retail-editor" ] } ]|
 |`isDitamap`|Boolean|false/true|
 |`ditamapHierarchy`|JSON Object|In case the map is sent for review then the value here should be like:[ { "path": "GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap", "items": [ { "path": "GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita", "title": "", "items": [] } ] } ].|
 |`ditamap`|String|Specify the path of the ditamap of the review task|
