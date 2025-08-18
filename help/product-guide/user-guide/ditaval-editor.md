@@ -106,35 +106,35 @@ There are majorly four actions available for a given property that can be used w
 - **Background Color**: Select the hue, saturation, contrast from the Background color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
 
 
-![](images/ditaval-background-color.png){width="350" align="left"}
+    ![](images/ditaval-background-color.png){width="350" align="left"}
 
 
 
 - **Text Color**: Select the hue, saturation, contrast from the Text  color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
 
 
-![](images/ditaval-text-color.png){width="350" align="left"}
+    ![](images/ditaval-text-color.png){width="350" align="left"}
 
 
 
 - **Styling options**: You can add some styling options as well like Bold, Italics, Underline, Overline, Double underline.
 
 
-![](images/ditaval-styling-option.png){width="350" align="left"}
+    ![](images/ditaval-styling-option.png){width="350" align="left"}
 
 
 
 - **Start and End Flags**: You can insert images as start and end flags using the **Add Flag** button. To choose images, either use **Browse Assets** to select from the Guides repository or **Add File** to upload from your local system. Additionally, you can specify alternate text for the images.
 
 
-![](images/ditaval-start-end-flags.png){width="350" align="left"}
+    ![](images/ditaval-start-end-flags.png){width="350" align="left"}
 
 
 
 - **Style conflict**: It resolves the conflicts that occur when a single element contains multiple properties with different Flag styles. In such cases, the value defined in the style conflict properties is selected, effectively acting as a default value picker for background and text colors.
 
 
-![](images/ditaval-style-conflict.png){width="650" align="left"}
+    ![](images/ditaval-style-conflict.png){width="650" align="left"}
 
 
 #### Version information and Save as new version
