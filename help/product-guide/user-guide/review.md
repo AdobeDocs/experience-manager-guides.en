@@ -58,8 +58,6 @@ Features available to the *reviewers*:
 
 -   **[Complete the review task as a Reviewer](review-complete-review-tasks.md)**
 
--   **[Review topics](review-topics.md)**  
-
 -   **[Address review comments](review-address-review-comments.md)**  
 
 -   **[Close or request re-review for a review task](review-close-review-task.md)**

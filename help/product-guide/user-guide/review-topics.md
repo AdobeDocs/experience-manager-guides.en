@@ -158,6 +158,7 @@ The following screenshot shows the content in *Preview* mode:
 
 ![](images/review-preview-mode.png){width="550" align="left"}
 
+
 **Tag task users in a comment**
 
 When collaborating on a review task with multiple reviewers, you can enhance communication by tagging specific users in both new comments and replies. As a reviewer, you can initiate a comment or respond to an existing one while tagging other users involved in the same review task to draw their attention or assign follow-ups. This functionality is available only for active review tasks.

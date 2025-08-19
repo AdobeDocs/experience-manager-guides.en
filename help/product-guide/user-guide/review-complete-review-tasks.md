@@ -8,7 +8,7 @@ role: User
 
 >[!IMPORTANT]
 >
-> The features explained in this article are not enabled as a part of the out-of-the-box support. Contact your customer success team to get this feature enabled in the environment.  
+> The new features described in this article are enabled by default with 2508 release of Experience Manager Guides as a Cloud Services. Reviews that were created before the migration are not impacted and will continue to use the earlier workflow. If you prefer to continue using the existing features without these updates, contact your Customer Success team to have the new features disabled. 
 
 As a Reviewer, you can mark a review task as complete once you have reviewed all the content and want to notify the Author. You can also leave any final comments at this stage.
 
@@ -22,17 +22,17 @@ Perform the following steps to complete a review task:
     The **Complete task** dialog is displayed.
 3. In the **Complete task** dialog, add final comments for the Author and select **Complete**. 
 
->[!NOTE]
->
-> The task-level comments serve as a summary or final comments, and are distinct from the text-level comments added during the topic review. In this dialog, you may either outline follow-up actions such as requesting the Author to address specific comments and resend the task for review or indicate that the review is complete.  
+    >[!NOTE]
+    >
+    > The task-level comments serve as a summary or final comments, and are distinct from the text-level comments added during the topic review. In this dialog, you may either outline follow-up actions such as requesting the Author to address specific comments and resend the task for review or indicate that the review is complete.  
 
-![](images/complete-task-dialog-followup.png){width="350" align="left"}
-*Caption: Complete task dialog with follow-up action*
+    ![](images/complete-task-dialog-followup.png){width="350" align="left"}
+    *Caption: Complete task dialog with follow-up action*
 
-![](images/complete-task-dialog.png){width="350" align="left"}
-*Caption: Complete task dialog confirming completion*
+    ![](images/complete-task-dialog.png){width="350" align="left"}
+    *Caption: Complete task dialog confirming completion*
 
-You have successfully marked the task as completed, and its status is now set to **Complete**. No further actions are allowed once the task is marked as completed. A notification is sent to the Author or initiator of the review task to draw their immediate attention. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md).
+You have successfully marked the task as completed, and its status is now set to **Completed**. No further actions are allowed once the task is marked as completed. A notification is sent to the Author or initiator of the review task to draw their immediate attention. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md).
 
 ![](images/task-completed-status.png){width="350" align="left"}
 
@@ -50,7 +50,7 @@ To access task-level comments from the Review UI, navigate to the left panel and
 
 The **Task comments** dialog is displayed on the right. 
 
-![](images/task-comments-reviewer.png){width="650" align="left"}
+![](images/task-comments-reviewer.png){width="350" align="left"}
 
 The comments within the dialog are displayed in chronological order, with the recent comments appearing first and the oldest comments appearing last. This order helps you follow the conversation as it progressed over time.
 

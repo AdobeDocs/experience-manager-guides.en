@@ -6,6 +6,10 @@ role: User
 ---
 # Understanding review notifications
 
+>[!IMPORTANT]
+>
+> The new features described in this article are enabled by default with 2508 release of Experience Manager Guides as a Cloud Services. Reviews that were created before the migration are not impacted and will continue to use the earlier workflow. If you prefer to continue using the existing features without these updates, contact your Customer Success team to have the new features disabled. 
+
 Experience Manager Guides streamlines collaboration between Authors and Reviewers through a structured review workflow. As part of this workflow, notifications play a key role in keeping all participants of a review task informed and responsive to changes.
 
 Whenever a review-related action is performed, such as task assignment, completion, or feedback updates, a notification is automatically sent to the involved users of the review task to draw their immediate attention. These notifications are delivered in two formats:
