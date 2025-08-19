@@ -21,7 +21,6 @@ The releases for Experience Manager Guides as a Cloud Service are planned as fol
 
 | Release |Event |Schedule |What's new | Upgrade instructions | Fixed issues |Status|
 |---|---|---|---|---|---|---|
-|Adobe Experience Manager Guides 2025.08.0|Automatic Update|August 25-27, 2025||||Target|
 |Adobe Experience Manager Guides 2025.10.0|Automatic Update|October 06-08, 2025||||Target|
 |Adobe Experience Manager Guides 2025.11.0|Automatic Update|November 17-19, 2025||||Target|
 
@@ -29,6 +28,7 @@ The releases for Experience Manager Guides as a Cloud Service are planned as fol
 
 | Release |Event |Schedule |What's new | Upgrade instructions | Fixed issues |Status|
 |---|---|---|---|---|---|---|
+|Adobe Experience Manager Guides 2025.08.0|Automatic Update|August 25-27, 2025|[Here](whats-new-2025-08-0.md)|[Here](upgrade-instructions-2025-08-0.md)|[Here](fixed-issues-2025-08-0.md)|Updated|
 |Adobe Experience Manager Guides 2025.07.0|Automatic Update|July 14-16, 2025|[Here](whats-new-2025-07-0.md)|[Here](upgrade-instructions-2025-07-0.md)|[Here](fixed-issues-2025-07-0.md)|Updated|
 |Adobe Experience Manager Guides 2025.6.0|Automatic Update|June 02-04, 2025|[Here](whats-new-2025-06-0.md)|[Here](upgrade-instructions-2025-06-0.md)|[Here](fixed-issues-2025-06-0.md)|Updated|
 |Adobe Experience Manager Guides 2025.4.0|Automatic Update|May 05-07, 2025|[Here](whats-new-2025-04-0.md)|[Here](upgrade-instructions-2025-04-0.md)|[Here](fixed-issues-2025-04-0.md)|Updated|
@@ -52,7 +52,7 @@ Product updates in terms of new features, enhancements, and bug fixes for suppor
 
 | Release |Event |Schedule |What's new | Upgrade instructions | Status|
 |---|---|---|---|---|---|
-|Adobe Experience Manager Guides 5.1.0|Release|~ August, 2025|||Target|
+|Adobe Experience Manager Guides 5.1.0|Release|September 5, 2025|||Target|
 
 ### Live releases
 
