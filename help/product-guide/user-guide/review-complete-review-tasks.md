@@ -26,11 +26,14 @@ Perform the following steps to complete a review task:
     >
     > The task-level comments serve as a summary or final comments, and are distinct from the text-level comments added during the topic review. In this dialog, you may either outline follow-up actions such as requesting the Author to address specific comments and resend the task for review or indicate that the review is complete.  
 
+    For example, as a Reviewer, you may add a comment as a follow-up action for the Author:
+
     ![](images/complete-task-dialog-followup.png){width="350" align="left"}
-    *Caption: Complete task dialog with follow-up action*
+
+    Or, add a comment to indicate the completion of the task as shown below:    
 
     ![](images/complete-task-dialog.png){width="350" align="left"}
-    *Caption: Complete task dialog confirming completion*
+    
 
 You have successfully marked the task as completed, and its status is now set to **Completed**. No further actions are allowed once the task is marked as completed. A notification is sent to the Author or initiator of the review task to draw their immediate attention. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md).
 
