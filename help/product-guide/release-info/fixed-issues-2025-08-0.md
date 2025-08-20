@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2025.08.0 release
 description: Learn about the bug fixes in the 2025.08.0 release of Adobe Experience Manager Guides as a Cloud Service.
-
+exl-id: 05fe0e2c-ec65-4aec-a543-9b9a75c82f2c
 ---
 # Fixed issues in the 2025.08.0 release 
 
@@ -52,6 +52,3 @@ Adobe has identified the following known issues for the 2025.08.0 release:
 - When a file opened in Editor is renamed or moved, switching between the modes (such as **Author**, **Preview**, and more) updates the content in the editing area but does not visually highlight the active mode at the bottom-right corner. (GUIDES-32719) <br> **Workaround**: Refresh the page to resolve the issue.
 - Images with spaces in filenames fail to display in the output when flagged using conditional attributes. (GUIDES-33858)
 - In the **Content properties** panel, the Attributes field closes automatically when you try to update a reference from the **Update link** dialog, preventing the link from being updated. (GUIDES-17767)
-
-
- 

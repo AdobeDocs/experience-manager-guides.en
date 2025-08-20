@@ -1,8 +1,9 @@
 ---
 title: Understanding review notifications
 description: Learn about different types of review notifications and how they trigger during the different phases of review workflow in Experience Manager Guides.
-feature: Reviewing 
+feature: Reviewing
 role: User
+exl-id: dc452e7d-a317-4168-8015-9fa4a06666ea
 ---
 # Understanding review notifications
 

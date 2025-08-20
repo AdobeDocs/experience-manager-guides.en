@@ -4,6 +4,7 @@ description: Configure Base Output Location for Publishing PDF for Cloud service
 feature: Output Generation
 role: Admin
 level: Experienced
+exl-id: d79085d6-938a-4e80-84a2-03562e6b76e0
 ---
 # Configure Base Output Location for publishing output for Cloud services
 

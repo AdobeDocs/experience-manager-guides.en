@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, 2025.08.0 release
 description: Learn about the compatibility matrix and how to upgrade to the 2025.08.0 release of Adobe Experience Manager Guides as a Cloud Service.
-
+exl-id: 8f58962c-5f49-4b48-a161-4a34cd3366cb
 ---
 # Upgrade instructions for the 2025.08.0 release 
 

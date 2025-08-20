@@ -1,8 +1,9 @@
 ---
 title: Complete the review task as a Reviewer
 description: Know how to mark a task as completed as a Reviewer in AEM Guides.
-feature: Reviewing 
+feature: Reviewing
 role: User
+exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
 ---
 # Complete the review task as a Reviewer
 
@@ -60,4 +61,3 @@ The comments within the dialog are displayed in chronological order, with the re
 The **Task comments** dialog is accessible to all the users involved in the review task, including the Author or initiator of the review task and other Reviewers. Hence, the comments from other Reviewers (if involved) might also appear in the Task comments dialog. This helps ensure clear and traceable communication throughout the review process. 
 
 After reviewing the task-level feedback, the Author can either request a re-review or close the review task. In both cases, all comments captured during the review process remain available in the **Task comments** dialog for reference.
-

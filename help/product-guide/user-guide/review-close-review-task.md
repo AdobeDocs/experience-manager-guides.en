@@ -1,8 +1,9 @@
 ---
 title: Request a re-review or close a review task as an Author
 description: Know about the workflow of closing a review task or re-requesting a review as an Author in Experience Manager Guides.
-feature: Reviewing 
+feature: Reviewing
 role: User
+exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
 ---
 # Request a re-review or close a review task as an Author
 
