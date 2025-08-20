@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 5.1.0 release
 description: Learn about the bug fixes in the 5.1.0 release of Adobe Experience Manager Guides.
-exl-id: dcc97f9b-f1c0-45bc-84eb-8c0c1a857b6a
+
 ---
 # Fixed issues in the 5.1.0 release (September 2025)
 
