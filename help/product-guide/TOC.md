@@ -14,6 +14,10 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2025 Releases {#2025-releases}
+        - 2025.08.0 Release {#2508-release} 
+          - [What's new](./release-info/whats-new-2025-08-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2025-08-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2025-08-0.md)
         - 2025.07.0 Release {#2507-release} 
           - [What's new](./release-info/whats-new-2025-07-0.md)
           - [Fixed issues](./release-info/fixed-issues-2025-07-0.md)
@@ -187,12 +191,15 @@ breadcrumb-title: AEM Guides Documentation
   - Review content {#review}
     - [Introduction to review](./user-guide/review.md)
     - [Create a DITA project](./user-guide/authoring-create-dita-project.md)
-    - [Send topics for review](./user-guide/review-send-topics-for-review.md)
-    - [Reassign review task using notification](./user-guide/reassign-review-using-notification.md)
+    - [Send topics for review](./user-guide/review-send-topics-for-review.md)    
     - [Review topics](./user-guide/review-topics.md)
+    - [Reassign review task using notification](./user-guide/reassign-review-using-notification.md)
+    - [Complete the review task as a Reviewer](./user-guide/review-complete-review-tasks.md)
     - [Address review comments](./user-guide/review-address-review-comments.md)
+    - [Close or request re-review for a review task](./user-guide/review-close-review-task.md)
     - [Manage review tasks using the Review Dashboard](./user-guide/review-manage-tasks-review-dashboard.md)
     - [View a completed review task](./user-guide/review-view-completed-task.md)
+    - [Understanding review notifications](./user-guide/review-understanding-review-notifications.md)
   - Collaborate using Adobe Workfront {#workfront-integration}
     - [Workfront integration with Experience Manager Guides](./user-guide/workfront-integration.md)
   - Metadata and tagging {#manage-metadata}
@@ -415,6 +422,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
           - [Apply styles to footnotes](./native-pdf/footnote-number-style.md)
       - [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
+      - [Configure Base Output Location for publishing output](./native-pdf/configure-base-output-location.md)
       - Work with custom workflows {#custom-workflow}
       - [Configure and customize workflows](./install-guide/customize-workflows.md)
     - Work with translation configurations {#translate-config}
@@ -493,6 +501,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       - [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
       - [Create a mapping between a topic and an experience fragment](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
+      - [Configure Base Output Location for publishing output](./native-pdf/configure-base-location-cs.md)
     - Work with custom workflows {#custom-workflow-cs}
       - [Configure and customize workflows](./cs-install-guide/customize-workflows.md)
     - Work with translation configurations {#translate-config-cs}

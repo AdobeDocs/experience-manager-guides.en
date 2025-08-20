@@ -12,14 +12,6 @@ For the list of issues fixed in this release, view [Fixed issues in the 2025.06.
 
 Learn about [upgrade instructions for the 2025.06.0  release](../release-info/upgrade-instructions-2025-06-0.md).
 
-## Temporary files for published output now include Author and Publish URLs in a new config file
-
-The latest publishing enhancements to Experience Manager Guides now adds a new `system_config.json` file to the temporary files generated while publishing HTML, PDF, and JSON outputs using DITA-OT, as well as Native PDF output. This file is automatically included in the publishing job and also accessible through temporary files when you enable the **Retain temporary files** option for the presets and generate the output.
-
-The `system_config.json` file contains key instance details, including the Author URL, Local URL, and Publish URL, which provide clearer context and improve the traceability of the downloaded URLs.
-
-For more details, view [Understand the output presets](../user-guide/generate-output-understand-presets.md).
-
 ## Session timeout prompt to prevent accidental content loss
 
 A pop-up message now notifies you when your Adobe Experience Manager session expires and you are logged out due to inactivity. This message is triggered when you attempt to edit content in Experience Manager Guides after the session has ended. The feature helps reduce the risk of losing unsaved work and enhances the overall reliability and fluidity of the experience, even during periods of inactivity.

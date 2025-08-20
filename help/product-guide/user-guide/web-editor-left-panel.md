@@ -107,7 +107,7 @@ You can also perform many actions using the Options menu available for a Collect
 
 >[!NOTE]
 >
-> You can also refresh the list using the Refresh icon on the top. 
+> You can refresh the list using the **Refresh** icon at the top. Additionally refreshing the list reloads the collections, and as a result, any expanded collections in the panel gets collapsed.
 
 
 ## Repository 
@@ -146,12 +146,16 @@ The Editor provides enhanced filters for searching text. You can search and filt
 
 You have the following options to filter the files and to narrow down your search in the Adobe Experience Manager repository:
 
-- **DITA Files**: You can look for all **DITA Topics** and **DITA Maps** present on the selected path. These are selected by default.
+- **DITA Files**: You can look for all **DITA Topics**, and **DITA Maps** present on the selected path. These are selected by default. 
 - **Non-DITA Files**: You can search for **Ditaval Files**,  **Image Files**, **Multimedia**, **Documents**, and **JSON** in the selected path.
 
     ![quick search filter ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
     *Use the quick filters to search for DITA and Non-DITA files.*
+
+>[!NOTE]
+>
+> You can also use the **DITA Topic** filter to search for content specific to Markdown files in the repository, including titles, topic content, and properties. This feature currently applies only to newly created Markdown files.
 
 **Advanced filtering**
 
@@ -1000,9 +1004,9 @@ Experience Manager Guides allows you to create and manage variables for Native P
 
 ## Find and replace
 
-The Find and replace icon is located at the bottom of the left panel. The Find and replace panel allows you to search for and replace text across files in a map or a folder within your repository. You can find and replace in all topics of a map as well as topics present in the sub-maps within the map.
+The Find and replace icon is located at the bottom of the left panel. The Find and replace panel allows you to search for and replace text across files in a map or a folder within your repository. You can perform Find and replace operations across all topics in a map, including topics in sub-maps and Markdown files.
 
-![](images/map-find-replace.png){   align="left"}
+![](images/map-find-replace.png){align="left"}
 
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
 
@@ -1088,6 +1092,10 @@ To view the review comments in the active review tasks that are present in your 
 
     ![](images/web-editor-review-panel.png){width="300" align="left"}
 1. Select a review project and then select a review task from the list to open it. 
+1. You can select the **Open project dashboard** icon to open the project in the **Projects console**. 
+
+    ![](images/web-editor-project-dashboard.png){width="300" align="left"}
+
 1. You can also filter your projects in the following ways:
 
     - Enter the search term or text you want to find in the title of the project. Then press Enter to perform the search. For example, you can search all projects with the term 'space' in the title.

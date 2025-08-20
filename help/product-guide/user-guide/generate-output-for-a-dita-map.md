@@ -61,6 +61,14 @@ You can view the current status of the output generation request in the **Output
 
 You can also generate the AEM Sites output for one or more topics, or the entire DITA map from the Map console. For more details, view [Generate Knowledge Base output](web-editor-article-publishing.md#id218CK0U019I).
 
+## Merging different topics within a DITA map using the `chunk` attribute
+
+A DITA map can include different topic types such as reference, concept, and task. The `chunk=to-content` attribute allows you to merge these topics to generate a single page output on AEM Sites. However, to publish the merged topic properly, ensure that your Administrator has configured the correct XML catalog in the DITA Profiles. 
+
+The system requires a Public ID with the `composite` keyword in the XML catalog to correctly identify and apply the appropriate DTD rule.
+This configuration is included by default in the standard XML catalog. However, if you're using a custom XML catalog, ensure your Administrator has added this public ID to the configuration. Without it, the merged topic may not publish properly. 
+
+For details on how to use Public ID and System ID in your custom DTDs/XSDs, view [Integrate DITA specialization](../cs-install-guide/dita-ot-specialization.md#integrate-dita-specialization-id211mb0e00xa).
 
 
 

@@ -21,6 +21,10 @@ Perform the following steps to access and use the Review Dashboard:
 
     ![](images/review-management.png){align="left"}
 
+    >[!NOTE]
+    >
+    > Alternatively, you can directly access the project dashboard from the left panel of Editor. Open the [Review panel](./web-editor-left-panel.md#review) and use the **Open the project dashboard** icon placed against each review project listed in the Review panel. 
+
 1.  Select the three dots in the **Reviews** tile.
 
     The Review Dashboard is displayed. The dashboard lists all review tasks that you have created.

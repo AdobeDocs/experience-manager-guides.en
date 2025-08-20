@@ -10,18 +10,6 @@ exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
 
 As an Administrator, you can also configure the following settings for the Learning course Authors and Publishers: 
 
-- **Folder settings**
-    - **Create different folders**: You can create folders for Authors and Publishers working in different departments or products in your enterprise. These folders can be mapped to specific folder profiles, each configured with different authoring and output templates to support department-specific learning course creation and decentralized administration. 
-
-        You can create a new folder from the Repository panel. 
-
-        ![](assets/create-new-folder.png){width="350" align="left"}
-    - **Create language folders**: If you translate content into different languages, you must create folders corresponding to each language. Each of these language folders will contain the content corresponding to that language. 
-
-        For details, view [Best practices for content translation](../user-guide/translation-first-time.md). 
-    - **Assets management**: Similar to folders, you can also create different Assets folders to cater to the needs of different departments. This way, you also ensure that Authors and Publishers have access to the correct CSS configured in their templates, images, and other assets.  
-
-        ![](assets/configure-assets-folder.png){width="350" align="left"}
 - **Snippets**: You can configure snippets at a folder level to ensure Authors have access to the correct Snippets. Only Administrators can create Snippets in Experience Manager Guides, which can then be used by Authors in the Editor.  
 
     You can access Snippets from the left panel in the Editor.  

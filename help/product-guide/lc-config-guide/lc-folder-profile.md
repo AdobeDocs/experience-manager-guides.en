@@ -12,12 +12,23 @@ A folder profile is required to segregate the configurations for different depar
 
 To get started with the folder profile configuration for Learning and Training content, you need to: 
 
-1. [Create a folder profile](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile).  
-2. **Select the Folder profile to be configured**: Once the folder profile is created, you need to select the Folder profile on the [User Preferences](../user-guide/intro-home-page.md#user-preferences) page to ensure that Authors and Publishers have access to the correct templates.
+1. **Create different folders to manage authoring and output templates**: You can create folders for Authors and Publishers working in different departments or products in your enterprise. These folders can be mapped to specific folder profiles, each configured with different authoring and output templates to support department-specific learning course creation and decentralized administration. 
+
+    You can create a new folder from the Repository panel. 
+
+    ![](assets/create-new-folder.png){width="350" align="left"}
+2. **Create language folders to manage translation**: If you translate content into different languages, you must create folders corresponding to each language. Each of these language folders will contain the content corresponding to that language. 
+
+    For details, view [Best practices for content translation](../user-guide/translation-first-time.md). 
+3. **Create a folder to manage Assets**: Similar to folders, you can also create different Assets folders to cater to the needs of different departments. This way, you also ensure that Authors and Publishers have access to the correct CSS configured in their templates, images, and other assets.  
+
+    ![](assets/configure-assets-folder.png){width="350" align="left"}
+4. [Create a folder profile](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) to map different folders. 
+5. **Select the Folder profile to be configured**: Once the folder profile is created, you need to select the Folder profile on the [User Preferences](../user-guide/intro-home-page.md#user-preferences) page to ensure that Authors and Publishers have access to the correct templates.
 
     ![](assets/folder-profile.png){width="650" align="left"}
 
-3. **Configure Folder profile settings**: For Learning and Training content, the following settings can be configured at a folder level: 
+6. **Configure Folder profile settings**: For Learning and Training content, the following settings can be configured at a folder level: 
     - [Panels](#configure-panels) 
     - [Templates](#configure-templates)
     - [Output presets](#configure-output-presets)

@@ -54,6 +54,7 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 workflowdata.getMetaDataMap().put("reviewType", "AEM");
 workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
 workflowdata.getMetaDataMap().put("isDitamap","false");
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 **For Map**
@@ -80,6 +81,7 @@ workflowdata.getMetaDataMap().put("isDitamap", "true");
 workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
 var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
 workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 You can create these script in the `/etc/workflows/scripts` node. The following table describes the properties being assigned by both of the aforementioned ECMA script.
@@ -98,12 +100,13 @@ You can create these script in the `/etc/workflows/scripts` node. The following 
 |`startTime`|Long|Use the `System.currentTimeMillis()` function to get the current system time.|
 |`projectPath`|String|Path of the review project to which the review task will be assigned e.g.: /content/projects/samplereviewproject.|
 |`reviewType`|String|Static value "AEM".|
-|`versionJson`|JSON object|versionJson is list of topics going in the review where each topic object has following structure { "path": "/content/dam/1-topic.dita", "version": "1.1", "review": true, "reviewers": [ "projects-we_retail-editor" ] }|
+|`versionJson`|JSON object|versionJson is list of topics going in the review where each topic object has following structure [ { "path": "/content/dam/1-topic.dita", "version": "1.1", "review": true, "reviewers": [ "projects-we_retail-editor" ] } ]|
 |`isDitamap`|Boolean|false/true|
 |`ditamapHierarchy`|JSON Object|In case the map is sent for review then the value here should be like:[ { "path": "GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap", "items": [ { "path": "GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita", "title": "", "items": [] } ] } ].|
 |`ditamap`|String|Specify the path of the ditamap of the review task|
 |`allowAllReviewers`|Boolean|false/true|
 |`notifyViaEmail`|Boolean|false/true|
+|`reviewVersion`|String|Specifies the current version of the Review workflow. The default value is set to `3.0` .<br> To enable the new review workflow features for [Authors](../user-guide/review-close-review-task.md) and [Reviewers](../user-guide/review-complete-review-tasks.md), ensure that the `reviewVersion` is set to `3.0`.|
 
 
 Once you have created the script, call it before calling the Create Review process in your workflow. Then, depending on your requirements, you can call the other review workflow processes.
@@ -123,26 +126,59 @@ Adding a workflow in the **Adobe Granite Workflow Purge Configuration** ensures 
 
 For more details about configuring the **Adobe Granite Workflow Purge Configuration**, see *Administering Workflow Instances* in AEM documentation.
 
-### Customize email templates 
+### Customize email and AEM notification
 
 A number of the AEM Guides workflows make use of email notifications. For example, if you initiate a review task, an email notification is sent to the reviewers. However, to ensure that the email notification is sent, you have to enable this functionality in AEM. To enable email notification in AEM, see the article [Sending Email](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#sending-email) in AEM documentation.
 
-The AEM Guides contains a set of email templates that you can customize. Perform the following steps to customize these templates:
+The AEM Guides contains a set of email and AEM notifications used in review workflow that you can customize. Perform the following steps to customize these notifications:
 
-1.  Use the Package Manager to download `/libs/fmdita/mail` file.
+1.  Use the Package Manager to download `/libs/fmdita/mail/review` folder.
 
     >[!NOTE]
     >
     > Do not make any customizations in the default configuration files available in the ``libs`` node. You must create an overlay of the ``libs`` node in the ``apps`` node and update the required files in the ``apps`` node only.
 
-1.  The mail folder contains the following customizable templates:
+1.  The `review` folder contains the following sub-folders:
 
-    |Template Filename|Description|
+    - `aem-notification`
+    - `CSS`
+    - `email-notification`
+
+    The detailed description of these sub-folders is explained below:
+
+    |Review sub-folders|Description|
     |-----------------|-----------|
-    |closereview.html|This email template is used when a review task is closed.|
-    |createreview.html|This email template is used when a new review task is created.|
-    |reviewapproval.css|This CSS file contains the styling of email templates.|
+    |`aem-notification`|Contains different AEM notification types available for customization. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Within these sub-folders, `primary.vm` and `secondary.vm` files are located that allow you to customize the AEM notification title and description, respectively.| 
+    |`CSS`|Contains the `email-notification.css` file for customizing the styling of email notifications.|
+    |`email-notification`|Contains different email notification types available for customization. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Within these sub-folders, `primary.vm` and `secondary.vm` files are located that allow you to customize the email notification subject and body, respectively.|
 
+The definition of each notification type is outlined below:
+
+- `closed`: Triggers when a review task is closed. 
+- `content-updated`: Triggers when an Author or initiator updates the content. 
+- `feedback-addressed`: Triggers when Author or initiator addresses the comments and requests a re-review from the Reviewer.
+- `feedback-provided` Triggers when Reviewer marks the task as complete by providing task-level comments to the Author or initiator of the review task. 
+- `requested`: Triggers when an Author or initiator creates a review task.  
+- `reviewer-removed`: Triggers when a Reviewer is unassigned from the review task.  
+- `tag-mention`: Triggers when a user is mentioned or tagged in review comments. 
+
+While customizing an email or AEM notification, ensure that you only use the following predefined set of variables that are used in `primary.vm` and `secondary.vm` files. 
+
+
+| **Variable name**       | **Description**                                               | **Data type** |
+|-------------------------|---------------------------------------------------------------|---------------|
+| `projectPath`           | Path to the project containing the review task                | String        |
+| `reviewTitle`           | Title of the review task                                      | String        |
+| `projectName`           | Name of the project                                           | String        | 
+| `commentator`           | Name of the user who added a comment                         | String        | 
+| `commentExcerpt`        | Snippet of the comment added                                 | String        | 
+| `taskLink`              | Direct link to the review task                               | URL           | 
+| `authorName`            | Name of the author who created or updated the review task    | String        | 
+| `dueDate`               | Due date of the review task                                  | Date          | 
+| `reviewerName`          | Name of the reviewer assigned to the task                    | String        | 
+| `user`                  | User involved in the review task, such as Author, Reviewer, or even Administrator. | String        | 
+| `recipient`             | Specific user receiving the notification                     | String        | 
+                                                       
 
 ## Customize post-output generation workflow {#id17A6GI004Y4}
 
