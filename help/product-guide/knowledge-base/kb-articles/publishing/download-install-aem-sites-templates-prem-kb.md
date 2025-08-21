@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 
 ---
-# Download and install AEM Sites templates (On-Prem services)
+# Download and install AEM Sites templates (On-Premise services)
 
 This guide provides step-by-step instructions to set up and configure the latest AEM Guides template for generating AEM Sites. Follow these steps to install the required packages, create and configure presets, and generate AEM Sites.
 
