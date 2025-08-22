@@ -46,6 +46,8 @@ For more details, view [Use the DITAVAL Editor](../user-guide/ditaval-editor.md)
 
 ## Publishing enhancements
 
+The following publishing enhancements have been made made as a part of the new release:
+
 ### Improved output generation log filtering
 
 This release brings in UI improvements to output generation log filtering capability. You can now filter the output generation logs better for all the four distinct levels; **Info**, **Warn**, **Error** (including both errors and exceptions), and **Fatal**; with improved and intuitive color-coded indicators that simplify analysis and sharpen visibility across the log stream. This improvement empowers you to navigate logs more efficiently and locate the critical issues with precision. 
@@ -84,6 +86,8 @@ The incremental output generation process has been enhanced to support publishin
 For more details, view [Incremental output generation](../user-guide/generate-output-aem-site.md).
 
 ## Editor enhancements
+
+The following Editor enhancements have been made as a part of the new release:
 
 ### UI improvements in Editor toolbar and User preferences
 
