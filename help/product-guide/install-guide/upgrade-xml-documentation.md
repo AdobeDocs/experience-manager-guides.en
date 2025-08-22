@@ -37,7 +37,7 @@ For more details, refer to the following procedures:
 -   [Upgrade to version 4.4.0](#upgrade-to-version-440)
 -   [Upgrade to version 4.6.0](#upgrade-to-version-460)
 -   [Upgrade to version 5.0.0](#upgrade-to-version-500)
--   [Upgrade to version 5.0.0](#upgrade-to-version-510)
+-   [Upgrade to version 5.1.0](#upgrade-to-version-510)
 
 
 
