@@ -46,7 +46,7 @@ For more details, view the [Technical requirements](../install-guide/download-in
 
 | Components version | Site version|
 |---|---|
-|guides-components.all-1.3.0|aemg-docs.all-1.2.0|
+|guides-components.all-1.4.0|aemg-docs.all-1.2.0|
 
 
 ## Upgrade to 5.1.0 release of Experience Manager Guides
