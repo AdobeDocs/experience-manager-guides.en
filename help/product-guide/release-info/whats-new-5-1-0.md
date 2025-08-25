@@ -89,28 +89,6 @@ For more details, view [Incremental output generation](../user-guide/generate-ou
 
 The following Editor enhancements have been made as a part of the new release:
 
-### UI improvements in Editor toolbar and User preferences
-
-With this release the settings within the **User preferences** on the Home page for General and Appearance tabs have been re-structured. It includes renaming the label **Opening preferences for Maps** and moving the Non-breaking spaces toggle to the Editor toolbar.
-
-Additionally, in the Editor toolbar some quick-access toggles for enabling or disabling Track Changes, Tags, and Non-Breaking Spaces are now grouped under **Show** option within the Menu dropdown for better usability.
-
-For more details, view [Toolbar in the Editor](../user-guide/web-editor-toolbar.md#menu-dropdown).
-
-### Enhanced `navref` handling in the Editor
-
-The latest enhancements to the Editor improve the handling of `navref` elements in a DITA map. Now, when you add a `navref` element to a map, the **Select path** dialog opens, allowing you to easily choose the map references to include as navigation links in your map. Once added, the title of the added map is displayed in both Author view and Layout view, providing better visibility of the included navigation during authoring.  Additionally, the added `navref` element resolves automatically to display the referred map in the Editor.
-
-For more details, view [Add navigation references](../user-guide/map-editor-other-features.md#add-navigation-references).
-
-### Session timeout prompt to prevent accidental content loss
-
-A pop-up message now notifies you when your Adobe Experience Manager session expires and you are logged out due to inactivity. This message is triggered when you attempt to edit content in Experience Manager Guides after the session has ended. The feature helps reduce the risk of losing unsaved work and enhances the overall reliability and fluidity of the experience, even during periods of inactivity.
-
-![](assets/sign-out-prompt.png)
-
-Learn more about [session timeout prompt](../user-guide/session-timeout-prompt.md) in Experience Manager Guides. 
-
 ### Enhanced search experience for Reusable content panel
 
 Experience Manager Guides introduces an enhanced search experience in the Reusable Content Panel. With this update, searching for any keyword now scans all the files added as reusable content, and not just the open ones, ensuring you find the exact position of the keyword across all occurrences, whether the containers are open or collapsed. Additionally, when you clear the search bar, the original state of all containers is retained, providing a more efficient and user-friendly search functionality.
@@ -134,6 +112,29 @@ Experience Manager Guides introduces a new **Use actual file names** option in t
 For more details, view [Download files](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
 ![](assets/download-map-dialog-new.png){width="300" align="left"}
+
+### Session timeout prompt to prevent accidental content loss
+
+A pop-up message now notifies you when your Adobe Experience Manager session expires and you are logged out due to inactivity. This message is triggered when you attempt to edit content in Experience Manager Guides after the session has ended. The feature helps reduce the risk of losing unsaved work and enhances the overall reliability and fluidity of the experience, even during periods of inactivity.
+
+![](assets/sign-out-prompt.png)
+
+Learn more about [session timeout prompt](../user-guide/session-timeout-prompt.md) in Experience Manager Guides. 
+
+### Enhanced `navref` handling in the Editor
+
+The latest enhancements to the Editor improve the handling of `navref` elements in a DITA map. Now, when you add a `navref` element to a map, the **Select path** dialog opens, allowing you to easily choose the map references to include as navigation links in your map. Once added, the title of the added map is displayed in both Author view and Layout view, providing better visibility of the included navigation during authoring.  Additionally, the added `navref` element resolves automatically to display the referred map in the Editor.
+
+For more details, view [Add navigation references](../user-guide/map-editor-other-features.md#add-navigation-references).
+
+
+### UI improvements in Editor toolbar and User preferences
+
+With this release the settings within the **User preferences** on the Home page for General and Appearance tabs have been re-structured. It includes renaming the label **Opening preferences for Maps** and moving the Non-breaking spaces toggle to the Editor toolbar.
+
+Additionally, in the Editor toolbar some quick-access toggles for enabling or disabling Track Changes, Tags, and Non-Breaking Spaces are now grouped under **Show** option within the Menu dropdown for better usability.
+
+For more details, view [Toolbar in the Editor](../user-guide/web-editor-toolbar.md#menu-dropdown).
 
 
 
