@@ -45,7 +45,7 @@ Choose and configure two editable templates from your AEM site.
 The Documentation Container Page template is used to create the Product Documentation Container Page rendering the content of a DITA map.
 
 - It serves as the entry point or homepage for a specific set of documentation (example, a product manual or guide).
-- Add id="category-page" property to the jcr:content of the template. This ensures all pages created from this template are automatically treated as documentation containers by AEM Guides.
+- Add id="category-page" property to the jcr:content of the initial node of the template. This ensures all pages created from this template are automatically treated as documentation containers by AEM Guides.
 
     ![Adding id="category-page"](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
 
