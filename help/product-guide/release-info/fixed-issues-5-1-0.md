@@ -97,3 +97,15 @@ Learn about [upgrade instructions for the 5.1.0 release](upgrade-instructions-5-
 - Performance issues like longer loading times and intermittent timeouts are observed when working with large collections. (GUIDES-29065, GUIDES-28793)
 - Vulnerabilities associated with the deprecated Guava library being used in the AEM Guides components uploaded on Experience Manager Guides.(GUIDES-27402)
 
+## Known issues
+
+Adobe has identified the following known issues for 5.1.0 release:
+
+
+- The most recent task-level comment is displayed in the email notification to the task initiator if the Reviewer completes the task without adding a comment. (GUIDES-33590)
+- In the Merge dialog, the dropdown list incorrectly displays Main content instead of showing the available versions of the selected topic. (GUIDES-30820)
+ which the link becomes operational. (GUIDES-30820)
+- Switching between presets that use the same Baseline deactivates the Save button for the current preset. (28025)
+- An empty line is automatically inserted when pasting new content into a new line within a codeblock element.(27842)
+- A topic within a DITA map fails to publish in the AEM Sites output when it is being used as both keydef and topicref within its submaps. (22269)
+- In the Content properties panel, the Attributes field closes automatically when you try to update a reference from the Update link dialog, preventing the link from being updated. (GUIDES-17767)
