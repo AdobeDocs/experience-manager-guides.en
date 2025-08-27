@@ -1,7 +1,6 @@
 ---
 title: Migrate existing content
 description: Learn how to Migrate existing content
-exl-id: 65d69d64-9cb7-4d08-b384-363df1ac9a16
 feature: Migration
 role: Admin
 level: Experienced
@@ -14,6 +13,6 @@ AEM Guides allows you to convert a variety of structured and unstructured docume
 >
 > See the *Content migration and upload* section in the Best practices guide for best practices around using migrating and uploading existing content.
 
--   **[Upload existing DITA content using Framemaker and WebDav tool (On-Prem)](migrate-content-upload-existing-dita-content.md)**  
--   **[Use Curl command to upload DITA content](./migrate-content-use-curl-command.md)**
--   **[Configure UUID file pattern](./migrate-content-configure-uuid-filename-pattern.md)**
+-   **[Upload existing DITA content using Framemaker and WebDav tool (On-Prem)](migrate-content-upload-existing-dita-content-exp.md)**  
+-   **[Use Curl command to upload DITA content](./migrate-content-use-curl-command-exp.md)**
+-   **[Configure UUID file pattern](./migrate-content-configure-uuid-filename-pattern-exp.md)**

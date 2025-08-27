@@ -508,7 +508,17 @@ breadcrumb-title: AEM Guides Documentation
       - [Translate content](./cs-install-guide/translation.md)
     - Work with AEM Assets search {#aem-asset-search-cs}
       - [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
-    - [Appendix](./cs-install-guide/appendix.md)  
+    - [Appendix](./cs-install-guide/appendix.md)
+    - [ICG merged content] {#icg-merge}
+      - [Configure global or folder-level profiles](./cs-install-guide/conf-folder-level-exp.md)
+      - [Configure Dispatcher](./cs-install-guide/download-install-configure-dispatcher-exp.md)
+      - [Migrate existing content](./cs-install-guide/migrate-content-exp.md)
+      - [Upload existing DITA content using WebDAV tool and FrameMaker](./cs-install-guide/migrate-content-upload-existing-dita-content-exp.md)
+      - [Use curl commands](./cs-install-guide/migrate-content-use-curl-command-exp.md)
+      - [Configure UUID filename pattern](./cs-install-guide/migrate-content-configure-uuid-filename-pattern-exp.md)
+      - [Migrate content from On-premise to Cloud Service](./cs-install-guide/migrate-on-premise-content-cloud-exp.md)
+      - [Migrate non-DITA content](./cs-install-guide/migrate-content-non-dita-exp.md) 
+      - [User administration and security](./cs-install-guide/user-admin-sec-exp.md)   
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
   - [REST APIs for Output management](./api-reference/output-management.md)
