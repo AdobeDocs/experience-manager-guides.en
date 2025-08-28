@@ -103,7 +103,7 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
     1. Set the **Site path** manually as /content/AEMG-Docs-Site/en/docs/product.
     2. Verify that the **Topic page** template is automatically set to Topic Page.
 
-        ![Use the site path to configure the AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="350" align="left"}
+        ![Use the site path to configure the AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
 
 3. **Save the preset:** Save the changes made to the preset.
 

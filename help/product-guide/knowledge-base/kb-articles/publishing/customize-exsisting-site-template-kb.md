@@ -116,7 +116,7 @@ By default, the client libraries (clientlibs) provided in the AEM Guides compone
 1. **Edit the Template:**
 
     1. Open the **Product Page** in **Editor Mode**.
-    2. Click **Edit Template** (this will open a URL like editor.html/conf/<site-name>/settings/wcm/templates/<template-name>/structure.html).
+    2. Select **Edit Template** (this will open a URL like conf<site-name>/settings/wcm/templates<template-name>/structure.html).
 
         ![Edit template](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"}
 
