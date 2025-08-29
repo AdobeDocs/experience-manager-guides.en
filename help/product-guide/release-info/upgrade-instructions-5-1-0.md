@@ -7,19 +7,19 @@ description: Learn about the compatibility matrix and how to upgrade to the 5.1.
 
 This article covers the upgrade instructions and the  compatibility matrix for 5.1.0 release of Adobe Experience Manager Guides.
 
-For more information about the new features and enhancements, view [What's new in the 5.1.0 release](../release-info/whats-new-5-0-0.md).
+For more information about the new features and enhancements, view [What's new in the 5.1.0 release](../release-info/whats-new-5-1-0.md).
 
-For the list of issues that have been fixed in this release, view [Fixed issues in the 5.1.0 release](../release-info/fixed-issues-5-0-0.md).
+For the list of issues that have been fixed in this release, view [Fixed issues in the 5.1.0 release](../release-info/fixed-issues-5-1-0.md).
 
 ## Compatibility matrix
 
-This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 4.6.0 release. 
+This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 5.1.0 release. 
 
 ### Adobe Experience Manager
 
 **5.1.0 UUID**
 
-Version 6.5 Service Pack 22, Service Pack 21, and Service Pack 20
+Version 6.5 Service Pack 23, Service Pack 22, and Service Pack 21.
 
 For more details, view the [Technical requirements](../install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
 
@@ -33,13 +33,13 @@ For more details, view the [Technical requirements](../install-guide/download-in
 
 | Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
 | --- | --- | --- |--- |--- |
-| 5.1.0 (UUID) | 3.7-uuid.2|3.7-uuid.2 |2.3 | 2.3  |
+| 5.1.0 (UUID) | 3.8-uuid.1|3.8-uuid.1 |2.3 | 2.3  |
 
 ### Knowledge base template version
 
 |Components package name| Components version | Template version|
 |---|---|---|
-|Experience Manager Guides Components Content Package for Cloud Service|dxml-components.all-1.3.0| aem-site-template-dxml.all-1.0.4|
+|Experience Manager Guides Components Content Package for Cloud Service|dxml-components.all-1.4.0| aem-site-template-dxml.all-1.0.4|
 
 ### New AEM Site template version
 
