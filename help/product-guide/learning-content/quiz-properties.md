@@ -13,7 +13,7 @@ You can configure the quiz properties using the following options:
 
     ![](assets/quiz-properties.png){width="650" align="left"}
 
-- Ensure the quiz title and introduction are not left blank when authoring the quiz, as they appear on the first slide of the published quiz. If removed by mistake, you can restore them using the **Add quiz title** and **Add quiz intro** toggle buttons.  
+- Ensure the quiz title and introduction are not left blank when authoring the quiz, as they appear on the first slide of the published quiz. If removed by mistake, you can restore them by selecting the **Add quiz title** and **Add quiz intro** options.  
 - You can enable grading for your quiz by turning on the **Graded quiz** toggle. Once enabled, you can choose the grading method, either percentage-based or absolute, and define the passing criteria accordingly. 
 
     ![](assets/quiz-grading.png){width="350" align="left"} 
