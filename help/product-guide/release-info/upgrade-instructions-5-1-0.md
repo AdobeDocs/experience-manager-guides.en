@@ -39,7 +39,7 @@ For more details, view the [Technical requirements](../install-guide/download-in
 
 |Components package name| Components version | Template version|
 |---|---|---|
-|Experience Manager Guides Components Content Package for Cloud Service|dxml-components.all-1.4.0| aem-site-template-dxml.all-1.0.4|
+|Experience Manager Guides Components Content Package for Cloud Service|dxml-components.all-1.3.0| aem-site-template-dxml.all-1.0.4|
 
 ### New AEM Site template version
 
