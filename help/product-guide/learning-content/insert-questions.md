@@ -7,11 +7,13 @@ exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
 ---
 # Insert questions from Question bank
 
-Perform the following steps, for inserting questions from question bank in the quiz: 
+Perform the following steps to insert questions from question bank in the quiz: 
 
-1. Select **Insert from question bank** option from the **Questions** dropdown menu in the toolbar as shown below. The **Insert from question bank** dialog opens.  
+1. Select **Insert from question bank** option from the **Questions** dropdown menu in the toolbar as shown below. 
 
     ![](assets/insert-from-question-bank.png){width="350" align="left"}
+
+    The **Insert from HTML question bank** dialog is displayed.      
     
 1. Specify the path to the question bank stored in your repository and select the questions you wish to insert into your quiz, as shown below. You can also select all the questions of the Question bank, using **Select all**.  
 
@@ -21,7 +23,7 @@ Perform the following steps, for inserting questions from question bank in the q
 
     ![](assets/specific-questions.png){width="650" align="left"}
 
-1. Additionally, you can enable the **Pick Random Question** option using the toggle. Once enabled, you can define the number of questions to be randomly selected. The quiz will then display a placeholder indicating that a random question has been inserted, as shown in the second screenshot. During publishing, the system automatically selects and inserts the specified number of random questions from the question bank. 
+1. Additionally, you can enable the **Pick random question** option using the toggle. Once enabled, you can define the number of questions to be randomly selected. The quiz will then display a placeholder indicating that a random question has been inserted, as shown in the second screenshot. During publishing, the system automatically selects and inserts the specified number of random questions from the question bank. 
 
     ![](assets/random-question-question-bank.png){width="650" align="left"}
 

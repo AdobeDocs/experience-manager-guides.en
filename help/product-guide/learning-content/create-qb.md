@@ -8,7 +8,9 @@ exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
 # Create Question bank   
 
 You can ease the process of creating quizzes by inserting questions directly from a question bank. This feature allows you to reuse existing questions, maintain consistency across assessments, and save time during quiz creation.
-To streamline quiz creation and reuse, you can create a customized question bank tailored to your specific requirements. Follow the steps below to create a question bank. 
+To streamline quiz creation and reuse, you can create a customized question bank tailored to your specific requirements.
+
+Perform the following steps to create a question bank:
 
 1. Open a course in the **Course manager** and select **Add new** from the **Options menu**.
 1. Select **Question bank**.

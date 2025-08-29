@@ -15,5 +15,5 @@ Perform the following steps for editing the quiz:
     ![](assets/quiz-lock.png){width="650" align="left"}
 
 1. You can [add questions to the quiz](./quiz-insert-questions.md) as well as [insert questions from the question bank](./insert-questions.md).
-1. To save your work, use **Save as new version** to create a new version, or press Ctrl+S to overwrite the existing file.    
+1. To save your work, use **Save as new version** to create a new version, or press `Ctrl+S` to overwrite the existing file.    
 1. After saving the quiz, you can **Unlock** the topic for others to edit.
