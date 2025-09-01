@@ -35,17 +35,20 @@ To include `@navtitle` attribute by default in reference files' properties, perf
                             },
     ```
 
-1.  Change the `required` parameter as:
+1.  Change the `required` parameter as shown below:
 
     ```
     "required": {"navtitle": true}
     ```
 
+    When set to `true`, the **Refresh navigation title attribute** button is enabled to show up in the Editor toolbar. When set to `false` or left empty, the button remains hidden in the Editor. 
 1. Save the file.
 
 1. Upload the file in the corresponding profile \(Global or Folder\).
 
 
-With this configuration, every reference file that you add to a map will contain the `@navtitle` attribute by default.
+With this configuration, every reference file that you add to a map will contain the `@navtitle` attribute by default. 
+
+
 
 **Parent topic:**[Customize Web Editor](conf-web-editor.md)

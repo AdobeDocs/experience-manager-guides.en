@@ -9,6 +9,10 @@ role: User
 
 If you are a reviewer, then you receive a review request email with the link to the review topics. Using this link you can access the review page wherein you can add your feedback on the shared topics.
 
+>[!NOTE]
+>
+> While accessing the review request from the notification, you can choose to reassign it to another user who is part of the same review project. For details, view [Reassign review task using notification](./reassign-review-using-notification.md).
+
 Perform the following steps to review a topic:
 
 1.  Select the direct link given in the review request email.
@@ -28,8 +32,6 @@ Perform the following steps to review a topic:
     > - Adobe Experience Manager Guides as a Cloud Service November 2022 release or earlier
     > - Adobe Experience Manager Guides version 4.1 or earlier
 
-
-
     The following screen appears when a DITA map is used to initiate the review workflow:
 
     ![](images/multiple-topics-review.png){align="left"}
@@ -48,7 +50,7 @@ Perform the following steps to review a topic:
 
         >[!NOTE]
         >
-        > On applying the filters, only the comments which match the selected filters are displayed in the comments panel. The number of filtered comments are shown on the left in the topics panel.
+        > On applying the filters, only the comments which match the selected filters are displayed in the Comments panel. The number of filtered comments are shown on the left in the topics panel.
 
     -   **E**: A topic that is assigned for review to the current reviewer is shown in black and can be selected. When the reviewer selects a topic link that topic is brought to the top of the screen.
     -   **F**: A topic that is not available for review is grayed out. The topic is shown in read-only mode and you are not allowed to add any review comments on such topics.
@@ -155,6 +157,21 @@ The tasks that you can perform using the Comments panel are described below:
 The following screenshot shows the content in *Preview* mode:
 
 ![](images/review-preview-mode.png){width="550" align="left"}
+
+
+**Tag task users in a comment**
+
+When collaborating on a review task with multiple reviewers, you can enhance communication by tagging specific users in both new comments and replies. As a reviewer, you can initiate a comment or respond to an existing one while tagging other users involved in the same review task to draw their attention or assign follow-ups. This functionality is available only for active review tasks.
+
+>[!NOTE]
+>
+> To view the list of users assigned to a review task and tag them in a comment, you must have *Read* access on `/home/users and /home/groups` nodes. For details, view [User administration and security](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> If tagging still isn't available after confirming access, your Administrator may need to assign a `user-admin` license to enable this functionality.
+
+![](images/tag-users-review-ui.png){width="350" align="left"}
+
+Tagged users receive both an email and an AEM notification, ensuring they’re promptly informed. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md). 
+
+![](images/mentioned-in-tags-author.png){width="350" align="left"}
 
 **Add attachments to comments** -   If you want to supplement your comment by providing additional information which is available in some other file, you can do so by attaching it with your comment. As a reviewer, you can easily add one or multiple files from your local system to your comment. A file can be added to all supported forms of comments - Highlight, Strikethrough, Insert Text, or a Comment.
 

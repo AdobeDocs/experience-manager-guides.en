@@ -9,7 +9,7 @@ Adobe Experience Manager Guides provides an AI Assistant tool that helps you mak
 
 >[!NOTE]
 >
-> This Authoring feature is available for DITA topics only, and can be accessed from the Editor interface only. On the Home page and Map console, only the **Help** panel is displayed. 
+> This Authoring feature is available for DITA topics only, and can be accessed from the Editor interface only. On the Home page and Map console, only the **Help** panel is displayed. The options available under the Authoring feature are configured at a folder profile level by the Administrators using the Editor settings.
 
 After selecting the text in a topic, you can choose to perform any of the AI Assistant actions:
 

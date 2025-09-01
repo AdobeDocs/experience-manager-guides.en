@@ -12,7 +12,7 @@ Before installing Adobe Experience Manager Guides, ensure your system meets the 
 
 >[!IMPORTANT]
 >
-> For AEM Site output generation in 4.6 release, your Adobe Experience Manager's publish instance must have Service Pack 21, 20, 19. 
+> For AEM Site output generation in 5.0 release, your Adobe Experience Manager's publish instance must have Service Pack 22, 21, 20. 
 
 
 
@@ -29,6 +29,7 @@ Before installing Adobe Experience Manager Guides, ensure your system meets the 
 
 | [!DNL AEM Guides] Release  |  Technical Specifications|   
 |---|---|
+|**AEM Guides 5.0.0**|  **UUID 5.0.0** <ul><li> AEM 6.5  SP 22, SP21, or SP20<br><br> <li>   Java: 11 or 8 <br><br>   <li>Operating Systems: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |
 |**AEM Guides 4.6.0**|  **Non-UUID and UUID 4.6.0** <ul><li> AEM 6.5  SP 21, SP20, or SP19<br><br> <li>   Java: 11 or 8 <br><br>   <li>Operating Systems: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |
 |**AEM Guides 4.4.0**|  **Non-UUID and UUID 4.4.0** <ul><li> AEM 6.5  SP20, SP19, SP18, or SP17  <br><br> <li>   Java: 11 or 8 <br><br>   <li>Operating Systems: <ul><li> Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |
 |**AEM Guides 4.2** |  **Non-UUID and UUID 4.2.1**<br><br><ul> <li>AEM 6.5 SP15, SP14, SP13, or SP12 <br><br><li>Java: 11 or 8   <br><br><li> Operating Systems: <ul><li>Windows Server 2012 R2  <li>Red Hat Linux 7 and 6</ul></ul> <br>**Non-UUID and UUID 4.2**<br><br><ul> <li>AEM 6.5 SP15, SP14, SP13, or SP12 <br><br><li>Java: 11 or 8<br><br> <li> Operating Systems: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |

@@ -14,7 +14,7 @@ Markdown is a lightweight markup language that can help you add formatting eleme
 Perform the following steps to create a Markdown topic from the Editor:
 
 1.  In the Repository panel, select ![](images/Add_icon.svg), and then select **Topic** from the dropdown.
-1.  In the **New topic** dialog box, provide the following details:
+2.  In the **New topic** dialog box, provide the following details:
 
     ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -23,10 +23,10 @@ Perform the following steps to create a Markdown topic from the Editor:
     * **Template**: Select **Markdown** from the dropdown list. The template **Topic** is selected by default. 
     * **Path**: Browse the path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
 
-    >![NOTE]
+    >[!NOTE]
     >
     > In case of an upgrade, you need to add the Markdown template into the current folder profile in use. You can [create a new markdown template from the Editor](./web-editor-features.md#templates) or use an existing template for markdown authoring. For details on how to add authoring templates in Experience Manager Guides, view [Configure global or folder-level profiles](../cs-install-guide/conf-folder-level.md).
-1. Select **Create**.
+3. Select **Create**.
 
    The Markdown topic is created at the selected path and is open for editing.
 
@@ -152,7 +152,7 @@ The References section gives you access to the following features:
 * **Used in**: The Used in references list the documents where the current file is being referred or used.
 * **Outgoing links**: The Outgoing links list the documents that are referred to in the current document.
 
->![NOTE]
+>[!NOTE]
 >
 > All Used In and Outgoing links references are hyperlinked to the documents. You can easily open and edit the linked documents.
 
@@ -164,12 +164,9 @@ The following Experience Manager Guides features are currently not applicable fo
 2. Merge
 3. AI Assistant 
 4. Track changes
-5. Find and replace
-6. Search and Filter 
 
->[!NOTE]
->
-> The **Find and replace** feature does not process Markdown files at the repository level. This includes searching for a Markdown file within a map or folder. However, it can still be used within the Markdown editor. Also, the **Search** and **Filter** options in the Repository view do not process Markdown files. 
+
+
 
 
 **Parent topic:**[Introduction to the Editor](web-editor.md)

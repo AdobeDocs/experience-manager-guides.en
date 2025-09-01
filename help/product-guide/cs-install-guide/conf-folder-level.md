@@ -405,7 +405,7 @@ If you have updated an existing output preset, or you want to make a new output 
 
 ## Configure AI Assistant for smart help and authoring 
 
-For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
+For Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
 The AI Assistant in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your content through smart authoring and content reuse experiences. It brings together two robust AI features — **Authoring** and **Help** — into the Experience Manager Guides interface, enabling you to author documents and access information faster and more efficiently.
 
@@ -448,7 +448,7 @@ Learn more about how to view and add [AI-based smart suggestions](../user-guide/
 
 **Customize the default questions for smart help**
 
-For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+For Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
 You can configure the AI-powered smart **Help** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
