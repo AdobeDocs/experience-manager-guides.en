@@ -116,7 +116,7 @@ By default, the client libraries (clientlibs) provided in the AEM Guides compone
 1. **Edit the Template:**
 
     1. Open the **Product Page** in **Editor Mode**.
-    2. Select **Edit Template** (this will open a URL like conf<site-name>/settings/wcm/templates<template-name>/structure.html).
+    2. Select **Edit Template** (this will open a URL like conf/settings/wcm/templates/structure.html).
 
         ![Edit template](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"}
 
@@ -134,5 +134,4 @@ By default, the client libraries (clientlibs) provided in the AEM Guides compone
 
 >[!NOTE]
 >
-> * Ensure that the templates are tested in a non-production environment before deploying to production.
-> * Refer to the official [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) and [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring) documentation for additional details.
+> Ensure that the templates are tested in a non-production environment before deploying to production.<br><br>Refer to the official [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) and [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring) documentation for additional details.
