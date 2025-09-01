@@ -1,15 +1,15 @@
 ---
-title: Add basic building blocks to your Learning content
-description: Learn about the basic building blocks you can add to your Learning content in the Learning and Training content
+title: Add basic building blocks to your Topic
+description: Learn about the basic building blocks you can add to your Topic in the Learning and Training content
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
 ---
-# Add basic building blocks to your Learning content 
+# Add basic building blocks to your Topic 
 
-You can use the basic editing features available on the Learning content toolbar, as described below:
+You can use the basic editing features available on the Editor toolbar, as described below:
 
-- **Widgets**: Add widgets like accordion, carousel, hotspots, and more to your learning content using the **Insert** menu as shown below. For more details on interactive widgets, view [Use interactive widgets](./lc-widgets.md). 
+- **Widgets**: Add widgets like accordion, carousel, hotspots, and more to your topic or learning content using the **Insert** menu as shown below. For more details on interactive widgets, view [Use interactive widgets](./lc-widgets.md). 
 
      ![](assets/widgets-learning-content.png){width="650" align="left"}
 
