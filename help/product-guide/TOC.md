@@ -601,6 +601,10 @@ breadcrumb-title: AEM Guides Documentation
       - DITA-OT {#dita-ot}
         - [Use AEM metadata in plugin](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
         - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+      - AEM Sites templates {#aem-site-templates}
+        - [Download and install AEM Sites templates for Cloud services](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
+        - [Download and install AEM Sites templates for On-Premise services](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
+        - [Customize existing AEM Sites templates](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
       - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)      
       - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
       - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
