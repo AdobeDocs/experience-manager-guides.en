@@ -14,7 +14,7 @@ Perform the following steps to add quiz to a course:
     ![](assets/workflow-quiz.png){width="650" align="left"}
     
 1. Select **Quiz**.  
-    A **New quiz** dialog opens to specify the relevant details of the quiz. You can select the template from the dropdown menu and specify a suitable title for the same.   
+    A **New learning quiz** dialog opens to specify the relevant details of the quiz. You can select the template from the dropdown menu and specify a suitable title for the same.   
 
     ![](assets/new-learning-quiz.png){width="350" align="left"}
 

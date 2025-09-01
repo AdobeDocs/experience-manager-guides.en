@@ -41,3 +41,4 @@ When you place your cursor on a question specific question or blank space betwee
  1. Right-click the question or option you want to remove.
  1. In the context menu, select **Delete question** (to remove the entire question) or **Delete option** (to remove only the selected option).
 
+![](assets/delete-options-lc.png){width="650" align="left"} 

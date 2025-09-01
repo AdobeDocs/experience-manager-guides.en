@@ -294,9 +294,9 @@ breadcrumb-title: AEM Guides Documentation
         - [Understand Course manager basics](./learning-content/course-manager-basics.md)
         - [Manage your course](./learning-content/manage-course.md)
       - Create and customize Learning content {#customize-lc}
-        - [Learning content overview](./learning-content/lc-overview.md)
-        - [Create Learning content](./learning-content/create-content.md)
-        - [Edit Learning content](./learning-content/edit-content.md)
+        - [Overview](./learning-content/lc-overview.md)
+        - [Create Topic](./learning-content/create-content.md)
+        - [Edit Topic](./learning-content/edit-content.md)
         - [Add basic building blocks](./learning-content/lc-basic-blocks.md)
         - [Use interactive widgets](./learning-content/lc-widgets.md)
         - [Use inline styles](./learning-content/lc-inline-styles.md)

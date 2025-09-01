@@ -14,7 +14,8 @@ Perform the following steps to add a Topic to a course:
     ![](assets/workflow-learning-content.png){width="650" align="left"}
     
 1. Select **Topic**.
-   The **New learning content** dialog is displayed.  
+
+   The **New learning topic** dialog is displayed.  
 
     ![](assets/new-learning-topic-dialog.png){width="350" align="left"}
 
