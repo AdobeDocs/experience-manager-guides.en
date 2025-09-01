@@ -1,5 +1,5 @@
 ---
-title: Download and install AEM Sites templates for on-Prem Services
+title: Download and install AEM Sites templates for On-Premise Services
 description: Learn how to Download and install AEM Sites templates for on Prem Services
 feature: Installation
 role: Admin

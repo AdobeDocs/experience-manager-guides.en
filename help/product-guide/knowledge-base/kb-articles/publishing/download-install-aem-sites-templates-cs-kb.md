@@ -1,5 +1,5 @@
 ---
-title: Download and install AEM Sites templates for  cloud services
+title: Download and install AEM Sites templates for Cloud services
 description: Learn how to Download and install AEM Sites templates for Cloud services
 feature: Installation
 role: Admin
