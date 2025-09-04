@@ -40,19 +40,14 @@ As the initiator of the review task, you can then decide how to proceed based on
 4. Select **Update task** to take further action on the selected review task.      
 5. In the **Update task** dialog, choose one of the following actions:
     
-    - **Reqest a re-review**: Initiates another round of review. You can select a different version of the topic for review. By default, the latest (or the last-edited) version of the topic or map file sent for review is selected. You can also use the **Edit versions** option to set the version of selected topics to **Latest version**, **Version on**, and **Baseline** as per the need.  Reviewers who completed the previous review will receive a notification to provide feedback on the updated version. Other Reviewers, who haven't marked the review task as complete, are notified about the topic update.       
+    - **Reqest a re-review**: Initiates another round of review. You can select a different version of the topic for review. By default, the latest (or the last-edited) version of the topic or map file sent for review is selected. You can also use the **Edit versions** option to set the version of selected topics to **Latest version** and **Baseline** as per the need.  Reviewers who completed the previous review will receive a notification to provide feedback on the updated version. Other reviewers, who haven't marked the review task as complete, are notified about the topic update.       
 
     - **Close review**: Closes the review task. The **Update task** button present at the bottom of the Review panel changes to **Closed** and a notification is sent to all users involved in the review task indicating its closure.
     
     For details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md).
 
     ![](images/update-task-dialog.png){width="350" align="left"}
-
-    >[!NOTE]
-    >
-    > The **Update task** dialog will also include a **Doc state** column to indicate the current state of the listed review topics when using Experience Manager Guides as Cloud Services. 
-
-        
+      
 6. Select **Confirm**.
 
 
@@ -63,3 +58,31 @@ As an Author or initiator of a review task, when you close the task, the **Updat
 Also, the **Update task** button present in the Review panel remains disabled for the other users of the review task. For example, as one of the reviewers of a review task, if you open the task in the Editor, the Update task button will be disabled with a message **You don't have permission to act on this task**. Only the initiator of a review task has permission to update the task from the Editor. 
 
  ![](images/update-task-button-disabled.png){width="350" align="left"}
+
+## Check review status 
+
+You can track the review status of your topics from the **Update task** dialog. This feature helps you to monitor progress, view Reviewer's feedback, and take action when needed. 
+
+Peform the following steps to check the review status of your topics:
+
+1. Open the topic or map file submitted for review in the Editor.
+1. Open the **Review** panel and navigate to the review task created for the topic.
+
+    ![](images/review-panel-review-topic.png){width="650" align="left"}
+1. Select **Update task**. 
+1. In the Update task dialog, select **Check review status**.  
+
+    ![](images/check-review-status-icon.png){width="650" align="left"}
+
+The review task opens in the Review dashboard and displays the following details:
+
+- **Reviewer**: Lists the name of the reviewers assigned to the task.
+- **Status**: Indicates the current review status for each reviewer - **Not started**, **In progress**, and **Completed**. 
+    - **Not started** indicates the Reviewer has not opened the task. 
+    - **In progress** indicates the Reviewer has started reviewing the task. 
+    - **Completed** indicates the Reviewer has marked the task as complete.
+- **Topics Reviewed**: Lists the topics included in the review task that have been reviewed. You can select and open a topic in the Editor.
+- **Comments Left**: Displays the number of comments added to a topic by the Reviewer. 
+- **Last Accessed**: Shows the date when the Reviewer last accessed the review task.
+
+![](images/check-review-status-dashboard.png){width="650" align="left"}
