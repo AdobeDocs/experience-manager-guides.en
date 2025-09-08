@@ -63,8 +63,9 @@ In the Editor, the right panel contains the Review and Track changes icons. The 
 -   **G**: Search for a text within comments.
 -   **H**: Accept or reject a comment.
 
--   **I**: Apply a filter on the comments. You can filter to view comments on the basis of Review Type \(all, highlighted, deleted, inserted, or sticky note\), Review Status \(all, accepted, rejected, or none\), Reviewers \(all or specific reviewer\(s\)\), or Versions of topic.
+-   **I**: Apply a filter on the comments. You can filter to view comments on the basis of Review Type \(all, highlighted, deleted, inserted, or sticky note\), Review Status \(all, accepted, rejected, or none\), Reviewers \(all or specific reviewer\(s\)\), or Versions of topic. By default, none of the filters are selected. 
 
+    ![](images/review-comments-author-filter.png){width="350" align="left"}
 **Reply to a comment by tagging other users**
 
 As an Author and initiator of the review task, you can reply to review comments and tag other users involved in the same review task to direct their attention or assign follow-ups. This functionality is available only for active review tasks. 
