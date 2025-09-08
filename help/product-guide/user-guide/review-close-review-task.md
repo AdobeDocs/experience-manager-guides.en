@@ -78,7 +78,7 @@ The review task opens in the Review dashboard and displays the following details
 
 - **Reviewer**: Lists the name of the reviewers assigned to the task.
 - **Status**: Indicates the current review status for each reviewer - **Not started**, **In progress**, and **Completed**. 
-    - **Not started** indicates the Reviewer has not opened the task. 
+    - **Not started** indicates the Reviewer has either not opened the task or not started adding comments to the topic. 
     - **In progress** indicates the Reviewer has started reviewing the task. 
     - **Completed** indicates the Reviewer has marked the task as complete.
 - **Topics Reviewed**: Lists the topics included in the review task that have been reviewed. You can select and open a topic in the Editor.
