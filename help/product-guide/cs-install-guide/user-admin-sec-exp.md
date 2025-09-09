@@ -74,11 +74,12 @@ The following list contains some recommendations and points related to user grou
 
 -   If you create a project, you are the owner of the project with *Publishers* permissions. For other users in a project to be able to see their team members, create tasks, or create workflows, they must have read access on `/home/users` and `/home/groups` nodes. One way of giving read access on `/home/users` and `/home/groups` nodes is by giving read access to the `projects-users` group.
 
--   *Reviewers* can access and add review comments on a topic under review from the Project console or from inbox notification link. Also, this access is only available till the time the review task is open.
+-   *Reviewers* can access and add review comments on a topic under review from the Project console or from inbox notification link. Also, this access is only available till the time the review task is open. 
 
 -   By default, *Publishers* are granted access and permissions on the following folders in DAM:
-
-    -   `/content/fmdita` –\> Read and Write (Applies to: ![](./assets/Smock_Cloud_18_N.svg))<br>``/var/dxml``–\> Read and Write (Applies to: ![](./assets/Smock_Building_18_N.svg)) 
+    - [!BADGE Cloud 2025.02]{type=Informative tooltip="Check deployment"}: This feature is applicable to Cloud 2025.02 release
+    - [!BADGE On-Prem v4.6+]{type=Positive tooltip="Check deployment"}: This feature applied to On-premise version 4.6 and above.  
+- Read and Write **** 
 
     -   `/content/dam/fmdita-outputs` –\> Read and Write
 
