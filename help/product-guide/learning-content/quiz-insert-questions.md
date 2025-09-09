@@ -34,7 +34,7 @@ When you place your cursor on a question specific question or blank space betwee
  - When used within a question, it allows you to add more elements like images, table, text elements, and more within the question.
  - When used between the questions, it allows you to insert another question or add other authoring elements as mentioned above.
 
- ## Delete question or option
+## Delete question or option
 
  Perform the following steps to delete a question or specific option from a quiz:
 
