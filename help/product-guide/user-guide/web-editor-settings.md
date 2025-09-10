@@ -7,7 +7,7 @@ exl-id: fad2874f-dab5-4538-8502-f7112c51d941
 ---
 # Editor settings
 
-The **Settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the Editor is available only for administrators and folder profile administrators, and allows configuring the following settings:
+The **Workspace settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the Editor is available only for administrators and folder profile administrators, and allows configuring the following settings:
 
 - [General](#general)
 - [Panels](#panels)
@@ -29,7 +29,7 @@ The **Settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the
 
  The General settings allow you to configure the settings to use the Editor. This tab contains five sections: **AI Assistant**, **Authoring**, **Citations**, **Condition**, and **Spell check**.
 
-![](images/editor-setting-general-new.png){width="350" align="left"}
+![](images/editor-setting-general.png){width="350" align="left"}
 
 - **AI Assistant**
     Select this to enable the [AI Assistant](./ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
@@ -44,7 +44,7 @@ The **Settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the
 
     - change the order in which the options appear, drag and drop them as needed.  
 
-    ![](images/authoring-quick-actions.png){width="350" align="left"} 
+    ![](images/authoring-quick-actions-new.png){width="350" align="left"} 
 
     
 
