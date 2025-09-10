@@ -43,7 +43,14 @@ Features available in the navigation bar are explained as follows:
 
   The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.  
 - **Customize overview section**: Allows you to hide or show the widgets in the Widgets section. 
-- **Folder profile in use**: Displays the folder profile that is currently being used.  
+- **Folder profile in use**: Displays the folder profile that is currently being used.
+- **More actions**: Provides access to additional options. Selecting this button opens a menu with the following options:
+
+  - **Assets**: Takes you to a destination based on your setup.
+    - **Cloud Services**: If you are using Cloud Services, selecting the **Assets** option takes you to the AEM Navigation page.
+
+    - **On-premise Software**: If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the **Assets** option takes you to your current file path in the Assets UI.
+  - **Workspace settings**: Takes you to the Editor Settings dialog. For details, refer to [Working with Editor Settings](./web-editor-settings.md).  
 - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
 
 ## Left panel 
