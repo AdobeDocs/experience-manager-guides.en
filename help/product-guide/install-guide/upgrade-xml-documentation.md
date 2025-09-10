@@ -1139,7 +1139,7 @@ During this upgrade, since the `'order'` value is changed from 1000 to 50, you n
 
 >[!TIP]
 >
-> Upgrading to version 5.0.0 Service Pack 2 depends on the current version of Experience Manager Guides. If you are using version 5.0.0 Service Pack 1, 5.0.0, 4.6.4, 4.6.3, 4.6.1, 4.6.0, or 4.4 then you can directly upgrade to version 5.0.0 Service Pack 2.
+> Upgrading to version 5.0.0 Service Pack 2 depends on the current version of Experience Manager Guides. If you are using version 5.0.0 Service Pack 1 or 5.0.0, then you can directly upgrade to version 5.0.0 Service Pack 2.
 
 >[!NOTE]
 >
