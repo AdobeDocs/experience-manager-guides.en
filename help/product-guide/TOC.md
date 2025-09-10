@@ -100,6 +100,9 @@ breadcrumb-title: AEM Guides Documentation
         - [What's new](./release-info/whats-new-5-1-0.md)
         - [Fixed issues](./release-info/fixed-issues-5-1-0.md)
         - [Upgrade instructions](./release-info/upgrade-instructions-5-1-0.md)
+      - 5.0.0 SP2 Release {#500-sp2-release}
+        - [Fixed issues](./release-info/fixed-issues-5-0-0-sp2.md)
+        - [Upgrade instructions](./release-info/upgrade-instructions-5-0-0-sp2.md)
       - 5.0.0 SP1 Release {#500-sp1-release}
         - [Fixed issues](./release-info/fixed-issues-5-0-0-sp1.md)
         - [Upgrade instructions](./release-info/upgrade-instructions-5-0-0-sp1.md)
