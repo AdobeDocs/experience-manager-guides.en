@@ -48,7 +48,7 @@ As the initiator of the review task, you can then decide how to proceed based on
 
     ![](images/update-task-dialog.png){width="350" align="left"}
     
-    You can also [check the status of your review task]((./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task-check-review-status-id199rf0a0uhs).) using the **Check review status** option present in the Update task dialog. Selecting this option takes you to Review dashboard where the status report of your review task is displayed. 
+    You can also [check the status of your review task](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task-check-review-status-id199rf0a0uhs) using the **Check review status** option present in the Update task dialog. Selecting this option takes you to Review dashboard where the status report of your review task is displayed. 
     
     ![](images/check-review-status-icon.png){width="650" align="left"}
       
