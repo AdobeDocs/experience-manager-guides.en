@@ -13,7 +13,7 @@ Learn about [upgrade instructions for the 5.0.0 Service Pack 2 release](upgrade-
 
 ## Platform
 
-- When upgrading from version 4.3.1 (non-UUID) to the latest version through UUID migration, and moving dependent images between folders and subsequently reverting the parent DITA files to earlier versions it results in broken image references. (GUIDES-34315)
+- On upgrading from 4.3.1 to the latest version (5.0+)  after running the UUID migration script, if you move referred images between folders and then revert the DITA files (where these images were referred) to previous versions, it results in broken image references. (GUIDES-34315)
 
 ## Known issues
 
