@@ -5,13 +5,11 @@ feature: API to track post processing for a folder or an asset
 role: Developer
 level: Experienced
 ---
-# API to track post processing for a folder or an asset
+# API to track post processing status for a folder or an asset
 
 The following is a POST method that starts an async job to get the status of assets. 
 
 ## Find status of assets in Guides 
-
-A GET method that registers a data source connector.
 
 **Request URL**
 
@@ -59,13 +57,13 @@ jobId to poll over to get the status of async job.
 } 
 ```
 
-## POLLER API
+## Poller API
 
 A GET method that gets the status of async job run by above API.
 
 **Request URL** 
 
-`http://<aem-guides-server>: <port-number>bin/guides/v1/assets/status` 
+`http://<aem-guides-server>:<port-number>bin/guides/v1/assets/status` 
 
 **Parameters**
 
