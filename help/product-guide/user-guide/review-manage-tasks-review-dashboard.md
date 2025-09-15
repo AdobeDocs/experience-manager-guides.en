@@ -31,7 +31,11 @@ Perform the following steps to access and use the Review Dashboard:
 
     ![](images/review-dashboard.png){align="left"}
 
-    The Review Dashboard displays the details about the review task such as the task name, who started the review, date when the review was started, due date, status, number of new comments that have not been accepted or rejected by the author, and name of reviewers. The tasks are listed in the order of newly created tasks to older tasks.
+    The Review Dashboard displays the details about the review task such as the task name, who started the review, date when the review was started, due date, status, number of new comments that have not been accepted or rejected by the author, and name of reviewers. The tasks are listed in the order of newly created tasks to older tasks. 
+    
+    In the Review dashboard, the **Status** field can show one of the following values: 
+    - **In Progress**: The task is created and assigned to the Reviewer(s). 
+    - **Closed**: The task is completed and, hence closed by the Author or initiator of the task. 
 
     >[!NOTE]
     >
