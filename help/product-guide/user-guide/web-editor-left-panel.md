@@ -173,6 +173,15 @@ You can view the following options under the **General** and **Advanced** tabs.
 This is in sync with the search box on the repository window. For example, if you type `general purpose` in the search box on the repository panel, it also appears in the **Advanced filter** dialog box and vice versa.
 
 - **Search in**: Select the path where you want to search the files present in the Adobe Experience Manager repository. 
+- **DITA Files**: You can look for all **DITA Topics**, and **DITA Maps** present on the selected path. These are selected by default. 
+- **Non-DITA Files**: You can search for **Ditaval Files**,  **Image Files**, **Multimedia**, **Documents**, and **JSON** in the selected path.
+- **Locked by**: Displays a list of users. The list is paginated and loads asynchronously, showing a limited set of users at a time and fetching more as you scroll or navigate. This improves loading speed and overall performance, especially when working with a large number of users.
+- **Modified after** / **Modified before**: Filter content based on modification date. Select a date range from the calendar or choose one of the following time frame options: 
+    - In last two hours
+    - In last week
+    - In last month
+    - In last year
+- **Tags**: Filter content based on tags. 
 
 **Advanced**
 

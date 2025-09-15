@@ -55,7 +55,7 @@ You can view the topic list report of a map by performing the following steps:
     -   **File Location** The complete path of the topic.
     -   **Reference Type** The type of reference – direct or indirect.
     -   **Document State** The state of the topic.
-    -   **Author** The user who worked last on the topic.
+    -   **Author** The user who worked last on the topic. The list is paginated and loads asynchronously, showing a limited set of users at a time and fetching more as you scroll or navigate. This improves loading speed and overall performance, especially when working with a large number of users.
     -   **Parent Map** The list of all maps where the topic is directly referenced.
     >[!NOTE]
     >
