@@ -16,6 +16,9 @@ Adobe Experience Manager Guides exposes `com/adobe/guides/postprocess/complete` 
 - Create
 - Modify
 
+>[!NOTE]
+>
+> The post processing event is triggered by enabling the `fire.processing.events` flag.
 
 You need to create an Adobe Experience Manager event handler to read the properties available in this event and do further processing.
 
