@@ -244,7 +244,7 @@ Alternatively you can right-click in the breadcrumb and select **Generate IDs**.
 
 **Handling Duplicate Element IDs**
 
-If a given topic ID contains elements with duplicate IDs, a **Duplicate IDs** button appears at the bottom-right corner of the Content editing area adjacent to the Editor views. 
+If a given topic contains elements with duplicate IDs, a **Duplicate IDs** button appears at the bottom-right corner of the Content editing area adjacent to the Editor views. 
 
 ![](images/duplicate-element-IDs.png){width="350" align="left"}
 
