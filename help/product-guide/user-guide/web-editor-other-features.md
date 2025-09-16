@@ -248,7 +248,7 @@ If a given topic contains elements with duplicate IDs, a **Duplicate IDs** butto
 
 ![](images/duplicate-element-IDs.png){width="350" align="left"}
 
-Selecting **Duplicate IDs** displays a warning message identifying the specific element(s) with duplicate IDs. You can select the element directly from the error message and update it with a unique ID. 
+Selecting **Duplicate IDs** displays a warning message identifying the specific element(s) with duplicate IDs. You can select the element directly from the warning message and update it with a unique ID. 
 
 >[!NOTE]
 >
