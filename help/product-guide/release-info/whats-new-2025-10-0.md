@@ -17,7 +17,7 @@ Learn about [upgrade instructions for the 2025.10.0  release](../release-info/up
 
 To improve clarity and usability, **Editor settings** in Experience Manager Guides has been renamed to **Workspace settings**.
 
-Additionally, the **More actions** menu (the three-dot menu), previously available only in the Editor and Map console interface, is now accessible from the **Homepage**. With fewer clicks and direct access to key actions, this update enhances workspace navigation and improves overall efficiency.
+Additionally, the **More actions** menu (the three-dot menu), previously available only in the Editor and Map console interface, is now accessible from the [Homepage](../user-guide/intro-home-page.md). With fewer clicks and direct access to key actions, this update enhances workspace navigation and improves overall efficiency.
 
 ![](assets/workspace-settings.png)
 
@@ -29,4 +29,20 @@ For more details, view [Request a re-review or close a review task as an Author]
 
 ![](assets/check-review-status-icon.png){width="650" align="left"}
 
-## 
+## New enhancement to handle topics with duplicate topic IDs 
+
+Experience Manager Guides now includes a **Duplicate IDs** warning button in the Editor to help you quickly identify and fix duplicate topic IDs present within a single topic. This button appears in the bottom-left corner of the Editor interface and is available only in the **Author** view. When duplicate IDs are detected, selecting the button displays a list of all instances where duplicate ID is being used. Selecting an instance highlights the corresponding content in the topic, enabling you to locate and fix the duplicate topic IDs using the right panel.
+
+For details, view [Additional features in the Editor](../user-guide/web-editor-other-features). 
+
+![](assets/duplicate-element-IDs.png){width="650" align="left"}
+
+## API to track post-processing status for folders or assets
+
+A new API is now available for tracking the post-processing status of individual assets and folders. This is especially useful for teams using automated workflows, where publishing needs to happen only after content is fully processed. The API offers a reliable way to confirm readiness, reducing the risk of publishing failures caused by incomplete processing.
+
+For details, view [API to track post-processing status for folders or assets](../api-reference/track-post-processing-status.md).
+
+## Experience faster and smoother filtering with paginated loading
+
+The user list in **Advanced** filter (Repository) and **Author** filter (DITA map reports) now supports asynchronous, paginated loading. Instead of loading the entire list at once, user data is now fetched in smaller sets as you scroll. This enhancement improves performance and usability, especially when working with large user datasets.
