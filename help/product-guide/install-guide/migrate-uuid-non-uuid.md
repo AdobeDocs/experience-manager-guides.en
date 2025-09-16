@@ -19,3 +19,9 @@ You can migrate your non-UUID content to UUID based on the current version of Ex
 * [**4.3.1 non-UUID to 4.3.2 UUID content migration**](./migrate-non-uuid-uuid.md)
 * [**4.6.0 non-UUID to 4.6.1 UUID content migration**](./migrate-non-uuid-uuid-with-versions-latest.md)
 
+## Compatibility matrix
+
+|Current Experience Manager Guides version (non-UUID)|Required Version to migrate to UUID| Supported Upgrade path| 
+|---|---|---|
+| 4.3.1 |  4.3.1 non-UUID|Install 4.3.1 (UUID) and run the migration|
+|4.6.0|   4.6.0 non-UUID |Install 4.6.0 (UUID) and run the migration|
