@@ -9,13 +9,13 @@ level: Experienced
 # UUID content migration {#id226TI0U20XA}
 
 
-You can migrate your non-UUID content to UUID. 
+You can migrate your non-UUID content to UUID based on the current version of Experience Manager Guides that you are using. 
 
 >[!IMPORTANT]
 >
 > Before migrating content to the UUID server, ensure that you've a non-UUID server with compatible AEM Guides version  installed on it.
 
 
-* [**Non-UUID to UUID content migration**](./migrate-non-uuid-uuid.md)
-* [**Migrate versioned content (legacy)**](./migrate-non-uuid-uuid-with-versions-legacy.md)
+* [**4.3.1 non-UUID to 4.3.2 UUID content migration**](./migrate-non-uuid-uuid.md)
+* [**4.6.0 non-UUID to 4.6.1 UUID content migration**](./migrate-non-uuid-uuid-with-versions-latest.md)
 
