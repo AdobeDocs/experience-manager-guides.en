@@ -17,7 +17,7 @@ Learn about [upgrade instructions for the 2025.10.0  release](../release-info/up
 
 To improve clarity and usability, **Editor settings** in Experience Manager Guides has been renamed to **Workspace settings**.
 
-Additionally, the **More actions** menu (the three-dot menu), previously available only in the Editor and Map console interface, is now accessible from the [Homepage](../user-guide/intro-home-page.md). With fewer clicks and direct access to key actions, this update enhances workspace navigation and improves overall efficiency.
+Additionally, the **More actions** menu (the three-dot menu), previously available only in the Editor and Map console interface, is now accessible from the [Homepage](../user-guide/intro-home-page.md) - enhancing workspace navigation and the overall efficiency.
 
 ![](assets/workspace-settings.png)
 
@@ -31,9 +31,9 @@ For more details, view [Request a re-review or close a review task as an Author]
 
 ## New enhancement to handle topics with duplicate topic IDs 
 
-Experience Manager Guides now includes a **Duplicate IDs** warning button in the Editor to help you quickly identify and fix duplicate topic IDs present within a single topic. This button appears in the bottom-left corner of the Editor interface and is available only in the **Author** view. When duplicate IDs are detected, selecting the button displays a list of all instances where duplicate ID is being used. Selecting an instance highlights the corresponding content in the topic, enabling you to locate and fix the duplicate topic IDs using the right panel.
+Experience Manager Guides now includes a **Duplicate IDs** button in the Editor to help you quickly identify and fix duplicate topic IDs present within a single topic. When duplicate IDs are detected, this button appears at the bottom-left corner of the Editor interface in the **Author** view. Upon selecting the button, a list of all instances with duplicate IDs is displayed. Selecting an instance highlights the corresponding content in the topic, enabling you to locate and fix the duplicate topic IDs using the right panel.
 
-For details, view [Additional features in the Editor](../user-guide/web-editor-other-features). 
+For more details, view [Additional features in the Editor](../user-guide/web-editor-other-features). 
 
 ![](assets/duplicate-element-IDs.png){width="650" align="left"}
 
