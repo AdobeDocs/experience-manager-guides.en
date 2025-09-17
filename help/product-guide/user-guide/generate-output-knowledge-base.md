@@ -80,7 +80,7 @@ The following configuration options are displayed for **ServiceNow** as target:
 
 | ServiceNow  options | Description |
 | --- | --- |
-| Publish Profile | Use the dropdown to select from the ServiceNow connection profiles your administrator configures. To learn more about how your administrator can create a publish profile, view the **Editor Settings** feature description in the [Left Panel](./web-editor-features.md#id2051EA0M0HS) section. |
+| Publish Profile | Use the dropdown to select from the ServiceNow connection profiles your administrator configures. To learn more about how your administrator can create a publish profile, view the **Workspace settings** feature description in the [Left Panel](./web-editor-features.md#id2051EA0M0HS) section. |
 |Knowledge Base|Use this field to select the required ServiceNow Knowledge Base. You can configure knowledge bases in the ServiceNow site to store the content based on the permissions. The articles from this DITA map can be published to these knowledge bases. |
 |Category and Sub-category|Categories are like hierarchical trees used to find and classify ServiceNow Knowledge Base articles. Add a category and sub-category to publish the topics and sub-topics of the TOC to that category and sub-category on the ServiceNow site.|
 

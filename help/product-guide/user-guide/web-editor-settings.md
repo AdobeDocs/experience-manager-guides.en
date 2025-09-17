@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 exl-id: fad2874f-dab5-4538-8502-f7112c51d941
 ---
-# Editor settings
+# Workspace settings
 
 The **Workspace settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the Editor is available only for administrators and folder profile administrators, and allows configuring the following settings:
 
@@ -35,7 +35,7 @@ The **Workspace settings** option present in the [Tab bar](./web-editor-tab-bar.
     Select this to enable the [AI Assistant](./ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
 
     After enabling the **AI Assistant** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below.  
-    These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the editor settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Editor settings** and save the updated configuration.  
+    These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the Workspace settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Workspace settings** and save the updated configuration.  
     For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](./ai-assistant-right-panel.md).
 
     From the **Authoring quick actions** menu, you can: 

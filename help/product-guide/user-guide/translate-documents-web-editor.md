@@ -213,7 +213,7 @@ Select the name of the reference in the dialog to open it in preview mode. You c
 > 
 >This feature is available for the new translation projects you create using Experience Manager Guides 2404 release or later.  It will not impact any existing projects.
 
-Your administrator can configure the **Translation project cleanup after completion** option under the **Translation** tab in **Editor Settings** to disable or delete the translation projects automatically. 
+Your administrator can configure the **Translation project cleanup after completion** option under the **Translation** tab in **Workspace settings** to disable or delete the translation projects automatically. 
 
 For effecting document management, Experience Manager Guides provides the ability to delete the translation projects after you have completed the translation. 
 

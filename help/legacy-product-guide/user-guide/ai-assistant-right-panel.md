@@ -11,7 +11,7 @@ Experience Manager Guides provides an AI Assistant tool that helps you make your
 
 >[!NOTE]
 >
-> To add the AI Assistant feature in the right panel, your system administrator must select the **AI Assistant** option under the **Panels** tab in the **Editor Settings** ![Editor Settings icon](./images/editor_settings_icon.svg).
+> To add the AI Assistant feature in the right panel, your system administrator must select the **AI Assistant** option under the **Panels** tab in the **Workspace settings** ![Workspace settings icon](./images/editor_settings_icon.svg).
 > Also, you must check out your document to view the AI Assistant icon.  
 
 This feature is available for DITA topics only. After selecting the text in a topic, you can choose to perform any of the AI Assistant actions:
