@@ -31,7 +31,7 @@ For more details, view [Request a re-review or close a review task as an Author]
 
 ## New enhancement to handle topics with duplicate topic IDs 
 
-Experience Manager Guides now includes a **Duplicate IDs** button in the Editor to help you quickly identify and fix duplicate topic IDs present within a single topic. When duplicate IDs are detected, this button appears at the bottom-left corner of the Editor interface in the **Author** view. Upon selecting the button, a list of all instances with duplicate IDs is displayed. Selecting an instance highlights the corresponding content in the topic, enabling you to locate and fix the duplicate topic IDs using the right panel.
+Experience Manager Guides now includes a **Duplicate IDs** button in the Editor to help you quickly identify and fix duplicate topic IDs present within a single topic. When duplicate IDs are detected, this button appears at the bottom-left corner of the Editor interface in the **Author** view. Upon selecting the button, a list of all instances with duplicate IDs is displayed in a popover. Selecting an instance highlights the corresponding content in the topic, enabling you to locate and fix the duplicate topic IDs using the right panel.
 
 For more details, view [Additional features in the Editor](../user-guide/web-editor-other-features). 
 
