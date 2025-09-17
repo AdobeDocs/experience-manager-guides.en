@@ -19,7 +19,7 @@ Learn about [upgrade instructions for the 2025.10.0 release](upgrade-instruction
 - When you add the same reference multiple times to a DITA map, the **Map** view displays the title only for the last occurrence, while the previous ones show the UUID of the reference. (GUIDES-9699)
 - The DITAVAL files remain editable,  even when they are locked by another user or when the server has **disable edit without checkout** enabled and the file is opened in read-only mode. (GUIDES-27754)
 - When zooming in the screen of Translation UI, the **Send for Translation** button moves under the ellipsis and becomes enabled even without any asset being selected. (GUIDES-33720)
-- Some logs were being generated from the scheduled jobs, that were not required and were incorrectly marked as errors, resulting in cluttered log files. (GUIDES-31765)
+- Logs for missing nodes were being generated from internal clean up jobs, that were not required and were incorrectly marked as errors, resulting in cluttered log files. (GUIDES-31765)
 
 
 ## Publishing
