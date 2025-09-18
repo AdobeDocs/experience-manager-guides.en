@@ -17,7 +17,7 @@ Learn about [upgrade instructions for the 2025.10.0 release](upgrade-instruction
 - With the **Approval workflow** enabled, the **Start a New Release** button is not visible on the Editor toolbar if both the Left panel and the Content properties panel are open. (GUIDES-29093)
 - When snippet names exceed the width of the snippet panel, they wrap incorrectly onto the next line, resulting in overlap with adjacent snippets and impacting readability. (GUIDES-22685)
 - When you add the same reference multiple times to a DITA map, the **Map** view displays the title only for the last occurrence, while the previous ones show the UUID of the reference. (GUIDES-9699)
-- The DITAVAL files remain editable,  even when they are locked by another user or when the server has **disable edit without checkout** enabled and the file is opened in read-only mode. (GUIDES-27754)
+- The DITAVAL files remain editable,  even when they are locked by another user or when the server has **Disable edit without locking the file** enabled and the file is opened in read-only mode. (GUIDES-27754)
 - When zooming in the screen of Translation UI, the **Send for Translation** button moves under the ellipsis and becomes enabled even without any asset being selected. (GUIDES-33720)
 - Logs for missing nodes were being generated from internal clean up jobs, that were not required and were incorrectly marked as errors, resulting in cluttered log files. (GUIDES-31765)
 
@@ -34,7 +34,7 @@ Learn about [upgrade instructions for the 2025.10.0 release](upgrade-instruction
 
 ## Review
 
-- When a reviewer or initiator completes or updates a task without entering final comments in the **Complete Task** dialog, the notification email sent to them displays the most recent comment from the previous given comments. (GUIDES-33590)
+- When a reviewer completes a review task or initiator updates review task without entering comments, the notification email sent displays the most recent previous comment. (GUIDES-33590)
 
 
 

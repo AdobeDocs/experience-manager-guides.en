@@ -242,7 +242,7 @@ Do the following to automatically generate ID for one or multiple elements:
 
 Alternatively you can right-click in the breadcrumb and select **Generate IDs**.
 
-## Handling Duplicate IDs for elements in a map or topic within Author view
+## Identifying Duplicate IDs for elements in a map or topic within Author view
 
 If a given topic or map contains elements with duplicate IDs, a **Duplicate IDs** button appears at the bottom-right corner of the Content editing area adjacent to the Editor views. 
 
