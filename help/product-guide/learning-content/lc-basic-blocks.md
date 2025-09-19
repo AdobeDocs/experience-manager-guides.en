@@ -1,6 +1,6 @@
 ---
 title: Add basic building blocks 
-description: Learn about the basic building blocks you can add to your Topic or learning content in the Learning and Training content
+description: Learn about the basic building blocks you can add to your Topic or learning content in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d

@@ -1,6 +1,6 @@
 ---
-title: Introduction to Learning and Training content
-description: Learn about the Learning and Training content feature present in Adobe Experience Manager Guides.
+title: Introduction to Product Training and Learning
+description: Learn about the Product Training and Learning feature present in Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: d00bc88c-e6ec-4aa3-971a-e9fbabe9a965

@@ -305,10 +305,10 @@ breadcrumb-title: AEM Guides Documentation
         - [Create Quiz](./learning-content/create-quiz.md)
         - [Edit Quiz](./learning-content/edit-quiz.md)
         - [Insert questions into a Quiz](./learning-content/quiz-insert-questions.md)
+        - [Quiz properties](./learning-content/quiz-properties.md) 
         - Question bank {#question-bank}
           - [Create Question bank](./learning-content/create-qb.md)
-          - [Insert questions from Question bank](./learning-content/insert-questions.md)
-        - [Quiz properties](./learning-content/quiz-properties.md) 
+          - [Insert questions from Question bank](./learning-content/insert-questions.md)        
       - Publish your course {#publish-course} 
         - [About course publishing](./learning-content/publish-overview.md)
         - [Supported presets](./learning-content/course-presets.md)

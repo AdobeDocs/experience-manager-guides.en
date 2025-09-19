@@ -1,6 +1,6 @@
 ---
 title: Supported presets
-description: Gives an introduction to the supported presets for publishing a course in the Learning and Training content
+description: Gives an introduction to the supported presets for publishing a course in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e

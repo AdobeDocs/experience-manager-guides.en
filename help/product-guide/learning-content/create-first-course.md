@@ -7,10 +7,17 @@ exl-id: 8680482d-5688-4bb5-890f-c5a7e4bfdba1
 ---
 # Create your first course 
 
+Courses in Experience Manager Guides can be designed to match different learning goals. While a regular learning course may include topics, quizzes, and summaries, you can also create courses that focus mainly on assessments. For instance, you might set up a course with only a quiz, or a quiz along with one overview topic to quickly check understanding. You can also build a structured path with a pre-assessment quiz, the main course content, and a final quiz. These options help you deliver targeted learning experiences while effectively measuring learner progress.
+
+Before we dive into the step-by-step process, here’s a short walkthrough video that demonstrates how to create your first course. 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)
+
+**Steps to edit a quiz**
+
 Perform the following steps to create your first course: 
 
-1. Navigate to the folder within which you want to create a course and select **New > Course** from the **Options** menu.
-
+1. Navigate to the folder within which you want to create a course and select **New > Course** from the **Options** menu. 
     ![](assets/create-new-course.png)
 
     The **New course dialog** is displayed.  

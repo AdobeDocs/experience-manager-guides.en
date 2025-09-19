@@ -1,6 +1,6 @@
 ---
 title: Edit a Topic
-description: Talks about how to edit the learning topic in the Learning and Training content
+description: Talks about how to edit the learning topic in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: 5ff569bd-cd46-4238-ade2-5367ff60180f

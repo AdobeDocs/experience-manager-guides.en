@@ -1,6 +1,6 @@
 ---
 title: Create Quiz
-description: Learn about creating Quiz in the Learning and Training content.
+description: Learn about creating Quiz in the Product Training and Learning.
 feature: Authoring
 role: User
 exl-id: 96c1d233-66d8-4f4e-b08a-d533d74fe0ff

@@ -1,6 +1,6 @@
 ---
 title: Publish your course Overview
-description: Gives the overview of publishing your course in the Learning and Training content
+description: Gives the overview of publishing your course in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: cb3c17bb-9585-4234-a747-88d38d6da01c

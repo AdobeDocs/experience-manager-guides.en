@@ -1,11 +1,17 @@
 ---
 title: Edit Quiz
-description: Learn how to edit quiz in the Learning and Training content
+description: Learn how to edit quiz in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: a8d967ce-9850-445f-b5fc-63ee14ee0dfa
 ---
 # Edit Quiz
+
+Before we dive into the step-by-step process, here’s a short walkthrough video that demonstrates how to edit a quiz in the quiz Editor. 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469541/aem-guides-learning-content?quality=12&learn=on)
+
+**Steps to edit a quiz**
 
 Perform the following steps for editing the quiz: 
 

@@ -1,6 +1,6 @@
 ---
 title: Quiz properties
-description: Learn about the Quiz properties in the Learning and Training content
+description: Learn about the Quiz properties in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: 5adb063a-92b2-4092-9e8e-2a30ae93af0a

@@ -1,6 +1,6 @@
 ---
 title: Create question bank
-description: Learn how to create a Question bank in the Learning and Training content
+description: Learn how to create a Question bank in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632

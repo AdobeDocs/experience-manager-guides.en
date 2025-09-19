@@ -1,6 +1,6 @@
 ---
 title: Create a Topic
-description: Talks about creating a Topic in the Learning and Training content.
+description: Talks about creating a Topic in the Product Training and Learning.
 feature: Authoring
 role: User
 exl-id: a08a165d-801b-4b35-9626-b27471349327

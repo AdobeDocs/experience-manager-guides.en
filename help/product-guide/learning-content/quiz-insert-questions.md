@@ -1,6 +1,6 @@
 ---
 title: Insert questions into a quiz
-description: Learn how to insert questions into a quiz in the Learning and Training content,
+description: Learn how to insert questions into a quiz in the Product Training and Learning,
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015

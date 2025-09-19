@@ -1,6 +1,6 @@
 ---
 title: SCORM preset configuration
-description: Learn about the various SCORM preset configuration in the Learning and Training content
+description: Learn about the various SCORM preset configuration in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: b3000708-6120-4725-bea1-0b8e58048948

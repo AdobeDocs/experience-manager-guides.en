@@ -1,5 +1,5 @@
 ---
-title: Manage a course in Learning and Training content
+title: Manage a course in Product Training and Learning
 description: Learn about the various features present in Experience Manager Guides that allow you to manage your course efficiently.
 feature: Authoring
 role: User

@@ -1,6 +1,6 @@
 ---
 title: Create SCORM preset
-description: Learn how to create a SCORM preset in the Learning and Training content
+description: Learn how to create a SCORM preset in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: 4a433b9d-594d-42b5-8c59-f246eda7e631
