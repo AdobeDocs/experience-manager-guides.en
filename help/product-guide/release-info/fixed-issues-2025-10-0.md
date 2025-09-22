@@ -18,7 +18,6 @@ Learn about [upgrade instructions for the 2025.10.0 release](upgrade-instruction
 - When snippet names exceed the width of the snippet panel, they wrap incorrectly onto the next line, resulting in overlap with adjacent snippets and impacting readability. (GUIDES-22685)
 - When you add the same reference multiple times to a DITA map, the **Map** view displays the title only for the last occurrence, while the previous ones show the UUID of the reference. (GUIDES-9699)
 - The DITAVAL files remain editable,  even when they are locked by another user or when the server has **Disable edit without locking the file** enabled and the file is opened in read-only mode. (GUIDES-27754)
-- When zooming in the screen of Translation UI, the **Send for Translation** button moves under the ellipsis and becomes enabled even without any asset being selected. (GUIDES-33720)
 - Logs for missing nodes are being generated from internal cleanup jobs that are not required and are incorrectly marked as errors, resulting in cluttered log files. (GUIDES-31765)
 
 
@@ -32,9 +31,16 @@ Learn about [upgrade instructions for the 2025.10.0 release](upgrade-instruction
 - When duplicating PDF templates from the UI, the UUID is also duplicated, causing template files to be deleted and resulting in incorrect PDF outputs. (GUIDES-30456)
 - When generating Native PDF for a DITA map, the title of `example` element is rendering as `h1` heading level, thereby leading to visual inconsistency and improper TOC structure. (GUIDES-19958)
 
+## Translation
+
+- When zooming in the screen of Translation UI, the **Send for Translation** button moves under the ellipsis and becomes enabled even without any asset being selected. (GUIDES-33720)
+- When selecting files with **Out of Sync** status on the Translation UI, and the screen width is constrained due to open Left and Right panels, the **Send for translation** label gets truncated. (GUIDES-33692)
+
 ## Review
 
 - When a reviewer completes a review task or initiator updates review task without entering comments, the notification email sent displays the most recent previous comment. (GUIDES-33590)
+
+
 
 
 
