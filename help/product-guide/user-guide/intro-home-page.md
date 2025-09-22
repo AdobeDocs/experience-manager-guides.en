@@ -50,7 +50,7 @@ Features available in the navigation bar are explained as follows:
     - **Cloud Services**: If you are using Cloud Services, selecting the **Assets** option takes you to the AEM Navigation page.
 
     - **On-premise Software**: If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the **Assets** option takes you to your current file path in the Assets UI.
-  - **Workspace settings**: Takes you to the Workspace Settings dialog. For details, refer to [Working with Workspace Settings](./web-editor-settings.md).  
+  - **Workspace settings**: Takes you to the Workspace Settings dialog. For details, refer to [Configure Workspace settings](../cs-install-guide/workspace-settings.md).  
 - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
 
 ## Left panel 
