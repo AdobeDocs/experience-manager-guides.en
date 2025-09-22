@@ -1,5 +1,5 @@
 ---
-title: Editor settings in Experience Manager Guides
+title: Workspace settings in Experience Manager Guides
 description: Learn about the various settings available in the Editor interface of Experience Manager Guides. 
 feature: Authoring, Features of Web Editor
 role: User
@@ -142,7 +142,7 @@ This contains the Profiles that can be used to publish the **Knowledge Base** ou
 
   - To create a Salesforce profile, select the **Salesforce** Knowledge Base from the **Server type** dropdown. Enter a profile Name. In the **Site URL**, enter the consumer site you would use to publish the output and then add the **Consumer Key** and **Consumer Secret** provided by the Salesforce consumer site. Then, **Validate** and **Save** the newly created profile.
 
-    ![salesforce publish profile in editor settings](./images/salesforce-publish-profile.png){width="550" align="left"}
+    ![salesforce publish profile in workspace settings](./images/salesforce-publish-profile.png){width="550" align="left"}
 
     >[!NOTE]
     >
@@ -184,7 +184,7 @@ This tab contains options to configure the Schematron validations in the Editor.
     >
     > The selected Schematron file(s) will persist for the selected folder profile.
 
-    ![Validation in editor settings](./images/editor-setting-validation.png){width="550" align="left"}
+    ![Validation in workspace settings](./images/editor-setting-validation.png){width="550" align="left"}
 
     This prevents the users from saving any file which breaks a rule defined in the selected Schematron file(s). If this is not selected the file will not be validated before saving the changes.
 
@@ -244,7 +244,7 @@ The metadata can be picked from any property under the `/jcr:content` node of th
 An error is displayed if the metadata path is blank. If you leave the label blank, the last element is picked as the label.     
 
 
-![metadata tab in the editor settings](images/editor-setting-metadata.png){width="550" align="left"}
+![metadata tab in the workspace settings](images/editor-setting-metadata.png){width="550" align="left"}
 
 *Configure the metadata for the **Version History** dialog box.*
  
