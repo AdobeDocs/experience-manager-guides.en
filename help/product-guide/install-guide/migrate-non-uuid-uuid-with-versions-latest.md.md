@@ -8,7 +8,7 @@ level: Experienced
 ---
 # 4.6.0 non-UUID to 4.6.1 UUID content migration
 
-Perform these steps to migrate your content from non-UUID version 4.3.1 to UUID version 4.3.2. 
+Perform these steps to migrate your content from non-UUID version 4.6.0 to UUID version 4.6.1. 
 
 >[!IMPORTANT]
 >
