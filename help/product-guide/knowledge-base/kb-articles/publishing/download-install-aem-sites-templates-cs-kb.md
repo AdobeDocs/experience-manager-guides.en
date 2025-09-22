@@ -4,7 +4,7 @@ description: Learn how to Download and install AEM Sites templates for Cloud ser
 feature: Installation
 role: Admin
 level: Experienced
-
+exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
 ---
 # Download and install AEM Sites templates (Cloud services)
 

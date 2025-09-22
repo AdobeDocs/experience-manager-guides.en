@@ -1,7 +1,7 @@
 ---
 title: Publishing in AEM Guides
 description: Explore the publishing formats in AEM Guides and learn how to deliver content across multiple channels including AEM Sites, PDFs, HTML5, Edge Delivery Services, JSON, and more.
-
+exl-id: 955b13f4-1d25-4b29-892c-6815c12e1db5
 ---
 # Publishing in AEM Guides
 

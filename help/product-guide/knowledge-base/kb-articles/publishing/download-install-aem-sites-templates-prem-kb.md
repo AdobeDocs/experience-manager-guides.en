@@ -4,7 +4,7 @@ description: Learn how to Download and install AEM Sites templates for on Prem S
 feature: Installation
 role: Admin
 level: Experienced
-
+exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
 ---
 # Download and install AEM Sites templates (On-Premise services)
 
@@ -88,4 +88,3 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
 
     5. Enter the **Title** and **Name** for the page.
     6. Select **Create**.
-

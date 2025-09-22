@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Upgrade instructions for Adobe Experience Manager Guides 5.1.0 release
 description: Learn about the compatibility matrix and how to upgrade to the 5.1.0 release of Adobe Experience Manager Guides.
-
+exl-id: 4b7b6756-d260-4baf-a9cb-d99fc02f020f
 ---
 # Upgrade instructions for the 5.1.0 release (September 2025)
 
