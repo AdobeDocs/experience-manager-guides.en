@@ -23,7 +23,7 @@ Learn about [upgrade instructions for the 2025.10.0 release](upgrade-instruction
 
 ## Publishing
 
-- When generating PDFs, the filtering rules in a DITAVAL file are ignored if any property name contains a period.
+- When generating PDFs, the filtering rules in a DITAVAL file are ignored if any property name contains a period. (GUIDES-33229)
 - Salesforce publishing fails with an application error, when a topic with the same name and URL already exists. (GUIDES- 32390)
 - Salesforce publishing displays a successful status on the UI even when a DITA map containing a `topichead` element fails to publish the topics within it. (GUIDES-32143)
 - For HTML5 output preset, the search filter functionality is not working in AEM Assets for DITAVAL filtering, as the corresponding files are not being displayed when the DITAVAL filter is selected. (GUIDES-28231)
