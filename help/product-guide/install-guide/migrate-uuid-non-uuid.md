@@ -16,12 +16,12 @@ You can migrate your non-UUID content to UUID based on the current version of Ex
 > Before migrating content to the UUID server, ensure that you've a non-UUID server with compatible AEM Guides version  installed on it.
 
 
-* [**4.3.1 non-UUID to 4.3.2 UUID content migration**](./migrate-non-uuid-uuid.md)
-* [**4.6.0 non-UUID to 4.6.1 UUID content migration**](./migrate-non-uuid-uuid-with-versions-latest.md)
+- [**4.3.1 non-UUID to 4.3.2 UUID content migration**](./migrate-non-uuid-uuid.md)
+- [**4.6.0 Service Pack 4 non-UUID to 4.6.1 UUID content migration**](./migrate-non-uuid-uuid-latest-version.md)
 
 ## Compatibility matrix
 
-|Current Experience Manager Guides version (non-UUID)|Required Version to migrate to UUID| Supported Upgrade path| 
+|Non-UUID version required for migration|UUID version after migration | Supported upgrade path post-migration| 
 |---|---|---|
-| 4.3.1 |  4.3.1 non-UUID|Install 4.3.1 (UUID) and run the migration|
-|4.6.0|   4.6.0 non-UUID |Install 4.6.0 (UUID) and run the migration|
+|4.3.1 non-UUID |  4.3.2 UUID|Upgrade to 4.6.0 (UUID) and then: <br> <br> `5.0.0 > 5.1.0  > 5.1.0 Service Pack 1`|
+|4.6.0 Service Pack 4 non-UUID|   4.6.1 UUID |Upgrade to 5.0.0 (UUID) and then: <br> <br> `5.1.0  > 5.1.0 Service Pack 1`|
