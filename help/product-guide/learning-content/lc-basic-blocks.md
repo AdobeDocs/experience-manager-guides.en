@@ -7,7 +7,7 @@ exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
 ---
 # Add basic building blocks to your Topic 
 
-To provide a clearer understanding of how to create an Learning Topic and and add basic building blocks to it, the following video offers a brief overview of the features available.
+To provide a clearer understanding of how to create a Learning Topic and add basic building blocks to it, the following video offers a brief overview of the features available.
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides)

@@ -13,7 +13,6 @@ Before we dive into the step-by-step process, here's a short walkthrough video t
 
 >[!VIDEO](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)
 
-**Steps to edit a quiz**
 
 Perform the following steps to create your first course: 
 

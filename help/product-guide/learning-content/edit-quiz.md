@@ -7,9 +7,9 @@ exl-id: a8d967ce-9850-445f-b5fc-63ee14ee0dfa
 ---
 # Edit Quiz
 
-Before we dive into the step-by-step process, here’s a short walkthrough video that demonstrates how to edit a quiz in the quiz Editor. 
+Before we dive into the step-by-step process, here's a short walkthrough video that demonstrates how to edit a quiz in the quiz Editor. 
 
->[!VIDEO](https://video.tv.adobe.com/v/3469541/aem-guides-learning-content?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475209/aem-guides-learning-content)
 
 **Steps to edit a quiz**
 

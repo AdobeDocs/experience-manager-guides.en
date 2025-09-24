@@ -30,3 +30,5 @@ Perform the following steps to insert questions from question bank in the quiz:
     The random questions are added in the quiz as shown below.
 
     ![](assets/inserted-question.png){width="650" align="left"}
+
+For a quick video overview, view [Using Question bank](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides).     
