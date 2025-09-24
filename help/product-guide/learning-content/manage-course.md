@@ -24,7 +24,7 @@ Perform the following steps to add new content in your course:
     - **Question bank**: A shared pool of reusable questions that can be used to create quizzes quickly and consistently. For more details, view [Question bank](./create-qb.md). 
     - **Group**: A learning group helps organize related topics like chapters, topics, and other modules into a logical order, building a clear hierarchy that makes it easier to manage and reuse training materials.     
 3. Select **Create**. 
-    The selected content is created and added to the course.  
+    The selected content is created and added to the course. For a video overview, view [Add new content to course](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) 
 
 ## Add existing content
 
@@ -37,13 +37,15 @@ You can add existing content from your content repository to your course. Perfor
     ![](assets/add-existing-learning-content.png)
 4. Choose **Select**. 
 
- The selected course content is added to the course from the repository.  
+ The selected course content is added to the course from the repository. For a video overview, view [Add existing content to course](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)
 
 ## Remove content 
 
-You can remove any topic from the course by selecting the **Options** menu for that specific topic and then selecting **Remove** as shown below.
+You can remove any topic from the course by selecting the **Options** menu for that specific topic and then selecting **Remove entry** as shown below.
 
 ![](assets/remove-learning-content.png)
+
+For a video overview, view [Remove content from course](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)
 
 ## Create course versions 
 
@@ -66,3 +68,5 @@ The **Show** option determines how topics are displayed. You can choose to prese
 > These view settings apply only within the Course manager and have no impact on the published output. 
 
 ![](assets/course-display-settings.png)
+
+For a video overview, view [Show options](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)

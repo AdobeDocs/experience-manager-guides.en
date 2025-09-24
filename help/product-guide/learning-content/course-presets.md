@@ -13,6 +13,4 @@ When publishing a course, you can choose SCORM and PDF to deliver your content i
 
 - **PDF:** The PDF output preset allows you to publish course content in a professional, print-ready format. The PDF format makes it ideal for sharing content for review or archival purposes.
 
-Before we dive into the step-by-step process, here's a quick video overview to help you visualize how to create, configure and generate a SCORM and PDF output.
-
->[!VIDEO](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content)
+For a video overview on how to create, configure and generate output for a preset, view For [Create and configure presets](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content)

@@ -7,6 +7,11 @@ exl-id: a08a165d-801b-4b35-9626-b27471349327
 ---
 # Create a Topic
 
+Before we dive into the step-by-step process, here's a quick video overview to help you visualize how to create a Learning topic.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3475211/learning-content-aem-guides)
+
+
 Perform the following steps to add a Topic to a course: 
 
 1. Open a course in the **Course manager** and select **Add new** from the **Options** menu.  
