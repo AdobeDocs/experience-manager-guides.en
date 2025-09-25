@@ -15,11 +15,10 @@ For the list of issues that have been fixed in this release, view [Fixed issues 
 
 This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 5.1.0 release. 
 
-### Adobe Experience Manager
-
-**5.1.0 UUID**
-
-Version 6.5 Service Pack 23, Service Pack 22, and Service Pack 21.
+|AEM Guides| AEM Version| Service Pack |
+| --- | --- | --- |
+|5.1.0 (UUID) | 6.5 LTS | 1  |
+|5.1.0 (UUID) | 6.5  | 21, 22, 23 |
 
 For more details, view the [Technical requirements](../install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
 
@@ -44,12 +43,13 @@ For more details, view the [Technical requirements](../install-guide/download-in
 ### New AEM Site template version
 
 
-| Components version | Site version|
-|---|---|
-|guides-components.all-1.4.0|aemg-docs.all-1.2.0|
+|AEM Guides | AEM version | Components version | Site version| 
+|---|---|---| ---|
+|5.1.0 UUID |6.5 LTS | guides-components.all-1.4.1|aemg-docs.all-1.2.0|
+|5.1.0 UUID |6.5 | guides-components.all-1.4.0|aemg-docs.all-1.2.0|
 
 
-## Upgrade to 5.1.0 release of Experience Manager Guides
+## Upgrade to 5.1.0 release of Experience Manager Guides (Compatible with AEM 6.5)
 
 You can easily upgrade your current version of Guides to version 5.1.0. Before you proceed with upgrading to version 5.1.0 of Experience Manager Guides, you must consider the following points:
 
@@ -65,3 +65,8 @@ You can easily upgrade your current version of Guides to version 5.1.0. Before y
 >You must install AEM service pack before upgrading Experience Manager Guides version.
 
 For details, view [Upgrade instructions for the On-premise releases](../install-guide/upgrade-xml-documentation.md) of Experience Manager Guides.
+
+## Upgrade to 5.1.0 release of Experience Manager Guides (Compatible with AEM 6.5 LTS)
+
+In order to upgrade to 5.1.0 release of Experience Manager Guides, you must first upgrade to AEM 6.5 LTS. For details, view [Upgrading to Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade). 
+
