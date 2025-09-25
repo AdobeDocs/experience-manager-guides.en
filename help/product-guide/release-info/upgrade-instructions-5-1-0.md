@@ -45,7 +45,7 @@ For more details, view the [Technical requirements](../install-guide/download-in
 
 |AEM Guides | AEM version | Components version | Site version| 
 |---|---|---| ---|
-|5.1.0 UUID |6.5 LTS | guides-components.all-1.4.0|aemg-docs.all-1.2.0|
+|5.1.0 UUID |6.5 LTS | guides-components.all-1.4.1|aemg-docs.all-1.2.0|
 |5.1.0 UUID |6.5 | guides-components.all-1.4.0|aemg-docs.all-1.2.0|
 
 
