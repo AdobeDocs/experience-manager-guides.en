@@ -44,17 +44,13 @@ Learn about [upgrade instructions for the 2025.10.0 release](upgrade-instruction
 
 Adobe has identified the following known issues for the 2025.10.0 release:
 
-- When opening a URL with a previously opened DITA topic or refreshing an opened DITA topic, it fails to locate the topic in the repository despite the **Always locate files in repository** setting being enabled in the User preferences. (GUIDES-35565)
-**Workaround**: Select the topic tab to locate the file in the repository.
+- When opening a URL with a previously opened DITA topic or refreshing an opened DITA topic, it fails to locate the topic in the repository despite the **Always locate files in repository** setting being enabled in the User preferences. (GUIDES-35565)<br>**Workaround**: Select the topic tab to locate the file in the repository.
 
-- When creating a new file in Author view with multiple files already open, the Right panel fails to refresh and displays incorrect data if the cursor is placed on an element tag in a different file. (GUIDES-35450)
-**Workaround**: Switch tabs or refresh the page to resolve the issue.
+- When creating a new file in Author view with multiple files already open, the Right panel fails to refresh and displays incorrect data if the cursor is placed on an element tag in a different file. (GUIDES-35450)<br>**Workaround**: Switch tabs or refresh the page to resolve the issue.
 
-- When unlocking a file that is previously set to Read-only and then attempting to unlock it again, the system incorrectly displays the error message **Selected files are not locked**. (GUIDES-35421)
-**Workaround**: Refresh the page or lock/unlock the topic to resolve the issue.
+- When unlocking a file that is previously set to Read-only and then attempting to unlock it again, the system incorrectly displays the error message **Selected files are not locked**. (GUIDES-35421)<br>**Workaround**: Refresh the page or lock/unlock the topic to resolve the issue.
 
-- When switching to Author view from Source view for a newly opened topic (that is initially opened in Source mode), the topic content becomes blank. (GUIDES-35000)
-**Workaround**: Refresh the page or reopen the topic to resolve the issue.
+- When switching to Author view from Source view for a newly opened topic (that is initially opened in Source mode), the topic content becomes blank. (GUIDES-35000)<br>**Workaround**: Refresh the page or reopen the topic to resolve the issue.
 
 - The **Refresh navigation** button is appearing for DITA topic files, though it should only be available only for DITA maps, book maps, and subject schemes. (GUIDES-35452)
 
