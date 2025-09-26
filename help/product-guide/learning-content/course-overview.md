@@ -18,3 +18,7 @@ Once your course content is complete, output presets are configured to publish t
 The following diagram outlines the course workflow at a glance. 
 
 ![](assets/learning-course-workflow.png)
+
+Before we dive into the details, here's a short walkthrough video that showcases an overview of Product Training and Learning content in Experience Manager Guides; covering course creation, content addition, and publishing in the desired format.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3475302/learning-content-aem-guides)

@@ -21,3 +21,6 @@ You can configure the quiz properties using the following options:
 - You can also configure additional settings such as answer submission options, feedback and review options, quiz timing, and layout preferences as shown below. 
 
     ![](assets/additional-quiz-properties.png){width="350" height="200" align="left"}
+
+- You can use the option **Allow content revisit** in Quiz Properties to revisit course content during an ongoing quiz; similar to an open book test. However, when this option is enabled, you cannot configure submission options, and the quiz timing feature is disabled.
+    ![](assets/quiz-allow-content-revist.png){width="350" height="200" align="left"}    
