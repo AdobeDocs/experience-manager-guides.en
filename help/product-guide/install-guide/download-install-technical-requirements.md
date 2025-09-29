@@ -10,11 +10,6 @@ level: Experienced
 
 Before installing Adobe Experience Manager Guides, ensure your system meets the following technical requirements for the given release:
 
->[!IMPORTANT]
->
-> For AEM Site output generation in 5.1.0 release (with AEM 6.5), your Adobe Experience Manager's publish instance must have Service Pack 23, 22, 21. <br>
-> For AEM Site output generation in the 5.1.0 release (with AEM 6.5 LTS), you Adobe Experience Manager's publish instance must have AEM 6.5 LTS Service Pack 1.
-
 **Supported browser**
 
 -   Google Chrome
