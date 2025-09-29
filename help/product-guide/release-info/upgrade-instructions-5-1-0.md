@@ -48,6 +48,11 @@ For more details, view the [Technical requirements](../install-guide/download-in
 |5.1.0 UUID |6.5 LTS | guides-components.all-1.4.1|aemg-docs.all-1.2.0|
 |5.1.0 UUID |6.5 | guides-components.all-1.4.0|aemg-docs.all-1.2.0|
 
+## Upgrade to 5.1.0 release of Experience Manager Guides (Compatible with AEM 6.5 LTS)
+
+In order to upgrade to 5.1.0 release of Experience Manager Guides, you must first upgrade from **AEM 6.5** to **AEM 6.5 LTS**. For details, view [Upgrading to Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade). 
+
+If you prefer not to upgrade from AEM 6.5 to AEM 6.5 LTS, you can skip this section and proceed with the upgrade steps mentioned in the below section.
 
 ## Upgrade to 5.1.0 release of Experience Manager Guides (Compatible with AEM 6.5)
 
@@ -66,7 +71,4 @@ You can easily upgrade your current version of Guides to version 5.1.0. Before y
 
 For details, view [Upgrade instructions for the On-premise releases](../install-guide/upgrade-xml-documentation.md) of Experience Manager Guides.
 
-## Upgrade to 5.1.0 release of Experience Manager Guides (Compatible with AEM 6.5 LTS)
-
-In order to upgrade to 5.1.0 release of Experience Manager Guides, you must first upgrade to AEM 6.5 LTS. For details, view [Upgrading to Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade). 
 
