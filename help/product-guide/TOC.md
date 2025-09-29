@@ -96,6 +96,13 @@ breadcrumb-title: AEM Guides Documentation
         - [January release notes](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
+      - 5.1.0 Release {#510-release}
+        - [What's new](./release-info/whats-new-5-1-0.md)
+        - [Fixed issues](./release-info/fixed-issues-5-1-0.md)
+        - [Upgrade instructions](./release-info/upgrade-instructions-5-1-0.md)
+      - 5.0.0 SP2 Release {#500-sp2-release}
+        - [Fixed issues](./release-info/fixed-issues-5-0-0-sp2.md)
+        - [Upgrade instructions](./release-info/upgrade-instructions-5-0-0-sp2.md)
       - 5.0.0 SP1 Release {#500-sp1-release}
         - [Fixed issues](./release-info/fixed-issues-5-0-0-sp1.md)
         - [Upgrade instructions](./release-info/upgrade-instructions-5-0-0-sp1.md)
@@ -548,6 +555,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Delta content migration](./knowledge-base/expert-sessions/migration-delta-content.md)
     - [Smarter PDF Publishing with Native PDF](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
     - [New UX and AI Capabilities in AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
+    - [Publishing in AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
   - Articles {#kb-articles}
     - Authoring {#authoring}
       - Web Editor {#webeditor}
@@ -602,6 +610,10 @@ breadcrumb-title: AEM Guides Documentation
       - DITA-OT {#dita-ot}
         - [Use AEM metadata in plugin](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
         - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+      - AEM Sites templates {#aem-site-templates}
+        - [Download and install AEM Sites templates for Cloud services](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
+        - [Download and install AEM Sites templates for On-Premise services](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
+        - [Customize existing AEM Sites templates](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
       - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)      
       - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
       - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
