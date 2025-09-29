@@ -1,6 +1,6 @@
 ---
 title: PDF preset configuration
-description: Configure the PDF preset in the Learning and Training content.
+description: Configure the PDF preset in the Product Training and Learning.
 feature: Authoring
 role: User
 exl-id: 52bc8f90-e4ae-4e83-bb1c-9d152fa9bb65

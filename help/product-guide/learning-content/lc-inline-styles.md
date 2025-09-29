@@ -1,21 +1,26 @@
 ---
 title: Use inline styles
-description: Learn about how to use various inline styles when creating Learning content in the Learning and Training content
+description: Learn about how to use various inline styles when creating Learning content in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
 ---
 # Use inline styles 
 
-Apply inline styles to customize the appearance of specific text directly within your course content. This allows for quick formatting adjustments such as font size, color, alignment, and more. You can modify the inline styles for the selected text using the **Content properties** panel. 
+Apply inline styles to customize the appearance of specific text directly within your course content. This allows for quick formatting adjustments such as font size, color, alignment, and more. You can modify the inline styles for the selected text using the **Content properties** panel.
 
 >[!NOTE]
 >
 > These styling options will be visible only if they are enabled by the Administrator. 
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
+
+
+The following options inline styling options are available. 
+
 ![](assets/content-properties-learning-content.png){width="350" align="left"}
 
-The following options are available: 
 
 - **Font:** Enables you to customize the text appearance using various options such as font family, font weight, text decoration, font size, and more. These settings help you style your content as shown in the example below. 
 

@@ -1,11 +1,17 @@
 ---
 title: Edit Quiz
-description: Learn how to edit quiz in the Learning and Training content
+description: Learn how to edit quiz in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: a8d967ce-9850-445f-b5fc-63ee14ee0dfa
 ---
 # Edit Quiz
+
+Before we dive into the step-by-step process, here's a short walkthrough video that demonstrates how to edit a quiz in the quiz Editor. 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3475209/aem-guides-learning-content)
+
+**Steps to edit a quiz**
 
 Perform the following steps for editing the quiz: 
 
@@ -15,5 +21,5 @@ Perform the following steps for editing the quiz:
     ![](assets/quiz-lock.png){width="650" align="left"}
 
 1. You can [add questions to the quiz](./quiz-insert-questions.md) as well as [insert questions from the question bank](./insert-questions.md).
-1. To save your work, use **Save as new version** to create a new version, or press Ctrl+S to overwrite the existing file.    
+1. To save your work, use **Save as new version** to create a new version, or press `Ctrl+S` to overwrite the existing file.    
 1. After saving the quiz, you can **Unlock** the topic for others to edit.
