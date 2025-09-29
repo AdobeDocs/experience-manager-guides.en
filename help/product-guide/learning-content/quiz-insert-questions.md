@@ -31,14 +31,14 @@ When you place your cursor on a question specific question or blank space betwee
 
  ![](assets/insert-paragraph-here-arrow.png){width="650" align="left"} 
 
- - When used within a question, it allows you to add more elements like images, table, text elements, and more within the question.
- - When used between the questions, it allows you to insert another question or add other authoring elements as mentioned above.
+- When used within a question, it allows you to add more elements like images, table, text elements, and more within the question.
+- When used between the questions, it allows you to insert another question or add other authoring elements as mentioned above.
 
- ## Delete question or option
+## Delete question or option
 
- Perform the following steps to delete a question or specific option from a quiz:
+Perform the following steps to delete a question or specific option from a quiz:
 
- 1. Right-click the question or option you want to remove.
- 1. In the context menu, select **Delete question** (to remove the entire question) or **Delete option** (to remove only the selected option).
+1. Right-click the question or option you want to remove.
+1. In the context menu, select **Delete question** (to remove the entire question) or **Delete option** (to remove only the selected option).
 
 ![](assets/delete-options-lc.png){width="650" align="left"} 
