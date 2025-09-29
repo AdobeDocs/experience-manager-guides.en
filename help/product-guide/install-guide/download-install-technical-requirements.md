@@ -8,7 +8,7 @@ level: Experienced
 ---
 # Technical requirements {#id213BCG003XA}
 
-Before installing Adobe Experience Manager Guides, ensure your system meets the following technical requirements for the given release:
+Before installing Adobe Experience Manager Guides, ensure your system meets the technical requirements mentioned below for the given release. 
 
 **Supported browser**
 
