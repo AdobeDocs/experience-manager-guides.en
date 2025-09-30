@@ -1303,7 +1303,7 @@ Index definition is updated for damAssetLucene with Guides. Refer to [this artic
 
 >[!TIP]
 >
-> If you are upgrading to version 5.1.0 on AEM 6.5 LTS, then you must first upgrade your current AEM installation to AEM 6.5 LTS. For details, view [Upgrading to Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade). 
+> If you are upgrading to version 5.1.0 on AEM 6.5 LTS, then you must first upgrade your current AEM installation to AEM 6.5 LTS. For details, view [Upgrading to Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade) <br> <br>. 
 > Upgrading to version 5.1.0 on AEM 6.5 depends on the current version of Experience Manager Guides. If you are using version 4.6.3, 4.6.4, 5.0.0, or 5.0.0 Service Pack 1, then you can directly upgrade to version 5.1.0. 
 >[!NOTE]
 >
