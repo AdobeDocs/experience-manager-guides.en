@@ -42,7 +42,7 @@ The selected course content is added to the course from the repository.
 
 >[!NOTE]
 >
->You can also use the **Add Existing**>**File (Resource only zip)** option to include a zip file that gets unzipped and integrated into the folder structure of the final SCORM output. This helps streamline resource packaging during course publishing.
+>You can also use the **Add Existing** > **File (Resource only zip)** option to include a zip file that gets unzipped and integrated into the folder structure of the final SCORM output. This helps streamline resource packaging during course publishing.
 
 For a video overview, view [Add existing content to course](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
 
