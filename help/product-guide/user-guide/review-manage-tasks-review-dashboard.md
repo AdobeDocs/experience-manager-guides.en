@@ -34,8 +34,8 @@ Perform the following steps to access and use the Review Dashboard:
     The Review Dashboard displays the details about the review task such as the task name, who started the review, date when the review was started, due date, status, number of new comments that have not been accepted or rejected by the author, and name of reviewers. The tasks are listed in the order of newly created tasks to older tasks. 
     
     In the Review dashboard, the **Status** field can show one of the following values: 
-    - **In Progress**: The task is created and assigned to the Reviewer(s). 
-    - **Closed**: The task is completed and, hence closed by the Author or initiator of the task. 
+    - **In Progress**: The review is still on-ongoing. 
+    - **Closed**: The review task has been completed.  
 
     >[!NOTE]
     >
@@ -113,7 +113,11 @@ You can perform the following actions under the **Reviewers** tab:
 
 ## Check the status of a review task {#check-review-status-id199RF0A0UHS}
 
-From the main Review Dashboard page, if you select a review task and choose **Status**, the status report of the review task is shown.
+In Experience Manager Guides, each review task has a status that reflects its current status. From the Review Dashboard, you can access this information by selecting a task and choosing the **Status** option.
+
+![](images/review-dashboard-select-option.png){width="650" align="left"}
+
+This opens a status report of the review task as shown below:
 
 ![](images/check-review-status-dashboard.png){width="650" align="left"}
 
