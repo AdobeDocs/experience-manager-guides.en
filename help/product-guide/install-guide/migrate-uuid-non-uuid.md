@@ -6,7 +6,7 @@ feature: Migration
 role: Admin
 level: Experienced
 ---
-# UUID content migration {#id226TI0U20XA}
+# Non-UUID to UUID content migration {#id226TI0U20XA}
 
 
 You can migrate your non-UUID content to UUID based on the current version of Experience Manager Guides that you are using. 
@@ -26,5 +26,5 @@ Use the following matrix to determine the correct migration path based on your c
 
 For detailed steps on migrating your content, refer to the following articles:
 
-- [**4.3.1 non-UUID to 4.3.2 UUID content migration**](./migrate-non-uuid-uuid.md)
-- [**4.6.0 Service Pack 4 non-UUID to 4.6.1 UUID content migration**](./migrate-non-uuid-uuid-latest-version.md)
+- [**4.3.1 non-UUID to 4.3.2 UUID content migration**](./migrate-non-uuid-4-3.md)
+- [**4.6.0 Service Pack 4 non-UUID to 4.6.1 UUID content migration**](./migrate-non-uuid-uuid-4-6.md)
