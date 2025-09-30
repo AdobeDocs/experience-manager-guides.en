@@ -19,14 +19,14 @@ This section points the compatibility matrix for the software applications suppo
 
 | Experience Manager Guides as a Cloud Release| FMPS | FrameMaker |
 | --- | --- | --- |
-| 2025.08.0 | Not compatible | 2022 or higher |
+| 2025.10.0 | Not compatible | 2022 or higher |
 
 
 ### Oxygen Connector
 
 | Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
 | --- | --- | --- | --- | --- |
-| 2025.08.0| 3.8 -uuid 1|   3.8 -uuid 1 | 2.3 | 2.3 | 
+| 2025.10.0| 3.8 -uuid 1|   3.8 -uuid 1 | 2.3 | 2.3 | 
 
 
 ### Knowledge base template version
@@ -43,7 +43,7 @@ This section points the compatibility matrix for the software applications suppo
 |guides-components.all-1.4.0| aemg-sites-template-1.3.0|
 
 
-## Upgrade to 2025.08.0 release
+## Upgrade to 2025.10.0 release
 
 Experience Manager Guides is upgraded automatically upon upgrading the current (latest) release of Experience Manager as a Cloud Service.
 

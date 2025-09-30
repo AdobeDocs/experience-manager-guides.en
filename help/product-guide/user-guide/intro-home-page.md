@@ -51,6 +51,11 @@ Features available in the navigation bar are explained as follows:
 
     - **On-premise Software**: If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the **Assets** option takes you to your current file path in the Assets UI.
   - **Workspace settings**: Takes you to the Workspace Settings dialog. For details, refer to [Configure Workspace settings](../cs-install-guide/workspace-settings.md).  
+
+    >[!NOTE]
+    >
+    > On the Home page, the option of Workspace settings is available only for Cloud services setup. For on-premise setup you can continue to access these settings via the Editor interface and Map console under More options > Settings.
+  
 - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
 
 ## Left panel 

@@ -47,4 +47,8 @@ A powerful, AI-driven tool designed to enhance your productivity through smart h
    - **On-premise Software**: If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the **Assets** option takes you to your current file path in the Assets UI.
 - **Workspace settings**: Takes you to the Workspace settings dialog. For details, refer to [Configure Workspace settings](./web-editor-settings.md). 
 
+>[!NOTE]
+>
+> The **Workspace settings** option is available only for **Cloud services** setup. For **on-premise** setup you can continue to access these settings via the Editor interface and Map console under **More options** > **Settings**.
+
 **Parent topic:**[Introduction to the Editor](web-editor.md)
