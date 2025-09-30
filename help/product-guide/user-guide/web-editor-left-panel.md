@@ -638,10 +638,8 @@ If a block element has its own text, it is displayed along with that block eleme
 
 ![](images/outline-view-block-element.png){width="550" align="left"}
 
-If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. You can also assign display attributes configured by your administrator under the **Display attributes** tab in the **Settings**. The attributes defined for an element are displayed in the Layout and the Outline view.
+If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. You can also assign display attributes configured by your administrator under the **Display attributes** tab in the **Workspace settings** (appearing as **Settings** for **On-Prem**). The attributes defined for an element are displayed in the Layout and the Outline view.
 
-
-For more details, view the *Display attributes* within the *Settings* feature description in the left panel.
 
 **Search feature**
 
@@ -936,7 +934,7 @@ You can also change the values from the attribute's drop-down in the Source view
 
 You can also view and apply the subject scheme from the Conditions panel.
 
-To view the subject scheme from the Conditions panel, your system administrator must select the **Show subject scheme in the Conditions panel** option under the General tab in Settings. For more details, view the **Settings** section in the [Tab bar](./web-editor-tab-bar.md).
+To view the subject scheme from the Conditions panel, your system administrator must select the **Show subject scheme in the Conditions panel** option under the General tab in **Workspace settings** (appearing as **Settings** for **On-Prem**). For more details, view the [Tab bar](./web-editor-tab-bar.md).
 
 The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
 
@@ -1059,7 +1057,7 @@ To perform the global search and replace, perform the following steps:
 1. Select **Replace single occurrence** \( ![](images/replace-icon.svg)\) to replace the currently highlighted search term in the topic or select Next match ![](images/next-match-in-search.png) or ![](images/previous-match-in-search.png) Previous match to move to the next or previous occurrence of the text.
 1. Select **Replace all** \( ![](images/replace-all-in-file-icon.svg)\)to replace all occurrences of the searched term in a single file with the replace term in a single click. You will be shown a notification after replacing all the occurrences in the selected file.
 
-To enable the **Replace all** icon, your system administrator must select the option **Enable Replace All** under the **General** tab in **Settings**.
+To enable the **Replace all** icon, your system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
 
     >[!NOTE]
     >

@@ -49,6 +49,6 @@ A powerful, AI-driven tool designed to enhance your productivity through smart h
 
 >[!NOTE]
 >
-> The **Workspace settings** option is available only for **Cloud services** setup. For **on-premise** setup you can continue to access these settings via the Editor interface and Map console under **More options** > **Settings**.
+> If using the Adobe Experience Manager Guides in an On-Premise setup , the Workspace settings option continues to appear as **Settings** under the More actions menu.
 
 **Parent topic:**[Introduction to the Editor](web-editor.md)

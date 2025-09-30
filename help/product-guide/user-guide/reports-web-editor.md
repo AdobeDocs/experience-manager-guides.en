@@ -142,7 +142,7 @@ To update metadata, perform the following steps:
 
 This feature enables you to add custom metadata columns as per requirement, which are then displayed in the metadata reports. It also provides enhanced flexibility in metadata reporting. To add new custom metadata column perform the following steps:
 
-1.  To add a custom metadata column, select **Settings** from the three dots on the top-right corner of the metadata page.
+1.  To add a custom metadata column, select **Workspace settings** (appearing as **Settings** for **On-Prem**) from the three dots on the top-right corner of the metadata page.
 
     ![](images/custom-metadata-setting.png){width="600" align="left"}
 

@@ -23,7 +23,8 @@ The **Workspace settings** option present in the [Tab bar](./web-editor-tab-bar.
 
 >[!NOTE]
 >
-> If you are updating any default settings, you should reopen documents for the changes to come into effect.
+> - If using the Adobe Experience Manager Guides in an On-Premise setup , the Workspace settings option continues to appear as **Settings** under the More actions menu.
+> - If you are updating any default settings, you should reopen documents for the changes to come into effect.
 
 ## General
 

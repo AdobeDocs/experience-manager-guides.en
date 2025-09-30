@@ -80,7 +80,7 @@ The following configuration options are displayed for **ServiceNow** as target:
 
 | ServiceNow  options | Description |
 | --- | --- |
-| Publish Profile | Use the dropdown to select from the ServiceNow connection profiles your administrator configures. To learn more about how your administrator can create a publish profile, view the **Workspace settings** feature description in the [Left Panel](./web-editor-features.md#id2051EA0M0HS) section. |
+| Publish Profile | Use the dropdown to select from the ServiceNow connection profiles your administrator configures. To learn more about how your administrator can create a publish profile, view the **Workspace settings** (appearing as **Settings** for **On-Prem**) feature description in the [Left Panel](./web-editor-features.md#id2051EA0M0HS) section. |
 |Knowledge Base|Use this field to select the required ServiceNow Knowledge Base. You can configure knowledge bases in the ServiceNow site to store the content based on the permissions. The articles from this DITA map can be published to these knowledge bases. |
 |Category and Sub-category|Categories are like hierarchical trees used to find and classify ServiceNow Knowledge Base articles. Add a category and sub-category to publish the topics and sub-topics of the TOC to that category and sub-category on the ServiceNow site.|
 
@@ -90,7 +90,7 @@ The following configuration options are displayed for **Salesforce** as target:
 
 | Salesforce  options | Description |
 | --- | --- |
-| Publish Profile | Use the drop-down to select from the Salesforce connection profiles your administrator configures. To learn more about how your administrator can create a publish profile, view the **Settings** feature description in the [Tab bar](./web-editor-features.md#tab-bar) section. |
+| Publish Profile | Use the drop-down to select from the Salesforce connection profiles your administrator configures. To learn more about how your administrator can create a publish profile, view the **Workspace settings** (appearing as **Settings** for **On-Prem**) feature description in the [Tab bar](./web-editor-features.md#tab-bar) section. |
 |Record Type| Use the dropdown to select among the record types set up in Salesforce as per the visibility settings based on your user profile. Salesforce Record Types are a way of grouping many records of one type for that object. They define how your publication is organized. For example, you can select FAQ Record Type and publish as per the FAQ page layout and fields.|
 |Article Content Field|You can have different fields and a unique layout for each record type template. Use these fields to enter specific information depending on the type of article. For example, you can view a FAQ article's title, answer, and equation.|
 |Categories| Select a category from the dropdown to publish the topics of the TOC in that category on the Salesforce site.|
