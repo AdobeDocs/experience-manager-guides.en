@@ -21,8 +21,8 @@ Use the following matrix to determine the correct migration path based on your c
 
 |Non-UUID version required for migration|UUID version after migration | Supported upgrade path post-migration| 
 |---|---|---|
-|4.3.1 non-UUID |  4.3.2 UUID|After migrating to version 4.3.2 UUID, you can directly upgrade to 4.6.0 (UUID) followed by sequential upgrades to 5.0.0, 5.1.0, and 5.1.0 Service Pack 1.|
-|4.6.0 Service Pack 4 non-UUID|4.6.1 UUID |After migrating to version 4.6.1 UUID, you can directly upgrade to 5.0.0 (UUID) followed by sequential upgrades to 5.1.0, and 5.1.0 Service Pack 1.|
+|4.3.1 non-UUID |  4.3.2 UUID|After migrating to version 4.3.2 UUID, you can directly upgrade to 4.6.0 (UUID) followed by sequential upgrades to 5.0.0, 5.0.0 Service Pack 2, 5.1.0, and 5.1.0 Service Pack 1.|
+|4.6.0 Service Pack 4 non-UUID|4.6.1 UUID |After migrating to version 4.6.1 UUID, you can directly upgrade to 5.0.0 (UUID) followed by sequential upgrades to 5.0.0 Service Pack 2, 5.1.0, and 5.1.0 Service Pack 1.|
 
 For detailed steps on migrating your content, refer to the following articles:
 
