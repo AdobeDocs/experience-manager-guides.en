@@ -54,7 +54,7 @@ Features available in the navigation bar are explained as follows:
 
     >[!NOTE]
     >
-    > On the Home page, the option of Workspace settings is available only for Cloud services setup. For on-premise setup you can continue to access these settings via the Editor interface and Map console under More options > Settings.
+    > On the Home page, the option of Workspace settings is available only for Cloud services setup. In an On-Premise setup, the More actions option is unavailable on the Home page. However, you can still access the relevant settings through the Editor interface and the Map console, by navigating to More options > Settings.
   
 - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
 
