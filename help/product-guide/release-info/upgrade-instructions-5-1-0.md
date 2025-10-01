@@ -18,7 +18,7 @@ This section lists the compatibility matrix for the software applications suppor
 |AEM Guides| AEM Version| Service Pack |
 | --- | --- | --- |
 |5.1.0 (UUID) | 6.5 LTS | 1  |
-|5.1.0 (UUID) | 6.5  | 21, 22, 23 |
+|5.1.0 (UUID) | 6.5  | 23, 22, 21 |
 
 For more details, view the [Technical requirements](../install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
 
