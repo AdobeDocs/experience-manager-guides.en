@@ -52,7 +52,7 @@ Product updates in terms of new features, enhancements, and bug fixes for suppor
 
 | Release |Event |Schedule |What's new | Upgrade instructions | Status|
 |---|---|---|---|---|---|
-|Adobe Experience Manager Guides 5.1.0 (AEM 6.5 LTS)|Release|September 25, 2025|||Target|
+|Adobe Experience Manager Guides 5.1.0 (AEM 6.5 LTS)|Release|October 8, 2025|||Target|
 
 ### Live releases
 
