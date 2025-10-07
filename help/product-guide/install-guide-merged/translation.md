@@ -86,7 +86,7 @@ The Hide Translation Tab option is not enabled by default and you need to enable
 
 If the connector for the translation vendor does not support DITA content, then the component-based translation workflow needs to be enabled. Once enabled, the translatable content is sent as asset metadata. However, the connector needs to support asset metadata translation for this workflow to work.
 
-Based on the translation workflow used in the server you are using, the component-based translation workflow option should be configured as follows.
+Based on the translation workflow for the server you are using, the component-based translation workflow option should be configured as follows.
 
 >[!BEGINTABS]
 
