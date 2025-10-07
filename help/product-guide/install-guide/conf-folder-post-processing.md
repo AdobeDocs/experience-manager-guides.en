@@ -53,7 +53,7 @@ Perform the following steps to disable the postprocessing on a given path or ign
 
 >[!NOTE]
 >
-> In addition to the ignored and enabled paths configured via the OSGi configuration (`com.adobe.fmdita.config.ConfigManager`), post-processing behavior is also influenced by a repository-level node located at `/var/dxml/postprocess/ignoredPaths`. Commonly referred to as the "cache" in Adobe Experience Manager Guides, this node contains properties that mark specific paths to be ignored, with each path set to a value of true.<br> If a folder is unexpectedly excluded from post-processing and is not listed in the OSGi configuration, it is recommended to check this repository node. If the path appears there with a value of true, it will be ignored. To re-enable processing, the corresponding property can be manually removed from the node.
+> In addition to the ignored and enabled paths configured via the OSGi configuration (`com.adobe.fmdita.config.ConfigManager`), post-processing behavior is also influenced by a repository-level node located at `/var/dxml/postprocess/ignoredPaths`. Commonly referred to as **cache** in Adobe Experience Manager Guides, this node contains properties that mark specific paths to be ignored, with each path set to `true`.<br> If a folder is unexpectedly excluded from post-processing and is not listed in the OSGi configuration, it is recommended to check this repository node. If the path appears there and is set to `true`, it will be ignored. To re-enable processing, you  can remove the corresponding property manually from the node.
 
 ## Rules to enable or disable postprocessing 
 
