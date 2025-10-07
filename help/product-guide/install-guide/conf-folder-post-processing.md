@@ -8,7 +8,7 @@ exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
 ---
 # Disable postprocessing for a folder 
 
-By default, all uploaded assets are processed using the DAM Update Asset workflow. Experience Manager Guides runs an additional processing, called postprocessing, as a part of this workflow. This also helps in generating the UUIDs
+By default, all uploaded assets are processed using the DAM Update Asset workflow. Experience Manager Guides runs an additional processing, called postprocessing, as a part of this workflow. This also helps in generating the UUIDs.
 
 While uploading your files and folders to the *Adobe Experience Manager Assets* server, you can also disable the postprocessing and the generation of UUIDs. 
 
@@ -51,7 +51,9 @@ Perform the following steps to disable the postprocessing on a given path or ign
 
 1.  Click **Save**.
 
-
+>[!NOTE]
+>
+> In addition to the ignored and enabled paths configured via the OSGi configuration (`com.adobe.fmdita.config.ConfigManager`), post-processing behavior is also influenced by a repository-level node located at `/var/dxml/postprocess/ignoredPaths`. Commonly referred to as the "cache" in Adobe Experience Manager Guides, this node contains properties that mark specific paths to be ignored, with each path set to a value of true.<br> If a folder is unexpectedly excluded from post-processing and is not listed in the OSGi configuration, it is recommended to check this repository node. If the path appears there with a value of true, it will be ignored. To re-enable processing, the corresponding property can be manually removed from the node.
 
 ## Rules to enable or disable postprocessing 
 
