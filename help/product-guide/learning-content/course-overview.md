@@ -11,10 +11,14 @@ A Course is a learning unit designed to deliver interactive training experiences
 
 ## How does it work? 
 
-As an Author, you create a course using the available course templates. You then build the course by adding key components, such as Learning content (just like course chapters), Quiz, Learning summary, or a Learning group. These components are brought together and enhanced through an intuitive authoring interface, where content is enriched with text, multimedia, interactive widgets, and assessments to create an engaging learning experience.  
+As an Author, you create a course using the available course templates. You then build the course by adding key components, such as an Overview, Topic, Quiz, Summary, or a Group. These components are brought together and enhanced through an intuitive authoring interface, where content is enriched with text, multimedia, interactive widgets, and assessments to create an engaging learning experience.  
 
 Once your course content is complete, output presets are configured to publish the course.  
 
 The following diagram outlines the course workflow at a glance. 
 
 ![](assets/learning-course-workflow.png)
+
+Before we dive into the details, here's a short walkthrough video that showcases an overview of Product Training and Learning content in Experience Manager Guides; covering course creation, content addition, and publishing in the desired format.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3475302/learning-content-aem-guides)

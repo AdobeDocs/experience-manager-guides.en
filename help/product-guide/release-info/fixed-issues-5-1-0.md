@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 5.1.0 release
 description: Learn about the bug fixes in the 5.1.0 release of Adobe Experience Manager Guides.
-
+exl-id: 08c35e97-10ca-4b75-892b-d95b79432158
 ---
 # Fixed issues in the 5.1.0 release (September 2025)
 
@@ -104,7 +104,6 @@ Adobe has identified the following known issues for 5.1.0 release:
 
 - The most recent task-level comment is displayed in the email notification to the task initiator if the Reviewer completes the task without adding a comment. (GUIDES-33590)
 - In the Merge dialog, the dropdown list incorrectly displays Main content instead of showing the available versions of the selected topic. (GUIDES-30820)
- which the link becomes operational. (GUIDES-30820)
 - Switching between presets that use the same Baseline deactivates the Save button for the current preset. (GUIDES-28025)
 - An empty line is automatically inserted when pasting new content into a new line within a codeblock element.(GUIDES-27842)
 - A topic within a DITA map fails to publish in the AEM Sites output when it is being used as both keydef and topicref within its submaps. (GUIDES-22269)

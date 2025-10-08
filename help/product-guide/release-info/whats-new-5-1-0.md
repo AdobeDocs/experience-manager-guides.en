@@ -2,6 +2,7 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 5.1.0 release
 description: Learn about the new and enhanced features in the 5.1.0 release of Adobe Experience Manager Guides
 role: Leader
+exl-id: 4f65cf99-3ea2-47aa-91fd-ce0c8d9eaa11
 ---
 # What's new in the 5.1.0 release (September 2025)
 
@@ -135,10 +136,3 @@ With this release the settings within the **User preferences** on the Home page 
 Additionally, in the Editor toolbar some quick-access toggles for enabling or disabling Track Changes, Tags, and Non-Breaking Spaces are now grouped under **Show** option within the Menu dropdown for better usability.
 
 For more details, view [Toolbar in the Editor](../user-guide/web-editor-toolbar.md#menu-dropdown).
-
-
-
-
-
-
-

@@ -1,15 +1,21 @@
 ---
-title: Add basic building blocks to your Learning content
-description: Learn about the basic building blocks you can add to your Learning content in the Learning and Training content
+title: Add basic building blocks 
+description: Learn about the basic building blocks you can add to your Topic or learning content in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
 ---
-# Add basic building blocks to your Learning content 
+# Add basic building blocks to your Topic 
 
-You can use the basic editing features available on the Learning content toolbar, as described below:
+To provide a clearer understanding of how to create a Learning Topic and add basic building blocks to it, the following video offers a brief overview of the features available.
 
-- **Widgets**: Add widgets like accordion, carousel, hotspots, and more to your learning content using the **Insert** menu as shown below. For more details on interactive widgets, view [Use interactive widgets](./lc-widgets.md). 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides)
+
+
+You can use the basic editing features available on the Editor toolbar, as described below:
+
+- **Widgets**: Add widgets like accordion, carousel, hotspots, and more to your Topic or learning content using the **Insert** menu as shown below. For more details on interactive widgets, view [Use interactive widgets](./lc-widgets.md). 
 
      ![](assets/widgets-learning-content.png){width="650" align="left"}
 

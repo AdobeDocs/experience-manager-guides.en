@@ -7,7 +7,12 @@ exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
 ---
 # Use interactive widgets
 
-You can enhance the learning content by adding multiple widgets to make the course more interactive. Select the **Insert** menu on the toolbar to access the widgets. The available widgets include:
+You can enhance the learning content by adding multiple widgets to make the course more interactive. Here's a short walkthrough video of the various widgets available.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469531/learning-content-aem-guides)
+
+
+The available widgets designed to enhance user experience and streamline content delivery include:
 
 - **Accordion:** Adds an accordion to the content. You can insert suitable text in both the accordion header and its body. Its properties can be managed using the **Content properties**  panel, including options to allow single or multiple accordions to open simultaneously, as well as to add or remove elements. 
 
