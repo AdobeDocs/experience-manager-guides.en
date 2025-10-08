@@ -44,9 +44,6 @@ Features available to the *reviewers*:
 -   View comments made by other reviewers or replies on comments from author in real time.
 -   Access comments given on older version of topic.
 
->[!NOTE]
->
-> View the *Review* section in the Best practices guide for best practices around creating review task.
 
 -   **[Create a DITA project](authoring-create-dita-project.md)**  
 

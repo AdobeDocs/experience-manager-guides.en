@@ -67,4 +67,4 @@ For more details, view [Configure microservice-based publishing for AEM Guides a
 
 Now along with the AEM **About** information, you can also view the AEM Guides version details. You can view the current version details in the **About** option of the **Help** on the AEM Navigation page. 
 
-![](assets/about-aem-help.png)(width="800" align="left")
+![](assets/about-aem-help.png){width="800" align="left"}

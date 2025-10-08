@@ -1,6 +1,6 @@
 ---
 title: Create question bank
-description: Learn how to create a Question bank in the Learning and Training content
+description: Learn how to create a Question bank in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
@@ -8,7 +8,13 @@ exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
 # Create Question bank   
 
 You can ease the process of creating quizzes by inserting questions directly from a question bank. This feature allows you to reuse existing questions, maintain consistency across assessments, and save time during quiz creation.
-To streamline quiz creation and reuse, you can create a customized question bank tailored to your specific requirements. Follow the steps below to create a question bank. 
+To streamline quiz creation and reuse, you can create a customized question bank tailored to your specific requirements.
+
+Before we dive into the step-by-step process, here's a short walkthrough video that demonstrates how to create a Question bank and use it within a Quiz. 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)
+
+Perform the following steps to create a question bank:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3469321)
 
