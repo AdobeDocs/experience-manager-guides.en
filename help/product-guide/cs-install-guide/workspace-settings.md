@@ -3,7 +3,7 @@ title: Workspace settings in Experience Manager Guides
 description: Learn about the various settings available in the Editor interface of Experience Manager Guides. 
 feature: Authoring, Features of Web Editor
 role: User
-exl-id: fad2874f-dab5-4538-8502-f7112c51d941
+
 ---
 # Workspace settings
 
@@ -23,7 +23,8 @@ The **Workspace settings** option present in the [Tab bar](./web-editor-tab-bar.
 
 >[!NOTE]
 >
-> If you are updating any default settings, you should reopen documents for the changes to come into effect.
+> - If using the Adobe Experience Manager Guides in an On-Premise setup , the Workspace settings option continues to appear as **Settings** under the More actions menu.
+> - If you are updating any default settings, you should reopen documents for the changes to come into effect.
 
 ## General
 

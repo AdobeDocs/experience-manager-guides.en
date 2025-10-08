@@ -43,7 +43,19 @@ Features available in the navigation bar are explained as follows:
 
   The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.  
 - **Customize overview section**: Allows you to hide or show the widgets in the Widgets section. 
-- **Folder profile in use**: Displays the folder profile that is currently being used.  
+- **Folder profile in use**: Displays the folder profile that is currently being used.
+- **More actions**: Provides access to additional options. Selecting this button opens a menu with the following options:
+
+  - **Assets**: Takes you to a destination based on your setup.
+    - **Cloud Services**: If you are using Cloud Services, selecting the **Assets** option takes you to the AEM Navigation page.
+
+    - **On-premise Software**: If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the **Assets** option takes you to your current file path in the Assets UI.
+  - **Workspace settings**: Takes you to the Workspace Settings dialog. For details, refer to [Configure Workspace settings](../cs-install-guide/workspace-settings.md).  
+
+    >[!NOTE]
+    >
+    > On the Home page, the option of Workspace settings is available only for Cloud services setup. In an On-Premise setup, the More actions option is unavailable on the Home page. However, you can still access the relevant settings through the Editor interface and the Map console, by navigating to More options > Settings.
+  
 - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
 
 ## Left panel 
@@ -153,7 +165,7 @@ The User preferences are available to all authors. Using the preferences, you ca
 
 - **General**: The General tab allows you to configure the following settings:
 
-  ![](images/user_preference_editor-new.png){align="left"}
+  ![](images/user_preference_editor.png){align="left"}
 
   - **Folder profile**: The Folder profile controls various configurations related to conditional attributes, authoring templates, output presets and the Editor configurations. The Global profile is shown by default. In addition, if your administrator has configured folder profiles in the system, then those folder profiles are also shown in the Folder profiles list.     
   - **Base path**: By default, when you access the Experience Manager Guides repository from the Editor, you are shown assets from the /content/dam location. Your working folder would most likely be a few folders inside the /content/dam/ folder. You can set the Base path to your working folder and the Repository view then shows you the content from that location upfront. This reduces the time to access your working folder. Also, when you insert any reference or media file in your topic, the file browse location starts with the folder set in the Base path.
@@ -163,7 +175,7 @@ The User preferences are available to all authors. Using the preferences, you ca
 
 - **Appearance**: The Appearance tab provides you with the options to select the themes for the application and the source view of the content editing area. Use this tab to configure the following settings:
 
-  ![](images/user_preference_editor_appearance-new.png){align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
  
     - **Application theme and Source view**: You can choose from the Light or Dark themes for the application and source view. In the case of the Light theme, the toolbars and panels use a light grey color background. In the case of the Dark theme, the toolbars and panels use a black color background. Select **Use device** theme to allow Experience Manager Guides to select the light and dark themes based on the theme of your device. 
     

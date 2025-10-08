@@ -28,17 +28,16 @@ You can upgrade your current version of Experience Manager Guides to version 5.1
 
 For more details, refer to the following procedures:
 
--   [Upgrade from 3.8.5 to version 4.0](#upgrade-from-version-385-to-version-40)
--   [Upgrade to version 4.2](#upgrade-to-version-42)
--   [Upgrade to version 4.2.1](#upgrade-to-version-421)
--   [Upgrade to version 4.3.0](#upgrade-to-version-430)
--   [Upgrade to version 4.3.1](#upgrade-to-version-431)
--   [Upgrade to version 4.3.1.5](#upgrade-to-version-4315)
--   [Upgrade to version 4.4.0](#upgrade-to-version-440)
--   [Upgrade to version 4.6.0](#upgrade-to-version-460)
--   [Upgrade to version 5.0.0](#upgrade-to-version-500)
 -   [Upgrade to version 5.1.0](#upgrade-to-version-510)
-
+-   [Upgrade to version 5.0.0](#upgrade-to-version-500)
+-   [Upgrade to version 4.6.0](#upgrade-to-version-460)
+-   [Upgrade to version 4.4.0](#upgrade-to-version-440)
+-   [Upgrade to version 4.3.1.5](#upgrade-to-version-4315)
+-   [Upgrade to version 4.3.1](#upgrade-to-version-431)
+-   [Upgrade to version 4.3.0](#upgrade-to-version-430)
+-   [Upgrade to version 4.2.1](#upgrade-to-version-421)
+-   [Upgrade to version 4.2](#upgrade-to-version-42)
+-   [Upgrade from 3.8.5 to version 4.0](#upgrade-from-version-385-to-version-40)
 
 
 >[!IMPORTANT]

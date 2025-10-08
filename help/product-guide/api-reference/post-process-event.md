@@ -16,6 +16,9 @@ Adobe Experience Manager Guides exposes `com/adobe/guides/postprocess/complete` 
 - Create
 - Modify
 
+>[!NOTE]
+>
+> The post processing event is triggered by enabling the `fire.processing.events` flag which is a configuration parameter in the `fmdita config manager`. When set to true, it triggers events (com/adobe/guides/postprocess/complete) to track post-processing completion. By default, it is set to false (disabled).
 
 You need to create an Adobe Experience Manager event handler to read the properties available in this event and do further processing.
 

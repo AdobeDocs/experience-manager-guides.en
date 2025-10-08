@@ -240,8 +240,19 @@ Do the following to automatically generate ID for one or multiple elements:
 1.  Select the content on which you want to assign IDs.
 1.  Right-click and select **Generate IDs** from the context menu.
 
-    Alternatively you can right-click in the breadcrumb and select **Generate IDs**.
+Alternatively you can right-click in the breadcrumb and select **Generate IDs**.
 
+## Identifying Duplicate IDs for elements in a map or topic within Author view
+
+If a given topic or map contains elements with duplicate IDs, a **Duplicate IDs** button appears at the bottom-right corner of the Content editing area adjacent to the Editor views. 
+
+![](images/duplicate-element-IDs.png){width="350" align="left"}
+
+Selecting **Duplicate IDs** opens a popover listing all the duplicate IDs. You can select the displayed ID from the popover to navigate to the corresponding element and update it with a unique ID. 
+
+>[!NOTE]
+>
+> The **Duplicate IDs** button is available only in **Author** view, and similar element IDs are permitted across different nested topics.
 
 
 ## Handling large files in the Editor

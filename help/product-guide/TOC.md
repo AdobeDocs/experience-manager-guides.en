@@ -174,8 +174,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Left panel](./user-guide/web-editor-left-panel.md)
           - [Content editing area](./user-guide/web-editor-content-editing-area.md)
           - [Right panel](./user-guide/web-editor-right-panel.md)
-        - [Additional features in the Editor](./user-guide/web-editor-other-features.md)
-        - [Working with the Editor Settings](./user-guide/web-editor-settings.md)
+        - [Additional features in the Editor](./user-guide/web-editor-other-features.md)       
         - [Keyboard shortcuts in the Editor](./user-guide/web-editor-keyboard-shortcuts.md)
         - [Editor views](./user-guide/web-editor-views.md)
         - [Support for Schematron files](./user-guide/support-schematron-file.md)
@@ -363,8 +362,8 @@ breadcrumb-title: AEM Guides Documentation
     - Content migration {#content-migration}
       - [Non-UUID to UUID content migration](./install-guide/migrate-uuid-non-uuid.md)
       - Migration process {#migration-process}
-          - [Migrate non-UUID content with versions](./install-guide/migrate-non-uuid-uuid.md)
-          - [Migrate non-UUID content with versions (legacy)](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md) 
+          - [4.3.1 non-UUID to 4.3.2 UUID content migration](./install-guide/migrate-non-uuid-4-3.md)
+          - [4.6.0 non-UUID to 4.6.1 UUID content migration](./install-guide/migrate-non-uuid-uuid-4-6.md) 
       - [Migrate existing content](./install-guide/migrate-content.md)
       - [Upload existing DITA content](./install-guide/migrate-content-upload-existing-dita-content.md)
       - [Migrate non-DITA content](./install-guide/migrate-content-non-dita.md)
@@ -382,6 +381,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure custom DITA map template](./install-guide/conf-template-tags-custom-dita-map-templates.md)
     - Work with document states {#doc-state}
       - [Configure document states](./install-guide/customize-doc-state.md)
+    - Configure Workspace settings {#workspace-configs}
+      - [Workspace settings](./cs-install-guide/workspace-settings.md)  
     - Work with the Web Editor configurations {#web-editor-configs}
       - [Customize Web Editor](./install-guide/conf-web-editor.md)
       - [Customize toolbar](./install-guide/conf-web-editor-customize-toolbar.md)
@@ -469,6 +470,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure custom DITA map template](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
     - Work with document states {#doc-state-cs}
       - [Configure document states](./cs-install-guide/customize-doc-state.md)
+    - Configure Workspace settings {#workspace-configs}
+      - [Workspace settings](./cs-install-guide/workspace-settings.md)  
     - Work with the Web Editor configurations {#web-editor-configs-cs}
       - [Customize Web Editor](./cs-install-guide/conf-web-editor.md)
       - [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
