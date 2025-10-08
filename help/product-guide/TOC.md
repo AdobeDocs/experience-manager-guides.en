@@ -301,9 +301,9 @@ breadcrumb-title: AEM Guides Documentation
         - [Understand Course manager basics](./learning-content/course-manager-basics.md)
         - [Manage your course](./learning-content/manage-course.md)
       - Create and customize Learning content {#customize-lc}
-        - [Learning content overview](./learning-content/lc-overview.md)
-        - [Create Learning content](./learning-content/create-content.md)
-        - [Edit Learning content](./learning-content/edit-content.md)
+        - [Overview](./learning-content/lc-overview.md)
+        - [Create Topic](./learning-content/create-content.md)
+        - [Edit Topic](./learning-content/edit-content.md)
         - [Add basic building blocks](./learning-content/lc-basic-blocks.md)
         - [Use interactive widgets](./learning-content/lc-widgets.md)
         - [Use inline styles](./learning-content/lc-inline-styles.md)
@@ -312,10 +312,10 @@ breadcrumb-title: AEM Guides Documentation
         - [Create Quiz](./learning-content/create-quiz.md)
         - [Edit Quiz](./learning-content/edit-quiz.md)
         - [Insert questions into a Quiz](./learning-content/quiz-insert-questions.md)
+        - [Quiz properties](./learning-content/quiz-properties.md) 
         - Question bank {#question-bank}
           - [Create Question bank](./learning-content/create-qb.md)
-          - [Insert questions from Question bank](./learning-content/insert-questions.md)
-        - [Quiz properties](./learning-content/quiz-properties.md) 
+          - [Insert questions from Question bank](./learning-content/insert-questions.md)        
       - Publish your course {#publish-course} 
         - [About course publishing](./learning-content/publish-overview.md)
         - [Supported presets](./learning-content/course-presets.md)
@@ -330,6 +330,7 @@ breadcrumb-title: AEM Guides Documentation
     - Configuration guide {#config-lc}
       - [About this guide](./lc-config-guide/introduction.md)
       - [Configure Folder profiles](./lc-config-guide/lc-folder-profile.md)
+      - [Best practices to set up folder structure](./lc-config-guide/best-practices-folder-structure.md)
       - [Configure other settings](./lc-config-guide/lc-other-settings.md) 
     - Video tutorials {#lc-video}  
       - [Author workflow](./lc-video-tutorials/author-workflow.md)

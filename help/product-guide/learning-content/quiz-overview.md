@@ -1,6 +1,6 @@
 ---
 title: Quiz Overview
-description: Gives the overview of Quiz component in the Learning and Training content
+description: Gives the overview of Quiz component in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: 84f8eabb-5289-46ce-87c5-52ffde867d1e
