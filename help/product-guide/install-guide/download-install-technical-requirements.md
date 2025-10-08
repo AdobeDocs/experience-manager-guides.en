@@ -8,11 +8,7 @@ level: Experienced
 ---
 # Technical requirements {#id213BCG003XA}
 
-Before installing Adobe Experience Manager Guides, ensure your system meets the following technical requirements for the given release:
-
->[!IMPORTANT]
->
-> For AEM Site output generation in 5.1.0 release, your Adobe Experience Manager's publish instance must have Service Pack 23, 22, 21. 
+Before installing Adobe Experience Manager Guides, ensure your system meets the technical requirements mentioned below for the given release. 
 
 **Supported browser**
 
@@ -26,7 +22,7 @@ Before installing Adobe Experience Manager Guides, ensure your system meets the 
 
 | [!DNL AEM Guides] Release  |  Technical Specifications|   
 |---|---|
-|**AEM Guides 5.1.0**|  **UUID 5.1.0** <ul><li> AEM 6.5  SP23, SP22, or SP21<br><br> <li>   Java: 11 or 8 <br><br>   <li>Operating Systems: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |
+|**AEM Guides 5.1.0**|  **UUID 5.1.0** <ul><li> AEM 6.5 LTS SP1<br><ul><li>Java: 17 or 21</li></ul> <br> <li> AEM 6.5  SP23, SP22, or SP21 <br> <ul><li>Java: 11 or 8 </li></ul> <br> <li>Operating Systems: <br> <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |
 |**AEM Guides 5.0.0**|  **UUID 5.0.0** <ul><li> AEM 6.5  SP 22, SP21, or SP20<br><br> <li>   Java: 11 or 8 <br><br>   <li>Operating Systems: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |
 |**AEM Guides 4.6.0**|  **Non-UUID and UUID 4.6.0** <ul><li> AEM 6.5  SP 21, SP20, or SP19<br><br> <li>   Java: 11 or 8 <br><br>   <li>Operating Systems: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |
 |**AEM Guides 4.4.0**|  **Non-UUID and UUID 4.4.0** <ul><li> AEM 6.5  SP20, SP19, SP18, or SP17  <br><br> <li>   Java: 11 or 8 <br><br>   <li>Operating Systems: <ul><li> Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |

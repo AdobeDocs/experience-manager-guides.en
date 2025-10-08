@@ -15,11 +15,10 @@ For the list of issues that have been fixed in this release, view [Fixed issues 
 
 This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 5.1.0 release. 
 
-### Adobe Experience Manager
-
-**5.1.0 UUID**
-
-Version 6.5 Service Pack 23, Service Pack 22, and Service Pack 21.
+|AEM Guides| AEM Version| Service Pack |
+| --- | --- | --- |
+|5.1.0 (UUID) | 6.5 LTS | 1  |
+|5.1.0 (UUID) | 6.5  | 23, 22, 21 |
 
 For more details, view the [Technical requirements](../install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
 
@@ -44,14 +43,20 @@ For more details, view the [Technical requirements](../install-guide/download-in
 ### New AEM Site template version
 
 
-| Components version | Site version|
-|---|---|
-|guides-components.all-1.4.0|aemg-docs.all-1.2.0|
+|AEM Guides | AEM version | Components version | Site version| 
+|---|---|---| ---|
+|5.1.0 UUID |6.5 LTS | guides-components.all-1.4.1|aemg-docs.all-1.2.0|
+|5.1.0 UUID |6.5 | guides-components.all-1.4.0|aemg-docs.all-1.2.0|
 
+## Upgrade to Experience Manager Guides 5.1.0 
 
-## Upgrade to 5.1.0 release of Experience Manager Guides
+You can easily upgrade your current version of Experience Manager Guides to version 5.1.0 on **AEM 6.5** or **AEM 6.5 LTS**. 
 
-You can easily upgrade your current version of Guides to version 5.1.0. Before you proceed with upgrading to version 5.1.0 of Experience Manager Guides, you must consider the following points:
+>[!NOTE]
+>
+> If you are currently on AEM 6.5 and plan to move to AEM 6.5 LTS, make sure to complete the AEM upgrade first before proceeding with the Experience Manager Guides 5.1.0 upgrade. For details, view [Upgrading to Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade). 
+
+Before you proceed with upgrading to version 5.1.0 of Experience Manager Guides, you must consider the following points:
 
 - If you are using version 4.6.3, 4.6.4, 5.0.0, or 5.0.0 Service Pack 1, then you can directly upgrade to version 5.1.0. 
 - If you are using version 4.6.0, 4.6.1, then you need to upgrade to version 4.6.3 or 4.6.4 or 5.0.0 before upgrading to version 5.1.0. 
@@ -65,3 +70,5 @@ You can easily upgrade your current version of Guides to version 5.1.0. Before y
 >You must install AEM service pack before upgrading Experience Manager Guides version.
 
 For details, view [Upgrade instructions for the On-premise releases](../install-guide/upgrade-xml-documentation.md) of Experience Manager Guides.
+
+
