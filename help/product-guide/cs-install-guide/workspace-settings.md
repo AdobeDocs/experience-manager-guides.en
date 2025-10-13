@@ -222,7 +222,7 @@ This tab contains the options to create language groups, propagate the source la
         >
         > Toggle **Show more** to **Show less** and view only a few languages.
 
-    1. Hover over the languages in a group to edit ![edit icon](images/edit_pencil_icon.svg) or delete ![delete](images/Delete_icon.svg) the language groups.
+    1. Hover over the languages in a group to edit ![edit icon](../user-guide/images/edit_pencil_icon.svg) or delete ![delete](../user-guide/images/Delete_icon.svg) the language groups.
     1. Save the **Settings**.
 
         >[!NOTE]

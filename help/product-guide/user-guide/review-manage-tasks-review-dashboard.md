@@ -94,7 +94,7 @@ You can perform the following actions under the **Content** tab:
 
 ## Reviewers tab {#Reviewer-tab-id199RF0N0MUI}
 
-![](images/Reviewers-tab.png){align="left"}
+![](images/reviewers-tab.png){align="left"}
 
 You can perform the following actions under the **Reviewers** tab:
 
