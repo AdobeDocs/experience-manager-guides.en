@@ -4,7 +4,7 @@ description: Explore other features of the Editor in Adobe Experience Manager Gu
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-Applies to: Experience Manager Guides Cloud Service | Experience Manager Guides On-premise (5.1 and above)
+solution: Experience Manager Guides Cloud Service | Experience Manager Guides On-premise (5.1 and above)
 ---
 # Additional features in the Editor {#id2056B0B0YPF}
 
