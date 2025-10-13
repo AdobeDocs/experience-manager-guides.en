@@ -30,7 +30,7 @@ The **Workspace settings** option present in the [Tab bar](./web-editor-tab-bar.
 
  The General settings allow you to configure the settings to use the Editor. This tab contains five sections: **AI Assistant**, **Authoring**, **Citations**, **Condition**, and **Spell check**.
 
-![](images/editor-setting-general.png){width="350" align="left"}
+![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
 
 - **AI Assistant**
     Select this to enable the [AI Assistant](./ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
