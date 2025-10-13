@@ -52,7 +52,7 @@ As the initiator of the review task, you can then decide how to proceed based on
     
     ![](images/check-review-status-icon.png){width="650" align="left"}
       
-7. Select **Confirm**.
+6. Select **Confirm**.
 
 
 As an Author or initiator of a review task, when you close the task, the **Update task** button present at the bottom of the Review panel is changed to **Closed**, indicating the task is no longer active. 
