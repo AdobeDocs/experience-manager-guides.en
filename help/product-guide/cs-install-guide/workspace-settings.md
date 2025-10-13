@@ -7,7 +7,7 @@ role: User
 ---
 # Workspace settings
 
-The **Workspace settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the Editor is available only for administrators and folder profile administrators, and allows configuring the following settings:
+The **Workspace settings** option present in the [Tab bar](../user-guide/web-editor-tab-bar.md) of the Editor is available only for administrators and folder profile administrators, and allows configuring the following settings:
 
 - [General](#general)
 - [Panels](#panels)
@@ -33,11 +33,11 @@ The **Workspace settings** option present in the [Tab bar](./web-editor-tab-bar.
 ![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
 
 - **AI Assistant**
-    Select this to enable the [AI Assistant](./ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
+    Select this to enable the [AI Assistant](../user-guide/ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
 
     After enabling the **AI Assistant** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below.  
     These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the Workspace settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Workspace settings** and save the updated configuration.  
-    For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](./ai-assistant-right-panel.md).
+    For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](../user-guide/ai-assistant-right-panel.md).
 
     From the **Authoring quick actions** menu, you can: 
 
@@ -55,7 +55,7 @@ The **Workspace settings** option present in the [Tab bar](./web-editor-tab-bar.
 
 - **Citations**
     
-    Change the style of citations. Choose the citation style from the drop-down you want to use in your project. For more details, view [Change citation styles](./web-editor-apply-citations.md#change-citation-style).        
+    Change the style of citations. Choose the citation style from the drop-down you want to use in your project. For more details, view [Change citation styles](../user-guide/web-editor-apply-citations.md#change-citation-style).        
 
 -  **Condition**
 
@@ -254,4 +254,4 @@ An error is displayed if the metadata path is blank. If you leave the label blan
 You can also define the order in which these metadata tags are displayed. To change the default order of these tags, select the dotted bars to drag and drop the tags at the desired location.
 The metadata labels appear in the same sequence in the **Version history** dialog box of the Editor. 
 
-**Parent topic:**[Introduction to the Editor](web-editor.md)
+
