@@ -27,7 +27,7 @@ The releases for Experience Manager Guides as a Cloud Service are planned as fol
 
 | Release |Event |Schedule |What's new | Upgrade instructions | Fixed issues |Status|
 |---|---|---|---|---|---|---|
-|Adobe Experience Manager Guides 2025.10.0 <br> [(AEM Release - 21994)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest)|Automatic Update|October 20-22, 2025|[Here](whats-new-2025-10-0.md)|[Here](upgrade-instructions-2025-10-0.md)|[Here](fixed-issues-2025-10-0.md)|Updated|
+|Adobe Experience Manager Guides 2025.10.0 <br> [(AEM Release - 22943)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest)|Automatic Update|October 20-22, 2025|[Here](whats-new-2025-10-0.md)|[Here](upgrade-instructions-2025-10-0.md)|[Here](fixed-issues-2025-10-0.md)|Updated|
 |Adobe Experience Manager Guides 2025.08.0 <br> [(AEM Release - 21994)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest)|Automatic Update|August 25-27, 2025|[Here](whats-new-2025-08-0.md)|[Here](upgrade-instructions-2025-08-0.md)|[Here](fixed-issues-2025-08-0.md)|Updated|
 |Adobe Experience Manager Guides 2025.07.0 <br> [(AEM Release - 21570)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-7-0?lang=en#21570)|Automatic Update|July 14-16, 2025|[Here](whats-new-2025-07-0.md)|[Here](upgrade-instructions-2025-07-0.md)|[Here](fixed-issues-2025-07-0.md)|Updated|
 |Adobe Experience Manager Guides 2025.6.0|Automatic Update|June 02-04, 2025|[Here](whats-new-2025-06-0.md)|[Here](upgrade-instructions-2025-06-0.md)|[Here](fixed-issues-2025-06-0.md)|Updated|
@@ -52,12 +52,13 @@ Product updates in terms of new features, enhancements, and bug fixes for suppor
 
 | Release |Event |Schedule |What's new | Upgrade instructions | Status|
 |---|---|---|---|---|---|
-|Adobe Experience Manager Guides 5.1.0 (AEM 6.5 LTS)|Release|October 8, 2025|||Target|
+|Adobe Experience Manager Guides 5.1.0|Service Pack 1|October 16, 2025|||Target|
 
 ### Live releases
 
 | Release |Event |Schedule |What's new | Upgrade instructions | Status|
 |---|---|---|---|---|---|
+|Adobe Experience Manager Guides 5.1.0 (AEM 6.5 LTS)|Release|October 8, 2025|-|[Here](upgrade-instructions-5-1-0.md)|Released|
 |Adobe Experience Manager Guides 5.0.0|Service Pack 2|September 10, 2025|-|[Here](upgrade-instructions-5-0-0-sp2.md)|Released|
 |Adobe Experience Manager Guides 5.1.0|Release|September 5, 2025|[Here](whats-new-5-1-0.md)|[Here](upgrade-instructions-5-1-0.md)|Released|
 |Adobe Experience Manager Guides 5.0.0|Service Pack 1|June 04, 2025|-|[Here](upgrade-instructions-5-0-0-sp1.md)|Released|
