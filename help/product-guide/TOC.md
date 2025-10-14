@@ -14,6 +14,10 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2025 Releases {#2025-releases}
+        - 2025.10.0 Release {#2510-release} 
+          - [What's new](./release-info/whats-new-2025-10-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2025-10-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2025-10-0.md)
         - 2025.08.0 Release {#2508-release} 
           - [What's new](./release-info/whats-new-2025-08-0.md)
           - [Fixed issues](./release-info/fixed-issues-2025-08-0.md)
@@ -174,8 +178,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Left panel](./user-guide/web-editor-left-panel.md)
           - [Content editing area](./user-guide/web-editor-content-editing-area.md)
           - [Right panel](./user-guide/web-editor-right-panel.md)
-        - [Additional features in the Editor](./user-guide/web-editor-other-features.md)
-        - [Working with the Editor Settings](./user-guide/web-editor-settings.md)
+        - [Additional features in the Editor](./user-guide/web-editor-other-features.md)       
         - [Keyboard shortcuts in the Editor](./user-guide/web-editor-keyboard-shortcuts.md)
         - [Editor views](./user-guide/web-editor-views.md)
         - [Support for Schematron files](./user-guide/support-schematron-file.md)
@@ -363,8 +366,8 @@ breadcrumb-title: AEM Guides Documentation
     - Content migration {#content-migration}
       - [Non-UUID to UUID content migration](./install-guide/migrate-uuid-non-uuid.md)
       - Migration process {#migration-process}
-          - [Migrate non-UUID content with versions](./install-guide/migrate-non-uuid-uuid.md)
-          - [Migrate non-UUID content with versions (legacy)](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md) 
+          - [4.3.1 non-UUID to 4.3.2 UUID content migration](./install-guide/migrate-non-uuid-4-3.md)
+          - [4.6.0 non-UUID to 4.6.1 UUID content migration](./install-guide/migrate-non-uuid-uuid-4-6.md) 
       - [Migrate existing content](./install-guide/migrate-content.md)
       - [Upload existing DITA content](./install-guide/migrate-content-upload-existing-dita-content.md)
       - [Migrate non-DITA content](./install-guide/migrate-content-non-dita.md)
@@ -469,6 +472,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure custom DITA map template](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
     - Work with document states {#doc-state-cs}
       - [Configure document states](./cs-install-guide/customize-doc-state.md)
+    - Configure Workspace settings {#workspace-configs}
+      - [Workspace settings](./cs-install-guide/workspace-settings.md)  
     - Work with the Web Editor configurations {#web-editor-configs-cs}
       - [Customize Web Editor](./cs-install-guide/conf-web-editor.md)
       - [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
@@ -516,7 +521,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Translate content](./cs-install-guide/translation.md)
     - Work with AEM Assets search {#aem-asset-search-cs}
       - [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
-    - [Appendix](./cs-install-guide/appendix.md)  
+    - [Appendix](./cs-install-guide/appendix.md)     
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
   - [REST APIs for Output management](./api-reference/output-management.md)
@@ -532,6 +537,7 @@ breadcrumb-title: AEM Guides Documentation
   - [Java-based API to work with folder profiles](./api-reference/folder-profile-java.md)
   - [Java-based API for creating and activating packages](./api-reference/create-activate-package-java.md)
   - [Post-processing event handler](./api-reference/post-process-event.md)
+  - [API to track post processing status for a folder or an asset](./api-reference/track-post-processing-status.md)
   - [Bulk activation complete event handler](./api-reference/bulk-activation-complete-event.md)
   - [Conversion process event handler](./api-reference/conversion-complete-event.md)
 - Knowledge Base {#knowledge-base}

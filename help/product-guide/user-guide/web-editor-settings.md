@@ -1,13 +1,13 @@
 ---
-title: Editor settings in Experience Manager Guides
+title: Workspace settings in Experience Manager Guides
 description: Learn about the various settings available in the Editor interface of Experience Manager Guides. 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: fad2874f-dab5-4538-8502-f7112c51d941
 ---
-# Editor settings
+# Workspace settings
 
-The **Settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the Editor is available only for administrators and folder profile administrators, and allows configuring the following settings:
+The **Workspace settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the Editor is available only for administrators and folder profile administrators, and allows configuring the following settings:
 
 - [General](#general)
 - [Panels](#panels)
@@ -29,13 +29,13 @@ The **Settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the
 
  The General settings allow you to configure the settings to use the Editor. This tab contains five sections: **AI Assistant**, **Authoring**, **Citations**, **Condition**, and **Spell check**.
 
-![](images/editor-setting-general-new.png){width="350" align="left"}
+![](images/editor-setting-general.png){width="350" align="left"}
 
 - **AI Assistant**
     Select this to enable the [AI Assistant](./ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
 
     After enabling the **AI Assistant** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below.  
-    These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the editor settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Editor settings** and save the updated configuration.  
+    These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the Workspace settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Workspace settings** and save the updated configuration.  
     For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](./ai-assistant-right-panel.md).
 
     From the **Authoring quick actions** menu, you can: 
@@ -44,7 +44,7 @@ The **Settings** option present in the [Tab bar](./web-editor-tab-bar.md) of the
 
     - change the order in which the options appear, drag and drop them as needed.  
 
-    ![](images/authoring-quick-actions.png){width="350" align="left"} 
+    ![](images/authoring-quick-actions-new.png){width="350" align="left"} 
 
     
 
@@ -142,7 +142,7 @@ This contains the Profiles that can be used to publish the **Knowledge Base** ou
 
   - To create a Salesforce profile, select the **Salesforce** Knowledge Base from the **Server type** dropdown. Enter a profile Name. In the **Site URL**, enter the consumer site you would use to publish the output and then add the **Consumer Key** and **Consumer Secret** provided by the Salesforce consumer site. Then, **Validate** and **Save** the newly created profile.
 
-    ![salesforce publish profile in editor settings](./images/salesforce-publish-profile.png){width="550" align="left"}
+    ![salesforce publish profile in workspace settings](./images/salesforce-publish-profile.png){width="550" align="left"}
 
     >[!NOTE]
     >
@@ -184,7 +184,7 @@ This tab contains options to configure the Schematron validations in the Editor.
     >
     > The selected Schematron file(s) will persist for the selected folder profile.
 
-    ![Validation in editor settings](./images/editor-setting-validation.png){width="550" align="left"}
+    ![Validation in workspace settings](./images/editor-setting-validation.png){width="550" align="left"}
 
     This prevents the users from saving any file which breaks a rule defined in the selected Schematron file(s). If this is not selected the file will not be validated before saving the changes.
 
@@ -244,7 +244,7 @@ The metadata can be picked from any property under the `/jcr:content` node of th
 An error is displayed if the metadata path is blank. If you leave the label blank, the last element is picked as the label.     
 
 
-![metadata tab in the editor settings](images/editor-setting-metadata.png){width="550" align="left"}
+![metadata tab in the workspace settings](images/editor-setting-metadata.png){width="550" align="left"}
 
 *Configure the metadata for the **Version History** dialog box.*
  

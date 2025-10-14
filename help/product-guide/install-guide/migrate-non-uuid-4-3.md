@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 exl-id: f53f4eef-5e99-4342-9919-508b90ee3571
 ---
-# Non-UUID to UUID content migration {#id226TI0U20XA}
+# 4.3.1 non-UUID to 4.3.2 UUID content migration
 
 
 Perform these steps to migrate your content from non-UUID version 4.3.1 to UUID version 4.3.2. 
@@ -54,7 +54,7 @@ Perform the following checks on non-UUID version 4.3.1:
     * Number of files with errors 
     * Files with GUID filename
 
-    ![compatibility assessment tab in migration](assets/migration-compatibility-assessment.png)
+    ![compatibility assessment tab in migration](assets/migration-compatibility-assessment-4-3-1.png)
 
 
 1. If the error appears, then analyze the logs and fix those errors. You can re-run the compatibility matrix after fixing the errors.
@@ -63,7 +63,7 @@ Perform the following checks on non-UUID version 4.3.1:
 
     By selecting multiple and large DITA maps, you can validate that all the content has been successfully migrated without issues. Selecting presets with baselines in them, also ensures that baselines and versions are migrated successfully.
 
-    ![Configure Validations tab in migration](assets/migration-configure-validation.png)
+    ![Configure Validations tab in migration](assets/migration-configure-validation-4-3-1.png)
 
 
 1. (Optional) Perform version purging on the content to remove unnecessary versions and speed up the migration process. To perform version purging, select the option **Version Purge** from the migration screen and go to the user interface using the URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
@@ -120,7 +120,7 @@ For more details, view [purge older versions](../install-guide/version-managemen
 
 1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 
-    ![System upgrade tab in migration](assets/migration-system-upgrade.png)
+    ![System upgrade tab in migration](assets/migration-system-upgrade-4-3-1.png)
     >[!NOTE]
     >
     > If you choose "Enable DITA asset backup", the temporary backup files are stored under `/content/uuid-upgrade` and the DITA file backups are deleted when the migration of a file is complete.
@@ -150,7 +150,7 @@ For more details, view [purge older versions](../install-guide/version-managemen
 
 1. Once all the files are migrated, select **Baseline/Review Upgrade** from the left panel to migrate the baselines and review at the folder level.  
 
-![Baseline and review tab in migration](assets/migration-baseline-review-upgrade.png)
+![Baseline and review tab in migration](assets/migration-baseline-review-upgrade-4-3-1.png)
 
 >[!NOTE]
 >
@@ -184,7 +184,7 @@ For more details, view [purge older versions](../install-guide/version-managemen
 
 1. Once the migration is completed, select **Validate system upgrade** from the left panel and validate the output files before and after the migration to ensure that the migration is successful. 
 
-    ![Validate system upgrade tab in migration](assets/migration-validate-system-upgrade.png)
+    ![Validate system upgrade tab in migration](assets/migration-validate-system-upgrade-4-3-1.png)
 
 1. After migrating the server successfully enable the following workflows and configurations (including all the other workflows that were disabled initially during the migration) to continue working on the server:
 

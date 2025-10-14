@@ -151,7 +151,7 @@ For details on setting up global and folder-level profiles, view *Configure auth
 
 Experience Manager Guides allows you to pass the label of the source file to the target file. This will help you easily identify the source version for the translated file.
 
-To add the source version label in the target copy, your system administrator must enable the **Propagate source version labels to the target version** option under the **Translation** tab in **Settings**.
+To add the source version label in the target copy, your system administrator must enable the **Propagate source version labels to the target version** option under the **Translation** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
 
 For example, if you have some source files with the version label `Release 1.0` applied to them, then you can also pass on the source label \(`Release 1.0`\) to the translated file.
 
@@ -213,7 +213,7 @@ Select the name of the reference in the dialog to open it in preview mode. You c
 > 
 >This feature is available for the new translation projects you create using Experience Manager Guides 2404 release or later.  It will not impact any existing projects.
 
-Your administrator can configure the **Translation project cleanup after completion** option under the **Translation** tab in **Editor Settings** to disable or delete the translation projects automatically. 
+Your administrator can configure the **Translation project cleanup after completion** option under the **Translation** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**) to disable or delete the translation projects automatically. 
 
 For effecting document management, Experience Manager Guides provides the ability to delete the translation projects after you have completed the translation. 
 

@@ -16,6 +16,8 @@ Before we dive into the step-by-step process, here's a short walkthrough video t
 
 Perform the following steps to create a question bank:
 
+>[!VIDEO](https://video.tv.adobe.com/v/3469321)
+
 1. Open a course in the **Course manager** and select **Add new** from the **Options menu**.
 1. Select **Question bank**.
     The **New question bank** dialog opens. You can select the template from the dropdown, specify a suitable title for the question bank, and specify the path where you want this question bank to be stored in your repository.
