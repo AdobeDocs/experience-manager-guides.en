@@ -26,7 +26,7 @@ To improve navigation and usability, the following enhancements have been introd
 
 Experience Manager Guides now includes a **Duplicate IDs** button in the Editor to help you quickly identify and fix duplicate IDs present within a single topic or map. When duplicate IDs are detected, this button appears at the bottom-left corner of the Editor interface in the **Author** view. Upon selecting the button, a list of all instances with duplicate IDs is displayed in a popover. Selecting an instance highlights the corresponding content in the topic or map, enabling you to locate and fix the duplicate IDs from the right panel.
 
-For more details, view [Additional features in the Editor](../user-guide/web-editor-other-features). 
+For more details, view [Additional features in the Editor](../user-guide/web-editor-other-features.md). 
 
 ![](assets/duplicate-element-IDs.png){width="350" align="left"}
 
