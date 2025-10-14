@@ -18,7 +18,7 @@ Learn about [upgrade instructions for the 2025.10.0  release](../release-info/up
 To improve navigation and usability, the following enhancements have been introduced:
 
 - **Editor settings** in Experience Manager Guides has been renamed to **Workspace settings**.
-- The **More actions** menu (the three-dot menu), previously available only in the Editor and Map console interface, is now accessible from the [Homepage](../user-guide/intro-home-page.md) 
+- The **More actions** menu (the three-dot menu), previously available only in the Editor and Map console interface, is now accessible from the [Homepage](../user-guide/intro-home-page.md).
 
     ![](assets/workspace-settings.png)
 
@@ -40,7 +40,7 @@ As an initiator of a review task, you can now check the status of your review ta
 
 For more details, view [Request a re-review or close a review task as an Author](../user-guide/review-close-review-task.md).
 
-![](assets/check-review-status-icon.png){width="650" align="left"}
+![](assets/check-review-status-icon.png){width="350" align="left"}
 
 
 
