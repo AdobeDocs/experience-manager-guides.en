@@ -9,7 +9,7 @@ exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
 
 >[!IMPORTANT]
 >
-> The new features described in this article are enabled by default with 2508 release of Experience Manager Guides as a Cloud Services. Reviews that were created before the migration are not impacted and will continue to use the earlier workflow. If you prefer to continue using the existing features without these updates, contact your Customer Success team to have the new features disabled. 
+> The new features described in this article are enabled by default with 2508 release of Experience Manager Guides as a Cloud Service. Reviews that were created before the migration are not impacted and will continue to use the earlier workflow. If you prefer to continue using the existing features without these updates, contact your Customer Success team to have the new features disabled. 
 
 When a review task is marked as completed by a Reviewer, a notification is triggered to the task initiator, enabling them to access and review the task and related task level comments. 
 
@@ -48,7 +48,7 @@ As the initiator of the review task, you can then decide how to proceed based on
 
     ![](images/update-task-dialog.png){width="350" align="left"}
     
-    You can also [check the status of your review task](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task-check-review-status-id199rf0a0uhs) using the **Check review status** option present in the Update task dialog. Selecting this option takes you to Review dashboard where the status report of your review task is displayed. 
+    You can also [check the status of your review task](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) using the **Check review status** option present in the Update task dialog. Selecting this option takes you to Review dashboard where the status report of your review task is displayed. 
     
     ![](images/check-review-status-icon.png){width="650" align="left"}
       
@@ -63,9 +63,6 @@ Also, the **Update task** button present in the Review panel remains disabled fo
 
  ![](images/update-task-button-disabled.png){width="350" align="left"}
 
-## Check review status 
-
-You can track the review status of your topics from the **Update task** dialog. This feature helps you to monitor progress, view Reviewer's feedback, and take action when needed. 
 
 
 
