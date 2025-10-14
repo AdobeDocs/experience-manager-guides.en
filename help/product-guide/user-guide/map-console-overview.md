@@ -21,7 +21,7 @@ The Map console interface is primarily divided into two sections - **Navigation 
 
     - **Navigation switcher**: Allows seamless navigation to other pages - Editor or Home page: 
     - **Selected map file**: Displays the name of the currently selected map file. You can open it in the Editor or choose a different map file for the Map console.
-    - **More actions**: Provides options to navigate to the **Assets UI** and **Workspace settings**. For details, refer to the **More actions** section of the [Tab bar](./web-editor-tab-bar.md).
+    - **More actions**: Provides options to navigate to the **Assets UI** and **Workspace settings**. For details, view the [Tab bar](./web-editor-tab-bar.md).
 
     >[!NOTE]
     >
