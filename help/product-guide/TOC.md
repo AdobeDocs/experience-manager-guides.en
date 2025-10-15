@@ -100,6 +100,9 @@ breadcrumb-title: AEM Guides Documentation
         - [January release notes](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
+      - 5.1.0 SP1 Release {#510-sp1-release}
+        - [Fixed issues](./release-info/fixed-issues-5-1-0-sp1.md)
+        - [Upgrade instructions](./release-info/upgrade-instructions-5-1-0-sp1.md)
       - 5.1.0 Release {#510-release}
         - [What's new](./release-info/whats-new-5-1-0.md)
         - [Fixed issues](./release-info/fixed-issues-5-1-0.md)
