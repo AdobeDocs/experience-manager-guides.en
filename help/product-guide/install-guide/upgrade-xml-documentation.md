@@ -1304,11 +1304,15 @@ Index definition is updated for damAssetLucene with Guides. Refer to [this artic
 >
 > If you are currently on AEM 6.5 and plan to move to AEM 6.5 LTS, make sure to complete the AEM upgrade first before proceeding with the Experience Manager Guides 5.1.0 upgrade. For details, view [Upgrading to Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade). 
 
-****Prerequisites****
+**Prerequisites**
+
+>[!NOTE]
+>
+>If you are upgrading to 5.1.0 Service Pack 1, then you need to be on the version 5.1.0 of Experience Manager Guides. 
 
 Before you start the Experience Manager Guides 5.1.0 upgrade process, ensure that you have:
 
-1. Upgraded to Experience Manager Guides version 4.6.3, 4.6.4, 5.0.0, or 5.0.0 Service Pack 1, and completed their respective installation step.
+1. Upgraded to Experience Manager Guides version 4.6.3, 4.6.4, 5.0.0, or 5.0.0 Service Pack 1,, and completed their respective installation step.
 1. (Optional) Closed all translation tasks.
 1. Changed the log level to **INFO** for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` class and append these logs in a new log file, for example, `logs/translation_upgrade.log`.
 
