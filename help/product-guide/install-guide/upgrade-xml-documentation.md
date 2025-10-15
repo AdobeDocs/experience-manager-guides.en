@@ -12,10 +12,11 @@ level: Experienced
 >
 > Follow the upgrade instructions specific to the licensed version of your product.
 
-You can upgrade your current version of Experience Manager Guides to version 5.1.0:
+You can upgrade your current version of Experience Manager Guides to version 5.1.0 Service Pack 1:
 
-- If you are using version 4.6.3, 4.6.4, 5.0.0, 5.0.0 Service Pack 1, or 5.0.0 Service Pack 2, then you can directly upgrade to version 5.1.0. 
-- If you are using version 4.6.0, 4.6.1, then you need to upgrade to version 4.6.3 or 4.6.4 or 5.0.0 before upgrading to version 5.1.0. 
+- If you are using version 5.1.0, then you can directly upgrade to version 5.1.0 Service Pack 1. 
+- If you are using version 4.6.0, 4.6.x, 5.0.0, or 5.0.x, then you need to upgrade to version 5.1.0.
+- If you are using version 4.6.3, 4.6.1, 4.6, or 4.4, then you need to upgrade to version 5.0.0. 
 - If you are using version 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 5.0.0.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.x.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
@@ -1304,11 +1305,15 @@ Index definition is updated for damAssetLucene with Guides. Refer to [this artic
 >
 > If you are currently on AEM 6.5 and plan to move to AEM 6.5 LTS, make sure to complete the AEM upgrade first before proceeding with the Experience Manager Guides 5.1.0 upgrade. For details, view [Upgrading to Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade). 
 
-****Prerequisites****
+**Prerequisites**
+
+>[!NOTE]
+>
+>If you are upgrading to 5.1.0 Service Pack 1, then you need to be on the version 5.1.0 of Experience Manager Guides. 
 
 Before you start the Experience Manager Guides 5.1.0 upgrade process, ensure that you have:
 
-1. Upgraded to Experience Manager Guides version 4.6.3, 4.6.4, 5.0.0, or 5.0.0 Service Pack 1, and completed their respective installation step.
+1. Upgraded to Experience Manager Guides version 4.6.3, 4.6.4, 5.0.0, or 5.0.0 Service Pack 1,, and completed their respective installation step.
 1. (Optional) Closed all translation tasks.
 1. Changed the log level to **INFO** for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` class and append these logs in a new log file, for example, `logs/translation_upgrade.log`.
 
