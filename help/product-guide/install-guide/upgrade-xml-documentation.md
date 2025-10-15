@@ -16,8 +16,7 @@ You can upgrade your current version of Experience Manager Guides to version 5.1
 
 - If you are using version 5.1.0, then you can directly upgrade to version 5.1.0 Service Pack 1. 
 - If you are using version 4.6.0, 4.6.x, 5.0.0, or 5.0.x, then you need to upgrade to version 5.1.0.
-- If you are using version 4.6.3, 4.6.4, 5.0.0, 5.0.0 Service Pack 1, or 5.0.0 Service Pack 2, then you need to upgrade to version 5.1.0. 
-- If you are using version 4.6.0, 4.6.1, then you need to upgrade to version 4.6.3 or 4.6.4 or 5.0.0 before upgrading to version 5.1.0. 
+- If you are using version 4.6.3, 4.6.1, 4.6, or 4.4, then you need to upgrade to version 5.0.0. 
 - If you are using version 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 5.0.0.
 - If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.x.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
