@@ -7,8 +7,15 @@ role: User
 ---
 # Configure Editor settings
 
-The **Settings** option appearing in the Editor's Tab bar for On-Premise setup is renamed to **Workspace Settings** for Cloud service. However, all existing configurations within the Editor settings remain unchanged.
-To configure the various options available within Editor settings , view [Configure Workspace settings](../cs-install-guide/workspace-settings.md). 
+In the On-premise setup, the **Settings** option appears in the Editor's tab bar. In the Cloud Service setup, this option has been renamed to **Workspace settings**.
+
+All existing configuration options available under **Editor settings** remain unchanged.
+
+
+![Editor setting for On-premise](assets/editor-settings-on-prem.png){width="650" align="left"}
+
+
+To learn about the available configuration options, view [Configure Workspace settings](../cs-install-guide/workspace-settings.md). 
 
 
 
