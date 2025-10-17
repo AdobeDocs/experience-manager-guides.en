@@ -25,7 +25,7 @@ Perform the following steps to add new content in your course:
     - **Group**: A learning group helps organize related topics like chapters, topics, and other modules into a logical order, building a clear hierarchy that makes it easier to manage and reuse training materials.     
 3. Select **Create**. 
 
-The selected content is created and added to the course. For a video overview, view [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
+The selected content is created and added to the course. For a video overview, view [Add new content to a course](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) ![](assets/Smock_VideoCheckedOut_18_N.svg).
 
 ## Add existing content
 
@@ -44,7 +44,7 @@ The selected course content is added to the course from the repository.
 >
 >You can also use the **Add Existing** > **File (Resource only zip)** option to include a zip file that gets unzipped and integrated into the folder structure of the final SCORM output. This helps streamline resource packaging during course publishing.
 
-For a video overview, view [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
+For a video overview, view [Add existing content to a course](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) ![](assets/Smock_VideoCheckedOut_18_N.svg).
 
 ## Remove content 
 
@@ -52,7 +52,7 @@ You can remove any topic from the course by selecting the **Options** menu for t
 
 ![](assets/remove-learning-content.png)
 
-For a video overview, view [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
+For a video overview, view [Remove content from the course](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
 
 
 ## Create course versions 
@@ -77,4 +77,4 @@ The **Show** option determines how topics are displayed. You can choose to prese
 
 ![](assets/course-display-settings.png)
 
-For a video overview, view [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
+For a video overview, view [Show settings](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
