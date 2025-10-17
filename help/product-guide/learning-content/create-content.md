@@ -11,6 +11,7 @@ Before we dive into the step-by-step process, here's a quick video overview to h
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475211/learning-content-aem-guides)
 
+**Steps to add a Topic to a course**
 
 Perform the following steps to add a Topic to a course: 
 

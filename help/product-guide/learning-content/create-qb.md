@@ -14,9 +14,9 @@ Before we dive into the step-by-step process, here's a short walkthrough video t
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)
 
-Perform the following steps to create a question bank:
+**Steps to create a question bank**
 
->[!VIDEO](https://video.tv.adobe.com/v/3469321)
+Perform the following steps to create a question bank:
 
 1. Open a course in the **Course manager** and select **Add new** from the **Options menu**.
 1. Select **Question bank**.
