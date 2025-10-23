@@ -7,7 +7,7 @@ role: User
 ---
 # Map Editor features {#id1942D0S0IHS}
 
-The toolbar in the Map Editor is similar to the topic Editor. The basic operations like toggling the left panel, saving map, creating a new version of map, undo/redo last operation, and delete the selected elements are common in both editors. For detail about how these operations work, view [Know the Editor features](web-editor-features.md#) section.
+The toolbar in the Map Editor is similar to the topic Editor. The basic operations like toggling the left panel, saving map, creating a new version of map, undo/redo last operation, and delete the selected elements are common in both editors. For detail about how these operations work, view [Toolbar in the Editor](web-editor-toolbar.md#) section.
 
 The options that you view in the editor toolbar are based on the Map Editor view. There are four views that are available in the Map Editor:
 
