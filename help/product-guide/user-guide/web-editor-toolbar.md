@@ -400,7 +400,7 @@ You can also add other properties for an image file by selecting the required pr
 
 >[!NOTE]
 >
->You can also define clickable areas \(image map\) in your image. For more details, view the **Insert/Edit Image Map** feature description in the [Left panel](web-editor-features.md#left-panel) section. 
+>You can also define clickable areas \(image map\) in your image. For more details, view the **Insert/Edit Image Map** feature description in the [Left panel](web-editor-left-panel.md) section. 
 
 **Context menu for image or media files**
 

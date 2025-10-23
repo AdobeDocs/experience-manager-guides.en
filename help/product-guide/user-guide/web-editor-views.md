@@ -43,7 +43,7 @@ The Source view displays the underlying XML that makes up the topic. If you are 
     In the above screenshot, a cross highlight is used to point the line containing erroneous XML.
 
 * The Find and Replace feature allows you to search for any text, element, or attribute in the Source View. 
-For more details, view the **Find and Replace** feature description in the [Tab bar](web-editor-features.md#tab-bar) section. 
+For more details, view the **Find and Replace** feature description in the [Tab bar](web-editor-tab-bar.md) section. 
 
 * The Source View provides many shortcuts to help you quickly navigate and work on a document. The following table lists the supported actions and their shortcut keys:
 

@@ -50,17 +50,17 @@ Perform the following steps to add topics to a map file from the Map console:
     ![](images/new-map-file-in-editor.png){align="left"}
 
         
-    -   **A** - \(*Tab bar*\): This is similar to the Editor's tab bar. View [tab bar](./web-editor-features.md#tab-bar) in the Editor for more details.
+    -   **A** - \(*Tab bar*\): This is similar to the Editor's tab bar. View [tab bar](./web-editor-tab-bar.md) in the Editor for more details.
 
     -   **B** - \(*Toolbar*\) This is the toolbar that allows you to work with map files. For more information about the functionalities available through the toolbar, view [Features available in the Map Editor's toolbar](#features-available-in-the-map-editors-toolbar).
     
     -   **C** - \(*Map views*\): Allows you to switch the Map Editor between the Layout, Author, Source and Preview. The **Layout** view allows you to organize the topics in a DITA map. This gives the tree or hierarchical view of the map. The **Author** view allows you to edit the topics in the Map Editor. This also gives the WYSIWYG view of the map file. The **Source** view allows you to work with the underlying XML of the map file. The Preview gives you a consolidated view of all topic and sub-maps within the map file. 
 
-    -   **D** - \(*Left Panel*\): Gives access to the left panel which gives you access to the Collections, Repository, Map, Outline and other features. You can expand or collapse it by selecting the Expand/Collapse icon. For more details about the features available in the left panel, view [Left panel](./web-editor-features.md#left-panel) in the Editor.
+    -   **D** - \(*Left Panel*\): Gives access to the left panel which gives you access to the Collections, Repository, Map, Outline and other features. You can expand or collapse it by selecting the Expand/Collapse icon. For more details about the features available in the left panel, view [Left panel](./web-editor-left-panel.md) in the Editor.
 
     -   **E** - \(*Middle Area*\): Map content editing area.
 
-    -   **F** - \(*Right Panel*\): Gives access to the Properties panel. You can view the content properties and the map properties of the selected topic or map. For more details about the functionalities available in this panel, view [Right panel](web-editor-features.md#right-panel) in the Editor.
+    -   **F** - \(*Right Panel*\): Gives access to the Properties panel. You can view the content properties and the map properties of the selected topic or map. For more details about the functionalities available in this panel, view [Right panel](web-editor-right-panel.md) in the Editor.
 
 1.  In the Left Panel, switch to the **Repository** view.
 

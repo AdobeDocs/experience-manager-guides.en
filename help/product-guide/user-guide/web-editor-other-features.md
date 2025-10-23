@@ -43,7 +43,7 @@ The various options in the context menu are explained below:
 
 ***Save As New Version***
 
-To create a new version of the file, select **Save As New Version**. For more details about **Save** and **Save As New Version**, view [Know the Editor features](web-editor-features.md#).
+To create a new version of the file, select **Save As New Version**. For more details about **Save** and **Save As New Version**, view [Toolbar in the Editor](web-editor-toolbar.md).
 
 ***Copy***: You can choose from the following options:
 
@@ -60,9 +60,9 @@ To create a new version of the file, select **Save As New Version**. For more de
 
 ***Add to***: You can choose from the following options:
 
--   **Collections**: To add the selected file to collections, select **Add to \> Collections**. For more details, view the **Collections** feature description in the [Left panel](web-editor-features.md#left-panel) section.
+-   **Collections**: To add the selected file to collections, select **Add to \> Collections**. For more details, view the **Collections** feature description in the [Left panel](web-editor-left-panel.md) section.
 
--   **Reusable content**: To copy the selected file to the reusable content list, select **Add to \> Reusable content**. For more details, view the **Reusable content** feature description in the [Left panel](web-editor-features.md#left-panel) section.
+-   **Reusable content**: To copy the selected file to the reusable content list, select **Add to \> Reusable content**. For more details, view the **Reusable content** feature description in the [Left panel](web-editor-left-panel.md) section.
 
 ***Properties***
 
@@ -108,7 +108,7 @@ Your file saving experience will depend on the following three scenarios, wherei
 You may view the following options depending on whether the file is locked/unlocked and has saved or unsaved changes:
 
 -   **Unlock and Close**: The lock on the file is released, and the file gets closed.
--   **Save as a new version**: This will save the changes you have made in your content and create a new version of your file. You can also add labels and comments for the newly saved version. For more information about saving a new version, view [Save as new version](web-editor-features.md#save-as-new-version).
+-   **Save as a new version**: This will save the changes you have made in your content and create a new version of your file. You can also add labels and comments for the newly saved version. For more information about saving a new version, view [Save as new version](web-editor-toolbar.md#version-information-and-save-as-new-version).
 
 -   **Unlock the file**: If you choose to unlock a file, it will release the lock on your file and the changes are saved in the current version of the file.
 

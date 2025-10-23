@@ -13,7 +13,7 @@ As the review workflow is project-specific, the initiator of review must be a pa
 
 You can create a review task from:
 
--   **Editor**: Allows you to send an individual topic or DITA map for review. Note that the workflow for creating a review task is common across the Editor and Assets UI. Only the method of launching the review workflow differs. For information about launching the review workflow from the Editor, view the [Create Review Task](web-editor-features.md#id215OCJ00JXA) feature in the Editor.
+-   **Editor**: Allows you to send an individual topic or DITA map for review. Note that the workflow for creating a review task is common across the Editor and Assets UI. Only the method of launching the review workflow differs. For information about launching the review workflow from the Editor, view the [Create Review Task](web-editor-left-panel.md#review) feature in the Editor.
 
 -   **Assets UI**: Allows you to send one or multiple topics and DITA map for review. Sharing documents for review from Assets UI workflow is covered under this topic.
 
