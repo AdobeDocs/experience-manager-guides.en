@@ -12,7 +12,8 @@ In data-intensive workflows such as publishing, efficient asset management is cr
 
 >[!NOTE]
 >
-> For large datasets, it's best to run processing during off-peak hours to avoid impacting system performance. After the processing task completes, you can review the details to analyze the results.
+> - For large datasets, it's best to run processing during off-peak hours to avoid impacting system performance. After the processing task completes, you can review the details to analyze the results.<br>
+>- The Asset processing for the `/content/dam` folder is automatically triggered by the system every 15 minutes. This scheduled process ensures that any newly added and previously unprocessed assets are picked up and processed.  You can use this setting by enabling the setting `Enable Guides asset processing scheduled job` in the `fmditaconfigMgr`.
  
 ## Processing the assets
 
@@ -20,29 +21,33 @@ Follow the below mentioned steps to process or reprocess the assets:
 
 1. Select the Adobe Experience Manager logo at the top and choose **Tools**.
 1. In the **Tools** panel select **Guides**.
-1. Select the **Asset Processor** Tile.
+1. Select the **Bulk Processor** tile.
 
     ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
 
-1. The Guides Asset Processor window opens with the details shown below. Also, only the information pertaining to the last five migrations are displayed on this window. 
+1. The Guides Bulk Processor window opens with the details shown below. Also, only the information pertaining to the last five migrations are displayed on this window. 
 
-    -   **Execution ID**: It is the unique Id for each reprocessing task that you perform.
+    - **Feature type**: Shows the feature of the process that is being executed.
 
-    -   **Folder**: Shows the folder selected for reprocessing.
+    - **Execution ID**: It is the unique Id for each reprocessing task that you perform.
 
-    -   **Excluded Folders**: Points to the folder that is excluded from reprocessing.
+    - **Folder**: Shows the folder selected for reprocessing.
 
-    -   **Start time:** Shows the date and time the reprocessing process is initiated.
+    - **Excluded Folders**: Shows the folder that is excluded from reprocessing.
 
-    -   **End Time**: Shows the date and time the reprocessing process ends.
+    - **Created by**: Shows who created the task or process. It can be the system as well as the user.
 
-    -   **Status**: Points to the status of reprocessing as In progress, Completed or Cancelled.
+    - **Start time:** Shows the date and time the reprocessing process is initiated.
 
-    ![Guides-asset-processor](images/guides-asset-processor.png){align="left"}
+    - **End Time**: Shows the date and time the reprocessing process ends.
+
+    - **Status**: Shows the status of reprocessing as In progress, Completed or Cancelled.
+
+    ![Guides-asset-processor](images/guides-asset-processor-new.png){align="left"}
 
 1. Select **New Process** tab on the top right corner of the window to start a new processing task.
 
-    ![New-process-asset-processor](images/new-process-asset-processor.png){width="550" align="left"}
+    ![New-process-asset-processor](images/new-asset-processor.png){width="550" align="left"}
 
 1. Select the folder you want to process or reprocess. You can also select the folders (within the parent selected folder) which you want to exclude or ignore.
 
