@@ -7,7 +7,7 @@ level: Experienced
 ---
 # API to start bulk processing for assets
 
-A POST method that starts bulk asset processing for the specified path. This API can be used for both JCR-based and database-based asset processing. It initiates an asynchronous job that processes all assets under the given path and its sub-paths. The API returns a unique processingID that can later be used to check the status of the job.
+A POST method that initiates bulk asset processing for a specified path. This API supports both JCR-based and database-based asset processing. It starts an asynchronous job that processes all assets under the given path and its sub-paths. Upon initiation, the API returns a unique processingID, which can be used to track the job status.
 
 **Request URL**
 
@@ -45,6 +45,7 @@ A POST method that starts bulk asset processing for the specified path. This API
 ```
 
 **Response values** 
+
 processingId to poll over to get the status of async job.
 
 ```JSON
@@ -75,7 +76,7 @@ A GET method that retrieves the current status of a previously started asset pro
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|`processingId`|String|Yes|Unique job ID to query.|
+|`processingId`|String|Yes|Unique ID of the job whose status is being queried.|
 
 **Request Example**
 
@@ -129,7 +130,7 @@ A GET method that retrieves the current status of a previously started asset pro
 
 ## View job logs
 
-A GET method that retrieves logs for a given job ID. This API fetches the logs of the asset processing job. The processingid is mandatory. This API provides the offset/limit as well as tail strategy. 
+A GET method that retrieves logs for a given job ID. This API fetches the logs of the asset processing job. The processingid is mandatory. The API provides offset and limit parameters, as well as a tailing strategy.
 
 **Request URL**
 
@@ -140,9 +141,9 @@ A GET method that retrieves logs for a given job ID. This API fetches the logs o
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |`processingId`|String|Yes|Unique ID of the job whose logs are to be viewed.|
-|`offset`|Integer|No|The starting point (line number) from which logs should be read. Used for pagination - skip the first N lines.|
-|`limit`|String|No|The maximum number of log lines to fetch.|
-|`tail`|String|Yes|The number of log lines from the end.|
+|`offset`|Integer|No|The starting point (line number) from which logs should be read. Used for pagination to skip the first N lines.|
+|`limit`|Integer|No|The maximum number of log lines to fetch.|
+|`tail`|Integer|No|Number of log lines to retrieve from the end.|
 
 
 **Request Example**
@@ -210,13 +211,13 @@ A GET method that downloads the log file for a given job as a ZIP.
 
 ## Cancel job
 
-A POST API that cancels an already running bulk asset processing request. In case job is not found, it will return an error.
+A POST API that cancels an ongoing bulk asset processing request. If the job is not found, the API returns an error.
 
 **Request Parameters**
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|`processingId`|String|Yes|Unique ID of the job whose log file needs to be downloaded.|
+|`processingId`|String|Yes|Unique ID of the job whose status is being queried.|
 
 
 **Response Codes**
@@ -229,13 +230,13 @@ A POST API that cancels an already running bulk asset processing request. In cas
 
 ## Resume job
 
-A POST API restarts a previously cancelled or failed bulk asset processing request. It resumes the processing from the last checkpoint. In case job is not found or is in running state, it will return an error.
+A POST API that restarts a previously cancelled or failed bulk asset processing request. It resumes processing from the last checkpoint. If the job is not found or is currently running, the API returns an error.
 
 **Request Parameters**
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|`processingId`|String|Yes|Unique ID of the job whose log file needs to be downloaded.|
+|`processingId`|String|Yes|Unique ID of the job whose status is being queried.|
 
 
 **Response Codes**
