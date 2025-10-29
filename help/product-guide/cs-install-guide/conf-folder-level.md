@@ -432,7 +432,7 @@ Perform the following steps to configure standard AI configuration at the global
 1. Select **Edit**.
 1. As an administrator, you can configure the following settings:
 
-    **Minimum characters**: Enter the minimum number of characters that the authors need to select to get the suggestions. For example, if this number is 7, the author must select at least 7 characters to view a smart suggestion. 
+    **Minimum characters**: Enter the minimum number of characters that the authors need to select to get the suggestions. For example, if this number is 40, the author must select at least 40 characters to view a smart suggestion. 
     
     For selections that do not meet the minimum character requirement, the following message is displayed in the AI Assistant panel:
 
@@ -460,14 +460,26 @@ Learn more about how to view and add [AI-based smart suggestions](../user-guide/
 To ensure smart suggestions work effectively, keep the following points in mind when indexing folders:
 
 1. Content must be indexed via folder profiles for the AI assistant to provide smart suggestions to Authors.
-2. When specifying a folder path for indexing, only child folders of that path can be added. Attempting to add folders outside this path will trigger a warning.
+2. When specifying a folder for indexing, only folders that lie under the current folder profile can be added. Attempting to add folders outside this folder profile will trigger a warning.
     
     This restriction applies only to folder-level profiles. The global profile does not enforce path limitations and can index folders that do not lie under any other folder profile.
 3. If a parent folder is added for indexing, any child folders already listed are automatically removed to avoid duplication. Adding a child folder of an already indexed parent will also trigger a warning.
 4. Any updates, moves, or deletions of files within indexed folders trigger automatic reindexing or removal from the index.
-5. For each indexing attempt, an indexing status (e.g., In Progress, Indexing completed, Indexing failed, and Not in sync) is displayed. When indexing fails, two more options are displayed:
-    - View error logs
-    - Retry indexing
+5. For each indexing attempt, an indexing status is displayed:
+
+    - In progress: Indicates that the indexing is in progress.
+    - Indexing completed: Indicates that the indexing has been completed. 
+    - Indexing failed: Indicates that the indexing has failed. is in progress.
+    - Not in sync: Indicates that indexing is not in sync, typically after an upgrade or migration, when the current indexing status could not be verified. You can retry indexing to refresh and update the status.
+    
+     When indexing fails, you can **View error logs** and **Retry indexing** using the options shown below:
+
+     ![](assets/indexing-failed-options.png)
+
+     The error logs are displayed as shown below:
+
+    ![alt text](index-error-log.png) 
+
 6. A timestamp for the last index time is displayed for each folder profile. 
 
 **Customize the default questions for smart help**
