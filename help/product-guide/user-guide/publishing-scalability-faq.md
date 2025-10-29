@@ -5,7 +5,7 @@ description: Learn about the frequently asked questions on Publishing Performanc
 ---
 # FAQ 
 
-The following is a list of answers to frequently asked questions that provides detailed insights into how Adobe Experience Manager Guides manages publishing workflows, scaling behavior, and infrastructure performance.It is intended for enterprise users, administrators, and documentation teams using Experience Manager Guides for large-scale publishing.
+The following is a list of answers to frequently asked questions that provides detailed insights into how Adobe Experience Manager Guides manages publishing workflows, scaling behavior, and infrastructure performance.It is intended for enterprise users, administrators, and documentation teams using Experience Manager Guides for large-scale publishing. The diagram explains the overall workflow of Experience Manager Guides Publishing Architecture.
 
 ![](images/IO_runtime.drawio.png){align="left"}
 
@@ -54,7 +54,7 @@ If performance degradation is noticed, customers should contact Adobe Support to
 
 ## What processing is done before dispatching a publishing request to the microservice?
 
-When you trigger a publishing request from the Presets tab in the Map Console, the following steps occur:
+When you trigger a publishing request from the Presets tab in the Map console, the following steps occur:
 
 1. The system accepts the request and validates the baseline and conditional presets.
 2. AEM aggregates all qualifying DITA assets and dependencies.
@@ -83,7 +83,7 @@ However, in future releases, prioritization logic (for example, based on job siz
 
 ## How does Experience Manager Guides handle auto-scaling for publishing requests?
 
-Experience Manager Guides publishing infrastructure supports automatic scaling (autoscaling) based on load. When publishing demand increases:
+Experience Manager Guides publishing infrastructure supports automatic scaling based on load. When publishing demand increases:
 
 - Additional pods (containers) are automatically spun up.
 - Each pod can process multiple publishing jobs in parallel.
@@ -97,11 +97,11 @@ If a publishing request fails due to a transient issue (for example, network int
 
 - it is automatically retried based on retry logic configured in the publishing service.
 - logs and error messages are captured in the backend for diagnostic purposes.
-- you can view failure status and retry publishing manually from the Map Console if needed.
+- you can view failure status and retry publishing manually from the Map console if needed.
 
 ## Can you monitor or track the progress of a publishing job?
 
-Yes, Experience Manager Guides provides real-time job status updates in the Presets tab of the Map Console, including:
+Yes, Experience Manager Guides provides real-time job status updates in the Presets tab of the Map console, including:
 
 - Job start and completion time
 - Current stage (zipping, dispatching, publishing, or uploading results)
@@ -111,7 +111,7 @@ This helps you understand job progress and identify potential delays.
 
 ## What best practices can improve publishing performance in Experience Manager Guides?
 
-To ensure optimal publishing speed:
+To ensure optimal publishing speed, follow these best practices:
 
 - Avoid unnecessary large image files or unreferenced topics
 - Use baselines to limit the scope of publishing
