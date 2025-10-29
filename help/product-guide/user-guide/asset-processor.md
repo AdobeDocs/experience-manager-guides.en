@@ -13,7 +13,7 @@ In data-intensive workflows such as publishing, efficient asset management is cr
 >[!NOTE]
 >
 > - For large datasets, it's best to run processing during off-peak hours to avoid impacting system performance. After the processing task completes, you can review the details to analyze the results.<br>
->- The asset processing for the `/content/dam` folder is automatically triggered by the system every 15 minutes. This scheduled process ensures that any newly added and previously unprocessed assets are picked up and processed. To configure the automatic asset processing feature view, [Configure asset processing](../cs-install-guide/configure-asset-processing-cs.md)
+>- The asset processing for the `/content/dam` folder is automatically triggered by the system every 15 minutes. This scheduled process ensures that any newly added and previously unprocessed assets are picked up and processed. To configure the automatic asset processing feature view, [Configure asset processing feature](../cs-install-guide/configure-asset-processing-cs.md).
  
 ## Processing the assets
 
