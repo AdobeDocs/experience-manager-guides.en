@@ -274,6 +274,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Manage output generation process](./user-guide/generate-output-manage-process.md)
       - [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
       - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
+      - [FAQ about publishing workflow and scalability](./user-guide/publishing-scalability-faq.md)
     - Bulk activation of content {#bulk-activation}
       - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
       - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
