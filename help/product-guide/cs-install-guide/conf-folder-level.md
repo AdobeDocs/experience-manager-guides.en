@@ -8,7 +8,7 @@ level: Experienced
 ---
 # Configure global or folder-level profiles {#id181AH2003PF}
 
-In an enterprise, different groups or products may use different authoring templates, output templates, conditional attribute profiles \(or subject schemes\), and Web Editor configurations. Configuring these only at an enterprise \(or global\) level can make authors experience difficult, as they will see templates or profiles that are not relevant to them.
+In an enterprise, different groups or products may use different authoring templates, output templates, conditional attribute profiles \(or subject schemes\), and Web Editor configurations. Configuring these only at an enterprise \(or global\) level can make Authors experience difficult, as they will see templates or profiles that are not relevant to them.
 
 AEM Guides allows you to configure authoring \(topic or map\) templates, output templates, conditional attribute, and Web Editor configurations at an enterprise \(global\) level as well as at a folder level. This way, you can segregate the configurations for different departments or products in your enterprise.
 
@@ -22,7 +22,7 @@ Using the Folder Profiles tile in the Guides settings, you can configure setting
 
 -   **Conditional Attributes**: Use this tab to configure conditional attributes at global or folder-level. A conditional attribute is a combination of the attribute name and value, and you can also define a label for it. You can use the standard DITA attributes or your own custom attributes. The conditional attributes that you define at the global level are made available to all users across projects. In case you have defined folder-level conditional attributes, then they are merged with the globally defined conditional attributes.
 
--   **Templates**: Use this tab to configure the templates that your authors will use to create or publish DITA content. The following topic templates are available out-of-the-box:
+-   **Templates**: Use this tab to configure the templates that your Authors will use to create or publish DITA content. The following topic templates are available out-of-the-box:
 
     -   Glossary
 
@@ -44,7 +44,7 @@ Using the Folder Profiles tile in the Guides settings, you can configure setting
     >
     > You can use any of the existing templates as a base to create new templates. The Blank DITA template does not contain any structure or elements like the other templates. You can use any of the OOTB DITA templates as the base, make modifications to it, and save it with a different name. After making the required changes, add the updated template to the global or folder-level authoring templates configuration, then it becomes available for authoring.
 
-    Along with topic templates, you can also define the map templates that will be made available to authors. The following map templates are available out-of-the-box:
+    Along with topic templates, you can also define the map templates that will be made available to Authors. The following map templates are available out-of-the-box:
 
     -   Map
 
@@ -74,7 +74,7 @@ Using the Folder Profiles tile in the Guides settings, you can configure setting
     -   XML Content Version Labels
     -   Rootmap \(only at folder level\)
 
-You can configure both — global profile and folder-level profile. In a folder-level profile, you can define the folders on which the settings will be applicable. These settings include the conditional attributes, templates, output presets, and XML Editor settings. The conditional presets, templates, and XML Editor configurations are then made available to authors who work in the configured folders. Similarly, publishers will have access to the configured output presets defined within the configured folders.
+You can configure both — global profile and folder-level profile. In a folder-level profile, you can define the folders on which the settings will be applicable. These settings include the conditional attributes, templates, output presets, and XML Editor settings. The conditional presets, templates, and XML Editor configurations are then made available to Authors who work in the configured folders. Similarly, publishers will have access to the configured output presets defined within the configured folders.
 
 A folder-level profile overrides the settings configured in the global profile. In other words, if a folder has a folder-level profile, then it will show the templates, output templates, and XML Editor settings configured in its corresponding folder profile. It will not show the settings configured in the global profile. However, this does not apply to the conditional attributes. In case of conditional attributes, the conditional attributes are merged at global and folder levels.
 
@@ -88,7 +88,7 @@ Perform the following steps to configure the global profile:
 
 1.  Click on the Adobe Experience Manager link at the top and choose **Tools**.
 
-1.  Select **Guides** from the list of tools and click the **Folder Profiles**.
+1.  Select **Guides** from the list of tools and click the **Folder Profiles** tile.
 
     For the first time the Folder Profiles page is shown with only the Global Profile tile.
 
@@ -164,7 +164,7 @@ Now you are ready to configure the conditional attributes, templates, output pre
 
 >[!IMPORTANT]
 >
-> When you create a folder profile, by default it does not contain any templates. You must add the required templates in the folder profile to make them available to your authors.
+> When you create a folder profile, by default it does not contain any templates. You must add the required templates in the folder profile to make them available to your Authors.
 
 ## Configure conditional attributes for global or folder-level profiles {#id1889D0I305Z}
 
@@ -226,7 +226,7 @@ If you are using custom attribute, then it must be a valid DITA attribute suppor
 
 ## Configure templates {#id1889D0IL0Y4}
 
-AEM Guides comes with 7 out-of-the-box topic templates, 2 DITA map templates, and 3 PDF templates. You can choose to have only a few templates available to your authors and publishers. In case you use a custom template, the same can be configured and made available for authoring and publishing. You use the **Templates** tab in the Folder Profiles configuration to add or remove topic, map, or PDF templates from global or folder-level profiles.
+AEM Guides comes with 7 out-of-the-box topic templates, 2 DITA map templates, and 3 PDF templates. You can choose to have only a few templates available to your Authors and publishers. In case you use a custom template, the same can be configured and made available for authoring and publishing. You use the **Templates** tab in the Folder Profiles configuration to add or remove topic, map, or PDF templates from global or folder-level profiles.
 
 Even before configuring the topic, map, or PDF templates at global or folder-level, you can also define a location to store your custom templates. To configure a custom location to store the templates, see [Configure custom DITA template folder path](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
@@ -407,13 +407,13 @@ If you have updated an existing output preset, or you want to make a new output 
 
 For Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
-The AI Assistant in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your content through smart authoring and content reuse experiences. It brings together two robust AI features — **Authoring** and **Help** — into the Experience Manager Guides interface, enabling you to author documents and access information faster and more efficiently.
+The AI Assistant in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your content through smart authoring and content reuse experiences. It brings together two robust AI features — **Authoring** and **Help** — into the Experience Manager Guides interface, enabling you to Authordocuments and access information faster and more efficiently.
 
 For configuration details, view [AI Assistant configuration](./conf-smart-suggestions.md). 
 
 **Configure AI-powered smart suggestions**
 
-You can configure the AI-powered smart suggestions and help the authors reuse the existing content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of  **Suggest reusable content** from the AI Assistant panel in the Editor.
+You can configure the AI-powered smart suggestions and help the Authors reuse the existing content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of  **Suggest reusable content** from the AI Assistant panel in the Editor.
 
 Perform the following steps to configure standard AI configuration at the global or folder-level profile:
 1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
@@ -432,16 +432,16 @@ Perform the following steps to configure standard AI configuration at the global
 1. Select **Edit**.
 1. As an administrator, you can configure the following settings:
 
-    **Minimum characters**: Enter the minimum number of characters that the authors need to select to get the suggestions. For example, if this number is 40, the author must select at least 40 characters to view a smart suggestion. 
+    **Minimum characters**: Enter the minimum number of characters that the Authors need to select to get the suggestions. For example, if this number is 40, the Authormust select at least 40 characters to view a smart suggestion. 
     
     For selections that do not meet the minimum character requirement, the following message is displayed in the AI Assistant panel:
 
     ![](assets/smart-suggestions-character-limit.png)   
 
     
-    This helps you understand whether suggestions are unavailable due to insufficient character selection or genuinely no matching content.
+    This helps Authors understand whether suggestions are unavailable due to insufficient character selection or genuinely no matching content.
 
-    **Maximum suggestions**: Enter the maximum number of suggestions the authors can get while authoring the content. For example, if this number is 5, the author can view five or fewer smart suggestions.
+    **Maximum suggestions**: Enter the maximum number of suggestions the Authors can get while authoring the content. For example, if this number is 5, the Author can view five or fewer smart suggestions.
 
     **Files and folders**: Select the files or folders from which the smart suggestions should be shown. Only child folders of the specified folder path in a folder profile can be selected. For more details, view [Folder profile restrictions](#folder-profile-restrictions).
 
@@ -451,7 +451,7 @@ Perform the following steps to configure standard AI configuration at the global
 
     >[!NOTE]
     >
-    > The last indexed status of the Folder profile is displayed on the top after you save the file. 
+    > The last indexed status of the folder profile is displayed on the top after you save the file. 
 
 Learn more about how to view and add [AI-based smart suggestions](../user-guide/authoring-ai-based-smart-suggestions.md) to add content references while authoring in the Web Editor.
 
@@ -461,18 +461,22 @@ To ensure smart suggestions work effectively, keep the following points in mind 
 
 1. Content must be indexed via folder profiles for the AI assistant to provide smart suggestions to Authors.
 2. When specifying a folder for indexing, only folders that lie under the current folder profile can be added. Attempting to add folders outside this folder profile will trigger a warning.
+
+    ![](assets/warning-message-indexing.png)
     
     This restriction applies only to folder-level profiles. The global profile does not enforce path limitations and can index folders that do not lie under any other folder profile.
 3. If a parent folder is added for indexing, any child folders already listed are automatically removed to avoid duplication. Adding a child folder of an already indexed parent will also trigger a warning.
+
+    ![](assets/parent-child-warning-message-indexing.png)
 4. Any updates, moves, or deletions of files within indexed folders trigger automatic reindexing or removal from the index.
-5. For each indexing attempt, an indexing status is displayed:
+5. For each indexing attempt, the following indexing statuses are displayed:
 
     - In progress: Indicates that the indexing is in progress.
-    - Indexing completed: Indicates that the indexing has been completed. 
-    - Indexing failed: Indicates that the indexing has failed. is in progress.
-    - Not in sync: Indicates that indexing is not in sync, typically after an upgrade or migration, when the current indexing status could not be verified. You can retry indexing to refresh and update the status.
+    - Indexing completed: Indicates that the indexing has successfuly finished. 
+    - Indexing failed: Indicates that the indexing has failed. 
+    - Not in sync: Indicates that indexing is not in sync, typically observed after an upgrade or migration, when the current indexing status could not be verified. You can retry indexing to refresh and update the status.
     
-     When indexing fails, you can **View error logs** and **Retry indexing** using the options shown below:
+     When indexing fails, you are provided with options **View error logs** and **Retry indexing** to troubleshoot and resolve the issue.
 
      ![](assets/indexing-failed-options.png)
 
@@ -486,7 +490,7 @@ To ensure smart suggestions work effectively, keep the following points in mind 
 
 For Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
-You can configure the AI-powered smart **Help** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+You can configure the AI-powered smart **Help** to help the Authors ask questions and easily find the required content from the [ Experience Manager Guides documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 The **XML Editor Configuration** tab allows you to configure the default questions of the **Help** panel.
 
@@ -532,7 +536,7 @@ Learn more about using the [AI-powered Smart Help](../user-guide/ai-based-smart-
 
 ## Configure and customize the XML Editor {#id2065G300O5Z}
 
-By default, the XML Editor comes with a lot of features to help your authors create DITA documents. If you work in a restrictive environment, you can choose which features are exposed to your authors. The XML Editor Configuration tab allows you to easily control the features and also change the look-and-feel of your Editor. As an administrator, you can customize the following components of the Editor:
+By default, the XML Editor comes with a lot of features to help your Authors create DITA documents. If you work in a restrictive environment, you can choose which features are exposed to your Authors. The XML Editor Configuration tab allows you to easily control the features and also change the look-and-feel of your Editor. As an administrator, you can customize the following components of the Editor:
 
 **XML Editor UI Configuration**
 
@@ -568,7 +572,7 @@ Save this file and upload it in the CSS Template Layout section. The next time y
 
 **XML Editor Snippets**
 
-Using the configuration file in this section, you can create some default snippets and share them with your authors. The default structure of the file is given below:
+Using the configuration file in this section, you can create some default snippets and share them with your Authors. The default structure of the file is given below:
 
 ```
 {
@@ -596,7 +600,7 @@ The following details are required to create a snippet:
 
 **XML Content Version Labels**
 
-By default, authors are allowed to create labels of their choice and associate them with their topic files. However, this can lead to many variations of a same label, for example one could have "Release 1.0", "Release-1.0", "release 1" labels for identifying the same stage of a topic. To avoid such inconsistent labeling in the system, you can create a predefined list of labels that authors would then be allowed to choose from. Having consistent labeling helps in better management of files in your system.
+By default, Authors are allowed to create labels of their choice and associate them with their topic files. However, this can lead to many variations of a same label, for example one could have "Release 1.0", "Release-1.0", "release 1" labels for identifying the same stage of a topic. To avoid such inconsistent labeling in the system, you can create a predefined list of labels that Authors would then be allowed to choose from. Having consistent labeling helps in better management of files in your system.
 
 Using the version label configuration, you can upload a list of valid labels for your organization. Download the default label.json file and modify it as shown below:
 
@@ -611,7 +615,7 @@ Using the version label configuration, you can upload a list of valid labels for
 }
 ```
 
-In the above example, the "label1" is the identifier for the label sequence and it is appended by the label that is displayed to the authors wherever a label is required. Save this file and upload it in the XML Content Version Labels section.
+In the above example, the "label1" is the identifier for the label sequence and it is appended by the label that is displayed to the Authors wherever a label is required. Save this file and upload it in the XML Content Version Labels section.
 
 >[!IMPORTANT]
 >
@@ -619,4 +623,4 @@ In the above example, the "label1" is the identifier for the label sequence and 
 
 **Rootmap**
 
-If your authors work with a specific root map, then you can browse to and select that rootmap here. Note that you can define the rootmap only for a folder-level profile.
+If your Authors work with a specific root map, then you can browse to and select that rootmap here. Note that you can define the rootmap only for a folder-level profile.
