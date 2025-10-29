@@ -21,6 +21,8 @@ If you are not using the new service, then all the publishing happens on the sam
 
 This resource constraint was the main motivation to come up with a dedicated service which can allow us to run multiple concurrent and large publishing workloads on cloud.
 
+To learn more about publishing workflows on cloud, view [FAQ on publishing workflow and scalability](/help/product-guide/user-guide/publishing-scalability-faq.md).
+
 ## Introduction to the new architecture
 
 The service is using Adobe's cutting edge cloud solutions like App Builder, IO Eventing, IMS to create a serverless offering. These services are itself based on the widely accepted industry standards like Kubernetes and docker.

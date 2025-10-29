@@ -5,7 +5,7 @@ description: Learn about the frequently asked questions on Publishing Performanc
 ---
 # FAQ 
 
-The following is a list of answers to frequently asked questions that provides detailed insights into how Adobe Experience Manager Guides manages publishing workflows, scaling behavior, and infrastructure performance.It is intended for enterprise users, administrators, and documentation teams using Experience Manager Guides for large-scale publishing. The diagram explains the overall workflow of Experience Manager Guides Publishing Architecture.
+The following is a list of answers to frequently asked questions that provides detailed insights into how Adobe Experience Manager Guides manages publishing workflows, scaling behavior, and infrastructure performance. It is intended for enterprise users, administrators, and documentation teams using Experience Manager Guides for large-scale publishing. The diagram explains the overall workflow of Experience Manager Guides Publishing Architecture.
 
 ![](images/IO_runtime.drawio.png){align="left"}
 
@@ -59,7 +59,7 @@ When you trigger a publishing request from the Presets tab in the Map console, t
 1. The system accepts the request and validates the baseline and conditional presets.
 2. AEM aggregates all qualifying DITA assets and dependencies.
 3. These assets are bundled into a zip package.
-4. The serverless publishing service spins up a Docker container, downloads the assets, executes the publishing operation, and places the generated output artifacts back into Experience Manager Guides.
+4. The serverless publishing service spins up a Docker container, downloads the assets, executes the publishing operation, and places the generated output artefacts back into Experience Manager Guides.
 
 This workflow ensures reliable, isolated, and scalable publishing execution.
 
