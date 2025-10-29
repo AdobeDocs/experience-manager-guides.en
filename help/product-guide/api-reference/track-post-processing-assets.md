@@ -24,24 +24,14 @@ A POST method that initiates bulk asset processing for a specified path. This AP
 **Request Example**
 
 ```JSON
-{ 
+{
+  "path": "/content/dam/status-fetch1",
+  "excludedPaths": [
+    "content/dam/status-fetch1/excluded-folder"
+  ],
+  "type": "ASSET_PROCESSING"
+}
 
-    "path": 
-
-        "/content/dam/status-fetch1",         
-
-    "excludedPaths": 
-    
-    [ 
-
-        "content/dam/status-fetch1/excluded-folder" 
-
-    ],
-
-    "type": "ASSET_PROCESSING"
-
-    
-} 
 ```
 
 **Response values** 
@@ -49,12 +39,10 @@ A POST method that initiates bulk asset processing for a specified path. This AP
 processingId to poll over to get the status of async job.
 
 ```JSON
-{ 
+{
+  "processingId": "akjhdfalkj1132"
+}
 
-  "processingId": "akjhdfalkj1132", 
-
- 
-} 
 ```
 
 **Response Codes**
@@ -81,44 +69,31 @@ A GET method that retrieves the current status of a previously started asset pro
 **Request Example**
 
 ```JSON
-{ 
-
+{
   "processingId": "string",
-
   "path": "string",
-
   "excludedPaths": ["string"],
-
   "status": "WAITING",
-
   "triggeredCount": 0,
-
   "startedAt": 0,
-
   "completedAt": 0,
-
   "hasLogs": true,
-
   "createdBy": "string",
-  
   "type": "ASSET_PROCESSING",
-
-  "migrationSet": { "totalFiles": 0, "calculationStatus":   
-  "WAITING" },
-
-  "eta": { "value": 0, "unit": "string" },
-
+  "migrationSet": {
+    "totalFiles": 0,
+    "calculationStatus": "WAITING"
+  },
+  "eta": {
+    "value": 0,
+    "unit": "string"
+  },
   "comments": "string",
-
   "restartable": true,
-
   "resumable": true,
-
   "cancellable": true
+}
 
-
-    
-} 
 ```
 
 **Response Codes**
@@ -149,21 +124,16 @@ A GET method that retrieves logs for a given job ID. This API fetches the logs o
 **Request Example**
 
 ```JSON
-{ 
 
+{
   "lines": [
+    "string"
+  ],
+  "limit": 0,
+  "offset": 0,
+  "hasMore": true
+}
 
-"string"
-
-],
-
-"limit": 0,
-
-"offset": 0,
-
-"hasMore": true
-    
-} 
 ```
 
 **Response Codes**
@@ -192,15 +162,13 @@ A GET method that downloads the log file for a given job as a ZIP.
 **Request Example**
 
 ```JSON
-{ 
 
-"logFilePaths": [
-
-"string"
-
-]
-    
-} 
+{
+  "logFilePaths": [
+    "string"
+  ]
+}
+ 
 ```
 
 **Response Codes**
@@ -212,6 +180,10 @@ A GET method that downloads the log file for a given job as a ZIP.
 ## Cancel job
 
 A POST API that cancels an ongoing bulk asset processing request. If the job is not found, the API returns an error.
+
+**Request URL**
+
+`http://<aem-guides-server>:<port-number>/bin/guides/v1/assets/process/cancel`
 
 **Request Parameters**
 
@@ -232,6 +204,10 @@ A POST API that cancels an ongoing bulk asset processing request. If the job is 
 
 A POST API that restarts a previously cancelled or failed bulk asset processing request. It resumes processing from the last checkpoint. If the job is not found or is currently running, the API returns an error.
 
+**Request URL**
+
+`http://<aem-guides-server>:<port-number>/bin/guides/v1/assets/process/resume`
+
 **Request Parameters**
 
 |Name|Type|Required|Description|
@@ -250,70 +226,48 @@ A POST API that restarts a previously cancelled or failed bulk asset processing 
 
 A GET API that returns the last 'N' executions of Asset Post-Processing.
 
+**Request URL**
+
+`http://<aem-guides-server>:<port-number>/bin/guides/v1/assets/process/history`
+
+**Request Parameters**
+
+None. This GET request retrieves job history without requiring input parameters.
+
 **Request Example**
 
 ```JSON
-{ 
-
-  "executionHistory": [
-
 {
-
-"processingId": "165f1de6-68c4-4dcd-9223-2b7242b62306",
-
-"path": "/content/dam/22858",
-
-"status": "SUCCESS",
-
-"triggeredCount": 6,
-
-"startedAt": 1761291362776,
-
-"completedAt": 1761291364026,
-
-"hasLogs": true,
-
-"createdBy": "user",
-
-"type": "ASSET_PROCESSING",
-
-"migrationSet": {
-
-"totalFiles": 6,
-
-"calculationStatus": "SUCCESS"
-
-},
-
-"eta": {
-
-"value": 0,
-
-"unit": "SECONDS"
-
-},
-
-"comments": "",
-
-"filter": {
-
-"fileTypes": [],
-
-"filterProcessedAssets": false
-
-},
-
-"cancellable": false,
-
-"resumable": false,
-
-"restartable": true
-
+  "executionHistory": [
+    {
+      "processingId": "165f1de6-68c4-4dcd-9223-2b7242b62306",
+      "path": "/content/dam/22858",
+      "status": "SUCCESS",
+      "triggeredCount": 6,
+      "startedAt": 1761291362776,
+      "completedAt": 1761291364026,
+      "hasLogs": true,
+      "createdBy": "user",
+      "type": "ASSET_PROCESSING",
+      "migrationSet": {
+        "totalFiles": 6,
+        "calculationStatus": "SUCCESS"
+      },
+      "eta": {
+        "value": 0,
+        "unit": "SECONDS"
+      },
+      "comments": "",
+      "filter": {
+        "fileTypes": [],
+        "filterProcessedAssets": false
+      },
+      "cancellable": false,
+      "resumable": false,
+      "restartable": true
+    }
+  ]
 }
-
-]
-    
-} 
 ```
 
 
