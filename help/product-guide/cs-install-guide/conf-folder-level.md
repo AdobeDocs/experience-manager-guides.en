@@ -413,7 +413,7 @@ For configuration details, view [AI Assistant configuration](./conf-smart-sugges
 
 **Configure AI-powered smart suggestions**
 
-You can configure the AI-powered smart suggestions and help the authors reuse the existing content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of  **Suggest reusable content** from the AI Assistant panel in the Web Editor.
+You can configure the AI-powered smart suggestions and help the authors reuse the existing content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of  **Suggest reusable content** from the AI Assistant panel in the Editor.
 
 Perform the following steps to configure standard AI configuration at the global or folder-level profile:
 1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
@@ -432,19 +432,43 @@ Perform the following steps to configure standard AI configuration at the global
 1. Select **Edit**.
 1. As an administrator, you can configure the following settings:
 
-    **Minimum characters**: Enter the minimum number of characters that the authors need to type in to get the suggestions. For example, if this number is 7, the author must add at least 7 characters to view a smart suggestion. 
+    **Minimum characters**: Enter the minimum number of characters that the authors need to select to get the suggestions. For example, if this number is 7, the author must select at least 7 characters to view a smart suggestion. 
+    
+    For selections that do not meet the minimum character requirement, the following message is displayed in the AI Assistant panel:
+
+    ![](assets/smart-suggestions-character-limit.png)   
+
+    
+    This helps you understand whether suggestions are unavailable due to insufficient character selection or genuinely no matching content.
 
     **Maximum suggestions**: Enter the maximum number of suggestions the authors can get while authoring the content. For example, if this number is 5, the author can view five or fewer smart suggestions.
 
-    **Files and folders**: Select the files or folders from which the smart suggestions should be shown. *For consistency of content, it's recommended that no two entries in the list have common files between them*. Once you select the files and folders, they are listed.
+    **Files and folders**: Select the files or folders from which the smart suggestions should be shown. Only child folders of the specified folder path in a folder profile can be selected. For more details, view [Folder profile restrictions](#folder-profile-restrictions).
+
+    *To maintain consistency of content, it's recommended that no two entries in the list have common files between them*. Once you select the files and folders, they are listed. 
 
 1. Click **Save**.
 
     >[!NOTE]
     >
-    > The last indexed status details are displayed on the top after you save the file. 
+    > The last indexed status of the Folder profile is displayed on the top after you save the file. 
 
 Learn more about how to view and add [AI-based smart suggestions](../user-guide/authoring-ai-based-smart-suggestions.md) to add content references while authoring in the Web Editor.
+
+### Folder profile restrictions
+
+To ensure smart suggestions work effectively, keep the following points in mind when indexing folders:
+
+1. Content must be indexed via folder profiles for the AI assistant to provide smart suggestions to Authors.
+2. When specifying a folder path for indexing, only child folders of that path can be added. Attempting to add folders outside this path will trigger a warning.
+    
+    This restriction applies only to folder-level profiles. The global profile does not enforce path limitations and can index folders that do not lie under any other folder profile.
+3. If a parent folder is added for indexing, any child folders already listed are automatically removed to avoid duplication. Adding a child folder of an already indexed parent will also trigger a warning.
+4. Any updates, moves, or deletions of files within indexed folders trigger automatic reindexing or removal from the index.
+5. For each indexing attempt, an indexing status (e.g., In Progress, Indexing completed, Indexing failed, and Not in sync) is displayed. When indexing fails, two more options are displayed:
+    - View error logs
+    - Retry indexing
+6. A timestamp for the last index time is displayed for each folder profile. 
 
 **Customize the default questions for smart help**
 
