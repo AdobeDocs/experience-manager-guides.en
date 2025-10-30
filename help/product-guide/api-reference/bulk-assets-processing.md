@@ -21,7 +21,7 @@ A POST method that initiates bulk asset processing for a specified path. This AP
 |`excludedPaths`|String|No|List of paths to exclude from processing|
 |`type`|String|Yes|Type of processing to be performed. For example: ASSET_PROCESSING.|
 
-**Response Example**
+**Request Example**
 
 ```JSON
 {
