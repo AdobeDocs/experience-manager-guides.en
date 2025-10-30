@@ -974,7 +974,7 @@ To insert a snippet, use any of the following methods:
 
 - Select a snippet from the Snippets panel and drag-and-drop it at the desired location in your topic. You can also use the filter options at the top of the Snippets panel to refine your view:
 
-    - **Show all snippets**: Lists all the available snippets, including both HTML and DITA formats.
+    - **Show all snippets**: Lists all the available snippets, including both DITA and HTML formats.
     - **Show only applicable snippets**: Filters the list to show only those snippets that are relevant to your current topic or context. For example, if you're working on a DITA topic, HTML snippets will be excluded from the list to ensure contextual accuracy.
 
 - Place the insertion point where you want to insert the snippet, from the Options menu of the required snippet, choose Insert Snippet.
