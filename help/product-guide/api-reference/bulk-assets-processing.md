@@ -66,7 +66,7 @@ A GET method that retrieves the current status of a previously started asset pro
 |----|----|--------|-----------|
 |`processingId`|String|Yes|Unique ID of the job whose status is being queried.|
 
-**Request Example**
+**Response Example**
 
 ```JSON
 {
@@ -121,7 +121,7 @@ A GET method that retrieves logs for a given job ID. This API fetches the logs o
 |`tail`|Integer|No|Number of log lines to retrieve from the end.|
 
 
-**Request Example**
+**Response Example**
 
 ```JSON
 
@@ -159,7 +159,7 @@ A GET method that downloads the log file for a given job as a ZIP.
 |`processingId`|String|Yes|Unique ID of the job whose log file needs to be downloaded.|
 
 
-**Request Example**
+**Response Example**
 
 ```JSON
 
@@ -234,7 +234,7 @@ A GET API that returns the last 'N' executions of Asset Post-Processing.
 
 None. This GET request retrieves job history without requiring input parameters.
 
-**Request Example**
+**Response Example**
 
 ```JSON
 {
