@@ -162,6 +162,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Key [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [[!DNL AEM Guides] Home page experience](./user-guide/intro-home-page.md)
+    - [Repository view](./user-guide/home-repository-view.md)
   - Author content {#author-content}
     - [Authoring overview](./user-guide/authoring-content.md)
     - [Ways to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
