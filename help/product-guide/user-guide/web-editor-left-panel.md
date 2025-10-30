@@ -948,28 +948,34 @@ Snippets are small content fragments that can be reused across various topics in
 >
 > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete snippets. Else, as a normal author, you will only get the options to preview and insert a snippet.
 
-![](images/snippets-panel_cs.png){   align="left"}
+![](images/snippets-panel_cs.png){align="left"}
+
+**Create a snippet**
 
 To add a snippet, use any of the following methods:
 
-- Select the **+** icon next to Snippets to open the **New Snippet** dialog box.
+1. Select the **+** icon next to Snippets to open the **New Snippet** dialog box.
 
     ![](images/snippet-new-dialog.png){width="300" align="left"}
 
-    In the New Snippet dialog box, provide a title which appears in the Snippets panel, a description, and XML code of the snippet content that you want to create. Select **Create** to save and create the snippet.
+    In the New Snippet dialog, provide a Title which appears in the Snippets panel, a Description, select a Format (DITA or HTML) for your content, and provide a code of the snippet content that you want to create. Select **Create** to save and create the snippet.
 
-- In the content editing area, right-click on the element's breadcrumb that you want to use as a snippet and choose **Create Snippet** from the context menu. The New Snippet dialog appears with the XML code of the selected element populated in the **Content** field. Enter the **Title** and **Description** for the snippet and select **Create** to save the snippet.
+2. In the content editing area, right-click on the element's breadcrumb that you want to use as a snippet and choose **Create Snippet** from the context menu. The New Snippet dialog appears with the XML code of the selected element populated in the **Content** field. Enter the **Title** and **Description** for the snippet and select **Create** to save the snippet.
 
-- In the content editing area, right-click anywhere on the content that you want to use as a snippet and choose **Create Snippet** from the context menu. The New Snippet dialog box appears with the XML code of the selected element populated in the **Content** field. Enter the **Title** and **Description** for the snippet and select **Create** to save the snippet.
+3. In the content editing area, right-click anywhere on the content that you want to use as a snippet and choose **Create Snippet** from the context menu. The New Snippet dialog box appears with the XML code of the selected element populated in the **Content** field. Enter the **Title** and **Description** for the snippet and select **Create** to save the snippet.
 
     The following screenshot highlights the breadcrumb and the content area from where you can invoke the context menu.
 
     ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
 
+**Insert a snippet**
 
 To insert a snippet, use any of the following methods:
 
-- Select a snippet from the Snippets panel and drag-and-drop it at the desired location in your topic.
+- Select a snippet from the Snippets panel and drag-and-drop it at the desired location in your topic. You can also use the filter options at the top of the Snippets panel to refine your view:
+
+    - **Show all snippets**: Lists all the available snippets, including both HTML and DITA formats.
+    - **Show only applicable snippets**: Filters the list to show only those snippets that are relevant to your current topic or context. For example, if you're working on a DITA topic, HTML snippets will be excluded from the list to ensure contextual accuracy.
 
 - Place the insertion point where you want to insert the snippet, from the Options menu of the required snippet, choose Insert Snippet.
 
