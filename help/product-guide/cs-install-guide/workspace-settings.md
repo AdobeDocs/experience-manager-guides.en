@@ -183,8 +183,8 @@ This tab contains options to configure the Schematron validations in the Editor.
 
     >[!NOTE]
     >
-    > - The selected Schematron file(s) will persist for the selected folder profile.
-    > - When an invalid Schematron file is added, an error message is displayed, as shown below.
+    >- The selected Schematron file(s) will persist for the selected folder profile.
+    >- When an invalid Schematron file is added, an error message is displayed, as shown below.
 
     ![Validation in workspace settings](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
 
