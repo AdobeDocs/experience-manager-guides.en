@@ -1,7 +1,7 @@
 ---
 title: Repository in Home page 
 description: Get to know the Repository in the Home page. Learn about Repository interface and features in Adobe Experience Manager Guides on Home page.
-feature: Authoring,
+feature: Authoring
 role: User
 
 ---
@@ -71,7 +71,7 @@ The Repository view serves as the central space where all folders and files with
 
 - **Options menu for files**: Get access to different options in the Options menu on the file. Some common options available for files are:   
 
-        ![](images/options-file-repo.png){align="left"}
+    ![](images/options-file-repo.png){align="left"}
 
     - **Edit**: Open the file for editing.
     - **Duplicate**: Use this option to create a duplicate or a copy of the selected file.
@@ -84,7 +84,7 @@ The Repository view serves as the central space where all folders and files with
     - **Add to**: Choose to add to collections or Reusable content.
     - **Properties**: Use this to open the properties page of the selected file.
     - **Edit in Oxygen**: Select this option to edit the selected file in the Oxygen connector plugin.
-    
+
     >[!NOTE] 
     >
     >Contact your customer success team to get this feature enabled in the environment. This isn't enabled as a part of the out-of-the-box support. For more details, view the [Configure the option to edit in Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) section in the Installation and Configuration Guide.

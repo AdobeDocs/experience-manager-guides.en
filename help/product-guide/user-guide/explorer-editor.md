@@ -6,9 +6,12 @@ role: User
 ---
 # Search panel
 
-The Search panel in the Editor is a feature that enhances productivity by allowing quick access to relevant files and references while editing content. It helps streamline your workflow by enabling you to search, filter, and insert references without leaving the Editor interface. 
+The Search panel in the Editor is a feature that enhances productivity by allowing quick access to relevant files and references while editing content. It helps streamline your workflow by enabling you to search, filter, and insert references without leaving the Editor interface. You can locate the Search panel at the bottom of the Editor. 
 
-You can locate the Search panel at the bottom of the Editor. It can be accessed either by clicking the Search icon at the top of the Explorer panel or through the Show in Search panel option when navigating from the Repository view on the Home interface.
+The Search panel can be accessed from two locations:
+
+- **Editor interface**: Selecting the **Search icon** at the top of the Explorer panel. For details view, [Search from the Explorer panel](#search-from-the-explorer-panel).
+- **Home page** : Using the **Show in search panel** option when navigating from the Repository view on the Home page. For details view, [Search from the Repository view](#search-from-the-repository-view).
 
 ## Key Benefits
 
@@ -33,14 +36,16 @@ When working in the Editor interface and you need to find relevant files:
 4. Use the **Modify search** option on the Search panel to refine your results further.
 
     ![](images/modify-search.png){align="left"}
+
     
     
 ## Search from the Repository view 
 
-When you perform a search and apply filters on the Home page:
+When you perform a search and apply filters in the Repository view on the Home page, selecting **Show in Search Panel** redirects you to the Editor interface. All your search results will be mirrored in the Search Panel at the bottom of the Editor interface.
 
-- You can mirror these results in the Search panel by selecting Show in Search panel.
-- From here, you can easily drag and drop topics from the Search panel into your current topic in the Editor to attach references.
+You can easily drag and drop topics from the Search Panel into your current topic in the Editor to attach references. Also you can alter your search results by using **Modify search** option on the Search panel
+
+![](images/search-panel-from-home.png){align="left"} 
 
 
 

@@ -182,6 +182,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Left panel](./user-guide/web-editor-left-panel.md)
           - [Content editing area](./user-guide/web-editor-content-editing-area.md)
           - [Right panel](./user-guide/web-editor-right-panel.md)
+          - [Search panel](./user-guide/explorer-editor.md)
         - [Additional features in the Editor](./user-guide/web-editor-other-features.md)       
         - [Keyboard shortcuts in the Editor](./user-guide/web-editor-keyboard-shortcuts.md)
         - [Editor views](./user-guide/web-editor-views.md)
