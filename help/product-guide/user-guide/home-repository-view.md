@@ -14,7 +14,7 @@ This unified interface streamlines multiple functions, including creating new ma
 
 ## Know the Repository interface
 
-The Repository interface is structured to provide an organized and intuitive user experience. It comprises of the key components: **Tab Bar**, **Repository View**, and **Search and Filter** functionality. Each of them plays a distinct role in enabling efficient navigation, content management, and precise information retrieval. Detailed descriptions of these components are provided below.
+The Repository interface is structured to provide an organized and intuitive user experience. It's key components are: **Tab Bar**, **Repository View**, and **Search and Filter** functionality. Each of them plays a distinct role in enabling efficient navigation, content management, and precise information retrieval. Detailed descriptions of these components are provided below.
 
 ![](images/repository-view-home.png){align="left"}
 
@@ -29,7 +29,7 @@ The Tab Bar, located at the top of the Repository interface, provides quick acce
 
     ![](images/folder-navigation-panel.png){align="left"}
 
-- **Breadcrumbs**: These offers navigation through the folders. You can use the breadcrumbs to traverse to the required location by directly selecting the required location. 
+- **Breadcrumbs**: These offer navigation through the folders. You can use the breadcrumbs to traverse to the required location by directly selecting the required location. 
 
     ![](images/breadcrumbs.png){align="left"}
 
@@ -69,7 +69,7 @@ The Repository view serves as the central space where all folders and files with
     - **Add to collections**: Adds the selected folder to favorites. You can choose to add it to an existing or new collection.
     - **Reprocess assets**: Triggers the processing of all the newly created and unprocessed assets.
 
-- **Options menu for files**: Get access to different options in the **Options** menu on the file. Some of the options available for files are:   
+- **Options menu for files**: Get access to different options in the **Options** menu on the file as listed below.
 
     ![](images/options-file-repo.png){align="left"}
 
