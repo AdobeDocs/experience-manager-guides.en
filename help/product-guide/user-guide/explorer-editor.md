@@ -10,14 +10,24 @@ The Search panel in the Editor is a feature that enhances productivity by allowi
 
 The Search panel can be accessed from two locations:
 
-- **Editor interface**: Selecting the **Search icon** at the top of the Explorer panel. For details view, [Search from the Explorer panel](#search-from-the-explorer-panel).
 - **Home page** : Using the **Show in search panel** option when navigating from the Repository view on the Home page. For details view, [Search from the Repository view](#search-from-the-repository-view).
+
+- **Editor interface**: Selecting the **Search icon** at the top of the Explorer panel. For details view, [Search from the Explorer panel](#search-from-the-explorer-panel).
 
 ## Key Benefits
 
 - Centralized view of all search results for easy reference.
 - Drag-and-drop functionality to insert references directly into your current topic.
 - Flexible options to modify or refine searches without leaving the Editor.
+
+## Search from the Repository view 
+
+When you perform a search and apply filters in the Repository view on the Home page, selecting **Show in Search Panel** redirects you to the Editor interface. All your search results will be mirrored in the Search Panel at the bottom of the Editor interface.
+
+You can easily drag and drop topics from the Search Panel into your current topic in the Editor to attach references. Also you can alter your search results by using **Modify search** option on the Search panel
+
+![](images/search-panel-from-home.png){align="left"} 
+
 
 ## Search from the Explorer panel
 
@@ -39,13 +49,6 @@ When working in the Editor interface and you need to find relevant files:
 
     
     
-## Search from the Repository view 
-
-When you perform a search and apply filters in the Repository view on the Home page, selecting **Show in Search Panel** redirects you to the Editor interface. All your search results will be mirrored in the Search Panel at the bottom of the Editor interface.
-
-You can easily drag and drop topics from the Search Panel into your current topic in the Editor to attach references. Also you can alter your search results by using **Modify search** option on the Search panel
-
-![](images/search-panel-from-home.png){align="left"} 
 
 
 
