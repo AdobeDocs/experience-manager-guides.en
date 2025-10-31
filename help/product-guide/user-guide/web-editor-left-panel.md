@@ -112,6 +112,10 @@ You can also perform many actions using the Options menu available for a Collect
 
 ## Repository 
 
+>[!NOTE]
+>
+> Starting with the 2511 release, the term Repository in the Editor will be deprecated and replaced by Explorer for Cloud Services users. For On-Premise users, this feature will be introduced after the 5.2 release; until then, they will continue to see Repository in the Editor interface. 
+
 When you select the Repository icon, you get a list of files and folders available in DAM. By default, you can view the files by titles. As you hover over a file, you can view the file title and the file name as a tooltip.   
 
 >[!NOTE]
@@ -200,7 +204,7 @@ This is in sync with the search box on the repository window. For example, if yo
     >
     >The list of filtered files that contain the searched text is displayed. For example, the files containing the text `personal spaceship` are listed in the previous screenshot. You can select multiple files from the filtered list to drag and drop them into a map opened for editing.
 
-**Options menu**
+### Options menu
 
 In addition to opening files from the left panel, you can also perform many actions using the Options menu available in the Repository view. You will view different options, depending on whether you choose a folder, topic file, or a media file.
 
@@ -420,6 +424,23 @@ The various options in the Options menu are explained below:
 -  **Download as PDF**: Use the option to generate the PDF output and download it.  
 
 - **Generate**: Use the option to publish a map or topics within a map to a Sites page, Content Fragment, or Experience Fragment.
+
+## Explorer
+
+>[!NOTE] 
+>
+> Starting with the 2511 release, the term Repository in the Editor will be replaced by Explorer for Cloud Services users. For On-Premise users, this feature will be introduced after the 5.2 release; until then, they will continue to see Repository in the Editor.
+
+Explorer provides all the capabilities previously available in Repository, including:
+
+- Navigation through files and folders
+- Options menu for files and folders
+
+In addition, Explorer introduces an enhanced Search and Filtering experience, designed to improve usability and efficiency.
+
+For detailed information on the context menu for files and folders, view [Options menu](./web-editor-left-panel.md#options-menu.
+
+For detailed information on the Search experience, view [Search panel](./explorer-editor.md).
 
 ## Map 
 

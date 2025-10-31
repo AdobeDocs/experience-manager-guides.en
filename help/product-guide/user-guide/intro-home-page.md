@@ -9,7 +9,7 @@ exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
 
 The Home page is the first screen that you view when logging into Experience Manager Guides. It provides you with a unified and intuitive welcome screen experience, which includes a quick view of the files that you recently accessed, collections, and more.
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page-new.png){align="left"}
 
 The Experience Manager Guides Home page is divided into the following sections: 
 
@@ -60,9 +60,13 @@ Features available in the navigation bar are explained as follows:
 
 ## Left panel 
 
+>[!NOTE]
+>
+> Repository is available in the Left panel only for Cloud services users from 2511 onwards. For On-Premise users, this feature continues to be accessed from the Editor interface.
+
 The left panel gives you quick access to Overview, Map collections, Bulk publish, Publish queue, and User preferences features. You can expand the panel by selecting the **Expand** icon placed at the bottom-left corner of the interface. Once expanded, use the **Collapse** icon to collapse the panel.
 
-![](images/aem-home-left-panel.png){width="300" align="left"}
+![](images/home-with-repository.png){width="300" align="left"}
 
 What you view on this panel depends on your user role. The following table lists the roles and the respective sections that are displayed in the left panel.
 
@@ -144,6 +148,10 @@ The following widgets are present in the Widgets section:
 >[!NOTE]
 >
 > In addition, if your administrator has configured Adobe Workfront integration in the system, then **Your tasks** widget is also shown in the Widgets section. Learn more about [Adobe Workfront integration](./workfront-integration.md#working-with-the-your-tasks-widget) in Experience Manager Guides.
+
+### Repository
+
+The Repository serves as a centralized hub for managing and discovering folders and files with ease. It provides a comprehensive view of all repository contents, enabling advanced customization for improved information access. Through this unified interface, you can seamlessly perform multiple actions and conducting precise searches with robust filtering options, ensuring efficiency, organization, and an enhanced user experience. Learn more about [Repository](./home-repository-view.md)
 
 ### Map collections 
 
