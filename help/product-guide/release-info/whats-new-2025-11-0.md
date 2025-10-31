@@ -13,22 +13,23 @@ For the list of issues fixed in this release, view [Fixed issues in the 2025.11.
 Learn about [upgrade instructions for the 2025.11.0  release](../release-info/upgrade-instructions-2025-11-0.md).
 
 
-## Editor settings is now renamed to Workspace settings and accessible from the Homepage
+## Discover more with Repository on Home page and advanced Search and Filter experience
 
-To improve navigation and usability, the following enhancements have been introduced:
+The Repository is now accessible directly from the Home page, making it easier than ever to discover folders and files within the content DAM. With a dedicated **Folder navigation panel** and a customizable **Repository view**, you can seamlessly browse and manage your content. 
 
-- **Editor settings** in Experience Manager Guides has been renamed to **Workspace settings**.
-- The **More actions** menu (the three-dot menu), previously available only in the Editor and Map console interface, is now accessible from the [Homepage](../user-guide/intro-home-page.md).
+The new Repository view introduces an advanced **Search and filter** experience, including the ability to mirror search results directly to the Editor through the **Search panel** option. 
 
-    ![](assets/workspace-settings.png)
+Additionally, the Editor interface now features a **Search panel** at the bottom, displaying the search results from both the Home page Repository view and the Explorer panel on the Editor interface, ensuring a unified and efficient content navigation experience.
 
-## Easily identify and fix duplicate IDs in topics and maps in the Author view 
+For more details, view [Repository on the Home page](../user-guide/home-repository-view.md).
 
-Experience Manager Guides now includes a **Duplicate IDs** button in the Editor to help you quickly identify and fix duplicate IDs present within a single topic or map. When duplicate IDs are detected, this button appears at the bottom-left corner of the Editor interface in the **Author** view. Upon selecting the button, a list of all instances with duplicate IDs is displayed in a popover. Selecting an instance highlights the corresponding content in the topic or map, enabling you to locate and fix the duplicate IDs from the right panel.
+![](assets/repository-view-home.png){align="left"}
 
-For more details, view [Additional features in the Editor](../user-guide/web-editor-other-features.md). 
+## Enhancements in publishing performance and scalability
 
-![](assets/duplicate-element-IDs.png){width="350" align="left"}
+Adobe experience Manager Guides offers faster, more scalable publishing with automatic job scaling and a fault-tolerant architecture. You can run up to 40 concurrent publishing jobs, monitor real-time status, and rely on uninterrupted authoring, even during peak loads. These updates ensure efficient, resilient publishing for enterprise teams.
+
+For more details, view [FAQ on publishing performance](../user-guide/publishing-scalability-faq.md).
 
 ## Enhancements to the Repository and Reports filters
 
