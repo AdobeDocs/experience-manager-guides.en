@@ -31,23 +31,32 @@ Adobe experience Manager Guides offers faster, more scalable publishing with aut
 
 For more details, view [FAQ on publishing performance](../user-guide/publishing-scalability-faq.md).
 
-## Enhancements to the Repository and Reports filters
+## Automated B-Tree Cleanup for Optimal Performance
 
-The **Locked by** filter under the Advanced filters in the Repository and **Author** filter in the DITA map Reports now load user lists gradually as you scroll, instead of all at once. This paginated loading improves speed and makes working with large user datasets more efficient and seamless.
+To maintain system efficiency and prevent resource congestion, a new background process will regularly clean up system-level B-Trees. This ensures that assets which no longer exist or were added temporarily do not occupy unnecessary space. 
 
-## Access status of review tasks directly from the Review panel
+The system intelligently identifies candidates for cleanup and performs automated garbage collection. Additionally, this feature is configurable, giving administrators control over its behavior based on operational needs.
 
-As an initiator of a review task, you can now check the status of your review task directly from the Review panel. With the latest enhancements, the **Update task** dialog within the Review panel includes a new **Check review status** option. Selecting this option takes you directly to the review dashboard, where you can view the task status for each reviewer, enabling quicker access to task progress without needing to switch contexts.
+For more details, view [Configure B-tree clean up job](../install-guide/configure-btree-clean-up-job.md).
 
-For more details, view [Request a re-review or close a review task as an Author](../user-guide/review-close-review-task.md).
+## Enhanced Folder Indexing
 
-![](assets/check-review-status-icon.png){width="350" align="left"}
+The release introduces folder-based indexing with improved automation, validation, and visibility. You can add folders to Folder profiles, manually index them, and benefit from automatic re indexing when files are created, updated, deleted, or moved. 
+
+The Indexing status, Completed, In Progress, or Failed, is clearly shown on the dashboard, with options to view logs and reindex failed folders. Access controls ensure profiles cannot index each other's paths, and last indexed timestamps are profile-specific. 
+
+Suggestions now derive from allowed tags while excluding image-related tags. Additional improvements include error handling for invalid folders or character limits, continuity of previously indexed files after upgrade, automatic status updates on moves, and unique site_id generation.
+
+For more details, view [Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-folder-level.md#folder-profile-restrictions).
+
+## Automatic system enabled Asset processing
+
+This update offers a streamlined way to keep your assets up to date. The system now automatically triggers asset processing for the /content/dam folder every 15 minutes. This scheduled process ensures that any newly added or previously unprocessed assets are picked up and processed without manual effort, improving efficiency and consistency across your content repository.
+
+To configure the automatic asset processing feature, navigate to the system console and enable the scheduled processing option.
+
+For more details, view [Asset processing](../user-guide/asset-processor.md).
 
 
 
-## API to track post-processing status for folders or assets
-
-A new API is now available for tracking the post-processing status of individual assets and folders. This is especially useful for teams using automated workflows, where publishing needs to happen only after content is fully processed. The API offers a reliable way to confirm readiness, reducing the risk of publishing failures caused by incomplete processing.
-
-For details, view [API to track post-processing status for folders or assets](../api-reference/track-post-processing-status.md).
 
