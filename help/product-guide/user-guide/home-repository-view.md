@@ -14,7 +14,7 @@ This unified interface streamlines multiple functions, including creating new ma
 
 ## Know the Repository interface
 
-It consists of the options as listed below.
+The Repository interface is structured to provide an organized and intuitive user experience. It comprises of the key components: **Tab Bar**, **Repository View**, and **Search and Filter** functionality. Each of them plays a distinct role in enabling efficient navigation, content management, and precise information retrieval. Detailed descriptions of these components are provided below.
 
 ![](images/repository-view-home.png){align="left"}
 
@@ -25,7 +25,7 @@ The Tab Bar, located at the top of the Repository interface, provides quick acce
 ![](images/tab-bar-repository-view.png){align="left"}
 
 
-- **Folder navigation panel**: Displays a hierarchical, tree-like structure of folders within the Repository, enabling seamless navigation. This panel shows folder-level information only. You can select the icon highlighted in the image below to show and hide this panel. When a folder is selected from here, its contents, files and, sub-folders are displayed in the central space.
+- **Folder navigation panel**: Displays a hierarchical, tree-like structure of folders within the Repository, enabling seamless navigation. This panel shows folder-level information only. You can select the icon highlighted in the image below to show and hide this panel. When a folder is selected from here, its contents, files and, sub-folders are displayed in the Repository view.
 
     ![](images/folder-navigation-panel.png){align="left"}
 
@@ -37,18 +37,18 @@ The Tab Bar, located at the top of the Repository interface, provides quick acce
 - **Upload Assets**: Allows you to upload assets directly to the selected folder.
 - **New**: Enables the creation of new topics, maps, and folders within the Repository.
 - **AI Assistant**: A powerful, AI-driven tool designed to enhance your productivity through smart help features.
-- **More actions**: Provides access to Workspace settings and Assets
+- **More actions**: Provides access to Workspace settings and Assets.
 - **Expand view**: Allows you to expand the page view using the **Expand** icon.
 
 ### Repository view
 
 The Repository view serves as the central space where all folders and files within the repository are displayed. It offers customization options and additional features to enhance usability and visibility as listed below:
 
-- **Customise**: You can modify the columns displayed by using the **Customise** option located at the top-right corner of the Repository view that provides a toggle control for the available fields. The Name or Title columns are mandatory and both cannot be disabled together. Other fields, such as File Type, UUID, Document State, Locked By, Created On, and Modified On, can be enabled or disabled as needed. You can also rearrange them by dragging and dropping.
+- **Customise**: You can modify the columns displayed by using the **Customise** option located at the top-right corner of the Repository view. This option provides a toggle control for the available columns. The Name or Title columns are mandatory and both cannot be disabled together. Other fields, such as File Type, UUID, Document State, Locked By, Created On, and Modified On, can be enabled or disabled as needed. You can also rearrange them by dragging and dropping.
 
     ![](images/customize-repo-view.png){align="left"}
 
-- **Column resizing**: Columns can be resized by selecting the dropdown menu on the respective field label.
+- **Column resizing**: Columns can be resized by selecting the dropdown menu on the respective column label.
 
 - **Sorting**: The Name, Title, Created on and Last modified columns support sorting in ascending or descending order, accessible via the dropdown on the field label.
 
@@ -56,11 +56,11 @@ The Repository view serves as the central space where all folders and files with
 
     - You can select one or multiple files from the Repository view for editing.
     - After selecting the desired files using the checkbox, the **Edit** option becomes available in the top-right corner of the Repository View.
-    - Clicking Edit opens the selected file(s) in the Editor Interface, where you can begin editing immediately.
+    - Selecting **Edit** opens the selected file(s) in the Editor interface, where you can begin editing the file.
 
         ![](images/edit-repo-view.png){align="left"}
 
-- **Options menu for folders**: You can perform the following actions using the Options menu available for a *folder* in the Repository view:
+- **Options menu for folders**: You can perform the following actions using the **Options** menu available for a folder in the Repository view:
 
     ![](images/options-folder-repo.png){align="left"}
 
@@ -69,7 +69,7 @@ The Repository view serves as the central space where all folders and files with
     - **Add to collections**: Adds the selected folder to favorites. You can choose to add it to an existing or new collection.
     - **Reprocess assets**: Triggers the processing of all the newly created and unprocessed assets.
 
-- **Options menu for files**: Get access to different options in the Options menu on the file. Some common options available for files are:   
+- **Options menu for files**: Get access to different options in the **Options** menu on the file. Some of the options available for files are:   
 
     ![](images/options-file-repo.png){align="left"}
 
@@ -93,15 +93,15 @@ The Repository view serves as the central space where all folders and files with
     - **Open in map dashboard**: In case the selected file is a DITA map, then this option opens the map dashboard.
     - **Open in map console**: In case the selected file is a DITA map, then this option opens the map console.  
 
-### Search and filtering experience
+### Search and filter experience
 
-The Search panel in the Repository view helps in searching the required files from the Repository primarily on the basis of **File title**, **File name** and **Content**.
+The Search option in the Repository view helps in searching the required files from the Repository primarily on the basis of **File title**, **File name** and **Content**.
  
 Select the **Filter Search** \(![Search filter icon](images/filter-search-icon.svg)\) icon to open the Filter panel on the right.
 
 ![](images/Search-filters-repo.png){align="left"}
 
-You have the following options to filter the files and to narrow down your search Repository:
+You have the following options to filter the files and to narrow down your search:
 
 - **Search in**: Select the path where you want to search the files present in the Repository. 
 
@@ -114,20 +114,18 @@ You have the following options to filter the files and to narrow down your searc
     - In last month
     - In last year
 
-You can also reset the data using the Reset button
-
 - **Tags**: Filter content based on tags. 
 
 - **DITA element**: Filter content based on various DITA elements.
 
-After adding all the required filters, select **Apply** located at the bottom-left corner of the Filters panel.
+After applying all the required filters, select **Apply** located at the bottom-left corner of the Filters panel.
 Your search results will then be customized according to the selected filter criteria.
 
 **Show in search panel**
 
-The **Show in search panel** option becomes available after performing a search in the Repository view.This feature allows you to display all search results directly in the Editor Interface without switching manually from the left navigation panel.
+The **Show in search panel** option becomes available after performing a search in the Repository view. This feature allows you to display all the search results directly in the Editor without switching manually.
 
-Your search results from the Repository View are mirrored in the Search Panel within the Editor Interface for seamless access. For more details view, [Search panel](./explorer-editor.md).
+Your search results from the Repository view are mirrored in the Search panel within the Editor  for seamless access. For more details view, [Search panel](./explorer-editor.md).
 
 ![](images/search-panel-repo.png){align="left"}
 

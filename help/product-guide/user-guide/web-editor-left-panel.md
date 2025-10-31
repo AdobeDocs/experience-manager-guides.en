@@ -132,7 +132,7 @@ speed, or view picture in picture.
 
 Select a map and press Enter or double-click to open it in the **Map view**. For more details, view the **Map view** feature description in the left panel. Select a topic and press Enter or double-click to open it in the [Content editing area](./web-editor-content-editing-area.md). Being able to navigate and open a file directly from the Editor saves time and increases productivity. 
 
-**Filter Search in Repository**
+## Filter Search in Repository
 
 The Editor provides enhanced filters for searching text. You can search and filter for a text in the files present on the selected path of the Adobe Experience Manager repository. It searches in the title, filename, and content in the files.
 
@@ -429,16 +429,16 @@ The various options in the Options menu are explained below:
 
 >[!NOTE] 
 >
-> Starting with the 2511 release, the term Repository in the Editor will be replaced by Explorer for Cloud Services users. For On-Premise users, this feature will be introduced after the 5.2 release; until then, they will continue to see Repository in the Editor.
+> Starting with the 2025.11.0 release, the term Repository in the Editor will be replaced by **Explorer** for Cloud Services users. On-Premise users, will continue to see and access Repository in the Editor.
 
-Explorer provides all the capabilities previously available in Repository, including:
+Explorer provides most of the capabilities previously available in Repository, including:
 
 - Navigation through files and folders
 - Options menu for files and folders
 
-In addition, Explorer introduces an enhanced Search and Filtering experience, designed to improve usability and efficiency.
+But, it introduces an enhanced Search and filtering experience, designed to improve usability and efficiency.
 
-For detailed information on the context menu for files and folders, view [Options menu](./web-editor-left-panel.md#options-menu.
+For detailed information on the context menu for files and folders, view [Options menu](#options-menu).
 
 For detailed information on the Search experience, view [Search panel](./explorer-editor.md).
 
