@@ -4,7 +4,6 @@ description: Get to know the Home page of the Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-applies to: Experience Manager Guides Cloud Service, Experience Manager Guides On-premise
 ---
 # Experience Manager Guides Home page experience
 
