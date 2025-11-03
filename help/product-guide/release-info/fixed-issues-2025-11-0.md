@@ -17,7 +17,7 @@ Learn about [upgrade instructions for the 2025.11.0 release](upgrade-instruction
 - After upgrading Experience Manager Guides to 2025.08.0 version, the option to enable or disable the custom **Acrolinx** tab no longer appears in **Workspace settings**. (GUIDES-35261)
 - When a custom CSS is applied to a topic or map, refreshing the browser while in the Editor causes the applied CSS to revert to the default style in the Preview mode. (GUIDES-31098)
 - After making a change to a DITA file in the Editor, if you switch to Source view and use **Undo** followed by **Redo**, the changes are not reapplied. (GUIDES-24914, GUIDES-25034) 
-- When adding an `Xref` element to a map file, the referenced map or topic file is displayed with thier file name instead of the title of the referenced file. (GUIDES-21759)
+- When adding an `Xref` element to a map file, the referenced map or topic file is displayed with their file name instead of the title of the referenced file. (GUIDES-21759)
 - When adding multiple Schematron files for validation through the right panel of the Editor interface, an error **Schematron file(s) don't exist or have errors** is displayed even if the files added are genuine and have no errors. (GUIDES-33731)
 
 ## Asset management
@@ -42,7 +42,7 @@ Learn about [upgrade instructions for the 2025.11.0 release](upgrade-instruction
 
 ## Platform
 
-- When performing actions on Assets via the Assets UI, the generated error logs contain an incorrectly term `predecessor` instead of `successor`in the log message. (GUIDES-35607)
+- When performing actions on Assets via the Assets UI, the generated error logs contain an incorrect term `predecessor` instead of `successor`in the log message. (GUIDES-35607)
 - Running bulk activation from the Editor interface generates excessively large logs. (GUIDES-20746)
 
 
