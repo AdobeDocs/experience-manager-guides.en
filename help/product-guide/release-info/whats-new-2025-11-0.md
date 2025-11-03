@@ -37,15 +37,15 @@ To maintain system efficiency and prevent resource congestion, a new background 
 
 The system intelligently identifies candidates for cleanup and performs automated garbage collection. Additionally, this feature is configurable, giving administrators control over its behavior based on operational needs.
 
-For more details, view [Configure B-tree clean up job](../install-guide/configure-btree-clean-up-job.md).
+For more details, view [Configure B-tree clean up job](../cs-install-guide/configure-btree-cleanup-cs.md).
 
 ## Enhanced Folder Indexing
 
-The release introduces folder-based indexing with improved automation, validation, and visibility. You can add folders to Folder profiles, manually index them, and benefit from automatic re indexing when files are created, updated, deleted, or moved. 
+The release introduces folder-based indexing with improved automation, validation, and visibility. 
 
-The Indexing status, Completed, In Progress, or Failed, is clearly shown on the dashboard, with options to view logs and reindex failed folders. Access controls ensure profiles cannot index each other's paths, and last indexed timestamps are profile-specific. 
+Now we have the indexing status, Completed, In Progress, or Failed, clearly shown on the dashboard, with options to view logs and reindex failed folders. Access controls ensure profiles cannot index each other's paths, and last indexed timestamps are profile-specific. 
 
-Suggestions now derive from allowed tags while excluding image-related tags. Additional improvements include error handling for invalid folders or character limits, continuity of previously indexed files after upgrade, automatic status updates on moves, and unique site_id generation.
+Additional improvements include error handling for invalid folders or character limits, continuity of previously indexed files after upgrade, automatic status updates on moves, and unique site_id generation.
 
 For more details, view [Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-folder-level.md#folder-profile-restrictions).
 

@@ -6,7 +6,11 @@ role: Admin
 level: Experienced
 
 ---
-# Configure B-tree clean up job for On-Premise services
+# Configure B-tree clean up for On-Premise services
+
+Set up the B-Tree cleanup job and manage enable/disable settings for Guides BTree deletion to keep your system optimized and storage clean.
+
+## Configure B-tree clean up job
 
 Perform the following steps to configure B-tree clean up job:
 
@@ -18,12 +22,33 @@ Perform the following steps to configure B-tree clean up job:
     http://<server name>:<port>/system/console/configMgr
     ```
 
-1. Search for and select the *com.adobe.fmdita.config.ConfigManager* bundle.
+1. Search for and select the *com.adobe.guides.utils.schedulers.GuidesBTreesCleanupSchedulerJob* bundle.
 
-1. Enable the setting **Guides btree deletion enabled**. 
+1. Update the cron expression to set up the BTree cleanup scheduler job run frequency.
 
 1. Configure the B-tree clean up scheduler as shown below.
 
     ![](assets/btree-cleanup-config.png){align="left"}
 
 1. Click **Save**.
+
+
+## Configure Guides BTree Deletion Enable setting
+
+Perform the following steps to enable or disable the deletion setting:
+
+1. Open the Adobe Experience Manager Web Console Configuration page.
+
+    The default URL to access the configuration page is:
+
+    ```http
+    http://<server name>:<port>/system/console/configMgr
+    ```
+
+1. Search for and select the *com.adobe.fmdita.config.ConfigManager* bundle.
+1. Enable the setting **Guides btree deletion enabled**.
+
+    ![](assets/btree-cleanup-setting.png){align="left"}
+
+1. Click **Save**.
+   
