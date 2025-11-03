@@ -5,7 +5,7 @@ feature: Authoring
 role: User
 
 ---
-# Repository 
+# Repository in Home page
 
 The Repository feature serves as a centralized place designed to enhance the discoverability and management of folders and files. It offers a comprehensive view of all repository contents while enabling advanced customization for improved information access. 
 
@@ -14,13 +14,13 @@ This unified interface streamlines multiple functions, including creating new ma
 
 ## Know the Repository interface
 
-The Repository interface is structured to provide an organized and intuitive user experience. Its key components are: **Tab Bar**, **Repository View**, and **Search and Filter** functionality. Each of them plays a distinct role in enabling efficient navigation, content management, and precise information retrieval. Detailed descriptions of these components are provided below.
+The Repository interface is structured to provide an organized and intuitive user experience. Its key components are: **Repository navigation bar**, **Repository view**, and **Search and Filter** functionality. Each of them plays a distinct role in enabling efficient navigation, content management, and precise information retrieval. Detailed descriptions of these components are provided below.
 
 ![](images/repository-view-home.png){align="left"}
 
-### Tab bar
+### Repository navigation bar
 
-The Tab Bar, located at the top of the Repository interface, provides quick access to essential actions as listed.
+The Repository navigation bar, located at the top of the Repository interface, provides quick access to essential actions as listed.
 
 ![](images/tab-bar-repository-view.png){align="left"}
 
