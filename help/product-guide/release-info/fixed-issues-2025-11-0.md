@@ -45,9 +45,7 @@ Learn about [upgrade instructions for the 2025.11.0 release](upgrade-instruction
 - When performing actions on Assets via the Assets UI, the generated error logs contain an incorrectly term `predecessor` instead of `successor`in the log message. (GUIDES-35607)
 - Running bulk activation from the Editor interface generates excessively large logs. (GUIDES-20746)
 
-## Known issues
 
-Adobe has identified the following known issues for the 2025.11.0 release:
 
 
 
