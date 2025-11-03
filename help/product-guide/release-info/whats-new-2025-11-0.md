@@ -31,7 +31,7 @@ Adobe experience Manager Guides offers faster, more scalable publishing with aut
 
 For more details, view [FAQ on publishing performance](../user-guide/publishing-scalability-faq.md).
 
-## Automated B-Tree Cleanup for Optimal Performance
+## Automated B-Tree Cleanup for optimal performance
 
 To maintain system efficiency and prevent resource congestion, a new background process will regularly clean up system-level B-Trees. This ensures that assets which no longer exist or were added temporarily do not occupy unnecessary space. 
 
@@ -39,13 +39,9 @@ The system intelligently identifies candidates for cleanup and performs automate
 
 For more details, view [Configure B-tree clean up job](../cs-install-guide/configure-btree-cleanup-cs.md).
 
-## Enhanced Folder Indexing
+## Enhanced indexing for Smart suggestions
 
-The release introduces folder-based indexing with improved automation, validation, and visibility. 
-
-Now we have the indexing status, Completed, In Progress, or Failed, clearly shown on the dashboard, with options to view logs and reindex failed folders. Access controls ensure profiles cannot index each other's paths, and last indexed timestamps are profile-specific. 
-
-Additional improvements include error handling for invalid folders or character limits, continuity of previously indexed files after upgrade, automatic status updates on moves, and unique site_id generation.
+You can now easily track the status of each indexing attempt with new status indicators, Indexing completed, Not in Sync, In Progress, and Indexing failed. The last indexing timestamp is now recorded at the folder or profile level for better traceability. Additionally, parent-child folder restrictions are now enforced when specifying a folder or file path for indexing.
 
 For more details, view [Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-folder-level.md#folder-profile-restrictions).
 
