@@ -15,11 +15,9 @@ Learn about [upgrade instructions for the 2025.11.0  release](../release-info/up
 
 ## Discover more with Repository on Home page and advanced Search and Filter experience
 
-The Repository is now accessible directly from the Home page, making it easier than ever to discover folders and files within the content DAM. It features dedicated **Folder navigation panel** and a customizable **Repository view**, you can seamlessly navigate your content. 
+The Repository is now accessible directly from the Home page, making it easier than ever to discover folders and files within the content DAM. It features dedicated **Folder navigation panel** and a customizable **Repository view**, you can seamlessly navigate your content. The revamped search and filter experience makes finding and locating files significantly easier.
 
-Additionally, the searching and locating files have been made much more easy with the revamped search and filter experience. 
-
-Within editor, the file search and filter experience has been made consistent with the homepage and a new bottom Search panel has been introduced to showcase the searched results. The repository has been renamed with "Explorer" within editor to enable users to explore folders and files like the currently do.
+Within Editor, the Search and filter experience for files is now aligned with the Home page. A new bottom **Search panel** has been introduced to display search results. Additionally, the Repository has been renamed **Explorer** in Editor, allowing you to browse folders and files as before.
 
 For more details, view [Repository on the Home page](../user-guide/home-repository-view.md).
 
@@ -33,7 +31,7 @@ For more details, view [Configure AI Assistant for smart help and authoring](../
 
 ## Performance improvements
 
-### Automated B-Tree Cleanup for optimal performance
+### Automated B-Tree cleanup for optimal performance
 
 To maintain system efficiency and prevent resource congestion, a new background process will regularly clean up system-level B-Trees. This ensures that assets which no longer exist or were added temporarily do not occupy unnecessary space. 
 
@@ -41,11 +39,15 @@ The system intelligently identifies candidates for cleanup and performs automate
 
 For more details, view [Configure B-tree clean up job](../cs-install-guide/configure-btree-cleanup-cs.md).
 
-### Automatic system enabled Asset processing
+### Improved handling of DITA maps with large number of keys
 
-This update offers a streamlined way to keep your assets up to date. The system now automatically triggers asset processing for the /content/dam folder every 15 minutes. This scheduled process ensures that any newly added or previously unprocessed assets are picked up and processed without manual effort, improving efficiency and consistency across your content repository.
+You can now work seamlessly with DITA maps that contain a large number of keys. This enhancement ensures faster loading and improved performance, making it easier to manage complex maps without interruptions.
 
-To configure the automatic asset processing feature, navigate to the system console and enable the scheduled processing option.
+After a build upgrade, the system may experience a brief period of increased load due to an automated one-time script (OTS) that runs in the background. This is expected behavior and will stabilize shortly.
+
+### Automatic system enabled asset processing
+
+This update offers a streamlined way to keep your assets up to date. The system now automatically triggers asset processing for the /content/dam folder every 15 minutes. This scheduled process ensures that any newly added or unprocessed assets (within the 15 minutes cycle) are picked up and processed, improving efficiency and consistency across your content repository.
 
 For more details, view [Asset processing](../user-guide/asset-processor.md).
 
