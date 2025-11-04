@@ -38,7 +38,7 @@ Learn about [upgrade instructions for the 2025.11.0 release](upgrade-instruction
 - When a folder containing DITA maps is moved using the Assets UI or **Bulk move** option, existing map collections and bulk activation collections that reference those maps fail to load. (GUIDES-28355)
 - When you move a folder containing a map with condition presets, the conditions are not applied in the generated output after the move. (GUIDES-28352)
 - When you generate AEM Sites output using legacy component mapping, topics that use the `copy-to` attribute get published with the `copy-from` topic's name instead of the name set in the `copy-to` attribute. (GUIDES-22155)
-- Running bulk activation from the Editor interface generates excessively large logs. (GUIDES-20746)
+- Activating one or more DITA maps from **Bulk publish dashboard** generates excessively large logs. (GUIDES-20746)
 
 ## Platform
 
