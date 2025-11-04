@@ -432,7 +432,7 @@ Perform the following steps to configure standard AI configuration at the global
 1. Select **Edit**.
 1. As an administrator, you can configure the following settings:
 
-    **Minimum characters**: Enter the minimum number of characters that the Authors need to select to get the suggestions. For example, if this number is 40, the Authormust select at least 40 characters to view a smart suggestion. 
+    **Minimum characters**: Enter the minimum number of characters that the Authors need to select to get the suggestions. For example, if this number is 40, the Author must select at least 40 characters to view a smart suggestion. 
     
     For selections that do not meet the minimum character requirement, the following message is displayed in the AI Assistant panel:
 
