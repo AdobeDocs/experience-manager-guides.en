@@ -15,37 +15,33 @@ Learn about [upgrade instructions for the 2025.11.0  release](../release-info/up
 
 ## Discover more with Repository on Home page and advanced Search and Filter experience
 
-The Repository is now accessible directly from the Home page, making it easier than ever to discover folders and files within the content DAM. With a dedicated **Folder navigation panel** and a customizable **Repository view**, you can seamlessly browse and manage your content. 
+The Repository is now accessible directly from the Home page, making it easier than ever to discover folders and files within the content DAM. It features dedicated **Folder navigation panel** and a customizable **Repository view**, you can seamlessly navigate your content. 
 
-The new Repository view introduces an advanced **Search and filter** experience, including the ability to mirror search results directly to the Editor through the **Search panel** option. 
+Additionally, the searching and locating files have been made much more easy with the revamped search and filter experience. 
 
-Additionally, the Editor interface now features a **Search panel** at the bottom, displaying the search results from both the Home page Repository view and the Explorer panel on the Editor interface, ensuring a unified and efficient content navigation experience.
+Within editor, the file search and filter experience has been made consistent with the homepage and a new bottom Search panel has been introduced to showcase the searched results. The repository has been renamed with "Explorer" within editor to enable users to explore folders and files like the currently do.
 
 For more details, view [Repository on the Home page](../user-guide/home-repository-view.md).
 
 ![](assets/repository-view-home.png){align="left"}
 
-## Enhancements in publishing performance and scalability
+## Enhanced indexing for Smart suggestions in AI Assistant
 
-Adobe experience Manager Guides offers faster, more scalable publishing with automatic job scaling and a fault-tolerant architecture. You can run up to 40 concurrent publishing jobs, monitor real-time status, and rely on uninterrupted authoring, even during peak loads. These updates ensure efficient, resilient publishing for enterprise teams.
-
-For more details, view [FAQ on publishing performance](../user-guide/publishing-scalability-faq.md).
-
-## Automated B-Tree Cleanup for optimal performance
-
-To maintain system efficiency and prevent resource congestion, a new background process will regularly clean up system-level B-Trees. This ensures that assets which no longer exist or were added temporarily do not occupy unnecessary space. 
-
-The system intelligently identifies candidates for cleanup and performs automated garbage collection. Additionally, this feature is configurable, giving administrators control over its behavior based on operational needs.
-
-For more details, view [Configure B-tree clean up job](../cs-install-guide/configure-btree-cleanup-cs.md).
-
-## Enhanced indexing for Smart suggestions
-
-You can now easily track the status of each indexing attempt with new status indicators, Indexing completed, Not in Sync, In Progress, and Indexing failed. The last indexing timestamp is now recorded at the folder or profile level for better traceability. Additionally, parent-child folder restrictions are now enforced when specifying a folder or file path for indexing.
+You can now easily track the status of each indexing attempt for Smart suggestions in AI Assistant with new status indicators: Indexing completed, Not in sync, In progress, and Indexing failed. The last indexing timestamp is now recorded at the folder or profile level for better traceability. Additionally, parent-child folder restrictions are now enforced when specifying a folder or file path for indexing.
 
 For more details, view [Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-folder-level.md#folder-profile-restrictions).
 
-## Automatic system enabled Asset processing
+## Performance improvements
+
+### Automated B-Tree Cleanup for optimal performance
+
+To maintain system efficiency and prevent resource congestion, a new background process will regularly clean up system-level B-Trees. This ensures that assets which no longer exist or were added temporarily do not occupy unnecessary space. 
+
+The system intelligently identifies candidates for cleanup and performs automated removal. Additionally, this feature is configurable, giving administrators control over its behavior based on operational needs.
+
+For more details, view [Configure B-tree clean up job](../cs-install-guide/configure-btree-cleanup-cs.md).
+
+### Automatic system enabled Asset processing
 
 This update offers a streamlined way to keep your assets up to date. The system now automatically triggers asset processing for the /content/dam folder every 15 minutes. This scheduled process ensures that any newly added or previously unprocessed assets are picked up and processed without manual effort, improving efficiency and consistency across your content repository.
 
