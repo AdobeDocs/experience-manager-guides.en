@@ -44,6 +44,8 @@ When you open a topic in the Editor, a Schematron Validation panel appears in th
     >
     > When an invalid Schematron file is added, an error message is displayed in the Validation panel.
 
+    ![](images/schematron-panel-error.png){width="300" align="left"}
+
 1. If the Schematron file has no errors, it is added and listed in the Validation panel. An error message is displayed for the Schematron file containing errors.
 
     >[!NOTE]
