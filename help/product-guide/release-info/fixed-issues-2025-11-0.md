@@ -31,7 +31,6 @@ Learn about [upgrade instructions for the 2025.11.0 release](upgrade-instruction
 
 - When publishing a DITA map using baseline on AEM Sites (with legacy component mapping), the map elements with the attribute `processing-role = resource-only` are also getting published. (GUIDES-37649)
 - In some cases, the `jcr:content/fmUuidOfSource` property is found missing in the AEM Sites output pages (with legacy component mapping), leading to newly created content pages not discoverable.
-- No search bar is displayed in the AEM Sites output (with legacy component mapping) if `searchPageTemplate` and  `searchPathProp` properties are not present in the associated output template. (GUIDES-34242)
 - Content filtering via DITAVal filters and conditional presets do not work for Salesforce publishing. (GUIDES-33515)
 - Unable to create a Native PDF preset for a map if a folder with the same name exists in its content hierarchy. (GUIDES-33012)
 - When Native PDF output is generated using a dynamic baseline, the term **PDFProject** is displayed as the PDF title instead of the actual map title. (GUIDES-31102)
