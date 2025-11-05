@@ -84,9 +84,10 @@ The Repository view serves as the central space providing a tabular list of all 
     - **Edit**: Open the file for editing.
     - **Edit in Oxygen**: Select this option to edit the selected file in the Oxygen connector plugin.
 
-    >[!NOTE] 
-    >
-    >Contact your customer success team to get this feature enabled in the environment. This isn't enabled as a part of the out-of-the-box support. For more details, view the [Configure the option to edit in Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) section in the Installation and Configuration Guide.
+        >[!NOTE] 
+        >
+        >Contact your customer success team to get this feature enabled in the environment. This isn't enabled as a part of the out-of-the-box support. For more details, view the [Configure the option to edit in Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) section in the Installation and Configuration Guide.
+    
     - **Open in map console**: In case the selected file is a DITA map, then this option opens the map console.
     - **Open in map dashboard**: In case the selected file is a DITA map, then this option opens the map dashboard.
     - **Lock**: Get a lock on the selected file for editing. 
