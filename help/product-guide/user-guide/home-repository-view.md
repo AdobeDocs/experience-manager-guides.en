@@ -125,9 +125,11 @@ You have the following options to filter the files and to narrow down your searc
 
 - **DITA element**: Filter content based on various DITA elements.
 
-After applying all the required filters, select **Apply** located at the bottom-left corner of the Filters panel. Your search results customized according to the selected filter appear as a **tabular list of files only** (folders are not displayed). You can remove any filter individually or multiple filters at the same time, and the results refreshes to reflect the updated selection.
+After applying all the required filters, select **Apply** located at the bottom-left corner of the Filters panel. 
 
-![](images/search-results-with filters.png){align="left"}
+Your search results customized according to the selected filter appear as a **tabular list of files only** (folders are not displayed). You can remove any filter individually or multiple filters at the same time, and the results refreshes to reflect the updated selection.
+
+![](images/search-results-with-filters.png){align="left"}
 
 **Show in search panel**
 
