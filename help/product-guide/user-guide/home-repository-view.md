@@ -1,22 +1,25 @@
 ---
-title: Repository in Home page 
+title: Repository on Home page 
 description: Get to know the Repository in the Home page. Learn about Repository interface and features in Adobe Experience Manager Guides on Home page.
 feature: Authoring
 role: User
 
 ---
-# Repository in Home page
+# Repository 
 
-The Repository feature serves as a centralized place designed to enhance the discoverability and management of folders and files. It offers a comprehensive view of all repository contents while enabling advanced customization for improved information access. 
+The Repository serves as a centralized space for improved discoverability of folders and files. It provides a comprehensive tabular list view of folders and files with multiple columns, offering contextual details for all files and assets.
 
-This unified interface streamlines multiple functions, including creating new maps or folders, uploading assets, editing files, and executing precise searches with robust filtering options, thereby ensuring efficiency and ease of use.
-
+This unified interface streamlines multiple functions, including creating new files or folders, uploading assets, editing files, and executing searches with robust filtering options, thereby ensuring efficiency and ease of use.
 
 ## Know the Repository interface
 
-The Repository interface is structured to provide an organized and intuitive user experience. Its key components are: **Repository navigation bar**, **Repository view**, and **Search and Filter** functionality. Each of them plays a distinct role in enabling efficient navigation, content management, and precise information retrieval. Detailed descriptions of these components are provided below.
+The Repository interface is structured to provide an organized and intuitive user experience. The interface is divided into the following sections:
+
+- Repository navigation bar
+- Repository view
 
 ![](images/repository-view-home.png){align="left"}
+
 
 ### Repository navigation bar
 
@@ -25,28 +28,33 @@ The Repository navigation bar, located at the top of the Repository interface, p
 ![](images/tab-bar-repository-view.png){align="left"}
 
 
-- **Folder navigation panel**: Displays a hierarchical, tree-like structure of folders within the Repository, enabling seamless navigation. This panel shows only folder-level information. Select the icon highlighted to show and hide this panel. When a folder is selected from here, its contents, files, and sub-folders are displayed in the Repository view.
+- **Folder navigation panel**: Displays a hierarchical, tree view of folders within the Repository, enabling seamless navigation. This panel shows only folder-level information. When a folder is selected from here, its contents, files, and sub-folders are displayed in the Repository view. You can show or hide this panel using the icon highlighted below.
 
     ![](images/folder-navigation-panel.png){align="left"}
 
-- **Breadcrumbs**: Offers navigation through the folders. You can use the breadcrumbs to traverse to the required location by directly selecting the required location. 
+- **Breadcrumbs**: Indicates the current path within the repository, showing the hierarchy of folders leading to your current folder. You can select it to go back to a specific folder within the hierarchy.
 
     ![](images/breadcrumbs.png){align="left"}
 
 - **Refresh**: Updates the Repository view to reflect the latest changes.
-- **Upload Assets**: Allows to upload assets directly to the selected folder.
-- **New**: Enables the creation of new topics, maps, and folders within the Repository.
-- **AI Assistant**: A powerful, AI-driven tool designed to enhance your productivity through smart help features.
-- **More actions**: Provides access to Workspace settings and Assets.
-- **Expand view**: Allows to expand the page view using the **Expand** icon.
+- **Upload Assets**: Allows to upload assets directly to the current folder, as highlighted in the breadcrumb.
+- **New**: Enables the creation of new topics, maps, and folders inside the current folder as highlighted in the breadcrumbs.
+- **AI Assistant**: A powerful, AI-driven tool designed to enhance your productivity through smart help features. The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.
+- **More actions**: Provides access to additional options. Selecting this button opens a menu with the following options:
+    - **Assets**: Takes you to a destination based on your setup.
+        - **Cloud Services**: If you are using Cloud Services, selecting the **Assets** option takes you to the AEM Navigation page.
+        - **On-premise Software**: If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the **Assets** option takes you to your current file path in the Assets UI.
+    - **Workspace settings**: Takes you to the **Workspace settings** dialog. For details, view [Configure Workspace settings](../cs-install-guide/workspace-settings.md).
+- **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the Exit the expanded view icon.
 
 ### Repository view
 
-The Repository view serves as the central space where all folders and files within the repository are displayed. It offers the following customization options and additional features to enhance usability and visibility:
+The Repository view serves as the central space providing a tabular list of all the folders and files within the repository. It offers following features:
 
-- **Customise**: You can modify the columns displayed by using the **Customise** option located at the top-right corner of the Repository view. This option provides a toggle control for the available columns. The Name or Title columns are mandatory and both cannot be disabled together. Other fields, such as File Type, UUID, Document State, Locked By, Created On, and Modified On, can be enabled or disabled as needed. You can also rearrange them by dragging and dropping.
+- **Customise**: You can modify the columns displayed by using the **Customise** option located at the top-right corner of the Repository view. This option allows you to show or hide any column and also rearrange the columns as needed. The Name or Title columns are mandatory and both cannot be disabled together. Other fields, such as File Type, UUID, Document State, Locked By, Created On, and Modified On, can be enabled or disabled as needed. You can also rearrange them by dragging and dropping.
 
     ![](images/customize-repo-view.png){align="left"}
+
 
 - **Column resizing**: Columns can be resized by selecting the dropdown menu on the respective column label.
 
@@ -74,28 +82,27 @@ The Repository view serves as the central space where all folders and files with
     ![](images/options-file-repo.png){align="left"}
 
     - **Edit**: Open the file for editing.
-    - **Duplicate**: Use this option to create a duplicate or a copy of the selected file.
-    - **Lock**: Get a lock on the selected file for editing. 
-    - **Preview**: Get a quick preview of the file (.dita, .xml, audio, video, or image) without opening it.
-    - **Rename**: Use this option to rename the selected file.
-    - **Move to**: Use this option to move the selected file to another folder. 
-    - **Delete**: Use this option to delete the selected file.
-    - **Copy**: Copies the UUID or complete path of the file.
-    - **Add to**: Choose to add to collections or Reusable content.
-    - **Properties**: Use this to open the properties page of the selected file.
     - **Edit in Oxygen**: Select this option to edit the selected file in the Oxygen connector plugin.
 
     >[!NOTE] 
     >
     >Contact your customer success team to get this feature enabled in the environment. This isn't enabled as a part of the out-of-the-box support. For more details, view the [Configure the option to edit in Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) section in the Installation and Configuration Guide.
-
-    - **Download as PDF**: Use the option to generate the PDF output and download it.
+    - **Open in map console**: In case the selected file is a DITA map, then this option opens the map console.
     - **Open in map dashboard**: In case the selected file is a DITA map, then this option opens the map dashboard.
-    - **Open in map console**: In case the selected file is a DITA map, then this option opens the map console.  
+    - **Lock**: Get a lock on the selected file for editing. 
+    - **Preview**: Get a quick preview of the file (.dita, .xml, audio, video, or image) without opening it.
+    - **Duplicate**: Use this option to create a duplicate or a copy of the selected file.
+    - **Move to**: Use this option to move the selected file to another folder. 
+    - **Rename**: Use this option to rename the selected file.
+    - **Delete**: Use this option to delete the selected file.
+    - **Add to**: Choose to add to collections or Reusable content.
+    - **Copy**: Copies the UUID or complete path of the file.    
+    - **Properties**: Use this to open the properties page of the selected file.
+    - **Download as PDF**: Use the option to generate the PDF output and download it.  
+      
+- **Search and filter experience**
 
-### Search and filter experience
-
-The Search option in the Repository view helps in searching the required files from the Repository primarily on the basis of **File title**, **File name** and **Content**.
+The Search option in the Repository view helps in searching the required files from the Repository primarily on the basis of **File title**, **File name** and **Content**. You can use any one, two, or all three criteria for your search. If none of the criteria are selected, the results will include common to all the three criteria.
  
 Select the **Filter Search** \(![Search filter icon](images/filter-search-icon.svg)\) icon to open the Filter panel on the right.
 
@@ -118,14 +125,13 @@ You have the following options to filter the files and to narrow down your searc
 
 - **DITA element**: Filter content based on various DITA elements.
 
-After applying all the required filters, select **Apply** located at the bottom-left corner of the Filters panel.
-Your search results will then be customized according to the selected filter criteria.
+After applying all the required filters, select **Apply** located at the bottom-left corner of the Filters panel. Your search results customized according to the selected filter appear as a **tabular list of files only** (folders are not displayed). You can remove any filter individually or multiple filters at the same time, and the results refreshes to reflect the updated selection.
+
+![](images/search-results-with filters.png){align="left"}
 
 **Show in search panel**
 
-The **Show in search panel** option becomes available after performing a search in the Repository view. This feature allows you to display all the search results directly in the Editor without switching manually.
-
-Your search results from the Repository view are mirrored in the Search panel within the Editor  for seamless access. For more details view, [Search panel](./explorer-editor.md).
+The **Show in search panel** option becomes available after performing a search in the Repository view. This feature allows you to display all the searched results in the **Search panel** within the Editor. For more details view, [Search panel](./explorer-editor.md).
 
 ![](images/search-panel-repo.png){align="left"}
 
