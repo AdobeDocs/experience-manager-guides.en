@@ -36,7 +36,7 @@ When working in the Editor interface, you can filter the set of files to view a 
 
     ![](images/search-repo-dialog.png){align="left"}
 
-2. Perform your search and apply filters as needed. For detailed instructions on search and filter options, view [Search and filtering experience](./home-repository-view.md#search-and-filtering-experience).
+2. Perform your search and apply filters as needed. For detailed instructions on search and filter options, view [Search and filtering experience](./home-page-repository-view.md#search-and-filter-experience).
 
 3. Once your search is complete, select **Show in Search panel**. Your recent searches will then appear in the Search panel at the bottom of the Editor.
 

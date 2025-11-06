@@ -440,7 +440,7 @@ But, it introduces an enhanced Search and filtering experience, designed to impr
 
 For detailed information on the context menu for files and folders, view [Options menu](#options-menu).
 
-For detailed information on the Search experience, view [Search panel](./explorer-editor.md).
+For detailed information on the Search experience, view [Search panel](./search-panel-explorer.md).
 
 ## Map 
 
