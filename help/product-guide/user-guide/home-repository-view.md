@@ -9,7 +9,7 @@ role: User
 
 The Repository serves as a centralized space for improved discoverability of folders and files. It provides a comprehensive tabular list view of folders and files with multiple columns, offering contextual details for all files and assets.
 
-This unified interface streamlines multiple functions, including creating new files or folders, uploading assets, editing files, and executing searches with robust filtering options, thereby ensuring efficiency and ease of use.
+This unified interface streamlines multiple functions, including creating new files or folders, uploading assets, editing files, and searching files with robust filtering options, thereby ensuring efficiency and ease of use.
 
 ![](images/repository-view-home.png){align="left"}
 
@@ -33,7 +33,7 @@ The Repository navigation bar, located at the top of the Repository interface, p
 
     ![](images/breadcrumbs.png){align="left"}
 
-- **Refresh**: Updates the Repository view to reflect the latest changes.
+- **Refresh**: Updates the Repository to reflect the latest changes.
 - **Upload Assets**: Allows to upload assets directly to the current folder, as highlighted in the breadcrumb.
 - **New**: Enables the creation of new topics, maps, and folders inside the current folder as highlighted in the breadcrumbs.
 - **AI Assistant**: A powerful, AI-driven tool designed to enhance your productivity through smart help features. The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.
@@ -58,13 +58,13 @@ The Repository serves as the central space providing a tabular list of all the f
 
 - **Editing the file**: 
 
-    - You can select one or multiple files from the Repository view for editing.
+    - You can select one or multiple files from the list for editing.
     - After selecting the desired files using the checkbox, the **Edit** option becomes available in the top-right corner of the Repository View.
     - Selecting **Edit** opens the selected file(s) in the Editor interface, where you can begin editing the file.
 
         ![](images/edit-repo-view.png){align="left"}
 
-- **Options menu for folders**: You can perform the following actions using the **Options** menu available for a folder in the Repository view:
+- **Options menu for folders**: You can perform the following actions using the **Options** menu available for a folder:
 
     ![](images/options-folder-repo.png){align="left"}
 
@@ -73,7 +73,7 @@ The Repository serves as the central space providing a tabular list of all the f
     - **Add to collections**: Adds the selected folder to favorites. You can choose to add it to an existing or new collection.
     - **Reprocess assets**: Triggers the processing of all the newly created and unprocessed assets.
 
-- **Options menu for files**: You can perform the following actions using the **Options** menu for a file in the Repository view:
+- **Options menu for files**: You can perform the following actions using the **Options** menu for a file:
 
     ![](images/options-file-repo.png){align="left"}
 
@@ -99,7 +99,7 @@ The Repository serves as the central space providing a tabular list of all the f
       
 - **Search and filter experience**
 
-The Search option in the Repository view helps in searching the required files from the Repository primarily on the basis of **File title**, **File name** and **Content**. You can use any one, two, or all three criteria for your search. If none of the criteria are selected, the results will include common to all the three criteria.
+The Search option helps in searching the required files from the Repository primarily on the basis of **File title**, **File name** and **Content**. You can use any one, two, or all three criteria for your search. If none of the criteria are selected, the results will include common to all the three criteria.
 
 ![](images/search-in-repository.png){align="left"}
  
@@ -111,7 +111,7 @@ You have the following options to filter the files and to narrow down your searc
 
 - **Search in**: Select the path where you want to search the files present in the Repository. 
 
-- **File type**: You can look for all **DITA Topics**,  **DITA Maps**, **Ditaval Files**,  **Image Files**, **Multimedia**, **Documents**, and **JSON**.
+- **File type**: You can look for all **DITA Topics**,  **DITA Maps**, **DITAVAL Files**,  **Image Files**, **Multimedia**, **Documents**, and **JSON**.
 
 - **Locked by**: Displays a list of users. The list is paginated and loads asynchronously, showing a limited set of users at a time and fetching more as you scroll or navigate. This improves loading speed and overall performance, especially when working with a large number of users.
 
@@ -132,7 +132,7 @@ Your search results customized according to the selected filter appear as a **ta
 
 **Show in search panel**
 
-The **Show in search panel** option becomes available after performing a search in the Repository view. This feature allows you to display all the searched results in the **Search panel** within the Editor. For more details view, [Search panel](./explorer-editor.md).
+The **Show in search panel** option becomes available after performing a search in the Repository. This feature allows you to display all the searched results in the **Search panel** within the Editor. For more details view, [Search panel](./explorer-editor.md).
 
 ![](images/search-panel-repo.png){align="left"}
 

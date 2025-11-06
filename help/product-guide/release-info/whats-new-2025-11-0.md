@@ -13,9 +13,9 @@ For the list of issues fixed in this release, view [Fixed issues in the 2025.11.
 Learn about [upgrade instructions for the 2025.11.0  release](../release-info/upgrade-instructions-2025-11-0.md).
 
 
-## Discover more with Repository on Home page and advanced Search and Filter experience
+## Introducing new Repository on Home page and enhanced search experience
 
-The Repository, accessible directly from the Home page, serves as a centralized space for improved discoverability of folders and files. It features dedicated **Folder navigation panel** and a customizable **tabular view of Repository**. The revamped Search and filter experience makes finding and locating files significantly easier. For more details, view [Repository on the Home page](../user-guide/home-repository-view.md).
+The Repository, now accessible directly from the Home page, serves as a centralized space for improved discoverability of folders and files. It features dedicated **Folder navigation panel** and a customizable **tabular view of Repository**. The revamped Search and filter experience makes finding and locating files significantly easier. For more details, view [Repository on the Home page](../user-guide/home-repository-view.md).
 
 ![](assets/repository-view-home.png){align="left"}
 
@@ -44,11 +44,11 @@ For more details, view [Configure B-tree clean up job](../cs-install-guide/confi
 
 You can now work seamlessly with DITA maps that contain a large number of keys. This enhancement ensures faster loading and improved performance, making it easier to manage complex maps without interruptions.
 
-After a build upgrade, the system may experience a brief period of increased load due to an automated one-time script (OTS) that runs in the background. This is expected behavior and will stabilize shortly.
+After the build upgrade, the system may experience a temporary increase in load, causing a delay in post-processing of newly uploaded data. This is due to an automated one-time script (OTS) running in the background. Once the script completes, system performance will return to normal. 
 
-### Automatic system enabled asset processing
+### Improved asset reprocessing
 
-This update offers a streamlined way to keep your assets up to date. The system now automatically triggers asset processing for the /content/dam folder every 15 minutes. This scheduled process ensures that any newly added or unprocessed assets (within the 15 minutes cycle) are picked up and processed, improving efficiency and consistency across your content repository.
+This update offers a streamlined way to keep your assets up to date. The system triggers asset reprocessing for the /content/dam folder every 15 minutes. This scheduled process ensures that any newly added or unprocessed assets (within the 15 minutes cycle) are picked up and reprocessed, improving efficiency and consistency across your content repository.
 
 For more details, view [Asset processing](../user-guide/asset-processor.md).
 

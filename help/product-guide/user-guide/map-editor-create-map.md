@@ -7,15 +7,19 @@ role: User
 ---
 # Create a map {#id176FEN0D05Z}
 
-Adobe Experience Manager Guides provides two out-of-the-box map templates - DITA map and Bookmap. You can also create your own map templates and share those with your authors to create map files.
+>[!INFO]
+>
+>From 2025.11.0 release, **Repository** is renamed to **Explorer**. For On-Premise setup, it continues to be available as Repository till 5.1 release of Experience Manager Guides.
 
+Adobe Experience Manager Guides provides two out-of-the-box map templates - DITA map and Bookmap. You can also create your own map templates and share those with your authors to create map files.
+  
 Perform the following steps to create a map:
 
-1. In the Repository panel, select the **New file** icon and then select **DITA Map** from the dropdown menu. 
+1. In the Explorer panel, select the **New file** icon and then select **DITA Map** from the dropdown menu. 
 
     ![](images/create-map-options.png){align="left"}
 
-    You can also access this option from the [Experience Manager Guides Home page](./intro-home-page.md) and the options menu of a folder in the Repository view. 
+    You can also access this option from the [Experience Manager Guides Home page](./intro-home-page.md) and the options menu of a folder in the Explorer view. 
 
 2. The **New map** dialog box is displayed.
     
@@ -23,7 +27,7 @@ Perform the following steps to create a map:
     - A Title for the map.
     - \(Optional\)* The file name for the map. The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then you will not view the Name field.
     - A template on which the topic will be based. For a map file, the available options are **Bookmap**, **Map**, and **Subject scheme**.
-    - Path where you want to save the map file. By default, the path of currently selected folder in the repository is shown in the Path field.
+    - Path where you want to save the map file. By default, the path of currently selected folder in the Explorer is shown in the Path field.
 
     ![](images/new-map-dialog.png){width="300" align="left"}
 
@@ -40,7 +44,7 @@ In addition to editing map files directly from the Editor, you can also open top
 
 Perform the following steps to add topics to a map file from the Map console:
 
-1. In the Repository view, navigate to and open the map file that you want to edit.
+1. In the Explorer view, navigate to and open the map file that you want to edit.
 1.  Select the **Edit** icon.
 
     ![](images/edit-map-icon.png){width="450" align="left"}
@@ -56,17 +60,17 @@ Perform the following steps to add topics to a map file from the Map console:
     
     -   **C** - \(*Map views*\): Allows you to switch the Map Editor between the Layout, Author, Source and Preview. The **Layout** view allows you to organize the topics in a DITA map. This gives the tree or hierarchical view of the map. The **Author** view allows you to edit the topics in the Map Editor. This also gives the WYSIWYG view of the map file. The **Source** view allows you to work with the underlying XML of the map file. The Preview gives you a consolidated view of all topic and sub-maps within the map file. 
 
-    -   **D** - \(*Left Panel*\): Gives access to the left panel which gives you access to the Collections, Repository, Map, Outline and other features. You can expand or collapse it by selecting the Expand/Collapse icon. For more details about the features available in the left panel, view [Left panel](./web-editor-left-panel.md) in the Editor.
+    -   **D** - \(*Left Panel*\): Gives access to the left panel which gives you access to the Collections, Explorer, Map, Outline and other features. You can expand or collapse it by selecting the Expand/Collapse icon. For more details about the features available in the left panel, view [Left panel](./web-editor-left-panel.md) in the Editor.
 
     -   **E** - \(*Middle Area*\): Map content editing area.
 
     -   **F** - \(*Right Panel*\): Gives access to the Properties panel. You can view the content properties and the map properties of the selected topic or map. For more details about the functionalities available in this panel, view [Right panel](web-editor-right-panel.md) in the Editor.
 
-1.  In the Left Panel, switch to the **Repository** view.
+1.  In the Left Panel, switch to the **Explorer** view.
 
-1.  In the Adobe Experience Manager repository, navigate to the folder that contains the topics or sub-maps that you want to add.
+1.  In the Adobe Experience Manager Explorer, navigate to the folder that contains the topics or sub-maps that you want to add.
 
-1.  Select the topic or map file in the **Repository** view and drag-and-drop it into the \(middle\) map content editing area.
+1.  Select the topic or map file in the **Explorer** view and drag-and-drop it into the \(middle\) map content editing area.
 
     The topic is added in the map.
 
@@ -130,7 +134,7 @@ Perform the following steps to create a map from the Assets UI:
 
     The version information for a newly created map is shown as *none*. When you save a new version, then it is assigned a version number as 1.0. For more information about saving a new version, view [Save as new version](web-editor-features.md#save-as-new-version).
 
-    You can choose to open the map for editing in the configured map editor, or save the map file in the Adobe Experience Manager repository.
+    You can choose to open the map for editing in the configured map editor, or save the map file in the Explorer.
 
     >[!NOTE]
     >
