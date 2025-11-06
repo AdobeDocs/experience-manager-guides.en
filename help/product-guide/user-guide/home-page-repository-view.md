@@ -9,7 +9,7 @@ role: User
 
 The Repository serves as a centralized space for improved discoverability of folders and files. It provides a comprehensive tabular list view of folders and files with multiple columns, offering contextual details for all files and assets.
 
-This unified interface streamlines multiple functions, including creating new files or folders, uploading assets, editing files, and searching files with robust filtering options, thereby ensuring efficiency and ease of use.
+This unified interface streamlines multiple functions, including creating new files or folders, editing files, uploading assets, and searching files with robust filtering options, thereby ensuring efficiency and ease of use.
 
 ![](images/repository-view-home.png){align="left"}
 
@@ -29,12 +29,12 @@ The Repository navigation bar, located at the top of the Repository interface, p
 
     ![](images/folder-navigation-panel.png){align="left"}
 
-- **Breadcrumbs**: Indicates the current path within the repository, showing the hierarchy of folders leading to your current folder. You can select it to go back to a specific folder within the hierarchy.
+- **Breadcrumbs**: Indicates the current path within the Repository, showing the hierarchy of folders leading to your current folder. You can select it to go back to a specific folder within the hierarchy.
 
     ![](images/breadcrumbs.png){align="left"}
 
 - **Refresh**: Updates the Repository to reflect the latest changes.
-- **Upload Assets**: Allows to upload assets directly to the current folder, as highlighted in the breadcrumb.
+- **Upload Assets**: Allows to upload assets directly to the current folder, as highlighted in the breadcrumbs.
 - **New**: Enables the creation of new topics, maps, and folders inside the current folder as highlighted in the breadcrumbs.
 - **AI Assistant**: A powerful, AI-driven tool designed to enhance your productivity through smart help features. The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.
 - **More actions**: Provides access to additional options. Selecting this button opens a menu with the following options:
@@ -46,9 +46,9 @@ The Repository navigation bar, located at the top of the Repository interface, p
 
 ## Tabular view of Repository
 
-The Repository serves as the central space providing a tabular list of all the folders and files within the repository. It offers following features:
+The Repository serves as the central space providing a tabular list of all the folders and files. It offers following features:
 
-- **Customise**: You can modify the columns displayed by using the **Customise** option located at the top-right corner of the Repository view. This option allows you to show or hide any column and also rearrange the columns as needed. The Name or Title columns are mandatory and both cannot be disabled together. Other fields, such as File Type, UUID, Document State, Locked By, Created On, and Modified On, can be enabled or disabled as needed. You can also rearrange them by dragging and dropping.
+- **Customise**: You can modify the columns displayed by using the **Customise** option located at the top-right corner of the Repository view. This option allows you to show or hide any column and also rearrange the columns as needed. The Name or Title columns are mandatory and both cannot be disabled together. Other fields, such as **File type**, **UUID**, **Document state**, **Locked by**, **Created on**, and **Modified on**, can be enabled or disabled as needed. You can rearrange them by simply dragging and dropping.
 
     ![](images/customize-repo-view.png){align="left"}
 
@@ -97,7 +97,7 @@ The Repository serves as the central space providing a tabular list of all the f
     - **Properties**: Use this to open the properties page of the selected file.
     - **Download as PDF**: Use the option to generate the PDF output and download it.  
       
-- **Search and filter experience**
+### Search and filter experience
 
 The Search option helps in searching the required files from the Repository primarily on the basis of **File title**, **File name** and **Content**. You can use any one, two, or all three criteria for your search. If none of the criteria are selected, the results will include common to all the three criteria.
 
@@ -132,7 +132,7 @@ Your search results customized according to the selected filter appear as a **ta
 
 **Show in search panel**
 
-The **Show in search panel** option becomes available after performing a search in the Repository. This feature allows you to display all the searched results in the **Search panel** within the Editor. For more details view, [Search panel](./explorer-editor.md).
+The **Show in search panel** option becomes available after performing a search in the Repository. This feature allows you to display all the searched results in the **Search panel** within the Editor. For more details view, [Search panel](./search-panel-explorer.md).
 
 ![](images/search-panel-repo.png){align="left"}
 

@@ -151,7 +151,7 @@ The following widgets are present in the Widgets section:
 
 ### Repository
 
-The Repository serves as a centralized hub for discovering folders and files with ease. It provides a comprehensive tabular list view of all the files and folders, along with their contextual details. Through this unified interface, you can seamlessly browse files and perform search with robust filtering options, ensuring efficiency and an enhanced experience. Learn more about [Repository](./home-repository-view.md).
+The Repository serves as a centralized hub for discovering folders and files with ease. It provides a comprehensive tabular list view of all the files and folders, along with their contextual details. Through this unified interface, you can seamlessly browse files and perform search with robust filtering options, ensuring efficiency and an enhanced experience. Learn more about [Repository](./home-page-repository-view.md).
 
 ### Map collections 
 

@@ -166,7 +166,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Key [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [[!DNL AEM Guides] Home page experience](./user-guide/intro-home-page.md)
-    - [Repository](./user-guide/home-repository-view.md)
+    - [Repository interface](./user-guide/home-page-repository-view.md)
   - Author content {#author-content}
     - [Authoring overview](./user-guide/authoring-content.md)
     - [Ways to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
@@ -186,7 +186,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Left panel](./user-guide/web-editor-left-panel.md)
           - [Content editing area](./user-guide/web-editor-content-editing-area.md)
           - [Right panel](./user-guide/web-editor-right-panel.md)
-          - [Search panel](./user-guide/explorer-editor.md)
+          - [Search panel](./user-guide/search-panel-explorer.md)
         - [Additional features in the Editor](./user-guide/web-editor-other-features.md)       
         - [Keyboard shortcuts in the Editor](./user-guide/web-editor-keyboard-shortcuts.md)
         - [Editor views](./user-guide/web-editor-views.md)
