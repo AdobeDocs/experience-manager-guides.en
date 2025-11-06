@@ -44,6 +44,16 @@ Learn about [upgrade instructions for the 2025.11.0 release](upgrade-instruction
 
 - Error logs that are generated while uploading an asset via the Assets UI or creating a new file from the Editor interface, incorrectly use the term `predecessor` instead of `successor` in the log message. (GUIDES-35607)
 
+## Known issues
+
+Adobe has identified the following known issues for the 2025.11.0 release:
+
+- Creating a duplicate copy of a topic (using the `copy-to` attribute) and then referencing the duplicate topic in another topic (using a `scope=peer` attribute) leads to redirection issues in the AEM Sites output. 
+    In such cases, accessing the referenced link from the AEM Sites output (component mapping) redirects you to the AEM Sites output (legacy component mapping), and vice-versa, if the other output still exists.
+- Reindexing of folders for using Smart suggestions in AI Assistant do not happen if the added folders are moved to a different location using the **Bulk Move** tool.
+
+
+
 
 
 
