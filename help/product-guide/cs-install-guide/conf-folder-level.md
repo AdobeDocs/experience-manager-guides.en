@@ -438,8 +438,11 @@ Perform the following steps to configure standard AI configuration at the global
 
     ![](assets/smart-suggestions-character-limit.png)   
 
-    
-    This helps Authors understand whether suggestions are unavailable due to insufficient character selection or genuinely no matching content.
+    However, for general selections where no suggestions are available, the following message is displayed:
+
+    ![](assets/smart-suggestions-select-another-text-message.png)  
+
+    This helps Authors understand whether suggestions are unavailable due to insufficient character selection or genuinely no matching content. 
 
     **Maximum suggestions**: Enter the maximum number of suggestions the Authors can get while authoring the content. For example, if this number is 5, the Author can view five or fewer smart suggestions.
 
