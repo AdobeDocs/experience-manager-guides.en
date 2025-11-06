@@ -19,7 +19,7 @@ The Repository, now accessible directly from the Home page, serves as a centrali
 
 ![](assets/repository-view-home.png){align="left"}
 
-Within Editor, the Search and filter experience for files is now aligned with the Home page. A new [Search panel](../user-guide/explorer-editor.md) located at the bottom of the Editor interface has been introduced to display search results. Additionally, the Repository has been renamed **Explorer** in Editor, allowing you to browse folders and files as before.
+Within Editor, the Search and filter experience for files is now consistent with the Home page. A new [Search panel](../user-guide/explorer-editor.md) located at the bottom of the Editor interface has been introduced to display search results. Additionally, the Repository has been renamed **Explorer** in Editor, allowing you to browse folders and files as before.
 
 ![](assets/search-panel-explorer.png){align="left"}
 
