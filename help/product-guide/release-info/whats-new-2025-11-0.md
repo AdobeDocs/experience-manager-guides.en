@@ -15,13 +15,14 @@ Learn about [upgrade instructions for the 2025.11.0  release](../release-info/up
 
 ## Discover more with Repository on Home page and advanced Search and Filter experience
 
-The Repository is now accessible directly from the Home page, making it easier than ever to discover folders and files within the content DAM. It features dedicated **Folder navigation panel** and a customizable **Repository view**, you can seamlessly navigate your content. The revamped search and filter experience makes finding and locating files significantly easier.
-
-Within Editor, the Search and filter experience for files is now aligned with the Home page. A new bottom **Search panel** has been introduced to display search results. Additionally, the Repository has been renamed **Explorer** in Editor, allowing you to browse folders and files as before.
-
-For more details, view [Repository on the Home page](../user-guide/home-repository-view.md).
+The Repository, accessible directly from the Home page, serves as a centralized space for improved discoverability of folders and files. It features dedicated **Folder navigation panel** and a customizable **tabular view of Repository**. The revamped Search and filter experience makes finding and locating files significantly easier. For more details, view [Repository on the Home page](../user-guide/home-repository-view.md).
 
 ![](assets/repository-view-home.png){align="left"}
+
+Within Editor, the Search and filter experience for files is now aligned with the Home page. A new [Search panel](../user-guide/explorer-editor.md) located at the bottom of the Editor interface has been introduced to display search results. Additionally, the Repository has been renamed **Explorer** in Editor, allowing you to browse folders and files as before.
+
+![](assets/search-panel-explorer.png){align="left"}
+
 
 ## Enhanced indexing for Smart suggestions in AI Assistant
 

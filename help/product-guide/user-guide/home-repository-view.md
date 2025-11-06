@@ -5,23 +5,20 @@ feature: Authoring
 role: User
 
 ---
-# Repository 
+# Know the Repository interface
 
 The Repository serves as a centralized space for improved discoverability of folders and files. It provides a comprehensive tabular list view of folders and files with multiple columns, offering contextual details for all files and assets.
 
 This unified interface streamlines multiple functions, including creating new files or folders, uploading assets, editing files, and executing searches with robust filtering options, thereby ensuring efficiency and ease of use.
 
-## Know the Repository interface
-
-The Repository interface is structured to provide an organized and intuitive user experience. The interface is divided into the following sections:
-
-- Repository navigation bar
-- Repository view
-
 ![](images/repository-view-home.png){align="left"}
 
+The Repository interface is divided into the following sections:
 
-### Repository navigation bar
+- Repository navigation bar
+- Tabular view of Repository
+
+## Repository navigation bar
 
 The Repository navigation bar, located at the top of the Repository interface, provides quick access to essential actions as listed.
 
@@ -47,14 +44,13 @@ The Repository navigation bar, located at the top of the Repository interface, p
     - **Workspace settings**: Takes you to the **Workspace settings** dialog. For details, view [Configure Workspace settings](../cs-install-guide/workspace-settings.md).
 - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the Exit the expanded view icon.
 
-### Repository view
+## Tabular view of Repository
 
-The Repository view serves as the central space providing a tabular list of all the folders and files within the repository. It offers following features:
+The Repository serves as the central space providing a tabular list of all the folders and files within the repository. It offers following features:
 
 - **Customise**: You can modify the columns displayed by using the **Customise** option located at the top-right corner of the Repository view. This option allows you to show or hide any column and also rearrange the columns as needed. The Name or Title columns are mandatory and both cannot be disabled together. Other fields, such as File Type, UUID, Document State, Locked By, Created On, and Modified On, can be enabled or disabled as needed. You can also rearrange them by dragging and dropping.
 
     ![](images/customize-repo-view.png){align="left"}
-
 
 - **Column resizing**: Columns can be resized by selecting the dropdown menu on the respective column label.
 
@@ -104,6 +100,8 @@ The Repository view serves as the central space providing a tabular list of all 
 - **Search and filter experience**
 
 The Search option in the Repository view helps in searching the required files from the Repository primarily on the basis of **File title**, **File name** and **Content**. You can use any one, two, or all three criteria for your search. If none of the criteria are selected, the results will include common to all the three criteria.
+
+![](images/search-in-repository.png){align="left"}
  
 Select the **Filter Search** \(![Search filter icon](images/filter-search-icon.svg)\) icon to open the Filter panel on the right.
 
