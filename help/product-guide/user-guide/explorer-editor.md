@@ -6,48 +6,60 @@ role: User
 ---
 # Search panel
 
-The Search panel in the Editor enhances productivity by allowing quick access to relevant files while editing content. It helps streamline your workflow by enabling you to search, filter, and insert references without leaving the Editor interface. You can locate the Search panel at the bottom of the Editor. 
+The Search panel in the Editor enhances productivity by providing quick access to a subset of files, displayed based on search terms or applied filters when editing content. It helps you easily open one or multiple searched files or use them within an existing file by simply dragging and dropping into a topic or map. You can locate the Search panel at the bottom of the Editor. 
 
-The Search panel can be accessed from two locations:
+The Search panel can be accessed from the following:
 
-- **Home page** : Using the **Show in Search panel** option when navigating from the Repository view on the Home page. For details view, [Search from the Repository view](#search-from-the-repository-view).
+- **Editor interface**: Selecting the **Search icon** from the **Explorer panel** or by using the **Search icon** located at the bottom-left of the **Editor interface**. For details view, [Search from the Explorer panel](#search-from-the-explorer-panel).
 
-- **Editor interface**: Selecting the **Search icon** from the Explorer panel. For details view, [Search from the Explorer panel](#search-from-the-explorer-panel).
+    ![](images/search-icon-editor.png){align="left"} 
+
+- **Home page**: Using the **Show in Search panel** option when navigating from the Repository view on the Home page. For details view, [Search from the Repository view](#search-from-the-repository-view).
+
+    ![](images/search-panel-repo.png){align="left"}    
 
 ## Key Benefits
 
 - Centralized view of all search results for easy reference.
-- Drag-and-drop functionality to insert references directly into your current topic.
+- Drag-and-drop functionality to insert references directly into your current topic or map.
 - Flexible options to modify or refine searches without leaving the Editor.
+
+## Search from the Explorer panel
+
+When working in the Editor interface, you can filter the set of files to view a subset of relevant files you need. Perform the following steps to search files from Explorer:
+
+1. Select the **Search** icon located at the top-right corner of the **Explorer panel** or the **Search** icon present at bottom left of **Editor interface**. This opens the **Search repository** dialog, which offers the same search and filtering experience as the Repository view on the Home page.
+
+    >[!NOTE]
+    >
+    >If there are some search results already present from your current session, selecting the Search icon in the Explorer or the one at the bottom-left of the Editor will simply open the panel showing those previous results. To update or refine the searches, select **Modify Search**.
+
+    ![](images/search-repo-dialog.png){align="left"}
+
+2. Perform your search and apply filters as needed. For detailed instructions on search and filter options, view [Search and filtering experience](./home-repository-view.md#search-and-filtering-experience).
+
+3. Once your search is complete, select **Show in Search panel**. Your recent searches will then appear in the Search panel at the bottom of the Editor.
+
+    ![](images/show-search-explorer.png){align="left"}    
+
+4. To update search results, select **Modify search** option on the Search panel to refine your results further.
+
+    ![](images/modify-search.png){align="left"}
+
+After the search results are displayed in the Search panel, you can work with them, either by opening and editing one or multiple files directly from the panel, or dragging and dropping selected files into an existing topic or map to add references. 
+
+![](images/edit-search-panel.png){align="left"}
 
 ## Search from the Repository view 
 
 When you perform a search and apply filters in the Repository view on the Home page, selecting **Show in Search panel** redirects you to the Editor interface. All your search results will be mirrored in the Search panel at the bottom of the Editor interface.
 
-You can **drag and drop** files from the Search panel into your current topic in the Editor to attach references seamlessly. Additionally, you can refine your search results by using the **Modify search** option available in the Search panel.
+From the Search panel, you can **drag and drop** files into your current topic to attach references seamlessly, or edit multiple files at the same time. Additionally, you can refine your search results by using the **Modify search** option available in the Search panel.
 
 ![](images/search-panel-from-home.png){align="left"} 
 
 
-## Search from the Explorer panel
 
-When working in the Editor interface and you need to find relevant files:
-
-1. Select the **Search** icon located at the top-right corner of the Explorer panel.
-    This opens the **Search repository** dialog, which offers the same search and filtering experience as the Repository view on the Home page.
-
-    ![](images/search-repo-dialog.png){align="left"}
-
-2. Perform your search and apply filters as needed. For detailed instructions on search and filter options, view [Search and filtering experience](./home-repository-view.md#search-and-filtering-experience).
-3. Once your search is complete, select **Show in Search panel**. Your recent searches will then appear in the Search panel at the bottom of the Editor.
-
-    ![](images/show-search-explorer.png){align="left"}    
-
-4. Use the **Modify search** option on the Search panel to refine your results further.
-
-    ![](images/modify-search.png){align="left"}
-
-    
     
 
 
