@@ -11,12 +11,15 @@ The left panel gives you quick access to Collections, Repository view, Map view,
 
 >[!NOTE]
 >
-> The left panel is resizable. To resize the panel, bring the cursor on the panel boundary, the cursor changes to a double-headed arrow, select and drag to resize the panel width.
+> - The left panel is resizable. To resize the panel, bring the cursor on the panel boundary, the cursor changes to a double-headed arrow, select and drag to resize the panel width.
+> - Starting with 2025.11.0 release, **Repository** in the Editor will be deprecated and replaced by **Explorer** for **Cloud service** setup. For **On-Premise** setup, you will continue to view and use Repository through the Editor interface till 5.1 release of Experience Manager Guides.
+ 
 
 The left panel gives you access to the following features:
 
 - [Collections](#collections)
 - [Repository](#repository)
+- [Explorer](#explorer)
 - [Map](#map)
 - [Reusable content](#reusable-content)
 - [Outline](#outline)
@@ -114,7 +117,7 @@ You can also perform many actions using the Options menu available for a Collect
 
 >[!NOTE]
 >
-> Starting with 2025.11.0 release, **Repository** in the Editor will be deprecated and replaced by **Explorer** for **Cloud service** setup. For **On-Premise** setup, you will continue to view and use Repository through the Editor interface. 
+> Starting with 2025.11.0 release, **Repository** in the Editor will be deprecated and replaced by **Explorer** for **Cloud service** setup. For **On-Premise** setup, you will continue to view and use Repository through the Editor interface till 5.1 release of Experience Manager Guides. 
 
 When you select the Repository icon, you get a list of files and folders available in DAM. By default, you can view the files by titles. As you hover over a file, you can view the file title and the file name as a tooltip.   
 
@@ -489,7 +492,7 @@ You can perform the following actions using the Options menu of the map file:
     - **Copy UUID**: Copy the UUID of the map file to Clipboard.
     - **Copy Path**: Copy complete path of the map file to Clipboard.
 
-- **Locate in repository**: Shows the location of the map file in the repository \(or DAM\).
+- **Locate in explorer**: Shows the location of the map file in the explorer\(or DAM\).
 
 - **Add to**: You can choose from the following options:
     - **Collections**: Adds the map file to collections. You can choose to add it to an existing or new collection.
@@ -546,7 +549,7 @@ You can perform the following actions using the Options menu:
     - **Copy Path**: Copy complete path of the selected file to Clipboard.
 
     
-- **Locate in repository**: Shows the location of the selected file in the repository \(or DAM\).
+- **Locate in explorer**: Shows the location of the selected file in the explorer \(or DAM\).
 - **Expand all**: Expand all topics in the map files.
 
 - **Collapse all**: Collapse all topics that are a part of the current map file.

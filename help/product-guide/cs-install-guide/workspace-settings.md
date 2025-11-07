@@ -81,7 +81,7 @@ This setting controls the panels that are shown in the left and right panels of 
 
 You can also define the order in which the features present in panels are displayed. To change the default order of the available features in the panels, select the dotted bars to drag and drop the feature tabs at the desired location. A feature can also be moved from the **More** section to the main section of a panel, and vice versa as per the requirement. Once re-ordered, the features appear in the same sequence in the respective right and left panel. 
 
-![](../user-guide/images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
 
 
 A maximum of eight panels can be displayed at a time. Any changes made to the panel settings are applied immediately. 
