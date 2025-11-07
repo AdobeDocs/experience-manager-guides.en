@@ -48,8 +48,7 @@ Learn about [upgrade instructions for the 2025.11.0 release](upgrade-instruction
 
 Adobe has identified the following known issues for the 2025.11.0 release:
 
-- Creating a duplicate copy of a topic (using the `copy-to` attribute) and then referencing the duplicate topic in another topic (using a `scope=peer` attribute) leads to redirection issues in the AEM Sites output. 
-    In such cases, accessing the referenced link from the AEM Sites output (component mapping) redirects you to the AEM Sites output (legacy component mapping), and vice-versa, if the other output still exists.
+- Creating a duplicate topic using `copy-to` attribute and referencing it with `scope=peer` attribute causes redirection issues in AEM Sites output, where links are redirected from AEM Sites (with composite component mapping) to AEM Sites (with legacy component mapping), and vice-versa.
 - Reindexing of folders for using Smart suggestions in AI Assistant do not happen if the added folders are moved from the Assets UI to a different location using the **Bulk Move** tool.
 
 
