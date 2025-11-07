@@ -42,7 +42,7 @@ When working in the Editor interface, you can filter the set of files to view a 
 
     ![](images/show-search-explorer.png){align="left"}    
 
-4. To update search results, select **Modify search** option on the Search panel to refine your results further.
+4. To update your search results, select **Modify search** option on the Search panel and updated the criteria to get new results.
 
     ![](images/modify-search.png){align="left"}
 
