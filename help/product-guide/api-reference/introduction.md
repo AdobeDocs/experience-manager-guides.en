@@ -77,31 +77,32 @@ Perform the following steps to use the service API JARs from the public Maven re
 
 1. Configure the AEM Guides public Maven repository in your `pom.xml` or `settings.xml` file as shown below:
 
-```XML
+    ```XML
     
-<repository>
-    <id>fmdita-public</id>
-    <name>fmdita-public</name>
-    <url>https://repo.aem-guides.com/repository/fmdita-public</url>
- </repository>
+    <repository>
+        <id>fmdita-public</id>
+        <name>fmdita-public</name>
+        <url>https://repo.aem-guides.com/repository/fmdita-public</url>
+     </repository>
 
-```
-2. Once the repository is setup, add the service API JAR as a project dependency in the project's `pom.xml` file.
+    ```
 
-```XML
+1. Once the repository is setup, add the service API JAR as a project dependency in the project's `pom.xml` file.
+
+    ```XML
     
 
-<dependency>
-    <groupId>com.adobe.fmdita</groupId>
-    <artifactId>api</artifactId>
-    <version>5.1</version>
- </dependency>
+    <dependency>
+        <groupId>com.adobe.fmdita</groupId>
+        <artifactId>api</artifactId>
+        <version>5.1</version>
+    </dependency>
 
-```
+    ```
 
->[!NOTE]
->
-> Use the same version of the API JAR as the AEM Guides package which you have installed on the server.
+    >[!NOTE]
+    >
+    > Use the same version of the API JAR as the AEM Guides package which you have installed on the server.
 
 Once service API JAR is added as a project dependency in the project's `pom.xml` file, you can build and use AEM Guides Java APIs in your project.
 
