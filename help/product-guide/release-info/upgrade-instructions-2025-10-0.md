@@ -49,8 +49,8 @@ Experience Manager Guides is upgraded automatically upon upgrading the current (
 
 >[!NOTE]
 >
-> * Once you start using the current (latest) release, compare any overridden configurations with the latest ones to get the latest features: ui_config.json (may have been set in folder profiles)
-> * If you're using custom folder profile settings, make sure to save them before upgrading to the current release. After updating, review and adjust your settings to align with any changes introduced in the latest version.
+> - Once you start using the current (latest) release, compare any overridden configurations with the latest ones to get the latest features: ui_config.json (may have been set in folder profiles)
+> - If you're using custom folder profile settings, make sure to save them before upgrading to the current release. After updating, review and adjust your settings to align with any changes introduced in the latest version.
 
 
 Perform the following steps for Experience Manager Guides as a Cloud Service if you haven't done it earlier for your existing release:
