@@ -7,9 +7,9 @@ description: Learn about the compatibility matrix and how to upgrade to the 2025
 
 This article covers the upgrade instructions and the compatibility matrix for the 2025.11.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For more information about the new features and enhancements, view [What's new in the 2025.11.0 release](whats-new-2025-10-0.md).
+For more information about the new features and enhancements, view [What's new in the 2025.11.0 release](whats-new-2025-11-0.md).
 
-For the list of issues fixed in this release, view [Fixed issues in the 2025.11.0 release](fixed-issues-2025-10-0.md).
+For the list of issues fixed in this release, view [Fixed issues in the 2025.11.0 release](fixed-issues-2025-11-0.md).
 
 ## Compatibility matrix
 
