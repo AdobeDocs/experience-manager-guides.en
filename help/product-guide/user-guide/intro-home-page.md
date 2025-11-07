@@ -64,7 +64,7 @@ Features available in the navigation bar are explained as follows:
 >
 > Repository is available in the Left panel only for Cloud Services setup from 2511 onwards. For On-Premise setup, this feature continues to be accessed from the Editor interface.
 
-The left panel gives you quick access to Overview, Map collections, Bulk publish, Publish queue, and User preferences features. You can expand the panel by selecting the **Expand** icon placed at the bottom-left corner of the interface. Once expanded, use the **Collapse** icon to collapse the panel.
+The left panel gives you quick access to Overview, Repository, Map collections, Bulk publish, Publish queue, and User preferences features. You can expand the panel by selecting the **Expand** icon placed at the bottom-left corner of the interface. Once expanded, use the **Collapse** icon to collapse the panel.
 
 ![](images/home-with-repository.png){width="300" align="left"}
 
@@ -78,6 +78,7 @@ What you view on this panel depends on your user role. The following table lists
 Features available in the left panel are explained as follows: 
 
 - [Overview](#overview)
+- [Repository](#repository)
 - [Map Collections](#map-collections) 
 - [Bulk Publish](#bulk-publish)
 - [Publish Queue](#publish-queue)
