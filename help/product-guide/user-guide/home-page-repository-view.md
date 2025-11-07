@@ -130,6 +130,10 @@ Your search results customized according to the selected filter appear as a **ta
 
 ![](images/search-results-with-filters.png){align="left"}
 
+After the search results appear, you can either multi-select files and open them in the Editor using the **Edit** icon, or work with all results by sending your search results to the Editor through the **Show in search panel** option.
+
+![](images/post-search-operation.png){align="left"}
+
 **Show in search panel**
 
 The **Show in search panel** option becomes available after performing a search in the Repository. This feature allows you to display all the searched results in the **Search panel** within the Editor. For more details view, [Search panel](./search-panel-explorer.md).
