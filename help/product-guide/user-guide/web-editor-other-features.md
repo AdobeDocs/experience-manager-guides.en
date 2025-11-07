@@ -59,7 +59,7 @@ To create a new version of the file, select **Save As New Version**. For more de
 
     >[!NOTE]
     >
-    >From 2025.11.0 release, the setting **Always locate files in the repository** is renamed to **Always locate files in the explorer**. For On-Premise setup, it continues to be available as Always locate files in the repository till 5.1 release of Experience Manager Guides.
+    >From 2025.11.0 release, **Repository** is renamed to **Explorer**. For On-Premise setup, it continues to be available as Repository till 5.1 release of Experience Manager Guides.
 
 ***Add to***: You can choose from the following options:
 

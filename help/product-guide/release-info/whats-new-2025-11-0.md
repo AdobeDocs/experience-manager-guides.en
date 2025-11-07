@@ -46,9 +46,9 @@ You can now work seamlessly with DITA maps that contain a large number of keys. 
 
 After the build upgrade, the system may experience a temporary increase in load, causing a delay in post-processing of newly uploaded data. This is due to an automated one-time script (OTS) running in the background. Once the script completes, system performance will return to normal. 
 
-### Improved asset reprocessing
+### Improved asset processing
 
-This update offers a streamlined way to keep your assets up to date. The system triggers asset reprocessing for the /content/dam folder every 15 minutes. This scheduled process ensures that any newly added or unprocessed assets (within the 15 minutes cycle) are picked up and reprocessed, improving efficiency and consistency across your content repository.
+This update introduces an automated process to keep assets in the /content/dam up to date. The system triggers asset reprocessing every 15 minutes. During each cycle, assets that were newly added or remained unprocessed within the most recent 15-minute interval are picked up and reprocessed, improving efficiency and consistency across your content repository.
 
 For more details, view [Asset processing](../user-guide/asset-processor.md).
 
