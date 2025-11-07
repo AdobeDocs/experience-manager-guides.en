@@ -49,8 +49,7 @@ Experience Manager Guides is upgraded automatically upon upgrading the current (
 
 >[!NOTE]
 >
-> - Once you start using the current (latest) release, compare any overridden configurations with the latest ones to get the latest features: ui_config.json (may have been set in folder profiles)
-> - This release includes updates to folder profile settings. If you are using custom settings, ensure to take a back up of those before upgrading. After the update, review and adjust your settings to align with the changes introduced in the latest version.
+> This release includes updates to folder profile settings (ui_config.json). If you are using custom settings, ensure to take a back up of those before upgrading. After the update, review and adjust your settings to align with the changes introduced in the latest version.
 
 Perform the following steps for Experience Manager Guides as a Cloud Service if you haven't done it earlier for your existing release:
 
@@ -172,9 +171,9 @@ GET:
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json
 ```
 
-### Steps for using Search filters for DITAVAL files in HTML5 output preset
+### Steps to apply search filters on DITAVAL Files for all output presets
 
-To ensure filters function correctly, update the UI configuration. Change the properties listed under **browseFilters** > **Non-DITA files** > **Ditaval Files** as shown below:
+To ensure filters function correctly, update the ui_config.json. Change the properties listed under **browseFilters** > **Non-DITA files** > **Ditaval Files** as shown below:
 
 ```
 {
