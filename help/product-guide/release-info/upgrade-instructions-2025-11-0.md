@@ -172,3 +172,16 @@ GET:
 ```
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json
 ```
+
+### Steps to apply search filters on DITAVAL Files for all output presets
+
+To ensure filters function correctly, update the ui_config.json. Change the properties listed under **browseFilters** > **Non-DITA files** > **Ditaval Files** as shown below:
+
+```
+{
+  "title": "Ditaval Files",
+  "property": "LOWER_NAME",
+  "operation": "like",
+  "value": ".ditaval"
+}
+```
