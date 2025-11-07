@@ -22,64 +22,89 @@ These APIs expose key functions of AEM Guides to application developers. Using t
 
 ### Java-based APIs
 
-You can use Java-based APIs available in Experience Manager Guides to create custom plugins and extend out-of-the-box workflows. View [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) for the latest and detailed documentation on using the Java-based API.
+You can use Java-based APIs available in Experience Manager Guides to create custom plugins and extend out-of-the-box workflows. 
 
-**Configure and use the service API JAR from public Maven repository**
+**Configure SDK from Maven central repository for AEM Guides as a Cloud Service**
 
-Perform the following steps to configure and use the service API JARs from the public Maven repository in your projects:
+>[!INFO]
+>
+>View [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) for the latest and detailed documentation on using the Java-based API for Experience Manager Guides as a Cloud Service.
 
-1.  To use the service API JAR in a project, configure AEM Guides public Maven repository in your pom.xml file.
-2.  Configure the public Maven repository in Maven's settings.xml file as follows:
-
-    ```XML
-    <repository>
-       <id>fmdita-public</id>
-       <name>fmdita-public</name>
-       <url>https://repo.aem-guides.com/repository/fmdita-public</url>
-    </repository>
-    ```
-
-3.  Once the repository is setup, add the service API JAR as a project dependency in the project's pom.xml file.
-
-    >[!NOTE]
-    >
-    > Use the same version of the API JAR as the AEM Guides package which you have installed on the server.
-
-4.  Configure the Maven dependency as shown below:
+To configure and use the service API JARs from Maven repository in your projects, add the API SDK as a project dependency in your project's `pom.xml` file as shown below.
 
     ```XML
     <dependency>
-       <groupId>com.adobe.fmdita</groupId>
-       <artifactId>api</artifactId>
-       <version>4.0</version>
+    <groupId>com.adobe.aem</groupId>
+    <artifactId>aem-dox-sdk-api</artifactId>
+    <version>${RELEASE}</version>
     </dependency>
+
     ```
 
-
-Once service API JAR is added as a project dependency in the project's pom.xml file, you can build and use AEM Guides Java APIs in your project.
-
-
-**Using API JAR from Maven Central repository for AEM Guides as a Cloud Service**
-
-For AEM Guides as a Cloud Service the API JAR has been deployed to Maven Central. You can use the API JAR without any setup.
-
->[!NOTE] 
+>[!NOTE]
 >
-> The naming convention of the API jar has been updated as per the cloud add-ons naming convention.
+> Ensure that you use the same version of the API JAR as the AEM Guides package installed on your server.
 
-To use the API JAR, you need to add the dependency to your project's pom.xml as shown below:
+**Configure and use the API JAR from Maven central repository (On-premise)**
+
+>[!INFO]
+>
+>View [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html ) for the latest and detailed documentation on using the Java-based API for Experience Manager Guides On-premise setup.
+
+To configure and use the service API JARs for on-premise deployments, add the service API JAR as a project dependency in your project's `pom.xml` file as shown below:
+
+    ```XML
+    <dependency>
+    <groupId>com.adobe.aem</groupId>
+    <artifactId>aem-guides-sdk-api</artifactId>
+    <version>5.1</version>
+    </dependency>
+
+    ```
+
+>[!NOTE]
+>
+> Ensure that you use the same version of the API JAR as the AEM Guides package installed on your server.   
+
+
+**Configure and use the API JAR from AEM Guides public Maven repository (On-premise)**
+
+>[!NOTE]
+>
+> The public AEM Guides Maven repository will be deprecated after the 5.3.0 release of Experience Manager Guides. The API JAR will only be available in Maven Central repository thereafter.   
+
+Perform the following steps to use the service API JARs from the public Maven repository:
+
+1. Configure the AEM Guides public Maven repository in your `pom.xml` or `settings.xml` file as shown below:
 
 ```XML
+    
+<repository>
+    <id>fmdita-public</id>
+    <name>fmdita-public</name>
+    <url>https://repo.aem-guides.com/repository/fmdita-public</url>
+ </repository>
+
+```
+2. Once the repository is setup, add the service API JAR as a project dependency in the project's `pom.xml` file.
+
+```XML
+    
+
 <dependency>
-   <groupId>com.adobe.aem</groupId>
-   <artifactId>aem-dox-sdk-api</artifactId>
-   <version>${RELEASE}</version>
-</dependency>
+    <groupId>com.adobe.fmdita</groupId>
+    <artifactId>api</artifactId>
+    <version>5.1</version>
+ </dependency>
+
 ```
 
->[!NOTE] 
+>[!NOTE]
 >
-> Since the packages inside the API JAR are still the same, no code change is required to use this API JAR in the existing cloud projects.
+> Use the same version of the API JAR as the AEM Guides package which you have installed on the server.
+
+Once service API JAR is added as a project dependency in the project's `pom.xml` file, you can build and use AEM Guides Java APIs in your project.
+
 
 ### REST-based APIs 
 
