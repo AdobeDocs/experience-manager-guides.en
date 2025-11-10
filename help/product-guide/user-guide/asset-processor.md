@@ -8,16 +8,16 @@ exl-id: 27786098-119c-4b7a-8275-8a89d435294f
 ---
 # Asset processing
 
-In data-intensive workflows such as publishing, efficient asset management is crucial for maintaining performance and reliability. The process of processing or reprocessing assets is specifically designed to handle user-specific assets that require intensive data operations. This approach addresses two primary scenarios: when the initial processing of assets encounters errors, or when files were not processed at all due to the absence of a post-processing trigger. By enabling targeted, folder-level processing, users can isolate and process only the necessary assets, thereby avoiding the overhead of unnecessary computations. This selective approach significantly enhances performance, reducing the time required for critical operations like publishing and report generation. Overall, it contributes to greater efficiency and speed in handling complex data tasks.
+In data-intensive workflows such as publishing, efficient asset management is crucial for maintaining performance and reliability. The asset processing workflow is designed to manage user-specific assets requiring intensive data operations. It primarily addresses two cases: when initial processing fails due to errors or when files remain unprocessed because no asset processing trigger was initiated. By enabling targeted, folder-level processing, users can isolate and process only the necessary assets, thereby avoiding the overhead of unnecessary computations. This selective approach significantly enhances performance, reducing the time required for critical operations like publishing and report generation. Overall, it contributes to greater efficiency and speed in handling complex data tasks.
 
 >[!NOTE]
 >
 > - For large datasets, it's best to run processing during off-peak hours to avoid impacting system performance. After the processing task completes, you can review the details to analyze the results.<br>
->- The asset processing for the `/content/dam` folder is automatically triggered by the system every 15 minutes. This scheduled process ensures that any newly added and previously unprocessed assets are picked up and processed. To configure the automatic asset processing feature view, [Configure asset processing feature](../cs-install-guide/configure-asset-processing-cs.md).
+>- The system triggers asset processing for the `/content/dam` folder every 15 minutes. During each cycle, assets that were newly added or remained unprocessed within the most recent 15-minute interval are picked up and reprocessed. To configure the automatic asset processing feature view, [Configure asset processing feature](../cs-install-guide/configure-asset-processing-cs.md).
  
 ## Processing the assets
 
-Follow the below mentioned steps to process or reprocess the assets:
+Follow the below mentioned steps to process the assets:
 
 1. Select the Adobe Experience Manager logo at the top and choose **Tools**.
 1. In the **Tools** panel select **Guides**.
@@ -29,19 +29,19 @@ Follow the below mentioned steps to process or reprocess the assets:
 
     - **Feature type**: Shows the feature of the process that is being executed.
 
-    - **Execution ID**: It is the unique Id for each reprocessing task that you perform.
+    - **Execution ID**: It is the unique Id for each processing task that you perform.
 
-    - **Folder**: Shows the folder selected for reprocessing.
+    - **Folder**: Shows the folder selected for processing.
 
-    - **Excluded Folders**: Shows the folder that is excluded from reprocessing.
+    - **Excluded Folders**: Shows the folder that is excluded from processing.
 
-    - **Created by**: Shows who created the task or process. It can be the system as well as the user.
+    - **Created by**: Shows who created the task or process. It can be you as well as the system.
 
-    - **Start time:** Shows the date and time the reprocessing process is initiated.
+    - **Start time:** Shows the date and time the processing process is initiated.
 
-    - **End Time**: Shows the date and time the reprocessing process ends.
+    - **End Time**: Shows the date and time the processing process ends.
 
-    - **Status**: Shows the status of reprocessing as In progress, Completed or Cancelled.
+    - **Status**: Shows the status of processing as In progress, Completed or Cancelled.
 
     ![Guides-asset-processor](images/guides-asset-processor-new.png){align="left"}
 
@@ -49,13 +49,13 @@ Follow the below mentioned steps to process or reprocess the assets:
 
     ![New-process-asset-processor](images/new-asset-processor.png){width="550" align="left"}
 
-1. Select the folder you want to process or reprocess. You can also select the folders (within the parent selected folder) which you want to exclude or ignore.
+1. Select the folder you want to process. You can also select the folders (within the parent selected folder) which you want to exclude or ignore.
 
     >[!NOTE]
     >
     >Only one folder can be selected at a given time for processing. For specific operations, you can exclude multiple folders.    
 
-1. Select **Create**. You get a pop-up showing **Success and the Process triggered successfully** as shown in the snippet. The same is reflected in the list. You can see the status of the reprocessing task on the window.
+1. Select **Create**. You get a pop-up showing **Success and the Process triggered successfully** as shown in the snippet. The same is reflected in the list. You can see the status of the processing task on the window.
 
     ![Message-asset-processor](images/message-asset-processor.png){width="550" align="left"}
 
