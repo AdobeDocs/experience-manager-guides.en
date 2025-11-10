@@ -446,7 +446,7 @@ Perform the following steps to configure standard AI configuration at the global
 
     **Maximum suggestions**: Enter the maximum number of suggestions the Authors can get while authoring the content. For example, if this number is 5, the Author can view five or fewer smart suggestions.
 
-    **Files and folders**: Select the files or folders from which the smart suggestions should be shown. Only child folders of the specified folder path in a folder profile can be selected. For more details, view [Folder profile restrictions](#folder-profile-restrictions).
+    **Files and folders**: Select the folders from which the smart suggestions should be shown. Only child folders of the specified folder path in a folder profile can be selected. For more details, view [Folder profile restrictions](#folder-profile-restrictions).
 
     *To maintain consistency of content, it's recommended that no two entries in the list have common files between them*. Once you select the files and folders, they are listed. 
 
