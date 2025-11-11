@@ -16,6 +16,12 @@ exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
 
 The releases for Experience Manager Guides as a Cloud Service are planned as follows:
 
+### Planned releases
+
+| Release |Event |Schedule |What's new | Upgrade instructions | Fixed issues |Status|
+|---|---|---|---|---|---|---|
+|Adobe Experience Manager Guides 2026.01.0 <br>|Automatic Update|January 26-28, 2026|-|-|-|Target|
+
 ### Live releases
 
 | Release |Event |Schedule |What's new | Upgrade instructions | Fixed issues |Status|

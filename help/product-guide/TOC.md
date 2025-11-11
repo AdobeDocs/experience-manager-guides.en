@@ -180,6 +180,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Preview a topic](./user-guide/web-editor-preview-topics.md)
         - [Know the Editor features](./user-guide/web-editor-features.md)
         - Know the Editor interface and features {#editor-interface-features}
+          - [Overview](./user-guide/intro-editor-interface.md)
           - [Header bar](./user-guide/web-editor-header-bar.md)
           - [Tab bar](./user-guide/web-editor-tab-bar.md)
           - [Toolbar](./user-guide/web-editor-toolbar.md)
