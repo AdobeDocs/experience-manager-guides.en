@@ -47,7 +47,7 @@ Follow the below mentioned steps to process the assets:
 
 1. Select **New Process** tab on the top right corner of the window to start a new processing task.
 
-    ![New-process-asset-processor](images/new-asset-processor.png){width="550" align="left"}
+    ![New-process-asset-processor](images/new-asset-processor.png){width="350" align="left"}
 
 1. Select the folder you want to process. You can also select the folders (within the parent selected folder) which you want to exclude or ignore.
 
@@ -57,7 +57,7 @@ Follow the below mentioned steps to process the assets:
 
 1. Select **Create**. You get a pop-up showing **Success and the Process triggered successfully** as shown in the snippet. The same is reflected in the list. You can see the status of the processing task on the window.
 
-    ![Message-asset-processor](images/message-asset-processor.png){width="550" align="left"}
+    ![Message-asset-processor](images/message-asset-processor.png){width="350" align="left"}
 
 
 ## Additional options for the processing tasks   
@@ -66,16 +66,16 @@ Additional options are available for the processing task once it has been initia
 
 - **Restart** : Restarts the previously successful asset processing task.
 
-    ![restart-asset-processor](images/restart-asset-processor.png){align="left"}
+    ![restart-asset-processor](images/restart-asset-processor.png){width="650" align="left"}
 
 - **Resume** : Resumes the previously cancelled or failed asset processing task.
 
-    ![resume-asset-processor](images/resume-asset-processor.png){align="left"}
+    ![resume-asset-processor](images/resume-asset-processor.png){width="650" align="left"}
 
 - **Cancel** : Cancels the currently in-progress asset processing task.
 
-    ![cancel-asset-processor](images/cancel-asset-processor.png){align="left"}
+    ![cancel-asset-processor](images/cancel-asset-processor.png){width="650" align="left"}
 
 - **View logs**: Shows the logs for the asset processing task. For in-progress tasks, the  log shows detailed processing info, including estimated time remaining and asset status. This log list displays up to the latest 500 entries. The full log can be downloaded.
 
-    ![logs-asset-processor](images/logs-asset-processor.png){align="left"}
+    ![logs-asset-processor](images/logs-asset-processor.png){width="650" align="left"}

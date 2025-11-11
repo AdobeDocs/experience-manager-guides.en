@@ -31,7 +31,7 @@ The Repository navigation bar, located at the top of the Repository interface, p
 
 - **Breadcrumbs**: Indicates the current path within the Repository, showing the hierarchy of folders leading to your current folder. You can select it to go back to a specific folder within the hierarchy.
 
-    ![](images/breadcrumbs.png){align="left"}
+    ![](images/breadcrumbs.png){width="650" align="left"}
 
 - **Refresh**: Updates the Repository to reflect the latest changes.
 - **Upload Assets**: Allows to upload assets directly to the current folder, as highlighted in the breadcrumbs.
@@ -50,7 +50,7 @@ The Repository serves as the central space providing a tabular list of all the f
 
 - **Customise**: You can modify the columns displayed by using the **Customise** option located at the top-right corner of the Repository view. This option allows you to show or hide any column and also rearrange the columns as needed. The Name or Title columns are mandatory and both cannot be disabled together. Other fields, such as **File type**, **UUID**, **Document state**, **Locked by**, **Created on**, and **Modified on**, can be enabled or disabled as needed. You can rearrange them by simply dragging and dropping.
 
-    ![](images/customize-repo-view.png){align="left"}
+    ![](images/customize-repo-view.png){width="350" align="left"}
 
 - **Column resizing**: Columns can be resized by selecting the dropdown menu on the respective column label.
 
@@ -66,7 +66,7 @@ The Repository serves as the central space providing a tabular list of all the f
 
 - **Options menu for folders**: You can perform the following actions using the **Options** menu available for a folder:
 
-    ![](images/options-folder-repo.png){align="left"}
+    ![](images/options-folder-repo.png){width="350" align="left"}
 
     - **New**: Create a new DITA topic, DITA map, or a folder. 
     - **Upload Assets**: Upload a file from your local system to the selected folder in repository.
@@ -75,7 +75,7 @@ The Repository serves as the central space providing a tabular list of all the f
 
 - **Options menu for files**: You can perform the following actions using the **Options** menu for a file:
 
-    ![](images/options-file-repo.png){align="left"}
+    ![](images/options-file-repo.png){width="350" align="left"}
 
     - **Edit**: Open the file for editing.
     - **Edit in Oxygen**: Select this option to edit the selected file in the Oxygen connector plugin.
