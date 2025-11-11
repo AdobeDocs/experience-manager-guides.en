@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 
 ---
-# Configure B-tree clean up for for Cloud Service
+# Configure B-tree clean up for Cloud Service
 
 Set up the B-tree cleanup job and manage the enable/disable settings for Guides BTree deletion to keep your system optimized and the storage clean.
 
