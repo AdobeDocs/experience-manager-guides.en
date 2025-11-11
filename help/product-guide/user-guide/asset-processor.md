@@ -1,12 +1,12 @@
 ---
-title: Processing and reprocessing assets
+title: Processing assets
 description: Learn how to process assets
 feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
 ---
-# Asset processing
+# Process assets
 
 In data-intensive workflows such as publishing, efficient asset management is crucial for maintaining performance and reliability. The asset processing workflow is designed to manage user-specific assets requiring intensive data operations. It primarily addresses two cases: when initial processing fails due to errors or when files remain unprocessed because no asset processing trigger was initiated. By enabling targeted, folder-level processing, users can isolate and process only the necessary assets, thereby avoiding the overhead of unnecessary computations. This selective approach significantly enhances performance, reducing the time required for critical operations like publishing and report generation. Overall, it contributes to greater efficiency and speed in handling complex data tasks.
 
