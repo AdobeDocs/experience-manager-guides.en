@@ -24,7 +24,7 @@ Learn about [upgrade instructions for the 2025.11.0 release](upgrade-instruction
 ## Asset management
 
 - When you re-upload an edited image through the Experience Manager Guides UI, the image's original rendition gets updated but the associated DITA content continues to display the previous version of the image. (GUIDES-33693)
-- When attempting to move two or more folders from their source location to a different location (using the Bulk Move tool), the operation fails if the folder names start with the same string (e.g., Product and ProductImages). (GUIDES-29096)
+- When attempting to move two or more folders from their source location to a different location (using the Bulk Move Tool), the operation fails if the folder names start with the same string (e.g., Product and ProductImages). (GUIDES-29096)
 - Deleting a searched asset from the Omnisearch Assets UI bypasses the **Force delete** warning dialog and deletes the asset directly, even when it's referenced in existing DITA content. (GUIDES-17232)
 
 ## Publishing

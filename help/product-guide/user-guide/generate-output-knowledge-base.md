@@ -90,7 +90,7 @@ The following configuration options are displayed for **Salesforce** as target:
 
 | Salesforce  options | Description |
 | --- | --- |
-| Publish Profile | Use the drop-down to select from the Salesforce connection profiles your administrator configures. To learn more about how your administrator can create a publish profile, view the **Workspace settings** (appearing as **Settings** for **On-Prem**) feature description in the [Tab bar](./web-editor-features.md#tab-bar) section. |
+| Publish Profile | Use the drop-down to select from the Salesforce connection profiles your administrator configures. To learn more about how your administrator can create a publish profile, view the **Workspace settings** (appearing as **Settings** for **On-Prem**) feature description in [Tab bar](./web-editor-tab-bar.md). |
 |Record Type| Use the dropdown to select among the record types set up in Salesforce as per the visibility settings based on your user profile. Salesforce Record Types are a way of grouping many records of one type for that object. They define how your publication is organized. For example, you can select FAQ Record Type and publish as per the FAQ page layout and fields.|
 |Article Content Field|You can have different fields and a unique layout for each record type template. Use these fields to enter specific information depending on the type of article. For example, you can view a FAQ article's title, answer, and equation.|
 |Categories| Select a category from the dropdown to publish the topics of the TOC in that category on the Salesforce site.|
