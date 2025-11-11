@@ -28,7 +28,7 @@ Within Editor, the Search and filter experience for files is now consistent with
 
 You can now easily track the status of each indexing attempt for Smart suggestions in AI Assistant with new status indicators: Indexing completed, Not in sync, In progress, and Indexing failed. The last indexing timestamp is now recorded at the folder or profile level for better traceability. Additionally, parent-child folder restrictions are enforced when specifying a folder or file path for indexing.
 
-For more details, view [Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-folder-level.md#folder-profile-restrictions).
+For more details, view [Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring).
 
 ## Performance improvements
 

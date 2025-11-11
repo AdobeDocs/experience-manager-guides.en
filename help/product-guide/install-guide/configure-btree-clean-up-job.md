@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 
 ---
-# Configure B-tree clean up for On-Premise services
+# Configure B-tree clean up for On-Premise Service
 
 Set up the B-Tree cleanup job and manage enable/disable settings for Guides BTree deletion to keep your system optimized and storage clean.
 
