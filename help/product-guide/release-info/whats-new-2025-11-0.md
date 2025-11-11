@@ -48,7 +48,7 @@ After the build upgrade, the system may experience a temporary increase in load,
 
 ### Improved asset processing
 
-This update introduces an automated process to keep assets in the /content/dam up to date. The system triggers asset reprocessing every 15 minutes. During each cycle, assets that were newly added or remained unprocessed within the most recent 15-minute interval are picked up and reprocessed, improving efficiency and consistency across your content repository.
+This update introduces an automated process to keep assets in the `/content/dam` up to date. The system triggers asset reprocessing every 15 minutes. During each cycle, assets that were newly added or remained unprocessed within the most recent 15-minute interval are picked up and reprocessed, improving efficiency and consistency across your content repository.
 
 For more details, view [Asset processing](../user-guide/asset-processor.md).
 
