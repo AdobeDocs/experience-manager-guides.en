@@ -71,7 +71,7 @@ To configure and use the service API JARs for on-premise deployments, add the se
 
 >[!NOTE]
 >
-> The public AEM Guides Maven repository will be deprecated after the 5.3.0 release of Experience Manager Guides. The API JAR will only be available in Maven Central repository thereafter.   
+> The public AEM Guides Maven repository will be deprecated after the 5.3.0 release of Experience Manager Guides. The API JAR will only be available in Maven central repository thereafter.   
 
 Perform the following steps to use the service API JARs from the public Maven repository:
 

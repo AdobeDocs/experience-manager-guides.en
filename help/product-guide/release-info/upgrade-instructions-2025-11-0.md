@@ -50,7 +50,7 @@ Experience Manager Guides is upgraded automatically upon upgrading the current (
 
 >[!IMPORTANT]
 >
-> Once you start using the current (latest) release, compare any overridden configurations with the latest ones to get the latest features:
+> Once you start using the 2025.11.0 (latest) release, compare any overridden configurations with the latest ones to get the latest features:
 >- ui_config.json (may have been set in folder profiles)
 
 
