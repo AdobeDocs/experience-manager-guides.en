@@ -48,5 +48,10 @@ For more details, view [Request a re-review or close a review task as an Author]
 
 A new API is now available for tracking the post-processing status of individual assets and folders. This is especially useful for teams using automated workflows, where publishing needs to happen only after content is fully processed. The API offers a reliable way to confirm readiness, reducing the risk of publishing failures caused by incomplete processing.
 
-For details, view [API to track post-processing status for folders or assets](../api-reference/track-post-processing-status.md).
+Also, with introduction of this API, the asset post processing events won't fire automatically. Instead, Administrators can now enable this event through a setting in `fmdita config manager`. 
+
+For details, view:
+
+- [API to track post-processing status of individual assets and folders](../api-reference/track-post-processing-status.md)
+- [Post-processing event handler setting in fmdita config manager](../api-reference/post-process-event.md)
 
