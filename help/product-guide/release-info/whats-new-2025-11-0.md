@@ -19,14 +19,14 @@ The Repository, now accessible directly from the Home page, serves as a centrali
 
 ![](assets/repository-view-home.png){align="left"}
 
-Within Editor, the Search and filter experience for files is now consistent with the Home page. A new [Search panel](../user-guide/search-panel-explorer.md) located at the bottom of the Editor interface has been introduced to display search results. Additionally, the Repository has been renamed **Explorer** in Editor, allowing you to browse folders and files as before.
+Within Editor, the Search and filter experience for files is now consistent with the Home page. A new [Search panel](../user-guide/search-panel-explorer.md) located at the bottom of the Editor interface is introduced to display search results. Additionally, the Repository is now renamed to **Explorer** in the Editor, allowing you to browse folders and files as before.
 
 ![](assets/search-panel-explorer.png){align="left"}
 
 
 ## Enhanced indexing for Smart suggestions in AI Assistant
 
-You can now easily track the status of each indexing attempt for Smart suggestions in AI Assistant with new status indicators: Indexing completed, Not in sync, In progress, and Indexing failed. The last indexing timestamp is now recorded at the folder or profile level for better traceability. Additionally, parent-child folder restrictions are now enforced when specifying a folder or file path for indexing.
+You can now easily track the status of each indexing attempt for Smart suggestions in AI Assistant with new status indicators: Indexing completed, Not in sync, In progress, and Indexing failed. The last indexing timestamp is now recorded at the folder or profile level for better traceability. Additionally, parent-child folder restrictions are enforced when specifying a folder or file path for indexing.
 
 For more details, view [Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-folder-level.md#folder-profile-restrictions).
 
@@ -34,9 +34,9 @@ For more details, view [Configure AI Assistant for smart help and authoring](../
 
 ### Automated B-tree cleanup for optimal performance
 
-To maintain system efficiency and prevent resource congestion, a new background process will regularly clean up system-level B-trees. This ensures that assets which no longer exist or were added temporarily do not occupy unnecessary space. 
+To maintain system efficiency and prevent resource congestion, a new background process  regularly cleans up the system-level B-trees. This ensures that assets which no longer exist or were added temporarily do not occupy unnecessary space. 
 
-The system intelligently identifies candidates for cleanup and performs automated removal. Additionally, this feature is configurable, giving administrators control over its behavior based on operational needs.
+The system intelligently identifies candidates for cleanup and performs automated removal. Additionally, this feature is configurable, giving Administrators control over its behavior based on operational needs.
 
 For more details, view [Configure B-tree clean up](../cs-install-guide/configure-btree-cleanup-cs.md).
 
@@ -48,7 +48,7 @@ After the build upgrade, the system may experience a temporary increase in load,
 
 ### Improved asset processing
 
-This update introduces an automated process to keep assets in the `/content/dam` up to date. The system triggers asset reprocessing every 15 minutes. During each cycle, assets that were newly added or remained unprocessed within the most recent 15-minute interval are picked up and reprocessed, improving efficiency and consistency across your content repository.
+An automated process is introduced to keep assets in the `/content/dam` up to date. The system triggers asset reprocessing every 15 minutes. During each cycle, assets that were newly added or remained unprocessed within the most recent 15-minute interval are picked up and reprocessed, improving efficiency and consistency across your content repository.
 
 For more details, view [Process assets](../user-guide/asset-processor.md).
 
