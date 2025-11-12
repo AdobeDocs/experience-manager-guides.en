@@ -28,7 +28,7 @@ You can use Java-based APIs available in Experience Manager Guides to create cus
 
 >[!INFO]
 >
->View [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) for the latest and detailed documentation on using the Java-based API for Experience Manager Guides as a Cloud Service.
+>View [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-dox-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) for the latest and detailed documentation on using the Java-based API for Experience Manager Guides as a Cloud Service.
 
 To configure and use the service API JARs from Maven repository in your projects, add the API SDK as a project dependency in your project's `pom.xml` file as shown below.
 
@@ -57,7 +57,7 @@ To configure and use the service API JARs for on-premise deployments, add the se
     <dependency>
     <groupId>com.adobe.aem</groupId>
     <artifactId>aem-guides-sdk-api</artifactId>
-    <version>5.1</version>
+    <version>${RELEASE}</version>
     </dependency>
 
     ```
