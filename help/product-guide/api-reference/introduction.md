@@ -49,7 +49,7 @@ To configure and use the service API JARs from Maven repository in your projects
 
 >[!INFO]
 >
->View [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html ) for the latest and detailed documentation on using the Java-based API for Experience Manager Guides On-premise setup.
+>View [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) for the latest and detailed documentation on using the Java-based API for Experience Manager Guides On-premise setup.
 
 To configure and use the service API JARs for on-premise deployments, add the service API JAR as a project dependency in your project's `pom.xml` file as shown below:
 
