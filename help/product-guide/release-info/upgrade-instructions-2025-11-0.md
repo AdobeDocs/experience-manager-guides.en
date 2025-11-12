@@ -45,14 +45,7 @@ This section points the compatibility matrix for the software applications suppo
 
 ## Upgrade to 2025.11.0 release
 
-Experience Manager Guides is upgraded automatically upon upgrading the current (latest) release of Experience Manager as a Cloud Service.
-
-
->[!IMPORTANT]
->
-> Once you start using the 2025.11.0 (latest) release, compare any overridden configurations with the latest ones to get the latest features:
->- ui_config.json (may have been set in folder profiles)
-
+Experience Manager Guides is upgraded automatically upon upgrading to the latest release of Experience Manager as a Cloud Service.
 
 Perform the following steps for Experience Manager Guides as a Cloud Service if you haven't done it earlier for your existing release:
 
