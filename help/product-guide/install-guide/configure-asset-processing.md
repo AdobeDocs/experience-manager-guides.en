@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 
 ---
-# Configure Asset processing feature for On-Premise services
+# Configure Asset processing feature for On-Premise Service
 
 Perform the following steps to configure the asset processing feature:
 
@@ -20,6 +20,6 @@ Perform the following steps to configure the asset processing feature:
 
 1. Search for and select the *com.adobe.fmdita.config.ConfigManager* bundle.
 
-1. Configure the setting **Enable Guides asset processing scheduled job**. By default, the setting is enabled. You can disable the feature as per your requirement.
+1. Configure the setting **Enable Guides asset processing scheduled job**. By default, the setting is enabled.
 
-1. Click **Save**.
+1. Select **Save**.
