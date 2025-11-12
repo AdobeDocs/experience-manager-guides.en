@@ -46,7 +46,7 @@ Perform the following steps to enable the setting:
     ```
 
 1. Search for and select the *com.adobe.fmdita.config.ConfigManager* bundle.
-1. Enable the setting **Guides btree deletion enabled**.
+1. Enable the setting `Guides btree deletion enabled`.
 
     ![](assets/btree-cleanup-setting.png){align="left"}
 

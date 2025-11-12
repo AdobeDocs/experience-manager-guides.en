@@ -20,6 +20,6 @@ Perform the following steps to configure the asset processing feature:
 
 1. Search for and select the *com.adobe.fmdita.config.ConfigManager* bundle.
 
-1. Configure the setting **Enable Guides asset processing scheduled job**. By default, the setting is enabled.
+1. Configure the setting `Enable Guides asset processing scheduled job` as per your requirement. By default, the setting is enabled.
 
 1. Select **Save**.
