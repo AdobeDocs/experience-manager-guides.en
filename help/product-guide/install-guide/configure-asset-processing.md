@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 
 ---
-# Configure Asset processing feature for On-Premise Service
+# Configure asset processing feature
 
 Perform the following steps to configure the asset processing feature:
 

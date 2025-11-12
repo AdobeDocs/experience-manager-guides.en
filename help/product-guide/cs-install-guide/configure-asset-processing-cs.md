@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 
 ---
-# Configure Asset processing feature for Cloud Service
+# Configure asset processing feature 
 
 To configure the asset processing feature perform the following steps:
 
