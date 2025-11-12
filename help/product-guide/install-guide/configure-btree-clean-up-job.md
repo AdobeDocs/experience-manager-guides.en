@@ -8,7 +8,7 @@ level: Experienced
 ---
 # Configure B-tree clean up for On-Premise Service
 
-Set up the B-tree cleanup job and manage the settings for Guides BTree deletion to keep your system optimized and storage clean.
+Set up the B-tree cleanup job and manage the settings for Guides B-tree deletion to keep your system optimized and storage clean.
 
 ## Configure B-tree clean up job
 
@@ -24,7 +24,7 @@ Perform the following steps to configure B-tree clean up job:
 
 1. Search for and select the *com.adobe.guides.utils.schedulers.GuidesBTreesCleanupSchedulerJob* bundle.
 
-1. Update the cron expression to set up the BTree cleanup scheduler job run frequency.
+1. Update the cron expression to set up the B-tree cleanup scheduler job run frequency.
 
 1. Configure the B-tree clean up scheduler as shown below.
 
@@ -33,7 +33,7 @@ Perform the following steps to configure B-tree clean up job:
 1. Select **Save**.
 
 
-## Configure Guides BTree Deletion Enable setting
+## Configure Guides B-tree Deletion Enable setting
 
 Perform the following steps to enable or disable the deletion setting:
 

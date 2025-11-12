@@ -45,7 +45,7 @@ This section points the compatibility matrix for the software applications suppo
 
 ## Upgrade to 2025.10.0 release
 
-Experience Manager Guides is upgraded automatically upon upgrading the current (latest) release of Experience Manager as a Cloud Service.
+Experience Manager Guides is upgraded automatically upon upgrading to the latest release of Experience Manager as a Cloud Service.
 
 >[!NOTE]
 >
