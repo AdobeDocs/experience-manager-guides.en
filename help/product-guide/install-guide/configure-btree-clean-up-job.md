@@ -8,7 +8,7 @@ level: Experienced
 ---
 # Configure B-tree clean up for On-Premise Service
 
-Set up the B-tree cleanup job and manage the settings for Guides B-tree deletion to keep your system optimized and storage clean.
+Set up the B-tree cleanup job and manage the `Guides B-tree deletion` setting to keep your system optimized and storage clean.
 
 ## Configure B-tree clean up job
 
@@ -33,9 +33,9 @@ Perform the following steps to configure B-tree clean up job:
 1. Select **Save**.
 
 
-## Configure Guides B-tree Deletion Enable setting
+## Configure Guides B-tree deletion enable setting
 
-Perform the following steps to enable or disable the deletion setting:
+Perform the following steps to enable the setting:
 
 1. Open the Adobe Experience Manager Web Console Configuration page.
 

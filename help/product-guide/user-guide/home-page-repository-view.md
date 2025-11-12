@@ -59,7 +59,7 @@ The Repository serves as the central space providing a tabular list of all the f
 - **Editing the file**: 
 
     - You can select one or multiple files from the list for editing.
-    - After selecting the desired files using the checkbox, the **Edit** option becomes available in the top-right corner of the Repository View.
+    - After selecting the desired files using the checkbox, the **Edit** option becomes available in the top-right corner of the Repository view.
     - Selecting **Edit** opens the selected file(s) in the Editor interface, where you can begin editing the file.
 
         ![](images/edit-repo-view.png){align="left"}
@@ -92,9 +92,9 @@ The Repository serves as the central space providing a tabular list of all the f
     - **Move to**: Use this option to move the selected file to another folder. 
     - **Rename**: Use this option to rename the selected file.
     - **Delete**: Use this option to delete the selected file.
-    - **Add to**: Choose to add to collections or Reusable content.
+    - **Add to**: Choose to add to Collections or Reusable content.
     - **Copy**: Copies the UUID or complete path of the file.    
-    - **Properties**: Use this to open the properties page of the selected file.
+    - **Properties**: Use this to open the Properties page of the selected file.
     - **Download as PDF**: Use the option to generate the PDF output and download it.  
       
 ### Search and filter experience
@@ -136,7 +136,7 @@ After the search results appear, you can either multi-select files and open them
 
 **Show in search panel**
 
-The **Show in search panel** option becomes available after performing a search in the Repository. This feature allows you to display all the searched results in the **Search panel** within the Editor. For more details view, [Search panel](./search-panel-explorer.md).
+The **Show in search panel** option becomes available after performing a search in the Repository. This feature allows you to display all the searched results in the **Search panel** within the Editor. For more details, view [Search panel](./search-panel-explorer.md).
 
 ![](images/search-panel-repo.png){align="left"}
 

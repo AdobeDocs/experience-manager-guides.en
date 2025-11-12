@@ -8,7 +8,7 @@ level: Experienced
 ---
 # Configure B-tree clean up for Cloud Service
 
-Set up the B-tree cleanup job and manage the settings for Guides BTree deletion to keep your system optimized and the storage clean.
+Set up the B-tree cleanup job and manage the `Guides BTree deletion` setting to keep your system optimized and storage clean.
 
 ## Configure B-tree clean up job
 
@@ -23,9 +23,9 @@ Perform the following steps to configure B-tree clean up job:
     |`com.adobe.guides.utils.schedulers.GuidesBTreesCleanupSchedulerJob`|`cronExpression`| **Default value:** "0 0 0 * * ?"|
 
 
-## Configure Guides BTree Deletion Enable setting
+## Configure Guides B-tree deletion enable setting
 
-Perform the following steps to enable or disable the deletion setting:
+Perform the following steps to enable the setting:
 
 1. Use the instructions given in [Configuration overrides](../cs-install-guide/download-install-additional-config-override.md) to create the configuration file.
 
