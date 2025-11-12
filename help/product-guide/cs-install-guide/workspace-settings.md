@@ -81,7 +81,7 @@ This setting controls the panels that are shown in the left and right panels of 
 
 You can also define the order in which the features present in panels are displayed. To change the default order of the available features in the panels, select the dotted bars to drag and drop the feature tabs at the desired location. A feature can also be moved from the **More** section to the main section of a panel, and vice versa as per the requirement. Once re-ordered, the features appear in the same sequence in the respective right and left panel. 
 
-![](../user-guide/images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
 
 
 A maximum of eight panels can be displayed at a time. Any changes made to the panel settings are applied immediately. 
@@ -183,13 +183,16 @@ This tab contains options to configure the Schematron validations in the Editor.
 
     >[!NOTE]
     >
-    > The selected Schematron file(s) will persist for the selected folder profile.
+    >- The selected Schematron file(s) will persist for the selected folder profile.
+    >- When an invalid Schematron file is added, an error message is displayed, as shown below.
 
-    ![Validation in workspace settings](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+    ![Validation in workspace settings](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
 
     This prevents the users from saving any file which breaks a rule defined in the selected Schematron file(s). If this is not selected the file will not be validated before saving the changes.
 
 - **Allow all users to add schematron files in validation panel**: Select this to allow the users to add any Schematron file in the Validation panel of the Editor. This allows the users to add Schematron files and then validate the topics against the Schematron file. If this is not selected, the option to add schematron file **Add Schematron File** button is not available to the users in the **Validation panel** of the Editor.
+
+    ![Validation in workspace settings](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
 
 ## Display attributes

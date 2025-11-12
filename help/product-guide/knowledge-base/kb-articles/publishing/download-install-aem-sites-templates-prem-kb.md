@@ -55,14 +55,14 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
 
     1. Select **Site** as **AEMG Docs**.
     2. Verify that the **Publish path** and **Topic page template** are automatically set to:    
-        - Publish path: aemg-docs/en/docs/product1 
+        - Publish path: `aemg-docs/en/docs/product1` 
         - Topic page template: Topic Page.
 
         ![Use Site Dropdown](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
 
     **Option 2: Use the Site Path**
 
-    1. Set the **Site path** manually as /content/aemg-docs/en/docs/product1.
+    1. Set the **Site path** manually as `/content/aemg-docs/en/docs/product1`.
     2. Verify that the **Topic page template** is automatically set to Topic Page.
 
         ![Use Site Path](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
@@ -73,7 +73,7 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
 
 1. **Generate Site:**
     1. With the preset configured, you can now generate the AEM Site for the corresponding DITA map.
-    2. The generated site will be available at the path: /content/aemg-docs/en/docs/product1.
+    2. The generated site will be available at the path: `/content/aemg-docs/en/docs/product1`.
 2. **Change the Default Generation Path (Optional):** If you want to change the default path for site generation, perform the following steps:
 
     1. Navigate to **AEM Sites**.

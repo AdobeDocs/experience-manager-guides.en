@@ -55,8 +55,11 @@ To create a new version of the file, select **Save As New Version**. For more de
 
 -   **Map**: If you have opened a large DITA map and want to find the exact location of a file in the map, then select **Locate In \> Map**. When you select the Locate in Map option, the file \(from where the option is invoked\) is located and highlighted in the map hierarchy. To be able to use this feature, you must open the map file in the Editor. If the Map View is hidden, then invoking this feature will display the Map View and the file is highlighted in the map hierarchy.
 
--   **Repository**: Similar to Locate in Map, the **Locate In \> Repository** shows the location of the file in the repository \(or DAM\). The Repository View is opened and the selected file is highlighted in the repository. If the file is within a folder, then that folder is expanded to show the selected file's location in the repository.
+-   **Explorer**: Similar to Locate in Map, the **Locate In \> Explorer** shows the location of the file in the Explorer \(or DAM\). The Explorer View is opened and the selected file is highlighted in the Explorer. If the file is within a folder, then that folder is expanded to show the selected file's location in the Explorer.
 
+    >[!NOTE]
+    >
+    >From 2025.11.0 release, **Repository** is renamed to **Explorer**. For On-Premise setup, it continues to be available as Repository till 5.1 release of Experience Manager Guides.
 
 ***Add to***: You can choose from the following options:
 

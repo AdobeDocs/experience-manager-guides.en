@@ -11,7 +11,7 @@ This article share the insights into the architecture and performance numbers of
 
 >[!NOTE]
 >
-> Microservice-based publishing in AEM Guides supports PDF (both Native and DITA-OT based), HTML5, JSON, and CUSTOM types of output presets.
+> Microservice-based publishing in AEM Guides supports PDF (both Native and DITA-OT based), AEM Site (using composite component mapping), HTML5, JSON, and CUSTOM types of output presets.
 
 ## Issues with existing publishing workflows on cloud
 
@@ -20,6 +20,8 @@ DITA Publishing is a resource-intensive process dependent mainly on available sy
 If you are not using the new service, then all the publishing happens on the same Kubernetes(k8) pod which is also running the AEM cloud server. A typical k8 pod has a limit on the amount of memory and CPU that it can use. If AEM Guides users are publishing large or parallel workloads, this limit can breach fast. K8 restarts pods which are trying to use more resources than the configured limit which can have serious impact on the AEM cloud instance itself.
 
 This resource constraint was the main motivation to come up with a dedicated service which can allow us to run multiple concurrent and large publishing workloads on cloud.
+
+To learn more about publishing workflows on cloud, view [FAQ on publishing workflow and scalability](/help/product-guide/user-guide/publishing-scalability-faq.md).
 
 ## Introduction to the new architecture
 

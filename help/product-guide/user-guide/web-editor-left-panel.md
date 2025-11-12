@@ -11,12 +11,13 @@ The left panel gives you quick access to Collections, Repository view, Map view,
 
 >[!NOTE]
 >
-> The left panel is resizable. To resize the panel, bring the cursor on the panel boundary, the cursor changes to a double-headed arrow, select and drag to resize the panel width.
+>The left panel is resizable. To resize the panel, bring the cursor on the panel boundary, the cursor changes to a double-headed arrow, select and drag to resize the panel width.
 
 The left panel gives you access to the following features:
 
 - [Collections](#collections)
 - [Repository](#repository)
+- [Explorer](#explorer)
 - [Map](#map)
 - [Reusable content](#reusable-content)
 - [Outline](#outline)
@@ -112,6 +113,10 @@ You can also perform many actions using the Options menu available for a Collect
 
 ## Repository 
 
+>[!NOTE]
+>
+> Starting with 2025.11.0 release, **Repository** in the Editor will be deprecated and replaced by **Explorer** for **Cloud service** setup. For **On-Premise** setup, you will continue to view and use Repository through the Editor interface till 5.1 release of Experience Manager Guides. 
+
 When you select the Repository icon, you get a list of files and folders available in DAM. By default, you can view the files by titles. As you hover over a file, you can view the file title and the file name as a tooltip.   
 
 >[!NOTE]
@@ -128,7 +133,7 @@ speed, or view picture in picture.
 
 Select a map and press Enter or double-click to open it in the **Map view**. For more details, view the **Map view** feature description in the left panel. Select a topic and press Enter or double-click to open it in the [Content editing area](./web-editor-content-editing-area.md). Being able to navigate and open a file directly from the Editor saves time and increases productivity. 
 
-**Filter Search in Repository**
+## Filter Search in Repository
 
 The Editor provides enhanced filters for searching text. You can search and filter for a text in the files present on the selected path of the Adobe Experience Manager repository. It searches in the title, filename, and content in the files.
 
@@ -200,7 +205,7 @@ This is in sync with the search box on the repository window. For example, if yo
     >
     >The list of filtered files that contain the searched text is displayed. For example, the files containing the text `personal spaceship` are listed in the previous screenshot. You can select multiple files from the filtered list to drag and drop them into a map opened for editing.
 
-**Options menu**
+### Options menu
 
 In addition to opening files from the left panel, you can also perform many actions using the Options menu available in the Repository view. You will view different options, depending on whether you choose a folder, topic file, or a media file.
 
@@ -421,6 +426,23 @@ The various options in the Options menu are explained below:
 
 - **Generate**: Use the option to publish a map or topics within a map to a Sites page, Content Fragment, or Experience Fragment.
 
+## Explorer
+
+>[!NOTE] 
+>
+> Starting with the 2025.11.0 release, the term Repository in the Editor will be replaced by **Explorer** for Cloud service setup. On-Premise setup, will continue to see and access Repository in the Editor.
+
+Explorer provides most of the capabilities previously available in Repository, including:
+
+- Navigation through files and folders
+- Options menu for files and folders
+
+But, it introduces an enhanced Search and filtering experience, designed to improve usability and efficiency.
+
+For detailed information on the context menu for files and folders, view [Options menu](#options-menu).
+
+For detailed information on the Search experience, view [Search panel](./search-panel-explorer.md).
+
 ## Map 
 
 When you select the Map view icon, the Map view is displayed where a a list of topics within the map file is displayed. If you have not opened any map file, then the Map view appears blank. Double-clicking on any map file opens the map file in this view. You can double-click on any file within the map to open it in the Editor.
@@ -468,7 +490,7 @@ You can perform the following actions using the Options menu of the map file:
     - **Copy UUID**: Copy the UUID of the map file to Clipboard.
     - **Copy Path**: Copy complete path of the map file to Clipboard.
 
-- **Locate in repository**: Shows the location of the map file in the repository \(or DAM\).
+- **Locate in explorer**: Shows the location of the map file in the explorer\(or DAM\).
 
 - **Add to**: You can choose from the following options:
     - **Collections**: Adds the map file to collections. You can choose to add it to an existing or new collection.
@@ -525,7 +547,7 @@ You can perform the following actions using the Options menu:
     - **Copy Path**: Copy complete path of the selected file to Clipboard.
 
     
-- **Locate in repository**: Shows the location of the selected file in the repository \(or DAM\).
+- **Locate in explorer**: Shows the location of the selected file in the explorer \(or DAM\).
 - **Expand all**: Expand all topics in the map files.
 
 - **Collapse all**: Collapse all topics that are a part of the current map file.
@@ -948,28 +970,34 @@ Snippets are small content fragments that can be reused across various topics in
 >
 > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete snippets. Else, as a normal author, you will only get the options to preview and insert a snippet.
 
-![](images/snippets-panel_cs.png){   align="left"}
+![](images/snippets-panel_cs.png){align="left"}
+
+**Create a snippet**
 
 To add a snippet, use any of the following methods:
 
-- Select the **+** icon next to Snippets to open the **New Snippet** dialog box.
+1. Select the **+** icon next to Snippets to open the **New Snippet** dialog box.
 
     ![](images/snippet-new-dialog.png){width="300" align="left"}
 
-    In the New Snippet dialog box, provide a title which appears in the Snippets panel, a description, and XML code of the snippet content that you want to create. Select **Create** to save and create the snippet.
+    In the New Snippet dialog, provide a Title which appears in the Snippets panel, a Description, select a Format (DITA or HTML) for your content, and provide a code of the snippet content that you want to create. Select **Create** to save and create the snippet.
 
-- In the content editing area, right-click on the element's breadcrumb that you want to use as a snippet and choose **Create Snippet** from the context menu. The New Snippet dialog appears with the XML code of the selected element populated in the **Content** field. Enter the **Title** and **Description** for the snippet and select **Create** to save the snippet.
+2. In the content editing area, right-click on the element's breadcrumb that you want to use as a snippet and choose **Create Snippet** from the context menu. The New Snippet dialog appears with the XML code of the selected element populated in the **Content** field. Enter the **Title** and **Description** for the snippet and select **Create** to save the snippet.
 
-- In the content editing area, right-click anywhere on the content that you want to use as a snippet and choose **Create Snippet** from the context menu. The New Snippet dialog box appears with the XML code of the selected element populated in the **Content** field. Enter the **Title** and **Description** for the snippet and select **Create** to save the snippet.
+3. In the content editing area, right-click anywhere on the content that you want to use as a snippet and choose **Create Snippet** from the context menu. The New Snippet dialog box appears with the XML code of the selected element populated in the **Content** field. Enter the **Title** and **Description** for the snippet and select **Create** to save the snippet.
 
     The following screenshot highlights the breadcrumb and the content area from where you can invoke the context menu.
 
     ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
 
+**Insert a snippet**
 
 To insert a snippet, use any of the following methods:
 
-- Select a snippet from the Snippets panel and drag-and-drop it at the desired location in your topic.
+- Select a snippet from the Snippets panel and drag-and-drop it at the desired location in your topic. You can also use the filter options at the top of the Snippets panel to refine your view:
+
+    - **Show all snippets**: Lists all the available snippets, including both DITA and HTML formats.
+    - **Show only applicable snippets**: Filters the list to show only those snippets that are relevant to your current topic or context. For example, if you're working on a DITA topic, HTML snippets will be excluded from the list to ensure contextual accuracy.
 
 - Place the insertion point where you want to insert the snippet, from the Options menu of the required snippet, choose Insert Snippet.
 

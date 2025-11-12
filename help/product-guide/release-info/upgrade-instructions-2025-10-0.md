@@ -45,13 +45,11 @@ This section points the compatibility matrix for the software applications suppo
 
 ## Upgrade to 2025.10.0 release
 
-Experience Manager Guides is upgraded automatically upon upgrading the current (latest) release of Experience Manager as a Cloud Service.
+Experience Manager Guides is upgraded automatically upon upgrading to the latest release of Experience Manager as a Cloud Service.
 
 >[!NOTE]
 >
-> Once you start using the current (latest) release, compare any overridden configurations with the latest ones to get the latest features:
->- ui_config.json (may have been set in folder profiles)
-
+> This release includes updates to folder profile settings (ui_config.json). If you are using custom settings, ensure to take a back up of those before upgrading. After the update, review and adjust your settings to align with the changes introduced in the latest version.
 
 Perform the following steps for Experience Manager Guides as a Cloud Service if you haven't done it earlier for your existing release:
 
@@ -171,4 +169,17 @@ GET:
 
 ```
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json
+```
+
+### Steps to apply search filters on DITAVAL files for all output presets
+
+To ensure that search filters work properly for DITAVAL files, modify the `ui_config.json` file by applying the following updates under the **browseFilters** field within the **Non-DITA files** section:
+
+```
+{
+  "title": "Ditaval Files",
+  "property": "LOWER_NAME",
+  "operation": "like",
+  "value": ".ditaval"
+}
 ```

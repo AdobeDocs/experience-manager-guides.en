@@ -27,9 +27,9 @@ If you are using the out-of-the-box AEM Guides (AEMG Docs) template, the configu
 
 Template names will vary based on project setup. For example, in the OOTB AEMG Docs configuration:
 
-- Documentation Container Page:  /conf/AEMG-Docs-Site/settings/wcm/templates/kb-content
+- Documentation Container Page:  `/conf/AEMG-Docs-Site/settings/wcm/templates/kb-content`
 
-- Topic Page: /conf/AEMG-Docs-Site/settings/wcm/templates/topic-content
+- Topic Page: `/conf/AEMG-Docs-Site/settings/wcm/templates/topic-content`
 
 **Customization:** The customization process involves two major steps:
 
@@ -80,7 +80,7 @@ If you have a DITA topic about "Installation Instructions," the topic page templ
 
 >[!NOTE]
 >
-> Ensure that components using sling:resourceType under wcm/foundation/components are migrated to the corresponding core/wcm/components.
+> Ensure that components using sling:resourceType under `wcm/foundation/components` are migrated to the corresponding `core/wcm/components`.
 
 Add the same (container and text component) in the structure of the same template:
 

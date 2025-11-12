@@ -14,6 +14,10 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2025 Releases {#2025-releases}
+        - 2025.11.0 Release {#2511-release} 
+          - [What's new](./release-info/whats-new-2025-11-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2025-11-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2025-11-0.md)
         - 2025.10.0 Release {#2510-release} 
           - [What's new](./release-info/whats-new-2025-10-0.md)
           - [Fixed issues](./release-info/fixed-issues-2025-10-0.md)
@@ -162,6 +166,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Key [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [[!DNL AEM Guides] Home page experience](./user-guide/intro-home-page.md)
+    - [Repository interface](./user-guide/home-page-repository-view.md)
   - Author content {#author-content}
     - [Authoring overview](./user-guide/authoring-content.md)
     - [Ways to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
@@ -175,12 +180,14 @@ breadcrumb-title: AEM Guides Documentation
           - [Preview a topic](./user-guide/web-editor-preview-topics.md)
         - [Know the Editor features](./user-guide/web-editor-features.md)
         - Know the Editor interface and features {#editor-interface-features}
+          - [Overview](./user-guide/intro-editor-interface.md)
           - [Header bar](./user-guide/web-editor-header-bar.md)
           - [Tab bar](./user-guide/web-editor-tab-bar.md)
           - [Toolbar](./user-guide/web-editor-toolbar.md)
           - [Left panel](./user-guide/web-editor-left-panel.md)
           - [Content editing area](./user-guide/web-editor-content-editing-area.md)
           - [Right panel](./user-guide/web-editor-right-panel.md)
+          - [Search panel](./user-guide/search-panel-explorer.md)
         - [Additional features in the Editor](./user-guide/web-editor-other-features.md)       
         - [Keyboard shortcuts in the Editor](./user-guide/web-editor-keyboard-shortcuts.md)
         - [Editor views](./user-guide/web-editor-views.md)
@@ -274,6 +281,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Manage output generation process](./user-guide/generate-output-manage-process.md)
       - [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
       - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
+      - [FAQ about publishing workflow and scalability](./user-guide/publishing-scalability-faq.md)
     - Bulk activation of content {#bulk-activation}
       - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
       - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -346,7 +354,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Key concepts, roles and permissions, and pre-requisites](./user-guide/authoring.md)
         - [Upload files](./user-guide/authoring-upload-existing-files.md)
         - [Manage files and folders](./user-guide/authoring-file-management.md)
-        - [Process or reprocess assets](./user-guide/asset-processor.md)
+        - [Process assets](./user-guide/asset-processor.md)
     - Troubleshooting {#troubleshooting}
         - [Session timeout](./user-guide/session-timeout-prompt.md)
 - User Guide (Old UI) {#user-guide-old-ui}
@@ -445,6 +453,10 @@ breadcrumb-title: AEM Guides Documentation
       - [Translate content](./install-guide/translation.md)
     - Work with AEM Assets search {#aem-asset-search}
       - [Configure search for AEM Assets UI](./install-guide/conf-dita-search.md)
+    - Work with Asset processing {#asset-processing-on-prem}
+      - [Configure asset processing feature](./install-guide/configure-asset-processing.md) 
+    - Work with B-tree cleanup{#btree-cleanup}
+      - [Configure B-tree cleanup ](./install-guide/configure-btree-clean-up-job.md)
     - [Appendix](./install-guide/appendix.md)
   - Cloud Services {#cs-ig}
     - [About this guide](./cs-install-guide/introduction.md)
@@ -526,6 +538,10 @@ breadcrumb-title: AEM Guides Documentation
       - [Translate content](./cs-install-guide/translation.md)
     - Work with AEM Assets search {#aem-asset-search-cs}
       - [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
+    - Work with Asset processing {#asset-processing-cloud}
+      - [Configure asset processing feature](./cs-install-guide/configure-asset-processing-cs.md)
+    - Work with B-tree cleanup{#btree-cleanup-cs}
+      - [Configure B-tree cleanup](./cs-install-guide/configure-btree-cleanup-cs.md)    
     - [Appendix](./cs-install-guide/appendix.md)     
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
@@ -534,15 +550,10 @@ breadcrumb-title: AEM Guides Documentation
   - [REST API to register a data source connector](./api-reference/data-source-connector.md)
   - [REST API to work with conditional attributes](./api-reference/conditional-attribute.md)
   - [REST APIs for conversion workflow](./api-reference/convert-to-dita.md)
-  - [REST API for creating and activating packages](./api-reference/create-activate-package.md)
-  - [Java-based API to work with output generation](./api-reference/generate-output.md)
-  - [Java-based APIs to work with DITA maps](./api-reference/dita-map-management-java.md)
-  - [Java-based APIs for conversion workflow](./api-reference/convert-to-dita-java.md)
-  - [Java-based APIs to work with baseline and labels](./api-reference/create-baseline-label-java.md)
-  - [Java-based API to work with folder profiles](./api-reference/folder-profile-java.md)
-  - [Java-based API for creating and activating packages](./api-reference/create-activate-package-java.md)
+  - [REST API for creating and activating packages](./api-reference/create-activate-package.md)  
   - [Post-processing event handler](./api-reference/post-process-event.md)
   - [API to track post processing status for a folder or an asset](./api-reference/track-post-processing-status.md)
+  - [API to start bulk processing for assets](./api-reference/bulk-assets-processing.md)
   - [Bulk activation complete event handler](./api-reference/bulk-activation-complete-event.md)
   - [Conversion process event handler](./api-reference/conversion-complete-event.md)
 - Knowledge Base {#knowledge-base}

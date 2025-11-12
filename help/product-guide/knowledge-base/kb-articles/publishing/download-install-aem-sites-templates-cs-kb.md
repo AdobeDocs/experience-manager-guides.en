@@ -40,7 +40,7 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
     3. Clone the repository to your local system using the provided username and password (generate password if required).
 2. **Add Package to Maven Bundle:**
     1. In your locally cloned repository, create a new Maven bundle or add to an existing one.
-    2. Ensure the structure /jcr_root/apps/fmdita/install exists in the Maven project.
+    2. Ensure the structure `/jcr_root/apps/fmdita/` install exists in the Maven project.
 
         ![Structure in Maven project](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
 
@@ -50,7 +50,7 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
 3. **Update filters.xml:**  
 
     1. Open the filters.xml file located in the META-INF folder of the parent content directory.
-    2. Add the following filter: filter root="/apps/fmdita" mode="merge"/
+    2. Add the following filter: filter root=`/apps/fmdita` mode=`merge`/
 
 
         ![Add filter](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
@@ -93,14 +93,14 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
 
     1. Select **Site** as the one created above (e.g., AEMG Docs Site).
     2. Verify that the **Publish path** and **Topic page** template are automatically set to: 
-        - Publish path: /content/AEMG-Docs-Site/en/docs/product
+        - Publish path: `/content/AEMG-Docs-Site/en/docs/product`
         - Topic page template: Topic Page
 
         ![Use the site dropdown to configure the AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
 
     **Option 2: Use the Site Path**
 
-    1. Set the **Site path** manually as /content/AEMG-Docs-Site/en/docs/product.
+    1. Set the **Site path** manually as `/content/AEMG-Docs-Site/en/docs/product`.
     2. Verify that the **Topic page** template is automatically set to Topic Page.
 
         ![Use the site path to configure the AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
@@ -111,7 +111,7 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
 
 1. **Generate Site:**
     1. With the preset configured, generate the AEM Site for the corresponding DITA map.
-    2. The generated site will be available at the path: /content/AEMG-Docs-Site/en/docs/product.
+    2. The generated site will be available at the path: `/content/AEMG-Docs-Site/en/docs/product`.
 2. **Change the Default Generation Path (Optional):** If you want to change the default path for site generation, perform the following steps:
     1. Navigate to **AEM Sites**.
     2. Create a new product page under the OOTB site structure.

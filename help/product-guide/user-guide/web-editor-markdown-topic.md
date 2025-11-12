@@ -14,7 +14,7 @@ Markdown is a lightweight markup language that can help you add formatting eleme
 Perform the following steps to create a Markdown topic from the Editor:
 
 1.  In the Repository panel, select ![](images/Add_icon.svg), and then select **Topic** from the dropdown.
-2.  In the **New topic** dialog box, provide the following details:
+1.  In the **New topic** dialog box, provide the following details:
 
     ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -26,7 +26,7 @@ Perform the following steps to create a Markdown topic from the Editor:
     >[!NOTE]
     >
     > In case of an upgrade, you need to add the Markdown template into the current folder profile in use. You can [create a new markdown template from the Editor](./web-editor-features.md#templates) or use an existing template for markdown authoring. For details on how to add authoring templates in Experience Manager Guides, view [Configure global or folder-level profiles](../cs-install-guide/conf-folder-level.md).
-3. Select **Create**.
+1. Select **Create**.
 
    The Markdown topic is created at the selected path and is open for editing.
 
