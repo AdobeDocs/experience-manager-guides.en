@@ -10,7 +10,7 @@ The Search panel in the Editor enhances productivity by providing quick access t
 
 The Search panel can be accessed from the following:
 
-- **Editor interface**: Selecting the **Search icon** from the **Explorer panel** or by using the **Search icon** located at the bottom-left of the **Content editing area**. For details, view [Search from the Explorer panel](#search-from-the-explorer-panel).
+- **Editor interface**: Selecting the **Search icon** from the **Explorer panel** or by using the **Search icon** from the bottom-left corner of the **Content editing area**. For details, view [Search from the Explorer panel](#search-from-the-explorer-panel).
 
     ![](images/search-icon-editor.png){align="left"} 
 
@@ -28,7 +28,7 @@ The Search panel can be accessed from the following:
 
 When working in the Editor interface, you can filter the set of files to view a subset of relevant files you need. Perform the following steps to search files from Explorer:
 
-1. Select the **Search** icon located at the top-right corner of the **Explorer panel** or the **Search** icon present at bottom left of the **Content editing area**. This opens the **Search repository** dialog, which offers the same search and filtering experience as the Repository interface on the Home page.
+1. Select the **Search** icon from the top-right corner of the **Explorer panel** or the **Search** icon present at bottom left of the **Content editing area**. This opens the **Search repository** dialog, which offers the same search and filtering experience as the Repository interface on the Home page.
 
     >[!NOTE]
     >

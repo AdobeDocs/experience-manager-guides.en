@@ -101,11 +101,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
-## Locate an open file in the Repository view
+## Locate an open file in the Explorer
 
-While you open a file in the Editor, Experience Manager Guides provides the feature to locate the file in the Repository view. For example, it locates the current topic while you are editing it. 
+While you open a file in the Editor, Experience Manager Guides provides the feature to locate the file in the Explorer. For example, it locates the current topic while you are editing it. 
    
-You can turn off the feature to locate the file with the **Always locate files in repository** option from the **Appearance** tab of the **User preferences**. 
+You can turn off the feature to locate the file with the **Always locate files in the Explorer** option from the **Appearance** tab of the **User preferences**. 
 
+>[!NOTE]
+>
+>From 2025.11.0 release, the setting **Always locate files in the repository** is renamed to **Always locate files in the explorer**. For On-Premise setup, it continues to be available as Always locate files in the repository till 5.1 release of Experience Manager Guides.
 
 **Parent topic:**[Work with the Editor](web-editor.md)
