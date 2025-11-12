@@ -16,7 +16,7 @@ Perform the following steps to configure B-tree clean up job:
 
 1. Use the instructions given in [Configuration overrides](../cs-install-guide/download-install-additional-config-override.md) to create the configuration file.
 
-1. In the configuration file, provide the following (property) details to configure the base output location:
+1. In the configuration file, provide the following (property) details:
 
     |PID|Property Key|Property Value|
     |---|---|---|
@@ -29,7 +29,7 @@ Perform the following steps to enable or disable the deletion setting:
 
 1. Use the instructions given in [Configuration overrides](../cs-install-guide/download-install-additional-config-override.md) to create the configuration file.
 
-1. In the configuration file, provide the following (property) details to configure the base output location:
+1. In the configuration file, provide the following (property) details:
 
     |PID|Property Key|Property Value|
     |---|---|---|

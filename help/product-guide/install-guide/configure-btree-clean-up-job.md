@@ -8,7 +8,7 @@ level: Experienced
 ---
 # Configure B-tree clean up for On-Premise Service
 
-Set up the B-Tree cleanup job and manage enable/disable settings for Guides BTree deletion to keep your system optimized and storage clean.
+Set up the B-tree cleanup job and manage enable/disable settings for Guides BTree deletion to keep your system optimized and storage clean.
 
 ## Configure B-tree clean up job
 
@@ -30,7 +30,7 @@ Perform the following steps to configure B-tree clean up job:
 
     ![](assets/btree-cleanup-config.png){align="left"}
 
-1. Click **Save**.
+1. Select **Save**.
 
 
 ## Configure Guides BTree Deletion Enable setting
@@ -50,5 +50,5 @@ Perform the following steps to enable or disable the deletion setting:
 
     ![](assets/btree-cleanup-setting.png){align="left"}
 
-1. Click **Save**.
+1. Select **Save**.
    
