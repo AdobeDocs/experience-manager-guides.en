@@ -95,7 +95,7 @@ Perform the following steps to use the service API JARs from the public Maven re
     <dependency>
         <groupId>com.adobe.fmdita</groupId>
         <artifactId>api</artifactId>
-        <version>5.1</version>
+        <version>${RELEASE}</version>
     </dependency>
 
     ```
