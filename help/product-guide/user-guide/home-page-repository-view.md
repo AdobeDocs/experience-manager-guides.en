@@ -42,19 +42,19 @@ The Repository navigation bar, located at the top of the Repository interface, p
         - **Cloud Services**: If you are using Cloud Services, selecting the **Assets** option takes you to the AEM Navigation page.
         - **On-premise Software**: If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the **Assets** option takes you to your current file path in the Assets UI.
     - **Workspace settings**: Takes you to the **Workspace settings** dialog. For details, view [Configure Workspace settings](../cs-install-guide/workspace-settings.md).
-- **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the Exit the expanded view icon.
+- **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the Header bar is hidden, maximizing the content space. To return to the standard view, use the Exit the expanded view icon.
 
 ## Tabular view of Repository
 
 The Repository serves as the central space providing a tabular list of all the folders and files. It offers following features:
 
-- **Customise**: You can modify the columns displayed by using the **Customise** option located at the top-right corner of the Repository view. This option allows you to show or hide any column and also rearrange the columns as needed. The Name or Title columns are mandatory and both cannot be disabled together. Other fields, such as **File type**, **UUID**, **Document state**, **Locked by**, **Created on**, and **Modified on**, can be enabled or disabled as needed. You can rearrange them by simply dragging and dropping.
+- **Customise**: You can modify the columns displayed by using the **Customise** option located at the top-right corner of the Repository view. This option allows you to show or hide any column and also rearrange the columns as needed. The **Name** or **Title** columns are mandatory and both cannot be disabled together. Other fields, such as **File type**, **UUID**, **Document state**, **Locked by**, **Created on**, and **Modified on**, can be enabled or disabled as needed. You can rearrange them by simply dragging and dropping.
 
     ![](images/customize-repo-view.png){width="350" align="left"}
 
-- **Column resizing**: Columns can be resized by selecting the dropdown menu on the respective column label.
+- **Column resizing**: Columns can be resized by selecting options from the column dropdown menu.
 
-- **Sorting**: The Name, Title, Created on and Last modified columns support sorting in ascending or descending order, accessible via the dropdown on the field label.
+- **Sorting**: The Name, Title, Created on and Last modified columns support sorting in ascending or descending order, accessible via their column dropdown menu.
 
 - **Editing the file**: 
 
@@ -99,7 +99,7 @@ The Repository serves as the central space providing a tabular list of all the f
       
 ### Search and filter experience
 
-The Search option helps in searching the required files from the Repository primarily on the basis of **File title**, **File name** and **Content**. You can use any one, two, or all three criteria for your search. If none of the criteria are selected, the results will include common to all the three criteria.
+The **Search** option helps in searching the required files from the Repository primarily on the basis of **File title**, **File name** and **Content**. You can use any one, two, or all three criteria for your search. If none of the criteria are selected, the results will include common to all the three criteria.
 
 ![](images/search-in-repository.png){align="left"}
  
@@ -124,7 +124,7 @@ You have the following options to filter the files and to narrow down your searc
 
 - **DITA element**: Filter content based on various DITA elements.
 
-After applying all the required filters, select **Apply** located at the bottom-left corner of the Filters panel. 
+After applying all the required filters, select **Apply** from the bottom-right corner of the Filters panel. 
 
 Your search results customized according to the selected filter appear as a **tabular list of files only** (folders are not displayed). You can remove any filter individually or multiple filters at the same time, and the results refreshes to reflect the updated selection.
 
