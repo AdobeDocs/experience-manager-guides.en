@@ -10,11 +10,11 @@ level: Experienced
 When the user tries to close a file that is opened in the Web Editor using the **Close** button on the file's tab or the **Close** option in the Options menu, a dialog appears if the file has unsaved data or an unsaved version. The user is prompted to save the file as a new version if the version is not saved.
 
 The **Save as a New Version** checkbox is not enabled by default and you need to enable this from the configMgr. 
-Perform the following steps to enable the option by default in the Web Editor depending on the service you are using.
+Perform the following steps to configure prompt to save as a new version on close depending on the service you are using.
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure a prompt to save as a new version on close:
 
@@ -26,7 +26,7 @@ When this configuration is enabled, the **Save as a New Version** checkbox is se
 
 For more details, see *File close and save scenarios* section in the Using Adobe Experience Manager Guides as a Cloud Service guide.
 
->[!On-Prem services]
+>[!On-Premise service]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
