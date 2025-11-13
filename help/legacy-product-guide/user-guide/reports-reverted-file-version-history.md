@@ -12,6 +12,8 @@ When you are working on multiple simultaneous releases along with multiple autho
 
 AEM Guides allows you to generate a version history report for an individual file or for all files in a folder. This version history gives you a consolidate view of all versions of a file that were reverted and who created those versions and the reason for creating those versions.
 
+{{$include /help/_includes/overview.md}}
+
 You can access this report from the following places:
 
 -   **Assets UI**: by selecting a file and opening the **Version History** from the left rail. The **Version History** view contains the **Revert Version Logs** link at the bottom of the panel. When you click on this link, the selected file's history of the reverted versions is displayed.
@@ -51,6 +53,6 @@ Perform the following steps to access the Revert History report:
 
     - **Comment**: Any comment given by the user who reverted the file.
 
-{{$include /help/_includes/overview.md}}
+
 
 **Parent topic:**[Reports](reports-intro.md)

@@ -18,8 +18,3 @@ With [!DNL AEM Guides] solution, enterprises can deliver seamless and personaliz
 > 
 > Adobe Experience Manager Guides was formerly branded as _XML Documentation for Adobe Experience Manager_. Please note certain references within the documentation may still refer to prior branding but are still applicable to the current offering.
 
-## Additional Resources
-
-* [[!DNL AEM Guides] User Guide (New UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)
-* [[!DNL AEM Guides] Learn & Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League - Explore AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
