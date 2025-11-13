@@ -14,7 +14,7 @@ The Search panel can be accessed from the following:
 
     ![](images/search-icon-editor.png){align="left"} 
 
-- **Home page**: Using the **Show in Search panel** option when navigating from the Repository interface on the Home page. For details view, [Search from the Repository](#search-from-repository-interface-on-the-home-page).
+- **Home page**: Using the **Show in Search panel** option when navigating from the Repository interface on the Home page. For details view, [Search from the Repository](#search-from-the-repository-interface-on-the-home-page).
 
     ![](images/search-panel-repo.png){align="left"}    
 
