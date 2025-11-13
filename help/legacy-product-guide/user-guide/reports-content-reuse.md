@@ -8,6 +8,23 @@ exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
 ---
 # Content Reuse Report {#id205BB900OQD}
 
+<table>
+  <tr>
+    <td style="width:100px;">Applies To</th>
+    <td style="width:350px;">Experience Manager Guides Cloud Service, Experience Manager Guides On-Premise</th>
+    
+  </tr>
+  <tr>
+    <td style="width:125px;">Supported version <br>(Cloud Service)</td>
+    <td style="width:100px;">2025.11.0, 2025.12.0</td>
+    </tr>
+    <tr>
+    <td style="width:125px;">Supported version<br> (On-Premise)</td>
+    <td style="width:100px;">4.6.0, 5.1.0</td>       
+  </tr>
+</table>
+
+
 Another useful report that you can generate is the Content Reuse Report. This report calculates the average content usage percentage, which is very useful for project managers and business owners to see the amount of content that is being reused.
 
 >[!TIP]
