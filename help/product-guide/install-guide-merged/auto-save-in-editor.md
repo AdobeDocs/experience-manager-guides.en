@@ -1,7 +1,6 @@
 ---
 title: Configure file auto-save in the Web Editor
 description: Learn how to Configure file auto-save in the Web Editor
-
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
@@ -16,7 +15,7 @@ Perform the following steps to enable the auto-save feature in the Web Editor de
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure file auto-save and auto-save time interval:
 
@@ -25,7 +24,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.autosave`|Boolean \(true/false\).<br> **Default value**: false |
 |`xmleditor.autosaveinterval`|Specify the time interval in seconds to trigger the auto-save feature.|
 
->[!On-Prem services]
+>[!On-Premise]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
