@@ -12,7 +12,7 @@ By default, when a topic or map file is created, authors are given an option to 
 
 >[!BEGINTABS]
 
->[!TAB Cloud services]
+>[!TAB Cloud Services]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure auto-filenames based on UUID:
 
