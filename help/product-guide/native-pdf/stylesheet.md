@@ -135,7 +135,6 @@ In this example, we will customize the headings from level 1 to level 3 to use a
    ||Format|`Section <2>.<x>:`||
    ||Prefix Width|125 px||
    ||Font &gt; Text Alignment|Left|Make sure that Apply Formatting To is set to Numbering|
-   ||
 
    <img src="./assets/auto-number-output.png" width=500>
 

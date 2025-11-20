@@ -19,7 +19,7 @@ You can migrate your non-UUID content to UUID based on the current version of Ex
 
 Use the following matrix to determine the correct migration path based on your current non-UUID version. This ensures a smooth transition post-migration.
 
-|Non-UUID version required for migration|UUID version after migration | Supported upgrade path post-migration| 
+|Non-UUID version required for migration|UUID version after migration | Supported upgrade path post-migration|
 |---|---|---|
 |4.3.1 non-UUID |  4.3.2 UUID|After migrating to version 4.3.2 UUID, you can directly install 4.6.0 (UUID). Once you are on 4.6.0, upgrade to version 5.1.0, and then install 5.1.0 Service Pack 1.|
 |4.6.0 Service Pack 4 non-UUID|4.6.1 UUID |After migrating to version 4.6.1 UUID, you can directly upgrade to 5.1.0 (UUID). Once the upgrade is complete, install version 5.1.0 Service Pack 1.|

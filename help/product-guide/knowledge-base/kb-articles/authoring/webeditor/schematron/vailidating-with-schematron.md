@@ -14,7 +14,7 @@ Beyond support for DITA rules, web-editor also supports validation of content ba
 
 "*Schematron*" refers to a rule-based validation language used to define tests for an XML file. You can import the Schematron files and also edit them in Web Editor. Using a "Schematron" file you can define certain rules and then validate them for a DITA topic or a map. Schematron rules can ensure consistency of XML structure by imposing restrictions defined as rules. These restrictions are driven by SMEs who own the quality and consistency of the content. 
 
-    NOTE: Web editor supports ISO Schematron. 
+NOTE: Web editor supports ISO Schematron. 
 
 
 ## Knowing how "Schematron" works in web-editor
@@ -35,7 +35,7 @@ Webeditor settings allows the power users to setup Schematron rules/files that w
 
 Yes, as a author/user while creating content you can use the Schematron panel in webeditor to upload a schematron file and run validations on the file open in editor.
 
-    For this to work, folder profile admin must allow all users to add Schemtron files in Validation panel. See editor settings (screenshot given above)
+For this to work, folder profile admin must allow all users to add Schemtron files in Validation panel. See editor settings (screenshot given above)
 
 ![Choose Schematron file](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![Run validation](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)

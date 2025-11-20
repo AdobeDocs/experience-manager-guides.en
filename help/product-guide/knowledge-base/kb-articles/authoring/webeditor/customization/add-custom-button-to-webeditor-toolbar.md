@@ -56,7 +56,7 @@ Use the folder profiles to check the *ui_config.json* under the "XML Editor Conf
 
 ### Handle the on-click event for the new button
 
-    NOTE: Steps mentioned below are available as package attached in this post
+NOTE: Steps mentioned below are available as package attached in this post
 
 
 - After saving the folder profile create a "cq:ClientLibraryFolder" under a project directory (could be under */apps*) and add properties as shown in the screenshot below:

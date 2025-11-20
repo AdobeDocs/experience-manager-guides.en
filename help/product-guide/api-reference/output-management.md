@@ -136,7 +136,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/publishlistener
 |----|----|--------|-----------|
 |`operation`|String|Yes|Name of the operation being called. The value of this parameter is `GENERATEOUTPUT`.<br> **Note:** The value is case-sensitive.|
 |`source`|String|Yes|Absolute path of the DITA map file.|
-|`outputName`|String|Yes|Name of the output preset\(s\) to be used to generate output. Multiple output presets can be specified using a pipe \("\|"\) delimiter, for example `aemsite|pdfoutput`.|
+|`outputName`|String|Yes|Name of the output preset\(s\) to be used to generate output. Multiple output presets can be specified using a pipe \("\|"\) delimiter, for example `aemsite\|pdfoutput`.|
 
 **Response values**:
 Returns a HTTP 200 \(Successful\) response.

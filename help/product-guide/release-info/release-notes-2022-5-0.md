@@ -29,10 +29,10 @@ This section lists the compatibility matrix for the software applications suppor
 
 ### Oxygen Connector
 
-| AEM Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | 
+| AEM Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac |
 | --- | --- | --- |
-| 2022.5.0 | 2.6.9 | 2.6.9 | 
-|  |  |  |  
+| 2022.5.0 | 2.6.9 | 2.6.9 |
+|  |  |  |
 
 
 ## New features and enhancements

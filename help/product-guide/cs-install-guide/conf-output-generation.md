@@ -140,7 +140,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 ### Configure the URL of the AEM Site output to use the document title
 
-You can use the document titles in the URL of the AEM Site output. If the filename doesn’t exist or contains all special characters, you can configure the system to replace the special characters with a separator in the URL of the AEM Site output. You can also configure it to replace them with the first child topic’s name.
+You can use the document titles in the URL of the AEM Site output. If the filename doesn't exist or contains all special characters, you can configure the system to replace the special characters with a separator in the URL of the AEM Site output. You can also configure it to replace them with the first child topic's name.
 
 
 To configure the page names, perform the following steps:
@@ -152,7 +152,7 @@ To configure the page names, perform the following steps:
 |---|------------|--------------|
 |`com.adobe.fmdita.common.SanitizeNodeName`|`nodename.systemDefinedPageName`|Boolean (`true/false`). **Default value**: `false`|
 
-For example, if the *@navtitle* in `<topichead>` has all special characters and you set the `aemsite.pagetitle` property to true, then by default, it uses a separator. If you set the `nodename.systemDefinedPageName` property to true, it shows the first child topic’s name.
+For example, if the *@navtitle* in `<topichead>` has all special characters and you set the `aemsite.pagetitle` property to true, then by default, it uses a separator. If you set the `nodename.systemDefinedPageName` property to true, it shows the first child topic's name.
 
 
 ### Configure filename sanitization rules for creating topics and publishing output in AEM Sites and other formats {#id2164D0KD0XA}
@@ -597,7 +597,7 @@ The following table describes the elements in the DITA element schema:
 |`<wrapelement>`|The HTML element to wrap the contents within.|
 |`<wrapclass>`|The element value to the property `wrapclass.`|
 |`<attributemap>`|Container node containing one or more `<attribute>` nodes.|
-|`<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />`|Maps the DITA attributes to AEM properties: <br> -   **`from`**: DITA attribute name <br> -   **`to`**: AEM component property name <br> -   **`ispath`**: If the attribute is a path value \(for example: *image*\) <br> -   **`rel`**: If the path is the source or target <br> **Note:** If `attrname` starts with `%`, then map `attrname minus '%'` to prop ' `propname`'. |
+|`<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />`|Maps the DITA attributes to AEM properties: <br> -   **`from`**: DITA attribute name <br> -   **`to`**: AEM component property name <br> -   **`ispath`**: If the attribute is a path value \(for example: *image*\) <br> -   **`rel`**: If the path is the source or target <br> **Note:** If `attrname` starts with `%`, then map `attrname minus '%'` to prop ' `propname`'. |
 
 **Additional notes**
 
@@ -680,8 +680,8 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`output.history.purgeperiod`|Specify the number of days after which the output history along with output logs are purged. If you want to disable this feature, then set this property to 0.Everyday at the specified time the purging process is executed on outputs generated before the number of days specified in this property. <br> **Default value**: 5|
-|`output.history.purgetime`|Specify the time when the purging process is initiated. <br> **Default value**: 0:00 \(or 12:00 midnight\)|
+|`com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod`|Specify the number of days after which the output history along with output logs are purged. If you want to disable this feature, then set this property to 0.Everyday at the specified time the purging process is executed on outputs generated before the number of days specified in this property. | **Default value**: 5|
+|`output.history.purgetime`|Specify the time when the purging process is initiated. | **Default value**: 0:00 \(or 12:00 midnight\)|
 
 ## Change the recently generated outputs list limit {#id1679JH0H0O2}
 

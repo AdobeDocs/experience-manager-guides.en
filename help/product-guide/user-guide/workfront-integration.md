@@ -309,7 +309,7 @@ Perform the following steps to work upon a publishing task:
 3. Review task details and the file added for publishing.
 
    ![](./images/publishing-tasks-review-details.png){align="left"}
-4. Navigate to the **Output presets** and perform the publishing actions required to publish the task. For more details, view [Understanding the output presets](../user-guide/generate-output-understand-presets.md/). 
+4. Navigate to the **Output presets** and perform the publishing actions required to publish the task. For more details, view [Understanding the output presets](../user-guide/generate-output-understand-presets.md). 
 5. Once publishing is complete, navigate to the **Workfront** section and select **Mark as done** to indicate that the task is complete.  
 6. Switch to the **Comments** tab to add a comment to this task. These comments, added at task level, will reflect on the Workfront's project dashboard. 
 

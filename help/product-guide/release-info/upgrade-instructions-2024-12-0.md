@@ -23,10 +23,10 @@ This section lists the compatibility matrix for the software applications suppor
 
 ### Oxygen Connector
 
-| Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
+| Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2024.12.0| 3.7-uuid 2|   3.7-uuid 2 | 2.3 | 2.3 | 
-|  |  |  |  |
+| 2024.12.0| 3.7-uuid 2|   3.7-uuid 2 | 2.3 | 2.3 |
+|  |  |  |  |  |
 
 
 ### Knowledge base template version
@@ -37,9 +37,9 @@ This section lists the compatibility matrix for the software applications suppor
 
 ### New AEM Sites template version
 
-|Components version| Sites version | 
+|Components version| Sites version |
 |---|---|
-|guides-components.all-1.0.0|daemg-sites-template-1.0.0| 
+|guides-components.all-1.0.0|daemg-sites-template-1.0.0|
 
 ## Upgrade to 2024.12.0 release
 

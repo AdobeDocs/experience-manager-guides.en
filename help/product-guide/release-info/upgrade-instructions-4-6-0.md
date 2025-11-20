@@ -32,17 +32,17 @@ For more details, view the [Technical requirements](../install-guide/download-in
 | --- | --- | --- | --- | --- |
 |4.6.0 (Non-UUID)| 2022 or higher |2020.2 or higher* | 2022 or higher | 2020.3 or higher |
 |4.6.0 (UUID) | 2022 or higher | 2020.2 or higher*  | 2022 or higher | 2020.4 or higher |
-| | | | |
+| | | | | |
 
 *Baseline and conditions created in AEM are supported in FMPS releases starting from 2020.2.
 
 ### Oxygen Connector
 
-| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
+| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |
 | --- | --- | --- |--- |--- |
 | 4.6.0 (Non-UUID)|  2.8-regular-10| 2.8-regular-10 |  1.6 | 1.6  |
 | 4.6.0 (UUID) | 3.6-uuid.9|3.6-uuid.9 |2.3 | 2.3  |
-|  |  |   |  
+|  |  |   | ||
 
 ### Knowledge base template version
 

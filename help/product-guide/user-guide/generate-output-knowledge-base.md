@@ -104,7 +104,7 @@ You can also view the following options in the Salesforce and ServiceNow presets
 |Remove the topic heading from the article body.|Select this option to remove the topic heading from the article in the published output. |
 |Upload as draft | Select this option to upload the topic to share it as a draft before making it available to the users.|
 |Upload images| Select this option if you want any images in topics to be included in the published output.|
-|Upload linked documents| Select this option to include the documents linked in topics in the published output.|     
+|Upload linked documents| Select this option to include the documents linked in topics in the published output.|
 
 
 

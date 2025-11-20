@@ -609,7 +609,7 @@ The following table describes the elements in the DITA element schema:
 |`<wrapelement>`|The HTML element to wrap the contents within.|
 |`<wrapclass>`|The element value to the property `wrapclass.`|
 |`<attributemap>`|Container node containing one or more `<attribute>` nodes.|
-|`<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />`|Maps the DITA attributes to AEM properties:<br>- **`from`**: DITA attribute name<br>- **`to`**: AEM component property name <br>- **`ispath`**: If the attribute is a path value \(for example: *image*\)<br>- **`rel`**: If the path is the source or target <br>**Note:** If `attrname` starts with `%`, then map `attrname minus '%'` to prop ' `propname`'.|
+|`<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />`|Maps the DITA attributes to AEM properties:<br>- **`from`**: DITA attribute name<br>- **`to`**: AEM component property name <br>- **`ispath`**: If the attribute is a path value \(for example: *image*\)<br>- **`rel`**: If the path is the source or target <br>**Note:** If `attrname` starts with `%`, then map `attrname minus '%'` to prop ' `propname`'.|
 
 **Additional notes**
 

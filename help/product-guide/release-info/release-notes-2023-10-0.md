@@ -107,10 +107,10 @@ This section lists the compatibility matrix for the software applications suppor
 
 ### Oxygen Connector
 
-| AEM Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
+| AEM Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.10.0|  3.2-uuid 5|  3.2-uuid 5 | 2.3 | 2.3 | 
-|  |  |  |  |
+| 2023.10.0|  3.2-uuid 5|  3.2-uuid 5 | 2.3 | 2.3 |
+|  |  |  |  |  |
 
 
 ### Knowledge base template version
