@@ -101,7 +101,7 @@ For more details, view [purge older versions](../install-guide/version-managemen
    |Configuration|Property|Value|
    |---|---|---|
    |`com.adobe.fmdita.config.ConfigManager`|Enable Post Processing Workflow Launchers|Disable|
-   |`com.adobe.fmdita.config.ConfigManager`|uuid. regex|`^GUID-(?<id>.*)`| 
+   |`com.adobe.fmdita.config.ConfigManager`|uuid. regex|`^GUID-(?<id>.*)`|
    |`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`|Enable Version Postprocessing|Disable|
    |Day CQ Tagging Service|Enable validation (validation.enabled)|Disable|
 
@@ -173,10 +173,10 @@ For more details, view [purge older versions](../install-guide/version-managemen
 
 |Summary after process completion|How to interpret?|Action|
 |---|---|---|
-| Total number of files: 4833 |Number of DITA maps with at least 1 baseline. |
-|Number of files upgraded successfully: 4705|Number of DITA maps, successfully upgraded with all baselines.|  
-|Number of files upgraded with errors: 0| Number of DITA maps whose baselines didn't upgrade.|
-|Number of files skipped: 1647| Number of DITA maps without any baseline.|
+| Total number of files: 4833 |Number of DITA maps with at least 1 baseline. ||
+|Number of files upgraded successfully: 4705|Number of DITA maps, successfully upgraded with all baselines.||
+|Number of files upgraded with errors: 0| Number of DITA maps whose baselines didn't upgrade.||
+|Number of files skipped: 1647| Number of DITA maps without any baseline.||
 | Number of files failed to upgrade: 128| The number of baseline objects that were not valid (they were empty) is listed in the report (Excel).| Check if there are errors other than: `baselineObj not found on`|
 
 

@@ -43,17 +43,17 @@ For more details, see the Technical requirements section in the Install and conf
 | --- | --- | --- | --- | --- |
 |4.1.3 (Non-UUID)| 2020.2 or higher* | 2019 | 2020.3 or higher | 2019.8 (latest update) |
 | 4.1.3 (UUID) | 2020.2 or higher* | Not compatible | 2020.4 or higher | Not compatible |
-| | | | |
+| | | | ||
 
 *Baseline and conditions created in AEM are supported in FMPS releases starting from 2020.2.
 
 ### Oxygen Connector
 
-| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
+| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |
 | --- | --- | --- |--- |--- |
 | 4.1.3 (Non-UUID)|  2.0 | 2.0 |  1.6 | 1.6  |
 | 4.1.3 (UUID) | 2.7 | 2.7  |2.3 | 2.3  |
-|  |  |   |  
+|  |  |   |||
 
 
 ## Fixed issues
@@ -86,17 +86,17 @@ For more details, see the Technical requirements section in the Install and conf
 | --- | --- | --- | --- | --- |
 |4.1.2 (Non-UUID)| 2020.2 or higher* | 2019 | 2020.3 or higher | 2019.8 (latest update) |
 | 4.1.2 (UUID) | 2020.2 or higher* | Not compatible | 2020.4 or higher | Not compatible |
-| | | | |
+| | | | ||
 
 *Baseline and conditions created in AEM are supported in FMPS releases starting from 2020.2.
 
 ### Oxygen Connector
 
-| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
+| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |
 | --- | --- | --- |--- |--- |
 | 4.1.2 (Non-UUID)|  2.0 | 2.0 |  1.6 | 1.6  |
 | 4.1.2 (UUID) | 2.7 | 2.7  |2.3 | 2.3  |
-|  |  |   |  
+|  |  |   |||
 
 
 ## Fixed issues
@@ -143,17 +143,17 @@ For more details, see the Technical requirements section in the Install and conf
 | --- | --- | --- | --- | --- |
 |4.1 (Non-UUID)| 2020.2 or higher* | 2019 | 2020.3 or higher | 2019.8 (latest update) |
 | 4.1 (UUID) | 2020.2 or higher* | Not compatible | 2020.4 or higher | Not compatible |
-| | | | |
+| | | | | |
 
 *Baseline and conditions created in AEM are supported in FMPS releases starting from 2020.2.
 
 ### Oxygen Connector
 
-| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
+| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |
 | --- | --- | --- |--- |--- |
 | 4.1 (Non-UUID)| 2.0 | 2.0 |  1.6 | 1.6 |
 | 4.1 (UUID) | 2.7 | 2.7 |2.3 | 2.3 |
-|  |  |  |  
+|  |  |  | | |
 
 
 ## New features and enhancements
@@ -163,6 +163,7 @@ AEM Guides provides many enhancements and new features in the 4.1 release:
 ### Native PDF publishing
 
 Support for creating a native PDF has also been added in the 4.1 release of AEM Guides. A new publishing engine has been introduced with the following features:
+
 * Create a CSS template
 * Create different page templates
 * Design PDF templates comprising CSS and page templates

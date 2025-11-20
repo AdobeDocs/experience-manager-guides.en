@@ -6,6 +6,8 @@ product: Experience Manager
 type: Documentation
 solution: Experience Manager, Experience Manager Guides
 feature-set: Experience Manager Guides
+landing-page-name: experience-manager-guides
+landing-page-breadcrumb-title: AEM Guides
 role: User
 index: yes
 ---

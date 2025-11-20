@@ -21,7 +21,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 Version 6.5 Service Pack 22, Service Pack 21, and Service Pack 20
 
-For more details, view the [Technical requirements](../install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
+For more details, view the [Technical requirements](/help/product-guide/install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
 
 ### FrameMaker and FrameMaker Publishing Server
 
@@ -31,7 +31,7 @@ For more details, view the [Technical requirements](../install-guide/download-in
 
 ### Oxygen Connector
 
-| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
+| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |
 | --- | --- | --- |--- |--- |
 | 5.0.0 (UUID) | 3.7-uuid.2|3.7-uuid.2 |2.3 | 2.3  |
 

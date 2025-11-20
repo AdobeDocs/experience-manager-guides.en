@@ -30,7 +30,7 @@ For more details, view the [Technical requirements](../install-guide/download-in
 
 ### Oxygen Connector
 
-| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
+| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |
 | --- | --- | --- |--- |--- |
 | 5.1.0 (UUID) | 3.8-uuid.1|3.8-uuid.1 |2.3 | 2.3  |
 
@@ -43,7 +43,7 @@ For more details, view the [Technical requirements](../install-guide/download-in
 ### New AEM Site template version
 
 
-|AEM Guides | AEM version | Components version | Site version| 
+|AEM Guides | AEM version | Components version | Site version|
 |---|---|---| ---|
 |5.1.0 UUID |6.5 LTS | guides-components.all-1.4.1|aemg-docs.all-1.2.0|
 |5.1.0 UUID |6.5 | guides-components.all-1.4.0|aemg-docs.all-1.2.0|

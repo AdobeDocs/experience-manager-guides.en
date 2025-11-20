@@ -32,14 +32,14 @@ You can use Java-based APIs available in Experience Manager Guides to create cus
 
 To configure and use the service API JARs from Maven repository in your projects, add the API SDK as a project dependency in your project's `pom.xml` file as shown below.
 
-    ```XML
-    <dependency>
-    <groupId>com.adobe.aem</groupId>
-    <artifactId>aem-dox-sdk-api</artifactId>
-    <version>${RELEASE}</version>
-    </dependency>
+```XML
+<dependency>
+<groupId>com.adobe.aem</groupId>
+<artifactId>aem-dox-sdk-api</artifactId>
+<version>${RELEASE}</version>
+</dependency>
 
-    ```
+```
 
 >[!NOTE]
 >
@@ -53,14 +53,14 @@ To configure and use the service API JARs from Maven repository in your projects
 
 To configure and use the service API JARs for on-premise deployments, add the service API JAR as a project dependency in your project's `pom.xml` file as shown below:
 
-    ```XML
-    <dependency>
-    <groupId>com.adobe.aem</groupId>
-    <artifactId>aem-guides-sdk-api</artifactId>
-    <version>${RELEASE}</version>
-    </dependency>
+```XML
+<dependency>
+<groupId>com.adobe.aem</groupId>
+<artifactId>aem-guides-sdk-api</artifactId>
+<version>${RELEASE}</version>
+</dependency>
 
-    ```
+```
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ For detailed information on API usage, parameters, and example requests, view th
 
 Following is a list of other helpful resources of AEM Guides, which are available on the [Learn & Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) page:
 
--   User Guide
--   Installation and Configuration Guide
--   Quick Start Guide
--   [Help Archival Page](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(access older release documentation\)
+- User Guide
+- Installation and Configuration Guide
+- Quick Start Guide
+- [Help Archival Page](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(access older release documentation\)

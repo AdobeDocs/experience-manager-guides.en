@@ -624,7 +624,7 @@ Inserts an image at the current or next valid location. Select the Image icon to
 
 You can add an image/Figure Title and Alternate Text for the image in the Insert Image dialog box.
 
->![NOTE]
+>[!NOTE]
 >
 > When you insert an image and specify an alternate text for the same, it is added within the `<alt>` element in accordance with the latest DITA standards. The use of the `@alt` attribute for alternate text is deprecated, but it remains supported in previous DITA versions.
 

@@ -20,17 +20,17 @@ A sample setup file for Jira's basic authentication with username and password:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
-	"configName": "Jira",
-	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
-		"configData": {
-			"username": "jirausername",
-			"password": "jirapassword",
-			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
+    "configName": "Jira",
+    "templateFolders": ["/content/dam/dita-templates/konnect/jira"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
+        "configData": {
+            "username": "jirausername",
+            "password": "jirapassword",
+            "url": "https://jira.corp.adobe.com/rest/api/latest/search"
+        }
+    }
 }
 ```
 
@@ -40,16 +40,16 @@ A sample setup file for Jira's basic authentication with token:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
-	"configName": "Jira",
-	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
-		"configData": {
-			"token": "jiraauthtoken",
-			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
+    "configName": "Jira",
+    "templateFolders": ["/content/dam/dita-templates/konnect/jira"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
+        "configData": {
+            "token": "jiraauthtoken",
+            "url": "https://jira.corp.adobe.com/rest/api/latest/search"
+        }
+    }
 }
 ```
 
@@ -59,16 +59,16 @@ A sample setup file for Jira's basic authentication with the token having "Basic
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
-	"configName": "Jira",
-	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
-		"configData": {
-			"token": "Basic jiraauthtoken",
-			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
+    "configName": "Jira",
+    "templateFolders": ["/content/dam/dita-templates/konnect/jira"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
+        "configData": {
+            "token": "Basic jiraauthtoken",
+            "url": "https://jira.corp.adobe.com/rest/api/latest/search"
+        }
+    }
 }
 ```
 
@@ -78,18 +78,18 @@ A sample setup file for MySql's basic authentication:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.MySqlConnector",
-	"configName": "MySQL",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "com.mysql.jdbc.Driver",
-			"connectionString": "jdbc:mysql://host.corp.adobe.com:3306/plm"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.MySqlConnector",
+    "configName": "MySQL",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "com.mysql.jdbc.Driver",
+            "connectionString": "jdbc:mysql://host.corp.adobe.com:3306/plm"
+        }
+    }
 }
 ```
 
@@ -99,18 +99,18 @@ A sample setup file for PostgreSQL's basic authentication:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.PostgreSqlConnector",
-	"configName": "PostgreSQL",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "org.postgresql.Driver",
-			"connectionString": "jdbc:postgresql://host:port/database"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.PostgreSqlConnector",
+    "configName": "PostgreSQL",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "org.postgresql.Driver",
+            "connectionString": "jdbc:postgresql://host:port/database"
+        }
+    }
 }
 ```
 
@@ -120,18 +120,18 @@ A sample setup file for Microsoft SQL Server's basic authentication:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.MsSqlServerConnector",
-	"configName": "MSSQLServer",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
-			"connectionString": "jdbc:sqlserver://10.10.10.10\\SQLEXPRESS01:1433;database=TutorialDB;encrypt=false;trustServerCertificate=true"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.MsSqlServerConnector",
+    "configName": "MSSQLServer",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+            "connectionString": "jdbc:sqlserver://10.10.10.10\\SQLEXPRESS01:1433;database=TutorialDB;encrypt=false;trustServerCertificate=true"
+        }
+    }
 }
 ```
 
@@ -141,18 +141,18 @@ A sample setup file for SQLite's basic authentication:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.SqliteConnector",
-	"configName": "SQLiteServer",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "org.sqlite.JDBC",
-			"connectionString": "jdbc:sqlite:sample.db"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.SqliteConnector",
+    "configName": "SQLiteServer",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "org.sqlite.JDBC",
+            "connectionString": "jdbc:sqlite:sample.db"
+        }
+    }
 }
 ```
 
@@ -164,18 +164,18 @@ A sample setup file for H2DB:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.H2DBConnector",
-	"configName": "H2DBConnector",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "org.h2.Driver",
-			"connectionString": "jdbc:h2:file:D:/h2db/db"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.H2DBConnector",
+    "configName": "H2DBConnector",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "org.h2.Driver",
+            "connectionString": "jdbc:h2:file:D:/h2db/db"
+        }
+    }
 }
 ```
 
@@ -187,18 +187,18 @@ A sample setup file for MariaDb's basic authentication:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.sample.konnect.connector.MariaDBConnector",
-	"configName": "SampleMariaDbConnector",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "org.mariadb.jdbc.Driver",
-			"connectionString": "jdbc:mariadb://no1010042073107.corp.adobe.com:3308/mysql"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.sample.konnect.connector.MariaDBConnector",
+    "configName": "SampleMariaDbConnector",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "org.mariadb.jdbc.Driver",
+            "connectionString": "jdbc:mariadb://no1010042073107.corp.adobe.com:3308/mysql"
+        }
+    }
 }
 ```
 
@@ -209,16 +209,16 @@ A sample setup file for ElasticSearch's basic authentication:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.ElasticsearchConnector",
-	"configName": "SampleES",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",    	
-			"url": "https://testsearch-1370045986.us-east-1.bonsaisearch.net:443"   }
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.ElasticsearchConnector",
+    "configName": "SampleES",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",        
+            "url": "https://testsearch-1370045986.us-east-1.bonsaisearch.net:443"   }
+    }
 }
 ```
 
@@ -243,14 +243,14 @@ A sample setup file for AdobeCommerce NoAuth:
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.graphql.AdobeCommerceConnector",
-	"configName": "SampleCommerce",
-	"templateFolders": ["/content/dam/dita-templates/konnect"],
-	"connectionConfig": {   "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.NoAuthRestConfig",
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.graphql.AdobeCommerceConnector",
+    "configName": "SampleCommerce",
+    "templateFolders": ["/content/dam/dita-templates/konnect"],
+    "connectionConfig": {   "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.NoAuthRestConfig",
    "configData": {
-   			"url": "http://host/graphql"   
-		}
-	}
+               "url": "http://host/graphql"   
+        }
+    }
 }
 ```
 
@@ -258,7 +258,7 @@ For example,  save as `commerce.json`.
 
 ### Customize a connector configuration
 
-AEM Guides allows you to customize some values in the configuration file to meet the user’s needs.
+AEM Guides allows you to customize some values in the configuration file to meet the user's needs.
 
 |Property Name| Description|
 |---|---|

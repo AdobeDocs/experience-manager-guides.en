@@ -29,7 +29,7 @@ For more details, view the [Technical requirements](../install-guide/download-in
 
 ### Oxygen Connector
 
-| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
+| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |
 | --- | --- | --- |--- |--- |
 | 5.1.0 Service Pack 1 (UUID) | 3.8-uuid.1|3.8-uuid.1 |2.3 | 2.3  |
 

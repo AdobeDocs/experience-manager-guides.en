@@ -384,7 +384,6 @@ breadcrumb-title: AEM Guides Documentation
       - [Migrate non-DITA content](./install-guide/migrate-content-non-dita.md)
     - Work with custom DITA-OT and specialization {#custom-dita-ot-spec}
       - [Use custom DITA-OT and DITA specialization](./install-guide/dita-ot-specialization.md)
-    - Configure UUID and non-UUID based filenames {#conf-non-uuid-filename}
     - [Configure post processing for a folder](./install-guide/conf-folder-post-processing.md)
     - [Configure filenames](./install-guide/conf-file-names.md)
     - [Configure auto-filenames based on UUID](./install-guide/conf-auto-uuid-filenames.md)
@@ -447,7 +446,6 @@ breadcrumb-title: AEM Guides Documentation
           - [Apply styles to footnotes](./native-pdf/footnote-number-style.md)
       - [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
       - [Configure Base Output Location for publishing output](./native-pdf/configure-base-output-location.md)
-      - Work with custom workflows {#custom-workflow}
       - [Configure and customize workflows](./install-guide/customize-workflows.md)
     - Work with translation configurations {#translate-config}
       - [Translate content](./install-guide/translation.md)

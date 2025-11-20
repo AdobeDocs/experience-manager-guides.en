@@ -118,17 +118,17 @@ You can use the resource ID in a page layout as follows:
 
 Some of the commonly used barcodes are as follows:
 
-| Type  | -ro-barcode-type| Additional details | 
+| Type  | -ro-barcode-type| Additional details |
 | ---| --- | --- |
-| QR Code   | qrcode    |  The QR Code bar code symbology according to ISO/IEC 18004:2015.  | 
-|Code 128  | code128               |The Code 128 barcode symbology as defined in ISO/IEC 15417:2007.|
-Code 32| code32   | Code 32, also known as Italian harmacode.                           |               
-| Code 49  |code49     | Code 49 according to ANSI/AIM-BC6-2000.                            |  
-| Code 11                         |code11                   |                            |  
-| Code 93                         |code93                   |                            |  
-| Code16k                         |code16k                  |                            |  
-| PDF417    |pdf417 | The PDF417/MicroPDF417 bar code symbologies according to ISO/IEC 15438:2006 and ISO/IEC 24728:2006.                            |  
-| Code 3 of 9 | code39       | The code 3 of 9 bar code symbology according to ISO/IEC 16388:2007. |  
+| QR Code   | qrcode    |  The QR Code bar code symbology according to ISO/IEC 18004:2015.  |
+| Code 128  | code128               |The Code 128 barcode symbology as defined in ISO/IEC 15417:2007.|
+| Code 32 | code32   | Code 32, also known as Italian harmacode.                           |               
+| Code 49  |code49     | Code 49 according to ANSI/AIM-BC6-2000.                            |
+| Code 11                         |code11                   |                            |
+| Code 93                         |code93                   |                            |
+| Code16k                         |code16k                  |                            |
+| PDF417    |pdf417 | The PDF417/MicroPDF417 bar code symbologies according to ISO/IEC 15438:2006 and ISO/IEC 24728:2006.                            |
+| Code 3 of 9 | code39       | The code 3 of 9 bar code symbology according to ISO/IEC 16388:2007. |
 | MSI Plessey    |msiplessey  |                            |
 | Channel Code     |channelcode | Channel Code according to ANSI/AIM BC12-1998.                            |
 | Codabar | codabar                 |    Codabar barcode symbology according to BS EN 798:1996.                        |
@@ -139,14 +139,14 @@ Code 32| code32   | Code 32, also known as Italian harmacode.                   
 |Ean/UPC Addon|addon|EAN/UPC add-on bar code symbology according to BS EN 797:1996.|
 |Telepen|telepen|Also known as Telepen Alpha.|
 |GS1 Databar / Databar 14|databar|GS1 DataBar according to ISO/IEC 24724:2011.|
-| GS1 Databar Expanded / Databar 14 Expanded | databar-expanded | GS1 DataBar Expanded according to ISO/IEC 24724:2011.|  
+| GS1 Databar Expanded / Databar 14 Expanded | databar-expanded | GS1 DataBar Expanded according to ISO/IEC 24724:2011.|
 | GS1 Databar Limited             | databar-limited         | GS1 DataBar Limited according to ISO/IEC 24724:2011.    |
 | POSTNET (Postal Numeric Encoding Technique) | postnet                 | The POSTNET (Postal Numeric Encoding Technique) barcode symbology used by the United States Postal Service.    |
-|Pharmazentralnummer (PZN-8)|pzn8|A Code 39 based symbology used by the pharmaceutical industry in Germany.| 
-| Pharmacode      | pharmacode   |                            | 
-| Codablock F   | codablockf  | Symbology according to AIM Europe "Uniform Symbology Specification Codablock F", 1995.| 
+|Pharmazentralnummer (PZN-8)|pzn8|A Code 39 based symbology used by the pharmaceutical industry in Germany.|
+| Pharmacode      | pharmacode   |                            |
+| Codablock F   | codablockf  | Symbology according to AIM Europe "Uniform Symbology Specification Codablock F", 1995.|
 | Logmars  | logmars  |   The LOGMARS (Logistics Applications of Automated Marking and Reading Symbols) standard used by the US Department of Defense.               |
 |Aztec Runes|aztec-runes|Aztec Runes bar code symbology according to ISO/IEC 24778:2008 Annex A.|
-| Aztec Code  | aztec-code   |Aztec Code bar code symbology According to ISO/IEC 24778:2008.|                            |
+| Aztec Code  | aztec-code   |Aztec Code bar code symbology According to ISO/IEC 24778:2008.   |
 | DataMatrix        |data-matrix             |  Data Matrix ECC 200 bar code symbology According to ISO/IEC 16022:2006.                          |
 | Code One    | code-one                |                            |
