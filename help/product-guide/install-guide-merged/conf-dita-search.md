@@ -149,6 +149,10 @@ An attribute set contains a list of attributes that you want to search for withi
 
 Perform the following steps to add custom DITA elements or attributes in the search serialization file:
 
+>[!BEGINTABS]
+
+>[!Cloud Service]
+
 1.  Use the Package Manager to download /libs/fmdita/config/serializationconfig.xml file.
 
 1.  Create an overlay node of the `config` folder within the `apps` node.
@@ -161,6 +165,33 @@ Perform the following steps to add custom DITA elements or attributes in the sea
 
 1.  Commit the changes and run the Cloud Manager \(CI/CD\) pipeline to deploy configuration changes.
 
+>[!On-Premise service]
+
+1.  Log into AEM and open the CRXDE Lite mode.
+
+1.  Navigate to the serialization configuration file available at the following location:
+
+    /libs/fmdita/config/serializationconfig.xml
+
+1.  Create an overlay node of the `config` folder within the `apps` node.
+
+1.  Navigate to the configuration file available in the `apps` node:
+
+    `/apps/fmdita/config/serializationconfig.xml`
+
+1.  Add the required element or attribute rule sets.
+
+1.  Save the file.
+
+1.  Open the Adobe Experience Manager Web Console Configuration page. The default URL to access the configuration page is:
+
+    http://<server name\>:<port\>/system/console/configMgr
+
+1.  Search for and click on the *com.adobe.fmdita.config.ConfigManager* bundle.
+
+1.  Click **Save**.
+
+>[!ENDTABS]
 
 The new serialization information is stored and activated for search. However, you must extract the metadata from your existing DITA content to become available for search.
 
@@ -174,6 +205,12 @@ Extracting metadata from existing DITA files involves two tasks:
 
 1.  Enabling the metadata extraction option in the configMgr
 1.  Running the metadata extraction workflow
+
+Perform the following steps to enable the metadata extraction option in the configMgr based on the service you are using.
+
+>[!BEGINTABS]
+
+>[!Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure the metadata extraction option:
 
@@ -201,6 +238,40 @@ Perform the following steps to run the metadata extraction workflow:
 
 1.  In the Confirm Metadata Extraction dialog, click **OK**.
 
+>[!On-Premise service]
+
+1.  Open the Adobe Experience Manager Web Console Configuration page. The default URL to access the configuration page is:
+
+    http://<server name\>:<port\>/system/console/configMgr
+
+1.  Search for and click on the *com.adobe.fmdita.config.ConfigManager* bundle.
+
+1.  Select the **Enable DITA Metadata Extraction** option.
+
+1.  Click **Save**.
+
+
+Perform the following steps to run the metadata extraction workflow:
+
+1.  Log into Adobe Experience Manager as an administrator.
+
+1.  Click on the **Adobe Experience Manager** link at the top and choose **Tools**.
+
+1.  Select **Guides** from the list of tools and click the **DITA Metadata Extraction** tile.
+
+1.  If you want to extract metadata from a single file and its dependencies, click the **Select a File** link and browse for a file.
+
+1.  If you want to extract metadata from multiple files within a folder, click the **Select Folder\(s\)** link, browse and select the required folder. Click the **Add** button to add the folder to the serialization task list.
+
+    >[!NOTE]
+    >
+    > You can select and add multiple folders to a serialization task.
+
+1.  Click **Start**.
+
+1.  In the Confirm Metadata Extraction dialog, click **OK**.
+
+>[!ENDTABS]
 
 ## Exclude temporary files from search results {#id197AHI0035Z}
 
@@ -208,7 +279,11 @@ By default, the search is performed on the entire repository of AEM. There could
 
 To prevent AEM Guides from searching the temporary translation folder location, you need to add temporary folder location in the exclude list.
 
-Perform the following steps to exclude the temporary translation folder from the search:
+Perform the following steps to exclude the temporary translation folder from the search based on the service you are using.
+
+>[!BEGINTABS]
+
+>[!Cloud Service]
 
 >[!NOTE]
 >
@@ -229,3 +304,33 @@ Perform the following steps to exclude the temporary translation folder from the
     |Property name|Type|Value|
     |-------------|----|-----|
     |excludedPaths|String\[\]|Add the following values to this property:<br> `/content/dam/projects/translation\_output`|
+
+>[!On-Premise service]
+
+>[!NOTE]
+>
+> You can add any other folder location to the exclude list using this procedure.
+
+1.  Log into AEM and open the CRXDE Lite mode.
+
+1.  Navigate to the damAssetLucene node available at the following location:
+
+    /oak:index/damAssetLucene
+
+1.  Add the following property in the damAssetLucene node:
+
+    |Property name|Type|Value|
+    |-------------|----|-----|
+    |excludedPaths|String\[\]|Add the following value to this property: <br>/content/dam/projects/translation\_output|
+
+1.  Navigate to the lucene node available at the following location:
+
+    /oak:index/lucene
+
+1.  Add the following property in the lucene node:
+
+    |Property name|Type|Value|
+    |-------------|----|-----|
+    |excludedPaths|String\[\]|Add the following values to this property: <br><ul><li>/var/dxml</li><li>/content/dam/projects/translation\_output</li></ul> |
+
+>[!ENDTABS]
