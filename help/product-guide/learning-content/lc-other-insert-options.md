@@ -30,18 +30,18 @@ The other options available in the Insert menu in the Editor toolbar include:
 
 - **Math equation:** Inserts MathML equations to your content. You can create a MathML equation and select **Insert** to add it to your document. 
 
-    ![](./assets/insert-mathml.png)
+    ![](./assets/insert-mathml.png){width="350" align="left"}
 
     The equation is inserted with light gray background. At any time you can update an equation by right-clicking on an existing equation and selecting **Edit Math equation** from the context menu. For details on validating MathML equations in Experience Manager Guides, view [Validation of equations in the MathML editor](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
 - **Knowledge check:** Allows you to add questions in available formats (Single Correct, Multiple Correct, True/False, Match the Following, or insert from the question bank) to your topic for review and to confirm understanding without grading or reporting. These questions mirror standard formats and exclude scoring, making them ideal for self-assessment. 
 
-    ![](assets/knowledge-check-topic.png){width="350" align="left"}
+    ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
 
     You can configure correct answers and other required fields through the **Content properties** panel. For more details, view [Question types](./quiz-insert-questions.md). You can add various question types using the knowledge check options as shown below.
 
-    ![](assets/knowledge-check-content-properties.png){width="350" align="left"}  
+    ![](assets/knowledge-check-content-properties.png){width="650" align="left"}  
 
 - **Input field:** Adds a text input field along with a button to your content. You can use this combination to capture user input and trigger specific actions. A play button is added to the content as shown below. 
 
