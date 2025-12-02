@@ -15,9 +15,9 @@ To provide a clearer understanding of how to create a Learning Topic and add bas
 
 You can use the basic editing features available on the Editor toolbar, as described below:
 
-- **Widgets**: Add widgets like accordion, carousel, hotspots, and more to your Topic or learning content using the **Insert** menu as shown below. For more details on interactive widgets, view [Use interactive widgets](./lc-widgets.md). 
+- **Insert options**: Provides options to [add interactive widgets](./lc-widgets.md) such as an accordion, carousel, hotspots to your Topic or learning content. Other options in the Insert menu include Block quote, Code block, iFrame, and more. For more details, view [Other options in the Insert menu](./lc-other-insert-options.md).
 
-     ![](assets/widgets-learning-content.png){width="650" align="left"}
+    ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
 - **Text components**: Adds heading/titles, paragraph, inline quote, superscript, subscript and citation to your content. 
 
