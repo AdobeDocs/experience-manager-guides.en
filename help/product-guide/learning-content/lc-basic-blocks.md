@@ -39,15 +39,20 @@ You can use the basic editing features available on the Editor toolbar, as descr
 
     ![](assets/image-learning-content.png){width="650" align="left"}
 
-- **Multimedia**: Adds video and audio to the content from the **More** menu on the toolbar. You can customize their properties using the **Content Properties** panel.
+- **Multimedia**: Adds video and audio to the content. You can customize their properties using the **Content Properties** panel.
 
     ![](assets/video-learning-content.png){width="650" align="left"}
 
-- **Symbols**: Adds symbols of your choice to the content from a list as shown below. You can use it from the **More** menu on the toolbar.
+- **Reusable content**: Enables you to incorporate existing content from your DAM for reusability. After selecting **Reusable content** from the toolbar, use the **Reuse Content** dialog to navigate and select the desired file to include its content in the current course topic. For example, the section on Vehicle structure is a content piece that is reused and added to the topic of the course. The type is shown as **Reference**, and its **ID** is reflected in the **Content properties** panel.
+
+    ![](assets/reusable-content.png){width="650" align="left"}
+
+
+- **Symbols**: Adds symbols of your choice to the content from a list as shown below.
 
     ![](assets/symbol-learning-content.png){width="350" align="left"}
 
 
-- **Hyperlinks**: Adds hyperlinks to the required location in your content. You can use it from the **More** menu on the toolbar. It can be a file reference, web URL, or an e-mail link as shown below. 
+- **Hyperlinks**: Adds hyperlinks to the required location in your content. It can be a file reference, web URL, or an e-mail link as shown below. 
 
     ![](assets/hyperlink-learning-content.png){width="650" align="left"}
