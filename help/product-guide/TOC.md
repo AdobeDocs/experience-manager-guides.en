@@ -320,6 +320,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Edit Topic](./learning-content/edit-content.md)
         - [Add basic building blocks](./learning-content/lc-basic-blocks.md)
         - [Use interactive widgets](./learning-content/lc-widgets.md)
+        - [Other options in the Insert menu](./learning-content/lc-other-insert-options.md)
         - [Use inline styles](./learning-content/lc-inline-styles.md)
       - Create and manage quiz {#quiz}
         - [Quiz overview](./learning-content/quiz-overview.md)
