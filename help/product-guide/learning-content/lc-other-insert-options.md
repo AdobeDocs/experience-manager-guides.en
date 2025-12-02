@@ -17,7 +17,7 @@ The other options available in the Insert menu in the Editor toolbar include:
 
     ![](assets/code-block-learning-content.png){width="650" align="left"}
  
-- **Iframes:** Inserts an iframe into the content to embed external web pages or interactive resources. You can configure the iframe properties using the **Content properties** panel, including the source URL, width, height, alignment, and the title. You can view the content added in the iframe by switching to the **Preview** mode as shown below. 
+- **Iframes:** Inserts an iframe to the content to embed external web pages or interactive resources. You can configure the iframe properties using the **Content properties** panel, including the source URL, width, height, alignment, and the title. You can view the content added in the iframe by switching to the **Preview** mode as shown below. 
 
     **Author** view:
 
@@ -28,6 +28,13 @@ The other options available in the Insert menu in the Editor toolbar include:
 
     ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
 
+- **H5P:** Adds interactive HTML5 package to your learning content. To add H5P content, place your cursor at the desired location and select **H5P** from the Insert menu. In the Insert H5P dialog, provide a reference to the H5P file you want to add to the learning content. Once done, review the H5P content in the Preview mode and published output. 
+
+    >[!NOTE]
+    >
+    > Editing or creating H5P content is not supported within Adobe Experience Manager Guides. Prepare your H5P package externally before uploading.
+
+    ![](assets/insert-h5p-lc.png)
 - **Math equation:** Inserts MathML equations to your content. You can create a MathML equation and select **Insert** to add it to your document. 
 
     ![](./assets/insert-mathml.png){width="350" align="left"}
