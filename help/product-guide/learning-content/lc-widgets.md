@@ -5,7 +5,7 @@ feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
 ---
-# Use interactive widgets
+# Use interactive widgets 
 
 You can enhance the learning content by adding multiple widgets to make the course more interactive. Here's a short walkthrough video of the various widgets available.
 
@@ -26,29 +26,17 @@ The available widgets designed to enhance user experience and streamline content
 
     ![](assets/hotspot-learning-content.png){width="650" align="left"}
 
-- **Block quotes:** Adds block quotes along with citations to your content. 
+- **Tab:** Allows you to organize content into interactive sections.  Each tab can represent a distinct topic or category; learners can click or tap on the tabs to reveal the corresponding content. Place your cursor where you want the tab widget to appear in the content, and then navigate to **Insert > Widget > Tab**. This adds a tab container to your content. Now, start adding content to the tab which includes a title of the Tab and the its corresponding content.  
 
-    ![](assets/block-quote-learning-content.png){width="650" align="left"}
+    ![](assets/insert-tab-lc.png)
+    
+    To add, delete, and switch Tab layout, use the **Content properties** section in the Right panel. 
+- **Flip card:** Adds an interactive card to your content that flips to reveal additional information. Each card has two sides - front and back, allowing learners to explore information in an engaging way.  To insert a Flip card, place your cursor at the desired location and navigate to **Insert > Widget > Flip card**, which adds a Flip card container to your content. You can then add a title and optional image to the front side and enter the corresponding content on the back. 
+    ![](assets/insert-flip-card-lc.png)
 
-- **Code blocks:** Adds a code block to your content.
+    To add or delete cards, or change their layout, use the **Content properties** section in the Right panel. 
+- **Click to reveal:** Inserts an interactive widget to your content that hides content until learners click to reveal it. This helps reduce clutter and encourage exploration. Insert the widget by placing your cursor at the desired location and selecting **Insert > Widget > Click to reveal**. Once inserted, provide the title for the widget header and define the hidden content that appears when learners interact. 
 
-    ![](assets/code-block-learning-content.png){width="650" align="left"}
- 
-- **Iframes:** Insert an iframe into the content to embed external web pages or interactive resources. You can configure the iframe properties using the **Content properties** panel, including the source URL, width, height, alignment, and the title. You can view the content added in the iframe by switching to the **Preview** mode as shown below. 
+    ![](assets/insert-click-to-reveal-lc.png)
 
-    **Author** view:
-
-    ![](assets/iframe-learning-content.png){width="650" align="left"}
-
-
-    **Preview** mode:
-
-    ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
-
-- **Input field:** Add a text input field along with a button to your content. You can use this combination to capture user input and trigger specific actions. A play button is added to the content as shown below. 
-
-    ![](assets/button-learning-content.png){width="650" align="left"}
-
-- **More options:** You have additional options to enhance your learning content, including inserting a horizontal line, line break, text box, positioned text box, and embedded HTML. 
-
-    ![](assets/more-options-learning-content.png){width="650" align="left"}
+    To add or delete the widget, or manage the widget orientation, use the **Content properties** section in the Right panel. 
