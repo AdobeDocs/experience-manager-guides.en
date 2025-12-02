@@ -56,3 +56,5 @@ You can use the basic editing features available on the Editor toolbar, as descr
 - **Hyperlinks**: Adds hyperlinks to the required location in your content. It can be a file reference, web URL, or an e-mail link as shown below. 
 
     ![](assets/hyperlink-learning-content.png){width="650" align="left"}
+
+Additionally, the **Menu** dropdown provides access to the editing actions (Cut, Copy, Delete), Find and replace and Version label.  
