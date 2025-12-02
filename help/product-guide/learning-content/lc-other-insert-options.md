@@ -28,7 +28,7 @@ The other options available in the Insert menu in the Editor toolbar include:
 
     ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
 
-- **H5P:**: Adds interactive HTML5 package to your learning content. To add H5P content, place your cursor at the desired location and select **H5P** from the Insert menu. In the Insert H5P dialog, provide a reference to the H5P file you want to add to the learning content. Once done, review the H5P content in the Preview mode and published output. 
+- **H5P:** Adds interactive HTML5 package to your learning content. To add H5P content, place your cursor at the desired location and select **H5P** from the Insert menu. In the Insert H5P dialog, provide a reference to the H5P file you want to add to the learning content. Once done, review the H5P content in the Preview mode and published output. 
 
     >[!NOTE]
     >
