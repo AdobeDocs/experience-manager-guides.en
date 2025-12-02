@@ -22,16 +22,17 @@ The available widgets designed to enhance user experience and streamline content
 
     ![](assets/carousal-learning-content.png){width="650" align="left"}
 
-- **Hotspots:** Add hotspots to a selected image. Begin by choosing an image, then navigate to **Insert > Hotspot**. This opens the Hotspot dialog, where you can configure various options such as setting different hotspot sizes, adding corresponding links, and adjusting the layering by bringing areas forward or backward. 
+- **Hotspot:** Adds hotspot to a selected image. Begin by choosing an image, then navigate to **Insert > Hotspot**. This opens the Hotspot dialog, where you can configure various options such as setting different hotspot sizes, adding corresponding links, and adjusting the layering by bringing areas forward or backward. 
 
     ![](assets/hotspot-learning-content.png){width="650" align="left"}
 
-- **Tab:** Allows you to organize content into interactive sections.  Each tab can represent a distinct topic or category; learners can click or tap on the tabs to reveal the corresponding content. Place your cursor where you want the tab widget to appear in the content, and then navigate to **Insert > Widget > Tab**. This adds a tab container to your content. Now, start adding content to the tab which includes a title of the Tab and the its corresponding content.  
+- **Tab:** Allows you to organize content into interactive sections.  Each tab can represent a distinct topic or category; learners can click or tap on the tabs to reveal the corresponding content. Place your cursor where you want the Tab widget to appear in the content, and then navigate to **Insert > Widget > Tab**. This adds a tab container to your content. Now, start adding content to the tab which includes a Tab title and its corresponding content.  
 
     ![](assets/insert-tab-lc.png)
     
     To add, delete, and switch Tab layout, use the **Content properties** section in the Right panel. 
 - **Flip card:** Adds an interactive card to your content that flips to reveal additional information. Each card has two sides - front and back, allowing learners to explore information in an engaging way.  To insert a Flip card, place your cursor at the desired location and navigate to **Insert > Widget > Flip card**, which adds a Flip card container to your content. You can then add a title and optional image to the front side and enter the corresponding content on the back. 
+
     ![](assets/insert-flip-card-lc.png)
 
     To add or delete cards, or change their layout, use the **Content properties** section in the Right panel. 
