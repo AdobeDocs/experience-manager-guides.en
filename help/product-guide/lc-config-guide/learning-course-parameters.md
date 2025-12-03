@@ -7,7 +7,7 @@ level: Experienced
 ---
 # SCORM key metrics for Learner progress and Course completion
 
-The following table lists the key parameters captured in a SCORM package, along with their corresponding fields, and examples. These parameters provide critical insights into learner progress, course completion, interaction details, and quiz performance. Administrators can use this information to validate tracking, configure reporting, and ensure accurate analytics within the LMS environment. Below are sample values provided for each parameter as it appears in the SCORM package.
+The article lists the key parameters captured in a SCORM package, along with their corresponding fields, and examples. These parameters provide critical insights into learner progress, course completion, interaction details, and quiz performance. Administrators can use this information to validate tracking, configure reporting, and ensure accurate analytics within the LMS environment. Below are sample values provided for each parameter as it appears in the SCORM package.
 
 |**Parameter name**|**Description**|**Fields** |**Example**|
 |---|---|---|---|
