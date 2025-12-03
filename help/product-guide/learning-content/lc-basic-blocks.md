@@ -43,7 +43,18 @@ You can use the basic editing features available on the Editor toolbar, as descr
 
     ![](assets/video-learning-content.png){width="650" align="left"}
 
-- **Reusable content**: Enables you to incorporate existing content from your DAM for reusability. After selecting **Reusable content** from the toolbar, use the **Reuse Content** dialog to navigate and select the desired file to include its content in the current course topic. For example, the section on Vehicle structure is a content piece that is reused and added to the topic of the course. The type is shown as **Reference**, and its **ID** is reflected in the **Content properties** panel.
+- **Reusable content**: Enables you to incorporate existing content from your assets or repository for reusability. To insert a Reusable content perform the following:
+
+    1. Select **Reusable content** from the toolbar.
+        The **Reuse Content** dialog opens.
+    2. Navigate and select the desired topic to include its content in the current course.
+    3. Select the ID of the content you want to add; a preview will be displayed alongside for reference.
+
+        ![](assets/reuse-content-dialog.png){width="650" align="left"}
+
+    4. Choose **Select**. 
+
+    The content gets inserted. For example, the section on Vehicle structure is a content piece that is reused and added to the topic of the course. The type is shown as **Reference**, and its **ID** is reflected in the **Content properties** panel.
 
     ![](assets/reusable-content.png){width="650" align="left"}
 
