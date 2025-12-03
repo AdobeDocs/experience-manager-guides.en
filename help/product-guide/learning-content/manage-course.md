@@ -85,7 +85,7 @@ As an Author for a learning course or Administrator, you can create a review tas
 
 ![](assets/create-review-task-lc.png)
 
-You are directed to the **Create Review Task** page, where you need to add task details such as title of the review task, specify the DITA project it is part of, define task timelines, assign reviwers, and more. Once done, the Reviewer(s) will receive a notification for this task. The selected course topics opens in the Review UI where the Reviewer(s) can add comments and send the topics back for updates. 
+You are directed to the **Create Review Task** page, where you need to add task details such as title of the review task, specify the DITA project it is part of, define task timelines, assign reviewers, and more. Once done, the Reviewer(s) will receive a notification for this task. The selected course topics opens in the Review UI where the Reviewer(s) can add comments and send the topics back for updates. 
 
 To understand the review workflow in Experience Manager Guides, view, [Send topics for review](../user-guide/review-send-topics-for-review.md). 
 
