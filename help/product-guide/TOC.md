@@ -320,6 +320,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Edit Topic](./learning-content/edit-content.md)
         - [Add basic building blocks](./learning-content/lc-basic-blocks.md)
         - [Use interactive widgets](./learning-content/lc-widgets.md)
+        - [Other options in the Insert menu](./learning-content/lc-other-insert-options.md)
         - [Use inline styles](./learning-content/lc-inline-styles.md)
       - Create and manage quiz {#quiz}
         - [Quiz overview](./learning-content/quiz-overview.md)
@@ -345,7 +346,8 @@ breadcrumb-title: AEM Guides Documentation
       - [About this guide](./lc-config-guide/introduction.md)
       - [Configure Folder profiles](./lc-config-guide/lc-folder-profile.md)
       - [Best practices to set up folder structure](./lc-config-guide/best-practices-folder-structure.md)
-      - [Configure other settings](./lc-config-guide/lc-other-settings.md) 
+      - [Configure other settings](./lc-config-guide/lc-other-settings.md)
+      - [SCORM key metrics](./lc-config-guide/learning-course-parameters.md) 
     - Video tutorials {#lc-video}  
       - [Author workflow](./lc-video-tutorials/author-workflow.md)
       - [Administrator workflow](./lc-video-tutorials/admin-workflow.md)
