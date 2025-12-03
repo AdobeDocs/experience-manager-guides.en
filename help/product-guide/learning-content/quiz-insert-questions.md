@@ -60,10 +60,10 @@ The following question types are supported in a Quiz:
 
     ![](assets/multi-correct.png){width="650" align="left"} 
 
-- **Match the following**: Learners match items from two lists to form correct pairs. This type is ideal for testing understanding of relationships, such as policies and their descriptions or roles and responsibilities. You can add new option sets from the **Content Properties** panel. To increase complexity, you can remove one option from the first list and include an extra match in the Match column. This creates an element of difficulty by requiring learners to think critically about which option does not have a direct pair.Example: Match the policy with its description:
+- **Match the following**: Allows learners to match items from two lists to form correct pairs. You can add new option sets from the **Content properties** panel. To increase complexity, you can remove one option from the first list and include an extra match in the Match column. This creates an element of difficulty by requiring learners to think critically about which option does not have a direct pair.
 
     ![](assets/match-the-following.png){width="650" align="left"} 
 
-    In the published output, the Match the Following question appears with dropdown menus for each item, allowing you to select the correct match from the available options.
+    In the published output, the **Match the following** question appears with dropdown menu for each item, allowing you to select the correct match from the available options.
 
     ![](assets/question-type-publishing.png){width="650" align="left"}

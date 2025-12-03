@@ -43,7 +43,7 @@ You can use the basic editing features available on the Editor toolbar, as descr
 
     ![](assets/video-learning-content.png){width="650" align="left"}
 
-- **Reusable content**: Enables you to incorporate existing content from your assets or repository for reusability. To insert a Reusable content perform the following:
+- **Reusable content**: Enables you to incorporate existing content from your assets or repository for reusability. Perform the following steps to insert a Reusable content:
 
     1. Select **Reusable content** from the toolbar.
         The **Reuse Content** dialog opens.
