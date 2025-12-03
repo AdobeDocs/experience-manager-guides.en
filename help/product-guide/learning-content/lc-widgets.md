@@ -30,7 +30,7 @@ The available widgets designed to enhance user experience and streamline content
 
     ![](assets/insert-tab-lc.png)
     
-    To add, delete, and switch Tab layout, use the **Content properties** section in the Right panel. 
+    To add, delete, and switch tab layout (vertical tabs or horizontal tabs), use the **Content properties** section in the Right panel. 
 - **Flip card:** Adds an interactive card to your content that flips to reveal additional information. Each card has two sides - front and back, allowing learners to explore information in an engaging way.  To insert a Flip card, place your cursor at the desired location and navigate to **Insert > Widget > Flip card**, which adds a Flip card container to your content. You can then add a title and optional image to the front side and enter the corresponding content on the back. 
 
     ![](assets/insert-flip-card-lc.png)
