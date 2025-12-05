@@ -55,10 +55,10 @@ Follow the below mentioned steps to process the assets:
 
     1. **Feature Type**: Select **Asset processing** from the drop drown.
     1. **Select folders and files**: Navigate and choose one or multiple folders and files to process. 
-    1. **Select folders to ignore**: Optionally, select subfolders within the chosen parent folder to exclude from processing.
-    1. **Asset Type**: From the dropdown, select the specific asset type to process (e.g., DITA Topic, DITA Map, Markdown, HTML/CSS, DITAVAL, or other media files). Only the selected asset type will be processed from the folder(s) you specified earlier.
-    Example: Selecting DITA Topic will process only DITA topics within the selected folder, enabling targeted filtering.
-    1. **Created after/Created before**: Apply date filters to process assets created   within the specified timeframe.
+    1. **Select folders to ignore**: Optionally, select sub-folders within the chosen parent folder to exclude from processing.
+    1. **Asset Type**: From the dropdown, select the specific asset type to process (e.g., DITA Topic, DITA Map, Markdown, HTML/CSS, DITAVAL, or other files). Only the selected asset type gets processed from the folder(s) you specified earlier.
+    Example: Selecting DITA Topic processes only DITA topics within the selected folder, enabling targeted filtering.
+    1. **Created after/Created before**: Apply date filters to process assets created within the specified timeframe.
 
     >[!NOTE]
     >
