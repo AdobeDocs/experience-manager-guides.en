@@ -300,6 +300,7 @@ Steps to create a new folder:
 - **Add to collections**: Adds the selected folder to favorites. You can choose to add it to an existing or new collection.
 
 - **Refresh**: Get a fresh list of files and folders from the repository.
+- **Reprocess assets**: Triggers the processing of all the newly created and unprocessed assets for the folder. 
 - **View in Assets UI**: Show the folder contents in the Assets UI.
 
 **Options for a file**
@@ -318,6 +319,7 @@ Get access to different options in the Options menu depending on whether you sel
 - Download as PDF
 - Add to 
 - Copy
+- Reprocess assets
 - View in Assets UI
 - Properties
 
@@ -422,6 +424,7 @@ The various options in the Options menu are explained below:
 
 - **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view.
 
+- **Reprocess assets**: Triggers the processing of all the newly created and unprocessed assets for the file.
 -  **Download as PDF**: Use the option to generate the PDF output and download it.  
 
 - **Generate**: Use the option to publish a map or topics within a map to a Sites page, Content Fragment, or Experience Fragment.

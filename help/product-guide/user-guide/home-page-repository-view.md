@@ -95,6 +95,7 @@ The Repository serves as the central space providing a tabular list of all the f
     - **Add to**: Choose to add to Collections or Reusable content.
     - **Copy**: Copies the UUID or complete path of the file.    
     - **Properties**: Use this to open the Properties page of the selected file.
+    - **Reprocess assets**: Triggers the processing of all the newly created and unprocessed assets for the file.
     - **Download as PDF**: Use the option to generate the PDF output and download it.  
       
 ### Search and filter experience

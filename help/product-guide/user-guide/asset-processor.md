@@ -47,20 +47,29 @@ Follow the below mentioned steps to process the assets:
 
 1. Select **New Process** tab on the top right corner of the window to start a new processing task.
 
+    The **New process** dialog opens. 
+
     ![New-process-asset-processor](images/new-asset-processor.png){width="350" align="left"}
 
-1. Select the folder you want to process. You can also select the folders (within the parent selected folder) which you want to exclude or ignore.
+1. Provide the following details in the dialog:
+
+    1. **Feature Type**: Select **Asset processing** from the drop drown.
+    1. **Select folders and files**: Navigate and choose one or multiple folders and files to process. 
+    1. **Select folders to ignore**: Optionally, select subfolders within the chosen parent folder to exclude from processing.
+    1. **Asset Type**: From the dropdown, select the specific asset type to process (e.g., DITA Topic, DITA Map, Markdown, HTML/CSS, DITAVAL, or other media files). Only the selected asset type will be processed from the folder(s) you specified earlier.
+    Example: Selecting DITA Topic will process only DITA topics within the selected folder, enabling targeted filtering.
+    1. **Created after/Created before**: Apply date filters to process assets created   within the specified timeframe.
 
     >[!NOTE]
     >
-    >Only one folder can be selected at a given time for processing. For specific operations, you can exclude multiple folders.    
+    > If a process is already running for a folder, you cannot start a new process for the same folder until the current task is complete.    
 
-1. Select **Create**. You get a pop-up showing **Success and the Process triggered successfully** as shown in the snippet. The same is reflected in the list. You can see the status of the processing task on the window.
+1. Select **Create**. You get a pop-up showing **Success and the Process triggered successfully**. You can see the status of the processing task on the window.
 
     ![Message-asset-processor](images/message-asset-processor.png){width="350" align="left"}
 
 
-## Additional options for the processing tasks   
+## Additional options for asset processing tasks   
 
 Additional options are available for the processing task once it has been initiated. You can access these options by hovering over the Execution ID of your task. Details of these options are provided below:
 

@@ -29,7 +29,12 @@ A POST method that initiates bulk asset processing for a specified path. This AP
   "excludedPaths": [
     "content/dam/status-fetch1/excluded-folder"
   ],
-  "type": "ASSET_PROCESSING"
+  "type": "ASSET_PROCESSING",
+  "filter": {
+        "fileTypes": ["DITAMAP", "DITATOPIC"],
+        "startTime": 1758876933000
+        "endTime": 1758876935000
+    }
 }
 
 ```
