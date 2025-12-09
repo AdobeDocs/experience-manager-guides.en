@@ -12,9 +12,9 @@ level: Experienced
 >
 > Follow the upgrade instructions specific to the licensed version of your product.
 
-You can upgrade your current version of Experience Manager Guides to version 5.1.0 Service Pack 1:
+You can upgrade your current version of Experience Manager Guides to version 5.1.0 Service Pack 3:
 
-- If you are using version 5.1.0, then you can directly upgrade to version 5.1.0 Service Pack 1. 
+- If you are using version 5.1.0 Service pack 1, or 5.1.0 , then you can directly upgrade to version 5.1.0 Service Pack 3. 
 - If you are using version 4.6.0, 4.6.x, 5.0.0, or 5.0.x, then you need to upgrade to version 5.1.0.
 - If you are using version 4.6.3, 4.6.1, 4.6, or 4.4, then you need to upgrade to version 5.0.0. 
 - If you are using version 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 5.0.0.
@@ -1309,7 +1309,7 @@ Index definition is updated for damAssetLucene with Guides. Refer to [this artic
 
 >[!NOTE]
 >
->If you are upgrading to 5.1.0 Service Pack 1, then you need to be on the version 5.1.0 of Experience Manager Guides. 
+>If you are upgrading to 5.1.0 Service Pack 3, then you need to be on the version 5.1.0 Service pack 1, or  5.1.0 of Experience Manager Guides. 
 
 Before you start the Experience Manager Guides 5.1.0 upgrade process, ensure that you have:
 
