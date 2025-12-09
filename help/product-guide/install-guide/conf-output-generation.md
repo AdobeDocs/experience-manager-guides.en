@@ -669,10 +669,21 @@ If you want to specify different image renditions for an output preset, you can 
 
 For example:
 
-<rendition output="HTML5">cq5dam.web.1280.1280.jpeg</rendition>
-<rendition output="HTML5" outputName="ditahtml5">cq5dam.thumbnail.319.319.png</rendition>
 
-In the above renditions, with the `outputName` attribute defined in the rendition, the ditahtml5 preset uses `cq5dam.thumbnail.319.319.png`, and without `outputName`, all HTML5 outputs use cq5dam.web.1280.1280.jpeg.
+```XML
+<renditionmap>
+   <mapelement>
+      <mimetype>image/png</mimetype>
+      
+      <rendition output="HTML5">cq5dam.web.1280.1280.jpeg</rendition>
+      <rendition output="HTML5" outputName="ditahtml5">cq5dam.thumbnail.319.319.png</rendition>
+      
+   </mapelement>
+...
+</renditionmap>
+```
+
+In the above renditions, with the `outputName` attribute defined in the rendition, the ditahtml5 preset uses `cq5dam.thumbnail.319.319.png`, and without `outputName`, all HTML5 outputs use `cq5dam.web.1280.1280.jpeg`.
 
 If the specified rendition is not present, then AEM Guides publishing process first looks for the web rendition of the given image. If even the web rendition is not found, then the original rendition of the image is used.
 
