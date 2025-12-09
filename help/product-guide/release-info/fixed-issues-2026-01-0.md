@@ -22,10 +22,20 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 ## Asset management
 
 - When trying to delete a label from a version for a topic or map in the Version History panel of the Assets UI, the label remains and is not removed. (GUIDES-38276)
+- When saving a topic or map as a new version, you can't add multiple labels either directly or selected from the dropdown, and instead retains only a single combined label. (GUIDES-32716)
+- When uploading an image with a filename containing invalid characters, the asset fails to upload and displays a misleading message **file are locked by other user** despite the asset being unlocked. (GUIDES-32680)
+- (GUIDES-35418)
 
 ## Publishing
 
 - When generating AEM Sites output, map titles containing keywords and topic titles with <ph> element are not included in the output. (GUIDES-36641)   
+- When publishing using a custom preset with content that contains links to PDFs without the scope set as external, the process fails to complete. (GUIDES-21708)
+- When performing bulk activation, the package creation adds filters for all paths listed under the fileReference property of a page, including external and peer paths. (GUIDES-24887)
+- In native PDF output, the `abbreviated-form` element displays the `glossterm` instead of the designated `glossSurfaceForm` or `glossAcronym` when linked to a glossary key or content key. (GUIDES-26393)
+- For Native PDF output, the `<alt>` element for images is ignored, preventing alternate text from being applied for accessibility. (GUIDES-29087)
+- GUIDES-29815
+- GUIDES-31752
+
 
 ## Platform
 
@@ -35,11 +45,13 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 
 - GUIDES-35605
 
+## Reports
+
+- The Broken List report is capturing valid `keyrefs` and `conkeyrefs` that are properly resolved within the scope of the current map. (GUIDES-27774)
+
 ## Known issues
 
 Adobe has identified the following known issues for the 2026.01.0 release:
-
-- Creating a duplicate topic using `copy-to` attribute and referencing it with `scope=peer` attribute causes redirection issues in AEM Sites output, where links are redirected from AEM Sites (with composite component mapping) to AEM Sites (with legacy component mapping), and vice-versa. (GUIDES-37656)
 
 
 
