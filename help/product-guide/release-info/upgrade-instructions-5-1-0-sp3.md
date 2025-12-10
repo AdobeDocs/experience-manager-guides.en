@@ -27,7 +27,7 @@ For more details, view the [Technical requirements](../install-guide/download-in
 | --- | --- | --- |
 |5.1.0 Service Pack 3 (UUID) | Supported | 2022 or higher  |
 
-### Oxygen Connector || Oxygen Editor version: 26.1
+### Oxygen Connector
 
 | Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |
 | --- | --- | --- |--- |--- |
@@ -51,7 +51,7 @@ For more details, view the [Technical requirements](../install-guide/download-in
 
 You can easily upgrade your current version of Guides to version 5.1.0 Service Pack 3. Before you proceed with upgrading to version 5.1.0 Service Pack 3 of Experience Manager Guides, you must consider the following points:
 
-- If you are using version 5.1.0 Service pack 1, or 5.1.0 , then you can directly upgrade to version 5.1.0 Service Pack 3. 
+- If you are using version 5.1.0, or 5.1.x , then you can directly upgrade to version 5.1.0 Service Pack 3. 
 - If you are using version 4.6.0, 4.6.x, 5.0.0, or 5.0.x, then you need to upgrade to version 5.1.0.
 - If you are using version 4.6.3, 4.6.1, 4.6, or 4.4, then you need to upgrade to version 5.0.0. 
 - If you are using version 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 5.0.0.
