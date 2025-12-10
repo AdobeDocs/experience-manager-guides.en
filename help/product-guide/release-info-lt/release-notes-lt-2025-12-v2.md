@@ -36,7 +36,7 @@ This release note covers the new and enhanced features introduced in December 20
     For details, view [Create review task](../learning-content/manage-course.md#create-review-task).
 
 
-- **Match the following**: A new question type, **Match the following**, is available for quizzes. Learners can match items from two lists to form correct pairs, giving them an enhanced learning experience. 
+- **Match the following**: A new question type, **Match the following**, is available for quizzes. Learners can match items from two lists to connect related ideas, encouraging critical thinking.
 
     For details, view [Quiz question types](../learning-content/quiz-insert-questions.md#question-types).
 
