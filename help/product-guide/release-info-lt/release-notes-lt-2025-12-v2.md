@@ -5,9 +5,9 @@ role: Leader
 hidefromtoc: yes
 
 ---
-# December 2025 release of Product Learning and Training Content  
+# December 2025 release of Product Training and Learning content  
 
-This release note covers the new and enhanced features introduced in December 2025 release of Product Learning and Training Content.
+This release note covers the new and enhanced features introduced in December 2025 release of Product Training and Learning content.
 
 - **New options in the Insert menu**: Introducing new options in the Insert menu of the Editor toolbar to enrich your learning content: 
 
