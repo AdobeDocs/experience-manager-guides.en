@@ -1,6 +1,6 @@
 ---
-title: Download and install AEM Sites templates
-description: Learn how to Download and install AEM Sites templates
+title: Component mapping for New AEM Sites
+description: Learn how to do Component mapping for New AEM Sites
 feature: Installation
 role: Admin
 level: Experienced
@@ -10,7 +10,7 @@ level: Experienced
 
 The article talks about the various aspects of component mapping for AEM sites 
 
-## Component mapping rules (authoring guide)
+## Component mapping rules
 
 Use a JSON array of rules (your `componentmapping.json`) to convert HTML into components. Keep the rules as simple, explicit, and specific as possible.
 
@@ -38,8 +38,8 @@ Use a JSON array of rules (your `componentmapping.json`) to convert HTML into co
     
 >[!NOTE]
 >
->* - `name` can be a comma-separated list (e.g., `"h1, h2"`).
->* - `class` must be present on the element (all listed classes must match).
+>* `name` can be a comma-separated list (e.g., `"h1, h2"`).
+>* `class` must be present on the element (all listed classes must match).
 
 ### Use attributeMap to save properties on the JCR node
 
@@ -152,16 +152,16 @@ Examples:
 
 Define the element and class to target, use `attributeMap` to set the node properties, add a `path-attributes` entry to normalize paths, and pick the right `from` for the values you want to extract.
 
-### Default element - Rich text element component
-
-We need to talk about default rich text and it is used for which all elements.
+>[!NOTE]
+>
+>It is important to discuss the default rich text and identify the elements for which it is utilized.
 
 ## Build a custom table component that uses the core image component
 
 ### What you'll build
 
-A custom Table component that accepts HTML table content and replaces every `<img>` inside it with the output of the AEM Core Image component. This lets you reuse Core Image's features (responsive images, alt handling, accessibility) while keeping full control over your table markup.
-Using this approach you can build other custom components for your new AEM site website.
+A custom table component that accepts HTML table content and replaces every `<img>` inside it with the output of the AEM Core Image component. This lets you reuse Core Image's features (responsive images, alt handling, accessibility) while keeping full control over your table markup.
+Using this approach, you can build other custom components for your new AEM site website.
 
 ### Why this approach
 
@@ -172,7 +172,7 @@ Using this approach you can build other custom components for your new AEM site 
 ### Prerequisites
 
 - AEM SDK running and this project checked out.
-- Core Components installed on your AEM instance.
+- Core components installed on your AEM instance.
 - Maven available to build and deploy.
 
 ### High‑level design
@@ -192,7 +192,7 @@ Your table is output once, already containing Core Image markup. No client‑sid
 - Sling Model: `core/src/main/java/com/adobe/guides/aem/components/core/models/TableModel.java`
 - Image rendering service: `core/src/main/java/com/adobe/guides/aem/components/core/services/ImageComponentRenderer.java`
 
-### Step‑by‑step implementation
+### Implementation steps
 
 **Define the Table component (component node)**
 
@@ -207,7 +207,7 @@ Create the component under `apps/guides-components/components/table`. If you don
           componentGroup="Guides - Custom"/>
 ```
 
-Why: Tells AEM this is a component authors can add to pages.
+Indicates to AEM that this is a component available for authors to add to pages.
 
 **Render with HTL and include styles**
 
@@ -313,7 +313,7 @@ These map 1:1 to the Sling Model's properties and control rendering.
 
 **Allow the component on templates**
 
-In the Template Editor, edit the Layout Container policy > Allowed Components > enable your Table component under "Guides - Custom".
+In the Template Editor, edit the Layout Container policy > Allowed Components > enable your Table component under **Guides - Custom**.
 
 The Authors can't add components until policies allow them.
 
@@ -329,7 +329,7 @@ The Authors can't add components until policies allow them.
 - For synthetic rendering, the model replaces Core Image's generated `.coreimg.` URLs with direct DAM paths and removes `srcset` to avoid broken URLs.
 - All rendering happens once on the server; JavaScript is optional.
 
-## Quick reference (this implementation)
+## Quick reference (implementation)
 
 - HTL: `ui.apps/.../components/table/table.html`
 - Clientlibs: `ui.apps/.../components/table/clientlibs/`
