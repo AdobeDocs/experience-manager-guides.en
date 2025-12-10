@@ -17,6 +17,7 @@ Learn about [upgrade instructions for the 5.1.0 Service Pack 3 release](upgrade-
 - Using `scope="external"` for a reference to DAM content within a topic or map causes the asset's relative path to be substituted with a GUID. (GUIDES-35605)
 - Custom CSS applied at a folder-level profile for topics or maps is reverted to the default style in Preview mode upon browser refresh. (GUIDES-31098)
 - Unable to add multiple **Version labels** to a topic from the **Save as new version** dialog. (GUIDES-32716)
+- Unable to remove Version labels from **Version history** panel in Assets UI. (GUIDES-38276)
 
 ## Baseline
 
