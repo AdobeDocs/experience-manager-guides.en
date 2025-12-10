@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 
 ---
-# Component Mapping
+# Component mapping in AEM Sites 
 
 The article talks about the various aspects of component mapping for AEM sites 
 
