@@ -1,6 +1,6 @@
 ---
-title: Release Notes | What's New in December 2025 release of Product Learning and Training Content  
-description: Learn about the new and enhanced features in the December 2025 release of Product Learning and Training Content  
+title: Release Notes | What's New in December 2025 release of Product Training and Learning content   
+description: Learn about the new and enhanced features in the December 2025 release of Product Training and Learning content   
 role: Leader
 hidefromtoc: yes
 
