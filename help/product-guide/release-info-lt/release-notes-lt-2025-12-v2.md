@@ -21,6 +21,8 @@ This release note covers the new and enhanced features introduced in December 20
 
 - **Reusable content**: You can now reuse existing content across multiple courses. This feature helps maintain consistency and reduces duplication.
 
+    For more details, view [Add basic building blocks](../learning-content/lc-basic-blocks.md).
+
     ![](assets/reusable-content.png){width="350" align="left"}
 
 - **New interactive widgets**: Now, you can engage learners with new interactive widgets that make content more immersive- **Click to reveal**, **Flip card**, and **Tab**.
@@ -31,7 +33,7 @@ This release note covers the new and enhanced features introduced in December 20
 
 - **Create review task**: Now, you can create a review task for your learning course and assign it to Reviewer(s) for their feedback. This ensures content quality, streamlines collaboration, and makes tracking reviews easier. 
 
-    For details, view [](../learning-content/manage-course.md#create-review-task).
+    For details, view [Create review task](../learning-content/manage-course.md#create-review-task).
 
 
 - **Match the following**: A new question type, **Match the following**, is available for quizzes. Now, learners can match items from two lists to form correct pairs, giving them an enhanced learning experience. 
