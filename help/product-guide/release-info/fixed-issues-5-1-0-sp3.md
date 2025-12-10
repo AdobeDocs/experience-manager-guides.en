@@ -14,7 +14,7 @@ Learn about [upgrade instructions for the 5.1.0 Service Pack 3 release](upgrade-
 
 ## Authoring
 
-- When an `xref` with the `scope=external` attribute is added to a topic or a map contains an `topicref` element with `scope=external` atribute, the relative path of the referenced element is changed to GUID. (GUIDES-35605)
+- Using `scope="external"` for a reference to DAM content within a topic or map causes the asset's relative path to be substituted with a GUID. (GUIDES-35605)
 - Custom CSS applied at a folder-level profile for topics or maps is reverted to the default style in Preview mode upon browser refresh. (GUIDES-31098)
 - Unable to add multiple **Version labels** to a topic from the **Save as new version** dialog. (GUIDES-32716)
 
