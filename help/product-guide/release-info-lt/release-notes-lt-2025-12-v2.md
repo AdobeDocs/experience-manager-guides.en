@@ -39,6 +39,8 @@ This release note covers the new and enhanced features introduced in December 20
 
     For details, view [Create review task](../learning-content/manage-course.md#create-review-task).
 
+    ![](assets/create-review-task-lc.png){width="350" align="left"}
+
 ## Content management  
 
 - **Reusable content**: You can reuse existing content across multiple courses. This feature helps maintain consistency and reduces duplication.
