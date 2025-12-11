@@ -307,6 +307,7 @@ breadcrumb-title: AEM Guides Documentation
   - Manage Learning Content {#learning-training-content}
     - Getting started guide {#get-started}
       - Introduction {#intro-lc}
+        - [Release notes](./release-info-lt/release-notes-lt-2025-12-v2.md)
         - [Overview of the Learning and Training content](./learning-content/intro.md)        
       - Set up your course {#setup-course}
         - [Course overview](./learning-content/course-overview.md)
@@ -347,7 +348,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure Folder profiles](./lc-config-guide/lc-folder-profile.md)
       - [Best practices to set up folder structure](./lc-config-guide/best-practices-folder-structure.md)
       - [Configure other settings](./lc-config-guide/lc-other-settings.md)
-      - [SCORM key metrics](./lc-config-guide/learning-course-parameters.md) 
+      - [SCORM key metrics](./lc-config-guide/learning-course-parameters.md)       
     - Video tutorials {#lc-video}  
       - [Author workflow](./lc-video-tutorials/author-workflow.md)
       - [Administrator workflow](./lc-video-tutorials/admin-workflow.md)
