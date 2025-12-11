@@ -43,13 +43,13 @@ The other options available in the Insert menu in the Editor toolbar include:
     > Editing or creating H5P content is not supported within Adobe Experience Manager Guides. Prepare your H5P package externally before uploading.
 
     
-- **Math equation:** Inserts MathML equations to your content. You can create a MathML equation and select **Insert** to add it to your document. 
+- **MathML equation:** Inserts MathML equations to your content. You can create a MathML equation and select **Insert** to add it to your document. 
 
     ![](./assets/insert-mathml.png){width="350" align="left"}
 
     The equation is inserted with light gray background. At any time you can update an equation by right-clicking on an existing equation and selecting **Edit Math equation** from the context menu. For details on validating MathML equations in Experience Manager Guides, view [Validation of equations in the MathML editor](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
-- **Knowledge check:** Allows you to add questions in available formats (Single Correct, Multiple Correct, True/False, Match the Following, or insert from the question bank) to your topic for review and to confirm understanding without grading or reporting. These questions mirror standard formats and exclude scoring, making them ideal for self-assessment and suitable as part of course content or a topic before a quiz or assessment later, as required. 
+- **Knowledge check:** Allows you to add questions in available formats (Single Correct, Multiple Correct, True/False, Match the Following, or insert from the question bank) to your topic for review and to confirm understanding without grading. These questions mirror standard formats and exclude scoring, making them ideal for self-assessment and suitable as part of course content or a topic before a quiz or assessment later, if available. 
 
     ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
