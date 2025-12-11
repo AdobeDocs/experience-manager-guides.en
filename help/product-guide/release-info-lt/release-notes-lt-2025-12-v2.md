@@ -9,7 +9,7 @@ hidefromtoc: yes
 
 This release note covers the new and enhanced features introduced in December 2025 release of Product Training and Learning content. In addition, all the reported issues and bugs have been resolved in this release, ensuring improved stability and performance.
 
-## Authoring Experience
+## Authoring (Learner) experience
 
 - **New options in the Insert menu**: Introducing new options in the Insert menu of the Editor toolbar to enrich your learning content: 
 
@@ -39,7 +39,7 @@ This release note covers the new and enhanced features introduced in December 20
 
     For details, view [Create review task](../learning-content/manage-course.md#create-review-task).
 
-## Content Management  
+## Content management  
 
 - **Reusable content**: You can reuse existing content across multiple courses. This feature helps maintain consistency and reduces duplication.
 
