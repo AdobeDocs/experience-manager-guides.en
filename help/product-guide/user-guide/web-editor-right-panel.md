@@ -70,7 +70,7 @@ The General section gives you access to the following features:
 
 - **File name**: Displays the filename of the selected topic. The filename is hyperlinked to the properties page of the selected file.
 - **ID**: Displays the ID of the selected topic.
-- **Word count**: Displays the total word count of the corresponding DITA topic or map, treating words separated by spaces as two distinct words. For all cross-references, the display text is included in the word count. Keys are excluded from the word count.
+- **Word count**: Displays the total number of words in the corresponding DITA topic or map. Words separated by spaces are counted as individual words. For any cross-references, only the display text is included in the count, while keys are excluded.
 
     >[!NOTE]
     >
