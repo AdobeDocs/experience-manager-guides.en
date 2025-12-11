@@ -74,7 +74,8 @@ The General section gives you access to the following features:
 
     >[!NOTE]
     >
-    > For existing articles, if you are using 2025.11.0 or previous release of Experience Manager Guides as a Cloud Service, the **Word count** field is displayed in the Right panel only after you update and save the content of an existing DITA topic.
+    > The **Word count** feature is available by default in the 2026.01.0 release of Experience Manager Guides as a Cloud Service. If you haven't upgraded to this version, you can still access the feature by updating and saving the content of your existing DITA topic.  
+
 - **Tags**: These are the metadata tags of the topic. They are set from the tags field in the properties page. You can type or select them from the dropdown.  The tags appear under the dropdown. To delete a tag, select the cross icon next to the tag. 
 -  **Edit more properties**: You can edit more properties from the file properties page.  
 - **Language**: Shows the language of the topic. It is set from the language field in the properties page.
