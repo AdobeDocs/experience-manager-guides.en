@@ -19,7 +19,7 @@ This release note covers the new and enhanced features introduced in December 20
 
     For more details, view [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
 
-    ![](assets/knowledge-check-topic.png){width="350" align="left"}
+    ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
 - **New interactive widgets**: You can engage learners with some new interactive widgets that make content more immersive: **Click to reveal**, **Flip card**, and **Tab**.
 
@@ -31,7 +31,7 @@ This release note covers the new and enhanced features introduced in December 20
 
     For details, view [Quiz question types](../learning-content/quiz-insert-questions.md#question-types).
 
-    ![](assets/question-types.png){width="350" align="left"}    
+    ![](assets/question-types.png){width="650" align="left"}    
 
 ## Review
 
@@ -39,7 +39,7 @@ This release note covers the new and enhanced features introduced in December 20
 
     For details, view [Create review task](../learning-content/manage-course.md#create-review-task).
 
-    ![](assets/create-review-task-lc.png){width="350" align="left"}
+    ![](assets/create-review-task-lc.png){width="650" align="left"}
 
 ## Content management  
 
@@ -47,7 +47,7 @@ This release note covers the new and enhanced features introduced in December 20
 
     For more details, view [Add basic building blocks](../learning-content/lc-basic-blocks.md).
 
-    ![](assets/reusable-content.png){width="350" align="left"}
+    ![](assets/reusable-content.png){width="650" align="left"}
 
 
 
