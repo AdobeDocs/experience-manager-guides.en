@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 
 ---
-# Component mapping in AEM Sites 
+# Component mapping in New AEM Sites 
 
 The article talks about the various aspects of component mapping for AEM sites 
 
@@ -117,7 +117,7 @@ Examples:
 { "from": "src",        "to": "image#src" }
 ```
 
-### Minimal end‑to‑end example
+### Minimal end-to-end example in componentmapping.json
 
 ```json
 [
@@ -156,7 +156,9 @@ Define the element and class to target, use `attributeMap` to set the node prope
 >
 >It is important to discuss the default rich text and identify the elements for which it is utilized.
 
-## Build a custom table component that uses the core image component
+## Build a custom component
+
+Learn how to create a custom table component that displays images within its cells. This approach ensures a clean, reusable design for dynamic content. It covers what you'll build, why it's effective, the key prerequisites, high level design, and more. 
 
 ### What you'll build
 

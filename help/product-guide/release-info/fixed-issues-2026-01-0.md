@@ -24,7 +24,7 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 - When trying to delete a label from a version for a topic or map in the Version History panel of the Assets UI, the label remains and is not removed. (GUIDES-38276)
 - When saving a topic or map as a new version, you can't add multiple labels either directly or selected from the dropdown, and instead retains only a single combined label. (GUIDES-32716)
 - When uploading an image with a filename containing invalid characters, the asset fails to upload and displays a misleading message **file are locked by other user** despite the asset being unlocked. (GUIDES-32680)
-- (GUIDES-35418)
+- For an output preset, the search filter functionality is not working in AEM Assets for DITAVAL filtering, as the corresponding files are not being displayed when the DITAVAL filter is selected.(GUIDES-35418)
 
 ## Publishing
 
@@ -33,17 +33,16 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 - When performing bulk activation, the package creation adds filters for all paths listed under the fileReference property of a page, including external and peer paths. (GUIDES-24887)
 - In native PDF output, the `abbreviated-form` element displays the `glossterm` instead of the designated `glossSurfaceForm` or `glossAcronym` when linked to a glossary key or content key. (GUIDES-26393)
 - For Native PDF output, the `<alt>` element for images is ignored, preventing alternate text from being applied for accessibility. (GUIDES-29087)
-- GUIDES-29815
-- GUIDES-31752
-
+- When downloading temporary files for a map with a baseline during publishing for a preset, the `metadata.xml` file incorrectly references the `versionPath` instead of the `dampath`.(GUIDES-29815)
+- GUIDES-31752 - shubham
 
 ## Platform
 
-- Error logs that are generated while uploading an asset via the Assets UI or creating a new file from the Editor interface, incorrectly use the term `predecessor` instead of `successor` in the log message. (GUIDES-35607)
+- When trying to save the content or save a new version of the topic, you encounter error **Failed to save file**. (GUIDES-37837) 
 
 ## UUID migration
 
-- GUIDES-35605
+- Using scope="external" for a reference to DAM content within a topic or map causes the asset's relative path to be substituted with a GUID. (GUIDES-38783)
 
 ## Reports
 
