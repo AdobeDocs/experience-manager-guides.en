@@ -273,7 +273,7 @@ Perform the following steps to add or remove topics from an ongoing review task:
 
     The **Task Details** page is displayed.
 
-1. Select the **Content** tab to view the topics currently included in the review task.  
+1. Select the **CONTENT** tab to view the topics currently included in the review task.  
 1. Review the topic list and modify the selection as needed. 
 
     - Select new topics that were not previously sent for review.
@@ -285,7 +285,7 @@ Perform the following steps to add or remove topics from an ongoing review task:
 
     ![](images/modify-review-topics.png)
     
-1. Once you modify the topic list, the corresponding updates are automatically propagated to the **Reviewers** tab of the Task Details page. 
+1. Once you modify the topic list, the corresponding updates are automatically propagated to the **REVIEWERS** tab of the Task Details page. 
 
     ![](images/modify-reviewers.png)    
 
