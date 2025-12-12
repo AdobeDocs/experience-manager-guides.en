@@ -263,4 +263,41 @@ To send one or multiple topics along with the map file for review, perform the f
 
 An email is sent to all the reviewers, notifying that they have been assigned topics for review. The email contains a direct link that they can use to access the topic in a browser window. The topics along with the DITA map are opened in the review mode.
 
+## Add or remove topics from an ongoing review task 
+
+As an Author or initiator of a review task, you can add new topics to an ongoing review task (if they were not previously sent for review) or remove topics from an ongoing review task without affecting the review workflow.
+
+Perform the following steps to add or remove topics from an ongoing review task:
+
+1. In the Review panel, navigate to the review task you want to modify and select **Open task details** from the context menu.
+
+    The **Task Details** page is displayed.
+
+1. Select the **CONTENT** tab to view the topics currently included in the review task.  
+1. Review the topic list and modify the selection as needed. 
+
+    - Select new topics that were not previously sent for review.
+    - Unselect topics you want to remove from the review task.
+
+    >[!NOTE]
+    >
+    > At least one topic must remain selected to update an ongoing review task. 
+
+    ![](images/modify-review-topics.png)
+    
+1. Once you modify the topic list, the corresponding updates are automatically propagated to the **REVIEWERS** tab of the Task Details page. 
+
+    ![](images/modify-reviewers.png)    
+
+    Review the updated topic list in the Reviewers tab. For any new topics added, you need to assign reviewers unless the **Allow assignees to review any topic** setting is enabled for your review task.  
+1. Select **Update**. 
+
+Once the review task is updated, the reviewers receive notifications (both AEM and Email) based on their review status:
+
+- **In progress**: Reviewers who are still working on the task are notified that the task has been updated.
+- **Completed**: Reviewers who have finished their review receive a notification requesting a re-review.
+
+For more details, view [Understanding review notifications](./review-understanding-review-notifications.md).
+
+
 **Parent topic:**[Introduction to review](review.md)
