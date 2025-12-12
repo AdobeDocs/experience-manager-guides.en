@@ -254,15 +254,31 @@ In addition to be able to view the position of each topic file within a map, it 
 
 You can perform the following additional tasks in the preview mode:
 
+**Open topics for editing**
+
 -   Right-click on a topic, and select **Edit** to open the topic for editing in a new tab.
 
     >[!NOTE]
     >
     > If you don't have editing rights, then the topic will open in read-only mode.
 
+    ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+
 -   Jump to the desired topic by selecting the topic title in the map tree \(in left panel\).
 
 -   The current topic in map preview is also highlighted in the map tree.
+
+**Refresh topics or map**
+
+When you edit topics, the changes are not automatically reflected in the map when you switch back to **Preview** mode. To ensure your map displays the latest updates, use the **Refresh** button.
+
+You can use the Refresh functionality in two ways:
+
+- **Map-level Refresh**: Updates all topics in the map to reflect the latest changes.
+    ![](images/refresh-map.png){width="650" align="left"}
+
+- **Topic-level Refresh**: Updates changes applied to one or more individual topics. 
+    ![](images/refresh-topic.png){width="650" align="left"}
 
 **Other ways to preview a map file**
 
