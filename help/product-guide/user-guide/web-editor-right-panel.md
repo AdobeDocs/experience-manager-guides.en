@@ -70,11 +70,11 @@ The General section gives you access to the following features:
 
 - **File name**: Displays the filename of the selected topic. The filename is hyperlinked to the properties page of the selected file.
 - **ID**: Displays the ID of the selected topic.
-- **Word count**: Displays the total number of words in the corresponding DITA topic. Words separated by spaces are counted as individual words. For any cross-references, only the display text is included in the count, while keys are excluded.
+- **Word count**: Displays the total number of words in the corresponding DITA topic. Words separated by spaces are counted as individual words. The count is refreshed each time you save changes to the topic. For cross-references, only the display text is included in the count, while keys are excluded.
 
     >[!NOTE]
     >
-    > The **Word count** feature is available by default in the 2026.01.0 release of Experience Manager Guides as a Cloud Service. If you haven't upgraded to this version, you can still access the feature by updating and saving the content of your existing DITA topic.  
+    > The **Word count** feature is introduced in the 2026.01.0 release of Experience Manager Guides as a Cloud Service. Any new DITA topics you create after upgrading to this release will automatically have the calculated word count in the Right panel. For existing topics, reprocessing of the assets is required. 
 
 - **Tags**: These are the metadata tags of the topic. They are set from the tags field in the properties page. You can type or select them from the dropdown.  The tags appear under the dropdown. To delete a tag, select the cross icon next to the tag. 
 -  **Edit more properties**: You can edit more properties from the file properties page.  
