@@ -270,14 +270,14 @@ You can perform the following additional tasks in the preview mode:
 
 **Refresh topics or map**
 
-When you edit topics, the changes are not automatically reflected in the map when you switch back to **Preview** mode. To ensure your map displays the latest updates, use the **Refresh** button.
+When you edit topics, the changes are not automatically reflected in the map when you switch back to the map in the **Preview** mode. To ensure your map displays the latest updates, use the **Refresh** button.
 
 You can use the Refresh functionality in two ways:
 
-- **Map-level Refresh**: Updates all topics in the map to reflect the latest changes.
+- **Map-level refresh**: Updates all topics in the map to reflect the latest changes.
     ![](images/refresh-map.png){width="650" align="left"}
 
-- **Topic-level Refresh**: Updates changes applied to one or more individual topics. 
+- **Topic-level refresh**: Updates changes applied to one or more individual topics. 
     ![](images/refresh-topic.png){width="650" align="left"}
 
 **Other ways to preview a map file**
