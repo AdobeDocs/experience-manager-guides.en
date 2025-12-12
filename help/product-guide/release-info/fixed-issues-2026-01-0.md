@@ -34,6 +34,7 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 - In native PDF output, the `abbreviated-form` element displays the `glossterm` instead of the designated `glossSurfaceForm` or `glossAcronym` when linked to a glossary key or content key. (GUIDES-26393)
 - For Native PDF output, the `<alt>` element for images is ignored, preventing alternate text from being applied for accessibility. (GUIDES-29087)
 - When downloading temporary files for a map with a baseline during publishing for a preset, the `metadata.xml` file incorrectly references the `versionPath` instead of the `dampath`.(GUIDES-29815)
+- When creating or editing a topic that includes a citation, if the Author field is empty in the citation dialog, the PDF is not generated. (GUIDES-37934)
 - GUIDES-31752 - shubham
 
 ## Platform
