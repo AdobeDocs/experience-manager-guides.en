@@ -273,7 +273,7 @@ Steps to create a new folder:
 
    </details>
 
-- **Upload Assets**: Upload a file from your local system to the selected folder in Adobe Experience Manager repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
+- **Upload assets**: Upload a file from your local system to the selected folder in Adobe Experience Manager repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
 
     ![](images/upload-assets.png){width="300" align="left"}
 
@@ -282,6 +282,14 @@ Steps to create a new folder:
     If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will view the UUID of the uploaded image in the **Source** property.
 
     ![](images/uuid-in-source-upload-image_cs.png){   align="left"}
+
+    After a successful upload, the following confirmation dialog is displayed:
+
+    ![](images/upload-successful.png)
+
+    >[!NOTE]
+    >
+    > To avoid conflicts during the asset upload process, ensure that their file names do not contain any invalid characters. For details, view [Manage files and folders](./authoring-file-management.md#upload-assets). 
 
 - **Find files in folder**: Shifts the focus to repository search wherein you can enter the search term. The search is performed under the selected folder in the repository. You can also apply a filter to return DITA Files, Image Files, or both.
 
