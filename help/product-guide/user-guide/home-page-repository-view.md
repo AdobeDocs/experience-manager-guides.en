@@ -114,7 +114,7 @@ You have the following options to filter the files and to narrow down your searc
 
 - **File type**: You can look for all **DITA Topics**,  **DITA Maps**, **DITAVAL Files**,  **Image Files**, **Multimedia**, **Documents**, and **JSON**.
 
-- **Document state**: You can filter your searach based on the current document state of the files. Available options are: Draft, Edit, In-Review, Approved, Reviewed, and Done. 
+- **Document state**: You can filter your search based on the current document state of the files. Available options are: Draft, Edit, In-Review, Approved, Reviewed, and Done. 
 
 - **Locked by**: Displays a list of users. The list is paginated and loads asynchronously, showing a limited set of users at a time and fetching more as you scroll or navigate. This improves loading speed and overall performance, especially when working with a large number of users.
 
