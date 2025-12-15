@@ -1044,55 +1044,84 @@ Experience Manager Guides allows you to create and manage variables for Native P
 
 The Find and replace icon is located at the bottom of the left panel. The Find and replace panel allows you to search for and replace text across files in a map or a folder within your repository. You can perform Find and replace operations across all topics in a map, including topics in sub-maps and Markdown files.
 
-![](images/map-find-replace.png){align="left"}
+By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip. 
 
-By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
+The Find and Replace feature can be used in two distinct modes, depending on your search requirements:
+
+
+- **Source mode enabled:** The search scans not only the visible content in Author view but also the underlying XML structure, including elements, tags, and attribute values. This mode ensures a comprehensive search across both content and metadata.
+
+>[!NOTE]
+>
+> By default, Source mode is disabled. However, this setting is part of User preferences. If you change the preference to Author, the updated state will be reflected after a refresh.
+
+![](images/map-find-replace-with-source-mode.png){align="left"}
+
+
+- **Source mode disabled:** The search is restricted to the text displayed in the Author view, focusing solely on the visible content without examining XML elements or attributes. This mode is ideal for quick, content-only searches.
+
+    ![](images/map-find-replace-without-source-mode.png){align="left"}
 
 >[!NOTE]
 >
 > As an administrator, you can also choose to view the list of filenames in the Editor. Select the **File name** option of the **Editor files display configuration** section in **User preferences**.
 
 <details>
-    <summary> Perform the global search and replace </summary>
+    <summary> Perform the global search and replace with the Source mode disabled </summary>
 
 
 To perform the global search and replace, perform the following steps:
 
 1. Open the global **Find and replace** panel.
-1. Select the **Look into** dropdown and select one of the following options to perform the search.
+1. Select the **Path** dropdown and select one of the following options to perform the search.
 
-    - **Current Map**: To search in the currently opened map
+    - **Path**: To search on the selected path
+    - **Map**: To search in the currently opened map
 
         >[!NOTE]
         >
         > This option appears if you have already opened a map for editing.
 
-    - **Path**: To search on the selected path
     - **Select Map**: To search in the selected map
 
-1. You can use the **Options** dropdown and choose from the following options:
+1. Enter the search term or text in the **Find** field. To narrow down results, select the **Filter** icon next to the Find field and select the following desired filters: 
 
-    - **Lock file before replace**: Select this option if you want to lock a file automatically before replacing the search term. This setting is more relevant in case your administrator has enabled the configuration to lock a file before editing. With the backend setting enabled, you should select this option. It will prevent the file lock dialog from prompting you to lock every file before making any change. If you do not select this option, then a prompt will appear before a file is opened for editing.
+      
     - **Whole words only**: Select this option if you want to search for the whole search string. For example, if you enter over in the search string, then the search result will return all files containing words like over and overview. If you want to restrict your search to return the exact term that is entered, then select this option.
-    - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file.
-
-        If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
 
     - **Include indirect references**: Select this option if you want to search the string in the indirect references also within the DITA map. By default, this is disabled so the search is performed only on the direct references.
 
-1. Enter the search term or text that you want to find.
-1. Enter the text with which you want to replace the search term.
-1. Press Enter or select **Search** icon \( ![](images/search-icon.svg)\) to perform the search.
+    ![](images/find-filters.png){align="left"}        
+
+1. Enter the term you want to use as the replacement in the **Replace with** field. To customize how replacements are applied, click the **Settings** icon next to the field and choose from the available options.
+
+    - **Lock file before replace**: Select this option if you want to lock a file automatically before replacing the search term. This setting is more relevant in case your administrator has enabled the configuration to lock a file before editing. With the backend setting enabled, you should select this option. It will prevent the file lock dialog from prompting you to lock every file before making any change. If you do not select this option, then a prompt will appear before a file is opened for editing.
+
+    - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file. If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
+
+    ![](images/replace-settings.png){align="left"}
+    
+
+
+1. Press Enter or select **Search** icon to perform the search.
+
+![](images/search-icon.png){align="left"}
+
 1. Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
 
-1. Select **Replace single occurrence** \( ![](images/replace-icon.svg)\) to replace the currently highlighted search term in the topic or select Next match ![](images/next-match-in-search.png) or ![](images/previous-match-in-search.png) Previous match to move to the next or previous occurrence of the text.
-1. Select **Replace all** \( ![](images/replace-all-in-file-icon.svg)\)to replace all occurrences of the searched term in a single file with the replace term in a single click. You will be shown a notification after replacing all the occurrences in the selected file.
+1. Select **Replace occurrence** button to replace the currently highlighted search term in the topic or select the Top and bottom arrows to move to the next or previous occurrence of the text
+
+    ![](images/replace-occurrence.png){align="left"}
+
+1. Select **Replace all** to replace all occurrences of the searched term in a single file with the replace term in a single go. You will be shown a notification after replacing all the occurrences in the selected file.
+
+    ![](images/replace-all.png){align="left"}
 
 To enable the **Replace all** icon, your system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
 
 >[!NOTE]
 >
-> Hover over a file from the search result list to view Replace all in File icon on the right of it. You also get the Ignore File icon to remove the file from the search result. The files which you ignore are removed from the list and the searched term is not replaced in them.
+> Hover over a file from the search result list to view **Replace all in File** icon on the right of it. You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
 
 Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between or view the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
 
@@ -1104,6 +1133,80 @@ You can also use the **Find in map** option from the **Options** menu of a map t
 
 </details>
 
+
+<details>
+    <summary> Perform the global search and replace with the Source mode enabled </summary>
+
+To perform the global search and replace with the Source mode enabled, perform the following steps:
+
+1. Open the global **Find and replace** panel.
+1. Enable the **Use the source mode** option.
+1. Select the **Path** dropdown and select one of the following options to perform the search.
+
+    - **Path**: To search on the selected path
+    - **Map**: To search in the currently opened map
+
+        >[!NOTE]
+        >
+        > This option appears if you have already opened a map for editing.
+
+    - **Select Map**: To search in the selected map
+
+1. Enter the search term or text in the **Find** field. To narrow down results, select the **Filter** icon next to the Find field and select the following desired filters: 
+
+    - **File type**: Choose the File type; **Topics**, and **Maps** where you want to search the text
+    - **Document state**: 
+    - **Last modified**: Filter content based on modification date. Select a date range from the calendar or choose one of the following time frame options:
+
+        - In last 2 hours 
+        - In last week
+        - In last month
+        - In last year
+    - **Others**: You can configure the following:
+        - **Tags**:  Filter content based on tags.
+        - **Case sensitive search**: Enables search ensuring results match the exact letter casing specified.
+        - **List files locked by others**: Displays files currently locked by other users, preventing edits until the lock is released.
+
+1. Enter the term you want to use as the replacement in the **Replace with** field. To customize how replacements are applied, click the **Settings** icon next to the field and choose from the available options.
+
+    - **Lock file before replace**: Select this option if you want to lock a file automatically before replacing the search term. This setting is more relevant in case your administrator has enabled the configuration to lock a file before editing. With the backend setting enabled, you should select this option. It will prevent the file lock dialog from prompting you to lock every file before making any change. If you do not select this option, then a prompt will appear before a file is opened for editing.
+
+    - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file. If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
+
+    ![](images/replace-settings.png){align="left"}
+    
+
+
+1. Press Enter or select **Search** icon to perform the search.
+
+![](images/search-icon.png){align="left"}
+
+1. Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
+
+1. Select **Replace occurrence** button to replace the currently highlighted search term in the topic or select the Top and bottom arrows to move to the next or previous occurrence of the text
+
+    ![](images/replace-occurrence.png){align="left"}
+
+1. Select **Replace all** to replace all occurrences of the searched term in a single file with the replace term in a single go. You will be shown a notification after replacing all the occurrences in the selected file.
+
+    ![](images/replace-all.png){align="left"}
+
+To enable the **Replace all** icon, your system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
+
+>[!NOTE]
+>
+> Hover over a file from the search result list to view **Replace all in File** icon on the right of it. You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
+
+Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between or view the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
+
+![](images/replace-all-in-progress.png){width="300" align="left"}
+
+You can also use the **Find in map** option from the **Options** menu of a map to find and replace text in a map. This option appears for a map opened in the repository panel or in the map view.
+
+![](images/map-options-menu.png){width="550" align="left"}
+
+
+</details>
 ## PDF templates
 
 Enables you to work with various PDF templates. For details, view [PDF templates](../native-pdf/pdf-template.md). 

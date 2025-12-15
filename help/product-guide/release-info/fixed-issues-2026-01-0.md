@@ -35,7 +35,7 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 - For Native PDF output, the `<alt>` element for images is ignored, preventing alternate text from being applied for accessibility. (GUIDES-29087)
 - When downloading temporary files for a map with a baseline during publishing for a preset, the `metadata.xml` file incorrectly references the `versionPath` instead of the `dampath`.(GUIDES-29815)
 - When creating or editing a topic that includes a citation, if the Author field is empty in the citation dialog, the PDF is not generated. (GUIDES-37934)
-- GUIDES-31752 - shubham
+- The PDF template is being added with a CSS file (`rhdefault.css`), even though it does not include any CSS file, resulting in error logs due to the missing CSS file. (GUIDES-31752)
 
 ## Platform
 
