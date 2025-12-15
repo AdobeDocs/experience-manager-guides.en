@@ -114,7 +114,14 @@ You have the following options to filter the files and to narrow down your searc
 
 - **File type**: You can look for all **DITA Topics**,  **DITA Maps**, **DITAVAL Files**,  **Image Files**, **Multimedia**, **Documents**, and **JSON**.
 
-- **Document state**: You can filter your search based on the current document state of the files. Available options are: Draft, Edit, In-Review, Approved, Reviewed, and Done. 
+- **Document state**: You can filter your search based on the current document state of the files. The available filter values are defined in the `repositoryFilters` field of the `ui_config.json file` and are associated with the folder profile you are currently using.    
+
+    This means:
+
+    - If you are using the Global Profile, the filters values configured in the Global profile are applied. 
+    - If you select a specific Folder profile, the filters values defined in that profile are fetched.
+
+    The default filter values available for document state are: Draft, Edit, In-Review, Approved, Reviewed, and Done. For details on customizing filter values for document states, view [Configure document state filters](../cs-install-guide/config-doc-state-filters.md).     
 
 - **Locked by**: Displays a list of users. The list is paginated and loads asynchronously, showing a limited set of users at a time and fetching more as you scroll or navigate. This improves loading speed and overall performance, especially when working with a large number of users.
 
