@@ -1064,7 +1064,7 @@ The Find and Replace feature can be used in two distinct modes, depending on you
 
     >[!NOTE]
     >
-    > The Source mode feature is not available by default for Experience Manager Guides as a Cloud Service. If you prefer to continue use this feature, contact your Customer Success team to have the new features disabled.
+    > The Source mode feature is not available by default for Experience Manager Guides as a Cloud Service 2026.01.0 release. If you prefer to continue use this feature, contact your Customer Success team to have the new features enabled.
 
     ![](images/map-find-replace-with-source-mode.png){align="left"}
 
