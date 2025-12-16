@@ -19,10 +19,6 @@ Learn about [upgrade instructions for the 5.1.0 Service Pack 3 release](upgrade-
 - Unable to add multiple **Version labels** to a topic from the **Save as new version** dialog. (GUIDES-32716)
 - Unable to remove Version labels from **Version history** panel in Assets UI. (GUIDES-38276)
 
-## Baseline
-
-- Error occurs while loading **Version labels** for a Baseline when the associated DITA map contains missing `topicref` elements. (GUIDES-37743)
-
 ## Review
 
 - When a Reviewer completes a review task or initiator updates review task without entering comments, the notification email sent displays the most recent previous comment. (GUIDES-33590)
@@ -31,7 +27,7 @@ Learn about [upgrade instructions for the 5.1.0 Service Pack 3 release](upgrade-
 
 - When you generate AEM Sites output using legacy component mapping, topics that use the `copy-to` attribute get published with the `copy-from` topic's name instead of the name set in the `copy-to` attribute. (GUIDES-22155)
 - When Native PDF output is generated using a dynamic baseline, the term **PDFProject** is displayed as the PDF title instead of the actual map title. (GUIDES-31102)
-- Unable to set custom rendition for a specific output preset. (GUIDES-38477)
+
 
 
 
