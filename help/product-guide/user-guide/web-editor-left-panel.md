@@ -1074,7 +1074,7 @@ The Find and Replace feature can be used in two distinct modes, depending on you
     ![](images/map-find-replace-without-source-mode.png){align="left"}
 
 <details>
-    <summary> Perform the global search and replace with the Source mode disabled </summary>
+    <summary> Perform global search and replace with the Source mode disabled </summary>
 
 
 To perform the global search and replace, perform the following steps:
