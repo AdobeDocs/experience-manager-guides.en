@@ -1052,27 +1052,26 @@ Experience Manager Guides allows you to create and manage variables for Native P
 
 The Find and replace icon is located at the bottom of the left panel. The Find and replace panel allows you to search for and replace text across files in a map or a folder within your repository. You can perform Find and replace operations across all topics in a map, including topics in sub-maps and Markdown files.
 
-By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip. 
-
-The Find and Replace feature can be used in two distinct modes, depending on your search requirements:
-
-
-- **Source mode enabled:** The search scans not only the visible content in Author view but also the underlying XML structure, including elements, tags, and attribute values. This mode ensures a comprehensive search across both content and metadata.
+By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.
 
 >[!NOTE]
 >
-> By default, Source mode is disabled. However, this setting is part of User preferences. If you change the preference to Author, the updated state will be reflected after a refresh.
+> As an administrator, you can also choose to view the list of filenames in the Editor. Select the **File name** option of the **Editor files display configuration** section in **User preferences**.
 
-![](images/map-find-replace-with-source-mode.png){align="left"}
+The Find and Replace feature can be used in two distinct modes, depending on your search requirements:
+
+- **Source mode enabled:** The search scans not only the visible content in Author view but also the underlying XML structure, including elements, tags, and attribute values. This mode ensures a comprehensive search across both content and metadata. 
+
+    >[!NOTE]
+    >
+    > The Source mode feature is not available by default for Experience Manager Guides as a Cloud Service. If you prefer to continue use this feature, contact your Customer Success team to have the new features disabled.
+
+    ![](images/map-find-replace-with-source-mode.png){align="left"}
 
 
 - **Source mode disabled:** The search is restricted to the text displayed in the Author view, focusing solely on the visible content without examining XML elements or attributes. This mode is ideal for quick, content-only searches.
 
     ![](images/map-find-replace-without-source-mode.png){align="left"}
-
->[!NOTE]
->
-> As an administrator, you can also choose to view the list of filenames in the Editor. Select the **File name** option of the **Editor files display configuration** section in **User preferences**.
 
 <details>
     <summary> Perform the global search and replace with the Source mode disabled </summary>
@@ -1090,8 +1089,7 @@ To perform the global search and replace, perform the following steps:
         >
         > This option appears if you have already opened a map for editing.
 
-    - **Select Map**: To search in the selected map
-
+    **Select Map**: To search in the selected map from the **Select path** icon adjacent to the Path field.
 1. Enter the search term or text in the **Find** field. To narrow down results, select the **Filter** icon next to the Find field and select the following desired filters: 
 
       
@@ -1117,7 +1115,7 @@ To perform the global search and replace, perform the following steps:
 
 1. Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
 
-1. Select **Replace occurrence** button to replace the currently highlighted search term in the topic or select the Top and bottom arrows to move to the next or previous occurrence of the text
+1. Select **Replace occurrence** button to replace the currently highlighted search term in the topic or select the top and bottom arrows to move to the next or previous occurrence of the text
 
     ![](images/replace-occurrence.png){align="left"}
 
@@ -1125,7 +1123,7 @@ To perform the global search and replace, perform the following steps:
 
     ![](images/replace-all.png){align="left"}
 
-To enable the **Replace all** icon, your system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
+To enable the **Replace all** icon, your system Administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
 
 >[!NOTE]
 >
@@ -1143,7 +1141,7 @@ You can also use the **Find in map** option from the **Options** menu of a map t
 
 
 <details>
-    <summary> Perform the global search and replace with the Source mode enabled </summary>
+    <summary> Perform global search and replace with the Source mode enabled </summary>
 
 To perform the global search and replace with the Source mode enabled, perform the following steps:
 
@@ -1158,7 +1156,7 @@ To perform the global search and replace with the Source mode enabled, perform t
         >
         > This option appears if you have already opened a map for editing.
 
-    - **Select Map**: To search in the selected map
+    - **Select Map**: To search in the selected map from the **Select path** icon adjacent to the Path field. 
 
 1. Enter the search term or text in the **Find** field. To narrow down results, select the **Filter** icon next to the Find field and select the following desired filters: 
 
@@ -1183,7 +1181,7 @@ To perform the global search and replace with the Source mode enabled, perform t
 
     - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file. If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
 
-    ![](images/replace-settings.png){align="left"}    
+    ![](images/replace-settings-source-mode.png){align="left"}    
 
 
 1. Press Enter or select **Search** icon to perform the search.
@@ -1212,7 +1210,7 @@ To enable the **Replace all** icon, your system administrator must select the op
 
 Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between or view the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
 
-![](images/replace-all-in-progress.png){width="300" align="left"}
+![](images/replace-all-in-progress-source-mode.png){width="300" align="left"}
 
 You can also use the **Find in map** option from the **Options** menu of a map to find and replace text in a map. This option appears for a map opened in the repository panel or in the map view.
 
