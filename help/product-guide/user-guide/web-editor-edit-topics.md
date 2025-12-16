@@ -68,7 +68,15 @@ Experience Manager Guides provides the working copy indicator which shows whethe
 
 Experience Manager Guides also indicates if the last saved \(working\) copy of the file is in sync with the saved version or not. If you have some unsaved changes between the working copy and the last saved version, a \* mark appears along with the version information shown in the right top corner of the topic's file tab. This indicator acts as a reminder to save and create a version from your current \(working\) copy of the file.
 
+>[!NOTE]
+>
+> Any changes to metadata properties available under **File properties**, including adding, deleting, or modifying metadata fields (both default and custom metadata fields) will also mark the document version as dirty. For details on available metadata properties, view [File properties](./web-editor-right-panel.md#file-properties).
+
 ![Version update indicator](images/version-update-indicator.png){width="550" align="left"}
+
+**Modification to the metadata property**
+
+A dirty market 
 
 
 ## Access locked files in Author and Source modes
