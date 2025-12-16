@@ -230,16 +230,16 @@ You can view the report for broken links by performing the following steps:
 
 1. You can filter your broken links based on the **File Type** and **Link Type**. The list of broken links is displayed based on your selection in the drop-down. For example, you can choose to display only the content references in your DITA map, and a file shows only the broken content references used in it.
 
-    DITA Topic, DITA Map, File reference, Key reference, Content Reference, Content Key Reference, Image Reference, Multimedia File Reference, and Multimedia Key Reference are available values for **Link Type** drop-down, and DITA Topic, DITA Map, Document,Image, Video, Audio, and Others are available values for **File Type** dropdown.
+    DITA Topic, DITA Map, File reference, Key reference, Content Reference, Content Key Reference, Image Reference, Multimedia File Reference, and Multimedia Key Reference are available values for **Link Type** drop-down, and Topic, Map, Document,Image, Video, Audio, and Others are available values for **File Type** dropdown.
 1. You can also use the following filtering options to choose to display the following columns in the list:
 
     – **Broken Link** (selected by default) The path of the broken link is specified in the DITA map. 
 
-    – **Link Type** (selected by default) The type of the links. The available options are DITA Topic, DITA Map, File reference, Key reference, Content Reference, Content Key Reference, Image Reference, Multimedia File Reference, and Multimedia Key Reference.
+    – **Link Type** (selected by default) The type of the links. The available options are Topic, Map, File reference, Key reference, Content Reference, Content Key Reference, Image Reference, Multimedia File Reference, and Multimedia Key Reference.
 
     – **Used In** (selected by default) The references in which the broken link has been used. You can select the reference to view it in author mode.
 
-    – **File Type** (selected by default) The type of reference – DITA Topic, DITA Map, Document,Image, Video, Audio, and Others.
+    – **File Type** (selected by default) The type of reference – Topic, Map, Document, Image, Video, Audio, and Others.
     
     Select **Refresh** to get a fresh list of broken links and view any change in your map file or if any broken link within your DITA map is updated.
 1. You can select on the **Fix link** icon (![](images/fix-broken-link.svg)) to fix the broken link. 

@@ -103,7 +103,7 @@ You can manage your existing baselines using the various features on the Baselin
     >
     >Edit operation in case of dynamic baseline allows you to edit the properties of the baseline as the references for dynamic baselines are generated at runtime using the labels.  
 
-    ![options of a baseline](images/baseline-options.png){width="500" align="left"}
+    ![options of a baseline](images/baseline-options.png){ align="left"}
 
 ### Actions available for an existing baseline
 
