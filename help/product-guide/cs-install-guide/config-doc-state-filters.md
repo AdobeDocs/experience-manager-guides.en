@@ -66,6 +66,6 @@ Perform the following steps to configure the document state filters:
     
 1.  Once updated, save the file and upload it.
 
-The configured filters are displayed in the Filters panel.
+The configured filters are displayed in the **Filters** panel in Repository on Home page.
 
 **Parent topic:**[Customize Web Editor](conf-web-editor.md)
