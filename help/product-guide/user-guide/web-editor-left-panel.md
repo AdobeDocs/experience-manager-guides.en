@@ -1162,6 +1162,8 @@ To perform the global search and replace with the Source mode enabled, perform t
 
 1. Enter the search term or text in the **Find** field. To narrow down results, select the **Filter** icon next to the Find field and select the following desired filters: 
 
+    ![](images/find-filters-source-mode.png){align="left"} 
+
     - **File type**: Choose the File type; **Topics**, and **Maps** where you want to search the text
     - **Document state**: 
     - **Last modified**: Filter content based on modification date. Select a date range from the calendar or choose one of the following time frame options:
@@ -1173,7 +1175,7 @@ To perform the global search and replace with the Source mode enabled, perform t
     - **Others**: You can configure the following:
         - **Tags**:  Filter content based on tags.
         - **Case sensitive search**: Enables search ensuring results match the exact letter casing specified.
-        - **List files locked by others**: Displays files currently locked by other users, preventing edits until the lock is released.
+        - **List files locked by others**: Displays files currently locked by other users, preventing edits until the lock is released.       
 
 1. Enter the term you want to use as the replacement in the **Replace with** field. To customize how replacements are applied, click the **Settings** icon next to the field and choose from the available options.
 
