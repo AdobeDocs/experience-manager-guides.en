@@ -14,10 +14,14 @@ Learn about [upgrade instructions for the 5.1.0 Service Pack 3 release](upgrade-
 
 ## Authoring
 
-- Using `scope="external"` for a reference to DAM content within a topic or map causes the asset's relative path to be substituted with a GUID. (GUIDES-35605)
 - Custom CSS applied at a folder-level profile for topics or maps is reverted to the default style in Preview mode upon browser refresh. (GUIDES-31098)
 - Unable to add multiple **Version labels** to a topic from the **Save as new version** dialog. (GUIDES-32716)
+
+
+## Asset management
+
 - Unable to remove Version labels from **Version history** panel in Assets UI. (GUIDES-38276)
+
 
 ## Review
 
@@ -28,6 +32,9 @@ Learn about [upgrade instructions for the 5.1.0 Service Pack 3 release](upgrade-
 - When you generate AEM Sites output using legacy component mapping, topics that use the `copy-to` attribute get published with the `copy-from` topic's name instead of the name set in the `copy-to` attribute. (GUIDES-22155)
 - When Native PDF output is generated using a dynamic baseline, the term **PDFProject** is displayed as the PDF title instead of the actual map title. (GUIDES-31102)
 
+## Platform
+
+- Using `scope="external"` for a reference to DAM content within a topic or map causes the asset's relative path to be substituted with a GUID. (GUIDES-35605)
 
 
 
