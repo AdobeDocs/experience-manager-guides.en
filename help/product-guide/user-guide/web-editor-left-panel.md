@@ -1113,7 +1113,7 @@ To perform the global search and replace, perform the following steps:
 
 1. Press Enter or select **Search** icon to perform the search.
 
-![](images/search-icon.png){align="left"}
+    ![](images/search-icon.png){align="left"}
 
 1. Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
 
@@ -1165,7 +1165,7 @@ To perform the global search and replace with the Source mode enabled, perform t
     ![](images/find-filters-source-mode.png){align="left"} 
 
     - **File type**: Choose the File type; **Topics**, and **Maps** where you want to search the text
-    - **Document state**: 
+    - **Document state**: You can select a document state defined in the Folder profile. The default states include In-review, Done, Draft, Approved, Edit, and Reviewed.
     - **Last modified**: Filter content based on modification date. Select a date range from the calendar or choose one of the following time frame options:
 
         - In last 2 hours 
@@ -1179,17 +1179,16 @@ To perform the global search and replace with the Source mode enabled, perform t
 
 1. Enter the term you want to use as the replacement in the **Replace with** field. To customize how replacements are applied, click the **Settings** icon next to the field and choose from the available options.
 
-    - **Lock file before replace**: Select this option if you want to lock a file automatically before replacing the search term. This setting is more relevant in case your administrator has enabled the configuration to lock a file before editing. With the backend setting enabled, you should select this option. It will prevent the file lock dialog from prompting you to lock every file before making any change. If you do not select this option, then a prompt will appear before a file is opened for editing.
+    - **Replace unlocked files**: Select this option to replace unlocked files. This field is displayed based on whether Edit without checkout is enabled or disabled. When disabled, the file remains read-only.
 
     - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file. If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
 
-    ![](images/replace-settings.png){align="left"}
-    
+    ![](images/replace-settings.png){align="left"}    
 
 
 1. Press Enter or select **Search** icon to perform the search.
 
-![](images/search-icon.png){align="left"}
+    ![](images/search-icon.png){align="left"}
 
 1. Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
 
@@ -1207,6 +1206,10 @@ To enable the **Replace all** icon, your system administrator must select the op
 >
 > Hover over a file from the search result list to view **Replace all in File** icon on the right of it. You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
 
+1. After the Replace All operation completes, a downloadable report is generated, providing a snapshot of all replace actions performed.
+
+    ![](images/snapshot-replace-all.png){align="left"}
+
 Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between or view the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
 
 ![](images/replace-all-in-progress.png){width="300" align="left"}
@@ -1217,6 +1220,7 @@ You can also use the **Find in map** option from the **Options** menu of a map t
 
 
 </details>
+
 ## PDF templates
 
 Enables you to work with various PDF templates. For details, view [PDF templates](../native-pdf/pdf-template.md). 
