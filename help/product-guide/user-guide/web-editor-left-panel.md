@@ -1060,16 +1060,18 @@ By default, you can view the files by titles. As you hover over a file, you can 
 
 The Find and Replace feature can be used in two distinct modes, depending on your search requirements:
 
-- **Source mode enabled:** The search scans not only the visible content in Author view but also the underlying XML structure, including elements, tags, and attribute values. This mode ensures a comprehensive search across both content and metadata. 
+- **Source mode enabled:** The search scans not only the visible content in Author view but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched term. This mode ensures a comprehensive search across both content and metadata. 
 
     >[!NOTE]
     >
-    > The Source mode feature is available for Experience Manager Guides as a Cloud Service 2026.01.0 release. If you prefer to use this feature, you must first index your content. Then contact your Customer Success team to have the new features enabled.
+    > The **Use source mode** feature is available in the Experience Manager Guides as a Cloud Service with 2026.01.0 release and for On-Premise setup with 5.2 release. To use this feature, you must first index your content depending on the setup you are using.
+    > * **For Cloud services**: A custom index deployment must be performed. For details, view [Deploying custom index](/help/product-guide/cs-install-guide/custom-indexing.md).  After indexing, contact your Customer Success team to enable this feature.
+    > * **For On-Premise**: Re-indexing of existing content is required before the feature can be used. For details, view [Reindexing content](/help/product-guide/install-guide/custom-indexing-prem.md). After reindexing, contact your Customer Success team to enable this feature.
 
     ![](images/map-find-replace-with-source-mode.png){align="left"}
 
 
-- **Source mode disabled:** The search is restricted to the text displayed in the Author view, focusing solely on the visible content without examining XML elements or attributes. This mode is ideal for quick, content-only searches.
+- **Source mode disabled:** The search is restricted to the text displayed in the Author view, focusing solely on the visible content skipping the source content like XML elements or attributes. This mode is ideal for quick, content-only searches.
 
     ![](images/map-find-replace-without-source-mode.png){align="left"}
 

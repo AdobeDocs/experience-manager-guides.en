@@ -16,8 +16,7 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 - When updating an inline MathML equation using the **Edit MathML** option from the context menu, the updated value is not reflected until the page is refreshed. (GUIDES-38198)
 - When a topic contains many reusable elements (those with IDs) added in the **Reusable panel**, some elements may not be accessible because of fixed container height. (GUIDES-37220)
 - When inserting a cross-reference to a file, the icons for maps and topics are identical.(GUIDES-36662)
-- When editing a map, special symbols in the `navtitle` are not displayed in the **Author** view. (GUIDES-35435)
-
+- When editing a map, special symbols in the `navtitle` are not displayed for `topichead` in the **Author** view. (GUIDES-35435)
 
 ## Asset management
 
