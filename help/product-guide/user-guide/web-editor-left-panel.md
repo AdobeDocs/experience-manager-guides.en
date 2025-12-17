@@ -1064,7 +1064,7 @@ The Find and Replace feature can be used in two distinct modes, depending on you
 
     >[!NOTE]
     >
-    > The Source mode feature is not available by default for Experience Manager Guides as a Cloud Service 2026.01.0 release. If you prefer to continue use this feature, contact your Customer Success team to have the new features enabled.
+    > The Source mode feature is available for Experience Manager Guides as a Cloud Service 2026.01.0 release. If you prefer to use this feature, you must first index your content. Then contact your Customer Success team to have the new features enabled.
 
     ![](images/map-find-replace-with-source-mode.png){align="left"}
 
@@ -1123,11 +1123,11 @@ To perform the global search and replace, perform the following steps:
 
     ![](images/replace-all.png){align="left"}
 
-To enable the **Replace all** icon, your system Administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
+To enable the **Replace all** icon, your system Administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**). If errors occur during the replace operation, those files will be skipped due to XML parsing issues or DITA-related errors.
 
 >[!NOTE]
 >
-> Hover over a file from the search result list to view **Replace all in File** icon on the right of it. You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
+> Hover over a file from the search result list to view **Replace all in File** icon on the right of it, that enables you to replace all the occurrences of the term in a single file. You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
 
 Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between or view the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
 
@@ -1190,7 +1190,7 @@ To perform the global search and replace with the Source mode enabled, perform t
 
 1. Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
 
-1. Select **Replace occurrence** button to replace the currently highlighted search term in the topic or select the Top and bottom arrows to move to the next or previous occurrence of the text
+1. Select **Replace occurrence** to replace the currently highlighted search term in the topic or select the Top and bottom arrows to move to the next or previous occurrence of the text.
 
     ![](images/replace-occurrence.png){align="left"}
 
@@ -1198,23 +1198,20 @@ To perform the global search and replace with the Source mode enabled, perform t
 
     ![](images/replace-all.png){align="left"}
 
-To enable the **Replace all** icon, your system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
+    To enable the **Replace all** icon, your system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
 
->[!NOTE]
->
-> Hover over a file from the search result list to view **Replace all in File** icon on the right of it. You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
+    >[!NOTE]
+    >
+    > Hover over a file from the search result list to view **Replace all in file** icon on the right of it, that enables you to replace all the occurrences of the term in a single file. You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
 
-1. After the Replace All operation completes, a downloadable report is generated, providing a snapshot of all replace actions performed.
+1. After the Replace all operation completes, a downloadable report is generated, providing a snapshot of all replace actions performed. You can download the report to view detailed information on the replace operations, including the number of occurrences successfully replaced, along with details of each, as well as any failures and their corresponding reasons.
 
     ![](images/snapshot-replace-all.png){align="left"}
 
-Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between or view the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
+Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between or view the log report. If you abort the operation, you will receive a notification about it in your Inbox. 
 
 ![](images/replace-all-in-progress-source-mode.png){width="300" align="left"}
 
-You can also use the **Find in map** option from the **Options** menu of a map to find and replace text in a map. This option appears for a map opened in the repository panel or in the map view.
-
-![](images/map-options-menu.png){width="550" align="left"}
 
 
 </details>
