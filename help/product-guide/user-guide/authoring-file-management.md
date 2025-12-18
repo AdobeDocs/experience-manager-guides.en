@@ -99,27 +99,6 @@ If you choose the **Move File\(s\) to New Location** option, then the existing f
 
 With replace or moving the files, if you choose the option to create a version from the existing copy, then a new version from the working copy of the document is created; the new file is either replaced at the existing location or moved to the new location.
 
-## Upload assets 
-
-Upload a file from your local system to the selected folder in Adobe Experience Manager repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
-
-After a successful upload, the following confirmation dialog is displayed:
-
-![](images/upload-successful.png)
-
-**Handling invalid characters in file names**
-
-If the file name of the asset being uploaded contains invalid characters (such as * / : [ \ ] | # % { } ?), the following scenarios may occur:
-
-- **Partial failure**: Indicates one or more assets being uploaded contain invalid characters in their file names. 
-
-    ![](images/partial-asset-upload.png)
-- **Upload failed** : Indicates all assets being uploaded contain invalid characters in their file names.
-
-    ![](images/upload-asset-failed.png)
-
-To resolve these conflicts, remove any invalid characters from the file names of the assets and then re-upload them to the repository.
-
 ## Move files in bulk {#move-files-bulk}
 
 Experience Manager Guides comes with the Bulk Move Tool that helps an administrator to move a folder having large number of files from one location to another. This tool can easily move files within one or more folders into a different folder in your Adobe Experience Manager repository. One of the major features of this tool is that it not only moves a large number of files, but it also maintains the references to and from the files being moved. You can tweak the number of files that you can move in batches without hampering the authoring and publishing tasks.

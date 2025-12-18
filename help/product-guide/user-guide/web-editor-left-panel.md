@@ -287,10 +287,24 @@ Steps to create a new folder:
 
     ![](images/upload-successful.png)
 
-    >[!NOTE]
-    >
-    > To avoid conflicts during the asset upload process, ensure that their file names do not contain any invalid characters. For details, view [Manage files and folders](./authoring-file-management.md#upload-assets). 
+    <details>
 
+    <summary>Handling invalid characters in file names</summary>
+
+    If the file name of the asset being uploaded contains invalid characters (such as * / : [ \ ] | # % { } ?), the following scenarios may occur:
+
+    - **Partial Upload**: Indicates one or more assets being uploaded contain invalid characters in their file names. 
+
+        ![](images/partial-asset-upload.png)
+
+    - **Upload Failed** : Indicates all assets being uploaded contain invalid characters in their file names.
+
+        ![](images/upload-asset-failed.png)
+
+    To resolve these conflicts, remove any invalid characters from the file names of the assets and then re-upload them to the repository.
+
+    </details>
+    
 - **Find files in folder**: Shifts the focus to repository search wherein you can enter the search term. The search is performed under the selected folder in the repository. You can also apply a filter to return DITA Files, Image Files, or both.
 
     ![](images/find-files-in-folders-repo-view_cs.png){width="300" align="left"}
