@@ -1114,7 +1114,7 @@ To perform the global search and replace, perform the following steps:
 
 1. Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
 
-1. Select **Replace occurrence** button to replace the currently highlighted search term in the topic or select the top and bottom arrows to move to the next or previous occurrence of the text
+1. Select **Replace occurrence** to replace the currently highlighted search term in the topic or select the top and bottom arrows to move to the next or previous occurrence of the text
 
     ![](images/replace-occurrence.png){align="left"}
 
@@ -1186,7 +1186,7 @@ To perform the global search and replace with the Source mode enabled, perform t
 
 1. Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
 
-1. Select **Replace occurrence** to replace the currently highlighted search term in the topic or select the Top and bottom arrows to move to the next or previous occurrence of the text.
+1. Select **Replace occurrence** to replace the currently highlighted search term in the topic or select the top and bottom arrows to move to the next or previous occurrence of the text.
 
     ![](images/replace-occurrence.png){align="left"}
 
