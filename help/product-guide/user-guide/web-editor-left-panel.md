@@ -1064,9 +1064,9 @@ The Find and Replace feature can be used in two distinct modes, depending on you
 
     >[!NOTE]
     >
-    > The **Use source mode** feature is available in the Experience Manager Guides as a Cloud Service with 2026.01.0 release and for On-Premise setup with 5.2 release. To use this feature, you must first index your content depending on the setup you are using.
-    > * **For Cloud services**: A custom index deployment must be performed. For details, view [Deploying custom index](/help/product-guide/cs-install-guide/custom-indexing.md).  After indexing, contact your Customer Success team to enable this feature.
-    > * **For On-Premise**: Re-indexing of existing content is required before the feature can be used. For details, view [Reindexing content](/help/product-guide/install-guide/custom-indexing-prem.md). After reindexing, contact your Customer Success team to enable this feature.
+    > The **Use source mode** feature is available in the Experience Manager Guides as a Cloud Service with 2026.01.0 release and for On-Premise setup with 5.2 release. To use this feature, you must first index your content depending on the setup you are using. After indexing, contact your Customer Success team to enable this feature. 
+    > * **For Cloud services**: A custom index deployment must be performed. For details, view [Deploying custom index](/help/product-guide/cs-install-guide/custom-indexing.md).  
+    > * **For On-Premise**: Re-indexing of existing content is required before the feature can be used. For details, view [Reindexing content](/help/product-guide/install-guide/custom-indexing-prem.md). 
 
     ![](images/map-find-replace-with-source-mode.png){align="left"}
 
@@ -1076,22 +1076,19 @@ The Find and Replace feature can be used in two distinct modes, depending on you
     ![](images/map-find-replace-without-source-mode.png){align="left"}
 
 <details>
-    <summary> Perform global search and replace with the Source mode disabled </summary>
+    <summary> Perform global search and replace with Source mode disabled </summary>
 
 
 To perform the global search and replace, perform the following steps:
 
 1. Open the global **Find and replace** panel.
-1. Select the **Path** dropdown and select one of the following options to perform the search.
+1. Select the **Path** dropdown and choose one of the following options to perform the search.
 
     - **Path**: To search on the selected path
     - **Map**: To search in the currently opened map
 
-        >[!NOTE]
-        >
-        > This option appears if you have already opened a map for editing.
-
-    **Select Map**: To search in the selected map from the **Select path** icon adjacent to the Path field.
+    ![](images/path-dropdown.png){align="left"}  
+        
 1. Enter the search term or text in the **Find** field. To narrow down results, select the **Filter** icon next to the Find field and select the following desired filters: 
 
       
@@ -1143,7 +1140,7 @@ You can also use the **Find in map** option from the **Options** menu of a map t
 
 
 <details>
-    <summary> Perform global search and replace with the Source mode enabled </summary>
+    <summary> Perform global search and replace with Source mode enabled </summary>
 
 To perform the global search and replace with the Source mode enabled, perform the following steps:
 
@@ -1154,12 +1151,9 @@ To perform the global search and replace with the Source mode enabled, perform t
     - **Path**: To search on the selected path
     - **Map**: To search in the currently opened map
 
-        >[!NOTE]
-        >
-        > This option appears if you have already opened a map for editing.
+    ![](images/path-dropdown-source-mode.png){align="left"}     
 
-    - **Select Map**: To search in the selected map from the **Select path** icon adjacent to the Path field. 
-
+    
 1. Enter the search term or text in the **Find** field. To narrow down results, select the **Filter** icon next to the Find field and select the following desired filters: 
 
     ![](images/find-filters-source-mode.png){align="left"} 
@@ -1173,13 +1167,13 @@ To perform the global search and replace with the Source mode enabled, perform t
         - In last month
         - In last year
     - **Others**: You can configure the following:
-        - **Tags**:  Filter content based on tags.
+        - **Tags**: Filter content based on tags.
         - **Case sensitive search**: Enables search ensuring results match the exact letter casing specified.
         - **List files locked by others**: Displays files currently locked by other users, preventing edits until the lock is released.       
 
 1. Enter the term you want to use as the replacement in the **Replace with** field. To customize how replacements are applied, click the **Settings** icon next to the field and choose from the available options.
 
-    - **Replace unlocked files**: Select this option to replace unlocked files. This field is displayed based on whether Edit without checkout is enabled or disabled. When disabled, the file remains read-only.
+    - **Replace unlocked files**: Select this option to replace in the unlocked files. This field is displayed based on whether Edit without checkout is enabled or disabled. When disabled, the file remains read-only.
 
     - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file. If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
 
@@ -1206,15 +1200,13 @@ To perform the global search and replace with the Source mode enabled, perform t
     >
     > Hover over a file from the search result list to view **Replace all in file** icon on the right of it, that enables you to replace all the occurrences of the term in a single file. You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
 
-1. After the Replace all operation completes, a downloadable report is generated, providing a snapshot of all replace actions performed. You can download the report to view detailed information on the replace operations, including the number of occurrences successfully replaced, along with details of each, as well as any failures and their corresponding reasons.
+1. After the Replace all operation completes, a downloadable CSV report is generated, providing a snapshot of all replace actions performed. You can download the report to view detailed information on the replace operations, including the number of occurrences successfully replaced, along with details of each, as well as any failures and their corresponding reasons.
 
     ![](images/snapshot-replace-all.png){align="left"}
 
 Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between or view the log report. If you abort the operation, you will receive a notification about it in your Inbox. 
 
 ![](images/replace-all-in-progress-source-mode.png){width="300" align="left"}
-
-
 
 </details>
 

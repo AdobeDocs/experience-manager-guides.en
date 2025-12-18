@@ -7,7 +7,7 @@ level: Experienced
 ---
 # Reindexing for Markup Search and Replace feature
 
-The reindexing is required to enable the **Markup Search and Replace** feature, which allows you to search and replace text across DITA XML and Markdown files in your AEM Guides environment.
+Reindexing is required to enable the **Markup Search and Replace** feature, which allows you to search and replace text across DITA XML and Markdown files in your AEM Guides environment.
 
 ## Reindexing
 

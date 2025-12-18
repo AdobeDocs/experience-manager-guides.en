@@ -5,7 +5,7 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Deploying Custom index for Markup Search and Replace feature
+# Deploying custom index for Markup Search and Replace feature
 
 ## Overview
 
