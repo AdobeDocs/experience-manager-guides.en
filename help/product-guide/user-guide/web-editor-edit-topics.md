@@ -70,7 +70,7 @@ Experience Manager Guides also indicates if the last saved \(working\) copy of t
 
 >[!NOTE]
 >
-> Any change to metadata fields available under [File properties](./web-editor-right-panel.md#file-properties) will also trigger the working copy indicator. A document version is marked as dirty when you add, delete, or modify any default or custom metadata fields. 
+> Any changes to the metadata fields available under [File properties](./web-editor-right-panel.md#file-properties) will also trigger the working copy indicator. A document version is marked as dirty when you add, delete, or modify any default or custom metadata fields. 
 
 ![Version update indicator](images/version-update-indicator.png){width="550" align="left"}
 
