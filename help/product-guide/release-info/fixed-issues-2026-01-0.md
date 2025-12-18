@@ -44,7 +44,7 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 
 ## Reports
 
-- The **Broken list** report is incorrectly including valid `keyrefs` and `conkeyrefs` that are properly resolved within the scope of the current map. (GUIDES-27774)
+- The **Broken list** report is incorrectly including external links, valid `keyrefs` and keywords that are properly resolved within scope of current map. (GUIDES-27774)
 
 
 
