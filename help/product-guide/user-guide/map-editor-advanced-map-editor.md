@@ -270,14 +270,14 @@ You can perform the following additional tasks in the preview mode:
 
 **Refresh topics or map**
 
-When a map is opened in Preview mode and you switch back to it from another tab in the Editor, the preview does not refresh automatically. To reload the map and reset its scroll position in the preview to the top, a manual refresh is required. 
+When a map is opened in Preview mode and you switch back to it from another tab in the Editor, the preview does not refresh automatically. To reload the map preview, a manual refresh is required. 
 
 You can use the Refresh functionality, available in the Preview mode of the map, in two ways:
 
-- **Map-level refresh**: Refreshes the preview of the entire map (including all topics), and takes you to the first scroll position for a clear view. 
+- **Map-level refresh**: Selecting the **Refresh** button refreshes the preview of the entire map (including all topics), and takes you to the first scroll position for a clear view. 
     ![](images/refresh-map.png){width="650" align="left"}
 
-- **Topic-level refresh**: Updates changes applied to one or more individual topics. 
+- **Topic-level refresh**: Selecting **Refresh topic** from the context menu refreshes that specific topic while keeping the scroll position unchanged.
     ![](images/refresh-topic.png){width="650" align="left"}
 
 **Other ways to preview a map file**
