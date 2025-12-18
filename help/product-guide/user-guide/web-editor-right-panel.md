@@ -77,7 +77,11 @@ The General section gives you access to the following features:
     > The **Word count** feature is introduced in the 2026.01.0 release of Experience Manager Guides as a Cloud Service. Any new DITA topics you create after upgrading to this release will automatically have the calculated word count in the Right panel. For existing topics, [reprocessing of the assets](./asset-processor.md) is required. 
 
 - **Tags**: These are the metadata tags of the topic. They are set from the tags field in the properties page. You can type or select them from the dropdown.  The tags appear under the dropdown. To delete a tag, select the cross icon next to the tag. 
--  **Edit more properties**: You can edit more properties from the file properties page.  
+-  **Edit more properties**: You can edit more properties from the file properties page. 
+
+    >[!NOTE]
+    >
+    > Any addition, deletion, or modification of metadata properties (whether default or custom), will trigger the [working copy indicator](./web-editor-edit-topics.md#working-copy-indicator) on the document version. If the version was previously clean, it will be marked as dirty once a metadata property is changed.
 - **Language**: Shows the language of the topic. It is set from the language field in the properties page.
 - **Created on**: Displays date and time on which the topic was created.
 - **Modified on**: Displays the date and time on which the topic was modified. 
