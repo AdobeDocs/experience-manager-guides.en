@@ -13,16 +13,16 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 
 ## Authoring
 
-- When updating an inline MathML equation using the **Edit MathML** option from the context menu, the updated value is not reflected until the page is refreshed. (GUIDES-38198)
-- When a topic contains many reusable elements (those with IDs) added in the **Reusable panel**, some elements may not be accessible because of fixed container height. (GUIDES-37220)
+- When updating an inline MathML equation using the Edit MathML option from the context menu, the updated value is not reflected until the page is refreshed. (GUIDES-38198)
+- When a topic contains many reusable elements (those with IDs) added in the Reusable panel, some elements may not be accessible because of fixed container height. (GUIDES-37220)
 - When inserting a cross-reference to a file, the icons for maps and topics are identical.(GUIDES-36662)
-- When editing a map, special symbols in the `navtitle` are not displayed for `topichead` in the **Author** view. (GUIDES-35435)
+- When editing a map, special symbols in the `navtitle` are not displayed for `topichead` in the Author view. (GUIDES-35435)
 
 ## Asset management
 
-- Unable to remove Version labels from **Version history** panel in Assets UI. (GUIDES-38276)
-- Unable to add multiple **Version labels** to a topic from the Save as new version dialog. (GUIDES-32716)
-- When uploading assets with filename containing invalid characters, the asset fails to upload and displays an incorrect message **file is locked by other user** despite the asset being unlocked. (GUIDES-32680)
+- Unable to remove Version labels from Version history panel in Assets UI. (GUIDES-38276)
+- Unable to add multiple Version labels to a topic from the Save as new version dialog. (GUIDES-32716)
+- When uploading assets with filename containing invalid characters, the asset fails to upload and displays an incorrect message **File is locked by other user** despite the asset being unlocked. (GUIDES-32680)
 - For an output preset, the search filter functionality is not working in AEM Assets for DITAVAL filtering, as the corresponding files are not being displayed when the DITAVAL filter is selected.(GUIDES-35418)
 
 ## Publishing
@@ -39,7 +39,7 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 
 ## Platform
 
-- When trying to save the content or save a new version of the topic, you encounter an error **Failed to save file**. (GUIDES-37837) 
+- When attempting to save a topic or map, the operation may intermittently fail with a **Failed to save file** error, particularly during intensive post-processing tasks running in the background. (GUIDES-37837)
 - Using `scope="external"` for a reference to DAM content within a topic or map causes the asset's relative path to be substituted with a GUID. (GUIDES-38783)
 
 ## Reports
