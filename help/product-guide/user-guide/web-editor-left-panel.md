@@ -1060,7 +1060,7 @@ By default, you can view the files by titles. As you hover over a file, you can 
 
 The Find and Replace feature can be used in two distinct modes, depending on your search requirements:
 
-- **Source mode enabled:** The search scans not only the visible content in Author view but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched term. This mode ensures a comprehensive search across both content and metadata. 
+- **With Source mode:** The search scans not only the visible content in Author view but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched term. This mode ensures a comprehensive search across both content and metadata. 
 
     >[!NOTE]
     >
@@ -1071,7 +1071,7 @@ The Find and Replace feature can be used in two distinct modes, depending on you
     ![](images/map-find-replace-with-source-mode.png){align="left"}
 
 
-- **Source mode disabled:** The search is restricted to the text displayed in the Author view, focusing solely on the visible content skipping the source content like XML elements or attributes. This mode is ideal for quick, content-only searches.
+- **Without Source mode:** The search is restricted to the text displayed in the Author view, focusing solely on the visible content skipping the source content like XML elements or attributes. This mode is ideal for quick, content-only searches.
 
     ![](images/map-find-replace-without-source-mode.png){align="left"}
 

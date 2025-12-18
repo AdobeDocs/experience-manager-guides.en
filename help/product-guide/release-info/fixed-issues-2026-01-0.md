@@ -34,7 +34,7 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 - For Native PDF output, the `<alt>` element for images is ignored, preventing alternate text from being applied for accessibility. (GUIDES-29087)
 - When downloading temporary files for a map with a baseline during publishing for a preset, the `metadata.xml` file incorrectly references the `versionPath` instead of the `dampath`.(GUIDES-29815)
 - When creating or editing a topic that includes a citation, if the Author field is not added in the citation dialog, the PDF is not generated. (GUIDES-37934)
-- A CSS file (`rhdefault.css`) is getting incorrectly added to the PDF template, even when the template does not include any CSS file, resulting in **missing CSS file** error logs. (GUIDES-31752)
+- The CSS file (`rhdefault.css`) gets incorrectly applied to the PDF template despite no CSS being referenced, causing missing CSS file error logs.(GUIDES-31752)
 - For an output preset, the search filter functionality is not working in AEM Assets for DITAVAL filtering, as the corresponding files are not being displayed when the DITAVAL filter is selected. (GUIDES-35418)
 
 ## Platform
