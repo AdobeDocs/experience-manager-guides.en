@@ -29,6 +29,31 @@ Download the required packages from Adobe Software Distribution Portal, based on
 1. **Download UUID version 4.6.1**: [com.adobe.fmdita.feature-uuid-4.6.1.4850.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita-6.5-uuid-4.6.1.4850.zip)
 1. **Migration**: [com.adobe.guides.uuid-upgrade-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.uuid-upgrade-2.0.zip)
 
+## Migration time estimatation
+
+Before proceeding with the installation, review the migration time estimates to plan resources and timelines effectively. Understanding these estimates will help ensure a smooth migration process.
+
+The migration utility processes assets at an average rate of ~50 ms per asset. The following table provides migration time estimates for a system configured with 4 vCPUs, 16–24 GB RAM, and SSD-backed storage. Memory requirements may increase for larger repositories or assets with many renditions or high-resolution binaries.
+
+>[!NOTE]
+>
+> Actual migration time can vary depending on hardware performance, storage throughput, concurrent AEM activities, and overall system load.
+
+
+| **Asset Count** | **Approx. Time**        |
+|------------------|--------------------------|
+| 10K             | ~8–9 minutes            |
+| 50K             | ~42 minutes             |
+| 100K            | ~1.4 hours              |
+| 250K            | ~3.5 hours              |
+| 500K            | ~7 hours                |
+| 750K            | ~10.5 hours             |
+| 1M              | ~14 hours               |
+| 2M              | ~28 hours (~1.2 days)   |
+| 3M              | ~42 hours (~1.75 days)  |
+| 5M              | ~69 hours (~2.9 days)   |
+| 10M             | ~139 hours (~5.8 days)  |
+
 ## Premigration checks
 
 Perform the following checks on non-UUID version 4.6.0 Service Pack 4:
