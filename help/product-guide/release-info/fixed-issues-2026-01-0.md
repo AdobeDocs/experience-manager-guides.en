@@ -39,7 +39,7 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 
 ## Platform
 
-- When attempting to save a topic or map, the operation may intermittently fail with a **Failed to save file** error, particularly during intensive post-processing tasks running in the background. (GUIDES-37837)
+- When attempting to save a topic or map, the operation may intermittently fail with a 'Failed to save file' error, particularly during intensive asset processing tasks or translation workflows running in the background. (GUIDES-37837)
 - Using `scope="external"` for a reference to DAM content within a topic or map causes the asset's relative path to be substituted with a GUID. (GUIDES-38783)
 
 ## Reports
