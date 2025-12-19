@@ -23,7 +23,7 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 - Unable to remove Version labels from Version history panel in Assets UI. (GUIDES-38276)
 - Unable to add multiple Version labels to a topic from the Save as new version dialog. (GUIDES-32716)
 - When uploading assets with filename containing invalid characters, the asset fails to upload and displays an incorrect message **File is locked by other user** despite the asset being unlocked. (GUIDES-32680)
-- For an output preset, the search filter functionality is not working in AEM Assets for DITAVAL filtering, as the corresponding files are not being displayed when the DITAVAL filter is selected.(GUIDES-35418)
+- In the Assets search, sub-assets and metadata nodes (such as images and PDFs) are incorrectly included in the results. Additionally, for an output preset when DITAVAL filters are applied, the search returns internally generated DITAVAL files created from condition presets. (GUIDES-35418)
 
 ## Publishing
 
