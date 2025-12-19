@@ -33,7 +33,7 @@ Download the required packages from Adobe Software Distribution Portal, based on
 
 Before proceeding with the installation, review the migration time estimates to plan resources and timelines effectively. Understanding these estimates will help ensure a smooth migration process.
 
-The migration utility processes assets at an average rate of ~50 ms per asset. The following table provides migration time estimates for a system configured with 4 vCPUs, 16–24 GB RAM, and SSD-backed storage. Memory requirements may increase for larger repositories or assets with many renditions or high-resolution binaries.
+The migration utility processes assets at an average rate of ~50 ms per asset. The following table provides migration time estimates for a system configured with 64 vCPUs, 128 GB RAM, and SSD-backed storage. Memory requirements may increase for larger repositories or assets with many renditions or high-resolution binaries.
 
 >[!NOTE]
 >

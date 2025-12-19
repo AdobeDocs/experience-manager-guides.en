@@ -112,7 +112,7 @@ You have the following options to filter the files and to narrow down your searc
 
 - **Search in**: Select the path where you want to search the files present in the Repository. 
 
-- **File type**: You can look for all **DITA Topics**,  **DITA Maps**, **DITAVAL Files**,  **Image Files**, **Multimedia**, **Documents**, and **JSON**.
+- **File type**: Filter your search based on a specific file type. Available options are: **Topic**,  **Map**, **DITAVAL**,  **Image**, **Multimedia**, **Document**, and **Others**.
 
 - **Document state**: You can filter your search based on the current document state of the files. The available filter values are defined in the `repositoryFilters` field of the `ui_config.json file` and are associated with the folder profile you are currently using.    
 
