@@ -17,11 +17,11 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 - When a topic contains many reusable elements (those with IDs) added in the Reusable panel, some elements may not be accessible because of fixed container height. (GUIDES-37220)
 - When inserting a cross-reference to a file, the icons for maps and topics are identical.(GUIDES-36662)
 - When editing a map, special symbols in the `navtitle` are not displayed for `topichead` in the Author view. (GUIDES-35435)
+- Unable to add multiple Version labels to a topic from the **Save as new version** dialog. (GUIDES-32716)
 
 ## Asset management
 
 - Unable to remove Version labels from Version history panel in Assets UI. (GUIDES-38276)
-- Unable to add multiple Version labels to a topic from the Save as new version dialog. (GUIDES-32716)
 - When uploading assets with filename containing invalid characters, the asset fails to upload and displays an incorrect message **File is locked by other user** despite the asset being unlocked. (GUIDES-32680)
 - In the Assets search, sub-assets and metadata nodes (such as images and PDFs) are incorrectly included in the results. Additionally, for an output preset when DITAVAL filters are applied, the search returns internally generated DITAVAL files created from condition presets. (GUIDES-35418)
 
@@ -35,11 +35,10 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 - When downloading temporary files for a map with a baseline during publishing for a preset, the `metadata.xml` file incorrectly references the `versionPath` instead of the `dampath`.(GUIDES-29815)
 - When creating or editing a topic that includes a citation, if the Author field is not added in the citation dialog, the PDF is not generated. (GUIDES-37934)
 - The CSS file (`rhdefault.css`) gets incorrectly applied to the PDF template despite no CSS being referenced, causing missing CSS file error logs.(GUIDES-31752)
-- For an output preset, the search filter functionality is not working in AEM Assets for DITAVAL filtering, as the corresponding files are not being displayed when the DITAVAL filter is selected. (GUIDES-35418)
 
 ## Platform
 
-- When attempting to save a topic or map, the operation may intermittently fail with a 'Failed to save file' error, particularly during intensive asset processing tasks or translation workflows running in the background. (GUIDES-37837)
+- When attempting to save a topic or map, the operation may intermittently fail with a **Failed to save file** error, particularly during intensive asset processing tasks or translation workflows running in the background. (GUIDES-37837)
 - Using `scope="external"` for a reference to DAM content within a topic or map causes the asset's relative path to be substituted with a GUID. (GUIDES-38783)
 
 ## Reports
