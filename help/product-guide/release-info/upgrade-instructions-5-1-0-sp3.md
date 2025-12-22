@@ -46,6 +46,9 @@ For more details, view the [Technical requirements](../install-guide/download-in
 |---|---|
 |guides-components.all-1.4.0|aemg-docs.all-1.2.0|
 
+## Prerequisite: Validate scope= `external` usage
+
+To align with the standard DITA practices, ensure that the scope = `external` attribute is not applied to internal links. This attribute is intended exclusively for references that point to external resources. Using it for internal links can lead to disrupted workflows, and create issues in the content lifecycle. Review and correct such instances to maintain smooth, and reliable operations during and after the upgrade.
 
 ## Upgrade to 5.1.0 Service Pack 3 release of Experience Manager Guides
 
@@ -61,7 +64,6 @@ You can easily upgrade your current version of Guides to version 5.1.0 Service P
 
 >[!NOTE]
 >
-> - You must install AEM service pack before upgrading Experience Manager Guides version.
-> - As per standard DITA behavior, the scope= `external` attribute must not be applied to internal links, as it is intended only for references to external resources. Using this attribute for internal links can cause issues across the content lifecycle and disrupt workflows. Review and correct such instances to ensure smooth and consistent operations.
+> You must install AEM service pack before upgrading Experience Manager Guides version.
 
 For details, view [Upgrade instructions for the On-premise releases](../install-guide/upgrade-xml-documentation.md) of Experience Manager Guides.
