@@ -465,6 +465,10 @@ You can also search using the UUID of the file that you want to reference. For C
 
 If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will view the UUID of the referenced content in the **Link** property.
 
+>[!IMPORTANT]
+>
+>As per standard DITA behavior, the scope=`external` attribute must not be applied to internal links, as it is intended only for references to external resources. Using this attribute on internal links can disrupt workflows. For managed Experience Manager Guides content, you can use the default scope=`(local` or key-based references.
+
 ![](images/ref-link-uuid_cs.png){  align="left"}
 
 >[!NOTE]
