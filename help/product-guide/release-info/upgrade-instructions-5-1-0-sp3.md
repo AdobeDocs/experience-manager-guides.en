@@ -61,7 +61,7 @@ You can easily upgrade your current version of Guides to version 5.1.0 Service P
 
 >[!NOTE]
 >
-> * You must install AEM service pack before upgrading Experience Manager Guides version.
-> * As per standard DITA behavior, the scope= `external` attribute must not be applied to internal links, as it is intended only for references to external resources. Using this attribute for internal links can cause issues across the content lifecycle and disrupt workflows. Review and correct such instances to ensure smooth and consistent operations.
+> - You must install AEM service pack before upgrading Experience Manager Guides version.
+> - As per standard DITA behavior, the scope= `external` attribute must not be applied to internal links, as it is intended only for references to external resources. Using this attribute for internal links can cause issues across the content lifecycle and disrupt workflows. Review and correct such instances to ensure smooth and consistent operations.
 
 For details, view [Upgrade instructions for the On-premise releases](../install-guide/upgrade-xml-documentation.md) of Experience Manager Guides.
