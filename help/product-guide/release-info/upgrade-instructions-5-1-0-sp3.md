@@ -46,7 +46,7 @@ For more details, view the [Technical requirements](../install-guide/download-in
 |---|---|
 |guides-components.all-1.4.0|aemg-docs.all-1.2.0|
 
-## Prerequisite: Validate scope= `external` usage
+## Prerequisites
 
 To align with the standard DITA practices, ensure that the scope = `external` attribute is not applied to internal links. This attribute is intended exclusively for references that point to external resources. Using it for internal links can lead to disrupted workflows, and create issues in the content lifecycle. Review and correct such instances to maintain smooth, and reliable operations during and after the upgrade.
 
