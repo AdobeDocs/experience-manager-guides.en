@@ -48,7 +48,7 @@ For more details, view the [Technical requirements](../install-guide/download-in
 
 ## Prerequisites
 
-To align with the standard DITA practices, ensure that the scope = `external` attribute is not applied to internal links. This attribute is intended exclusively for references that point to external resources. Using it for internal links can lead to disrupted workflows, and create issues in the content lifecycle. Review and correct such instances to maintain smooth, and reliable operations during and after the upgrade.
+As per standard DITA behavior, the scope=`external` attribute must not be applied to internal links, as it is intended only for references to external resources. Applying this attribute to internal links may disrupt workflows. For content managed in Experience Manager Guides, use the default scope=`local` or key-based references instead.
 
 ## Upgrade to 5.1.0 Service Pack 3 release of Experience Manager Guides
 
