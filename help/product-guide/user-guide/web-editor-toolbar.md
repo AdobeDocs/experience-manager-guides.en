@@ -384,7 +384,11 @@ You can add an image/Figure Title and Alternate Text for the image in the Insert
 >
 > When you insert an image and specify an alternate text for the same, it is added within the `<alt>` element in accordance with the latest DITA standards. The use of the `@alt` attribute for alternate text is deprecated, but it remains supported in previous DITA versions.
 
-In the **Select file** dialog, you can browse the required image file in the **Repository** or **Collections**.
+In the **Select file** dialog, you can browse the required image file from **Repository** or **Collections**.
+
+>[!NOTE]
+>
+> The File and path browser is introduced with a revamped UI in the 2601 release of Experience Manager Guides as a Cloud Service. The new interface is enabled by default. If you prefer to continue using the existing UI without these updates, contact your Customer Success team to have the new enhancement disabled.
 
 ![](images/select-file-browser-images.png)
 
