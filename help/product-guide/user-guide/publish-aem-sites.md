@@ -15,24 +15,22 @@ This feature allows you to publish a topic and its elements without creating a D
 To generate an Sites page, perform the following steps:
 
      
-1. Open the topic in the Editor and select File Propertie form the right panel.
+1. Open the topic in the Editor and select **File properties** from the Right panel.
 1. Select **New output** icon![new output icon](./images/Add_icon.svg) from the **Outputs** section.
 1. Select **Sites page**.  
 1. In the **Generate Sites page** dialog box, fill in the following details:
         ![Add the path and template details in Generate Sites page](images/aem-sites-page-generate.png){width="500" align="left"}
         
-    *Add the path, title, name, and template details to publish a topic or its elements as a Sites page. *  
-
     * **Path**: Browse and select the path of the folder where you want to publish the Sites page. 
     * **Title**: Type the title of the Sites page. By default, the title is populated with the title of the topic. You can edit it. This title is used to generate the name of the Sites page.
     * **Name**: Type the name of the Sites page. By default, the name is populated with the topic title, and non-allowed characters like spaces and special characters are replaced with '_'. For example, *sample_sites_page*. You can edit it. This name is used to generate the URL for the Sites page.
     * **Page template**: Select the Sites page template to create your Sites page. You can view the templates in the folder on the path you select. Your administrator can also upload custom templates. 
 
 
-    * You can also select different conditions to publish the content.  Select one of the following options:
+    * You can also select different conditions to publish the content. Select one of the following options:
 
                
-        * **None**: Select this option if you don’t want to apply any condition on the published output.
+        * **None**: Select this option if you don't want to apply any condition on the published output.
         * **Using DITAVAL**: Select the DITAVAL file to generate personalized content. You can select the DITAVAL file using the browse dialog or by typing the file path. 
         * **Using attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute to publish the relevant content.
         
@@ -49,7 +47,7 @@ To generate an Sites page, perform the following steps:
        
      *View the Sites page present for a topic and republish them.*  
 
-Once you’ve published the Sites page, you can also use them on any Adobe Experience Manager Site.
+Once you've published the Sites page, you can also use them on any Adobe Experience Manager Site.
 
 
 ## Options menu for an Experience Manager Sites
