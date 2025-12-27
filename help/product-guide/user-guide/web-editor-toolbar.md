@@ -369,7 +369,7 @@ You can also define attributes on multiple cells, entire row, or column of a tab
 
 **Image** - ![](images/Image_icon.svg)
 
-Inserts an image at the current or next valid location. Select the Image icon to open the Insert Image dialog box and then search and select the image you want to insert.
+Inserts an image at the current or next valid location. Select the Image icon to open the Insert Image dialog and then search and select the image you want to insert.
 
 >[!NOTE]
 >
@@ -378,13 +378,25 @@ Inserts an image at the current or next valid location. Select the Image icon to
 
 ![](images/insert-image-new-dialog.png){width="300" align="left"}
 
-You can add an image/Figure Title and Alternate Text for the image in the Insert Image dialog box.
+You can add an image/Figure Title and Alternate Text for the image in the Insert Image dialog.
 
 >[!NOTE]
 >
 > When you insert an image and specify an alternate text for the same, it is added within the `<alt>` element in accordance with the latest DITA standards. The use of the `@alt` attribute for alternate text is deprecated, but it remains supported in previous DITA versions.
 
-Using the **Select File** option, you can search for the required image file by file name. You can also filter the search results by Path \(to search in\), Collections, File Type, and Tags. Once you have found the required image file, select the file and choose **Select** to insert the image in your document. You can insert various formats of image files, such as `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd`, and more.
+In the **Select file** dialog, you can browse the required image file in the **Repository** or **Collections**.
+
+![](images/select-file-browser-images.png)
+
+Use the breadcrumbs on the top and folder navigation panel on the left to easily navigate through the folders. 
+
+![](images/select-file-browser-file-navigation.png)
+
+You can search for the required image file by File name, File title, and Content. You can also filter the search results by Path \(to search in\), File Type, Document state, Locked by, Last modified, and Tags. 
+
+![](images/select-file-dialog-image-filter.png)
+
+Once you have found the required image file, select the file and choose **Select** to insert the image in your document. You can insert various formats of image files, such as `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd`, and more.
 
 Once you have inserted an image, you can change the height, width, placement, and attributes from the Content properties panel. Select the image file and then make changes in the Content properties panel in the right panel.
 
@@ -481,7 +493,9 @@ If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then yo
 
 **Filter Search**
 
-You can search for some text in the files present on the selected path of the AEM repository. For example, 'general' is searched in the given below screenshot. You can also narrow down your search using enhanced filters. You can look for all DITA Files like DITA Topics and DITA Maps present on the selected path.
+You can search for some text in the files present on the selected path of the AEM repository. For example, 'general' is searched in the given below screenshot. 
+
+You can also narrow down your search using enhanced filters from the Right panel. 
 
 You can search for Non-DITA Files like the Image Files, Multimedia, and documents in the selected path. You can also search for specific values in the attributes of DITA elements. You can also look for files which are checked out by the specified user.
 
