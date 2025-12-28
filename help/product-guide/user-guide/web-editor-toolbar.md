@@ -378,17 +378,12 @@ Inserts an image at the current or next valid location. Select the Image icon to
 
 ![](images/insert-image-new-dialog.png){width="300" align="left"}
 
-You can add an image/Figure Title and Alternate Text for the image in the Insert Image dialog.
-
->[!NOTE]
->
-> When you insert an image and specify an alternate text for the same, it is added within the `<alt>` element in accordance with the latest DITA standards. The use of the `@alt` attribute for alternate text is deprecated, but it remains supported in previous DITA versions.
 
 In the **Select file** dialog, you can browse the required image file from **Repository** or **Collections**.
 
 >[!NOTE]
 >
-> The File and path browser is introduced with a revamped UI in the 2601 release of Experience Manager Guides as a Cloud Service. The new interface is enabled by default. If you prefer to continue using the existing UI without these updates, contact your Customer Success team to have the new enhancement disabled.
+> The File and path browser is introduced with a revamped UI in the 2601 release of Experience Manager Guides as a Cloud Service. The new interface is enabled by default. If you prefer to continue using the existing UI without these updates, contact your Customer Success team to have this new enhancement disabled.
 
 ![](images/select-file-browser-images.png)
 
@@ -396,11 +391,17 @@ Use the breadcrumbs on the top and folder navigation panel on the left to easily
 
 ![](images/select-file-browser-file-navigation.png)
 
-You can search for the required image file by File name, File title, and Content. You can also filter the search results by Path \(to search in\), File Type, Document state, Locked by, Last modified, and Tags. 
+You can search for the required image file by File name, File title, and Content. You can also filter the search results by Path \(to search in\), File type, Document state, Locked by, Last modified, and Tags. 
 
 ![](images/select-file-dialog-image-filter.png)
 
 Once you have found the required image file, select the file and choose **Select** to insert the image in your document. You can insert various formats of image files, such as `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd`, and more.
+
+You can also add an image/Figure Title and Alternate Text for the image in the Insert Image dialog.
+
+>[!NOTE]
+>
+> When you insert an image and specify an alternate text for the same, it is added within the `<alt>` element in accordance with the latest DITA standards. The use of the `@alt` attribute for alternate text is deprecated, but it remains supported in previous DITA versions.
 
 Once you have inserted an image, you can change the height, width, placement, and attributes from the Content properties panel. Select the image file and then make changes in the Content properties panel in the right panel.
 
@@ -436,7 +437,7 @@ Select an image in the current topic and select the Insert/Edit Image Map icon t
 
 Choose the preferred shape Rectangle ![](images/imagemap-rectangle-toolbar.png), Circle ![](images/imagemap-circle-toolbar.png), or Polygon ![](images/imagemap-polygon-toolbr.png) to define an area over an image that you want to use as a link. After defining an area, the Reference dialog appears wherein you need to specify the link to internal or external content:
 
-![](images/reference-dialog.png){width="650" align="left"}
+![](images/reference-dialog.png){width="350" align="left"}
 
 If areas overlap, you can bring the shape forward or send it backward by clicking on the respective icon in the toolbar. You can also remove an area by selecting it and clicking the Delete icon. Double-clicking on an area opens the Reference dialog wherein you can change the destination link. Once you have marked the required areas on your image, save the changes by selecting **Done**.
 
@@ -450,13 +451,19 @@ Inserts different types of multimedia files. Select the Multimedia dropdown icon
 - YouTube
 - Vimeo
 
-On selecting the Audio or Video file option, you are shown the repository view to browse and select the desired file. If you choose YouTube or Vimeo, then you get the Insert Multimedia dialog. Paste the link of the video file in the Web Link field and select Insert to add the video at the current or next valid location in your document.
+On selecting the Audio or Video file option, you are shown the **Select file** dialog to browse and select the desired file from Repository or Collections. 
+
+![](images/select-file-dialog-multimedia.png){width="650" align="left"}
+
+If you choose YouTube or Vimeo, then you get the **Insert Multimedia** dialog. Paste the link of the video file in the Web Link field and select Insert to add the video at the current or next valid location in your document.
+
+![](images/insert-multimedia-dialog.png){width="350"  align="left"}
 
 >[!NOTE]
 >
 > While adding a YouTube video link, you need to replace the string `watch?v=` with `embed` in the URL. For example, to add a YouTube video link: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, you need to add it as: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. This change ensures that the video gets embedded in the AEM Site and PDF output.
 
-You can also add the Audio or Video File from the Insert Multimedia dialog. Select the Audio/Video File option and then, select the browse icon to launch the repository view. Select the audio or video file from the repository and select **Select** to add the link of the file in the Audio/Video File field. In case you choose a video file, then a preview of the file is also shown in the Preview area. You can play the video file to view its preview.
+You can also add the Audio or Video file from the **Insert Multimedia** dialog. Select the Audio/Video File option and then, select the browse icon to launch the repository view. Select the audio or video file from the repository and select **Select** to add the link of the file in the Audio/Video File field. In case you choose a video file, then a preview of the file is also shown in the Preview area. You can play the video file to view its preview.
 
 ![](images/insert-multimedia.png){width="650" align="left"}
 
@@ -495,22 +502,29 @@ If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then yo
 >
 > View the References section in the Best practices guide for best practices around referencing content.
 
-**Filter Search**
+**Filter search in Repository view**
 
-You can search for some text in the files present on the selected path of the AEM repository. For example, 'general' is searched in the given below screenshot. 
+In the **Select file** dialog, you can search for some text in the files present on the selected path of the **Repository**. For example, *braking* is searched in the below screenshot. 
 
-You can also narrow down your search using enhanced filters from the Right panel. 
-
-You can search for Non-DITA Files like the Image Files, Multimedia, and documents in the selected path. You can also search for specific values in the attributes of DITA elements. You can also look for files which are checked out by the specified user.
+>[!NOTE]
+>
+> The File and Path browser is introduced with a revamped UI in the 2601 release of Experience Manager Guides as a Cloud Service. The new interface is enabled by default. If you prefer to continue using the existing UI without these updates, contact your Customer Success team to have this new enhancement disabled.
 
 ![](images/reference-search-filters.png){width="650" align="left"}
+
+You can use the breadcrumbs on the top and folder navigation panel on the left to easily navigate through the folders. 
+
+![](images/select-file-browser-file-navigation.png)
+
+You can search for the required file by File name, File title, and Content. You can also narrow down your search using enhanced filters from the Right panel. For more details, view [Filter search in Repository](./web-editor-left-panel.md#filter-search-in-repository). 
+
+![](images/select-file-dialog-image-filter.png)
+
+The list of filtered files which contain the searched text is displayed. You can also preview the content of the file.
 
 >[!NOTE]
 >
 > Your system administrator can also configure the text filters and show or hide other filters. For more details, view *Configure text filters* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
-
-The list of filtered files which contain the searched text is displayed. For example, in the above screenshot the files containing the text 'general' are listed. You can also preview the content of the file.
-
 
 **Reusable Content** - ![](images/reusable-content.svg)
 
@@ -550,7 +564,7 @@ Insert keyword defined in your DITA map. Select the Keyword option to open the K
 
 The keywords are listed in alphabetical order and you can also search keyword\(s\) by typing a search string in the Search box. The search result will return the keywords containing the string in ID or Value. The keywords defined in your DITA map are listed in this dialog. Choose the keyword that you want to insert and select **Insert**.
 
-You can also change the attributes of the inserted keyword by right-clicking on the keyword and selecting the Attributes option. The **Attributes for Keyword dialog box open:
+You can also change the attributes of the inserted keyword by right-clicking on the keyword and selecting the Attributes option. The **Attributes for Keyword** dialog box open:
 
 ![](images/attributes-for-keyword.png){width="550" align="left"}
 
