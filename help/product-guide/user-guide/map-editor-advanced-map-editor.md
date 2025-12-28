@@ -30,7 +30,7 @@ The following options are available on the toolbar in the Layout view:
 
 **Topic reference** - ![](images/topic-reference.svg)
 
-Displays the topic search dialog. Navigate to the topic/map file that you want to insert and choose **Select** to add it to the map. 
+Displays the Select file dialog. Navigate to the topic/map file that you want to insert and choose **Select** to add it to the map. 
 
 ![](images/insert-topic-reference-dialog.png){align="left"}
 

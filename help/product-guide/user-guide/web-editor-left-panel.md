@@ -222,18 +222,19 @@ You can perform the following actions using the Options menu available for a *fo
     <summary> Steps to create a new topic </summary>
 
 Steps to create a new topic:
+
    1. Select **New** > **Topic**.
-   2. The **New topic** dialog box is displayed.
+   1. The **New topic** dialog box is displayed.
     
         ![](images/create-topic-dialog.png){width="300" align="left"}
 
-   3. In the **New topic** dialog box, provide the following details:
+   1. In the **New topic** dialog box, provide the following details:
         - A Title for the topic.
         - \(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then you will not view the Name field.
         - A template on which the topic will be based. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, Markdown, Glossary, and Troubleshooting templates. If your folder has a Folder Profile configured on it, then you will view only those topic templates that are configured on the Folder profile.
 
         - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.    
-    4. Select **Create**. The topic is created at the specified path. Also, the topic is opened in the Editor for editing.
+    1. Select **Create**. The topic is created at the specified path. Also, the topic is opened in the Editor for editing.
 
 </details>
 
@@ -610,8 +611,13 @@ By default, you can view the files by titles. As you hover over a file, you can 
 
 To add a DITA file to your Reusable content panel, use any of the following methods:
 
-- Select the **+** icon next to Reusable content to open the browse file dialog box. Select the file that you want to add and then select **Add** to complete the process.
+- Select the **+** icon next to Reusable content to open the **Select file** dialog. Select the file that you want to add and then choose **Select**. 
 
+    ![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+    
+    You can also use the **Remove** icon to deselect some files from the Preview. 
+
+    ![](images/resusable-content-remove-preview.png){width="650" align="left"}
 - In the Repository view, select the **Options** icon of the desired file and choose **Add to** > **Reusable content** from the context menu.
 
 - Right-click on a file's tab in the editor to open the context menu and choose **Add to** > **Reusable content**.
