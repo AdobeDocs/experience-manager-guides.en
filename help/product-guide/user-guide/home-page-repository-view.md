@@ -132,7 +132,7 @@ You have the following options to filter the files and to narrow down your searc
 
 - **Tags**: Filter content based on tags. 
 
-- **DITA element**: Filter content based on various DITA elements.
+- **DITA elements**: Filter content based on various DITA elements.
 
 After applying all the required filters, select **Apply** from the bottom-right corner of the Filters panel. 
 
