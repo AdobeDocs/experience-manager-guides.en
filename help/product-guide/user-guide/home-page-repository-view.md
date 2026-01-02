@@ -75,7 +75,7 @@ The Repository serves as the central space providing a tabular list of all the f
 
 - **Options menu for files**: You can perform the following actions using the **Options** menu for a file:
 
-    ![](images/options-file-repo.png){width="350" align="left"}
+    ![](images/options-file-repo-new.png){width="350" align="left"}
 
     - **Edit**: Open the file for editing.
     - **Edit in Oxygen**: Select this option to edit the selected file in the Oxygen connector plugin.

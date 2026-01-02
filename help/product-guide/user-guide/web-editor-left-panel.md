@@ -306,6 +306,13 @@ Steps to create a new folder:
 
     </details>
     
+- **Refresh**: Get a fresh list of files and folders from the repository.
+- **Collapse**: Collapse the selected folder in the repository.
+
+    >[!NOTE]
+    >
+    > Use the **\>** icon next to a folder to expand it.
+
 - **Find files in folder**: Shifts the focus to repository search wherein you can enter the search term. The search is performed under the selected folder in the repository. You can also apply a filter to return DITA Files, Image Files, or both.
 
     ![](images/find-files-in-folders-repo-view_cs.png){width="300" align="left"}
@@ -314,15 +321,8 @@ Steps to create a new folder:
 
     ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
 
-- **Collapse**: Collapse the selected folder in the repository.
-
-    >[!NOTE]
-    >
-    > Use the **\>** icon next to a folder to expand it.
-
 - **Add to collections**: Adds the selected folder to favorites. You can choose to add it to an existing or new collection.
 
-- **Refresh**: Get a fresh list of files and folders from the repository.
 - **Reprocess assets**: Triggers the processing of all the newly created and unprocessed assets for the folder. 
 - **View in Assets UI**: Show the folder contents in the Assets UI.
 
