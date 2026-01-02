@@ -27,7 +27,7 @@ As the initiator of the review task, you can then decide how to proceed based on
     
     >[!NOTE]
     >
-    > You can access the **Task Details** page for a more comprehensive view of a review task. To do this, select **Open task details** from the Options menu of any active review task. This opens the task details in the Projects console.
+    > You can access the **Task Details** page to manage the review task. To do this, select **Open task details** from the Options menu of any active review task. This opens task details in the Projects console.
 
     ![](images/task-details-selection-author-view.png)
 3. Select the **Task comments** icon to access and review the task level comments added by the Reviewer.
