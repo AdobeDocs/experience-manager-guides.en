@@ -140,7 +140,7 @@ A GET API that tracks the translation status for a newly created translation pro
 
 `http://<aem-guides-server>:<port-number>/bin/guides/v1/translation/project/creationstatus`
 
-## Request Parameters
+## Request parameters
 
 |Name|Type|Description|
 |----|----|-----------|
