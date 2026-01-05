@@ -323,7 +323,7 @@ Steps to create a new folder:
 
 - **Add to collections**: Adds the selected folder to favorites. You can choose to add it to an existing or new collection.
 
-- **Reprocess assets**: Triggers the processing of all the newly created and unprocessed assets for the folder. 
+- **Reprocess assets**: Triggers the processing of all the assets for the folder. 
 - **View in Assets UI**: Show the folder contents in the Assets UI.
 
 **Options for a file**
@@ -353,17 +353,20 @@ The various options in the Options menu are explained below:
 
 - **Edit**: Open the file for editing. In case of a .ditamap/.bookmap file, it is opened in the [Map Editor](map-editor-advanced-map-editor.md#) for editing.
 
-- **Duplicate**: Use this option to create a duplicate or a copy of the selected file. You also have the option to rename the duplicate file in the Duplicate Asset prompt. By default, the file is created with a suffix \(like filename\_1.extension\). The title of the file remains same as the source file and the new file begins with version 1.0. All references, tags, and metadata are copied while the baselines are not copied in the duplicate file.
-- **Lock**: Get a lock on the selected file for editing. If the file is locked, hovering the mouse pointer over the lock icon shows **Locked by you** if you locked it, or **Locked by [username]** if another user has locked it. 
+-  **Edit in Oxygen**: Select this option to edit the selected file in the Oxygen connector plugin. The file is opened for editing.
+
+    >[!NOTE] 
+    >
+    >Contact your customer success team to get this feature enabled in the environment. This isn't enabled as a part of the out-of-the-box support. For more details, view the [Configure the option to edit in Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) section in the Installation and Configuration Guide.
+
+- **Lock**: Get a lock on the selected file for editing. If the file is locked, hovering the mouse pointer over the lock icon shows **Locked by you** if you locked it, or **Locked by [username]** if another user has locked it.   
 
 - **Preview**: Get a quick preview of the file (.dita, .xml, audio, video, or image) without opening it. You can resize the preview pane. If the content contains any `<xref>` or `<conref>`, you can select it to open it in a new tab. The title of the file appears in the window. If no title is present, then the filename appears. To close the **Preview** panel, you can either select the close icon or select anywhere outside the pane.  
 
     ![](images/quick-preview_cs.png){   align="left"}
 
--  **Rename**: Use this option to rename the selected file. Enter the name of the new file in the **Rename Asset** dialog.  
-    - You can rename a file of any type. 
-    - You can't change the extension of a file. 
-    - Two files cannot have the same name. So, you cannot rename a file to a name that already exists. An error is displayed. 
+
+- **Duplicate**: Use this option to create a duplicate or a copy of the selected file. You also have the option to rename the duplicate file in the Duplicate Asset prompt. By default, the file is created with a suffix \(like filename\_1.extension\). The title of the file remains same as the source file and the new file begins with version 1.0. All references, tags, and metadata are copied while the baselines are not copied in the duplicate file.
 
 -  **Move to**: Use this option to move the selected file to another folder.  
    - You can either type the name of the destination folder or choose **Select Path** to select the destination folder.    
@@ -396,6 +399,11 @@ The various options in the Options menu are explained below:
     Renaming or moving any file does not break any existing references from or to the file, as every file has a unique UUID. 
     </details>
 
+- **Rename**: Use this option to rename the selected file. Enter the name of the new file in the **Rename Asset** dialog.  
+    - You can rename a file of any type. 
+    - You can't change the extension of a file. 
+    - Two files cannot have the same name. So, you cannot rename a file to a name that already exists. An error is displayed.    
+
 - **Delete**: Use this option to delete the selected file. A confirmation prompt is displayed before deleting the file.
 
     - A confirmation prompt is displayed before deleting the file.
@@ -421,16 +429,20 @@ The various options in the Options menu are explained below:
     >
     > You can also delete the selected file similarly using the Delete key of the keyboard.
 
+- **Generate**: Use the option to publish a map or topics within a map to a Sites page, Content Fragment, or Experience Fragment.    
+
+- **Add to**: You can choose from the following options:
+    - **Collections**: Adds the selected file to Collections. You can choose to add it to an existing or new collection.
+
+    - **Reusable content**: Adds the selected file to the Reusable content list in the left panel.
+
 - **Copy**: You can choose from the following options:
 
     - **Copy UUID**: Copy the UUID of the selected file to Clipboard.
 
     - **Copy Path**: Copy the complete path of the selected file to Clipboard.
 
-- **Add to**: You can choose from the following options:
-    - **Collections**: Adds the selected file to Collections. You can choose to add it to an existing or new collection.
-
-    - **Reusable content**: Adds the selected file to the Reusable content list in the left panel.
+- **Reprocess assets**: Triggers the processing of all the assets for the file.    
 
 - **Properties**: Use this to open the properties page of the selected file. 
 
@@ -438,23 +450,15 @@ The various options in the Options menu are explained below:
 
     You can also access the Properties page from the Assets UI by selecting a file and then selecting Properties icon in the toolbar. 
 
+- **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view.    
+
 - **Open in map dashboard**: In case the selected file is a DITA map, then this option opens the map dashboard.
 
 - **Open in map console**: In case the selected file is a DITA map, then this option opens the map console.
 
--  **Edit in Oxygen**: Select this option to edit the selected file in the Oxygen connector plugin. The file is opened for editing.
-
-    >[!NOTE] 
-    >
-    >Contact your customer success team to get this feature enabled in the environment. This isn't enabled as a part of the out-of-the-box support. For more details, view the [Configure the option to edit in Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) section in the Installation and Configuration Guide.
- 
-
-- **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view.
-
-- **Reprocess assets**: Triggers the processing of all the newly created and unprocessed assets for the file.
 -  **Download as PDF**: Use the option to generate the PDF output and download it.  
 
-- **Generate**: Use the option to publish a map or topics within a map to a Sites page, Content Fragment, or Experience Fragment.
+
 
 ## Explorer
 
