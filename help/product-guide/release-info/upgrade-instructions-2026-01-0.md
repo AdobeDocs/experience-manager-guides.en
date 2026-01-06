@@ -47,6 +47,10 @@ This section points the compatibility matrix for the software applications suppo
 
 Experience Manager Guides is upgraded automatically upon upgrading to the latest release of Experience Manager as a Cloud Service.
 
+>[!NOTE]
+>
+> This release includes updates to folder profile settings (ui_config.json). If you are using custom settings, ensure to take a back up of those before upgrading. After the update, review and adjust your settings to align with the changes introduced in the latest version.
+
 Perform the following steps for Experience Manager Guides as a Cloud Service if you haven't done it earlier for your existing release:
 
 ### Steps to enable the trigger of a script via a servlet
