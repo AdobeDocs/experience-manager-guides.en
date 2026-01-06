@@ -17,9 +17,9 @@ This section points the compatibility matrix for the software applications suppo
 
 ### FrameMaker and FrameMaker Publishing Server
 
-| Experience Manager Guides as a Cloud Release| FMPS | FrameMaker |
-| --- | --- | --- |
-| 2026.01.0 | Not compatible | 2022 or higher |
+| Experience Manager Guides as a Cloud Release| FMPS | FrameMaker | Oxygen Author |
+| --- | --- | --- | --- |
+| 2026.01.0 | Not compatible | 2022 or higher | 26.1 |
 
 
 ### Oxygen Connector
