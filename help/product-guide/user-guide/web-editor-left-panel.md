@@ -359,6 +359,10 @@ The various options in the Options menu are explained below:
     >
     >Contact your customer success team to get this feature enabled in the environment. This isn't enabled as a part of the out-of-the-box support. For more details, view the [Configure the option to edit in Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) section in the Installation and Configuration Guide.
 
+- **Open in map dashboard**: In case the selected file is a DITA map, then this option opens the map dashboard.
+
+- **Open in map console**: In case the selected file is a DITA map, then this option opens the map console.    
+
 - **Lock**: Get a lock on the selected file for editing. If the file is locked, hovering the mouse pointer over the lock icon shows **Locked by you** if you locked it, or **Locked by [username]** if another user has locked it.   
 
 - **Preview**: Get a quick preview of the file (.dita, .xml, audio, video, or image) without opening it. You can resize the preview pane. If the content contains any `<xref>` or `<conref>`, you can select it to open it in a new tab. The title of the file appears in the window. If no title is present, then the filename appears. To close the **Preview** panel, you can either select the close icon or select anywhere outside the pane.  
@@ -444,21 +448,15 @@ The various options in the Options menu are explained below:
 
 - **Reprocess assets**: Triggers the processing of all the assets for the file.    
 
+- **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view. 
+
 - **Properties**: Use this to open the properties page of the selected file. 
 
     Any addition, deletion, or modification of metadata properties on this page (whether default or custom), will trigger the [working copy indicator](./web-editor-edit-topics.md#working-copy-indicator) on the document version. If the version was previously clean, it will be marked as dirty once a metadata property is changed.
 
     You can also access the Properties page from the Assets UI by selecting a file and then selecting Properties icon in the toolbar. 
-
-- **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view.    
-
-- **Open in map dashboard**: In case the selected file is a DITA map, then this option opens the map dashboard.
-
-- **Open in map console**: In case the selected file is a DITA map, then this option opens the map console.
-
--  **Download as PDF**: Use the option to generate the PDF output and download it.  
-
-
+   
+- **Download as PDF**: Use the option to generate the PDF output and download it.  
 
 ## Explorer
 
