@@ -141,7 +141,7 @@ The Editor provides a smart file browse dialog. The editor remembers the last us
 
 ## Browse files and folders in Experience Manager Guides
 
-Experience Manager Guides provides intuitive dialogs - - **Select file** and **Select path** - to help you browse and choose files or folders within the content repository efficiently. 
+Experience Manager Guides provides intuitive dialogs - **Select file** and **Select path** - to help you browse and choose files or folders within the content repository efficiently. 
 
 >[!NOTE]
 >
@@ -215,7 +215,7 @@ You have the following options to filter the files and to narrow down your searc
 
     >![NOTE]
     >
-    > The **File type** filter is automatically applied based on the task and cannot be changed. For example, when browsing for an image, the filter is set to display only image files, and when creating reusable content, it is set to show only topic and map files. You can still adjust other filters such as document state, tags, or last modified date to refine your search results.
+    > In some cases, the **File type** filter is pre-applied on specific file type(s) based on the task and cannot be changed. For example, when browsing for an image, the filter is set to display only image files, and when creating reusable content, it is set to show only topic and map files. You can still adjust other filters such as document state, tags, or last modified date to refine your search results.
 
 - **Document state**: You can filter your search based on the current document state of the files. The available filter values are defined in the `repositoryFilters` field of the `ui_config.json file` and are associated with the folder profile you are currently using.    
 
