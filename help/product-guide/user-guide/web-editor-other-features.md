@@ -175,9 +175,11 @@ In some cases, you can also select multiple files from this path browser dialog.
 
  ![](images/select-file-multiple-file-selection.png){width="650" align="left"}
 
+Multiple file selection is currently available for Reusable content, topic references, Schematron, Output presets (using DITAVAL), and Workfront.  
+
 >![NOTE]
 >
-> When selecting files from the path browser dialog, some files or folders may appear disabled. This behavior restricts access to specific file types to ensure valid selections. For example, when creating reusable content, only topic and map files must be used. To prevent using an invalid file type, such as an image, the corresponding folders and files are disabled in the path browser.
+> When selecting files from the path browser dialog, some folders may appear disabled. This behavior restricts access to specific file types to ensure valid selections. For example, when creating reusable content, only topic and map files must be used. To prevent using an invalid file type, such as an image, the corresponding files are either not displayed or remain disabled for selection in the path browser.
 
 **Preview selected files**
 
