@@ -383,7 +383,7 @@ In the **Select file** dialog, you can browse the required image file from **Rep
 
 >[!NOTE]
 >
-> The File and path browser is introduced with a revamped UI in the 2601 release of Experience Manager Guides as a Cloud Service. The new interface is enabled by default. If you prefer to continue using the existing UI without these updates, contact your Customer Success team to have this new enhancement disabled.
+> The File and folder path browser is introduced with a revamped UI in the 2601 release of Experience Manager Guides as a Cloud Service. The new interface is enabled by default. If you prefer to continue using the existing UI without these updates, contact your Customer Success team to have this new enhancement disabled.
 
 ![](images/select-file-browser-images.png)
 
@@ -391,7 +391,7 @@ Use the breadcrumbs on the top and folder navigation panel on the left to easily
 
 ![](images/select-file-browser-file-navigation.png)
 
-You can search for the required image file by File name, File title, and Content. You can also filter the search results by Path \(to search in\), File type, Document state, Locked by, Last modified, and Tags. 
+You can search for the required image file by File name, File title, and Content. You can also filter the search results by Path \(to search in\), Document state, Locked by, Last modified, and Tags. The File type filter is pre-aplied to **Images** and remains disabled for other file types to allow valid file selections. For more details on using filters on this path browser, view [Other features in the Editor](/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides). 
 
 ![](images/select-file-dialog-image-filter.png)
 
@@ -516,7 +516,7 @@ You can use the breadcrumbs on the top and folder navigation panel on the left t
 
 ![](images/select-file-browser-file-navigation.png)
 
-You can search for the required file by File name, File title, and Content. You can also narrow down your search using enhanced filters from the Right panel. For more details, view [Filter search in Repository](./web-editor-left-panel.md#filter-search-in-repository). 
+You can search for the required file by File name, File title, and Content. You can also narrow down your search using enhanced filters from the Right panel. For more details, view [Other features in the Editor](./web-editor-other-features#browse-files-and-folders-in-experience-manager-guides). 
 
 ![](images/select-file-dialog-image-filter.png)
 

@@ -613,7 +613,10 @@ By default, you can view the files by titles. As you hover over a file, you can 
 
 To add a DITA file to your Reusable content panel, use any of the following methods:
 
-- Select the **+** icon next to Reusable content to open the **Select file** dialog. Select the file that you want to add and then choose **Select**. 
+- Select the **+** icon next to Reusable content to open the **Select file** dialog. 
+- Select the file that you want to add and then choose **Select**. You can also search for specific files using filter search option. For more details, view [Other features in the Editor](./web-editor-other-features#browse-files-and-folders-in-experience-manager-guides). 
+
+    
 
     ![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
     
@@ -623,7 +626,6 @@ To add a DITA file to your Reusable content panel, use any of the following meth
 - In the Repository view, select the **Options** icon of the desired file and choose **Add to** > **Reusable content** from the context menu.
 
 - Right-click on a file's tab in the editor to open the context menu and choose **Add to** > **Reusable content**.
-
 
 Once the file is added, you can view all reusable content elements from the file in the Reusable content panel. Reusable content is shown with their IDs and element names.
 
