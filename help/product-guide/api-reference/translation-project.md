@@ -13,6 +13,10 @@ A POST method that helps you create a translation project by accepting the requi
 
 `http://<aem-guides-server>:<port-number>/bin/guides/v1/translation/project/create`
 
+## Request type
+
+POST
+
 ## Request parameters
 
 |Name|Type|Description|
@@ -139,6 +143,10 @@ A GET API that tracks the translation status for a newly created translation pro
 ## Request URL
 
 `http://<aem-guides-server>:<port-number>/bin/guides/v1/translation/project/creationstatus`
+
+## Request type
+
+GET 
 
 ## Request parameters
 
