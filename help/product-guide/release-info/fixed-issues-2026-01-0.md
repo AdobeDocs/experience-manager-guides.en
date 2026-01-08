@@ -45,6 +45,12 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 
 - The Broken list report is incorrectly including external links, valid `keyrefs` and keywords that are properly resolved within scope of current map. (GUIDES-27774)
 
+## Known issues
+
+Adobe has identified the following known issues for the 2025.11.0 release:
+
+
+
 
 
 
