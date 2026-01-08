@@ -48,13 +48,29 @@ On the **Task Details** page, you can simply select or unselect topics to modify
 
 ## Enhanced file and folder browsing experience 
 
-Experience Manager Guides now introduces enhanced user interface for browsing folders and files in Experience Manager Guides.
+Experience Manager Guides now offers a redesigned file and folder path browser, delivering a cleaner and more intuitive experience for navigating and selecting content. This enhancement simplifies how you browse the repository or collections, navigate through folders, select files, apply filters, and more.
 
-The new **Select file** dialog features two tabs - **Repository** and **Collections**, allowing you to choose where your files are located before proceeding. In the Repository tab, you can search for files by name, title, or content within the selected path. You can also use the breadcrumbs at the top and the folder navigation panel on the left to move through folders. To narrow down your search results, you can use the available filtering options from the Filters panel.  
+When browsing files, experience enhancements to the **Select file** dialog which is now available in a tabbed layout with two views:
 
-For more details on using Repository filters, view [Filter search in Repository](../user-guide/web-editor-left-panel.md#filter-search-in-repository).
+- **Repository**: Browse the complete folder hierarchy in a tabular view for easy access and navigation.  
+- **Collections**: Quickly access curated sets of frequently used topics, maps, and images without navigating through multiple folders.
 
-The **Select path** dialog, on the other hand, provides an enhanced user interface for selecting folder paths with ease. Folders are displayed in a clear, tree-structured view, allowing you to quickly navigate through the hierarchy and choose the correct path for your content. 
+![](assets/select-file.png){width="650" align="left"}
+
+Key highlights include:
+
+- Tabular view of files and folders for organized navigation
+- Breadcrumbs and folder navigation panel for seamless movement
+- Support for multi-file selection for Reusable content, topic references, Schematron, Output presets (using DITAVAL), and Workfront.  
+- Preview selected files for easy review; for multiple selections, preview all files and remove any from the Preview panel as needed.
+- Advanced search and filters to narrow down results by name, title, file type, document state, and tags.
+
+When browsing folders, the **Select path** dialog now provides an improved interface for selecting folder paths with ease. Folders are displayed in a clear, tree-structured view, allowing you to quickly navigate through the hierarchy and choose the correct path for your content.
+
+![](assets/select-path-dialog-new.png){width="350" align="left"}
+
+For more details, view [Browsing files and folders in Experience Manager Guides](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides) section in _Other features in the Editor_. 
+
 
 ## Working copy indicator for metadata changes
 
@@ -113,11 +129,35 @@ The following API enhancements have been made in this release:
 - Support for element-level mapping for AEM Sites (using Composite component mapping), allowing authors to define custom mappings for individual DITA elements. 
 - Enhanced APIs to support filtering ability for asset processing for files and folders.
 
-## Find and replace new enhancements 
+## Introducing Source mode search in Find and replace
+
+Experience Manager Guides introduces powerful enhancements to the **Find and replace** feature available in the Left panel of Editor the interface. Along with a refreshed, cleaner UI for better usability, this release brings a powerful new capability - **Source mode** in the **Find and replace** panel.
+
+With the new toggle in the Find and replace panel, you can now perform global search and replace not only in Author view but also in Source view. Source mode scans both visible content and the underlying XML structure, including elements, tags, and attribute values, ensuring a comprehensive search across content and metadata.
+
+Now, the Find and replace feature can be used in two distinct modes, depending on your search requirements:
+
+- **With Source mode:** The search scans not only the visible content in Author view but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched term. This mode ensures a comprehensive search across both content and metadata. To use this feature, you must first [index your content](../cs-install-guide/custom-indexing.md) depending on the setup you are using. After indexing, contact your Customer Success team to enable this feature.
+
+    ![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
+- **Without Source mode:** The search is restricted to the text displayed in the Author view, focusing solely on the visible content skipping the source content like XML elements or attributes. This mode is ideal for quick, content-only searches.
+
+    ![](assets/map-find-replace-without-source-mode.png){width="650" align="left"}
 
 
+**Key highlights include:**
 
+- Search in Source view to include XML elements, tags, and attributes.
+- Apply filters in Source mode to refine results by File type, Document state, Last modified date, and more.
+- Download a CSV report after Replace All, with details of all replacements, including successes and failures.
 
+For more details, view [Find and replace](../user-guide/web-editor-left-panel.md#find-and-replace) section in _Left panel in Editor_.
+
+## Language variables for Cross references in PDF Output
+
+You can now define [language variables for PDF output](../native-pdf/native-pdf-language-variables.md) for static cross-reference text such as _See in chapter_ or _See on page_. These variables automatically adapt based on the map language, eliminating manual translation during multi-language PDF publishing. When set at a parent `topicref`, the changes propagate to all associated references and child topics, ensuring consistency and simplifying localization.
+
+For details on configuring Native PDF output preset, view [Native PDF output preset](../web-editor/native-pdf-web-editor.md).
 
 
 
