@@ -1086,15 +1086,17 @@ By default, you can view the files by titles. As you hover over a file, you can 
 >
 > As an administrator, you can also choose to view the list of filenames in the Editor. Select the **File name** option of the **Editor files display configuration** section in **User preferences**.
 
-The Find and Replace feature can be used in two distinct modes, depending on your search requirements:
+The Find and Replace feature can be used in two distinct modes, depending on your requirements:
 
-- **With Source mode:** The search scans not only the visible content in Author view but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched term. This mode ensures a comprehensive search across both content and metadata. 
+- **With Source mode:** The search scans not only the visible content but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched term. This mode ensures a comprehensive search across the entire content. 
 
     >[!NOTE]
     >
-    > The **Use source mode** feature is available in the Experience Manager Guides as a Cloud Service with 2026.01.0 release and for On-Premise setup with 5.2 release. To use this feature, you must first index your content depending on the setup you are using. After indexing, contact your Customer Success team to enable this feature. 
-    > * **For Cloud services**: A custom index deployment must be performed. For details, view [Deploying custom index](/help/product-guide/cs-install-guide/custom-indexing.md).  
-    > * **For On-Premise**: Re-indexing of existing content is required before the feature can be used. For details, view [Reindexing content](/help/product-guide/install-guide/custom-indexing-prem.md). 
+    > The **Use source mode** feature is available in the Experience Manager Guides as a Cloud Service with 2026.01.0 release and for On-Premise setup with 5.2 release. To use this feature, you must first index your content depending on the setup you are using. 
+    > * **For Cloud services**: A custom index deployment must be performed. For details, view [Deploying custom index](/help/product-guide/cs-install-guide/custom-indexing.md). Once completed, contact your Customer Success team to enable this feature.
+
+    > * **For On-Premise**: Re-indexing of existing content is required before the feature can be used. For details, view [Reindexing content](/help/product-guide/install-guide/custom-indexing-prem.md). Once completed, contact your Customer Success team to enable this feature.
+
 
     ![](images/map-find-replace-with-source-mode.png){align="left"}
 
@@ -1114,6 +1116,7 @@ To perform the global search and replace, perform the following steps:
 
     - **Path**: To search on the selected path
     - **Map**: To search in the currently opened map
+    - **Select Map**: To search in the selected map
 
     ![](images/path-dropdown.png){align="left"}  
         
@@ -1178,6 +1181,7 @@ To perform the global search and replace with the Source mode enabled, perform t
 
     - **Path**: To search on the selected path
     - **Map**: To search in the currently opened map
+    - **Select Map**: To search in the selected map
 
     ![](images/path-dropdown-source-mode.png){align="left"}     
 
@@ -1201,7 +1205,7 @@ To perform the global search and replace with the Source mode enabled, perform t
 
 1. Enter the term you want to use as the replacement in the **Replace with** field. To customize how replacements are applied, click the **Settings** icon next to the field and choose from the available options.
 
-    - **Replace unlocked files**: Select this option to replace in the unlocked files. This field is displayed based on whether Edit without checkout is enabled or disabled. When disabled, the file remains read-only.
+    - **Replace unlocked files**: Select this option to allow replace in the unlocked files. This field is displayed based on whether Edit without checkout is enabled or disabled. When disabled, the file remains read-only.
 
     - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file. If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
 
@@ -1212,7 +1216,7 @@ To perform the global search and replace with the Source mode enabled, perform t
 
     ![](images/search-icon.png){align="left"}
 
-1. Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
+1. Select a file from the search result list. The file is opened in the Source view with the searched term highlighted in the content.
 
 1. Select **Replace occurrence** to replace the currently highlighted search term in the topic or select the top and bottom arrows to move to the next or previous occurrence of the text.
 
@@ -1222,7 +1226,7 @@ To perform the global search and replace with the Source mode enabled, perform t
 
     ![](images/replace-all.png){align="left"}
 
-    To enable the **Replace all** icon, your system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
+    To enable the **Replace all** button, your folder profile administrator or system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
 
     >[!NOTE]
     >
