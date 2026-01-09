@@ -11,13 +11,12 @@ For the list of issues that have been fixed in this release, view [Fixed issues 
 
 ## Compatibility matrix
 
-This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 5.1.0 release. 
+This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 5.1.0 Service Pack 3 release. 
 
-### Adobe Experience Manager
-
-**5.1.0 Service Pack 3 UUID**
-
-Version 6.5 Service Pack 23, Service Pack 22, and Service Pack 21
+|AEM Guides| AEM Version| Service Pack |
+| --- | --- | --- |
+|5.1.0 Service Pack 3 (UUID) | 6.5 LTS | 1  |
+|5.1.0 Service Pack 3 (UUID) | 6.5  | 23, 22, 21 |
 
 For more details, view the [Technical requirements](../install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
 
@@ -41,10 +40,11 @@ For more details, view the [Technical requirements](../install-guide/download-in
 
 ### New AEM Site template version
 
+|AEM Guides | AEM version | Components version | Site version|
+|---|---|---| ---|
+|5.1.0 Service Pack 3 UUID |6.5 LTS | guides-components.all-1.4.1|aemg-docs.all-1.2.0|
+|5.1.0 Service Pack 3 UUID |6.5 | guides-components.all-1.4.0|aemg-docs.all-1.2.0|
 
-| Components version | Site version|
-|---|---|
-|guides-components.all-1.4.0|aemg-docs.all-1.2.0|
 
 ## Prerequisites
 
@@ -52,7 +52,13 @@ As per standard DITA behavior, the scope=`external` attribute must not be applie
 
 ## Upgrade to 5.1.0 Service Pack 3 release of Experience Manager Guides
 
-You can easily upgrade your current version of Guides to version 5.1.0 Service Pack 3. Before you proceed with upgrading to version 5.1.0 Service Pack 3 of Experience Manager Guides, you must consider the following points:
+You can easily upgrade your current version of Experience Manager Guides to version 5.1.0 Service Pack 3 on **AEM 6.5** or **AEM 6.5 LTS**. 
+
+>[!NOTE]
+>
+> If you are currently on AEM 6.5 and plan to move to AEM 6.5 LTS, make sure to complete the AEM upgrade first before proceeding with the Experience Manager Guides 5.1.0 Service Pack 3 upgrade. For details, view [Upgrading to Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+
+Before you proceed with upgrading to version 5.1.0 Service Pack 3 of Experience Manager Guides, you must consider the following points:
 
 - If you are using version 5.1.0, or 5.1.x , then you can directly upgrade to version 5.1.0 Service Pack 3. 
 - If you are using version 4.6.0, 4.6.x, 5.0.0, or 5.0.x, then you need to upgrade to version 5.1.0.
