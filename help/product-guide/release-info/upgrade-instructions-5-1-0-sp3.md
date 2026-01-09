@@ -54,9 +54,11 @@ As per standard DITA behavior, the scope=`external` attribute must not be applie
 
 You can easily upgrade your current version of Experience Manager Guides to version 5.1.0 Service Pack 3 on **AEM 6.5** or **AEM 6.5 LTS**. 
 
+If you are currently on Experience Manager Guides version 5.1.0 (AEM 6.5 LTS), then you can directly upgrade to version 5.1.0 Service Pack 3 (AEM 6.5 LTS).
+
 >[!NOTE]
 >
-> If you are currently on AEM 6.5 and plan to move to AEM 6.5 LTS, make sure to complete the AEM upgrade first before proceeding with the Experience Manager Guides 5.1.0 Service Pack 3 upgrade. For details, view [Upgrading to Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> If you are currently on AEM 6.5 and plan to move to AEM 6.5 LTS, view [Upgrading to Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade). 
 
 Before you proceed with upgrading to version 5.1.0 Service Pack 3 of Experience Manager Guides, you must consider the following points:
 
