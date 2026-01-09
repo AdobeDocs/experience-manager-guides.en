@@ -16,13 +16,13 @@ Learn about [upgrade instructions for the 2026.01.0 release](../release-info/upg
 
 This release introduces a cleaner, more intuitive interface for browsing files and folder paths in Experience Manager Guides. 
 
-When browsing files, the revamped **Select file** dialog now features a tabbed layout with two views - **Repository** for navigating the complete folder hierarchy in a structured format, and **Collections** for quick access to frequently used topics, maps, and images. 
+When browsing files, the revamped **Select file** dialog now features a tabbed layout with two views - **Repository** for navigating the entire content respository in a tabular format, and **Collections** for quick access to frequently used topics, maps, and images. 
 
 ![](assets/select-file.png){width="650" align="left"}
 
 Key enhancements include:
 
-- Tabular view of files and folders for organized navigation
+- Tabular view of files and folders for organized navigation.
 - Breadcrumbs and folder navigation panel to move easily through the folders.
 - Support for multi-file selection for Reusable content, Topic references, Schematron, Output presets (using DITAVAL), and Workfront.  
 - Preview selected files for easy review; for multiple selections, preview all files and remove any from the Preview panel as needed.
@@ -37,7 +37,7 @@ For more details, view [Browsing files and folders in Experience Manager Guides]
 
 ## New Document state filter for Repository on the Home page
 
-Now, filter your Repository search based on the current document state of the files. With the new **Document state** filter, you can narrow down your search using the available filter values defined in the `ui_config.json` file within your Folder profile.  
+Now, filter your Repository search results based on the current document state of the files. With the new **Document state** filter, you can narrow down your search using the available filter values defined in the `ui_config.json` file within your Folder profile.  
 
 ![](assets/document-state-filter-repository.png){width="300" align="left"}
 
@@ -47,9 +47,9 @@ The default filter values available for Document state are: Draft, Edit, In-Revi
 
 The following Editor enhancements have been made as part of this release:
 
-- **Introuced Source mode search in Find and replace**: Experience Manager Guides introduces several enhancements to the **Find and replace** feature available in the Left panel of the Editor interface. Along with an improved UI for better usability, this release introduces a new capability - **Use source mode** in the **Find and replace** panel.
+- **Introduced Source mode search in Find and replace**: Experience Manager Guides introduces several enhancements to the **Find and replace** feature available in the Left panel of the Editor interface. Along with an improved UI for better usability, this release introduces a new **Use source mode** toggle in the **Find and replace** panel.
 
-    This **Use source mode** toggle allows you to perform global search and replace across both Author view and Source view. Source mode scans not only the visible content in Author view but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched string, ensuring a comprehensive search throughout your content.
+    Enabling this mode, allows you to perform global search and replace across both Author view and Source view. Source mode scans not only the visible content in Author view but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched string, ensuring a comprehensive search throughout your content.
 
     ![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
 
@@ -66,16 +66,17 @@ The following Editor enhancements have been made as part of this release:
 
         ![](assets/refresh-topic.png){width="600" align="left"}
 
-    For more details, view [Map editor features](../user-guide/map-editor-advanced-map-editor.md). 
+        For more details, view [Map editor features](../user-guide/map-editor-advanced-map-editor.md). 
 
 - **Working copy indicator for metadata changes**: Any changes to the metadata fields available under **File properties** will now trigger the working copy indicator. A document version is marked as _dirty (*)_ whenever you add, delete, or modify any default or custom metadata fields. This enhancement ensures that all metadata changes are accurately tracked, providing greater visibility and control over document versions.
 - **Support for word count for topics and maps**: You can now track the word count present within a map or topic file. The new **Word count** field in the Right panel would display the total number of words present within a topic (or map), where words separated by spaces are counted as individual words. It refreshes automatically each time you save changes. For cross-references, only the display text is included, while keys are excluded.
 
     ![](assets/file-properties-new.png){width="350" align="left"} 
 
-For details, view [Right panel in Editor](../user-guide/web-editor-right-panel.md#file-properties).
+    For details, view [Right panel in Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
 - **Thumbnail icon for multimedia in Repository and Search panel**: All multimedia files are now displayed with thumbnail icons, making it easier to visually identify and locate images within the **Repository**. This enhancement also applies when searching for files in the **Search panel**, helping you quickly distinguish multimedia assets from other file types. 
+- **Improved handling for Read only files**: Editing File properties is now restricted for Read only files. If a file is locked by another user (available in Read only mode), you cannot change any metadata property, whether from the [Right panel](../user-guide/web-editor-right-panel.md#file-properties), the **Properties** option in the [context menu of a file](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab), or the [Metadata Report](../user-guide/reports-web-editor.md#metadata-report). This helps prevent accidental changes to files that are locked.
 
 ## Add or remove topics from an ongoing Review task
 
@@ -84,10 +85,6 @@ Now, you can add new topics to an ongoing review task (if they were not previous
 On the **Task Details** page, you can simply select or unselect topics to modify the topic list. Reviewers are notified (via AEM and email) about any changes to their assigned topics through AEM and Email notifications. For more details, view [Send topics for review](../user-guide/review-send-topics-for-review.md).
 
 ![](assets/modify-review-topics.png){width="650" align="left"}
-
-## Improved handling for Read only files
-
-Editing File properties is now allowed only for unlocked files. If a file is locked by another user (available in Read only mode), you cannot change any metadata, whether from the [Right panel](../user-guide/web-editor-right-panel.md#file-properties), the **Properties** option in the [context menu of a file](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab), or the **Metadata** page in [Reports](../user-guide/reports-web-editor.md#metadata-report). This helps prevent accidental changes to files that are locked.
 
 ## Indicator for unversioned assets sent for translation 
 
@@ -107,14 +104,14 @@ The following publishing enhancements have been made as part of this release:
 - **Configure custom image renditions for specific output presets**: You can now configure different image renditions for individual output presets under the same output type by using the `outputName` attribute in `renditionmapping.xml`. This enhancement gives you greater flexibility when publishing content that requires varying image resolutions for different scenarios. For example, you might want a high-resolution image for your main HTML5 output while using a smaller thumbnail for a lightweight preset.
 
     For more details, view [Handle image rendition in output generation](../cs-install-guide/conf-output-generation.md#handle-image-rendition-during-output-generation).
-- **Download logs for generated output**: When generating output through the Assets UI, a new button **Download logs** is now available that allows you to download the extensive list of logs to your local device for easier access and review. 
+- **Download logs for generated output**: When generating output through the Assets UI, a new **Download logs** button is now available that allows you to download the extensive list of logs to your local device for easier access and review. 
 - **Language variables for Cross references in PDF Output**: When publishing Native PDF output, you can use [language variables](../native-pdf/native-pdf-language-variables.md) to translate static cross-reference text like _See in chapter_ or _See on page_. The language is determined by the `xml:lang` attribute in `topicref`, or is set to the language defined in the output preset for the map. When set at a parent `topicref` through the `xml:lang` attribute, the language changes are propagated to all associated references and child topics, ensuring consistency and simplifying localization.
 
     For details on configuring Native PDF output preset, view [Native PDF output preset](../web-editor/native-pdf-web-editor.md).
 
 ## Enhancements to Asset processing 
 
-This relase introduces several enhancements to asset processing in Experience Manager Guides. You can now: 
+This release introduces several enhancements to asset processing in Experience Manager Guides. You can now: 
 
 - run asset processing not only at the folder level but also for individual files.
 - choose specific asset types such as topics, maps, Markdown, HTML/CSS, DITAVAL, or other supported files, to process only the files you need. 
@@ -127,11 +124,9 @@ For more details on processing assets, view [Process assets](../user-guide/asset
 
 The following API enhancements have been made as part of this release:
 
-- New APIs are introduced to create new translation project and track their status. For details, view []
-- New API is introduced to provide support for element-level mapping for AEM Sites (using Composite component mapping).
-- Enhanced APIs to support filtering ability for asset processing for files and folders. 
-
-For details, view[]
+- New APIs are introduced to create new translation project and track their status. These APIs help automate the translation process, reducing manual effort and improving efficiency. For details, view [Create translation project](../api-reference/translation-project.md)
+- New API is introduced to provide support for element-level mapping for AEM Sites (using Composite component mapping). Authors can set custom mappings for individual DITA elements to control how content appears on pages. For details, view []
+- Enhanced APIs to support filtering ability for asset processing for files and folders. For details, view[Create custom level mapping in AEM Sites](../cs-install-guide/component%20mapping.md). 
 
 
 
