@@ -452,7 +452,7 @@ The various options in the Options menu are explained below:
 
 - **Properties**: Use this to open the properties page of the selected file. 
 
-    Any addition, deletion, or modification of metadata properties on this page (whether default or custom), will trigger the [working copy indicator](./web-editor-edit-topics.md#working-copy-indicator) on the document version. If the version was previously clean, it will be marked as dirty once a metadata property is changed.
+    Any addition, deletion, or modification of metadata properties on this page (whether default or custom), will trigger the [working copy indicator](./web-editor-edit-topics.md#working-copy-indicator) on the document version. 
 
     You can also access the Properties page from the Assets UI by selecting a file and then selecting Properties icon in the toolbar. 
    
