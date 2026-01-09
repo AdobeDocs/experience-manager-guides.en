@@ -446,7 +446,7 @@ The various options in the Options menu are explained below:
 
     - **Copy Path**: Copy the complete path of the selected file to Clipboard.
 
-- **Reprocess assets**: Triggers the processing of all the assets for the file.    
+- **Reprocess assets**: Triggers the processing for the selected asset.    
 
 - **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view. 
 
@@ -1228,9 +1228,11 @@ To perform the global search and replace with the Source mode enabled, perform t
 
     To enable the **Replace all** button, your folder profile administrator or system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
 
+1. You can also hover over a file from the search result list to view **Replace all in file** icon on the right of it, that enables you to replace all the occurrences of the term in a single file.    
+
     >[!NOTE]
     >
-    > Hover over a file from the search result list to view **Replace all in file** icon on the right of it, that enables you to replace all the occurrences of the term in a single file. You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
+    > You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
 
 1. After the Replace all operation completes, a downloadable CSV report is generated, providing a snapshot of all replace actions performed. You can download the report to view detailed information on the replace operations, including the number of occurrences successfully replaced, along with details of each, as well as any failures and their corresponding reasons.
 

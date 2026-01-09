@@ -71,7 +71,7 @@ The Repository serves as the central space providing a tabular list of all the f
     - **New**: Create a new DITA topic, DITA map, or a folder. 
     - **Upload Assets**: Upload a file from your local system to the selected folder in repository.
     - **Add to collections**: Adds the selected folder to favorites. You can choose to add it to an existing or new collection.
-    - **Reprocess assets**: Triggers the processing of all the newly created and unprocessed assets.
+    - **Reprocess assets**: Triggers the processing for all the assets in the folder. 
 
 - **Options menu for files**: You can perform the following actions using the **Options** menu for a file:
 
@@ -94,7 +94,7 @@ The Repository serves as the central space providing a tabular list of all the f
     - **Delete**: Use this option to delete the selected file.
     - **Add to**: Choose to add to Collections or Reusable content.
     - **Copy**: Copies the UUID or complete path of the file.   
-    - **Reprocess assets**: Triggers the processing of all the newly created and unprocessed assets for the file. 
+    - **Reprocess assets**: Triggers the processing for the selected asset. 
     - **Properties**: Use this to open the Properties page of the selected file.
     - **Download as PDF**: Use the option to generate the PDF output and download it.  
       
