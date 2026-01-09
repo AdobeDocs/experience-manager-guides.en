@@ -1143,7 +1143,7 @@ To perform the global search and replace with the Source mode, perform the follo
 
 1. Enter the term you want to use as the replacement in the **Replace with** field. To customize how replacements are applied, click the **Settings** icon next to the field and choose from the available options.
 
-    - **Replace unlocked files**: Select this option to allow replace in the unlocked files. This field is displayed based on whether Edit without checkout is enabled or disabled. When disabled, the file remains read-only.
+    - **Replace unlocked files**: Select this option to allow replace in the unlocked files.
 
     - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file. If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
 
@@ -1171,11 +1171,11 @@ To perform the global search and replace with the Source mode, perform the follo
     ![](images/replace-all-in-file.png){align="left"}
 
 
-1. After the Replace all operation completes, a downloadable CSV report is generated, providing a snapshot of all replace actions performed. You can download the report to view detailed information on the replace operations, including the number of occurrences successfully replaced, along with details of each, as well as any failures and their corresponding reasons.
+1. After the Replace all operation completes, a downloadable CSV report is generated, providing a snapshot of all replace actions performed. You can download the report to view detailed information on the replace operations, including the number of occurrences successfully replaced, along with details of each, as well as any failures and their corresponding reasons. The operation may fail for due to some specific reasons, such as file being locked by another user, validation errors caused by changes made to the file during the operation, or other similar issues.  
 
     ![](images/snapshot-replace-all.png){align="left"}
 
-Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between. If you abort the operation, you will receive a notification about it in your Inbox. The Replace all option can fail under some instances like, if the file is locked by some one else, and more.  
+Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between. If you abort the operation, you will receive a notification about it in your Inbox. 
 
 ![](images/replace-all-in-progress-source-mode.png){width="300" align="left"}
 
