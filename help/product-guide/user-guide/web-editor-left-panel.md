@@ -1181,6 +1181,7 @@ Only one replace all operation can be performed at a time in the whole system, a
 
 </details>    
 
+<br>
 
 - **Without Source mode:** The search is restricted to the text displayed in the Author view, focusing solely on the visible content skipping the source content like XML elements or attributes. This mode is ideal for quick, content-only searches.
 
