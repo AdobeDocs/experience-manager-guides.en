@@ -1131,7 +1131,13 @@ To perform the global search and replace with the Source mode enabled, perform t
     - **Others**: You can configure the following:
         - **Tags**: Filter content based on tags.
         - **Case sensitive search**: Enables search ensuring results match the exact letter casing specified.
-        - **List files locked by others**: Displays files currently locked by other users, preventing edits until the lock is released.       
+        - **List files locked by others**: Displays files currently locked by other users, preventing edits until the lock is released.     
+
+1. Press Enter or select **Search** icon to perform the search.
+
+    ![](images/search-icon.png){align="left"}
+
+1. Select a file from the search result list. The file is opened in the Source view with the searched term highlighted in the content.          
 
 1. Enter the term you want to use as the replacement in the **Replace with** field. To customize how replacements are applied, click the **Settings** icon next to the field and choose from the available options.
 
@@ -1141,12 +1147,6 @@ To perform the global search and replace with the Source mode enabled, perform t
 
     ![](images/replace-settings-source-mode.png){align="left"}    
 
-
-1. Press Enter or select **Search** icon to perform the search.
-
-    ![](images/search-icon.png){align="left"}
-
-1. Select a file from the search result list. The file is opened in the Source view with the searched term highlighted in the content.
 
 1. Select **Replace occurrence** to replace the currently highlighted search string in the topic or select the top and bottom arrows to move to the next or previous occurrence of the text.
 
@@ -1204,7 +1204,13 @@ To perform the global search and replace, perform the following steps:
 
     - **Include indirect references**: Select this option if you want to search the string in the indirect references also within the DITA map. By default, this is disabled so the search is performed only on the direct references.
 
-    ![](images/find-filters.png){align="left"}        
+    ![](images/find-filters.png){align="left"}     
+
+1. Press Enter or select **Search** icon to perform the search.
+
+    ![](images/search-icon.png){align="left"}
+
+1. Select a file from the search result list. The file is opened in the Author view in the content editing area with the searched term highlighted in the content.      
 
 1. Enter the term you want to use as the replacement in the **Replace with** field. To customize how replacements are applied, click the **Settings** icon next to the field and choose from the available options.
 
@@ -1214,12 +1220,6 @@ To perform the global search and replace, perform the following steps:
 
     ![](images/replace-settings.png){align="left"}    
 
-
-1. Press Enter or select **Search** icon to perform the search.
-
-    ![](images/search-icon.png){align="left"}
-
-1. Select a file from the search result list. The file is opened in the Author view in the content editing area with the searched term highlighted in the content.
 
 1. Select **Replace occurrence** to replace the currently highlighted search string in the topic or select the top and bottom arrows to move to the next or previous occurrence of the text
 
