@@ -76,7 +76,7 @@ The following Editor enhancements have been made as part of this release:
     For details, view [Right panel in Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
 - **Thumbnail icon for multimedia in Repository and Search panel**: All multimedia files are now displayed with thumbnail icons, making it easier to visually identify and locate images within the **Repository**. This enhancement also applies when searching for files in the **Search panel**, helping you quickly distinguish multimedia assets from other file types. 
-- **Improved handling for Read only files**: Editing File properties is now restricted for Read only files. If a file is locked by another user (available in Read only mode), you cannot change any metadata property, whether from the [Right panel](../user-guide/web-editor-right-panel.md#file-properties), the **Properties** option in the [context menu of a file](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab), or the [Metadata Report](../user-guide/reports-web-editor.md#metadata-report). This helps prevent accidental changes to files that are locked.
+- **Improved handling for Read only files**: Editing File properties is now restricted for files that are in **Read only** mode. If a file is locked by another user (available in Read only mode), you cannot change any metadata property, whether from the [Right panel](../user-guide/web-editor-right-panel.md#file-properties), the **Properties** option in the [context menu of a file](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab), or the [Metadata Report](../user-guide/reports-web-editor.md#metadata-report). This helps prevent accidental changes to files that are locked.
 
 ## Add or remove topics from an ongoing Review task
 
@@ -125,8 +125,8 @@ For more details on processing assets, view [Process assets](../user-guide/asset
 The following API enhancements have been made as part of this release:
 
 - New APIs are introduced to create new translation project and track their status. These APIs help automate the translation process, reducing manual effort and improving efficiency. For details, view [Create translation project](../api-reference/translation-project.md)
-- New API is introduced to provide support for element-level mapping for AEM Sites (using Composite component mapping). Authors can set custom mappings for individual DITA elements to control how content appears on pages. For details, view []
-- Enhanced APIs to support filtering ability for asset processing for files and folders. For details, view[Create custom level mapping in AEM Sites](../cs-install-guide/component%20mapping.md). 
+- New API is introduced to provide support for element-level mapping for AEM Sites (using Composite component mapping). Authors can set custom mappings for individual DITA elements to control how content appears on pages. For details, view [Create custom level mapping in AEM Sites](../cs-install-guide/component%20mapping.md).
+- Enhanced APIs to support filtering ability for asset processing for files and folders. For details, view [Process assets](../user-guide/asset-processor.md).
 
 
 
