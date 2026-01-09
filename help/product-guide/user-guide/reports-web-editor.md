@@ -115,11 +115,15 @@ You can apply tags on an individual topic or use the bulk tagging feature to app
 
 To update metadata, perform the following steps:
 
+>![NOTE]
+>
+> You can not update metadata for Read only files. The corresponding files will remain disabled for selection
+
 1.  To update metadata, select the files for which you want to update. You can select the files that are appearing in the Metadata panel, by checking in the check box appearing adjacent to **Title**. If you want to select all the records, use the **Select all** tab above the Title bar as shown below.
 
     >[!NOTE]
     >
-    > You cannot select any checked-out files. A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user.
+    > You cannot select any checked-out (by other users) files. A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user. If auto-checkout feature is enabled, consider using the extension framework to disable the **Manage** button. 
 
     ![](images/all-selection.png){align="left"}
         
