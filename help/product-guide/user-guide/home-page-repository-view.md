@@ -94,7 +94,7 @@ The Repository serves as the central space providing a tabular list of all the f
     - **Delete**: Use this option to delete the selected file.
     - **Add to**: Choose to add to Collections or Reusable content.
     - **Copy**: Copies the UUID or complete path of the file.   
-    - **Reprocess assets**: Triggers the processing for the selected asset. 
+    - **Reprocess asset**: Triggers the processing for the selected asset. 
     - **Properties**: Use this to open the Properties page of the selected file.
     - **Download as PDF**: Use the option to generate the PDF output and download it.  
       

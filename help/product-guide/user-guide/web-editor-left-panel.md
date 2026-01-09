@@ -342,7 +342,7 @@ Get access to different options in the Options menu depending on whether you sel
 - Download as PDF
 - Add to 
 - Copy
-- Reprocess assets
+- Reprocess asset
 - View in Assets UI
 - Properties
 
@@ -446,7 +446,7 @@ The various options in the Options menu are explained below:
 
     - **Copy Path**: Copy the complete path of the selected file to Clipboard.
 
-- **Reprocess assets**: Triggers the processing for the selected asset.    
+- **Reprocess asset**: Triggers the processing for the selected asset.    
 
 - **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view. 
 
