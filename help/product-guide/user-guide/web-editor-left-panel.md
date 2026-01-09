@@ -1088,7 +1088,7 @@ By default, you can view the files by titles. As you hover over a file, you can 
 
 The Find and Replace feature can be used in two distinct modes, depending on your requirements:
 
-- **With Source mode:** The search scans not only the visible content but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched string. This mode ensures a comprehensive search across the entire content. 
+- **With Source mode:** The search scans not only the visible content but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched string. This mode ensures a comprehensive search across the entire content. To use this feature, you must enable the **Use source mode** option available in the Find and replace panel.  
 
     >[!NOTE]
     >
@@ -1099,6 +1099,8 @@ The Find and Replace feature can be used in two distinct modes, depending on you
 
 
     ![](images/map-find-replace-with-source-mode.png){align="left"}
+
+<br>    
 
 <details>
     <summary> Perform global search and replace with Source mode</summary>
@@ -1111,7 +1113,7 @@ To perform the global search and replace with the Source mode, perform the follo
 
     - **Path**: To search on the selected path
     - **Map**: To search in some specific map from the Repository or Collections
-    - **Current Map**: To search in the currently opened map
+    - **Current map**: To search in the currently opened map
 
     ![](images/path-dropdown-source-mode.png){align="left"}     
 
@@ -1156,7 +1158,9 @@ To perform the global search and replace with the Source mode, perform the follo
 
     ![](images/replace-all.png){align="left"}
 
-To enable the **Replace all** button, your folder profile administrator or system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
+    >[!NOTE]
+    >
+    >To enable the **Replace all** button, your folder profile administrator or system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
 
 1. You can also hover over a file from the search result list to view **Replace all in file** icon on the right of it, that enables you to replace all the occurrences of the term in a single file.    
 
@@ -1182,7 +1186,7 @@ Only one replace all operation can be performed at a time in the whole system, a
 
     ![](images/map-find-replace-without-source-mode.png){align="left"}
 
-<br><br>
+<br>
 <details>
     <summary> Perform global search and replace without Source mode</summary>
 
@@ -1194,7 +1198,7 @@ To perform the global search and replace without Source mode, perform the follow
 
     - **Path**: To search on the selected path
     - **Map**: To search in some specific map from the Repository or Collections
-    - **Current Map**: To search in the currently opened map
+    - **Current map**: To search in the currently opened map
 
     ![](images/path-dropdown.png){align="left"}  
         
@@ -1228,15 +1232,19 @@ To perform the global search and replace without Source mode, perform the follow
 
 1. Select **Replace all** to replace all occurrences of the searched term in a single file with the replace term in a single go. You will be shown a notification after replacing all the occurrences in the selected file.
 
-    ![](images/replace-all.png){align="left"}
+    >[!NOTE]
+    >
+    > To enable then**Replace all** icon, your Folder profile administrator or System administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**). If errors occur during the replace operation, those files will be skipped due to XML parsing issues or DITA-related errors.
 
-To enable then**Replace all** icon, your system Administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**). If errors occur during the replace operation, those files will be skipped due to XML parsing issues or DITA-related errors.
+    ![](images/replace-all.png){align="left"}
 
 1. You can als hover over a file from the search result list to view **Replace all in File** icon on the right of it, that enables you to replace all the occurrences of the term in a single file. 
 
->[!NOTE]
->
-> You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
+    >[!NOTE]
+    >
+    > You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
+
+    ![](images/replace-all-in-file-no-source.png){align="left"}
 
 Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between or view the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
 
