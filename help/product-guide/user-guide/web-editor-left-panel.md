@@ -1088,7 +1088,7 @@ By default, you can view the files by titles. As you hover over a file, you can 
 
 The Find and Replace feature can be used in two distinct modes, depending on your requirements:
 
-- **With Source mode:** The search scans not only the visible content but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched term. This mode ensures a comprehensive search across the entire content. 
+- **With Source mode:** The search scans not only the visible content but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched string. This mode ensures a comprehensive search across the entire content. 
 
     >[!NOTE]
     >
@@ -1101,17 +1101,17 @@ The Find and Replace feature can be used in two distinct modes, depending on you
     ![](images/map-find-replace-with-source-mode.png){align="left"}
 
 <details>
-    <summary> Perform global search and replace with Source mode enabled </summary>
+    <summary> Perform global search and replace with Source mode</summary>
 
-To perform the global search and replace with the Source mode enabled, perform the following steps:
+To perform the global search and replace with the Source mode, perform the following steps:
 
 1. Open the global **Find and replace** panel.
 1. Enable the **Use the source mode** option.
 1. Select the **Path** dropdown and select one of the following options to perform the search.
 
     - **Path**: To search on the selected path
-    - **Map**: To search in the currently opened map
-    - **Select Map**: To search in the selected map
+    - **Map**: To search in some specific map from the Repository or Collections
+    - **Current Map**: To search in the currently opened map
 
     ![](images/path-dropdown-source-mode.png){align="left"}     
 
@@ -1171,7 +1171,7 @@ To enable the **Replace all** button, your folder profile administrator or syste
 
     ![](images/snapshot-replace-all.png){align="left"}
 
-Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between. If you abort the operation, you will receive a notification about it in your Inbox. 
+Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between. If you abort the operation, you will receive a notification about it in your Inbox. The Replace all option can fail under some instances like, if the file is locked by some one else, and more.  
 
 ![](images/replace-all-in-progress-source-mode.png){width="300" align="left"}
 
@@ -1182,18 +1182,19 @@ Only one replace all operation can be performed at a time in the whole system, a
 
     ![](images/map-find-replace-without-source-mode.png){align="left"}
 
+<br><br>
 <details>
-    <summary> Perform global search and replace with Source mode disabled </summary>
+    <summary> Perform global search and replace without Source mode</summary>
 
 
-To perform the global search and replace, perform the following steps:
+To perform the global search and replace without Source mode, perform the following steps:
 
 1. Open the global **Find and replace** panel.
 1. Select the **Path** dropdown and choose one of the following options to perform the search.
 
     - **Path**: To search on the selected path
-    - **Map**: To search in the currently opened map
-    - **Select Map**: To search in the selected map
+    - **Map**: To search in some specific map from the Repository or Collections
+    - **Current Map**: To search in the currently opened map
 
     ![](images/path-dropdown.png){align="left"}  
         

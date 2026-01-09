@@ -5,9 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Reindexing for Markup Search and Replace feature
+# Reindexing for Find and replace feature
 
-Reindexing is required to enable the **Markup Search and Replace** feature, which allows you to search and replace text across DITA XML and Markdown files in your AEM Guides environment.
+Reindexing is required to enable the **Find and replace** feature,  which allows you to scan the entire content visible in the Author view and also the underlying Source content (XML structure, including elements, tags, and attribute values) for the searched string.
 
 ## Reindexing
 

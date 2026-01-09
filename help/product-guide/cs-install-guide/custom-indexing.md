@@ -5,22 +5,13 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Deploying custom index for Markup Search and Replace feature
+# Deploying custom index for Find and replace feature
 
 ## Overview
 
-This guide provides step-by-step instructions for deploying the `guidesAssetLucene-1-custom-1` custom index on Adobe Experience Manager (AEM) as a Cloud Service. This index is required to enable the **Markup Search and Replace** feature, which allows you to search and replace text across DITA XML and Markdown files in your AEM Guides environment.
+This guide provides step-by-step instructions for deploying the `guidesAssetLucene-1-custom-1` custom index on Adobe Experience Manager (AEM) as a Cloud Service. This index is required to enable the **Find and replace** feature, which allows you to scan the entire content visible in the Author view and also the underlying Source content (XML structure, including elements, tags, and attribute values) for the searched string.
 
-### Markup Search and Replace feature
-
-The Markup Search and Replace feature enables content authors and administrators to:
-
-- Search for specific text patterns across DITA topics and Markdown files.
-- Replace text in multiple files simultaneously.
-- Perform bulk content updates efficiently.
-- Maintain content consistency across large documentation sets.
-
-### Prerequisites
+## Prerequisites
 
 Before proceeding with the index deployment, ensure you have:
 
@@ -32,7 +23,7 @@ Before proceeding with the index deployment, ensure you have:
 
 ## Index definition
 
-To enable the Markup Search and Replace feature, you need to deploy a custom index named **`guidesAssetLucene-1-custom-1`** to your AEM Cloud Service environment.
+To enable the Find and replace feature, you need to deploy a custom index named **`guidesAssetLucene-1-custom-1`** to your AEM Cloud Service environment.
 
 ### Index name
 
@@ -163,7 +154,7 @@ For detailed instructions on deploying custom indexes to AEM as a Cloud Service,
 
 ### Important points for this Index
 
-When following the deployment guide, use the following specifics for the Markup Search and Replace index:
+When following the deployment guide, use the following specifics for the Find and replace index:
 
 - **Index name**: `guidesAssetLucene-1-custom-1`
 - **Index type**: Fully custom index (not a customization of OOTB index)
@@ -193,7 +184,7 @@ In your development environment (if CRXDE Lite is available):
 1. Navigate to `/oak:index/guidesAssetLucene-1-custom-1`.
 2. Verify the node exists with the expected configuration.
 
-### Test the Markup Search and Replace feature
+### Test the Find and replace feature
 
 The primary verification is testing the feature:
 

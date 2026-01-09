@@ -47,9 +47,11 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 
 ## Known issues
 
-Adobe has identified the following known issues for the 2025.11.0 release:
+Adobe has identified the following known issues for the 2026.01.0 release:
 
-
+- When an in-review topic is removed from an ongoing review task, its document state continues to remain **In Review**, even though the topic is no longer part of any review task. (GUIDES-38709)
+- When performing a search using **Find and Replace**, if you open a file from the search results, close it, and then attempt to reopen it by selecting the listed result, the file fails to reopen. (GUIDES-39050)
+- When using database server, for content that includes self-references, the Topic list report displays invalid entries for each self-reference, resulting in an inaccurate file count. (GUIDES-39420)
 
 
 
