@@ -47,13 +47,13 @@ The default filter values available for Document state are: Draft, Edit, In-Revi
 
 The following Editor enhancements have been made as part of this release:
 
-- **Introduced Source mode search in Find and replace**: Experience Manager Guides introduces several enhancements to the **Find and replace** feature available in the Left panel of the Editor interface. Along with an improved UI for better usability, this release introduces a new **Use source mode** toggle in the **Find and replace** panel.
+- **Introduced Source mode search in Find and replace**: Experience Manager Guides introduces several enhancements to the Find and replace feature available in the Left panel of the Editor interface. Along with an improved UI for better usability, this release introduces a new **Use source mode** toggle in the **Find and replace** panel.
 
     Enabling this mode, allows you to perform global search and replace across both Author view and Source view. Source mode scans not only the visible content in Author view but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched string, ensuring a comprehensive search throughout your content.
 
     ![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
 
-    In this mode, you can apply filters to narrow your search by File type, Document state, Last modified date, and more are introduced. You also have the option to download a detailed CSV report after performing Replace All, which lists all replacements along with their success or failure status.
+    In this mode, you can apply filters to narrow your search by File type, Document state, Last modified date, and more. You also have the option to download a detailed CSV report after performing Replace All, which lists all replacements along with their success or failure status.
 
     For more details, view [Find and replace](../user-guide/web-editor-left-panel.md#find-and-replace) section in _Left panel in Editor_.
 - **Refresh topics or map in the Preview mode**: Introducing the new **Refresh** functionality for maps that are already opened in the Preview mode. With this new feature, you can easily refresh the content of the entire map or individual topics present within it.
@@ -76,7 +76,7 @@ The following Editor enhancements have been made as part of this release:
     For details, view [Right panel in Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
 - **Thumbnail icon for multimedia in Repository and Search panel**: All multimedia files are now displayed with thumbnail icons, making it easier to visually identify and locate images within the **Repository**. This enhancement also applies when searching for files in the **Search panel**, helping you quickly distinguish multimedia assets from other file types. 
-- **Improved handling for Read only files**: Editing File properties is now restricted for files that are in **Read only** mode. If a file is locked by another user (available in Read only mode), you cannot change any metadata property, whether from the [Right panel](../user-guide/web-editor-right-panel.md#file-properties), the **Properties** option in the [context menu of a file](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab), or the [Metadata Report](../user-guide/reports-web-editor.md#metadata-report). This helps prevent accidental changes to files that are locked.
+- **Improved handling for Read only files**: Editing File properties is now restricted for files that are in **Read only** mode. If a file is locked by another user (available in Read only mode), you cannot change any metadata property, whether from the [Right panel](../user-guide/web-editor-right-panel.md#file-properties), the **Properties** option in the [context menu of a file](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab), or the [Metadata Report](../user-guide/reports-web-editor.md#metadata-report). This helps prevent accidental changes to Read only files.
 
 ## Add or remove topics from an ongoing Review task
 
@@ -111,12 +111,12 @@ The following publishing enhancements have been made as part of this release:
 
 ## Enhancements to Asset processing 
 
-This release introduces several enhancements to asset processing in Experience Manager Guides. You can now: 
+This release introduces the following enhancements to asset processing: 
 
-- run asset processing not only at the folder level but also for individual files.
-- choose specific asset types such as topics, maps, Markdown, HTML/CSS, DITAVAL, or other supported files, to process only the files you need. 
-- apply date filters to process only assets created within a specified timeframe.
-- reprocess assets directly using the new option (**Reprocess assets**) available in the context menu of files and folders within Repository view and Explorer panel. 
+- Run asset processing not only at the folder level but also for individual files.
+- Choose specific asset types such as topics, maps, Markdown, HTML/CSS, DITAVAL, or other supported files, to process only the files you need. 
+- Apply date filters to process only assets created within a specified timeframe.
+- Reprocess assets directly using the new option (**Reprocess assets**) available in the context menu of files and folders within Repository view and Explorer panel. 
 
 For more details on processing assets, view [Process assets](../user-guide/asset-processor.md).
 
