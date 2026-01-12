@@ -81,7 +81,7 @@ The General section gives you access to the following features:
 
     >[!NOTE]
     >
-    > Any addition, deletion, or modification of metadata properties (whether default or custom), will trigger the [working copy indicator](./web-editor-edit-topics.md#working-copy-indicator) on the document version. Also,  >[!NOTE]
+    > Any addition, deletion, or modification of metadata properties (whether default or custom), will trigger the [working copy indicator](./web-editor-edit-topics.md#working-copy-indicator) on the document version.
     
     
 - **Language**: Shows the language of the topic. It is set from the language field in the properties page.
