@@ -653,7 +653,7 @@ AEM Guides allows you to configure which image rendition to use at the time of g
 
 The `mimetype` element specifies the MIME type of the file format. The `rendition output` element specifies the type of output format and the name of rendition \(for example, `cq5dam.web.1280.1280.jpeg`\) that should be used for publishing the specified output. You can specify the image renditions to use for all supported output formats - AEMSITE, PDF, HTML5, EPUB, and CUSTOM. 
 
-If you want to specify different image renditions for an output preset, you can use the `outputName` attribute to define custom renditions for specific output presets under the same output type. This is useful when you need different image sizes or formats for different publishing scenarios.
+If you want to specify different image renditions for an output preset, you can use the `outputName` attribute, with its value set to the title of the preset, to define custom renditions for specific output presets under the same output type. This is useful when you need different image sizes or formats for different publishing scenarios.
 
 For example:
 
@@ -671,7 +671,7 @@ For example:
 </renditionmap>
 ```
 
-In the above renditions, with the `outputName` attribute defined in the rendition, the ditahtml5 preset uses `cq5dam.thumbnail.319.319.png`, and without `outputName`, all HTML5 outputs use `cq5dam.web.1280.1280.jpeg`.
+In the above renditions, when the `outputName` attribute is set to `ditahtml5`(preset title), the `ditahtml5` preset uses the thumbnail image `cq5dam.thumbnail.319.319.png`. If the `outputName` attribute is not specified, all HTML5 outputs use the larger image `cq5dam.web.1280.1280.jpeg`.
 
 If the specified rendition is not present, then AEM Guides publishing process first looks for the web rendition of the given image. If even the web rendition is not found, then the original rendition of the image is used.
 
