@@ -9,7 +9,7 @@ level: Experienced
 
 ## Overview
 
-This guide provides step-by-step instructions for deploying the `guidesAssetLucene-1-custom-1` custom index on Adobe Experience Manager (AEM) as a Cloud Service. This index is required to enable the **Find and replace** feature, which allows you to scan the entire content visible in the Author view and also the underlying Source content (XML structure, including elements, tags, and attribute values) for the searched string.
+This guide provides step-by-step instructions for deploying the `guidesAssetLucene-1-custom-1` custom index on Adobe Experience Manager (AEM) as a Cloud Service. This index is required to enable the **Find and replace (Source view)** feature, which allows you to scan the entire content visible in the Author view and also the underlying Source content (XML structure, including elements, tags, and attribute values) for the searched string. The Find and replace feature in Author view remains enabled without this index as well.
 
 ## Prerequisites
 
@@ -18,12 +18,10 @@ Before proceeding with the index deployment, ensure you have:
 - **AEM as a Cloud Service environment** with AEM Guides installed
 - **Access to your project's codebase** (Git repository)
 - **Cloud Manager access** with deployment permissions
-- **Basic knowledge** of AEM project structure and Maven builds
-- **Familiarity** with Cloud Manager CI/CD pipelines
 
 ## Index definition
 
-To enable the Find and replace feature, you need to deploy a custom index named **`guidesAssetLucene-1-custom-1`** to your AEM Cloud Service environment.
+To enable the Find and replace (Source view) feature, you need to deploy a custom index named **`guidesAssetLucene-1-custom-1`** to your AEM Cloud Service environment.
 
 ### Index name
 
@@ -127,6 +125,15 @@ Create the following index definition in your project at:
                         jcr:primaryType="nt:unstructured"
                         function="fn:path()"
                         ordered="{Boolean}true"/>
+                <dcTitleLowerCase
+                        jcr:primaryType="nt:unstructured"
+                        function="fn:lower-case(jcr:first(jcr:content/metadata/@dc:title))"
+                        propertyIndex="{Boolean}true"
+                        ordered="{Boolean}true"/>
+                <dcTitle
+                        jcr:primaryType="nt:unstructured"
+                        name="jcr:content/metadata/dc:title"
+                        propertyIndex="{Boolean}true"/>
             </properties>
         </dam:Asset>
     </indexRules>
@@ -165,7 +172,9 @@ When following the deployment guide, use the following specifics for the Find an
 
 ## Reindexing
 
-Reindexing is handled **automatically** by AEM as a Cloud Service when you deploy the index through Cloud Manager's CI/CD pipeline. No manual reindexing steps are required.
+Reindexing is handled **automatically** by AEM as a Cloud Service when you deploy the index through Cloud Manager's CI/CD pipeline. 
+
+Indexing is typically handled automatically. However, if the old data remains unsearchable even after correct deployment and the completion of the indexing process, a manual re‑index of the index should be performed once.
 
 ### What to Expect
 
@@ -194,27 +203,9 @@ The primary verification is testing the feature:
 4. Verify that search results are returned correctly.
 5. Test the replace functionality on a test file.
 
-## Best practices
-
-- **Test in development first**: Always deploy to a development environment before production.
-- **Monitor deployment**: Track the indexing progress through Cloud Manager notifications.
-- **Version control**: Commit the index definition with clear commit messages.
-
 ## Additional resources
 
 - [AEM as a Cloud Service Indexing Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak Indexing Guide](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
 - [AEM Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Cloud Manager Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
-
-## Support
-
-If you encounter issues not covered in this guide:
-
-1. **Review AEM logs**: Download and analyze environment logs from Cloud Manager.
-2. **Check documentation**: Refer to Adobe Experience League for updated guidance.
-3. **Contact Adobe support**: Open a support ticket with:
-   - Environment details (Program ID, Environment ID)
-   - Deployment logs
-   - Error messages and symptoms
-   - Steps to reproduce the issue
