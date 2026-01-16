@@ -36,7 +36,7 @@ Learn about [upgrade instructions for the 5.1.0 Service Pack 3 release](upgrade-
 
 - Using `scope="external"` for a reference to DAM content within a topic or map causes the asset's relative path to be substituted with a GUID. (GUIDES-35605)
 
-## Known issues
+## Known issue
 
 Adobe has identified the following known issue for the 5.1.0 Service Pack 3 release:
 
