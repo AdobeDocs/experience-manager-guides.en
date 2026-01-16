@@ -36,6 +36,12 @@ Learn about [upgrade instructions for the 5.1.0 Service Pack 3 release](upgrade-
 
 - Using `scope="external"` for a reference to DAM content within a topic or map causes the asset's relative path to be substituted with a GUID. (GUIDES-35605)
 
+## Known issue
+
+Adobe has identified the following known issue for the 5.1.0 Service Pack 3 release:
+
+- When you mark a review task as complete from the task details page, the task is completed and closed; however, its status continues to display as **In Progress** on the Review dashboard. (GUIDES-39375)
+
 
 
 
