@@ -49,7 +49,7 @@ Learn about [upgrade instructions for the 2026.01.0 release](upgrade-instruction
 
 Adobe has identified the following known issues for the 2026.01.0 release:
 
-- When an in-review topic is removed from an ongoing review task, its document state continues to remain **In review**, even though the topic is no longer part of any review task. (GUIDES-38709)<br>**Workaround**: Change the document state of the topic from **In review** to the appropriate state from the Properties page.
+- When an in-review topic is removed from an ongoing review task, its document state continues to remain **In Review**, even though the topic is no longer part of any review task. (GUIDES-38709)<br>**Workaround**: Change the document state of the topic from **In Review** to the appropriate state from the Properties page or File properties panel.
 - When performing a search using **Find and replace**, if you open a file from the search results, close it, and then attempt to reopen it by selecting the listed result, the file fails to reopen. (GUIDES-39050)<br>**Workaround**: Open any other file from the search results first, then reopen the previously closed file from the list to resolve the issue.
 - When using Guides with DB server, for content that includes self-references, the Topic list report displays invalid entries for each self-reference, resulting in an inaccurate file count. (GUIDES-39420)
 

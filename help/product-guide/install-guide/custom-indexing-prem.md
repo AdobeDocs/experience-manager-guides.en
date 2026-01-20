@@ -5,7 +5,7 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Reindexing for Find and replace feature
+# Reindexing for Find and replace (Source view) feature
 
 Reindexing is required to enable the **Find and replace (Source view)** feature,  which allows you to scan the entire content visible in the Author view and also the underlying Source content (XML structure, including elements, tags, and attribute values) for the searched string.
 

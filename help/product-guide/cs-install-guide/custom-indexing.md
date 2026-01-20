@@ -5,11 +5,11 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Deploying custom index for Find and replace feature
+# Deploying custom index for Find and replace (Source view) feature
 
 ## Overview
 
-This guide provides step-by-step instructions for deploying the `guidesAssetLucene-1-custom-1` custom index on Adobe Experience Manager (AEM) as a Cloud Service. This index is required to enable the **Find and replace (Source view)** feature, which allows you to scan the entire content visible in the Author view and also the underlying Source content (XML structure, including elements, tags, and attribute values) for the searched string. The Find and replace feature in Author view remains enabled without this index as well.
+This guide provides step-by-step instructions for deploying the `guidesAssetLucene‑1‑custom‑1` custom index on Adobe Experience Manager (AEM) as a Cloud Service. While the standard Find and replace feature in the Author view works without this index, the custom index is specifically required to enable Find and replace in the Source view. The Find and replace (Source view) allows you to search not only the visible authored content but also the underlying XML structure; including elements, tags, and attribute values.
 
 ## Prerequisites
 
@@ -47,7 +47,7 @@ Create the following index definition in your project at:
           evaluatePathRestrictions="{Boolean}true"
           includedPaths="[/content/dam]"
           reindex="{Boolean}false"
-          reindexCount="{Long}18"
+          reindexCount="{Long}1"
           seed="{Long}958982603885135223"
           selectionPolicy="tag"
           tags="[ditaSearch]"
