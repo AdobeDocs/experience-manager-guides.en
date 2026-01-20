@@ -12,6 +12,19 @@ For the list of issues fixed in this release, view [Fixed issues in the 2026.01.
 
 Learn about [upgrade instructions for the 2026.01.0 release](../release-info/upgrade-instructions-2026-01-0.md).
 
+
+## Introducing Source mode search in Find and replace
+
+Experience Manager Guides introduces several enhancements to the Find and replace feature available in the Left panel of the Editor interface. Along with an improved UI for better usability, this release introduces a new **Use source mode** toggle in the **Find and replace** panel.
+
+Enabling this mode, allows you to perform global search and replace across both Author view and Source view. Source mode scans not only the visible content in Author view but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched string, ensuring a comprehensive search throughout your content.
+
+![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
+
+In this mode, you can apply filters to narrow your search by File type, Document state, Last modified date, and more. You also have the option to download a detailed CSV report after performing Replace All, which lists all replacements along with their success or failure status.
+
+For more details, view [Find and replace](../user-guide/web-editor-left-panel.md#find-and-replace) section in _Left panel in Editor_.
+
 ## Enhanced file and folder browsing experience 
 
 This release introduces a cleaner, more intuitive interface for browsing files and folder paths in Experience Manager Guides. 
@@ -32,10 +45,11 @@ The **Select path** dialog also features an improved tree-structured view for fo
 
 ![](assets/select-path-dialog-new.png){width="350" align="left"}
 
-For more details, view [Browsing files and folders in Experience Manager Guides](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides) section in _Other features in the Editor_. 
+For more details, view [Browsing files and folders in Experience Manager Guides](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides) section in _Other features in the Editor_.
 
+## Repository enhancements
 
-## New Document state filter for Repository on the Home page
+### Document state filter on the Home page
 
 Now, filter your Repository search results based on the current document state of the files. With the new **Document state** filter, you can narrow down your search using the available filter values defined in the `ui_config.json` file within your Folder profile.  
 
@@ -43,42 +57,47 @@ Now, filter your Repository search results based on the current document state o
 
 The default filter values available for Document state are: Draft, Edit, In-Review, Approved, Reviewed, and Done. For details on customizing the default document state filters values, view [Configure document state filters](../cs-install-guide/config-doc-state-filters.md). 
 
+### Thumbnail icon for multimedia
+
+All multimedia files are now displayed with thumbnail icons, making it easier to visually identify and locate images within the **Repository**. This enhancement also applies when searching for files in the **Search panel**, helping you quickly distinguish multimedia assets from other file types. 
+
 ## Editor enhancements
 
 The following Editor enhancements have been made as part of this release:
 
-- **Introduced Source mode search in Find and replace**: Experience Manager Guides introduces several enhancements to the Find and replace feature available in the Left panel of the Editor interface. Along with an improved UI for better usability, this release introduces a new **Use source mode** toggle in the **Find and replace** panel.
+### Refresh topics or map in the Preview mode
 
-    Enabling this mode, allows you to perform global search and replace across both Author view and Source view. Source mode scans not only the visible content in Author view but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched string, ensuring a comprehensive search throughout your content.
+Introducing the new **Refresh** functionality for maps that are already opened in the Preview mode. With this new feature, you can easily refresh the content of the entire map or individual topics present within it.
 
-    ![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
+- To refresh the entire map (including all topics), a new **Refresh** button is introduced on the top-left corner of the Editor. 
 
-    In this mode, you can apply filters to narrow your search by File type, Document state, Last modified date, and more. You also have the option to download a detailed CSV report after performing Replace All, which lists all replacements along with their success or failure status.
+    ![](assets/refresh-map.png){width="600" align="left"}
 
-    For more details, view [Find and replace](../user-guide/web-editor-left-panel.md#find-and-replace) section in _Left panel in Editor_.
-- **Refresh topics or map in the Preview mode**: Introducing the new **Refresh** functionality for maps that are already opened in the Preview mode. With this new feature, you can easily refresh the content of the entire map or individual topics present within it.
+- To refresh the content of individual topics, a new **Refresh topic** option is introduced in the context menu.
 
-    - To refresh the entire map (including all topics), a new **Refresh** button is introduced on the top-left corner of the Editor. 
+    ![](assets/refresh-topic.png){width="600" align="left"}
 
-        ![](assets/refresh-map.png){width="600" align="left"}
+For more details, view [Map editor features](../user-guide/map-editor-advanced-map-editor.md). 
 
-    - To refresh the content of individual topics, a new **Refresh topic** option is introduced in the context menu.
+### Working copy indicator for metadata changes
 
-        ![](assets/refresh-topic.png){width="600" align="left"}
+Any changes to the metadata fields available under **File properties** will now trigger the working copy indicator. A document version is marked as _dirty (*)_ whenever you add, delete, or modify any default or custom metadata fields. This enhancement ensures that all metadata changes are accurately tracked, providing greater visibility and control over document versions.
 
-        For more details, view [Map editor features](../user-guide/map-editor-advanced-map-editor.md). 
+### Word count for topics and maps
 
-- **Working copy indicator for metadata changes**: Any changes to the metadata fields available under **File properties** will now trigger the working copy indicator. A document version is marked as _dirty (*)_ whenever you add, delete, or modify any default or custom metadata fields. This enhancement ensures that all metadata changes are accurately tracked, providing greater visibility and control over document versions.
-- **Support for word count for topics and maps**: You can now track the word count present within a map or topic file. The new **Word count** field in the Right panel would display the total number of words present within a topic (or map), where words separated by spaces are counted as individual words. It refreshes automatically each time you save changes. For cross-references, only the display text is included, while keys are excluded.
+You can now track the word count present within a map or topic file. The new **Word count** field in the Right panel would display the total number of words present within a topic (or map), where words separated by spaces are counted as individual words. It refreshes automatically each time you save changes. For cross-references, only the display text is included, while keys are excluded.
 
-    ![](assets/file-properties-new.png){width="350" align="left"} 
+![](assets/file-properties-new.png){width="350" align="left"} 
 
-    For details, view [Right panel in Editor](../user-guide/web-editor-right-panel.md#file-properties).
+For details, view [Right panel in Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
-- **Thumbnail icon for multimedia in Repository and Search panel**: All multimedia files are now displayed with thumbnail icons, making it easier to visually identify and locate images within the **Repository**. This enhancement also applies when searching for files in the **Search panel**, helping you quickly distinguish multimedia assets from other file types. 
-- **Improved handling for Read only files**: Editing File properties is now restricted for files that are in **Read only** mode. If a file is locked by another user (available in Read only mode), you cannot change any metadata property, whether from the [Right panel](../user-guide/web-editor-right-panel.md#file-properties), the **Properties** option in the [context menu of a file](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab), or the [Metadata Report](../user-guide/reports-web-editor.md#metadata-report). This helps prevent accidental changes to Read only files.
+### Improved handling for Read only files
 
-## Add or remove topics from an ongoing Review task
+Editing File properties is now restricted for files that are in **Read only** mode. If a file is locked by another user (available in Read only mode), you cannot change any metadata property, whether from the [Right panel](../user-guide/web-editor-right-panel.md#file-properties), the **Properties** option in the [context menu of a file](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab), or the [Metadata Report](../user-guide/reports-web-editor.md#metadata-report). This helps prevent accidental changes to Read only files.
+
+## Review enhancements
+
+### Add or remove topics from an on-going Review task
 
 Now, you can add new topics to an ongoing review task (if they were not previously sent for review) or remove topics from an ongoing review task without affecting the review workflow.
 
@@ -86,7 +105,9 @@ On the **Task Details** page, you can simply select or unselect topics to modify
 
 ![](assets/modify-review-topics.png){width="650" align="left"}
 
-## Indicator for unversioned assets sent for translation 
+## Translation enhancements
+
+### Indicator for unversioned assets sent for translation 
 
 When managing translations, it's important to ensure that all content is versioned before sending it for processing. To help with this, Experience Manager Guides now provides a clear indicator for topics that have saved changes but are not yet versioned.
 
@@ -98,18 +119,25 @@ For more details, view [Translate documents from the Map Console](../user-guide/
 
 ## Publishing enhancements
 
-The following publishing enhancements have been made as part of this release:
+### Custom image renditions for specific output presets
+
+You can now configure different image renditions for individual output presets under the same output type by using the `outputName` attribute in `renditionmapping.xml`. This enhancement gives you greater flexibility when publishing content that requires varying image resolutions for different scenarios. For example, you might want a high-resolution image for your main HTML5 output while using a smaller thumbnail for a lightweight preset.
+
+For more details, view [Handle image rendition in output generation](../cs-install-guide/conf-output-generation.md#handle-image-rendition-during-output-generation).
 
 
-- **Configure custom image renditions for specific output presets**: You can now configure different image renditions for individual output presets under the same output type by using the `outputName` attribute in `renditionmapping.xml`. This enhancement gives you greater flexibility when publishing content that requires varying image resolutions for different scenarios. For example, you might want a high-resolution image for your main HTML5 output while using a smaller thumbnail for a lightweight preset.
+### Download logs for generated output
 
-    For more details, view [Handle image rendition in output generation](../cs-install-guide/conf-output-generation.md#handle-image-rendition-during-output-generation).
-- **Download logs for generated output**: When generating output through the Assets UI, a new **Download logs** button is now available that allows you to download the extensive list of logs to your local device for easier access and review. 
-- **Language variables for Cross references in PDF Output**: When publishing Native PDF output, you can use [language variables](../native-pdf/native-pdf-language-variables.md) to translate static cross-reference text like _See in chapter_ or _See on page_. The language is determined by the `xml:lang` attribute in `topicref`, or is set to the language defined in the output preset for the map. When set at a parent `topicref` through the `xml:lang` attribute, the language changes are propagated to all associated references and child topics, ensuring consistency and simplifying localization.
+When generating output through the Assets UI, a new **Download logs** button is now available that allows you to download the extensive list of logs to your local device for easier access and review. 
 
-    For details on configuring Native PDF output preset, view [Native PDF output preset](../web-editor/native-pdf-web-editor.md).
 
-## Enhancements to Asset processing 
+### Language variables for Cross references in Native PDF Output
+
+When publishing Native PDF output, you can use [language variables](../native-pdf/native-pdf-language-variables.md) to translate static cross-reference text like _See in chapter_ or _See on page_. The language is determined by the `xml:lang` attribute in `topicref`, or is set to the language defined in the output preset for the map. When set at a parent `topicref` through the `xml:lang` attribute, the language changes are propagated to all associated references and child topics, ensuring consistency and simplifying localization.
+
+For details on configuring Native PDF output preset, view [Native PDF output preset](../web-editor/native-pdf-web-editor.md).
+
+## Asset processing enhancements 
 
 This release introduces the following enhancements to asset processing: 
 
