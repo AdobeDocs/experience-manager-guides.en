@@ -40,7 +40,7 @@ Use a JSON array of rules (your `componentmapping.json`) to convert HTML into co
 >
 >* `name` can be a comma-separated list (e.g., `"h1, h2"`).
 >* `class` must be present on the element (all listed classes must match).
->* `resourceType` indicates that you're targeting an HTML element and intend to use the `table` component to render it. The `guides-components` package is an OOTB provided by Guides. You can also use other component packages, such as `core/wcm/`, as needed. 
+>* `resourceType` indicates that you intend to use the `table` component. The `guides-components` package is an OOTB provided by Guides. You can also use other component packages, such as `core/wcm/`, as needed.
 
 ### Use attributeMap to save properties on the JCR node
 
