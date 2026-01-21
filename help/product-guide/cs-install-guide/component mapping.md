@@ -1,14 +1,14 @@
 ---
-title: Component mapping for New AEM Sites
-description: Learn how to do Component mapping for New AEM Sites
+title: Component mapping for AEM Sites
+description: Learn how to do Component mapping for AEM Sites
 feature: Installation
 role: Admin
 level: Experienced
 
 ---
-# Component mapping in New AEM Sites 
+# Component mapping in AEM Sites (using composite component mapping) 
 
-The article talks about the various aspects of component mapping for AEM sites 
+The article talks about the various aspects of component mapping for AEM sites (using composite component mapping).
 
 ## Component mapping rules
 
@@ -31,7 +31,7 @@ Use a JSON array of rules (your `componentmapping.json`) to convert HTML into co
     {
     "name": "div",
     "class": "sample-class",
-    "resourceType": "example/components/name",
+    "resourceType": "guides-components/components/table",
     "attributeMap": []
     }
     ```
@@ -40,6 +40,7 @@ Use a JSON array of rules (your `componentmapping.json`) to convert HTML into co
 >
 >* `name` can be a comma-separated list (e.g., `"h1, h2"`).
 >* `class` must be present on the element (all listed classes must match).
+>* `resourceType` indicates that you're targeting an HTML element and intend to use the `table` component to render it. The `guides-components` package is an OOTB provided by Guides. You can also use other component packages, such as `core/wcm/`, as needed. 
 
 ### Use attributeMap to save properties on the JCR node
 
@@ -133,7 +134,7 @@ Examples:
   {
     "name": "img",
     "class": "hero",
-    "resourceType": "example/components/hero-image",
+    "resourceType": "weretail/components/content/heroimage",
     "attributeMap": [
       { "from": "src", "to": "image#src" },
       { "value": ["image#src"], "to": "path-attributes" }
@@ -150,7 +151,7 @@ Examples:
 ]
 ```
 
-Define the element and class to target, use `attributeMap` to set the node properties, add a `path-attributes` entry to normalize paths, and pick the right `from` for the values you want to extract.
+Define the element and class to target, use `attributeMap` to set the node properties, add a `path-attributes` entry to normalize paths, and pick the right `from` for the values you want to extract. The `heroimage` used above is a component in a `we-retail` site.
 
 >[!NOTE]
 >
@@ -163,7 +164,7 @@ Learn how to create a custom table component that displays images within its cel
 ### What you'll build
 
 A custom table component that accepts HTML table content and replaces every `<img>` inside it with the output of the AEM Core Image component. This lets you reuse Core Image's features (responsive images, alt handling, accessibility) while keeping full control over your table markup.
-Using this approach, you can build other custom components for your new AEM site website.
+Using this approach, you can build other custom components for your AEM site (using composite component mapping) website.
 
 ### Why this approach
 
