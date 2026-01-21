@@ -4,7 +4,7 @@ description: Learn about the new and enhanced features in the 2026.01.0 release 
 role: Leader
 
 ---
-# What's new in the 2026.01.0 release (January 2026)
+# What's new in the 2026.01.0 release (February 2026)
 
 This article covers the new and enhanced features introduced with the 2026.01.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
