@@ -25,11 +25,15 @@ In this mode, you can apply filters to narrow your search by File type, Document
 
 For more details, view [Find and replace](../user-guide/web-editor-left-panel.md#find-and-replace) section in _Left panel in Editor_.
 
+>[!NOTE]
+>
+> For **Use source mode** feature in the Find and replace panel, a custom index deployment must first be completed. After the indexing is in place, contact your Customer Success team to enable this feature.
+
 ## Enhanced file and folder browsing experience 
 
 This release introduces a cleaner, more intuitive interface for browsing files and folder paths in Experience Manager Guides. 
 
-When browsing files, the revamped **Select file** dialog now features a tabbed layout with two views - **Repository** for navigating the entire content respository in a tabular format, and **Collections** for quick access to frequently used topics, maps, and images. 
+When browsing files, the revamped **Select file** dialog now features a tabbed layout with two views - **Repository** for navigating the entire content repository in a tabular format, and **Collections** for quick access to frequently used topics, maps, and images. 
 
 ![](assets/select-file.png){width="650" align="left"}
 
@@ -56,6 +60,10 @@ Now, filter your Repository search results based on the current document state o
 ![](assets/document-state-filter-repository.png){width="300" align="left"}
 
 The default filter values available for Document state are: Draft, Edit, In-Review, Approved, Reviewed, and Done. For details on customizing the default document state filters values, view [Configure document state filters](../cs-install-guide/config-doc-state-filters.md). 
+
+>[!NOTE]
+>
+> If you are using custom settings for ui_config.json ensure to take a back up of those before upgrading. After the update, review and adjust your settings to align with the changes introduced in the latest version.
 
 ### Thumbnail icon for multimedia
 
