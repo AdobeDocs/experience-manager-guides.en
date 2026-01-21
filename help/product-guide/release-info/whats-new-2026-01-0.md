@@ -49,7 +49,7 @@ For more details, view [Browsing files and folders in Experience Manager Guides]
 
 ## Repository Search and filter enhancements
 
-### Document state filter on the Home page
+### Support for Document state filter 
 
 Now, filter your Repository search results based on the current document state of the files. With the new **Document state** filter, you can narrow down your search using the available filter values defined in the `ui_config.json` file within your Folder profile.  
 
