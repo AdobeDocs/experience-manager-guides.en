@@ -15,13 +15,13 @@ Learn about [upgrade instructions for the 2026.01.0 release](../release-info/upg
 
 ## Introducing Source mode search in Find and replace
 
-Experience Manager Guides introduces several enhancements to the Find and replace feature available in the Left panel of the Editor interface. Along with an improved UI for better usability, this release introduces a new **Use source mode** toggle in the **Find and replace** panel.
+Experience Manager Guides has introduced several enhancements to the Find and replace feature available in the Left panel of the Editor interface. Along with an improved UI for better usability, this release introduces a new **Use source mode** toggle in the **Find and replace** panel.
 
-Enabling this mode, allows you to perform global search and replace across both Author view and Source view. Source mode scans not only the visible content in Author view but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched string, ensuring a comprehensive search throughout your content.
+Enabling this mode, allows you to perform global search not only on the visible content but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched string. This mode ensures a comprehensive search across the entire content.
 
 ![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
 
-In this mode, you can apply filters to narrow your search by File type, Document state, Last modified date, and more. You also have the option to download a detailed CSV report after performing Replace All, which lists all replacements along with their success or failure status.
+In this mode, you can apply filters to narrow your search by File type, Document state, Last modified date, and more. You also have the option to download a detailed CSV report after performing Replace all operation, which provides a snapshot of all the replace actions performed along with their success and failure status.
 
 For more details, view [Find and replace](../user-guide/web-editor-left-panel.md#find-and-replace) section in _Left panel in Editor_.
 
@@ -47,7 +47,7 @@ The **Select path** dialog also features an improved tree-structured view for fo
 
 For more details, view [Browsing files and folders in Experience Manager Guides](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides) section in _Other features in the Editor_.
 
-## Repository enhancements
+## Repository Search and filter enhancements
 
 ### Document state filter on the Home page
 
@@ -60,6 +60,8 @@ The default filter values available for Document state are: Draft, Edit, In-Revi
 ### Thumbnail icon for multimedia
 
 All multimedia files are now displayed with thumbnail icons, making it easier to visually identify and locate images within the **Repository**. This enhancement also applies when searching for files in the **Search panel**, helping you quickly distinguish multimedia assets from other file types. 
+
+![](assets/thumbnail-repository.png){width="300" align="left"}
 
 ## Editor enhancements
 
@@ -133,17 +135,23 @@ When generating output through the Assets UI, a new **Download logs** button is 
 
 ### Language variables for Cross references in Native PDF Output
 
-When publishing Native PDF output, you can use [language variables](../native-pdf/native-pdf-language-variables.md) to translate static cross-reference text like _See in chapter_ or _See on page_. The language is determined by the `xml:lang` attribute in `topicref`, or is set to the language defined in the output preset for the map. When set at a parent `topicref` through the `xml:lang` attribute, the language changes are propagated to all associated references and child topics, ensuring consistency and simplifying localization.
+When publishing Native PDF output, you can use [language variables](../native-pdf/native-pdf-language-variables.md) to translate static cross-reference text like _See in chapter_ or _See on page_. The variable uses the language defined in the topic through the `xml:lang` attribute. When set at a parent `topicref` through the `xml:lang` attribute, the language changes are propagated to all associated references and child topics, ensuring consistency and simplifying localization.
 
 For details on configuring Native PDF output preset, view [Native PDF output preset](../web-editor/native-pdf-web-editor.md).
+
+### Support for element-level component mapping in New AEM Sites (using composite component mapping) publishing
+
+Experience Manager Guides now supports element‑level component mapping in the AEM Sites output (using composite component mapping), giving teams precise control over how DITA elements render using `componentmapping.json`. By mapping `topicref`, titles, images, tables, and more to appropriate AEM Core Components, you get a cleaner structure instead of everything defaulting to the Text component. This results in better performance and unlocks richer, more modern Sites experiences. 
+
+For details, view [Component mapping in AEM Sites](../cs-install-guide/component%20mapping.md).
 
 ## Asset processing enhancements 
 
 This release introduces the following enhancements to asset processing: 
 
-- Run asset processing not only at the folder level but also for individual files.
-- Choose specific asset types such as topics, maps, Markdown, HTML/CSS, DITAVAL, or other supported files, to process only the files you need. 
-- Apply date filters to process only assets created within a specified timeframe.
+- Run asset processing at both folder and individual file levels
+- Filter assets by choosing specific asset types such as topics, maps, Markdown, HTML/CSS, DITAVAL, or other supported files, to process only the files you need. 
+- Apply date based filters to limit processing scope for a specified timeframe.
 - Reprocess assets directly using the new option (**Reprocess assets**) available in the context menu of files and folders within Repository view and Explorer panel. 
 
 For more details on processing assets, view [Process assets](../user-guide/asset-processor.md).
@@ -153,8 +161,9 @@ For more details on processing assets, view [Process assets](../user-guide/asset
 The following API enhancements have been made as part of this release:
 
 - New APIs are introduced to create new translation project and track their status. These APIs help automate the translation process, reducing manual effort and improving efficiency. For details, view [Create translation project](../api-reference/translation-project.md)
-- New API is introduced to provide support for element-level mapping for AEM Sites (using Composite component mapping). Authors can set custom mappings for individual DITA elements to control how content appears on pages. For details, view [Create custom level mapping in AEM Sites](../cs-install-guide/component%20mapping.md).
-- Enhanced APIs to support filtering ability for asset processing for files and folders. For details, view [Process assets](../user-guide/asset-processor.md).
+- Enhanced asset processing APIs with improved filtering ability for files and folders. For details, view [Process assets](../user-guide/asset-processor.md).
+
+
 
 
 
