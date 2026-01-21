@@ -170,7 +170,7 @@ For more details on processing assets, view [Process assets](../user-guide/asset
 The following API enhancements have been made as part of this release:
 
 - New APIs are introduced to create new translation project and track their status. These APIs help automate the translation process, reducing manual effort and improving efficiency. For details, view [Create translation project](../api-reference/translation-project.md)
-- Enhanced asset processing APIs with improved filtering ability for files and folders. For details, view [Process assets](../user-guide/asset-processor.md).
+- Enhanced asset processing APIs with improved filtering ability for files and folders. For details, view [Process assets](../api-reference/bulk-assets-processing.md).
 
 
 
