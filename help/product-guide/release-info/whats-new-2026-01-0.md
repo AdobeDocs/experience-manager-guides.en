@@ -138,14 +138,14 @@ For more details, view [Handle image rendition in output generation](../cs-insta
 
 ### Download logs for generated output
 
-When generating output through the Assets UI, a new **Download logs** button is now available that allows you to download the extensive list of logs to your local device for easier access and review. 
+When generating output through the Assets UI, a new **Download logs** button is now available that allows you to download log to your local device for easier access and review. 
 
 
 ### Language variables for Cross references in Native PDF Output
 
 When publishing Native PDF output, you can use [language variables](../native-pdf/native-pdf-language-variables.md) to translate static cross-reference text like _See in chapter_ or _See on page_. The variable uses the language defined in the topic through the `xml:lang` attribute. 
 
-For details on configuring Native PDF output preset, view [Native PDF output preset](../web-editor/native-pdf-web-editor.md).
+For details on configuring Native PDF output preset and cross-reference settings, view [Native PDF output preset](../web-editor/native-pdf-web-editor.md).
 
 
 ### Support for element-level component mapping in New AEM Sites (using composite component mapping) publishing
