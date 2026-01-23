@@ -115,15 +115,13 @@ You can apply tags on an individual topic or use the bulk tagging feature to app
 
 To update metadata, perform the following steps:
 
->![NOTE]
->
-> You cannot update metadata for files that are in **Read only** mode. These files will appear disabled and cannot be selected for metadata changes.
+1.  To update metadata, select the file(s) for which you want to update. You can select the files that are appearing in the Metadata panel, by checking in the check box appearing adjacent to **Title**. 
 
-1.  To update metadata, select the files for which you want to update. You can select the files that are appearing in the Metadata panel, by checking in the check box appearing adjacent to **Title**. If you want to select all the records, use the **Select all** tab above the Title bar as shown below.
+    If you want to select all the records, use the **Select all** tab above the Title bar. Since records load progressively as you scroll, make sure you scroll to the end of the list before using **Select all**. This ensures that edit permissions and lock status are evaluated for all files, not just the currently visible records.
 
     >[!NOTE]
     >
-    > You cannot select any checked-out (by other users) files. A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user. If auto-checkout feature is enabled, consider using the extension framework to disable the **Manage** button. 
+    > If a file is locked by another user, it cannot be selected for updating metadata. A lock icon also appears near the title of a locked file. You can hover over the icon to view the name of the user.
 
     ![](images/all-selection.png){align="left"}
         
@@ -134,9 +132,7 @@ To update metadata, perform the following steps:
 
 1.  If you want to add any new tags, select new tags from the dropdown list to apply them to all selected topics. You can also delete any tag by selecting the cross icon near the tag.
 
-    >[!NOTE]
-    >
-    > The common tags applied on all the selected topics are listed.
+    
 
 1.  Select a new document state if you want to change the document state of all the selected references. The drop-down displays the common possible state for all selected topics. For example, if the current state of your topics is In-Review, then you can view Draft, Approved, or Reviewed state.
 1.  Select **Update** to update the metadata. A confirmation message is displayed for the metadata whether it is updated successfully or has any failed updates. You also select **Download Report** to download the snapshot of the report. This snapshot contains the details of the updated status for the selected references.
