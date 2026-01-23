@@ -11,7 +11,7 @@ For the list of issues that have been fixed in this release, view [Fixed issues 
 
 ## Compatibility matrix
 
-This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 5.1.0 release. 
+This section lists the compatibility matrix for the software applications supported by Experience Manager Guides 5.1.0 Service Pack 1 release. 
 
 ### Adobe Experience Manager
 
