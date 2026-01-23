@@ -42,6 +42,9 @@ This section points the compatibility matrix for the software applications suppo
 |---|---|
 |guides-components.all-1.4.0| aemg-sites-template-1.3.0|
 
+## Prerequisites
+
+As per standard DITA behavior, the scope=`external` attribute must not be applied to internal links, as it is intended only for references to external resources. Applying this attribute to internal links and moving such assets may disrupt workflows. For content managed in Experience Manager Guides, use the default scope=`local` or key-based references instead.
 
 ## Upgrade to 2026.01.0 release
 
