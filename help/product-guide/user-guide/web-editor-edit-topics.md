@@ -74,11 +74,6 @@ Experience Manager Guides also indicates if the last saved \(working\) copy of t
 
 ![Version update indicator](images/version-update-indicator.png){width="550" align="left"}
 
-**Modification to the metadata property**
-
-A dirty market 
-
-
 ## Access locked files in Author and Source modes
 
 When a DITA or Markdown file is locked or checked out by another user, editing or modifying the content is not possible. However, you can still view the file in a read-only format in both the **Author** and **Source** modes, in addition to the **Preview** mode.
