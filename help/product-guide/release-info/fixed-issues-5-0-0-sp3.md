@@ -13,4 +13,4 @@ Learn about [upgrade instructions for the 5.0.0 Service Pack 3 release](upgrade-
 
 ## Translation
 
-- When an image initially managed as a language‑specific asset with a specific version (for example, under `/en/`) is moved out to a global folder with an updated version and baseline export is performed, the map continues to reference outdated language‑specific versions of that image, leading to a failed baseline export. (GUIDES-39394)
+- When an image initially managed as a language‑specific asset with a specific version (for example, under `/en/`) is moved out to a global folder with an updated version and baseline export is performed, the new baseline continues to reference outdated language‑specific versions of that image, leading to a failed baseline export. (GUIDES-39394)
