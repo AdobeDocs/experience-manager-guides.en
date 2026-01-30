@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 
 ---
-# Component mapping in AEM Sites (using composite component mapping) 
+# Component mapping for AEM Sites (using composite component mapping) 
 
 The article talks about the various aspects of component mapping for AEM sites (using composite component mapping).
 

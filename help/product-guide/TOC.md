@@ -13,6 +13,11 @@ breadcrumb-title: AEM Guides Documentation
   - Release Notes {#release-notes}
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
+      - 2026 Releases {#2026-releases}
+        - 2026.01.0 Release {#2601-release}
+          - [What's new](./release-info/whats-new-2026-01-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2026-01-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2026-01-0.md)
       - 2025 Releases {#2025-releases}
         - 2025.11.0 Release {#2511-release} 
           - [What's new](./release-info/whats-new-2025-11-0.md)
@@ -436,6 +441,7 @@ breadcrumb-title: AEM Guides Documentation
     - Work with output generation settings {#output-gen-config}
       - [Configure output generation settings](./install-guide/conf-output-generation.md)
       - [Download and install aem sites templates](./install-guide/download-install-aem-sites-templates.md)
+      - [Component mapping for AEM Sites](./install-guide/component-mapping.md)
       - [Overlay HTML tags in AEM Sites output](./install-guide/overlay-html-tags-aem-sites.md)
       - Native PDF Publishing {#config-native-pdf-publish}
         - [PDF Template](./native-pdf/pdf-template.md)
@@ -531,7 +537,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure Workfront](./cs-install-guide/conf-workfront.md)
     - Work with output generation settings {#output-gen-config-cs}
       - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
-      - [Download and install aem sites templates](./cs-install-guide/download-install-aem-sites-templates-cs.md)
+      - [Download and install AEM Sites templates](./cs-install-guide/download-install-aem-sites-templates-cs.md)
+      - [Component mapping for AEM Sites](./cs-install-guide/component-mapping.md)
       - [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       - [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
@@ -561,6 +568,7 @@ breadcrumb-title: AEM Guides Documentation
   - [API to start bulk processing for assets](./api-reference/bulk-assets-processing.md)
   - [Bulk activation complete event handler](./api-reference/bulk-activation-complete-event.md)
   - [Conversion process event handler](./api-reference/conversion-complete-event.md)
+  - [Create translation project](./api-reference/translation-project.md)
 - Knowledge Base {#knowledge-base}
   - Expert Session {#expert-session}
     - [Expert Session Overview](./knowledge-base/expert-sessions/expert-session.md)
