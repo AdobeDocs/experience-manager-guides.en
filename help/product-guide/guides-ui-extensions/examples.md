@@ -22,7 +22,7 @@ In this example we have customised the `right tab panel` to have another `tab` t
 In this example we have replaced the `Insert Element`, `Insert Paragraph`, `Insert Numbered List`, `Insert Bulleted List` buttons with a single `More Insert Options` button containing all of these.
 
 6. [Manage button on the Metadata panel](./examples/metadata_report_manage_button.ts)
-In this example, we have customized the **Manage** button (located in the Metadata panel on the Reports page) so that it is disabled when the `Disable Edit without Lock` setting is turned on. This helps prevent accidental metadata edits on files that are not intended for editing.
+In this example, we have customized the **Manage** button (located in the Metadata panel on the Reports page) so that it is disabled when selected file(s) are in read-only mode. This helps prevent accidental metadata edits on files that are not intended for editing.
 
 [Review App Examples]
 
