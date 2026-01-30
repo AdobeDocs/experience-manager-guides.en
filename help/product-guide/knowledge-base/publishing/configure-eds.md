@@ -17,6 +17,10 @@ To enable publishing from Experience Manager Guides to Edge Delivery Service (Be
 2. [Create and configure a Publish profile for Edge Delivery Services (Beta) in Experience Manager Guides](#create-and-configure-a-publish-profile-for-edge-delivery-services-beta-in-experience-manager-guides)
 3. [Customize output using Edge Delivery Services blocks](#customize-output-using-edge-delivery-services-blocks)
 
+For a quick video walk walkthrough, view [Publishing in AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+
+
+
 ## Set up and configure GitHub for Edge Delivery Services (Beta)
 
 The sections below outline each step in sequence and explain how to set up and configure GitHub for Edge Delivery Services (Beta):
