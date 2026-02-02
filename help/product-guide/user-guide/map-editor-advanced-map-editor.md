@@ -30,7 +30,7 @@ The following options are available on the toolbar in the Layout view:
 
 **Topic reference** - ![](images/topic-reference.svg)
 
-Displays the topic search dialog. Navigate to the topic/map file that you want to insert and choose **Select** to add it to the map. 
+Displays the Select file dialog. Navigate to the topic/map file that you want to insert and choose **Select** to add it to the map. 
 
 ![](images/insert-topic-reference-dialog.png){align="left"}
 
@@ -254,15 +254,31 @@ In addition to be able to view the position of each topic file within a map, it 
 
 You can perform the following additional tasks in the preview mode:
 
+**Open topics for editing**
+
 -   Right-click on a topic, and select **Edit** to open the topic for editing in a new tab.
 
     >[!NOTE]
     >
     > If you don't have editing rights, then the topic will open in read-only mode.
 
+    ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+
 -   Jump to the desired topic by selecting the topic title in the map tree \(in left panel\).
 
 -   The current topic in map preview is also highlighted in the map tree.
+
+**Refresh topics or map**
+
+When a map is opened in Preview mode and you switch back to it from another tab in the Editor, the preview does not refresh automatically. To reload the map preview, a manual refresh is required. 
+
+You can use the Refresh functionality, available in the Preview mode of the map, in two ways:
+
+- **Map-level refresh**: Selecting the **Refresh** button refreshes the preview of the entire map (including all topics), and takes you to the first scroll position for a clear view. 
+    ![](images/refresh-map.png){width="650" align="left"}
+
+- **Topic-level refresh**: Selecting **Refresh topic** from the context menu refreshes that specific topic while keeping the scroll position unchanged.
+    ![](images/refresh-topic.png){width="650" align="left"}
 
 **Other ways to preview a map file**
 

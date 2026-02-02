@@ -20,6 +20,15 @@ A POST method that initiates bulk asset processing for a specified path. This AP
 |`path`|String|Yes|Absolute path of the folder or asset in the AEM repository to be processed.|
 |`excludedPaths`|String|No|List of paths to exclude from processing|
 |`type`|String|Yes|Type of processing to be performed. For example: ASSET_PROCESSING.|
+|`filter`|Object|No|Filters applied to the selected assets|
+
+**Filter object fields**
+
+|Name|Type|Description|
+|----|----|-----------|
+|fileTypes|String|Asset types to process. Allowed values: DITATOPIC, DITAMAP, MARKDOWN, HTML/CSS, DITAVAL, OTHERS.|
+|startTime|Integer|Lower bound for asset creation time|
+|endTime|Integer|Upper bound for asset creation time|
 
 **Request Example**
 
@@ -29,7 +38,12 @@ A POST method that initiates bulk asset processing for a specified path. This AP
   "excludedPaths": [
     "content/dam/status-fetch1/excluded-folder"
   ],
-  "type": "ASSET_PROCESSING"
+  "type": "ASSET_PROCESSING",
+  "filter": {
+        "fileTypes": ["DITAMAP", "DITATOPIC"],
+        "startTime": 1758876933000
+        "endTime": 1764932039000
+    }
 }
 
 ```

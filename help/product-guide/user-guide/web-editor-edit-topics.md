@@ -68,8 +68,11 @@ Experience Manager Guides provides the working copy indicator which shows whethe
 
 Experience Manager Guides also indicates if the last saved \(working\) copy of the file is in sync with the saved version or not. If you have some unsaved changes between the working copy and the last saved version, a \* mark appears along with the version information shown in the right top corner of the topic's file tab. This indicator acts as a reminder to save and create a version from your current \(working\) copy of the file.
 
-![Version update indicator](images/version-update-indicator.png){width="550" align="left"}
+>[!NOTE]
+>
+> Any changes to the metadata fields available under [File properties](./web-editor-right-panel.md#file-properties) will also trigger the working copy indicator on the document version. 
 
+![Version update indicator](images/version-update-indicator.png){width="550" align="left"}
 
 ## Access locked files in Author and Source modes
 

@@ -71,11 +71,11 @@ The Repository serves as the central space providing a tabular list of all the f
     - **New**: Create a new DITA topic, DITA map, or a folder. 
     - **Upload Assets**: Upload a file from your local system to the selected folder in repository.
     - **Add to collections**: Adds the selected folder to favorites. You can choose to add it to an existing or new collection.
-    - **Reprocess assets**: Triggers the processing of all the newly created and unprocessed assets.
+    - **Reprocess assets**: Triggers the processing for all the assets in the folder. 
 
 - **Options menu for files**: You can perform the following actions using the **Options** menu for a file:
 
-    ![](images/options-file-repo.png){width="350" align="left"}
+    ![](images/options-file-repo-new.png){width="350" align="left"}
 
     - **Edit**: Open the file for editing.
     - **Edit in Oxygen**: Select this option to edit the selected file in the Oxygen connector plugin.
@@ -93,7 +93,8 @@ The Repository serves as the central space providing a tabular list of all the f
     - **Rename**: Use this option to rename the selected file.
     - **Delete**: Use this option to delete the selected file.
     - **Add to**: Choose to add to Collections or Reusable content.
-    - **Copy**: Copies the UUID or complete path of the file.    
+    - **Copy**: Copies the UUID or complete path of the file.   
+    - **Reprocess asset**: Triggers the processing for the selected asset. 
     - **Properties**: Use this to open the Properties page of the selected file.
     - **Download as PDF**: Use the option to generate the PDF output and download it.  
       
@@ -111,7 +112,16 @@ You have the following options to filter the files and to narrow down your searc
 
 - **Search in**: Select the path where you want to search the files present in the Repository. 
 
-- **File type**: You can look for all **DITA Topics**,  **DITA Maps**, **DITAVAL Files**,  **Image Files**, **Multimedia**, **Documents**, and **JSON**.
+- **File type**: Filter your search based on a specific file type. Available options are: **Topic**,  **Map**, **DITAVAL**,  **Image**, **Multimedia**, **Document**, and **Others**.
+
+- **Document state**: You can filter your search based on the current document state of the files. The available filter values are defined in the `repositoryFilters` field of the `ui_config.json file` and are associated with the folder profile you are currently using.    
+
+    This means:
+
+    - If you are using the Global Profile, the filters values configured in the Global profile are applied. 
+    - If you select a specific Folder profile, the filters values defined in that profile are fetched.
+
+    The default filter values available for document state are: Draft, Edit, In-Review, Approved, Reviewed, and Done. For details on customizing filter values for document states, view [Configure document state filters](../cs-install-guide/config-doc-state-filters.md).     
 
 - **Locked by**: Displays a list of users. The list is paginated and loads asynchronously, showing a limited set of users at a time and fetching more as you scroll or navigate. This improves loading speed and overall performance, especially when working with a large number of users.
 
@@ -122,7 +132,7 @@ You have the following options to filter the files and to narrow down your searc
 
 - **Tags**: Filter content based on tags. 
 
-- **DITA element**: Filter content based on various DITA elements.
+- **DITA elements**: Filter content based on various DITA elements.
 
 After applying all the required filters, select **Apply** from the bottom-right corner of the Filters panel. 
 

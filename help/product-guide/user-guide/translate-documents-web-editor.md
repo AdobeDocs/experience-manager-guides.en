@@ -78,7 +78,15 @@ Before performing steps in this procedure, ensure that you have created the requ
     -   **File Name**: Name of the source file
     -   **File Type**: Type of the source file. The available options are Map, Topic, and Image.
     -   **Reference Type**: Direct or Indirect references
-    -   **Version**: Version number of the source file
+    -   **Version**: Version number of the source file. 
+    
+        If a file has saved changes that are not yet versioned (i.e., not saved as a new version in your map), an info icon appears next to the file, indicating the presence of unversioned changes.
+
+        ![](images/unversioned-changes-translation.png){width="650" align="left"}
+
+        >![NOTE]
+        >
+        > To view only files with unversioned changes, enable the **Show assets with unversioned changes only** setting in the Filters panel. Additionally, the unversioned indicator is visible only when translating files based on their latest versions.   
     -   **Version Label**: Label for the selected version of the source file
     -   **Target Version**: Version number of the target file
     -   **Document State**: State of the source file. The available options are Draft, In-Review, and Reviewed.

@@ -115,11 +115,13 @@ You can apply tags on an individual topic or use the bulk tagging feature to app
 
 To update metadata, perform the following steps:
 
-1.  To update metadata, select the files for which you want to update. You can select the files that are appearing in the Metadata panel, by checking in the check box appearing adjacent to **Title**. If you want to select all the records, use the **Select all** tab above the Title bar as shown below.
+1.  To update metadata, select the file(s) for which you want to update. You can select the files that are appearing in the Metadata panel, by checking in the check box appearing adjacent to **Title**. 
+
+    If you want to select all the records, use the **Select all** tab above the Title bar. Since records load progressively as you scroll, make sure you scroll to the end of the list before using **Select all**. This ensures that edit permissions and lock status are evaluated for all files, not just the currently visible records.
 
     >[!NOTE]
     >
-    > You cannot select any checked-out files. A checked-out icon also appears near the title of a checked-out file. You can hover over the icon to view the name of the user.
+    > If a file is locked by another user, it cannot be selected for updating metadata. A lock icon also appears near the title of a locked file. You can hover over the icon to view the name of the user.
 
     ![](images/all-selection.png){align="left"}
         
@@ -130,9 +132,7 @@ To update metadata, perform the following steps:
 
 1.  If you want to add any new tags, select new tags from the dropdown list to apply them to all selected topics. You can also delete any tag by selecting the cross icon near the tag.
 
-    >[!NOTE]
-    >
-    > The common tags applied on all the selected topics are listed.
+    
 
 1.  Select a new document state if you want to change the document state of all the selected references. The drop-down displays the common possible state for all selected topics. For example, if the current state of your topics is In-Review, then you can view Draft, Approved, or Reviewed state.
 1.  Select **Update** to update the metadata. A confirmation message is displayed for the metadata whether it is updated successfully or has any failed updates. You also select **Download Report** to download the snapshot of the report. This snapshot contains the details of the updated status for the selected references.
@@ -230,16 +230,16 @@ You can view the report for broken links by performing the following steps:
 
 1. You can filter your broken links based on the **File Type** and **Link Type**. The list of broken links is displayed based on your selection in the drop-down. For example, you can choose to display only the content references in your DITA map, and a file shows only the broken content references used in it.
 
-    DITA Topic, DITA Map, File reference, Key reference, Content Reference, Content Key Reference, Image Reference, Multimedia File Reference, and Multimedia Key Reference are available values for **Link Type** drop-down, and DITA Topic, DITA Map, Document,Image, Video, Audio, and Others are available values for **File Type** dropdown.
+    DITA Topic, DITA Map, File reference, Key reference, Content Reference, Content Key Reference, Image Reference, Multimedia File Reference, and Multimedia Key Reference are available values for **Link Type** drop-down, and Topic, Map, Document,Image, Video, Audio, and Others are available values for **File Type** dropdown.
 1. You can also use the following filtering options to choose to display the following columns in the list:
 
     – **Broken Link** (selected by default) The path of the broken link is specified in the DITA map. 
 
-    – **Link Type** (selected by default) The type of the links. The available options are DITA Topic, DITA Map, File reference, Key reference, Content Reference, Content Key Reference, Image Reference, Multimedia File Reference, and Multimedia Key Reference.
+    – **Link Type** (selected by default) The type of the links. The available options are Topic, Map, File reference, Key reference, Content Reference, Content Key Reference, Image Reference, Multimedia File Reference, and Multimedia Key Reference.
 
     – **Used In** (selected by default) The references in which the broken link has been used. You can select the reference to view it in author mode.
 
-    – **File Type** (selected by default) The type of reference – DITA Topic, DITA Map, Document,Image, Video, Audio, and Others.
+    – **File Type** (selected by default) The type of reference – Topic, Map, Document, Image, Video, Audio, and Others.
     
     Select **Refresh** to get a fresh list of broken links and view any change in your map file or if any broken link within your DITA map is updated.
 1. You can select on the **Fix link** icon (![](images/fix-broken-link.svg)) to fix the broken link. 
