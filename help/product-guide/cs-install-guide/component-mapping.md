@@ -61,6 +61,28 @@ Common patterns:
 
 Below is an example for HTML to JSON for an image element.
 
+```html
+
+<img src="/content/dam/aemg-docs/tragopan.svg" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="">
+
+```
+
+```json
+{
+    "name": "img",
+    "resourceType": "core/wcm/components/image/v2/image",
+    "attributeMap": [
+      {
+        "from": "src",
+        "to": "fileReference"
+      },
+      {
+        "value": ["fileReference"],
+        "to": "path-attributes"
+      }
+    ]
+  }
+```
 
 ### Normalize paths via a dedicated entry
 
