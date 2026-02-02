@@ -391,7 +391,7 @@ Use the breadcrumbs on the top and folder navigation panel on the left to easily
 
 ![](images/select-file-browser-file-navigation.png)
 
-You can search for the required image file by File name, File title, and Content. You can also filter the search results by Path \(to search in\), Document state, Locked by, Last modified, and Tags. The File type filter is pre-aplied to **Images** and remains disabled for other file types to allow valid file selections. For more details on using filters on this path browser, view [Other features in the Editor](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides).. 
+You can search for the required image file by File name, File title, and Content. You can also filter the search results by Path \(to search in\), Document state, Locked by, Last modified, and Tags. The File type filter is pre-aplied to **Images** and remains disabled for other file types to allow valid file selections. For more details on using filters on this path browser, view [Other features in the Editor](./web-editor-other-features.md). 
 
 ![](images/select-file-dialog-image-filter.png)
 
