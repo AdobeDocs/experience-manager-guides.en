@@ -471,6 +471,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure asset processing feature](./install-guide/configure-asset-processing.md) 
     - Work with B-tree cleanup{#btree-cleanup}
       - [Configure B-tree cleanup ](./install-guide/configure-btree-clean-up-job.md)
+    - Custom indexing{#custom-indexing}
+      - [Deploying custom index for Find and replace (Source view)](./install-guide/custom-indexing-prem.md)   
     - [Appendix](./install-guide/appendix.md)
   - Cloud Services {#cs-ig}
     - [About this guide](./cs-install-guide/introduction.md)
@@ -557,7 +559,9 @@ breadcrumb-title: AEM Guides Documentation
     - Work with Asset processing {#asset-processing-cloud}
       - [Configure asset processing feature](./cs-install-guide/configure-asset-processing-cs.md)
     - Work with B-tree cleanup{#btree-cleanup-cs}
-      - [Configure B-tree cleanup](./cs-install-guide/configure-btree-cleanup-cs.md)    
+      - [Configure B-tree cleanup](./cs-install-guide/configure-btree-cleanup-cs.md)   
+    - Custom indexing{#custom-indexing-cs}
+      - [Deploying custom index for Find and replace (Source view)](./cs-install-guide/custom-indexing.md)   
     - [Appendix](./cs-install-guide/appendix.md)     
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)

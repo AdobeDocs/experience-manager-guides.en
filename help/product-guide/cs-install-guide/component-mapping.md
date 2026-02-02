@@ -61,9 +61,9 @@ Common patterns:
 
 Below is an example for HTML to JSON for an image element.
 
-```html
+<!-->```html
 <img src="/content/dam/aemg-docs/tragopan.svg" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="">
-```
+```-->
 
 ```json
 {
