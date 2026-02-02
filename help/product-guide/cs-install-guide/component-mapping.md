@@ -62,24 +62,6 @@ Common patterns:
 Below is an example for HTML to JSON for an image element.
 
 
-
-```json
-{
-    "name": "img",
-    "resourceType": "core/wcm/components/image/v2/image",
-    "attributeMap": [
-      {
-        "from": "src",
-        "to": "fileReference"
-      },
-      {
-        "value": ["fileReference"],
-        "to": "path-attributes"
-      }
-    ]
-  }
-```
-
 ### Normalize paths via a dedicated entry
 
 If you want to normalize (make absolute) values, declare which attribute keys should be normalized using:
