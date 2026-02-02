@@ -520,7 +520,7 @@ You can use the breadcrumbs on the top and folder navigation panel on the left t
 
 ![](images/select-file-browser-file-navigation.png)
 
-You can search for the required file by File name, File title, and Content. You can also narrow down your search using enhanced filters from the Right panel. For more details, view [Other features in the Editor](./web-editor-other-features#browse-files-and-folders-in-experience-manager-guides). 
+You can search for the required file by File name, File title, and Content. You can also narrow down your search using enhanced filters from the Right panel. For more details, view [Other features in the Editor](./web-editor-other-features.md). 
 
 ![](images/select-file-dialog-image-filter.png)
 
