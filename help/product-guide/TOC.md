@@ -444,7 +444,6 @@ breadcrumb-title: AEM Guides Documentation
     - Work with output generation settings {#output-gen-config}
       - [Configure output generation settings](./install-guide/conf-output-generation.md)
       - [Download and install aem sites templates](./install-guide/download-install-aem-sites-templates.md)
-      - [Component mapping for AEM Sites](./install-guide/component-mapping.md)
       - [Overlay HTML tags in AEM Sites output](./install-guide/overlay-html-tags-aem-sites.md)
       - Native PDF Publishing {#config-native-pdf-publish}
         - [PDF Template](./native-pdf/pdf-template.md)
@@ -544,7 +543,6 @@ breadcrumb-title: AEM Guides Documentation
     - Work with output generation settings {#output-gen-config-cs}
       - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
       - [Download and install AEM Sites templates](./cs-install-guide/download-install-aem-sites-templates-cs.md)
-      - [Component mapping for AEM Sites](./cs-install-guide/component-mapping.md)
       - [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       - [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
