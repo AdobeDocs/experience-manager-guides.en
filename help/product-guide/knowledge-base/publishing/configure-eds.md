@@ -76,7 +76,7 @@ Perform the following steps to create a new GitHub application:
     ![](assets/eds-new-github-app.png){width="650" align="left"} 
 4. On the **Register new GitHub App** page, provide the following details:
     - **GitHub App name**: Enter a name for your app. For example, `USERNAME-quickstart-app` where USERNAME is your GitHub username.
-    - **Homepage URL**: Enter the URL to the Experience Manager Guides instance. Example: `https://{{cloud-url}}/libs/fmdita/clientlibs/xmleditor/page.html`
+    - **Homepage URL**: Enter the URL to the Experience Manager Guides instance. Example: `https://cloud-url/libs/fmdita/clientlibs/xmleditor/page.html`
     - **Callback URL**: Same as the Homepage URL.
     - **Webhook URL**: Disable this option.
     - **Repository permissions**: Set **Read and Write** permissions for *Actions, Administration, and Attestation*.
@@ -99,7 +99,7 @@ Perform the following steps to create a new OAuth App:
     ![](assets/eds-new-oauth-app.png){width="650" align="left"} 
 4. Register your application by providing the following mandatory details:
     - **Application name**: Name of your Edge Delivery Services repository
-    - **Homepage URL**: Enter the URL to the Experience Manager Guides instance. Example: https://{{cloud-url}}/libs/fmdita/clientlibs/xmleditor/page.html 
+    - **Homepage URL**: Enter the URL to the Experience Manager Guides instance. Example: https://cloud-url/libs/fmdita/clientlibs/xmleditor/page.html 
     - **Authorization callback URL**: Same as Homepage URL
 5. Select the **Enable Device Flow** option and then select **Register application** to complete the registration.
 
