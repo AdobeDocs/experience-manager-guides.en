@@ -503,6 +503,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure custom DITA map template](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
     - Work with document states {#doc-state-cs}
       - [Configure document states](./cs-install-guide/customize-doc-state.md)
+      - [Configure document state filters](./cs-install-guide/config-doc-state-filters.md)
     - Configure Workspace settings {#workspace-configs}
       - [Workspace settings](./cs-install-guide/workspace-settings.md)  
     - Work with the Web Editor configurations {#web-editor-configs-cs}

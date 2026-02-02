@@ -1093,10 +1093,8 @@ The Find and Replace feature can be used in two distinct modes, depending on you
     >[!NOTE]
     >
     > The **Use source mode** feature is available in the Experience Manager Guides as a Cloud Service with 2026.01.0 release and for On-Premise setup with 5.2 release. To use this feature, you must first index your content depending on the setup you are using. 
-    > * **For Cloud services**: A custom index deployment must be performed. For details, view [Deploying custom index](/help/product-guide/cs-install-guide/custom-indexing.md). Once completed, contact your Customer Success team to enable this feature.
-
-    > * **For On-Premise**: Re-indexing of existing content is required before the feature can be used. For details, view [Reindexing content](/help/product-guide/install-guide/custom-indexing-prem.md). Once completed, contact your Customer Success team to enable this feature.
-
+    > - **For Cloud services**: A custom index deployment must be performed. For details, view [Deploying custom index](/help/product-guide/cs-install-guide/custom-indexing.md). Once completed, contact your Customer Success team to enable this feature.
+    > - **For On-Premise**: Re-indexing of existing content is required before the feature can be used. For details, view [Reindexing content](/help/product-guide/install-guide/custom-indexing-prem.md). Once completed, contact your Customer Success team to enable this feature.
 
     ![](images/map-find-replace-with-source-mode.png){align="left"}
 

@@ -5,7 +5,7 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Configure document state filters {#id21BPD0FK0XA}
+# Configure document state filters 
 
 Adobe Experience Manager Guides provides the feature to search a file based on its current document state. You can use filter search to search files from the repository interface to browse files. 
 
@@ -58,12 +58,13 @@ Perform the following steps to configure the document state filters:
 
 1. You can customize the filter values based on your organization's workflow. For example, to add a custom document state **Pending**, insert the following entry under `children`:
 
+    ```
+    {
+        "title": "Pending",
+        "value": "Pending"
+    }
+    ```
 
-        {
-                "title": "Pending",
-                "value": "Pending"
-        },
-    
 1.  Once updated, save the file and upload it.
 
 The configured filters are displayed in the **Filters** panel in Repository on Home page.
