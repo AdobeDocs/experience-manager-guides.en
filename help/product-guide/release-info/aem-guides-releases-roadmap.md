@@ -63,6 +63,7 @@ Product updates in terms of new features, enhancements, and bug fixes for suppor
 
 | Release |Event |Schedule |What's new | Upgrade instructions | Status|
 |---|---|---|---|---|---|
+|Adobe Experience Manager Guides 5.0.0|Service Pack 3|February 2, 2026|-|[Here](upgrade-instructions-5-0-0-sp3.md)|Released|
 |Adobe Experience Manager Guides 5.1.0|Service Pack 3|December 19, 2025|[Here](whats-new-5-1-3.md)|[Here](upgrade-instructions-5-1-0-sp3.md)|Released|
 |Adobe Experience Manager Guides 5.1.0|Service Pack 1|October 15, 2025|-|[Here](upgrade-instructions-5-1-0-sp1.md)|Released|
 |Adobe Experience Manager Guides 5.1.0 (AEM 6.5 LTS)|Release|October 8, 2025|-|[Here](upgrade-instructions-5-1-0.md)|Released|
