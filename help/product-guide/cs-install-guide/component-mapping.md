@@ -96,14 +96,14 @@ Below is an example for HTML to JSON for an image element.
 
 If you want to normalize (make absolute) values, declare which attribute keys should be normalized using:
 
-```json
+<!-- ```json
 
 {
   "value": ["text"],
   "to": "path-attributes"
 }
 
-```
+``` -->
 
 Ensure to take care of the following important points:
 
