@@ -51,7 +51,7 @@ Perform the following steps to install and configure the *AEM Code Sync* applica
 1. Navigate to the [AEM Code Sync](https://github.com/apps/aem-code-sync) page and select **Install**.
 2. *AEM Code Sync* monitors repository changes and ensures that updates are correctly pushed to GitHub.  
 
-    >![NOTE]
+    >[!NOTE]
     >
     > While installing the application, ensure that you use the same GitHub account that owns the repository.
 
@@ -122,7 +122,7 @@ To configure the mountpoint URL in the `fstab.yaml` file:
     - `your-user-name`
     - `your-repo-name`
 
-    >![NOTE]
+    >[!NOTE]
     >
     > In the mountpoint URL, `main` indicates the branch on which you want to publish the content, and `docs` indicates the root folder of the EDS (Beta) repository you are working on. If you prefer to change the branch name on GitHub, then you must update the same branch name in the *mountpoint* URL (in the `fstab.yaml` file) and corresponding EDS publish profile in Experience Manager Guides. 
 
@@ -142,7 +142,7 @@ The sections below outline each step in sequence and explain how to set up EDS (
 
 ### Create the EDS (Beta) publish profile
 
-1. Go to **[Workspace settings]** **>** **Publish profiles**.
+1. Go to **[Workspace settings](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **Publish profiles**.
 2. Select the **+** icon to create a new publish profile and provide the following details:
     - **Server type**: Select **GitHub Edge Delivery Services (Beta)** from the dropdown.
     - **Name**: Enter a name for this profile .
@@ -178,7 +178,7 @@ Your EDS (Beta) publish profile is now configured.
 
 6. Select **Save**, and then **Generate output**.
 
->![Note]
+>[!NOTE]
 >
 > The generated output is stored in the **docs** folder of the EDS (Beta) repository.
 
