@@ -316,7 +316,7 @@ This lets you **drop in** Core Image wherever you need it, not only as a child c
 **Client libraries**
 
 Create a clientlib for small styles or future JS. The HTL above loads the `guides-components.table` category.
-
+<!--
 ```java
 
 clientlibs/css.txt
@@ -327,7 +327,7 @@ clientlibs/js.txt
   table.js
 
 ```
-
+-->
 This keeps the styles/scripts modular and discoverable.
 
 **Dialog fields (Author inputs)**
