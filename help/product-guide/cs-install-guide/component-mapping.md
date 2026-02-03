@@ -233,7 +233,7 @@ Indicates to AEM that this is a component available for authors to add to pages.
 **Render with HTL and include styles**
 
 Use a Sling Model and output the processed HTML. Include your clientlib category for CSS/JS.
-
+<!--
 ```html
 
 <sly data-sly-use.model="com.adobe.guides.aem.components.core.models.TableModel"
@@ -250,7 +250,7 @@ Use a Sling Model and output the processed HTML. Include your clientlib category
 </div>
 
 ```
-
+-->
 The model returns complete HTML with Core Image already rendered, so HTL just prints it.
 
 **Add the Sling Model to process HTML and render Core Image**
