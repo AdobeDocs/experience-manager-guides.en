@@ -295,7 +295,7 @@ This centralizes the logic on the server and reuses Core Image behavior.
 - wraps a resource that forces `core/wcm/components/image/v2/image`.
 - uses `RequestDispatcher#include` to render it.
 - captures the response as a string.
-
+<!--
 ```java
 
 @Component(service = ImageComponentRenderer.class)
@@ -310,7 +310,7 @@ public class ImageComponentRenderer {
 }
 
 ```
-
+-->
 This lets you **drop in** Core Image wherever you need it, not only as a child component.
 
 **Client libraries**
