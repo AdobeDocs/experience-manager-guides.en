@@ -133,7 +133,7 @@ Examples:
 ``` -->
 
 ### Minimal end-to-end example in componentmapping.json
-
+<!--
 ```json
 
 [
@@ -166,6 +166,7 @@ Examples:
 ]
 
 ```
+-->
 
 Define the element and class to target, use `attributeMap` to set the node properties, add a `path-attributes` entry to normalize paths, and pick the right `from` for the values you want to extract. The `heroimage` used above is a component in a `we-retail` site.
 
