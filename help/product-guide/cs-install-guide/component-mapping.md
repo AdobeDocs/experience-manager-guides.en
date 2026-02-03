@@ -18,7 +18,7 @@ Use a JSON array of rules (your `componentmapping.json`) to convert HTML into co
 
 - Write the HTML tag name in `name`.
 - Include the CSS class applied on that element in `class`, if class exists.
-  Example:
+  <!--Example:
 
     ```html
 
@@ -38,6 +38,7 @@ Use a JSON array of rules (your `componentmapping.json`) to convert HTML into co
     }
 
     ```
+  -->
     
 While defining the above elements, ensure the following: 
 
@@ -168,9 +169,7 @@ Examples:
 
 Define the element and class to target, use `attributeMap` to set the node properties, add a `path-attributes` entry to normalize paths, and pick the right `from` for the values you want to extract. The `heroimage` used above is a component in a `we-retail` site.
 
->[!NOTE]
->
->It is important to discuss the default rich text and identify the elements for which it is utilized.
+**Note**: It is important to discuss the default rich text and identify the elements for which it is utilized.
 
 ## Build a custom component
 
