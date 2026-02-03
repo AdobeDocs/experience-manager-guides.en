@@ -17,6 +17,10 @@ To enable publishing from Experience Manager Guides to Edge Delivery Service (Be
 2. [Create and configure a Publish profile for Edge Delivery Services (Beta) in Experience Manager Guides](#create-and-configure-a-publish-profile-for-edge-delivery-services-beta-in-experience-manager-guides)
 3. [Customize output using Edge Delivery Services blocks](#customize-output-using-edge-delivery-services-blocks)
 
+For a quick video walk walkthrough, view [Publishing in AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+
+
+
 ## Set up and configure GitHub for Edge Delivery Services (Beta)
 
 The sections below outline each step in sequence and explain how to set up and configure GitHub for Edge Delivery Services (Beta):
@@ -30,7 +34,7 @@ Perform the following steps to create your repository:
 1. Open the Experience Manager Guides boilerplate template repository [`aem-guides-boilerplate`](https://github.com/adobe/aem-guides-boilerplate).
     ![](assets/eds-boilerplate-template.png){align="left"} 
 
-2. Create a new repository using this template. Learn about [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). Ensure that the repository visibility is set to *Public* so it can be accessed by Franklin services. 
+2. Create a new repository using this template. Learn about [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). Ensure that the repository visibility is set to *Public* so it can be accessed by Edge Delivery Services. 
 
      ![](assets/eds-create-new-repo.png){align="left"} 
 
@@ -71,8 +75,12 @@ Perform the following steps to create a new GitHub application:
 
     ![](assets/eds-new-github-app.png){width="650" align="left"} 
 4. On the **Register new GitHub App** page, provide the following details:
-    - **GitHub App name**: Enter a name for your app. For example, `USERNAME-quickstart-app` where USERNAME is your GitHub username.
-    - **Homepage URL**: Enter the URL to the Experience Manager Guides instance. Example: `https://{{cloud-url}}/libs/fmdita/clientlibs/xmleditor/page.html`
+    - **GitHub App name**: Enter a name for your app. For example, `USERNAME-eds-app` where USERNAME is your GitHub username.
+    - **Homepage URL**: Enter the URL to the Experience Manager Guides instance. 
+    
+        Sample URL (format): `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`
+
+        Sample URL: `https://author-p16602-e335172-cmstg.adobeaemcloud.com/libs/fmdita/clientlibs/xmleditor/page.html`
     - **Callback URL**: Same as the Homepage URL.
     - **Webhook URL**: Disable this option.
     - **Repository permissions**: Set **Read and Write** permissions for *Actions, Administration, and Attestation*.
@@ -88,14 +96,14 @@ An OAuth App is required to authenticate users while creating an Edge Delivery S
 
 Perform the following steps to create a new OAuth App:
 
-1. Go to **Developer settings**.
+1. On GitHub, navigate to the left sidebar and select **Developer settings****.
 2. In the left sidebar, select **OAuth Apps**.
 3. Select **New OAuth App**.
 
     ![](assets/eds-new-oauth-app.png){width="650" align="left"} 
 4. Register your application by providing the following mandatory details:
-    - **Application name**: Name of your Edge Delivery Services repository
-    - **Homepage URL**: Enter the URL to the Experience Manager Guides instance. Example: https://{{cloud-url}}/libs/fmdita/clientlibs/xmleditor/page.html 
+    - **Application name**: Enter the name of your Edge Delivery Services repository
+    - **Homepage URL**: Enter the URL to the Experience Manager Guides instance. (For sample URL format, refer to step 4 of [Create a new GitHub App](#create-a-new-github-app) section)
     - **Authorization callback URL**: Same as Homepage URL
 5. Select the **Enable Device Flow** option and then select **Register application** to complete the registration.
 
@@ -118,7 +126,7 @@ To configure the mountpoint URL in the `fstab.yaml` file:
 
     >![NOTE]
     >
-    > The `main` indicates the branch on which you want to publish the content, and `docs` is the root folder of the Edge Delivery Services (Beta) repository you are working on. If you prefer to change the branch name on GitHub, then you must update the same branch name in the *mountpoint* URL (in the `fstab.yaml` file) and corresponding Publish profile in Experience Manager Guides. 
+    > In the mountpoint URL, `main` indicates the branch on which you want to publish the content, and `docs` indicates the root folder of the Edge Delivery Services (Beta) repository you are working on. If you prefer to change the branch name on GitHub, then you must update the same branch name in the *mountpoint* URL (in the `fstab.yaml` file) and corresponding EDS Publish profile in Experience Manager Guides. 
 
     ![](assets/eds-fstab-yaml-file.png){width="650" align="left"}  
 2. Select **Commit changes**, enter commit details, and confirm.
@@ -130,7 +138,9 @@ To configure the mountpoint URL in the `fstab.yaml` file:
      ![](assets/eds-install-eds-app.png){width="650" align="left"} 
 5. Repeat steps 2 and 3 from the [Connect GitHub to Adobe via AEM Code Sync](#connect-github-to-adobe-via-aem-code-sync) section to authorize the repository.
 
-## Create and configure a Publish profile for Edge Delivery Services (Beta) in Experience Manager Guides
+## Create and configure a Publish profile for Edge Delivery Services (Beta) in Experience Manager 
+
+The sections below outline each step in sequence and explain how to set up Edge Delivery Services (Beta) Publish profile in Experience Manager Guides and generate output:
 
 ### Create the Edge Delivery Services (Beta) Publish profile
 
@@ -144,8 +154,8 @@ Perform the following steps to create a new Publish profile for Edge Delivery Se
     - **Username**: Enter your GitHub username
     - **Branch main**: Set to main (default)
     - **Root folder**: set to docs (default)
-    - **Client ID and Client Secret**: Fetch these from your GitHub App (Refer to step 6 of [Create a new OAuth App](#create-a-new-oauth-app) section).
-3. Select **Login** to authenticate
+    - **Client ID and Client Secret**: Fetch these from your GitHub App (Refer to [Create a new OAuth App](#create-a-new-oauth-app) section for details).
+3. Select **Login** to authenticate.
 
     ![](assets/eds-publish-profile.png){width="650" align="left"} 
 4. On successful authentication, select **Save**.
@@ -156,11 +166,11 @@ Your Edge Delivery Services (Beta) Publish profile is now configured.
 
 Perform the following steps to create an output preset for Edge Delivery Services (Beta):
 
-1. Open your DITA map in the Map console.
+1. Open your map in Map console.
 2. In the **Output presets** tab, select **+** to create a new output preset.
 3. In the **New output preset** dialog, provide the following details:
-    - Type: Select Edge Delivery Service (Beta)
-    - Name: Provide a name for this preset
+    - **Type**: Select Edge Delivery Service (Beta)
+    - **Name**: Provide a name for this preset
 4. Select **Add**.
 
     ![](assets/eds-output-preset.png){width="650" align="left"} 
@@ -178,7 +188,7 @@ Perform the following steps to create an output preset for Edge Delivery Service
 >
 > The generated output is stored in the **docs** folder of the Edge Delivery Services (Beta) repository.
 
-The Edge Delivery Services (Beta) output is now generated. The content is presented in a clean, responsive layout. It includes regular elements such as the page title, breadcrumbs, body content, and any blocks used in the topic. The TOC on the left (generated from the DITA map) helps you to navigate across topics, while a mini-TOC on the right highlights the sections within the current page. The entire output is fully responsive, ensuring an optimized, consistent reading experience across devices.
+The Edge Delivery Services (Beta) output is now generated. The content is presented in a clean, responsive layout. It includes regular elements such as the page title, breadcrumbs, body content, and any blocks used in the topic. The TOC on the left (generated from the map) helps you to navigate across topics, while a mini-TOC on the right highlights the sections within the current page. The entire output is fully responsive, ensuring an optimized, consistent reading experience across devices.
 
 ![](assets/eds-site-output.png){align="left"} 
 
@@ -207,8 +217,10 @@ Perform the following steps to customize a breadcrumb block to update its text c
 In some cases, you may want to style only a specific part of your content. Peform the following steps to achieve this using a custom block.
 
 1. Open the topic file and select the text inside a tag element.
+
+    In the following screenshot, the content inside the `example` tag is selected. 
     ![](assets/eds-example-tag-org-output.png){width="650" align="left"} 
-2. To configure the text inside the example tag:
+2. To configure the text inside the `example` tag:
     - Navigate to **Content properties**.
     - Add the `outputclass` attribute.
     - Set its value to `example eds-force-block`.
