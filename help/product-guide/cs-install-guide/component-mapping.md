@@ -67,7 +67,7 @@ Common patterns:
 -->
 Below is an example for HTML to JSON for an image element.
 
-```html
+<!-- ```html
 
 <img src="sample.png" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="">
 
@@ -90,7 +90,7 @@ Below is an example for HTML to JSON for an image element.
     ]
   }
 
-```
+``` -->
 
 ### Normalize paths via a dedicated entry
 
