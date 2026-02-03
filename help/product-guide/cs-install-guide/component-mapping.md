@@ -68,7 +68,7 @@ Below is an example for HTML to JSON for an image element.
 
 ```html
 
-<img src="/content/dam/aemg-docs/tragopan.svg" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="">
+<img src="sample.png" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="">
 
 ```
 
@@ -316,7 +316,7 @@ This lets you **drop in** Core Image wherever you need it, not only as a child c
 
 Create a clientlib for small styles or future JS. The HTL above loads the `guides-components.table` category.
 
-```
+```java
 
 clientlibs/css.txt
   #base=css
