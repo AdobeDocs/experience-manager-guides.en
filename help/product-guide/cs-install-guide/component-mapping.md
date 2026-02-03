@@ -21,6 +21,7 @@ Use a JSON array of rules (your `componentmapping.json`) to convert HTML into co
   Example:
 
     ```html
+
     <div class ="sample-class">
     <p> Sample html element </p>
     </div>
@@ -28,12 +29,14 @@ Use a JSON array of rules (your `componentmapping.json`) to convert HTML into co
     ```
 
     ```json
+
     {
     "name": "div",
     "class": "sample-class",
     "resourceType": "guides-components/components/table",
     "attributeMap": []
     }
+
     ```
     
 While defining the above elements, ensure the following: 
@@ -48,6 +51,7 @@ Add entries to `attributeMap` to set properties on the output node. Each entry p
 Common patterns:
 
 ```json
+
 // copy an attribute
 { "attribute": "src", "to": "image-src" }
 // read content or tag name
@@ -57,6 +61,7 @@ Common patterns:
 { "from": "name",       "to": "type" }  // the tag name, e.g., "h2"
 // constant value
 { "value": true, "to": "textIsRich" }
+
 ```
 
 Below is an example for HTML to JSON for an image element.
@@ -68,6 +73,7 @@ Below is an example for HTML to JSON for an image element.
 ```
 
 ```json
+
 {
     "name": "img",
     "resourceType": "core/wcm/components/image/v2/image",
@@ -82,6 +88,7 @@ Below is an example for HTML to JSON for an image element.
       }
     ]
   }
+
 ```
 
 ### Normalize paths via a dedicated entry
@@ -89,10 +96,12 @@ Below is an example for HTML to JSON for an image element.
 If you want to normalize (make absolute) values, declare which attribute keys should be normalized using:
 
 ```json
+
 {
   "value": ["text"],
   "to": "path-attributes"
 }
+
 ```
 
 Ensure to take care of the following important points:
@@ -114,15 +123,18 @@ Use `from` to specify how to read a value from the element before the document i
 Examples:
 
 ```json
+
 { "from": "textContent", "to": "jcr:title" }
 { "from": "outerHTML",  "to": "text" }
 { "from": "innerHTML",  "to": "snippet" }
 { "from": "src",        "to": "image#src" }
+
 ```
 
 ### Minimal end-to-end example in componentmapping.json
 
 ```json
+
 [
   {
     "name": "h1, h2",
@@ -151,6 +163,7 @@ Examples:
     ]
   }
 ]
+
 ```
 
 Define the element and class to target, use `attributeMap` to set the node properties, add a `path-attributes` entry to normalize paths, and pick the right `from` for the values you want to extract. The `heroimage` used above is a component in a `we-retail` site.
@@ -204,12 +217,14 @@ Your table is output once, already containing Core Image markup. No client‑sid
 Create the component under `apps/guides-components/components/table`. If you don't already have one, add a minimal `.content.xml` like below to register it in the side panel.
 
 ```xml
+
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
           xmlns:jcr="http://www.jcp.org/jcr/1.0"
           jcr:primaryType="cq:Component"
           jcr:title="Table"
           componentGroup="Guides - Custom"/>
+
 ```
 
 Indicates to AEM that this is a component available for authors to add to pages.
@@ -219,6 +234,7 @@ Indicates to AEM that this is a component available for authors to add to pages.
 Use a Sling Model and output the processed HTML. Include your clientlib category for CSS/JS.
 
 ```html
+
 <sly data-sly-use.model="com.adobe.guides.aem.components.core.models.TableModel"
      data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html">
 </sly>
@@ -231,6 +247,7 @@ Use a Sling Model and output the processed HTML. Include your clientlib category
      id="${model.componentId}">
   ${model.processedTableHtml @ context='unsafe'}
 </div>
+
 ```
 
 The model returns complete HTML with Core Image already rendered, so HTL just prints it.
@@ -248,6 +265,7 @@ Following are some of the important knowhows for `TableModel`:
 - Normalizes DAM paths (removes `/jcr:content/renditions/*`).
 
 ```java
+
 @Model(adaptables = {Resource.class, SlingHttpServletRequest.class},
        defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class TableModel {
@@ -264,6 +282,7 @@ public class TableModel {
   }
   public String getProcessedTableHtml() { /* return final HTML */ }
 }
+
 ```
 
 This centralizes the logic on the server and reuses Core Image behavior.
@@ -277,6 +296,7 @@ This centralizes the logic on the server and reuses Core Image behavior.
 - captures the response as a string.
 
 ```java
+
 @Component(service = ImageComponentRenderer.class)
 public class ImageComponentRenderer {
   private static final String IMAGE_RESOURCE_TYPE = "core/wcm/components/image/v2/image";
@@ -287,6 +307,7 @@ public class ImageComponentRenderer {
     // return captured HTML
   }
 }
+
 ```
 
 This lets you **drop in** Core Image wherever you need it, not only as a child component.
@@ -296,12 +317,14 @@ This lets you **drop in** Core Image wherever you need it, not only as a child c
 Create a clientlib for small styles or future JS. The HTL above loads the `guides-components.table` category.
 
 ```
+
 clientlibs/css.txt
   #base=css
   table.css
 clientlibs/js.txt
   #base=js
   table.js
+
 ```
 
 This keeps the styles/scripts modular and discoverable.
