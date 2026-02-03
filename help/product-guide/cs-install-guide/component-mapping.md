@@ -264,7 +264,7 @@ Following are some of the important knowhows for `TableModel`:
 - Calls `ImageComponentRenderer` to render Core Image and capture the HTML.
 - Preserves CSS classes and style from the original `<img>`.
 - Normalizes DAM paths (removes `/jcr:content/renditions/*`).
-
+<!--
 ```java
 
 @Model(adaptables = {Resource.class, SlingHttpServletRequest.class},
@@ -285,7 +285,7 @@ public class TableModel {
 }
 
 ```
-
+-->
 This centralizes the logic on the server and reuses Core Image behavior.
 
 **Render Core Image via a service (server‑side include)**
