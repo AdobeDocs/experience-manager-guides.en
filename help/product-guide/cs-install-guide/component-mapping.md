@@ -123,14 +123,14 @@ Use `from` to specify how to read a value from the element before the document i
 
 Examples:
 
-```json
+<!-- ```json
 
 { "from": "textContent", "to": "jcr:title" }
 { "from": "outerHTML",  "to": "text" }
 { "from": "innerHTML",  "to": "snippet" }
 { "from": "src",        "to": "image#src" }
 
-```
+``` -->
 
 ### Minimal end-to-end example in componentmapping.json
 
