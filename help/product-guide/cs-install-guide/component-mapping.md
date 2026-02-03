@@ -216,7 +216,7 @@ Your table is output once, already containing Core Image markup. No client‑sid
 **Define the Table component (component node)**
 
 Create the component under `apps/guides-components/components/table`. If you don't already have one, add a minimal `.content.xml` like below to register it in the side panel.
-
+<!--
 ```xml
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -227,7 +227,7 @@ Create the component under `apps/guides-components/components/table`. If you don
           componentGroup="Guides - Custom"/>
 
 ```
-
+-->
 Indicates to AEM that this is a component available for authors to add to pages.
 
 **Render with HTL and include styles**
