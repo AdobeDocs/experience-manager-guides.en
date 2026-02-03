@@ -57,19 +57,19 @@ For more details, view [Browsing files and folders in Experience Manager Guides]
 
 Now, filter your Repository search results based on the current document state of the files. With the new **Document state** filter, you can narrow down your search using the available filter values defined in the `ui_config.json` file within your Folder profile.  
 
-![](assets/document-state-filter-repository.png){width="300" align="left"}
+![](assets/document-state-filter-repository.png){align="left"}
 
 The default filter values available for Document state are: Draft, Edit, In-Review, Approved, Reviewed, and Done. For details on customizing the default document state filters values, view [Configure document state filters](../cs-install-guide/config-doc-state-filters.md). 
 
 >[!NOTE]
 >
-> If you are using custom settings for ui_config.json ensure to take a back up of those before upgrading. After the update, review and adjust your settings to align with the changes introduced in the latest version.
+> If you are using custom settings for `ui_config.json` ensure to take a back up of those before upgrading. After the update, review and adjust your settings to align with the changes introduced in the latest version.
 
 ### Thumbnail icon for multimedia
 
 All multimedia files are now displayed with thumbnail icons, making it easier to visually identify and locate images within the **Repository**. This enhancement also applies when searching for files in the **Search panel**, helping you quickly distinguish multimedia assets from other file types. 
 
-![](assets/thumbnail-repository.png){width="300" align="left"}
+![](assets/thumbnail-repository.png){align="left"}
 
 ## Editor enhancements
 
@@ -141,7 +141,7 @@ For more details, view [Handle image rendition in output generation](../cs-insta
 When generating output through the Assets UI, a new **Download logs** button is now available that allows you to download log to your local device for easier access and review. 
 
 
-### Language variables for Cross references in Native PDF Output
+### Language variables for cross references in Native PDF Output
 
 When publishing Native PDF output, you can use [language variables](../native-pdf/native-pdf-language-variables.md) to translate static cross-reference text like _See in chapter_ or _See on page_. The variable uses the language defined in the topic through the `xml:lang` attribute. 
 

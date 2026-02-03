@@ -177,7 +177,7 @@ In some cases, you can also select multiple files from this path browser dialog.
 
 Multiple file selection is currently available for Reusable content, topic references, Schematron, Output presets (using DITAVAL), and Workfront.  
 
->![NOTE]
+>[!NOTE]
 >
 > When selecting files from the path browser dialog, some folders may appear disabled. This behavior restricts access to specific file types to ensure valid selections. For example, when creating reusable content, only topic and map files must be used. To prevent using an invalid file type, such as an image, the corresponding files are either not displayed or remain disabled for selection in the path browser.
 
@@ -215,7 +215,7 @@ You have the following options to filter the files and to narrow down your searc
 
 - **File type**: Filter your search based on a specific file type. Available options are: **Topic**,  **Map**, **DITAVAL**,  **Image**, **Multimedia**, **Document**, and **Others**.
 
-    >![NOTE]
+    >[!NOTE]
     >
     > In some cases, the **File type** filter is pre-applied on specific file type(s) based on the task and cannot be changed. For example, when browsing for an image, the filter is set to display only image files, and when creating reusable content, it is set to show only topic and map files. You can still adjust other filters such as document state, tags, or last modified date to refine your search results.
 
