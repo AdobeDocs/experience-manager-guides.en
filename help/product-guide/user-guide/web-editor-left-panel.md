@@ -1113,12 +1113,12 @@ To perform the global search and replace with the Source mode, perform the follo
     - **Map**: To search in some specific map from the Repository or Collections
     - **Current map**: To search in the currently opened map
 
-    ![](images/path-dropdown-source-mode.png){align="left"}     
+    ![](images/path-dropdown-source-mode.png){width="350" align="left"}     
 
     
 1. Enter the search string in the **Find** field. To narrow down results, select the **Filter** icon next to the Find field and select the following desired filters: 
 
-    ![](images/find-filters-source-mode.png){align="left"} 
+    ![](images/find-filters-source-mode.png){width="350" align="left"}
 
     - **File type**: Choose the File type; **Topics**, and **Maps** where you want to search the text
     - **Document state**: You can select a document state from the available options. The document state options displayed are derived from the Folder profiles. They represent the combined set of all possible document states across those profiles. The default states include In-review, Done, Draft, Approved, Edit, and Reviewed.
@@ -1135,7 +1135,7 @@ To perform the global search and replace with the Source mode, perform the follo
 
 1. Press Enter or select **Search** icon to perform the search.
 
-    ![](images/search-icon.png){align="left"}
+    ![](images/search-icon.png){width="350" align="left"}
 
 1. Select a file from the search result list. The file is opened in the Source view with the searched term highlighted in the content.          
 
@@ -1145,16 +1145,16 @@ To perform the global search and replace with the Source mode, perform the follo
 
     - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file. If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
 
-    ![](images/replace-settings-source-mode.png){align="left"}    
+    ![](images/replace-settings-source-mode.png){width="350" align="left"}    
 
 
 1. Select **Replace occurrence** to replace the currently highlighted search string in the topic or select the top and bottom arrows to move to the next or previous occurrence of the text.
 
-    ![](images/replace-occurrence.png){align="left"}
+    ![](images/replace-occurrence.png){width="350" align="left"}
 
 1. Select **Replace all** to replace all the occurrences of the searched string across all the searched files with the specified replacement string in a single go. You will be shown a notification after all the occurrences are replaced.
 
-    ![](images/replace-all.png){align="left"}
+    ![](images/replace-all.png){width="350" align="left"}
 
     >[!NOTE]
     >
@@ -1166,16 +1166,15 @@ To perform the global search and replace with the Source mode, perform the follo
     >
     > You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
 
-    ![](images/replace-all-in-file.png){align="left"}
-
+    ![](images/replace-all-in-file.png){width="350" align="left"}
 
 1. After the Replace all operation completes, a downloadable CSV report is generated, providing a snapshot of all replace actions performed. You can download the report to view detailed information on the replace operations, including the number of occurrences successfully replaced, along with details of each, as well as any failures and their corresponding reasons. The operation may fail for due to some specific reasons, such as file being locked by another user, validation errors caused by changes made to the file during the operation, or other similar issues.  
 
-    ![](images/snapshot-replace-all.png){align="left"}
+    ![](images/snapshot-replace-all.png){width="350" align="left"}
 
 Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between. If you abort the operation, you will receive a notification about it in your Inbox. 
 
-![](images/replace-all-in-progress-source-mode.png){width="300" align="left"}
+![](images/replace-all-in-progress-source-mode.png){width="350" align="left"}
 
 </details>    
 
@@ -1183,7 +1182,7 @@ Only one replace all operation can be performed at a time in the whole system, a
 
 - **Without Source mode:** The search is restricted to the text displayed in the Author view, focusing solely on the visible content skipping the source content like XML elements or attributes. This mode is ideal for quick, content-only searches.
 
-    ![](images/map-find-replace-without-source-mode.png){align="left"}
+    ![](images/map-find-replace-without-source-mode.png){width="650" align="left"}{align="left"}
 
 <br>
 <details>
@@ -1199,7 +1198,7 @@ To perform the global search and replace without Source mode, perform the follow
     - **Map**: To search in some specific map from the Repository or Collections
     - **Current map**: To search in the currently opened map
 
-    ![](images/path-dropdown.png){align="left"}  
+    ![](images/path-dropdown.png){width="350" align="left"}  
         
 1. Enter the search string in the **Find** field. To narrow down results, select the **Filter** icon next to the Find field and select the following desired filters: 
 
@@ -1208,11 +1207,11 @@ To perform the global search and replace without Source mode, perform the follow
 
     - **Include indirect references**: Select this option if you want to search the string in the indirect references also within the DITA map. By default, this is disabled so the search is performed only on the direct references.
 
-    ![](images/find-filters.png){align="left"}     
+    ![](images/find-filters.png){width="350" align="left"}    
 
 1. Press Enter or select **Search** icon to perform the search.
 
-    ![](images/search-icon.png){align="left"}
+    ![](images/search-icon.png){width="350" align="left"}
 
 1. Select a file from the search result list. The file is opened in the Author view in the content editing area with the searched term highlighted in the content.      
 
@@ -1222,12 +1221,12 @@ To perform the global search and replace without Source mode, perform the follow
 
     - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file. If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
 
-    ![](images/replace-settings.png){align="left"}    
+    ![](images/replace-settings.png){width="350" align="left"}   
 
 
 1. Select **Replace occurrence** to replace the currently highlighted search string in the topic or select the top and bottom arrows to move to the next or previous occurrence of the text
 
-    ![](images/replace-occurrence.png){align="left"}
+    ![](images/replace-occurrence.png){width="350" align="left"}
 
 1. Select **Replace all** to replace all occurrences of the searched term in a single file with the replace term in a single go. You will be shown a notification after replacing all the occurrences in the selected file.
 
@@ -1235,7 +1234,7 @@ To perform the global search and replace without Source mode, perform the follow
     >
     > To enable then**Replace all** icon, your Folder profile administrator or System administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**). If errors occur during the replace operation, those files will be skipped due to XML parsing issues or DITA-related errors.
 
-    ![](images/replace-all.png){align="left"}
+    ![](images/replace-all.png){width="350" align="left"}
 
 1. You can als hover over a file from the search result list to view **Replace all in File** icon on the right of it, that enables you to replace all the occurrences of the term in a single file. 
 
@@ -1243,15 +1242,15 @@ To perform the global search and replace without Source mode, perform the follow
     >
     > You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
 
-    ![](images/replace-all-in-file-no-source.png){align="left"}
+    ![](images/replace-all-in-file-no-source.png){width="350" align="left"}
 
 Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between or view the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
 
-![](images/replace-all-in-progress.png){width="300" align="left"}
+![](images/replace-all-in-progress.png){width="350" align="left"}
 
 You can also use the **Find in map** option from the **Options** menu of a map to find and replace text in a map. This option appears for a map opened in the repository panel or in the map view.
 
-![](images/map-options-menu.png){width="550" align="left"}
+![](images/map-options-menu.png){width="650" align="left"}
 
 </details>
 

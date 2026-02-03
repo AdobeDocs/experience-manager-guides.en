@@ -157,7 +157,7 @@ Create the following index definition in your project at:
 
 ## Deployment steps
 
-For detailed instructions on deploying custom indexes to AEM as a Cloud Service, view **[Content Search and Indexing - AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing)**.
+For detailed instructions on deploying custom indexes to AEM as a Cloud Service, view [Content Search and Indexing - AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing).
 
 ### Important points for this Index
 
@@ -197,7 +197,7 @@ In your development environment (if CRXDE Lite is available):
 
 The primary verification is testing the feature:
 
-1. Open **AEM Guides**.
+1. Open AEM Guides.
 2. Navigate to **Tools** > **Guides** > **Find and Replace in Repository**.
 3. Configure a search for text in your DITA or Markdown files.
 4. Verify that search results are returned correctly.
