@@ -133,6 +133,7 @@ Examples:
 ``` -->
 
 ### Minimal end-to-end example in componentmapping.json
+
 <!--
 ```json
 
