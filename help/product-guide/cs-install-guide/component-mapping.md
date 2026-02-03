@@ -50,7 +50,7 @@ While defining the above elements, ensure the following:
 
 Add entries to `attributeMap` to set properties on the output node. Each entry produces `attrs[to] = value`.
 Common patterns:
-
+<!--
 ```json
 
 // copy an attribute
@@ -64,7 +64,7 @@ Common patterns:
 { "value": true, "to": "textIsRich" }
 
 ```
-
+-->
 Below is an example for HTML to JSON for an image element.
 
 ```html
