@@ -222,18 +222,19 @@ You can perform the following actions using the Options menu available for a *fo
     <summary> Steps to create a new topic </summary>
 
 Steps to create a new topic:
+
    1. Select **New** > **Topic**.
-   2. The **New topic** dialog box is displayed.
+   1. The **New topic** dialog box is displayed.
     
         ![](images/create-topic-dialog.png){width="300" align="left"}
 
-   3. In the **New topic** dialog box, provide the following details:
+   1. In the **New topic** dialog box, provide the following details:
         - A Title for the topic.
         - \(Optional\)* The file name for the topic. The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then you will not view the Name field.
         - A template on which the topic will be based. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, Markdown, Glossary, and Troubleshooting templates. If your folder has a Folder Profile configured on it, then you will view only those topic templates that are configured on the Folder profile.
 
         - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.    
-    4. Select **Create**. The topic is created at the specified path. Also, the topic is opened in the Editor for editing.
+    1. Select **Create**. The topic is created at the specified path. Also, the topic is opened in the Editor for editing.
 
 </details>
 
@@ -273,7 +274,7 @@ Steps to create a new folder:
 
    </details>
 
-- **Upload Assets**: Upload a file from your local system to the selected folder in Adobe Experience Manager repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
+- **Upload assets**: Upload a file from your local system to the selected folder in Adobe Experience Manager repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
 
     ![](images/upload-assets.png){width="300" align="left"}
 
@@ -283,6 +284,35 @@ Steps to create a new folder:
 
     ![](images/uuid-in-source-upload-image_cs.png){   align="left"}
 
+    After a successful upload, the following confirmation dialog is displayed:
+
+    ![](images/upload-successful.png)
+
+    <details>
+
+    <summary>Handling invalid characters in file names</summary>
+
+    If the file name of the asset being uploaded contains invalid characters (such as * / : [ \ ] | # % { } ?), the following scenarios may occur:
+
+    - **Partial Upload**: Indicates one or more assets being uploaded contain invalid characters in their file names. 
+
+        ![](images/partial-asset-upload.png)
+
+    - **Upload Failed** : Indicates all assets being uploaded contain invalid characters in their file names.
+
+        ![](images/upload-asset-failed.png)
+
+    To resolve these conflicts, remove any invalid characters from the file names of the assets and then re-upload them to the repository.
+
+    </details>
+    
+- **Refresh**: Get a fresh list of files and folders from the repository.
+- **Collapse**: Collapse the selected folder in the repository.
+
+    >[!NOTE]
+    >
+    > Use the **\>** icon next to a folder to expand it.
+
 - **Find files in folder**: Shifts the focus to repository search wherein you can enter the search term. The search is performed under the selected folder in the repository. You can also apply a filter to return DITA Files, Image Files, or both.
 
     ![](images/find-files-in-folders-repo-view_cs.png){width="300" align="left"}
@@ -291,15 +321,9 @@ Steps to create a new folder:
 
     ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
 
-- **Collapse**: Collapse the selected folder in the repository.
-
-    >[!NOTE]
-    >
-    > Use the **\>** icon next to a folder to expand it.
-
 - **Add to collections**: Adds the selected folder to favorites. You can choose to add it to an existing or new collection.
 
-- **Refresh**: Get a fresh list of files and folders from the repository.
+- **Reprocess assets**: Triggers the processing of all the assets for the folder. 
 - **View in Assets UI**: Show the folder contents in the Assets UI.
 
 **Options for a file**
@@ -318,6 +342,7 @@ Get access to different options in the Options menu depending on whether you sel
 - Download as PDF
 - Add to 
 - Copy
+- Reprocess asset
 - View in Assets UI
 - Properties
 
@@ -328,17 +353,24 @@ The various options in the Options menu are explained below:
 
 - **Edit**: Open the file for editing. In case of a .ditamap/.bookmap file, it is opened in the [Map Editor](map-editor-advanced-map-editor.md#) for editing.
 
-- **Duplicate**: Use this option to create a duplicate or a copy of the selected file. You also have the option to rename the duplicate file in the Duplicate Asset prompt. By default, the file is created with a suffix \(like filename\_1.extension\). The title of the file remains same as the source file and the new file begins with version 1.0. All references, tags, and metadata are copied while the baselines are not copied in the duplicate file.
-- **Lock**: Get a lock on the selected file for editing. If the file is locked, hovering the mouse pointer over the lock icon shows **Locked by you** if you locked it, or **Locked by [username]** if another user has locked it. 
+-  **Edit in Oxygen**: Select this option to edit the selected file in the Oxygen connector plugin. The file is opened for editing.
+
+    >[!NOTE] 
+    >
+    >Contact your customer success team to get this feature enabled in the environment. This isn't enabled as a part of the out-of-the-box support. For more details, view the [Configure the option to edit in Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) section in the Installation and Configuration Guide.
+
+- **Open in map dashboard**: In case the selected file is a DITA map, then this option opens the map dashboard.
+
+- **Open in map console**: In case the selected file is a DITA map, then this option opens the map console.    
+
+- **Lock**: Get a lock on the selected file for editing. If the file is locked, hovering the mouse pointer over the lock icon shows **Locked by you** if you locked it, or **Locked by [username]** if another user has locked it.   
 
 - **Preview**: Get a quick preview of the file (.dita, .xml, audio, video, or image) without opening it. You can resize the preview pane. If the content contains any `<xref>` or `<conref>`, you can select it to open it in a new tab. The title of the file appears in the window. If no title is present, then the filename appears. To close the **Preview** panel, you can either select the close icon or select anywhere outside the pane.  
 
     ![](images/quick-preview_cs.png){   align="left"}
 
--  **Rename**: Use this option to rename the selected file. Enter the name of the new file in the **Rename Asset** dialog.  
-    - You can rename a file of any type. 
-    - You can't change the extension of a file. 
-    - Two files cannot have the same name. So, you cannot rename a file to a name that already exists. An error is displayed. 
+
+- **Duplicate**: Use this option to create a duplicate or a copy of the selected file. You also have the option to rename the duplicate file in the Duplicate Asset prompt. By default, the file is created with a suffix \(like filename\_1.extension\). The title of the file remains same as the source file and the new file begins with version 1.0. All references, tags, and metadata are copied while the baselines are not copied in the duplicate file.
 
 -  **Move to**: Use this option to move the selected file to another folder.  
    - You can either type the name of the destination folder or choose **Select Path** to select the destination folder.    
@@ -371,6 +403,11 @@ The various options in the Options menu are explained below:
     Renaming or moving any file does not break any existing references from or to the file, as every file has a unique UUID. 
     </details>
 
+- **Rename**: Use this option to rename the selected file. Enter the name of the new file in the **Rename Asset** dialog.  
+    - You can rename a file of any type. 
+    - You can't change the extension of a file. 
+    - Two files cannot have the same name. So, you cannot rename a file to a name that already exists. An error is displayed.    
+
 - **Delete**: Use this option to delete the selected file. A confirmation prompt is displayed before deleting the file.
 
     - A confirmation prompt is displayed before deleting the file.
@@ -396,35 +433,30 @@ The various options in the Options menu are explained below:
     >
     > You can also delete the selected file similarly using the Delete key of the keyboard.
 
-- **Copy**: You can choose from the following options:
-
-    - **Copy UUID**: Copy the UUID of the selected file to Clipboard.
-
-    - **Copy Path**: Copy the complete path of the selected file to Clipboard.
+- **Generate**: Use the option to publish a map or topics within a map to a Sites page, Content Fragment, or Experience Fragment.    
 
 - **Add to**: You can choose from the following options:
     - **Collections**: Adds the selected file to Collections. You can choose to add it to an existing or new collection.
 
     - **Reusable content**: Adds the selected file to the Reusable content list in the left panel.
 
-- **Properties**: Use this to open the properties page of the selected file. This properties page can also be accessed from the Assets UI by selecting a file and then selecting Properties icon in the toolbar.
+- **Copy**: You can choose from the following options:
 
-- **Open in map dashboard**: In case the selected file is a DITA map, then this option opens the map dashboard.
+    - **Copy UUID**: Copy the UUID of the selected file to Clipboard.
 
-- **Open in map console**: In case the selected file is a DITA map, then this option opens the map console.
+    - **Copy Path**: Copy the complete path of the selected file to Clipboard.
 
--  **Edit in Oxygen**: Select this option to edit the selected file in the Oxygen connector plugin. The file is opened for editing.
+- **Reprocess asset**: Triggers the processing for the selected asset.    
 
-    >[!NOTE] 
-    >
-    >Contact your customer success team to get this feature enabled in the environment. This isn't enabled as a part of the out-of-the-box support. For more details, view the [Configure the option to edit in Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) section in the Installation and Configuration Guide.
- 
+- **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view. 
 
-- **View in Assets UI**: Use this to show a preview of a .dita/.xml file in the Assets UI. In case of a .ditamap/.bookmap file, all topic files within the map are shown in a single unified page-by-page view.
+- **Properties**: Use this to open the properties page of the selected file. 
 
--  **Download as PDF**: Use the option to generate the PDF output and download it.  
+    Any addition, deletion, or modification of metadata properties on this page (whether default or custom), will trigger the [working copy indicator](./web-editor-edit-topics.md#working-copy-indicator) on the document version. 
 
-- **Generate**: Use the option to publish a map or topics within a map to a Sites page, Content Fragment, or Experience Fragment.
+    You can also access the Properties page from the Assets UI by selecting a file and then selecting Properties icon in the toolbar. 
+   
+- **Download as PDF**: Use the option to generate the PDF output and download it.  
 
 ## Explorer
 
@@ -581,12 +613,19 @@ By default, you can view the files by titles. As you hover over a file, you can 
 
 To add a DITA file to your Reusable content panel, use any of the following methods:
 
-- Select the **+** icon next to Reusable content to open the browse file dialog box. Select the file that you want to add and then select **Add** to complete the process.
+- Select the **+** icon next to Reusable content to open the **Select file** dialog. 
+- Select the file that you want to add and then choose **Select**. You can also search for specific files using filter search option. For more details, view [Other features in the Editor](./web-editor-other-features.md). 
 
+    
+
+    ![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+    
+    You can also use the **Remove** icon to deselect some files from the Preview. 
+
+    ![](images/resusable-content-remove-preview.png){width="650" align="left"}
 - In the Repository view, select the **Options** icon of the desired file and choose **Add to** > **Reusable content** from the context menu.
 
 - Right-click on a file's tab in the editor to open the context menu and choose **Add to** > **Reusable content**.
-
 
 Once the file is added, you can view all reusable content elements from the file in the Reusable content panel. Reusable content is shown with their IDs and element names.
 
@@ -1041,63 +1080,177 @@ Experience Manager Guides allows you to create and manage variables for Native P
 
 The Find and replace icon is located at the bottom of the left panel. The Find and replace panel allows you to search for and replace text across files in a map or a folder within your repository. You can perform Find and replace operations across all topics in a map, including topics in sub-maps and Markdown files.
 
-![](images/map-find-replace.png){align="left"}
-
-By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.   
+By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.
 
 >[!NOTE]
 >
 > As an administrator, you can also choose to view the list of filenames in the Editor. Select the **File name** option of the **Editor files display configuration** section in **User preferences**.
 
+The Find and Replace feature can be used in two distinct modes, depending on your requirements:
+
+- **With Source mode:** The search scans not only the visible content but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched string. This mode ensures a comprehensive search across the entire content. To use this feature, you must enable the **Use source mode** option available in the Find and replace panel.  
+
+    >[!NOTE]
+    >
+    > The **Use source mode** feature is available in the Experience Manager Guides as a Cloud Service with 2026.01.0 release and for On-Premise setup with 5.2 release. To use this feature, you must first index your content depending on the setup you are using. 
+    > - **For Cloud services**: A custom index deployment must be performed. For details, view [Deploying custom index](/help/product-guide/cs-install-guide/custom-indexing.md). Once completed, contact your Customer Success team to enable this feature.
+    > - **For On-Premise**: Re-indexing of existing content is required before the feature can be used. For details, view [Reindexing content](/help/product-guide/install-guide/custom-indexing-prem.md). Once completed, contact your Customer Success team to enable this feature.
+
+    ![](images/map-find-replace-with-source-mode.png){align="left"}
+
+<br>    
+
 <details>
-    <summary> Perform the global search and replace </summary>
+    <summary> Perform global search and replace with Source mode</summary>
 
-
-To perform the global search and replace, perform the following steps:
+To perform the global search and replace with the Source mode, perform the following steps:
 
 1. Open the global **Find and replace** panel.
-1. Select the **Look into** dropdown and select one of the following options to perform the search.
-
-    - **Current Map**: To search in the currently opened map
-
-        >[!NOTE]
-        >
-        > This option appears if you have already opened a map for editing.
+1. Enable the **Use the source mode** option.
+1. Select the **Path** dropdown and select one of the following options to perform the search.
 
     - **Path**: To search on the selected path
-    - **Select Map**: To search in the selected map
+    - **Map**: To search in some specific map from the Repository or Collections
+    - **Current map**: To search in the currently opened map
 
-1. You can use the **Options** dropdown and choose from the following options:
+    ![](images/path-dropdown-source-mode.png){width="350" align="left"}     
 
-    - **Lock file before replace**: Select this option if you want to lock a file automatically before replacing the search term. This setting is more relevant in case your administrator has enabled the configuration to lock a file before editing. With the backend setting enabled, you should select this option. It will prevent the file lock dialog from prompting you to lock every file before making any change. If you do not select this option, then a prompt will appear before a file is opened for editing.
+    
+1. Enter the search string in the **Find** field. To narrow down results, select the **Filter** icon next to the Find field and select the following desired filters: 
+
+    ![](images/find-filters-source-mode.png){width="350" align="left"}
+
+    - **File type**: Choose the File type; **Topics**, and **Maps** where you want to search the text
+    - **Document state**: You can select a document state from the available options. The document state options displayed are derived from the Folder profiles. They represent the combined set of all possible document states across those profiles. The default states include In-review, Done, Draft, Approved, Edit, and Reviewed.
+    - **Last modified**: Filter content based on modification date. Select a date range from the calendar or choose one of the following time frame options:
+
+        - In last 2 hours 
+        - In last week
+        - In last month
+        - In last year
+    - **Others**: You can configure the following:
+        - **Tags**: Filter content based on tags.
+        - **Case sensitive search**: Enables search ensuring results match the exact letter casing specified.
+        - **List files locked by others**: Displays files currently locked by other users, preventing edits until the lock is released.     
+
+1. Press Enter or select **Search** icon to perform the search.
+
+    ![](images/search-icon.png){width="350" align="left"}
+
+1. Select a file from the search result list. The file is opened in the Source view with the searched term highlighted in the content.          
+
+1. Enter the term you want to use as the replacement in the **Replace with** field. To customize how replacements are applied, click the **Settings** icon next to the field and choose from the available options.
+
+    - **Replace unlocked files**: Select this option to allow replace in the unlocked files.
+
+    - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file. If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
+
+    ![](images/replace-settings-source-mode.png){width="350" align="left"}    
+
+
+1. Select **Replace occurrence** to replace the currently highlighted search string in the topic or select the top and bottom arrows to move to the next or previous occurrence of the text.
+
+    ![](images/replace-occurrence.png){width="350" align="left"}
+
+1. Select **Replace all** to replace all the occurrences of the searched string across all the searched files with the specified replacement string in a single go. You will be shown a notification after all the occurrences are replaced.
+
+    ![](images/replace-all.png){width="350" align="left"}
+
+    >[!NOTE]
+    >
+    >To enable the **Replace all** button, your folder profile administrator or system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
+
+1. You can also hover over a file from the search result list to view **Replace all in file** icon on the right of it, that enables you to replace all the occurrences of the term in a single file.    
+
+    >[!NOTE]
+    >
+    > You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
+
+    ![](images/replace-all-in-file.png){width="350" align="left"}
+
+1. After the Replace all operation completes, a downloadable CSV report is generated, providing a snapshot of all replace actions performed. You can download the report to view detailed information on the replace operations, including the number of occurrences successfully replaced, along with details of each, as well as any failures and their corresponding reasons. The operation may fail for due to some specific reasons, such as file being locked by another user, validation errors caused by changes made to the file during the operation, or other similar issues.  
+
+    ![](images/snapshot-replace-all.png){width="350" align="left"}
+
+Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between. If you abort the operation, you will receive a notification about it in your Inbox. 
+
+![](images/replace-all-in-progress-source-mode.png){width="350" align="left"}
+
+</details>    
+
+<br>
+
+- **Without Source mode:** The search is restricted to the text displayed in the Author view, focusing solely on the visible content skipping the source content like XML elements or attributes. This mode is ideal for quick, content-only searches.
+
+    ![](images/map-find-replace-without-source-mode.png){align="left"}
+
+<br>
+<details>
+    <summary> Perform global search and replace without Source mode</summary>
+
+
+To perform the global search and replace without Source mode, perform the following steps:
+
+1. Open the global **Find and replace** panel.
+1. Select the **Path** dropdown and choose one of the following options to perform the search.
+
+    - **Path**: To search on the selected path
+    - **Map**: To search in some specific map from the Repository or Collections
+    - **Current map**: To search in the currently opened map
+
+    ![](images/path-dropdown.png){width="350" align="left"}  
+        
+1. Enter the search string in the **Find** field. To narrow down results, select the **Filter** icon next to the Find field and select the following desired filters: 
+
+      
     - **Whole words only**: Select this option if you want to search for the whole search string. For example, if you enter over in the search string, then the search result will return all files containing words like over and overview. If you want to restrict your search to return the exact term that is entered, then select this option.
-    - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file.
-
-        If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
 
     - **Include indirect references**: Select this option if you want to search the string in the indirect references also within the DITA map. By default, this is disabled so the search is performed only on the direct references.
 
-1. Enter the search term or text that you want to find.
-1. Enter the text with which you want to replace the search term.
-1. Press Enter or select **Search** icon \( ![](images/search-icon.svg)\) to perform the search.
-1. Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
+    ![](images/find-filters.png){width="350" align="left"}    
 
-1. Select **Replace single occurrence** \( ![](images/replace-icon.svg)\) to replace the currently highlighted search term in the topic or select Next match ![](images/next-match-in-search.png) or ![](images/previous-match-in-search.png) Previous match to move to the next or previous occurrence of the text.
-1. Select **Replace all** \( ![](images/replace-all-in-file-icon.svg)\)to replace all occurrences of the searched term in a single file with the replace term in a single click. You will be shown a notification after replacing all the occurrences in the selected file.
+1. Press Enter or select **Search** icon to perform the search.
 
-To enable the **Replace all** icon, your system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
+    ![](images/search-icon.png){width="350" align="left"}
 
->[!NOTE]
->
-> Hover over a file from the search result list to view Replace all in File icon on the right of it. You also get the Ignore File icon to remove the file from the search result. The files which you ignore are removed from the list and the searched term is not replaced in them.
+1. Select a file from the search result list. The file is opened in the Author view in the content editing area with the searched term highlighted in the content.      
+
+1. Enter the term you want to use as the replacement in the **Replace with** field. To customize how replacements are applied, click the **Settings** icon next to the field and choose from the available options.
+
+    - **Lock file before replace**: Select this option if you want to lock a file automatically before replacing the search string. This setting is more relevant in case your administrator has enabled the configuration to lock a file before editing. With the backend setting enabled, you should select this option. It will prevent the file lock dialog from prompting you to lock every file before making any change. If you do not select this option, then a prompt will appear before a file is opened for editing.
+
+    - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file. If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
+
+    ![](images/replace-settings.png){width="350" align="left"}   
+
+
+1. Select **Replace occurrence** to replace the currently highlighted search string in the topic or select the top and bottom arrows to move to the next or previous occurrence of the text
+
+    ![](images/replace-occurrence.png){width="350" align="left"}
+
+1. Select **Replace all** to replace all occurrences of the searched term in a single file with the replace term in a single go. You will be shown a notification after replacing all the occurrences in the selected file.
+
+    >[!NOTE]
+    >
+    > To enable then**Replace all** icon, your Folder profile administrator or System administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**). If errors occur during the replace operation, those files will be skipped due to XML parsing issues or DITA-related errors.
+
+    ![](images/replace-all.png){width="350" align="left"}
+
+1. You can als hover over a file from the search result list to view **Replace all in File** icon on the right of it, that enables you to replace all the occurrences of the term in a single file. 
+
+    >[!NOTE]
+    >
+    > You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
+
+    ![](images/replace-all-in-file-no-source.png){width="350" align="left"}
 
 Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between or view the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
 
-![](images/replace-all-in-progress.png){width="300" align="left"}
+![](images/replace-all-in-progress.png){width="350" align="left"}
 
 You can also use the **Find in map** option from the **Options** menu of a map to find and replace text in a map. This option appears for a map opened in the repository panel or in the map view.
 
-![](images/map-options-menu.png){width="550" align="left"}
+![](images/map-options-menu.png){width="650" align="left"}
 
 </details>
 

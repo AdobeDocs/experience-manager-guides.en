@@ -13,6 +13,11 @@ breadcrumb-title: AEM Guides Documentation
   - Release Notes {#release-notes}
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
+      - 2026 Releases {#2026-releases}
+        - 2026.01.0 Release {#2601-release}
+          - [What's new](./release-info/whats-new-2026-01-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2026-01-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2026-01-0.md)
       - 2025 Releases {#2025-releases}
         - 2025.11.0 Release {#2511-release} 
           - [What's new](./release-info/whats-new-2025-11-0.md)
@@ -465,6 +470,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure asset processing feature](./install-guide/configure-asset-processing.md) 
     - Work with B-tree cleanup{#btree-cleanup}
       - [Configure B-tree cleanup ](./install-guide/configure-btree-clean-up-job.md)
+    - Custom indexing{#custom-indexing}
+      - [Deploying custom index for Find and replace (Source view)](./install-guide/custom-indexing-prem.md)   
     - [Appendix](./install-guide/appendix.md)
   - Cloud Services {#cs-ig}
     - [About this guide](./cs-install-guide/introduction.md)
@@ -497,6 +504,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure custom DITA map template](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
     - Work with document states {#doc-state-cs}
       - [Configure document states](./cs-install-guide/customize-doc-state.md)
+      - [Configure document state filters](./cs-install-guide/config-doc-state-filters.md)
     - Configure Workspace settings {#workspace-configs}
       - [Workspace settings](./cs-install-guide/workspace-settings.md)  
     - Work with the Web Editor configurations {#web-editor-configs-cs}
@@ -534,7 +542,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure Workfront](./cs-install-guide/conf-workfront.md)
     - Work with output generation settings {#output-gen-config-cs}
       - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
-      - [Download and install aem sites templates](./cs-install-guide/download-install-aem-sites-templates-cs.md)
+      - [Download and install AEM Sites templates](./cs-install-guide/download-install-aem-sites-templates-cs.md)
       - [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       - [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
@@ -549,7 +557,9 @@ breadcrumb-title: AEM Guides Documentation
     - Work with Asset processing {#asset-processing-cloud}
       - [Configure asset processing feature](./cs-install-guide/configure-asset-processing-cs.md)
     - Work with B-tree cleanup{#btree-cleanup-cs}
-      - [Configure B-tree cleanup](./cs-install-guide/configure-btree-cleanup-cs.md)    
+      - [Configure B-tree cleanup](./cs-install-guide/configure-btree-cleanup-cs.md)   
+    - Custom indexing{#custom-indexing-cs}
+      - [Deploying custom index for Find and replace (Source view)](./cs-install-guide/custom-indexing.md)   
     - [Appendix](./cs-install-guide/appendix.md)     
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
@@ -564,6 +574,7 @@ breadcrumb-title: AEM Guides Documentation
   - [API to start bulk processing for assets](./api-reference/bulk-assets-processing.md)
   - [Bulk activation complete event handler](./api-reference/bulk-activation-complete-event.md)
   - [Conversion process event handler](./api-reference/conversion-complete-event.md)
+  - [Create translation project](./api-reference/translation-project.md)
 - Knowledge Base {#knowledge-base}
   - Expert Session {#expert-session}
     - [Expert Session Overview](./knowledge-base/expert-sessions/expert-session.md)

@@ -139,6 +139,132 @@ The Editor provides a smart file browse dialog. The editor remembers the last us
 >
 > In case of an image, audio, or video file, the file browse dialog defaults to the file's location and not the last used location.
 
+## Browse files and folders in Experience Manager Guides
+
+Experience Manager Guides provides intuitive dialogs - **Select file** and **Select path** - to help you browse and choose files or folders within the content repository efficiently. 
+
+>[!NOTE]
+>
+> The file and folder path browser is introduced with a revamped UI in the 2601 release of Experience Manager Guides as a Cloud Service. The new interface is enabled by default. If you prefer to continue using the existing UI without these updates, contact your Customer Success team to have this new enhancement disabled.
+
+### Browsing files in Experience Manager Guides
+
+The file path browser enables you to quickly locate and select specific files within the content repository. This feature is available for tasks such as adding a topic to a map, linking an image or cross-reference, creating reusable content, and more. 
+
+![](images/select-file-dialog-new.png){width="350" align="left"}
+
+When you launch the file browser, the **Select file** dialog opens. This dialog includes two tabs: **Repository** and **Collections**. By default, the Repository tab is selected.
+
+![](images/select-file.png){width="650" align="left"}
+
+**Features available in the Repository tab for file browsing**
+
+**Tabular view of files and folders**
+
+The Repository tab provides you a tabular view of files and folders from the content repository, making it easier to locate the correct file path. You can also use the breadcrumbs at the top and the folder navigation panel on the left to move through folders. 
+
+![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+
+**Single and multiple file selection**
+
+To use a file, simply select the file and choose **Select**. 
+
+![](images/select-file-single-file-selection.png){width="650" align="left"}
+
+In some cases, you can also select multiple files from this path browser dialog. For example, when browsing files for Reusable content, you can select multiple files and make them part of your resuable content. 
+
+ ![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+
+Multiple file selection is currently available for Reusable content, topic references, Schematron, Output presets (using DITAVAL), and Workfront.  
+
+>[!NOTE]
+>
+> When selecting files from the path browser dialog, some folders may appear disabled. This behavior restricts access to specific file types to ensure valid selections. For example, when creating reusable content, only topic and map files must be used. To prevent using an invalid file type, such as an image, the corresponding files are either not displayed or remain disabled for selection in the path browser.
+
+**Preview selected files**
+
+You can preview the files you have selected using the **Preview** button, as shown below:
+
+![](images/select-file-preview-button.png){width="650" align="left"}
+
+The preview of the selected file is displayed on the right. 
+
+![](images/select-file-dialog-preview.png){width="650" align="left"}
+
+For multiple selections, a preview of all selected files is displayed in Preview panel for easy review.
+
+![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+    
+You can also use the **Remove** icon to deselect some files from the Preview. 
+
+![](images/resusable-content-remove-preview.png){width="650" align="left"}
+
+**Search and filter experience**
+
+When browsing files in the Repository, you can search for files by name, title, or content within the selected path. You can use any one, two, or all three criteria for your search. If none of the criteria are selected, the results will include common to all the three criteria.
+
+![](images/select-file-search.png){width="650" align="left"}
+
+Select the **Filter Search** \(![Search filter icon](images/filter-search-icon.svg)\) icon to open the Filter panel on the right.
+
+![](images/select-file-filters.png){align="left"}
+
+You have the following options to filter the files and to narrow down your search:
+
+- **Search in**: Select the path where you want to search the files present in the Repository. 
+
+- **File type**: Filter your search based on a specific file type. Available options are: **Topic**,  **Map**, **DITAVAL**,  **Image**, **Multimedia**, **Document**, and **Others**.
+
+    >[!NOTE]
+    >
+    > In some cases, the **File type** filter is pre-applied on specific file type(s) based on the task and cannot be changed. For example, when browsing for an image, the filter is set to display only image files, and when creating reusable content, it is set to show only topic and map files. You can still adjust other filters such as document state, tags, or last modified date to refine your search results.
+
+- **Document state**: You can filter your search based on the current document state of the files. The available filter values are defined in the `repositoryFilters` field of the `ui_config.json file` and are associated with the folder profile you are currently using.    
+
+    This means:
+
+    - If you are using the Global Profile, the filters values configured in the Global profile are applied. 
+    - If you select a specific Folder profile, the filters values defined in that profile are fetched.
+
+    The default filter values available for document state are: Draft, Edit, In-Review, Approved, Reviewed, and Done. For details on customizing filter values for document states, view [Configure document state filters](../cs-install-guide/config-doc-state-filters.md).     
+
+- **Locked by**: Displays a list of users. The list is paginated and loads asynchronously, showing a limited set of users at a time and fetching more as you scroll or navigate. This improves loading speed and overall performance, especially when working with a large number of users.
+
+- **Last modified**: Filter content based on modification date. Select a date range from the calendar or choose one of the following time frame options: 
+    - In last week
+    - In last month
+    - In last year
+
+- **Tags**: Filter content based on tags. 
+
+- **DITA elements**: Filter content based on various DITA elements.
+
+After applying all the required filters, select **Apply** from the bottom-right corner of the Filters panel. 
+
+**Features available in the Collections tab for file browsing**
+
+The **Collections** tab provides a curated view of files available in your Collections for quick access and reuse. Unlike the Repository tab, which displays the full folder hierarchy, Collections allow you to select frequently used topics, maps, and images without navigating through multiple folders. 
+
+![](images/select-file-collections.png)
+
+In the Collections tab, you can:
+
+- Use the breadcrumbs on the top and folder navigation panel on the right to easily navigate through your Collections.
+
+    ![](images/collections-folder-navigation-panel.png)
+- Select files present within a specific Collections path and preview it in the right Panel. 
+
+    ![](images/collections-file-preview.png)
+
+
+
+### Browser folders within the Repository
+
+Browsing folders using the **Select folder** dialog, focuses on selecting the correct folder path within the Repository for tasks such as creating new topics or specifying output locations for published content. It offers a clear, tree-structured view of folders, making navigation intuitive and ensuring content is placed in the right location.
+
+![](images/select-path-dialog-new.png){width="300" align="left"}
+
+
 ## Support for article-based publishing 
 
 From the Editor, you can generate the output for one or more topics, or the entire DITA map. You need to create output presets for your DITA map and then you can easily generate the output for one or more topics. If you have updated a few topics in your map, you can also generate the output only for those topics from the Editor. For more details, view [Article-based publishing](web-editor-article-publishing.md#id218CK0U019I).

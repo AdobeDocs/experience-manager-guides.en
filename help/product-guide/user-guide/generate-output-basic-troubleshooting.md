@@ -36,15 +36,17 @@ Perform the following steps to view and check the output generation log file:
     ![](images/log-file-new.png){align="left"}
 
 1.  Apply following filters to highlight the text in the log file:
-    -   Fatal: Highlights the fatal errors in the log file with dark red color.
-    -   Error: Highlights the errors in the log file with red color. Exceptions are treated as errors and are similarly highlighted in red.
-    -   Warning: Highlights the warnings in the log file with amber color.
-    -   Info: Highlights the information messages in the log file with green color.
+    - **Fatal**: Highlights the fatal errors in the log file with dark red color.
+    - **Error**: Highlights the errors in the log file with red color. Exceptions are treated as errors and are similarly highlighted in red.
+    - **Warning**: Highlights the warnings in the log file with amber color.
+    - **Info**: Highlights the information messages in the log file with green color.
     
-1.  Use the up and down navigation buttons to jump to the highlighted text in the log file.
+1.  Use the up and down navigation buttons to jump to the highlighted text in the log file. Alternatively, scroll through the log file and check the messages.
 
-    Alternatively, scroll through the log file and check the messages.
+1. You can perform the following actions on the log file:
 
+    - **Download Log**: If the list of logs is extensive, select **Download Log** to download the log file to your device for easier access and review.
+    - **Copy Log**: Copies the list of logs to your clipboard, allowing you to quickly paste it to some text editor. 
 
 ## Copy and check the log file in a text editor 
 
@@ -74,6 +76,9 @@ Perform the following steps to copy and check the output generation log file in 
     In the following sample log file snippet, you can view the `BUILD SUCCESSFUL` message, followed by other technical error.
 
     ![](images/process-error-in-log-file.png){width="650" align="left"}
+
+
+    
 
 
 ## Resolve JSP compilation error 

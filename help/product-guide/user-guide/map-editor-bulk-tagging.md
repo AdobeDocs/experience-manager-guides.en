@@ -5,7 +5,10 @@ exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
 ---
+
 # Bulk tagging of DITA content {#id179SG0TN05Z}
+
+![](images/test-version-info-table.svg){width="650" align="left"}
 
 Tags allow you to group or classify content within your content repository and also in the published output. If you have applied tags on your content, you can easily find related topics within a DITA map that can help you to authoring content. With the published output, end users will be able to locate the right content faster with proper tags in place.
 
