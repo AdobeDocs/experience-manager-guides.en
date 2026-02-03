@@ -61,6 +61,28 @@ Common patterns:
 
 Below is an example for HTML to JSON for an image element.
 
+```html
+
+<img src="/content/dam/aemg-docs/tragopan.svg" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="">
+
+```
+
+```json
+{
+    "name": "img",
+    "resourceType": "core/wcm/components/image/v2/image",
+    "attributeMap": [
+      {
+        "from": "src",
+        "to": "fileReference"
+      },
+      {
+        "value": ["fileReference"],
+        "to": "path-attributes"
+      }
+    ]
+  }
+```
 
 ### Normalize paths via a dedicated entry
 
@@ -100,7 +122,36 @@ Examples:
 
 ### Minimal end-to-end example in componentmapping.json
 
-
+```json
+[
+  {
+    "name": "h1, h2",
+    "class": "topic-title",
+    "resourceType": "core/wcm/components/title/v2/title",
+    "attributeMap": [
+      { "from": "textContent", "to": "text" },
+      { "from": "name",        "to": "type" }
+    ]
+  },
+  {
+    "name": "img",
+    "class": "hero",
+    "resourceType": "weretail/components/content/heroimage",
+    "attributeMap": [
+      { "from": "src", "to": "image#src" },
+      { "value": ["image#src"], "to": "path-attributes" }
+    ]
+  },
+  {
+    "name": "#element",
+    "resourceType": "core/wcm/components/text/v2/text",
+    "attributeMap": [
+      { "from": "outerHTML", "to": "text" },
+      { "value": true,        "to": "textIsRich" }
+    ]
+  }
+]
+```
 
 Define the element and class to target, use `attributeMap` to set the node properties, add a `path-attributes` entry to normalize paths, and pick the right `from` for the values you want to extract. The `heroimage` used above is a component in a `we-retail` site.
 
