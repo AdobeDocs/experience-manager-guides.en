@@ -152,6 +152,8 @@ For details on configuring Native PDF output preset and cross-reference settings
 
 Experience Manager Guides now supports element‑level component mapping in the AEM Sites output (using composite component mapping), giving teams precise control over how DITA elements render using `componentmapping.json`. By mapping `topicref`, titles, images, tables, and more to appropriate AEM Core Components, you get a cleaner structure instead of everything defaulting to the Text component. This results in better performance and unlocks richer, more modern Sites experiences. 
 
+For more details, view [Component mapping in AEM Sites](../cs-install-guide/component-mapping.md).
+
 ## Asset processing enhancements 
 
 This release introduces the following enhancements to asset processing: 
