@@ -20,24 +20,24 @@ Use a JSON array of rules (your `componentmapping.json`) to convert HTML into co
 - Include the CSS class applied on that element in `class`, if class exists.
   Example:
 
-    ```html
+  ```html
 
-    <div class ="sample-class">
-    <p> Sample html element </p>
-    </div>
+  <div class ="sample-class">
+  <p> Sample html element </p>
+  </div>
 
-    ```
+  ```
 
-    ```json
+  ```json
 
-    {
-    "name": "div",
-    "class": "sample-class",
-    "resourceType": "guides-components/components/table",
-    "attributeMap": []
-    }
+  {
+  "name": "div",
+  "class": "sample-class",
+  "resourceType": "guides-components/components/table",
+  "attributeMap": []
+  }
 
-    ```
+  ```
     
 While defining the above elements, ensure the following: 
 
@@ -67,9 +67,7 @@ Common patterns:
 Below is an example for HTML to JSON for an image element.
 
 ```html
-
 <img src="sample.png" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="">
-
 ```
 
 ```json
@@ -192,8 +190,8 @@ Using this approach, you can build other custom components for your AEM site (us
 ### High‑level design
 
 - Author provides HTML for the table in the component dialog.
-- A Sling Model parses that HTML, finds <img> tags, and for each image calls a service that renders the Core Image component server‑side.
-- The model swaps the original <img> with the captured Core Image HTML and passes the completed HTML to HTL for output.
+- A Sling Model parses that HTML, finds `<img>` tags, and for each image calls a service that renders the Core Image component server‑side.
+- The model swaps the original `<img>` with the captured Core Image HTML and passes the completed HTML to HTL for output.
 
 Your table is output once, already containing Core Image markup. No client‑side DOM manipulation is needed.
 
@@ -361,6 +359,3 @@ The Authors can't add components until policies allow them.
 - Service: `core/.../services/ImageComponentRenderer.java`
 
 This pattern shows how to compose a custom component with a Core Component server‑side, keeping your markup while reusing Core logic.
-
-
-
