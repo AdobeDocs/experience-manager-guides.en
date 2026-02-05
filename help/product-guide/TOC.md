@@ -443,7 +443,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Integrate desktop-based XML editors](./install-guide/integrate-desktop-editors.md)
     - Work with output generation settings {#output-gen-config}
       - [Configure output generation settings](./install-guide/conf-output-generation.md)
-      - [Download and install aem sites templates](./install-guide/download-install-aem-sites-templates.md)
+      - [Download and install AEM Sites templates](./install-guide/download-install-aem-sites-templates.md)
+      - [Component mapping for AEM Sites](./install-guide/component-mapping.md)
       - [Overlay HTML tags in AEM Sites output](./install-guide/overlay-html-tags-aem-sites.md)
       - Native PDF Publishing {#config-native-pdf-publish}
         - [PDF Template](./native-pdf/pdf-template.md)
