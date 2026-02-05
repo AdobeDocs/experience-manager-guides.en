@@ -46,9 +46,6 @@ Create the following index definition in your project at:
           compatVersion="{Long}2"
           evaluatePathRestrictions="{Boolean}true"
           includedPaths="[/content/dam]"
-          reindex="{Boolean}false"
-          reindexCount="{Long}1"
-          seed="{Long}958982603885135223"
           selectionPolicy="tag"
           tags="[ditaSearch]"
           type="lucene">
