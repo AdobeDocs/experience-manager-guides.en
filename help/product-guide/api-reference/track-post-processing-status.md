@@ -4,6 +4,7 @@ description: Learn about the API to track post processing for a folder or an ass
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
+exl-id: f902fac1-2717-4696-a835-c4b0bb8add3d
 ---
 # API to track post processing status for a folder or an asset
 
@@ -115,4 +116,4 @@ List of assets and their status.
 } 
 ```
 
-**Status values:** SUCCESS, FAILURE, PROCESSING, PENDING 
+**Status values:** SUCCESS, FAILURE, PROCESSING, PENDING

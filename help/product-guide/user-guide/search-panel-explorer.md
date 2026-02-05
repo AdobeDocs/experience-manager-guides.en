@@ -3,6 +3,7 @@ title: Search panel in Editor interface
 description: Learn how to use Search panel in the Editor interface.
 feature: Authoring
 role: User
+exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
 ---
 # Search panel
 
@@ -56,13 +57,4 @@ When you perform a search and apply filters in the Repository interface on the H
 
 From the Search panel, you can **drag and drop** files into your current topic to attach references seamlessly, or edit multiple files at the same time. Additionally, you can refine your search results by using the **Modify search** option available in the Search panel.
 
-![](images/search-panel-from-home.png){align="left"} 
-
-
-
-    
-
-
-
-
-
+![](images/search-panel-from-home.png){align="left"}

@@ -4,7 +4,7 @@ description: Learn how to migrate Non-UUID to UUID content
 feature: Migration
 role: Admin
 level: Experienced
-
+exl-id: f17a2e02-62de-4ed6-8d1f-4c72e7488437
 ---
 # 4.6.0 Service Pack 4 non-UUID to 4.6.1 UUID content migration
 
@@ -215,4 +215,3 @@ Additionally, a list of **Files upgraded with errors** and **Files failed** duri
 
 
 1. After the validation is done, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
-

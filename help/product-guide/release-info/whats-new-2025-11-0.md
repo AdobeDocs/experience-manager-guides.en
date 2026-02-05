@@ -2,7 +2,7 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 2025.11.0 release
 description: Learn about the new and enhanced features in the 2025.11.0 release of Adobe Experience Manager Guides
 role: Leader
-
+exl-id: 270a5faa-a16f-4939-900e-3c6c54660d2c
 ---
 # What's new in the 2025.11.0 release (November 2025)
 
@@ -51,7 +51,3 @@ After the build upgrade, the system may experience a temporary increase in load,
 An automated process is introduced to keep assets in the `/content/dam` up to date. The system triggers asset reprocessing every 15 minutes. During each cycle, assets that were newly added or remained unprocessed within the most recent 15-minute interval are picked up and reprocessed, improving efficiency and consistency across your content repository.
 
 For more details, view [Process assets](../user-guide/asset-processor.md).
-
-
-
-

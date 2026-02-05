@@ -1,9 +1,9 @@
 ---
-title: Other options in the Insert menu  
+title: Other options in the Insert menu
 description: Learn about the insert menu options you can use in the Learning content.
 feature: Authoring
 role: User
-
+exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 ---
 # Other options in the Insert menu  
 

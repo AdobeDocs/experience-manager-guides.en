@@ -2,7 +2,7 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 2026.01.0 release
 description: Learn about the new and enhanced features in the 2026.01.0 release of Adobe Experience Manager Guides
 role: Leader
-
+exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
 ---
 # What's new in the 2026.01.0 release (February 2026)
 
@@ -171,19 +171,3 @@ The following API enhancements have been made as part of this release:
 
 - New APIs are introduced to create new translation project and track their status. These APIs help automate the translation process, reducing manual effort and improving efficiency. For details, view [Create translation project](../api-reference/translation-project.md)
 - Enhanced asset processing APIs with improved filtering ability for files and folders. For details, view [Process assets](../api-reference/bulk-assets-processing.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-

@@ -4,7 +4,7 @@ description: Configure B-tree clean up job for On-Premise services
 feature: Output Generation
 role: Admin
 level: Experienced
-
+exl-id: ff6f968c-3440-4757-882a-676711ad05c3
 ---
 # Configure B-tree cleanup
 
@@ -51,4 +51,3 @@ Perform the following steps to enable the setting:
     ![](assets/btree-cleanup-setting.png){align="left"}
 
 1. Select **Save**.
-   

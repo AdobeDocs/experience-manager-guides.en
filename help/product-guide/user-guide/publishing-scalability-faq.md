@@ -1,7 +1,7 @@
 ---
 title: FAQ about Publishing Performance and Scalability in Adobe Experience Manager Guides
 description: Learn about the frequently asked questions on Publishing Performance and Scalability in Adobe Experience Manager Guides.
-
+exl-id: d4cd7673-ba66-4e90-9908-b537217d7eb6
 ---
 # FAQ 
 
@@ -118,7 +118,3 @@ To ensure optimal publishing speed, follow these best practices:
 - Keep DITA map hierarchies manageable and well-organized
 - Schedule heavy publishing during off-peak hours
 - Use conditional filters effectively to reduce processing load
-
-
-
-

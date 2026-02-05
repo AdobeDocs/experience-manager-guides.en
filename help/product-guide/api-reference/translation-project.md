@@ -4,6 +4,7 @@ description: Learn about creating API translation project
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
+exl-id: 2b3b0195-7cc2-42c3-b52b-40b862195d1d
 ---
 # Create translation project
 
@@ -168,6 +169,3 @@ GET
 }
 
 ```
-
-
-

@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2025.11.0 release
 description: Learn about the bug fixes in the 2025.11.0 release of Adobe Experience Manager Guides as a Cloud Service.
-
+exl-id: a86621c3-c4e1-4538-8700-dd9c22be440f
 ---
 # Fixed issues in the 2025.11.0 release 
 
@@ -49,14 +49,3 @@ Learn about [upgrade instructions for the 2025.11.0 release](upgrade-instruction
 Adobe has identified the following known issues for the 2025.11.0 release:
 
 - Creating a duplicate topic using `copy-to` attribute and referencing it with `scope=peer` attribute causes redirection issues in AEM Sites output, where links are redirected from AEM Sites (with composite component mapping) to AEM Sites (with legacy component mapping), and vice-versa. (GUIDES-37656)
-
-
-
-
-
-
-
-
-
-
-

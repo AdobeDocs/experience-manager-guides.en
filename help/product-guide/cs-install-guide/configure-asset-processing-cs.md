@@ -4,7 +4,7 @@ description: Learn how to configure Asset processing for Cloud service
 feature: Output Generation
 role: Admin
 level: Experienced
-
+exl-id: 219a096f-4087-489f-9b3b-104864817198
 ---
 # Configure asset processing feature 
 

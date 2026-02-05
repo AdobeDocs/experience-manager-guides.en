@@ -1,9 +1,10 @@
 ---
 title: Experience Manager Guides and Edge Delivery Services (Beta)
-description: Understand how Edge Delivery Services (Beta) expands the authoring and publishing possibilities for Experience Manager Guides. 
+description: Understand how Edge Delivery Services (Beta) expands the authoring and publishing possibilities for Experience Manager Guides.
 feature: Output Generation
 role: Admin
 level: Experienced
+exl-id: a4623088-a867-4079-80d6-20866c99683e
 ---
 # Experience Manager Guides and Edge Delivery Services (Beta)
 

@@ -4,7 +4,7 @@ description: Learn how to do Component mapping for AEM Sites
 feature: Installation
 role: Admin
 level: Experienced
-
+exl-id: f59e3ad5-bf9c-468d-aab7-144c8c2335ac
 ---
 # Component mapping for AEM Sites (using composite component mapping) 
 

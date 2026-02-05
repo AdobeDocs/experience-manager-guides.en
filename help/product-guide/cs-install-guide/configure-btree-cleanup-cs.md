@@ -4,7 +4,7 @@ description: Configure B-tree clean up job for Cloud services
 feature: Output Generation
 role: Admin
 level: Experienced
-
+exl-id: de464e92-f17b-4c99-98f2-fdba8d214129
 ---
 # Configure B-tree cleanup 
 

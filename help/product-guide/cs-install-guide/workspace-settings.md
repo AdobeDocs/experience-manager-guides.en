@@ -1,9 +1,9 @@
 ---
 title: Workspace settings in Experience Manager Guides
-description: Learn about the various settings available in the Editor interface of Experience Manager Guides. 
+description: Learn about the various settings available in the Editor interface of Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-
+exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
 ---
 # Workspace settings
 
@@ -255,6 +255,4 @@ An error is displayed if the metadata path is blank. If you leave the label blan
     
     
 You can also define the order in which these metadata tags are displayed. To change the default order of these tags, select the dotted bars to drag and drop the tags at the desired location.
-The metadata labels appear in the same sequence in the **Version history** dialog box of the Editor. 
-
-
+The metadata labels appear in the same sequence in the **Version history** dialog box of the Editor.

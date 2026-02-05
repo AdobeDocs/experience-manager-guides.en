@@ -2,7 +2,7 @@
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides 5.1.0 Service Pack 3 release
 description: Learn about the bug fixes in the 5.1.0 Service Pack 3 release of Adobe Experience Manager Guides
 role: Leader
-
+exl-id: faa9a5d7-616f-4692-98d1-23abc78556b6
 ---
 # Fixed issues in the 5.1.0 Service Pack 3 release (December 2025)
 
@@ -41,7 +41,3 @@ Learn about [upgrade instructions for the 5.1.0 Service Pack 3 release](upgrade-
 Adobe has identified the following known issue for the 5.1.0 Service Pack 3 release:
 
 - When you mark a review task as complete from the task details page, the task is completed and closed; however, its status continues to display as **In Progress** on the Review dashboard. (GUIDES-39375)
-
-
-
-

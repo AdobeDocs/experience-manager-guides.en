@@ -3,7 +3,7 @@ title: Overview to the Experience Manager Guides Editor Interface
 description: Get to know the Experience Manager Guides Editor Interface
 feature: Authoring
 role: User
-
+exl-id: 6c95a527-776e-47d1-b414-2f023af12fca
 ---
 # Overview
 

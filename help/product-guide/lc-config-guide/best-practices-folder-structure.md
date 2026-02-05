@@ -1,9 +1,10 @@
 ---
-title: Best practices to set up folder structure 
+title: Best practices to set up folder structure
 description: Learn about the best practices to set up folder structure when working with the Learning and Training content in Experience Manager Guides.
 feature: Authoring
 role: Admin
 level: Experienced
+exl-id: 1b99ade0-0eee-42c3-a383-0c3774b6c1f6
 ---
 # Best practices for setting up the folder structure
 
@@ -67,5 +68,4 @@ To assign permissions, navigate to **Tools** > **Security** > **Permissions**.
 
 These permissions help ensure that users can create or modify content only within their designated folders.  
 
-For more details, view [Permissions in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem). 
-
+For more details, view [Permissions in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem).

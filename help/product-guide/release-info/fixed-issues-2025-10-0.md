@@ -1,7 +1,7 @@
 ---
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2025.10.0 release
 description: Learn about the bug fixes in the 2025.10.0 release of Adobe Experience Manager Guides as a Cloud Service.
-
+exl-id: e9a97d74-5061-42b4-b9d3-6c8dc386e6fb
 ---
 # Fixed issues in the 2025.10.0 release 
 
@@ -51,9 +51,3 @@ Adobe has identified the following known issues for the 2025.10.0 release:
 - When switching to Author view from Source view for a newly opened topic (that is initially opened in Source mode), the topic content becomes blank. (GUIDES-35000)<br>**Workaround**: Refresh the page or reopen the topic to resolve the issue.
 
 - The **Refresh navigation** button is appearing for DITA topic files, though it should only be available only for DITA maps, book maps, and subject schemes. (GUIDES-35452)
-
-
-
-
-
-

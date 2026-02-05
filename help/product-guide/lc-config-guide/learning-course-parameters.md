@@ -4,6 +4,7 @@ description: Learn about the SCORM key metrics for Learner progress and Course c
 feature: Authoring
 role: Admin
 level: Experienced
+exl-id: f25cbbbd-5d9f-47b0-9260-8062e026913d
 ---
 # SCORM key metrics for Learner progress and Course completion
 

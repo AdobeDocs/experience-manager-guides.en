@@ -1,9 +1,9 @@
 ---
-title: Release Notes | What's New in December 2025 release of Product Training and Learning content   
-description: Learn about the new and enhanced features in the December 2025 release of Product Training and Learning content   
+title: Release Notes | What's New in December 2025 release of Product Training and Learning content
+description: Learn about the new and enhanced features in the December 2025 release of Product Training and Learning content
 role: Leader
 hidefromtoc: yes
-
+exl-id: 72d4fd5c-194a-4671-bcec-35fc35ff3165
 ---
 # December 2025 release of Product Training and Learning content  
 
@@ -48,7 +48,3 @@ This release note covers the new and enhanced features introduced in December 20
     For more details, view [Add basic building blocks](../learning-content/lc-basic-blocks.md).
 
     ![](assets/reusable-content.png){width="650" align="left"}
-
-
-
-

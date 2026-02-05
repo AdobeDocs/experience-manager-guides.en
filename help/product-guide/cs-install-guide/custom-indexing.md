@@ -1,9 +1,10 @@
 ---
-title: Custom indexing deployment 
+title: Custom indexing deployment
 description: Learn how to custom index content
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 682d58df-7404-4e84-9b5f-ab40c46bef84
 ---
 # Deploying custom index for Find and replace (Source view) feature
 

@@ -1,9 +1,9 @@
 ---
-title: Repository on Home page 
+title: Repository on Home page
 description: Get to know the Repository in the Home page. Learn about Repository interface and features in Adobe Experience Manager Guides on Home page.
 feature: Authoring
 role: User
-
+exl-id: 1466c263-d24b-4653-8361-098831002f4e
 ---
 # Know the Repository interface
 
@@ -149,4 +149,3 @@ After the search results appear, you can either multi-select files and open them
 The **Show in search panel** option becomes available after performing a search in the Repository. This feature allows you to display all the searched results in the **Search panel** within the Editor. For more details, view [Search panel](./search-panel-explorer.md).
 
 ![](images/search-panel-repo.png){align="left"}
-

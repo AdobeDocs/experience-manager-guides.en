@@ -4,6 +4,7 @@ description: Learn about the API to start bulk processing for assets
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
+exl-id: feba6d8e-c363-4360-af33-92a01dcf6672
 ---
 # API to start bulk processing for assets
 
@@ -283,6 +284,3 @@ None. This GET request retrieves job history without requiring input parameters.
   ]
 }
 ```
-
-
-

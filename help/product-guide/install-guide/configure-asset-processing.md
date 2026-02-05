@@ -4,7 +4,7 @@ description: Configure Asset processing for On-Premise services
 feature: Output Generation
 role: Admin
 level: Experienced
-
+exl-id: 9d771bba-aa90-4726-a75f-1cb7b804a192
 ---
 # Configure asset processing feature
 

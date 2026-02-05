@@ -2,7 +2,7 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 2025.10.0 release
 description: Learn about the new and enhanced features in the 2025.10.0 release of Adobe Experience Manager Guides
 role: Leader
-
+exl-id: 5bc6f1f6-225b-46c0-a05a-099583e402d8
 ---
 # What's new in the 2025.10.0 release (October 2025)
 
@@ -54,4 +54,3 @@ For details, view:
 
 - [API to track post-processing status of individual assets and folders](../api-reference/track-post-processing-status.md)
 - [Post-processing event handler setting in fmdita config manager](../api-reference/post-process-event.md)
-
