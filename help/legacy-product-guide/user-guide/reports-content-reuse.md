@@ -8,13 +8,7 @@ exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
 ---
 # Content Reuse Report {#id205BB900OQD}
 
-![](images/test-version-info-table-new.svg)
-
 ![](images/test-version-info-table-original.svg)
-
-| Applies to | Experience Manger Guides Cloud Service, <br> Experience Manger Guides On-Premise  |
-| -------- | ---------------------------- |
-| **Version**    | **4.6**       |
 
 Another useful report that you can generate is the Content Reuse Report. This report calculates the average content usage percentage, which is very useful for project managers and business owners to see the amount of content that is being reused.
 
