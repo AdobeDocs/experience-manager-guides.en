@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 exl-id: 376aea7a-7850-44d4-a620-6b1a798a0801
 ---
-# Component mapping for AEM Sites (using composite component mapping) 
+# Component mapping for AEM Sites
 
 The article talks about the various aspects of component mapping for AEM sites (using composite component mapping).
 
