@@ -12,7 +12,7 @@ By default, when a topic or map file is created, authors are given an option to 
 
 >[!BEGINTABS]
 
->[!TAB Cloud Services]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure auto-filenames based on UUID:
 
@@ -24,7 +24,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 >
 > When this option is turned on, authors will not see the option to specify the file name while creating a new topic or map file. A new topic or map file can be created from the Assets UI and the Web Editor.
 
->[!TAB On-Prem services]
+>[!TAB On-Premise]
 
 Perform the following steps to automatically assign the UUID-based file name for all new files created in the system:
 
