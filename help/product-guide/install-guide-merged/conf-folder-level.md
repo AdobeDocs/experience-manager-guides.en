@@ -207,7 +207,7 @@ If you are using custom attribute, then it must be a valid DITA attribute suppor
 
 >[!BEGINTABS]
 
->[!TAB Cloud services]
+>[!TAB Cloud service]
 
 1.  Add the custom attribute to the DTD file. For example, if your DTD file is commonElements.mod, then you need to locate this file in the DTD directory. The default path of the system DTD file is:
 
@@ -268,7 +268,7 @@ You can configure the authoring templates based on the services you are using as
 
 >[!BEGINTABS]
 
->[!TAB Cloud services]
+>[!TAB Cloud service]
 
 AEM Guides comes with 7 out-of-the-box topic templates, 2 DITA map templates, and 3 PDF templates. You can choose to have only a few templates available to your authors and publishers. In case you use a custom template, the same can be configured and made available for authoring and publishing. You use the **Templates** tab in the Folder Profiles configuration to add or remove topic, map, or PDF templates from global or folder-level profiles.
 
@@ -605,7 +605,7 @@ By default, the XML Editor comes with a lot of features to help your authors cre
 
 >[!BEGINTABS]
 
->[!TAB Cloud services]
+>[!TAB Cloud service]
 
 This setting enables you to create JSON extensions that reflect modifications made in the `ui_config.json` file. You can independently upload these extensions at the Folder profile level, offering enhanced flexibility and customization. For instance, when you make changes to the **XML Editor Configuration**, such as updating a button, the system automatically identifies the differences. By uploading these changes to the **XML Editor UI Configuration** and converting them into JSON extensions using the **Convert UI Config to JSON** button, the system generates an extension that incorporates the new functionality.
 

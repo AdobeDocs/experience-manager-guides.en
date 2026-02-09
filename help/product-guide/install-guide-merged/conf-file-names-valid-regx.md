@@ -18,7 +18,7 @@ If you do not configure the valid special characters list, the file creation pro
 
 >[!BEGINTABS]
 
->[!TAB Cloud services]
+>[!TAB Cloud service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure regex for valid file name characters:
 

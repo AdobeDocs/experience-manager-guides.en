@@ -151,7 +151,7 @@ Perform the following steps to add custom DITA elements or attributes in the sea
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 1.  Use the Package Manager to download /libs/fmdita/config/serializationconfig.xml file.
 
@@ -165,7 +165,7 @@ Perform the following steps to add custom DITA elements or attributes in the sea
 
 1.  Commit the changes and run the Cloud Manager \(CI/CD\) pipeline to deploy configuration changes.
 
->[!On-Premise service]
+>[!TAB On-Premise]
 
 1.  Log into AEM and open the CRXDE Lite mode.
 
@@ -210,7 +210,7 @@ Perform the following steps to enable the metadata extraction option in the conf
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure the metadata extraction option:
 
@@ -238,7 +238,7 @@ Perform the following steps to run the metadata extraction workflow:
 
 1.  In the Confirm Metadata Extraction dialog, click **OK**.
 
->[!On-Premise service]
+>[!TAB On-Premise]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page. The default URL to access the configuration page is:
 
@@ -283,7 +283,7 @@ Perform the following steps to exclude the temporary translation folder from the
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 >[!NOTE]
 >
@@ -305,7 +305,7 @@ Perform the following steps to exclude the temporary translation folder from the
     |-------------|----|-----|
     |excludedPaths|String\[\]|Add the following values to this property:<br> `/content/dam/projects/translation\_output`|
 
->[!On-Premise service]
+>[!TAB On-Premise]
 
 >[!NOTE]
 >

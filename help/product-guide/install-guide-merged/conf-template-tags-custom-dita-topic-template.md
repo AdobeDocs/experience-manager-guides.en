@@ -50,7 +50,7 @@ As an administrator, you can choose to create custom map or topic templates in t
 
 >[!BEGINTABS]
 
->[!TAB Cloud Services]
+>[!TAB Cloud service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure a folder for your custom DITA topic templates:
 

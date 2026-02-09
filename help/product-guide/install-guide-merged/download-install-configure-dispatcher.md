@@ -12,7 +12,7 @@ Dispatcher is Adobe Experience Manager's caching and/or load balancing tool. Ref
 
 >[!BEGINTABS]
 
->[!TAB Cloud services]
+>[!TAB Cloud service]
 
 Perform the following steps to configure Dispatacher on Experience Manager Guides as a Cloud Service:
 

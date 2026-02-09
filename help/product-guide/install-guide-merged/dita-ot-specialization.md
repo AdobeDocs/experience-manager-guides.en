@@ -24,7 +24,7 @@ If you want to process Ant parameters while publishing any output, AEM Guides gi
 
 >[!BEGINTABS]
 
->[!TAB Cloud Services]
+>[!TAB Cloud service]
 
 You can use custom DITA-OT plug-in for publishing by uploading the custom DITA-OT plug-in into the AEM repository. By default, AEM Guides comes with a pre-configured Profile that contains the configurations for the default templates to use for editing and publishing content. You can create custom profiles with custom templates to be used while editing documents and custom DITA-OT plug-ins to publish content.
 
@@ -204,7 +204,7 @@ You can use the Profile feature to store custom DITA specialization settings. Th
 
 >[!BEGINTABS]
 
->[!TAB Cloud Services]
+>[!TAB Cloud service]
 
 Perform the following steps to create a new profile and configure it to use specialized DTDs and XSDs in your AEM Guides:
 

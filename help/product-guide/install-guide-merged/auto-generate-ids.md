@@ -14,7 +14,7 @@ AEM Guides provides easy configuration settings wherein you need to define the e
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure auto-generated element IDs:
 

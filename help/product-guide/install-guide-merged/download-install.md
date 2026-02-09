@@ -10,7 +10,7 @@ level: Experienced
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 Starting 2024.2.0 release, Experience Manager Guides is only available as an automated add-on for Experience Manager as a Cloud Service.
 

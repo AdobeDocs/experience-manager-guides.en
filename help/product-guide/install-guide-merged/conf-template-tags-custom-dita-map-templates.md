@@ -12,7 +12,7 @@ AEM Guides comes with two out-of-the-box map templates — DITA map and Bookmap.
 
 >[!BEGINTABS]
 
->[!TAB Cloud Services]
+>[!TAB Cloud service]
 
 
 Perform the following steps to add your custom map templates:
@@ -93,7 +93,7 @@ You can configure the threshold for asynchronous processing based on the number 
 
 >[!BEGINTABS]
 
->[!TAB Cloud Services]
+>[!TAB Cloud service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to specify number of references in the DITA map template to keep the process synchronous:
 

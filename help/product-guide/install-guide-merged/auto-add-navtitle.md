@@ -16,7 +16,7 @@ To include `@navtitle` attribute by default in reference files' properties, perf
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 1.  To download the UI configuration file log into Adobe Experience Manager as an administrator.
 
@@ -53,7 +53,7 @@ To include `@navtitle` attribute by default in reference files' properties, perf
 
 With this configuration, every reference file that you add to a map will contain the `@navtitle` attribute by default. 
 
->[!On-Premise service]
+>[!TAB On-Premise]
 
 1.  Download the ui\_config.json file.
 

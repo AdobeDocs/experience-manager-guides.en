@@ -15,7 +15,7 @@ Perform the following steps to enable the auto-save feature in the Web Editor de
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure file auto-save and auto-save time interval:
 

@@ -12,7 +12,7 @@ In some workflows, when you click on a link of a topic or a map file, it opens i
 
 >[!BEGINTABS]
 
->[!TAB Cloud services]
+>[!TAB Cloud service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to open a topic or map file in a new tab:
 

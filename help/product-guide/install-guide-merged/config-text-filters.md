@@ -20,7 +20,7 @@ Perform the following steps to configure the text filters based in the service y
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 1.  Log into Adobe Experience Manager as an administrator.
 1.  Click on the Adobe Experience Manager link at the top and choose **Tools**.
@@ -78,7 +78,7 @@ Perform the following steps to configure the text filters based in the service y
 
 The configured filters are available in the filters panel.
 
->[!On-Premise service]
+>[!TAB On-Premise]
 
 1.  Log into Adobe Experience Manager as an administrator.
 1.  Click on the**Adobe Experience Manager** link at the top and choose **Tools**.

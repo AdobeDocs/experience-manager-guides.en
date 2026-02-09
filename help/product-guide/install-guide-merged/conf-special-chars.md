@@ -14,7 +14,7 @@ Perform the following steps to overwrite the default list of special characters 
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 1.  Create `symbols.json` file at the following location in your Cloud Manager's Git repository:
 
@@ -43,7 +43,7 @@ The structure of the `symbols.json` file is explained below:
 
     You can define multiple definitions of special characters within a category.
 
->[!On-Premise service]
+>[!TAB On-Premise]
 
 1.  Log into AEM and open the CRXDE Lite mode.
 

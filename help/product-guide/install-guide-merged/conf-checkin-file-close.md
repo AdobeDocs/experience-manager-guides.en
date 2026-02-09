@@ -14,7 +14,7 @@ Perform the following steps to configure prompt to check in a file on close depe
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure a prompt to check in a file on close:
 
@@ -26,7 +26,7 @@ When this configuration is enabled, the **Unlock the File** checkbox is selected
 
 For more details, see *File close and save scenarios* section in the Using Adobe Experience Manager Guides as a Cloud Service guide.
 
->[!On-Premise service]
+>[!TAB On-Premise]
 
 The **Unlock the File** checkbox is not enabled by default and you need to enable this from the configMgr. Perform the following steps to enable the option by default in the Web Editor:
 

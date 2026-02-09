@@ -14,7 +14,7 @@ To create an AEM site for publishing article-based output, perform the following
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 1.  Download **XML Documentation Components Content Package for Cloud Service** from your [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 1.  Open AEM Package Manager. The default URL to access the package manager is: `https://<hostname>/crx/packmgr/index.jsp`
@@ -40,7 +40,7 @@ To create an AEM site for publishing article-based output, perform the following
 
 You can use the AEM site to publish your article using the output presets from the Web Editor.
 
->[!On-Premise service]
+>[!TAB On-Premise]
 
 To enable article-based publishing, download and install the following packages from your Adobe Software Distribution Portal. Install them to create a Tragopan site. \(Tragopan site is a sample knowledge base AEM site with templates for a category, section, and article pages.\) Update the Tragopan site to generate the AEM site output using the output presets from the Web Editor.
 

@@ -12,7 +12,7 @@ By default, when you create a link using the Insert Reference or Insert Reuse Co
 
 >[!BEGINTABS]
 
->[!TAB Cloud services]
+>[!TAB Cloud service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to show the relative path or the UUID of the referenced content in the Editor.
 

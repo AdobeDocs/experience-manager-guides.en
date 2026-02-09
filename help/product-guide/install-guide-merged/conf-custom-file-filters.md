@@ -14,7 +14,7 @@ Perform the following steps to add your custom file filtering options to the fil
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 1.  To download the UI configuration file log into Adobe Experience Manager as an administrator.
 
@@ -65,7 +65,7 @@ Perform the following steps to add your custom file filtering options to the fil
 
     ![](assets/file-browse-custom-filters.png)
 
->[!On-Premise service]
+>[!TAB On-Premise]
 
 1.  Log into AEM and open the CRXDE Lite mode.
 

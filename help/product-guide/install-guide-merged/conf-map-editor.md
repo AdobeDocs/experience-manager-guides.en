@@ -21,7 +21,7 @@ Perform the following steps to make the Advanced Map Editor as the default edito
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to enable the Basic Map Editor:
 
@@ -33,7 +33,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 >
 > By default, when an author creates a map file and chooses to open it for editing, then the Basic Map Editor is launched. When the Edit option is selected for a map file from the Assets UI, then also it is opened in the Basic Map Editor.
 
->[!On-Premise service]
+>[!TAB On-Premise]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 

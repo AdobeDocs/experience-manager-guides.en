@@ -12,7 +12,7 @@ Once you have installed AEM Guides, you need to verify whether the installation 
 
 [!BEGINTABS]
 
->[!TAB Cloud services]
+>[!TAB Cloud service]
 
 1.  Access the Developer Console of your Cloud Service.
 

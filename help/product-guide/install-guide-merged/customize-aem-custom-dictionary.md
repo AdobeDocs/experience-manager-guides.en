@@ -14,7 +14,7 @@ Perform the following steps to create your custom words list, which are added in
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 1.  Create user\_dictionary.txt file with a list of words that you want to define in your custom dictionary.
 
@@ -33,7 +33,7 @@ Perform the following steps to create your custom words list, which are added in
 
 Authors would need to restart their Web Editor session to get the custom words list updated in AEM dictionary.
 
->[!On-Premise service]
+>[!TAB On-Premise]
 
 1.  Log into AEM and open the CRXDE Lite mode.
 

@@ -14,7 +14,7 @@ Perform the following steps to configure prompt to save as a new version on clos
 
 >[!BEGINTABS]
 
->[!Cloud Service]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure a prompt to save as a new version on close:
 
@@ -26,7 +26,7 @@ When this configuration is enabled, the **Save as a New Version** checkbox is se
 
 For more details, see *File close and save scenarios* section in the Using Adobe Experience Manager Guides as a Cloud Service guide.
 
->[!On-Premise service]
+>[!TAB On-Premise]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 

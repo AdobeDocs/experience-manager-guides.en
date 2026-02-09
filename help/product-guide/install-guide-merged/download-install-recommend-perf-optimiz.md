@@ -12,7 +12,7 @@ Performance optimization recommendations are provided separately for On-Premise 
 
 >[!BEGINTABS]
 
->[!TAB Cloud services]
+>[!TAB Cloud service]
 
 For performance optimization, consider the following points:
 
