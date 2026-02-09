@@ -1,12 +1,11 @@
 ---
 title: Configure single topic PDF generation
 description: Learn how to Configure single topic PDF generation
-exl-id: 5b66fd3b-6450-49ce-b06e-d2d5bab37990
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Configure single topic PDF generation {#id22ADC70M0XA}
+# Configure single topic PDF generation (for Cloud Service)
 
 With the AEM Guides, you can generate the PDF of individual topics or an entire map file. You can publish your topics in a PDF format using native PDF or DITA-OT method. Use native PDF method to generate a feature-rich PDF output based on W3C CSS3, and CSS paged media standards. You can use the DITA-OT method to generate a PDF output for a map from the map dashboard.
 
