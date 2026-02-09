@@ -24,7 +24,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.autosave`|Boolean \(true/false\).<br> **Default value**: false |
 |`xmleditor.autosaveinterval`|Specify the time interval in seconds to trigger the auto-save feature.|
 
->[!On-Premise]
+>[!TAB On-Premise]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
