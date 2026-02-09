@@ -4,7 +4,7 @@ description: Learn how to disable postprocessing for a folder uploaded to Adobe 
 feature: Filename Configuration
 role: Admin
 level: Experienced
-exl-id: 42722c6f-1b1c-4a7e-89ef-a373623eb774
+
 ---
 # Disable postprocessing for a folder 
 

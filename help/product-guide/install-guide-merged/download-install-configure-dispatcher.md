@@ -1,37 +1,17 @@
 ---
 title: Configure Dispatcher
 description: Learn how to Configure Dispatcher
-exl-id: d3ce4d01-b0fd-4f02-977c-ab378c328071
 feature: Installation
 role: Admin
 level: Experienced
 ---
 # Configure Dispatcher {#id213BCM0M05U}
 
-Dispatcher is Adobe Experience Manager's caching and/or load balancing tool. Refer the following tabs to learn how to configure this dispatcher for Experience Manager Guides as a Cloud Service and On-Premise setup.
-
->[!BEGINTABS]
-
->[!TAB Cloud service]
-
-Perform the following steps to configure Dispatacher on Experience Manager Guides as a Cloud Service:
-
-1.  For migrating dispatcher configuration from AMS to cloud service, refer to [Migrating the Dispatcher configuration from AMS to AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en).
-1.  For details on how to configure dispatcher, see [Configuring Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en).
-
->[!NOTE]
->
-> AEM as a cloud service doesn't support dispatcher for author instance.
-
-For more details, refer to [Dispatcher in the Cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
-
->[!TAB On-Prem services]
-
 If you plan to use a Dispatcher on AEM Author instance along with AEM Guides, then you need to perform the following additional configurations to complete the setup:
 
 >[!NOTE]
 >
-> Dispatcher is Adobe Experience Manager's caching and/or load balancing tool. For more details about using Dispatcher, view [Dispatcher Overview](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
+> Dispatcher is Adobe Experience Manager's caching and/or load balancing tool. For more details about using Dispatcher, see [Dispatcher Overview](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
 
 ## Enable AllowEncodedSlashes in URLs 
 
@@ -93,7 +73,5 @@ When using a Dispatcher with AEM Guides, if your Author instance has a dispatche
                 /type "deny"
                 }
 ```
-
->[!ENDTABS] 
 
 **Parent topic:**[Download and install](download-install.md)

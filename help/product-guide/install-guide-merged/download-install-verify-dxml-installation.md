@@ -12,7 +12,7 @@ Once you have installed AEM Guides, you need to verify whether the installation 
 
 [!BEGINTABS]
 
->[!TAB Cloud service]
+>[!TAB Cloud Service]
 
 1.  Access the Developer Console of your Cloud Service.
 
@@ -26,7 +26,7 @@ Once you have installed AEM Guides, you need to verify whether the installation 
 
     The status should show *Active* for successfully deployed bundles. If any of the bundle does not have an Active status, then check the AEM logs to troubleshoot the installation issue.
 
->[!TAB On-Prem services] 
+>[!TAB On-Premise] 
 
 1.  Log into your AEM instance and navigate to the AEM Web Console Bundles page. The default URL to access the bundles page is:
 

@@ -1,7 +1,6 @@
 ---
 title: Configure Regx for valid file name characters
 description: Learn how to Configure Regx for valid file name characters
-exl-id: 05e9ca3c-28ff-4f82-8061-3d20307890ff
 feature: Filename Configuration
 role: Admin
 level: Experienced
@@ -18,7 +17,7 @@ If you do not configure the valid special characters list, the file creation pro
 
 >[!BEGINTABS]
 
->[!TAB Cloud service]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure regex for valid file name characters:
 

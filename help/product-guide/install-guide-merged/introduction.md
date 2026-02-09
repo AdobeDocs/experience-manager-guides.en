@@ -1,7 +1,6 @@
 ---
 title: About this guide
 description: Learn About this guide
-exl-id: cdd40267-3f0c-40d2-acbc-2ebe43633c2f
 feature: Introduction
 role: Admin
 level: Experienced
@@ -17,4 +16,13 @@ This guide is intended for the following type of audiences:
 -   Administrators, who would install and manage AEM Guides.
 
 -   Publishers, who would run the publishing task to generate output in various formats.
+
+The following table outlines the complete workflow based on your Experience Manager Guides setup: Cloud Service or On-Premise:
+
+|Cloud Service|On-Premise|
+|-------------|------------|
+|Deployment and dispatcher configuration<br>Verify AEM Guides<br>Uninstall AEM Guides<br>Upgrade AEM Guides<br>Reccomendation for performance optimization|Technical requirements<br>Install AEM<br>Download and install AEM Guides for the first time<br>Configure dispatcher<br>Verify AEM Guides<br>Uninstall AEM Guides<br>Upgrade AEM Guides<br>Reccomendation for performance optimization|
+
+
+
 
