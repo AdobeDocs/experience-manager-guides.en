@@ -24,7 +24,7 @@ To enable the **Create new version for uploaded file** option, perform the steps
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!TAB Cloud Service]
 
 
 1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
@@ -39,7 +39,7 @@ To enable the **Create new version for uploaded file** option, perform the steps
 >
 > When the option is selected then a new version management mechanism takes place and overrides the default upload behavior that is for any subsequent upload it will save the contents of the uploaded file as a new version. If the option is deselected then AEM Guides uses the AEM's default version management mechanism.
 
->[!On-Prem services]
+>[!TAB On-Premise]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
@@ -75,7 +75,7 @@ Another important rule is to ensure that files that have been checked out are ch
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure editing of checked out files:
 
@@ -93,7 +93,7 @@ In addition, you can also configure to show a warning message whenever a checked
 >
 > Irrespective of whether you turn on or off this feature, the file Check Out and Check In options are always available in a topic preview.
 
->[!On-Prem services]
+>[!TAB On-Premise]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
@@ -132,7 +132,7 @@ To allow users to overwrite the file on upload that has been checked out by them
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!TAB Cloud Service]
 
 1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
 1.  In the configuration file, provide the following \(property\) details to configure the **Overwrite Checked out File on Upload** option:
@@ -146,7 +146,7 @@ To allow users to overwrite the file on upload that has been checked out by them
 >
 > By default, this option is turned OFF. With this option selected, users will be able to overwrite checked out files. If the option is not selected, then the file is prevented from being overwritten if it is checked out by them or some other user.
 
->[!On-Prem services]
+>[!TAB On-Premise]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
@@ -173,7 +173,7 @@ To prevent users from accidentally deleting files that have been checked out by 
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to prevent users from accidentally deleting files that have been checked out:
 
@@ -181,7 +181,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |---|------------|--------------|
 |`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.preventcheckedoutcontentdeletion`|Boolean \(true/false\). <br> **Default value**: `true`|
 
->[!On-Prem services]
+>[!TAB On-Premise]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
@@ -236,7 +236,7 @@ To define who can delete a file that contains references or is referenced by oth
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to define who can delete a file that contains references or is referenced by other files:
 
@@ -256,7 +256,7 @@ Depending on who you want to give access for deletion, specify one of the follow
 
 -   block\_unsafe\_delete\_for\_all: Disallow all users \(including Administrators\) from deleting files until the references to and from the file\(s\) are removed.
 
->[!On-Prem services]
+>[!TAB On-Premise]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 

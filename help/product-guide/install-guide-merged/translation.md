@@ -42,7 +42,7 @@ To hide the Translation tab on the DITA map dashboard, perform the following ste
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!TAB Cloud Service]
 
 1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
 1.  In the configuration file, provide the following \(property\) details to configure the translation tab on the map dashboard:
@@ -56,7 +56,7 @@ To hide the Translation tab on the DITA map dashboard, perform the following ste
     > This configuration is enabled by default and the translation tab is not available on the map dashboard.
 
 
->[!On-Prem services]
+>[!TAB On-Premise]
 
 The Hide Translation Tab option is not enabled by default and you need to enable this from the configMgr.
 
@@ -90,7 +90,7 @@ Based on the translation workflow for the server you are using, the component-ba
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!TAB Cloud Service]
 
 Based on the translation workflow used in your setup, the component-based translation workflow option should be configured. Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure component-based translation workflow:
 
@@ -98,7 +98,7 @@ Based on the translation workflow used in your setup, the component-based transl
 |---|------------|--------------|
 |`com.adobe.fmdita.config.ConfigManager`|`component.translation`|Boolean: <br> -   If you are using human translation, then *Disable* \( `false`\) the **Component-Based Translation Workflow** option. <br> -   If you are using machine translation, then *Enable \( `true`\)* the **Component-Based Translation Workflow** option.|
 
->[!On-Prem services]
+>[!TAB On-Premise]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
@@ -139,7 +139,7 @@ By default, the legacy translation workflow option is disabled. You can configur
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to configure the legacy translation workflow:
  
@@ -157,7 +157,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 >
 > After setting up the translation configurations, ensure that you set up the appropriate Cloud Configuration on the language folders.
 
->[!On-Prem services]
+>[!TAB On-Premise]
 
 1. Open the Adobe Experience Manager Web Console Configuration page.
 
@@ -186,7 +186,7 @@ By default, the post-processing of temporary files option is disabled. You can c
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure post-processing of temporary language copies:
 
@@ -194,7 +194,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |---|------------|--------------|
 |`com.adobe.fmdita.config.ConfigManager`|`postprocess.temporary.langcopies`|Boolean: <br> -   If you do not want to run the post-processing operation on the temporary files, then *Disable* \( false\) the **Post-process language copies** option.<br> -   If you want to run the post-processing operation on the temporary files, then *Enable* \( true\) the **Post-process language copies** option.<br> **Default value**: false|
 
->[!On-Prem services]
+>[!TAB On-Premise]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 

@@ -19,7 +19,7 @@ By default, your users do not see the **Open in FrameMaker** button on the AEM t
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to add this button on the AEM toolbar:
 
@@ -41,7 +41,7 @@ If you are using version 2409 and FrameMaker 2022 September release - Update 3, 
 
 When you set *openinframebuttonshow* property to true, then the **Open in FrameMaker** button is shown on selecting any DITA file in the AEM repository. When this property is not set to *true*, the **Open in FrameMaker** button is shown only when you select a .fm or a .book file in the repository
 
->[!On-Prem services]
+>[!TAB On-Premise]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 

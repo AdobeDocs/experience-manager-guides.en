@@ -28,7 +28,7 @@ Perform the following steps to add a feature to the Web Editor's toolbar dependi
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!TAB Cloud Service]
 
 1.  To download the UI configuration file log into Adobe Experience Manager as an administrator.
 

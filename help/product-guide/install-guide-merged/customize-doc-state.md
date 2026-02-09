@@ -121,7 +121,7 @@ Perform the following steps to automate the document state change depending on t
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!TAB Cloud Service]
 
 1.  Click on the Adobe Experience Manager link at the top and choose **Tools**.
 1.  Select **Workflow** from the list of tools.
@@ -158,7 +158,7 @@ Perform the following steps to automate the document state change depending on t
 
 1. Confirm the change with **Save & Close**.
 
->[!On-Prem services]
+>[!TAB On-Premise]
 
 1.  Open the workflow page from the AEM server URL.
 
@@ -190,7 +190,7 @@ AEM Guides provides document approval workflow, which helps you to control the l
 
 >[!BEGINTABS]
 
->[!Cloud services]
+>[!TAB Cloud Service]
 
 1.  To download the UI configuration file log into Adobe Experience Manager as an administrator.
 
@@ -210,7 +210,7 @@ AEM Guides provides document approval workflow, which helps you to control the l
 
 1.  Save the file and upload it.
 
->[!On-Prem services]
+>[!TAB On-Premise]
 
 1.  Log into AEM and open the CRXDE Lite mode.
 
