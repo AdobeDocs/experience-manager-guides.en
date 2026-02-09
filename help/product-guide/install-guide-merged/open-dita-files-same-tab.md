@@ -12,7 +12,7 @@ In some workflows, when you click on a link of a topic or a map file, it opens i
 
 >[!BEGINTABS]
 
->[!TAB Cloud service]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to open a topic or map file in a new tab:
 
@@ -32,7 +32,7 @@ This setting impacts the following places from where you can access the topic or
 
 -   Reports tab in the DITA map console
 
->[!TAB On-Prem services]
+>[!TAB On-Premise]
 
 To open DITA topic or map file in the same tab, perform the following configuration changes:
 

@@ -1,7 +1,6 @@
 ---
 title: Configure allowed special characters
 description: Learn how to Configure allowed special characters
-exl-id: 7ff4305f-71bb-4155-b8e5-911cea6f0ad9
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
@@ -72,7 +71,7 @@ The structure of the `symbols.json` file is explained below:
 -   `"items"`: This defines the collection of special characters in the category.
 -   `"name": "←", "title": "Left Arrow"`: This is the definition of the special character. It starts off with the `"name"` label, which must not be changed. The name is followed by the special character. The `"title"` is the name or title of the special character that appears as the tooltip for that special character.
 
-    You can define multiple definitions of special characters within a category.    
+You can define multiple definitions of special characters within a category.    
 
 >[!ENDTABS]
 
