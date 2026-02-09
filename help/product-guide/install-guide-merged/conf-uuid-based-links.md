@@ -1,14 +1,15 @@
 ---
 title: Configure display of UUID-based links
 description: Learn how to Configure display of UUID-based links
-exl-id: 2ae6a27f-983b-4aa0-be29-166899aeb4ff
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
 # Configure display of UUID-based links {#id2035G20M0QN}
 
-By default, when you create a link using the Insert Reference or Insert Reuse Content option in the Editor, the link is created using the UUID of the referenced content. The **Link** property \(in Properties panel\) of the referenced content can be configured to show the relative file path of the referenced content or the UUID. By default, the UUID of the referenced content is shown in the Properties panel.
+By default, when you create a link using the Insert Reference or Insert Reuse Content option in the Editor, the link is created using the UUID of the referenced content. The **Link** property \(in Properties panel\) of the referenced content can be configured to show the relative file path of the referenced content or the UUID. For Cloud Service, by default the UUID of the referenced content is shown in the Properties panel. For On-Premise, this display is controlled by the **Enable UUIDs** option in the `configMgr`. By default, it is turned ON, which implies that the UUID of the referenced content is shown in the Properties panel.
+
+The following tabs provide instructions based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 

@@ -7,8 +7,6 @@ level: Experienced
 ---
 # Create a mapping between a topic and a content fragment (for Cloud Service)
 
-
-
 Adobe Experience Manager Guides allows you to create a JSON-based mapping between a topic and a content fragment model. You can use JSON-based mapping to publish content present in some or all elements within a topic to a content fragment. 
 
 >[!NOTE] 

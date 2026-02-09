@@ -1,7 +1,6 @@
 ---
 title: Set the Advanced Map Editor as default
 description: Learn how to Set the Advanced Map Editor as default
-exl-id: 365264ab-f990-42c1-ab79-61a40ecea42f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
@@ -17,7 +16,8 @@ For versions earlier than 4.3 and 2307, Experience Manager Guides comes with a B
 
 By default, whenever a new map file is created, it is opened in the Basic Map Editor. You can change this behavior by enabling the setting to open the Advanced Map Editor by default.
 
-Perform the following steps to make the Advanced Map Editor as the default editor for the map files based on the service you are using.
+The following tabs provide instructions to make the Advanced Map Editor as the default editor for the map files based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+
 
 >[!BEGINTABS]
 

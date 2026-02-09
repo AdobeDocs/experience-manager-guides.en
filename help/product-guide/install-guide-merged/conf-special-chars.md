@@ -9,7 +9,7 @@ level: Experienced
 
 The Web Editor allows you to insert some special characters out-of-the-box. However, you can customize the list of special characters that your authors can insert in their documents. If you customize the special characters list, then it overwrites the default set of special characters. Only those special characters that you add in your configuration are made available to the authors.
 
-Perform the following steps to overwrite the default list of special characters depending on the service you are using:
+The following tabs provide instructions to overwrite the default list of special characters based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 

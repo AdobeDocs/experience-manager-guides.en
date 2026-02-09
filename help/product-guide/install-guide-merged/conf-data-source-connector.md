@@ -6,7 +6,7 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Configure a data source connector (only for Cloud Service)
+# Configure a data source connector (for Cloud Service)
 
 AEM Guides provides out-of-the-box connectors for JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, and ElasticSearch databases. You can also add other connectors by extending the default interfaces. The following configuration helps you to easily add the various data sources. Once added, you can view the data sources in the Web Editor. 
 

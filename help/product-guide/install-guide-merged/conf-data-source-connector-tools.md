@@ -1,7 +1,6 @@
 ---
 title: Configure a data source connector using tools
 description: Learn how to configure a data source connector using the tools.
-exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
@@ -11,14 +10,16 @@ level: Experienced
 Experience Manager Guides comes with the **Data Sources** tool that helps you configure out-of-the-box connectors for data sources. You can set up the JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, ElasticSearch, and Generic REST Client connectors.
 
 
-Besides these out-of-the-box connectors, Experience Manager Guides provides the connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. You can download and install these open-source connectors from the [Maven Central repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). The users can then configure these connectors. 
+For Experience Manger Guides for a Cloud Service setup, besides these out-of-the-box connectors, Experience Manager Guides provides the connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. You can download and install these open-source connectors from the [Maven Central repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). The users can then configure these connectors. 
 Learn how to [install an open-source connector](#install-open-source-connector).
-
-
 
 You can also connect to JSON data files using a file connector. Upload the JSON file from your computer or browse it from the Adobe Experience Manager assets. Then, create content snippets or topics using the generators.
 
-To configure a connector, perform the following steps:
+The following tabs provide instructions to configure a connector based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+
+>[!BEGINTABS]
+
+>[!TAB Cloud Service]
 
 1. Select the **Adobe Experience Manager** link at the top and choose Tools. 
 1. Select **Guides** from the list of tools.
@@ -62,7 +63,7 @@ To configure a connector, perform the following steps:
 
     If the connector is saved successfully, you can view the connected data source on the page. 
 
-**Connect to multiple resources (Only for Cloud Service)** 
+**Connect to multiple resources** 
 
 You can add or use multiple resources based on different URLs for some connectors lik Generic REST Client, Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO). Then, connect with them to create content snippets or topics using the generators for them. 
         
@@ -77,9 +78,7 @@ Perform the following steps to create a resource:
 
    This helps you to quickly fetch data from any of the resources for a particular data source in a single content snippet or topic.
 
-
-
-## Install an open-source connector (Only for Cloud Service) {#install-open-source-connector}
+**Install an open-source connector {#install-open-source-connector}**
 
 To publish a dependency present on the [Maven Central repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) to the Cloud Services, you need to include and embed the dependency for an open-source connector.
 
@@ -109,6 +108,44 @@ To publish a dependency present on the [Maven Central repository](https://centra
 1. Run the pipeline to apply the changes in the Cloud Services. 
 The connector is installed in your environment.
 
+>[!TAB On-Premise]
+
+1. Select the **Adobe Experience Manager** link at the top and choose Tools. 
+1. Select **Guides** from the list of tools.
+1. Select the **Data Sources** tile. The **Data Sources** page is displayed. You can view the connected data sources.
+
+    You can toggle between the **List View** or **Tile View** to view the various connected data sources as a list or as tiles. 
+
+    <img src="./assets/data-sources-create-window.png" alt= "data sources listed on the data sources page" width="800">
+
+    *View or Create a data source connector.*
+1. Click **Create**.
+1. Select the database for which you want to create the connector. For example, the ElasticSearch connector. 
+    >[!NOTE] 
+    >
+    >All the available out-of-the-box databases are listed.
+
+1. Click **Next**. 
+1. Enter the configuration and connection details as per the database. 
+
+    >[!TIP]
+    >* Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the field to view more details about it.
+    > * Fields with * are mandatory. For example, you can enter the following details for the ElasticSearch connector.
+
+    * **Name**: Enter the name of the data source.
+    * Authentication type: Select the type of authentication from the drop-down. For example, Basic username-password authentication
+    * **Username**: Enter your username.
+    * **Password**: Enter your username and password. 
+    * **URL**: Add the API URL.
+
+1. Select **Test connection**. You can view the **Test Connection** button enabled only after you add the required details. View a success message if the connection details are correct. Otherwise, you might view an error message.     
+
+1. Select **Save** on the top to save the connector.     View the **Save** button enabled after you fill in all the details and the connection is successful.
+
+
+    If the connector is saved successfully, you can view the connected data source on the page.
+
+>[!ENDTABS]
 
 ## Features available for a connector
 

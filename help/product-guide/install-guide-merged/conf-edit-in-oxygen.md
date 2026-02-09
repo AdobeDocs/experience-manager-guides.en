@@ -1,12 +1,11 @@
 ---
 title: Configure the option to edit in Oxygen
 description: Learn how to configure the option to edit in Oxygen connector plugin.
-exl-id: 96081a6d-39cf-4697-8b43-6494543ea187
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Configure the option to edit in Oxygen
+# Configure the option to edit in Oxygen (for On-Premise)
 
 AEM Guides also allows the users to edit their DITA topics and DITA maps in the Oxygen connector plugin. 
 

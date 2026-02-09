@@ -1,7 +1,6 @@
 ---
 title: Include @navtitle attribute by default
 description: Learn how to Include @navtitle attribute by default
-exl-id: 38711c0c-efa8-461a-92e1-ecfcdcdd36d3
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
@@ -12,7 +11,7 @@ You can add different types of reference files in a map, for example topic, refe
 
 Once enabled, every reference file that you add in a map will automatically get the `@navtitle` attribute added to its properties. The `@navtitle` will also get the value of the `title` element of the referenced content.
 
-To include `@navtitle` attribute by default in reference files' properties, perform the following steps based on the service you are using.
+The following tabs provide instructions to include `@navtitle` attribute by default in reference files' properties based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 

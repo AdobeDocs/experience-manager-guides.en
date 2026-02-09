@@ -1,7 +1,6 @@
 ---
 title: Install packages for Article-based publishing
 description: Learn how to Install packages for Article-based publishing
-exl-id: d83fc1a9-0822-47f0-8099-22a74b9ced2a
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
@@ -10,7 +9,7 @@ level: Experienced
 
 AEM Guides provides a powerful article-based publishing feature integrated with the Web Editor. Using this feature, you can publish one or more topics simultaneously. Once you have opened a map in the Map Editor, you can navigate to the Outputs tab to create a preset, and then choose one or more topics to generate the output. You can use the article-based publishing feature to incrementally generate output of one or more topics or publish your content to a knowledge base platform in an article-by-article fashion. For more details see, *Article-based publishing from the Web Editor section* in the User guide.
 
-To create an AEM site for publishing article-based output, perform the following steps:
+The following tabs provide instructions to create an AEM site for publishing article-based output based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 

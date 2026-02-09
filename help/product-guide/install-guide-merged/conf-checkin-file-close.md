@@ -1,7 +1,6 @@
 ---
 title: Configure prompt to check in a file on close
 description: Learn how to Configure prompt to check in a file on close
-exl-id: 5b09ec46-aea4-4a3f-8bab-42414e31e37d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
@@ -10,7 +9,7 @@ level: Experienced
 
 When the user tries to close a file that is opened in the Web Editor using the **Close** button on the file's tab or the **Close**option in the Options menu, a dialog appears if the file has unsaved data or an unsaved version. The user is prompted to unlock the file if it is locked.
 
-Perform the following steps to configure prompt to check in a file on close depending on the service you are using.
+The following tabs provide instructions to configure prompt to check in a file on close option by default in the Web Editor based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
