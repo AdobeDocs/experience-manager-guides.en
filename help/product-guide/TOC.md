@@ -13,7 +13,20 @@ breadcrumb-title: AEM Guides Documentation
   - Release Notes {#release-notes}
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
+      - 2026 Releases {#2026-releases}
+        - 2026.01.0 Release {#2601-release}
+          - [What's new](./release-info/whats-new-2026-01-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2026-01-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2026-01-0.md)
       - 2025 Releases {#2025-releases}
+        - 2025.11.0 Release {#2511-release} 
+          - [What's new](./release-info/whats-new-2025-11-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2025-11-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2025-11-0.md)
+        - 2025.10.0 Release {#2510-release} 
+          - [What's new](./release-info/whats-new-2025-10-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2025-10-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2025-10-0.md)
         - 2025.08.0 Release {#2508-release} 
           - [What's new](./release-info/whats-new-2025-08-0.md)
           - [Fixed issues](./release-info/fixed-issues-2025-08-0.md)
@@ -96,10 +109,20 @@ breadcrumb-title: AEM Guides Documentation
         - [January release notes](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
+      - 5.1.0 SP3 Release {#510-sp3-release}
+        - [What's new](./release-info/whats-new-5-1-3.md)
+        - [Fixed issues](./release-info/fixed-issues-5-1-0-sp3.md)
+        - [Upgrade instructions](./release-info/upgrade-instructions-5-1-0-sp3.md)
+      - 5.1.0 SP1 Release {#510-sp1-release}
+        - [Fixed issues](./release-info/fixed-issues-5-1-0-sp1.md)
+        - [Upgrade instructions](./release-info/upgrade-instructions-5-1-0-sp1.md)
       - 5.1.0 Release {#510-release}
         - [What's new](./release-info/whats-new-5-1-0.md)
         - [Fixed issues](./release-info/fixed-issues-5-1-0.md)
         - [Upgrade instructions](./release-info/upgrade-instructions-5-1-0.md)
+      - 5.0.0 SP3 Release {#500-sp3-release}
+        - [Fixed issues](./release-info/fixed-issues-5-0-0-sp3.md)
+        - [Upgrade instructions](./release-info/upgrade-instructions-5-0-0-sp3.md)  
       - 5.0.0 SP2 Release {#500-sp2-release}
         - [Fixed issues](./release-info/fixed-issues-5-0-0-sp2.md)
         - [Upgrade instructions](./release-info/upgrade-instructions-5-0-0-sp2.md)
@@ -155,6 +178,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Key [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [[!DNL AEM Guides] Home page experience](./user-guide/intro-home-page.md)
+    - [Repository interface](./user-guide/home-page-repository-view.md)
   - Author content {#author-content}
     - [Authoring overview](./user-guide/authoring-content.md)
     - [Ways to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
@@ -168,14 +192,15 @@ breadcrumb-title: AEM Guides Documentation
           - [Preview a topic](./user-guide/web-editor-preview-topics.md)
         - [Know the Editor features](./user-guide/web-editor-features.md)
         - Know the Editor interface and features {#editor-interface-features}
+          - [Overview](./user-guide/intro-editor-interface.md)
           - [Header bar](./user-guide/web-editor-header-bar.md)
           - [Tab bar](./user-guide/web-editor-tab-bar.md)
           - [Toolbar](./user-guide/web-editor-toolbar.md)
           - [Left panel](./user-guide/web-editor-left-panel.md)
           - [Content editing area](./user-guide/web-editor-content-editing-area.md)
           - [Right panel](./user-guide/web-editor-right-panel.md)
-        - [Additional features in the Editor](./user-guide/web-editor-other-features.md)
-        - [Working with the Editor Settings](./user-guide/web-editor-settings.md)
+          - [Search panel](./user-guide/search-panel-explorer.md)
+        - [Additional features in the Editor](./user-guide/web-editor-other-features.md)       
         - [Keyboard shortcuts in the Editor](./user-guide/web-editor-keyboard-shortcuts.md)
         - [Editor views](./user-guide/web-editor-views.md)
         - [Support for Schematron files](./user-guide/support-schematron-file.md)
@@ -268,6 +293,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Manage output generation process](./user-guide/generate-output-manage-process.md)
       - [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
       - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
+      - [FAQ about publishing workflow and scalability](./user-guide/publishing-scalability-faq.md)
     - Bulk activation of content {#bulk-activation}
       - [Bulk Activation of published content](./user-guide/conf-bulk-activation.md)
       - [Create a bulk activation map collection](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -293,6 +319,7 @@ breadcrumb-title: AEM Guides Documentation
   - Manage Learning Content {#learning-training-content}
     - Getting started guide {#get-started}
       - Introduction {#intro-lc}
+        - [Release notes](./release-info-lt/release-notes-lt-2025-12-v2.md)
         - [Overview of the Learning and Training content](./learning-content/intro.md)        
       - Set up your course {#setup-course}
         - [Course overview](./learning-content/course-overview.md)
@@ -301,21 +328,22 @@ breadcrumb-title: AEM Guides Documentation
         - [Understand Course manager basics](./learning-content/course-manager-basics.md)
         - [Manage your course](./learning-content/manage-course.md)
       - Create and customize Learning content {#customize-lc}
-        - [Learning content overview](./learning-content/lc-overview.md)
-        - [Create Learning content](./learning-content/create-content.md)
-        - [Edit Learning content](./learning-content/edit-content.md)
+        - [Overview](./learning-content/lc-overview.md)
+        - [Create Topic](./learning-content/create-content.md)
+        - [Edit Topic](./learning-content/edit-content.md)
         - [Add basic building blocks](./learning-content/lc-basic-blocks.md)
         - [Use interactive widgets](./learning-content/lc-widgets.md)
+        - [Other options in the Insert menu](./learning-content/lc-other-insert-options.md)
         - [Use inline styles](./learning-content/lc-inline-styles.md)
       - Create and manage quiz {#quiz}
         - [Quiz overview](./learning-content/quiz-overview.md)
         - [Create Quiz](./learning-content/create-quiz.md)
         - [Edit Quiz](./learning-content/edit-quiz.md)
         - [Insert questions into a Quiz](./learning-content/quiz-insert-questions.md)
+        - [Quiz properties](./learning-content/quiz-properties.md) 
         - Question bank {#question-bank}
           - [Create Question bank](./learning-content/create-qb.md)
-          - [Insert questions from Question bank](./learning-content/insert-questions.md)
-        - [Quiz properties](./learning-content/quiz-properties.md) 
+          - [Insert questions from Question bank](./learning-content/insert-questions.md)        
       - Publish your course {#publish-course} 
         - [About course publishing](./learning-content/publish-overview.md)
         - [Supported presets](./learning-content/course-presets.md)
@@ -330,7 +358,9 @@ breadcrumb-title: AEM Guides Documentation
     - Configuration guide {#config-lc}
       - [About this guide](./lc-config-guide/introduction.md)
       - [Configure Folder profiles](./lc-config-guide/lc-folder-profile.md)
-      - [Configure other settings](./lc-config-guide/lc-other-settings.md) 
+      - [Best practices to set up folder structure](./lc-config-guide/best-practices-folder-structure.md)
+      - [Configure other settings](./lc-config-guide/lc-other-settings.md)
+      - [SCORM key metrics](./lc-config-guide/learning-course-parameters.md)       
     - Video tutorials {#lc-video}  
       - [Author workflow](./lc-video-tutorials/author-workflow.md)
       - [Administrator workflow](./lc-video-tutorials/admin-workflow.md)
@@ -339,7 +369,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Key concepts, roles and permissions, and pre-requisites](./user-guide/authoring.md)
         - [Upload files](./user-guide/authoring-upload-existing-files.md)
         - [Manage files and folders](./user-guide/authoring-file-management.md)
-        - [Process or reprocess assets](./user-guide/asset-processor.md)
+        - [Process assets](./user-guide/asset-processor.md)
     - Troubleshooting {#troubleshooting}
         - [Session timeout](./user-guide/session-timeout-prompt.md)
 - User Guide (Old UI) {#user-guide-old-ui}
@@ -362,14 +392,13 @@ breadcrumb-title: AEM Guides Documentation
     - Content migration {#content-migration}
       - [Non-UUID to UUID content migration](./install-guide/migrate-uuid-non-uuid.md)
       - Migration process {#migration-process}
-          - [Migrate non-UUID content with versions](./install-guide/migrate-non-uuid-uuid.md)
-          - [Migrate non-UUID content with versions (legacy)](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md) 
+          - [4.3.1 non-UUID to 4.3.2 UUID content migration](./install-guide/migrate-non-uuid-4-3.md)
+          - [4.6.0 non-UUID to 4.6.1 UUID content migration](./install-guide/migrate-non-uuid-uuid-4-6.md) 
       - [Migrate existing content](./install-guide/migrate-content.md)
       - [Upload existing DITA content](./install-guide/migrate-content-upload-existing-dita-content.md)
       - [Migrate non-DITA content](./install-guide/migrate-content-non-dita.md)
     - Work with custom DITA-OT and specialization {#custom-dita-ot-spec}
       - [Use custom DITA-OT and DITA specialization](./install-guide/dita-ot-specialization.md)
-    - Configure UUID and non-UUID based filenames {#conf-non-uuid-filename}
     - [Configure post processing for a folder](./install-guide/conf-folder-post-processing.md)
     - [Configure filenames](./install-guide/conf-file-names.md)
     - [Configure auto-filenames based on UUID](./install-guide/conf-auto-uuid-filenames.md)
@@ -381,6 +410,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure custom DITA map template](./install-guide/conf-template-tags-custom-dita-map-templates.md)
     - Work with document states {#doc-state}
       - [Configure document states](./install-guide/customize-doc-state.md)
+    - Editor settings {#editor-configs}
+      - [Configure Editor settings](./install-guide/editor-settings.md)   
     - Work with the Web Editor configurations {#web-editor-configs}
       - [Customize Web Editor](./install-guide/conf-web-editor.md)
       - [Customize toolbar](./install-guide/conf-web-editor-customize-toolbar.md)
@@ -412,7 +443,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Integrate desktop-based XML editors](./install-guide/integrate-desktop-editors.md)
     - Work with output generation settings {#output-gen-config}
       - [Configure output generation settings](./install-guide/conf-output-generation.md)
-      - [Download and install aem sites templates](./install-guide/download-install-aem-sites-templates.md)
+      - [Download and install AEM Sites templates](./install-guide/download-install-aem-sites-templates.md)
+      - [Component mapping for AEM Sites](./install-guide/component-mapping.md)
       - [Overlay HTML tags in AEM Sites output](./install-guide/overlay-html-tags-aem-sites.md)
       - Native PDF Publishing {#config-native-pdf-publish}
         - [PDF Template](./native-pdf/pdf-template.md)
@@ -430,12 +462,17 @@ breadcrumb-title: AEM Guides Documentation
           - [Apply styles to footnotes](./native-pdf/footnote-number-style.md)
       - [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
       - [Configure Base Output Location for publishing output](./native-pdf/configure-base-output-location.md)
-      - Work with custom workflows {#custom-workflow}
       - [Configure and customize workflows](./install-guide/customize-workflows.md)
     - Work with translation configurations {#translate-config}
       - [Translate content](./install-guide/translation.md)
     - Work with AEM Assets search {#aem-asset-search}
       - [Configure search for AEM Assets UI](./install-guide/conf-dita-search.md)
+    - Work with Asset processing {#asset-processing-on-prem}
+      - [Configure asset processing feature](./install-guide/configure-asset-processing.md) 
+    - Work with B-tree cleanup{#btree-cleanup}
+      - [Configure B-tree cleanup ](./install-guide/configure-btree-clean-up-job.md)
+    - Custom indexing{#custom-indexing}
+      - [Deploying custom index for Find and replace (Source view)](./install-guide/custom-indexing-prem.md)   
     - [Appendix](./install-guide/appendix.md)
   - Cloud Services {#cs-ig}
     - [About this guide](./cs-install-guide/introduction.md)
@@ -468,6 +505,9 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure custom DITA map template](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
     - Work with document states {#doc-state-cs}
       - [Configure document states](./cs-install-guide/customize-doc-state.md)
+      - [Configure document state filters](./cs-install-guide/config-doc-state-filters.md)
+    - Configure Workspace settings {#workspace-configs}
+      - [Workspace settings](./cs-install-guide/workspace-settings.md)  
     - Work with the Web Editor configurations {#web-editor-configs-cs}
       - [Customize Web Editor](./cs-install-guide/conf-web-editor.md)
       - [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
@@ -503,7 +543,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure Workfront](./cs-install-guide/conf-workfront.md)
     - Work with output generation settings {#output-gen-config-cs}
       - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
-      - [Download and install aem sites templates](./cs-install-guide/download-install-aem-sites-templates-cs.md)
+      - [Download and install AEM Sites templates](./cs-install-guide/download-install-aem-sites-templates-cs.md)
+      - [Component mapping for AEM Sites](./cs-install-guide/component-mapping.md)
       - [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       - [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
@@ -515,7 +556,13 @@ breadcrumb-title: AEM Guides Documentation
       - [Translate content](./cs-install-guide/translation.md)
     - Work with AEM Assets search {#aem-asset-search-cs}
       - [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
-    - [Appendix](./cs-install-guide/appendix.md)  
+    - Work with Asset processing {#asset-processing-cloud}
+      - [Configure asset processing feature](./cs-install-guide/configure-asset-processing-cs.md)
+    - Work with B-tree cleanup{#btree-cleanup-cs}
+      - [Configure B-tree cleanup](./cs-install-guide/configure-btree-cleanup-cs.md)   
+    - Custom indexing{#custom-indexing-cs}
+      - [Deploying custom index for Find and replace (Source view)](./cs-install-guide/custom-indexing.md)   
+    - [Appendix](./cs-install-guide/appendix.md)     
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
   - [REST APIs for Output management](./api-reference/output-management.md)
@@ -523,16 +570,13 @@ breadcrumb-title: AEM Guides Documentation
   - [REST API to register a data source connector](./api-reference/data-source-connector.md)
   - [REST API to work with conditional attributes](./api-reference/conditional-attribute.md)
   - [REST APIs for conversion workflow](./api-reference/convert-to-dita.md)
-  - [REST API for creating and activating packages](./api-reference/create-activate-package.md)
-  - [Java-based API to work with output generation](./api-reference/generate-output.md)
-  - [Java-based APIs to work with DITA maps](./api-reference/dita-map-management-java.md)
-  - [Java-based APIs for conversion workflow](./api-reference/convert-to-dita-java.md)
-  - [Java-based APIs to work with baseline and labels](./api-reference/create-baseline-label-java.md)
-  - [Java-based API to work with folder profiles](./api-reference/folder-profile-java.md)
-  - [Java-based API for creating and activating packages](./api-reference/create-activate-package-java.md)
+  - [REST API for creating and activating packages](./api-reference/create-activate-package.md)  
   - [Post-processing event handler](./api-reference/post-process-event.md)
+  - [API to track post processing status for a folder or an asset](./api-reference/track-post-processing-status.md)
+  - [API to start bulk processing for assets](./api-reference/bulk-assets-processing.md)
   - [Bulk activation complete event handler](./api-reference/bulk-activation-complete-event.md)
   - [Conversion process event handler](./api-reference/conversion-complete-event.md)
+  - [Create translation project](./api-reference/translation-project.md)
 - Knowledge Base {#knowledge-base}
   - Expert Session {#expert-session}
     - [Expert Session Overview](./knowledge-base/expert-sessions/expert-session.md)
@@ -617,6 +661,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
       - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
       - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
+      - [Configure Edge Delivery Services (Beta)](./knowledge-base/publishing/configure-eds.md)
       - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)    
     - Workflows {#workflows}
       - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)

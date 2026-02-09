@@ -34,7 +34,7 @@ The latest update introduces enhanced configuration for **Authoring quick action
 
 Once the **AI Assistant** toggle is enabled, Administrators can selectively choose which quick actions are visible under the **Authoring** tab, helping streamline author interactions. These visibility settings are specific to each folder profile.
 
-Learn more about [AI assistant in Editor settings](../user-guide/web-editor-settings.md#general) in Experience Manager Guides.
+Learn more about [AI assistant in Editor settings](../cs-install-guide/workspace-settings.md#general) in Experience Manager Guides.
 
 ![](assets/authoring-quick-actions.png){width="350" align="left"}
 

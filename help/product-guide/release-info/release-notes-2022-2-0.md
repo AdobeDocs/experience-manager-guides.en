@@ -28,10 +28,10 @@ This section lists the compatibility matrix for the software applications suppor
 
 ### Oxygen Connector
 
-| [!DNL AEM Guides] Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | 
+| [!DNL AEM Guides] Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac |
 | --- | --- | --- |
-| 2022.2.0 | 2.4.0 | 2.4.0 | 
-|  |  |  |  
+| 2022.2.0 | 2.4.0 | 2.4.0 |
+|  |  |  |
 
 
 ## New features and enhancements

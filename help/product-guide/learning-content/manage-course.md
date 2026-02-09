@@ -1,5 +1,5 @@
 ---
-title: Manage a course in Learning and Training content
+title: Manage a course in Product Training and Learning
 description: Learn about the various features present in Experience Manager Guides that allow you to manage your course efficiently.
 feature: Authoring
 role: User
@@ -17,13 +17,15 @@ Perform the following steps to add new content in your course:
     
     ![](assets/learning-course-content.png)
 2. Select the type of content you want to create. The available options are:  
-    - **Learning content**: The main material in a course consists of short, focused pieces like steps, examples, or explanations that teach a specific skill or idea. For more details, view [Create and customize Learning content](./create-content.md). 
-    - **Learning summary**: A quick review at the end of a course chapter that reminds learners of the key points they just learned.    
+    - **Overview**: The first topic of your course that provides a quick introduction to what the course covers.
+    - **Topic**: The main material in a course consists of short, focused pieces like steps, examples, or explanations that teach a specific skill or idea. For more details, view [Create and customize Topic](./create-content.md). 
+    - **Summary**: A quick review at the end of a course chapter that reminds learners of the key points they just learned.    
     - **Quiz**: A set of questions used to check how well someone understands what they've learned. For more details, view [Create and manage Quiz](./create-quiz.md). 
     - **Question bank**: A shared pool of reusable questions that can be used to create quizzes quickly and consistently. For more details, view [Question bank](./create-qb.md). 
-    - **Learning group**: A Learning group helps organize related learning content like chapters, topics, and other modules into a logical order, building a clear hierarchy that makes it easier to manage and reuse training materials.     
+    - **Group**: A learning group helps organize related topics like chapters, topics, and other modules into a logical order, building a clear hierarchy that makes it easier to manage and reuse training materials.     
 3. Select **Create**. 
-    The selected content is created and added to the course.  
+
+The selected content is created and added to the course. For a video overview, view [Add new content to a course](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) ![](assets/Smock_VideoCheckedOut_18_N.svg).
 
 ## Add existing content
 
@@ -36,13 +38,22 @@ You can add existing content from your content repository to your course. Perfor
     ![](assets/add-existing-learning-content.png)
 4. Choose **Select**. 
 
- The selected course content is added to the course from the repository.  
+The selected course content is added to the course from the repository.
+
+>[!NOTE]
+>
+>You can also use the **Add Existing** > **File (Resource only zip)** option to include a zip file that gets unzipped and integrated into the folder structure of the final SCORM output. This helps streamline resource packaging during course publishing.
+
+For a video overview, view [Add existing content to a course](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) ![](assets/Smock_VideoCheckedOut_18_N.svg).
 
 ## Remove content 
 
-You can remove any topic from the course by selecting the **Options** menu for that specific topic and then selecting **Remove** as shown below.
+You can remove any topic from the course by selecting the **Options** menu for that specific topic and then selecting **Remove entry** as shown below.
 
 ![](assets/remove-learning-content.png)
+
+For a video overview, view [Remove content from the course](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
+
 
 ## Create course versions 
 
@@ -65,3 +76,17 @@ The **Show** option determines how topics are displayed. You can choose to prese
 > These view settings apply only within the Course manager and have no impact on the published output. 
 
 ![](assets/course-display-settings.png)
+
+For a video overview, view [Show settings](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
+
+## Create review task
+
+As an Author for a learning course or Administrator, you can create a review task for the course and assign it to a Reviewer for feedback. Begin by opening your course in the **Course manager** panel, and then select **Create review task** from the **Options** menu as shown below:
+
+![](assets/create-review-task-lc.png)
+
+You are directed to the **Create Review Task** page, where you need to add task details such as title of the review task, specify the DITA project it is part of, define task timelines, assign reviewers, and more. Once done, the Reviewer(s) will receive a notification for this task. The selected course topics opens in the Review UI where the Reviewer(s) can add comments and send the topics back for updates. 
+
+To understand the review workflow in Experience Manager Guides, view, [Send topics for review](../user-guide/review-send-topics-for-review.md). 
+
+

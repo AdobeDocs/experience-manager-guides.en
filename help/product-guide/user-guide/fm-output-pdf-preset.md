@@ -17,13 +17,13 @@ The following options are available for the PDF Output:
 |-----------|-----------|
 |Output Type|The type of output you want to generate. To generate PDF output, choose the PDF option.|
 |Setting Name|Give a descriptive name for the PDF output settings you are creating. For example, you can specify *Internal customers output* or *end-users output*.|
-|**Job Settings**|
+|**Job Settings**||
 |Options|Choose the PDF preset that you want to use for generating PDF output.|
 |Generate Tagged PDF|Select this option to generate tagged PDFs that will contain information on document's content and structure. This information is used by the on-screen readers.|
 |Generate PDF for Each File in Book|If you are generating output for a book file, select this option to generate a separate PDF for each file in the book.|
 |Generate PDF for review Only|Select this option to generate PDF with commenting feature enabled.|
 |Create Named Destination for all Elements and Paragraphs|Select this option to create named destinations based on elements and paragraphs.|
-|**Display Settings**|
+|**Display Settings**||
 |Open Document on Page|Specify the page number that should be displayed on opening the PDF.|
 |Initial Zoom Level|Choose the document zoom level.|
 |Registration Mark|To print a document with crop marks and registration marks, choose an option from the Registration Marks drop-down list.|

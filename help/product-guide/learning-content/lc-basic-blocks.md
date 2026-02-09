@@ -1,17 +1,23 @@
 ---
-title: Add basic building blocks to your Learning content
-description: Learn about the basic building blocks you can add to your Learning content in the Learning and Training content
+title: Add basic building blocks 
+description: Learn about the basic building blocks you can add to your Topic or learning content in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
 ---
-# Add basic building blocks to your Learning content 
+# Add basic building blocks to your Topic 
 
-You can use the basic editing features available on the Learning content toolbar, as described below:
+To provide a clearer understanding of how to create a Learning Topic and add basic building blocks to it, the following video offers a brief overview of the features available.
 
-- **Widgets**: Add widgets like accordion, carousel, hotspots, and more to your learning content using the **Insert** menu as shown below. For more details on interactive widgets, view [Use interactive widgets](./lc-widgets.md). 
 
-     ![](assets/widgets-learning-content.png){width="650" align="left"}
+>[!VIDEO](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides)
+
+
+You can use the basic editing features available on the Editor toolbar, as described below:
+
+- **Insert options**: Provides options to add [add interactive Widgets](./lc-widgets.md) such as Accordion, Carousel, HotSpot, Tabs, Flip cards, and Click to reveal, as well as [structural elements](./lc-other-insert-options.md) such as Iframe, Block Quotes, Code Block, and more. Use this menu to add functionality and variety to your learning content, making it engaging and well-structured.
+
+    ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
 - **Text components**: Adds heading/titles, paragraph, inline quote, superscript, subscript and citation to your content. 
 
@@ -33,15 +39,33 @@ You can use the basic editing features available on the Learning content toolbar
 
     ![](assets/image-learning-content.png){width="650" align="left"}
 
-- **Multimedia**: Adds video and audio to the content from the **More** menu on the toolbar. You can customize their properties using the **Content Properties** panel.
+- **Multimedia**: Adds video and audio to the content. You can customize their properties using the **Content Properties** panel.
 
     ![](assets/video-learning-content.png){width="650" align="left"}
 
-- **Symbols**: Adds symbols of your choice to the content from a list as shown below. You can use it from the **More** menu on the toolbar.
+- **Reusable content**: Enables you to incorporate existing content from your assets or repository for reusability. Perform the following steps to insert a Reusable content:
+
+    1. Select **Reusable content** from the toolbar.
+        The **Reuse Content** dialog opens.
+    2. Navigate and select the desired topic to include its content in the current course.
+    3. Select the ID of the content you want to add; a preview will be displayed alongside for reference.
+
+        ![](assets/reuse-content-dialog.png){width="650" align="left"}
+
+    4. Choose **Select**. 
+
+    The content gets inserted. For example, the section on Vehicle structure is a content piece that is reused and added to the topic of the course. The type is shown as **Reference**, and its **ID** is reflected in the **Content properties** panel.
+
+    ![](assets/reusable-content.png){width="650" align="left"}
+
+
+- **Symbols**: Adds symbols of your choice to the content from a list as shown below.
 
     ![](assets/symbol-learning-content.png){width="350" align="left"}
 
 
-- **Hyperlinks**: Adds hyperlinks to the required location in your content. You can use it from the **More** menu on the toolbar. It can be a file reference, web URL, or an e-mail link as shown below. 
+- **Hyperlinks**: Adds hyperlinks to the required location in your content. It can be a file reference, web URL, or an e-mail link as shown below. 
 
     ![](assets/hyperlink-learning-content.png){width="650" align="left"}
+
+Additionally, the **Menu** dropdown provides access to the editing actions (Cut, Copy, Delete), Find and replace and Version label.  

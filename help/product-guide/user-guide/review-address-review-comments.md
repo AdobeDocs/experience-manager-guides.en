@@ -7,7 +7,7 @@ role: User
 ---
 # Address review comments {#id2056B0X0KBI}
 
-As an Author, you can address comments in a topic using the Editor. The comments are loaded based on the review task selected in the Review panel. For more details, view the **Review** panel ![](images/active-review-tasklist-icon.svg) feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
+As an Author, you can address comments in a topic using the Editor. The comments are loaded based on the review task selected in the Review panel. For more details, view the **Review** panel ![](images/active-review-tasklist-icon.svg) feature description in the [Left Panel](../user-guide/web-editor-left-panel.md) section.
 
 The following sections describe ways of addressing comments in the Editor.
 
@@ -63,8 +63,9 @@ In the Editor, the right panel contains the Review and Track changes icons. The 
 -   **G**: Search for a text within comments.
 -   **H**: Accept or reject a comment.
 
--   **I**: Apply a filter on the comments. You can filter to view comments on the basis of Review Type \(all, highlighted, deleted, inserted, or sticky note\), Review Status \(all, accepted, rejected, or none\), Reviewers \(all or specific reviewer\(s\)\), or Versions of topic.
+-   **I**: Apply a filter on the comments. You can filter to view comments on the basis of Review Type \(all, highlighted, deleted, inserted, or sticky note\), Review Status \(all, accepted, rejected, or none\), Reviewers \(all or specific reviewer\(s\)\), or Versions of topic. By default, none of the filters are selected. 
 
+    ![](images/review-comments-author-filter.png){width="350" align="left"}
 **Reply to a comment by tagging other users**
 
 As an Author and initiator of the review task, you can reply to review comments and tag other users involved in the same review task to direct their attention or assign follow-ups. This functionality is available only for active review tasks. 
@@ -76,7 +77,7 @@ As an Author and initiator of the review task, you can reply to review comments 
 ![](images/tag-users-review.png){width="350" align="left"}
 *Caption:Tag users as an initiator/Author*
 
-Tagged users receive both an email and an AEM notification, ensuring they’re promptly informed. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md).
+Tagged users receive both an email and an AEM notification, ensuring they're promptly informed. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md).
 
 **Access review comments using the Review UI**
 

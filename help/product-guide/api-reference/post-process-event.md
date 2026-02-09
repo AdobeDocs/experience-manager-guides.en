@@ -16,6 +16,9 @@ Adobe Experience Manager Guides exposes `com/adobe/guides/postprocess/complete` 
 - Create
 - Modify
 
+>[!NOTE]
+>
+> The post processing event is triggered by enabling the `fire.processing.events` flag which is a configuration parameter in the `fmdita config manager`. When set to true, it triggers events (com/adobe/guides/postprocess/complete) to track post-processing completion. By default, it is set to false (disabled).
 
 You need to create an Adobe Experience Manager event handler to read the properties available in this event and do further processing.
 
@@ -33,7 +36,7 @@ com/adobe/guides/postprocess/complete
 |----|----|-----------|
 |`path`|String|The path of the file that triggered this event. Typically, this is the file on which an operation has been performed.|
 |`eventType`|String|The type of event i.e. CREATE or MODIFY.|
-|`status`|String|The return status for the operation performed. The possible options are: - <br>- SUCCESS: The post-processing operation completed successfully. <br>- FAILED: The post-processing operation failed due to some error.|
+|`status`|String|The return status for the operation performed. The possible options are: <br>- SUCCESS: The post-processing operation completed successfully. <br>- FAILED: The post-processing operation failed due to some error.|
 |`errorMsg`|String|The error message in case of post-processing operation failure.|
 |`uuid`|String|The UUID of the file that triggered this event. Typically, this is the file on which an operation has been performed.|
 
@@ -101,6 +104,6 @@ com/adobe/fmdita/postprocess/complete
 |Name|Type|Description|
 |----|----|-----------|
 |`path`|String|The path of the file that triggered this event. Typically, this is the file on which an operation has been performed.|
-|`status`|String|The return status for the operation performed. The possible options are: - <br>- SUCCESS: The post-processing operation completed successfully. <br>- COMPLETED WITH ERRORS: The post-processing operation completed, but with some errors. <br>- FAILED: The post-processing operation failed due to some error.|
+|`status`|String|The return status for the operation performed. The possible options are: <br>- SUCCESS: The post-processing operation completed successfully. <br>- COMPLETED WITH ERRORS: The post-processing operation completed, but with some errors. <br>- FAILED: The post-processing operation failed due to some error.|
 |`message`|String|In case the status is COMPLETED WITH ERRORS or FAILED, this parameter contains the details about the error or the reason of failure.|
 |`operation`|String|The post-processing operation performed on the file. The possible options are:<br>- Addition <br>- Updation <br>- Deletion|

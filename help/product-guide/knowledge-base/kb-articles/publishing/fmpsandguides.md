@@ -80,6 +80,7 @@ You can publish your already created baselines with FMPS2020.0.2 or higher versi
 
 >FMPS2020.0.2 or later versions are compatible with baseline publishing.
 >Make sure that your baseline was properly created; to check, go to the Map Dashboard-- Topics-- Download  Map and choose "Use Baseline".
+
 -   ### Publish Tasks from FMPS takes more time than other Engines
 
 >When publishing from FMPS, the ideal fixed header time is approximately 3-4 minutes; if you believe it is longer, check with your FMPS administrator or contact Adobe Support.

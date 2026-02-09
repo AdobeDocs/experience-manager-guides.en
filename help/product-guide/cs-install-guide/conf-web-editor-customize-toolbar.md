@@ -16,9 +16,8 @@ By default, the Web Editor is shipped with the most common editorial features re
 
 There are two ways of customizing the Web Editor's toolbar:
 
--   Add a new functionality to the toolbar
-
--   Remove any existing functionality from the toolbar
+- Add a new functionality to the toolbar
+- Remove any existing functionality from the toolbar
 
 
 ## Add a feature in the toolbar 
@@ -44,18 +43,18 @@ Perform the following steps to add a feature to the Web Editor's toolbar:
 
     **items**:   Specify the definition of all groups in the toolbar. Each group can contain one or multiple toolbar icons. To define icons within a toolbar group, you need to again define the `type` attribute within the `items`, and set its value to `buttonGroup`. Specify one or more class names in the `extraclass` property. Specify the feature name in the `label` property. The following snippet from the `ui_config.json` file shows the definition for the main toolbar block, followed by the `buttonGroup` definition:
 
-        ```
-        "toolbar": {    
-        "type": "blockGroup",    
-        "extraclass": 
-        "toolbar operations",    
-        "items": [      
-        {        
-            "type": "buttonGroup",        
-            "extraclass": "left-controls",        
-            "label": "Left Controls",        
-            "items": [
-        ```
+    ```
+    "toolbar": {    
+    "type": "blockGroup",    
+    "extraclass": 
+    "toolbar operations",    
+    "items": [      
+    {        
+        "type": "buttonGroup",        
+        "extraclass": "left-controls",        
+        "label": "Left Controls",        
+        "items": [
+    ```
 
     Within the `items` collection, you need to specify the definition for one or more toolbar icons.
 
@@ -71,9 +70,9 @@ Perform the following steps to add a feature to the Web Editor's toolbar:
 
     **on-click**:   Specify the command name defined for the feature in the JavaScript file. If your command requires input parameters, then specify the command name as:
 
-        ```Javascript
-        "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
-        ```
+    ```Javascript
+    "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+    ```
 
     **show or hide**:   If you are defining the `show` property, then specify the modes in which the icon is displayed. Possible values are - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(display in all modes\), or `false` \(hide in all modes\).
 

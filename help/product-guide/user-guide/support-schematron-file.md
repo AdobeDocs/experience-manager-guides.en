@@ -39,10 +39,19 @@ When you open a topic in the Editor, a Schematron Validation panel appears in th
 
 1. Select the Schematron icon (), to open the Schematron panel.
 1. Use **Add Schematron File** to add Schematron files. 
+
+    >[!NOTE]
+    >
+    > When an invalid Schematron file is added, an error message is displayed in the Validation panel.
+
+    ![](images/schematron-panel-error.png){width="300" align="left"}
+
 1. If the Schematron file has no errors, it is added and listed in the Validation panel. An error message is displayed for the Schematron file containing errors.
+
     >[!NOTE]
     >
     >You can use the cross icon near the Schematron file name to remove it.
+
 1. Select **Validate with Schematron** to validate the topic. 
 
     * If the topic breaks no rules, the validation success message is displayed for the file.

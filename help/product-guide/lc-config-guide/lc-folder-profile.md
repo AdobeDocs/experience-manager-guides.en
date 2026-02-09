@@ -8,7 +8,9 @@ exl-id: dc26ae48-c953-492c-823a-5f65157b6902
 ---
 # Configure Folder profiles
 
-A folder profile is required to segregate the configurations for different departments or products in your enterprise. For Learning and Training content, you can create and configure a folder-level profile to manage authoring templates, output templates, output presets, and other folder-level settings.  
+A folder profile is required to segregate the configurations for different departments or products in your enterprise. For Learning and Training content, you can create and configure a folder-level profile to manage authoring templates, output templates, output presets, and other folder-level settings.
+
+Learn about [Best practices for setting up the folder structure](best-practices-folder-structure.md). 
 
 To get started with the folder profile configuration for Learning and Training content, you need to: 
 
@@ -18,8 +20,7 @@ To get started with the folder profile configuration for Learning and Training c
 
     ![](assets/create-new-folder.png){width="350" align="left"}
 2. **Create language folders to manage translation**: If you translate content into different languages, you must create folders corresponding to each language. Each of these language folders will contain the content corresponding to that language. 
-
-    For details, view [Best practices for content translation](../user-guide/translation-first-time.md). 
+   
 3. **Create a folder to manage Assets**: Similar to folders, you can also create different Assets folders to cater to the needs of different departments. This way, you also ensure that Authors and Publishers have access to the correct CSS configured in their templates, images, and other assets.  
 
     ![](assets/configure-assets-folder.png){width="350" align="left"}

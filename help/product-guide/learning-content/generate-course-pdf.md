@@ -1,6 +1,6 @@
 ---
 title: Generate PDF
-description: Learn how to generate PDF output in Learning and Training content.
+description: Learn how to generate PDF output in Product Training and Learning.
 feature: Authoring
 role: User
 exl-id: 364aa6a4-4ef6-4f7d-b207-ee011b79183c

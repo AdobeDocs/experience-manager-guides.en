@@ -1,6 +1,6 @@
 ---
 title: Course manager basics
-description: Understand the basics of Course manager when working with Learning and Training content in Adobe Experience Manager Guides.
+description: Understand the basics of Course manager when working with Product Training and Learning in Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 091cd47e-558b-49d7-ae47-b600fc8fe79d

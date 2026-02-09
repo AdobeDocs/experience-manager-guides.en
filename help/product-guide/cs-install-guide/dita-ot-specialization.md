@@ -58,12 +58,12 @@ Perform the following steps to upload custom DITA-OT plug-in into the AEM reposi
 
     |Property name|Description|
     |-------------|-----------|
-    |**Profile Properties**|
+    |**Profile Properties**||
     |Profile Name|Provide a unique name for this profile.|
     |Reuse Output|*\(Optional\)* If your profile is based on an existing profile, then select this option. Selecting this option ensures that AEM Guides does not extract the contents of DITA-OT package again and reuses the existing DITA-OT package.|
     |Profile Extract Path|*\(Optional\)* Specify the path where DITA-OT is kept on disk. By default, AEM Guides bundles a DITA-OT package in its repository and it is extracted on the disk at this path. <br> **NOTE** You can define this path using any existing system variable or property. See description the [DITA-OT Environment Variables](#id181NH0YN0AX) property for more information. |
     |Assigned Path|\(*Optional*\) Specify the path in your content repository for which this profile is applicable. You can specify multiple locations.|
-    |**DITA-OT Properties**|
+    |**DITA-OT Properties**||
     |DITA-OT Timeout|\(*Optional*\) Specify the time \(in seconds\) for which the AEM Guides waits for a response from the DITA-OT plug-in. If no response if received in the specified time, AEM Guides terminates the publishing task and the task is flagged as failed. Also, the failure logs are made available in the output generation log file. <br> Default value: 300 seconds \(5 minutes\)|
     |DITA-OT PDF Arguments|Specify the command-line arguments that are processed by the custom DITA-OT plug-in for generating the PDF output. For all custom DITA-OT profiles, specify the following command-line argument:`-lib plugins/org.dita.pdf2.fop/lib/` |
     |DITA-OT AEM Arguments|\(*Optional*\) Specify the custom command-line arguments that are processed by the custom DITA-OT plug-in for generating the AEM Site output.|

@@ -1,6 +1,6 @@
 ---
 title: Explore the interface and prerequisites
-description: Explore the interface and prerequisites when working with the Learning and Training content in Adobe Experience Manager Guides.
+description: Explore the interface and prerequisites when working with the Product Training and Learning in Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9

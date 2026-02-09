@@ -9,7 +9,7 @@ If you are using version 4.3.x or later, perform these steps to migrate your non
 
 ## Compatibility matrix
 
-|Current AEM Guides version (non-UUID)|Required Version to migrate to UUID| Supported Upgrade path| 
+|Current AEM Guides version (non-UUID)|Required Version to migrate to UUID| Supported Upgrade path|
 |---|---|---|
 |4.3.x or Higher|   4.3.0 non-UUID |Install 4.3.1 (UUID) |
 

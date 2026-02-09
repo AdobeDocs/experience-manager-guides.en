@@ -50,16 +50,16 @@ The **Add Citation** dialog box opens.
     | --- | ---|---|
     |**Source** <br> From the drop-down, select the source of the citation as a Book.| **Source**<br>From the drop-down, select the source of the citation as a Website.| **Source** <br> From the drop-down, select the source of the citation as a Journal.|
     |**Search by** <br> Select **ISBN** or **DOI** from the drop-down to search for the digital ID linked to the citation.  <br> DOI: Digital Object Identifier <br> ISBN: Unique Numeric Book Identifier | **Search by** <br> Select **DOI** from the drop-down to search for the digital ID linked to the citation.  | **Search by** <br> Select **DOI** or PubMed ID from the drop-down to search for the digital ID linked to the citation. <br>  <br> |
-    |**Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg) to add more names. | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg)  to add more names. | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg)to add more names. | 
-    |**Title** <br> Add the title of the book. | **Title** <br> Add the title of the web page.| **Title** <br> Add the title of the article.| 
-    |**Editor** <br> Add the editor of the book. | **Website Name** <br> Add the name of the website. | **Journal Title** <br> Add the title of the work in which the article is found.| 
+    |**Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg) to add more names. | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg)  to add more names. | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg)to add more names. |
+    |**Title** <br> Add the title of the book. | **Title** <br> Add the title of the web page.| **Title** <br> Add the title of the article.|
+    |**Editor** <br> Add the editor of the book. | **Website Name** <br> Add the name of the website. | **Journal Title** <br> Add the title of the work in which the article is found.|
     |**Edition** <br> Add the edition of the book.| **URL** <br> Add the web link of the website to browse the content.| **Year** <br> Add the year in which the article is published. |
     |**City** <br> Add the city of the publication.| **Accessed Date**<br> Add the date on which the content of the website is accessed. | **Volume** <br> Add the volume of the work in the series. |
     |**Publisher** <br> Add the name of the publisher of the book. | **Published Date** <br> Add the date on which the content of the website is published.|**Number** <br> Add the number of the volume within the series. |
     | **Year** <br> Add the year in which the book is published.|**Updated Date** <br> Add the date on which the content of the website is updated.| **Pages** <br> Add the page number or page range in which the article is found. |
     | **Version** <br> Add the version of the book.| **Unique ID** <br> Add a unique ID for the citation. A Unique ID is a unique identifier for that citation.| **URL** <br>Add the web link to the journal. |
     |**Series** <br>Add the series of the book. || **Unique ID** <br> Add a unique ID for the citation.A Unique ID is a unique identifier for that citation.|
-    | **URL**  <br>  Add the web link to the book.| 
+    | **URL**  <br>  Add the web link to the book.|
     | **Unique ID** <br> Add a unique ID for the citation. A Unique ID is a unique identifier for that citation.|
 
  

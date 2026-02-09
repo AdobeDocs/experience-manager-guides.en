@@ -31,7 +31,7 @@ You can create map and topic templates in the following ways:
 
 ### Create customized templates from the Editor
 
-The **Templates** feature is present in the [Left panel of the Editor](./web-editor-features.md#left-panel) interface, and is only available for administrators. Using this panel, administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *map* and *topic* type templates.
+The **Templates** feature is present in the [Left panel of the Editor](./web-editor-left-panel.md) interface, and is only available for administrators. Using this panel, administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *map* and *topic* type templates.
 
 ![](images/templates-panel_cs.png){width="300" align="left"}
 

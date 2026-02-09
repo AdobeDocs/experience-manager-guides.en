@@ -47,27 +47,27 @@ The following table lists various tasks and the groups that can perform those ta
 |Copy|Yes| |Yes|
 |Delete|Yes| |Yes|
 |Share|Yes| |Yes|
-|**Document state**|
+|**Document state**||||
 |Create/edit document state profile| | |Yes|
 |Change document state[2](#fntarg_2)|Yes|Yes|Yes|
-|**Features available in DITA map console \(Output Presets tab\)**|
+|**Features available in DITA map console \(Output Presets tab\)**||||
 |Generate| | |Yes|
 |Edit| | |Yes|
 |Duplicate| | |Yes|
 |Create| | |Yes|
 |Delete Preset| | |Yes|
-|**Features available in DITA map console \(Outputs tab\)**|
+|**Features available in DITA map console \(Outputs tab\)**||||
 |View generated output|Yes| |Yes|
-|**Features available in DITA map console \(Topics tab\)**|
+|**Features available in DITA map console \(Topics tab\)**||||
 |Create Review Task|Yes| |Yes|
 |Edit|Yes| |Yes|
-|**Features available in DITA map console \(Baselines tab\)**|
+|**Features available in DITA map console \(Baselines tab\)**||||
 |Create| | |Yes|
 |Edit| | |Yes|
 |Duplicate| | |Yes|
 |Remove| | |Yes|
 |DITA map console \(Reports tab\)|Yes| |Yes|
-|**Features available in DITA map console \(Condition Presets\)**|
+|**Features available in DITA map console \(Condition Presets\)**||||
 |Create/edit condition preset| | |Yes|
 
 ## Additional notes on user groups 

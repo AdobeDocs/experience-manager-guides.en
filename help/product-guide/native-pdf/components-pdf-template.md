@@ -107,7 +107,7 @@ To create a stylesheet, follow the below steps:
 By default, the CSS files provided with the template contain styles for heading, paragraph, character, hyperlink, image, table, div, page, and other styles. You can override the default styling format or create a new style. 
 
 
-You can create a new style to use it in the page layout of the template or apply a custom style for any DITA element. To apply these custom styles to the DITA element, you must ensure that the style’s class name is the same as the DITA element’s name or the `outputclass` attribute.  For example, `<div>` in DITA is governed by the `.div {}` in CSS or its `outputclass` attribute. If you apply `<div outputclass="my-div">` in DITA, it's governed by the `.div {}` or `.my-div {}` in the CSS. 
+You can create a new style to use it in the page layout of the template or apply a custom style for any DITA element. To apply these custom styles to the DITA element, you must ensure that the style's class name is the same as the DITA element's name or the `outputclass` attribute.  For example, `<div>` in DITA is governed by the `.div {}` in CSS or its `outputclass` attribute. If you apply `<div outputclass="my-div">` in DITA, it's governed by the `.div {}` or `.my-div {}` in the CSS. 
 
 
 
@@ -121,7 +121,7 @@ To create a new style, follow the below steps:
    
      <img src="assets/add-style.png" alt="Add new style" width="500"/>
       
-1. Specify a **Class** name. To apply a style to the DITA element, ensure that the style’s class name is the same as the DITA element’s name or the `outputclass` attribute.
+1. Specify a **Class** name. To apply a style to the DITA element, ensure that the style's class name is the same as the DITA element's name or the `outputclass` attribute.
 1. In the **Tag** field (optional), choose a tag for which you want to create a new style.
    
     
@@ -192,7 +192,7 @@ The selected file is imported and listed under the Resources folder.
 Use the Settings section to configure the advanced settings for PDF's page layout, starting PDF from odd or even page, formats for the cross-references, and enabling printing marks in the final PDF that's generated
 using the template.
 
->![NOTE]
+>[!NOTE]
 >
 > Starting with Experience Manager Guides 5.0/2025.02.0 release, the **Print** section in Advanced PDF settings has been moved to the **Output presets** panel. To configure Print settings, view [Publish PDF output](../web-editor/native-pdf-web-editor.md#print).
 
@@ -230,7 +230,7 @@ Set the basic configuration settings for starting a chapter from odd or even pag
     >If you are a CSS developer, then you can define the leader format directly in the CSS file as well. 
     
 * **Use table continuation marker**: Select this option to define markers for long tables that spread across multiple pages. 
-You can define the text to appear before and after the break. For example, a table breaks on page 5, and you define `<Continued on page %page-num%>` for **Text Before Break**.  The text displays “Continued on page 6” at the bottom of page 5. 
+You can define the text to appear before and after the break. For example, a table breaks on page 5, and you define `<Continued on page %page-num%>` for **Text Before Break**.  The text displays "Continued on page 6" at the bottom of page 5. 
 
    Use language variables to define the continuation marker text before and after the break. Depending on your chosen language, the localized value is automatically picked in the PDF output. For example, you can publish `Continued on page %page-num%` as a text in English and `Fortsetzung auf Seite %page-num%` in German. 
 
@@ -241,7 +241,7 @@ You can define the text to appear before and after the break. For example, a tab
    * Enable **Glossary** in the **Page Layout Order** tab for a DITA map. 
    * Add the Glossary in the Back Matter Pages for a Book map.
 
-   If you don’t enable the Glossary page, the Glossary terms in the content are not converted to hyperlinks in the PDF output.
+   If you don't enable the Glossary page, the Glossary terms in the content are not converted to hyperlinks in the PDF output.
 <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Page Layouts {#page-layouts}
@@ -404,7 +404,7 @@ Use the **Cross-reference** tab to define how the cross-references are published
 
 You can also use variables to define a cross-reference.  When you use a variable, its value is picked from the properties. You can use a single or a combination of variables to define a cross-reference. You can also use a combination of a string and a variable. 
 
-For example, you can use `View details on {chapter}`. If the Chapter name is “General settings,” the cross-reference in the output is “See details on General settings.” 
+For example, you can use `View details on {chapter}`. If the Chapter name is "General settings," the cross-reference in the output is "See details on General settings." 
 
 AEM Guides provides the following out-of-the-box variables:
 
@@ -414,8 +414,8 @@ AEM Guides provides the following out-of-the-box variables:
 * {chapter}: Adds a cross-reference to the chapter numbers. For example, See on Chapter 1.
 * {bookmarkText}: Creates a cross-reference to the bookmarked text. For example, See stop_words on page 5.
 * {captionText}: Creates a cross-reference to caption of the figure or table in your topic. For example,  See Airflow on Page 2.
-* {figure}: Adds a cross-reference to the figure number. Picks the figure number from the auto number styles that you’ve defined for figcaption.  For example, you can use "See {figure} on page {page}". The cross-reference in the output contains the auto-generated figure number and its page number, “See Figure 1 on page 5”.
-* {table}: Adds a cross-reference to the table number. Picks the table number from the auto number styles you’ve defined for caption. For example, you can use "See {table} on page {page}". The cross-reference in the output contains the auto-generated table number and its page number, “See Table 1 on page 5”.
+* {figure}: Adds a cross-reference to the figure number. Picks the figure number from the auto number styles that you've defined for figcaption.  For example, you can use "See {figure} on page {page}". The cross-reference in the output contains the auto-generated figure number and its page number, "See Figure 1 on page 5".
+* {table}: Adds a cross-reference to the table number. Picks the table number from the auto number styles you've defined for caption. For example, you can use "See {table} on page {page}". The cross-reference in the output contains the auto-generated table number and its page number, "See Table 1 on page 5".
    
    
 
@@ -444,14 +444,14 @@ The order of precedence for cross-references is:
 
    You can also use language variables to define localized cross-references. Depending on your chosen language, the localized value is automatically picked in the PDF output.  
 
-   For example, you can add a language variable “reference-label” and define the values in English and German. 
+   For example, you can add a language variable "reference-label" and define the values in English and German. 
 
-* English - “View on page {page}”  
-* German - “Einzelheiten finden Sie auf der Seite {page}”  
+* English - "View on page {page}"  
+* German - "Einzelheiten finden Sie auf der Seite {page}"  
 
  
 When you add `${lng:<variable name>}` to the Paragraph section, the cross-references in the paragraphs of the output contain the localized text and the page number.  
-For example, the following screenshots show the cross-references “View on page 1 ” in English and “Einzelheiten finden Sie auf der Seite 1” in German. 
+For example, the following screenshots show the cross-references "View on page 1 " in English and "Einzelheiten finden Sie auf der Seite 1" in German. 
 
 <img src="./assets/english-output-corss-reference.png" alt="English output of a cross-reference in a pragrah" width ="800" border="2px">
 

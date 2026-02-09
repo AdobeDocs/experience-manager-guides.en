@@ -78,7 +78,15 @@ Before performing steps in this procedure, ensure that you have created the requ
     -   **File Name**: Name of the source file
     -   **File Type**: Type of the source file. The available options are Map, Topic, and Image.
     -   **Reference Type**: Direct or Indirect references
-    -   **Version**: Version number of the source file
+    -   **Version**: Version number of the source file. 
+    
+        If a file has saved changes that are not yet versioned (i.e., not saved as a new version in your map), an info icon appears next to the file, indicating the presence of unversioned changes.
+
+        ![](images/unversioned-changes-translation.png){width="650" align="left"}
+
+        >![NOTE]
+        >
+        > To view only files with unversioned changes, enable the **Show assets with unversioned changes only** setting in the Filters panel. Additionally, the unversioned indicator is visible only when translating files based on their latest versions.   
     -   **Version Label**: Label for the selected version of the source file
     -   **Target Version**: Version number of the target file
     -   **Document State**: State of the source file. The available options are Draft, In-Review, and Reviewed.
@@ -151,7 +159,7 @@ For details on setting up global and folder-level profiles, view *Configure auth
 
 Experience Manager Guides allows you to pass the label of the source file to the target file. This will help you easily identify the source version for the translated file.
 
-To add the source version label in the target copy, your system administrator must enable the **Propagate source version labels to the target version** option under the **Translation** tab in **Settings**.
+To add the source version label in the target copy, your system administrator must enable the **Propagate source version labels to the target version** option under the **Translation** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
 
 For example, if you have some source files with the version label `Release 1.0` applied to them, then you can also pass on the source label \(`Release 1.0`\) to the translated file.
 
@@ -213,7 +221,7 @@ Select the name of the reference in the dialog to open it in preview mode. You c
 > 
 >This feature is available for the new translation projects you create using Experience Manager Guides 2404 release or later.  It will not impact any existing projects.
 
-Your administrator can configure the **Translation project cleanup after completion** option under the **Translation** tab in **Editor Settings** to disable or delete the translation projects automatically. 
+Your administrator can configure the **Translation project cleanup after completion** option under the **Translation** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**) to disable or delete the translation projects automatically. 
 
 For effecting document management, Experience Manager Guides provides the ability to delete the translation projects after you have completed the translation. 
 

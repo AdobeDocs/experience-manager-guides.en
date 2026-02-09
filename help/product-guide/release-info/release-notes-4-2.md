@@ -44,17 +44,17 @@ For more details, see the *Technical requirements* section in the Install and co
 | --- | --- | --- | --- | --- |
 |4.2 (Non-UUID)| 2022 or higher |2020.2 or higher* | 2022 or higher | 2020.3 or higher |
 | 4.2 (UUID) | 2022 or higher | 2020.2 or higher*  | 2022 or higher | 2020.4 or higher |
-| | | | |
+| | | | | |
 
 *Baseline and conditions created in AEM are supported in FMPS releases starting from 2020.2.
 
 ### Oxygen Connector
 
-| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |  
+| Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |
 | --- | --- | --- |--- |--- |
 | 4.2 (Non-UUID)|  2.1-regular-4 | 2.1-regular-4 |  1.6 | 1.6  |
 | 4.2 (UUID) | 2.8-uuid-8 | 2.8-uuid-8  |2.3 | 2.3  |
-|  |  |   |  
+|  |  |   |||
 
 ## Fixed issues
 
@@ -91,7 +91,7 @@ The bugs fixed in various areas are listed below:
 * mimeType is hardcoded for DITA assets creation and update. (8979)
 * A normal hyphen is inserted on selecting Non-breaking Hyphen in the **Insert Special Character** dialog. (8919) 
 * Version creator name in Version History is "fmdita-serviceuser" for the files uploaded via Assets UI. (8910)
- * Edit option does not work for images while working in the Column view of Assets UI. (8758)
+* Edit option does not work for images while working in the Column view of Assets UI. (8758)
 * DITA topic is not auto updated with changes done on **Properties** page. (8745)
 * While moving elements within the topic in Web Editor, the assigned IDs on elements get overwritten by auto-assigned IDs. (7895)
 

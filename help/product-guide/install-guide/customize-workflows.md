@@ -152,7 +152,7 @@ AEM Guides contains a set of email and AEM notifications that you can customize.
 
     |Review sub-folders|Description|
     |-----------------|-----------|
-    |`aem-notification`|Contains different AEM notification types available for customization. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Within these sub-folders, `primary.vm` and `secondary.vm` files are located that allow you to customize the AEM notification title and description, respectively.| 
+    |`aem-notification`|Contains different AEM notification types available for customization. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Within these sub-folders, `primary.vm` and `secondary.vm` files are located that allow you to customize the AEM notification title and description, respectively.|
     |`CSS`|Contains the `email-notification.css` file for customizing the styling of email notifications.|
     |`email-notification`|Contains different email notification types available for customization. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Within these sub-folders, `primary.vm` and `secondary.vm` files are located that allow you to customize the email notification subject and body, respectively.|
 
@@ -173,15 +173,15 @@ While customizing an email or AEM notification, ensure that you only use the fol
 |-------------------------|---------------------------------------------------------------|---------------|
 | `projectPath`           | Path to the project containing the review task                | String        |
 | `reviewTitle`           | Title of the review task                                      | String        |
-| `projectName`           | Name of the project                                           | String        | 
-| `commentator`           | Name of the user who added a comment                         | String        | 
-| `commentExcerpt`        | Snippet of the comment added                                 | String        | 
-| `taskLink`              | Direct link to the review task                               | URL           | 
-| `authorName`            | Name of the author who created or updated the review task    | String        | 
-| `dueDate`               | Due date of the review task                                  | Date          | 
-| `reviewerName`          | Name of the reviewer assigned to the task                    | String        | 
-| `user`                  | User involved in the review task, such as Author, Reviewer, or even Administrator. | String        | 
-| `recipient`             | Specific user receiving the notification                     | String        | 
+| `projectName`           | Name of the project                                           | String        |
+| `commentator`           | Name of the user who added a comment                         | String        |
+| `commentExcerpt`        | Snippet of the comment added                                 | String        |
+| `taskLink`              | Direct link to the review task                               | URL           |
+| `authorName`            | Name of the author who created or updated the review task    | String        |
+| `dueDate`               | Due date of the review task                                  | Date          |
+| `reviewerName`          | Name of the reviewer assigned to the task                    | String        |
+| `user`                  | User involved in the review task, such as Author, Reviewer, or even Administrator. | String        |
+| `recipient`             | Specific user receiving the notification                     | String        |
                                              
 
 ## Customize post-output generation workflow {#id17A6GI004Y4}

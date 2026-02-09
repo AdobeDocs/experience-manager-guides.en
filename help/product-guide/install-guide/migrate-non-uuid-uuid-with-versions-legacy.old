@@ -21,7 +21,7 @@ Perform these steps to migrate your non-UUID versioned content to UUID content.
 
 ## Compatibility matrix
 
-|Current Experience Manager Guides version (non-UUID)|Required Version to migrate to UUID| Supported Upgrade path| 
+|Current Experience Manager Guides version (non-UUID)|Required Version to migrate to UUID| Supported Upgrade path|
 |---|---|---|
 | 3.8.5, 4.0.x, or 4.1.x  |  4.1 non-UUID|Install 4.1 (UUID) and run the migration|
 |4.2, 4.2.x, or 4.3|   4.3.0 non-UUID |Install 4.3.1 (UUID) and run the migration|

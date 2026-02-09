@@ -23,7 +23,7 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/fmdita/folderprofiles
 |----|----|--------|-----------|
 |`:operation`|String|Yes|Name of the operation being called. The value of this parameter is ``ADDATTRIBUTEPROFILES``. <br> **Note:** The value is case-insensitive.|
 |`profilename`|String|Yes|Display name of the folder-level profile in which the conditional attributes have to be added.|
-|`conditionalprofiles`|JSON array|Yes|A JSON array consisting of the conditional attribute name and values. The following example code snippet shows the JSON array with two attributes - `platform` and `product` with multiple values assigned to them.| 
+|`conditionalprofiles`|JSON array|Yes|A JSON array consisting of the conditional attribute name and values. The following example code snippet shows the JSON array with two attributes - `platform` and `product` with multiple values assigned to them.|
 
 ```JSON
 [  {    name: "platform",    

@@ -21,7 +21,12 @@ The Map console interface is primarily divided into two sections - **Navigation 
 
     - **Navigation switcher**: Allows seamless navigation to other pages - Editor or Home page: 
     - **Selected map file**: Displays the name of the currently selected map file. You can open it in the Editor or choose a different map file for the Map console.
-    - **More actions**: Provides options to navigate to the **Assets UI** and **Settings**. For details, refer to the **More actions** section of the [Know the Editor features](./web-editor-features.md#tab-bar) document.
+    - **More actions**: Provides options to navigate to the **Assets UI** and **Workspace settings**. For details, view the [Tab bar](./web-editor-tab-bar.md).
+
+    >[!NOTE]
+    >
+    > If using the Adobe Experience Manager Guides in an On-Premise setup , the Workspace settings option continues to appear as **Settings** under the More actions menu.
+
     - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
 
     >[!NOTE]

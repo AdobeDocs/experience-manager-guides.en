@@ -1,6 +1,6 @@
 ---
 title: Create PDF preset
-description: Create a PDF preset in the Learning and Training content
+description: Create a PDF preset in the Product Training and Learning
 feature: Authoring
 role: User
 exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3

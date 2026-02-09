@@ -24,9 +24,9 @@ This section points the compatibility matrix for the software applications suppo
 
 ### Oxygen Connector
 
-| Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac | 
+| Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2025.08.0| 3.8 -uuid 1|   3.8 -uuid 1 | 2.3 | 2.3 | 
+| 2025.08.0| 3.8 -uuid 1|   3.8 -uuid 1 | 2.3 | 2.3 |
 
 
 ### Knowledge base template version

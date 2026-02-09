@@ -9,7 +9,7 @@ exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
 
 The Home page is the first screen that you view when logging into Experience Manager Guides. It provides you with a unified and intuitive welcome screen experience, which includes a quick view of the files that you recently accessed, collections, and more.
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page-new.png){align="left"}
 
 The Experience Manager Guides Home page is divided into the following sections: 
 
@@ -43,14 +43,30 @@ Features available in the navigation bar are explained as follows:
 
   The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.  
 - **Customize overview section**: Allows you to hide or show the widgets in the Widgets section. 
-- **Folder profile in use**: Displays the folder profile that is currently being used.  
+- **Folder profile in use**: Displays the folder profile that is currently being used.
+- **More actions**: Provides access to additional options. Selecting this button opens a menu with the following options:
+
+  - **Assets**: Takes you to a destination based on your setup.
+    - **Cloud Services**: If you are using Cloud Services, selecting the **Assets** option takes you to the AEM Navigation page.
+
+    - **On-premise Software**: If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the **Assets** option takes you to your current file path in the Assets UI.
+  - **Workspace settings**: Takes you to the **Workspace settings** dialog. For details, view [Configure Workspace settings](../cs-install-guide/workspace-settings.md).  
+
+    >[!NOTE]
+    >
+    > On the Home page, the option of Workspace settings is available only for Cloud Services setup. In an On-Premise setup, the More actions option is unavailable on the Home page. However, you can still access the relevant settings through the Editor interface and the Map console, by navigating to More options > Settings.
+  
 - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
 
 ## Left panel 
 
-The left panel gives you quick access to Overview, Map collections, Bulk publish, Publish queue, and User preferences features. You can expand the panel by selecting the **Expand** icon placed at the bottom-left corner of the interface. Once expanded, use the **Collapse** icon to collapse the panel.
+>[!NOTE]
+>
+> Repository is available in the Left panel only for Cloud service setup from 2025.11.0 release onwards. For On-Premise setup, Repository continues to be accessed from the Editor interface.
 
-![](images/aem-home-left-panel.png){width="300" align="left"}
+The Left panel gives you quick access to Overview, Repository, Map collections, Bulk publish, Publish queue, and User preferences features. You can expand the panel by selecting the **Expand** icon placed at the bottom-left corner of the interface. Once expanded, use the **Collapse** icon to collapse the panel.
+
+![](images/home-with-repository.png){width="300" align="left"}
 
 What you view on this panel depends on your user role. The following table lists the roles and the respective sections that are displayed in the left panel.
 
@@ -62,6 +78,7 @@ What you view on this panel depends on your user role. The following table lists
 Features available in the left panel are explained as follows: 
 
 - [Overview](#overview)
+- [Repository](#repository)
 - [Map Collections](#map-collections) 
 - [Bulk Publish](#bulk-publish)
 - [Publish Queue](#publish-queue)
@@ -133,6 +150,10 @@ The following widgets are present in the Widgets section:
 >
 > In addition, if your administrator has configured Adobe Workfront integration in the system, then **Your tasks** widget is also shown in the Widgets section. Learn more about [Adobe Workfront integration](./workfront-integration.md#working-with-the-your-tasks-widget) in Experience Manager Guides.
 
+### Repository
+
+The Repository serves as a centralized hub for discovering folders and files with ease. It provides a comprehensive tabular list view of all the files and folders, along with their contextual details. Through this unified interface, you can seamlessly browse files and perform search with robust filtering options, ensuring efficiency and an enhanced experience. Learn more about [Repository](./home-page-repository-view.md).
+
 ### Map collections 
 
 Experience Manager Guides provides you with the ability to organize your content for publishing by using a dashboard called **Map collections**. To use this feature, select **Map collections** from the left panel. It takes you to the Map collections page in the **Assets UI** where you can [use map collection for output generation.](./generate-output-use-map-collection-output-generation.md)  
@@ -163,7 +184,7 @@ The User preferences are available to all authors. Using the preferences, you ca
 
 - **Appearance**: The Appearance tab provides you with the options to select the themes for the application and the source view of the content editing area. Use this tab to configure the following settings:
 
-  ![](images/user_preference_editor_appearance-new.png){align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
  
     - **Application theme and Source view**: You can choose from the Light or Dark themes for the application and source view. In the case of the Light theme, the toolbars and panels use a light grey color background. In the case of the Dark theme, the toolbars and panels use a black color background. Select **Use device** theme to allow Experience Manager Guides to select the light and dark themes based on the theme of your device. 
     
@@ -171,4 +192,8 @@ The User preferences are available to all authors. Using the preferences, you ca
 
     - **Editor files display configuration**: Select the default way to view the files in the Editor. You can view the list of files by the titles or the file names from the various panels in the Author view. By default, the files are displayed by title in the Editor.
     
-    - **Always locate files in the repository**: Select this option to show the location of a file in the repository while editing it in the Editor.
+    - **Always locate files in the explorer**: Select this option to show the location of a file in the repository while editing it in the Editor.
+
+  >[!NOTE]
+  >
+  >From 2025.11.0 release, the setting **Always locate files in the repository** is renamed to **Always locate files in the explorer**. For On-Premise setup, it continues to be available as Always locate files in the repository till 5.1 release of Experience Manager Guides.

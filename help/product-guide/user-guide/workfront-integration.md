@@ -82,7 +82,7 @@ Perform the following steps to create a new Adobe Workfront task:
 
      The **Select path** dialog is displayed. Select a path to the required asset. You can add multiple assets by selecting the valid paths in the path browser. Your selected paths will be retained, allowing you to easily review or modify them when you reopen the dialog.
          
-    * For authoring, publishing, and translation tasks, you are prompted to select the location of the required file in the **Select path** dialog box. The selected file (a topic for authoring and map for publishing and translation) is added to the task as soon as the **Create** button is selected.
+    * For authoring, publishing, and translation tasks, you are prompted to select the location of the required file in the **Select file** dialog. The selected file (a topic for authoring and map for publishing and translation) is added to the task as soon as the **Create** button is selected.
 
         ![](./images/attach-asset.png){align="left"}
     
@@ -309,7 +309,7 @@ Perform the following steps to work upon a publishing task:
 3. Review task details and the file added for publishing.
 
    ![](./images/publishing-tasks-review-details.png){align="left"}
-4. Navigate to the **Output presets** and perform the publishing actions required to publish the task. For more details, view [Understanding the output presets](../user-guide/generate-output-understand-presets.md/). 
+4. Navigate to the **Output presets** and perform the publishing actions required to publish the task. For more details, view [Understanding the output presets](../user-guide/generate-output-understand-presets.md). 
 5. Once publishing is complete, navigate to the **Workfront** section and select **Mark as done** to indicate that the task is complete.  
 6. Switch to the **Comments** tab to add a comment to this task. These comments, added at task level, will reflect on the Workfront's project dashboard. 
 

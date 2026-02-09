@@ -68,8 +68,11 @@ Experience Manager Guides provides the working copy indicator which shows whethe
 
 Experience Manager Guides also indicates if the last saved \(working\) copy of the file is in sync with the saved version or not. If you have some unsaved changes between the working copy and the last saved version, a \* mark appears along with the version information shown in the right top corner of the topic's file tab. This indicator acts as a reminder to save and create a version from your current \(working\) copy of the file.
 
-![Version update indicator](images/version-update-indicator.png){width="550" align="left"}
+>[!NOTE]
+>
+> Any changes to the metadata fields available under [File properties](./web-editor-right-panel.md#file-properties) will also trigger the working copy indicator on the document version. 
 
+![Version update indicator](images/version-update-indicator.png){width="550" align="left"}
 
 ## Access locked files in Author and Source modes
 
@@ -101,11 +104,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
-## Locate an open file in the Repository view
+## Locate an open file in the Explorer
 
-While you open a file in the Editor, Experience Manager Guides provides the feature to locate the file in the Repository view. For example, it locates the current topic while you are editing it. 
+While you open a file in the Editor, Experience Manager Guides provides the feature to locate the file in the Explorer. For example, it locates the current topic while you are editing it. 
    
-You can turn off the feature to locate the file with the **Always locate files in repository** option from the **Appearance** tab of the **User preferences**. 
+You can turn off the feature to locate the file with the **Always locate files in the Explorer** option from the **Appearance** tab of the **User preferences**. 
 
+>[!NOTE]
+>
+>From 2025.11.0 release, the setting **Always locate files in the repository** is renamed to **Always locate files in the explorer**. For On-Premise setup, it continues to be available as Always locate files in the repository till 5.1 release of Experience Manager Guides.
 
 **Parent topic:**[Work with the Editor](web-editor.md)

@@ -7,7 +7,7 @@ role: User
 ---
 # Map Editor features {#id1942D0S0IHS}
 
-The toolbar in the Map Editor is similar to the topic Editor. The basic operations like toggling the left panel, saving map, creating a new version of map, undo/redo last operation, and delete the selected elements are common in both editors. For detail about how these operations work, view [Know the Editor features](web-editor-features.md#) section.
+The toolbar in the Map Editor is similar to the topic Editor. The basic operations like toggling the left panel, saving map, creating a new version of map, undo/redo last operation, and delete the selected elements are common in both editors. For detail about how these operations work, view [Toolbar in the Editor](web-editor-toolbar.md#) section.
 
 The options that you view in the editor toolbar are based on the Map Editor view. There are four views that are available in the Map Editor:
 
@@ -30,7 +30,7 @@ The following options are available on the toolbar in the Layout view:
 
 **Topic reference** - ![](images/topic-reference.svg)
 
-Displays the topic search dialog. Navigate to the topic/map file that you want to insert and choose **Select** to add it to the map. 
+Displays the Select file dialog. Navigate to the topic/map file that you want to insert and choose **Select** to add it to the map. 
 
 ![](images/insert-topic-reference-dialog.png){align="left"}
 
@@ -254,15 +254,31 @@ In addition to be able to view the position of each topic file within a map, it 
 
 You can perform the following additional tasks in the preview mode:
 
+**Open topics for editing**
+
 -   Right-click on a topic, and select **Edit** to open the topic for editing in a new tab.
 
     >[!NOTE]
     >
     > If you don't have editing rights, then the topic will open in read-only mode.
 
+    ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+
 -   Jump to the desired topic by selecting the topic title in the map tree \(in left panel\).
 
 -   The current topic in map preview is also highlighted in the map tree.
+
+**Refresh topics or map**
+
+When a map is opened in Preview mode and you switch back to it from another tab in the Editor, the preview does not refresh automatically. To reload the map preview, a manual refresh is required. 
+
+You can use the Refresh functionality, available in the Preview mode of the map, in two ways:
+
+- **Map-level refresh**: Selecting the **Refresh** button refreshes the preview of the entire map (including all topics), and takes you to the first scroll position for a clear view. 
+    ![](images/refresh-map.png){width="650" align="left"}
+
+- **Topic-level refresh**: Selecting **Refresh topic** from the context menu refreshes that specific topic while keeping the scroll position unchanged.
+    ![](images/refresh-topic.png){width="650" align="left"}
 
 **Other ways to preview a map file**
 
@@ -337,12 +353,12 @@ The right panel displays the Content Properties and the Map Properties in the La
 
 The Content properties panel contains information about the type of currently selected topic in the map, its link URL, and its attributes. For more details, view [Content Properties](web-editor-features.md#right-panel) in the Editor.
 
--   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under the **Display attributes** tab in the editor settings. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the `audience` attribute are defined as `US`.
+-   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under **Display attributes**. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the `audience` attribute are defined as `US`.
 
     ![layout view](images/layout-inline-attributes.png){width="650" align="left"}
 
    
-    For more details, view the *Display attributes* within the *Settings* feature description in the [Editor](web-editor-features.md#main-toolbar).
+    For more details, view  [Display attributes](../cs-install-guide/workspace-settings.md#display-attributes).
 
 -   **Metadata** Using the metadata , you can set the metadata information. You can define the Nav Title, Link Text, Short Description, and Keywords.
 
