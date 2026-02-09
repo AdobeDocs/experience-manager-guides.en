@@ -102,7 +102,7 @@ The selected user or user group will now have access to the search DITA content 
 
 For the DITA search to work, some preprocessing of the DITA content is required. This preprocessing step extracts selective content from individual DITA maps and topics so that it can be indexed for faster searching. Internally, this process is called *Serialization*. Serialization of DITA files takes place during content upload or can also be executed on-demand. It uses a configuration file to determine how much content from each DITA file should be indexed. The default location of the serialization file is:
 
-/libs/fmdita/config/serializationconfig.xml
+`/libs/fmdita/config/serializationconfig.xml`
 
 The default search configuration allows you to search for all elements and attributes within the DITA `prolog` element. If you want to search on the basis of other elements or attributes, then you need to configure the search serialization file.
 
@@ -171,7 +171,7 @@ Perform the following steps to add custom DITA elements or attributes in the sea
 
 1.  Navigate to the serialization configuration file available at the following location:
 
-    /libs/fmdita/config/serializationconfig.xml
+    `/libs/fmdita/config/serializationconfig.xml`
 
 1.  Create an overlay node of the `config` folder within the `apps` node.
 
@@ -185,7 +185,7 @@ Perform the following steps to add custom DITA elements or attributes in the sea
 
 1.  Open the Adobe Experience Manager Web Console Configuration page. The default URL to access the configuration page is:
 
-    http://<server name\>:<port\>/system/console/configMgr
+    `http://<server name\>:<port\>/system/console/configMgr`
 
 1.  Search for and click on the *com.adobe.fmdita.config.ConfigManager* bundle.
 
@@ -242,7 +242,7 @@ Perform the following steps to run the metadata extraction workflow:
 
 1.  Open the Adobe Experience Manager Web Console Configuration page. The default URL to access the configuration page is:
 
-    http://<server name\>:<port\>/system/console/configMgr
+    `http://<server name\>:<port\>/system/console/configMgr`w
 
 1.  Search for and click on the *com.adobe.fmdita.config.ConfigManager* bundle.
 
