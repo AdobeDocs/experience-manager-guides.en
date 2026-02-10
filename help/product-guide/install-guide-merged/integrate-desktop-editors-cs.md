@@ -4,7 +4,6 @@ description: Learn how to Integrate desktop-based XML editors
 feature: Publishing FrameMaker Documents
 role: Admin
 level: Experienced
-exl-id: 86ba53fa-0e08-4791-9018-09fe974691da
 ---
 # Integrate desktop-based XML editors 
 

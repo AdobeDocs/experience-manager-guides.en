@@ -566,7 +566,7 @@ breadcrumb-title: AEM Guides Documentation
 - Installation and configuration{#install-guide-unified}
     - [Download, Install, and Upgrade](./install-guide-merged/introduction.md)
     - Installation process for Cloud Service {#deploy-conf-aemg-cs}
-      - [Deployment and dispatcher configuration](./cs-install-guide/conf-deployment-dispatcher-on-cs.md)
+      - [Deployment and dispatcher configuration](./install-guide-merged/conf-deployment-dispatcher-on-cs.md)
     - Installation process for On-Premise {#deploy-conf-aemg-on-prem}
       - [Technical requirements](./install-guide-merged/download-install-technical-requirements.md)
       - [Install Adobe Experience Manager](./install-guide-merged/download-install-aem.md)
@@ -648,7 +648,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure output generation settings](./install-guide-merged/conf-output-generation.md) 
       - [Download and install AEM Sites templates](./install-guide-merged/download-install-aem-sites-templates-cs.md)
       - [Component mapping for AEM Sites](./install-guide-merged/component-mapping.md)
-      - [Overlay HTML tags in AEM Sites output](./install-guide/overlay-html-tags-aem-sites.md)   
+      - [Overlay HTML tags in AEM Sites output](./install-guide-merged/overlay-html-tags-aem-sites.md)   
       - [Native PDF Publishing](./install-guide-merged/native-pdf-publishing.md)      
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
       - [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
