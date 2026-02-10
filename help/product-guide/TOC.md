@@ -646,8 +646,11 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure Workfront](./install-guide-merged/conf-workfront.md)
     - Work with output generation settings {#output-gen-config-cs-exp}  
       - [Configure output generation settings](./install-guide-merged/conf-output-generation.md) 
-      - [Download and install AEM Sites templates](./install-guide-merged/download-install-aem-sites-templates-cs.md)
-      - [Component mapping for AEM Sites](./install-guide-merged/component-mapping.md)
+      - AEM Sites templates {#download-aem-sites}
+        - [Download and install AEM Sites templates for Cloud Service](./install-guide-merged/download-install-aem-sites-templates-cs-kb.md)
+        - [Download and install AEM Sites templates for On-Premise](./install-guide-merged/download-install-aem-sites-templates-prem-kb.md)
+        - [General instructions to customize existing AEM Site templates for AEM Guides](./install-guide-merged/customize-exsisting-site-template-kb.md)
+        - [Component mapping for AEM Sites](./install-guide-merged/component-mapping.md)
       - [Overlay HTML tags in AEM Sites output](./install-guide-merged/overlay-html-tags-aem-sites.md)   
       - [Native PDF Publishing](./install-guide-merged/native-pdf-publishing.md)      
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
