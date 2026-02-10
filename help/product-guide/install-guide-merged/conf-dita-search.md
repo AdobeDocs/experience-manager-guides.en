@@ -147,7 +147,7 @@ An attribute set contains a list of attributes that you want to search for withi
 
 **attribute** - A list of attributes that you want to search. For each attribute, you need to create an individual entry in the `attribute` element.
 
-Perform the following steps to add custom DITA elements or attributes in the search serialization file:
+The following tabs provide instructions to add custom DITA elements or attributes in the search serialization file based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
 
 >[!BEGINTABS]
 
@@ -206,7 +206,7 @@ Extracting metadata from existing DITA files involves two tasks:
 1.  Enabling the metadata extraction option in the configMgr
 1.  Running the metadata extraction workflow
 
-Perform the following steps to enable the metadata extraction option in the configMgr based on the service you are using.
+The following tabs provide instructions to enable the metadata extraction option in the configMgr based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
 
 >[!BEGINTABS]
 
@@ -279,7 +279,7 @@ By default, the search is performed on the entire repository of AEM. There could
 
 To prevent AEM Guides from searching the temporary translation folder location, you need to add temporary folder location in the exclude list.
 
-Perform the following steps to exclude the temporary translation folder from the search based on the service you are using.
+The following tabs provide instructions to exclude the temporary translation folder from the search based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
 
 >[!BEGINTABS]
 

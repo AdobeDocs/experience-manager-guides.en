@@ -168,7 +168,7 @@ To allow users to overwrite the file on upload that has been checked out by them
 
 ## Prevent deletion of checked out files 
 
-To prevent users from accidentally deleting files that have been checked out by them or some other user, perform the following steps based on the server you are using.
+The following tabs provide instructions to prevent users from accidentally deleting files that have been checked out by them or some other user based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
@@ -231,7 +231,7 @@ Using this configuration, you can allow or disallow all users from deleting file
 
 -   If you are deleting a folder, and any file within the folder is referenced by a file outside that folder, then you will be prompted to remove the reference before deleting the file.
 
-To define who can delete a file that contains references or is referenced by other files, perform the following steps based on the server you are using. 
+The following tabs provide instructions to define who can delete a file that contains references or is referenced by other files based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 

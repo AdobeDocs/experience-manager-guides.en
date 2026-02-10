@@ -203,11 +203,11 @@ Perform the following steps to configure standard DITA-supported conditional att
 
 **Use custom attribute** 
 
-If you are using custom attribute, then it must be a valid DITA attribute supported by the DTD. If you want to use any attribute, which is not a standard DITA attribute, then perform the following additional steps depending on the services you are using:
+If you are using custom attribute, then it must be a valid DITA attribute supported by the DTD. The following tabs provide instructions to use any attribute, which is not a standard DITA attribute based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
->[!TAB Cloud service]
+>[!TAB Cloud Service]
 
 1.  Add the custom attribute to the DTD file. For example, if your DTD file is commonElements.mod, then you need to locate this file in the DTD directory. The default path of the system DTD file is:
 
@@ -227,7 +227,7 @@ If you are using custom attribute, then it must be a valid DITA attribute suppor
 
 1.  Add custom attributes to the global or folder-level profile.
 
->[!TAB On-prem services]
+>[!TAB On-Premise]
 
 1.  Add the custom attribute to the DTD file. For example, if your DTD file is commonElements.mod, then you need to locate this file in the DTD directory. The default path of the system DTD file is:
 
@@ -264,11 +264,11 @@ If you are using custom attribute, then it must be a valid DITA attribute suppor
 
 ## Configure templates {#id1889D0IL0Y4}
 
-You can configure the authoring templates based on the services you are using as mentioned below.
+The following tabs provide instructions to configure the authoring templates based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
->[!TAB Cloud service]
+>[!TAB Cloud Service]
 
 AEM Guides comes with 7 out-of-the-box topic templates, 2 DITA map templates, and 3 PDF templates. You can choose to have only a few templates available to your authors and publishers. In case you use a custom template, the same can be configured and made available for authoring and publishing. You use the **Templates** tab in the Folder Profiles configuration to add or remove topic, map, or PDF templates from global or folder-level profiles.
 
@@ -330,7 +330,7 @@ Perform the following steps to add the topic, map, or PDF templates into a folde
 
 In case you have configured the templates on a folder-level profile, the configured templates get associated with the configured folder. All projects created under the configured folder will have access to only those templates that are configured under the folder-level profile.
 
->[!TAB On-prem services]
+>[!TAB On-Premise]
 
 AEM Guides comes with 7 out-of-the-box authoring templates and 2 DITA map templates. You can choose to have only a few templates available to your authors. In case you use a custom template, the same can be configured and made available for authoring. You use the Authoring Template tab in the Folder Profiles configuration to add or remove topic or map templates from global or folder-level profiles.
 
@@ -519,6 +519,7 @@ For configuration details, view [AI Assistant configuration](./conf-smart-sugges
 You can configure the AI-powered smart suggestions and help the authors reuse the existing content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of  **Suggest reusable content** from the AI Assistant panel in the Web Editor.
 
 Perform the following steps to configure standard AI configuration at the global or folder-level profile:
+
 1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
 1. Select the **Adobe Experience Manager** link at the top and choose **Tools**.
 1. Select **Guides** from the list of tools and select the **Folder Profiles** tile.
@@ -603,9 +604,11 @@ By default, the XML Editor comes with a lot of features to help your authors cre
 
 **XML Editor UI Configuration**
 
+The following tabs provide instructions based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+
 >[!BEGINTABS]
 
->[!TAB Cloud service]
+>[!TAB Cloud Service]
 
 This setting enables you to create JSON extensions that reflect modifications made in the `ui_config.json` file. You can independently upload these extensions at the Folder profile level, offering enhanced flexibility and customization. For instance, when you make changes to the **XML Editor Configuration**, such as updating a button, the system automatically identifies the differences. By uploading these changes to the **XML Editor UI Configuration** and converting them into JSON extensions using the **Convert UI Config to JSON** button, the system generates an extension that incorporates the new functionality.
 
@@ -627,7 +630,7 @@ This setting controls the toolbar and the other user interface elements of the E
 >
 > For AEM Guides 2502 release, and newer versions, it is recommended to use extension JSON instead of `ui_config.json` for customization. For details, refer to the **XML Editor UI Configuration** section above.
 
->[!TAB On-prem services]
+>[!TAB On-Premise]
 
 This setting controls the toolbar and the other user interface elements of the Web Editor. Click the **Download** icon to download the latest ui\_config.json file on your local system. You can then make changes to the file and the upload the same. Click the **Download Default**icon to download the default ui\_config.json file on your local system. You can always download the default file, make changes to it, and upload it.Depending upon where you are uploading the file at, global or folder-level profile, the changes are applied accordingly. For more details about how to customize the XML Editor using the ui\_config.json file, see [Customize toolbar](conf-web-editor-customize-toolbar.md#).
 

@@ -86,7 +86,7 @@ The Hide Translation Tab option is not enabled by default and you need to enable
 
 If the connector for the translation vendor does not support DITA content, then the component-based translation workflow needs to be enabled. Once enabled, the translatable content is sent as asset metadata. However, the connector needs to support asset metadata translation for this workflow to work.
 
-Based on the translation workflow for the server you are using, the component-based translation workflow option should be configured as follows.
+The following tabs provide instructions for the translation workflow based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
@@ -135,7 +135,7 @@ Based on the translation workflow used in your setup, the component-based transl
 >
 > It is recommended that you use the latest translation workflow, available in AEM Guides 2024.06.0 and onwards, for an enhanced performance. However, if you've enabled any customization in the translation process and it is impacted by the new workflow, consider reverting to the legacy translation workflow as a workaround.
 
-By default, the legacy translation workflow option is disabled. You can configure this option by performing the following steps based on the server you are using.
+By default, the legacy translation workflow option is disabled. The following tabs provide instructions to configure this option based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
 
 >[!BEGINTABS]
 
@@ -182,7 +182,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 When you initiate the translation workflow, the system creates temporary language copies of the source content. You can choose to enable or disable the post-processing operation on these temporary files. In the post-processing operation, the incoming and outgoing references from the files are resolved, the document state is set, along with other operations. If you enable post-processing on these temporary files, the translation process could take longer time to complete. Therefore, it is recommended to keep post-processing option disabled.
 
-By default, the post-processing of temporary files option is disabled. You can configure this option by performing the following steps based on the server you are using. 
+By default, the post-processing of temporary files option is disabled. The following tabs provide instructions to configure this option based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
 
 >[!BEGINTABS]
 
