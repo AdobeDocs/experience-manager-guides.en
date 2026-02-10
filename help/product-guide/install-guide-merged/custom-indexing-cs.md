@@ -5,7 +5,7 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Deploying custom index for Find and replace (Source view) feature
+# Deploying custom index for Find and replace (Source view) feature (for Cloud Service)
 
 ## Overview
 

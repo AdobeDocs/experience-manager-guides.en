@@ -581,8 +581,7 @@ breadcrumb-title: AEM Guides Documentation
     - Recommendations for performance optimization {#performance-optimization-aemg}
       - [Performance optimization for Cloud Service](./install-guide-merged/download-install-recommend-perf-optimiz-cs.md)
       - [Performance optimization for On-Premise](./install-guide-merged/download-install-recommend-perf-optimiz-on-prem.md)
-    - [Configuration overrides](./install-guide-merged/download-install-additional-config-override.md)
-      
+    - [Configuration overrides](./install-guide-merged/download-install-additional-config-override.md)      
     - Work with user groups and security {#user-group-sec-cs}
       - [User administration and security](./install-guide-merged/user-admin-sec.md)
     - Content migrate {#migrate-con-cs}
@@ -605,32 +604,29 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure custom DITA topic template](./install-guide-merged/conf-template-tags-custom-dita-topic-template.md)
       - [Configure custom DITA map template](./install-guide-merged/conf-template-tags-custom-dita-map-templates.md)
     - Work with document states {#doc-state-cs}
-      - [Configure document states](./install-guide-merged/customize-doc-state.md)
-     
+      - [Configure document states](./install-guide-merged/customize-doc-state.md)     
     - Configure Workspace settings {#workspace-configs}
-      - [Workspace settings](./cs-install-guide/workspace-settings.md)  
+      - [Workspace settings](./install-guide-merged/workspace-settings.md)  
     - Work with the Web Editor configurations {#web-editor-configs-cs}
-      
+      - [Customize Web Editor](./install-guide-merged/conf-web-editor.md)
       - [Customize toolbar](./install-guide-merged/conf-web-editor-customize-toolbar.md)
       - [Configure the AI-powered smart suggestions for authoring](./install-guide-merged/conf-smart-suggestions.md)      
       - [Configure the AI-powered Smart Help to search content](./install-guide-merged/conf-smart-help.md)
       - [Configure default value for the Tags View](./install-guide-merged/configure-default-value-tags-view.md)
+      - [Configure the title for Check in and Check out icons](./install-guide-merged/conf-checkin-checkout-title.md)
       - [Configure display of UUID-based links](./install-guide-merged/conf-uuid-based-links.md)
       - [Configure display of pasted tables](./install-guide-merged/conf-pasted-tables.md) 
       - [Open DITA topic or map files in same tab](./install-guide-merged/open-dita-files-same-tab.md)
       - [Configure a custom panel in the left panel](./install-guide-merged/configure-custom-panel.md)
       - [Configure file auto-save in the Web Editor](./install-guide-merged/auto-save-in-editor.md)
       - [Configure prompt to save as a new version on close](./install-guide-merged/conf-save-as-new-version-close.md)
-      - [Configure prompt to check in a file on close](./cs-install-guide/conf-checkin-file-close.md)
-      - [Configure allowed special characters](./cs-install-guide/conf-special-chars.md)
-      - [Auto-generate element IDs](./cs-install-guide/auto-generate-ids.md)
-      - [Customize AEM's default dictionary](./cs-install-guide/customize-aem-custom-dictionary.md)
-      - [Configure text filters](./cs-install-guide/config-text-filters.md)
-      - [Configure filters for file browse dialog](./cs-install-guide/conf-custom-file-filters.md)
-      - [Configure the title for Check in and Check out icons](./install-guide-merged/conf-checkin-checkout-title.md)
+      - [Configure prompt to check in a file on close](./install-guide-merged/conf-checkin-file-close.md)
+      - [Configure allowed special characters](./install-guide-merged/conf-special-chars.md)
+      - [Auto-generate element IDs](./install-guide-merged/auto-generate-ids.md)
+      - [Customize AEM's default dictionary](./install-guide-merged/customize-aem-custom-dictionary.md)
+      - [Configure text filters](./install-guide-merged/config-text-filters.md)
       - [Configure the number of LimitReads for a query](./install-guide-merged/conf-query-limitreads.md)
-      - [Configure the option to edit in Oxygen](./install-guide-merged/conf-edit-in-oxygen.md)
-      - [Configure additional special characters](./install-guide-merged/configure-additional-special-characters.md)    
+      - [Configure filters for file browse dialog](./install-guide-merged/conf-custom-file-filters.md)          
       - [Install packages for Article-based publishing](./install-guide-merged/configure-article-based-publishing.md)
       - [Configure single topic PDF generation](./install-guide-merged/conf-pdf-generation-dita-ot.md)
       - [Configure Translation feature in the Web Editor](./install-guide-merged/conf-translation-web-editor.md)
@@ -638,7 +634,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure a data source connector from the user interface](./install-guide-merged/conf-data-source-connector-tools.md)
       - [Set the Advanced Map Editor as default](./install-guide-merged/conf-map-editor.md) 
       - [Include @navtitle attribute by default](./install-guide-merged/auto-add-navtitle.md)
-     
+      - [Configure the option to edit in Oxygen](./install-guide-merged/conf-edit-in-oxygen.md)
+      - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)       
     - Work with global and folder-level profiles {#global-folder-profiles-cs}
       - [Configure global or folder-level profiles](./install-guide-merged/conf-folder-level.md)
     - Configure versions {#version-mgt-cs}
@@ -647,15 +644,30 @@ breadcrumb-title: AEM Guides Documentation
       - [Integrate desktop-based XML editors](./install-guide-merged/integrate-desktop-editors-cs.md)
     - Configure Workfront {#configure-workfront-cs}
       - [Configure Workfront](./install-guide-merged/conf-workfront.md)
-    - Work with output generation settings {#output-gen-config-cs}      
-      - [Native PDF Publishing](./install-guide-merged/native-pdf-publishing.md)
+    - Work with output generation settings {#output-gen-config-cs}  
+      - [Configure output generation settings](./install-guide-merged/conf-output-generation.md) 
+      - [Download and install AEM Sites templates](./install-guide-merged/download-install-aem-sites-templates-cs.md)
+      - [Component mapping for AEM Sites](./install-guide-merged/component-mapping.md)
+      - [Overlay HTML tags in AEM Sites output](./install-guide/overlay-html-tags-aem-sites.md)   
+      - [Native PDF Publishing](./install-guide-merged/native-pdf-publishing.md)      
       - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
+      - [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
       - [Create a mapping between a topic and a content fragment](./install-guide-merged/conf-content-fragment-mapping-cs.md)
       - [Create a mapping between a topic and an experience fragment](./install-guide-merged/conf-experience-fragment-mapping-cs.md)
+      - [Configure Base Output Location for publishing output](./install-guide-merged/configure-base-location.md)
+    - Work with custom workflows {#custom-workflow-cs}
+      - [Configure and customize workflows](./install-guide-merged/customize-workflows.md)  
     - Work with translation configurations {#translate-config-cs}
       - [Translate content](./install-guide-merged/translation.md)
     - Work with AEM Assets search {#aem-asset-search-cs}
       - [Configure search for AEM Assets UI](./install-guide-merged/conf-dita-search.md)
+    - Work with Asset processing {#asset-processing-cloud}
+      - [Configure asset processing feature](./install-guide-merged/configure-asset-processing-cs.md)
+    - Work with B-tree cleanup{#btree-cleanup-cs}
+      - [Configure B-tree cleanup](./install-guide-merged/configure-btree-cleanup-cs.md)
+    - Custom indexing{#custom-indexing-cs}
+      - [Deploying custom index for Find and replace (Source view)](./install-guide-merged/custom-indexing-cs.md)
+      - [Reindexing for Find and replace (Source view)](./install-guide-merged/custom-indexing-prem.md)  
     
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
