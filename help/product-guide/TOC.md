@@ -563,7 +563,7 @@ breadcrumb-title: AEM Guides Documentation
     - Custom indexing{#custom-indexing-cs}
       - [Deploying custom index for Find and replace (Source view)](./cs-install-guide/custom-indexing.md)   
     - [Appendix](./cs-install-guide/appendix.md)  
-- Installation and configuration{#install-guide-unified}
+- Installation and configuration {#install-guide-unified}
     - [Download, Install, and Upgrade](./install-guide-merged/introduction.md)
     - Installation process for Cloud Service {#deploy-conf-aemg-cs}
       - [Deployment and dispatcher configuration](./install-guide-merged/conf-deployment-dispatcher-on-cs.md)
@@ -663,9 +663,9 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure search for AEM Assets UI](./install-guide-merged/conf-dita-search.md)
     - Work with Asset processing {#asset-processing-cloud-exp}
       - [Configure asset processing feature](./install-guide-merged/configure-asset-processing-cs.md)
-    - Work with B-tree cleanup{#btree-cleanup-cs-exp}
+    - Work with B-tree cleanup {#btree-cleanup-cs-exp}
       - [Configure B-tree cleanup](./install-guide-merged/configure-btree-cleanup-cs.md)
-    - Custom indexing{#custom-indexing-cs-exp}
+    - Custom indexing {#custom-indexing-cs-exp}
       - [Deploying custom index for Find and replace (Source view)](./install-guide-merged/custom-indexing-cs.md)
       - [Reindexing for Find and replace (Source view)](./install-guide-merged/custom-indexing-prem.md)      
 - API Reference {#api-reference}
