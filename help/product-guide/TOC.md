@@ -667,8 +667,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure B-tree cleanup](./install-guide-merged/configure-btree-cleanup-cs.md)
     - Custom indexing{#custom-indexing-cs}
       - [Deploying custom index for Find and replace (Source view)](./install-guide-merged/custom-indexing-cs.md)
-      - [Reindexing for Find and replace (Source view)](./install-guide-merged/custom-indexing-prem.md)  
-    
+      - [Reindexing for Find and replace (Source view)](./install-guide-merged/custom-indexing-prem.md)      
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
   - [REST APIs for Output management](./api-reference/output-management.md)
