@@ -101,9 +101,18 @@ You can now track the word count present within a map or topic file. The new **W
 
 For details, view [Right panel in Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
-### Improved handling for Read only files
+### Metadata properties no longer editable for Read-only files
 
-Editing File properties is now restricted for files that are in **Read only** mode. If a file is locked by another user (available in Read only mode), you cannot change any metadata property, whether from the [Right panel](../user-guide/web-editor-right-panel.md#file-properties), the **Properties** option in the [context menu of a file](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab), or the [Metadata Report](../user-guide/reports-web-editor.md#metadata-report). This helps prevent accidental changes to Read only files.
+With this release, when the `Disable Edit Without Checkout` setting is enabled, file properties can no longer be edited if a file is in **Read-only** mode. 
+ 
+This restriction applies across all entry points where properties can be modified, including:
+
+- The **Right panel** of the Editor interface
+- The **Properties** option in the file context menu
+- The Metadata Report of a map
+- The Assets UI
+
+If a file is Read-only, you must first check out the file before making any changes to its properties. This change enforces stricter permission controls and ensures that property updates follow the same checkout and locking rules as content edits.
 
 ## Review enhancements
 
