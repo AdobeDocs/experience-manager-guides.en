@@ -1,6 +1,6 @@
 ---
-title: Customize DITA element mapping with AEM components
-description: Learn how to Customize DITA element mapping with AEM components
+title: Customize dita element mapping with AEM components
+description: Learn how to customize dita element mapping with AEM components
 feature: Output Generation
 role: Admin
 level: Experienced
