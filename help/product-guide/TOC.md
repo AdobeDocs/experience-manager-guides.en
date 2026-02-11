@@ -645,18 +645,33 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure Workfront](./install-guide-merged/conf-workfront.md)
     - Work with output generation settings {#output-gen-config-cs-exp}  
       - [Configure output generation settings](./install-guide-merged/conf-output-generation.md) 
-      - AEM Sites templates {#download-aem-sites}
+      - Configure AEM Site output settings {#conf-aem-sites-output}
         - [Download and install AEM Sites templates for Cloud Service](./install-guide-merged/download-install-aem-sites-templates-cs.md)
         - [Download and install AEM Sites templates for On-Premise](./install-guide-merged/download-install-aem-sites-templates-prem.md)
         - [General instructions to customize existing AEM Site templates for AEM Guides](./install-guide-merged/customize-exsisting-site-template-kb.md)
+        - [Customize new AEM Site output](./install-guide-merged/customize-aem-site-output.md)
+        - [Customize DITA element mapping with AEM components for legacy AEM Site output](./install-guide-merged/customize-DITA-element-mapping-AEM-components.md)
         - [Component mapping for AEM Sites](./install-guide-merged/component-mapping.md)
-      - [Overlay HTML tags in AEM Sites output](./install-guide-merged/overlay-html-tags-aem-sites.md)   
-      - [Native PDF Publishing](./install-guide-merged/native-pdf-publishing.md)      
-      - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options-exp.md)
-      - [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags-exp.md)
-      - [Create a mapping between a topic and a content fragment](./install-guide-merged/conf-content-fragment-mapping-cs.md)
-      - [Create a mapping between a topic and an experience fragment](./install-guide-merged/conf-experience-fragment-mapping-cs.md)
-      - [Configure Base Output Location for publishing output](./install-guide-merged/configure-base-location.md)
+      - Native PDF Publishing {#config-native-pdf-publish-exp}
+        - [PDF Template](./native-pdf/pdf-template.md)
+        - [Components of a PDF Template](./native-pdf/components-pdf-template.md)
+        - [Design a page layout](./native-pdf/design-page-layout.md)
+        - [Variables in the PDF output](./native-pdf/native-pdf-variables.md)
+        - [Support for language variables](./native-pdf/native-pdf-language-variables.md)
+        - [Add a barcode to the PDF output](./native-pdf/add-barcode.md)
+        - Common content styles {#content-styles}
+          - [Work with the common content styles](./native-pdf/stylesheet.md)
+          - [Work with custom change bars styles](./native-pdf/change-bar-style.md)
+          - [Apply custom style on TOC entries and topic content](./native-pdf/custom-style-toc.md)
+          - [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
+          - [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
+          - [Apply styles to footnotes](./native-pdf/footnote-number-style.md) 
+        - [Configure Node process for Native PDF Publishing for Cloud Service](./native-pdf/configure-node-options-exp.md)  
+        - [Overlay HTML tags in AEM Sites output for On-Premise](./install-guide-merged/overlay-html-tags-aem-sites.md)    
+        - [Configure JVM flags for Native PDF Publishing for On-Premise](./native-pdf/configure-jvm-flags-exp.md)
+      - Configure content and experience fragments for Cloud Service {#conf-content-exp-fragment}  
+        - [Create a mapping between a topic and a content fragment](./install-guide-merged/conf-content-fragment-mapping-cs.md)
+        - [Create a mapping between a topic and an experience fragment](./install-guide-merged/conf-experience-fragment-mapping-cs.md)
     - Work with custom workflows {#custom-workflow-cs-exp}
       - [Configure and customize workflows](./install-guide-merged/customize-workflows.md)  
     - Work with translation configurations {#translate-config-cs-exp}

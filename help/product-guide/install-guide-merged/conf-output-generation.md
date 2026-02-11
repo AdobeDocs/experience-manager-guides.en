@@ -125,193 +125,23 @@ Perform the following steps to add the required nodes to your existing site:
 
 >[!ENDTABS]
 
-## Customize AEM Site output {#id166TG0B30WR}
+## Configure Base Output Location for publishing
 
-The AEM Guides supports creating outputs in following formats:
-
--   AEM Site
--   PDF
--   HTML5
--   EPUB
--   Custom output through DITA-OT
-
-For the AEM Site output, you can assign different design templates with different output tasks. These design templates can render the DITA content in different layouts. For example, you could specify different design templates for internal and external audiences.
-
-You can also use customized DITA Open Toolkit \(DITA-OT\) plug-ins with the AEM Guides. You can upload these custom DITA-OT plug-ins to generate PDF output in a specific way.
-
->[!TIP]
->
-> See the *AEM Site publishing* section in the [Best practices guide](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf) for best practices around creating AEM Site output.
-
-
-### Customize design template for generating output {#customize_xml-add-on}
-
-The AEM Guides uses a set of predefined design templates to generate AEM Site output. You can customize the AEM Guides design templates to generate the output that conforms to your corporate branding. A design template is a collection of various styles \(CSS\), scripts \(both server- and client-side\), resources \(images, logos, and other assets\), and JCR nodes that tie all these resources together. A design template can be as simple as a single server-side script with just a couple of JCR nodes, or a complex combination of styles, resources, and JCR nodes. Design templates are used by AEM Guides publishing subsystem while generating AEM Site output and they control the structure, look and feel of the generated output.
-
-There is no restriction as to where the design template resources should be located on the server, but they are usually logically organized as per their function. For example, the default template has all its JavaScript and CSS files stored under `/etc/designs/fmdita/clientlibs/siteoutput/default` folder. Wherever these files are located, they are linked together by a collection of JCR nodes. Together, these JCR nodes and the files constitute the whole design template.
-
-The default design template shipped with the AEM Guides allows you to customize the landing, topic, and search page components. You can make a copy of the default design and the corresponding reference templates and specify different components to generate the desired output.
-
-The following tabs provide instructions to specify your own design template to use for AEM Site output generation based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+The following tabs provide instructions to configure the base output location based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
 >[!TAB Cloud Service]
 
-1.  Use the Package Manager to download the default design template from the following location:
+1. Use the instructions given in [Configuration overrides](../cs-install-guide/download-install-additional-config-override.md) to create the configuration file.
 
-    /libs/fmdita/config/templates
+1. In the configuration file, provide the following (property) details to configure the base output location:
 
-1.  Create a copy of the downloaded files at the following location in your Cloud Manager's Git repository:
+    |PID|Property Key|Property Value|
+    |---|---|---|
+    |`com.adobe.fmdita.config.ConfigManager`|`base.output.path`| **Default value:** "/content/dam/fmdita-outputs"|
 
-    /apps/fmdita/config/templates
-
-1.  You must also download and copy the templates referenced from the default template node. The referenced templates are placed under:
-
-    /libs/fmdita/templates/default/cqtemplates
-
->[!TAB On-Premise]
-
-1.  Log into AEM and open the CRXDE Lite mode.
-
-1.  Navigate to the default design template node. The location of the default design template node is:
-
-    `/libs/fmdita/config/templates/`
-
-    ![](assets/templates-node.png){width="300" align="left"}
-
-    >[!NOTE]
-    >
-    > Make a copy of the default design templates from the `libs` folder to the `apps` folder and make changes in the `apps` folder. You must also make changes in the templates referenced from the default template node. The referenced templates are placed under `/libs/fmdita/templates/default/cqtemplates` node. Make a copy of the referenced templates in the `apps` folder before making any changes.
-
-1.  Click the *default* component in the *templates* node to access its properties.
-
->[!ENDTABS]
-
-The AEM Guides design template properties are described in the following table.
-
-|Property|Description|
-|--------|-----------|
-|`landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate`|Specify the `cq:Template` node for these corresponding pages \(landing, search, and topic\). By default the `cq:Template` node for these pages can be found in `/libs/fmdita/templates/default/cqtemplates` node. This node defines the structure and properties of the landing, search, and topic pages.<br> The `shadowPageTemplate` is used to optimize the chunked content. You need to set the value of this property to: `fmdita/templates/default/cqtemplates/shadowpage` <br> **Note:** You must specify a value for the `topicPageTemplate`. The `landingPageTemplate` and `searchPageTemplate` are optional properties. If you do not want the search and landing pages to generate, do not specify these properties.|
-|`title`|A descriptive name of your design template.|
-|`topicContentNode`|The location of the node that will contain the DITA content in a topic page. Path is relative to the topic page.|
-|`topicHeadNode`|The location of the node that will contain the head values \(or metadata\) derived from the DITA content. Path is relative to topic page.|
-|`tocNode`|The location of the node that will contain the TOC. Path is relative to the landing page or destination path.|
-|`basePathProp`|The property name for storing the path of the root of the published site.|
-|`indexPathProp`|The property name for storing the path of the landing/index page of the published site.|
-|`pdfPathProp`|The property name for storing the topic PDF path, if topic PDF generation is enabled.|
-|`pdfTypeProp`|The property name for storing the type of the PDF generation. Currently this property always contains "Topic".|
-|`searchPathProp`|The property name for storing the path of the search page, if the template includes a search page.|
-|`siteTitleProp`|The property name for storing the title of the site being published. This title is usually the same as the title of the map being published.|
-|`sourcePathProp`|The property name for storing the path of the source DITA topic for the current page.|
-|`tocPathProp`|The property name for storing the path of the TOC root for the published site.|
-
-
->[!NOTE]
->
-> After creating a custom design template node, you must update the Design option in the AEM Site output presets to use the custom design template node.
-
-For more information, see [Creating your first Adobe Experience Manager website](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) and [The Basics](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) of developing your own website on AEM.
-
-### Use document title for generating AEM site output 
-
-When generating AEM Site output, the way URLs are generated play an important role in the discoverability of your content. In case you are using UUID-based file names, generating URLs based on UUID of your files would not be search friendly. As an Administrator or Publisher, you have the control on how you want to generate the URLs for your AEM Site output. AEM Guides gives you a configuration through which you can choose to generate the URLs of AEM Site output using the file's title rather than the UUID-based file names. By default, for UUID-based file systems, this option is turned ON. This implied that when you generate AEM Site output for UUID-based file systems, the file's titles are used to generate the URLs and not the UUIDs of the files.
-
-For On-Premise setup with non-UUID-based file systems, the AEM Site output is generated using the file names and not the file's titles. By default, this option is turned OFF. This implied that when you generate AEM Site output, the file names are used to generate the URLs and not the file's title. You can choose to generate the URLs based on file's titles by enabling this option.
-
-The following tabs provide instructions to configure the URLs generation in AEM Site output based on your Experience Manager Guides setup: Cloud Service or On-Premise.
-
->[!NOTE]
->
-> You can further configure rules to allow only a set of character in the URLs of an AEM Site output. For more details, see [Configure filename sanitization rules for creating topics and publishing AEM Site output](#id2164D0KD0XA).
-
->[!BEGINTABS]
-
->[!TAB Cloud Service]
-
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure the URLs generation in AEM Site output:
-
-|PID|Property Key|Property Value|
-|---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`aemsite.pagetitle`|Boolean \(true/false\). In case you want to generate output using the page title, then set this property to true. By default, it is set to use the file name.<br> **Default value**: false |
-
-
->[!TAB On-Premise]
-
-1. Open the Adobe Experience Manager Web Console Configuration page.
-
-    The default URL to access the configuration page is:
-
-    ```http
-    http://<server name>:<port>/system/console/configMgr
-    ```
-
-1.  Search for and click on the **com.adobe.fmdita.config.ConfigManager** bundle.
-
-1.  Select the **Use Title for AEM Site Page Names** option.
-
-    >[!NOTE]
-    >
-    > In case you want to generate output using the file names, then deselect this option.
-
-1.  Click **Save**.
-
->[!ENDTABS]
-
-### Configure the URL of the AEM Site output to use the document title (for Cloud Service)
-
-You can use the document titles in the URL of the AEM Site output. If the filename doesn't exist or contains all special characters, you can configure the system to replace the special characters with a separator in the URL of the AEM Site output. You can also configure it to replace them with the first child topic's name.
-
-
-To configure the page names, perform the following steps:
-
-1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
-1.  In the configuration file, provide the following (property) details to configure the page names for the topics.
-
-|PID|Property Key|Property Value|
-|---|------------|--------------|
-|`com.adobe.fmdita.common.SanitizeNodeName`|`nodename.systemDefinedPageName`|Boolean (`true/false`). **Default value**: `false`|
-
-For example, if the *@navtitle* in `<topichead>` has all special characters and you set the `aemsite.pagetitle` property to true, then by default, it uses a separator. If you set the `nodename.systemDefinedPageName` property to true, it shows the first child topic's name.
-
-
-### Configure filename sanitization rules for creating topics and publishing output in AEM Sites and other formats {#id2164D0KD0XA}
-
-As an administrator, you can define a list of valid special characters allowed in filenames, which eventually form the URL of an AEM Site output. In earlier releases, users were allowed to define filenames containing special characters such as `@`, `$`, `>`, and more. These special characters resulted in encoded URL on generation of AEM Site pages.
-
-Starting with 3.8 release, configurations have been added to define a list of special characters that are allowed in the filenames. By default, the valid filename configuration contains "`a-z A-Z 0-9 - _`". This implies that while creating a file, you can have any special character in the file's title, but internally it will get replaced with a hyphen \(`-`\) in the filename. For example, you can have the file's title as Introduction 1 or Introduction@1, the corresponding filename generated for both these cases would be Introduction-1.
-
-When you define a list of valid characters, remember that these characters "`*/:[\]|#%{}?&<>"/+`" and `a space` will always be replaced with a hyphen \(`-`\).
-
->[!NOTE]
->
-> If you do not configure the valid special characters list, the file creation process might give you some unexpected results.
-
-The following tabs provide instructions to configure the valid special characters in filenames and AEM Site output based on your Experience Manager Guides setup: Cloud Service or On-Premise.
-
->[!BEGINTABS]
-
->[!TAB Cloud Service]
-
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure the valid special characters in filenames and AEM Site output:
-
-|PID|Property Key|Property Value|
-|---|------------|--------------|
-|`com.adobe.fmdita.common.SanitizeNodeNameImpl`|`aemsite.DisallowedFileNameChars`|Ensure that the property is set to ``'<>`@$``. You can add more special characters to this list.|
-
->[!NOTE]
-> 
-> The above configuration applies to all output formats. This means that when generating a PDF, HTML, or custom output, the final output will follow the configured filename sanitization rules.
-
-You can also configure the other properties such as use lower case in filenames, separator to handle invalid characters, and maximum number of characters allowed in the filenames. To configure these properties, add the following key value pairs in the configuration file:
-
-|Property Key|Property Value|
-|------------|--------------|
-|`nodename.uselower`|Boolean \(true/false\).<br> **Default value**: true |
-|`nodename.separator`|Any character. <br> **Default value**: \_ *\(underscore\)*|
-|`nodename.maxlength`|Integer value.<br> **Default value**: 50|
-
->[!TAB On-Premise]
+>[!TAB On-Premise]    
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
@@ -321,209 +151,13 @@ You can also configure the other properties such as use lower case in filenames,
     http://<server name>:<port>/system/console/configMgr
     ```
 
-1.  Search for and click on the *com.adobe.fmdita.common.SanitizeNodeNameImpl* bundle.
+1.  Search for and select the *com.adobe.fmdita.config.ConfigManager* bundle.
 
-1.  In the **Disallowed Character Set for Publishing to AEM Sites** property, ensure that the property is set to ```'<>`@$```. You can add more special characters to this list, however, it must have these required special characters.
-
-    >[!NOTE]
-    >
-    > You can also configure the other properties such as **Use Lower Case** in filenames, **Separator** to handle invalid characters, and **Maximum Number of Characters** allowed in the filenames.
-
-1.  Click **Save**.
-
-1.  Search for and click on the **com.adobe.fmdita.config.ConfigManager** bundle.
-
-1.  In the **Regex for Valid Characters** property, ensure that the property is set to `[-a-zA-Z0-9_]`. You can add more characters to this list, however, it must have these basic characters and the list must start with a hyphen \(`-`\).
-
-    >[!NOTE]
-    >
-    > This property defines the list of valid character used to create a new file.
+1.  Update the property **Base Output Location** to specify the default path in the AEM repository where the PDF will be saved after publishing. Additionally, if an invalid path is entered, it will automatically revert to the default path: `/content/dam/fmdita-outputs`.
 
 1.  Click **Save**.
 
 >[!ENDTABS]
-
-### Configure flattening of AEM Site node structure 
-
-When you generate AEM Site output, a node for every element in the topics is created internally. For a DITA map with thousands of topics, this node structure can become too deep. This type of deeply nested node structure can have performance issues for larger sites. The following snapshot displays deeply nested node structure for an AEM Site output:
-
-![](assets/deep-nested-aem-site-node-structure.png)
-
-In the above snapshot, notice that there is a node is created for every `p` element and its subsequent sub-elements and a similar structure is created for every other element used in the topic.
-
-AEM Guides allows you to configure how AEM Site output's node structure is created internally. You can flatten the node structure at specified elements, which means that you can define an element which will be considered as the main element and all sub-elements within it will be merged with the main element. For example, if you decide to flatten the `p` element, then any element appearing within the `p` element will get merged with the main `p` element. A separate note would not be created for any sub-element within the `p` element. The following snapshot displays the node structure flattened at `p` element:
-
-![](assets/flattened-aem-site-node-structure.png)
-
-The following tabs provide instructions to flatten AEM Site node structure based on your Experience Manager Guides setup: Cloud Service or On-Premise.
-
->[!BEGINTABS]
-
->[!TAB Cloud Service]
-
-1.  Identify the element\(s\) at which you want to flatten the node structure:
-
-1.  Overlay of the `libs` node in the `apps` node and open the elementmapping.xml file.
-
-1.  Add the `<flatten>true</flatten>` property in the definition of the element at which you want to flatten the node structure. For example, if you want to flatten the node structure at the `p` element, then add the flatten attribute in the definition of `p` element as shown below:
-
-    ```XML
-    <ditaelement>
-          <name>p</name>
-          <class>- topic/p</class>
-          <componentpath>fmdita/components/dita/wrapper</componentpath>
-          <type>COMPOSITE</type>
-          <target>para</target>
-          <flatten>true</flatten>
-          <wrapelement>div</wrapelement>
-       </ditaelement>
-    ```
-
-    >[!NOTE]
-    >
-    > By default, the flatten node property has been configured at the `p` element.
-
-1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
-1.  In the configuration file, provide the following \(property\) details:
-
-    |PID|Property Key|Property Value|
-    |---|------------|--------------|
-    |`com.adobe.dxml.flattening.FlatteningConfigurationService`|`flattening.enabled`|Boolean \(true/false\).<br> **Default value**: `false`|
-
-
-Now, when you generate the AEM Site output, the nodes within the `p` element are flattened and stored within the `p` element itself. You can find the new flattening properties for the `p` element in CRXDE.
-
-![](assets/flatten-aem-site-note-props-crxde.png)
-
->[!TAB On-Premise]
-
-1.  Specify the element at which you want to flatten the node structure.
-
-    1.  Overlay of the `libs` node in the `apps` node and open the elementmapping.xml file.
-
-    1.  Add the `<flatten>true</flatten>` property in the definition of the element at which you want to flatten the node structure. For example, if you want to flatten the node structure at the `p` element, then add the flatten attribute in the definition of `p` element as shown below:
-
-        ```XML
-        <ditaelement>
-            <name>p</name>
-            <class>- topic/p</class>
-            <componentpath>fmdita/components/dita/wrapper</componentpath>
-            <type>COMPOSITE</type>
-            <target>para</target>
-            <flatten>true</flatten>
-            <wrapelement>div</wrapelement>
-        </ditaelement>
-        ```
-
-        >[!NOTE]
-        >
-        > By default, the flatten node property has been configured at the `p` element.
-
-1.  Enable the site node flattening configuration in the configMgr.
-
-    1.  Open the Adobe Experience Manager Web Console Configuration page.
-
-        The default URL to access the configuration page is:
-
-        ```http
-        http://<server name>:<port>/system/console/configMgr
-        ```
-
-    1.  Search for and click on the *com.adobe.dxml.flattening.FlatteningConfigurationService* bundle.
-
-    1.  Select the **Property flattening.enabled** option.
-
-    1.  Click **Save**.
-
-
->[!IMPORTANT]
->
-> If you have made any change in the elementmapping.xml file, ensure that you open the configMgr and save any bundle for changes to come into effect.
-
-Now, when you generate the AEM Site output, the nodes within the `p` element are flattened and stored within the `p` element itself. You can find the new flattening properties for the `p` element in CRXDE.
-
-![](assets/flatten-aem-site-note-props-crxde.png){width="650" align="left"}
-
->[!ENDTABS]
-
-**Search a string within the content in AEM Site output (for Cloud Service)**
-
-By default, you can search for a string in the titles only within the AEM Site output. You can configure the system to search for a string both in the titles and also the content or the body of the AEM Site output.
-
->[!NOTE]
->
-> Sometimes your search might work for some elements in the content, but you can configure it to work for the entire content.
-
-![](assets/flatten-aem-site-note-props-crxde-search.png)
-
-To enable the search, you should configure the flattening of AEM Site node structure.
-
-CAUTION:
-
-You can search up to 1MB of flattened content. For example, in the previous screenshot, you can search if the content under <p\> tag is <= 1Mb.
-
->[!NOTE]
->
-> The search works on the elements only if the `<flatten>`attribute is set to true. By default, AEM Guides has the `<flatten>` attribute set to true for the commonly used text elements like <p\> <ul\> <lI\>. However, if you have created some custom elements, you should set the `<flatten>` attribute to true in the elementmapping.xml file.
-
-**Prevent flattening of AEM Site node structure**
-
-Similar to specifying the node to flatten in AEM Site output, you can also specify an element that you want to exclude from this configuration. For example, if you want to flatten nodes at `body` element, but you do not want any `table` element within `body` to flatten, then you can add the exclude property within the `table` element's definition.
-
-To exclude the `table` element from flattening, add the following property to the `table` element's definition:
-
-`<preventancestorflattening>true|false</preventancestorflattening>`
-
-### Configure the versioning for deleted pages in AEM Site output 
-
-When you generate AEM Site output with **Delete and **Create**** option selected for the Existing Output Pages setting, a version is created for the page\(s\) being deleted. You can configure the system to stop the creation of a version before deletion.
-
-The following tabs provide instructions to stop the creation of a version for the page\(s\) being deleted based on your Experience Manager Guides setup: Cloud Service or On-Premise.
-
->[!BEGINTABS]
-
->[!TAB Cloud Service]
->[!ENDTABS]
-
-1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
-1.  In the configuration file, provide the following \(property\) details to configure the **Do Not Create Version for Deleted Pages** option:
-
-    |PID|Property Key|Property Value|
-    |---|------------|--------------|
-    |`com.adobe.fmdita.confi g.ConfigManager`|`no.version.creation.on.deletion`|Boolean \(true/false\).<br> **Default value**: `true` |
-
-    >[!NOTE]
-    >
-    > With this option selected, users will be able to directly delete any page\(s\) without creating any version for them. If the option is not selected, then a version is created before the page\(s\) are deleted.
-
->[!TAB On-Premise]
-
-1.  Open the Adobe Experience Manager Web Console Configuration page.
-
-    The default URL to access the configuration page is:
-
-    ```http
-    http://<server name>:<port>/system/console/configMgr
-    ```
-
-1.  Search for and click on the *com.adobe.fmdita.config.ConfigManager* bundle.
-
-1.  Select**Do Not Create Version for Deleted Pages** option.
-
-    >[!NOTE]
-    >
-    > With this option selected, users will be able to directly delete any page\(s\) without creating any version for them. If the option is not selected, then a version is created before the page\(s\) are deleted.
-
-1.  Click **Save**.
-
->[!ENDTABS]
-
-### Setup custom rewriter with Experience Manager Guides (for Cloud Service) {#custom-rewriter}
-
-Experience Manager Guides has a custom sling [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) module for handling the links generated in case of cross-maps (links between the topics of two different maps). This rewriter configuration is installed at the following path: <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
-
-If you have another custom sling rewriter in your codebase,  use an `'order'` value greater than 50, as Experience Manager Guides sling rewriter uses `'order'` 50.  To override this, you need a value >50 . For more details, view [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
-
 
 ## Use metadata in publishing output through DITA-OT {#id191LF0U0TY4}
 
@@ -679,7 +313,7 @@ In order to validate the metadata values passed to the DITA-OT, local environmen
 >
 > If particular metadata is not present for the file, <meta\> tag with the key will not appear as the property for that file in the metadata.xml file.
 
-## Configure the DITA-OT command line argument field to accept root map metadata (for Cloud Service))
+## Configure the DITA-OT command line argument field to accept root map metadata (for Cloud Service)
 
 To use the DITA-OT command line argument field to pass root map metadata, perform the following steps:
 
@@ -692,186 +326,6 @@ To use the DITA-OT command line argument field to pass root map metadata, perfor
 
 - Setting the property value to **true** enables the DITA-OT command line functionality, allowing you to pass the metadata through DITA-OT command line.
 - Setting the property value to **false** disables the DITA-OT command line functionality. You can then, use the Property field in the Preset to pass the metadata. 
-
-
-
-## Customize DITA element mapping with AEM components {#id1679J600HEL}
-
-DITA elements in the AEM Guides are mapped to their corresponding AEM components. AEM Guides uses this mapping in workflows such as publishing and review to convert DITA element to a corresponding AEM component. The mapping is defined in the `elementmapping.xml` file, which can be accessed using the package manager for Cloud Service setup and from the URL: `/libs/fmdita/config/elementmapping.xml` in the CRXDE Lite mode for On-Premise setup.
-
->[!NOTE]
->
-> Do not make any customizations in the default configuration files available in the ``libs`` node. You must create an overlay of the ``libs`` node in the ``apps`` node and update the required files in the ``apps`` node only.
-
-You may use the predefined DITA element mappings, or you can map DITA elements to your custom AEM components. To use your custom AEM components, you need to understand the structure of the `elementmapping.xml` file.
-
-### elementmapping.xml structure 
-
-A high-level overview of the `elementmapping.xml` structure is explained below:
-
-1.  Every DITA element is first searched for a corresponding component mapping based on the element name. For example:
-
-    ```XML
-    <ditaelement>     
-       <name>**substeps**</name>  
-       <class>- topic/ol task/substeps</class>  
-       <componentpath>dita/components/ditaolist</componentpath>  
-       <type>COMPOSITE</type>  
-       <target>para</target>
-    </ditaelement>
-    ```
-
-    In the above example, all `substeps` DITA elements are rendered using the `dita/components/ditaolist` component.
-
-1.  If a DITA element does not find a match based on the name, then a match on the basis of the `class` is done. For example:
-
-    ```XML
-    <ditaelement>  
-       <name>topic</name>  
-       <class>**- topic/topic**</class>  
-       <componentpath>fmdita/components/dita/topic</componentpath>  
-       <type>COMPOSITE</type>  
-       <target>para</target>  
-       <attributemap> 
-          <attribute from="id" to="id" />  
-       </attributemap>
-    </ditaelement>
-    ```
-
-    In the above example, if there is no mapping defined for the `task` element, then the `task` element is mapped to the above component because `task` is inherited from the `topic` component.
-
-1.  When an element has a corresponding component mapping, then further processing of its child elements is determined by `type`. For example:
-
-    ```XML
-    <ditaelement>  
-       <name>title</name>  
-       <class>- topic/title</class>  
-       <componentpath>foundation/components/title</componentpath>  
-       <type>**STANDALONE**</type>  
-       <target>para</target>  
-       <textprop>jcr:title</textprop>
-    </ditaelement>
-    ```
-
-    `type` takes the following values:
-
-    -   COMPOSITE: element to component *mapping continues for child elements* as well.
-
-    -   STANDALONE: child elements of the current element are *not mapped further*.
-
-    In the above example, if the `<title>` element has any child elements, they will not be mapped to any other component. The component for `<title>` element is responsible for rendering all child elements inside the `<title>` element.
-
-1.  If there are multiple components mapped to a single DITA element, then the best match for the element is selected. To select the best match component, domain and structural specialization of DITA elements is considered.
-
-    If there are DITA elements with domain specialization and a component is mapped for domain specialization, then that component is given high priority.
-
-    Similarly, if there are DITA elements with structural specialization and a component is mapped for structural specialization, then that component is given high priority.
-
-1.  You can use `<attributemap>` in element mapping to map attribute values to the corresponding node properties.
-1.  `textprop` can be used for serializing the text content of a DITA element to a node property. In addition, it can be used multiple times in an element tag to serialize the text content at multiple locations in published hierarchy. You can also customize the location and name of the target property. For example:
-
-    ```XML
-    <ditaelement>
-       <name>title</name>
-       <componentpath>foundation/components/title</componentpath>
-       <type>STANDALONE</type>
-       <target>para</target>
-        <textprop>**jcr:title**</textprop>
-    </ditaelement>
-    ```
-
-    The above element mapping specifies that the text content of `<title>` element will be saved as value of a property named `jcr:title` on the output node.
-
-1.  `xmlprop` can be used for serializing the entire XML for a given element to a node property. The component can then read this node property and do custom rendering. For example:
-
-    ```XML
-    <ditaelement>
-        <name>svg-container</name>
-       <class>+ topic/foreign svg-d/svg-container</class>
-        <componentpath>fmdita/components/dita/svg</componentpath>
-        <type>STANDALONE</type>
-        <target>para</target>
-       <xmlprop>**data**</xmlprop>
-    </ditaelement>
-    ```
-
-    The above element mapping specifies that the entire XML markup for element `<svg-container>` will be saved as value of a property named `data` on the output node.
-
-1.  There is a special attribute mapping to handle path resolution in output generation process. For example:
-
-    ```XML
-    <attributemap>
-       <attribute from="href" to="fileReference" ispath="true" rel="source" />
-       <attribute from="height" to="height" />
-        <attribute from="width" to="width" />
-    </attributemap>
-    ```
-
-    For the above `attributemap`, the `href` attribute in your DITA element will be mapped to a node property named `fileReference`. Now since `ispath` is set to `true`, the output generation process resolves this path and then sets it in `fileReference` node property.
-
-    How this resolution happens is determined on the basis of value of the `rel` attribute in attribute mapping.
-
-    -   If `rel=source`, then value of `href` is resolved with respect to the DITA source file that is currently being processed. The value of `href` is resolved and placed in the value of `fileReference` property.
-
-    -   If `rel=target`, then value of `href` is resolved with respect to the root publish location. The value of `href` is resolved and placed in the value of `fileReference` property.
-
-    If you do not want any pre-processing or resolution to happen on path attributes, then you need not specify the `ispath` attribute. The value is copied as is and the component can do the required resolution.
-
-
-### DITA element schema 
-
-Following is an example of the DITA element schema in `elementmapping.xml` file:
-
-```XML
-<ditaelement>        
-    <name>element_name</name>    
-    <class>element_class</class>    
-    <componentpath>fmdita/components/dita/component_name</componentpath>    
-    <type>COMPOSITE|STANDALONE</type>     
-    <attributeprop>propname_a</attributeprop>      
-    <textprop>propname_t</textprop>    
-    <xmlprop>propname_x</xmlprop>     
-    <xpath>xpath expression string</xpath>     
-    <target>head|para</target>     
-    <wrapelement>div</wrapelement>     
-    <wrapclass>class_name</wrapclass>     
-    <attributemap>         
-        <attribute from="attrname"         to="propname"         ispath="true|false"         rel="source|target" />    
-    </attributemap>    
-    <skip>true|false</skip> 
-</ditaelement>
-```
-
-The following table describes the elements in the DITA element schema:
-
-|Element|Description|
-|-------|-----------|
-|`<ditaelement>`|The top-level node for each mapping element.|
-|`<class>`|The class attribute of the target DITA element for which you are writing the component.<br> For example, the class attribute for the DITA topic is: <br> `- topic/topic`|
-|`<componentpath>`|The CRXDE path of the mapped AEM component.|
-|`<type>`|Possible values:<br> -   **COMPOSITE**: Process child elements as well <br> -   **STANDALONE**: Skips processing of child elements|
-|`<attributeprop>`|Used for mapping serialized DITA attributes and values to AEM nodes as property. For example, if you have `<note type="Caution">` element and the component that is mapped for this element has `<attributeprop>attr_t</ attributeprop>`, then the node's attribute and value is serialized to `attr_t` property of the corresponding AEM node \( `attr_t->type="caution"`\).|
-|`<textprop>propname_t</textprop>`|Save the `getTextContent()` output to property defined by `propname_t.` <br> **Note:** This is an optimized property.|
-|`<xmlprop>propname_x </xmlprop>`|Save serialized XML of this node to property defined by `propname_x.<br> `**Note:** This is an optimized property.|
-|`<xpath>`|If XPath element is provided in the element mapping, then along with element name and class the XPath condition should also be satisfied for the component mapping to be used.|
-|`<target>`|Place for the DITA element in the crx repository at specified location.<br> Possible values: <br> - **head**: Under the head node <br> - **text**: Under the paragraph node|
-|`<wrapelement>`|The HTML element to wrap the contents within.|
-|`<wrapclass>`|The element value to the property `wrapclass.`|
-|`<attributemap>`|Container node containing one or more `<attribute>` nodes.|
-|`<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />`|Maps the DITA attributes to AEM properties: <br> -   **`from`**: DITA attribute name <br> -   **`to`**: AEM component property name <br> -   **`ispath`**: If the attribute is a path value \(for example: *image*\) <br> -   **`rel`**: If the path is the source or target <br> **Note:** If `attrname` starts with `%`, then map `attrname minus '%'` to prop ' `propname`'. |
-
-**Additional notes**
-
--   If you plan to override the default element mapping, it is recommended that you do not make the changes in the default `elementmapping.xml` file. You should create a new mapping XML file and place the file at another location, preferably inside custom apps folder that you create.
-
--   In the `elementmapping.xml` file, there are many mapping entries referencing the fmdita/components/dita/wrapper component. Wrapper is a generic component that renders relatively simple DITA constructs using properties on their site node to generate relevant HTML. It uses the `wrapelement` property to generate enclosing tags and delegates the child rendering to the corresponding components. This is useful in cases where you only want a container component. Instead of creating a new component that renders a specific container tag like `div` or `p`, you can use the Wrapper component with the `wrapelement` and `wrapclass` properties to achieve the same effect.
-
--   It is not recommended to save large amounts of text in String JCR properties. The optimized property type calculation in output generation ensures that large text content is not saved as string type. Instead, when content larger than a certain threshold needs to be saved, the type of the property is changed to binary. By default, this threshold is configured to 512 bytes, but can be changed in the Configuration Manager \(*com.adobe.fmdita.config.ConfigManager*\) by changing the **Save as Binary Threshold** setting.
-
--   If you are planning to override some \(and not all\) of the element mappings, you do not have to replicate the entire `elementmapping.xml` file. You need to create a new XML mapping file and define only the elements that you are overriding.
-
--   After you have created the XML file in the custom location, update the `Override Element Mapping` setting in the `com.adobe.fmdita.config.ConfigManager` bundle.
-
 
 ## Customize DITA map console {#id188HC08M0CZ}
 
@@ -1019,6 +473,12 @@ By default, a list of last 25 generated outputs is shown. To change the number o
 >
 > See the *Output history* section in the [Best practices guide](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf) for best practices around working with output history.
 
+## Output generation performance optimization {#id176LB050VUI}
+
+AEM Guides allows you to configure the output generation processes pool size that controls the number of output generation processes that run concurrently. By default, the process pool size is set to number of processing cores available in your system plus one. You might want to change this value to 1 in case you want sequential publishing. In this case, the first publishing task gets executed and the next publishing task is stored in the publishing queue.
+
+To change the output generation processing pool size, update the **Generation Pool Size** setting in the `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` bundle.
+
 ## Configure FrameMaker Publishing Server (for On-Premise) {#id1678G0Z0TN6}
 
 You can use FrameMaker Publishing Server \(FMPS\) to generate output for your DITA content. Configuring FMPS will allow you to generate output in multiple formats supported by FMPS.
@@ -1043,11 +503,5 @@ To configure AEM Guides to use FMPS, update the following properties of the `com
 |External AEM URL|*\(Optional\)* The AEM URL where the FrameMaker Publishing Server will place the generated output files. For example, `http://<server-name>:<port>/`.|
 |AEM Admin Username and Password|*\(Optional\)* The user name and password for an administrator of your AEM setup. This will be used by FrameMaker Publishing Server to communicate with AEM.|
 |FMPS Task Execution Wait Timeout|This setting is applicable only for FMPS 2020. Specify the time \(in seconds\) after which FMPS will stop waiting for this process to execute.
-
-## Output generation performance optimization {#id176LB050VUI}
-
-AEM Guides allows you to configure the output generation processes pool size that controls the number of output generation processes that run concurrently. By default, the process pool size is set to number of processing cores available in your system plus one. You might want to change this value to 1 in case you want sequential publishing. In this case, the first publishing task gets executed and the next publishing task is stored in the publishing queue.
-
-To change the output generation processing pool size, update the **Generation Pool Size** setting in the `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` bundle.
 
 
