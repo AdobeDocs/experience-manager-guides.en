@@ -278,7 +278,10 @@ Using the `<config> </config>` block, you can define one or multiple blocks of c
 
 ## Migrate unstructured FrameMaker documents {#id1949B050VUI}
 
-AEM Guides allows you to convert your existing unstructured FrameMaker \(`.fm` and `.book`\) documents into DITA documents. The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
+AEM Guides allows you to convert your existing unstructured FrameMaker \(`.fm` and `.book`\) documents into DITA documents. For complete details about the process, view [Migrating technical documentation from unstructured to DITA in Adobe FrameMaker](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/).
+
+<!-- Deprecated information -
+ //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
 
 Also, If you want to specify some additional attributes with your custom or valid DITA element, you can define those in the style2attrMap.xml file. For example, you can specify the `type` attribute with the value of `important` to be passed on with the `impnote` element. This additional information can be specified in the style2attrMap.xml file.
 
@@ -341,6 +344,7 @@ To convert your existing unstructured FrameMaker documents into DITA format, per
 
 Using the `<attrMap> </attrMap>` block, you can define one or multiple blocks of configurations for conversion. Depending on the content, you could have a .dita file and a .ditamap file as the converted files.
 
+-->
 ## Migrate any other structured document {#id1949B0590YK}
 
 AEM Guides allows you to convert your existing structured documents into valid DITA documents. You need to specify the input and output folder locations, the location of your transformation file, the extension with which the final output is saved, and whether a new version of the document is required or not.
