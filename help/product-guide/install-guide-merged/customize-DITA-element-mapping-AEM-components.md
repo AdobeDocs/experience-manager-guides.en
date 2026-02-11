@@ -16,7 +16,7 @@ DITA elements in the AEM Guides are mapped to their corresponding AEM components
 
 You may use the predefined DITA element mappings, or you can map DITA elements to your custom AEM components. To use your custom AEM components, you need to understand the structure of the `elementmapping.xml` file.
 
-### elementmapping.xml structure 
+## elementmapping.xml structure 
 
 A high-level overview of the `elementmapping.xml` structure is explained below:
 
@@ -129,7 +129,7 @@ A high-level overview of the `elementmapping.xml` structure is explained below:
     If you do not want any pre-processing or resolution to happen on path attributes, then you need not specify the `ispath` attribute. The value is copied as is and the component can do the required resolution.
 
 
-### DITA element schema 
+## DITA element schema 
 
 Following is an example of the DITA element schema in `elementmapping.xml` file:
 
