@@ -345,6 +345,7 @@ To convert your existing unstructured FrameMaker documents into DITA format, per
 Using the `<attrMap> </attrMap>` block, you can define one or multiple blocks of configurations for conversion. Depending on the content, you could have a .dita file and a .ditamap file as the converted files.
 
 -->
+
 ## Migrate any other structured document {#id1949B0590YK}
 
 AEM Guides allows you to convert your existing structured documents into valid DITA documents. You need to specify the input and output folder locations, the location of your transformation file, the extension with which the final output is saved, and whether a new version of the document is required or not.
