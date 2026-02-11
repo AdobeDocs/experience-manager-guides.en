@@ -580,8 +580,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Configuration overrides for Cloud Service](./install-guide-merged/download-install-additional-config-override.md)
     - Recommendations for performance optimization {#performance-optimization-aemg}
       - [Performance optimization for Cloud Service](./install-guide-merged/download-install-recommend-perf-optimiz-cs.md)
-      - [Performance optimization for On-Premise](./install-guide-merged/download-install-recommend-perf-optimiz-on-prem.md)
-    - [Configuration overrides](./install-guide-merged/download-install-additional-config-override.md)      
+      - [Performance optimization for On-Premise](./install-guide-merged/download-install-recommend-perf-optimiz-on-prem.md)         
     - Work with user groups and security {#user-group-sec-cs-exp}
       - [User administration and security](./install-guide-merged/user-admin-sec.md)
     - Content migrate {#migrate-con-cs-exp}
@@ -635,7 +634,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Set the Advanced Map Editor as default](./install-guide-merged/conf-map-editor.md) 
       - [Include @navtitle attribute by default](./install-guide-merged/auto-add-navtitle.md)
       - [Configure the option to edit in Oxygen](./install-guide-merged/conf-edit-in-oxygen.md)
-      - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)       
+      - [Configure additional special characters](./web-editor/configure-additional-special-characters-exp.md)       
     - Work with global and folder-level profiles {#global-folder-profiles-cs-exp}
       - [Configure global or folder-level profiles](./install-guide-merged/conf-folder-level.md)
     - Configure versions {#version-mgt-cs-exp}
@@ -653,8 +652,8 @@ breadcrumb-title: AEM Guides Documentation
         - [Component mapping for AEM Sites](./install-guide-merged/component-mapping.md)
       - [Overlay HTML tags in AEM Sites output](./install-guide-merged/overlay-html-tags-aem-sites.md)   
       - [Native PDF Publishing](./install-guide-merged/native-pdf-publishing.md)      
-      - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
-      - [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
+      - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options-exp.md)
+      - [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags-exp.md)
       - [Create a mapping between a topic and a content fragment](./install-guide-merged/conf-content-fragment-mapping-cs.md)
       - [Create a mapping between a topic and an experience fragment](./install-guide-merged/conf-experience-fragment-mapping-cs.md)
       - [Configure Base Output Location for publishing output](./install-guide-merged/configure-base-location.md)
