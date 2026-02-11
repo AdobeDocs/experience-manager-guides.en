@@ -30,15 +30,15 @@ Perform the following steps to insert questions into a quiz:
 
 You can configure the following question properties from the **Content properties** panel:
 
-![](assets/question-properties-new.png){width="650" align="left"}
+![](assets/question-properties-new.png){width="350" align="left"}
 
-- Options: Specify the correct answer of the question
-- Question Id: Specifies the question ID for each question.
-- Points for correct answer: Specify the points to be awarded for the correct answer.
-- Penalty for incorrect answer: Specify the points to be deducted for an incorrect answer.
-- Question label: Enable to add a question label
-- Feedback: Enable to provide the feedback for correct or incorrect answer.
-- Pin a specific option for a question: When an option is pinned, it remains fixed in the specified position in the option list, even if **Randomize answer choices for each attempt**is enabled in the SCORM preset configuration, which would otherwise reshuffle the available options.
+- **Options**: Specify the correct answer of the question
+- **Question Id**: Specifies the question ID for each question.
+- **Points for correct answer**: Specify the points to be awarded for the correct answer.
+- **Penalty for incorrect answer**: Specify the points to be deducted for an incorrect answer.
+- **Question label**: Enable to add a question label.
+- **Feedback**: Enable to provide the feedback for correct or incorrect answer.
+- **Pin option to a position**: When a specific option for a question is pinned, it remains fixed in the specified position in the option list, even if **Randomize answer choices for each attempt**is enabled in the SCORM preset configuration, which would otherwise reshuffle the available options. You can hover over the desired option of a question in the Content Properties panel and pin it.
 
     ![](assets/pin-question.png){width="350" align="left"}
 

@@ -11,7 +11,7 @@ After the preset is created, configure the SCORM preset settings. The preset con
 
 - **General:**  Used to specify basic output settings, such as the supported version, output path, ZIP file name, output template, and other options related to Learner's experience.
 
-    ![](assets/scorm-general-tab.png){width="650" align="left"}
+    ![](assets/scorm-general-tab-v3.png){width="650" align="left"}
 
     **Learner's experience** 
 
