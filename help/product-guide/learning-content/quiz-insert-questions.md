@@ -33,7 +33,7 @@ You can configure the questions using the following question properties from the
 ![](assets/question-properties-new.png){width="350" align="left"}
 
 - **Options**: Specify the correct answer of the question
-- **Question Id**: Specifies the question ID for each question.
+- **Question Id**: Specifies the question ID for each question. If a question id is not present, it is recommended to always add it.
 - **Points for correct answer**: Specify the points to be awarded for the correct answer.
 - **Penalty for incorrect answer**: Specify the points to be deducted for an incorrect answer.
 - **Question label**: Enable to add a question label.
