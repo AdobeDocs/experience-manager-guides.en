@@ -647,8 +647,8 @@ breadcrumb-title: AEM Guides Documentation
     - Work with output generation settings {#output-gen-config-cs-exp}  
       - [Configure output generation settings](./install-guide-merged/conf-output-generation.md) 
       - AEM Sites templates {#download-aem-sites}
-        - [Download and install AEM Sites templates for Cloud Service](./install-guide-merged/download-install-aem-sites-templates-cs-kb.md)
-        - [Download and install AEM Sites templates for On-Premise](./install-guide-merged/download-install-aem-sites-templates-prem-kb.md)
+        - [Download and install AEM Sites templates for Cloud Service](./install-guide-merged/download-install-aem-sites-templates-cs.md)
+        - [Download and install AEM Sites templates for On-Premise](./install-guide-merged/download-install-aem-sites-templates-prem.md)
         - [General instructions to customize existing AEM Site templates for AEM Guides](./install-guide-merged/customize-exsisting-site-template-kb.md)
         - [Component mapping for AEM Sites](./install-guide-merged/component-mapping.md)
       - [Overlay HTML tags in AEM Sites output](./install-guide-merged/overlay-html-tags-aem-sites.md)   
