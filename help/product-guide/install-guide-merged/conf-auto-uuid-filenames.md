@@ -47,4 +47,5 @@ Perform the following steps to automatically assign the UUID-based file name for
 > By default, this option is turned OFF. When this option is turned on, authors will not see the option to specify the file name while creating a new topic or map file. A new topic or map file can be created from the Assets UI and the Web Editor.
 
 >[!ENDTABS]
+
 **Parent topic:**[Configure filenames](conf-file-names.md)

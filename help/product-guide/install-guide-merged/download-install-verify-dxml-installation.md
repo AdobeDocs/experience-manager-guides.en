@@ -9,7 +9,7 @@ level: Experienced
 
 Once you have installed AEM Guides, you need to verify whether the installation was successful or not. Perform the following steps to verify the installation:
 
-[!BEGINTABS]
+>[!BEGINTABS]
 
 >[!TAB Cloud Service]
 
