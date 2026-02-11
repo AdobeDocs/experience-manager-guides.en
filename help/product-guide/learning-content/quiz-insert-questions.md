@@ -9,7 +9,7 @@ exl-id: dff38476-c078-4970-b967-05a902430015
 
 Perform the following steps to insert questions into a quiz: 
 
-1. Choose the desired question type from the **Questions** dropdown menu in the toolbar. Based on your requirements, you can add questions using any of the four available formats: True or False, Single correct, Multiple correct and Match the following as shown below. For more details, view [Question types](#question-types).
+1. Choose the desired question type from the **Questions** dropdown menu in the toolbar. Based on your requirements, you can add questions using any of the four available formats: True or False, Single correct, Multiple correct, Match the following and Short answer as shown below. For more details, view [Question types](#question-types).
 
     ![](assets/question-types.png){width="650" align="left"}
 
@@ -19,11 +19,28 @@ Perform the following steps to insert questions into a quiz:
    
 1. A question is inserted in the selected format. You can then edit the question based on your requirements.    
     
-1. You can select any question and configure its properties using the **Content properties** panel. For example, you can specify the correct answer, set the marks to be awarded, and define any penalty for incorrect responses.   
+1. You can select any question and configure its properties using the **Content properties** panel.
 
     ![](assets/question-properties.png){width="650" align="left"}
 
-1. Save all the changes you have made in the quiz.
+ 1. Save all the changes you have made in the quiz.
+
+
+## Question properties
+
+You can configure the following question properties from the **Content properties** panel:
+
+![](assets/question-properties-new.png){width="650" align="left"}
+
+- Options: Specify the correct answer of the question
+- Question Id: Specifies the question ID for each question.
+- Points for correct answer: Specify the points to be awarded for the correct answer.
+- Penalty for incorrect answer: Specify the points to be deducted for an incorrect answer.
+- Question label: Enable to add a question label
+- Feedback: Enable to provide the feedback for correct or incorrect answer.
+- Pin a specific option for a question: When an option is pinned, it remains fixed in the specified position in the option list, even if **Randomize answer choices for each attempt**is enabled in the SCORM preset configuration, which would otherwise reshuffle the available options.
+
+    ![](assets/pin-question.png){width="350" align="left"}
 
 ## Insert paragraph within the quiz
 
@@ -47,7 +64,7 @@ Perform the following steps to delete a question or specific option from a quiz:
 
 The following question types are supported in a Quiz:
 
-- **Single Correct**: A question with multiple options where only one answer is correct.
+- **Single correct**: A question with multiple options where only one answer is correct.
 
     ![](assets/single-correct.png){width="650" align="left"} 
 
@@ -56,7 +73,7 @@ The following question types are supported in a Quiz:
     ![](assets/true-false.png){width="650" align="left"}
 
 
-- **Multiple Correct**: A question with multiple options where more than one answer can be correct.
+- **Multiple correct**: A question with multiple options where more than one answer can be correct.
 
     ![](assets/multi-correct.png){width="650" align="left"} 
 
@@ -67,3 +84,8 @@ The following question types are supported in a Quiz:
     In the published output, the **Match the following** question appears with dropdown menu for each item, allowing you to select the correct match from the available options.
 
     ![](assets/question-type-publishing.png){width="650" align="left"}
+
+
+- **Short answer**: Allows learners to respond using a brief text input. It accepts alphanumeric answers, matches responses case‑insensitively, and for very long answers it provides a horizontal scrolling bar.
+
+    ![](assets/short-answer.png){width="650" align="left"}
