@@ -11,7 +11,11 @@ This guide provides step-by-step instructions to set up and configure the latest
 
 ## Prerequisites
 
-Before proceeding with the setup, ensure the following pre-requisites are met:
+The following tabs provide necessary pre-requisites based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
+
+>[!BEGINTABS]
+
+>[!TAB Cloud Service]
 
 - **Adobe Experience Manager (AEM) Cloud**: A running instance of **AEM as a Cloud Service** with **AEM Guides 2502 or later versions**.
 
@@ -26,7 +30,31 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
     - Components package: guides-components.all-1.x.0.zip
     - Sites template: aemg-docs-1.x.0.zip    
 
-## Package installation via Cloud deployment
+>[!TAB On-Premise]
+
+- **Adobe Experience Manager (AEM):** A running instance of **AEM 6.5** with **Service Pack** 21, 20, and 19 and **AEM Guides 4.6.0**, or later versions installed.
+
+- **Required Permissions**: Ensure to have the following permissions:
+
+    - Access to  **Software Distribution Portal** to download the required packages
+    - Access to **CRX Package Manager** to install packages in AEM.
+    - Permissions to create and modify presets in AEM Guides.
+
+- **Download Packages**: Download the following packages from **Software Distribution Portal**:
+
+    - Components package: on-prem-guides-components.all-1.x.0.zip
+    - Sites package: aemg-docs.all-1.x.0.zip  
+
+>[!ENDTABS]    
+
+
+## Package installation
+
+The following tabs provide instructions for package installation based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+
+>[!BEGINTABS]
+
+>[!TAB Cloud Service]
 
 Install the **Components Package (guides-components.all-1.x.x.zip)** and perform the following steps
   
@@ -61,7 +89,17 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
     2. Navigate to **Pipelines** in Cloud Manager and run the pipeline for the desired environment.
 6. **Verify installation:** Once the deployment is complete, the components package will be installed on the AEM Cloud environment.
 
-## Create Site using installed templates
+>[!TAB On-Premise]
+
+1. **Install the Components Package:**  
+    1. Navigate to [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr).
+    2. Upload and install the on-prem-guides-components.all-1.x.0.zip package.
+    
+2. **Install the Sites Package:** Upload and install the aemg-docs.all-1.x.0.zip package using the CRX Package Manager.
+
+>[!ENDTABS] 
+
+## Create Site using installed templates (for Cloud Service)
 
 1. **Import Sites Template:**
     1. Go to the AEM Sites page (servername/sites.html/content).
@@ -82,27 +120,34 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
     3. Select the type as **AEM Sites**.
     4. Enter a name for the preset.
     5. Uncheck the **Use legacy component mapping** setting.
-
-        ![Create new AEM Site preset](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-output-preset.png){width="350" align="left"}
-
     6. Select **Add** to create the preset.
+
+        ![Create new AEM Site preset](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+
+    
 2. **Configure AEM Site Preset:** There are two options to configure the out-of-the-box (OOTB) site:
 
     **Option 1: Use the Site Dropdown**
 
     1. Select **Site** as the one created above (e.g., AEMG Docs Site).
     2. Verify that the **Publish path** and **Topic page** template are automatically set to: 
-        - Publish path: `/content/AEMG-Docs-Site/en/docs/product`
+        - Publish path: Cloud Service: `/content/AEMG-Docs-Site/en/docs/product` and On-Premise: `aemg-docs/en/docs/product1` 
         - Topic page template: Topic Page
 
         ![Use the site dropdown to configure the AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
 
     **Option 2: Use the Site Path**
 
-    1. Set the **Site path** manually as `/content/AEMG-Docs-Site/en/docs/product`.
+    1. Set the **Site path** manually as `/content/AEMG-Docs-Site/en/docs/product` for Cloud Service and `/content/aemg-docs/en/docs/product1` for On-Premise.
     2. Verify that the **Topic page** template is automatically set to Topic Page.
 
+        For Cloud Service:
+
         ![Use the site path to configure the AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+
+        For On-Premise:
+
+        ![Use Site Path](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
 
 3. **Save the preset:** Save the changes made to the preset.
 
@@ -110,7 +155,7 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
 
 1. **Generate Site:**
     1. With the preset configured, generate the AEM Site for the corresponding DITA map.
-    2. The generated site will be available at the path: `/content/AEMG-Docs-Site/en/docs/product`.
+    2. The generated site will be available at the path: `/content/AEMG-Docs-Site/en/docs/product` for Cloud Service and `/content/aemg-docs/en/docs/product1` for On-Premise.
 2. **Change the Default Generation Path (Optional):** If you want to change the default path for site generation, perform the following steps:
     1. Navigate to **AEM Sites**.
     2. Create a new product page under the OOTB site structure.
@@ -127,4 +172,4 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
 
 >[!NOTE]
 >
-> Ensure all configurations are tested in a non-production environment before deploying to production. <br><br> Refer to the official [Deploying to AEM as a Cloud Service documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) for additional details.
+> For Cloud Service setup, ensure all configurations are tested in a non-production environment before deploying to production. <br><br> Refer to the official [Deploying to AEM as a Cloud Service documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) for additional details.
