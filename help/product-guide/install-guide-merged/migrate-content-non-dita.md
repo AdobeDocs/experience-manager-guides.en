@@ -53,9 +53,7 @@ By default, AEM Guides uses the [Word-to-DITA \(Word2DITA\) transformation frame
 
 ### Convert your existing Word documents into DITA topic type document
 
->[!CAUTION]
->
-> The steps to convert your existing Word documents into DITA topic type document differ based on your deployment type: Cloud Service or On-Premise. Select only the tab relevant to your deployment.
+The following tabs provide instructions to convert your existing Word documents into DITA topic type document based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
@@ -114,7 +112,7 @@ If you are an existing user for AEM Guides as a Cloud Service and upgrading from
 -   Change the value for `<s2tMap>` from /apps/dxml/word2dita/word-builtin-styles-style2tagmap.xml to /libs/fmdita/word2dita/word-builtin-styles-style2tagmap.xml
 -   Make the necessary changes in your Cloud Manager Git repository as for cloud service all files in /apps are overlayed via Cloud Manager Git.
 
->[!TAB On-premise] 
+>[!TAB On-Premise] 
 
 Perform the following steps to convert your existing Word documents into DITA topic type document:
 
@@ -299,7 +297,7 @@ Apart from the considerations for creating the ZIP file, your XHTML document mus
 
 >[!CAUTION]
 >
-> The steps to convert your existing XHTML document into DITA topic differ based on your deployment type: Cloud Service or On-Premise. Select only the tab relevant to your deployment.
+> The following tabs provide instructions to convert your existing XHTML document into DITA topic based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
@@ -354,7 +352,7 @@ To convert your existing XHTML document into DITA topic, perform the following s
 
 Using the `<config> </config>` block, you can define one or multiple blocks of configurations for conversion. The conversion workflow gets executed and the final output in the form of a DITA topic is saved in the location specified in the `outputDir` element.
 
->[!TAB On-premise] 
+>[!TAB On-Premise] 
 
 o convert your existing XHTML document into DITA topic, perform the following steps:
 
@@ -480,7 +478,8 @@ AEM Guides allows you to convert your existing structured documents into valid D
 
 >[!CAUTION]
 >
-> The steps to migrate any other structured document differ based on your deployment type: Cloud Service or On-Premise. Select only the tab relevant to your deployment.
+> The following tabs provide instructions to migrate any other structured document based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+
 
 >[!BEGINTABS]
 
@@ -519,7 +518,7 @@ To convert your existing structured documents into DITA format, perform the foll
 
 Using the `<config> </config>` block, you can define one or multiple blocks of configurations for conversion. The conversion workflow gets executed and the final output in the form of a DITA topic is saved in the location specified in the `outputDir` element.
 
->[!TAB On-premise]
+>[!TAB On-Premise]
 
 1.  Log into AEM and open the CRXDE Lite mode.
 

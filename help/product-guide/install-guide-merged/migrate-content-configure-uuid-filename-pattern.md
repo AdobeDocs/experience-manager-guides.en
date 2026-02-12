@@ -11,9 +11,7 @@ When you import content, it is not necessary that your file names will be based 
 
 ## Steps to configure UUID filename pattern
 
->[!CAUTION]
->
-> The steps to configure UUID filename pattern differ based on your deployment type: Cloud or On-Premise. Select only the tab relevant to your deployment.
+The following tabs provide instructions to configure UUID filename pattern based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
@@ -23,10 +21,9 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager`|`uuid.regex`|String specifying the regex for UUID filename pattern. <br> If a file doesn't follow the specified pattern, a UUID is added to the file's property and all references to the file are updated with the UUID assigned to the file. <br> **Default value**: `"^GUID-(?<id>.*)"` |
+|`com.adobe.fmdita.config.ConfigManager`|`uuid.regex`|String specifying the regex for UUID filename pattern. <br> If a file doesn't follow the specified pattern, a UUID is added to the file's property and all references to the file are updated with the UUID assigned to the file. <br> **Default value**: `"^GUID-(?<id>.*)"`|
 
-
->[!TAB On-premise] 
+>[!TAB On-Premise] 
 
 Perform the following steps to check file names against a UUID pattern and assign UUID to files that do not have a UUID assigned:
 
