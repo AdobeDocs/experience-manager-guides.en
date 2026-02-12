@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 ---
-# Download and install AEM Sites templates for Cloud Service
+# Download and install AEM Sites templates
 
 This guide provides step-by-step instructions to set up and configure the latest AEM Guides template for generating AEM Sites pages in a cloud environment. Follow these steps to install the required packages, create and configure presets, and generate AEM Sites.
 

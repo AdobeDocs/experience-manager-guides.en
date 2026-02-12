@@ -9,8 +9,7 @@ level: Experienced
 
 Experience Manager Guides comes with the **Data Sources** tool that helps you configure out-of-the-box connectors for data sources. You can set up the JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, ElasticSearch, and Generic REST Client connectors.
 
-
-For Experience Manger Guides for a Cloud Service setup, besides these out-of-the-box connectors, Experience Manager Guides provides the connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. You can download and install these open-source connectors from the [Maven Central repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). The users can then configure these connectors. 
+For only the Cloud Service setup, besides these out-of-the-box connectors, Experience Manager Guides provides the connectors for Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO) data sources. You can download and install these open-source connectors from the [Maven Central repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). The users can then configure these connectors. 
 Learn how to [install an open-source connector](#install-open-source-connector).
 
 You can also connect to JSON data files using a file connector. Upload the JSON file from your computer or browse it from the Adobe Experience Manager assets. Then, create content snippets or topics using the generators.
@@ -169,3 +168,5 @@ You view an error if the connector with the same name exists.
 
 
 Once you have configured the data source, the connector is listed under the **Data Sources panel** in the Web Editor. You can then connect to the data source and insert a content snippet into your topics. For more details, view [Insert a content snippet from your data source](../user-guide/web-editor-content-snippet.md).
+
+For On-Premise setup only, you can also create custom connectors and use them with the different data sources. Learn how to [configure custom connectors](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector).

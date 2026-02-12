@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 ---
-# Create a mapping between a topic and an Experience Fragment (for Cloud Service)
+# Create a mapping between a topic and an Experience Fragment for Cloud Service
 
 Adobe Experience Manager Guides provides the feature to create a JSON-based mapping between a topic and an Experience Fragment template. You can use this mapping to publish content present in some or all elements within a topic to an Experience Fragment. 
 

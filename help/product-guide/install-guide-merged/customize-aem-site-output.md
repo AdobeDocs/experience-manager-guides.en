@@ -139,7 +139,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 >[!ENDTABS]
 
-## Configure the URL of the AEM Site output to use the document title (for Cloud Service)
+## Configure the URL of the AEM Site output to use the document title (only for Cloud Service)
 
 You can use the document titles in the URL of the AEM Site output. If the filename doesn't exist or contains all special characters, you can configure the system to replace the special characters with a separator in the URL of the AEM Site output. You can also configure it to replace them with the first child topic's name.
 
@@ -327,7 +327,7 @@ Now, when you generate the AEM Site output, the nodes within the `p` element are
 
 >[!ENDTABS]
 
-**Search a string within the content in AEM Site output (for Cloud Service)**
+**Search a string within the content in AEM Site output (only for Cloud Service)**
 
 By default, you can search for a string in the titles only within the AEM Site output. You can configure the system to search for a string both in the titles and also the content or the body of the AEM Site output.
 
@@ -399,7 +399,7 @@ The following tabs provide instructions to stop the creation of a version for th
 
 >[!ENDTABS]
 
-## Setup custom rewriter with Experience Manager Guides (for Cloud Service) {#custom-rewriter}
+## Setup custom rewriter with Experience Manager Guides (only for Cloud Service) {#custom-rewriter}
 
 Experience Manager Guides has a custom sling [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) module for handling the links generated in case of cross-maps (links between the topics of two different maps). This rewriter configuration is installed at the following path: <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
 

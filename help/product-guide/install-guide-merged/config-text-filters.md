@@ -15,7 +15,7 @@ By default, you can use some enhanced filters to search the files in the AEM rep
 >
 > You can also configure the global profile and add more filters for search.
 
-Perform the following steps to configure the text filters based in the service you are using:
+The following tabs provide instructions to configure the text filters based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 

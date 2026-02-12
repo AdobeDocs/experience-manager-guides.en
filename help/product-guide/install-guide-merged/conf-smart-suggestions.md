@@ -3,7 +3,7 @@ title: Configure AI Assistant for smart help and authoring
 description: Learn how to configure the AI Assistant in Experience Manager Guides 
 
 ---
-# Configure the AI Assistant (for Cloud Service)
+# Configure the AI Assistant for Cloud Service
 
 As an administrator, you can configure the AI Assistant feature in Experience Manager Guides. AI Assistant is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe's secure token-based authentication workflows and start using the AI Assistant feature. The following configuration help you to add the **AI configuration** tab to folder profile. Once added, you can use the AI Assistant feature in Experience Manager Guides.
 

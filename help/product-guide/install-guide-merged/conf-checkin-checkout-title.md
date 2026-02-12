@@ -5,7 +5,7 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Configure the title for Check in and Check out icons (for On-Premise)
+# Configure the title for Check in and Check out icons for On-Premise
 
 AEM Guides allows you to configure the title for Check in and Check out icons in the Web Editor. Perform the following steps to configure the title for Check in and Check out icons:
 

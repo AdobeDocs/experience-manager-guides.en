@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 ---
-# Configure Node Process for Native PDF Publishing
+# Configure Node Process for Native PDF Publishing for Cloud Service
 
 Native PDF publishing starts a separate NodeJs process to convert the files generated in the publishing process to a final PDF. You might have to tweak the configurations of this Node process running Native PDF publishing to support different scenarios. For example, to run larger workloads you should increase the maximum heap size available to the spawned NodeJs process.
 

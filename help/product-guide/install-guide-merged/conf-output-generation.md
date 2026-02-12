@@ -44,10 +44,11 @@ The following tabs provide instructions to hide the Baseline tab on the DITA map
 
 1.  Click **Save**.
 
-    >[!NOTE]
-    >
-    > This configuration is disabled by default and the Baseline tab is available on the map dashboard.
+>[!NOTE]
+>
+> This configuration is disabled by default and the Baseline tab is available on the map dashboard.
 
+>[!ENDTABS]
 
 
 ## Configure blended publishing within an existing AEM Site {#id1691I0V0MGR}
@@ -270,7 +271,7 @@ Lastly, as a Publisher, you need to include the custom metadata in the published
 
 The selected properties/metadata are passed on to the publishing process and are made available in the final output.
 
-### Validate metadata passing to the DITA-OT for processing (for Cloud Service)
+### Validate metadata passing to the DITA-OT for processing (only for Cloud Service)
 
 In order to validate the metadata values passed to the DITA-OT, local environment using a cloud ready jar can be used. Since we can't access local file system on cloud, only way to validate metadata file is via cloud ready jar.
 
@@ -313,7 +314,7 @@ In order to validate the metadata values passed to the DITA-OT, local environmen
 >
 > If particular metadata is not present for the file, <meta\> tag with the key will not appear as the property for that file in the metadata.xml file.
 
-## Configure the DITA-OT command line argument field to accept root map metadata (for Cloud Service)
+## Configure the DITA-OT command line argument field to accept root map metadata (only for Cloud Service)
 
 To use the DITA-OT command line argument field to pass root map metadata, perform the following steps:
 
@@ -473,13 +474,13 @@ By default, a list of last 25 generated outputs is shown. To change the number o
 >
 > See the *Output history* section in the [Best practices guide](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf) for best practices around working with output history.
 
-## Output generation performance optimization {#id176LB050VUI}
+## Output generation performance optimization (only for On-Premise) {#id176LB050VUI}
 
 AEM Guides allows you to configure the output generation processes pool size that controls the number of output generation processes that run concurrently. By default, the process pool size is set to number of processing cores available in your system plus one. You might want to change this value to 1 in case you want sequential publishing. In this case, the first publishing task gets executed and the next publishing task is stored in the publishing queue.
 
 To change the output generation processing pool size, update the **Generation Pool Size** setting in the `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` bundle.
 
-## Configure FrameMaker Publishing Server (for On-Premise) {#id1678G0Z0TN6}
+## Configure FrameMaker Publishing Server (only for On-Premise) {#id1678G0Z0TN6}
 
 You can use FrameMaker Publishing Server \(FMPS\) to generate output for your DITA content. Configuring FMPS will allow you to generate output in multiple formats supported by FMPS.
 

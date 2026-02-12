@@ -5,7 +5,7 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Configure display of pasted tables (for Cloud Service)
+# Configure display of pasted tables for Cloud Service
 
 Using the secondary toolbar in the Editor, you can insert a simple table at the current or next valid location of a topic. You can also copy a table from Microsoft Word or Excel and paste it directly into a topic file.
 

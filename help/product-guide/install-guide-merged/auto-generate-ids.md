@@ -31,7 +31,6 @@ To configure a pattern for auto-generated ID create a configuration file with th
 
 >[!TAB On-Premise]
 
-
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
     The default URL to access the configuration page is:

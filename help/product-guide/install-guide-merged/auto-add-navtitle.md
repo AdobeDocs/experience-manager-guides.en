@@ -18,7 +18,6 @@ The following tabs provide instructions to include `@navtitle` attribute by defa
 >[!TAB Cloud Service]
 
 1.  To download the UI configuration file log into Adobe Experience Manager as an administrator.
-
 1.  Click on the Adobe Experience Manager link at the top and choose **Tools**.
 1.  Select **Guides** from the list of tools and click the **Folder Profiles**.
 1.  Click on the **Global Profile** tile.

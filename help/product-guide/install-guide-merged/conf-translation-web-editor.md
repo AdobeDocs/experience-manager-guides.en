@@ -5,7 +5,7 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Configure Translation feature in the Web Editor (for Cloud Service)
+# Configure Translation feature in the Web Editor for Cloud Service
 
 The Web editor provides a powerful translation feature to translate your content into multiple languages.
 

@@ -4,7 +4,7 @@ description: Learn how to configure additional special characters in the web edi
 feature: Web Editor
 role: User
 ---
-# How to configure additional special characters in Web Editor toolbar
+# How to configure additional special characters in Web Editor toolbar for On-Premise
 
 There is a shortcut option in the web-editor toolbar to let author insert the special characters already. 
 The same can be seen in screenshot below:

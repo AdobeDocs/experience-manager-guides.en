@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 ---
-# Overlay HTML tags in AEM Sites output (for On-Premise)
+# Overlay HTML tags in AEM Sites output for On-Premise
 
 You can add and customize HTML tags in AEM Sites output generated using the AEM Sites preset based on core components mapping from the Web Editor. To customize the HTML tags, you can overlay the `config.xml` file. For example, you can configure the video and image maps in AEM Sites output.
 

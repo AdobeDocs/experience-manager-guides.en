@@ -9,7 +9,7 @@ level: Experienced
 
 While working in the Web Editor, you need to use the file browse dialog to insert elements like image, reference, or key reference. The default file browse dialog does not offer any file filtering option. You can add your own filters that would allow you to access the required files easily and quickly.
 
-Perform the following steps to add your custom file filtering options to the file browse dialog based on the service you are using.
+The following tabs provide instructions to add your custom file filtering options to the file browse dialog based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
