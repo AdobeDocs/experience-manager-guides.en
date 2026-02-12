@@ -66,8 +66,8 @@ Using the Folder Profiles tile in the Guides settings, you can configure setting
 -   **XML Editor Configurations**: Use this tab to customize the look-and-feel and various features of the Web Editor. The following configurable settings are available for the Web Editor:
 
     -   XML Editor UI Configuration
-    -   XML Editor Page Layout
-    -   XML Editor Configuration
+    -   XML Editor Page Layout only for Cloud Service
+    -   XML Editor Configuration only for Cloud Service
     -   CSS Template Layout
     -   XML Editor Snippets
     -   XML Content Version Labels
