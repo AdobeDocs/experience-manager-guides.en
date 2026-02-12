@@ -485,7 +485,7 @@ To ensure smart suggestions work effectively, keep the following points in mind 
 
      The error logs are displayed as shown below:
 
-    ![alt text](index-error-log.png) 
+     ![alt text](index-error-log.png) 
 
 6. A timestamp for the last index time is displayed for each folder profile. 
 
