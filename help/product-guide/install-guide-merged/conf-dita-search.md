@@ -206,7 +206,7 @@ Extracting metadata from existing DITA files involves two tasks:
 1.  Enabling the metadata extraction option in the configMgr
 1.  Running the metadata extraction workflow
 
-The following tabs provide instructions to enable the metadata extraction option in the configMgr based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
+The following tabs provide instructions to enable the metadata extraction option in the `configMgr` based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
 
 >[!BEGINTABS]
 
@@ -217,26 +217,6 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |PID|Property Key|Property Value|
 |---|------------|--------------|
 |`com.adobe.fmdita.config.ConfigManager`|`dita.serialization`|Boolean \(true/false\).<br> **Default value**: `false`|
-
-Perform the following steps to run the metadata extraction workflow:
-
-1.  Log into Adobe Experience Manager as an administrator.
-
-1.  Click on the **Adobe Experience Manager** link at the top and choose **Tools**.
-
-1.  Select **Guides** from the list of tools and click the **DITA Metadata Extraction** tile.
-
-1.  If you want to extract metadata from a single file and its dependencies, click the **Select a File** link and browse for a file.
-
-1.  If you want to extract metadata from multiple files within a folder, click the **Select Folder\(s\)** link, browse and select the required folder. Click the **Add** button to add the folder to the serialization task list.
-
-    >[!NOTE]
-    >
-    > You can select and add multiple folders to a serialization task.
-
-1.  Click **Start**.
-
-1.  In the Confirm Metadata Extraction dialog, click **OK**.
 
 >[!TAB On-Premise]
 
@@ -250,6 +230,7 @@ Perform the following steps to run the metadata extraction workflow:
 
 1.  Click **Save**.
 
+>[!ENDTABS]
 
 Perform the following steps to run the metadata extraction workflow:
 
@@ -270,8 +251,6 @@ Perform the following steps to run the metadata extraction workflow:
 1.  Click **Start**.
 
 1.  In the Confirm Metadata Extraction dialog, click **OK**.
-
->[!ENDTABS]
 
 ## Exclude temporary files from search results {#id197AHI0035Z}
 

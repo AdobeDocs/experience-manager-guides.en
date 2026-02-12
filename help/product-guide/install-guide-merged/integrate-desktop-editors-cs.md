@@ -14,7 +14,9 @@ There are a lot of XML editors available on the market, and you could be using o
 You can use FrameMaker or any other DITA editor to create and update DITA content. However, if your organization uses FrameMaker as DITA editor, then you can give your users an option to open DITA documents directly in FrameMaker from AEM.
 
 
-By default, your users do not see the **Open in FrameMaker** button on the AEM toolbar. Perform the following steps to add this button on the AEM toolbar based on the server that you are using.
+By default, your users do not see the **Open in FrameMaker** button on the AEM toolbar. 
+
+The following tabs provide instructions to add this button on the AEM toolbar based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 

@@ -14,7 +14,11 @@ Automate the translation of page content, assets, and user-generated content to 
 -   Machine translation: The machine translation service immediately translates your content
 
 
-Translating content involves the following steps:
+The following tabs provide instructions for translating content based on your Experience Manager Guides setup: Cloud Service or On-Premise.  
+
+>[!BEGINTABS]
+
+>[!TAB Cloud Service]
 
 1.  Connect AEM with your [translation service provider](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) and create translation integration framework configurations.
 
@@ -29,6 +33,22 @@ Translating content involves the following steps:
 1.  Use the translation projects to [manage the content translation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) process.
 
 
+>[!TAB On-Premise]
+
+1.  Connect AEM with your [translation service provider](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) and create [translation integration framework configurations](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+
+1.  Associate the pages of your language master with the [translation service and framework configurations](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+
+1.  Identify the type of [content to translate](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
+
+1.  [Prepare the content for translation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) by authoring the language master and creating the root pages of language copies.
+
+1.  Create [translation projects](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) to gather the content to translate and to prepare the translation process.
+
+1.  Use the translation projects to [manage the content translation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) process.
+
+[!ENDTABS]
+
 When your translation service provider does not provide a connector to integration with AEM, then AEM supports the manual export and import of translated content in XML format.
 
 >[!TIP]
@@ -37,7 +57,7 @@ When your translation service provider does not provide a connector to integrati
 
 ## Configure the Translation tab on the DITA map dashboard 
 
-To hide the Translation tab on the DITA map dashboard, perform the following steps:
+The following tabs provide instructions to hide the Translation tab on the DITA map dashboard based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
 
 >[!BEGINTABS]
 
@@ -130,15 +150,15 @@ Based on the translation workflow used in your setup, the component-based transl
 
 ## Configure the legacy translation workflow 
 
->[!IMPORTANT]
->
-> It is recommended that you use the latest translation workflow, available in AEM Guides 2024.06.0 and onwards, for an enhanced performance. However, if you've enabled any customization in the translation process and it is impacted by the new workflow, consider reverting to the legacy translation workflow as a workaround.
-
-By default, the legacy translation workflow option is disabled. The following tabs provide instructions to configure this option based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
+The following tabs provide instructions to configure this option based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
 
 >[!BEGINTABS]
 
 >[!TAB Cloud Service]
+
+>[!IMPORTANT]
+>
+> It is recommended that you use the latest translation workflow, available in AEM Guides 2024.06.0 and onwards, for an enhanced performance. However, if you've enabled any customization in the translation process and it is impacted by the new workflow, consider reverting to the legacy translation workflow as a workaround. 
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to configure the legacy translation workflow:
  
@@ -157,6 +177,10 @@ Use the instructions given in [Configuration overrides](download-install-additio
 > After setting up the translation configurations, ensure that you set up the appropriate Cloud Configuration on the language folders.
 
 >[!TAB On-Premise]
+
+>[!IMPORTANT]
+> 
+> It is recommended that you use the latest translation workflow, available in AEM Guides 4.6.0 and onwards, for an enhanced performance. However, if you've enabled any customization in the translation process and it is impacted by the new workflow, consider reverting to the legacy translation workflow as a workaround. By default, the legacy translation workflow option is disabled.
 
 1. Open the Adobe Experience Manager Web Console Configuration page.
 
@@ -181,7 +205,7 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 When you initiate the translation workflow, the system creates temporary language copies of the source content. You can choose to enable or disable the post-processing operation on these temporary files. In the post-processing operation, the incoming and outgoing references from the files are resolved, the document state is set, along with other operations. If you enable post-processing on these temporary files, the translation process could take longer time to complete. Therefore, it is recommended to keep post-processing option disabled.
 
-By default, the post-processing of temporary files option is disabled. The following tabs provide instructions to configure this option based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
+The following tabs provide instructions to configure this option based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
 
 >[!BEGINTABS]
 
@@ -194,6 +218,10 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |`com.adobe.fmdita.config.ConfigManager`|`postprocess.temporary.langcopies`|Boolean: <br> -   If you do not want to run the post-processing operation on the temporary files, then *Disable* \( false\) the **Post-process language copies** option.<br> -   If you want to run the post-processing operation on the temporary files, then *Enable* \( true\) the **Post-process language copies** option.<br> **Default value**: false|
 
 >[!TAB On-Premise]
+
+>[!NOTE]
+>
+> By default, the post-processing of temporary files option is disabled.
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 

@@ -237,7 +237,7 @@ generatedPath;
 Once you have created the script, call the custom script in your workflow. Then, depending on your requirements, you can call the other workflow processes. Once you have designed your custom workflow, call the *Finalize Post Generation* as the last step in your workflow process. The *Finalize Post Generation* step ensures that the status of the output generation task gets updated to *Finished* on completion of the output generation process. After creating a custom post-output generation workflow, you can configure it with any of your output generation presets. Select the required workflow in the *Run Post Generation Workflow* property of the required preset. When you run an output generation task using the configured output preset, the task status \(in the Output tab\) changes to *Post-Processing*.
 
 
-## Customize Update Asset workflow (for On-Premise)
+## Customize Update Asset workflow (only for On-Premise)
 
 By default, the *DAM Update Asset* workflow triggers whenever you create or update any AEM Asset \(XML or non-XML\). For example, when you create a topic or update it, the *DAM Update Asset* workflow gets executed. The *DAM Update Asset* workflow tries to extract relevant metadata from the Assets. The out-of-box *Asset Update Workflow* does not have any steps to extract any relevant metadata from a DITA file and the *DAM Update Asset* workflow generates a lot of logs at the time of execution. If you want to avoid the extra logs, you can configure the workflow to skip all XML files from processing.
 
@@ -262,7 +262,7 @@ Perform the following steps to customize the *DAM Update Asset* workflow:
 1.  Click **Save & Close**
 
 
-## Configure post-processing XML workflow (for On-Premise)
+## Configure post-processing XML workflow (only for On-Premise)
 
 AEM Guides creates a bunch of workflows that allow you to work with DITA content in AEM. For example, there are workflows that get executed when you upload DITA content or update existing content. These workflows parse DITA documents and perform various tasks such as setting the metadata, adding default output presets to new DITA maps, and other related tasks.
 

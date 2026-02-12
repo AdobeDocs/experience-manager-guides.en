@@ -20,7 +20,7 @@ In a multi-use environment, it is also important to ensure that users do not del
 >
 > This configuration is applicable only while uploading files.
 
-To enable the **Create new version for uploaded file** option, perform the following steps:
+The following tabs provide instructions to enable the **Create new version for uploaded file** option based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
 1.  In the configuration file, provide the following \(property\) details to configure the **Create new version for uploaded file** option:

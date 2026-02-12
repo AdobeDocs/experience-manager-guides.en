@@ -19,12 +19,11 @@ In a multi-use environment, it is also important to ensure that users do not del
 >
 > This configuration is applicable only while uploading files.
 
-To enable the **Create new version for uploaded file** option, perform the steps mentioned below based on the server you are using.
+The following tabs provide instructions to enable the **Create new version for uploaded file** optionbased on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
 >[!TAB Cloud Service]
-
 
 1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
 1.  In the configuration file, provide the following \(property\) details to configure the **Create new version for uploaded file** option:
@@ -72,6 +71,8 @@ The AEM Guides Web Editor allows you to create and update DITA topics. You can c
 
 Another important rule is to ensure that files that have been checked out are checked back into the system. This prevents users from accidentally closing the files without checking them back in.
 
+The following tabs provide instructions to configure settings to allow editing of checked out files based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+
 >[!BEGINTABS]
 
 >[!TAB Cloud Service]
@@ -114,7 +115,6 @@ In addition, you can also configure to show a warning message whenever a checked
 
 1.  Click **Save**.
 
-
 >[!NOTE]
 >
 > Irrespective of whether you turn on or off this feature, the file Check Out and Check In options are always available in a topic preview.
@@ -127,7 +127,7 @@ In addition, you can also configure to show a warning message whenever a checked
 >
 > *This configuration is applicable only when you create files from the Assets UI and not when you upload files using the WebDAV tool.*
 
-To allow users to overwrite the file on upload that has been checked out by them or some other user, perform the below mentioned steps based on the server you are using.
+The following tabs provide instructions to allow users to overwrite the file on upload that has been checked out by them or some other user based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
@@ -308,12 +308,12 @@ Perform the following steps to purge the older versions:
     ![](assets/preview-purge-report.png)
 
 1.  -   **Number of Versions to Retain from the Latest Version**: Enter the number of versions that should be retained and not purged. For example, if we enter 5 then the last 5 versions are retained, and the versions prior to that are qualified to be purged in case other purging conditions are met.
--   **Retain Versions Created Within Timespan \(In Days\)**: Enter the maximum age of a version in days. The versions older than the given number of days are qualified to be purged in case other purging conditions are met. For example, if we enter 100, all versions created before 100 days are qualified to be purged in case other purging conditions are met.
--   **Path**: Select the path of the file or folder whose files you want to purge.
+    -   **Retain Versions Created Within Timespan \(In Days\)**: Enter the maximum age of a version in days. The versions older than the given number of days are qualified to be purged in case other purging conditions are met. For example, if we enter 100, all versions created before 100 days are qualified to be purged in case other purging conditions are met.
+    -   **Path**: Select the path of the file or folder whose files you want to purge.
 
-    >[!NOTE]
-    >
-    > You can only purge DITA files.
+        >[!NOTE]
+        >
+        > You can only purge DITA files.
 
 1.  Click **Preview Purge Report**.
 

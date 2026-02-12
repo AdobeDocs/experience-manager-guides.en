@@ -436,7 +436,7 @@ AEM Guides allows the administrator to create output presets with specific setti
 
 Once the default output presets have been created in the system, all DITA maps created after that will use the default presets to generate output. However, all existing DITA maps would continue to use the output presets that were earlier configured with them. If you want to apply the new output preset on all existing DITA maps, then you need to run the Apply preset changes workflow.
 
-In addition to the presets configured at the global or enterprise level, a publisher would still have the rights to create more output presets. However, those presets are tied to the DITA map for which they are created. For more details about creating regular output presets for a DITA map, see *Create, edit, duplicate, or remove an output preset* in the Using Adobe Experience Manager Guides.
+In addition to the presets configured at the global or enterprise level, a publisher would still have the rights to create more output presets. However, those presets are tied to the DITA map for which they are created. For more details about creating regular output presets for a DITA map depending on the setup you are using, see *Create, edit, duplicate, or remove an output preset* in the Using Adobe Experience Manager Guides.
 
 Perform the following steps to configure global or folder-specific output presets:
 
@@ -463,7 +463,7 @@ Perform the following steps to configure global or folder-specific output preset
 
     -   Click **Edit** to open the selected preset's configuration for editing.
 
-        For information about output preset settings, see *Understanding the output presets* in the Using Adobe Experience Manager Guides.
+        For information about output preset settings depending on the setup you are using, see *Understanding the output presets* in the Using Adobe Experience Manager Guides.
 
 1.  Click **Save** to save the preset settings.
 
@@ -506,20 +506,19 @@ If you have updated an existing output preset, or you want to make a new output 
 
 
 
-## Configure AI Assistant for smart help and authoring (for Cloud Service only)
+## Configure AI Assistant for smart help and authoring (only for Cloud Service)
 
-For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+For Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
-The AI Assistant in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your content through smart authoring and content reuse experiences. It brings together two robust AI features — **Authoring** and **Help** — into the Experience Manager Guides interface, enabling you to author documents and access information faster and more efficiently.
+The AI Assistant in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your content through smart authoring and content reuse experiences. It brings together two robust AI features — **Authoring** and **Help** — into the Experience Manager Guides interface, enabling you to Authordocuments and access information faster and more efficiently.
 
 For configuration details, view [AI Assistant configuration](./conf-smart-suggestions.md). 
 
 **Configure AI-powered smart suggestions**
 
-You can configure the AI-powered smart suggestions and help the authors reuse the existing content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of  **Suggest reusable content** from the AI Assistant panel in the Web Editor.
+You can configure the AI-powered smart suggestions and help the Authors reuse the existing content and easily create correct and consistent content references. The **AI Configuration** tab allows you to control the settings of  **Suggest reusable content** from the AI Assistant panel in the Editor.
 
 Perform the following steps to configure standard AI configuration at the global or folder-level profile:
-
 1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
 1. Select the **Adobe Experience Manager** link at the top and choose **Tools**.
 1. Select **Guides** from the list of tools and select the **Folder Profiles** tile.
@@ -536,25 +535,68 @@ Perform the following steps to configure standard AI configuration at the global
 1. Select **Edit**.
 1. As an administrator, you can configure the following settings:
 
-    **Minimum characters**: Enter the minimum number of characters that the authors need to type in to get the suggestions. For example, if this number is 7, the author must add at least 7 characters to view a smart suggestion. 
+    **Minimum characters**: Enter the minimum number of characters that the Authors need to select to get the suggestions. For example, if this number is 40, the Author must select at least 40 characters to view a smart suggestion. 
+    
+    For selections that do not meet the minimum character requirement, the following message is displayed in the AI Assistant panel:
 
-    **Maximum suggestions**: Enter the maximum number of suggestions the authors can get while authoring the content. For example, if this number is 5, the author can view five or fewer smart suggestions.
+    ![](assets/smart-suggestions-character-limit.png)   
 
-    **Files and folders**: Select the files or folders from which the smart suggestions should be shown. *For consistency of content, it's recommended that no two entries in the list have common files between them*. Once you select the files and folders, they are listed.
+    However, for general selections where no suggestions are available, the following message is displayed:
+
+    ![](assets/smart-suggestions-select-another-text-message.png)  
+
+    This helps Authors understand whether suggestions are unavailable due to insufficient character selection or genuinely no matching content. 
+
+    **Maximum suggestions**: Enter the maximum number of suggestions the Authors can get while authoring the content. For example, if this number is 5, the Author can view five or fewer smart suggestions.
+
+    **Files and folders**: Select the folders from which the smart suggestions should be shown. Only child folders of the specified folder path in a folder profile can be selected. For more details, view [Folder profile restrictions](#folder-profile-restrictions).
+
+    *To maintain consistency of content, it's recommended that no two entries in the list have common files between them*. Once you select the files and folders, they are listed. 
 
 1. Click **Save**.
 
     >[!NOTE]
     >
-    > The last indexed status details are displayed on the top after you save the file. 
+    > The last indexed status of the folder profile is displayed on the top after you save the file. 
 
 Learn more about how to view and add [AI-based smart suggestions](../user-guide/authoring-ai-based-smart-suggestions.md) to add content references while authoring in the Web Editor.
 
+### Folder profile restrictions
+
+To ensure smart suggestions work effectively, keep the following points in mind when indexing folders:
+
+1. Content must be indexed via folder profiles for the AI assistant to provide smart suggestions to Authors.
+2. When specifying a folder for indexing, only folders that lie under the current folder profile can be added. Attempting to add folders outside this folder profile will trigger a warning.
+
+    ![](assets/warning-message-indexing.png)
+    
+    This restriction applies only to folder-level profiles. The global profile does not enforce path limitations and can index folders that do not lie under any other folder profile.
+3. If a parent folder is added for indexing, any child folders already listed are automatically removed to avoid duplication. Adding a child folder of an already indexed parent will also trigger a warning.
+
+    ![](assets/parent-child-warning-message-indexing.png)
+4. Any updates, moves, or deletions of files within indexed folders trigger automatic reindexing or removal from the index.
+5. For each indexing attempt, the following indexing statuses are displayed:
+
+    - In progress: Indicates that the indexing is in progress.
+    - Indexing completed: Indicates that the indexing has successfuly finished. 
+    - Indexing failed: Indicates that the indexing has failed. 
+    - Not in sync: Indicates that indexing is not in sync, typically observed after an upgrade or migration, when the current indexing status could not be verified. You can retry indexing to refresh and update the status.
+    
+     When indexing fails, you are provided with options **View error logs** and **Retry indexing** to troubleshoot and resolve the issue.
+
+     ![](assets/indexing-failed-options.png)
+
+     The error logs are displayed as shown below:
+
+    ![alt text](index-error-log.png) 
+
+6. A timestamp for the last index time is displayed for each folder profile. 
+
 **Customize the default questions for smart help**
 
-For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+For Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
-You can configure the AI-powered smart **Help** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+You can configure the AI-powered smart **Help** to help the Authors ask questions and easily find the required content from the [ Experience Manager Guides documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 The **XML Editor Configuration** tab allows you to configure the default questions of the **Help** panel.
 
@@ -597,14 +639,13 @@ Perform the following steps to configure the default questions:
 
 Learn more about using the [AI-powered Smart Help](../user-guide/ai-based-smart-help.md) to find the required content from the Experience Manager Guides documentation.
 
-
 ## Configure and customize the XML Editor {#id2065G300O5Z}
 
 By default, the XML Editor comes with a lot of features to help your authors create DITA documents. If you work in a restrictive environment, you can choose which features are exposed to your authors. The XML Editor Configuration tab allows you to easily control the features and also change the look-and-feel of your Editor. As an administrator, you can customize the following components of the Editor:
 
 **XML Editor UI Configuration**
 
-The following tabs provide instructions based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+The following tabs provide information based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
