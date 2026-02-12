@@ -584,11 +584,11 @@ To ensure smart suggestions work effectively, keep the following points in mind 
     
      When indexing fails, you are provided with options **View error logs** and **Retry indexing** to troubleshoot and resolve the issue.
 
-     ![](assets/indexing-failed-options.png)
+    ![](assets/indexing-failed-options.png)
 
      The error logs are displayed as shown below:
 
-    ![alt text](index-error-log.png) 
+    ![](assets/index-error-log.png) 
 
 6. A timestamp for the last index time is displayed for each folder profile. 
 
