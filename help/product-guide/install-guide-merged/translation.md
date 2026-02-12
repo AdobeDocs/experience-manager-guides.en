@@ -47,7 +47,7 @@ The following tabs provide instructions for translating content based on your Ex
 
 1.  Use the translation projects to [manage the content translation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) process.
 
-[!ENDTABS]
+>[!ENDTABS]
 
 When your translation service provider does not provide a connector to integration with AEM, then AEM supports the manual export and import of translated content in XML format.
 
