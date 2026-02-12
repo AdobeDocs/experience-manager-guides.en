@@ -117,7 +117,7 @@ If you do not want to manually change the document states, you can create a work
 >
 > Automated workflows should be in conformance with the document states and transitions defined in the configuration. The system does not perform any checks for state changes done through automated workflows.
 
-Perform the following steps to automate the document state change depending on the server you are using.
+The following tabs provide instructions to automate the document state change based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
 
 >[!BEGINTABS]
 
@@ -186,7 +186,9 @@ Perform the following steps to automate the document state change depending on t
 
 ## Enable approval workflow 
 
-AEM Guides provides document approval workflow, which helps you to control the lifecycle of your document development process. To enable the approval workflow based on the server you are using, perform the following steps:
+AEM Guides provides document approval workflow, which helps you to control the lifecycle of your document development process. 
+
+The following tabs provide instructions to enable approval workflow based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 

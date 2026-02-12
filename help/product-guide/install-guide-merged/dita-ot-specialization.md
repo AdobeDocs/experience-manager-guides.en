@@ -21,9 +21,12 @@ If you want to process Ant parameters while publishing any output, AEM Guides gi
 
 ## Use custom DITA-OT plug-ins {#id181NH1020L7}
 
+The following tabs provide instructions to use custom DITA-OT plug-ins based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+
+
 >[!BEGINTABS]
 
->[!TAB Cloud service]
+>[!TAB Cloud Service]
 
 You can use custom DITA-OT plug-in for publishing by uploading the custom DITA-OT plug-in into the AEM repository. By default, AEM Guides comes with a pre-configured Profile that contains the configurations for the default templates to use for editing and publishing content. You can create custom profiles with custom templates to be used while editing documents and custom DITA-OT plug-ins to publish content.
 
@@ -88,7 +91,7 @@ Perform the following steps to upload custom DITA-OT plug-in into the AEM reposi
 1.  Click **Done** to save the profile.
 
 
->[!TAB On-Prem services]
+>[!TAB On-Premise]
 
 There are two ways to use custom DITA-OT plug-in for publishing. First method is to upload the custom DITA-OT plug-in into the AEM repository. The other method is to save the custom DITA-OT plug-in on your server, create a Profile and provide the location of the custom DITA-OT plug-in in your Profile.
 
@@ -201,9 +204,12 @@ You can use the Profile feature to store custom DITA specialization settings. Th
 >
 > AEM Guides Web Editor does not have support for XSDs.
 
+The following tabs provide instructions to integrate DITA specialization based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+
+
 >[!BEGINTABS]
 
->[!TAB Cloud service]
+>[!TAB Cloud Service]
 
 Perform the following steps to create a new profile and configure it to use specialized DTDs and XSDs in your AEM Guides:
 
@@ -249,7 +255,7 @@ Perform the following steps to create a new profile and configure it to use spec
 
 1. Click **Done** to save the profile.
 
->[!TAB On-Prem services]
+>[!TAB On-Premise]
 
 Perform the following steps to create a new profile and configure it to use specialized DTDs and XSDs AEM Guides:
 

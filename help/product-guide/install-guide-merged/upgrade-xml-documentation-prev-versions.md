@@ -5,16 +5,13 @@ feature: Installation
 role: Admin
 level: Experienced
 ---
-# Upgrade Adobe Experience Manager Guides previous versions 
+# Upgrade Adobe Experience Manager Guides for version 4.6.0 and earlier 
 
 >[!NOTE]
 >
 > Follow the upgrade instructions specific to the licensed version of your product.
 
-You can upgrade your current version of Experience Manager Guides to version 4.6.0:
-
-- If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
-- If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+If you are planning to upgrade to the latest version of AEM Guides, visit [Upgrade Adobe Experience Manager Guides for version 4.6.0 and above](./upgrade-xml-documentation.md). If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]

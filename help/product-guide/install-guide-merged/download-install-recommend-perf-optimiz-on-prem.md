@@ -5,7 +5,7 @@ feature: Performance Optimization
 role: Admin
 level: Experienced
 ---
-# Recommendations for performance optimization {#id213BD0JG0XA}
+# Recommendations for performance optimization (On-Premise){#id213BD0JG0XA}
 
 ## Configure data store \(Mandatory\) 
 

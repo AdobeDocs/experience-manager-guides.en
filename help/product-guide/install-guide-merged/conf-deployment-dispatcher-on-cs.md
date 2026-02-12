@@ -7,9 +7,11 @@ level: Experienced
 ---
 # Deployment and dispatcher configuration 
 
-Starting 2024.2.0 release, Experience Manager Guides is only available as an automated add-on for Experience Manager as a Cloud Service.
+This article provides information on how to deploy Experience Manager Guides as a Cloud Service and configure dispatcher. 
 
-If you are using December 2023 or earlier releases, you can download the Adobe Experience Manager Guides from the GitHub repository and install it. 
+>[!NOTE]
+>
+> Starting 2024.2.0 release, Experience Manager Guides is only available as an automated add-on for Experience Manager as a Cloud Service. If you are using December 2023 or earlier releases, you can download the Adobe Experience Manager Guides from the GitHub repository and install it. 
 
 ## Deploy Experience Manager Guides as a Cloud Service
 

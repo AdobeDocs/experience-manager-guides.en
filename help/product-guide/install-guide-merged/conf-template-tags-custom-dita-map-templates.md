@@ -9,10 +9,12 @@ level: Experienced
 
 AEM Guides comes with two out-of-the-box map templates — DITA map and Bookmap. You can create maps based on these templates; or, you can define your own map templates that can then be used to create new maps.
 
+The following tabs provide instructions to configure custom DITA map template based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+
+
 >[!BEGINTABS]
 
->[!TAB Cloud service]
-
+>[!TAB Cloud Service]
 
 Perform the following steps to add your custom map templates:
 
@@ -86,13 +88,9 @@ Next time you create a new map, your template shows up in the Blueprint page. Fo
 > See the *Custom templates* section in the Best practices guide for best practices around using custom map templates.
 
 
-## Customize the number of references in a DITA map
+## Customize the number of references in a DITA map (Only for Cloud Service)
 
 You can configure the threshold for asynchronous processing based on the number of references in the DITA map. By default, maps with more than 5 references will be created via asynchronous operations, while maps with fewer references will continue using synchronous operations.
-
->[!BEGINTABS]
-
->[!TAB Cloud service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to specify number of references in the DITA map template to keep the process synchronous:
 
@@ -104,8 +102,5 @@ When creating a DITA map with large topic references using a custom template, th
 
 To prevent this, configure **asynchronous dita map creation** in XmlEditorConfig that allows tasks to run in parallel and reduce processing times for larger DITA maps. 
 
->[!TAB On-Premise]
-
->[!ENDTABS]
 
 **Parent topic:** [Configure topic and map templates](conf-template-tags.md)

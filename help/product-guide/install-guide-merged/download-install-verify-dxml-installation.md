@@ -7,11 +7,15 @@ level: Experienced
 ---
 # Verify AEM Guides installation {#id213BD030FBE}
 
-Once you have installed AEM Guides, you need to verify whether the installation was successful or not. Perform the following steps to verify the installation:
+Once you have installed AEM Guides, you need to verify whether the installation was successful or not. 
+
+The following tabs provide instructions to verify AEM Guides installation based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
 >[!TAB Cloud Service]
+
+Perform the following steps to verify the installation:
 
 1.  Access the Developer Console of your Cloud Service.
 
@@ -26,6 +30,8 @@ Once you have installed AEM Guides, you need to verify whether the installation 
     The status should show *Active* for successfully deployed bundles. If any of the bundle does not have an Active status, then check the AEM logs to troubleshoot the installation issue.
 
 >[!TAB On-Premise] 
+
+Perform the following steps to verify the installation:
 
 1.  Log into your AEM instance and navigate to the AEM Web Console Bundles page. The default URL to access the bundles page is:
 
@@ -44,7 +50,7 @@ Once you have installed AEM Guides, you need to verify whether the installation 
 
 >[!IMPORTANT]
 >
-> There are a number of performance optimization recommendations that you can consider to improve your system performance. See [Recommendations for performance optimization](download-install-recommend-perf-optimiz.md#) for details.
+> There are a number of performance optimization recommendations that you can consider to improve your system performance. See [Recommendations for performance optimization](download-install-recommend-perf-optimiz-on-prem.md#) for details.
 
 >[!ENDTABS] 
 

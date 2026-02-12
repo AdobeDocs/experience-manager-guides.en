@@ -9,7 +9,7 @@ level: Experienced
 
 Similar to the list of valid file name characters allowed for DITA topics, you can also configure a list of valid file name characters for AEM Site output. Some of the known characters that are not allowed in a URL are: ``'<>`@$``. These characters are configured to automatically convert into an underscore "`_`" when they are found while generating AEM Site output file names.
 
-The following tabs provide instructions based on your Experience Manager Guides setup: Cloud Service or On-Premise:
+The following tabs provide instructions to configure valid file names for AEM Site output based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 

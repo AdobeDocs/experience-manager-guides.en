@@ -47,9 +47,12 @@ folder. All map templates are stored under the `/content/dam/dita-templates/maps
 
 As an administrator, you can choose to create custom map or topic templates in the default folder or create your own folder to store custom templates. If you plan to use the default folder, then you can skip this process.
 
+The following tabs provide instructions to configure custom DITA template folder path based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+
+
 >[!BEGINTABS]
 
->[!TAB Cloud service]
+>[!TAB Cloud Service]
 
 Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure a folder for your custom DITA topic templates:
 

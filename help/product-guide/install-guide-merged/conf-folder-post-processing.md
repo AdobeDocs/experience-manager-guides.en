@@ -12,9 +12,11 @@ By default, all uploaded assets are processed using the DAM Update Asset workflo
 
 While uploading your files and folders to the *Adobe Experience Manager Assets* server, you can also disable the postprocessing and the generation of UUIDs. 
 
+The following tabs provide instructions to disable postprocessing for a folder based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+
 >[!BEGINTABS]
 
->[!TAB Cloud service]
+>[!TAB Cloud Service]
 
 Use the instructions in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to disable the postprocessing on a given path or ignore the postprocessing for a folder:
 

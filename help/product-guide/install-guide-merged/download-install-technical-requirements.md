@@ -11,7 +11,7 @@ Before installing Adobe Experience Manager Guides, ensure your system meets the 
 
 **Supported browser**
 
--   Google Chrome
+- Google Chrome
 
 
 >[!NOTE]

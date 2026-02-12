@@ -603,7 +603,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure custom DITA topic template](./install-guide-merged/conf-template-tags-custom-dita-topic-template.md)
       - [Configure custom DITA map template](./install-guide-merged/conf-template-tags-custom-dita-map-templates.md)
     - Work with document states {#doc-state-cs-exp}
-      - [Configure document states](./install-guide-merged/customize-doc-state.md)     
+      - [Configure document states](./install-guide-merged/customize-doc-state.md)  
+      - [Configure document state filters](./install-guide-merged/config-doc-state-filters.md)  
     - Configure Workspace settings {#workspace-configs-exp}
       - [Workspace settings](./install-guide-merged/workspace-settings.md)  
     - Work with the Web Editor configurations {#web-editor-configs-cs-exp}

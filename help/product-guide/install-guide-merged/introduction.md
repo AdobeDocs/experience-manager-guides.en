@@ -21,7 +21,7 @@ The following table outlines the complete workflow based on your Experience Mana
 
 |Cloud Service|On-Premise|
 |-------------|------------|
-|Deployment and dispatcher configuration<br>Verify AEM Guides<br>Uninstall AEM Guides<br>Upgrade AEM Guides<br>Reccomendation for performance optimization|Technical requirements<br>Install AEM<br>Download and install AEM Guides for the first time<br>Configure dispatcher<br>Verify AEM Guides<br>Uninstall AEM Guides<br>Upgrade AEM Guides<br>Reccomendation for performance optimization|
+|[Deployment and dispatcher configuration](./conf-deployment-dispatcher-on-cs.md)<br>[Verify AEM Guides](./download-install-verify-dxml-installation.md)<br>[Uninstall AEM Guides](./download-install-unistall-aemg.md)<br>[Upgrade AEM Guides](./download-install-upgrade-dxml.md)<br>[Reccomendation for performance optimization](./download-install-recommend-perf-optimiz-cs.md)|[Technical requirements](./download-install-technical-requirements.md)<br>[Install AEM](./download-install-aem.md)<br>[Download and install AEM Guides for the first time](./download-install-aemg-first-time.md)<br>[Configure dispatcher](./download-install-configure-dispatcher.md)<br>[Verify AEM Guides](./download-install-verify-dxml-installation.md)<br>[Uninstall AEM Guides](./download-install-unistall-aemg.md)<br>[Upgrade AEM Guides](./upgrade-xml-documentation.md)<br>[Reccomendation for performance optimization](./download-install-recommend-perf-optimiz-on-prem.md)|
 
 
 
