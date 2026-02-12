@@ -652,10 +652,10 @@ breadcrumb-title: AEM Guides Documentation
         - [Customize new AEM Site output](./install-guide-merged/customize-aem-site-output.md)
         - [Customize DITA element mapping with AEM components for legacy AEM Site output](./install-guide-merged/customize-DITA-element-mapping-AEM-components.md)
         - [Component mapping for AEM Sites](./install-guide-merged/component-mapping.md)
+        - [Overlay HTML tags in AEM Sites output for On-Premise](./install-guide-merged/overlay-html-tags-aem-sites.md)
       - Native PDF Publishing {#config-native-pdf-publish-exp}
         - [Native PDF Publishing templates and content styles](./install-guide-merged/native-pdf-publishing.md) 
-        - [Configure Node process for Native PDF Publishing for Cloud Service](./native-pdf/configure-node-options-exp.md)  
-        - [Overlay HTML tags in AEM Sites output for On-Premise](./install-guide-merged/overlay-html-tags-aem-sites.md)    
+        - [Configure Node process for Native PDF Publishing for Cloud Service](./native-pdf/configure-node-options-exp.md) 
         - [Configure JVM flags for Native PDF Publishing for On-Premise](./native-pdf/configure-jvm-flags-exp.md)
       - Configure content and experience fragments for Cloud Service {#conf-content-exp-fragment}  
         - [Create a mapping between a topic and a content fragment](./install-guide-merged/conf-content-fragment-mapping-cs.md)
