@@ -5,7 +5,7 @@ feature: Migration
 role: Admin
 level: Experienced
 ---
-# Upload existing DITA content using WebDAV tool and FrameMaker 
+# Upload existing DITA content using WebDAV tool and FrameMaker for On-Premise
 
 Most likely you would have a repository of existing DITA content that you would like to use with AEM Guides. For such existing content, you can use any of the following approaches to bulk upload your content into the AEM repository.
 

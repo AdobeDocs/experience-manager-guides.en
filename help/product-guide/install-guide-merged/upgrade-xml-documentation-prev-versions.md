@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 ---
-# Upgrade Adobe Experience Manager Guides for version 4.6.0 and earlier 
+# Upgrade Adobe Experience Manager Guides for version 4.4.0 and earlier 
 
 >[!NOTE]
 >
