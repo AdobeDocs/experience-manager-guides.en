@@ -650,7 +650,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Download and install AEM Sites templates](./install-guide-merged/download-install-aem-sites-templates-cs.md)
         - [General instructions to customize existing AEM Site templates](./install-guide-merged/customize-exsisting-site-template-kb.md)
         - [Customize new AEM Site output](./install-guide-merged/customize-aem-site-output.md)
-        - [Customize DITA element mapping with AEM components for legacy AEM Site output](./install-guide-merged/customize-dita-element-mapping-aem-components.md)
+        - [Customize DITA element mapping with AEM components for legacy AEM Site output](./install-guide-merged/customize-DITA-element-mapping-AEM-components.md)
         - [Component mapping for AEM Sites](./install-guide-merged/component-mapping.md)
         - [Overlay HTML tags in AEM Sites output for On-Premise](./install-guide-merged/overlay-html-tags-aem-sites.md)
       - Native PDF Publishing {#config-native-pdf-publish-exp}
