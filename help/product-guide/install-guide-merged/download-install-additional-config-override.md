@@ -56,6 +56,3 @@ Perform the following steps to configure Experience Manager Guides UI:
 
     Setting the value to **true** retains the old UI, while **false** activates the new UI.
 
-    
-
-**Parent topic:**[Download and install](download-install.md)

@@ -41,5 +41,3 @@ To clean up the residual files after the uninstall, perform the following steps:
 
 1.  Click **Invalidate Cache**.
 1.  Clean the browser's cache.
-
-**Parent topic:**[Download and install](download-install.md)

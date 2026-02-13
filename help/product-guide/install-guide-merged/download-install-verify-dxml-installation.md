@@ -54,4 +54,4 @@ Perform the following steps to verify the installation:
 
 >[!ENDTABS] 
 
-**Parent topic:**[Download and install](download-install.md)
+

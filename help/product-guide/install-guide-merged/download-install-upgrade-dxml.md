@@ -23,5 +23,3 @@ level: Experienced
 ## Clear browser cache 
 
 After completing the upgrade process, all users must clear the browser cache before using the upgraded version of AEM Guides.
-
-**Parent topic:**[Download and install](download-install.md)

@@ -252,5 +252,3 @@ Index definition is updated for damAssetLucene with Guides. After upgrading to t
 >
 > While following the documentation make sure both properties (reindex=true and reindex-async=true for /oak:index/damAssetLucene) are updated simultaneously via save operation.
 
-
-**Parent topic:** [Download and install](download-install.md)

@@ -17,5 +17,3 @@ For performance optimization, consider the following points:
 
     This change reduces the publishing time and memory utilization while publishing DITA maps with a large number of topics.
 
-
-**Parent topic:**[Download and install](download-install.md)

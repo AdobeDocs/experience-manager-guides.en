@@ -47,5 +47,3 @@ Perform the following steps to download and install AEM Guides for the first tim
 >[!NOTE]
 >
 > Perform the installation procedure on all instances of AEM servers in your setup.
-
-**Parent topic:**[Download and install](download-install.md)

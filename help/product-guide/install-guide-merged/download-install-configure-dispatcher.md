@@ -74,4 +74,3 @@ When using a Dispatcher with AEM Guides, if your Author instance has a dispatche
                 }
 ```
 
-**Parent topic:**[Download and install](download-install.md)

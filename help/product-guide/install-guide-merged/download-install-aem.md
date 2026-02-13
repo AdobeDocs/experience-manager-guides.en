@@ -27,6 +27,4 @@ If you plan to upgrade your AEM instance, then you must follow the given sequenc
 
 >[!IMPORTANT]
 >
-> There are a number of performance optimization recommendations that you can consider to improve your system performance. See [Recommendations for performance optimization](download-install-recommend-perf-optimiz.md#) for details.
-
-**Parent topic:**[Download and install](download-install.md)
+> There are a number of performance optimization recommendations that you can consider to improve your system performance. See [Recommendations for performance optimization](./download-install-recommend-perf-optimiz-on-prem.md) for details.

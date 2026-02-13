@@ -107,5 +107,3 @@ This can be done at run time through Felix console or via code deployment.
 **Result of this change**
 An increased number of the **Limit AEM Site Pages in Heap** property optimizes the AEM Site output generation process.
 
-
-**Parent topic:**[Download and install](download-install.md)
