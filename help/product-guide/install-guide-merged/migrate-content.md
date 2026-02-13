@@ -17,6 +17,6 @@ The following table outlines different migration methods available for uploading
 
 |Cloud Service|On-Premise|
 |-------------|------------|
-|[Use Curl command to upload DITA content](./migrate-content-use-curl-command.md)<br>[Configure UUID file pattern](./migrate-content-configure-uuid-filename-pattern.md)<br>[Migrate non-DITA content](./migrate-content-non-dita.md)<br>[Migrate content from On-premise to Cloud Service](./migrate-on-premise-content-cloud.md)|[Upload existing DITA content using Framemaker and WebDav tool (On-Prem)](migrate-content-upload-existing-dita-content.md)<br>[Use Curl command to upload DITA content](./migrate-content-use-curl-command.md)<br>[Configure UUID file pattern](./migrate-content-configure-uuid-filename-pattern.md)<br>[Migrate non-DITA content](./migrate-content-non-dita.md)|
+|[Use Curl command to upload DITA content](./migrate-content-use-curl-command.md)<br><br>[Configure UUID file pattern](./migrate-content-configure-uuid-filename-pattern.md)<br><br>[Migrate non-DITA content](./migrate-content-non-dita.md)<br><br>[Migrate content from On-premise to Cloud Service](./migrate-on-premise-content-cloud.md)|[Upload existing DITA content using Framemaker and WebDav tool (On-Prem)](migrate-content-upload-existing-dita-content.md)<br><br>[Use Curl command to upload DITA content](./migrate-content-use-curl-command.md)<br><br>[Configure UUID file pattern](./migrate-content-configure-uuid-filename-pattern.md)<br><br>[Migrate non-DITA content](./migrate-content-non-dita.md)|
 
 
