@@ -7,7 +7,9 @@ level: Experienced
 ---
 # Open DITA topic or map files in same tab {#id223HI0P202H}
 
-In some workflows, when you click on a link of a topic or a map file, it opens in a new tab. This could lead to many tabs opened in your browser, which could impact your productivity. You can change this behavior of opening a topic or map file in a new tab, and force it open in the current tab itself. The following tabs provide instructions based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+In some workflows, when you click on a link of a topic or a map file, it opens in a new tab. This could lead to many tabs opened in your browser, which could impact your productivity. You can change this behavior of opening a topic or map file in a new tab, and force it open in the current tab itself. 
+
+The following tabs provide instructions to open DITA topic or map file in the same tab based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
@@ -20,8 +22,6 @@ Use the instructions given in [Configuration overrides](download-install-additio
 |`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|`xmleditor.openinsametab`|Boolean \(true/false\). <br> **Default value**: `false`|
 
 >[!TAB On-Premise]
-
-To open DITA topic or map file in the same tab, perform the following configuration changes:
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 

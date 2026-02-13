@@ -9,7 +9,7 @@ level: Experienced
 
 By default, when you create a link using the Insert Reference or Insert Reuse Content option in the Editor, the link is created using the UUID of the referenced content. The **Link** property \(in Properties panel\) of the referenced content can be configured to show the relative file path of the referenced content or the UUID. For Cloud Service, by default the UUID of the referenced content is shown in the Properties panel. For On-Premise, this display is controlled by the **Enable UUIDs** option in the `configMgr`. By default, it is turned ON, which implies that the UUID of the referenced content is shown in the Properties panel.
 
-The following tabs provide instructions based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+The following tabs provide instructions to show the relative path or the UUID of the referenced content in the Editor based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
@@ -23,8 +23,6 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 
 >[!TAB On-Premise]
-
-Perform the following steps to show the relative path or the UUID of the referenced content in the Editor:
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
