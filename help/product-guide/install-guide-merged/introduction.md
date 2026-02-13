@@ -19,10 +19,8 @@ This guide is intended for the following type of audiences:
 
 The following table outlines the complete workflow based on your Experience Manager Guides setup: Cloud Service or On-Premise:
 
-|Cloud Service|On-Premise|
+
+| Cloud Service | On-Premise |
 |-------------|------------|
-|[Deployment and dispatcher configuration](./conf-deployment-dispatcher-on-cs.md)<br><br>[Verify AEM Guides](./download-install-verify-dxml-installation.md)<br><br>[Uninstall AEM Guides](./download-install-unistall-aemg.md)<br><br>[Upgrade AEM Guides](./download-install-upgrade-dxml.md)<br><br>[Recommendation for performance optimization](./download-install-recommend-perf-optimiz-cs.md)|[Technical requirements](./download-install-technical-requirements.md)<br><br>[Install AEM](./download-install-aem.md)<br><br>[Download and install AEM Guides for the first time](./download-install-aemg-first-time.md)<br><br>[Configure dispatcher](./download-install-configure-dispatcher.md)<br><br>[Verify AEM Guides](./download-install-verify-dxml-installation.md)<br><br>[Uninstall AEM Guides](./download-install-unistall-aemg.md)<br><br>[Upgrade AEM Guides](./upgrade-xml-documentation.md)<br><br>[Recommendation for performance optimization](./download-install-recommend-perf-optimiz-on-prem.md)|
-
-
-
+| <ul><li>[Deployment and dispatcher configuration](./conf-deployment-dispatcher-on-cs.md)</li><li>[Verify AEM Guides](./download-install-verify-dxml-installation.md)</li><li>[Uninstall AEM Guides](./download-install-unistall-aemg.md)</li><li>[Upgrade AEM Guides](./download-install-upgrade-dxml.md)</li><li> [Recommendation for performance optimization](./download-install-recommend-perf-optimiz-cs.md)</li></ul> | <ul><li>[Technical requirements](./download-install-technical-requirements.md)</li><li>[Install AEM](./download-install-aem.md)</li><li>[Download and install AEM Guides for the first time](./download-install-aemg-first-time.md)</li><li>[Configure dispatcher](./download-install-configure-dispatcher.md)</li><li>[Verify AEM Guides](./download-install-verify-dxml-installation.md)</li><li>[Uninstall AEM Guides](./download-install-unistall-aemg.md)</li><li>[Upgrade AEM Guides](./upgrade-xml-documentation.md)</li><li>[Recommendation for performance optimization](./download-install-recommend-perf-optimiz-on-prem.md)</li></ul> |
 
