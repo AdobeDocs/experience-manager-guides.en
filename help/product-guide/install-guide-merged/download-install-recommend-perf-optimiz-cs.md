@@ -5,7 +5,7 @@ feature: Performance Optimization
 role: Admin
 level: Experienced
 ---
-# Recommendations for performance optimization (Cloud Service) {#id213BD0JG0XA}
+# Recommendations for performance optimization for Cloud Service {#id213BD0JG0XA}
 
 For performance optimization, consider the following points:
 

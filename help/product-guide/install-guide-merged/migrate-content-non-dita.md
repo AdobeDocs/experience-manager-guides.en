@@ -295,9 +295,7 @@ Apart from the considerations for creating the ZIP file, your XHTML document mus
 
 ### Convert your existing XHTML document into DITA topic
 
->[!CAUTION]
->
-> The following tabs provide instructions to convert your existing XHTML document into DITA topic based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+The following tabs provide instructions to convert your existing XHTML document into DITA topic based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
@@ -415,11 +413,7 @@ After conversion, the structured content can be migrated into AEM Guides. For mo
 
 AEM Guides allows you to convert your existing structured documents into valid DITA documents. You need to specify the input and output folder locations, the location of your transformation file, the extension with which the final output is saved, and whether a new version of the document is required or not.
 
-**Steps to migrate any other structured document**
-
->[!CAUTION]
->
-> The following tabs provide instructions to migrate any other structured document based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+The following tabs provide instructions to migrate any other structured document based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 
 >[!BEGINTABS]

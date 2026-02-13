@@ -39,11 +39,13 @@ To create document states using the Folder Profile, perform the following steps:
 1.  Click **Create Profile** and enter the following details:
     -   Enter the name for the profile in the Profile field.
     -   Specify the path where you want to apply the new profile.
-    -   Specify the states of the document in the **Allowed States** under **States**. The default document states are Draft, Edit, In-Review, Approved, and Done.-
+    -   Specify the states of the document in the **Allowed States** under **States**. 
+    
+        The default document states are Draft, Edit, In-Review, Approved, and Done.-
 
-        Click the **Add** button to add a document state.
+    - Click the **Add** button to add a document state.
 
-        - Click the Delete icon to delete a document state.
+    - Click the Delete icon to delete a document state.
 
         >[!NOTE]
         >
