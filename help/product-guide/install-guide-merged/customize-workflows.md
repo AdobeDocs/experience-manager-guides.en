@@ -9,22 +9,11 @@ level: Experienced
 
 Workflows enable you to automate Adobe Experience Manager \(AEM\) activities. A workflow consists of a series of steps that are executed in a specific order. You can define a distinct activity to execute on each step. For example, you can send an email notification to all reviewers in a group when a topic review is created. Or, send a notification to the publisher when an output generation task completes.
 
-For more information about workflows in AEM (Cloud Service setup), see:
+For more information about workflows in AEM (Cloud Service setup), view
 
--   [Administering Workflow Instances](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)
-
--   Applying and participating in workflows: [Working with Project Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
-
-For more information about workflows in AEM (On-Premise setup), see:
-
--   [Administering Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
-
--   Applying and participating in workflows: [Working with Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
-
--   Creating workflow models and extending workflow functionality: [Developing and Extending Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
-
--   Improving the performance of workflows that use significant server resources: [Concurrent Workflow Processing](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
-
+|Cloud Service|On-Premise|
+|-------------|------------|
+|[Administering Workflow Instances](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)<br>Applying and participating in workflows: [Working with Project Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html)|[Administering Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)<br>Applying and participating in workflows: [Working with Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)<br>Creating workflow models and extending workflow functionality: [Developing and Extending Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)<br>Improving the performance of workflows that use significant server resources: [Concurrent Workflow Processing](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)|
 
 The sections in this topic will walk you through various customizations that you can make in the default workflows shipped in the AEM Guides.
 
