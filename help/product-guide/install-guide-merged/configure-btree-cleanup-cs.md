@@ -17,7 +17,7 @@ The following tabs provide instructions to configure B-tree clean up job based o
 
 >[!TAB Cloud Service]
 
-1. Use the instructions given in [Configuration overrides](../cs-install-guide/download-install-additional-config-override.md) to create the configuration file.
+1. Use the instructions given in [Configuration overrides](download-install-additional-config-override.md) to create the configuration file.
 
 1. In the configuration file, provide the following (property) details:
 
@@ -55,7 +55,7 @@ The following tabs provide instructions to enable the setting based on your Expe
 
 >[!TAB Cloud Service]
 
-1. Use the instructions given in [Configuration overrides](../cs-install-guide/download-install-additional-config-override.md) to create the configuration file.
+1. Use the instructions given in [Configuration overrides](download-install-additional-config-override.md) to create the configuration file.
 
 1. In the configuration file, provide the following (property) details:
 
