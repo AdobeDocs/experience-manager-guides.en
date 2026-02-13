@@ -671,8 +671,8 @@ breadcrumb-title: AEM Guides Documentation
     - Work with B-tree cleanup {#btree-cleanup-cs-exp}
       - [Configure B-tree cleanup](./install-guide-merged/configure-btree-cleanup-cs.md)
     - Custom indexing {#custom-indexing-cs-exp}
-      - [Deploying custom index for Find and replace (Source view)](./install-guide-merged/custom-indexing-cs.md)
-      - [Reindexing for Find and replace (Source view)](./install-guide-merged/custom-indexing-prem.md) 
+      - [Deploying custom index for Find and replace feature for Cloud Service](./install-guide-merged/custom-indexing-cs.md)
+      - [Reindexing for Find and replace feature for On-Premise](./install-guide-merged/custom-indexing-prem.md) 
     - Appendix {#appendix-exp}
       - [Appendix](./install-guide-merged/appendix.md)       
 - API Reference {#api-reference}

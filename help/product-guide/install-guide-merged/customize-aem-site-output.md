@@ -364,7 +364,6 @@ The following tabs provide instructions to stop the creation of a version for th
 >[!BEGINTABS]
 
 >[!TAB Cloud Service]
->[!ENDTABS]
 
 1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
 1.  In the configuration file, provide the following \(property\) details to configure the **Do Not Create Version for Deleted Pages** option:
