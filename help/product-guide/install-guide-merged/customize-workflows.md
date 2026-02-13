@@ -9,7 +9,7 @@ level: Experienced
 
 Workflows enable you to automate Adobe Experience Manager \(AEM\) activities. A workflow consists of a series of steps that are executed in a specific order. You can define a distinct activity to execute on each step. For example, you can send an email notification to all reviewers in a group when a topic review is created. Or, send a notification to the publisher when an output generation task completes.
 
-For more information about workflows in AEM (Cloud Service setup), view
+For more information about workflows in AEM, view
 
 |Cloud Service|On-Premise|
 |-------------|------------|
