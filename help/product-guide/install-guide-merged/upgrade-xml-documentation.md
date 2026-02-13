@@ -36,6 +36,19 @@ For more details, refer to the following procedures:
 >
 > Before you begin to upgrade, take a complete system backup to avoid any loss of data.
 
+## Upgrade to a specific version of Experience Manager Guides
+
+1. Verify upgrade prerequisites
+1. Install the Experience Manager Guides upgrade package
+1. Sync DAM Update Asset workflow and existing customizations
+1. Validate DAM workflow launchers
+1. Reindex Experience Manager Guides indexes
+1. Index existing DITA content
+1. Resolve `fmdita sling rewriter` conflicts
+1. Reindex `damAssetLucene`
+1. Validate overlays and post-upgrade customizations
+
+
 ## Upgrade to version 5.1.0
 
 >[!IMPORTANT]
@@ -166,8 +179,6 @@ After you install Experience Manager Guides, you may merge the various configura
 4. Follow the same steps for other added or modified indices: `guidesBulkActivation`, `guidesPeerLinkIndex`,  and `guidesKonnectTemplateIndex`. 
 
 ## Steps to index the existing content
-
-
 
 Perform the following steps for indexing the existing content:
 

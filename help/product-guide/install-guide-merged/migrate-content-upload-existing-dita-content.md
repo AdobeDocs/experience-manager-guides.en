@@ -7,8 +7,6 @@ level: Experienced
 ---
 # Upload existing DITA content using WebDAV tool and FrameMaker 
 
-[!BADGE Applies to]{type=Caution tooltip="Check deployment"}: ![](assets/Smock_Building_18_N.svg)
-
 Most likely you would have a repository of existing DITA content that you would like to use with AEM Guides. For such existing content, you can use any of the following approaches to bulk upload your content into the AEM repository.
 
 - [Use a WebDAV tool](#use-a-webdav-tool)
