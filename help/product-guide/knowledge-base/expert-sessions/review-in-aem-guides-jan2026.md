@@ -1,6 +1,7 @@
 ---
 title: Content Review in AEM Guides
 description: Expert Session - Inside the AEM Guides Review Workflow. Features & real-world use case
+exl-id: 4fa4a7f8-4b0b-45d8-978e-e2bde3692b1d
 ---
 # Content Review in AEM Guides
 
