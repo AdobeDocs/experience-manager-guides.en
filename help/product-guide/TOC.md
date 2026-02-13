@@ -563,7 +563,7 @@ breadcrumb-title: AEM Guides Documentation
     - Custom indexing{#custom-indexing-cs}
       - [Deploying custom index for Find and replace (Source view)](./cs-install-guide/custom-indexing.md)   
     - [Appendix](./cs-install-guide/appendix.md)  
-- Installation and configuration {#install-guide-unified}
+- Installation and configuration (Unified) {#install-guide-unified}
     - [Download, Install, and Upgrade](./install-guide-merged/introduction.md)
     - Installation process for Cloud Service {#deploy-conf-aemg-cs}
       - [Deployment and dispatcher configuration](./install-guide-merged/conf-deployment-dispatcher-on-cs.md)
