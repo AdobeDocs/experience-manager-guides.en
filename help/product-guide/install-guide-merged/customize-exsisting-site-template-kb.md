@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 ---
-# Customize existing AEM Site templates for AEM Guides
+# Customize existing AEM Site templates
 
 This guide provides step-by-step instructions to customize existing AEM Site templates for use with AEM Guides to generate AEM Sites from DITA maps and topics.
 

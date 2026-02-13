@@ -648,7 +648,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure output generation settings](./install-guide-merged/conf-output-generation.md) 
       - Configure AEM Site output settings {#conf-aem-sites-output}
         - [Download and install AEM Sites templates](./install-guide-merged/download-install-aem-sites-templates-cs.md)
-        - [General instructions to customize existing AEM Site templates for AEM Guides](./install-guide-merged/customize-exsisting-site-template-kb.md)
+        - [General instructions to customize existing AEM Site templates](./install-guide-merged/customize-exsisting-site-template-kb.md)
         - [Customize new AEM Site output](./install-guide-merged/customize-aem-site-output.md)
         - [Customize DITA element mapping with AEM components for legacy AEM Site output](./install-guide-merged/customize-DITA-element-mapping-AEM-components.md)
         - [Component mapping for AEM Sites](./install-guide-merged/component-mapping.md)
