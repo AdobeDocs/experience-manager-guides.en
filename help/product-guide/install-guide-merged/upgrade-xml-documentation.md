@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 ---
-# Upgrade Adobe Experience Manager Guides for version 5.0 and above 
+# Upgrade Adobe Experience Manager Guides for version 4.6.0 and above 
 
 >[!NOTE]
 >
@@ -18,7 +18,7 @@ You can upgrade your current version of Experience Manager Guides to version 5.1
 - If you are using version 4.6.3, 4.6.1, 4.6, or 4.4, then you need to upgrade to version 5.0.0. 
 - If you are using version 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 5.0.0.
 - If you are on a version prior to 4.6.0, refer to [Upgrade Adobe Experience Manager Guides for version 4.4.0 and earlier](./upgrade-xml-documentation-prev-versions.md) for detailed upgrade instructions. 
-- If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ For more details, refer to the following procedures:
 
 >[!NOTE]
 >
->If you are upgrading to 5.1.0 Service Pack 3, then you need to be on the version 5.1.0 or 5.1.x of Experience Manager Guides. 
+>If you are upgrading to 5.1.0 Service Pack 3, then you need to be on the version 5.1.0 or 5.1.x of Experience Manager Guides. The upgrade process for the 5.1.0 Service Pack 3 release follows the same steps as the 5.1.0 release.
 
 Before you start the Experience Manager Guides 5.1.0 upgrade process, ensure that you have:
 
@@ -60,31 +60,14 @@ Before you start the Experience Manager Guides 5.1.0 upgrade process, ensure tha
 
 ## Install version 5.1.0 
 
-1. Download 5.1.0 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-1. Install version 5.1.0 package.
-1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-of-script-via-a-servlet).
+Download the 5.1.0 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) and follow the instructions provided in [Installation and post-installation upgrade workflow](#installation-and-post-installation-upgrade-workflow) to complete the upgrade process.
 
-1. After you complete the package installation, wait for the following message\(s\) in the logs:
-
-    `Completed the post deployment setup script`
-
-    The above message indicates that all the steps of installation are complete.
-
-    In case you encounter any of the following ERROR prefixes, report them to your customer success team:
-
-    - Error in post deployment setup script
-    - Exception while porting the translation MAP
-    - Unable to port translation map from v1 to v2 for property
-1. Upgrade Oxygen connector plugin released with version 4.6.0 \(if needed\).
-1. Clear the browser cache after installing the package.
-
-For post installation steps, refer to [Post installation process](#post-installation-process). 
 
 ## Upgrade to version 5.0.0
 
 >[!TIP]
 >
-> Upgrading to version 5.0.0 Service Pack 3 depends on the current version of Experience Manager Guides. If you are using version 5.0.0 Service Pack 2, 5.0.0 Service Pack 1 or 5.0.0, then you can directly upgrade to version 5.0.0 Service Pack 3.
+> Upgrading to version 5.0.0 Service Pack 3 depends on the current version of Experience Manager Guides. If you are using version 5.0.0 Service Pack 2, 5.0.0 Service Pack 1 or 5.0.0, then you can directly upgrade to version 5.0.0 Service Pack 3. The upgrade steps are the same as those for version 5.0.0.
 
 >[!NOTE]
 >
@@ -101,25 +84,7 @@ Before you start the Experience Manager Guides 5.0.0 upgrade process, ensure tha
 
 **Install version 5.0.0**
 
-1. Download 5.0.0 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-1. Install version 5.0.0 package.
-1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-of-script-via-a-servlet).
-
-1.  After you complete the package installation, wait for the following message\(s\) in the logs:
-
-    `Completed the post deployment setup script`
-
-    The above message indicates that all the steps of installation are complete.
-
-    In case you encounter any of the following ERROR prefixes, report them to your customer success team:
-
-    -   Error in post deployment setup script
-    -   Exception while porting the translation MAP
-    -   Unable to port translation map from v1 to v2 for property
-1.  Upgrade Oxygen connector plugin released with version 5.0.0 \(if needed\).
-1.  Clear the browser cache after installing the package.
-
-For post installation steps, refer to [Post installation process](#post-installation-process). 
+Download the 5.0.0 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) and follow the instructions provided in [Installation and post-installation upgrade workflow](#installation-and-post-installation-upgrade-workflow) to complete the upgrade process.
 
 ## Upgrade to version 4.6.0
 
@@ -143,8 +108,15 @@ Before you start the Experience Manager Guides 4.6.0 upgrade process, ensure tha
 
 **Install version 4.6.0**
 
-1. Download 4.6.0 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-1. Install version 4.6.0 package.
+Download the 4.6.0 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) and follow the instructions provided in [Installation and post-installation upgrade workflow](#installation-and-post-installation-upgrade-workflow) to complete the upgrade process. 
+
+## Installation and post-installation upgrade workflow
+
+### Install the version package 
+
+Peform the following steps to install the version package: 
+
+1. Install the version package on which you want to upgrade.
 1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. After you complete the package installation, wait for the following message\(s\) in the logs:
@@ -158,13 +130,10 @@ Before you start the Experience Manager Guides 4.6.0 upgrade process, ensure tha
     - Error in post deployment setup script
     - Exception while porting the translation MAP
     - Unable to port translation map from v1 to v2 for property
-1. Upgrade Oxygen connector plugin released with version 4.6.0 \(if needed\).
+1. Upgrade Oxygen connector plugin released with version you are upgrading to \(if needed\).
 1. Clear the browser cache after installing the package.
 
-For post installation steps, refer to [Post installation process](#post-installation-process). 
-
-
-## Post installation process
+### Post installation process
 
 After you install Experience Manager Guides, you may merge the various configurations applicable from the newly installed version to your setup.
 
@@ -277,7 +246,7 @@ During this upgrade, since the `'order'` value is changed from 1000 to 50, you n
 
 ### Steps to reindex the damAssetLucene
 
-Index definition is updated for damAssetLucene with Guides. Refer to [this article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) for reindexing the damAssetLucene after upgrading to 5.1.0 version.
+Index definition is updated for damAssetLucene with Guides. After upgrading to the required version, refer to [this article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) for reindexing the damAssetLucene.
 
 >[!NOTE]
 >
