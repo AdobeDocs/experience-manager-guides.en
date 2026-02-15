@@ -47,19 +47,20 @@ To create a review task and send topics for review, perform the following steps:
     >
     > You can create a review task for only those topics that have a revision. In case the selected topic does not have a revision, you will be shown a prompt.
 
-    ![](images/create-review-task-023.png){width="650" align="left"}
-
+    ![](images/create-review-task-023.png)
 1.  Enter a **Title** for the task and select a DITA Project. 
 
-1.  In the **Project** drop-down field, select a DITA project for this review task. You can also type the project name to quickly locate it in the drop-down list.
+1.  In the **Project** drop-down field, select a DITA project for this review task. You can also type the project name to quickly locate it in the drop-down list. 
 
-1.  In the **Assign To** drop-down field, select the reviewers to whom you want to send the topics for review.
+1.  In the **Assign To** drop-down field, select the reviewers to whom you want to send the topics for review. You can also type the user name to quickly locate it in the drop-down list. 
 
-    You can assign a review task to individual users of the project or to user groups. Note that you can assign a review task to individual users only when you are a part of the project's administrator group, else you will only view the user groups in the Assign To field.
+    The *Assign To* field is enabled only after you select an active project in the *Project* field. The list of reviewers is fetched based on the selected project. If no project is selected, the *Assign To* field remains disabled.
+
+    You can assign a review task to individual users of the project or to user groups. Note that you can assign a review task to individual users only when you are a part of the project's administrator group, else you will only view the user groups in the *Assign To* field.
 
     >[!NOTE]
     >
-    > Review workflow is project-specific. When you create projects, you add the team members to the project and assign them to groups. So when you select the project here, you get to choose the members who are a part of that project. For more information about projects, view [Create a DITA project](authoring-create-dita-project.md#).
+    > Review workflow is project-specific. When you create projects, you add the team members to the project and assign them to groups. So, when you select the project here, you get to choose the members who are a part of that project. For more information about projects, view [Create a DITA project](authoring-create-dita-project.md#).
 
 1.  Enter a **Description** for the task.
 
@@ -86,6 +87,10 @@ To create a review task and send topics for review, perform the following steps:
     If you do not select this option then reviewers added in the **Assign To** field will have access to review only those topics that are assigned to them.
 
 1. Select **Next**.
+
+    >[!NOTE]
+    >
+    > The **Next** button is enabled only after you provide details for all the mandatory fields, including *Title*, *Project*, *Assign To*, and *Due Date*. 
 
     The Content page is displayed.
 
