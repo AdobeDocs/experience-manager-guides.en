@@ -3,7 +3,7 @@ title: Release Notes | What's New in February 2026 release of Product Training a
 description: Learn about the new and enhanced features in the February 2026 release of Product Training and Learning content
 role: Leader
 hidefromtoc: yes
-
+exl-id: aef24b0c-0cb8-4646-9d8b-92d3460a7faa
 ---
 # February 2026 release of Product Training and Learning content  
 
@@ -62,4 +62,3 @@ The following issues are fixed in the February 2026 release of Product Training 
 - When you click the Table of Contents (TOC) in the left pane for the course, the course continues to show a completion status even if the quiz has been failed. (GUIDES-40398)
 - Attempting Match the following question type in a quiz incorrectly in ALM, results in the selected options not appearing in the report. (GUIDES-38640)
 - When generating the PDF output, the applied authoring styles are not preserved, resulting in inconsistencies in design. (GUIDES-38642)
-
