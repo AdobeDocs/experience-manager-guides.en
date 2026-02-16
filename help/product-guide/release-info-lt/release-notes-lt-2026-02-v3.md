@@ -50,13 +50,11 @@ The following features are introduced in the February 2026 release of Product Tr
 The following issues are fixed in the February 2026 release of Product Training and Learning content:
 
 - When publishing the SCORM output and deploying it on ALM, the L2 Quiz report shows incorrect total and maximum scores for quiz that use multiple attempts and randomized question bank selection. (GUIDES-38855)
-- When selecting a new language from language variables in Experience Manager Guides, the UI continues to display other languages and not the selected language. (GUIDES-38854) 
 - When any course is generated on the cloud server, an unintended white space appears below the copyright footer due to the `coralui3.css` stylesheet, causing layout inconsistency. (GUIDES-38853)
 - When Learning course with an accordion is navigated using the keyboard, the + sign or the tab title is not highlighted, preventing visual identification of the active element. (GUIDES-38852)
 - For courses generated using the SCORM carbon template or the default template, when accessed on a mobile device in landscape mode, the Table of Contents (Course Menu) fails to display module links preventing navigation. (GUIDES-38851)
 - When replicating the hierarchy for a course in Experience Manager Guides, creating a Learning object requires first creating a Learning group, as object‑level additions are not supported. (GUIDES-38849)
 - Attempts to access the dropdown options in Match the following question type using the keyboard fails as the options do not respond to tab or arrow key preventing navigation. (GUIDES-38985)
-- When the Experience Manager Guides API is used to automate SCORM generation, intermittent failures occur in the API response resulting in inconsistent SCORM build automation. (GUIDES-38846)
 - Applying a heading style preset causes the selected text to disappear, likely due to the font color changing to white, making the text un-selectable and not visible. (GUIDES-39981)
 - When using Experience Manager Guides on Mozilla Firefox, the Flip card displays the front‑side text in reverse on the back side after flipping. (GUIDES-39983)
 - When you click the Table of Contents (TOC) in the left pane for the course, the course continues to show a completion status even if the quiz has been failed. (GUIDES-40398)
