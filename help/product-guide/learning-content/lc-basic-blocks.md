@@ -88,6 +88,7 @@ Perform the following steps to include title and subtitle to your learning conte
     >[!NOTE]
     >
     > If you do not want to use the existing heading as the title, first insert a heading using the Text component in the Editor toolbar, and then select **Add title**. This adds a sample **Title** is added to the content, which you can edit as needed.
+    
 1. In File properties, select **Add subtitle**. 
      A sample **Subtitle** is added to the content. 
 

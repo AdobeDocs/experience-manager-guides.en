@@ -25,12 +25,14 @@ The following features are introduced in the February 2026 release of Product Tr
 
     ![](assets/negative-scores-lc.png)    
 
-- **Delete widgets with a right-click**: In addition to deleting quiz questions, you can now delete widgets such as Accordions, Flip cards, and Tabs with **Right‑click > Delete item**. This enhancement extends the existing *Delete question* functionality to widgets, allowing you to remove them with fewer clicks and minimal navigation.
+- **Delete widgets with a right-click**: In addition to deleting quiz questions, you can now delete widgets such as Accordions, Flip cards, and other widgets with **Right‑click > Delete item**. This enhancement extends the existing *Delete question* functionality to widgets, allowing you to remove them with fewer clicks and minimal navigation.
 
     Learn more about [Use interactive widgets](../learning-content/lc-widgets.md).
 
     ![](assets/delete-widget-items.png)
 - **Pin answer choices**: You can now pin specific answer choices so their position remains unchanged, even when answers are randomized during SCORM output generation. This is especially useful for options like *All of the above* or *None of the above*.
+
+     Learn more about [Question properties](../learning-content/quiz-insert-questions.md#question-properties).
 
     ![](assets/pin-question.png)
 - **Short answer type**: The Short answer question type allows learners to respond using brief, descriptive alphanumeric answers instead of selecting predefined options. This question type encourages learners to actively recall and articulate their understanding in their own words, making assessments more engaging for learners.
@@ -59,5 +61,5 @@ The following issues are fixed in the February 2026 release of Product Training 
 - When using Experience Manager Guides on Mozilla Firefox, the Flip card displays the front‑side text in reverse on the back side after flipping. (GUIDES-39983)
 - When you click the Table of Contents (TOC) in the left pane for the course, the course continues to show a completion status even if the quiz has been failed. (GUIDES-40398)
 - Attempting Match the following question type in a quiz incorrectly in ALM, results in the selected options not appearing in the report. (GUIDES-38640)
-- When generating the PDF output, the applied authoring styles are not preserved, resulting in inconsistencies in design.(GUIDES-38642)
+- When generating the PDF output, the applied authoring styles are not preserved, resulting in inconsistencies in design. (GUIDES-38642)
 
