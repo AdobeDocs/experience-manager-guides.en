@@ -320,6 +320,7 @@ breadcrumb-title: AEM Guides Documentation
     - Getting started guide {#get-started}
       - Introduction {#intro-lc}
         - [Release notes](./release-info-lt/release-notes-lt-2025-12-v2.md)
+        - [Release notes](./release-info-lt/release-notes-lt-2026-02-v3.md)
         - [Overview of the Learning and Training content](./learning-content/intro.md)        
       - Set up your course {#setup-course}
         - [Course overview](./learning-content/course-overview.md)

@@ -14,24 +14,24 @@ You can enhance the learning content by adding multiple widgets to make the cour
 
 The available widgets designed to enhance user experience and streamline content delivery include:
 
-- **Accordion:** Adds an accordion to the content. You can insert suitable text in both the accordion header and its body. Its properties can be managed using the **Content properties**  panel, including options to allow single or multiple accordions to open simultaneously, as well as to add or remove elements. 
+- **Accordion:** Adds an accordion to the content. You can insert suitable text in both the accordion header and its body. Its properties can be managed using the **Content properties**  panel, including options to allow single or multiple accordions to open simultaneously, as well as to add or remove elements. To delete an element or item of the widget, you can also use **Right-click > Delete item**. 
 
     ![](assets/accordion-learning-content.png){width="650" align="left"}
 
-- **Carousel:** Adds carousel to the content. You can insert suitable text in both the Card title and its body. Its properties can be managed using the **Content properties** panel, including options to add or remove elements.  
+- **Carousel:** Adds carousel to the content. You can insert suitable text in both the Card title and its body. Its properties can be managed using the **Content properties** panel, including options to add or remove elements. To delete an element or item of the widget, you can also use **Right-click > Delete item**. 
 
     ![](assets/carousal-learning-content.png){width="650" align="left"}
 
-- **Hotspot:** Adds hotspot to a selected image. Begin by choosing an image, then navigate to **Insert > Hotspot**. This opens the Hotspot dialog, where you can configure various options such as setting different hotspot sizes, adding corresponding links, and adjusting the layering by bringing areas forward or backward. 
+- **Hotspot:** Adds hotspot to a selected image. Begin by choosing an image, then navigate to **Insert > Hotspot**. This opens the Hotspot dialog, where you can configure various options such as setting different hotspot sizes, adding corresponding links, and adjusting the layering by bringing areas forward or backward. To delete an element or item of the widget, you can also use **Right-click > Delete item**. 
 
     ![](assets/hotspot-learning-content.png){width="650" align="left"}
 
-- **Tab:** Allows you to organize content into interactive sections.  Each tab can represent a distinct topic or category; learners can click or tap on the tabs to reveal the corresponding content. Place your cursor where you want the Tab widget to appear in the content, and then navigate to **Insert > Widget > Tab**. This adds a tab container to your content. Now, start adding content to the tab which includes a Tab title and its corresponding content.  
+- **Tab:** Allows you to organize content into interactive sections.  Each tab can represent a distinct topic or category; learners can click or tap on the tabs to reveal the corresponding content. Place your cursor where you want the Tab widget to appear in the content, and then navigate to **Insert > Widget > Tab**. This adds a tab container to your content. Now, start adding content to the tab which includes a Tab title and its corresponding content.  To delete an element or item of the widget, you can also use **Right-click > Delete item**. 
 
     ![](assets/insert-tab-lc.png)
     
     To add, delete, and switch tab layout (vertical tabs or horizontal tabs), use the **Content properties** section in the Right panel. 
-- **Flip card:** Adds an interactive card to your content that flips to reveal additional information. Each card has two sides - front and back, allowing learners to explore information in an engaging way.  To insert a Flip card, place your cursor at the desired location and navigate to **Insert > Widget > Flip card**, which adds a Flip card container to your content. You can then add a title and optional image to the front side and enter the corresponding content on the back. 
+- **Flip card:** Adds an interactive card to your content that flips to reveal additional information. Each card has two sides - front and back, allowing learners to explore information in an engaging way.  To insert a Flip card, place your cursor at the desired location and navigate to **Insert > Widget > Flip card**, which adds a Flip card container to your content. You can then add a title and optional image to the front side and enter the corresponding content on the back. To delete an element or item of the widget, you can also use **Right-click > Delete item**. 
 
     ![](assets/insert-flip-card-lc.png)
 
@@ -40,4 +40,4 @@ The available widgets designed to enhance user experience and streamline content
 
     ![](assets/insert-click-to-reveal-lc.png)
 
-    To add or delete the widget, or manage the widget orientation, use the **Content properties** section in the Right panel. 
+    To add or delete the widget, or manage the widget orientation, use the **Content properties** section in the Right panel. To delete an element or item of the widget, you can also use **Right-click > Delete item**. 

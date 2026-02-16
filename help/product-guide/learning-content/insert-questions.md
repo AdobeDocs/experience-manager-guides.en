@@ -11,7 +11,7 @@ Perform the following steps to insert questions from question bank in the quiz:
 
 1. Select **Insert from question bank** option from the **Questions** dropdown menu in the toolbar as shown below. 
 
-    ![](assets/insert-from-question-bank.png){width="350" align="left"}
+    ![](assets/question-types.png){width="350" align="left"}
 
     The **Insert from HTML question bank** dialog is displayed.      
     

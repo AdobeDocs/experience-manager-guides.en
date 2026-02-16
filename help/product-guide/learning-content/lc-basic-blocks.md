@@ -19,7 +19,11 @@ You can use the basic editing features available on the Editor toolbar, as descr
 
     ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
-- **Text components**: Adds heading/titles, paragraph, inline quote, superscript, subscript and citation to your content. 
+- **Text components**: Adds heading, paragraph, inline quote, superscript, subscript and citation to your content. 
+
+    >[!NOTE]
+    >
+    > You can also include a Title and subtitle to your learning content. For details on how to add it in the content, view [Add title and subtitle to learning content](#add-title-and-subtitle-to-learning-content).
 
     ![](assets/text-learning-content.png){width="650" align="left"}
 
@@ -69,3 +73,26 @@ You can use the basic editing features available on the Editor toolbar, as descr
     ![](assets/hyperlink-learning-content.png){width="650" align="left"}
 
 Additionally, the **Menu** dropdown provides access to the editing actions (Cut, Copy, Delete), Find and replace and Version label.  
+
+## Add title and subtitle to learning content
+
+Perform the following steps to include title and subtitle to your learning content:
+
+1. Open the learning course in Map console.
+1. Open the topic, quiz, or any other course component where you want to add a title or subtitle. 
+1. Navigate to the File properties panel and select **Add title**. 
+
+    ![](assets/add-title-lc.png)
+1. When prompted, choose whether to use the existing heading as the title. 
+
+    >[!NOTE]
+    >
+    > If you do not want to use the existing heading as the title, first insert a heading using the Text component in the Editor toolbar, and then select **Add title**. This adds a sample **Title** is added to the content, which you can edit as needed.
+1. In File properties, select **Add subtitle**. 
+     A sample **Subtitle** is added to the content. 
+
+     ![](assets/add-subtitles-lc.png)
+
+To remove a title, clear the **Add title** option in File properties. Removing the title automatically removes the associated subtitle.
+
+
