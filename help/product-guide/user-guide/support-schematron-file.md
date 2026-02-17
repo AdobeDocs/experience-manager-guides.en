@@ -18,7 +18,7 @@ role: User
 
 Perform the following steps to import the Schematron files:
 
-  ![](images/schematron-panel.png){width="300" align="left"}
+  ![](images/schematron-panel.png){width="350" align="left"}
 
 1. Navigate to the required folder (where you want to upload the files) in *Repository*.
 1. Select the **Options** icon to open the context menu and choose **Upload assets**.
@@ -37,14 +37,14 @@ When you open a topic in the Editor, a Schematron Validation panel appears in th
 
 ![](images/schematron-panel-file-validated.png){width="500" align="left"}
 
-1. Select the Schematron icon (), to open the Schematron panel.
+1. Select the Schematron icon, to open the Schematron panel.
 1. Use **Add Schematron File** to add Schematron files. 
 
     >[!NOTE]
     >
     > When an invalid Schematron file is added, an error message is displayed in the Validation panel.
 
-    ![](images/schematron-panel-error.png){width="300" align="left"}
+    ![](images/schematron-panel-error.png){width="350" align="left"}
 
 1. If the Schematron file has no errors, it is added and listed in the Validation panel. An error message is displayed for the Schematron file containing errors.
 
@@ -56,6 +56,13 @@ When you open a topic in the Editor, a Schematron Validation panel appears in th
 
     * If the topic breaks no rules, the validation success message is displayed for the file.
     * If the topic breaks a rule, for example, if it doesn't contain a title and is validated for the above given Schematron, it displays a validation error.
+
+    >[!NOTE]
+    >
+    > Validation results are displayed based on the role attribute defined in the schematron file for example **Fatal**, **Error**, **Warning**, or **Info** with visible counts for each category. Tooltips provide quick context such as error details and file paths. You are not allowed to save the file until the Fatal or Error level issues remain, with clearer messages explaining what needs to be fixed.
+
+    ![](images/schematron-validation-errors.png){width="350" align="left"}
+
 
 1. Select the error message to highlight the element containing the error in the opened topic/map.
 
