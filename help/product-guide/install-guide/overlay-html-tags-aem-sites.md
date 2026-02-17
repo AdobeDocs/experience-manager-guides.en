@@ -16,7 +16,7 @@ Perform the following steps to overlay and update the `config.xml` file:
 
 1. Navigate to the configuration file available at the following location:
 
-    `/libs/fmdita/cq/xssprotection/config.xml`
+    `/libs/cq/xssprotection/config.xml`
 
 1. Create an overlay node of the `xssprotection` folder within the apps node.
 
