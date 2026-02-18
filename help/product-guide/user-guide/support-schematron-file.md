@@ -50,14 +50,14 @@ When you open a topic in the Editor, a Schematron Validation panel appears in th
     >
     >You can use the cross icon near the Schematron file name to remove it.
 
-1. Select **Validate with Schematron** to validate the topic. 
+1. Select **Validate** to validate the topic with the added Schematron files. 
 
     * If the topic breaks no rules, the validation success message is displayed for the file.
     * If the topic breaks a rule, for example, if it doesn't contain a title and is validated for the above given Schematron, it displays a validation error.
 
     >[!NOTE]
     >
-    > Validation results are displayed based on the role attribute defined in the schematron file for example **Fatal**, **Error**, **Warning**, or **Info** with visible counts for each category. Tooltips provide quick context such as error details and file paths. You are not allowed to save the file until the Fatal or Error level issues remain, with clearer messages explaining what needs to be fixed.
+    > Validation results are displayed based on the role attribute defined in the Schematron file for example **Fatal**, **Error**, **Warning**, or **Info** with visible counts for each category. Tooltips provide quick context such as error details and file paths. You are not allowed to save the file until the Fatal or Error level issues remain, with clearer messages explaining what needs to be fixed.
 
     ![](images/schematron-validation-errors.png){width="350" align="left"}
 
