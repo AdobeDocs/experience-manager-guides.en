@@ -16,9 +16,7 @@ role: User
 
 ## Import Schematron files
 
-Perform the following steps to import the Schematron files:
-
-  ![](images/schematron-panel.png){width="350" align="left"}
+Perform the following steps to import the Schematron files: 
 
 1. Navigate to the required folder (where you want to upload the files) in *Repository*.
 1. Select the **Options** icon to open the context menu and choose **Upload assets**.
@@ -35,7 +33,7 @@ After importing Schematron files, you can edit them in the Editor. You can use t
 
 When you open a topic in the Editor, a Schematron Validation panel appears in the right. Perform the following steps to add and validate a topic or map with a Schematron file:
 
-![](images/schematron-panel-file-validated.png){width="500" align="left"}
+![](images/schematron-panel.png){width="350" align="left"}
 
 1. Select the Schematron icon, to open the Schematron panel.
 1. Use **Add Schematron File** to add Schematron files. 
