@@ -7,7 +7,7 @@ level: Experienced
 ---
 # Download and install AEM Guides for the first time {#id213BCL00KEV}
 
-Perform the following steps to download and install AEM Guides for the first time on a computer:
+Perform the following steps to download and install AEM Guides for the first time:
 
 >[!IMPORTANT]
 >

@@ -7,6 +7,8 @@ level: Experienced
 ---
 # Upgrade Adobe Experience Manager Guides for version 4.6.0 and above 
 
+This article provides instructions to upgrade your Experience Manager Guides versions for  4.6.0 and above.
+
 >[!NOTE]
 >
 > Follow the upgrade instructions specific to the licensed version of your product.

@@ -15,7 +15,7 @@ If you plan to use a Dispatcher on AEM Author instance along with AEM Guides, th
 
 ## Enable AllowEncodedSlashes in URLs 
 
-URLs with encoded slashes are not enabled by default in AEM dispatcher setup, but while working in AEM Guides you need to enable this. To do this, you need to set the AllowEncodedSlashes parameter to On in Apache configuration as shown in the following snippet:
+URLs with encoded slashes are not enabled by default in AEM dispatcher setup, but while working in AEM Guides you need to enable this. To do this, you need to set the `AllowEncodedSlashes` parameter to **On** in Apache configuration as shown in the following snippet:
 
 ```XML
 <VirtualHost *:80>
@@ -36,13 +36,13 @@ URLs with encoded slashes are not enabled by default in AEM dispatcher setup, bu
 
 When using a Dispatcher with AEM Guides, you must ensure that the DITA map and topic files are rendered as HTML for authors to view the content as they expect \(instead of raw text format\).
 
-Perform the following steps to update the mime.types file:
+Perform the following steps to update the `mime.types` file:
 
-1.  Connect to the Dispatcher server using SSH and browse to the httpd.conf file.
+1.  Connect to the Dispatcher server using SSH and browse to the `httpd.conf` file.
 
-1.  Check the path of the " mime.types" file.
+1.  Check the path of the `mime.types` file.
 
-1.  Open the mime.types file and search for " text/html". The default mapping for " text/html" is:
+1.  Open the `mime.types` file and search for " text/html". The default mapping for " text/html" is:
 
     `text/html html htm`
 

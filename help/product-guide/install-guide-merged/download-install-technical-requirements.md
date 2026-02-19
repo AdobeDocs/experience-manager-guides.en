@@ -7,7 +7,7 @@ level: Experienced
 ---
 # Technical requirements {#id213BCG003XA}
 
-Before installing Adobe Experience Manager Guides, ensure your system meets the technical requirements mentioned below for the given release. 
+Before installing Adobe Experience Manager Guides for On-Premise, ensure your system meets the technical requirements mentioned below for the given release. 
 
 **Supported browser**
 
@@ -16,7 +16,7 @@ Before installing Adobe Experience Manager Guides, ensure your system meets the 
 
 >[!NOTE]
 >
-> [Learn more about the Experience Manager Guides releases and download the build](../release-info/latest-release-info.md). 
+> Learn more about the [Experience Manager Guides releases and download the build](../release-info/latest-release-info.md). 
 
 
 |[!DNL AEM Guides] Release|Technical Specifications|

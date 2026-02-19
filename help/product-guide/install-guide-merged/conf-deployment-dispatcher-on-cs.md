@@ -15,7 +15,7 @@ This article provides information on how to deploy Experience Manager Guides as 
 
 ## Deploy Experience Manager Guides as a Cloud Service
 
-You can start by deploying Experience Manager Guides via the Cloud Manager. To deploy the module you can follow the instructions mentioned in [AEM Guides as a Cloud Service deployment](../release-info/deploy-xml-on-aemaacs.md).
+You can start by deploying Experience Manager Guides via the Cloud Manager. To deploy the module follow the instructions mentioned in [AEM Guides as a Cloud Service deployment](../release-info/deploy-xml-on-aemaacs.md).
 
 ## Configure dispatcher
 
@@ -26,4 +26,4 @@ Dispatcher is Adobe Experience Manager's caching and/or load balancing tool. For
 
 >[!NOTE]
 >
-> AEM as a cloud service doesn't support dispatcher for author instance.
+> AEM as a Cloud Service doesn't support dispatcher for author instance.
