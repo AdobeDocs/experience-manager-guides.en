@@ -32,13 +32,13 @@ Learn about [upgrade instructions for the 2026.03.0 release](upgrade-instruction
 
 - When creating a dynamic baseline, the Editor sometimes becomes unresponsive due to multiple concurrent API requests, causing all the other operations to halt. (GUIDES-39054)
 
-## Reports
-
-- While opening a Report for a map, there is a delay in the loading of the Filters panel (GUIDES-39385)
-
 ## Review
 
 - When assigning a user to a review task, the dropdown lists all users instead of only those associated with the selected projects, resulting in invalid user options. (GUIDES-37781)
+
+## Reports
+
+- While opening a Report for a map, there is a delay in the loading of the Filters panel (GUIDES-39385)
 
 ## Learning
 
