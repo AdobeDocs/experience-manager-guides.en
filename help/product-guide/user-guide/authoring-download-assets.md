@@ -35,9 +35,8 @@ Perform the following steps to download a DITA map file from the Editor:
 
         For each option, you can further specify how file names are handled for downloaded files. The following file name options are available:
 
-            - **Use GUID file name**: Downloads the map file with GUID as file name.
-
-            - **Use actual file name**: Downloads the map file with its original file name.
+        - **Use GUID file name**: Downloads the map file with GUID as file name.
+        - **Use actual file name**: Downloads the map file with its original file name.
        
     >[!NOTE]
     >
