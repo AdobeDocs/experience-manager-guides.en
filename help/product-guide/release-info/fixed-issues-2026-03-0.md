@@ -35,13 +35,12 @@ Learn about [upgrade instructions for the 2026.03.0 release](upgrade-instruction
 ## Learning
 
 - Attempting Match the following question type in a quiz incorrectly in ALM, results in the selected options not appearing in the report. (GUIDES-38640)
-- GUIDES-40883
 
 ## Reports
 
-- GUIDES-39385
+- While opening a Report for a map, the Filters panel experiences delayed loading or does not load at all. (GUIDES-39385)
 
 ## Review
 
-- GUIDES-37781
+- When assigning a user to a review task, the dropdown lists all users instead of only those associated with the selected projects, resulting in invalid user options. (GUIDES-37781)
 
