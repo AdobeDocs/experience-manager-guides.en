@@ -34,7 +34,7 @@ Learn about [upgrade instructions for the 2026.03.0 release](upgrade-instruction
 
 ## Reports
 
-- While opening a Report for a map, the Filters panel experiences delayed loading or does not load at all. (GUIDES-39385)
+- While opening a Report for a map, there is a delay in the loading of the Filters panel (GUIDES-39385)
 
 ## Review
 
