@@ -17,10 +17,7 @@ You can upgrade your current version of Experience Manager Guides to version 5.1
 
 - If you are using version 5.1.0, or 5.1.x , then you can directly upgrade to version 5.1.0 Service Pack 3. 
 - If you are using version 4.6.0, 4.6.x, 5.0.0, or 5.0.x, then you need to upgrade to version 5.1.0.
-- If you are using version 4.6.3, 4.6.1, 4.6, or 4.4, then you need to upgrade to version 5.0.0. 
-- If you are using version 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 5.0.0.
 - If you are on a version prior to 4.6.0, refer to [Upgrade Adobe Experience Manager Guides for version 4.4.0 and earlier](./upgrade-xml-documentation-prev-versions.md) for detailed upgrade instructions. 
-
 
 >[!NOTE]
 >
@@ -119,7 +116,7 @@ Download the 4.6.0 version package from [Adobe Software Distribution Portal](htt
 Peform the following steps to install the version package: 
 
 1. Install the version package on which you want to upgrade.
-1. You can choose to HIT the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-of-script-via-a-servlet).
+1. You can choose to hit the trigger to start the translation map upgrade job. For details, see [Enable trigger of script via a Servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. After you complete the package installation, wait for the following message in the logs:
 
@@ -143,7 +140,7 @@ After you install Experience Manager Guides, you may merge the various configura
 >
 > The dam-update-asset model may be customized. So, if any customizations have been done, then we need to sync the customizations and Experience Manager Guides into the working copy of the model.
 
-1.  **DAM Update Asset workflow \(Post-processing changes\):**
+**DAM Update Asset workflow \(Post-processing changes\):**
 
 1.  Open URL:
 

@@ -4,6 +4,7 @@ description: Learn how to Upgrade Adobe Experience Manager Guides
 feature: Installation
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Upgrade Adobe Experience Manager Guides for version 4.4.0 and earlier 
 
@@ -274,7 +275,7 @@ and set the following properties in the node:
 
     (along with other existing nodes and properties)
 
-1. Reindex the `damAssetLucene` index (by setting the reindex flag as `true` under
+1. Reindex the `damAssetLucene` index by setting the reindex flag as `true` under
 and wait for it to be `false` again (this indicates the reindexing is complete). Note that it may take a few hours depending on size of the index.
 1. Run the indexing script again by performing the previous steps.
 
