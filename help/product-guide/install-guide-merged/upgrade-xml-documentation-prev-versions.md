@@ -68,7 +68,7 @@ This API is designed to assess the current system status and report if the upgra
 
 |End Point|/bin/dxml/upgrade/3xto4x/report|
 | --- | --- |
-|Request Type|**GET** You can use a web browser, where you are logged in to the AEM instance as an administrator.|
+|Request Type|**GET** <br> **Note**: You can use a web browser, where you are logged in to the AEM instance as an administrator.|
 |Expected Response|-   In case all required nodes can be moved, you will get a passed check. <br>-   In case a node is present at the target location, you will get a relevant error. Clean up the repository \(delete node /var/dxml\) and reinstall the upgrade package and then trigger this endpoint again. <br>**Note:** This is not a common error as the target location is not used earlier by 3.x Experience Manager Guides. <br> -   If this script does not succeed, do not proceed and report to your customer success team.|
 
 **System data migration API**
@@ -80,7 +80,7 @@ This API is designed to migrate the system data as mentioned in the **Migration 
 
 |End Point|/bin/dxml/upgrade/3xto4x|
 | --- | --- |
-|Request Type|**POST** This script is a POST request hence should be executed via agents like Postman.|
+|Request Type|**POST** <br>**Note**: This script is a POST request hence should be executed via agents like Postman.|
 |Expected Response|-   Once the migration is successful, you can install XML Documentation solution version 4.0.<br>-   In case there are errors, restore to the last checkpoint and share the error logs along with API output with your customer success team.|
 
 
@@ -150,7 +150,7 @@ Before you start the Experience Manager Guides 4.2 upgrade process, ensure that 
 5. Clear the browser cache after installing the package.
 6. Continue upgrading the customizations as detailed out in the next section.
 
-### After you install version 4.2
+### After installing version 4.2
 
 >[!IMPORTANT]
 >
@@ -197,7 +197,7 @@ You can upgrade to version **4.2.1** directly if you are using **4.1**, **4.1.x*
 6.  Clear browser cache. 
 7.  Continue with [Common post upgrade tasks (all versions)](#common-postupgrade-tasks-all-versions). 
 
-### After you install version 4.2.1
+### After installing version 4.2.1
 
 >[!IMPORTANT]
 >
@@ -228,7 +228,7 @@ Before you start the Experience Manager Guides 4.3.0 upgrade process, ensure tha
 1. Clear the browser cache after installing the package.
 1. Upgrade the `ui_config.json` file from the **XML Editor Configuration** tab in the Folder Profile.
 
-### After you install version 4.3.0
+### After installing version 4.3.0
 
 Proceed with:
 
@@ -262,7 +262,7 @@ Before you start the Experience Manager Guides 4.3.1 upgrade process, ensure tha
 1. (Optional) Upgrade Oxygen connector plugin released with version **4.2**. 
 1. Clear browser cache. 
 
-### After you install version 4.3.1
+### After installing version 4.3.1
 
 Proceed with:
 
@@ -282,7 +282,7 @@ You can upgrade to **4.3.1.5** directly if you are using version **4.3.1**.
 3.  Wait for the installation process to complete successfully. 
 4.  Continue upgrading the customizations as detailed out in the next section.. 
 
-## After you install version 4.3.1.5
+## After installing version 4.3.1.5
 
 >[!NOTE]
 >
@@ -344,7 +344,7 @@ Before you start the Experience Manager Guides 4.4.0 upgrade process, ensure tha
 
 ## Common post‑upgrade tasks (all versions)
 
-After you install Experience Manager Guides, you may need to merge configurations applicable from the newly installed version to your setup. 
+After installing Experience Manager Guides, you may need to merge configurations applicable from the newly installed version to your setup. 
 
 >[!NOTE]
 >
