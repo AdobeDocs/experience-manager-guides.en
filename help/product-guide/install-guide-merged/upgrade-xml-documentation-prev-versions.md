@@ -4,8 +4,8 @@ description: Learn how to Upgrade Adobe Experience Manager Guides
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
+
 # Upgrade Adobe Experience Manager Guides for version 4.4.0 and earlier 
 
 This article provides instructions to upgrade your Experience Manager Guides versions (prior to version 4.6.0). If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
