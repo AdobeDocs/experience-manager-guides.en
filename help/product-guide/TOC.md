@@ -577,8 +577,8 @@ breadcrumb-title: AEM Guides Documentation
     - Upgrade AEM Guides {#upgrade-aem-guides}
       - [Upgrade AEM Guides Cloud Service](./install-guide-merged/download-install-upgrade-dxml.md)
       - [Upgrade AEM Guides On-Premise 4.6.0 and above](./install-guide-merged/upgrade-xml-documentation.md)
-      - [Upgrade AEM Guides On-Premise previous versions](./install-guide-merged/upgrade-xml-documentation-prev-versions.md)
-      - [Upgrade AEM Guides On-Premise previous versions](./install-guide-merged/upgrade-xmll-documentation-prev-versions.md)
+      - [Upgrade AEM Guides On-Premise previous versions](./install-guide-merged/upgrade-xml-documentation-prev-versions.md)            
+      - [Upgrade AEM Guides On-Premise previous versions](./install-guide-merged/upgrade-aem-guides-on-prem-prev-versions.md)
     - [Configuration overrides for Cloud Service](./install-guide-merged/download-install-additional-config-override.md)
     - Recommendations for performance optimization {#performance-optimization-aemg}
       - [Performance optimization for Cloud Service](./install-guide-merged/download-install-recommend-perf-optimiz-cs.md)
