@@ -30,6 +30,10 @@ To enable the Find and replace (Source view) feature, you need to deploy a custo
 guidesAssetLucene-1-custom-1
 ```
 
+>[!NOTE]
+>
+> Increment the index number if a custom index with the same name already exists. 
+
 ### Index definition (.content.xml)
 
 Create the following index definition in your project at:  
@@ -148,6 +152,11 @@ Create the following index definition in your project at:
                         jcr:primaryType="nt:unstructured"
                         mappedType="text/markdown+source"/>
             </text>
+            <text jcr:primaryType="nt:unstructured">
+   <html
+        jcr:primaryType="nt:unstructured"
+        mappedType="text/html+source"/>
+</text>
         </mimeTypes>
     </tika>
 </jcr:root>
