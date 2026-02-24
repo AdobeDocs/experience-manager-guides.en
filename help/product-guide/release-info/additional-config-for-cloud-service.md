@@ -4,9 +4,9 @@ description: Learn about the additional configuration for upgrading cloud servic
 ---
 # Additional configuration for upgrading AEM Guides as Cloud Service
 
-Depending on the version you are upgrading from, additional configuration steps may be required to accommodate changes introduced in newer Cloud Service versions. 
+Depending on the version you are upgrading from, additional configuration steps may be required to integrate changes introduced in newer Cloud Service versions. 
 
-Some sections apply only to specific versions and cover configuration steps introduced in those versions. Ensure you review the sections relevant to the version you are upgrading from.
+Some configurations apply only to specific versions only. Ensure you refer to the configuration sections below and apply the required confirugations applicable for your set up.
 
 ## Steps to enable the trigger of a script via a servlet
 
