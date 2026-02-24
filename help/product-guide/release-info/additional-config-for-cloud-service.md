@@ -8,7 +8,7 @@ Depending on the version you are upgrading from, additional configuration steps 
 
 Some configurations apply only to specific versions only. Ensure you refer to the configuration sections below and apply the required configurations applicable for your set up.
 
-## Steps to apply search filters on DITAVAL Files for all output presets
+## Steps to apply search filters on DITAVAL files for all output presets
 
 To ensure filters function correctly, update the ui_config.json. Change the properties listed under **browseFilters** > **Non-DITA files** > **Ditaval Files** as shown below:
 
@@ -65,7 +65,7 @@ If you have another custom sling rewriter in your codebase, use an `'order'` val
 
 During this upgrade, since the `'order'` value is changed from 1000 to 50, you need to merge the existing custom rewriter, if any, with `fmdita-rewriter`.
 
-## Steps to index the existing content to use the new find and replace and topic list under the Reports tab: 
+## Steps to index the existing content to use the new find and replace and topic list under the Reports tab 
 
 >[!INFO]
 >
