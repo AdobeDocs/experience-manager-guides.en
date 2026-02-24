@@ -13,11 +13,11 @@ For making any configuration updates in Experience Manager Guides as a Cloud Ser
 
 1.  Create a new JSON file at the following location:
 
-    src/main/content/jcr\_root/apps/fmditaCustom/config/
+    `src/main/content/jcr\_root/apps/fmditaCustom/config/`
 
 1.  Name the file in the following format:
 
-    $\{PID\}.cfg.json
+    `$\{PID\}.cfg.json`
 
     Here, the PID is the process ID of the configuration.
 

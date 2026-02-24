@@ -198,10 +198,10 @@ After you install Experience Manager Guides, you may merge the various configura
     - `excludeList` should have `"event-user-data:changedByWorkflowProcess"`.
 
 1. Once the upgrade is complete, ensure any of the customizations/overlays are validated and updated to match the new application code. Some examples are given below:
-    - Any components overlayed from/libs/fmditaor/libsshould be compared with the new product code and updates should be done in overlayed files under/apps.
-    - Any clientlib categories used from product, should be reviewed for changes. Any overridden configurations \(examples below\) should be compared with the latest ones so as to get the latest features:
+    - Any components overlayed from `/libs/fmditaor/libsshould` be compared with the new product code and updates should be done in overlayed files under/apps.
+    - Any `clientlib` categories used from product, should be reviewed for changes. Any overridden configurations `\(examples below\)` should be compared with the latest ones so as to get the latest features:
     - elementmapping.xml
-    - ui\_config.json\(may have been set in folder profiles\)
+    - `ui\_config.json\(may have been set in folder profiles\)`
     - amended `com.adobe.fmdita.config.ConfigManager`
 
 1. If you have added any customizations in damAssetLucene, you may need to apply them again. After making those changes, set reindex as true. This will reindex all the existing nodes with the customizations. Once completed, the reindex flag will be set to false again. This may take a few hours depending on number of assets in the system.

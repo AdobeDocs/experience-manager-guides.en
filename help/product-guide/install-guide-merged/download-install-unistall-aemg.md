@@ -17,7 +17,7 @@ Perform the following steps to uninstall AEM Guides for On-Premise:
     http://<server name>:<port>/crx/packmgr/index.jsp
     ```
 
-1.  Search for com.adobe.fmdita package.
+1.  Search for `com.adobe.fmdita` package.
 1.  Click the package to expand it.
 1.  Click **More** to open the dropdown.
 1.  Click **Uninstall** and wait for the uninstall to complete.

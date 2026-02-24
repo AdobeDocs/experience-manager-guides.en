@@ -9,9 +9,9 @@ level: Experienced
 
 1.  Access your Cloud Manager's Git repository.
 
-1.  Update the dox/dox.installer/pom.xml file.
+1.  Update the `dox/dox.installer/pom.xml` file.
 
-1.  Update the value of dox.version variable to the version details provided by Adobe.
+1.  Update the value of `dox.version` variable to the version details provided by Adobe.
 
 1.  Commit the changes and run the Cloud Manager pipeline to deploy the upgraded package.
 

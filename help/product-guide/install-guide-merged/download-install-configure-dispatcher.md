@@ -59,13 +59,13 @@ This configuration update ensures that DITA map and topic files rendered by the 
 
 When using a Dispatcher with AEM Guides, if your Author instance has a dispatcher in front, then make the following two changes:
 
--   Whitelist the POST request URL. A sample " `/filters`" rule is given below - Add this rule to dispatcher configurations file:
+-   Whitelist the POST request URL. A sample `/filters` rule is given below: Add this rule to dispatcher configurations file:
 
 ```json
 /xxxx {/type "allow" /method "POST" /url "/home/users/*/preferences"}
 ```
 
--   Ensure the URL pattern " /libs/cq/security/userinfo.json" is not cached on Author dispatcher, so add a rule \(like below\) in author\_dispatcher.any
+-   Ensure the URL pattern `/libs/cq/security/userinfo.json` is not cached on Author dispatcher, so add a rule `\(like below\)` in `author\_dispatcher.any`
 
 ```json
 /xxxx {
