@@ -57,7 +57,7 @@ Before you start the Experience Manager Guides 5.1.0 upgrade process, ensure tha
 >
 > The post-processing and indexing may take a few hours. We recommend you to start the upgrade process during the off-peak hours.
 
-## Install version 5.1.0 
+**Install version 5.1.0**
 
 Download the 5.1.0 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) and follow the instructions provided in [Installation and post-installation upgrade workflow](#installation-and-post-installation-upgrade-workflow) to complete the upgrade process.
 
@@ -247,5 +247,5 @@ Index definition is updated for damAssetLucene with AEM Guides. After upgrading 
 
 >[!NOTE]
 >
-> While following the documentation make sure both properties (reindex=true and reindex-async=true for /oak:index/damAssetLucene) are updated simultaneously via save operation.
+> While following the documentation, make sure both properties (`reindex=true` and `reindex-async=true` for `/oak:index/damAssetLucene`) are updated simultaneously via Save operation.
 
