@@ -45,12 +45,12 @@ To add citations, follow these steps:
 
     >[!NOTE]
     >
-    >You can also add the ISBN or DOI or PubMed ID. AEM Guides populates the other fields automatically. 
+    >You can also provide the ISBN, DOI, or PubMed ID. AEM Guides populates the other fields automatically. 
 
     | Book | Website |Journal|
     | --- | ---|---|
     |**Source** <br> From the drop-down, select the source of the citation as a Book.| **Source**<br>From the drop-down, select the source of the citation as a Website.| **Source** <br> From the drop-down, select the source of the citation as a Journal.|
-    |**Search by** <br> Select **ISBN** or **DOI** from the drop-down to search for the digital ID linked to the citation.  <br> DOI: Digital Object Identifier <br> ISBN: Unique Numeric Book Identifier | **Search by** <br> Select **DOI** from the drop-down to search for the digital ID linked to the citation.  | **Search by** <br> Select **DOI** or PubMed ID from the drop-down to search for the digital ID linked to the citation. <br>  <br> |
+    |**Search by** <br> Select **ISBN** or **DOI** from the drop-down to search for the digital ID linked to the citation.  <br> DOI: Digital Object Identifier <br> ISBN: Unique Numeric Book Identifier | **Search by** <br> Select **DOI** from the drop-down to search for the digital ID linked to the citation.  | **Search by** <ul><li>Select **DOI** or **PubMed ID** from the drop-down to search for the digital ID linked to the citation.</li><li>Select **Any field** from the dropdown to search across all Journal fields such as *Title*, *Journal title*, *Author*, *Year*, *Volume*, *Number*, and *Pages*. <br> The search returns the most relevant or exact-match citation URL based on the entered text.</li> |
     |**Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg) to add more names. | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg)  to add more names. | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg)to add more names. |
     |**Title** <br> Add the title of the book. | **Title** <br> Add the title of the web page.| **Title** <br> Add the title of the article.|
     |**Editor** <br> Add the editor of the book. | **Website Name** <br> Add the name of the website. | **Journal Title** <br> Add the title of the work in which the article is found.|
@@ -205,7 +205,7 @@ You can insert citations to the topic from the main toolbar or the left panel.
 1. Select the citations that you want to insert from the **Citation** dialog.
 1. Select **Done** to add them to the topic.  
 
-Once you have inserted citations in the topic, you can preview them in the Web Editor. You can also publish content with citations using Native PDF. 
+Once you have inserted citations in the topic, you can preview them in the Editor. You can also publish content with citations using Native PDF. 
 
 
 
