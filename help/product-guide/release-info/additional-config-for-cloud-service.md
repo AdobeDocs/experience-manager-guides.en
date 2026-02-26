@@ -4,6 +4,10 @@ description: Learn about the additional configuration for upgrading cloud servic
 ---
 # Additional configuration for upgrading AEM Guides as Cloud Service
 
+>[!INFO]
+>
+>This article applies if you have configured custom folder profile settings (`ui_config.json`). After every upgrade, review and modify your settings as needed to ensure compatibility with the latest changes.
+
 Depending on the version you are upgrading from, additional configuration steps may be required to integrate changes introduced in newer Cloud Service versions. 
 
 Some configurations apply only to specific versions only. Ensure you refer to the configuration sections below and apply the required configurations applicable for your set up.
