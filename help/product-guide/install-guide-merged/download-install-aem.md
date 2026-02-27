@@ -7,7 +7,7 @@ level: Experienced
 ---
 # Install Adobe Experience Manager {#id213BCI020E8}
 
-AEM Guides is a plug-in that installs on top of Adobe Experience Manager. Installing AEM requires understanding of some basic AEM concepts and recommended deployment scenarios. The following links will help you get started with AEM installation:
+AEM Guides is a plug-in that installs on top of Adobe Experience Manager. Installing AEM requires understanding of some basic AEM concepts and recommended deployment scenarios. The following link resources will help you get started with AEM installation:
 
 - [Basic AEM Concepts](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
@@ -23,7 +23,7 @@ If you plan to upgrade your AEM instance, then you must follow the given sequenc
 
 1. Uninstall AEM Guides.
 1. Upgrade your AEM instance.
-1. Install AEM Guides.
+1. Re-install AEM Guides.
 
 >[!IMPORTANT]
 >

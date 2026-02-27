@@ -25,17 +25,17 @@ The DITA files are saved in data store rather than the segment store. This keeps
 ## Update Lucene index \(Mandatory\) 
 
 **What is the change?**
-Exclude /var/dxml from oak:index/lucene.
+Exclude `/var/dxml from oak:index/lucene`.
 
 >[!NOTE]
 >
-> AEM Guides never uses Lucene indexes to search for content in /var/dxml node.
+> AEM Guides never uses Lucene indexes to search for content in `/var/dxml` node.
 
 **When to configure?**
-If you are making this change on a new system before migrating content, then only updating oak:index/lucene is required. Otherwise, on an existing system where the content is already migrated, then after making the change in oak:index/lucene, rebuild indexes for Lucene \(*which might take few hours to complete*\).
+If you are making this change on a new system before migrating content, then only updating `oak:index/lucene` is required. Otherwise, on an existing system where the content is already migrated, then after making the change in `oak:index/lucene,` rebuild indexes for Lucene \(*which might take few hours to complete*\).
 
 **Result of this change**
-This change prevents /var/dxml node from getting indexed and stored in the segment store.
+This change prevents `/var/dxml` node from getting indexed and stored in the segment store.
 
 ## Java memory optimization \(Mandatory\) 
 

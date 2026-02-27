@@ -574,9 +574,10 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure Dispatcher](./install-guide-merged/download-install-configure-dispatcher.md)
       - [Uninstall AEM Guides](./install-guide-merged/download-install-unistall-aemg.md)
     - [Verify AEM Guides installation](./install-guide-merged/download-install-verify-dxml-installation.md)
-    - [Upgrade AEM Guides Cloud Service](./install-guide-merged/download-install-upgrade-dxml.md)
-    - [Upgrade AEM Guides On-Premise 4.6.0 and above](./install-guide-merged/upgrade-xml-documentation.md)
-    - [Upgrade AEM Guides On-Premise previous versions](./install-guide-merged/upgrade-xml-documentation-prev-versions.md)
+    - Upgrade AEM Guides {#upgrade-aem-guides}
+      - [Upgrade AEM Guides Cloud Service](./install-guide-merged/download-install-upgrade-dxml.md)
+      - [Upgrade AEM Guides On-Premise 4.6.0 and above](./install-guide-merged/upgrade-xml-documentation.md)              
+      - [Upgrade AEM Guides On-Premise earlier versions](./install-guide-merged/upgrade-xml-documentation-prev-versions.md)
     - [Configuration overrides for Cloud Service](./install-guide-merged/download-install-additional-config-override.md)
     - Recommendations for performance optimization {#performance-optimization-aemg}
       - [Performance optimization for Cloud Service](./install-guide-merged/download-install-recommend-perf-optimiz-cs.md)

@@ -5,11 +5,11 @@ feature: Installation
 role: Admin
 level: Experienced
 ---
-# Uninstall AEM Guides {#id21BHG0C0SXA}
+# Uninstall AEM Guides for On-Premise{#id21BHG0C0SXA}
 
-You can uninstall AEM Guides using the CRX Package Manager. During the uninstall, the contents of the repository are reverted to the snapshot made immediately prior to the installation of the package.
+You can uninstall AEM Guides for On-Premise using the CRX Package Manager. During the uninstall, the contents of the repository are reverted to the snapshot made immediately prior to the installation of the package.
 
-Perform the following steps to uninstall AEM Guides:
+Perform the following steps to uninstall AEM Guides for On-Premise:
 
 1.  Log into your AEM instance and navigate to the CRX Package Manager. The default URL to access the package manager is:
 
@@ -17,7 +17,7 @@ Perform the following steps to uninstall AEM Guides:
     http://<server name>:<port>/crx/packmgr/index.jsp
     ```
 
-1.  Search for com.adobe.fmdita package.
+1.  Search for `com.adobe.fmdita` package.
 1.  Click the package to expand it.
 1.  Click **More** to open the dropdown.
 1.  Click **Uninstall** and wait for the uninstall to complete.

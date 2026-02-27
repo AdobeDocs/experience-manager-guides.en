@@ -28,7 +28,7 @@ Perform the following steps to use WinSCP to upload files:
 
     - the URL where your AEM server is hosted,
 
-    - the port number \(default is 4502\), and
+    - the port number `\(default is 4502\)`, and
 
     - the user name and password to access your AEM server.
 
@@ -44,7 +44,7 @@ You can use any of the following methods to upload your content with UUID:
 -   Use the **Create** \> **Files** workflow from AEM's Assets UI.
 -   Use a tool like WinSCP.
 
-In case you use a tool like WinSCP, you can define the action to perform on a duplicate file by setting the **Move old file with Same UUID to New Folder** option in the configMgr. This option defines what action is performed on a file that is available at some other location in the AEM repository. This setting is available in the *com.adobe.fmdita.config.ConfigManager* bundle in the configMgr.
+In case you use a tool like WinSCP, you can define the action to perform on a duplicate file by setting the **Move old file with Same UUID to New Folder** option in the configMgr. This option defines what action is performed on a file that is available at some other location in the AEM repository. This setting is available in the `*com.adobe.fmdita.config.ConfigManager*` bundle in the configMgr.
 
 By default the **Move old file with Same UUID to New Folder** option is turned ON. This implies that when the file being uploaded is present at some other folder in the repository, then the existing file is moved to the current location and overwritten with the file being uploaded. If you do not select this option, then the file is overwritten at its existing location.
 
@@ -67,7 +67,7 @@ The following points must be considered while moving or copying content from you
 
 ## Use FrameMaker 
 
-Adobe FrameMaker comes with a powerful AEM connector that allows you to easily upload your existing DITA and other FrameMaker documents \(.book and .fm\) into AEM. You can use various file upload functionalities such as uploading a single file, uploading a complete folder with or without dependencies \(like content references, cross-references, and graphics\).
+Adobe FrameMaker comes with a powerful AEM connector that allows you to easily upload your existing DITA and other FrameMaker documents `\(.book and .fm\)`into AEM. You can use various file upload functionalities such as uploading a single file, uploading a complete folder with or without dependencies \(like content references, cross-references, and graphics\).
 
 Perform the following steps to use FrameMaker's AEM Connector to upload content:
 
