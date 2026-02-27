@@ -581,8 +581,8 @@ breadcrumb-title: AEM Guides Documentation
     - Recommendations for performance optimization {#performance-optimization-aemg}
       - [Performance optimization for Cloud Service](./install-guide-merged/download-install-recommend-perf-optimiz-cs.md)
       - [Performance optimization for On-Premise](./install-guide-merged/download-install-recommend-perf-optimiz-on-prem.md)         
-    - Work with user groups and security {#user-group-sec-cs-exp}
-      - [User administration and security](./install-guide-merged/user-admin-sec.md)
+    - User groups and security {#user-group-sec-cs-exp}
+      - [User management](./install-guide-merged/user-admin-sec.md)
     - Content migrate {#migrate-con-cs-exp}
       - [Migrate existing content](./install-guide-merged/migrate-content.md)
       - [Upload existing DITA content using Framemaker and WebDav tool (On-Prem)](./install-guide-merged/migrate-content-upload-existing-dita-content.md)
@@ -590,7 +590,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure UUID file pattern](./install-guide-merged/migrate-content-configure-uuid-filename-pattern.md)
       - [Migrate non-DITA content](./install-guide-merged/migrate-content-non-dita.md)
       - [Migrate content from On-premise to Cloud Service](./install-guide-merged/migrate-on-premise-content-cloud.md)
-    - Work with custom DITA-OT and specialization {#custom-dita-ot-spec-cs-exp}
+    - Custom DITA-OT and specialization {#custom-dita-ot-spec-cs-exp}
       - [Use custom DITA-OT and DITA specialization](./install-guide-merged/dita-ot-specialization.md)
     - Configure UUID and non-UUID based filenames {#conf-non-uuid-filename-cs-exp}
       - [Configure post processing for a folder](./install-guide-merged/conf-folder-post-processing.md)
@@ -598,16 +598,16 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure auto-filenames based on UUID](./install-guide-merged/conf-auto-uuid-filenames.md)
       - [Configure Regx for valid file name characters](./install-guide-merged/conf-file-names-valid-regx.md)
       - [Configure valid file names for AEM Site output](./install-guide-merged/conf-file-names-valid-regx-aem-site-output.md)
-    - Work with topic and map templates {#topic-map-template-cs-exp}
+    - Topic and map templates {#topic-map-template-cs-exp}
       - [Configure topic and map templates](./install-guide-merged/conf-template-tags.md)
       - [Configure custom DITA topic template](./install-guide-merged/conf-template-tags-custom-dita-topic-template.md)
       - [Configure custom DITA map template](./install-guide-merged/conf-template-tags-custom-dita-map-templates.md)
-    - Work with document states {#doc-state-cs-exp}
+    - Document states {#doc-state-cs-exp}
       - [Configure document states](./install-guide-merged/customize-doc-state.md)  
       - [Configure document state filters](./install-guide-merged/config-doc-state-filters.md)  
     - Configure Workspace settings {#workspace-configs-exp}
       - [Workspace settings](./install-guide-merged/workspace-settings.md)  
-    - Work with the Web Editor configurations {#web-editor-configs-cs-exp}
+    - Web Editor configurations {#web-editor-configs-cs-exp}
       - [Customize Web Editor](./install-guide-merged/conf-web-editor.md)
       - [Customize toolbar](./install-guide-merged/conf-web-editor-customize-toolbar.md)
       - [Configure the AI-powered smart suggestions for authoring for Cloud Service](./install-guide-merged/conf-smart-suggestions.md)      
@@ -636,15 +636,15 @@ breadcrumb-title: AEM Guides Documentation
       - [Include @navtitle attribute by default](./install-guide-merged/auto-add-navtitle.md)
       - [Configure the option to edit in Oxygen for On-Premise](./install-guide-merged/conf-edit-in-oxygen.md)
       - [Configure additional special characters for On-Premise](./web-editor/configure-additional-special-characters-exp.md)       
-    - Work with global and folder-level profiles {#global-folder-profiles-cs-exp}
+    - Global and folder-level profiles {#global-folder-profiles-cs-exp}
       - [Configure global or folder-level profiles](./install-guide-merged/conf-folder-level.md)
     - Configure versions {#version-mgt-cs-exp}
       - [Version management](./install-guide-merged/version-management.md)
-    - Work with desktop-based XML editors {#desktop-xml-editor-exp}
+    - Desktop-based XML editor integration {#desktop-xml-editor-exp}
       - [Integrate desktop-based XML editors](./install-guide-merged/integrate-desktop-editors-cs.md)
     - Configure Workfront {#configure-workfront-cs-exp}
       - [Configure Workfront for Cloud Service](./install-guide-merged/conf-workfront.md)
-    - Work with output generation settings {#output-gen-config-cs-exp}  
+    - Output generation settings {#output-gen-config-cs-exp}  
       - [Configure output generation settings](./install-guide-merged/conf-output-generation.md) 
       - Configure AEM Site output settings {#conf-aem-sites-output}
         - [Download and install AEM Sites templates](./install-guide-merged/download-install-aem-sites-templates-cs.md)
@@ -660,15 +660,15 @@ breadcrumb-title: AEM Guides Documentation
       - Configure content and experience fragments for Cloud Service {#conf-content-exp-fragment}  
         - [Create a mapping between a topic and a content fragment](./install-guide-merged/conf-content-fragment-mapping-cs.md)
         - [Create a mapping between a topic and an experience fragment](./install-guide-merged/conf-experience-fragment-mapping-cs.md)
-    - Work with custom workflows {#custom-workflow-cs-exp}
+    - Workflow customization {#custom-workflow-cs-exp}
       - [Configure and customize workflows](./install-guide-merged/customize-workflows.md)  
-    - Work with translation configurations {#translate-config-cs-exp}
+    - Translation configuration {#translate-config-cs-exp}
       - [Translate content](./install-guide-merged/translation.md)
-    - Work with AEM Assets search {#aem-asset-search-cs-exp}
+    - AEM Assets search {#aem-asset-search-cs-exp}
       - [Configure search for AEM Assets UI](./install-guide-merged/conf-dita-search.md)
-    - Work with Asset processing {#asset-processing-cloud-exp}
+    - Asset processing {#asset-processing-cloud-exp}
       - [Configure asset processing feature](./install-guide-merged/configure-asset-processing-cs.md)
-    - Work with B-tree cleanup {#btree-cleanup-cs-exp}
+    - B-tree cleanup {#btree-cleanup-cs-exp}
       - [Configure B-tree cleanup](./install-guide-merged/configure-btree-cleanup-cs.md)
     - Custom indexing {#custom-indexing-cs-exp}
       - [Deploying custom index for Find and replace feature for Cloud Service](./install-guide-merged/custom-indexing-cs.md)
