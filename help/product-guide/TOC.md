@@ -278,6 +278,7 @@ breadcrumb-title: AEM Guides Documentation
       - Use Baseline {#work-with-baseline}
         - [Create and manage Baselines from Map console](./user-guide/web-editor-baseline.md)
         - [Create and manage Baselines from the Map dashboard](./user-guide/generate-output-use-baseline-for-publishing.md)
+        - [Create and manage new Baselines from Map console](./user-guide/web-editor-baseline-v2.md) 
       - [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
       - [Use variables for setting the Destination Path, Site Name, or File Name options](./user-guide/generate-output-use-variables.md)
       - [Pass on the metadata to the output using DITA-OT](./user-guide/pass-metadata-dita-ot.md)
@@ -300,6 +301,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Activate output](./user-guide/conf-bulk-activation-publish-map-collection.md)
       - [Edit a bulk activation map collection](./user-guide/conf-bulk-activation-edit-map-collection.md)
       - [Delete a bulk activation map collection](./user-guide/conf-bulk-activation-delete-map-collection.md)
+      - [Manage replication of DITA source assets](./user-guide/dita-assets-replication-aem-sites.md)
   - Output generation of FrameMaker Documents {#generate-fm-output}
       - [FrameMaker output generation basics](./user-guide/fm-output-generatation.md)
       - Supported presets {#fm-docs-generating-presets}
@@ -472,7 +474,9 @@ breadcrumb-title: AEM Guides Documentation
     - Work with B-tree cleanup{#btree-cleanup}
       - [Configure B-tree cleanup ](./install-guide/configure-btree-clean-up-job.md)
     - Custom indexing{#custom-indexing}
-      - [Deploying custom index for Find and replace (Source view)](./install-guide/custom-indexing-prem.md)   
+      - [Deploying custom index for Find and replace (Source view)](./install-guide/custom-indexing-prem.md)
+    - Work with DITA assets replication{#dita-assets-replication}
+      - [Configure DITA assets replication](./install-guide/configure-dita-asset-replication.md)     
     - [Appendix](./install-guide/appendix.md)
   - Cloud Services {#cs-ig}
     - [About this guide](./cs-install-guide/introduction.md)
@@ -561,7 +565,9 @@ breadcrumb-title: AEM Guides Documentation
     - Work with B-tree cleanup{#btree-cleanup-cs}
       - [Configure B-tree cleanup](./cs-install-guide/configure-btree-cleanup-cs.md)   
     - Custom indexing{#custom-indexing-cs}
-      - [Deploying custom index for Find and replace (Source view)](./cs-install-guide/custom-indexing.md)   
+      - [Deploying custom index for Find and replace (Source view)](./cs-install-guide/custom-indexing.md) 
+    - Work with DITA assets replication{#dita-assets-replication-cs}
+      - [Configure DITA assets replication](./cs-install-guide/configure-dita-assets-replication.md)    
     - [Appendix](./cs-install-guide/appendix.md)     
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
