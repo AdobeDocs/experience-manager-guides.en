@@ -69,12 +69,11 @@ If you have another custom sling rewriter in your codebase, use an `'order'` val
 
 During this upgrade, since the `'order'` value is changed from 1000 to 50, you need to merge the existing custom rewriter, if any, with `fmdita-rewriter`.
 
-## Steps to index the existing content to use the new find and replace and topic list under the Reports tab 
+## Configurations applicable for versions before June 2023 
 
->[!INFO]
->
->Only if you are using a release before the June 2023 release of Experience Manager Guides as a Cloud Service.
+The following configurations are required only if you are using a version of Experience Manager Guides as a Cloud Service released before June 2023. Expand the relevant sections below to apply the necessary settings and ensure compatibility with necessary updates.
 
++++Steps to index the existing content to use the new find and replace and topic list under the Reports tab
 Perform the following steps for indexing the existing content and use the new find and replace text at map level and topic list under the reports tab:
 
 1. Run a POST request to the server (with correct authentication) - `http://<server:port>/bin/guides/map-find/indexing`. (Optional: You can pass specific paths of the maps to index them, by default all maps are indexed|| Example : `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
@@ -85,12 +84,9 @@ Perform the following steps for indexing the existing content and use the new fi
 
 1. Once the job is completed, the previous GET request responds with success and mention if any maps failed. The successfully indexed maps can be confirmed from server logs.
 
-## Steps to post process the existing content to use the broken link report 
++++
 
->[!INFO]
->
->Only if you are using a release before the June 2023 release of Experience Manager Guides as a Cloud Service.
-
++++Steps to post process the existing content to use the broken link report 
 Perform the following steps for post-processing the existing content and using the new broken link report:
 
 1. (Optional) If there are more than 100,000 DITA files in the system, update the `queryLimitReads` and `queryLimitInMemory` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` to a larger value (any value greater than the number of assets present, for example 200,000) and then redeploy.
@@ -112,13 +108,9 @@ Perform the following steps for post-processing the existing content and using t
 
 1. Revert back to the default or previous existing value of `queryLimitReads` if you have changed it in step 1.
 
++++
 
-## Steps to enable the trigger of a script via a servlet
-
->[!INFO]
->
->Only if you are using a release before the June 2023 release of Experience Manager Guides as a Cloud Service.
-
++++Steps to enable the trigger of a script via a servlet
 After you complete the installation, you can choose to HIT the trigger to start the translation job:
 
 POST:
@@ -149,6 +141,11 @@ Wait till this job is completed before proceeding to the next steps.
 GET
 http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json
 ```
+
++++
+
+
+
 
 
 

@@ -35,7 +35,7 @@ This section points the compatibility matrix for the software applications suppo
 |Experience Manager Guides Components Content Package for Cloud Service|guides-components.all-1.4.0| aem-site-template-dxml-1.0.17|
 
 
-### New AEM Site template version
+### AEM Site template version
 
 |Components version | Site version|
 |---|---|
