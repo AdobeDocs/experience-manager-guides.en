@@ -12,7 +12,7 @@ For the list of issues fixed in this release, view [Fixed issues in the 2026.03.
 
 Learn about [upgrade instructions for the 2026.03.0 release](../release-info/upgrade-instructions-2026-01-0.md).
 
-## Introducing Product Training and Learning content in Experience Manager Guides for enabling interactive eLearning experiences
+## Introducing Product Training and Learning content in Experience Manager Guides to enable interactive eLearning experiences
 
 The all-new **Product Learning and Training** content feature in Experience Manager Guides that empowers training teams and instructional designers to build engaging, learner‑focused eLearning courses directly from the Experience Manager Guides interface. 
 
@@ -22,7 +22,7 @@ With template-driven authoring, interactive course components, and support for a
 
 >[!NOTE]
 > 
-> The Product Training and Learning content feature remains disabled by default for all instances of Experience Manager Guides as a Cloud Service starting with the 2026.03.0 release. Administrators can enable this feature at the folder-profile level from **Workspace settings** > **General**, based on organizational requirements.
+> The Product Training and Learning content feature remains disabled by default for all instances of Experience Manager Guides as a Cloud Service starting with the 2026.03.0 release. Administrators can enable this feature at the folder-profile level from **Workspace settings** > **General**.
 
 The key capabilities are as follows:  
 
@@ -42,7 +42,7 @@ The following Editor enhancements have been made as part of this release:
 
 ### Translation language copies are now available in the Right panel of the Editor interface
 
-With this release, a new **Translations** section is introduced in the Right panel under *File properties** in the Editor. This section provides direct access to all available language copies for the currently opened asset (map, topic, image, etc.). You no longer need to navigate to the Assets UI to view or access these language copies. 
+With this release, a new **Translations** section is introduced in the Right panel under *File properties* in the Editor. This section provides direct access to all available language copies for the currently opened asset (map, topic, image, etc.). You no longer need to navigate to the Assets UI to view or access these language copies. 
 
 ![](assets/translations-right-panel.png){width="350" align="left"}
 
@@ -79,14 +79,14 @@ For more details on using Schematron files in Experience Manager Guides, view [S
 
 The following Review enhancements have been made as part of this release:
 
-- Assigning a Reviewer to a review task is now dependent on an active project selection - the **Assign To** field on the *Create Review Task* page remains disabled until an active project is selected. After a project is selected, the **Assign To** field is enabled and lists only the users and user groups associated with that project. This ensures that review tasks are assigned only to valid project members and prevents unintended reviewer selection.
+- Assigning a Reviewer to a review task is now dependent on an active project selection. The **Assign To** field on the *Create Review Task* page remains disabled until an active project is selected. After a project is selected, the **Assign To** field is enabled and lists only the users and user groups associated with that project. This ensures that review tasks are assigned only to valid project members and prevents unintended Reviewer selection.
 
 ![](assets/create-review-task-023.png)
 
-- Assigning a reviewer to a review task in the Assign To field is now mandatory and must be specified to complete the review task creation. 
-- The **Assign To** field now supports typeahead search that allows you to quickly locate users or user groups by typing text. 
+- Assigning a Reviewer to a review task is now mandatory and must be specified to complete the review task creation. 
+- The **Assign To** field now supports typeahead search, allowing you to quickly locate users or user groups by typing text. 
 
-Together, these enhancements make reviewer selection more accurate, efficient, and aligned with project-specific review workflows.
+Together, these enhancements make Reviewer selection more accurate, efficient, and aligned with project-specific review workflows.
 
 For more details, view [Send topics for review](../user-guide/review-send-topics-for-review.md). 
 
