@@ -30,15 +30,28 @@ To get started with the folder profile configuration for Learning and Training c
     ![](assets/folder-profile.png){width="650" align="left"}
 
 6. **Configure Folder profile settings**: For Learning and Training content, the following settings can be configured at a folder level: 
+    - [General](#general)
     - [Panels](#configure-panels) 
-    - [Templates](#configure-templates)
+    - [Content templates](#configure-content-templates)
     - [Output presets](#configure-output-presets)
     - [HTML editor](#html-editor-settings) 
     - [Publish profiles](#manage-publish-profiles) 
 
- To access these settings, switch to the Editor view and select **Settings** from the **Options** menu as shown below: 
+ To access these settings, switch to the Editor view and select **Workspace settings** from the **Options** menu as shown below: 
 
  ![](assets/access-editor-settings.png)
+
+## General
+
+In the General tab, you can configure the following settings that are specific to the Product Training and Learning content feature:
+
+![](assets/lc-config-settings-general.png){width="350" align="left"}
+
+- **Learning content**: Use the **Enable Learning content** toggle to enable or disable the feature at a folder-profile level. 
+- **HTML editor**: This setting allows you to configure the Editor for HTML-based authoring. Key configuration options present in this setting are as follows: 
+
+- **Hide inline styling**: Enable this option to prevent Authors from applying inline formatting to the course content. When enabled, all the inline styling options like Fonts, Border, Layout, Background, and Columns present in the right panel of the Editor remain hidden for Authors. However, Authors can still use the global class-based styling options available in the **Styles** panel. This helps maintain consistency with your organization's style guidelines. 
+- **Hide Source view for Authors**: Enable this option to restrict access to the HTML source code. This is useful when you want to simplify the editing experience or avoid accidental changes to the underlying code. 
 
 ## Configure panels 
 
@@ -54,15 +67,25 @@ For Learning and Training content, ensure that only the following features are e
 **Left panel** 
 
 - **Collections**: Enables you to organize and save frequently used files, or quickly access shared files. 
-- **Repository**: Allows you to view and access all your maps, topics, images, and other assets stored in the content repository. 
+- **Explorer**: Allows you to view and access all your maps, topics, images, and other assets stored in the content repository. 
 - **Course manager**: Provides a dedicated workspace for creating and managing courses.  
+- **Map**:
+- **Outline**:
+- **Workfront**:
+- **Reusable content**:
+- **Glossary**:
 - **Snippets**: Allow you to create and reuse small content fragments across various topics in your Learning courses. 
 - **Conditions**: Allows you to configure conditional attributes at a global and folder level. 
-- **Variables**: Allows you to create and manage variables to use in your learning content. 
-- **Language variables**: Enables you to define localized strings for published output or static text in templates. 
+- **Subject scheme**:
 - **Templates**: Allows you to create and manage templates for use by the Authors. 
+- **Citations**: 
+- **Language variables**: Enables you to define localized strings for published output or static text in templates. 
+- **Variables**: Allows you to create and manage variables to use in your learning content. 
 - **Output templates**: Enables you to create and manage output templates to generate output in various formats.  
 - **Find and replace**: Provides options to search for and replace text across files in a map or a folder within your repository.  
+- **Data sources**:
+- **Review**:
+- **System reports**: 
 
 **Right panel**
 
@@ -84,7 +107,7 @@ For Learning and Training content, ensure that only the following features are e
 
 - **Filters**: Allows you to use filters when working with reports and translation.  
 
-## Configure Templates 
+## Configure content templates 
 
 This setting allows you to manage the authoring and publishing templates present in the [Left panel in the Editor](../user-guide/web-editor-left-panel.md). You can add, remove, or reorder authoring and output templates, which will then be accessible to Authors and Publishers. 
 
@@ -185,15 +208,6 @@ The Output presets tab allows you to define which output formats are available f
 - **Common output presets**: This section displays the output presets commonly created and added by Publishers to a specific folder profile. You can also remove any preset that is no longer needed. 
 
     ![](assets/common-output-presets.png){width="350" align="left"}
-
-## HTML editor settings 
-
-This setting allows you to configure the Editor for HTML-based authoring. Key configuration options present in this setting are as follows: 
-
-![](assets/configure-html-editor-setting.png){width="350" align="left"}
-
-- **Hide inline styling**: Enable this option to prevent Authors from applying inline formatting to the course content. When enabled, all the inline styling options like Fonts, Border, Layout, Background, and Columns present in the right panel of the Editor remain hidden for Authors. However, Authors can still use the global class-based styling options available in the **Styles** panel. This helps maintain consistency with your organization's style guidelines. 
-- **Hide Source view for Authors**: Enable this option to restrict access to the HTML source code. This is useful when you want to simplify the editing experience or avoid accidental changes to the underlying code. 
 
 ## Manage Publish profiles 
 
