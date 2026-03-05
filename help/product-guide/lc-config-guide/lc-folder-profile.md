@@ -69,23 +69,23 @@ For Learning and Training content, ensure that only the following features are e
 - **Collections**: Enables you to organize and save frequently used files, or quickly access shared files. 
 - **Explorer**: Allows you to view and access all your maps, topics, images, and other assets stored in the content repository. 
 - **Course manager**: Provides a dedicated workspace for creating and managing courses.  
-- **Map**:
-- **Outline**:
-- **Workfront**:
-- **Reusable content**:
-- **Glossary**:
+- **Map**: Opens a map in the Map view.
+- **Outline**: Displays the structural hierarchy of the currently opened topic or map, allowing quick navigation and element‑level access.
+- **Workfront**: Enables integration with Adobe Workfront to plan, assign, track, and manage authoring, review, and publishing tasks directly within AEM Guides. 
+- **Reusable content**: Allows you to manage and insert reusable elements or topics to ensure consistency and reduce duplication across content.
+- **Glossary**: Enables you to create and manage glossary terms and include them across topics to maintain consistent terminology.
 - **Snippets**: Allow you to create and reuse small content fragments across various topics in your Learning courses. 
 - **Conditions**: Allows you to configure conditional attributes at a global and folder level. 
-- **Subject scheme**:
+- **Subject scheme**: Allows you to define controlled values for conditional attributes, ensuring consistency and validation of attribute usage across content.
 - **Templates**: Allows you to create and manage templates for use by the Authors. 
-- **Citations**: 
+- **Citations**: Enables you to add and manage citations into content using supported citation styles.
 - **Language variables**: Enables you to define localized strings for published output or static text in templates. 
 - **Variables**: Allows you to create and manage variables to use in your learning content. 
 - **Output templates**: Enables you to create and manage output templates to generate output in various formats.  
 - **Find and replace**: Provides options to search for and replace text across files in a map or a folder within your repository.  
-- **Data sources**:
-- **Review**:
-- **System reports**: 
+- **Data sources**: Allows you to connect external data sources and reuse data within your content.
+- **Review**: Allows you to create and manage review workflows in Experience Manager Guides.
+- **System reports**: Allows you to create and manage reports. 
 
 **Right panel**
 
@@ -108,6 +108,10 @@ For Learning and Training content, ensure that only the following features are e
 - **Filters**: Allows you to use filters when working with reports and translation.  
 
 ## Configure content templates 
+
+>[!NOTE]
+>
+> This setting is available only when the learning content feature is enabled in the **Workspace settings** > **General**. 
 
 This setting allows you to manage the authoring and publishing templates present in the [Left panel in the Editor](../user-guide/web-editor-left-panel.md). You can add, remove, or reorder authoring and output templates, which will then be accessible to Authors and Publishers. 
 
@@ -196,6 +200,10 @@ You can also define the order in which the templates present within a category a
 
 
 ## Configure Output presets 
+
+>[!NOTE]
+>
+> This setting is available only when the learning content feature is enabled in the **Workspace settings** > **General**. 
 
 The Output presets tab allows you to define which output formats are available for publishing a course. It contains two sections: **Allowed output preset types** and **Common output presets**.  
 
