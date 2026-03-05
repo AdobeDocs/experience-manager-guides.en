@@ -27,6 +27,7 @@ Learn about [upgrade instructions for the 2026.03.0 release](upgrade-instruction
 ## Translation
 
 - When an image initially managed as a language‑specific asset with a specific version (for example, under `/en/`) is moved out to a global folder with an updated version and baseline export is performed, the new baseline continues to reference outdated language‑specific versions of that image, leading to a failed baseline export. (GUIDES-39394)
+- When processing translation projects created outside Experience Manager Guides, multiple error log messages are generated stating that *`fmTarget` property not found*. (GUIDES-37804)
 
 ## Baseline 
 
