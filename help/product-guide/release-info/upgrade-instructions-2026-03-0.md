@@ -28,18 +28,17 @@ This section points the compatibility matrix for the software applications suppo
 | 2026.03.0| 3.8 -uuid 1|   3.8 -uuid 1 | 2.3 | 2.3 |
 
 
-### Knowledge base template version
-
-|Components package name| Components version | Template version|
-|---|---|---|
-|Experience Manager Guides Components Content Package for Cloud Service|guides-components.all-1.4.0| aem-site-template-dxml-1.0.17|
-
-
 ### AEM Site template version
 
 |Components version | Site version|
 |---|---|
 |guides-components.all-1.4.0| aemg-sites-template-1.3.0|
+
+### Knowledge base template version
+
+|Components package name| Components version | Template version|
+|---|---|---|
+|Experience Manager Guides Components Content Package for Cloud Service|guides-components.all-1.4.0| aem-site-template-dxml-1.0.17|
 
 ## Prerequisites
 
