@@ -117,7 +117,7 @@ In addition to opening files, you can also perform many actions using the **Opti
 
 **Translations**
 
-In this section, a list of all available language copies for the currently opened asset in the Editor is displayed. The information is presented in a tabular view, showing each language code along with the corresponding *file title* (or *file name* in case *file title* is not available).
+This section lists all available language copies for the currently opened asset in the Editor, in alphabetical order. The information is presented in a tabular view, showing each language code along with the corresponding *file title* (or *file name* in case *file title* is not available).
 
 >![INFO]
 >
