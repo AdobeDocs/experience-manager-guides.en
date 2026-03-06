@@ -1,18 +1,18 @@
 ---
-title: Create and manage new baselines from the Map console
-description: Create and manage new baselines from the map console in Adobe Experience Manager Guides. Learn how to create new baselines on the basis of labels and apply filters to the baselines.
+title: Create and manage new baseline (Beta) from the Map console
+description: Create and manage new baseline (Beta) from the map console in Adobe Experience Manager Guides. 
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 ---
-# Create and manage New Baseline from Map console
+# Create and manage new Baseline (Beta) from Map console
 
 >[!NOTE]
 >
-> This articles applies to New Baseline offering improved performance and stability available with the Experience Manager Guides 2026.03.0 release. To use this baseline, contact the Customer Success Team to have the feature enabled.
+> This article applies to new Baseline (Beta) offering improved performance and stability available with the Experience Manager Guides 2026.03.0 release. To use this baseline, contact the Customer Success Team to have the feature enabled.
 
 The enhanced Baseline feature introduces a modernized architecture that significantly improves the reliability, performance, and scalability of the AEM Guides baseline workflow. By optimizing how baseline data is stored and retrieved, this enhancement delivers faster operations, greater stability, and a more predictable editing experience; especially when working with large and complex document sets.
 
-## Key Advantages
+## Key advantages
 
 - Stores only essential baseline data, reducing system overhead
 - Dynamically loads additional content as users scroll
@@ -21,11 +21,11 @@ The enhanced Baseline feature introduces a modernized architecture that signific
 - Allows inclusion of files without labels for greater flexibility
 - Provides a stable, reliable, and consistent baseline experience
 
-## Migrating to new baseline 
+## Migrating to new Baseline (Beta)
 
-Once you have the feature enabled from Customer Success Team, you need to migrate the existing baselines to the new enhanced baselines. 
+Once you have the feature enabled from Customer Success Team, you need to migrate the existing baselines to the new Baseline (Beta). 
 
-Perform the following steps, to migrate the existing baseline to the new baseline.
+Perform the following steps, to migrate the existing baseline to the new Baseline (Beta).
 
 1. Select the Adobe Experience Manager logo at the top and choose **Tools**.
 1. In the **Tools** panel select **Guides**.
@@ -60,7 +60,7 @@ You can also select **View logs** to check and download the logs for the migrati
 >
 > No baseline edits should be made during migration, particularly in working copies, to prevent failures. Post‑migration, some baselines may require rebuilding if versions are missing.    
 
-## Using the new baselines
+## Using the new Baseline (Beta)
 
 - **Creating the baseline**: You can create a baseline from the Map console by performing the same steps as listed in [Create a Baseline](./web-editor-baseline.md#create-a-baseline).
 - **Configuring the baseline for Manual update**: You can manually create a static baseline with a specific version of the topics and referenced content by performing the same steps as listed in [Configuring Baseline for Manual update](./web-editor-baseline.md#configuring-baseline-for-manual-update).

@@ -9,7 +9,7 @@ role: User
 
 >[!NOTE]
 >
-> A New Baseline offering improved performance and stability is available with the Experience Manager Guides 2026.03.0 release. To use this baseline, contact the Customer Success Team to have the feature enabled. For more details on how to use the new baseline, view [New Baseline](./web-editor-baseline-v2.md).
+> A new Baseline (Beta) offering improved performance and stability is available with the Experience Manager Guides 2026.03.0 release. To use this baseline, contact the Customer Success Team to have the feature enabled. Learn more about the [New Baseline (Beta)](./web-editor-baseline-v2.md).
 
 The Baseline feature allows you to create a version of your topics and assets that can then be used for publishing or translation. For example, if your DITA map has `topicA` and `imageA`, you can create a Baseline to use the 3rd version of `topicA`, but the 4th version of `ImageA`. Once you have a Baseline in place, you can publish or translate topics of different versions in a single step.
 
