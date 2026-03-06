@@ -28,7 +28,7 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
 ## General
 
- The General settings allow you to configure the settings to use the Editor. This tab contains five sections: **AI Assistant**, **Authoring**, **Citations**, **Condition**, **HTML editor**, **Learning content**, and **Spell check**. 
+ The General settings allow you to configure the settings to use the Editor. This tab contains seven sections: **AI Assistant**, **Authoring**, **Citations**, **Condition**, **HTML editor**, **Learning content**, and **Spell check**. 
 
 ![](assets/workspace-settings.png){width="350" align="left"}
 
