@@ -69,14 +69,13 @@ For Learning and Training content, ensure that only the following features are e
 - **Collections**: Enables you to organize and save frequently used files, or quickly access shared files. 
 - **Explorer**: Allows you to view and access all your maps, topics, images, and other assets stored in the content repository. 
 - **Course manager**: Provides a dedicated workspace for creating and managing courses.  
-- **Map**: Opens a map in the Map view.
+- **Map**: Provides a map view of the currently opened map file.
 - **Outline**: Displays the structural hierarchy of the currently opened topic or map, allowing quick navigation and element‑level access.
-- **Workfront**: Enables integration with Adobe Workfront to plan, assign, track, and manage authoring, review, and publishing tasks directly within AEM Guides. 
+- **Workfront**: Provides access to robust project management features on top of Experience Manager Guides core CCMS capabilities.
 - **Reusable content**: Allows you to manage and insert reusable elements or topics to ensure consistency and reduce duplication across content.
 - **Glossary**: Enables you to create and manage glossary terms and include them across topics to maintain consistent terminology.
 - **Snippets**: Allow you to create and reuse small content fragments across various topics in your Learning courses. 
 - **Conditions**: Allows you to configure conditional attributes at a global and folder level. 
-- **Subject scheme**: Allows you to define controlled values for conditional attributes, ensuring consistency and validation of attribute usage across content.
 - **Templates**: Allows you to create and manage templates for use by the Authors. 
 - **Citations**: Enables you to add and manage citations into content using supported citation styles.
 - **Language variables**: Enables you to define localized strings for published output or static text in templates. 

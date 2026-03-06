@@ -57,7 +57,7 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
     
     Change the style of citations. Choose the citation style from the drop-down you want to use in your project. For more details, view [Change citation styles](../user-guide/web-editor-apply-citations.md#change-citation-style).        
 
--  **Condition**
+- **Condition**
 
     - **Highlight conditional text in the Author view**: Select this to highlight the conditional text in the author view. The conditional content is highlighted using the color defined for the condition.
 
@@ -72,6 +72,26 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 - **Spell check**
     There are two options — **AEM spell check** and **Browser spell check**. By default, the editor uses the Browser spell check feature, wherein the spell-check is performed using the browser's in-built dictionary. You can switch to AEM spell check to use Adobe Experience Manager's dictionary, which can also be customized to add your custom word list. For more information about customizing AEM dictionary, view [Customize AEM's default dictionary](../cs-install-guide/customize-aem-custom-dictionary.md) section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.    
 
+- **Learning content**: This setting allows you to enable or disable the Product Training and Learning content feature for your Experience Manager Guides instance. Use the **Enable Learning content** toggle to enable or disable the feature at a folder-profile level. By default, this feature remains disabled for all the instances. 
+
+    Learn more about [Product Training and Learning content](../learning-content/intro.md) feature.
+
+    The following features/options become available only when the Learning content setting is enabled:
+
+    - **Course authoring**: Enables options to create and manage Courses from both the Editor and the Home page.
+    - **SCORM templates**: Enables the option to create SCORM templates under *Output templates* in the Editor. 
+    - **Content templates and Output presets**: Enables the Content templates and Output presets configuration options in the Workspace settings dialog. 
+
+When Learning content is disabled, all of the above options become unavailable across the Experience Manager Guides interface. 
+
+For more details, view [Configure Folder profiles](../lc-config-guide/lc-folder-profile.md).
+
+- **HTML editor**: For learning content, this setting allows you to configure the Editor for HTML-based authoring. Key configuration options present in this setting are as follows: 
+
+- **Hide inline styling**: Enable this option to prevent Authors from applying inline formatting to the course content. When enabled, all the inline styling options like Fonts, Border, Layout, Background, and Columns present in the right panel of the Editor remain hidden for Authors. However, Authors can still use the global class-based styling options available in the **Styles** panel. This helps maintain consistency with your organization's style guidelines. 
+- **Hide Source view for Authors**: Enable this option to restrict access to the HTML source code. This is useful when you want to simplify the editing experience or avoid accidental changes to the underlying code. 
+
+   For more details, view [creating and customizing learning content](../learning-content/lc-overview.md).
  
 ## Panels
 
