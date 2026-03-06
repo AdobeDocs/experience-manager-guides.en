@@ -52,9 +52,9 @@ To create a review task and send topics for review, perform the following steps:
 
 1.  In the **Project** drop-down field, select a DITA project for this review task. You can also type the project name to quickly locate it in the drop-down list. 
 
-1.  In the **Assign To** drop-down field, select the reviewers to whom you want to send the topics for review. You can also type the user name to quickly locate it in the drop-down list. 
+1.  In the **Assign To** drop-down field, select the reviewers to whom you want to send the topics for review. You can also search by member name or role name within the selected project when you type.
 
-    The *Assign To* field is enabled only after you select an active project in the *Project* field. The list of reviewers is fetched based on the selected project. If no project is selected, the *Assign To* field remains disabled.
+    The *Assign To* field is enabled only after you select an active project in the *Project* field. The list of members or roles is fetched based on selected project. If no project is selected, the *Assign To* field remains disabled.
 
     You can assign a review task to individual users of the project or to user groups. Note that you can assign a review task to individual users only when you are a part of the project's administrator group, else you will only view the user groups in the *Assign To* field.
 
