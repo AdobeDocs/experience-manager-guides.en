@@ -14,7 +14,7 @@ Learn about [upgrade instructions for the 2026.03.0 release](../release-info/upg
 
 ## Introducing Product Training and Learning content in Experience Manager Guides to enable interactive eLearning experiences
 
-The all-new **Product Learning and Training** content feature in Experience Manager Guides that empowers training teams and instructional designers to build engaging, learner‑focused eLearning courses directly from the Experience Manager Guides interface. 
+The all-new **Product Learning and Training** content feature in Experience Manager Guides empowers training teams and instructional designers to build engaging, learner‑focused eLearning courses directly from the Experience Manager Guides interface. 
 
 ![](assets/lc-overview.png)
 
@@ -28,12 +28,13 @@ The key capabilities are as follows:
 
 - Centralized learning content management 
 - Template-driven authoring 
-- Support for structured authoring and content reuse 
-- Quiz creation and management  
+- Support for content reuse 
+- Assessment creation and management  
+- Web-based review workflows to ensure a unified learning experience
 - Industry-leading translation management 
 - Multi-channel publishing using out-of-the-box SCORM and PDF output formats
 
-For more details, refer to [Getting started guide](../learning-content/course-overview.md) and [Configuration guide](../lc-config-guide/introduction.md) of Product Training and Learning content.
+For more details, refer to [Getting started guide](../learning-content/course-overview.md) and [Configuration guide](../lc-config-guide/introduction.md).
 
 
 ## Editor enhancements
