@@ -27,7 +27,7 @@ To ensure filters function correctly, update the ui_config.json. Change the prop
 
 ## Steps to perform B-Tree migration for Content Fragments
 
-If references are not displayed for content fragments, you can choose to HIT the trigger to start the migration job:
+If references are not displayed for content fragments, you can choose to run the migration job:
 
 POST: 
 
@@ -111,7 +111,7 @@ Perform the following steps for post-processing the existing content and using t
 +++
 
 +++Steps to enable the trigger of a script via a servlet
-After you complete the installation, you can choose to HIT the trigger to start the translation job:
+After you complete the installation, you can choose to start the translation job:
 
 POST:
 
