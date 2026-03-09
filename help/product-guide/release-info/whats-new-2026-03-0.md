@@ -41,6 +41,22 @@ For more details, refer to [Getting started guide](../learning-content/course-ov
 
 The following Editor enhancements have been made as part of this release:
 
+### Enhancements to the Schematron validation panel
+
+The following enhancements have been made to the Schematron user interface for better clarity, usability, and validation outcomes: 
+
+- In the Validation panel, an empty‑state message is displayed when no Schematron file is added, providing better clarity and direction for next steps.
+
+    ![](assets/schematron-panel.png){width="350" align="left"}
+- When multiple Schematron files are added, they are organized under a consolidated accordion, providing better visibility into the configured Schematron files.
+
+    ![](assets/schematron-panel-error.png){width="350" align="left"}
+- Based on the role attribute defined in the Schematron file, validation results are now categorized as: `fatal`, `error`, `warning`, or `info`. Each category includes a visible count along with a contextual tooltip for clearer interpretation. 
+
+    ![](assets/schematron-validation-errors.png){width="350" align="left"}
+
+For more details on using Schematron files in Experience Manager Guides, view [Support for Schematron files](../user-guide/support-schematron-file.md).
+
 ### Translation language copies are now available in the Right panel of the Editor interface
 
 With this release, a new **Translations** section is introduced in the Right panel under *File properties* in the Editor. This section provides direct access to all available language copies for the currently opened asset (map, topic, image, etc.). You no longer need to navigate to the Assets UI to view or access these language copies. 
@@ -60,21 +76,7 @@ For more details on adding citations in Experience Manager Guides, view [Add and
 
 ![](assets/add-citations.png){width="350" align="left"}
 
-### Enhancements to the Schematron validation panel
 
-The following enhancements have been made to the Schematron user interface for better clarity, usability, and validation outcomes: 
-
-- In the Validation panel, an empty‑state message is displayed when no Schematron file is added, providing better clarity and direction for next steps.
-
-    ![](assets/schematron-panel.png){width="350" align="left"}
-- When multiple Schematron files are added, they are organized under a consolidated accordion, providing better visibility into the configured Schematron files.
-
-    ![](assets/schematron-panel-error.png){width="350" align="left"}
-- Based on the role attribute defined in the Schematron file, validation results are now categorized as: `fatal`, `error`, `warning`, and `info`. Each category includes a visible count along with a contextual tooltip for clearer interpretation. 
-
-    ![](assets/schematron-validation-errors.png){width="350" align="left"}
-
-For more details on using Schematron files in Experience Manager Guides, view [Support for Schematron files](../user-guide/support-schematron-file.md).
 
 ## Review enhancements
 
@@ -84,7 +86,6 @@ The following Review enhancements have been made as part of this release:
 
 ![](assets/create-review-task-023.png)
 
-- Assigning a Reviewer to a review task is now mandatory and must be specified to complete the review task creation. 
 - The **Assign To** field now supports typeahead search, allowing you to quickly locate users or user groups by typing text. 
 
 Together, these enhancements make Reviewer selection more accurate, efficient, and aligned with project-specific review workflows.
@@ -95,11 +96,9 @@ For more details, view [Send topics for review](../user-guide/review-send-topics
 
 This release introduces the following enhancements to asset management:
 
-### Download maps with original file names and associated metadata
+### Use Flatten file hierarchy to download maps with original file names and associated metadata 
 
-You can now download a map while preserving its original file names for both file hierarchy options: Flatten file hierarchy and Retain file hierarchy. This enhancement gives you greater flexibility and control over how file names are handled in downloaded content, regardless of the hierarchy option you choose.
-
-Additionally, the downloaded package includes a `metadata.json` file, making the associated metadata easily accessible and reusable outside Experience Manager Guides.
+Now, you can use the Flatten file hierarchy option to download a map with its original file name. Additionally, the downloaded package includes a `metadata.json` file, making the associated metadata easily accessible and reusable outside Experience Manager Guides.
 
 For more details on downloading files in Experience Manager Guides, view [Download files](../user-guide/authoring-download-assets.md).
 
