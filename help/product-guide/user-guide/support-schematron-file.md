@@ -57,14 +57,30 @@ When you open a topic in the Editor, a Schematron Validation panel appears in th
 
     >[!NOTE]
     >
-    > Validation results are displayed based on the role attribute defined in the Schematron file for example **Fatal**, **Error**, **Warning**, or **Info** with visible counts for each category. Tooltips provide quick context such as error details and file paths. You are not allowed to save the file until the Fatal or Error level issues remain, with clearer messages explaining what needs to be fixed.
-
-    ![](images/schematron-validation-errors.png){width="350" align="left"}
-
+    > Validation results are displayed based on the role attribute defined in the Schematron file. For more details, view [Understanding validation results and serverity levels](#understanding-validation-results-and-serverity-levels).
 
 1. Select the error message to highlight the element containing the error in the opened topic/map.
 
 The Schematron support in the Editor helps you in validating the files against a set of rules and maintaining consistency and correctness across the topics.
+
+## Understanding validation results and serverity levels
+
+Validation results are displayed based on the role attribute defined in the Schematron file. Issues are categorized as `fatal`, `error`, `warning`, or `info`, with a visible count for each category in the Validation panel.
+
+![](images/schematron-validation-errors.png){width="350" align="left"}
+    
+To determine the severity of an issue, the _case-senstive_ value of the role attribute defined in the corresponding Schematron file is evaluated. For example: the following snippet defines the `error` severity in a Schematron rule:
+    
+`<sch:assert role="error" test="@id">Element must have an ID.</sch:assert>`
+
+If the role attribute is not specified, or if an unsupported value is used, the issue is categorized as `error` in the Validation panel. This behavior also applies to existing Schematron files that do not define a role attribute; in such cases, all issues are grouped under `error`. 
+    
+**File save scenarios**
+
+Saving a file depends on the **Run validation check before saving the file** setting in [Workspace settings](../cs-install-guide/workspace-settings.md#validation):
+    
+    - When enabled, you are not allowed to save the file until the `fatal` or `error` level issues are not resolved.
+    - When disabled, the validation checks are not performed and the files can be saved even if `fatal` or `error` level issues are present. 
 
 ## Use assert and report statements to check for rules{#schematron-assert-report}
 
