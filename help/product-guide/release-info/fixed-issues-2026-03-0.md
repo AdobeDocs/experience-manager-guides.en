@@ -41,6 +41,28 @@ Learn about [upgrade instructions for the 2026.03.0 release](upgrade-instruction
 
 - While opening a Report for a map, there is a delay in the loading of the Filters panel (GUIDES-39385)
 
+## Known issues
+
+Adobe has identified the following known issues for the 2026.03.0 release:
+
+- In the Assets UI, the **Move** action does not work as expected on the first attempt when more than 2 files are selected in a folder. (GUIDES-42721)
+- A blank screen is loaded when creating a duplicate Knowledge Base preset for ServiceNow. (GUIDES-42732)
+- The API for retrieving document state returns a null response for some files. (GUIDES-42561)
+- Renaming an existing template does not update the name in the **Output templates** panel until the page is manually refreshed. (GUIDES-42528)
+- In the Preview mode of a map, selecting a topic in the middle panel does not highlight the corresponding entry in the left TOC when the topic is inside bookmap tags (frontmatter, chapter, part, or backmatter) or part of cyclic content. (GUIDES-42416)
+- Navigating to **User preferences** from the Editor and updating the root map while Preview mode remains open causes the map preview to load as a blank screen when returning to the Editor. (GUIDES-42412)
+- An extra space added to the tab names present in the Map Dashboard causes automation failures. (GUIDES-42285)
+- When a file is open in both the Editor and the Search panel, deleting it from the Explorer panel removes the file and refreshes the Explorer list, but refreshing the page continues to display the file in the Search panel. (GUIDES-41935)
+- While editing an active review task, removing and then adding again the same topic to the review task without selecting the **Update** action results in the loss of reviewer(s) information. (GUIDES-38774)
+
+
+
+
+
+
+
+
+
 
 
 
