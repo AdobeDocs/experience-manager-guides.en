@@ -36,7 +36,7 @@ Perform the following steps to download a DITA map file from the Editor:
         For each option, you can further specify how file names are handled for downloaded files. The following file name options are available:
 
         - **Use GUID file name**: Downloads the map file with GUID as file name.
-        - **Use actual file name**: Downloads the map file with its original file name. If duplicate file names are encountered when using the Flatten file hierarchy option, numeric suffixes (_2, _3, and so on) are automatically added to resolve the conflict.
+        - **Use actual file name**: Downloads the map file with its original file name. When this option is used with Flatten file hierarchy, any duplicate file names in the map are automatically resolved by appending numeric suffixes (_2, _3, and so on) to ensure unique file names. 
        
     >[!NOTE]
     >
