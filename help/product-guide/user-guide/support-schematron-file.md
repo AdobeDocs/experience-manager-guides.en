@@ -79,8 +79,8 @@ If the role attribute is not specified, or if an unsupported value is used, the 
 
 Saving a file depends on the **Run validation check before saving the file** setting in [Workspace settings](../cs-install-guide/workspace-settings.md#validation):
     
-    - When enabled, you are not allowed to save the file until the `Fatal` or `Error` level issues are not resolved.
-    - When disabled, the validation checks are not performed and the files can be saved even if `Fatal` or `Error` level issues are present. 
+- When enabled, you are not allowed to save the file until the `Fatal` or `Error` level issues are not resolved.
+- When disabled, the validation checks are not performed and the files can be saved even if `Fatal` or `Error` level issues are present. 
 
 ## Use assert and report statements to check for rules{#schematron-assert-report}
 
