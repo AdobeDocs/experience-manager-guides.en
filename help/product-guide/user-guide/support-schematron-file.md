@@ -69,9 +69,14 @@ Validation results are displayed based on the role attribute defined in the Sche
 
 ![](images/schematron-validation-errors.png){width="350" align="left"}
     
-To determine the severity of an issue, the _case-senstive_ value of the role attribute defined in the corresponding Schematron file is evaluated. For example: the following snippet shows the role attribute value `error` defined in a Schematron rule:
+To determine the severity of an issue, the _case-senstive_ value of the role attribute defined in the corresponding Schematron file is evaluated. 
+
+The following snippet shows the supported role attribute values defined in a Schematron rule:
     
 `<sch:assert role="error" test="@id">Element must have an ID.</sch:assert>`
+`<sch:report role="info" test="not(@alt)">Image should have an alt attribute.</sch:report>`
+`<sch:assert role= "fatal" test="b"> Bold must be there in <sch:name/> element</sch:assert>`
+`<sch:assert role= "warn" test="b"> Recommended formatting is missing in <sch:name/> element</sch:assert>`
 
 If the role attribute is not specified, or if an unsupported value is used, the issue is categorized as `Error` in the Validation panel. This behavior also applies to existing Schematron files that do not define a role attribute; in such cases, all issues are grouped under `Error`. 
     
