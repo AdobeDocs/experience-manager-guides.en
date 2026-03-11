@@ -40,10 +40,6 @@ This section points the compatibility matrix for the software applications suppo
 |---|---|---|
 |Experience Manager Guides Components Content Package for Cloud Service|guides-components.all-1.4.0| aem-site-template-dxml-1.0.17|
 
-## Prerequisites
-
-As per standard DITA behavior, the scope=`external` attribute must not be applied to internal links, as it is intended only for references to external resources. Applying this attribute to internal links and moving such assets may disrupt workflows. For content managed in Experience Manager Guides, use the default `scope = local` or key-based references instead.
-
 ## Upgrade to 2026.03.0 release
 
 Experience Manager Guides is upgraded automatically upon upgrading to the latest release of Experience Manager as a Cloud Service.
