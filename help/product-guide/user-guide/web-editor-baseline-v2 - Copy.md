@@ -50,10 +50,10 @@ Before migrating to the new baseline model, review the following behavior change
 |------|-------------|
 | **Reference resolution** | Direct map references are classified as **DIRECT**. Invalid references are skipped, and references from `reltable` continue to be excluded. |
 | **Pick Automatically** | Version selection is evaluated immediately before resolving direct references, ensuring accurate version resolution. |
-| **baseline creation rules** | Version **1.0** is mandatory. baselines with missing or ambiguous versions may resolve differently after migration. |
+| **Baseline creation rules** | Version **1.0** is mandatory. baselines with missing or ambiguous versions may resolve differently after migration. |
 | **Migration handling** | Invalid references are skipped. **DIRECT** references take precedence, unpinned references move to the latest version, and additional metadata is added from version **5.0** onward. |
-| **baseline data model** | The new graph‑based baseline model removes mutable fields and is not backward compatible with the previous baseline model. |
-| **API usage** | baseline operations are supported through REST APIs and the Java SDK. Raw baseline objects are no longer exposed. |
+| **Baseline data model** | The new graph‑based baseline model removes mutable fields and is not backward compatible with the previous baseline model. |
+| **API usage** | Baseline operations are supported through REST APIs and the Java SDK. Raw baseline objects are no longer exposed. |
 | **Version purging** | After migration, version purging considers only baselines stored in the new baseline repository. |
 
 ## Migrate to new baseline  
