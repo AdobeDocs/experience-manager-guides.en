@@ -103,7 +103,7 @@ The new baseline model uses the same workflows and user interface as the existin
 
 >[!NOTE]
 >
-> The bew baseline model does not support creating and managing baselines from Map dashboard. 
+> The new baseline model does not support creating and managing baselines from Map dashboard. 
 
 This section describes only the changes and enhancements introduced with the new baseline model. Common baseline workflows remain unchanged unless explicitly mentioned.
 
