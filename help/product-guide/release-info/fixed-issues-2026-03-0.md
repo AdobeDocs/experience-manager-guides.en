@@ -46,9 +46,9 @@ Learn about [upgrade instructions for the 2026.03.0 release](upgrade-instruction
 Adobe has identified the following known issues for the 2026.03.0 release:
 
 - A blank screen is loaded when creating a duplicate Knowledge Base preset for ServiceNow. (GUIDES-42732)
-- The API for retrieving document state returns a null response for some files. (GUIDES-42561)
+- The API for retrieving document state returns a null response for some files, causing incorrect document states to appear in the UI. (GUIDES-42561)
 - Renaming an existing template does not update the name in the **Output templates** panel until the page is manually refreshed. (GUIDES-42528)
-- An extra space added to the tab names present in the Map Dashboard causes automation failures. (GUIDES-42285)
+- UI customizations based on tab names in the Map Dashboard are not applied. (GUIDES-42285)
 - When a file is open in both the Editor and the Search panel, deleting it from the Explorer panel removes the file and refreshes the Explorer list, but refreshing the page continues to display the file in the Search panel. (GUIDES-41935)
 - While updating an active review task, if a topic that is already part of the review is removed and then re‑added without clicking **Update**, the reviewer(s) information in the Reviewers tab is lost.   (GUIDES-38774)
 - In the Assets UI, the **Move** button does not get enabled on the first attempt when more than 2 files or folders are selected. (GUIDES-42721) <br> **Workaround**:  After selecting more than two files or folders, wait for a few seconds before selecting the destination folder. 
