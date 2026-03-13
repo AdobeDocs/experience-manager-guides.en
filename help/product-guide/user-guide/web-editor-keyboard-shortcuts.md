@@ -25,7 +25,7 @@ There are many operations in the Editor that you can perform using the keyboard 
 |Focus on the current editor|**Ctrl***+**Shift**+***0***|***Command***+**Shift**+***0***|
 |Save document in Author or Source view|***Ctrl***+**Shift**+***S***|***Command***+**Shift**+***S***|
 |Save all opened documents in Author or Source view|***Ctrl***+***S***|***Command***+***S***|
-|Show Insert Element dialog|***Alt***+***1***|***Option***+***Enter***|
+|Show Insert Element dialog|***Alt***+***Enter***|***Option***+***Enter***|
 |Show Insert Element dialog to insert element before the selected element|***Alt***+***Shift***+***Enter***|***Option***+***Shift***+***Enter***|
 |Move the cursor one word to the left.|***Ctrl***+***Left Arrow***| ***Option***+***Left Arrow***|
 |Move the cursor one word to the right.|***Ctrl***+***Right Arrow***|***Option***+***Right Arrow***|
