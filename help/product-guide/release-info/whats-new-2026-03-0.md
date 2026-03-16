@@ -14,11 +14,11 @@ Learn about [upgrade instructions for the 2026.03.0 release](../release-info/upg
 
 ## Introducing Product Training and Learning content in Experience Manager Guides to enable interactive eLearning experiences
 
-The all-new **Product Learning and Training** content feature in Experience Manager Guides empowers training teams and instructional designers to build engaging, learner‑focused eLearning courses directly from the Experience Manager Guides interface. 
+The **Product Learning and Training** content feature in Experience Manager Guides enables training teams and instructional designers to build engaging eLearning courses directly from the Experience Manager Guides interface. 
 
 ![](assets/lc-overview.png)
 
-With template-driven authoring, interactive course components, and support for assessments, teams can rapidly develop high‑quality training content aligned with your organizational objectives.
+With template-driven authoring, interactive course components, and support for assessments, teams can develop high‑quality training content aligned with your organizational objectives.
 
 >[!NOTE]
 > 
@@ -59,13 +59,13 @@ For more details on using Schematron files in Experience Manager Guides, view [S
 
 ### Translation language copies are now available in the Right panel of the Editor interface
 
-With this release, a new **Translations** section is introduced in the Right panel under *File properties* in the Editor. This section provides direct access to all available language copies for the currently opened asset (map, topic, image, etc.). You no longer need to navigate to the Assets UI to view or access these language copies. 
+A new **Translations** section is now available in the Right panel under *File properties* in the Editor. This section provides direct access to all available language copies for the currently opened asset (map, topic, image, etc.). You no longer need to navigate to the Assets UI to view or access these language copies. 
 
 ![](assets/translations-right-panel.png){width="350" align="left"}
 
 For each language copy, you can hover-over the file to locate its path in the repository or simply select it to open in the Editor. In addition to opening files, you can also perform many actions using the **Options** menu. Some of the actions that you can perform include Edit, Preview, Copy UUID, Copy Path, Add to collections, and Properties.
 
-For more details view, [Right panel in the Editor](../user-guide/web-editor-right-panel.md#file-properties). 
+For more details, view [Right panel in the Editor](../user-guide/web-editor-right-panel.md#file-properties). 
 
 
 ### Search citations across all Journal fields

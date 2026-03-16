@@ -30,7 +30,7 @@ The following sections describe the new baseline model, including the enhancemen
 
 ## Key enhancements introduced in the new baseline
 
-The new baseline introduces significant improvements that make baseline management faster, safer, and easier to scale without changing how you work. Consider moving to the new baseline for:
+The new baseline introduces significant improvements that make baseline management faster and easier to scale without changing how you work. Consider moving to the new baseline for:
 
 - **Improved performance and scalability:** The baseline data model and rendering behavior have been optimized to scale efficiently with large baselines, using incremental loading and a streamlined data structure to improve responsiveness.
 - **Stronger UI and backend consistency:**  baseline updates are reflected in the UI only after successful backend validation, ensuring that the displayed baseline state always represents persisted and validated data.
