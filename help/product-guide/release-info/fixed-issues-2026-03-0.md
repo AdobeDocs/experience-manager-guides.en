@@ -45,7 +45,7 @@ Learn about [upgrade instructions for the 2026.03.0 release](upgrade-instruction
 
 Adobe has identified the following known issues for the 2026.03.0 release:
 
-- A blank screen is loaded when creating a duplicate Knowledge Base preset for ServiceNow. (GUIDES-42732)
+- A blank screen is loaded when creating a duplicate ServiceNow Knowledge Base preset. (GUIDES-42732)
 - The API for retrieving document state returns a null response for some files, causing incorrect document states to appear in the UI. (GUIDES-42561)
 - Renaming an existing template does not update the name in the **Output templates** panel until the page is manually refreshed. (GUIDES-42528)
 - UI customizations based on tab names in the Map Dashboard are not applied. (GUIDES-42285)

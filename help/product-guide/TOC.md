@@ -486,6 +486,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
       - [Verify AEM Guides installation](./cs-install-guide/download-install-verify-dxml-installation.md)
       - [Upgrade AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
+      - [Additional configuration for upgrading AEM Guides as Cloud Service](./cs-install-guide/additional-config-for-cloud-service.md)
       - [Configuration overrides](./cs-install-guide/download-install-additional-config-override.md)
       - [Recommendations for performance optimization](./cs-install-guide/download-install-recommend-perf-optimiz.md)
     - Work with user groups and security {#user-group-sec-cs}
