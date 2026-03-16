@@ -47,13 +47,13 @@ Adobe has identified the following known issues for the 2026.03.0 release:
 
 - A blank screen is loaded when creating a duplicate ServiceNow Knowledge Base preset. (GUIDES-42732)
 - The API for retrieving document state returns a null response for some files, causing incorrect document states to appear in the UI. (GUIDES-42561)
-- Renaming an existing template does not update the name in the **Output templates** panel until the page is manually refreshed. (GUIDES-42528)
 - UI customizations based on tab names in the Map Dashboard are not applied. (GUIDES-42285)
 - When a file is open in both the Editor and the Search panel, deleting it from the Explorer panel removes the file and refreshes the Explorer list, but refreshing the page continues to display the file in the Search panel. (GUIDES-41935)
 - While updating an active review task, if a topic that is already part of the review is removed and then re‑added without clicking **Update**, the reviewer(s) information in the Reviewers tab is lost.   (GUIDES-38774)
-- In the Assets UI, the **Move** button does not get enabled on the first attempt when more than 2 files or folders are selected. (GUIDES-42721) <br> **Workaround**:  After selecting more than two files or folders, wait for a few seconds before selecting the destination folder. 
 - Selecting a topic in the Preview mode does not highlight it in the Map view if the topic is inside bookmap tags (frontmatter, chapter, part, or backmatter) or part of cyclic content. (GUIDES-42416)
+- In the Assets UI, the **Move** button does not get enabled on the first attempt when more than 2 files or folders are selected. (GUIDES-42721) <br> **Workaround**:  After selecting more than two files or folders, wait for a few seconds before selecting the destination folder. 
 - When you navigate to **User preferences** from the Editor and update the root map while Preview mode is open in the Editor, the map preview loads as a blank screen when you return to the Editor. (GUIDES-42412) <br> **Workaround**: Refreshing the preview using the **Refresh** icon available in the Preview mode resolves the issue. 
+- Renaming an existing template does not update the name in the **Output templates** panel until the page is manually refreshed. (GUIDES-42528)<br> **Workaround**: Refresh the browser to view the updated template name in the Output templates panel.
 
 
 
