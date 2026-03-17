@@ -33,7 +33,7 @@ You can add existing content from your content repository to your course. Perfor
 
 1. Select the **Options** menu > **Add existing**.  
 2. Select the type of course content you want to create.  
-3. In the **Select path** dialog, navigate to the content location and select the desired Learning content. 
+3. In the **Select file** dialog, navigate to the content location and select the desired Learning content. 
 
     ![](assets/add-existing-learning-content.png)
 4. Choose **Select**. 

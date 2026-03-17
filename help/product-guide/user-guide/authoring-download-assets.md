@@ -31,18 +31,17 @@ Perform the following steps to download a DITA map file from the Editor:
     - **File hierarchy options**: You can also use the file hierarchy dropdown to choose how the folder structure is handled for your downloaded map files. The available options are:
     
         - **Retain file hierarchy**: Select this option from the dropdown to retain the existing folder structure for the downloaded files. 
+        - **Flatten file hierarchy**: Select this option from the dropdown to download all referenced topics and media files in a single folder.
 
-            The options available under this method are as follows:
+        For each option, you can further specify how file names are handled for downloaded files. The following file name options are available:
 
-            - **Use GUID file name** – Downloads the map file with GUID as file name.
-
-            - **Use actual file name** – Downloads the map file with its original file name.
-
-        - **Flatten file hierarchy**: Select this option from the dropdown to download all referenced topics and media files in a single folder. Only the **Use GUID file name** option is available for map files when using this method. 
-    
+        - **Use GUID file name**: Downloads the map file with GUID as file name.
+        - **Use actual file name**: Downloads the map file with its original file name. When this option is used with Flatten file hierarchy, any duplicate file names in the map are automatically resolved by appending numeric suffixes (_2, _3, and so on) to ensure unique file names. 
+       
     >[!NOTE]
     >
     > You can also download the map file without selecting any option. In that case, the last persisted version of the referenced topics and media files are downloaded.
+    
     
 1. Select **Download**.
 
@@ -59,6 +58,8 @@ Perform the following steps to download a DITA map file from the Editor:
     >[!NOTE]
     >
     > By default, the downloaded maps remain for five days in the Adobe Experience Manager notification Inbox.
+
+Once the map is downloaded, you can select the map and use the Open icon on the top to open the downloaded content. To view the associated metadata of the downloaded map, open the `metdata.json` file included in the downloaded content. This file is available for both *File hierarchy* options - Flatten file hierarchy and Retain file hierarchy. 
 
 ## Download a DITA map file from the Map dashboard 
 
@@ -103,6 +104,6 @@ Perform the following steps to download a DITA map file along with its dependent
 
 ![](images/download-map-inbox.png){width="300" align="left"}
 
-Once the map is downloaded, you can select the map and use the Open icon on the top to open the selected report.
+Once the map is downloaded, you can select the map and use the Open icon on the top to open the downloaded content. 
 
 **Parent topic:**[Manage content](authoring.md)
