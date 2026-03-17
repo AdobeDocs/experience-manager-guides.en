@@ -1,6 +1,7 @@
 ---
 title: Additional configuration for upgrading cloud service
 description: Learn about the additional configuration for upgrading cloud service
+exl-id: 3d60d06b-ce50-4948-b50d-bd373051d055
 ---
 # Additional configuration for upgrading AEM Guides as Cloud Service
 
@@ -143,15 +144,3 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 ```
 
 +++
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,6 +1,7 @@
 ---
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2026.03.0 release
 description: Learn about the bug fixes in the 2026.03.0 release of Adobe Experience Manager Guides as a Cloud Service.
+exl-id: 6eca85f5-d7d3-4486-8b32-8af3a6cce4ee
 ---
 # Fixed issues in the 2026.03.0 release 
 
@@ -54,13 +55,3 @@ Adobe has identified the following known issues for the 2026.03.0 release:
 - In the Assets UI, the **Move** button does not get enabled on the first attempt when more than 2 files or folders are selected. (GUIDES-42721) <br> **Workaround**:  After selecting more than two files or folders, wait for a few seconds before selecting the destination folder. 
 - When you navigate to **User preferences** from the Editor and update the root map while Preview mode is open in the Editor, the map preview loads as a blank screen when you return to the Editor. (GUIDES-42412) <br> **Workaround**: Refreshing the preview using the **Refresh** icon available in the Preview mode resolves the issue. 
 - Renaming an existing template does not update the name in the **Output templates** panel until the page is manually refreshed. (GUIDES-42528)<br> **Workaround**: Refresh the browser to view the updated template name in the Output templates panel.
-
-
-
-
-
-
-
-
-
-

@@ -1,8 +1,9 @@
 ---
 title: Create and manage new baseline (Beta) from the Map console
-description: Create and manage new baseline (Beta) from the map console in Adobe Experience Manager Guides. 
+description: Create and manage new baseline (Beta) from the map console in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
+exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
 ---
 # New baseline (Beta) in Experience Manager Guides
 

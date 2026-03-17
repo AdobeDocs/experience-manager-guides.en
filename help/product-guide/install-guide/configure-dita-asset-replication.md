@@ -4,6 +4,7 @@ description: Learn how to configure dita assets replication for On-Premise servi
 feature: Output Generation
 role: Admin
 level: Experienced
+exl-id: 49fd9dfe-e1a5-4388-abbd-ec5d45669b45
 ---
 # Configure DITA assets replication
 

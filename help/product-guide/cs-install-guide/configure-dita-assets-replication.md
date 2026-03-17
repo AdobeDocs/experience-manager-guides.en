@@ -4,6 +4,7 @@ description: Learn how to configure dita assets replication for Cloud service
 feature: Output Generation
 role: Admin
 level: Experienced
+exl-id: 1eafc6b2-2b85-486a-bb2c-0038fae1fef9
 ---
 # Configure DITA assets replication
 

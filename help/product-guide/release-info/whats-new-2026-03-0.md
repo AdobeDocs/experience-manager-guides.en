@@ -2,7 +2,7 @@
 title: Release Notes | What's New in Adobe Experience Manager Guides 2026.03.0 release
 description: Learn about the new and enhanced features in the 2026.03.0 release of Adobe Experience Manager Guides
 role: Leader
-
+exl-id: ae26dd14-983e-4116-ac8d-729c1f4fad20
 ---
 # What's new in the 2026.03.0 release (March 2026)
 
@@ -106,8 +106,4 @@ For more details on downloading files in Experience Manager Guides, view [Downlo
 
 You can now use regex to enable or disable post-processing for folders. This enhancement allows Administrators to define post-processing rules that apply to multiple folders or entire folder hierarchies using a single configuration, instead of specifying individual folder paths.
 
-For more details, view [Use regex to enable or disable post processing](../cs-install-guide/conf-folder-post-processing.md#use-regex-to-enable-or-disable-post-processing). 
-
-
-
-
+For more details, view [Use regex to enable or disable post processing](../cs-install-guide/conf-folder-post-processing.md#use-regex-to-enable-or-disable-post-processing).

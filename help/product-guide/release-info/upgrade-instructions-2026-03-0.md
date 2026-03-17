@@ -1,6 +1,7 @@
 ---
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, 2026.03.0 release
 description: Learn about the compatibility matrix and how to upgrade to the 2026.03.0 release of Adobe Experience Manager Guides as a Cloud Service.
+exl-id: 5700e649-104d-4caf-a195-6e667a71faee
 ---
 # Upgrade instructions for the 2026.03.0 release 
 
@@ -49,4 +50,3 @@ Experience Manager Guides is upgraded automatically upon upgrading to the latest
 > This release includes updates to folder profile settings (ui_config.json). If you are using custom settings, ensure to take a back up of those before upgrading. After the update, review and adjust your settings to align with the changes introduced in the latest version.
 
 Review and validate your setup configurations to confirm they are correctly implemented. If you have introduced any custom configuration changes, view [Additional configuration for upgrading Cloud Service](../cs-install-guide/additional-config-for-cloud-service.md) for any additional procedures applicable to the version you are upgrading from.
-
