@@ -12,17 +12,17 @@ For the list of issues fixed in this release, view [Fixed issues in the 2026.03.
 
 Learn about [upgrade instructions for the 2026.03.0 release](../release-info/upgrade-instructions-2026-01-0.md).
 
-## Introducing Product Training and Learning content in Experience Manager Guides to enable interactive eLearning experiences
+## Introducing Product Training and Learning content in Experience Manager Guides 
 
-The **Product Learning and Training** content feature in Experience Manager Guides enables training teams and instructional designers to build engaging eLearning courses directly from the Experience Manager Guides interface. 
+The **Product Training and Learning** content feature in Experience Manager Guides enables training teams and instructional designers to build interactive eLearning courses directly from the Experience Manager Guides interface. 
 
 ![](assets/lc-overview.png)
 
-With template-driven authoring, interactive course components, and support for assessments, teams can develop high‑quality training content aligned with your organizational objectives.
+With template-driven authoring, interactive course components, and support for assessments, teams can develop high‑quality training content aligned with their organizational objectives.
 
 >[!NOTE]
 > 
-> The Product Training and Learning content feature remains disabled by default for all instances of Experience Manager Guides as a Cloud Service starting with the 2026.03.0 release. Administrators can enable this feature at the folder-profile level from **Workspace settings** > **General**.
+> The Product Training and Learning content feature remains disabled by default for all instances of Experience Manager Guides as a Cloud Service. Administrators can enable this feature at the folder-profile level from **Workspace settings** > **General**.
 
 The key capabilities are as follows:  
 
@@ -30,7 +30,7 @@ The key capabilities are as follows:
 - Template-driven authoring 
 - Support for content reuse 
 - Assessment creation and management  
-- Web-based review workflows to ensure a unified learning experience
+- Web-based review workflows 
 - Industry-leading translation management 
 - Multi-channel publishing using out-of-the-box SCORM and PDF output formats
 
@@ -80,7 +80,7 @@ For more details on adding citations in Experience Manager Guides, view [Add and
 
 ## Review enhancements
 
-The following Review enhancements have been made as part of this release:
+The following enhancements are available for the Review feature in this release:
 
 - Assigning a Reviewer to a review task is now dependent on an active project selection. The **Assign To** field on the *Create Review Task* page remains disabled until an active project is selected. After a project is selected, the **Assign To** field is enabled and lists only the users and user groups associated with that project. This ensures that review tasks are assigned only to valid project members and prevents unintended Reviewer selection.
 
@@ -102,9 +102,9 @@ Now, you can use the Flatten file hierarchy option to download a map with its or
 
 For more details on downloading files in Experience Manager Guides, view [Download files](../user-guide/authoring-download-assets.md).
 
-### Use regular expressions (regex) to enable or disable post processing
+### Use regex to enable or disable post processing
 
-Now, you can use regular expressions (regex) to enable or disable post-processing for folders. This enhancement allows Administrators to define post-processing rules that apply to multiple folders or entire folder hierarchies using a single configuration, instead of specifying individual folder paths.
+You can now use regex to enable or disable post-processing for folders. This enhancement allows Administrators to define post-processing rules that apply to multiple folders or entire folder hierarchies using a single configuration, instead of specifying individual folder paths.
 
 For more details, view [Use regex to enable or disable post processing](../cs-install-guide/conf-folder-post-processing.md#use-regex-to-enable-or-disable-post-processing). 
 
