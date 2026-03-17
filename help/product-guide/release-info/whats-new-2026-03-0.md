@@ -8,9 +8,9 @@ role: Leader
 
 This article covers the new and enhanced features introduced with the 2026.03.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For the list of issues fixed in this release, view [Fixed issues in the 2026.03.0 release](fixed-issues-2026-01-0.md).
+For the list of issues fixed in this release, view [Fixed issues in the 2026.03.0 release](fixed-issues-2026-03-0.md).
 
-Learn about [upgrade instructions for the 2026.03.0 release](../release-info/upgrade-instructions-2026-01-0.md).
+Learn about [upgrade instructions for the 2026.03.0 release](../release-info/upgrade-instructions-2026-03-0.md).
 
 ## Introducing Product Training and Learning content in Experience Manager Guides 
 
