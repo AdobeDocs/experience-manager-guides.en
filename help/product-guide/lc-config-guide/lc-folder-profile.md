@@ -50,8 +50,8 @@ In the General tab, you can configure the following settings that are specific t
 - **Learning content**: Use the **Enable Learning content** toggle to enable or disable the feature at a folder-profile level. 
 - **HTML editor**: This setting allows you to configure the Editor for HTML-based authoring. Key configuration options present in this setting are as follows: 
 
-- **Hide inline styling**: Enable this option to prevent Authors from applying inline formatting to the course content. When enabled, all the inline styling options like Fonts, Border, Layout, Background, and Columns present in the right panel of the Editor remain hidden for Authors. However, Authors can still use the global class-based styling options available in the **Styles** panel. This helps maintain consistency with your organization's style guidelines. 
-- **Hide Source view for Authors**: Enable this option to restrict access to the HTML source code. This is useful when you want to simplify the editing experience or avoid accidental changes to the underlying code. 
+    - **Hide inline styling**: Enable this option to prevent Authors from applying inline formatting to the course content. When enabled, all the inline styling options like Fonts, Border, Layout, Background, and Columns present in the right panel of the Editor remain hidden for Authors. However, Authors can still use the global class-based styling options available in the **Styles** panel. This helps maintain consistency with your organization's style guidelines. 
+    - **Hide Source view for Authors**: Enable this option to restrict access to the HTML source code. This is useful when you want to simplify the editing experience or avoid accidental changes to the underlying code. 
 
 ## Configure panels 
 
@@ -76,9 +76,9 @@ For Learning and Training content, ensure that only the following features are e
 - **Glossary**: Enables you to create and manage glossary terms and include them across topics to maintain consistent terminology.
 - **Snippets**: Allow you to create and reuse small content fragments across various topics in your Learning courses. 
 - **Conditions**: Allows you to configure conditional attributes at a global and folder level. 
-- **Templates**: Allows you to create and manage templates for use by the Authors. 
+- **Templates**: Allows you to create and manage the course templates. 
 - **Citations**: Enables you to add and manage citations into content using supported citation styles.
-- **Language variables**: Enables you to define localized strings for published output or static text in templates. 
+- **Language variables**: Enables you to define language variables for published output. 
 - **Variables**: Allows you to create and manage variables to use in your learning content. 
 - **Output templates**: Enables you to create and manage output templates to generate output in various formats.  
 - **Find and replace**: Provides options to search for and replace text across files in a map or a folder within your repository.  

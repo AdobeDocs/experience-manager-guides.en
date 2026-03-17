@@ -51,7 +51,7 @@ The following enhancements have been made to the Schematron user interface for b
 - When multiple Schematron files are added, they are organized under a consolidated accordion, providing better visibility into the configured Schematron files.
 
     ![](assets/schematron-panel-error.png){width="350" align="left"}
-- Based on the role attribute defined in the Schematron file, validation results are now categorized as: `fatal`, `error`, `warning`, or `info`. Each category includes a visible count along with a contextual tooltip for clearer interpretation. 
+- Based on the role attribute defined in the Schematron file, validation results are now categorized as: `Fatal`, `Error`, `Warn`, or `Info`. Each category includes a visible count along with a contextual tooltip for clearer interpretation. 
 
     ![](assets/schematron-validation-errors.png){width="350" align="left"}
 
@@ -84,7 +84,7 @@ The following enhancements are available for the Review feature in this release:
 
 - Assigning a Reviewer to a review task is now dependent on an active project selection. The **Assign To** field on the *Create Review Task* page remains disabled until an active project is selected. After a project is selected, the **Assign To** field is enabled and lists only the users and user groups associated with that project. This ensures that review tasks are assigned only to valid project members and prevents unintended Reviewer selection.
 
-![](assets/create-review-task-023.png)
+    ![](assets/create-review-task-023.png)
 
 - The **Assign To** field now supports typeahead search, allowing you to quickly locate users or user groups by typing text. 
 
