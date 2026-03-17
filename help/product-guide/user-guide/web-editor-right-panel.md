@@ -119,7 +119,7 @@ In addition to opening files, you can also perform many actions using the **Opti
 
 This section lists all available language copies for the currently opened asset in the Editor, in alphabetical order. The information is presented in a tabular view, showing each language code along with the corresponding *file title* (or *file name* in case *file title* is not available).
 
->![INFO]
+>[!INFO]
 >
 > Language copies are created when an asset is sent for translation. English (`en`) acts as the source language, and translated copies are generated in their respective target language folders (for example, `de` for German or `fr` for French). If an asset exists only in the `en` folder, no additional language copies are displayed until translation is initiated and completed for the target languages. If the asset is not present in any language folder, **No translations available** is displayed. For more details, view [Best practices for content translation](./translation-first-time.md).
 
