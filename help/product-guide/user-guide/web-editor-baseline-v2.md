@@ -8,9 +8,9 @@ role: User
 
 >[!NOTE]
 >
-> This article applies to new baseline , currently available as a *Beta* feature, that offers improved performance and stability available with the Experience Manager Guides 2026.03.0 release. To use this baseline, contact the Customer Success Team to have the feature enabled.
+> This article applies to new baseline , currently available as a *Beta* feature, that offers improved performance and stability available with the Experience Manager Guides 2026.03.0 release. To enable the new baseline feature in your set up, contact the Customer Success Team.
 
-The New baseline in Experience Manager Guides addresses critical reliability and performance issues associated with large, complex maps. It comes with a redesigned baseline architecture that delivers a faster, more stable, and more consistent baseline experience.  
+The new baseline feature addresses critical reliability and performance issues associated with large, complex maps. It comes with a redesigned baseline architecture that delivers a faster, more stable, and more consistent baseline experience.  
 
 The new baseline model strengthens baseline handling by addressing the common pain points:
 
@@ -18,8 +18,6 @@ The new baseline model strengthens baseline handling by addressing the common pa
 - Inconsistent baseline states caused by partial updates or failed validations
 - Limited visibility and control when managing extensive baseline content
 - Performance bottlenecks during baseline creation, updates, or rebuilds
-
-By modernizing how baseline data is stored, loaded, and processed, the new baseline enhances baseline‑driven workflows especially for large and complex maps.
 
 The following sections describe the new baseline model, including the enhancements it introduces, key behavior changes to consider before migration, and instructions for migrating to and using the new baseline:
 
@@ -33,8 +31,8 @@ The following sections describe the new baseline model, including the enhancemen
 The new baseline introduces significant improvements that make baseline management faster and easier to scale without changing how you work. Consider moving to the new baseline for:
 
 - **Improved performance and scalability:** The baseline data model and rendering behavior have been optimized to scale efficiently with large baselines, using incremental loading and a streamlined data structure to improve responsiveness.
-- **Stronger UI and backend consistency:**  baseline updates are reflected in the UI only after successful backend validation, ensuring that the displayed baseline state always represents persisted and validated data.
-- **Filtering, sorting, and navigation:** baselines support comprehensive filtering across multiple attributes, including document state, labels, file type, reference type, and GUID‑based search across the entire baseline. Pagination is supported for large baselines, with an option to include files that have no labels.
+- **Stronger UI and backend consistency:**  Any changes made to a baseline (such as version or dependency updates) are now reflected in the UI only after successful backend validation, preventing the creation of invalid baselines. 
+- **Filtering, sorting, and navigation:** Baselines support comprehensive filtering across multiple attributes, including document state, labels, file type, reference type, and GUID‑based search across the entire baseline. Pagination is supported for large baselines, with an option to include files that have no labels.
 - **Clear visibility into dependency impact:** Dependency impact (for added or removed dependencies) is displayed as a preview before version changes are applied, enabling you to review the changes before applying them.
 - **More flexible label management:** Labels can be moved between versions within a baseline, providing greater flexibility when managing labels across different topic versions.
 - **Deterministic editing and saving behavior:** baseline edits support row-level updates, load resource-intensive data (such as version trees and dependency differences) only during version updates, and complete save operations deterministically in a single step - reducing unexpected save failures and partial updates.
