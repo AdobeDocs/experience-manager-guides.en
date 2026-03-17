@@ -74,7 +74,7 @@ Perform the following steps, to migrate the existing baseline to the new baselin
 
 1. Provide the following details in the dialog:
 
-    1. **Feature type**: Select **baseline** from the drop down.
+    1. **Feature type**: Select **Baseline** from the drop down.
     1. **Select folder(s) and file(s)**: Navigate and choose one or multiple folders and files to process. 
     1. **Select folder(s) to ignore**: Optionally, select sub-folders within the chosen parent folder to exclude from the migration.   
 
@@ -82,7 +82,7 @@ Perform the following steps, to migrate the existing baseline to the new baselin
 
 1. Select **Create**. 
 
-A pop-up showing **Asset processing triggered successfully** is displayed. You can see the status of the processing task on the page.
+A pop-up showing **Asset processing triggered successfully** is displayed. You can view the status of the processing task on the page.
 
 You can also select **View logs** to check and download the logs for the migration task. 
 
@@ -98,7 +98,7 @@ The log report provide details of the migration, including the number of maps mi
 
 ## Use the new baseline
 
-The new baseline model uses the same workflows and user interface as the existing baseline feature in Experience Manager Guides. You continue to [Create and manage baseline from Map console](./web-editor-baseline.md) using the available options. 
+The new baseline model uses the same workflows and user interface as the existing baseline feature in Experience Manager Guides. You can continue to [Create and manage baseline from Map console](./web-editor-baseline.md) using the available options. 
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ The following updates apply when working with baselines created using the **new 
 
     Perform the following steps to make edits to a baseline:
 
-    - Open the baseline from the **baseline** panel.
+    - Open the baseline from the **Baseline** panel.
 
         The tabular view of the references of the baselines is displayed. 
 
@@ -144,18 +144,18 @@ The following updates apply when working with baselines created using the **new 
         ![edit-baseline-icon](images/edit-baseline-icon.png){align="left"}
         
         The **Edit version** dialog is displayed. 
-    - Select the required version from the **Version** dropdown (for example, change from version 1.0 to 1.1) and select **Update**.
+    - Select the required version from the **Version** dropdown (for example, change from version 1.0 to 1.1).
     
 
         ![edit-version-baseline](images/edit-version-baseline.png){align="left"}
     
-        Added and removed dependencies are evaluated automatically and displayed.
+        Added and removed dependencies are evaluated and displayed as a preview. Review the changes before applying them.
     
         ![](images/baseline-v2-version-added.png)
 
         If no dependency changes are detected, an empty‑state message is displayed.
 
-    - Select **Update** to apply the changes.. 
+    - Select **Update** to apply the changes.
 
     The baseline is updated with the selected version.
 +++
