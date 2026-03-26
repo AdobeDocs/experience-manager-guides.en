@@ -117,6 +117,28 @@ By default, the legacy translation workflow option is disabled. You can configur
     
 1.  Click **Save**.
 
+## Configure first-time translation behavior
+
+By default, when you perform a translation for the first time, empty XML files are created for the destination language. These files are translated only after approval. 
+
+To control this behavior, you can enable a configuration that initializes the destination language copy with the source content. To configure the first-time translation behavior, perform the following steps:
+
+1. Open the Adobe Experience Manager Web Console Configuration page.
+
+    The default URL to access the configuration page is:
+
+    ```http
+    http://<server name>:<port>/system/console/configMgr
+    ```
+
+1.  Search for and click the **com.adobe.fmdita.config.ConfigManager** bundle.
+
+1.  Select the `Initialize destination language copy with source content` setting.
+
+    - When enabled, an unversioned copy containing the source content is created from the working copy instead of generating empty XML files during the first-time translation.
+    - (*Default*) When disabled, the default behavior applies and empty XML files are created for the destination language during the first-time translation. 
+       
+1.  Click **Save**.
 
 
 
