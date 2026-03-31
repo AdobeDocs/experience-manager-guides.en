@@ -34,7 +34,7 @@ When your translation service provider does not provide a connector to integrati
 
 >[!TIP]
 >
-> See the *Translation*s ection in the Best practices guide for best practices around translating content.
+> See the *Translation* section in the Best practices guide for best practices around translating content.
 
 ## Configure the Translation tab on the DITA map dashboard 
 
@@ -119,9 +119,11 @@ By default, the legacy translation workflow option is disabled. You can configur
 
 ## Configure first-time translation behavior
 
-By default, when you perform a translation for the first time, empty XML files are created for the destination language. These files are translated only after approval. 
+By default, when you perform a translation for the first time, empty XML files are created for the destination language. These files are translated only after approval. To control this behavior, you can enable the `Initialize destination language copy with source content` setting using the following steps: 
 
-To control this behavior, you can enable a configuration that initializes the destination language copy with the source content. To configure the first-time translation behavior, perform the following steps:
+>[!NOTE]
+>
+> This setting is applicable only when the legacy translation workflow is disabled. 
 
 1. Open the Adobe Experience Manager Web Console Configuration page.
 
