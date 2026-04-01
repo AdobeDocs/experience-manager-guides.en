@@ -4,7 +4,7 @@ description: Learn about the bug fixes in the 5.0.0 Service Pack 4 release of Ad
 role: Leader
 
 ---
-# Fixed issues in the 5.0.0 Service Pack 4 release (March 2026)
+# Fixed issues in the 5.0.0 Service Pack 4 release (April 2026)
 
 
 This article covers the bugs fixed in the 5.0.0 Service Pack 4 release of Adobe Experience Manager Guides.

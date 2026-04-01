@@ -2,7 +2,7 @@
 title: Release Notes | Upgrade instructions for Adobe Experience Manager Guides 5.0.0 Service Pack 4 release
 description: Learn about the compatibility matrix and how to upgrade to the 5.0.0 Service Pack 4 release of Adobe Experience Manager Guides.
 ---
-# Upgrade instructions for the 5.0.0 Service Pack 4 release (March 2026)
+# Upgrade instructions for the 5.0.0 Service Pack 4 release (April 2026)
 
 This article covers the upgrade instructions and the compatibility matrix for 5.0.0 Service Pack 4 release of Adobe Experience Manager Guides.
 
