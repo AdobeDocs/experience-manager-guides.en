@@ -20,4 +20,5 @@ The key capabilities are as follows:
 - Content reuse 
 - Quiz creation and management  
 - Industry-leading translation management 
+- Web-based review workflows
 - Multi-channel publishing using out-of-the-box SCORM and PDF output formats

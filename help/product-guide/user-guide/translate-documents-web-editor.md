@@ -72,6 +72,11 @@ Before performing steps in this procedure, ensure that you have created the requ
     **Use Latest Version as on**: Choose to filter the version of topics based on their creation date and time. When you select a date and time only the latest version of the files created on or before the selected date and time are shown.
 
 1.  Select **Apply**. A list with details of topics and associated assets is shown.
+
+    >[!NOTE]
+    >
+    > When translating maps with DITAVAL and Markdown file references, and when the translation is based on the working copy, references such as images and other linked assets are included provided they exist in the source language folder. These references appear in the Translation Dashboard's reference list, enabling you to explicitly select them for translation. During translation, referenced assets are copied into the target language folder and handled consistently with standard image translation behavior.
+
 1.  Select the topics that you want to send for translation. You can also use the topic filtering options for the following columns:
 
     -   **Title**: Title of the source file.  Hover over the title of the source file to view the title of the target or translated file.

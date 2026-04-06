@@ -14,6 +14,10 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2026 Releases {#2026-releases}
+        - 2026.03.0 Release {#2603-release}
+          - [What's new](./release-info/whats-new-2026-03-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2026-03-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2026-03-0.md)
         - 2026.01.0 Release {#2601-release}
           - [What's new](./release-info/whats-new-2026-01-0.md)
           - [Fixed issues](./release-info/fixed-issues-2026-01-0.md)
@@ -109,6 +113,9 @@ breadcrumb-title: AEM Guides Documentation
         - [January release notes](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
+      - 5.1.0 SP4 Release {#510-sp4-release}
+        - [Fixed issues](./release-info/fixed-issues-5-1-0-sp4.md)
+        - [Upgrade instructions](./release-info/upgrade-instructions-5-1-0-sp4.md)
       - 5.1.0 SP3 Release {#510-sp3-release}
         - [What's new](./release-info/whats-new-5-1-3.md)
         - [Fixed issues](./release-info/fixed-issues-5-1-0-sp3.md)
@@ -120,6 +127,9 @@ breadcrumb-title: AEM Guides Documentation
         - [What's new](./release-info/whats-new-5-1-0.md)
         - [Fixed issues](./release-info/fixed-issues-5-1-0.md)
         - [Upgrade instructions](./release-info/upgrade-instructions-5-1-0.md)
+      - 5.0.0 SP4 Release {#500-sp4-release}  
+        - [Fixed issues](./release-info/fixed-issues-5-0-0-sp4.md)
+        - [Upgrade instructions](./release-info/upgrade-instructions-5-0-0-sp4.md)
       - 5.0.0 SP3 Release {#500-sp3-release}
         - [Fixed issues](./release-info/fixed-issues-5-0-0-sp3.md)
         - [Upgrade instructions](./release-info/upgrade-instructions-5-0-0-sp3.md)  
@@ -278,6 +288,7 @@ breadcrumb-title: AEM Guides Documentation
       - Use Baseline {#work-with-baseline}
         - [Create and manage Baselines from Map console](./user-guide/web-editor-baseline.md)
         - [Create and manage Baselines from the Map dashboard](./user-guide/generate-output-use-baseline-for-publishing.md)
+        - [Create and manage new Baselines from Map console](./user-guide/web-editor-baseline-v2.md) 
       - [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
       - [Use variables for setting the Destination Path, Site Name, or File Name options](./user-guide/generate-output-use-variables.md)
       - [Pass on the metadata to the output using DITA-OT](./user-guide/pass-metadata-dita-ot.md)
@@ -300,6 +311,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Activate output](./user-guide/conf-bulk-activation-publish-map-collection.md)
       - [Edit a bulk activation map collection](./user-guide/conf-bulk-activation-edit-map-collection.md)
       - [Delete a bulk activation map collection](./user-guide/conf-bulk-activation-delete-map-collection.md)
+      - [Manage replication of DITA source assets](./user-guide/dita-assets-replication-aem-sites.md)
   - Output generation of FrameMaker Documents {#generate-fm-output}
       - [FrameMaker output generation basics](./user-guide/fm-output-generatation.md)
       - Supported presets {#fm-docs-generating-presets}
@@ -320,6 +332,7 @@ breadcrumb-title: AEM Guides Documentation
     - Getting started guide {#get-started}
       - Introduction {#intro-lc}
         - [Release notes](./release-info-lt/release-notes-lt-2025-12-v2.md)
+        - [Release notes](./release-info-lt/release-notes-lt-2026-02-v3.md)
         - [Overview of the Learning and Training content](./learning-content/intro.md)        
       - Set up your course {#setup-course}
         - [Course overview](./learning-content/course-overview.md)
@@ -472,7 +485,9 @@ breadcrumb-title: AEM Guides Documentation
     - Work with B-tree cleanup{#btree-cleanup}
       - [Configure B-tree cleanup ](./install-guide/configure-btree-clean-up-job.md)
     - Custom indexing{#custom-indexing}
-      - [Deploying custom index for Find and replace (Source view)](./install-guide/custom-indexing-prem.md)   
+      - [Deploying custom index for Find and replace (Source view)](./install-guide/custom-indexing-prem.md)
+    - Work with DITA assets replication{#dita-assets-replication}
+      - [Configure DITA assets replication](./install-guide/configure-dita-asset-replication.md)     
     - [Appendix](./install-guide/appendix.md)
   - Cloud Services {#cs-ig}
     - [About this guide](./cs-install-guide/introduction.md)
@@ -482,6 +497,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
       - [Verify AEM Guides installation](./cs-install-guide/download-install-verify-dxml-installation.md)
       - [Upgrade AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
+      - [Additional configuration for upgrading AEM Guides as Cloud Service](./cs-install-guide/additional-config-for-cloud-service.md)
       - [Configuration overrides](./cs-install-guide/download-install-additional-config-override.md)
       - [Recommendations for performance optimization](./cs-install-guide/download-install-recommend-perf-optimiz.md)
     - Work with user groups and security {#user-group-sec-cs}
@@ -590,7 +606,11 @@ breadcrumb-title: AEM Guides Documentation
       - [Use Curl command to upload DITA content](./install-guide-merged/migrate-content-use-curl-command.md)
       - [Configure UUID file pattern](./install-guide-merged/migrate-content-configure-uuid-filename-pattern.md)
       - [Migrate non-DITA content](./install-guide-merged/migrate-content-non-dita.md)
-      - [Migrate content from On-premise to Cloud Service](./install-guide-merged/migrate-on-premise-content-cloud.md)
+      - [Migrate content from On-premise to Cloud Service](./install-guide-merged/migrate-on-premise-content-cloud.md)      
+      - Migration process for On-premise {#migration-process-exp}
+          - [Non-UUID to UUID content migration](./install-guide-merged/migrate-uuid-non-uuid.md)
+          - [4.3.1 non-UUID to 4.3.2 UUID content migration](./install-guide-merged/migrate-non-uuid-4-3.md)
+          - [4.6.0 non-UUID to 4.6.1 UUID content migration](./install-guide-merged/migrate-non-uuid-uuid-4-6.md) 
     - Custom DITA-OT and specialization {#custom-dita-ot-spec-cs-exp}
       - [Use custom DITA-OT and DITA specialization](./install-guide-merged/dita-ot-specialization.md)
     - Configure UUID and non-UUID based filenames {#conf-non-uuid-filename-cs-exp}
@@ -676,6 +696,10 @@ breadcrumb-title: AEM Guides Documentation
       - [Reindexing for Find and replace feature for On-Premise](./install-guide-merged/custom-indexing-prem.md) 
     - Appendix {#appendix-exp}
       - [Appendix](./install-guide-merged/appendix.md)       
+      - [Deploying custom index for Find and replace (Source view)](./cs-install-guide/custom-indexing.md) 
+    - Work with DITA assets replication{#dita-assets-replication-cs}
+      - [Configure DITA assets replication](./cs-install-guide/configure-dita-assets-replication.md)    
+    - [Appendix](./cs-install-guide/appendix.md)     
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
   - [REST APIs for Output management](./api-reference/output-management.md)
@@ -712,6 +736,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Smarter PDF Publishing with Native PDF](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
     - [New UX and AI Capabilities in AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
     - [Publishing in AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
+    - [Content Review in AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
   - Articles {#kb-articles}
     - Authoring {#authoring}
       - Web Editor {#webeditor}

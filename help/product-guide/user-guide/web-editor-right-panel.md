@@ -113,7 +113,23 @@ By default, you can view the files by titles. As you hover over a file, you can 
 >
 > All Used in and Outgoing references are hyperlinked to the documents. You can easily open and edit the linked documents.
 
-In addition to opening files, you can also perform many actions using the **Options** menu in the References section. Some of the actions that you can perform include Edit, Preview, Copy UUID, Copy Path, Add to collections, Properties.
+In addition to opening files, you can also perform many actions using the **Options** menu in the References section. Some of the actions that you can perform include Edit, Preview, Copy UUID, Copy Path, Add to collections, and Properties.
+
+**Translations**
+
+This section lists all available language copies for the currently opened asset in the Editor, in alphabetical order. The information is presented in a tabular view, showing each language code along with the corresponding *file title* (or *file name* in case *file title* is not available).
+
+>[!INFO]
+>
+> Language copies are created when an asset is sent for translation. English (`en`) acts as the source language, and translated copies are generated in their respective target language folders (for example, `de` for German or `fr` for French). If an asset exists only in the `en` folder, no additional language copies are displayed until translation is initiated and completed for the target languages. If the asset is not present in any language folder, **No translations available** is displayed. For more details, view [Best practices for content translation](./translation-first-time.md).
+
+![](images/translations-right-panel.png){width="300" align="left"}
+
+For each language copy, you can hover-over the file to locate its path in the repository or simply select it to open in the Editor. In addition to opening files, you can also perform many actions using the **Options** menu in the Translations section. Some of the actions that you can perform include Edit, Preview, Copy UUID, Copy Path, Add to collections, and Properties.
+
+![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+
+
 
 ## Review
 

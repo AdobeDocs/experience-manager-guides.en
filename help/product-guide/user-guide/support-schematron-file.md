@@ -16,9 +16,7 @@ role: User
 
 ## Import Schematron files
 
-Perform the following steps to import the Schematron files:
-
-  ![](images/schematron-panel.png){width="300" align="left"}
+Perform the following steps to import the Schematron files: 
 
 1. Navigate to the required folder (where you want to upload the files) in *Repository*.
 1. Select the **Options** icon to open the context menu and choose **Upload assets**.
@@ -35,16 +33,16 @@ After importing Schematron files, you can edit them in the Editor. You can use t
 
 When you open a topic in the Editor, a Schematron Validation panel appears in the right. Perform the following steps to add and validate a topic or map with a Schematron file:
 
-![](images/schematron-panel-file-validated.png){width="500" align="left"}
+![](images/schematron-panel.png){width="350" align="left"}
 
-1. Select the Schematron icon (), to open the Schematron panel.
+1. Select the Schematron icon, to open the Schematron panel.
 1. Use **Add Schematron File** to add Schematron files. 
 
     >[!NOTE]
     >
     > When an invalid Schematron file is added, an error message is displayed in the Validation panel.
 
-    ![](images/schematron-panel-error.png){width="300" align="left"}
+    ![](images/schematron-panel-error.png){width="350" align="left"}
 
 1. If the Schematron file has no errors, it is added and listed in the Validation panel. An error message is displayed for the Schematron file containing errors.
 
@@ -52,14 +50,42 @@ When you open a topic in the Editor, a Schematron Validation panel appears in th
     >
     >You can use the cross icon near the Schematron file name to remove it.
 
-1. Select **Validate with Schematron** to validate the topic. 
+1. Select **Validate** to validate the topic with the added Schematron files. 
 
     * If the topic breaks no rules, the validation success message is displayed for the file.
     * If the topic breaks a rule, for example, if it doesn't contain a title and is validated for the above given Schematron, it displays a validation error.
 
+    >[!NOTE]
+    >
+    > Validation results are displayed based on the role attribute defined in the Schematron file. For more details, view [Understanding validation results and serverity levels](#understanding-validation-results-and-serverity-levels).
+
 1. Select the error message to highlight the element containing the error in the opened topic/map.
 
 The Schematron support in the Editor helps you in validating the files against a set of rules and maintaining consistency and correctness across the topics.
+
+## Understanding validation results and serverity levels
+
+Validation results are displayed based on the role attribute defined in the Schematron file. Issues are categorized as `Fatal`, `Error`, `Warn`, or `Info`, with a visible count for each category in the Validation panel.
+
+![](images/schematron-validation-errors.png){width="350" align="left"}
+    
+To determine the severity of an issue, the _case-senstive_ value of the role attribute defined in the corresponding Schematron file is evaluated. 
+
+The following snippet shows the supported role attribute values defined in a Schematron rule:
+    
+* `<sch:assert role="error" test="@id">Element must have an ID.</sch:assert>`
+* `<sch:report role="info" test="not(@alt)">Image should have an alt attribute.</sch:report>`
+* `<sch:assert role= "fatal" test="b"> Bold must be there in <sch:name/> element</sch:assert>`
+* `<sch:assert role= "warn" test="b"> Recommended formatting is missing in <sch:name/> element</sch:assert>`
+
+If the role attribute is not specified, or if an unsupported value is used, the issue is categorized as `Error` in the Validation panel. This behavior also applies to existing Schematron files that do not define a role attribute; in such cases, all issues are grouped under `Error`. 
+    
+**File save scenarios**
+
+Saving a file depends on the **Run validation check before saving the file** setting in [Workspace settings](../cs-install-guide/workspace-settings.md#validation):
+    
+* When enabled, you are not allowed to save the file until the `Fatal` or `Error` level issues are not resolved.
+* When disabled, the validation checks are not performed and the files can be saved even if `Fatal` or `Error` level issues are present. 
 
 ## Use assert and report statements to check for rules{#schematron-assert-report}
 
