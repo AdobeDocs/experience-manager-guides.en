@@ -698,7 +698,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Appendix](./install-guide-merged/appendix.md)
     - Work with DITA assets replication{#dita-assets-replication-cs}
       - [Configure DITA assets replication](./cs-install-guide/configure-dita-assets-replication.md)    
-    - [Appendix](./cs-install-guide/appendix.md)     
+        
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
   - [REST APIs for Output management](./api-reference/output-management.md)
