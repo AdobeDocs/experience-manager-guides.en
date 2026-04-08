@@ -692,12 +692,12 @@ breadcrumb-title: AEM Guides Documentation
     - B-tree cleanup {#btree-cleanup-cs-exp}
       - [Configure B-tree cleanup](./install-guide-merged/configure-btree-cleanup-cs.md)
     - Custom indexing {#custom-indexing-cs-exp}
-      - [Deploying custom index for Find and replace feature for Cloud Service](./install-guide-merged/custom-indexing-cs.md)
-      - [Reindexing for Find and replace feature for On-Premise](./install-guide-merged/custom-indexing-prem.md) 
+      - [Deploy custom index for Find and replace feature for Cloud Service](./install-guide-merged/custom-indexing-cs.md)
+      - [Reindex for Find and replace feature for On-Premise](./install-guide-merged/custom-indexing-prem.md) 
+    - DITA assets replication{#dita-assets-replication-exp}
+      - [Configure DITA assets replication](./install-guide-merged/configure-dita-asset-replication.md)
     - Appendix {#appendix-exp}
-      - [Appendix](./install-guide-merged/appendix.md)
-    - Work with DITA assets replication{#dita-assets-replication-cs}
-      - [Configure DITA assets replication](./cs-install-guide/configure-dita-assets-replication.md)    
+      - [Appendix](./install-guide-merged/appendix.md)   
         
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
