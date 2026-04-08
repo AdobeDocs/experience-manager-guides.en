@@ -697,7 +697,7 @@ breadcrumb-title: AEM Guides Documentation
     - Custom indexing {#custom-indexing-cs-exp}
       - [Deploy custom index for Find and replace feature for Cloud Service](./install-guide-merged/custom-indexing-cs.md)
       - [Reindex for Find and replace feature for On-Premise](./install-guide-merged/custom-indexing-prem.md) 
-    - DITA assets replication{#dita-assets-replication-exp}
+    - DITA assets replication {#dita-assets-replication-exp}
       - [Configure DITA assets replication](./install-guide-merged/configure-dita-asset-replication.md)
     - Appendix {#appendix-exp}
       - [Appendix](./install-guide-merged/appendix.md)   
