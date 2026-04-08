@@ -574,10 +574,12 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
     - Work with Asset processing {#asset-processing-cloud}
       - [Configure asset processing feature](./cs-install-guide/configure-asset-processing-cs.md)
-    - Work with B-tree cleanup{#btree-cleanup-cs}
+    - Work with B-tree cleanup {#btree-cleanup-cs}
       - [Configure B-tree cleanup](./cs-install-guide/configure-btree-cleanup-cs.md)   
-    - Custom indexing{#custom-indexing-cs}
-      - [Deploying custom index for Find and replace (Source view)](./cs-install-guide/custom-indexing.md)   
+    - Custom indexing {#custom-indexing-cs}
+      - [Deploying custom index for Find and replace (Source view)](./cs-install-guide/custom-indexing.md) 
+    - Work with DITA assets replication {#dita-assets-replication-cs}
+      - [Configure DITA assets replication](./cs-install-guide/configure-dita-assets-replication.md)       
     - [Appendix](./cs-install-guide/appendix.md)  
 - Installation and configuration (Unified) {#install-guide-unified}
     - [Download, Install, and Upgrade](./install-guide-merged/introduction.md)
