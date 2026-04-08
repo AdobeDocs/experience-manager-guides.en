@@ -591,10 +591,13 @@ breadcrumb-title: AEM Guides Documentation
       - [Uninstall AEM Guides](./install-guide-merged/download-install-unistall-aemg.md)
     - [Verify AEM Guides installation](./install-guide-merged/download-install-verify-dxml-installation.md)
     - Upgrade AEM Guides {#upgrade-aem-guides}
-      - [Upgrade AEM Guides Cloud Service](./install-guide-merged/download-install-upgrade-dxml.md)
-      - [Upgrade AEM Guides On-Premise 4.6.0 and above](./install-guide-merged/upgrade-xml-documentation.md)              
-      - [Upgrade AEM Guides On-Premise earlier versions](./install-guide-merged/upgrade-xml-documentation-prev-versions.md)
-    - [Configuration overrides for Cloud Service](./install-guide-merged/download-install-additional-config-override.md)
+      - Cloud Service {#aemg-cs}
+        - [Upgrade AEM Guides Cloud Service](./install-guide-merged/download-install-upgrade-dxml.md)
+        - [Additional configuration for upgrading AEM Guides as Cloud Service](./install-guide-merged/additional-config-for-cloud-service.md)
+        - [Configuration overrides for Cloud Service](./install-guide-merged/download-install-additional-config-override.md)
+      - On-Premise {#aemg-prem}
+        - [Upgrade AEM Guides On-Premise 4.6.0 and above](./install-guide-merged/upgrade-xml-documentation.md)              
+        - [Upgrade AEM Guides On-Premise earlier versions](./install-guide-merged/upgrade-xml-documentation-prev-versions.md)    
     - Recommendations for performance optimization {#performance-optimization-aemg}
       - [Performance optimization for Cloud Service](./install-guide-merged/download-install-recommend-perf-optimiz-cs.md)
       - [Performance optimization for On-Premise](./install-guide-merged/download-install-recommend-perf-optimiz-on-prem.md)         

@@ -7,6 +7,8 @@ level: Experienced
 ---
 # Technical requirements {#id213BCG003XA}
 
+AEM Guides is made available through Adobe Software Distribution Portal. You can download AEM Guides from your Adobe Software Distribution Portal account and install it on all Adobe Experience Manager (AEM) instances in your setup. Typically, your authoring instance and production instance of AEM will be hosted on different servers. You will have to install AEM Guides on all instances of AEM that you intend to use.
+
 Before installing Adobe Experience Manager Guides for On-Premise, ensure your system meets the technical requirements mentioned below for the given release. 
 
 **Supported browser**
