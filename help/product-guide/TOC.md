@@ -18,7 +18,7 @@ breadcrumb-title: AEM Guides Documentation
           - [What's new](./release-info/whats-new-2026-04-0.md)
           - [Fixed issues](./release-info/fixed-issues-2026-04-0.md)
           - [Upgrade instructions](./release-info/upgrade-instructions-2026-04-0.md)
-        - {hide-from-toc} 2026.03.0 Release {#2603-release}
+        - 2026.03.0 Release {#2603-release}
           - [What's new](./release-info/whats-new-2026-03-0.md)
           - [Fixed issues](./release-info/fixed-issues-2026-03-0.md)
           - [Upgrade instructions](./release-info/upgrade-instructions-2026-03-0.md)  

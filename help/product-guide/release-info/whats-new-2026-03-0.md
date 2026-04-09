@@ -3,6 +3,7 @@ title: Release Notes | What's New in Adobe Experience Manager Guides 2026.03.0 r
 description: Learn about the new and enhanced features in the 2026.03.0 release of Adobe Experience Manager Guides
 role: Leader
 exl-id: ae26dd14-983e-4116-ac8d-729c1f4fad20
+hidefromtoc: yes
 ---
 # What's new in the 2026.03.0 release (March 2026)
 
