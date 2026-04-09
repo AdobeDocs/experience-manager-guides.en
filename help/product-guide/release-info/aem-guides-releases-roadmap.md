@@ -20,7 +20,6 @@ The releases for Experience Manager Guides as a Cloud Service are planned as fol
 
 | Release |Event |Schedule |What's new | Upgrade instructions | Fixed issues |Status|
 |---|---|---|---|---|---|---|
-|Adobe Experience Manager Guides 2026.04.0 <br>|Automatic Update|April 06-08, 2026|-|-|-|Target|
 |Adobe Experience Manager Guides 2026.05.0 <br>|Automatic Update|May 11-13, 2026|-|-|-|Target|
 |Adobe Experience Manager Guides 2026.06.0 <br>|Automatic Update|June 22-24, 2026|-|-|-|Target|
 
