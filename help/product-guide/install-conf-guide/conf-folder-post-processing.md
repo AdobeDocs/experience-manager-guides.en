@@ -23,10 +23,6 @@ Use the instructions in [Configuration overrides](download-install-additional-co
 |PID|Property Key|Property Value|
 |---|------------|--------------|
 |`com.adobe.fmdita.config.ConfigManager`| `ignored.post.processing.paths`| String value to set any standard NODE_OPTIONS (multivalued property, strings with path that omit `/` at the end) <br> **Default Value**: `/content/dam/projects/translation_output`|
-
-
-|PID|Property Key|Property Value|
-|---|------------|--------------|
 |`com.adobe.fmdita.config.ConfigManager`| `enabled.post.processing.paths`|String value to set any standard NODE_OPTIONS (multivalued property, strings with path that omit `/` at the end) <br> **Default Value**: `/content/dam` |
 
 >[!TAB On-Premise]

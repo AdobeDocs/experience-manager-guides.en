@@ -8,7 +8,7 @@ role: User
 
 >[!NOTE]
 >
-> In the On-premise setup, the **Settings** option appears in the Editor's tab bar. In the Cloud Service setup, this option has been renamed to **Workspace settings**. All existing configuration options available under **Editor settings** remain unchanged. To learn about the available configuration options, view [Configure Workspace settings](../cs-install-guide/workspace-settings.md).
+> In the On-premise setup, the **Settings** option appears in the Editor's tab bar. In the Cloud Service setup, this option has been renamed to **Workspace settings**. All existing configuration options available under **Editor settings** remain unchanged. To learn about the available configuration options, view [Configure Workspace settings](../install-guide-merged-merged/workspace-settings.md).
 > ![Editor setting for On-premise](assets/editor-settings-on-prem.png){width="650" align="left"}
 
 
@@ -75,7 +75,7 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
     -  **Show subject scheme in the Conditions panel**: Select this to view a subject scheme in the conditions panel. If you deselect this, the defined conditions are shown in the conditions panel.
 
 - **Spell check**
-    There are two options — **AEM spell check** and **Browser spell check**. By default, the editor uses the Browser spell check feature, wherein the spell-check is performed using the browser's in-built dictionary. You can switch to AEM spell check to use Adobe Experience Manager's dictionary, which can also be customized to add your custom word list. For more information about customizing AEM dictionary, view [Customize AEM's default dictionary](../cs-install-guide/customize-aem-custom-dictionary.md) section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.    
+    There are two options — **AEM spell check** and **Browser spell check**. By default, the editor uses the Browser spell check feature, wherein the spell-check is performed using the browser's in-built dictionary. You can switch to AEM spell check to use Adobe Experience Manager's dictionary, which can also be customized to add your custom word list. For more information about customizing AEM dictionary, view [Customize AEM's default dictionary](../install-guide-merged-merged/customize-aem-custom-dictionary.md) section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.    
 
  
 ## Panels

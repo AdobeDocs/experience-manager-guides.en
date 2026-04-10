@@ -13,7 +13,7 @@ The following tabs provide instructions to configure DITA assets replication fea
 
 >[!TAB Cloud Service]
 
-1. Use the instructions given in [Configuration overrides](../cs-install-guide/download-install-additional-config-override.md) to create the configuration file.
+1. Use the instructions given in [Configuration overrides](../install-guide-merged-merged/download-install-additional-config-override.md) to create the configuration file.
 
 1. In the configuration file, provide the following (property) details:
 

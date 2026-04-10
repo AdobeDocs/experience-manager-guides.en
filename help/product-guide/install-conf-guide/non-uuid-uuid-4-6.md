@@ -1,15 +1,14 @@
 ---
-title: Non-UUID to UUID content migration
+title: 4.6.0 Service Pack 4 non-UUID to 4.6.1 UUID content migration
 description: Learn how to migrate Non-UUID to UUID content
 feature: Migration
 role: Admin
 level: Experienced
 
 ---
-# 4.3.1 non-UUID to 4.3.2 UUID content migration
+# 4.6.0 Service Pack 4 non-UUID to 4.6.1 UUID content migration
 
-
-Perform these steps to migrate your content from non-UUID version 4.3.1 to UUID version 4.3.2. 
+Perform these steps to migrate your content from non-UUID version 4.6.0 Service Pack 4 to UUID version 4.6.1. 
 
 >[!IMPORTANT]
 >
@@ -18,24 +17,23 @@ Perform these steps to migrate your content from non-UUID version 4.3.1 to UUID 
 >   1.  Closed all active reviews.
 >   1.  Closed all translation tasks.
 > * Before migrating content to the UUID server, ensure that you have a non-UUID server with a compatible AEM Guides version installed on it.
-> * If you are using a version before 4.3.1, upgrade to version 4.3.1. Follow the [upgrade instructions](./upgrade-xml-documentation.md) specific to the licensed version of your product. 
-> * Currently, versions later than 4.3.1 are not supported for migration.
-
+> * If you are using a version released before 4.6.0 Service Pack 4, then you need to first upgrade to version 4.6.0 Service Pack 4. Follow the [upgrade instructions](./upgrade-xml-documentation.md) specific to the licensed version of your product. 
+> * If you are using a specific Service Pack released after 4.6.0 Service Pack 4, then you must uninstall that Service Pack and revert to 4.6.0 Service Pack 4. 
 
 ## Package installation
 
 Download the required packages from Adobe Software Distribution Portal, based on your version:
 
 
-1. **Pre-migration**: [com.adobe.guides.pre-uuid-migration-1.2.27.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.pre-uuid-migration-1.2.27.zip)
-1. **Download UUID version 4.3.2**: [com.adobe.fmdita-6.5-uuid-4.3.2.1977.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1977.zip)
-1. **Migration**: [com.adobe.guides.uuid-upgrade-1.2.110.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.uuid-upgrade-1.2.110.zip)
+1. **Pre-migration**: [com.adobe.guides.pre-uuid-migration-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.pre-uuid-migration-2.0.zip)
+1. **Download UUID version 4.6.1**: [com.adobe.fmdita.feature-uuid-4.6.1.5886.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita.feature-uuid-4.6.1.5886.zip)
+1. **Migration**: [com.adobe.guides.uuid-upgrade-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.uuid-upgrade-2.0.zip)
 
 ## Premigration checks
 
-Perform the following checks on non-UUID version 4.3.1:
+Perform the following checks on non-UUID version 4.6.0 Service Pack 4:
 
-1. Install the pre-migration package [com.adobe.guides.pre-uuid-migration-1.2.27.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.pre-uuid-migration-1.2.27.zip) over version 4.3.1.
+1. Install the pre-migration package [com.adobe.guides.pre-uuid-migration-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.pre-uuid-migration-2.0.zip) over version 4.6.0 Service Pack 4.
 
    >[!NOTE]
    >
@@ -54,7 +52,7 @@ Perform the following checks on non-UUID version 4.3.1:
     * Number of files with errors 
     * Files with GUID filename
 
-    ![compatibility assessment tab in migration](assets/migration-compatibility-assessment-4-3-1.png)
+    ![compatibility assessment tab in migration](assets/migration-compatibility-assessment.png)
 
 
 1. If the error appears, then analyze the logs and fix those errors. You can re-run the compatibility matrix after fixing the errors.
@@ -63,7 +61,7 @@ Perform the following checks on non-UUID version 4.3.1:
 
     By selecting multiple and large DITA maps, you can validate that all the content has been successfully migrated without issues. Selecting presets with baselines in them, also ensures that baselines and versions are migrated successfully.
 
-    ![Configure Validations tab in migration](assets/migration-configure-validation-4-3-1.png)
+    ![Configure Validations tab in migration](assets/migration-configure-validation.png)
 
 
 1. (Optional) Perform version purging on the content to remove unnecessary versions and speed up the migration process. To perform version purging, select the option **Version Purge** from the migration screen and go to the user interface using the URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`. 
@@ -71,7 +69,7 @@ Perform the following checks on non-UUID version 4.3.1:
    >
    >This utility does not remove any versions used in baselines or reviews or has any labels.   
 
-For more details, view [purge older versions](../install-guide/version-management.md#purge-older-versions-of-dita-files).
+For more details, view [purge older versions](../install-guide-merged/version-management.md#purge-older-versions-of-dita-files).
 
 
 ## Migration prerequisites
@@ -83,10 +81,10 @@ For more details, view [purge older versions](../install-guide/version-managemen
     * Do run **Offline Tar compaction** before starting this activity.
     * Make sure that no indexing or system maintenance is planned during the window of this migration.
 
-1. Install the UUID version of the supported release over the non-UUID version. For example, if you're using 4.3.1 non-UUID build, you need to install UUID version 4.3.2 [com.adobe.fmdita-6.5-uuid-4.3.2.1977.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1977.zip)) and run the migration.
+1. Install the UUID version of the supported release over the non-UUID version. For example, if you're using 4.6.0 Service Pack 4 non-UUID build, you need to install UUID version 4.6.1  [com.adobe.fmdita.feature-uuid-4.6.1.5886.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita.feature-uuid-4.6.1.5886.zip) and run the migration.
 
 
-1. Install the uuid migration upgrade package [com.adobe.guides.uuid-upgrade-1.2.110.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.uuid-upgrade-1.2.110.zip).
+1. Install the uuid migration upgrade package [com.adobe.guides.uuid-upgrade-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.uuid-upgrade-2.0.zip).
 1. Disable launchers for the following workflows using the URL: `http://<server-name>/libs/cq/workflow/content/console.html`.
 
     * DAM Update Asset workflow
@@ -120,7 +118,7 @@ For more details, view [purge older versions](../install-guide/version-managemen
 
 1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 
-    ![System upgrade tab in migration](assets/migration-system-upgrade-4-3-1.png)
+    ![System upgrade tab in migration](assets/migration-system-upgrade.png)
     >[!NOTE]
     >
     > If you choose "Enable DITA asset backup", the temporary backup files are stored under `/content/uuid-upgrade` and the DITA file backups are deleted when the migration of a file is complete.
@@ -150,7 +148,7 @@ For more details, view [purge older versions](../install-guide/version-managemen
 
 1. Once all the files are migrated, select **Baseline/Review Upgrade** from the left panel to migrate the baselines and review at the folder level.  
 
-![Baseline and review tab in migration](assets/migration-baseline-review-upgrade-4-3-1.png)
+![Baseline and review tab in migration](assets/migration-baseline-review-upgrade-4-6-0.png)
 
 >[!NOTE]
 >
@@ -162,29 +160,31 @@ For more details, view [purge older versions](../install-guide/version-managemen
 
 |Summary after process completion|How to interpret?|Action|
 |---|---|---|
-|Total number of files: 345997| Total number of files processed under the given set of folders. | NA|
-|Number of files upgraded successfully: 344516| Number of files migrated successfully to UUID. |NA|
-|Number of files upgraded with errors: 29| Errors occurred in these files and should be the same as those reported in the premigration step.| NA|
-|Number of files skipped: 1452| Some files in the DAM repository may have subassets, and those subassets are skipped as they are not eligible for UUID migration.|NA|
+|Total number of files: 488| Total number of files processed under the given set of folders. | NA|
+|Number of files migrated successfully: 488| Number of files migrated successfully to UUID. |NA|
+|Number of files skipped: 0| Some files in the DAM repository may have subassets, and those subassets are skipped as they are not eligible for UUID migration.|NA|
 |Number of files failed to upgrade: 0| If the count isn't 0, then the logs have to be analyzed for any issues.| Check the exception, you may have to fix the error and re-run the migration.|
-|Total time taken: 2:40:06.157|||
+|Total time taken: 00:01:18|||
+
+Additionally, a list of **Files upgraded with errors** and **Files failed** during the migration process can be accessed under the summary table of the report.  
+ 
 
 **Step: Upgrade Baselines**
 
 |Summary after process completion|How to interpret?|Action|
 |---|---|---|
-| Total number of files: 4833 |Number of DITA maps with at least 1 baseline. ||
-|Number of files upgraded successfully: 4705|Number of DITA maps, successfully upgraded with all baselines.||
-|Number of files upgraded with errors: 0| Number of DITA maps whose baselines didn't upgrade.||
-|Number of files skipped: 1647| Number of DITA maps without any baseline.||
-| Number of files failed to upgrade: 128| The number of baseline objects that were not valid (they were empty) is listed in the report (Excel).| Check if there are errors other than: `baselineObj not found on`|
+| Total number of files: 288 |Number of DITA maps with at least 1 baseline. ||
+|Number of files migrated successfully: 13|Number of DITA maps, successfully upgraded with all baselines.||
+|Number of files skipped: 275| Number of DITA maps without any baseline.||
+| Number of files failed to upgrade: 0| The number of baseline objects that were not valid (they were empty) is listed in the report (Excel).| Check if there are errors other than: `baselineObj not found on`|
 
+Additionally, a list of **Files upgraded with errors** and **Files failed** during the migration process can be accessed under the summary table of the report.  
 
 ## Postmigration 
 
 1. Once the migration is completed, select **Validate system upgrade** from the left panel and validate the output files before and after the migration to ensure that the migration is successful. 
 
-    ![Validate system upgrade tab in migration](assets/migration-validate-system-upgrade-4-3-1.png)
+    ![Validate system upgrade tab in migration](assets/migration-validate-system-upgrade.png)
 
 1. After migrating the server successfully enable the following workflows and configurations (including all the other workflows that were disabled initially during the migration) to continue working on the server:
 
@@ -215,4 +215,3 @@ For more details, view [purge older versions](../install-guide/version-managemen
 
 
 1. After the validation is done, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
-
