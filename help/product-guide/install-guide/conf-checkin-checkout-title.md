@@ -5,6 +5,7 @@ exl-id: a8888a17-e819-4fa2-bb6f-cafe1002803a
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Configure the title for Check in and Check out icons
 

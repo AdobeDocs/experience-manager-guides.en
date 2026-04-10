@@ -3,6 +3,7 @@ title: Configure additional special characters in Web Editor toolbar
 description: Learn how to configure additional special characters in the web editor of AEM Guides.
 feature: Web Editor
 role: User
+hidefromtoc: yes
 ---
 # How to configure additional special characters in Web Editor toolbar for On-Premise
 

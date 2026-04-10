@@ -650,11 +650,11 @@ breadcrumb-title: AEM Guides Documentation
       - Editor setting for Cloud Service {#editor-cloud-settings}
           - [Configure the AI-powered smart suggestions for authoring for Cloud Service](./install-conf-guide/conf-smart-suggestions.md)      
           - [Configure the AI-powered Smart Help to search content for Cloud Service](./install-conf-guide/conf-smart-help.md)
+          - [Configure the option to edit in Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
           - [Configure display of pasted tables for Cloud Service](./install-conf-guide/conf-pasted-tables.md) 
           - [Configure single topic PDF generation for Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
           - [Configure Translation feature in the Web Editor for Cloud Service](./install-conf-guide/conf-translation-editor.md)
       - Editor setting for On-Premise {#editor-on-prem-settings}
-          - [Configure the option to edit in Oxygen for On-Premise](./install-conf-guide/conf-edit-in-oxygen.md)
           - [Configure additional special characters for On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
           - [Configure the title for Check in and Check out icons for On-Premise](./install-conf-guide/conf-checkin-checkout-title.md)
           - [Configure the number of LimitReads for a query for On-Premise](./install-conf-guide/conf-query-limitreads.md)

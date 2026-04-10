@@ -5,6 +5,7 @@ exl-id: 6c6b9692-cdec-426f-bc3b-f09d0091da39
 feature: Installation
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Uninstall AEM Guides {#id21BHG0C0SXA}
 

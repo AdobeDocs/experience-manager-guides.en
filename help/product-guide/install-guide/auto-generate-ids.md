@@ -5,6 +5,7 @@ exl-id: 8d09ab89-4be5-49f1-9831-9f01c92dc472
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Auto-generate element IDs {#id20CIL40016I}
 

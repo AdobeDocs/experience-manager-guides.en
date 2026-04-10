@@ -5,6 +5,7 @@ exl-id: 52214459-74b8-47ec-982b-6176145348a8
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Configure default value for the Tags View {#id223GN0M0NDC}
 

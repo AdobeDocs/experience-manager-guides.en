@@ -5,6 +5,7 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Support for language variables
 
@@ -28,7 +29,7 @@ For example, you can have the following ways to present the label `Note` in the 
  
 >[!NOTE]
 >
-> If the value for any variable isn’t defined in a particular language, then AEM Guides picks the string from the language of the UI (User Interface of the application) as a fallback mechanism. 
+> If the value for any variable isn't defined in a particular language, then AEM Guides picks the string from the language of the UI (User Interface of the application) as a fallback mechanism. 
 >
 > If you have not defined the value in the language of the UI, it looks for English (`en_us`), or else it picks the English(`en`) value and displays the same in the PDF output. 
 
@@ -60,7 +61,7 @@ You can also create new language variables. For example, you can create a user v
 ## Add a new language variable 
 
 1. In the Editor, navigate to the Left panel and select **Language variables**. This option is available under the More section.
-1. Select **Edit** to open the **Language variables** window. The application and the user variables present in the selected language are listed in alphabetical order. The values are displayed according to the selected language. For example, if you select the French language, “Tip” is displayed as “Conseil.” 
+1. Select **Edit** to open the **Language variables** window. The application and the user variables present in the selected language are listed in alphabetical order. The values are displayed according to the selected language. For example, if you select the French language, "Tip" is displayed as "Conseil." 
 1. From the **Language** dropdown, select the desired language in which you want to edit a variable.
 
    >[!NOTE]
@@ -77,7 +78,7 @@ You can also create new language variables. For example, you can create a user v
 
   >[!NOTE]
   >
-  > If you don’t select **Add Language Variable**, the variable is not created and added to the list
+  > If you don't select **Add Language Variable**, the variable is not created and added to the list
 
 ## Export and import language variables
 
@@ -135,7 +136,7 @@ You can also edit the values for an application variable. Later, you can revert 
 
 ## Use language variables in the output templates
 
-You should add language variables in your localized documents. You can insert these language variables within the page layout that appears across different pages in your localized documents. For example, you can add the language variable for the `author-name` that appears in the page layout’s header area (or any other part like the footer or body). 
+You should add language variables in your localized documents. You can insert these language variables within the page layout that appears across different pages in your localized documents. For example, you can add the language variable for the `author-name` that appears in the page layout's header area (or any other part like the footer or body). 
 
 
 

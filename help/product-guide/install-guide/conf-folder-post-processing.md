@@ -5,6 +5,7 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
+hidefromtoc: yes
 ---
 # Disable postprocessing for a folder 
 

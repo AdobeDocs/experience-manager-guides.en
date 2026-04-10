@@ -5,6 +5,7 @@ exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Configure a data source connector from the user interface
 
