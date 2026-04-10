@@ -139,7 +139,7 @@ The following tabs provide instructions to allow users to overwrite the file on 
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.confi g.ConfigManager`|`overwrite.checkout.onupload`|Boolean \(true/false\).<br> **Default value**: `false` |
+|`com.adobe.fmdita.config.ConfigManager`|`overwrite.checkout.onupload`|Boolean \(true/false\).<br> **Default value**: `false` |
 
 >[!NOTE]
 >

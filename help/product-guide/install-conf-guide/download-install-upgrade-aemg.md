@@ -7,6 +7,8 @@ level: Experienced
 ---
 # Upgrade AEM Guides for Cloud Service {#id213BD050YPH}
 
+Perform the following steps for upgrading AEM Guides:
+
 1.  Access your Cloud Manager's Git repository.
 
 1.  Update the `dox/dox.installer/pom.xml` file.

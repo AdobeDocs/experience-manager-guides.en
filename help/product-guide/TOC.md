@@ -647,18 +647,18 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure text filters](./install-conf-guide/conf-text-filters.md)
       - [Configure filters for file browse dialog](./install-conf-guide/conf-custom-file-filters.md)          
       - [Install packages for Article-based publishing](./install-conf-guide/conf-article-based-publishing.md)
-      - [Editor setting for Cloud Service] {#editor-cloud-settings}
+      - Editor setting for Cloud Service {#editor-cloud-settings}
           - [Configure the AI-powered smart suggestions for authoring for Cloud Service](./install-conf-guide/conf-smart-suggestions.md)      
           - [Configure the AI-powered Smart Help to search content for Cloud Service](./install-conf-guide/conf-smart-help.md)
           - [Configure display of pasted tables for Cloud Service](./install-conf-guide/conf-pasted-tables.md) 
           - [Configure single topic PDF generation for Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
           - [Configure Translation feature in the Web Editor for Cloud Service](./install-conf-guide/conf-translation-editor.md)
-      - [Editor setting for On-Premise] {#editor-on-prem-settings}
+      - Editor setting for On-Premise {#editor-on-prem-settings}
           - [Configure the option to edit in Oxygen for On-Premise](./install-conf-guide/conf-edit-in-oxygen.md)
           - [Configure additional special characters for On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
           - [Configure the title for Check in and Check out icons for On-Premise](./install-conf-guide/conf-checkin-checkout-title.md)
           - [Configure the number of LimitReads for a query for On-Premise](./install-conf-guide/conf-query-limitreads.md)
-      - [Data source connector] {#data-source}
+      - Data source connector {#data-source}
           - [Configure a data source connector from the user interface](./install-conf-guide/conf-data-source-connector-tools.md)
           - [Configure a data source connector for Cloud Service](./install-conf-guide/conf-data-source-connector-cs.md)
     - Global and folder-level profiles {#global-folder-profiles}
@@ -669,7 +669,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure custom DITA map template](./install-conf-guide/conf-template-tags-custom-dita-map-templates.md)
     - Document states {#doc-state}
       - [Configure document states](./install-conf-guide/customize-doc-state.md)  
-      - [Configure document state filters](./install-conf-guide/conf-doc-state-filters.md)  
+      - [Configure document state filters for Cloud Service](./install-conf-guide/conf-doc-state-filters.md)  
     - Configure Workspace settings {#workspace-configs}
       - [Workspace settings](./install-conf-guide/workspace-settings.md)   
     - AEM Assets search {#aem-asset-search}
