@@ -4,6 +4,7 @@ description: Configure JVM flags for Native PDF Publishing
 feature: Output Generation
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Configure JVM flags for Native PDF Publishing for On-Premise
 

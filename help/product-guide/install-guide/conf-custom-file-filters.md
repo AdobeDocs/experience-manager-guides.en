@@ -5,6 +5,7 @@ exl-id: 1ef09820-3b18-4762-b177-4d40926e21f0
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Configure filters for file browse dialog {#id20CIL7009GN}
 

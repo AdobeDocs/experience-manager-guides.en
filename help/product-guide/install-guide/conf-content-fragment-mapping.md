@@ -5,6 +5,7 @@ exl-id: 21446bcb-e7df-4823-acc3-1fdc7473f0d1
 feature: Output Generation
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Create a mapping between a topic and a content fragment
 

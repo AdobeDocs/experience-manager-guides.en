@@ -5,7 +5,7 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 ---
-# Configure the option to edit in Oxygen for On-Premise
+# Configure the option to edit in Oxygen for Cloud Service
 
 AEM Guides also allows the users to edit their DITA topics and DITA maps in the Oxygen connector plugin. 
 

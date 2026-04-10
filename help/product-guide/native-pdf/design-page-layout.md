@@ -4,7 +4,8 @@ description: Learn how to design your page layout for presenting information in 
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
-level: Experienced
+level: 
+hidefromtoc: yes
 ---
 
 # Design a page layout {#design-page-layout}

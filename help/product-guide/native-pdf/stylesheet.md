@@ -5,6 +5,7 @@ exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Work with the common content styles {#work-with-common-styles}
 

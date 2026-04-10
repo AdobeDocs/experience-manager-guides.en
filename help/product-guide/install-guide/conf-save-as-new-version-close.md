@@ -5,6 +5,7 @@ exl-id: 1b8c3eaa-a654-4563-9541-18a59b7d306c
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Configure prompt to save as a new version on close {#id222HBI00XXA}
 

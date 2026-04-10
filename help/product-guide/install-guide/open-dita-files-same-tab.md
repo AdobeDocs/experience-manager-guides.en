@@ -5,6 +5,7 @@ exl-id: 81ad2e18-3ea7-4cc1-8387-d703d1038a18
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Open DITA topic or map files in same tab {#id223HI0P202H}
 
