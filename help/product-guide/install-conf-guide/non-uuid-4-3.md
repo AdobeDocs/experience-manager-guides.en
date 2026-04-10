@@ -71,7 +71,7 @@ Perform the following checks on non-UUID version 4.3.1:
    >
    >This utility does not remove any versions used in baselines or reviews or has any labels.   
 
-For more details, view [purge older versions](../install-guide-merged/version-management.md#purge-older-versions-of-dita-files).
+For more details, view [purge older versions](../install-conf-guide/version-management.md#purge-older-versions-of-dita-files).
 
 
 ## Migration prerequisites
