@@ -18,7 +18,7 @@ The following tabs provide instructions to disable postprocessing for a folder b
 
 >[!TAB Cloud Service]
 
-Use the instructions in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to disable the postprocessing on a given path or ignore the postprocessing for a folder:
+Use the instructions in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to disable the postprocessing on a given path or ignore the postprocessing for a folder:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|

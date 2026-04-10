@@ -92,7 +92,7 @@ Next time you create a new map, your template shows up in the Blueprint page. Fo
 
 You can configure the threshold for asynchronous processing based on the number of references in the DITA map. By default, maps with more than 5 references will be created via asynchronous operations, while maps with fewer references will continue using synchronous operations.
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to specify number of references in the DITA map template to keep the process synchronous:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to specify number of references in the DITA map template to keep the process synchronous:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|

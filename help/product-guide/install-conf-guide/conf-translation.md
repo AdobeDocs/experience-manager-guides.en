@@ -63,7 +63,7 @@ The following tabs provide instructions to hide the Translation tab on the DITA 
 
 >[!TAB Cloud Service]
 
-1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
+1.  Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file.
 1.  In the configuration file, provide the following \(property\) details to configure the translation tab on the map dashboard:
 
     |PID|Property Key|Property Value|
@@ -111,7 +111,7 @@ The following tabs provide instructions for the translation workflow based on yo
 
 >[!TAB Cloud Service]
 
-Based on the translation workflow used in your setup, the component-based translation workflow option should be configured. Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure component-based translation workflow:
+Based on the translation workflow used in your setup, the component-based translation workflow option should be configured. Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure component-based translation workflow:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
@@ -160,7 +160,7 @@ The following tabs provide instructions to configure this option based on your E
 >
 > It is recommended that you use the latest translation workflow, available in AEM Guides 2024.06.0 and onwards, for an enhanced performance. However, if you've enabled any customization in the translation process and it is impacted by the new workflow, consider reverting to the legacy translation workflow as a workaround. 
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to configure the legacy translation workflow:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to configure the legacy translation workflow:
  
 
 |PID|Property Key|Property Value|
@@ -211,7 +211,7 @@ The following tabs provide instructions to configure this option based on your E
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure post-processing of temporary language copies:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure post-processing of temporary language copies:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|

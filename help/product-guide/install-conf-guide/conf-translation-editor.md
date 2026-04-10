@@ -41,4 +41,4 @@ To hide the **Manage** tab in the Web Editor, perform the following steps:
 
 Note that the **Manage** filter is no longer available.
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)

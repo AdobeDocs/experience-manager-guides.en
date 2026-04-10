@@ -159,4 +159,4 @@ The configured filters are available in the filters panel.
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)

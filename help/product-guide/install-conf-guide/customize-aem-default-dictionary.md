@@ -55,4 +55,4 @@ Authors would need to restart their Web Editor session to get the custom words l
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)

@@ -17,7 +17,7 @@ The following tabs provide instructions to configure elements to have auto-gener
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure auto-generated element IDs:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure auto-generated element IDs:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
@@ -57,4 +57,4 @@ To configure a pattern for auto-generated ID create a configuration file with th
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)

@@ -49,4 +49,4 @@ To enable article-based publishing, download and install the following packages 
 >[!ENDTABS]
 
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)

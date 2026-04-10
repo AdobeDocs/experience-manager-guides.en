@@ -22,7 +22,7 @@ The following tabs provide instructions to add this button on the AEM toolbar ba
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to add this button on the AEM toolbar:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to add this button on the AEM toolbar:
 
 
 |PID|Property Key|Property Value|

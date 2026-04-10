@@ -22,7 +22,7 @@ The following tabs provide instructions to configure Regx for valid file name ch
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure regex for valid file name characters:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure regex for valid file name characters:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|

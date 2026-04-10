@@ -17,7 +17,7 @@ The following tabs provide instructions to enable the auto-save feature in the W
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure file auto-save and auto-save time interval:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure file auto-save and auto-save time interval:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|

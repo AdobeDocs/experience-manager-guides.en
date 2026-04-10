@@ -30,9 +30,9 @@ To customize DITA topic template and use it for authoring, you need to perform t
 
 1.  *\(Optional\)* [Configure custom DITA template folder path](#id191LCF0095Z)
 
-1.  [Create custom authoring template](conf-folder-level.md#id1917D0EG0HJ)
+1.  [Create custom authoring template](conf-profiles.md#id1917D0EG0HJ)
 
-1.  Add a custom template into the global or folder-level profile as explained in the [Configure authoring templates](conf-folder-level.md#id1889D0IL0Y4) section
+1.  Add a custom template into the global or folder-level profile as explained in the [Configure authoring templates](conf-profiles.md#id1889D0IL0Y4) section
 
 
 ## Configure custom DITA template folder path {#id191LCF0095Z}
@@ -54,7 +54,7 @@ The following tabs provide instructions to configure custom DITA template folder
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure a folder for your custom DITA topic templates:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure a folder for your custom DITA topic templates:
 
 >[!IMPORTANT]
 >

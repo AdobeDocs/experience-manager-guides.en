@@ -17,7 +17,7 @@ Perform these steps to migrate your content from non-UUID version 4.6.0 Service 
 >   1.  Closed all active reviews.
 >   1.  Closed all translation tasks.
 > * Before migrating content to the UUID server, ensure that you have a non-UUID server with a compatible AEM Guides version installed on it.
-> * If you are using a version released before 4.6.0 Service Pack 4, then you need to first upgrade to version 4.6.0 Service Pack 4. Follow the [upgrade instructions](./upgrade-xml-documentation.md) specific to the licensed version of your product. 
+> * If you are using a version released before 4.6.0 Service Pack 4, then you need to first upgrade to version 4.6.0 Service Pack 4. Follow the [upgrade instructions](./upgrade-aemg-latest-version.md) specific to the licensed version of your product. 
 > * If you are using a specific Service Pack released after 4.6.0 Service Pack 4, then you must uninstall that Service Pack and revert to 4.6.0 Service Pack 4. 
 
 ## Package installation

@@ -15,7 +15,7 @@ Perform the following steps to configure AI Assistant:
 4. [Add the GUIDES_AI_SITE_ID variable in the environment](#add-the-guides_ai_site_id-variable-in-the-environment)
 5. [Apply changes to the environment](#apply-changes-to-the-environment)
 6. [Enable AI Assistant in Folder Profile](#enable-ai-assistant-in-folder-profile)
-7. [Configure Smart Suggestions in Folder Profile](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
+7. [Configure Smart Suggestions in Folder Profile](./conf-profiles.md#configure-ai-assistant-for-smart-help-and-authoring)
 
 ## Create IMS configurations in Adobe Developer Console
 
@@ -119,7 +119,7 @@ For more details, view [Know the Editor features](../user-guide/web-editor-featu
 
 After enabling the AI Assistant feature, configure the Smart Suggestions functionality in Folder Profile. 
 
-For details, refer to [Configure Smart Suggestions in Folder Profile](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring). 
+For details, refer to [Configure Smart Suggestions in Folder Profile](./conf-profiles.md#configure-ai-assistant-for-smart-help-and-authoring). 
 
 
 ## Appendix {#appendix}

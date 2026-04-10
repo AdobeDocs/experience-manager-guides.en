@@ -17,7 +17,7 @@ The following tabs provide instructions to hide the Baseline tab on the DITA map
 
 >[!TAB Cloud Service]
 
-1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
+1.  Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file.
 1.  In the configuration file, provide the following \(property\) details to configure the baseline tab on the map dashboard.
 
 |PID|Property Key|Property Value|
@@ -134,7 +134,7 @@ The following tabs provide instructions to configure the base output location ba
 
 >[!TAB Cloud Service]
 
-1. Use the instructions given in [Configuration overrides](download-install-additional-config-override.md) to create the configuration file.
+1. Use the instructions given in [Configuration overrides](download-install-config-override.md) to create the configuration file.
 
 1. In the configuration file, provide the following (property) details to configure the base output location:
 
@@ -318,7 +318,7 @@ In order to validate the metadata values passed to the DITA-OT, local environmen
 
 To use the DITA-OT command line argument field to pass root map metadata, perform the following steps:
 
-1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
+1.  Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file.
 1.  In the configuration file, provide the following \(property\) details to configure the DITA-OT command line argument field in the Preset:
 
 |PID|Property Key|Property Value|
@@ -419,7 +419,7 @@ The following tabs provide instructions to set a day and time to purge output hi
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to set a day and time to purge output history and logs:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to set a day and time to purge output history and logs:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
@@ -458,7 +458,7 @@ You can change the maximum number of generated outputs that are displayed in the
 
 >[!TAB Cloud Service] 
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to change the number of outputs to display in the list:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to change the number of outputs to display in the list:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|

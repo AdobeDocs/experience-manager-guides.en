@@ -15,7 +15,7 @@ The following tabs provide instructions based on your Experience Manager Guides 
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure a prompt to save as a new version on close:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure a prompt to save as a new version on close:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|

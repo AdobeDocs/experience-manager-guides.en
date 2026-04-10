@@ -17,7 +17,7 @@ The following tabs provide instructions to configure UUID filename pattern based
 
 >[!TAB Cloud Service] 
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure UUID filename pattern:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure UUID filename pattern:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|

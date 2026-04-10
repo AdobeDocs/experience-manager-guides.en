@@ -23,7 +23,7 @@ The following tabs provide instructions to include `@navtitle` attribute by defa
 1.  Click on the **Global Profile** tile.
 1.  Select the **XML Editor Configuration** tab and click **Edit** icon on the top
 1.  Click the **Download** icon to download the ui\_config.json file on your local system.
-1.  You can make this change at the Global level or at a folder level profile. Depending on where you want to make this change, you need to download the respective ui\_config.json file. For more information about downloading ui\_config.json file, see [Configure and customize the XML Web Editor](conf-folder-level.md#id2065G300O5Z).
+1.  You can make this change at the Global level or at a folder level profile. Depending on where you want to make this change, you need to download the respective ui\_config.json file. For more information about downloading ui\_config.json file, see [Configure and customize the XML Web Editor](conf-profiles.md#id2065G300O5Z).
 
 1.  Search for the `ditaAttributes` definition.
 
@@ -55,7 +55,7 @@ With this configuration, every reference file that you add to a map will contain
 
 1.  Download the ui\_config.json file.
 
-    You can make this change at the Global level or at a folder level profile. Depending on where you want to make this change, you need to download the respective ui\_config.json file. For more information about downloading ui\_config.json file, see [Configure and customize the XML Web Editor](conf-folder-level.md#id2065G300O5Z).
+    You can make this change at the Global level or at a folder level profile. Depending on where you want to make this change, you need to download the respective ui\_config.json file. For more information about downloading ui\_config.json file, see [Configure and customize the XML Web Editor](conf-profiles.md#id2065G300O5Z).
 
 1.  Search for the `ditaAttributes` definition.
 
@@ -84,4 +84,4 @@ With this configuration, every reference file that you add to a map will contain
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)

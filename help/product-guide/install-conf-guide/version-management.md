@@ -25,7 +25,7 @@ The following tabs provide instructions to enable the **Create new version for u
 
 >[!TAB Cloud Service]
 
-1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
+1.  Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file.
 1.  In the configuration file, provide the following \(property\) details to configure the **Create new version for uploaded file** option:
 
 
@@ -77,7 +77,7 @@ The following tabs provide instructions to configure settings to allow editing o
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure editing of checked out files:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure editing of checked out files:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
@@ -133,7 +133,7 @@ The following tabs provide instructions to allow users to overwrite the file on 
 
 >[!TAB Cloud Service]
 
-1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
+1.  Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file.
 1.  In the configuration file, provide the following \(property\) details to configure the **Overwrite Checked out File on Upload** option:
 
 
@@ -174,7 +174,7 @@ The following tabs provide instructions to prevent users from accidentally delet
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to prevent users from accidentally deleting files that have been checked out:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to prevent users from accidentally deleting files that have been checked out:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
@@ -237,7 +237,7 @@ The following tabs provide instructions to define who can delete a file that con
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to define who can delete a file that contains references or is referenced by other files:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to define who can delete a file that contains references or is referenced by other files:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|

@@ -49,8 +49,8 @@ The migration utility processes assets at an average rate of ~50 ms per asset. T
 
 For detailed steps on migrating your content, refer to the following articles:
 
-- [**4.3.1 non-UUID to 4.3.2 UUID content migration**](../install-guide-merged-merged/migrate-non-uuid-4-3.md)
-- [**4.6.0 Service Pack 4 non-UUID to 4.6.1 UUID content migration**](../install-guide-merged-merged/migrate-non-uuid-uuid-4-6.md)
+- [**4.3.1 non-UUID to 4.3.2 UUID content migration**](../install-guide-merged-merged/non-uuid-4-3.md)
+- [**4.6.0 Service Pack 4 non-UUID to 4.6.1 UUID content migration**](../install-guide-merged-merged/non-uuid-uuid-4-6.md)
 
 
 

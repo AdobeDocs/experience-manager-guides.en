@@ -54,4 +54,4 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)

@@ -15,7 +15,7 @@ The following tabs provide instructions to show the relative path or the UUID of
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to show the relative path or the UUID of the referenced content in the Editor.
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to show the relative path or the UUID of the referenced content in the Editor.
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
@@ -42,4 +42,4 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)

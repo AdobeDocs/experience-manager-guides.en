@@ -95,7 +95,7 @@ Perform the following steps to convert your existing Word documents into DITA to
 
 1.  Navigate to the input folder location \(`wordtodita`\).
 
-1.  Upload the source Word documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](migrate-content-upload-existing-dita-content.md#).
+1.  Upload the source Word documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](upload-dita-content.md#).
 
 
 Using the `config` `/config` block, you can define one or multiple blocks of configurations for conversion. The conversion workflow gets executed and the final output in the form of a DITA topic is saved in the location specified in the `outputDir` element.
@@ -154,7 +154,7 @@ Perform the following steps to convert your existing Word documents into DITA to
 
 1.  Navigate to the input folder location \(`wordtodita`\).
 
-1.  Upload the source Word documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](migrate-content-upload-existing-dita-content.md#).
+1.  Upload the source Word documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](upload-dita-content.md#).
 
 
 Using the `config` `/config` block, you can define one or multiple blocks of configurations for conversion. The conversion workflow gets executed and the final output in the form of a DITA topic is saved in the location specified in the `outputDir` element.
@@ -233,7 +233,7 @@ Perform the following steps to convert your existing InDesign documents into DIT
 
 1.  Navigate to the input folder location \(`indesigntodita`\).
 
-1.  Upload the source InDesign documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](migrate-content-upload-existing-dita-content.md#).
+1.  Upload the source InDesign documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](upload-dita-content.md#).
 
 
 ## Migrate XHTML documents {#id1949B04L0Y4}
@@ -345,7 +345,7 @@ To convert your existing XHTML document into DITA topic, perform the following s
 
 1.  Navigate to the input folder location \(`xhtmltodita`\).
 
-1.  Upload the source XHTML documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](migrate-content-upload-existing-dita-content.md#).
+1.  Upload the source XHTML documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](upload-dita-content.md#).
 
 
 Using the `<config> </config>` block, you can define one or multiple blocks of configurations for conversion. The conversion workflow gets executed and the final output in the form of a DITA topic is saved in the location specified in the `outputDir` element.
@@ -396,7 +396,7 @@ o convert your existing XHTML document into DITA topic, perform the following st
     4.  Save and close the file.
 1.  Navigate to the input folder location \(`xhtmltodita`\).
 
-1.  Upload the source XHTML documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](migrate-content-upload-existing-dita-content.md#).
+1.  Upload the source XHTML documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](upload-dita-content.md#).
 
 
 Using the `<config> </config>` block, you can define one or multiple blocks of configurations for conversion. The conversion workflow gets executed and the final output in the form of a DITA topic is saved in the location specified in the `outputDir` element.
@@ -407,7 +407,7 @@ Using the `<config> </config>` block, you can define one or multiple blocks of c
 
 To convert unstructured Adobe FrameMaker content (.fm and .book) to structured DITA, you can use the FrameMaker's conversion table mechanism. The process focuses on evaluating existing content, using a template‑based approach, and mapping FrameMaker styles to DITA through conversion tables. For more details, view [Migrating technical documentation from unstructured to DITA in Adobe FrameMaker](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/). 
 
-After conversion, the structured content can be migrated into AEM Guides. For more details, view [Upload existing DITA content using WebDAV tool and FrameMaker](./migrate-content-upload-existing-dita-content.md). 
+After conversion, the structured content can be migrated into AEM Guides. For more details, view [Upload existing DITA content using WebDAV tool and FrameMaker](./upload-dita-content.md). 
 
 ## Migrate any other structured document {#id1949B0590YK}
 
@@ -448,7 +448,7 @@ To convert your existing structured documents into DITA format, perform the foll
 
 1.  Navigate to the input folder location \(`xsltodita`\).
 
-1.  Upload the source structured documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](migrate-content-upload-existing-dita-content.md#).
+1.  Upload the source structured documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](upload-dita-content.md#).
 
 
 Using the `<config> </config>` block, you can define one or multiple blocks of configurations for conversion. The conversion workflow gets executed and the final output in the form of a DITA topic is saved in the location specified in the `outputDir` element.
@@ -487,7 +487,7 @@ Using the `<config> </config>` block, you can define one or multiple blocks of c
 
 1.  Navigate to the input folder location \(`xsltodita`\).
 
-1.  Upload the source structured documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](migrate-content-upload-existing-dita-content.md#).
+1.  Upload the source structured documents into this folder. For information on uploading content on DAM, see [Upload existing DITA content](upload-dita-content.md#).
 
 
 Using the `<config> </config>` block, you can define one or multiple blocks of configurations for conversion. The conversion workflow gets executed and the final output in the form of a DITA topic is saved in the location specified in the `outputDir` element.

@@ -17,7 +17,7 @@ Perform the following steps to download and install AEM Guides for the first tim
 
     >[!NOTE]
     >
-    >Before installing Experience Manager Guides, ensure your system meets the [technical requirements](../install-guide-merged/download-install-technical-requirements.md).
+    >Before installing Experience Manager Guides, ensure your system meets the [technical requirements](../install-conf-guide/aemg-technical-requirementss.md).
 
 1.  Log into your AEM instance and navigate to the CRX Package Manager. The default URL to access the package manager is:
 

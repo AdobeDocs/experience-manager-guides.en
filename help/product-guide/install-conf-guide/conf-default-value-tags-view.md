@@ -30,4 +30,4 @@ AEM Guides allows you to configure the default state for the Tags View in the We
 >
 > The user's preference in the Web Editor to enable/disable the Tags View has precedence over this default value. So, if a user enables the Tags View from the Web Editor, it remains enabled even across the sessions.
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)

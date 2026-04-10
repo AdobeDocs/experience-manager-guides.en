@@ -665,7 +665,7 @@ This feature allows you to upload CSS files to style the new extensions uploaded
 
 **XML Editor Configuration**
 
-This setting controls the toolbar and the other user interface elements of the Editor. Select the **Download** icon to download the `ui\_config.json` file on your local system. You can then make changes to the file and the upload the same. Depending upon where you are uploading the file at, global or folder-level profile, the changes are applied accordingly. For more details about how to customize the XML Editor using the `ui\_config.json file`, view [Customize toolbar](conf-web-editor-customize-toolbar.md#).
+This setting controls the toolbar and the other user interface elements of the Editor. Select the **Download** icon to download the `ui\_config.json` file on your local system. You can then make changes to the file and the upload the same. Depending upon where you are uploading the file at, global or folder-level profile, the changes are applied accordingly. For more details about how to customize the XML Editor using the `ui\_config.json file`, view [Customize toolbar](customize-toolbar.md#).
 
 >[!NOTE]
 >
@@ -673,7 +673,7 @@ This setting controls the toolbar and the other user interface elements of the E
 
 >[!TAB On-Premise]
 
-This setting controls the toolbar and the other user interface elements of the Web Editor. Click the **Download** icon to download the latest ui\_config.json file on your local system. You can then make changes to the file and the upload the same. Click the **Download Default**icon to download the default ui\_config.json file on your local system. You can always download the default file, make changes to it, and upload it.Depending upon where you are uploading the file at, global or folder-level profile, the changes are applied accordingly. For more details about how to customize the XML Editor using the ui\_config.json file, see [Customize toolbar](conf-web-editor-customize-toolbar.md#).
+This setting controls the toolbar and the other user interface elements of the Web Editor. Click the **Download** icon to download the latest ui\_config.json file on your local system. You can then make changes to the file and the upload the same. Click the **Download Default**icon to download the default ui\_config.json file on your local system. You can always download the default file, make changes to it, and upload it.Depending upon where you are uploading the file at, global or folder-level profile, the changes are applied accordingly. For more details about how to customize the XML Editor using the ui\_config.json file, see [Customize toolbar](customize-toolbar.md#).
 
 >[!ENDTABS]
 

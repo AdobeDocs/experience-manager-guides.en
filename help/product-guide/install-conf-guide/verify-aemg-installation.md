@@ -50,7 +50,7 @@ Perform the following steps to verify the installation:
 
 >[!IMPORTANT]
 >
-> There are a number of performance optimization recommendations that you can consider to improve your system performance. See [Recommendations for performance optimization](download-install-recommend-perf-optimiz-on-prem.md#) for details.
+> There are a number of performance optimization recommendations that you can consider to improve your system performance. See [Recommendations for performance optimization](perf-optimization-on-prem.md#) for details.
 
 >[!ENDTABS] 
 

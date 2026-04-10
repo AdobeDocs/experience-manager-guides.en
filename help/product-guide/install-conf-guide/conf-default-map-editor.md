@@ -23,7 +23,7 @@ The following tabs provide instructions to make the Advanced Map Editor as the d
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to enable the Basic Map Editor:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to enable the Basic Map Editor:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
@@ -51,4 +51,4 @@ Use the instructions given in [Configuration overrides](download-install-additio
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)

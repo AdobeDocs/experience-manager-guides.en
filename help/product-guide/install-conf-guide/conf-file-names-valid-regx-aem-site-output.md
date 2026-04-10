@@ -15,7 +15,7 @@ The following tabs provide instructions to configure valid file names for AEM Si
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to set valid characters in AEM Site output:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to set valid characters in AEM Site output:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|

@@ -15,7 +15,7 @@ The following tabs provide instructions to configure prompt to check in a file o
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure a prompt to check in a file on close:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure a prompt to check in a file on close:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
@@ -52,4 +52,4 @@ For more details, see *File close and save scenarios* section in the Using Adobe
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)

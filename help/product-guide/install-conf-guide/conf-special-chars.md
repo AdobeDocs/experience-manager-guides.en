@@ -75,4 +75,4 @@ You can define multiple definitions of special characters within a category.
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)

@@ -110,7 +110,7 @@ The following tabs provide instructions to configure the URLs generation in AEM 
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure the URLs generation in AEM Site output:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure the URLs generation in AEM Site output:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
@@ -146,7 +146,7 @@ You can use the document titles in the URL of the AEM Site output. If the filena
 
 To configure the page names, perform the following steps:
 
-1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
+1.  Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file.
 1.  In the configuration file, provide the following (property) details to configure the page names for the topics.
 
 |PID|Property Key|Property Value|
@@ -174,7 +174,7 @@ The following tabs provide instructions to configure the valid special character
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure the valid special characters in filenames and AEM Site output:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure the valid special characters in filenames and AEM Site output:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
@@ -264,7 +264,7 @@ The following tabs provide instructions to flatten AEM Site node structure based
     >
     > By default, the flatten node property has been configured at the `p` element.
 
-1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
+1.  Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file.
 1.  In the configuration file, provide the following \(property\) details:
 
     |PID|Property Key|Property Value|
@@ -365,7 +365,7 @@ The following tabs provide instructions to stop the creation of a version for th
 
 >[!TAB Cloud Service]
 
-1.  Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file.
+1.  Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file.
 1.  In the configuration file, provide the following \(property\) details to configure the **Do Not Create Version for Deleted Pages** option:
 
     |PID|Property Key|Property Value|

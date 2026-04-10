@@ -15,7 +15,7 @@ The following tabs provide instructions to open DITA topic or map file in the sa
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to open a topic or map file in a new tab:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to open a topic or map file in a new tab:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
@@ -51,4 +51,4 @@ This setting impacts the following places from where you can access the topic or
 
 -   Reports tab in the DITA map console
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)

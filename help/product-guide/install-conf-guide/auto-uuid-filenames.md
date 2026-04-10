@@ -16,7 +16,7 @@ The following tabs provide instructions to configure auto-filenames based on UUI
 
 >[!TAB Cloud Service]
 
-Use the instructions given in [Configuration overrides](download-install-additional-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure auto-filenames based on UUID:
+Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following \(property\) details to configure auto-filenames based on UUID:
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|

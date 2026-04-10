@@ -17,7 +17,7 @@ You can upgrade your current version of Experience Manager Guides to version 5.1
 
 - If you are using version 5.1.0, or 5.1.x , then you can directly upgrade to version 5.1.0 Service Pack 3. 
 - If you are using version 4.6.0, 4.6.x, 5.0.0, or 5.0.x, then you need to upgrade to version 5.1.0.
-- If you are on a version prior to 4.6.0, refer to [Upgrade Adobe Experience Manager Guides for version 4.4.0 and earlier](./upgrade-xml-documentation-prev-versions.md) for detailed upgrade instructions. 
+- If you are on a version prior to 4.6.0, refer to [Upgrade Adobe Experience Manager Guides for version 4.4.0 and earlier](./upgrade-aemg-prev-versions.md) for detailed upgrade instructions. 
 
 >[!NOTE]
 >

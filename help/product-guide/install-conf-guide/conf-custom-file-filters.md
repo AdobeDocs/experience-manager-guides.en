@@ -120,4 +120,4 @@ The following tabs provide instructions to add your custom file filtering option
 >[!ENDTABS]
 
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)

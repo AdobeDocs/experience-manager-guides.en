@@ -11,7 +11,7 @@ This article provides instructions to upgrade **Adobe Experience Manager Guides*
 
 If you are on a version **prior to 3.8.5**, refer to the **Upgrade Experience Manager Guides** section in the product‑specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
-For upgrade instructions for newer releases, refer to [Upgrade Adobe Experience Manager Guides for version 4.6.0 and above](./upgrade-xml-documentation.md). 
+For upgrade instructions for newer releases, refer to [Upgrade Adobe Experience Manager Guides for version 4.6.0 and above](./upgrade-aemg-latest-version.md). 
 
 ## Before you begin
 

@@ -352,4 +352,4 @@ The following tabs provide instructions to remove any unwanted feature from the 
 >[!ENDTABS]
 
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Web Editor](customize-overview.md)
