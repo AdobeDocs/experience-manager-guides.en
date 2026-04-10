@@ -655,7 +655,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Configure Translation feature in the Web Editor for Cloud Service](./install-conf-guide/conf-translation-editor.md)
       - [Editor setting for On-Premise] {#editor-on-prem-settings}
           - [Configure the option to edit in Oxygen for On-Premise](./install-conf-guide/conf-edit-in-oxygen.md)
-          - [Configure additional special characters for On-Premise](/help/product-guide/web-editor/configure-additional-special-characters.md)
+          - [Configure additional special characters for On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
           - [Configure the title for Check in and Check out icons for On-Premise](./install-conf-guide/conf-checkin-checkout-title.md)
           - [Configure the number of LimitReads for a query for On-Premise](./install-conf-guide/conf-query-limitreads.md)
       - [Data source connector] {#data-source}
@@ -684,19 +684,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Overlay HTML tags in AEM Sites output for On-Premise](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
         - [Configure valid file names for AEM Site output](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
       - Native PDF Publishing {#config-native-pdf-publish}
-        - [PDF Template](/help/product-guide/native-pdf/pdf-template.md)
-        - [Components of a PDF Template](./native-pdf/components-pdf-template.md)
-        - [Design a page layout](./native-pdf/design-page-layout.md)
-        - [Variables in the PDF output](./native-pdf/native-pdf-variables.md)
-        - [Support for language variables](./native-pdf/native-pdf-language-variables.md)
-        - [Add a barcode to the PDF output](./native-pdf/add-barcode.md)
-        - Common content styles {#content-styles}
-          - [Work with the common content styles](./native-pdf/stylesheet.md)
-          - [Work with custom change bars styles](./native-pdf/change-bar-style.md)
-          - [Apply custom style on TOC entries and topic content](./native-pdf/custom-style-toc.md)
-          - [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
-          - [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
-          - [Apply styles to footnotes](./native-pdf/footnote-number-style.md)
+        - [Native PDF Publishing templates and content styles](./install-conf-guide/template-content-styles.md)
         - [Configure Node process for Native PDF Publishing for Cloud Service](./native-pdf/conf-node-options-cs.md) 
         - [Configure JVM flags for Native PDF Publishing for On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
       - Configure content and experience fragments for Cloud Service {#conf-content-exp-fragment}  
