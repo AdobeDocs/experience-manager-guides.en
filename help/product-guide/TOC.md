@@ -387,6 +387,200 @@ breadcrumb-title: AEM Guides Documentation
         - [Session timeout](./user-guide/session-timeout-prompt.md)
 - User Guide (Old UI) {#user-guide-old-ui}
   - [AEM Guides overview](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- Installation and configuration {#install-guide}
+  - On-premise {#on-prem-ig}
+    - [On-premise basics](./install-guide/introduction.md)
+    - Download, install, and upgrade {#download-install-upgrade-aemg}
+      - [Download and installation overview](./install-guide/download-install.md)
+      - [Technical requirements](./install-guide/download-install-technical-requirements.md)
+      - [Install Adobe Experience Manager](./install-guide/download-install-aem.md)
+      - [Download and install AEM Guides for the first time](./install-guide/download-install-aemg-first-time.md)
+      - [Configure Dispatcher](./install-guide/download-install-configure-dispatcher.md)
+      - [Verify AEM Guides installation](./install-guide/download-install-verify-aemg-installation.md)
+      - [Upgrade AEM Guides](./install-guide/upgrade-xml-documentation.md)
+      - [Uninstall AEM Guides](./install-guide/download-install-unistall-aemg.md)
+      - [Recommendations for performance optimization](./install-guide/download-install-recommend-perf-optimiz.md)
+    - Work with user groups and security {#user-group-sec}
+      - [User administration and security](./install-guide/user-admin-sec.md)
+    - Content migration {#content-migration}
+      - [Non-UUID to UUID content migration](./install-guide/migrate-uuid-non-uuid.md)
+      - Migration process {#migration-process}
+          - [4.3.1 non-UUID to 4.3.2 UUID content migration](./install-guide/migrate-non-uuid-4-3.md)
+          - [4.6.0 non-UUID to 4.6.1 UUID content migration](./install-guide/migrate-non-uuid-uuid-4-6.md) 
+      - [Migrate existing content](./install-guide/migrate-content.md)
+      - [Upload existing DITA content](./install-guide/migrate-content-upload-existing-dita-content.md)
+      - [Migrate non-DITA content](./install-guide/migrate-content-non-dita.md)
+    - Work with custom DITA-OT and specialization {#custom-dita-ot-spec}
+      - [Use custom DITA-OT and DITA specialization](./install-guide/dita-ot-specialization.md)
+    - [Configure post processing for a folder](./install-guide/conf-folder-post-processing.md)
+    - [Configure filenames](./install-guide/conf-file-names.md)
+    - [Configure auto-filenames based on UUID](./install-guide/conf-auto-uuid-filenames.md)
+    - [Configure Regx for valid file name characters](./install-guide/conf-file-names-valid-regx.md)
+    - [Configure valid file names for AEM Site output](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+    - Work with topic and map templates {#topic-map-template}
+      - [Configure topic and map templates](./install-guide/conf-template-tags.md)
+      - [Configure custom DITA topic template](./install-guide/conf-template-tags-custom-dita-topic-template.md)
+      - [Configure custom DITA map template](./install-guide/conf-template-tags-custom-dita-map-templates.md)
+    - Work with document states {#doc-state}
+      - [Configure document states](./install-guide/customize-doc-state.md)
+    - Editor settings {#editor-configs}
+      - [Configure Editor settings](./install-guide/editor-settings.md)   
+    - Work with the Web Editor configurations {#web-editor-configs}
+      - [Customize Web Editor](./install-guide/conf-web-editor.md)
+      - [Customize toolbar](./install-guide/conf-web-editor-customize-toolbar.md)
+      - [Configure default value for the Tags View](./install-guide/configure-default-value-tags-view.md)
+      - [Configure the title for Check in and Check out icons](./install-guide/conf-checkin-checkout-title.md)
+      - [Configure display of UUID-based links](./install-guide/conf-uuid-based-links.md)
+      - [Open DITA topic or map files in same tab](./install-guide/open-dita-files-same-tab.md)
+      - [Configure a custom panel in the left panel](./install-guide/configure-custom-panel.md)
+      - [Configure file auto-save in the Web Editor](./install-guide/auto-save-in-editor.md)
+      - [Configure filters for file browse dialog](./install-guide/conf-custom-file-filters.md)
+      - [Configure prompt to save as a new version on close](./install-guide/conf-save-as-new-version-close.md)
+      - [Configure prompt to check in a file on close](./install-guide/conf-checkin-file-close.md)
+      - [Configure allowed special characters](./install-guide/conf-special-chars.md)
+      - [Auto-generate element IDs](./install-guide/auto-generate-ids.md)
+      - [Customize AEM's default dictionary](./install-guide/customize-aem-custom-dictionary.md)
+      - [Configure text filters](./install-guide/config-text-filters.md)
+      - [Configure the number of LimitReads for a query](./install-guide/conf-query-limitreads.md)
+      - [Install packages for Article-based publishing](./install-guide/configure-article-based-publishing.md)
+      - [Configure a data source connector from the user interface](./install-guide/conf-data-source-connector-tools.md)
+      - [Set the Advanced Map Editor as default](./install-guide/conf-map-editor.md)
+      - [Include @navtitle attribute by default](./install-guide/auto-add-navtitle.md)
+      - [Configure the option to edit in Oxygen](./cs-install-guide/conf-edit-in-oxygen.md)
+      - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)
+    - Work with global and folder-level profiles {#global-folder-profiles}
+      - [Configure global or folder-level profiles](./install-guide/conf-folder-level.md)
+    - Configure versions {#version-mgt}
+      - [Version management](./install-guide/version-management.md)
+    - Work with desktop-based XML editors {#desktop-xml-editor}
+      - [Integrate desktop-based XML editors](./install-guide/integrate-desktop-editors.md)
+    - Work with output generation settings {#output-gen-config}
+      - [Configure output generation settings](./install-guide/conf-output-generation.md)
+      - [Download and install AEM Sites templates](./install-guide/download-install-aem-sites-templates.md)
+      - [Component mapping for AEM Sites](./install-guide/component-mapping.md)
+      - [Overlay HTML tags in AEM Sites output](./install-guide/overlay-html-tags-aem-sites.md)
+      - Native PDF Publishing {#config-native-pdf-publish}
+        - [PDF Template](./native-pdf/pdf-template.md)
+        - [Components of a PDF Template](./native-pdf/components-pdf-template.md)
+        - [Design a page layout](./native-pdf/design-page-layout.md)
+        - [Variables in the PDF output](./native-pdf/native-pdf-variables.md)
+        - [Support for language variables](./native-pdf/native-pdf-language-variables.md)
+        - [Add a barcode to the PDF output](./native-pdf/add-barcode.md)
+        - Common content styles {#content-styles}
+          - [Work with the common content styles](./native-pdf/stylesheet.md)
+          - [Work with custom change bars styles](./native-pdf/change-bar-style.md)
+          - [Apply custom style on TOC entries and topic content](./native-pdf/custom-style-toc.md)
+          - [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
+          - [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
+          - [Apply styles to footnotes](./native-pdf/footnote-number-style.md)
+      - [Configure JVM flags for Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
+      - [Configure Base Output Location for publishing output](./native-pdf/configure-base-output-location.md)
+      - [Configure and customize workflows](./install-guide/customize-workflows.md)
+    - Work with translation configurations {#translate-config}
+      - [Translate content](./install-guide/translation.md)
+    - Work with AEM Assets search {#aem-asset-search}
+      - [Configure search for AEM Assets UI](./install-guide/conf-dita-search.md)
+    - Work with Asset processing {#asset-processing-on-prem}
+      - [Configure asset processing feature](./install-guide/configure-asset-processing.md) 
+    - Work with B-tree cleanup{#btree-cleanup}
+      - [Configure B-tree cleanup ](./install-guide/configure-btree-clean-up-job.md)
+    - Custom indexing{#custom-indexing}
+      - [Deploying custom index for Find and replace (Source view)](./install-guide/custom-indexing-prem.md)
+    - Work with DITA assets replication{#dita-assets-replication}
+      - [Configure DITA assets replication](./install-guide/configure-dita-asset-replication.md)     
+    - [Appendix](./install-guide/appendix.md)
+  - Cloud Services {#cs-ig}
+    - [About this guide](./cs-install-guide/introduction.md)
+    - Deploy and configure AEM Guides as Cloud Service {#deploy-conf-aemg-cs}
+      - [Download and install](./cs-install-guide/download-install.md)
+      - [Deploy AEM Guides module](./cs-install-guide/download-install-dxml-first-time.md)
+      - [Configure Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
+      - [Verify AEM Guides installation](./cs-install-guide/download-install-verify-dxml-installation.md)
+      - [Upgrade AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
+      - [Additional configuration for upgrading AEM Guides as Cloud Service](./cs-install-guide/additional-config-for-cloud-service.md)
+      - [Configuration overrides](./cs-install-guide/download-install-additional-config-override.md)
+      - [Recommendations for performance optimization](./cs-install-guide/download-install-recommend-perf-optimiz.md)
+    - Work with user groups and security {#user-group-sec-cs}
+      - [User administration and security](./cs-install-guide/user-admin-sec.md)
+    - Content migrate {#migrate-con-cs}
+      - [Migrate existing content](./cs-install-guide/migrate-content.md)
+      - [Upload existing DITA content](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
+      - [Migrate non-DITA content](./cs-install-guide/migrate-content-non-dita.md)
+      - [Migrate content from On-premise to Cloud Service](./cs-install-guide/migrate-on-premise-content-cloud.md)
+    - Work with custom DITA-OT and specialization {#custom-dita-ot-spec-cs}
+      - [Use custom DITA-OT and DITA specialization](./cs-install-guide/dita-ot-specialization.md)
+    - Configure UUID and non-UUID based filenames {#conf-non-uuid-filename-cs}
+      - [Configure post processing for a folder](./cs-install-guide/conf-folder-post-processing.md)
+      - [Configure filenames](./cs-install-guide/conf-file-names.md)
+      - [Configure auto-filenames based on UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
+      - [Configure Regx for valid file name characters](./cs-install-guide/conf-file-names-valid-regx.md)
+      - [Configure valid file names for AEM Site output](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
+    - Work with topic and map templates {#topic-map-template-cs}
+      - [Configure topic and map templates](./cs-install-guide/conf-template-tags.md)
+      - [Configure custom DITA topic template](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
+      - [Configure custom DITA map template](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
+    - Work with document states {#doc-state-cs}
+      - [Configure document states](./cs-install-guide/customize-doc-state.md)
+      - [Configure document state filters](./cs-install-guide/config-doc-state-filters.md)
+    - Configure Workspace settings {#workspace-configs}
+      - [Workspace settings](./cs-install-guide/workspace-settings.md)  
+    - Work with the Web Editor configurations {#web-editor-configs-cs}
+      - [Customize Web Editor](./cs-install-guide/conf-web-editor.md)
+      - [Customize toolbar](./cs-install-guide/conf-web-editor-customize-toolbar.md)
+      - [Configure the AI-powered smart suggestions for authoring](./cs-install-guide/conf-smart-suggestions.md)      
+      - [Configure the AI-powered Smart Help to search content](./cs-install-guide/conf-smart-help.md)
+      - [Configure default value for the Tags View](./cs-install-guide/configure-default-value-tags-view.md)
+      - [Configure display of UUID-based links](./cs-install-guide/conf-uuid-based-links.md)
+      - [Configure display of pasted tables](./cs-install-guide/conf-pasted-tables.md) 
+      - [Open DITA topic or map files in same tab](./cs-install-guide/open-dita-files-same-tab.md)
+      - [Configure a custom panel in the left panel](./cs-install-guide/configure-custom-panel.md)
+      - [Configure file auto-save in the Web Editor](./cs-install-guide/auto-save-in-editor.md)
+      - [Configure prompt to save as a new version on close](./cs-install-guide/conf-save-as-new-version-close.md)
+      - [Configure prompt to check in a file on close](./cs-install-guide/conf-checkin-file-close.md)
+      - [Configure allowed special characters](./cs-install-guide/conf-special-chars.md)
+      - [Auto-generate element IDs](./cs-install-guide/auto-generate-ids.md)
+      - [Customize AEM's default dictionary](./cs-install-guide/customize-aem-custom-dictionary.md)
+      - [Configure text filters](./cs-install-guide/config-text-filters.md)
+      - [Configure filters for file browse dialog](./cs-install-guide/conf-custom-file-filters.md)
+      - [Install packages for Article-based publishing](./cs-install-guide/configure-article-based-publishing.md)
+      - [Configure single topic PDF generation](./cs-install-guide/conf-pdf-generation-dita-ot.md)
+      - [Configure Translation feature in the Web Editor](./cs-install-guide/conf-translation-web-editor.md)
+      - [Configure a data source connector](./cs-install-guide/conf-data-source-connector.md)
+      - [Configure a data source connector from the user interface](./cs-install-guide/conf-data-source-connector-tools.md)
+      - [Set the Advanced Map Editor as default](./cs-install-guide/conf-map-editor.md)
+      - [Include @navtitle attribute by default](./cs-install-guide/auto-add-navtitle.md)
+    - Work with global and folder-level profiles {#global-folder-profiles-cs}
+      - [Configure global or folder-level profiles](./cs-install-guide/conf-folder-level.md)
+    - Configure versions {#version-mgt-cs}
+      - [Version management](./cs-install-guide/version-management.md)
+    - Work with desktop-based XML editors {#desktop-xml-editor}
+      - [Integrate desktop-based XML editors](./cs-install-guide/integrate-desktop-editors-cs.md)
+    - Configure Workfront {#configure-workfront-cs}
+      - [Configure Workfront](./cs-install-guide/conf-workfront.md)
+    - Work with output generation settings {#output-gen-config-cs}
+      - [Configure output generation settings](./cs-install-guide/conf-output-generation.md)
+      - [Download and install AEM Sites templates](./cs-install-guide/download-install-aem-sites-templates-cs.md)
+      - [Component mapping for AEM Sites](./cs-install-guide/component-mapping.md)
+      - [Native PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
+      - [Configure Node process for Native PDF Publishing](./native-pdf/configure-node-options.md)
+      - [Create a mapping between a topic and a content fragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
+      - [Create a mapping between a topic and an experience fragment](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
+      - [Configure Base Output Location for publishing output](./native-pdf/configure-base-location-cs.md)
+    - Work with custom workflows {#custom-workflow-cs}
+      - [Configure and customize workflows](./cs-install-guide/customize-workflows.md)
+    - Work with translation configurations {#translate-config-cs}
+      - [Translate content](./cs-install-guide/translation.md)
+    - Work with AEM Assets search {#aem-asset-search-cs}
+      - [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
+    - Work with Asset processing {#asset-processing-cloud}
+      - [Configure asset processing feature](./cs-install-guide/configure-asset-processing-cs.md)
+    - Work with B-tree cleanup {#btree-cleanup-cs}
+      - [Configure B-tree cleanup](./cs-install-guide/configure-btree-cleanup-cs.md)   
+    - Custom indexing {#custom-indexing-cs}
+      - [Deploying custom index for Find and replace (Source view)](./cs-install-guide/custom-indexing.md) 
+    - Work with DITA assets replication {#dita-assets-replication-cs}
+      - [Configure DITA assets replication](./cs-install-guide/configure-dita-assets-replication.md)       
+    - [Appendix](./cs-install-guide/appendix.md)  
 - Installation and configuration {#install-conf-guide}
     - [Download, Install, and Upgrade](./install-conf-guide/introduction.md)
     - Installation process for Cloud Service {#deploy-conf-aemg-cs}
