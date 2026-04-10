@@ -1,16 +1,16 @@
 ---
 title: Native PDF | Configure Node process for Native PDF Publishing
 description: Learn how to configure Node process for Native PDF Publishing
-exl-id: f470939b-a5cb-4d28-92d1-7a0a52c4c637
 feature: Output Generation
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
-# Configure Node Process for Native PDF Publishing
+# Configure Node Process for Native PDF Publishing for Cloud Service
 
 Native PDF publishing starts a separate NodeJs process to convert the files generated in the publishing process to a final PDF. You might have to tweak the configurations of this Node process running Native PDF publishing to support different scenarios. For example, to run larger workloads you should increase the maximum heap size available to the spawned NodeJs process.
 
-Use the instructions given in [Configuration overrides](../cs-install-guide/download-install-additional-config-override.md) to create the configuration file.In the configuration file, provide the following (property) details:
+Use the instructions given in [Configuration overrides](../install-conf-guide/download-install-config-override.md) to create the configuration file.In the configuration file, provide the following (property) details:
 
 |PID|Property Key|Property Value|
 |---|---|---|

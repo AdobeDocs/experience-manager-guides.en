@@ -5,6 +5,7 @@ exl-id: ab155879-4472-464d-ab25-6075088d718b
 feature: Document State
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Configure document states {#id181GB0400UI}
 

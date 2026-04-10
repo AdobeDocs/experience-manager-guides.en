@@ -5,6 +5,7 @@ exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Apply footnote styles
 
@@ -74,7 +75,7 @@ The footnote call is hidden in the main content, but the footnote marker appears
 
 ```css
 .fn[id]::footnote-call {
-		display: none;
+        display: none;
                         }
 ```
 
@@ -94,13 +95,13 @@ Learn about how to [work with the page properties of a page layout](./design-pag
  You can apply styles and format the footnote area in a PDF document. For example, you can change the border length, style, color, and width. 
 
  ```css
-	@page {
-	  @footnote {
-    		border-top-style: solid;
-    		border-top-color: #FF0000;
-    		border-top-width: 3px;
-  		        }
-	      }
+    @page {
+      @footnote {
+            border-top-style: solid;
+            border-top-color: #FF0000;
+            border-top-width: 3px;
+                  }
+          }
 
  ```
 
@@ -132,7 +133,7 @@ Typically, each footnote appears as a block or begins on a new line. But you can
 
 ```css
 .fn{
-  	display: inline;
+      display: inline;
               }
 ```
 
@@ -153,8 +154,8 @@ Using CSS styles, you can also format the cross-references to footnotes. For exa
 
 ```css
     .xref-fn{
-	background-color: red;
-	}
+    background-color: red;
+    }
 ```
 
 

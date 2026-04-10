@@ -5,6 +5,7 @@ exl-id: ecffcd14-6728-4938-a209-5c4b12af6fbb
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Customize AEM's default dictionary {#id209SD8000WU}
 

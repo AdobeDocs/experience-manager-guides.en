@@ -5,6 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 219a096f-4087-489f-9b3b-104864817198
+hidefromtoc: yes
 ---
 # Configure asset processing feature 
 

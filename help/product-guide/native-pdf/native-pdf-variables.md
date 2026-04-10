@@ -5,6 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
+hidefromtoc: yes
 ---
 # Variables in the PDF output
 
@@ -31,7 +32,7 @@ Perform the following steps to create a variable:
 
    >[!NOTE]
    >
-   >If you don’t select **Add variable** <img alt= "Add icon" src="./assets/add-icon.svg" width="25">, the variable is not created and added to the list.
+   >If you don't select **Add variable** <img alt= "Add icon" src="./assets/add-icon.svg" width="25">, the variable is not created and added to the list.
 
 In this way, you can create variables with default values. For example: 
 * ProductName: Experience Manager Guides
@@ -68,7 +69,7 @@ You need to save any changes you make from the **Variables** editor to view them
 You can search and preview the value of a variable. Enter a string in the search box of the **Variables** panel. It searches both based on the variable name and its value. 
 You can preview a variable in two ways:
 
-The preview of the variable displays the default value. For example, if you have defined the default value of the ProductName variable as “Adobe Experience Manager Guides”, it displays this value in the preview.
+The preview of the variable displays the default value. For example, if you have defined the default value of the ProductName variable as "Adobe Experience Manager Guides", it displays this value in the preview.
 
 **From the Variables panel on the left side**
 
@@ -93,7 +94,7 @@ You can duplicate a variable and modify the value according to your requirements
 1. Hover over the variable in the list to view the **Options** menu.
 1. Select **Duplicate**.
 
-The default name of the variable is `<selected variable name>` (like “sample”). You can change the name according to your requirements.
+The default name of the variable is `<selected variable name>` (like "sample"). You can change the name according to your requirements.
 
 ### Delete a variable
 
@@ -150,7 +151,7 @@ For example, you can set the following values for the variable sets, *Adobe-set1
 Every new variable is added to all variable sets. When you delete or duplicate a variable, it's updated for all variable sets.
 
 You can also preview the values for a variable set.
-For example, for the variable set *Adobe-Set1*, you have defined the value of the ProductName variable as “ProductA”, then it displays this value in the preview in the Variables editor .
+For example, for the variable set *Adobe-Set1*, you have defined the value of the ProductName variable as "ProductA", then it displays this value in the preview in the Variables editor .
 
  ![variable preview from the variables editor](assets/variables-editor-preview.png){width="550" align="left"}
 
@@ -164,7 +165,7 @@ For example, you can reset the value for the ProductName variable to the default
 
 ## Use variables in the Native PDF templates
 
-You can add variables while you generate the output of your product documents to make them portable and easy to update. You can insert these variables within the page layout that appears across the different pages in your documents. For example, you can add the variable ProductName that appears in the page layout’s header area (or any other part like the footer or body).
+You can add variables while you generate the output of your product documents to make them portable and easy to update. You can insert these variables within the page layout that appears across the different pages in your documents. For example, you can add the variable ProductName that appears in the page layout's header area (or any other part like the footer or body).
 
 
 

@@ -5,6 +5,7 @@ exl-id: 7ff4305f-71bb-4155-b8e5-911cea6f0ad9
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Configure allowed special characters {#id20CIL600035}
 

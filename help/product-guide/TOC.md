@@ -578,13 +578,135 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure search for AEM Assets UI](./cs-install-guide/conf-dita-search.md)
     - Work with Asset processing {#asset-processing-cloud}
       - [Configure asset processing feature](./cs-install-guide/configure-asset-processing-cs.md)
-    - Work with B-tree cleanup{#btree-cleanup-cs}
+    - Work with B-tree cleanup {#btree-cleanup-cs}
       - [Configure B-tree cleanup](./cs-install-guide/configure-btree-cleanup-cs.md)   
-    - Custom indexing{#custom-indexing-cs}
+    - Custom indexing {#custom-indexing-cs}
       - [Deploying custom index for Find and replace (Source view)](./cs-install-guide/custom-indexing.md) 
-    - Work with DITA assets replication{#dita-assets-replication-cs}
-      - [Configure DITA assets replication](./cs-install-guide/configure-dita-assets-replication.md)    
-    - [Appendix](./cs-install-guide/appendix.md)     
+    - Work with DITA assets replication {#dita-assets-replication-cs}
+      - [Configure DITA assets replication](./cs-install-guide/configure-dita-assets-replication.md)       
+    - [Appendix](./cs-install-guide/appendix.md)  
+- Installation and configuration {#install-conf-guide}
+    - [Download, Install, and Upgrade](./install-conf-guide/introduction.md)
+    - Installation process for Cloud Service {#deploy-conf-aemg-cs}
+      - [Deployment and dispatcher configuration](./install-conf-guide/conf-deployment-dispatcher-cs.md)
+    - Installation process for On-Premise {#deploy-conf-aemg-on-prem}
+      - [Technical requirements](./install-conf-guide/aemg-technical-requirements.md)
+      - [Install Adobe Experience Manager](./install-conf-guide/download-install-aem.md)
+      - [Download and install AEM Guides for the first time](./install-conf-guide/download-install-aemg-first-time.md)
+      - [Configure Dispatcher](./install-conf-guide/conf-dispatcher.md)
+      - [Uninstall AEM Guides](./install-conf-guide/unistall-aemg.md)
+    - [Verify AEM Guides installation](./install-conf-guide/verify-aemg-installation.md)
+    - Upgrade AEM Guides {#upgrade-aemg}
+      - Cloud Service {#cloud-service}
+        - [Upgrade AEM Guides Cloud Service](./install-conf-guide/download-install-upgrade-aemg.md)
+        - [Additional configuration for upgrading AEM Guides as Cloud Service](./install-conf-guide/additional-config-for-upgrade.md)
+        - [Configuration overrides for Cloud Service](./install-conf-guide/download-install-config-override.md)
+      - On-Premise {#on-prem}
+        - [Upgrade AEM Guides On-Premise 4.6.0 and above](./install-conf-guide/upgrade-aemg-latest-version.md)              
+        - [Upgrade AEM Guides On-Premise earlier versions](./install-conf-guide/upgrade-aemg-prev-versions.md)    
+    - Recommendations for performance optimization {#performance-optimization-aemg}
+      - [Performance optimization for Cloud Service](./install-conf-guide/perf-optimization-cs.md)
+      - [Performance optimization for On-Premise](./install-conf-guide/perf-optimization-on-prem.md)         
+    - Content migrate {#migrate-content-cs}
+      - [Migrate existing content](./install-conf-guide/migrate-content.md)
+      - [Upload existing DITA content using Framemaker and WebDav tool (On-Prem)](./install-conf-guide/upload-dita-content.md)
+      - [Use Curl command to upload DITA content](./install-conf-guide/use-curl-command.md)
+      - [Configure UUID file pattern](./install-conf-guide/conf-uuid-filename-pattern.md)
+      - [Migrate non-DITA content](./install-conf-guide/non-dita-content.md)
+      - [Migrate content from On-premise to Cloud Service](./install-conf-guide/migrate-on-premise-content-cloud.md)      
+      - Migration process for On-premise {#migration-process-on-prem}
+          - [Non-UUID to UUID content migration](./install-conf-guide/uuid-non-uuid.md)
+          - [4.3.1 non-UUID to 4.3.2 UUID content migration](./install-conf-guide/non-uuid-4-3.md)
+          - [4.6.0 non-UUID to 4.6.1 UUID content migration](./install-conf-guide/non-uuid-uuid-4-6.md) 
+    - Custom DITA-OT and specialization {#custom-dita-ot-cs}
+      - [Use custom DITA-OT and DITA specialization](./install-conf-guide/dita-ot-specialization.md)
+    - User groups and security {#user-group-sec-cs}
+      - [User management](./install-conf-guide/user-admin-sec.md)
+    - System settings {#aemg-system-settings}
+      - Configure UUID and non-UUID based filenames {#conf-filename}
+        - [Configure filenames](./install-conf-guide/conf-file-names-overview.md)
+        - [Configure auto-filenames based on UUID](./install-conf-guide/auto-uuid-filenames.md)
+        - [Configure Regx for valid file name characters](./install-conf-guide/file-names-valid-regx.md) 
+      - Asset processing {#asset-processing}
+        - [Configure asset processing feature](./install-conf-guide/conf-asset-processing.md)
+        - [Configure post processing for a folder](./install-conf-guide/conf-folder-post-processing.md)
+      - [Version management](./install-conf-guide/version-management.md) 
+      - [Configure B-tree cleanup](./install-conf-guide/conf-btree-cleanup.md) 
+      - [Configure DITA assets replication](./install-conf-guide/conf-dita-asset-replication.md)  
+    - Editor configurations {#editor-configs}
+      - [Customize Editor](./install-conf-guide/customize-overview.md)
+      - [Customize toolbar](./install-conf-guide/customize-toolbar.md)
+      - [Configure a custom panel in the left panel](./install-conf-guide/conf-custom-panel.md)
+      - [Configure default value for the Tags View](./install-conf-guide/conf-default-value-tags-view.md)
+      - [Auto-generate element IDs](./install-conf-guide/auto-generate-element-ids.md)
+      - [Include @navtitle attribute by default](./install-conf-guide/auto-add-navtitle.md)
+      - [Configure display of UUID-based links](./install-conf-guide/conf-uuid-based-links.md)
+      - [Open DITA topic or map files in same tab](./install-conf-guide/open-dita-files-same-tab.md)
+      - [Set the Advanced Map Editor as default](./install-conf-guide/conf-default-map-editor.md) 
+      - [Configure file auto-save in the Web Editor](./install-conf-guide/conf-auto-save-in-editor.md)
+      - [Configure prompt to save as a new version on close](./install-conf-guide/conf-save-as-new-version-close.md)
+      - [Configure prompt to check in a file on close](./install-conf-guide/conf-checkin-file-close.md)
+      - [Configure allowed special characters](./install-conf-guide/conf-special-chars.md)
+      - [Customize AEM's default dictionary](./install-conf-guide/customize-aem-default-dictionary.md)
+      - [Configure text filters](./install-conf-guide/conf-text-filters.md)
+      - [Configure filters for file browse dialog](./install-conf-guide/conf-custom-file-filters.md)          
+      - [Install packages for Article-based publishing](./install-conf-guide/conf-article-based-publishing.md)
+      - Editor setting for Cloud Service {#editor-cloud-settings}
+          - [Configure the AI-powered smart suggestions for authoring for Cloud Service](./install-conf-guide/conf-smart-suggestions.md)      
+          - [Configure the AI-powered Smart Help to search content for Cloud Service](./install-conf-guide/conf-smart-help.md)
+          - [Configure the option to edit in Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
+          - [Configure display of pasted tables for Cloud Service](./install-conf-guide/conf-pasted-tables.md) 
+          - [Configure single topic PDF generation for Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
+          - [Configure Translation feature in the Web Editor for Cloud Service](./install-conf-guide/conf-translation-editor.md)
+      - Editor setting for On-Premise {#editor-on-prem-settings}
+          - [Configure additional special characters for On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
+          - [Configure the title for Check in and Check out icons for On-Premise](./install-conf-guide/conf-checkin-checkout-title.md)
+          - [Configure the number of LimitReads for a query for On-Premise](./install-conf-guide/conf-query-limitreads.md)
+      - Data source connector {#data-source}
+          - [Configure a data source connector from the user interface](./install-conf-guide/conf-data-source-connector-tools.md)
+          - [Configure a data source connector for Cloud Service](./install-conf-guide/conf-data-source-connector-cs.md)
+    - Global and folder-level profiles {#global-folder-profiles}
+      - [Configure global or folder-level profiles](./install-conf-guide/conf-profiles.md) 
+    - Topic and map templates {#topic-map-template}
+      - [Configure topic and map templates](./install-conf-guide/conf-template-tags.md)
+      - [Configure custom DITA topic template](./install-conf-guide/conf-template-tags-custom-dita-topic-template.md)
+      - [Configure custom DITA map template](./install-conf-guide/conf-template-tags-custom-dita-map-templates.md)
+    - Document states {#doc-state}
+      - [Configure document states](./install-conf-guide/customize-doc-state.md)  
+      - [Configure document state filters for Cloud Service](./install-conf-guide/conf-doc-state-filters.md)  
+    - Configure Workspace settings {#workspace-configs}
+      - [Workspace settings](./install-conf-guide/workspace-settings.md)   
+    - AEM Assets search {#aem-asset-search}
+      - [Configure search for AEM Assets UI](./install-conf-guide/conf-dita-search.md)   
+    - Output generation settings {#output-gen-config}  
+      - [Configure output generation settings](./install-conf-guide/conf-output-generation.md) 
+      - Configure AEM Site output settings {#conf-aem-sites-output}
+        - [Download and install AEM Sites templates](./install-conf-guide/download-install-aem-sites-templates.md)
+        - [General instructions to customize existing AEM Site templates](./install-conf-guide/customize-existing-site-template.md)
+        - [Customize new AEM Site output](./install-conf-guide/customize-aem-site-output.md)
+        - [Customize DITA element mapping with AEM components for legacy AEM Site output](./install-conf-guide/customize-dita-element-mapping-aem-components.md)        
+        - [Overlay HTML tags in AEM Sites output for On-Premise](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
+        - [Configure valid file names for AEM Site output](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - Native PDF Publishing {#config-native-pdf-publish}
+        - [Native PDF Publishing templates and content styles](./install-conf-guide/template-content-styles.md)
+        - [Configure Node process for Native PDF Publishing for Cloud Service](./native-pdf/conf-node-options-cs.md) 
+        - [Configure JVM flags for Native PDF Publishing for On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
+      - Configure content and experience fragments for Cloud Service {#conf-content-exp-fragment}  
+        - [Create a mapping between a topic and a content fragment](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
+        - [Create a mapping between a topic and an experience fragment](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+    - Workflow customization {#workflow}
+      - [Configure and customize workflows](./install-conf-guide/conf-customize-workflows.md)  
+    - Integrations {#aemg-integrations}
+      - [Integrate desktop-based XML editors](./install-conf-guide/integrate-desktop-editors.md)
+      - [Configure Workfront for Cloud Service](./install-conf-guide/conf-workfront.md)
+      - [Configure translation](./install-conf-guide/conf-translation.md)
+    - Extending the features {#aemg-customization}
+      - [Deploy custom index for Find and replace feature for Cloud Service](./install-conf-guide/custom-indexing-cs.md)
+      - [Reindex for Find and replace feature for On-Premise](./install-conf-guide/custom-indexing-on-prem.md) 
+      - [Component mapping for AEM Sites](./install-conf-guide/component-mapping.md)
+    - Appendix {#appendix}
+      - [Appendix](./install-conf-guide/aemg-appendix.md)   
+        
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
   - [REST APIs for Output management](./api-reference/output-management.md)

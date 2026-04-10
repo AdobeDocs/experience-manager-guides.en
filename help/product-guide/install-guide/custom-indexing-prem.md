@@ -5,6 +5,7 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 5b9e4936-f674-41d3-a7b2-3d42a2523693
+hidefromtoc: yes
 ---
 # Reindexing for Find and replace (Source view) feature
 

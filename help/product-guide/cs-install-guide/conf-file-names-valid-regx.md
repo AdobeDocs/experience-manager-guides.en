@@ -5,6 +5,7 @@ exl-id: 05e9ca3c-28ff-4f82-8061-3d20307890ff
 feature: Filename Configuration
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Configure Regx for valid file name characters {#id214BD0550E8}
 

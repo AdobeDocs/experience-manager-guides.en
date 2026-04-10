@@ -5,6 +5,7 @@ exl-id: cdd40267-3f0c-40d2-acbc-2ebe43633c2f
 feature: Introduction
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # About this guide {#id175MC0P0S5Z}
 

@@ -5,6 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Configure global or folder-level profiles {#id181AH2003PF}
 
@@ -485,7 +486,7 @@ To ensure smart suggestions work effectively, keep the following points in mind 
 
      The error logs are displayed as shown below:
 
-    ![alt text](index-error-log.png) 
+     ![alt text](index-error-log.png) 
 
 6. A timestamp for the last index time is displayed for each folder profile. 
 

@@ -5,6 +5,7 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Migrate non-DITA content {#id181AH0R02HT}
 

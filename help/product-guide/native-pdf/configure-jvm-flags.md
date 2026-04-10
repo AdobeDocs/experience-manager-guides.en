@@ -1,12 +1,12 @@
 ---
 title: Native PDF | Configure JVM flags for Native PDF Publishing
 description: Configure JVM flags for Native PDF Publishing
-exl-id: d5432913-4b5a-48e7-9467-7f6c6e0adbe4
 feature: Output Generation
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
-# Configure JVM flags for Native PDF Publishing
+# Configure JVM flags for Native PDF Publishing for On-Premise
 
 Native PDF publishing starts a separate JVM process to generate a PDF. You might have to tweak the configurations of this JVM to support different scenarios. For example, to run larger workloads you should increase the maximum heap size available to the spawned JVM process.
 

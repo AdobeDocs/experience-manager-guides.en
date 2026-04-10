@@ -5,6 +5,7 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: f17a2e02-62de-4ed6-8d1f-4c72e7488437
+hidefromtoc: yes
 ---
 # 4.6.0 Service Pack 4 non-UUID to 4.6.1 UUID content migration
 

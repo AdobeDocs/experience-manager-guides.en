@@ -5,6 +5,7 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Download and install AEM Guides for the first time {#id213BCL00KEV}
 
