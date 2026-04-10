@@ -17,7 +17,7 @@ This guide is intended for the following type of audiences:
 
 -   Publishers, who would run the publishing task to generate output in various formats.
 
-The following table outlines the complete workflow based on your Experience Manager Guides setup whether it's Cloud Service or On-Premise:
+The following table outlines the complete workflow based on your AEM Guides setup whether it's Cloud Service or On-Premise:
 
 
 | Cloud Service | On-Premise |
