@@ -4,6 +4,7 @@ description: Learn how User administration and security work
 feature: User Management
 role: Admin
 level: Experienced
+exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
 ---
 # User administration and security {#id181AED00G5Z}
 
@@ -97,8 +98,3 @@ The following list contains some recommendations and points related to user grou
 -   To give a user rights to change a document state, make sure that you add the user in the state transition section of the document state profile.
 
 [1](#fnsrc_1) If *Authors* and *Publishers* are invited for a review.[2](#fnsrc_2) Depending on the rights given to the user in the document state profile.
-
-
-
-
-

@@ -4,6 +4,7 @@ description: Learn how to customize and configure the various components of the 
 feature: Output Generation
 role: Admin
 level: Experienced
+exl-id: f1ee4b53-9fdc-4227-903f-082fcf67818b
 ---
 # Native PDF Publishing
 

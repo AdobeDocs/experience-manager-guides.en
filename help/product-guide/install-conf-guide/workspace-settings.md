@@ -3,6 +3,7 @@ title: Workspace settings in Experience Manager Guides
 description: Learn about the various settings available in the Editor interface of Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
+exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
 ---
 # Workspace settings
 

@@ -4,6 +4,7 @@ description: Learn how to Configure allowed special characters
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: e3747a18-b6a1-46fd-a4d1-28a9c087e924
 ---
 # Configure allowed special characters {#id20CIL600035}
 

@@ -4,6 +4,7 @@ description: Learn how to custom index content for On-premise setup
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 87c0519d-120a-4bb7-b70f-7d217bcd7580
 ---
 # Reindexing for Find and replace (Source view) feature for On-Premise
 

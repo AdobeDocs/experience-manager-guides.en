@@ -4,6 +4,7 @@ description: Learn how to Upgrade AEM Guides
 feature: Installation
 role: Admin
 level: Experienced
+exl-id: 9d48a7c4-384d-4ad4-a1d3-4c50d97e5d5b
 ---
 # Upgrade AEM Guides for Cloud Service {#id213BD050YPH}
 

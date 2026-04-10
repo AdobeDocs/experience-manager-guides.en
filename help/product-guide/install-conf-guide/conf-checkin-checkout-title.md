@@ -4,6 +4,7 @@ description: Learn how to configure the title for Check in and check out icons
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 3032b49e-73d1-44d0-88b4-7e6e9444cac6
 ---
 # Configure the title for Check in and Check out icons for On-Premise
 

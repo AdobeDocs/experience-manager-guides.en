@@ -4,6 +4,7 @@ description: Learn how to migrate the content from On-premise software to Cloud 
 feature: Migration
 role: Admin
 level: Experienced
+exl-id: c8348aae-224c-4419-845a-b8910629e5b3
 ---
 # Migrate content from On-premise to Cloud Service
 

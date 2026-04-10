@@ -4,6 +4,7 @@ description: Learn how to configure Node process for Native PDF Publishing
 feature: Output Generation
 role: Admin
 level: Experienced
+exl-id: 5321c785-8259-4ee2-9ada-ee70fb99b4fd
 ---
 # Configure Node Process for Native PDF Publishing for Cloud Service
 

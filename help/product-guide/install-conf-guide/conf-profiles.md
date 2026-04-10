@@ -4,6 +4,7 @@ description: Learn how to Configure global or folder-level profiles
 feature: Profiles
 role: Admin
 level: Experienced
+exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
 ---
 # Configure global or folder-level profiles {#id181AH2003PF}
 
@@ -741,8 +742,3 @@ In the above example, the "label1" is the identifier for the label sequence and 
 **Rootmap**
 
 If your authors work with a specific root map, then you can browse to and select that rootmap here. Note that you can define the rootmap only for a folder-level profile.
-
-
-
-
-

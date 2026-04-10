@@ -4,6 +4,7 @@ description: Learn how to Uninstall AEM Guides
 feature: Installation
 role: Admin
 level: Experienced
+exl-id: 84b248da-af7b-4811-a184-4ab17838faaa
 ---
 # Uninstall AEM Guides for On-Premise{#id21BHG0C0SXA}
 

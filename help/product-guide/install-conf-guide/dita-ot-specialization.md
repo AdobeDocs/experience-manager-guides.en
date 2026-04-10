@@ -4,6 +4,7 @@ description: Learn how to Use custom DITA-OT and DITA specialization
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
+exl-id: 4a5ba148-da31-4751-943d-624165c66429
 ---
 # Use custom DITA-OT and DITA specialization {#id181GAJ0005Z}
 

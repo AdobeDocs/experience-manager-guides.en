@@ -4,7 +4,7 @@ description: Learn how to disable postprocessing for a folder uploaded to Adobe 
 feature: Filename Configuration
 role: Admin
 level: Experienced
-
+exl-id: eaf974f4-c804-4392-b1f3-f4f24dd441f7
 ---
 # Disable postprocessing for a folder 
 
@@ -74,4 +74,3 @@ By default, postprocessing is done for every folder path under the Experience Ma
 * If the parent is ignored for postprocessing but the child folder is enabled, then the child and all its successors are considered enabled.
 * If the parent is enabled for postprocessing but the child is ignored, then the child and all its successors are considered ignored.
 * If the same folder path exists in both ignored.post.processing.paths and enabled.post.processing.paths configurations, then it's considered ignored for postprocessing.
-

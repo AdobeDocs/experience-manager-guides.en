@@ -4,6 +4,7 @@ description: Learn the Technical requirements to work with Adobe Experience Mana
 feature: Introduction, Installation
 role: Admin
 level: Experienced
+exl-id: 7e0894ef-f1d4-47a8-9bb8-fe63e3968260
 ---
 # Technical requirements {#id213BCG003XA}
 

@@ -4,6 +4,7 @@ description: Learn how to Configure custom DITA map template
 feature: Template Configuration
 role: Admin
 level: Experienced
+exl-id: 467cc4be-5fe7-466e-887b-eccc63acae8a
 ---
 # Configure custom DITA map template {#id1774F04F05Z}
 

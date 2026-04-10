@@ -4,6 +4,7 @@ description: Learn how to Configure prompt to save as a new version on close
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: da41044a-bab0-456b-9543-effc88d1a2ae
 ---
 # Configure prompt to save as a new version on close {#id222HBI00XXA}
 

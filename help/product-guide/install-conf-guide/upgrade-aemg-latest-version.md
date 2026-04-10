@@ -4,6 +4,7 @@ description: Learn how to Upgrade Adobe Experience Manager Guides
 feature: Installation
 role: Admin
 level: Experienced
+exl-id: f84bc82a-505c-4511-8336-bb87c8eb78e3
 ---
 # Upgrade Adobe Experience Manager Guides for version 4.6.0 and above 
 
@@ -248,4 +249,3 @@ Index definition is updated for damAssetLucene with AEM Guides. After upgrading 
 >[!NOTE]
 >
 > While following the documentation, make sure both properties (`reindex=true` and `reindex-async=true` for `/oak:index/damAssetLucene`) are updated simultaneously via Save operation.
-

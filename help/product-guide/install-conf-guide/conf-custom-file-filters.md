@@ -4,6 +4,7 @@ description: Learn how to Configure filters for file browse dialog
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 62195863-cbab-4c53-9cf0-b4a8d26d44f2
 ---
 # Configure filters for file browse dialog
 

@@ -4,6 +4,7 @@ description: Learn how to custom index content
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 612f0be3-9f9d-4e30-ac57-65da227ea08f
 ---
 # Deploying custom index for Find and replace (Source view) feature for Cloud Service
 

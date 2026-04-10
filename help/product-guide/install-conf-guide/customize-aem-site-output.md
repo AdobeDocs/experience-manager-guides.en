@@ -4,8 +4,8 @@ description: Learn how to Configure output generation settings
 feature: Output Generation
 role: Admin
 level: Experienced
+exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
 ---
-
 # Customize AEM Site output {#id166TG0B30WR}
 
 The AEM Guides supports creating outputs in following formats:
@@ -403,6 +403,3 @@ The following tabs provide instructions to stop the creation of a version for th
 Experience Manager Guides has a custom sling [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) module for handling the links generated in case of cross-maps (links between the topics of two different maps). This rewriter configuration is installed at the following path: <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
 
 If you have another custom sling rewriter in your codebase,  use an `'order'` value greater than 50, as Experience Manager Guides sling rewriter uses `'order'` 50.  To override this, you need a value >50 . For more details, view [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
-
-
-

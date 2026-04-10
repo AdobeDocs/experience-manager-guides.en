@@ -4,6 +4,7 @@ description: Learn how to Configure a custom panel in the left panel
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 536e1113-1ff2-4e24-9946-bd4311d5d22e
 ---
 # Configure a custom panel in the left panel {#id224JI200Y6F}
 

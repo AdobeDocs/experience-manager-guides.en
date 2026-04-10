@@ -4,6 +4,7 @@ description: Learn how to Customize toolbar
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
 ---
 # Customize toolbar {#id172FB00L0V6}
 

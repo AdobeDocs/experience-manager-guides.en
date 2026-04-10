@@ -4,7 +4,7 @@ description: Learn how to configure document state filters
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-
+exl-id: 6dee8479-770f-48d7-9939-5035388d16d8
 ---
 # Configure document state filters for Cloud Service
 

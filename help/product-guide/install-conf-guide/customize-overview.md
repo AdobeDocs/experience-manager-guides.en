@@ -4,6 +4,7 @@ description: Learn how to Customize Web Editor
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 26366424-4ad2-46d7-8354-100586960e3c
 ---
 # Customize Editor {#id181AI0003PN}
 

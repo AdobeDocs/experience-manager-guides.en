@@ -4,6 +4,7 @@ description: Learn how to Configure file auto-save in the Web Editor
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
 ---
 # Configure file auto-save in the Web Editor {#id199CC0J0M5Z}
 

@@ -4,6 +4,7 @@ description: Learn how to Configure prompt to check in a file on close
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 6b1b5894-0d55-4230-83cf-6b219e969116
 ---
 # Configure prompt to check in a file on close {#id222HC040PE8}
 

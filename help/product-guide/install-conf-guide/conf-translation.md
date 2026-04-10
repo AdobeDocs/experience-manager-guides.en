@@ -4,6 +4,7 @@ description: Learn how to Translate content
 feature: Translation
 role: Admin
 level: Experienced
+exl-id: 7138fc35-09ee-4df5-8496-dc673effe120
 ---
 # Translate content {#id181GB0400UI}
 

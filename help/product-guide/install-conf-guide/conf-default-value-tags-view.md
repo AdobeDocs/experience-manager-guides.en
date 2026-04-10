@@ -4,6 +4,7 @@ description: Learn how to Configure default value for the Tags View
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: d54e3a3c-9f61-43cf-a925-12e4ce948a55
 ---
 # Configure default value for the Tags View {#id223GN0M0NDC}
 

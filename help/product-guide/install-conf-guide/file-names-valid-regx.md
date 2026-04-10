@@ -4,6 +4,7 @@ description: Learn how to Configure Regx for valid file name characters
 feature: Filename Configuration
 role: Admin
 level: Experienced
+exl-id: 0eacc712-1179-4c11-b8f9-9eb2706e6295
 ---
 # Configure Regx for valid file name characters {#id214BD0550E8}
 

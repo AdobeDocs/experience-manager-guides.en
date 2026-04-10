@@ -1,7 +1,7 @@
 ---
-title: Configure AI Assistant for smart help and authoring 
-description: Learn how to configure the AI Assistant in Experience Manager Guides 
-
+title: Configure AI Assistant for smart help and authoring
+description: Learn how to configure the AI Assistant in Experience Manager Guides
+exl-id: 59da626d-8433-44c6-ba69-654c7796a264
 ---
 # Configure the AI Assistant for Cloud Service
 

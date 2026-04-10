@@ -4,6 +4,7 @@ description: Learn how to Configure valid file names for AEM Site output
 feature: Filename Configuration
 role: Admin
 level: Experienced
+exl-id: b2bc5159-2144-4683-970d-738949ac9662
 ---
 # Configure valid file names for AEM Site output {#id214GK0X0KXA}
 

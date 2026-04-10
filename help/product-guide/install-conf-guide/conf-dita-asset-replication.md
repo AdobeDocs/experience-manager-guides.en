@@ -4,6 +4,7 @@ description: Learn how to configure dita assets replication
 feature: Output Generation
 role: Admin
 level: Experienced
+exl-id: 8c551c37-2bfd-471b-bb72-514fabbc0bf2
 ---
 # Configure DITA assets replication
 

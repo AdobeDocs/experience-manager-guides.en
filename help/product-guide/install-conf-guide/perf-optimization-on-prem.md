@@ -4,6 +4,7 @@ description: Learn the Recommendations for performance optimization
 feature: Performance Optimization
 role: Admin
 level: Experienced
+exl-id: 0f289f7c-8300-427a-a4d9-9c2f31608240
 ---
 # Recommendations for performance optimization for On-Premise {#id213BD0JG0XA}
 
@@ -106,4 +107,3 @@ This can be done at run time through Felix console or via code deployment.
 
 **Result of this change**
 An increased number of the **Limit AEM Site Pages in Heap** property optimizes the AEM Site output generation process.
-

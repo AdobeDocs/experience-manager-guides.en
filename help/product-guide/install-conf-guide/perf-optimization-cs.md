@@ -4,6 +4,7 @@ description: Learn Recommendations for performance optimization
 feature: Performance Optimization
 role: Admin
 level: Experienced
+exl-id: 6c9684d4-180f-4ccb-bfd6-6c82a8a7b720
 ---
 # Recommendations for performance optimization for Cloud Service {#id213BD0JG0XA}
 
@@ -16,4 +17,3 @@ For performance optimization, consider the following points:
     *Required configuration*: Replace the Xerces Jar file in your custom DITA-OT package with the one shipped OOTB. The default OOTB `xercesImpl-2.11.0.jar` file is available within the `/libs/fmdita/dita\_resources/DITA-OT.zip` file. Ensure that you rename the `xercesImpl-2.11.0.jar` file to match the old Xerces Jar file being replaced. This can be done at run time.
 
     This change reduces the publishing time and memory utilization while publishing DITA maps with a large number of topics.
-

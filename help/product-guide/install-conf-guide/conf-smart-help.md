@@ -1,7 +1,7 @@
 ---
 title: Configure the Smart Help to search content
 description: Learn how to configure the Smart Help to search content
-
+exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
 ---
 # Configure the AI-powered Smart Help to search content for Cloud Service
 

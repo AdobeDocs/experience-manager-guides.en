@@ -4,6 +4,7 @@ description: Learn how to Configure search for AEM Assets UI
 feature: Search Configuration
 role: Admin
 level: Experienced
+exl-id: bfb98000-7496-4d00-80f8-53b1a7ab4016
 ---
 # Configure search for AEM Assets UI {#id192SC800MY4}
 

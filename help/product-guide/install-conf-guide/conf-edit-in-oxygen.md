@@ -4,6 +4,7 @@ description: Learn how to configure the option to edit in Oxygen connector plugi
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 41ecbbb2-81c3-473d-b48b-7370a74a6474
 ---
 # Configure the option to edit in Oxygen for Cloud Service
 

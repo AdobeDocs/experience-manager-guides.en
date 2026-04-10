@@ -1,9 +1,10 @@
 ---
 title: Deployment and dispatcher configuration
-description: Learn Deployment and dispatcher configuration in Experience Manager Guides as a Cloud Service 
+description: Learn Deployment and dispatcher configuration in Experience Manager Guides as a Cloud Service
 feature: Introduction, Installation
 role: Admin
 level: Experienced
+exl-id: 657a42be-36e7-4657-83d5-e866f8e55f09
 ---
 # Deployment and dispatcher configuration 
 

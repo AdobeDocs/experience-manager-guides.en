@@ -4,6 +4,7 @@ description: Learn how to Configure single topic PDF generation
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: a456027a-56a4-48c0-a79b-2f423692abc2
 ---
 # Configure single topic PDF generation for Cloud Service
 

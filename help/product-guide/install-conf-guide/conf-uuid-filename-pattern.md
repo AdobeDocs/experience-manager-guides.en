@@ -4,6 +4,7 @@ description: Learn how to configure UUID filename pattern
 feature: Migration
 role: Admin
 level: Experienced
+exl-id: 63d19ec4-1313-4691-b83e-38b67f9d2050
 ---
 # Configure UUID filename pattern
 
@@ -44,8 +45,3 @@ Perform the following steps to check file names against a UUID pattern and assig
 1.  Select **Save**.
 
 >[!ENDTABS]
-
-
-
-
-

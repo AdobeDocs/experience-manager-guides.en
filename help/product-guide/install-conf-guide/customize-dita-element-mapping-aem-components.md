@@ -4,8 +4,8 @@ description: Learn how to customize dita element mapping with AEM components
 feature: Output Generation
 role: Admin
 level: Experienced
+exl-id: b712223f-c7df-423c-9a46-6b3704f4bd26
 ---
-
 # Customize DITA element mapping with AEM components {#id1679J600HEL}
 
 DITA elements in the AEM Guides are mapped to their corresponding AEM components. AEM Guides uses this mapping in workflows such as publishing and review to convert DITA element to a corresponding AEM component. The mapping is defined in the `elementmapping.xml` file, which can be accessed using the package manager for Cloud Service setup and from the URL: `/libs/fmdita/config/elementmapping.xml` in the CRXDE Lite mode for On-Premise setup.
@@ -182,5 +182,3 @@ The following table describes the elements in the DITA element schema:
 -   If you are planning to override some \(and not all\) of the element mappings, you do not have to replicate the entire `elementmapping.xml` file. You need to create a new XML mapping file and define only the elements that you are overriding.
 
 -   After you have created the XML file in the custom location, update the `Override Element Mapping` setting in the `com.adobe.fmdita.config.ConfigManager` bundle.
-
-

@@ -4,6 +4,7 @@ description: Configure JVM flags for Native PDF Publishing
 feature: Output Generation
 role: Admin
 level: Experienced
+exl-id: a2a9f44c-cb17-4423-a66e-499bce921398
 ---
 # Configure JVM flags for Native PDF Publishing for On-Premise
 

@@ -4,6 +4,7 @@ description: Learn how to Install Adobe Experience Manager
 feature: Introduction, Installation
 role: Admin
 level: Experienced
+exl-id: d72b007c-9f0a-41be-bca2-2d6b54c30de1
 ---
 # Install Adobe Experience Manager {#id213BCI020E8}
 

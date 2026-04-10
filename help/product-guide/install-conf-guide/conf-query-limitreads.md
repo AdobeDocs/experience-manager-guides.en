@@ -4,6 +4,7 @@ description: Learn how to Configure the number of LimitReads for a query
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 53748636-f3d1-4b3b-a772-2730b78741cb
 ---
 # Configure the number of LimitReads for a query for On-Premise
 

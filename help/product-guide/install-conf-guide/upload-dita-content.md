@@ -1,9 +1,10 @@
 ---
-title: Upload existing DITA content 
+title: Upload existing DITA content
 description: Learn how to Upload existing DITA content in Experience Manager Guides using WebDAV tool and FrameMaker
 feature: Migration
 role: Admin
 level: Experienced
+exl-id: 53eb863a-094f-4445-ab4b-d5fca2249c30
 ---
 # Upload existing DITA content using WebDAV tool and FrameMaker for On-Premise
 

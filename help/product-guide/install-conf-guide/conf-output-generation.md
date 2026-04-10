@@ -4,6 +4,7 @@ description: Learn how to Configure output generation settings
 feature: Output Generation
 role: Admin
 level: Experienced
+exl-id: 6fff24d2-ec25-4654-837c-179e8688e2f4
 ---
 # Configure output generation settings {#id181AI0B0E30}
 
@@ -504,5 +505,3 @@ To configure AEM Guides to use FMPS, update the following properties of the `com
 |External AEM URL|*\(Optional\)* The AEM URL where the FrameMaker Publishing Server will place the generated output files. For example, `http://<server-name>:<port>/`.|
 |AEM Admin Username and Password|*\(Optional\)* The user name and password for an administrator of your AEM setup. This will be used by FrameMaker Publishing Server to communicate with AEM.|
 |FMPS Task Execution Wait Timeout|This setting is applicable only for FMPS 2020. Specify the time \(in seconds\) after which FMPS will stop waiting for this process to execute.|
-
-

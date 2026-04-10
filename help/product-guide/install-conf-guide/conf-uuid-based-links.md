@@ -4,6 +4,7 @@ description: Learn how to Configure display of UUID-based links
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: d2383230-ff8f-4e9b-a529-9b9d167ebf90
 ---
 # Configure display of UUID-based links {#id2035G20M0QN}
 

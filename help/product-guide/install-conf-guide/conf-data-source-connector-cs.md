@@ -4,6 +4,7 @@ description: Learn how to configure a data source connector
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: bb70cca8-cfa5-455b-bc48-a8d26ec5326c
 ---
 # Configure a data source connector for Cloud Service
 

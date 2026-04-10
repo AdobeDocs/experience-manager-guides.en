@@ -4,6 +4,7 @@ description: Learn how to configure a data source connector using the tools.
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: ea09ea67-3051-4231-90e2-3b8a3ceb9270
 ---
 # Configure a data source connector from the user interface
 

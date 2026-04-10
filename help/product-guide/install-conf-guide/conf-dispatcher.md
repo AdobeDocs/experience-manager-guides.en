@@ -4,6 +4,7 @@ description: Learn how to Configure Dispatcher
 feature: Installation
 role: Admin
 level: Experienced
+exl-id: 4b7b4e9b-0a5c-4b61-87d9-a6bd6494c030
 ---
 # Configure Dispatcher {#id213BCM0M05U}
 
@@ -73,4 +74,3 @@ When using a Dispatcher with AEM Guides, if your Author instance has a dispatche
                 /type "deny"
                 }
 ```
-

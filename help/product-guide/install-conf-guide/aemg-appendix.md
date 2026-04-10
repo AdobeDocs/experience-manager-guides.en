@@ -4,6 +4,7 @@ description: Learn how to prepare InDesign documents for migration
 feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
+exl-id: 6e757850-c563-42c5-aeac-b23c3f2ce679
 ---
 # Appendix {#id195AD0L60Y4}
 

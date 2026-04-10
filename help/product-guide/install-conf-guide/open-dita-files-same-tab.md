@@ -4,6 +4,7 @@ description: Learn how to Open DITA topic or map files in same tab
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 13f7eab1-2235-4537-9520-69d1df04e921
 ---
 # Open DITA topic or map files in same tab {#id223HI0P202H}
 

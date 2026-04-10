@@ -4,6 +4,7 @@ description: Learn how to configure additional special characters in the web edi
 feature: Web Editor
 role: User
 hidefromtoc: yes
+exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
 ---
 # How to configure additional special characters in Web Editor toolbar for On-Premise
 

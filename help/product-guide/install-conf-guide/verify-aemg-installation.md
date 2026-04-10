@@ -4,6 +4,7 @@ description: Learn how to Verify AEM Guides installation
 feature: Installation
 role: Admin
 level: Experienced
+exl-id: 19cded6f-6545-42af-8511-7c32cf4ddf2d
 ---
 # Verify AEM Guides installation {#id213BD030FBE}
 
@@ -52,6 +53,4 @@ Perform the following steps to verify the installation:
 >
 > There are a number of performance optimization recommendations that you can consider to improve your system performance. See [Recommendations for performance optimization](perf-optimization-on-prem.md#) for details.
 
->[!ENDTABS] 
-
-
+>[!ENDTABS]

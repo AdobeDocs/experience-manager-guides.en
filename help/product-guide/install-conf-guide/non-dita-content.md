@@ -4,6 +4,7 @@ description: Learn how to Migrate non-DITA content
 feature: Migration
 role: Admin
 level: Experienced
+exl-id: e4afe8f8-6130-4c97-a3b8-f5963a79c534
 ---
 # Migrate non-DITA content {#id181AH0R02HT}
 

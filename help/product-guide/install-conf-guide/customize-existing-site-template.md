@@ -4,6 +4,7 @@ description: Learn how to customize existing AEM Site templates for AEM Guides
 feature: Installation
 role: Admin
 level: Experienced
+exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
 ---
 # Customize existing AEM Site templates
 

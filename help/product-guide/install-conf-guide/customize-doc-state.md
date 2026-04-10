@@ -4,6 +4,7 @@ description: Learn how to Configure document states
 feature: Document State
 role: Admin
 level: Experienced
+exl-id: 2f035c92-21f9-401a-a2cb-d1bc19c75598
 ---
 # Configure document states {#id181GB0400UI}
 
@@ -237,4 +238,4 @@ The following tabs provide instructions to enable approval workflow based on you
     }
     ```
 
->[!ENDTABS]    
+>[!ENDTABS]

@@ -4,6 +4,7 @@ description: Learn how to manage versions
 feature: Version Management
 role: Admin
 level: Experienced
+exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
 ---
 # Version management {#id181GB000XY4}
 

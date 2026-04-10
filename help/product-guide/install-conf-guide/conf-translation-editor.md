@@ -4,6 +4,7 @@ description: Learn how to Configure Translation feature in the Web Editor
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 22d7e1c7-2059-43fb-b7aa-3ae4a6072678
 ---
 # Configure Translation feature in the Web Editor for Cloud Service
 

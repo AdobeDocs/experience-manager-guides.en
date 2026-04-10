@@ -4,6 +4,7 @@ description: Learn how to Auto-generate element IDs
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: c3c59eb3-a00a-46db-a264-db44d5cd4943
 ---
 # Auto-generate element IDs {#id20CIL40016I}
 

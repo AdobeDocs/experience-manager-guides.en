@@ -4,6 +4,7 @@ description: Learn how to Upgrade Adobe Experience Manager Guides
 feature: Installation
 role: Admin
 level: Experienced
+exl-id: 61a6a623-2f29-43b5-a053-7f1f925de6d6
 ---
 # Upgrade Adobe Experience Manager Guides On Premise (Version 4.4.0 and earlier)
 
@@ -556,5 +557,4 @@ Experience Manager Guides includes a custom Sling rewriter module (`fmditarewrit
 If you have another custom Sling rewriter in your codebase: 
 
 - Use an `order` value **greater than 50** because Guides uses `order=50`.
-- During this upgrade, the `order` value changes from `1000` to `50`, so you must merge your existing custom rewriter (if any) with `fmditarewriter`. 
-
+- During this upgrade, the `order` value changes from `1000` to `50`, so you must merge your existing custom rewriter (if any) with `fmditarewriter`.

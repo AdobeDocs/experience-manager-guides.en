@@ -4,6 +4,7 @@ description: Learn About this guide
 feature: Introduction
 role: Admin
 level: Experienced
+exl-id: 43167f0e-158e-4599-8451-303750076731
 ---
 # About this guide 
 
@@ -23,4 +24,3 @@ The following table outlines the complete workflow based on your AEM Guides setu
 | Cloud Service | On-Premise |
 |-------------|------------|
 | <ul><li>[Deployment and dispatcher configuration](./conf-deployment-dispatcher-cs.md)</li><li>[Verify AEM Guides](./verify-aemg-installation.md)</li><li>[Upgrade AEM Guides](./download-install-upgrade-aemg.md)</li><li> [Recommendation for performance optimization](./perf-optimization-cs.md)</li></ul> | <ul><li>[Technical requirements](./aemg-technical-requirements.md)</li><li>[Install AEM](./download-install-aem.md)</li><li>[Download and install AEM Guides for the first time](./download-install-aemg-first-time.md)</li><li>[Configure dispatcher](./conf-dispatcher.md)</li><li>[Verify AEM Guides](./verify-aemg-installation.md)</li><li>[Uninstall AEM Guides](./unistall-aemg.md)</li><li>[Upgrade AEM Guides](./download-install-upgrade-aemg.md)</li><li>[Recommendation for performance optimization](./perf-optimization-on-prem.md)</li></ul> |
-

@@ -4,6 +4,7 @@ description: Learn how to customize the display of pasted tables in Editor
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: e66c13e4-6dc0-41a0-8582-32bacec9ae6c
 ---
 # Configure display of pasted tables for Cloud Service
 

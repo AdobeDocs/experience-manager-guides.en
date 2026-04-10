@@ -4,7 +4,7 @@ description: Learn how to Configure Workfront in Experience Manager Guides
 feature: Authoring
 role: Admin
 level: Experienced
-
+exl-id: 694e9eeb-59a7-43e3-89b0-510b86be1f42
 ---
 # Configure Adobe Workfront for Cloud Service
 

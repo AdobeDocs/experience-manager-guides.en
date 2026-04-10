@@ -4,6 +4,7 @@ description: Learn how to configure the JSON-based mapping between a topic and a
 feature: Output Generation
 role: Admin
 level: Experienced
+exl-id: f37cd341-aa8b-4af0-9a40-1d034eea3be6
 ---
 # Create a mapping between a topic and an Experience Fragment for Cloud Service
 

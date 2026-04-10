@@ -4,6 +4,7 @@ description: Learn how to use curl commands on the uploaded content in Experienc
 feature: Migration
 role: Admin
 level: Experienced
+exl-id: 7772246c-f885-46c0-a1e5-915d111bbc61
 ---
 # Use curl commands
 

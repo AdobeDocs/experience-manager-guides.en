@@ -1,7 +1,7 @@
 ---
 title: Additional configuration for upgrading cloud service
 description: Learn about the additional configuration for upgrading cloud service
-
+exl-id: 92230263-776f-4019-8654-f35895785398
 ---
 # Additional configuration for upgrading AEM Guides as Cloud Service
 

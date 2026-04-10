@@ -4,6 +4,7 @@ description: Learn how to Configure text filters
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+exl-id: 08502168-a995-44bc-9ce3-c3e562714c06
 ---
 # Configure text filters {#id21BPD0FK0XA}
 

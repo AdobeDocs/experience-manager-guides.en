@@ -4,6 +4,7 @@ description: Learn how to Configure custom DITA topic template
 feature: Template Configuration
 role: Admin
 level: Experienced
+exl-id: aaf24a83-3a94-4f77-aa37-7b0398f6ae71
 ---
 # Configure custom DITA topic template {#id16A7G0O02TD}
 

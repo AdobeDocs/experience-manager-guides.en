@@ -4,6 +4,7 @@ description: Learn how to Migrate existing content
 feature: Migration
 role: Admin
 level: Experienced
+exl-id: d3d24119-8a3c-40f2-994f-3c0e5ee37f59
 ---
 # Migrate existing content {#id181AGB000Y4}
 
@@ -18,5 +19,3 @@ The following table outlines different migration methods available for uploading
 |Cloud Service|On-Premise|
 |-------------|------------|
 |<ul><li>[Use Curl command to upload DITA content](./use-curl-command.md)</li><li>[Configure UUID file pattern](./conf-uuid-filename-pattern.md)</li><li>[Migrate non-DITA content](./non-dita-content.md)</li><li>[Migrate content from On-premise to Cloud Service](./migrate-on-premise-content-cloud.md)</li></ul>|<ul><li>[Upload existing DITA content using Framemaker and WebDav tool (On-Prem)](upload-dita-content.md)</li><li>[Use Curl command to upload DITA content](./use-curl-command.md)</li><li>[Configure UUID file pattern](./conf-uuid-filename-pattern.md)</li><li>[Migrate non-DITA content](./non-dita-content.md)</li></ul>|
-
-
