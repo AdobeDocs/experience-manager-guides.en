@@ -4,7 +4,7 @@ description: Learn how to Customize Web Editor
 exl-id: 6579812b-caa7-420f-a6e4-36fef7d63d34
 feature: Web Editor Configuration
 role: Admin
-level: 
+level: Experienced
 hidefromtoc: yes
 ---
 # Customize Web Editor {#id181AI0003PN}

@@ -4,7 +4,7 @@ description: Use variables in the PDF output and output templates
 feature: Output Generation
 role: Admin
 level: Experienced
-exl-id: 96e54aee-52df-4af1-97fd-
+exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
 hidefromtoc: yes
 ---
 # Variables in the PDF output
