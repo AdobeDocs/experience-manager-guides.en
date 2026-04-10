@@ -316,6 +316,6 @@ Perform the following steps to create a new profile and configure it to use spec
 
 >[!NOTE]
 >
-> You can export the custom DITA profile as a package and upload on the other AEM Guides instances to save time. For more information, see [Appendix.md](appendix.md).
+> You can export the custom DITA profile as a package and upload on the other AEM Guides instances to save time. For more information, see [Appendix](./aemg-appendix.md).
 
 >[!ENDTABS]

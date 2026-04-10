@@ -26,5 +26,3 @@ Use the instructions given in [Configuration overrides](download-install-additio
 The configuration that allows you to set valid characters in AEM Site output is present in the `com.adobe.fmdita.common.SanitizeNodeNameImpl` bundle. **Set the Disallowed Character Set for Publishing to AEM Sites** setting to include characters that you want to replace with an underscore in the AEM Site output file names.
 
 >[!ENDTABS]
-
-**Parent topic:**[Configure filenames](conf-file-names.md)

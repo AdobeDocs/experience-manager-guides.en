@@ -51,4 +51,3 @@ Perform the following steps to automatically assign the UUID-based file name for
 
 >[!ENDTABS]
 
-**Parent topic:**[Configure filenames](conf-file-names.md)

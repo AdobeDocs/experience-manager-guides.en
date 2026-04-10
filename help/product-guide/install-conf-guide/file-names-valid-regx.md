@@ -60,6 +60,3 @@ To configure regx for valid \(or allowed\) characters in file names, perform the
 > Similar to the list of valid file name characters, you can also specify a list of valid file name character for AEM Site output. For more details, see [Configure valid file names for AEM Site output](conf-file-names-valid-regx-aem-site-output.md#).
 
 >[!ENDTABS]
-
-
-**Parent topic:**[Configure filenames](conf-file-names.md)
