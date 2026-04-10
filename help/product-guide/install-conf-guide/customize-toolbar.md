@@ -350,6 +350,3 @@ The following tabs provide instructions to remove any unwanted feature from the 
 1. Save the `*ui\_config.json*` file and reload the Web Editor.
 
 >[!ENDTABS]
-
-
-**Parent topic:**[Customize Web Editor](customize-overview.md)
