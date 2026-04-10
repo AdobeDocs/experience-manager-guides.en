@@ -5,6 +5,7 @@ exl-id: 57ae906f-69e3-4319-89f6-0fa9ddb7a3ff
 feature: Installation
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Upgrade AEM Guides {#id213BD050YPH}
 

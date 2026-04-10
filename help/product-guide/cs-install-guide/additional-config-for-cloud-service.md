@@ -2,6 +2,7 @@
 title: Additional configuration for upgrading cloud service
 description: Learn about the additional configuration for upgrading cloud service
 exl-id: 3d60d06b-ce50-4948-b50d-bd373051d055
+hidefromtoc: yes
 ---
 # Additional configuration for upgrading AEM Guides as Cloud Service
 

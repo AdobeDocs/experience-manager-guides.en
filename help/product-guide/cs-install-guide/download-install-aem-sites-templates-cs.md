@@ -5,6 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 18cb85df-adfb-4bce-8af8-796aed79cb80
+hidefromtoc: yes
 ---
 # Download and install AEM Sites templates
 

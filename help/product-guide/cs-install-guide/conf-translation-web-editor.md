@@ -5,6 +5,7 @@ exl-id: e25473c3-9a84-4658-87c9-6fd72bcaa2b6
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Configure Translation feature in the Web Editor {#id21BONI0J0YR}
 

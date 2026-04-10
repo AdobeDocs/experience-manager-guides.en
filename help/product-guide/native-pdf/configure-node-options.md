@@ -4,6 +4,7 @@ description: Learn how to configure Node process for Native PDF Publishing
 feature: Output Generation
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Configure Node Process for Native PDF Publishing for Cloud Service
 

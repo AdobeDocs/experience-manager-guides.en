@@ -5,6 +5,7 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
+hidefromtoc: yes
 ---
 # Migrate content from On-premise to Cloud Service
 

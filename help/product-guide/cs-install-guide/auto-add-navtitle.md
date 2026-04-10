@@ -5,6 +5,7 @@ exl-id: 38711c0c-efa8-461a-92e1-ecfcdcdd36d3
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Include @navtitle attribute by default {#id2115BC0J0XA}
 

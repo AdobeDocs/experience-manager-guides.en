@@ -5,6 +5,7 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Translate content {#id181GB0400UI}
 

@@ -5,6 +5,7 @@ exl-id: 5c25efc1-0976-4554-a186-2ffd5e62f500
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Configure a custom panel in the left panel {#id224JI200Y6F}
 

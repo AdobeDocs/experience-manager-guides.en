@@ -5,6 +5,7 @@ exl-id: 92ac1f81-2f51-44b0-82c3-56b39e8f3027
 feature: Performance Optimization
 role: Admin
 level: Experienced
+hidefromtoc: yes
 ---
 # Recommendations for performance optimization {#id213BD0JG0XA}
 
