@@ -1,17 +1,16 @@
 ---
-title: Release Notes | What's New in Adobe Experience Manager Guides 2026.03.0 release
-description: Learn about the new and enhanced features in the 2026.03.0 release of Adobe Experience Manager Guides
+title: Release Notes | What's New in Adobe Experience Manager Guides 2026.04.0 release
+description: Learn about the new and enhanced features in the 2026.04.0 release of Adobe Experience Manager Guides
 role: Leader
-exl-id: ae26dd14-983e-4116-ac8d-729c1f4fad20
-hidefromtoc: yes
+exl-id: 39b73511-a324-461d-b569-b3b215988890
 ---
-# What's new in the 2026.03.0 release (March 2026)
+# What's new in the 2026.04.0 release (April 2026)
 
-This article covers the new and enhanced features introduced with the 2026.03.0 release of Adobe Experience Manager Guides as a Cloud Service.
+This article covers the new and enhanced features introduced with the 2026.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For the list of issues fixed in this release, view [Fixed issues in the 2026.03.0 release](fixed-issues-2026-03-0.md).
+For the list of issues fixed in this release, view [Fixed issues in the 2026.04.0 release](fixed-issues-2026-04-0.md).
 
-Learn about [upgrade instructions for the 2026.03.0 release](../release-info/upgrade-instructions-2026-03-0.md).
+Learn about [upgrade instructions for the 2026.04.0 release](../release-info/upgrade-instructions-2026-04-0.md).
 
 ## Introducing Product Training and Learning content in Experience Manager Guides 
 

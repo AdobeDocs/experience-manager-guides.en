@@ -1,33 +1,32 @@
 ---
-title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, 2026.03.0 release
-description: Learn about the compatibility matrix and how to upgrade to the 2026.03.0 release of Adobe Experience Manager Guides as a Cloud Service.
-exl-id: 5700e649-104d-4caf-a195-6e667a71faee
-hidefromtoc: yes
+title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, 2026.04.0 release
+description: Learn about the compatibility matrix and how to upgrade to the 2026.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
+exl-id: 897d70d4-7f35-41e3-95ff-6cabeeacb1ac
 ---
-# Upgrade instructions for the 2026.03.0 release 
+# Upgrade instructions for the 2026.04.0 release 
 
-This article covers the upgrade instructions and the compatibility matrix for the 2026.03.0 release of Adobe Experience Manager Guides as a Cloud Service.
+This article covers the upgrade instructions and the compatibility matrix for the 2026.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For more information about the new features and enhancements, view [What's new in the 2026.03.0 release](whats-new-2026-03-0.md).
+For more information about the new features and enhancements, view [What's new in the 2026.04.0 release](whats-new-2026-04-0.md).
 
-For the list of issues fixed in this release, view [Fixed issues in the 2026.03.0 release](fixed-issues-2026-03-0.md).
+For the list of issues fixed in this release, view [Fixed issues in the 2026.04.0 release](fixed-issues-2026-04-0.md).
 
 ## Compatibility matrix
 
-This section points the compatibility matrix for the software applications supported by the 2026.03.0 release of Experience Manager Guides as a Cloud Service. 
+This section points the compatibility matrix for the software applications supported by the 2026.04.0 release of Experience Manager Guides as a Cloud Service. 
 
 ### FrameMaker and FrameMaker Publishing Server
 
 | Experience Manager Guides as a Cloud Release| FMPS | FrameMaker | Oxygen Author |
 | --- | --- | --- | --- |
-| 2026.03.0 | Not compatible | 2022 or higher | 26.1 |
+| 2026.04.0 | Not compatible | 2022 or higher | 26.1 |
 
 
 ### Oxygen Connector
 
 | Experience Manager Guides as a Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2026.03.0| 3.8 -uuid 1|   3.8 -uuid 1 | 2.3 | 2.3 |
+| 2026.04.0| 3.8 -uuid 1|   3.8 -uuid 1 | 2.3 | 2.3 |
 
 
 ### AEM Site template version
@@ -42,7 +41,7 @@ This section points the compatibility matrix for the software applications suppo
 |---|---|---|
 |Experience Manager Guides Components Content Package for Cloud Service|guides-components.all-1.4.0| aem-site-template-dxml-1.0.17|
 
-## Upgrade to 2026.03.0 release
+## Upgrade to 2026.04.0 release
 
 Experience Manager Guides is upgraded automatically upon upgrading to the latest release of Experience Manager as a Cloud Service.
 

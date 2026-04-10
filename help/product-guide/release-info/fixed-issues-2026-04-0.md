@@ -1,16 +1,15 @@
 ---
-title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2026.03.0 release
-description: Learn about the bug fixes in the 2026.03.0 release of Adobe Experience Manager Guides as a Cloud Service.
-exl-id: 6eca85f5-d7d3-4486-8b32-8af3a6cce4ee
-hidefromtoc: yes
+title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2026.04.0 release
+description: Learn about the bug fixes in the 2026.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
+exl-id: 2861db0f-2086-445a-8b1d-27393f5b101d
 ---
-# Fixed issues in the 2026.03.0 release 
+# Fixed issues in the 2026.04.0 release 
 
-This article covers the bugs fixed in various areas of the 2026.03.0 release of Adobe Experience Manager Guides as a Cloud Service.
+This article covers the bugs fixed in various areas of the 2026.04.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For more information about the new features and enhancements, view [What's new in the 2026.03.0 release](whats-new-2026-03-0.md).
+For more information about the new features and enhancements, view [What's new in the 2026.04.0 release](whats-new-2026-04-0.md).
 
-Learn about [upgrade instructions for the 2026.03.0 release](upgrade-instructions-2026-03-0.md).
+Learn about [upgrade instructions for the 2026.04.0 release](upgrade-instructions-2026-04-0.md).
 
 ## Authoring
 
@@ -45,7 +44,7 @@ Learn about [upgrade instructions for the 2026.03.0 release](upgrade-instruction
 
 ## Known issues
 
-Adobe has identified the following known issues for the 2026.03.0 release:
+Adobe has identified the following known issues for the 2026.04.0 release:
 
 - A blank screen is loaded when creating a duplicate ServiceNow Knowledge Base preset. (GUIDES-42732)
 - The API for retrieving document state returns a null response for some files, causing incorrect document states to appear in the UI. (GUIDES-42561)
