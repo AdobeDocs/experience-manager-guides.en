@@ -609,7 +609,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Performance optimization for On-Premise](./install-conf-guide/perf-optimization-on-prem.md)         
     - Content migrate {#migrate-content-cs}
       - [Migrate existing content](./install-conf-guide/migrate-content.md)
-      - [Upload existing DITA content using Framemaker and WebDav tool (On-Prem)](./install-conf-guide/upload-dita-content.md)
+      - [Upload existing DITA content using Framemaker and WebDav tool for On-Premise](./install-conf-guide/upload-dita-content.md)
       - [Use Curl command to upload DITA content](./install-conf-guide/use-curl-command.md)
       - [Configure UUID file pattern](./install-conf-guide/conf-uuid-filename-pattern.md)
       - [Migrate non-DITA content](./install-conf-guide/non-dita-content.md)
