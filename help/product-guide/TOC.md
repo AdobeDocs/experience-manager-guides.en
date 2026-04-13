@@ -594,7 +594,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Install Adobe Experience Manager](./install-conf-guide/download-install-aem.md)
       - [Download and install AEM Guides for the first time](./install-conf-guide/download-install-aemg-first-time.md)
       - [Configure Dispatcher](./install-conf-guide/conf-dispatcher.md)
-      - [Uninstall AEM Guides](./install-conf-guide/unistall-aemg.md)
+      - [Uninstall AEM Guides](./install-conf-guide/uninstall-aemg.md)
     - [Verify AEM Guides installation](./install-conf-guide/verify-aemg-installation.md)
     - Upgrade AEM Guides {#upgrade-aemg}
       - Cloud Service {#cloud-service}
