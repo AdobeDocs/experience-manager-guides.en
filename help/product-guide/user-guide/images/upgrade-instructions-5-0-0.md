@@ -6,9 +6,9 @@ description: Learn about the compatibility matrix and how to upgrade to the 5.0.
 
 This article covers the upgrade instructions and the  compatibility matrix for 5.0.0 release of Adobe Experience Manager Guides.
 
-For more information about the new features and enhancements, view [What's new in the 5.0.0 release](../release-info/whats-new-5-0.md).
+For more information about the new features and enhancements, view [What's new in the 5.0.0 release](/help/product-guide/release-info/whats-new-5-0-0.md).
 
-For the list of issues that have been fixed in this release, view [Fixed issues in the 5.0.0 release](../release-info/fixed-issues-5-0-0.md).
+For the list of issues that have been fixed in this release, view [Fixed issues in the 5.0.0 release](/help/product-guide/release-info/fixed-issues-5-0-0.md).
 
 ## Compatibility matrix
 
@@ -20,7 +20,7 @@ This section lists the compatibility matrix for the software applications suppor
 
 Version 6.5 Service Pack 22, Service Pack 21, and Service Pack 20
 
-For more details, view the [Technical requirements](../install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
+For more details, view the [Technical requirements](/help/product-guide/install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
 
 ### FrameMaker and FrameMaker Publishing Server
 
@@ -62,4 +62,4 @@ You can easily upgrade your current version of Guides to version 5.0.0. Before y
 >
 >You must install AEM service pack before upgrading Experience Manager Guides version.
 
-For details, view [Upgrade instructions for the On-premise releases](../install-guide/upgrade-xml-documentation.md) of Experience Manager Guides.
+For details, view [Upgrade instructions for the On-premise releases](/help/product-guide/install-guide/upgrade-xml-documentation.md) of Experience Manager Guides.

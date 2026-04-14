@@ -152,13 +152,13 @@ Step 2: Once added, Drag, and drop the fragment that you want to reuse in any of
 
 ## FAQ
 
-- ### All content is not showing up after selection of file/key in the Reuse content dialog
+### All content is not showing up after selection of file/key in the Reuse content dialog
 
 Assign IDs to fragments (Dita elements) that you would like to reuse in other topics 
 
-- ## Keys are not showing up in the Reuse content dialog
+## Keys are not showing up in the Reuse content dialog
 
-  Make sure you have opened the root map/parent map in map-view, which has a key definition or add the root map path manually in the same dialog.
+Make sure you have opened the root map/parent map in map-view, which has a key definition or add the root map path manually in the same dialog.
 
 
 <br>

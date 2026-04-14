@@ -59,7 +59,7 @@ To add citations, follow these steps:
     |**Publisher** <br> Add the name of the publisher of the book. | **Published Date** <br> Add the date on which the content of the website is published.|**Number** <br> Add the number of the volume within the series. |
     | **Year** <br> Add the year in which the book is published.|**Updated Date** <br> Add the date on which the content of the website is updated.| **Pages** <br> Add the page number or page range in which the article is found. |
     | **Version** <br> Add the version of the book.| **Unique ID** <br> Add a unique ID for the citation. A Unique ID is a unique identifier for that citation.| **URL** <br>Add the web link to the journal. |
-    |**Series** <br>Add the series of the book. || **Unique ID** <br> Add a unique ID for the citation.A Unique ID is a unique identifier for that citation.|
+    |**Series** <br>Add the series of the book. | | **Unique ID** <br> Add a unique ID for the citation.A Unique ID is a unique identifier for that citation.|
     | **URL**  <br>  Add the web link to the book.|||
     | **Unique ID** <br> Add a unique ID for the citation. A Unique ID is a unique identifier for that citation.|||
 

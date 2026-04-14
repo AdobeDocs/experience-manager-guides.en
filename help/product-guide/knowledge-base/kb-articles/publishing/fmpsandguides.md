@@ -60,28 +60,28 @@ You can publish your already created baselines with FMPS2020.0.2 or higher versi
 
 ## FAQ and Troubleshooting:
 
--   ### FMPS publishing fails with "Timeout Exception"
+### FMPS publishing fails with "Timeout Exception"
 
 >Check and increase the value of "FMPS timeout" (Seconds) in /system/console/configMgr/com.adobe.fmdita.config.ConfigManager"
 
--   ### Unable to get FMPS preset in the dropdown
+### Unable to get FMPS preset in the dropdown
 
 >Make Sure you have a pre-defined FMPS preset created on Server and that your connection settings are correct.
 
--   ### I am getting Blank PDFs when publishing
+### I am getting Blank PDFs when publishing
 
 >If you are using UUID, then make sure you have checked "Use UUID based referencing" in FrameMaker Edit Preferences and conversely for non-UUID AEM guides.
 
--   ### My settings/ditaval are not getting applied in the final published output 
+### My settings/ditaval are not getting applied in the final published output 
 
 >Verify that you are not simultaneously choosing the FMPS preset and the setting/diaval file. Use FrameMaker to manually check output.
 
--   ### The baseline not getting published from FMPS
+### The baseline not getting published from FMPS
 
 >FMPS2020.0.2 or later versions are compatible with baseline publishing.
 >Make sure that your baseline was properly created; to check, go to the Map Dashboard-- Topics-- Download  Map and choose "Use Baseline".
 
--   ### Publish Tasks from FMPS takes more time than other Engines
+### Publish Tasks from FMPS takes more time than other Engines
 
 >When publishing from FMPS, the ideal fixed header time is approximately 3-4 minutes; if you believe it is longer, check with your FMPS administrator or contact Adobe Support.
 

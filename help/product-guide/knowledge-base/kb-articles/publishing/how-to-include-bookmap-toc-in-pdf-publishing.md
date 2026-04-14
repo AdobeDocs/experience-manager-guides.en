@@ -83,7 +83,7 @@ TOC and other Booklists order in PDF are based on bookmap's structure only.
 
 ## FAQ
 
-- ### How to Include a Ditamap's TOC in a PDF
+### How to Include a Ditamap's TOC in a PDF
 
 Ditamaps themselves don't directly have  a table of contents (TOC) like a bookmap does. However, ditamaps play a crucial role in defining the structure for your content and indirectly contribute to the TOC generation process.
 

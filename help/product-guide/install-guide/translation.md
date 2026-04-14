@@ -147,7 +147,7 @@ By default, when you perform a translation for the first time, empty XML files a
 
 
 
-<!---
+<!--
 
 This was added for 2406 CS IG
 
@@ -179,7 +179,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 1.  Click **Save**.
 
 
---->
+-->
 
 
 ## Configure post-processing of temporary language copies 
