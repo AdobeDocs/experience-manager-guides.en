@@ -45,7 +45,7 @@ Perform the following steps to create the AEM Sites preset using composite compo
 
     ![New ](images/new-aem-sites-dialog-box.png){width="300" align="left"}
 
-<!-----------------------
+<!--
 ### Generate the AEM Sites output using the templates
 
 Once, the preset is created, you can configure the various options available for AEM Sites output generation. Experience Manager Guides allows you to use the out of the box templates or add your own AEM Sites templates.
@@ -64,7 +64,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
    
    The **Topic page template** is automatically set as `Topic Page`. However, you can choose to select other available options in the dropdown.
 
---->
+-->
 
 ### AEM Sites preset configuration for composite component mapping
 

@@ -149,7 +149,7 @@ Displays the **Insert element** dialog box. Select the element that you want to 
 
 
 
-<!-----------------------------------------------------------
+<!--
 
 **Relationship table** - ![](images/relationship_table_icon.svg)
 
@@ -205,7 +205,7 @@ If you want to delete a topic from your table, click the cross icon next to the 
 **Delete the relationship table**
 
 If you want to delete the relationship table, click anywhere outside the relationship table and click Delete. For details, view [Work with relationship tables in the Map Editor](map-editor-basic-map-editor.md).
------>
+-->
 
 **Reusable content** - ![](images/reusable-content.svg)
 

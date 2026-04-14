@@ -11,11 +11,11 @@ Adobe Experience Manager Guides' Map Editor allows you to create and edit map fi
 
 Note that Global and Folder profile configuration is only available to folder-level administrative users. For the details on setting up global and folder-level profiles, view *Configure authoring templates* in  Install and configure Adobe Experience Manager Guides for your setup.
 
-<!------------------------------------
+<!--
 
 The Map Editor comes in two modes — the Basic Map Editor and the Advanced Map Editor. The Basic Map Editor is available only through configuration. If your administrator has enabled it, then only the Basic Map Editor will be available for use. By default, all new maps are opened for editing in the Advanced Map Editor. The Advanced Map Editor is available within the Editor itself, which is used for editing DITA topic files.
 
--------->
+-->
 
 This topic walks you through the process of creating a DITA map and then using the Map Editor to edit map files.
 

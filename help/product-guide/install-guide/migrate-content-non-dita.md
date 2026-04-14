@@ -283,7 +283,8 @@ To convert unstructured Adobe FrameMaker content (.fm and .book) to structured D
 
 After conversion, the structured content can be migrated into AEM Guides.  For more details, view [Upload existing DITA content](./migrate-content-upload-existing-dita-content.md). 
 
-<!-- Deprecated information -
+<!--
+Deprecated information -
  //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
 
 Also, If you want to specify some additional attributes with your custom or valid DITA element, you can define those in the style2attrMap.xml file. For example, you can specify the `type` attribute with the value of `important` to be passed on with the `impnote` element. This additional information can be specified in the style2attrMap.xml file.

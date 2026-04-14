@@ -31,8 +31,6 @@ This section lists the compatibility matrix for the software applications suppor
 | [!DNL AEM Guides] Cloud Release | Oxygen Connector Windows | Oxygen Connector Mac | Edit in Oxygen Windows | Edit in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2.2 | 2.2 |
-|  |  |  |  |  |  |
-
 
 ## New features and enhancements
 
@@ -44,7 +42,7 @@ This feature allows the users to build the DITA map in an additive fashion and p
 
 ![Article-based publishing](assets/article-based-publishing.png)
 
-In addition to AEM, you can use this unique feature to publish your articles to any knowledgebase portals such as Salesforce. This feature also comes with an OOTB content template, built on top of AEM core components, which lets you create a knowledge-based repository of the technical content. What’s great about this template is that it is completely customizable to suit your organizational requirements and can also support use cases like corporate intranet portals.
+In addition to AEM, you can use this unique feature to publish your articles to any knowledgebase portals such as Salesforce. This feature also comes with an OOTB content template, built on top of AEM core components, which lets you create a knowledge-based repository of the technical content. What's great about this template is that it is completely customizable to suit your organizational requirements and can also support use cases like corporate intranet portals.
 You can also filter the articles based on their document state and modified time. 
 
 This on-the-go need-based article publishing not only gives you complete control on your content publishing, but also reduces the overall time to publish your updated content.
@@ -226,7 +224,7 @@ The bugs fixed in various areas are listed below:
 * Document profile is not getting deleted. (8604)
 * References break on performing "Select All" and moving the multimedia/Dita_Content to some other folder. (8621)
 * Incorrect references  occur in source on moving the assets. (8627)
-* Fixed list view doesn’t get loaded. (8542)
+* Fixed list view doesn't get loaded. (8542)
 
 ### Content import
 

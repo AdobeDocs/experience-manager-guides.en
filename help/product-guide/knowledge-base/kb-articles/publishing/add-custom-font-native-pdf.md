@@ -33,7 +33,7 @@ This process involves 3 steps:
 
 ## FAQ
 
-- ### Can I use Adobe Fonts?
+### Can I use Adobe Fonts?
 
 > Yes, Go to fonts.adobe.com and click "Add to web project."
 > 
@@ -44,13 +44,13 @@ This process involves 3 steps:
 ![Use adobe font in DITA PDF](../assets/publishing/custom-font4.png)
 
 
-- ### My font is not showing in PDF
+### My font is not showing in PDF
 
 > Double check font name spelling (most common mistake)
 >
 > Make sure you are embedding font if fonts are not available on the system where PDF is opened
 
-- ## For any other queries contact your respective CSMs
+## For any other queries contact your respective CSMs
 
 
 ## Other Resources:
