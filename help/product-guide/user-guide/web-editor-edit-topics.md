@@ -59,7 +59,7 @@ Experience Manager Guides also allows you to select content across elements. Aft
 
 >[!BEGINTABS]
 
->[!TAB Editor 1.0]
+>[!TAB Classic Editor]
 
 Make the selected content bold, italics, underline the selected content. The content from the valid open tags is then merged and appears under a single element. For example, you can select the content within a paragraph and extend the selection to another paragraph. Then, if you make the selected content bold, all the bold content from the open tags is merged and appears under a single paragraph element.
 
@@ -68,7 +68,6 @@ Make the selected content bold, italics, underline the selected content. The con
 You can format the selected content as bold, italics, or underline using the contextual menu. Select the content, then click the appropriate formatting icon in the menu that appears. Make the selected content bold, italics, or underline. The content from the valid open tags is then merged and appears under a single element.
 
 ![Formatting options](./images/formatting-options.png)
-
 
 >[!ENDTABS]
 
