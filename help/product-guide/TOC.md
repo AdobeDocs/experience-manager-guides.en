@@ -223,6 +223,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)   
         - [Document state](./user-guide/web-editor-document-states.md)
         - [Use labels](./user-guide/web-editor-use-label.md)
+        - [Editor settings](./user-guide/config-editor-settings.md)
     - Map Editor {#map-editor}
         - [Introduction to the Map Editor](./user-guide/map-editor.md)
         - [Create a map](./user-guide/map-editor-create-map.md)
