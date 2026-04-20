@@ -3,13 +3,13 @@ title: FAQ about Publishing Performance and Scalability in Adobe Experience Mana
 description: Learn about the frequently asked questions on Publishing Performance and Scalability in Adobe Experience Manager Guides.
 ---
 
-# Asset Processing
+# Asset processing
 
 Asset Processing is a critical workflow responsible for ensuring that content assets are structured, validated, indexed, and made accessible within the platform. With evolving scalability demands and cloud-native requirements, the architecture has undergone a significant transformation from a single-threaded, hierarchical processing model to a distributed, graph-enabled, multi-threaded system.
 
-## Current Asset Processing Flow
+## Current asset processing workflow
 
-### Processing Overview
+### Processing overview
 
 When an asset is imported into Experience manager Guides, the following sequential processing steps are executed:
 
@@ -40,19 +40,21 @@ The core processing steps remain functionally consistent but are now executed wi
     - Processing is executed across multiple pods in a cloud environment
     - Removes dependency on a single leader node
     - Enables horizontal scalability and parallel execution  
-- **Elimination of Parent-Map Dependency:**
+- **Elimination of parent map dependency:**
     - Removes need for explicit graph traversal
     - Reduces I/O operations and processing latency
     - Simplifies processing pipeline
-- **Synchronized Unique ID Allocation**
+- **Synchronized unique ID allocation**
     - Centralized coordination ensures:
     - No duplication of document IDs
     - Consistency across distributed nodes
     - Maintains referential integrity in a concurrent environment
-- **Cloud-Native Scalable Database (AWS Hosted)**
+- **Cloud-native scalable database (AWS hosted)**
     - Highly available and resilient database layer
     - Supports elastic scaling based on workload
     - Improves overall system reliability and performance 
+
+![](images/workflow.png){align="left"}    
 
 ## Advantages of the new architecture
 
@@ -63,7 +65,7 @@ The core processing steps remain functionally consistent but are now executed wi
 - Scalability:
     - Horizontal scaling across pods enables handling of large ingestion volumes
     - Cloud-native infrastructure adapts dynamically to workload demands
-- Reliability & availability:
+- Reliability and availability:
     - Distributed processing removes single point of failure
     - AWS-hosted database ensures high availability and fault tolerance
 - Efficiency gains:
@@ -79,7 +81,7 @@ Experience Manager Guides enables streamlined database configuration for AEM Clo
 
 1. Access the AEM Cloud Manager: Navigate to Adobe Experience Cloud Manager using the URL below, replacing the placeholders with your organization, program, and environment details: `https://experience.adobe.com/#/${orgName}/cloud-manager/environments.html/program/${programId}/environment/${envId}` 
 
-1. Configure the Environment: After you open the environment configuration page through Cloud Manager, you will be able to adjust the settings specific to your instance, including setting up the required database configurations.
+1. Configure the environment: After you open the environment configuration page through Cloud Manager, you will be able to adjust the settings specific to your instance, including setting up the required database configurations.
 
 This streamlined approach ensures easy access and configuration for AEM environments within the Adobe cloud infrastructure.
 
@@ -96,9 +98,11 @@ This streamlined approach ensures easy access and configuration for AEM environm
 | DATABASE_CONNECTION_POOL_SIZE    | `10`                             | Author          | Variable |
 
 
-1. Save Changes: After making the configuration changes, ensure you **save** them within the Cloud Manager interface.
+![](images/environment-config.png){width="350" align="left"}
 
-1. System Availability: Once the configurations are fully applied, open GET `http://host/bin/guides/v1/system/status` and check for below properties:
+1. Save changes: After making the configuration changes, ensure you **save** them within the Cloud Manager interface.
+
+1. System availability: Once the configurations are fully applied, open GET `http://host/bin/guides/v1/system/status` and check for below properties:
     - `<isDatabase>`: must be true
     - `<databaseConnectionCheck>`: must be passed
     
@@ -227,7 +231,11 @@ AEM supports bulk content ingestion through supported cloud storage providers, a
 
 - Predictable ingestion planning: Users can estimate ingestion duration in advance, which helps with release planning, scheduling, and coordination with dependent teams.
 
+    ![](images/ingestion-time.png){width="350" align="left"}
+
 - Comprehensive logging and tracking: The ingestion workflow includes detailed logging and tracking capabilities, providing visibility into progress, success states, and potential issues throughout the import process.
+
+    ![](images/bulk-import-job.png){width="350" align="left"}
 
 - Scheduled ingestion: Content ingestion can be scheduled to occur during predefined time windows, ensuring minimal or no impact on end users and ongoing operations.
 
