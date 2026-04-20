@@ -189,8 +189,7 @@ To migrate content that was uploaded and processed before switching Experience M
 
 ### Check migration status
 
-endpoint:
-GET /bin/guides/v1/assets/process/status?processingId=<processingId>
+endpoint: `GET /bin/guides/v1/assets/process/status?processingId=<processingId>`
 
 ### Cancel a running migration
 
