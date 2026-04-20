@@ -79,11 +79,11 @@ Experience Manager Guides enables streamlined database configuration for AEM Clo
 
 1. Access the AEM Cloud Manager: Navigate to Adobe Experience Cloud Manager using the URL below, replacing the placeholders with your organization, program, and environment details: `https://experience.adobe.com/#/${orgName}/cloud-manager/environments.html/program/${programId}/environment/${envId}` 
 
-2. Configure the Environment: After you open the environment configuration page through Cloud Manager, you will be able to adjust the settings specific to your instance, including setting up the required database configurations.
+1. Configure the Environment: After you open the environment configuration page through Cloud Manager, you will be able to adjust the settings specific to your instance, including setting up the required database configurations.
 
 This streamlined approach ensures easy access and configuration for AEM environments within the Adobe cloud infrastructure.
 
-3. Configure the below properties:
+1. Configure the below properties:
 
 
 | Property Name                     | Value                          | Service Applied | Type     |
@@ -96,9 +96,9 @@ This streamlined approach ensures easy access and configuration for AEM environm
 | DATABASE_CONNECTION_POOL_SIZE    | `10`                             | Author          | Variable |
 
 
-4. Save Changes: After making the configuration changes, ensure you **save** them within the Cloud Manager interface.
+1. Save Changes: After making the configuration changes, ensure you **save** them within the Cloud Manager interface.
 
-5. System Availability: Once the configurations are fully applied, open GET `http://host/bin/guides/v1/system/status` and check for below properties:
+1. System Availability: Once the configurations are fully applied, open GET `http://host/bin/guides/v1/system/status` and check for below properties:
     - `<isDatabase>`: must be true
     - `<databaseConnectionCheck>`: must be passed
     
