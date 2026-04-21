@@ -23,14 +23,14 @@ Learn about [upgrade instructions for the 2026.05.0 release](upgrade-instruction
 
 ## Asset management
 
-- When creating an asset inside an existing DAM folder (with one or more space characters in its `node name`), a duplicate folder with the same name is created, and the asset is saved there instead of its original location. (GUIDES-41938)
+- Creating a topic in a DAM folder with spaces in its name incorrectly creates a duplicate folder where spaces are replaced by hyphens, and the topic is saved there instead of the original folder. (GUIDES-41938)
 - During first-time translation of large maps, empty XML files are created for the destination language, leading to increased server load and slower performance. (GUIDES-41613)
 - In DB-based environments, valid internal DITA links appear as broken links in **Asset Properties**, even though they work correctly in the Editor and in published output. (GUIDES-35048)
 
 ## Publishing 
 
 - When changes to an output preset in a Folder profile are applied to existing maps, the saved **Publish Context** for the AEM Sites preset is reset. (GUIDES-38377)
-- The trademark symbol `(&reg;)` is not rendered in cover page of Native PDF output when `tm` element is used within the title of a map or bookmap. (GUIDES-28832)
+- The trademark symbol (&reg;) does not render on the cover page of the Native PDF output when the `tm` element is used within the title of a map or bookmap. (GUIDES-28832)
 - When publishing a map using a Native PDF template, the **Map title** does not include content from the child elements used within the map `title`, and the corresponding content filtering is not applied to the title.(GUIDES-33730)
 - Cross-map peer links in AEM Sites output fail to resolve when they point to a `topicref` that uses `chunk="to-content"`. (GUIDES-37873)
 - During publishing, files associated with DITAVAL-based flagging are moved to a new system-generated folder instead of remaining in their expected relative location in the output. (GUIDES-37564)
@@ -48,26 +48,26 @@ Learn about [upgrade instructions for the 2026.05.0 release](upgrade-instruction
 
 - After enabling a new language from the **Configure languages** dialog, values from another language are displayed for the selected language in the dropdown list under **Language variables**. (GUIDES-38854)
 
-## Issues fixed with Editor 2.0
+## Resolved issues available with Editor 2.0
 
-The following issues around Authoring have been addressed and resolved with Editor 2.0:
+The following issues have been fixed, and no longer occur when using Editor 2.0:
 
 - When two or more columns are deleted from a table, the table structure becomes inconsistent or corrupted. (GUIDES-35438)
 - When a column is deleted from a table that contains merged cells, a new blank column is added. (GUIDES-30147)
 - When a new row is inserted in an existing table from the breadcrumbs menu, the table structure changes unexpectedly, resulting in missing borders and an extra column. (GUIDES-24372, GUIDES-29194)
-- When a section element selected using mouse drag in Author mode is copied and pasted, it is converted into paragraph (<p>) elements instead of retaining the section structure. (GUIDES-30023)
+- When a section element selected using mouse drag in Author mode is copied and pasted, it is converted into paragraph `(<p>)` elements instead of retaining the section structure. (GUIDES-30023)
 - When highlighted text inside elements such as step or uicontrol is edited, the selected text is not replaced correctly and is appended or prepended instead, resulting in validation errors. (GUIDES-24371)
 - When a table column width is set using relative values, the remaining columns render incorrectly, resulting in a misaligned table layout. (GUIDES-26109)
 - When a copied topic title is pasted with tags disabled, the first paste applies incorrect styling and assigns the type as topic instead of title. (GUIDES-28838)
-- When large sections of content are edited, unintended scroll movement causes the editor view to jump away from the active content. (GUIDES-35436)
-- When Backspace is used on elements, the editor scrolls to the top of the topic regardless of the cursor position. (GUIDES-32520)
+- When large sections of content are edited, unintended scroll movement causes the Editor view to jump away from the active content. (GUIDES-35436)
+- When Backspace is used on elements, the Editor scrolls to the top of the topic regardless of the cursor position. (GUIDES-32520)
 - When the left or right arrow key is used to move out of inline tags, the cursor jumps unexpectedly on the first attempt. (GUIDES-26363)
 - When switching between Author and Source views in long topics, the cursor position is lost. (GUIDES-21164)
 - AEM Spellcheck works only for the default en-US language and does not honor other locales. (GUIDES-14731)
-- When large DITA topics are unlocked in the Editor, the same topic reopens in a duplicate tab. Additionally, tag-limit warning is displayed `NaN` instead of the actual tag count. (GUIDES-34008)
-- When documents are locked, unlocked, or switched to read-only mode in the Editor, the Acrolinx integration does not refresh correctly because the editor state is not updated properly. (GUIDES-29614)
-- When switching between Author and Source views in long topics, the cursor position is not retained and the editor scrolls back to the top of the topic. (GUIDES-18114)
-- When creating a new reltable without a header row in Author view with tags enabled, the table layout changes after a topic is added to the first cell, causing the next column to collapse and making it difficult to place related topics. (GUIDES-19555)
-- When an xref link is added to a small table cell in Author mode, the link does not stay contained within the cell and appears across adjacent cells in the same row. (GUIDES-5489)
+- When large DITA topics are unlocked in the Editor, the same topic reopens in a duplicate tab. Additionally, a tag-limit warning is triggered where `NaN` is displayed instead of the actual tag count. (GUIDES-34008)
+- When a read-only document is unlocked in the Editor, the selection controls in the **Content properties** panel remain disabled. Because Acrolinx depends on those fields to become interactive again, Acrolinx checks cannot run.  (GUIDES-29614)
+- When switching between Author and Source views in long topics, the cursor position is not retained and the Editor scrolls back to the top of the topic. (GUIDES-18114)
+- When creating a new `reltable` without a header row in Author view, the table layout changes after a topic is added to the first cell, causing the next column to collapse and making it difficult to place related topics. (GUIDES-19555)
+- When an `xref` link is added to a small table cell in Author mode, the link does not stay contained within the cell and appears across adjacent cells in the same row. (GUIDES-5489)
 
 
