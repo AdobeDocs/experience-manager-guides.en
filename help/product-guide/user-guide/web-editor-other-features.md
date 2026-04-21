@@ -392,6 +392,10 @@ The key features aimed at improving the handling of large files are mentioned as
 
 - An alert message is displayed at the top for large files, as shown in the snippet below. This alert highlights the number of elements based on the value specified in the **largeFileTagCount** parameter of the uiconfig.json file. By default, **largeFileTagCount** is set to 2500.
 
+    >[!NOTE]
+    >
+    > In Editor 2.0,  the `largeFileTagCount` limit has been increased, hence the warning is not triggered when handling large files.
+
 ![](images/add-toast-notification.png){width="600" align="left"}
 
 
