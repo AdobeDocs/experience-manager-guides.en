@@ -12,7 +12,8 @@ The publishing service uses a [microservice-based architecture](https://experien
 
 ## Execution Environment
 
-- **Environment**: author-p35602-e1337052.adobeaemcloud.com
+- **AEM release**:2026.4.25322.20260407T085152Z
+- **Guides Add-on release**: 2026.5.0
 - **Initial pod count**: 2 pods
 - **Autoscaling behavior**: Scaled up to 4 pods across 4 nodes as load increased
 - **vCPUs**: 10
@@ -21,7 +22,7 @@ The publishing service uses a [microservice-based architecture](https://experien
 
 >[!NOTE]
 >
-> The benchmark was not intended to measure multi-user concurrency. The focus was on publishing behavior under increasing map size.
+> This exercise focused on how publishing behaves as map size increases, highlighting the impact of larger maps on throughput, latency, and overall publish completion under load.
 
 
 ## Output generation numbers
@@ -36,8 +37,6 @@ The publishing service uses a [microservice-based architecture](https://experien
 | 5000    | 496.319            | Yes          |
 | 10000   | 922.602            | Yes          |
 
-**Analysis**: Best observed performance is around load = 100–1000. Performance degrades beyond ~1000, with worst at 5000. 433% increase (93s→496s) between 1000→5000 – Major bottleneck.
-
 **Native PDF**
 
 | MapSize | Execution Time (s) | Microservice |
@@ -47,8 +46,6 @@ The publishing service uses a [microservice-based architecture](https://experien
 | 1000    | 108.666            | Yes          |
 | 5000    | 201.379            | Yes          |
 | 10000   | 1170.689           | Yes          |
-
-**Analysis:** 85% increase (109s→201s) between 1000→5000 – Moderate degradation. Non-linear scaling observed at higher volumes.
 
 **PDF**
 
@@ -60,8 +57,6 @@ The publishing service uses a [microservice-based architecture](https://experien
 | 5000    | 247.505            | Yes          |
 | 10000   | 686.61             | Yes          |
 
-**Analysis**: 221% increase (77s→248s) between 1000→5000: Significant degradation.
-
 **HTML5**
 
 | MapSize | Execution Time (s) | Microservice |
@@ -72,11 +67,8 @@ The publishing service uses a [microservice-based architecture](https://experien
 | 5000    | 170.237            | Yes          |
 | 10000   | 419.166            | Yes          |
 
-**Analysis:** Consistent increase with map size. 120% increase (77s→170s) between 1000→5000: Best scalability.
-                          
-
+ 
 ## Key observations
 
-- **Significant performance degradation at higher map sizes**: Native AEM Site and Native PDF show a sharp increase of approximately 433% and 481%, respectively, when map size increases from 1,000 to 5,000, indicating potential scalability bottlenecks that require further investigation.
-- **No system errors observed during testing**: Analysis of Splunk logs indicates no major errors were recorded throughout the test duration, suggesting that the performance degradation is not due to runtime failures but likely related to resource or processing constraints.
-
+- AEM Site generation time depends on the template being used. Execution time may increase if a complex template is used.
+- Custom publishing execution time is based on a sample custom output. Custom publishing time solely depends on customer's own transformation logic. 
