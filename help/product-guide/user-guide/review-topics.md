@@ -169,7 +169,7 @@ When collaborating on a review task with multiple reviewers, you can enhance com
 
 ![](images/tag-users-review-ui.png){width="350" align="left"}
 
-Tagged users receive both an email and an AEM notification, ensuring they’re promptly informed. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md). 
+Tagged users receive both an email and an AEM notification, ensuring they're promptly informed. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md). 
 
 ![](images/mentioned-in-tags-author.png){width="350" align="left"}
 
@@ -267,5 +267,16 @@ Select one or more of the following filtering options from the **Filter Type** d
 
 
 To remove the filter and view all the comments, deselect all filters from the **Filter Type** dialog and select **Apply**.
+
+
+## Version history for the Reviewer
+
+The Version history for the topics sent for review allows reviewers to view and compare content versions associated with their review tasks. The **Version history** icon appears for a topic only after the review task is closed from both the Author and Reviewer's end and then a new review task is created using the for the same topic.
+
+![](images/version-history-icon.png){align="left"}
+
+Reviewers can then use the Version history dialog to compare the current version with earlier closed versions, review comments and labels, and check task‑related details, ensuring continuity across review cycles. The **Version history** dialog allows reviewers to preview the versions being compared and view related details, such as labels and comments, through dedicated tabs.
+
+![](images/version-history-dialog.png){align="left"}
 
 **Parent topic:**[Introduction to review](review.md)
