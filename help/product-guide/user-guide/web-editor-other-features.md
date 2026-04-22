@@ -394,7 +394,7 @@ The key features aimed at improving the handling of large files are mentioned as
 
     >[!NOTE]
     >
-    > In Editor 2.0,  the `largeFileTagCount` limit has been increased, hence the warning is not triggered when handling large files.
+    > This alert message applies only to the Classic Editor, where it is displayed based on the configured `largeFileTagCount` parameter. In Editor 2.0, large files load seamlessly without triggering any alerts. Additionally, related functionalities that do not work in the Classic Editor function normally in Editor 2.0.
 
 ![](images/add-toast-notification.png){width="600" align="left"}
 
