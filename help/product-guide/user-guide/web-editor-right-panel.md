@@ -23,9 +23,23 @@ The right panel gives you access to the following features:
 
 ## Content properties
 
-You can access the **Content properties** feature by selecting the **Content properties** icon in the right panel. The **Content properties** panel contains information about the type of currently selected element in the document and its attributes. 
+You can access the **Content properties** feature by selecting the **Content properties** icon in the right panel. The **Content properties** panel contains information about the type of currently selected element in the document and and its attributes. 
 
-**Type**: You can view and select the tags of the complete hierarchy for the current tag from the dropdown.
+For referenced content, the panel also shows the **Link path** and **Link UUID** options that help you identify and copy the selected reference.
+
+>[!NOTE]
+>
+> For HTML-based files, the Link path and Link UUID options are not available. These files continue to use the existing **Link URL**  behavior. 
+
+![](images/web-editor-cross-ref-options.png)
+
+**Type**: View and select the tags of the complete hierarchy for the current tag from the dropdown.
+
+**Link path**: Shows the absolute path of the selected reference. Use **Copy Path** to copy the full path.
+
+**Link UUID**: Shows the UUID of the selected reference. Use **Copy UUID** to copy the UUID.
+
+If you paste a valid UUID directly into the Link path field, it automatically gets resolved to the absolute file path, and the corresponding UUID is displayed in the Link UUID field. This makes it easier to identify and copy both the asset path and its UUID-based reference.
 
 **Attributes**: The **Attributes** dropdown panel is available in Layout, Author, and Source views. You can easily add, edit, or delete the attributes.
 

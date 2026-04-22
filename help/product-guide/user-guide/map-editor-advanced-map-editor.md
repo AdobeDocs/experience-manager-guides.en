@@ -347,11 +347,13 @@ To edit topics through a DITA map, perform the following steps:
 
 ## Right panel in the Map Editor 
 
-The right panel displays the Content Properties and the Map Properties in the Layout view of the Map Editor.
+The right panel displays the Content properties and the Map properties in the Layout view of the Map Editor.
 
 **Content properties**
 
-The Content properties panel contains information about the type of currently selected topic in the map, its link URL, and its attributes. For more details, view [Content Properties](web-editor-features.md#right-panel) in the Editor.
+The Content properties panel contains information about the currently selected topic in the map, including its type, Link path, Link UUID, and attributes. 
+
+For more details, view [Content Properties](web-editor-features.md#right-panel) in the Editor.
 
 -   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under **Display attributes**. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the `audience` attribute are defined as `US`.
 
