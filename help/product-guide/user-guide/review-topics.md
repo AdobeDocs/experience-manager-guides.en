@@ -271,11 +271,13 @@ To remove the filter and view all the comments, deselect all filters from the **
 
 ## Version history for the Reviewer
 
-The Version history for the topics sent for review allows reviewers to view and compare content versions associated with their review tasks. The **Version history** icon appears for a topic only after the review task is closed from both the Author and Reviewer's end and then a new review task is created using the for the same topic.
+The Version history for topics under review enables reviewers to view and compare previously reviewed and updated versions of the same topic. This helps reviewers validate changes made since the last review in the current review context. 
+
+The Version history icon appears only after a review task is closed by both the author and the reviewer, and a new review task is created for the same topic. This ensures that reviewers can compare the current version against earlier reviewed versions.
 
 ![](images/version-history-icon.png){align="left"}
 
-Reviewers can then use the Version history dialog to compare the current version with earlier closed versions, review comments and labels, and check task‑related details, ensuring continuity across review cycles. The **Version history** dialog allows reviewers to preview the versions being compared and view related details, such as labels and comments, through dedicated tabs.
+Reviewers can then use the Version history dialog to compare the current version with earlier versions, review comments and labels, and check task‑related details, ensuring continuity across review cycles. The **Version history** dialog allows reviewers to preview the versions being compared and view other related details, such as labels and comments.
 
 ![](images/version-history-dialog.png){align="left"}
 
