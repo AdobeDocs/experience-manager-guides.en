@@ -42,8 +42,22 @@ Perform the following steps to create a topic from the Editor:
     ![](images/create-topic-dialog-new.png){width="300" align="left"}
     
 The topic is created at the specified path. Also, the topic is opened in the Editor for editing. 
-    
+
+>[!BEGINTABS]
+
+>[!TAB Classic Editor]
+
+This view displays how the content is rendered in the Classic Editor.
+   
 ![](images/new-topic-editor.png){align="left"}
+
+>[!TAB Editor 2.0]
+
+This view displays how the content is rendered in the Editor 2.0.
+
+![](images/new-topic-editor-new -editor-2-0.png){align="left"}
+
+>[!ENDTABS]
 
 ## Create topics from the Assets UI 
 
@@ -76,6 +90,10 @@ Perform the following steps to create a topic from the Assets UI:
     You can choose to open the topic for editing in the Editor, or the save the topic file in the Adobe Experience Manager repository.
 
 **Additional information**
+
+>[!NOTE]
+>
+> The UI may vary depending on the Editor you are using.
 
 1. Every new topic that you create from the Assets UI **Create** \> **DITA Topic** or the Editor is assigned a unique topic ID. The value of this ID is the file name itself. Also, a new document is saved as the latest working copy of the topic in DAM. Until you save a revision of a newly created topic, you will not view any version number in the Version History. If you open the topic for editing, the version information is shown in the right top corner of the toolbar:
 
