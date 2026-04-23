@@ -81,7 +81,22 @@ To open a topic in the Editor, follow these steps:
 
     The topic opens in the Editor.
 
+    >[!BEGINTABS]
+
+    >[! TAB Classic Editor]
+
+    Edit mode in the Classic Editor:
+
     ![](images/edit-mode.png){align="left"}
+
+    >[! TAB Editor 2.0 ]
+    
+    Edit mode in the Editor 2.0:
+
+    ![](images/edit-mode-editor-2-0.png){align="left"}
+
+    >[!ENDTABS]
+ 
 
 You can also open a map file in the Assets UI and launch the Editor to edit the topics in the map file.  
 
@@ -120,11 +135,22 @@ To open the Editor from the Map console, follow these steps:
 
     The map file containing the topics is open for editing in the Editor.
 
+
+     >[!BEGINTABS]
+
+    >[! TAB Classic Editor]
+
+    Map edit mode in the Classic Editor:
+
     ![](images/map-console-edit-topics.png){align="left"}
 
+    >[! TAB Editor 2.0 ]
+    
+    Map edit mode in the Editor 2.0:
 
- 
+    ![](images/map-console-edit-topics-editor-2-0.png){align="left"}
 
+    >[!ENDTABS]
 
-
+    
 **Parent topic**: [Introduction to the Editor](web-editor.md)
