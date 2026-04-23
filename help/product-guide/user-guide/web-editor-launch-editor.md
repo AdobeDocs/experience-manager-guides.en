@@ -85,13 +85,13 @@ The topic opens in the Editor.
 
 >[!TAB Classic Editor]
 
-Edit mode in the Classic Editor:
+This view displays how the content is rendered in the Classic Editor
 
 ![](images/edit-mode.png){align="left"}
 
 >[!TAB Editor 2.0 ]
     
-Edit mode in the Editor 2.0:
+This view displays how the content is rendered in Editor 2.0
 
 ![](images/edit-mode-editor-2-0.png){align="left"}
 
