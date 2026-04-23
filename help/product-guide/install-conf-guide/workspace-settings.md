@@ -76,6 +76,11 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
     -  **Show subject scheme in the Conditions panel**: Select this to view a subject scheme in the conditions panel. If you deselect this, the defined conditions are shown in the conditions panel.
 
 - **Spell check**
+
+    >[!NOTE]
+    >
+    > Spell check works based on the language set for the topic or the AEM server, rather than being limited to `en_us`.This allows spell check to function in other supported languages as configured. For correct behavior, the dictionary for the selected language must be available.
+
     There are two options — **AEM spell check** and **Browser spell check**. By default, the editor uses the Browser spell check feature, wherein the spell-check is performed using the browser's in-built dictionary. You can switch to AEM spell check to use Adobe Experience Manager's dictionary, which can also be customized to add your custom word list. For more information about customizing AEM dictionary, view [Customize AEM's default dictionary](../install-conf-guide/customize-aem-default-dictionary.md) section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.    
 
  
