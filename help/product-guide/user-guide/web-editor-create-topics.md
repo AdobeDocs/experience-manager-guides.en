@@ -55,7 +55,7 @@ This view displays how the content is rendered in the Classic Editor.
 
 This view displays how the content is rendered in the Editor 2.0.
 
-![](images/new-topic-editor-new -editor-2-0.png){align="left"}
+![](images/new-topic-editor-new-editor-2-0.png){align="left"}
 
 >[!ENDTABS]
 
