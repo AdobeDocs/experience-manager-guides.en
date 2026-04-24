@@ -77,12 +77,16 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
 - **Spell check**
 
-    >[!NOTE]
-    >
-    > AEM spell check uses the language selected in the language property of the file, if the language is not specified for the file, spell check falls back to the AEM server language. 
-    > To ensure accurate spell‑check results, the dictionary for the selected language must be available in AEM. If the required dictionary for the configured language is unavailable, spell check defaults to `en_us`. For more information about customizing AEM dictionary, view [Customize AEM's default dictionary](../install-conf-guide/customize-aem-default-dictionary.md).
+    There are two options: AEM spell check and Browser spell check.
+    
+    - **Browser spell check**: By default, the editor uses the Browser spell check feature, wherein the spell-check is performed using the browser's in-built dictionary. 
+    
+    - **AEM spell check**: You can switch to AEM spell check to use Adobe Experience Manager's dictionary, which can also be customized to add your custom word list. For more information about customizing AEM dictionary, view [Customize AEM's default dictionary](../install-conf-guide/customize-aem-default-dictionary.md). 
 
-    There are two options: **AEM spell check** and **Browser spell check**. By default, the editor uses the Browser spell check feature, wherein the spell-check is performed using the browser's in-built dictionary. You can switch to AEM spell check to use Adobe Experience Manager's dictionary, which can also be customized to add your custom word list. For more information about customizing AEM dictionary, view [Customize AEM's default dictionary](../install-conf-guide/customize-aem-default-dictionary.md).    
+        >[!NOTE]
+        >
+        > AEM spell check uses the language selected in the language property of the file, if the language is not specified for the file, spell check falls back to the AEM server language. 
+        >To ensure accurate spell‑check results, the dictionary for the selected language must be available in AEM. If the required dictionary for the configured language is unavailable, spell check defaults to `en_us`.   
 
  
 ## Panels
