@@ -88,11 +88,13 @@ For details, view [New baseline in Experience Manager Guides](../user-guide/web-
 
 ## Enhanced reference visibility and read-only behavior controls
 
-The latest update improves the reference management across maps and topics by introducing enhanced visibility and control over linked assets. You can now view both the path and corresponding UUID for the references (through Link path and Link UUID options in Content properties panel), along with dedicated options to copy each value. 
+This update introduces explicit visibility of both Link Path and Link UUID for internal references across maps and topics. Users can now access and copy the complete absolute path as well as the associated UUID directly from the interface, improving traceability and reuse of linked assets. Additionally, the system supports automatic resolution of references when a UUID is provided, converting it into the corresponding path
 
-The system continues to maintain existing behavior for path resolution, while additionally enabling automatic resolution when a UUID is provided as input. These enhancements are consistently available across supported reference types, including multimedia assets, while external links continue to follow existing behavior without UUID support. This update streamlines traceability and reuse of content references without altering established workflows.
+For details, view [Content properties](../user-guide/web-editor-right-panel.md#content-properties).
 
-For details, view [Content properties](../user-guide/web-editor-right-panel.md#content-properties),
+## Refined Read-only mode behavior
+
+This update refines read-only mode by limiting restrictions to supported file types such as data files, XML, and markdown (including common extensions). In these files, modifications to file properties, document state tags, and metadata are restricted when in read-only mode. These restrictions no longer apply to unsupported formats such as JSON. For HTML-based files, the behavior remains unchanged, with restrictions applicable only within the File Properties section.
 
 
 
