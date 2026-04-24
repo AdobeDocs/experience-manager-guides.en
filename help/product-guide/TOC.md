@@ -664,6 +664,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Configure display of pasted tables for Cloud Service](./install-conf-guide/conf-pasted-tables.md) 
           - [Configure single topic PDF generation for Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
           - [Configure Translation feature in the Web Editor for Cloud Service](./install-conf-guide/conf-translation-editor.md)
+          - [Configure the ignore list of metadata properties for Cloud Service](../install-conf-guide/conf-metadata-prop.md)
       - Editor setting for On-Premise {#editor-on-prem-settings}
           - [Configure additional special characters for On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
           - [Configure the title for Check in and Check out icons for On-Premise](./install-conf-guide/conf-checkin-checkout-title.md)

@@ -600,7 +600,11 @@ Connect with your data source and use the data to create content. Learn how to [
 
 The **Version information & Save as new version** feature combines version tracking and content saving into a single functionality.
 
-- Version information displays the current version of the topic or map. An asterisk (*) appears next to the version number to indicate unsaved changes. 
+- Version information displays the current version of the topic or map. An asterisk `(*)` appears next to the version number to indicate that changes are saved in the document but are not versioned. 
+
+    >[!NOTE]
+    >
+    > Any changes to the metadata fields available under [File properties](./web-editor-right-panel.md#file-properties) or applied at the backend will also trigger the asterisk `(*)` on the document version.  To prevent system-generated metadata updates from affecting this indicator, administrators can configure an ignore list for metadata properties. For details on how to configure metadata properties, view [Configure the ignore list of metadata properties](../install-conf-guide/conf-metadata-prop.md).
 
     The version number changes with every new version that is created for the topic or map file. If you are working on a newly created document, the version information is shown as **none**.
 

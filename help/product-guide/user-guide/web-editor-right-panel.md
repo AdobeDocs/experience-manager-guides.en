@@ -35,7 +35,7 @@ For referenced content, the panel also shows the **Link path** and **Link UUID**
 
 **Type**: View and select the tags of the complete hierarchy for the current tag from the dropdown.
 
-**Link path**: Shows the absolute path of the selected reference. Use **Copy Path** to copy the full path.
+**Link path**: Shows the relative path of the selected reference. Use **Copy Path** to copy the absolute path.
 
 **Link UUID**: Shows the UUID of the selected reference. Use **Copy UUID** to copy the UUID.
 

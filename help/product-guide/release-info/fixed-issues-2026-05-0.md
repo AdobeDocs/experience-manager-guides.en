@@ -70,4 +70,11 @@ The following issues have been fixed, and no longer occur when using Editor 2.0:
 - When creating a new `reltable` without a header row in Author view, the table layout changes after a topic is added to the first cell, causing the next column to collapse and making it difficult to place related topics. (GUIDES-19555)
 - When an `xref` link is added to a small table cell in Author mode, the link does not stay contained within the cell and appears across adjacent cells in the same row. (GUIDES-5489)
 
+## Known issues
+
+Adobe has identified the following known issues for the 2026.05.0 release:
+
+- When a map contains an external `topicref` pointing to a non-DITA resource (such as `.html` or `.htm`), its preview is not displayed  in the Assets UI. (GUIDES-45409)
+- In the Assets UI, the content referenced through `conref` is not displayed for some topics, even though the preview appears correctly in the Editor. (GUIDES-45505)
+- When `xmleditor.uniquefilenames` property is enabled, new topics created using a template do not include the topic title. (GUIDES-44737)
 
