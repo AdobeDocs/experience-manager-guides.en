@@ -86,8 +86,13 @@ Available as a beta enhancement, this update provides solution to common pain po
 
 For details, view [New baseline in Experience Manager Guides](../user-guide/web-editor-baseline-v2.md).
 
+## Enhanced reference visibility and read-only behavior controls
 
+The latest update improves the reference management across maps and topics by introducing enhanced visibility and control over linked assets. You can now view both the path and corresponding UUID for the references (through Link path and Link UUID options in Content properties panel), along with dedicated options to copy each value. 
 
+The system continues to maintain existing behavior for path resolution, while additionally enabling automatic resolution when a UUID is provided as input. These enhancements are consistently available across supported reference types, including multimedia assets, while external links continue to follow existing behavior without UUID support. This update streamlines traceability and reuse of content references without altering established workflows.
+
+For details, view [Content properties](../user-guide/web-editor-right-panel.md#content-properties),
 
 
 
