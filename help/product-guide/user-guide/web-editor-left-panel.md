@@ -846,7 +846,7 @@ The following example shows how to use subject scheme in Experience Manager Guid
 
     ![](images/subject-scheme-panel-new.png){width="300" align="left"}
 
-1. Save the file with a.ditamap extension and upload it to any folder in DAM.
+1. Save the file with a .ditamap extension and upload it to any folder in DAM.
 
     >[!NOTE]
     >
@@ -984,6 +984,8 @@ Perform the following steps to change the value:
  1. Select **Update**.   
 
 You can also apply values for an attribute by selecting multiple values from the dropdown.
+
+![](images/subject-scheme-right-panel.png){width="550" align="left"}
 
 **Source view**
 
