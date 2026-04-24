@@ -120,7 +120,7 @@ Experience Manager Guides also indicates if the last saved \(working\) copy of t
 
 >[!NOTE]
 >
-> Any changes to the metadata fields available under [File properties](./web-editor-right-panel.md#file-properties) will also trigger the working copy indicator on the document version. 
+> Any changes to the metadata fields available under [File properties](./web-editor-right-panel.md#file-properties) or applied at the backend will also trigger the asterisk `(*)` on the document version.  To prevent system-generated metadata updates from affecting this indicator, administrators can configure an ignore list for metadata properties. For details on how to configure metadata properties, view [Configure the ignore list of metadata properties](../install-conf-guide/conf-metadata-prop.md).
 
 ![Version update indicator](images/version-update-indicator.png){width="550" align="left"}
 
