@@ -16,14 +16,14 @@ Learn about [upgrade instructions for the 2026.05.0 release](upgrade-instruction
 - When selecting an image in the Editor using the **Select file** dialog, only raster formats (such as JPG, PNG, and GIF) are displayed. Vector files (such as .ai and .eps) stored in DAM are not shown and cannot be selected. (GUIDES-45110)
 - XML or DITA tags are turned off by default in the Editor, requiring authors to manually enable them in every session. (GUIDES-44651)
 - In the Editor, file references are displayed as GUIDs instead of file paths despite the `xmleditor.uuid` configuration. (GUIDES-42438)
-- When multiple subject schemes with similar key values are applied in a DITA topic, they are highlighted with nearly identical colors, making it difficult to distinguish them and identify which scheme is applied. (GUIDES-38472)
-- When editing a Subject Scheme map in the Author view, adding the `hasInstance` element automatically triggers the file selection dialog and inserts unwanted `href` and `type` attributes. In addition, the **Content properties** panel fails to load for such maps, preventing authors from defining or updating key values through the UI. (GUIDES-38164)
+- When Subject schemes with similar key values are applied in a DITA topic, they are highlighted with nearly identical colors, making it difficult to distinguish them and identify which scheme is applied. (GUIDES-38472)
+- When editing a Subject Scheme map in the Author view, adding the `hasInstance` element automatically triggers the file selection dialog, requiring authors to insert an unwanted `href` pointing to an AEM asset. In addition, the **Content properties** panel fails to load for such maps, which prevents authors from updating element attributes in Author view and requires them to use Source view for updating attributes. (GUIDES-38164)
 - When editing a `.ditaval` file, any XML comments added in the Source view are removed when you switch to Author view and then return to Source view. (GUIDES-33228)
-- Navtitles containing special characters are not escaped correctly when used in a `topichead` in Author view. (GUIDES-35435)
+
 
 ## Asset management
 
-- Creating a topic in a DAM folder with spaces in its name incorrectly creates a duplicate folder where spaces are replaced by hyphens, and the topic is saved there instead of the original folder. (GUIDES-41938)
+- Creating a topic in a folder with spaces in its name incorrectly creates a duplicate folder where spaces are replaced by hyphens, and the topic is saved there instead of the original folder. (GUIDES-41938)
 - During first-time translation of large maps, empty XML files are created for the destination language, leading to increased server load and slower performance. (GUIDES-41613)
 - In DB-based environments, valid internal DITA links appear as broken links in **Asset Properties**, even though they work correctly in the Editor and in published output. (GUIDES-35048)
 
@@ -44,10 +44,6 @@ Learn about [upgrade instructions for the 2026.05.0 release](upgrade-instruction
 
 - When large topics or maps are opened, the Author instance becomes unresponsive, requiring a restart in some cases. (GUIDES-43547)
 
-## Learning 
-
-- After enabling a new language from the **Configure languages** dialog, values from another language are displayed for the selected language in the dropdown list under **Language variables**. (GUIDES-38854)
-
 ## Resolved issues available with Editor 2.0
 
 The following issues have been fixed, and no longer occur when using Editor 2.0:
@@ -58,7 +54,7 @@ The following issues have been fixed, and no longer occur when using Editor 2.0:
 - When a section element selected using mouse drag in Author mode is copied and pasted, it is converted into paragraph `(<p>)` elements instead of retaining the section structure. (GUIDES-30023)
 - When highlighted text inside elements such as step or uicontrol is edited, the selected text is not replaced correctly and is appended or prepended instead, resulting in validation errors. (GUIDES-24371)
 - When a table column width is set using relative values, the remaining columns render incorrectly, resulting in a misaligned table layout. (GUIDES-26109)
-- When a copied topic title is pasted with tags disabled, the first paste applies incorrect styling and assigns the type as topic instead of title. (GUIDES-28838)
+- When a copied topic title is pasted with tags disabled, the first paste applies incorrect styling and assigns the type in Content properties as topic instead of title. (GUIDES-28838)
 - When large sections of content are edited, unintended scroll movement causes the Editor view to jump away from the active content. (GUIDES-35436)
 - When Backspace is used on elements, the Editor scrolls to the top of the topic regardless of the cursor position. (GUIDES-32520)
 - When the left or right arrow key is used to move out of inline tags, the cursor jumps unexpectedly on the first attempt. (GUIDES-26363)
@@ -69,6 +65,7 @@ The following issues have been fixed, and no longer occur when using Editor 2.0:
 - When switching between Author and Source views in long topics, the cursor position is not retained and the Editor scrolls back to the top of the topic. (GUIDES-18114)
 - When creating a new `reltable` without a header row in Author view, the table layout changes after a topic is added to the first cell, causing the next column to collapse and making it difficult to place related topics. (GUIDES-19555)
 - When an `xref` link is added to a small table cell in Author mode, the link does not stay contained within the cell and appears across adjacent cells in the same row. (GUIDES-5489)
+- Copying and pasting a `<section>` element selected using mouse drag in Author view converts it into paragraph `(<p>)` elements, rather than preserving the section structure. (GUIDES-30023)
 
 ## Known issues
 

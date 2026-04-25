@@ -7,6 +7,10 @@ role: User
 ---
 # Launch the Editor {#id2056B0140HS}
 
+>[!INFO]
+>
+> This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
 You can launch the Editor from the following locations:
 
 - [Adobe Experience Manager Navigation page](#adobe-experience-manager-navigation-page)
