@@ -801,7 +801,7 @@ When you hover your pointer over a topic's title, you are shown the file title, 
 >[!BEGINTABS] 
 >[!TAB Classic Editor] 
 
-![](images/mouse-hover-on-title_cs-editor.png){  align="left"}
+![](images/mouse-hover-on-title_cs.png){  align="left"}
 
 >[!TAB Editor 2.0] 
 
