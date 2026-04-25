@@ -482,6 +482,12 @@ Using the table's context menu, you can:
 
     ![](images/add-column.png){width="550" align="left"}
 
+- Add multiple rows or columns to a table
+
+    To add multiple rows or columns to a table, select the cells and then select Insert options such as Insert above or below. 
+
+    ![](images/add-multi-row-col.png){width="550" align="left"}
+
 - Drag and drop rows and columns
 
     Easily move the rows and columns within the table using drag and drop. When you drag a row or column, it appears with a semi-transparent background to indicate that it is being moved. A blue line highlights the target position where the row or column will be placed upon release.
