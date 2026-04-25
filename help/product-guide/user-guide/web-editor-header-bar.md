@@ -23,6 +23,8 @@ This view displays how the content is rendered in Editor 2.0
 
 ![](./images/web-editor-header-bar-editor-2-0.png){align="left"}
 
+>[!ENDTABS]
+
 Use the **Expand** icon in the toolbar to hide the header bar and maximize the content area. To restore the standard view, select **Exit the expanded view**.
 
 ![](./images/web-editor-header-bar-expand-option.png){width="350" align="left"}
