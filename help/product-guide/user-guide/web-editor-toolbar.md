@@ -7,6 +7,10 @@ exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
 ---
 # Toolbar in the Editor 
 
+>[!INFO]
+>
+> This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
 The toolbar appears when you open a topic or map for editing in the Editor. Features available in the toolbar are as follows:
 
 - [Menu dropdown](#menu-dropdown)
@@ -20,9 +24,19 @@ The toolbar appears when you open a topic or map for editing in the Editor. Feat
 
 ## Menu dropdown 
 
-The Menu dropdown provides access to the editing actions, Find and replace, Version history, Version label, Merge, Create review task, and Show menu (which includes Track changes, Tags, Non-breaking space).
+The Menu dropdown provides access to the various editing actions as shown below:
+
+>[!BEGINTABS]
+
+>[!TAB Classic Editor]
 
 ![Menu dropdown for Editor toolbar](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
+
+>[!TAB Editor 2.0]
+
+![Menu dropdown for Editor toolbar](images/editor-toolbar-menu-dropdown-new-editor-2-0.png){width="350" align="left"}
+
+>[!ENDTABS]
 
 The detailed explanation of these features are as follows:
 
@@ -225,7 +239,11 @@ You can [create a review task](./review-send-topics-for-review.md) of the curren
 
 **Show menu**
 
-The Show menu comprises of the following features: 
+>[!NOTE]
+>
+> In Editor 2.0, the **Show menu** is no longer available in the Menu dropdown. To access the various options available under Show menu, navigate to [Editor Settings](./config-editor-settings.md). The Show menu continues to be available in the Menu dropdown in the Classic Editor.
+
+The Show menu in the Classic Editor comprises of the following features: 
 
 - **Track changes:** You can keep a track of all updates made on a document by enabling the Track changes mode. After enabling the track changes, all insertions and deletions are captured in the document. All deleted content is highlighted using Strikethrough and all insertions are highlighted in green color text. In addition, you also get the change bars at the edge of the topic page. Again, a red bar is shown for deleted content and a green bar is shown for added content. In case there is an addition and deletion on the same line, then both green and red bars are shown.
 The following screenshot highlights the deleted and inserted content along with the change bars:
@@ -292,14 +310,31 @@ You can also type a character or string in the search box and search for the ele
 
 If you are working inside a block element like a `note`, then use the Insert element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
 
+>[!BEGINTABS] 
+>[!TAB Classic Editor] 
+
 ![Insert element in a block element](images/note-in-para-insert-element_cs.png){  align="left"}
+
+>[!TAB Editor 2.0] 
+
+![Insert element in a block element](images/note-in-para-insert-element_cs-editor-2-0.png){  align="left"}
+
+>[!ENDTABS] 
 
 If you press Enter in the note element, a new paragraph is created within the note element itself. To insert a new element outside note, select the p element \(highlighted in screenshot\) in the elements breadcrumb and then select the Element icon or press ***Alt***+***Enter*** to open the Insert element dialog box. Then, select the desired element and press Enter to insert the selected element after the note element.
 
 You can also add an element between two elements when a blinking block cursor appears. 
 
+>[!BEGINTABS] 
+>[!TAB Classic Editor] 
 
 ![](images/Block-cursor.png){width="300" align="left"}
+
+>[!TAB Editor 2.0] 
+
+![](images/Block-cursor-editor-2-0.png){width="300" align="left"}
+
+>[!ENDTABS] 
 
 For example, if you are working on a DITA topic, and the block cursor is blinking between the short description and the body, you can add `prolog` element and then add copyright, author, and other details.
 
@@ -325,21 +360,29 @@ Creates a numbered list at the current or next valid location. If you are on a n
 
 **Table** - ![](images/Table_icon.svg)
 
-Inserts a table at the current or next valid location. Select the Table icon to open the Insert Simple Table dialog box. 
+Inserts a Simple table at the current or next valid location. Select the Table icon to open the **Insert Simple Table** dialog. 
 
 ![](images/table-properties.png){width="550" align="left"}
+
+You can specify the number of rows and columns required in the table. If you want to keep the first row as the table header, select the **Set first row as header** option. To add a title to your table, enter it in the Title field.
 
 >[!NOTE]
 >
 > You can also copy a table from MS Word or Excel and paste it into the Experience Manager Guides topic file. The copied table will be pasted as either `<simpletable>` or `<tgroup>` depending on the settings configured in the XML Editor Configuration. For more details, view [Configure the display of pasted tables](../cs-install-guide/conf-pasted-tables.md). 
 
-You can specify the number of rows and columns required in the table. If you want to keep the first row as the table header, select the **Set first row as header** option. To add a title to your table, enter it in the Title field.
+Features available in the Simple Table
 
-Once a table is inserted, you can modify the table using the context menu.
+>[!BEGINTABS] 
+
+>[!TAB Classic Editor] 
+
+Simple Table in the Classic Editor.
+
+![](images/simple-table-editor.png){width="300" align="left"}
+
+**Modify the table using the context menu.**
 
 ![](images/table-context-menu_cs.png){width="550" align="left"}
-
-
 
 Using the table's context menu, you can:
 
@@ -353,8 +396,7 @@ Using the table's context menu, you can:
 
 - Generate IDs
 
-<details>
-    <summary> Define attributes on multiple cells, entire row, or column of a table </summary>
+**Define attributes on multiple cells, entire row, or column of a table**
 
 You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel (on the right), the property **Type** changes to **entry**.
 
@@ -365,7 +407,98 @@ You can also define attributes on multiple cells, entire row, or column of a tab
 
 ![](images/align-table-cell_cs.png){  align="left"}
 
-</details>
+>[!TAB Editor 2.0] 
+
+Simple Table in Editor 2.0.
+
+![](images/simple-table-editor-2-0.png){width="300" align="left"}
+
+>[!ENDTABS] 
+
+**Modify the table using the context menu**
+
+![](images/table-context-menu.png){width="550" align="left"}
+
+Using the table's context menu, you can:
+
+- Insert rows or columns.
+
+- Split cells horizontally or vertically.
+
+- Set Horizontal alignment for cell text. You can set the text to Left, Center, Right, or Justify. 
+
+- Set Vertical alignment for cell text. You can set the text to Top, Middle, or Bottom. 
+
+- Delete rows or columns.
+
+**Set text formatting and alignment**
+
+- Select a cell to access the following formatting options:
+
+ ![](images/text-formatting-options-table.png){width="550" align="left"}
+
+  Use the Bold, Italic, or Underline options to format your text.
+
+- Select multiple rows or columns allows you to apply text formatting to them at once. 
+
+   Other available options:
+
+    For Rows:
+
+    ![](images/set-alignment-rows.png){width="550" align="left"}
+
+    - Horizontal text alignment 
+    - Vertical text alignment
+    - Insert row above
+    - Insert row below
+    - Remove row
+    - Merge cells
+
+    For Columns:
+
+    ![](images/set-alignment-columns.png){width="550" align="left"}
+
+    - Horizontal text alignment 
+    - Vertical text alignment
+    - Insert row above
+    - Insert row below
+    - Remove row
+    - Insert column above
+    - Insert column below
+    - Remove column
+    - Merge cells
+
+- Select the table to apply text formatting and alignment to the entire table. 
+
+    ![](images/text-alignment-table.png){width="550" align="left"}
+
+- Add or remove rows to a table with a single click
+
+    To add a new row at the end of the table, hover over the last row and select the + icon. A new row is added at the bottom of the table.
+
+    ![](images/add-row.png){width="550" align="left"}
+
+    Similarly, hover over the last column and select the + icon to add a new column to the rightmost side of the table.
+
+    ![](images/add-column.png){width="550" align="left"}
+
+- Drag and drop rows and columns
+
+    Easily move the rows and columns within the table using drag and drop. When you drag a row or column, it appears with a semi-transparent background to indicate that it is being moved. A blue line highlights the target position where the row or column will be placed upon release.
+
+    ![](images/drag-and-drop-table-rows.png){width="550" align="left"}
+
+**Define attributes on multiple cells, entire row, or column of a table**
+
+You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel (on the right), the property **Type** changes to **entry**.
+
+1. In the **Attributes** section, select **+Add**. 
+1. Select the `@valign` attribute from the **Attribute** dropdown list. 
+1. From the value dropdown list, select the desired text alignment you want to apply on the selected table cells. 
+1. Select **Add.**
+
+![](images/align-table-cell_cs.png){  align="left"}
+
 
 **Image** - ![](images/Image_icon.svg)
 
@@ -407,7 +540,9 @@ Once you have inserted an image, you can change the height, width, placement, an
 
 ![](images/image-properties.png){  align="left"}
 
-The Source field displays the UUID of the inserted image file. You can find the complete path of the inserted image file by hovering the mouse pointer over the Source field. The path is displayed in the tooltip.
+The **Source path** field shows the relative path of the selected reference. Use Copy Path to copy the absolute path.
+
+The **Source UUID** field shows the UUID of the selected reference. Use Copy UUID to copy the UUID.
 
 You can resize an image by providing either Height or Width value for the image file. The aspect ratio of the image is maintained automatically. If you want, you can also choose not to maintain the aspect ratio of the image file by selecting the lock icon \(of Maintain Aspect Ratio\) and providing Height and Width values.
 
@@ -492,7 +627,16 @@ If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then yo
 >
 > As per standard DITA behavior, the scope=`external` attribute must not be applied to internal links, as it is intended only for references to external resources. Applying this attribute to internal links may disrupt workflows. For content managed in Experience Manager Guides, use the default scope=`local` or key-based references instead.
 
+>[!BEGINTABS] 
+>[!TAB Classic Editor] 
+
 ![](images/ref-link-uuid_cs.png){  align="left"}
+
+>[!TAB Editor 2.0] 
+
+![](images/ref-link-uuid_cs-editor-2-0.png){  align="left"}
+
+>[!ENDTABS] 
 
 >[!NOTE]
 >
@@ -500,7 +644,7 @@ If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then yo
 
 >[!IMPORTANT]
 >
-> Even though the relative path of the referenced content is shown in the **Link** property, internally the link is created using the UUID of the referenced content.
+> Even though the relative path of the referenced content is shown in the **Link path** property, internally the link is created using the UUID of the referenced content.
 
 >[!TIP]
 >
@@ -600,20 +744,40 @@ Connect with your data source and use the data to create content. Learn how to [
 
 The **Version information & Save as new version** feature combines version tracking and content saving into a single functionality.
 
-- Version information displays the current version of the topic or map. An asterisk `(*)` appears next to the version number to indicate that changes are saved in the document but are not versioned. 
+Version information displays the current version of the topic or map. An asterisk `(*)` appears next to the version number to indicate that changes are saved in the document but are not versioned. 
 
-    >[!NOTE]
-    >
-    > Any changes to the metadata fields available under [File properties](./web-editor-right-panel.md#file-properties) or applied at the backend will also trigger the asterisk `(*)` on the document version.  To prevent system-generated metadata updates from affecting this indicator, administrators can configure an ignore list for metadata properties. For details on how to configure metadata properties, view [Configure the ignore list of metadata properties](../install-conf-guide/conf-metadata-prop.md).
+>[!NOTE]
+>
+> Any changes to the metadata fields available under [File properties](./web-editor-right-panel.md#file-properties) or applied at the backend will also trigger the asterisk `(*)` on the document version.  To prevent system-generated metadata updates from affecting this indicator, administrators can configure an ignore list for metadata properties. For details on how to configure metadata properties, view [Configure the ignore list of metadata properties](../install-conf-guide/conf-metadata-prop.md).
 
-    The version number changes with every new version that is created for the topic or map file. If you are working on a newly created document, the version information is shown as **none**.
+The version number changes with every new version that is created for the topic or map file. If you are working on a newly created document, the version information is shown as **none**.
 
-    ![](images/version-information.png){  align="left"}
+>[!BEGINTABS] 
+
+>[!TAB Classic Editor]     
+
+![](images/version-information.png){  align="left"}
+
+>[!TAB Editor 2.0]    
+
+![](images/version-information-editor-2-0.png){  align="left"}
+
+>[!ENDTABS] 
 
 
-- **Save as new version** is a button that saves the changes you have made in your topic and also creates a new version of your topic.
+**Save as new version** is a button that saves the changes you have made in your topic and also creates a new version of your topic.
 
-    ![](images/save-as-new-version.png){  align="left"}
+>[!BEGINTABS] 
+
+>[!TAB Classic Editor]     
+    
+![](images/save-as-new-version.png){  align="left"}
+
+>[!TAB Editor 2.0]     
+
+![](images/save-as-new-version-editor-2-0.png){  align="left"}
+
+>[!ENDTABS] 
 
 
 When you choose to save a topic or map using **Save as new version**, the following dialog box appears:
@@ -634,7 +798,16 @@ If your topic is under review, your reviewers will get a notification saying tha
 
 When you hover your pointer over a topic's title, you are shown the file title, file path, and the version number.
 
-![](images/mouse-hover-on-title_cs.png){  align="left"}
+>[!BEGINTABS] 
+>[!TAB Classic Editor] 
+
+![](images/mouse-hover-on-title_cs-editor.png){  align="left"}
+
+>[!TAB Editor 2.0] 
+
+![](images/mouse-hover-on-title_cs-editor-2-0.png){  align="left"}
+
+>[!ENDTABS] 
 
 >[!NOTE]
 >
@@ -644,7 +817,16 @@ When you hover your pointer over a topic's title, you are shown the file title, 
 
 Locks or unlocks the current file. Locking a file gives you an exclusive write access to the file. This restricts other users from editing the file. Unlock the file if you want others to have editing access. When the file is unlocked, the changes are saved in the current version of the file.
 
+>[!BEGINTABS] 
+>[!TAB Classic Editor] 
+
 ![](images/web-editor-lock-button.png){  align="left"}
+
+>[!TAB Editor 2.0] 
+
+![](images/web-editor-lock-button-editor-2-0.png){  align="left"}
+
+>[!ENDTABS] 
 
 If you are in the Map View and you expand the parent map, you can lock all files in the map with a single click. Simply expand the parent map file and select the parent file, which results in selecting all files within the map. Then you can select **Lock**  ![](images/LockClosed_icon.svg) to get the lock on all files within the map.
 
