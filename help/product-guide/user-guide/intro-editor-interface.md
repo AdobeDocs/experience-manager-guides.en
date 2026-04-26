@@ -9,7 +9,21 @@ exl-id: 6c95a527-776e-47d1-b414-2f023af12fca
 
 This article provides you an overview of the Editor interface, and the various features that are available in the Experience Manager Guides Editor. 
 
+>[!BEGINTABS]
+
+>[!TAB Classic Editor]
+
+This view displays how the content is rendered in the Classic Editor
+
 ![](images/editor-overview.png)
+
+>[!TAB Editor 2.0 ]
+
+This view displays how the content is rendered in Editor 2.0
+    
+![](images/editor-overview-2-0.png)
+
+>[!ENDTABS] 
 
 The Editor inteface is divided into the following sections or areas:
 
