@@ -26,6 +26,7 @@ Perform the following steps to create a Markdown topic from the Editor:
     >[!NOTE]
     >
     > In case of an upgrade, you need to add the Markdown template into the current folder profile in use. You can [create a new markdown template from the Editor](./web-editor-features.md#templates) or use an existing template for markdown authoring. For details on how to add authoring templates in Experience Manager Guides, view [Configure global or folder-level profiles](../cs-install-guide/conf-folder-level.md).
+    
 1. Select **Create**.
 
    The Markdown topic is created at the selected path and is open for editing.

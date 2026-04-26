@@ -19,9 +19,7 @@ Perform the following steps to add a label to your topic from the Editor:
 
 1. In the Repository panel, navigate to a topic and open it in the Editor.
 1. Select **Version label** from the **Menu** dropdown.  
-
-    ![](images/version-label-option.png){width="400" align="left"}
-
+    
     The **Version Label Management** dialog is displayed. 
 
 1. In the **Version Label Management** dialog, select a version where you want to add a label.
