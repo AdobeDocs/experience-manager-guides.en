@@ -49,7 +49,17 @@ When working in the Editor interface, you can filter the set of files to view a 
 
 After the search results are displayed in the Search panel, you can work with them, either by opening and editing one or multiple files directly from the panel, or dragging and dropping selected files into an existing topic or map to add references. 
 
+>[!BEGINTABS]
+
+>[!TAB Classic Editor]
+
 ![](images/edit-search-panel.png){align="left"}
+
+>[!TAB Editor 2.0]
+
+![](images/edit-search-panel-editor-2-0.png){align="left"}
+
+>[!ENDTABS]
 
 ## Search from the Repository interface on the Home page
 
