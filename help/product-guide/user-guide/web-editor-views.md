@@ -114,11 +114,11 @@ The following image shows a topic that uses two conditions : `Audience` and `Pla
 
 >[!TAB Classic Editor]
 
-![](images/preview-filters.png){align="left"}
+![](images/preview-filters.png){width="650" align="left"}
 
 >[!TAB Editor 2.0]
 
-![](images/preview-filters-editor-2-0.png){align="left"}
+![](images/preview-filters-editor-2-0.png){width="650" align="left"}
 
 >[!ENDTABS]
 
