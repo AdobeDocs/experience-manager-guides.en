@@ -39,7 +39,7 @@ Perform the following steps to create a topic from the Editor:
     
 4. Select **Create**.
 
-    ![](images/create-topic-dialog-new.png){width="300" align="left"}
+    ![](images/create-topic-dialog-new.png){width="350" align="left"}
     
 The topic is created at the specified path. Also, the topic is opened in the Editor for editing. 
 

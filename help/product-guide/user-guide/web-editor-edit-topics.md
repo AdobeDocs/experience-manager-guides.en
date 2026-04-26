@@ -47,7 +47,7 @@ You can enable or disable this feature and configure favorite elements for inser
 
 1. Search for any new or choose from the favorites and insert the required element directly at the current cursor position.
 
-    ![Quick insert menu](./images/quick-insert-menu.png)
+    ![Quick insert menu](./images/quick-insert-menu.png){width="650" align="left"}
 
 >[!ENDTABS]
 
@@ -67,7 +67,7 @@ Make the selected content bold, italics, underline the selected content. The con
 
 You can format the selected content as bold, italics, or underline using the contextual menu. Select the content, then click the appropriate formatting icon in the menu that appears. Make the selected content bold, italics, or underline. The content from the valid open tags is then merged and appears under a single element.
 
-![Formatting options](./images/formatting-options.png)
+![Formatting options](./images/formatting-options.png){width="650" align="left"}
 
 >[!ENDTABS]
 
