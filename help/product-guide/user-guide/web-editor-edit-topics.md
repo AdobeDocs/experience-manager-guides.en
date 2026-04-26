@@ -122,7 +122,17 @@ Experience Manager Guides also indicates if the last saved \(working\) copy of t
 >
 > Any changes to the metadata fields available under [File properties](./web-editor-right-panel.md#file-properties) or applied at the backend will also trigger the asterisk `(*)` on the document version.  To prevent system-generated metadata updates from affecting this indicator, administrators can configure an ignore list for metadata properties. For details on how to configure metadata properties, view [Configure the ignore list of metadata properties](../install-conf-guide/conf-metadata-prop.md).
 
-![Version update indicator](images/version-update-indicator.png){width="550" align="left"}
+>[!BEGINTABS]
+
+>[!TAB Classic Editor]
+
+![Version update indicator](images/version-update-indicator.png){width="650" align="left"}
+
+>[!TAB Editor 2.0]
+
+![Version update indicator](images/version-update-indicator-editor-2-0.png){width="650" align="left"}
+
+>[!ENDTABS]
 
 ## Access locked files in Author and Source modes
 
