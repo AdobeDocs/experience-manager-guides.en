@@ -764,7 +764,17 @@ The Conditions panel displays the conditional attributes defined by your adminis
 
 You can also apply multiple conditions on an element by dragging-and-dropping multiple conditions on an element. When you apply multiple conditions on an element, the Properties panel displays the applied conditions separated with a comma.
 
-![](images/multiple-conditions-applied_cs.png){   align="left"}
+>[!BEGINTABS]
+
+>[!TAB Classic Editor]
+
+![](images/multiple-conditions-applied_cs.png){width="650" align="left"}
+
+>[!TAB Editor 2.0]
+
+![](images/multiple-conditions-applied_cs-editor-2-0.png){width="650" align="left"}
+
+>[!ENDTABS]
 
 However, in the Code view the conditions are separated using a space delimiter. When you add or edit a condition in Code view, ensure that multiple conditions are separated using a space.
 
@@ -772,7 +782,18 @@ However, in the Code view the conditions are separated using a space delimiter. 
 >
 > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete conditions. Else, as a normal author, you will only get the option to apply conditions.
 
-![](images/conditional-content-through-panel_cs.png){   align="left"}
+>[!BEGINTABS]
+
+>[!TAB Classic Editor]
+
+![](images/conditional-content-through-panel_cs.png){width="650" align="left"}
+
+>[!TAB Editor 2.0]
+
+![](images/conditional-content-through-panel_cs-editor-2-0.png){width="650" align="left"}
+
+>[!ENDTABS]
+
 
 To add or define a condition, select the + icon next to Conditions panel to bring up the Define Condition dialog box:
 
@@ -1011,7 +1032,17 @@ Snippets are small content fragments that can be reused across various topics in
 >
 > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete snippets. Else, as a normal author, you will only get the options to preview and insert a snippet.
 
-![](images/snippets-panel_cs.png){align="left"}
+>[!BEGINTABS]
+
+>[!TAB Classic Editor]
+
+![](images/snippets-panel_cs.png){width="650" align="left"}
+
+>[!TAB Editor 2.0]
+
+![](images/snippets-panel_cs-editor-2-0.png){width="650" align="left"}
+
+>[!ENDTABS]
 
 **Create a snippet**
 
