@@ -13,9 +13,9 @@ Learn about [upgrade instructions for the 2026.05.0 release](../release-info/upg
 
 ## Introducing Editor 2.0
 
-Editor 2.0 marks a significant evolution in authoring, emphasizing performance, usability, and UI/UX to simplify working with large files, complex tables, and structured content without compromising control over how content is viewed and edited.
+Editor 2.0 marks a significant evolution in authoring, emphasizing performance, usability, and UI/UX to simplify working with large files, complex tables, and structured content without compromising control over how content is viewed and edited. For details, view [Editor 2.0](../user-guide/web-editor.md).
 
-**Video placeholder**
+>[!VIDEO](https://video.tv.adobe.com/v/3484007)
 
 ### Improved table editing 
 
@@ -29,6 +29,8 @@ Table authoring is enhanced for a smoother, more intuitive experience, enabling 
 
 ![](assets/table-2.0.png){width="650" align="left"}
 
+For details, view [Toolbar](../user-guide/web-editor-toolbar.md).
+
 ### New Editor settings 
 
 A new centralized settings panel gives Authors better control over editor behavior . Configuration options include, ability to enable/disable: 
@@ -39,6 +41,8 @@ A new centralized settings panel gives Authors better control over editor behavi
 - Quick insert menu with the ability to configure favorite elements 
 
 ![](assets/editor-settings-dialog.png){width="350" align="left"}
+
+For more information about how to configure Editor settings, view [Editor settings](../user-guide/config-editor-settings.md).
 
 ### Enhanced Author view 
 
@@ -52,7 +56,9 @@ The Author view now provides greater visibility into structured content for impr
 
     ![](assets/config-tags-attributes.png){width="650" align="left"}
 
-### New editing views
+For more details on using the new functionality, view [Editor settings](../user-guide/config-editor-settings.md).    
+
+### New editing view
 
 Editor 2.0 introduces powerful new ways to edit content efficiently. This ensures faster authoring with reduced context switching and easier access to structured elements. 
 
@@ -80,6 +86,17 @@ Editor 2.0 enhances responsiveness for large DITA files, enabling authors to edi
 
 ![](assets/editor-2.0-CSS.png){width="650" align="left"}
 
+## Editor enhancements
+
+### Enhanced reference visibility
+
+Now, the Link URL (relative path) of the selected reference across maps and topics in the Content properties panel is renamed to Link Path. Additionally, Link UUID field is added that shows the UUID of the selected references. You can now copy the complete absolute path as well as the associated UUID directly from the interface using the icons adjacent to the Link URL nad Link UUID, improving traceability and reuse of linked assets.
+For details, view [Content properties](../user-guide/web-editor-right-panel.md#content-properties).
+
+## Restricted actions for read‑only files
+
+For DITA, DITAMAP, DITAVAL, XML, and markdown files opened in Read‑only mode, the **File properties** option in the Right panel, Properties from the context menu, and Manage Metadata under Reports are disabled.
+
 ## Review enhancements
 
 The following Review enhancements have been made as part of this release:
@@ -99,18 +116,6 @@ Available as a beta enhancement, this update provides solution to common pain po
 - Expanded filtering, navigation, and dependency visibility
 
 For details, view [New baseline in Experience Manager Guides](../user-guide/web-editor-baseline-v2.md).
-
-
-## Editor enhancements
-
-### Enhanced reference visibility
-
-Now, the Link URL (relative path) of the selected reference across maps and topics in the Content properties panel is renamed to Link Path. Additionally, Link UUID field is added that shows the UUID of the selected refrences. You can now copy the complete absolute path as well as the associated UUID directly from the interface using the icons adjacent to the Link URL nad Link UUID, improving traceability and reuse of linked assets.
-For details, view [Content properties](../user-guide/web-editor-right-panel.md#content-properties).
-
-## Restricted actions for read‑only files
-
-For DITA, DITAMAP, DITAVAL, XML, and Markdown files opened in Read‑only mode, the **File properties** option in the Right panel, Properties from the context menu, and Manage Metadata under Reports are disabled.
 
 
 
