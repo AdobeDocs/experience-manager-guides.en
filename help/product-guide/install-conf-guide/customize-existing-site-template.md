@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
 ---
-# Customize existing AEM Site templates
+# Customize new AEM Site templates
 
 This guide provides step-by-step instructions to customize existing AEM Site templates for use with AEM Guides to generate AEM Sites from DITA maps and topics.
 

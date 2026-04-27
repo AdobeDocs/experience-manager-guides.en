@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
 ---
-# Customize AEM Site output {#id166TG0B30WR}
+# Customize existing AEM Site output {#id166TG0B30WR}
 
 The AEM Guides supports creating outputs in following formats:
 

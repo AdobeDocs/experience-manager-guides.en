@@ -682,8 +682,8 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure output generation settings](./install-conf-guide/conf-output-generation.md) 
       - Configure AEM Site output settings {#conf-aem-sites-output}
         - [Download and install AEM Sites templates](./install-conf-guide/download-install-aem-sites-templates.md)
-        - [General instructions to customize existing AEM Site templates](./install-conf-guide/customize-existing-site-template.md)
-        - [Customize new AEM Site output](./install-conf-guide/customize-aem-site-output.md)
+        - [General instructions to customize new AEM Site templates](./install-conf-guide/customize-existing-site-template.md)
+        - [Customize existing AEM Site output](./install-conf-guide/customize-aem-site-output.md)
         - [Customize DITA element mapping with AEM components for legacy AEM Site output](./install-conf-guide/customize-dita-element-mapping-aem-components.md)        
         - [Overlay HTML tags in AEM Sites output for On-Premise](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
         - [Configure valid file names for AEM Site output](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
