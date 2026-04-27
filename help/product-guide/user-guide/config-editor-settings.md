@@ -31,7 +31,7 @@ You can enable or disable the following options based on your preferences:
 
     ![Config tags with attributes](./images/config-tags-attributes.png) {width="650" align="left"}
 
-- **Quick insert menu in editor**: Allows you to configure and customize the **Quick insert menu** for quick element insertion during authoring in editor. You can search for and add the available elements to the **Favorites** of the Quick insert menu in the Editor settings using the dropdown. These favorite elements are available directly in the Editor when you press **Control + /** on Windows or **Command + /** on macOS.
+- **Quick insert menu in editor**: Allows you to configure and customize the **Quick insert menu** for the inline element insertion toolbar during authoring in Editor. You can search for and add the available elements to the **Favorites** of the Quick insert menu in the Editor settings using the dropdown. These favorite elements are available directly in the Editor when you press **Control + /** on Windows or **Command + /** on macOS through the inline element insertion toolbar.
 
     ![Quick insert menu in editor](./images/quick-insert-menu-in-editor.png){width="650" align="left"}
 

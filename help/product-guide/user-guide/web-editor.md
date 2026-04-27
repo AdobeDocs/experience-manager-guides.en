@@ -33,8 +33,8 @@ Editor 2.0 provides a significant evolution of the authoring experience, with fo
 The Editor 2.0 currently do not support the following:
 
 - Layout view for DITA maps
-- Authoring workflows with Track changes.
-- Citation management 
-- Image resizing capabilities
+- Authoring with Track Changes enabled is not supported; any existing tracked changes are preserved and treated as regular content
+- New citations cannot be added; any existing citations in the content are preserved
+- Image resizer in Author view
 
 **Parent topic:**[Author content using Experience Manager Guides](authoring-content-xml-doc.md)
