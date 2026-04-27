@@ -93,7 +93,7 @@ Editor 2.0 enhances responsiveness for large DITA files, enabling authors to edi
 Now, the Link URL (relative path) of the selected reference across maps and topics in the Content properties panel is renamed to Link Path. Additionally, Link UUID field is added that shows the UUID of the selected references. You can now copy the complete absolute path as well as the associated UUID directly from the interface using the icons adjacent to the Link URL nad Link UUID, improving traceability and reuse of linked assets.
 For details, view [Content properties](../user-guide/web-editor-right-panel.md#content-properties).
 
-## Restricted actions for read‑only files
+### Restricted actions for read‑only files
 
 For DITA, DITAMAP, DITAVAL, XML, and markdown files opened in Read‑only mode, the **File properties** option in the Right panel, Properties from the context menu, and Manage Metadata under Reports are disabled.
 
