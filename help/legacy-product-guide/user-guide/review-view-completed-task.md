@@ -3,7 +3,7 @@ title: View a completed review task
 description: Know how to view a completed review task as a reviewer or an author in AEM Guides.
 feature: Reviewing
 role: User
-hide: yes
+hide: true
 exl-id: f74269fe-a7a9-4bb3-b476-f8214387ffd0
 ---
 # View a completed review task
