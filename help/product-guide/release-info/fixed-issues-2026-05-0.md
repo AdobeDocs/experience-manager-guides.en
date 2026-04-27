@@ -64,7 +64,6 @@ The following issues have been fixed, and no longer occur when using Editor 2.0:
 - Acrolinx suggestions are not highlighted correctly in the Editor for read-only or locked topics. (GUIDES-29614)
 - When creating a new `reltable` without a header row in Author view, the table layout changes after a topic is added to the first cell, causing the next column to collapse and making it difficult to place related topics. (GUIDES-19555)
 - When an `xref` link is added to a small table cell in Author mode, the link does not stay contained within the cell and appears across adjacent cells in the same row. (GUIDES-5489)
-- Copying and pasting a `<section>` element selected using mouse drag in Author view converts it into paragraph `(<p>)` elements, rather than preserving the section structure. (GUIDES-30023)
 - When switching from Author to Source view,  the cursor position is not retained, and the Editor scrolls back to the top. Additionally, in long topics, the cursor position is lost and randomly jumps to the middle or top when toggling between Author and Source views. (GUIDES-18114, GUIDES-21164)
 
 ## Known issues
