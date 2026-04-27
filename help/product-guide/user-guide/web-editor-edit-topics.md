@@ -43,7 +43,7 @@ You can enable or disable this feature and configure favorite elements for inser
 
 1. To edit or insert an element in a topic, click within the text boundary of the required element to make changes, or place the cursor at the end of the element after which you want to add a new element and select the required element from the toolbar (or press Alt+1 to open the Insert Element popup), which intelligently lists and inserts only valid elements for that location in the topic.
 
-1. Additionally you can use the an inline element insertion toolbar to quickly insert allowed elements at the cursor position. Select **Control + /** for Windows, ![](assets/config-tags-attributes.png){width="650" align="left"} for Mac to access the elements form the Quick Insert menu. 
+1. Additionally you can use the an inline element insertion toolbar to quickly insert allowed elements at the cursor position. Select **Control + /** for Windows or **Command + /** for Mac to access the elements form the Quick Insert menu. 
 
     >[!NOTE]
     >
