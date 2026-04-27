@@ -7,6 +7,10 @@ exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 ---
 # Left panel in the Editor 
 
+>[!INFO]
+>
+>This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
 The left panel gives you quick access to Collections, Repository view, Map view, and more features. You can expand the panel by selecting the **Expand** icon placed at the bottom-left corner of the interface. Once expanded, use the **Collapse** icon to collapse the panel. In the expanded view, it displays the names of the icons which appear as tooltips in the collapsed view.
 
 >[!NOTE]
@@ -654,6 +658,10 @@ To insert content from the Reusable content panel, use any of the following meth
 - Drag-and-drop the reusable content item from the panel at the desired location in your document.
 
 ## Outline
+
+>![INFO]
+>
+>The UI may vary depending on the Editor you are using.
 
 When you select the **Outline** icon, you get the hierarchical view of the elements used in the document.
 

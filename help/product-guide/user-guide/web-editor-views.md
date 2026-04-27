@@ -7,6 +7,10 @@ role: User
 ---
 # Editor views for topics {#id204GK0D0V5Z}
 
+>[!INFO]
+>
+>This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
 The Editor interface in Adobe Experience Manager supports viewing topics in three different modes or views:
 
 * [Author](#author)

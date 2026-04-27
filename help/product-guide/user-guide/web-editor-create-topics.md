@@ -7,6 +7,10 @@ role: User
 ---
 # Create topics {#id2056AL00O5Z}
 
+>[!INFO]
+>
+>This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
 Adobe Experience Manager Guides allows you to create DITA topics of type — topic, task, concept, reference, glossary, DITAVAL, Markdown and more. Apart from creating topics based on the out-of-the-box templates, you can also define your custom templates. These templates must be added to the folder profile to show up in the template selection Blueprint and the Editor.
 
 >[!NOTE]
@@ -91,7 +95,7 @@ Perform the following steps to create a topic from the Assets UI:
 
 **Additional information**
 
->[!NOTE]
+>[!INFO]
 >
 > The UI may vary depending on the Editor you are using.
 

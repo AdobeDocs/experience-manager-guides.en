@@ -7,6 +7,10 @@ role: User
 ---
 # Edit topics in the Editor {#id2056B040VUI}
 
+>[!INFO]
+>
+>This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
 The Editor comes with a range of editing features that let you easily create or modify your topic files. Broadly, you would perform the following steps to edit a topic in the Editor.
 
 >[!IMPORTANT]
