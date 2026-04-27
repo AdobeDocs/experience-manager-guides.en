@@ -100,16 +100,17 @@ Available as a beta enhancement, this update provides solution to common pain po
 
 For details, view [New baseline in Experience Manager Guides](../user-guide/web-editor-baseline-v2.md).
 
-## Enhanced reference visibility
 
-This update introduces explicit visibility of both Link Path and Link UUID for internal references across maps and topics. You can now access and copy the complete absolute path as well as the associated UUID directly from the interface, improving traceability and reuse of linked assets. Additionally, the system supports automatic resolution of references when a UUID is provided, converting it into the corresponding path.
+## Editor enhancements
 
+### Enhanced reference visibility
+
+Now, the Link URL (relative path) of the selected reference across maps and topics in the Content properties panel is renamed to Link Path. Additionally, Link UUID field is added that shows the UUID of the selected refrences. You can now copy the complete absolute path as well as the associated UUID directly from the interface using the icons adjacent to the Link URL nad Link UUID, improving traceability and reuse of linked assets.
 For details, view [Content properties](../user-guide/web-editor-right-panel.md#content-properties).
 
-## Refined Read-only mode behavior
+## Restricted actions for read‑only files
 
-This update refines read-only mode by limiting restrictions to supported file types such as data files, XML, and markdown (including common extensions). In these files, modifications to file properties, document state tags, and metadata are restricted when in read-only mode. These restrictions no longer apply to unsupported formats such as JSON. For HTML-based files, the behavior remains unchanged, with restrictions applicable only within the File Properties section.
-
+For DITA, DITAMAP, DITAVAL, XML, and Markdown files opened in Read‑only mode, the **File properties** option in the Right panel, Properties from the context menu, and Manage Metadata under Reports are disabled.
 
 
 
