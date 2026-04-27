@@ -3,7 +3,7 @@ title: Disclaimer
 description: This is a disclaimer to address product name change of XML Documentation for Adobe Experience Manager to AEM Guides
 feature: Disclaimer
 role: User, Leader, Admin, Developer
-hide: yes
+hide: true
 ---
 # Disclaimer {#id2263D0P0TYU}
 
