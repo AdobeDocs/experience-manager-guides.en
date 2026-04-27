@@ -74,7 +74,11 @@ To create a review task and send topics for review, perform the following steps:
 
 1. Enable the **Automated reminder** to configure scheduled reminder notifications (and email reminders) for reviewers. This can be done both before a review task's due date and after it becomes overdue.
 
-    - **Before due date reminders**: You can configure multiple reminders (maximum 3) before the due date to inform the reviewers ahead of time. Reminder 1 can be set up to the number of days remaining from today to the due date, and the reminder values must follow a descending order, representing the number of days before the due date.
+    >[!NOTE]
+    >
+    >The Automated reminders toggle remains disabled until you select a Due date for the review task.
+
+    - **Before due date reminders**: You can configure multiple reminders (maximum 3) upto 60 days before the due date to inform the reviewers ahead of time. Reminder 1 can be set up to the number of days remaining from today to the due date, and the reminder values must follow a descending order, representing the number of days before the due date.
 
     - **After due date reminders**: You can also configure reminders (maximum 3) to be sent after the due date to notify reviewers that the task is overdue. Overdue reminders can be configured up to 30 days after the due date. Reminder values must follow an ascending order, representing the number of days after the due date.
 

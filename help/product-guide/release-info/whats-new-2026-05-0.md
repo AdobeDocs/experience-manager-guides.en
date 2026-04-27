@@ -15,16 +15,11 @@ Learn about [upgrade instructions for the 2026.05.0 release](../release-info/upg
 
 Editor 2.0 marks a significant evolution in authoring, emphasizing performance, usability, and UI/UX to simplify working with large files, complex tables, and structured content without compromising control over how content is viewed and edited.
 
-### Performance enhancements 
-
-Editor 2.0 significantly improves responsiveness when working with large DITA files. This ensures that Authors can confidently edit large topics and maps without performance degradation or loss of edit history.
-
-- Undo/Redo support enabled for large files containing more than 3,500 elements 
-- Dirty marker support added for large documents, ensuring accurate change tracking and save-state awareness
+**Video placeholder**
 
 ### Improved table editing 
 
-Table authoring is enhanced to deliver a smoother and more intuitive experience.  This ensures faster table creation and modification with fewer manual steps and improved accuracy.
+Table authoring is enhanced for a smoother, more intuitive experience, enabling faster creation and modification with fewer manual steps and improved accuracy.
 
 - Fluid and responsive table interactions
 - Easy row and column insertion
@@ -32,22 +27,39 @@ Table authoring is enhanced to deliver a smoother and more intuitive experience.
 - Contextual table toolbar for cell alignment, merging and splitting cells, applying common attributes
 - Ability to add multiple rows or columns in a single action 
 
+![](assets/table-2.0.png){width="650" align="left"}
+
+### New Editor settings 
+
+A new centralized settings panel gives Authors better control over editor behavior . Configuration options include, ability to enable/disable: 
+
+- Non-breaking spaces in Author mode 
+- Tag visibility settings with attributes or without attributes 
+- XML comments in Author view 
+- Quick insert menu with the ability to configure favorite elements 
+
+![](assets/editor-settings-dialog.png){width="350" align="left"}
+
 ### Enhanced Author view 
 
 The Author view now provides greater visibility into structured content for improved transparency and control over content structure without switching to Source view. 
 
-- XML comments are visible in Author view for both DITA Maps and Topics
-- Can be shown or hidden through the Editor settings
-- Attributes are now visible alongside elements
-- Visibility is user-configurable via Editor settings 
+- XML comments are visible in Author view for both DITA Maps and Topics and can be shown or hidden through the Editor settings
 
-### New Editing modes & Toolbars 
+    ![](assets/config-xml-comments.png){width="650" align="left"}
+
+- Tags along with the attributes are now visible using the Editor settings. 
+
+    ![](assets/config-tags-attributes.png){width="650" align="left"}
+
+### New editing views
 
 Editor 2.0 introduces powerful new ways to edit content efficiently. This ensures faster authoring with reduced context switching and easier access to structured elements. 
 
-- Side-by-side Author and Source view available for DITA Topics 
-- In-line element insertion toolbar
-- Allows quick insertion of valid elements directly at the cursor position 
+- Side-by-side view available for DITA Topics that allows you to view the Author and Source view adjacent to each other. 
+- In-line element insertion toolbar that allows quick insertion of valid elements directly at the cursor position. 
+
+![](assets/quick-insert-menu.png){width="650" align="left"}
 
 ### UI & UX improvements 
 
@@ -55,16 +67,18 @@ Several visual and usability enhancements providing improved readability, access
 
 - Dark theme available for the Content editing area in the Editor 
 - Richer out-of-the-box CSS for Author mode and Preview mode 
+- Better indication of conditional content
 
-### New Editor Settings 
+![](assets/multiple-conditions-applied_cs-editor-2-0.png){width="650" align="left"}
 
-A new centralized settings panel gives Authors better control over editor behavior . Configuration options include, ability to enable/disable: 
+### Performance enhancements 
 
-- Non-breaking spaces in Author mode 
-- Tag visibility settings with attributes or without attributes 
-- XML comments in author mode 
-- Quick insert menu 
-- Ability to configure favorite elements 
+Editor 2.0 enhances responsiveness for large DITA files, enabling authors to edit extensive topics and maps without performance issues or loss of edit history.
+
+- Undo/Redo support enabled for large files containing more than 3,500 elements 
+- Dirty marker support added for large documents, ensuring accurate change tracking and save-state awareness
+
+![](assets/editor-2.0-CSS.png){width="650" align="left"}
 
 ## Review enhancements
 
@@ -86,16 +100,17 @@ Available as a beta enhancement, this update provides solution to common pain po
 
 For details, view [New baseline in Experience Manager Guides](../user-guide/web-editor-baseline-v2.md).
 
-## Enhanced reference visibility and read-only behavior controls
 
-This update introduces explicit visibility of both Link Path and Link UUID for internal references across maps and topics. Users can now access and copy the complete absolute path as well as the associated UUID directly from the interface, improving traceability and reuse of linked assets. Additionally, the system supports automatic resolution of references when a UUID is provided, converting it into the corresponding path
+## Editor enhancements
 
+### Enhanced reference visibility
+
+Now, the Link URL (relative path) of the selected reference across maps and topics in the Content properties panel is renamed to Link Path. Additionally, Link UUID field is added that shows the UUID of the selected refrences. You can now copy the complete absolute path as well as the associated UUID directly from the interface using the icons adjacent to the Link URL nad Link UUID, improving traceability and reuse of linked assets.
 For details, view [Content properties](../user-guide/web-editor-right-panel.md#content-properties).
 
-## Refined Read-only mode behavior
+## Restricted actions for read‑only files
 
-This update refines read-only mode by limiting restrictions to supported file types such as data files, XML, and markdown (including common extensions). In these files, modifications to file properties, document state tags, and metadata are restricted when in read-only mode. These restrictions no longer apply to unsupported formats such as JSON. For HTML-based files, the behavior remains unchanged, with restrictions applicable only within the File Properties section.
-
+For DITA, DITAMAP, DITAVAL, XML, and Markdown files opened in Read‑only mode, the **File properties** option in the Right panel, Properties from the context menu, and Manage Metadata under Reports are disabled.
 
 
 
