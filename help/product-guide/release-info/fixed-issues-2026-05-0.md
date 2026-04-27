@@ -13,7 +13,7 @@ Learn about [upgrade instructions for the 2026.05.0 release](upgrade-instruction
 
 ## Authoring
 
-- When selecting an image in the Editor using the **Select file** dialog, only raster formats (such as JPG, PNG, and GIF) are displayed. Vector files (such as .ai and .eps) stored in DAM are not shown and cannot be selected. (GUIDES-45110)
+- When selecting an image in the Editor using the **Select file** dialog, only raster formats (such as JPG, PNG, and GIF) are displayed. Vector files (such as .ai and .eps) are not shown and cannot be selected. (GUIDES-45110)
 - At the time of upgrade, the `tagsView` setting is turned off by default, even though its default value in `ui_config.json` is set to `true`. (GUIDES-44651)
 - In the Editor, file references are displayed as GUIDs instead of file paths despite the `xmleditor.uuid` configuration. (GUIDES-42438)
 - When Subject schemes with similar key values are applied in a DITA topic, they are highlighted with nearly identical colors, making it difficult to distinguish them and identify which scheme is applied. (GUIDES-38472)
@@ -61,7 +61,7 @@ The following issues have been fixed, and no longer occur when using Editor 2.0:
 - When the left or right arrow key is used to move out of inline tags, the cursor jumps unexpectedly on the first attempt. (GUIDES-26363)
 - AEM Spellcheck works only for the default en-US language and does not honor other locales. (GUIDES-14731)
 - When large DITA topics are unlocked in the Editor, the same topic reopens in a duplicate tab. Additionally, a tag-limit warning is triggered where `NaN` is displayed instead of the actual tag count. (GUIDES-34008)
-- When a read-only document is unlocked in the Editor, the selection controls in the **Content properties** panel remain disabled. Because Acrolinx depends on those fields to become interactive again, Acrolinx checks cannot run.  (GUIDES-29614)
+- Acrolinx suggestions are not highlighted correctly in the Editor for read-only or locked topics. (GUIDES-29614)
 - When creating a new `reltable` without a header row in Author view, the table layout changes after a topic is added to the first cell, causing the next column to collapse and making it difficult to place related topics. (GUIDES-19555)
 - When an `xref` link is added to a small table cell in Author mode, the link does not stay contained within the cell and appears across adjacent cells in the same row. (GUIDES-5489)
 - Copying and pasting a `<section>` element selected using mouse drag in Author view converts it into paragraph `(<p>)` elements, rather than preserving the section structure. (GUIDES-30023)
