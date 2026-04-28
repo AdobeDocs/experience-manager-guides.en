@@ -43,7 +43,7 @@ You can enable or disable this feature and configure favorite elements for inser
 
 1. To edit or insert an element in a topic, click within the text boundary of the required element to make changes, or place the cursor at the end of the element after which you want to add a new element and select the required element from the toolbar (or press Alt+1 to open the Insert Element popup), which intelligently lists and inserts only valid elements for that location in the topic.
 
-1. Additionally you can use the an inline element insertion toolbar to quickly insert allowed elements at the cursor position. Select **Control + /** for Windows or **Command + /** for Mac to access the elements form the inline element insertion toolbar. 
+1. Additionally you can use the Quick insert menu to readily insert allowed elements at the cursor position. Select **Control + /** for Windows or **Command + /** for Mac to access the elements. 
 
     >[!NOTE]
     >
@@ -69,7 +69,7 @@ Make the selected content bold, italics, underline the selected content. The con
 
 >[!TAB Editor 2.0]
 
-You can format the selected content as bold, italics, or underline using the contextual menu. Select the content, then click the appropriate formatting icon in the menu that appears. Make the selected content bold, italics, or underline. The content from the valid open tags is then merged and appears under a single element.
+You can format the selected content as bold, italics, or underline using the contextual toolbar. Select the content, then click the appropriate formatting icon in the menu that appears. Make the selected content bold, italics, or underline. The content from the valid open tags is then merged and appears under a single element.
 
 ![Formatting options](./images/formatting-options.png){width="650" align="left"}
 
