@@ -5,7 +5,6 @@ exl-id: 525de1c3-5a79-4d65-89b4-ca05ae660c2c
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Configure Dispatcher {#id213BCM0M05U}
 

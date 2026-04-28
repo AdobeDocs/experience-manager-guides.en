@@ -5,7 +5,6 @@ exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Add a custom bookmark in PDF output
 

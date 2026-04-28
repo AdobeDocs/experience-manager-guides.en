@@ -5,7 +5,6 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: ff6f968c-3440-4757-882a-676711ad05c3
-hidefromtoc: yes
 ---
 # Configure B-tree cleanup
 

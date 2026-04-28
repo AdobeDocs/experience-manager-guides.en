@@ -5,7 +5,6 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Components of a PDF template {#components-pdf-template}
 

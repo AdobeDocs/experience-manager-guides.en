@@ -5,7 +5,6 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 839128b4-4889-4c61-b1c0-214ba1d3165e
-hidefromtoc: yes
 ---
 # Configure display of pasted tables
 

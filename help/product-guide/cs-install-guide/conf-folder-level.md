@@ -5,7 +5,6 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Configure global or folder-level profiles {#id181AH2003PF}
 

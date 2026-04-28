@@ -5,7 +5,6 @@ exl-id: 3bb28304-d8e2-45eb-8297-546eed428b8c
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Deploy Adobe Experience Manager Guides module {#id213BCL00KEV}
 

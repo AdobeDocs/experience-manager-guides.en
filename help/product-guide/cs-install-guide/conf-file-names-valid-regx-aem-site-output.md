@@ -5,7 +5,6 @@ exl-id: 05215bec-653b-4563-83c6-a1bb16200469
 feature: Filename Configuration
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Configure valid file names for AEM Site output {#id214GK0X0KXA}
 

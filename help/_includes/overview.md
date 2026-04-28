@@ -4,7 +4,6 @@ description: Find tutorial videos for Experience Manager Guides (formerly XML Do
 feature: AEM Guides Tutorials
 role: User
 hide: true 
-
 ---
 # Testing overview
 

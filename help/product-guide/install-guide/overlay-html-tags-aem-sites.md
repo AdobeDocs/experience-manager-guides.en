@@ -5,7 +5,6 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 726420e0-fe52-4334-b72a-8eb8bcae4d6c
-hidefromtoc: yes
 ---
 # Overlay HTML tags in AEM Sites output 
 

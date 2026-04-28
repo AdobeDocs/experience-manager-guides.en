@@ -5,7 +5,6 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: ae1d805a-7b79-4b76-8be2-a19c5552530c
-hidefromtoc: yes
 ---
 # Configure Base Output Location for publishing output for On-Premise services
 

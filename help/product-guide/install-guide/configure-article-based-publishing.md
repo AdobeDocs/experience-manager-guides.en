@@ -5,7 +5,6 @@ exl-id: 69f408da-602d-4541-94fa-6f058773502f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Install packages for Article-based publishing {#id21BNL02052Z}
 

@@ -2,7 +2,6 @@
 title: Oxygen Plugin for Adobe Experience Manager Guides
 description: Learn how to use Oxygen Plugin for Adobe Experience Manager Guides to create and manage your content.
 hide: true
-hidefromtoc: yes
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin

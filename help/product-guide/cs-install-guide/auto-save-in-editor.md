@@ -5,7 +5,6 @@ exl-id: 4d99c3d8-cf6a-4cf3-aaec-9009a0376c1e
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Configure file auto-save in the Web Editor {#id199CC0J0M5Z}
 

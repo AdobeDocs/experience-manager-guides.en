@@ -5,7 +5,6 @@ exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Apply custom style on TOC entries and topic content 
 

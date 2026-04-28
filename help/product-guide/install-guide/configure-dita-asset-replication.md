@@ -5,7 +5,6 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 49fd9dfe-e1a5-4388-abbd-ec5d45669b45
-hidefromtoc: yes
 ---
 # Configure DITA assets replication
 

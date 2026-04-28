@@ -5,7 +5,6 @@ exl-id: bdbdf119-b928-4ed2-bab3-d99370da8aa9
 feature: Filename Configuration
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Configure auto-filenames based on UUID {#id205QG070D5Z}
 

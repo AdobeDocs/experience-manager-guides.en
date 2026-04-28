@@ -5,7 +5,6 @@ exl-id: 268e8613-bb3b-4577-96fb-a588dabfd834
 feature: Publishing FrameMaker Documents
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Integrate desktop-based XML editors {#id181GB01G0HS}
 
