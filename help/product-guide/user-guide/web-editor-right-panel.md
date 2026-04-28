@@ -74,6 +74,10 @@ If your administrator has created a profile for attributes, then you will get th
 
 View the properties of the selected file by selecting the File properties icon in the right panel. The File properties feature is available in all four modes or views: Layout, Author, Source, and Preview.
 
+>[!NOTE]
+>
+> The File properties panel provides options to view and modify various metadata properties associated with a file. However, when a file is in read-only mode, these metadata properties cannot be modified. This limitation applies only to DITA and Markdown files. For non-DITA assets (such as images and multimedia), metadata properties remain editable even in read-only mode.
+
 The File properties have the following two sections:
 
 **General**
@@ -91,7 +95,7 @@ The General section gives you access to the following features:
     > The **Word count** feature is introduced in the 2026.01.0 release of Experience Manager Guides as a Cloud Service. Any new DITA topics you create after upgrading to this release will automatically have the calculated word count in the Right panel. For existing topics, [reprocessing of the assets](./asset-processor.md) is required. 
 
 - **Tags**: These are the metadata tags of the topic. They are set from the tags field in the properties page. You can type or select them from the dropdown.  The tags appear under the dropdown. To delete a tag, select the cross icon next to the tag. 
--  **Edit more properties**: You can edit more properties ( for files that are not in **Read only** mode) from the File properties page. 
+-  **Edit more properties**: Allows you to view and edit additional properties of the currently open file. 
 
     >[!NOTE]
     >
