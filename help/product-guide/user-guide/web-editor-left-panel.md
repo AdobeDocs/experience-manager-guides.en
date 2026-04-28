@@ -125,9 +125,17 @@ When you select the Repository icon, you get a list of files and folders availab
 
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of files by filenames in the Editor. Select the **File name** option of the **Editor files display configuration** section in **User preferences**.
+> As an administrator, you can also choose to view the list of files by filenames in the Editor. Select the **File name** option under the **Editor files display configuration** section in **User preferences**.
 
 75 files are loaded at a time. Each time you select **Load more**… 75 files are loaded, and the button stops being displayed when all the files have been listed. This batch loading is efficient, and you can access the files faster in comparison to loading all the files existing in a folder.
+
+>[!NOTE]
+>
+> When paginated loading is enabled, the Repository/Explorer panel loads content incrementally to improve performance for large folders. At the root level, items load automatically in batches of 50 as you scroll. Within folders, the first 50 items are displayed initially, and **Load More** is available to view additional items.
+>
+> <br>To learn more about performance improvements with paginated loading, view []().
+>
+><br> To enable this feature for your environment, contact the Customer Success Team.
 
 You can easily navigate to the required file within DAM and open it in the Editor. If you have the required access to edit the file, then you can do so.
 
@@ -136,6 +144,28 @@ the view of the video. In the shortcut menu you also have the options to downloa
 speed, or view picture in picture.
 
 Select a map and press Enter or double-click to open it in the **Map view**. For more details, view the **Map view** feature description in the left panel. Select a topic and press Enter or double-click to open it in the [Content editing area](./web-editor-content-editing-area.md). Being able to navigate and open a file directly from the Editor saves time and increases productivity. 
+
+### Paginated loading experience
+
+The following sections describe behavior changes at the folder and file level in the Repository/Explorer when paginated loading is enabled.
+
+**File operations**
+
+- **Delete**: When a file is deleted, the parent folder refreshes and displays the first 50 items.
+- **Add or duplicate**: Newly added or duplicated files are placed at the top of the destination folder and opened in the editor. This placement may not reflect the configured backend sort order until the folder is manually refreshed.
+- **Locate in Repository**: Files opened in the editor are no longer automatically highlighted in the Repository/Explorer panel. The **Always locate files in Repository** under User preferences is no longer available. However, to help locate files using the file's tab view, the search is performed in batches of up to 500 items per folder until the file is found.
+
+**Moving files**
+
+File move behavior varies based on the relationship between the source and destination folders:
+
+- **Between unrelated folders**: The source folder refreshes and displays the first 50 items. The moved file is added to the top of the destination folder.
+- **From a child folder to its parent folder**: The same behavior applies: the source folder refreshes to the first 50 items, and the file is added to the top of the destination folder.
+- **From a parent folder to a child folder**: The entire folder content is loaded until the moved file is located in the destination folder. During this process, items may be loaded in batches of up to 500. The moved file is then added as the first item in the destination folder.
+
+**Refresh** 
+
+A **Refresh** button is available in the Repository/Explorer panel that allows you to reload the root-level folder.
 
 ## Filter Search in Repository
 
@@ -473,7 +503,7 @@ Explorer provides most of the capabilities previously available in Repository, i
 - Navigation through files and folders
 - Options menu for files and folders
 
-But, it introduces an enhanced Search and filtering experience, designed to improve usability and efficiency.
+But, it introduces an enhanced Search and filtering experience, designed to improve usability and efficiency. 
 
 For detailed information on the context menu for files and folders, view [Options menu](#options-menu).
 
