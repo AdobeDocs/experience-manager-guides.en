@@ -283,6 +283,10 @@ You can perform the following additional tasks in the preview mode:
 
 **Open topics for editing**
 
+>[!NOTE]
+>
+> The **Refresh topic** and **Refresh** options available in the Preview mode of Classic Editor, are currently not supported in Editor 2.0. 
+
 -   Right-click on a topic, and select **Edit** to open the topic for editing in a new tab.
 
     >[!NOTE]
