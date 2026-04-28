@@ -2,7 +2,6 @@
 title: Configure the Smart Help to search content
 description: Learn how to configure the Smart Help to search content
 exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
-hidefromtoc: yes
 ---
 # Configure the AI-powered Smart Help to search content
 

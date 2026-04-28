@@ -5,7 +5,6 @@ exl-id: 8f34847c-68e4-4027-abae-f74df27212be
 feature: Filename Configuration
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Configure filenames {#id214BD010GXA}
 

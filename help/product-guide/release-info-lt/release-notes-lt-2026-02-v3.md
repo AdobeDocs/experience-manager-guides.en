@@ -2,7 +2,6 @@
 title: Release Notes | What's New in February 2026 release of Product Training and Learning content
 description: Learn about the new and enhanced features in the February 2026 release of Product Training and Learning content
 role: Leader
-hidefromtoc: yes
 exl-id: aef24b0c-0cb8-4646-9d8b-92d3460a7faa
 ---
 # February 2026 release of Product Training and Learning content  

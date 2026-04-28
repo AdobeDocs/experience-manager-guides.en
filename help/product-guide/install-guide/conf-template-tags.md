@@ -5,7 +5,6 @@ exl-id: 2d813da9-6586-4b43-9c79-ff46a5e651a2
 feature: Template Configuration
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Configure topic and map templates {#id181AH2003PF}
 

@@ -5,7 +5,6 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Version management {#id181GB000XY4}
 

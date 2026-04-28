@@ -5,7 +5,6 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Support for language variables
 

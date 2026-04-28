@@ -5,7 +5,6 @@ exl-id: 6387dd19-1bd1-4ce8-9428-968a6b838fbb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Download and install {#id1645E0O04MK}
 

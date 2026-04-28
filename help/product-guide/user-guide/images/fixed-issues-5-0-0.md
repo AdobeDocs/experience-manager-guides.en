@@ -1,7 +1,6 @@
 ---
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 5.0.0 release
 description: Learn about the bug fixes in the 5.0.0 release of Adobe Experience Manager Guides.
-
 ---
 # Fixed issues in the 5.0.0 release (March 2025)
 

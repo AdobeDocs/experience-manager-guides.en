@@ -5,7 +5,6 @@ exl-id: d184c97f-8405-4bcd-963d-635f17584897
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Configure prompt to check in a file on close {#id222HC040PE8}
 

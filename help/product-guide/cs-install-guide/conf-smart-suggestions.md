@@ -2,7 +2,6 @@
 title: Configure AI Assistant for smart help and authoring 
 description: Learn how to configure the AI Assistant in Experience Manager Guides 
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-hidefromtoc: yes
 ---
 # Configure the AI Assistant
 

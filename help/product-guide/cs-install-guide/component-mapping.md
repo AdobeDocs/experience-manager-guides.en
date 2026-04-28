@@ -5,7 +5,6 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: f59e3ad5-bf9c-468d-aab7-144c8c2335ac
-hidefromtoc: yes
 ---
 # Component mapping for AEM Sites
 

@@ -5,7 +5,6 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 1f72642c-e694-47cd-9182-f4f4aaf69655
-hidefromtoc: yes
 ---
 # Configure Adobe Workfront
 

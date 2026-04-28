@@ -5,7 +5,6 @@ exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Upload existing DITA content {#id176FF000JUI}
 

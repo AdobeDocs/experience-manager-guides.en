@@ -4,7 +4,6 @@ description: Learn about the various settings available in the Editor interface 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: c6767c75-0b53-4bde-9c7f-7ae1cd9b5076
-hidefromtoc: yes
 ---
 # Configure Editor settings
 
