@@ -145,13 +145,13 @@ The **Author** view allows you to edit your DITA map in the Editor. This shows t
 
 >[!BEGINTABS]
 
->[!TAB Old Editor]
-
-![](images/map-editor-author-view.png){align="left"}
-
 >[!TAB New Editor]
 
 ![](images/map-editor-author-view-editor-2-0.png){align="left"}
+
+>[!TAB Old Editor]
+
+![](images/map-editor-author-view.png){align="left"}
 
 The options available in the **Menu** dropdown are same as available in the [Editor toolbar](./web-editor-toolbar.md#menu-dropdown).
 
@@ -363,13 +363,13 @@ To edit topics through a DITA map, perform the following steps:
 
 >[!BEGINTABS] 
 
->[!TAB Old Editor] 
-
-![](images/web-editor-multiple-topics.png){align="left"}
-
 >[!TAB New Editor] 
 
 ![](images/web-editor-multiple-topics-editor-2-0.png){align="left"}
+
+>[!TAB Old Editor] 
+
+![](images/web-editor-multiple-topics.png){align="left"}
 
 >[!ENDTABS] 
     
@@ -409,13 +409,13 @@ The following tabs show how attributes are displayed in the Author view, as the 
 
 >[!BEGINTABS] 
 
->[!TAB Old Editor] 
-
-![layout view](images/author-inline-attributes.png){width="650" align="left"}
-
 >[!TAB New Editor] 
 
 ![layout view](images/author-inline-attributes-editor-2-0.png){width="650" align="left"}
+
+>[!TAB Old Editor] 
+
+![layout view](images/author-inline-attributes.png){width="650" align="left"}
 
 >[!ENDTABS] 
 
