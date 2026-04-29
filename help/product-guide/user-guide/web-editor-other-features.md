@@ -24,13 +24,34 @@ You get the following functions in the context menu of an opened media file's ta
 
 You get the following functions in the context menu of an opened file's tab:
 
+>[!BEGINTABS] 
+
+>[!TAB New Editor] 
+
 ![](images/single-file-context-menu.png){width="400" align="left"}
+
+>[!TAB Old Editor] 
+
+![](images/single-file-context-menu-editor-2-0.png){width="400" align="left"}
+
+>[!ENDTABS] 
 
 **Multiple files**
 
 When you have multiple files opened, then you get more options in the context menu:
 
+>[!BEGINTABS] 
+
+>[!TAB New Editor] 
+
+
+![](images/multiple-files-context-menu-editor-2-0.png){width="550" align="left"}
+
+>[!TAB Old Editor] 
+
 ![](images/multiple-files-context-menu.png){width="550" align="left"}
+
+>[!ENDTABS] 
 
 The various options in the context menu are explained below:
 
@@ -138,6 +159,89 @@ The Editor provides a smart file browse dialog. The editor remembers the last us
 >[!NOTE]
 >
 > In case of an image, audio, or video file, the file browse dialog defaults to the file's location and not the last used location.
+
+## Work with Tables in the New Editor 
+
+The New Editor allows you to create, format, and organize tables directly within your content using various contextual actions. Instead of navigating through multiple menus, most table operations are available based on where you click and what you select.
+
+This section walks you through the various table authoring features available in the New Editor.
+
+**Modify the table using the context menu**
+
+The context menu is displayed when you right-click inside a table cell. The following options are available based on the table type you are working with:  
+
+![](images/table-context-menu.png){width="550" align="left"}
+
+- Insert rows, columns, or cells
+
+- Split cells horizontally or vertically (Applies only to Tables)
+
+- Merge cells right or down (Applies only to Tables)
+
+- Delete rows or columns
+
+**Set text formatting and alignment using the contexual toolbar**
+
+The contextual toolbar is displayed when you select content inside a table. The toolbar provides options relevant to your selection.
+
+- Select a cell to access the following formatting options:
+
+    ![](images/text-formatting-options-table.png){width="550" align="left"}
+
+  Use the Bold, Italic, or Underline options to format your text.
+
+- Selecting multiple rows or columns allows you to apply text formatting to them at once. 
+
+   Other available options for single or multiple row selection:
+
+   ![](images/set-alignment-rows.png){width="550" align="left"}
+
+    - Horizontal text alignment (Applies only to Tables)
+    - Vertical text alignment (Applies only to Tables)
+    - Insert row above
+    - Insert row below
+    - Remove row
+    - Merge cells (Applies only to Tables)
+
+    Other available options for single or multiple column selection:
+
+    ![](images/set-alignment-columns.png){width="550" align="left"}
+
+    - Horizontal text alignment (Applies only to Tables)
+    - Vertical text alignment (Applies only to Tables)
+    - Insert row above
+    - Insert row below
+    - Remove row
+    - Insert column above
+    - Insert column below
+    - Remove column
+    - Merge cells (Applies only to Tables)
+
+- Select the table to apply text formatting and alignment to the entire table. 
+
+    ![](images/text-alignment-table.png){width="550" align="left"}
+
+- Add or remove rows to a table with a single click
+
+    To add a new row at the end of the table, hover over the last row and select the + icon. A new row is added at the bottom of the table.
+
+    ![](images/add-row.png){width="550" align="left"}
+
+    Similarly, hover over the last column and select the **+** icon to add a new column to the rightmost side of the table.
+
+    ![](images/add-column.png){width="550" align="left"}
+
+- Add multiple rows or columns to a table using Insert options (Applies only to Tables)
+
+    To add multiple rows or columns to a table, select the cells and then select Insert options such as Insert above or below. 
+
+    ![](images/add-multi-row-col.png){width="550" align="left"}
+
+- Drag and drop rows and columns (Applies only to Tables)
+
+    Easily move the rows and columns within the table using drag and drop. When you drag a row or column, it appears with a semi-transparent background to indicate that it is being moved. A blue line highlights the target position where the row or column will be placed upon release.
+
+    ![](images/drag-and-drop-table-rows.png){width="550" align="left"}
 
 ## Browse files and folders in Experience Manager Guides
 
@@ -308,7 +412,19 @@ Insert footnote in your content by using the `fn` element. In the authoring mode
 
 The Editor displays the element's breadcrumb at the bottom-left of the topic. If you want to swap or replace an element with another element, then you can do so from the breadcrumb's context menu. For example, you can swap `p` element with `note` or any other valid element at the context.
 
+>[!BEGINTABS] 
+
+>[!TAB New Editor]
+
+![](images/rename-element-editor-2-0.png){width="400" align="left"}
+
+>[!TAB Old Editor]
+
+
 ![](images/rename-element.png){width="400" align="left"}
+
+
+>[!ENDTABS] 
 
 On the breadcrumb, right-click on an element's name that you want to replace, then select Rename Element from the context menu. The Rename Element dialog displays all valid elements that are allowed at the current location. From the Rename Element dialog, select the element that you want to use. The original element is replaced with the new element.
 
@@ -385,6 +501,10 @@ Selecting **Duplicate IDs** opens a popover listing all the duplicate IDs. You c
 
 
 ## Handling large files in the Editor
+
+>[!NOTE]
+>
+> This section applies only to the Old Editor. With the New Editor, the editing experience for large and complex topics is improved through faster loading and more responsive interactions, alongwith the support for undo/redo support and dirty marker. 
 
 The key features aimed at improving the handling of large files are mentioned as follows:
 

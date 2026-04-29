@@ -9,7 +9,7 @@ exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
 
 >[!INFO]
 >
-> This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+> This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
 
 The toolbar appears when you open a topic or map for editing in the Editor. Features available in the toolbar are as follows:
 
@@ -28,13 +28,15 @@ The Menu dropdown provides access to the various editing actions as shown below:
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
+>[!TAB New Editor]
+
+![Menu dropdown for Editor toolbar](images/editor-toolbar-menu-dropdown-new-editor-2-0.png){width="350" align="left"}
+
+
+>[!TAB Old Editor]
 
 ![Menu dropdown for Editor toolbar](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
 
->[!TAB Editor 2.0]
-
-![Menu dropdown for Editor toolbar](images/editor-toolbar-menu-dropdown-new-editor-2-0.png){width="350" align="left"}
 
 >[!ENDTABS]
 
@@ -241,9 +243,9 @@ You can [create a review task](./review-send-topics-for-review.md) of the curren
 
 >[!NOTE]
 >
-> In Editor 2.0, the **Show menu** is no longer available in the Menu dropdown. To access the various options available under Show menu, navigate to [Editor Settings](./config-editor-settings.md). The Show menu continues to be available in the Menu dropdown in the Classic Editor.
+> In New Editor, the **Show menu** is no longer available in the Menu dropdown. To access the various options available under Show menu, navigate to [Editor Settings](./config-editor-settings.md). The Show menu continues to be available in the Menu dropdown in the Old Editor.
 
-The Show menu in the Classic Editor comprises of the following features: 
+The Show menu in the Old Editor comprises of the following features: 
 
 - **Track changes:** You can keep a track of all updates made on a document by enabling the Track changes mode. After enabling the track changes, all insertions and deletions are captured in the document. All deleted content is highlighted using Strikethrough and all insertions are highlighted in green color text. In addition, you also get the change bars at the edge of the topic page. Again, a red bar is shown for deleted content and a green bar is shown for added content. In case there is an addition and deletion on the same line, then both green and red bars are shown.
 The following screenshot highlights the deleted and inserted content along with the change bars:
@@ -311,11 +313,11 @@ You can also type a character or string in the search box and search for the ele
 If you are working inside a block element like a `note`, then use the Insert element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
 
 >[!BEGINTABS] 
->[!TAB Classic Editor] 
+>[!TAB Old Editor] 
 
 ![Insert element in a block element](images/note-in-para-insert-element_cs.png){  align="left"}
 
->[!TAB Editor 2.0] 
+>[!TAB New Editor] 
 
 ![Insert element in a block element](images/note-in-para-insert-element_cs-editor-2-0.png){  align="left"}
 
@@ -326,11 +328,11 @@ If you press Enter in the note element, a new paragraph is created within the no
 You can also add an element between two elements when a blinking block cursor appears. 
 
 >[!BEGINTABS] 
->[!TAB Classic Editor] 
+>[!TAB Old Editor] 
 
 ![](images/Block-cursor.png){width="300" align="left"}
 
->[!TAB Editor 2.0] 
+>[!TAB New Editor] 
 
 ![](images/Block-cursor-editor-2-0.png){width="300" align="left"}
 
@@ -360,7 +362,7 @@ Creates a numbered list at the current or next valid location. If you are on a n
 
 **Table** - ![](images/Table_icon.svg)
 
-Inserts a Simple table at the current or next valid location. Select the Table icon to open the **Insert Simple Table** dialog. 
+Inserts a Simple table or Table at the current or next valid location. Select the Table icon to open the **Insert Simple Table** dialog. 
 
 ![](images/table-properties.png){width="550" align="left"}
 
@@ -370,17 +372,11 @@ You can specify the number of rows and columns required in the table. If you wan
 >
 > You can also copy a table from MS Word or Excel and paste it into the Experience Manager Guides topic file. The copied table will be pasted as either `<simpletable>` or `<tgroup>` depending on the settings configured in the XML Editor Configuration. For more details, view [Configure the display of pasted tables](../cs-install-guide/conf-pasted-tables.md). 
 
-Features available in the Simple Table
+Once a table is inserted, you can modify the table using the context menu.
 
->[!BEGINTABS] 
-
->[!TAB Classic Editor] 
-
-Simple Table in the Classic Editor.
-
-![](images/simple-table-editor.png){width="300" align="left"}
-
-**Modify the table using the context menu.**
+>[!NOTE]
+>
+> You can also chose to switch to the New Editor for an improved table editing experience. For more details on table authoring features available in the New Editor, view [Work with tables in the New Editor](/web-editor-other-features.md#work-with-tables-in-the-new-editor).
 
 ![](images/table-context-menu_cs.png){width="550" align="left"}
 
@@ -395,104 +391,6 @@ Using the table's context menu, you can:
 - Delete cells, rows, or columns
 
 - Generate IDs
-
-**Define attributes on multiple cells, entire row, or column of a table**
-
-You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel (on the right), the property **Type** changes to **entry**.
-
-1. In the **Attributes** section, select **+Add**. 
-1. Select the `@valign` attribute from the **Attribute** dropdown list. 
-1. From the value dropdown list, select the desired text alignment you want to apply on the selected table cells. 
-1. Select **Add.**
-
-![](images/align-table-cell_cs.png){  align="left"}
-
->[!TAB Editor 2.0] 
-
-Simple Table in Editor 2.0.
-
-![](images/simple-table-editor-2-0.png){width="300" align="left"}
-
->[!ENDTABS] 
-
-**Modify the table using the context menu**
-
-![](images/table-context-menu.png){width="550" align="left"}
-
-Using the table's context menu, you can:
-
-- Insert rows or columns.
-
-- Split cells horizontally or vertically.
-
-- Set Horizontal alignment for cell text. You can set the text to Left, Center, Right, or Justify. 
-
-- Set Vertical alignment for cell text. You can set the text to Top, Middle, or Bottom. 
-
-- Delete rows or columns.
-
-**Set text formatting and alignment**
-
-- Select a cell to access the following formatting options:
-
- ![](images/text-formatting-options-table.png){width="550" align="left"}
-
-  Use the Bold, Italic, or Underline options to format your text.
-
-- Select multiple rows or columns allows you to apply text formatting to them at once. 
-
-   Other available options:
-
-    For Rows:
-
-    ![](images/set-alignment-rows.png){width="550" align="left"}
-
-    - Horizontal text alignment 
-    - Vertical text alignment
-    - Insert row above
-    - Insert row below
-    - Remove row
-    - Merge cells
-
-    For Columns:
-
-    ![](images/set-alignment-columns.png){width="550" align="left"}
-
-    - Horizontal text alignment 
-    - Vertical text alignment
-    - Insert row above
-    - Insert row below
-    - Remove row
-    - Insert column above
-    - Insert column below
-    - Remove column
-    - Merge cells
-
-- Select the table to apply text formatting and alignment to the entire table. 
-
-    ![](images/text-alignment-table.png){width="550" align="left"}
-
-- Add or remove rows to a table with a single click
-
-    To add a new row at the end of the table, hover over the last row and select the + icon. A new row is added at the bottom of the table.
-
-    ![](images/add-row.png){width="550" align="left"}
-
-    Similarly, hover over the last column and select the + icon to add a new column to the rightmost side of the table.
-
-    ![](images/add-column.png){width="550" align="left"}
-
-- Add multiple rows or columns to a table
-
-    To add multiple rows or columns to a table, select the cells and then select Insert options such as Insert above or below. 
-
-    ![](images/add-multi-row-col.png){width="550" align="left"}
-
-- Drag and drop rows and columns
-
-    Easily move the rows and columns within the table using drag and drop. When you drag a row or column, it appears with a semi-transparent background to indicate that it is being moved. A blue line highlights the target position where the row or column will be placed upon release.
-
-    ![](images/drag-and-drop-table-rows.png){width="550" align="left"}
 
 **Define attributes on multiple cells, entire row, or column of a table**
 
@@ -634,11 +532,11 @@ If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then yo
 > As per standard DITA behavior, the scope=`external` attribute must not be applied to internal links, as it is intended only for references to external resources. Applying this attribute to internal links may disrupt workflows. For content managed in Experience Manager Guides, use the default scope=`local` or key-based references instead.
 
 >[!BEGINTABS] 
->[!TAB Classic Editor] 
+>[!TAB Old Editor] 
 
 ![](images/ref-link-uuid_cs.png){  align="left"}
 
->[!TAB Editor 2.0] 
+>[!TAB New Editor] 
 
 ![](images/ref-link-uuid_cs-editor-2-0.png){  align="left"}
 
@@ -760,11 +658,11 @@ The version number changes with every new version that is created for the topic 
 
 >[!BEGINTABS] 
 
->[!TAB Classic Editor]     
+>[!TAB Old Editor]     
 
 ![](images/version-information.png){  align="left"}
 
->[!TAB Editor 2.0]    
+>[!TAB New Editor]    
 
 ![](images/version-information-editor-2-0.png){  align="left"}
 
@@ -775,11 +673,11 @@ The version number changes with every new version that is created for the topic 
 
 >[!BEGINTABS] 
 
->[!TAB Classic Editor]     
+>[!TAB Old Editor]     
     
 ![](images/save-as-new-version.png){  align="left"}
 
->[!TAB Editor 2.0]     
+>[!TAB New Editor]     
 
 ![](images/save-as-new-version-editor-2-0.png){  align="left"}
 
@@ -805,11 +703,11 @@ If your topic is under review, your reviewers will get a notification saying tha
 When you hover your pointer over a topic's title, you are shown the file title, file path, and the version number.
 
 >[!BEGINTABS] 
->[!TAB Classic Editor] 
+>[!TAB Old Editor] 
 
 ![](images/mouse-hover-on-title_cs.png){  align="left"}
 
->[!TAB Editor 2.0] 
+>[!TAB New Editor] 
 
 ![](images/mouse-hover-on-title_cs-editor-2-0.png){  align="left"}
 
@@ -824,11 +722,11 @@ When you hover your pointer over a topic's title, you are shown the file title, 
 Locks or unlocks the current file. Locking a file gives you an exclusive write access to the file. This restricts other users from editing the file. Unlock the file if you want others to have editing access. When the file is unlocked, the changes are saved in the current version of the file.
 
 >[!BEGINTABS] 
->[!TAB Classic Editor] 
+>[!TAB Old Editor] 
 
 ![](images/web-editor-lock-button.png){  align="left"}
 
->[!TAB Editor 2.0] 
+>[!TAB New Editor] 
 
 ![](images/web-editor-lock-button-editor-2-0.png){  align="left"}
 
