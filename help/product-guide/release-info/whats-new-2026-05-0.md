@@ -13,15 +13,19 @@ Learn about [upgrade instructions for the 2026.05.0 release](../release-info/upg
 
 ## Introducing New Editor
 
-New Editor enhances authoring with a simplified experience, improved performance, and a more stable, modern interface.
+New Editor provides simplified authoring, enabling you to create content more efficiently across both tag and non-tag modes through a more intuitive experience. The release brings improved performance, with faster page loads and smoother editing even for large and complex topics. It also delivers enhanced stability by addressing key authoring gaps, particularly around navigation and cursor behavior. Additionally, a modern interface offers a refreshed and user-friendly UI that balances functionality with ease of use. For details, view [New Editor](../user-guide/web-editor.md).
+
 
 >[!VIDEO](https://video.tv.adobe.com/v/3484007)
 
-New Editor provides simplified authoring, enabling you to create content more efficiently across both tag and non-tag modes through a more intuitive experience. The release brings improved performance, with faster page loads and smoother editing even for large and complex topics. It also delivers enhanced stability by addressing key authoring gaps, particularly around navigation and cursor behavior. Additionally, a modern interface offers a refreshed and user-friendly UI that balances functionality with ease of use. For details, view [New Editor](../user-guide/web-editor.md).
 
 >[!NOTE]
 >
 > Please reach out to AEM Guides Customer Success team to get the New Editor enabled on your environment.
+
+
+The New Editor brings the following enhancements to make authoring easier and more efficient.
+
 
 ### Redesigned user interface & experience
 
