@@ -9,7 +9,7 @@ exl-id: 4f481438-618d-4291-b3aa-43ee0dd2e86d
 
 >[!INFO]
 >
-> This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+> This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
 
 The content editing area is where the content of your topic or map is displayed. You make all content edits in this area. It gives a WYSIWYG view of the content you are editing. 
 
@@ -17,13 +17,13 @@ At the bottom-left of the content editing area, you have the breadcrumb of the e
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
-
-![](images/content-editing-area.png)
-
->[!TAB Editor 2.0]
+>[!TAB New Editor]
 
 ![](images/content-editing-area-editor-2-0.png)
+
+>[!TAB Old Editor]
+
+![](images/content-editing-area.png)
 
 >[!ENDTABS]
 

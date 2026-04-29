@@ -9,7 +9,7 @@ role: User
 
 >[!NOTE]
 >
-> Citations are supported only in the Classic Editor and are currently not available in Editor 2.0. The information in this article applies only if you are using the Classic Editor.
+> Citations are supported only in the Old Editor and are currently not available in New Editor. The information in this article applies only if you are using the Old Editor.
 
 Citations are references to the source of information added to your content. Using citations, you can credit the authors of the source information and help readers to follow up on the source information. Adding citations makes your content more reliable and prevents plagiarism. They also allow you to display well-researched content.
 

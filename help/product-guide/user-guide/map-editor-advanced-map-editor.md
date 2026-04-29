@@ -9,7 +9,7 @@ role: User
 
 >[!INFO]
 >
-> This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+> This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
 
 The toolbar in the Map Editor is similar to the topic Editor. The basic operations like toggling the left panel, saving map, creating a new version of map, undo/redo last operation, and delete the selected elements are common in both editors. For detail about how these operations work, view [Toolbar in the Editor](web-editor-toolbar.md#) section.
 
@@ -27,7 +27,7 @@ The following sections cover the toolbar options available in the different view
 
 >[!NOTE]
 >
-> In Editor 2.0, The **Layout** feature is currently not supported.
+> In New Editor, The **Layout** feature is currently not supported.
 
 When you open a map for editing, it opens the Layout view of the Map Editor. The Layout view displays the map hierarchy in a tree view and allows you to organize the topics in a map.
 
@@ -145,11 +145,11 @@ The **Author** view allows you to edit your DITA map in the Editor. This shows t
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
+>[!TAB Old Editor]
 
 ![](images/map-editor-author-view.png){align="left"}
 
->[!TAB Editor 2.0]
+>[!TAB New Editor]
 
 ![](images/map-editor-author-view-editor-2-0.png){align="left"}
 
@@ -244,7 +244,7 @@ Shows or hides the XML tags. The tags serve as visual cues indicating an element
 
 >[!NOTE]
 >
-> In Editor 2.0, Options to add or remove **Tags** are available under Editor settings. For more details, view [Editor settings](./config-editor-settings.md).
+> In New Editor, Options to add or remove **Tags** are available under Editor settings. For more details, view [Editor settings](./config-editor-settings.md).
 
 **Track changes** - ![](images/track-changes.svg)
 
@@ -252,7 +252,7 @@ You can keep a track of all updates made in the map file by enabling the Track C
 
 >[!NOTE]
 >
-> In Editor 2.0, The **Track changes** feature is currently not supported.
+> In New Editor, The **Track changes** feature is currently not supported.
 
 **Create review task** - ![](images/create-review-task.svg)
 
@@ -285,7 +285,7 @@ You can perform the following additional tasks in the preview mode:
 
 >[!NOTE]
 >
-> The **Refresh topic** and **Refresh** options available in the Preview mode of Classic Editor, are currently not supported in Editor 2.0. 
+> The **Refresh topic** and **Refresh** options available in the Preview mode of Old Editor, are currently not supported in New Editor. 
 
 -   Right-click on a topic, and select **Edit** to open the topic for editing in a new tab.
 
@@ -332,7 +332,9 @@ Displays the Map Properties dialog wherein you can set the attributes and metada
 
 ## Side-by-side view
 
-Displays the Author view alongside the corresponding Source view. This layout allows you to edit content in the Author view while simultaneously viewing the corresponding XML, helping you verify structure and make accurate updates in real time.
+Displays the Author view alongside the corresponding Source view. This layout helps you work with both the visual structure and the underlying XML at the same time. This makes it easier to understand how your map is built and ensures that any changes you make are aligned with the intended structure.
+
+For example, if a topic is not appearing correctly in your output, you can use the Author view to check its placement in the map while simultaneously reviewing the Source view to review the topic reference or attributes.
 
 ![](images/map-editor-side-by-side-view.png)
 
@@ -361,11 +363,11 @@ To edit topics through a DITA map, perform the following steps:
 
 >[!BEGINTABS] 
 
->[!TAB Classic Editor] 
+>[!TAB Old Editor] 
 
 ![](images/web-editor-multiple-topics.png){align="left"}
 
->[!TAB Editor 2.0] 
+>[!TAB New Editor] 
 
 ![](images/web-editor-multiple-topics-editor-2-0.png){align="left"}
 
@@ -403,15 +405,15 @@ For more details, view [Content properties](web-editor-features.md#right-panel) 
 
 ![layout view](images/layout-inline-attributes.png){width="650" align="left"}
 
-The following tabs show how attributes are displayed in the Author view, as the Layout view is not available in Editor 2.0.
+The following tabs show how attributes are displayed in the Author view, as the Layout view is not available in New Editor.
 
 >[!BEGINTABS] 
 
->[!TAB Classic Editor] 
+>[!TAB Old Editor] 
 
 ![layout view](images/author-inline-attributes.png){width="650" align="left"}
 
->[!TAB Editor 2.0] 
+>[!TAB New Editor] 
 
 ![layout view](images/author-inline-attributes-editor-2-0.png){width="650" align="left"}
 
