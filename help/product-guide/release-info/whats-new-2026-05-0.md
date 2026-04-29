@@ -23,9 +23,7 @@ New Editor provides simplified authoring, enabling you to create content more ef
 >
 > Please reach out to AEM Guides Customer Success team to get the New Editor enabled on your environment.
 
-
 The New Editor brings the following enhancements to make authoring easier and more efficient.
-
 
 ### Redesigned user interface & experience
 
