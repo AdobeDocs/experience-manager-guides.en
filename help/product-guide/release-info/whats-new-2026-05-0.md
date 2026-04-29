@@ -13,89 +13,81 @@ Learn about [upgrade instructions for the 2026.05.0 release](../release-info/upg
 
 ## Introducing Editor 2.0
 
-Editor 2.0 marks a significant evolution in authoring, emphasizing performance, usability, and UI/UX to simplify working with large files, complex tables, and structured content without compromising control over how content is viewed and edited. For details, view [Editor 2.0](../user-guide/web-editor.md).
+Editor 2.0 introduces simplified authoring, enabling you to create content more efficiently across both tag and non-tag views through a more intuitive experience. The release brings improved performance, with faster page loads and smoother editing even for large and complex topics. It also delivers enhanced stability by addressing key authoring gaps, particularly around navigation and cursor behavior. Additionally, a modern interface offers a refreshed and user-friendly UI that balances functionality with ease of use, supporting a more consistent workflow. For details, view [Editor 2.0](../user-guide/web-editor.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3484007)
 
-### Improved table editing 
 
-Table authoring is enhanced for a smoother, more intuitive experience, enabling faster creation and modification with fewer manual steps and improved accuracy.
+### Redesigned user interface & experience
 
-- Fluid and responsive table interactions
-- Easy row and column insertion
-- Drag-and-drop support for column/row reordering 
-- Contextual table toolbar for cell alignment, merging and splitting cells, applying common attributes
-- Ability to add multiple rows or columns in a single action 
+A refreshed interface improves overall usability, making navigation and content authoring more intuitive and consistent.
 
-![](assets/table-2.0.png){width="650" align="left"}
+- Richer elements in the Author mode: Enhanced default CSS provides improved styling and better visual consistency across both authoring and preview experiences.
 
-For details, view [Toolbar](../user-guide/web-editor-toolbar.md).
+    ![](assets/rich-css.png){width="650" align="left"}
 
-### New Editor settings 
+- Dark theme support: Support for a dark theme in the content editing area provides a better viewing experience.
 
-A new centralized settings panel gives Authors better control over editor behavior . Configuration options include, ability to enable/disable: 
+    ![](assets/dark-theme.png){width="650" align="left"}
 
-- Non-breaking spaces in Author mode 
-- Tag visibility settings with attributes or without attributes 
-- XML comments in Author view 
-- Quick insert menu with the ability to configure favorite elements 
+- Consolidated user-level Editor settings: A new centralized settings panel that gives Authors better control over editor behavior allowing users to manage preferences more easily from a single location. Configuration options include, ability to enable/disable: 
 
-![](assets/editor-settings-dialog.png){width="350" align="left"}
+    - Non-breaking spaces in Author mode 
+    - Tag visibility settings with attributes or without attributes 
+    - XML comments in Author mode
+    - Quick insert menu for element insertion in editor
 
-For more information about how to configure Editor settings, view [Editor settings](../user-guide/config-editor-settings.md).
+    ![](assets/editor-settings-dialog.png){width="350" align="left"}
 
-### Enhanced Author view 
 
-The Author view now provides greater visibility into structured content for improved transparency and control over content structure without switching to Source view. 
+    For more information about how to configure Editor settings, view [Editor settings](../user-guide/config-editor-settings.md).
 
-- XML comments are visible in Author view for both DITA Maps and Topics and can be shown or hidden through the Editor settings
+- Better representation of conditional content in Author mode: Conditional content is more clearly displayed in Author mode, helping authors identify and manage variations more effectively. For details, view [Comments](../user-guide/web-editor-left-panel.md#conditions) in Left panel of Editor.
 
-    ![](assets/config-xml-comments.png){width="650" align="left"}
+    ![](assets/multiple-conditions-applied_cs-editor-2-0.png){width="650" align="left"}
 
-- Tags along with the attributes are now visible using the Editor settings. 
+
+### Enhanced authoring capabilities
+
+Provides improved tools and flexibility to streamline content creation and editing workflows.
+
+- View attributes along with elements in tag view: Authors can now view element attributes directly within tag view, offering better visibility and control over structured content. To configure this feature, view [Editor settings](../user-guide/config-editor-settings.md).
 
     ![](assets/config-tags-attributes.png){width="650" align="left"}
 
-For more details on using the new functionality, view [Editor settings](../user-guide/config-editor-settings.md).    
+- Quick insert menu: Enables adding elements directly while editing in Author mode at the cursor position without navigating to the toolbar. Frequently used elements can also be configured in the Favorites section through Editor settings for quicker access.
 
-### New editing view
+    ![](assets/quick-insert-menu.png){width="650" align="left"}
 
-Editor 2.0 introduces powerful new ways to edit content efficiently. This ensures faster authoring with reduced context switching and easier access to structured elements. 
+- Ability to view, edit, and insert XML comments in the Author mode: Enables authors to view, edit, and insert XML comments directly in Author mode, with clear highlighting for better visibility within the content. To configure this feature, view [Editor settings](../user-guide/config-editor-settings.md).
 
-- Side-by-side view available for DITA Topics that allows you to view the Author and Source view adjacent to each other. 
-- In-line element insertion toolbar that allows quick insertion of valid elements directly at the cursor position. 
+    ![](assets/config-xml-comments.png){width="650" align="left"}
 
-![](assets/quick-insert-menu.png){width="650" align="left"}
+- Side-by-side mode: Allows simultaneous viewing of Author and Source modes, making it easier to compare, edit, and validate content changes. For details, view [Editor views](../user-guide/web-editor-views.md).
 
-### UI & UX improvements 
+    ![](assets/side-by-side-editor-2-0.png){width="650" align="left"}
 
-Several visual and usability enhancements providing improved readability, accessibility, and a more modern editing interface. 
+- Improved table authoring: Enhances the overall table authoring experience with more intuitive and efficient interactions for creating and managing tables.
 
-- Dark theme available for the Content editing area in the Editor 
-- Richer out-of-the-box CSS for Author mode and Preview mode 
-- Better indication of conditional content
+    - Fluid and intuitive interactions: Easily insert rows and columns, along with drag-and-drop support for reordering rows and columns.
+    - Contextual toolbar: Access table-specific actions such as formatting, alignment, merging, and other additional actions directly within the table.
+    - Configuring tables: Add multiple rows or columns in a single action, reducing repetitive steps and improving efficiency.
 
-![](assets/multiple-conditions-applied_cs-editor-2-0.png){width="650" align="left"}
+    ![](assets/config-table.png){width="650" align="left"}
 
-### Performance enhancements 
+    For details, view [Toolbar](../user-guide/web-editor-toolbar.md).
 
-Editor 2.0 enhances responsiveness for large DITA files, enabling authors to edit extensive topics and maps without performance issues or loss of edit history.
+### Improved performance for large topics
 
-- Undo/Redo support enabled for large files containing more than 3,500 elements 
-- Dirty marker support added for large documents, ensuring accurate change tracking and save-state awareness
+Enhances the editing experience for large and complex topics with faster loading and more responsive interactions, including optimized document load times, reliable undo and redo support for managing changes, and a dirty marker for large topics.   
 
-![](assets/editor-2.0-CSS.png){width="650" align="left"}
 
-## Editor enhancements
+## Access and copy the path and UUID for references in files
 
-### Enhanced reference visibility
+Now, you can use **Link path** to view the relative path of the selected reference, and **Link UUID** to view its unique identifier from the Content properties panel. You can also copy the complete absolute path and the associated UUID directly from the interface using the icons next to Link Path and Link UUID, making it easier to trace and reuse linked assets.
 
-Now, the Link URL (relative path) of the selected reference across maps and topics in the Content properties panel is renamed to Link Path. Additionally, Link UUID field is added that shows the UUID of the selected references. You can now copy the complete absolute path as well as the associated UUID directly from the interface using the icons adjacent to the Link URL nad Link UUID, improving traceability and reuse of linked assets.
 For details, view [Content properties](../user-guide/web-editor-right-panel.md#content-properties).
 
-### Restricted actions for read‑only files
-
-For DITA, DITAMAP, DITAVAL, XML, and markdown files opened in Read‑only mode, the **File properties** option in the Right panel, Properties from the context menu, and Manage Metadata under Reports are disabled.
 
 ## Review enhancements
 
@@ -103,13 +95,13 @@ The following Review enhancements have been made as part of this release:
 
 - You can now enable **Automated reminders** to schedule AEM notifications and email reminders for reviewers, both before a review task's due date and after it becomes overdue. You can configure multiple reminders in each case, with pre-due reminders sent in a defined sequence and overdue reminders triggered after the task is marked overdue, based on the configured reminder schedule. For details on how to configure the reminders for review tasks, view [Send one or more topics for review](../user-guide/review-manage-tasks-review-dashboard.md).
 
-- Reviewers can now access Version history for topics under review, allowing them to view and compare previously reviewed and updated versions of the same topic. This helps reviewers validate changes made since earlier review cycles and maintain continuity by reviewing comments, labels, and other related details within the current review context. For details, view [Version history for the Reviewer](../user-guide/review-topics.md#version-history-for-the-reviewer).
+- Reviewers can now access Version history for topics under review, allowing them to view and compare previously reviewed and updated versions of the same topic across previous review tasks. This helps reviewers validate changes made since earlier review cycles and maintain continuity by reviewing comments, labels, and other related details within the current review context. For details, view [Version history for the Reviewer](../user-guide/review-topics.md#version-history-for-the-reviewer).
 
 ## New baseline introduced in Experience Manager Guides
 
 Managing large, complex baselines is now faster, more stable, and easier to scale with the **new baseline experience**, built on a redesigned baseline architecture. This update addresses long‑standing performance and reliability challenges while preserving existing workflows.
 
-Available as a beta enhancement, this update provides solution to common pain points such as slow loading, inconsistent baseline states, and limited manageability by delivering a faster, more stable, and more predictable baseline experience, with added support for automation and large‑scale baseline operations. Improvements are delivered through a more efficient data model, incremental loading, and stronger coordination between the UI and backend validation. The key improvements are:
+Available as a beta enhancement, this update provides solution to common pain points such as slow loading, inconsistent baseline states, and limited manageability by delivering a faster, more stable, and more predictable baseline experience, with added support for automation and large‑scale baseline operations. The key improvements are:
 
 - Improved performance and scalability
 - Stronger UI and backend consistency
