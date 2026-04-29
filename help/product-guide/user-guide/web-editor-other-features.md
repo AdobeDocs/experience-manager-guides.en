@@ -406,4 +406,65 @@ The key features aimed at improving the handling of large files are mentioned as
 
 - The alert message is available only for DITA files and is visible across all views: Author, Source, and Layout.
 
+## Paginated loading experience 
+
+Paginated loading loads content in smaller batches instead of loading all items at once, improving performance when working with large sets of files and folders.
+
+In the Editor, paginated loading is available in the following areas of the left panel:
+
+>[!NOTE]
+>
+> The paginated loading feature is disabled by default. To enable paginated loading in your environment, contact the Customer Success team.
+
+- Explorer/Respository
+- Collections
+- Templates
+
+### Paginated loading in Explorer/Respository
+
+With paginated loading, the root-level folders in the Explorer/Repository panel load as you scroll, instead of loading all folders at once. Within folders, content loads in batches of 50 items. After each batch, a **Load more** option is displayed, allowing you to load additional files.
+
+This approach reduces load time for large repositories and improves overall performance. 
+
+The following sections describe behavior changes at the folder and file level when paginated loading is enabled.
+
+**Refresh**
+
+A **Refresh** button is available in the Repository/Explorer panel to reload the root-level folders.
+
+![](images/explorer-refresh.png)
+
+**File operations**
+
+- **Delete**: When a file is deleted, the parent folder refreshes and displays the first 50 items.
+- **Add or duplicate**: Newly added or duplicated files are placed at the top of the destination folder and opened in the editor. This placement may not reflect the configured backend sort order until the folder is manually refreshed.
+- **Locate in Repository**: Files opened in the editor are no longer automatically highlighted in the Repository/Explorer panel. The **Always locate files in Repository** under User preferences is no longer available. However, to help locate files using the file's tab view, the search is performed in batches of up to 500 items per folder until the file is found.
+
+**Moving files**
+
+File move behavior varies based on the relationship between the source and destination folders:
+
+- **Between unrelated folders**: The source folder refreshes and displays the first 50 items. The moved file is added to the top of the destination folder.
+- **From a child folder to its parent folder**: The same behavior applies: the source folder refreshes to the first 50 items, and the file is added to the top of the destination folder.
+- **From a parent folder to a child folder**: The entire folder content is loaded until the moved file is located in the destination folder. During this process, items may be loaded in batches of up to 500. The moved file is then added as the first item in the destination folder.
+
+### Paginated loading in Collections and Templates
+
+When enabled, paginated loading is also available for Collections and Templates panels, improving performance when working with large sets of files and folders. 
+
+The following sections describe behavior changes in the Collections and Templates panels when paginated loading is enabled.
+
+**Collections**
+
+- Paginated loading is applied when a folder is expanded. The first 50 items are loaded, and a **Load more** option appears if additional items are available. 
+- When you create a new file, it is added to the top of the source folder.
+- A **Refresh** button is available at the top of the panel to reload the content at the root-level. 
+
+**Templates**
+
+- Paginated loading is not applied at the root-level, where predefined Topic and Map folders are available.
+- Within Topic and Map folders, the first 50 items are loaded when a folder is expanded. If additional items are available, a **Load more** option appears to load items in batches.
+
+
+
 **Parent topic:**[Introduction to the Editor](web-editor.md)
