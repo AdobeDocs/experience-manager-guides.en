@@ -13,13 +13,13 @@ This article provides you an overview of the Editor interface, and the various f
 
 >[!TAB New Editor]
 
-This view displays how the content is rendered in Editor 2.0
+This view displays how the content is rendered in New Editor
     
 ![](images/editor-overview-2-0.png)
 
 >[!TAB Old Editor]
 
-This view displays how the content is rendered in the Classic Editor
+This view displays how the content is rendered in the Old Editor
 
 ![](images/editor-overview.png)
 

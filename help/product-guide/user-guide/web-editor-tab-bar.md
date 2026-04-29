@@ -9,7 +9,7 @@ exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 
 >[!INFO]
 >
-> This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+> This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
 
 The Tab bar is at the top of the Editor's interface and it provides access to the various file-level features.
 
@@ -24,8 +24,6 @@ The Tab bar is at the top of the Editor's interface and it provides access to th
 ![](./images/web-editor-tab-bar.png)
 
 >[!ENDTABS] 
-
-![](./images/web-editor-tab-bar.png)
 
 **Tabs**
 
