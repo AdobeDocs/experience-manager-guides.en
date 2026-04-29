@@ -8,7 +8,7 @@ role: User
 
 >[!INFO]
 >
-> This article is specific for Editor 2.O. To get Editor 2.0 enabled, please contact the AEM Guides Customer Success team.
+> This article is exclusively for New Editor. To get New Editor enabled, please contact the AEM Guides Customer Success team.
 
 The Editor settings provides a centralized configuration panel that allows you to customize Editor behavior at an individual author level. It provide greater flexibility, consistency, and control during the authoring process.
 
