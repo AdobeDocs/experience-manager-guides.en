@@ -15,6 +15,10 @@ Learn about [upgrade instructions for the 2026.05.0 release](../release-info/upg
 
 Editor 2.0 introduces simplified authoring, enabling you to create content more efficiently across both tag and non-tag views through a more intuitive experience. The release brings improved performance, with faster page loads and smoother editing even for large and complex topics. It also delivers enhanced stability by addressing key authoring gaps, particularly around navigation and cursor behavior. Additionally, a modern interface offers a refreshed and user-friendly UI that balances functionality with ease of use, supporting a more consistent workflow. For details, view [Editor 2.0](../user-guide/web-editor.md).
 
+>[!NOTE]
+>
+> To enable the Editor 2.0 feature, please connect with the Customer Success team.
+
 >[!VIDEO](https://video.tv.adobe.com/v/3484007)
 
 
@@ -55,7 +59,7 @@ Provides improved tools and flexibility to streamline content creation and editi
 
     ![](assets/config-tags-attributes.png){width="650" align="left"}
 
-- Quick insert menu: Enables adding elements directly while editing in Author mode at the cursor position without navigating to the toolbar. Frequently used elements can also be configured in the Favorites section through Editor settings for quicker access.
+- Quick insert menu: Enables adding elements directly while editing in Author mode at the cursor position without navigating to the toolbar. Frequently used elements can also be configured in the Favorites section through Editor settings for quicker access. For details, view [Edit topics](../user-guide/web-editor-edit-topics.md).
 
     ![](assets/quick-insert-menu.png){width="650" align="left"}
 

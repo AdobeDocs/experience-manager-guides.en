@@ -28,15 +28,19 @@ Editor 2.0 provides a significant evolution of the authoring experience, with fo
 - UI and UX Refinements: Improves readability and visual comfort through a dark theme and richer default CSS in Author and Preview views, delivering a more modern editing interface.
 - Centralized Editor settings: Offers a unified settings panel to personalize the authoring experience, including control over tags, attributes, XML comments, non‑breaking spaces, and quick insert preferences.
 
-### Current scope of Editor 2.0
+### Limitations of Editor 2.0
 
-The Editor 2.0 currently do not support the following:
+Editor 2.0 currently does not support the following features. These capabilities are planned to be introduced in upcoming releases.
 
-- Layout view for DITA maps
 - Authoring with Track Changes enabled (any existing tracked changes are preserved and treated as regular content)
 - New citations (any existing citations in the content are preserved)
 - Image resizer in Author view
 - Using data from data sources (for example JIRA, SQL Databases, PIM, or PLM)
+- Layout view for DITA maps 
+
+>[!NOTE]
+>
+>The Layout view for DITA maps will not be supported with Editor 2.0. 
 
 
 **Parent topic:**[Author content using Experience Manager Guides](authoring-content-xml-doc.md)
