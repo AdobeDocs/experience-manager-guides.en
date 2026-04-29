@@ -40,7 +40,7 @@ To view the error log, select **Dismiss**, hover over the selected preset tab, a
 
 >[!NOTE]
 >
-> If your map uses a DITAVAL file, any flag images referenced in the DITAVAL file are copied to a location related to the published map in the output.  Also, if multiple DITAVAL files are used together for publishing the same map, use descriptive, unique `.ditaval` file names to make file selection and troubleshooting easier.
+> If your map uses a DITAVAL file, any flag images referenced in the DITAVAL file are copied to a location related to the published map in the output.  Also, if you are using multiple DITAVAL files for filtering within the same map, ensure that you use unique `.ditaval` file names to avoid duplicate filename issues during publishing.
 
 ## Generate output for a DITA map from the Map dashboard 
 
