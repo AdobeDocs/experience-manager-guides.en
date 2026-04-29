@@ -24,14 +24,16 @@ All `guides.editor` APIs are safe to call from extension controllers, toolbar ha
 
 ## Lifecycle
 
-- `guides.ready(callback)`: Registers a callback to execute once the page view manager has fully loaded. Use this before registering plugins or performing any editor setup.
+`guides.ready(callback)`: Registers a callback to execute once the page view manager has fully loaded. Use this before registering plugins or performing any editor setup.
 
 **Signature:**
+
 ```ts
 guides.ready(callback: () => void): void
 ```
 
 **Example:**
+
 ```js
 guides.ready(() => {
   // Safe to access guides.editor APIs here
@@ -43,326 +45,333 @@ guides.ready(() => {
 
 - `guides.editor.filePath`: Returns the file path of the currently active document.
 
-**Type:** `string | undefined`
+  **Type:** `string | undefined`
 
-**Example: reading file path for a metadata API call:**
+  **Example: reading file path for a metadata API call:**
 
-```js
-const filePath = guides.editor.filePath;
-if (filePath) {
+  ```js
+  const filePath = guides.editor.filePath;
+  if (filePath) {
   tcx.api.getMetadata(filePath).subscribe((metadata) => {
     // use metadata...
-  });
-}
-```
+    });
+  }
+  ```
 
-**Example: conditional logic based on file location:**
+  **Example: conditional logic based on file location**
 
-```js
-const filePath = guides.editor.filePath;
-if (filePath?.endsWith(".ditamap")) {
-  // ditamap-specific handling
-}
-```
+    ```js
+    const filePath = guides.editor.filePath;
+    if (filePath?.endsWith(".ditamap")) {
+      // ditamap-specific handling
+    }
+    ```
 
 - `guides.editor.version`: Returns the version string of the currently loaded editor.
 
-| Value   | Editor                             |
-|---------|------------------------------------|
-| `1.0.0` | Legacy CKEditor (`xml_author_view`) |
-| `2.0.0` | MarkupEditor (ProseMirror-based)   |
+  | Value   | Editor                             |
+  |---------|------------------------------------|
+  | `1.0.0` | Legacy CKEditor (`xml_author_view`) |
+  | `2.0.0` | MarkupEditor (ProseMirror-based)   |
 
-**Type:** `string`
+  **Type:** `string`
 
-**Example:**
+  **Example:**
 
-```js
-if (guides.editor.version === '2.0.0') {
-  // MarkupEditor-specific logic
-}
-```
+  ```js
+  if (guides.editor.version === '2.0.0') {
+    // MarkupEditor-specific logic
+  }
+  ```
 
 - `guides.editor.appState(keyName)`: Reads a value from the application model by key name.
 
-**Signature:**
+  **Signature:**
 
-```ts
-guides.editor.appState(keyName: string): unknown
-```
+  ```ts
+  guides.editor.appState(keyName: string): unknown
+  ```
 
-**Example:**
+  **Example:**
 
-```js
-const editorMode = guides.editor.appState('editorMode');
-```
+  ```js
+  const editorMode = guides.editor.appState('editorMode');
+  ```
 
 ## Editor interaction
 
 - `guides.editor.focus()`: Sets focus to the active editor. Call this before executing commands that require the editor to have focus.
 
-**Signature:**
+  **Signature:**
 
-```ts
-guides.editor.focus(): boolean
-```
+  ```ts
+  guides.editor.focus(): boolean
+  ```
 
-**Example: focus before inserting content**
+  **Example: focus before inserting content**
 
-```js
-guides.editor.focus();
-const hasSelection = !!guides.editor.runUtil('hasSelection');
-// ...proceed with wrap or insert
-```
+  ```js
+  guides.editor.focus();
+  const hasSelection = !!guides.editor.runUtil('hasSelection');
+  // ...proceed with wrap or insert
+  ```
 
 - `guides.editor.canInsertXmlElement(tagName, insertAfter?)`: Checks whether a given XML element can be inserted at the current cursor position.
 
-**Signature:**
+  **Signature:**
 
-```ts
-guides.editor.canInsertXmlElement(tagName: string, insertAfter?: boolean): boolean
-```
+  ```ts
+  guides.editor.canInsertXmlElement(tagName: string, insertAfter?: boolean): boolean
+  ```
 
-**Example: guard before inserting `<xref>`**
+  **Example: guard before inserting `<xref>`**
 
-```js
-const canInsert = guides.editor.canInsertXmlElement("xref");
-if (!canInsert) {
-  return tcx.util.showAlert("warning", "xref is not allowed here");
-}
-```
+  ```js
+  const canInsert = guides.editor.canInsertXmlElement("xref");
+  if (!canInsert) {
+    return tcx.util.showAlert("warning", "xref is not allowed here");
+  }
+  ```
 
-**Example: guard before inserting `<sup>` / `<sub>`**
+  **Example: guard before inserting `<sup>` / `<sub>`**
 
-```js
-const canInsert = guides.editor.canInsertXmlElement("sup");
-if (!canInsert) {
-  return tcx.util.showAlert("warning", "superscript is not allowed here");
-}
-```
+  ```js
+  const canInsert = guides.editor.canInsertXmlElement("sup");
+  if (!canInsert) {
+    return tcx.util.showAlert("warning", "superscript is not allowed here");
+  }
+  ```
 
 - `guides.editor.selectCurrentBlockElement()`: Selects the current block-level element in the editor.
 
-**Signature:**
+  **Signature:**
 
-```ts
-guides.editor.selectCurrentBlockElement(): boolean
-```
+  ```ts
+  guides.editor.selectCurrentBlockElement(): boolean
+  ```
 
-**Example:**
+  **Example:**
 
-```js
-guides.editor.selectCurrentBlockElement();
-```
+  ```js
+  guides.editor.selectCurrentBlockElement();
+  ```
 
 - `guides.editor.getValidElementNamesForInsertion(args)`: Returns a list of valid XML element names that can be inserted at the current position.
 
-**Signature:**
+  **Signature:**
 
-```ts
-guides.editor.getValidElementNamesForInsertion(args: {
-  insertMode?: 'after' | 'before' | 'rename',
-  strict: boolean
-}): string[] | false
-```
+  ```ts
+  guides.editor.getValidElementNamesForInsertion(args: {
+    insertMode?: 'after' | 'before' | 'rename',
+    strict: boolean
+  }): string[] | false
+  ```
 
-**Example:**
+  **Example:**
 
-```js
-const validElements = guides.editor.getValidElementNamesForInsertion({
-  insertMode: 'after',
-  strict: true
-});
-```
+  ```js
+  const validElements = guides.editor.getValidElementNamesForInsertion({
+    insertMode: 'after',
+    strict: true
+  });
+  ```
 
 - `guides.editor.updateAttributeByXpath(args)`: Updates a specific XML attribute on a node identified by its XPath. Delegates to the active editor's `updateAttributeByXpath` method.
 
-**Signature:**
+  **Signature:**
 
-```ts
-guides.editor.updateAttributeByXpath(args: UpdateXpathArgs): any
-```
+  ```ts
+  guides.editor.updateAttributeByXpath(args: UpdateXpathArgs): any
+  ```
 
 ## Command Execution
 
 - `guides.editor.runCommand(commandName, ...args)`: Executes a named command on the MarkupEditor. Returns `true` if the command succeeded, `false` otherwise.
 
-**Signature:**
+  **Signature:**
 
-```ts
-guides.editor.runCommand(commandName: string, ...args: any[]): boolean
-```
+  ```ts
+  guides.editor.runCommand(commandName: string, ...args: any[]): boolean
+  ```
 
-**Available Commands**
+  **Available Commands**
 
-| Command | Arguments | Description |
-|---|---|---|
-| `setNodeXmlAttributes` | `position: number, attrs: Record<string, unknown>` | Sets multiple XML attributes on the node at `position` |
-| `setNodeXmlAttribute` | `position: number, attrName: string, value: string` | Sets a single XML attribute on the node at `position` |
-| `surroundWithElement` | `tagName: string, attrs?: Record<string,unknown>, replaceTextWithEmptyNode?: boolean` | Wraps the current selection with the given element |
-| `insertXml` | `xml: string, position?: number, options?: InsertXmlOptions` | Inserts raw XML at the cursor or given position |
-| `unwrapNode` | _(none)_ | Removes the current node's wrapper element, keeping its content |
+  | Command | Arguments | Description |
+  |---|---|---|
+  | `setNodeXmlAttributes` | `position: number, attrs: Record<string, unknown>` | Sets multiple XML attributes on the node at `position` |
+  | `setNodeXmlAttribute` | `position: number, attrName: string, value: string` | Sets a single XML attribute on the node at `position` |
+  | `surroundWithElement` | `tagName: string, attrs?: Record<string,unknown>, replaceTextWithEmptyNode?: boolean` | Wraps the current selection with the given element |
+  | `insertXml` | `xml: string, position?: number, options?: InsertXmlOptions` | Inserts raw XML at the cursor or given position |
+  | `unwrapNode` | _(none)_ | Removes the current node's wrapper element, keeping its content |
 
-**Example: Set multiple attributes on a node**
+  - **Example: Set multiple attributes on a node**
 
-```js
-guides.editor.runCommand(
-  "setNodeXmlAttributes",
-  rootRange.from,
-  { createdDate: "2024-01-01", author: "Jane Doe" }
-);
-```
+    ```js
+    guides.editor.runCommand(
+      "setNodeXmlAttributes",
+      rootRange.from,
+      { createdDate: "2024-01-01", author: "Jane Doe" }
+    );
+    ```
 
-**Example: Set a single attribute on a node:**
-```js
-guides.editor.runCommand(
-  "setNodeXmlAttribute",
-  range.from,
-  "placeholdertext",
-  "Chapter 3 — Safety Requirements"
-);
-```
+  - **Example: Set a single attribute on a node**
+  
+    ```js
+    guides.editor.runCommand(
+      "setNodeXmlAttribute",
+      range.from,
+      "placeholdertext",
+      "Chapter 3 — Safety Requirements"
+    );
+    ```
 
-**Example — wrap selection with an element and set attributes:**
-```js
-const didWrap = guides.editor.runCommand(
-  "surroundWithElement",
-  "ph",
-  { outputclass: "highlight" },
-  true   // replace text content with empty node
-);
-```
+  - **Example: Wrap selection with an element and set attributes**
 
-**Example — wrap selection in `<sup>` (toggle superscript on):**
-```js
-const didWrap = guides.editor.runCommand('surroundWithElement', 'sup');
-if (!didWrap) {
-  tcx.util.showAlert("warning", "superscript is not allowed here");
-}
-```
+    ```js
+    const didWrap = guides.editor.runCommand(
+      "surroundWithElement",
+      "ph",
+      { outputclass: "highlight" },
+      true   // replace text content with empty node
+    );
+    ```
 
-**Example — unwrap current node (toggle superscript off):**
-```js
-const didUnwrap = guides.editor.runCommand('unwrapNode');
-```
+  - **Example: Wrap selection in `<sup>` (toggle superscript on)**
 
-**Example — insert XML at cursor with caret placed inside:**
-```js
-guides.editor.runCommand(
-  'insertXml',
-  '<sup></sup>',
-  undefined,
-  { setCursorInContent: true, focusEditor: true, selectInsertedXml: false }
-);
-```
+    ```js
+    const didWrap = guides.editor.runCommand('surroundWithElement', 'sup');
+    if (!didWrap) {
+      tcx.util.showAlert("warning", "superscript is not allowed here");
+    }
+    ```
 
----
+  - **Example: Unwrap current node (toggle superscript off)**
+  
+    ```js
+    const didUnwrap = guides.editor.runCommand('unwrapNode');
+    ```
 
-### `guides.editor.canRunCommand(commandName, ...args)`
+  - **Example: Insert XML at cursor with caret placed inside**
 
-Checks whether a named command can currently be executed, without actually running it.
+    ```js
+    guides.editor.runCommand(
+      'insertXml',
+      '<sup></sup>',
+      undefined,
+      { setCursorInContent: true, focusEditor: true, selectInsertedXml: false }
+    );
+    ```
 
-**Signature:**
-```ts
-guides.editor.canRunCommand(commandName: string, ...args: any[]): boolean
-```
 
-**Example:**
-```js
-if (guides.editor.canRunCommand('surroundWithElement', 'sup')) {
-  guides.editor.runCommand('surroundWithElement', 'sup');
-}
-```
 
----
+- `guides.editor.canRunCommand(commandName, ...args)`: Checks whether a named command can currently be executed, without actually running it.
+
+  **Signature:**
+
+  ```ts
+  guides.editor.canRunCommand(commandName: string, ...args: any[]): boolean
+  ```
+
+  **Example:**
+
+  ```js
+  if (guides.editor.canRunCommand('surroundWithElement', 'sup')) {
+    guides.editor.runCommand('surroundWithElement', 'sup');
+  }
+  ```
 
 ## Utility Functions
 
-### `guides.editor.runUtil(utilName, ...args)`
+- `guides.editor.runUtil(utilName, ...args)`: Invokes a named utility from the MarkupEditor's utility registry. Returns the utility's result, or `undefined` if the utility is not found.
 
-Invokes a named utility from the MarkupEditor's utility registry. Returns the utility's result, or `undefined` if the utility is not found.
+  **Signature:**
 
-**Signature:**
-```ts
-guides.editor.runUtil(utilName: string, ...args: any[]): any
-```
+  ```ts
+  guides.editor.runUtil(utilName: string, ...args: any[]): any
+  ```
 
-#### Available Utilities
+  **Available Utilities**
 
-| Utility | Arguments | Returns | Description |
-|---|---|---|---|
-| `getTextPos` | _(none)_ | `number` | Current cursor position in the ProseMirror document |
-| `getAncestorsNames` | `position?: number` | `string[]` | XML tag names of ancestor nodes at `position` |
-| `getAncestorsDetails` | _(none)_ | `{ currNode: string, ancestors: Array<{tagName:string}> }` | Current node and ancestor details |
-| `getAncestorXpaths` | `includeId?: boolean` | `AncestorXpathItem[]` | XPath strings for all ancestor nodes |
-| `findPositionRange` | `tagName: string` | `{ from: number, to: number } \| undefined` | Finds the ProseMirror range of the first element with the given tag |
-| `findPositionRanges` | `tagName: string` | `Array<{ from: number, to: number }>` | Finds all ProseMirror ranges for elements matching `tagName` |
-| `getAttributeAtPosition` | `position: number, attrName: string` | `unknown` | Reads an XML attribute value from the node at `position` |
-| `getSerializableAttributes` | `xpath: string` | `Record<string, unknown>` | Returns all serializable XML attributes for the node at `xpath` |
-| `getSelectedXml` | _(none)_ | `string` | Returns the currently selected content as an XML string |
-| `getSelectedPlainText` | _(none)_ | `string` | Returns the currently selected content as plain text |
-| `hasSelection` | _(none)_ | `boolean` | Returns `true` if there is an active text/node selection |
-| `getNodePosition` | _(none)_ | `number` | Returns the document position of the currently selected/focused node |
+  | Utility | Arguments | Returns | Description |
+  |---|---|---|---|
+  | `getTextPos` | _(none)_ | `number` | Current cursor position in the ProseMirror document |
+  | `getAncestorsNames` | `position?: number` | `string[]` | XML tag names of ancestor nodes at `position` |
+  | `getAncestorsDetails` | _(none)_ | `{ currNode: string, ancestors: Array<{tagName:string}> }` | Current node and ancestor details |
+  | `getAncestorXpaths` | `includeId?: boolean` | `AncestorXpathItem[]` | XPath strings for all ancestor nodes |
+  | `findPositionRange` | `tagName: string` | `{ from: number, to: number } \| undefined` | Finds the ProseMirror range of the first element with the given tag |
+  | `findPositionRanges` | `tagName: string` | `Array<{ from: number, to: number }>` | Finds all ProseMirror ranges for elements matching `tagName` |
+  | `getAttributeAtPosition` | `position: number, attrName: string` | `unknown` | Reads an XML attribute value from the node at `position` |
+  | `getSerializableAttributes` | `xpath: string` | `Record<string, unknown>` | Returns all serializable XML attributes for the node at `xpath` |
+  | `getSelectedXml` | _(none)_ | `string` | Returns the currently selected content as an XML string |
+  | `getSelectedPlainText` | _(none)_ | `string` | Returns the currently selected content as plain text |
+  | `hasSelection` | _(none)_ | `boolean` | Returns `true` if there is an active text/node selection |
+  | `getNodePosition` | _(none)_ | `number` | Returns the document position of the currently selected/focused node |
 
-**Example — get cursor position and ancestor names:**
-```js
-const textPos = guides.editor.runUtil("getTextPos");
-const ancestorNames = guides.editor.runUtil(
-  "getAncestorsNames",
-  typeof textPos === "number" ? textPos : undefined
-);
-```
+  **Example: get cursor position and ancestor names**
 
-**Example — find all `<xref>` elements and read their attributes:**
-```js
-const xrefRanges = guides.editor.runUtil("findPositionRanges", "xref") || [];
-xrefRanges.forEach((range) => {
-  const id = guides.editor.runUtil("getAttributeAtPosition", range.from, "id");
-  const placeholderText = guides.editor.runUtil(
-    "getAttributeAtPosition",
-    range.from,
-    "placeholdertext"
+  ```js
+  const textPos = guides.editor.runUtil("getTextPos");
+  const ancestorNames = guides.editor.runUtil(
+    "getAncestorsNames",
+    typeof textPos === "number" ? textPos : undefined
   );
-});
-```
+  ```
 
-**Example — find the root element range and read its attributes:**
-```js
-const rootRange = guides.editor.runUtil("findPositionRange", "concept"); // or "topic"
-if (rootRange) {
-  const createdDate = guides.editor.runUtil(
-    "getAttributeAtPosition",
-    rootRange.from,
-    "createdDate"
-  );
-  const author = guides.editor.runUtil(
-    "getAttributeAtPosition",
-    rootRange.from,
-    "author"
-  );
-}
-```
+  **Example: find all `<xref>` elements and read their attributes**
 
-**Example — check selection and validate ancestor context before an operation:**
-```js
-const ancestorsDetails = guides.editor.runUtil('getAncestorsDetails');
-const selectedText = guides.editor.runUtil('getSelectedPlainText');
-const hasSelection = !!guides.editor.runUtil('hasSelection');
+  ```js
+  const xrefRanges = guides.editor.runUtil("findPositionRanges", "xref") || [];
+  xrefRanges.forEach((range) => {
+    const id = guides.editor.runUtil("getAttributeAtPosition", range.from, "id");
+    const placeholderText = guides.editor.runUtil(
+      "getAttributeAtPosition",
+      range.from,
+      "placeholdertext"
+    );
+  });
+  ```
 
-const firstAncestor = ancestorsDetails?.currNode || ancestorsDetails?.ancestors?.[0]?.tagName;
-if (firstAncestor === 'ph') {
-  tcx.util.showAlert("warning", "Operation is not allowed inside this element type.");
-  return;
-}
-```
+  **Example: find the root element range and read its attributes**
 
-**Example — get element IDs from ancestor XPaths:**
-```js
-const ancestorItems = guides.editor.runUtil('getAncestorXpaths', true);
-for (const item of ancestorItems) {
-  const attrs = guides.editor.runUtil('getSerializableAttributes', item.xpath);
-  if (attrs?.id) { /* use element ID */ }
-}
-```
+  ```js
+  const rootRange = guides.editor.runUtil("findPositionRange", "concept"); // or "topic"
+  if (rootRange) {
+    const createdDate = guides.editor.runUtil(
+      "getAttributeAtPosition",
+      rootRange.from,
+      "createdDate"
+    );
+    const author = guides.editor.runUtil(
+      "getAttributeAtPosition",
+      rootRange.from,
+      "author"
+    );
+  }
+  ```
+
+  **Example: check selection and validate ancestor context before an operation**
+
+  ```js
+  const ancestorsDetails = guides.editor.runUtil('getAncestorsDetails');
+  const selectedText = guides.editor.runUtil('getSelectedPlainText');
+  const hasSelection = !!guides.editor.runUtil('hasSelection');
+
+  const firstAncestor = ancestorsDetails?.currNode || ancestorsDetails?.ancestors?.[0]?.tagName;
+  if (firstAncestor === 'ph') {
+    tcx.util.showAlert("warning", "Operation is not allowed inside this element type.");
+    return;
+  }
+  ```
+
+  **Example: get element IDs from ancestor XPaths**
+
+  ```js
+  const ancestorItems = guides.editor.runUtil('getAncestorXpaths', true);
+  for (const item of ancestorItems) {
+    const attrs = guides.editor.runUtil('getSerializableAttributes', item.xpath);
+    if (attrs?.id) { /* use element ID */ }
+  }
+  ```
 
 ---
 
@@ -372,171 +381,168 @@ The Decoration API provides a higher-level alternative to writing full ProseMirr
 
 Decorations are identified by a string `id` so they can be updated or removed independently at any time.
 
-> **MarkupEditor only.** These APIs are no-ops on the legacy editor (`version === '1.0.0'`).
+>[!NOTE]
+>
+> **MarkupEditor only** These APIs are no-ops on the legacy editor (`version === '1.0.0'`).
 
----
+- `guides.editor.addDecoration(id, selector, options)`: Adds or replaces a decoration rule. All nodes matching `selector` in the current document will be decorated according to `options`. The decoration is re-applied automatically on every document change.
 
-### `guides.editor.addDecoration(id, selector, options)`
+  **Signature:**
 
-Adds or replaces a decoration rule. All nodes matching `selector` in the current document will be decorated according to `options`. The decoration is re-applied automatically on every document change.
+  ```ts
+  guides.editor.addDecoration(
+    id: string,
+    selector: string,
+    options: DecorationOptions
+  ): boolean
+  ```
 
-**Signature:**
-```ts
-guides.editor.addDecoration(
-  id: string,
-  selector: string,
-  options: DecorationOptions
-): boolean
-```
+  **`DecorationOptions` fields:**
 
-**`DecorationOptions` fields:**
+  | Field | Type | Description |
+  |---|---|---|
+  | `class` | `string` | CSS class name(s) added to matching nodes |
+  | `computeAttributes` | `(node, context) => Record<string, string>` | Function returning dynamic `data-*` or other HTML attributes per node |
+  | `filter` | `(node) => boolean` | Optional predicate — only nodes where this returns `true` are decorated |
 
-| Field | Type | Description |
-|---|---|---|
-| `class` | `string` | CSS class name(s) added to matching nodes |
-| `computeAttributes` | `(node, context) => Record<string, string>` | Function returning dynamic `data-*` or other HTML attributes per node |
-| `filter` | `(node) => boolean` | Optional predicate — only nodes where this returns `true` are decorated |
+  The `context` object passed to `computeAttributes` includes:
+  - `index` — 0-based position of the node among siblings matching the selector
 
-The `context` object passed to `computeAttributes` includes:
-- `index` — 0-based position of the node among siblings matching the selector
+  **Example: add a CSS class to all `<section>` elements**
 
-**Example — add a CSS class to all `<section>` elements:**
-```js
-guides.editor.addDecoration('highlight-sections', 'section', {
-  class: 'my-section-highlight'
-});
-```
+  ```js
+  guides.editor.addDecoration('highlight-sections', 'section', {
+    class: 'my-section-highlight'
+  });
+  ```
 
-**Example — add a computed `data-number-label` attribute to each section:**
-```js
-guides.editor.addDecoration('section-numbers', 'section', {
-  computeAttributes: (node, context) => ({
-    'data-number-label': String(context.index + 1)
-  })
-});
-```
+  **Example: add a computed `data-number-label` attribute to each section**
 
-**Example — decorate only sections that have `importance="high"` attribute:**
-```js
-guides.editor.addDecoration('important-sections', 'section', {
-  class: 'section-important',
-  filter: (node) => node.attrs?.xmlAttrs?.importance === 'high'
-});
-```
+  ```js
+  guides.editor.addDecoration('section-numbers', 'section', {
+    computeAttributes: (node, context) => ({
+      'data-number-label': String(context.index + 1)
+    })
+  });
+  ```
 
-**Example — combine class and computed attributes:**
-```js
-guides.editor.addDecoration('numbering-mode', 'conbody', {
-  class: 'legacy-numbering'
-});
+  **Example: decorate only sections that have `importance="high"` attribute**
 
-guides.editor.addDecoration('section-numbers', 'section', {
-  computeAttributes: (node, context) => ({
-    'data-number-label': String(context.index + 1)
-  })
-});
-```
+  ```js
+  guides.editor.addDecoration('important-sections', 'section', {
+    class: 'section-important',
+    filter: (node) => node.attrs?.xmlAttrs?.importance === 'high'
+  });
+  ```
 
----
+  **Example: combine class and computed attributes**
 
-### `guides.editor.removeDecoration(id)`
+  ```js
+  guides.editor.addDecoration('numbering-mode', 'conbody', {
+    class: 'legacy-numbering'
+  });
 
-Removes a previously added decoration by its ID.
+  guides.editor.addDecoration('section-numbers', 'section', {
+    computeAttributes: (node, context) => ({
+      'data-number-label': String(context.index + 1)
+    })
+  });
+  ```
 
-**Signature:**
-```ts
-guides.editor.removeDecoration(id: string): boolean
-```
+- `guides.editor.removeDecoration(id)`: Removes a previously added decoration by its ID.
 
-**Example:**
-```js
-guides.editor.removeDecoration('section-numbers');
-```
+  **Signature:**
 
----
+  ```ts
+  guides.editor.removeDecoration(id: string): boolean
+  ```
 
-### `guides.editor.batchDecorations(changes)`
+  **Example:**
 
-Applies multiple add/remove decoration changes in a single ProseMirror dispatch. Use this when toggling several decorations at once to avoid multiple re-renders.
+  ```js
+  guides.editor.removeDecoration('section-numbers');
+  ```
 
-**Signature:**
-```ts
-guides.editor.batchDecorations(changes: DecorationBatchChange[]): boolean
+- `guides.editor.batchDecorations(changes)`: Applies multiple add/remove decoration changes in a single ProseMirror dispatch. Use this when toggling several decorations at once to avoid multiple re-renders.
 
-type DecorationBatchChange =
-  | { action: 'add', id: string, selector: string, options: DecorationOptions }
-  | { action: 'remove', id: string }
-```
+  **Signature:**
 
-**Example — switch between two numbering modes atomically:**
-```js
-guides.editor.batchDecorations([
-  { action: 'remove', id: 'legacy-numbering' },
-  {
-    action: 'add',
-    id: 'division-numbering',
-    selector: 'conbody',
-    options: { class: 'division-numbering' }
-  }
-]);
-```
+  ```ts
+  guides.editor.batchDecorations(changes: DecorationBatchChange[]): boolean
 
-**Example — clear one decoration and add two new ones:**
-```js
-guides.editor.batchDecorations([
-  { action: 'remove', id: 'old-highlights' },
-  {
-    action: 'add',
-    id: 'section-labels',
-    selector: 'section',
-    options: {
-      computeAttributes: (node, ctx) => ({ 'data-section-index': String(ctx.index) })
+  type DecorationBatchChange =
+    | { action: 'add', id: string, selector: string, options: DecorationOptions }
+    | { action: 'remove', id: string }
+  ```
+
+  **Example: switch between two numbering modes atomically**
+
+  ```js
+  guides.editor.batchDecorations([
+    { action: 'remove', id: 'legacy-numbering' },
+    {
+      action: 'add',
+      id: 'division-numbering',
+      selector: 'conbody',
+      options: { class: 'division-numbering' }
     }
-  },
-  {
-    action: 'add',
-    id: 'note-style',
-    selector: 'note',
-    options: { class: 'styled-note' }
-  }
-]);
-```
+  ]);
+  ```
+
+  **Example: clear one decoration and add two new ones**
+
+  ```js
+  guides.editor.batchDecorations([
+    { action: 'remove', id: 'old-highlights' },
+    {
+      action: 'add',
+      id: 'section-labels',
+      selector: 'section',
+      options: {
+        computeAttributes: (node, ctx) => ({ 'data-section-index': String(ctx.index) })
+      }
+    },
+    {
+      action: 'add',
+      id: 'note-style',
+      selector: 'note',
+      options: { class: 'styled-note' }
+    }
+  ]);
+  ```
 
 ---
 
-### `guides.editor.clearDecorations()`
+- `guides.editor.clearDecorations()`: Removes all active decorations managed by the decoration manager.
 
-Removes all active decorations managed by the decoration manager.
+  **Signature:**
 
-**Signature:**
-```ts
-guides.editor.clearDecorations(): boolean
-```
+  ```ts
+  guides.editor.clearDecorations(): boolean
+  ```
 
-**Example:**
-```js
-guides.editor.clearDecorations();
-```
+  **Example:**
 
----
+  ```js
+  guides.editor.clearDecorations();
+  ```
 
-### `guides.editor.getDecorations()`
+- `guides.editor.getDecorations()`: Returns the IDs of all currently active decorations.
 
-Returns the IDs of all currently active decorations.
+  **Signature:**
 
-**Signature:**
-```ts
-guides.editor.getDecorations(): string[]
-```
+  ```ts
+  guides.editor.getDecorations(): string[]
+  ```
 
-**Example:**
-```js
-const active = guides.editor.getDecorations();
-console.log('Active decorations:', active);
-// e.g. ['section-numbers', 'numbering-mode', 'note-style']
-```
+  **Example:**
 
----
+  ```js
+  const active = guides.editor.getDecorations();
+  console.log('Active decorations:', active);
+  // e.g. ['section-numbers', 'numbering-mode', 'note-style']
+  ```
+
 
 ### Decoration API vs `registerPlugin`
 
@@ -547,147 +553,146 @@ console.log('Active decorations:', active);
 | Complex plugin logic: custom state, key bindings, widget decorations, event handlers | `registerPlugin` |
 | Injecting CSS into the shadow DOM | `registerPlugin` with `css` field |
 
----
 
 ## ProseMirror Plugin Registration
 
-### `guides.editor.registerPlugin(factory)`
+- `guides.editor.registerPlugin(factory)`: Registers a ProseMirror plugin factory to be included in every MarkupEditor instance. Only factory functions are accepted, direct plugin instances are rejected. The factory is called once per editor instance, ensuring isolated plugin state.
 
-Registers a ProseMirror plugin factory to be included in every MarkupEditor instance. Only factory functions are accepted — direct plugin instances are rejected. The factory is called once per editor instance, ensuring isolated plugin state.
+  **Signature:**
 
-**Signature:**
-```ts
-guides.editor.registerPlugin(factory: () => PluginConfig): void
+  ```ts
+  guides.editor.registerPlugin(factory: () => PluginConfig): void
 
-interface PluginConfig {
-  plugin: ProseMirrorPlugin | ProseMirrorPlugin[]
-  css?: string  // Injected into editor's shadow DOM
-}
-```
+  interface PluginConfig {
+    plugin: ProseMirrorPlugin | ProseMirrorPlugin[]
+    css?: string  // Injected into editor's shadow DOM
+  }
+  ```
 
-**Example — register plugins after the editor is ready:**
-```js
-guides.ready(() => {
-  guides.editor.registerPlugin(createNumberingPlugin);
-  guides.editor.registerPlugin(createXrefPlugin);
-});
-```
+  **Example: register plugins after the editor is ready**
 
-**Example — inline factory with CSS:**
-```js
-guides.editor.registerPlugin(() => ({
-  plugin: new guides.editor.prosemirror.state.Plugin({
-    key: new guides.editor.prosemirror.state.PluginKey("myPlugin"),
-    props: {
-      decorations(state) {
-        // return DecorationSet...
+  ```js
+  guides.ready(() => {
+    guides.editor.registerPlugin(createNumberingPlugin);
+    guides.editor.registerPlugin(createXrefPlugin);
+  });
+  ```
+
+  **Example: inline factory with CSS**
+
+  ```js
+  guides.editor.registerPlugin(() => ({
+    plugin: new guides.editor.prosemirror.state.Plugin({
+      key: new guides.editor.prosemirror.state.PluginKey("myPlugin"),
+      props: {
+        decorations(state) {
+          // return DecorationSet...
+        }
       }
-    }
-  }),
-  css: `.my-decoration { background: yellow; }`
-}));
-```
+    }),
+    css: `.my-decoration { background: yellow; }`
+  }));
+  ```
 
-> **Important:** CSS passed via `css` is injected into the editor's shadow DOM. Regular page-level stylesheets do not apply inside the editor.
+  > [!NOTE]
+  >
+  > CSS passed via `css` is injected into the editor's shadow DOM. Regular page-level stylesheets do not apply inside the editor.
 
----
 
 ## ProseMirror Libraries
 
-### `guides.editor.prosemirror`
+- `guides.editor.prosemirror`: Exposes ProseMirror packages directly for use in plugin development. This avoids the need to bundle ProseMirror separately in extension code.
 
-Exposes ProseMirror packages directly for use in plugin development. This avoids the need to bundle ProseMirror separately in extension code.
+  | Property | Package |
+  |---|---|
+  | `state` | `prosemirror-state` |
+  | `model` | `prosemirror-model` |
+  | `view` | `prosemirror-view` |
+  | `transform` | `prosemirror-transform` |
+  | `commands` | `prosemirror-commands` |
+  | `keymap` | `prosemirror-keymap` |
+  | `history` | `prosemirror-history` |
+  | `tables` | `prosemirror-tables` |
+  | `dropcursor` | `prosemirror-dropcursor` |
+  | `collab` | `prosemirror-collab` |
+  | `markdown` | `prosemirror-markdown` |
 
-| Property | Package |
-|---|---|
-| `state` | `prosemirror-state` |
-| `model` | `prosemirror-model` |
-| `view` | `prosemirror-view` |
-| `transform` | `prosemirror-transform` |
-| `commands` | `prosemirror-commands` |
-| `keymap` | `prosemirror-keymap` |
-| `history` | `prosemirror-history` |
-| `tables` | `prosemirror-tables` |
-| `dropcursor` | `prosemirror-dropcursor` |
-| `collab` | `prosemirror-collab` |
-| `markdown` | `prosemirror-markdown` |
+  **Example: create a node decoration plugin**
 
-**Example — create a node decoration plugin:**
-```js
-const myPluginKey = new guides.editor.prosemirror.state.PluginKey("myPlugin");
+  ```js
+  const myPluginKey = new guides.editor.prosemirror.state.PluginKey("myPlugin");
 
-const createMyPlugin = () => {
-  const { Plugin } = guides.editor.prosemirror.state;
-  const { Decoration, DecorationSet } = guides.editor.prosemirror.view;
+  const createMyPlugin = () => {
+    const { Plugin } = guides.editor.prosemirror.state;
+    const { Decoration, DecorationSet } = guides.editor.prosemirror.view;
 
-  return {
-    plugin: new Plugin({
-      key: myPluginKey,
-      state: {
-        init() { return { enabled: true }; },
-        apply(tr, value) {
-          const meta = tr.getMeta(myPluginKey);
-          return meta ? { ...value, ...meta } : value;
-        }
-      },
-      props: {
-        decorations(state) {
-          const decorations = [];
-          state.doc.descendants((node, pos) => {
-            if (node.type.name === "section") {
-              decorations.push(
-                Decoration.node(pos, pos + node.nodeSize, { class: "my-section" })
-              );
-            }
-          });
-          return DecorationSet.create(state.doc, decorations);
-        }
-      }
-    }),
-    css: `.my-section { border-left: 3px solid #ccc; padding-left: 8px; }`
-  };
-};
-```
-
-**Example — create a widget decoration plugin (inline display text):**
-```js
-const xrefPluginKey = new guides.editor.prosemirror.state.PluginKey("xrefDisplay");
-
-const createXrefPlugin = () => {
-  const { Plugin } = guides.editor.prosemirror.state;
-  const { Decoration, DecorationSet } = guides.editor.prosemirror.view;
-
-  return {
-    plugin: new Plugin({
-      key: xrefPluginKey,
-      props: {
-        decorations(state) {
-          const decorations = [];
-          state.doc.descendants((node, pos) => {
-            if (node.type.name.includes("xref")) {
-              const display = node.attrs?.xmlAttrs?.placeholdertext;
-              if (display) {
+    return {
+      plugin: new Plugin({
+        key: myPluginKey,
+        state: {
+          init() { return { enabled: true }; },
+          apply(tr, value) {
+            const meta = tr.getMeta(myPluginKey);
+            return meta ? { ...value, ...meta } : value;
+          }
+        },
+        props: {
+          decorations(state) {
+            const decorations = [];
+            state.doc.descendants((node, pos) => {
+              if (node.type.name === "section") {
                 decorations.push(
-                  Decoration.widget(pos + 1, () => {
-                    const el = document.createElement("span");
-                    el.textContent = `[${display}]`;
-                    el.setAttribute("contenteditable", "false");
-                    return el;
-                  }, { key: `xref-${pos}` })
+                  Decoration.node(pos, pos + node.nodeSize, { class: "my-section" })
                 );
               }
-            }
-          });
-          return DecorationSet.create(state.doc, decorations);
+            });
+            return DecorationSet.create(state.doc, decorations);
+          }
         }
-      }
-    }),
-    css: `.xref-display-text { color: #0074d9; pointer-events: none; }`
+      }),
+      css: `.my-section { border-left: 3px solid #ccc; padding-left: 8px; }`
+    };
   };
-};
-```
+  ```
 
----
+  **Example: create a widget decoration plugin (inline display text)**
+
+  ```js
+  const xrefPluginKey = new guides.editor.prosemirror.state.PluginKey("xrefDisplay");
+
+  const createXrefPlugin = () => {
+    const { Plugin } = guides.editor.prosemirror.state;
+    const { Decoration, DecorationSet } = guides.editor.prosemirror.view;
+
+    return {
+      plugin: new Plugin({
+        key: xrefPluginKey,
+        props: {
+          decorations(state) {
+            const decorations = [];
+            state.doc.descendants((node, pos) => {
+              if (node.type.name.includes("xref")) {
+                const display = node.attrs?.xmlAttrs?.placeholdertext;
+                if (display) {
+                  decorations.push(
+                    Decoration.widget(pos + 1, () => {
+                      const el = document.createElement("span");
+                      el.textContent = `[${display}]`;
+                      el.setAttribute("contenteditable", "false");
+                      return el;
+                    }, { key: `xref-${pos}` })
+                  );
+                }
+              }
+            });
+            return DecorationSet.create(state.doc, decorations);
+          }
+        }
+      }),
+      css: `.xref-display-text { color: #0074d9; pointer-events: none; }`
+    };
+  };
+  ```
 
 ## Injecting CSS into the Editor
 
@@ -697,9 +702,9 @@ The Guides DITA editor loads its author-mode content styles from a clientlib wit
 apps.guides.xml_editor.dita_content_overrides
 ```
 
-To inject custom CSS into the editor's content area, create an AEM clientlib node with this category. No additional wiring is needed — Guides picks it up automatically when the editor page loads.
+To inject custom CSS into the editor's content area, create an AEM clientlib node with this category. No additional wiring is needed, Guides picks it up automatically when the editor page loads.
 
-**AEM clientlib node structure (`/apps/my-extension/clientlibs/editor-content-overrides/.content.xml`):**
+**AEM clientlib node structure (`/apps/my-extension/clientlibs/editor-content-overrides/.content.xml`)**
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -711,7 +716,7 @@ To inject custom CSS into the editor's content area, create an AEM clientlib nod
 
 Place your CSS file (`css.txt` + your `.css` file) inside this folder. It will be embedded into the editor's content stylesheet automatically.
 
-**Example — override section heading styles in author mode:**
+**Example: override section heading styles in author mode**
 
 ```css
 /* /apps/my-extension/clientlibs/editor-content-overrides/css/content.css */
@@ -731,17 +736,18 @@ Place your CSS file (`css.txt` + your `.css` file) inside this folder. It will b
 }
 ```
 
-> **Scope:** This CSS targets the legacy CKEditor-based author surface only. It has no effect inside the MarkupEditor (ProseMirror), which uses a shadow DOM.
+> [!NOTE]
+>
+>This CSS targets the legacy CKEditor-based author surface only. It has no effect inside the MarkupEditor (ProseMirror), which uses a shadow DOM.
 
----
 
-### New MarkupEditor — `css` in `registerPlugin`
+### New MarkupEditor: `css` in `registerPlugin`
 
-The MarkupEditor renders inside a **shadow DOM**, which isolates it from all page-level styles — including AEM clientlibs. To inject CSS into the MarkupEditor's author surface, pass a `css` string as part of the `PluginConfig` returned by your plugin factory.
+The MarkupEditor renders inside a **shadow DOM**, which isolates it from all page-level styles, including AEM `clientlibs`. To inject CSS into the MarkupEditor's author surface, pass a `css` string as part of the `PluginConfig` returned by your plugin factory.
 
 The CSS is injected as a `<style>` tag directly inside the editor's shadow root each time an editor instance is created.
 
-**Example — inject styles alongside a decoration plugin:**
+**Example: inject styles alongside a decoration plugin**
 
 ```js
 guides.ready(() => {
@@ -765,7 +771,7 @@ guides.ready(() => {
 });
 ```
 
-**Example — CSS-only plugin (no decoration logic):**
+**Example: CSS-only plugin (no decoration logic)**
 
 ```js
 guides.ready(() => {
@@ -784,9 +790,10 @@ guides.ready(() => {
 });
 ```
 
-> **Scope:** This CSS only applies inside the MarkupEditor shadow DOM. It has no effect on the rest of the page or on the legacy editor.
+>[!NOTE]
+>
+> This CSS only applies inside the MarkupEditor shadow DOM. It has no effect on the rest of the page or on the legacy editor.
 
----
 
 ## Context Menu Extensions (`contextMenuWidget`)
 
@@ -805,7 +812,7 @@ Both widgets are mounted on the page simultaneously. The framework matches each 
 
 ---
 
-### Legacy editor — `dita_editor_menu`
+### Legacy editor: `dita_editor_menu`
 
 Use this for extensions that should appear in the legacy CKEditor context menu.
 
@@ -837,7 +844,7 @@ const myContextMenuExtension = {
 
 ---
 
-### New MarkupEditor — `markup_editor_menu`
+### New MarkupEditor: `markup_editor_menu`
 
 Use this for extensions that should appear in the MarkupEditor context menu (breadcrumbs and right-click on elements). The controller receives events via `handleExtensionEvent`, which routes local handlers to the `markup_editor_menu` controller and dispatches global events through the app event handler.
 
@@ -886,23 +893,17 @@ const myMarkupContextMenu = {
 
 ## Utility Libraries
 
-### `guides.util.lodash`
+- `guides.util.lodash`:The lodash utility library, same instance bundled with the editor.
 
-The lodash utility library, same instance bundled with the editor.
+  ```js
+  const uniqueIds = guides.util.lodash.uniq(ids);
+  ```
 
-```js
-const uniqueIds = guides.util.lodash.uniq(ids);
-```
+- `guides.util.async`: Async utility library for extension use.
 
-### `guides.util.async`
-
-Async utility library for extension use.
-
-```js
-guides.util.async.parallel([task1, task2], callback);
-```
-
----
+  ```js
+  guides.util.async.parallel([task1, task2], callback);
+  ```
 
 ## Complete API Reference
 
@@ -936,3 +937,4 @@ guides.util.async.parallel([task1, task2], callback);
 | `prosemirror.dropcursor` | `prosemirror-dropcursor` package |
 | `prosemirror.collab` | `prosemirror-collab` package |
 | `prosemirror.markdown` | `prosemirror-markdown` package |
+
