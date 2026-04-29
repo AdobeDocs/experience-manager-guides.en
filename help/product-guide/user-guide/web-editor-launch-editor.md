@@ -9,7 +9,7 @@ role: User
 
 >[!INFO]
 >
-> This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+> This topic applies to both New Editor and Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
 
 You can launch the Editor from the following locations:
 
@@ -87,17 +87,17 @@ The topic opens in the Editor.
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
-
-This view displays how the content is rendered in the Classic Editor
-
-![](images/edit-mode.png){align="left"}
-
->[!TAB Editor 2.0 ]
+>[!TAB New Editor ]
     
-This view displays how the content is rendered in Editor 2.0
+This view displays how the content is rendered in New Editor
 
 ![](images/edit-mode-editor-2-0.png){align="left"}
+
+>[!TAB Old Editor]
+
+This view displays how the content is rendered in the Old Editor
+
+![](images/edit-mode.png){align="left"}
 
 >[!ENDTABS] 
 
@@ -141,17 +141,18 @@ The map file containing the topics is open for editing in the Editor.
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
+>[!TAB New Editor ]
+    
+Map edit mode in the New Editor:
 
-Map edit mode in the Classic Editor:
+![](images/map-console-edit-topics-editor-2-0.png){align="left"}
+
+>[!TAB Old Editor]
+
+Map edit mode in the Old Editor:
 
 ![](images/map-console-edit-topics.png){align="left"}
 
->[!TAB Editor 2.0 ]
-    
-Map edit mode in the Editor 2.0:
-
-![](images/map-console-edit-topics-editor-2-0.png){align="left"}
 
 >[!ENDTABS]
 

@@ -14,13 +14,14 @@ exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 The Tab bar is at the top of the Editor's interface and it provides access to the various file-level features.
 
 >[!BEGINTABS] 
->[!TAB Classic Editor] 
 
-![](./images/web-editor-tab-bar.png)
-
->[!TAB Editor 2.0] 
+>[!TAB New Editor] 
 
 ![](./images/web-editor-tab-bar-editor-2-0.png)
+
+>[!TAB Old Editor] 
+
+![](./images/web-editor-tab-bar.png)
 
 >[!ENDTABS] 
 

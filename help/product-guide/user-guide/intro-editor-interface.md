@@ -11,17 +11,17 @@ This article provides you an overview of the Editor interface, and the various f
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
-
-This view displays how the content is rendered in the Classic Editor
-
-![](images/editor-overview.png)
-
->[!TAB Editor 2.0 ]
+>[!TAB New Editor]
 
 This view displays how the content is rendered in Editor 2.0
     
 ![](images/editor-overview-2-0.png)
+
+>[!TAB Old Editor]
+
+This view displays how the content is rendered in the Classic Editor
+
+![](images/editor-overview.png)
 
 >[!ENDTABS] 
 
