@@ -33,7 +33,7 @@ You can enable or disable this feature and configure favorite elements for inser
 
 1. Search for a new element or select one from your favorites, and insert it directly at the current cursor position using the inline element insertion toolbar.
 
-    ![Quick insert menu](./images/quick-insert-menu.png){width="650" align="left"}
+    ![Quick insert menu](./images/quick-insert-menu-in-editor.png){width="650" align="left"}
 
 
 >[!TAB Old Editor]
