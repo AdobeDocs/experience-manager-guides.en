@@ -9,7 +9,7 @@ exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
 
 >[!INFO]
 >
->This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+>This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
 
 The Search panel in the Editor enhances productivity by providing quick access to a subset of files, displayed based on search terms or applied filters when editing content. It helps you easily open one or multiple searched files or use them within an existing file by simply dragging and dropping into a topic or map. You can locate the **Search panel** at the bottom of the Editor. 
 
@@ -55,13 +55,13 @@ After the search results are displayed in the Search panel, you can work with th
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
-
-![](images/edit-search-panel.png){align="left"}
-
->[!TAB Editor 2.0]
+>[!TAB New Editor]
 
 ![](images/edit-search-panel-editor-2-0.png){align="left"}
+
+>[!TAB Old Editor]
+
+![](images/edit-search-panel.png){align="left"}
 
 >[!ENDTABS]
 

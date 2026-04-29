@@ -9,7 +9,7 @@ role: User
 
 >[!INFO]
 >
->This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+>This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
 
 Adobe Experience Manager Guides allows you to create DITA topics of type — topic, task, concept, reference, glossary, DITAVAL, Markdown and more. Apart from creating topics based on the out-of-the-box templates, you can also define your custom templates. These templates must be added to the folder profile to show up in the template selection Blueprint and the Editor.
 
@@ -49,17 +49,17 @@ The topic is created at the specified path. Also, the topic is opened in the Edi
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
+>[!TAB New Editor]
 
-This view displays how the content is rendered in the Classic Editor.
-   
-![](images/new-topic-editor.png){align="left"}
-
->[!TAB Editor 2.0]
-
-This view displays how the content is rendered in the Editor 2.0.
+This view displays how the content is rendered in the New Editor.
 
 ![](images/new-topic-editor-new-editor-2-0.png){align="left"}
+
+>[!TAB Old Editor]
+
+This view displays how the content is rendered in the Old Editor.
+   
+![](images/new-topic-editor.png){align="left"}
 
 >[!ENDTABS]
 

@@ -6,6 +6,10 @@ role: User
 ---
 # Editor settings
 
+>[!INFO]
+>
+> This article is specific for Editor 2.O. To get Editor 2.0 enabled, please contact the AEM Guides Customer Success team.
+
 The Editor settings provides a centralized configuration panel that allows you to customize Editor behavior at an individual author level. It provide greater flexibility, consistency, and control during the authoring process.
 
 This centralized settings panel enables you to manage key Editor preferences from a single location, reducing the need for scattered or manual configurations. The Editor settings can be accessed from the **More actions** on the Tab bar.

@@ -9,7 +9,7 @@ exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 
 >[!INFO]
 >
->This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+>This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
 
 The left panel gives you quick access to Collections, Repository view, Map view, and more features. You can expand the panel by selecting the **Expand** icon placed at the bottom-left corner of the interface. Once expanded, use the **Collapse** icon to collapse the panel. In the expanded view, it displays the names of the icons which appear as tooltips in the collapsed view.
 
@@ -292,7 +292,7 @@ Steps to create a new folder:
 
     If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will view the UUID of the uploaded image in the **Source** property.
 
-    ![](images/uuid-in-source-upload-image_cs.png){   align="left"}
+    ![](images/image-properties.png){   align="left"}
 
     After a successful upload, the following confirmation dialog is displayed:
 
@@ -780,13 +780,13 @@ You can also apply multiple conditions on an element by dragging-and-dropping mu
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
-
-![](images/multiple-conditions-applied_cs.png){width="650" align="left"}
-
->[!TAB Editor 2.0]
+>[!TAB New Editor]
 
 ![](images/multiple-conditions-applied_cs-editor-2-0.png){width="650" align="left"}
+
+>[!TAB Old Editor]
+
+![](images/multiple-conditions-applied_cs.png){width="650" align="left"}
 
 >[!ENDTABS]
 
@@ -798,13 +798,13 @@ However, in the Code view the conditions are separated using a space delimiter. 
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
-
-![](images/conditional-content-through-panel_cs.png){width="650" align="left"}
-
->[!TAB Editor 2.0]
+>[!TAB New Editor]
 
 ![](images/conditional-content-through-panel_cs-editor-2-0.png){width="650" align="left"}
+
+>[!TAB Old Editor]
+
+![](images/conditional-content-through-panel_cs.png){width="650" align="left"}
 
 >[!ENDTABS]
 
@@ -1048,13 +1048,13 @@ Snippets are small content fragments that can be reused across various topics in
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
-
-![](images/snippets-panel_cs.png){width="650" align="left"}
-
->[!TAB Editor 2.0]
+>[!TAB New Editor]
 
 ![](images/snippets-panel_cs-editor-2-0.png){width="650" align="left"}
+
+>[!TAB Old Editor]
+
+![](images/snippets-panel_cs.png){width="650" align="left"}
 
 >[!ENDTABS]
 

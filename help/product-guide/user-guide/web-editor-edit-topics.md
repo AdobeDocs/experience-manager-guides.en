@@ -9,7 +9,7 @@ role: User
 
 >[!INFO]
 >
->This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+>This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
 
 The Editor comes with a range of editing features that let you easily create or modify your topic files. Broadly, you would perform the following steps to edit a topic in the Editor.
 
@@ -19,7 +19,24 @@ The Editor comes with a range of editing features that let you easily create or 
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
+>[!TAB New Editor] 
+
+You can enable or disable this feature and configure favorite elements for insertion through the Editor settings. For details, view Editor settings.
+
+1. To edit or insert an element in a topic, click within the text boundary of the required element to make changes, or place the cursor at the end of the element after which you want to add a new element and select the required element from the toolbar (or press Alt+1 to open the Insert Element popup), which intelligently lists and inserts only valid elements for that location in the topic.
+
+1. Additionally you can use the Quick insert menu to readily insert allowed elements at the cursor position. Select **Control + /** for Windows or **Command + /** for Mac to access the elements. 
+
+    >[!NOTE]
+    >
+    >You can enable or disable this feature and configure favorite elements for insertion through the Quick insert menu available in the Editor settings. For details, view [Editor settings](./config-editor-settings.md).
+
+1. Search for a new element or select one from your favorites, and insert it directly at the current cursor position using the inline element insertion toolbar.
+
+    ![Quick insert menu](./images/quick-insert-menu.png){width="650" align="left"}
+
+
+>[!TAB Old Editor]
 
 1.  To make changes in your topic, click within the text boundary of the required element and start making edits.
 
@@ -37,41 +54,25 @@ The Editor comes with a range of editing features that let you easily create or 
     >
     > If you do not wish to commit changes into Adobe Experience Manager repository, select **Close**, and then select **Close without saving** in the Unsaved Changes dialog.
 
->[!TAB Editor 2.0] 
-
-You can enable or disable this feature and configure favorite elements for insertion through the Editor settings. For details, view Editor settings.
-
-1. To edit or insert an element in a topic, click within the text boundary of the required element to make changes, or place the cursor at the end of the element after which you want to add a new element and select the required element from the toolbar (or press Alt+1 to open the Insert Element popup), which intelligently lists and inserts only valid elements for that location in the topic.
-
-1. Additionally you can use the Quick insert menu to readily insert allowed elements at the cursor position. Select **Control + /** for Windows or **Command + /** for Mac to access the elements. 
-
-    >[!NOTE]
-    >
-    >You can enable or disable this feature and configure favorite elements for insertion through the Quick insert menu available in the Editor settings. For details, view [Editor settings](./config-editor-settings.md).
-
-1. Search for a new element or select one from your favorites, and insert it directly at the current cursor position using the inline element insertion toolbar.
-
-    ![Quick insert menu](./images/quick-insert-menu.png){width="650" align="left"}
-
 >[!ENDTABS]
 
 ## Partial selection of content across elements
 
 Experience Manager Guides also allows you to select content across elements. After selecting the content, you can perform the following operations:
 
-- Formatting : Formatting selected content is significantly easier in Editor 2.0 compared to Editor 1.0, as illustrated below.
+- Formatting : Formatting selected content is significantly easier in New Editor compared to Editor 1.0, as illustrated below.
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
-
-Make the selected content bold, italics, underline the selected content. The content from the valid open tags is then merged and appears under a single element. For example, you can select the content within a paragraph and extend the selection to another paragraph. Then, if you make the selected content bold, all the bold content from the open tags is merged and appears under a single paragraph element.
-
->[!TAB Editor 2.0]
+>[!TAB New Editor]
 
 You can format the selected content as bold, italics, or underline using the contextual toolbar. Select the content, then click the appropriate formatting icon in the menu that appears. Make the selected content bold, italics, or underline. The content from the valid open tags is then merged and appears under a single element.
 
 ![Formatting options](./images/formatting-options.png){width="650" align="left"}
+
+>[!TAB Old Editor]
+
+Make the selected content bold, italics, underline the selected content. The content from the valid open tags is then merged and appears under a single element. For example, you can select the content within a paragraph and extend the selection to another paragraph. Then, if you make the selected content bold, all the bold content from the open tags is merged and appears under a single paragraph element.
 
 >[!ENDTABS]
 
@@ -106,17 +107,17 @@ Experience Manager Guides provides the working copy indicator which shows whethe
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
+>[!TAB New Editor]
 
-This view displays how the content is rendered in the Classic Editor.
-
-![working copy indicator](images/working-copy-text-update-indicator.png){width="550" align="left"}
-
->[!TAB Editor 2.0]
-
-This view displays how the content is rendered in the Editor 2.0.
+This view displays how the content is rendered in the New Editor.
 
 ![working copy indicator](images/working-copy-text-update-indicator-new-editor-2-0.png){width="550" align="left"}
+
+>[!TAB Old Editor]
+
+This view displays how the content is rendered in the Old Editor.
+
+![working copy indicator](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
 >[!ENDTABS]
 
@@ -128,13 +129,14 @@ Experience Manager Guides also indicates if the last saved \(working\) copy of t
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
+>[!TAB New Editor]
+
+![Version update indicator](images/version-update-indicator-editor-2-0.png){width="650" align="left"}
+
+>[!TAB Old Editor]
 
 ![Version update indicator](images/version-update-indicator.png){width="650" align="left"}
 
->[!TAB Editor 2.0]
-
-![Version update indicator](images/version-update-indicator-editor-2-0.png){width="650" align="left"}
 
 >[!ENDTABS]
 

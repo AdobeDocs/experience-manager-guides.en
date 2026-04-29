@@ -9,7 +9,7 @@ role: User
 
 >[!INFO]
 >
->This topic applies to both Editor 2.0 and the classic Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+>This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
 
 The Editor interface in Adobe Experience Manager supports viewing topics in three different modes or views:
 
@@ -91,7 +91,7 @@ For more details, view the **Find and Replace** feature description in the [Tab 
 
 >[!NOTE]
 >
->This feature is available only in Editor 2.0.
+>This feature is available only in New Editor.
 
 Side-by-side view allows you to view and work in the Author and Source views simultaneously on the same screen. The WYSIWYG Author view and the underlying XML Source view are displayed adjacent to each other, enabling parallel content and structural editing without switching views. Both views remain synchronized in real time, ensuring that the cursor position and selection in the Author view are reflected at the corresponding location in the Source view, providing better accuracy and control while authoring structured content.
 
@@ -116,13 +116,13 @@ The following image shows a topic that uses two conditions : `Audience` and `Pla
 
 >[!BEGINTABS]
 
->[!TAB Classic Editor]
-
-![](images/preview-filters.png){width="650" align="left"}
-
->[!TAB Editor 2.0]
+>[!TAB New Editor]
 
 ![](images/preview-filters-editor-2-0.png){width="650" align="left"}
+
+>[!TAB Old Editor]
+
+![](images/preview-filters.png){width="650" align="left"}
 
 >[!ENDTABS]
 
