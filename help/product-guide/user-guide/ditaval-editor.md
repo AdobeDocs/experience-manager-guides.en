@@ -24,7 +24,7 @@ Perform the following steps to create a DITAVAL file:
 
 1. In the Repository panel, select the **New file** icon and then select **Topic** from the dropdown menu. 
 
-    ![](images/new-file-option.png){width="350" align="left"}
+    ![](images/new-file-option.png){width="350"}
 
     You can also access this option from the [Experience Manager Guides Home page](./intro-home-page.md) and the options menu of a folder in the Repository view. 
 
@@ -36,14 +36,14 @@ Perform the following steps to create a DITAVAL file:
     - A template on which the topic will be based. For a DITAVAL file, select **Ditaval** from the dropdown list.
     - Path where you want to save the topic file. By default, the path of currently selected folder in the repository is shown in the Path field.
 
-    ![](images/new-topic-dialog-ditaval.png){width="350" align="left"}
+    ![](images/new-topic-dialog-ditaval.png){width="350"}
 
     
 4. Select **Create**. 
     
 The topic is created at the specified path. Also, the topic is opened in the Editor for editing.
 
-![](images/ditaval-file-editor.png){align="left"}
+![](images/ditaval-file-editor.png)
 
 ## Edit DITAVAL file
 
@@ -62,7 +62,7 @@ For more details, view [Menu dropdown options](./web-editor-toolbar.md#menu-drop
     
 Add a single property in your DITAVAL file.
 
-![](images/ditaval-editor-props-new.png){width="650" align="left"}
+![](images/ditaval-editor-props-new.png){width="650"}
 
 The first drop-down lists the allowed DITA attributes that you can use in the DITAVAL file.
 
@@ -72,7 +72,7 @@ The second drop-down list shows the values configured for the selected attribute
 
 To add a specific revision number to a tag in XML, you can use use the Add rev prop option. This adds a rev attribute to the tag, with the value defined in the Value field along with the selected action for the property. This revision attribute can later be used to filter relevant XML content based on the specified revision number when generating the output.
 
-![](images/ditaval-rev-props.png){width="650" align="left"}
+![](images/ditaval-rev-props.png){width="650"}
 
 #### Add All Props
 
@@ -83,7 +83,7 @@ If you want to add all conditional properties or attributes defined in your syst
 > If all defined conditional properties already exist in the DITAVAL file, you cannot add more properties. You get an error message in this scenario.
 
 
-![](images/ditaval-all-props-new.png){width="650" align="left"}
+![](images/ditaval-all-props-new.png){width="650"}
 
 
 
@@ -100,41 +100,41 @@ There are majorly four actions available for a given property that can be used w
 **Add Flags:** To flag content in the output, you can set flag as the action for the desired attribute in the file. You can also apply different flag styles by using the **Flag style** dropdown as shown in the snippet below.
 
 
-![](images/ditaval-flag-style.png){width="650" align="left"}
+![](images/ditaval-flag-style.png){width="650"}
 
    
 - **Background Color**: Select the hue, saturation, contrast from the Background color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
 
 
-    ![](images/ditaval-background-color.png){width="350" align="left"}
+    ![](images/ditaval-background-color.png){width="350"}
 
 
 
 - **Text Color**: Select the hue, saturation, contrast from the Text  color. The corresponding HEX value will update automatically based on your selection. You can also switch the color space format using the dropdown to choose between HEX, RGB, and HSB.
 
 
-    ![](images/ditaval-text-color.png){width="350" align="left"}
+    ![](images/ditaval-text-color.png){width="350"}
 
 
 
 - **Styling options**: You can add some styling options as well like Bold, Italics, Underline, Overline, Double underline.
 
 
-    ![](images/ditaval-styling-option.png){width="350" align="left"}
+    ![](images/ditaval-styling-option.png){width="350"}
 
 
 
 - **Start and End Flags**: You can insert images as start and end flags using the **Add Flag** button. To choose images, either use **Browse Assets** to select from the Guides repository or **Add File** to upload from your local system. Additionally, you can specify alternate text for the images.
 
 
-    ![](images/ditaval-start-end-flags.png){width="350" align="left"}
+    ![](images/ditaval-start-end-flags.png){width="350"}
 
 
 
 - **Style conflict**: It resolves the conflicts that occur when a single element contains multiple properties with different Flag styles. In such cases, the value defined in the style conflict properties is selected, effectively acting as a default value picker for background and text colors.
 
 
-    ![](images/ditaval-style-conflict.png){width="650" align="left"}
+    ![](images/ditaval-style-conflict.png){width="650"}
 
 
 #### Version information and Save as new version

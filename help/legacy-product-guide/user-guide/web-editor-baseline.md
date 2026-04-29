@@ -21,7 +21,7 @@ You can create a baseline from the Web Editor by performing the following steps:
 1. In the Repository panel, open the DITA map file in Map View.
 1. Click the **Manage** tab. The **Baseline** panel displays the baselines of the DITA map.
 
-    ![Basleine panel](images/baseline-manage.png){width="800" align="left"}
+    ![Basleine panel](images/baseline-manage.png){width="800"}
 
 1. On the **Baseline** panel, select the + icon at the top-right to start creating a baseline.
 1. Enter a name for the baseline in **Name**.
@@ -53,7 +53,7 @@ You can create a baseline from the Web Editor by performing the following steps:
     
     Baselines created using the automatic update configuration are updated dynamically. If you generate a baseline, download a baseline, or create a translation project using a baseline, the files are picked dynamically based on the updated labels. For example, if you have used version 1.2 of a topic with Label Release 1.0 for the baseline and later updated version 1.5 with Label Release 1.0, the baseline will be updated dynamically, and version 1.5 will be used.
 
-    ![Create a baseline](images/dynamic-baseline.png){width="300" align="left"}
+    ![Create a baseline](images/dynamic-baseline.png){width="300"}
 
     - **Labels**: If the topics have labels specified for them,  then use the **Labels** dropdown to choose from the [listed labels](#labels-list). 
     The labels selected first are given higher priority over the later ones.
@@ -88,7 +88,7 @@ You can manage your existing baselines using the various features on the Baselin
     >
     >Edit operation in case of dynamic baseline allows you to edit the properties of the baseline as the references for dynamic baselines are generated at runtime using the labels.  
 
-    ![options of a baseline](images/baseline-options.png){width="800" align="left"}
+    ![options of a baseline](images/baseline-options.png){width="800"}
 
    
 
@@ -97,7 +97,7 @@ You can manage your existing baselines using the various features on the Baselin
 ### Duplicate a baseline
 
 You can duplicate a baseline and modify it according to your requirements. 
-   ![duplicate a baseline](images/baseline-duplicate.png){width="300" align="left"}
+   ![duplicate a baseline](images/baseline-duplicate.png){width="300"}
    *Duplicate a baseline based on a label or create an exact copy.*
     
  1. Select **Duplicate** from the Options menu of a baseline. The **Duplicate baseline** dialog box opens.
@@ -134,7 +134,7 @@ The labels listed in the dropdown are based on the following criteria:
 
 Using the Filters icon in the **Baseline Filters** panel you can apply filters on the baseline opened in the baseline editing window:
 
-![baseline filters](images/baseline-filter.png){width="300" align="left"}
+![baseline filters](images/baseline-filter.png){width="300"}
 
 - Filter the files based on filenames, or file location.
 - Filter the files based on the values for different columns like File Type, Reference Type and so on.

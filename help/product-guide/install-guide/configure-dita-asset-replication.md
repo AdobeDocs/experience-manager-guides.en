@@ -23,7 +23,7 @@ Perform the following steps to configure the asset processing feature:
 1. Configure the setting `Replicate DITA assets` as per your requirement. By default, the setting is enabled.
 
 
-    ![](assets/dita-assets-replication.png){width="350" align="left"}
+    ![](assets/dita-assets-replication.png){width="350"}
 
 
 1. Select **Save**.

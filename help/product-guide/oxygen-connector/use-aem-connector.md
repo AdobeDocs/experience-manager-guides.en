@@ -60,7 +60,7 @@ Perform the following steps on the system where Oxygen XML Author is installed:
 
     The AEM Guides panel is displayed in the Oxygen XML Author.
 
-    ![AEM connector](images/oxygen-aem-connector.png){width="800" align="left"}
+    ![AEM connector](images/oxygen-aem-connector.png){width="800"}
 
     >[!NOTE]
     >
@@ -92,7 +92,7 @@ Perform the following steps on the system where Oxygen XML Author is installed:
 
     The AEM Guides panel is displayed in the Oxygen XML Author.
 
-    ![AEM connector Mac](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
+    ![AEM connector Mac](images/oxygen-aem-connector-mac.png) {width="800"}
 
     >[!NOTE]
     >
@@ -112,7 +112,7 @@ As an AEM administrator, perform the following steps to install the package:
 
     The Package Manager manages the packages on your local AEM installation. For more information about working with the Package Manager, see [How to Work With Packages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) in AEM documentation.
 
-    ![Package manager](images/package-manager.png) {width="650" align="left"}
+    ![Package manager](images/package-manager.png) {width="650"}
 
 1.  To upload the Oxygen package, click **Upload Package**.
 1.  In the Upload Package dialog, navigate to the Oxygen package file that you downloaded in Step 1 and click OK.
@@ -121,7 +121,7 @@ As an AEM administrator, perform the following steps to install the package:
 
 1.  To start the installation process, click **Install**.
 
-    ![Oxygen package](images/oxygen-package.png){width="650" align="left"}
+    ![Oxygen package](images/oxygen-package.png){width="650"}
 
 1.  In the Install Package dialog, click **Install**.
 1.  After installation completes, click the Home button in the upper-left corner of the CRX Package Manager.
@@ -202,7 +202,7 @@ Perform the following steps to configure the connection settings in the Oxygen P
 
 1.  In the AEM Guides panel, click the settings icon and then select **Settings**.
 
-    ![Connection settings ](images/settings.png){width="800" align="left"}
+    ![Connection settings ](images/settings.png){width="800"}
 
 1.  Specify the following details:
     -   **Server URL**: URL of the AEM server, for example:
@@ -239,16 +239,16 @@ Perform the following steps to configure profiling attributes and cross referenc
 1.  In Oxygen XML Author, click **Options** \> **Preferences**.
 1.  In the **Document Type Association** tab, select **DITA**, and then click **Extend**.
 
-    ![document type association](images/document_type_association.png){width="650" align="left"}
+    ![document type association](images/document_type_association.png){width="650"}
 
 1.  In the **Classpath** tab, select `com.adobe.o2.connector` in the **Use Parent Class Loader From Plugin with ID** drop-down.
 
-    ![Class path tab](images/dita-extension.png){width="650" align="left"}
+    ![Class path tab](images/dita-extension.png){width="650"}
 
 1.  In the **Extensions** tab, make the following changes:
         
     -  Click **Choose** next to the **Extensions bundle** and select   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` in the **Class** list. Click **OK**.
-    ![Configured extenstion for DITA topics](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+    ![Configured extenstion for DITA topics](images/dita-map-extenstion-link-resolve.png) {width="650"}
     -  Click **Choose** next to the **Author Extension State Listener** under **Individual Extensions** and select `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` in the **Class** list. Click **OK**.
     -  Click **Choose** next to the **Author Custom Attribute Value Editor** under **Individual Extensions** and select `CustomValueEditor - com.adobe.o2.framework.extn` in the **Class** list. Click **OK**.
     -  Click **Choose** next to the **Author external object insertion handler** under **Individual Extensions** and select `CustomURLInsertionHandler - com.adobe.o2.ui ` in the **Class** list. Click **OK**.
@@ -290,7 +290,7 @@ Perform the following steps to configure the DITA map extension:
 
 The following screen shows the AEM Guides panel.
 
-![connector panel](images/connector-panel.png){width="550" align="left"}
+![connector panel](images/connector-panel.png){width="550"}
 
 **A**\) Shows the Search bar.
 
@@ -343,7 +343,7 @@ Once you have connected to the AEM repository, you can open files for editing in
 
     The file is opened in Oxygen XML Author's editor.
 
-    ![Guid in file tab](images/guid-in-file-tab.png) {width="800" align="left"}
+    ![Guid in file tab](images/guid-in-file-tab.png) {width="800"}
 
     When you hover the mouse pointer over a file's tab, you are shown the server path along with its UUID. In the above screenshot, the UUID of the document is highlighted.
 
@@ -392,7 +392,7 @@ If you have selected the **Auto-Checkout File when Opened** option \(in the Pref
 
 When a file is checked-out, the icon of the file changes to show its locked status.
 
-![Check out a file](images/check-out-file.png){width="650" align="left"}
+![Check out a file](images/check-out-file.png){width="650"}
 
 In the above screenshot, a file checked out by other user is shown with a black colored lock icon \(A\). File checked out by the current user is shown with a green colored lock \(B\).
 
@@ -419,7 +419,7 @@ When you check in a file, the local copy from your system is stored in the AEM r
 
      If you have not checked out dependent files and then you choose this option, then only those dependent files that you have \(separately\) checked out will be checked in. You will be shown a list of files that could not be checked in:
 
-     ![check in errors](images/check-in-error.png){width="800" align="left"}
+     ![check in errors](images/check-in-error.png){width="800"}
 
      It is strongly recommended not to move a file that is checked out. However, if a checked out file is moved to a different location, then you must cancel the checkout on that file. If you want to make updates on that file, then check out the file again, make changes, and then check it back in. If you try to check in a file that has been moved from its original location, then you will get an error.
 
@@ -437,7 +437,7 @@ When you check in a file, the local copy from your system is stored in the AEM r
 
     If your administrator has predefined a list of labels and uploaded them in the `label.json` file, then those labels are displayed as a dropdown. You can choose one or more labels from the dropdown.
 
-    ![Check in dialog](images/checkin-dropdown-labels.png){width="550" align="left"}
+    ![Check in dialog](images/checkin-dropdown-labels.png){width="550"}
 
     You can add multiple labels (separated by commas) to the same version of a topic.  For example, *Adobe*, *AEM*, *Guides*.
     However, you cannot add the same label to the different versions of a topic. If you add a label that you have already added to a earlier version, it is added to the latest version and removed from the earlier version.
@@ -461,7 +461,7 @@ When you have in multiple folders, then it is not easy to find out how many file
 
     The Files Checked-Out in AEM Guides view is displayed.
 
-    ![checked out files](images/files-checkedout-view.png){width="550" align="left"}
+    ![checked out files](images/files-checkedout-view.png){width="550"}
 
 1.  Right-click on a file in this view to get the following options:
 
@@ -531,7 +531,7 @@ Perform the following steps to view a file's version history:
 
     File's version history is displayed in the Versions dialog.
 
-    ![Version history](images/version-history.png){width="550" align="left"}
+    ![Version history](images/version-history.png){width="550"}
 
 
 ### View a file's metadata {#id195GHN0H05C}
@@ -544,7 +544,7 @@ Perform the following steps to view a file's metadata:
 
     File's metadata such as the DITA Class, Document State, modification date, size, Title, and UUID are displayed in the Metadata dialog.
 
-    ![View metadata](images/metadata.png){width="550" align="left"}
+    ![View metadata](images/metadata.png){width="550"}
 
 
 ## Search a topic in the AEM repository {#id1826J20405Z}
@@ -559,7 +559,7 @@ Perform the following steps to search topics:
 
     The result is displayed in the Search Results tab as a list with the file path. If there is no matching result for your search query, No results found in <path of the selected folder\> message is displayed.
 
-    ![Results of search](images/search.png){width="550" align="left"}
+    ![Results of search](images/search.png){width="550"}
 
 1.  \(Optional\) Double-click a file in the search result to open it in Oxygen XML Author.
 1.  To go back to the AEM Repository view, do one of the following:
@@ -640,13 +640,13 @@ Perform the following steps to add conditional attributes to your content in Oxy
 1.  Select the part of the content where you want to apply the conditional attributes.
 1.  Double-click the conditional attribute in the Attributes panel of the Oxygen XML Author.
 
-    ![attributes panel](images/attribute-panel.png){width="300" align="left"}
+    ![attributes panel](images/attribute-panel.png){width="300"}
 
 1.  In the **Available** column of the Edit Attribute dialog, select the attribute\(s\) and click **Add**.
 
     The following screen shows `audience` attributes.
 
-    ![Edit attributes dialog](images/edit-attributes.png){width="550" align="left"}
+    ![Edit attributes dialog](images/edit-attributes.png){width="550"}
 
 1.  Click **OK**.
 
@@ -689,7 +689,7 @@ Solution 3:
 
 **Issue** - When you run any DITA-OT transformation on files that are processed by the Plugin, the transformation fails with the following error:
 
-![DITA-OT transformation failure error](images/proxy-server-path-error-new.png){width="800" align="left"}
+![DITA-OT transformation failure error](images/proxy-server-path-error-new.png){width="800"}
 
 **Solution** - This issue has been fixed by adding a proxy server in-between DITA-OT and the Plugin. This proxy server processes and shares all files requested by DITA-OT for transformations. The default port on which this server has been configured is: `5972`. If you are using this port for some other server, then you can specify a different port for the proxy server.
 

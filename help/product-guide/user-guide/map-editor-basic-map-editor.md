@@ -38,7 +38,7 @@ Perform the following steps to build your map file:
 
     The map file is opened for editing in the Map Editor. Using the Map Editor, you build a map by using the currently available topics that are displayed in the References rail.
 
-    ![](images/dita-map-01.png){align="left"}
+    ![](images/dita-map-01.png)
 
 1.  Using the **References** rail, navigate to the folder that contains the topics or sub-maps that you want to add.
 
@@ -67,13 +67,13 @@ Perform the following steps to build your map file:
 
 The main toolbar in the Basic Map Editor allows you to perform the following tasks:
 
-![](images/ditamap-toolbar-actions.png){align="left"}
+![](images/ditamap-toolbar-actions.png)
 
 **A: Search**
 
 You can search for and include the required topics from DAM. Clicking on this icon displays the Search dialog:
 
-![](images/search-dita-map.png){align="left"}
+![](images/search-dita-map.png)
 
 Enter the keywords you want to search for, these keywords are matched in the topic's filename, content, and even attribute values. Once the search results are available, select the desired topic\(s\) and click the Check button to add the selected files at the end of your map structure. You can filter your search results by specifying Modify Date parameters.
 
@@ -101,19 +101,19 @@ In the **Default Mode**, clicking a topic link shows the preview of the topic in
 **Note:** In the Default Mode you can use the keyboard shortcuts to undo \(`Ctrl+z`\) or redo \(`Ctrl+y`\) the last action.
 
 
-![](images/dita-map-invalid-source.png){width="650" align="left"}
+![](images/dita-map-invalid-source.png){width="650"}
 
 **G: Map Properties**
 
 Display the Map Properties dialog wherein you can set the attributes and metadata information for the map. To add an attribute, click the **Add** button at the bottom-left corner of the dialog to get the **Attribute** drop-down list. From the list, select the attribute that you want to add. If the selected attribute has pre-defined values specified in the DTD, then those values would be presented in a new drop-down list. You can select the desired value from the drop-down list. If there is no pre-defined value, then you will be presented a text box to enter a value for the selected attribute.
 
-![](images/map-properties.png){width="300" align="left"}
+![](images/map-properties.png){width="300"}
 
 ## Features available at topic level in the Basic Map Editor 
 
 When you hover your mouse pointer over a topic or a sub-map file in the Basic Map Editor, you can perform the following tasks:
 
-![](images/ditamap-actions.png){width="650" align="left"}
+![](images/ditamap-actions.png){width="650"}
 
 **A: Move Left or Move Right**
 
@@ -124,7 +124,7 @@ Click the left or right arrow icons' to move the topic left or right. Moving a t
 Click the Properties icon to open the Topicref Properties dialog. Using this dialog, you can set the topic attributes and metadata information. For more information about the standard topic attributes and metadata, see the [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentation in OASIS DITA Language Specification.
 
 
-![](images/map-properties-metadata.png){width="350" align="left"}
+![](images/map-properties-metadata.png){width="350"}
 
 **C: Add New Reference**
 
@@ -156,7 +156,7 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
 
 1.  Select **Reltable** from the toolbar.
 
-    ![](images/reltable.png){width="650" align="left"}
+    ![](images/reltable.png){width="650"}
 
 1.  Drag-and-drop topics from the topic list to the Reltable editor.
 
@@ -164,13 +164,13 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
     >
     > You can add topics from any folder in the References rail.
 
-    ![](images/create-reltable.png){width="550" align="left"}
+    ![](images/create-reltable.png){width="550"}
 
 1.  To add a header to your relationship table, click **Add Relheader**.
 
 1.  To add a column to your relationship table, click **Add a Column**.
 
-    ![](images/complete-reltable.png){width="550" align="left"}
+    ![](images/complete-reltable.png){width="550"}
 
 1.  Click **Save**.
 

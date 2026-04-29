@@ -109,6 +109,6 @@ Learn how to [open locked files in Author and Source modes](../user-guide/web-ed
 
 Experience Manager Guides now allows you to group conditions and present them in a nested hierarchy, allowing you to add multiple conditions to a single group. By grouping conditions, you can better organize and apply them across your content.
 
-![condtions organised in a nested hierarchy](assets/conditions-nested-hierarchy.png){width="300" align="left"}
+![condtions organised in a nested hierarchy](assets/conditions-nested-hierarchy.png){width="300"}
 
 Learn more about the **Conditions** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.

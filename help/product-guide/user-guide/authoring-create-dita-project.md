@@ -29,7 +29,7 @@ Perform the following steps to create a DITA project:
 
 1.  Select **Create** \> **Project** to launch the Create Project wizard.
 
-    ![](images/project-console-63.png){width="650" align="left"}
+    ![](images/project-console-63.png){width="650"}
 
 1.  On the Create Project page, select the **DITA Project** template and select **Next**.
 
@@ -37,7 +37,7 @@ Perform the following steps to create a DITA project:
 
     Information in the **Basic** tab:
 
-    ![](images/create-project.png){width="650" align="left"}
+    ![](images/create-project.png){width="650"}
 
     -   Enter your project's **Title**, **Description**, and **Due Date**.
 

@@ -8,7 +8,7 @@ role: User
 
 # Bulk tagging of DITA content {#id179SG0TN05Z}
 
-![](images/test-version-info-table.svg){width="650" align="left"}
+![](images/test-version-info-table.svg){width="650"}
 
 Tags allow you to group or classify content within your content repository and also in the published output. If you have applied tags on your content, you can easily find related topics within a DITA map that can help you to authoring content. With the published output, end users will be able to locate the right content faster with proper tags in place.
 
@@ -30,7 +30,7 @@ Use the bulk tagging feature to apply multiple tags at once. Perform the followi
 
 1.  Select the topics or sub-map on which you want to apply tags.
 
-    ![](images/apply-tags-uuid.png){width="650" align="left"}
+    ![](images/apply-tags-uuid.png){width="650"}
     
 
     >[!NOTE]

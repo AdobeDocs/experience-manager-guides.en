@@ -108,7 +108,7 @@ In addition, you can also configure to show a warning message whenever a checked
 
 1.  Select the **Disable Edit Without Checkout** option.
 
-    ![](assets/xml-editor-config.png){width="650" align="left"}
+    ![](assets/xml-editor-config.png){width="650"}
 
     With this option, users will not see the Edit option in the toolbar until they check out a file.
 
@@ -204,7 +204,7 @@ To support this feature, a new index property `drivelock` is added in `oak:index
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
-![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
+![](assets/index-property-oak-index-drivelock.png){width="800"}
 
 In addition to the new index property, ensure that the following properties are set on `/oak:index/damAssetLucene`:
 
@@ -274,11 +274,11 @@ Depending on who you want to give access for deletion, specify one of the follow
 
     -   allow\_unsafe\_delete\_for\_all: Give permission to all users to delete files. In this case, if the file\(s\) contain references or is referenced by other files, then also you can forcefully delete such file\(s\). Before deleting the file, you will be shown a prompt with the references, you can cancel the delete operation, remove the references, and then finally delete the file\(s\). Or, you can forcefully delete the file\(s\) without removing the references.
 
-        ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+        ![](assets/allow_unsafe_delete-force-delete.PNG){width="550"}
 
     -   allow\_unsafe\_delete\_for\_delete\_assets\_group: An Administrator or a user belonging to the *delete-assets* group is allowed to delete files. If any other user tries to delete files with any references, then they will not be allowed to delete such files until all references are removed. The following screenshot appears when a user, who does not have permissions, tries to delete files.
 
-        ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+        ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550"}
 
     -   block\_unsafe\_delete\_for\_all: Disallow all users \(including Administrators\) from deleting files until the references to and from the file\(s\) are removed.
 

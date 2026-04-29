@@ -33,7 +33,7 @@ Experience Manager Guides now also provides a **Data Sources** tool that helps y
 
 You can also easily edit, reconnect, duplicate, or delete a data source connector. Learn more about how to [easily configure a data source connector from the user interface](../install-guide/conf-data-source-connector-tools.md).
 
-![data source connectors listed in the data sources panel](assets/data-sources-create-window.png){width="550" align="left"}
+![data source connectors listed in the data sources panel](assets/data-sources-create-window.png){width="550"}
 
 *Create and view the data source connectors from the data sources panel.*
 
@@ -68,7 +68,7 @@ Now you can not only edit a map in the map view of the Web Editor but also downl
 
 For more details, refer to the **Map View** feature description within the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
-![options menu of a file in the repository view](assets/options-menu-repo-view-file-level-2310.png){width="550" align="left"}
+![options menu of a file in the repository view](assets/options-menu-repo-view-file-level-2310.png){width="550"}
 
 *Select a file in repository view and choose the option to perform an action on the file.* 
 
@@ -88,7 +88,7 @@ For more details on the handling hierarchical definitions of subject definitions
 
 Use the context menu to quickly preview the file (.dita, .xml, audio, video, or image) without opening it. You can now resize the preview pane, and if the content contains any reference link, you can select it to open it in a new tab. 
 
-![Preview pane ](assets/quick-preview_cs.png){width="800" align="left"}
+![Preview pane ](assets/quick-preview_cs.png){width="800"}
 
 *Preview the file in the pane.*
 

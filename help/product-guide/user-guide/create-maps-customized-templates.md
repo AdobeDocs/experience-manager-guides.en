@@ -33,7 +33,7 @@ You can create map and topic templates in the following ways:
 
 The **Templates** feature is present in the [Left panel of the Editor](./web-editor-left-panel.md) interface, and is only available for administrators. Using this panel, administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *map* and *topic* type templates.
 
-![](images/templates-panel_cs.png){width="300" align="left"}
+![](images/templates-panel_cs.png){width="300"}
 
 By default, you can view the files by titles. As you hover over a template, you can view the file title and the file name as a tooltip.   
 
@@ -45,16 +45,16 @@ Perform the following steps to create a topic or map template from the Editor:
 
 1.  Open the **Templates** panel in the Editor and select the **Create DITA template** icon.
 
-    ![](images/create-dita-template-option.png){width="500" align="left"}
+    ![](images/create-dita-template-option.png){width="500"}
 
 1. Choose **Topic template** or **Map template** from the dropdown menu based on the type of template you want to create.   
 1. If you select **Topic template**, then the **New topic template** dialog box is displayed.
 
-    ![](images/new-topic-template-dialog.png){width="300" align="left"}
+    ![](images/new-topic-template-dialog.png){width="300"}
 
     If you select **Map template**, then the **New map template** dialog box is displayed.
 
-    ![](images/map-template-dialog.png){width="300" align="left"}
+    ![](images/map-template-dialog.png){width="300"}
 
     You can also select **Folder** from the dropdown list if you want to first create a folder within the **topic** or **map** folder.  
 
@@ -71,7 +71,7 @@ Once the template is created, you need to add it to your global or folder-level 
 
 Using the **Options** menu on an existing template, you can choose to **Edit** or **Duplicate** it. In case of duplication, the template's structure and type \(of document\) is retained and you can reuse it to create another template from it.
 
-![](images/template-options-menu-editor.png){width="500" align="left"}
+![](images/template-options-menu-editor.png){width="500"}
 
 ### Create customized templates from the Assets UI
 
@@ -79,12 +79,12 @@ Peform the following steps to create a map or topic template from the Assets UI:
 
 1.  In the **Assets UI**, navigate to the dita-templates folder.
 
-    ![](images/dita-templates.png){align="left"}
+    ![](images/dita-templates.png)
 
 1.  Open the **topics** folder if you want to create a **Topic** template. Open the **maps** folder if you want to create a **Map** template. 
 1. Select **Create \> DITA Template**.
 
-    ![](images/create-dita-template.png){width="300" align="left"}
+    ![](images/create-dita-template.png){width="300"}
 1.  On the Blueprint page, select **Topic \> Next** to create a topic template. Else, select **Map \> Next** to create a map template.
 1.  On the Properties page, specify the template **Title**.
 1.  Specify the file **Name**.
@@ -182,7 +182,7 @@ In the **Editor**, perform the following steps to create a map using the custom 
 1.  In the **Editor**, navigate to the folder where you want to create the map.
 1. From the Options menu of the folder, select **New \> DITA Map**. 
 
-    ![](images/add-custom-template-dita-map.png){width="500" align="left"}
+    ![](images/add-custom-template-dita-map.png){width="500"}
 1.  The **New map** dialog is displayed.
 1.  In the **New map** dialog, specify the map **Title**, file **Name**, and select the map template you want to use. 
 

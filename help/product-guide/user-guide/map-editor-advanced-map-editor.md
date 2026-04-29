@@ -32,7 +32,7 @@ The following options are available on the toolbar in the Layout view:
 
 Displays the Select file dialog. Navigate to the topic/map file that you want to insert and choose **Select** to add it to the map. 
 
-![](images/insert-topic-reference-dialog.png){align="left"}
+![](images/insert-topic-reference-dialog.png)
 
 
 **Topic group** – ![](images/topic-group.svg)
@@ -43,7 +43,7 @@ Insert the `topicgroup` element. For more information about grouping topics, vie
 
 Displays the Insert Keydef dialog. Use this dialog to define any key definition that you want to use in the map.
 
-![](images/insert-key-definition-dialog.png){width="300" align="left"}
+![](images/insert-key-definition-dialog.png){width="300"}
 
 **Insert Before/Insert After** – ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -105,7 +105,7 @@ Shows or hides a checkbox for each topic. You can use the checkbox to select the
 
 In addition to organizing topics in the map file, you can also perform the following actions using the Options menu that appears on hovering over a file or right-clicking within the editor in the layout view:
 
-![](images/map-editor-options-menu.png){width="650" align="left"}
+![](images/map-editor-options-menu.png){width="650"}
 
 -   **Add**: You can choose to add a new topic or an empty reference from the Map Editor:
     -   **Empty reference**: This option allows you to add an empty reference in your DITA map. You can double-click the inserted empty reference later and add the Topic details. 
@@ -134,7 +134,7 @@ If you have applied any conditions on a topic, a filter icon is displayed on the
 
 The **Author** view allows you to edit your DITA map in the Editor. This shows the WYSIWYG view of the Map Editor and some of the icons displayed in Author view are same as the Layout view. 
 
-![](images/map-editor-author-view.png){align="left"}
+![](images/map-editor-author-view.png)
 
 In addition, you can view the following icons and perform the related tasks from the Author view:
 
@@ -173,7 +173,7 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
 
 1.  Select **Reltable** from the toolbar.
 
-    ![](images/reltable.png){width="650" align="left"}
+    ![](images/reltable.png){width="650"}
 
 1.  Drag-and-drop topics from the topic list to the Reltable editor.
 
@@ -181,13 +181,13 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
     >
     > You can add topics from any folder in the References rail.
 
-    ![](images/create-reltable.png){width="550" align="left"}
+    ![](images/create-reltable.png){width="550"}
 
 1.  To add a header to your relationship table, click **Add Relheader**.
 
 1.  To add a column to your relationship table, click **Add a Column**.
 
-    ![](images/complete-reltable.png){width="550" align="left"}
+    ![](images/complete-reltable.png){width="550"}
 
 1.  Click **Save**.
 
@@ -235,7 +235,7 @@ You can create a review task of the current topic or map file directly from the 
 
 This view allows you to edit content in its raw format, providing full control over the structure and formatting.
 
-![](images/map-editor-source-view.png){align="left"}
+![](images/map-editor-source-view.png)
 
 
 In this view, the toolbar provides basic content editing and insertion options available under the **Menu** dropdown including Cut, Copy, Undo, Redo, Delete, Find and replace, Version label, Merge, Save as new version, Lock and Unlock.
@@ -246,7 +246,7 @@ The Preview mode renders the content as it will appear in the final output, enab
 
 In addition to be able to view the position of each topic file within a map, it is desirable to view the map content in one consecutive flow. The Preview map feature allows you to view the entire content of the map file in a single click. You don't have to generate an output of the map file to view how the entire map will look like once published. You can simply access the map's preview and all topics and sub-maps are rendered in the form of a book.
 
-![](images/map-editor-preview.png){align="left"}
+![](images/map-editor-preview.png)
 
 >[!NOTE]
 >
@@ -262,7 +262,7 @@ You can perform the following additional tasks in the preview mode:
     >
     > If you don't have editing rights, then the topic will open in read-only mode.
 
-    ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+    ![](images/edit-topic-preview-mode.png){width="650"}
 
 -   Jump to the desired topic by selecting the topic title in the map tree \(in left panel\).
 
@@ -275,10 +275,10 @@ When a map is opened in Preview mode and you switch back to it from another tab 
 You can use the Refresh functionality, available in the Preview mode of the map, in two ways:
 
 - **Map-level refresh**: Selecting the **Refresh** button refreshes the preview of the entire map (including all topics), and takes you to the first scroll position for a clear view. 
-    ![](images/refresh-map.png){width="650" align="left"}
+    ![](images/refresh-map.png){width="650"}
 
 - **Topic-level refresh**: Selecting **Refresh topic** from the context menu refreshes that specific topic while keeping the scroll position unchanged.
-    ![](images/refresh-topic.png){width="650" align="left"}
+    ![](images/refresh-topic.png){width="650"}
 
 **Other ways to preview a map file**
 
@@ -292,11 +292,11 @@ You can access a map's preview from:
 
 -   **Map Editor**: In the Map Editor, select **Preview** from the options menu to view the preview of the current map.
 
-    ![](images/map-preview-icon.png){width="650" align="left"}
+    ![](images/map-preview-icon.png){width="650"}
 
     The preview of the map is displayed in a pop-up box. 
 
-    ![](images/map-editor-preview-pop-up.png){width="500" align="left"}
+    ![](images/map-editor-preview-pop-up.png){width="500"}
 
 **Map properties**
 
@@ -323,7 +323,7 @@ To edit topics through a DITA map, perform the following steps:
 
     You can open multiple topics in the editor and each topic is opened in a new tab in the editor. Even if your DITA map contains sub-maps, topics from the sub-maps are also opened in a new tab for editing. If you want to view the topics under a sub-map, you can select and expand the sub-map.
 
-    ![](images/web-editor-multiple-topics.png){align="left"}
+    ![](images/web-editor-multiple-topics.png)
 
     If you select a map file, the map is opened in a new tab of the Editor.
 
@@ -331,7 +331,7 @@ To edit topics through a DITA map, perform the following steps:
 
     -   You can save them individually. If you close without saving your topics, you will view a dialog box prompting you to save the unsaved topics:
 
-        ![](images/save-multiple-topics-new.png){width="300" align="left"}
+        ![](images/save-multiple-topics-new.png){width="300"}
 
         You can choose to save all selected topics or deselect the topics that you do not want to save.
 
@@ -343,7 +343,7 @@ To edit topics through a DITA map, perform the following steps:
 
     -   If your administrator has enabled the option of unlocking files on close, then you will be shown a prompt to save files whenever the locked files are closed. With this option enabled, when you close the editor with changed files, you are shown the list of locked files that need to be saved. The locked files are shown with a lock icon:
 
-        ![](images/save-on-close-new.png){width="350" align="left"}
+        ![](images/save-on-close-new.png){width="350"}
 
 ## Right panel in the Map Editor 
 
@@ -355,7 +355,7 @@ The Content properties panel contains information about the type of currently se
 
 -   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under **Display attributes**. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the `audience` attribute are defined as `US`.
 
-    ![layout view](images/layout-inline-attributes.png){width="650" align="left"}
+    ![layout view](images/layout-inline-attributes.png){width="650"}
 
    
     For more details, view  [Display attributes](../cs-install-guide/workspace-settings.md#display-attributes).

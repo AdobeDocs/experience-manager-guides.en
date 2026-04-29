@@ -19,7 +19,7 @@ Experience Manager Guides has introduced several enhancements to the Find and re
 
 Enabling this mode, allows you to perform global search not only on the visible content but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched string. This mode ensures a comprehensive search across the entire content.
 
-![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
+![](assets/map-find-replace-with-source-mode.png){width="650"}
 
 In this mode, you can apply filters to narrow your search by File type, Document state, Last modified date, and more. You also have the option to download a detailed CSV report after performing Replace all operation, which provides a snapshot of all the replace actions performed along with their success and failure status.
 
@@ -27,7 +27,7 @@ For more details, view [Find and replace](../user-guide/web-editor-left-panel.md
 
 >[!NOTE]
 >
-> For **Use source mode** feature in the Find and replace panel, a custom index deployment must first be completed. After the indexing is in place, contact your Customer Success team to enable this feature.
+>For **Use source mode** feature in the Find and replace panel, a custom index deployment must first be completed. After the indexing is in place, contact your Customer Success team to enable this feature.
 
 ## Enhanced file and folder browsing experience 
 
@@ -35,7 +35,7 @@ This release introduces a cleaner, more intuitive interface for browsing files a
 
 When browsing files, the revamped **Select file** dialog now features a tabbed layout with two views - **Repository** for navigating the entire content repository in a tabular format, and **Collections** for quick access to frequently used topics, maps, and images. 
 
-![](assets/select-file.png){width="650" align="left"}
+![](assets/select-file.png){width="650"}
 
 Key enhancements include:
 
@@ -47,7 +47,7 @@ Key enhancements include:
 
 The **Select path** dialog also features an improved tree-structured view for folder navigation, ensuring a more organized and efficient way to select paths across the content repository. 
 
-![](assets/select-path-dialog-new.png){width="350" align="left"}
+![](assets/select-path-dialog-new.png){width="350"}
 
 For more details, view [Browsing files and folders in Experience Manager Guides](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides) section in _Other features in the Editor_.
 
@@ -57,7 +57,7 @@ For more details, view [Browsing files and folders in Experience Manager Guides]
 
 Now, filter your Repository search results based on the current document state of the files. With the new **Document state** filter, you can narrow down your search using the available filter values defined in the `ui_config.json` file within your Folder profile.  
 
-![](assets/document-state-filter-repository.png){align="left"}
+![](assets/document-state-filter-repository.png)
 
 The default filter values available for Document state are: Draft, Edit, In-Review, Approved, Reviewed, and Done. For details on customizing the default document state filters values, view [Configure document state filters](../cs-install-guide/config-doc-state-filters.md). 
 
@@ -69,7 +69,7 @@ The default filter values available for Document state are: Draft, Edit, In-Revi
 
 All multimedia files are now displayed with thumbnail icons, making it easier to visually identify and locate images within the **Repository**. This enhancement also applies when searching for files in the **Search panel**, helping you quickly distinguish multimedia assets from other file types. 
 
-![](assets/thumbnail-repository.png){align="left"}
+![](assets/thumbnail-repository.png)
 
 ## Editor enhancements
 
@@ -81,11 +81,11 @@ Introducing the new **Refresh** functionality for maps that are already opened i
 
 - To refresh the entire map (including all topics), a new **Refresh** button is introduced on the top-left corner of the Editor. 
 
-    ![](assets/refresh-map.png){width="600" align="left"}
+    ![](assets/refresh-map.png){width="600"}
 
 - To refresh the content of individual topics, a new **Refresh topic** option is introduced in the context menu.
 
-    ![](assets/refresh-topic.png){width="600" align="left"}
+    ![](assets/refresh-topic.png){width="600"}
 
 For more details, view [Map editor features](../user-guide/map-editor-advanced-map-editor.md). 
 
@@ -97,7 +97,7 @@ Any changes to the metadata fields available under **File properties** will now 
 
 You can now track the word count present within a map or topic file. The new **Word count** field in the Right panel would display the total number of words present within a topic (or map), where words separated by spaces are counted as individual words. It refreshes automatically each time you save changes. For cross-references, only the display text is included, while keys are excluded.
 
-![](assets/file-properties-new.png){width="350" align="left"} 
+![](assets/file-properties-new.png){width="350"} 
 
 For details, view [Right panel in Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
@@ -122,7 +122,7 @@ Now, you can add new topics to an ongoing review task (if they were not previous
 
 On the **Task Details** page, you can simply select or unselect topics to modify the topic list. Reviewers are notified (via AEM and email) about any changes to their assigned topics through AEM and Email notifications. For more details, view [Send topics for review](../user-guide/review-send-topics-for-review.md).
 
-![](assets/modify-review-topics.png){width="650" align="left"}
+![](assets/modify-review-topics.png){width="650"}
 
 ## Translation enhancements
 
@@ -134,7 +134,7 @@ If a file contains unversioned changes (not saved as a new version in your map),
 
 For more details, view [Translate documents from the Map Console](../user-guide/translate-documents-web-editor.md). 
 
-![](assets/unversioned-changes-translation.png){width="650" align="left"}
+![](assets/unversioned-changes-translation.png){width="650"}
 
 ## Publishing enhancements
 

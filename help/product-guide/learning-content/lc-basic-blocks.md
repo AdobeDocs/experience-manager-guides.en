@@ -17,7 +17,7 @@ You can use the basic editing features available on the Editor toolbar, as descr
 
 - **Insert options**: Provides options to add [add interactive Widgets](./lc-widgets.md) such as Accordion, Carousel, HotSpot, Tabs, Flip cards, and Click to reveal, as well as [structural elements](./lc-other-insert-options.md) such as Iframe, Block Quotes, Code Block, and more. Use this menu to add functionality and variety to your learning content, making it engaging and well-structured.
 
-    ![](assets/insert-menu-options-lc.png){width="650" align="left"}
+    ![](assets/insert-menu-options-lc.png){width="650"}
 
 - **Text components**: Adds heading, paragraph, inline quote, superscript, subscript and citation to your content. 
 
@@ -25,27 +25,27 @@ You can use the basic editing features available on the Editor toolbar, as descr
     >
     > You can also include a Title and subtitle to your learning content. For details on how to add it in the content, view [Add title and subtitle to learning content](#add-title-and-subtitle-to-learning-content).
 
-    ![](assets/text-learning-content.png){width="650" align="left"}
+    ![](assets/text-learning-content.png){width="650"}
 
 - **Unordered list**: Adds an unordered list within your content.
 
-    ![](assets/unordered-list.png){width="650" align="left"}
+    ![](assets/unordered-list.png){width="650"}
 
 - **Ordered list**: Inserts a numbered list within your content.
 
-    ![](assets/ordered-list.png){width="650" align="left"}
+    ![](assets/ordered-list.png){width="650"}
 
 - **Table**: Inserts a table of required dimensions into the content. You can further manage various table properties using the **Content Properties** panel, as shown below.
 
-    ![](assets/table-learning-content.png){width="650" align="left"}
+    ![](assets/table-learning-content.png){width="650"}
 
 - **Image**: Insert images into the content along with alternate text and a screen tip. Images can be added from the repository or via an external URL. Additionally, image properties can be modified using the **Content Properties** panel.
 
-    ![](assets/image-learning-content.png){width="650" align="left"}
+    ![](assets/image-learning-content.png){width="650"}
 
 - **Multimedia**: Adds video and audio to the content. You can customize their properties using the **Content Properties** panel.
 
-    ![](assets/video-learning-content.png){width="650" align="left"}
+    ![](assets/video-learning-content.png){width="650"}
 
 - **Reusable content**: Enables you to incorporate existing content from your assets or repository for reusability. Perform the following steps to insert a Reusable content:
 
@@ -54,23 +54,23 @@ You can use the basic editing features available on the Editor toolbar, as descr
     2. Navigate and select the desired topic to include its content in the current course.
     3. Select the ID of the content you want to add; a preview will be displayed alongside for reference.
 
-        ![](assets/reuse-content-dialog.png){width="650" align="left"}
+        ![](assets/reuse-content-dialog.png){width="650"}
 
     4. Choose **Select**. 
 
     The content gets inserted. For example, the section on Vehicle structure is a content piece that is reused and added to the topic of the course. The type is shown as **Reference**, and its **ID** is reflected in the **Content properties** panel.
 
-    ![](assets/reusable-content.png){width="650" align="left"}
+    ![](assets/reusable-content.png){width="650"}
 
 
 - **Symbols**: Adds symbols of your choice to the content from a list as shown below.
 
-    ![](assets/symbol-learning-content.png){width="350" align="left"}
+    ![](assets/symbol-learning-content.png){width="350"}
 
 
 - **Hyperlinks**: Adds hyperlinks to the required location in your content. It can be a file reference, web URL, or an e-mail link as shown below. 
 
-    ![](assets/hyperlink-learning-content.png){width="650" align="left"}
+    ![](assets/hyperlink-learning-content.png){width="650"}
 
 Additionally, the **Menu** dropdown provides access to the editing actions (Cut, Copy, Delete), Find and replace and Version label.  
 

@@ -25,7 +25,7 @@ Perform the following steps to create a topic from the Editor:
 
 1. In the Repository panel, select the **New file** icon and then select **Topic** from the dropdown menu. 
 
-    ![](images/create-topic-option.png){width="500" align="left"}
+    ![](images/create-topic-option.png){width="500"}
     
     You can also access this option from the [Experience Manager Guides Home page](./intro-home-page.md) and the options menu of a folder in the Respository view. 
 
@@ -39,11 +39,11 @@ Perform the following steps to create a topic from the Editor:
     
 4. Select **Create**.
 
-    ![](images/create-topic-dialog-new.png){width="300" align="left"}
+    ![](images/create-topic-dialog-new.png){width="300"}
     
 The topic is created at the specified path. Also, the topic is opened in the Editor for editing. 
     
-![](images/new-topic-editor.png){align="left"}
+![](images/new-topic-editor.png)
 
 ## Create topics from the Assets UI 
 
@@ -55,7 +55,7 @@ Perform the following steps to create a topic from the Assets UI:
 
 1.  On the Blueprint page, select the type of DITA document you want to create and select **Next**.
 
-    ![](images/create_dita_topic.png){align="left"}
+    ![](images/create_dita_topic.png)
 
     By default, Experience Manager Guides provides the most commonly used DITA topics templates. You can configure more topic templates as per your organizational requirements, view *Configure authoring templates* in  Install and configure Adobe Experience Manager Guides for your setup.
 
@@ -79,7 +79,7 @@ Perform the following steps to create a topic from the Assets UI:
 
 1. Every new topic that you create from the Assets UI **Create** \> **DITA Topic** or the Editor is assigned a unique topic ID. The value of this ID is the file name itself. Also, a new document is saved as the latest working copy of the topic in DAM. Until you save a revision of a newly created topic, you will not view any version number in the Version History. If you open the topic for editing, the version information is shown in the right top corner of the toolbar:
 
-    ![](images/topic-version-none_cs.png){width="550" align="left"}
+    ![](images/topic-version-none_cs.png){width="550"}
 
 2. The version information for a newly created topic is shown as *none*. When you save a new version, then it is assigned a version number as 1.0. 
 

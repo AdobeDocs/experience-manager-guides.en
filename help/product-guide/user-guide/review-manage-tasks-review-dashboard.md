@@ -19,7 +19,7 @@ Perform the following steps to access and use the Review Dashboard:
 
     A Project panel with task tiles is displayed.
 
-    ![](images/review-management.png){align="left"}
+    ![](images/review-management.png)
 
     >[!NOTE]
     >
@@ -29,7 +29,7 @@ Perform the following steps to access and use the Review Dashboard:
 
     The Review Dashboard is displayed. The dashboard lists all review tasks that you have created.
 
-    ![](images/review-dashboard.png){align="left"}
+    ![](images/review-dashboard.png)
 
     The Review Dashboard displays the details about the review task such as the task name, who started the review, date when the review was started, due date, status, number of new comments that have not been accepted or rejected by the author, and name of reviewers. The tasks are listed in the order of newly created tasks to older tasks. 
     
@@ -52,7 +52,7 @@ Perform the following steps to access and use the Review Dashboard:
 
 ## Task tab 
 
-![](images/review-task-page.png){align="left"}
+![](images/review-task-page.png)
 
 You can perform the following actions under the **Task** tab:
 
@@ -75,7 +75,7 @@ You can perform the following actions under the **Task** tab:
 
 ## Content tab 
 
-![](images/review-content-page.png){align="left"}
+![](images/review-content-page.png)
 
 You can perform the following actions under the **Content** tab:
 
@@ -94,7 +94,7 @@ You can perform the following actions under the **Content** tab:
 
 ## Reviewers tab {#Reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){align="left"}
+![](images/reviewers-tab.png)
 
 You can perform the following actions under the **Reviewers** tab:
 
@@ -115,11 +115,11 @@ You can perform the following actions under the **Reviewers** tab:
 
 In Experience Manager Guides, each review task has a status that reflects its current status. From the Review Dashboard, you can access this information by selecting a task and choosing the **Status** option.
 
-![](images/review-dashboard-select-option.png){width="650" align="left"}
+![](images/review-dashboard-select-option.png){width="650"}
 
 This opens a status report of the review task as shown below:
 
-![](images/check-review-status-dashboard.png){width="650" align="left"}
+![](images/check-review-status-dashboard.png){width="650"}
 
 Alternatively, you can access the status report directly from the [Review panel](./web-editor-left-panel.md#review) in the Editor. Open an active review task from the Review panel, select **Update task** and choose **Check review status**. 
 

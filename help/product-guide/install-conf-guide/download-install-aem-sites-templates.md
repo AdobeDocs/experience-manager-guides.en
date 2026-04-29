@@ -63,14 +63,14 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
     1. Navigate to **Repositories** in the left panel of Cloud Manager.
     2. Select **Access Repo Info** and copy the git clone command.
 
-        ![Select Access Repo info](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
+        ![Select Access Repo info](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
     3. Clone the repository to your local system using the provided username and password (generate password if required).
 2. **Add Package to Maven Bundle:**
     1. In your locally cloned repository, create a new Maven bundle or add to an existing one.
     2. Ensure the structure `/jcr_root/apps/fmdita/` install exists in the Maven project.
 
-        ![Structure in Maven project](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
+        ![Structure in Maven project](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
 
     3. Place the downloaded guides-components.all-1.x.x.zip file in the install folder.
@@ -81,7 +81,7 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
     2. Add the following filter: filter root=`/apps/fmdita` mode=`merge`/
 
 
-        ![Add filter](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
+        ![Add filter](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
 
 4. **Configure pom.xml:** Update the pom.xml file as per your environment requirements.
@@ -109,7 +109,7 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
 2. **Select Template:** Select **AEMG Docs 1.x.x** and then select **Next**.
 3. **Enter Site Details:** Enter the **Site Title** and **Site Name**.
 
-    ![Create Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350" align="left"}
+    ![Create Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350"}
 
 4. Select **Create**.
 
@@ -123,7 +123,7 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
     5. Uncheck the **Use legacy component mapping** setting.
     6. Select **Add** to create the preset.
 
-        ![Create new AEM Site preset](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+        ![Create new AEM Site preset](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
     
 2. **Configure AEM Site Preset:** There are two options to configure the out-of-the-box (OOTB) site:
@@ -135,7 +135,7 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
         - Publish path: Cloud Service: `/content/AEMG-Docs-Site/en/docs/product` and On-Premise: `aemg-docs/en/docs/product1` 
         - Topic page template: Topic Page
 
-        ![Use the site dropdown to configure the AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
+        ![Use the site dropdown to configure the AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350"}
 
     **Option 2: Use the Site Path**
 
@@ -144,11 +144,11 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
 
         For Cloud Service:
 
-        ![Use the site path to configure the AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+        ![Use the site path to configure the AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650"}
 
         For On-Premise:
 
-        ![Use Site Path](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+        ![Use Site Path](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **Save the preset:** Save the changes made to the preset.
 
@@ -162,11 +162,11 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
     2. Create a new product page under the OOTB site structure.
     3. Navigate to **AEMG Docs** > **English** > **Docs**.
 
-        ![Create page](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650" align="left"}      
+        ![Create page](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650"}      
 
     4. Select the **Home page** tile and then select **Next**.
 
-        ![Select Home tile](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
+        ![Select Home tile](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650"}
 
     5. Enter the **Title** and **Name** for the page.
     6. Select **Create**.

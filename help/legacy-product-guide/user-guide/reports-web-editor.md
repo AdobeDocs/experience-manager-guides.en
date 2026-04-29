@@ -22,7 +22,7 @@ You can create a report of the topics by performing the following steps:
 1.  Click the **Manage** tab.
 1.  Double-click **Topic List** on the left. The list of topics present in the DITA map is displayed.
 
-    ![](images/web-editor-topiclist-panel.png){width="800" align="left"}
+    ![](images/web-editor-topiclist-panel.png){width="800"}
 
 1.  From the **Filters** Panel you can filter your topics based on the **Reference type** \(direct or indirect\), **Document State** \(the current state of your topics. For example if your topics are in Edit, In-Review, or Reviewed state, these are listed\) or the **Author** of the topic.
 
@@ -54,7 +54,7 @@ To view the metadata of your references in the current DITA map, perform the fol
 1.  Click the **Manage** tab.
 1.  Double-click **Metadata** on the left. The metadata list of all the references in the DITA map is displayed. This includes the media references also.
 
-    ![](images/web-editor-metadata-panel.png){width="800" align="left"}
+    ![](images/web-editor-metadata-panel.png){width="800"}
 
 1.  From the **Filters** panel you can filter your topics based on the **Document State** \(the current state of your topics. For example if your topics are in Edit, In-Review, or Reviewed state, these are listed\), **References** \(direct or indirect\), **File Type** \(Map, Topic, and Image\) of the reference.
 1.  You can also choose to view only the **Files with no tags** or also choose specific tags from the **Tags** filter to view the files associated with them.
@@ -89,7 +89,7 @@ To view the metadata of your references in the current DITA map, perform the fol
 
 1.  Select **Manage** from the top.
 
-    ![](images/web-editor-manage-metadata.png){width="350" align="left"}
+    ![](images/web-editor-manage-metadata.png){width="350"}
 
 1.  If you want to add any new tags, select new tags from the dropdown list to apply them to all selected topics. You can also delete any tag by clicking the cross icon near the tag.
 
@@ -111,11 +111,11 @@ The **Multimedia**report provides detailed information about the multimedia used
 
     -   When you order by **Multimedia**, the****name of the multimedia is displayed in the first column and then the names of all references in which they have been used, are displayed in another column on the same row. For example, the following screenshot shows the multimedia WarmCoolForC.gif in the first column and three references in which it is used, are displayed in the third column on the same row.
 
-        ![](images/multimedia-report-file-order.png){width="650" align="left"}
+        ![](images/multimedia-report-file-order.png){width="650"}
 
     -   If you order by **Used In** column, you will view the transposed view wherein the names of the references in which multimedia have been used are listed in the first column while the multimedia names are listed in another column on separate rows. For example, the following screenshot shows the names of three references \(Adjust the seat temperature, Change the seat temperature display, and Crew area\) in the first column and the multimedia WarmCoolForC.gif is displayed in the third column on three separate rows.
 
-        ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
+        ![](images/multimedia-report-used-in-order.png){width="650"}
 
 1.  You can filter your multimedia based on the **Multimedia Type**, and **Reference Type**. The list of multimedia files is displayed based on your selection in the drop-down. For example, you can choose to display only the audio references in your DITA map, and a file shows only the audio references used in it.
 
@@ -137,7 +137,7 @@ The **Multimedia**report provides detailed information about the multimedia used
 
 1.  You can also click and play an audio or video file in the Web Editor. You can change the volume or the view of the video. In the shortcut menu you also have the options to download, change playback speed, or view picture in picture.
 
-    ![](images/video-web-editor.png){width="800" align="left"}
+    ![](images/video-web-editor.png){width="800"}
 
 1.  Click **Download CSV** to download the current snapshot of the multimedia in the DITA map. The CSV contains the selected columns and the multimedia filtered in the **Multimedia** view. You can then open this multimedia CSV file in any CSV editor.
 
@@ -153,10 +153,10 @@ You can view the report for broken links by performing the following steps:
 1. From the **Filters** panel you can order the list by links or by the names of used in references.
 
     – When you order by **Broken Link**, the paths of the broken links are displayed in the first column and then the names of all references in which they have been used, are displayed in another column on separate rows. If the same broken link is used in multiple files, then they are displayed on one row and are shown as grouped or sub-rows. For example, the following screenshot shows three broken links in the first column and the reference in which they are used, `TestMap.ditamap` is displayed in the third column on three separate rows.
-    ![](images/broken-link-report.png){width="800" align="left"}
+    ![](images/broken-link-report.png){width="800"}
  
     – If you order by **Used In** column, you will view the transposed view wherein the names of the references in which the broken links have been used are listed in the first column while the broken links are listed in another column on the same row. For example, the following screenshot shows the reference (in which the broken link is used) `TestMap.ditamap` in the first column and the broken links are displayed in the third column on the same row.
-    ![](images/broken-link-filter-usedin.png){width="800" align="left"}
+    ![](images/broken-link-filter-usedin.png){width="800"}
 1. You can filter your broken links based on the **File Type** and **Link Type**. The list of broken links is displayed based on your selection in the drop-down. For example, you can choose to display only the content references in your DITA map, and a file shows only the content references used in it.
 
     Depending on the type of references used in your map, File reference, Key reference, Content Reference, Content Key Reference, Image Reference, and Multimedia File Reference are listed in the **Link Type** drop-down, and **DITA Topic** or **DITA Map** are listed in the **File Type** dropdown.

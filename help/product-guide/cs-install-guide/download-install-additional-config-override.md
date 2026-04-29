@@ -53,7 +53,7 @@ Perform the following steps to configure Experience Manager Guides UI:
 5. Select **Add/Update**.
 6. Add the UI configuration details. Ensure you are using the same name and configuration as given in the following screenshot.
 
-    ![](assets/enable-penultimate-ui.png){width="800" align="left"}
+    ![](assets/enable-penultimate-ui.png){width="800"}
 
     Setting the value to **true** retains the old UI, while **false** activates the new UI.
 

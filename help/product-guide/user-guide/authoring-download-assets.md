@@ -22,7 +22,7 @@ Perform the following steps to download a DITA map file from the Editor:
 
     The **Download map** dialog is displayed. 
 
-    ![](images/download-map-dialog-new.png){width="300" align="left"}
+    ![](images/download-map-dialog-new.png){width="300"}
 
 1. In the Download Map dialog, you can choose the following options:
 
@@ -51,7 +51,7 @@ Perform the following steps to download a DITA map file from the Editor:
 
     You will receive the following notification once the map is ready to download.
 
-    ![](images/download-map-success-message.png){width="550" align="left"}
+    ![](images/download-map-success-message.png){width="550"}
 
 1. Select **Download** to download the map file in `.zip` format. Or, download it later from the AEM inbox. 
 
@@ -77,7 +77,7 @@ Perform the following steps to download a DITA map file along with its dependent
 
     The Download Map dialog appears.
 
-    ![](images/download-map.png){width="300" align="left"}
+    ![](images/download-map.png){width="300"}
 
 1.  Select **Download**. In the Download Map dialog, you can choose the following options:
 
@@ -92,7 +92,7 @@ Perform the following steps to download a DITA map file along with its dependent
 
 1.  After you select the **Download** button, the map download request is queued. You will receive the following notification once the map is ready to download.
 
-    ![](images/download-map-prompt.png){width="550" align="left"}
+    ![](images/download-map-prompt.png){width="550"}
 
     -   Select **Download** to download the map file in.zip format.
 
@@ -102,7 +102,7 @@ Perform the following steps to download a DITA map file along with its dependent
     >
     > By default, the downloaded maps remain for five days in the Adobe Experience Manager notification Inbox.
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 Once the map is downloaded, you can select the map and use the Open icon on the top to open the downloaded content. 
 

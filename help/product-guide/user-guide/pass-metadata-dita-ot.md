@@ -22,7 +22,7 @@ Perform the following steps to pass on the metadata to the output using DITA-OT 
 1.  Select and open an output preset to which you want to pass the metadata fields. For example, select PDF output preset. Ensure that it is created using the **DITA-OT** option.    
 1.  From the **File properties** dropdown select the metadata that you want to pass to DITA-OT publishing.
 
-    ![](images/custom-metadata-output-preset-new.png){align="left"}
+    ![](images/custom-metadata-output-preset-new.png)
 
     Properties dropdown lists both the custom and the default properties. For example, in the above screenshot `dc:description`, `dc:language`, `dc:title`, and `docstate` are the default properties.
 
@@ -36,7 +36,7 @@ Perform the following steps to pass on the metadata to the output using DITA-OT 
 
 1.  The selected properties are listed below the dropdown.
 
-    ![](images/metadata-added-dropdown.png){width="300" align="left"}
+    ![](images/metadata-added-dropdown.png){width="300"}
 
 1.  Select **Save** on the top right to save the changes.
 1.  Select **Generate output**. 
@@ -55,7 +55,7 @@ If working on the **Assets UI**, perform the following steps to pass on the meta
 1. Select and edit an output preset to which you want to pass the metadata fields. For example, select PDF output preset.
 1. Select **DITA-OT** option in the selected output preset.
 
-    ![](images/custom-meta-data-output-preset.png){align="left"}
+    ![](images/custom-meta-data-output-preset.png)
 
 1. From the Properties drop down select the metadata that you want to pass to DITA-OT publishing.
 
@@ -71,7 +71,7 @@ If working on the **Assets UI**, perform the following steps to pass on the meta
 
 1.  From the **Properties** dropdown, select the required custom and default properties. For example, select `author`, `dc:title`, and `dc:description`. These are the standard `metadata/properties` that gets created once we create a file. The selected properties are listed below the dropbox.
 
-    ![](images/selected-metadata-properties.png){width="300" align="left"}
+    ![](images/selected-metadata-properties.png){width="300"}
 
 1.  Select **Done** on the top left to save the changes.
 1.  Generate the output.

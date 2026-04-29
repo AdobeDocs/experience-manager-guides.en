@@ -15,7 +15,7 @@ Perform the following steps to view the output generation queue:
 
 1.  Select Outputs.
 
-    ![](images/output-queued-fm.png){align="left"}
+    ![](images/output-queued-fm.png)
 
 1.  The Outputs page is divided into two parts:
 

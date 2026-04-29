@@ -39,7 +39,7 @@ To create a review task and send topics for review, perform the following steps:
 
 1.  Choose the **Select** icon in the quick action and select the topics you want to send for review.
 
-    ![](images/select-asset-62.png){width="300" align="left"}
+    ![](images/select-asset-62.png){width="300"}
 
 1.  In the toolbar, select **Create Review Task**. The review task creation page is displayed.
 
@@ -94,7 +94,7 @@ To create a review task and send topics for review, perform the following steps:
 
     The Content page is displayed.
 
-    ![](images/content_page_review.png){align="left"}
+    ![](images/content_page_review.png)
 
 1. On the Content page, select a version of the topic that you want to share for review.
 
@@ -115,7 +115,7 @@ To create a review task and send topics for review, perform the following steps:
 
     The Reviewers page is displayed wherein you can add or remove reviewers. By default, the reviewers added in the Assign To field are auto-added to each topic selected for the review.
 
-    ![](images/add-reviewers-topics.png){width="650" align="left"}
+    ![](images/add-reviewers-topics.png){width="650"}
 
 1. On the Reviewers page, you can add or remove reviewers. The following operations are available on the Reviewers page:
 
@@ -213,7 +213,7 @@ To send one or multiple topics along with the map file for review, perform the f
 
     The Content page is displayed with all topics referenced from the map file. If your DITA map contains nested maps, then topics from the nested maps are also listed here.
 
-    ![](images/content-page-map-review.png){align="left"}
+    ![](images/content-page-map-review.png)
 
 1. On the Content page, select a version of the topic that you want to share for review.
 

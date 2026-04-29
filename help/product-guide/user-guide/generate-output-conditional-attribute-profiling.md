@@ -39,7 +39,7 @@ To define conditional attributes, perform the following steps:
 
     The following screenshot shows the definition for the `platform` attribute with value of `unix` and a label of `Red Hat Linux`.
 
-    ![](images/add-profile-new.png){align="left"}
+    ![](images/add-profile-new.png)
 
 1.  If you want to add more values for the same attribute, select the **+** icon and enter additional value and label.
 
@@ -50,6 +50,6 @@ To define conditional attributes, perform the following steps:
 
 The `platform` attribute is stored in the system. Whenever an author decides to use the `platform` attribute in a DITA topic in a folder, they can view the values in the Properties tab in the Editor.
 
-![](images/properties-tab.png){width="350" align="left"}
+![](images/properties-tab.png){width="350"}
 
 **Parent topic:**[Output generation](generate-output.md)

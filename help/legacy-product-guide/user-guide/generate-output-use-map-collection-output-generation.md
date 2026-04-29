@@ -22,7 +22,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
     If the Map Collections link is not available, then select the **Navigation** option in the left rail, and then click **Map Collections**.
 
-    ![](images/access-map-collection-left-rail.png){width="350" align="left"}
+    ![](images/access-map-collection-left-rail.png){width="350"}
 
 1.  Enter a Title for your map collection.
 1.  Click **Create**.
@@ -44,7 +44,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
     The DITA map files are added to your Map Collection.
 
-    ![map collection dashboard](./images/map-collection-dashboard.png){width="800" align="left"}
+    ![map collection dashboard](./images/map-collection-dashboard.png){width="800"}
 
 The following filtering options and map details are shown on the collection page:
 
@@ -83,7 +83,7 @@ To configure and generate the output using a Map Collection, perform the followi
     - Enable any individual preset. 
     - Enable **All presets** for a DITA map to select all presets in one go. This option is disabled by default.
     - Enable **Folder profile presets** for a DITA map to select all the folder profile presets for it. This option is disabled by default.
-   ![edit a map collection on cloud services](images/edit-map-collection-cs.png){width="800" align="left"}
+   ![edit a map collection on cloud services](images/edit-map-collection-cs.png){width="800"}
         
     
 
@@ -100,7 +100,7 @@ To configure and generate the output using a Map Collection, perform the followi
 
 In the map collection, you can configure the metadata properties in bulk for the DITA maps. Select **Configure Metadata**  to open the **Asset Metadata** page. On the **Asset Metadata** page, all the maps present in the collection are listed on the left. 
 
-![configure metadata](images/map-collection-asset-metadata.png){width="800" align="left"}
+![configure metadata](images/map-collection-asset-metadata.png){width="800"}
 
 Perform the following steps to configure the metadata properties:
 
@@ -135,6 +135,6 @@ This will also remove any presets or locales associated with the DITA map from t
 
 Similar to the way of canceling an output generation task from the [DITA map console](generate-output-for-a-dita-map.md#id2061H100T5Z) or the [Publish Dashboard](generate-output-publish-dashboard.md#), you can cancel an output generation task from a Map Collection. Access the Outputs tab of a Map Collection, and go to the publish task that you want to cancel, and click the **Cancel This Job** icon to cancel the publish task.
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){width="800"}
 
 **Parent topic:**[Output generation](generate-output.md)

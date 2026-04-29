@@ -14,12 +14,12 @@ As an Administrator, you can also configure the following settings for the Learn
 
     You can access Snippets from the left panel in the Editor.  
 
-    ![](assets/create-snippets.png){width="350" align="left"}
+    ![](assets/create-snippets.png){width="350"}
 - **Conditions**: As an Administrator, you can configure standard DITA-supported conditional attributes at the global or folder levels. Authors then use configured conditions by simply dragging and dropping the desired condition onto their content.  
 
     You can access Conditions from the left panel in the Editor.  
 
-    ![](assets/create-conditions.png){width="350" align="left"}
+    ![](assets/create-conditions.png){width="350"}
 - **Variables**: You can define variables to make your content more portable, consistent, and easier to update. During output generation, variables are replaced with the values from the selected variable set, allowing you to produce customized outputs efficiently. 
 
     For details, view [Create a new variable](../native-pdf/native-pdf-variables.md#create-a-new-variable)  

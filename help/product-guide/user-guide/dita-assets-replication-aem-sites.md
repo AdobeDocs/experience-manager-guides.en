@@ -9,7 +9,7 @@ exl-id: 71aec782-2cc1-4fd5-b35b-97a603c3dd48
 
 When the output generated from DITA content are published using **Quick Publish** or **Manage Publication** on some publish environment, AEM also attempts to publish the associated DITA source assets, such as DITA maps and, in some cases, DITA topics. This occurs because AEM treats DITA assets as dependencies of the generated Sites pages. 
 
- ![](images/quick-publish-site-instance.png){width="350" align="left"}
+ ![](images/quick-publish-site-instance.png){width="350"}
 
 To prevent the unintended replication of DITA content to the publish environment and to avoid performance issues, Administrators must explicitly manage DITA asset replication through the Configuration Manager. This configuration enables administrators to control the replication of supported DITA asset types, including DITA maps, DITA topics, XML files, and Markdown (.md) files. 
 

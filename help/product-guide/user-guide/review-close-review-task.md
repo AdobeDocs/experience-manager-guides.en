@@ -36,7 +36,7 @@ As the initiator of the review task, you can then decide how to proceed based on
 
     The **Task comments** dialog is displayed on the right. 
 
-    ![](images/task-comments-dialog-editor.png){width="350" align="left"}.
+    ![](images/task-comments-dialog-editor.png){width="350"}.
 4. Select **Update task** to take further action on the selected review task.      
 5. In the **Update task** dialog, choose one of the following actions:
     
@@ -46,22 +46,22 @@ As the initiator of the review task, you can then decide how to proceed based on
     
     For details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md).
 
-    ![](images/update-task-dialog.png){width="350" align="left"}
+    ![](images/update-task-dialog.png){width="350"}
     
     You can also [check the status of your review task](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) using the **Check review status** option present in the Update task dialog. Selecting this option takes you to Review dashboard where the status report of your review task is displayed. 
     
-    ![](images/check-review-status-icon.png){width="650" align="left"}
+    ![](images/check-review-status-icon.png){width="650"}
       
 6. Select **Confirm**.
 
 
 As an Author or initiator of a review task, when you close the task, the **Update task** button present at the bottom of the Review panel is changed to **Closed**, indicating the task is no longer active. 
 
- ![](images/review-task-status-closed-review-panel.png){width="350" align="left"}
+ ![](images/review-task-status-closed-review-panel.png){width="350"}
     
 Also, the **Update task** button present in the Review panel remains disabled for the other users of the review task. For example, as one of the reviewers of a review task, if you open the task in the Editor, the Update task button will be disabled with a message **You don't have permission to act on this task**. Only the initiator of a review task has permission to update the task from the Editor. 
 
- ![](images/update-task-button-disabled.png){width="350" align="left"}
+ ![](images/update-task-button-disabled.png){width="350"}
 
 
 

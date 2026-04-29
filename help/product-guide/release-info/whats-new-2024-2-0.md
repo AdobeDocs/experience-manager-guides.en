@@ -21,7 +21,7 @@ Now, you can enhance your authoring journey with Smart Suggestions, a new AI-bas
  
 To keep your content correct and consistent, the search and suggestions are limited to the content owned by your organization and closely matched to the keywords that you search for.  
 
-![Smart suggestions panel in the Web Editor ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+![Smart suggestions panel in the Web Editor ](assets/web-editor-smart-suggestion.png) {width="800"}
 
 
 *View Smart Suggestions to find and add matching content references from your content repository.*
@@ -36,7 +36,7 @@ Learn more about [AI-powered Smart suggestions to author content](../user-guide/
 
 Now Experience Manager Guides provides an enhanced version history feature which allows you to compare the changes made to a document over time. In the new side by side view, you can easily compare the content and the metadata of the current version with any previous version of the same document. You can also view the labels and comments for the compared versions. As an administrator, you can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box. 
 
-![Version history dialog box](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+![Version history dialog box](assets/version-history-dialog-web-editor.png){width="800"}
   *Preview the changes in the different versions of a topic.*
 
 
@@ -46,7 +46,7 @@ Learn more about the **Version History** feature description in the [Left Pane
 
 The **Translation** panel has been improved.  You can view the **Available Languages** list and quickly select the locale in which you want to translate your project. With a single selection, you can also choose **Select all** to translate your project into all the available languages.
 
-![translation panel](assets/translation-languages-4.4.png){width="300" align="left"}
+![translation panel](assets/translation-languages-4.4.png){width="300"}
 
 *Select the locales in which you want to translate your project. Choose the default, baseline, or the latest version of files for translation.*
 
@@ -61,7 +61,7 @@ For example, while editing a paragraph you want to insert an element, then you c
 all valid elements that begin with ‘t’.
 
 
-![Insert dialog box](assets/insert-element.png){width="300" align="left"}
+![Insert dialog box](assets/insert-element.png){width="300"}
 
 *Type a character to search for all valid elements that begin with the character.*
 
@@ -73,7 +73,7 @@ For more details, view the **Insert Element** feature description in the [Left
 
 Now, you can easily split your list in the Web Editor. Select the **Split List** option from the context menu of a list item to split the current list. A new list is created at the same level, starting with the list item you selected for the split.  
 
-![translation panel](assets/context-menu-split-list.png){width="300" align="left"}
+![translation panel](assets/context-menu-split-list.png){width="300"}
 
 *Select the option to split the current list.*
 

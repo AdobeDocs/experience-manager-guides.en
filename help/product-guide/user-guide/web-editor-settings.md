@@ -29,7 +29,7 @@ The **Workspace settings** option present in the [Tab bar](./web-editor-tab-bar.
 
  The General settings allow you to configure the settings to use the Editor. This tab contains five sections: **AI Assistant**, **Authoring**, **Citations**, **Condition**, and **Spell check**.
 
-![](images/editor-setting-general.png){width="350" align="left"}
+![](images/editor-setting-general.png){width="350"}
 
 - **AI Assistant**
     Select this to enable the [AI Assistant](./ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
@@ -44,7 +44,7 @@ The **Workspace settings** option present in the [Tab bar](./web-editor-tab-bar.
 
     - change the order in which the options appear, drag and drop them as needed.  
 
-    ![](images/authoring-quick-actions-new.png){width="350" align="left"} 
+    ![](images/authoring-quick-actions-new.png){width="350"} 
 
     
 
@@ -64,7 +64,7 @@ The **Workspace settings** option present in the [Tab bar](./web-editor-tab-bar.
 
     -  **Show key with the title in the Subject Scheme panel**: Select this to show the keys along with titles in the subject scheme. If you do not select this option only the titles are shown. For example, here the keys 'os', 'audience', and 'other' are also shown along with titles.
 
-        ![](images/subject-scheme-title.png){width="550" align="left"}
+        ![](images/subject-scheme-title.png){width="550"}
 
     -  **Show subject scheme in the Conditions panel**: Select this to view a subject scheme in the conditions panel. If you deselect this, the defined conditions are shown in the conditions panel.
 
@@ -76,11 +76,11 @@ The **Workspace settings** option present in the [Tab bar](./web-editor-tab-bar.
 
 This setting controls the panels that are shown in the left and right panels of the Editor and Map console. You can toggle the button to show or hide the desired panel. 
 
-![](images/editor-setting-panel.png){width="650" align="left"}
+![](images/editor-setting-panel.png){width="650"}
 
 You can also define the order in which the features present in panels are displayed. To change the default order of the available features in the panels, select the dotted bars to drag and drop the feature tabs at the desired location. A feature can also be moved from the **More** section to the main section of a panel, and vice versa as per the requirement. Once re-ordered, the features appear in the same sequence in the respective right and left panel. 
 
-![](images/panels-screen.png){width="650" align="left"}
+![](images/panels-screen.png){width="650"}
 
 
 A maximum of eight panels can be displayed at a time. Any changes made to the panel settings are applied immediately. 
@@ -94,23 +94,23 @@ A maximum of eight panels can be displayed at a time. Any changes made to the pa
 
 As an administrator, you can control the list of elements that an author can insert into a file and also define the display name for the element. The Elements list setting allows you to specify the element's name as per DITA specifications and a label that you want to use instead of the DITA defined element name:
 
-![](images/editor-setting-element-list.png){width="650" align="left"}
+![](images/editor-setting-element-list.png){width="650"}
 
 In the above screenshot, the `p` element has been given a label of Paragraph, and `codeblock` is given a label of Code Block along with some other elements.. If you select the **Use only above elements** option, then only the valid elements \(at current insertion point\) from this list will be shown in the **Insert element** dialog box.
 
 In the following screenshot, only 3 out of 4 configured elements from the previous screenshot are shown in the current context:
 
-![](images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](images/editor-setting-insert-element-list.PNG){width="300"}
 
 ## Attributes list
 
 Similar to the elements list, you can control the list of attributes and their display names to be displayed in the attributes list of an element. In the following screenshot, only 3 attributes have been configured to be shown in an element's attribute list:
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+![](images/editor-setting-attributes-list.png){width="650"}
 
 With this setting, when you try to add an attribute to an element, you only view the list of attributes configured in the list.
 
-![](images/editor-setting-add-attributes-list.png){width="300" align="left"}
+![](images/editor-setting-add-attributes-list.png){width="300"}
 
 
 ## Colors
@@ -142,7 +142,7 @@ This contains the Profiles that can be used to publish the **Knowledge Base** ou
 
   - To create a Salesforce profile, select the **Salesforce** Knowledge Base from the **Server type** dropdown. Enter a profile Name. In the **Site URL**, enter the consumer site you would use to publish the output and then add the **Consumer Key** and **Consumer Secret** provided by the Salesforce consumer site. Then, **Validate** and **Save** the newly created profile.
 
-    ![salesforce publish profile in workspace settings](./images/salesforce-publish-profile.png){width="550" align="left"}
+    ![salesforce publish profile in workspace settings](./images/salesforce-publish-profile.png){width="550"}
 
     >[!NOTE]
     >
@@ -167,7 +167,7 @@ Configure the ServiceNow server to upload the assets.
 
 - To create a profile, select the ServiceNow Knowledge Base from the **Server type** dropdown. Enter a profile **Name**. In the **ServiceNow URL**, enter the consumer site you would use for publishing the output and then add the **Username** and **Password** provided by the ServiceNow consumer site. Then, **Validate** and **Save** the newly created profile.
  
-    ![ServiceNow publish profile](./images/service-now-publish-profile.png){width="550" align="left"}
+    ![ServiceNow publish profile](./images/service-now-publish-profile.png){width="550"}
 
    After you validate, you can select the Publish Profile in the output presets of a DITA Map and use it to generate the output to the  **Salesforce** or **ServiceNow** server that you have chosen. 
 
@@ -184,7 +184,7 @@ This tab contains options to configure the Schematron validations in the Editor.
     >
     > The selected Schematron file(s) will persist for the selected folder profile.
 
-    ![Validation in workspace settings](./images/editor-setting-validation.png){width="550" align="left"}
+    ![Validation in workspace settings](./images/editor-setting-validation.png){width="550"}
 
     This prevents the users from saving any file which breaks a rule defined in the selected Schematron file(s). If this is not selected the file will not be validated before saving the changes.
 
@@ -197,13 +197,13 @@ Like the Attributes list, you can control the list of  attributes to be displaye
 
 The attributes defined for an element are displayed in the Layout and the Outline view.
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+![](images/editor-settings-display-attributes.png){width="550"}
 
 ## Translation
 
 This tab contains the options to create language groups, propagate the source labels to the target version, and clean up the translation project. 
 
-![](images/editor-setting-translation.png){width="550" align="left"}
+![](images/editor-setting-translation.png){width="550"}
 
 - **Language Groups**: As an administrator, you can create a group of languages and use them as a set to translate the content.    
 
@@ -244,7 +244,7 @@ The metadata can be picked from any property under the `/jcr:content` node of th
 An error is displayed if the metadata path is blank. If you leave the label blank, the last element is picked as the label.     
 
 
-![metadata tab in the workspace settings](images/editor-setting-metadata.png){width="550" align="left"}
+![metadata tab in the workspace settings](images/editor-setting-metadata.png){width="550"}
 
 *Configure the metadata for the **Version History** dialog box.*
  

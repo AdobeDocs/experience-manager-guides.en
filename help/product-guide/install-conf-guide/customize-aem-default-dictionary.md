@@ -47,7 +47,7 @@ Authors would need to restart their Web Editor session to get the custom words l
 
     The following screenshot shows custom words list added to the user\_dictionary.txt file:
 
-    ![](assets/custom-words-list-dictionary.png){width="650" align="left"}
+    ![](assets/custom-words-list-dictionary.png){width="650"}
 
 1.  Save and close the file.
 

@@ -27,7 +27,7 @@ Perform the following steps to view the Content Reuse Report:
 
 1.  Select **Generate Report** to get the Content Reuse Report.
 
-    ![](images/content-reuse-uuid.png){align="left"}
+    ![](images/content-reuse-uuid.png)
 
     The report page is divided into two parts:
 

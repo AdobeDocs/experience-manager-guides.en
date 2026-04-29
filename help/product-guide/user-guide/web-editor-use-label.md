@@ -20,14 +20,14 @@ Perform the following steps to add a label to your topic from the Editor:
 1. In the Repository panel, navigate to a topic and open it in the Editor.
 1. Select **Version label** from the **Menu** dropdown.  
 
-    ![](images/version-label-option.png){width="400" align="left"}
+    ![](images/version-label-option.png){width="400"}
 
     The **Version Label Management** dialog is displayed. 
 
 1. In the **Version Label Management** dialog, select a version where you want to add a label.
 1. Select a label for the selected version and select **Add Label**. 
 
-    ![](images/version-label-management-dialog-new.png){width="650" align="left"}
+    ![](images/version-label-management-dialog-new.png){width="650"}
 
     >[!NOTE]
     >
@@ -36,7 +36,7 @@ Perform the following steps to add a label to your topic from the Editor:
 
     The labels are displayed in the Version History of the selected topic. 
 
-    ![](images/label-comparison-version-history.png){width="650" align="left"}
+    ![](images/label-comparison-version-history.png){width="650"}
 
     >[!NOTE]
     >
@@ -44,7 +44,7 @@ Perform the following steps to add a label to your topic from the Editor:
 
 To delete a version label from a topic, use the **Remove** icon provided against each label added in the Version Label Management dialog. 
 
-![](images/remove-version-label.png){align="left"}
+![](images/remove-version-label.png)
 
 
 ## Working with labels from the Assets UI
@@ -64,7 +64,7 @@ Perform the following steps to add a label to your topic from the Assets UI:
 
     The labels are displayed in the Version History of the selected topic. The following screenshot displays the labels *x.x Release* and *User Guide* added to the highlighted version of the topic.
 
-    ![](images/labels.png){width="300" align="left"}
+    ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Perform the following steps to add a label to your topic from the Assets UI:
 
 To delete a version label from a topic, use the **Delete** button provided against each label in the Version History panel.
 
-![](images/delete-labels.png){width="300" align="left"}
+![](images/delete-labels.png){width="300"}
 
 
 **Parent topic:**[Introduction to Editor](web-editor.md)

@@ -19,7 +19,7 @@ Now, AEM Guides allows your administrator to configure the out-of-the-box connec
 
 Once added, you can view the configured connectors listed under the **Data Sources** panel in the Web Editor.
  
-![](assets/code-snippet-generator.png){width="300" align="left"}
+![](assets/code-snippet-generator.png){width="300"}
 
 You can create a content snippet generator to fetch the data from a connected data source. You can then insert the data into your topics and edit it. 
 
@@ -32,7 +32,7 @@ Once you have created a content snippet generator, you can reuse it to insert th
 Now AEM Guides makes your reviews more seamless. It provides the Reviews panel within the Web Editor. The Reviews panel displays all the review projects and the active review tasks within the review projects that you're part of.  
 
 As an author, this feature helps you easily open the review tasks, view the comments, and quickly address the comments in a centralized view. 
-![](assets/active-review-task-comments.png){width="800" align="left"} 
+![](assets/active-review-task-comments.png){width="800"} 
 For more details, view the **Review** feature description within the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
 
@@ -43,7 +43,7 @@ A Map Collection helps you organize multiple maps and batch publish them. Many n
 - Now, you can also add Native PDF output presets to a map collection and use them to generate the PDF output. 
 - You can view the global and folder profile presets created by your administrator and use them to generate the PDF output. 
 - Now, you can not only select an individual preset, but you can also enable all the folder profile presets for a DITA map in one go.
-![](assets/edit-map-collection.png){width="800" align="left"}   
+![](assets/edit-map-collection.png){width="800"}   
 
 For more details, view [Use Map Collection for output generation](../user-guide/generate-output-use-map-collection-output-generation.md).
 
@@ -53,7 +53,7 @@ Now AEM Guides allows you to download the temporary HTML files created while gen
 
 This feature enables better insights into the generation process with access to interim styles and layouts and helps you correct or change your CSS styles according to your requirements. 
 
-![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
+![](assets/native-pdf-advanced-settings.png){width="800"}
 
 For more details, view [Create a PDF output preset](../web-editor/native-pdf-web-editor.md#create-output-preset).  
 
@@ -67,4 +67,4 @@ For more details, view [Configure microservice-based publishing for AEM Guides a
 
 Now along with the AEM **About** information, you can also view the AEM Guides version details. You can view the current version details in the **About** option of the **Help** on the AEM Navigation page. 
 
-![](assets/about-aem-help.png){width="800" align="left"}
+![](assets/about-aem-help.png){width="800"}
