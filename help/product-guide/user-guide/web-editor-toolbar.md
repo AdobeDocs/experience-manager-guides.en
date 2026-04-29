@@ -313,13 +313,14 @@ You can also type a character or string in the search box and search for the ele
 If you are working inside a block element like a `note`, then use the Insert element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
 
 >[!BEGINTABS] 
->[!TAB Old Editor] 
-
-![Insert element in a block element](images/note-in-para-insert-element_cs.png){  align="left"}
 
 >[!TAB New Editor] 
 
 ![Insert element in a block element](images/note-in-para-insert-element_cs-editor-2-0.png){  align="left"}
+
+>[!TAB Old Editor] 
+
+![Insert element in a block element](images/note-in-para-insert-element_cs.png){  align="left"}
 
 >[!ENDTABS] 
 
@@ -328,13 +329,15 @@ If you press Enter in the note element, a new paragraph is created within the no
 You can also add an element between two elements when a blinking block cursor appears. 
 
 >[!BEGINTABS] 
->[!TAB Old Editor] 
-
-![](images/Block-cursor.png){width="300" align="left"}
 
 >[!TAB New Editor] 
 
 ![](images/Block-cursor-editor-2-0.png){width="300" align="left"}
+
+>[!TAB Old Editor] 
+
+![](images/Block-cursor.png){width="300" align="left"}
+
 
 >[!ENDTABS] 
 
@@ -532,13 +535,15 @@ If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then yo
 > As per standard DITA behavior, the scope=`external` attribute must not be applied to internal links, as it is intended only for references to external resources. Applying this attribute to internal links may disrupt workflows. For content managed in Experience Manager Guides, use the default scope=`local` or key-based references instead.
 
 >[!BEGINTABS] 
->[!TAB Old Editor] 
 
-![](images/ref-link-uuid_cs.png){  align="left"}
 
 >[!TAB New Editor] 
 
 ![](images/ref-link-uuid_cs-editor-2-0.png){  align="left"}
+
+>[!TAB Old Editor] 
+
+![](images/ref-link-uuid_cs.png){  align="left"}
 
 >[!ENDTABS] 
 
@@ -658,13 +663,13 @@ The version number changes with every new version that is created for the topic 
 
 >[!BEGINTABS] 
 
->[!TAB Old Editor]     
-
-![](images/version-information.png){  align="left"}
-
 >[!TAB New Editor]    
 
 ![](images/version-information-editor-2-0.png){  align="left"}
+
+>[!TAB Old Editor]     
+
+![](images/version-information.png){  align="left"}
 
 >[!ENDTABS] 
 
@@ -673,13 +678,14 @@ The version number changes with every new version that is created for the topic 
 
 >[!BEGINTABS] 
 
->[!TAB Old Editor]     
-    
-![](images/save-as-new-version.png){  align="left"}
 
 >[!TAB New Editor]     
 
 ![](images/save-as-new-version-editor-2-0.png){  align="left"}
+
+>[!TAB Old Editor]     
+    
+![](images/save-as-new-version.png){  align="left"}
 
 >[!ENDTABS] 
 
@@ -703,13 +709,14 @@ If your topic is under review, your reviewers will get a notification saying tha
 When you hover your pointer over a topic's title, you are shown the file title, file path, and the version number.
 
 >[!BEGINTABS] 
->[!TAB Old Editor] 
-
-![](images/mouse-hover-on-title_cs.png){  align="left"}
 
 >[!TAB New Editor] 
 
 ![](images/mouse-hover-on-title_cs-editor-2-0.png){  align="left"}
+
+>[!TAB Old Editor] 
+
+![](images/mouse-hover-on-title_cs.png){  align="left"}
 
 >[!ENDTABS] 
 
@@ -722,13 +729,14 @@ When you hover your pointer over a topic's title, you are shown the file title, 
 Locks or unlocks the current file. Locking a file gives you an exclusive write access to the file. This restricts other users from editing the file. Unlock the file if you want others to have editing access. When the file is unlocked, the changes are saved in the current version of the file.
 
 >[!BEGINTABS] 
->[!TAB Old Editor] 
-
-![](images/web-editor-lock-button.png){  align="left"}
 
 >[!TAB New Editor] 
 
 ![](images/web-editor-lock-button-editor-2-0.png){  align="left"}
+
+>[!TAB Old Editor] 
+
+![](images/web-editor-lock-button.png){  align="left"}
 
 >[!ENDTABS] 
 
