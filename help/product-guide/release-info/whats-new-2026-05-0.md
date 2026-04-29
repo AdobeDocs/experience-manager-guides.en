@@ -29,27 +29,27 @@ The New Editor brings the following enhancements to make authoring easier and mo
 
 A refreshed interface improves overall usability, making navigation and content authoring more intuitive and consistent.
 
-- Richer CSS elements in the Author mode: Enhanced default CSS provides improved styling and better visual consistency across both authoring and preview modes.
+- **Richer CSS elements in the Author mode**: Enhanced default CSS provides improved styling and better visual consistency across both authoring and preview modes.
 
     ![](assets/rich-css.png){width="650" align="left"}
 
-- Dark theme support: Support for a dark theme in the content editing area enhances the authoring experience for users who prefer working with a dark interface.
+- **Dark theme support**: Support for a dark theme in the content editing area enhances the authoring experience for users who prefer working with a dark interface.
 
     ![](assets/dark-theme.png){width="650" align="left"}
 
-- Consolidated user-level Editor settings: A new centralized settings panel that gives Authors better control over editor behavior allowing users to manage preferences more easily from a single location. Configuration options include, ability to enable/disable: 
+- **Consolidated user-level Editor settings**: A new centralized settings panel that gives Authors better control over editor behavior allowing users to manage preferences more easily from a single location. Configuration options include, ability to enable/disable: 
 
-    - **Non-breaking spaces** in Author mode 
-    - **Tag** visibility settings with attributes or without attributes 
-    - **XML comments** in Author mode
-    - **Quick insert menu** for element insertion in editor
+    - Non-breaking spaces in Author mode 
+    - Tag visibility settings with attributes or without attributes 
+    - XML comments in Author mode
+    - Quick insert menu for element insertion in editor
 
     ![](assets/editor-settings-dialog.png){width="350" align="left"}
 
 
     For more information about how to configure Editor settings, view [Editor settings](../user-guide/config-editor-settings.md).
 
-- Better representation of conditional content in Author mode: Conditional content is more clearly displayed in Author mode, helping authors identify and manage variations more effectively. For details, view [Conditions](../user-guide/web-editor-left-panel.md#conditions) in Left panel of Editor.
+- **Better representation of conditional content in Author mode**: Conditional content is more clearly displayed in Author mode, helping authors identify and manage variations more effectively. For details, view [Conditions](../user-guide/web-editor-left-panel.md#conditions) in Left panel of Editor.
 
     ![](assets/multiple-conditions-applied_cs-editor-2-0.png){width="650" align="left"}
 
@@ -58,23 +58,23 @@ A refreshed interface improves overall usability, making navigation and content 
 
 Provides improved tools and flexibility to streamline content creation and editing workflows.
 
-- View attributes along with elements in tag mode: Authors can now view element attributes with the tag mode, offering better visibility and control over structured content. To configure this feature, view [Editor settings](../user-guide/config-editor-settings.md).
+- **View attributes along with elements in tag mode**: Authors can now view element attributes with the tag mode, offering better visibility and control over structured content. To configure this feature, view [Editor settings](../user-guide/config-editor-settings.md).
 
     ![](assets/config-tags-attributes.png){width="650" align="left"}
 
-- Quick insert menu: Enables adding elements directly while editing in Author mode at the cursor position without navigating to the toolbar. Frequently used elements can also be configured in the Favorites section through Editor settings for quicker access. For details, view [Edit topics](../user-guide/web-editor-edit-topics.md).
+- **Quick insert menu**: Enables adding elements directly while editing in Author mode at the cursor position without navigating to the toolbar. Frequently used elements can also be configured in the Favorites section through Editor settings for quicker access. For details, view [Edit topics](../user-guide/web-editor-edit-topics.md).
 
     ![](assets/quick-insert-menu.png){width="650" align="left"}
 
-- Ability to view, edit, and insert XML comments in the Author mode: Enables authors to view, edit, and insert XML comments directly in Author mode, for better visibility within the content. To configure this feature, view [Editor settings](../user-guide/config-editor-settings.md).
+- **Ability to view, edit, and insert XML comments in the Author mode**: Enables authors to view, edit, and insert XML comments directly in Author mode, for better visibility within the content. To configure this feature, view [Editor settings](../user-guide/config-editor-settings.md).
 
     ![](assets/config-xml-comments.png){width="650" align="left"}
 
-- Side-by-side mode: Allows simultaneous viewing of Author and Source modes, with both views remaining in perfect sync for easier comparison, editing, and validation of content changes. For details, view [Editor views](../user-guide/web-editor-views.md).
+- **Side-by-side mode**: Allows simultaneous viewing of Author and Source modes, with both views remaining in perfect sync for easier comparison, editing, and validation of content changes. For details, view [Editor views](../user-guide/web-editor-views.md).
 
     ![](assets/side-by-side-editor-2-0.png){width="650" align="left"}
 
-- Improved table authoring: Enhances the overall table authoring experience with more intuitive and efficient interactions for creating and managing tables.
+- **Improved table authoring**: Enhances the overall table authoring experience with more intuitive and efficient interactions for creating and managing tables.
 
     - Fluid and intuitive interactions: Easily insert rows and columns, along with drag-and-drop support for reordering rows and columns.
     - Contextual toolbar: Access table-specific actions such as formatting, alignment, merging, and other additional actions directly within the table.
@@ -86,9 +86,9 @@ Provides improved tools and flexibility to streamline content creation and editi
 
 ### Improved performance for large topics
 
-With the New Editor, the editing experience for large and complex topics with faster loading and more responsive interactions, including optimized document load times, reliable undo and redo support for managing changes, and a dirty marker for large topics.   
+With the new Editor, the editing experience for large and complex topics is improved through faster loading and more responsive interactions. It includes optimized document load times, reliable undo and redo support for managing changes, and a dirty marker for large topics.
 
-## Access and copy the path and UUID for references in files
+## Access the Path and UUID of references in files from the Content Properties panel
 
 Now, you can use **Link path** to view the relative path of the selected reference, and **Link UUID** to view its unique identifier from the Content properties panel. You can also copy the complete absolute path and the associated UUID directly from the interface using the icons next to Link Path and Link UUID, making it easier to trace and reuse linked assets.
 
