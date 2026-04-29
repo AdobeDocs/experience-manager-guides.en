@@ -11,42 +11,47 @@ For the list of issues fixed in this release, view [Fixed issues in the 2026.05.
 
 Learn about [upgrade instructions for the 2026.05.0 release](../release-info/upgrade-instructions-2026-05-0.md).
 
-## Introducing Editor 2.0
+## Introducing New Editor
 
-Editor 2.0 introduces simplified authoring, enabling you to create content more efficiently across both tag and non-tag views through a more intuitive experience. The release brings improved performance, with faster page loads and smoother editing even for large and complex topics. It also delivers enhanced stability by addressing key authoring gaps, particularly around navigation and cursor behavior. Additionally, a modern interface offers a refreshed and user-friendly UI that balances functionality with ease of use, supporting a more consistent workflow. For details, view [Editor 2.0](../user-guide/web-editor.md).
+New Editor provides simplified authoring, enabling you to create content more efficiently across both tag and non-tag modes through a more intuitive experience. The release brings improved performance, with faster page loads and smoother editing even for large and complex topics. It also delivers enhanced stability by addressing key authoring gaps, particularly around navigation and cursor behavior. Additionally, a modern interface offers a refreshed and user-friendly UI that balances functionality with ease of use. For details, view [New Editor](../user-guide/web-editor.md).
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/3484007)
+
 
 >[!NOTE]
 >
-> To enable the Editor 2.0 feature, please connect with the Customer Success team.
+> Please reach out to AEM Guides Customer Success team to get the New Editor enabled on your environment.
 
->[!VIDEO](https://video.tv.adobe.com/v/3484007)
+
+The New Editor brings the following enhancements to make authoring easier and more efficient.
 
 
 ### Redesigned user interface & experience
 
 A refreshed interface improves overall usability, making navigation and content authoring more intuitive and consistent.
 
-- Richer elements in the Author mode: Enhanced default CSS provides improved styling and better visual consistency across both authoring and preview experiences.
+- Richer CSS elements in the Author mode: Enhanced default CSS provides improved styling and better visual consistency across both authoring and preview modes.
 
     ![](assets/rich-css.png){width="650" align="left"}
 
-- Dark theme support: Support for a dark theme in the content editing area provides a better viewing experience.
+- Dark theme support: Support for a dark theme in the content editing area enhances the authoring experience for users who prefer working with a dark interface.
 
     ![](assets/dark-theme.png){width="650" align="left"}
 
 - Consolidated user-level Editor settings: A new centralized settings panel that gives Authors better control over editor behavior allowing users to manage preferences more easily from a single location. Configuration options include, ability to enable/disable: 
 
-    - Non-breaking spaces in Author mode 
-    - Tag visibility settings with attributes or without attributes 
-    - XML comments in Author mode
-    - Quick insert menu for element insertion in editor
+    - **Non-breaking spaces** in Author mode 
+    - **Tag** visibility settings with attributes or without attributes 
+    - **XML comments** in Author mode
+    - **Quick insert menu** for element insertion in editor
 
     ![](assets/editor-settings-dialog.png){width="350" align="left"}
 
 
     For more information about how to configure Editor settings, view [Editor settings](../user-guide/config-editor-settings.md).
 
-- Better representation of conditional content in Author mode: Conditional content is more clearly displayed in Author mode, helping authors identify and manage variations more effectively. For details, view [Comments](../user-guide/web-editor-left-panel.md#conditions) in Left panel of Editor.
+- Better representation of conditional content in Author mode: Conditional content is more clearly displayed in Author mode, helping authors identify and manage variations more effectively. For details, view [Conditions](../user-guide/web-editor-left-panel.md#conditions) in Left panel of Editor.
 
     ![](assets/multiple-conditions-applied_cs-editor-2-0.png){width="650" align="left"}
 
@@ -55,7 +60,7 @@ A refreshed interface improves overall usability, making navigation and content 
 
 Provides improved tools and flexibility to streamline content creation and editing workflows.
 
-- View attributes along with elements in tag view: Authors can now view element attributes directly within tag view, offering better visibility and control over structured content. To configure this feature, view [Editor settings](../user-guide/config-editor-settings.md).
+- View attributes along with elements in tag mode: Authors can now view element attributes with the tag mode, offering better visibility and control over structured content. To configure this feature, view [Editor settings](../user-guide/config-editor-settings.md).
 
     ![](assets/config-tags-attributes.png){width="650" align="left"}
 
@@ -63,11 +68,11 @@ Provides improved tools and flexibility to streamline content creation and editi
 
     ![](assets/quick-insert-menu.png){width="650" align="left"}
 
-- Ability to view, edit, and insert XML comments in the Author mode: Enables authors to view, edit, and insert XML comments directly in Author mode, with clear highlighting for better visibility within the content. To configure this feature, view [Editor settings](../user-guide/config-editor-settings.md).
+- Ability to view, edit, and insert XML comments in the Author mode: Enables authors to view, edit, and insert XML comments directly in Author mode, for better visibility within the content. To configure this feature, view [Editor settings](../user-guide/config-editor-settings.md).
 
     ![](assets/config-xml-comments.png){width="650" align="left"}
 
-- Side-by-side mode: Allows simultaneous viewing of Author and Source modes, making it easier to compare, edit, and validate content changes. For details, view [Editor views](../user-guide/web-editor-views.md).
+- Side-by-side mode: Allows simultaneous viewing of Author and Source modes, with both views remaining in perfect sync for easier comparison, editing, and validation of content changes. For details, view [Editor views](../user-guide/web-editor-views.md).
 
     ![](assets/side-by-side-editor-2-0.png){width="650" align="left"}
 
@@ -83,8 +88,7 @@ Provides improved tools and flexibility to streamline content creation and editi
 
 ### Improved performance for large topics
 
-Enhances the editing experience for large and complex topics with faster loading and more responsive interactions, including optimized document load times, reliable undo and redo support for managing changes, and a dirty marker for large topics.   
-
+With the New Editor, the editing experience for large and complex topics with faster loading and more responsive interactions, including optimized document load times, reliable undo and redo support for managing changes, and a dirty marker for large topics.   
 
 ## Access and copy the path and UUID for references in files
 

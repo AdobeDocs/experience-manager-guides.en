@@ -23,11 +23,11 @@ You can enable or disable the following options based on your preferences:
 
     ![Config XML comments](./images/config-xml-comments.png){width="650" align="left"}
 
-- **Tags**: Controls the visibility of DITA elements in the Editor. When enabled, structural tags are displayed within the content, allowing authors to view and manage the underlying DITA structure. When disabled, these tags are hidden to provide a cleaner and more focused authoring experience.
+- **Tags**: Controls the visibility of tags in the Editor. When enabled, structural tags are displayed within the content, allowing authors to view and manage the underlying DITA structure. When disabled, these tags are hidden to provide a cleaner and more focused authoring experience.
 
     ![Config tags](./images/config-tags.png){width="650" align="left"}
 
-    You can also enable Display attributes to view and validate the attributes associated with an element. When an element has multiple attributes, a count indicator is shown. Hovering over the indicator displays the complete list of attributes applied to that element.
+    You can also enable **Display attributes** to view and validate the attributes associated with an element. When an element has multiple attributes, a count indicator is shown. Hovering over the indicator displays the complete list of attributes applied to that element.
 
     ![Config tags with attributes](./images/config-tags-attributes.png) {width="650" align="left"}
 
