@@ -53,13 +53,13 @@ The detailed explanation of the left panel features is as follows:
 
 ## Collections 
 
-If you work on a set of files or folders, you can add them to your favorite list to access them quickly. **Collections** show the list of documents that you have added and other publicly accessible list of documents from the other users.
+If you work on a set of files or folders, you can add them to your favorite list to access them quickly. **Collections** show the list of documents that you have added and other publicly accessible list of documents from the other users. You can also enable [paginated loading](/web-editor-other-features.md#paginated-loading-experience) to load and browse files in smaller batches when working with large collections. 
 
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.
 
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of files by filenames in the Editor. Select the **File name** option of the **Editor files display configuration** section in **User preferences**. 
+> As an administrator, you can also choose to view the list of files by filenames in the Editor. Select the **File name** option under  **Editor files display configuration** section in **User preferences**. 
 
 <details>
     <summary> Create a new collection </summary>
@@ -131,11 +131,7 @@ When you select the Repository icon, you get a list of files and folders availab
 
 >[!NOTE]
 >
-> When paginated loading is enabled, the Repository/Explorer panel loads content incrementally to improve performance for large folders. At the root level, items load automatically in batches of 50 as you scroll. Within folders, the first 50 items are displayed initially, and **Load More** is available to view additional items.
->
-> <br>To learn more about performance improvements with paginated loading, view []().
->
-><br> To enable this feature for your environment, contact the Customer Success Team.
+> You can also choose to enable paginated loading in the Explorer/Repository panel for improved performance when working with large repositories. This feature is disabled by default. To enable it, contact the Customer Success team. For more details on the paginated loading experience and related performance enhancements, view [Paginated loading in Explorer or Repository](/web-editor-other-features.md#paginated-loading-experience).
 
 You can easily navigate to the required file within DAM and open it in the Editor. If you have the required access to edit the file, then you can do so.
 
@@ -145,27 +141,7 @@ speed, or view picture in picture.
 
 Select a map and press Enter or double-click to open it in the **Map view**. For more details, view the **Map view** feature description in the left panel. Select a topic and press Enter or double-click to open it in the [Content editing area](./web-editor-content-editing-area.md). Being able to navigate and open a file directly from the Editor saves time and increases productivity. 
 
-### Paginated loading experience
 
-The following sections describe behavior changes at the folder and file level in the Repository/Explorer when paginated loading is enabled.
-
-**File operations**
-
-- **Delete**: When a file is deleted, the parent folder refreshes and displays the first 50 items.
-- **Add or duplicate**: Newly added or duplicated files are placed at the top of the destination folder and opened in the editor. This placement may not reflect the configured backend sort order until the folder is manually refreshed.
-- **Locate in Repository**: Files opened in the editor are no longer automatically highlighted in the Repository/Explorer panel. The **Always locate files in Repository** under User preferences is no longer available. However, to help locate files using the file's tab view, the search is performed in batches of up to 500 items per folder until the file is found.
-
-**Moving files**
-
-File move behavior varies based on the relationship between the source and destination folders:
-
-- **Between unrelated folders**: The source folder refreshes and displays the first 50 items. The moved file is added to the top of the destination folder.
-- **From a child folder to its parent folder**: The same behavior applies: the source folder refreshes to the first 50 items, and the file is added to the top of the destination folder.
-- **From a parent folder to a child folder**: The entire folder content is loaded until the moved file is located in the destination folder. During this process, items may be loaded in batches of up to 500. The moved file is then added as the first item in the destination folder.
-
-**Refresh** 
-
-A **Refresh** button is available in the Repository/Explorer panel that allows you to reload the root-level folder.
 
 ## Filter Search in Repository
 
@@ -1118,7 +1094,7 @@ To insert a snippet, use any of the following methods:
 
 ## Templates 
 
-The Templates panel is available to only administrators. Using this panel, administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *map* and *topic* type templates.
+The Templates panel is available to only administrators. Using this panel, administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *map* and *topic* type templates. 
 
 ![](images/templates-panel_cs.png){width="300" align="left"}
 
@@ -1129,6 +1105,8 @@ By default, you can view the files by titles. As you hover over a template, you 
 > As an administrator, you can also choose to view the list of files in the Editor. Select the **File name** option of the **Editor files display configuration** section in **User preferences**.
 
 To learn how to create custom templates, view [Create maps based on customized templates](./create-maps-customized-templates.md). 
+
+You can also enable [paginated loading](/web-editor-other-features.md#paginated-loading-experience) to load and browse files within *topic* and *map* folders in smaller batches.  
 
 ## Citations 
 
