@@ -1,12 +1,12 @@
 ---
-title: Auto-generate element IDs
-description: Learn how to Auto-generate element IDs
+title: Extension framework changes for Editor 2.0
+description: Learn about the changes in extension framework for Editor 2.0
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 
 ---
-# Extension Framework API
+# Extension framework changes for Editor 2.0
 
 This document covers all APIs added to `guides.editor` (and `guides`) as part of the extension framework for the MarkupEditor (ProseMirror-based editor). These APIs allow external extensions to interact with the editor without direct DOM manipulation or internal implementation knowledge.
 
