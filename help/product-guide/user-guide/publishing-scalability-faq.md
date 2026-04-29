@@ -7,7 +7,7 @@ exl-id: d4cd7673-ba66-4e90-9908-b537217d7eb6
 
 The following is a list of answers to frequently asked questions that provides detailed insights into how Adobe Experience Manager Guides manages publishing workflows, scaling behavior, and infrastructure performance. It is intended for enterprise users, administrators, and documentation teams using Experience Manager Guides for large-scale publishing. The diagram explains the overall workflow of Experience Manager Guides Publishing Architecture.
 
-![](images/IO_runtime.drawio.png){align="left"}
+![](images/IO_runtime.drawio.png)
 
 
 ## How many publishing requests can Experience Manager Guides run per day?

@@ -37,7 +37,7 @@ You can edit a bulk activation map collection by adding or removing map file or 
 
 1.  Click **Delete**.
 
-    ![](images/bulk-activation-delete-map.png){width="600" align="left"}
+    ![](images/bulk-activation-delete-map.png){width="600"}
 
     The selected map is removed from the bulk activation map collection.
 

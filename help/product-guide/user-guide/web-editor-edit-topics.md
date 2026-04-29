@@ -48,7 +48,7 @@ Similarly, if you delete the selected content, the remaining content after the d
 
     - Select an element from the dialog box. The selected content is wrapped under that element. For example, if you select the content in a paragraph and then choose the `<note>` element from the **Insert element** dialog box, the selected content appears under a note.  
 
-       ![Insert element dialog box](./images/insert-element-editor.png) {width="300" align="left"}  
+       ![Insert element dialog box](./images/insert-element-editor.png) {width="300"}  
 
 ## Refresh browser while editing the files
 
@@ -64,7 +64,7 @@ The right panel is also reopened and displays the same view as before the refres
 
 Experience Manager Guides provides the working copy indicator which shows whether the current \(working copy\) of file is in sync with the saved version or not. If you have made any changes to your current copy and have not saved your file, a \* mark appears along with the title on the topic's file tab. This indicator acts as a reminder to save your changes and disappears when you save your file.
 
-![working copy indicator](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![working copy indicator](images/working-copy-text-update-indicator.png){width="550"}
 
 Experience Manager Guides also indicates if the last saved \(working\) copy of the file is in sync with the saved version or not. If you have some unsaved changes between the working copy and the last saved version, a \* mark appears along with the version information shown in the right top corner of the topic's file tab. This indicator acts as a reminder to save and create a version from your current \(working\) copy of the file.
 
@@ -72,7 +72,7 @@ Experience Manager Guides also indicates if the last saved \(working\) copy of t
 >
 > Any changes to the metadata fields available under [File properties](./web-editor-right-panel.md#file-properties) will also trigger the working copy indicator on the document version. 
 
-![Version update indicator](images/version-update-indicator.png){width="550" align="left"}
+![Version update indicator](images/version-update-indicator.png){width="550"}
 
 ## Access locked files in Author and Source modes
 

@@ -26,7 +26,7 @@ Experience Manager Guides introduces a new **Use actual file names** option in t
 
 For more details, view [Download files](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
-![](assets/download-map-dialog-new.png){width="300" align="left"}
+![](assets/download-map-dialog-new.png){width="300"}
 
 
 ## Enhanced `navref` handling in the Editor

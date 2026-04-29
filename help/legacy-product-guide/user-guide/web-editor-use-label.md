@@ -30,7 +30,7 @@ Perform the following steps to add a label to your topic:
 
     The labels are displayed in the Version History of the selected topic. The following screenshot displays the labels *x.x Release* and *User Guide* added to the highlighted version of the topic.
 
-    ![](images/labels.png){width="300" align="left"}
+    ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -45,11 +45,11 @@ Perform the following steps to delete a label:
 
     In the Version History, you will see all the versions of a topic and the labels attached to them. The following image shows an example of different versions of a topic and one version has labels added to it.
 
-    ![](images/labels.png){width="300" align="left"}
+    ![](images/labels.png){width="300"}
 
 1.  Click the delete button \(**X**\) to delete the label.
 
-    ![](images/delete-labels.png){width="300" align="left"}
+    ![](images/delete-labels.png){width="300"}
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)

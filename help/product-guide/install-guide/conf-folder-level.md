@@ -16,7 +16,7 @@ Also, you can delegate the folder-specific configurations to a department or pro
 
 Using the Folder Profiles tile in the Guides settings, you can configure settings under the following tabs:
 
-![](assets/folder-profile-tabs.png){width="800" align="left"}
+![](assets/folder-profile-tabs.png){width="800"}
 
 -   **General**: The general tab is only available when you are configuring folder-level \(or project/product\) settings. You can configure settings such as the folder paths on which the settings will be applicable and users who will have administrative rights to create or update configurations.
 
@@ -90,7 +90,7 @@ Perform the following steps to configure the global profile:
 
     For the first time the Folder Profiles page is shown with only the Global Profile tile.
 
-    ![](assets/folder-profile-global.png){width="800" align="left"}
+    ![](assets/folder-profile-global.png){width="800"}
 
 1.  Click on the **Global Profile** tile.
 
@@ -119,7 +119,7 @@ Perform the following steps to configure a folder-level profile:
 
 1.  Click **Create**.
 
-    ![](assets/create-folder-profile.png){width="300" align="left"}
+    ![](assets/create-folder-profile.png){width="300"}
 
 1.  Enter the following details in the **Create Folder Profile** dialog:
     -   Name of the folder profile.
@@ -192,7 +192,7 @@ Perform the following steps to configure standard DITA-supported conditional att
 
     The following screenshot shows the definition for the `platform` attribute with possible values and labels.
 
-    ![](assets/add_profile.png){width="650" align="left"}
+    ![](assets/add_profile.png){width="650"}
 
 1.  If you want to add more values for the same attribute, click the **+** icon and enter the additional value and label.
 
@@ -265,7 +265,7 @@ Perform the following steps to add the topic or map templates into a folder prof
     >
     > By default, all authoring templates are stored in the /content/dam/dita-templates folder. The `dita-templates` folder contains `topics` and `maps` sub-folders to store the topic and map templates. You can add your custom templates \(.dita,.xml, or .ditamapfiles\) in the default template folders. Once you add your template in the default folder, you will be able to add them in the global or folder profile. For more information about creating custom templates using the Web Editor, see [Create custom authoring template](#id1917D0EG0HJ).
 
-    ![](assets/search-author-temp.png){width="550" align="left"}
+    ![](assets/search-author-temp.png){width="550"}
 
 1.  Add the required topic and map templates to your profile.
 
@@ -273,7 +273,7 @@ Perform the following steps to add the topic or map templates into a folder prof
 
     -   Choose **Search or Type** and enter or select the name of a template from the drop-down list. The drop-down list consists of all default templates and any new template that you have created.
 
-        ![](assets/default-template-list.png){width="350" align="left"}
+        ![](assets/default-template-list.png){width="350"}
 
     -   Click **Browse** and select a template from DAM.
 
@@ -281,7 +281,7 @@ Perform the following steps to add the topic or map templates into a folder prof
 
     The selected templates are added to the template list.
 
-    ![](assets/author-templ-added-list.png){width="550" align="left"}
+    ![](assets/author-templ-added-list.png){width="550"}
 
     >[!NOTE]
     >

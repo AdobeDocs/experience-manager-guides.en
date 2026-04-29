@@ -42,7 +42,7 @@ The following tabs provide instructions to configure B-tree clean up job based o
 
 1. Configure the B-tree clean up scheduler as shown below.
 
-    ![](assets/btree-cleanup-config.png){align="left"}
+    ![](assets/btree-cleanup-config.png)
 
 1. Select **Save**.
 
@@ -77,7 +77,7 @@ The following tabs provide instructions to enable the setting based on your Expe
 1. Search for and select the *com.adobe.fmdita.config.ConfigManager* bundle.
 1. Enable the setting `Guides btree deletion enabled`.
 
-    ![](assets/btree-cleanup-setting.png){align="left"}
+    ![](assets/btree-cleanup-setting.png)
 
 1. Select **Save**.
 

@@ -16,7 +16,7 @@ Perform the following steps to generate output for a DITA map:
 
 1.  Select one or multiple Output Presets that you want to use for generating the output.
 
-    ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+    ![](images/generate-multiple-outputs-uuid.png){width="800"}
 
     >[!NOTE]
     >
@@ -65,7 +65,7 @@ Perform the following steps to regenerate output for a specific topic or a group
     >
     > If you have added new topics to the DITA map, you will not be able to generate those new topics from here. You must first publish the newly added topics by using the DITA map publish function.
 
-    ![](images/regenerate-topics.png){width="800" align="left"}
+    ![](images/regenerate-topics.png){width="800"}
 
 1.  Click **Regenerate**.
 
@@ -92,7 +92,7 @@ Perform the following steps to view the output generation queue:
 
 1.  Click **Outputs**.
 
-    ![](images/output-queued.png){width="800" align="left"}
+    ![](images/output-queued.png){width="800"}
 
     The Outputs page is divided into two parts:
 
@@ -129,17 +129,17 @@ Perform the following steps to cancel an output generation task from the DITA ma
 
 1.  Click the *Cancel This Job* icon.
 
-    ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+    ![](images/cancel-publish-task-map-console.png){width="800"}
 
 1.  Click **Yes** on the Confirm Cancellation message prompt.
 
-    ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
+    ![](images/confirm-cancel-output-map-condole.png){width="800"}
 
     If the task has not yet started, the cancel command is executed on the task. For a task that is being canceled, the Status is set to Canceling.
 
     Once the task is successfully canceled, it is moved to the **Generated Outputs** list with a **Cancelled** status. When you hover over the canceled task, it shows the name of the user who has canceled the task. In the following screenshot, the *HTML5* task is canceled.
 
-    ![](images/cancelled-output-task.png){width="800" align="left"}
+    ![](images/cancelled-output-task.png){width="800"}
 
 
 ## Delete an output task from DITA map console 
@@ -156,7 +156,7 @@ Perform the following steps to remove an output task from the Generated Output l
 
 1.  Click the delete icon.
 
-    ![](images/delete-output-task.png){width="800" align="left"}
+    ![](images/delete-output-task.png){width="800"}
 
 1.  Click **Yes** on the Confirm Delete message prompt.
 

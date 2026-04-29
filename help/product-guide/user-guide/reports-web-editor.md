@@ -19,13 +19,13 @@ You can view the topic list, manage the metadata of all references, view the mul
     
 1.  Select the **Open in map console** icon.
 
-    ![](images/map-console.png){width="600" align="left"}
+    ![](images/map-console.png){width="600"}
 
 1.  Select **Reports** from the left panel.
 
 You can locate all the four reports from the **Reports** panel. Based on your requirement you can select any of the reports as shown here.
 
-![](images/reports-demo.png){align="left"}
+![](images/reports-demo.png)
 
 The Reports panel provides access to four different types of reports. Each report, along with its accessibility and features, is discussed in detail below. 
 
@@ -38,7 +38,7 @@ You can view the topic list report of a map by performing the following steps:
 
 1.  Select **Topic List** from the Reports panel. The list of topics present in the DITA map is displayed.
 
-    ![](images/web-editor-topiclist-panel-new.png){align="left"}
+    ![](images/web-editor-topiclist-panel-new.png)
 
 1.  From the **Filters** panel you can filter your topics based on the **Reference type** \(direct or indirect\), **Document State** \(for example if your topics are in Edit, In-Review, or Reviewed state, these are listed\) or the **Author** of the topic.
 
@@ -72,7 +72,7 @@ You can view the metadata report of a map by performing the following steps:
 1.  Select **Metadata** from the Reports panel. The list of all references of a map is displayed along with it's metadata such as tags, document state, custom metadata. To add a new custom metadata column, refer to [Add custom metadata columns](#add-custom-metadata-columns) section.   
 
 
-    ![](images/web-editor-metadata-panel-new.png){align="left"}    
+    ![](images/web-editor-metadata-panel-new.png)    
     
 
 1.  From the **Filters** panel you can filter your topics based on the **Document State** \(for example if your topics are in Edit, In-Review, or Reviewed state, these are listed\), **References** \(direct or indirect\), **File Type** \(Map, Topic, Document, Image, Video and Others\) of the reference.
@@ -123,12 +123,12 @@ To update metadata, perform the following steps:
     >
     > If a file is locked by another user, it cannot be selected for updating metadata. A lock icon also appears near the title of a locked file. You can hover over the icon to view the name of the user.
 
-    ![](images/all-selection.png){align="left"}
+    ![](images/all-selection.png)
         
 
 1.  Select **Manage** from the top.
 
-    ![](images/web-editor-manage-metadata.png){width="350" align="left"}
+    ![](images/web-editor-manage-metadata.png){width="350"}
 
 1.  If you want to add any new tags, select new tags from the dropdown list to apply them to all selected topics. You can also delete any tag by selecting the cross icon near the tag.
 
@@ -144,12 +144,12 @@ This feature enables you to add custom metadata columns as per requirement, whic
 
 1.  To add a custom metadata column, select **Workspace settings** (appearing as **Settings** for **On-Prem**) from the three dots on the top-right corner of the metadata page.
 
-    ![](images/custom-metadata-setting.png){width="600" align="left"}
+    ![](images/custom-metadata-setting.png){width="600"}
 
 1.  Select **Metadata** on the left panel of the pop-up that appears.
 1.  Add a new custom metadata field as per the requirement using the **Add** tab.
 
-    ![](images/add-custom-metadata.png){width="600" align="left"}
+    ![](images/add-custom-metadata.png){width="600"}
 
 1.  Specify a specific metadata path and an appropriate title for the same which you want to add in the columns of metadata report. For example a custom metadata with the title language and a specific path is added. 
 
@@ -157,7 +157,7 @@ This feature enables you to add custom metadata columns as per requirement, whic
     >
     > If you want to remove a particular metadata column, you can delete it from the list displayed. Additionally, you can edit the **Label** to alter the display title of column.
 
-    ![](images/added-custom-field.png){width="600" align="left"}
+    ![](images/added-custom-field.png){width="600"}
 
     
 
@@ -168,7 +168,7 @@ This feature enables you to add custom metadata columns as per requirement, whic
     > Adding a new metadata column also gets reflected in the **Version History** panel in the Editor. For more information, view **[Metadata](web-editor-features.md)**.
 
 
-    ![](images/updated-custom-field.png){width="600" align="left"}
+    ![](images/updated-custom-field.png){width="600"}
 
   
   Similarly, you can follow the aforementioned steps to add any new custom metadata fields based on your requirement that are needed in the metadata reports.
@@ -184,11 +184,11 @@ The **Multimedia** report provides detailed information about the multimedia use
 
     -   When you order by **Multimedia**, the name of the multimedia is displayed in the first column and then the names of all references in which they have been used, are displayed in another column on the same row. For example, the following screenshot shows the multimedia testSong.mp3 in the first column and two references in which it is used, are displayed in the third column on the same row.
 
-        ![](images/multimedia-report-file-order-new.png){width="650" align="left"}
+        ![](images/multimedia-report-file-order-new.png){width="650"}
 
     -   If you order by **Used In** column, you will view the transposed view wherein the names of the references in which multimedia have been used are listed in the first column while the multimedia names are listed in another column on separate rows. For example, the following screenshot shows the names of two references \(testing_indirect and Video content Topic\) in the first column and the multimedia testSong.mp3 is displayed in the third column on two separate rows.
 
-        ![](images/multimedia-report-used-in-order-new.png){width="650" align="left"}
+        ![](images/multimedia-report-used-in-order-new.png){width="650"}
 
 1.  You can filter your multimedia based on the **Multimedia Type**, and **Reference Type**. The list of multimedia files is displayed based on your selection in the drop-down. For example, you can choose to display only the audio references in your DITA map, and a file shows only the audio references used in it.
     
@@ -219,13 +219,13 @@ You can view the report for broken links by performing the following steps:
     – When you order by **Broken link**, the paths of the broken links are displayed in the first column and then the names of all references in which they have been used, are displayed in another column on separate rows. If the same broken link is used in multiple files, then they are displayed on one row and are shown as grouped or sub-rows. For example, the following screenshot shows two broken links in the first column and the reference in which they are used, `m_ElectricalSpecs_900.ditamap` is displayed in the third column on two separate rows.
 
 
-    ![](images/broken-link-report-new.png){align="left"}
+    ![](images/broken-link-report-new.png)
 
      
     – If you order by **Used in** column, you will view the transposed view wherein the names of the references in which the broken links have been used are listed in the first column while the broken links are listed in another column on the same row. For example, the following screenshot shows the reference (in which the broken link is used) `m_ElectricalSpecs_900.ditamap` in the first column and the broken links are displayed in the third column on the same row.
     
 
-    ![](images/broken-link-filter-usedin-new.png){align="left"}
+    ![](images/broken-link-filter-usedin-new.png)
 
 
 1. You can filter your broken links based on the **File Type** and **Link Type**. The list of broken links is displayed based on your selection in the drop-down. For example, you can choose to display only the content references in your DITA map, and a file shows only the broken content references used in it.

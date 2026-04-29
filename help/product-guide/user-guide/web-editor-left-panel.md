@@ -63,7 +63,7 @@ By default, you can view the files by titles. As you hover over a file, you can 
 
 To create a new collection, Select the + icon next to Collections panel to bring up the **New collection** dialog box:
 
-![](images/favorite-new-collection.PNG){width="300" align="left"}
+![](images/favorite-new-collection.PNG){width="300"}
 
 Enter a title and description for the collection that you want to create. If you select **Public**, then this favorite is shown to other users as well.
 
@@ -81,11 +81,11 @@ To add a file to collections, use any of the following methods:
 
 - Navigate to the required file or folder in the Repository view, select the *Options* icon to open the context menu, and choose **Add to** > **Collections**. In the **Add to collections** dialog box, you can choose to add the file/folder to an existing favorite or create a new one.
 
-    ![](images/favorite-add-file-folder.png){width="300" align="left"}
+    ![](images/favorite-add-file-folder.png){width="300"}
 
 - Right-click on a file's tab in the editor to open the context menu. Choose **Add to** > **Collections** to add the file to your favorites list.
 
-    ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
+    ![](images/favorite-add-from-file-context-menu_cs.png)
  
 
 >[!NOTE]
@@ -99,7 +99,7 @@ To add a file to collections, use any of the following methods:
 
 You can also perform many actions using the Options menu available for a Collection: 
 
-![](images/favorites-options.png){width="650" align="left"}
+![](images/favorites-options.png){width="650"}
 
 - **Rename**: Rename the selected collection. 
 - **Delete**: Delete the selected collection.  
@@ -138,7 +138,7 @@ Select a map and press Enter or double-click to open it in the **Map view**. For
 The Editor provides enhanced filters for searching text. You can search and filter for a text in the files present on the selected path of the Adobe Experience Manager repository. It searches in the title, filename, and content in the files.
 
 
-![search files in repository view](images/repository-filter-search.png){width="300" align="left"}
+![search files in repository view](images/repository-filter-search.png){width="300"}
 
 *Apply filters to search for the files containing the text `personal spaceship.`* 
 
@@ -154,7 +154,7 @@ You have the following options to filter the files and to narrow down your searc
 - **DITA Files**: You can look for all **DITA Topics**, and **DITA Maps** present on the selected path. These are selected by default. 
 - **Non-DITA Files**: You can search for **Ditaval Files**,  **Image Files**, **Multimedia**, **Documents**, and **JSON** in the selected path.
 
-    ![quick search filter ](images/repository-filter-search-quick.png) {width="300" align="left"}
+    ![quick search filter ](images/repository-filter-search-quick.png) {width="300"}
 
     *Use the quick filters to search for DITA and Non-DITA files.*
 
@@ -168,7 +168,7 @@ Select the **Advanced filtering** ![advanced filter icon](images/advanced-filter
 
 You can view the following options under the **General** and **Advanced** tabs.  
 
-![advanced filter dialog box](images/repository-filter-search-advanced.png) {width="650" align="left"}
+![advanced filter dialog box](images/repository-filter-search-advanced.png) {width="650"}
 
 
 **General**
@@ -213,7 +213,7 @@ In addition to opening files from the left panel, you can also perform many acti
 
 You can perform the following actions using the Options menu available for a *folder* in the Repository view:
 
-![](images/options-menu-folder_cs.PNG){width="550" align="left"}
+![](images/options-menu-folder_cs.PNG){width="550"}
 
 
 - **New**: Create a new DITA topic, DITA map, or a folder. 
@@ -226,7 +226,7 @@ Steps to create a new topic:
    1. Select **New** > **Topic**.
    1. The **New topic** dialog box is displayed.
     
-        ![](images/create-topic-dialog.png){width="300" align="left"}
+        ![](images/create-topic-dialog.png){width="300"}
 
    1. In the **New topic** dialog box, provide the following details:
         - A Title for the topic.
@@ -247,7 +247,7 @@ Steps to create a new DITA map:
    1. Select **New** > **DITA map**.
    2. The **New map** dialog box is displayed.
     
-        ![](images/create-map-dialog.png){width="300" align="left"}
+        ![](images/create-map-dialog.png){width="300"}
 
    3. In the **New map** dialog box, provide the following details:
         - A Title for the map.
@@ -265,7 +265,7 @@ Steps to create a new folder:
    1. Select **New** > **Folder**.
    2. The **New folder** dialog box is displayed.
     
-        ![](images/new-folder-dialog_cs.png){width="300" align="left"}
+        ![](images/new-folder-dialog_cs.png){width="300"}
 
    3. In the **New folder** dialog box, provide the following details:
         - A Title for the folder, which is auto-converted into the folder name.
@@ -276,13 +276,13 @@ Steps to create a new folder:
 
 - **Upload assets**: Upload a file from your local system to the selected folder in Adobe Experience Manager repository. You can also drag-and-drop files from your local system onto your current working topic. This is very useful if you want to insert images from your local system into your topic.
 
-    ![](images/upload-assets.png){width="300" align="left"}
+    ![](images/upload-assets.png){width="300"}
 
     You can select a folder where you want to upload the file and a preview of the image is also shown. If you want to rename the file, you can do so in the file name text box. Select **Upload** to complete the file upload process. If you have dragged and dropped an image file on a topic, then the image file is added in the article, and it is also uploaded.
 
     If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will view the UUID of the uploaded image in the **Source** property.
 
-    ![](images/uuid-in-source-upload-image_cs.png){   align="left"}
+    ![](images/uuid-in-source-upload-image_cs.png){  }
 
     After a successful upload, the following confirmation dialog is displayed:
 
@@ -315,11 +315,11 @@ Steps to create a new folder:
 
 - **Find files in folder**: Shifts the focus to repository search wherein you can enter the search term. The search is performed under the selected folder in the repository. You can also apply a filter to return DITA Files, Image Files, or both.
 
-    ![](images/find-files-in-folders-repo-view_cs.png){width="300" align="left"}
+    ![](images/find-files-in-folders-repo-view_cs.png){width="300"}
 
     You can also search using the UUID of a file. In that case, the search results display the title of the DITA/XML file and in case of the file is an image file, then the UUID of the file is displayed. In the following search example, the UUID of an image file is searched and the search results display the UUID of the original image file and the topic title of the file where that image is referenced.
 
-    ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
+    ![](images/uuid-repo-search-image-topic-file_cs.png){width="300"}
 
 - **Add to collections**: Adds the selected folder to favorites. You can choose to add it to an existing or new collection.
 
@@ -347,7 +347,7 @@ Get access to different options in the Options menu depending on whether you sel
 - Properties
 
 
-![options menu of a file in the repository view](images/options-menu-repo-view-file-level.png){width="550" align="left"}
+![options menu of a file in the repository view](images/options-menu-repo-view-file-level.png){width="550"}
 
 The various options in the Options menu are explained below:
 
@@ -367,7 +367,7 @@ The various options in the Options menu are explained below:
 
 - **Preview**: Get a quick preview of the file (.dita, .xml, audio, video, or image) without opening it. You can resize the preview pane. If the content contains any `<xref>` or `<conref>`, you can select it to open it in a new tab. The title of the file appears in the window. If no title is present, then the filename appears. To close the **Preview** panel, you can either select the close icon or select anywhere outside the pane.  
 
-    ![](images/quick-preview_cs.png){   align="left"}
+    ![](images/quick-preview_cs.png){  }
 
 
 - **Duplicate**: Use this option to create a duplicate or a copy of the selected file. You also have the option to rename the duplicate file in the Duplicate Asset prompt. By default, the file is created with a suffix \(like filename\_1.extension\). The title of the file remains same as the source file and the new file begins with version 1.0. All references, tags, and metadata are copied while the baselines are not copied in the duplicate file.
@@ -379,7 +379,7 @@ The various options in the Options menu are explained below:
 
     If you try to move a file to a folder where a file with the same name but a different title exists, the Rename and move file dialog is displayed, and you need to rename the file before moving it. The moved file in the destination folder has the new file name.  
 
-    ![](images/rename-move-asset.png){width="550" align="left"}
+    ![](images/rename-move-asset.png){width="550"}
 
     >[!NOTE]
     >
@@ -421,7 +421,7 @@ The various options in the Options menu are explained below:
     - If the file is added to a collection, the **Force Delete** dialog box is displayed, and you can forcefully delete it.
     - If the file is referenced from any other file then **Force Delete** dialog with the confirmation message is displayed, and you can forcefully delete the file:
 
-        ![](images/options-menu-force-delete.png){width="300" align="left"}
+        ![](images/options-menu-force-delete.png){width="300"}
 
         >[!NOTE]
         >
@@ -490,7 +490,7 @@ When you open a map in the map view, the title of the current map is displayed i
 
 When you define key attributes for the topic or map references, you can view the title, the corresponding icon, and the key in the left panel. The key is displayed as `keys=<key-name>`. 
 
-![keys in map view](images/view-key-title-map-view.png){width="300" align="left"}
+![keys in map view](images/view-key-title-map-view.png){width="300"}
 
 If you have editing rights on the map files, you will be able to edit the files as well. For more information about opening and editing a topic through DITA map, view [Edit topics through DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
@@ -502,7 +502,7 @@ The following options are available for a map file in the Map view:
 
 You can perform the following actions using the Options menu of the map file:
 
-![](images/options-menu-map-view_cs.png){   align="left"}
+![](images/options-menu-map-view_cs.png){  }
 
 - **Edit**: Open the map file for editing in the Map Editor.
 
@@ -558,7 +558,7 @@ You can perform the following actions using the Options menu of the map file:
 
 The following screenshot shows the Options menu for a file in the map view:
 
-![](images/options-menu-file_cs.PNG){   align="left"}
+![](images/options-menu-file_cs.PNG){  }
 
 You can perform the following actions using the Options menu:
 
@@ -618,11 +618,11 @@ To add a DITA file to your Reusable content panel, use any of the following meth
 
     
 
-    ![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+    ![](images/reusable-content-selection-left-panel.png){width="650"}
     
     You can also use the **Remove** icon to deselect some files from the Preview. 
 
-    ![](images/resusable-content-remove-preview.png){width="650" align="left"}
+    ![](images/resusable-content-remove-preview.png){width="650"}
 - In the Repository view, select the **Options** icon of the desired file and choose **Add to** > **Reusable content** from the context menu.
 
 - Right-click on a file's tab in the editor to open the context menu and choose **Add to** > **Reusable content**.
@@ -631,7 +631,7 @@ Once the file is added, you can view all reusable content elements from the file
 
 When you add a file to the Reusable content list, the file's title is shown instead of the UUID of the file. To check the UUID of the file, mouse hover over the file's title and the UUID of the file is displayed in the tooltip.
 
-![](images/uuid-reusable-content-file-title_cs.png){width="400" align="left"}
+![](images/uuid-reusable-content-file-title_cs.png){width="400"}
 
 >[!NOTE]
 >
@@ -643,7 +643,7 @@ To insert content from the Reusable content panel, use any of the following meth
 
 - Hover the mouse pointer over an element that you want to insert, select the **Options** icon, and choose **Insert reusable content** from the dropdown.
 
-    ![](images/insert-reusable-content_cs.png){width="400" align="left"}
+    ![](images/insert-reusable-content_cs.png){width="400"}
 
     >[!NOTE]
     >
@@ -657,7 +657,7 @@ To insert content from the Reusable content panel, use any of the following meth
 
 When you select the **Outline** icon, you get the hierarchical view of the elements used in the document.
 
-![](images/outline-view_cs.png){width="300" align="left"}
+![](images/outline-view_cs.png){width="300"}
 
 The Outline view offers the following features:
 
@@ -671,15 +671,15 @@ The Outline view offers the following features:
 
 - Choosing an element in the Outline view selects the element's content in the Author or Source view. The Outline view remains in sync with the Author and Source view. If you make any changes in any view, you can view them in the Outline view. For example, if you add a paragraph or update an element in the Author view, it is shown in the Outline view. 
 
-    ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
+    ![](images/select-element-content-outline-view_cs.png){width="650"}
 
 - Drag and drop elements. You can easily replace an element by dropping another element on it. If you drag and drop an element over another element and you view a dashed rectangle box around the element, it indicates that the element will get replaced. It replaces the element on which the element is dropped.
 
-    ![](images/replace-element-outline-view_cs.png){   align="left"}
+    ![](images/replace-element-outline-view_cs.png){  }
 
     If you drag and drop an element, a dashed rectangle indicates that the element can be placed at the current location. If the drag and drop is invalid, then an error message is shown to indicate that the operation is not allowed.
 
-    ![](images/drop-element-outline-view_cs.png){   align="left"}
+    ![](images/drop-element-outline-view_cs.png){  }
 
 - The **Options** menu in the *Outline* view allows you to perform generic operations such as Cut, Copy, Delete, Generate ID, Insert element before or after the current element, Rename or replace an element, Wrap an element, Unwrap an element, and create a snippet out of the selected element.
 
@@ -697,7 +697,7 @@ Using the **View Configure** option, you can choose to view the following:
 
 If a block element has its own text, it is displayed along with that block element. If it does not have it's own text, the text of the first child element is displayed along with that block element. 
 
-![](images/outline-view-block-element.png){width="550" align="left"}
+![](images/outline-view-block-element.png){width="550"}
 
 If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. You can also assign display attributes configured by your administrator under the **Display attributes** tab in the **Workspace settings** (appearing as **Settings** for **On-Prem**). The attributes defined for an element are displayed in the Layout and the Outline view.
 
@@ -714,7 +714,7 @@ You can search for a string in the element if it is shown in the **Outline** vie
 
 Experience Manager Guides allows you to easily create and use the glossary type documents. You can create glossary topic files and then include them in a common glossary map. Once this map is added as your root map, the glossary entries are then shown in the Glossary panel.
 
-![](images/glossary-panel.png){width="650" align="left"}
+![](images/glossary-panel.png){width="650"}
 
 To insert a term from the glossary, simply drag-and-drop the entry from the panel to the desired location in your topic. The Options menu of a glossary term allows you to get a quick **Preview** of the entry term, **Copy path** of the entry term file, or locate the entry term file in the repository.
 
@@ -732,7 +732,7 @@ Perform the following steps to search text terms and replace them with glossary 
 
 You can configure the following settings of the Hotspot tool:
 
-![](images/glossary-hotspot-tool.png){width="300" align="left"}
+![](images/glossary-hotspot-tool.png){width="300"}
 
 
 - **Glossary keys**: Select the glossary keys from the DITA map you want to use for the search in the selected topic. The selected keys will be displayed below. You can remove a selected key by selecting the **Remove** icon.
@@ -748,7 +748,7 @@ You can configure the following settings of the Hotspot tool:
     - **Create a new version after conversion**: A new version of the topic is created after the conversion of terms has been completed.
 - **Next** button appears if you select **Manually for each topic** option. Select **Next** to convert the terms for each topic on the basis of the selected settings. It prompts for conversion of terms in each topic and moves to the next file. You can choose to convert a term or skip it and move to the next term.
 
-    ![](images/manual-convert-skip.png){width="300" align="left"}
+    ![](images/manual-convert-skip.png){width="300"}
 
 - **Convert** button appears if you select **Automatically for all topics** option. Select **Convert** to convert all the terms found in the document to linked glossary abbreviations.
 
@@ -764,7 +764,7 @@ The Conditions panel displays the conditional attributes defined by your adminis
 
 You can also apply multiple conditions on an element by dragging-and-dropping multiple conditions on an element. When you apply multiple conditions on an element, the Properties panel displays the applied conditions separated with a comma.
 
-![](images/multiple-conditions-applied_cs.png){   align="left"}
+![](images/multiple-conditions-applied_cs.png){  }
 
 However, in the Code view the conditions are separated using a space delimiter. When you add or edit a condition in Code view, ensure that multiple conditions are separated using a space.
 
@@ -772,11 +772,11 @@ However, in the Code view the conditions are separated using a space delimiter. 
 >
 > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete conditions. Else, as a normal author, you will only get the option to apply conditions.
 
-![](images/conditional-content-through-panel_cs.png){   align="left"}
+![](images/conditional-content-through-panel_cs.png){  }
 
 To add or define a condition, select the + icon next to Conditions panel to bring up the Define Condition dialog box:
 
-![](images/conditional-panel-create-cond.png){width="400" align="left"}
+![](images/conditional-panel-create-cond.png){width="400"}
 
 From the Attribute list, select the conditional attribute that you want to define, enter a value for the condition, then specify the label that is displayed in the Conditions panel. Define a group for the condition. You can add multiple conditions to a group. You can also define a color for the condition. This color is set as the background color of the content on which the condition is applied.
 
@@ -792,12 +792,12 @@ You can use `/` and define sub-groups like `AEM Guides/Cloud Service`.
 
 
 
-![condtions organised in a nested hierarchy](images/conditions-nested-hierarchy.png){width="300" align="left"}
+![condtions organised in a nested hierarchy](images/conditions-nested-hierarchy.png){width="300"}
 
 
 To edit a condition, choose **Edit** from the Options menu. The Edit Condition dialog box is displayed:
 
-![](images/conditional-panel-edit-cond.png){width="400" align="left"}
+![](images/conditional-panel-edit-cond.png){width="400"}
 
 Specify the details in the same way as configured while defining a new condition.
 
@@ -844,7 +844,7 @@ The following example shows how to use subject scheme in Experience Manager Guid
     </subjectScheme>
     ```
 
-    ![](images/subject-scheme-panel-new.png){width="300" align="left"}
+    ![](images/subject-scheme-panel-new.png){width="300"}
 
 1. Save the file with a.ditamap extension and upload it to any folder in DAM.
 
@@ -852,11 +852,11 @@ The following example shows how to use subject scheme in Experience Manager Guid
     >
     > You can add a reference to the subject scheme file in the parent DITA map.
 
-    ![](images/subject-scheme-root-map-new.png){width="550" align="left"}
+    ![](images/subject-scheme-root-map-new.png){width="550"}
 
 1. Set the parent map as the root map in the **User preferences**. Once this map is added as your root map, the subject scheme is then shown in the Subject scheme panel.
 
-    ![](images/subject-scheme-user-preferences-new.png){width="650" align="left"}
+    ![](images/subject-scheme-user-preferences-new.png){width="650"}
    
 
 1. In the Editor, open the file where you want to use the subject scheme definitions.
@@ -989,7 +989,7 @@ You can also apply values for an attribute by selecting multiple values from the
 
 You can also change the values from the attribute's drop-down in the Source view. The Source view also prevents you from adding any incorrect value.
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+![](images/subject-scheme-code-error.png){width="550"}
 
 **View and apply the subject scheme from the Conditions panel**
 
@@ -1009,7 +1009,7 @@ Snippets are small content fragments that can be reused across various topics in
 >
 > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete snippets. Else, as a normal author, you will only get the options to preview and insert a snippet.
 
-![](images/snippets-panel_cs.png){align="left"}
+![](images/snippets-panel_cs.png)
 
 **Create a snippet**
 
@@ -1017,7 +1017,7 @@ To add a snippet, use any of the following methods:
 
 1. Select the **+** icon next to Snippets to open the **New Snippet** dialog box.
 
-    ![](images/snippet-new-dialog.png){width="300" align="left"}
+    ![](images/snippet-new-dialog.png){width="300"}
 
     In the New Snippet dialog, provide a Title which appears in the Snippets panel, a Description, select a Format (DITA or HTML) for your content, and provide a code of the snippet content that you want to create. Select **Create** to save and create the snippet.
 
@@ -1027,7 +1027,7 @@ To add a snippet, use any of the following methods:
 
     The following screenshot highlights the breadcrumb and the content area from where you can invoke the context menu.
 
-    ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
+    ![](images/snippet-create-from-breadcrumb-content.png){width="350"}
 
 **Insert a snippet**
 
@@ -1049,7 +1049,7 @@ To insert a snippet, use any of the following methods:
 
 The Templates panel is available to only administrators. Using this panel, administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *map* and *topic* type templates.
 
-![](images/templates-panel_cs.png){width="300" align="left"}
+![](images/templates-panel_cs.png){width="300"}
 
 By default, you can view the files by titles. As you hover over a template, you can view the file title and the file name as a tooltip.   
 
@@ -1096,7 +1096,7 @@ The Find and Replace feature can be used in two distinct modes, depending on you
     > - **For Cloud services**: A custom index deployment must be performed. For details, view [Deploying custom index](/help/product-guide/cs-install-guide/custom-indexing.md). Once completed, contact your Customer Success team to enable this feature.
     > - **For On-Premise**: Re-indexing of existing content is required before the feature can be used. For details, view [Reindexing content](/help/product-guide/install-guide/custom-indexing-prem.md). Once completed, contact your Customer Success team to enable this feature.
 
-    ![](images/map-find-replace-with-source-mode.png){align="left"}
+    ![](images/map-find-replace-with-source-mode.png)
 
 <br>    
 
@@ -1113,12 +1113,12 @@ To perform the global search and replace with the Source mode, perform the follo
     - **Map**: To search in some specific map from the Repository or Collections
     - **Current map**: To search in the currently opened map
 
-    ![](images/path-dropdown-source-mode.png){width="350" align="left"}     
+    ![](images/path-dropdown-source-mode.png){width="350"}     
 
     
 1. Enter the search string in the **Find** field. To narrow down results, select the **Filter** icon next to the Find field and select the following desired filters: 
 
-    ![](images/find-filters-source-mode.png){width="350" align="left"}
+    ![](images/find-filters-source-mode.png){width="350"}
 
     - **File type**: Choose the File type; **Topics**, and **Maps** where you want to search the text
     - **Document state**: You can select a document state from the available options. The document state options displayed are derived from the Folder profiles. They represent the combined set of all possible document states across those profiles. The default states include In-review, Done, Draft, Approved, Edit, and Reviewed.
@@ -1135,7 +1135,7 @@ To perform the global search and replace with the Source mode, perform the follo
 
 1. Press Enter or select **Search** icon to perform the search.
 
-    ![](images/search-icon.png){width="350" align="left"}
+    ![](images/search-icon.png){width="350"}
 
 1. Select a file from the search result list. The file is opened in the Source view with the searched term highlighted in the content.          
 
@@ -1145,16 +1145,16 @@ To perform the global search and replace with the Source mode, perform the follo
 
     - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file. If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
 
-    ![](images/replace-settings-source-mode.png){width="350" align="left"}    
+    ![](images/replace-settings-source-mode.png){width="350"}    
 
 
 1. Select **Replace occurrence** to replace the currently highlighted search string in the topic or select the top and bottom arrows to move to the next or previous occurrence of the text.
 
-    ![](images/replace-occurrence.png){width="350" align="left"}
+    ![](images/replace-occurrence.png){width="350"}
 
 1. Select **Replace all** to replace all the occurrences of the searched string across all the searched files with the specified replacement string in a single go. You will be shown a notification after all the occurrences are replaced.
 
-    ![](images/replace-all.png){width="350" align="left"}
+    ![](images/replace-all.png){width="350"}
 
     >[!NOTE]
     >
@@ -1166,15 +1166,15 @@ To perform the global search and replace with the Source mode, perform the follo
     >
     > You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
 
-    ![](images/replace-all-in-file.png){width="350" align="left"}
+    ![](images/replace-all-in-file.png){width="350"}
 
 1. After the Replace all operation completes, a downloadable CSV report is generated, providing a snapshot of all replace actions performed. You can download the report to view detailed information on the replace operations, including the number of occurrences successfully replaced, along with details of each, as well as any failures and their corresponding reasons. The operation may fail for due to some specific reasons, such as file being locked by another user, validation errors caused by changes made to the file during the operation, or other similar issues.  
 
-    ![](images/snapshot-replace-all.png){width="350" align="left"}
+    ![](images/snapshot-replace-all.png){width="350"}
 
 Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between. If you abort the operation, you will receive a notification about it in your Inbox. 
 
-![](images/replace-all-in-progress-source-mode.png){width="350" align="left"}
+![](images/replace-all-in-progress-source-mode.png){width="350"}
 
 </details>    
 
@@ -1182,7 +1182,7 @@ Only one replace all operation can be performed at a time in the whole system, a
 
 - **Without Source mode:** The search is restricted to the text displayed in the Author view, focusing solely on the visible content skipping the source content like XML elements or attributes. This mode is ideal for quick, content-only searches.
 
-    ![](images/map-find-replace-without-source-mode.png){align="left"}
+    ![](images/map-find-replace-without-source-mode.png)
 
 <br>
 <details>
@@ -1198,7 +1198,7 @@ To perform the global search and replace without Source mode, perform the follow
     - **Map**: To search in some specific map from the Repository or Collections
     - **Current map**: To search in the currently opened map
 
-    ![](images/path-dropdown.png){width="350" align="left"}  
+    ![](images/path-dropdown.png){width="350"}  
         
 1. Enter the search string in the **Find** field. To narrow down results, select the **Filter** icon next to the Find field and select the following desired filters: 
 
@@ -1207,11 +1207,11 @@ To perform the global search and replace without Source mode, perform the follow
 
     - **Include indirect references**: Select this option if you want to search the string in the indirect references also within the DITA map. By default, this is disabled so the search is performed only on the direct references.
 
-    ![](images/find-filters.png){width="350" align="left"}    
+    ![](images/find-filters.png){width="350"}    
 
 1. Press Enter or select **Search** icon to perform the search.
 
-    ![](images/search-icon.png){width="350" align="left"}
+    ![](images/search-icon.png){width="350"}
 
 1. Select a file from the search result list. The file is opened in the Author view in the content editing area with the searched term highlighted in the content.      
 
@@ -1221,12 +1221,12 @@ To perform the global search and replace without Source mode, perform the follow
 
     - **Create new version after replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file. If you don't select this option, then the changes are saved in the current version of the topic and no new version is created.
 
-    ![](images/replace-settings.png){width="350" align="left"}   
+    ![](images/replace-settings.png){width="350"}   
 
 
 1. Select **Replace occurrence** to replace the currently highlighted search string in the topic or select the top and bottom arrows to move to the next or previous occurrence of the text
 
-    ![](images/replace-occurrence.png){width="350" align="left"}
+    ![](images/replace-occurrence.png){width="350"}
 
 1. Select **Replace all** to replace all occurrences of the searched term in a single file with the replace term in a single go. You will be shown a notification after replacing all the occurrences in the selected file.
 
@@ -1234,7 +1234,7 @@ To perform the global search and replace without Source mode, perform the follow
     >
     > To enable then**Replace all** icon, your Folder profile administrator or System administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**). If errors occur during the replace operation, those files will be skipped due to XML parsing issues or DITA-related errors.
 
-    ![](images/replace-all.png){width="350" align="left"}
+    ![](images/replace-all.png){width="350"}
 
 1. You can als hover over a file from the search result list to view **Replace all in File** icon on the right of it, that enables you to replace all the occurrences of the term in a single file. 
 
@@ -1242,15 +1242,15 @@ To perform the global search and replace without Source mode, perform the follow
     >
     > You also get the **Remove** icon to remove the file from the search result. The files which you remove are moved out of the list and the searched term is not replaced in them.
 
-    ![](images/replace-all-in-file-no-source.png){width="350" align="left"}
+    ![](images/replace-all-in-file-no-source.png){width="350"}
 
 Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will view "Replace all in progress" status. You can also abort the replace all operation in between or view the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
 
-![](images/replace-all-in-progress.png){width="350" align="left"}
+![](images/replace-all-in-progress.png){width="350"}
 
 You can also use the **Find in map** option from the **Options** menu of a map to find and replace text in a map. This option appears for a map opened in the repository panel or in the map view.
 
-![](images/map-options-menu.png){width="650" align="left"}
+![](images/map-options-menu.png){width="650"}
 
 </details>
 
@@ -1278,11 +1278,11 @@ To view the review comments in the active review tasks that are present in your 
 
 1. Select Review in the left panel. The **Review** panel opens.  All the review projects and the active review tasks within the review projects, that you're part of are displayed.
 
-    ![](images/web-editor-review-panel.png){width="300" align="left"}
+    ![](images/web-editor-review-panel.png){width="300"}
 1. Select a review project and then select a review task from the list to open it. 
 1. You can select the **Open project dashboard** icon to open the project in the **Projects console**. 
 
-    ![](images/web-editor-project-dashboard.png){width="300" align="left"}
+    ![](images/web-editor-project-dashboard.png){width="300"}
 
 1. You can also filter your projects in the following ways:
 
@@ -1290,7 +1290,7 @@ To view the review comments in the active review tasks that are present in your 
 
     - Select ![](images/filter-search-icon.svg)  to open the **Filter** dialog box. You can select all or only specific projects. The selected projects are listed in the **Review** panel.
 
-        ![](images/active-review-select-project.png){width="300" align="left"}
+        ![](images/active-review-select-project.png){width="300"}
 
        The **Filter** dialog also includes the following options that can be enabled or disabled using the toggle:
 
@@ -1306,7 +1306,7 @@ To view the review comments in the active review tasks that are present in your 
 1. You can also enter the search term or text you want to find in the topic's title or file path. The topics which contain the term in the title or the file path are listed. 
 1. Double-click any topic to open it in the author view. You can view the comments in the **Comments** panel.
 
-    ![](images/active-review-task-comments.png){   align="left"} 
+    ![](images/active-review-task-comments.png){  } 
 
    >[!NOTE]
    > 

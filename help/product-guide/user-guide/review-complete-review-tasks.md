@@ -18,7 +18,7 @@ Perform the following steps to complete a review task:
 1. Open the review task assigned to you.
 2. Select **Mark as done** from the top as shown below: 
 
-    ![](images/review-task-mark-as-done.png){width="350" align="left"}
+    ![](images/review-task-mark-as-done.png){width="350"}
 
     The **Complete task** dialog is displayed.
 3. In the **Complete task** dialog, add final comments for the Author and select **Complete**. 
@@ -29,20 +29,20 @@ Perform the following steps to complete a review task:
 
     For example, as a Reviewer, you may add a comment as a follow-up action for the Author:
 
-    ![](images/complete-task-dialog-followup.png){width="350" align="left"}
+    ![](images/complete-task-dialog-followup.png){width="350"}
 
     Or, add a comment to indicate the completion of the task as shown below:    
 
-    ![](images/complete-task-dialog.png){width="350" align="left"}
+    ![](images/complete-task-dialog.png){width="350"}
     
 
 You have successfully marked the task as completed, and its status is now set to **Completed**. No further actions are allowed once the task is marked as completed. A notification is sent to the Author or initiator of the review task to draw their immediate attention. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md).
 
-![](images/task-completed-status.png){width="350" align="left"}
+![](images/task-completed-status.png){width="350"}
 
 Based on the feedback, if the Author or initiator of the task decides to [close the review task](./review-close-review-task.md), the task status on the Review UI is changed to **Closed**. 
 
-![](images/review-status-closed-review-ui.png){width="350" align="left"}
+![](images/review-status-closed-review-ui.png){width="350"}
 
 ## View task-level comments
 
@@ -50,11 +50,11 @@ All task-level comments are displayed in the **Tasks comments** dialog, which is
 
 To access task-level comments from the Review UI, navigate to the left panel and select the **Task comments** icon. 
 
-![](images/task-comments-icon.png){width="350" align="left"}
+![](images/task-comments-icon.png){width="350"}
 
 The **Task comments** dialog is displayed on the right. 
 
-![](images/task-comments-reviewer.png){width="350" align="left"}
+![](images/task-comments-reviewer.png){width="350"}
 
 The comments within the dialog are displayed in chronological order, with the recent comments appearing first and the oldest comments appearing last. This order helps you follow the conversation as it progressed over time.
 

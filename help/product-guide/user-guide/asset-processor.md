@@ -23,7 +23,7 @@ Follow the below mentioned steps to process the assets:
 1. In the **Tools** panel select **Guides**.
 1. Select the **Bulk Processor** tile.
 
-    ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
+    ![flow-asset-processor](images/flow-asset-processor.png)
 
 1. The Guides Bulk Processor window opens with the details shown below. Also, only the information pertaining to the last five migrations are displayed on this window. 
 
@@ -43,13 +43,13 @@ Follow the below mentioned steps to process the assets:
 
     - **Status**: Shows the status of processing as In progress, Completed or Cancelled.
 
-    ![Guides-asset-processor](images/guides-asset-processor-new.png){align="left"}
+    ![Guides-asset-processor](images/guides-asset-processor-new.png)
 
 1. Select **New Process** tab on the top right corner of the window to start a new processing task.
 
     The **New process** dialog opens. 
 
-    ![New-process-asset-processor](images/new-asset-processor.png){width="350" align="left"}
+    ![New-process-asset-processor](images/new-asset-processor.png){width="350"}
 
 1. Provide the following details in the dialog:
 
@@ -66,7 +66,7 @@ Follow the below mentioned steps to process the assets:
 
 1. Select **Create**. You get a pop-up showing **Success and the Process triggered successfully**. You can see the status of the processing task on the window.
 
-    ![Message-asset-processor](images/message-asset-processor.png){width="350" align="left"}
+    ![Message-asset-processor](images/message-asset-processor.png){width="350"}
 
 
 ## Additional options for asset processing tasks   
@@ -75,16 +75,16 @@ Additional options are available for the processing task once it has been initia
 
 - **Restart** : Restarts the previously successful asset processing task.
 
-    ![restart-asset-processor](images/restart-asset-processor.png){width="650" align="left"}
+    ![restart-asset-processor](images/restart-asset-processor.png){width="650"}
 
 - **Resume** : Resumes the previously cancelled or failed asset processing task.
 
-    ![resume-asset-processor](images/resume-asset-processor.png){width="650" align="left"}
+    ![resume-asset-processor](images/resume-asset-processor.png){width="650"}
 
 - **Cancel** : Cancels the currently in-progress asset processing task.
 
-    ![cancel-asset-processor](images/cancel-asset-processor.png){width="650" align="left"}
+    ![cancel-asset-processor](images/cancel-asset-processor.png){width="650"}
 
 - **View logs**: Shows the logs for the asset processing task. For in-progress tasks, the  log shows detailed processing info, including estimated time remaining and asset status. This log list displays up to the latest 500 entries. The full log can be downloaded.
 
-    ![logs-asset-processor](images/logs-asset-processor.png){width="650" align="left"}
+    ![logs-asset-processor](images/logs-asset-processor.png){width="650"}

@@ -18,7 +18,7 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
 1. Launch [Adobe Developer Console](https://developer.adobe.com/console). 
 1. After successfully logging in to Developer Console, you'll view the **Home** screen. The **Home** screen is where you can easily find information and quick links, including top-navigation links to Projects and Downloads.
 1. To create a new empty project, select **Create new project** from the **Quick start** links.
-![Quick start links](assets/conf-ss-quick-start.png) {width="550" align="left"}
+![Quick start links](assets/conf-ss-quick-start.png) {width="550"}
 *Create a new project.*
 
 1. Select **Add API** from the **Projects** screen.  The **Add an API** screen appears. This screen displays all available APIs, Events, and services for Adobe products and technologies with which you can develop applications.
@@ -28,14 +28,14 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
 *Add I/O Management API to your project.*
 
 1. Create a new **OAuth credential** and save it.
-![OAuth credential tile in configure API](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+![OAuth credential tile in configure API](assets/conf-ss-OAuth-credential.png) {width="3000"}
 *Configure OAuth credential to your API.*
 
 1. In the  **Projects** tab, choose the **OAuth Server to Server** option and then select the newly created credentials.
 
 1. Select the **OAuth Server-to-Server** link to view the credential details of your project.  
 
-    ![connected credentials](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+    ![connected credentials](assets/conf-ss-connected-credentials.png) {width="800"}
 
     *Connect to the project to view the credential details.*
 
@@ -63,7 +63,7 @@ Perform the following steps to add IMS configuration to the environment:
 1. Switch to the **Configuration** tab.
 1. Update the SERVICE_ACCOUNT_DETAILS JSON field. Ensure you are using the same name and configuration as given in the following screenshot.
 
-  ![ims service account configuration](assets/ims-service-account-config.png){width="800" align="left"}
+  ![ims service account configuration](assets/ims-service-account-config.png){width="800"}
  
 
 *Add the environment configuration details.*

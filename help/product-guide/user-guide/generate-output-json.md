@@ -23,7 +23,7 @@ Perform the following steps to create the JSON preset from the Map console:
 
     The JSON preset is created.
 
-    ![](images/json-preset-dialog-new.png){width="300" align="left"}
+    ![](images/json-preset-dialog-new.png){width="300"}
 
 Once the preset is created, you can configure the following preset configurations that are available under the the General tab. 
 
@@ -37,7 +37,7 @@ Once the preset is created, you can configure the following preset configuration
 
 For details, refer to [JSON configuration](#json-configuration).
 
-![](images/json-preset-config-new.png){align="left"}
+![](images/json-preset-config-new.png)
 
 ## JSON configuration
 

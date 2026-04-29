@@ -11,7 +11,7 @@ After the preset is created, configure the SCORM preset settings. The preset con
 
 - **General:**  Used to specify basic output settings, such as the supported version, output path, ZIP file name, output template, and other options related to Learner's experience.
 
-    ![](assets/scorm-general-tab-v3.png){width="650" align="left"}
+    ![](assets/scorm-general-tab-v3.png){width="650"}
 
     **Learner's experience** 
 
@@ -24,10 +24,10 @@ After the preset is created, configure the SCORM preset settings. The preset con
     
 - **Content:** Use to specify the available conditional filtering (using DITAVAL or using some condition preset) and the variable set.
 
-    ![](assets/scorm-content-tab.png){width="650" align="left"}
+    ![](assets/scorm-content-tab.png){width="650"}
 
 - **Publish:** Use this setting only if you want to publish the output to SCORM Cloud for direct access.
   
-    ![](assets/scorm-publish-tab.png){width="650" align="left"}
+    ![](assets/scorm-publish-tab.png){width="650"}
 
 Once all the changes are configured, save the changes for the SCORM preset using **Save** on the right corner of the toolbar of the SCORM preset page.

@@ -32,11 +32,11 @@ Perform the following steps to create the Custom preset from the Map console:
 
     The Custom preset is created.
 
-    ![](images/custom-preset-dialog.png){width="300" align="left"}
+    ![](images/custom-preset-dialog.png){width="300"}
 
 In the Map console, the preset configuration options are organized under the **General** and **Advanced** tabs. 
 
-![](images/custom-preset-config.png){align="left"}
+![](images/custom-preset-config.png)
 
 The **General** tab contains the following configuration options:
 
@@ -68,7 +68,7 @@ Perform the following steps to create the Custom preset from the Map dashboard:
 
     A new output preset creation form is displayed.
 
-    ![](images/new-output-preset-map-dashboard.png){width="650" align="left"}
+    ![](images/new-output-preset-map-dashboard.png){width="650"}
 
 1.  Enter the required configuration details for the Custom preset. 
 1.  Select **Done** to save the preset settings.

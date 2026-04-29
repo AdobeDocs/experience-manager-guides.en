@@ -47,13 +47,13 @@ The following enhancements have been made to the Schematron user interface for b
 
 - In the Validation panel, an empty‑state message is displayed when no Schematron file is added, providing better clarity and direction for next steps.
 
-    ![](assets/schematron-panel.png){width="350" align="left"}
+    ![](assets/schematron-panel.png){width="350"}
 - When multiple Schematron files are added, they are organized under a consolidated accordion, providing better visibility into the configured Schematron files.
 
-    ![](assets/schematron-panel-error.png){width="350" align="left"}
+    ![](assets/schematron-panel-error.png){width="350"}
 - Based on the role attribute defined in the Schematron file, validation results are now categorized as: `Fatal`, `Error`, `Warn`, or `Info`. Each category includes a visible count along with a contextual tooltip for clearer interpretation. 
 
-    ![](assets/schematron-validation-errors.png){width="350" align="left"}
+    ![](assets/schematron-validation-errors.png){width="350"}
 
 For more details on using Schematron files in Experience Manager Guides, view [Support for Schematron files](../user-guide/support-schematron-file.md).
 
@@ -61,7 +61,7 @@ For more details on using Schematron files in Experience Manager Guides, view [S
 
 A new **Translations** section is now available in the Right panel under *File properties* in the Editor. This section provides direct access to all available language copies for the currently opened asset (map, topic, image, etc.). You no longer need to navigate to the Assets UI to view or access these language copies. 
 
-![](assets/translations-right-panel.png){width="350" align="left"}
+![](assets/translations-right-panel.png){width="350"}
 
 For each language copy, you can hover-over the file to locate its path in the repository or simply select it to open in the Editor. In addition to opening files, you can also perform many actions using the **Options** menu. Some of the actions that you can perform include Edit, Preview, Copy UUID, Copy Path, Add to collections, and Properties.
 
@@ -74,7 +74,7 @@ Now, you can search citations across all Journal fields, such as *Title*, *Journ
 
 For more details on adding citations in Experience Manager Guides, view [Add and manage citations in your content](../user-guide/web-editor-apply-citations.md). 
 
-![](assets/add-citations.png){width="350" align="left"}
+![](assets/add-citations.png){width="350"}
 
 
 

@@ -43,7 +43,7 @@ Perform the following steps to create the AEM Sites preset using composite compo
     The preset for AEM Sites is created.
 
 
-    ![New ](images/new-aem-sites-dialog-box.png){width="300" align="left"}
+    ![New ](images/new-aem-sites-dialog-box.png){width="300"}
 
 <!--
 ### Generate the AEM Sites output using the templates
@@ -82,7 +82,7 @@ In the Map console, the preset configuration options for composite component map
 - Topic list
 - Cross map references 
 
-![New ](images/aem-sites-new-config.png){width="650" align="left"}
+![New ](images/aem-sites-new-config.png){width="650"}
 
 **General**
 
@@ -116,7 +116,7 @@ The **Content** tab contains the following configuration options:
 
 The **Topic list** tab displays the list of topics present in the current working copy of the DITA map. By default, all topics are included. You can select specific topics and generate the AEM Sites output only for them. For example, you have updated some topics so you can publish only those topics instead of publishing the entire DITA map.
 
-![aem sites topic list](images/aem-presets-topic-list.png) {align="left"}
+![aem sites topic list](images/aem-presets-topic-list.png) 
 
 
 >[!NOTE] 
@@ -139,7 +139,7 @@ Once configured, save the changes done to the preset, and select **Generate** to
 
 The steps to create the AEM Sites preset using legacy component mapping are the same as those outlined in [Composite component mapping](#use-composite-component-mapping) section above. However, while creating the preset, ensure that you select the **Use legacy component mapping** option in the **New output preset** dialog.
 
-![](images/aem-sites-output-legacy.png) {width="300" align="left"}
+![](images/aem-sites-output-legacy.png) {width="300"}
 
 In the Map console, the preset configuration options for legacy component mapping are organized under the following tabs:
 
@@ -147,7 +147,7 @@ In the Map console, the preset configuration options for legacy component mappin
 - Content
 - Cross map references 
 
-![New ](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
+![New ](images/aem-sites-preset-legacy-config.png){width="500"}
 
 **General**
 
@@ -165,7 +165,7 @@ The **General** tab contains the following configuration options:
 
 **Content**
 
-![New ](images/aem-sites-content-tab.png){width="650" align="left"}
+![New ](images/aem-sites-content-tab.png){width="650"}
 
 The **Content** tab contains the following configuration options:
 

@@ -41,11 +41,11 @@ This section explains how Adobe Experience Manager Guides handles the basic file
 
 The copy-paste operation for folders in the Assets UI runs asynchronously in the background, allowing you to continue working while the system processes the request. A pop-up message is displayed to indicate the process has been initiated.   
 
-![](images/copy-folders-success-popup.png){width="350" align="left"}
+![](images/copy-folders-success-popup.png){width="350"}
 
 Once the operation is complete, a success or failure notification is triggered to indicate whether the operation was successful or failed.
 
-![](images/copy-folders-success-notification.png){width="650" align="left"}
+![](images/copy-folders-success-notification.png){width="650"}
 
 
 ## Drag-and-drop files 

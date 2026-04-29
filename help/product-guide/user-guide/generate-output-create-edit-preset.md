@@ -16,14 +16,14 @@ You can edit the selected output preset by directly changing the required fields
 Additionally, you can duplicate or delete an output preset using the **Options** dropdown menu as shown below.
 
 
-![](images/delete-preset-map-console.png){align="left"}
+![](images/delete-preset-map-console.png)
 
 
 ## Using Map dashboard
 
 You can edit, duplicate and delete an output preset using the map dashboard by selecting the required tab from the top bar as shown below. 
 
-![](images/create-new-preset-map-dashboard-new.png){align="left"}
+![](images/create-new-preset-map-dashboard-new.png)
 
 
 

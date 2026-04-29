@@ -35,11 +35,11 @@ You can access the **Content properties** feature by selecting the **Content pro
 
 1. Select **Add**. 
 
-    ![attrubutes in content properties](images/properties-tab-attributes_cs.png){width="300" align="left"}
+    ![attrubutes in content properties](images/properties-tab-attributes_cs.png){width="300"}
 
 1. In the **Attribute** dropdown panel, select the attribute from the dropdown list and specify an attribute's value.  Then select **Add**. 
 
-    ![attributes panel with multiple attributes ](images/attributes-multiple-properties.png){width="300" align="left"}
+    ![attributes panel with multiple attributes ](images/attributes-multiple-properties.png){width="300"}
 
 1. To edit the attribute, hover over it and select **Edit** ![edit-icon](images/edit_pencil_icon.svg).   
 
@@ -66,7 +66,7 @@ The File properties have the following two sections:
 
 The General section gives you access to the following features:
 
-![file-properties](images/file-properties-general.png){width="300" align="left"}
+![file-properties](images/file-properties-general.png){width="300"}
 
 - **File name**: Displays the filename of the selected topic. The filename is hyperlinked to the properties page of the selected file.
 - **ID**: Displays the ID of the selected topic.
@@ -98,7 +98,7 @@ The General section gives you access to the following features:
 
 The References section gives you access to the following features:
 
-![](images/file-properties-references.png){width="300" align="left"}
+![](images/file-properties-references.png){width="300"}
 
 - **Used in**: The Used in references list the documents where the current file is being referred or used.
 - **Outgoing links:** The Outgoing links list the documents that are referred to in the current document.
@@ -123,11 +123,11 @@ This section lists all available language copies for the currently opened asset 
 >
 > Language copies are created when an asset is sent for translation. English (`en`) acts as the source language, and translated copies are generated in their respective target language folders (for example, `de` for German or `fr` for French). If an asset exists only in the `en` folder, no additional language copies are displayed until translation is initiated and completed for the target languages. If the asset is not present in any language folder, **No translations available** is displayed. For more details, view [Best practices for content translation](./translation-first-time.md).
 
-![](images/translations-right-panel.png){width="300" align="left"}
+![](images/translations-right-panel.png){width="300"}
 
 For each language copy, you can hover-over the file to locate its path in the repository or simply select it to open in the Editor. In addition to opening files, you can also perform many actions using the **Options** menu in the Translations section. Some of the actions that you can perform include Edit, Preview, Copy UUID, Copy Path, Add to collections, and Properties.
 
-![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+![](images/translations-right-panel-options-menu.png){width="300"}
 
 
 
@@ -135,7 +135,7 @@ For each language copy, you can hover-over the file to locate its path in the re
 
 Selecting the Review icon opens the review panel wherein you can select a review task for the currently opened document and view comments.
 
-![](images/review-panel-before-opening.png){width="300" align="left"}
+![](images/review-panel-before-opening.png){width="300"}
 
 If you have created multiple Review projects, you can select one from the drop-down and access the review comments.
 

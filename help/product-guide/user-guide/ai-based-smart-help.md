@@ -13,7 +13,7 @@ For example, you may want to ask questions like *How do I publish a map?* You ge
 
 When you open **AI Assistant** on the Homepage, Map console, or Editor, the **Help** panel opens on the right. In case of Editor, the Authoring panel also appears that give you smart authoring capabilities. For details, view [AI Assistant to author documents smartly](./ai-assistant-right-panel.md)
 
-![Smart Help panel](images/smart-help-panel.png){width="300" align="left"}
+![Smart Help panel](images/smart-help-panel.png){width="300"}
 
 *View the **Help** panel.*
 
@@ -31,7 +31,7 @@ Perform the following steps to use the Help panel to find appropriate content an
   
       Depending on your question, you may view the content, applicable images, and links to the articles.
 
-        ![Smart Help panel response](images/smart-help-panel-response.png){width="300" align="left"}
+        ![Smart Help panel response](images/smart-help-panel-response.png){width="300"}
 
 
         *Select the sample question and view the content and images in response.* 
@@ -49,7 +49,7 @@ When you receive a response from AI Assistant in the **Help** panel, you can int
 
 The following options are available to engage with or provide feedback on the responses provided by AI Assistant **Help** panel:
 
-![](images/ai-assistant-response-options.png){width="300" align="left"}
+![](images/ai-assistant-response-options.png){width="300"}
 
 - **Copy**: Copy the response for use in your documents.
 - **Like**: Indicate that the response was helpful or accurate. Select the Like icon to like the response and use the **Tell us more** option to provide detailed feedback.  

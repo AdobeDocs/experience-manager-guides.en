@@ -36,7 +36,7 @@ You can create a baseline from the Map console by performing the following steps
 1. Navigate to the **Baseline** tab, and select the + icon at the top-right to start creating a baseline.
 1. In the **New baseline** dialog box, provide the following details:
 
-    ![Baseline panel](images/baseline-manage.png){width="500" align="left"}
+    ![Baseline panel](images/baseline-manage.png){width="500"}
 
     - Enter a name for the baseline in the **Name** field.
     - In **Configuration**, choose [Manual update](#configuring-baseline-for-manual-update) or [Automatic update](#configuring-baseline-for-automatic-update).
@@ -76,7 +76,7 @@ Select this option for baseline creation to automatically pick the topics accord
     
 Baselines created using the automatic update configuration are updated dynamically. If you generate a baseline, download a baseline, or create a translation project using a baseline, the files are picked dynamically based on the updated labels. For example, if you have used version 1.2 of a topic with Label Release 1.0 for the baseline and later updated version 1.5 with Label Release 1.0, the baseline will be updated dynamically, and version 1.5 will be used.
 
-![Create a baseline](images/dynamic-baseline.png){width="300" align="left"}
+![Create a baseline](images/dynamic-baseline.png){width="300"}
 
 - **Labels**: If the topics have labels specified for them,  then use the **Labels** dropdown to choose from the [listed labels](#labels-list). 
 
@@ -107,7 +107,7 @@ You can manage your existing baselines using the various features on the Baselin
     >
     >Edit operation in case of dynamic baseline allows you to edit the properties of the baseline as the references for dynamic baselines are generated at runtime using the labels.  
 
-    ![options of a baseline](images/baseline-options.png){ align="left"}
+    ![options of a baseline](images/baseline-options.png){}
 
 ### Actions available for an existing baseline
 
@@ -117,7 +117,7 @@ You can also perform the following operations on the baseline from the Options m
 
 You can duplicate a baseline and modify it according to your requirements. 
 
-   ![duplicate a baseline](images/baseline-duplicate.png){width="300" align="left"}
+   ![duplicate a baseline](images/baseline-duplicate.png){width="300"}
    *Duplicate a baseline based on a label or create an exact copy.*
     
  1. Select **Duplicate** from the Options menu of a baseline. The **Duplicate baseline** dialog box opens.
@@ -152,7 +152,7 @@ The labels listed in the dropdown are based on the following criteria:
 
 Using the Filters icon in the **Baseline Filters** panel you can apply filters on the baseline opened in the baseline editing window:
 
-![baseline filters](images/baseline-filter.png){width="300" align="left"}
+![baseline filters](images/baseline-filter.png){width="300"}
 
 - Filter the files based on filenames, or file location.
 -  Filter the files based on the values for different columns like File Type, Reference Type and so on.

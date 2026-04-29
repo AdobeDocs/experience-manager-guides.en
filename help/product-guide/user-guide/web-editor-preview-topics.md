@@ -21,11 +21,11 @@ Perform the following steps to preview a topic from the Editor:
 1. In the Respository panel, navigate to the topic that you want to view.
 1. Hover over the topic that you want to preview and select **Preview** from the Options menu.
 
-    ![](images/preview-topic.png){width="600" align="left"}
+    ![](images/preview-topic.png){width="600"}
 
     The Preview of the topic is displayed. 
 
-    ![](images/preview-pop-up.png){align="left"}
+    ![](images/preview-pop-up.png)
 
 **Preview topics from the Preview mode**
 
@@ -55,7 +55,7 @@ Perform the following steps to preview a topic:
 
 The following operations are available in the toolbar when using the Preview feature from the Assets UI, 
 
-![](images/preview-screen.png){align="left"}
+![](images/preview-screen.png)
 
 
 **Properties**
@@ -72,7 +72,7 @@ The **Used In** references list the documents where the current file is being re
 
 The \(+\) icon in the **Used In** references section allows you to further navigate upwards to find where that topic is being used or referred.
 
-![](images/used-in-dialog_cs.png){align="left"}
+![](images/used-in-dialog_cs.png)
 
 Selecting the ![](images/right-arrow-used-in-dialog.svg)icon next to a document shows the map or topic files where that document is being further referred.
 
@@ -84,7 +84,7 @@ If your topic has conditional content, then you will view the A/B icon on the to
 >
 > The conditional content is highlighted using light background color in the Editor.
 
-![](images/conditional-popup_cs.png){width="300" align="left"}
+![](images/conditional-popup_cs.png){width="300"}
 
 **Edit** 
 
@@ -102,7 +102,7 @@ If your topic has conditional content, then you will view the A/B icon on the to
     >
     > To get the source code view of a DITA map file, select the file in Assets UI and select Source.
 
-    ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
+    ![](images/xml-source-code-view-from-preview_cs.png)
 
 **Share UUID Link** 
 
@@ -114,7 +114,7 @@ If your topic has conditional content, then you will view the A/B icon on the to
 
 A new option **Share UUID Link** is shown in the toolbar of the above-mentioned areas. The following screenshot shows the **Share UUID Link** option in the Preview mode of a topic:
 
-![](images/share-uuid-link_cs.png){align="left"}
+![](images/share-uuid-link_cs.png)
 
 In the Asset UI, this option is visible when you select a file. While in the Preview mode, this option is available in the main toolbar by default. In a DITA map console, this option is visible in the Output Presets section.
 
@@ -134,15 +134,15 @@ When you checkout a topic, the status of the file is shown as checked out in the
 
 Checked out file in the card view:
 
-![](images/checkout-card-62.png){width="300" align="left"}
+![](images/checkout-card-62.png){width="300"}
 
 Checked out file in the list view:
 
-![](images/checkout-list-62.png){width="550" align="left"}
+![](images/checkout-list-62.png){width="550"}
 
 If the Checked out column is not visible, select **View Settings** under **List View** and select the **Checked Out** status in the **Configure Columns** dialog.
 
-![](images/list-view-settings-check-out_cs.png){align="left"}
+![](images/list-view-settings-check-out_cs.png)
 
 >[!TIP]
 >
@@ -160,17 +160,17 @@ If the Checked out column is not visible, select **View Settings** under **List 
 
     1.  In the left rail, select **Version History** and select a version.
 
-        ![](images/timeline-versions62_cs.png){align="left"}
+        ![](images/timeline-versions62_cs.png)
 
     1.  From the listed versions, select the one that you want to use as the base version and select **Preview Version**. The preview of the selected version is shown in the Version Preview window.
 
     1.  From the **Show Diff** list, select the version with which you want to compare the base version.
 
-        ![](images/show-diff-list-cropped.png){align="left"}
+        ![](images/show-diff-list-cropped.png)
 
         The changed content is highlighted in the topic preview. Content highlighted in green signifies the newly added content and content in red is the deleted content.
 
-        ![](images/version-difference.png){align="left"}
+        ![](images/version-difference.png)
 
 
 ## Branch, revert, and subsequent versioning
@@ -211,7 +211,7 @@ If the Checked out column is not visible, select **View Settings** under **List 
 
     1.  Select a version from where you want to create a branch. In the following screenshot, version 1.2 is selected for creating a branch.
 
-        ![](images/branching.png){width="300" align="left"}
+        ![](images/branching.png){width="300"}
 
         >[!NOTE]
         >
@@ -225,15 +225,15 @@ If the Checked out column is not visible, select **View Settings** under **List 
 
         -   If you select this option, then a branch is created from version 1.1. And, a new version of the topic is also created from the current working copy of the topic and saved as the next version – 1.4.
 
-            ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+            ![](images/next_version_created_over_working_copy.png){width="300"}
 
             Version 1.2 becomes your current working copy of the topic. Any version saved after this is created under the new branch of 1.1. For example, the subsequent version of a new topic in this branch will be saved as 1.2.0.
 
-            ![](images/new_version_in_branch.png){width="300" align="left"}
+            ![](images/new_version_in_branch.png){width="300"}
 
         -   If you do not select this option, then no new version from the current working copy of the topic is created. A new branch is created from version 1.2 of the topic. Any subsequent version of the topic is saved under the 1.2 branch as 1.2.0, 1.2.1, and so on.
 
-            ![](images/new_version_without_working_copy.png){width="300" align="left"}
+            ![](images/new_version_without_working_copy.png){width="300"}
 
     1.  Select **OK**.
 

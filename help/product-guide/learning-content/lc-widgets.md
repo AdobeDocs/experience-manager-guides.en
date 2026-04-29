@@ -16,15 +16,15 @@ The available widgets designed to enhance user experience and streamline content
 
 - **Accordion:** Adds an accordion to the content. You can insert suitable text in both the accordion header and its body. Its properties can be managed using the **Content properties**  panel, including options to allow single or multiple accordions to open simultaneously, as well as to add or remove elements. To delete an element or item of the widget, you can also use **Right-click > Delete item**. 
 
-    ![](assets/accordion-learning-content.png){width="650" align="left"}
+    ![](assets/accordion-learning-content.png){width="650"}
 
 - **Carousel:** Adds carousel to the content. You can insert suitable text in both the Card title and its body. Its properties can be managed using the **Content properties** panel, including options to add or remove elements. To delete an element or item of the widget, you can also use **Right-click > Delete item**. 
 
-    ![](assets/carousal-learning-content.png){width="650" align="left"}
+    ![](assets/carousal-learning-content.png){width="650"}
 
 - **Hotspot:** Adds hotspot to a selected image. Begin by choosing an image, then navigate to **Insert > Hotspot**. This opens the Hotspot dialog, where you can configure various options such as setting different hotspot sizes, adding corresponding links, and adjusting the layering by bringing areas forward or backward. To delete an element or item of the widget, you can also use **Right-click > Delete item**. 
 
-    ![](assets/hotspot-learning-content.png){width="650" align="left"}
+    ![](assets/hotspot-learning-content.png){width="650"}
 
 - **Tab:** Allows you to organize content into interactive sections.  Each tab can represent a distinct topic or category; learners can click or tap on the tabs to reveal the corresponding content. Place your cursor where you want the Tab widget to appear in the content, and then navigate to **Insert > Widget > Tab**. This adds a tab container to your content. Now, start adding content to the tab which includes a Tab title and its corresponding content.  To delete an element or item of the widget, you can also use **Right-click > Delete item**. 
 

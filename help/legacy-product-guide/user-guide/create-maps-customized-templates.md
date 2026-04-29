@@ -38,7 +38,7 @@ Perform the following steps to create a topic template:
 
 1.  In the **Assets UI**, navigate to the dita-templates folder.
 
-    ![](images/dita-templates.png){width="800" align="left"}
+    ![](images/dita-templates.png){width="800"}
 
 1.  Click **topics** folder to open it.Click **Create \> DITA Template**.
 1.  On the Blueprint page, select **Topic** and then click **Next.**
@@ -60,7 +60,7 @@ Perform the following steps to create a map template:
 1.  Click **maps** folder to open it.
 1.  Click **Create \> DITA Template.**
 
-    ![](images/create-dita-template.png){width="300" align="left"}
+    ![](images/create-dita-template.png){width="300"}
 
 1.  On the Blueprint page, select **Map** and click **Next**.
 1.  On the Properties page, specify the map template **Title**.

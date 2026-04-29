@@ -18,7 +18,7 @@ Perform the following steps to view and check the output generation log file:
 
     The **General** column of the **Generated Outputs** shows the icons to give a visual cue about the success or failure of the output generation.
 
-    ![](images/output-general-settings.png){width="300" align="left"}
+    ![](images/output-general-settings.png){width="300"}
 
     In the above screenshot, the first and third icons show failed output generation. The second icon shows a successful output generation but with messages. The last one is a successful output generation without any message.
 
@@ -26,7 +26,7 @@ Perform the following steps to view and check the output generation log file:
 
     The log file opens in a new tab.
 
-    ![](images/log-file.png){width="800" align="left"}
+    ![](images/log-file.png){width="800"}
 
 1.  Apply following filters to highlight the text in the log file:
     -   Fatal: Highlights the fatal errors in the log file with pink color.
@@ -60,13 +60,13 @@ Perform the following steps to copy and check the output generation log file in 
 
     In the following sample log file snippet, you can see the `BUILD FAILED` message along with the reason for the error.
 
-    ![](images/dita-error-in-log-file.png){width="650" align="left"}
+    ![](images/dita-error-in-log-file.png){width="650"}
 
     -   *AEM Guides-related error*: The other type of error that you can identify in the log file is related to AEM Guides process itself. In this case, the DITA map file is parsed successfully, but the output generation process fails because of some internal error in AEM Guides. For such kind of errors, you have to seek help from the technical support team.
 
     In the following sample log file snippet, you can see the `BUILD SUCCESSFUL` message, followed by other technical error.
 
-    ![](images/process-error-in-log-file.png){width="650" align="left"}
+    ![](images/process-error-in-log-file.png){width="650"}
 
 
 ## Resolve JSP compilation error 

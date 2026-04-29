@@ -16,7 +16,7 @@ Perform the following steps to create the **Knowledge Base** preset from the Map
 1. Select **Knowledge Base** from the Type dropdown in the **New output preset** dialog box. 
 1. In the **Target** field, select a target for the generated output. The available options are; **Adobe Experience Manager**, **Salesforce**, and **ServiceNow**.
 
-    ![](./images/knowledge-base-preset-dialog-box.png){width="350" align="left"}
+    ![](./images/knowledge-base-preset-dialog-box.png){width="350"}
 
 1. Select the **Add to current folder profile** option to create an output preset within the current folder profile. The ![folder profile icon](images/global-preset-icon.svg) indicates a folder-profile-level preset.  
 
@@ -31,7 +31,7 @@ Perform the following steps to create the **Knowledge Base** preset from the Map
 
 The Knowledge Base preset configuration options are organized under the **General**, **Articles**, and the selected target (**AEM**/ **ServiceNow**/ **Salesforce**) tabs. 
 
-![](./images/kb-aem-preset.png){width="550" align="left"}
+![](./images/kb-aem-preset.png){width="550"}
 
 ### General
 

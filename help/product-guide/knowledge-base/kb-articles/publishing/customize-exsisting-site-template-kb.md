@@ -47,11 +47,11 @@ The Documentation Container Page template is used to create the Product Document
 - It serves as the entry point or homepage for a specific set of documentation (example, a product manual or guide).
 - Add id="category-page" property to the jcr:content of the initial node of the template. This ensures all pages created from this template are automatically treated as documentation containers by AEM Guides.
 
-    ![Adding id="category-page"](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
+    ![Adding id="category-page"](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650"}
 
 - Add a Text component with the mandatory property: text="$category.html$".
 
-    ![Adding text component](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+    ![Adding text component](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
 
 - Typically includes navigation elements, such as links to sections or topics within the documentation.
 - It can be customized to include branding, headers, footers, and other design elements.
@@ -65,7 +65,7 @@ If you have a DITA map for a product manual, the documentation container page te
 - Each topic in a DITA map is rendered as a separate page using this template.
 - Contains a **Text component** with the mandatory property: text="$topic.content$".
 
-    ![Adding text component with mandatory property](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
+    ![Adding text component with mandatory property](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - This placeholder is replaced with the actual content of the DITA topic during site generation.
     - The text component is typically placed inside a **Container component** to ensure proper layout and styling.
@@ -76,7 +76,7 @@ If you have a DITA topic about "Installation Instructions," the topic page templ
 
 **Container component:**
 
-![Adding container component](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+![Adding container component](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ If you have a DITA topic about "Installation Instructions," the topic page templ
 
 Add the same (container and text component) in the structure of the same template:
 
-![Adding container and text component](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+![Adding container and text component](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
 ## Render Guides Components in customized templates
 
@@ -118,7 +118,7 @@ By default, the client libraries (clientlibs) provided in the AEM Guides compone
     1. Open the **Product Page** in **Editor Mode**.
     2. Select **Edit Template** (this will open a URL like conf/settings/wcm/templates/structure.html).
 
-        ![Edit template](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"}
+        ![Edit template](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
 
 2. **Update Page Policy:**
 
@@ -129,7 +129,7 @@ By default, the client libraries (clientlibs) provided in the AEM Guides compone
 
 3. **Save changes:** Save the template after adding the required client libraries.
 
-    ![Add client libraries](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
+    ![Add client libraries](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
 
 
 >[!NOTE]

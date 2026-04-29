@@ -35,7 +35,7 @@ In AEM Guides, you can add citations or import citations and apply them to your 
 
 After inserting your citations to your topics, you can preview them in the Web Editor. You can also publish content with citations using Native PDF.
 
-![Citations listed in a panel](assets/citation-panel.png){width="300" align="left"}
+![Citations listed in a panel](assets/citation-panel.png){width="300"}
 
 
 For more details, view [Add and manage citations in your content](../user-guide/web-editor-apply-citations.md).
@@ -48,7 +48,7 @@ Now AEM Guides offers a way to publish a topic or the elements within a topic to
 
 Capitalize the power of AEM Guides and content fragments and use content fragments in any AEM site. You can also extract the details via APIs supported by content fragments.
 
-![option to publish content fragment](assets/content-fragment-publish.png){width="550" align="left"}
+![option to publish content fragment](assets/content-fragment-publish.png){width="550"}
 
 
 ## Review Enhancements
@@ -60,7 +60,7 @@ AEM Guides now provides an improved review capability with the following functio
 Now AEM Guides makes your reviews more seamless. It provides the Reviews panel within the Web Editor. The Reviews panel displays all the review projects and the active review tasks within the review projects that you're part of.  
 
 As an author, this feature helps you easily open the review tasks, view the comments, and quickly address the comments in a centralized view. 
-![](assets/active-review-task-comments.png){width="800" align="left"} 
+![](assets/active-review-task-comments.png){width="800"} 
 For more details, view the **Review** feature description within the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section. 
 
 ### Search review topics 
@@ -69,7 +69,7 @@ Conducting reviews is a critical feature of AEM Guides. It helps the reviewers t
 Now you can search for a topic by entering some part of the text of the title or filepath in the search bar of the topics view of the review panel. You can also choose to view all topics or view topics with comments. By default, you can view all topics present in the review task.
 
 
-![Search in a review topics panel](assets/review-search-topic.png){width="800" align="left"}
+![Search in a review topics panel](assets/review-search-topic.png){width="800"}
 
 For more details, view [Review topics](../user-guide/review-topics.md).
 
@@ -117,7 +117,7 @@ Metadata is the description or definition of your content. This metadata is stor
 Now In AEM Guides you can also select the metadata properties of your assets and add them to the page layout. Then AEM Guides picks these metadata properties of your assets and publishes them in your PDF output. 
 
  
-![add metadata for native pdf](assets/native-pdf-metadata-asset.png){width="300" align="left"}
+![add metadata for native pdf](assets/native-pdf-metadata-asset.png){width="300"}
 
 >[!NOTE]
 >
@@ -180,7 +180,7 @@ Now AEM Guides allows you to download the temporary HTML files created while gen
 
 This feature enables better insights into the generation process with access to interim styles and layouts and helps you correct or change your CSS styles according to your requirements. 
 
-![the advanced settings dialog of native pdf](assets/native-pdf-advanced-settings.png){width="800" align="left"}
+![the advanced settings dialog of native pdf](assets/native-pdf-advanced-settings.png){width="800"}
 
 For more details, view [Create a PDF output preset](../web-editor/native-pdf-web-editor.md#create-output-preset).   
 
@@ -193,7 +193,7 @@ Now the CSS editor is redesigned for a better user experience with selectors and
 
 You can now use custom selectors to add complex styles. The new Selector field helps you to add custom selectors besides the Class, Tag, and Pseudo Class combination. For example, you can create `table a.link` style for all the hyperlinks inside a table.
 
-![adding styles in the native pdf templates](assets/add-styles-native-pdf.png){width="300" align="left"}
+![adding styles in the native pdf templates](assets/add-styles-native-pdf.png){width="300"}
 
 #### Customize properties of style
 
@@ -204,14 +204,14 @@ Now AEM Guides introduces you to a new properties panel under the preview sectio
  
 Now you can also rename or move a file from the repository panel. This feature is handy and helps manage your files easily from the Repository panel. You can select a file and rename or move it using the **Options** menu for the selected file. AEM Guides displays a success message when you move or rename a file.   
 
-![options menu of a file](assets/rename-move-assets.png){width="550" align="left"}
+![options menu of a file](assets/rename-move-assets.png){width="550"}
 
 For more details on the Options menu of a file, view the **Repository view** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
 ## Broken Links report in the Web Editor
 
 AEM Guides allows you to check the overall completeness of your technical documents and generate reports from the Web Editor. Now in June 2023 release AEM Guides provides you the feature to view and fix broken links. This is a  useful report which helps you manage your broken links. You can easily view the broken links present in your DITA map and also fix them. 
- ![broken link report](assets/broken-link-report.png){width="800" align="left"}
+ ![broken link report](assets/broken-link-report.png){width="800"}
 
 Once you fix a link, it is not displayed under the list of broken links.  
 
@@ -245,7 +245,7 @@ AEM Guides also provides the support for XML Localization Interchange File Forma
 
 Using this format,  you can export the content to the industry standard XLIFF format, and then provide the same to the translation vendors. For more details, view [Create a translation project](../user-guide/translate-documents-web-editor.md#create-translation-project).
 
- ![types of translation projects](assets/translation-project-types.png){width="350" align="left"}
+ ![types of translation projects](assets/translation-project-types.png){width="350"}
 
 
 ## Map Collection enhancements
@@ -255,7 +255,7 @@ A Map Collection helps you organize multiple maps and batch publish them. Many n
 * Now, you can add Native PDF output presets to a map collection and use them to generate the PDF output. 
 * You can view the global and folder profile presets created by your administrator and use them to generate the PDF output. 
 * Now, you can not only select an individual preset, but you can also enable all the folder profile presets for a DITA map in one go.
-![edit a map collection](assets/edit-map-collection.png){width="800" align="left"}   
+![edit a map collection](assets/edit-map-collection.png){width="800"}   
 
 For more details, view [Use Map Collection for output generation](../user-guide/generate-output-use-map-collection-output-generation.md).
 
@@ -268,7 +268,7 @@ For more details, view [Bulk activation of published content](../user-guide/conf
 ## Improved Bulk Move Tool
 
 Now as an administrator, you can use the improved Bulk Move Tool to move folders with many files from one location to another. 
-You can use the browse file dialog to select the source folders you want to move. You can also browse to select the destination location to move the source folders. Select ![info icon](assets/info-icon.svg) {width="25" align="left"} near a field to view more information about it.
+You can use the browse file dialog to select the source folders you want to move. You can also browse to select the destination location to move the source folders. Select ![info icon](assets/info-icon.svg) {width="25"} near a field to view more information about it.
 
 For more details, view [Move files in bulk](../user-guide/authoring-file-management.md#move-files-bulk).
 
@@ -276,7 +276,7 @@ For more details, view [Move files in bulk](../user-guide/authoring-file-managem
 
 AEM Guides helps you create a collection or favorite list of your  files and folders and use them easily. Now **Options** menu is also available in the **Favorites** panel. You can rename the selected collection or delete it from the **Options** menu. You can select the **Refresh** option to get a fresh list of files or folders from the repository. You can also view the folder contents in the Assets UI.   
   
-![the favorites panel](assets/favorites-options.png){width="650" align="left"}
+![the favorites panel](assets/favorites-options.png){width="650"}
 
 >[!NOTE]
 >
@@ -288,6 +288,6 @@ For more details on the **Options** menu of a Favorites collection, view the **F
 
 You can also now use the device theme. Using the **User Preferences**, you can configure AEM Guides to automatically switch between light and dark themes based on the theme of your device.  
 
-![user preferences](assets/device-theme-user-preferences.png){width="550" align="left"}
+![user preferences](assets/device-theme-user-preferences.png){width="550"}
 
 For more details, view the **User Preferences** feature description in the [Main toolbar](../user-guide/web-editor-features.md#id2051EA0G05Z) section.

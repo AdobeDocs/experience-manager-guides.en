@@ -28,16 +28,16 @@ Perform the following steps to generate output for one or more topics in your DI
 1. In the **Author** tab, select the topic in your DITA map which you want to publish.
 
 1. Select **Quick Generate** from the Options menu of the selected topic.
- ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
+ ![](images/select-topic-options-menu_cs.png){width="650"}
 
 1.  To publish a topic used in a single DITA map, select the output presets of your map which you want to use to publish and click **Generate**.
-![](images/select-preset_cs.png){width="350" align="left"}
+![](images/select-preset_cs.png){width="350"}
 
 1.  You will see the status of the output generation process. To view the output, hover the mouse pointer over the topic and click View Output.
 
 1. If you have a common topic which is used across multiple topics, select the various DITA maps and also the output presets which you want to use to publish and click **Generate.**
 
-    ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
+    ![](images/select-preset-multiple-maps_cs.png){width="350"}
 
 1.  You will see the status of the output generation process.
 
@@ -46,7 +46,7 @@ Perform the following steps to generate output for one or more topics in your DI
     -   **Map**: Lists the DITA maps which contain the selected topic.
     -   **Status**: Displays the publishing status of each topic.
     To view the output, hover the mouse pointer over the topic and click View Output.
-    ![](images/output-multiple-maps_cs.png){align="left"}
+    ![](images/output-multiple-maps_cs.png)
 
 
 ## Generate output for a DITA map from the Web Editor 
@@ -57,7 +57,7 @@ Perform the following steps to generate output for the entire DITA map:
 
 1.  Select **Quick Generate** from the Options menu of your DITA map.
 
-    ![](images/select-map-options-menu_cs.png){width="650" align="left"}
+    ![](images/select-map-options-menu_cs.png){width="650"}
 
 1.  Select the output presets of your DITA map which you want to use to publish and click **Generate.**
 
@@ -78,7 +78,7 @@ Perform the following steps to generate output for more than one topic in your D
     >
     > You will see only those output presets of the current DITA map which contain all the selected topics.
 
-    ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
+    ![](images/generate-output-multiple-topics_cs.png){width="650"}
 
 1.  You will see the status of the output generation process.To view the output, hover the mouse pointer over the topic and click View Output.
 

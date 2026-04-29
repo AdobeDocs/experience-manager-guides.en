@@ -17,17 +17,17 @@ Perform the following steps to add a Topic to a course:
 
 1. Open a course in the **Course manager** and select **Add new** from the **Options** menu.  
 
-    ![](assets/workflow-learning-content.png){width="650" align="left"}
+    ![](assets/workflow-learning-content.png){width="650"}
     
 1. Select **Topic**.
 
    The **New learning topic** dialog is displayed.  
 
-    ![](assets/new-learning-topic-dialog.png){width="350" align="left"}
+    ![](assets/new-learning-topic-dialog.png){width="350"}
 
 1. Select the template you want from the dropdown menu. 
   
-    ![](assets/template-types-lc.png){width="350" align="left"}
+    ![](assets/template-types-lc.png){width="350"}
 
 1. Provide a suitable title for the Topic. 
 1. Select **Create**.

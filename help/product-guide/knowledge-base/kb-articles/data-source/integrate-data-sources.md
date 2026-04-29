@@ -93,9 +93,9 @@ Perform the following steps to integrate the content into Experience Manager Gui
         ```
         
       - Templates
-        ![Templating Engine](assets/data-source-TemplatingEngine.png){width="800" align="left"}
+        ![Templating Engine](assets/data-source-TemplatingEngine.png){width="800"}
       - Data generated from same data source but different templates
-        ![Data Generated](assets/data-source-templates-topics.png){width="800" align="left"}        
+        ![Data Generated](assets/data-source-templates-topics.png){width="800"}        
 
 1. **Generate content using the templates** 
    - You can generate the content from the templates that you have created. 

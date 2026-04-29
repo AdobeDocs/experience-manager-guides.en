@@ -19,7 +19,7 @@ To generate an Sites page, perform the following steps:
 1. Select **New output** icon![new output icon](./images/Add_icon.svg) from the **Outputs** section.
 1. Select **Sites page**.  
 1. In the **Generate Sites page** dialog box, fill in the following details:
-        ![Add the path and template details in Generate Sites page](images/aem-sites-page-generate.png){width="500" align="left"}
+        ![Add the path and template details in Generate Sites page](images/aem-sites-page-generate.png){width="500"}
         
     * **Path**: Browse and select the path of the folder where you want to publish the Sites page. 
     * **Title**: Type the title of the Sites page. By default, the title is populated with the title of the topic. You can edit it. This title is used to generate the name of the Sites page.
@@ -43,7 +43,7 @@ To generate an Sites page, perform the following steps:
 1. Select **Generate** to publish the Sites page.
 1. You can view the Sites page for a topic under the **Outputs** section in the **File Properties**. The Sites pages appear according to the date and time of their publishing, with the latest as the first. 
  
-    ![View the Sites page for a topic](images/aem-sites-output-new.png){width=300 align="left"}
+    ![View the Sites page for a topic](images/aem-sites-output-new.png){width=300}
        
      *View the Sites page present for a topic and republish them.*  
 

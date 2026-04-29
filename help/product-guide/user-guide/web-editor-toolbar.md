@@ -22,7 +22,7 @@ The toolbar appears when you open a topic or map for editing in the Editor. Feat
 
 The Menu dropdown provides access to the editing actions, Find and replace, Version history, Version label, Merge, Create review task, and Show menu (which includes Track changes, Tags, Non-breaking space).
 
-![Menu dropdown for Editor toolbar](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
+![Menu dropdown for Editor toolbar](images/editor-toolbar-menu-dropdown-new.png){width="350"}
 
 The detailed explanation of these features are as follows:
 
@@ -35,7 +35,7 @@ When editing a topic in the Editor, access the various editing actions such as *
 
 The **Find and replace** feature is available in Author and Source view modes. When enabled, the Find and Replace text bar appears at the bottom of the topic editing area. You can use the shortcut keys **CTRL**+**F** to invoke the Find and replace bar.
 
-![](images/find-replace-bar.png){align="left"}
+![](images/find-replace-bar.png)
 
 Using the settings icon \(![](images/settings-find-replace-icon.svg)\), you can toggle the **Ignore case** and **Whole word only** search options. To perform the case-insensitive search, turn on \(or select\) the **Ignore case** option. Else, if you want to perform the case-sensitive search, turn off \(or deselect\) the **Ignore case** option. You can also choose to search a whole word.
 
@@ -61,7 +61,7 @@ The **Version history** feature in the Editor allows you to check the available 
 
    The **Version History** dialog box appears.
 
-   ![Version history dialog box](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Version history dialog box](images/version-history-dialog-web-editor.png){width="550"}
     
     *Preview the changes in the different versions of a topic.*
 
@@ -78,7 +78,7 @@ The **Version history** feature in the Editor allows you to check the available 
 
     **Metadata** tab: The newly added metadata is in green font, and the deleted metadata is in red font.
 
-    ![Metadata difference for versions ](images/metadata-version-diff.png){width="550" align="left"}
+    ![Metadata difference for versions ](images/metadata-version-diff.png){width="550"}
     
     *Compare the metadata of different versions in the Version history.*
 
@@ -94,7 +94,7 @@ The **Version history** feature in the Editor allows you to check the available 
 
     The Revert Version dialog box appears.
 
-    ![](images/version-history-revert-dialog-save-working-copy.png){width="550" align="left"}
+    ![](images/version-history-revert-dialog-save-working-copy.png){width="550"}
 
 1. \(*Optional*\) Provide a reason for reverting to an earlier version. You can also create a new version of the currently active working copy of your topic.
 
@@ -104,7 +104,7 @@ The **Version history** feature in the Editor allows you to check the available 
 
     When you revert to an earlier version, a visual cue is shown indicating that the version you are currently working on is not the latest version.
 
-    ![](images/older-version-visual-cue.png){  align="left"}
+    ![](images/older-version-visual-cue.png){ }
 
  </details>
 
@@ -128,7 +128,7 @@ There are different methods through which you can apply labels to your topics - 
 
     The Version Label Management dialog box is displayed.
 
-    ![](images/version-label-management-dialog.png){width="350" align="left"}
+    ![](images/version-label-management-dialog.png){width="350"}
 
     The Version Label Management dialog box is split into two parts — the left panel has a list of versions available for the topic along with label drop-down list \(or a text box to enter a label\) and the right panel with a preview of the topic.
 
@@ -169,7 +169,7 @@ To merge changes in a topic, perform the following steps:
 
     The Merge dialog appears.
 
-    ![](images/merge-changes-in-topic.png){width="550" align="left"}
+    ![](images/merge-changes-in-topic.png){width="550"}
 
 1. *\(Optional\)* You can also browse and select a new file from some other location in your repository.
 
@@ -199,7 +199,7 @@ To merge changes in a map file, perform the following steps:
 
     The Merge dialog box appears.
 
-    ![](images/merge-changes-in-map.png){width="550" align="left"}
+    ![](images/merge-changes-in-map.png){width="550"}
 
 1. *\(Optional\)* You can also browse and select a new file from some other location in your repository.
 
@@ -229,7 +229,7 @@ The Show menu comprises of the following features:
 
 - **Track changes:** You can keep a track of all updates made on a document by enabling the Track changes mode. After enabling the track changes, all insertions and deletions are captured in the document. All deleted content is highlighted using Strikethrough and all insertions are highlighted in green color text. In addition, you also get the change bars at the edge of the topic page. Again, a red bar is shown for deleted content and a green bar is shown for added content. In case there is an addition and deletion on the same line, then both green and red bars are shown.
 The following screenshot highlights the deleted and inserted content along with the change bars:
- ![](images/track-changes-content.png){width="650" align="left"}
+ ![](images/track-changes-content.png){width="650"}
 
   A typical use case for tracking changes in a document can be for doing peer review. You can enable track changes and share your document for review, and the reviewer then makes changes with track changes ON. When you receive the document, you should then have a mechanism to view the suggested updates along with a convenient way to accept or reject changes.
 
@@ -237,7 +237,7 @@ The following screenshot highlights the deleted and inserted content along with 
 
   To access the feature, select the **Track changes** icon in the right panel.
 
-  ![](images/changes-panel_cs.png){width="300" align="left"}
+  ![](images/changes-panel_cs.png){width="300"}
 
   Selecting a tracked change selects the changed content in the document. You can accept a change by selecting the Accept Change icon or reject it by selecting the Reject Change.
 
@@ -251,7 +251,7 @@ The following screenshot highlights the deleted and inserted content along with 
 
   The following screenshot shows a document with the Tags view enabled:
 
-  ![](images/tags-view.png){width="650" align="left"}
+  ![](images/tags-view.png){width="650"}
 
   The following operations can be performed in a document with Tags:
 
@@ -286,26 +286,26 @@ For example, if you are within the inline `<b>` element, you can insert elements
 
 You can also type a character or string in the search box and search for the elements that begin with it.
  
-![insert element](images/insert-element.png){width="300" align="left"}
+![insert element](images/insert-element.png){width="300"}
 
 *Enter 't' to search for all valid elements that begin with 't'.*
 
 If you are working inside a block element like a `note`, then use the Insert element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
 
-![Insert element in a block element](images/note-in-para-insert-element_cs.png){  align="left"}
+![Insert element in a block element](images/note-in-para-insert-element_cs.png){ }
 
 If you press Enter in the note element, a new paragraph is created within the note element itself. To insert a new element outside note, select the p element \(highlighted in screenshot\) in the elements breadcrumb and then select the Element icon or press ***Alt***+***Enter*** to open the Insert element dialog box. Then, select the desired element and press Enter to insert the selected element after the note element.
 
 You can also add an element between two elements when a blinking block cursor appears. 
 
 
-![](images/Block-cursor.png){width="300" align="left"}
+![](images/Block-cursor.png){width="300"}
 
 For example, if you are working on a DITA topic, and the block cursor is blinking between the short description and the body, you can add `prolog` element and then add copyright, author, and other details.
 
 Another way of entering a new element is by using the context menu. Right-click at any place in your document to invoke the context menu. From this menu choose **Insert Element** to display the **Insert element** dialog box and choose the element that you want to insert.
 
-![](images/insert-element-before-after.png){width="300" align="left"}
+![](images/insert-element-before-after.png){width="300"}
 
 **Paragraph** - ![](images/Paragraph_icon.svg)
 
@@ -327,7 +327,7 @@ Creates a numbered list at the current or next valid location. If you are on a n
 
 Inserts a table at the current or next valid location. Select the Table icon to open the Insert Simple Table dialog box. 
 
-![](images/table-properties.png){width="550" align="left"}
+![](images/table-properties.png){width="550"}
 
 >[!NOTE]
 >
@@ -337,7 +337,7 @@ You can specify the number of rows and columns required in the table. If you wan
 
 Once a table is inserted, you can modify the table using the context menu.
 
-![](images/table-context-menu_cs.png){width="550" align="left"}
+![](images/table-context-menu_cs.png){width="550"}
 
 
 
@@ -363,7 +363,7 @@ You can also define attributes on multiple cells, entire row, or column of a tab
 1. From the value dropdown list, select the desired text alignment you want to apply on the selected table cells. 
 1. Select **Add.**
 
-![](images/align-table-cell_cs.png){  align="left"}
+![](images/align-table-cell_cs.png){ }
 
 </details>
 
@@ -376,7 +376,7 @@ Inserts an image at the current or next valid location. Select the Image icon to
 > You can also add an image by dragging and dropping it from your local system on to your article. In this case, the image file is added using the **Upload Assets** workflow.  For more details, view the **Upload Assets** workflow in the [Left panel](./web-editor-left-panel.md) section. 
 
 
-![](images/insert-image-new-dialog.png){width="300" align="left"}
+![](images/insert-image-new-dialog.png){width="300"}
 
 
 In the **Select file** dialog, you can browse the required image file from **Repository** or **Collections**.
@@ -405,7 +405,7 @@ You can also add an image/Figure Title and Alternate Text for the image in the I
 
 Once you have inserted an image, you can change the height, width, placement, and attributes from the Content properties panel. Select the image file and then make changes in the Content properties panel in the right panel.
 
-![](images/image-properties.png){  align="left"}
+![](images/image-properties.png){ }
 
 The Source field displays the UUID of the inserted image file. You can find the complete path of the inserted image file by hovering the mouse pointer over the Source field. The path is displayed in the tooltip.
 
@@ -433,11 +433,11 @@ Inserts an image map on the selected image. An image with clickable areas that l
 
 Select an image in the current topic and select the Insert/Edit Image Map icon to open the insert Image Map dialog box.
 
-![](images/insert-image-map.png){width="650" align="left"}
+![](images/insert-image-map.png){width="650"}
 
 Choose the preferred shape Rectangle ![](images/imagemap-rectangle-toolbar.png), Circle ![](images/imagemap-circle-toolbar.png), or Polygon ![](images/imagemap-polygon-toolbr.png) to define an area over an image that you want to use as a link. After defining an area, the Reference dialog appears wherein you need to specify the link to internal or external content:
 
-![](images/reference-dialog.png){width="350" align="left"}
+![](images/reference-dialog.png){width="350"}
 
 If areas overlap, you can bring the shape forward or send it backward by clicking on the respective icon in the toolbar. You can also remove an area by selecting it and clicking the Delete icon. Double-clicking on an area opens the Reference dialog wherein you can change the destination link. Once you have marked the required areas on your image, save the changes by selecting **Done**.
 
@@ -453,11 +453,11 @@ Inserts different types of multimedia files. Select the Multimedia dropdown icon
 
 On selecting the Audio or Video file option, you are shown the **Select file** dialog to browse and select the desired file from Repository or Collections. 
 
-![](images/select-file-dialog-multimedia.png){width="650" align="left"}
+![](images/select-file-dialog-multimedia.png){width="650"}
 
 If you choose YouTube or Vimeo, then you get the **Insert Multimedia** dialog. Paste the link of the video file in the Web Link field and select Insert to add the video at the current or next valid location in your document.
 
-![](images/insert-multimedia-dialog.png){width="350"  align="left"}
+![](images/insert-multimedia-dialog.png){width="350" }
 
 >[!NOTE]
 >
@@ -465,7 +465,7 @@ If you choose YouTube or Vimeo, then you get the **Insert Multimedia** dialog. P
 
 You can also add the Audio or Video file from the **Insert Multimedia** dialog. Select the Audio/Video File option and then, select the browse icon to launch the repository view. Select the audio or video file from the repository and select **Select** to add the link of the file in the Audio/Video File field. In case you choose a video file, then a preview of the file is also shown in the Preview area. You can play the video file to view its preview.
 
-![](images/insert-multimedia.png){width="650" align="left"}
+![](images/insert-multimedia.png){width="650"}
 
 **Cross Reference** 
 
@@ -473,7 +473,7 @@ Insert references of type — Content Reference, Content Key Reference, Key Refe
 
 Select the **Select File** icon \(for Content Reference and File Reference\) or **Select Root Map** icon \(for Content Key Reference and Key Reference\) and select the desired file or content to link to.
 
-![](images/insert-references.png){width="650" align="left"}
+![](images/insert-references.png){width="650"}
 
 A link of the selected reference is added in the document. The context menu on the link gives you the options to:
 
@@ -484,7 +484,7 @@ A link of the selected reference is added in the document. The context menu on t
 
 You can also search using the UUID of the file that you want to reference. For Content and Key Reference links, enter the UUID of the file that you want to link to, and the file is automatically searched and displayed in the Preview section. When you specify the UUID of the file, you need not explicitly mention the file extension for .xml files. The .xml extension is auto-appended to the UUID.
 
-![](images/insert-content-using-uuid-search.png){width="650" align="left"}
+![](images/insert-content-using-uuid-search.png){width="650"}
 
 If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will view the UUID of the referenced content in the **Link** property.
 
@@ -492,7 +492,7 @@ If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then yo
 >
 > As per standard DITA behavior, the scope=`external` attribute must not be applied to internal links, as it is intended only for references to external resources. Applying this attribute to internal links may disrupt workflows. For content managed in Experience Manager Guides, use the default scope=`local` or key-based references instead.
 
-![](images/ref-link-uuid_cs.png){  align="left"}
+![](images/ref-link-uuid_cs.png){ }
 
 >[!NOTE]
 >
@@ -514,7 +514,7 @@ In the **Select file** dialog, you can search for some text in the files present
 >
 > The File and Path browser is introduced with a revamped UI in the 2601 release of Experience Manager Guides as a Cloud Service. The new interface is enabled by default. If you prefer to continue using the existing UI without these updates, contact your Customer Success team to have this new enhancement disabled.
 
-![](images/reference-search-filters.png){width="650" align="left"}
+![](images/reference-search-filters.png){width="650"}
 
 You can use the breadcrumbs on the top and folder navigation panel on the left to easily navigate through the folders. 
 
@@ -534,7 +534,7 @@ The list of filtered files which contain the searched text is displayed. You can
 
 Reuse content that exists within any other document in your project. You can insert content by directly linking to the content in a file or by using a key reference, view [Resolve key references](map-editor-other-features.md#id176GD01H05Z). When you select the Reusable content icon, you get the Reuse Content dialog box:
 
-![](images/reuse-content-dialog.png){width="650" align="left"}
+![](images/reuse-content-dialog.png){width="650"}
 
 In the Reuse Content dialog box, select the DITA file for file references or the DITA map file that contains the key references. Once selected, the topic or key references are shown in the dialog. You can select the ID/key of the topic that you want to insert and select **Done** to insert the content within your topic.
 
@@ -556,7 +556,7 @@ Inserts special characters in your topic. Select the Symbol icon to open the Ins
 >
 > Experience Manager Guides provides movable and resizable dialog boxes. Dialogs that have two cross lines at the bottom-right corner can be resized. The cross lines in the Special Character dialog are shown below.
 
-![](images/insert-special-char.png){width="350" align="left"}
+![](images/insert-special-char.png){width="350"}
 
 In the Insert Special Character dialog box, you can search for a special character using its name. All special characters are stored under various categories. Use the Select Category drop-down list and select a category. The special characters available within the selected category are displayed. You can navigate the list of special character using the arrow keys or select the desired character that you want to insert. The Name and Hex Code of the selected special character are displayed below the list. Select **Insert** to insert the selected character in your document.
 
@@ -564,13 +564,13 @@ In the Insert Special Character dialog box, you can search for a special charact
 
 Insert keyword defined in your DITA map. Select the Keyword option to open the Key Reference dialog box.
 
-![](images/insert-keyword.png){width="550" align="left"}
+![](images/insert-keyword.png){width="550"}
 
 The keywords are listed in alphabetical order and you can also search keyword\(s\) by typing a search string in the Search box. The search result will return the keywords containing the string in ID or Value. The keywords defined in your DITA map are listed in this dialog. Choose the keyword that you want to insert and select **Insert**.
 
 You can also change the attributes of the inserted keyword by right-clicking on the keyword and selecting the Attributes option. The **Attributes for Keyword** dialog box open:
 
-![](images/attributes-for-keyword.png){width="550" align="left"}
+![](images/attributes-for-keyword.png){width="550"}
 
 You can change the keyword's attributes or add a new attribute to the keyword.
 
@@ -582,11 +582,11 @@ When you select the Snippets option, you are shown the Insert Snippet catalog. T
 
 The following example shows two pre-configured snippets - Warning and Error that can be inserted at the current location in the document.
 
-![](images/insert-snippet.png){width="300" align="left"}
+![](images/insert-snippet.png){width="300"}
 
 When you choose a snippet from the list, it gets inserted at the current or next valid location in the document. The following screenshot shows the Error snippet inserted in the document:
 
-![](images/error-snippet.png){width="400" align="left"}
+![](images/error-snippet.png){width="400"}
 
 **Citations** - ![](images/Citations_icon.svg)
 
@@ -604,17 +604,17 @@ The **Version information & Save as new version** feature combines version track
 
     The version number changes with every new version that is created for the topic or map file. If you are working on a newly created document, the version information is shown as **none**.
 
-    ![](images/version-information.png){  align="left"}
+    ![](images/version-information.png){ }
 
 
 - **Save as new version** is a button that saves the changes you have made in your topic and also creates a new version of your topic.
 
-    ![](images/save-as-new-version.png){  align="left"}
+    ![](images/save-as-new-version.png){ }
 
 
 When you choose to save a topic or map using **Save as new version**, the following dialog box appears:
 
-![](images/save-as-new-version-dialog.PNG){width="300" align="left"}
+![](images/save-as-new-version-dialog.PNG){width="300"}
 
 Enter comments and version labels to identify the changes and select **Save** to create a new version of your file.
 
@@ -622,7 +622,7 @@ When you choose the **Save as new version** option, the first version of the top
 
 If your administrator has pre-configured version labels, then you will view those labels in a drop-down list. You can choose a label from the list of available labels and save your document.
 
-![](images/web-editor-pre-defined-labels.PNG){width="300" align="left"}
+![](images/web-editor-pre-defined-labels.PNG){width="300"}
 
 At the time of saving a topic, you can add a comment specifying the changes that you have made in the topic. This comment is shown in the topic's Version History.
 
@@ -630,7 +630,7 @@ If your topic is under review, your reviewers will get a notification saying tha
 
 When you hover your pointer over a topic's title, you are shown the file title, file path, and the version number.
 
-![](images/mouse-hover-on-title_cs.png){  align="left"}
+![](images/mouse-hover-on-title_cs.png){ }
 
 >[!NOTE]
 >
@@ -640,17 +640,17 @@ When you hover your pointer over a topic's title, you are shown the file title, 
 
 Locks or unlocks the current file. Locking a file gives you an exclusive write access to the file. This restricts other users from editing the file. Unlock the file if you want others to have editing access. When the file is unlocked, the changes are saved in the current version of the file.
 
-![](images/web-editor-lock-button.png){  align="left"}
+![](images/web-editor-lock-button.png){ }
 
 If you are in the Map View and you expand the parent map, you can lock all files in the map with a single click. Simply expand the parent map file and select the parent file, which results in selecting all files within the map. Then you can select **Lock**  ![](images/LockClosed_icon.svg) to get the lock on all files within the map.
 
 In the Repository panel, the locked files are displayed with a lock icon. When you hover over this lock icon, the Locked by you/username is displayed as a tooltip. 
 
-![](images/web-editor-locked-by-icon-new.png){width="350" align="left"}
+![](images/web-editor-locked-by-icon-new.png){width="350"}
 
 If a file is locked by another user, hovering over the lock icon in the Repository displays the name of the user who locked it. In this case, the file opens in Read-only mode, with **Read-only access** displayed next to the version information.
 
 As an administrator, you also get access to the **Force unlock** feature that allows you to unlock the file locked by other users. Use this feature to access the editing rights on a file locked by other users. 
 
-![](images/web-editor-force-unlock-new.png){width="350" align="left"}
+![](images/web-editor-force-unlock-new.png){width="350"}
 **Parent topic:**[Introduction to the Editor](web-editor.md)

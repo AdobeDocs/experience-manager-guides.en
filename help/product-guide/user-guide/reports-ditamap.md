@@ -19,7 +19,7 @@ Perform the following steps to view the DITA Map Report:
 
 1.  Select **Reports**.
 
-    ![](images/reports-page-uuid-new.png){align="left"}
+    ![](images/reports-page-uuid-new.png)
 
     The Reports page is divided into two parts:
 
@@ -31,7 +31,7 @@ Perform the following steps to view the DITA Map Report:
 
         When you select a topic, a detailed report of the selected topic is displayed.
 
-        ![](images/detailed-report-uuid-new.png){align="left"}
+        ![](images/detailed-report-uuid-new.png)
 
         Items highlighted under **A**, **B**, **C** and **D** are described below:
 
@@ -76,18 +76,18 @@ Perform the following steps to generate the CSV of a DITA map report:
 
 1.  Select **Generate Report** on the top-left to generate the DITA map report.
     
-    ![](images/generate-DITA-map-report-new.png){align="left"}
+    ![](images/generate-DITA-map-report-new.png)
 
 1.  You will receive a notification once the report is ready to download. Select **Download** to download the CSV of the generated report.
 
-    ![](images/download-report-dialog-new.png){width="550" align="left"}
+    ![](images/download-report-dialog-new.png){width="550"}
 
 
     You can also download the CSV of the generated report later from the Experience Manager Notification Inbox.
 
     Select the generated report in the Inbox to download the report.
 
-    ![](images/report-inbox--notification.png){width="300" align="left"}
+    ![](images/report-inbox--notification.png){width="300"}
 
 Once the report is downloaded in the Inbox you can also select the report and use the Open icon on the top to open the selected report.
 

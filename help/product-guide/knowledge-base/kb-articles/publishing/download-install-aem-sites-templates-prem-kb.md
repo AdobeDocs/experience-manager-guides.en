@@ -46,7 +46,7 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
     5. Uncheck the **Use legacy component mapping** setting.
     6. Select **Add** to create the preset.
 
-        ![New output preset dialog](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+        ![New output preset dialog](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
     
 2. **Configure AEM Site Preset:** There are two options to configure the out-of-the-box (OOTB) site:
@@ -58,14 +58,14 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
         - Publish path: `aemg-docs/en/docs/product1` 
         - Topic page template: Topic Page.
 
-        ![Use Site Dropdown](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
+        ![Use Site Dropdown](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350"}
 
     **Option 2: Use the Site Path**
 
     1. Set the **Site path** manually as `/content/aemg-docs/en/docs/product1`.
     2. Verify that the **Topic page template** is automatically set to Topic Page.
 
-        ![Use Site Path](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+        ![Use Site Path](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **Save the preset:** Save the changes made to the preset.
 
@@ -80,11 +80,11 @@ Before proceeding with the setup, ensure the following pre-requisites are met:
     2. Create a new product page under the OOTB site structure.
     3. Navigate to **AEMG Docs** > **English** > **Docs**.
 
-        ![Create page in AEM Site structure ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+        ![Create page in AEM Site structure ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}
 
     4. Select the **Home page** tile and then select **Next**.
 
-        ![Select home page tile](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
+        ![Select home page tile](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350"}
 
     5. Enter the **Title** and **Name** for the page.
     6. Select **Create**.

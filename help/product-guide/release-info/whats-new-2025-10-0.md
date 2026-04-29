@@ -28,7 +28,7 @@ Experience Manager Guides now includes a **Duplicate IDs** button in the Editor 
 
 For more details, view [Additional features in the Editor](../user-guide/web-editor-other-features.md). 
 
-![](assets/duplicate-element-IDs.png){width="350" align="left"}
+![](assets/duplicate-element-IDs.png){width="350"}
 
 ## Enhancements to the Repository and Reports filters
 
@@ -40,7 +40,7 @@ As an initiator of a review task, you can now check the status of your review ta
 
 For more details, view [Request a re-review or close a review task as an Author](../user-guide/review-close-review-task.md).
 
-![](assets/check-review-status-icon.png){width="350" align="left"}
+![](assets/check-review-status-icon.png){width="350"}
 
 
 
