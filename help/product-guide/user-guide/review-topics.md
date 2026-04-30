@@ -275,7 +275,7 @@ The Version history feature allows reviewers to compare the current review task 
 
 ![](images/version-history-icon.png){align="left"}
 
-The **Version history** icon appears once the review task has been closed by the author. If the reviewer closes the task, it will still only become available after the author also closes it. For each completed review task version, reviewers can access its version history from the dropdown in the Version history dialog. From there, reviewers can compare tracked changes, labels, comments, and other task‑related details across versions.
+The topic's **Version history** icon appears once the review task has been closed by the author. If the reviewer closes the task, it will still only become available after the author also closes it. For each completed review task version, reviewers can access its version history from the dropdown in the Version history dialog. From there, reviewers can compare tracked changes, labels, comments, and other task‑related details across versions.
 
 ![](images/version-history-dialog.png){align="left"}
 
