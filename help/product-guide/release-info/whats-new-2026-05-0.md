@@ -29,7 +29,7 @@ The New Editor brings the following enhancements to make authoring easier and mo
 
 A refreshed interface improves overall usability, making navigation and content authoring more intuitive and consistent.
 
-- **Richer CSS elements in the Author mode**: Enhanced default CSS provides improved styling and better visual consistency across both authoring and preview modes.
+- **Richer CSS for elements in the Author and Preview mode**: Enhanced default CSS for elements provide improved styling and better visual consistency across both authoring and preview modes.
 
     ![](assets/rich-css.png){width="650" align="left"}
 
@@ -86,7 +86,7 @@ Provides improved tools and flexibility to streamline content creation and editi
 
 ### Improved performance for large topics
 
-With the new Editor, the editing experience for large and complex topics is improved through faster loading and more responsive interactions. It includes optimized document load times, reliable undo and redo support for managing changes, and a dirty marker for large topics.
+The New Editor enhances the experience of working with large and complex topics by delivering faster content rendering, more reliable undo and redo functionality, and a dirty marker to clearly indicate unsaved changes.
 
 ## Access the Path and UUID of references in files from the Content Properties panel
 
