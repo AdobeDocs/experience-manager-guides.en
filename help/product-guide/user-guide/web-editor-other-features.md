@@ -189,7 +189,7 @@ The contextual toolbar is displayed when you select content or cells inside a ta
     ![](images/text-formatting-options-table.png){width="550" align="left"}
 
   Use the Bold, Italic, or Underline options to format your text.
-- To view the text formatting and alignment on the entire cell, use `Ctrl+click` for Windows and `Command+click` for macOS. This selects the entire cell and displays the available options in the contexual toolbar.
+- To apply the text formatting and alignment on the entire cell, use `Ctrl+click` for Windows and `Command+click` for macOS. This selects the entire cell and displays the available options in the contexual toolbar.
 
     ![](images/cell-selection-contextual-toolbar.png){width="550" align="left"}
 
@@ -236,7 +236,7 @@ The contextual toolbar is displayed when you select content or cells inside a ta
 
 - Add multiple rows or columns to a table using Insert options (Not available for Simple tables)
 
-    To add multiple rows to a table, select the number of rows or columns you want to add and then select Insert row (above or below) or Insert column (left or right) options. The same number of rows or columns is added to the table based on your selection.
+    To add multiple rows or columns to a table, first select the number of rows or columns you want to add and then select Insert row (above or below) or Insert column (left or right) options. The same number of rows or columns is added to the table based on your selection.
 
 - Drag and drop rows and columns (Not available for Simple tables)
 
