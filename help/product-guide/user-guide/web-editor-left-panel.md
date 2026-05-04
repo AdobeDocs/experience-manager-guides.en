@@ -1020,7 +1020,18 @@ Perform the following steps to change the value:
 
 You can also apply values for an attribute by selecting multiple values from the dropdown.
 
+>[!BEGINTABS]
+
+>[!TAB New Editor]
+
+![](images/subject-scheme-new.png){width="650" align="left"}
+
+>[!TAB Old Editor]
+
 ![](images/subject-scheme-right-panel.png){width="550" align="left"}
+
+>[!ENDTABS]
+
 
 **Source view**
 

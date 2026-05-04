@@ -21,8 +21,6 @@ The Editor comes with a range of editing features that let you easily create or 
 
 >[!TAB New Editor] 
 
-You can enable or disable this feature and configure favorite elements for insertion through the Editor settings. For details, view Editor settings.
-
 1. To edit or insert an element in a topic, click within the text boundary of the required element to make changes, or place the cursor at the end of the element after which you want to add a new element and select the required element from the toolbar (or press Alt+1 to open the Insert Element popup), which intelligently lists and inserts only valid elements for that location in the topic.
 
 1. Additionally you can use the Quick insert menu to readily insert allowed elements at the cursor position. Select **Control + /** for Windows or **Command + /** for Mac to access the elements. 
@@ -31,11 +29,11 @@ You can enable or disable this feature and configure favorite elements for inser
     >
     >You can enable or disable this feature and configure favorite elements for insertion through the Quick insert menu available in the Editor settings. For details, view [Editor settings](./config-editor-settings.md).
 
-1. Search for a new element or select one from your favorites, and insert it directly at the current cursor position using the inline element insertion toolbar.
+    1. Search for a new element or choose one from your favorites using the Quick Insert menu, then insert it at the current cursor position. Favorites include your most frequently used elements, and only those that are valid for the current cursor location are shown. You can enable or disable this feature and configure favorite elements for insertion through the Quick insert menu available in the the [Editor settings](./config-editor-settings.md).
 
     ![Quick insert menu](./images/quick-insert-menu-in-editor.png){width="650" align="left"}
-
-
+    
+    
 >[!TAB Old Editor]
 
 1.  To make changes in your topic, click within the text boundary of the required element and start making edits.

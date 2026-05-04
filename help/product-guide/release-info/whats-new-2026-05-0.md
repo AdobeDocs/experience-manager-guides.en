@@ -82,7 +82,7 @@ Provides improved tools and flexibility to streamline content creation and editi
 
     ![](assets/config-table.png){width="650" align="left"}
 
-    For details, view [Toolbar](../user-guide/web-editor-toolbar.md).
+    For details, view [Work with tables](../user-guide/web-editor-other-features.md).
 
 ### Improved performance for large topics
 
