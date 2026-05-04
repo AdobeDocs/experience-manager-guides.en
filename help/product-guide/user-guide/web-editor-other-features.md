@@ -174,70 +174,71 @@ The context menu is displayed when you right-click inside a table cell. The foll
 
 - Insert rows, columns, or cells
 
-- Split cells horizontally or vertically (Applies only to Tables)
+- Split cells horizontally or vertically (Not available for Simple tables)
 
-- Merge cells right or down (Applies only to Tables)
+- Merge cells right or down (Not available for Simple tables)
 
 - Delete rows or columns
 
 **Set text formatting and alignment using the contexual toolbar**
 
-The contextual toolbar is displayed when you select content inside a table. The toolbar provides options relevant to your selection.
+The contextual toolbar is displayed when you select content or cells inside a table. The toolbar provides options relevant to your selection.
 
-- Select a cell to access the following formatting options:
+- Select the cell content to access the following formatting options:
 
     ![](images/text-formatting-options-table.png){width="550" align="left"}
 
   Use the Bold, Italic, or Underline options to format your text.
+- To view the text formatting and alignment on the entire cell, use `Ctrl+click` for Windows and `Command+click` for macOS. This selects the entire cell and displays the available options in the contexual toolbar.
 
-- Selecting multiple rows or columns allows you to apply text formatting to them at once. 
+    ![](images/cell-selection-contextual-toolbar.png){width="550" align="left"}
 
-   Other available options for single or multiple row selection:
+- Selecting cells (single or multiple) allows you to apply text formatting to them at once. 
+
+   Available options for single or multiple row selection:
 
    ![](images/set-alignment-rows.png){width="550" align="left"}
 
-    - Horizontal text alignment (Applies only to Tables)
-    - Vertical text alignment (Applies only to Tables)
+    - Horizontal text alignment (Not available for Simple tables)
+    - Vertical text alignment (Not available for Simple tables)
     - Insert row above
     - Insert row below
     - Remove row
-    - Merge cells (Applies only to Tables)
+    - Merge cells (Not available for Simple tables)
 
-    Other available options for single or multiple column selection:
+    Available options for single or multiple column selection:
 
     ![](images/set-alignment-columns.png){width="550" align="left"}
 
-    - Horizontal text alignment (Applies only to Tables)
-    - Vertical text alignment (Applies only to Tables)
+    - Horizontal text alignment (Not available for Simple tables)
+    - Vertical text alignment (Not available for Simple tables)
     - Insert row above
     - Insert row below
     - Remove row
     - Insert column above
     - Insert column below
     - Remove column
-    - Merge cells (Applies only to Tables)
+    - Merge cells (Not available for Simple tables)
 
 - Select the table to apply text formatting and alignment to the entire table. 
 
     ![](images/text-alignment-table.png){width="550" align="left"}
 
-- Add or remove rows to a table with a single click
+- Add rows or columns using an interactive plus button 
 
-    To add a new row at the end of the table, hover over the last row and select the + icon. A new row is added at the bottom of the table.
+    To add a new row at the end of the table, hover over the last row and select the **+** button. A new row is added at the bottom of the table.
 
     ![](images/add-row.png){width="550" align="left"}
 
-    Similarly, hover over the last column and select the **+** icon to add a new column to the rightmost side of the table.
+    Similarly, hover over the last column and select the **+** button to add a new column to the rightmost side of the table.
 
     ![](images/add-column.png){width="550" align="left"}
 
-- Add multiple rows or columns to a table using Insert options (Applies only to Tables)
+- Add multiple rows or columns to a table using Insert options (Not available for Simple tables)
 
-    To add multiple rows or columns to a table, select the cells and then select Insert options such as Insert above or below. 
+    To add multiple rows to a table, select the number of rows or columns you want to add and then select Insert row (above or below) or Insert column (left or right) options. The same number of rows or columns is added to the table based on your selection.
 
-    ![](images/add-multi-row-col.png){width="550" align="left"}
-
-- Drag and drop rows and columns (Applies only to Tables)
+- Drag and drop rows and columns (Not available for Simple tables)
 
     Easily move the rows and columns within the table using drag and drop. When you drag a row or column, it appears with a semi-transparent background to indicate that it is being moved. A blue line highlights the target position where the row or column will be placed upon release.
 
