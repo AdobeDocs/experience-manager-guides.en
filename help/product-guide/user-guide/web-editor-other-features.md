@@ -28,11 +28,11 @@ You get the following functions in the context menu of an opened file's tab:
 
 >[!TAB New Editor] 
 
-![](images/single-file-context-menu.png){width="400" align="left"}
+![](images/single-file-context-menu-editor-2-0.png){width="400" align="left"}
 
 >[!TAB Old Editor] 
 
-![](images/single-file-context-menu-editor-2-0.png){width="400" align="left"}
+![](images/single-file-context-menu.png){width="400" align="left"}
 
 >[!ENDTABS] 
 
@@ -514,7 +514,7 @@ The key features aimed at improving the handling of large files are mentioned as
 
     >[!NOTE]
     >
-    > This alert message applies only to the Classic Editor, where it is displayed based on the configured `largeFileTagCount` parameter. In Editor 2.0, large files load seamlessly without triggering any alerts. Additionally, related functionalities that do not work in the Classic Editor function normally in Editor 2.0.
+    > This alert message applies only to the Old Editor, where it is displayed based on the configured `largeFileTagCount` parameter. In the New Editor, large files load seamlessly without triggering any alerts. Additionally, related functionalities that do not work in the Old Editor function normally in New Editor.
 
 ![](images/add-toast-notification.png){width="600" align="left"}
 
