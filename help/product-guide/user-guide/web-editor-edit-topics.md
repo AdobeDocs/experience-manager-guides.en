@@ -25,13 +25,9 @@ The Editor comes with a range of editing features that let you easily create or 
 
 1. Additionally you can use the Quick insert menu to readily insert allowed elements at the cursor position. Select **Control + /** for Windows or **Command + /** for Mac to access the elements. 
 
-    >[!NOTE]
-    >
-    >You can enable or disable this feature and configure favorite elements for insertion through the Quick insert menu available in the Editor settings. For details, view [Editor settings](./config-editor-settings.md).
-
-    1. Search for a new element or choose one from your favorites using the Quick Insert menu, then insert it at the current cursor position. Favorites include your most frequently used elements, and only those that are valid for the current cursor location are shown. You can enable or disable this feature and configure favorite elements for insertion through the Quick insert menu available in the the [Editor settings](./config-editor-settings.md).
-
     ![Quick insert menu](./images/quick-insert-menu-in-editor.png){width="650" align="left"}
+
+    Search for a new element or choose one from your favorites using the Quick Insert menu, then insert it at the current cursor position. Favorites include your most frequently used elements, and only those that are valid for the current cursor location are shown. You can enable or disable this feature and configure favorite elements for insertion through the Quick insert menu available in the the [Editor settings](./config-editor-settings.md).    
     
     
 >[!TAB Old Editor]
