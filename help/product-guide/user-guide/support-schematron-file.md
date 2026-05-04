@@ -65,10 +65,6 @@ The Schematron support in the Editor helps you in validating the files against a
 
 ## Understanding validation results and serverity levels
 
->[!NOTE]
->
-> For New Editor, the validation results are also determined based on the role attribute defined within the Schematron file and are categorized as Fatal, Error, Warn, or Info.
-
 Validation results are displayed based on the role attribute defined in the Schematron file. Issues are categorized as `Fatal`, `Error`, `Warn`, or `Info`, with a visible count for each category in the Validation panel.
 
 ![](images/schematron-validation-errors.png){width="350" align="left"}
