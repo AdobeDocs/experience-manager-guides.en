@@ -65,6 +65,6 @@ A powerful, AI-driven tool designed to enhance your productivity through smart h
 >
 > If using the Adobe Experience Manager Guides in an On-Premise setup , the Workspace settings option continues to appear as **Settings** under the More actions menu.
 
-- **Editor settings**: Takes you to the Editor settings dialog where you can configure and control the visibility and behavior of tags, comments, and other editor-level settings during authoring. For details, view [Editor settings](./config-editor-settings.md). 
+- **Editor settings**: Takes you to the Editor settings dialog where you can customize the Editor behavior at an individual author level. It allows you to control the visibility and behavior of tags, comments, and other editor-level settings during authoring. For details, view [Editor settings](./config-editor-settings.md). 
 
 **Parent topic:**[Introduction to the Editor](web-editor.md)
