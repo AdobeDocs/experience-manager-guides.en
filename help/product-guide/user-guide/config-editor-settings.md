@@ -31,7 +31,7 @@ You can enable or disable the following options based on your preferences:
 
     ![Config tags](./images/config-tags.png){width="650" align="left"}
 
-    When **Show tags** settings is enabled, you can also enable **Display attributes** to view and validate the attributes associated with an element. When an element has multiple attributes, a count indicator is shown. Hovering over the indicator displays the complete list of attributes applied to that element.
+    When **Show tags** settings is enabled, you can also enable **Display attributes** to view and validate the attributes associated with an element. When an element has more than three attributes associated with them, a count indicator appears. Hovering over the indicator displays the complete list of attributes applied to that element.
 
     ![Config tags with attributes](./images/config-tags-attributes.png) {width="650" align="left"}
 
@@ -40,4 +40,7 @@ You can enable or disable the following options based on your preferences:
     ![Quick insert menu in editor](./images/quick-insert-menu-in-editor.png){width="650" align="left"}
 
     You can search for and add elements to your Favorites, remove any previously added elements, and rearrange them using simple drag-and-drop. Favorites include your most frequently used elements, and the order you set here is reflected in the Quick Insert menu when accessed from the editor. 
+
+
+
 
