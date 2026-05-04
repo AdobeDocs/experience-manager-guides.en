@@ -326,7 +326,7 @@ If you are working inside a block element like a `note`, then use the Insert ele
 
 If you press Enter in the note element, a new paragraph is created within the note element itself. To insert a new element outside note, select the p element \(highlighted in screenshot\) in the elements breadcrumb and then select the Element icon or press ***Alt***+***Enter*** to open the Insert element dialog box. Then, select the desired element and press Enter to insert the selected element after the note element.
 
-You can also add an element between two elements when a blinking block cursor appears. 
+You can also add an element between two elements when a horizontal cursor appears which indicates that you are outsise a block element. 
 
 >[!BEGINTABS] 
 
@@ -341,7 +341,7 @@ You can also add an element between two elements when a blinking block cursor ap
 
 >[!ENDTABS] 
 
-For example, if you are working on a DITA topic, and the block cursor is blinking between the short description and the body, you can add `prolog` element and then add copyright, author, and other details.
+For example, if you are working on a DITA topic, and the block horizontal cursor appears between the short description and the body, then you can add `prolog` element and then add copyright, author, and other details.
 
 Another way of entering a new element is by using the context menu. Right-click at any place in your document to invoke the context menu. From this menu choose **Insert Element** to display the **Insert element** dialog box and choose the element that you want to insert.
 
