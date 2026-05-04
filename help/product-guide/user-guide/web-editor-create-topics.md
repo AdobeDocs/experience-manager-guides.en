@@ -100,8 +100,8 @@ Perform the following steps to create a topic from the Assets UI:
 > The UI may vary depending on the Editor you are using.
 
 1. Every new topic that you create from the Assets UI **Create** \> **DITA Topic** or the Editor is assigned a unique topic ID. The value of this ID is the file name itself. Also, a new document is saved as the latest working copy of the topic in DAM. Until you save a revision of a newly created topic, you will not view any version number in the Version History. If you open the topic for editing, the version information is shown in the right top corner of the toolbar:
-
-    ![](images/topic-version-none_cs.png){width="550" align="left"}
+_
+    ![](images/version-none.png){width="550" align="left"}
 
 2. The version information for a newly created topic is shown as *none*. When you save a new version, then it is assigned a version number as 1.0. 
 

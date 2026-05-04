@@ -11,19 +11,20 @@ For the list of issues fixed in this release, view [Fixed issues in the 2026.05.
 
 Learn about [upgrade instructions for the 2026.05.0 release](../release-info/upgrade-instructions-2026-05-0.md).
 
-## Introducing New Editor
+## Introducing Editor 2.0
 
-New Editor provides simplified authoring, enabling you to create content more efficiently across both tag and non-tag modes through a more intuitive experience. The release brings improved performance, with faster page loads and smoother editing even for large and complex topics. It also delivers enhanced stability by addressing key authoring gaps, particularly around navigation and cursor behavior. Additionally, a modern interface offers a refreshed and user-friendly UI that balances functionality with ease of use. For details, view [New Editor](../user-guide/web-editor.md).
+Editor 2.0 (aka New Editor) provides simplified authoring, enabling you to create content more efficiently across both tag and non-tag modes through a more intuitive experience. The release brings improved performance, with faster page loads and smoother editing even for large and complex topics. It also delivers enhanced stability by addressing key authoring gaps, particularly around navigation and cursor behavior. Additionally, a modern interface offers a refreshed and user-friendly UI that balances functionality with ease of use. For details, view [Introduction to the Editor](../user-guide/web-editor.md).
 
+Here's an overview video highlighting the capabilities of Editor 2.0.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3484007)
 
 
 >[!NOTE]
 >
-> Please reach out to AEM Guides Customer Success team to get the New Editor enabled on your environment.
+> Please reach out to AEM Guides Customer Success team to get the Editor 2.0 enabled on your environment.
 
-The New Editor brings the following enhancements to make authoring easier and more efficient.
+Following are the enhancements that make authoring easier and more efficient:
 
 ### Redesigned user interface & experience
 

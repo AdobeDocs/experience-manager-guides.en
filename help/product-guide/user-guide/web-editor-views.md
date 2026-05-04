@@ -11,7 +11,7 @@ role: User
 >
 >This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
 
-The Editor interface in Adobe Experience Manager supports viewing topics in three different modes or views:
+The Editor interface in Adobe Experience Manager supports viewing topics in four different modes or views:
 
 * [Author](#author)
 * [Source](#source)

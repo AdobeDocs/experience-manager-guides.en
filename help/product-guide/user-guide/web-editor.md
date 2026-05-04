@@ -5,9 +5,9 @@ exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
 ---
-# Introduction to the Editor {#id181OD0QE05Z}
+# Introduction to the Editors {#id181OD0QE05Z}
 
-Experience Manager Guides comes with an easy-to-use Editor for creating and editing structured documents. The editor hides all the complexities of the DITA structure from the writer. The editor provides a list of DITA elements that a user would usually need to work within a document.
+Experience Manager Guides comes with an easy-to-use editor for creating and editing structured documents. The editor hides all the complexities of the DITA structure from the writer. The editor provides a list of DITA elements that a user would usually need to work within a document.
 
 ## New Editor
 
@@ -21,7 +21,7 @@ New Editor provides a significant evolution of the authoring experience, with fo
 
 - Performance improvements for large files: Enhances responsiveness for large DITA files with support for undo/redo and dirty markers, ensuring reliable change tracking without performance degradation.
 - Modernized table authoring: Delivers a more intuitive table editing experience with drag‑and‑drop reordering, contextual toolbars, and bulk row or column insertion for faster and more accurate table management.
-- Enhanced Author view: Provides configurable visibility of XML comments and attributes directly in Author view, reducing the need to switch to Source view while working with structured content.
+- Enhanced Author mode: Provides configurable visibility of XML comments and attributes directly in Author mode, reducing the need to switch to Source view while working with structured content.
 - Advanced editing modes and tools: Introduces side‑by‑side Author and Source mode for topics and a quick insert menu, enabling faster structured authoring with minimal context switching.
 - UI and UX Refinements: Improves readability and visual comfort through a dark theme and richer default CSS in Author and Preview modes, delivering a more modern editing interface.
 - Centralized Editor settings: Offers a unified settings panel to personalize the authoring experience, including control over tags, attributes, XML comments, non‑breaking spaces, and quick insert menu in editor.

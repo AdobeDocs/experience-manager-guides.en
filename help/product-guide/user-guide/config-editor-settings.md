@@ -23,7 +23,7 @@ You can enable or disable the following options based on your preferences:
 ![Editor settings](./images/editor-settings-dialog.png){width="350" align="left"}
 
 - **Non breaking spaces**: Enable this option to show an indicator for the non-breaking spaces while editing it in the Editor. It is visible only in the Author view for DITA topic and DITA maps
-- **XML comments**: Enables the visibility of XML comments in Author view to reduce visual clutter or aid in structured authoring. When enabled, authors can render, insert, edit, and delete XML comments directly within the content in the Author view itself, making it easier to add contextual notes for collaborators. When disabled, XML comments are completely hidden and cannot be inserted or modified, ensuring a cleaner authoring experience for users who do not require them.
+- **XML comments**: Enables authors to view, edit, and insert XML comments directly in Author mode, for better visibility within the content. When enabled, authors can view, insert, edit, and delete XML comments directly within the content in the Author mode itself, making it easier to add contextual notes for collaborators. When disabled, XML comments are hidden in Author mode and cannot be inserted or modified from Author mode, ensuring a cleaner authoring experience for users who do not require them. You can continue to view and author XML comments in source mode using the `<!-- test comment -->` syntax.
 
     ![Config XML comments](./images/config-xml-comments.png){width="650" align="left"}
 
@@ -31,11 +31,13 @@ You can enable or disable the following options based on your preferences:
 
     ![Config tags](./images/config-tags.png){width="650" align="left"}
 
-    You can also enable **Display attributes** to view and validate the attributes associated with an element. When an element has multiple attributes, a count indicator is shown. Hovering over the indicator displays the complete list of attributes applied to that element.
+    When **Show tags** settings is enabled, you can also enable **Display attributes** to view and validate the attributes associated with an element. When an element has multiple attributes, a count indicator is shown. Hovering over the indicator displays the complete list of attributes applied to that element.
 
     ![Config tags with attributes](./images/config-tags-attributes.png) {width="650" align="left"}
 
-- **Quick insert menu in editor**: Allows you to configure and customize the **Quick insert menu** for inserting an element during authoring in Editor. You can search for and add the available elements to the **Favorites** of the Quick insert menu in the Editor settings using the dropdown. These favorite elements are available directly in the Editor when you press **Control + /** on Windows or **Command + /** on macOS.
+- **Quick insert menu in editor**: Enables adding elements directly while editing in Author mode at the cursor position without navigating to the toolbar. Frequently used elements can also be configured in the **Favorites** for quicker access. The quick insert menu is available directly in the Editor when you press **Control + /** on Windows or **Command + /** on macOS the cursor position.
 
     ![Quick insert menu in editor](./images/quick-insert-menu-in-editor.png){width="650" align="left"}
+
+    You can search for and add elements to your Favorites, remove any previously added elements, and rearrange them using simple drag-and-drop. Favorites include your most frequently used elements, and the order you set here is reflected in the Quick Insert menu when accessed from the editor. 
 

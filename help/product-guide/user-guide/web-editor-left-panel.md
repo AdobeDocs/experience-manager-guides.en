@@ -1057,17 +1057,8 @@ Snippets are small content fragments that can be reused across various topics in
 >
 > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete snippets. Else, as a normal author, you will only get the options to preview and insert a snippet.
 
->[!BEGINTABS]
-
->[!TAB New Editor]
 
 ![](images/snippets-panel_cs-editor-2-0.png){width="650" align="left"}
-
->[!TAB Old Editor]
-
-![](images/snippets-panel_cs.png){width="650" align="left"}
-
->[!ENDTABS]
 
 **Create a snippet**
 
@@ -1121,6 +1112,10 @@ You can also enable [paginated loading](/web-editor-other-features.md#paginated-
 
 ## Citations 
 
+>[!NOTE]
+>
+> Citations are supported only in the Old Editor and are currently not available in New Editor. The information in this article applies only if you are using the Old Editor.
+
 In Experience Manager Guides, you can add and import citations and apply them to your content. You can add these citations from any source of books, websites, and journals.
 
 For details, view [Add and manage citations in your content](./web-editor-apply-citations.md).
@@ -1156,7 +1151,7 @@ The Find and Replace feature can be used in two distinct modes, depending on you
     > - **For Cloud services**: A custom index deployment must be performed. For details, view [Deploying custom index](/help/product-guide/cs-install-guide/custom-indexing.md). Once completed, contact your Customer Success team to enable this feature.
     > - **For On-Premise**: Re-indexing of existing content is required before the feature can be used. For details, view [Reindexing content](/help/product-guide/install-guide/custom-indexing-prem.md). Once completed, contact your Customer Success team to enable this feature.
 
-    ![](images/map-find-replace-with-source-mode.png){align="left"}
+    ![](images/find-replace-new.png){align="left"}
 
 <br>    
 

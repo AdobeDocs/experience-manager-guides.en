@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 
 ---
-# Extension framework changes for Editor 2.0
+# Extension framework changes for Editor 2.0 (New Editor)
 
-This document covers all APIs added to `guides.editor` (and `guides`) as part of the extension framework for the MarkupEditor (ProseMirror-based editor). These APIs allow external extensions to interact with the editor without direct DOM manipulation or internal implementation knowledge.
+This document covers all APIs added to `guides.editor` (and `guides`) as part of the extension framework for the New Editor (ProseMirror-based editor). These APIs allow external extensions to interact with the editor without direct DOM manipulation or internal implementation knowledge.
 
 ## Overview
 
@@ -72,15 +72,15 @@ guides.ready(() => {
   | Value   | Editor                             |
   |---------|------------------------------------|
   | `1.0.0` | Legacy CKEditor (`xml_author_view`) |
-  | `2.0.0` | MarkupEditor (ProseMirror-based)   |
+  | `2.0.0` | New Editor (ProseMirror-based)   |
 
   **Type:** `string`
 
   **Example:**
 
   ```js
-  if (guides.editor.version === '2.0.0') {
-    // MarkupEditor-specific logic
+  if (guides.editor.version  === '1.0.0') {
+    // CKEditor specific logic 
   }
   ```
 
@@ -186,7 +186,7 @@ guides.ready(() => {
 
 ## Command Execution
 
-- `guides.editor.runCommand(commandName, ...args)`: Executes a named command on the MarkupEditor. Returns `true` if the command succeeded, `false` otherwise.
+- `guides.editor.runCommand(commandName, ...args)`: Executes a named command on the New Editor. Returns `true` if the command succeeded, `false` otherwise.
 
   **Signature:**
 
@@ -282,7 +282,7 @@ guides.ready(() => {
 
 ## Utility Functions
 
-- `guides.editor.runUtil(utilName, ...args)`: Invokes a named utility from the MarkupEditor's utility registry. Returns the utility's result, or `undefined` if the utility is not found.
+- `guides.editor.runUtil(utilName, ...args)`: Invokes a named utility from the New Editor's utility registry. Returns the utility's result, or `undefined` if the utility is not found.
 
   **Signature:**
 
@@ -383,7 +383,7 @@ Decorations are identified by a string `id` so they can be updated or removed in
 
 >[!NOTE]
 >
-> **MarkupEditor only** These APIs are no-ops on the legacy editor (`version === '1.0.0'`).
+> **New Editor only** These APIs are no-ops on the legacy editor (`version === '1.0.0'`).
 
 - `guides.editor.addDecoration(id, selector, options)`: Adds or replaces a decoration rule. All nodes matching `selector` in the current document will be decorated according to `options`. The decoration is re-applied automatically on every document change.
 
@@ -556,7 +556,7 @@ Decorations are identified by a string `id` so they can be updated or removed in
 
 ## ProseMirror Plugin Registration
 
-- `guides.editor.registerPlugin(factory)`: Registers a ProseMirror plugin factory to be included in every MarkupEditor instance. Only factory functions are accepted, direct plugin instances are rejected. The factory is called once per editor instance, ensuring isolated plugin state.
+- `guides.editor.registerPlugin(factory)`: Registers a ProseMirror plugin factory to be included in every New Editor instance. Only factory functions are accepted, direct plugin instances are rejected. The factory is called once per editor instance, ensuring isolated plugin state.
 
   **Signature:**
 
@@ -614,7 +614,6 @@ Decorations are identified by a string `id` so they can be updated or removed in
   | `history` | `prosemirror-history` |
   | `tables` | `prosemirror-tables` |
   | `dropcursor` | `prosemirror-dropcursor` |
-  | `collab` | `prosemirror-collab` |
   | `markdown` | `prosemirror-markdown` |
 
   **Example: create a node decoration plugin**
@@ -738,12 +737,12 @@ Place your CSS file (`css.txt` + your `.css` file) inside this folder. It will b
 
 > [!NOTE]
 >
->This CSS targets the legacy CKEditor-based author surface only. It has no effect inside the MarkupEditor (ProseMirror), which uses a shadow DOM.
+>This CSS targets the legacy CKEditor-based author surface only. It has no effect inside the New Editor (ProseMirror), which uses a shadow DOM.
 
 
-### New MarkupEditor: `css` in `registerPlugin`
+### New Editor: `css` in `registerPlugin`
 
-The MarkupEditor renders inside a **shadow DOM**, which isolates it from all page-level styles, including AEM `clientlibs`. To inject CSS into the MarkupEditor's author surface, pass a `css` string as part of the `PluginConfig` returned by your plugin factory.
+The New Editor renders inside a **shadow DOM**, which isolates it from all page-level styles, including AEM `clientlibs`. To inject CSS into the New Editor's author surface, pass a `css` string as part of the `PluginConfig` returned by your plugin factory.
 
 The CSS is injected as a `<style>` tag directly inside the editor's shadow root each time an editor instance is created.
 
@@ -754,7 +753,7 @@ guides.ready(() => {
   guides.editor.registerPlugin(() => ({
     plugin: createMyPlugin(), // your ProseMirror plugin
     css: `
-      /* Styles scoped to the MarkupEditor shadow DOM */
+      /* Styles scoped to the New Editor shadow DOM */
       .section > .title-node {
         font-size: 1.4em;
         font-weight: bold;
@@ -792,7 +791,7 @@ guides.ready(() => {
 
 >[!NOTE]
 >
-> This CSS only applies inside the MarkupEditor shadow DOM. It has no effect on the rest of the page or on the legacy editor.
+> This CSS only applies inside the New Editor shadow DOM. It has no effect on the rest of the page or on the legacy editor.
 
 
 ## Context Menu Extensions (`contextMenuWidget`)
@@ -804,7 +803,7 @@ Extensions can add items to the editor's right-click / breadcrumb context menu b
 | Widget ID | Editor |
 |---|---|
 | `dita_editor_menu` | Legacy CKEditor author surface (breadcrumb + element context menu) |
-| `markup_editor_menu` | New MarkupEditor (ProseMirror) breadcrumb & element context menu |
+| `markup_editor_menu` | New Editor (ProseMirror) breadcrumb & element context menu |
 
 Both widgets are mounted on the page simultaneously. The framework matches each extension to the correct menu based on this field.
 
@@ -844,9 +843,9 @@ const myContextMenuExtension = {
 
 ---
 
-### New MarkupEditor: `markup_editor_menu`
+### New Editor: `markup_editor_menu`
 
-Use this for extensions that should appear in the MarkupEditor context menu (breadcrumbs and right-click on elements). The controller receives events via `handleExtensionEvent`, which routes local handlers to the `markup_editor_menu` controller and dispatches global events through the app event handler.
+Use this for extensions that should appear in the New Editor context menu (breadcrumbs and right-click on elements). The controller receives events via `handleExtensionEvent`, which routes local handlers to the `markup_editor_menu` controller and dispatches global events through the app event handler.
 
 ```js
 const myMarkupContextMenu = {
