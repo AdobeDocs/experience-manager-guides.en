@@ -95,6 +95,7 @@ To use the document approval feature, perform the following steps:
 1.  Once the document is successfully marked as approved, then a **Preview** of the document is shown in the read-only mode. All the editing options are removed from all the three modes - Author, Source, and Preview. However, you still get access to the **Menu** dropdown that features the **Version history** and **Tags** options. 
 
 >[!BEGINTABS] 
+
 >[!TAB New Editor] 
 
 ![](images/approved-doc-read-only-editor-2-0.png){width="650" align="left"}
@@ -102,6 +103,7 @@ To use the document approval feature, perform the following steps:
 >[!TAB Old Editor] 
 
 ![](images/approved-doc-read-only.png){width="650" align="left"}
+
 >[!ENDTABS] 
 
 
