@@ -153,6 +153,8 @@ The **Author** view allows you to edit your DITA map in the Editor. This shows t
 
 ![](images/map-editor-author-view.png)
 
+>[!ENDTABS]
+
 The options available in the **Menu** dropdown are same as available in the [Editor toolbar](./web-editor-toolbar.md#menu-dropdown).
 
 In addition, you can view the following icons and perform the related tasks from the Author view:
@@ -361,9 +363,19 @@ To edit topics through a DITA map, perform the following steps:
 
     If you select a map file, the map is opened in a new tab of the Editor.
 
-    ![](images/web-editor-multiple-topics-editor-2-0.png)
+>[!BEGINTABS]
+
+>[!TAB New Editor]
+
+![](images/web-editor-multiple-topics-editor-2-0.png)
+
+>[!TAB Old Editor]
+
+![](images/web-editor-multiple-topics.png)
+
+>[!ENDTABS]
  
-    Once you have finished editing the topics, you can do the following:
+Once you have finished editing the topics, you can do the following:
 
 - You can save them individually. If you close without saving your topics, you will view a dialog box prompting you to save the unsaved topics:
 
