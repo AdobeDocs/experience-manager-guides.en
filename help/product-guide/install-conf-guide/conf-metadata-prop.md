@@ -8,7 +8,7 @@ level: Experienced
 ---
 # Configure the ignore list of metadata properties 
 
-When a file is edited, the current working copy of the file is compared with its latest document version. This comparison includes content changes and system-generated metadata changes. To prevent system-generated metadata updates from affecting the working copy indicator, you can configure an ignore list for metadata properties.
+When a file is edited, any changes to the metadata fields available under **File properties** or applied at the backend trigger the asterisk (*) on the document version. To prevent system-generated metadata updates from affecting this indicator, administrators can configure an ignore list for metadata properties.
 
 Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file. In the configuration file, provide the following (property) details to configure the **Ignore metadata property for dirty version** option:
 

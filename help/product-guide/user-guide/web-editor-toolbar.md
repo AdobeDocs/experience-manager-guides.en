@@ -436,9 +436,9 @@ Once you have inserted an image, you can change the height, width, placement, an
 
 ![](images/image-properties.png){ }
 
-The **Source path** field shows the relative path of the selected reference. Use Copy Path to copy the absolute path.
+The **Source path** field shows the relative path of the selected reference. Use the **Copy Path** button to copy the absolute path.
 
-The **Source UUID** field shows the UUID of the selected reference. Use Copy UUID to copy the UUID.
+The **Source UUID** field shows the UUID of the selected reference. Use the **Copy UUID** button to copy the UUID.
 
 You can resize an image by providing either Height or Width value for the image file. The aspect ratio of the image is maintained automatically. If you want, you can also choose not to maintain the aspect ratio of the image file by selecting the lock icon \(of Maintain Aspect Ratio\) and providing Height and Width values.
 
