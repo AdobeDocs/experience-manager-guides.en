@@ -24,7 +24,7 @@ Here's an overview video highlighting the capabilities of Editor 2.0.
 >
 > Contact the AEM Guides Customer Success team to have the Editor 2.0 enabled on your environment.
 
-Following are the enhancements that make authoring easier and more efficient:
+Following are the enhancements that make authoring easier and more efficient.
 
 ### Redesigned user interface & experience
 

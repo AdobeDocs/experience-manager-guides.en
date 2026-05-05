@@ -46,7 +46,7 @@ Learn about [upgrade instructions for the 2026.05.0 release](upgrade-instruction
 
 ## Resolved issues available with Editor 2.0
 
-The following issues have been fixed, and no longer occur when using Editor 2.0:
+The following issues have been fixed, and no longer occur when using Editor 2.0 (aka New Editor):
 
 - When two or more columns are deleted from a table, the table structure becomes inconsistent or corrupted. (GUIDES-35438)
 - When a column is deleted from a table that contains merged cells, a new blank column is added. (GUIDES-30147)
