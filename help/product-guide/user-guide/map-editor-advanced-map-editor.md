@@ -19,7 +19,7 @@ The options that you view in the editor toolbar are based on the Map Editor view
 - [Author](#author-view)
 - [Source](#source-view)
 - [Preview](#preview)
-- [Side-by-side view](#side-by-side-view)
+- [Side-by-side view](#side-by-side-view-available-in-new-editor-only)
     
 The following sections cover the toolbar options available in the different views of the Map Editor:
 
