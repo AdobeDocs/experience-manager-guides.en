@@ -22,7 +22,7 @@ Here's an overview video highlighting the capabilities of Editor 2.0.
 
 >[!NOTE]
 >
-> Please reach out to AEM Guides Customer Success team to get the Editor 2.0 enabled on your environment.
+> Contact the AEM Guides Customer Success team to have the Editor 2.0 enabled on your environment.
 
 Following are the enhancements that make authoring easier and more efficient:
 
@@ -105,6 +105,10 @@ The following Review enhancements have been made as part of this release:
 - Reviewers can now access Version history for topics under review, allowing them to view and compare previously reviewed and updated versions of the same topic across previous review tasks. This helps reviewers validate changes made since earlier review cycles and maintain continuity by reviewing comments, labels, and other related details within the current review context. For details, view [Version history for the Reviewer](../user-guide/review-topics.md#version-history-for-the-reviewer).
 
 ## New baseline experience introduced in Experience Manager Guides
+
+>[!NOTE]
+>
+> Contact the AEM Guides Customer Success team to have New baseline enabled on your environment.
 
 Managing large, complex baselines is now faster, more stable, and easier to scale with the **new baseline experience**, built on a redesigned baseline architecture. This update addresses long‑standing performance and reliability challenges while preserving existing workflows.
 
