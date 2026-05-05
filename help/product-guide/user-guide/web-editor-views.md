@@ -95,7 +95,7 @@ For more details, view the **Find and Replace** feature description in the [Tab 
 
 Side-by-side view allows you to view and work in the Author and Source views simultaneously on the same screen. The WYSIWYG Author view and the underlying XML Source view are displayed adjacent to each other, enabling parallel content and structural editing without switching views. Both views remain synchronized in real time, ensuring that the cursor position and selection in the Author view are reflected at the corresponding location in the Source view, providing better accuracy and control while authoring structured content.
 
-![](images/side-by-side-editor-2-0.png){width="650" align="left"}
+![](images/side-by-side-editor-2-0.png){width="650"}
 
 
 ## Preview

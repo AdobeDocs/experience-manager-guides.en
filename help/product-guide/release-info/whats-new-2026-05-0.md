@@ -32,11 +32,11 @@ A refreshed interface improves overall usability, making navigation and content 
 
 - **Richer CSS for elements in the Author and Preview mode**: Enhanced default CSS for elements provide improved styling and better visual consistency across both authoring and preview modes.
 
-    ![](assets/rich-css.png){width="650" align="left"}
+    ![](assets/rich-css.png){width="650"}
 
 - **Dark theme support**: Support for a dark theme in the content editing area enhances the authoring experience for users who prefer working with a dark interface.
 
-    ![](assets/dark-theme.png){width="650" align="left"}
+    ![](assets/dark-theme.png){width="650"}
 
 - **Consolidated user-level Editor settings**: A new centralized settings panel that gives Authors better control over editor behavior allowing users to manage preferences more easily from a single location. Configuration options include, ability to enable/disable: 
 
@@ -45,14 +45,14 @@ A refreshed interface improves overall usability, making navigation and content 
     - XML comments in Author mode
     - Quick insert menu for element insertion in editor
 
-    ![](assets/editor-settings-dialog.png){width="350" align="left"}
+    ![](assets/editor-settings-dialog.png){width="350"}
 
 
     For more information about how to configure Editor settings, view [Editor settings](../user-guide/config-editor-settings.md).
 
 - **Better representation of conditional content in Author mode**: Conditional content is more clearly displayed in Author mode, helping authors identify and manage variations more effectively. For details, view [Conditions](../user-guide/web-editor-left-panel.md#conditions) in Left panel of Editor.
 
-    ![](assets/multiple-conditions-applied_cs-editor-2-0.png){width="650" align="left"}
+    ![](assets/multiple-conditions-applied_cs-editor-2-0.png){width="650"}
 
 
 ### Enhanced authoring capabilities
@@ -61,19 +61,19 @@ Provides improved tools and flexibility to streamline content creation and editi
 
 - **View attributes along with elements in tag mode**: Authors can now view element attributes with the tag mode, offering better visibility and control over structured content. To configure this feature, view [Editor settings](../user-guide/config-editor-settings.md).
 
-    ![](assets/config-tags-attributes.png){width="650" align="left"}
+    ![](assets/config-tags-attributes.png){width="650"}
 
 - **Quick insert menu**: Enables adding elements directly while editing in Author mode at the cursor position without navigating to the toolbar. Frequently used elements can also be configured in the Favorites section through Editor settings for quicker access. For details, view [Edit topics](../user-guide/web-editor-edit-topics.md).
 
-    ![](assets/quick-insert-menu.png){width="650" align="left"}
+    ![](assets/quick-insert-menu.png){width="650"}
 
 - **Ability to view, edit, and insert XML comments in the Author mode**: Enables authors to view, edit, and insert XML comments directly in Author mode, for better visibility within the content. To configure this feature, view [Editor settings](../user-guide/config-editor-settings.md).
 
-    ![](assets/config-xml-comments.png){width="650" align="left"}
+    ![](assets/config-xml-comments.png){width="650"}
 
 - **Side-by-side mode**: Allows simultaneous viewing of Author and Source modes, with both views remaining in perfect sync for easier comparison, editing, and validation of content changes. For details, view [Editor views](../user-guide/web-editor-views.md).
 
-    ![](assets/side-by-side-editor-2-0.png){width="650" align="left"}
+    ![](assets/side-by-side-editor-2-0.png){width="650"}
 
 - **Improved table authoring**: Enhances the overall table authoring experience with more intuitive and efficient interactions for creating and managing tables.
 
@@ -81,9 +81,9 @@ Provides improved tools and flexibility to streamline content creation and editi
     - Contextual toolbar: Access table-specific actions such as formatting, alignment, merging, and other additional actions directly within the table.
     - Configuring tables: Add multiple rows or columns in a single action, reducing repetitive steps and improving efficiency.
 
-    ![](assets/config-table.png){width="650" align="left"}
+    ![](assets/config-table.png){width="650"}
 
-    For details, view [Work with tables](../user-guide/web-editor-other-features.md).
+    For details, view [Work with tables](../user-guide/web-editor-other-features.md#work-with-tables-in-the-new-editor).
 
 ### Improved performance for large topics
 
