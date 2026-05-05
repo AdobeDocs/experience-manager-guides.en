@@ -114,7 +114,7 @@ Available as a beta enhancement, this update provides solution to common pain po
 - Stronger UI and backend consistency
 - Expanded filtering, navigation, and dependency visibility
 
-For details, view [New baseline in Experience Manager Guides](../user-guide/web-editor-baseline-v2.md).
+For details, view [New baseline experience (Beta) in Experience Manager Guides](../user-guide/web-editor-baseline-v2.md).
 
 
 
