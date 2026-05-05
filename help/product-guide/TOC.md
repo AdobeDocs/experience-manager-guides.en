@@ -14,7 +14,7 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - {hide-from-toc} [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2026 Releases {#2026-releases}
-      - 2026.05.0 Release {#2605-release}
+        - 2026.05.0 Release {#2605-release}
           - [What's new](./release-info/whats-new-2026-05-0.md)
           - [Fixed issues](./release-info/fixed-issues-2026-05-0.md)
           - [Upgrade instructions](./release-info/upgrade-instructions-2026-05-0.md)
@@ -778,7 +778,7 @@ breadcrumb-title: AEM Guides Documentation
         - Widgets {#framework-widgets}
           - [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
           - [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-        - [Extension framework changes for Editor 2.0](./guides-ui-extensions/getting-started/editor_extension_guide.md)  
+        - [Extension framework changes for Editor 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)  
       - Getting Started {#getting-started}
         - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
         - [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)

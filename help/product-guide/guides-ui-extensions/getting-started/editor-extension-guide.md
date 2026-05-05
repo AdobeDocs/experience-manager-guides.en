@@ -425,8 +425,6 @@ guides.ready(() => {
   }
   ```
 
----
-
 ## Decoration API
 
 The Decoration API provides a higher-level alternative to writing full ProseMirror plugins for common visual customizations. Instead of managing `Plugin`, `PluginKey`, and `DecorationSet` manually, you describe *what* to decorate and *how*, and the editor's central decoration manager handles the ProseMirror state internally.
@@ -563,8 +561,6 @@ Decorations are identified by a string `id` so they can be updated or removed in
   ]);
   ```
 
----
-
 - `guides.editor.clearDecorations()`: Removes all active decorations managed by the decoration manager.
 
   **Signature:**
@@ -646,10 +642,9 @@ Decorations are identified by a string `id` so they can be updated or removed in
   }));
   ```
 
-  > [!NOTE]
+  >[!NOTE]
   >
   > CSS passed via `css` is injected into the editor's shadow DOM. Regular page-level stylesheets do not apply inside the editor.
-
 
 ## ProseMirror Libraries
 
@@ -787,7 +782,7 @@ Place your CSS file (`css.txt` + your `.css` file) inside this folder. It will b
 }
 ```
 
-> [!NOTE]
+>[!NOTE]
 >
 >This CSS targets the legacy CKEditor-based author surface only. It has no effect inside the New Editor (ProseMirror), which uses a shadow DOM.
 
@@ -861,8 +856,6 @@ Both widgets are mounted on the page simultaneously. The framework matches each 
 
 > Extensions can also target both editors by passing an array: `contextMenuWidget: ["dita_editor_menu", "markup_editor_menu"]`
 
----
-
 ### Legacy editor: `dita_editor_menu`
 
 Use this for extensions that should appear in the legacy CKEditor context menu.
@@ -892,8 +885,6 @@ const myContextMenuExtension = {
   },
 };
 ```
-
----
 
 ### New Editor: `markup_editor_menu`
 
@@ -939,8 +930,6 @@ const myMarkupContextMenu = {
   },
 };
 ```
-
----
 
 ## Utility Libraries
 
