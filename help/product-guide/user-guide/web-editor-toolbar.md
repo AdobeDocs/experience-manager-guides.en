@@ -368,7 +368,7 @@ Once a table is inserted, you can modify the table using the context menu.
 
 >[!NOTE]
 >
-> You can also chose to switch to the New Editor for an improved table editing experience. For more details on table authoring features available in the New Editor, view [Work with tables in the New Editor](/web-editor-other-features.md#work-with-tables-in-the-new-editor).
+> You can also chose to switch to the New Editor for an improved table editing experience. For more details on table authoring features available in the New Editor, view [Work with tables in the New Editor](./web-editor-other-features.md#work-with-tables-in-the-new-editor).
 
 ![](images/table-context-menu_cs.png){width="550"}
 

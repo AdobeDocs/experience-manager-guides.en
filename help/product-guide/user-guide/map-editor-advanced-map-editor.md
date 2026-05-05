@@ -361,19 +361,9 @@ To edit topics through a DITA map, perform the following steps:
 
     If you select a map file, the map is opened in a new tab of the Editor.
 
->[!BEGINTABS] 
-
->[!TAB New Editor] 
-
-![](images/web-editor-multiple-topics-editor-2-0.png)
-
->[!TAB Old Editor] 
-
-![](images/web-editor-multiple-topics.png)
-
->[!ENDTABS] 
-    
-Once you have finished editing the topics, you can do the following:
+    ![](images/web-editor-multiple-topics-editor-2-0.png)
+ 
+    Once you have finished editing the topics, you can do the following:
 
 - You can save them individually. If you close without saving your topics, you will view a dialog box prompting you to save the unsaved topics:
 

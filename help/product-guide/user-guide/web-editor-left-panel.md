@@ -53,7 +53,7 @@ The detailed explanation of the left panel features is as follows:
 
 ## Collections 
 
-If you work on a set of files or folders, you can add them to your favorite list to access them quickly. **Collections** show the list of documents that you have added and other publicly accessible list of documents from the other users. You can also enable [paginated loading](/web-editor-other-features.md#paginated-loading-experience) to load and browse files in smaller batches when working with large collections. 
+If you work on a set of files or folders, you can add them to your favorite list to access them quickly. **Collections** show the list of documents that you have added and other publicly accessible list of documents from the other users. 
 
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.
 
@@ -128,10 +128,6 @@ When you select the Repository icon, you get a list of files and folders availab
 > As an administrator, you can also choose to view the list of files by filenames in the Editor. Select the **File name** option under the **Editor files display configuration** section in **User preferences**.
 
 75 files are loaded at a time. Each time you select **Load more**… 75 files are loaded, and the button stops being displayed when all the files have been listed. This batch loading is efficient, and you can access the files faster in comparison to loading all the files existing in a folder.
-
->[!NOTE]
->
-> You can also choose to enable paginated loading in the Explorer/Repository panel for improved performance when working with large repositories. This feature is disabled by default. To enable it, contact the Customer Success team. For more details on the paginated loading experience and related performance enhancements, view [Paginated loading in Explorer or Repository](/web-editor-other-features.md#paginated-loading-experience).
 
 You can easily navigate to the required file within DAM and open it in the Editor. If you have the required access to edit the file, then you can do so.
 
@@ -665,10 +661,6 @@ To insert content from the Reusable content panel, use any of the following meth
 
 ## Outline
 
->![INFO]
->
->The UI may vary depending on the Editor you are using.
-
 When you select the **Outline** icon, you get the hierarchical view of the elements used in the document.
 
 ![](images/outline-view_cs.png){width="300"}
@@ -1108,7 +1100,6 @@ By default, you can view the files by titles. As you hover over a template, you 
 
 To learn how to create custom templates, view [Create maps based on customized templates](./create-maps-customized-templates.md). 
 
-You can also enable [paginated loading](/web-editor-other-features.md#paginated-loading-experience) to load and browse files within *topic* and *map* folders in smaller batches.  
 
 ## Citations 
 
