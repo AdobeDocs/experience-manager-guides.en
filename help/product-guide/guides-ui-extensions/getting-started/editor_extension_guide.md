@@ -17,7 +17,7 @@ The global `guides` object is the entry point for all extension integrations:
 ```js
 guides.editor    // Editor interaction APIs
 guides.util      // Utility libraries (lodash, async)
-guides.ready(cb) // Lifecycle hook — fires when the editor is fully loaded
+guides.ready(cb) // Lifecycle hook fires when the editor is fully loaded
 ```
 
 All `guides.editor` APIs are safe to call from extension controllers, toolbar handlers, and dialog logic.
@@ -196,13 +196,44 @@ guides.ready(() => {
 
   **Available Commands**
 
-  | Command | Arguments | Description |
-  |---|---|---|
-  | `setNodeXmlAttributes` | `position: number, attrs: Record<string, unknown>` | Sets multiple XML attributes on the node at `position` |
-  | `setNodeXmlAttribute` | `position: number, attrName: string, value: string` | Sets a single XML attribute on the node at `position` |
-  | `surroundWithElement` | `tagName: string, attrs?: Record<string,unknown>, replaceTextWithEmptyNode?: boolean` | Wraps the current selection with the given element |
-  | `insertXml` | `xml: string, position?: number, options?: InsertXmlOptions` | Inserts raw XML at the cursor or given position |
-  | `unwrapNode` | _(none)_ | Removes the current node's wrapper element, keeping its content |
+  >[!NOTE]
+  >
+  > Stability: The commands listed below are part of the public interface. Their names, signatures, and observable behavior are considered stable and are maintained for compatibility. Additional commands may be present within the editor; however, these are internal, are not intended for external use, and may change or be removed without prior notice.
+
+  | Category | Command | Arguments | Description |
+  |---|---|---|---|
+  | General | `undo` | _(none)_ | Undoes the last document change |
+  | General | `redo` | _(none)_ | Redoes the last undone change |
+  | Selection | `select` | `from: number, to?: number` | Selects the range from `from` to `to` (or just `from` if `to` is omitted) |
+  | Selection | `cursor` | `pos: number` | Moves the cursor to `pos` |
+  | Selection | `selectNodesFromXpaths` | `xpaths: Array<{path: Array<{name: string, count: number}>}>` | Selects nodes identified by XPath positions |
+  | Formatting | `toggleBold` | _(none)_ | Toggles bold formatting on the current selection |
+  | Formatting | `toggleItalic` | _(none)_ | Toggles italic formatting on the current selection |
+  | Formatting | `toggleUnderline` | _(none)_ | Toggles underline formatting on the current selection |
+  | Formatting | `toggleFormatting` | `markType: string, allowEmptySelection?: boolean` | Toggles a formatting element (e.g., `'b'`, `'i'`, `'sup'`, `'sub'`) on the selection |
+  | Insertion | `insertText` | `text: string` | Inserts plain text at the cursor |
+  | Insertion | `insertXml` | `xml: string, position?: number, options?: InsertXmlOptions` | Inserts raw XML at the cursor or given position |
+  | Insertion | `insertXmlAfterElement` | `elementName: string, xmlString: string` | Inserts XML immediately after the nearest ancestor matching `elementName` |
+  | Insertion | `replaceSelectionWithXml` | `xmlString: string` | Replaces the current selection with the given XML |
+  | Node Operations | `surroundWithElement` | `tagName: string, attrs?: Record<string,unknown>, replaceTextWithEmptyNode?: boolean` | Wraps the current selection with the given element |
+  | Node Operations | `wrapNode` | `type: string, target?: number, attrs?: Record<string, unknown>` | Wraps the node at `target` (or the current node) in an element of `type` |
+  | Node Operations | `renameNode` | `newNodeName: string` | Renames the current node's element |
+  | Node Operations | `unwrapNode` | _(none)_ | Removes the current node's wrapper element, keeping its content |
+  | Delete | `deleteSelection` | _(none)_ | Deletes the currently selected content |
+  | Delete | `deleteNode` | _(none)_ | Deletes the entire current node |
+  | Attributes | `setNodeXmlAttributes` | `position: number, attrs: Record<string, unknown>` | Sets multiple XML attributes on the node at `position` |
+  | Attributes | `setNodeXmlAttribute` | `position: number, attrName: string, value: string` | Sets a single XML attribute on the node at `position` |
+  | Lists | `toggleList` | `listName: 'ol' \| 'ul'` | Toggles the current block between a list of the given type and a paragraph |
+  | Tables | `addRowAfter` | `count?: number` | Adds `count` rows below the current row (default 1) |
+  | Tables | `addColumnAfter` | `count?: number` | Adds `count` columns to the right of the current column (default 1) |
+  | Tables | `deleteRow` | _(none)_ | Deletes the current row |
+  | Tables | `deleteColumn` | _(none)_ | Deletes the current column |
+  | Tables | `mergeCells` | _(none)_ | Merges the currently selected cells |
+  | Clipboard | `copy` | _(none)_ | Copies the current selection to the clipboard |
+  | Clipboard | `cut` | _(none)_ | Cuts the current selection to the clipboard |
+  | Find & Replace | `setSearchQuery` | `query: string, options?: { caseSensitive?: boolean, regex?: boolean }` | Sets the active search query |
+  | Find & Replace | `findNext` | _(none)_ | Moves to the next search match |
+  | Find & Replace | `replaceAll` | `replacement?: string` | Replaces every match of the current search query with `replacement` |
 
   - **Example: Set multiple attributes on a node**
 
@@ -262,8 +293,6 @@ guides.ready(() => {
     );
     ```
 
-
-
 - `guides.editor.canRunCommand(commandName, ...args)`: Checks whether a named command can currently be executed, without actually running it.
 
   **Signature:**
@@ -292,20 +321,43 @@ guides.ready(() => {
 
   **Available Utilities**
 
-  | Utility | Arguments | Returns | Description |
-  |---|---|---|---|
-  | `getTextPos` | _(none)_ | `number` | Current cursor position in the ProseMirror document |
-  | `getAncestorsNames` | `position?: number` | `string[]` | XML tag names of ancestor nodes at `position` |
-  | `getAncestorsDetails` | _(none)_ | `{ currNode: string, ancestors: Array<{tagName:string}> }` | Current node and ancestor details |
-  | `getAncestorXpaths` | `includeId?: boolean` | `AncestorXpathItem[]` | XPath strings for all ancestor nodes |
-  | `findPositionRange` | `tagName: string` | `{ from: number, to: number } \| undefined` | Finds the ProseMirror range of the first element with the given tag |
-  | `findPositionRanges` | `tagName: string` | `Array<{ from: number, to: number }>` | Finds all ProseMirror ranges for elements matching `tagName` |
-  | `getAttributeAtPosition` | `position: number, attrName: string` | `unknown` | Reads an XML attribute value from the node at `position` |
-  | `getSerializableAttributes` | `xpath: string` | `Record<string, unknown>` | Returns all serializable XML attributes for the node at `xpath` |
-  | `getSelectedXml` | _(none)_ | `string` | Returns the currently selected content as an XML string |
-  | `getSelectedPlainText` | _(none)_ | `string` | Returns the currently selected content as plain text |
-  | `hasSelection` | _(none)_ | `boolean` | Returns `true` if there is an active text/node selection |
-  | `getNodePosition` | _(none)_ | `number` | Returns the document position of the currently selected/focused node |
+  >[!NOTE]
+  >
+  > Stability: The utilities listed below are part of the public interface. Their names, signatures, and observable behavior are considered stable and are maintained for compatibility. Additional commands may be present within the editor; however, these are internal, are not intended for external use, and may change or be removed without prior notice.
+
+
+  | Category | Utility | Arguments | Returns | Description |
+  |---|---|---|---|---|
+  | Position | `getTextPos` | _(none)_ | `{ start: number, end: number }` | Start and end positions of the current selection in the ProseMirror document |
+  | Position | `getNodePosition` | `position?: number` | `number` | Document position of the currently selected/focused node |
+  | Position | `mapToXpath` | `position: number` | `XPathPosition` | Maps a ProseMirror position to an XPath descriptor |
+  | Position | `inverseMap` | `xpath: XPathPosition \| number` | `number` | Maps an XPath descriptor (or numeric position) back to a ProseMirror position |
+  | Document | `getNodeTree` | _(none)_ | `NodeTree \| null` | Tree representation of the document, suitable for outline rendering |
+  | Document | `getAncestorsNames` | `position?: number` | `string[]` | XML tag names of ancestor nodes at `position` |
+  | Document | `getAncestorsDetails` | `position?: number` | `{ currNode: string, ancestors: Array<{tagName: string}>, previousSibling?: string, nextSibling?: string } \| undefined` | Current node, ancestors, and immediate siblings at `position` |
+  | Document | `getAncestorXpaths` | `includeId?: boolean` | `AncestorXpathItem[]` | XPath strings for all ancestor nodes |
+  | Document | `getPreviousSibling` | `position?: number` | `string \| undefined` | Tag name of the previous sibling, if any |
+  | Document | `getNextSibling` | `position?: number` | `string \| undefined` | Tag name of the next sibling, if any |
+  | Document | `getTagName` | `position?: number` | `string \| null` | Tag name of the element at `position` (or cursor) |
+  | Element Search | `findPositionRange` | `tagName: string` | `{ from: number, to: number } \| undefined` | Range of the first element with the given tag |
+  | Element Search | `findPositionRanges` | `tagName: string` | `Array<{ from: number, to: number }>` | All ranges for elements matching `tagName` |
+  | Attributes | `getAttributeAtPosition` | `position: number, attrName: string` | `unknown` | Reads an XML attribute value from the node at `position` |
+  | Attributes | `getSerializableAttributes` | `xpath: string` | `Record<string, unknown>` | All serializable XML attributes for the node at `xpath` |
+  | Serialization | `serialize` | _(none)_ | `string` | Serializes the entire document to XML |
+  | Serialization | `serializeToText` | _(none)_ | `string` | Serializes the entire document to plain text |
+  | Serialization | `getRangeXml` | `xpaths: AncestorXpathItem[]` | `string` | Returns the XML for an XPath-defined range |
+  | Selection | `getSelectedXml` | _(none)_ | `string` | Currently selected content as an XML string |
+  | Selection | `getSelectedText` | _(none)_ | `string` | Selected text without any markup |
+  | Selection | `hasSelection` | _(none)_ | `boolean` | `true` if there is an active text/node selection |
+  | Selection | `isSelectionEditable` | _(none)_ | `boolean` | Whether the current selection sits inside editable content |
+  | Selection | `isPositionEditable` | `position: number` | `boolean` | Whether `position` is inside editable content |
+  | Insertion | `canInsert` | `name: string, position?: number, insertMode?: 'after' \| 'before' \| 'rename'` | `boolean` | Whether `name` can be inserted at `position` (or cursor) |
+  | Insertion | `getInsertPosition` | `name: string, position?: number, insertMode?: 'after' \| 'before' \| 'rename'` | `number \| null` | Valid insertion position for `name`, or `null` if not insertable |
+  | Insertion | `getNodeXml` | `nodeName: string, nodeContent?: string` | `string \| null` | XML template for a node type |
+  | Wrap/Rename | `getValidWrapNodeElementNames` | _(none)_ | `string[]` | Element names that may wrap the current selection |
+  | Wrap/Rename | `getValidRenameNodeElementNames` | _(none)_ | `string[]` | Element names the current node may be renamed to |
+  | Tables | `getTableInfo` | `position?: number` | `{ rows: number, cols: number, header: number }` | Dimensions of the current table |
+  | Tag View | `isTagViewActive` | _(none)_ | `boolean` | Whether tag-view rendering is active |
 
   **Example: get cursor position and ancestor names**
 
@@ -936,4 +988,3 @@ const myMarkupContextMenu = {
 | `prosemirror.dropcursor` | `prosemirror-dropcursor` package |
 | `prosemirror.collab` | `prosemirror-collab` package |
 | `prosemirror.markdown` | `prosemirror-markdown` package |
-
