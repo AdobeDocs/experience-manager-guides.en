@@ -43,7 +43,7 @@ Perform the following steps to create a topic from the Editor:
     
 4. Select **Create**.
 
-    ![](images/create-topic-dialog-new.png){width="350" align="left"}
+    ![](images/create-topic-dialog-new.png){width="350"}
     
 The topic is created at the specified path. Also, the topic is opened in the Editor for editing. 
 
@@ -53,13 +53,13 @@ The topic is created at the specified path. Also, the topic is opened in the Edi
 
 This view displays how the content is rendered in the New Editor.
 
-![](images/new-topic-editor-new-editor-2-0.png){align="left"}
+![](images/new-topic-editor-new-editor-2-0.png)
 
 >[!TAB Old Editor]
 
 This view displays how the content is rendered in the Old Editor.
    
-![](images/new-topic-editor.png){align="left"}
+![](images/new-topic-editor.png)
 
 >[!ENDTABS]
 
@@ -101,7 +101,7 @@ Perform the following steps to create a topic from the Assets UI:
 
 1. Every new topic that you create from the Assets UI **Create** \> **DITA Topic** or the Editor is assigned a unique topic ID. The value of this ID is the file name itself. Also, a new document is saved as the latest working copy of the topic in DAM. Until you save a revision of a newly created topic, you will not view any version number in the Version History. If you open the topic for editing, the version information is shown in the right top corner of the toolbar:
 _
-    ![](images/version-none.png){width="550" align="left"}
+    ![](images/version-none.png){width="550"}
 
 2. The version information for a newly created topic is shown as *none*. When you save a new version, then it is assigned a version number as 1.0. 
 

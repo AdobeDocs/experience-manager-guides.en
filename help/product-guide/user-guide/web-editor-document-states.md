@@ -98,11 +98,11 @@ To use the document approval feature, perform the following steps:
 
 >[!TAB New Editor] 
 
-![](images/approved-doc-read-only-editor-2-0.png){width="650" align="left"}
+![](images/approved-doc-read-only-editor-2-0.png){width="650"}
 
 >[!TAB Old Editor] 
 
-![](images/approved-doc-read-only.png){width="650" align="left"}
+![](images/approved-doc-read-only.png){width="650"}
 
 >[!ENDTABS] 
 

@@ -30,7 +30,7 @@ The Menu dropdown provides access to the various editing actions as shown below:
 
 >[!TAB New Editor]
 
-![Menu dropdown for Editor toolbar](images/editor-toolbar-menu-dropdown-new-editor-2-0.png){width="350" align="left"}
+![Menu dropdown for Editor toolbar](images/editor-toolbar-menu-dropdown-new-editor-2-0.png){width="350"}
 
 
 >[!TAB Old Editor]
@@ -316,11 +316,11 @@ If you are working inside a block element like a `note`, then use the Insert ele
 
 >[!TAB New Editor] 
 
-![Insert element in a block element](images/note-in-para-insert-element_cs-editor-2-0.png){  align="left"}
+![Insert element in a block element](images/note-in-para-insert-element_cs-editor-2-0.png)
 
 >[!TAB Old Editor] 
 
-![Insert element in a block element](images/note-in-para-insert-element_cs.png){  align="left"}
+![Insert element in a block element](images/note-in-para-insert-element_cs.png)
 
 >[!ENDTABS] 
 
@@ -328,7 +328,7 @@ If you press Enter in the note element, a new paragraph is created within the no
 
 In the New Editor, you can insert a new element between existing elements when a horizontal cursor appears. This cursor indicates that your cursor is positioned outside a block element and can add a new element at that location.
 
-![](images/Block-cursor-editor-2-0.png){width="300" align="left"}
+![](images/Block-cursor-editor-2-0.png){width="300"}
 
 For example, in a DITA topic, when the horizontal cursor appears between the `short description` and the `body`, you can insert a `prolog` element. You can then use the `prolog` to add metadata such as `copyright`, `author`, and other details.
 
@@ -370,7 +370,7 @@ Once a table is inserted, you can modify the table using the context menu.
 >
 > You can also chose to switch to the New Editor for an improved table editing experience. For more details on table authoring features available in the New Editor, view [Work with tables in the New Editor](/web-editor-other-features.md#work-with-tables-in-the-new-editor).
 
-![](images/table-context-menu_cs.png){width="550" align="left"}
+![](images/table-context-menu_cs.png){width="550"}
 
 Using the table's context menu, you can:
 
@@ -528,11 +528,11 @@ If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then yo
 
 >[!TAB New Editor] 
 
-![](images/ref-link-uuid_cs-editor-2-0.png){  align="left"}
+![](images/ref-link-uuid_cs-editor-2-0.png)
 
 >[!TAB Old Editor] 
 
-![](images/ref-link-uuid_cs.png){  align="left"}
+![](images/ref-link-uuid_cs.png)
 
 >[!ENDTABS] 
 
@@ -654,11 +654,11 @@ The version number changes with every new version that is created for the topic 
 
 >[!TAB New Editor]    
 
-![](images/version-information-editor-2-0.png){  align="left"}
+![](images/version-information-editor-2-0.png)
 
 >[!TAB Old Editor]     
 
-![](images/version-information.png){  align="left"}
+![](images/version-information.png)
 
 >[!ENDTABS] 
 
@@ -670,11 +670,11 @@ The version number changes with every new version that is created for the topic 
 
 >[!TAB New Editor]     
 
-![](images/save-as-new-version-editor-2-0.png){  align="left"}
+![](images/save-as-new-version-editor-2-0.png)
 
 >[!TAB Old Editor]     
     
-![](images/save-as-new-version.png){  align="left"}
+![](images/save-as-new-version.png)
 
 >[!ENDTABS] 
 
@@ -701,11 +701,11 @@ When you hover your pointer over a topic's title, you are shown the file title, 
 
 >[!TAB New Editor] 
 
-![](images/mouse-hover-on-title_cs-editor-2-0.png){  align="left"}
+![](images/mouse-hover-on-title_cs-editor-2-0.png)
 
 >[!TAB Old Editor] 
 
-![](images/mouse-hover-on-title_cs.png){  align="left"}
+![](images/mouse-hover-on-title_cs.png)
 
 >[!ENDTABS] 
 
@@ -721,11 +721,11 @@ Locks or unlocks the current file. Locking a file gives you an exclusive write a
 
 >[!TAB New Editor] 
 
-![](images/web-editor-lock-button-editor-2-0.png){  align="left"}
+![](images/web-editor-lock-button-editor-2-0.png)
 
 >[!TAB Old Editor] 
 
-![](images/web-editor-lock-button.png){  align="left"}
+![](images/web-editor-lock-button.png)
 
 >[!ENDTABS] 
 

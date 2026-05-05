@@ -54,7 +54,7 @@ The core processing steps remain functionally consistent but are now executed wi
     - Supports elastic scaling based on workload
     - Improves overall system reliability and performance 
 
-![](images/workflow.png){align="left"}    
+![](images/workflow.png)   
 
 ## Advantages of the new architecture
 
@@ -98,7 +98,7 @@ This streamlined approach ensures easy access and configuration for AEM environm
 | DATABASE_CONNECTION_POOL_SIZE    | `10`                             | Author          | Variable |
 
 
-![](images/environment-config.png){width="350" align="left"}
+![](images/environment-config.png){width="350"}
 
 1. Save changes: After making the configuration changes, ensure you **save** them within the Cloud Manager interface.
 
@@ -231,11 +231,11 @@ AEM supports bulk content ingestion through supported cloud storage providers, a
 
 - Predictable ingestion planning: Users can estimate ingestion duration in advance, which helps with release planning, scheduling, and coordination with dependent teams.
 
-    ![](images/ingestion-time.png){width="350" align="left"}
+    ![](images/ingestion-time.png){width="350"}
 
 - Comprehensive logging and tracking: The ingestion workflow includes detailed logging and tracking capabilities, providing visibility into progress, success states, and potential issues throughout the import process.
 
-    ![](images/bulk-import-job.png){width="350" align="left"}
+    ![](images/bulk-import-job.png){width="350"}
 
 - Scheduled ingestion: Content ingestion can be scheduled to occur during predefined time windows, ensuring minimal or no impact on end users and ongoing operations.
 

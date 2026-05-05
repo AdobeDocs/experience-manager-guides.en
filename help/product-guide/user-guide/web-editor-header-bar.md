@@ -15,13 +15,13 @@ The header bar is the top bar of the Editor that displays the Adobe Experience M
 
 This view displays how the content is rendered in New Editor
 
-![](./images/web-editor-header-bar-editor-2-0.png){align="left"}
+![](./images/web-editor-header-bar-editor-2-0.png)
 
 >[!TAB Old Editor]
 
 This view displays how the content is rendered in the Old Editor
 
-![](./images/web-editor-header-bar.png){align="left"}
+![](./images/web-editor-header-bar.png)
 
 >[!ENDTABS]
 

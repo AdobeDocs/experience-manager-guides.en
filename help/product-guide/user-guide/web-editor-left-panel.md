@@ -292,7 +292,7 @@ Steps to create a new folder:
 
     If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will view the UUID of the uploaded image in the **Source** property.
 
-    ![](images/image-properties.png){   align="left"}
+    ![](images/image-properties.png)
 
     After a successful upload, the following confirmation dialog is displayed:
 
@@ -782,11 +782,11 @@ You can also apply multiple conditions on an element by dragging-and-dropping mu
 
 >[!TAB New Editor]
 
-![](images/multiple-conditions-applied_cs-editor-2-0.png){width="650" align="left"}
+![](images/multiple-conditions-applied_cs-editor-2-0.png){width="650"}
 
 >[!TAB Old Editor]
 
-![](images/multiple-conditions-applied_cs.png){width="650" align="left"}
+![](images/multiple-conditions-applied_cs.png){width="650"}
 
 >[!ENDTABS]
 
@@ -800,11 +800,11 @@ However, in the Code view the conditions are separated using a space delimiter. 
 
 >[!TAB New Editor]
 
-![](images/conditional-content-through-panel_cs-editor-2-0.png){width="650" align="left"}
+![](images/conditional-content-through-panel_cs-editor-2-0.png){width="650"}
 
 >[!TAB Old Editor]
 
-![](images/conditional-content-through-panel_cs.png){width="650" align="left"}
+![](images/conditional-content-through-panel_cs.png){width="650"}
 
 >[!ENDTABS]
 
@@ -1024,11 +1024,11 @@ You can also apply values for an attribute by selecting multiple values from the
 
 >[!TAB New Editor]
 
-![](images/subject-scheme-new.png){width="650" align="left"}
+![](images/subject-scheme-new.png){width="650"}
 
 >[!TAB Old Editor]
 
-![](images/subject-scheme-right-panel.png){width="550" align="left"}
+![](images/subject-scheme-right-panel.png){width="550"}
 
 >[!ENDTABS]
 
@@ -1058,7 +1058,7 @@ Snippets are small content fragments that can be reused across various topics in
 > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete snippets. Else, as a normal author, you will only get the options to preview and insert a snippet.
 
 
-![](images/snippets-panel_cs-editor-2-0.png){width="650" align="left"}
+![](images/snippets-panel_cs-editor-2-0.png){width="650"}
 
 **Create a snippet**
 
@@ -1151,7 +1151,7 @@ The Find and Replace feature can be used in two distinct modes, depending on you
     > - **For Cloud services**: A custom index deployment must be performed. For details, view [Deploying custom index](/help/product-guide/cs-install-guide/custom-indexing.md). Once completed, contact your Customer Success team to enable this feature.
     > - **For On-Premise**: Re-indexing of existing content is required before the feature can be used. For details, view [Reindexing content](/help/product-guide/install-guide/custom-indexing-prem.md). Once completed, contact your Customer Success team to enable this feature.
 
-    ![](images/find-replace-new.png){align="left"}
+    ![](images/find-replace-new.png)
 
 <br>    
 

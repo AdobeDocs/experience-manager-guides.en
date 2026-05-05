@@ -28,11 +28,11 @@ You get the following functions in the context menu of an opened file's tab:
 
 >[!TAB New Editor] 
 
-![](images/single-file-context-menu-editor-2-0.png){width="400" align="left"}
+![](images/single-file-context-menu-editor-2-0.png){width="400"}
 
 >[!TAB Old Editor] 
 
-![](images/single-file-context-menu.png){width="400" align="left"}
+![](images/single-file-context-menu.png){width="400"}
 
 >[!ENDTABS] 
 
@@ -45,11 +45,11 @@ When you have multiple files opened, then you get more options in the context me
 >[!TAB New Editor] 
 
 
-![](images/multiple-files-context-menu-editor-2-0.png){width="550" align="left"}
+![](images/multiple-files-context-menu-editor-2-0.png){width="550"}
 
 >[!TAB Old Editor] 
 
-![](images/multiple-files-context-menu.png){width="550" align="left"}
+![](images/multiple-files-context-menu.png){width="550"}
 
 >[!ENDTABS] 
 
@@ -170,7 +170,7 @@ This section walks you through the various table authoring features available in
 
 The context menu is displayed when you right-click inside a table cell. The following options are available based on the table type you are working with.
 
-![](images/table-context-menu.png){width="550" align="left"}
+![](images/table-context-menu.png){width="550"}
 
 - Insert rows, columns, or cells
 
@@ -186,18 +186,18 @@ The contextual toolbar is displayed when you select content or cells inside a ta
 
 - Select the cell content to access the following formatting options:
 
-    ![](images/text-formatting-options-table.png){width="550" align="left"}
+    ![](images/text-formatting-options-table.png){width="550"}
 
   Use the Bold, Italic, or Underline options to format your text.
 - To access the contextual toolbar for a single cell, use `Ctrl+click` for Windows and `Command+click` for macOS. 
 
-    ![](images/cell-selection-contextual-toolbar.png){width="550" align="left"}
+    ![](images/cell-selection-contextual-toolbar.png){width="550"}
 
 - Similarly, you can also select multiple cells and use the contextual toolbar to apply text formatting and alignment to them at once. 
 
    Available options for single or multiple row selection:
 
-   ![](images/set-alignment-rows.png){width="550" align="left"}
+   ![](images/set-alignment-rows.png){width="550"}
 
     - Horizontal text alignment (Not available for Simple tables)
     - Vertical text alignment (Not available for Simple tables)
@@ -208,7 +208,7 @@ The contextual toolbar is displayed when you select content or cells inside a ta
 
     Available options for single or multiple column selection:
 
-    ![](images/set-alignment-columns.png){width="550" align="left"}
+    ![](images/set-alignment-columns.png){width="550"}
 
     - Horizontal text alignment (Not available for Simple tables)
     - Vertical text alignment (Not available for Simple tables)
@@ -222,17 +222,17 @@ The contextual toolbar is displayed when you select content or cells inside a ta
 
 - Select the table to apply text formatting and alignment to the entire table. 
 
-    ![](images/text-alignment-table.png){width="550" align="left"}
+    ![](images/text-alignment-table.png){width="550"}
 
 - Add rows or columns using an interactive plus button 
 
     To add a new row at the end of the table, hover over the last row and select the **+** button. A new row is added at the bottom of the table.
 
-    ![](images/add-row.png){width="550" align="left"}
+    ![](images/add-row.png){width="550"}
 
     Similarly, hover over the last column and select the **+** button to add a new column to the rightmost side of the table.
 
-    ![](images/add-column.png){width="550" align="left"}
+    ![](images/add-column.png){width="550"}
 
 - Add multiple rows or columns to a table using Insert options (Not available for Simple tables)
 
@@ -242,7 +242,7 @@ The contextual toolbar is displayed when you select content or cells inside a ta
 
     Easily move the rows and columns within the table using drag and drop. When you drag a row or column, it appears with a semi-transparent background to indicate that it is being moved. A blue line highlights the target position where the row or column will be placed upon release.
 
-    ![](images/drag-and-drop-table-rows.png){width="550" align="left"}
+    ![](images/drag-and-drop-table-rows.png){width="550"}
 
 ## Browse files and folders in Experience Manager Guides
 
@@ -417,12 +417,12 @@ The Editor displays the element's breadcrumb at the bottom-left of the topic. If
 
 >[!TAB New Editor]
 
-![](images/rename-element-editor-2-0.png){width="400" align="left"}
+![](images/rename-element-editor-2-0.png){width="400"}
 
 >[!TAB Old Editor]
 
 
-![](images/rename-element.png){width="400" align="left"}
+![](images/rename-element.png){width="400"}
 
 
 >[!ENDTABS] 
@@ -517,7 +517,7 @@ The key features aimed at improving the handling of large files are mentioned as
     >
     > This alert message applies only to the Old Editor, where it is displayed based on the configured `largeFileTagCount` parameter. In the New Editor, large files load seamlessly without triggering any alerts. Additionally, related functionalities that do not work in the Old Editor function normally in New Editor.
 
-![](images/add-toast-notification.png){width="600" align="left"}
+![](images/add-toast-notification.png){width="600"}
 
 
 - Additionally, the tag count is displayed on the bottom bar of the interface. When you hover over this tag count value, a tooltip appears. Selecting the **Learn more** tab provides details about handling large files.

@@ -147,7 +147,7 @@ The **Author** view allows you to edit your DITA map in the Editor. This shows t
 
 >[!TAB New Editor]
 
-![](images/map-editor-author-view-editor-2-0.png){align="left"}
+![](images/map-editor-author-view-editor-2-0.png)
 
 >[!TAB Old Editor]
 
@@ -365,11 +365,11 @@ To edit topics through a DITA map, perform the following steps:
 
 >[!TAB New Editor] 
 
-![](images/web-editor-multiple-topics-editor-2-0.png){align="left"}
+![](images/web-editor-multiple-topics-editor-2-0.png)
 
 >[!TAB Old Editor] 
 
-![](images/web-editor-multiple-topics.png){align="left"}
+![](images/web-editor-multiple-topics.png)
 
 >[!ENDTABS] 
     
@@ -377,7 +377,7 @@ Once you have finished editing the topics, you can do the following:
 
 - You can save them individually. If you close without saving your topics, you will view a dialog box prompting you to save the unsaved topics:
 
-    ![](images/save-multiple-topics-new.png){width="300" align="left"}
+    ![](images/save-multiple-topics-new.png){width="300"}
 
     You can choose to save all selected topics or deselect the topics that you do not want to save.
 
@@ -389,7 +389,7 @@ Once you have finished editing the topics, you can do the following:
 
 - If your administrator has enabled the option of unlocking files on close, then you will be shown a prompt to save files whenever the locked files are closed. With this option enabled, when you close the editor with changed files, you are shown the list of locked files that need to be saved. The locked files are shown with a lock icon:
 
-    ![](images/save-on-close-new.png){width="350" align="left"}
+    ![](images/save-on-close-new.png){width="350"}
 
 ## Right panel in the Map Editor 
 
@@ -403,7 +403,7 @@ For more details, view [Content properties](web-editor-features.md#right-panel) 
 
 **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under **Display attributes**. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the `audience` attribute are defined as `US`.
 
-![layout view](images/layout-inline-attributes.png){width="650" align="left"}
+![layout view](images/layout-inline-attributes.png){width="650"}
 
 Refer to the tabs below to compare how attributes are displayed in the Author view in the New Editor and the Old Editor.
 
@@ -411,11 +411,11 @@ Refer to the tabs below to compare how attributes are displayed in the Author vi
 
 >[!TAB New Editor] 
 
-![author view](images/author-inline-attributes-editor-2-0.png){width="650" align="left"}
+![author view](images/author-inline-attributes-editor-2-0.png){width="650"}
 
 >[!TAB Old Editor] 
 
-![author view](images/author-inline-attributes.png){width="650" align="left"}
+![author view](images/author-inline-attributes.png){width="650"}
 
 >[!ENDTABS] 
 

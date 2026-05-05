@@ -91,13 +91,13 @@ The topic opens in the Editor.
     
 This view displays how the content is rendered in New Editor
 
-![](images/edit-mode-editor-2-0.png){align="left"}
+![](images/edit-mode-editor-2-0.png)
 
 >[!TAB Old Editor]
 
 This view displays how the content is rendered in the Old Editor
 
-![](images/edit-mode.png){align="left"}
+![](images/edit-mode.png)
 
 >[!ENDTABS] 
 
@@ -145,13 +145,13 @@ The map file containing the topics is open for editing in the Editor.
     
 Map edit mode in the New Editor:
 
-![](images/map-console-edit-topics-editor-2-0.png){align="left"}
+![](images/map-console-edit-topics-editor-2-0.png)
 
 >[!TAB Old Editor]
 
 Map edit mode in the Old Editor:
 
-![](images/map-console-edit-topics.png){align="left"}
+![](images/map-console-edit-topics.png)
 
 
 >[!ENDTABS]

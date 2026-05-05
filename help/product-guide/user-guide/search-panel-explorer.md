@@ -57,11 +57,11 @@ After the search results are displayed in the Search panel, you can work with th
 
 >[!TAB New Editor]
 
-![](images/edit-search-panel-editor-2-0.png){align="left"}
+![](images/edit-search-panel-editor-2-0.png)
 
 >[!TAB Old Editor]
 
-![](images/edit-search-panel.png){align="left"}
+![](images/edit-search-panel.png)
 
 >[!ENDTABS]
 

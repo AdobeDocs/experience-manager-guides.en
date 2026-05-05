@@ -25,7 +25,7 @@ The Editor comes with a range of editing features that let you easily create or 
 
 1. Additionally you can use the Quick insert menu to readily insert allowed elements at the cursor position. Select **Control + /** for Windows or **Command + /** for Mac to access the elements. 
 
-    ![Quick insert menu](./images/quick-insert-menu-in-editor.png){width="650" align="left"}
+    ![Quick insert menu](./images/quick-insert-menu-in-editor.png){width="650"}
 
     Search for a new element or choose one from your favorites using the Quick Insert menu, then insert it at the current cursor position. Favorites include your most frequently used elements, and only those that are valid for the current cursor location are shown. You can enable or disable this feature and configure favorite elements for insertion through the Quick insert menu available in the the [Editor settings](./config-editor-settings.md).    
     
@@ -62,7 +62,7 @@ Experience Manager Guides also allows you to select content across elements. Aft
 
 You can format the selected content as bold, italics, or underline using the contextual toolbar. Select the content, then click the appropriate formatting icon in the menu that appears. Make the selected content bold, italics, or underline. The content from the valid open tags is then merged and appears under a single element.
 
-![Formatting options](./images/formatting-options.png){width="650" align="left"}
+![Formatting options](./images/formatting-options.png){width="650"}
 
 >[!TAB Old Editor]
 
@@ -105,13 +105,13 @@ Experience Manager Guides provides the working copy indicator which shows whethe
 
 This view displays how the content is rendered in the New Editor.
 
-![working copy indicator](images/working-copy-text-update-indicator-new-editor-2-0.png){width="550" align="left"}
+![working copy indicator](images/working-copy-text-update-indicator-new-editor-2-0.png){width="550"}
 
 >[!TAB Old Editor]
 
 This view displays how the content is rendered in the Old Editor.
 
-![working copy indicator](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![working copy indicator](images/working-copy-text-update-indicator.png){width="550"}
 
 >[!ENDTABS]
 
@@ -125,11 +125,11 @@ Experience Manager Guides also indicates if the last saved \(working\) copy of t
 
 >[!TAB New Editor]
 
-![Version update indicator](images/version-update-indicator-editor-2-0.png){width="650" align="left"}
+![Version update indicator](images/version-update-indicator-editor-2-0.png){width="650"}
 
 >[!TAB Old Editor]
 
-![Version update indicator](images/version-update-indicator.png){width="650" align="left"}
+![Version update indicator](images/version-update-indicator.png){width="650"}
 
 
 >[!ENDTABS]
