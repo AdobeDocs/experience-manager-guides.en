@@ -391,8 +391,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Key concepts, roles and permissions, and pre-requisites](./user-guide/authoring.md)
         - [Upload files](./user-guide/authoring-upload-existing-files.md)
         - [Manage files and folders](./user-guide/authoring-file-management.md)
-        - [Process assets](./user-guide/asset-processor.md)
-        - [Asset processing workflow](./user-guide/asset-processing-workflow.md)
+        - [Process assets](./user-guide/asset-processor.md)        
     - Troubleshooting {#troubleshooting}
         - [Session timeout](./user-guide/session-timeout-prompt.md)
 - User Guide (Old UI) {#user-guide-old-ui}
