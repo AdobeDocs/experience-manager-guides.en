@@ -189,11 +189,11 @@ The contextual toolbar is displayed when you select content or cells inside a ta
     ![](images/text-formatting-options-table.png){width="550" align="left"}
 
   Use the Bold, Italic, or Underline options to format your text.
-- To apply the text formatting and alignment on the entire cell, use `Ctrl+click` for Windows and `Command+click` for macOS. This selects the entire cell and displays the available options in the contexual toolbar.
+- To access the contextual toolbar for a single cell, use `Ctrl+click` for Windows and `Command+click` for macOS. 
 
     ![](images/cell-selection-contextual-toolbar.png){width="550" align="left"}
 
-- Selecting cells (single or multiple) allows you to apply text formatting to them at once. 
+- Similarly, you can also select multiple cells and use the contextual toolbar to apply text formatting and alignment to them at once. 
 
    Available options for single or multiple row selection:
 
