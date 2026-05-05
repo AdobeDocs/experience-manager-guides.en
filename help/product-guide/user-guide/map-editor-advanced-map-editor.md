@@ -19,7 +19,7 @@ The options that you view in the editor toolbar are based on the Map Editor view
 - [Author](#author-view)
 - [Source](#source-view)
 - [Preview](#preview)
-- [Side-by-side view](#side-by-side-view)
+- [Side-by-side view](#side-by-side-view-available-in-new-editor-only)
     
 The following sections cover the toolbar options available in the different views of the Map Editor:
 
@@ -283,10 +283,6 @@ You can perform the following additional tasks in the preview mode:
 
 **Open topics for editing**
 
->[!NOTE]
->
-> The **Refresh topic** and **Refresh** options available in the Preview mode of Old Editor, are currently not supported in New Editor. 
-
 -   Right-click on a topic, and select **Edit** to open the topic for editing in a new tab.
 
     >[!NOTE]
@@ -300,6 +296,10 @@ You can perform the following additional tasks in the preview mode:
 -   The current topic in map preview is also highlighted in the map tree.
 
 **Refresh topics or map**
+
+>[!NOTE]
+>
+> This section applies to the Old Editor only. In the New Editor, maps and their topics are refreshed automatically.
 
 When a map is opened in Preview mode and you switch back to it from another tab in the Editor, the preview does not refresh automatically. To reload the map preview, a manual refresh is required. 
 
@@ -330,9 +330,9 @@ You can access a map's preview from:
 
 Displays the Map Properties dialog wherein you can set the attributes and metadata information for the map.
 
-## Side-by-side view
+## Side-by-side view (Available in New Editor only) 
 
-Displays the Author view alongside the corresponding Source view. This layout helps you work with both the visual structure and the underlying XML at the same time. This makes it easier to understand how your map is built and ensures that any changes you make are aligned with the intended structure.
+The Side-by-Side view in the New Editor allows you to view the Author and Source views next to each other. This makes it easier to understand how your map is built and ensures that any changes you make are aligned with the intended structure.
 
 For example, if a topic is not appearing correctly in your output, you can use the Author view to check its placement in the map while simultaneously reviewing the Source view to review the topic reference or attributes.
 
@@ -405,17 +405,17 @@ For more details, view [Content properties](web-editor-features.md#right-panel) 
 
 ![layout view](images/layout-inline-attributes.png){width="650" align="left"}
 
-The following tabs show how attributes are displayed in the Author view, as the Layout view is not available in New Editor.
+Refer to the tabs below to compare how attributes are displayed in the Author view in the New Editor and the Old Editor.
 
 >[!BEGINTABS] 
 
 >[!TAB New Editor] 
 
-![layout view](images/author-inline-attributes-editor-2-0.png){width="650" align="left"}
+![author view](images/author-inline-attributes-editor-2-0.png){width="650" align="left"}
 
 >[!TAB Old Editor] 
 
-![layout view](images/author-inline-attributes.png){width="650" align="left"}
+![author view](images/author-inline-attributes.png){width="650" align="left"}
 
 >[!ENDTABS] 
 
