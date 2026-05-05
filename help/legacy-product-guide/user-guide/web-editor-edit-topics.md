@@ -3,7 +3,7 @@ title: Edit topics in the Web Editor
 description: Learn to edit topics in the web editor. Know about various editing features to modify your topic files in AEM Guides.
 feature: Authoring, Web Editor
 role: User
-hide: yes
+hide: true
 exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
 ---
 # Edit topics in the Web Editor {#id2056B040VUI}
@@ -48,7 +48,7 @@ Similarly, if you delete the selected content, the remaining content after the d
         > You can also view the Surround with element dialog box by selecting the context menu of the selected content.
 
     - Select an element from the dialog box. The selected content is wrapped under that element. For example, if you select the content in a paragraph and then choose the `<note>` element from the **Surround with element** dialog box, the selected content appears under a note.  
-    ![surround element dialog box](./images/surround-element.png) {width="300" align="left"}  
+    ![surround element dialog box](./images/surround-element.png) {width="300"}  
 
 ## Refresh browser while editing the files
 
@@ -64,11 +64,11 @@ The right panel is also reopened and displays the same view as before the refres
 
 AEM Guides provides the working copy indicator which shows whether the current \(working copy\) of file is in sync with the saved version or not. If you have made any changes to your current copy and have not saved your file, a \* mark appears along with the title on the topic's file tab. This indicator acts as a reminder to save your changes and disappears when you save your file.
 
-![working copy indicator](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![working copy indicator](images/working-copy-text-update-indicator.png){width="550"}
 
 AEM Guides also indicates if the last saved \(working\) copy of the file is in sync with the saved version or not. If you have some unsaved changes between the working copy and the last saved version, a \* mark appears along with the version information shown in the right top corner of the topic's file tab. This indicator acts as a reminder to save and create a version from your current \(working\) copy of the file.
 
-![Version update indicator](images/version-update-indicator.png){width="550" align="left"}
+![Version update indicator](images/version-update-indicator.png){width="550"}
 
 
 ## Open locked files in Author and Source modes

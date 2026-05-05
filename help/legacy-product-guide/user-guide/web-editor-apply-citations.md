@@ -3,7 +3,7 @@ title: Add and manage citations in your content
 description: Add and manage citations in AEM Guides. Learn how to apply, import, filter, search, change citation style, edit, preview, insert, delete, and generate content output with citations.
 feature: Authoring, Features of Web Editor
 role: User
-hide: yes
+hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
 ---
 # Add and manage citations in your content
@@ -30,14 +30,14 @@ To add citations, follow these steps:
 1. Select the **Citations** ![citations icon](images/citations-icon.svg) icon in the left panel.
 The **Citations** panel opens.
 
-    ![](images/citation-panel.png){width="300" align="left"}
+    ![](images/citation-panel.png){width="300"}
 
 1. In the **Citations** panel, select ![Add icon](images/Add_icon.svg). From the dropdown you can choose to add a new citation or to import  a citation.
 
 1. Select **New Citation** to add a new citation.
 The **Add Citation** dialog box opens.
 
-    ![citation panel in the web editor](images/citation-add.png) {width="300" align="left"}
+    ![citation panel in the web editor](images/citation-add.png) {width="300"}
 
 
 1. Fill in the fields in the **Add Citation** dialog box.
@@ -165,7 +165,7 @@ You can preview the content and format of the citation in the preview pane.
 
 1. Click anywhere on the screen to close the preview box.
 
-    ![](images/citation-preview.png){width="550" align="left"}
+    ![](images/citation-preview.png){width="550"}
 
 >[!NOTE]  
 >
@@ -185,7 +185,7 @@ You can insert citations to the topic from the main toolbar or the left panel.
 
 1. Select the **Citations** ![citations icon ](images/citations-icon.svg) icon in the main toolbar. 
 1. In the **Citations** dialog, choose the citation. You can also select multiple citations. 
- ![citation dialog](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+ ![citation dialog](images/citation-dialog-main-toolbar.png){width="300"}
 1. You can filter citations by typing the first few alphabets in the search panel of the **Citation** dialog box.
 
 1. Click **Done**. 

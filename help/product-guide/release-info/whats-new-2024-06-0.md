@@ -32,7 +32,7 @@ Experience Manager Guides also provides some helpful enhancements in Content Fra
 - You can easily filter content with conditions while publishing to a Content Fragment, using a DITAVAL file or conditional attributes. 
 - You can also publish and view the Content Fragments of a topic from the **Outputs** section in the **File Properties**. 
 
-![file properties options tab](./assets/file-properties-outputs-tab.png){width="300" align="left"}
+![file properties options tab](./assets/file-properties-outputs-tab.png){width="300"}
 
 For more details, view [Publish Content Fragments](../user-guide/publish-content-fragment.md). 
 
@@ -41,7 +41,7 @@ For more details, view [Publish Content Fragments](../user-guide/publish-content
 
 Now, Experience Manager Guides allows you to add the metadata from a topic's file properties to the page layouts while generating the Native PDF output. Use this feature to add topic-specific metadata such as the title, tags, and description to the page layouts. You can also customize your published PDF based on the topic's metadata, such as adding a watermark to the topic's background based on the topic's document state.
 
-![add metadata native pdf](./assets/add-metadata-native-pdf.png ) {width="300" align="left"}
+![add metadata native pdf](./assets/add-metadata-native-pdf.png ) {width="300"}
 
 *Add metadata to the fields in your page layouts.*
 
@@ -52,7 +52,7 @@ Learn how to [add fields and metadata](../native-pdf/design-page-layout.md#add-f
 Experience Manager Guides enhances your experience of selecting the content across the elements in the Web Editor. You can easily select content across different elements and perform operations like making it bold, italics, and underlined. This feature allows you to seamlessly apply or remove the formatting for partially selected content. You can also quickly delete the content that you have selected across elements. Once the content is deleted, if necessary, the remaining content is automatically merged under a single valid element.
 
 You can also select partial content across elements and then surround the content under a valid DITA element.
-![surround element dialog box](./assets/surround-element.png) {width="300" align="left"}
+![surround element dialog box](./assets/surround-element.png) {width="300"}
 
 *Surround the selected content with a valid element.*
 

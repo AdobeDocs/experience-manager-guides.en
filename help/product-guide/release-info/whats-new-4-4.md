@@ -18,7 +18,7 @@ Learn about [upgrade instructions for the 4.4.0 release](../release-info/upgrade
 
 Now Experience Manager Guides provides an enhanced version history feature which allows you to compare the changes made to a document over time. In the new side by side view, you can easily compare the content and the metadata of the current version with any previous version of the same document. You can also view the labels and comments for the compared versions. As an administrator, you can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box. 
 
-![Version history dialog box](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+![Version history dialog box](assets/version-history-dialog-web-editor.png){width="800"}
   *Preview the changes in the different versions of a topic.*
 
 Learn more about the **Version History** feature description in the [Left Panel (legacy)](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) section. 
@@ -27,7 +27,7 @@ Learn more about the **Version History** feature description in the [Left Panel 
 
 You can define condition attributes in your DITA topics. Then, use the condition attributes in the condition preset to publish the content in a DITA map. Experience Manager Guides now also provides an enriched experience in the Web Editor, which helps you create and manage condition presets more efficiently. You can also easily edit, duplicate, or delete them. 
 
-![Condtion Presets from the Manage tab of the Web editor ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Condtion Presets from the Manage tab of the Web editor ](assets/web-editor-manage-condition-presets.png){width="550"}
 
 For more details, view [Use condtion presets](../user-guide/generate-output-use-condition-presets.md).
 
@@ -35,7 +35,7 @@ For more details, view [Use condtion presets](../user-guide/generate-output-use-
 
 Now, you get a revamped experience to add or edit the attributes for an element from the **Content Properties** panel in the Web Editor. 
 
-![Attributes panel](assets/attributes-multiple-properties.png){width="300" align="left"}
+![Attributes panel](assets/attributes-multiple-properties.png){width="300"}
 
 *Add attributes from the Content Properties panel.*
 
@@ -46,7 +46,7 @@ For more details, refer to the **Content Properties** feature description within
 
 Now, while authoring, you can update the file metadata tags using the dropdown from the **File Properties** in the right panel. You can also select **Edit more properties** to update more metadata.
 
-![file-properties](assets/file-properties-general.png){width="300" align="left"}
+![file-properties](assets/file-properties-general.png){width="300"}
 
 *Update metadata and edit file properties from the right panel.*
 
@@ -56,7 +56,7 @@ For more details, refer to the **File Properties** feature description within th
 
 When you define key attributes for the topic or map references, you can also view the title, the corresponding icon, and the key in the left panel. The key is displayed as `key=<key-name>`.
 
-![keys in map view](assets/view-key-title-map-view.png) {width="300" align="left"}
+![keys in map view](assets/view-key-title-map-view.png) {width="300"}
 
 *View the key attribute in the Map View.*
 
@@ -68,13 +68,13 @@ For more details, refer to the **Map View** feature description in the [Left Pan
 Experience Manager Guides now provides an enhanced user experience for creating the baselines from the Web Editor. 
 The options **Manual update** and **Automatic update** are more intuitive and help you easily choose between creating a static baseline or updating it automatically according to the labels.
 
-![create new baseline](assets/dynamic-baseline-4-4.png) {width="300" align="left"}
+![create new baseline](assets/dynamic-baseline-4-4.png) {width="300"}
 *Create baseline from the Web Editor.*
 
 It also allows you to duplicate a baseline based on the label. The reference version is picked based on the given label (if it exists) while duplicating, or else picks the version from the duplicated baseline.
 
 
-![duplicate a baseline ](assets/duplicate-baseline.png) {width="300" align="left"}
+![duplicate a baseline ](assets/duplicate-baseline.png) {width="300"}
 
 *Duplicate a baseline based on a label or create an exact copy.*
 
@@ -86,7 +86,7 @@ Experience Manager Guides provides an enhanced Map collection dashboard. In a ma
  
 Now, you can view the filename of the DITA map. You can also view the Baselines. This helps you quickly find the baseline used for a preset.
 
-![Map collection dashboard](assets/map-collection-dashboard.png){width="800" align="left"}
+![Map collection dashboard](assets/map-collection-dashboard.png){width="800"}
 
 *View, edit, and generate output from the map collection dashboard.* 
 
@@ -96,7 +96,7 @@ Learn how to [use Map Collection for output generation](../user-guide/generate-o
 
 The **Translation** panel has been improved.  You can view the **Available Languages** list and quickly select the locale in which you want to translate your project. With a single selection, you can also choose **Select all** to translate your project into all the available languages.
 
-![translation panel](assets/translation-languages-4.4.png){width="300" align="left"}
+![translation panel](assets/translation-languages-4.4.png){width="300"}
 
 
 
@@ -112,7 +112,7 @@ For example, while editing a paragraph you want to insert an element, then you c
 all valid elements that begin with 't'.
 
 
-![Insert dialog box](assets/insert-element.png){width="300" align="left"}
+![Insert dialog box](assets/insert-element.png){width="300"}
 
 *Type a character to search for all valid elements that begin with the character.*
 
@@ -124,7 +124,7 @@ For more details, view the **Insert Element** feature description in the [Left
 
 Now, you can easily split your list in the Web Editor. Select the **Split List** option from the context menu of a list item to split the current list. A new list is created at the same level, starting with the list item you selected for the split.  
 
-![translation panel](assets/context-menu-split-list.png){width="300" align="left"}
+![translation panel](assets/context-menu-split-list.png){width="300"}
 
 *Select the option to split the current list.*
 
@@ -146,7 +146,7 @@ For more details, view the **File Properties** feature description in the [Rig
 
 You can now choose the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels from the Author view.
 
-![User Preferences dialog](assets/user-preferences-2311.png){width="550" align="left"}
+![User Preferences dialog](assets/user-preferences-2311.png){width="550"}
 
 *Change the default way to view the files from the **User Preferences** dialog.*
 
@@ -187,7 +187,7 @@ The following Native PDF enhancements have been done in the 4.4.0 release:
 
 You can use variables to dynamically insert and manage reusable information. Experience Manager Guides helps you create, edit, and preview variables while you generate the PDF output. You can quickly modify the values of variables and make your documents portable and easy to update.
 
-![native pdf variables](assets/add-variable-default.png){width="800" align="left"}
+![native pdf variables](assets/add-variable-default.png){width="800"}
 
 *Create and manage variables in the Web Editor.* 
 
@@ -246,7 +246,7 @@ Experience Manager Guides provides out-of-the-box  or factory PDF templates. Dup
 Now, you can also preview the thumbnail image for a template while creating and duplicating a template. You can also edit or delete this image. This feature is useful for branding or distinguishing templates with similar names.
 Learn more about the [PDF template](../native-pdf/pdf-template.md).
  
-![Duplicate PDF template dialog](assets/duplicate-template.png){width="550" align="left"}
+![Duplicate PDF template dialog](assets/duplicate-template.png){width="550"}
 
 *Duplicate an existing PDF template.*
 

@@ -33,7 +33,7 @@ After importing Schematron files, you can edit them in the Editor. You can use t
 
 When you open a topic in the Editor, a Schematron Validation panel appears in the right. Perform the following steps to add and validate a topic or map with a Schematron file:
 
-![](images/schematron-panel.png){width="350" align="left"}
+![](images/schematron-panel.png){width="350"}
 
 1. Select the Schematron icon, to open the Schematron panel.
 1. Use **Add Schematron File** to add Schematron files. 
@@ -42,7 +42,7 @@ When you open a topic in the Editor, a Schematron Validation panel appears in th
     >
     > When an invalid Schematron file is added, an error message is displayed in the Validation panel.
 
-    ![](images/schematron-panel-error.png){width="350" align="left"}
+    ![](images/schematron-panel-error.png){width="350"}
 
 1. If the Schematron file has no errors, it is added and listed in the Validation panel. An error message is displayed for the Schematron file containing errors.
 
@@ -67,7 +67,7 @@ The Schematron support in the Editor helps you in validating the files against a
 
 Validation results are displayed based on the role attribute defined in the Schematron file. Issues are categorized as `Fatal`, `Error`, `Warn`, or `Info`, with a visible count for each category in the Validation panel.
 
-![](images/schematron-validation-errors.png){width="350" align="left"}
+![](images/schematron-validation-errors.png){width="350"}
     
 To determine the severity of an issue, the _case-senstive_ value of the role attribute defined in the corresponding Schematron file is evaluated. 
 

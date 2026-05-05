@@ -3,7 +3,7 @@ title: Translate modified topics
 description: Learn how to re-translate a modified topic in AEM Guides.
 feature: Translation
 role: User
-hide: yes
+hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
 ---
 # Translate modified topics {#id16A5A0B6072}
@@ -26,7 +26,7 @@ Perform the following steps to send a modified topic for re-translation:
 
     If you click the arrow to see further details. you can see the particular language copy that is out of date.
 
-    ![](images/out-of-sync-uuid.png){width="800" align="left"}
+    ![](images/out-of-sync-uuid.png){width="800"}
 
 1.  Click the check box to select the topics that you want to send for re-translation.
 
@@ -48,7 +48,7 @@ Perform the following steps to send a modified topic for re-translation:
 
 1.  Navigate to the translation project in the Project console. A new translation job card is created in the folder. Click the ellipsis to see the assets of the folder.
 
-    ![](images/incremental-job.PNG){width="300" align="left"}
+    ![](images/incremental-job.PNG){width="300"}
 
 1.  To start the translation, click the arrow on the translation job card and select **Start** from the list. A message notifies that the job has started.
 

@@ -22,7 +22,7 @@ Perform the following steps to create a question bank:
 1. Select **Question bank**.
     The **New question bank** dialog opens. You can select the template from the dropdown, specify a suitable title for the question bank, and specify the path where you want this question bank to be stored in your repository.
 
-     ![](assets/question-bank-create.png){width="350" align="left"}
+     ![](assets/question-bank-create.png){width="350"}
 
 1. Select **Create**. 
     A Question bank is added as part of the course and is displayed in the Course manager panel.

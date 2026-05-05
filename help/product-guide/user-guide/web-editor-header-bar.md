@@ -27,7 +27,7 @@ This view displays how the content is rendered in the Old Editor
 
 Use the **Expand** icon in the toolbar to hide the header bar and maximize the content area. To restore the standard view, select **Exit the expanded view**.
 
-![](./images/web-editor-header-bar-expand-option.png){width="350" align="left"}
+![](./images/web-editor-header-bar-expand-option.png){width="350"}
 
 
 

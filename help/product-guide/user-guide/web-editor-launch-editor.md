@@ -23,19 +23,19 @@ The following sections cover the details of how you can access and launch the Ed
 
 When you log into Experience Manager, you are shown the Navigation page:
 
-![](images/web-editor-from-navigation-page.png){align="left"}
+![](images/web-editor-from-navigation-page.png)
 
 Selecting the **Guides** link takes you to the [Adobe Experience Manager Guides Home page](./intro-home-page.md).
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page.png)
 
 To launch the Editor, go to the navigation bar, and then select **Editor** from the dropdown. The Home page is selected by default.
 
-![](images/editor-home-page-dropdown.png){width="350" align="left"}
+![](images/editor-home-page-dropdown.png){width="350"}
 
 As you have launched the Editor without selecting any file, a blank Editor screen is shown. You can open a file for editing from Experience Manager **Repository** or your **Collections**.
 
-![](images/web-editor-launch-page.png){align="left"}
+![](images/web-editor-launch-page.png)
 
 Alternatively, you can also launch the Editor by opening the existing files present in the **Recent files** widget and **Collections** widget of [Adobe Experience Manager Guides Home page experience](./intro-home-page.md).
 
@@ -55,7 +55,7 @@ To open a topic in the Editor, follow these steps:
     >
     > You can also view the UUID of the topic.
 
-    ![](images/assets_ui_with_uuid_cs.png){align="left"}
+    ![](images/assets_ui_with_uuid_cs.png)
 
     >[!IMPORTANT]
     >
@@ -77,11 +77,11 @@ To open a topic in the Editor, follow these steps:
     >
     > If you want to open multiple topics for editing, select the desired topics from the Asset UI and select **Edit**. Ensure that your browser does not have a pop-up blocker enabled, else only the first topic in the selected list is opened for editing.
 
-    ![](images/edit-from-preview_cs.png){align="left"}
+    ![](images/edit-from-preview_cs.png)
 
     If you do not want to preview a topic and want to open it directly in the Editor, then select the **Edit** icon in the quick action menu from the card view:
 
-    ![](images/edit-topic-from-quick-action_cs.png){align="left"}
+    ![](images/edit-topic-from-quick-action_cs.png)
 
 The topic opens in the Editor.
 
@@ -110,7 +110,7 @@ To open a map in the Editor, follow these steps:
 1. Select the topic file that you want to edit.
 1. Select **Edit Topic**.
 
-    ![](images/edit-topics-map-console_cs.png){align="left"}
+    ![](images/edit-topics-map-console_cs.png)
 
 1. The topic opens in the Editor.
 
@@ -124,17 +124,17 @@ To open the Editor from the Map console, follow these steps:
 
 1. Open the Home page and launch Map console. 
 
-    ![](images/editor-map-console-dropdown.png){width="350" align="left"}
+    ![](images/editor-map-console-dropdown.png){width="350"}
 
     As you have launched the Map console without selecting any map file, a blank Map console screen is shown. You can also open a map file from Experience Manager **Repository** or your **Collections**.
 
-    ![](images/launch-map-console.png){width="500" align="left"}
+    ![](images/launch-map-console.png){width="500"}
 
 1. Choose **Select map** to open a map file containing the topics that you want to edit in the Editor.
 1. Select the path where your map file is located. The selected map file is added to the Map console. 
 1. Navigate to the map file and select **Open in editor** from the dropdown. 
 
-    ![](images/map-console-open-in-editor.png){align="left"}
+    ![](images/map-console-open-in-editor.png)
 
 The map file containing the topics is open for editing in the Editor.
 

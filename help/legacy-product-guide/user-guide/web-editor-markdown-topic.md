@@ -3,7 +3,7 @@ title: Author Markdown documents
 description: Author markdown documents from the web editor. Learn how to create, author, and preview a Markdown topic in AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
-hide: yes
+hide: true
 exl-id: fe7b3b8d-a4bd-43d2-ad20-49fa6c258b7d
 ---
 # Author Markdown documents from the Web Editor {#id223MIE0B079}
@@ -18,15 +18,15 @@ Perform the following steps to create a Markdown topic from the Web Editor:
 1.  Create **Markdown Topic** in one of the following ways:
     1.  Click **Create DITA File** icon on the top-right corner of the Repository Panel and then select **Markdown Topic** from the dropdown.
     
-    ![](images/create-markdown-dita-topic.png){width="550" align="left"}
+    ![](images/create-markdown-dita-topic.png){width="550"}
 
     1.  Select **Create** from the Options menu of the selected folder and then select **Markdown Topic**from the dropdown.
 
-    ![](images/create-markdown-options-menu.png){width="550" align="left"}
+    ![](images/create-markdown-options-menu.png){width="550"}
 
 1.  Enter the name and path of the Markdown topic in the **Create New Markdown Topic** dialog.
 
-  ![](images/create-markdown-dialog.png){width="350" align="left"}
+  ![](images/create-markdown-dialog.png){width="350"}
 
 1.  Click **Create**.
 

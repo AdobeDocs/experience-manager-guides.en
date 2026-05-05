@@ -3,7 +3,7 @@ title: Use Quick Generate panel
 description: Use the quick generate panel in AEM Guides. Learn how to generate and view output from the quick generate panel.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-hide: yes
+hide: true
 exl-id: 8ba8eaa2-9ab0-4132-a751-48d2a527faf4
 ---
 # Use Quick Generate panel to generate and view output {#id22AKE050F5L}
@@ -14,7 +14,7 @@ AEM Guides provides a **Quick Generate** panel integrated inside the Web Editor.
 >
 > The **Quick Generate** panel appears for the DITA map opened in the Map View panel.
 
-![](images/quick-generate-map-view.png){width="800" align="left"}
+![](images/quick-generate-map-view.png){width="800"}
 
 Perform the following steps to generate the output from the **Quick Generate** panel:
 

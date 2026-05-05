@@ -3,7 +3,7 @@ title: Generate output of .book or .fm files
 description: Learn how to generate output of .book or .fm files in AEM Guides.
 feature: Publishing FrameMaker Documents
 role: User
-hide: yes
+hide: true
 exl-id: 9b5760bd-817c-4d8d-ab37-ab8699ac62fa
 ---
 # Generate output of .book or .fm files {#generating_output_fm_docs}
@@ -14,7 +14,7 @@ Perform the following steps to generate output for FrameMaker documents:
 
     The DITA map console appears showing the list of Output Presets available to generate output.
 
-    ![](images/publish-fm-doc.png){width="800" align="left"}
+    ![](images/publish-fm-doc.png){width="800"}
 
 1.  Select one or multiple Output Presets that you want to use for generating the output.
 

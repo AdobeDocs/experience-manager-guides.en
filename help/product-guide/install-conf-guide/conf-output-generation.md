@@ -111,7 +111,7 @@ Next time when you publish any DITA content using your site's template configura
 
 The following screenshot shows the properties added in the default template node of AEM Guides:
 
-![](assets/add-content-node.png){width="800" align="left"}
+![](assets/add-content-node.png){width="800"}
 
 Next time when you publish any DITA content using your site's template configurations, the content gets published into the nodes specified in the `topicContentNode` and `topicHeadNode` properties.
 

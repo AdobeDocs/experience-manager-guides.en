@@ -3,7 +3,7 @@ title: Manage review tasks using the Review Dashboard
 description: Manage review tasks from the Review Dashboard in AEM Guides. Learn the perform actions under the task, content, reviewers tab and check the status of a review task.
 feature: Reviewing
 role: User
-hide: yes
+hide: true
 exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
 ---
 # Manage review tasks using the Review Dashboard {#id2056B0Y70X4}
@@ -20,13 +20,13 @@ Perform the following steps to access and use the Review Dashboard:
 
     A Project panel with task tiles is displayed.
 
-    ![](images/review-management.png){width="800" align="left"}
+    ![](images/review-management.png){width="800"}
 
 1.  Click the three dots in the **Reviews** tile.
 
     The Review Dashboard is displayed. The dashboard lists all review tasks that you have created.
 
-    ![](images/review-dashboard.png){width="800" align="left"}
+    ![](images/review-dashboard.png){width="800"}
 
     The Review Dashboard displays the details about the review task such as the task name, who started the review, date when the review was started, due date, status, number of new comments that have not been accepted or rejected by the author, and name of reviewers. The tasks are listed in the order of newly created tasks to older tasks.
 
@@ -45,7 +45,7 @@ Perform the following steps to access and use the Review Dashboard:
 
 ## Task tab 
 
-![](images/review-task-page.png){width="800" align="left"}
+![](images/review-task-page.png){width="800"}
 
 You can perform the following actions under the **Task** tab:
 
@@ -66,7 +66,7 @@ You can perform the following actions under the **Task** tab:
 
 ## Content tab 
 
-![](images/review-content-page.png){width="800" align="left"}
+![](images/review-content-page.png){width="800"}
 
 You can perform the following actions under the **Content** tab:
 
@@ -85,7 +85,7 @@ You can perform the following actions under the **Content** tab:
 
 ## Reviewers tab {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){width="800" align="left"}
+![](images/reviewers-tab.png){width="800"}
 
 You can perform the following actions under the **Reviewers** tab:
 
@@ -106,7 +106,7 @@ You can perform the following actions under the **Reviewers** tab:
 
 From the main Review Dashboard page, if you select a review task and click **Status**, the status report of the review task is shown:
 
-![](images/review-status-report.png){width="800" align="left"}
+![](images/review-status-report.png){width="800"}
 
 The status report for the review task contains the following details:
 

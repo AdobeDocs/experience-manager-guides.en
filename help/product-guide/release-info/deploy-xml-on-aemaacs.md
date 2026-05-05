@@ -4,7 +4,6 @@ description: Learn how to add [!DNL AEM Guides] to your [!DNL AEM as a Cloud Ser
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
 feature: Installation
 role: Leader
-hidefromtoc: yes
 ---
 # [!DNL Adobe Experience Manager Guides] as a Cloud Service deployment
 

@@ -18,16 +18,16 @@ To get started with the folder profile configuration for Learning and Training c
 
     You can create a new folder from the Repository panel. 
 
-    ![](assets/create-new-folder.png){width="350" align="left"}
+    ![](assets/create-new-folder.png){width="350"}
 2. **Create language folders to manage translation**: If you translate content into different languages, you must create folders corresponding to each language. Each of these language folders will contain the content corresponding to that language. 
    
 3. **Create a folder to manage Assets**: Similar to folders, you can also create different Assets folders to cater to the needs of different departments. This way, you also ensure that Authors and Publishers have access to the correct CSS configured in their templates, images, and other assets.  
 
-    ![](assets/configure-assets-folder.png){width="350" align="left"}
+    ![](assets/configure-assets-folder.png){width="350"}
 4. [Create a folder profile](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) to map different folders. 
 5. **Select the Folder profile to be configured**: Once the folder profile is created, you need to select the Folder profile on the [User Preferences](../user-guide/intro-home-page.md#user-preferences) page to ensure that Authors and Publishers have access to the correct templates.
 
-    ![](assets/folder-profile.png){width="650" align="left"}
+    ![](assets/folder-profile.png){width="650"}
 
 6. **Configure Folder profile settings**: For Learning and Training content, the following settings can be configured at a folder level: 
     - [General](#general)
@@ -45,7 +45,7 @@ To get started with the folder profile configuration for Learning and Training c
 
 In the General tab, you can configure the following settings that are specific to the Product Training and Learning content feature:
 
-![](assets/lc-config-settings-general.png){width="350" align="left"}
+![](assets/lc-config-settings-general.png){width="350"}
 
 - **Learning content**: Use the **Enable Learning content** toggle to enable or disable the feature at a folder-profile level. 
 - **HTML editor**: This setting allows you to configure the Editor for HTML-based authoring. Key configuration options present in this setting are as follows: 
@@ -59,7 +59,7 @@ This setting controls the panels that are shown in the left and right panels of 
 
 For Learning and Training content, ensure that only the following features are enabled for the Editor and Map console.  
 
-![](assets/panels-settings.png){width="350" align="left"}
+![](assets/panels-settings.png){width="350"}
 
 
 ### Editor 
@@ -114,11 +114,11 @@ For Learning and Training content, ensure that only the following features are e
 
 This setting allows you to manage the authoring and publishing templates present in the [Left panel in the Editor](../user-guide/web-editor-left-panel.md). You can add, remove, or reorder authoring and output templates, which will then be accessible to Authors and Publishers. 
 
-![](assets/templates-settings.png){width="350" align="left"}
+![](assets/templates-settings.png){width="350"}
 
 The Authoring templates are available in four categories – Learning course, Learning content, Quiz, and Question bank. If there are any predefined templates configured in your instance, they will be displayed by default. 
 
-![](assets/templates-list.png){width="350" align="left"}
+![](assets/templates-list.png){width="350"}
 
 ### Add templates
 
@@ -128,13 +128,13 @@ Perform the following steps to add a new template:
 2. In the Select path dialog, select the desired template. 
 3. Choose **Select**.  
 
-    ![](assets/add-templates.png){width="350" align="left"}
+    ![](assets/add-templates.png){width="350"}
 
 The template is added in the respective category in the Settings panel. 
 
 Similarly, you can add the other Authoring and Output templates. Once added, these templates are made available to Authors and Publishers in their respective course dialogs. For example, the Learning course template added by the Administrator will be available to Authors when they create a new course.  
 
-![](assets/templates-added-course.png){width="350" align="left"}
+![](assets/templates-added-course.png){width="350"}
 
 ### Work with new authoring and output templates 
 
@@ -146,7 +146,7 @@ To use a different map or topic template, create a new authoring template from t
 
 For details, view [Create customized templates from the Editor](../user-guide/create-maps-customized-templates.md). 
 
-![](assets/authoring-templates-editor.png){width="350" align="left"}
+![](assets/authoring-templates-editor.png){width="350"}
 
 **Create new output templates**
 
@@ -156,17 +156,17 @@ Perform the following steps to create a new output template for the Learning and
     
     The Output templates panel is displayed. 
 
-    ![](assets/output-templates-editor.png){width="350" height="" align="left"}
+    ![](assets/output-templates-editor.png){width="350" height=""}
 2. In the Output templates panel, select (+) to create a new output template. 
 
-    ![](assets/create-new-output-template.png){width="350" align="left"}
+    ![](assets/create-new-output-template.png){width="350"}
 3. Select an Output template from the dropdown menu. 
 
 
-    ![](assets/output-template-types.png){width="650" align="left"}
+    ![](assets/output-template-types.png){width="650"}
 4. Based on the selected Output template type, a dialog is displayed where you can create a new template based on the available templates.  
 
-     ![](assets/new-scorm-template-dialog.png){width="350" align="left"}
+     ![](assets/new-scorm-template-dialog.png){width="350"}
 
 5. Select **Create**. 
 
@@ -174,16 +174,16 @@ Perform the following steps to create a new output template for the Learning and
 
 6. To access and add the Output template for Publishers, navigate to **Settings** > **Templates** > **Output templates** and select **Add**.
 
-    ![](assets/add-output-template-settings-panel.png){width="350" align="left"}
+    ![](assets/add-output-template-settings-panel.png){width="350"}
 
     The output template is displayed in the Select path dialog.  
 7. Select the template and choose **Confirm**. 
 
-    ![](assets/select-scorm-template-dialog.png){width="350" align="left"}
+    ![](assets/select-scorm-template-dialog.png){width="350"}
 
     The selected output template is now added to the Settings panel.  
 
-    ![](assets/scorm-template-added.png){width="350" align="left"}
+    ![](assets/scorm-template-added.png){width="350"}
 
 ### Remove or reorder templates 
 
@@ -191,11 +191,11 @@ Once added, you can remove or reorder the templates from the Settings panel.
 
 To remove a template, select the **Remove** icon next to it.    
 
-![](assets/remove-teamplates.png){width="350" align="left"}
+![](assets/remove-teamplates.png){width="350"}
 
 You can also define the order in which the templates present within a category are displayed. To change the display order of the templates, select the dotted bars and drag a template to the desired position.  
 
-![](assets/reorder-templates.png){width="350" align="left"}
+![](assets/reorder-templates.png){width="350"}
 
 
 ## Configure Output presets 
@@ -206,15 +206,15 @@ You can also define the order in which the templates present within a category a
 
 The Output presets tab allows you to define which output formats are available for publishing a course. It contains two sections: **Allowed output preset types** and **Common output presets**.  
 
-![](assets/configure-course-output-presets.png){width="350" align="left"}
+![](assets/configure-course-output-presets.png){width="350"}
 
 - **Allowed output preset types**: This section lists all output presets supported in the Experience Manager Guides instance. For course publishing, only **SCORM** and **PDF** formats are applicable. You can select one or both options. The selected presets will be available to Publishers when generating course output. 
 
-    ![](assets/allowed-output-presets.png){width="350" align="left"}
+    ![](assets/allowed-output-presets.png){width="350"}
 
 - **Common output presets**: This section displays the output presets commonly created and added by Publishers to a specific folder profile. You can also remove any preset that is no longer needed. 
 
-    ![](assets/common-output-presets.png){width="350" align="left"}
+    ![](assets/common-output-presets.png){width="350"}
 
 ## Manage Publish profiles 
 
@@ -224,4 +224,4 @@ You can create multiple profiles if you need to publish to different SCORM Cloud
 
 Provide the server details along with the Client ID and Client secret of the associated SCORM cloud application to configure the Publish profile for SCORM cloud. 
 
-![](assets/configure-publish-profiles.png){width="350" align="left"}
+![](assets/configure-publish-profiles.png){width="350"}

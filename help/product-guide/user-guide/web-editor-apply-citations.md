@@ -34,7 +34,7 @@ To add citations, follow these steps:
     
     The **Citations** panel opens.
 
-    ![](images/citation-panel.png){width="350" align="left"}
+    ![](images/citation-panel.png){width="350"}
 
 1. In the **Citations** panel, select ![Add icon](images/Add_icon.svg). From the dropdown you can choose to add a new citation or to import  a citation.
 
@@ -42,7 +42,7 @@ To add citations, follow these steps:
 
     The **Add Citation** dialog box opens.
 
-    ![citation panel in the web editor](images/citation-add.png) {width="300" align="left"}
+    ![citation panel in the web editor](images/citation-add.png) {width="300"}
 
 
 1. Fill in the fields in the **Add Citation** dialog box.
@@ -166,7 +166,7 @@ You can preview the content and format of the citation in the preview pane.
 
 1. Select anywhere on the screen to close the preview box.
 
-    ![](images/citation-preview.png){width="550" align="left"}
+    ![](images/citation-preview.png){width="550"}
 
 >[!NOTE]  
 >
@@ -186,7 +186,7 @@ You can insert citations to the topic from the main toolbar or the left panel.
 
 1. Select the **Citations** ![citations icon ](images/citations-icon.svg) icon in the main toolbar. 
 1. In the **Citations** dialog box, choose the citation. You can also select multiple citations. 
- ![citation dialog](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+ ![citation dialog](images/citation-dialog-main-toolbar.png){width="300"}
 1. You can filter citations by typing the first few alphabets in the search panel of the **Citation** dialog box.
 
 1. Select **Done**. 

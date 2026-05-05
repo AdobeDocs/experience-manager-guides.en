@@ -3,7 +3,7 @@ title: Publish a topic to a Content Fragment
 description: Publish a topic or the elements within a topic to a Content Fragment in AEM Guides.  Learn how to view the Content Fragments present for a topic and republish them.
 feature: Publishing
 role: User
-hide: yes
+hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
 ---
 # Publish Content Fragments
@@ -23,12 +23,12 @@ To create a Content Fragment, perform the following steps:
 1. Create a folder where you want to save the Content Fragments that you create based on the Content Fragment model. For example, "stock-content-fragments". 
 1. Edit the folder's properties (for example, "stock-content-fragments") and add the path of the folder, which contains the Content Fragment model in the cloud configuration. 
 For example, add `/conf/we-retail` in the cloud configuration. This configuration connects all the Content Fragment models with the folder.       
- ![add cloud configuration details in the folder properties](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
+ ![add cloud configuration details in the folder properties](images/fragment-folder-cloud-configuration.png){width="650"}
        *Add the cloud configuration in the folder properties to connect it with the fragment models.* 
 
 1. To generate a Content Fragment, select **New Output** ![new output icon](./images/Add_icon.svg) from the **Outputs** section in the **File Properties** of a topic.
 1. Select **Content Fragment**.  
-    ![file properties options tab](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+    ![file properties options tab](./images/file-properties-outputs-tab.png) {width="300"}
 
     *Add a new Content Fragment from the File Properties of a topic*.
 
@@ -76,7 +76,7 @@ For example, add `/conf/we-retail` in the cloud configuration. This configuratio
 
 1. You can view the Content Fragments for a topic under the **Outputs** section in the **File Properties**.
  
-    ![View the Content Fragments for a topic](images/outputs-options-menu.png){width="300" align="left"}
+    ![View the Content Fragments for a topic](images/outputs-options-menu.png){width="300"}
        
      *View the Content Fragments present for a topic and republish them.*  
 

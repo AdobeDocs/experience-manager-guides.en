@@ -17,7 +17,7 @@ An Author can address comments in a document from the Editor. Visual indicators 
 >
 > While addressing review comments \(for an active review document\), ensure that you do not open the in-review topic in multiple tabs with full tags view enabled, do not switch between the Author and Source view modes.
 
-![](images/comments-page-web-editor_cs-new.png){align="left"}
+![](images/comments-page-web-editor_cs-new.png)
 
 In the Editor, the right panel contains the Review and Track changes icons. The Review panel shows all comments made in your document by Reviewers. The **Track changes** panel shows the status of all inserted and deleted comments in your document.
 
@@ -47,11 +47,11 @@ In the Editor, the right panel contains the Review and Track changes icons. The 
 
     If you want to incorporate the suggested change \(insertion or deletion\) one at a time, simply right-click on the comment in the content and select Accept Change or Reject Change. Depending on your selection, the comment is accepted or rejected. In case of accepted comment, the content is added in the content; and in case of rejection, it is removed from the content. Also, the status of the comment is changed in the Review panel.
 
-    ![](images/import-comment-accept-web-editor_cs-new.png){align="left"}
+    ![](images/import-comment-accept-web-editor_cs-new.png)
 
     You can also use the Track changes panel to accept or reject comments. Selecting any comment highlights the comment in the document.
 
-    ![](images/changes-tab_cs-new.png){align="left"}
+    ![](images/changes-tab_cs-new.png)
 
     >[!IMPORTANT]
     >
@@ -65,7 +65,7 @@ In the Editor, the right panel contains the Review and Track changes icons. The 
 
 -   **I**: Apply a filter on the comments. You can filter to view comments on the basis of Review Type \(all, highlighted, deleted, inserted, or sticky note\), Review Status \(all, accepted, rejected, or none\), Reviewers \(all or specific reviewer\(s\)\), or Versions of topic. By default, none of the filters are selected. 
 
-    ![](images/review-comments-author-filter.png){width="350" align="left"}
+    ![](images/review-comments-author-filter.png){width="350"}
 **Reply to a comment by tagging other users**
 
 As an Author and initiator of the review task, you can reply to review comments and tag other users involved in the same review task to direct their attention or assign follow-ups. This functionality is available only for active review tasks. 
@@ -74,7 +74,7 @@ As an Author and initiator of the review task, you can reply to review comments 
 >
 > To view the list of users assigned to a review task and tag them in a comment, you must have *Read* access on `/home/users and /home/groups` nodes. For details, view [User administration and security](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> If tagging still isn't available after confirming access, your Administrator may need to assign a `user-admin` license to enable this functionality.
 
-![](images/tag-users-review.png){width="350" align="left"}
+![](images/tag-users-review.png){width="350"}
 *Caption:Tag users as an initiator/Author*
 
 Tagged users receive both an email and an AEM notification, ensuring they're promptly informed. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md).
@@ -83,6 +83,6 @@ Tagged users receive both an email and an AEM notification, ensuring they're pro
 
 If you are the initiator or Author of a review task and open it from the **Projects console**, the topic will launch in the Review UI. Since this task is not assigned to you, you can view and reply to comments but cannot perform any review actions. The comments toolbar remains disabled for users who are not assigned to the task.
 
-![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
+![](images/review-comments-toolbar-disabled.png){width="350"}
 
 **Parent topic:**[Introduction to review](review.md)

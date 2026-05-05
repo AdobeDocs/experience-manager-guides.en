@@ -3,7 +3,7 @@ title: Publish a topic to an AEM Sites page
 description: Publish a topic or the elements within a topic to an Adobe Experience Manager Sites output.  Learn how to view the Experience Manager Sites page present for a topic and republish them.
 feature: Publishing
 role: User
-hide: yes
+hide: true
 exl-id: 3e77747d-ff04-465c-9305-fd6f1c74df04
 ---
 # Publish Adobe Experience Manager Sites pages
@@ -27,7 +27,7 @@ To generate an Sites page, perform the following steps:
 
 
 1. In the **Generate Sites page** dialog box, fill in the following details:
-        ![Add the path and template details in Generate Sites page](images/aem-sites-page-generate.png){width="500" align="left"}
+        ![Add the path and template details in Generate Sites page](images/aem-sites-page-generate.png){width="500"}
         
     *Add the path, title, name, and template details to publish a topic or its elements as a Sites page. *  
 
@@ -53,7 +53,7 @@ To generate an Sites page, perform the following steps:
 1. Click **Generate** to publish the Sites page.
 1. You can view the Sites page for a topic under the **Outputs** section in the **File Properties**. The Sites pages appear according to the date and time of their publishing, with the latest as the first. 
  
-    ![View the Sites page for a topic](images/aem-sites-outputs.png){width=300 align="left"}
+    ![View the Sites page for a topic](images/aem-sites-outputs.png){width=300}
        
      *View the Sites page present for a topic and republish them.*  
 

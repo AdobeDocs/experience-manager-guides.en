@@ -5,7 +5,6 @@ exl-id: ecc023f6-48eb-4afd-97a2-4b3cdd5a8991
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Set the Advanced Map Editor as default {#id181AI0003PN}
 

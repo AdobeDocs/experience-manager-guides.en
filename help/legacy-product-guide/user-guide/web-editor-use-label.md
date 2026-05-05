@@ -3,7 +3,7 @@ title: Use labels
 description: Discover the use of labels for different versions of a file in AEM Guides. Learn how to add or delete a label to a version of a topic.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-hide: yes
+hide: true
 exl-id: bd488298-57d7-46fb-9820-cec8d0db8bd5
 ---
 # Use labels {#id164JBG0M0T1}
@@ -30,7 +30,7 @@ Perform the following steps to add a label to your topic:
 
     The labels are displayed in the Version History of the selected topic. The following screenshot displays the labels *x.x Release* and *User Guide* added to the highlighted version of the topic.
 
-    ![](images/labels.png){width="300" align="left"}
+    ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -45,11 +45,11 @@ Perform the following steps to delete a label:
 
     In the Version History, you will see all the versions of a topic and the labels attached to them. The following image shows an example of different versions of a topic and one version has labels added to it.
 
-    ![](images/labels.png){width="300" align="left"}
+    ![](images/labels.png){width="300"}
 
 1.  Click the delete button \(**X**\) to delete the label.
 
-    ![](images/delete-labels.png){width="300" align="left"}
+    ![](images/delete-labels.png){width="300"}
 
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)

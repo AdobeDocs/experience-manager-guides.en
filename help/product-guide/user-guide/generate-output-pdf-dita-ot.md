@@ -31,11 +31,11 @@ Perform the following steps to create the PDF preset from the Map console:
 
     The preset for PDF is created.
 
-    ![](./images/pdf-preset-map-console.png){width="350" align="left"}
+    ![](./images/pdf-preset-map-console.png){width="350"}
 
 In the Map console, the preset configuration options for DITA-OT are organized under the **General** and **Advanced** tabs in Map console. 
 
-![](./images/dita-ot-preset-config-new.png){width="350" align="left"}
+![](./images/dita-ot-preset-config-new.png){width="350"}
 
 **General**
 

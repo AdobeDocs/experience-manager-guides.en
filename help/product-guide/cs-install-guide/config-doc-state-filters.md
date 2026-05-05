@@ -5,7 +5,6 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 682c915b-bc42-4d2e-84a0-9e88734e278e
-hidefromtoc: yes
 ---
 # Configure document state filters 
 

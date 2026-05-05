@@ -11,7 +11,7 @@ Perform the following steps to open a DITA map file in Map console:
 
 1. Open **Map console** from the Home page. 
 
-    ![New ](images/map-console-home-page.png){width="800"align="left"}
+    ![New ](images/map-console-home-page.png){width="800"}
     
 2. Since no map file is selected, you are prompted to select a map file to use the map management and publishing features.
     
@@ -21,7 +21,7 @@ Perform the following steps to open a DITA map file in Map console:
 
     The map file opens in the Map console. By default, the **Output presets** tab is selected.
 
-    ![New](images/map-console-screen.png){width="800"align="left"}
+    ![New](images/map-console-screen.png){width="800"}
     
     >[!NOTE]
     >
@@ -39,4 +39,4 @@ You can also open an existing map file in the Map console from the Editor.
 
     The map file opens in the Map console. 
 
-    ![New ](images/map-console.png){align="left"}
+    ![New ](images/map-console.png)

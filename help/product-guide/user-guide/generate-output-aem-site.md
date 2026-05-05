@@ -28,11 +28,11 @@ Perform the following steps to generate incremental output for AEM Sites using M
 
     - Without baseline 
     
-       ![aem sites topic list](images/aem-presets-topic-list.png) {align="left"}
+       ![aem sites topic list](images/aem-presets-topic-list.png) 
 
     - With baseline
 
-       ![aem sites topic list with baseline](images/aem-presets-topic-list-new.png) {align="left"}
+       ![aem sites topic list with baseline](images/aem-presets-topic-list-new.png) 
 
     >[!NOTE] 
     >
@@ -61,7 +61,7 @@ Perform the following steps to generate incremental output for AEM Sites using m
     >
     > If you have added new topics to the DITA map, you will not be able to generate those new topics from here. You must first publish the newly added topics by using the DITA map publish function.
 
-    ![](images/regenerate-topics.png){align="left"}
+    ![](images/regenerate-topics.png)
 
 1.  Select **Regenerate**.
 

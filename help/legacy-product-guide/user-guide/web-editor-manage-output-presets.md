@@ -3,7 +3,7 @@ title: Manage Global and Folder Profile output presets
 description: Learn how to create, edit, rename, duplicate, and delete global and folder profile output presets as administrative users in AEM Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-hide: yes
+hide: true
 exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
 ---
 # Manage Global and Folder Profile output presets {#id22BLJ0D0V1U}
@@ -18,7 +18,7 @@ Perform the following steps to create an output preset for the Global and Folder
 1.  Select the **Edit Topics** option from the **Options** menu of the map file. The map file is opened for editing in the Web Editor.
 1.  In the **Output** tab, select the + icon to create an output preset for your DITA map.
 
-    ![](images/add-global-output-preset.png){width="350" align="left"}
+    ![](images/add-global-output-preset.png){width="350"}
 
 1.  Enter the following details in the **Add preset** dialog:
     -   Type

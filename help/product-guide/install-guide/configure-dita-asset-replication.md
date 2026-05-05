@@ -5,7 +5,6 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 49fd9dfe-e1a5-4388-abbd-ec5d45669b45
-hidefromtoc: yes
 ---
 # Configure DITA assets replication
 
@@ -24,7 +23,7 @@ Perform the following steps to configure the asset processing feature:
 1. Configure the setting `Replicate DITA assets` as per your requirement. By default, the setting is enabled.
 
 
-    ![](assets/dita-assets-replication.png){width="350" align="left"}
+    ![](assets/dita-assets-replication.png){width="350"}
 
 
 1. Select **Save**.

@@ -49,13 +49,13 @@ Select a data source to view the content snippet generators and the topic genera
 
 ### List view  
 
-  ![](images/data-sources-list-view.png){width="300" align="left"}
+  ![](images/data-sources-list-view.png){width="300"}
 
 *List of connected data sources.*
  
 ### Tile view    
 
-![](images/data-sources-tile-view.png){width="300" align="left"}
+![](images/data-sources-tile-view.png){width="300"}
 
 *View the connected data sources as tiles.* 
 
@@ -74,13 +74,13 @@ Perform the following steps to create a content snippet using the content snippe
     
 1. Select a data source to view the content snippet generators available for the selected data source.
 
-    ![](images/code-snippet-generator.png){width="300" align="left"}
+    ![](images/code-snippet-generator.png){width="300"}
     
     *The Data Sources panel lists the available content snippet generators.* 
 
 1. Select **Add** to add a new content snippet generator. The **Add content snippet generator** panel opens.
 
-    ![](images/add-content-snippet-generator-empty-screen.png){width="500" align="left"}
+    ![](images/add-content-snippet-generator-empty-screen.png){width="500"}
 
 1. Enter the query in the **Data query** text box.  Select **Copy sample query** to quickly copy a data query. Instead of manually creating the query, you can copy and paste the sample query into the **Data query** text box. Then, simply edit the query as per your data requirements. 
 
@@ -120,7 +120,7 @@ The out-of-the-box templates for the selected data source are displayed in the d
 
     1. The source view shows the data in the DITA source view. 
 
-        ![](images/add-content-snippet-generator-preview.png){width="500" align="left"}
+        ![](images/add-content-snippet-generator-preview.png){width="500"}
  *Add a content snippet generator. View the data in source or preview mode.* 
 
 1. To save the results of the query, enter the name of the generator and then select **Add**.   A new content snippet generator is added to the list.
@@ -148,7 +148,7 @@ Right-click on a content snippet generator to open the Options. Using the option
 
 You can also use the **Query data** ![](images/data-sources-new-icon.svg) from the toolbar to insert the data snippet into the topics.  You can select a generator from the dropdown, edit your query, or change the template and insert the data in your topic.
 
-![](images/add-content-snippet-generator.png){align="left"}
+![](images/add-content-snippet-generator.png)
 
  *Edit and insert a data snippet.*
 
@@ -168,7 +168,7 @@ Perform the following steps to create a topic using the topic generator:
 
 1. Select a data source to view the content snippet generators and the topic generators available for the selected data source.
  
-    ![](images/data-sources.png){width="300" align="left"}
+    ![](images/data-sources.png){width="300"}
 
     *Add a topic generator for a connected data source.*
 
@@ -180,7 +180,7 @@ Perform the following steps to create a topic using the topic generator:
 
      **Fetch Configuration**
      
-      ![](images/fetch-configuration.png){width="300" align="left"}
+      ![](images/fetch-configuration.png){width="300"}
 
       *Add the Data Query, Data mapping template, and Root node details for the topic generator and give it a unique name in the Fetch Configuration panel.*     
 
@@ -213,7 +213,7 @@ Perform the following steps to create a topic using the topic generator:
 
     **Output Configuration**
 
-    ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+    ![](images/topic-generator-output-configuration.png){width="300"}
 
     *Enter the Output path and Topic naming convention details in the Output Configuration panel. Generate a DITA map and name it.*
 
@@ -232,7 +232,7 @@ Perform the following steps to create a topic using the topic generator:
 
    For example, in the following screenshot, `dc:description`, `dc:language`, `dc:title`, and `docstate` are the default properties for which you can define the values. You can create a custom property like author and define its value.
 
-   ![](images/topic-generator-metadata.png){width="300" align="left"}
+   ![](images/topic-generator-metadata.png){width="300"}
  
     *Add the metadata properties in the Metadata panel to pass to the topics.*
 
@@ -242,7 +242,7 @@ Perform the following steps to create a topic using the topic generator:
 
 
 
-   ![](images/add-topic-generator.png){align="left"}
+   ![](images/add-topic-generator.png)
     
     *Generate new topics from an existing topic generator.*
 

@@ -41,7 +41,7 @@ The following options are available in the toolbar in the Layout view:
 
 Displays the Select file dialog. Navigate to the topic/map file that you want to insert and choose **Select** to add it to the map. 
 
-![](images/insert-topic-reference-dialog.png){align="left"}
+![](images/insert-topic-reference-dialog.png)
 
 
 **Topic group** – ![](images/topic-group.svg)
@@ -52,7 +52,7 @@ Insert the `topicgroup` element. For more information about grouping topics, vie
 
 Displays the Insert Keydef dialog. Use this dialog to define any key definition that you want to use in the map.
 
-![](images/insert-key-definition-dialog.png){width="300" align="left"}
+![](images/insert-key-definition-dialog.png){width="300"}
 
 **Insert Before/Insert After** – ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -114,7 +114,7 @@ Shows or hides a checkbox for each topic. You can use the checkbox to select the
 
 In addition to organizing topics in the map file, you can also perform the following actions using the Options menu that appears on hovering over a file or right-clicking within the editor in the layout view:
 
-![](images/map-editor-options-menu.png){width="650" align="left"}
+![](images/map-editor-options-menu.png){width="650"}
 
 -   **Add**: You can choose to add a new topic or an empty reference from the Map Editor:
     -   **Empty reference**: This option allows you to add an empty reference in your DITA map. You can double-click the inserted empty reference later and add the Topic details. 
@@ -151,7 +151,7 @@ The **Author** view allows you to edit your DITA map in the Editor. This shows t
 
 >[!TAB Old Editor]
 
-![](images/map-editor-author-view.png){align="left"}
+![](images/map-editor-author-view.png)
 
 The options available in the **Menu** dropdown are same as available in the [Editor toolbar](./web-editor-toolbar.md#menu-dropdown).
 
@@ -192,7 +192,7 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
 
 1.  Select **Reltable** from the toolbar.
 
-    ![](images/reltable.png){width="650" align="left"}
+    ![](images/reltable.png){width="650"}
 
 1.  Drag-and-drop topics from the topic list to the Reltable editor.
 
@@ -200,13 +200,13 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
     >
     > You can add topics from any folder in the References rail.
 
-    ![](images/create-reltable.png){width="550" align="left"}
+    ![](images/create-reltable.png){width="550"}
 
 1.  To add a header to your relationship table, click **Add Relheader**.
 
 1.  To add a column to your relationship table, click **Add a Column**.
 
-    ![](images/complete-reltable.png){width="550" align="left"}
+    ![](images/complete-reltable.png){width="550"}
 
 1.  Click **Save**.
 
@@ -262,7 +262,7 @@ You can create a review task of the current topic or map file directly from the 
 
 This view allows you to edit content in its raw format, providing full control over the structure and formatting.
 
-![](images/map-editor-source-view.png){align="left"}
+![](images/map-editor-source-view.png)
 
 
 In this view, the toolbar provides basic content editing and insertion options available under the **Menu** dropdown including Cut, Copy, Undo, Redo, Delete, Find and replace, Version label, Merge, Save as new version, Lock and Unlock.
@@ -273,7 +273,7 @@ The Preview mode renders the content as it will appear in the final output, enab
 
 In addition to be able to view the position of each topic file within a map, it is desirable to view the map content in one consecutive flow. The Preview map feature allows you to view the entire content of the map file in a single click. You don't have to generate an output of the map file to view how the entire map will look like once published. You can simply access the map's preview and all topics and sub-maps are rendered in the form of a book.
 
-![](images/map-editor-preview.png){align="left"}
+![](images/map-editor-preview.png)
 
 >[!NOTE]
 >
@@ -289,7 +289,7 @@ You can perform the following additional tasks in the preview mode:
     >
     > If you don't have editing rights, then the topic will open in read-only mode.
 
-    ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+    ![](images/edit-topic-preview-mode.png){width="650"}
 
 -   Jump to the desired topic by selecting the topic title in the map tree \(in left panel\).
 
@@ -306,10 +306,10 @@ When a map is opened in Preview mode and you switch back to it from another tab 
 You can use the Refresh functionality, available in the Preview mode of the map, in two ways:
 
 - **Map-level refresh**: Selecting the **Refresh** button refreshes the preview of the entire map (including all topics), and takes you to the first scroll position for a clear view. 
-    ![](images/refresh-map.png){width="650" align="left"}
+    ![](images/refresh-map.png){width="650"}
 
 - **Topic-level refresh**: Selecting **Refresh topic** from the context menu refreshes that specific topic while keeping the scroll position unchanged.
-    ![](images/refresh-topic.png){width="650" align="left"}
+    ![](images/refresh-topic.png){width="650"}
 
 **Other ways to preview a map file**
 
@@ -323,7 +323,7 @@ You can access a map's preview from:
 
 -   **Map Editor**: In the Map Editor, select **Preview** from the options menu to view the preview of the current map.
 
-    ![](images/map-preview-icon.png){width="650" align="left"}
+    ![](images/map-preview-icon.png){width="650"}
 
     
 **Map properties**

@@ -16,7 +16,7 @@ Perform the following steps to create a Markdown topic from the Editor:
 1.  In the Repository panel, select ![](images/Add_icon.svg), and then select **Topic** from the dropdown.
 1.  In the **New topic** dialog box, provide the following details:
 
-    ![](images/create-markdown-dialog.png){width="300" align="left"}
+    ![](images/create-markdown-dialog.png){width="300"}
 
     * **Title**: Provide a title for the topic.
     * **Name**: The file name is auto-suggested based on the topic Title. In case your administrator has enabled automatic file names based on UUID setting, then the Name field won't be displayed.
@@ -31,7 +31,7 @@ Perform the following steps to create a Markdown topic from the Editor:
 
    The Markdown topic is created at the selected path and is open for editing.
 
-   ![](images/markdown-topic-author.png){width="650" align="left"}
+   ![](images/markdown-topic-author.png){width="650"}
 
 
  >[!NOTE]
@@ -55,7 +55,7 @@ The tab bar features the file tabs of the topics or maps that are currently open
 
 Features available in the tab bar are explained as follows:
 
- ![](images/markdown-header.png){width="550" align="left"}
+ ![](images/markdown-header.png){width="550"}
 
 
 
@@ -76,7 +76,7 @@ Features available in the tab bar are explained as follows:
 
 The toolbar is located just below the tab bar. Features available in the toolbar are explained as follows:
 
- ![](images/markdown-main-toolbar.png){align="left"}
+ ![](images/markdown-main-toolbar.png)
 
 | Features       | Description   |
 |----------------|----------------|
@@ -99,7 +99,7 @@ The content editing area displays the Markdown source of your topic, where you m
 
 For markdown authoring, the Editor supports three different viewing modes to assist with content creation and formatting:
 
-![](images/markdown-footer.png){align="left"}
+![](images/markdown-footer.png)
 
 * Source
 * Side-by-side
@@ -118,7 +118,7 @@ This mode splits the Editor into two panels:
 * The Source panel that displays the markdown topic you are editing.
 * The Preview Panel that shows the rendered output of the markdown topic in real time.
 
-![](images/markdown-topic-side-by-side.png){width="550" align="left"}
+![](images/markdown-topic-side-by-side.png){width="550"}
 
 Use this view if you want to view the rendered output in real time as you edit markdown topics.
 

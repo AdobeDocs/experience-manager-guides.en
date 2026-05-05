@@ -3,7 +3,7 @@ title: Bulk tagging of DITA content
 description: Use bulk tagging of content in AEM Guides to improve DITA content discoverability. Learn how to apply, remove, show, or hide bulk tags on a single or multiple topics.
 feature: Metadata Management
 role: User
-hide: yes
+hide: true
 exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
 ---
 # Bulk tagging of DITA content {#id179SG0TN05Z}
@@ -28,7 +28,7 @@ Use the bulk tagging feature to apply multiple tags at once. Perform the followi
 
 1.  Select the topics or sub-map on which you want to apply tags.
 
-    ![](images/apply-tags-uuid.png){width="650" align="left"}
+    ![](images/apply-tags-uuid.png){width="650"}
     
 
     >[!NOTE]

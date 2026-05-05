@@ -36,7 +36,7 @@ Once the **AI Assistant** toggle is enabled, Administrators can selectively choo
 
 Learn more about [AI assistant in Editor settings](../cs-install-guide/workspace-settings.md#general) in Experience Manager Guides.
 
-![](assets/authoring-quick-actions.png){width="350" align="left"}
+![](assets/authoring-quick-actions.png){width="350"}
 
 
 ## Improved experience for creating and using DITAVAL files
@@ -48,7 +48,7 @@ The key highlights are as follows:
 - **Enhanced flagging support in authoring DITAVAL files:** Experience Manager Guides brings new capabilities for customizing the content publishing through enhanced flagging support in DITAVAL files. You can now apply start and end flags around specific content, including images, and enrich flagged sections with formatting options like bold, italics, and more. To handle condition overlaps, the **Style conflict** can be configured, which includes setting a default background and text color, ensuring clarity and consistency in the output. These flags are fully supported in Native PDF generation, and the resulting output accurately and comprehensively reflects all applied styling elements.
 For more details, view [Use the DITAVAL Editor](../user-guide/ditaval-editor.md).
 
-    ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
+    ![](assets/ditaval-flag-style-new.png){width="350"}
 
 - **Multiple DITAVAL files support for Native PDF:** For Native PDF, now multiple DITAVAL files can be added, each displayed as a tagged entry for easy identification and removal, providing greater flexibility and control over conditional content in PDF outputs
 
@@ -62,7 +62,7 @@ This release brings in UI improvements to output generation log filtering capabi
 
 For more details, view [Basic troubleshooting](../user-guide/generate-output-basic-troubleshooting.md).
 
-![](./assets/log-file-new.png){align="left"}
+![](./assets/log-file-new.png)
 
 
 ## Temporary files for published output now include Author and Publish URLs in a new config file

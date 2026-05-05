@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides Old UI
 user-guide-description: Read product documentation for Adobe Experience Manager Guides using the old user interface.
 breadcrumb-title: AEM Guides Documentation
-hide: yes
+hide: true
 badgeAll: label="Old UI Guide - More Info" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Old UI Guide"
 ---
 

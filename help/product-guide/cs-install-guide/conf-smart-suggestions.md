@@ -2,7 +2,6 @@
 title: Configure AI Assistant for smart help and authoring 
 description: Learn how to configure the AI Assistant in Experience Manager Guides 
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-hidefromtoc: yes
 ---
 # Configure the AI Assistant
 
@@ -29,7 +28,7 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
 1. Launch [Adobe Developer Console](https://developer.adobe.com/console). 
 1. After successfully logging in to Developer Console, you'll view the **Home** screen. The **Home** screen is where you can easily find information and quick links, including top-navigation links to Projects and Downloads.
 1. To create a new empty project, select  **Create new project** from the  **Quick start** links.
-![Quick start links](assets/conf-ss-quick-start.png) {width="550" align="left"}
+![Quick start links](assets/conf-ss-quick-start.png) {width="550"}
 *Create a new project.*
 
 1. Select  **Add API**  from the  **Projects** screen.  The **Add an API** screen appears. This screen displays all available APIs, Events, and services for Adobe products and technologies with which you can develop applications.
@@ -48,7 +47,7 @@ Perform the following steps to create IMS configurations in Adobe Developer Cons
 
 1. Select the **OAuth Server-to-Server** link to view the credential details of your project.  
 
-    ![connected credentials](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+    ![connected credentials](assets/conf-ss-connected-credentials.png) {width="800"}
 
     *Connect to the project to view the credential details.*
 
@@ -76,7 +75,7 @@ Perform the following steps to add IMS configuration to the environment:
 1. Switch to the **Configuration** tab.
 1. Paste the JSON service details (downloaded in the previous section) into the **Value** field corresponding to `SERVICE_ACCOUNT_DETAILS`. Ensure that you use the same name and configuration as given in the following screenshot.
 
-    ![ims service account configuration](assets/ims-service-account-config.png){width="800" align="left"}
+    ![ims service account configuration](assets/ims-service-account-config.png){width="800"}
 
 ## Enable AI flag in the environment 
 
@@ -84,7 +83,7 @@ To enable the AI Assistant feature on the Experience Manager Guides UI, add the 
 
 Ensure that you are using the same name and configuration as given in the following screenshot.
 
-![](assets/conf-folder-ai-assistant-enable.png){width="800" align="left"}
+![](assets/conf-folder-ai-assistant-enable.png){width="800"}
  
 Setting the flag to **true** enables the functionality, while setting it to **false** disables it.
 
@@ -94,7 +93,7 @@ Add the `GUIDES_AI_SITE_ID` variable in your environment (Cloud Manager) and set
 
 Ensure that you are using the same name and configuration as given in the following screenshot.
 
-![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+![](assets/conf-folder-guides-site-id.png){width="800"}
  
 ## Apply changes to the environment
 
@@ -114,7 +113,7 @@ Once the configuration changes are applied, enable the AI Assistant feature for 
 
 For more details, view [Know the Editor features](../user-guide/web-editor-features.md).
 
-![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+![](assets/conf-folder-ai-assistant-enable-settings.png){width="300"}
 
 ## Configure Smart Suggestions in Folder Profile
 

@@ -3,7 +3,7 @@ title: Reverted files version history report
 description: View reverted files version history reports in AEM Guides. Learn how to access revert version logs from the Assets UI, topic preview, and AEMs tools selection.
 feature: Report Generation
 role: User
-hide: yes
+hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
 ---
 # Reverted files version history report {#id205BBC00PRK}
@@ -16,7 +16,7 @@ You can access this report from the following places:
 
 -   **Assets UI**: by selecting a file and opening the **Version History** from the left rail. The **Version History** view contains the **Revert Version Logs** link at the bottom of the panel. When you click on this link, the selected file's history of the reverted versions is displayed.
 
-    ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
+    ![](images/revert-log-from-assets-ui.png){width="300"}
 
 -   **Topic preview**: when you are previewing a topic, there also you can bring up the **Version History** panel from the left rail. You will get a panel similar to the Assets UI from where you can click the **Revert Version Logs** link to access the reverted version history of the active document.
 
@@ -35,7 +35,7 @@ Perform the following steps to access the Revert History report:
 
 1.  Click **Show Logs** to generate the report for the selected file or folder.
 
-    ![](images/revert-version-history-report.png){width="800" align="left"}
+    ![](images/revert-version-history-report.png){width="800"}
 
     The report contains the following details:
 

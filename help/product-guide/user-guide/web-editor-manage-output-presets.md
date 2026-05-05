@@ -18,7 +18,7 @@ Perform the following steps to create an output preset for the Global and Folder
 1.  Select the **Open in map console** icon to open the map file in the Map console. 
 1. In the Map console, navigate to the **Output presets** tab, and then select the + icon to create an output preset for your DITA map.
 
-    ![](images/add-global-output-preset.png){width="350" align="left"}
+    ![](images/add-global-output-preset.png){width="350"}
 
 1.  Enter the following details in the **Add preset** dialog:
     -   Type

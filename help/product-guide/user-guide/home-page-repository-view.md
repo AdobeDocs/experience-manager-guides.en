@@ -11,7 +11,7 @@ The Repository serves as a centralized space for improved discoverability of fol
 
 This unified interface streamlines multiple functions, including creating new files or folders, editing files, uploading assets, and searching files with robust filtering options, thereby ensuring efficiency and ease of use.
 
-![](images/repository-view-home.png){align="left"}
+![](images/repository-view-home.png)
 
 The Repository interface is divided into the following sections:
 
@@ -22,16 +22,16 @@ The Repository interface is divided into the following sections:
 
 The Repository navigation bar, located at the top of the Repository interface, provides quick access to essential actions as listed.
 
-![](images/tab-bar-repository-view.png){align="left"}
+![](images/tab-bar-repository-view.png)
 
 
 - **Folder navigation panel**: Displays a hierarchical, tree view of folders within the Repository, enabling seamless navigation. This panel shows only folder-level information. When a folder is selected from here, its contents, files, and sub-folders are displayed in the Repository view. You can show or hide this panel using the icon highlighted below.
 
-    ![](images/folder-navigation-panel.png){align="left"}
+    ![](images/folder-navigation-panel.png)
 
 - **Breadcrumbs**: Indicates the current path within the Repository, showing the hierarchy of folders leading to your current folder. You can select it to go back to a specific folder within the hierarchy.
 
-    ![](images/breadcrumbs.png){width="650" align="left"}
+    ![](images/breadcrumbs.png){width="650"}
 
 - **Refresh**: Updates the Repository to reflect the latest changes.
 - **Upload Assets**: Allows to upload assets directly to the current folder, as highlighted in the breadcrumbs.
@@ -50,7 +50,7 @@ The Repository serves as the central space providing a tabular list of all the f
 
 - **Customise**: You can modify the columns displayed by using the **Customise** option located at the top-right corner of the Repository view. This option allows you to show or hide any column and also rearrange the columns as needed. The **Name** or **Title** columns are mandatory and both cannot be disabled together. Other fields, such as **File type**, **UUID**, **Document state**, **Locked by**, **Created on**, and **Modified on**, can be enabled or disabled as needed. You can rearrange them by simply dragging and dropping.
 
-    ![](images/customize-repo-view.png){width="350" align="left"}
+    ![](images/customize-repo-view.png){width="350"}
 
 - **Column resizing**: Columns can be resized by selecting options from the column dropdown menu.
 
@@ -62,11 +62,11 @@ The Repository serves as the central space providing a tabular list of all the f
     - After selecting the desired files using the checkbox, the **Edit** option becomes available in the top-right corner of the Repository view.
     - Selecting **Edit** opens the selected file(s) in the Editor interface, where you can begin editing the file.
 
-        ![](images/edit-repo-view.png){align="left"}
+        ![](images/edit-repo-view.png)
 
 - **Options menu for folders**: You can perform the following actions using the **Options** menu available for a folder:
 
-    ![](images/options-folder-repo.png){width="350" align="left"}
+    ![](images/options-folder-repo.png){width="350"}
 
     - **New**: Create a new DITA topic, DITA map, or a folder. 
     - **Upload Assets**: Upload a file from your local system to the selected folder in repository.
@@ -75,7 +75,7 @@ The Repository serves as the central space providing a tabular list of all the f
 
 - **Options menu for files**: You can perform the following actions using the **Options** menu for a file:
 
-    ![](images/options-file-repo-new.png){width="350" align="left"}
+    ![](images/options-file-repo-new.png){width="350"}
 
     - **Edit**: Open the file for editing.
     - **Edit in Oxygen**: Select this option to edit the selected file in the Oxygen connector plugin.
@@ -102,11 +102,11 @@ The Repository serves as the central space providing a tabular list of all the f
 
 The **Search** option helps in searching the required files from the Repository primarily on the basis of **File title**, **File name** and **Content**. You can use any one, two, or all three criteria for your search. If none of the criteria are selected, the results will include common to all the three criteria.
 
-![](images/search-in-repository.png){align="left"}
+![](images/search-in-repository.png)
  
 Select the **Filter Search** \(![Search filter icon](images/filter-search-icon.svg)\) icon to open the Filter panel on the right.
 
-![](images/Search-filters-repo.png){align="left"}
+![](images/Search-filters-repo.png)
 
 You have the following options to filter the files and to narrow down your search:
 
@@ -138,14 +138,14 @@ After applying all the required filters, select **Apply** from the bottom-right 
 
 Your search results customized according to the selected filter appear as a **tabular list of files only** (folders are not displayed). You can remove any filter individually or multiple filters at the same time, and the results refreshes to reflect the updated selection.
 
-![](images/search-results-with-filters.png){align="left"}
+![](images/search-results-with-filters.png)
 
 After the search results appear, you can either multi-select files and open them in the Editor using the **Edit** icon, or work with all results by sending your search results to the Editor through the **Show in search panel** option.
 
-![](images/post-search-operation.png){align="left"}
+![](images/post-search-operation.png)
 
 **Show in search panel**
 
 The **Show in search panel** option becomes available after performing a search in the Repository. This feature allows you to display all the searched results in the **Search panel** within the Editor. For more details, view [Search panel](./search-panel-explorer.md).
 
-![](images/search-panel-repo.png){align="left"}
+![](images/search-panel-repo.png)

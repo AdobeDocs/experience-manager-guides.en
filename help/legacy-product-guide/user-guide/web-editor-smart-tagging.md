@@ -3,7 +3,7 @@ title: Smart Tagging
 description: Learn how to add smart tags in AEM Guides. Use XML Keyword Extract tool to extract relevant keywords.
 feature: Metadata Management
 role: User
-hide: yes
+hide: true
 exl-id: dd5b2648-37e1-4737-bd9d-8618f735d11f
 ---
 # Smart Tagging {#id216KH0ID0Y8}
@@ -20,12 +20,12 @@ Perform the following steps to create smart tags:
 1.  Open the topic in Preview mode and select **Reprocess Assets** icon from the main toolbar.
 1.  Select XML Keyword Extract to extract relevant keywords.
 
-    ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
+    ![](images/smart-tag-reprocess-asset.png){width="300"}
 
 1.  Select the Run Post Process option. A message is displayed on the successful initiation of the tool.
 1.  The tags are automatically extracted and can be seen on the Properties page of the selected topic.
 
-    ![](images/properties-smart-tags.png){width="800" align="left"}
+    ![](images/properties-smart-tags.png){width="800"}
 
     >[!NOTE]
     >

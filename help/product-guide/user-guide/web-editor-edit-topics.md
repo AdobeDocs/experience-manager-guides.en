@@ -83,7 +83,7 @@ Make the selected content bold, italics, underline the selected content. The con
 
     - Select an element from the dialog box. The selected content is wrapped under that element. For example, if you select the content in a paragraph and then choose the `<note>` element from the **Insert element** dialog box, the selected content appears under a note.  
 
-       ![Insert element dialog box](./images/insert-element-editor.png) {width="300" align="left"}  
+       ![Insert element dialog box](./images/insert-element-editor.png) {width="300"}  
 
 ## Refresh browser while editing the files
 

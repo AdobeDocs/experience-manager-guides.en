@@ -67,7 +67,7 @@ Perform the following steps, to migrate the existing baseline to the new baselin
 1. In the **Tools** panel select **Guides**.
 1. Select the **Bulk Processor** tile.
 
-    ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
+    ![flow-asset-processor](images/flow-asset-processor.png)
 
     The **Guides Bulk Processor** page is displayed.    
 
@@ -81,7 +81,7 @@ Perform the following steps, to migrate the existing baseline to the new baselin
     1. **Select folder(s) and file(s)**: Navigate and choose one or multiple folders and files to process. 
     1. **Select folder(s) to ignore**: Optionally, select sub-folders within the chosen parent folder to exclude from the migration.   
 
-    ![new-process-baseline](images/new-process-baseline.png){align="left"}
+    ![new-process-baseline](images/new-process-baseline.png)
 
 1. Select **Create**. 
 
@@ -89,11 +89,11 @@ A pop-up showing **Asset processing triggered successfully** is displayed. You c
 
 You can also select **View logs** to check and download the logs for the migration task. 
 
-![view-logs-baseline](images/view-logs-baseline.png){align="left"}
+![view-logs-baseline](images/view-logs-baseline.png)
 
 The log report provide details of the migration, including the number of maps migrated, baselines successfully migrated, and related details.      
 
-![logs-detail-baseline](images/logs-detail-baseline.png){align="left"}
+![logs-detail-baseline](images/logs-detail-baseline.png)
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ The following updates apply when working with baselines created using the **new 
     - **Edit properties**: Allows you to edit the properties of an existing baseline.
     - **Rebuild**: Allows you to rebuild a dynamic baseline whenever changes occur.
 
-        ![rebuild-baseline](images/rebuild-baseline.png){align="left"}
+        ![rebuild-baseline](images/rebuild-baseline.png)
 
 - The **Download** action supports paginated downloads. All baseline content that matches the applied filters is included in the download, not just the content visible on the current page.
 - Filter files by GUID, in addition to file names, or file location. An additional option to **Filter files with no labels** is also available. 
@@ -144,13 +144,13 @@ The following updates apply when working with baselines created using the **new 
     - Navigate to and hover-over the file which you want to edit. 
     - Select the **Edit** icon. 
 
-        ![edit-baseline-icon](images/edit-baseline-icon.png){align="left"}
+        ![edit-baseline-icon](images/edit-baseline-icon.png)
         
         The **Edit version** dialog is displayed. 
     - Select the required version from the **Version** dropdown (for example, change from version 1.0 to 1.1).
     
 
-        ![edit-version-baseline](images/edit-version-baseline.png){align="left"}
+        ![edit-version-baseline](images/edit-version-baseline.png)
     
         Added and removed dependencies are evaluated and displayed as a preview. Review the changes before applying them.
     

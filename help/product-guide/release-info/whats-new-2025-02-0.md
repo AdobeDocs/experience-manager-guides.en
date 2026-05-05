@@ -18,20 +18,20 @@ The key highlights are as follows:
  
     For more details, view [Adobe Experience Manager Guides Home page experience](../user-guide/intro-home-page.md). 
 
-    ![](assets/aem-home-page.png){width="800" align="left"}
+    ![](assets/aem-home-page.png){width="800"}
 
 
 - **New Editor experience**: Now, experience the Editor in a new look and feel. The revamped editor interface features a cleaner and more organized toolbar, seamless navigation, and an overall intuitive experience to help author documents faster and more efficiently.  
  
     Get to [know the Editor features](../user-guide/web-editor-features.md). 
 
-    ![](assets/editor-new-ui.png){width="800" align="left"}
+    ![](assets/editor-new-ui.png){width="800"}
 
 - **Dedicated Map console**: Introducing Map console, a dedicated console where all the map management and publishing features are clubbed. Now, you get options to generate output, translate content, create reports, and more - all within one interface. 
  
     Learn more about [map management and publishing](../user-guide/map-console-overview.md). 
 
-    ![](assets/map-console-new-ui.png){width="800" align="left"}
+    ![](assets/map-console-new-ui.png){width="800"}
 
 
 
@@ -45,7 +45,7 @@ The integration also provides you with the ability to monitor your work queues, 
 
 For more details, refer to [Workfront integration](../user-guide/workfront-integration.md). 
 
-![](assets/workfront-integration-ui.png){width="800" align="left"}
+![](assets/workfront-integration-ui.png){width="800"}
 
 
 ## AI Assistant (Beta) with smart authoring and help features for enhanced productivity 
@@ -54,7 +54,7 @@ Now, experience enhanced productivity with AI-powered smart authoring and help f
 
 For more details, view [AI Assistant in Experience Manager Guides](../user-guide/ai-assistant.md).  
 
-![](assets/ai-assistant-panel.png){width="300" align="left"}
+![](assets/ai-assistant-panel.png){width="300"}
 
 ## Faster and scalable New AEM Sites publishing engine 
 
@@ -62,7 +62,7 @@ Experience faster and scalable publishing to AEM Sites with the all-new publishi
 
 Learn more about [AEM Sites publishing](../user-guide/generate-output-aem-site-web-editor.md).
 
-![](assets/new-aem-sites-preset.png){width="500" align="left"}
+![](assets/new-aem-sites-preset.png){width="500"}
 
 
 ## Seamlessly publish standalone content to AEM Sites with Single topic publishing 
@@ -71,7 +71,7 @@ Introducing single topic publishing to AEM Sites pages that allows you to publis
 
 For more details, view [Publish AEM Sites pages](../user-guide/publish-aem-sites.md).
 
-![](assets/aem-sites-page-generate.png){width="500" align="left"}
+![](assets/aem-sites-page-generate.png){width="500"}
 
 
 
@@ -81,7 +81,7 @@ Now, experience a cleaner, more efficient, and powerful way to author markdown t
 
 For more details, refer to [Markdown authoring](../user-guide/web-editor-markdown-topic.md). 
 
-![](assets/markdown-topic-side-by-side.png){width="800" align="left"}
+![](assets/markdown-topic-side-by-side.png){width="800"}
 
 ## Editor enhancements 
 
@@ -136,14 +136,14 @@ The following publishing enhancements have been made as part of the new release:
 
   For more details, view [Add fields and metadata in page layout](../native-pdf/design-page-layout.md#add-fields-and-metadata-add-fields-metadata).
 
-    ![](assets/metadata-topic-content.png){width="300" align="left"}
+    ![](assets/metadata-topic-content.png){width="300"}
     
     
 - Introduced an option to enable or disable the DITA-OT preprocessing for Native PDF output. Enable this option if your content requires DITA-OT-based normalization or custom DITA-OT plugins during processing. This gives you greater control over how content is processed for PDF generation. By default, the setting is set to **Enabled**.
 
     For more details, view [Working with PDF output preset](../user-guide/generate-output-pdf.md) 
 
-    ![](assets/ditaot-setting-enabled.png){width="500" align="left"}
+    ![](assets/ditaot-setting-enabled.png){width="500"}
 
 - The Print settings for Native PDF output generation have been moved from the **Templates** setting to the **Native PDF Output preset** for better usability. You can now use the same template for online and print PDFs with different print settings such as color profile.  
 

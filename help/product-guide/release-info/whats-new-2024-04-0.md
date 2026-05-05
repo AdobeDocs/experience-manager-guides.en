@@ -19,7 +19,7 @@ For example, if you need to translate your content for some countries in Europe,
 
 
 
-![translation panel](assets/translation-languages-2404.png){width="300" align="left"}
+![translation panel](assets/translation-languages-2404.png){width="300"}
 
 *Select the language groups or languages you want to translate your documents.* 
 
@@ -45,7 +45,7 @@ Deleting a project permanently removes all files and folders present in the proj
 
 You can disable the translation projects if you want to use them later. 
 
-![](assets/editor-setting-translation.png){width="550" align="left"}
+![](assets/editor-setting-translation.png){width="550"}
 
 
 *Configure language groups and the cleanup settings for translation projects.*
@@ -62,7 +62,7 @@ Now, in addition to activating the output for your bulk activation collection on
 This feature helps you activate your content to a preview instance, allowing you to check how it looks and works before activating it to the **Publish** instance.
 
 
- ![ created bulk activation collection audit history tab](assets/bulk-collection-audit-history.png){width="800" align="left"}
+ ![ created bulk activation collection audit history tab](assets/bulk-collection-audit-history.png){width="800"}
 
 *View the information about the activated map outputs in the **Audit History** tab.*
 
@@ -81,7 +81,7 @@ In addition to the existing out-of-the-box connectors, Experience Manager Guides
 
 You can easily copy and paste a sample data query in the generator to create a content snippet or topic. With this feature, you don't have to remember the syntax or create a  query manually. Instead of manually typing the query, you can copy and paste a sample query, edit it, and use it to fetch the data per your requirements. 
 
-![insert content snippet dialog box](assets/insert-content-snippet.png){width="800" align="left"}
+![insert content snippet dialog box](assets/insert-content-snippet.png){width="800"}
 
  *Copy and edit a sample query to create the content snippet.*
 
@@ -108,7 +108,7 @@ The **User Preferences** dialog box in the Web Editor now includes a new **Appea
 
 You can configure to view the files by title or filename, and change the theme of the application and the source view. It also helps you configure the settings to locate an open file in the repository view and to handle the non-breaking spaces.
 
-![appearance tab of user preferences](assets/user_preference_editor_appearance.png){width="550" align="left"}
+![appearance tab of user preferences](assets/user_preference_editor_appearance.png){width="550"}
 
 *Customize the appearance according to your preferences.*
 
@@ -148,13 +148,13 @@ Learn how to [disable postprocessing for a folder](../cs-install-guide/conf-fold
 Now, you have an enhanced experience while filtering files. The revamped functionality to filter files provides an improved way to effortlessly search and navigate through files. 
 
 
-![search files in repository view](assets/repository-filter-search-2404.png){width="300" align="left"}
+![search files in repository view](assets/repository-filter-search-2404.png){width="300"}
 
 *Search for the files containing the text `general purpose.`*
 
 Enjoy benefits such as quicker access to relevant files and a more intuitive user interface, making your search experience smoother and more efficient. 
 
-![quick search filter ](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![quick search filter ](assets/repository-filter-search-quick.png) {width="300"}
 
 *Use the quick filters to search for DITA and Non-DITA files.*
 
@@ -167,7 +167,7 @@ While editing a document in the Web Editor, you can now view a segregated list o
 * **Valid elements at the current location** that you can insert at the current cursor location itself.
 * **Valid elements outside the current location** that you can insert after any of the parents for the current element within the element hierarchy.
 
-![Insert element dialog](assets/insert-element-dialog.png){width="300" align="left"}
+![Insert element dialog](assets/insert-element-dialog.png){width="300"}
 
 *View the segregated lists of valid elements to insert an element at the current location.* 
 
@@ -184,7 +184,7 @@ Now, the Content Properties **Type** appears as a dropdown menu. You can view an
 This dropdown menu helps you quickly access the relevant tags within the hierarchical structure.
 
 
- ![type dropdown menu in content properties](assets/content-properties-type.png){width="300" align="left"}
+ ![type dropdown menu in content properties](assets/content-properties-type.png){width="300"}
 
  *Select a tag from the hierarchy for the current tag.*
 
@@ -197,7 +197,7 @@ Learn more about the **Content Properties** feature in the [Right Panel](../us
 Experience Manager Guides improves the performance and experience of the bulk files check-in feature from the Map Editor. This improvement helps you check in the files in bulk more quickly. 
 You can also view the progress of the check-in operation for the files from the **Save As New Version and Unlock** dialog box. Finally, the success message appears after the operation is complete and all selected checked-out files are checked-in.
 
-![Save as new version and unlock dialog box](./assets/save-version-lock.png){width="300" align="left"}
+![Save as new version and unlock dialog box](./assets/save-version-lock.png){width="300"}
 
 *View the list and status of the files checked in bulk from the Map Editor.*
 

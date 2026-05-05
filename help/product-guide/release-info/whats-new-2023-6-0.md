@@ -14,7 +14,7 @@ For more details on the upgrade instructions, compatibility matrix, and the issu
 ## Broken Links report in the Web Editor
 
 AEM Guides allows you to check the overall completeness of your technical documents and generate reports from the Web Editor. Now in June 2023 release AEM Guides provides you the feature to view and fix broken links. This is a  useful report which helps you manage your broken links. You can easily view the broken links present in your DITA map and also fix them. 
- ![](assets/broken-link-report.png){width="800" align="left"}
+ ![](assets/broken-link-report.png){width="800"}
 
 Once you fix a link, it is not displayed under the list of broken links.  
 
@@ -24,7 +24,7 @@ For more details, see [View and fix broken links](../user-guide/reports-web-edit
  
 Now you can also rename or move a file from the repository panel. This feature is handy and helps manage your files easily from the Repository panel. You can select a file and rename or move it using the **Options** menu for the selected file. AEM Guides displays a success message when you move or rename a file.   
 
-![](assets/rename-move-assets.png){width="650" align="left"}
+![](assets/rename-move-assets.png){width="650"}
 
 For more details on the Options menu of a file, see the **Repository view** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
@@ -64,7 +64,7 @@ Metadata is the description or definition of your content. This metadata is stor
 Now In AEM Guides you can also select the metadata properties of your assets and add them to the page layout. Then AEM Guides picks these metadata properties of your assets and publishes them in your PDF output. 
 
  
-![](assets/native-pdf-metadata-asset.png){width="550" align="left"}
+![](assets/native-pdf-metadata-asset.png){width="550"}
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ For more details, see [Define abstract patterns](../user-guide/support-schematro
 
 Now you can easily navigate from the Web Editor to the AEM Home page. 
 
-![](assets/web-editor-launch-page.png){width="800" align="left"}
+![](assets/web-editor-launch-page.png){width="800"}
 
 *  Click the **Guides** icon (![](assets/aem-guides-icon.png) ), to go back to the AEM Navigation page. 
 
@@ -118,7 +118,7 @@ For more details on the handling hierarchical definitions of subject definitions
 AEM Guides also provides the support for XML Localization Interchange File Format (XLIFF) format in translation. Now you can also choose to **Create a new XLIFF translation project** to convert the XML content into the XLIFF format.
 Using this format,  you can export the content to the industry standard XLIFF format, and then provide the same to the translation vendors. For more details, see [Create a translation project](../user-guide/translate-documents-web-editor.md#create-translation-project).
 
- ![](assets/translation-project-types.png){width="350" align="left"}
+ ![](assets/translation-project-types.png){width="350"}
 
 
 
@@ -126,7 +126,7 @@ Using this format,  you can export the content to the industry standard XLIFF fo
 
 AEM Guides helps you create a collection or favorite list of your  files and folders and use them easily. Now **Options** menu is also available in the **Favorites** panel. You can rename the selected collection or delete it from the **Options** menu. You can select the **Refresh** option to get a fresh list of files or folders from the repository. You can also view the folder contents in the Assets UI.   
   
-![](assets/favorites-options.png){width="650" align="left"}
+![](assets/favorites-options.png){width="650"}
 
 >[!NOTE]
 >
@@ -138,6 +138,6 @@ For more details on the **Options** menu of a Favorites collection, see the **Fa
 
 You can also now use the device theme. Using the **User Preferences**, you can configure AEM Guides to automatically switch between light and dark themes based on the theme of your device.  
 
-![](assets/device-theme-user-preferences.png){width="550" align="left"}
+![](assets/device-theme-user-preferences.png){width="550"}
 
 For more details, see the **User Preferences** feature description in the [Main toolbar](../user-guide/web-editor-features.md#id2051EA0G05Z) section.

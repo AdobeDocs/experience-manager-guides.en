@@ -3,7 +3,7 @@ title: Review topics
 description: Learn how to review topics and use the features as a reviewer, document view, topic view, contextual toolbar, preview mode, add attachments to comments, and conditions panel in AEM Guides.
 feature: Reviewing
 role: User
-hide: yes
+hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
 ---
 # Review topics {#id2056B0W0FBI}
@@ -33,7 +33,7 @@ Perform the following steps to review a topic:
 
     The following screen appears when a DITA map is used to initiate the review workflow:
 
-    ![](images/multiple-topics-review.png){width="800" align="left"}
+    ![](images/multiple-topics-review.png){width="800"}
 
     The following options are available on this screen:
 
@@ -58,13 +58,13 @@ Perform the following steps to review a topic:
 
     All topics in the map are shown as a single composite document. The topics that the reviewer is allowed to review are shown normally. The topics that the review is not allowed to review are not shown.
 
-    ![](images/review-read-only.png){width="800" align="left"}
+    ![](images/review-read-only.png){width="800"}
 
     In the above screenshot, the General description topic is shared for review the current reviewer,which is shown normally. However, the next topic, History of flight content is not shared for review and it is shown in read-only mode. The topic which is currently in focus is also highlighted in the TOC.
 
     The following screen appears when a topic or multiple topics are selected and shared for review:
 
-    ![](images/review-composite-view.png){width="800" align="left"}
+    ![](images/review-composite-view.png){width="800"}
 
     >[!NOTE]
     >
@@ -86,15 +86,15 @@ Perform the following steps to review a topic:
 
 When you view a single topic, then you get an additional option to switch back to the document view. In the following screenshot, a particular topic from a map file is opened for review. The highlighted option — **Show Document View** allows user to switch back to the document view of the map file.
 
-![](images/switch-document-view.png){width="800" align="left"}
+![](images/switch-document-view.png){width="800"}
 
 **Working with different types of commenting tools** - You can add inline comments by highlighting text, striking through text, inserting text, or adding a comment note. The different types of commenting tools provided in the Comments toolbar are described below:
 
-![](images/comments-toolbar.png){width="350" align="left"}
+![](images/comments-toolbar.png){width="350"}
 
 -   **Highlight** \(![](images/review-highlight-icon.svg)\): To add a highlight comment, select the text and click the Highlight icon. Or, click the Highlight icon and select the desired text:
 
-    ![](images/highlight-comment.png){width="650" align="left"}
+    ![](images/highlight-comment.png){width="650"}
 
     A pop-up appears in the Comments panel wherein you can add your comment for the highlighted content.
 
@@ -113,7 +113,7 @@ You can also highlight or strikethrough text quickly with the contextual toolbar
 
 1.  Select the text you want to highlight or strike through. The contextual toolbar appears.
 
-    ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
+    ![](images/review-quick-launch-toolbar.png){width="550"}
 
 1.  Click the **Highlight**or **Strikethrough** icon.
 1.  You can add comments in the comment panel for the highlight or strikethrough action.
@@ -129,7 +129,7 @@ The tasks that you can perform using the Comments panel are described below:
 -   You can edit your own comment by clicking on your commented text in the Comments panel and then selecting **Edit** from the Options menu.
 -   You can delete your own comments by clicking on the comment in the Comments panel and then selecting the **Delete** option from the Options menu.
 
-    ![](images/review-comment-options-menu.png){width="300" align="left"}
+    ![](images/review-comment-options-menu.png){width="300"}
 
     >[!NOTE]
     >
@@ -143,17 +143,17 @@ The tasks that you can perform using the Comments panel are described below:
 
 - The following screenshot shows the content in *Review* mode:
 
-![](images/review-author-mode.png){width="550" align="left"}
+![](images/review-author-mode.png){width="550"}
 
 The following screenshot shows the content in *Preview* mode:
 
-![](images/review-preview-mode.png){width="550" align="left"}
+![](images/review-preview-mode.png){width="550"}
 
 **Add attachments to comments** -   If you want to supplement your comment by providing additional information which is available in some other file, you can do so by attaching it with your comment. As a reviewer, you can easily add one or multiple files from your local system to your comment. A file can be added to all supported forms of comments - Highlight, Strikethrough, Insert Text, or a Comment.
 
 When you insert any of the comments, the commenting pop-up appears. After providing additional comments or information in the pop-up, you submit it by hitting Enter. Once the comment is added, you get the option to add an attachment to that comment.
 
-![](images/comment-pop-up-panel.png){width="800" align="left"}
+![](images/comment-pop-up-panel.png){width="800"}
 
 In the above screenshot, the document contains the highlight comment's pop-up and the comment is also added in the Comments panel. The file attachment icon ![](images/file-attach-review.svg)is available along with the comment at both the locations.
 
@@ -178,21 +178,21 @@ Perform the following steps to add attachment to your comment:
 
 -   By default, only two files attached with a comment are shown. If there are more files, then **View Attachment** button on the right shows the number of all attachments \(which are more than two\) associated with the comment. You can click the number to view all attachments. For example, if you have four attachments with a comment, you will see +2 on the button.
 
-![](images/review-view-attachment.png){width="550" align="left"}
+![](images/review-view-attachment.png){width="550"}
 
 -   Hovering the mouse pointer over an attachment gives the options to download or remove the attachment. Removing the attachment is available only if the current reviewer has added that comment, as shown the following screenshot:
 
-![](images/current-user-comment-options.png){width="550" align="left"}
+![](images/current-user-comment-options.png){width="550"}
 
 The other reviewers or authors get only the download attachment option.
 
-![](images/other-reviewer-download.png){width="550" align="left"}
+![](images/other-reviewer-download.png){width="550"}
 
 -   You can download all attachments associated with a comment from the **View Attachments** dialog. Select the attachments and click the **Download** icon at the comment level.
 
 -   You can also delete the attachments associated with a comment from the **View Attachments** dialog. Select the attachments and click the **Delete** icon.
 
-![](images/attach-files-comments-panel.png){width="550" align="left"}
+![](images/attach-files-comments-panel.png){width="550"}
 
 
 **Conditions panel** -   If your topic has conditional content, then you will see the **Conditions** \(![](images/conditions-icon.svg)\) icon on the right. Clicking on **Conditions** icon opens the Conditions panel that allows you to highlight the content as per the available conditions in the topic.
@@ -201,7 +201,7 @@ The other reviewers or authors get only the download attachment option.
 
 :   You can disable **Highlight All Conditions** option and see all the content present in the topic as normal text without any highlights.
 
-![](images/review-conditions-panel.png){width="350" align="left"}
+![](images/review-conditions-panel.png){width="350"}
 
 You can choose to hide or show a specific condition.
 
@@ -209,7 +209,7 @@ You can choose to hide or show a specific condition.
 -   If you show a condition conditionalized content is highlighted in the review mode. For example, in the following screenshot, only the content uses two conditions - `win` and `mac` is highlighted.
 
 
-![](images/review-condition-normal-mode.png){width="650" align="left"}
+![](images/review-condition-normal-mode.png){width="650"}
 
 In the preview mode, the non-conditionalized content and the conditionalized content that uses the two shown conditions - `win` and `mac` is displayed. The remaining conditionalized content for which the conditions are hidden is not displayed.
 
@@ -221,7 +221,7 @@ In the preview mode, the non-conditionalized content and the conditionalized con
 
 -   Clicking Outdated Comment icon \(![](images/outdated-comment-icon.svg)\) displays the differences in between the latest and the commented version of the document. The version numbers \(of the versions that are being compared\) are displayed at the top of the documents.
 
-    ![](images/comments-page-review-mode.png){width="800" align="left"}
+    ![](images/comments-page-review-mode.png){width="800"}
 
     >[!NOTE]
     >

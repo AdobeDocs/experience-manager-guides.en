@@ -5,7 +5,6 @@ exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Add a custom bookmark in PDF output
 
@@ -33,7 +32,7 @@ The following definition of the `custom-bookmark` class is added in the CSS file
 
 In the PDF output, the *Contact list* table is added at the 2nd level in the PDF bookmark list, as shown below:
 
-![](assets/custom-bookmark-in-pdf-output.png) {width="300" align="left"}
+![](assets/custom-bookmark-in-pdf-output.png) {width="300"}
 
 >[!NOTE]
 >

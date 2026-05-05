@@ -3,7 +3,7 @@ title: Edit a bulk activation map collection
 description: Use bulk publish dashboard in AEM Guides. Learn to edit a bulk activation map collection by adding or removing map files.
 feature: Publishing, Bulk Activation
 role: User
-hide: yes
+hide: true
 exl-id: a15ee164-ec60-483e-8760-b1c290625415
 ---
 # Edit a bulk activation map collection {#id214GI40B0XA}
@@ -37,7 +37,7 @@ You can edit a bulk activation map collection by adding or removing map file or 
 
 1.  Click **Delete**.
 
-    ![](images/bulk-activation-delete-map.png){width="600" align="left"}
+    ![](images/bulk-activation-delete-map.png){width="600"}
 
     The selected map is removed from the bulk activation map collection.
 

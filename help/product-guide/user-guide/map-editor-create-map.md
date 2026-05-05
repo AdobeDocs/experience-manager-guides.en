@@ -17,7 +17,7 @@ Perform the following steps to create a map:
 
 1. In the Explorer panel, select the **New file** icon and then select **DITA Map** from the dropdown menu. 
 
-    ![](images/create-map-options.png){align="left"}
+    ![](images/create-map-options.png)
 
     You can also access this option from the [Experience Manager Guides Home page](./intro-home-page.md) and the options menu of a folder in the Explorer view. 
 
@@ -29,14 +29,14 @@ Perform the following steps to create a map:
     - A template on which the topic will be based. For a map file, the available options are **Bookmap**, **Map**, and **Subject scheme**.
     - Path where you want to save the map file. By default, the path of currently selected folder in the Explorer is shown in the Path field.
 
-    ![](images/new-map-dialog.png){width="300" align="left"}
+    ![](images/new-map-dialog.png){width="300"}
 
     
 4. Select **Create**. 
     
 The map is created at the specified path. Also, the map is opened in the Map Editor for editing.
 
-![](images/map-file-in-map-editor.png){align="left"}
+![](images/map-file-in-map-editor.png)
 
 ## Add topics to a map file 
 
@@ -47,11 +47,11 @@ Perform the following steps to add topics to a map file from the Map console:
 1. In the Explorer view, navigate to and open the map file that you want to edit.
 1.  Select the **Edit** icon.
 
-    ![](images/edit-map-icon.png){width="450" align="left"}
+    ![](images/edit-map-icon.png){width="450"}
    
 1. The map file opens in the Map Editor. If you have opened a new map file, then only the title of the map is shown in the editor.
 
-    ![](images/new-map-file-in-editor.png){align="left"}
+    ![](images/new-map-file-in-editor.png)
 
         
     -   **A** - \(*Tab bar*\): This is similar to the Editor's tab bar. View [tab bar](./web-editor-tab-bar.md) in the Editor for more details.
@@ -74,7 +74,7 @@ Perform the following steps to add topics to a map file from the Map console:
 
     The topic is added in the map.
 
-    ![map editor add topic](images/map-editor-add-topic.png){align="left"}
+    ![map editor add topic](images/map-editor-add-topic.png)
 
 1.  To add subsequent topics or a sub-map, drag-and-drop the topic or sub-map to the required location in the map.
 
@@ -82,7 +82,7 @@ Perform the following steps to add topics to a map file from the Map console:
 
     -   The file is added at a location where the dashed rectangle bar appears in the map editing area. In the following screenshot, the *A sample topic* topic will get added in between the *Smart Suggest 1* and *Smart Suggest 2* topics.
 
-        ![](images/horizontal-line-in-adv-map-editor.png){align="left"}
+        ![](images/horizontal-line-in-adv-map-editor.png)
 
     -   To replace a topic, drag and drop the new topic on top of the topic that you want to replace. and drop it over indicates that it will get replaced with the topic being dropped on it.               
 
@@ -92,7 +92,7 @@ Perform the following steps to add topics to a map file from the Map console:
 
     -   To change the position of a topic, select the topic \(by selecting the topic icon\), then drag-and-drop it at the desired location in the map file. In the following screenshot, the topic *Smart Suggest 1* is being moved after the *A Sample topic*.
 
-        ![](images/move-topic-adv-map-editor.png){align="left"}
+        ![](images/move-topic-adv-map-editor.png)
 
     -   To check the properties of your map file, right-click anywhere in the map editing area and choose **Properties** from the context menu. Based on your Adobe Experience Manager version, you could view properties like metadata, schedule \(de\)activation, references, document state and more.
 
@@ -114,7 +114,7 @@ Perform the following steps to create a map from the Assets UI:
     >
     > The way the topics are referred in a map file depend on the map template. For example, if you select the Map template, then the topic references \(`topicref`\) are used to refer to topics. In case of a Bookmap, topic references are created using the `chapter` element in DITA.
 
-    ![](images/map-template.png){align="left"}
+    ![](images/map-template.png)
 
 1.  On the Properties page, specify the map **Title**.
 
@@ -130,7 +130,7 @@ Perform the following steps to create a map from the Assets UI:
 
     Every new map file that you create from the Assets UI or the Editor is assigned a unique map ID. Also, the new map is saved as the latest working copy in DAM. Until you save a revision of a newly created map, you will not view any version number in the Version History. If you open the map for editing, the version information is shown in the right top corner of the map file's tab:
 
-    ![](images/first-version-map-none.png){align="left"}
+    ![](images/first-version-map-none.png)
 
     The version information for a newly created map is shown as *none*. When you save a new version, then it is assigned a version number as 1.0. For more information about saving a new version, view [Save as new version](web-editor-features.md#save-as-new-version).
 
@@ -158,11 +158,11 @@ Perform the following steps to add topics to a map file from the Assets UI:
 
 1.  With the map file selected, select **Edit Topics**.
 
-    ![](images/edit-map-main-menu.png){align="left"}
+    ![](images/edit-map-main-menu.png)
 
     Or, you can also select the **Edit Topics** option from the action menu on the map file:
 
-    ![](images/edit-map-action-menu.png){align="left"}
+    ![](images/edit-map-action-menu.png)
 
     The map file is opened for editing in the Editor. To add topics to the map file, follow the steps (4-8) in [Add topics to a map file](#add-topics-to-a-map-file).
 

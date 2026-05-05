@@ -1,7 +1,7 @@
 ---
 title: AI-powered Smart Help to search content
 description: Learn how to view and utilize AI-powered Smart Help in the Web Editor.
-hide: yes
+hide: true
 exl-id: cf08f6a9-bf92-47d9-9952-da0301ea7023
 ---
 # AI-powered Smart Help to search content
@@ -23,7 +23,7 @@ When you open the Web Editor, the **Smart Help** panel appears on the right.
 >
 > Your administrator must configure the **Smart Help** feature. For more details, view the [Configure the AI-powered Smart Help to search content](/help/product-guide/cs-install-guide/conf-smart-help.md) section in the Installation and Configuration Guide for Cloud Services. 
 
-![Smart Help panel](images/smart-help-panel.png){width="300" align="left"}
+![Smart Help panel](images/smart-help-panel.png){width="300"}
 
 *View the **Smart Help** panel.*
 
@@ -43,7 +43,7 @@ Perform the following steps to use the conversational search to find appropriate
   
       Depending on your question, you may view the content, applicable images, and links to the articles.
 
-        ![Smart Help panel response](images/smart-help-panel-response.png){width="300" align="left"}
+        ![Smart Help panel response](images/smart-help-panel-response.png){width="300"}
 
 
         *Select the sample question and view the content and images in response.* 

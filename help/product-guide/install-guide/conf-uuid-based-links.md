@@ -5,7 +5,6 @@ exl-id: ab1b0ecf-cb50-4fcd-b36e-d16a8c396054
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Configure display of UUID-based links {#id2035G20M0QN}
 

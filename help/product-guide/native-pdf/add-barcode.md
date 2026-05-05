@@ -2,7 +2,6 @@
 title: Native PDF Publish Feature | Add barcode
 description: Learn how to add barcodes.
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
-hidefromtoc: yes
 ---
 # Add a barcode to the PDF output
 

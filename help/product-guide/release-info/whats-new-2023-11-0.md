@@ -22,7 +22,7 @@ Experience Manager Guides provides out-of-the-box  or factory PDF templates. Dup
 Now, you can also preview the thumbnail image for a template while creating and duplicating a template. You can also edit or delete this image. This feature is useful for branding or distinguishing templates with similar names.
 Learn more about the [PDF template](../native-pdf/pdf-template.md).
  
-![Duplicate PDF template dialog](assets/duplicate-template.png){width="550" align="left"}
+![Duplicate PDF template dialog](assets/duplicate-template.png){width="550"}
 
 *Duplicate an existing PDF template.*
 
@@ -51,7 +51,7 @@ The following Web Editor enhancements have been done in the November 2023 releas
 
 You can now choose the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels from the Author view.
 
-![User Preferences dialog](assets/user-preferences-2311.png){width="550" align="left"}
+![User Preferences dialog](assets/user-preferences-2311.png){width="550"}
 
 *Change the default way to view the files from the **User Preferences** dialog.*
  
@@ -60,7 +60,7 @@ You can now choose the default way to view the files in the Web Editor. You can 
 
 You can define condition attributes in your DITA topics. Then, use the condition attributes in the condition preset to publish the content in a DITA map. Experience Manager Guides now also allows you to create and manage condition presets from the Web Editor. You can also easily edit, duplicate, or delete them.
 
-![Condtion Presets from the Manage tab of the Web editor ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Condtion Presets from the Manage tab of the Web editor ](assets/web-editor-manage-condition-presets.png){width="550"}
 
 For more details, view [Use condtion presets](../user-guide/generate-output-use-condition-presets.md).
 

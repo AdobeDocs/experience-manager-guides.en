@@ -5,7 +5,6 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Use custom DITA-OT and DITA specialization {#id181GAJ0005Z}
 

@@ -3,7 +3,7 @@ title: Conditional attribute profiling
 description: Learn how to create conditional attributes in AEM Guides. Use conditional attributes in the folder and global profiles to conditionalize your content.
 feature: Publishing
 role: User
-hide: yes
+hide: true
 exl-id: f8397acf-acd3-4e68-adce-9adbbef55337
 ---
 # Conditional attribute profiling {#id1843I0HN0Y4}
@@ -40,7 +40,7 @@ To define conditional attributes, perform the following steps:
 
     The following screenshot shows the definition for the `platform` attribute with value of `unix` and a label of `Red Hat Linux`.
 
-    ![](images/add-profile.png){width="800" align="left"}
+    ![](images/add-profile.png){width="800"}
 
 1.  If you want to add more values for the same attribute, click the **+** icon and enter additional value and label.
 
@@ -51,6 +51,6 @@ To define conditional attributes, perform the following steps:
 
 The `platform` attribute is stored in the system. Whenever an author decides to use the `platform` attribute in a DITA topic in a folder, they will see the values in the Properties tab in the Web Editor.
 
-![](images/properties-tab.png){width="350" align="left"}
+![](images/properties-tab.png){width="350"}
 
 **Parent topic:**[Output generation](generate-output.md)

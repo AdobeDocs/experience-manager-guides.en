@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
 ---
-# Customize AEM Site output {#id166TG0B30WR}
+# Customize existing AEM Site output {#id166TG0B30WR}
 
 The AEM Guides supports creating outputs in following formats:
 
@@ -59,7 +59,7 @@ The following tabs provide instructions to specify your own design template to u
 
     `/libs/fmdita/config/templates/`
 
-    ![](assets/templates-node.png){width="300" align="left"}
+    ![](assets/templates-node.png){width="300"}
 
     >[!NOTE]
     >
@@ -323,7 +323,7 @@ Now, when you generate the AEM Site output, the nodes within the `p` element are
 
 Now, when you generate the AEM Site output, the nodes within the `p` element are flattened and stored within the `p` element itself. You can find the new flattening properties for the `p` element in CRXDE.
 
-![](assets/flatten-aem-site-note-props-crxde.png){width="650" align="left"}
+![](assets/flatten-aem-site-note-props-crxde.png){width="650"}
 
 >[!ENDTABS]
 

@@ -3,7 +3,7 @@ title: DITA map report from the map dashboard
 description: Generate DITA map reports from the map dashboard in AEM Guides. Learn how to generate the CSV of a DITA map report.
 feature: Report Generation
 role: User
-hide: yes
+hide: true
 exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
 ---
 # DITA map report from the map dashboard {#id205BB800EEN}
@@ -20,7 +20,7 @@ Perform the following steps to view the DITA Map Report:
 
 1.  Click **Reports**.
 
-    ![](images/reports-page-uuid.png){width="800" align="left"}
+    ![](images/reports-page-uuid.png){width="800"}
 
     The Reports page is divided into two parts:
 
@@ -32,7 +32,7 @@ Perform the following steps to view the DITA Map Report:
 
         When you click on a topic, a detailed report of the selected topic is displayed.
 
-        ![](images/detailed-report-uuid.png){width="800" align="left"}
+        ![](images/detailed-report-uuid.png){width="800"}
 
         Items highlighted under **A**, **B**, **C** and **D** are described below:
 
@@ -75,18 +75,18 @@ Perform the following steps to generate the CSV of a DITA map report:
 
 1.  Click **Generate Report** on the top-left to generate the DITA map report.
     
-    ![](images/generate-DITA-map-report.png){width="800" align="left"}
+    ![](images/generate-DITA-map-report.png){width="800"}
 
 1.  You will receive a notification once the report is ready to download. Click **Download** to download the CSV of the generated report.
 
-    ![](images/download-report-dialog.png){width="550" align="left"}
+    ![](images/download-report-dialog.png){width="550"}
 
 
     You can also download the CSV of the generated report later from the AEM notification Inbox.
 
     Click the generated report in the Inbox to download the report.
 
-    ![](images/report-inbox--notification.png){width="300" align="left"}
+    ![](images/report-inbox--notification.png){width="300"}
 
 Once the report is downloaded in the Inbox you can also select the report and use the Open icon on the top to open the selected report.
 

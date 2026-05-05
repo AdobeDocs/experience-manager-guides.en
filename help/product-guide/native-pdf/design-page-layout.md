@@ -5,7 +5,6 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced 
-hidefromtoc: yes
 ---
 
 # Design a page layout {#design-page-layout}

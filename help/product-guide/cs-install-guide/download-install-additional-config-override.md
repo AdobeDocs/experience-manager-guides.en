@@ -5,7 +5,6 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Configuration overrides {#id216IFC003XA}
 
@@ -54,7 +53,7 @@ Perform the following steps to configure Experience Manager Guides UI:
 5. Select **Add/Update**.
 6. Add the UI configuration details. Ensure you are using the same name and configuration as given in the following screenshot.
 
-    ![](assets/enable-penultimate-ui.png){width="800" align="left"}
+    ![](assets/enable-penultimate-ui.png){width="800"}
 
     Setting the value to **true** retains the old UI, while **false** activates the new UI.
 

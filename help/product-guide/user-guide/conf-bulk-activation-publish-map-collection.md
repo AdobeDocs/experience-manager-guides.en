@@ -19,7 +19,7 @@ Once you have created a map collection for bulk activation, the next step is to 
 
 1.  Select the collection that you want to publish and select **Open**.
 
-    ![](images/bulk-activation-collection-open.png){align="left"}
+    ![](images/bulk-activation-collection-open.png)
 
 1.  \(*Optional*\) Apply the required filters from the left rail to filter map on the basis of their modified \(status\), output preset, or language.
 
@@ -33,7 +33,7 @@ View the different ways to activate your collection based on your setup.
 <details>
 <summary> Cloud Services </summary> 
 
-![bulk-collection-publish on cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![bulk-collection-publish on cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
 You can activate the output to the **Preview** or **Publish** instances.
 
@@ -68,7 +68,7 @@ Do one of the following:
 
 *  To activate the output of selected maps, select the pregenerated map output and select **Quick Publish**.
 *  To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Quick Publish.**
-    ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+    ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
    
    >[!NOTE] 
    > 

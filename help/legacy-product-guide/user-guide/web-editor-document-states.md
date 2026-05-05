@@ -3,7 +3,7 @@ title: Document state
 description: Learn the types of document states in AEM Guides. Know how to change or view the document state and use the document state in DDLC.
 feature: Authoring, Features of Web Editor, Document State
 role: User
-hide: yes
+hide: true
 exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
 ---
 # Document state {#id1821HC00URO}
@@ -44,7 +44,7 @@ To change the state of a document, perform the following steps:
 
 The card view of the Assets UI shows the current state along with the creation date and size of the respective DITA topic or DITA map.
 
-![](images/document_state.png){width="800" align="left"}
+![](images/document_state.png){width="800"}
 
 ## Use document states in DDLC 
 
@@ -66,11 +66,11 @@ To use the document approval feature, perform the following steps:
 
 1.  If your document is in the state to be marked as approved, the following dialog appears:
 
-    ![](images/mark-approved-correct-state.png){width="300" align="left"}
+    ![](images/mark-approved-correct-state.png){width="300"}
 
     If your document cannot be marked as approved, then the following message is displayed:
 
-    ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
+    ![](images/mark-approved-incorrect-state.png){width="300"}
 
 1.  If your document is ready to be marked as approved, then select a label from the drop-down list and click **Approve**.
 
@@ -80,7 +80,7 @@ To use the document approval feature, perform the following steps:
 
 1.  Once the document is successfully marked as approved, then a **Preview** of the document is shown in the read-only mode.
 
-    ![](images/approved-doc-read-only.png){width="650" align="left"}
+    ![](images/approved-doc-read-only.png){width="650"}
 
     >[!NOTE]
     >

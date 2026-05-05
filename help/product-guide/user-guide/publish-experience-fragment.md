@@ -30,11 +30,11 @@ To generate an Experience Fragment, perform the following steps:
 
         If you do not define an allowed template for a folder, the templates are picked from the parent folder or the templates folder by default. 
     * **Orderable**: Allows you to change the order of the assets inside a folder.
-    ![add cloud configuration details in the folder properties](images/experience-fragment-folder-properties.png){width="650" align="left"}
+    ![add cloud configuration details in the folder properties](images/experience-fragment-folder-properties.png){width="650"}
        *Add the cloud configuration in the folder properties to connect it with the fragment templates.* 
 1. To generate an Experience Fragment, select **New Output** ![new output icon](./images/Add_icon.svg) from the **Outputs** section in the **File Properties** of a topic.
 1. Select **Experience Fragment**.  
-    ![file properties options tab](./images/file-properties-outputs-new.png){width="300" align="left"}
+    ![file properties options tab](./images/file-properties-outputs-new.png){width="300"}
 
     *Add a new Experience Fragment from the File Properties of a topic*.
 
@@ -43,7 +43,7 @@ To generate an Experience Fragment, perform the following steps:
     > You can also publish an Experience  Fragment from the **Repository View**. Select the topic that you want to publish as an Experience Fragment. Then, from the **Options** menu, select **Publish As** > **Experience Fragment**.
 
 1. In the **Generate Experience Fragment** dialog box, fill in the following details:
-        ![Add the fragment model and mapping details in the Publish as Experience Fragment dialog](images/experience-fragment-generate.png){width="500" align="left"}
+        ![Add the fragment model and mapping details in the Publish as Experience Fragment dialog](images/experience-fragment-generate.png){width="500"}
         
     *Add the path, template, and mapping details to publish a topic or its elements as an Experience Fragment. You can overwrite an existing Experience Fragment.*  
 
@@ -73,7 +73,7 @@ To generate an Experience Fragment, perform the following steps:
 1. Select **Generate** to publish the Experience Fragment.
 1. You can view the Experience Fragments for a topic under the **Outputs** section in the **File Properties**. The Experience Fragments appear according to the date and time of their publishing, with the latest as the first. 
  
-    ![View the Experience Fragments for a topic](images/experience-fragment-outputs-new.png){width=300 align="left"}
+    ![View the Experience Fragments for a topic](images/experience-fragment-outputs-new.png){width=300}
        
      *View the Experience Fragments present for a topic and republish them.*  
 

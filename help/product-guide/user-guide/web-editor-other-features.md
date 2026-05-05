@@ -17,7 +17,7 @@ When you open a file in the Editor, you can perform various actions from the con
 
 You get the following functions in the context menu of an opened media file's tab:
 
-![](images/media-file-context-menu.png){width="300" align="left"}
+![](images/media-file-context-menu.png){width="300"}
 
 
 **Single DITA file**
@@ -142,7 +142,7 @@ You may view the following options depending on whether the file is locked/unloc
 
     For example, one of the prompts is shown in the following screenshot:
 
-    ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+    ![](images/file-close-save-changes-unlock.png){width="400"}
 
 **Visual cues for broken references** 
 
@@ -256,11 +256,11 @@ Experience Manager Guides provides intuitive dialogs - **Select file** and **Sel
 
 The file path browser enables you to quickly locate and select specific files within the content repository. This feature is available for tasks such as adding a topic to a map, linking an image or cross-reference, creating reusable content, and more. 
 
-![](images/select-file-dialog-new.png){width="350" align="left"}
+![](images/select-file-dialog-new.png){width="350"}
 
 When you launch the file browser, the **Select file** dialog opens. This dialog includes two tabs: **Repository** and **Collections**. By default, the Repository tab is selected.
 
-![](images/select-file.png){width="650" align="left"}
+![](images/select-file.png){width="650"}
 
 **Features available in the Repository tab for file browsing**
 
@@ -268,17 +268,17 @@ When you launch the file browser, the **Select file** dialog opens. This dialog 
 
 The Repository tab provides you a tabular view of files and folders from the content repository, making it easier to locate the correct file path. You can also use the breadcrumbs at the top and the folder navigation panel on the left to move through folders. 
 
-![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+![](images/select-file-dialog-navigate-files.png){width="650"}
 
 **Single and multiple file selection**
 
 To use a file, simply select the file and choose **Select**. 
 
-![](images/select-file-single-file-selection.png){width="650" align="left"}
+![](images/select-file-single-file-selection.png){width="650"}
 
 In some cases, you can also select multiple files from this path browser dialog. For example, when browsing files for Reusable content, you can select multiple files and make them part of your resuable content. 
 
- ![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+ ![](images/select-file-multiple-file-selection.png){width="650"}
 
 Multiple file selection is currently available for Reusable content, topic references, Schematron, Output presets (using DITAVAL), and Workfront.  
 
@@ -290,29 +290,29 @@ Multiple file selection is currently available for Reusable content, topic refer
 
 You can preview the files you have selected using the **Preview** button, as shown below:
 
-![](images/select-file-preview-button.png){width="650" align="left"}
+![](images/select-file-preview-button.png){width="650"}
 
 The preview of the selected file is displayed on the right. 
 
-![](images/select-file-dialog-preview.png){width="650" align="left"}
+![](images/select-file-dialog-preview.png){width="650"}
 
 For multiple selections, a preview of all selected files is displayed in Preview panel for easy review.
 
-![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+![](images/reusable-content-selection-left-panel.png){width="650"}
     
 You can also use the **Remove** icon to deselect some files from the Preview. 
 
-![](images/resusable-content-remove-preview.png){width="650" align="left"}
+![](images/resusable-content-remove-preview.png){width="650"}
 
 **Search and filter experience**
 
 When browsing files in the Repository, you can search for files by name, title, or content within the selected path. You can use any one, two, or all three criteria for your search. If none of the criteria are selected, the results will include common to all the three criteria.
 
-![](images/select-file-search.png){width="650" align="left"}
+![](images/select-file-search.png){width="650"}
 
 Select the **Filter Search** \(![Search filter icon](images/filter-search-icon.svg)\) icon to open the Filter panel on the right.
 
-![](images/select-file-filters.png){align="left"}
+![](images/select-file-filters.png)
 
 You have the following options to filter the files and to narrow down your search:
 
@@ -367,7 +367,7 @@ In the Collections tab, you can:
 
 Browsing folders using the **Select folder** dialog, focuses on selecting the correct folder path within the Repository for tasks such as creating new topics or specifying output locations for published content. It offers a clear, tree-structured view of folders, making navigation intuitive and ensuring content is placed in the right location.
 
-![](images/select-path-dialog-new.png){width="300" align="left"}
+![](images/select-path-dialog-new.png){width="300"}
 
 
 ## Support for article-based publishing 
@@ -388,7 +388,7 @@ The Editor support DITA glossary terms that you can insert by adding `term` or `
 
 Experience Manager Guides gives you an out-of-the-box support for inserting MathML equations by integration with [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) application. To insert a MathML equation, select the **Element** icon and type mathml. When you select mathml element from the list, the **Insert MathML** dialog is displayed:
 
-![insert mathml equation in mathml editor](images/insert-mathml-equation.png){width="550" align="left"}
+![insert mathml equation in mathml editor](images/insert-mathml-equation.png){width="550"}
 
 Using the MathML equation tools, create your equation and select **Insert** to add it to your document. The equation is inserted with light gray background. 
 
@@ -399,7 +399,7 @@ At any time you can update an equation by right-clicking on an existing equation
 Experience Manager Guides validates MathML equations when you save a topic containing them.
 When you insert an equation using the MathML editor, Experience Manager Guides highlights the equation in red if there are any syntax issues. You can correct it before inserting it. If you don't make any changes but select **Insert**, it displays a warning.
     
-![validate mathml equation](images/validate-mathml-equation.png){width="400" align="left"}
+![validate mathml equation](images/validate-mathml-equation.png){width="400"}
 
 If you insert the MathML equation that contains a syntax error, a validation error occurs when you try to save the topic.
 
@@ -464,7 +464,7 @@ In XML, white spaces include spaces, tabs, carriage returns, and blank lines. Ex
 
 DITA elements that contain line break and spaces are supported and rendered as per their definition in the Author, Source, or Preview modes, and also in the final published output. The following screenshot shows the content within the `msgblock` element wherein the line breaks and spaces \(indentation\) have been preserved:
 
-![](images/new-line-support_cs.png){align="left"}
+![](images/new-line-support_cs.png)
 
 
 
@@ -492,7 +492,7 @@ Alternatively you can right-click in the breadcrumb and select **Generate IDs**.
 
 If a given topic or map contains elements with duplicate IDs, a **Duplicate IDs** button appears at the bottom-right corner of the Content editing area adjacent to the Editor views. 
 
-![](images/duplicate-element-IDs.png){width="350" align="left"}
+![](images/duplicate-element-IDs.png){width="350"}
 
 Selecting **Duplicate IDs** opens a popover listing all the duplicate IDs. You can select the displayed ID from the popover to navigate to the corresponding element and update it with a unique ID. 
 
@@ -522,7 +522,7 @@ The key features aimed at improving the handling of large files are mentioned as
 
 - Additionally, the tag count is displayed on the bottom bar of the interface. When you hover over this tag count value, a tooltip appears. Selecting the **Learn more** tab provides details about handling large files.
 
-![](images/add-toast-tag-count.png){width="600" align="left"}
+![](images/add-toast-tag-count.png){width="600"}
 
 
 - The alert message is available only for DITA files and is visible across all views: Author, Source, and Layout.

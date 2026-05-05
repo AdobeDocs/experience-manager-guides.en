@@ -16,7 +16,7 @@ For more details on the upgrade instructions, compatibility matrix, and the issu
 
 You can use variables to dynamically insert and manage reusable information. Experience Manager Guides helps you create, edit, and preview variables while you generate the PDF output. You can quickly modify the values of variables and make your documents portable and easy to update.
 
-![native pdf variables](assets/add-variable-default.png){width="800" align="left"}
+![native pdf variables](assets/add-variable-default.png){width="800"}
 
 *Create and manage variables in the Web Editor.* 
 
@@ -53,7 +53,7 @@ Learn more about how to use [variables in the PDF output](../native-pdf/native-p
 
 Now, you get a revamped experience to add or edit the attributes for an element from the **Content Properties** panel in the Web Editor. 
 
-![Attributes panel](assets/attributes-multiple-properties.png){width="300" align="left"}
+![Attributes panel](assets/attributes-multiple-properties.png){width="300"}
 
 *Add attributes from the Content Properties panel.*
 
@@ -66,7 +66,7 @@ For more details, refer to the **Content Properties** feature description within
 
 Now, while authoring, you can update the file metadata tags using the dropdown from the **File Properties** in the right panel. You can also select **Edit more properties** to update more metadata.
 
-![file-properties](assets/file-properties-general.png){width="300" align="left"}
+![file-properties](assets/file-properties-general.png){width="300"}
 
 *Update metadata and edit file properties from the right panel.*
 
@@ -81,7 +81,7 @@ With the December 2023 release, as an administrator, you can create a publish pr
 This feature helps you publish content, like text, videos, and images, to the ServiceNow knowledge base platform and maintain a comprehensive repository.
 
 
-![service now knowledge base preset](assets/knowledgebase--output-preset.png){width="300" align="left"}
+![service now knowledge base preset](assets/knowledgebase--output-preset.png){width="300"}
 
 *Create an output preset for the ServiceNow knowledge base.*
 
@@ -93,7 +93,7 @@ Experience Manager Guides provides an enhanced Map collection dashboard. In a ma
  
 Now, you can view the filename of the DITA map. You can also view the Baselines. This helps you quickly find the baseline used for a preset.
 
-![Map collection dashboard](assets/map-collection-dashboard.png){width="800" align="left"}
+![Map collection dashboard](assets/map-collection-dashboard.png){width="800"}
 
 *View, edit, and generate output from the map collection dashboard.* 
 
@@ -105,20 +105,20 @@ When you define key attributes for the topic or map references, you can also vie
 
 For more details, refer to the **Map View** feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
-![keys in map view](assets/view-key-title-map-view.png) {width="300" align="left"}
+![keys in map view](assets/view-key-title-map-view.png) {width="300"}
 
 *View the key attribute in the Map View.*
 
 ## Ability to duplicate a baseline based on label
 
 Experience Manager Guides now provides an enhanced user experience for creating the baselines from the Web Editor.  
-![create new baseline](assets/create-new-baseline.png) {width="300" align="left"}
+![create new baseline](assets/create-new-baseline.png) {width="300"}
 *Create baseline from the Web Editor.*
 
 It also allows you to duplicate a baseline based on the label. The reference version is picked based on the given label (if it exists) while duplicating, or else picks the version from the duplicated baseline.
 
 
-![duplicate a baseline ](assets/duplicate-baseline.png) {width="300" align="left"}
+![duplicate a baseline ](assets/duplicate-baseline.png) {width="300"}
 
 *Duplicate a baseline based on a label or create an exact copy.*
 

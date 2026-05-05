@@ -5,7 +5,6 @@ exl-id: 4e566c57-a522-4605-bc70-47155f20b429
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Verify AEM Guides installation {#id213BD030FBE}
 

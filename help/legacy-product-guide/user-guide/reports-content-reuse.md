@@ -3,7 +3,7 @@ title: Content Reuse Report
 description: Learn how to view the content reuse report in AEM Guides. Generate the report to find the content reuse percentage.
 feature: Report Generation
 role: User
-hide: yes
+hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
 ---
 # Content Reuse Report {#id205BB900OQD}
@@ -30,7 +30,7 @@ Perform the following steps to view the Content Reuse Report:
 
 1.  Click **Generate Report** to get the Content Reuse Report.
 
-    ![](images/content-reuse-uuid.png){width="800" align="left"}
+    ![](images/content-reuse-uuid.png){width="800"}
 
     The report page is divided into two parts:
 

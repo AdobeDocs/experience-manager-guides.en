@@ -3,7 +3,7 @@ title: Create a bulk activation map collection
 description: Learn how to create a bulk activation map collection in AEM guides.
 feature: Publishing, Bulk Activation
 role: User
-hide: yes
+hide: true
 exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
 ---
 # Create a bulk activation map collection {#id214GG0E90EV}
@@ -40,7 +40,7 @@ To create a bulk activation map collection, perform the following steps:
 
  The DITA map files are added to your bulk activation map collection.
 
-![ created bulk activation collection](images/bulk-activation-collection-created.png){width="800" align="left"}
+![ created bulk activation collection](images/bulk-activation-collection-created.png){width="800"}
 
 ## Maps and Presets tab 
 
@@ -79,7 +79,7 @@ The **Audit History** tab presents information about the activated map outputs i
 
 - **Modified**: Indicates if the DITA map was updated after the last publication. Based on this information, you can decide whether to activate the output for this DITA map.
 - **Published**: Shows the date and time of the last published (or activated) output. If you select the link, the Activation Results page is displayed, which contains the logs with information about the root path where the content is activated.
-    ![ created bulk activation collection audit history tab](images/bulk-collection-audit-history.png){width="800" align="left"}
+    ![ created bulk activation collection audit history tab](images/bulk-collection-audit-history.png){width="800"}
 
     *View the information about the activated map outputs in the **Audit History** tab.*
 

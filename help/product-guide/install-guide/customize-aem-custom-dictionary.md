@@ -5,7 +5,6 @@ exl-id: 8bfd3ea7-0be8-4e7a-b389-5face043200b
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Customize AEM's default dictionary {#id209SD8000WU}
 
@@ -25,7 +24,7 @@ Perform the following steps to create your custom words list, which are added in
 
     The following screenshot shows custom words list added to the user\_dictionary.txt file:
 
-    ![](assets/custom-words-list-dictionary.png){width="650" align="left"}
+    ![](assets/custom-words-list-dictionary.png){width="650"}
 
 1.  Save and close the file.
 

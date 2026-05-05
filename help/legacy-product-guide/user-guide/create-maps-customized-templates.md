@@ -3,7 +3,7 @@ title: Create maps based on customized templates
 description: Learn to create a customizes template, use them to create new map files, and pass on the defined title to a DITA map in AEM Guides.
 feature: Authoring, Map Editor
 role: User
-hide: yes
+hide: true
 exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
 ---
 # Create maps based on customized templates {#id225VF0808MP}
@@ -38,7 +38,7 @@ Perform the following steps to create a topic template:
 
 1.  In the **Assets UI**, navigate to the dita-templates folder.
 
-    ![](images/dita-templates.png){width="800" align="left"}
+    ![](images/dita-templates.png){width="800"}
 
 1.  Click **topics** folder to open it.Click **Create \> DITA Template**.
 1.  On the Blueprint page, select **Topic** and then click **Next.**
@@ -60,7 +60,7 @@ Perform the following steps to create a map template:
 1.  Click **maps** folder to open it.
 1.  Click **Create \> DITA Template.**
 
-    ![](images/create-dita-template.png){width="300" align="left"}
+    ![](images/create-dita-template.png){width="300"}
 
 1.  On the Blueprint page, select **Map** and click **Next**.
 1.  On the Properties page, specify the map template **Title**.

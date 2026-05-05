@@ -32,7 +32,7 @@ Perform the following steps to create a baseline:
 2. Select **Create** on the top-left.
 3. On the Baseline page, enter a name for the Baseline in the **Baseline Name** field.
     
-    ![](images/create-baseline-assets-ui.png){width="300" align="left"}
+    ![](images/create-baseline-assets-ui.png){width="300"}
  
 4. In **Set the version based on**, select one of the following options:
 
@@ -75,7 +75,7 @@ Perform the following steps to edit an existing baseline:
 1.  Make the required changes in the baseline. You can change the name and version of the topic or referenced content.
 1.  If you want to use a different version for one or more topics, then you can do so by manually selecting those topics. Select **Browse Topic**, select the topic for which you want to use a different version. From the Select a Version drop-down list for the selected topic, select a version of the topic that you want to use in the baseline and select **OK**.
 
-    ![](images/baseline-select-version-drop-down.png){align="left"}
+    ![](images/baseline-select-version-drop-down.png)
 
     The information about the topic and it's selected version is stored in the backend. You can repeat this step to change the selected version for multiple topics.
 
@@ -122,7 +122,7 @@ Perform the following steps to add a label to multiple topics and referenced con
 
 1.  Select **Add Labels**.
 
-    ![](images/add-label-baseline-uuid.png){align="left"}
+    ![](images/add-label-baseline-uuid.png)
 
 1.  In the **Add Label** dialog, specify a unique label to associate with this baseline.
 
@@ -133,7 +133,7 @@ Perform the following steps to add a label to multiple topics and referenced con
     - Select **Add**.
         The specified label is added to the DITA map and the referenced topics and content.
 
-        ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+        ![](images/label-added-baseline-uuid.png){width="650"}
 
 
 ## Export translated Baseline 
@@ -152,7 +152,7 @@ Perform the following steps to export a translated Baseline:
 
 1.  In the **Translation** tab, expand the **Baseline** option available in the left rail.
 
-    ![](images/export-baseline-new.png){align="left"}
+    ![](images/export-baseline-new.png)
 
 1.  Select the **Use Baseline** option and choose the Baseline that you want to export.
 

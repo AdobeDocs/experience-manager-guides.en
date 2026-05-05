@@ -3,7 +3,7 @@ title: Best practices for content translation
 description: Know the best practices for content translation in AEM Guides. Learn how to configure the translation service, create a new translation project, and start the translation job.
 feature: Translation
 role: User
-hide: yes
+hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
 ---
 # Best practices for content translation {#id1678G0S702F}
@@ -26,7 +26,7 @@ Consider the following point for translating content:
 
 The following illustration shows an example of a folder structure in AEM when you have globally used content and three language copies.
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){width="800"}
 
 ## Configure translation service 
 
@@ -101,7 +101,7 @@ Perform the following steps to create a translation project:
 
     A new translation project is created with the selected version of the topics. At this time, a pop-up message is displayed confirming that the translation project has been created. Once all target language copies are available in the translation project, you get a notification in the Inbox. Once the target language copies area available in the translation project, you can then go ahead and start the translation job.
 
-    ![](images/status-translation-uuid.png){width="800" align="left"}
+    ![](images/status-translation-uuid.png){width="800"}
 
 
 The Translation tab has following sections:

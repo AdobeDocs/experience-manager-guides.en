@@ -3,7 +3,7 @@ title: Create a DITA project
 description: Create a DITA project using a template in AEM Guides. Learn how to use a DITA project to initiate the reviews.
 feature: Reviewing
 role: User
-hide: yes
+hide: true
 exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
 ---
 # Create a DITA project {#id1645HA00NM6}
@@ -30,7 +30,7 @@ Perform the following steps to create a DITA project:
 
 1.  Click **Create** \> **Project** to launch the Create Project wizard.
 
-    ![](images/project-console-63.png){width="650" align="left"}
+    ![](images/project-console-63.png){width="650"}
 
 1.  On the Create Project page, select the **DITA Project** template and click **Next**.
 
@@ -38,7 +38,7 @@ Perform the following steps to create a DITA project:
 
     Information in the **Basic** tab:
 
-    ![](images/create-project.png){width="650" align="left"}
+    ![](images/create-project.png){width="650"}
 
     -   Enter your project's **Title**, **Description**, and **Due Date**.
 

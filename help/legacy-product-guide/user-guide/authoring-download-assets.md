@@ -3,7 +3,7 @@ title: Download files
 description: Learn how to download files from the DITA map console in AEM Guides and export a DITA map file in AEM repository.
 feature: Content Management
 role: User
-hide: yes
+hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
 ---
 # Download files {#id216MC0H0BE8}
@@ -26,7 +26,7 @@ Perform the following steps to download a DITA map file along with its dependent
 
     The Download Map dialog appears.
 
-    ![](images/download-map.png){width="300" align="left"}
+    ![](images/download-map.png){width="300"}
 
 1.  Click **Download**. In the Download Map dialog, you can choose the following options:
 
@@ -38,7 +38,7 @@ Perform the following steps to download a DITA map file along with its dependent
 
 1.  After you click the **Download** button, the map download request is queued. You will receive the following notification once the map is ready to download.
 
-    ![](images/download-map-prompt.png){width="550" align="left"}
+    ![](images/download-map-prompt.png){width="550"}
 
     -   Click **Download** to download the map file in.zip format.
 
@@ -48,7 +48,7 @@ Perform the following steps to download a DITA map file along with its dependent
     >
     > By default, the downloaded maps remain for five days in the AEM notification Inbox.
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 Once the map is downloaded, you can select the map and use the Open icon on the top to open the selected report.
 

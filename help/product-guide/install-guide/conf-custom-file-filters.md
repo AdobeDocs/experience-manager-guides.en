@@ -5,7 +5,6 @@ exl-id: 1ef09820-3b18-4762-b177-4d40926e21f0
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Configure filters for file browse dialog {#id20CIL7009GN}
 
@@ -62,4 +61,4 @@ Perform the following steps to add your custom file filtering options to the fil
 
     When you launch the file browse dialog, the filter options configured in the ui\_config.json file are shown.
 
-    ![](assets/file-browse-custom-filters.png){width="300" align="left"}
+    ![](assets/file-browse-custom-filters.png){width="300"}

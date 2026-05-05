@@ -5,7 +5,6 @@ exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
 feature: Search Configuration
 role: Admin
 level: Experienced
-hidefromtoc: yes
 ---
 # Configure search for AEM Assets UI {#id192SC800MY4}
 

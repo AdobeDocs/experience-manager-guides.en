@@ -35,7 +35,7 @@ In AEM Guides, you can add citations or import citations and apply them to your 
 
 After inserting your citations to your topics, you can preview them in the Web Editor. You can also publish content with citations using Native PDF.
 
-![Citations listed in a panel](assets/citation-panel.png){width="300" align="left"}
+![Citations listed in a panel](assets/citation-panel.png){width="300"}
 
 *View the list of citations in the Citations panel.*
 
@@ -50,7 +50,7 @@ Now AEM Guides offers a way to publish a topic or the elements within a topic to
 
 Capitalize the power of AEM Guides and content fragments and use content fragments in any AEM site. You can also extract the details via APIs supported by content fragments.
 
-![option to publish content fragment](assets/content-fragment-publish.png){width="550" align="left"}
+![option to publish content fragment](assets/content-fragment-publish.png){width="550"}
 
 *Publish a topic to a content fragment.*
 
@@ -65,7 +65,7 @@ AEM Guides now provides an improved review capability with the following functio
 Conducting reviews is a critical feature of AEM Guides. It helps the reviewers to review the documents assigned to them . 
 Now you can search for a topic by entering some part of the text of the title or filepath in the search bar of the topics view of the review panel. You can also choose to view all topics or view topics with comments. By default, you can view all topics present in the review task. For more details, view [Review topics](../user-guide/review-topics.md).
 
-![Search in a review topics panel](assets/review-search-topic.png){width="800" align="left"}
+![Search in a review topics panel](assets/review-search-topic.png){width="800"}
 
 *Search a review topic in the review panel.*
 
@@ -142,7 +142,7 @@ Now the CSS editor is redesigned for a better user experience with selectors and
 
 You can now use custom selectors to add complex styles. The new Selector field helps you to add custom selectors besides the Class, Tag, and Pseudo Class combination. For example, you can create `table a.link` style for all the hyperlinks inside a table.
 
-![adding styles in the native pdf templates](assets/add-styles-native-pdf.png){width="300" align="left"}
+![adding styles in the native pdf templates](assets/add-styles-native-pdf.png){width="300"}
 
 *Add the details for the new style.*
 
@@ -166,7 +166,7 @@ For more details on the handling hierarchical definitions of subject definitions
 ## Select all presets in a Map Collection
 
 You can not only enable an individual preset and all folder profile presets, but also enable all the presets for a DITA map in one go.
-![edit a map collection](assets/edit-map-collection-cs.png){width="800" align="left"}   
+![edit a map collection](assets/edit-map-collection-cs.png){width="800"}   
 *Select all presets in a map collection.*
 
 For more details, view [Use Map Collection for output generation](../user-guide/generate-output-use-map-collection-output-generation.md).
@@ -181,7 +181,7 @@ For more details, view [Bulk activation of published content](../user-guide/conf
 ## Improved Bulk Move Tool
 
 Now as an administrator, you can use the improved Bulk Move Tool to move folders with many files from one location to another. 
-You can use the browse file dialog to select the source folders you want to move. You can also browse to select the destination location to move the source folders. Select ![info icon](assets/info-icon.svg) {width="25" align="left"} near a field to view more information about it.
+You can use the browse file dialog to select the source folders you want to move. You can also browse to select the destination location to move the source folders. Select ![info icon](assets/info-icon.svg) {width="25"} near a field to view more information about it.
 
 For more details, view [Move files in bulk](../user-guide/authoring-file-management.md#move-files-bulk).
 
@@ -190,7 +190,7 @@ For more details, view [Move files in bulk](../user-guide/authoring-file-managem
 
 Use the context menu to quickly preview the file (.dita, .xml, audio, video, or image) without opening it. You can now resize the preview pane, and if the content contains any reference link, you can select it to open it in a new tab. 
 
-![Preview pane ](assets/quick-preview_cs.png){width="800" align="left"}
+![Preview pane ](assets/quick-preview_cs.png){width="800"}
 
 *Preview the file in the pane.*
 
