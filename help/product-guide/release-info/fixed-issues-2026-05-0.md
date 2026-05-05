@@ -38,7 +38,8 @@ Learn about [upgrade instructions for the 2026.05.0 release](upgrade-instruction
 
 ## Baseline
 
-- Topic references within a map are incorrectly shown as indirect when using a custom DITA-OT, even though they are directly referenced. This issue has been resolved with the new baseline experience. 
+- Topic references within a map are incorrectly shown as indirect when using a custom DITA-OT, even though they are directly referenced. This issue has been resolved with the new baseline experience. (GUIDES-19286)
+- References with `scope="peer"` are incorrectly included in the baseline context, causing publishing to take longer than expected. This issue has been resolved with the new baseline experience. (GUIDES-30048)
 
 ## Platform
 
