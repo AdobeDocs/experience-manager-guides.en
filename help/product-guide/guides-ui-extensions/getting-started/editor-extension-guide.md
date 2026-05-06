@@ -184,7 +184,7 @@ guides.ready(() => {
   guides.editor.updateAttributeByXpath(args: UpdateXpathArgs): any
   ```
 
-## Command Execution
+## Command execution
 
 - `guides.editor.runCommand(commandName, ...args)`: Executes a named command on the New Editor. Returns `true` if the command succeeded, `false` otherwise.
 
@@ -194,7 +194,7 @@ guides.ready(() => {
   guides.editor.runCommand(commandName: string, ...args: any[]): boolean
   ```
 
-  **Available Commands**
+  **Available commands**
 
   >[!NOTE]
   >
@@ -309,7 +309,7 @@ guides.ready(() => {
   }
   ```
 
-## Utility Functions
+## Utility functions
 
 - `guides.editor.runUtil(utilName, ...args)`: Invokes a named utility from the New Editor's utility registry. Returns the utility's result, or `undefined` if the utility is not found.
 
@@ -319,7 +319,7 @@ guides.ready(() => {
   guides.editor.runUtil(utilName: string, ...args: any[]): any
   ```
 
-  **Available Utilities**
+  **Available utilities**
 
   >[!NOTE]
   >
@@ -602,7 +602,7 @@ Decorations are identified by a string `id` so they can be updated or removed in
 | Injecting CSS into the shadow DOM | `registerPlugin` with `css` field |
 
 
-## ProseMirror Plugin Registration
+## ProseMirror plugin registration
 
 - `guides.editor.registerPlugin(factory)`: Registers a ProseMirror plugin factory to be included in every New Editor instance. Only factory functions are accepted, direct plugin instances are rejected. The factory is called once per editor instance, ensuring isolated plugin state.
 
@@ -646,7 +646,7 @@ Decorations are identified by a string `id` so they can be updated or removed in
   >
   > CSS passed via `css` is injected into the editor's shadow DOM. Regular page-level stylesheets do not apply inside the editor.
 
-## ProseMirror Libraries
+## ProseMirror libraries
 
 - `guides.editor.prosemirror`: Exposes ProseMirror packages directly for use in plugin development. This avoids the need to bundle ProseMirror separately in extension code.
 
@@ -841,7 +841,7 @@ guides.ready(() => {
 > This CSS only applies inside the New Editor shadow DOM. It has no effect on the rest of the page or on the legacy editor.
 
 
-## Context Menu Extensions (`contextMenuWidget`)
+## Context menu extensions (`contextMenuWidget`)
 
 Extensions can add items to the editor's right-click / breadcrumb context menu by declaring a `contextMenuWidget` field in their extension config. This tells the framework which editor's menu to target.
 
@@ -931,7 +931,7 @@ const myMarkupContextMenu = {
 };
 ```
 
-## Utility Libraries
+## Utility libraries
 
 - `guides.util.lodash`:The lodash utility library, same instance bundled with the editor.
 
@@ -945,7 +945,7 @@ const myMarkupContextMenu = {
   guides.util.async.parallel([task1, task2], callback);
   ```
 
-## Complete API Reference
+## Complete API reference
 
 | API | Description |
 |---|---|
