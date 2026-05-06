@@ -6,11 +6,11 @@ role: User, Admin
 ---
 # AEM Guides Publishing Benchmarks on AEMaaCS
 
-This benchmark evaluates the performance of the new Publishing APIs across different output presets and increasing map sizes in AEM Guides as a Cloud Service. The goal is to understand scalability behavior and identify performance bottlenecks.
+This benchmark evaluates the performance of the new publishing APIs across different output presets and increasing map sizes in AEM Guides as a Cloud Service. The goal is to understand scalability behavior and identify performance bottlenecks.
 
 The publishing service uses a [microservice-based architecture](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) with autoscaling, enabling handling of larger workloads through additional pods.
 
-## Execution Environment
+## Execution environment
 
 - **AEM release**:2026.4.25322.20260407T085152Z
 - **Guides Add-on release**: 2026.5.0
