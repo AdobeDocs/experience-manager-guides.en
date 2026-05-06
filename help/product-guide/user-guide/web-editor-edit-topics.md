@@ -7,17 +7,36 @@ role: User
 ---
 # Edit topics in the Editor {#id2056B040VUI}
 
+>[!INFO]
+>
+>This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
 The Editor comes with a range of editing features that let you easily create or modify your topic files. Broadly, you would perform the following steps to edit a topic in the Editor.
 
 >[!IMPORTANT]
 >
 > If you encounter an application error while working on the Editor, refresh the page to continue working.
 
+>[!BEGINTABS]
+
+>[!TAB New Editor] 
+
+1. To edit or insert an element in a topic, click within the text boundary of the required element to make changes, or place the cursor at the end of the element after which you want to add a new element and select the required element from the toolbar (or press Alt+1 to open the Insert Element popup), which intelligently lists and inserts only valid elements for that location in the topic.
+
+1. Additionally you can use the Quick insert menu to readily insert allowed elements at the cursor position. Select **Control + /** for Windows or **Command + /** for Mac to access the elements. 
+
+    ![Quick insert menu](./images/quick-insert-menu-in-editor.png){width="650"}
+
+    Search for a new element or choose one from your favorites using the Quick Insert menu, then insert it at the current cursor position. Favorites include your most frequently used elements, and only those that are valid for the current cursor location are shown. You can enable or disable this feature and configure favorite elements for insertion through the Quick insert menu available in the the [Editor settings](./config-editor-settings.md).    
+    
+    
+>[!TAB Old Editor]
+
 1.  To make changes in your topic, click within the text boundary of the required element and start making edits.
 
-1.  To insert a specific element, move your cursor at the end of the element after which you want to insert the new element and select the required element icon in the toolbar. You can also use the keyboard shortcut `Alt+1` to invoke the **Insert Element** popup.
+1.  To insert a specific element, move your cursor at the end of the element after which you want to insert the new element and select the required element icon in the toolbar. You can also use the keyboard shortcut `Alt+1` to invoke the **Insert Element** popup. 
 
-    A list of element appears that can be used in the topic. Experience Manager Guides does an intelligent placing of elements as per their valid location in the topic.
+     A list of element appears that can be used in the topic. Experience Manager Guides does an intelligent placing of elements as per their valid location in the topic.
 
     >[!NOTE]
     >
@@ -29,19 +48,35 @@ The Editor comes with a range of editing features that let you easily create or 
     >
     > If you do not wish to commit changes into Adobe Experience Manager repository, select **Close**, and then select **Close without saving** in the Unsaved Changes dialog.
 
+>[!ENDTABS]
 
 ## Partial selection of content across elements
 
 Experience Manager Guides also allows you to select content across elements. After selecting the content, you can perform the following operations:
 
-- Formatting and deletion: Make the selected content bold, italics, underline, or even delete the selected content. The content from the valid open tags is then merged and appears under a single element. For example, you can select the content within a paragraph and extend the selection to another paragraph. Then, if you make the selected content bold, all the bold content from the open tags is merged and appears under a single paragraph element.
+- Formatting : Formatting selected content is significantly easier in New Editor compared to Editor 1.0, as illustrated below.
 
-Similarly, if you delete the selected content, the remaining content after the deletion in the open tags is merged. 
+>[!BEGINTABS]
+
+>[!TAB New Editor]
+
+You can format the selected content as bold, italics, or underline using the contextual toolbar. Select the content, then click the appropriate formatting icon in the menu that appears. Make the selected content bold, italics, or underline. The content from the valid open tags is then merged and appears under a single element.
+
+![Formatting options](./images/formatting-options.png){width="650"}
+
+>[!TAB Old Editor]
+
+Make the selected content bold, italics, underline the selected content. The content from the valid open tags is then merged and appears under a single element. For example, you can select the content within a paragraph and extend the selection to another paragraph. Then, if you make the selected content bold, all the bold content from the open tags is merged and appears under a single paragraph element.
+
+>[!ENDTABS]
+
+- Deletion:  If you delete the selected content, the remaining content after the deletion in the open tags is merged. 
 
 - Surround the content with a valid element: Perform the following steps to wrap the content with a valid element:
 
     - Select the content within an element.
     - Select the ![add](images/Add_icon.svg) icon from the toolbar on the top to view the **Insert element** dialog box. The dialog box lists the valid elements for the selected content.
+
         >[!NOTE]
         >
         > You can also view the Insert element dialog box by selecting the context menu of the selected content.
@@ -64,15 +99,40 @@ The right panel is also reopened and displays the same view as before the refres
 
 Experience Manager Guides provides the working copy indicator which shows whether the current \(working copy\) of file is in sync with the saved version or not. If you have made any changes to your current copy and have not saved your file, a \* mark appears along with the title on the topic's file tab. This indicator acts as a reminder to save your changes and disappears when you save your file.
 
+>[!BEGINTABS]
+
+>[!TAB New Editor]
+
+This view displays how the content is rendered in the New Editor.
+
+![working copy indicator](images/working-copy-text-update-indicator-new-editor-2-0.png){width="550"}
+
+>[!TAB Old Editor]
+
+This view displays how the content is rendered in the Old Editor.
+
 ![working copy indicator](images/working-copy-text-update-indicator.png){width="550"}
+
+>[!ENDTABS]
 
 Experience Manager Guides also indicates if the last saved \(working\) copy of the file is in sync with the saved version or not. If you have some unsaved changes between the working copy and the last saved version, a \* mark appears along with the version information shown in the right top corner of the topic's file tab. This indicator acts as a reminder to save and create a version from your current \(working\) copy of the file.
 
 >[!NOTE]
 >
-> Any changes to the metadata fields available under [File properties](./web-editor-right-panel.md#file-properties) will also trigger the working copy indicator on the document version. 
+> Any changes to the metadata fields available under [File properties](./web-editor-right-panel.md#file-properties) or applied at the backend will also trigger the asterisk `(*)` on the document version.  To prevent system-generated metadata updates from affecting this indicator, administrators can configure an ignore list for metadata properties. For details on how to configure metadata properties, view [Configure the ignore list of metadata properties](../install-conf-guide/conf-metadata-prop.md).
 
-![Version update indicator](images/version-update-indicator.png){width="550"}
+>[!BEGINTABS]
+
+>[!TAB New Editor]
+
+![Version update indicator](images/version-update-indicator-editor-2-0.png){width="650"}
+
+>[!TAB Old Editor]
+
+![Version update indicator](images/version-update-indicator.png){width="650"}
+
+
+>[!ENDTABS]
 
 ## Access locked files in Author and Source modes
 

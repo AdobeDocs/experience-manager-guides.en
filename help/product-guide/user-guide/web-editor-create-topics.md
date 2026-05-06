@@ -7,6 +7,10 @@ role: User
 ---
 # Create topics {#id2056AL00O5Z}
 
+>[!INFO]
+>
+>This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
 Adobe Experience Manager Guides allows you to create DITA topics of type — topic, task, concept, reference, glossary, DITAVAL, Markdown and more. Apart from creating topics based on the out-of-the-box templates, you can also define your custom templates. These templates must be added to the folder profile to show up in the template selection Blueprint and the Editor.
 
 >[!NOTE]
@@ -39,11 +43,25 @@ Perform the following steps to create a topic from the Editor:
     
 4. Select **Create**.
 
-    ![](images/create-topic-dialog-new.png){width="300"}
+    ![](images/create-topic-dialog-new.png){width="350"}
     
 The topic is created at the specified path. Also, the topic is opened in the Editor for editing. 
-    
+
+>[!BEGINTABS]
+
+>[!TAB New Editor]
+
+This view displays how the content is rendered in the New Editor.
+
+![](images/new-topic-editor-new-editor-2-0.png)
+
+>[!TAB Old Editor]
+
+This view displays how the content is rendered in the Old Editor.
+   
 ![](images/new-topic-editor.png)
+
+>[!ENDTABS]
 
 ## Create topics from the Assets UI 
 
@@ -77,9 +95,13 @@ Perform the following steps to create a topic from the Assets UI:
 
 **Additional information**
 
-1. Every new topic that you create from the Assets UI **Create** \> **DITA Topic** or the Editor is assigned a unique topic ID. The value of this ID is the file name itself. Also, a new document is saved as the latest working copy of the topic in DAM. Until you save a revision of a newly created topic, you will not view any version number in the Version History. If you open the topic for editing, the version information is shown in the right top corner of the toolbar:
+>[!INFO]
+>
+> The UI may vary depending on the Editor you are using.
 
-    ![](images/topic-version-none_cs.png){width="550"}
+1. Every new topic that you create from the Assets UI **Create** \> **DITA Topic** or the Editor is assigned a unique topic ID. The value of this ID is the file name itself. Also, a new document is saved as the latest working copy of the topic in DAM. Until you save a revision of a newly created topic, you will not view any version number in the Version History. If you open the topic for editing, the version information is shown in the right top corner of the toolbar:
+_
+    ![](images/version-none.png){width="550"}
 
 2. The version information for a newly created topic is shown as *none*. When you save a new version, then it is assigned a version number as 1.0. 
 

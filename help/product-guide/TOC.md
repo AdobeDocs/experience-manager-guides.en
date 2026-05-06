@@ -14,6 +14,10 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - {hide-from-toc} [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2026 Releases {#2026-releases}
+        - 2026.05.0 Release {#2605-release}
+          - [What's new](./release-info/whats-new-2026-05-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2026-05-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2026-05-0.md)
         - 2026.04.0 Release {#2604-release}
           - [What's new](./release-info/whats-new-2026-04-0.md)
           - [Fixed issues](./release-info/fixed-issues-2026-04-0.md)
@@ -223,6 +227,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)   
         - [Document state](./user-guide/web-editor-document-states.md)
         - [Use labels](./user-guide/web-editor-use-label.md)
+        - [Editor settings](./user-guide/config-editor-settings.md)
     - Map Editor {#map-editor}
         - [Introduction to the Map Editor](./user-guide/map-editor.md)
         - [Create a map](./user-guide/map-editor-create-map.md)
@@ -386,7 +391,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Key concepts, roles and permissions, and pre-requisites](./user-guide/authoring.md)
         - [Upload files](./user-guide/authoring-upload-existing-files.md)
         - [Manage files and folders](./user-guide/authoring-file-management.md)
-        - [Process assets](./user-guide/asset-processor.md)
+        - [Process assets](./user-guide/asset-processor.md)        
     - Troubleshooting {#troubleshooting}
         - [Session timeout](./user-guide/session-timeout-prompt.md)
 - User Guide (Old UI) {#user-guide-old-ui}
@@ -658,6 +663,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Configure display of pasted tables for Cloud Service](./install-conf-guide/conf-pasted-tables.md) 
           - [Configure single topic PDF generation for Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
           - [Configure Translation feature in the Web Editor for Cloud Service](./install-conf-guide/conf-translation-editor.md)
+          - [Configure the ignore list of metadata properties for Cloud Service](./install-conf-guide/conf-metadata-prop.md)
       - Editor setting for On-Premise {#editor-on-prem-settings}
           - [Configure additional special characters for On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
           - [Configure the title for Check in and Check out icons for On-Premise](./install-conf-guide/conf-checkin-checkout-title.md)
@@ -772,6 +778,7 @@ breadcrumb-title: AEM Guides Documentation
         - Widgets {#framework-widgets}
           - [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
           - [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
+        - [Extension framework changes for Editor 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)  
       - Getting Started {#getting-started}
         - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
         - [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)

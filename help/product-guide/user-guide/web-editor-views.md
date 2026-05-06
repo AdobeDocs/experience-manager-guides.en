@@ -7,11 +7,16 @@ role: User
 ---
 # Editor views for topics {#id204GK0D0V5Z}
 
-The Editor interface in Adobe Experience Manager supports viewing topics in three different modes or views:
+>[!INFO]
+>
+>This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
+The Editor interface in Adobe Experience Manager supports viewing topics in four different modes or views:
 
 * [Author](#author)
 * [Source](#source)
 * [Preview](#preview)
+* [Side-by-side](#side-by-side)
 
 ## Author
 
@@ -82,6 +87,17 @@ For more details, view the **Find and Replace** feature description in the [Tab 
     |Recursively find the current word \(in backward direction\)|**Shift**+**Ctrl**+**F3**|
 
 
+## Side-by-side
+
+>[!NOTE]
+>
+>This feature is available only in New Editor.
+
+Side-by-side view allows you to view and work in the Author and Source views simultaneously on the same screen. The WYSIWYG Author view and the underlying XML Source view are displayed adjacent to each other, enabling parallel content and structural editing without switching views. Both views remain synchronized in real time, ensuring that the cursor position and selection in the Author view are reflected at the corresponding location in the Source view, providing better accuracy and control while authoring structured content.
+
+![](images/side-by-side-editor-2-0.png){width="650"}
+
+
 ## Preview
 
 Opening a topic in the Preview mode shows how a topic will be displayed when it is viewed by a user in their browser. In case of a DITA map, a preview of the map is shown wherein a single composite document of all topics within the map is shown.
@@ -96,9 +112,19 @@ The Preview mode gives you the following functionalities:
 
 If you have used conditions in your topic or map, those conditions are shown in the Filters panel. By default, all conditions are selected and the entire content is displayed. If you deselect a condition, then the content having that condition is removed from the view. You can also choose to highlight conditionalized content.
 
-The following image shows a topic that uses two conditions — `Audience` and `Product`. The conditionalized content is highlighted with yellow background.
+The following image shows a topic that uses two conditions : `Audience` and `Platfor`. The conditionalized content is highlighted with yellow background.
 
-![](images/preview-filters.png)
+>[!BEGINTABS]
+
+>[!TAB New Editor]
+
+![](images/preview-filters-editor-2-0.png){width="650"}
+
+>[!TAB Old Editor]
+
+![](images/preview-filters.png){width="650"}
+
+>[!ENDTABS]
 
 ### View the track changes markups {#id2114BJ00CE8}
 

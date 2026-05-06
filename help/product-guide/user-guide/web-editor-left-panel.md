@@ -7,6 +7,10 @@ exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 ---
 # Left panel in the Editor 
 
+>[!INFO]
+>
+>This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
 The left panel gives you quick access to Collections, Repository view, Map view, and more features. You can expand the panel by selecting the **Expand** icon placed at the bottom-left corner of the interface. Once expanded, use the **Collapse** icon to collapse the panel. In the expanded view, it displays the names of the icons which appear as tooltips in the collapsed view.
 
 >[!NOTE]
@@ -49,13 +53,13 @@ The detailed explanation of the left panel features is as follows:
 
 ## Collections 
 
-If you work on a set of files or folders, you can add them to your favorite list to access them quickly. **Collections** show the list of documents that you have added and other publicly accessible list of documents from the other users.
+If you work on a set of files or folders, you can add them to your favorite list to access them quickly. **Collections** show the list of documents that you have added and other publicly accessible list of documents from the other users. 
 
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.
 
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of files by filenames in the Editor. Select the **File name** option of the **Editor files display configuration** section in **User preferences**. 
+> As an administrator, you can also choose to view the list of files by filenames in the Editor. Select the **File name** option under  **Editor files display configuration** section in **User preferences**. 
 
 <details>
     <summary> Create a new collection </summary>
@@ -121,7 +125,7 @@ When you select the Repository icon, you get a list of files and folders availab
 
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of files by filenames in the Editor. Select the **File name** option of the **Editor files display configuration** section in **User preferences**.
+> As an administrator, you can also choose to view the list of files by filenames in the Editor. Select the **File name** option under the **Editor files display configuration** section in **User preferences**.
 
 75 files are loaded at a time. Each time you select **Load more**… 75 files are loaded, and the button stops being displayed when all the files have been listed. This batch loading is efficient, and you can access the files faster in comparison to loading all the files existing in a folder.
 
@@ -132,6 +136,8 @@ the view of the video. In the shortcut menu you also have the options to downloa
 speed, or view picture in picture.
 
 Select a map and press Enter or double-click to open it in the **Map view**. For more details, view the **Map view** feature description in the left panel. Select a topic and press Enter or double-click to open it in the [Content editing area](./web-editor-content-editing-area.md). Being able to navigate and open a file directly from the Editor saves time and increases productivity. 
+
+
 
 ## Filter Search in Repository
 
@@ -282,7 +288,7 @@ Steps to create a new folder:
 
     If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then you will view the UUID of the uploaded image in the **Source** property.
 
-    ![](images/uuid-in-source-upload-image_cs.png){  }
+    ![](images/image-properties.png)
 
     After a successful upload, the following confirmation dialog is displayed:
 
@@ -469,7 +475,7 @@ Explorer provides most of the capabilities previously available in Repository, i
 - Navigation through files and folders
 - Options menu for files and folders
 
-But, it introduces an enhanced Search and filtering experience, designed to improve usability and efficiency.
+But, it introduces an enhanced Search and filtering experience, designed to improve usability and efficiency. 
 
 For detailed information on the context menu for files and folders, view [Options menu](#options-menu).
 
@@ -764,7 +770,17 @@ The Conditions panel displays the conditional attributes defined by your adminis
 
 You can also apply multiple conditions on an element by dragging-and-dropping multiple conditions on an element. When you apply multiple conditions on an element, the Properties panel displays the applied conditions separated with a comma.
 
-![](images/multiple-conditions-applied_cs.png){  }
+>[!BEGINTABS]
+
+>[!TAB New Editor]
+
+![](images/multiple-conditions-applied_cs-editor-2-0.png){width="650"}
+
+>[!TAB Old Editor]
+
+![](images/multiple-conditions-applied_cs.png){width="650"}
+
+>[!ENDTABS]
 
 However, in the Code view the conditions are separated using a space delimiter. When you add or edit a condition in Code view, ensure that multiple conditions are separated using a space.
 
@@ -772,7 +788,18 @@ However, in the Code view the conditions are separated using a space delimiter. 
 >
 > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete conditions. Else, as a normal author, you will only get the option to apply conditions.
 
-![](images/conditional-content-through-panel_cs.png){  }
+>[!BEGINTABS]
+
+>[!TAB New Editor]
+
+![](images/conditional-content-through-panel_cs-editor-2-0.png){width="650"}
+
+>[!TAB Old Editor]
+
+![](images/conditional-content-through-panel_cs.png){width="650"}
+
+>[!ENDTABS]
+
 
 To add or define a condition, select the + icon next to Conditions panel to bring up the Define Condition dialog box:
 
@@ -846,7 +873,7 @@ The following example shows how to use subject scheme in Experience Manager Guid
 
     ![](images/subject-scheme-panel-new.png){width="300"}
 
-1. Save the file with a.ditamap extension and upload it to any folder in DAM.
+1. Save the file with a .ditamap extension and upload it to any folder in DAM.
 
     >[!NOTE]
     >
@@ -985,6 +1012,19 @@ Perform the following steps to change the value:
 
 You can also apply values for an attribute by selecting multiple values from the dropdown.
 
+>[!BEGINTABS]
+
+>[!TAB New Editor]
+
+![](images/subject-scheme-new.png){width="650"}
+
+>[!TAB Old Editor]
+
+![](images/subject-scheme-right-panel.png){width="550"}
+
+>[!ENDTABS]
+
+
 **Source view**
 
 You can also change the values from the attribute's drop-down in the Source view. The Source view also prevents you from adding any incorrect value.
@@ -1009,7 +1049,8 @@ Snippets are small content fragments that can be reused across various topics in
 >
 > The following screenshot is of a user with administrative privileges. As a user with administrative privileges, you can add, edit, and delete snippets. Else, as a normal author, you will only get the options to preview and insert a snippet.
 
-![](images/snippets-panel_cs.png)
+
+![](images/snippets-panel_cs-editor-2-0.png){width="650"}
 
 **Create a snippet**
 
@@ -1047,7 +1088,7 @@ To insert a snippet, use any of the following methods:
 
 ## Templates 
 
-The Templates panel is available to only administrators. Using this panel, administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *map* and *topic* type templates.
+The Templates panel is available to only administrators. Using this panel, administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *map* and *topic* type templates. 
 
 ![](images/templates-panel_cs.png){width="300"}
 
@@ -1059,7 +1100,12 @@ By default, you can view the files by titles. As you hover over a template, you 
 
 To learn how to create custom templates, view [Create maps based on customized templates](./create-maps-customized-templates.md). 
 
+
 ## Citations 
+
+>[!NOTE]
+>
+> Citations are supported only in the Old Editor and are currently not available in New Editor. The information in this article applies only if you are using the Old Editor.
 
 In Experience Manager Guides, you can add and import citations and apply them to your content. You can add these citations from any source of books, websites, and journals.
 
@@ -1096,7 +1142,7 @@ The Find and Replace feature can be used in two distinct modes, depending on you
     > - **For Cloud services**: A custom index deployment must be performed. For details, view [Deploying custom index](/help/product-guide/cs-install-guide/custom-indexing.md). Once completed, contact your Customer Success team to enable this feature.
     > - **For On-Premise**: Re-indexing of existing content is required before the feature can be used. For details, view [Reindexing content](/help/product-guide/install-guide/custom-indexing-prem.md). Once completed, contact your Customer Success team to enable this feature.
 
-    ![](images/map-find-replace-with-source-mode.png)
+    ![](images/find-replace-new.png)
 
 <br>    
 

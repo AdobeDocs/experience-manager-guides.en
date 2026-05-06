@@ -103,7 +103,7 @@ For details, view [Right panel in Editor](../user-guide/web-editor-right-panel.m
 
 ### Metadata properties no longer editable for Read-only files
 
-With this release, when the `Disable Edit Without Checkout` setting is enabled, file properties can no longer be edited if a file is in **Read-only** mode. 
+With this release, when the `Disable edit without locking the file` setting is enabled, File properties can no longer be edited if a file is in **Read-only** mode. 
  
 This restriction applies across all entry points where properties can be modified, including:
 

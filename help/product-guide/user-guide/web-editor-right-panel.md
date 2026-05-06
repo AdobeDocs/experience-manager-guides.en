@@ -23,9 +23,23 @@ The right panel gives you access to the following features:
 
 ## Content properties
 
-You can access the **Content properties** feature by selecting the **Content properties** icon in the right panel. The **Content properties** panel contains information about the type of currently selected element in the document and its attributes. 
+You can access the **Content properties** feature by selecting the **Content properties** icon in the right panel. The **Content properties** panel contains information about the type of currently selected element in the document and and its attributes. 
 
-**Type**: You can view and select the tags of the complete hierarchy for the current tag from the dropdown.
+For referenced content, the panel also shows the **Link path** and **Link UUID** options that help you identify and copy the selected reference.
+
+>[!NOTE]
+>
+> For HTML-based files, the Link path and Link UUID options are not available. These files continue to use the existing **Link URL**  behavior. 
+
+![](images/web-editor-cross-ref-options.png)
+
+**Type**: View and select the tags of the complete hierarchy for the current tag from the dropdown.
+
+**Link path**: Shows the relative path of the selected reference. Use **Copy Path** to copy the absolute path.
+
+**Link UUID**: Shows the UUID of the selected reference. Use **Copy UUID** to copy the UUID.
+
+If you paste a valid UUID directly into the Link path field, it automatically gets resolved to the absolute file path, and the corresponding UUID is displayed in the Link UUID field. This makes it easier to identify and copy both the asset path and its UUID-based reference.
 
 **Attributes**: The **Attributes** dropdown panel is available in Layout, Author, and Source views. You can easily add, edit, or delete the attributes.
 
@@ -60,6 +74,10 @@ If your administrator has created a profile for attributes, then you will get th
 
 View the properties of the selected file by selecting the File properties icon in the right panel. The File properties feature is available in all four modes or views: Layout, Author, Source, and Preview.
 
+>[!NOTE]
+>
+> The File properties panel provides options to view and modify various metadata properties associated with a file. However, when a file is in read-only mode, these metadata properties cannot be modified. This limitation applies only to DITA and Markdown files. For non-DITA assets (such as images and multimedia), metadata properties remain editable even in read-only mode.
+
 The File properties have the following two sections:
 
 **General**
@@ -77,7 +95,7 @@ The General section gives you access to the following features:
     > The **Word count** feature is introduced in the 2026.01.0 release of Experience Manager Guides as a Cloud Service. Any new DITA topics you create after upgrading to this release will automatically have the calculated word count in the Right panel. For existing topics, [reprocessing of the assets](./asset-processor.md) is required. 
 
 - **Tags**: These are the metadata tags of the topic. They are set from the tags field in the properties page. You can type or select them from the dropdown.  The tags appear under the dropdown. To delete a tag, select the cross icon next to the tag. 
--  **Edit more properties**: You can edit more properties ( for files that are not in **Read only** mode) from the File properties page. 
+-  **Edit more properties**: Allows you to view and edit additional properties of the currently open file. 
 
     >[!NOTE]
     >

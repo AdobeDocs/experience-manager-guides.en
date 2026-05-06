@@ -7,26 +7,35 @@ role: User
 ---
 # Map Editor features {#id1942D0S0IHS}
 
+>[!INFO]
+>
+> This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
 The toolbar in the Map Editor is similar to the topic Editor. The basic operations like toggling the left panel, saving map, creating a new version of map, undo/redo last operation, and delete the selected elements are common in both editors. For detail about how these operations work, view [Toolbar in the Editor](web-editor-toolbar.md#) section.
 
-The options that you view in the editor toolbar are based on the Map Editor view. There are four views that are available in the Map Editor:
+The options that you view in the editor toolbar are based on the Map Editor view. There are five views that are available in the Map Editor:
 
 - [Layout](#layout-view)
 - [Author](#author-view)
 - [Source](#source-view)
 - [Preview](#preview)
+- [Side-by-side view](#side-by-side-view-available-in-new-editor-only)
     
 The following sections cover the toolbar options available in the different views of the Map Editor:
 
-## Layout view
+## Layout view 
 
-When you open a map for editing it opens the Layout view of the Map Editor. The Layout view displays the map hierarchy in a tree view and allows you to organize the topics in a map.
+>[!NOTE]
+>
+> In New Editor, The **Layout** feature is currently not supported.
+
+When you open a map for editing, it opens the Layout view of the Map Editor. The Layout view displays the map hierarchy in a tree view and allows you to organize the topics in a map.
 
 >[!NOTE]
 >
 > The Layout view only displays the references present in a map. If any references are broken, then a small cross symbol is displayed on the left of the reference
 
-The following options are available on the toolbar in the Layout view:
+The following options are available in the toolbar in the Layout view:
 
 **Topic reference** - ![](images/topic-reference.svg)
 
@@ -132,15 +141,27 @@ If you have applied any conditions on a topic, a filter icon is displayed on the
 
 ## Author view
 
-The **Author** view allows you to edit your DITA map in the Editor. This shows the WYSIWYG view of the Map Editor and some of the icons displayed in Author view are same as the Layout view. 
+The **Author** view allows you to edit your DITA map in the Editor. This shows the WYSIWYG view of the Map Editor.
+
+>[!BEGINTABS]
+
+>[!TAB New Editor]
+
+![](images/map-editor-author-view-editor-2-0.png)
+
+>[!TAB Old Editor]
 
 ![](images/map-editor-author-view.png)
+
+>[!ENDTABS]
+
+The options available in the **Menu** dropdown are same as available in the [Editor toolbar](./web-editor-toolbar.md#menu-dropdown).
 
 In addition, you can view the following icons and perform the related tasks from the Author view:
 
 **Insert before/Insert after** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Displays the **Insert element before or **Insert element after dialog box. Select the element that you want to insert in the map. Depending on the operation, the new element is inserted before or after the current element in the map.
+Displays the **Insert element before** or **Insert element after** dialog box. Select the element that you want to insert in the map. Depending on the operation, the new element is inserted before or after the current element in the map.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -223,9 +244,17 @@ Allows you to keep the `@navtitle` attribute and the `title` element of a refere
 
 Shows or hides the XML tags. The tags serve as visual cues indicating an element's boundary. In this mode, if you want to insert a topic/map reference, then drag-and-drop the desired file before or after the tag. The horizontal bar is not shown in the Tags View mode.
 
+>[!NOTE]
+>
+> In New Editor, Options to add or remove **Tags** are available under Editor settings. For more details, view [Editor settings](./config-editor-settings.md).
+
 **Track changes** - ![](images/track-changes.svg)
 
 You can keep a track of all updates made in the map file by enabling the Track Changes mode. After enabling the track changes, all insertions and deletions are captured in the document. For more details, view [Track changes](web-editor-features.md#track-changes) in the Editor.
+
+>[!NOTE]
+>
+> In New Editor, The **Track changes** feature is currently not supported.
 
 **Create review task** - ![](images/create-review-task.svg)
 
@@ -270,6 +299,10 @@ You can perform the following additional tasks in the preview mode:
 
 **Refresh topics or map**
 
+>[!NOTE]
+>
+> This section applies to the Old Editor only. In the New Editor, maps and their topics are refreshed automatically.
+
 When a map is opened in Preview mode and you switch back to it from another tab in the Editor, the preview does not refresh automatically. To reload the map preview, a manual refresh is required. 
 
 You can use the Refresh functionality, available in the Preview mode of the map, in two ways:
@@ -294,13 +327,18 @@ You can access a map's preview from:
 
     ![](images/map-preview-icon.png){width="650"}
 
-    The preview of the map is displayed in a pop-up box. 
-
-    ![](images/map-editor-preview-pop-up.png){width="500"}
-
+    
 **Map properties**
 
 Displays the Map Properties dialog wherein you can set the attributes and metadata information for the map.
+
+## Side-by-side view (Available in New Editor only) 
+
+The Side-by-Side view in the New Editor allows you to view the Author and Source views next to each other. This makes it easier to understand how your map is built and ensures that any changes you make are aligned with the intended structure.
+
+For example, if a topic is not appearing correctly in your output, you can use the Author view to check its placement in the map while simultaneously reviewing the Source view to review the topic reference or attributes.
+
+![](images/map-editor-side-by-side-view.png)
 
 
 ## Edit topics through DITA map {#id17ACJ0F0FHS}
@@ -311,59 +349,84 @@ Experience Manager Guides allows authors to open a DITA map in the Editor and vi
 
 To edit topics through a DITA map, perform the following steps:
 
-1. In the Repository panel, navigate to and open the DITA map file that you to want to edit. 
+1. Navigate to Explorer and open the map file that you to want to edit. 
 
     The map file opens in the Map view. 
 
->[!NOTE]
->
-> You can also use the Assets UI to open a DITA map file. Navigate to the DITA map file that contains the topics you want to edit and select **Edit Topics** in the main toolbar to launch the Editor.
+    >[!NOTE]
+    >
+    > You can also use the Assets UI to open a map file. Navigate to the DITA map file that contains the topics you want to edit and select **Edit Topics** in the main toolbar to launch the Editor.
 
-1. Select any topic link to open it in the Editor for editing.
+1. Select any topic to open it in the Editor for editing.
 
     You can open multiple topics in the editor and each topic is opened in a new tab in the editor. Even if your DITA map contains sub-maps, topics from the sub-maps are also opened in a new tab for editing. If you want to view the topics under a sub-map, you can select and expand the sub-map.
 
-    ![](images/web-editor-multiple-topics.png)
-
     If you select a map file, the map is opened in a new tab of the Editor.
 
-1.  Once you have finished editing the topics, you can do the following:
+>[!BEGINTABS]
 
-    -   You can save them individually. If you close without saving your topics, you will view a dialog box prompting you to save the unsaved topics:
+>[!TAB New Editor]
 
-        ![](images/save-multiple-topics-new.png){width="300"}
+![](images/web-editor-multiple-topics-editor-2-0.png)
 
-        You can choose to save all selected topics or deselect the topics that you do not want to save.
+>[!TAB Old Editor]
 
-    -   You can unlock the topic using the **Save as new version** option. When you save a version of the topic, a new version is created and the lock is also released.
+![](images/web-editor-multiple-topics.png)
 
-        It's recommended to save your changes before unlocking the files.  When you save the changes, the XML file is validated.
+>[!ENDTABS]
+ 
+Once you have finished editing the topics, you can do the following:
 
-    - You can also view the progress of the topics from the **Save as new version** dialog box. A success message is shown when the files are unlocked. 
+- You can save them individually. If you close without saving your topics, you will view a dialog box prompting you to save the unsaved topics:
 
-    -   If your administrator has enabled the option of unlocking files on close, then you will be shown a prompt to save files whenever the locked files are closed. With this option enabled, when you close the editor with changed files, you are shown the list of locked files that need to be saved. The locked files are shown with a lock icon:
+    ![](images/save-multiple-topics-new.png){width="300"}
 
-        ![](images/save-on-close-new.png){width="350"}
+    You can choose to save all selected topics or deselect the topics that you do not want to save.
+
+- You can unlock the topic using the **Save as new version** option. When you save a version of the topic, a new version is created and the lock is also released.
+
+    It's recommended to save your changes before unlocking the files.  When you save the changes, the XML file is validated.
+
+- You can also view the progress of the topics from the **Save as new version** dialog box. A success message is shown when the files are unlocked. 
+
+- If your administrator has enabled the option of unlocking files on close, then you will be shown a prompt to save files whenever the locked files are closed. With this option enabled, when you close the editor with changed files, you are shown the list of locked files that need to be saved. The locked files are shown with a lock icon:
+
+    ![](images/save-on-close-new.png){width="350"}
 
 ## Right panel in the Map Editor 
 
-The right panel displays the Content Properties and the Map Properties in the Layout view of the Map Editor.
+The right panel displays the Content properties and the Map properties in the Layout view of the Map Editor.
 
 **Content properties**
 
-The Content properties panel contains information about the type of currently selected topic in the map, its link URL, and its attributes. For more details, view [Content Properties](web-editor-features.md#right-panel) in the Editor.
+The Content properties panel contains information about the currently selected topic in the map, including its type, Link path, Link UUID, and attributes. 
 
--   **Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under **Display attributes**. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the `audience` attribute are defined as `US`.
+For more details, view [Content properties](web-editor-features.md#right-panel) in the Editor.
 
-    ![layout view](images/layout-inline-attributes.png){width="650"}
+**Other Attributes** If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. Using the content properties panel, you can choose those attributes and assign them to relevant content in your topic. You can also assign attributes configured by your administrator under **Display attributes**. The attributes defined for an element are displayed in the Layout and the Outline view. This helps you to have a quick look at all the topics in a map for which a particular attribute is defined. For example, all topics which have the `audience` attribute are defined as `US`.
+
+![layout view](images/layout-inline-attributes.png){width="650"}
+
+Refer to the tabs below to compare how attributes are displayed in the Author view in the New Editor and the Old Editor.
+
+>[!BEGINTABS] 
+
+>[!TAB New Editor] 
+
+![author view](images/author-inline-attributes-editor-2-0.png){width="650"}
+
+>[!TAB Old Editor] 
+
+![author view](images/author-inline-attributes.png){width="650"}
+
+>[!ENDTABS] 
 
    
-    For more details, view  [Display attributes](../cs-install-guide/workspace-settings.md#display-attributes).
+For more details, view  [Display attributes](../cs-install-guide/workspace-settings.md#display-attributes).
 
--   **Metadata** Using the metadata , you can set the metadata information. You can define the Nav Title, Link Text, Short Description, and Keywords.
+**Metadata** Using the metadata , you can set the metadata information. You can define the Nav Title, Link Text, Short Description, and Keywords.
 
 For more information about the standard topic attributes and metadata, view the [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentation in OASIS DITA Language Specification.
- 
 
 
 

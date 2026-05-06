@@ -121,7 +121,9 @@ To update metadata, perform the following steps:
 
     >[!NOTE]
     >
-    > If a file is locked by another user, it cannot be selected for updating metadata. A lock icon also appears near the title of a locked file. You can hover over the icon to view the name of the user.
+    > If a file is locked by another user, it cannot be selected for updating metadata. A lock icon also appears near the title of a locked file. You can hover over the icon to view the name of the user. You can configure the **Manage** button to disable it when the selected file(s) are in the read-only mode. For details, view [Manage button on the Metadata panel](../guides-ui-extensions/examples.md).
+    >
+    > <br>This limitation applies only to DITA and Markdown files. For non-DITA assets (such as images and multimedia), metadata properties remain editable even in read-only mode.
 
     ![](images/all-selection.png)
         

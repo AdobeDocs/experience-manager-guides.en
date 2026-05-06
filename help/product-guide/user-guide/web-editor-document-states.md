@@ -7,6 +7,10 @@ role: User
 ---
 # Document state {#id1821HC00URO}
 
+>[!INFO]
+>
+> This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
 To manage the readiness of the documents, Adobe Experience Manager Guides provides document state property to indicate the current state of the document. Document states help you quickly find out whether a document is new, in review, or review completed state.
 
 ## Types of document states 
@@ -90,11 +94,23 @@ To use the document approval feature, perform the following steps:
 
 1.  Once the document is successfully marked as approved, then a **Preview** of the document is shown in the read-only mode. All the editing options are removed from all the three modes - Author, Source, and Preview. However, you still get access to the **Menu** dropdown that features the **Version history** and **Tags** options. 
 
-    ![](images/approved-doc-read-only.png){width="650"}
+>[!BEGINTABS] 
 
-    >[!NOTE]
-    >
-    > In the Preview mode, the Menu dropdown featuring the Version history and Tags options, is removed from the toolbar. 
+>[!TAB New Editor] 
+
+![](images/approved-doc-read-only-editor-2-0.png){width="650"}
+
+>[!TAB Old Editor] 
+
+![](images/approved-doc-read-only.png){width="650"}
+
+>[!ENDTABS] 
+
+
+
+>[!NOTE]
+>
+> In the Preview mode, the Menu dropdown featuring the Version history and Tags options, is removed from the toolbar. 
 
 
 Once a document is marked as approved, it is no longer available for editing. If you want to use the document for the next release, then you need to bring it back to the *Draft* state. To change the document state of an approved document back to *Draft* mode, perform the following steps:

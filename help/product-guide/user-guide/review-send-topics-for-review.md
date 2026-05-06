@@ -72,6 +72,18 @@ To create a review task and send topics for review, perform the following steps:
     >
     > On reaching the deadline, an email is sent to the initiator notifying that the review task has completed. The initiator can extend the deadline of the review task from the [Review Dashboard](review-manage-tasks-review-dashboard.md#).
 
+1. Enable the **Automated reminder** to configure scheduled reminder notifications (and email reminders) for reviewers. This can be done both before a review task's due date and after it becomes overdue.
+
+    >[!NOTE]
+    >
+    >The Automated reminders toggle remains disabled until you select a Due date for the review task.
+
+    - **Before due date reminders**: You can configure multiple reminders (maximum 3) upto 60 days before the due date to inform the reviewers ahead of time. Reminder 1 can be set up to the number of days remaining from today to the due date, and the reminder values must follow a descending order, representing the number of days before the due date.
+
+    - **After due date reminders**: You can also configure reminders (maximum 3) to be sent after the due date to notify reviewers that the task is overdue. Overdue reminders can be configured up to 30 days after the due date. Reminder values must follow an ascending order, representing the number of days after the due date.
+
+    Based on the configured schedule, the system sends AEM notifications and email reminders to reviewers at the planned reminder dates.
+
 1.  Select the root map from the **Rootmap path**. This rootmap is used to resolve all the key references and glossary terms used in the review content. If you do not select the rootmap then the key references or glossary terms associated with the DITA topic, are not resolved before sending the topic for review.
 
     If you are creating the review for a DITA map, then by default **Rootmap path** is set to that map's path. If you are creating the review for a single or multiple topics, then by default the **Rootmap path** is set to the map defined in the User Preferences.

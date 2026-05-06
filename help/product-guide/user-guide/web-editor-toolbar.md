@@ -7,6 +7,10 @@ exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
 ---
 # Toolbar in the Editor 
 
+>[!INFO]
+>
+> This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
 The toolbar appears when you open a topic or map for editing in the Editor. Features available in the toolbar are as follows:
 
 - [Menu dropdown](#menu-dropdown)
@@ -20,9 +24,21 @@ The toolbar appears when you open a topic or map for editing in the Editor. Feat
 
 ## Menu dropdown 
 
-The Menu dropdown provides access to the editing actions, Find and replace, Version history, Version label, Merge, Create review task, and Show menu (which includes Track changes, Tags, Non-breaking space).
+The Menu dropdown provides access to the various editing actions as shown below:
+
+>[!BEGINTABS]
+
+>[!TAB New Editor]
+
+![Menu dropdown for Editor toolbar](images/editor-toolbar-menu-dropdown-new-editor-2-0.png){width="350"}
+
+
+>[!TAB Old Editor]
 
 ![Menu dropdown for Editor toolbar](images/editor-toolbar-menu-dropdown-new.png){width="350"}
+
+
+>[!ENDTABS]
 
 The detailed explanation of these features are as follows:
 
@@ -225,7 +241,11 @@ You can [create a review task](./review-send-topics-for-review.md) of the curren
 
 **Show menu**
 
-The Show menu comprises of the following features: 
+>[!NOTE]
+>
+> In New Editor, the **Show menu** is no longer available in the Menu dropdown. To access the various options available under Show menu, navigate to [Editor Settings](./config-editor-settings.md). The Show menu continues to be available in the Menu dropdown in the Old Editor.
+
+The Show menu in the Old Editor comprises of the following features: 
 
 - **Track changes:** You can keep a track of all updates made on a document by enabling the Track changes mode. After enabling the track changes, all insertions and deletions are captured in the document. All deleted content is highlighted using Strikethrough and all insertions are highlighted in green color text. In addition, you also get the change bars at the edge of the topic page. Again, a red bar is shown for deleted content and a green bar is shown for added content. In case there is an addition and deletion on the same line, then both green and red bars are shown.
 The following screenshot highlights the deleted and inserted content along with the change bars:
@@ -292,16 +312,25 @@ You can also type a character or string in the search box and search for the ele
 
 If you are working inside a block element like a `note`, then use the Insert element icon to insert a new element after the `note` element. In the following screenshot a note element has been inserted inside the p \(paragraph\) element:
 
-![Insert element in a block element](images/note-in-para-insert-element_cs.png){ }
+>[!BEGINTABS] 
+
+>[!TAB New Editor] 
+
+![Insert element in a block element](images/note-in-para-insert-element_cs-editor-2-0.png)
+
+>[!TAB Old Editor] 
+
+![Insert element in a block element](images/note-in-para-insert-element_cs.png)
+
+>[!ENDTABS] 
 
 If you press Enter in the note element, a new paragraph is created within the note element itself. To insert a new element outside note, select the p element \(highlighted in screenshot\) in the elements breadcrumb and then select the Element icon or press ***Alt***+***Enter*** to open the Insert element dialog box. Then, select the desired element and press Enter to insert the selected element after the note element.
 
-You can also add an element between two elements when a blinking block cursor appears. 
+In the New Editor, you can insert a new element between existing elements when a horizontal cursor appears. This cursor indicates that your cursor is positioned outside a block element and can add a new element at that location.
 
+![](images/Block-cursor-editor-2-0.png){width="300"}
 
-![](images/Block-cursor.png){width="300"}
-
-For example, if you are working on a DITA topic, and the block cursor is blinking between the short description and the body, you can add `prolog` element and then add copyright, author, and other details.
+For example, in a DITA topic, when the horizontal cursor appears between the `short description` and the `body`, you can insert a `prolog` element. You can then use the `prolog` to add metadata such as `copyright`, `author`, and other details.
 
 Another way of entering a new element is by using the context menu. Right-click at any place in your document to invoke the context menu. From this menu choose **Insert Element** to display the **Insert element** dialog box and choose the element that you want to insert.
 
@@ -325,21 +354,23 @@ Creates a numbered list at the current or next valid location. If you are on a n
 
 **Table** - ![](images/Table_icon.svg)
 
-Inserts a table at the current or next valid location. Select the Table icon to open the Insert Simple Table dialog box. 
+Inserts a Simple table or Table at the current or next valid location. Select the Table icon to open the **Insert Simple Table** dialog. 
 
 ![](images/table-properties.png){width="550"}
+
+You can specify the number of rows and columns required in the table. If you want to keep the first row as the table header, select the **Set first row as header** option. To add a title to your table, enter it in the Title field.
 
 >[!NOTE]
 >
 > You can also copy a table from MS Word or Excel and paste it into the Experience Manager Guides topic file. The copied table will be pasted as either `<simpletable>` or `<tgroup>` depending on the settings configured in the XML Editor Configuration. For more details, view [Configure the display of pasted tables](../cs-install-guide/conf-pasted-tables.md). 
 
-You can specify the number of rows and columns required in the table. If you want to keep the first row as the table header, select the **Set first row as header** option. To add a title to your table, enter it in the Title field.
-
 Once a table is inserted, you can modify the table using the context menu.
 
+>[!NOTE]
+>
+> You can also chose to switch to the New Editor for an improved table editing experience. For more details on table authoring features available in the New Editor, view [Work with tables in the New Editor](./web-editor-other-features.md#work-with-tables-in-the-new-editor).
+
 ![](images/table-context-menu_cs.png){width="550"}
-
-
 
 Using the table's context menu, you can:
 
@@ -353,8 +384,7 @@ Using the table's context menu, you can:
 
 - Generate IDs
 
-<details>
-    <summary> Define attributes on multiple cells, entire row, or column of a table </summary>
+**Define attributes on multiple cells, entire row, or column of a table**
 
 You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel (on the right), the property **Type** changes to **entry**.
 
@@ -365,7 +395,6 @@ You can also define attributes on multiple cells, entire row, or column of a tab
 
 ![](images/align-table-cell_cs.png){ }
 
-</details>
 
 **Image** - ![](images/Image_icon.svg)
 
@@ -407,7 +436,9 @@ Once you have inserted an image, you can change the height, width, placement, an
 
 ![](images/image-properties.png){ }
 
-The Source field displays the UUID of the inserted image file. You can find the complete path of the inserted image file by hovering the mouse pointer over the Source field. The path is displayed in the tooltip.
+The **Source path** field shows the relative path of the selected reference. Use the **Copy Path** button to copy the absolute path.
+
+The **Source UUID** field shows the UUID of the selected reference. Use the **Copy UUID** button to copy the UUID.
 
 You can resize an image by providing either Height or Width value for the image file. The aspect ratio of the image is maintained automatically. If you want, you can also choose not to maintain the aspect ratio of the image file by selecting the lock icon \(of Maintain Aspect Ratio\) and providing Height and Width values.
 
@@ -492,7 +523,18 @@ If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then yo
 >
 > As per standard DITA behavior, the scope=`external` attribute must not be applied to internal links, as it is intended only for references to external resources. Applying this attribute to internal links may disrupt workflows. For content managed in Experience Manager Guides, use the default scope=`local` or key-based references instead.
 
-![](images/ref-link-uuid_cs.png){ }
+>[!BEGINTABS] 
+
+
+>[!TAB New Editor] 
+
+![](images/ref-link-uuid_cs-editor-2-0.png)
+
+>[!TAB Old Editor] 
+
+![](images/ref-link-uuid_cs.png)
+
+>[!ENDTABS] 
 
 >[!NOTE]
 >
@@ -500,7 +542,7 @@ If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then yo
 
 >[!IMPORTANT]
 >
-> Even though the relative path of the referenced content is shown in the **Link** property, internally the link is created using the UUID of the referenced content.
+> Even though the relative path of the referenced content is shown in the **Link path** property, internally the link is created using the UUID of the referenced content.
 
 >[!TIP]
 >
@@ -600,16 +642,41 @@ Connect with your data source and use the data to create content. Learn how to [
 
 The **Version information & Save as new version** feature combines version tracking and content saving into a single functionality.
 
-- Version information displays the current version of the topic or map. An asterisk (*) appears next to the version number to indicate unsaved changes. 
+Version information displays the current version of the topic or map. An asterisk `(*)` appears next to the version number to indicate that changes are saved in the document but are not versioned. 
 
-    The version number changes with every new version that is created for the topic or map file. If you are working on a newly created document, the version information is shown as **none**.
+>[!NOTE]
+>
+> Any changes to the metadata fields available under [File properties](./web-editor-right-panel.md#file-properties) or applied at the backend will also trigger the asterisk `(*)` on the document version.  To prevent system-generated metadata updates from affecting this indicator, administrators can configure an ignore list for metadata properties. For details on how to configure metadata properties, view [Configure the ignore list of metadata properties](../install-conf-guide/conf-metadata-prop.md).
 
-    ![](images/version-information.png){ }
+The version number changes with every new version that is created for the topic or map file. If you are working on a newly created document, the version information is shown as **none**.
+
+>[!BEGINTABS] 
+
+>[!TAB New Editor]    
+
+![](images/version-information-editor-2-0.png)
+
+>[!TAB Old Editor]     
+
+![](images/version-information.png)
+
+>[!ENDTABS] 
 
 
-- **Save as new version** is a button that saves the changes you have made in your topic and also creates a new version of your topic.
+**Save as new version** is a button that saves the changes you have made in your topic and also creates a new version of your topic.
 
-    ![](images/save-as-new-version.png){ }
+>[!BEGINTABS] 
+
+
+>[!TAB New Editor]     
+
+![](images/save-as-new-version-editor-2-0.png)
+
+>[!TAB Old Editor]     
+    
+![](images/save-as-new-version.png)
+
+>[!ENDTABS] 
 
 
 When you choose to save a topic or map using **Save as new version**, the following dialog box appears:
@@ -630,7 +697,17 @@ If your topic is under review, your reviewers will get a notification saying tha
 
 When you hover your pointer over a topic's title, you are shown the file title, file path, and the version number.
 
-![](images/mouse-hover-on-title_cs.png){ }
+>[!BEGINTABS] 
+
+>[!TAB New Editor] 
+
+![](images/mouse-hover-on-title_cs-editor-2-0.png)
+
+>[!TAB Old Editor] 
+
+![](images/mouse-hover-on-title_cs.png)
+
+>[!ENDTABS] 
 
 >[!NOTE]
 >
@@ -640,7 +717,17 @@ When you hover your pointer over a topic's title, you are shown the file title, 
 
 Locks or unlocks the current file. Locking a file gives you an exclusive write access to the file. This restricts other users from editing the file. Unlock the file if you want others to have editing access. When the file is unlocked, the changes are saved in the current version of the file.
 
-![](images/web-editor-lock-button.png){ }
+>[!BEGINTABS] 
+
+>[!TAB New Editor] 
+
+![](images/web-editor-lock-button-editor-2-0.png)
+
+>[!TAB Old Editor] 
+
+![](images/web-editor-lock-button.png)
+
+>[!ENDTABS] 
 
 If you are in the Map View and you expand the parent map, you can lock all files in the map with a single click. Simply expand the parent map file and select the parent file, which results in selecting all files within the map. Then you can select **Lock**  ![](images/LockClosed_icon.svg) to get the lock on all files within the map.
 

@@ -9,7 +9,7 @@ exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
 
 >[!NOTE]
 >
-> This article applies to new baseline , currently available as a *Beta* feature, that offers improved performance and stability available with the Experience Manager Guides 2026.03.0 release. To enable the new baseline feature in your set up, contact the Customer Success Team.
+> This article applies to new baseline , currently available as a *Beta* feature, that offers improved performance and stability available with the Experience Manager Guides 2026.04.0 release. To enable the new baseline feature in your set up, contact the Customer Success Team.
 
 The new baseline feature addresses critical reliability and performance issues associated with large, complex maps. It comes with a redesigned baseline architecture that delivers a faster, more stable, and more consistent baseline experience. Before we dive into the details, here's a short walkthrough video that highlights the capabilities of the new baseline feature.
 

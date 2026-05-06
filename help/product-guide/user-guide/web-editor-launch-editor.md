@@ -7,6 +7,10 @@ role: User
 ---
 # Launch the Editor {#id2056B0140HS}
 
+>[!INFO]
+>
+> This topic applies to both New Editor and Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
 You can launch the Editor from the following locations:
 
 - [Adobe Experience Manager Navigation page](#adobe-experience-manager-navigation-page)
@@ -79,9 +83,23 @@ To open a topic in the Editor, follow these steps:
 
     ![](images/edit-topic-from-quick-action_cs.png)
 
-    The topic opens in the Editor.
+The topic opens in the Editor.
 
-    ![](images/edit-mode.png)
+>[!BEGINTABS]
+
+>[!TAB New Editor ]
+    
+This view displays how the content is rendered in New Editor
+
+![](images/edit-mode-editor-2-0.png)
+
+>[!TAB Old Editor]
+
+This view displays how the content is rendered in the Old Editor
+
+![](images/edit-mode.png)
+
+>[!ENDTABS] 
 
 You can also open a map file in the Assets UI and launch the Editor to edit the topics in the map file.  
 
@@ -94,7 +112,7 @@ To open a map in the Editor, follow these steps:
 
     ![](images/edit-topics-map-console_cs.png)
 
-1.  The topic opens in the Editor.
+1. The topic opens in the Editor.
 
     >[!IMPORTANT]
     >
@@ -118,13 +136,25 @@ To open the Editor from the Map console, follow these steps:
 
     ![](images/map-console-open-in-editor.png)
 
-    The map file containing the topics is open for editing in the Editor.
-
-    ![](images/map-console-edit-topics.png)
+The map file containing the topics is open for editing in the Editor.
 
 
- 
+>[!BEGINTABS]
+
+>[!TAB New Editor ]
+    
+Map edit mode in the New Editor:
+
+![](images/map-console-edit-topics-editor-2-0.png)
+
+>[!TAB Old Editor]
+
+Map edit mode in the Old Editor:
+
+![](images/map-console-edit-topics.png)
 
 
+>[!ENDTABS]
 
+    
 **Parent topic**: [Introduction to the Editor](web-editor.md)

@@ -7,9 +7,23 @@ exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 ---
 # Tab bar in the Editor 
 
-The Tab bar is at the top of the Editor's interface and it provides access to the following features:
+>[!INFO]
+>
+> This topic applies to both New Editor and the Old Editor. While the core functionality remains consistent, differences in the user interface, terminology, and interactions are indicated within the content using tabs and callouts where applicable.
+
+The Tab bar is at the top of the Editor's interface and it provides access to the various file-level features.
+
+>[!BEGINTABS] 
+
+>[!TAB New Editor] 
+
+![](./images/web-editor-tab-bar-editor-2-0.png)
+
+>[!TAB Old Editor] 
 
 ![](./images/web-editor-tab-bar.png)
+
+>[!ENDTABS] 
 
 **Tabs**
 
@@ -17,7 +31,7 @@ Displays the currently opened topics in the Editor as file tabs. You can have mu
 
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of files by filenames in the tabs. Select the **Filename** option of the **Editor files display configuration** section in [User preferences](./intro-home-page.md#user-preferences).
+> As an administrator, you can also choose to view the list of files by filenames in the tabs. Select the **Filename** option in the **Editor files display configuration** section under [User preferences](./intro-home-page.md#user-preferences).
 
 Selecting the file tab opens a context menu featuring Save as new version, Copy, Locate in, Add to, Properties, Split, Download as PDF, and Close options. 
 
@@ -50,5 +64,7 @@ A powerful, AI-driven tool designed to enhance your productivity through smart h
 >[!NOTE]
 >
 > If using the Adobe Experience Manager Guides in an On-Premise setup , the Workspace settings option continues to appear as **Settings** under the More actions menu.
+
+- **Editor settings**: Takes you to the Editor settings dialog where you can customize the Editor behavior at an individual author level. It allows you to control the visibility and behavior of tags, comments, and other editor-level settings during authoring. For details, view [Editor settings](./config-editor-settings.md). 
 
 **Parent topic:**[Introduction to the Editor](web-editor.md)
