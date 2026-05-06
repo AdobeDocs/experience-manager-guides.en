@@ -54,7 +54,6 @@ A refreshed interface improves overall usability, making navigation and content 
 
     ![](assets/multiple-conditions-applied_cs-editor-2-0.png){width="650"}
 
-
 ### Enhanced authoring capabilities
 
 Provides improved tools and flexibility to streamline content creation and editing workflows.
@@ -95,12 +94,11 @@ Now, you can use **Link path** to view the relative path of the selected referen
 
 For details, view [Content properties](../user-guide/web-editor-right-panel.md#content-properties).
 
-
 ## Review enhancements
 
 The following Review enhancements have been made as part of this release:
 
-- You can now enable **Automated reminders** to schedule AEM notifications and email reminders for reviewers, both before a review task's due date and after it becomes overdue. You can configure multiple reminders in each case, with pre-due reminders sent in a defined sequence and overdue reminders triggered after the task is marked overdue, based on the configured reminder schedule. For details on how to configure the reminders for review tasks, view [Send one or more topics for review](../user-guide/review-manage-tasks-review-dashboard.md).
+- You can now enable **Automated reminders** to schedule AEM notifications and email reminders for reviewers, both before a review task's due date and after it becomes overdue. You can configure multiple reminders in each case, with pre-due reminders sent in a defined sequence and overdue reminders triggered after the task is marked overdue, based on the configured reminder schedule. For details on how to configure the reminders for review tasks, view [Send one or more topics for review](../user-guide/review-send-topics-for-review.md#send-one-or-more-topics-for-review).
 
 - Reviewers can now access Version history for topics under review, allowing them to view and compare previously reviewed and updated versions of the same topic across previous review tasks. This helps reviewers validate changes made since earlier review cycles and maintain continuity by reviewing comments, labels, and other related details within the current review context. For details, view [Version history for the Reviewer](../user-guide/review-topics.md#version-history-for-the-reviewer).
 
