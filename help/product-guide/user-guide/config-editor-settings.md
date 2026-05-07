@@ -6,9 +6,9 @@ role: User
 ---
 # Editor settings
 
->[!INFO]
+>[!NOTE]
 >
-> This article applies to New Editor. Contact the AEM Guides Customer Success team to have the New Editor enabled on your environment.
+> This article only applies to the New Editor. To enable this capability in your environment, contact the AEM Guides Customer Success team.
 
 The Editor settings provides a centralized configuration panel that allows you to customize Editor behavior at an individual author level. It provide greater flexibility, consistency, and control during the authoring process.
 
