@@ -663,7 +663,7 @@ Decorations are identified by a string `id` so they can be updated or removed in
   | `dropcursor` | `prosemirror-dropcursor` |
   | `markdown` | `prosemirror-markdown` |
 
-  **Example: create a node decoration plugin**
+  **Example: Create a node decoration plugin**
 
   ```js
   const myPluginKey = new guides.editor.prosemirror.state.PluginKey("myPlugin");
@@ -740,7 +740,7 @@ Decorations are identified by a string `id` so they can be updated or removed in
   };
   ```
 
-## Injecting CSS into the Editor
+## Injecting CSS into the editor
 
 The Guides DITA editor loads its author-mode content styles from a clientlib with category `apps.guides.dita_editor.content`. That clientlib has an `embed` declaration that automatically pulls in any clientlib registered under the category:
 
@@ -841,7 +841,7 @@ guides.ready(() => {
 > This CSS only applies inside the New Editor shadow DOM. It has no effect on the rest of the page or on the legacy editor.
 
 
-## Context menu extensions (`contextMenuWidget`)
+## Context Menu extensions (`contextMenuWidget`)
 
 Extensions can add items to the editor's right-click / breadcrumb context menu by declaring a `contextMenuWidget` field in their extension config. This tells the framework which editor's menu to target.
 
