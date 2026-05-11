@@ -2,6 +2,18 @@
 title: Adobe Experience Manager Guides Generative AI user disclosures
 description: Learn about the Generative AI user discloures when using AI Assistant in Adobe Experience Manager Guides.
 exl-id: 3860edc6-a58f-48f5-a67e-8b0085d4d22d
+TQID: https://experienceleague.adobe.com/VtANhtxajfvlZe6NBGNOnmpew-NTiu9J-l9e2ZBgpjY
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+    internal-label: Generative AI
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Adobe Experience Manager Guides Generative AI user disclosures  
 

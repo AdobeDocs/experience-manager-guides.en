@@ -4,6 +4,26 @@ description: Learn the new and enhanced features in 4.2 releases of Adobe Experi
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
 feature: What's New
 role: Leader
+TQID: https://experienceleague.adobe.com/Ig3Lc-OGmHe83U44eEebdfUwquPqskLorbUgGX4JHJ4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # What's new in 4.2 release of Adobe Experience Manager Guides (February 2023)
 

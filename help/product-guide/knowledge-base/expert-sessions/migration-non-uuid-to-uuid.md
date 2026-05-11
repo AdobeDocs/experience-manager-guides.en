@@ -2,6 +2,18 @@
 title: Migrate content from non-uuid to UUID
 description: AEM Guides, migrate non-uuid content to uuid
 exl-id: d5489fb4-ca3e-4057-a811-2c4ea79b5960
+TQID: https://experienceleague.adobe.com/Hn61B4sorbwERrFcNNqCIxOfQvu2ViV5rma-pZl-bII
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Migrate content from non-uuid to UUID
 

@@ -4,6 +4,20 @@ description: Landing page for expert session section.
 exl-id: 8a4bac35-95c0-4348-90c0-3e6e5ca9de59
 feature: Expert Sessions
 role: User, Admin
+TQID: https://experienceleague.adobe.com/WEJ9bbtoB3aevS4QIWuHNClBwiKybYRO4egB0J-X-0o
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Join our monthly Expert sessions and discover the full potential of AEM Guides!
 

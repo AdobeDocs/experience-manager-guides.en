@@ -5,6 +5,28 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 1d914a5f-df1f-45eb-86ac-72485fdf07fe
+TQID: https://experienceleague.adobe.com/Glp7bHZJ80DoLGIwI936SS9-SRfScDcT-JzhbHSn9P0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # EPUB {#id205BED020YT}
 

@@ -5,6 +5,15 @@ feature: Translation
 role: User
 hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
+TQID: https://experienceleague.adobe.com/xRXpKCXKrklbhlb0UEf8gVuKrQOyVcEMgZ20XxrtsUw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Translate modified topics {#id16A5A0B6072}
 

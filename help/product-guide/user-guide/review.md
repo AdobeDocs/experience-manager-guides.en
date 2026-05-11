@@ -2,8 +2,23 @@
 title: Introduction to review
 description: Efficiently review topics or maps in AEM Guides for smooth content evaluation. Know the features for authors and reviewers in AEM Guides.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
-feature: Reviewing 
+feature: Reviewing
 role: User
+TQID: https://experienceleague.adobe.com/vMRrcxgVXIV6SKBymdPsFK-32mK08DoRNraIRcuhoZ0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+subfeature_v2:
+  - id: ca593223-d11a-4a52-b369-a8e081e71737
+    internal-label: Desktop tools
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Introduction to review {#id1645H6010Q5}
 

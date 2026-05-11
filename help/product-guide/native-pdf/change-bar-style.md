@@ -5,6 +5,18 @@ exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
 feature: Output Generation
 role: Admin
 level: Experienced
+TQID: https://experienceleague.adobe.com/O-pFWUkHhojZiran3297cK58G5WDGvkGU5ooHJwZWeA
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Work with custom change bars styles
 

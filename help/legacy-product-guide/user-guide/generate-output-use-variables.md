@@ -5,6 +5,21 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 19d9121f-6b72-445c-a7d9-07f00026b654
+TQID: https://experienceleague.adobe.com/ECHcQjwfY4veo70H3MRXO0C0F3Wx3-3X-vgVMnUC-3s
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Use variables for setting the Destination Path, Site Name, or File Name options
 

@@ -4,6 +4,25 @@ description: Learn how to translate your content into multiple languages.
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
 feature: Translation, Troubleshooting
 role: User, Admin
+TQID: https://experienceleague.adobe.com/wqeX15zlw6ALVSvXTJu-lMXm8dIvKSqcFGAFuu610p4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Translate content
 

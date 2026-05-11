@@ -4,6 +4,23 @@ description: February release of Adobe Experience Manager Guides as a Cloud Serv
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
 feature: Release Notes
 role: Leader
+TQID: https://experienceleague.adobe.com/8alpUFz4njJtpUZrGcZ5wdrbmqSGOjSVqaHX1T4YeJ4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # What's new in February 2023 release of Adobe Experience Manager Guides as a Cloud Service
 

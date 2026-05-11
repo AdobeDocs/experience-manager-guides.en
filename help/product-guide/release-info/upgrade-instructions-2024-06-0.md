@@ -2,6 +2,31 @@
 title: Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, 2024.06.0 release
 description: Learn about the compatibility matrix and how to upgrade to the 2024.06.0 release of Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 6895357a-cfd1-4e6a-aec1-8870db8054fb
+TQID: https://experienceleague.adobe.com/22vJA1m9BNbZfCJXLlSIB0ASkO6ymAnto9Qs1AIG-ss
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Upgrade instructions for the 2024.06.0 release 
 
