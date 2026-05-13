@@ -65,7 +65,6 @@ Learn about [upgrade instructions for the 5.2.0 release](upgrade-instructions-5-
 - When you generate AEM Sites output using legacy component mapping, topics that use the `copy-to` attribute get published with the `copy-from` topic's name instead of the name set in the `copy-to` attribute. (GUIDES-22155)
 - Activating one or more DITA maps from **Bulk publish dashboard** generates excessively large logs. (GUIDES-20746)
 - When generating PDFs, the filtering rules in a DITAVAL file are ignored if any property name contains a period. (GUIDES-33229)
-- Salesforce publishing fails with an application error, when a topic with the same name and URL already exists. (GUIDES- 32390)
 - Salesforce publishing displays a successful status on the UI even when a DITA map containing a `topichead` element fails to publish the topics within it. (GUIDES-32143)
 - For HTML5 output preset, the search filter functionality is not working in AEM Assets for DITAVAL filtering, as the corresponding files are not being displayed when the DITAVAL filter is selected. (GUIDES-28231)
 - When generating a Native PDF for a DITA map with multiple topics, if any topic contains a `fig` element within a `figgroup` along with a `title`, the `figgroup` title is incorrectly rendered as a chapter title in the Table of Contents. (GUIDES-23223)
@@ -93,7 +92,6 @@ Learn about [upgrade instructions for the 5.2.0 release](upgrade-instructions-5-
 - When performing bulk activation, the package creation adds filters for all paths listed under the `fileReference` property of a page, including external and peer paths. (GUIDES-24887)
 - When publishing using a custom preset with content that contains links to PDFs without the scope set as external, the process fails to complete. (GUIDES-21708)
 - Salesforce publishing fails with an application error, when a topic with the same name and URL already exists. (GUIDES-32390)
-- When changes to an output preset in a Folder profile are applied to existing maps, the saved **Publish Context** for the AEM Sites preset is reset. (GUIDES-38377)
 - Auto-hyphenation is not being applied in Native PDF output, even when the **Use automatic hyphenation** setting is enabled for the output preset. (GUIDES-19703)
 
 ## Translation
