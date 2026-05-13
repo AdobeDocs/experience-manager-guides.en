@@ -2,7 +2,7 @@
 title: Release Notes | Upgrade instructions for Adobe Experience Manager Guides 5.2.0 release
 description: Learn about the compatibility matrix and how to upgrade to the 5.2.0 release of Adobe Experience Manager Guides.
 ---
-# Upgrade instructions for the 5.2.0 release (April 2026)
+# Upgrade instructions for the 5.2.0 release (May 2026)
 
 This article covers the upgrade instructions and the  compatibility matrix for 5.2.0 release of Adobe Experience Manager Guides.
 
@@ -16,8 +16,8 @@ This section lists the compatibility matrix for the software applications suppor
 
 |AEM Guides| AEM Version| Service Pack |
 | --- | --- | --- |
-|5.1.0 (UUID) | 6.5 LTS | 2  |
-|5.1.0 (UUID) | 6.5  | 24, 23, 22 |
+|5.2.0 (UUID) | 6.5 LTS | 2  |
+|5.2.0 (UUID) | 6.5  | 24, 23, 22 |
 
 For more details, view the [Technical requirements](../install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
 
@@ -45,11 +45,11 @@ For more details, view the [Technical requirements](../install-guide/download-in
 |AEM Guides | AEM version | Components version | Site version|
 |---|---|---| ---|
 |5.2.0 UUID |6.5 LTS | guides-components.all-1.4.1|aemg-docs.all-1.2.0|
-|5.2.0 UUID |6.5 | guides-components.all-1.4.0|aemg-docs.all-1.2.0|
+|5.2.0 UUID |6.5 | guides-components.all-1.4.0| aemg-sites-template-1.3.0|
 
 ## Upgrade to Experience Manager Guides 5.1.0 
 
-You can easily upgrade your current version of Experience Manager Guides to version 5.1.0 on **AEM 6.5** or **AEM 6.5 LTS**. 
+You can easily upgrade your current version of Experience Manager Guides to version 5.2.0 on **AEM 6.5** or **AEM 6.5 Service Pack 2 LTS**. 
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ You can easily upgrade your current version of Experience Manager Guides to vers
 
 Before you proceed with upgrading to version 5.1.0 of Experience Manager Guides, you must consider the following points:
 
-- If you are using version 5.1.0 or 5.1.x, then you can directly upgrade to version 5.2.0.
+- If you are using version 5.1.x, then you can directly upgrade to version 5.2.0.
 - If you are using version 4.6.3, 4.6.4, 5.0.x, then you can directly upgrade to version 5.1.0. 
 - If you are using version 4.6.0, 4.6.1, then you need to upgrade to version 4.6.3 or 4.6.4 or 5.0.0 before upgrading to version 5.1.0. 
 - If you are using version 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 5.1.0.

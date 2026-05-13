@@ -101,7 +101,7 @@ Within Editor, the Search and filter experience for files is now consistent with
 
 ### Support for Document state filter 
 
-Now, filter your Repository search results based on the current document state of the files. With the new **Document state** filter, you can narrow down your search using the available filter values defined in the `ui_config.json` file within your Folder profile.  
+You can also filter your Repository search results based on the current document state of the files. With the Document state filter, you can narrow down your search using the available filter values defined in the `ui_config.json` file within your Folder profile.  
 
 ![](assets/document-state-filter-repository.png){align="left"}
 
@@ -113,7 +113,7 @@ The default filter values available for Document state are: Draft, Edit, In-Revi
 
 ### Thumbnail icon for multimedia
 
-All multimedia files are now displayed with thumbnail icons, making it easier to visually identify and locate images within the **Repository**. This enhancement also applies when searching for files in the **Search panel**, helping you quickly distinguish multimedia assets from other file types. 
+All multimedia files are displayed with thumbnail icons, making it easier to visually identify and locate images within the **Repository**. This enhancement also applies when searching for files in the **Search panel**, helping you quickly distinguish multimedia assets from other file types. 
 
 ![](assets/thumbnail-repository.png){align="left"}
 
@@ -157,6 +157,8 @@ For more details, view [Browsing files and folders in Experience Manager Guides]
 
 ## Authoring enhancements
 
+The following Authoring enhancements have been made as part of this release:
+
 ### Access the Path and UUID of references in files from the Content Properties panel
 
 Now, you can use **Link path** to view the relative path of the selected reference, and **Link UUID** to view its unique identifier from the Content properties panel. You can also copy the complete absolute path and the associated UUID directly from the interface using the icons next to Link Path and Link UUID, making it easier to trace and reuse linked assets.
@@ -196,6 +198,10 @@ For each language copy, you can hover-over the file to locate its path in the re
 For more details, view [Right panel in the Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
 ### Refresh topics or map in the Preview mode
+
+>[!NOTE]
+>
+>This behavior applies only to the Old Editor. In the New Editor, the Preview content is automatically refreshed.
 
 Introducing the new **Refresh** functionality for maps that are already opened in the Preview mode. With this new feature, you can easily refresh the content of the entire map or individual topics present within it.
 
@@ -237,11 +243,11 @@ For more details on adding citations in Experience Manager Guides, view [Add and
 
 ![](assets/add-citations.png){width="350" align="left"}
 
-### Editor settings is now renamed to Workspace settings and accessible from the Homepage
+### Settings is now renamed to Workspace settings and accessible from the Homepage
 
 To improve navigation and usability, the following enhancements have been introduced:
 
-- **Editor settings** in Experience Manager Guides has been renamed to **Workspace settings**.
+- **Settings** in the **More actions** menu in the Editor has been renamed to **Workspace settings**.
 - The **More actions** menu (the three-dot menu), previously available only in the Editor and Map console interface, is now accessible from the [Homepage](../user-guide/intro-home-page.md).
 
     ![](assets/workspace-settings.png)
@@ -293,6 +299,8 @@ You can add new topics to an ongoing review task (if they were not previously se
 ![](assets/modify-review-topics.png){width="650" align="left"}
 
 ## Translation enhancements
+
+The following Translation enhancement have been made as part of this release:
 
 ### Indicator for unversioned assets sent for translation 
 
@@ -369,6 +377,8 @@ For details on processing assets, view [Process assets](../user-guide/asset-proc
 
 
 ## Publishing enhancements
+
+The following Publishing enhancements have been made as part of this release:
 
 ### Configure custom image renditions for specific output presets
 
