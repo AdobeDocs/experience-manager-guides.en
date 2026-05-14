@@ -77,7 +77,7 @@ Learn about [upgrade instructions for the 5.2.0 release](upgrade-instructions-5-
 - Publishing AEM Sites pages generated from DITA content through Quick Publish or Manage Publication unintentionally publishes the associated DITA assets. (GUIDES-27967)
 - When publishing a map to AEM Sites (using legacy component mapping), cross-references (`xrefs`) with `scope = peer` that target sub-elements of a topic (such as paragraphs) in a different map do not resolve to the specific element ID and instead resolve only to the parent topic, causing the page to load at the start of the topic rather than scrolling to the intended section. (GUIDES-21802)
 - When publishing a DITA map using baseline on AEM Sites (with legacy component mapping), the map elements with the attribute `processing-role = resource-only` are also getting published. (GUIDES-34298)
-- When changes to an output preset in a Folder profile are applied to existing maps, the saved **Publish Context** for the AEM Sites preset is reset. (GUIDES-38377, GUIDES-33972)
+- When changes to an output preset in a Folder profile are applied to existing maps, the saved **Publish Context** for the AEM Sites preset is reset. (GUIDES-38377)
 - The trademark symbol (&reg;) does not render on the cover page of the Native PDF output when the `tm` element is used within the title of a map or bookmap. (GUIDES-28832)
 - When publishing a map using a Native PDF template, the **Map title** does not include content from the child elements used within the map `title`, and the corresponding content filtering is not applied to the title.(GUIDES-33730)
 - Cross-map peer links in AEM Sites output fail to resolve when they point to a `topicref` that uses `chunk="to-content"`. (GUIDES-37873)
@@ -105,7 +105,7 @@ Learn about [upgrade instructions for the 5.2.0 release](upgrade-instructions-5-
 
 - When creating a dynamic baseline, the Editor sometimes becomes unresponsive due to multiple concurrent API requests, causing all the other operations to halt. (GUIDES-39054)
 - Topic references within a map are incorrectly shown as indirect when using a custom DITA-OT, even though they are directly referenced. This issue has been resolved with the new baseline experience. (GUIDES-19286)
-- References with `scope="peer"` are incorrectly included in the baseline context, causing publishing to take longer than expected. This issue has been resolved with the new baseline experience. (GUIDES-30048, GUIDES-41823)
+- References with `scope="peer"` are incorrectly included in the baseline context, causing publishing to take longer than expected. This issue has been resolved with the new baseline experience. (GUIDES-41823)
 
 
 ## Review
