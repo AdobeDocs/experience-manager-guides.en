@@ -73,7 +73,7 @@ Learn about [upgrade instructions for the 5.2.0 release](upgrade-instructions-5-
 - When the same topic is reused across multiple maps with different conditional presets, publishing the latest map to Salesforce overwrites the topic content, resulting in incorrect data being displayed to users of previously published maps. (GUIDES-37806)
 - When publishing a Native PDF for a map that includes conditional processing or certain nested maps, the `dc:title` defined in the map fails to appear on the PDF cover, resulting in a missing cover title. (GUIDES-37733)
 - Generating AEM site output (using composite component mapping) for a map fails and results in an error when the `map_title` variable is present in the output path. (GUIDES-36968)
-- When an output path with a trailing slash is specified in the Native PDF output preset, the UI automatically appends an additional trailing slash, resulting in a double‑slash path that causes the PDF upload to fail in certain scenarios. (GUIDES-34932)
+- When an output path with a trailing slash is specified in the Native PDF output preset, the UI automatically appends an additional trailing slash, resulting in a double-slash path that causes the PDF upload to fail in certain scenarios. (GUIDES-34932)
 - Publishing AEM Sites pages generated from DITA content through Quick Publish or Manage Publication unintentionally publishes the associated DITA assets. (GUIDES-27967)
 - When publishing a map to AEM Sites (using legacy component mapping), cross-references (`xrefs`) with `scope = peer` that target sub-elements of a topic (such as paragraphs) in a different map do not resolve to the specific element ID and instead resolve only to the parent topic, causing the page to load at the start of the topic rather than scrolling to the intended section. (GUIDES-21802)
 - When publishing a DITA map using baseline on AEM Sites (with legacy component mapping), the map elements with the attribute `processing-role = resource-only` are also getting published. (GUIDES-34298)
@@ -149,3 +149,14 @@ The following issues have been fixed, and no longer occur when using Editor 2.0 
 - When switching from Author to Source view,  the cursor position is not retained, and the Editor scrolls back to the top. Additionally, in long topics, the cursor position is lost and randomly jumps to the middle or top when toggling between Author and Source views. (GUIDES-18114, GUIDES-21164)
 - Pressing *Enter* inside an `<li>` element creates a new `<li>`, but navigating back to a previous `<li>` and pressing *Enter* incorrectly converts the current item's content into a `<p>` element, breaking the list structure. (GUIDES-27505)
 
+## Known issues
+
+Adobe has identified the following known issues for 5.2.0 release:
+
+- When uploading flagged images in DITAVAL files, the images break after a browser refresh when the `Enable UUIDs` setting is disabled. (GUIDES-45853)
+- In the Editor, `.ditval` and `.md` files files become non-editable when *Approval Workflow* is enabled. (GUIDES-42037)
+- In the Assets UI, the **Move** button does not get enabled on the first attempt when more than 2 files or folders are selected. (GUIDES-42721) <br> **Workaround**:  After selecting more than two files or folders, wait for a few seconds before selecting the destination folder. 
+- Selecting a topic in the Preview mode does not highlight it in the Map view if the topic is inside bookmap tags (frontmatter, chapter, part, or baatter) or part of cyclic content. (GUIDES-42416)
+- When a file is open in both the Editor and the Search panel, deleting it from the Explorer panel removes the file and refreshes the Explorer list, but refreshing the page continues to display the file in the Search panel. (GUIDES-41935)
+- While updating an active review task, if a topic that is already part of the review is removed and then re‑added without clicking **Update**, the reviewer(s) information in the Reviewers tab is lost.   (GUIDES-38774)
+- When an in-review topic is removed from an ongoing review task, its document state continues to remain **In Review**, even though the topic is no longer part of any review task. (GUIDES-38709)<br>**Workaround**: Change the document state of the topic from **In Review** to the appropriate state from the Properties page or File properties panel.
