@@ -24,6 +24,7 @@ Before installing Adobe Experience Manager Guides for On-Premise, ensure your sy
 
 |[!DNL AEM Guides] Release|Technical Specifications|
 |---|---|
+|**AEM Guides 5.2.0**| **UUID 5.2.0** <ul><li> AEM 6.5 LTS SP2<br><ul><li>Java:17 or 21</li></ul> <li> AEM 6.5  SP24, SP23, or SP22 <br> <ul><li>Java: 11 or 8 </li></ul> <li>Operating Systems:<ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |
 |**AEM Guides 5.1.0**| **UUID 5.1.0** <ul><li> AEM 6.5 LTS SP1<br><ul><li>Java:17 or 21</li></ul> <li> AEM 6.5  SP23, SP22, or SP21 <br> <ul><li>Java: 11 or 8 </li></ul> <li>Operating Systems:<ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |
 |**AEM Guides 5.0.0**|  **UUID 5.0.0** <ul><li> AEM 6.5  SP 22, SP21, or SP20<br> <li>   Java: 11 or 8 <br><li>Operating Systems: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |
 |**AEM Guides 4.6.0**|  **Non-UUID and UUID 4.6.0** <ul><li> AEM 6.5  SP 21, SP20, or SP19<br> <li>   Java: 11 or 8 <br><li>Operating Systems: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 and 6</ul> |
