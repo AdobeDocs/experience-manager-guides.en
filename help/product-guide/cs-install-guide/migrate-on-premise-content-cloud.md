@@ -5,6 +5,26 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
+TQID: https://experienceleague.adobe.com/lvzQA2ECfl6LYSVAbFmg12oFkKCiUjZgv4X3K1TCwkM
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: ed9d83c9-e55d-4a67-9667-8e31871715a7
+    internal-label: Content migration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Migrate content from On-premise to Cloud Service
 

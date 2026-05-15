@@ -3,6 +3,21 @@ title: Release Notes | What's New in Adobe Experience Manager Guides 2025.04.0 r
 description: Learn about the new and enhanced features in the 2025.04.0 release of Adobe Experience Manager Guides
 role: Leader
 exl-id: 5d28119b-641f-402b-833c-6f7554e7c273
+TQID: https://experienceleague.adobe.com/JeN8rlDFTT5gRCCH17zjFQeKiOJ-736hQ4V1ESST0hc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 ---
 # What's new in the 2025.04.0 release (April 2025)
 

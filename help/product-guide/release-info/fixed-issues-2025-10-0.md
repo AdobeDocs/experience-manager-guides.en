@@ -2,6 +2,23 @@
 title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2025.10.0 release
 description: Learn about the bug fixes in the 2025.10.0 release of Adobe Experience Manager Guides as a Cloud Service.
 exl-id: e9a97d74-5061-42b4-b9d3-6c8dc386e6fb
+TQID: https://experienceleague.adobe.com/jaNCpM6p06stKTcuXlyMSaTgym-JWR9UP0RKFhkGFh0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Fixed issues in the 2025.10.0 release 
 

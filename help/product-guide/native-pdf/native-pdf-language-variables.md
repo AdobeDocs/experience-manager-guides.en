@@ -5,6 +5,18 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
+TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Support for language variables
 

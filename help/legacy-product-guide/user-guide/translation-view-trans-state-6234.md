@@ -5,6 +5,15 @@ feature: Translation
 role: User
 hide: true
 exl-id: 261c24f2-be9e-4a6b-9b1f-0850d960d49e
+TQID: https://experienceleague.adobe.com/PHgzr5P7ccIKeXDBWjI9IjyLi5wmNyE5V5i780tkWiQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # View translation status {#id169SEK00KOW}
 

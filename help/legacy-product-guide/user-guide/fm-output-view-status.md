@@ -5,6 +5,25 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
+TQID: https://experienceleague.adobe.com/FP5RxNtyWcdS-xpw2Atttt3x6DHx73Ljv-Ym91IxY5s
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+subfeature_v2:
+  - id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
+    internal-label: Publishing FrameMaker documents
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # View the status of the output generation task {#viewing_output_history}
 

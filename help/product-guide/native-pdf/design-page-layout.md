@@ -4,9 +4,28 @@ description: Learn how to design your page layout for presenting information in 
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
-level: Experienced 
+level: Experienced
+TQID: https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
-
 # Design a page layout {#design-page-layout}
 
 When creating a PDF document, you would have different sections for presenting different types of information. For example, a PDF document would start from a front or cover page, which would have your company's logo, book title, or version information. Then there would be chapters, appendices, or glossary pages. Each section in a PDF document looks different and that is achieved by creating and customizing the page layout.

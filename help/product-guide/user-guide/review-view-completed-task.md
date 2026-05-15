@@ -2,8 +2,17 @@
 title: View a completed review task
 description: Know how to view a completed review task as a reviewer or an author in AEM Guides.
 exl-id: 7c468a1c-046c-4b40-9f0b-1a67e6cf65fe
-feature: Reviewing 
+feature: Reviewing
 role: User
+TQID: https://experienceleague.adobe.com/Uwt2OFOxnk-4HVSr9QUwcX5TTrWwwQ94pl9nRboMn3U
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # View a completed review task
 

@@ -5,6 +5,15 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
+TQID: https://experienceleague.adobe.com/jF4wtAFnt2rEs4Vn-INbBYn5Juv-RXdQHhsjXKLH65A
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Reassign review task using notification {#id21BNH03M0KS}
 

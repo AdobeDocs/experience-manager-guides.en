@@ -5,6 +5,44 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
+TQID: https://experienceleague.adobe.com/Che13Q87qddeS5u48gPSfCqfIyunmBshHlq5pB-HjGk
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: a7a242db-c88c-4e44-818b-bfb4ef92efdf
+    internal-label: Permissions
+  - id: c837a922-f95c-4da0-83b2-0cfe7038c5d6
+    internal-label: Users and groups
+  - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
+  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # User administration and security {#id181AED00G5Z}
 

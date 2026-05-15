@@ -5,6 +5,23 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: fe7b3b8d-a4bd-43d2-ad20-49fa6c258b7d
+TQID: https://experienceleague.adobe.com/m0Z76cL1krf8m6wVRymBhbY0N8GvhotVub2P97FuGdU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Author Markdown documents from the Web Editor {#id223MIE0B079}
 

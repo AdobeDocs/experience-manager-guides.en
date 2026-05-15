@@ -2,8 +2,17 @@
 title: Manage review tasks using the Review Dashboard
 description: Manage review tasks from the Review Dashboard in AEM Guides. Learn the perform actions under the task, content, Reviewers tab and check the status of a review task.
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
-feature: Reviewing 
+feature: Reviewing
 role: User
+TQID: https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Manage review tasks using the Review Dashboard {#id2056B0Y70X4}
 

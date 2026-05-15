@@ -5,6 +5,21 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: 42722c6f-1b1c-4a7e-89ef-a373623eb774
+TQID: https://experienceleague.adobe.com/UM-r83s-H3f2ldZSgNSnYrsV5Iu-zzX1ia4wcCOBB8M
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+    internal-label: Filename configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Disable postprocessing for a folder 
 

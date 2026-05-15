@@ -4,6 +4,18 @@ description: Learn how to add [!DNL AEM Guides] to your [!DNL AEM as a Cloud Ser
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
 feature: Installation
 role: Leader
+TQID: https://experienceleague.adobe.com/lb5mjLR6M3pdFlsdQpwGXotEhbPeyetJ4zVwKV-J-Yg
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 ---
 # [!DNL Adobe Experience Manager Guides] as a Cloud Service deployment
 

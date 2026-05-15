@@ -4,6 +4,20 @@ description: Learn how to define and manage metadata in AEM Guides. Use smart an
 exl-id: 3d2d4eb7-79a7-430c-84e5-b90eb639a66b
 feature: Metadata Management
 role: User
+TQID: https://experienceleague.adobe.com/fWsIuyF5wquQJIjtHYAoksA8osydj6V9NLKn1Jz1eAM
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Manage metadata {#id221EJ0500LI}
 

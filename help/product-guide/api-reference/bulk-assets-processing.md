@@ -5,6 +5,15 @@ feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
 exl-id: feba6d8e-c363-4360-af33-92a01dcf6672
+TQID: https://experienceleague.adobe.com/rGPpMIf5X5lfZZy2ZWk9lizd2E7UyRT8BLkSBb0o320
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # API to start bulk processing for assets
 

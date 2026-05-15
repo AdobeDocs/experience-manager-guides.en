@@ -4,6 +4,24 @@ description: Learn how to use variables for setting the Destination Path, Site N
 exl-id: 3396c971-6332-45b5-b2ef-b07f0abf97f7
 feature: Publishing
 role: User
+TQID: https://experienceleague.adobe.com/JiQKZ28KLI-TI5cqYdpKLyW79uOzlR2VV3zqZPFoVWc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Use variables for setting the Destination Path, Site path, Site Name, or File Name options
 

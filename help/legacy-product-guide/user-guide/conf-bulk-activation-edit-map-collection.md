@@ -5,6 +5,21 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a15ee164-ec60-483e-8760-b1c290625415
+TQID: https://experienceleague.adobe.com/V56tqStd7l6hZ-CPHjEvaCjSSztt9kdv8DSNkYaLomQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Edit a bulk activation map collection {#id214GI40B0XA}
 
