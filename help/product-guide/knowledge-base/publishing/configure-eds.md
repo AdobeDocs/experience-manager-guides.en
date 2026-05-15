@@ -32,7 +32,7 @@ EDS (Beta) requires a GitHub repository with a predefined structure. Adobe provi
 
 Perform the following steps to create your repository:
 
-1. Open the Experience Manager Guides boilerplate template repository [`aem-guides-boilerplate`](https://github.com/adobe/aem-guides-boilerplate).
+1. Open the Experience Manager Guides boilerplate template repository [aem-guides-boilerplate](https://github.com/adobe/aem-guides-boilerplate).
     ![](assets/eds-boilerplate-template.png) 
 
 2. Create a new repository using this template. Learn about [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). Ensure that the repository visibility is set to *Public* so it can be accessed by EDS. 
@@ -81,9 +81,10 @@ You are redirected to the GitHub setup page, confirming successful registration 
     - **GitHub App name**: Enter a name for your app. For example, `USERNAME-eds-app` where USERNAME is your GitHub username.
     - **Homepage URL**: Enter the URL to the Experience Manager Guides instance. 
     
-        Sample URL (format): `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`
+      Sample URL (format): `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`
 
-        Sample URL: `https://author-p16602-e335172-cmstg.adobeaemcloud.com/libs/fmdita/clientlibs/xmleditor/page.html`
+      Sample URL: `https://author-p16602-e335172-cmstg.adobeaemcloud.com/libs/fmdita/clientlibs/xmleditor/page.html`
+
     - **Callback URL**: Same as the Homepage URL.
     - **Webhook URL**: Disable this option.
     - **Repository permissions**: Set **Read and Write** permissions for *Actions, Administration, and Attestation*.
@@ -105,10 +106,13 @@ Perform the following steps to create a new OAuth App:
 3. Select **New OAuth App**.
 
     ![](assets/eds-new-oauth-app.png){width="650"} 
+
 4. Register your application by providing the following mandatory details:
+
     - **Application name**: Enter the name of your EDS repository
     - **Homepage URL**: Enter the URL to the Experience Manager Guides instance. (For sample URL format, refer to step 4 of [Create a new GitHub App](#create-a-new-github-app) section).
     - **Authorization callback URL**: Same as Homepage URL
+
 5. Select the **Enable Device Flow** option and then select **Register application** to complete the registration.
 
     ![](assets/eds-new-github-app-register.png){width="650"} 
@@ -125,6 +129,7 @@ EDS (Beta) reads content from a GitHub repository path defined as a *mountpoint*
 To configure the mountpoint URL in the `fstab.yaml` file:
 
 1. Open the `fstab.yaml` file in your repository and update the following:
+
     - `your-user-name`
     - `your-repo-name`
 
@@ -133,13 +138,16 @@ To configure the mountpoint URL in the `fstab.yaml` file:
     > In the mountpoint URL, `main` indicates the branch on which you want to publish the content, and `docs` indicates the root folder of the EDS (Beta) repository you are working on. If you prefer to change the branch name on GitHub, then you must update the same branch name in the *mountpoint* URL (in the `fstab.yaml` file) and corresponding EDS publish profile in Experience Manager Guides. 
 
     ![](assets/eds-fstab-yaml-file.png){width="650"}  
+
 2. Select **Commit changes**, enter commit details, and confirm.
 3. Return to [Developer settings](https://github.com/settings/apps), locate your app, and select **Edit**.
 
     ![](assets/eds-edit-github-app.png){width="650"}  
+
 4. Navigate to the **Install App** page and select **Install**.
 
      ![](assets/eds-install-eds-app.png){width="650"} 
+
 5. Repeat steps 2 and 3 from the [Connect GitHub to Adobe via AEM Code Sync](#connect-github-to-adobe-via-aem-code-sync) section to authorize the repository.
 
 ## Create and configure a publish profile for EDS (Beta) in Experience Manager 
@@ -150,6 +158,7 @@ The sections below outline each step in sequence and explain how to set up EDS (
 
 1. Go to **[Workspace settings](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **Publish profiles**.
 2. Select the **+** icon to create a new publish profile and provide the following details:
+
     - **Server type**: Select **GitHub Edge Delivery Services (Beta)** from the dropdown.
     - **Name**: Enter a name for this profile .
     - **Repository name**: Use the GitHub repository name created from the boilerplate.
@@ -157,9 +166,11 @@ The sections below outline each step in sequence and explain how to set up EDS (
     - **Branch main**: Set to main (default).
     - **Root folder**: Set to docs (default).
     - **Client ID and Client Secret**: Fetch these from your GitHub App (Refer to [Create a new OAuth App](#create-a-new-oauth-app) section for details).
+
 3. Select **Login** to authenticate.
 
     ![](assets/eds-publish-profile.png){width="650"} 
+
 4. On successful authentication, select **Save**.
 
 Your EDS (Beta) publish profile is now configured.
@@ -186,7 +197,7 @@ Your EDS (Beta) publish profile is now configured.
 
 >[!NOTE]
 >
-> The generated output is stored in the **docs** folder of the EDS (Beta) repository.
+>The generated output is stored in the **docs** folder of the EDS (Beta) repository.
 
 The EDS (Beta) output is now generated. The content is presented in a clean, responsive layout. It includes regular elements such as the page title, breadcrumbs, body content, and any blocks used in the topic. The TOC on the left (generated from the map) helps you to navigate across topics, while a mini-TOC on the right highlights the sections within the current page. The entire output is fully responsive, ensuring an optimized, consistent reading experience across devices.
 
@@ -229,13 +240,14 @@ In some cases, you may want to style only a specific part of your content. Pefor
 3. Save and regenerate the output.
 4. Create a new folder with the same name as the `outputclass` inside the `blocks` directory. Learn about [adding files to a repository](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line).  
 
-     ![](assets/eds-example-folder.png){width="650"} 
+    ![](assets/eds-example-folder.png){width="650"} 
+
 5. Add the required `css` and optional `js` files.
 
-    ![](assets/eds-example-folder-subfolders.png){width="650"} 
+    ![](assets/eds-example-folder-subfolders.png){width="650"}
+
 6. Commit changes and regenerate output.
 
 The selected content now displays the custom styling defined in your block.
-
 
 ![](assets/eds-example-output.png){width="650"}
