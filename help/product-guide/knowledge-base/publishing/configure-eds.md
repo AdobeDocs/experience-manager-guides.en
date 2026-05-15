@@ -54,12 +54,14 @@ Perform the following steps to install and configure the *AEM Code Sync* applica
 
     >[!NOTE]
     >
-    > While installing the application, ensure that you use the same GitHub account that owns the repository.
+    >While installing the application, ensure that you use the same GitHub account that owns the repository.
 
     ![](assets/eds-aem-code-sync-page.png) 
+
 3. On the next page, grant access to the repository you created. To do this, select the **Only select repositories** option and then select your repository from the dropdown.
 
     ![](assets/eds-aem-code-sync-install-authorize.png){width="350"} 
+
 4. Select **Install and Authorize**.
 
 You are redirected to the GitHub setup page, confirming successful registration of the *AEM Code Sync* application. You can also save the Preview and Live URLs for your website from this page.
@@ -73,7 +75,9 @@ You are redirected to the GitHub setup page, confirming successful registration 
 3. Select **New GitHub App**.
 
     ![](assets/eds-new-github-app.png){width="650"} 
+
 4. On the **Register new GitHub App** page, provide the following details:
+
     - **GitHub App name**: Enter a name for your app. For example, `USERNAME-eds-app` where USERNAME is your GitHub username.
     - **Homepage URL**: Enter the URL to the Experience Manager Guides instance. 
     
@@ -83,11 +87,12 @@ You are redirected to the GitHub setup page, confirming successful registration 
     - **Callback URL**: Same as the Homepage URL.
     - **Webhook URL**: Disable this option.
     - **Repository permissions**: Set **Read and Write** permissions for *Actions, Administration, and Attestation*.
+
 5. Select **Create GitHub App**.  
 
 Your app is now ready. You are redirected to the **Settings** page of your GitHub App.
 
- ![](assets/eds-github-app-registered-page.png){} 
+![](assets/eds-github-app-registered-page.png){} 
 
 ### Create a new OAuth App
 
@@ -110,7 +115,7 @@ Perform the following steps to create a new OAuth App:
 
 Your app is now ready. Note down the *Client ID*. You can generate up to five *Client Secrets* now or later while configuring the publish profile in Experience Manager Guides.
 
- ![](assets/eds-new-oauth-app-page.png) 
+![](assets/eds-new-oauth-app-page.png) 
 
 
 ### Configure the mountpoint URL in EDS (Beta) repository
@@ -231,5 +236,6 @@ In some cases, you may want to style only a specific part of your content. Pefor
 6. Commit changes and regenerate output.
 
 The selected content now displays the custom styling defined in your block.
+
 
 ![](assets/eds-example-output.png){width="650"}
