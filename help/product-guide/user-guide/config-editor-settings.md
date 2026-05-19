@@ -41,6 +41,8 @@ You can enable or disable the following options based on your preferences:
 
     You can search for and add elements to your Favorites, remove any previously added elements, and rearrange them using simple drag-and-drop. Favorites include your most frequently used elements, and the order you set here is reflected in the Quick Insert menu when accessed from the editor. 
 
+    Here's a short video on how to work with the Quick insert menu in the New Editor.
 
+    >[!VIDEO](https://video.tv.adobe.com/v/3491343)
 
 

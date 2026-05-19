@@ -45,7 +45,7 @@ The Editor comes with a range of editing features that let you easily create or 
     ![Quick insert menu](./images/quick-insert-menu-in-editor.png){width="650"}
 
     Search for a new element or choose one from your favorites using the Quick Insert menu, then insert it at the current cursor position. Favorites include your most frequently used elements, and only those that are valid for the current cursor location are shown. You can enable or disable this feature and configure favorite elements for insertion through the Quick insert menu available in the the [Editor settings](./config-editor-settings.md).    
-    
+
     
 >[!TAB Old Editor]
 
