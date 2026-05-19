@@ -183,9 +183,11 @@ The Editor provides a smart file browse dialog. The editor remembers the last us
 
 ## Work with Tables in the New Editor 
 
-The New Editor allows you to create, format, and organize tables directly within your content using various contextual actions. 
+The New Editor allows you to create, format, and organize tables directly within your content using various contextual actions. Here's a short video on how to work with the various table editing features available in the New Editor.
 
-This section walks you through the various table authoring features available in the New Editor.
+>[!VIDEO](https://video.tv.adobe.com/v/3491344)
+
+The following table editing features are available in the New Editor:
 
 **Modify the table using the context menu**
 
