@@ -59,12 +59,12 @@ A powerful, AI-driven tool designed to enhance your productivity through smart h
    - **Cloud Services**: If you are using Cloud Services, selecting the **Assets** option takes you to the AEM Navigation page.
 
    - **On-premise Software**: If you are using Adobe Experience Manager Guides (4.2.1 and later), selecting the **Assets** option takes you to your current file path in the Assets UI.
-- **Workspace settings**: Takes you to the Workspace settings dialog. For details, view [Configure Workspace settings](../cs-install-guide/workspace-settings.md). 
+- **Workspace settings**: Takes you to the Workspace settings dialog. For details, view [Configure Workspace settings](../install-conf-guide/workspace-settings.md). 
 
 >[!NOTE]
 >
-> If using the Adobe Experience Manager Guides in an On-Premise setup , the Workspace settings option continues to appear as **Settings** under the More actions menu.
+>If using Adobe Experience Manager Guides in an On-Premise setup prior to version 5.2, the Workspace settings option continues to appear as **Settings** under the More actions menu.
 
-- **Editor settings**: Takes you to the Editor settings dialog where you can customize the Editor behavior at an individual author level. It allows you to control the visibility and behavior of tags, comments, and other editor-level settings during authoring. For details, view [Editor settings](./config-editor-settings.md). 
+- **Editor settings**: Takes you to the Editor settings dialog where you can customize the Editor behavior at an individual author level. It allows you to control the visibility and behavior of tags, comments, and other editor-level settings during authoring. For details, view [Editor settings](../install-conf-guide/workspace-settings.md). 
 
 **Parent topic:**[Introduction to the Editor](web-editor.md)

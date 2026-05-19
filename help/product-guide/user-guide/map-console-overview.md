@@ -25,7 +25,7 @@ The Map console interface is primarily divided into two sections - **Navigation 
 
     >[!NOTE]
     >
-    > If using the Adobe Experience Manager Guides in an On-Premise setup , the Workspace settings option continues to appear as **Settings** under the More actions menu.
+    > If using Adobe Experience Manager Guides in an On-Premise setup prior to version 5.2, the Workspace settings option continues to appear as **Settings** under the More actions menu.
 
     - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
 
