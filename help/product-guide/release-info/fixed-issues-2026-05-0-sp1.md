@@ -11,4 +11,4 @@ Learn about [upgrade instructions for the 2026.05.0 Service Pack 1 release](upgr
 
 ## Translation
 
-- When applying a baseline to a map with many assets delays loading of the translation report for the selected language, sometimes leading to session timeouts before the report renders. (GUIDES-46543)
+- Applying a baseline to a map with many assets delays loading of the translation report for the selected language, sometimes leading to session timeouts before the report renders. (GUIDES-46543)
