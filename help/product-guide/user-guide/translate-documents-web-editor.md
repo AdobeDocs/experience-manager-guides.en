@@ -165,7 +165,7 @@ For details on setting up global and folder-level profiles, view *Configure auth
 
 Experience Manager Guides allows you to pass the label of the source file to the target file. This will help you easily identify the source version for the translated file.
 
-To add the source version label in the target copy, your system administrator must enable the **Propagate source version labels to the target version** option under the **Translation** tab in **Workspace settings** (appearing as **Settings** for **On-Prem** prior to version 5.2).
+To add the source version label in the target copy, your system administrator must enable the **Propagate source version labels to the target version** option under the **Translation** tab in **Workspace settings** (appearing as **Settings** for **On-Premise setup prior to version 5.2**).
 
 For example, if you have some source files with the version label `Release 1.0` applied to them, then you can also pass on the source label \(`Release 1.0`\) to the translated file.
 

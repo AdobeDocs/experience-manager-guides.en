@@ -54,7 +54,7 @@ Features available in the navigation bar are explained as follows:
 
     >[!NOTE]
     >
-    > On the Home page, the option of Workspace settings is available for Cloud Services setup and On-Premise setup with 5.2 version. In an On-Premise setup prior to version 5.2, the More actions option is unavailable on the Home page. However, you can still access the relevant settings through the Editor interface and the Map console, by navigating to More options > Settings.
+    > On the Home page, the option of Workspace settings is available for Cloud Services and for On-Premise configurations in version 5.2 and later. In an On-Premise setup prior to version 5.2, the More actions option is unavailable on the Home page. However, you can still access the relevant settings through the Editor interface and the Map console, by navigating to More options > Settings.
   
 - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
 

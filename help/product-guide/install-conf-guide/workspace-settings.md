@@ -9,7 +9,7 @@ exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
 
 >[!NOTE]
 >
-> In the On-premise setup prior to version 5.2, the **Settings** option appears in the Editor's tab bar. In the Cloud Service setup and On Premise setup with 5.2 version onwards, this option has been renamed to **Workspace settings**. All existing configuration options available under **Editor settings** remain unchanged.
+> In the On-premise setup prior to version 5.2, the **Settings** option appears in the Editor's tab bar. For Cloud Services and On-Premise configurations in version 5.2 and later, this option has been renamed to **Workspace settings**. All existing configuration options available under **Editor settings** remain unchanged.
 > ![Editor setting for On-premise](assets/editor-settings-on-prem.png){width="650"}
 
 
