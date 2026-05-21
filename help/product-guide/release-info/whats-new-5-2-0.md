@@ -105,7 +105,7 @@ You can also filter your Repository search results based on the current document
 
 ![](assets/document-state-filter-repository.png){align="left"}
 
-The default filter values available for Document state are: Draft, Edit, In-Review, Approved, Reviewed, and Done. For details on customizing the default document state filters values, view [Configure document state filters](../cs-install-guide/config-doc-state-filters.md). 
+The default filter values available for Document state are: Draft, Edit, In-Review, Approved, Reviewed, and Done. For details on customizing the default document state filters values, view [Configure document state filters](../install-conf-guide/conf-doc-state-filters.md). 
 
 >[!NOTE]
 >
@@ -256,8 +256,7 @@ To improve navigation and usability, the following enhancements have been introd
 
 You can now easily track the status of each indexing attempt for Smart suggestions in AI Assistant with new status indicators: Indexing completed, Not in sync, In progress, and Indexing failed. The last indexing timestamp is now recorded at the folder profile level for better traceability. Additionally, parent-child folder restrictions are enforced when specifying a folder or file path for indexing.
 
-For more details, view [Configure AI Assistant for smart help and authoring](../cs-install-guide/conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring).
-
+For more details, view [Configure AI Assistant for smart help and authoring](../install-conf-guide/conf-profiles.md#configure-ai-assistant-for-smart-help-and-authoring-only-for-cloud-service).
 
 ## Review enhancements
 
@@ -342,7 +341,7 @@ If a file is Read-only, you must first check out the file before making any chan
 
 You can now use regex to enable or disable post-processing for folders. This enhancement allows Administrators to define post-processing rules that apply to multiple folders or entire folder hierarchies using a single configuration, instead of specifying individual folder paths.
 
-For more details, view [Use regex to enable or disable post processing](../cs-install-guide/conf-folder-post-processing.md#use-regex-to-enable-or-disable-post-processing).
+For more details, view [Use regex to enable or disable post processing](../install-conf-guide/conf-folder-post-processing.md).
 
 - Run asset processing at both folder and individual file levels
 - Filter assets by choosing specific asset types such as topics, maps, Markdown, HTML/CSS, DITAVAL, or other supported files, to process only the files you need. 
@@ -357,7 +356,7 @@ To maintain system efficiency and prevent resource congestion, a new background 
 
 The system intelligently identifies candidates for cleanup and performs automated removal. Additionally, this feature is configurable, giving Administrators control over its behavior based on operational needs.
 
-For more details, view [Configure B-tree clean up](../cs-install-guide/configure-btree-cleanup-cs.md).
+For more details, view [Configure B-tree clean up](../install-conf-guide/conf-btree-cleanup.md).
 
 ### Improved handling of DITA maps with large number of keys
 
@@ -384,7 +383,7 @@ The following Publishing enhancements have been made as part of this release:
 
 You can now configure different image renditions for individual output presets under the same output type by using the `outputName` attribute in `renditionmapping.xml`. This enhancement gives you greater flexibility when publishing content that requires varying image resolutions for different scenarios. For example, you might want a high-resolution image for your main HTML5 output while using a smaller thumbnail for a lightweight preset.
 
-For more details, view [Handle image rendition in output generation](../cs-install-guide/conf-output-generation.md#handle-image-rendition-during-output-generation).
+For more details, view [Handle image rendition in output generation](../install-conf-guide/conf-output-generation.md#handle-image-rendition-during-output-generation).
 
 
 ### Download logs for generated output
@@ -403,7 +402,7 @@ For details on configuring Native PDF output preset and cross-reference settings
 
 Experience Manager Guides now supports element‑level component mapping in the AEM Sites output (using composite component mapping), giving teams precise control over how DITA elements render using `componentmapping.json`. By mapping `topicref`, titles, images, tables, and more to appropriate AEM Core Components, you get a cleaner structure instead of everything defaulting to the Text component. This results in better performance and unlocks richer, more modern Sites experiences. 
 
-For more details, view [Component mapping in AEM Sites](../cs-install-guide/component-mapping.md).
+For more details, view [Component mapping for AEM Sites](../install-conf-guide/component-mapping.md).
 
 ## New baseline experience introduced in Experience Manager Guides
 

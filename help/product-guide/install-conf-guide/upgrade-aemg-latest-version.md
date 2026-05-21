@@ -16,7 +16,7 @@ This article provides instructions to upgrade your Experience Manager Guides ver
 
 You can upgrade your current version of Experience Manager Guides to version 5.2.0:
 
-- If you are using version 5.1.0, or 5.1.x , then you can directly upgrade to version 5.2.0. 
+- If you are using version 5.0.0, 5.0.3, 5.1.0 or 5.1.3, then you can directly upgrade to version 5.2.0. 
 - If you are using version 4.6.0, 4.6.x, 5.0.0, or 5.0.x, then you need to upgrade to version 5.1.0.
 - If you are on a version prior to 4.6.0, refer to [Upgrade Adobe Experience Manager Guides for version 4.4.0 and earlier](./upgrade-aemg-prev-versions.md) for detailed upgrade instructions. 
 
@@ -50,7 +50,7 @@ For more details, refer to the following procedures:
 
 Before you start the Experience Manager Guides 5.2.0 upgrade process, ensure that you have:
 
-1. Upgraded to Experience Manager Guides version 4.6.3, 4.6.4, 5.0.0, 5.0.0 Service Pack 1, or 5.1.x.
+1. Upgraded to Experience Manager Guides version 5.0.0, 5.0.3, 5.1.0 or 5.1.3.
 1. (Optional) Closed all translation tasks.
 1. Changed the log level to **INFO** for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` class and append these logs in a new log file, for example, `logs/translation_upgrade.log`.
 
