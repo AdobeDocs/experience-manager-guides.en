@@ -106,7 +106,7 @@ In this package we have also provided some customisation examples (available at 
 
   ```  
 
-2. **Left panel**: In this example we have customized the `left tab panel` to have another`tab` titled "TEST EXTENSION", and a corresponding `tab panel` which has a label: `Test Tab Panel`.
+1. **Left panel**: In this example we have customized the `left tab panel` to have another`tab` titled "TEST EXTENSION", and a corresponding `tab panel` which has a label: `Test Tab Panel`.
 Download the code sample for [Left Panel](./examples/left_panel_container.ts).
 
   ```typescript
@@ -145,7 +145,7 @@ Download the code sample for [Left Panel](./examples/left_panel_container.ts).
   export default tabLeftPanel
   ```
 
-3. **Right Panel**: In this example we have customized the `right tab panel` to have another `tab` titled "TEST EXTENSION", and a corresponding `tab panel` which has a label: `New Tab Panel`. Download the code sample for [Right Panel](./examples/right_panel_container.ts).
+1. **Right Panel**: In this example we have customized the `right tab panel` to have another `tab` titled "TEST EXTENSION", and a corresponding `tab panel` which has a label: `New Tab Panel`. Download the code sample for [Right Panel](./examples/right_panel_container.ts).
 
   ```typescript
   const rightPanel = {
@@ -179,7 +179,7 @@ Download the code sample for [Left Panel](./examples/left_panel_container.ts).
   export default rightPanel
   ```
 
-4. **Repository panel**: Download the code sample for [Repository Panel](./examples/repository_panel.ts).
+1. **Repository panel**: Download the code sample for [Repository Panel](./examples/repository_panel.ts).
 
   ```typescript
   export enum VIEW_STATE2 {
@@ -256,7 +256,7 @@ Download the code sample for [Left Panel](./examples/left_panel_container.ts).
   ```
 
 
-5. **Toolbar**: In this example we have replaced the `Insert Element`, `Insert Paragraph`, `Insert Numbered List`, `Insert Bulleted List` buttons with a single `More Insert Options` button containing all of these. Download the code sample for [Toolbar](./examples/toolbar.ts).
+1. **Toolbar**: In this example we have replaced the `Insert Element`, `Insert Paragraph`, `Insert Numbered List`, `Insert Bulleted List` buttons with a single `More Insert Options` button containing all of these. Download the code sample for [Toolbar](./examples/toolbar.ts).
 
   ```typescript
   import { VIEW_STATE } from "./review_app_examples/review_comment"
@@ -377,7 +377,7 @@ Download the code sample for [Left Panel](./examples/left_panel_container.ts).
   export default topbarExtend
   ```
 
-6. **Manage button on the Metadata panel**: In this example, we have customized the **Manage** button (located in the Metadata panel on the Reports page) so that it is disabled when selected file(s) are in read-only mode. This helps prevent accidental metadata edits on files that are not intended for editing. Download the code sample for [Manage button on the Metadata panel](./examples/metadata_report_manage_button.ts).
+1. **Manage button on the Metadata panel**: In this example, we have customized the **Manage** button (located in the Metadata panel on the Reports page) so that it is disabled when selected file(s) are in read-only mode. This helps prevent accidental metadata edits on files that are not intended for editing. Download the code sample for [Manage button on the Metadata panel](./examples/metadata_report_manage_button.ts).
 
   ```typescript
   const mapConsoleActionBar = {
@@ -490,7 +490,7 @@ Download the code sample for [Left Panel](./examples/left_panel_container.ts).
   }
   ```
 
-2. **Review Comment**: In this example we have added replaced the user name with user info (consisiting full name and title of the commenter), added a unique comment ID, a mailTo icon, and added input fields for mentioning comment severity and rationale.
+1. **Review Comment**: In this example we have added replaced the user name with user info (consisiting full name and title of the commenter), added a unique comment ID, a mailTo icon, and added input fields for mentioning comment severity and rationale.
 We have also added a `accept with modification` button on comments on the XMLEditor side that opens a dialogue. Download the code sample for [Review Comment](./examples/review_app_examples/review_comment.ts).
 
   ```typescript
@@ -706,7 +706,7 @@ We have also added a `accept with modification` button on comments on the XMLEdi
   export default reviewComment
   ```
 
-3. **Comment Reply**: In this example we have added replaced the user name with user info (consisting full name and title of the commenter), and added a mailTo icon in the comment header. Download the code sample for [Comment Reply](./examples/review_app_examples/comment_reply.ts).
+1. **Comment Reply**: In this example we have added replaced the user name with user info (consisting full name and title of the commenter), and added a mailTo icon in the comment header. Download the code sample for [Comment Reply](./examples/review_app_examples/comment_reply.ts).
 
   ```typescript
   import { VIEW_STATE } from "./review_comment"
@@ -760,7 +760,7 @@ We have also added a `accept with modification` button on comments on the XMLEdi
   export default commentReply
   ```
 
-4. **Inline Review Panel**: In this file, we calculate and assign the unique comment ID, mentioned in the `Review Comment` and `Comment Reply` examples.
+1. **Inline Review Panel**: In this file, we calculate and assign the unique comment ID, mentioned in the `Review Comment` and `Comment Reply` examples.
     - The `setCommentId` method sets the unique comment ID to each comment depending on the comment count.
 
     - The `setUserInfo` sets the value of userInfo, using the full name and title for each comment.
@@ -860,7 +860,7 @@ We have also added a `accept with modification` button on comments on the XMLEdi
   ```
   
 
-5. **Topic review panel**: This file extends **Inline Review Panel** (as illustrated previously) so that added customizations work on the Review App side as well. Download the code sample for [Topic Reviews Panel](./examples/review_app_examples/topic_reviews.ts).
+1. **Topic review panel**: This file extends **Inline Review Panel** (as illustrated previously) so that added customizations work on the Review App side as well. Download the code sample for [Topic Reviews Panel](./examples/review_app_examples/topic_reviews.ts).
 
   ```typescript
 
@@ -892,7 +892,7 @@ We have also added a `accept with modification` button on comments on the XMLEdi
 
   ```
 
-6. **Accept with Modification Dialog**: This is an example of adding new widgets to the app. Here we have created a new dialogue, that has two input text fields: `Revised Text` and `Adjudicator Comment Rationale`. Download the code sample for [Accept with Modification Dialog](./examples/review_app_examples/accept_with_modification_dialog.ts).
+1. **Accept with Modification Dialog**: This is an example of adding new widgets to the app. Here we have created a new dialogue, that has two input text fields: `Revised Text` and `Adjudicator Comment Rationale`. Download the code sample for [Accept with Modification Dialog](./examples/review_app_examples/accept_with_modification_dialog.ts).
 
   ```typescript
 
@@ -999,7 +999,7 @@ We have also added a `accept with modification` button on comments on the XMLEdi
 
   ```
 
-7. **Save Revision**: This is asn example of how to update an exisitng dialog. We add a button for publish in this. We allow modifying the content of the dialog. Refer to its json here: [`save_revision`](./jsons/dialogs/save_revision.json). Download the code sample for [Save Revision](./examples/save_revision.ts).
+1. **Save Revision**: This is asn example of how to update an exisitng dialog. We add a button for publish in this. We allow modifying the content of the dialog. Refer to its json here: [`save_revision`](./jsons/dialogs/save_revision.json). Download the code sample for [Save Revision](./examples/save_revision.ts).
 
   ```typescript
   enum VIEW_STATE {
