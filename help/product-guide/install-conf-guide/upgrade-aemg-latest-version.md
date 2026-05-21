@@ -46,7 +46,7 @@ For more details, refer to the following procedures:
 
 >[!NOTE]
 >
->If you are upgrading to 5.2.0, then you need to be on the version 5.1.0 or 5.1.x of Experience Manager Guides. The upgrade process for the 5.2.0 release follows the same steps as the 5.1.0 release.
+>If you are upgrading to 5.2.0, then you need to be on the version 5.0.0, 5.0.3, 5.1.0 or 5.1.3 of Experience Manager Guides. The upgrade process for the 5.2.0 release follows the same steps as the 5.1.0 release.
 
 Before you start the Experience Manager Guides 5.2.0 upgrade process, ensure that you have:
 
