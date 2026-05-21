@@ -5,9 +5,8 @@ description: Learn about the bug fixes in the 2026.05.0 Service Pack 1 release o
 ---
 # Fixed issues in the 2026.05.0 Service Pack 1 release 
 
-This article covers the bugs fixed in various areas of the 2026.05.0 Service Pack 1 release of Adobe Experience Manager Guides as a Cloud Service.
+This article covers the bugs fixed in the 2026.05.0 Service Pack 1 release of Adobe Experience Manager Guides as a Cloud Service.
 
-Learn about [upgrade instructions for the 2026.05.0 Service Pack 1 release](upgrade-instructions-2026-05-0-sp1.md).
 
 ## Translation
 
