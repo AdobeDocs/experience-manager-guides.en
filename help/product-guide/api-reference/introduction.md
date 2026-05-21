@@ -142,6 +142,10 @@ These APIs are ideal for:
 
 For detailed information on API usage, parameters, and example requests, view the relevant topics in the **API Reference** section of the Experience Manager Guides documentation. 
 
+>[!NOTE]
+>
+> You can also refer to the **Swagger documentation** for the publicly available REST APIs at `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`. Currently, only APIs related to Assets, Baseline, and Reporting are available in the Swagger documentation.
+
 ## Additional resources 
 
 Following is a list of other helpful resources of AEM Guides, which are available on the [Learn & Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) page:
