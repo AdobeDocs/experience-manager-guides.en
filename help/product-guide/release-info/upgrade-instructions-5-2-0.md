@@ -47,6 +47,17 @@ For more details, view the [Technical requirements](../install-guide/download-in
 |5.2.0 UUID |6.5 LTS | guides-components.all-1.4.1|NA|
 |5.2.0 UUID |6.5 | guides-components.all-1.4.0| aemg-sites-template-1.3.0|
 
+
+### Configuration changes
+
+With 5.2.0 release, new configuration settings have been introduced to enable and support new features. These configurations include settings for the following:
+
+- New editor
+- New baseline
+- Ignore metadata property
+
+For detailed information about these configuration settings, see [Configuration changes for On-Premise].
+
 ## Upgrade to Experience Manager Guides 5.2.0 
 
 You can easily upgrade your current version of Experience Manager Guides to version 5.2.0 on **AEM 6.5** or **AEM 6.5 LTS Service Pack 2**. 
@@ -69,5 +80,7 @@ Before you proceed with upgrading to version 5.2.0 of Experience Manager Guides,
 >[!NOTE]
 >
 >You must install AEM service pack before upgrading Experience Manager Guides version.
+
+After upgrading to the 5.2 release, reindex the `guidesAssetLucene` index to enable the Find and replace in Source view feature for previously captured content. For details, view []
 
 For additional details on the upgrade workflows, prerequisites, and troubleshooting scenarios, view [Upgrade instructions for the On-premise releases](../install-conf-guide/upgrade-aemg-latest-version.md) of Experience Manager Guides.
