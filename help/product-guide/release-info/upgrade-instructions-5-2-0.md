@@ -56,7 +56,7 @@ With 5.2.0 release, new configuration settings have been introduced to enable an
 - New baseline
 - Ignore metadata property
 
-For detailed information about these configuration settings, see [Configuration updates](../install-conf-guide/configuration-on-prem).
+For detailed information about these configuration settings, see [Configuration updates](../install-conf-guide/configuration-on-prem.md).
 
 ## Upgrade to Experience Manager Guides 5.2.0 
 
@@ -81,6 +81,6 @@ Before you proceed with upgrading to version 5.2.0 of Experience Manager Guides,
 >
 >You must install AEM service pack before upgrading Experience Manager Guides version.
 
-After upgrading to the 5.2 release, reindex the `guidesAssetLucene` index to enable the Find and replace in Source view feature for previously captured content. For details, view [Reindexing for Find and replace](../install-conf-guide/custom-indexing-on-prem).
+After upgrading to the 5.2 release, reindex the `guidesAssetLucene` index to enable the Find and replace in Source view feature for previously captured content. For details, view [Reindexing for Find and replace](../install-conf-guide/custom-indexing-on-prem.md).
 
 For additional details on the upgrade workflows, prerequisites, and troubleshooting scenarios, view [Upgrade instructions for the On-premise releases](../install-conf-guide/upgrade-aemg-latest-version.md) of Experience Manager Guides.
