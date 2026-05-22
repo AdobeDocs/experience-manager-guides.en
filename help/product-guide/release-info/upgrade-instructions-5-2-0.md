@@ -70,6 +70,4 @@ Before you proceed with upgrading to version 5.2.0 of Experience Manager Guides,
 >
 >You must install AEM service pack before upgrading Experience Manager Guides version.
 
-For details, view [Upgrade instructions for the On-premise releases](../install-conf-guide/upgrade-aemg-latest-version.md) of Experience Manager Guides.
-
-
+If you experience issues or require additional details on the upgrade workflows, prerequisites, and troubleshooting scenarios, view [Upgrade instructions for the On-premise releases](../install-conf-guide/upgrade-aemg-latest-version.md) of Experience Manager Guides.
