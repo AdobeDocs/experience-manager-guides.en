@@ -47,18 +47,20 @@ For more details, view the [Technical requirements](../install-guide/download-in
 |5.2.0 UUID |6.5 LTS | guides-components.all-1.4.1|NA|
 |5.2.0 UUID |6.5 | guides-components.all-1.4.0| aemg-sites-template-1.3.0|
 
+## Prerequisites
 
-### Configuration changes
+Before you start the Experience Manager Guides 5.2.0 upgrade process, ensure that you have:
 
-With 5.2.0 release, new configuration settings have been introduced to enable and support new features. These configurations include settings for the following:
+1. Upgraded to Experience Manager Guides version 5.0.0, 5.0.3, 5.1.0 or 5.1.3.
+1. (Optional) Closed all translation tasks.
+1. Changed the log level to **INFO** for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` class and append these logs in a new log file, for example, `logs/translation_upgrade.log`.
 
-- New editor
-- New baseline
-- Ignore metadata property
+>[!NOTE]
+>
+> The post-processing and indexing may take a few hours. We recommend you to start the upgrade process during the off-peak hours.
 
-For detailed information about these configuration settings, see [Configuration updates](../install-conf-guide/configuration-on-prem.md).
 
-## Upgrade to Experience Manager Guides 5.2.0 
+## Upgrade path for Experience Manager Guides 5.2.0 
 
 You can easily upgrade your current version of Experience Manager Guides to version 5.2.0 on **AEM 6.5** or **AEM 6.5 LTS Service Pack 2**. 
 
@@ -81,6 +83,32 @@ Before you proceed with upgrading to version 5.2.0 of Experience Manager Guides,
 >
 >You must install AEM service pack before upgrading Experience Manager Guides version.
 
-After upgrading to the 5.2 release, reindex the `guidesAssetLucene` index to enable the Find and replace in Source view feature for previously captured content. For details, view [Reindexing for Find and replace](../install-conf-guide/custom-indexing-on-prem.md).
+## Upgrade process for Experience Manager Guides 5.2.0 
 
-For additional details on the upgrade workflows, prerequisites, and troubleshooting scenarios, view [Upgrade instructions for the On-premise releases](../install-conf-guide/upgrade-aemg-latest-version.md) of Experience Manager Guides.
+1. Download the 5.2.0 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+
+1. Reindex the `guidesAssetLucene` index to enable the Find and replace in Source view feature for previously captured content. For details, view [Reindexing for Find and replace](../install-conf-guide/custom-indexing-on-prem.md).
+
+1. Update the system configuration to incorporate the new settings introduced in version 5.2.0, ensuring support for the following enhancements:
+
+    - New Editor
+    - New Baseline
+    - Find and replace
+    - Ignore metadata property
+    - DITA assets replication
+    - Skip peer links for Old Baseline
+    - Asset processing
+    - B-tree cleanup
+    - Initialization of destination with source content in the translation
+
+
+For detailed information about these configuration settings, see [Configuration updates](../install-conf-guide/configuration-on-prem.md).
+
+
+
+
+
+<!-- After upgrading to the 5.2 release, 
+
+For additional details on the upgrade workflows, prerequisites, and troubleshooting scenarios, view [Upgrade instructions for the On-premise releases](../install-conf-guide/upgrade-aemg-latest-version.md) of Experience Manager Guides. -->
+

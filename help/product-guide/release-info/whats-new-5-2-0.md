@@ -21,9 +21,9 @@ Here's an overview video highlighting the capabilities of Editor 2.0.
 >[!VIDEO](https://video.tv.adobe.com/v/3484007)
 
 
->[!NOTE]
+<!-- >[!NOTE]
 >
-> Contact the AEM Guides Customer Success team to have the Editor 2.0 enabled on your environment.
+> Contact the AEM Guides Customer Success team to have the Editor 2.0 enabled on your environment. -->
 
 Following are the enhancements that make authoring easier and more efficient.
 
@@ -131,7 +131,7 @@ For more details, view [Find and replace](../user-guide/web-editor-left-panel.md
 
 >[!NOTE]
 >
-> For **Use source mode** feature in the Find and replace panel, a custom index deployment must first be completed. After the indexing is in place, contact your Customer Success team to enable this feature.
+> For **Use source mode** feature in the Find and replace panel, reindexing must first be completed. 
 
 ## Enhanced file and folder browsing experience 
 
@@ -406,9 +406,9 @@ For more details, view [Component mapping for AEM Sites](../install-conf-guide/c
 
 ## New baseline experience introduced in Experience Manager Guides
 
->[!NOTE]
+<!-- >[!NOTE]
 >
-> Contact the AEM Guides Customer Success team to have New baseline enabled on your environment.
+> Contact the AEM Guides Customer Success team to have New baseline enabled on your environment. -->
 
 Managing large, complex baselines is now faster, more stable, and easier to scale with the **new baseline experience**, built on a redesigned baseline architecture. This update addresses long‑standing performance and reliability challenges while preserving existing workflows.
 
