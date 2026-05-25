@@ -17,7 +17,7 @@ The following steps explain how to enable the destination copy initialization in
     http://<server name>:<port>/system/console/configMgr
     ```
 
-1.  Search for and click on the **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundle.
+1.  Search for and select the **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundle.
 
 1.  Enable or disable the setting **Initialize destination language copy with source content** as per your requirement. This setting is applicable only when the legacy translation workflow is disabled.
 

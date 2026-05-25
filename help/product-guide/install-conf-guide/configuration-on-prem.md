@@ -9,9 +9,9 @@ level: Experienced
 
 This article provides a consolidated overview of the configuration changes introduced across releases of Experience Manager Guides. The following matrix lists the release version, the newly introduced or updated configuration settings, and links to the related documentation for detailed setup and configuration instructions. Use this information to quickly identify the configuration updates applicable to your environment during an upgrade.
 
-| Release Version | Configuration Changes | Related Documentation |
+| Release version | Configuration changes | Related documentation |
 |-----------------|-----------------------|------------------------|
-| 5.2 | New Editor | [Configure New Editor](../install-conf-guide/conf-new-editor-on-prem.md) |
+| Experience Manager Guides 5.2.0 | New Editor | [Configure New Editor](../install-conf-guide/conf-new-editor-on-prem.md) |
 |  | New Baseline | [Configure New Baseline](../install-conf-guide/conf-new-baseline-on-prem.md) |
 |  | Ignore metadata property | [Configure the ignore list of metadata properties](../install-conf-guide/conf-metadata-prop.md)|
 |  | Find and replace (Source view) | [Configure Find and replace (Source view)](../install-conf-guide/conf-find-replace-on-prem.md) |

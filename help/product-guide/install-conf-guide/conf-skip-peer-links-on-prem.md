@@ -17,7 +17,7 @@ The following steps explain how to enable skipping of peer links for Olde Baseli
     http://<server name>:<port>/system/console/configMgr
     ```
 
-1.  Search for and click on the **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundle.
+1.  Search for and select the **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundle.
 
 1.  Enable the setting **Skip peer links for Baseline V1**. By default this setting is diabled.
 
