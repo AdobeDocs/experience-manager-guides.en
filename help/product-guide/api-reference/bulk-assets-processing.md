@@ -8,6 +8,10 @@ exl-id: feba6d8e-c363-4360-af33-92a01dcf6672
 ---
 # API to start bulk processing for assets
 
+>[!NOTE]
+>
+> For the latest REST API endpoint definitions and related details, view the Swagger documentation at `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` (replace `<aem-author-url>` with your AEM server URL). As this article is scheduled to be archived in October 2026, we recommend using the Swagger documentation going forward for the most up-to-date API information.
+
 A POST method that initiates bulk asset processing for a specified path. This API supports both JCR-based and database-based asset processing. It starts an asynchronous job that processes all assets under the given path and its sub-paths. Upon initiation, the API returns a unique processingID, which can be used to track the job status.
 
 **Request URL**

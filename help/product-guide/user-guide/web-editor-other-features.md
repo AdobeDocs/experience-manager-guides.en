@@ -80,7 +80,7 @@ To create a new version of the file, select **Save As New Version**. For more de
 
     >[!NOTE]
     >
-    >From 2025.11.0 release, **Repository** is renamed to **Explorer**. For On-Premise setup, it continues to be available as Repository till 5.1 release of Experience Manager Guides.
+    >From 2025.11.0 release for Cloud service and from 5.2 release for On-Premise, **Repository** is renamed to **Explorer**. For On-Premise setup prior to 5.2 version, it continues to be available as Repository.
 
 ***Add to***: You can choose from the following options:
 

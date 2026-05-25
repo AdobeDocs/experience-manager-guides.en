@@ -119,6 +119,10 @@ These APIs are ideal for:
 
 For detailed information on API usage, parameters, and example requests, view the relevant topics in the **API Reference** section of the Experience Manager Guides documentation.
 
+>[!NOTE]
+>
+> You can also refer to the **Swagger documentation** for the publicly available REST APIs at `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`. Currently, only APIs related to Assets, Baseline, and Reporting are available in the Swagger documentation.
+
 
 ## Additional resources 
 

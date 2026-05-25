@@ -119,7 +119,7 @@ You can also perform many actions using the Options menu available for a Collect
 
 >[!NOTE]
 >
-> Starting with 2025.11.0 release, **Repository** in the Editor will be deprecated and replaced by **Explorer** for **Cloud service** setup. For **On-Premise** setup, you will continue to view and use Repository through the Editor interface till 5.1 release of Experience Manager Guides. 
+> Starting with 2025.11.0 release for Cloud Service and 5.2.0 release for On-Premise, **Repository** is replaced by **Explorer**. For On-Premise prior to version 5.2, you will continue to view and use Repository through the Editor interface.
 
 When you select the Repository icon, you get a list of files and folders available in DAM. By default, you can view the files by titles. As you hover over a file, you can view the file title and the file name as a tooltip.   
 
@@ -466,9 +466,9 @@ The various options in the Options menu are explained below:
 
 ## Explorer
 
->[!NOTE] 
+>[!NOTE]
 >
-> Starting with the 2025.11.0 release, the term Repository in the Editor will be replaced by **Explorer** for Cloud service setup. On-Premise setup, will continue to see and access Repository in the Editor.
+> Starting with 2025.11.0 release for Cloud Service and 5.2.0 release for On-Premise, **Repository** is replaced by **Explorer**. For On-Premise prior to version 5.2, you will continue to view and use Repository through the Editor interface.
 
 Explorer provides most of the capabilities previously available in Repository, including:
 
