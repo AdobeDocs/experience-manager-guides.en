@@ -4,6 +4,24 @@ description: Publish a topic or the elements within a topic to an Experience Fra
 feature: Publishing
 role: User
 exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
+TQID: https://experienceleague.adobe.com/7PDuoIrsv5an1eYNkJJzbFwg3dNUe-QLLrkiHy4wrYI
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Publish Experience Fragments
 

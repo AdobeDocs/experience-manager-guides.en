@@ -5,6 +5,32 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
+TQID: https://experienceleague.adobe.com/o2K7oBKJLUkB43dMNcQ1iS1rpNKjFu6dvgO-HY37Vvg
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: ed9d83c9-e55d-4a67-9667-8e31871715a7
+    internal-label: Content migration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Publish Content Fragments
 

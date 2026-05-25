@@ -5,6 +5,22 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
+TQID: https://experienceleague.adobe.com/g5Mp7tMM9JaAYwNmMyPmaFEcI0fx66vrX8ry97lIUF8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Java-based API for creating and activating packages {#id175UB30E05Z}
 

@@ -5,6 +5,15 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
+TQID: https://experienceleague.adobe.com/fsjlODVKQ3YZ0Orb-GheVTc2MT91ajIs-AJdX4YXqz8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Technical requirements {#id213BCG003XA}
 

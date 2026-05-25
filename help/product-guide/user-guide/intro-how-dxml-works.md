@@ -4,6 +4,18 @@ description: Learn how Experience Manager Guides works with AEM and other DITA e
 exl-id: 7c76fa01-63dc-4017-af15-c1e62b1849d1
 feature: Introduction
 role: User
+TQID: https://experienceleague.adobe.com/PopsDvq1jXECs7-XcPJok7ZdlCdJVuZ4VOQC-5206CA
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # How Adobe Experience Manager Guides works {#id167G9A00DO4}
 

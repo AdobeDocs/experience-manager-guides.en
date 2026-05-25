@@ -4,6 +4,30 @@ description: Create and configure the AEM Sites preset in the Map cosole using t
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
+TQID: https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # AEM Sites preset in the Map console
 

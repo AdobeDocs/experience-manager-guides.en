@@ -5,6 +5,21 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 3e77747d-ff04-465c-9305-fd6f1c74df04
+TQID: https://experienceleague.adobe.com/UT48gVRQ-ncVRjqx-b7Td-b8EddTqyKy3rLm7Vd3Ftk
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Publish Adobe Experience Manager Sites pages
 

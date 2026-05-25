@@ -14,6 +14,8 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - {hide-from-toc} [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2026 Releases {#2026-releases}
+        - 2026.05.0 SP1 Release {#2605-sp1-release}
+          - [Fixed issues](./release-info/fixed-issues-2026-05-0-sp1.md)
         - 2026.05.0 Release {#2605-release}
           - [What's new](./release-info/whats-new-2026-05-0.md)
           - [Fixed issues](./release-info/fixed-issues-2026-05-0.md)

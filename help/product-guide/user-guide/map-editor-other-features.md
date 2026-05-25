@@ -4,6 +4,23 @@ description: Discover some common features in the Map Editor. Learn how to resol
 exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
+TQID: https://experienceleague.adobe.com/Af2mFR-OG-QTbQU7HBQb-kfvuCcw5fd89CA4-mSroNE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Additional features in the Map Editor {#id1942D0T0HUI}
 

@@ -4,6 +4,24 @@ description: March release of [!DNL Adobe Experience Manager Guides] as a Cloud 
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
 feature: Release Notes
 role: Leader
+TQID: https://experienceleague.adobe.com/--ZHijFEci8WcWunPdIVL67S0ipVDzifIIDl6VLK7dg
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # March release of [!DNL Adobe Experience Manager Guides] as a Cloud Service 
 

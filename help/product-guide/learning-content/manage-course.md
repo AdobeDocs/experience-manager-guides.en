@@ -4,6 +4,20 @@ description: Learn about the various features present in Experience Manager Guid
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
+TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Manage your course  
 

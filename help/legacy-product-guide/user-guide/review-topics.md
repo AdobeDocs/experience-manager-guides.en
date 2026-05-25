@@ -5,6 +5,15 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
+TQID: https://experienceleague.adobe.com/q07HdBMHuEyjdQ12idI4-PuBol-NpCWXTsOuZgcAhps
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Review topics {#id2056B0W0FBI}
 

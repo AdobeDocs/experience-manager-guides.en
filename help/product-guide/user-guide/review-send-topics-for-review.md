@@ -2,8 +2,25 @@
 title: Send topics for review
 description: Learn how to create a review task and send topics for review in AEM Guides. Send one or more topics in a DITA map for review.
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
-feature: Reviewing 
+feature: Reviewing
 role: User
+TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Send topics for review {#id199RD0S035Z}
 

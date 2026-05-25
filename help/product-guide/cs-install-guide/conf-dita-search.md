@@ -5,6 +5,24 @@ exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
 feature: Search Configuration
 role: Admin
 level: Experienced
+TQID: https://experienceleague.adobe.com/z0del86WAJYu5cd2-h2RPuWvi1FwzvyeyEn-1zKDvl4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: c1a26c73-5f45-427a-a313-7cb7df2c304e
+    internal-label: Search configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # Configure search for AEM Assets UI {#id192SC800MY4}
 

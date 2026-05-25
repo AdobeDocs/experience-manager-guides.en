@@ -2,6 +2,28 @@
 title: Use the AI Assistant to author documents smartly `
 description: Learn how to Use the AI Assistant to search and author documents smartly in Adobe Experience Manager Guides.
 exl-id: c18e8761-333e-40ef-9e16-e71a194a754a
+TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+    internal-label: Generative AI
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+    internal-label: Content reuse
 ---
 # AI Assistant (Beta)  
 

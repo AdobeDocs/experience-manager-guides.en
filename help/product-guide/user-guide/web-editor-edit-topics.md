@@ -4,6 +4,23 @@ description: Learn to edit topics in the Editor. Know about various editing feat
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
+TQID: https://experienceleague.adobe.com/Ln0JE2F8klsmIZJqtpy3Idi3VHdh1U900sfMrD0xpEU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Edit topics in the Editor {#id2056B040VUI}
 
@@ -28,7 +45,7 @@ The Editor comes with a range of editing features that let you easily create or 
     ![Quick insert menu](./images/quick-insert-menu-in-editor.png){width="650"}
 
     Search for a new element or choose one from your favorites using the Quick Insert menu, then insert it at the current cursor position. Favorites include your most frequently used elements, and only those that are valid for the current cursor location are shown. You can enable or disable this feature and configure favorite elements for insertion through the Quick insert menu available in the the [Editor settings](./config-editor-settings.md).    
-    
+
     
 >[!TAB Old Editor]
 

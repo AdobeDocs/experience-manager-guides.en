@@ -5,6 +5,23 @@ exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
 level: Experienced
+TQID: https://experienceleague.adobe.com/cfaAR6ieDyb5pmbXcAcxzXzHj0mGoJyX5QYg9O4InY8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Appendix {#id195AD0L60Y4}
 

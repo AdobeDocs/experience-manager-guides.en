@@ -2,6 +2,23 @@
 title: Deployment options and migration to Cloud
 description: AEM Guides, different deployment options, and migrating content from on-prem setup to AEMaaCS
 exl-id: 6224f35a-bbed-4a3b-b411-ee653c108d90
+TQID: https://experienceleague.adobe.com/b9R-scgOPiSxClCEheh73Ebvg4JnC-fdkH6FCMqUnKU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Deployment options and migration to Cloud
 
