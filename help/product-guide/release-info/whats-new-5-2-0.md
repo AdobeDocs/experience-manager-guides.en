@@ -105,7 +105,9 @@ You can also filter your Repository search results based on the current document
 
 ![](assets/document-state-filter-repository.png){align="left"}
 
-The default filter values available for Document state are: Draft, Edit, In-Review, Approved, Reviewed, and Done. For details on customizing the default document state filters values, view [Configure document state filters](../install-conf-guide/conf-doc-state-filters.md). 
+The default filter values available for Document state are: Draft, Edit, In-Review, Approved, Reviewed, and Done. 
+
+<!-- For details on customizing the default document state filters values, view [Configure document state filters](../install-conf-guide/conf-doc-state-filters.md).  -->
 
 >[!NOTE]
 >

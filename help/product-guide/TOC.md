@@ -671,6 +671,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Configure single topic PDF generation for Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
           - [Configure Translation feature in the Web Editor for Cloud Service](./install-conf-guide/conf-translation-editor.md)          
       - Editor setting for On-Premise {#editor-on-prem-settings}
+          - [Configure New Editor](./install-conf-guide/conf-new-editor-on-prem.md)
           - [Configure additional special characters for On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
           - [Configure the title for Check in and Check out icons for On-Premise](./install-conf-guide/conf-checkin-checkout-title.md)
           - [Configure the number of LimitReads for a query for On-Premise](./install-conf-guide/conf-query-limitreads.md)
@@ -712,9 +713,13 @@ breadcrumb-title: AEM Guides Documentation
       - [Integrate desktop-based XML editors](./install-conf-guide/integrate-desktop-editors.md)
       - [Configure Workfront for Cloud Service](./install-conf-guide/conf-workfront.md)
       - [Configure translation](./install-conf-guide/conf-translation.md)
+      - [Configure destination copy initialization for On-Premise](./install-conf-guide/conf-translation-copies-on-prem.md)
+      - [Configure New Baseline for On-Premise](./install-conf-guide/conf-new-baseline-on-prem.md)
+      - [Configure skipping of peer links for On-Premise](./install-conf-guide/conf-skip-peer-links-on-prem.md)
     - Extending the features {#aemg-customization}
       - [Deploy custom index for Find and replace feature for Cloud Service](./install-conf-guide/custom-indexing-cs.md)
       - [Reindex for Find and replace feature for On-Premise](./install-conf-guide/custom-indexing-on-prem.md) 
+      - [Configure Find and replace feature for On-Premise](./install-conf-guide/conf-find-replace-on-prem.md)
       - [Component mapping for AEM Sites](./install-conf-guide/component-mapping.md)
     - Appendix {#appendix}
       - [Appendix](./install-conf-guide/aemg-appendix.md)   
