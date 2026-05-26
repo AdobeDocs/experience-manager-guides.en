@@ -7,7 +7,7 @@ level: Experienced
 ---
 # Configuration updates for Experience Manager Guides Releases
 
-This article provides a consolidated overview of the configuration changes introduced across releases of Experience Manager Guides. The following matrix lists the release version, the newly introduced or updated configuration settings, and links to the related documentation for detailed setup and configuration instructions. Use this information to quickly identify the configuration updates applicable to your environment during an upgrade.
+This article provides a consolidated overview of the configuration changes introduced across releases of Experience Manager Guides. The following matrix lists the release version and the newly introduced or updated configurations. It also includes links to the related documentation for detailed setup and configuration instructions. Use this information to quickly identify the configuration updates that may apply to your environment during an upgrade.
 
 | Release version | Configuration changes | Related documentation |
 |-----------------|-----------------------|------------------------|

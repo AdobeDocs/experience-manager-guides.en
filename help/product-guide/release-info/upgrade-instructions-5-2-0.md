@@ -55,18 +55,14 @@ Before you start the Experience Manager Guides 5.2.0 upgrade process, ensure tha
 1. (Optional) Closed all translation tasks.
 1. Changed the log level to **INFO** for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` class and append these logs in a new log file, for example, `logs/translation_upgrade.log`.
 
->[!NOTE]
->
-> The post-processing and indexing may take a few hours. We recommend you to start the upgrade process during the off-peak hours.
-
-
 ## Upgrade path for Experience Manager Guides 5.2.0 
 
-You can easily upgrade your current version of Experience Manager Guides to version 5.2.0 on **AEM 6.5** or **AEM 6.5 LTS Service Pack 2**. 
+You can easily upgrade your current version of Experience Manager Guides to version 5.2.0 on **AEM 6.5** or **AEM 6.5 LTS**. 
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> - AEM 6.5 LTS Service Pack 2 is intended for use with the Experience Manager Guides 5.2.0 release and excludes support for earlier versions. <br>
+> - Experience Manager Guides 5.2.0 is intended for use only with AEM 6.5 LTS Service Pack 2. 
+> - Experience Manager Guides 5.2.0 is intended for use only with AEM 6.5 Service Pack 24, 23, and 22.
 > - If you are currently on AEM 6.5 and plan to move to AEM 6.5 LTS, make sure to complete the AEM upgrade first before proceeding with the Experience Manager Guides 5.2.0 upgrade. For details, view [Upgrading to Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade). 
 
 Before you proceed with upgrading to version 5.2.0 of Experience Manager Guides, you must consider the following points:
@@ -79,11 +75,11 @@ Before you proceed with upgrading to version 5.2.0 of Experience Manager Guides,
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
 - If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
->[!NOTE]
->
->You must install AEM service pack before upgrading Experience Manager Guides version.
-
 ## Upgrade process for Experience Manager Guides 5.2.0 
+
+>[!IMPORTANT]
+>
+> The post-processing and indexing may take a few hours. We recommend you to start the upgrade process during the off-peak hours.
 
 1. Download the 5.2.0 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 
@@ -102,7 +98,7 @@ Before you proceed with upgrading to version 5.2.0 of Experience Manager Guides,
     - Initialization of destination with source content in the translation
 
 
-For detailed information about these configuration settings, see [Configuration updates](../install-conf-guide/configuration-on-prem.md).
+For detailed information about these configuration settings, view [Configuration updates](../install-conf-guide/configuration-on-prem.md).
 
 
 
