@@ -48,7 +48,6 @@ Learn about [upgrade instructions for the 5.2.0 release](upgrade-instructions-5-
 - Unable to remove Version labels from **Version history** panel in Assets UI. (GUIDES-38276)
 - Creating a topic in a folder with spaces in its name incorrectly creates a duplicate folder where spaces are replaced by hyphens, and the topic is saved there instead of the original folder. (GUIDES-41938)
 - During first-time translation of large maps, empty XML files are created for the destination language, leading to increased server load and slower performance. (GUIDES-41613)
-- In DB-based environments, valid internal DITA links appear as broken links in **Asset Properties**, even though they work correctly in the Editor and in published output. (GUIDES-35048)
 - In the Assets search, sub-assets and metadata nodes (such as images and PDFs) are incorrectly included in the results. Additionally, for an output preset when DITAVAL filters are applied, the search returns internally generated DITAVAL files created from condition presets. (GUIDES-35418)
 - When uploading assets with filename containing invalid characters, the asset fails to upload and displays an incorrect message **File is locked by other user** despite the asset being unlocked. (GUIDES-32680)
 
@@ -122,7 +121,7 @@ Learn about [upgrade instructions for the 5.2.0 release](upgrade-instructions-5-
 
 - Error logs that are generated while uploading an asset via the Assets UI or creating a new file from the Editor interface, incorrectly use the term `predecessor` instead of `successor` in the log message. (GUIDES-35607)
 - Using `scope="external"` for a reference to DAM content within a topic or map causes the asset's relative path to be substituted with a GUID. (GUIDES-38783)
-- When large topics or maps are opened, the Author instance becomes unresponsive, requiring a restart in some cases. (GUIDES-43547)
+- When a topic contains a large number of references linked from folders with many files, the Author instance may become slow or unresponsive, in some cases requiring a restart of the instance. (GUIDES-43547)
 - When attempting to save a topic or map, the operation may intermittently fail with a **Failed to save file** error, particularly during intensive asset processing tasks or translation workflows running in the background. (GUIDES-37837)
 
 
@@ -158,4 +157,5 @@ Adobe has identified the following known issues for 5.2.0 release:
 - In the Assets UI, the **Move** button does not get enabled on the first attempt when more than 2 files or folders are selected. (GUIDES-42721) <br> **Workaround**:  After selecting more than two files or folders, wait for a few seconds before selecting the destination folder. 
 - Selecting a topic in the Preview mode does not highlight it in the Map view if the topic is inside bookmap tags (frontmatter, chapter, part, or baatter) or part of cyclic content. (GUIDES-42416)
 - When a file is open in both the Editor and the Search panel, deleting it from the Explorer panel removes the file and refreshes the Explorer list, but refreshing the page continues to display the file in the Search panel. (GUIDES-41935)
+- While updating an active review task, if a topic that is already part of the review is removed and then re‑added without clicking Update, the reviewer(s) information in the Reviewers tab is lost. (GUIDES-38774)
 - When an in-review topic is removed from an ongoing review task, its document state continues to remain **In Review**, even though the topic is no longer part of any review task. (GUIDES-38709)<br>**Workaround**: Change the document state of the topic from **In Review** to the appropriate state from the Properties page or File properties panel.
