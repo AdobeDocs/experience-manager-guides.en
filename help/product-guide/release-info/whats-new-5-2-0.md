@@ -390,8 +390,7 @@ For more details, view [Handle image rendition in output generation](../install-
 
 ### Download logs for generated output
 
-When generating output through the Assets UI, a new **Download logs** button is now available that allows you to download log to your local device for easier access and review. 
-
+When generating output and viewing logs, a new **Download logs** button is now available that allows you to download log to your local device for easier access and review. 
 
 ### Language variables for cross references in Native PDF Output
 
