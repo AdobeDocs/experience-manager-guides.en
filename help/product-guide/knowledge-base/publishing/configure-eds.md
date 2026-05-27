@@ -93,7 +93,7 @@ You are redirected to the GitHub setup page, confirming successful registration 
 
 Your app is now ready. You are redirected to the **Settings** page of your GitHub App.
 
-![](assets/eds-github-app-registered-page.png){} 
+![](assets/eds-github-app-registered-page.png)
 
 ### Create a new OAuth App
 
