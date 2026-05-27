@@ -1,6 +1,6 @@
 ---
-title: Configure B-tree clean up job for Cloud services
-description: Configure B-tree clean up job for Cloud services
+title: Configure B-tree clean up job 
+description: Configure B-tree clean up job 
 feature: Output Generation
 role: Admin
 level: Experienced

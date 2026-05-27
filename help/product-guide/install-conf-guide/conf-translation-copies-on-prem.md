@@ -1,7 +1,7 @@
 ---
 title: Configure destination copy initialization in translation workflow for On-Premise
-description: Learn how to configure destination copy initialization in translation workflow for On-Premise
-feature: Web Editor Configuration
+description: Learn how to enable or disable initialization of destination copy in translation workflow for On-Premise
+feature: System Configuration
 role: Admin
 level: Experienced
 ---
@@ -17,7 +17,7 @@ The following steps explain how to enable the destination copy initialization in
     http://<server name>:<port>/system/console/configMgr
     ```
 
-1.  Search for and select the **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundle.
+1.  Search for and select the **com.adobe.fmdita.config.ConfigManager** bundle.
 
 1.  Enable or disable the setting **Initialize destination language copy with source content** as per your requirement. This setting is applicable only when the legacy translation workflow is disabled.
 

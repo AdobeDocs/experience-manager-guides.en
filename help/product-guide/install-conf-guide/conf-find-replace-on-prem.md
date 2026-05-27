@@ -1,7 +1,7 @@
 ---
 title: Configure Find and replace (Source view) for On-Premise
 description: Learn how to configure Find and replace (Source view) for On-Premise
-feature: Web Editor Configuration
+feature: System Configuration
 role: Admin
 level: Experienced
 ---
@@ -17,7 +17,7 @@ The following steps explain how to enable the Find and replace (Source view) in 
     http://<server name>:<port>/system/console/configMgr
     ```
 
-1.  Search for and select the **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundle.
+1.  Search for and select the **com.adobe.fmdita.config.ConfigManager** bundle.
 
 1.  Enable the setting **Enable markup find and replace**.  
 
