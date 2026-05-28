@@ -19,6 +19,6 @@ The following steps explain how to enable the Find and replace (Source view) in 
 
 1.  Search for and select the **com.adobe.fmdita.config.ConfigManager** bundle.
 
-1.  Enable the setting **Enable markup find and replace**.  
+1.  Enable the setting **Enable markup find and replace** (enable.markup.findreplace).  
 
 1.  Select **Save**.

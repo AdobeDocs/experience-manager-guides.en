@@ -1,18 +1,18 @@
 ---
-title: Configure B-tree clean up job 
-description: Configure B-tree clean up job 
+title: Configure Reference store clean up job 
+description: Configure Reference store clean up job 
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 58f98313-fc91-43b3-9553-aa5ab4946925
 ---
-# Configure B-tree cleanup 
+# Configure Reference store cleanup
 
-Set up the B-tree cleanup job and manage the `Guides BTree deletion` setting to keep your system optimized and storage clean.
+Set up the Reference store cleanup job and manage the `Guides BTree deletion` setting to keep your system optimized and storage clean.
 
-## Configure B-tree cleanup job
+## Configure Reference store cleanup job
 
-The following tabs provide instructions to configure B-tree clean up job based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+The following tabs provide instructions to configure Reference store clean up job based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
@@ -38,9 +38,9 @@ The following tabs provide instructions to configure B-tree clean up job based o
 
 1. Search for and select the *com.adobe.guides.utils.schedulers.GuidesBTreesCleanupSchedulerJob* bundle.
 
-1. Update the cron expression to set up the B-tree cleanup scheduler job run frequency.
+1. Update the cron expression to set up the Reference store cleanup scheduler job run frequency.
 
-1. Configure the B-tree clean up scheduler as shown below.
+1. Configure the Reference store clean up scheduler as shown below.
 
     ![](assets/btree-cleanup-config.png)
 
@@ -75,7 +75,7 @@ The following tabs provide instructions to enable the setting based on your Expe
     ```
 
 1. Search for and select the *com.adobe.fmdita.config.ConfigManager* bundle.
-1. Enable the setting `Guides btree deletion enabled`.
+1. Enable the setting **Guides btree deletion enabled** (btree.deletion.enabled).
 
     ![](assets/btree-cleanup-setting.png)
 

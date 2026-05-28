@@ -23,7 +23,7 @@ The following steps explain how to enable the New Baseline in your On-Premise en
 
 1.  Search for and select the **com.adobe.fmdita.config.ConfigManager** bundle.
 
-1.  Enable the setting **Enable faster Baseline (v2)**.  
+1.  Enable the setting **Enable faster Baseline (v2)**. You can also search with the exact setting name `enable.baseline.v2`. 
 
 1.  Select **Save**.
 

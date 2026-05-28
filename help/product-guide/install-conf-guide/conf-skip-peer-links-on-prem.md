@@ -19,6 +19,6 @@ The following steps explain how to enable skipping of peer links for Old Baselin
 
 1.  Search for and select the **com.adobe.fmdita.config.ConfigManager** bundle.
 
-1.  Enable the setting **Skip peer links for Baseline V1**. By default this setting is diabled.
+1.  Enable the setting **Skip peer links for Baseline V1** (guides.baseline.v1.skip.peer.links). By default this setting is diabled.
 
 1.  Select **Save**.

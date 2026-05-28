@@ -23,7 +23,7 @@ The following steps explain how to enable the New Editor in your On-Premise envi
 
 1.  Search for and select the **com.adobe.fmdita.config.ConfigManager** bundle.
 
-1.  Enable the setting **Enable Editor 2.0**.  
+1.  Enable the setting **Enable Editor 2.0** (`enable.markup.editor`).  
 
 1.  Select **Save**.
 
