@@ -150,12 +150,46 @@ The following issues have been fixed, and no longer occur when using Editor 2.0 
 
 ## Known issues
 
-Adobe has identified the following known issues for 5.2.0 release:
+### Authoring
 
 - When uploading flagged images in DITAVAL files, the images break after a browser refresh when the `Enable UUIDs` setting is disabled. (GUIDES-45853)
 - In the Editor, `.ditval` and `.md` files files become non-editable when *Approval Workflow* is enabled. (GUIDES-42037)
-- In the Assets UI, the **Move** button does not get enabled on the first attempt when more than 2 files or folders are selected. (GUIDES-42721) <br> **Workaround**:  After selecting more than two files or folders, wait for a few seconds before selecting the destination folder. 
 - Selecting a topic in the Preview mode does not highlight it in the Map view if the topic is inside bookmap tags (frontmatter, chapter, part, or baatter) or part of cyclic content. (GUIDES-42416)
 - When a file is open in both the Editor and the Search panel, deleting it from the Explorer panel removes the file and refreshes the Explorer list, but refreshing the page continues to display the file in the Search panel. (GUIDES-41935)
+
+### Asset management
+
+- In the Assets UI, the **Move** button does not get enabled on the first attempt when more than 2 files or folders are selected. (GUIDES-42721) <br> **Workaround**:  After selecting more than two files or folders, wait for a few seconds before selecting the destination folder. 
+
+### Review
+
 - While updating an active review task, if a topic that is already part of the review is removed and then re‑added without clicking Update, the reviewer(s) information in the Reviewers tab is lost. (GUIDES-38774)
 - When an in-review topic is removed from an ongoing review task, its document state continues to remain **In Review**, even though the topic is no longer part of any review task. (GUIDES-38709)<br>**Workaround**: Change the document state of the topic from **In Review** to the appropriate state from the Properties page or File properties panel.
+
+### Editor 2.0 
+
+- Copy-pasting content in the same topic into an invalid location in the Editor inserts an unintended foreign tag. (GUIDES-45378)
+- Copying and pasting `<keywords>` inside `<topicmeta>` within `<keydef>` or `<topicref>` inserts unintended foreign tags. (GUIDES-45800)
+- When content is copied from a map or topic using the Copy option in the context menu and then pasted, unexpected extra `<data>` tags are inserted into the pasted content. (GUIDES-45703)
+- The scale attribute applied at the table level does not resize the table correctly in Author or Preview mode. (GUIDES-45984)
+- On Windows, copying and pasting a table row adds unwanted attributes to the table, resulting in markup errors and preventing the document from being saved. (GUIDES-45784)
+- After selecting a table and switching back to Author view, the right panel incorrectly displays the `P` tag in Content Properties. (GUIDES-47231)
+- When a collapsed list is present inside a table cell, arrow-key navigation breaks. (GUIDES-46533)
+- Drag selection around a table or simpletable does not work as expected. (GUIDES-45406)
+- Pasting images from external sources does not insert them into the topic. (GUIDES-45983)
+- In Image properties, switching between the Width and Height fields repeatedly causes the values to increase incrementally each time. This issue occurs when dimensions are specified using units such as in, mm, or px.(GUIDES-45929)
+- The scale attribute is not getting applied correctly in the Author view. (GUIDES-45996)
+- MathML content referenced through `conref` does not render correctly. (GUIDES-46601)
+- Incomplete attribute rendering for MathML and SVG elements breaks custom CSS classes and condition attribute handling. (GUIDES-46371)
+- MathML equations wrapped inside `foreign` and `equation-block` tags introduce unwanted spaces and disrupt editing behavior. (GUIDES-46606)
+- Dragging and dropping an element that contains a key reference converts the `keyref` into an absolute path. (GUIDES-45701)
+- Renaming an element inside read-only content to an invalid tag breaks `conref`  references, and `Ctrl+Z` does not restore it. (GUIDES-45951)
+- Undo and redo actions remain available in locked or read-only files. (GUIDES-46604)
+- Unable to place a cursor inside a `topicref` within a `reltable`. (GUIDES-46565)
+- Inconsistent text and element selection styling in the Editor. (GUIDES-45170)
+- Experience issues such as New element dialog not closing when pressing `Esc`, and the cursor disappearing when pressing `Tab` inside an empty paragraph. (GUIDES-46536)
+- Unable to rename a `<p>` element into to `codeblock`element using the Rename element dialog. (GUIDES-45173)
+- In side-by-side view, review comments appear slightly shifted to the left. (GUIDES-46061)
+- The review task page displays distorted content, including visible non-breaking spaces and distorted NOTE element when present as a reusable content. (GUIDES-47237)
+- In the Map editor, `Ctrl+click` on a broken link triggers an application error. (GUIDES-45544)
+- When a DITAVAL file is added to a map as a DITAVAL reference, the UI displays the file name instead of the DITAVAL title. (GUIDES-47354)
