@@ -61,8 +61,8 @@ You can easily upgrade your current version of Experience Manager Guides to vers
 
 >[!IMPORTANT]
 >
-> - Experience Manager Guides 5.2.0 is intended for use only with AEM 6.5 LTS Service Pack 2. 
-> - Experience Manager Guides 5.2.0 is intended for use only with AEM 6.5 Service Pack 24, 23, and 22.
+> - **For AEM 6.5 LTS**: Experience Manager Guides 5.2.0 is supported only with AEM 6.5 LTS Service Pack 2. 
+> - **For AEM 6.5**: Experience Manager Guides 5.2.0 is supported only with AEM 6.5 Service Pack 24, 23, and 22.
 > - If you are currently on AEM 6.5 and plan to move to AEM 6.5 LTS, make sure to complete the AEM upgrade first before proceeding with the Experience Manager Guides 5.2.0 upgrade. For details, view [Upgrading to Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade). 
 
 Before you proceed with upgrading to version 5.2.0 of Experience Manager Guides, you must consider the following points:
