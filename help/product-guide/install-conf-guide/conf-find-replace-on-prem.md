@@ -1,7 +1,7 @@
 ---
 title: Configure Find and replace (Source view) for On-Premise
 description: Learn how to configure Find and replace (Source view) for On-Premise
-feature: System Configuration
+feature: Configuration
 role: Admin
 level: Experienced
 ---

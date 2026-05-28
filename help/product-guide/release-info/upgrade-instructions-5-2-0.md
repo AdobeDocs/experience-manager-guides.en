@@ -93,7 +93,7 @@ Before you proceed with upgrading to version 5.2.0 of Experience Manager Guides,
 |-----|-----|------|-----|
 |Enable or disable the New Editor |`com.adobe.fmdita.config.ConfigManager`| Enable Editor 2.0 | `enable.markup.editor`| 
 |Enable or disable the New Baseline | `com.adobe.fmdita.config.ConfigManager`|Enable faster Baseline (v2)|`enable.baseline.v2`|
-|Ignore metadata properties for marking a version as dirty|`com.adobe.fmdita.config.ConfigManager`| Ignore metadata property for dirty version| `xmleditor.dirtychecker.ignoremetadata`|
+|Ignore metadata properties for marking a version as dirty|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`| Ignore metadata property for dirty version| `xmleditor.dirtychecker.ignoremetadata`|
 |Find and replace feature in Source view|`com.adobe.fmdita.config.ConfigManager`|Enable markup find and replace|`enable.markup.findreplace`|
 |Enable or disable skipping of peer links for old Baseline|`com.adobe.fmdita.config.ConfigManager`|Skip peer links for Baseline V1| `guides.baseline.v1.skip.peer.links`|
 |Enable or disable initialization of destination copies with source content in translation workflow. This is applicable only when legacy translation workflow is disabled. |`com.adobe.fmdita.config.ConfigManager`|Initialize destination language copy with source content| `translation.workflow.propagate.source.content`|

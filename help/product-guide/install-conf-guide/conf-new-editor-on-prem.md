@@ -1,7 +1,7 @@
 ---
 title: Configure New Editor
 description: Learn how to enable or disable New Editor
-feature: System Configuration
+feature: Configuration
 role: Admin
 level: Experienced
 ---
@@ -9,7 +9,7 @@ level: Experienced
 
 >[!IMPORTANT]
 >
-> Deploy system configurations through code (for example, via your deployment pipeline) instead of applying them manually in the runtime environment.
+> Deploy system configurations through code instead of applying them manually in the runtime environment.
 
 The following steps explain how to enable the New Editor in your On-Premise environment.
 

@@ -1,7 +1,7 @@
 ---
 title: Configure skipping of peer links for Baseline V1 in On-Premise
 description: Learn how to enabl or disable skipping of peer links for Baseline V1 in On-Premise
-feature: System Configuration
+feature: Configuration
 role: Admin
 level: Experienced
 ---

@@ -1,7 +1,7 @@
 ---
 title: Configure destination copy initialization in translation workflow for On-Premise
 description: Learn how to enable or disable initialization of destination copy in translation workflow for On-Premise
-feature: System Configuration
+feature: Configuration
 role: Admin
 level: Experienced
 ---
