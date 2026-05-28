@@ -82,21 +82,24 @@ Before you proceed with upgrading to version 5.2.0 of Experience Manager Guides,
 > The post-processing and indexing may take a few hours. We recommend you to start the upgrade process during the off-peak hours.
 
 1. Download the 5.2.0 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-
-1. Reindex the `guidesAssetLucene` index to enable the Find and replace in Source view feature for previously captured content. For details, view [Reindexing for Find and replace](../install-conf-guide/custom-indexing-on-prem.md).
-
+1. Install the version package on which you want to upgrade and wait till the bundle is installed.
+1. *(Optional)* Upgrade Oxygen connector plugin released with version you are upgrading to.
+1. Clear the browser cache after installing the package.
+1. If you have enabled the setting `Enable markup find and replace` to access the Find and replace feature in source view for previously captured content, you must reindex the `guidesAssetLucene` index. For details, view [Reindexing for Find and replace](../install-conf-guide/custom-indexing-on-prem.md).
 1. Update the system configuration to incorporate the new settings introduced in version 5.2.0, ensuring support for the following enhancements:
 
-    - New Editor
-    - New Baseline
-    - Find and replace
-    - Ignore metadata property
-    - DITA assets replication
-    - Skip peer links for Old Baseline
-    - Asset processing
-    - B-tree cleanup
-    - Initialization of destination with source content in the translation
 
+| Configurations added| Configuration file | Display label of the setting | Name of the setting |
+|-----|-----|------|-----|
+|Enable or disable the New Editor |`com.adobe.fmdita.config.ConfigManager`| Enable Editor 2.0 | `enable.markup.editor`| 
+|Enable or disable the New Baseline | `com.adobe.fmdita.config.ConfigManager`|Enable faster Baseline (v2)|`enable.baseline.v2`|
+|Ignore metadata properties for marking a version as dirty|`com.adobe.fmdita.config.ConfigManager`| Ignore metadata property for dirty version| `xmleditor.dirtychecker.ignoremetadata`|
+|Find and replace feature in Source view|`com.adobe.fmdita.config.ConfigManager`|Enable markup find and replace|`enable.markup.findreplace`|
+|Enable or disable skipping of peer links for old Baseline|`com.adobe.fmdita.config.ConfigManager`|Skip peer links for Baseline V1| `guides.baseline.v1.skip.peer.links`|
+|Enable or disable initialization of destination copies with source content in translation workflow. This is applicable only when legacy translation workflow is disabled. |`com.adobe.fmdita.config.ConfigManager`|Initialize destination language copy with source content| `translation.workflow.propagate.source.content`|
+|Reference store cleanup|`com.adobe.fmdita.config.ConfigManager`|Guides btree deletion enabled| `btree.deletion.enabled`|
+|DITA assets replication|`com.adobe.fmdita.config.ConfigManager`|Replicate DITA assets| `publish.replicate`|
+|Asset processing|`com.adobe.fmdita.config.ConfigManager`|Enable Guides asset processing scheduled job| `enable.asset.processing.scheduler`|
 
 For detailed information about these configuration settings, view [Configuration updates](../install-conf-guide/configuration-on-prem.md).
 
