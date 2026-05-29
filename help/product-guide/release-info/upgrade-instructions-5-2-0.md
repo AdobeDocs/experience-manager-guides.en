@@ -101,7 +101,7 @@ Before you proceed with upgrading to version 5.2.0 of Experience Manager Guides,
 |DITA assets replication|`com.adobe.fmdita.config.ConfigManager`|Replicate DITA assets|`publish.replicate`|
 |Asset processing|`com.adobe.fmdita.config.ConfigManager`|Enable Guides asset processing scheduled job|`enable.asset.processing.scheduler`|
 
-For detailed information about these configuration settings, view [Configuration updates](../install-conf-guide/configuration-on-prem.md).
+For detailed information on these configuration settings, view [Configuration updates](../install-conf-guide/configuration-on-prem.md).
 
 
 
