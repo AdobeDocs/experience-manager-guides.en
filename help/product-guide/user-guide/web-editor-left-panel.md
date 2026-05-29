@@ -151,7 +151,7 @@ You can also perform many actions using the Options menu available for a Collect
 
 >[!NOTE]
 >
-> Starting with 2025.11.0 release, **Repository** in the Editor will be deprecated and replaced by **Explorer** for **Cloud service** setup. For **On-Premise** setup, you will continue to view and use Repository through the Editor interface till 5.1 release of Experience Manager Guides. 
+> Starting with 2025.11.0 release for Cloud Service and 5.2.0 release for On-Premise, **Repository** is replaced by **Explorer**. For On-Premise prior to version 5.2, you will continue to view and use Repository through the Editor interface.
 
 When you select the Repository icon, you get a list of files and folders available in DAM. By default, you can view the files by titles. As you hover over a file, you can view the file title and the file name as a tooltip.   
 
@@ -498,9 +498,9 @@ The various options in the Options menu are explained below:
 
 ## Explorer
 
->[!NOTE] 
+>[!NOTE]
 >
-> Starting with the 2025.11.0 release, the term Repository in the Editor will be replaced by **Explorer** for Cloud service setup. On-Premise setup, will continue to see and access Repository in the Editor.
+> Starting with 2025.11.0 release for Cloud Service and 5.2.0 release for On-Premise, **Repository** is replaced by **Explorer**. For On-Premise prior to version 5.2, you will continue to view and use Repository through the Editor interface.
 
 Explorer provides most of the capabilities previously available in Repository, including:
 
@@ -737,7 +737,7 @@ If a block element has its own text, it is displayed along with that block eleme
 
 ![](images/outline-view-block-element.png){width="550"}
 
-If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. You can also assign display attributes configured by your administrator under the **Display attributes** tab in the **Workspace settings** (appearing as **Settings** for **On-Prem**). The attributes defined for an element are displayed in the Layout and the Outline view.
+If your administrator has created a profile for attributes, then you'll get those attributes along with their configured values. You can also assign display attributes configured by your administrator under the **Display attributes** tab in the **Workspace settings** (appearing as **Settings** for **On-Premise setup prior to version 5.2**). The attributes defined for an element are displayed in the Layout and the Outline view.
 
 
 **Search feature**
@@ -1067,7 +1067,7 @@ You can also change the values from the attribute's drop-down in the Source view
 
 You can also view and apply the subject scheme from the Conditions panel.
 
-To view the subject scheme from the Conditions panel, your system administrator must select the **Show subject scheme in the Conditions panel** option under the General tab in **Workspace settings** (appearing as **Settings** for **On-Prem**). For more details, view the [Tab bar](./web-editor-tab-bar.md).
+To view the subject scheme from the Conditions panel, your system administrator must select the **Show subject scheme in the Conditions panel** option under the General tab in **Workspace settings** (appearing as **Settings** for **On-Premise setup prior to version 5.2**). For more details, view the [Tab bar](./web-editor-tab-bar.md).
 
 The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
 
@@ -1236,7 +1236,7 @@ To perform the global search and replace with the Source mode, perform the follo
 
     >[!NOTE]
     >
-    >To enable the **Replace all** button, your folder profile administrator or system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**).
+    >To enable the **Replace all** button, your folder profile administrator or system administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Premise setup prior to version 5.2**).
 
 1. You can also hover over a file from the search result list to view **Replace all in file** icon on the right of it, that enables you to replace all the occurrences of the term in a single file.    
 
@@ -1310,7 +1310,7 @@ To perform the global search and replace without Source mode, perform the follow
 
     >[!NOTE]
     >
-    > To enable then**Replace all** icon, your Folder profile administrator or System administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Prem**). If errors occur during the replace operation, those files will be skipped due to XML parsing issues or DITA-related errors.
+    > To enable then**Replace all** icon, your Folder profile administrator or System administrator must select the option **Enable Replace All** under the **General** tab in **Workspace settings** (appearing as **Settings** for **On-Premise setup prior to version 5.2**). If errors occur during the replace operation, those files will be skipped due to XML parsing issues or DITA-related errors.
 
     ![](images/replace-all.png){width="350"}
 

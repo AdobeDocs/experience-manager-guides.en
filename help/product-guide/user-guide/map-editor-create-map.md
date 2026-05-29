@@ -29,7 +29,7 @@ topic_v2:
 
 >[!INFO]
 >
->From 2025.11.0 release, **Repository** is renamed to **Explorer**. For On-Premise setup, it continues to be available as Repository till 5.1 release of Experience Manager Guides.
+>From 2025.11.0 release for Cloud Servicea and from 5.2 release for On-Premise, **Repository** is renamed to **Explorer**. For On-Premise setup prior to 5.2 version, it continues to be available as Repository.
 
 Adobe Experience Manager Guides provides two out-of-the-box map templates - DITA map and Bookmap. You can also create your own map templates and share those with your authors to create map files.
   

@@ -34,7 +34,7 @@ The following tabs provide instructions to configure DITA assets replication fea
 
 1. Search for and select the *com.adobe.fmdita.config.ConfigManager* bundle.
 
-1. Configure the setting `Replicate DITA assets` as per your requirement. By default, the setting is enabled.
+1. Configure the setting **Replicate DITA assets** (`publish.replicate`) as per your requirement. By default, the setting is enabled.
 
 
     ![](assets/dita-assets-replication.png){width="350"}

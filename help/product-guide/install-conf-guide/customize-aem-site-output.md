@@ -204,7 +204,7 @@ You can also configure the other properties such as use lower case in filenames,
 
 1.  Search for and click on the *com.adobe.fmdita.common.SanitizeNodeNameImpl* bundle.
 
-1.  In the **Disallowed Character Set for Publishing to AEM Sites** property, ensure that the property is set to ```'<>`@$```. You can add more special characters to this list, however, it must have these required special characters.
+1.  In the **Disallowed Character Set for Publishing to AEM Sites** property, ensure that the property is set to `<>``@$`. You can add more special characters to this list, however, it must have these required special characters.
 
     >[!NOTE]
     >

@@ -17,6 +17,10 @@ role_v2:
 ---
 # API to track post processing status for a folder or an asset
 
+>[!NOTE]
+>
+> For the latest REST API endpoint definitions and related details, view the Swagger documentation at `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` (replace `<aem-author-url>` with your AEM server URL). As this article is scheduled to be archived in October 2026, we recommend using the Swagger documentation going forward for the most up-to-date API information.
+
 The following is a POST method that starts an async job to get the status of assets. 
 
 ## Find status of assets in Guides 

@@ -54,7 +54,7 @@ Features available in the navigation bar are explained as follows:
 
     >[!NOTE]
     >
-    > On the Home page, the option of Workspace settings is available only for Cloud Services setup. In an On-Premise setup, the More actions option is unavailable on the Home page. However, you can still access the relevant settings through the Editor interface and the Map console, by navigating to More options > Settings.
+    > On the Home page, the option of Workspace settings is available for Cloud Services and for On-Premise configurations in version 5.2 and later. In an On-Premise setup prior to version 5.2, the More actions option is unavailable on the Home page. However, you can still access the relevant settings through the Editor interface and the Map console, by navigating to More options > Settings.
   
 - **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar is hidden, maximizing the content space. To return to the standard view, use the **Exit the expanded view** icon. 
 
@@ -62,7 +62,7 @@ Features available in the navigation bar are explained as follows:
 
 >[!NOTE]
 >
-> Repository is available in the Left panel only for Cloud service setup from 2025.11.0 release onwards. For On-Premise setup, Repository continues to be accessed from the Editor interface.
+> Repository is available in the Left panel for Cloud service setup from 2025.11.0 release onwards and for On-Premise setup from 5.2 release onwards. For On-Premise setup prior to 5.2 version, Repository continues to be accessed from the Editor interface.
 
 The Left panel gives you quick access to Overview, Repository, Map collections, Bulk publish, Publish queue, and User preferences features. You can expand the panel by selecting the **Expand** icon placed at the bottom-left corner of the interface. Once expanded, use the **Collapse** icon to collapse the panel.
 
@@ -196,4 +196,4 @@ The User preferences are available to all authors. Using the preferences, you ca
 
   >[!NOTE]
   >
-  >From 2025.11.0 release, the setting **Always locate files in the repository** is renamed to **Always locate files in the explorer**. For On-Premise setup, it continues to be available as Always locate files in the repository till 5.1 release of Experience Manager Guides.
+  >From 2025.11.0 release for Cloud service and from 5.2.0 release for On-premise, the setting **Always locate files in the repository** is renamed to **Always locate files in the explorer**. For On-Premise setup prior to 5.2 release , it continues to be available as Always locate files in the repository.
