@@ -174,7 +174,6 @@ The following issues have been fixed, and no longer occur when using Editor 2.0 
 - On Windows, copying and pasting a table row adds unwanted attributes to the table, resulting in markup errors and preventing the document from being saved. (GUIDES-45784)
 - Drag selection around a table or simpletable does not work as expected. (GUIDES-45406)
 - Pasting images from external sources does not insert them into the topic. (GUIDES-45983)
-
 - MathML content referenced through `conref` does not render correctly. (GUIDES-46601)
 - Incomplete attribute rendering for MathML and SVG elements breaks custom CSS classes and condition attribute handling. (GUIDES-46371)
 - MathML equations wrapped inside `foreign` and `equation-block` tags introduce unwanted spaces and disrupt editing behavior. (GUIDES-46606)
