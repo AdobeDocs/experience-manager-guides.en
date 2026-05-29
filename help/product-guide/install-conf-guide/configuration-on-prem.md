@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 ---
-# Configuration updates for Experience Manager Guides Releases
+# Configuration updates for Experience Manager Guides releases
 
 This article provides a consolidated overview of the configuration changes introduced for 5.2.0 release of Experience Manager Guides. The following matrix lists the release version and the newly introduced or updated configurations. It also includes links to the related documentation for detailed setup and configuration instructions. Use this information to quickly identify the configuration updates that may apply to your environment during an upgrade.
 

@@ -614,7 +614,8 @@ breadcrumb-title: AEM Guides Documentation
         - [Configuration overrides for Cloud Service](./install-conf-guide/download-install-config-override.md)
       - On-Premise {#on-prem}
         - [Upgrade AEM Guides On-Premise 4.6.0 and above](./install-conf-guide/upgrade-aemg-latest-version.md)              
-        - [Upgrade AEM Guides On-Premise earlier versions](./install-conf-guide/upgrade-aemg-prev-versions.md)    
+        - [Upgrade AEM Guides On-Premise earlier versions](./install-conf-guide/upgrade-aemg-prev-versions.md)
+        - [Configuration updates for Experience Manager Guides releases](./install-conf-guide/configuration-on-prem.md)  
     - Recommendations for performance optimization {#performance-optimization-aemg}
       - [Performance optimization for Cloud Service](./install-conf-guide/perf-optimization-cs.md)
       - [Performance optimization for On-Premise](./install-conf-guide/perf-optimization-on-prem.md)         

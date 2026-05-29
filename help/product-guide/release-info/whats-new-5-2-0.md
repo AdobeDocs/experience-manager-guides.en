@@ -88,17 +88,17 @@ The New Editor enhances the experience of working with large and complex topics 
 
 The Repository, now accessible directly from the Home page, serves as a centralized space for improved discoverability of folders and files. It features dedicated **Folder navigation panel** and a customizable **tabular view of Repository**. The revamped Search and filter experience makes finding and locating files significantly easier. For more details, view [Know the Repository interface](../user-guide/home-page-repository-view.md).
 
-![](assets/repository-view-home.png){align="left"}
+![](assets/repository-view-home.png)
 
 Within Editor, the Search and filter experience for files is now consistent with the Home page. A new [Search panel](../user-guide/search-panel-explorer.md) located at the bottom of the Editor interface is introduced to display search results. Additionally, the Repository is now renamed to **Explorer** in the Editor, allowing you to browse folders and files as before.
 
-![](assets/search-panel-explorer.png){align="left"}
+![](assets/search-panel-explorer.png)
 
 ### Support for Document state filter 
 
 You can also filter your Repository search results based on the current document state of the files. With the Document state filter, you can narrow down your search using the available filter values defined in the `ui_config.json` file within your Folder profile.  
 
-![](assets/document-state-filter-repository.png){align="left"}
+![](assets/document-state-filter-repository.png)
 
 The default filter values available for Document state are: Draft, Edit, In-Review, Approved, Reviewed, and Done. 
 
@@ -112,7 +112,7 @@ The default filter values available for Document state are: Draft, Edit, In-Revi
 
 All multimedia files are displayed with thumbnail icons, making it easier to visually identify and locate images within the **Repository**. This enhancement also applies when searching for files in the **Search panel**, helping you quickly distinguish multimedia assets from other file types. 
 
-![](assets/thumbnail-repository.png){align="left"}
+![](assets/thumbnail-repository.png)
 
 ## Introducing Source mode search in Find and replace
 
@@ -120,7 +120,7 @@ Experience Manager Guides has introduced several enhancements to the Find and re
 
 Enabling this mode, allows you to perform global search not only on the visible content but also the underlying source content (XML structure, including elements, tags, and attribute values) for the searched string. This mode ensures a comprehensive search across the entire content.
 
-![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
+![](assets/map-find-replace-with-source-mode.png){width="650"}
 
 In this mode, you can apply filters to narrow your search by File type, Document state, Last modified date, and more. You also have the option to download a detailed CSV report after performing Replace all operation, which provides a snapshot of all the replace actions performed along with their success and failure status.
 
@@ -136,7 +136,7 @@ This release introduces a cleaner, more intuitive interface for browsing files a
 
 When browsing files, the revamped **Select file** dialog now features a tabbed layout with two views - **Repository** for navigating the entire content repository in a tabular format, and **Collections** for quick access to frequently used topics, maps, and images. 
 
-![](assets/select-file.png){width="650" align="left"}
+![](assets/select-file.png){width="650"}
 
 Key enhancements include:
 
@@ -148,7 +148,7 @@ Key enhancements include:
 
 The **Select path** dialog also features an improved tree-structured view for folder navigation, ensuring a more organized and efficient way to select paths across the content repository. 
 
-![](assets/select-path-dialog-new.png){width="350" align="left"}
+![](assets/select-path-dialog-new.png){width="350"}
 
 For more details, view [Browsing files and folders in Experience Manager Guides](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides) section in _Other features in the Editor_.
 
@@ -172,15 +172,15 @@ The following enhancements have been made to the Schematron user interface for b
 
 - In the Validation panel, an empty‑state message is displayed when no Schematron file is added, providing better clarity and direction for next steps.
 
-    ![](assets/schematron-panel.png){width="350" align="left"}
+    ![](assets/schematron-panel.png){width="350"}
 
 - When multiple Schematron files are added, they are organized under a consolidated accordion, providing better visibility into the configured Schematron files.
 
-    ![](assets/schematron-panel-error.png){width="350" align="left"}
+    ![](assets/schematron-panel-error.png){width="350"}
 
 - Based on the role attribute defined in the Schematron file, validation results are now categorized as: `Fatal`, `Error`, `Warn`, or `Info`. Each category includes a visible count along with a contextual tooltip for clearer interpretation. 
 
-    ![](assets/schematron-validation-errors.png){width="350" align="left"}
+    ![](assets/schematron-validation-errors.png){width="350"}
 
 For more details on using Schematron files in Experience Manager Guides, view [Support for Schematron files](../user-guide/support-schematron-file.md).
 
@@ -188,7 +188,7 @@ For more details on using Schematron files in Experience Manager Guides, view [S
 
 A new **Translations** section is now available in the Right panel under *File properties* in the Editor. This section provides direct access to all available language copies for the currently opened asset (map, topic, image, etc.). You no longer need to navigate to the Assets UI to view or access these language copies. 
 
-![](assets/translations-right-panel.png){width="350" align="left"}
+![](assets/translations-right-panel.png){width="350"}
 
 For each language copy, you can hover-over the file to locate its path in the repository or simply select it to open in the Editor. In addition to opening files, you can also perform many actions using the **Options** menu. Some of the actions that you can perform include Edit, Preview, Copy UUID, Copy Path, Add to collections, and Properties.
 
@@ -204,11 +204,11 @@ Introducing the new **Refresh** functionality for maps that are already opened i
 
 - To refresh the entire map (including all topics), a new **Refresh** button is introduced on the top-left corner of the Editor. 
 
-    ![](assets/refresh-map.png){width="600" align="left"}
+    ![](assets/refresh-map.png){width="600"}
 
 - To refresh the content of individual topics, a new **Refresh topic** option is introduced in the context menu.
 
-    ![](assets/refresh-topic.png){width="600" align="left"}
+    ![](assets/refresh-topic.png){width="600"}
 
 For more details, view [Map editor features](../user-guide/map-editor-advanced-map-editor.md). 
 
@@ -216,7 +216,7 @@ For more details, view [Map editor features](../user-guide/map-editor-advanced-m
 
 You can now track the word count present within a map or topic file. The new **Word count** field in the Right panel would display the total number of words present within a topic (or map), where words separated by spaces are counted as individual words. It refreshes automatically each time you save changes. For cross-references, only the display text is included, while keys are excluded.
 
-![](assets/file-properties-new.png){width="350" align="left"} 
+![](assets/file-properties-new.png){width="350"} 
 
 For details, view [Right panel in Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
@@ -226,7 +226,7 @@ Experience Manager Guides now includes a **Duplicate IDs** button in the Editor 
 
 For more details, view [Additional features in the Editor](../user-guide/web-editor-other-features.md). 
 
-![](assets/duplicate-element-IDs.png){width="350" align="left"}
+![](assets/duplicate-element-IDs.png){width="350"}
 
 ### Enhancements to the Repository and Reports filters
 
@@ -238,7 +238,7 @@ Now, you can search citations across all Journal fields, such as *Title*, *Journ
 
 For more details on adding citations in Experience Manager Guides, view [Add and manage citations in your content](../user-guide/web-editor-apply-citations.md). 
 
-![](assets/add-citations.png){width="350" align="left"}
+![](assets/add-citations.png){width="350"}
 
 ### Settings is now renamed to Workspace settings and accessible from the Homepage
 
@@ -273,7 +273,7 @@ As an initiator of a review task, you can now check the status of your review ta
 
 For more details, view [Request a re-review or close a review task as an Author](../user-guide/review-close-review-task.md).
 
-![](assets/check-review-status-icon.png){width="350" align="left"}
+![](assets/check-review-status-icon.png){width="350"}
 
 ### Reviewer assignment based on active project selection
 
@@ -292,7 +292,7 @@ For more details, view [Send topics for review](../user-guide/review-send-topics
 
 You can add new topics to an ongoing review task (if they were not previously sent for review) or remove topics from an ongoing review task without affecting the review workflow. On the **Task Details** page, you can simply select or unselect topics to modify the topic list. Reviewers are notified (via AEM and email) about any changes to their assigned topics through AEM and Email notifications. For more details, view [Send topics for review](../user-guide/review-send-topics-for-review.md).
 
-![](assets/modify-review-topics.png){width="650" align="left"}
+![](assets/modify-review-topics.png){width="650"}
 
 ## Translation enhancements
 
@@ -306,7 +306,7 @@ If a file contains unversioned changes (not saved as a new version in your map),
 
 For more details, view [Translate documents from the Map Console](../user-guide/translate-documents-web-editor.md). 
 
-![](assets/unversioned-changes-translation.png){width="650" align="left"}
+![](assets/unversioned-changes-translation.png){width="650"}
 
 
 ## Asset management enhancements
