@@ -71,7 +71,6 @@ Product updates in terms of new features, enhancements, and bug fixes for suppor
 
 | Release |Event |Schedule |What's new | Upgrade instructions | Status|
 |---|---|---|---|---|---|
-|Adobe Experience Manager Guides 5.2.0|Release|Second week of May, 2026|-|-|Target|
 |Adobe Experience Manager Guides 5.3.0|Release|Second week of October, 2026|-|-|Target|
 
 
@@ -79,6 +78,7 @@ Product updates in terms of new features, enhancements, and bug fixes for suppor
 
 | Release |Event |Schedule |What's new | Upgrade instructions | Status|
 |---|---|---|---|---|---|
+|Adobe Experience Manager Guides 5.2.0|Release|May 29, 2026|[Here](whats-new-5-2-0.md)|[Here](upgrade-instructions-5-2-0.md)|Released|
 |Adobe Experience Manager Guides 5.1.0|Service Pack 4|April 1, 2026|-|[Here](upgrade-instructions-5-1-0-sp4.md)|Released|
 |Adobe Experience Manager Guides 5.0.0|Service Pack 4|April 1, 2026|-|[Here](upgrade-instructions-5-0-0-sp4.md)|Released|
 |Adobe Experience Manager Guides 5.0.0|Service Pack 3|February 2, 2026|-|[Here](upgrade-instructions-5-0-0-sp3.md)|Released|
