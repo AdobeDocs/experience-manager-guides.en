@@ -91,7 +91,7 @@ Before you proceed with upgrading to version 5.2.0 of Experience Manager Guides,
 
 | Configurations added|Configuration file | Display label of the setting|Name of the setting|
 |-----|-----|------|-----|
-|Enable or disable the New Editor|`com.adobe.fmdita.config.ConfigManager`|Enable Editor 2.0|`enable.markup.editor`| 
+|Enable or disable the New Editor|`com.adobe.fmdita.config.ConfigManager`|Enable Editor 2.0|`enable.markup.editor`|
 |Enable or disable the New Baseline|`com.adobe.fmdita.config.ConfigManager`|Enable faster Baseline (v2)|`enable.baseline.v2`|
 |Ignore metadata properties for marking a version as dirty|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|Ignore metadata property for dirty version|`xmleditor.dirtychecker.ignoremetadata`|
 |Find and replace feature in Source view|`com.adobe.fmdita.config.ConfigManager`|Enable markup find and replace|`enable.markup.findreplace`|
