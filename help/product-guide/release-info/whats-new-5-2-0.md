@@ -20,11 +20,6 @@ Here's an overview video highlighting the capabilities of Editor 2.0.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3484007)
 
-
-<!-- >[!NOTE]
->
-> Contact the AEM Guides Customer Success team to have the Editor 2.0 enabled on your environment. -->
-
 Following are the enhancements that make authoring easier and more efficient.
 
 ### Redesigned user interface & experience
@@ -406,10 +401,6 @@ Experience Manager Guides now supports element‑level component mapping in the 
 For more details, view [Component mapping for AEM Sites](../install-conf-guide/component-mapping.md).
 
 ## New baseline experience introduced in Experience Manager Guides
-
-<!-- >[!NOTE]
->
-> Contact the AEM Guides Customer Success team to have New baseline enabled on your environment. -->
 
 Managing large, complex baselines is now faster, more stable, and easier to scale with the **new baseline experience**, built on a redesigned baseline architecture. This update addresses long‑standing performance and reliability challenges while preserving existing workflows.
 

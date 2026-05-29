@@ -11,7 +11,7 @@ exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
 >
 > - This article applies to new baseline , currently available as a *Beta* feature, that offers improved performance and stability available with the Experience Manager Guides 2026.04.0 release. 
 > - To enable the new baseline feature for Cloud Service, contact the Customer Success Team.
-> - To enable the new baseline feature for On-Premise, view [Configure New Baseline](../install-config-guide/conf-new-baseline-on-prem.md).
+> - To enable the new baseline feature for On-Premise, view [Configure New Baseline](../install-conf-guide/conf-new-baseline-on-prem.md).
 
 The new baseline feature addresses critical reliability and performance issues associated with large, complex maps. It comes with a redesigned baseline architecture that delivers a faster, more stable, and more consistent baseline experience. Before we dive into the details, here's a short walkthrough video that highlights the capabilities of the new baseline feature.
 

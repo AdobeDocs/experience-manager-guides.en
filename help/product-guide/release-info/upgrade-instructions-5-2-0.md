@@ -89,17 +89,17 @@ Before you proceed with upgrading to version 5.2.0 of Experience Manager Guides,
 1. Update the system configuration to incorporate the new settings introduced in version 5.2.0, ensuring support for the following enhancements:
 
 
-| Configurations added| Configuration file | Display label of the setting | Name of the setting |
+| Configurations added|Configuration file | Display label of the setting|Name of the setting|
 |-----|-----|------|-----|
-|Enable or disable the New Editor |`com.adobe.fmdita.config.ConfigManager`| Enable Editor 2.0 | `enable.markup.editor`| 
-|Enable or disable the New Baseline | `com.adobe.fmdita.config.ConfigManager`|Enable faster Baseline (v2)|`enable.baseline.v2`|
-|Ignore metadata properties for marking a version as dirty|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`| Ignore metadata property for dirty version| `xmleditor.dirtychecker.ignoremetadata`|
+|Enable or disable the New Editor|`com.adobe.fmdita.config.ConfigManager`|Enable Editor 2.0|`enable.markup.editor`| 
+|Enable or disable the New Baseline|`com.adobe.fmdita.config.ConfigManager`|Enable faster Baseline (v2)|`enable.baseline.v2`|
+|Ignore metadata properties for marking a version as dirty|`com.adobe.fmdita.xmleditor.config.XmlEditorConfig`|Ignore metadata property for dirty version|`xmleditor.dirtychecker.ignoremetadata`|
 |Find and replace feature in Source view|`com.adobe.fmdita.config.ConfigManager`|Enable markup find and replace|`enable.markup.findreplace`|
 |Enable or disable skipping of peer links for old Baseline|`com.adobe.fmdita.config.ConfigManager`|Skip peer links for Baseline V1| `guides.baseline.v1.skip.peer.links`|
 |Enable or disable initialization of destination copies with source content in translation workflow. This is applicable only when legacy translation workflow is disabled. |`com.adobe.fmdita.config.ConfigManager`|Initialize destination language copy with source content| `translation.workflow.propagate.source.content`|
-|Reference store cleanup|`com.adobe.fmdita.config.ConfigManager`|Guides btree deletion enabled| `btree.deletion.enabled`|
-|DITA assets replication|`com.adobe.fmdita.config.ConfigManager`|Replicate DITA assets| `publish.replicate`|
-|Asset processing|`com.adobe.fmdita.config.ConfigManager`|Enable Guides asset processing scheduled job| `enable.asset.processing.scheduler`|
+|Reference store cleanup|`com.adobe.fmdita.config.ConfigManager`|Guides btree deletion enabled|`btree.deletion.enabled`|
+|DITA assets replication|`com.adobe.fmdita.config.ConfigManager`|Replicate DITA assets|`publish.replicate`|
+|Asset processing|`com.adobe.fmdita.config.ConfigManager`|Enable Guides asset processing scheduled job|`enable.asset.processing.scheduler`|
 
 For detailed information about these configuration settings, view [Configuration updates](../install-conf-guide/configuration-on-prem.md).
 
@@ -107,7 +107,5 @@ For detailed information about these configuration settings, view [Configuration
 
 
 
-<!-- After upgrading to the 5.2 release, 
 
-For additional details on the upgrade workflows, prerequisites, and troubleshooting scenarios, view [Upgrade instructions for the On-premise releases](../install-conf-guide/upgrade-aemg-latest-version.md) of Experience Manager Guides. -->
 
