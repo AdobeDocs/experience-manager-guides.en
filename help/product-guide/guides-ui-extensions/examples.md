@@ -12,6 +12,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
+
 # Examples
 
 In this package we have also provided some customisation examples (available at `guides_extension/src`) . Below is a brief description for each of them.
