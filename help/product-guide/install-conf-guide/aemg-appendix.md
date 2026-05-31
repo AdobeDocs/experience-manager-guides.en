@@ -38,9 +38,9 @@ Perform the following steps to patch any broken references, using the patch scri
 
 1.  Run the patch script `[/bin/fmdita/validatebtree?operation=patch]` to fix the broken references. The script execution takes a few minutes and prints the logs as it progresses. Once the execution completes, it prints "`Done`" at the end.
 
-   >[!NOTE]
-   >
-   > It is recommended that you copy and save the logs for reference purpose.
+    >[!NOTE]
+    >
+    > It is recommended that you copy and save the logs for reference purpose.
 
 1.  Once the patch script is executed successfully, you can perform the following checks:
 1.  -   Check a new node "`references_backup_<timestamp>"` has been created under `/content/fmdita`
