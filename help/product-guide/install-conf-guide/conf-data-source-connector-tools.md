@@ -31,7 +31,8 @@ The following tabs provide instructions to configure a connector based on your E
 
     *View or Create a data source connector.*
 1. Click **Create**.
-1. Select the database for which you want to create the connector. For example, the ElasticSearch connector. 
+1. Select the database for which you want to create the connector. For example, the ElasticSearch connector.
+
     >[!NOTE] 
     >
     >All the available out-of-the-box databases are listed.
@@ -50,30 +51,24 @@ The following tabs provide instructions to configure a connector based on your E
     * **Password**: Enter your username and password. 
     * **URL**: Add the API URL.
 
-        
 1.  Select the **Exclude factory templates** option to exclude the factory templates from being used for topic and snippet generation. They will not appear under the **Data mapping template** dropdown in the  **Add content snippet generator** or the **Add topic generator** dialog box.
-
 
 1. Select **Test connection**. You can view the **Test Connection** button enabled only after you add the required details. View a success message if the connection details are correct. Otherwise, you might view an error message. 
 
-    
-
 1. Select **Save** on the top to save the connector.     View the **Save** button enabled after you fill in all the details and the connection is successful.
-
 
     If the connector is saved successfully, you can view the connected data source on the page. 
 
 **Connect to multiple resources** 
 
 You can add or use multiple resources based on different URLs for some connectors lik Generic REST Client, Salsify, Akeneo, and Microsoft Azure DevOps Boards (ADO). Then, connect with them to create content snippets or topics using the generators for them. 
-        
+
 Perform the following steps to create a resource:
 
    1. Select ![add icon](assets/Add_icon.svg) in the **URL resource section** to add a resource for each URL. 
    1. Configure all the details in the **Add resource** dialog box.
    1. Click **Add**.
    1. You can edit ![edit icon](assets/edit_pencil_icon.svg) or delete ![delete](assets/Delete_icon.svg) the resource from the URL resource list.
-        
    1. You can also use the default resources available for data sources like Salsify, Akeneo, and Microsoft ADO. Toggle the options OFF for the resource you don't want to configure for a data source.
 
    This helps you to quickly fetch data from any of the resources for a particular data source in a single content snippet or topic.
@@ -84,7 +79,6 @@ To publish a dependency present on the [Maven Central repository](https://centra
 
 1. Add the dependency in `all/pom.xml`  in your cloud manager Git project code. For example, you can add the following dependency for Microsoft Azure DevOps Boards data source connector.
 
-    
     ```
     <dependency>
         <groupId>com.adobe.aem.addon.guides</groupId>
@@ -95,15 +89,15 @@ To publish a dependency present on the [Maven Central repository](https://centra
     ```
 
 1. Embed the added dependency. 
-    
-        ```
-        <embedded>
-            <groupId>com.adobe.aem.addon.guides</groupId>
-            <artifactId>konnect-azure-devops</artifactId>
-            <type>jar</type>
-            <target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install</target>
-        </embedded> 
-        ```
+
+    ```
+    <embedded>
+        <groupId>com.adobe.aem.addon.guides</groupId>
+        <artifactId>konnect-azure-devops</artifactId>
+        <type>jar</type>
+        <target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install</target>
+    </embedded> 
+    ```
 
 1. Run the pipeline to apply the changes in the Cloud Services. 
 The connector is installed in your environment.
@@ -120,7 +114,8 @@ The connector is installed in your environment.
 
     *View or Create a data source connector.*
 1. Click **Create**.
-1. Select the database for which you want to create the connector. For example, the ElasticSearch connector. 
+1. Select the database for which you want to create the connector. For example, the ElasticSearch connector.
+
     >[!NOTE] 
     >
     >All the available out-of-the-box databases are listed.
@@ -142,7 +137,6 @@ The connector is installed in your environment.
 
 1. Select **Save** on the top to save the connector.     View the **Save** button enabled after you fill in all the details and the connection is successful.
 
-
     If the connector is saved successfully, you can view the connected data source on the page.
 
 >[!ENDTABS]
@@ -151,9 +145,9 @@ The connector is installed in your environment.
 
 * Toggle between the **List View** or **Tile View**  to view the various connected data sources as a list or as tiles. 
 * Select the checkbox for a single connector. Click **Select All** to select all connectors. You can click **Deselect All** when all the connectors are selected. 
- 
+
 <img src="./assets/data-sources-features.png" alt= "features of the data sources on the data sources page" width="800">
- 
+
 *Edit, reconnect, duplicated, or delete a data source connector.*
 
 You can use the following features for the connector on the **Data Sources** page:
@@ -166,7 +160,6 @@ You can use the following features for the connector on the **Data Sources** pag
 You view an error if the connector with the same name exists.
 
 * **Delete**: Delete the selected connector.
-
 
 Once you have configured the data source, the connector is listed under the **Data Sources panel** in the Web Editor. You can then connect to the data source and insert a content snippet into your topics. For more details, view [Insert a content snippet from your data source](../user-guide/web-editor-content-snippet.md).
 
