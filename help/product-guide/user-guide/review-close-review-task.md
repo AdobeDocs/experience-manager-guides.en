@@ -44,7 +44,7 @@ As the initiator of the review task, you can then decide how to proceed based on
     ![](images/task-details-selection-author-view.png)
 3. Select the **Task comments** icon to access and review the task level comments added by the Reviewer.
 
-    ![](images/task-comments-selection-author-view.png).
+    ![](images/task-comments-selection-author-view.png)
 
     The **Task comments** dialog is displayed on the right. 
 
