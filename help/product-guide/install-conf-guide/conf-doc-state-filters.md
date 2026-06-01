@@ -20,41 +20,42 @@ Perform the following steps to configure the document state filters:
 1.  Select the **Edit** icon on the top.
 1.  Select the **Download** icon to download the `ui\_config.json` file on your local system. 
     In the downloaded `ui\_config.json` file, refer to the following section:
-             
-        ```
-        "repositoryFilters": [
+
+    ```
+    "repositoryFilters": [
+        {
+        "title": "Document state",
+        "property": "jcr:content/metadata/docstate",
+        "children": [
             {
-            "title": "Document state",
-            "property": "jcr:content/metadata/docstate",
-            "children": [
-                {
-                "title": "Draft",
-                "value": "Draft"
-                },
-                {
-                "title": "Edit",
-                "value": "Edit"
-                },
-                {
-                "title": "In-Review",
-                "value": "In-Review"
-                },
-                {
-                "title": "Approved",
-                "value": "Approved"
-                },
-                {
-                "title": "Reviewed",
-                "value": "Reviewed"
-                },
-                {
-                "title": "Done",
-                "value": "Done"
-                }
-            ]
+            "title": "Draft",
+            "value": "Draft"
+            },
+            {
+            "title": "Edit",
+            "value": "Edit"
+            },
+            {
+            "title": "In-Review",
+            "value": "In-Review"
+            },
+            {
+            "title": "Approved",
+            "value": "Approved"
+            },
+            {
+            "title": "Reviewed",
+            "value": "Reviewed"
+            },
+            {
+            "title": "Done",
+            "value": "Done"
             }
         ]
-        ```
+        }
+    ]
+    ```
+
     This snippet represents the default document state filters available in Experience Manager Guides.
 
 1. You can customize the filter values based on your organization's workflow. For example, to add a custom document state **Pending**, insert the following entry under `children`:
