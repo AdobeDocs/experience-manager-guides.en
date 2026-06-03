@@ -75,4 +75,5 @@ Adobe has identified the following known issues for the 2026.05.0 release:
 - When a map contains an external `topicref` pointing to a non-DITA resource (such as `.html` or `.htm`), its preview is not displayed  in the Assets UI. (GUIDES-45409)
 - In the Assets UI, content referenced using `conref` fails to appear for DITA topics, even though it renders correctly in the Editor preview. (GUIDES-45505)<br>**Workaround**: For such content, you can use Editor's preview.
 - When `xmleditor.uniquefilenames` property is enabled, new topics created using a template do not include the topic title. (GUIDES-44737)
+- The `getAsset`, `startAssetProcessing`, and `getAssetProcessingStatus` APIs are not available for use through the Java SDK.
 
