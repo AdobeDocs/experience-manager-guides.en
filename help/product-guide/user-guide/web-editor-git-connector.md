@@ -34,13 +34,11 @@ topic_v2:
 >
 > Git connector is currently available as a Beta feature, and remains disabled by default. Please contact the Customer Success team to enable the feature. 
 
-Git Connector allows you to import DITA content from Git repositories into Experience Manager Guides. After the content is imported, teams can continue using Experience Manager Guides for authoring, review, translation, and publishing workflows.
+Git Connector allows you to import content from Git repositories into Experience Manager Guides. After the content is imported, teams can continue using Experience Manager Guides for authoring, review, translation, and publishing workflows.
 
-Git Connector is useful when your organization maintains source content in Git repositories but wants documentation teams to continue working in Experience Manager Guides for downstream documentation tasks.
+## Prerequisites
 
-## Before you begin
-
-Before you start, ensure that: 
+Before you start using this feature, ensure that:
 
 - Git Connector is enabled for your environment.
 - You have access to the Git repository that contains the DITA content you want to import.
@@ -66,13 +64,13 @@ After your administrator configures the GitHub connector, you can use it from th
 
     ![](images/git-bulk-importer-dialog.png)
 
-1. In the Bulk importer dialog, provide a name to the import, select a sub folder from your configured Git repository, and select **Save and fetch**.  The list of files available for import is displayed in the dialog. Review the list and validate the content before you continue.
+1. In the Bulk importer dialog, provide a name to the import, select a sub folder from your configured Git repository, and select **Save and Fetch**.  The list of files available for import is displayed in the dialog. Review the list and validate the content before you continue.
 
-  ![](images/git-bulk-importer-import-all.png)
+    ![](images/git-bulk-importer-import-all.png)
 
-1. After reviewing the files, select **Import all** to import the content into Experience Manager Guides. If you select Auto sync, the files are imported automatically after you select Save and fetch.
+1. After reviewing the files, select **Import all** to import the content into Experience Manager Guides. If you select **Auto sync**, the files are imported automatically after you select **Save and Fetch**.
 
-Operations you can perform on impoerted data
+## Operations you can perform on the impoerted data
 
 After you import content by using the GitHub connector, you can perform the following operations on the imported content:
 
@@ -81,6 +79,7 @@ After you import content by using the GitHub connector, you can perform the foll
 1. **Preview**: Preview imported content. If the source repository contains updates, review the differences and choose **Refetch** to import the latest changes. 
 1. **Delete**: Remove imported content that is no longer required.
 1. **Rename**: Rename imported content for easier identification.
+1. **View log**: View the import log to review details of the import operation.
 1. **View reports**: View and download the **Bulk import report**, which includes details such as:
 
   - total number of imported files
@@ -88,8 +87,6 @@ After you import content by using the GitHub connector, you can perform the foll
   - number of failed imports 
 
   You can also download the detailed report. If some files fail to import, use **Retry failed imports** to try importing them again.
-
-1. **View log**: View the import log to review details of the import operation.
 
 ## Review and resolve content conflicts
 
@@ -113,7 +110,7 @@ Perform the following steps to resolve and merge conflicts:
   - Select Accept changes from Git to apply the repository changes to the merged version.
   - Review the merged content and select Mark as merged if no additional changes are required.
 
-After all files in the Merge required list are marked as merged, the Import all button is enabled. Select Import all to complete the synchronization.
+After all files containing the conflicts are marked as merged, the **Import all** button is enabled. Select **Import all** to complete the synchronization.
 
 If the repository contains entirely new content, such as a new topic, paragraph, or line that does not conflict with existing content, it is displayed under **Clean updates**. These updates do not require conflict resolution and can be imported directly.
 

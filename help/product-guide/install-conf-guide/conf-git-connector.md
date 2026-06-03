@@ -34,7 +34,7 @@ Use the Data Sources tool in Experience Manager Guides to create and configure a
     * **File type filter (inclusion)**: Specify the file types to include during import.
     * **Excluded path (regex)**: Specify path patterns to exclude from import.
     * **Authentication type**: Select the authentication type from the drop-down list. For example: Basic **username-password authentication** for personal or private Git repositories, and **No-auth** for public repository URLs.
-    * **RepositoryURL**: Enter the Git repository URL from which content should be imported.
+    * **Repository URL**: Enter the Git repository URL from which content should be imported.
     * **Branch**: Enter the branch to use for content import.
 
 1. Test the connection. The **Test connection** button is enabled only after you enter the required details. If the connection details are correct, a success message appears. Otherwise, an error message appears.
