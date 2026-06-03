@@ -148,9 +148,8 @@ For example, you can use it to display a message if the title contains only one 
 ```XML
 <assert test="not(matches(.,'^\w+$'))"> 
 No one word titles.
-</assert>  
+</assert>
 ```
- 
 
 ## Define abstract patterns{#schematron-abstract-patterns} 
 
