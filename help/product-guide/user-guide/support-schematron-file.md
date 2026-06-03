@@ -28,8 +28,7 @@ role_v2:
 
 >[!NOTE]
 >
-> Editor supports ISO Schematron.
-
+>Editor supports ISO Schematron.
 
 ## Import Schematron files
 
@@ -57,7 +56,7 @@ When you open a topic in the Editor, a Schematron Validation panel appears in th
 
     >[!NOTE]
     >
-    > When an invalid Schematron file is added, an error message is displayed in the Validation panel.
+    >When an invalid Schematron file is added, an error message is displayed in the Validation panel:
 
     ![](images/schematron-panel-error.png){width="350"}
 
@@ -122,9 +121,9 @@ When you validate your DITA topics with the Schematron, you get a message for th
 
 ### Report statement
 
-A report statement generates a message when a test statement evaluates to true. For example, if you want the short description to be less than or equal to 150 characters, you can define a report statement to check the topics where the short description is more than 150 characters. 
-When you validate your DITA topics with the Schematron, you get a complete report of the rules where the report statement evaluates to true. So, you get a message for the topics where the short description is more than 150 characters. 
+A report statement generates a message when a test statement evaluates to true. For example, if you want the short description to be less than or equal to 150 characters, you can define a report statement to check the topics where the short description is more than 150 characters.
 
+When you validate your DITA topics with the Schematron, you get a complete report of the rules where the report statement evaluates to true. So, you get a message for the topics where the short description is more than 150 characters. 
  
 ```XML
 <sch:rule context="shortdesc"> 
@@ -137,7 +136,7 @@ When you validate your DITA topics with the Schematron, you get a complete repor
 
 >[!NOTE]
 >
-> Use only Xpath 2.0 expressions while writing the Schematron rules.
+>Use only Xpath 2.0 expressions while writing the Schematron rules.
 
 ## Use Regex expressions{#schematron-regex-espressions}
 
@@ -155,12 +154,10 @@ No one word titles.
 
 Experience Manager Guides also supports abstract patterns in Schematron. You can define generic abstract patterns reuse these abstract patterns.  You can create placeholder parameters that specify the actual pattern. 
 
-
 Using abstract patterns can simplify your Schematron schema by reducing the duplication of rules and making it easier to manage and update your validation logic. It can also make your schema easier to understand, as you can define complex validation logic in a single abstract pattern that can be reused throughout the schema. 
 
-
 For example, the following XML code creates an abstract pattern and then the actual pattern refers to it using the id.  
- 
+
 ```XML
 <sch:pattern abstract="true" id="LimitNoOfWords"> 
 
