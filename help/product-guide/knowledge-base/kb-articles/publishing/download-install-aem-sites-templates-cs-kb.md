@@ -52,9 +52,9 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
         ![Select Access Repo info](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
     3. Clone the repository to your local system using the provided username and password (generate password if required).
-2. **Add Package to Maven Bundle:**
-    1. In your locally cloned repository, create a new Maven bundle or add to an existing one.
-    2. Ensure the structure `/jcr_root/apps/fmdita/` install exists in the Maven project.
+2. **Add Package to Project module:**
+    1. In your locally cloned repository, create a new Project module or add to an existing one.
+    2. Ensure the structure `/jcr_root/apps/fmdita/` install exists and add `guides-components.all` zip under install folder.
 
         ![Structure in Maven project](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
@@ -64,8 +64,7 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
 3. **Update filters.xml:**  
 
     1. Open the filters.xml file located in the META-INF folder of the parent content directory.
-    2. Add the following filter: filter root=`/apps/fmdita` mode=`merge`/
-
+    2. Add the following filter: `filter root=`/apps/fmdita` mode=`merge`/`.
 
         ![Add filter](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
