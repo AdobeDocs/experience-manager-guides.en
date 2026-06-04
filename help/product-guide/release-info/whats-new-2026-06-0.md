@@ -19,3 +19,15 @@ After the content is imported, teams can continue using Experience Manager Guide
 
 To help keep imported content up to date, Git Connector also supports re-fetching content from the source repository to bring in updates. It includes intelligent change detection to identify content updates, preserves topic and map GUIDs during import and re-fetch operations, and provides conflict resolution capabilities to help manage differences between repository content and content already available in Experience Manager Guides. For more details, view [Import DITA content from Git repositories using Git Connector](../user-guide/web-editor-git-connector.md). 
 
+## Support for external data sources and citations now available in the New Editor
+
+The New Editor now supports two existing Experience Manager Guides capabilities: Ability to connect with external data sources and and use citations in the documents.
+
+Authors can continue using configured external data sources while creating or updating content in the New Editor. Citations are also supported, so authors can add and manage references in their content without switching editors.
+
+## Learning 
+
+- **Mandatory knowledge checks before progressing in a course**: Authors can now make a marked knowledge check mandatory before learners advance in a course. A new **Require knowledge check to proceed** option is introduced for knowledge checks in courses.
+
+When enabled, this option requires learners to complete the marked knowledge check before they can move ahead in the course. The **Next** button remains disabled until all mandatory questions are completed.
+

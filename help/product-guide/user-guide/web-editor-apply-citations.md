@@ -24,14 +24,9 @@ role_v2:
 ---
 # Add and manage citations in your content
 
->[!NOTE]
->
-> Citations are supported only in the Old Editor and are currently not available in New Editor. The information in this article applies only if you are using the Old Editor.
-
 Citations are references to the source of information added to your content. Using citations, you can credit the authors of the source information and help readers to follow up on the source information. Adding citations makes your content more reliable and prevents plagiarism. They also allow you to display well-researched content.
 
 In Adobe Experience Manager Guides, you can add and import citations and apply them to your content. You can add these citations from any source of books, websites, and journals. 
-
 
 Experience Manager Guides helps you to edit, preview, and sort your citations. After adding your citations into the content, you can generate the output using Native PDF. You can also add the bibliography or references page in the Native PDF output. 
 
