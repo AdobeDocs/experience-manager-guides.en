@@ -35,7 +35,7 @@ Experience Manager Guides supports multiple styles of citations, such as Modern 
 
 >[!NOTE]
 >
->Currently Experience Manager Guides only supports Native PDF for citations.
+>Experience Manager Guides supports all citation styles when publishing to Native PDF. For AEM Sites output, only AMA-style citations are currently supported.
 
 
 ## Add citations 
