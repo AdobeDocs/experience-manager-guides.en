@@ -417,6 +417,10 @@ Using the MathML equation tools, create your equation and select **Insert** to a
 
 At any time you can update an equation by right-clicking on an existing equation and selecting **Edit MathML** from the context menu.
 
+>[!NOTE]
+>
+> MathML generation propagates the `output-class` associated with MathML equations, enabling configured styling such as fonts, colors, backgrounds, and other formatting to be reflected in the generated output.
+
 ### Validation of equations in the MathML editor
 
 Experience Manager Guides validates MathML equations when you save a topic containing them.
