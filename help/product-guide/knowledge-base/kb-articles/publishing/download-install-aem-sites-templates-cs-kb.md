@@ -54,7 +54,7 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
     3. Clone the repository to your local system using the provided username and password (generate password if required).
 2. **Add Package to Project module:**
     1. In your locally cloned repository, create a new Project module or add to an existing one.
-    2. Ensure the structure `/jcr_root/apps/fmdita/` install exists and add `guides-components.all` zip under install folder.
+    2. Ensure the structure `/jcr_root/apps/fmdita/` install exists.
 
         ![Structure in Maven project](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
