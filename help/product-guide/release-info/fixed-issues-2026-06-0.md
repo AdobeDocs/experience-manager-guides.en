@@ -88,5 +88,5 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 - The `keyref` used in a topic title derived from a keyword map does not appear in the TOC or topic tab after saving, even after a browser refresh. (GUIDES-45799)
 - Opening a review task in the Editor using Side-by-Side view for the commented version, displays the version as None instead of the associated version for the topic. (GUIDES-45127)
 - When accessing the Review task page, page breaks between topics are not displayed, resulting in the continuous rendering of content sections. (GUIDES-46777)
--For a review task in the Side-by-Side view for the commented version, the comment panel is slightly left-shifted relative to the corresponding content. (GUIDES-46061)
+- For a review task in the Side-by-Side view for the commented version, the comment panel is slightly left-shifted relative to the corresponding content. (GUIDES-46061)
 
