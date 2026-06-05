@@ -65,15 +65,15 @@ After your administrator configures the Git Connector, you can use it from the E
 
     ![](images/git-bulk-importer-dialog.png)
 
-1. In the **Bulk importer** dialog, provide a name for the import, select a sub folder from your configured Git repository, and select **Save and Fetch**.  The list of files available for import is displayed in the dialog. Review the list and validate the content before you continue.
+1. In the **Bulk importer** dialog, provide a name for the import, select a sub folder from your configured Git repository, and select **Save & Fetch**.  The list of files available for import is displayed in the dialog. Review the list and validate the content before you continue.
 
     ![](images/git-bulk-importer-import-all.png)
 
 1. After reviewing the files, select **Import all** to import the content into Experience Manager Guides. 
 
-  >[!NOTE]
-  >
-  > You can enable **Auto Sync** to automatically synchronize and import content from your Git repository into Experience Manager Guides. If conflicts are detected during synchronization, Auto Sync is paused and the conflict-resolution workflow is triggered, requiring you to review and resolve the conflicts before synchronization can continue. Once enabled, Auto Sync cannot be disabled for the importer.
+    >[!NOTE]
+    >
+    > You can enable **Auto Sync** to automatically synchronize and import content from your Git repository into Experience Manager Guides. If conflicts are detected during synchronization, Auto Sync is paused and the conflict-resolution workflow is triggered, requiring you to review and resolve the conflicts before synchronization can continue. Once enabled, Auto Sync cannot be disabled for the importer.
 
 After the content is imported, it is stored under the **Target AEM root path** configured by your Administrator when setting up the Git Connector.
 
@@ -113,23 +113,23 @@ Perform the following steps to resolve and merge conflicts:
 
 1. Review the differences highlighted in the editor and resolve the conflicts using the merge controls:
 
-  - If you want to use the latest changes from the Git repository, ensure that the checkbox for the conflict in the **Git** section is selected, and then select the corresponding `<<<` control. The selected Git content replaces the conflicting content in the **Merge** section.
+    - If you want to use the latest changes from the Git repository, ensure that the checkbox for the conflict in the **Git** section is selected, and then select the corresponding `<<<` control. The selected Git content replaces the conflicting content in the **Merge** section.
   
-    ![](images/git-connector-replace-with-git.png){width="600"}
+      ![](images/git-connector-replace-with-git.png){width="600"}
 
-  - If you want to keep content from both versions, clear the checkbox for the conflict and then use the `<<<` control to add the required content to the **Merge** section without replacing the existing content.
+    - If you want to keep content from both versions, clear the checkbox for the conflict and then use the `<<<` control to add the required content to the **Merge** section without replacing the existing content.
 
-    ![](images/git-connector-keep-both-versions.png){width="600"}
+      ![](images/git-connector-keep-both-versions.png){width="600"}
 
-  - Similarly, you can use the `>>>` control in the AEM section to keep the version currently available in Experience Manager Guides.
+    - Similarly, you can use the `>>>` control in the AEM section to keep the version currently available in Experience Manager Guides.
 
-    ![](images/git-connector-accept-aem-version.png){width="600"}
+      ![](images/git-connector-accept-aem-version.png){width="600"}
 
 1. After reviewing the merged content, perform one of the following actions:
 
-  - Use **Accept changes from Git** when the repository version should replace the conflicting content.
-  - Use **Mark as merged** after reviewing and updating the merged version to ensure it contains the content you want to keep.
-  - Use **Reset** to discard all merged updates and restore the content to its original state. This allows you to restart the merge process before selecting **Mark as merged**.
+    - Use **Accept changes from Git** when the repository version should replace the conflicting content.
+    - Use **Mark as merged** after reviewing and updating the merged version to ensure it contains the content you want to keep.
+    - Use **Reset** to discard all merged updates and restore the content to its original state.
 
 After all files containing the conflicts are marked as merged, the **Import all** button is enabled. Select **Import all** to complete the process of resolving conflicts.
 
