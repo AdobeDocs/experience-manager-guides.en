@@ -57,6 +57,7 @@ When you open a topic in the Web Editor, a Schematron Validation panel appears i
 1. Click the Schematron icon (), to open the Schematron panel.
 1. Use Add Schematron File to add Schematron files. 
 1. If the Schematron file has no errors, it is added and listed in the Validation panel. An error message is displayed for the Schematron file containing errors.
+
     >[!NOTE]
     >
     >You can use the cross icon near the Schematron file name to remove it.
@@ -115,7 +116,6 @@ For example, you can use it to display a message if the title contains only one 
 No one word titles.
 </assert>  
 ```
- 
 
 ## Define abstract patterns{#schematron-abstract-patterns} 
 
