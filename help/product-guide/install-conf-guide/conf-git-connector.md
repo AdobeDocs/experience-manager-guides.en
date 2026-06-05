@@ -8,10 +8,10 @@ level: Experienced
 ---
 # Create and configure Git Connector from the user interface
 
-Use the Data Sources tool in Experience Manager Guides to create and configure a Git connector from the user interface. After you configure the connector successfully, you can use it to import DITA content from a Git repository into Experience Manager Guides.
+Use the Data Sources tool in Experience Manager Guides to create and configure a Git connector from the user interface. After you configure the connector successfully, you can use it to import content from a Git repository into Experience Manager Guides.
 
 
-1. Select the **Adobe Experience Manager** link at the top and choose Tools. 
+1. Select the **Adobe Experience Manager** link at the top and choose **Tools**. 
 1. Select **Guides** from the list of tools.
 1. Select the **Data Sources** tile. The **Data Sources** page is displayed. 
 1. Select **Create**.
@@ -33,7 +33,7 @@ Use the Data Sources tool in Experience Manager Guides to create and configure a
     * **Target AEM root path**: Enter the path in the AEM repository where content imported from Git should be stored.
     * **File type filter (inclusion)**: Specify the file types to include during import.
     * **Excluded path (regex)**: Specify path patterns to exclude from import.
-    * **Authentication type**: Select the authentication type from the drop-down list. For example: Basic **username-password authentication** for personal or private Git repositories, and **No-auth** for public repository URLs.
+    * **Authentication type**: Select the authentication type from the drop-down list. For example: Basic *username-password authentication* for personal or private Git repositories, and *No-auth* for public repository URLs.
     * **Repository URL**: Enter the Git repository URL from which content should be imported.
     * **Branch**: Enter the branch to use for content import.
 

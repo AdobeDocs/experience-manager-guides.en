@@ -1,6 +1,6 @@
 ---
-title: Import DITA Content from Git with Git Connector (Beta) in Experience Manager Guides
-description: Learn how Git Connector (Beta) in Experience Manager Guides allows you to import DITA content from Git repositories, re-fetch updates, preserve GUIDs, and manage conflicts.
+title: Import content from Git repositories with Git Connector (Beta) in Experience Manager Guides
+description: Learn how Git Connector (Beta) in Experience Manager Guides allows you to import content from Git repositories, re-fetch updates, preserve GUIDs, and manage conflicts.
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/DDAXW8cUFjvHUeJIbtL6FaHYSU7NW5fkzTai-7n90ms
@@ -28,35 +28,38 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
 ---
-# Import DITA content from Git repositories using Git Connector
+# Use Git Connector (Beta) to import content from Git repositories into Experience Manager Guides
 
 >[!IMPORTANT]
 >
 > Git connector is currently available as a Beta feature, and remains disabled by default. Please contact the Customer Success team to enable the feature. 
 
-Git Connector allows you to import content from Git repositories into Experience Manager Guides. After the content is imported, teams can continue using Experience Manager Guides for authoring, review, translation, and publishing workflows.
+Git Connector enables you to integrate Git repositories with Experience Manager Guides. If you maintain certain documentation in Git repositories, you can bring that content into Experience Manager Guides and manage it as part of your documentation workflow.
+
+After an administrator configures a Git connector for your source repository, you can import the folders, files, other documentation assets into Experience Manager Guides. Once imported, the content is stored and managed in Experience Manager Guides, where you can use its authoring, review, translation, and publishing capabilities to develop and deliver documentation.
+
+The Git Connector also helps you keep imported content aligned with changes in the source repository. When content is updated in Git after it has been imported, you can refetch the changes in Experience Manager Guides, identify conflicts, and resolve them before updating the imported content. This enables you to work with Git-managed content in Experience Manager Guides while maintaining visibility into changes made in the source repository.
 
 ## Prerequisites
 
 Before you start using this feature, ensure that:
 
-- Git Connector is enabled for your environment.
+- Git Connector feature is enabled for your environment. 
+- If enabled, your Administrator has configured the Git connector in your environment. For details, view [Create and configure Git Connector from the user interface](../install-conf-guide/conf-git-connector.md). 
 - You have access to the Git repository that contains the DITA content you want to import.
 - You know which repository branch and source folder you want to use.
 - You know the target folder in Experience Manager Guides where the imported content should be stored.
-- Your Administrator has created and configured the Git connector in your environment. For details, view [Create and configure Git Connector from the user interface](../install-conf-guide/conf-git-connector.md). 
-
 
 ## Import content from the connected Git repoistory
 
-After your administrator configures the GitHub connector, you can use it from the Editor to start importing content from a Git repository.Perform the following steps to import content from a Git repository:
+After your administrator configures the Git Connector, you can use it from the Editor to start importing content from a Git repository.Perform the following steps to import content from a Git repository:
 
 1. In the Editor, open the left panel.
 1. Select **Data sources**.
 
     The connected data sources are displayed. 
 
-1. Select the GitHub connector that your Administrator configured. 
+1. Select the Git Connector tile that your Administrator configured. 
 
 1. Select the + icon and then select **Bulk importer**.  
 
@@ -70,13 +73,13 @@ After your administrator configures the GitHub connector, you can use it from th
 
 1. After reviewing the files, select **Import all** to import the content into Experience Manager Guides. If you select **Auto sync**, the files are imported automatically after you select **Save and Fetch**.
 
-## Operations you can perform on the impoerted data
+## Manage Git-imported content
 
-After you import content by using the GitHub connector, you can perform the following operations on the imported content:
+Once content is imported into Experience Manager Guides, you can use the available actions to manage the content and keep it synchronized with changes in the source repository.
 
 ![](images/git-connector-imported-content-options.png){width="600"}
 
-1. **Preview**: Preview imported content. If the source repository contains updates, review the differences and choose **Refetch** to import the latest changes. 
+1. **Preview**: Preview imported content. If the source repository contains updates, review the differences and use the **Refetch** option to import the latest changes. 
 1. **Delete**: Remove imported content that is no longer required.
 1. **Rename**: Rename imported content for easier identification.
 1. **View log**: View the import log to review details of the import operation.
@@ -101,16 +104,16 @@ Perform the following steps to resolve and merge conflicts:
     ![](images/git-connector-resolve-conflicts.png){width="600"}
 
 
-  - AEM displays the current version in AEM Guides.
-  - Git displays the latest version from the repository.
-  - Merge displays the merged result.
+  - In the **AEM** section, the current version of the content present in Experiece Manager Guides is displayed.
+  - In the **Git** section, the latest version of the content from the repository is displayed.
+  - In the **Merge** section, the merged content is displayed.
 
 1. Review the differences highlighted in the editor and perform one of the following actions:
 
-  - Select Accept changes from Git to apply the repository changes to the merged version.
-  - Review the merged content and select Mark as merged if no additional changes are required.
+  - Select **Accept changes from Git** to apply the repository changes to the merged version.
+  - Review the merged content and select **Mark as merged** if no additional changes are required.
 
-After all files containing the conflicts are marked as merged, the **Import all** button is enabled. Select **Import all** to complete the synchronization.
+After all files containing the conflicts are marked as merged, the **Import all** button is enabled. Select **Import all** to complete the process of resolving conflicts.
 
 If the repository contains entirely new content, such as a new topic, paragraph, or line that does not conflict with existing content, it is displayed under **Clean updates**. These updates do not require conflict resolution and can be imported directly.
 
