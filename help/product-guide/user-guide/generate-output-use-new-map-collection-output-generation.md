@@ -36,7 +36,7 @@ The New map collection (Beta) consolidates the functionality previously spread a
 
 ## Create a map collection and add DITA maps 
 
-To create a Map Collection and add DITA maps to the collection, perform the following steps:
+To create a map collection and add maps to them, perform the following steps:
 
 1.  Open the [Experience Manager Guides Home page](./intro-home-page.md#map-collections) and select **New Map collections**. 
 
