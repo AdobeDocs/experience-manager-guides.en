@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
-# Introduction to the Editors {#id181OD0QE05Z}
+# Introduction to the Editor {#id181OD0QE05Z}
 
 Experience Manager Guides comes with an easy-to-use editor for creating and editing structured documents. The editor hides all the complexities of the DITA structure from the writer. The editor provides a list of DITA elements that a user would usually need to work within a document.
 
