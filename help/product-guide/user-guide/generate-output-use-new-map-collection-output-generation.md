@@ -53,53 +53,53 @@ To create a map collection and add maps to them, perform the following steps:
 
     A Success message is displayed on creation of the map collection.
 
-1. Open the desired map collection. 
+1. Open the desired map collection you want to add the maps to. 
 
     ![Edit new map collection](./images/edit-new-map-collection.png)
 
     While hovering over the map collection title, you can perform the following actions:
 
-    - Generate history: Navigates you directly to the Generated history tab listing all the maps with generated outputs for the defined presets.
-    - Publish history: Navigates you directly to the Published history tab listing all the maps with published output for the defined presets.
-    - Remame: Reanames the map collection.
+    - **Generate history**: Navigates you directly to the Generated history tab listing all the maps with generated outputs for the defined presets.
+    - **Publish history**: Navigates you directly to the Published history tab listing all the maps with published output for the defined presets.
+    - **Remame**: Reanames the map collection.
 
-1.  Select **Edit collection** and then select **Add Maps**.
+1.  Select **Edit collection** and then select **Add maps**.
 
     ![Add maps](./images/add-maps-new-collection.png)
 
-1.  Select the map and enable the **Select available translations** toggle to automatically add all available translation copies of that map to the map collection.
+1.  Select the desired maps and enable the **Select available translations** toggle to automatically add all available translation copies of that map to the map collection. If the map does not have any translation copy, the default language is added to the amp.
 
     ![Select maps](./images/select-maps-new-collection.png)
 
 1.  Select **Add**.
 
-    The DITA map files listed along with all the translated copies.
+    The map files are listed along with all their available translated copies. For maps that do not have any translations, the default language is displayed.
 
     ![Fetch presets](./images/fetch-presets.png)
 
-1. Select all the maps listed and select **Fetch Presets**.
+1. Select the required maps, or all the listed maps, and then select the **Fetch presets** button to retrieve the available presets for the selected maps.
 
     You will see a list of all available presets for the selected maps, grouped under two categories: **Folder profile presets** and **Other presets**. **Folder profile presets** are common to all the selected maps, while **Other presets** are specific to individual maps. For presets under **Other presets**, the associated map is indicated next to the corresponding toggle.
 
     ![Fetch presets types](./images/fetch-presets-types.png)
 
-1. Select **Enable all presets** or **Enable all folder profile presets**, depending on your requirement. You can also use the Filter icon on the right to narrow down the list. The filter provides two levels of filtering: **Preset types** and **Map status**.
+1. Select **Enable all presets** or **Enable all folder profile presets**, depending on your requirement. You can also use the Filter icon on the right to narrow down the list. The filter provides two levels of filtering: **Preset types** to narrow down the presets listed and **Map status** to choose any specific maps from the Maps panel.
 
     ![Enable all presets](./images/enable-all-presets.png)
 
 1. Select **Save**.
 
-You get a list of all the desired maps and presets.
+You get a list of all the desired maps with the Map title, corresponding File name, the Language it is available in and the configured presets.
 
 ![Maps and presets tabs](./images/maps-presets-tab.png)
 
 The **Maps and Presets** tab presents information on the baseis on the selected maps for specific language in the following columns:
     
--  **Preset**: Shows the output preset type configured on the map file.
+- **Preset**: Shows the output preset type configured on the map file.
 - **Baseline**: Shows the baseline which is used by the output preset.  If no baseline is used, then it shows a hyphen '-' 
 - **Modified since generation**: Indicates if the DITA map is updated after generation. Based on this information, you can decide if you want to publish the output for this DITA map or not.
 - **Modified since published**: Indicates if the DITA map is updated after last publising. Based on this information, you can decide if you want to republish the output for this DITA map or not.
-- **Last Generated**: Shows the date and time of the last generated output.    
+- **Last generated**: Shows the date and time of the last generated output.    
 - **Last published**: Shows the date and time of the last generated output. 
 
 **Filtering options**
@@ -132,11 +132,11 @@ To generate the output using a Map Collection, perform the following steps:
 
     ![Status of generation](./images/generated-tab-status.png)
 
-1. Select Refresh to view the latest status of the generation process. The Status column is updated to reflect the current state of each map and its associated presets:
+1. Select **Refresh** to view the latest status of the generation process. The Status column is updated to reflect the current state of each map and its associated presets:
 
-    - Finished (Green): Generation completed successfully.
-    - Finished (Red):Generation completed with errors. Error details can be viewed in the logs.
-    - Executing (Blue):Generation is currently in progress.
+    - **Finished (Green)**: Generation completed successfully.
+    - **Finished (Red)**:Generation completed with errors. Error details can be viewed in the logs.
+    - **Executing (Blue)**:Generation is currently in progress.
 
     ![Status types](./images/status-types.png)
 
@@ -154,8 +154,11 @@ To generate the output using a Map Collection, perform the following steps:
 
 To publish the output using a Map Collection, perform the following steps:
 
-1. Select the desired maps from the Maps and Presets tab or the Generated History tab and select **Publish to**.
+1. Select the desired maps from the either the **Maps and Presets** tab or the **Generated history** tab and select **Publish to**.
 1. Select the target environment where you want to publish the output: **Preview** or **Publish** instance.
+
+     ![Publish output](./images/publish-output.png)
+
 1. Switch to the **Published history** tab to monitor the status of the publishing task.
 
      ![Publish status](./images/publish-status.png)
