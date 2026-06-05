@@ -64,7 +64,7 @@ Install the **Components Package (guides-components.all-1.x.x.zip)** and perform
 3. **Update filters.xml:**  
 
     1. Open the filters.xml file located in the META-INF folder of the parent content directory.
-    2. Add the following filter: `filter root=`/apps/fmdita` mode=`merge`/`.
+    2. Add the following filter: `<filter root=/apps/fmdita  mode=merge/>`.
 
         ![Add filter](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
