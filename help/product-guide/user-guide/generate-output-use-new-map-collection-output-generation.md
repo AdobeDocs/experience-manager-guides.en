@@ -26,13 +26,13 @@ topic_v2:
 ---
 # Use New Map Collection for output generation (Beta){#id1723F20G0HS}
 
-In any organization, a product can have multiple types of documentation. As a publishing specialist, you would like to control what output you want to generate for which document. Also, there should be a way to batch publish multiple documents in a single go.
+>[!IMPORTANT]
+>
+>New map collections is available in Experience Manager Guides as a Cloud Service starting with 2026.06.0 release. Contact your Customer Success team to enable this feature.
 
-Adobe Experience Manager Guides provides you the ability to organize your content for publishing by using a dashboard called Map Collection. A Map Collection allows you to assemble all different types of documents in a single unit. You can choose what type of output you want to generate for each document in your Map Collection. In addition, you can also generate output and view the output generation progress from the publishing dashboard.
+Map collection in Adobe Experience Manager Guides enables publishing specialists to organize multiple documents into a single collection, control the output generated for each document, and efficiently generate and publish outputs in batches from a centralized dashboard. It also provides visibility into output generation progress and highlights changes made to maps since their last published output, allowing you to review updates and republish content when needed. 
 
-New Map Collection gives you an option to view if there is any change in any map from the last published output. You can view the details in the Maps and Presets tab of your Map Collection and then republish the output if required. 
-
-The New Map Collection (Beta) consolidates the functionality previously spread across the legacy Map Collection, Bulk Activation Dashboard, and Bulk Publish Dashboard into a single unified interface. Once the beta feature flag is enabled, you can manage maps, presets, generation history, publishing history, metadata, and collection membership from one location.
+The New map collection (Beta) consolidates the functionality previously spread across the legacy Map Collection, and Bulk Publishing into a single unified interface. Once the beta feature flag is enabled, you can manage maps, presets, generation history, publishing history, metadata, and collection membership from one location.
 
 ## Create a map collection and add DITA maps 
 
@@ -42,7 +42,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
     The **Map Collections** page opens.
 
-    ![](images/map-collections-page.png){width="350"}
+    ![](images/new-maps-collection.png){width="350"}
 
     
 1.  On the **Map Collections** page, select **Create** on the top-right, and provide a **Name** for your new map collection.
@@ -53,13 +53,15 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
     A Success message is displayed on creation of the map collection.
 
-1.  Select the **Cross** icon on the Success message.
-1. Open the desired map collection. You can also perform the following while hovering near the title of the mapcollections:
-    - Generate history
-    - Publish history
-    - Remame
+1. Open the desired map collection. 
 
     ![Edit new map collection](./images/edit-new-map-collection.png)
+
+    While hovering over the map collection title, you can perform the following actions:
+
+    - Generate history: Navigates you directly to the Generated history tab listing all the maps with generated outputs for the defined presets.
+    - Publish history: Navigates you directly to the Published history tab listing all the maps with published output for the defined presets.
+    - Remame: Reanames the map collection.
 
 1.  Select **Edit collection** and then select **Add Maps**.
 
@@ -89,7 +91,7 @@ To create a Map Collection and add DITA maps to the collection, perform the foll
 
 You get a list of all the desired maps and presets.
 
-    ![Maps and presets tabs](./images/maps-presets-tab.png)
+![Maps and presets tabs](./images/maps-presets-tab.png)
 
 The **Maps and Presets** tab presents information on the baseis on the selected maps for specific language in the following columns:
     
@@ -152,7 +154,7 @@ To generate the output using a Map Collection, perform the following steps:
 
 To publish the output using a Map Collection, perform the following steps:
 
-1. Select the desired maps from the Generated History tab and click Publish To.
+1. Select the desired maps from the Maps and Presets tab or the Generated History tab and select **Publish to**.
 1. Select the target environment where you want to publish the output: **Preview** or **Publish** instance.
 1. Switch to the **Published history** tab to monitor the status of the publishing task.
 
@@ -164,7 +166,7 @@ To publish the output using a Map Collection, perform the following steps:
 
 ## Configure the metadata properties
 
-In the map collection, you can configure the metadata properties in bulk for the DITA maps. Select **Configure Metadata**  to open the **Asset Metadata** page. On the **Asset Metadata** page, all the maps present in the collection are listed on the left. 
+In the map collection, you can configure the metadata properties in bulk for the DITA maps. Select **Configure Metadata** icon from the **Maps and presets** tab to open the **Asset Metadata** page. On the **Asset Metadata** page, all the maps present in the collection are listed on the left. 
 
 ![configure metadata](images/map-collection-asset-metadata.png)
 
