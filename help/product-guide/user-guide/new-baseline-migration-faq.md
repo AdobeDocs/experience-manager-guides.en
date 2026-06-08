@@ -118,6 +118,6 @@ Based on internal testing and observations from repositories containing approxim
 | 10–15 baselines | A few tens of seconds |
 | 25–50 baselines | Approximately 1–2 minutes |
 
->[!INFO]
+>[!NOTE]
 >
->These figures are indicative only and may vary depending on repository complexity, infrastructure capacity, and environmental conditions.
+>These figures are provided for reference only and may vary based on repository complexity, infrastructure capacity, hardware configuration, and overall operating conditions.
