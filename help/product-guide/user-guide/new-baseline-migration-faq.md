@@ -34,47 +34,45 @@ topic_v2:
 ---
 # New Baseline migration FAQ
 
-## Overview
-
 This FAQ addresses common questions related to New Baseline  migration, behavior changes, migration considerations, and expected outcomes when upgrading to the New Baseline model.
 
-### Does baseline migration create new baselines for all versions of a map?
+## Does baseline migration create new baselines for all versions of a map?
 
 No, the migration process creates new baselines only for the **current working copy** of the map. Baselines associated with other working copies are not included in the migration.
 
-### What happens when a user reverts to a previous version of a map?
+## What happens when a user reverts to a previous version of a map?
 
 When a previous version of a map is restored or accessed, the baselines associated with that version are automatically migrated to the new baseline model by an asynchronous migration process.
 
-### Are invalid references migrated to the new baseline?
+## Are invalid references migrated to the new baseline?
 
 No, invalid references are skipped during migration to maintain baseline consistency and ensure the reliability of the migrated baseline.
 
-### Are reltable references included in the new baseline model?
+## Are reltable references included in the new baseline model?
 
 No, references originating from **reltable** elements are excluded from baseline resolution, consistent with the behavior of the legacy baseline model.
 
-### How are DIRECT references handled in New Baseline?
+## How are DIRECT references handled in New Baseline?
 
 In the New Baseline model, the direct map references are explicitly classified as **DIRECT** references. During migration and baseline resolution, these references are given the highest precedence and are resolved before all other reference types.
 
-### Are `scope="peer"` references included in the baseline?
+## Are `scope="peer"` references included in the baseline?
 
 No, references with `scope="peer"` are not included in the baseline model. Excluding these references improves publishing performance and avoids unnecessary dependency resolution.
 
-### Can baselines still be managed from the Map Dashboard?
+## Can baselines still be managed from the Map Dashboard?
 
 No, the baseline management is supported only from the **Map Console** in New Baseline.Creating and managing baselines from the **Map Dashboard** is not supported.
 
-### Is any precaution required during migration?
+## Is any precaution required during migration?
 
 Yes, baseline modifications should be avoided while a migration is in progress, particularly in working copies. Making changes to baselines during migration can lead to migration failures and may leave baselines in an inconsistent state.
 
-### What happens if versions are missing after migration?
+## What happens if versions are missing after migration?
 
 Some baselines may need to be rebuilt after migration if the versions referenced by those baselines are no longer available or accessible.
 
-### What are the key benefits of migrating to the new baseline?
+## What are the key benefits of migrating to the new baseline?
 
 The New Baseline model provides several improvements, including:
 
@@ -86,7 +84,7 @@ The New Baseline model provides several improvements, including:
 - Improved reliability during baseline creation and updates
 - Better API and automation support
 
-### Does baseline migration change the baseline?
+## Does baseline migration change the baseline?
 
 No, baseline migration preserves the baseline exactly as it exists and does not modify its content or references.
 
@@ -100,7 +98,7 @@ Updates to references or dependency resolution behavior occur only after the mig
 
 Until one of these actions is performed, the migrated baseline continues to reflect the original baseline definition.
 
-### What is the approximate time required to migrate baselines for an On-Premise setup?
+## What is the approximate time required to migrate baselines for an On-Premise setup?
 
 Migration time depends on several factors, including:
 
