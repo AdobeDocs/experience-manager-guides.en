@@ -58,7 +58,7 @@ Before migrating to the new baseline model, review the following behavior change
 | **Baseline data model** | The new graph‑based baseline model removes mutable fields and is not backward compatible with the previous baseline model. |
 | **API usage** | Baseline operations are supported through REST APIs and the Java SDK. Raw baseline objects are no longer exposed. |
 | **Version purging** | After migration, version purging considers only baselines stored in the new baseline repository. |
-| **UI** | Dynamic baselines can now be viewed, and reference version editing are streamlined. |
+| **UI** | Dynamic baselines can be viewed, and reference version editing are streamlined. |
 
 ## Migrate to new baseline  
 
