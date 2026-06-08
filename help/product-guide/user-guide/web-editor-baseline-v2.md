@@ -51,13 +51,14 @@ Before migrating to the new baseline model, review the following behavior change
 
 | Area | Change (description) |
 |------|-------------|
-| **Reference resolution** | Direct map references are classified as **DIRECT**. Invalid references are skipped, and references from `reltable` continue to be excluded. |
-| **Pick Automatically** | Version selection is evaluated immediately before resolving direct references, ensuring accurate version resolution. |
+| **Reference resolution** | Direct map references are classified as **DIRECT**. Invalid references are skipped, and references from `reltable` continue to be excluded. This is supported in edited and new baselines, but not in baselines that have only been migrated.|
+| **Pick Automatically** | Version selection is evaluated immediately before resolving direct references to ensure accurate version resolution. This is supported in edited and new baselines, but not in baselines that have only been migrated. |
 | **Baseline creation rules** | Version **1.0** is mandatory. Baselines with missing or ambiguous versions may resolve differently after migration. |
 | **Migration handling** | Invalid references are skipped. **DIRECT** references take precedence, unpinned references move to the latest version, and additional metadata is added from version **5.0** onward. |
 | **Baseline data model** | The new graph‑based baseline model removes mutable fields and is not backward compatible with the previous baseline model. |
 | **API usage** | Baseline operations are supported through REST APIs and the Java SDK. Raw baseline objects are no longer exposed. |
 | **Version purging** | After migration, version purging considers only baselines stored in the new baseline repository. |
+| **UI** | Dynamic baselines can now be viewed, and reference version editing are streamlined. |
 
 ## Migrate to new baseline  
 
@@ -80,7 +81,12 @@ Perform the following steps, to migrate the existing baseline to the new baselin
 1. Provide the following details in the dialog:
 
     1. **Feature type**: Select **Baseline** from the drop down.
-    1. **Select folder(s) and file(s)**: Navigate and choose one or multiple folders and files to process. 
+    1. **Select folder(s) and file(s)**: Navigate and choose one or multiple folders and files to process. You can select only folders for baseline migration.
+
+        >[!NOTE]
+        >
+        > Select the folder that contains all the guide content and map files. If map files are stored separately, choose the directory where the map files are located.
+
     1. **Select folder(s) to ignore**: Optionally, select sub-folders within the chosen parent folder to exclude from the migration.   
 
     ![new-process-baseline](images/new-process-baseline.png)
