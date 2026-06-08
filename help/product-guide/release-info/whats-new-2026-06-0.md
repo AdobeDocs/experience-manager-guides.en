@@ -31,3 +31,22 @@ Authors can continue using configured external data sources while creating or up
 
 When enabled, this option requires learners to complete the marked knowledge check before they can move ahead in the course. The **Next** button remains disabled until all mandatory questions are completed.
 
+## Support custom styling for topichead and topicgroup in Native PDF output
+
+In Native PDF publishing, you can now apply the outputclass attribute to `topichead` and `topicgroup` elements in a DITA map, allowing you to style section headings, grouped content, and related TOC entries.
+
+This enhancement reduces the need to manually apply the same `outputclass` to individual child `topicref` elements and gives you more flexibility when defining styles through `layout.css` and `content.css`.
+
+For more details, view [Apply custom style on TOC entries and topic content](../native-pdf/custom-style-toc.md).
+
+
+#### Apply custom style to a `<topichead>`
+
+You can also apply an `outputclass` attribute to the `<topichead>` element in your DITA map and define a custom style for it in the CSS.
+
+For example, if you want to visually identify a section heading that is new or recently updated, add an `outputclass` attribute to the `<topichead>` element in your DITA map:
+
+```xml
+<topichead navtitle="History of flights" outputclass="new-topic"/>
+
+
