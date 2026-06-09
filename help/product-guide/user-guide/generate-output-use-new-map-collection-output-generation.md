@@ -28,11 +28,11 @@ topic_v2:
 
 >[!IMPORTANT]
 >
->New map collections is available in Experience Manager Guides as a Cloud Service starting with 2026.06.0 release. Contact your Customer Success team to enable this feature.
+>New Map Collection is available in Experience Manager Guides as a Cloud Service starting with 2026.06.0 release. Contact your Customer Success team to enable this feature.
 
-Map collection in Adobe Experience Manager Guides enables publishing specialists to organize multiple documents into a single collection, control the output generated for each document, and efficiently generate and publish outputs in batches from a centralized dashboard. It also provides visibility into output generation progress and highlights changes made to maps since their last published output, allowing you to review updates and republish content when needed. 
+Map collection in Adobe Experience Manager Guides enables publishing specialists to organize multiple documents into a single collection, control the output generated for each document, and efficiently generate and publish outputs in batches from a centralized dashboard. It also provides visibility into output generation progress and highlights changes made to maps since their last published output and republish content when needed. 
 
-The New map collection (Beta) consolidates the functionality previously spread across the legacy Map Collection, and Bulk Publishing into a single unified interface. Once the beta feature flag is enabled, you can manage maps, presets, generation history, publishing history, metadata, and collection membership from one location.
+The New map collection consolidates the functionality previously spread across the old map collection, and bulk publishing into a single unified interface. Once enabled, you can manage maps, presets, generation history, publishing history, metadata, and collection membership from one location.
 
 ## Create a map collection and add DITA maps 
 
@@ -152,7 +152,7 @@ To generate the output using a Map Collection, perform the following steps:
 
 ## Publish the output using a Map Collection   
 
-To publish the output using a Map Collection, perform the following steps:
+To publish (if configured) the output using a Map Collection, perform the following steps:
 
 1. Select the desired maps from the either the **Maps and Presets** tab or the **Generated history** tab and select **Publish to**.
 1. Select the target environment where you want to publish the output: **Preview** or **Publish** instance.
