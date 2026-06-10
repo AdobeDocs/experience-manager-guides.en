@@ -235,18 +235,18 @@ Layout assignments are configured at the **Output Template** level. Any SCORM pr
 
 3. In the **Page layouts** window, locate the available topic types.
 
-  ![](assets/page-layout-scorm.png){width="650"}
+    ![](assets/page-layout-scorm.png){width="650"}
 
 4. For each topic type, select the page layout to be used during course generation.
 
    **Example:**
-   - **Default Page Layout** → Lesson
-   - **Quiz** → Quiz
-   - **Overview** → Lesson
+   - **Default Page Layout**: Lesson
+   - **Quiz**: Quiz
+   - **Overview**: Lesson
 
 5. To use a new layout, create the required page layout within the output template using the **New Page Layout** option from the context menu from the **Output templates** panel.
 
-  ![](assets/new-page-layout-scorm.png){width="650"}
+    ![](assets/new-page-layout-scorm.png){width="650"}
 
 6. Return to the **Settings** tab and assign the newly created layout to the appropriate topic type.
 
