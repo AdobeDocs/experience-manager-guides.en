@@ -41,7 +41,7 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 
 - When a map contains an external `topicref` pointing to a non-DITA resource (such as `.html`), its preview is not displayed in the Assets UI. (GUIDES-45409)
 - The Bulk Move Tool dialog overflows and lacks a scrollbar when a large number of source folders are selected, making the destination path field and action buttons inaccessible to mouse-only users. (GUIDES-45805)
-- When asset is copied from Assets UI, we were getting a notification for `DXML reprocessing failure`. This notification was misleading and and contributed to inbox clutter since copy was successful. (GUIDES-45012)
+- When asset is copied from Assets UI, we are getting a notification for `DXML reprocessing failure`. This notification is misleading and contributes to inbox clutter since the copy was successful. (GUIDES-45012)
 - When opening the Filter panel in the Assets left-rail within a folder, the search field and facets remain disabled until the Panel is closed and reopened. (GUIDES-42652)
 - Content fragments and intermediate translation assets created during translation workflows are unintentionally processed by the scheduled asset processing job, causing exceptions in logs and incorrect processing of assets that are not yet ready. (GUIDES-42582)
 
