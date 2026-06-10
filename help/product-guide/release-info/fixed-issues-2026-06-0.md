@@ -65,7 +65,7 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 - The color bar in Native PDF output does not stretch across the full page width and overlaps when the page size is customized, causing some color boxes to be hidden. (GUIDES-15505)
 - The CSS `:is()` pseudo-class selector is not honored in Native PDF output, resulting in styling differences compared to browser rendering. (GUIDES-11328)
 
-The aforementioned issues have been resolved with the New PDF engine. For more details, view [Working with New PDF engine](../web-editor/pdf-engine-v2).
+The aforementioned issues have been resolved with the New PDF engine. For details, view [Working with New PDF engine](../web-editor/pdf-engine-v2).
 
 ## Translation
 
@@ -89,6 +89,7 @@ The aforementioned issues have been resolved with the New PDF engine. For more d
 - Publishing SCORM output from Safari browser results in the package being downloaded as a folder instead of a zip file, along with rendering and functionality issues in the generated content (for example, stretched content, non working accordion and more). (GUIDES-45119)
 - A delay is observed before the Next button becomes enabled for courses, impacting the learner navigation experience. (GUIDES-45113)
 - Short answer question styling is rendered incorrectly in publishing output despite displaying correctly in preview. (GUIDES-46478)
+When generating PDF output for courses containing videos, the video content is not rendered and only the file path is displayed instead of a representative placeholder image such as a video thumbnail or poster image. (GUIDES-45117)
 
 ## Known issues
 
