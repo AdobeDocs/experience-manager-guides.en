@@ -89,7 +89,7 @@ The aforementioned issues have been resolved with the New PDF engine. For detail
 - Publishing SCORM output from Safari browser results in the package being downloaded as a folder instead of a zip file, along with rendering and functionality issues in the generated content (for example, stretched content, non working accordion and more). (GUIDES-45119)
 - A delay is observed before the Next button becomes enabled for courses, impacting the learner navigation experience. (GUIDES-45113)
 - Short answer question styling is rendered incorrectly in publishing output despite displaying correctly in preview. (GUIDES-46478)
-When generating PDF output for courses containing videos, the video content is not rendered and only the file path is displayed instead of a representative placeholder image such as a video thumbnail or poster image. (GUIDES-45117)
+- When generating PDF output for courses containing videos, the video content is not rendered and only the file path is displayed instead of a placeholder image such as a video thumbnail or poster image. This issue has been resolved by enabling **Embed multimedia files** option in the Native PDF output preset.(GUIDES-45117)
 
 ## Known issues
 
