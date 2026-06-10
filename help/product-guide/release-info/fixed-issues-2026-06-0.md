@@ -68,7 +68,7 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 - A delay is observed before the Next button becomes enabled for courses, impacting the learner navigation experience. (GUIDES-45113)
 - Short answer question styling is rendered incorrectly in publishing output despite displaying correctly in preview. (GUIDES-46478)
 
-## New Editor
+## Editor 2.0
 
 - When performing a drag-and-drop with Tag view enabled, selecting content along with partial XML or DITA  tags leaves behind unwanted orphan tags, resulting in incorrect content or view. (GUIDES-28191)
 - In the Tag view of a table, pressing the up arrow key when the cursor is positioned at the cell directly below a collapsed entry tag skips over the collapsed tag and moves the cursor to beginning of the documen. (GUIDES-45408)
@@ -89,4 +89,51 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 - Opening a review task in the Editor using Side-by-Side view for the commented version, displays the version as None instead of the associated version for the topic. (GUIDES-45127)
 - When accessing the Review task page, page breaks between topics are not displayed, resulting in the continuous rendering of content sections. (GUIDES-46777)
 - For a review task in the Side-by-Side view for the commented version, the comment panel is slightly left-shifted relative to the corresponding content. (GUIDES-46061)
+
+
+## Known issues
+
+Adobe has identified the following known issues for the 2026.06.0 release:
+
+## Review
+
+- When a review task is reassigned to a user outside the project team, the user can perform review actions despite lacking project membership, while reviewer visibility, review status tracking, and delegation notifications do not function correctly. (GUIDES-46602)
+
+## Publishing
+
+- When publishing content with DITAVAL filtering that excludes all bulleted list items through conditional profiling, the output incorrectly retains an empty bullet marker instead of removing the entire list structure. (GUIDES-47238)
+
+- When publishing a Native AEM Site output with a new baseline, the Topic List appears blank and fails to display the topics included in the selected baseline. (GUIDES-46480) <br> **Workaround**: Publish the Native AEM Site output using the old baseline, which can be configured through the configuration manager.
+
+## Editor 2.0
+
+- When working in Outline view with **Track changes** enabled, rejecting a change removes the entire content within the tag instead of only rejecting the specific modified content. (GUIDES-48319)
+
+- The **Export as PDF** button in the Preview mode does not perform any action when the editor toolbar is customized using `editor_toolbar.json` in a folder profile. (GUIDES-47525)
+
+- When working with the Side-by-side view for a topic in read-only mode, making a selection in the Source mode (right side) does not sync the corresponding selection in the Author mode (left side). (GUIDES-46896)
+
+- While performing deletion operations, some minor inconsistencies in cursor movement and navigation can occur across image maps, structured elements, inline formatting tags, and non-mergeable blocks, occasionally resulting in unexpected cursor or deletion behavior. (GUIDES-46756)
+
+- Using `Ctrl+click` on a broken link in a Map editor triggers an application error. (GUIDES-45544)
+
+- When selecting content by dragging across a table or simpletable, the selection behavior does not work as expected, preventing you from accurately selecting table content. (GUIDES-45406)
+
+- When dragging and dropping a topic or map into the Map editor, the `type` attribute is not added to the inserted `<topicref>` element. (GUIDES-45251)
+
+- In the Side-by-side view, the previous search term remains highlighted in the Author mode (left side) even after a new search term is entered and searched on the Source mode (right side). (GUIDES-45128)
+
+- Pressing backspace at the beginning of a paragraph immediately following read-only content (such as a `conref` paragraph) can unexpectedly delete or merge the editable paragraph, leading to unexpected deletion of the editable paragraph. (GUIDES-45049)
+
+- When condition indicators are applied to elements such as `bodydiv`, the indicators overflow into adjacent tags in Full Tags View, resulting in incorrect visual rendering. (GUIDES-44971)
+
+- When working in the Editor, you are unable to select `keyrefs` or keys derived from maps (including glossary entries within maps referenced in `term` or `abbreviated-form` elements), resulting in a degraded authoring experience. (GUIDES-45790) <br> **Workaround**: You can change the value of `keyref` from the Right panel using the attributes values.
+
+- In the Outline view, re-enabling **Show text** after closing and reopening a topic does not display text alongside element tags. (GUIDES-48320) <br> **Workaround**: Enable the **Show text** option and then reopen the topic. After reopening, the text is displayed correctly alongside the element tags.
+
+- When an inline tag is renamed using the **Rename element** option, the breadcrumb does not update immediately and reflects the change only after the cursor is moved into the tag or the view mode is changed. (GUIDES-44993) <br> **Workaround**: Refresh the browser after renaming the inline tag to update the breadcrumb.
+
+- When a MathML equation is inserted as a `conref`, it does not render correctly. (GUIDES-46601) <br> **Workaround**: Wrap the MathML equation inside a `<p>` element and use that `<p>` element as the conref source.
+
+
 
