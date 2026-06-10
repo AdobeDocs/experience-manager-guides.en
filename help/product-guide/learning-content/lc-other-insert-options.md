@@ -71,6 +71,8 @@ The other options available in the Insert menu in the Editor toolbar include:
 
     You can configure correct answers and other required fields through the **Content properties** panel. For more details, view [Question types](./quiz-insert-questions.md). You can add various question types using the knowledge check options as shown below.
 
+    Additionally, you can enable the **Require knowledge check to proceed** option to ensure learners attempt a designated knowledge check before advancing to subsequent course content. This capability helps reinforce key learning objectives by preventing learners from skipping critical assessment checkpoints. The feature is supported when **Learners must progress through content in a sequential order** setting is enabled while configuring the SCORM preset output, ensuring the course progression follows the intended learning path.
+
     ![](assets/knowledge-check-content-properties.png){width="650"}  
 
 - **Input field:** Adds a text input field along with a button to your content. You can use this combination to capture user input and trigger specific actions. A play button is added to the content as shown below. 

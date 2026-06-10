@@ -47,4 +47,6 @@ After the preset is created, configure the SCORM preset settings. The preset con
   >
   > Before publishing content to ALM, you must configure an Adobe Learning Manager publish profile For details view [Publish profiles](../lc-config-guide/lc-folder-profile).
 
+    ![](assets/scorm-publish-lms.png){width="650"}
+
 Once all the changes are configured, save the changes for the SCORM preset using **Save** on the right corner of the toolbar of the SCORM preset page.

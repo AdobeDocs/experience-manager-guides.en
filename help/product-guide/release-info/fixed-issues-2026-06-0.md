@@ -17,11 +17,31 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 - Image dimensions specified with units such as `mm` are not rendered correctly, causing images to be displayed at their original size instead of the specified dimensions. (GUIDES-46275)
 - When toggling focus between the **Width** and **Height** fields in the image properties dialog using unit-based sizes such as `in`, `mm`, or `px`, the values keep incrementally increasing instead of remaining stable. (GUIDES-45929)
 
+## Editor 2.0
+
+- When performing a drag-and-drop with Tag view enabled, selecting content along with partial XML or DITA  tags leaves behind unwanted orphan tags, resulting in incorrect content or view. (GUIDES-28191)
+- In the Tag view of a table, pressing the up arrow key when the cursor is positioned at the cell directly below a collapsed entry tag skips over the collapsed tag and moves the cursor to beginning of the documen. (GUIDES-45408)
+- Performing any operation from the table contextual toolbar closes the toolbar unexpectedly, interrupting subsequent table operations. (GUIDES-45405)
+- After using **Insert After** or **Insert Before** from the Outline view or breadcrumb, the cursor moves to an arbitrary position instead of inside the newly added tag. (GUIDES-45147)
+- When the **Edit MathML** option is incorrectly displayed in read-only mode or when a file is checked out by another user, it allows users to update MathML content even though the file should not be editable. (GUIDES-45172)
+- When deleting an XML comment using the backspace key, the comment tag is not removed after its content is deleted, and the deletion operation continues into the preceding element. (GUIDES-45240)
+- Using the **Copy Path** or **Copy UUID** option for images, returns the full rendition path instead of the original asset path. (GUIDES-45278)
+- Copy-pasting content in the same topic into an invalid location in the Editor inserts an unintended `<foreign>` tag. (GUIDES-45378)
+- On Windows, copying and pasting a table row adds unexpected attributes such as `data-pm-slice` to the table element, causing markup errors that prevent the document from being saved. (GUIDES-45784)
+- Using the **Copy** option from the context menu in a map or topic and then pasting the content inserts extra `<data>` tags in the pasted output. (GUIDES-45703)
+- When dragging a partial selection from a `cmd` element, the content cannot be dropped between existing text or at the end of another `cmd` element. (GUIDES-44883)
+- When applying a `scale` attribute to a table, the table is not rendered at the configured size in Author and Preview modes. (GUIDES-45984)
+- Pasting images copied from external sources such as Paint or the Snipping Tool does not insert the image into the topic. (GUIDES-45983)
+- The `keyref` used in a topic title derived from a keyword map does not appear in the TOC or topic tab after saving, even after a browser refresh. (GUIDES-45799)
+- Opening a review task in the Editor using Side-by-Side view for the commented version, displays the version as None instead of the associated version for the topic. (GUIDES-45127)
+- When accessing the Review task page, page breaks between topics are not displayed, resulting in the continuous rendering of content sections. (GUIDES-46777)
+- For a review task in the Side-by-Side view for the commented version, the comment panel is slightly left-shifted relative to the corresponding content. (GUIDES-46061)
+
 ## Asset management
 
 - When a map contains an external `topicref` pointing to a non-DITA resource (such as `.html`), its preview is not displayed in the Assets UI. (GUIDES-45409)
 - The Bulk Move Tool dialog overflows and lacks a scrollbar when a large number of source folders are selected, making the destination path field and action buttons inaccessible to mouse-only users. (GUIDES-45805)
-- When asset is copied from Assets UI, we were getting a notification for `DXML reprocessing failure`. This notification was misleading and polluting the inbox since copy was successful. (GUIDES-45012)
+- When asset is copied from Assets UI, we were getting a notification for `DXML reprocessing failure`. This notification was misleading and and contributed to inbox clutter since copy was successful. (GUIDES-45012)
 - When opening the Filter panel in the Assets left-rail within a folder, the search field and facets remain disabled until the Panel is closed and reopened. (GUIDES-42652)
 - Content fragments and intermediate translation assets created during translation workflows are unintentionally processed by the scheduled asset processing job, causing exceptions in logs and incorrect processing of assets that are not yet ready. (GUIDES-42582)
 
@@ -36,12 +56,16 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 - Opening any Native AEM Sites output from a Map Collection results in an error stating that the resource is not found, preventing access to the generated output. (GUIDES-42065)
 - The `<reltable>` element in a DITA map is ignored during Native PDF generation, causing "Related concepts", "Related tasks", and similar auto-generated cross-reference sections to be missing from the output. (GUIDES-38333)
 - When publishing a DITA map with `processing-role=resource-only` elements on AEM Sites (with legacy component mapping), orphan site pages are generated for those elements in additional scenarios such as `topicgroup` elements and specific content configurations. (GUIDES-37650)
+- When a map with a long name is added to a Map Collection, the map collection UI is rendered in a distorted layout. This issue has been resolved with the New maps collection. (GUIDES-42062)
+
+## Publishing with New PDF engine
+
 - When generating Native PDF output for certain content, only the first page is rendered in the PDF despite the intermediate HTML containing the complete content across multiple pages. (GUIDES-28270)
 - The reading order of content in Native PDF output with accessibility settings enabled is incorrect. Page numbers from footers are read before the main content instead of at the end. (GUIDES-27790)
 - The color bar in Native PDF output does not stretch across the full page width and overlaps when the page size is customized, causing some color boxes to be hidden. (GUIDES-15505)
 - The CSS `:is()` pseudo-class selector is not honored in Native PDF output, resulting in styling differences compared to browser rendering. (GUIDES-11328)
-- When a map with a long name is added to a Map Collection, the map collection UI is rendered in a distorted layout. (GUIDES-42062)
 
+The aforementioned issues have been resolved with the New PDF engine. For more details, view (New PDF engine)
 
 ## Translation
 
@@ -61,35 +85,10 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 - When inserting questions using the Insert from question bank option, an error occurs if the question title contains an image. (GUIDES-45383)
 - Selecting a SCORM output template results in an application error when the template title has been modified. (GUIDES-45521)
 - Subtitle (`.vtt`) files are not visible in the Repository or Explorer view after being uploaded to a folder. (GUIDES-46014)
-- When transferring large SCORM ZIP files from the microservice to AEM, the upload back to Guides fails. (GUIDES-44554)
 - When loading video content in HTML preview, the source (`src`) path includes an appended rendition path instead of retaining the original file path, preventing the video from rendering correctly. (GUIDES-41776)
 - Publishing SCORM output from Safari browser results in the package being downloaded as a folder instead of a zip file, along with rendering and functionality issues in the generated content (for example, stretched content, non working accordion and more). (GUIDES-45119)
-- When generating PDF output for courses containing videos, the video content is not rendered and only the file path is displayed instead of a representative placeholder image such as a video thumbnail or poster image. (GUIDES-45117)
 - A delay is observed before the Next button becomes enabled for courses, impacting the learner navigation experience. (GUIDES-45113)
 - Short answer question styling is rendered incorrectly in publishing output despite displaying correctly in preview. (GUIDES-46478)
-
-## Editor 2.0
-
-- When performing a drag-and-drop with Tag view enabled, selecting content along with partial XML or DITA  tags leaves behind unwanted orphan tags, resulting in incorrect content or view. (GUIDES-28191)
-- In the Tag view of a table, pressing the up arrow key when the cursor is positioned at the cell directly below a collapsed entry tag skips over the collapsed tag and moves the cursor to beginning of the documen. (GUIDES-45408)
-- Performing any operation from the table contextual toolbar closes the toolbar unexpectedly, interrupting subsequent table operations. (GUIDES-45405)
-- The conref icon for a paragraph inside a list item slightly overlaps the `<p>` tag. The same overlap occurs for images referenced via `conkeyref`. (GUIDES-45131)
-- After using **Insert After** or **Insert Before** from the Outline view or breadcrumb, the cursor moves to an arbitrary position instead of inside the newly added tag. (GUIDES-45147)
-- When the **Edit MathML** option is incorrectly displayed in read-only mode or when a file is checked out by another user, it allows users to update MathML content even though the file should not be editable. (GUIDES-45172)
-- When deleting an XML comment using the backspace key, the comment tag is not removed after its content is deleted, and the deletion operation continues into the preceding element. (GUIDES-45240)
-- Using the **Copy Path** or **Copy UUID** option for images, returns the full rendition path instead of the original asset path. (GUIDES-45278)
-- Copy-pasting content in the same topic into an invalid location in the Editor inserts an unintended `<foreign>` tag. (GUIDES-45378)
-- On Windows, copying and pasting a table row adds unexpected attributes such as `data-pm-slice` to the table element, causing markup errors that prevent the document from being saved. (GUIDES-45784)
-- Using the **Copy** option from the context menu in a map or topic and then pasting the content inserts extra `<data>` tags in the pasted output. (GUIDES-45703)
-- When dragging a partial selection from a `cmd` element, the content cannot be dropped between existing text or at the end of another `cmd` element. (GUIDES-44883)
-- When applying a `scale` attribute to a table, the table is not rendered at the configured size in Author and Preview modes. (GUIDES-45984)
-- Pasting images copied from external sources such as Paint or the Snipping Tool does not insert the image into the topic. (GUIDES-45983)
-- When accessing the top toolbar in the New Editor, the Citations and Snippets options are not available, preventing insertion of citations and snippets through the toolbar. (GUIDES-46538)
-- The `keyref` used in a topic title derived from a keyword map does not appear in the TOC or topic tab after saving, even after a browser refresh. (GUIDES-45799)
-- Opening a review task in the Editor using Side-by-Side view for the commented version, displays the version as None instead of the associated version for the topic. (GUIDES-45127)
-- When accessing the Review task page, page breaks between topics are not displayed, resulting in the continuous rendering of content sections. (GUIDES-46777)
-- For a review task in the Side-by-Side view for the commented version, the comment panel is slightly left-shifted relative to the corresponding content. (GUIDES-46061)
-
 
 ## Known issues
 
