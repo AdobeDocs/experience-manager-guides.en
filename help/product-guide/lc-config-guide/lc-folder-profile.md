@@ -219,15 +219,14 @@ Perform the following steps to create a new output template for the Learning and
 
     ![](assets/scorm-template-added.png){width="350"}
 
-### Configure page layouts for output templates
+### Configure page layouts for SCORM output templates
 
 SCORM output templates allow you to assign different page layouts to different topic types within a course. This enables you to customize the presentation of lessons, quizzes, overview pages, and other content types in the generated SCORM package.
 
 For example, a lesson page can use a layout that includes a header, content area, and footer, while a quiz page can use a simplified layout without a footer. You can also create dedicated layouts for overview pages or any other topic type and map them accordingly.
 
 Layout assignments are configured at the **Output Template** level. Any SCORM preset that uses the configured output template will apply the selected layout mappings when generating courses.
-
-### Configure Page Layouts
+Follow the steps below to configure the page layout for the templates:
 
 1. Navigate to **Output templates** and open the required **SCORM output template**.
 
@@ -295,3 +294,13 @@ You can create multiple profiles if you need to publish to different SCORM Cloud
 Provide the server details along with the Client ID and Client secret of the associated SCORM cloud application to configure the Publish profile for SCORM cloud. 
 
 ![](assets/configure-publish-profiles.png){width="350"}
+
+You can also create profiles for learning manager
+
+1. Navigate to **Workspace Settings**.
+2. Open the **Publish Profiles** tab.
+3. Select **Adobe Learning Manager** as the publishing destination.
+4. Enter the required Adobe Learning Manager connection details and **Authorize** them.
+5. Save the publish profile.
+
+The saved profile becomes available when publishing SCORM content.
