@@ -219,6 +219,42 @@ Perform the following steps to create a new output template for the Learning and
 
     ![](assets/scorm-template-added.png){width="350"}
 
+### Configure page layouts for output templates
+
+SCORM output templates allow you to assign different page layouts to different topic types within a course. This enables you to customize the presentation of lessons, quizzes, overview pages, and other content types in the generated SCORM package.
+
+For example, a lesson page can use a layout that includes a header, content area, and footer, while a quiz page can use a simplified layout without a footer. You can also create dedicated layouts for overview pages or any other topic type and map them accordingly.
+
+Layout assignments are configured at the **Output Template** level. Any SCORM preset that uses the configured output template will apply the selected layout mappings when generating courses.
+
+### Configure Page Layouts
+
+1. Navigate to **Output templates** and open the required **SCORM output template**.
+
+2. Select the **Settings** tab.
+
+3. In the **Page layouts** window, locate the available topic types.
+
+  ![](assets/page-layout-scorm.png){width="650"}
+
+4. For each topic type, select the page layout to be used during course generation.
+
+   **Example:**
+   - **Default Page Layout** → Lesson
+   - **Quiz** → Quiz
+   - **Overview** → Lesson
+
+5. To use a new layout, create the required page layout within the output template using the **New Page Layout** option from the context menu from the **Output templates** panel.
+
+  ![](assets/new-page-layout-scorm.png){width="650"}
+
+6. Return to the **Settings** tab and assign the newly created layout to the appropriate topic type.
+
+7. Save the Page Layout for output template using the Save icon on the right corner of Tab bar .
+
+
+When a course is generated using a SCORM preset that uses the configured output template, each topic is rendered using the layout assigned to its topic type. This allows different content types within the same course to have customized page structures and visual presentation.    
+
 ### Remove or reorder templates 
 
 Once added, you can remove or reorder the templates from the Settings panel.  
