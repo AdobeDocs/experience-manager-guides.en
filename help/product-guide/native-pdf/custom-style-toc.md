@@ -84,7 +84,7 @@ Using the above styling attributes, a change bar is added to the left of the *Hi
 
 ## Apply styles to topichead elements
 
-You can also use the `outputclass` attribute on a `<topichead>` element to apply custom styles to the generated TOC.
+You can use the `outputclass` attribute on a `<topichead>` element to apply different styles to the TOC entry and the heading generated for the topichead.
 
 For example, if you define the following `topichead` in your DITA map:
 
@@ -94,18 +94,24 @@ For example, if you define the following `topichead` in your DITA map:
 </topichead>
 ```
 
-The `new-topichead` class is added to the heading generated for the topichead in the TOC. You can use this class to apply custom styles to the topichead heading.
+The `new-topichead` class is applied to the topichead entry in the TOC and to the heading generated for the topichead.
+
+If you want to apply a different style to the heading, define a separate class for it, similar to how `<topicref>` supports separate styling for the TOC entry and the topic title:
 
 ```css
+...
+/* Style for the topichead TOC entry */
 .new-topichead {
-    color: blue;
-    font-style: italic;
+  color: #CC5309;
 }
+
+/* Style for the topichead heading */
+.new-topichead.title {
+  color: #092ACC;
+}...
 ```
 
-To apply styles to the child topic references associated with the topichead, append the `-content` suffix to the output class name.
-
-For example, the following HTML is generated for the topic group associated with the topichead:
+If you want to style the content associated with the topichead, append the `- content` suffix to the class name:
 
 ```css
 .new-topichead-content {
@@ -113,13 +119,6 @@ For example, the following HTML is generated for the topic group associated with
     padding-left: 8px;
 }
 ```
-
-
-In this example, the custom style is applied to:
-
-* The topichead heading using the `new-topichead` class.
-* The child topic references associated with the topichead using the `new-topichead-content` class.
-
 
 ## Remove empty rows from the TOC
 
