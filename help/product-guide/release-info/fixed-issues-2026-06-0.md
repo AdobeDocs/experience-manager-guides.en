@@ -58,14 +58,14 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 - When publishing a DITA map with `processing-role=resource-only` elements on AEM Sites (with legacy component mapping), orphan site pages are generated for those elements in additional scenarios such as `topicgroup` elements and specific content configurations. (GUIDES-37650)
 - When a map with a long name is added to a Map Collection, the map collection UI is rendered in a distorted layout. This issue has been resolved with the New maps collection. (GUIDES-42062)
 
-## Publishing with New PDF engine
+## Publishing with Old PDF engine
 
 - When generating Native PDF output for certain content, only the first page is rendered in the PDF despite the intermediate HTML containing the complete content across multiple pages. (GUIDES-28270)
 - The reading order of content in Native PDF output with accessibility settings enabled is incorrect. Page numbers from footers are read before the main content instead of at the end. (GUIDES-27790)
 - The color bar in Native PDF output does not stretch across the full page width and overlaps when the page size is customized, causing some color boxes to be hidden. (GUIDES-15505)
 - The CSS `:is()` pseudo-class selector is not honored in Native PDF output, resulting in styling differences compared to browser rendering. (GUIDES-11328)
 
-The aforementioned issues have been resolved with the New PDF engine. For more details, view (New PDF engine)
+The aforementioned issues have been resolved with the New PDF engine. For more details, view [Working with New PDF engine](../web-editor/pdf-engine-v2).
 
 ## Translation
 
@@ -94,33 +94,17 @@ The aforementioned issues have been resolved with the New PDF engine. For more d
 
 Adobe has identified the following known issues for the 2026.06.0 release:
 
-## Review
-
-- When a review task is reassigned to a user outside the project team, the user can perform review actions despite lacking project membership, while reviewer visibility, review status tracking, and delegation notifications do not function correctly. (GUIDES-46602)
-
-## Publishing
-
-- When publishing content with DITAVAL filtering that excludes all bulleted list items through conditional profiling, the output incorrectly retains an empty bullet marker instead of removing the entire list structure. (GUIDES-47238)
-
-- When publishing a Native AEM Site output with a new baseline, the Topic List appears blank and fails to display the topics included in the selected baseline. (GUIDES-46480) <br> **Workaround**: Publish the Native AEM Site output using the old baseline, which can be configured through the configuration manager.
-
 ## Editor 2.0
+
+- Switching between Source and Author modes causes content inconsistencies, with portions of the topic disappearing or not being reflected across modes. (GUIDES-47432)
 
 - When working in Outline view with **Track changes** enabled, rejecting a change removes the entire content within the tag instead of only rejecting the specific modified content. (GUIDES-48319)
 
 - The **Export as PDF** button in the Preview mode does not perform any action when the editor toolbar is customized using `editor_toolbar.json` in a folder profile. (GUIDES-47525)
 
-- When working with the Side-by-side view for a topic in read-only mode, making a selection in the Source mode (right side) does not sync the corresponding selection in the Author mode (left side). (GUIDES-46896)
-
 - While performing deletion operations, some minor inconsistencies in cursor movement and navigation can occur across image maps, structured elements, inline formatting tags, and non-mergeable blocks, occasionally resulting in unexpected cursor or deletion behavior. (GUIDES-46756)
 
 - Using `Ctrl+click` on a broken link in a Map editor triggers an application error. (GUIDES-45544)
-
-- When selecting content by dragging across a table or simpletable, the selection behavior does not work as expected, preventing you from accurately selecting table content. (GUIDES-45406)
-
-- When dragging and dropping a topic or map into the Map editor, the `type` attribute is not added to the inserted `<topicref>` element. (GUIDES-45251)
-
-- In the Side-by-side view, the previous search term remains highlighted in the Author mode (left side) even after a new search term is entered and searched on the Source mode (right side). (GUIDES-45128)
 
 - Pressing backspace at the beginning of a paragraph immediately following read-only content (such as a `conref` paragraph) can unexpectedly delete or merge the editable paragraph, leading to unexpected deletion of the editable paragraph. (GUIDES-45049)
 
@@ -133,6 +117,18 @@ Adobe has identified the following known issues for the 2026.06.0 release:
 - When an inline tag is renamed using the **Rename element** option, the breadcrumb does not update immediately and reflects the change only after the cursor is moved into the tag or the view mode is changed. (GUIDES-44993) <br> **Workaround**: Refresh the browser after renaming the inline tag to update the breadcrumb.
 
 - When a MathML equation is inserted as a `conref`, it does not render correctly. (GUIDES-46601) <br> **Workaround**: Wrap the MathML equation inside a `<p>` element and use that `<p>` element as the conref source.
+
+## Review
+
+- When a review task is reassigned to a user outside the project team, the user can perform review actions despite lacking project membership, while reviewer visibility, review status tracking, and delegation notifications do not function correctly. (GUIDES-46602)
+
+## Publishing
+
+- When publishing content with DITAVAL filtering that excludes all bulleted list items through conditional profiling, the output incorrectly retains an empty bullet marker instead of removing the entire list structure. (GUIDES-47238)
+
+- When publishing a Native AEM Site output with a new baseline, the Topic List appears blank and fails to display the topics included in the selected baseline. (GUIDES-46480) <br> **Workaround**: Publish the Native AEM Site output using the old baseline, which can be configured through the configuration manager.
+
+
 
 
 
