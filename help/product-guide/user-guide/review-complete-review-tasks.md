@@ -56,6 +56,10 @@ Based on the feedback, if the Author or initiator of the task decides to [close 
 
 ![](images/review-status-closed-review-ui.png){width="350"}
 
+>[!NOTE]
+>
+> Once you mark a task as completed, you must also complete it in the AEM Notifications Inbox to complete the underlying workflow. However, you can also choose to automatically complete the associated AEM workflow task when you complete a review task from the Review UI. This avoids manual intervention and the need to complete the same task again from the AEM Inbox. To enable this feature, contact your Customer Success team.
+
 ## View task-level comments
 
 All task-level comments are displayed in the **Tasks comments** dialog, which is available in the read-only mode. When you complete a review task with a final comment, your input is recorded in this dialog for future reference.
