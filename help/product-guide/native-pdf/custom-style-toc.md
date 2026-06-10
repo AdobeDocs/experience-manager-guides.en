@@ -82,9 +82,9 @@ Using the above styling attributes, a change bar is added to the left of the *Hi
 
 <img src="./assets/pdf-output-topic-content.jpg" width=500>
 
-## Apply styles to topichead elements
+## Apply styles to `topichead` elements
 
-You can use the `outputclass` attribute on a `<topichead>` element to apply different styles to the TOC entry and the heading generated for the topichead.
+You can use the `outputclass` attribute on a `<topichead>` element to apply different styles to the TOC entry and the heading generated for the `topichead`.
 
 For example, if you define the following `topichead` in your DITA map:
 
@@ -119,6 +119,8 @@ If you want to style the content associated with the topichead, append the `- co
     padding-left: 8px;
 }
 ```
+
+
 
 ## Remove empty rows from the TOC
 
