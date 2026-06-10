@@ -75,9 +75,9 @@ The other options available in the Insert menu in the Editor toolbar include:
 
     ![](assets/knowledge-check-content-properties.png){width="650"}  
 
-- **Input field:** Adds a text input field along with a button to your content. You can use this combination to capture user input and trigger specific actions. A play button is added to the content as shown below. 
+- **Input field:** Adds a text input field along with a button to your content. You can use this combination to capture user input and trigger specific actions. You can now also add a multiline text area for longer responses, such as explanations or open-ended feedback. The multiline text area supports line breaks and text wrapping. 
 
-    ![](assets/button-learning-content.png){width="650"}
+    ![](assets/input-field-lc.png){width="650"}
 
 - **More options:** You have additional options to enhance your learning content, including inserting a horizontal line, line break, text box, positioned text box, and embedded HTML. 
 
