@@ -24,19 +24,19 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
 ---
-# Use New Map Collection for output generation (Beta){#id1723F20G0HS}
+# Use New map collection for output generation (Beta){#id1723F20G0HS}
 
 >[!IMPORTANT]
 >
->New Map Collection is available in Experience Manager Guides as a Cloud Service starting with 2026.06.0 release. Contact your Customer Success team to enable this feature.
+> New map collection is available in Experience Manager Guides as a Cloud Service starting with 2026.06.0 release. Contact your Customer Success team to enable this feature.
 
-Map collection in Adobe Experience Manager Guides enables publishing specialists to organize multiple documents into a single collection, control the output generated for each document, and efficiently generate and publish outputs in batches from a centralized dashboard. It also provides visibility into output generation progress and highlights changes made to maps since their last published output and republish content when needed. 
+Map collection in Adobe Experience Manager Guides enables publishing specialists to organize multiple documents into a single collection, control the output generated for each document, and efficiently generate and publish outputs in batches from a centralized dashboard. It also provides visibility into output generation progress, highlights changes made to maps since their last published output, and allows you to republish content when needed. 
 
 The New map collection consolidates the functionality previously spread across the old map collection, and bulk publishing into a single unified interface. Once enabled, you can manage maps, presets, generation history, publishing history, metadata, and collection membership from one location.
 
 ## Create a map collection and add DITA maps 
 
-To create a map collection and add maps to them, perform the following steps:
+To create a map collection and add maps to it, perform the following steps:
 
 1.  Open the [Experience Manager Guides Home page](./intro-home-page.md#map-collections) and select **New Map collections**. 
 
@@ -51,7 +51,7 @@ To create a map collection and add maps to them, perform the following steps:
 
 1.  Select **Create**.
 
-    A Success message is displayed on creation of the map collection.
+    A success message is displayed on creation of the map collection.
 
 1. Open the desired map collection you want to add the maps to. 
 
@@ -61,25 +61,25 @@ To create a map collection and add maps to them, perform the following steps:
 
     - **Generate history**: Navigates you directly to the Generated history tab listing all the maps with generated outputs for the defined presets.
     - **Publish history**: Navigates you directly to the Published history tab listing all the maps with published output for the defined presets.
-    - **Remame**: Reanames the map collection.
+    - **Rename**: Renames the map collection.
 
 1.  Select **Edit collection** and then select **Add maps**.
 
     ![Add maps](./images/add-maps-new-collection.png)
 
-1.  Select the desired maps and enable the **Select available translations** toggle to automatically add all available translation copies of that map to the map collection. If the map does not have any translation copy, the default language is added to the amp.
+1.  Select the desired maps and enable the **Select available translations** toggle to automatically add all available translation copies of that map to the map collection. If the map does not have any translation copies, the default language is added to the map.
 
     ![Select maps](./images/select-maps-new-collection.png)
 
 1.  Select **Add**.
 
-    The map files are listed along with all their available translated copies. For maps that do not have any translations, the default language is displayed.
+    The map files are listed along with all their available translated copies. For maps that do not have any translated copies, the default language is displayed.
 
     ![Fetch presets](./images/fetch-presets.png)
 
 1. Select the required maps, or all the listed maps, and then select the **Fetch presets** button to retrieve the available presets for the selected maps.
 
-    You will see a list of all available presets for the selected maps, grouped under two categories: **Folder profile presets** and **Other presets**. **Folder profile presets** are common to all the selected maps, while **Other presets** are specific to individual maps. For presets under **Other presets**, the associated map is indicated next to the corresponding toggle.
+    You see a list of all available presets for the selected maps, grouped under two categories: **Folder profile presets** and **Other presets**. **Folder profile presets** are common to all the selected maps, while **Other presets** are specific to individual maps. For presets under **Other presets**, the associated map is indicated next to the corresponding toggle.
 
     ![Fetch presets types](./images/fetch-presets-types.png)
 
@@ -89,25 +89,25 @@ To create a map collection and add maps to them, perform the following steps:
 
 1. Select **Save**.
 
-You get a list of all the desired maps with the Map title, corresponding File name, the Language it is available in and the configured presets.
+You get a list of all the desired maps with the Map title, corresponding File name, the Language it is available in, and the configured presets.
 
 ![Maps and presets tabs](./images/maps-presets-tab.png)
 
-The **Maps and Presets** tab presents information on the baseis on the selected maps for specific language in the following columns:
+The **Maps and Presets** tab presents information on the basis of the selected maps for a specific language in the following columns:
     
 - **Preset**: Shows the output preset type configured on the map file.
-- **Baseline**: Shows the baseline which is used by the output preset.  If no baseline is used, then it shows a hyphen '-' 
+- **Baseline**: Shows the baseline which is used by the output preset.  If no baseline is used, then it shows a hyphen `-`.
 - **Modified since generation**: Indicates if the DITA map is updated after generation. Based on this information, you can decide if you want to publish the output for this DITA map or not.
-- **Modified since published**: Indicates if the DITA map is updated after last publising. Based on this information, you can decide if you want to republish the output for this DITA map or not.
+- **Modified since published**: Indicates if the DITA map is updated after the last publishing. Based on this information, you can decide if you want to republish the output for this DITA map or not.
 - **Last generated**: Shows the date and time of the last generated output.    
-- **Last published**: Shows the date and time of the last generated output. 
+- **Last published**: Shows the date and time of the last published output. 
 
 **Filtering options**
 
 The following filtering options are available in the right panel on the Maps and presets page:
 
-- **Modified since generation**: You can select Yes, No or Not yet generated. If you select yes, only the maps that have been modified since generation will be shown in the Maps and Presets tab.
-- **Modified since publishing**: You can select Yes, No or Not yet generated. If you select yes, only the maps that have been modified since publishing will be shown in the Maps and Presets tab.
+- **Modified since generation**: You can select Yes, No or Not yet generated. If you select Yes, only the maps that have been modified since generation are shown in the Maps and Presets tab.
+- **Modified since publishing**: You can select Yes, No or Not yet generated. If you select Yes, only the maps that have been modified since publishing are shown in the Maps and Presets tab.
 - **Presets**: Select a preset for which you want to filter out the map files. For example, if you choose *AEM Site* preset, then only those maps are shown that have the *AEM Site* output preset configured on them.
 - **Language**: You can select any of the available language codes and display only the selected language in the Maps and Presets tab.
 
@@ -120,14 +120,14 @@ To generate the output using a Map Collection, perform the following steps:
 
 1. Open the Map Collection. You can view the various output presets like the AEM Sites, PDF (including Native PDF),  HTML5, EPUB, and Custom presets as per your configuration. 
     
-1. To generate output for the selected maps, select the required map files and the specifc presets, and then select **Generate**.
+1. To generate output for the selected maps, select the required map files and the specific presets, and then select **Generate**.
 
     >[!IMPORTANT]
     >
     > If an output generation process for a preset or DITA map is either in the queue or in progress, you cannot initiate another output generation task for the same preset or map.
 
 
-1. Once the output has been generated, switch to the **Generated history** tab to view the list of all generated maps. You can track the generation progress in the **Status** column, which indicates whether a generation is Executing or Finished. 
+1. Once the output has been generated, navigate to the **Generated history** tab to view the list of all generated maps. You can track the generation progress in the **Status** column, which indicates whether a generation is Executing or Finished. 
 
 
     ![Status of generation](./images/generated-tab-status.png)
@@ -135,12 +135,12 @@ To generate the output using a Map Collection, perform the following steps:
 1. Select **Refresh** to view the latest status of the generation process. The Status column is updated to reflect the current state of each map and its associated presets:
 
     - **Finished (Green)**: Generation completed successfully.
-    - **Finished (Red)**:Generation completed with errors. Error details can be viewed in the logs.
-    - **Executing (Blue)**:Generation is currently in progress.
+    - **Finished (Red)**: Generation completed with errors. Error details can be viewed in the logs.
+    - **Executing (Blue)**: Generation is currently in progress.
 
     ![Status types](./images/status-types.png)
 
-1. You can also cancel the output generation task till the ststus of the task is executing by selecting the **Cancel generation** icon.  
+1. You can also cancel the output generation task till the status of the task is executing by selecting the **Cancel generation** icon.  
 
     ![camcel generation](./images/cancel-generation.png)
 
@@ -154,7 +154,7 @@ To generate the output using a Map Collection, perform the following steps:
 
 To publish (if configured) the output using a Map Collection, perform the following steps:
 
-1. Select the desired maps from the either the **Maps and Presets** tab or the **Generated history** tab and select **Publish to**.
+1. Select the desired maps from either the **Maps and Presets** tab or the **Generated history** tab and select **Publish to**.
 1. Select the target environment where you want to publish the output: **Preview** or **Publish** instance.
 
      ![Publish output](./images/publish-output.png)
@@ -184,7 +184,7 @@ Perform the following steps to configure the metadata properties:
 1. Select **Save & Close** on the top to save the updates.
 1. (Optional) When you update the tags, you can also select Append in the **Save & Close** dropdown to append the new tags to the existing list.
 1. Select **Submit** from the **Save & Close** dropdown.
-The metadata properties are updated for the DITA maps you select in bulk from the map collection.
+The metadata properties are updated in bulk for the DITA maps you select from the map collection.
 
 >[!NOTE]
 > 
