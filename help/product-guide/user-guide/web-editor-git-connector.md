@@ -73,7 +73,7 @@ After your administrator configures the Git Connector, you can use it from the E
 
     >[!NOTE]
     >
-    > You can enable **Auto Sync** to automatically synchronize and import content from your Git repository into Experience Manager Guides. If conflicts are detected during synchronization, Auto Sync is paused and the conflict-resolution workflow is triggered, requiring you to review and resolve the conflicts before synchronization can continue. Once enabled, Auto Sync cannot be disabled for the importer.
+    > You can enable **Auto Sync** to automatically synchronize and import content from your Git repository into Experience Manager Guides. If any errors are detected, Auto Sync is not triggered and the Author must manually import the content by selecting **Import all**. Once enabled, Auto Sync cannot be disabled for the importer.
 
 After the content is imported, it is stored under the **Target AEM root path** configured by your Administrator when setting up the Git Connector.
 
@@ -87,11 +87,13 @@ Once content is imported into Experience Manager Guides, you can use the availab
 - **Delete**: Remove imported content that is no longer required.
 - **Rename**: Rename imported content for easier identification.
 - **View log**: View the import log to review details of the import operation.
-- **View reports**: View and download the **Bulk import report**, which includes details such as:
+- **View Report**: View and download the **Bulk import report**, which includes details such as:
 
     - total number of imported files
     - number of successful imports
     - number of failed imports 
+
+    ![](images/git-connector-view-report.png){width="600"}
 
   You can also download the detailed report. If some files fail to import, use **Retry failed imports** to try importing them again.
 

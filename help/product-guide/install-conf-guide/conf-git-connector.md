@@ -27,13 +27,13 @@ Use the Data Sources tool in Experience Manager Guides to create and configure a
     >[!TIP]
     >
     >* Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the field to view more details about it.
-    > * Fields with * are mandatory. For example, you can enter the following details for the ElasticSearch connector.
+    >* Fields with * are mandatory. For example, you can enter the following details for the ElasticSearch connector.
 
     * **Name**: Enter the name of the data source.
     * **Target AEM root path**: Enter the path in the AEM repository where content imported from Git should be stored.
     * **File type filter (inclusion)**: Specify the file types to include during import.
     * **Excluded path (regex)**: Specify path patterns to exclude from import.
-    * **Authentication type**: Select the authentication type from the drop-down list. For example: Basic *username-password authentication* for personal or private Git repositories, and *No-auth* for public repository URLs.
+    * **Authentication type**: Select the authentication type from the drop-down list. Currently, **Personal Access Token (PAT)** is the only supported authentication method. Enter the PAT during connector setup to authenticate and access the Git repository.
     * **Repository URL**: Enter the Git repository URL from which content should be imported.
     * **Branch**: Enter the branch to use for content import.
 
