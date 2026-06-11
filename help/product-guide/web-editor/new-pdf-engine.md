@@ -58,10 +58,9 @@ The following table describes rendering and behavior changes introduced in the n
 
 | Description | Recommended CSS update |
 |-------------|------------------------------------------------|
-| Scaled images may appear different because of changes in image rendering behavior. | To restore image rendering behavior similar to the existing publishing engine, add:<br><br><pre><code>&#96;&#96;&#96;image-rendering: pixelated;&#96;&#96;&#96;</code></pre> |
+| Scaled images may appear different because of changes in image rendering behavior. | To restore image rendering behavior similar to the existing publishing engine, add:<br><br><pre><code>&#96;&#96;&#96;css&#10;image-rendering: pixelated;&#10;&#96;&#96;&#96;</code></pre> |
 | Table of contents (TOC) leader alignment may appear slightly different because of changes in leader rendering behavior. | To restore TOC leader alignment similar to the existing publishing engine, adjust the styling of the TOC leader elements in your custom stylesheet. The required CSS changes may vary depending on your TOC layout and formatting. |
-| Text spacing and line wrapping may differ because of changes in font rendering and glyph layout processing. | If your stylesheet uses the `sans-serif` font family or fonts that exhibit spacing differences, add:<br><br><pre><code>&#96;&#96;&#96;body { -ro-glyph-layout-mode: quality; }&#96;&#96;&#96;</code></pre> |
-| Footnote references may no longer appear as superscript markers because of changes to the default footnote styling. | To restore superscript-style footnote markers, add:<br><br>```css<br>.fn::footnote-marker {<br>  content: counter(footnote) " ";<br>  vertical-align: super;<br>  font-size: 65%;<br>}<br>``` |
+| Text spacing and line wrapping may differ because of changes in font rendering and glyph layout processing. | If your stylesheet uses the `sans-serif` font family or fonts that exhibit spacing differences, add:<br><br><pre><code>&#96;&#96;&#96;css&#10;body { -ro-glyph-layout-mode: quality; }&#10;&#96;&#96;&#96;</code></pre> |
 | Footnote references may no longer appear as superscript markers because of changes to the default footnote styling. | To restore superscript-style footnote markers, add:<br><br><pre><code>&#96;&#96;&#96;css&#10;.fn::footnote-marker {&#10;  content: counter(footnote) " ";&#10;  vertical-align: super;&#10;  font-size: 65%;&#10;}&#10;&#96;&#96;&#96;</code></pre> |
 | Underlined text may appear with more space between the text and the underline because of changes in underline positioning. | To restore underline positioning similar to the existing publishing engine, use the `text-underline-offset` property and adjust the offset value as needed. For example:<br><br><pre><code>&#96;&#96;&#96;css&#10;text-decoration: underline;&#10;text-underline-offset: -0.1em;&#10;&#96;&#96;&#96;</code></pre> |
 | The spacing between list markers and list item text may differ because of changes in list rendering behavior. | To restore spacing similar to the existing publishing engine, increase the left padding for list items. For example:<br><br><pre><code>&#96;&#96;&#96;css&#10;.step {&#10;  margin-top: 0.3rem;&#10;  margin-bottom: 0.5rem;&#10;  padding-left: calc(1.5rem + 1ch);&#10;}&#10;&#96;&#96;&#96;</code></pre> |
@@ -86,3 +85,12 @@ The following workarounds can help address known issues in PDF output.
 - Color bars may appear merged when the page width is constrained because color bars are not scaled down with the page size in PDF output.
 
   **Workaround**: Display the gray and colored bars on different sides of the page, or adjust the color bar settings so they do not overlap at smaller page widths.
+
+  ## Fixed issues with the new publishing engine
+
+  The following issues are fixed with the new publishing engine for Native PDF:
+
+- When generating Native PDF output for certain content, only the first page is rendered in the PDF despite the intermediate HTML containing the complete content across multiple pages. (GUIDES-28270)
+- The reading order of content in Native PDF output with accessibility settings enabled is incorrect. Page numbers from footers are read before the main content instead of at the end. (GUIDES-27790)
+- The color bar in Native PDF output does not stretch across the full page width and overlaps when the page size is customized, causing some color boxes to be hidden. (GUIDES-15505)
+- The `CSS:is()pseudo-class` selector is not honored in Native PDF output, resulting in styling differences compared to browser rendering. (GUIDES-11328)
