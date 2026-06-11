@@ -230,7 +230,8 @@ breadcrumb-title: AEM Guides Documentation
         - [Support for Schematron files](./user-guide/support-schematron-file.md)
         - [Author Markdown documents from the Editor](./user-guide/web-editor-markdown-topic.md)
         - [Add citations to your content](./user-guide/web-editor-apply-citations.md)
-        - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)   
+        - [Use data from your data sources](./user-guide/web-editor-content-snippet.md) 
+        - {hide-from-toc} [Import content using Git Connector (Beta)](./user-guide/web-editor-git-connector.md)  
         - [Document state](./user-guide/web-editor-document-states.md)
         - [Use labels](./user-guide/web-editor-use-label.md)
         - [Editor settings](./user-guide/config-editor-settings.md)
@@ -679,6 +680,7 @@ breadcrumb-title: AEM Guides Documentation
       - Data source connector {#data-source}
           - [Configure a data source connector from the user interface](./install-conf-guide/conf-data-source-connector-tools.md)
           - [Configure a data source connector for Cloud Service](./install-conf-guide/conf-data-source-connector-cs.md)
+          - {hide-from-toc} [Create and configure Git Connector from the user interface](./install-conf-guide/conf-git-connector.md)
     - Global and folder-level profiles {#global-folder-profiles}
       - [Configure global or folder-level profiles](./install-conf-guide/conf-profiles.md) 
     - Topic and map templates {#topic-map-template}
