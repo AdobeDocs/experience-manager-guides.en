@@ -13,14 +13,14 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 
 ## Authoring
 
-- Copying and pasting `<keywords>` inside `<topicmeta>` within a `<keydef>` or `<topicref>` results in the keywords being inserted inside unwanted foreign tags. (GUIDES-45800)
 - Image dimensions specified with units such as `mm` are not rendered correctly, causing images to be displayed at their original size instead of the specified dimensions. (GUIDES-46275)
 - When toggling focus between the **Width** and **Height** fields in the image properties dialog using unit-based sizes such as `in`, `mm`, or `px`, the values keep incrementally increasing instead of remaining stable. (GUIDES-45929)
 
 ## Editor 2.0
 
+- Copying and pasting `<keywords>` inside `<topicmeta>` within a `<keydef>` or `<topicref>` results in the keywords being inserted inside unwanted foreign tags. (GUIDES-45800)
 - When performing a drag-and-drop with Tag view enabled, selecting content along with partial XML or DITA  tags leaves behind unwanted orphan tags, resulting in incorrect content or view. (GUIDES-28191)
-- In the Tag view of a table, pressing the up arrow key when the cursor is positioned at the cell directly below a collapsed entry tag skips over the collapsed tag and moves the cursor to beginning of the documen. (GUIDES-45408)
+- In the Tag view of a table, pressing the up arrow key when the cursor is positioned at the cell directly below a collapsed entry tag skips over the collapsed tag and moves the cursor to beginning of the document. (GUIDES-45408)
 - Performing any operation from the table contextual toolbar closes the toolbar unexpectedly, interrupting subsequent table operations. (GUIDES-45405)
 - After using **Insert After** or **Insert Before** from the Outline view or breadcrumb, the cursor moves to an arbitrary position instead of inside the newly added tag. (GUIDES-45147)
 - When the **Edit MathML** option is incorrectly displayed in read-only mode or when a file is checked out by another user, it allows users to update MathML content even though the file should not be editable. (GUIDES-45172)
@@ -35,7 +35,7 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 - The `keyref` used in a topic title derived from a keyword map does not appear in the TOC or topic tab after saving, even after a browser refresh. (GUIDES-45799)
 - Opening a review task in the Editor using Side-by-Side view for the commented version, displays the version as None instead of the associated version for the topic. (GUIDES-45127)
 - When accessing the Review task page, page breaks between topics are not displayed, resulting in the continuous rendering of content sections. (GUIDES-46777)
-- For a review task in the Side-by-Side view for the commented version, the comment panel is slightly left-shifted relative to the corresponding content. (GUIDES-46061)
+- The review page styling is not consistent with the New Editor experience, resulting in an inconsistent visual experience (GUIDES-46061)
 
 ## Asset management
 
@@ -57,15 +57,13 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 - The `<reltable>` element in a DITA map is ignored during Native PDF generation, causing "Related concepts", "Related tasks", and similar auto-generated cross-reference sections to be missing from the output. (GUIDES-38333)
 - When publishing a DITA map with `processing-role=resource-only` elements on AEM Sites (with legacy component mapping), orphan site pages are generated for those elements in additional scenarios such as `topicgroup` elements and specific content configurations. (GUIDES-37650)
 - When a map with a long name is added to a Map Collection, the map collection UI is rendered in a distorted layout. This issue has been resolved with the New maps collection. (GUIDES-42062)
+- Publishing with current PDF engine: 
+    - When generating Native PDF output for certain content, only the first page is rendered in the PDF despite the intermediate HTML containing the complete content across multiple pages. (GUIDES-28270)
+    - The reading order of content in Native PDF output with accessibility settings enabled is incorrect. Page numbers from footers are read before the main content instead of at the end. (GUIDES-27790)
+    - The color bar in Native PDF output does not stretch across the full page width and overlaps when the page size is customized, causing some color boxes to be hidden. (GUIDES-15505)
+    - The CSS `:is()` pseudo-class selector is not honored in Native PDF output, resulting in styling differences compared to browser rendering. (GUIDES-11328)
 
-## Publishing with Old PDF engine
-
-- When generating Native PDF output for certain content, only the first page is rendered in the PDF despite the intermediate HTML containing the complete content across multiple pages. (GUIDES-28270)
-- The reading order of content in Native PDF output with accessibility settings enabled is incorrect. Page numbers from footers are read before the main content instead of at the end. (GUIDES-27790)
-- The color bar in Native PDF output does not stretch across the full page width and overlaps when the page size is customized, causing some color boxes to be hidden. (GUIDES-15505)
-- The CSS `:is()` pseudo-class selector is not honored in Native PDF output, resulting in styling differences compared to browser rendering. (GUIDES-11328)
-
-The aforementioned issues have been resolved with the New PDF engine. For details, view [Working with New PDF engine](../web-editor/pdf-engine-v2).
+    The aforementioned issues have been resolved with the New PDF engine. For details, view [Working with New PDF engine](../web-editor/pdf-engine-v2).
 
 ## Translation
 
