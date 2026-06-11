@@ -32,7 +32,7 @@ topic_v2:
 
 >[!IMPORTANT]
 >
-> Git Connector is currently available as a Beta feature, and is disabled by default. Please contact the Customer Success team to enable the feature. 
+> Git Connector is currently available as a Beta feature, and is disabled by default. To enable this feature, contact the Customer Success team.  
 
 Git Connector allows you to import content from connected Git repositories into Experience Manager Guides. After the content is imported, you can use Experience Manager Guides authoring, review, translation, and publishing features to develop and deliver documentation.
 
@@ -57,7 +57,7 @@ After your administrator configures the Git Connector, you can use it from the E
 
     The connected data sources are displayed. 
 
-1. Select the **Git Connector** tile that your Administrator configured. 
+1. Select the **Git Connector** tile. 
 
 1. Select the + icon and then select **Bulk importer**.  
 
@@ -65,7 +65,7 @@ After your administrator configures the Git Connector, you can use it from the E
 
     ![](images/git-bulk-importer-dialog.png)
 
-1. In the **Bulk importer** dialog, provide a name for the import, select a sub folder from your configured Git repository, and select **Save & Fetch**.  The list of files available for import is displayed in the dialog. Review the list and validate the content before you continue.
+1. In the **Bulk importer** dialog, provide a name for the import, select a subfolder from your configured Git repository, and select **Save & Fetch**.  The list of files available for import is displayed in the dialog. Review the list and validate the content before you continue.
 
     ![](images/git-bulk-importer-import-all.png)
 
@@ -75,7 +75,7 @@ After your administrator configures the Git Connector, you can use it from the E
     >
     > You can enable **Auto Sync** to automatically synchronize and import content from your Git repository into Experience Manager Guides. If any errors are detected, Auto Sync is not triggered and the Author must manually import the content by selecting **Import all**. Once enabled, Auto Sync cannot be disabled for the importer.
 
-After the content is imported, it is stored under the **Target AEM root path** configured by your Administrator when setting up the Git Connector.
+After the content is imported, it is stored under the configured **Target AEM root path** when setting up the Git Connector.
 
 ## Manage Git-imported content
 
