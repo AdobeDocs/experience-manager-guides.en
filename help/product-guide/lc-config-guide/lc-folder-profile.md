@@ -287,20 +287,10 @@ The Output presets tab allows you to define which output formats are available f
 
 ## Manage Publish profiles 
 
-This section allows you to view, create, and manage publish profiles used for publishing courses to SCORM Cloud. Each profile defines the connection settings and configuration details required to publish a learning course to a specific SCORM Cloud environment.  
+This section allows you to view, create, and manage publish profiles used for publishing courses to SCORM Cloud or Adobe Learning Manager (ALM). Each profile defines the connection settings and configuration details required to publish a learning course to a selected publishing server.
 
-You can create multiple profiles if you need to publish to different SCORM Cloud accounts, ensuring flexibility and control over your publishing process. 
+You can create multiple profiles to publish content to different SCORM Cloud accounts or ALM instances, providing flexibility and control over your publishing workflow.
 
-Provide the server details along with the Client ID and Client secret of the associated SCORM cloud application to configure the Publish profile for SCORM cloud. 
+To configure a publish profile, select the desired publish server (SCORM Cloud or Adobe Learning Manager) and provide the required connection details. For SCORM Cloud, enter the server information along with the Client ID and Client Secret of the associated SCORM Cloud application. For Adobe Learning Manager, provide the corresponding server and authentication details required for your ALM environment. 
 
 ![](assets/configure-publish-profiles.png){width="350"}
-
-You can also create profiles for learning manager
-
-1. Navigate to **Workspace Settings**.
-2. Open the **Publish Profiles** tab.
-3. Select **Adobe Learning Manager** as the publishing destination.
-4. Enter the required Adobe Learning Manager connection details and **Authorize** them.
-5. Save the publish profile.
-
-The saved profile becomes available when publishing SCORM content.
