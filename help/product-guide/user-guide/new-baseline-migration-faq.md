@@ -118,4 +118,4 @@ Based on internal testing and observations from repositories containing approxim
 
 >[!NOTE]
 >
->These figures are provided for reference only and may vary based on repository complexity, infrastructure capacity, hardware configuration, and overall operating conditions.
+> These figures are provided for reference only and are based on an On-Premise environment. Actual values may vary depending on repository complexity, infrastructure capacity, hardware configuration, and overall operating conditions.
