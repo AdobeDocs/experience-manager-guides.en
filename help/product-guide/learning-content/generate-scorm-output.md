@@ -36,23 +36,3 @@ Perform the following steps to generate a SCORM output:
 
 You can upload the ZIP file to your LMS to make the course available to your learners using the **Upload** option on the **Publish to LMS** tab for SCORM preset. 
 
-## Course setup in Adobe Learning Manager
-
-After the upload is complete, Adobe Learning Manager opens the module configuration page.
-
-1. Enter the required **Module Name**.
-
-2. Configure additional settings as needed, such as:
-   - Completion Criteria
-   - Success Criteria
-   - Module Metadata
-
-3. Save the module.
-
-4. Create or associate the module with a course in Adobe Learning Manager.
-
-5. Configure any additional course settings required by your organization.
-
-6. Publish the course in Adobe Learning Manager.
-
-The generated SCORM package is uploaded directly to Adobe Learning Manager and added as a learning module. After completing the course configuration in ALM, the content is available for learner enrollment and consumption.
