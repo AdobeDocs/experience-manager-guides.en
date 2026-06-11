@@ -58,7 +58,7 @@ The following table describes rendering and behavior changes introduced in the n
 
 | Description | Recommended CSS update |
 |-------------|------------------------------------------------|
-| Scaled images may appear different because of changes in image rendering behavior. | To restore image rendering behavior similar to the existing publishing engine, add:<br><br>```css<br>* { image-rendering: pixelated; }<br>``` |
+| Scaled images may appear different because of changes in image rendering behavior. | To restore image rendering behavior similar to the existing publishing engine, add:<br><br>```css* { image-rendering: pixelated; }``` |
 | Table of contents (TOC) leader alignment may appear slightly different because of changes in leader rendering behavior. | To restore TOC leader alignment similar to the existing publishing engine, adjust the styling of the TOC leader elements in your custom stylesheet. The required CSS changes may vary depending on your TOC layout and formatting. |
 | Text spacing and line wrapping may differ because of changes in font rendering and glyph layout processing. | If your stylesheet uses the `sans-serif` font family or fonts that exhibit spacing differences, add:<br><br>```css<br>body { -ro-glyph-layout-mode: quality; }<br>``` |
 | Footnote references may no longer appear as superscript markers because of changes to the default footnote styling. | To restore superscript-style footnote markers, add:<br><br>```css<br>.fn::footnote-marker {<br>  content: counter(footnote) " ";<br>  vertical-align: super;<br>  font-size: 65%;<br>}<br>``` |
