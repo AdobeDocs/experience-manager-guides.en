@@ -24,23 +24,18 @@ role_v2:
 ---
 # Add and manage citations in your content
 
->[!NOTE]
->
-> Citations are supported only in the Old Editor and are currently not available in New Editor. The information in this article applies only if you are using the Old Editor.
-
 Citations are references to the source of information added to your content. Using citations, you can credit the authors of the source information and help readers to follow up on the source information. Adding citations makes your content more reliable and prevents plagiarism. They also allow you to display well-researched content.
 
 In Adobe Experience Manager Guides, you can add and import citations and apply them to your content. You can add these citations from any source of books, websites, and journals. 
 
-
 Experience Manager Guides helps you to edit, preview, and sort your citations. After adding your citations into the content, you can generate the output using Native PDF. You can also add the bibliography or references page in the Native PDF output. 
 
-Experience Manager Guides supports multiple styles of citations, such as Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE), and American Heart Association (AHA). The recommendation is to use them clearly and consistently. 
+Experience Manager Guides supports multiple styles of citations, such as Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE), American Heart Association (AHA), and American Medical Association (AMA). The recommendation is to use them clearly and consistently. 
 
 
 >[!NOTE]
 >
->Currently Experience Manager Guides only supports Native PDF for citations.
+>Experience Manager Guides supports all citation styles when publishing to Native PDF. For AEM Sites output, only AMA-style citations are currently supported.
 
 
 ## Add citations 
@@ -71,7 +66,7 @@ To add citations, follow these steps:
     | Book | Website |Journal|
     | --- | ---|---|
     |**Source** <br> From the drop-down, select the source of the citation as a Book.| **Source**<br>From the drop-down, select the source of the citation as a Website.| **Source** <br> From the drop-down, select the source of the citation as a Journal.|
-    |**Search by** <br> Select **ISBN** or **DOI** from the drop-down to search for the digital ID linked to the citation.  <br> DOI: Digital Object Identifier <br> ISBN: Unique Numeric Book Identifier | **Search by** <br> Select **DOI** from the drop-down to search for the digital ID linked to the citation.  | **Search by** <ul><li>Select **DOI** or **PubMed ID** from the drop-down to search for the digital ID linked to the citation.</li><li>Select **Any field** from the dropdown to search across all Journal fields such as *Title*, *Journal title*, *Author*, *Year*, *Volume*, *Number*, and *Pages*. <br> The search returns the closest matching citation based on the entered text.</li> |
+    |**Search by** <br> Select **ISBN** or **DOI** from the drop-down to search for the digital ID linked to the citation.  <br> DOI: Digital Object Identifier <br> ISBN: Unique Numeric Book Identifier | **Search by** <br> Select **DOI** from the drop-down to search for the digital ID linked to the citation.  | **Search by** <ul><li>Select **DOI** or **PubMed ID** from the drop-down to search for the digital ID linked to the citation.</li><li>Select **Any field** from the dropdown to search across all Journal fields such as *Title*, *Journal title*, *Author*, *Year*, *Volume*, *Number*, and *Pages*. <br> The search returns the closest matching citation based on the entered text.</li><li> Select **Parse citation** from the drop-down to parse a supported AMA citation and automatically populate the citation fields.|
     |**Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg) to add more names. | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg)  to add more names. | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg)to add more names. |
     |**Title** <br> Add the title of the book. | **Title** <br> Add the title of the web page.| **Title** <br> Add the title of the article.|
     |**Editor** <br> Add the editor of the book. | **Website Name** <br> Add the name of the website. | **Journal Title** <br> Add the title of the work in which the article is found.|
