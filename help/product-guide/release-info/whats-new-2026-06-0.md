@@ -25,13 +25,13 @@ To help keep imported content up to date, Git Connector also supports re-fetchin
 
 ![](assets/git-bulk-importer-import-all.png)
 
-## New Map Collection (Beta) for managing maps and publishing outputs
+## New map collection (Beta) for managing maps and publishing outputs
 
 >[!NOTE]
 >
 > This feature is currently available as a Beta feature and is disabled by default. To enable it in your environment, contact the Customer Success team.
 
-The new Map Collection (Beta) brings map collection management and output generation activities together in a single interface. From one location, you can manage maps and presets, generate and publish outputs, view generation and publishing history, update metadata, and more. By bringing related publishing tasks together, it makes it easier to work with map collections and track output activity across multiple maps and languages.
+The New map collection (Beta) brings map collection management and output generation activities together in a single interface. From one location, you can manage maps and presets, generate and publish outputs, view generation and publishing history, update metadata, and more. By bringing related publishing tasks together, it makes it easier to work with map collections and track output activity across multiple maps and languages.
 
 ![](assets/new-maps-collection.png)
 
@@ -43,16 +43,13 @@ For more details, view [Use New map collection for output generation (Beta)](../
 
 A new publishing engine, *Native PDF engine v2*, is now available for Native PDF in Experience Manager Guides. You can enable this engine to use the latest PDF generation framework for Native PDF output.
 
-The new PDF engine includes rendering enhancements and fixes for several Native PDF issues. Because rendering behavior has been updated, PDF output generated with *Native PDF engine v2* may differ from output generated with the existing Native PDF publishing engine, *Native PDF engine v1*.
+The new PDF engine includes rendering enhancements and fixes for Native PDF enginve v1 issues. Because rendering behavior has been updated, PDF output generated with *Native PDF engine v2* may differ from output generated with the existing Native PDF publishing engine, *Native PDF engine v1*.
 
 The following example illustrates a rendering difference between Native PDF engine v1 and Native PDF engine v2. In this example, checklist items appear as bullet symbols in PDF output generated with Native PDF engine v1, while Native PDF engine v2 displays the items as checkmarks.
 
 ![](assets/pdf-engine-diff.png)
 
 For information about enabling **Native PDF engine v2** and reviewing migration considerations, view [Work with the Native PDF engine v2](../web-editor/new-pdf-engine.md).
-
-
-For more details, view [Working with the new publishing engine for Native PDF](../web-editor/new-pdf-engine.md). 
 
 
 ## Editor enhancements 
@@ -76,14 +73,14 @@ Authors can continue using configured external data sources while creating or up
 
 The following enhancements are available for the Product Training and Learning content feature in this release:
 
-- Authors can now make a marked knowledge check mandatory before learners advance in a course. A new **Require knowledge check to proceed** option is introduced for knowledge checks in courses. When enabled, learners are enforced to attempt a knowledge check before proceeding to subsequent course content. This helps ensure that required knowledge checks are completed at designated points in the course. When used with Sequential Navigation, learners cannot bypass these checks and continue to the next section without attempting them. For more details, view [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
+- Authors can now make a knowledge check mandatory for learners before they advance in a course. A new **Require knowledge check to proceed** option is introduced for knowledge checks in courses. When enabled, learners are required to attempt a knowledge check before proceeding to subsequent course content. This helps ensure that required knowledge checks are completed at designated points in the course. For more details, view [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
 - You can now use multiline text input fields when creating learning content. This enhancement makes it easier to capture longer learner responses by supporting line breaks and text wrapping within a single field, without relying on custom scripting. Learn more about [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
-- SCORM output templates now support assigning different page layouts to different topic types within a course. This means you can create and map separate layouts for lessons, quizzes, overview pages, and other topic types directly from the output template settings.
+- SCORM output templates now support assigning different page layouts to different topic types within a course. This allows you to configure dedicated layouts for lessons, quizzes, overview pages, and other topic types directly from the output template settings.
 
     This allows each topic type to use a layout that is appropriate for its content and structure, rather than applying the same layout across all course pages. For more details on configuring page layouts for SCORM output templates, view [Configure Folder profiles](../lc-config-guide/lc-folder-profile.md). 
 - Experience Manager Guides now supports direct publishing of SCORM content to Adobe Learning Manager (ALM). After configuring an ALM publish profile, authors can generate SCORM output and upload it directly to Adobe Learning Manager without downloading and manually importing the package.
 
-    After the upload is complete, users are redirected to Adobe Learning Manager, where they can configure module details, completion criteria, and course settings before publishing.
+    After the upload is complete, users are redirected to Adobe Learning Manager, where they can configure module details, completion criteria, and course settings before publishing. For more details, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
 
 ## Review enhancements
 
@@ -105,7 +102,7 @@ For more details on the working with the Review UI, view [Review topics](../user
 
 ## Publishing enhancements
 
-## Customize PDF output with topichead styles
+## Customize PDF output with `topichead` styles
 
 You can now use the `outputclass` attribute on `<topichead>` elements to apply custom styles in PDF output. Similar to `<topicref>`, you can style the topichead entry in the table of contents, the generated heading based on the topichead's navtitle, and the content associated with the topichead. This enhancement provides greater flexibility for customizing the appearance of PDF output. 
 
