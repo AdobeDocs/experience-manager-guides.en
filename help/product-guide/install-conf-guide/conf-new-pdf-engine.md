@@ -7,11 +7,11 @@ level: Experienced
 
 ---
 
-# Configure the new publishing engine for Native PDF
+# Configure Native PDF engine v2
 
-The new publishing engine for Native PDF provides updated PDF rendering capabilities, support for OpenType fonts, and improved CSS processing.
+The new publishing engine for Native PDF i.e _Native PDF engine v2_ provides updated PDF rendering capabilities and fixes for _Native PDF engine v1_ issues.
 
-Use the instructions given in Configuration overrides to create the configuration file.In the configuration file, provide the following (property) details:
+Use the instructions given in Configuration overrides to create the configuration file. In the configuration file, provide the following (property) details:
 
 | PID | Property Key | Property Value |
 |-----|--------------|----------------|
