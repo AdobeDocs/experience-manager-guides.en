@@ -104,7 +104,7 @@ If you have a DITA topic about "Installation Instructions," the topic page templ
 >
 > Ensure that components using sling:resourceType under `wcm/foundation/components` are migrated to the corresponding `core/wcm/components`.
 
-Add the same (container and text component) in the structure of the same template:
+Add the same container component in the structure of the same template:
 
 ![Adding container and text component](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
@@ -116,7 +116,7 @@ Refer to the table below for the list of components and their usage:
 
 |Feature|Component name|Description|Recommended Template|
 |---|---|---|---|
-|Table of Contents|guidessidenavigation|Renders full TOC from the DITA map|Documentation Container|
+|Table of Contents|guidessidenavigation|Renders full TOC from the DITA map|Topic Page|
 |Page Redirect|childredirect|Redirects to the first topic page in the map|Documentation Container|
 |Mini TOC|minitoc|Displays TOC for the current topic|Topic Page|
 |Last Updated|pageproperty|Displays last modified date|Topic Page|
@@ -137,7 +137,7 @@ By default, the client libraries (clientlibs) provided in the AEM Guides compone
 
 1. **Edit the Template:**
 
-    1. Open the **Product Page** in **Editor Mode**.
+    1. Open the **Container Page Template** and the **Topic Page Template** in Editor mode.
     2. Select **Edit Template** (this will open a URL like conf/settings/wcm/templates/structure.html).
 
         ![Edit template](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
