@@ -31,7 +31,7 @@ To help keep imported content up to date, Git Connector also supports re-fetchin
 >
 > This feature is currently available as a Beta feature and is disabled by default. To enable it in your environment, contact the Customer Success team.
 
-The New map collection (Beta) brings map collection management and output generation activities together in a single interface. From one location, you can manage maps and presets, generate and publish outputs, view generation and publishing history, update metadata, and more. By bringing related publishing tasks together, it makes it easier to work with map collections and track output activity across multiple maps and languages.
+New map collection (Beta) brings map collection management and output generation activities together in a single interface. From one location, you can manage maps and presets, generate and publish outputs, view generation and publishing history, update metadata, and more. By bringing related publishing tasks together, it makes it easier to work with map collections and track output activity across multiple maps and languages.
 
 ![](assets/new-maps-collection.png)
 
@@ -43,7 +43,7 @@ For more details, view [Use New map collection for output generation (Beta)](../
 
 A new publishing engine, *Native PDF engine v2*, is now available for Native PDF in Experience Manager Guides. You can enable this engine to use the latest PDF generation framework for Native PDF output.
 
-The new PDF engine includes rendering enhancements and fixes for Native PDF enginve v1 issues. Because rendering behavior has been updated, PDF output generated with *Native PDF engine v2* may differ from output generated with the existing Native PDF publishing engine, *Native PDF engine v1*.
+The new PDF engine includes rendering enhancements and fixes for Native PDF engine v1 issues. Because rendering behavior has been updated, PDF output generated with *Native PDF engine v2* may differ from output generated with the existing Native PDF publishing engine, *Native PDF engine v1*.
 
 The following example illustrates a rendering difference between Native PDF engine v1 and Native PDF engine v2. In this example, checklist items appear as bullet symbols in PDF output generated with Native PDF engine v1, while Native PDF engine v2 displays the items as checkmarks.
 
@@ -65,7 +65,7 @@ AMA citation style is supported across the Native PDF and AEM Sites output forma
 
 ### Support for external data sources and citations now available in the New Editor
 
-The New Editor now supports two existing Experience Manager Guides capabilities: Ability to connect with external data sources and and use citations in the documents.
+The New Editor now supports two existing Experience Manager Guides capabilities: Ability to connect with external data sources and use citations in the documents.
 
 Authors can continue using configured external data sources while creating or updating content in the New Editor. Citations are also supported, so authors can add and manage references in their content without switching editors. Learn more about how to [Add and manage citations in your content](../user-guide/web-editor-apply-citations.md).
 
@@ -98,7 +98,7 @@ If an email address isn't available, the user ID is shown instead. For more deta
 
 You can now keep review task completion in sync between the Review UI and the AEM Inbox. When this feature is enabled, completing a task in the Review UI removes it from the AEM Inbox, and completing it from the AEM Inbox marks it as completed in the Review UI. This helps avoid completing the same task twice and makes the review workflow smoother. Authors and task initiators can continue to review feedback and reassign tasks when additional review is required. When a task is reassigned, a new AEM Inbox notification is generated for the reviewer, allowing the review cycle to continue seamlessly.
 
-For more details on the working with the Review UI, view [Review topics](../user-guide/review-topics.md). 
+For more details, view [Review topics](../user-guide/review-topics.md). 
 
 ## Publishing enhancements
 
