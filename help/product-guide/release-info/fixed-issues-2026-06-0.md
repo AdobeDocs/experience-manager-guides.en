@@ -57,7 +57,7 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 - The `<reltable>` element in a DITA map is ignored during Native PDF generation, causing "Related concepts", "Related tasks", and similar auto-generated cross-reference sections to be missing from the output. (GUIDES-38333)
 - When publishing a DITA map with `processing-role=resource-only` elements on AEM Sites (with legacy component mapping), orphan site pages are generated for those elements in additional scenarios such as `topicgroup` elements and specific content configurations. (GUIDES-37650)
 - When a map with a long name is added to a Map Collection, the map collection UI is rendered in a distorted layout. This issue has been resolved with the New maps collection. (GUIDES-42062)
-- Publishing with the current PDF engine: 
+- Publishing with the Native PDF engine v1: 
     - When generating Native PDF output for certain content, only the first page is rendered in the PDF despite the intermediate HTML containing the complete content across multiple pages. (GUIDES-28270)
     - The reading order of content in Native PDF output with accessibility settings enabled is incorrect. Page numbers from footers are read before the main content instead of at the end. (GUIDES-27790)
     - The color bar in Native PDF output does not stretch across the full page width and overlaps when the page size is customized, causing some color boxes to be hidden. (GUIDES-15505)
@@ -65,7 +65,7 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 
     >[!NOTE]
     >
-    > The aforementioned issues have been resolved with the New Native PDF engine v2. For details, view [Working with New PDF engine](../web-editor/pdf-engine-v2).
+    > The aforementioned issues have been resolved with the Native PDF engine v2. For details, view [Work with Native PDF engine v2](../web-editor/pdf-engine-v2.md).
 
 ## Translation
 
