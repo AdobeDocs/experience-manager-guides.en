@@ -36,6 +36,18 @@ topic_v2:
 
 This FAQ addresses common questions related to New Baseline  migration, behavior changes, migration considerations, and expected outcomes when upgrading to the New Baseline model.
 
+## What are the key benefits of migrating to the new baseline?
+
+The New Baseline model provides several improvements, including:
+
+- Improved performance and scalability
+- Better UI and backend consistency
+- Deterministic editing and saving behavior
+- Enhanced filtering and navigation capabilities
+- Dependency impact previews
+- Improved reliability during baseline creation and updates
+- Better API and automation support
+
 ## Does baseline migration create new baselines for all versions of a map?
 
 No, the migration process creates new baselines only for the **current working copy** of the map. Baselines associated with other working copies are not included in the migration.
@@ -72,18 +84,6 @@ Yes, baseline modifications should be avoided while a migration is in progress, 
 
 Some baselines may need to be rebuilt after migration if the versions referenced by those baselines are no longer available or accessible.
 
-## What are the key benefits of migrating to the new baseline?
-
-The New Baseline model provides several improvements, including:
-
-- Improved performance and scalability
-- Better UI and backend consistency
-- Deterministic editing and saving behavior
-- Enhanced filtering and navigation capabilities
-- Dependency impact previews
-- Improved reliability during baseline creation and updates
-- Better API and automation support
-
 ## Does baseline migration change the baseline?
 
 No, baseline migration preserves the baseline exactly as it exists and does not modify its content or references.
@@ -119,3 +119,5 @@ Based on internal testing and observations from repositories containing approxim
 >[!NOTE]
 >
 > These figures are provided for reference only and are based on an On-Premise environment. Actual values may vary depending on repository complexity, infrastructure capacity, hardware configuration, and overall operating conditions.
+
+## Can we rollback to old baselines again?

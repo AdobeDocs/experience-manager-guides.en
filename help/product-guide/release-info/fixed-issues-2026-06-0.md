@@ -13,12 +13,12 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 
 ## Authoring
 
-- Image dimensions specified with units such as `mm` are not rendered correctly, causing images to be displayed at their original size instead of the specified dimensions. (GUIDES-46275)
 - When toggling focus between the **Width** and **Height** fields in the image properties dialog using unit-based sizes such as `in`, `mm`, or `px`, the values keep incrementally increasing instead of remaining stable. (GUIDES-45929)
 
 ## Editor 2.0
 
 - Copying and pasting `<keywords>` inside `<topicmeta>` within a `<keydef>` or `<topicref>` results in the keywords being inserted inside unwanted foreign tags. (GUIDES-45800)
+- Image dimensions specified with units such as `mm` are not rendered correctly, causing images to be displayed at their original size instead of the specified dimensions. (GUIDES-46275)
 - When performing a drag-and-drop with Tag view enabled, selecting content along with partial XML or DITA  tags leaves behind unwanted orphan tags, resulting in incorrect content or view. (GUIDES-28191)
 - In the Tag view of a table, pressing the up arrow key when the cursor is positioned at the cell directly below a collapsed entry tag skips over the collapsed tag and moves the cursor to beginning of the document. (GUIDES-45408)
 - Performing any operation from the table contextual toolbar closes the toolbar unexpectedly, interrupting subsequent table operations. (GUIDES-45405)
