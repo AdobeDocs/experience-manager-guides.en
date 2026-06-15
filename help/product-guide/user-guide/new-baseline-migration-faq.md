@@ -128,7 +128,7 @@ The original old baseline objects remain available at their original location. W
 
 ## How can we migrate to New Baselines?
 
-To migrate to new baseline, follow the steps in [Migrate to New Baseline](../web-editor-baseline-v2.md#migrate-to-new-baseline).
+To migrate to new baseline, follow the steps in [Migrate to New Baseline](./web-editor-baseline-v2.md#migrate-to-new-baseline).
 
 ## Can we migrate to the new baseline at any time? Are there any prerequisites?
 
