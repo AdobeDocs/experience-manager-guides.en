@@ -11,19 +11,6 @@ For the list of issues fixed in this release, view [Fixed issues in the 2026.06.
 
 Learn about [upgrade instructions for the 2026.06.0 release](../release-info/upgrade-instructions-2026-06-0.md).
 
-## Fetch content from Git repositories using Git connector (Beta)
-
->[!NOTE]
->
-> This feature is currently available as a Beta feature and is disabled by default. To enable it in your environment, contact the Customer Success team.
-
-Experience Manager Guides now introduces Git Connector (Beta), which allows you to import content from Git repositories into Experience Manager Guides.
-
-After the content is imported, teams can continue using Experience Manager Guides for their authoring, review, translation, and publishing workflows.
-
-To help keep imported content up to date, Git Connector also supports re-fetching content from the source repository to bring in updates. It includes intelligent change detection to identify content updates, preserves topic and map GUIDs during import and re-fetch operations, and provides conflict resolution capabilities to help manage differences between repository content and content already available in Experience Manager Guides. For more details, view [Import DITA content from Git repositories using Git Connector](../user-guide/web-editor-git-connector.md). 
-
-![](assets/git-bulk-importer-import-all.png)
 
 ## New map collection (Beta) for managing maps and publishing outputs
 
@@ -31,23 +18,19 @@ To help keep imported content up to date, Git Connector also supports re-fetchin
 >
 > This feature is currently available as a Beta feature and is disabled by default. To enable it in your environment, contact the Customer Success team.
 
-New map collection (Beta) brings map collection management and output generation activities together in a single interface. From one location, you can manage maps and presets, generate and publish outputs, view generation and publishing history, update metadata, and more. By bringing related publishing tasks together, it makes it easier to work with map collections and track output activity across multiple maps and languages.
+New map collection (Beta) brings map collection management and output generation activities together in a single interface. From one location, you can manage maps and presets, generate and publish outputs, view generation and publishing history, and more. By bringing related publishing tasks together, it makes it easier to work with map collections and track output activity across multiple maps and their associated languages.
 
 ![](assets/new-maps-collection.png)
-
-Also, you can filter maps by modification status, preset, and language, update metadata for selected maps, perform bulk actions across multiple maps, and manage collection content directly within the collection.
 
 For more details, view [Use New map collection for output generation (Beta)](../user-guide/generate-output-use-new-map-collection-output-generation.md). 
 
 ## Introducing a new publishing engine for Native PDF
 
-A new publishing engine, *Native PDF engine v2*, is now available for Native PDF in Experience Manager Guides. You can enable this engine to use the latest PDF generation framework for Native PDF output.
+A new publishing engine, *Native PDF engine v2*, is now available for Native PDF in Experience Manager Guides. It includes rendering enhancements and fixes for Native PDF engine v1 issues. Because rendering behavior has been updated, PDF output generated with *Native PDF engine v2* may differ from output generated with the existing Native PDF publishing engine, *Native PDF engine v1*.
 
-The new PDF engine includes rendering enhancements and fixes for Native PDF engine v1 issues. Because rendering behavior has been updated, PDF output generated with *Native PDF engine v2* may differ from output generated with the existing Native PDF publishing engine, *Native PDF engine v1*.
+Learn how to [enable Native PDF engine v2](../install-conf-guide/conf-new-pdf-engine.md) in your environment. 
 
-The following example illustrates a rendering difference between Native PDF engine v1 and Native PDF engine v2. In this example, checklist items appear as bullet symbols in PDF output generated with Native PDF engine v1, while Native PDF engine v2 displays the items as checkmarks.
-
-![](assets/pdf-engine-diff.png)
+For example, text in generated PDFs may appear slightly different due to updates in the core fonts used by *Native PDF engine v2*. Similarly, images may appear more sharper because of improvements in image interpolation and rendering behavior.
 
 For information about enabling **Native PDF engine v2** and reviewing migration considerations, view [Work with the Native PDF engine v2](../web-editor/new-pdf-engine.md).
 
@@ -80,15 +63,9 @@ The following enhancements are available for the Product Training and Learning c
     This allows each topic type to use a layout that is appropriate for its content and structure, rather than applying the same layout across all course pages. For more details on configuring page layouts for SCORM output templates, view [Configure Folder profiles](../lc-config-guide/lc-folder-profile.md). 
 - Experience Manager Guides now supports direct publishing of SCORM content to Adobe Learning Manager (ALM). After configuring an ALM publish profile, authors can generate SCORM output and upload it directly to Adobe Learning Manager without downloading and manually importing the package.
 
-    After the upload is complete, users are redirected to Adobe Learning Manager, where they can configure module details, completion criteria, and course settings before publishing. For more details, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
+    For more details, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
 
 ## Review enhancements
-
-### User identification in the tagging list during review
-
-When tagging users in review comments or replies, the tagging dropdown now displays each user's email address alongside their user ID. This makes it easier to identify and select the correct reviewer, especially in large organizations where display names alone may be ambiguous.
-
-If an email address isn't available, the user ID is shown instead. For more details on working with Review UI, view [Review topics](../user-guide/review-topics.md).
 
 ### Sync review task completion between the Review UI and AEM Inbox (Beta)
 
@@ -100,11 +77,4 @@ You can now keep review task completion in sync between the Review UI and the AE
 
 For more details, view [Review topics](../user-guide/review-topics.md). 
 
-## Publishing enhancements
-
-## Customize PDF output with `topichead` styles
-
-You can now use the `outputclass` attribute on `<topichead>` elements to apply custom styles in PDF output. Similar to `<topicref>`, you can style the topichead entry in the table of contents, the generated heading based on the topichead's navtitle, and the content associated with the topichead. This enhancement provides greater flexibility for customizing the appearance of PDF output. 
-
-For more details, view [Apply custom style on TOC entries and topic content](../native-pdf/custom-style-toc.md).
 
