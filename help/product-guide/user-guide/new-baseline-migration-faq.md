@@ -120,4 +120,33 @@ Based on internal testing and observations from repositories containing approxim
 >
 > These figures are provided for reference only and are based on an On-Premise environment. Actual values may vary depending on repository complexity, infrastructure capacity, hardware configuration, and overall operating conditions.
 
-## Can we rollback to old baselines again?
+## Can we rollback to Old Baselines again?
+
+Yes. However, when a rollback is performed, the old baselines are restored to the state they are in at the time of migration. Any changes made while the old baseline configuration is disabled and the new baseline configuration is active are not reflected in the restored baselines.
+
+The original old baseline objects remain available at their original location. When the new baseline configuration is disabled, the system automatically switches back to using those original objects.
+
+## How can we migrate to New Baselines?
+
+To migrate to new baseline, follow the steps in [Migrate to New Baseline](../web-editor-baseline-v2.md#migrate-to-new-baseline).
+
+## Can we migrate to the new baseline at any time? Are there any prerequisites?
+
+Yes. You can enable the new baseline at any time, as long as your environment meets the minimum version requirements.
+
+**Prerequisites:**
+
+- AEM Guides (On-Premise): Version 5.2 or later
+- AEM Guides (Cloud Service): Release 2026.05.0 or later
+
+Once these requirements are met, you can migrate your existing old baselines to the new baseline model and start using its capabilities.
+
+## Is it necessary to back up the current server state before migrating to the new baseline?
+
+No additional backup is required specifically for migration to the new baseline.
+
+However, baselines associated with the working copy can be lost if a user later performs a version revert operation. This behavior is not unique to the new baseline model; reverting to an earlier version can also remove the corresponding old baseline working-copy nodes.
+
+If preserving working-copy baselines is important, it is recommended to back them up before migration. After migrating, users will primarily work with new baselines, but a subsequent version revert can still result in the loss of working-copy baselines.
+
+
