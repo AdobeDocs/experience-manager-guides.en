@@ -60,6 +60,14 @@ When a previous version of a map is restored or accessed, the baselines associat
 
 No, invalid references are skipped during migration to maintain baseline consistency and ensure the reliability of the migrated baseline.
 
+## Does baseline migration change the baseline?
+
+Baseline migration retains all valid baseline content and references exactly as they are. Invalid references, however, are not included in the migrated baseline. Apart from the removal of invalid references, migration does not introduce any changes to references or dependency resolution behavior.
+
+Any further changes to references or dependency resolution can occur only after the migrated baseline is modified, rebuilt, or newly created using the new baseline model.
+
+Until one of these actions is performed, the migrated baseline continues to reflect the original baseline definition.
+
 ## Are reltable references included in the new baseline model?
 
 No, references originating from **reltable** elements are excluded from baseline resolution, consistent with the behavior of the legacy baseline model.
@@ -84,19 +92,6 @@ Yes, baseline modifications should be avoided while a migration is in progress, 
 
 Some baselines may need to be rebuilt after migration if the versions referenced by those baselines are no longer available or accessible.
 
-## Does baseline migration change the baseline?
-
-No, baseline migration preserves the baseline exactly as it exists and does not modify its content or references.
-
-All references contained in the baseline remain unchanged throughout the migration process.
-
-Updates to references or dependency resolution behavior occur only after the migrated baseline is:
-
-- Edited
-- Rebuilt
-- Newly created using the New Baseline model
-
-Until one of these actions is performed, the migrated baseline continues to reflect the original baseline definition.
 
 ## What is the approximate time required to migrate baselines for an On-Premise setup?
 
