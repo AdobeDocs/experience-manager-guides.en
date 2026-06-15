@@ -50,7 +50,7 @@ AMA citation style is supported across the Native PDF and AEM Sites output forma
 
 The New Editor now supports two existing Experience Manager Guides capabilities: Ability to connect with external data sources and use citations in the documents.
 
-Authors can continue using configured external data sources while creating or updating content in the New Editor. Citations are also supported, so authors can add and manage references in their content without switching editors. Learn more about how to [Add and manage citations in your content](../user-guide/web-editor-apply-citations.md).
+Authors can continue using configured external data sources while creating or updating content in the New Editor. Citations are also supported, so authors can add and manage references in their content without switching editors. 
 
 ## Product Training and Learning content enhancements
 
