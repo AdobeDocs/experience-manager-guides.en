@@ -28,9 +28,9 @@ For more details, view [Use New map collection for output generation (Beta)](../
 
 A new publishing engine, *Native PDF engine v2*, is now available for Native PDF in Experience Manager Guides. It includes rendering enhancements and fixes for Native PDF engine v1 issues. Because rendering behavior has been updated, PDF output generated with *Native PDF engine v2* may differ from output generated with the existing Native PDF publishing engine, *Native PDF engine v1*.
 
-Learn how to [enable Native PDF engine v2](../install-conf-guide/conf-new-pdf-engine.md) in your environment. 
-
 For example, text in generated PDFs may appear slightly different due to updates in the core fonts used by *Native PDF engine v2*. Similarly, images may appear more sharper because of improvements in image interpolation and rendering behavior.
+
+Learn how to [enable Native PDF engine v2](../install-conf-guide/conf-new-pdf-engine.md) in your environment. 
 
 For information about enabling **Native PDF engine v2** and reviewing migration considerations, view [Work with the Native PDF engine v2](../web-editor/new-pdf-engine.md).
 
