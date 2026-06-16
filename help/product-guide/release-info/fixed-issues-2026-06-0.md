@@ -90,6 +90,7 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 - A delay is observed before the Next button becomes enabled for courses, impacting the learner navigation experience. (GUIDES-45113)
 - Short answer question styling is rendered incorrectly in publishing output despite displaying correctly in preview. (GUIDES-46478)
 - When generating PDF output for courses containing videos, the video content is not rendered and only the file path is displayed instead of a placeholder image such as a video thumbnail or poster image. This issue has been resolved by enabling **Embed multimedia files** option in the Native PDF output preset.(GUIDES-45117)
+- CSS pseudo-classes and elements are rendered in white in the Guide's Editor, making them invisible or difficult to read against the editor background. (GUIDES-45116)
 
 ## Known issues
 
