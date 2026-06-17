@@ -491,7 +491,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Configure the number of LimitReads for a query for On-Premise](./install-conf-guide/conf-query-limitreads.md)
       - Data source connector {#data-source}
           - [Configure a data source connector from the user interface](./install-conf-guide/conf-data-source-connector-tools.md)
-          - [Configure a data source connector for Cloud Service](./install-conf-guide/conf-data-source-connector-cs.md)
+          - {hide-from-toc} [Configure a data source connector for Cloud Service](./install-conf-guide/conf-data-source-connector-cs.md)
           - {hide-from-toc} [Create and configure Git Connector from the user interface](./install-conf-guide/conf-git-connector.md)
     - Global and folder-level profiles {#global-folder-profiles}
       - [Configure global or folder-level profiles](./install-conf-guide/conf-profiles.md) 
@@ -530,6 +530,8 @@ breadcrumb-title: AEM Guides Documentation
           - [Add a custom bookmark in PDF output](./native-pdf/add-custom-bookmark.md)
           - [Use JavaScript to work with content or style](./native-pdf/use-javascript-content-style.md)
           - [Apply styles to footnotes](./native-pdf/footnote-number-style.md)
+         - [Configure the new publishing engine for Native PDF](./native-pdf/conf-new-pdf-engine.md) 
+        - [Work with the Native PDF engine v2 ](./native-pdf/new-pdf-engine.md) 
         - [Configure Node process for Native PDF Publishing for Cloud Service](./native-pdf/conf-node-options-cs.md) 
         - [Configure JVM flags for Native PDF Publishing for On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
       - Configure content and experience fragments for Cloud Service {#conf-content-exp-fragment}  

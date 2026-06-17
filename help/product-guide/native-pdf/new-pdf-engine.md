@@ -48,7 +48,7 @@ As a result, PDF output generated using the new publishing engine may differ fro
 
 For example, the Native PDF engine v2 supports `OpenType` fonts, whereas the Native PDF engine v1 primarily relies on `TrueType` fonts. Similar rendering enhancements can affect the overall appearance of generated PDFs.
 
-For details on how to enable the Native PDF engine v2 in your environment, view [Configure the new publishing engine for Native PDF](../install-conf-guide/conf-new-pdf-engine.md)
+For details on how to enable the Native PDF engine v2 in your environment, view [Configure the new publishing engine for Native PDF](./conf-new-pdf-engine.md).
 
 ## Recommended CSS updates for the new publishing engine
 

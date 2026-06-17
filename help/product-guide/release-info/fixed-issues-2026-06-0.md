@@ -65,7 +65,7 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 
     >[!NOTE]
     >
-    > The aforementioned issues have been resolved with the Native PDF engine v2. For details, view [Work with Native PDF engine v2](../web-editor/pdf-engine-v2.md).
+    > The aforementioned issues have been resolved with the Native PDF engine v2. For details, view [Work with Native PDF engine v2](../native-pdf/new-pdf-engine.md).
 
 ## Translation
 
