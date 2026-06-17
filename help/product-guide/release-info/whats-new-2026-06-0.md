@@ -52,19 +52,6 @@ The New Editor now supports two existing Experience Manager Guides capabilities:
 
 Authors can continue using configured external data sources while creating or updating content in the New Editor. Citations are also supported, so authors can add and manage references in their content without switching editors. 
 
-## Product Training and Learning content enhancements
-
-The following enhancements are available for the Product Training and Learning content feature in this release:
-
-- Authors can now make a knowledge check mandatory for learners before they advance in a course. A new **Require knowledge check to proceed** option is introduced for knowledge checks in courses. When enabled, learners are required to attempt a knowledge check before proceeding to subsequent course content. This helps ensure that required knowledge checks are completed at designated points in the course. For more details, view [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
-- You can now use multiline text input fields when creating learning content. This enhancement makes it easier to capture longer learner responses by supporting line breaks and text wrapping within a single field, without relying on custom scripting. Learn more about [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
-- SCORM output templates now support assigning different page layouts to different topic types within a course. This allows you to configure dedicated layouts for lessons, quizzes, overview pages, and other topic types directly from the output template settings.
-
-    This allows each topic type to use a layout that is appropriate for its content and structure, rather than applying the same layout across all course pages. For more details on configuring page layouts for SCORM output templates, view [Configure Folder profiles](../lc-config-guide/lc-folder-profile.md). 
-- Experience Manager Guides now supports direct publishing of SCORM content to Adobe Learning Manager (ALM). After configuring an ALM publish profile, authors can generate SCORM output and upload it directly to Adobe Learning Manager without downloading and manually importing the package.
-
-    For more details, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
-
 ## Review enhancements
 
 ### Sync review task completion between the Review UI and AEM Inbox (Beta)
@@ -76,5 +63,18 @@ The following enhancements are available for the Product Training and Learning c
 You can now keep review task completion in sync between the Review UI and the AEM Inbox. When this feature is enabled, completing a task in the Review UI removes it from the AEM Inbox, and completing it from the AEM Inbox marks it as completed in the Review UI. This helps avoid completing the same task twice and makes the review workflow smoother. Authors and task initiators can continue to review feedback and reassign tasks when additional review is required. When a task is reassigned, a new AEM Inbox notification is generated for the reviewer, allowing the review cycle to continue seamlessly.
 
 For more details, view [Review topics](../user-guide/review-topics.md). 
+
+## Learning content enhancements
+
+The following enhancements are available for the Product Training and Learning content feature in this release:
+
+- Authors can now make a knowledge check mandatory for learners before they advance in a course. A new **Require knowledge check to proceed** option is introduced for knowledge checks in courses. When enabled, learners are required to attempt a knowledge check before proceeding to subsequent course content. This helps ensure that required knowledge checks are completed at designated points in the course. For more details, view [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
+- You can now use multiline text input fields when creating learning content. This enhancement makes it easier to capture longer learner responses by supporting line breaks and text wrapping within a single field, without relying on custom scripting. Learn more about [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
+- SCORM output templates now support assigning different page layouts to different topic types within a course. This allows you to configure dedicated layouts for lessons, quizzes, overview pages, and other topic types directly from the output template settings.
+
+    This allows each topic type to use a layout that is appropriate for its content and structure, rather than applying the same layout across all course pages. For more details on configuring page layouts for SCORM output templates, view [Configure Folder profiles](../lc-config-guide/lc-folder-profile.md). 
+- Experience Manager Guides now supports direct publishing of SCORM content to Adobe Learning Manager (ALM). After configuring an ALM publish profile, authors can generate SCORM output and upload it directly to Adobe Learning Manager without downloading and manually importing the package.
+
+    For more details, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
 
 
