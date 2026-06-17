@@ -114,10 +114,6 @@ Protect your PDF by adding restrictions to open and read the file. Use the below
 
 **Print**
 
->[!NOTE]
->
-> Starting with the Experience Manager Guides 5.0/2025.02.0 release, the Print section is now part of the **Native PDF Output preset**. For the existing templates with saved Print settings, the Print data will remain intact but will no longer appear in the UI or apply during output. To continue using these settings, you must reconfigure them within the Native PDF Output preset.
-
 Configure the print production settings to assign printer marks, select color models, and specify properties related to printing of your PDF output.
 
 * **Printer Marks**: When you prepare a document for print production, printer marks are added to the page boundaries to assist in proper alignment, trimming, and color selection during printing. By selecting a printer mark, the page boundary is extended to accommodate the mark, which are trimmed during print. You can choose to display the following printer marks in your PDF output:
@@ -140,8 +136,6 @@ To configure this setting, specify the ICC profile file path on your server and 
    >
    > An ICC color profile is necessary for PDF/A creation if using CMYK color space.
 
-   <!--For more information on applying these print settings, see *Printing preferences*.-->
-
 **Advanced**
 
 Use the following options to specify advanced settings to merge PDFs, use compression, select compliance standard, and more. 
@@ -157,7 +151,7 @@ Use the following options to specify advanced settings to merge PDFs, use compre
 |  **Use full compression to optimize the PDF size** | Select this option if you want to compress/reduce the size of a large PDF. Remember, compressing the PDF may reduce the file quality. |
 |  **Use image compression to optimize the PDF size** | Select this option if you want to compress/reduce the size of images used, in your PDF. Remember, compressing an image may reduce the image quality.  |
 |  **Use custom resolution (pixels per inch)** | It is the page display resolution at pixels per inch. Enter a preferred value in the field that appears when this option is selected. The default value is 96 pixels per inch. Set a higher value to fit more content in an inch, and vice versa, if you set a lower value. |
-|  **Show Watermark** | Select this option to superimpose a watermark in your output. You can enter a new text string in the text box with the character casing the way you want. <br><br>Use static text or language variables to publish the localized version of the watermark.  Depending on your chosen language, the localized value is automatically picked in the PDF output. For example, you can print 'Publisher' as a watermark in English and 'Auteure' in French.  <br> Format: `${lng:<variable name>}`. For example, `$ {lng:publisher-label}` where `publisher-label` is a language variable. <br> Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the option to view more details about it. |
+|  **Show Watermark** | Select this option to superimpose a watermark in your output. You can enter a new text string in the text box with the character casing the way you want. <br><br>Use static text or language variables to publish the localized version of the watermark.  Depending on your chosen language, the localized value is automatically picked in the PDF output. For example, you can print 'Publisher' as a watermark in English and 'Auteure' in French.  <br> Format: `${lng:<variable name>}`. For example, `$ {lng:publisher-label}` where `publisher-label` is a language variable.|
 |  **Enable MathML equations** | Select this option to render MathML equations present in your content. The equations will be ignored otherwise by default.  |
 |**Create interactive PDF form**|Select this option if you want to include interactive and customizable PDF form fields for enhanced user input in generated PDF outputs. |
 | **Include track changes** | Select this option if you want to include tracked changes in the generated PDF for easy review and comparison.|

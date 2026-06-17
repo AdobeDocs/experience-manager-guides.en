@@ -38,11 +38,11 @@ The New map collection consolidates the functionality previously spread across t
 
 To create a map collection and add maps to it, perform the following steps:
 
-1.  Open the [Experience Manager Guides Home page](./intro-home-page.md#map-collections) and select **New map collections**. 
+1.  Open the Experience Manager Guides Home page and select **New map collections**. 
 
     The **Map collections** page opens.
 
-    ![](images/new-maps-collection.png){width="350"}
+    ![](images/new-maps-collection.png){width="650"}
 
     
 1.  On the **Map collections** page, select **Create** on the top-right, and provide a **Name** for your new map collection.
