@@ -24,7 +24,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
 ---
-# Use New map collection for output generation (Beta){#id1723F20G0HS}
+# Use New map collection for output generation (Beta)
 
 >[!IMPORTANT]
 >
@@ -38,14 +38,14 @@ The New map collection consolidates the functionality previously spread across t
 
 To create a map collection and add maps to it, perform the following steps:
 
-1.  Open the [Experience Manager Guides Home page](./intro-home-page.md#map-collections) and select **New Map collections**. 
+1.  Open the [Experience Manager Guides Home page](./intro-home-page.md#map-collections) and select **New map collections**. 
 
-    The **Map Collections** page opens.
+    The **Map collections** page opens.
 
     ![](images/new-maps-collection.png){width="350"}
 
     
-1.  On the **Map Collections** page, select **Create** on the top-right, and provide a **Name** for your new map collection.
+1.  On the **Map collections** page, select **Create** on the top-right, and provide a **Name** for your new map collection.
 
     ![](images/create-new-map-collection.png){width="350"}
 
@@ -106,8 +106,8 @@ The **Maps and Presets** tab presents information on the basis of the selected m
 
 The following filtering options are available in the right panel on the Maps and presets page:
 
-- **Modified since generation**: You can select Yes, No or Not yet generated. If you select Yes, only the maps that have been modified since generation are shown in the Maps and Presets tab.
-- **Modified since publishing**: You can select Yes, No or Not yet generated. If you select Yes, only the maps that have been modified since publishing are shown in the Maps and Presets tab.
+- **Modified since generation**: You can select Yes, No, or Not yet generated. If you select Yes, only the maps that have been modified since generation are shown in the Maps and Presets tab.
+- **Modified since publishing**: You can select Yes, No, or Not yet generated. If you select Yes, only the maps that have been modified since publishing are shown in the Maps and Presets tab.
 - **Presets**: Select a preset for which you want to filter out the map files. For example, if you choose *AEM Site* preset, then only those maps are shown that have the *AEM Site* output preset configured on them.
 - **Language**: You can select any of the available language codes and display only the selected language in the Maps and Presets tab.
 
