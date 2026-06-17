@@ -68,9 +68,9 @@ Any further changes to references or dependency resolution can occur only after 
 
 Until one of these actions is performed, the migrated baseline continues to reflect the original baseline definition.
 
-## Are reltable references included in the new baseline model?
+## Are `<reltable>` references included in the new baseline model?
 
-No, references originating from **reltable** elements are excluded from baseline resolution, consistent with the behavior of the legacy baseline model.
+No, references originating from `reltable` elements are excluded from baseline resolution, consistent with the behavior of the legacy baseline model.
 
 ## How are DIRECT references handled in New Baseline?
 
