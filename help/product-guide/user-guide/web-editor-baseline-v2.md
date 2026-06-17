@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
 ---
-# New baseline (Beta) in Experience Manager Guides
+# New Baseline (Beta) in Experience Manager Guides
 
 >[!NOTE]
 >

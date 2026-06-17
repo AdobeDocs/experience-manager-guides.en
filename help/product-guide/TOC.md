@@ -308,7 +308,7 @@ breadcrumb-title: AEM Guides Documentation
       - Use Baseline {#work-with-baseline}
         - [Create and manage Baselines from Map console](./user-guide/web-editor-baseline.md)
         - [Create and manage Baselines from the Map dashboard](./user-guide/generate-output-use-baseline-for-publishing.md)
-        - [Create and manage new Baselines from Map console](./user-guide/web-editor-baseline-v2.md)
+        - [Create and manage New Baselines from Map console](./user-guide/web-editor-baseline-v2.md)
         - [New Baseline migration FAQ](./user-guide/new-baseline-migration-faq.md)
       - [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
       - [Use variables for setting the Destination Path, Site Name, or File Name options](./user-guide/generate-output-use-variables.md)
