@@ -40,8 +40,13 @@ After the preset is created, configure the SCORM preset settings. The preset con
 
     ![](assets/scorm-content-tab.png){width="650"}
 
-- **Publish:** Use this setting only if you want to publish the output to SCORM Cloud for direct access.
-  
-    ![](assets/scorm-publish-tab.png){width="650"}
+
+- **Publish to LMS:** Use this setting to publish your content directly to Adobe Learning Manager (ALM). From the **Publish server** dropdown, select **Adobe Learning Manager**, and then choose the required **Publish profile** that was previously configured in Workspace settings. The selected profile is used to establish the connection and upload the generated content to ALM.
+
+  >[!NOTE]
+  >
+  > Before publishing content to ALM, you must configure an Adobe Learning Manager publish profile. For details, view [Publish profiles](../lc-config-guide/lc-folder-profile.md).
+
+    ![](assets/scorm-publish-lms.png){width="650"}
 
 Once all the changes are configured, save the changes for the SCORM preset using **Save** on the right corner of the toolbar of the SCORM preset page.

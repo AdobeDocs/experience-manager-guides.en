@@ -17,27 +17,30 @@ role_v2:
 ---
 # Apply custom style on TOC entries and topic content 
 
-At times, you might want to apply custom styling on the TOC entries or a particular topic. This can be achieved by associating an `outputclass` attribute with the `<topicref>` element in your DITA map. Also, in case you want to apply a custom format to an entire topic, then that can also be achieved by extending the attribute's style definition in the CSS.
+You can apply custom styles to TOC entries, topicheads, or individual topics by using the `outputclass` attribute on supported map elements, such as `<topicref>` and `<topichead>`. To apply custom formatting to an entire topic, extend the style definition of the `outputclass` attribute in your CSS.
 
-Let's take an example of a new topic that you want to send for review. For easy identification of the updated topic, you need to add an `outputclass` attribute to the `<topicref>` element in your DITA map and then define a custom styling for the same in the CSS.
+## Style a topic referenced through `<topicref>`
+
+You can apply an `outputclass` on a `<topicref>` element to style the TOC entry, the topic title, or the full topic content in the generated PDF.
+
+For example, to identify a topic that requires review, add an outputclass attribute to the corresponding `<topicref>` element in your DITA map and define the associated styles in your CSS.
 
 In the following example, the *History of flights* topic has been assigned an `outputclass` attribute with the value of `new-topic`. 
 
 <img src="./assets/new-topic-attribute-in-map.png" width=500>
 
-The class definition of the `new-topic` in a CSS can let you define the style for the following items: 
+The `new-topic` class can be used to define styles for: 
+
 * The main entry in the TOC or mini-TOC
 * The title of the topic in the main content
 * The entire content of the topic, including the title
 
-Let's see how each of these scenarios can be defined in the CSS. In the following CSS definition of the `new-topic` class, the text color has been changed.
+The following CSS definition changes the text color for the TOC entry and the topic title:
 
 ```css
-…
 .new-topic {
-  color: #CC5309
+  color:#CC5309
 }
-…
 ```
 
 This definition controls the color of the text in the TOC and the topic's title. The following PDF output shows the different color applied on the TOC entry:
@@ -54,23 +57,23 @@ If you want the TOC entry and the topic's title to have different styles, then y
 ...
 /*for styling TOC entry */
 .new-topic {
-  color: #CC3509
+  color:#CC3509
 }
 
 /* for styling topic's title */
 .new-topic.title {
-  color: #092ACC
+  color:#092ACC
 }
 ...
 ```
 
-Finally, you can also apply styles on the entire content within the topic. For this, you need to add a suffix "`-content`" to the class name. In the following example, a change bar has been added on the entire content of the topic:
+To apply styles to the entire topic content, append the `-content` suffix to the class name. The following example adds a change bar to the topic content:
 
 ```css
 ...
 /* for styling the topic's content */
 .new-topic-content {
-  -ro-change-bar-color: #A609CC;
+  -ro-change-bar-color:#A609CC;
 }
 ...
 ```
@@ -78,6 +81,46 @@ Finally, you can also apply styles on the entire content within the topic. For t
 Using the above styling attributes, a change bar is added to the left of the *History of flight* topic, as shown below:
 
 <img src="./assets/pdf-output-topic-content.jpg" width=500>
+
+## Apply styles to `topichead` elements
+
+You can use the `outputclass` attribute on a `<topichead>` element to apply different styles to the TOC entry and the heading generated for the `topichead`.
+
+For example, if you define the following `topichead` in your DITA map:
+
+```xml
+<topichead navtitle="Getting Started" outputclass="new-topichead">
+    ...
+</topichead>
+```
+
+The `new-topichead` class is applied to the topichead entry in the TOC and to the heading generated for the topichead.
+
+If you want to apply a different style to the heading, define a separate class for it, similar to how `<topicref>` supports separate styling for the TOC entry and the topic title:
+
+```css
+...
+/* Style for the topichead TOC entry */
+.new-topichead {
+  color: #CC5309;
+}
+
+/* Style for the topichead heading */
+.new-topichead.title {
+  color: #092ACC;
+}...
+```
+
+If you want to style the content associated with the topichead, append the `- content` suffix to the class name:
+
+```css
+.new-topichead-content {
+    border-left: 2px solid #cccccc;
+    padding-left: 8px;
+}
+```
+
+
 
 ## Remove empty rows from the TOC
 

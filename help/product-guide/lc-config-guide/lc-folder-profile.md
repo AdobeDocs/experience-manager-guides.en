@@ -219,6 +219,41 @@ Perform the following steps to create a new output template for the Learning and
 
     ![](assets/scorm-template-added.png){width="350"}
 
+### Configure page layouts for SCORM output templates
+
+SCORM output templates allow you to assign different page layouts to different topic types within a course. This enables you to customize the presentation of lessons, quizzes, overview pages, and other content types in the generated SCORM package.
+
+For example, a lesson page can use a layout that includes a header, content area, and footer, while a quiz page can use a simplified layout without a footer. You can also create dedicated layouts for overview pages or any other topic type and map them accordingly.
+
+Layout assignments are configured at the **Output Template** level. Any SCORM preset that uses the configured output template will apply the selected layout mappings when generating courses.
+Follow the steps below to configure the page layout for the templates:
+
+1. Navigate to **Output templates** and open the required **SCORM output template**.
+
+2. Select the **Settings** tab.
+
+3. In the **Page layouts** window, locate the available topic types.
+
+    ![](assets/page-layout-scorm.png){width="650"}
+
+4. For each topic type, select the page layout to be used during course generation.
+
+   **Example:**
+   - **Default Page Layout**: Lesson
+   - **Quiz**: Quiz
+   - **Overview**: Lesson
+
+5. To use a new layout, create the required page layout within the output template using the **New Page Layout** option from the context menu from the **Output templates** panel.
+
+    ![](assets/new-page-layout-scorm.png){width="650"}
+
+6. Return to the **Settings** tab and assign the newly created layout to the appropriate topic type.
+
+7. Save the Page Layout for output template using the Save icon on the right corner of Tab bar .
+
+
+When a course is generated using a SCORM preset that uses the configured output template, each topic is rendered using the layout assigned to its topic type. This allows different content types within the same course to have customized page structures and visual presentation.    
+
 ### Remove or reorder templates 
 
 Once added, you can remove or reorder the templates from the Settings panel.  
@@ -252,10 +287,10 @@ The Output presets tab allows you to define which output formats are available f
 
 ## Manage Publish profiles 
 
-This section allows you to view, create, and manage publish profiles used for publishing courses to SCORM Cloud. Each profile defines the connection settings and configuration details required to publish a learning course to a specific SCORM Cloud environment.  
+This section allows you to view, create, and manage publish profiles used for publishing courses to SCORM Cloud or Adobe Learning Manager (ALM). Each profile defines the connection settings and configuration details required to publish a learning course to a selected publishing server.
 
-You can create multiple profiles if you need to publish to different SCORM Cloud accounts, ensuring flexibility and control over your publishing process. 
+You can create multiple profiles to publish content to different SCORM Cloud accounts or ALM instances, providing flexibility and control over your publishing workflow.
 
-Provide the server details along with the Client ID and Client secret of the associated SCORM cloud application to configure the Publish profile for SCORM cloud. 
+To configure a publish profile, select the desired publish server (SCORM Cloud or Adobe Learning Manager) and provide the required connection details. For SCORM Cloud, enter the server information along with the Client ID and Client Secret of the associated SCORM Cloud application. For Adobe Learning Manager, provide the corresponding server and authentication details required for your ALM environment. 
 
 ![](assets/configure-publish-profiles.png){width="350"}

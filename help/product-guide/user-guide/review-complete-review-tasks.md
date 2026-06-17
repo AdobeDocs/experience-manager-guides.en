@@ -56,6 +56,17 @@ Based on the feedback, if the Author or initiator of the task decides to [close 
 
 ![](images/review-status-closed-review-ui.png){width="350"}
 
+>[!NOTE]
+>
+>By default, when a reviewer marks a review task as **Complete**, the task remains in the reviewer's AEM Inbox until the author or task initiator reviews the feedback and closes the review task.
+>
+>However, you can choose to enable task synchronization between the Review UI and the AEM Inbox. When this feature is enabled, marking a review task as **Complete** in the Review UI automatically completes the corresponding task and removes it from the reviewer's AEM Inbox. Similarly, completing a task from the AEM Inbox automatically marks it as complete in the Review UI.
+>
+>The author or task initiator can still review the feedback and reassign the task if additional review is required. When a task is reassigned, a new AEM Inbox notification is generated for the reviewer, allowing the task to be reviewed again.
+>
+>To enable this feature in your environment, contact your Customer Success team.
+
+
 ## View task-level comments
 
 All task-level comments are displayed in the **Tasks comments** dialog, which is available in the read-only mode. When you complete a review task with a final comment, your input is recorded in this dialog for future reference.
