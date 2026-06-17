@@ -32,7 +32,7 @@ For example, text in generated PDFs may appear slightly different due to updates
 
 Learn how to [enable Native PDF engine v2](../native-pdf/conf-new-pdf-engine.md) in your environment. 
 
-For information about enabling **Native PDF engine v2** and reviewing migration considerations, view [Work with the Native PDF engine v2](../native-pdf/new-pdf-engine.md).
+For information on **Native PDF engine v2**, view [Work with the Native PDF engine v2](../native-pdf/new-pdf-engine.md).
 
 
 ## Editor enhancements 
@@ -62,7 +62,7 @@ Authors can continue using configured external data sources while creating or up
 
 You can now keep review task completion in sync between the Review UI and the AEM Inbox. When this feature is enabled, completing a task in the Review UI removes it from the AEM Inbox, and completing it from the AEM Inbox marks it as completed in the Review UI. This helps avoid completing the same task twice and makes the review workflow smoother. Authors and task initiators can continue to review feedback and reassign tasks when additional review is required. When a task is reassigned, a new AEM Inbox notification is generated for the reviewer, allowing the review cycle to continue seamlessly.
 
-For more details, view [Review topics](../user-guide/review-topics.md). 
+For more details, view [Complete the review task as a Reviewer](../user-guide/review-complete-review-tasks.md). 
 
 ## Learning content enhancements
 

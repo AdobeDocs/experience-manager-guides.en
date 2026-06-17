@@ -11,8 +11,8 @@ level: Experienced
 
 The new publishing engine for Native PDF i.e _Native PDF engine v2_ provides updated PDF rendering capabilities and fixes for _Native PDF engine v1_ issues.
 
-Use the instructions given in Configuration overrides to create the configuration file. In the configuration file, provide the following (property) details:
+Use the instructions given in [Configuration overrides](../install-conf-guide/download-install-config-override.md) to create the configuration file. In the configuration file, provide the following (property) details:
 
 | PID | Property Key | Property Value |
 |-----|--------------|----------------|
-| `com.adobe.fmdita.publish.config.GuidesPublishConfiguratorService` | `guides.publish.config` | `{"PDF_ENGINE": "v2"}` |
+| `com.adobe.fmdita.publish.config.GuidesPublishConfiguratorService` | `guides.publish.config` | `{"PDF_ENGINE": "v2"}` <br> Default value: `v1`|
