@@ -114,7 +114,7 @@ The following filtering options are available in the right panel on the Maps and
     ![Filters in Maps and presets tabs](./images/filters-maps-presets.png)
 
 
-## Generate the output using a Map Collection 
+## Generate the output using a map collection 
 
 To generate the output using a Map Collection, perform the following steps:
 
@@ -150,7 +150,7 @@ To generate the output using a Map Collection, perform the following steps:
     ![icons](./images/hovering-icon.png)
 
 
-## Publish the output using a Map Collection   
+## Publish the output using a map collection   
 
 To publish (if configured) the output using a Map Collection, perform the following steps:
 

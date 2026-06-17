@@ -78,7 +78,7 @@ Learn about [upgrade instructions for the 2026.06.0 release](upgrade-instruction
 - When editing an active review task, if a topic that is already part of the review is removed and then re-added without selecting **Update**, the reviewer information for that topic is lost. (GUIDES-38774)
 - The content pane in the Review UI displays a horizontal scrollbar on certain screen resolutions, including the recommended 1600px resolution, causing review comments to be hidden when the content extends beyond the pane width. (GUIDES-44082)
 
-## Learning
+## Learning content
 
 - When adding questions to a quiz using the Insert from question bank option, short answer questions are not listed despite having a valid Question ID. (GUIDES-44942)
 - When inserting questions using the Insert from question bank option, the Insert from Question Bank dialog flickers or resizes unexpectedly upon opening. (GUIDES-45524)
