@@ -516,7 +516,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Overlay HTML tags in AEM Sites output for On-Premise](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
         - [Configure valid file names for AEM Site output](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
       - Native PDF Publishing {#config-native-pdf-publish}
-        - {hide-from-toc} [Native PDF Publishing templates and content styles](./install-conf-guide/template-content-styles.md)
+        - [Native PDF Publishing templates and content styles](./install-conf-guide/template-content-styles.md)
         - [PDF Template](./native-pdf/pdf-template.md)
         - [Components of a PDF Template](./native-pdf/components-pdf-template.md)
         - [Design a page layout](./native-pdf/design-page-layout.md)
