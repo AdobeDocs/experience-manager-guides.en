@@ -8,9 +8,9 @@ exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
 ---
 # Configure global or folder-level profiles {#id181AH2003PF}
 
-In an enterprise, different groups or products may use different authoring templates, output templates, conditional attribute profiles \(or subject schemes\), and Web Editor configurations. Configuring these only at an enterprise \(or global\) level can make authors experience difficult, as they will see templates or profiles that are not relevant to them.
+In an enterprise, different groups or products may use different authoring templates, output templates, conditional attribute profiles \(or subject schemes\), and Editor configurations. Configuring these only at an enterprise \(or global\) level can make authors experience difficult, as they will see templates or profiles that are not relevant to them.
 
-AEM Guides allows you to configure authoring \(topic or map\) templates, output templates, conditional attribute, and Web Editor configurations at an enterprise \(global\) level as well as at a folder level. This way, you can segregate the configurations for different departments or products in your enterprise.
+AEM Guides allows you to configure authoring \(topic or map\) templates, output templates, conditional attribute, and Editor configurations at an enterprise \(global\) level as well as at a folder level. This way, you can segregate the configurations for different departments or products in your enterprise.
 
 Also, you can delegate the folder-specific configurations to a department or product administrators to decentralize the administration.
 
@@ -64,7 +64,7 @@ Using the Folder Profiles tile in the Guides settings, you can configure setting
 
     Publishers can use these out-of-the-box output presets to publish content. These presets can be configured by an administrator of the global or folder-level profile. Once configured, the publishing presets become available to the publishers for newly created DITA maps. You can also apply publishing presets to existing DITA maps, see [Apply preset changes](#id18AGD0K0OHS) for more details.
 
--   **XML Editor Configurations**: Use this tab to customize the look-and-feel and various features of the Web Editor. The following configurable settings are available for the Web Editor:
+-   **XML Editor Configurations**: Use this tab to customize the look-and-feel and various features of the Editor. The following configurable settings are available for the Editor:
 
     -   XML Editor UI Configuration
     -   XML Editor Page Layout only for Cloud Service
@@ -190,7 +190,7 @@ Perform the following steps to configure standard DITA-supported conditional att
 
 1.  Enter the **Name**, **Value**, and a **Label** for the conditional attribute.
 
-    You can save a profile with only the attribute name. However, an attribute can only be used when it has a value specified to it. If you specify both - value and label for an attribute, the Web Editor shows the label of the conditional attribute. Also, the label is shown to the publishing administrator at the time of creating a conditional preset.
+    You can save a profile with only the attribute name. However, an attribute can only be used when it has a value specified to it. If you specify both - value and label for an attribute, the Editor shows the label of the conditional attribute. Also, the label is shown to the publishing administrator at the time of creating a conditional preset.
 
     The following screenshot shows the definition for the `platform` attribute with possible values and labels.
 
@@ -298,7 +298,7 @@ Perform the following steps to add the topic, map, or PDF templates into a folde
 
     >[!NOTE]
     >
-    > By default, all templates are stored in the /content/dam/dita-templates folder. The `dita-templates` folder contains `topics`, `maps`, and `PDF` sub-folders to store the topic, map, and PDF templates. You can add your custom templates \(.dita,.xml, or .ditamapfiles\) in the default template folders. Once you add your template in the default folder, you will be able to add them in the global or folder profile. For more information about creating custom templates using the Web Editor, see [Create custom authoring template](#id1917D0EG0HJ).
+    > By default, all templates are stored in the /content/dam/dita-templates folder. The `dita-templates` folder contains `topics`, `maps`, and `PDF` sub-folders to store the topic, map, and PDF templates. You can add your custom templates \(.dita,.xml, or .ditamapfiles\) in the default template folders. Once you add your template in the default folder, you will be able to add them in the global or folder profile. For more information about creating custom templates using the Editor, see [Create custom authoring template](#id1917D0EG0HJ).
 
     ![](assets/search-author-temp.png){width="800"}
 
@@ -360,7 +360,7 @@ Perform the following steps to add the topic or map templates into a folder prof
 
     >[!NOTE]
     >
-    > By default, all authoring templates are stored in the /content/dam/dita-templates folder. The `dita-templates` folder contains `topics` and `maps` sub-folders to store the topic and map templates. You can add your custom templates \(.dita,.xml, or .ditamapfiles\) in the default template folders. Once you add your template in the default folder, you will be able to add them in the global or folder profile. For more information about creating custom templates using the Web Editor, see [Create custom authoring template](#id1917D0EG0HJ).
+    > By default, all authoring templates are stored in the /content/dam/dita-templates folder. The `dita-templates` folder contains `topics` and `maps` sub-folders to store the topic and map templates. You can add your custom templates \(.dita,.xml, or .ditamapfiles\) in the default template folders. Once you add your template in the default folder, you will be able to add them in the global or folder profile. For more information about creating custom templates using the Editor, see [Create custom authoring template](#id1917D0EG0HJ).
 
     ![](assets/search-author-temp.png){width="550"}
 
@@ -394,7 +394,7 @@ In case you have configured the templates on a folder-level profile, the configu
 
 ## Create custom authoring template {#id1917D0EG0HJ}
 
-AEM Guides provides an easy way of creating authoring templates. As a system administrator, you can use the Web Editor to create authoring templates from scratch. You can then add the new template in the global profile or assign it to a specific folder using the folder-specific profile.
+AEM Guides provides an easy way of creating authoring templates. As a system administrator, you can use the Editor to create authoring templates from scratch. You can then add the new template in the global profile or assign it to a specific folder using the folder-specific profile.
 
 Perform the following steps to create a custom authoring template:
 
@@ -428,7 +428,7 @@ Perform the following steps to create a custom authoring template:
 
     The Topic Created message appears.
 
-    You can choose to open the template for editing in the Web Editor, or save the template file in the template store location. Once the template is created, you can use the Web Editor to customize the template as per your authoring needs. Once a template is in place, ensure that you associate it either with a global or folder-level profile.
+    You can choose to open the template for editing in the Editor, or save the template file in the template store location. Once the template is created, you can use the Editor to customize the template as per your authoring needs. Once a template is in place, ensure that you associate it either with a global or folder-level profile.
 
 
 ## Configure output presets {#id18AGD0IH0Y4}
@@ -562,7 +562,7 @@ Perform the following steps to configure standard AI configuration at the global
     >
     > The last indexed status of the folder profile is displayed on the top after you save the file. 
 
-Learn more about how to view and add [AI-based smart suggestions](../user-guide/authoring-ai-based-smart-suggestions.md) to add content references while authoring in the Web Editor.
+Learn more about how to view and add [AI-based smart suggestions](../user-guide/authoring-ai-based-smart-suggestions.md) to add content references while authoring in the Editor.
 
 ### Folder profile restrictions
 
@@ -676,19 +676,19 @@ This setting controls the toolbar and the other user interface elements of the E
 
 >[!TAB On-Premise]
 
-This setting controls the toolbar and the other user interface elements of the Web Editor. Click the **Download** icon to download the latest ui\_config.json file on your local system. You can then make changes to the file and the upload the same. Click the **Download Default**icon to download the default ui\_config.json file on your local system. You can always download the default file, make changes to it, and upload it.Depending upon where you are uploading the file at, global or folder-level profile, the changes are applied accordingly. For more details about how to customize the XML Editor using the ui\_config.json file, see [Customize toolbar](customize-toolbar.md#).
+This setting controls the toolbar and the other user interface elements of the Editor. Click the **Download** icon to download the latest ui\_config.json file on your local system. You can then make changes to the file and the upload the same. Click the **Download Default**icon to download the default ui\_config.json file on your local system. You can always download the default file, make changes to it, and upload it.Depending upon where you are uploading the file at, global or folder-level profile, the changes are applied accordingly. For more details about how to customize the XML Editor using the ui\_config.json file, see [Customize toolbar](customize-toolbar.md#).
 
 >[!ENDTABS]
 
 **CSS Template Layout**
 
-Download the file available in this section to customize the look-and-feel of your document when it is previewed or opened for editing in the Web Editor. The default CSS file available for download is only a test file, which should not be used for customization. You can create a CSS file with customizations for the Web Editor and upload the same. For example, you can create a .css file with the following code:
+Download the file available in this section to customize the look-and-feel of your document when it is previewed or opened for editing in the Editor. The default CSS file available for download is only a test file, which should not be used for customization. You can create a CSS file with customizations for the Editor and upload the same. For example, you can create a .css file with the following code:
 
 ```
 .title {    font-size: 9em;}
 ```
 
-Save this file and upload it in the CSS Template Layout section. The next time you download the file, you will get the latest CSS file being used in the Web Editor.
+Save this file and upload it in the CSS Template Layout section. The next time you download the file, you will get the latest CSS file being used in the Editor.
 
 **XML Editor Snippets**
 
@@ -739,7 +739,7 @@ In the above example, the "label1" is the identifier for the label sequence and 
 
 >[!IMPORTANT]
 >
-> For folder-level configurations to take effect, users would need to select the profile under their User Preferences in the Web Editor.
+> For folder-level configurations to take effect, users would need to select the profile under their User Preferences in the Editor.
 
 **Rootmap**
 

@@ -1,18 +1,18 @@
 ---
-title: Configure Translation feature in the Web Editor
-description: Learn how to Configure Translation feature in the Web Editor
+title: Configure Translation feature in the Editor
+description: Learn how to Configure Translation feature in the Editor
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 22d7e1c7-2059-43fb-b7aa-3ae4a6072678
 ---
-# Configure Translation feature in the Web Editor for Cloud Service
+# Configure Translation feature in the Editor for Cloud Service
 
-The Web editor provides a powerful translation feature to translate your content into multiple languages.
+The Editor provides a powerful translation feature to translate your content into multiple languages.
 
-You can use the **Manage** tab in the Web Editor to translate your content. This tab is available by default.
+You can use the **Manage** tab in the Editor to translate your content. This tab is available by default.
 
-To hide the **Manage** tab in the Web Editor, perform the following steps:
+To hide the **Manage** tab in the Editor, perform the following steps:
 
 1.  Log into **Adobe Experience Manager** as an administrator.
 1.  Click on the **Adobe Experience Manager** link at the top and choose **Tools**.
@@ -42,4 +42,4 @@ To hide the **Manage** tab in the Web Editor, perform the following steps:
 
 Note that the **Manage** filter is no longer available.
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)

@@ -85,4 +85,4 @@ With this configuration, every reference file that you add to a map will contain
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)

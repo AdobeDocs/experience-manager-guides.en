@@ -1,6 +1,6 @@
 ---
 title: Author web-based content
-description: Learn how to author structured content using the web editor.
+description: Learn how to author structured content using the Editor.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
 feature: Web Editor, Troubleshooting
 role: User, Admin
@@ -37,11 +37,11 @@ topic_v2:
 ---
 # Author web-based content
 
-AEM Guides comes with a built-in web editor for authoring structured content. You can work with a simplified web-based authoring experience but yet choose to use or enable powerful capabilities like conditional content validation, spell check, content reuse, reference validation, friendly names, and author math equations.
+AEM Guides comes with a built-in Editor for authoring structured content. You can work with a simplified web-based authoring experience but yet choose to use or enable powerful capabilities like conditional content validation, spell check, content reuse, reference validation, friendly names, and author math equations.
 
 ## Session overview
 
-In this session, you learn how to create, publish, and manage content using the web editor.
+In this session, you learn how to create, publish, and manage content using the Editor.
 
 ## Session recording
 

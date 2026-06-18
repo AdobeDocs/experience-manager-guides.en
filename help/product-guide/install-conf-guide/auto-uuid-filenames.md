@@ -25,7 +25,7 @@ Use the instructions given in [Configuration overrides](download-install-config-
 
 >[!NOTE]
 >
-> When this option is turned on, authors will not see the option to specify the file name while creating a new topic or map file. A new topic or map file can be created from the Assets UI and the Web Editor.
+> When this option is turned on, authors will not see the option to specify the file name while creating a new topic or map file. A new topic or map file can be created from the Assets UI and the Editor.
 
 >[!TAB On-Premise]
 
@@ -48,6 +48,6 @@ Perform the following steps to automatically assign the UUID-based file name for
 
 >[!NOTE]
 >
-> By default, this option is turned OFF. When this option is turned on, authors will not see the option to specify the file name while creating a new topic or map file. A new topic or map file can be created from the Assets UI and the Web Editor.
+> By default, this option is turned OFF. When this option is turned on, authors will not see the option to specify the file name while creating a new topic or map file. A new topic or map file can be created from the Assets UI and the Editor.
 
 >[!ENDTABS]

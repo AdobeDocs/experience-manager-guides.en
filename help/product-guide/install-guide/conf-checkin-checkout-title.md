@@ -25,7 +25,7 @@ role_v2:
 ---
 # Configure the title for Check in and Check out icons
 
-AEM Guides allows you to configure the title for Check in and Check out icons in the Web Editor. Perform the following steps to configure the title for Check in and Check out icons:
+AEM Guides allows you to configure the title for Check in and Check out icons in the Editor. Perform the following steps to configure the title for Check in and Check out icons:
 
 1.  Download the UI configuration file by logging into Adobe Experience Manager as an administrator.
 1.  Click on the Adobe Experience Manager link at the top and choose **Tools**.

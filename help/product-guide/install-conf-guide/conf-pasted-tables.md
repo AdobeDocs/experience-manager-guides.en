@@ -1,5 +1,5 @@
 ---
-title: Customize Web Editor
+title: Customize Editor
 description: Learn how to customize the display of pasted tables in Editor
 feature: Web Editor Configuration
 role: Admin

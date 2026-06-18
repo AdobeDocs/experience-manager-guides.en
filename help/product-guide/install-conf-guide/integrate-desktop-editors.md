@@ -8,9 +8,9 @@ exl-id: d63a6b8d-263b-4524-b24c-1127aa69ccb9
 ---
 # Integrate desktop-based XML editors 
 
-There are a lot of XML editors available on the market, and you could be using one already. Adobe FrameMaker is one of the most powerful XML editors, which comes with AEM connector. Using the AEM connector in FrameMaker, you can easily connect with the AEM repository, check-out and check-in files, and edit files directly in FrameMaker. You can also configure Experience Manager Guides to launch FrameMaker from the Web Editor. Once you have the file opened in FrameMaker, you can edit and check the file back into the AEM repository.
+There are a lot of XML editors available on the market, and you could be using one already. Adobe FrameMaker is one of the most powerful XML editors, which comes with AEM connector. Using the AEM connector in FrameMaker, you can easily connect with the AEM repository, check-out and check-in files, and edit files directly in FrameMaker. You can also configure Experience Manager Guides to launch FrameMaker from the Editor. Once you have the file opened in FrameMaker, you can edit and check the file back into the AEM repository.
 
-## Enable file editing in FrameMaker from the Web Editor 
+## Enable file editing in FrameMaker from the Editor 
 
 You can use FrameMaker or any other DITA editor to create and update DITA content. However, if your organization uses FrameMaker as DITA editor, then you can give your users an option to open DITA documents directly in FrameMaker from AEM.
 

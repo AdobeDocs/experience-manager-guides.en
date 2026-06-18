@@ -51,6 +51,6 @@ To enable the old PDF generation via the DITA-OT from the topic preview mode, pe
 
 1.  Save the file and upload it.
 
-After performing the above given steps, if you choose the same folder profile from User Preferences in the Web Editor, you will then see the option for PDF generation in the preview mode of a topic.
+After performing the above given steps, if you choose the same folder profile from User Preferences in the Editor, you will then see the option for PDF generation in the preview mode of a topic.
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)

@@ -8,9 +8,9 @@ exl-id: 6b1b5894-0d55-4230-83cf-6b219e969116
 ---
 # Configure prompt to check in a file on close {#id222HC040PE8}
 
-When the user tries to close a file that is opened in the Web Editor using the **Close** button on the file's tab or the **Close** option in the Options menu, a dialog appears if the file has unsaved data or an unsaved version. The user is prompted to unlock the file if it is locked.
+When the user tries to close a file that is opened in the Editor using the **Close** button on the file's tab or the **Close** option in the Options menu, a dialog appears if the file has unsaved data or an unsaved version. The user is prompted to unlock the file if it is locked.
 
-The following tabs provide instructions to configure prompt to check in a file on close option by default in the Web Editor based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+The following tabs provide instructions to configure prompt to check in a file on close option by default in the Editor based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 
@@ -30,7 +30,7 @@ For more details, see *File close and save scenarios* section in the Using Adobe
 
 >[!NOTE]
 >
->The **Unlock the File** checkbox is not enabled by default and you need to enable this from the configMgr. Perform the following steps to enable the option by default in the Web Editor:
+>The **Unlock the File** checkbox is not enabled by default and you need to enable this from the configMgr. Perform the following steps to enable the option by default in the Editor:
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
@@ -53,4 +53,4 @@ For more details, see *File close and save scenarios* section in the Using Adobe
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)

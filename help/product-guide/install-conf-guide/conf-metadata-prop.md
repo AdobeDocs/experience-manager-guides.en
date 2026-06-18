@@ -65,4 +65,4 @@ AEM Guides includes a default set of metadata properties in the ignore list. You
 
 Only the metadata properties that are not included in the ignore list are considered for marking a document's version dirty. 
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)

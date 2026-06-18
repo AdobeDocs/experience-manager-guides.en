@@ -88,7 +88,7 @@ Native PDF publishing engine needs Oracle JDK to generate the node modules in th
 10. Click 'OK' again on Environment variables dialog.
 11. Click 'OK' again on System Properties dialog.
 12. Now, start the AEM server.
-13. Generate native PDF from presets in web editor.
+13. Generate native PDF from presets in editor.
 
 ## Configuration steps for Linux Server (RHEL7/centOS 7)
 
@@ -127,7 +127,7 @@ Native PDF publishing engine needs Oracle JDK to generate the node modules in th
 
 11. Install fontconfig package.
     Command: yum install fontconfig
-12. Generate native PDF from presets in web editor.
+12. Generate native PDF from presets in editor.
 
 **NOTE** : node_modules.zip package can be downloaded [here](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
@@ -175,7 +175,7 @@ Manually importing the downloaded node modules for the Linux operating system is
 9. Install fontconfig package.
    Command: apt install fontconfig
 
-10. Generate native PDF from presets in web editor.
+10. Generate native PDF from presets in editor.
 
 ## Troubleshooting
 

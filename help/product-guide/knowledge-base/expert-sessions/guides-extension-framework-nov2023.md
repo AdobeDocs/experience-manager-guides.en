@@ -50,7 +50,7 @@ In this session, you learnt about following:
 - Understand what all interfaces can be extended using this extension framework
 - Understanding what is already available for you to easily start creating your own custom features
 - Learnt customization by taking examples:  
-    - Adding Help and support section in web editor
+    - Adding Help and support section in Editor
     - Adding one more left panel - say to view current user's tasks
     - Adding one more toolbar button for topic/map using this framework
     - Extending information shown in content properties panel in webeditor - adding post processing information to indicate if post processing is done on given file or not 

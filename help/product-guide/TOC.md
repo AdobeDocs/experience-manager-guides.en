@@ -468,7 +468,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure display of UUID-based links](./install-conf-guide/conf-uuid-based-links.md)
       - [Open DITA topic or map files in same tab](./install-conf-guide/open-dita-files-same-tab.md)
       - [Set the Advanced Map Editor as default](./install-conf-guide/conf-default-map-editor.md) 
-      - [Configure file auto-save in the Web Editor](./install-conf-guide/conf-auto-save-in-editor.md)
+      - [Configure file auto-save in the Editor](./install-conf-guide/conf-auto-save-in-editor.md)
       - [Configure prompt to save as a new version on close](./install-conf-guide/conf-save-as-new-version-close.md)
       - [Configure prompt to check in a file on close](./install-conf-guide/conf-checkin-file-close.md)
       - [Configure allowed special characters](./install-conf-guide/conf-special-chars.md)
@@ -483,7 +483,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Configure the option to edit in Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
           - [Configure display of pasted tables for Cloud Service](./install-conf-guide/conf-pasted-tables.md) 
           - [Configure single topic PDF generation for Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-          - [Configure Translation feature in the Web Editor for Cloud Service](./install-conf-guide/conf-translation-editor.md)          
+          - [Configure Translation feature in the Editor for Cloud Service](./install-conf-guide/conf-translation-editor.md)          
       - Editor setting for On-Premise {#editor-on-prem-settings}
           - [Configure New Editor](./install-conf-guide/conf-new-editor-on-prem.md)
           - [Configure additional special characters for On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
@@ -594,12 +594,12 @@ breadcrumb-title: AEM Guides Documentation
     - [Content Review in AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
   - Articles {#kb-articles}
     - Authoring {#authoring}
-      - Web Editor {#webeditor}
+      - Editor {#webeditor}
         - [Content re-usability in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
         - [Use Markdown in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
         - Customizing {#customizing}
           - [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-          - [Add custom styles to Web Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+          - [Add custom styles to Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
           - [Customize Folder ContextMenu](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
           - [Customize File ContextMenu](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
         - Schematron {#schematron}

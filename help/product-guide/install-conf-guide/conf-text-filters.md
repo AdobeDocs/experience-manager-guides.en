@@ -8,7 +8,7 @@ exl-id: 08502168-a995-44bc-9ce3-c3e562714c06
 ---
 # Configure text filters {#id21BPD0FK0XA}
 
-AEM Guides provides the feature to search for text in the files present on the selected path of the AEM repository. You can use filter search to search files from the repository panel or to browse files. While working in the Web Editor, you need to use the file browse dialog to insert elements like image, reference, or key reference.
+AEM Guides provides the feature to search for text in the files present on the selected path of the AEM repository. You can use filter search to search files from the repository panel or to browse files. While working in the Editor, you need to use the file browse dialog to insert elements like image, reference, or key reference.
 
 By default, you can use some enhanced filters to search the files in the AEM repository. You can filter all DITA Files or Non-DITA Files present on the selected path. You can also search for specific values in the attributes of DITA elements. You can also look for files which are checked out by the specified user.
 
@@ -160,4 +160,4 @@ The configured filters are available in the filters panel.
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)

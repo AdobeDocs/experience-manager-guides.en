@@ -5,7 +5,7 @@ exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
 ---
 # Configure the AI-powered Smart Help to search content for Cloud Service
 
-As an administrator, you can configure the Smart Help feature for the authors. The Smart Help service is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe's secure token-based authentication workflows and start using the new Smart Help feature. The following configurations help you to add the **AI configuration** tab to a folder profile. Once added, you can use the Smart Help feature in the Web Editor.
+As an administrator, you can configure the Smart Help feature for the authors. The Smart Help service is secured by Adobe IMS auth-based authentication. Integrate your environment with Adobe's secure token-based authentication workflows and start using the new Smart Help feature. The following configurations help you to add the **AI configuration** tab to a folder profile. Once added, you can use the Smart Help feature in the Editor.
 
 ## Create IMS configurations in Adobe Developer Console
 
@@ -100,5 +100,5 @@ Once this is done, you should be able to use the **Smart Help** feature.
 ```
 
 
-Once you have configured, the **Smart Help** ![Smart Help](assets/smart-help-icon.svg) icon is displayed in the right panel of the Web Editor. Select the icon to view the **Smart Help** panel. 
+Once you have configured, the **Smart Help** ![Smart Help](assets/smart-help-icon.svg) icon is displayed in the right panel of the Editor. Select the icon to view the **Smart Help** panel. 
 For more details, view the [AI-powered Smart Help to search content](../user-guide/ai-based-smart-help.md) section in the Experience Manager User Guide.

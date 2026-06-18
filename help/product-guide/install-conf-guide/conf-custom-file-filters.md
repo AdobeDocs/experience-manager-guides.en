@@ -8,7 +8,7 @@ exl-id: 62195863-cbab-4c53-9cf0-b4a8d26d44f2
 ---
 # Configure filters for file browse dialog
 
-While working in the Web Editor, you need to use the file browse dialog to insert elements like image, reference, or key reference. The default file browse dialog does not offer any file filtering option. You can add your own filters that would allow you to access the required files easily and quickly.
+While working in the Editor, you need to use the file browse dialog to insert elements like image, reference, or key reference. The default file browse dialog does not offer any file filtering option. You can add your own filters that would allow you to access the required files easily and quickly.
 
 The following tabs provide instructions to add your custom file filtering options to the file browse dialog based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
@@ -59,7 +59,7 @@ The following tabs provide instructions to add your custom file filtering option
 
     The second filter is for Image Files. The parameters are similar to the first filter except the `value` parameter. The `value` parameter takes an array of image types as its value. All file types specified in the value parameter are searched for and shown in the file browse dialog, all other file types are ignored.
 
-1.  Save the *ui\_config.json* file and upload the same. Then, reload the Web Editor.
+1.  Save the *ui\_config.json* file and upload the same. Then, reload the Editor.
 
     When you launch the file browse dialog, the filter options configured in the ui\_config.json file are shown.
 
@@ -112,7 +112,7 @@ The following tabs provide instructions to add your custom file filtering option
 
     The second filter is for Image Files. The parameters are similar to the first filter except the `value` parameter. The `value` parameter takes an array of image types as its value. All file types specified in the value parameter are searched for and shown in the file browse dialog, all other file types are ignored.
 
-1.  Save the *ui\_config.json* file and reload the Web Editor.
+1.  Save the *ui\_config.json* file and reload the Editor.
 
     When you launch the file browse dialog, the filter options configured in the ui\_config.json file are shown.
 
@@ -121,4 +121,4 @@ The following tabs provide instructions to add your custom file filtering option
 >[!ENDTABS]
 
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)

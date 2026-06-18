@@ -52,4 +52,4 @@ This setting impacts the following places from where you can access the topic or
 
 -   Reports tab in the DITA map console
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)

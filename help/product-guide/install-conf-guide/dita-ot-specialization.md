@@ -203,7 +203,7 @@ You can use the Profile feature to store custom DITA specialization settings. Th
 
 >[!NOTE]
 >
-> AEM Guides Web Editor does not have support for XSDs.
+> AEM Guides Editor does not have support for XSDs.
 
 The following tabs provide instructions to integrate DITA specialization based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 

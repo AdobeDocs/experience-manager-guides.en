@@ -1,6 +1,6 @@
 ---
-title: Configure file auto-save in the Web Editor
-description: Learn how to Configure file auto-save in the Web Editor
+title: Configure file auto-save in the Editor
+description: Learn how to Configure file auto-save in the Editor
 exl-id: 23fe404c-c76d-43ba-9b28-c49ab1e524de
 feature: Web Editor Configuration
 role: Admin
@@ -21,11 +21,11 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 ---
-# Configure file auto-save in the Web Editor {#id199CC0J0M5Z}
+# Configure file auto-save in the Editor {#id199CC0J0M5Z}
 
-One of the most common features in the browser-based editor it the ability to save data after a specific period of time. The AEM Guides' Web Editor also supports auto-saving of topic and map files at the specified time interval. When this feature is triggered, the working copy of the topic or map is saved. A new version of the topic or map is not created. To create a new version, you have to click the Save Revision icon in the Web Editor's toolbar.
+One of the most common features in the browser-based editor it the ability to save data after a specific period of time. The AEM Guides' Editor also supports auto-saving of topic and map files at the specified time interval. When this feature is triggered, the working copy of the topic or map is saved. A new version of the topic or map is not created. To create a new version, you have to click the Save Revision icon in the Editor's toolbar.
 
-The auto-save feature is not enabled by default and you need to enable this from the configMgr. Perform the following steps to enable the auto-save feature in the Web Editor:
+The auto-save feature is not enabled by default and you need to enable this from the configMgr. Perform the following steps to enable the auto-save feature in the Editor:
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
@@ -44,4 +44,4 @@ The auto-save feature is not enabled by default and you need to enable this from
 1.  Click **Save**.
 
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Editor](conf-web-editor.md)

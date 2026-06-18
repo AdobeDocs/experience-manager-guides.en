@@ -8,7 +8,7 @@ exl-id: 24e47af6-8d81-4994-8d97-474f5029392b
 ---
 # Install packages for Article-based publishing {#id21BNL02052Z}
 
-AEM Guides provides a powerful article-based publishing feature integrated with the Web Editor. Using this feature, you can publish one or more topics simultaneously. Once you have opened a map in the Map Editor, you can navigate to the Outputs tab to create a preset, and then choose one or more topics to generate the output. You can use the article-based publishing feature to incrementally generate output of one or more topics or publish your content to a knowledge base platform in an article-by-article fashion. For more details see, *Article-based publishing from the Web Editor section* in the User guide.
+AEM Guides provides a powerful article-based publishing feature integrated with the Editor. Using this feature, you can publish one or more topics simultaneously. Once you have opened a map in the Map Editor, you can navigate to the Outputs tab to create a preset, and then choose one or more topics to generate the output. You can use the article-based publishing feature to incrementally generate output of one or more topics or publish your content to a knowledge base platform in an article-by-article fashion. For more details see, *Article-based publishing from the Editor section* in the User guide.
 
 The following tabs provide instructions to create an AEM site for publishing article-based output based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
@@ -38,11 +38,11 @@ The following tabs provide instructions to create an AEM site for publishing art
     > You can create multiple AEM sites using the same template.
 
 
-You can use the AEM site to publish your article using the output presets from the Web Editor.
+You can use the AEM site to publish your article using the output presets from the Editor.
 
 >[!TAB On-Premise]
 
-To enable article-based publishing, download and install the following packages from your Adobe Software Distribution Portal. Install them to create a Tragopan site. \(Tragopan site is a sample knowledge base AEM site with templates for a category, section, and article pages.\) Update the Tragopan site to generate the AEM site output using the output presets from the Web Editor.
+To enable article-based publishing, download and install the following packages from your Adobe Software Distribution Portal. Install them to create a Tragopan site. \(Tragopan site is a sample knowledge base AEM site with templates for a category, section, and article pages.\) Update the Tragopan site to generate the AEM site output using the output presets from the Editor.
 
 -   Knowledge base template for Article-based publishing
 -   Components package for Article-based publishing
@@ -50,4 +50,4 @@ To enable article-based publishing, download and install the following packages 
 >[!ENDTABS]
 
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)
