@@ -351,7 +351,7 @@ The following screen shows the AEM Guides panel.
 The functions of the Oxygen Plugin for AEM Guides are available on right-clicking a folder or file in the AEM repository. The functions available for the folders are different from the files. Here is a complete list of functions in Oxygen Plugin for AEM Guides context menu:
 
 -   **Open**: Opens the selected file or expands the selected folder.
--   **Open In**: You can choose to open the selected file in AEM Guides' Web Editor or Map Dashboard, or Map Editor. For more information about these options, see [Open file in AEM Guides' editor](#id195GH0V30KX).
+-   **Open In**: You can choose to open the selected file in AEM Guides' Editor or Map Dashboard, or Map Editor. For more information about these options, see [Open file in AEM Guides' editor](#id195GH0V30KX).
 -   **Check-out**: Checks out a file from AEM repository. For more details, see [Check-out files](#id195HC020TS4).
 -   **Check-out with dependents**: Checks out a file with its direct references. For more details, see [Check-out files](#id195HC020TS4).
 -   **Check-out with read-only dependents**: Checks out the selected file along with its dependents. You cannot make any changes in the dependent files. For more details, see [Check-out files](#id195HC020TS4).
@@ -400,7 +400,7 @@ If you want to use the editors available in AEM Guides, you can do so by selecti
 
 1.  Select **Open In** from the context menu and choose from the following options:
 
-    - **Web Topic Editor**: If the file you are opening is a .xml or .dita file, then you can open it for editing in the Web Editor. Choose the **Web Topic Editor** option to open the selected file for editing in the Web Editor.
+    - **Web Topic Editor**: If the file you are opening is a .xml or .dita file, then you can open it for editing in the Editor. Choose the **Web Topic Editor** option to open the selected file for editing in the Editor.
 
     - **Map Dashboard**: You can choose to edit a .ditamap file in the map dashboard wherein you can perform various operations on the map file. These operations depend on the role/group that you belong to.
 

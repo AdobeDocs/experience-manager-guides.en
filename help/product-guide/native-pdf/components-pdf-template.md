@@ -36,7 +36,7 @@ Contents (TOC), index, blank page, Front Matter Pages, Back Matter Pages, List o
    >
    >There are sample page layouts that are shipped out of the box. You can customize these or create new page layouts.
 
-1. In the Web Editor, go to the **Output** tab.
+1. In the Editor, go to the **Output** tab.
 1. Expand the left sidebar and click **Templates**.
 1. Open the template that you want to work with.
 

@@ -120,7 +120,7 @@ Toolbars:
 
 - [`editor_toolbar`](./jsons/toolbars/editor_toolbar.json)
 
-  Personalize the editor toolbar for files opened in the web editor.
+  Personalize the editor toolbar for files opened in the Editor.
 
 - [`editor_tab_bar`](./jsons/toolbars/editor_tab_bar.json)
 

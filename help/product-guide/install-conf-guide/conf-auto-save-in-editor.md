@@ -1,18 +1,18 @@
 ---
-title: Configure file auto-save in the Web Editor
-description: Learn how to Configure file auto-save in the Web Editor
+title: Configure file auto-save in the Editor
+description: Learn how to Configure file auto-save in the Editor
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
 ---
-# Configure file auto-save in the Web Editor {#id199CC0J0M5Z}
+# Configure file auto-save in the Editor {#id199CC0J0M5Z}
 
-One of the most common features in the browser-based editor is the ability to save data after a specific period of time. The AEM Guides Web Editor also supports auto-saving of topic and map files at the specified time interval. When this feature is triggered, the working copy of the topic or map is saved. A new version of the topic or map is not created. To create a new version, you have to click the Save Revision icon in the Web Editor's toolbar.
+One of the most common features in the browser-based editor is the ability to save data after a specific period of time. The AEM Guides Editor also supports auto-saving of topic and map files at the specified time interval. When this feature is triggered, the working copy of the topic or map is saved. A new version of the topic or map is not created. To create a new version, you have to click the Save Revision icon in the Editor's toolbar.
 
 The auto-save feature is not enabled by default and you need to enable this using the configuration file for Cloud Service and from the `configMgr` for On-Premise .
 
-The following tabs provide instructions to enable the auto-save feature in the Web Editor based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+The following tabs provide instructions to enable the auto-save feature in the Editor based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
 >[!BEGINTABS]
 

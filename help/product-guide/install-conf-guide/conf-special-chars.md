@@ -8,7 +8,7 @@ exl-id: e3747a18-b6a1-46fd-a4d1-28a9c087e924
 ---
 # Configure allowed special characters {#id20CIL600035}
 
-The Web Editor allows you to insert some special characters out-of-the-box. However, you can customize the list of special characters that your authors can insert in their documents. If you customize the special characters list, then it overwrites the default set of special characters. Only those special characters that you add in your configuration are made available to the authors.
+The Editor allows you to insert some special characters out-of-the-box. However, you can customize the list of special characters that your authors can insert in their documents. If you customize the special characters list, then it overwrites the default set of special characters. Only those special characters that you add in your configuration are made available to the authors.
 
 The following tabs provide instructions to overwrite the default list of special characters based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
@@ -76,4 +76,4 @@ You can define multiple definitions of special characters within a category.
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)

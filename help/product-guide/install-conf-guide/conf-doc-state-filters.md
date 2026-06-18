@@ -71,4 +71,4 @@ Perform the following steps to configure the document state filters:
 
 The configured filters are displayed in the **Filters** panel in Repository on Home page.
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)

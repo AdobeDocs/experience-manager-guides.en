@@ -36,9 +36,9 @@ By design web-editor leverages the DITA schema setup in the system to enforce us
 
 Beyond support for DITA rules, web-editor also supports validation of content based on "*Schematron*" rules.
 
-"*Schematron*" refers to a rule-based validation language used to define tests for an XML file. You can import the Schematron files and also edit them in Web Editor. Using a "Schematron" file you can define certain rules and then validate them for a DITA topic or a map. Schematron rules can ensure consistency of XML structure by imposing restrictions defined as rules. These restrictions are driven by SMEs who own the quality and consistency of the content. 
+"*Schematron*" refers to a rule-based validation language used to define tests for an XML file. You can import the Schematron files and also edit them in Editor. Using a "Schematron" file you can define certain rules and then validate them for a DITA topic or a map. Schematron rules can ensure consistency of XML structure by imposing restrictions defined as rules. These restrictions are driven by SMEs who own the quality and consistency of the content. 
 
-NOTE: Web editor supports ISO Schematron. 
+NOTE: Editor supports ISO Schematron. 
 
 
 ## Knowing how "Schematron" works in web-editor

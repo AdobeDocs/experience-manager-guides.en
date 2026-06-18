@@ -27,4 +27,4 @@ To increase the number of nodes that a query may read at a time, perform the fol
 
 When you increase this attribute value, it helps you generate the report for larger DITA maps.
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)

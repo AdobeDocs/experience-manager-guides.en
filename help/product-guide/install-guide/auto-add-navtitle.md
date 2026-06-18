@@ -33,7 +33,7 @@ To include `@navtitle` attribute by default in reference files' properties, perf
 
 1.  Download the ui\_config.json file.
 
-    You can make this change at the Global level or at a folder level profile. Depending on where you want to make this change, you need to download the respective ui\_config.json file. For more information about downloading ui\_config.json file, see [Configure and customize the XML Web Editor](conf-folder-level.md#id2065G300O5Z).
+    You can make this change at the Global level or at a folder level profile. Depending on where you want to make this change, you need to download the respective ui\_config.json file. For more information about downloading ui\_config.json file, see [Configure and customize the XML Editor](conf-folder-level.md#id2065G300O5Z).
 
 1.  Search for the `ditaAttributes` definition.
 

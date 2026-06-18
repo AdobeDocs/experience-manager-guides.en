@@ -8,7 +8,7 @@ exl-id: 43167f0e-158e-4599-8451-303750076731
 ---
 # About this guide 
 
-Adobe Experience Manager Guides \(later referred as *AEM Guides*\) is a powerful, cloud-based, enterprise-grade component content management solution \(CCMS\). It enables native DITA support in Adobe Experience Manager, empowering AEM to handle the DITA-based content creation and delivery. It empowers authors to create content using easy-to-use built-in Web Editor and publish it into various output formats.
+Adobe Experience Manager Guides \(later referred as *AEM Guides*\) is a powerful, cloud-based, enterprise-grade component content management solution \(CCMS\). It enables native DITA support in Adobe Experience Manager, empowering AEM to handle the DITA-based content creation and delivery. It empowers authors to create content using easy-to-use built-in Editor and publish it into various output formats.
 
 This guide provides the instructions to download, install, and configure AEM Guides for Cloud Service and On-Premise. In this guide, you will find detailed instructions to set up AEM Guides as per your organizational authoring and publishing needs.
 

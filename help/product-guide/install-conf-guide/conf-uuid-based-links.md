@@ -43,4 +43,4 @@ Use the instructions given in [Configuration overrides](download-install-config-
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)

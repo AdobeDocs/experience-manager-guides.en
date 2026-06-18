@@ -50,7 +50,7 @@ Refer to section **User Preferences** in [Page 41 of User Guide](https://helpx.a
 Use the conditions to conditionalize sections of content : 
 Refer to section **Conditions** in [Page 90 of User Guide](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
-![Use Conditions in Web Editor](assets/conditions-in-web-editor.png)
+![Use Conditions in Editor](assets/conditions-in-web-editor.png)
 
 **Step 4** 
 

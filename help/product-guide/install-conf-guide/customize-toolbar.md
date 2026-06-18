@@ -8,13 +8,13 @@ exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
 ---
 # Customize toolbar {#id172FB00L0V6}
 
-By default, the Web Editor is shipped with the most common editorial features required by any DITA editor. Features such as inserting elements of type list \(numbered or bulleted\), cross-reference, content reference, table, paragraph, and character formatting are available in the editor. In addition to these basic elements, you can customize the Web Editor to insert elements that are used in your authoring environment.
+By default, the Editor is shipped with the most common editorial features required by any DITA editor. Features such as inserting elements of type list \(numbered or bulleted\), cross-reference, content reference, table, paragraph, and character formatting are available in the editor. In addition to these basic elements, you can customize the Editor to insert elements that are used in your authoring environment.
 
 >[!NOTE]
 >
 > When migrating from the old UI to the new AEM Guides UI (applicable from 2502 and 5.0 release of AEM Guides), updates to `ui_config` must be converted to more flexible and modular UI configurations. This framework helps adopt changes seamlessly into the editor_toolbar and other target widget as applicable. For details, view [Overview of Convert UI Config](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
-There are two ways of customizing the Web Editor's toolbar:
+There are two ways of customizing the Editor's toolbar:
 
 -   Add a new functionality to the toolbar
 
@@ -23,7 +23,7 @@ There are two ways of customizing the Web Editor's toolbar:
 
 ## Add a feature in the toolbar 
 
-Adding a functionality to the Web Editor involves two primary tasks - adding an icon for the feature in the *ui\_config.json* file and adding the background functionality in JavaScript.
+Adding a functionality to the Editor involves two primary tasks - adding an icon for the feature in the *ui\_config.json* file and adding the background functionality in JavaScript.
 
 The following tabs provide instructions based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
@@ -109,7 +109,7 @@ The following tabs provide instructions based on your Experience Manager Guides 
 
 1.  Update the categories property of the *clientlib* folder by assigning it the value of *apps.fmdita.xml\_editor.page\_overrides*.
 
-1. Save the *ui\_config.json* file and reload the Web Editor.
+1. Save the *ui\_config.json* file and reload the Editor.
 
 >[!TAB On-Premise]
 
@@ -171,7 +171,7 @@ The following tabs provide instructions based on your Experience Manager Guides 
 
 1.  Update the categories property of the *clientlib* folder by assigning it the value of *apps.fmdita.xml\_editor.page\_overrides*.
 
-1.  Save the *ui\_config.json* file and reload the Web Editor.
+1.  Save the *ui\_config.json* file and reload the Editor.
 
 
 **JavaScript code samples**
@@ -187,7 +187,7 @@ Add the following code to a JavaScript file:
 * Step 1. Create a clientlib folder and add save a file with your *JavaScript code into this folder. A code sample is shared below.
 * Step 2: Update the categories property of the clientlib folder by *assigning it the value of 
 * "apps.fmdita.xml_editor.page_overrides".
-* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Web Editor
+* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Editor
  */
 
 (function (window) {
@@ -228,7 +228,7 @@ The following example shows how to change a document's state of an active file t
 * Step 1. Create a clientlib folder and add save a file with your *JavaScript code into this folder. A code sample is shared below.
 * Step 2: Update the categories property of the clientlib folder by *assigning it the value of 
 * "apps.fmdita.xml_editor.page_overrides".
-* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Web Editor
+* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Editor
  */
 
 (function (window) {
@@ -289,7 +289,7 @@ Add the feature in the ui\_config.json file as:
 
 ## Remove a feature from the toolbar 
 
-At times you might not want to give all features currently available in the Web Editor, in that case you can remove the unwanted feature from the Web Editor's toolbar.
+At times you might not want to give all features currently available in the Editor, in that case you can remove the unwanted feature from the Editor's toolbar.
 
 The following tabs provide instructions to remove any unwanted feature from the toolbar based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
@@ -319,7 +319,7 @@ The following tabs provide instructions to remove any unwanted feature from the 
 
 1.  From the toolbars section, remove the entry of the feature that you do not want to expose to your users.
 
-1.  Save the *ui\_config.json* file and reload the Web Editor.
+1.  Save the *ui\_config.json* file and reload the Editor.
 
 >[!TAB On-Premise]
 
@@ -348,6 +348,6 @@ The following tabs provide instructions to remove any unwanted feature from the 
 
 1.  From the toolbars section, remove the entry of the feature that you do not want to expose to your users.
 
-1. Save the `*ui\_config.json*` file and reload the Web Editor.
+1. Save the `*ui\_config.json*` file and reload the Editor.
 
 >[!ENDTABS]

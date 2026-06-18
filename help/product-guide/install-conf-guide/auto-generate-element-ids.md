@@ -58,4 +58,4 @@ To configure a pattern for auto-generated ID create a configuration file with th
 
 >[!ENDTABS]
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)

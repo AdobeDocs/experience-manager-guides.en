@@ -68,7 +68,7 @@ The following tabs provide instructions to enable the **Create new version for u
 
 ## Configure settings to allow editing of checked out files 
 
-The AEM Guides Web Editor allows you to create and update DITA topics. You can configure the Web Editor to allow editing of only those documents that have been checked out from the repository. This ensures that no other writer accidentally overwrites a topic that is opened for editing by another writer. Once a topic is opened for editing, an author can check-in the file at the time of closing the file.
+The AEM Guides Editor allows you to create and update DITA topics. You can configure the Editor to allow editing of only those documents that have been checked out from the repository. This ensures that no other writer accidentally overwrites a topic that is opened for editing by another writer. Once a topic is opened for editing, an author can check-in the file at the time of closing the file.
 
 Another important rule is to ensure that files that have been checked out are checked back into the system. This prevents users from accidentally closing the files without checking them back in.
 

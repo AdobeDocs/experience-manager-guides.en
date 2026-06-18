@@ -20,6 +20,6 @@ Use the instructions given in [Configuration overrides](download-install-config-
 
 >[!NOTE]
 >
-> This configuration is disabled by default and the option isn't available in the Web Editor.
+> This configuration is disabled by default and the option isn't available in the Editor.
 
-**Parent topic:**[Customize Web Editor](customize-overview.md)
+**Parent topic:**[Customize Editor](customize-overview.md)

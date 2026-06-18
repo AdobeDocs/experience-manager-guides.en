@@ -54,4 +54,4 @@ Perform the following steps to configure elements to have auto-generated ID:
 1.  Click **Save**.
 
 
-**Parent topic:**[Customize Web Editor](conf-web-editor.md)
+**Parent topic:**[Customize Editor](conf-web-editor.md)
