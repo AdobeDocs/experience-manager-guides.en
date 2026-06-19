@@ -49,7 +49,7 @@ Once saved, the SCORM preview begins applying the updated domain allowlist. Exte
 
 1.  Search for and select the **Guides SCORM Preview Filter (com.adobe.fmdita.publishworkflow.ScormPreviewResponseFilter)** bundle.
 
-    ![](assets/scorm-preview-filters.png){width="800"}
+    ![](assets/scorm-preview-filters.png){width="600"}
 
 
 1. In the bundle configuration, add the permitted domain URLs for each resource type as required:
