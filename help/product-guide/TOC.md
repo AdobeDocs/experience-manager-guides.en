@@ -395,6 +395,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure Folder profiles](./lc-config-guide/lc-folder-profile.md)
       - [Best practices to set up folder structure](./lc-config-guide/best-practices-folder-structure.md)
       - [Configure other settings](./lc-config-guide/lc-other-settings.md)
+      - [Configure SCORM preview filters](./lc-config-guide/conf-scorm-preview-filters.md)
       - [SCORM key metrics](./lc-config-guide/learning-course-parameters.md)       
     - Video tutorials {#lc-video}  
       - [Author workflow](./lc-video-tutorials/author-workflow.md)
