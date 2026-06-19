@@ -13,7 +13,7 @@ This article explains how to configure the Experience Manager Guides SCORM previ
 
 >[!TAB Cloud Service]
 
-1. Use the instructions given in [Configuration overrides](download-install-config-override.md#) to create the configuration file.
+1. Use the instructions given in [Configuration overrides](../install-conf-guide/download-install-config-override.md) to create the configuration file.
 
 1. In the configuration file, provide the following property details:
 
