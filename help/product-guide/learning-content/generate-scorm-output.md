@@ -36,7 +36,7 @@ Perform the following steps to generate a SCORM output:
     >
     > The SCORM preview is available when you generate a SCORM output. If your course relies on  external domains for fonts, stylesheets, or embedded content, configure the allowed domains in [Configure content security for SCORM preview](../lc-config-guide/conf-scorm-preview-filters.md).
    
-  ![](assets/scorm-view-output-new.png){width="650"} 
+    ![](assets/scorm-view-output-new.png){width="650"} 
 
 You can upload the ZIP file to your LMS to make the course available to your learners using the **Upload** option on the **Publish to LMS** tab for SCORM preset. 
 
