@@ -34,7 +34,7 @@ Perform the following steps to generate a SCORM output:
 
     >[!NOTE]
     >
-    > The SCORM preview is available when you generate a SCORM output. If your course relies on  external domains for fonts, stylesheets, or embedded content, configure the allowed domains in [Configure content security for SCORM preview](../lc-config-guide/conf-scorm-preview-filters.md).
+    > The SCORM preview is available when you generate a SCORM output. If your course relies on  external domains for fonts, stylesheets, or embedded content, configure the allowed domains in [Configure SCORM preview](../lc-config-guide/conf-scorm-preview-filters.md).
    
     ![](assets/scorm-view-output-new.png){width="650"} 
 
