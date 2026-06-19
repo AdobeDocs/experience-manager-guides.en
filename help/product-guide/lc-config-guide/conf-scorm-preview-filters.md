@@ -5,7 +5,7 @@ feature: Configuration
 role: Admin
 level: Experienced
 ---
-# Configure SCORM preview filters
+# Configure SCORM preview
 
 This article explains how to configure the Experience Manager Guides SCORM preview to manage which external domains are permitted to serve stylesheets, images, fonts, media, and embedded content in the SCORM preview output. The following steps explain how to configure various filters for SCORM preview depending on the setup you are using:
 
@@ -36,8 +36,6 @@ Once saved, the SCORM preview begins applying the updated domain allowlist. Exte
 
 
 >[!TAB On-Premise]
-
->[!NOTE]
 
 1.  Open the Adobe Experience Manager Web Console Configuration page.
 
