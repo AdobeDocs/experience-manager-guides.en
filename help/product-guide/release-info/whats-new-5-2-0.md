@@ -22,11 +22,11 @@ Here's an overview video highlighting the capabilities of Editor 2.0.
 
 Following are the enhancements that make authoring easier and more efficient.
 
-### Redesigned user interface & experience
+### Redesigned user interface and experience
 
 A refreshed interface improves overall usability, making navigation and content authoring more intuitive and consistent.
 
-- **Richer CSS for elements in the Author and Preview mode**: Enhanced default CSS for elements provide improved styling and better visual consistency across both authoring and preview modes.
+- **Richer CSS for elements in the Author and Preview mode**: Enhanced default CSS for elements provides improved styling and better visual consistency across both authoring and preview modes.
 
     ![](assets/rich-css.png){width="650"}
 
