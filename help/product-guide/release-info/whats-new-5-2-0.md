@@ -340,13 +340,6 @@ You can now use regex to enable or disable post-processing for folders. This enh
 
 For more details, view [Use regex to enable or disable post processing](../install-conf-guide/conf-folder-post-processing.md).
 
-- Run asset processing at both folder and individual file levels
-- Filter assets by choosing specific asset types such as topics, maps, Markdown, HTML/CSS, DITAVAL, or other supported files, to process only the files you need. 
-- Apply date based filters to limit processing scope for a specified timeframe.
-- Reprocess assets directly using the new option (**Reprocess assets**) available in the context menu of files and folders within Repository view and Explorer panel. 
-
-For more details on processing assets, view [Process assets](../user-guide/asset-processor.md).
-
 ### Automated B-tree cleanup for optimal performance
 
 To maintain system efficiency and prevent resource congestion, a new background process  regularly cleans up the system-level B-trees. This ensures that assets which no longer exist or were added temporarily do not occupy unnecessary space. 
