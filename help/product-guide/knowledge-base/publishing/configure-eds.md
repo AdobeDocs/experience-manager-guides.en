@@ -1,34 +1,34 @@
 ---
-title: Experience Manager Guides and Edge Delivery Services (Beta)
-description: Understand how Edge Delivery Services (Beta) expands the authoring and publishing possibilities for Experience Manager Guides.
+title: Experience Manager Guides and Edge Delivery Services
+description: Understand how Edge Delivery Services expands the authoring and publishing possibilities for Experience Manager Guides.
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
 ---
-# Experience Manager Guides and Edge Delivery Services (Beta)
+# Experience Manager Guides and Edge Delivery Services
 
 Adobe Experience Manager Guides allows you to publish your DITA content directly to Edge Delivery Services (EDS), currently available in *Beta*, through a dedicated GitHub-based publish profile. This capability enables organizations to deliver high-performance, responsive documentation experiences while maintaining DITA-based authoring workflows in Experience Manager Guides.
 
 For more details on using EDS in Adobe Experience Manager, view [Edge Delivery Services Overview](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/overview).
 
-To enable publishing from Experience Manager Guides to EDS (Beta), you must complete a series of configuration steps across GitHub and Experience Manager Guides. The sections below outline each step in sequence and explain how they work together in the overall publishing workflow.
+To enable publishing from Experience Manager Guides to EDS, you must complete a series of configuration steps across GitHub and Experience Manager Guides. The sections below outline each step in sequence and explain how they work together in the overall publishing workflow.
 
-1. [Set up and configure GitHub for EDS (Beta)](#set-up-and-configure-github-for-eds-beta)
-2. [Create and configure a publish profile for EDS (Beta) in Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
+1. [Set up and configure GitHub for EDS](#set-up-and-configure-github-for-eds-beta)
+2. [Create and configure a publish profile for EDS in Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Customize output using EDS blocks](#customize-output-using-eds-blocks)
 
 For a quick video walkthrough, view [Publishing in AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
-## Set up and configure GitHub for EDS (Beta)
+## Set up and configure GitHub for EDS 
 
-This section describes how to set up and configure GitHub for use with EDS (Beta). It covers creating a repository using the Adobe boilerplate, connecting GitHub to Adobe Experience Manager through AEM Code Sync, configuring the required GitHub and OAuth applications, and defining the repository mountpoint used for publishing content.
+This section describes how to set up and configure GitHub for use with EDS. It covers creating a repository using the Adobe boilerplate, connecting GitHub to Adobe Experience Manager through AEM Code Sync, configuring the required GitHub and OAuth applications, and defining the repository mountpoint used for publishing content.
 
-### Create a GitHub Repository for EDS (Beta)
+### Create a GitHub Repository for EDS
 
-EDS (Beta) requires a GitHub repository with a predefined structure. Adobe provides an official boilerplate repository specifically designed for Experience Manager Guides users. 
+EDS requires a GitHub repository with a predefined structure. Adobe provides an official boilerplate repository specifically designed for Experience Manager Guides users. 
 
 Perform the following steps to create your repository:
 
@@ -97,7 +97,7 @@ Your app is now ready. You are redirected to the **Settings** page of your GitHu
 
 ### Create a new OAuth App
 
-An OAuth App is required to authenticate users while creating an EDS (Beta) publish profile in Experience Manager Guides. It enables a secure login flow using a *Client ID* and *Client Secret*.
+An OAuth App is required to authenticate users while creating an EDS publish profile in Experience Manager Guides. It enables a secure login flow using a *Client ID* and *Client Secret*.
 
 Perform the following steps to create a new OAuth App:
 
@@ -122,9 +122,9 @@ Your app is now ready. Note down the *Client ID*. You can generate up to five *C
 ![](assets/eds-new-oauth-app-page.png) 
 
 
-### Configure the mountpoint URL in EDS (Beta) repository
+### Configure the mountpoint URL in EDS repository
 
-EDS (Beta) reads content from a GitHub repository path defined as a *mountpoint* URL in the `fstab.yaml` file.
+EDS reads content from a GitHub repository path defined as a *mountpoint* URL in the `fstab.yaml` file.
 
 To configure the mountpoint URL in the `fstab.yaml` file:
 
@@ -135,7 +135,7 @@ To configure the mountpoint URL in the `fstab.yaml` file:
 
     >[!NOTE]
     >
-    > In the mountpoint URL, `main` indicates the branch on which you want to publish the content, and `docs` indicates the root folder of the EDS (Beta) repository you are working on. If you prefer to change the branch name on GitHub, then you must update the same branch name in the *mountpoint* URL (in the `fstab.yaml` file) and corresponding EDS publish profile in Experience Manager Guides. 
+    > In the mountpoint URL, `main` indicates the branch on which you want to publish the content, and `docs` indicates the root folder of the EDS repository you are working on. If you prefer to change the branch name on GitHub, then you must update the same branch name in the *mountpoint* URL (in the `fstab.yaml` file) and corresponding EDS publish profile in Experience Manager Guides. 
 
     ![](assets/eds-fstab-yaml-file.png){width="650"}  
 
@@ -150,16 +150,16 @@ To configure the mountpoint URL in the `fstab.yaml` file:
 
 5. Repeat steps 2 and 3 from the [Connect GitHub to Adobe via AEM Code Sync](#connect-github-to-adobe-via-aem-code-sync) section to authorize the repository.
 
-## Create and configure a publish profile for EDS (Beta) in Experience Manager 
+## Create and configure a publish profile for EDS in Experience Manager 
 
-The sections below outline each step in sequence and explain how to set up EDS (Beta) publish profile, configure an output preset, and generate output using EDS (Beta) in Experience Manager Guides.
+The sections below outline each step in sequence and explain how to set up EDS publish profile, configure an output preset, and generate output using EDS in Experience Manager Guides.
 
-### Create the EDS (Beta) publish profile
+### Create the EDS publish profile
 
 1. Go to **[Workspace settings](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **Publish profiles**.
 2. Select the **+** icon to create a new publish profile and provide the following details:
 
-    - **Server type**: Select **GitHub Edge Delivery Services (Beta)** from the dropdown.
+    - **Server type**: Select **GitHub Edge Delivery Services** from the dropdown.
     - **Name**: Enter a name for this profile .
     - **Repository name**: Use the GitHub repository name created from the boilerplate.
     - **Username**: Enter your GitHub username.
@@ -173,19 +173,19 @@ The sections below outline each step in sequence and explain how to set up EDS (
 
 4. On successful authentication, select **Save**.
 
-Your EDS (Beta) publish profile is now configured.
+Your EDS publish profile is now configured.
 
-### Create an Output preset for EDS (Beta) and generate output
+### Create an Output preset for EDS and generate output
 
 1. Open your map in Map console.
 2. In the **Output presets** tab, select **+** to create a new output preset.
 3. In the **New output preset** dialog, provide the following details:
-    - **Type**: Select **Edge Delivery Service (Beta)**
+    - **Type**: Select **Edge Delivery Service**
     - **Name**: Provide a name for this preset
 4. Select **Add**.
 
     ![](assets/eds-output-preset.png){width="650"} 
-5. Open the newly created EDS (Beta) output preset and navigate to the **Config** tab.
+5. Open the newly created EDS output preset and navigate to the **Config** tab.
     - Select the publish profile created in the previous step.
     - Enable **Push to live**.
 
@@ -197,9 +197,9 @@ Your EDS (Beta) publish profile is now configured.
 
 >[!NOTE]
 >
->The generated output is stored in the **docs** folder of the EDS (Beta) repository.
+>The generated output is stored in the **docs** folder of the EDS repository.
 
-The EDS (Beta) output is now generated. The content is presented in a clean, responsive layout. It includes regular elements such as the page title, breadcrumbs, body content, and any blocks used in the topic. The TOC on the left (generated from the map) helps you to navigate across topics, while a mini-TOC on the right highlights the sections within the current page. The entire output is fully responsive, ensuring an optimized, consistent reading experience across devices.
+The EDS output is now generated. The content is presented in a clean, responsive layout. It includes regular elements such as the page title, breadcrumbs, body content, and any blocks used in the topic. The TOC on the left (generated from the map) helps you to navigate across topics, while a mini-TOC on the right highlights the sections within the current page. The entire output is fully responsive, ensuring an optimized, consistent reading experience across devices.
 
 ![](assets/eds-site-output.png) 
 
@@ -207,7 +207,7 @@ The EDS (Beta) output is now generated. The content is presented in a clean, res
 
 EDS uses `blocks` to control how different parts of your content are styled and displayed. You can modify existing blocks or create custom ones.
 
-The examples outlined below walk you through customizing an existing block and creating a new block to style the final EDS (Beta) output in Experience Manager Guides. 
+The examples outlined below walk you through customizing an existing block and creating a new block to style the final EDS output in Experience Manager Guides. 
 
 ### Customize a breadcrumb block to update its text color
 
@@ -223,7 +223,7 @@ Perform the following steps to customize a breadcrumb block to update its text c
 4. Commit the changes to GitHub.
 5. Refresh the live website to view the updates.
 
-### Update EDS (Beta) scripts to create custom element in the published output
+### Update EDS scripts to create custom element in the published output
 
 In some cases, you may want to style only a specific part of your content. Peform the following steps to achieve this using a custom block.
 
