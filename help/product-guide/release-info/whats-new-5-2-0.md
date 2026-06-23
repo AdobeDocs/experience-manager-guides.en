@@ -22,11 +22,11 @@ Here's an overview video highlighting the capabilities of Editor 2.0.
 
 Following are the enhancements that make authoring easier and more efficient.
 
-### Redesigned user interface & experience
+### Redesigned user interface and experience
 
 A refreshed interface improves overall usability, making navigation and content authoring more intuitive and consistent.
 
-- **Richer CSS for elements in the Author and Preview mode**: Enhanced default CSS for elements provide improved styling and better visual consistency across both authoring and preview modes.
+- **Richer CSS for elements in the Author and Preview mode**: Enhanced default CSS for elements provides improved styling and better visual consistency across both authoring and preview modes.
 
     ![](assets/rich-css.png){width="650"}
 
@@ -339,13 +339,6 @@ If a file is Read-only, you must first check out the file before making any chan
 You can now use regex to enable or disable post-processing for folders. This enhancement allows Administrators to define post-processing rules that apply to multiple folders or entire folder hierarchies using a single configuration, instead of specifying individual folder paths.
 
 For more details, view [Use regex to enable or disable post processing](../install-conf-guide/conf-folder-post-processing.md).
-
-- Run asset processing at both folder and individual file levels
-- Filter assets by choosing specific asset types such as topics, maps, Markdown, HTML/CSS, DITAVAL, or other supported files, to process only the files you need. 
-- Apply date based filters to limit processing scope for a specified timeframe.
-- Reprocess assets directly using the new option (**Reprocess assets**) available in the context menu of files and folders within Repository view and Explorer panel. 
-
-For more details on processing assets, view [Process assets](../user-guide/asset-processor.md).
 
 ### Automated B-tree cleanup for optimal performance
 
