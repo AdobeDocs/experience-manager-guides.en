@@ -6,7 +6,7 @@ description: Learn about the compatibility matrix and how to upgrade to the 2026
 
 This article covers the upgrade instructions and the compatibility matrix for the 2026.07.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For the list of issues fixed in this release, view [Fixed issues in the 2026.07.0 release](fixed-issues-2026-06-0.md).
+For the list of issues fixed in this release, view [Fixed issues in the 2026.07.0 release](fixed-issues-2026-07-0.md).
 
 ## Compatibility matrix
 
