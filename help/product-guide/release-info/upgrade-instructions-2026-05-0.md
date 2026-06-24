@@ -46,6 +46,6 @@ Experience Manager Guides is upgraded automatically upon upgrading to the latest
 
 >[!IMPORTANT]
 >
-> This release includes updates to folder profile settings (ui_config.json). If you are using custom settings, ensure to take a back up of those before upgrading. After the update, review and adjust your settings to align with the changes introduced in the latest version.
+> The release includes updates to folder profile settings (ui_config.json). If you are using custom settings, ensure to take a back up of those before upgrading. After the update, review and adjust your settings to align with the changes introduced in the latest version.
 
-Review and validate your setup configurations to confirm they are correctly implemented. If you have introduced any custom configuration changes, view [Additional configuration for upgrading Cloud Service](../cs-install-guide/additional-config-for-cloud-service.md) for any additional procedures applicable to the version you are upgrading from.
+Review and validate your setup configurations to confirm they are correctly implemented. If you have introduced any custom configuration changes, view [Additional configuration for upgrading Cloud Service](../install-conf-guide/additional-config-for-upgrade.md) for any additional procedures applicable to the version you are upgrading from.
