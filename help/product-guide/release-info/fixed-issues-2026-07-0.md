@@ -12,7 +12,7 @@ Learn about [upgrade instructions for the 2026.07.0 release](upgrade-instruction
 ## Editor 2.0
 
 - Switching between Source and Author modes causes content inconsistencies, with portions of the topic disappearing or not being reflected across modes. (GUIDES-47432)
-- When working with Track changes, rejecting an Imported text insertion removes all content within the tag instead of only rejecting the specific inserted content.(GUIDES-48319)
+- When working with Track changes, rejecting an Imported text insertion removes all content within the tag instead of only rejecting the specific inserted content. (GUIDES-48319)
 
 
 
