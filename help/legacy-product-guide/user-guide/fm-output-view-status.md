@@ -67,7 +67,7 @@ Perform the following steps to view the output generation queue:
 >
 > </details>
 
-### Define attributes on multiple cells, entire row, or column of a table
+## Define attributes on multiple cells, entire row, or column of a table
 
 You can define attributes at the cell, row, or column level.
 
