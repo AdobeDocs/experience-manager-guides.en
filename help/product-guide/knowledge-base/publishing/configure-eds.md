@@ -8,14 +8,14 @@ exl-id: a4623088-a867-4079-80d6-20866c99683e
 ---
 # Experience Manager Guides and Edge Delivery Services
 
-Adobe Experience Manager Guides allows you to publish your DITA content directly to Edge Delivery Services (EDS), currently available in *Beta*, through a dedicated GitHub-based publish profile. This capability enables organizations to deliver high-performance, responsive documentation experiences while maintaining DITA-based authoring workflows in Experience Manager Guides.
+Adobe Experience Manager Guides allows you to publish your DITA content directly to Edge Delivery Services (EDS) through a dedicated GitHub-based publish profile. This capability enables organizations to deliver high-performance, responsive documentation experiences while maintaining DITA-based authoring workflows in Experience Manager Guides.
 
 For more details on using EDS in Adobe Experience Manager, view [Edge Delivery Services Overview](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/overview).
 
 To enable publishing from Experience Manager Guides to EDS, you must complete a series of configuration steps across GitHub and Experience Manager Guides. The sections below outline each step in sequence and explain how they work together in the overall publishing workflow.
 
-1. [Set up and configure GitHub for EDS](#set-up-and-configure-github-for-eds-beta)
-2. [Create and configure a publish profile for EDS in Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
+1. [Set up and configure GitHub for EDS](#set-up-and-configure-github-for-eds)
+2. [Create and configure a publish profile for EDS in Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [Customize output using EDS blocks](#customize-output-using-eds-blocks)
 
 For a quick video walkthrough, view [Publishing in AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
