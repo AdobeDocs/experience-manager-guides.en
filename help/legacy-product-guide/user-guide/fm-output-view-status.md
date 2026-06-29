@@ -49,68 +49,6 @@ Perform the following steps to view the output generation queue:
 
         In this list, you could have tasks that have executed successfully or tasks that failed. For the tasks that have completed successfully, the publishing process creates a log file \(logs.txt\) that can be accessed by clicking the link in the Generated At column.
 
-> **How to define attributes on multiple cells, entire row, or column of a table**
->
-> You can define attributes at the cell, row, or column level
->
-> <details>
-> <summary>Show steps</summary>
->
-> You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel (on the right), the property **Type** changes to **entry**.
->
-> 1. In the **Attributes** section, select **+Add**.
-> 1. Select the `@valign` attribute from the **Attribute** dropdown list.
-> 1. From the value dropdown list, select the desired text alignment you want to apply on the selected table cells.
-> 1. Select **Add.**
->
-> ![](images/align-table-cell_cs.png)
->
-> </details>
-
-
-
-**Define attributes on multiple cells, entire row, or column of a table**
-
-You can define attributes at the cell, row, or column level.
-
-<details>
-<summary>Show steps</summary>
-
-You can also define attributes on multiple cells, entire row, or column of a table. For example, to align table cell, drag and select the required cell. In the Content Properties panel (on the right), the property **Type** changes to **entry**.
-
-1. In the **Attributes** section, select **+Add**.
-1. Select the `@valign` attribute from the **Attribute** dropdown list.
-1. From the value dropdown list, select the desired text alignment you want to apply on the selected table cells.
-1. Select **Add.**
-
-    ![](images/align-table-cell_cs.png)
-
-    </details>
-
->[!BEGINSHADEBOX]
->
-> **How to define attributes on multiple cells, entire row, or column of a table**
->
-> You can define attributes at the cell, row, or column level.
->
-> <details>
-> <summary>Show steps</summary>
->
-> You can also define attributes on multiple cells, an entire row, or a column of a table. For example, to align a table cell, drag and select the required cell. In the Content Properties panel (on the right), the **Type** property changes to **entry**.
->
-> 1. In the **Attributes** section, select **+Add**.
-> 1. Select the `@valign` attribute from the **Attribute** dropdown.
-> 1. From the **Value** dropdown, select the desired text alignment.
-> 1. Select **Add**.
->
-> ![](images/align-table-cell_cs.png)
->
-> </details>
->
->[!ENDSHADEBOX]
-
-
-
 
 **Parent topic:**[Generate output of FrameMaker documents](fm-output-generatation.md)
 
