@@ -86,7 +86,8 @@ You can also define attributes on multiple cells, entire row, or column of a tab
     ![](images/align-table-cell_cs.png)
 
     </details>
-> [!BEGINSHADEBOX]
+
+>[!BEGINSHADEBOX]
 >
 > **How to define attributes on multiple cells, entire row, or column of a table**
 >
@@ -106,7 +107,7 @@ You can also define attributes on multiple cells, entire row, or column of a tab
 >
 > </details>
 >
-> [!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 
 
