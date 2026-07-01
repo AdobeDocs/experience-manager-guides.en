@@ -206,7 +206,7 @@ There are a lot of enhancements and new features that are introduced in the Web 
   - *General*: contains the general file details such as filename, UUID, metadata tags, language, creation date, checked out status, and document state.
   - *Reference*: contains incoming and outgoing references.
 
-    ![File properties panel](assets/file-properties.png)
+    ![File properties panel](assets/file-properties.avif)
 
 - Support for subject scheme has also been added in the Web Editor. You can now create and use subject scheme using the Subject Scheme panel. With the addition of subject scheme, you can now use own corporate metadata and taxonomy.
 
@@ -257,7 +257,7 @@ The following improvements can now be seen while working with files in AEM Asset
 
 - A new file upload experience and a new dialog for choosing a conflict resolution strategy has been introduced.
 
-  ![File upload conflict resolution dialog](assets/file-upload-conflicts-keep-both.png)
+  ![File upload conflict resolution dialog](assets/file-upload-conflicts-keep-both.avif)
 
 - Ability to create a new version of uploaded file with an ability to prevent overwriting a checked-out file.
 - Now you can see a preview of images directly from the Version History view. Also, for DITA and non-DITA files, Version History shows the current version information separately.
