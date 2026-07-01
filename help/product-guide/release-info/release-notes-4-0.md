@@ -191,7 +191,7 @@ With version 4.0, we have introduced an article-based publishing feature integra
 
 This feature allows the users to build the DITA map in an additive fashion and publish topics as and when they are ready. Once you have published your map, use the article-based publishing feature to achieve incremental publishing for the updated articles only.
 
-![Article-based publishing](assets/article-based-publishing)
+![Article-based publishing](assets/article-based-publishing.png)
 
 In addition to AEM, you can use this unique feature to publish your articles to any knowledgebase portals such as Salesforce. This feature also comes with an OOTB content template, built on top of AEM core components, which lets you create a knowledge-based repository of the technical content. What's great about this template is that it is completely customizable to suit your organizational requirements and can also support use cases like corporate intranet portals.
 
@@ -208,24 +208,24 @@ There are a lot of enhancements and new features that are introduced in the Web 
   - *General*: contains the general file details such as filename, UUID, metadata tags, language, creation date, checked out status, and document state.
   - *Reference*: contains incoming and outgoing references.
 
-![File properties panel](assets/file-properties)
+![File properties panel](assets/file-properties.png)
 
 - Support for subject scheme has also been added in the Web Editor. You can now create and use subject scheme using the Subject Scheme panel. With the addition of subject scheme, you can now use own corporate metadata and taxonomy.
 
-![Subject scheme panel](assets/subject-scheme-panel)
+![Subject scheme panel](assets/subject-scheme-panel.png)
 
 - A new glossary hotspot tool has been introduced in this version to manage glossaries in bulk. Using this tool, you can quickly convert text to glossary and glossary to terms in bulk for a selected map or open topics.
 
-![Glossary hotspot tool](assets/glossary-hotspot-tool-1)
+![Glossary hotspot tool](assets/glossary-hotspot-tool-1.png)
 
 - Added refresh functionality in Reusable Content panel that allows you to quickly refresh the reusable content in reference files.
 - New file update indicator shows you whether your current (working copy) of file is in sync with the saved version or not.
 
-![File version update indicator](assets/version-update-indicator)
+![File version update indicator](assets/version-update-indicator.png)
 
 - Search filter in the Repository Panel and file browse dialog has been enhanced to give more filtering options, which can be further customized.
 
-![Improved search filter in repository panel](assets/repository-filter-search)
+![Improved search filter in repository panel](assets/repository-filter-search.png)
 
 - You can now upload .docx files from the Web Editor.
 - User preferences are now stored in user profile and not browser's cookies. This helps users to retain their preferences across browsers or user sessions.
@@ -240,7 +240,7 @@ A new translation dashboard has been introduced in the Web Editor with the follo
 - Introduced a multi-language translation mechanism to avoid creating multiple projects for each language when translation request is initiated for more than one language.
 - Introduced a configuration to hide the translation tab in map dashboard. By default, it is visible. You can choose to translate content using either the map dashboard or the Web Editor.
 
-![Translation dashboard in the Web Editor](assets/translation-from-web-editor)
+![Translation dashboard in the Web Editor](assets/translation-from-web-editor.png)
 
 #### Enhanced publishing
 
@@ -249,7 +249,7 @@ The following enhancements are now available in the publishing process:
 - PDF generation through FrameMaker Publishing Server now supports baselines and condition presets.
 - Authors can now pass map- and topic-level metadata to DITA-OT publishing. This is helpful when custom PDF templates are designed to use file metadata properties like tags, author, document state, and more.
 
-![Custom metadata in DITA-OT output preset](assets/custom-meta-data-output-preset)
+![Custom metadata in DITA-OT output preset](assets/custom-meta-data-output-preset.png)
 
 - A new configuration has been added in the configMgr to allow users to retain or delete the versions of the topics being deleted when **Delete and Create** option is used in the AEM Site output generation.
 
@@ -259,18 +259,18 @@ The following improvements can now be seen while working with files in AEM Asset
 
 - A new file upload experience and a new dialog for choosing a conflict resolution strategy has been introduced.
 
-![File upload conflict resolution dialog](assets/file-upload-conflicts-keep-both)
+![File upload conflict resolution dialog](assets/file-upload-conflicts-keep-both.png)
 
 - Ability to create a new version of uploaded file with an ability to prevent overwriting a checked-out file.
 - Now you can see a preview of images directly from the Version History view. Also, for DITA and non-DITA files, Version History shows the current version information separately.
 
-![Image preview in Version History view](assets/version-history-preview-image)
+![Image preview in Version History view](assets/version-history-preview-image.png)
 
 #### New report export feature
 
 Reports are very useful in identifying the health of your content. XML Documentation solution provides various reports to take control of your content. Now, you can not only view the reports, but also export the report data in a CSV file to view and share with your larger team. Report data can give you a quick glance of any broken links or missing images.
 
-![Export report in CSV](assets/export-report)
+![Export report in CSV](assets/export-report.png)
 
 #### Improved Oxygen DAM refresh experience
 
