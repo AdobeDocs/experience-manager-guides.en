@@ -5,8 +5,6 @@ description: Top new features and enhancements in 3.8 and 3.8.5 releases of Adob
 
 # Release Notes | Adobe Experience Manager Guides 3.8
 
-Last updated on May 17, 2022
-
 **Disclaimer**:
 
 *Adobe Experience Manager Guides* was formerly branded as *XML Documentation for Adobe Experience Manager*. Please note certain references within the documentation may still refer to prior branding but are still applicable to the current offering.
