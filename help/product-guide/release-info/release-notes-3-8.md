@@ -37,15 +37,11 @@ The bugs fixed in 3.8.5 release are listed below:
 
 ### File naming configuration updates
 
-While creating DITA topics in XML Documentation solution, users are allowed to use special characters as part of file names. This resulted in encoded URLs on generation of AEM site pages. To avoid this conversion in URL, the 3.8 release of XML Documentation solutions allows an administrator to define a list of special characters other than the default valid file name configurations (a-z A-Z 0-9 - _).
-
-This implies that although you can configure a list of special characters in a file name including a space, it will get replaced with a hyphen (-). For more information, see [Encoded URL on generation of AEM site output in Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/kb/site-output-generating-encoded-url.html).
+While creating DITA topics in XML Documentation solution, users are allowed to use special characters as part of file names. This resulted in encoded URLs on generation of AEM site pages. To avoid this conversion in URL, the 3.8 release of XML Documentation solutions allows an administrator to define a list of special characters other than the default valid file name configurations (a-z A-Z 0-9 - _). This implies that although you can configure a list of special characters in a file name including a space, it will get replaced with a hyphen (-). 
 
 ### AEM site page name generation changes
 
-While authoring, it is possible to have the same file name for one or more files under different folders. During the AEM site publishing process, the page names were getting appended with a suffix when there is at least a duplicate file name.
-
-With the 3.8 release of XML Documentation solution, the AEM site page name generation process has been fixed. The suffix gets appended to the generated page name only if there is a duplicate file name. For more information, see [Redundant suffix gets added to file names during AEM Site output generation](https://helpx.adobe.com/xml-documentation-for-experience-manager/kb/site-output-generating-file-names-with-redundant-suffix.html).
+While authoring, it is possible to have the same file name for one or more files under different folders. During the AEM site publishing process, the page names were getting appended with a suffix when there is at least a duplicate file name. With the 3.8 release of XML Documentation solution, the AEM site page name generation process has been fixed. The suffix gets appended to the generated page name only if there is a duplicate file name. 
 
 ### New features and enhancements
 
