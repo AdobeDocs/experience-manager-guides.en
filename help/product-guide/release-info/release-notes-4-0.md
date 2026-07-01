@@ -206,7 +206,7 @@ There are a lot of enhancements and new features that are introduced in the Web 
   - *General*: contains the general file details such as filename, UUID, metadata tags, language, creation date, checked out status, and document state.
   - *Reference*: contains incoming and outgoing references.
 
-  ![File properties panel](assets/file-properties.png)
+    ![File properties panel](assets/file-properties.png)
 
 - Support for subject scheme has also been added in the Web Editor. You can now create and use subject scheme using the Subject Scheme panel. With the addition of subject scheme, you can now use own corporate metadata and taxonomy.
 
@@ -214,7 +214,7 @@ There are a lot of enhancements and new features that are introduced in the Web 
 
 - A new glossary hotspot tool has been introduced in this version to manage glossaries in bulk. Using this tool, you can quickly convert text to glossary and glossary to terms in bulk for a selected map or open topics.
 
-  ![Glossary hotspot tool](assets/glossary-hotspot-tool-1.png)
+  ![Glossary hotspot tool](assets/glossary-hotspot-tool.png)
 
 - Added refresh functionality in Reusable Content panel that allows you to quickly refresh the reusable content in reference files.
 - New file update indicator shows you whether your current (working copy) of file is in sync with the saved version or not.
