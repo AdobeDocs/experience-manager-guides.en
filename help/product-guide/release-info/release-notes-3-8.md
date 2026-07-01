@@ -1,4 +1,4 @@
----
+---https://helpx-prod.scene7.com/is/image/HelpxProd/
 title: Release Notes for Adobe Experience Manager Guides 3.8 and 3.8.5
 description: Top new features and enhancements in 3.8 and 3.8.5 releases of Adobe Experience Manager Guides (earlier known as XML Documentation solution).
 ---
@@ -55,43 +55,43 @@ There are a number of new features and enhancements introduced in the following 
 
 - You can now choose a label from a drop-down list while creating a version of a topic from the Web Editor.
 
-  ![Labels in a dropdown list](assets/labels-drop-down-saving-topic-res.png)
+  ![Labels in a dropdown list](assets/labels-drop-down-saving-topic-res.avif)
 
 - The Review panel in the Web Editor has now been made more powerful that gives you the capability to revert a topic to a version that was shared for review. You can easily incorporate review comments in the reviewed version without having to remember which version of the topic was shared for review.
 
-  ![Revert topic to review version](assets/revert-review-topic.png)
+  ![Revert topic to review version](assets/revert-review-topic.avif)
 
 - A new visual cue has been introduced to indicate whether you are working on the latest version of a topic or an earlier version.
 
-  ![Version cue](assets/old-version-icon.png)
+  ![Version cue](assets/old-version-icon.avif)
 
 - A new Version History feature has been introduced in this release. Use the Version History feature to:
   - View a list of all versions of the currently active topic along with labels added for each version.
   - Revert to a previous version of the topic.
 
-  ![Version History](assets/version-history.png)
+  ![Version History](assets/version-history.avif)
 
 - A new Version Label Management feature has been added that allows you to apply labels to the current or earlier versions of a topic.
 
-  ![Version Label Management](assets/version-label-management.png)
+  ![Version Label Management](assets/version-label-management.avif)
 
 - Added a new feature: "Approve for Publish" with which an author can mark an asset as approved and further lock it for editing.
 - While initiating a review process, you can now filter topics based on their state.
 
-  ![Select review topics based on their State](assets/review-select-topic-on-state.png)
+  ![Select review topics based on their State](assets/review-select-topic-on-state.avif)
 
 - The `<navtitle>` in a map is auto-populated with a topic's title added to the map file. You can also refresh the `<navtitle>` easily from the Web Editor.
 - Previewing a table with a large number of columns is now displayed within the page area.
 - You can apply multiple output classes at one go from the Properties panel (multiselect).
 - While Previewing a topic, you can also generate (an unconditional) PDF output of a single topic directly from the Web Editor.
 
-  ![PDF output from Preview](assets/pdf-output-from-preview.png)
+  ![PDF output from Preview](assets/pdf-output-from-preview.avif)
 
 - Block a publishing request, if the output generation of the same preset is in progress.
 - Added ability for only a set of privileged users to delete assets that have active back-references.
 - Added a feature to view or copy the XML code from the Source View from the Assets UI even if the file is checked out by another user.
 
-  ![XML Source view](assets/xml-source-view-from-assets-ui.png)
+  ![XML Source view](assets/xml-source-view-from-assets-ui.avif)
 
 - Filename is now replaced with the file's title in the Save dialog box, Reusable Contents panel, and Find and Replace panel.
 
@@ -104,7 +104,7 @@ There are a number of new features and enhancements introduced in the following 
 
 - Easily push output from your author instance to the publish instance by using the Bulk Activation Dashboard. You can work with a single map or a map collection and choose the output preset that you want to use for publishing.
 
-  ![Bulk Publishing Dashboard](assets/bulk-publish-dashboard.png)
+  ![Bulk Publishing Dashboard](assets/bulk-publish-dashboard.avif)
 
 #### Performance improvements
 
