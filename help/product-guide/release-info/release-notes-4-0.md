@@ -9,9 +9,7 @@ description: Learn about the bug fixes, new features, and enhancements in Adobe 
 
 *Adobe Experience Manager Guides* was formerly branded as *XML Documentation for Adobe Experience Manager*. Please note certain references within the documentation may still refer to prior branding but are still applicable to the current offering.
 
-This release notes covers the [upgrade instructions](#upgrade-instructions), new features, and enhancements in version 4.0.x of Adobe Experience Manager Guides (referred to as AEM Guides later).
-
-Check the user and installation guides available on the [Learn &amp; Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) page for detailed explanation of features and "how-to" information.
+This release notes covers the upgrade-instructions, new features, and enhancements in version 4.0.x of Adobe Experience Manager Guides (referred to as AEM Guides later).
 
 ## 4.0.3 | Release notes
 
@@ -208,24 +206,24 @@ There are a lot of enhancements and new features that are introduced in the Web 
   - *General*: contains the general file details such as filename, UUID, metadata tags, language, creation date, checked out status, and document state.
   - *Reference*: contains incoming and outgoing references.
 
-![File properties panel](assets/file-properties.png)
+  ![File properties panel](assets/file-properties.png)
 
 - Support for subject scheme has also been added in the Web Editor. You can now create and use subject scheme using the Subject Scheme panel. With the addition of subject scheme, you can now use own corporate metadata and taxonomy.
 
-![Subject scheme panel](assets/subject-scheme-panel.png)
+  ![Subject scheme panel](assets/subject-scheme-panel.png)
 
 - A new glossary hotspot tool has been introduced in this version to manage glossaries in bulk. Using this tool, you can quickly convert text to glossary and glossary to terms in bulk for a selected map or open topics.
 
-![Glossary hotspot tool](assets/glossary-hotspot-tool-1.png)
+  ![Glossary hotspot tool](assets/glossary-hotspot-tool-1.png)
 
 - Added refresh functionality in Reusable Content panel that allows you to quickly refresh the reusable content in reference files.
 - New file update indicator shows you whether your current (working copy) of file is in sync with the saved version or not.
 
-![File version update indicator](assets/version-update-indicator.png)
+  ![File version update indicator](assets/version-update-indicator.png)
 
 - Search filter in the Repository Panel and file browse dialog has been enhanced to give more filtering options, which can be further customized.
 
-![Improved search filter in repository panel](assets/repository-filter-search.png)
+  ![Improved search filter in repository panel](assets/repository-filter-search.png)
 
 - You can now upload .docx files from the Web Editor.
 - User preferences are now stored in user profile and not browser's cookies. This helps users to retain their preferences across browsers or user sessions.
@@ -249,7 +247,7 @@ The following enhancements are now available in the publishing process:
 - PDF generation through FrameMaker Publishing Server now supports baselines and condition presets.
 - Authors can now pass map- and topic-level metadata to DITA-OT publishing. This is helpful when custom PDF templates are designed to use file metadata properties like tags, author, document state, and more.
 
-![Custom metadata in DITA-OT output preset](assets/custom-meta-data-output-preset.png)
+  ![Custom metadata in DITA-OT output preset](assets/custom-meta-data-output-preset.png)
 
 - A new configuration has been added in the configMgr to allow users to retain or delete the versions of the topics being deleted when **Delete and Create** option is used in the AEM Site output generation.
 
@@ -259,12 +257,12 @@ The following improvements can now be seen while working with files in AEM Asset
 
 - A new file upload experience and a new dialog for choosing a conflict resolution strategy has been introduced.
 
-![File upload conflict resolution dialog](assets/file-upload-conflicts-keep-both.png)
+  ![File upload conflict resolution dialog](assets/file-upload-conflicts-keep-both.png)
 
 - Ability to create a new version of uploaded file with an ability to prevent overwriting a checked-out file.
 - Now you can see a preview of images directly from the Version History view. Also, for DITA and non-DITA files, Version History shows the current version information separately.
 
-![Image preview in Version History view](assets/version-history-preview-image.png)
+  ![Image preview in Version History view](assets/version-history-preview-image.png)
 
 #### New report export feature
 
