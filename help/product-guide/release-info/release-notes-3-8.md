@@ -1,4 +1,4 @@
----https://helpx-prod.scene7.com/is/image/HelpxProd/
+---
 title: Release Notes for Adobe Experience Manager Guides 3.8 and 3.8.5
 description: Top new features and enhancements in 3.8 and 3.8.5 releases of Adobe Experience Manager Guides (earlier known as XML Documentation solution).
 ---
