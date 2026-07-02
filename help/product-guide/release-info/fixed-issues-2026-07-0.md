@@ -5,9 +5,9 @@ description: Learn about the bug fixes in the 2026.07.0 release of Adobe Experie
 ---
 # Fixed issues in the 2026.07.0 release 
 
-This article covers the bugs fixed in various areas of the 2026.07.0 release of Adobe Experience Manager Guides as a Cloud Service.
+This article covers the bugs fixed in the various areas of 2026.07.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-Learn about [upgrade instructions for the 2026.07.0 release](upgrade-instructions-2026-06-0.md).
+Learn about [upgrade instructions for the 2026.07.0 release](upgrade-instructions-2026-07-0.md).
 
 ## Editor 2.0
 
