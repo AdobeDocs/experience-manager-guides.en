@@ -21,7 +21,7 @@ role_v2:
 
 Perform the following steps to generate a SCORM output: 
 
-1. After configuring all the required settings for the SCORM output based on your preferences, navigate to the toolbar of the SCORM preset page. 
+1. After configuring all the required settings for SCORM output based on your preferences, navigate to the toolbar of the SCORM preset page. 
 1. Select **Generate output**. 
 
     ![](assets/scorm-generate-output-new.png){width="650"}
@@ -30,11 +30,7 @@ Perform the following steps to generate a SCORM output:
   
     ![](assets/scorm-success-message.png){width="350"}
 
-1. You can download or preview the output by selecting **Download output** or **Preview output** respectively. 
-
-    >[!NOTE]
-    >
-    > The SCORM preview is available when you generate a SCORM output. If your course relies on  external domains for fonts, stylesheets, or embedded content, configure the allowed domains in [Configure SCORM preview](../lc-config-guide/conf-scorm-preview-filters.md).
+1. You can download or preview output by selecting **Download output** or **Preview output** respectively.
    
     ![](assets/scorm-view-output-new.png){width="650"} 
 
