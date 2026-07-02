@@ -14,6 +14,9 @@ breadcrumb-title: AEM Guides Documentation
     - Cloud Services {#cloud-release-notes}
       - {hide-from-toc} [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - 2026 Releases {#2026-releases}
+        - 2026.07.0 Release {#2607-release}
+          - [Fixed issues](./release-info/fixed-issues-2026-07-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2026-07-0.md)
         - 2026.06.0 Release {#2606-release}
           - [What's new](./release-info/whats-new-2026-06-0.md)
           - [Fixed issues](./release-info/fixed-issues-2026-06-0.md)
@@ -395,6 +398,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure Folder profiles](./lc-config-guide/lc-folder-profile.md)
       - [Best practices to set up folder structure](./lc-config-guide/best-practices-folder-structure.md)
       - [Configure other settings](./lc-config-guide/lc-other-settings.md)
+      - [Configure SCORM preview filters](./lc-config-guide/conf-scorm-preview-filters.md)
       - [SCORM key metrics](./lc-config-guide/learning-course-parameters.md)       
     - Video tutorials {#lc-video}  
       - [Author workflow](./lc-video-tutorials/author-workflow.md)
