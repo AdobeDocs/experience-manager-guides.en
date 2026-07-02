@@ -26,7 +26,7 @@ Perform the following steps to generate a SCORM output:
 
     ![](assets/scorm-generate-output-new.png){width="650"}
     
-1. Once the generation is complete, a success message appears confirming the **filename.zip** file has been created. You can preview the output using **View output** on the success message.   
+1. Once the generation is complete, a success message appears confirming the **filename.zip** file has been created. You can preview output using the **View output** option on the success message.   
   
     ![](assets/scorm-success-message.png){width="350"}
 
@@ -34,5 +34,5 @@ Perform the following steps to generate a SCORM output:
    
     ![](assets/scorm-view-output-new.png){width="650"} 
 
-You can upload the ZIP file to your LMS to make the course available to your learners using the **Upload** option on the **Publish to LMS** tab for SCORM preset. 
+You can upload the ZIP file to LMS to make your course available to the learners using **Upload** option on the **Publish to LMS** tab for SCORM preset. 
 
