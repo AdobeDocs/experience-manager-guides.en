@@ -100,7 +100,7 @@ Adobe has identified the following known issues for the 2026.06.0 release:
 
 - Switching between Source and Author modes causes content inconsistencies, with portions of the topic disappearing or not being reflected across modes. (GUIDES-47432)
 
-- When working in Outline view with **Track changes** enabled, rejecting a change removes the entire content within the tag instead of only rejecting the specific modified content. (GUIDES-48319)
+- When working with Track changes, rejecting an Imported text insertion removes all content within the tag instead of only rejecting the specific inserted content. (GUIDES-48319)
 
 - The **Export as PDF** button in the Preview mode does not perform any action when the editor toolbar is customized using `editor_toolbar.json` in a folder profile. (GUIDES-47525)
 
