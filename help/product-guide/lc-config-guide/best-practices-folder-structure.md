@@ -107,4 +107,4 @@ These permissions help ensure that users can create or modify content only withi
 For more details, view [Permissions in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem).
 
 
-For more details, view [](./assets/best-practices-guide.pdf)
+For more details, [View the PDF](./assets/best-practices-guide.pdf)
