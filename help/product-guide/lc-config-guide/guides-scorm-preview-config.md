@@ -19,7 +19,7 @@ This article walks you through adding and configuring the cloud variable in Clou
 
 The variable accepts a single JSON object as its value. Each key controls a specific aspect of the CSP applied during SCORM preview:
 
-| Key | Type | Description |
+| Value | Type | Description |
 |---|---|---|
 | `CSP_ENABLED` | boolean | Turns CSP enforcement on (`true`) or off (`false`) for the SCORM preview. This is `true` by default. |
 | `ALLOW_UNSAFE_EVAL` | boolean | Allows the use of `eval()` and similar unsafe JavaScript evaluation methods when set to `true`. |
@@ -54,7 +54,7 @@ The variable accepts a single JSON object as its value. Each key controls a spec
 }
 ```
 
-Depending on your project, you don't need to populate every key, leave any source type as an empty array if you don't need to allow additional origins for it.
+Depending on your project, you don't need to populate every value, leave any source type as an empty array if you don't need to allow additional origins for it.
 
 > [!TIP]
 >
@@ -68,26 +68,20 @@ Depending on your project, you don't need to populate every key, leave any sourc
 
     ![](assets/add-new-variable.png){width="650"}
 
-4. Enter the variable name: In the **Name** field, enter: `GUIDES_SCORM_PREVIEW_CONFIG`.
+4. Enter the variable name in the **Name** field, `GUIDES_SCORM_PREVIEW_CONFIG`.
 
     ![](assets/variable-name.png){width="650"}
 
-5. **Enter the value**: Enter your complete JSON configuration (see the [Default value](#default--baseline-value) above, edited with the source allow-lists your project needs) into the **Value** field.
-6. Select the **Service/context** to apply it to: Choose whether the variable should apply to **Author**, **Publish**, or both. For Guides authoring, select **Author**.
-7. Select the **Variable type**.
-8. Select **Add**
+5. **Enter the value**: Enter your complete JSON configuration as mentioned above, along with the source allow-lists your project needs into the **Value** field.
+6. Select the **Service Applied** to apply it to: Choose whether the variable should apply to **Author**, **Publish**, or both. For Guides authoring, select **Author**.
+7. Select the **Type** as variable.
+8. Select **Add**.
 9. **Save the configuration.** Once saved, Cloud Manager will start applying the configuration to the selected environment.
 
     ![](assets/save.png){width="650"}
 
 10. **Wait for the update to propagate.** Applying the configuration to the environment typically takes **10 - 12 minutes**. Once complete, the new configuration will be active for SCORM preview on that environment.
 
-## Updating the variable later
+## Update the variable values
 
-If you need to change the value after it's been created:
-
-1. Go back to the environment's **Configuration** section in Cloud Manager.
-2. Locate the `GUIDES_SCORM_PREVIEW_CONFIG` variable in the list.
-3. Click the **Add/Update** icon next to the variable.
-4. Edit the JSON value as needed.
-5. Save your changes and allow the same 10 12 minute propagation window for the update to take effect.
+If your requirements change, the `GUIDES_SCORM_PREVIEW_CONFIG` variable can be revisited at any time from the same Configuration section in Cloud Manager. Locating the existing variable and selecting its **Add/Update** option opens it for editing, allowing the JSON value to be revised as needed. 
