@@ -1,0 +1,93 @@
+---
+title: Generate SCORM output
+description: Learn how to generate a SCORM output in the Product Training and Learning
+feature: Authoring
+role: User
+---
+
+# Configuring the SCORM preview
+
+Experience Manager Guides SCORM preview is managed through a dedicated cloud variable that governs the Content Security Policy (CSP) applied to the preview experience. This variable allows Administrators to turn the policy on or off, and, when active, to extend it with additional trusted sources including scripts, styles, fonts, images, media, frames, workers, connections, and manifests required by their SCORM packages to load and render the preview correctly.
+
+This article walks you through adding and configuring the cloud variable in Cloud Manager, explains what each field in the JSON value controls, and shows how to update the value later if your requirements change.
+
+> **Variable name:** `GUIDES_SCORM_PREVIEW_CONFIG`
+> **Variable type:** JSON value passed as a string
+> **Where it's set:** Cloud Manager, at the environment level
+
+## Understanding the configuration value
+
+The variable accepts a single JSON object as its value. Each key controls a specific aspect of the CSP applied during SCORM preview:
+
+| Key | Type | Description |
+|---|---|---|
+| `CSP_ENABLED` | boolean | Turns CSP enforcement on (`true`) or off (`false`) for the SCORM preview. This is `true` by default. |
+| `ALLOW_UNSAFE_EVAL` | boolean | Allows the use of `eval()` and similar unsafe JavaScript evaluation methods when set to `true`. |
+| `ADDITIONAL_SCRIPT_SRC` | array | Additional trusted sources allowed to serve JavaScript. |
+| `ADDITIONAL_STYLE_SRC` | array | Additional trusted sources allowed to serve stylesheets. |
+| `ADDITIONAL_FONT_SRC` | array | Additional trusted sources allowed to serve fonts. |
+| `ADDITIONAL_FRAME_SRC` | array | Additional trusted sources allowed to be loaded within `<iframe>` elements. |
+| `ADDITIONAL_IMG_SRC` | array | Additional trusted sources allowed to serve images. |
+| `ADDITIONAL_MEDIA_SRC` | array | Additional trusted sources allowed to serve audio/video content. |
+| `ADDITIONAL_WORKER_SRC` | array | Additional trusted sources allowed to serve web workers. |
+| `ADDITIONAL_CONNECT_SRC` | array | Additional trusted sources the preview is allowed to connect to (e.g., XHR/fetch calls). |
+| `ADDITIONAL_MANIFEST_SRC` | array | Additional trusted sources allowed to serve web app manifests. |
+| `ADDITIONAL_OBJECT_SRC` | array | Additional trusted sources allowed to be loaded via `<object>`, `<embed>`, or `<applet>`. |
+
+
+### Default value
+
+```json
+{
+  "CSP_ENABLED": true,
+  "ALLOW_UNSAFE_EVAL": false,
+  "ADDITIONAL_STYLE_SRC": [],
+  "ADDITIONAL_FONT_SRC": [],
+  "ADDITIONAL_FRAME_SRC": [],
+  "ADDITIONAL_SCRIPT_SRC": [],
+  "ADDITIONAL_WORKER_SRC": [],
+  "ADDITIONAL_IMG_SRC": [],
+  "ADDITIONAL_MEDIA_SRC": [],
+  "ADDITIONAL_CONNECT_SRC": [],
+  "ADDITIONAL_MANIFEST_SRC": [],
+  "ADDITIONAL_OBJECT_SRC": []
+}
+```
+
+Depending on your project, you don't need to populate every key, leave any source type as an empty array if you don't need to allow additional origins for it.
+
+> [!TIP]
+>
+> If you need to turn off CSP enforcement for SCORM preview, set `"CSP_ENABLED": false` in the JSON value. This disables the CSP variable altogether for that environment.
+
+## Adding the variable in Cloud Manager
+
+1. **Sign in to Cloud Manager** and select the program and the environment where you want to apply the configuration.
+2. Go to the environment's Configuration section.
+3. Add a new variable: Select the option to add a configuration/environment variable.
+
+    ![](assets/add-new-variable.png){width="650"}
+
+4. Enter the variable name: In the **Name** field, enter: `GUIDES_SCORM_PREVIEW_CONFIG`.
+
+    ![](assets/variable-name.png){width="650"}
+
+5. **Enter the value**: Enter your complete JSON configuration (see the [Default value](#default--baseline-value) above, edited with the source allow-lists your project needs) into the **Value** field.
+6. Select the **Service/context** to apply it to: Choose whether the variable should apply to **Author**, **Publish**, or both. For Guides authoring, select **Author**.
+7. Select the **Variable type**.
+8. Select **Add**
+9. **Save the configuration.** Once saved, Cloud Manager will start applying the configuration to the selected environment.
+
+    ![](assets/save.png){width="650"}
+
+10. **Wait for the update to propagate.** Applying the configuration to the environment typically takes **10 - 12 minutes**. Once complete, the new configuration will be active for SCORM preview on that environment.
+
+## Updating the variable later
+
+If you need to change the value after it's been created:
+
+1. Go back to the environment's **Configuration** section in Cloud Manager.
+2. Locate the `GUIDES_SCORM_PREVIEW_CONFIG` variable in the list.
+3. Click the **Add/Update** icon next to the variable.
+4. Edit the JSON value as needed.
+5. Save your changes and allow the same 10 12 minute propagation window for the update to take effect.
