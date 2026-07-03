@@ -35,15 +35,15 @@ The variable accepts a single JSON object as its value. Each key controls a spec
 | `ADDITIONAL_OBJECT_SRC` | array | Additional trusted sources allowed to be loaded via `<object>`, `<embed>`, or `<applet>`. |
 
 
-### Default value
+## Default value
 
 ```json
 {
   "CSP_ENABLED": true,
   "ALLOW_UNSAFE_EVAL": false,
-  "ADDITIONAL_STYLE_SRC": [],
-  "ADDITIONAL_FONT_SRC": [],
-  "ADDITIONAL_FRAME_SRC": [],
+  "ADDITIONAL_STYLE_SRC": ["https://fonts.googleapis.com"],
+  "ADDITIONAL_FONT_SRC": ["https://fonts.gstatic.com"],
+  "ADDITIONAL_FRAME_SRC": ["https://www.youtube-nocookie.com", "https://www.youtube.com"],
   "ADDITIONAL_SCRIPT_SRC": [],
   "ADDITIONAL_WORKER_SRC": [],
   "ADDITIONAL_IMG_SRC": [],
@@ -53,7 +53,6 @@ The variable accepts a single JSON object as its value. Each key controls a spec
   "ADDITIONAL_OBJECT_SRC": []
 }
 ```
-
 Depending on your project, you don't need to populate every value, leave any source type as an empty array if you don't need to allow additional origins for it.
 
 > [!TIP]
