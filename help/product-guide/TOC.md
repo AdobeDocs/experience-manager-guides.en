@@ -199,8 +199,8 @@ breadcrumb-title: AEM Guides Documentation
           - [4.2.1 Release Notes](./release-info/release-notes-4-2-1.md)
           - [4.2 Release Notes](./release-info/release-notes-4-2.md)
       - [4.1.x Release Notes](./release-info/release-notes-4-1.md)
-      - [4.0.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-      - [3.8.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+      - [4.0.x Release Notes](./release-info/release-notes-4-0.md)
+      - [3.8.x Release Notes](./release-info/release-notes-3-8.md)
 - User Guide (New UI) {#user-guide}
   - Introduction {#about-aemg}
     - [About [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
