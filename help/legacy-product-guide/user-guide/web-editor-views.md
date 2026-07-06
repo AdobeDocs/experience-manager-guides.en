@@ -164,5 +164,7 @@ To export a topic as PDF, follow these steps:
 
     The PDF is generated and opened in a new tab or you are shown a dialog to save the PDF on your local system.
 
+    For details, [View the PDF](./images/best-practices-guide.pdf)
+
 
 **Parent topic:**[Work with the Web Editor](web-editor.md)
