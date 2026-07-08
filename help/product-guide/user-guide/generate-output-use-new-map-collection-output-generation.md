@@ -91,6 +91,10 @@ To create a map collection and add maps to it, perform the following steps:
 
 You get a list of all the desired maps with the Map title, corresponding File name, the Language it is available in, and the configured presets.
 
+>[!NOTE]
+>
+> When a large number of maps are added to a map collection, the Maps & presets tabs display maximum of four maps at a time, along with the associated presets. A paginated view is provided at the bottom of the screen, allowing users to navigate between pages and access additional maps and presets. If you select a map or preset, the selection is retained while navigating through the remaining maps and presets across different pages.
+
 ![Maps and presets tabs](./images/maps-presets-tab.png)
 
 The **Maps and Presets** tab presents information on the basis of the selected maps for a specific language in the following columns:
@@ -108,7 +112,7 @@ The following filtering options are available in the right panel on the Maps and
 
 - **Modified since generation**: You can select Yes, No, or Not yet generated. If you select Yes, only the maps that have been modified since generation are shown in the Maps and Presets tab.
 - **Modified since publishing**: You can select Yes, No, or Not yet generated. If you select Yes, only the maps that have been modified since publishing are shown in the Maps and Presets tab.
-- **Presets**: Select a preset for which you want to filter out the map files. For example, if you choose *AEM Site* preset, then only those maps are shown that have the *AEM Site* output preset configured on them.
+- **Preset types**: Select a preset for which you want to filter out the map files. For example, if you choose *AEM Site* preset, then only those maps are shown that have the *AEM Site* output preset configured on them.
 - **Language**: You can select any of the available language codes and display only the selected language in the Maps and Presets tab.
 
     ![Filters in Maps and presets tabs](./images/filters-maps-presets.png)
@@ -137,6 +141,9 @@ To generate the output using a Map Collection, perform the following steps:
     - **Finished (Green)**: Generation completed successfully.
     - **Finished (Red)**: Generation completed with errors. Error details can be viewed in the logs.
     - **Executing (Blue)**: Generation is currently in progress.
+    - **Failed (Red)**: Generation has failed.
+    - **Waiting (Blue)**: Geneartion is in queue. 
+
 
     ![Status types](./images/status-types.png)
 
