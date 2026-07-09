@@ -21,6 +21,12 @@ This section lists the compatibility matrix for the software applications suppor
 
 For more details, view the [Technical requirements](../install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
 
+### AEM Guides supported SDK version
+
+| Release | Supported AEM Guides SDK|
+|---|---
+| 5.2.0 (UUID) | [aem-guides-sdk-api](https://repo1.maven.org/maven2/com/adobe/aem/aem-guides-sdk-api/5.2.1/) |
+
 ### FrameMaker and FrameMaker Publishing Server
 
 |Release| FMPS| FM |
