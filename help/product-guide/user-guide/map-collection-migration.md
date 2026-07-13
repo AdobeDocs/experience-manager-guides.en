@@ -1,4 +1,10 @@
-# Migrating Old map collections to New map collections
+---
+title: Map collection migration
+description: Learn how to migrate map collections from Old to New Map Collections
+---
+
+
+# Migrate old map collections to new map collections
 
 If you already have map collections set up in the old format, you don't need to rebuild them from scratch when moving to the new experience. You can either recreate them manually, or use the built-in migration tool to move everything over in one step.
 
@@ -6,15 +12,15 @@ The migration tool, added as a new process type within the Bulk Processor, reads
 
 ## Migration process
 
-Perform the following steps to migrate the old map coleections to new map collections: 
+Perform the following steps to migrate the old map collections to new map collections: 
 
-1. Select the Adobe Experience Manager logo at the top and choose **Tools**.
-1. In the **Tools** panel select **Guides**.
+1. Select the Adobe Experience Manager logo and choose **Tools**.
+1. In the **Tools** panel, select **Guides**.
 1. Select the **Bulk Processor** tile.
 
-    ![flow-asset-processor](images/flow-asset-processor.png)
+    ![Higlights the bulk processor tile](images/flow-asset-processor.png)
 
-1. The Guides Bulk Processor window opens with the details shown below. Also, only the information pertaining to the last five migrations are displayed on this window. 
+1. The Guides Bulk Processor window opens with the following details: 
 
     - **Feature type**: Shows the feature of the process that is being executed.
 
@@ -30,19 +36,19 @@ Perform the following steps to migrate the old map coleections to new map collec
 
     - **End Time**: Shows the date and time the migration ends.
 
-    - **Status**: Shows the status of processing as In progress, Completed or Cancelled.
+    - **Status**: Shows the status of migration as In progress, Completed, or Cancelled.
 
-    ![Guides-asset-processor](images/guides-asset-processor-new.png)    
+    ![The Guides Bulk Processor window](images/guides-asset-processor-new.png)    
 
-1. Select **New Process** tab on the top right corner of the window to start a new processing task.
+1. Select **New process** tab on the upper-right corner of the window to start a new migration task.
 
     The **New process** dialog opens.
 
-    ![Guides-asset-processor](images/new-process-migration.png)     
+    ![New process dialog for migration](images/new-process-migration.png)     
 
-1. Select **Map collection** from the dropdownof Fetaure type.
+1. Select **Map collection** from the dropdown of Feature type.
 
-    ![Guides-asset-processor](images/new-process.png)
+    ![Map collection feature for the migration task](images/new-process.png)
 
 1.  Select **Create**.   
 
@@ -50,7 +56,7 @@ This runs a single job that migrates all existing old map collections into new m
 
 ## Important notes
 
-- **Re-running the migration:** If the migration process is run again, it does **not** check for changes in the source (old) map collections. It will unconditionally re-migrate or override the new map collections. D
+- **Re-running the migration:** If the migration process is run again, it does **not** check for changes in the source (old) map collections. It will unconditionally re-migrate or overwrite the new map collections.
 - **Timestamps and uniqueness:** Each migrated map collection stores the timestamp from when it was first migrated. This timestamp is used to maintain uniqueness of the migrated record. Because of this, the migrated map collection will **not** reflect later updates made to the original (source) map collection — only the state at the time of migration is captured.
 
 
