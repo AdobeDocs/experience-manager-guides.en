@@ -4,7 +4,10 @@ If you already have map collections set up in the old format, you don't need to 
 
 The migration tool, added as a new process type within the Bulk Processor, reads your existing old map collections and automatically creates matching new map collections for you. This article walks you through how to run the migration and highlights a few key behaviors you should know before using it.
 
-## Migrat
+## Migration process
+
+Perform the following steps to migrate the old map coleections to new map collections: 
+
 1. Select the Adobe Experience Manager logo at the top and choose **Tools**.
 1. In the **Tools** panel select **Guides**.
 1. Select the **Bulk Processor** tile.
