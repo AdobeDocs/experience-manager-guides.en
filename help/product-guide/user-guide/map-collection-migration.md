@@ -52,7 +52,11 @@ Perform the following steps to migrate the old map collections to new map collec
 
 1.  Select **Create**.   
 
-This runs a single job that migrates all existing old map collections into new map collections. No additional configuration is required.
+This runs a single job that migrates all existing old map collections into new map collections. No additional configuration is required. 
+
+>[!NOTE]
+>
+> If the migration task fails you can check the View logs option by hovering over the Execution Id.
 
 ## Important notes
 
