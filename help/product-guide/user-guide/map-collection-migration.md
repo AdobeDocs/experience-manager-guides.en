@@ -24,11 +24,7 @@ Perform the following steps to migrate the old map collections to new map collec
 
     - **Feature type**: Shows the feature of the process that is being executed.
 
-    - **Execution ID**: It is the unique Id for each migration task that you perform.
-
-    - **Assets**: Shows the folder selected for migration.
-
-    - **Excluded Folders**: Shows the folder that is excluded from migration.
+    - **Execution ID**: It is the unique Id for each migration task that you perform.        
 
     - **Created by**: Shows who created the task.
 
@@ -36,9 +32,9 @@ Perform the following steps to migrate the old map collections to new map collec
 
     - **End Time**: Shows the date and time the migration ends.
 
-    - **Status**: Shows the status of migration as In progress, Completed, or Cancelled.
+    - **Status**: Shows the status of migration as In progress, Completed, or Failed.
 
-    ![The Guides Bulk Processor window](images/guides-asset-processor-new.png)    
+    ![The Guides Bulk Processor window](images/guides-asset-processor-migration.png)    
 
 1. Select **New process** tab on the upper-right corner of the window to start a new migration task.
 
