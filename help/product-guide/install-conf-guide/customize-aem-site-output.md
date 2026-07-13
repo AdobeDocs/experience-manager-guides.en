@@ -116,6 +116,9 @@ Use the instructions given in [Configuration overrides](download-install-config-
 |---|------------|--------------|
 |`com.adobe.fmdita.config.ConfigManager`|`aemsite.pagetitle`|Boolean \(true/false\). In case you want to generate output using the page title, then set this property to true. By default, it is set to use the file name.<br> **Default value**: false |
 
+>![NOTE]
+>
+> The `aemsite.pagetitle` property defines the default folder-level behavior for AEM Site page titles. If the option to select `Topic filename` or `Topic title` is available in the AEM Sites preset for your environment, the preset-level selection takes precedence and overrides the `aemsite.pagetitle` folder-level configuration for that output. For example, if `aemsite.pagetitle=true` but the user selects *Topic filename* in the output preset, the topic filename is used. If `aemsite.pagetitle=false` but the user selects *Topic title*, the topic title is used.
 
 >[!TAB On-Premise]
 
