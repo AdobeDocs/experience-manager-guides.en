@@ -49,7 +49,12 @@ You can add existing content from your content repository to your course. Perfor
 2. Select the type of course content you want to create.  
 3. In the **Select file** dialog, navigate to the content location and select the desired Learning content. 
 
+  >[!NOTE]
+  >
+  > When you add an HTML topic to a Learning group map, the `format="html"` attribute is automatically added to the corresponding `topicref` in the map. This ensures the topic is processed and published correctly.
+
     ![](assets/add-existing-learning-content.png)
+
 4. Choose **Select**. 
 
 The selected course content is added to the course from the repository.
