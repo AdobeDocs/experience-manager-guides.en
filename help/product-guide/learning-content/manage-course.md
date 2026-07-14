@@ -53,7 +53,7 @@ You can add existing content from your content repository to your course. Perfor
   >
   > When you add an HTML topic to a Learning group map, the `format="html"` attribute is automatically added to the corresponding `topicref` in the map. This ensures the topic is processed and published correctly.
 
-    ![](assets/add-existing-learning-content.png)
+      ![](assets/add-existing-learning-content.png)
 
 4. Choose **Select**. 
 
