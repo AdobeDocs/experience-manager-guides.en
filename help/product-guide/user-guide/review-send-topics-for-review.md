@@ -81,7 +81,9 @@ To create a review task and send topics for review, perform the following steps:
 
 1.  Enter a **Description** for the task.
 
-    This description is used as the body of the notification email sent to the reviewers.
+    The description is used as the body of the notification email sent to the reviewers. It's also displayed in the **Review details** dialog, accessible via the *Info* icon beside the **Comments** heading in both the Review UI and the Editor interface.
+   
+    ![](images/review-details.png)
 
 1.  Select the **Due Date** and time to mark the deadline for the review.
 
