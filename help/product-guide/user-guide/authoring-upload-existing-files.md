@@ -57,4 +57,17 @@ For more details about how the various file uploading scenarios function, view [
 
  In case you use a tool like Adobe Experience Manager desktop app or Asset bulk ingestor, then the action to perform on a duplicate file is controlled by a setting in the Adobe Experience Manager server. Contact your system administrator to know about this configuration.
 
+
+## Upload confirmation and rename dialog
+
+When you upload files (for example, a zip file) through the Assets UI, Experience Manager Guides now displays additional dialogs during the upload flow to give you clearer visibility into the process.
+
+### Upload As dialog
+
+Once your file upload begins, the **Upload As** dialog appears, allowing you to rename the file being uploaded before the process completes. This gives you a chance to avoid naming conflicts up front, rather than discovering them after the upload finishes.
+
+[screenshot placeholder]
+
+Select **OK** to confirm the file name and continue the upload. 
+
 **Parent topic:**[Manage content](authoring.md)
