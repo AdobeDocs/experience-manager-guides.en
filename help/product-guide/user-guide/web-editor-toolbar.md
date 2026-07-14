@@ -476,6 +476,11 @@ You can also add other properties for an image file by selecting the required pr
 >
 >You can also define clickable areas \(image map\) in your image. For more details, view the **Insert/Edit Image Map** feature description in the [Left panel](web-editor-left-panel.md) section. 
 
+
+**Resize images**
+
+In the New Editor, you can resize an image by dragging its edges or corner handles in the **Author** mode. As you drag, the Height and Width values in the **Content properties** panel update automatically to reflect the new dimensions. This resizing is also reflected in the **Side by side** mode and in **Preview** mode, so you can confirm how the resized image will appear before publishing.
+
 **Context menu for image or media files**
 
 You can also perform some common operations for images and media files using the context menu. Right-click at any place on your image to invoke the context menu.
