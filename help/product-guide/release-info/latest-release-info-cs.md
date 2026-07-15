@@ -59,12 +59,12 @@ This page provides the latest release information for Adobe Experience Manager G
 |**AEM Guides 2023.12.0**|[2023.12.0 What's new](./whats-new-2023-12-0.md)<br><br>[2023.12.0 Release Notes](./release-notes-2023-12-0.md)|
 |**AEM Guides 2023.11.0**|[2023.11.0 What's new](./whats-new-2023-11-0.md)<br><br>[2023.11.0 Release Notes](./release-notes-2023-11-0.md)|
 |**AEM Guides 2023.10.0**|[2023.10.0 What's new](./whats-new-2023-10-0.md)<br><br>[2023.10.0 Release Notes](./release-notes-2023-10-0.md)|
-|**AEM Guides 2023.09.0**|[2023.09.0 What's new](./whats-new-2023-09-0.md)<br><br>[2023.09.0 Release Notes](./release-notes-2023-9-0.md)|
-|**AEM Guides 2023.07.0**|[2023.07.0 What's new](./whats-new-2023-07-0.md)<br><br>[2023.07.0 Release Notes](./release-notes-2023-7-0.md)|
-|**AEM Guides 2023.06.0**|[2023.06.0 What's new](./whats-new-2023-06-0.md)<br><br>[2023.06.0 Release Notes](./release-notes-2023-6-0.md)|
-|**AEM Guides 2023.04.0**|[2023.04.0 What's new](./whats-new-2023-04-0.md)<br><br>[2023.04.0 Release Notes](./release-notes-2023-4-0.md)|
-|**AEM Guides 2023.03.0**|[2023.03.0 What's new](./whats-new-2023-03-0.md)<br><br>[2023.03.0 Release Notes](./release-notes-2023-3-0.md)|
-|**AEM Guides 2023.02.0**|[2023.02.0 What's new](./whats-new-2023-02-0.md)<br><br>[2023.02.0 Release Notes](./release-notes-2023-2-0.md)|
+|**AEM Guides 2023.09.0**|[2023.09.0 What's new](./whats-new-2023-9-0.md)<br><br>[2023.09.0 Release Notes](./release-notes-2023-9-0.md)|
+|**AEM Guides 2023.07.0**|[2023.07.0 What's new](./whats-new-2023-7-0.md)<br><br>[2023.07.0 Release Notes](./release-notes-2023-7-0.md)|
+|**AEM Guides 2023.06.0**|[2023.06.0 What's new](./whats-new-2023-6-0.md)<br><br>[2023.06.0 Release Notes](./release-notes-2023-6-0.md)|
+|**AEM Guides 2023.04.0**|[2023.04.0 What's new](./whats-new-2023-4-0.md)<br><br>[2023.04.0 Release Notes](./release-notes-2023-4-0.md)|
+|**AEM Guides 2023.03.0**|[2023.03.0 What's new](./whats-new-2023-3-0.md)<br><br>[2023.03.0 Release Notes](./release-notes-2023-3-0.md)|
+|**AEM Guides 2023.02.0**|[2023.02.0 What's new](./whats-new-2023-2-0.md)<br><br>[2023.02.0 Release Notes](./release-notes-2023-2-0.md)|
 
 ## 2022 releases
 
@@ -72,13 +72,13 @@ This page provides the latest release information for Adobe Experience Manager G
 |---|---|
 |**AEM Guides 2022.11.0**|[2022.11.0 Release Notes](./release-notes-2022-11-0.md)|
 |**AEM Guides 2022.10.0**|[2022.10.0 Release Notes](./release-notes-2022-10-0.md)|
-|**AEM Guides 2022.09.0**|[2022.09.0 Release Notes](./release-notes-2022-09-0.md)|
-|**AEM Guides 2022.08.0**|[2022.08.0 Release Notes](./release-notes-2022-08-0.md)|
-|**AEM Guides 2022.05.0**|[2022.05.0 Release Notes](./release-notes-2022-05-0.md)|
-|**AEM Guides 2022.04.0**|[2022.04.0 Release Notes](./release-notes-2022-04-0.md)|
-|**AEM Guides 2022.03.0**|[2022.03.0 Release Notes](./release-notes-2022-03-0.md)|
-|**AEM Guides 2022.02.0**|[2022.02.0 Release Notes](./release-notes-2022-02-0.md)|
-|**AEM Guides 2022.01.0**|[2022.01.0 Release Notes](./release-notes-2022-01-0.md)|
+|**AEM Guides 2022.09.0**|[2022.09.0 Release Notes](./release-notes-2022-9-0.md)|
+|**AEM Guides 2022.08.0**|[2022.08.0 Release Notes](./release-notes-2022-8-0.md)|
+|**AEM Guides 2022.05.0**|[2022.05.0 Release Notes](./release-notes-2022-5-0.md)|
+|**AEM Guides 2022.04.0**|[2022.04.0 Release Notes](./release-notes-2022-4-0.md)|
+|**AEM Guides 2022.03.0**|[2022.03.0 Release Notes](./release-notes-2022-3-0.md)|
+|**AEM Guides 2022.02.0**|[2022.02.0 Release Notes](./release-notes-2022-2-0.md)|
+|**AEM Guides 2022.01.0**|[2022.01.0 Release Notes](./release-notes-2022-1-0.md)|
 
 
 
