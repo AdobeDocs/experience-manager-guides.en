@@ -57,7 +57,7 @@ You can configure the questions using the following question properties from the
     >
     > In the published output of the course, after attempting all the questions in a quiz, learners can use the **Review answers** option to revisit their submitted responses and see which answers were correct or incorrect. This requires no additional setup or configuration.
 
-        ![](assets/review-answer-quiz.png){width="350"}
+    ![](assets/review-answer-quiz.png){width="350"}
 
 
 
