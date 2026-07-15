@@ -45,40 +45,40 @@ This page provides the latest release information for Adobe Experience Manager G
 
 |[!DNL AEM Guides] Release|Release Notes|
 |---|---|
-|**AEM Guides 2024.12.0**|[2024.12.0 What's new](./whats-new-2024-12-0.md)<br><br>[2024.12.0 Fixed issues](./fixed-issues-2024-12-0.md)<br><br>[2024.12.0 Upgrade instructions](./upgrade-instructions-2024-12-0.md)|
+|**AEM Guides 2024.12.0**|[2024.12.0 Fixed issues](./fixed-issues-2024-12-0.md)<br><br>[2024.12.0 Upgrade instructions](./upgrade-instructions-2024-12-0.md)|
 |**AEM Guides 2024.10.0 Service Pack 1**|[2024.10.0 Service Pack 1 Fixed issues](./fixed-issues-2024-10-0-sp1.md)|
 |**AEM Guides 2024.10.0**|[2024.10.0 What's new](./whats-new-2024-10-0.md)<br><br>[2024.10.0 Fixed issues](./fixed-issues-2024-10-0.md)<br><br>[2024.10.0 Upgrade instructions](./upgrade-instructions-2024-10-0.md)|
 |**AEM Guides 2024.06.0**|[2024.06.0 What's new](./whats-new-2024-06-0.md)<br><br>[2024.06.0 Fixed issues](./fixed-issues-2024-06-0.md)<br><br>[2024.06.0 Upgrade instructions](./upgrade-instructions-2024-06-0.md)|
 |**AEM Guides 2024.04.0**|[2024.04.0 What's new](./whats-new-2024-04-0.md)<br><br>[2024.04.0 Fixed issues](./fixed-issues-2024-04-0.md)<br><br>[2024.04.0 Upgrade instructions](./upgrade-instructions-2024-04-0.md)|
-|**AEM Guides 2024.02.0**|[2024.02.0 What's new](./whats-new-2024-02-0.md)<br><br>[2024.02.0 Fixed issues](./fixed-issues-2024-02-0.md)<br><br>[2024.02.0 Upgrade instructions](./upgrade-instructions-2024-02-0.md)|
+|**AEM Guides 2024.02.0**|[2024.02.0 What's new](./whats-new-2024-2-0.md)<br><br>[2024.02.0 Fixed issues](./fixed-issues-2024-2-0.md)<br><br>[2024.02.0 Upgrade instructions](./upgrade-instructions-2024-2-0.md)|
 
 ## 2023 releases
 
 |[!DNL AEM Guides] Release|Release Notes|
 |---|---|
-|**AEM Guides 2023.12.0**|[2023.12.0 What's new](./whats-new-2023-12-0.md)<br><br>[2023.12.0 Fixed issues](./fixed-issues-2023-12-0.md)<br><br>[2023.12.0 Upgrade instructions](./upgrade-instructions-2023-12-0.md)|
-|**AEM Guides 2023.11.0**|[2023.11.0 What's new](./whats-new-2023-11-0.md)<br><br>[2023.11.0 Fixed issues](./fixed-issues-2023-11-0.md)<br><br>[2023.11.0 Upgrade instructions](./upgrade-instructions-2023-11-0.md)|
-|**AEM Guides 2023.10.0**|[2023.10.0 What's new](./whats-new-2023-10-0.md)<br><br>[2023.10.0 Fixed issues](./fixed-issues-2023-10-0.md)<br><br>[2023.10.0 Upgrade instructions](./upgrade-instructions-2023-10-0.md)|
-|**AEM Guides 2023.09.0**|[2023.09.0 What's new](./whats-new-2023-09-0.md)<br><br>[2023.09.0 Fixed issues](./fixed-issues-2023-09-0.md)<br><br>[2023.09.0 Upgrade instructions](./upgrade-instructions-2023-09-0.md)|
-|**AEM Guides 2023.07.0**|[2023.07.0 What's new](./whats-new-2023-07-0.md)<br><br>[2023.07.0 Fixed issues](./fixed-issues-2023-07-0.md)<br><br>[2023.07.0 Upgrade instructions](./upgrade-instructions-2023-07-0.md)|
-|**AEM Guides 2023.06.0**|[2023.06.0 What's new](./whats-new-2023-06-0.md)<br><br>[2023.06.0 Fixed issues](./fixed-issues-2023-06-0.md)<br><br>[2023.06.0 Upgrade instructions](./upgrade-instructions-2023-06-0.md)|
-|**AEM Guides 2023.04.0**|[2023.04.0 What's new](./whats-new-2023-04-0.md)<br><br>[2023.04.0 Fixed issues](./fixed-issues-2023-04-0.md)<br><br>[2023.04.0 Upgrade instructions](./upgrade-instructions-2023-04-0.md)|
-|**AEM Guides 2023.03.0**|[2023.03.0 What's new](./whats-new-2023-03-0.md)<br><br>[2023.03.0 Fixed issues](./fixed-issues-2023-03-0.md)<br><br>[2023.03.0 Upgrade instructions](./upgrade-instructions-2023-03-0.md)|
-|**AEM Guides 2023.02.0**|[2023.02.0 What's new](./whats-new-2023-02-0.md)<br><br>[2023.02.0 Fixed issues](./fixed-issues-2023-02-0.md)<br><br>[2023.02.0 Upgrade instructions](./upgrade-instructions-2023-02-0.md)|
+|**AEM Guides 2023.12.0**|[2023.12.0 What's new](./whats-new-2023-12-0.md)<br><br>[2023.12.0 Release Notes](./release-notes-2023-12-0.md)|
+|**AEM Guides 2023.11.0**|[2023.11.0 What's new](./whats-new-2023-11-0.md)<br><br>[2023.11.0 Release Notes](./release-notes-2023-11-0.md)|
+|**AEM Guides 2023.10.0**|[2023.10.0 What's new](./whats-new-2023-10-0.md)<br><br>[2023.10.0 Release Notes](./release-notes-2023-10-0.md)|
+|**AEM Guides 2023.09.0**|[2023.09.0 What's new](./whats-new-2023-09-0.md)<br><br>[2023.09.0 Release Notes](./release-notes-2023-9-0.md)|
+|**AEM Guides 2023.07.0**|[2023.07.0 What's new](./whats-new-2023-07-0.md)<br><br>[2023.07.0 Release Notes](./release-notes-2023-7-0.md)|
+|**AEM Guides 2023.06.0**|[2023.06.0 What's new](./whats-new-2023-06-0.md)<br><br>[2023.06.0 Release Notes](./release-notes-2023-6-0.md)|
+|**AEM Guides 2023.04.0**|[2023.04.0 What's new](./whats-new-2023-04-0.md)<br><br>[2023.04.0 Release Notes](./release-notes-2023-4-0.md)|
+|**AEM Guides 2023.03.0**|[2023.03.0 What's new](./whats-new-2023-03-0.md)<br><br>[2023.03.0 Release Notes](./release-notes-2023-3-0.md)|
+|**AEM Guides 2023.02.0**|[2023.02.0 What's new](./whats-new-2023-02-0.md)<br><br>[2023.02.0 Release Notes](./release-notes-2023-2-0.md)|
 
 ## 2022 releases
 
 |[!DNL AEM Guides] Release|Release Notes|
 |---|---|
-|**AEM Guides 2022.11.0**|[2022.11.0 What's new](./whats-new-2022-11-0.md)<br><br>[2022.11.0 Fixed issues](./fixed-issues-2022-11-0.md)<br><br>[2022.11.0 Upgrade instructions](./upgrade-instructions-2022-11-0.md)|
-|**AEM Guides 2022.10.0**|[2022.10.0 What's new](./whats-new-2022-10-0.md)<br><br>[2022.10.0 Fixed issues](./fixed-issues-2022-10-0.md)<br><br>[2022.10.0 Upgrade instructions](./upgrade-instructions-2022-10-0.md)|
-|**AEM Guides 2022.09.0**|[2022.09.0 What's new](./whats-new-2022-09-0.md)<br><br>[2022.09.0 Fixed issues](./fixed-issues-2022-09-0.md)<br><br>[2022.09.0 Upgrade instructions](./upgrade-instructions-2022-09-0.md)|
-|**AEM Guides 2022.08.0**|[2022.08.0 What's new](./whats-new-2022-08-0.md)<br><br>[2022.08.0 Fixed issues](./fixed-issues-2022-08-0.md)<br><br>[2022.08.0 Upgrade instructions](./upgrade-instructions-2022-08-0.md)|
-|**AEM Guides 2022.05.0**|[2022.05.0 What's new](./whats-new-2022-05-0.md)<br><br>[2022.05.0 Fixed issues](./fixed-issues-2022-05-0.md)<br><br>[2022.05.0 Upgrade instructions](./upgrade-instructions-2022-05-0.md)|
-|**AEM Guides 2022.04.0**|[2022.04.0 What's new](./whats-new-2022-04-0.md)<br><br>[2022.04.0 Fixed issues](./fixed-issues-2022-04-0.md)<br><br>[2022.04.0 Upgrade instructions](./upgrade-instructions-2022-04-0.md)|
-|**AEM Guides 2022.03.0**|[2022.03.0 What's new](./whats-new-2022-03-0.md)<br><br>[2022.03.0 Fixed issues](./fixed-issues-2022-03-0.md)<br><br>[2022.03.0 Upgrade instructions](./upgrade-instructions-2022-03-0.md)|
-|**AEM Guides 2022.02.0**|[2022.02.0 What's new](./whats-new-2022-02-0.md)<br><br>[2022.02.0 Fixed issues](./fixed-issues-2022-02-0.md)<br><br>[2022.02.0 Upgrade instructions](./upgrade-instructions-2022-02-0.md)|
-|**AEM Guides 2022.01.0**|[2022.01.0 What's new](./whats-new-2022-01-0.md)<br><br>
+|**AEM Guides 2022.11.0**|[2022.11.0 Release Notes](./release-notes-2022-11-0.md)|
+|**AEM Guides 2022.10.0**|[2022.10.0 Release Notes](./release-notes-2022-10-0.md)|
+|**AEM Guides 2022.09.0**|[2022.09.0 Release Notes](./release-notes-2022-09-0.md)|
+|**AEM Guides 2022.08.0**|[2022.08.0 Release Notes](./release-notes-2022-08-0.md)|
+|**AEM Guides 2022.05.0**|[2022.05.0 Release Notes](./release-notes-2022-05-0.md)|
+|**AEM Guides 2022.04.0**|[2022.04.0 Release Notes](./release-notes-2022-04-0.md)|
+|**AEM Guides 2022.03.0**|[2022.03.0 Release Notes](./release-notes-2022-03-0.md)|
+|**AEM Guides 2022.02.0**|[2022.02.0 Release Notes](./release-notes-2022-02-0.md)|
+|**AEM Guides 2022.01.0**|[2022.01.0 Release Notes](./release-notes-2022-01-0.md)|
 
 
 
