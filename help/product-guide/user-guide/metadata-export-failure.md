@@ -22,7 +22,7 @@ topic_v2:
 ---
 # Why does metadata export for a folder fail with "String is too long" exception?
 
-When you [export metadata](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/metadata#export-metadata) for a folder from the Assets UI, the export job can fail with `String is too long` exception. This typically happens when the folder contains Guides-specific properties that store non-string values, such as `baselineObj`.
+When you [export metadata](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/metadata#export-metadata) for a folder from the Assets UI, the export job can fail with `String is too long` exception. This typically happens when the folder contains Experience Manager Guides specific properties that store non-string values, such as `baselineObj`.
 
 **Why does this happen?**
 
@@ -36,8 +36,6 @@ To avoid this failure, the following properties are excluded from metadata expor
 - `namedoutputs`
 - `conditionpresets`
 - `nextgenbaselinestore`
-
-This default exclusion applies whether you are on an on-premises or Experience Manager Guides as a Cloud Service environment.
 
 **Can I still export these properties?**
 
