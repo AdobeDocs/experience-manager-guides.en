@@ -1,5 +1,5 @@
 ---
-title:  Metadata export fail with "String is too long" exception in Experience Manager Guides
+title:  Metadata export fails with "String is too long" exception in Experience Manager Guides
 description: Understand why metadata export can fail for Guides content in the Assets UI.
 feature: Authoring, Publishing
 role: User
@@ -20,29 +20,27 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
 ---
-# Why does metadata export fail with "String is too long" exception?
+# Why does metadata export for a folder fail with "String is too long" exception?
 
-When you export metadata for a folder from the Assets UI, the export job can fail with an exception similar to `String is too long`. This typically happens when the folder contains Guides-specific properties that store non-string data, such as `baselineObj`.
+When you [export metadata](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/metadata#export-metadata) for a folder from the Assets UI, the export job can fail with `String is too long` exception. This typically happens when the folder contains Guides-specific properties that store non-string values, such as `baselineObj`.
 
 **Why does this happen?**
 
-Some properties stored under an asset's metadata node are used internally by Experience Manager Guides and contain data, such as JSON objects, rather than plain string values. When **Properties to be exported** is set to **All**, the export job attempts to convert every property to a string, and it fails on properties that hold this kind of data.
+Some properties stored under an asset's metadata node are used internally by Experience Manager Guides and contain data, such as JSON objects, rather than plain string values. When exporting metadata for a folder, if **Properties to be exported** is set to **All**, the export job attempts to convert every property to a string, and it fails on properties that hold this kind of data.
 
 **How is this prevented?**
 
-To avoid this failure, the following properties are excluded from metadata export by default, through the **Asset Metadata Exporter Configuration**:
+To avoid this failure, the following properties are excluded from metadata export by default in the **Asset Metadata Exporter Configuration**:
 
 - `baseline`
 - `namedoutputs`
 - `conditionpresets`
 - `nextgenbaselinestore`
 
-This default exclusion applies whether you are on an on-premises or AEM as a Cloud Service environment.
+This default exclusion applies whether you are on an on-premises or Experience Manager Guides as a Cloud Service environment.
 
 **Can I still export these properties?**
 
 Yes. If you need one or more of these properties in the export, you can edit the **Asset Metadata Exporter Configuration** and remove them from the exclusion list.
-
-**Next steps**
 
 Removing a property from the exclusion list does not guarantee that the export will succeed. Depending on the size and content of the underlying data, the job may still fail with the same exception. If you run into this after re-enabling a property, add it back to the exclusion list to restore the default, reliable export behavior.
