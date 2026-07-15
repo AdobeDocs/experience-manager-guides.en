@@ -21,18 +21,18 @@ role_v2:
 
 Perform the following steps to generate a SCORM output: 
 
-1. After configuring all the required settings for the SCORM output based on your preferences, navigate to the toolbar of the SCORM preset page. 
+1. After configuring all the required settings for SCORM output based on your preferences, navigate to the toolbar of the SCORM preset page. 
 1. Select **Generate output**. 
 
     ![](assets/scorm-generate-output-new.png){width="650"}
     
-1. Once the generation is complete, a success message appears confirming the **filename.zip** file has been created. You can preview the output using **View output** on the success message.   
+1. Once the generation is complete, a success message appears confirming the **filename.zip** file has been created. You can preview output using the **View output** option on the success message.   
   
     ![](assets/scorm-success-message.png){width="350"}
 
-1. You can download or preview the output by selecting **Download output** or **Preview output** respectively. 
+1. You can download or preview output by selecting **Download output** or **Preview output** respectively.
    
     ![](assets/scorm-view-output-new.png){width="650"} 
 
-You can upload the ZIP file to your LMS to make the course available to your learners using the **Upload** option on the **Publish to LMS** tab for SCORM preset. 
+You can upload the ZIP file to LMS to make your course available to the learners using **Upload** option on the **Publish to LMS** tab for SCORM preset. 
 
