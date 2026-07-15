@@ -13,6 +13,7 @@ breadcrumb-title: AEM Guides Documentation
   - Release Notes {#release-notes}
     - Cloud Services {#cloud-release-notes}
       - {hide-from-toc} [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
+      - {hide-from-toc} [Cloud Releases](./release-info/latest-release-info-cs.md)
       - 2026 Releases {#2026-releases}
         - 2026.07.0 Release {#2607-release}
           - [Fixed issues](./release-info/fixed-issues-2026-07-0.md)
@@ -596,6 +597,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Publishing in AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
     - [Content Review in AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
   - Articles {#kb-articles}
+    - [Overview](./knowledge-base/kb-articles/introduction.md)
     - Authoring {#authoring}
       - Editor {#webeditor}
         - [Content re-usability in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
