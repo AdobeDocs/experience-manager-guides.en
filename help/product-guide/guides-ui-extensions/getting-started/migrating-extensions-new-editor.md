@@ -15,34 +15,34 @@ This guide helps extension authors understand what's involved in moving their cu
 > If you have an existing AEM Guides extension (Old Editor), including custom context menu items, toolbar buttons, dialogs, attribute or metadata logic, or content styling, this guide helps you keep it working with the New Editor.
 
 
-## TL;DR
+## Overview
 
-1. **Your registration does not change.** Keep using `window.extension` / `tcx.extension.register`.
-2. **The editor canvas is a new surface.** Context-menu items must declare the new widget id
+1. **Your registration does not change**: Keep using `window.extension` / `tcx.extension.register`.
+2. **The Editor canvas is a new surface.** Context-menu items must declare the new widget id
    `markup_editor_menu`; in-editor behavior must stop touching the DOM.
-3. **Stop reading/writing the DOM.** Replace `tcx.curEditor.*` DOM access with the
+3. **Stop reading/writing the DOM**: Replace `tcx.curEditor.*` DOM access with the
    `guides.editor` API: read with `runUtil(...)`, write with `runCommand(...)`, style with
    decorations, and run global actions (save) through app events.
-4. **App-shell menus (repository, map viewer, file/folder) are unchanged** — they still run on
+4. **App-shell menus (repository, map viewer, file/folder) are unchanged**: they still run on
    the legacy framework.
-5. **Both editors coexist.** Target both with arrays. **Register** plugins unconditionally at load;
+5. **Both editors coexist** Target both with arrays. **Register** plugins unconditionally at load;
    gate only *runtime* actions by `guides.editor.version` (which stays `1.0.0` until a file is
-   open — see §2).
+   open, view [Detect the editor and bootstrap safely](#detect_the_Editor_and _bootstrap _safely).
 
 
 ## Why the change?
 
-| | Legacy CKEditor | New MarkupEditor |
+|Criteria | Legacy CKEditor | New MarkupEditor |
 |---|---|---|
-| Source of truth | **The DOM** | **The ProseMirror document** |
-| Selection | `getSelection()` on a root document | A ProseMirror selection (positions/ranges) |
-| To change content | Mutate DOM attributes/classes | Dispatch a **command** (transaction) |
-| Rendering | DOM is permanent | DOM is an **ephemeral render in a shadow DOM**, rebuilt at any time |
-| Styling | Page/clientlib CSS | CSS injected into the **shadow DOM** |
+| Source of truth | DOM | ProseMirror document |
+| Selection | `getSelection()` on a root document | ProseMirror selection (positions/ranges) |
+| To change content | Mutate DOM attributes/classes | Dispatch a command (transaction) |
+| Rendering | DOM is permanent | DOM is an ephemeral render in a shadow DOM, rebuilt at any time |
+| Styling | Page or clientlib CSS | CSS injected shadow DOM |
 
-**Consequence:** any extension that mutates the DOM, parses `selectedHtml`, or holds the editor
-object will *appear* to work for a moment and then break on the next rerender. The migration is
-fundamentally "move from DOM-first to model-first."
+Any extension that mutates the DOM, parses `selectedHtml`, or holds the Editor
+object *appears* to work for a moment and then break on the next rerender. The migration is
+fundamentally *move from DOM-first to model-first*.
 
 ## Detect the Editor and bootstrap safely
 
@@ -60,19 +60,17 @@ file is actually open:
 | `guides.editor.version` | Meaning |
 |---|---|
 | `2.0.0` | A MarkupEditor (ProseMirror) file is open |
-| `1.0.0` | A legacy CKEditor file is open **— or no file is open yet** |
+| `1.0.0` | A legacy CKEditor file is open or no file is open yet |
 
-> **Important:** at `guides.ready` time no file is open, so `version` is `1.0.0` even when
-> MarkupEditor is enabled. Never use `version` to decide whether to *register* plugins (see §2.1).
-> Use it only to branch *runtime* actions, evaluated at the moment the action runs (e.g. inside a
-> menu handler), when a file is guaranteed open.
+>[!IMPORTANT]
+>
+> When the `guides.ready` event occurs, no file has yet opened, so `version` will report as `1.0.0` regardless of whether MarkupEditor is enabled. Do not use `version` to determine whether plugins get *registered* (view [Plugin Registration and Runtime Gating: Recommended Implementation Pattern](#plugin-registration-and-runtime-gating)). Use it only to branch *runtime* behavior, and evaluate it at the point of execution (e.g., within a menu handler), where a file is guaranteed to be open.
 
-### Register at load, gate actions at runtime
+### Plugin registration and runtime gating
 
-- **Registration** (`registerPlugin`, one-time setup) → run it **unconditionally** in `guides.ready`.
-  It is a harmless no-op on the legacy editor: the legacy editor never reads the plugin registry,
-  and your factory runs only when a MarkupEditor is actually constructed. It does **not** throw.
-- **Runtime calls** (`runCommand`, `runUtil`, `addDecoration`, …) → gate by `version === '2.0.0'` at
+- **Registration** (`registerPlugin`, one-time setup): run it **unconditionally** in `guides.ready`. It is a harmless no-op on the legacy editor: the legacy editor never reads the plugin registry, and your factory runs only when a MarkupEditor is actually constructed. It does **not** throw.
+
+- **Runtime calls** (`runCommand`, `runUtil`, `addDecoration`, …): gate by `version === '2.0.0'` at
   call time. They don't throw on the legacy editor (they safely return `false`/`undefined`), but
   gating avoids no-op warnings and lets you keep a legacy fallback.
 
@@ -91,13 +89,11 @@ function onMenuClick() {
 }
 ```
 
-> Pass a **factory** — `() => ({ plugin, css })` — to `registerPlugin`, never a constructed plugin
-> instance. A non-function is the only input it rejects (throws on both editors).
-Do **not** cache the editor instance; call `guides.editor.*` fresh each time.
+Pass a **factory** `() => ({ plugin, css })` — to `registerPlugin`, never a constructed plugin instance. A non-function is the only input it rejects (throws on both editors). Do not cache the editor instance; call `guides.editor.*` fresh each time.
 
-### Hello world: a CSS-only highlight plugin
+**Hello world: a CSS-only highlight plugin**
 
-The smallest useful extension ships **only CSS** — a no-op ProseMirror plugin plus styles. This
+The smallest useful extension ships **only CSS** a no-op ProseMirror plugin plus styles. This
 highlights every `<note>` element with a yellow background inside the editor:
 
 ```js
@@ -138,7 +134,9 @@ Every hit is a migration item. Classify each as: *context-menu surface*, *state 
 write*, *global action*, *rendering-only*, or *CSS*.
 
 
-## What stays exactly the same
+## Common for both the Editors
+
+The following behaviors and structures apply identically to both the Editors:
 
 - **Registration:** `window.extension[id] = config` and/or `tcx.extension.register(id, config)` on
   the `tcx-loaded` event.
@@ -151,15 +149,15 @@ write*, *global action*, *rendering-only*, or *CSS*.
   | Map viewer | `ditamap_viewer` / `map_view_options` |
   | Baseline / preset panels | `baseline_panel_menu` / `preset_item_menu` |
 
-  Items targeting these surfaces need **no change** for the new editor — do not move them to
+  Items targeting these surfaces need **no change** for the New Editor — do not move them to
   `markup_editor_menu`.
 
-## Migrate context-menu items (editor canvas)
+## Migrate context-menu items (Editor canvas)
 
 This applies only to menus that targeted the **editor** (`dita_editor_menu`,
 `author_outline_element`), i.e. the right-click / breadcrumb menu inside the editing surface.
 
-### How it routes on the new editor
+### How it routes on the New Editor
 
 ```
 window.extension[id]  ─►  filtered by contextMenuWidget == 'markup_editor_menu'
@@ -216,7 +214,7 @@ data: { eventid: 'editCrossReference' }  // custom → runs controller.editCross
 
 Add `readOnly: true` on an item that must stay enabled in read-only content.
 
-### Rewrite the handler body (Section 6)
+### Rewrite the handler body
 
 Handlers usually read the selection and mutate a node — migrate those off the DOM.
 
@@ -272,7 +270,7 @@ guides.editor.runCommand('insertXml', '<sup></sup>', undefined, { setCursorInCon
 guides.editor.runCommand('unwrapNode');
 ```
 
-Guard before acting:
+**Prerequisite**
 
 ```js
 guides.editor.focus();
@@ -303,9 +301,10 @@ through the event handles dirty state centrally. Use `guides.editor.focus()` for
 
 
 ## Migrate rendering-only logic (DOM paint → decorations)
+
 Anything that added CSS classes, `data-*` attributes, or "display text" by mutating the DOM must
-become a **decoration**, or it vanishes on rerender.
-Simple, declarative cases:
+become a **decoration**, or it vanishes on rerender. Below are simple declarative cases:
+
 ```js
 guides.editor.addDecoration('important-sections', 'section', {
   class: 'section-important',
@@ -322,8 +321,9 @@ guides.editor.removeDecoration('important-sections');
 guides.editor.clearDecorations();
 guides.editor.getDecorations();
 ```
-Complex cases (custom state, broken-state via transaction meta, widget text) → register a
+Complex cases (custom state, broken-state via transaction meta, widget text): Register a
 ProseMirror plugin once, using the exposed libraries:
+
 ```js
 const createXrefPlugin = () => {
   const { Plugin, PluginKey } = guides.editor.prosemirror.state;
@@ -336,14 +336,18 @@ const createXrefPlugin = () => {
 
 guides.ready(() => guides.editor.registerPlugin(createXrefPlugin));
 ```
-> Register plugins at app load (once), not inside dialogs or repeatedly — the registry does not dedupe.
+>
+
+Register plugins at app load (once), not inside dialogs or repeatedly — the registry does not dedupe.
 > `registerPlugin` accepts a **factory function only**, not a plugin instance.
 `guides.editor.prosemirror` exposes: `state`, `model`, `view`, `transform`, `commands`, `keymap`,
 `history`, `tables`, `dropcursor`, `collab`, `markdown`.
 
 
 ## Migrate CSS (page clientlib → shadow DOM)
+
 The MarkupEditor renders inside a **shadow DOM**; page-level and AEM clientlib CSS do not reach it.
+
 ```js
 guides.editor.registerPlugin(() => ({
   plugin: new guides.editor.prosemirror.state.Plugin({}),   // no-op, CSS only
@@ -374,52 +378,46 @@ styles the legacy editor only — keep it if you support both, but know it is in
 | `contextMenuWidget: 'dita_editor_menu'` | `['dita_editor_menu', 'markup_editor_menu']` |
 
 
-## Common pitfalls
+## Common issues
 
-- **Item doesn't appear in the new editor menu** → `contextMenuWidget` is missing
+- **Item doesn't appear in the New Editor menu**: `contextMenuWidget` is missing
   `markup_editor_menu`, or the config was registered *after* the editor opened (config is read
-  once at editor construction — register at app load).
-- **Item appears in the wrong place** → `target` anchor doesn't resolve; anchor to an item that
+  once at editor construction register at app load).
+- **Item appears in the wrong place**: `target` anchor doesn't resolve; anchor to an item that
   exists in the new menu (e.g. `Cut`).
-- **Change "works" then disappears** → you mutated the DOM. Use a command (write) or a decoration
+- **Change "works" then disappears**: You mutated the DOM. Use a command (write) or a decoration
   (style) instead.
-- **CSS has no effect** → it's page-level; the editor is in a shadow DOM. Use `registerPlugin({ css })`.
-- **Unsafe guards throw** → patterns like `if (!tcx.curEditor && !tcx.curEditor.editor)` evaluate
-  `.editor` on a falsy object. Guard on `guides.editor` capabilities instead:
-  `if (!guides?.editor) return;`.
-- **Trying to migrate app-shell menus** → repository/map/file menus are not the editor canvas;
+- **CSS has no effect**: It's page-level; the editor is in a shadow DOM. Use `registerPlugin({ css })`.
+- **Unsafe guards throw**: Patterns like `if (!tcx.curEditor && !tcx.curEditor.editor)` evaluate
+`.editor` on a falsy object. Guard on `guides.editor` capabilities instead:
+`if (!guides?.editor) return;`.
+- **Trying to migrate app-shell menus**: Repository/map/file menus are not the editor canvas;
   leave them on their legacy widget ids.
 
 ## Verification checklist
 
-- [ ] Context-menu items appear in **both** the legacy and MarkupEditor menus.
-- [ ] Items land in the expected position.
-- [ ] Custom `eventid` runs `controller[eventid]`; global keys fire the built-in command.
-- [ ] State reads return correct values **after typing/rerender** (model, not stale DOM).
-- [ ] Content writes **persist after save and reopen**.
-- [ ] Decorations survive a rerender.
-- [ ] Shadow-DOM CSS visibly applies inside the editor.
-- [ ] Save fires via `AUTHOR_SAVE_KEY` and clears dirty state.
-- [ ] `readOnly` items behave correctly in locked content.
-- [ ] Preview / side-by-side: intentional read-only DOM work is left as-is.
-- [ ] `grep -rn "tcx.curEditor" src` is clean (or only the documented, intentional remainder).
-- [ ] Plugins registered exactly once, inside `guides.ready`.
+- Context-menu items appear in **both** the legacy and MarkupEditor menus.
+- Items land in expected position.
+- Custom `eventid` runs `controller[eventid]`; global keys fire the built-in command.
+- State reads return correct values **after typing/rerender** (model, not stale DOM).
+- Content writes **persist after save and reopen**.
+- Decorations survive a rerender.
+- Shadow-DOM CSS visibly applies inside the editor.
+- Save fires via `AUTHOR_SAVE_KEY` and clears dirty state.
+- `readOnly` items behave correctly in locked content.
+- Preview / side-by-side: intentional read-only DOM work is left as-is.
+- `grep -rn "tcx.curEditor" src` is clean (or only the documented, intentional remainder).
+- Plugins registered exactly once, inside `guides.ready`.
 
 
 ## Suggested rollout sequence
 
-1. **Bootstrap** — wrap setup in `guides.ready`; register plugins unconditionally and add `version`
-   gating around *runtime* actions only (§2.1).
-2. **Context-menu surface** — add `markup_editor_menu`, fix `target` anchors. Items now appear.
-3. **Reads** — migrate selection/attribute reads to `runUtil`.
-4. **Writes** — migrate mutations to `runCommand`; saves to app events.
-5. **Rendering** — move DOM styling to decorations / `registerPlugin`; move CSS to shadow DOM.
-6. **Harden** — fix unsafe guards, remove the editor handle, verify on both editors.
+1. **Bootstrap**: Wrap setup in `guides.ready`; register plugins unconditionally and add `version` gating around *runtime* actions only (For details, view [Plugin Registration and Runtime Gating](#plugin-registration-and-runtime-gating)).
+2. **Context-menu surface**: Add `markup_editor_menu`, fix `target` anchors. Items now appear.
+3. **Reads**: Migrate selection/attribute reads to `runUtil`.
+4. **Writes**: Migrate mutations to `runCommand`; saves to app events.
+5. **Rendering**: Move DOM styling to decorations / `registerPlugin`; move CSS to shadow DOM.
+6. **Harden**: Fix unsafe guards, remove the editor handle, verify on both editors.
+
 Migrate one surface at a time and keep the legacy paths working (arrays + version gating) so a
 single extension build runs on both editors throughout the transition.
-
-
-## Related docs
-
-- `extension-framework.md` — full `guides.editor` API reference and extension integration
-- `current-editor.md`, `event-handler.md`, `model.md`, `server-api.md`
