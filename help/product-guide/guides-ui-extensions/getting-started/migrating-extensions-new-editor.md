@@ -27,7 +27,7 @@ This guide helps extension authors understand what's involved in moving their cu
    the legacy framework.
 5. **Both editors coexist** Target both with arrays. **Register** plugins unconditionally at load;
    gate only *runtime* actions by `guides.editor.version` (which stays `1.0.0` until a file is
-   open, view [Detect the editor and bootstrap safely](#detect_the_Editor_and _bootstrap _safely).
+   open, view [Detect the editor and bootstrap safely](#detect-the-Editor-and-bootstrap-safely)).
 
 
 ## Why the change?
@@ -64,7 +64,7 @@ file is actually open:
 
 >[!IMPORTANT]
 >
-> When the `guides.ready` event occurs, no file has yet opened, so `version` will report as `1.0.0` regardless of whether MarkupEditor is enabled. Do not use `version` to determine whether plugins get *registered* (view [Plugin Registration and Runtime Gating: Recommended Implementation Pattern](#plugin-registration-and-runtime-gating)). Use it only to branch *runtime* behavior, and evaluate it at the point of execution (e.g., within a menu handler), where a file is guaranteed to be open.
+> When the `guides.ready` event occurs, no file has yet opened, so `version` will report as `1.0.0` regardless of whether MarkupEditor is enabled. Do not use `version` to determine whether plugins get *registered* (view [Plugin Registration and Runtime Gating](#plugin-registration-and-runtime-gating)). Use it only to branch *runtime* behavior, and evaluate it at the point of execution (e.g., within a menu handler), where a file is guaranteed to be open.
 
 ### Plugin registration and runtime gating
 
@@ -149,7 +149,7 @@ The following behaviors and structures apply identically to both the Editors:
   | Map viewer | `ditamap_viewer` / `map_view_options` |
   | Baseline / preset panels | `baseline_panel_menu` / `preset_item_menu` |
 
-  Items targeting these surfaces need **no change** for the New Editor — do not move them to
+  Items targeting these surfaces need **no change** for the New Editor, do not move them to
   `markup_editor_menu`.
 
 ## Migrate context-menu items (Editor canvas)
@@ -203,7 +203,7 @@ The new menu resolves `target` against the MarkupEditor's own menu items.
 - `target.viewState`: `append | prepend | replace`
 - Anchor to a stable native item such as **`Cut`**.
 - If the anchor does not resolve, the item still appears but lands at the default position
-  (not an error — fix the anchor).
+  (not an error, fix the anchor).
 
 ### Choose the routing per item
 
@@ -216,7 +216,7 @@ Add `readOnly: true` on an item that must stay enabled in read-only content.
 
 ### Rewrite the handler body
 
-Handlers usually read the selection and mutate a node — migrate those off the DOM.
+Handlers usually read the selection and mutate a node, migrate those off the DOM.
 
 ## Migrate reads (DOM → `runUtil`)
 
@@ -296,7 +296,7 @@ tcx.curEditor?.saveFile?.();
 // AFTER
 tcx.eventHandler.next(tcx.eventHandler.KEYS.AUTHOR_SAVE_KEY);
 ```
-`resetDirty(...)` and `tcx.curEditor.html` have no MarkupEditor equivalent — drop them; saving
+`resetDirty(...)` and `tcx.curEditor.html` have no MarkupEditor equivalent so drop them; saving
 through the event handles dirty state centrally. Use `guides.editor.focus()` for focus.
 
 
@@ -336,10 +336,8 @@ const createXrefPlugin = () => {
 
 guides.ready(() => guides.editor.registerPlugin(createXrefPlugin));
 ```
->
 
-Register plugins at app load (once), not inside dialogs or repeatedly — the registry does not dedupe.
-> `registerPlugin` accepts a **factory function only**, not a plugin instance.
+Register plugins at app load (once), not inside dialogs or repeatedly, the registry does not dedupe. `registerPlugin` accepts a **factory function only**, not a plugin instance.
 `guides.editor.prosemirror` exposes: `state`, `model`, `view`, `transform`, `commands`, `keymap`,
 `history`, `tables`, `dropcursor`, `collab`, `markdown`.
 
@@ -355,7 +353,7 @@ guides.editor.registerPlugin(() => ({
 }));
 ```
 The legacy content clientlib category (`apps.guides.xml_editor.dita_content_overrides`) still
-styles the legacy editor only — keep it if you support both, but know it is inert on MarkupEditor.
+styles the legacy editor only, keep it if you support both, but know it is inert on MarkupEditor.
 
 ## API replacement reference
 
@@ -399,13 +397,13 @@ styles the legacy editor only — keep it if you support both, but know it is in
 - Context-menu items appear in **both** the legacy and MarkupEditor menus.
 - Items land in expected position.
 - Custom `eventid` runs `controller[eventid]`; global keys fire the built-in command.
-- State reads return correct values **after typing/rerender** (model, not stale DOM).
-- Content writes **persist after save and reopen**.
+- State reads return correct values after typing/rerender (model, not stale DOM).
+- Content writes *persist after save and reopen*.
 - Decorations survive a rerender.
 - Shadow-DOM CSS visibly applies inside the editor.
 - Save fires via `AUTHOR_SAVE_KEY` and clears dirty state.
 - `readOnly` items behave correctly in locked content.
-- Preview / side-by-side: intentional read-only DOM work is left as-is.
+- Preview or side-by-side; intentional read-only DOM work is left as-is.
 - `grep -rn "tcx.curEditor" src` is clean (or only the documented, intentional remainder).
 - Plugins registered exactly once, inside `guides.ready`.
 
