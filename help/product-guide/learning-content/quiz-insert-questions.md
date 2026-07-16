@@ -59,8 +59,6 @@ You can configure the questions using the following question properties from the
 
     ![](assets/review-answer-quiz.png){width="350"}
 
-
-
 - **Pin option to position**: When a specific option for a question is pinned, it remains fixed in the specified position in the option list, even if **Randomize answer choices for each attempt** is enabled in the SCORM preset configuration, which would otherwise reshuffle the available options. You can hover over the desired option of a question in the Content Properties panel and pin it.
 
     ![](assets/pin-question.png){width="350"}
