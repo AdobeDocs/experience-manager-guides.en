@@ -17,17 +17,15 @@ This guide helps extension authors understand what's involved in moving their cu
 
 ## Overview
 
-1. **Your registration does not change**: Keep using `window.extension` / `tcx.extension.register`.
-2. **The Editor canvas is a new surface.** Context-menu items must declare the new widget id
+- **Your registration does not change**: Keep using `window.extension` / `tcx.extension.register`.
+- **The Editor canvas is a new surface.** Context-menu items must declare the new widget id
    `markup_editor_menu`; in-editor behavior must stop touching the DOM.
-3. **Stop reading/writing the DOM**: Replace `tcx.curEditor.*` DOM access with the
+- **Stop reading/writing the DOM**: Replace `tcx.curEditor.*` DOM access with the
    `guides.editor` API: read with `runUtil(...)`, write with `runCommand(...)`, style with
    decorations, and run global actions (save) through app events.
-4. **App-shell menus (repository, map viewer, file/folder) are unchanged**: they still run on
+- **App-shell menus (repository, map viewer, file/folder) are unchanged**: They still run on
    the legacy framework.
-5. **Both editors coexist** Target both with arrays. **Register** plugins unconditionally at load;
-   gate only *runtime* actions by `guides.editor.version` (which stays `1.0.0` until a file is
-   open, view [Detect the editor and bootstrap safely](#detect-the-Editor-and-bootstrap-safely)).
+- **Both editors coexist**: Target both with arrays. When loading **Register** plugins unconditionally; gate only *runtime* actions by `guides.editor.version` (which stays `1.0.0` until a file is open, view [Detect the editor and bootstrap safely](#detect-the-Editor-and-bootstrap-safely)).
 
 
 ## Why the change?
