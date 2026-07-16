@@ -276,22 +276,21 @@ In the preview mode, the non-conditionalized content and the conditionalized con
 >
 >This feature is disabled by default. To enable it, contact your Customer Success team.
 
-If the review task is created with one or more DITAVAL files attached, the conditions in the Conditions panel behave slightly differently from what is described in the [Work with Conditional Panel](#work-with-conditions-panel) section.
-Each condition is now controlled by a toggle switch instead of an eye icon.
+If the review task is created with one or more DITAVAL files attached, the Conditions panel presents conditions differently from what is described in the [Work with Conditions panel](#work-with-conditions-panel) section. Each condition is controlled by a toggle switch instead of an eye icon, and the toggles are pre-set to reflect the conditions defined in the attached DITAVAL file(s), so you can review the content the way the review initiator intended.
 
 >[!BEGINTABS]
 
->[!TAB Condition panel (without DITAVAL-based conditioning)]
+>[!TAB Conditions panel (without DITAVAL-based conditioning)]
 
  ![](./images/review-conditions-panel.png){width="350"}
 
->[!TAB Condition panel (with DITAVAL-based conditioning)]
+>[!TAB Conditions panel (with DITAVAL-based conditioning)]
 
 ![](./images/review-condition-panel-ditaval.png)
 
 >[!ENDTABS]
 
-Unlike the eye icon, which only which only adds or removes a highlight on conditionalized content without affecting its visibility, turning a toggle off now hides that content from the Review UI. Turning the toggle back on displays the content again.
+Unlike the eye icon, which only adds or removes a highlight on conditionalized content, turning a toggle off in the Conditions panel hides that content from the Review UI, so the content does not appear in the document at all. Turning the toggle back on displays the content again.
 
 The Preview mode reflects the same toggle states as described in the [Work with Conditional Panel](#work-with-conditions-panel) section. 
 
