@@ -58,7 +58,7 @@ After the preset is created, configure the SCORM preset settings. The preset con
     - **Disable next button if learner fails the quiz**: Blocks the learner from moving to the next section/page until they pass the quiz.
     - **Learners must attempt every question to proceed**: Requires learners to attempt all questions before they can submit the quiz, preventing incomplete submissions.
     - **Lock progress until complete**: Prevents the navigation through the course until all of the configured sub-conditions below it are satisfied by disabling the **Next** button in thecourse 
-      -** All interactive elements opened**: Requires the learner to open every interactive element on the page.
+      - **All interactive elements opened**: Requires the learner to open every interactive element on the page.
       - **All media watched**: Requires the learner to watch all video/audio media on the page.
       - **All knowledge checks attempted**: Requires the learner to attempt every knowledge-check question on the page.
       - **Minimum time spent on page**: Requires the learner to stay on the page for at least the specified duration before Next button is enabled.
