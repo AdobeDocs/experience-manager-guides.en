@@ -68,7 +68,7 @@ Once the operation is complete, a success or failure notification is triggered t
 
 **Drag-and-drop with human readable filenames**
 
--   *Drag-and-drop at the same location*: You are given the options to **Overwrite Existing File\(s\)**, **Keep Both File\(s\)**, and an option to create a version of the existing working copy.
+-   *Drag-and-drop at the same location*: You are given the options to **Overwrite Existing File\(s\)**, **Keep Both File\(s\)**.
 
     ![](images/uuid-human-readable-drag-drop-same-location.PNG){width="650" align="center"}
 
@@ -94,18 +94,16 @@ Once the operation is complete, a success or failure notification is triggered t
 
 **Drag-and-drop with filenames based on a UUID pattern**
 
-*Drag-and-drop file at the same location*: You are given the options to **Overwrite Existing File\(s\)** along with the option to create a version of the existing working copy.
+*Drag-and-drop file at the same location*: You are given the options to **Overwrite Existing File\(s\)**.
 
 ![](images/uuid-drag-drop-same-location.PNG){width="650" align="center"}
 
 When the file is overwritten, there is no change in the file name or its UUID.
 
-If you select the **Create Version for the Existing Working Copy** option, then a new version from the working copy of the document is created; the new file is uploaded, a new version of the file is also created, and it is made as the working copy of the document.
-
 **Create new Version for Uploaded File** feature must be enabled by your administrator. If this feature is enabled, a new version for the uploaded file is created. If the option is deselected, then a version of the uploaded file is not created. For more details, view *Create New Version for Uploaded file* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 
-*Drag-and-drop file at different location*: You are given the options to **Overwrite Existing File\(s\)**, **Move File\(s\) to New Location**, and an option to create a version of the existing working copy.
+*Drag-and-drop file at different location*: You are given the options to **Overwrite Existing File\(s\)**, **Move File\(s\) to New Location**.
 
 ![](images/uuid-drag-drop-different-location.PNG){width="650" align="center"}
 
