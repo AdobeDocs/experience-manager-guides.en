@@ -42,13 +42,13 @@ After the preset is created, configure the SCORM preset settings. The preset con
       
       - The **Output template** must be configured with the **Embed PDF** icon at the desired location and the same template should be selected under the **Output template** option in the **General** tab while configuring a SCORM Preset.
 
-          ![](assets/embed-pdf.png){width="650"}
+        ![](assets/embed-pdf.png){width="650"}
 
       - The associated **PDF preset** must have been generated at least once. Selecting an ungenerated PDF preset will result in an error prompting the user to publish the preset.  
 
      Once the SCORM output is generated with the above settings, the resulting output includes a PDF icon, as shown below, allowing learners to download the course PDF.
 
-      ![](assets/pdf-icon.png){width="650"}   
+    ![](assets/pdf-icon.png){width="650"}   
 
   - **Navigation:**
     - Learners must progress through content in a sequential order: Ensures learners move through the quiz in a fixed sequence and cannot skip ahead or jump between questions.
