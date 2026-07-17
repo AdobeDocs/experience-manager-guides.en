@@ -23,22 +23,38 @@ role_v2:
 
 After the preset is created, configure the SCORM preset settings. The preset configuration options are organized under General, Content and Publish tabs.
 
-- **General:**  Used to specify basic output settings, such as the supported version, output path, ZIP file name, output template, and other options related to Learner's experience.
+- **General:**  Used to specify basic output settings, such as the supported version, output path, ZIP file name, output template, and Post Generation Workflow for a new Post Generation Workflow drop-down list containing all workflows configured.
 
     ![](assets/scorm-general-tab-v3.png){width="650"}
-
-    **Learner's experience** 
-
-    - **Learners must progress through content in a sequential order**: Ensures learners move through the quiz in a fixed sequence and cannot skip ahead or jump between questions.
-    - **Learners must attempt every question to proceed**: Requires learners to attempt all questions before they can submit the quiz, preventing incomplete submissions.
-    - **Randomize question order for each attempt**: Displays quiz questions in a different order for every attempt, helping reduce predictability.
-    - **Randomize answer choices for each attempt**: Shuffles the answer options for each question on every attempt, reducing the chance of guessing based on position.
-    - **Use question id in quiz reporting**: Includes the unique question ID in quiz reports, making it easier to track, analyze, and map results back to specific questions.
-    - **Post Generation Workflow**: When you choose this option, a new Post Generation Workflow drop-down list containing all workflows configured is displayed. 
+ 
     
 - **Content:** Use to specify the available conditional filtering (using DITAVAL or using some condition preset) and the variable set.
 
     ![](assets/scorm-content-tab.png){width="650"}
+
+- **Learner Experience:** 
+
+  - **General**: 
+
+    - Allow learners to download course PDF – Lets learners download a PDF version of the course content for offline reference. *(not covered in the article)*
+
+  - Navigation:
+    - Learners must progress through content in a sequential order: Ensures learners move through the quiz in a fixed sequence and cannot skip ahead or jump between questions.
+    - Disable next button if learner fails the quiz: Blocks the learner from moving to the next section/page until they pass the quiz.
+    - Learners must attempt every question to proceed: Requires learners to attempt all questions before they can submit the quiz, preventing incomplete submissions.
+    - Lock progress until complete: Prevents the navigation through the course until all of the configured sub-conditions below it are satisfied by disabling the **Next** button in thecourse 
+      - All interactive elements opened: Requires the learner to open every interactive element on the page.
+      - All media watched: Requires the learner to watch all video/audio media on the page.
+      - All knowledge checks attempted: Requires the learner to attempt every knowledge-check question on the page.
+      - Minimum time spent on page: Requires the learner to stay on the page for at least the specified duration before Next button is enabled.
+      - Time required (seconds): The minimum number of seconds (e.g., `30`) a learner must remain on the page for this condition to be met.
+
+  - **Quiz**
+    - Randomize question order for each attempt: Displays quiz questions in a different order for every attempt, helping reduce predictability.
+    - Randomize answer choices for each attempt: Shuffles the answer options for each question on every attempt, reducing the chance of guessing.  
+
+
+    ![](assets/learner-experience.png){width="650"}        
 
 
 - **Publish to LMS:** Use this setting to publish your content directly to Adobe Learning Manager (ALM). From the **Publish server** dropdown, select **Adobe Learning Manager**, and then choose the required **Publish profile** that was previously configured in Workspace settings. The selected profile is used to establish the connection and upload the generated content to ALM.
