@@ -54,20 +54,20 @@ After the preset is created, configure the SCORM preset settings. The preset con
 
   - **Navigation:** Define how learners move through the course, including sequential progression, mandatory completion conditions, and rules for unlocking the **Next** button.
 
-    - Learners must progress through content in a sequential order: Ensures learners move through the quiz in a fixed sequence and cannot skip ahead or jump between questions.
-    - Disable next button if learner fails the quiz: Blocks the learner from moving to the next section/page until they pass the quiz.
-    - Learners must attempt every question to proceed: Requires learners to attempt all questions before they can submit the quiz, preventing incomplete submissions.
-    - Lock progress until complete: Prevents the navigation through the course until all of the configured sub-conditions below it are satisfied by disabling the **Next** button in thecourse 
-      - All interactive elements opened: Requires the learner to open every interactive element on the page.
-      - All media watched: Requires the learner to watch all video/audio media on the page.
-      - All knowledge checks attempted: Requires the learner to attempt every knowledge-check question on the page.
-      - Minimum time spent on page: Requires the learner to stay on the page for at least the specified duration before Next button is enabled.
-      - Time required (seconds): The minimum number of seconds (e.g., `30`) a learner must remain on the page for this condition to be met.
+    - **Learners must progress through content in a sequential order**: Ensures learners move through the quiz in a fixed sequence and cannot skip ahead or jump between questions.
+    - **Disable next button if learner fails the quiz**: Blocks the learner from moving to the next section/page until they pass the quiz.
+    - **Learners must attempt every question to proceed**: Requires learners to attempt all questions before they can submit the quiz, preventing incomplete submissions.
+    - **Lock progress until complete**: Prevents the navigation through the course until all of the configured sub-conditions below it are satisfied by disabling the **Next** button in thecourse 
+      -** All interactive elements opened**: Requires the learner to open every interactive element on the page.
+      - **All media watched**: Requires the learner to watch all video/audio media on the page.
+      - **All knowledge checks attempted**: Requires the learner to attempt every knowledge-check question on the page.
+      - **Minimum time spent on page**: Requires the learner to stay on the page for at least the specified duration before Next button is enabled.
+      - **Time required (seconds)**: The minimum number of seconds (e.g., `30`) a learner must remain on the page for this condition to be met.
 
   - **Quiz:** Configure quiz-related behavior such as randomizing question order and answer choices to reduce predictability across attempts.
 
-    - Randomize question order for each attempt: Displays quiz questions in a different order for every attempt, helping reduce predictability.
-    - Randomize answer choices for each attempt: Shuffles the answer options for each question on every attempt, reducing the chance of guessing.            
+    - **Randomize question order for each attempt**: Displays quiz questions in a different order for every attempt, helping reduce predictability.
+    - **Randomize answer choices for each attempt**: Shuffles the answer options for each question on every attempt, reducing the chance of guessing.            
 
 - **Publish to LMS:** Use this setting to publish your content directly to Adobe Learning Manager (ALM). From the **Publish server** dropdown, select **Adobe Learning Manager**, and then choose the required **Publish profile** that was previously configured in Workspace settings. The selected profile is used to establish the connection and upload the generated content to ALM.
 
