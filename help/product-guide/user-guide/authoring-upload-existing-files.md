@@ -39,7 +39,7 @@ When you upload files using **Create** > **Files** and select a file from the sy
 
 ![](images/upload-file.png){width="350"}
 
-After you start the upload, the status is shown in the **Upload Assets** dialog, displaying the upload progress as a percentage for each file being uploaded. If you need to stop the operation before it completes, you can cancel the upload at any time by selecting the **Cancel** option or selecting the Cancel icon. Cancelling the operation terminates the upload, and the file is not added to the repository.
+After you start the upload, the status is shown in the **Upload Assets** dialog, displaying the upload progress for each file being uploaded. If you need to stop the operation before it completes, you can cancel the upload at any time by selecting the **Cancel** option or selecting the Cancel icon. Cancelling the operation terminates the upload, and the file is not added to the repository.
 
 ![](images/upload-status.png){width="350"}
 
