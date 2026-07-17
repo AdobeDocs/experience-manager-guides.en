@@ -34,11 +34,23 @@ After the preset is created, configure the SCORM preset settings. The preset con
 
 - **Learner Experience:** 
 
-  - **General**: 
+  - **General** 
 
-    - Allow learners to download course PDF – Lets learners download a PDF version of the course content for offline reference. *(not covered in the article)*
+    - **Allow learners to download course PDF**:  When enabled, this option adds a PDF icon to the SCORM output. Clicking this icon lets the learner download a PDF version of the course content directly from the published output.  
 
-  - Navigation:
+      **Prerequisites:** Before enabling this option, ensure the following:
+      
+      - The **Output template** must be configured with the **Embed PDF** icon at the desired location and the same template should be selected under the **Output template** option in the **General** tab while configuring a SCORM Preset.
+
+          ![](assets/embed-pdf.png){width="650"}
+
+      - The associated **PDF preset** must have been generated at least once. Selecting an ungenerated PDF preset will result in an error prompting the user to publish the preset.  
+
+     Once the SCORM output is generated with the above settings, the resulting output includes a PDF icon, as shown below, allowing learners to download the course PDF.
+
+      ![](assets/pdf-icon.png){width="650"}   
+
+  - **Navigation:**
     - Learners must progress through content in a sequential order: Ensures learners move through the quiz in a fixed sequence and cannot skip ahead or jump between questions.
     - Disable next button if learner fails the quiz: Blocks the learner from moving to the next section/page until they pass the quiz.
     - Learners must attempt every question to proceed: Requires learners to attempt all questions before they can submit the quiz, preventing incomplete submissions.
