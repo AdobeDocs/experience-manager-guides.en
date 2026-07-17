@@ -33,6 +33,19 @@ To [add digital assets to Adobe Experience Manager as a Cloud Service Assets](ht
 
 For more details, view [Filename handling and forbidden characters](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling) section in Adobe Experience Manager documentation.
 
+### Uploading files using the Assets UI interface
+
+When you upload files using **Create** > **Files** and select a file from the system, the **Upload Assets** appears. This dialog allows you to review and optionally rename the file before initiating the upload. You can either retain the original file name or provide a new name based on your requirements.
+
+![](images/upload-file.png){width="350"}
+
+After you start the upload, the status is shown in the **Upload Assets** dialog, displaying the upload progress for each file being uploaded. If you need to stop the operation before it completes, you can cancel the upload at any time by selecting the **Cancel** option or selecting the Cancel icon. Cancelling the operation terminates the upload, and the file is not added to the repository.
+
+![](images/upload-status.png){width="350"}
+
+Once the upload completes successfully, the system displays a confirmation message indicating that the file has been uploaded successfully. This message confirms that the file is now available in the selected location within the Assets repository.
+
+
 ## Adobe Experience Manager desktop app 
 
 Use Adobe Experience Manager desktop app if you are a creative professional, and want to manage the assets on your local desktop. You can open and edit these assets with your desktop applications. You can also maintain versions and share your files with other users. For more details, view [Adobe Experience Manager desktop app](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
@@ -58,16 +71,6 @@ For more details about how the various file uploading scenarios function, view [
  In case you use a tool like Adobe Experience Manager desktop app or Asset bulk ingestor, then the action to perform on a duplicate file is controlled by a setting in the Adobe Experience Manager server. Contact your system administrator to know about this configuration.
 
 
-## Upload confirmation and rename dialog
 
-When you upload files (for example, a zip file) through the Assets UI, Experience Manager Guides now displays additional dialogs during the upload flow to give you clearer visibility into the process.
-
-### Upload As dialog
-
-Once your file upload begins, the **Upload As** dialog appears, allowing you to rename the file being uploaded before the process completes. This gives you a chance to avoid naming conflicts up front, rather than discovering them after the upload finishes.
-
-[screenshot placeholder]
-
-Select **OK** to confirm the file name and continue the upload. 
 
 **Parent topic:**[Manage content](authoring.md)
