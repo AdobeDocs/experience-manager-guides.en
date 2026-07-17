@@ -84,3 +84,30 @@ The comments within the dialog are displayed in chronological order, with the re
 The **Task comments** dialog is accessible to all the users involved in the review task, including the Author or initiator of the review task and other Reviewers. Hence, the comments from other Reviewers (if involved) might also appear in the Task comments dialog. This helps ensure clear and traceable communication throughout the review process. 
 
 After reviewing the task-level feedback, the Author can either request a re-review or close the review task. In both cases, all comments captured during the review process remain available in the **Task comments** dialog for reference.
+
+## Delegate a review task to another Reviewer
+
+>[!IMPORTANT]
+>
+> This feature is disabled by default. Contact your Customer Success team to enable this capability in your environment.
+
+As a Reviewer, you may sometimes want another user to weigh in on a review before it goes back to the Author. For example, if part of the content falls outside your expertise, or you'd like a second opinion before marking the task as **Complete**. Instead of routing this through a project administrator, you can recommend a reviewer directly from the review task using the **Delegate** option.
+
+Selecting **Delegate** does not complete the review task on your behalf. It sends your recommendation to the Author (initiator of the task), who decides whether to add the recommended reviewer to the task.
+
+Perform the following steps to delegate a review task:
+
+1. Open the review task assigned to you.
+2. Once you've reviewed the content, select **Delegate**, next to **Mark as done**.
+
+   ![](./images/review-delegate-option.png){width="350"}
+
+3. The **Recommend Reviewer** dialog is displayed. Select a user from the drop-down list to recommend as a reviewer for this task.
+
+   ![](./images/recommend-reviewer-dialog.png){width="350"}
+
+4. *(Optional)* Add a comment for the Author, for context.
+5. Select **Delegate**.
+
+A notification is sent to the Author, indicating that you've requested to add a Reviewer to the task. For details on how the Author responds to this request, view [Request a re-review or close a review task as an Author](./review-close-review-task.md).
+

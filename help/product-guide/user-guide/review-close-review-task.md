@@ -30,6 +30,10 @@ As the initiator of the review task, you can then decide how to proceed based on
 - Request a re-review
 - Close the review task
 
+>[!NOTE]
+>
+> If the Delegate feature is enabled for your environment, a Reviewer can also request to [add another reviewer to the review task](./review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer). Such requests appear in the form of notifications in your AEM Inbox. If the recommended reviewer is not part of the associated project, you get the option to add them to the project first. Otherwise, you are directed to the **REVIEWERS** tab of the **Task Details** page to add the recommended reviewer to the review task. The decision to add the recommended reviewer always rests with you as the initiator of the review task.
+
 ## Request a re-review or close a review task 
 
  Perform the following steps to request a re-review or close a review task:
