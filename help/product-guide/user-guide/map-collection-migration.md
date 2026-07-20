@@ -10,6 +10,10 @@ If you already have map collections set up in the old format, you don't need to 
 
 The migration tool, added as a new process type within the Bulk Processor, reads your existing old map collections and automatically creates matching new map collections for you. This article walks you through how to run the migration and highlights a few key behaviors you should know before using it.
 
+>[!NOTE]
+>
+> There is no one-time migration available for Bulk Activation feature or for map collections that were created using the legacy Bulk activation feature. Since the publish functionality is now fully integrated into the New map collection experience, any map collections created specifically for Bulk activation needs to be re-created in the new experience, if required.
+
 ## Migration process
 
 Perform the following steps to migrate the old map collections to new map collections: 
