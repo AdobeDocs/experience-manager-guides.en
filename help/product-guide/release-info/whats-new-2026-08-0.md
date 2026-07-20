@@ -12,7 +12,11 @@ For the list of issues fixed in this release, view [Fixed issues in the 2026.08.
 Learn about [upgrade instructions for the 2026.08.0 release](../release-info/upgrade-instructions-2026-08-0.md).
 
 
-## Introducing Guides AI: Intelligent content tagging feature
+## Introducing Guides AI
+
+>[!NOTE]
+>
+> To enable the Guides AI feature in your environment, contact the Customer Success team.
 
 Now we have **Guides AI**, a new intelligent assistant integrated into the Editor that enables you to interact with your content using natural, conversational prompts.
 
@@ -59,9 +63,9 @@ Selecting Delegate does not complete the review task; it sends the recommendatio
 
 ### Task description now visible in the Review UI
 
-Reviewers can now view the task description directly within the review experience, instead of relying only on the notification email. The description entered while creating a review task is used as the body of the notification email sent to reviewers and is also displayed in the Review details dialog, accessible through the **Info** icon in both the Review UI and the Editor interface.
+Reviewers can now view the task description directly within the review experience, instead of relying only on the notification email. The description entered while creating a review task is now displayed in the Review details dialog, accessible through the **Info** icon in both the Review UI and the Editor interface.
 
-This gives reviewers access to instructions, scope, and areas of focus throughout the review, rather than only at the time of notification. For more details, view [Send topics for review](../user-guide/review-send-topics-for-review.md).
+This gives reviewers access to instructions, scope, and areas of focus throughout the review. For more details, view [Send topics for review](../user-guide/review-send-topics-for-review.md).
 
 ![](assets/review-details.png){width="350"}
 
@@ -78,9 +82,7 @@ If an email address isn't available, the user ID is shown instead. For more deta
 >
 > To enable this feature in your environment, contact the Customer Success team.
 
-Authors can now view all review tasks, open or closed, associated with the currently-open topic directly from the Comments panel. A drop-down lists every review task the topic is part of, along with each task's state and project, and lets you switch between them to view comments without leaving the topic or switching review projects. 
-
-The task you're currently working from is marked as Current by default, and only its comments can be imported into your working copy; comments from other tasks are shown in read-only mode. For details, view [View all review tasks for a topic](../user-guide/review-address-review-comments.md).
+Authors can now view all review tasks, open or closed, associated with the currently-open topic directly from the Comments panel. A drop-down lists every review task the topic is part of, along with each task's state and project, and lets you switch between them to view comments without leaving the topic or switching review projects. For details, view [View all review tasks for a topic](../user-guide/review-address-review-comments.md).
 
 ![](assets/review-task-selection-dropdpwn.png){width="350"}
 
@@ -90,22 +92,11 @@ The task you're currently working from is marked as Current by default, and only
 >
 > To enable this feature in your environment, contact the Customer Success team.
 
-When a review task includes one or more attached DITAVAL files, the Conditions panel now presents each condition as a toggle, pre-set to match the attached DITAVAL file(s), so reviewers see content the way the review initiator intended.
+When a review task includes one or more attached DITAVAL files, the Conditions panel now presents each condition as a toggle, pre-set to match the attached DITAVAL file(s), so reviewers see content the way the review initiator intended.Turning a toggle off hides that content from the review; turning it on restores it.
 
-Turning a toggle off hides that content from the review; turning it on restores it. Depending on the task configuration, reviewers may be able to override these toggles or find them locked to the initiator's settings, and any changes apply only for the current session.For details, view [Conditions panel with DITAVAL-based conditions](../user-guide/review-topics.md#conditions-panel-with-ditaval-based-conditions).
+For details, view [Conditions panel with DITAVAL-based conditions](../user-guide/review-topics.md#conditions-panel-with-ditaval-based-conditions).
 
 ![](assets/review-condition-panel-ditaval.png){width="350"}
-
-
-### Sync review task completion between the Review UI and AEM Inbox (Beta)
-
->[!NOTE]
->
-> This feature is currently available as a Beta feature and is disabled by default. To enable it in your environment, contact the Customer Success team.
-
-You can now keep review task completion in sync between the Review UI and the AEM Inbox. When this feature is enabled, completing a task in the Review UI removes it from the AEM Inbox, and completing it from the AEM Inbox marks it as completed in the Review UI. This helps avoid completing the same task twice and makes the review workflow smoother. Authors and task initiators can continue to review feedback and reassign tasks when additional review is required. When a task is reassigned, a new AEM Inbox notification is generated for the reviewer, allowing the review cycle to continue seamlessly.
-
-For more details, view [Complete the review task as a Reviewer](../user-guide/review-complete-review-tasks.md). 
 
 ## Publishing enhancements
 
@@ -115,15 +106,22 @@ For more details, view [Complete the review task as a Reviewer](../user-guide/re
 >
 > To enable this functionality in your environment, contact the Customer Success team.
 
-Admins can now designate output presets as templates, applying standardized configurations across all maps within a folder profile with a single action. When a template is applied, the system displays the number of maps affected, giving admins full visibility before rollout. To preserve consistency, template presets can only be modified by admin users, and output generation is disabled for template presets (unless output was already generated prior to templating). This functionality is available for all output presets except Edge Delivery Service, Knowledge Base, and SCORM. 
+Administators can now designate output presets as templates, applying standardized configurations across all maps within a folder profile with a single action. When a template is applied, the system displays the number of maps affected, giving admins full visibility before rollout. To preserve consistency, template presets can only be modified by admin users, and output generation is disabled for template presets (unless output was already generated prior to templating).
 
 For details, view [Understanding the output presets](../user-guide/generate-output-create-edit-preset.md).
+
+### Validate content quality with Content Health Check
+
+Content Health Check helps validate content quality across DITA maps before publishing. Administrators can create reusable health check presets by combining checks for broken links, duplicate IDs, and Schematron validation, and make them available through folder profiles.
+
+Authors can run a health check on a DITA map or a selected baseline to generate a consolidated report of issues across associated topics and maps. Learn more about [Content health check](../user-guide/generate-output-understand-presets.md).
+
 
 ## Translation enhancements
 
 ### Specify a custom folder path for translation projects
 
-When sending content for translation, you can now select the folder in which a new translation project is created, instead of all projects defaulting to a single location under `/content/projects`. If no custom path is selected, the project is created under the default path, as before. This helps avoid a cluttered project structure and improves page load performance as the number of translation projects increases. 
+When sending content for translation, you can now select the folder in which a new translation project is created, instead of all projects defaulting to a single location under `/content/projects`. This helps avoid a cluttered project structure and improves page load performance as the number of translation projects increases. 
 
 For details, view [Create translation project](../user-guide/translate-documents-web-editor.md#create-a-translation-project).
 
@@ -133,7 +131,7 @@ The following enhancements are available for the Product Training and Learning c
 
 - A new **Learner experience** tab is now available in SCORM output configuration, allowing you to configure how learners interact with and navigate through SCORM output. Settings are organized under General, Navigation, and Quiz, giving you control over content accessibility, navigation flow, and quiz behavior for a tailored learning experience.
 
-    Under **Navigation**, you can now control whether the **Next** button is enabled or disabled on a page, allowing learners to progress only after specified conditions on that page are met; such as opening all interactive elements, watching all media, attempting all knowledge checks, and spending a minimum configured duration on the page. Learn more about [Configure SCORM preset](../learning-content/config-scorm-preset.md).
+    Under **Navigation**, you can now control whether the **Next** button is enabled or disabled on a page, allowing learners to progress only after specified conditions on that page are met; such as opening all interactive elements, watching all media, and more. For details, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
 
     ![](assets/learner-experience.png){width="650"} 
 
