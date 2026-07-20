@@ -13,7 +13,7 @@ Learn about [upgrade instructions for the 2026.08.0 release](upgrade-instruction
 
 ## Authoring 
 
-- Topics fail to open in the Editor when accessed from the Map Dashboard. (GUIDES-45277)
+- Topics fail to open in the Editor when accessed from Topic reports in Map Dashboard. (GUIDES-45277)
 
 
 ## Editor 2.0
