@@ -3,7 +3,7 @@ title: Release Notes | What's New in Adobe Experience Manager Guides 2026.08.0 r
 description: Learn about the new and enhanced features in the 2026.08.0 release of Adobe Experience Manager Guides
 role: Leader
 ---
-# What's new in the 2026.08.0 release (June 2026)
+# What's new in the 2026.08.0 release (August 2026)
 
 This article covers the new and enhanced features introduced with the 2026.08.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
