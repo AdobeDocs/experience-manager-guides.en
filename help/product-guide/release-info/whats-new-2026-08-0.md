@@ -12,6 +12,17 @@ For the list of issues fixed in this release, view [Fixed issues in the 2026.08.
 Learn about [upgrade instructions for the 2026.08.0 release](../release-info/upgrade-instructions-2026-08-0.md).
 
 
+## Introducing Guides AI: Intelligent content tagging feature
+
+Now we have **Guides AI**, a new intelligent assistant integrated into the Editor that enables you to interact with your content using natural, conversational prompts.
+
+Currently, Guides AI streamlines content tagging by analyzing your content and recommending relevant tags. Simply ask Guides AI to suggest tags for a file, and it will review the content, generate tag recommendations, and present them for your review. Once you confirm, the suggested tags can be applied to the relevant topics, including across multiple topics within a map.
+
+Guides AI is designed to evolve with additional capabilities that will further enhance the authoring experience over time. For more details, view [Placeholder].
+
+![](assets/guides-ai.png)
+
+
 ## New map collection for managing maps and publishing outputs
 
 >[!NOTE]
@@ -73,7 +84,7 @@ The task you're currently working from is marked as Current by default, and only
 
 ![](assets/review-task-selection-dropdpwn.png){width="350"}
 
-### Conditions panel with DITAVAL-based conditions
+### Enhanced review experience with DITAVAL conditions
 
 >[!NOTE]
 >
@@ -95,6 +106,18 @@ Turning a toggle off hides that content from the review; turning it on restores 
 You can now keep review task completion in sync between the Review UI and the AEM Inbox. When this feature is enabled, completing a task in the Review UI removes it from the AEM Inbox, and completing it from the AEM Inbox marks it as completed in the Review UI. This helps avoid completing the same task twice and makes the review workflow smoother. Authors and task initiators can continue to review feedback and reassign tasks when additional review is required. When a task is reassigned, a new AEM Inbox notification is generated for the reviewer, allowing the review cycle to continue seamlessly.
 
 For more details, view [Complete the review task as a Reviewer](../user-guide/review-complete-review-tasks.md). 
+
+## Publishing enhancements
+
+### Template presets are now available for the output presets
+
+>[!NOTE]
+>
+> To enable this functionality in your environment, contact the Customer Success team.
+
+Admins can now designate output presets as templates, applying standardized configurations across all maps within a folder profile with a single action. When a template is applied, the system displays the number of maps affected, giving admins full visibility before rollout. To preserve consistency, template presets can only be modified by admin users, and output generation is disabled for template presets (unless output was already generated prior to templating). This functionality is available for all output presets except Edge Delivery Service, Knowledge Base, and SCORM. 
+
+For details, view [Understanding the output presets](../user-guide/generate-output-create-edit-preset.md).
 
 ## Translation enhancements
 
