@@ -10,6 +10,10 @@ level: Experienced
 
 Use the Data Sources tool in Experience Manager Guides to create and configure a Git connector from the user interface. After you configure the connector successfully, you can use it to import content from a Git repository into Experience Manager Guides.
 
+>[!NOTE]
+>
+> Before you begin, ensure that Git Connector is deployed to your Cloud Manager project. For details, view [Add Git Connector to your Cloud Manager project.](#add-git-connector-to-your-cloud-manager-project)
+
 
 1. Select the **Adobe Experience Manager** link at the top and choose **Tools**. 
 1. Select **Guides** from the list of tools.
@@ -47,3 +51,35 @@ Use the Data Sources tool in Experience Manager Guides to create and configure a
 
     ![](assets/git-connector-connected.png){width="600"}
 
+## Add Git Connector to your Cloud Manager project
+
+Before Git Connector is available to configure from the **Data Sources** page, it must be embedded as a dependency in your AEM project.
+
+1. In your AEM project's `all/pom.xml`, add Git Connector as a dependency under `<dependencies>`:
+
+    ```xml
+    <dependency>
+        <groupId>com.adobe.guides.konnect.definitions</groupId>
+        <artifactId>git-connector-all</artifactId>
+        <version>1.0.0</version>
+        <type>zip</type>
+        <scope>provided</scope>
+    </dependency>
+    ```
+
+1. In the same `pom.xml`, add the dependency to the `<embeddeds>` section of the `filevault-package-maven-plugin` configuration:
+
+    ```xml
+    <embedded>
+        <groupId>com.adobe.guides.konnect.definitions</groupId>
+        <artifactId>git-connector-all</artifactId>
+        <type>zip</type>
+        <target>/apps/YOUR-PROJECT-packages/application/install</target>
+    </embedded>
+    ```
+
+    Replace `YOUR-PROJECT` with your project's package name.
+
+1. Commit and push the changes to your Cloud Manager Git repository, then run the pipeline to deploy them.
+
+Once the pipeline completes, Git Connector is installed in your environment and available to configure from the **Data Sources** page.
