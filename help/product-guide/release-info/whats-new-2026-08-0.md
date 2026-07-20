@@ -45,11 +45,11 @@ For more deatils, view [Resize image in Editor](../user-guide/web-editor-toolbar
 
 ## Review enhancements
 
-### Delegate a review task to another Reviewer (Beta)
+### Delegate a review task to another Reviewer
 
 >[!NOTE]
 >
-> This feature is currently available as a Beta feature and is disabled by default. To enable it in your environment, contact the Customer Success team.
+> To enable this faeture in your environment, contact the Customer Success team.
 
 Reviewers can now recommend another user to weigh in on a review before it goes back to the Author, using the new **Delegate** option available for a review task. This is useful when part of the content falls outside the reviewer's expertise or when a second opinion is needed before completing the review, without having to route the request through a project administrator.
 
@@ -109,7 +109,7 @@ For more details, view [Complete the review task as a Reviewer](../user-guide/re
 
 ## Publishing enhancements
 
-### Template presets are now available for the output presets
+### Use output presets as templates
 
 >[!NOTE]
 >
@@ -131,13 +131,13 @@ For details, view [Create translation project](../user-guide/translate-documents
 
 The following enhancements are available for the Product Training and Learning content feature in this release:
 
-- A new **Learner experience** tab is now available in SCORM output configuration, letting you configure how learners interact with and navigate through SCORM output. Settings are organized under General, Navigation, and Quiz, giving you control over content accessibility, navigation flow, and quiz behavior for a tailored learning experience.
+- A new **Learner experience** tab is now available in SCORM output configuration, allowing you to configure how learners interact with and navigate through SCORM output. Settings are organized under General, Navigation, and Quiz, giving you control over content accessibility, navigation flow, and quiz behavior for a tailored learning experience.
 
     Under **Navigation**, you can now control whether the **Next** button is enabled or disabled on a page, allowing learners to progress only after specified conditions on that page are met; such as opening all interactive elements, watching all media, attempting all knowledge checks, and spending a minimum configured duration on the page. Learn more about [Configure SCORM preset](../learning-content/config-scorm-preset.md).
 
     ![](assets/learner-experience.png){width="650"} 
 
-- Authors can now configure output-level options such as enabling PDF downloads for learners. When enabled, a PDF icon is added to the SCORM output, letting learners download a PDF version of the course content directly from the published output. For configuration details and prerequisites, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
+- Authors can now configure output-level options for SCORM output, including enabling PDF downloads for learners. When this option is enabled, a PDF download icon is added to the published SCORM output, allowing learners to download a PDF version of the course content for offline reference. This provides greater flexibility in how learners access course materials while giving authors more control over the published experience. For configuration details and prerequisites, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
 
     ![](assets/pdf-icon.png){width="650"} 
 
