@@ -468,6 +468,18 @@ The **Source UUID** field shows the UUID of the selected reference. Use the **Co
 
 You can resize an image by providing either Height or Width value for the image file. The aspect ratio of the image is maintained automatically. If you want, you can also choose not to maintain the aspect ratio of the image file by selecting the lock icon \(of Maintain Aspect Ratio\) and providing Height and Width values.
 
+In the New Editor, you can also resize an image by dragging its handles in the Author mode:
+
+- Corner handles: Dragging the corner handles resizes the image while maintaining its aspect ratio.
+
+    ![](images/resize-corner-handles.png)
+
+- Middle handles: Press **Shift** to reveal additional middle handles. Dragging these resizes the image without maintaining the aspect ratio, letting you increase or decrease the height or width independently.
+
+    ![](images/resize-middle-handles.png)    
+
+As you drag, the Height and Width values in the **Content properties** panel update automatically to reflect the new dimensions. This resizing is also reflected in the **Side by side** mode and in **Preview** mode, so you can confirm how the resized image will appear before publishing.
+
 You can also specify the Placement setting for the image as Inline or Break. In case you choose to use the Break placement option, you can then choose where to align the image (Left, Center, or Right).
 
 You can also add other properties for an image file by selecting the required properties in the **Attributes** field.

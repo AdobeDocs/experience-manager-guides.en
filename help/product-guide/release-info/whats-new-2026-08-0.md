@@ -28,7 +28,8 @@ For more details, view [Use New map collection for output generation](../user-gu
 
 ## Editor enhancements 
 
-- In the New Editor, images can now be resized directly in Author mode by dragging their edge or corner handles. As you drag, the Height and Width values in the Content properties panel update automatically to reflect the new dimensions. The resized image is also reflected in Side by side mode and in Preview mode, allowing you to confirm how it will appear before publishing.
+In the New Editor, images can now be resized directly in Author mode by dragging their handles, using corner handles to maintain aspect ratio or Shift with middle handles to resize freely. The Content properties panel and Side by side/Preview modes reflect the change in real time.
+For more deatils, view [Resize image in Editor](../user-guide/web-editor-toolbar.md).
 
 
 ## Review enhancements
@@ -39,11 +40,26 @@ For more details, view [Use New map collection for output generation](../user-gu
 >
 > This feature is currently available as a Beta feature and is disabled by default. To enable it in your environment, contact the Customer Success team.
 
-Reviewers can now recommend another user to weigh in on a review before it goes back to the Author, using the new **Delegate** option available for a review task. This is useful when part of the content falls outside the reviewer's expertise or when a second opinion is needed before completing the review, without having to route the request through a project administrator. Selecting Delegate does not complete the review task; it sends the recommendation to the Author, who decides whether to add the recommended reviewer to the task. Learn more about [Delegate a review task to another Reviewer](../user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer).
+Reviewers can now recommend another user to weigh in on a review before it goes back to the Author, using the new **Delegate** option available for a review task. This is useful when part of the content falls outside the reviewer's expertise or when a second opinion is needed before completing the review, without having to route the request through a project administrator.
+
+Selecting Delegate does not complete the review task; it sends the recommendation to the Author, who decides whether to add the recommended reviewer to the task. Learn more about [Delegate a review task to another Reviewer](../user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer).
+
+![](assets/review-delegate-option.png){width="350"}
 
 ### Task description now visible in the Review UI
 
-Reviewers can now access the task description directly within the review experience, instead of relying only on the notification email. The description entered while creating a review task is used as the body of the notification email sent to reviewers and is also displayed in the Review details dialog, accessible through the Info icon beside the Comments heading in both the Review UI and the Editor interface. This gives reviewers access to instructions, scope, and areas of focus throughout the review, rather than only at the time of notification. For more details, view [Send topics for review](../user-guide/review-send-topics-for-review.md).
+Reviewers can now view the task description directly within the review experience, instead of relying only on the notification email. The description entered while creating a review task is used as the body of the notification email sent to reviewers and is also displayed in the Review details dialog, accessible through the **Info** icon in both the Review UI and the Editor interface.
+
+This gives reviewers access to instructions, scope, and areas of focus throughout the review, rather than only at the time of notification. For more details, view [Send topics for review](../user-guide/review-send-topics-for-review.md).
+
+![](assets/review-details.png){width="350"}
+
+
+### User identification in the tagging list during review
+
+When tagging users in review comments or replies, the tagging dropdown now displays each user's email address alongside their user ID. This makes it easier to identify and select the correct reviewer, especially in large organizations where display names alone may be ambiguous.
+
+If an email address isn't available, the user ID is shown instead. For more details on working with Review UI, view [Review topics](../user-guide/review-topics.md).
 
 ### View all review tasks for a topic
 
@@ -51,7 +67,11 @@ Reviewers can now access the task description directly within the review experie
 >
 > To enable this feature in your environment, contact the Customer Success team.
 
-Authors can now view all review tasks, open or closed, associated with the currently-open topic directly from the Comments panel. A drop-down lists every review task the topic is part of, along with each task's state and project, and lets you switch between them to view comments without leaving the topic or switching review projects. The task you're currently working from is marked as Current by default, and only its comments can be imported into your working copy; comments from other tasks are shown in read-only mode. For details, view []
+Authors can now view all review tasks, open or closed, associated with the currently-open topic directly from the Comments panel. A drop-down lists every review task the topic is part of, along with each task's state and project, and lets you switch between them to view comments without leaving the topic or switching review projects. 
+
+The task you're currently working from is marked as Current by default, and only its comments can be imported into your working copy; comments from other tasks are shown in read-only mode. For details, view [View all review tasks for a topic](../user-guide/review-address-review-comments.md).
+
+![](assets/review-task-selection-dropdpwn.png){width="350"}
 
 ### Conditions panel with DITAVAL-based conditions
 
@@ -62,6 +82,9 @@ Authors can now view all review tasks, open or closed, associated with the curre
 When a review task includes one or more attached DITAVAL files, the Conditions panel now presents each condition as a toggle, pre-set to match the attached DITAVAL file(s), so reviewers see content the way the review initiator intended.
 
 Turning a toggle off hides that content from the review; turning it on restores it. Depending on the task configuration, reviewers may be able to override these toggles or find them locked to the initiator's settings, and any changes apply only for the current session.For details, view [Conditions panel with DITAVAL-based conditions](../user-guide/review-topics.md#conditions-panel-with-ditaval-based-conditions).
+
+![](assets/review-condition-panel-ditaval.png){width="350"}
+
 
 ### Sync review task completion between the Review UI and AEM Inbox (Beta)
 
@@ -77,8 +100,7 @@ For more details, view [Complete the review task as a Reviewer](../user-guide/re
 
 ### Specify a custom folder path for translation projects
 
-When sending content for translation, you can now select the folder in which a new translation project is created, instead of all projects defaulting to a single location under `/content/projects`. If no custom path is selected, the project is created under the default path, as before. 
-When adding content to an existing translation project, the project selection list also displays the project path alongside its name, making it easier to distinguish between projects that share the same title. This helps avoid a cluttered project structure and improves page load performance as the number of translation projects grows. 
+When sending content for translation, you can now select the folder in which a new translation project is created, instead of all projects defaulting to a single location under `/content/projects`. If no custom path is selected, the project is created under the default path, as before. This helps avoid a cluttered project structure and improves page load performance as the number of translation projects increases. 
 
 For details, view [Create translation project](../user-guide/translate-documents-web-editor.md#create-a-translation-project).
 
@@ -86,25 +108,22 @@ For details, view [Create translation project](../user-guide/translate-documents
 
 The following enhancements are available for the Product Training and Learning content feature in this release:
 
-- When an HTML topic is added to a Learning group map, the format="html" attribute is now automatically added to the corresponding topicref, ensuring correct processing and publishing under DITA-OT 4.x. For more details, view [Add existing content in your course](../learning-content/manage-course.md#add-existing-content).
-
-- In the published output of a course, learners can now use the Review answers option after completing a quiz attempt to revisit their submitted responses and see which answers were correct or incorrect. Learn more about [Question properties in a quiz](../learning-content/quiz-insert-questions.md#question-properties).
-
-- In Knowledge check questions within a course, the **Try again** button is now displayed when a learner selects an incorrect answer, allowing them to retry the question. This behavior is consistent across single-select and multiple-select Knowledge Checks. For details, view [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
-
 - A new **Learner experience** tab is now available in SCORM output configuration, letting you configure how learners interact with and navigate through SCORM output. Settings are organized under General, Navigation, and Quiz, giving you control over content accessibility, navigation flow, and quiz behavior for a tailored learning experience.
 
-Under **Navigation**, you can now control whether the **Next** button is enabled or disabled on a page, allowing learners to progress only after specified conditions on that page are met; such as opening all interactive elements, watching all media, attempting all knowledge checks, and spending a minimum configured duration on the page. Learn more about [Configure SCORM preset](../learning-content/config-scorm-preset.md).
+    Under **Navigation**, you can now control whether the **Next** button is enabled or disabled on a page, allowing learners to progress only after specified conditions on that page are met; such as opening all interactive elements, watching all media, attempting all knowledge checks, and spending a minimum configured duration on the page. Learn more about [Configure SCORM preset](../learning-content/config-scorm-preset.md).
+
+    ![](assets/learner-experience.png){width="650"} 
 
 - Authors can now configure output-level options such as enabling PDF downloads for learners. When enabled, a PDF icon is added to the SCORM output, letting learners download a PDF version of the course content directly from the published output. For configuration details and prerequisites, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
 
+    ![](assets/pdf-icon.png){width="650"} 
 
-- You can now use multiline text input fields when creating learning content. This enhancement makes it easier to capture longer learner responses by supporting line breaks and text wrapping within a single field, without relying on custom scripting. Learn more about [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
-- SCORM output templates now support assigning different page layouts to different topic types within a course. This allows you to configure dedicated layouts for lessons, quizzes, overview pages, and other topic types directly from the output template settings.
+- In the published output of a course, learners can now use the Review answers option after completing a quiz attempt to revisit their submitted responses and see which answers were correct or incorrect. Learn more about [Question properties in a quiz](../learning-content/quiz-insert-questions.md#question-properties).
 
-    This allows each topic type to use a layout that is appropriate for its content and structure, rather than applying the same layout across all course pages. For more details on configuring page layouts for SCORM output templates, view [Configure Folder profiles](../lc-config-guide/lc-folder-profile.md). 
-- Experience Manager Guides now supports direct publishing of SCORM content to Adobe Learning Manager (ALM). After configuring an ALM publish profile, authors can generate SCORM output and upload it directly to Adobe Learning Manager without downloading and manually importing the package.
+    ![](assets/review-answer-quiz.png){width="650"} 
 
-    For more details, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
+- In Knowledge check questions within a course, the **Try again** button is now displayed when a learner selects an incorrect answer, allowing them to retry the question. This behavior is consistent across single-select and multiple-select Knowledge Checks. For details, view [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
+
+- When an HTML topic is added to a Learning group map, the format="html" attribute is now automatically added to the corresponding topicref, ensuring correct processing and publishing under DITA-OT 4.x. For more details, view [Add existing content in your course](../learning-content/manage-course.md#add-existing-content).
 
 
