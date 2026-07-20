@@ -28,24 +28,24 @@ topic_v2:
 
 >[!IMPORTANT]
 >
-> New map collection is available in Experience Manager Guides as a Cloud Service starting with 2026.06.0 release. Contact your Customer Success team to enable this feature.
+> New map collection is available in Experience Manager Guides as a Cloud Service starting with 2026.08.0 release. Contact your Customer Success team to enable this feature.
 
 Map collection in Adobe Experience Manager Guides enables publishing specialists to organize multiple documents into a single collection, control the output generated for each document, and efficiently generate and publish outputs in batches from a centralized dashboard. It also provides visibility into output generation progress, highlights changes made to maps since their last published output, and allows you to republish content when needed. 
 
-The New map collection consolidates the functionality previously spread across the old map collection, and bulk publishing into a single unified interface. Once enabled, you can manage maps, presets, generation history, publishing history, metadata, and collection membership from one location.
+The new map collection consolidates the functionality previously spread across the old map collection, and bulk publishing into a single unified interface. Once enabled, you can manage maps, presets, generation history, publishing history, metadata, and collection membership from one location.
 
 ## Create a map collection and add DITA maps 
 
 To create a map collection and add maps to it, perform the following steps:
 
-1.  Open the Experience Manager Guides Home page and select **New map collections**. 
+1.  Open the Experience Manager Guides Home page and select **Map collections**. 
 
     The **Map collections** page opens.
 
     ![](images/new-maps-collection.png){width="650"}
 
     
-1.  On the **Map collections** page, select **Create** on the top-right, and provide a **Name** for your new map collection.
+1.  On the **Map collections** page, select **Create** on the top-right, and provide a **Name** for your map collection.
 
     ![](images/create-new-map-collection.png){width="350"}
 
