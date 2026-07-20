@@ -12,7 +12,7 @@ For the list of issues fixed in this release, view [Fixed issues in the 2026.08.
 Learn about [upgrade instructions for the 2026.08.0 release](../release-info/upgrade-instructions-2026-08-0.md).
 
 
-## Introducing Guides AI
+## Introducing Guides AI with smart tagging capability
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ Learn about [upgrade instructions for the 2026.08.0 release](../release-info/upg
 
 Now we have **Guides AI**, a new intelligent assistant integrated into the Editor that enables you to interact with your content using natural, conversational prompts.
 
-Currently, Guides AI streamlines content tagging by analyzing your content and recommending relevant tags. Simply ask Guides AI to suggest tags for a file, and it will review the content, generate tag recommendations, and present them for your review. Once you confirm, the suggested tags can be applied to the relevant topics, including across multiple topics within a map.
+Guides AI streamlines content tagging by analyzing your content and recommending relevant tags. Simply ask Guides AI to suggest tags for a file, and it will review the content, generate tag recommendations, and present them for your review. Once you confirm, the suggested tags can be applied to the relevant topics, including across multiple topics within a map.
 
 Guides AI is designed to evolve with additional capabilities that will further enhance the authoring experience over time. For more details, view [Placeholder].
 
@@ -31,7 +31,7 @@ Guides AI is designed to evolve with additional capabilities that will further e
 
 >[!NOTE]
 >
-> To enable the New map collection feature your environment, contact the Customer Success team.
+> To enable the New map collection feature in your environment, contact the Customer Success team.
 
 New map collection brings map collection management and output generation activities together in a single interface. From one location, you can manage maps and presets, generate and publish outputs, view generation and publishing history, and more. By bringing related publishing tasks together, it makes it easier to work with map collections and track output activity across multiple maps and their associated languages.
 
@@ -43,8 +43,9 @@ For more details, view [Use New map collection for output generation](../user-gu
 
 ## Editor enhancements 
 
-In the New Editor, images can now be resized directly in Author mode by dragging their handles, using corner handles to maintain aspect ratio or Shift with middle handles to resize freely. The Content properties panel and Side by side/Preview modes reflect the change in real time.
-For more deatils, view [Resize image in Editor](../user-guide/web-editor-toolbar.md).
+In the New Editor, images can now be resized directly in Author mode by dragging their handles, using corner handles to maintain aspect ratio or Shift with middle handles to resize freely. The Side by side and Preview modes reflect the change in real time.
+
+For more details, view [Resize image in Editor](../user-guide/web-editor-toolbar.md).
 
 
 ## Review enhancements
@@ -53,11 +54,11 @@ For more deatils, view [Resize image in Editor](../user-guide/web-editor-toolbar
 
 >[!NOTE]
 >
-> To enable this faeture in your environment, contact the Customer Success team.
+> To enable this feature in your environment, contact the Customer Success team.
 
-Reviewers can now recommend another user to weigh in on a review before it goes back to the Author, using the new **Delegate** option available for a review task. This is useful when part of the content falls outside the reviewer's expertise or when a second opinion is needed before completing the review, without having to route the request through a project administrator.
+Reviewers can now recommend another user to weigh in on a review before it goes back to the Author, using the new **Delegate** option available for a review task. This is useful when part of the content falls outside the Reviewer's expertise or when a second opinion is needed before completing the review, without having to route the request through a project administrator.
 
-Selecting Delegate does not complete the review task; it sends the recommendation to the Author, who decides whether to add the recommended reviewer to the task. Learn more about [Delegate a review task to another Reviewer](../user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer).
+Selecting Delegate option sends the recommendation to the Author, who decides whether to add the recommended reviewer to the task. Learn more about [Delegate a review task to another Reviewer](../user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer).
 
 ![](assets/review-delegate-option.png){width="350"}
 
@@ -92,7 +93,7 @@ Authors can now view all review tasks, open or closed, associated with the curre
 >
 > To enable this feature in your environment, contact the Customer Success team.
 
-When a review task includes one or more attached DITAVAL files, the Conditions panel now presents each condition as a toggle, pre-set to match the attached DITAVAL file(s), so reviewers see content the way the review initiator intended.Turning a toggle off hides that content from the review; turning it on restores it.
+When a review task includes one or more attached DITAVAL files, the Conditions panel now presents each condition as a toggle, pre-set to match the attached DITAVAL file(s), so reviewers see content the way the review initiator intended. Turning a toggle off hides that content from the review; turning it on restores it.
 
 For details, view [Conditions panel with DITAVAL-based conditions](../user-guide/review-topics.md#conditions-panel-with-ditaval-based-conditions).
 
@@ -106,13 +107,13 @@ For details, view [Conditions panel with DITAVAL-based conditions](../user-guide
 >
 > To enable this functionality in your environment, contact the Customer Success team.
 
-Administators can now designate output presets as templates, applying standardized configurations across all maps within a folder profile with a single action. When a template is applied, the system displays the number of maps affected, giving admins full visibility before rollout. To preserve consistency, template presets can only be modified by admin users, and output generation is disabled for template presets (unless output was already generated prior to templating).
+Administrators can now designate output presets as templates, applying standardized configurations across all maps within a folder profile with a single action. When a template is applied, the system displays the number of maps affected, giving admins full visibility before rollout. To preserve consistency, template presets can only be modified by admin users, and output generation is disabled for template presets (unless output was already generated prior to templating).
 
 For details, view [Understanding the output presets](../user-guide/generate-output-create-edit-preset.md).
 
-### Validate content quality with Content Health Check
+### Validate content quality with content health check
 
-Content Health Check helps validate content quality across DITA maps before publishing. Administrators can create reusable health check presets by combining checks for broken links, duplicate IDs, and Schematron validation, and make them available through folder profiles.
+Content health check helps validate content quality across DITA maps before publishing. Administrators can create reusable health check presets by combining checks for broken links, duplicate IDs, and Schematron validation, and make them available through folder profiles.
 
 Authors can run a health check on a DITA map or a selected baseline to generate a consolidated report of issues across associated topics and maps. Learn more about [Content health check](../user-guide/generate-output-understand-presets.md).
 
@@ -131,7 +132,7 @@ The following enhancements are available for the Product Training and Learning c
 
 - A new **Learner experience** tab is now available in SCORM output configuration, allowing you to configure how learners interact with and navigate through SCORM output. Settings are organized under General, Navigation, and Quiz, giving you control over content accessibility, navigation flow, and quiz behavior for a tailored learning experience.
 
-    Under **Navigation**, you can now control whether the **Next** button is enabled or disabled on a page, allowing learners to progress only after specified conditions on that page are met; such as opening all interactive elements, watching all media, and more. For details, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
+    Under **Navigation**, you can now control whether the **Next** button is enabled or disabled on a page, allowing learners to progress only after specified conditions on that page are met, such as opening all interactive elements, watching all media, and more. For details, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
 
     ![](assets/learner-experience.png){width="650"} 
 
@@ -139,12 +140,12 @@ The following enhancements are available for the Product Training and Learning c
 
     ![](assets/pdf-icon.png){width="650"} 
 
-- In the published output of a course, learners can now use the Review answers option after completing a quiz attempt to revisit their submitted responses and see which answers were correct or incorrect. Learn more about [Question properties in a quiz](../learning-content/quiz-insert-questions.md#question-properties).
+- In the published output of a course, learners can now use the **Review answers** option after completing a quiz attempt to revisit their submitted responses and see which answers were correct or incorrect. Learn more about [Question properties in a quiz](../learning-content/quiz-insert-questions.md#question-properties).
 
     ![](assets/review-answer-quiz.png){width="650"} 
 
 - In Knowledge check questions within a course, the **Try again** button is now displayed when a learner selects an incorrect answer, allowing them to retry the question. This behavior is consistent across single-select and multiple-select Knowledge Checks. For details, view [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
 
-- When an HTML topic is added to a Learning group map, the format="html" attribute is now automatically added to the corresponding topicref, ensuring correct processing and publishing under DITA-OT 4.x. For more details, view [Add existing content in your course](../learning-content/manage-course.md#add-existing-content).
+- When an HTML topic is added to a Learning group map, the `format="html"` attribute is now automatically added to the corresponding `topicref`, ensuring correct processing and publishing under DITA-OT 4.x. For more details, view [Add existing content in your course](../learning-content/manage-course.md#add-existing-content).
 
 

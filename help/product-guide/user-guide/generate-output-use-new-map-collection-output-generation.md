@@ -142,7 +142,7 @@ To generate the output using a Map Collection, perform the following steps:
     - **Finished (Red)**: Generation completed with errors. Error details can be viewed in the logs.
     - **Executing (Blue)**: Generation is currently in progress.
     - **Failed (Red)**: Generation has failed.
-    - **Waiting (Blue)**: Geneartion is in queue. 
+    - **Waiting (Blue)**: Generation is in queue. 
 
 
     ![Status types](./images/status-types.png)
