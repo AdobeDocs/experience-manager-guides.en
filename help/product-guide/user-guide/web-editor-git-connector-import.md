@@ -30,7 +30,7 @@ topic_v2:
 
 # Import content using Git Connector
 
-After your Administrator configures the [Git Connector in Experience Manager Guides](./web-editor-git-connector-overview.md), you can use it from the Editor to import content from a Git repository.
+After your Administrator configures the [Git Connector in Experience Manager Guides](./web-editor-git-connector.md), you can use it from the Editor to import content from a Git repository.
 
 ## Prerequisites
 
@@ -77,7 +77,7 @@ Once content is imported into Experience Manager Guides, you can use the availab
 
 ![](images/git-connector-imported-content-options.png){width="600"}
 
-- **Preview**: Preview imported content. If the source repository contains updates, review the differences and use the **Refetch** option to import the latest changes. If the differences require merging, see [Resolve Git Connector conflicts](web-editor-git-connector-conflicts.md).
+- **Preview**: Preview imported content. If the source repository contains updates, review the differences and use the **Refetch** option to import the latest changes. If the differences require merging, view [Resolve Git Connector conflicts](#review-and-resolve-content-conflicts).
 - **Delete**: Remove imported content that is no longer required.
 - **Rename**: Rename imported content for easier identification.
 - **View log**: View the import log to review details of the import operation.
@@ -104,28 +104,27 @@ Perform the following steps to resolve and merge conflicts:
     ![](images/git-connector-resolve-conflicts.png)
 
     - In the **AEM** section, the current version of the content present in Experience Manager Guides is displayed. 
-    - In the **Git** section, the latest version of the content from the repository is displayed.
-    - In the **Merge** section, the merged content is displayed.
+    - In the **GIT** section, the latest version of the content from the repository is displayed.
+    - In the **Result** section, the merged content is displayed.
 
 1. Review the differences highlighted in the editor and resolve the conflicts using the merge controls:
 
-    - If you want to use the latest changes from the Git repository, ensure that the checkbox for the conflict in the **Git** section is selected, and then select the corresponding `<<<` control. The selected Git content replaces the conflicting content in the **Merge** section.
+    - If you want to use the latest changes from the Git repository, ensure that the checkbox for the conflict in the **GIT** section is selected, and then select the corresponding `<<<` control. The selected Git content replaces the conflicting content in the **Result** section.
   
       ![](images/git-connector-replace-with-git.png)
 
-    - If you want to keep content from both versions, clear the checkbox for the conflict and then use the `<<<` control to add the required content to the **Merge** section without replacing the existing content.
+    - If you want to keep content from both versions, clear the checkbox for the conflict and then use the `<<<` control to add the required content to the **Result** section without replacing the existing content.
 
       ![](images/git-connector-keep-both-versions.png)
 
     - Similarly, you can use the `>>>` control in the AEM section to keep the version currently available in Experience Manager Guides.
-
-      ![](images/git-connector-accept-aem-version.png)
+      
 
 1. After reviewing the merged content, perform one of the following actions:
 
-    - Use **Accept changes from Git** when the repository version should replace the conflicting content.
-    - Use **Mark as merged** after reviewing and updating the merged version to ensure it contains the content you want to keep.
-    - Use **Reset** to discard all merged updates and restore the content to its original state.
+    - Use **Accept AEM** to replace the content in the **Result** section entirely with the version from the **AEM** section, keeping your local changes.
+    - Use **Accept GIT** to replace the content in the **Result** section entirely with the version from the **GIT** section, keeping the repository changes.
+    - Use **Complete merge** after reviewing and updating the merged version to ensure it contains the content you want to keep.
 
 After all files containing the conflicts are marked as merged, the **Import all** button is enabled. Select **Import all** to complete the process of resolving conflicts.
 
