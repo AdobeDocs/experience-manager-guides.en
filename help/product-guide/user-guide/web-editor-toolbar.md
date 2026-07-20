@@ -470,11 +470,11 @@ You can resize an image by providing either Height or Width value for the image 
 
 In the New Editor, you can also resize an image by dragging its handles in the Author mode:
 
-- Corner handles: Dragging the corner handles resizes the image while maintaining its aspect ratio.
+- **Corner handles**: Dragging the corner handles resizes the image while maintaining its aspect ratio.
 
     ![](images/resize-corner-handles.png)
 
-- Middle handles: Press **Shift** to reveal additional middle handles. Dragging these resizes the image without maintaining the aspect ratio, letting you increase or decrease the height or width independently.
+- **Middle handles**: Press **Shift** to reveal additional middle handles. Dragging these resizes the image without maintaining the aspect ratio, letting you increase or decrease the height or width independently.
 
     ![](images/resize-middle-handles.png)    
 
@@ -487,11 +487,6 @@ You can also add other properties for an image file by selecting the required pr
 >[!NOTE]
 >
 >You can also define clickable areas \(image map\) in your image. For more details, view the **Insert/Edit Image Map** feature description in the [Left panel](web-editor-left-panel.md) section. 
-
-
-**Resize images**
-
-In the New Editor, you can resize an image by dragging its edges or corner handles in the **Author** mode. As you drag, the Height and Width values in the **Content properties** panel update automatically to reflect the new dimensions. This resizing is also reflected in the **Side by side** mode and in **Preview** mode, so you can confirm how the resized image will appear before publishing.
 
 **Context menu for image or media files**
 
