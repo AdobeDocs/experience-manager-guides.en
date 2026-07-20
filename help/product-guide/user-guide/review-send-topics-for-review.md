@@ -115,7 +115,7 @@ To create a review task and send topics for review, perform the following steps:
 
     >[!NOTE]
     >
-    > The ability to attach DITAVAL files to a review task is disabled by default. Contact your Customer Success team to enable this feature.
+    > The feature to attach DITAVAL files to a review task is enabled by default. To disable this feature, contact your Customer Success team.
 
     If the topic you are sending for review uses conditions, you can attach one or more DITAVAL files to the review task.
 

@@ -274,7 +274,7 @@ In the preview mode, the non-conditionalized content and the conditionalized con
 
 >[!NOTE]
 >
->This feature is disabled by default. To enable it, contact your Customer Success team.
+>This feature is enabled by default. To disable it, contact your Customer Success team.
 
 If the review task is created with one or more DITAVAL files attached, the Conditions panel presents conditions differently from what is described in the [Work with Conditions panel](#work-with-conditions-panel) section. Each condition is controlled by a toggle switch instead of an eye icon, and the toggles are pre-set to reflect the conditions defined in the attached DITAVAL file(s), so you can review the content the way the review initiator intended.
 
