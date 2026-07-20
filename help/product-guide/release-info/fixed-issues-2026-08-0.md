@@ -83,7 +83,7 @@ Adobe has identified the following known issues for the 2026.08.0 release:
 
 - Closing a DITAVAL file that has been moved to a different location results in an `ERROR IN FETCHING VERSION DETAILS` error message. (GUIDES-51420)
 - Conflict API fails and leads to an application error when the repository folder path ends with a forward slash. (GUIDES-51006)
-- Alphanumeric terms added to the user dictionary are still flagged by the spell checker instead of being ignored. (GUIDES-48587)
+- Alphanumeric terms added to the dictionary are still flagged by the spell checker instead of being ignored. (GUIDES-48587)
 - Selecting a processing instruction element in the Outline view highlights the entire parent tag instead of the selected element. (GUIDES-48318)
 - The map preview in the Editor takes a long time to load, and the preview screen sometimes remains blank. (GUIDES-46500)
 - Editing a keyword within a `keyref` in the source view breaks the keyword when the view is switched to any other view. (GUIDES-49998)
@@ -96,7 +96,7 @@ Adobe has identified the following known issues for the 2026.08.0 release:
 - Selecting **View output** after generating Edge Delivery Services output opens an `hlx.live` URL that returns a 403 Forbidden error instead of the `aem.live` URL. (GUIDES-51572)
 - Invalid components are displayed on the `common.plt` page on adding an image, hyperlink, or iframe from a template's toolbar. (GUIDES-51165)
 - Publishing a map that references a topic using the `copy-to` attribute removes the peer scope link from the corresponding topic in the source map. (GUIDES-50701)
-- When a PDF is referenced as an `xref` with scope set to Peer, it is published on the AEM site (using legacy component mapping) instead of being sourced from the cross map. (GUIDES-50213)
+- When a PDF is referenced as an `xref` with scope set to `Peer`, it is published on the AEM site (using legacy component mapping) instead of being sourced from the cross map. (GUIDES-50213)
 - Starting a translation with the **Create structure only** option returns an error. (GUIDES-51261)
 
 **Map collections**
@@ -104,7 +104,7 @@ Adobe has identified the following known issues for the 2026.08.0 release:
 - Deleting a map collection sometimes fails if you switch tabs (such as Repository or Overview) and then return to the Map Collection page before deleting it. (GUIDES-50997)
 - Generating the same preset while a previous generation is in progress no longer shows a message indicating the earlier generation is in progress. (GUIDES-50523)
 - The last generation timestamp is not shown or updated in the Map Collection UI after a map is generated, and re-adding a preset that was previously removed causes its generation history to be lost again. (GUIDES-50511)
-- Publishing from the Generation History always publishes the latest output of a preset instead of the selected generation. (GUIDES-50508)
+- Publishing from the **Generation History** always publishes the latest output of a preset instead of the selected generation. (GUIDES-50508)
 - The publishing status does not automatically refresh for newly created map collections. (GUIDES-50367)
 
 ## Review
