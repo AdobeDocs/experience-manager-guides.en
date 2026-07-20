@@ -1,0 +1,110 @@
+---
+title: Release Notes | What's New in Adobe Experience Manager Guides 2026.08.0 release
+description: Learn about the new and enhanced features in the 2026.08.0 release of Adobe Experience Manager Guides
+role: Leader
+---
+# What's new in the 2026.08.0 release (June 2026)
+
+This article covers the new and enhanced features introduced with the 2026.08.0 release of Adobe Experience Manager Guides as a Cloud Service.
+
+For the list of issues fixed in this release, view [Fixed issues in the 2026.08.0 release](fixed-issues-2026-08-0.md).
+
+Learn about [upgrade instructions for the 2026.08.0 release](../release-info/upgrade-instructions-2026-08-0.md).
+
+
+## New map collection for managing maps and publishing outputs
+
+>[!NOTE]
+>
+> To enable the New map collection feature your environment, contact the Customer Success team.
+
+New map collection brings map collection management and output generation activities together in a single interface. From one location, you can manage maps and presets, generate and publish outputs, view generation and publishing history, and more. By bringing related publishing tasks together, it makes it easier to work with map collections and track output activity across multiple maps and their associated languages.
+
+This update also addresses performance issues seen with large map collections, where loading a collection with hundreds of maps would often become unresponsive with no loading indicator.
+
+![](assets/new-maps-collection.png)
+
+For more details, view [Use New map collection for output generation](../user-guide/generate-output-use-new-map-collection-output-generation.md). 
+
+## Editor enhancements 
+
+- In the New Editor, images can now be resized directly in Author mode by dragging their edge or corner handles. As you drag, the Height and Width values in the Content properties panel update automatically to reflect the new dimensions. The resized image is also reflected in Side by side mode and in Preview mode, allowing you to confirm how it will appear before publishing.
+
+
+## Review enhancements
+
+### Delegate a review task to another Reviewer (Beta)
+
+>[!NOTE]
+>
+> This feature is currently available as a Beta feature and is disabled by default. To enable it in your environment, contact the Customer Success team.
+
+Reviewers can now recommend another user to weigh in on a review before it goes back to the Author, using the new **Delegate** option available for a review task. This is useful when part of the content falls outside the reviewer's expertise or when a second opinion is needed before completing the review, without having to route the request through a project administrator. Selecting Delegate does not complete the review task; it sends the recommendation to the Author, who decides whether to add the recommended reviewer to the task. Learn more about [Delegate a review task to another Reviewer](../user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer).
+
+### Task description now visible in the Review UI
+
+Reviewers can now access the task description directly within the review experience, instead of relying only on the notification email. The description entered while creating a review task is used as the body of the notification email sent to reviewers and is also displayed in the Review details dialog, accessible through the Info icon beside the Comments heading in both the Review UI and the Editor interface. This gives reviewers access to instructions, scope, and areas of focus throughout the review, rather than only at the time of notification. For more details, view [Send topics for review](../user-guide/review-send-topics-for-review.md).
+
+### View all review tasks for a topic
+
+>[!NOTE]
+>
+> To enable this feature in your environment, contact the Customer Success team.
+
+Authors can now view all review tasks, open or closed, associated with the currently-open topic directly from the Comments panel. A drop-down lists every review task the topic is part of, along with each task's state and project, and lets you switch between them to view comments without leaving the topic or switching review projects. The task you're currently working from is marked as Current by default, and only its comments can be imported into your working copy; comments from other tasks are shown in read-only mode. For details, view []
+
+### Conditions panel with DITAVAL-based conditions
+
+>[!NOTE]
+>
+> To enable this feature in your environment, contact the Customer Success team.
+
+When a review task includes one or more attached DITAVAL files, the Conditions panel now presents each condition as a toggle, pre-set to match the attached DITAVAL file(s), so reviewers see content the way the review initiator intended.
+
+Turning a toggle off hides that content from the review; turning it on restores it. Depending on the task configuration, reviewers may be able to override these toggles or find them locked to the initiator's settings, and any changes apply only for the current session.For details, view [Conditions panel with DITAVAL-based conditions](../user-guide/review-topics.md#conditions-panel-with-ditaval-based-conditions).
+
+### Sync review task completion between the Review UI and AEM Inbox (Beta)
+
+>[!NOTE]
+>
+> This feature is currently available as a Beta feature and is disabled by default. To enable it in your environment, contact the Customer Success team.
+
+You can now keep review task completion in sync between the Review UI and the AEM Inbox. When this feature is enabled, completing a task in the Review UI removes it from the AEM Inbox, and completing it from the AEM Inbox marks it as completed in the Review UI. This helps avoid completing the same task twice and makes the review workflow smoother. Authors and task initiators can continue to review feedback and reassign tasks when additional review is required. When a task is reassigned, a new AEM Inbox notification is generated for the reviewer, allowing the review cycle to continue seamlessly.
+
+For more details, view [Complete the review task as a Reviewer](../user-guide/review-complete-review-tasks.md). 
+
+## Translation enhancements
+
+### Specify a custom folder path for translation projects
+
+When sending content for translation, you can now select the folder in which a new translation project is created, instead of all projects defaulting to a single location under `/content/projects`. If no custom path is selected, the project is created under the default path, as before. 
+When adding content to an existing translation project, the project selection list also displays the project path alongside its name, making it easier to distinguish between projects that share the same title. This helps avoid a cluttered project structure and improves page load performance as the number of translation projects grows. 
+
+For details, view [Create translation project](../user-guide/translate-documents-web-editor.md#create-a-translation-project).
+
+## Learning content enhancements
+
+The following enhancements are available for the Product Training and Learning content feature in this release:
+
+- When an HTML topic is added to a Learning group map, the format="html" attribute is now automatically added to the corresponding topicref, ensuring correct processing and publishing under DITA-OT 4.x. For more details, view [Add existing content in your course](../learning-content/manage-course.md#add-existing-content).
+
+- In the published output of a course, learners can now use the Review answers option after completing a quiz attempt to revisit their submitted responses and see which answers were correct or incorrect. Learn more about [Question properties in a quiz](../learning-content/quiz-insert-questions.md#question-properties).
+
+- In Knowledge check questions within a course, the **Try again** button is now displayed when a learner selects an incorrect answer, allowing them to retry the question. This behavior is consistent across single-select and multiple-select Knowledge Checks. For details, view [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
+
+- A new **Learner experience** tab is now available in SCORM output configuration, letting you configure how learners interact with and navigate through SCORM output. Settings are organized under General, Navigation, and Quiz, giving you control over content accessibility, navigation flow, and quiz behavior for a tailored learning experience.
+
+Under **Navigation**, you can now control whether the **Next** button is enabled or disabled on a page, allowing learners to progress only after specified conditions on that page are met; such as opening all interactive elements, watching all media, attempting all knowledge checks, and spending a minimum configured duration on the page. Learn more about [Configure SCORM preset](../learning-content/config-scorm-preset.md).
+
+- Authors can now configure output-level options such as enabling PDF downloads for learners. When enabled, a PDF icon is added to the SCORM output, letting learners download a PDF version of the course content directly from the published output. For configuration details and prerequisites, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
+
+
+- You can now use multiline text input fields when creating learning content. This enhancement makes it easier to capture longer learner responses by supporting line breaks and text wrapping within a single field, without relying on custom scripting. Learn more about [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
+- SCORM output templates now support assigning different page layouts to different topic types within a course. This allows you to configure dedicated layouts for lessons, quizzes, overview pages, and other topic types directly from the output template settings.
+
+    This allows each topic type to use a layout that is appropriate for its content and structure, rather than applying the same layout across all course pages. For more details on configuring page layouts for SCORM output templates, view [Configure Folder profiles](../lc-config-guide/lc-folder-profile.md). 
+- Experience Manager Guides now supports direct publishing of SCORM content to Adobe Learning Manager (ALM). After configuring an ALM publish profile, authors can generate SCORM output and upload it directly to Adobe Learning Manager without downloading and manually importing the package.
+
+    For more details, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
+
+
