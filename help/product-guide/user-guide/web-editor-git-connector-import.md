@@ -30,7 +30,7 @@ topic_v2:
 
 # Import content using Git Connector
 
-After your Administrator configures the [Git Connector in Experience Manager Guides](./web-editor-git-connector-overview.md), you can use it from the Editor to import content from a Git repository.
+After your Administrator configures the [Git Connector in Experience Manager Guides](./web-editor-git-connector.md), you can use it from the Editor to import content from a Git repository.
 
 ## Prerequisites
 
@@ -104,12 +104,12 @@ Perform the following steps to resolve and merge conflicts:
     ![](images/git-connector-resolve-conflicts.png)
 
     - In the **AEM** section, the current version of the content present in Experience Manager Guides is displayed. 
-    - In the **Git** section, the latest version of the content from the repository is displayed.
+    - In the **GIT** section, the latest version of the content from the repository is displayed.
     - In the **Result** section, the merged content is displayed.
 
 1. Review the differences highlighted in the editor and resolve the conflicts using the merge controls:
 
-    - If you want to use the latest changes from the Git repository, ensure that the checkbox for the conflict in the **Git** section is selected, and then select the corresponding `<<<` control. The selected Git content replaces the conflicting content in the **Result** section.
+    - If you want to use the latest changes from the Git repository, ensure that the checkbox for the conflict in the **GIT** section is selected, and then select the corresponding `<<<` control. The selected Git content replaces the conflicting content in the **Result** section.
   
       ![](images/git-connector-replace-with-git.png)
 

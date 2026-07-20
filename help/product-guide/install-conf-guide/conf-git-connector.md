@@ -53,7 +53,7 @@ Use the Data Sources tool in Experience Manager Guides to create and configure a
 
 ## Add Git Connector to your Cloud Manager project
 
-Before Git Connector is available to configure from the **Data Sources** page, it must be embedded as a dependency in your AEM project.
+Before Git Connector is available to configure from the **Data Sources** page, it must be embedded as a dependency in your AEM project. Perform the following steps to add the dependency:
 
 1. In your AEM project's `all/pom.xml`, add Git Connector as a dependency under `<dependencies>`:
 
