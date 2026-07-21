@@ -12,7 +12,7 @@ The migration tool, added as a new process type within the Bulk Processor, reads
 
 >[!NOTE]
 >
-> There is no one-time migration available for Bulk Activation feature or for map collections that were created using the legacy Bulk activation feature. Since the publish functionality is now fully integrated into the New map collection experience, any map collections created specifically for Bulk activation needs to be re-created in the new experience, if required.
+> The Bulk Activation feature is not migrated to the new Map Collection experience. Re-create any map collections used for Bulk Activation in the new Map Collection experience, if needed.
 
 ## Migration process
 
