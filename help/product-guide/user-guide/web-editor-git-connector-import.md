@@ -123,8 +123,9 @@ Perform the following steps to resolve and merge conflicts:
 1. After reviewing the merged content, perform one of the following actions:
 
     - Use **Accept AEM** to replace the content in the **Result** section entirely with the version from the **AEM** section, keeping your local changes.
-    - Use **Accept GIT** to replace the content in the **Result** section entirely with the version from the **GIT** section, keeping the repository changes.
-    - Use **Complete merge** after reviewing and updating the merged version to ensure it contains the content you want to keep.
+    - Use **Accept GIT** to replace the content in the **Result** section entirely with the version from the **GIT** section, keeping the repository changes.    
+    
+**Complete merge** is required regardless of which option you use above. Selecting it locks in the current content of **Result** as the resolved version for that file and marks the file as merged.
 
 After all files containing the conflicts are marked as merged, the **Import all** button is enabled. Select **Import all** to complete the process of resolving conflicts.
 

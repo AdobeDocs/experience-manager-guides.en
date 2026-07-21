@@ -55,7 +55,14 @@ Git Connector allows authors to pull content directly from a Git repository into
 
 The following diagram shows how Git Connector moves content from a source repository into Experience Manager Guides through the Konnect framework.
 
-![Git Connector architecture diagram showing content flow from a Git repository through the Konnect framework into Experience Manager Guides](./images/git-connector-arch.png)
+![](./images/git-connector-arch.png)
+
+Git Connector moves content from a Git repository into Experience Manager Guides in four stages:
+
+1. **Crawl and sync**: A crawler connects to your configured Git repository and profile, and syncs content into the connector on demand.
+1. **Ingest and detect conflicts**: Incoming files are scanned and hashed against what's already in Experience Manager Guides. Files with no conflicting changes move through automatically; files with conflicting changes are flagged for manual resolution.
+1. **Persist**: Resolved content is processed and saved into AEM, alongside your other Experience Manager Guides content.
+1. **Experience Manager Guides workflow**: Once persisted, the content is available like any other Experience Manager Guides content for authoring, review, translation, and publishing.
 
 ## Performance benchmarks
 
