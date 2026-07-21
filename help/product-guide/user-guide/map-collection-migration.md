@@ -43,11 +43,11 @@ Perform the following steps to migrate the old map collections to new map collec
 
     The **New process** dialog opens.
 
-    ![New process dialog for migration](images/new-process-migration.png)     
+    ![New process dialog for migration](images/new-process-migration.png) {width="350"}    
 
 1. Select **Map collection** from the **Feature type** dropdown.
 
-    ![Map collection feature for the migration task](images/new-process.png)
+    ![Map collection feature for the migration task](images/new-process.png) {width="350"}
 
 1.  Select **Create**.   
 
