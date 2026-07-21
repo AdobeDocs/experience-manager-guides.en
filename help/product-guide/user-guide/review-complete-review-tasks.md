@@ -89,7 +89,7 @@ After reviewing the task-level feedback, the Author can either request a re-revi
 
 >[!IMPORTANT]
 >
-> This feature is disabled by default. Contact your Customer Success team to enable this capability in your environment.
+> This feature is enabled by default. To disable the feature in your environment, contact your Customer Success team. 
 
 As a Reviewer, you may sometimes want another user to weigh in on a review before it goes back to the Author. For example, if part of the content falls outside your expertise, or you'd like a second opinion before marking the task as **Complete**. Instead of routing this through a project administrator, you can recommend a reviewer directly from the review task using the **Delegate** option.
 
