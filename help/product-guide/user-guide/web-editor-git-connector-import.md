@@ -78,8 +78,8 @@ Once content is imported into Experience Manager Guides, you can use the availab
 ![](images/git-connector-imported-content-options.png){width="600"}
 
 - **Preview**: Preview imported content. If the source repository contains updates, review the differences and use the **Refetch** option to import the latest changes. If the differences require merging, view [Resolve Git Connector conflicts](#review-and-resolve-content-conflicts).
-- **Delete**: Remove imported content that is no longer required.
-- **Rename**: Rename imported content for easier identification.
+- **Delete**: Remove importer that is no longer required.
+- **Rename**: Rename importer for easier identification.
 - **View log**: View the import log to review details of the import operation.
 - **View Report**: View and download the **Bulk import report**, which includes details such as:
 
@@ -99,15 +99,13 @@ Perform the following steps to resolve and merge conflicts:
 
 1. Open the Bulk importer dialog and select **Refetch**.
 1. If conflicts are detected, the **Merge required** tab appears and lists the files that contain conflicts. Select the **Merge required** tab, and then select a file from the list to review and resolve the conflicts.
-1. Review the content in the following sections:
+1. For files with conflicts, a three-way merge view is displayed.
 
     ![](images/git-connector-resolve-conflicts.png)
 
-    - In the **AEM** section, the current version of the content present in Experience Manager Guides is displayed. 
-    - In the **GIT** section, the latest version of the content from the repository is displayed.
-    - In the **Result** section, the merged content is displayed.
+    The left pane (**AEM**) displays the current content from the AEM repository, while the right pane (**GIT**)  shows the incoming content from the remote Git repository. The middle pane (**Result**) is initially populated with the AEM repository content and serves as the merge editor, where conflicts are resolved. The final merged result is produced and displayed in this middle pane.
 
-1. Review the differences highlighted in the editor and resolve the conflicts using the merge controls:
+  1. Review the differences highlighted in the editor and resolve the conflicts using the merge controls:
 
     - If you want to use the latest changes from the Git repository, ensure that the checkbox for the conflict in the **GIT** section is selected, and then select the corresponding `<<<` control. The selected Git content replaces the conflicting content in the **Result** section.
   
@@ -129,6 +127,6 @@ Perform the following steps to resolve and merge conflicts:
 
 After all files containing the conflicts are marked as merged, the **Import all** button is enabled. Select **Import all** to complete the process of resolving conflicts.
 
-If the repository contains entirely new content, such as a new topic, paragraph, or line that does not conflict with existing content, it is displayed under **Clean updates**. These updates do not require conflict resolution and can be imported directly.
+If a file has changed in the Git repository but hasn't been modified in Experience Manager Guides, no merge is required. Such files are automatically included under **Clean updates** and can be imported directly.
 
-  ![](images/git-connector-clean-updates.png){width="600"}
+![](images/git-connector-clean-updates.png){width="600"}
