@@ -97,7 +97,6 @@ Adobe has identified the following known issues for the 2026.08.0 release:
 - Invalid components are displayed on the `common.plt` page on adding an image, hyperlink, or iframe from a template's toolbar. (GUIDES-51165)
 - Publishing a map that references a topic using the `copy-to` attribute removes the peer scope link from the corresponding topic in the source map. (GUIDES-50701)
 - When a PDF is referenced as an `xref` with scope set to `Peer`, it is published on the AEM site (using legacy component mapping) instead of being sourced from the cross map. (GUIDES-50213)
-- Starting a translation with the **Create structure only** option returns an error. (GUIDES-51261)
 
 **Map collections**
 
@@ -106,6 +105,10 @@ Adobe has identified the following known issues for the 2026.08.0 release:
 - The last generation timestamp is not shown or updated in the Map Collection UI after a map is generated, and re-adding a preset that was previously removed causes its generation history to be lost again. (GUIDES-50511)
 - Publishing from the **Generation History** always publishes the latest output of a preset instead of the selected generation. (GUIDES-50508)
 - The publishing status does not automatically refresh for newly created map collections. (GUIDES-50367)
+
+## Translation 
+
+- Starting a translation with the **Create structure only** option returns an error. (GUIDES-51261)
 
 ## Review
 
