@@ -105,7 +105,7 @@ Perform the following steps to resolve and merge conflicts:
 
     The left pane (**AEM**) displays the current content from the AEM repository, while the right pane (**GIT**)  shows the incoming content from the remote Git repository. The middle pane (**Result**) is initially populated with the AEM repository content and serves as the merge editor, where conflicts are resolved. The final merged result is produced and displayed in this middle pane.
 
-  1. Review the differences highlighted in the editor and resolve the conflicts using the merge controls:
+1. Review the differences highlighted in the editor and resolve the conflicts using the merge controls:
 
     - If you want to use the latest changes from the Git repository, ensure that the checkbox for the conflict in the **GIT** section is selected, and then select the corresponding `<<<` control. The selected Git content replaces the conflicting content in the **Result** section.
   
