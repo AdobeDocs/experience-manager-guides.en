@@ -72,6 +72,6 @@ The following benchmarks show full (non-incremental) **Bulk Importer** sync time
 |---|---|---|---|---|---|
 | 1,000 files | 1m 53s | 3m 30s | 5m 29s | 10 × 100 | ~286 files/min |
 | 5,000 files | 1m 55s | 18m 21s | 20m 27s | 20 × 250 | ~273 files/min |
-| 10,000 files | 1m 39s | 13m 22s | 15m 24s | 40 × 250 | ~750 files/min |
+| 10,000 files | 1m 39s | 36m 22s | 37m 24s | 40 × 250 | ~267 files/min |
 | 50,000 files | 1m 25s | 2h 43m | 2h 58m | 200 × 250 | ~270 files/min |
 
