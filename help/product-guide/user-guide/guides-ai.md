@@ -82,17 +82,16 @@ To generate tag recommendations for multiple topics in a map:
 
     ![Guides AI bulk tagging selecting topics](images/ai-select-topics.png){width="650"}
 
-4. In the **Select topics** dialog, select the topics for which you want tag recommendations. 
+4. In the **Select topics** dialog, select the topics for which you want tag recommendations.   
    The dialog provides:
    - A list of topics in the selected map.
    - A preview pane showing the selected topic and its existing tags.
    - Filter options to display topics **with tags** or **without tags**.
 
-        ![Guides AI bulk tagging selecting topics](images/ai-select dialog.png){width="650"}
+        ![Guides AI bulk tagging selecting topics](images/ai-select%20dialog.png){width="650"}  
+        
 
 5. Select **Confirm**. Guides AI analyzes the selected topics and displays the number of tag recommendations generated for each topic.
-
-    ![Guides AI bulk tagging selecting topics](images/ai-select dialog.png){width="650"}
 
 6. Select **Preview tags** to review the AI-generated tag recommendations.
 
