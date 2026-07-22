@@ -124,6 +124,10 @@ The **General** tab contains the following configuration options:
 | Cleanup previously generated pages| -  **Delete previously generated pages for topic removed from the map**: If the structure of the DTIA map changes, you can use this option to remove the previously generated pages for the removed topics. This feature is available only for full map publishing.<br><br>Let's say you have published a DITA map, which contains topics a.dita, b.dita, and c.dita. Before publishing the map again, you removed b.dita topic from the map. Now, if you have selected this option, then all content related to b.dita is removed from the AEM Sites output and only a.dita and c.dita are published.<br><br>**Note**: Information about deleted pages is also captured in the output generation logs. For more information about accessing the log files, [View and check the log file](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Caution**: On deleting the topics, the pages become unavailable from the published site. So, before the topics are deleted, a warning appears. You must confirm to delete them.<br><br>- **Delete all pages created by other sources at this path**: If you select this option, all pages published on this path from other maps, individual topics, or any other source are deleted. The pages also become unavailable from the published site. So, before the topics are deleted, a warning appears. You must confirm to delete them.|
 | Post Generation Workflow | When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow. |
 
+>[!NOTE]
+>
+>If [content health feature](../install-conf-guide/conf-health-check-preset.md) is configured for your folder profile, an additional **Run health check before output generation** toggle is displayed in the General tab. Enable it to have a health check run automatically each time you generate output with this preset, so you don't have to trigger it manually from the map. The report is appended to the publishing log and is purely informational. It won't block or delay your output, even if the check finds unresolved errors or warnings.
+
 **Content**
 
 The **Content** tab contains the following configuration options:
@@ -176,6 +180,10 @@ In the Map console, the preset configuration options for legacy component mappin
 **General**
 
 The **General** tab contains the following configuration options:
+
+>[!NOTE]
+>
+>If [content health feature](../install-conf-guide/conf-health-check-preset.md) is configured for your folder profile, an additional **Run health check before output generation** toggle is displayed in the General tab. Enable it to have a health check run automatically each time you generate output with this preset, so you don't have to trigger it manually from the map. The report is appended to the publishing log and is purely informational. It won't block or delay your output, even if the check finds unresolved errors or warnings.
 
 | AEM Sites options | Description |
 | --- | --- |

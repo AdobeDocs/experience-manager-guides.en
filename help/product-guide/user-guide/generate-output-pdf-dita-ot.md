@@ -72,6 +72,10 @@ The **General** tab contains the following configuration options:
 - Use baseline \(If a baseline is created for a map\)
 - Post generation workflow
 
+>[!NOTE]
+>
+>If [content health feature](../install-conf-guide/conf-health-check-preset.md) is configured for your folder profile, an additional **Run health check before output generation** toggle is displayed in the General tab. Enable it to have a health check run automatically each time you generate output with this preset, so you don't have to trigger it manually from the map. The report is appended to the publishing log and is purely informational. It won't block or delay your output, even if the check finds unresolved errors or warnings.
+
 **Advanced**
 
 The **Advanced** tab contains the following configuration options:

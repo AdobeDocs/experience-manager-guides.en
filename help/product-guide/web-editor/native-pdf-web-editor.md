@@ -82,6 +82,10 @@ Once the preset is created, configure the Native PDF preset settings. The preset
 
 Use to specify basic output settings, such as specify output path, PDF file name, and more. 
 
+>[!NOTE]
+>
+>If [content health feature](../install-conf-guide/conf-health-check-preset.md) is configured for your folder profile, an additional **Run health check before output generation** toggle is displayed in the General tab. Enable it to have a health check run automatically each time you generate output with this preset, so you don't have to trigger it manually from the map. The report is appended to the publishing log and is purely informational. It won't block or delay your output, even if the check finds unresolved errors or warnings.
+
 | Setting  | Description|
 | --- | --- |
 |**Output Path**|The path within the AEM repository where the PDF output is stored. Ensure that the output path is not located inside the project folder. The output path is set through the variable `${base_output_path}`, which is configured by Administrator. To configure the Output path, view [Configure Base Output Location for Cloud services](../native-pdf/configure-base-location-cs.md) or [Configure Base Output Location for On-prem services](../native-pdf/configure-base-output-location.md) based on the service you are using. <br>You can also use the following out-of-box variables to define the Output Path. You can use a single or a combination of variables to define this option. <br> `${map_filename}`: Uses the DITA map files name to create the destination path. <br> `${map_title}`: Uses the DITA map title to create the destination path. <br>`${preset_name}`: Uses the output preset name to create the destination path. <br> `${language_code}`: Uses the language code where the map file is located to create the destination path. <br> `${map_parentpath}`: Uses the complete path of the map file to create the destination path.  <br>`${path_after_langfolder}`: Uses the path of the map file after the language folder to create the destination path.|
@@ -96,7 +100,7 @@ Use to specify basic output settings, such as specify output path, PDF file name
 >[!NOTE]
 >
 >- Related links defined in DITA relationship tables (`<reltable>`) are not included in Native PDF output by default. Use this field to pass the `-Dargs.rellinks=nofamily` DITA-OT argument and include such related links in the output.
->- 
+>
  
 **Metadata**
 
