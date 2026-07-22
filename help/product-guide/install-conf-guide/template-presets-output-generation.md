@@ -46,23 +46,23 @@ Template presets are supported for all the output preset types except the follow
 
 4. Select the **Set as template** from the **Options** menu for the preset.
 
-    ![](images/template-preset.png){width="350"}
+    ![](assets/template-preset.png){width="350"}
 
     The selected output preset is converted into a template preset. Template presets are identified by a template icon, which distinguishes them from regular presets. To remove the template status, select **Unset as Template** from the template preset's **Options** menu at any time.  
 
-    ![](images/unset-as-template.png){width="350"}
+    ![](assets/unset-as-template.png){width="350"}
 
 5. Select **Apply Preset Changes** from the template preset's **Options** menu to apply the updated preset settings to all existing maps in the selected folder profile.
 
     **Apply Preset Changes** dialog opens.
 
-    ![](images/apply-preset-change.png){width="350"}
+    ![](assets/apply-preset-change.png){width="350"}
 
 6. To overwrite the existing preset, select the **Overwrite Existing Preset** checkbox and select **OK**. Overwriting updates the preset but does not modify the Baseline, Condition Preset, DITAVAL, Topic List, or Publish Context settings in the target preset. These settings remain unchanged.
 
     A **Confirm Action** dialog opens indicating how many maps the preset changes apply to.
 
-    ![](images/confirm-preset-change.png){width="350"}
+    ![](assets/confirm-preset-change.png){width="350"}
 
 7. Select **OK**.
 
