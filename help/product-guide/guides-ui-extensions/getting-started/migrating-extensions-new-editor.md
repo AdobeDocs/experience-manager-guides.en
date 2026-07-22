@@ -14,7 +14,6 @@ This guide helps extension authors understand what's involved in moving their cu
 > 
 > If you have an existing AEM Guides extension (Old Editor), including custom context menu items, toolbar buttons, dialogs, attribute or metadata logic, or content styling, this guide helps you keep it working with the New Editor.
 
-
 ## Overview
 
 - **Your registration does not change**: Keep using `window.extension` / `tcx.extension.register`.
@@ -66,11 +65,9 @@ file is actually open:
 
 ### Plugin registration and runtime gating
 
-- **Registration** (`registerPlugin`, one-time setup): run it **unconditionally** in `guides.ready`. It is a harmless no-op on the legacy editor: the legacy editor never reads the plugin registry, and your factory runs only when a MarkupEditor is actually constructed. It does **not** throw.
+- **Registration** (`registerPlugin`, one-time setup): Run it **unconditionally** in `guides.ready`. It is a harmless no-op on the legacy editor: the legacy editor never reads the plugin registry, and your factory runs only when a MarkupEditor is actually constructed. It does **not** throw.
 
-- **Runtime calls** (`runCommand`, `runUtil`, `addDecoration`, …): gate by `version === '2.0.0'` at
-  call time. They don't throw on the legacy editor (they safely return `false`/`undefined`), but
-  gating avoids no-op warnings and lets you keep a legacy fallback.
+- **Runtime calls** (`runCommand`, `runUtil`, `addDecoration`, …): Gate by `version === '2.0.0'` at call time. They don't throw on the legacy editor (they safely return `false`/`undefined`), but gating avoids no-op warnings and lets you keep a legacy fallback.
 
 ```js
 guides.ready(() => {
@@ -216,7 +213,7 @@ Add `readOnly: true` on an item that must stay enabled in read-only content.
 
 Handlers usually read the selection and mutate a node, migrate those off the DOM.
 
-## Migrate reads (DOM → `runUtil`)
+## Migrate reads (DOM: `runUtil`)
 
 ```js
 // BEFORE — DOM selection / queries
@@ -247,7 +244,7 @@ for (const range of (guides.editor.runUtil('findPositionRanges', 'xref') || []))
 `findPositionRange`, `findPositionRanges`, `getAttributeAtPosition`, `getSerializableAttributes`.
 
 
-## Migrate writes (DOM mutation → `runCommand`)
+## Migrate writes (DOM mutation: `runCommand`)
 
 ```js
 // BEFORE
@@ -286,7 +283,7 @@ if (guides.editor.canRunCommand('surroundWithElement', 'sup')) {
 For xpath-based updates, use the facade method `guides.editor.updateAttributeByXpath(xpath, name, value)` (not a `runCommand`).
 
 
-## Migrate global actions (save/focus → app events)
+## Migrate global actions (save/focus: app events)
 
 ```js
 // BEFORE
@@ -298,7 +295,7 @@ tcx.eventHandler.next(tcx.eventHandler.KEYS.AUTHOR_SAVE_KEY);
 through the event handles dirty state centrally. Use `guides.editor.focus()` for focus.
 
 
-## Migrate rendering-only logic (DOM paint → decorations)
+## Migrate rendering-only logic (DOM paint: decorations)
 
 Anything that added CSS classes, `data-*` attributes, or "display text" by mutating the DOM must
 become a **decoration**, or it vanishes on rerender. Below are simple declarative cases:
@@ -352,6 +349,38 @@ guides.editor.registerPlugin(() => ({
 ```
 The legacy content clientlib category (`apps.guides.xml_editor.dita_content_overrides`) still
 styles the legacy editor only, keep it if you support both, but know it is inert on MarkupEditor.
+
+## Accessing the live EditorView (plugin `view` prop): DOM escape hatch
+
+Decorations and commands are the preferred approach. However, some effects can't be implemented as decorations. In those cases, use the plugin `view` property to access the live `EditorView` and operate on `editorView.dom`. This is the only supported way to interact directly with the rendered editor DOM.
+
+```js
+const createMyPlugin = () => {
+  const { Plugin } = guides.editor.prosemirror.state;
+  return {
+    plugin: new Plugin({
+      view(editorView) {
+        const root = editorView.dom;          // the shadow-DOM editor node
+        const apply = () => { /* re-color / rewrite target nodes in `root` */ };
+        apply();
+        return {
+          update(view, prevState): apply,                       // re-apply after every rerender
+          destroy() { /* remove any listeners/observers */ },
+        };
+      },
+    }),
+    css: `/* ... */`,
+  };
+};
+
+guides.ready(() => guides.editor.registerPlugin(createMyPlugin));
+```
+
+**Guardrails**:
+
+- Escape hatch only, use decorations for classes, labels, and styling.
+- `editorView.dom` is the only supported handle; 
+- Re-apply from `update()` so the change survives rerenders; clean up in `destroy()`.
 
 ## API replacement reference
 

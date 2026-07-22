@@ -12,21 +12,6 @@ For the list of issues fixed in this release, view [Fixed issues in the 2026.08.
 Learn about [upgrade instructions for the 2026.08.0 release](../release-info/upgrade-instructions-2026-08-0.md).
 
 
-## Introducing Guides AI with smart tagging capability
-
->[!NOTE]
->
-> To enable the Guides AI feature in your environment, contact the Customer Success team.
-
-Now we have **Guides AI**, a new intelligent assistant integrated into the Editor that enables you to interact with your content using natural, conversational prompts.
-
-Guides AI streamlines content tagging by analyzing your content and recommending relevant tags. Simply ask Guides AI to suggest tags for a file, and it will review the content, generate tag recommendations, and present them for your review. Once you confirm, the suggested tags can be applied to the relevant topics, including across multiple topics within a map.
-
-Guides AI is designed to evolve with additional capabilities that will further enhance the authoring experience over time. For more details, view [Placeholder].
-
-![](assets/guides-ai.png)
-
-
 ## New map collection for managing maps and publishing outputs
 
 >[!NOTE]
@@ -38,12 +23,6 @@ New map collection brings map collection management and output generation activi
 ![](assets/new-maps-collection.png)
 
 For more details, view [Use New map collection for output generation](../user-guide/generate-output-use-new-map-collection-output-generation.md). 
-
-## Editor enhancements 
-
-In the New Editor, images can now be resized directly in Author mode by dragging their handles, using corner handles to maintain aspect ratio or Shift with middle handles to resize freely. The Side by side and Preview modes reflect the change in real time.
-
-For more details, view [Resize image in Editor](../user-guide/web-editor-toolbar.md).
 
 
 ## Review enhancements
