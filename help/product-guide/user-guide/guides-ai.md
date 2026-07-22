@@ -18,9 +18,9 @@ ones you want.
 
 The recommendations are generated using your configured AEM taxonomy, ensuring that suggested tags remain consistent with your organization's metadata strategy.
 
-## Guides AI Panel
+## Guides AI interface
 
-The Guides AI panel provides all the tools you need to generate, review, and apply AI-recommended tags. 
+The Guides AI interface provides all the tools you need to generate, review, and apply AI-recommended tags. 
 
 ![Guides AI panel](images/guides-ai-panel.png){width="650"}
 
