@@ -26,9 +26,9 @@ Perform the following steps to create a health check preset at a folder-profile 
 1. Select **Create**.
 1. Select **Save** to save the setting. 
 
-This preset is now available to Authors and Publishers. For Authors, the **Run health check** option is displayed in the context menu of a map in Map console, allowing them to run a health check on the selected map using one of the health check presets configured for their profile. For details, view []()
+This preset is now available to Authors and Publishers. For Authors, the **Run health check** option is displayed in the context menu of a map in Map console, allowing them to run a health check on the selected map using one of the health check presets configured for their profile. 
 
-For Publishers, the **Run health check before output generation** toggle is displayed in the preset panel, which they can enable or disable as per the requirement. When enabled, the health check report is appended to the logs at the start of the publishing process, but does not block output generation. For details, view [].
+For Publishers, the **Run health check before output generation** toggle is displayed in the preset panel, which they can enable or disable as per the requirement. When enabled, the health check report is appended to the logs at the start of the publishing process, but does not block output generation. 
 
 ## Manage health check presets
 
