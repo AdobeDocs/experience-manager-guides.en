@@ -9,7 +9,7 @@ Template presets allow administrators to standardize output preset configuration
 
 This capability helps you to maintain consistent publishing configurations across projects and reduces manual configuration effort.
 
-> [!NOTE]
+>[!NOTE]
 >
 > - Template presets can only be created and managed by **Administrators** and **Folder Profile Administrators**.
 > - Template presets are intended for configuration management and are not used directly for output generation.
@@ -36,7 +36,7 @@ Template presets are supported for all the output preset types except the follow
 2. Open **Output presets** from the Map console for the associated folder.
 3. Create or select the output preset that you want to use as a template.
 
-    > [!NOTE]
+    >[!NOTE]
     >
     > When creating or selecting the output preset you want to use as a template, make sure it's added to the current folder profile.
 
@@ -64,7 +64,7 @@ Template presets are supported for all the output preset types except the follow
 
 The changes are applied to all presets in all maps within the associated folders.
 
-> [!NOTE]
+>[!NOTE]
 >
 > When creating a new map in the associated folder, the template preset's local copy would be available for that newly created map as well.
 
