@@ -33,9 +33,7 @@ Guides AI is designed to evolve with additional capabilities that will further e
 >
 > To enable the New map collection feature in your environment, contact the Customer Success team.
 
-New map collection brings map collection management and output generation activities together in a single interface. From one location, you can manage maps and presets, generate and publish outputs, view generation and publishing history, and more. By bringing related publishing tasks together, it makes it easier to work with map collections and track output activity across multiple maps and their associated languages.
-
-This update also addresses performance issues seen with large map collections, where loading a collection with hundreds of maps would often become unresponsive with no loading indicator.
+New map collection brings map collection management and output generation activities together in a single interface. From one location, you can manage maps and presets, generate and publish outputs, view generation and publishing history, and more. By bringing related publishing tasks together, it makes it easier to work with map collections and track output activity across multiple maps and their associated languages. This update also addresses performance issues seen with large map collections.
 
 ![](assets/new-maps-collection.png)
 
@@ -77,6 +75,7 @@ When tagging users in review comments or replies, the tagging dropdown now displ
 
 If an email address isn't available, the user ID is shown instead. For more details on working with Review UI, view [Review topics](../user-guide/review-topics.md).
 
+
 ### View all review tasks for a topic
 
 >[!NOTE]
@@ -107,13 +106,13 @@ For details, view [Conditions panel with DITAVAL-based conditions](../user-guide
 >
 > To enable this functionality in your environment, contact the Customer Success team.
 
-Administrators can now designate output presets as templates, applying standardized configurations across all maps within a folder profile with a single action. When a template is applied, the system displays the number of maps affected, giving admins full visibility before rollout. To preserve consistency, template presets can only be modified by admin users, and output generation is disabled for template presets (unless output was already generated prior to templating).
+Administrators can now designate output presets as templates, applying standardized configurations across all maps within a folder profile with a single action through Map console. When a template is applied, the system displays the number of maps affected, giving admins full visibility before rollout. To preserve consistency, template presets can only be modified by admin users, and output generation is disabled for template presets (unless output was already generated prior to templating).
 
 For details, view [Understanding the output presets](../user-guide/generate-output-create-edit-preset.md).
 
 ### Validate content quality with content health check
 
-Content health check helps validate content quality across DITA maps before publishing. Administrators can create reusable health check presets by combining checks for broken links, duplicate IDs, and Schematron validation, and make them available through folder profiles.
+Content health check helps validate content quality across DITA maps before publishing. Administrators can create reusable health check presets by combining checks for broken links, duplicate IDs, and Schematron validation.
 
 Authors can run a health check on a DITA map or a selected baseline to generate a consolidated report of issues across associated topics and maps. Learn more about [Content health check](../user-guide/generate-output-understand-presets.md).
 
