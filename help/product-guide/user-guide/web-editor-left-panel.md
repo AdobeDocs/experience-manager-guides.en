@@ -540,7 +540,11 @@ The following options are available for a map file in the Map view:
 
 You can perform the following actions using the Options menu of the map file:
 
-![](images/options-menu-map-view_cs.png){  }
+![](images/options-menu-map-view_cs.png)
+
+>[!NOTE]
+>
+> An additional option, **Run health check**, is also displayed in the context menu that allows you to run content health checks on the selected map. This feature is disabled by default. To enable this capability in your environment, contact your Customer Success team. For more details about this feature, view [Additional features in Map editor](./map-editor-other-features.md#run-health-check-on-a-map).
 
 - **Edit**: Open the map file for editing in the Map Editor.
 
@@ -591,7 +595,6 @@ You can perform the following actions using the Options menu of the map file:
     >[!NOTE]
     >
     >  By default, the downloaded maps remain for five days in the Adobe Experience Manager notification Inbox.
-
 - **Close map context**: Closes the map file.
 
 The following screenshot shows the Options menu for a file in the map view:
