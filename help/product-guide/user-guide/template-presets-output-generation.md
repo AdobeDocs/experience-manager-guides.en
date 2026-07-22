@@ -3,6 +3,10 @@ title: Template presets for output generation
 description: Learn about creating and using Template Presets for output generation in Adobe Experience Manager Guides.
 ---
 
+>[!IMPORTANT]
+>
+> Template preset is available in Experience Manager Guides as a Cloud Service starting with 2026.08.0 release. Contact your Customer Success team to enable this feature.
+
 # Template presets for output generation
 
 Template presets allow administrators to standardize output preset configurations across multiple DITA maps. Instead of configuring the same output preset individually for every map, you can define a preset as a template and apply it to all maps associated with a folder profile.
