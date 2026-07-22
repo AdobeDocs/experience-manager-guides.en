@@ -32,6 +32,10 @@ You can edit the selected output preset by directly changing the required fields
 
 Additionally, you can duplicate or delete an output preset using the **Options** dropdown menu as shown below.
 
+>[!NOTE]
+>
+>You cannot edit, duplicate, or delete a template preset. These actions are restricted to administrators. To learn more about template presets, see [Template Presets](../install-conf-guide/template-presets-output-generation.md).
+
 
 ![](images/delete-preset-map-console.png)
 
