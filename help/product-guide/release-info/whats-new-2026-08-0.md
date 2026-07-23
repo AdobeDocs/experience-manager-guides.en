@@ -25,6 +25,33 @@ New map collection brings map collection management and output generation activi
 For more details, view [Use New map collection for output generation](../user-guide/generate-output-use-new-map-collection-output-generation.md). 
 
 
+## Fetch content from Git repositories using Git connector
+
+>[!NOTE]
+>
+> To enable Git connector in your environment, contact the Customer Success team.
+
+Experience Manager Guides now introduces Git Connector (Beta), which allows you to import content from Git repositories into Experience Manager Guides.
+
+After the content is imported, teams can continue using Experience Manager Guides for their authoring, review, translation, and publishing workflows.
+
+To help keep imported content up to date, Git Connector also supports re-fetching content from the source repository to bring in updates. It includes intelligent change detection to identify content updates, preserves topic and map GUIDs during import and re-fetch operations, and provides conflict resolution capabilities to help manage differences between repository content and content already available in Experience Manager Guides. For more details, view [Import DITA content from Git repositories using Git Connector](../user-guide/web-editor-git-connector.md).
+
+![](assets/git-bulk-importer-import-all.png)
+
+
+## Experience Manager Guides adds MCP support for AI Assistant integration
+
+>[!NOTE]
+>
+> Access is opt-in per organization; contact your Adobe Customer Success team to enable it for your environment.
+
+Experience Manager Guides adds MCP support for AI Assistant integration
+Experience Manager Guides now supports MCP (Model Context Protocol) integration, enabling AI assistants such as Anthropic Claude to connect directly to your AEM Guides environment. 
+
+Through a single MCP endpoint, authenticated users can manage topics and maps, create and export baselines, and generate reports using natural language, all while operating under their existing AEM permissions. This eliminates repetitive, navigation-heavy tasks and allows documentation teams to work more efficiently across chat applications and MCP-capable developer tools such as Cursor and Visual Studio Code. For more details, view [Using the Experience Manager Guides MCP Server](../install-conf-guide/conf-aem-guides-mcp.md).
+
+
 ## Review enhancements
 
 ### Delegate a review task to another Reviewer
@@ -87,13 +114,13 @@ For details, view [Conditions panel with DITAVAL-based conditions](../user-guide
 
 Administrators can now designate output presets as templates, applying standardized configurations across all maps within a folder profile with a single action through Map console. When a template is applied, the system displays the number of maps affected, giving admins full visibility before rollout. To preserve consistency, template presets can only be modified by admin users, and output generation is disabled for template presets (unless output was already generated prior to templating).
 
-For details, view [Understanding the output presets](../user-guide/generate-output-create-edit-preset.md).
+For details, view [Configure template presets for output generation](../install-conf-guide/template-presets-output-generation.md).
 
 ### Validate content quality with content health check
 
 Content health check helps validate content quality across DITA maps before publishing. Administrators can create reusable health check presets by combining checks for broken links, duplicate IDs, and Schematron validation.
 
-Authors can run a health check on a DITA map or a selected baseline to generate a consolidated report of issues across associated topics and maps. Learn more about [Content health check](../user-guide/generate-output-understand-presets.md).
+Authors can run a health check on a DITA map or a selected baseline to generate a consolidated report of issues across associated topics and maps. Learn more about [Content health check](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
 
 
 ## Translation enhancements

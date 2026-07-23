@@ -24,7 +24,7 @@ The following components help you add files, configure tag recommendations, and 
 - **(C)** Tag namespace: Select the taxonomy namespaces from where Guides AI should generate tag recommendations. Only tags from the selected namespaces are considered.
 - **(D)** Response space: Review AI-generated tag recommendations and choose to accept, reject, or modify them before applying the tags.
 - **(E)** Prompt space: Enter a prmpt request to generate tag recommendations for the selected content.
-- **(F)** Attach files or add context: Add topics, DITA maps, or external files from your local system to provide the content that Guides AI should analyze for tag recommendations.
+- **(F)** Attach files or add context: Add topics, maps, or external files from your local system to provide the content that Guides AI should analyze for tag recommendations.
 - **(G)** Model: Displays the AI model that will be used to analyze the content and generate tag recommendations.
 - **(H)** Send: Submit your prompt and attached content to generate AI-powered tag recommendations.
 
@@ -64,13 +64,13 @@ Use Smart Tagging to generate tag recommendations for multiple topics in a map i
 
 To generate tag recommendations for multiple topics in a map:
 
-1. In the **Prompt** space, enter **`/`**.
+1. Enter **`/`** in the **Prompt** space.
 
     ![Guides AI bulk tagging](images/guides-ai-map.png){width="650"} 
 
 2. Select one of the following options:
-   - **Add file from device** to add a DITA map from your local system.
-   - **Add repository reference** to browse and select a DITA map from the repository.
+   - **Add file from device** to add a map from your local system.
+   - **Add repository reference** to browse and select a map from the Repository.
 
         ![Guides AI bulk tagging while selecting maps](images/ai-map-selection.png){width="650"}
 
