@@ -98,9 +98,9 @@ To generate tag recommendations for multiple topics in a map:
     ![Guides AI bulk tagging process for preview of tags](images/preview-tags.png){width="650"}
 
 7. Review the suggested tags for each topic, and then choose one of the following actions:
-   - **Accept all** to apply all suggested tags.
-   - **Reject all** to discard all suggested tags.
-   - **Clear all suggestions** to remove all suggested tags for a topic.
+   - **Accept all** to apply all suggested tags for all the topics.
+   - **Reject all** to discard all suggested tags for all the topics.
+   - **Clear all suggestions** to remove all the suggested tags for a specific topic.
    - Select the **X** icon next to a tag to remove an individual tag suggestion.
 
     ![Guides AI bulk tagging preview dialog](images/preview-dialog.png){width="650"}
