@@ -44,7 +44,7 @@ To help keep imported content up to date, Git Connector also supports re-fetchin
 
 >[!NOTE]
 >
-> Access is opt-in per organization; contact your Adobe Customer Success team to enable it for your environment.
+> Access is opt-in per organization; contact your Customer Success team to enable it for your environment.
 
 Experience Manager Guides adds MCP support for AI Assistant integration
 Experience Manager Guides now supports MCP (Model Context Protocol) integration, enabling AI assistants such as Anthropic Claude to connect directly to your AEM Guides environment. 
