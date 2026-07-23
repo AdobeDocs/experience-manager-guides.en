@@ -1,15 +1,15 @@
 ---
-title: Using MCP with Experience Manager Guides
+title: Using MCP with Adobe Experience Manager Guides
 description: Learn how to use the Model Context Protocol (MCP) with AEM Guides to work with topics, maps, baselines, and reports through an AI assistant
 feature: Authoring, Publishing
 role: User
 ---
 
-# Using the Experience Manager Guides MCP Server
+# Using Adobe Experience Manager Guides MCP Server
 
 The Model Context Protocol (MCP) is a standard way for AI assistants to connect to external tools and data, instead of you switching context to operate those tools yourself.
 
-The Experience Manager Guides MCP server brings this to Experience Manager Guides: it allows an MCP-enabled AI assistant, such as Anthropic Claude, to connect to your Experience Manager Guides environment and act on your behalf, under your own AEM permissions. Once connected, you can work with your maps, topics, baselines, and reports on AEM as a Cloud Service using plain natural language.
+The Adobe Experience Manager Guides MCP server brings this to Experience Manager Guides. It allows an MCP-enabled AI assistant, such as Anthropic Claude, to connect to your Experience Manager Guides environment and act on your behalf, under your own AEM permissions. Once connected, you can work with your maps, topics, baselines, and reports on Experience Manager Guides as a Cloud Service using plain natural language.
 
 This article explains why MCP is useful for Experience Manager Guides, what the MCP server covers, which applications it works with, how to set it up, and how to use it.
 
@@ -29,7 +29,7 @@ Experience Manager Guides exposes its MCP capabilities through a single HTTP end
 
 | MCP server | Endpoint | Description |
 | --- | --- | --- |
-| **AEM Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Work with topics and maps, baselines, and reports in Experience Manager Guides. |
+| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Work with topics and maps, baselines, and reports in Experience Manager Guides. |
 
 This one endpoint covers four areas:
 
@@ -112,8 +112,6 @@ The Experience Manager Guides MCP server uses **Adobe IMS** for authentication.
 
 - On first connection, your client opens a browser sign-in window. Sign in with your Adobe ID to complete the connection.
 - After you sign in, every action runs under your existing AEM permissions. If you do not have permission for an action in AEM, the same action fails through MCP.
-
-The server works against your AEM **author** instance.
 
 ## Using the Experience Manager Guides MCP Server
 
