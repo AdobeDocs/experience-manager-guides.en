@@ -105,6 +105,20 @@ Perform the following steps to run a health check on a map:
 1. *Optional* Select a Baseline. If you don't want to use a baseline, select **None**.
 1. Select **Run**.
 
+You can also run a health check on a map from the **Health check report** panel. For this, open a map in Map view, and select the **Health check report** icon.
+
+![](./images/health-check-report-icon.png)
+
+>[!NOTE]
+>
+>This option is displayed only for a map on which no health check has been run yet. If a health check has already been run on the map, selecting the **Health check report** icon opens the existing report instead.
+
+In the panel, select **Run health check**.
+
+![](./images/run-health-check-report-panel.png) 
+
+This opens the same **Run health check** dialog where you can select a health check preset and a baseline to run a health check on the map, as described in the above steps.
+
 ## Using the health check report in the Editor
 
 When you run a health check for a map, the report opens in the **Health check report** panel as shown below:
