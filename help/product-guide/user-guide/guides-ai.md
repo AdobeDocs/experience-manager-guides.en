@@ -3,20 +3,13 @@ title: Guides AI for smart tagging capability
 description: Learn how to use Guides AI for smart tagging capability for topics and maps in a single operation.
 ---
 
-# Get strted wuth Guides AI
+# Get started wuth Guides AI
 
 >[!NOTE]
 >
 > Guides AI is available in Experience Manager Guides as a Cloud Service starting with 2026.08.0 release. Contact your Customer Success team to enable this feature.
 
 Adobe Experience Manager Guides continues to make content authoring more intelligent with the introduction of **Guides AI** a new conversational assistant integrated directly into the Editor. Currently it introduces the **Smart Tagging** skill, powered by **Adobe CX Enterprise Coworker**, making it easier to organize and manage content through AI-assisted tag recommendations.
-
-## How smart tagging works
-
-Smart tagging analyzes the content of your topics or maps and recommends relevant metadata tags based on your organization's existing taxonomy. Instead of manually identifying and applying tags, you can ask Guides AI to generate recommendations, review them, and apply only the
-ones you want.
-
-The recommendations are generated using your configured AEM taxonomy, ensuring that suggested tags remain consistent with your organization's metadata strategy.
 
 ## Guides AI panel
 
@@ -34,6 +27,13 @@ The following components help you add files, configure tag recommendations, and 
 - **(F)** Attach files or add context: Add topics, DITA maps, or external files from your local system to provide the content that Guides AI should analyze for tag recommendations.
 - **(G)** Model: Displays the AI model that will be used to analyze the content and generate tag recommendations.
 - **(H)** Send: Submit your prompt and attached content to generate AI-powered tag recommendations.
+
+## How smart tagging works
+
+Smart tagging analyzes the content of your topics or maps and recommends relevant metadata tags based on your organization's existing taxonomy. Instead of manually identifying and applying tags, you can ask Guides AI to generate recommendations, review them, and apply only the
+ones you want.
+
+The recommendations are generated using your configured AEM taxonomy, ensuring that suggested tags remain consistent with your organization's metadata strategy.
 
 ## 	Generate AI tags for a topic
 
@@ -93,7 +93,7 @@ To generate tag recommendations for multiple topics in a map:
 
 5. Select **Confirm**. Guides AI analyzes the selected topics and displays the number of tag recommendations generated for each topic.
 
-6. Select **Preview tags** to review the AI-generated tag recommendations.
+6. Select **Preview** to review the AI-generated tag recommendations.
 
     ![Guides AI bulk tagging process for preview of tags](images/preview-tags.png){width="650"}
 
