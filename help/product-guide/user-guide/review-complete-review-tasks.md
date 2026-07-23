@@ -19,10 +19,6 @@ topic_v2:
 ---
 # Complete the review task as a Reviewer
 
->[!IMPORTANT]
->
-> The new features described in this article are enabled by default with 2508 release of Experience Manager Guides as a Cloud Service. Reviews that were created before the migration are not impacted and will continue to use the earlier workflow. If you prefer to continue using the existing features without these updates, contact your Customer Success team to have the new features disabled. 
-
 As a Reviewer, you can mark a review task as complete once you have reviewed all the content and want to notify the Author. You can also leave any final comments at this stage.
 
 Perform the following steps to complete a review task:
