@@ -130,9 +130,7 @@ Using the review task drop-down, you can select any of these tasks and go throug
 
 >[!NOTE]
 >
-> If a review task that you expect to view doesn't appear in the drop-down, it may be because the task was created before this feature was enabled on your instance. Contact your Administrator, to resolve the issue by [Reindexing review nodes](../install-conf-guide/aemg-customization/custom-indexing-review-nodes.md).
-
-
+> If a review task that you expect to view doesn't appear in the drop-down, it may be because the task was created before this feature was enabled on your instance. Contact your Administrator, to resolve the issue by [Perform indexing to include all review tasks for a topic in the Comments panel](../install-conf-guide/index-review-tasks.md).
 
 When using this feature, note that:
 
