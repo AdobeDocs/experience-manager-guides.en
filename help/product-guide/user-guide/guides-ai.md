@@ -3,7 +3,7 @@ title: Guides AI for smart tagging capability
 description: Learn how to use Guides AI for smart tagging capability for topics and maps in a single operation.
 ---
 
-# Get started wuth Guides AI
+# Get started with Guides AI
 
 >[!NOTE]
 >
