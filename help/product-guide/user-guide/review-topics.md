@@ -199,6 +199,10 @@ When collaborating on a review task with multiple reviewers, you can enhance com
 
 ![](images/tag-users-review-ui.png){width="350"}
 
+To tag a user, enter `@` in a comment or reply and select a user from the list of reviewers. The display name along with an email address of the user is displayed for easier identification. If an email address is unavailable, the user ID is displayed instead. 
+
+![](images/tagged-users-with-email.png)
+
 Tagged users receive both an email and an AEM notification, ensuring they're promptly informed. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md). 
 
 ![](images/mentioned-in-tags-author.png){width="350"}
