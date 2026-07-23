@@ -327,6 +327,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Incremental output generation](./user-guide/generate-output-aem-site.md)
       - [Use Map collection for output generation](./user-guide/generate-output-use-map-collection-output-generation.md)
       - [Use New map collection for output generation](./user-guide/generate-output-use-new-map-collection-output-generation.md)
+      - [Migrate Old map collections to New map collections](./user-guide/map-collection-migration.md)
       - [Manage output generation process](./user-guide/generate-output-manage-process.md)
       - [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
       - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
@@ -556,6 +557,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Reindex for Find and replace feature for On-Premise](./install-conf-guide/custom-indexing-on-prem.md) 
       - [Configure Find and replace feature for On-Premise](./install-conf-guide/conf-find-replace-on-prem.md)
       - [Component mapping for AEM Sites](./install-conf-guide/component-mapping.md)
+      - [Configure template presets for output generation](./install-conf-guide/template-presets-output-generation.md)
     - Appendix {#appendix}
       - [Appendix](./install-conf-guide/aemg-appendix.md)   
         
@@ -624,7 +626,8 @@ breadcrumb-title: AEM Guides Documentation
         - Widgets {#framework-widgets}
           - [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
           - [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-        - [Extension framework changes for Editor 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)  
+        - [Extension framework changes for Editor 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md) 
+        - [Migrate extension framework to Editor 2.0](./guides-ui-extensions/getting-started/migrating-extensions-new-editor.md) 
       - Getting Started {#getting-started}
         - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
         - [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)

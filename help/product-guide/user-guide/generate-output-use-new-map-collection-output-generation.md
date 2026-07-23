@@ -182,12 +182,9 @@ To publish (if configured) the output using a Map Collection, perform the follow
 
 In the map collection, you can configure the metadata properties in bulk for the DITA maps. Select **Configure Metadata** icon from the **Maps and presets** tab to open the **Asset Metadata** page. On the **Asset Metadata** page, all the maps present in the collection are listed on the left. 
 
-For details, view [View and edit collections metadata](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-collections#view-edit-collection-metadata)
-
 ![configure metadata](images/map-collection-asset-metadata.png)
 
-
-<!--Perform the following steps to configure the metadata properties:
+Perform the following steps to configure the metadata properties:
 
 1. You can choose the maps you wish to update the metadata for. By default, all the DITA maps present are selected. 
 
@@ -204,7 +201,7 @@ The metadata properties are updated in bulk for the DITA maps you select from th
 > 
 >For the **Document State** dropdown, you can select only those document states that are allowed in common for all the selected DITA maps. To learn more, view [**Document State**](./web-editor-document-states.md).
 
-The metadata properties are in sync with the file properties. Once you update them, you can view them from the **File Properties** panel in the Editor. -->
+The metadata properties are in sync with the file properties. Once you update them, you can view them from the **File Properties** panel in the Editor.
 
 
 **Parent topic:**[Output generation](generate-output.md)

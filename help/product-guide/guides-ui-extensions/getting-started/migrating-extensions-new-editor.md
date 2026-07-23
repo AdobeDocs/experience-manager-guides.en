@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 ---
 
-# Migrate Extension framework to Editor 2.0 (New Editor)
+# Migrate extension framework to Editor 2.0 (New Editor)
 
 This guide helps extension authors understand what's involved in moving their customizations from the **Old Editor** to the **New Editor** in AEM Guides, so that they can plan their transition smoothly and with minimal disruption.
 
