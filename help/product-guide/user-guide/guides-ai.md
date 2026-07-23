@@ -13,11 +13,11 @@ Guides AI makes tagging your content faster, easier, and more consistent. Instea
 
 ## Guides AI panel
 
-The Guides AI panel provides all the tools you need to generate, review, and apply AI suggested tags:
+The Guides AI panel provides all the tools you need to generate, review, and apply AI suggested tags. 
 
 ![Guides AI panel](images/guides-ai-panel.png){width="650"}
 
-The following components help you add files, configure tag recommendations, and manage your Smart Tagging workflow: 
+The following components of Guides AI help you add files, configure tag recommendations, and manage your tagging workflow: 
 
 - **(A)** Conversation history: View and reopen previous conversations to review earlier tag recommendations and actions.
 - **(B)** New chat: Start a new tagging session for a different topic, map, or set of files.
@@ -29,23 +29,37 @@ The following components help you add files, configure tag recommendations, and 
 - **(H)** Send: Submit your prompt and attached content to generate AI-powered tag recommendations.
 
 
-## 	Generate AI suggested tags for a topic or map
+## 	Generate AI suggested tags for a topic
 
 Perform the following steps to use Guides AI for tagging files: 
 
 1. Log in to Experience Manager Guides.
 1. On the Home page, select **Guides AI** from the Tab bar. Ensure that the Guides AI feature is enabled by your administrator. 
-1. Add the file for which you want to generate tag recommendations using one of the following methods:
+1. Add the topic for which you want to generate tag recommendations using one of the following methods:
 
-    - **Using Suggested prompts**: In the Response area, select the **Suggest tags for the file** prompt. The prompt is automatically added to the Prompt space. Select `[file]`, then choose the file from the Repository or a Collection in the **Select file** dialog.
+    - **Using Suggested prompts**: For the first chat in the Response area, select **Suggest tags for the file** prompt. The prompt is automatically added to the Prompt space. Select `[file]`, then choose the file from the Repository or a Collection in the **Select file** dialog.
 
         ![Access Guides AI panel using suggested prompts](images/suggested-prompts.png){width="650"}
 
-    - **Drag and drop**: Drag and drop a topic or map into the Prompt space, then enter suggested prompt *Suggest tags for this file*.
+    - **Drag and drop**: Drag and drop a topic into the Prompt space, and type the prompt *Suggest tags for this file*.
 
         ![access Guides AI panel by dragging and dropping a topic or map](images/dragging-prompts.png){width="650"}
 
-1. Guides AI analyzes the content and generates tag recommendations.
+    - **Using shortcut**: 
+        - Type `/` in the Prompt space.
+        - Select either **Add file from device** or **Add repository reference** to select the topic from local system or Guides Repository respectively.
+
+            ![Guides AI bulk tagging](images/guides-ai-map.png){width="650"}
+
+        - When choosing from **Add repository reference**, select the topic from the Select dialog.   
+
+               ![Guides AI bulk tagging](images/ai-map-selection.png){width="650"} 
+
+        - Type the prompt *Suggest tags for this file*.        
+
+1. Select **Send**.        
+
+1. Guides AI analyzes the content of the topic and generates tag recommendations.
 
     ![Interface of Guides AI panel while analysis and thinking](images/guides-ai-analysis.png){width="650"}
 
@@ -57,24 +71,26 @@ Perform the following steps to use Guides AI for tagging files:
 
     ![Guides AI panel response after analysis of the content](images/guides-ai-tags-review.png){width="650"}
 
+After you complete the review, Guides AI displays a summary of the tags applied to the topic and any rejected tag recommendations.
 
-## Generate AI suggested tags for bulk topics in a map
+![Guides AI panel response summary](images/topic-tag-summary.png){width="650"}
 
-Use Smart Tagging to generate tag recommendations for multiple topics in a map in a single operation. After you add a map, Guides AI prompts you to select the topics to analyze, allowing you to generate recommendations only for the required topics. You can select up to **25 topics** in a single request.
 
-To generate tag recommendations for multiple topics in a map:
+## Generate AI suggested tags for multiple topics in a map
 
-1. Enter **`/`** in the **Prompt** space.
+Use Guides AI to generate tag recommendations for multiple topics in a map in a single operation. After you add a map, Guides AI prompts you to select the topics to analyze, allowing you to generate recommendations only for the required topics. You can select up to **25 topics** in a single request.
 
-    ![Guides AI bulk tagging](images/guides-ai-map.png){width="650"} 
+Perform the following steps to generate tag recommendations for multiple topics of a map in a single operation:
 
-2. Select one of the following options:
-   - **Add file from device** to add a map from your local system.
-   - **Add repository reference** to browse and select a map from the Repository.
+1. Add the map for which you want to generate tag recommendations using any one of the following methods as dicussed for topics:
 
-        ![Guides AI bulk tagging while selecting maps](images/ai-map-selection.png){width="650"}
+    - **Using Suggested prompts**: For the first chat in the Response area, select **Suggest tags for the file** prompt. The prompt is automatically added to the Prompt space. Select `[file]`, then choose the map from the Repository or a Collection in the **Select file** dialog.        
 
-3. Enter a suggested prompt, **Suggest tags for this map**, and then select **Send**.
+    - **Drag and drop**: Drag and drop a topic into the Prompt space, and type the prompt *Suggest tags for this file*.
+
+    - **Using shortcut**: Type **/** in the Prompt field, then choose either Add file from device or Add repository reference to select the topic, and enter the suggested prompt: Suggest tags for this file.        
+
+3. Select **Send**.
     A message indicates that the selected map contains multiple topics. Select **Select topics** to choose the topics for which you want tag recommendations.
 
     ![Guides AI bulk tagging while selecting topics](images/ai-select-topics.png){width="650"}
