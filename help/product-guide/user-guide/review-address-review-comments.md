@@ -116,7 +116,7 @@ If you are the initiator or Author of a review task and open it from the **Proje
 
 ![](images/review-comments-toolbar-disabled.png){width="350"}
 
-**View all review tasks for a topic**
+## View all review tasks for a topic
 
 >[!NOTE]
 >
@@ -127,6 +127,12 @@ This feature allows you to select a review task (open or closed) associated with
 ![](./images/review-task-selection-dropdpwn.png){width="350"}
 
 Using the review task drop-down, you can select any of these tasks and go through its comments, without switching review projects. You can also select the **(i)** icon next to a task in the drop-down to view the task details.
+
+>[!NOTE]
+>
+> If a review task that you expect to view doesn't appear in the drop-down, it may be because the task was created before this feature was enabled on your instance. Contact your Administrator, to resolve the issue by [Reindexing review nodes](../install-conf-guide/aemg-customization/custom-indexing-review-nodes.md).
+
+
 
 When using this feature, note that:
 

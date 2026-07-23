@@ -19,10 +19,6 @@ topic_v2:
 ---
 # Request a re-review or close a review task as an Author
 
->[!IMPORTANT]
->
-> The new features described in this article are enabled by default with 2508 release of Experience Manager Guides as a Cloud Service. Reviews that were created before the migration are not impacted and will continue to use the earlier workflow. If you prefer to continue using the existing features without these updates, contact your Customer Success team to have the new features disabled. 
-
 When a review task is marked as completed by a Reviewer, a notification is triggered to the task initiator, enabling them to access and review the task and related task level comments. 
 
 As the initiator of the review task, you can then decide how to proceed based on the feedback. The available options are:
