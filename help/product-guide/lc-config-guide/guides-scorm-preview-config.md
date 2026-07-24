@@ -5,9 +5,9 @@ feature: Authoring
 role: User
 ---
 
-# Configuring the SCORM preview
+# Configuring Content Security Policy (CSP) for SCORM preview
 
-Experience Manager Guides SCORM preview is managed through a dedicated cloud variable that governs the Content Security Policy (CSP) applied to the preview experience. This variable allows Administrators to turn the policy on or off, and, when active, to extend it with additional trusted sources including scripts, styles, fonts, images, media, frames, workers, connections, and manifests required by their SCORM packages to load and render the preview correctly.
+Experience Manager Guides SCORM preview is managed through a dedicated cloud variable that governs the [Content Security Policy (CSP)](https://experienceleague.adobe.com/en/docs/experience-platform/tags/client-side/content-security-policy) applied to the preview experience. This variable allows Administrators to turn the policy on or off, and, when active, to extend it with additional trusted sources including scripts, styles, fonts, images, media, frames, workers, connections, and manifests required by their SCORM packages to load and render the preview correctly in AEM.
 
 This article walks you through adding and configuring the cloud variable in Cloud Manager, explains what each field in the JSON value controls, and shows how to update the value later if your requirements change.
 
@@ -15,7 +15,7 @@ This article walks you through adding and configuring the cloud variable in Clou
 > **Variable type:** JSON value passed as a string
 > **Where it's set:** Cloud Manager, at the environment level
 
-## Understanding the configuration value
+## Configuration values
 
 The variable accepts a single JSON object as its value. Each key controls a specific aspect of the CSP applied during SCORM preview:
 
