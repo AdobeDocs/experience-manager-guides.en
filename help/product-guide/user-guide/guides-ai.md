@@ -53,7 +53,7 @@ Perform the following steps to use Guides AI for tagging files:
 
         - When choosing from **Add repository reference**, select the topic from the Select dialog.   
 
-               ![Guides AI bulk tagging](images/ai-map-selection.png){width="650"} 
+            ![Guides AI bulk tagging](images/ai-map-selection.png){width="650"} 
 
         - Type the prompt *Suggest tags for this file*.        
 
