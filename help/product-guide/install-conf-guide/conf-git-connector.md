@@ -37,7 +37,9 @@ Use the Data Sources tool in Experience Manager Guides to create and configure a
     * **Target AEM root path**: Enter the path in the AEM repository where content imported from Git should be stored.
     * **File type filter (inclusion)**: Specify the file types to include during import.
     * **Excluded path (regex)**: Specify path patterns to exclude from import.
-    * **Authentication type**: Select the authentication type from the drop-down list. Currently, **Personal Access Token (PAT)** is the only supported authentication method. Enter the PAT during connector setup to authenticate and access the Git repository.
+    * **Authentication type**: Select the authentication type from the drop-down list. Currently, **Personal Access Token (PAT)** is the only supported authentication method. Enter the PAT during connector setup to authenticate and access the Git repository. 
+    
+        Learn how to [Generate a GitHub personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token).
     * **Repository URL**: Enter the Git repository URL from which content should be imported.
     * **Branch**: Enter the branch to use for content import.
 
