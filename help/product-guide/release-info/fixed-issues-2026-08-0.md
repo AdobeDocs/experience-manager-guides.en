@@ -79,11 +79,15 @@ The following issues have been fixed with the [New map collection](../user-guide
 
 Adobe has identified the following known issues for the 2026.08.0 release:
 
-## Editor 2.0
+## Authoring
 
 - Closing a DITAVAL file that has been moved to a different location results in an `ERROR IN FETCHING VERSION DETAILS` error message. (GUIDES-51420)
+
+## Editor 2.0
+
+
 - Conflict API fails and leads to an application error when the repository folder path ends with a forward slash. (GUIDES-51006)
-- Alphanumeric terms added to the dictionary are still flagged by the spell checker instead of being ignored. (GUIDES-48587)
+- Alphanumeric terms added to the dictionary are still flagged by the AEM spell checker instead of being ignored. (GUIDES-48587)
 - Selecting a processing instruction element in the Outline view highlights the entire parent tag instead of the selected element. (GUIDES-48318)
 - The map preview in the Editor takes a long time to load, and the preview screen sometimes remains blank. (GUIDES-46500)
 - Editing a keyword within a `keyref` in the source view breaks the keyword when the view is switched to any other view. (GUIDES-49998)
