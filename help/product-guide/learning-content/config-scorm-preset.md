@@ -21,9 +21,9 @@ role_v2:
 ---
 # Configure SCORM output preset
 
-After the preset is created, configure the SCORM preset settings. The preset configuration options are organized under General, Content and Publish tabs.
+After the preset is created, configure the SCORM preset settings. The preset configuration options are organized under General, Content, Learner experience and Publish tabs.
 
-- **General:**  Used to specify basic output settings, such as the supported version, output path, ZIP file name, output template, and Post Generation Workflow for a new Post Generation Workflow drop-down list containing all workflows configured.
+- **General:**  Used to specify basic output settings, such as the supported version, output path, SCORM file name (zip), output template, and Post Generation Workflow for a new Post Generation Workflow drop-down list containing all workflows configured.
 
     ![](assets/scorm-general-tab-v3.png){width="650"}
  
@@ -46,7 +46,7 @@ After the preset is created, configure the SCORM preset settings. The preset con
 
         ![](assets/embed-pdf.png){width="650"}
 
-      - The associated **PDF preset** must have been generated at least once. Selecting an ungenerated PDF preset will result in an error prompting the user to publish the preset.  
+      - The associated **Native PDF preset** must have been generated at least once. Selecting an ungenerated PDF preset will result in an error prompting the user to publish the preset.  
 
      Once the SCORM output is generated with the above settings, the resulting output includes a PDF icon, as shown below, allowing learners to download the course PDF.
 
@@ -61,8 +61,8 @@ After the preset is created, configure the SCORM preset settings. The preset con
       - **All interactive elements opened**: Requires the learner to open every interactive element on the page.
       - **All media watched**: Requires the learner to watch all video/audio media on the page.
       - **All knowledge checks attempted**: Requires the learner to attempt every knowledge-check question on the page.
-      - **Minimum time spent on page**: Requires the learner to stay on the page for at least the specified duration before Next button is enabled.
-      - **Time required (seconds)**: The minimum number of seconds (e.g., `30`) a learner must remain on the page for this condition to be met.
+      - **Minimum time spent on page**: Requires the learner to stay on the page for at least the specified duration before Next button is enabled. Once enabled, you need to enter the time required as mentioned below.
+        - **Time required (seconds)**: The minimum number of seconds (e.g., `30`) a learner must remain on the page for this condition to be met.
 
   - **Quiz:** Configure quiz-related behavior such as randomizing question order and answer choices to reduce predictability across attempts.
 
