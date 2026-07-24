@@ -25,16 +25,15 @@ The following components of Guides AI help you add files, configure tag recommen
 - **(D)** Response space: Review AI-generated tag recommendations and choose to accept, reject, or modify them before applying the tags.
 - **(E)** Prompt space: Enter a prompt request to generate tag recommendations for the selected content.
 - **(F)** Attach files or add context: Add topics, maps, or external files from your local system to provide the content that Guides AI should analyze for tag recommendations.
-- **(G)** Model: Displays the AI model that will be used to analyze the content and generate tag recommendations.
+- **(G)** Model: Displays the AI model used to analyze content and generate tag recommendations. Multiple OpenAI and Anthropic Claude models are available for selection. By default, the **Use manifest default** option is selected, which uses the model configured for the selected assistant.
 - **(H)** Send: Submit your prompt and attached content to generate AI-powered tag recommendations.
-
 
 ## Generate AI suggested tags for a topic
 
 Perform the following steps to use Guides AI for tagging files: 
 
 1. Log in to Experience Manager Guides.
-1. On the Home page, select **Guides AI** from the Tab bar. Ensure that the Guides AI feature is enabled by your administrator. 
+1. On the Home page, select **Guides AI** from the Navigation bar. Ensure that the Guides AI feature is enabled by your administrator. 
 1. Add the topic for which you want to generate tag recommendations using one of the following methods:
 
     - **Using Suggested prompts**: For the first chat in the Response area, select **Suggest tags for a file** prompt. The prompt is automatically added to the Prompt space. Select `[file]`, then choose the file from the Repository or a Collection in the **Select file** dialog.
@@ -82,7 +81,7 @@ Use Guides AI to generate tag recommendations for multiple topics a single opera
 Perform the following steps to generate tag recommendations for bulk topics in a single operation:
 
 1. Log in to Experience Manager Guides.
-1. On the Home page, select **Guides AI** from the Tab bar. Ensure that the Guides AI feature is enabled by your administrator.
+1. On the Home page, select **Guides AI** from the Navigation bar. Ensure that the Guides AI feature is enabled by your administrator.
 1. Add the topics for which you want to generate tag recommendations using either of the following methods:
 
     - **Drag and drop**: Drag and drop the desired topics into the **Prompt** area, then enter the prompt: *Suggest tags for file*.
@@ -118,7 +117,7 @@ Use Guides AI to generate tag recommendations for multiple topics in a map in a 
 Perform the following steps to generate tag recommendations for multiple topics of a map in a single operation:
 
 1. Log in to Experience Manager Guides.
-1. On the Home page, select **Guides AI** from the Tab bar. Ensure that the Guides AI feature is enabled by your administrator.
+1. On the Home page, select **Guides AI** from the Navigation bar. Ensure that the Guides AI feature is enabled by your administrator.
 1. Add the map for which you want to generate tag recommendations using any one of the following methods as discussed for topics:
 
     - **Using Suggested prompts**: For the first chat in the Response area, select **Suggest tags for a file** prompt. The prompt is automatically added to the Prompt space. Select `[file]`, then choose the map from the Repository or a Collection in the **Select file** dialog.        
