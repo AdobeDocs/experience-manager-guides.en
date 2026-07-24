@@ -164,7 +164,7 @@ After fixing an issue, select **Regenerate** in the toolbar to run the health ch
 
 ### Download the report
 
-Select **Download report** to download the report in CSV format, with detailed information for every result.
+Select **Download report** to download the report in XLS format, with detailed information for every result.
 
 
 **Parent topic:**[Introduction to the Map Editor](map-editor.md)

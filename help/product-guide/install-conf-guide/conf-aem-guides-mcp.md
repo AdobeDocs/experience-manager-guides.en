@@ -137,7 +137,7 @@ The following prompts illustrate typical requests, each triggering a different t
 
    > Run the broken-links report for the user guide, and give me the download link when it is ready.
 
-## Things to keep in mind
+## Expectation management
 
 - **Validate the result** - The assistant can make mistakes, such as picking the wrong map or topic. Review a report or a new baseline before you use it.
 - **It improves over time** - As the assistant gets better, tasks that take a few prompts today may take one prompt later.
