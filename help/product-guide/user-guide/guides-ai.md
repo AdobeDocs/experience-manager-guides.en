@@ -9,7 +9,7 @@ description: Learn how to use Guides AI for smart tagging capability for topics 
 >
 > Guides AI is available in Experience Manager Guides as a Cloud Service starting with 2026.08.0 release. Contact your Customer Success team to enable this feature.
 
-Guides AI makes tagging your content faster, easier, and more consistent. Instead of manually reading through your content and deciding which tags to apply, Guides AI analyzes the content for you and recommends relevant tags based on your organization's taxonomy. You stay in control by reviewing and applying the suggested tags, while significantly reducing manual effort, improving tagging accuracy, and ensuring consistent metadata across your documentation.
+Guides AI makes tagging your content faster, easier, and more consistent. Using the agentic Smart Tagging skill from Adobe CX Enterprise Coworker, Guides AI analyzes your content and recommends relevant tags based on your organization's taxonomy, instead of you manually reading through content to decide which tags apply. You stay in control by reviewing the suggested tags and choosing to apply or reject them before confirming your selection, significantly reducing manual effort, improving tagging accuracy, and ensuring consistent metadata across your documentation.
 
 ## Guides AI panel
 
@@ -17,7 +17,7 @@ The Guides AI panel provides all the tools you need to generate, review, and app
 
 ![Guides AI panel](images/guides-ai-panel.png){width="650"}
 
-The following components of Guides AI help you add files, configure tag recommendations, and manage your tagging workflow: 
+The following components of Guides AI help you add files, configure tag recommendations, and manage your Smart Tagging workflow: 
 
 - **(A)** Conversation history: View and reopen previous conversations to review earlier tag recommendations and actions.
 - **(B)** New chat: Start a new tagging session for a different topic, map, or set of files.
@@ -28,7 +28,7 @@ The following components of Guides AI help you add files, configure tag recommen
 - **(G)** Model: Displays the AI model used to analyze content and generate tag recommendations. Multiple OpenAI and Anthropic Claude models are available for selection. By default, the **Use manifest default** option is selected, which uses the model configured for the selected assistant.
 - **(H)** Send: Submit your prompt and attached content to generate AI-powered tag recommendations.
 
-## Generate AI suggested tags for a topic
+## Tag one or multiple topics using smart-tagging skill 
 
 Perform the following steps to use Guides AI for tagging files: 
 
@@ -36,13 +36,68 @@ Perform the following steps to use Guides AI for tagging files:
 1. On the Home page, select **Guides AI** from the Navigation bar. Ensure that the Guides AI feature is enabled by your administrator. 
 1. Add the topic for which you want to generate tag recommendations using one of the following methods:
 
-    - **Using Suggested prompts**: For the first chat in the Response area, select **Suggest tags for a file** prompt. The prompt is automatically added to the Prompt space. Select `[file]`, then choose the file from the Repository or a Collection in the **Select file** dialog.
+    - **Using Suggested prompts**: For the first chat in the Response area, select **Suggest tags for a file** prompt. The prompt is automatically added to the Prompt space. Select `[file]`, then choose the topic from the Repository or a Collection in the **Select file** dialog. You can select one topic from the **Select file** dialog
 
         ![Access Guides AI panel using suggested prompts](images/suggested-prompts.png){width="650"}
 
-    - **Drag and drop**: Drag and drop a topic into the Prompt space, and type the prompt *Suggest tags for file*.
+    - **Using shortcut**: Type **/** in the Prompt field, then choose either **Add file from device** or **Add repository reference** to select the topic, and enter the suggested prompt *Suggest tags for file*.    
+
+    - **Drag and drop**: Drag and drop single topic or multiple topics into the Prompt space, and type the prompt *Suggest tags for file*.
 
         ![access Guides AI panel by dragging and dropping a topic or map](images/dragging-prompts.png){width="650"}
+
+    - **Specify topic paths**: Type `@` followed by the comma-separated paths for multiple topics from the same or different maps, then enter the prompt: *Suggest tags for file*.
+
+        ![Guides AI panel bulk topic addition](images/topics-path-add.png){width="650"}              
+
+1. Select **Send**.        
+
+1. Guides AI analyzes the content of the topic and generates tag recommendations.
+
+    ![Interface of Guides AI panel while analysis and thinking](images/guides-ai-analysis.png){width="650"}
+
+1. Review the suggested tags. 
+
+    - For single topic, you can simply **Accept** the recommendations to apply them, or **Reject** them if they are not required.
+
+    >[!NOTE]
+    >
+    > For topics that already contain tags, Guides AI displays the existing tags. These tags are read-only and cannot be modified or removed.
+
+    ![Guides AI panel response after analysis of the content](images/guides-ai-tags-review.png){width="650"}
+
+    - For multiple topics: 
+        1. Select **Preview** to review the AI-generated tag recommendations.
+
+            ![Guides AI panel bulk analysis preview](images/topics-tag-preview.png){width="650"}
+
+        1. Review the suggested tags for each topic, and then choose one of the following actions:
+            - **Accept all** to apply all suggested tags for all the topics.
+            - **Reject all** to discard all suggested tags for all the topics.
+            - **Clear all suggestions** to remove all the suggested tags for a specific topic.
+            - Select the **X** icon next to a tag to remove an individual tag suggestion.
+
+                ![Guides AI panel bulk analysis preview dialog](images/topics-tag-preview-dialog.png){width="650"}
+
+1. When you accept the suggested tags, the Smart Tagging skill adds the AI-generated tags to the tags already applied to the content.                
+
+After you complete the review, Guides AI displays a summary of the tags applied to the topic and any rejected tag recommendations.
+
+![Guides AI panel response summary](images/topic-tag-summary.png){width="650"}
+
+## Tags multiple topics of a map using smart-tagging skill
+
+Use Guides AI to generate tag recommendations for multiple topics in a map in a single operation. After you add a map, Guides AI prompts you to select the topics to analyze, allowing you to generate recommendations only for the required topics. You can select up to **25 topics** in a single request.
+
+Perform the following steps to generate smart-tagging skill for multiple topics of a map in a single operation:
+
+1. Log in to Experience Manager Guides.
+1. On the Home page, select **Guides AI** from the Navigation bar. Ensure that the Guides AI feature is enabled by your administrator.
+1. Add the map for which you want to generate tag recommendations using any one of the following methods as discussed for topics:
+
+    - **Using Suggested prompts**: For the first chat in the Response area, select **Suggest tags for a file** prompt. The prompt is automatically added to the Prompt space. Select `[file]`, then choose the map from the Repository or a Collection in the **Select file** dialog.        
+
+    - **Drag and drop**: Drag and drop a map into the Prompt space, and type the prompt *Suggest tags for file*.
 
     - **Using shortcut**: 
         - Type `/` in the Prompt space.
@@ -54,77 +109,7 @@ Perform the following steps to use Guides AI for tagging files:
 
             ![Guides AI bulk tagging](images/ai-map-selection.png){width="650"} 
 
-        - Type the prompt *Suggest tags for file*.        
-
-1. Select **Send**.        
-
-1. Guides AI analyzes the content of the topic and generates tag recommendations.
-
-    ![Interface of Guides AI panel while analysis and thinking](images/guides-ai-analysis.png){width="650"}
-
-1. Review the suggested tags. **Accept** the recommendations to apply them, or **Reject** them if they are not required.
-
-    >[!NOTE]
-    >
-    > For topics that already contain tags, Guides AI displays the existing tags. These tags are read-only and cannot be modified or removed.
-
-    ![Guides AI panel response after analysis of the content](images/guides-ai-tags-review.png){width="650"}
-
-After you complete the review, Guides AI displays a summary of the tags applied to the topic and any rejected tag recommendations.
-
-![Guides AI panel response summary](images/topic-tag-summary.png){width="650"}
-
-## Generate AI suggested tags for bulk topics
-
-Use Guides AI to generate tag recommendations for multiple topics a single operation. These topics need not be part of a single map, you can choose random topics as well to get the tags.
-
-Perform the following steps to generate tag recommendations for bulk topics in a single operation:
-
-1. Log in to Experience Manager Guides.
-1. On the Home page, select **Guides AI** from the Navigation bar. Ensure that the Guides AI feature is enabled by your administrator.
-1. Add the topics for which you want to generate tag recommendations using either of the following methods:
-
-    - **Drag and drop**: Drag and drop the desired topics into the **Prompt** area, then enter the prompt: *Suggest tags for file*.
-    - **Specify topic paths**: Type `@` followed by the comma-separated paths of the topics, then enter the prompt: *Suggest tags for file*.
-
-        ![Guides AI panel bulk topic addition](images/topics-path-add.png){width="650"}
-
-1. Select **Send**. 
-1. Guides AI analyzes the content of the topics and generates tag recommendations.
-
-    ![Guides AI panel bulk analysis](images/topics-tag-thinking.png){width="650"}
-
-1. Select **Preview** to review the AI-generated tag recommendations.
-
-    ![Guides AI panel bulk analysis preview](images/topics-tag-preview.png){width="650"}
-
-1. Review the suggested tags for each topic, and then choose one of the following actions:
-   - **Accept all** to apply all suggested tags for all the topics.
-   - **Reject all** to discard all suggested tags for all the topics.
-   - **Clear all suggestions** to remove all the suggested tags for a specific topic.
-   - Select the **X** icon next to a tag to remove an individual tag suggestion.
-
-    ![Guides AI panel bulk analysis preview dialog](images/topics-tag-preview-dialog.png){width="650"}
-
-After you complete the review, Guides AI displays a summary of the tags applied to each topic and any rejected tag recommendations. 
-
-![Guides AI bulk tagging summary](images/summary-bulk-topics.png){width="650"}
-
-## Generate AI suggested tags for multiple topics in a map
-
-Use Guides AI to generate tag recommendations for multiple topics in a map in a single operation. After you add a map, Guides AI prompts you to select the topics to analyze, allowing you to generate recommendations only for the required topics. You can select up to **25 topics** in a single request.
-
-Perform the following steps to generate tag recommendations for multiple topics of a map in a single operation:
-
-1. Log in to Experience Manager Guides.
-1. On the Home page, select **Guides AI** from the Navigation bar. Ensure that the Guides AI feature is enabled by your administrator.
-1. Add the map for which you want to generate tag recommendations using any one of the following methods as discussed for topics:
-
-    - **Using Suggested prompts**: For the first chat in the Response area, select **Suggest tags for a file** prompt. The prompt is automatically added to the Prompt space. Select `[file]`, then choose the map from the Repository or a Collection in the **Select file** dialog.        
-
-    - **Drag and drop**: Drag and drop a map into the Prompt space, and type the prompt *Suggest tags for file*.
-
-    - **Using shortcut**: Type **/** in the Prompt field, then choose either **Add file from device** or **Add repository reference** to select the map, and enter the suggested prompt *Suggest tags for file*.        
+        - Type the prompt *Suggest tags for file*.  
 
 1. Select **Send**.
     A message indicates that the selected map contains multiple topics. Select **Select topics** to choose the topics for which you want tag recommendations.
@@ -157,6 +142,8 @@ Perform the following steps to generate tag recommendations for multiple topics 
         > For topics that already contain tags, Guides AI displays the existing tags. These tags are read-only and cannot be modified or removed.
 
     ![Guides AI bulk tagging preview dialog](images/preview-dialog.png){width="650"}
+
+1. When you accept the suggested tags, the Smart Tagging skill adds the AI-generated tags to the tags already applied to the content.     
 
 After you complete the review, Guides AI displays a summary of the tags applied to each topic and any rejected tag recommendations.
 
