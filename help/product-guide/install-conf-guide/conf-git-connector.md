@@ -39,7 +39,7 @@ Use the Data Sources tool in Experience Manager Guides to create and configure a
     * **Excluded path (regex)**: Specify path patterns to exclude from import.
     * **Authentication type**: Select the authentication type from the drop-down list. Currently, **Personal Access Token (PAT)** is the only supported authentication method. Enter the PAT during connector setup to authenticate and access the Git repository. 
     
-        Learn how to [Generate a GitHub personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token).
+        Learn how to [Generate a GitHub personal access token](#generate-a-github-personal-access-token).
     * **Repository URL**: Enter the Git repository URL from which content should be imported.
     * **Branch**: Enter the branch to use for content import.
 
@@ -85,3 +85,25 @@ Before Git Connector is available to configure from the **Data Sources** page, i
 1. Commit and push the changes to your Cloud Manager Git repository, then run the pipeline to deploy them.
 
 Once the pipeline completes, Git Connector is installed in your environment and available to configure from the **Data Sources** page.
+
+## Generate a GitHub personal access token
+
+Git Connector uses a GitHub personal access token (PAT) to authenticate with your repository. Generate a token with the following scopes before you configure the connector.
+
+1. Sign in to GitHub and go to **Settings > Developer settings > Personal access tokens > Tokens (classic)**, or go directly to [https://github.com/settings/tokens](https://github.com/settings/tokens).
+
+1. Select **Generate new token > Generate new token (classic)**.
+
+1. In the **Note** field, enter a descriptive name, such as `AEM Guides Konnect Connector`.
+
+1. Under **Expiration**, choose a period based on your organization's security policy.
+
+1. Under **Select scopes**, enable the following scopes:
+
+    - **repo**: Select the top-level checkbox. All sub-scopes are selected automatically, granting read/write access to repository content, commit status, and deployments.
+    - **admin:org**: Select only **read:org**. This is required to resolve organization and team membership.
+    - **admin:repo_hook**: Select only **read:repo_hook**. This is required to read existing webhooks.
+
+1. Select **Generate token**.
+
+Copy the token immediately and store it securely, it will be displayed only once. If you lose it, you'll need to generate a new token and update the connector's **Authentication type** field with the new value.
