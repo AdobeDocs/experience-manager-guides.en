@@ -43,7 +43,7 @@ Features available in the navigation bar are explained as follows:
 
   The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.  
 
-- **Guides AI**: An intelligent, AI-powered assistant integrated into the Editor that simplifies content tagging through natural, conversational interactions. It analyzes your content and recommends relevant tags, helping you apply consistent and accurate metadata with minimal effort. You can review the suggested tags and choose to apply or reject them before confirming your selection. Uisng **Adobe CX Enterprise Coworker**, [Guides AI](../user-guide/guides-ai.md) streamlines the tagging process, improving content organization and discoverability.
+- **Guides AI**: Brings intelligent, agentic Smart Tagging skill from Adobe CX Enterprise Coworker into the Editor, enabling natural, conversational content tagging. It analyzes your content, recommends relevant tags, and helps you apply consistent and accurate metadata with minimal effort. You can review the suggested tags and choose to apply or reject them before confirming your selection. [Guides AI](../user-guide/guides-ai.md) streamlines the tagging process, improving content organization and discoverability.
 
   >[!NOTE]
   >
