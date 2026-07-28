@@ -354,6 +354,7 @@ breadcrumb-title: AEM Guides Documentation
     - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
     - [AI-powered smart suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
     - [FAQ](./user-guide/ai-assistant-faq.md)
+  - [Get started with Guides AI](./user-guide/guides-ai.md)  
   - Manage Learning Content {#learning-training-content}
     - Getting started guide {#get-started}
       - Introduction {#intro-lc}

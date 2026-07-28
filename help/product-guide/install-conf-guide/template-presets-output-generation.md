@@ -9,14 +9,9 @@ description: Learn about creating and using Template Presets for output generati
 >
 > Template preset is available in Experience Manager Guides as a Cloud Service starting with 2026.08.0 release. Contact your Customer Success team to enable this feature.
 
-Template presets allow administrators to standardize output preset configurations across multiple DITA maps. Instead of configuring the same output preset individually for every map, you can define a preset as a template and apply it to all maps associated with a folder profile.
+Template presets allow Administrators to standardize output preset configurations across multiple DITA maps. Instead of configuring the same output preset individually for every map, you can define a preset as a template and apply it to all maps associated with a folder profile.
 
 This capability helps you to maintain consistent publishing configurations across projects and reduces manual configuration effort.
-
->[!NOTE]
->
-> - Template presets can only be created and managed by **Administrators** and **Folder Profile Administrators**.
-> - Template presets are intended for configuration management and are not used directly for output generation.
 
 ## Benefits
 
@@ -35,6 +30,11 @@ Template presets are supported for all the output preset types except the follow
 -   SCORM
 
 ## Create and manage template preset
+
+>[!NOTE]
+>
+> - Template presets can only be created and managed by **Administrators** and **Folder Profile Administrators**.
+> - Template presets are intended for configuration management and are not used directly for output generation.
 
 1. Configure the Folder profile you want to use for the folders.
 2. Open **Output presets** from the Map console for the associated folder.
