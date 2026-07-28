@@ -1,10 +1,6 @@
-# APIs in the 2026.08.0 release
+# API updates in Experience Manager Guides releases
 
-This article lists the new APIs added to the public Swagger documentation for Adobe Experience Manager Guides as a Cloud Service in the 2026.08.0 release. These operations extend the Assets, Publishing, and Translation external specs, giving developers programmatic access to import and validation workflows, output generation status, and the full set of v1 translation operations.
-
-# APIs in this release
-
-This article lists the new APIs added to the public Swagger documentation for Adobe Experience Manager Guides as a Cloud Service. These operations extend the Assets, Publishing, and Translation external specs, giving developers programmatic access to import and validation workflows, output generation status, and the full set of v1 translation operations.
+This article provides details of the newly added APIs in the Swagger documentation for Adobe Experience Manager Guides. These APIs are related to assets, reporting, translation, and publishing. You can access the Swagger documentation through the AEM interface by navigating to **Tools** > **Guides** > **API Swagger**.
 
 **Release 2026.08.0**
 
@@ -26,18 +22,18 @@ This article lists the new APIs added to the public Swagger documentation for Ad
 | | | GET | `/bin/guides/v1/translation/language/root` | Root languages available for an asset path |
 | | | GET | `/bin/guides/v1/translation/language/variable` | Language variables by type and language codes |
 | | | POST | `/bin/guides/v1/translation/language/variable` | Creates, updates, or deletes language variables |
-| | Project | POST | `/bin/guides/v1/translation/project/create` | Create/update translation project for a DITA map |
+| | Project | POST | `/bin/guides/v1/translation/project/create` | Creates/updates translation project for a DITA map |
 | | | POST | `/bin/guides/v1/translation/project/sync` | Creates/updates translation project (sync flow) |
 | | | GET | `/bin/guides/v1/translation/project/creationstatus` | Translation sync status for a project by path |
 | | | GET | `/bin/guides/v1/translation/project/existing` | Existing translation projects for current user |
 | | | GET | `/bin/guides/v1/translation/project/inprogress` | InProgress projects for a given asset |
-| | | DELETE | `/bin/guides/v1/translation/project/delete` | Pre-delete update of asset translation statuses/properties |
-| | | DELETE | `/bin/guides/v1/translation/project/job/delete` | Pre-delete update of asset statuses before job removal |
-| | Reference | POST | `/bin/guides/v1/translation/reference/accept` | Accept translated content from job child pages |
-| | | POST | `/bin/guides/v1/translation/reference/reject` | Reject translated content from job child pages |
-| | | POST | `/bin/guides/v1/translation/reference/sync` | Create language copies in destination folders |
-| | | POST | `/bin/guides/v1/translation/reference/baseline/export` | Export translation baseline to destination languages |
-| | | POST | `/bin/guides/v1/translation/reference/status/forcesync` | Force-update out-of-sync assets to in-sync |
+| | | DELETE | `/bin/guides/v1/translation/project/delete` | Pre-deletes update of asset translation statuses/properties |
+| | | DELETE | `/bin/guides/v1/translation/project/job/delete` | Pre-deletes update of asset statuses before job removal |
+| | Reference | POST | `/bin/guides/v1/translation/reference/accept` | Accepts translated content from job child pages |
+| | | POST | `/bin/guides/v1/translation/reference/reject` | Rejects translated content from job child pages |
+| | | POST | `/bin/guides/v1/translation/reference/sync` | Creates language copies in destination folders |
+| | | POST | `/bin/guides/v1/translation/reference/baseline/export` | Exports translation baseline to destination languages |
+| | | POST | `/bin/guides/v1/translation/reference/status/forcesync` | Force-updates out-of-sync assets to in-sync |
 
 {style="table-layout:fixed"}
 

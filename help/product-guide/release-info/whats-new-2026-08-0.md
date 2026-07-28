@@ -127,5 +127,5 @@ The following enhancements are available for the Product Training and Learning c
 
 ## APIs enhancement
 
-This release introduces new APIs for asset management, translation, and publishing, making it easier to connect these workflows with your existing tools and systems. For details, view []
+This release introduces new Swagger APIs for asset management, translation, and publishing, making it easier to connect these workflows with your existing tools and systems. For details, view [API updates in Experience Manager Guides releases](../api-reference/api-update-swagger.md).
 
