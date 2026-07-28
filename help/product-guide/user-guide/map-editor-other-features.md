@@ -88,7 +88,7 @@ The Run health check option in the context menu allows you to run a content heal
 
 [!NOTE]
 >
-> This feature is disabled by default. To enable it in your environment, contact your Customer Success team. 
+> This feature is enabled by default. If you prefer not to use this feature in your environment, contact your Customer Success team. 
 
 Which checks are available to run is defined by a health check preset, created and managed by an Administrator at the folder-profile level. For details, view [Create and manage health check presets](../install-conf-guide/conf-health-check-preset.md).
 

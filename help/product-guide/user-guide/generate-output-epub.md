@@ -52,7 +52,7 @@ The following configuration options are available for EPUB preset:
 
 >[!NOTE]
 >
->If [content health feature](../install-conf-guide/conf-health-check-preset.md) is configured for your folder profile, an additional **Run health check before output generation** toggle is displayed in the General tab. Enable it to have a health check run automatically each time you generate output with this preset, so you don't have to trigger it manually from the map. The report is appended to the publishing log and is purely informational. It won't block or delay your output, even if the check finds unresolved errors or warnings.
+>If [content health feature](../install-conf-guide/conf-health-check-preset.md) is configured for your folder profile, an additional **Run health check before output generation** toggle is displayed in the General tab. Use it to have a health check run automatically each time you generate output with this preset, so you don't have to trigger it manually from the map. The report is appended to the publishing log and is purely informational. It won't block or delay your output, even if the check finds unresolved errors or warnings. Learn more about [Content health check in Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
    
 | EPUB options | Description |
 | --- | --- |

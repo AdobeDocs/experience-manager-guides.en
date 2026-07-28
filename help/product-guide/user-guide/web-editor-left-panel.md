@@ -544,7 +544,7 @@ You can perform the following actions using the Options menu of the map file:
 
 >[!NOTE]
 >
-> An additional option, **Run health check**, is also displayed in the context menu that allows you to run content health checks on the selected map. This feature is disabled by default. To enable this capability in your environment, contact your Customer Success team. For more details about this feature, view [Additional features in Map editor](./map-editor-other-features.md#run-health-check-on-a-map).
+> An additional option, **Run health check**, is also displayed in the context menu that 
 
 - **Edit**: Open the map file for editing in the Map Editor.
 
@@ -576,6 +576,10 @@ You can perform the following actions using the Options menu of the map file:
 - **Open map dashboard**: Opens the map dashboard.
 
 - **View in Assets UI**: Use this to show a preview of the map file in the Assets UI. In this view, all topic files within the map are shown in a single unified page-by-page view.
+- **Run health check**: Enable this option to run content health checks on the selected map. For more details about this feature, view [Additional features in Map editor](./map-editor-other-features.md#run-health-check-on-a-map).
+    >[!NOTE]
+    >
+    > This feature is enabled by default. If you prefer not to use this feature in your environment, contact your Customer Success team. 
 - **Download map**: Select this option to open the **Download map** dialog box. 
 
     In the **Download Map** dialog box, you can choose the following options:
