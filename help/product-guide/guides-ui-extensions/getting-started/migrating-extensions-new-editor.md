@@ -20,8 +20,7 @@ This guide helps extension authors understand what's involved in moving their cu
 - **The Editor canvas is a new surface.** Context-menu items must declare the new widget id
    `markup_editor_menu`; in-editor behavior must stop touching the DOM.
 - **Stop reading/writing the DOM**: Replace `tcx.curEditor.*` DOM access with the
-   `guides.editor` API: read with `runUtil(...)`, write with `runCommand(...)`, style with
-   decorations, and run global actions (save) through app events.
+   `guides.editor` API: [read with `runUtil(...)`](#migrate-reads-dom-runutil), [write with `runCommand(...)`](#migrate-writes-dom-mutation-runcommand), style with decorations, and [run global actions (save) through app events](#migrate-global-actions-savefocus-app-events) .
 - **App-shell menus (repository, map viewer, file/folder) are unchanged**: They still run on
    the legacy framework.
 - **Both editors coexist**: Target both with arrays. When loading **Register** plugins unconditionally; gate only *runtime* actions by `guides.editor.version` (which stays `1.0.0` until a file is open, view [Detect the editor and bootstrap safely](#detect-the-Editor-and-bootstrap-safely)).
@@ -35,11 +34,9 @@ This guide helps extension authors understand what's involved in moving their cu
 | Selection | `getSelection()` on a root document | ProseMirror selection (positions/ranges) |
 | To change content | Mutate DOM attributes/classes | Dispatch a command (transaction) |
 | Rendering | DOM is permanent | DOM is an ephemeral render in a shadow DOM, rebuilt at any time |
-| Styling | Page or clientlib CSS | CSS injected shadow DOM |
+| Styling | Page or clientlib CSS | CSS injected shadow DOM thorugh register plugin. Refer to [Hello world: a CSS-only highlight plugin](#hello-world-a-css-only-highlight-plugin) and [Migrate rendering-only logic](#migrate-rendering-only-logic-dom-paint-decorations). |
 
-Any extension that mutates the DOM, parses `selectedHtml`, or holds the Editor
-object *appears* to work for a moment and then break on the next rerender. The migration is
-fundamentally *move from DOM-first to model-first*.
+Any extension that mutates the DOM, parses `selectedHtml`, or holds the Editor object *appears* to work for a moment, but DOM changes are not retained, they get wiped out on the next rerender. The migration is fundamentally *move from DOM-first to model-first*.
 
 ## Detect the Editor and bootstrap safely
 
@@ -67,7 +64,7 @@ file is actually open:
 
 - **Registration** (`registerPlugin`, one-time setup): Run it **unconditionally** in `guides.ready`. It is a harmless no-op on the legacy editor: the legacy editor never reads the plugin registry, and your factory runs only when a MarkupEditor is actually constructed. It does **not** throw.
 
-- **Runtime calls** (`runCommand`, `runUtil`, `addDecoration`, …): Gate by `version === '2.0.0'` at call time. They don't throw on the legacy editor (they safely return `false`/`undefined`), but gating avoids no-op warnings and lets you keep a legacy fallback.
+- **Runtime calls** (`runCommand`, `runUtil`, `addDecoration`, …): Gate by version exists and not equal to "1.0.0" at call time. They don't throw on the legacy editor (they safely return `false`/`undefined`), but gating avoids no-op warnings and lets you keep a legacy fallback.
 
 ```js
 guides.ready(() => {
@@ -76,7 +73,7 @@ guides.ready(() => {
 });
 
 function onMenuClick() {
-  if (guides.editor.version === '2.0.0') {
+  if (guides.editor.version && guides.editor.version !== "1.0.0") {
     guides.editor.runCommand('surroundWithElement', 'sup'); // MarkupEditor path
   } else {
     // legacy path (or no-op)
@@ -86,7 +83,7 @@ function onMenuClick() {
 
 Pass a **factory** `() => ({ plugin, css })` — to `registerPlugin`, never a constructed plugin instance. A non-function is the only input it rejects (throws on both editors). Do not cache the editor instance; call `guides.editor.*` fresh each time.
 
-**Hello world: a CSS-only highlight plugin**
+### Hello world: a CSS-only highlight plugin
 
 The smallest useful extension ships **only CSS** a no-op ProseMirror plugin plus styles. This
 highlights every `<note>` element with a yellow background inside the editor:
@@ -102,7 +99,7 @@ guides.ready(() => {
 
 - Every element renders as `data-xml-element="<tag>"`, so you can target any DITA element that way
   (`note`, `codeblock`, `section`, `table`, …).
-- CSS **must** ship via the plugin: the editor lives in a shadow DOM, so page/clientlib CSS can't
+- CSS **must** ship via the registerPlugin: the editor lives in a shadow DOM, so page/clientlib CSS can't
   reach it.
 - Open a DITA topic containing a `<note>` to see it applied. Registration is unconditional (§2.1),
   so this is safe even though `version` is still `1.0.0` at `guides.ready` time.
@@ -223,7 +220,7 @@ const topicId = editor.rootDocument.querySelector('[data-tcx-tag="concept"]').id
 
 // AFTER — read from the document model
 const selectedXml = guides.editor.runUtil('getSelectedXml');
-const hasSel      = !!guides.editor.runUtil('hasSelection');
+const hasSel      = !!guides.editor.runUtil('hasSelection'); // check if selection is empty
 const topicId     = guides.editor.runUtil('getAttributeAtPosition', 0, 'id'); // root = position 0
 ```
 
@@ -270,7 +267,7 @@ guides.editor.runCommand('unwrapNode');
 ```js
 guides.editor.focus();
 if (!guides.editor.canInsertXmlElement('xref')) {
-  return tcx.util.showAlert('warning', 'xref is not allowed here');
+  return tcx.util.showAlert('warning', 'xref is not allowed here'); // this happens on old editor
 }
 if (guides.editor.canRunCommand('surroundWithElement', 'sup')) {
   guides.editor.runCommand('surroundWithElement', 'sup');
