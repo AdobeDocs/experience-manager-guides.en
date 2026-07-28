@@ -15,6 +15,10 @@ breadcrumb-title: AEM Guides Documentation
       - {hide-from-toc} [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - {hide-from-toc} [Cloud Releases](./release-info/latest-release-info-cs.md)
       - 2026 Releases {#2026-releases}
+        - 2026.08.0 Release {#2608-release}
+          - [What's new](./release-info/whats-new-2026-08-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2026-08-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2026-08-0.md)
         - 2026.07.0 Release {#2607-release}
           - [Fixed issues](./release-info/fixed-issues-2026-07-0.md)
           - [Upgrade instructions](./release-info/upgrade-instructions-2026-07-0.md)
