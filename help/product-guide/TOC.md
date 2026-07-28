@@ -417,6 +417,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Process assets](./user-guide/asset-processor.md)        
     - Troubleshooting {#troubleshooting}
         - [Session timeout](./user-guide/session-timeout-prompt.md)
+        - [String is too long exception in Metadata export](./user-guide/metadata-export-failure.md)
 - User Guide (Old UI) {#user-guide-old-ui}
   - [AEM Guides overview](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation and configuration {#install-conf-guide}
@@ -493,7 +494,8 @@ breadcrumb-title: AEM Guides Documentation
           - [Configure the option to edit in Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
           - [Configure display of pasted tables for Cloud Service](./install-conf-guide/conf-pasted-tables.md) 
           - [Configure single topic PDF generation for Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-          - [Configure Translation feature in the Editor for Cloud Service](./install-conf-guide/conf-translation-editor.md)          
+          - [Configure Translation feature in the Editor for Cloud Service](./install-conf-guide/conf-translation-editor.md)
+          - [Create and manage health check presets](./install-conf-guide/conf-health-check-preset.md)          
       - Editor setting for On-Premise {#editor-on-prem-settings}
           - [Configure New Editor](./install-conf-guide/conf-new-editor-on-prem.md)
           - [Configure additional special characters for On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
@@ -562,6 +564,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Deploy custom index for Find and replace feature for Cloud Service](./install-conf-guide/custom-indexing-cs.md)
       - [Reindex for Find and replace feature for On-Premise](./install-conf-guide/custom-indexing-on-prem.md) 
       - [Configure Find and replace feature for On-Premise](./install-conf-guide/conf-find-replace-on-prem.md)
+      - [Index topics in a review task](./install-conf-guide/index-review-tasks.md)
       - [Component mapping for AEM Sites](./install-conf-guide/component-mapping.md)
       - [Configure template presets for output generation](./install-conf-guide/template-presets-output-generation.md)
     - Appendix {#appendix}
