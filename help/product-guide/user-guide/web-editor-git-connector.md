@@ -28,9 +28,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
 ---
-# Overview
+# Import content using Git connector
 
-[!NOTE]
+>[!NOTE]
 >
 > This feature is disabled by default. To enable it in your environment, contact your Customer Success team. 
 
