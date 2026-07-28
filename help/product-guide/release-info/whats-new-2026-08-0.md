@@ -65,7 +65,7 @@ If an email address isn't available, the user ID is shown instead. For more deta
 
 ### View all review tasks for a topic
 
-Authors can now view all review tasks, open or closed, associated with the currently-open topic directly from the Comments panel. A drop-down lists every review task the topic is part of, along with each task's state and project, and lets you switch between them to view comments without leaving the topic or switching review projects. Laern more about [View all review tasks for a topic](../user-guide/review-address-review-comments.md#view-all-review-tasks-for-a-topic).
+Authors can now view all review tasks, open or closed, associated with the currently-open topic directly from the Comments panel. A drop-down lists every review task the topic is part of, along with each task's state and project, and lets you switch between them to view comments without leaving the topic or switching review projects. Learn more about [View all review tasks for a topic](../user-guide/review-address-review-comments.md#view-all-review-tasks-for-a-topic).
 
 ![](assets/review-task-selection-dropdpwn.png){width="350"}
 
@@ -81,7 +81,7 @@ For details, view [Conditions panel with DITAVAL-based conditions](../user-guide
 
 ### Use output presets as templates
 
-Administrators can now designate output presets as templates, applying standardized configurations across all maps within a folder profile with a single action through Map console. When a template is applied, the system displays the number of maps affected, giving Administartors full visibility before rollout. To preserve consistency, template presets can only be modified by Administrators, and output generation is disabled for template presets (unless output was already generated prior to setting the presets as template).
+Administrators can now designate output presets as templates, applying standardized configurations across all maps within a folder profile with a single action through Map console. When a template is applied, the system displays the number of maps affected, giving Administrators full visibility before rollout. To preserve consistency, template presets can only be modified by Administrators, and output generation is disabled for template presets (unless output was already generated prior to setting the presets as template).
 
 For details, view [Configure template presets for output generation](../install-conf-guide/template-presets-output-generation.md).
 
