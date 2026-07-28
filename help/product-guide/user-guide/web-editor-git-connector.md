@@ -30,7 +30,7 @@ topic_v2:
 ---
 # Overview
 
-Git Connector allows you to [import content from connected Git repositories into Experience Manager Guides](./web-editor-git-connector-import.md). After the content is imported, you can use Experience Manager Guides authoring, review, translation, and publishing features to develop and deliver documentation.
+Git Connector allows you to [import content from connected Git repositories into Experience Manager Guides](#import-content-from-the-connected-git-repository). After the content is imported, you can use Experience Manager Guides authoring, review, translation, and publishing features to develop and deliver documentation.
 
 When content changes in the source repository, you can refetch updates, review conflicts, and synchronize the latest changes with Experience Manager Guides.
 
@@ -77,7 +77,7 @@ The following benchmarks show full (non-incremental) **Bulk Importer** sync time
 
 ## Import content using Git Connector
 
-After your Administrator configures the [Git Connector in Experience Manager Guides](./web-editor-git-connector.md), you can use it from the Editor to import content from a Git repository.
+After your Administrator configures the Git Connector in Experience Manager Guides, you can use it from the Editor to import content from a Git repository.
 
 ## Prerequisites
 

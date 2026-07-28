@@ -33,13 +33,17 @@ Use the Data Sources tool in Experience Manager Guides to create and configure a
     >* Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the field to view more details about it.
     >* Fields with * are mandatory. For example, you can enter the following details for the ElasticSearch connector.
 
-    * **Name**: Enter the name of the data source.
-    * **Target AEM root path**: Enter the path in the AEM repository where content imported from Git should be stored.
-    * **File type filter (inclusion)**: Specify the file types to include during import.
-    * **Excluded path (regex)**: Specify path patterns to exclude from import.
-    * **Authentication type**: Select the authentication type from the drop-down list. Currently, **Personal Access Token (PAT)** is the only supported authentication method. Enter the PAT during connector setup to authenticate and access the Git repository. 
+    - **Name**: Enter the name of the data source.
+    - **Target AEM root path**: Enter the path in the AEM repository where content imported from Git should be stored.
+    - **File type filter (inclusion)**: Specify the file types to include during import.
+    - **Excluded path (regex)**: Specify path patterns to exclude from import.
+    - **Authentication type**: Select the authentication type from the drop-down list. Currently, **Personal Access Token (PAT)** is the only supported authentication method. Enter the PAT during connector setup to authenticate and access the Git repository. 
     
-        Learn how to [Generate a GitHub personal access token](#generate-a-github-personal-access-token).
+        Learn how to [Generate a GitHub personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic). 
+
+        While selecting scopes during PAT generation on GitHub, ensure to enable the following scopes:
+        - **repo**: Select the top-level checkbox. All sub-scopes are selected automatically, granting access to repository content, commit status, and deployments.
+        - **admin:org**: Select only **read:org**. This is required to resolve organization and team membership.
     * **Repository URL**: Enter the Git repository URL from which content should be imported.
     * **Branch**: Enter the branch to use for content import.
 
@@ -84,12 +88,7 @@ Before Git Connector is available to configure from the **Data Sources** page, i
 
 Once the pipeline completes, Git Connector is installed in your environment and available to configure from the **Data Sources** page.
 
-## Generate a GitHub personal access token
 
-Git Connector uses a GitHub personal access token (PAT) to authenticate with your repository. Generate a token using the steps mentioned in [Creating a personal access token (classic)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) article.
 
-While selecting scopes during token generation on GitHub, ensure to enable the following scopes:
 
-    - **repo**: Select the top-level checkbox. All sub-scopes are selected automatically, granting access to repository content, commit status, and deployments.
-    - **admin:org**: Select only **read:org**. This is required to resolve organization and team membership.
     
