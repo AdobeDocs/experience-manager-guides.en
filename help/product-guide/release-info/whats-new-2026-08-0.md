@@ -14,10 +14,6 @@ Learn about [upgrade instructions for the 2026.08.0 release](../release-info/upg
 
 ## New map collection for managing maps and publishing outputs
 
->[!NOTE]
->
-> To enable the New map collection feature in your environment, contact the Customer Success team.
-
 New map collection brings map collection management and output generation activities together in a single interface. From one location, you can manage maps and presets, generate and publish outputs, view generation and publishing history, and more. By bringing related publishing tasks together, it makes it easier to work with map collections and track output activity across multiple maps and their associated languages. This update also addresses performance issues seen with large map collections.
 
 ![](assets/new-maps-collection.png)
@@ -26,10 +22,6 @@ For more details, view [Use New map collection for output generation](../user-gu
 
 
 ## Fetch content from Git repositories using Git connector
-
->[!NOTE]
->
-> To enable Git connector in your environment, contact the Customer Success team.
 
 Experience Manager Guides now introduces Git Connector (Beta), which allows you to import content from Git repositories into Experience Manager Guides.
 
@@ -42,10 +34,6 @@ To help keep imported content up to date, Git Connector also supports re-fetchin
 
 ## Experience Manager Guides adds MCP support for AI Assistant integration
 
->[!NOTE]
->
-> Access is opt-in per organization; contact your Customer Success team to enable it for your environment.
-
 Experience Manager Guides adds MCP support for AI Assistant integration
 Experience Manager Guides now supports MCP (Model Context Protocol) integration, enabling AI assistants such as Anthropic Claude to connect directly to your AEM Guides environment. 
 
@@ -55,10 +43,6 @@ Through a single MCP endpoint, authenticated users can manage topics and maps, c
 ## Review enhancements
 
 ### Delegate a review task to another Reviewer
-
->[!NOTE]
->
-> To enable this feature in your environment, contact the Customer Success team.
 
 Reviewers can now recommend another user to weigh in on a review before it goes back to the Author, using the new **Delegate** option available for a review task. This is useful when part of the content falls outside the Reviewer's expertise or when a second opinion is needed before completing the review, without having to route the request through a project administrator.
 
@@ -84,19 +68,11 @@ If an email address isn't available, the user ID is shown instead. For more deta
 
 ### View all review tasks for a topic
 
->[!NOTE]
->
-> To enable this feature in your environment, contact the Customer Success team.
-
 Authors can now view all review tasks, open or closed, associated with the currently-open topic directly from the Comments panel. A drop-down lists every review task the topic is part of, along with each task's state and project, and lets you switch between them to view comments without leaving the topic or switching review projects. For details, view [View all review tasks for a topic](../user-guide/review-address-review-comments.md).
 
 ![](assets/review-task-selection-dropdpwn.png){width="350"}
 
 ### Enhanced review experience with DITAVAL conditions
-
->[!NOTE]
->
-> To enable this feature in your environment, contact the Customer Success team.
 
 When a review task includes one or more attached DITAVAL files, the Conditions panel now presents each condition as a toggle, pre-set to match the attached DITAVAL file(s), so reviewers see content the way the review initiator intended. Turning a toggle off hides that content from the review; turning it on restores it.
 
@@ -107,10 +83,6 @@ For details, view [Conditions panel with DITAVAL-based conditions](../user-guide
 ## Publishing enhancements
 
 ### Use output presets as templates
-
->[!NOTE]
->
-> To enable this functionality in your environment, contact the Customer Success team.
 
 Administrators can now designate output presets as templates, applying standardized configurations across all maps within a folder profile with a single action through Map console. When a template is applied, the system displays the number of maps affected, giving admins full visibility before rollout. To preserve consistency, template presets can only be modified by admin users, and output generation is disabled for template presets (unless output was already generated prior to templating).
 
@@ -153,4 +125,7 @@ The following enhancements are available for the Product Training and Learning c
 
 - When an HTML topic is added to a Learning group map, the `format="html"` attribute is now automatically added to the corresponding `topicref`, ensuring correct processing and publishing under DITA-OT 4.x. For more details, view [Add existing content in your course](../learning-content/manage-course.md#add-existing-content).
 
+## APIs enhancement
+
+This release introduces new Swagger APIs for asset management, translation, and publishing, making it easier to connect these workflows with your existing tools and systems. For details, view [API updates in Experience Manager Guides releases](../api-reference/api-update-swagger.md).
 
