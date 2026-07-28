@@ -37,7 +37,7 @@ This article provides details of the newly added APIs in the Swagger documentati
 
 {style="table-layout:fixed"}
 
-<table style="border: 1; table-layout:fixed">
+<table style="border: 1; border-collapse: collapse; table-layout:fixed">
     <tr>
         <td colspan="5"><strong>Release 2026.08.0</strong></td>
     </tr>

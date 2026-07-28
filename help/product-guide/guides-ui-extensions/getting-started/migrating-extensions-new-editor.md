@@ -20,7 +20,7 @@ This guide helps extension authors understand what's involved in moving their cu
 - **The Editor canvas is a new surface.** Context-menu items must declare the new widget id
    `markup_editor_menu`; in-editor behavior must stop touching the DOM.
 - **Stop reading/writing the DOM**: Replace `tcx.curEditor.*` DOM access with the
-   `guides.editor` API: [read with `runUtil(...)`](#migrate-reads-dom-runutil), [write with `runCommand(...)`](#migrate-writes-dom-mutation-runcommand), style with decorations, and [run global actions (save) through app events](#migrate-global-actions-savefocus-app-events) .
+   `guides.editor` API: [read with `runUtil(...)`](#migrate-reads-dom-runutil), [write with `runCommand(...)`](#migrate-writes-dom-mutation-runcommand), [style with decorations](#migrate-rendering-only-logic-dom-paint-decorations), and [run global actions (save) through app events](#migrate-global-actions-savefocus-app-events) .
 - **App-shell menus (repository, map viewer, file/folder) are unchanged**: They still run on
    the legacy framework.
 - **Both editors coexist**: Target both with arrays. When loading **Register** plugins unconditionally; gate only *runtime* actions by `guides.editor.version` (which stays `1.0.0` until a file is open, view [Detect the editor and bootstrap safely](#detect-the-Editor-and-bootstrap-safely)).
@@ -143,6 +143,27 @@ The following behaviors and structures apply identically to both the Editors:
 
   Items targeting these surfaces need **no change** for the New Editor, do not move them to
   `markup_editor_menu`.
+
+## API replacement reference
+
+| Legacy (`tcx.curEditor…` / DOM) | New MarkupEditor |
+|---|---|
+| `tcx.curEditor.filePath` | `guides.editor.filePath` |
+| `getSelection()` / `selectedHtml` / `selectedText` | `runUtil('getSelectedXml' / 'getSelectedPlainText' / 'hasSelection')` |
+| `rootDocument.querySelector(tag)` | `runUtil('findPositionRange' / 'findPositionRanges', tag)` |
+| element `.getAttribute` / `xmlDoc.attributes` | `runUtil('getAttributeAtPosition', pos, name)` / `getSerializableAttributes(xpath)` |
+| root id (`querySelector('[concept]').id`) | `runUtil('getAttributeAtPosition', 0, 'id')` |
+| `editor.ancestors` | `runUtil('getAncestorsDetails' / 'getAncestorXpaths')` |
+| `editor.updateAttributes(attrs, root)` | `runCommand('setNodeXmlAttributes', 0, attrs)` |
+| set attr on element | `runCommand('setNodeXmlAttribute', pos, name, value)` |
+| wrap / insert / unwrap selection | `runCommand('surroundWithElement' / 'insertXml' / 'unwrapNode', …)` |
+| `canInsertXmlElement` / `validateRangeForInsertion` | `canInsertXmlElement(tag)` / `canRunCommand(name, …)` |
+| `editor.focus()` | `guides.editor.focus()` |
+| `tcx.curEditor.saveFile()` | `tcx.eventHandler.next(KEYS.AUTHOR_SAVE_KEY)` |
+| `setAttribute` / `classList` for styling | `addDecoration` / `batchDecorations` / `registerPlugin` |
+| page/clientlib CSS for editor content | `registerPlugin({ css })` (shadow DOM) |
+| `contextMenuWidget: 'dita_editor_menu'` | `['dita_editor_menu', 'markup_editor_menu']` |
+
 
 ## Migrate context-menu items (Editor canvas)
 
@@ -378,27 +399,6 @@ guides.ready(() => guides.editor.registerPlugin(createMyPlugin));
 - Escape hatch only, use decorations for classes, labels, and styling.
 - `editorView.dom` is the only supported handle; 
 - Re-apply from `update()` so the change survives rerenders; clean up in `destroy()`.
-
-## API replacement reference
-
-| Legacy (`tcx.curEditor…` / DOM) | New MarkupEditor |
-|---|---|
-| `tcx.curEditor.filePath` | `guides.editor.filePath` |
-| `getSelection()` / `selectedHtml` / `selectedText` | `runUtil('getSelectedXml' / 'getSelectedPlainText' / 'hasSelection')` |
-| `rootDocument.querySelector(tag)` | `runUtil('findPositionRange' / 'findPositionRanges', tag)` |
-| element `.getAttribute` / `xmlDoc.attributes` | `runUtil('getAttributeAtPosition', pos, name)` / `getSerializableAttributes(xpath)` |
-| root id (`querySelector('[concept]').id`) | `runUtil('getAttributeAtPosition', 0, 'id')` |
-| `editor.ancestors` | `runUtil('getAncestorsDetails' / 'getAncestorXpaths')` |
-| `editor.updateAttributes(attrs, root)` | `runCommand('setNodeXmlAttributes', 0, attrs)` |
-| set attr on element | `runCommand('setNodeXmlAttribute', pos, name, value)` |
-| wrap / insert / unwrap selection | `runCommand('surroundWithElement' / 'insertXml' / 'unwrapNode', …)` |
-| `canInsertXmlElement` / `validateRangeForInsertion` | `canInsertXmlElement(tag)` / `canRunCommand(name, …)` |
-| `editor.focus()` | `guides.editor.focus()` |
-| `tcx.curEditor.saveFile()` | `tcx.eventHandler.next(KEYS.AUTHOR_SAVE_KEY)` |
-| `setAttribute` / `classList` for styling | `addDecoration` / `batchDecorations` / `registerPlugin` |
-| page/clientlib CSS for editor content | `registerPlugin({ css })` (shadow DOM) |
-| `contextMenuWidget: 'dita_editor_menu'` | `['dita_editor_menu', 'markup_editor_menu']` |
-
 
 ## Common issues
 
