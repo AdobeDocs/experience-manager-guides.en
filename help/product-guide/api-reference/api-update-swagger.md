@@ -4,9 +4,10 @@ This article lists the new APIs added to the public Swagger documentation for Ad
 
 For more information about the other enhancements in this release, view What's new in the 2026.08.0 release.
 
+**Release 2026.08.0**
 | Release | Feature/Area | Sub-feature | Method | API | Description |
 |---|---|---|---|---|---|
-| 2026.08.0 | Assets | | POST | `/bin/guides/v1/asset/import` | Imports one or more assets into a target folder; supports multipart upload and conflict resolution |
+|  | Assets | | POST | `/bin/guides/v1/asset/import` | Imports one or more assets into a target folder; supports multipart upload and conflict resolution |
 | | | | POST | `/bin/guides/v1/asset/list` | Returns paginated list of assets under a folder path |
 | | | | POST | `/bin/guides/v1/asset/validatexml` | Validates DITA XML for well-formedness, schema validity, and conref integrity |
 | | | | POST | `/bin/guides/v1/asset/version/revert` | Reverts an asset to a specified version |
@@ -34,5 +35,7 @@ For more information about the other enhancements in this release, view What's n
 | | | | POST | `/bin/guides/v1/translation/reference/sync` | Create language copies in destination folders |
 | | | | POST | `/bin/guides/v1/translation/reference/baseline/export` | Export translation baseline to destination languages |
 | | | | POST | `/bin/guides/v1/translation/reference/status/forcesync` | Force-update out-of-sync assets to in-sync |
+
+{style="table-layout:fixed"}
 
 > **Note:** The Assets spec (`guides-assets.yaml`) exposes 20 operations in total, of which the 7 listed above are new in this release. The Publishing spec (`guides-publishing.yaml`) exposes 3 public operations; all remaining publishing APIs are internal-only. The Translation spec (`guides-translation.yaml`) exposes 18 v1 operations, all listed above; the v2 create API (`POST /bin/guides/v2/translation/project/create`) remains internal only.
