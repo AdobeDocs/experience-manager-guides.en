@@ -22,6 +22,9 @@ The following components of Guides AI help you add files, configure tag recommen
 - **(A)** Conversation history: View and reopen previous conversations to review earlier tag recommendations and actions.
 - **(B)** New chat: Start a new tagging session for a different topic, map, or set of files.
 - **(C)** Tag namespace: Select the taxonomy namespaces from where Guides AI should generate tag recommendations. Only tags from the selected namespaces are considered.
+
+    ![Guides AI panel](images/taxononmy.png){width="350"}
+
 - **(D)** Response space: Review AI-generated tag recommendations and choose to accept, reject, or modify them before applying the tags.
 - **(E)** Prompt space: Enter a prompt request to generate tag recommendations for the selected content.
 - **(F)** Attach files or add context: Add topics, maps, or external files from your local system to provide the content that Guides AI should analyze for tag recommendations.

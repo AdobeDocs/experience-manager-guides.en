@@ -259,7 +259,7 @@ for (const range of (guides.editor.runUtil('findPositionRanges', 'xref') || []))
 
 **Read utilities:** `getTextPos`, `getNodePosition`, `getSelectedXml`, `getSelectedPlainText`,
 `hasSelection`, `getAncestorsNames`, `getAncestorsDetails`, `getAncestorXpaths`,
-`findPositionRange`, `findPositionRanges`, `getAttributeAtPosition`, `getSerializableAttributes`.
+`findPositionRange`, `findPositionRanges`, `getAttributeAtPosition`, `getSerializableAttributes`. Refer [Appendix](#appendix-a-more-exposed-utils-examples).
 
 
 ## Migrate writes (DOM mutation: `runCommand`)
@@ -296,10 +296,7 @@ if (guides.editor.canRunCommand('surroundWithElement', 'sup')) {
 ```
 
 **Commands:** `setNodeXmlAttributes`, `setNodeXmlAttribute`, `surroundWithElement`, `insertXml`,
-`unwrapNode`.
-
-For xpath-based updates, use the facade method `guides.editor.updateAttributeByXpath(xpath, name, value)` (not a `runCommand`).
-
+`unwrapNode`. Refer [Appendix](#appendix-b-more-exposed-commands-examples).
 
 ## Migrate global actions (save/focus: app events)
 
@@ -400,8 +397,15 @@ guides.ready(() => guides.editor.registerPlugin(createMyPlugin));
 - `editorView.dom` is the only supported handle; 
 - Re-apply from `update()` so the change survives rerenders; clean up in `destroy()`.
 
+## Plugin registration lifecycle
+
+`registerPlugin` in `guides.ready` only registers the factory once. The factory itself runs again
+each time a file is opened — every MarkupEditor file open invokes it fresh to build that file's
+plugin instance.
+
 ## Common issues
 
+- Where DOM code addresses nodes and `Range`s, MarkupEditor addresses **positions**, plain integers indexing into the document (`0` = document start, i.e. the root). A `range` is `{ from, to }`, two positions bounding a span — not a DOM `Range`. Positions shift as the document changes, so don't cache one across an edit.
 - **Item doesn't appear in the New Editor menu**: `contextMenuWidget` is missing
   `markup_editor_menu`, or the config was registered *after* the editor opened (config is read
   once at editor construction register at app load).
@@ -443,3 +447,60 @@ guides.ready(() => guides.editor.registerPlugin(createMyPlugin));
 
 Migrate one surface at a time and keep the legacy paths working (arrays + version gating) so a
 single extension build runs on both editors throughout the transition.
+
+## Appendix A: More exposed utils (examples)
+
+Find the below utils to use through `runUtil`.
+
+| Util | Params → Returns | What it does |
+|---|---|---|
+| `getTextPos` | `(): { start, end }` | Current selected text node boundaries |
+| `getValidElementNames` | `(ancestorLevel?): ElementName[]` | Element names that could legally be inserted/wrapped at the current selection. |
+| `getValidElementNamesBefore` | `(): ElementName[]` | Element names valid immediately before the current selection. |
+| `getSelectedText` | `(): string` | Raw selected text. |
+| `getSerializableAttributes` | `(): { [key]: string }` | XML attribute map for the current node, keyed by attribute name. |
+| `getTagName` | `(): string \| null` | Tag name of the current node. |
+| `hasSelection` | `(): boolean` | Whether any content is currently selected. |
+| `isSelectionEditable` | `(): boolean` | Whether the current selection can be edited. |
+| `getAncestorPos` | `(name): number \| undefined` | Position of the nearest ancestor with the given element name, from the current selection. |
+| `getValidWrapNodeElementNames` | `(): ElementName[]` | Element names valid for `wrapNode` at the current selection. |
+| `getValidRenameNodeElementNames` | `(): ElementName[]` | Element names the current node could legally be renamed to. |
+| `getValidSurroundElementNames` | `(): ElementName[]` | Element names valid for `surroundWithElement` at the current selection. |
+| `serialize` | `(doc?): string` | Serializes a ProseMirror doc (or the whole document) to XML. |
+| `getSelectedXml` | `(range?): string` | XML for the current selection, or an explicit `{ from, to }` range. |
+| `getRangeXml` | `(xpaths): string` | XML for one or more xpath-object ranges (see §8's xpath caveat — this is the object form, not the string form). |
+| `mapToXpath` | `(position, doc?): XPathPosition` | Converts a position to the object-form xpath. |
+| `inverseMap` | `(xpath \| position, doc?): number` | Converts an object-form xpath (or position) back to a position. |
+| `getAncestorsDetails` | `(): { ancestors, previousSibling, nextSibling, currNode } \| undefined` | Ancestor chain plus immediate siblings for the current node. |
+| `getAncestorsNames` | `(): ElementName[]` | Ancestor chain as element names only, for the current node. |
+| `getPreviousSibling` | `(): ElementName \| undefined` | Name of the previous sibling element. |
+| `getNextSibling` | `(): ElementName \| undefined` | Name of the next sibling element. |
+| `getAncestorXpaths` | `(includeNodeAtPosition?): { tag, xpath }[]` | Ancestor chain as `{tag, xpath}` pairs — object-form xpath, not the `updateAttributeByXpath` string form (§8). |
+| `getSelectedPlainText` | `(range?): string` | Plain text of the current selection or an explicit range. |
+| `getDecorations` | `(): string[]` | IDs of all decorations currently applied. |
+| `getResolvedDitaDocumentTitle` | `(props?): string` | Resolved display title of the DITA document. `props`: `doc` to target a specific document, `allowedPrefixElements` to allow title-prefix elements. |
+
+---
+
+## Appendix B: More exposed commands (examples)
+
+The commands below are additional examples of what's exposed via `guides.editor.runCommand(name, ...args)`.
+Guard any command with `guides.editor.canRunCommand(name, ...args)` first if it might not apply in the current context.
+
+| Command | Params | What it does |
+|---|---|---|
+| `focusEditor` | `()` | Focuses the editor. |
+| `unwrapNode` | `()` | Removes the wrapping element at the current selection, keeping its children. |
+| `surroundWithElement` | `(elementName, attrs?, groupInline?)` | Wraps the current selection in a new inline/block element. `attrs`: XML attribute map to set on the new wrapping element. |
+| `insertXml` | `(xml)` | Inserts an XML fragment at the cursor.|
+| `replaceSelectionWithXml` | `(xml)` | Replaces the current selection with XML. |
+| `insertText` | `(text)` | Inserts plain text at the cursor. |
+| `selectNodesFromXpaths` | `(xpaths)` | Selects one or more nodes given object-form xpaths. |
+| `delete` | `()` | Deletes the current selection. |
+| `undo` / `redo` | `()` | Standard undo/redo.|
+| `removeDecoration` | `(id)` | Removes a single decoration by id. |
+| `clearDecorations` | `()` | Removes all decorations in the current open file. |
+| `setFileReadOnly` | `(readOnly: boolean)` | Toggles read-only mode for the file. |
+| `generateUniqueId` | `()` | Generates and assigns a unique id attribute to the current node. |
+
+---
