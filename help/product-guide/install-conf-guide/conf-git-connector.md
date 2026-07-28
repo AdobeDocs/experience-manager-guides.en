@@ -61,11 +61,9 @@ Before Git Connector is available to configure from the **Data Sources** page, i
 
     ```xml
     <dependency>
-        <groupId>com.adobe.guides.konnect.definitions</groupId>
-        <artifactId>git-connector-all</artifactId>
+        <groupId>com.adobe.aem.addon.guides</groupId>
+        <artifactId>konnect-github</artifactId>
         <version>1.0.0</version>
-        <type>zip</type>
-        <scope>provided</scope>
     </dependency>
     ```
 
@@ -73,14 +71,14 @@ Before Git Connector is available to configure from the **Data Sources** page, i
 
     ```xml
     <embedded>
-        <groupId>com.adobe.guides.konnect.definitions</groupId>
-        <artifactId>git-connector-all</artifactId>
-        <type>zip</type>
-        <target>/apps/YOUR-PROJECT-packages/application/install</target>
+        <groupId>com.adobe.aem.addon.guides</groupId>
+        <artifactId>konnect-github</artifactId>
+        <type>jar</type>
+        <target>/apps/YOUR-vendor-packages/content/install</target>
     </embedded>
     ```
 
-    Replace `YOUR-PROJECT` with your project's package name.
+    Replace `YOUR-vendor-packages` with your project's vendor package name.
 
 1. Commit and push the changes to your Cloud Manager Git repository, then run the pipeline to deploy them.
 
@@ -88,22 +86,10 @@ Once the pipeline completes, Git Connector is installed in your environment and 
 
 ## Generate a GitHub personal access token
 
-Git Connector uses a GitHub personal access token (PAT) to authenticate with your repository. Generate a token with the following scopes before you configure the connector.
+Git Connector uses a GitHub personal access token (PAT) to authenticate with your repository. Generate a token using the steps mentioned in [Creating a personal access token (classic)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) article.
 
-1. Sign in to GitHub and go to **Settings > Developer settings > Personal access tokens > Tokens (classic)**, or go directly to [https://github.com/settings/tokens](https://github.com/settings/tokens).
+While selecting scopes during token generation on GitHub, ensure to enable the following scopes:
 
-1. Select **Generate new token > Generate new token (classic)**.
-
-1. In the **Note** field, enter a descriptive name, such as `AEM Guides Konnect Connector`.
-
-1. Under **Expiration**, choose a period based on your organization's security policy.
-
-1. Under **Select scopes**, enable the following scopes:
-
-    - **repo**: Select the top-level checkbox. All sub-scopes are selected automatically, granting read/write access to repository content, commit status, and deployments.
+    - **repo**: Select the top-level checkbox. All sub-scopes are selected automatically, granting access to repository content, commit status, and deployments.
     - **admin:org**: Select only **read:org**. This is required to resolve organization and team membership.
-    - **admin:repo_hook**: Select only **read:repo_hook**. This is required to read existing webhooks.
-
-1. Select **Generate token**.
-
-Copy the token immediately and store it securely, it will be displayed only once. If you lose it, you'll need to generate a new token and update the connector's **Authentication type** field with the new value.
+    
