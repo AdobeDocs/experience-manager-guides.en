@@ -81,7 +81,7 @@ For details, view [Conditions panel with DITAVAL-based conditions](../user-guide
 
 ### Use output presets as templates
 
-Administrators can now designate output presets as templates, applying standardized configurations across all maps within a folder profile with a single action through Map console. When a template is applied, the system displays the number of maps affected, giving Administrators full visibility before rollout. To preserve consistency, template presets can only be modified by Administrators, and output generation is disabled for template presets (unless output was already generated prior to setting the presets as template).
+Administrators can now designate output presets as templates, applying standardized configurations across all maps in a folder profile with a single action through Map console. When a template is applied, the system displays the number of maps affected, giving Administrators full visibility before rollout. To preserve consistency, template presets can only be modified by Administrators, and output generation is disabled for template presets (unless output was already generated prior to setting the presets as template).
 
 For details, view [Configure template presets for output generation](../install-conf-guide/template-presets-output-generation.md).
 
