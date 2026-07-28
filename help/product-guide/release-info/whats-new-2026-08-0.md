@@ -23,7 +23,7 @@ For more details, view [Use New map collection for output generation](../user-gu
 
 ## Fetch content from Git repositories using Git connector
 
-Experience Manager Guides now introduces Git Connector (Beta), which allows you to import content from Git repositories into Experience Manager Guides.
+Experience Manager Guides now introduces Git Connector, which allows you to import content from Git repositories into Experience Manager Guides.
 
 After the content is imported, teams can continue using Experience Manager Guides for their authoring, review, translation, and publishing workflows.
 
