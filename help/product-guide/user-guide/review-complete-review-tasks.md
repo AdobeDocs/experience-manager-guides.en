@@ -52,7 +52,7 @@ Based on the feedback, if the Author or initiator of the task decides to [close 
 
 ![](images/review-status-closed-review-ui.png){width="350"}
 
-> [!NOTE]
+>[!NOTE]
 >
 > Task synchronization between the Review UI and the AEM Inbox is available and is enabled by default. When a Reviewer marks a review task as **Complete** in the Review UI, the corresponding task is automatically completed and removed from the reviewer's AEM Inbox. Similarly, completing a task from the AEM Inbox automatically marks it as complete in the Review UI.
 >

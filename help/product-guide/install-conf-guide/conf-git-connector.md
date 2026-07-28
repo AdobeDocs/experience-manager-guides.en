@@ -8,7 +8,7 @@ level: Experienced
 ---
 # Create and configure Git Connector from the user interface
 
-[!NOTE]
+>[!NOTE]
 >
 > This feature is disabled by default. To enable it your environment, contact your Customer Success team. 
 
