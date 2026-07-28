@@ -18,7 +18,7 @@ This section points the compatibility matrix for the software applications suppo
 
 Use the following resources when developing custom Java plugins or integrations with Experience Manager Guides. Ensure that the SDK version matches your installed Experience Manager Guides release. 
 
-|Release|Java SDK version|Maven Central|Java API reference| 
+|Release|Java SDK version|Maven Central|Java API reference|
 |---|---|---|----|
 |2026.08.0|2026.8.0|[AEM Guides SDK API 2026.8.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.8.0)|[Javadoc 2026.8.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html)|
 
