@@ -157,7 +157,7 @@ The following behaviors and structures apply identically to both the Editors:
 | `editor.updateAttributes(attrs, root)` | `runCommand('setNodeXmlAttributes', 0, attrs)` |
 | set attr on element | `runCommand('setNodeXmlAttribute', pos, name, value)` |
 | wrap / insert / unwrap selection | `runCommand('surroundWithElement' / 'insertXml' / 'unwrapNode', …)` |
-| `canInsertXmlElement` / `validateRangeForInsertion` | `canInsertXmlElement(tag)` / `canRunCommand(name, …)` |
+| `canInsertXmlElement` / `validateRangeForInsertion` | `canRunCommand(name, …)` / `canInsertXmlElement(tag)`|
 | `editor.focus()` | `guides.editor.focus()` |
 | `tcx.curEditor.saveFile()` | `tcx.eventHandler.next(KEYS.AUTHOR_SAVE_KEY)` |
 | `setAttribute` / `classList` for styling | `addDecoration` / `batchDecorations` / `registerPlugin` |
