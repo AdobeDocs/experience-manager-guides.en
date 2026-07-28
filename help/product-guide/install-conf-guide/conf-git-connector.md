@@ -8,6 +8,10 @@ level: Experienced
 ---
 # Create and configure Git Connector from the user interface
 
+[!NOTE]
+>
+> This feature is disabled by default. To enable it your environment, contact your Customer Success team. 
+
 Use the Data Sources tool in Experience Manager Guides to create and configure a Git connector from the user interface. After you configure the connector successfully, you can use it to import content from a Git repository into Experience Manager Guides.
 
 >[!NOTE]
