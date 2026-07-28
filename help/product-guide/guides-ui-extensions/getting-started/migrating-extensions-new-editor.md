@@ -64,7 +64,7 @@ file is actually open:
 
 - **Registration** (`registerPlugin`, one-time setup): Run it **unconditionally** in `guides.ready`. It is a harmless no-op on the legacy editor: the legacy editor never reads the plugin registry, and your factory runs only when a MarkupEditor is actually constructed. It does **not** throw.
 
-- **Runtime calls** (`runCommand`, `runUtil`, `addDecoration`, …): Gate by `version === '2.0.0'` at call time. They don't throw on the legacy editor (they safely return `false`/`undefined`), but gating avoids no-op warnings and lets you keep a legacy fallback.
+- **Runtime calls** (`runCommand`, `runUtil`, `addDecoration`, …): Gate by version exists and not equal to "1.0.0" at call time. They don't throw on the legacy editor (they safely return `false`/`undefined`), but gating avoids no-op warnings and lets you keep a legacy fallback.
 
 ```js
 guides.ready(() => {
@@ -73,7 +73,7 @@ guides.ready(() => {
 });
 
 function onMenuClick() {
-  if (guides.editor.version === '2.0.0') {
+  if (guides.editor.version && guides.editor.version !== "1.0.0") {
     guides.editor.runCommand('surroundWithElement', 'sup'); // MarkupEditor path
   } else {
     // legacy path (or no-op)
