@@ -28,8 +28,6 @@ Learn about [upgrade instructions for the 2026.08.0 release](upgrade-instruction
 - The **Scale** attribute does not apply to images in Author view. (GUIDES-45996)
 - Dragging and dropping an element containing a `keyref` converts the `keyref` value into an absolute path. (GUIDES-45701)
 - Inserting an element at the `tgroup` position displays a **#text is not allowed here** warning, preventing a normal table from being inserted at that position. (GUIDES-47446)
-- Custom editor extensions built for the New Editor do not work correctly in some cases, affecting integrations such as cursor positioning, table alignment, and context menu behavior. (GUIDES-46524)
-
 
 ## Asset management
 
@@ -88,7 +86,6 @@ Adobe has identified the following known issues for the 2026.08.0 release:
 - Conflict API fails and leads to an application error when the repository folder path ends with a forward slash. (GUIDES-51006)
 - Alphanumeric terms added to the dictionary are still flagged by the AEM spell checker instead of being ignored. (GUIDES-48587)
 - Selecting a processing instruction element in the Outline view highlights the entire parent tag instead of the selected element. (GUIDES-48318)
-- The map preview in the Editor takes a long time to load, and the preview screen sometimes remains blank. (GUIDES-46500)
 - Editing a keyword within a `keyref` in the source view breaks the keyword when the view is switched to any other view. (GUIDES-49998)
 - A MathML equation wrapped inside a `foreign` and `equation` block results in unwanted spacing, and typing inside the equation causes issues even after adjusting indentation. (GUIDES-46606)
 - Unable to place a cursor inside a `topicref` within a `reltable` when the **Show tags** option is enabled and the **Display attributes** option is disabled in the Editor settings. (GUIDES-46565) 
