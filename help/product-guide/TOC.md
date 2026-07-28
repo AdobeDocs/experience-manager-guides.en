@@ -564,6 +564,7 @@ breadcrumb-title: AEM Guides Documentation
         
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
+  - [API updates for Experience Manager Guides releases](./api-reference/api-update-swagger.md)
   - [REST APIs for Output management](./api-reference/output-management.md)
   - [REST API to work with DITA maps](./api-reference/dita-map-management.md)
   - [REST API to register a data source connector](./api-reference/data-source-connector.md)

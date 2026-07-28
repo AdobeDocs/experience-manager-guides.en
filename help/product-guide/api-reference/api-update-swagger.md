@@ -18,12 +18,12 @@ For more information about the other enhancements in this release, view What's n
 | | | | GET | `/bin/guides/v1/output/status/list` | Returns status of all generated presets for a map path |
 | 2026.08.0 | Translation | Language | GET | `/bin/guides/v1/translation/language/copies` | Language copies of an asset by path or UUID |
 | | | | GET | `/bin/guides/v1/translation/language/groups` | Language groups for a folder profile |
-| | | | GET | `/bin/guides/v1/translation/language/list` | Supported translation languages (filtered) |
+| | | | GET | `/bin/guides/v1/translation/language/list` | Supports translation languages (filtered) |
 | | | | GET | `/bin/guides/v1/translation/language/root` | Root languages available for an asset path |
 | | | | GET | `/bin/guides/v1/translation/language/variable` | Language variables by type and language codes |
-| | | | POST | `/bin/guides/v1/translation/language/variable` | Create, update, or delete language variables |
+| | | | POST | `/bin/guides/v1/translation/language/variable` | Creates, updates, or deletes language variables |
 | | | Project | POST | `/bin/guides/v1/translation/project/create` | Create/update translation project for a DITA map |
-| | | | POST | `/bin/guides/v1/translation/project/sync` | Create/update translation project (sync flow) |
+| | | | POST | `/bin/guides/v1/translation/project/sync` | Creates/updates translation project (sync flow) |
 | | | | GET | `/bin/guides/v1/translation/project/creationstatus` | Translation sync status for a project by path |
 | | | | GET | `/bin/guides/v1/translation/project/existing` | Existing translation projects for current user |
 | | | | GET | `/bin/guides/v1/translation/project/inprogress` | InProgress projects for a given asset |
