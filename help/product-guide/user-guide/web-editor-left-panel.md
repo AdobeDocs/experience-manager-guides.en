@@ -572,7 +572,7 @@ You can perform the following actions using the Options menu of the map file:
 - **Open map dashboard**: Opens the map dashboard.
 
 - **View in Assets UI**: Use this to show a preview of the map file in the Assets UI. In this view, all topic files within the map are shown in a single unified page-by-page view.
-- **Run health check**: Enable this option to run content health checks on the selected map. For more details about this feature, view [Additional features in Map editor](./map-editor-other-features.md#run-health-check-on-a-map).
+- **Run health check**: Enable this option to run health checks on the selected map. For more details about this feature, view [Additional features in Map editor](./map-editor-other-features.md#run-health-check-on-a-map).
     >[!NOTE]
     >
     > This feature is enabled by default. If you prefer not to use this feature in your environment, contact your Customer Success team. 

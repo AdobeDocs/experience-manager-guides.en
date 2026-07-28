@@ -84,7 +84,7 @@ A navigation reference of the selected map file is added at the specified locati
 
 ## Run health check on a map
 
-The Run health check option in the context menu allows you to run a content health check on the selected map to catch issues such as broken links, duplicate IDs, and Schematron validation failures before publishing.
+The Run health check option in the context menu allows you to run a health check on the selected map to catch issues such as broken links, duplicate IDs, and Schematron validation failures before publishing.
 
 >[!NOTE]
 >
