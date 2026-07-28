@@ -284,11 +284,11 @@ If the review task is created with one or more DITAVAL files attached, the Condi
 
 >[!BEGINTABS]
 
->[!TAB Conditions panel (without DITAVAL-based conditioning)]
+>[!TAB Conditions panel (without DITAVAL)]
 
  ![](./images/review-conditions-panel.png){width="350"}
 
->[!TAB Conditions panel (with DITAVAL-based conditioning)]
+>[!TAB Conditions panel (with DITAVAL)]
 
 ![](./images/review-condition-panel-ditaval.png)
 

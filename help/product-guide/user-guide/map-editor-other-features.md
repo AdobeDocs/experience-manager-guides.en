@@ -90,7 +90,7 @@ The Run health check option in the context menu allows you to run a health check
 >
 > This feature is enabled by default. If you prefer not to use this feature in your environment, contact your Customer Success team. 
 
-Which checks are available to run is defined by a health check preset, created and managed by an Administrator at the folder-profile level. For details, view [Create and manage health check presets](../install-conf-guide/conf-health-check-preset.md).
+Which checks are available to run is defined by a health check preset, created and managed by an Administrator at the folder-profile level. For more details, view [Create and manage health check presets](../install-conf-guide/conf-health-check-preset.md).
 
 Perform the following steps to run a health check on a map:
 
@@ -125,9 +125,9 @@ When you run a health check for a map, the report opens in the **Health check re
 
 ![](./images/health-check-report-panel-editor.png)
 
-### Report toolbar
+### Health check report panel options
 
-The toolbar at the top of the panel displays the following:
+The following options are available in the Health check report panel:
 
 - **Map name**: The name of the map the report was generated for.
 - **Info icon**: Select to view the preset name, map version, and baseline (if any) used to generate the report.
