@@ -30,6 +30,10 @@ topic_v2:
 ---
 # Overview
 
+[!NOTE]
+>
+> This feature is disabled by default. To enable it in your environment, contact your Customer Success team. 
+
 Git Connector allows you to [import content from connected Git repositories into Experience Manager Guides](#import-content-from-the-connected-git-repository). After the content is imported, you can use Experience Manager Guides authoring, review, translation, and publishing features to develop and deliver documentation.
 
 When content changes in the source repository, you can refetch updates, review conflicts, and synchronize the latest changes with Experience Manager Guides.
