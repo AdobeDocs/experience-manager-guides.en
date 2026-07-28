@@ -23,21 +23,18 @@ For more details, view [Use New map collection for output generation](../user-gu
 
 ## Fetch content from Git repositories using Git connector
 
-Experience Manager Guides now introduces Git Connector, which allows you to import content from Git repositories into Experience Manager Guides.
+Experience Manager Guides now introduces Git Connector, which allows you to import content from Git repositories into Experience Manager Guides. After the content is imported, teams can continue using Experience Manager Guides for their authoring, review, translation, and publishing workflows.
 
-After the content is imported, teams can continue using Experience Manager Guides for their authoring, review, translation, and publishing workflows.
-
-To help keep imported content up to date, Git Connector also supports re-fetching content from the source repository to bring in updates. It includes intelligent change detection to identify content updates, preserves topic and map GUIDs during import and re-fetch operations, and provides conflict resolution capabilities to help manage differences between repository content and content already available in Experience Manager Guides. For more details, view [Import DITA content from Git repositories using Git Connector](../user-guide/web-editor-git-connector.md).
+To help keep imported content up to date, Git Connector also supports re-fetching content from the source repository to bring in updates. It includes intelligent change detection to identify content updates, preserves topic and map GUIDs during import and re-fetch operations, and provides conflict resolution capabilities to help manage differences between repository content and content already available in Experience Manager Guides. For more details, view [Import content using Git Connector](../user-guide/web-editor-git-connector.md).
 
 ![](assets/git-bulk-importer-import-all.png)
 
 
 ## Experience Manager Guides adds MCP support for AI Assistant integration
 
-Experience Manager Guides adds MCP support for AI Assistant integration
 Experience Manager Guides now supports MCP (Model Context Protocol) integration, enabling AI assistants such as Anthropic Claude to connect directly to your AEM Guides environment. 
 
-Through a single MCP endpoint, authenticated users can manage topics and maps, create and export baselines, and generate reports using natural language, all while operating under their existing AEM permissions. This eliminates repetitive, navigation-heavy tasks and allows documentation teams to work more efficiently across chat applications and MCP-capable developer tools such as Cursor and Visual Studio Code. For more details, view [Using the Experience Manager Guides MCP Server](../install-conf-guide/conf-aem-guides-mcp.md).
+Through a single MCP endpoint, authenticated users can manage topics and maps, create and export baselines, and generate reports using natural language, all while operating under their existing AEM permissions. This eliminates repetitive, navigation-heavy tasks and allows documentation teams to work more efficiently across chat applications and MCP-capable developer tools such as Cursor and Visual Studio Code. For more details, view [Using Adobe Experience Manager Guides MCP Server](../install-conf-guide/conf-aem-guides-mcp.md).
 
 
 ## Review enhancements
@@ -63,12 +60,12 @@ This gives reviewers access to instructions, scope, and areas of focus throughou
 
 When tagging users in review comments or replies, the tagging dropdown now displays each user's email address alongside their user ID. This makes it easier to identify and select the correct reviewer, especially in large organizations where display names alone may be ambiguous.
 
-If an email address isn't available, the user ID is shown instead. For more details on working with Review UI, view [Review topics](../user-guide/review-topics.md).
+If an email address isn't available, the user ID is shown instead. For more details on working with Review UI, view [Tag task users in a comment](../user-guide/review-topics.md#tag-task-users-in-a-comment).
 
 
 ### View all review tasks for a topic
 
-Authors can now view all review tasks, open or closed, associated with the currently-open topic directly from the Comments panel. A drop-down lists every review task the topic is part of, along with each task's state and project, and lets you switch between them to view comments without leaving the topic or switching review projects. For details, view [View all review tasks for a topic](../user-guide/review-address-review-comments.md).
+Authors can now view all review tasks, open or closed, associated with the currently-open topic directly from the Comments panel. A drop-down lists every review task the topic is part of, along with each task's state and project, and lets you switch between them to view comments without leaving the topic or switching review projects. Laern more about [View all review tasks for a topic](../user-guide/review-address-review-comments.md#view-all-review-tasks-for-a-topic).
 
 ![](assets/review-task-selection-dropdpwn.png){width="350"}
 
@@ -84,7 +81,7 @@ For details, view [Conditions panel with DITAVAL-based conditions](../user-guide
 
 ### Use output presets as templates
 
-Administrators can now designate output presets as templates, applying standardized configurations across all maps within a folder profile with a single action through Map console. When a template is applied, the system displays the number of maps affected, giving admins full visibility before rollout. To preserve consistency, template presets can only be modified by admin users, and output generation is disabled for template presets (unless output was already generated prior to templating).
+Administrators can now designate output presets as templates, applying standardized configurations across all maps within a folder profile with a single action through Map console. When a template is applied, the system displays the number of maps affected, giving Administartors full visibility before rollout. To preserve consistency, template presets can only be modified by Administrators, and output generation is disabled for template presets (unless output was already generated prior to setting the presets as template).
 
 For details, view [Configure template presets for output generation](../install-conf-guide/template-presets-output-generation.md).
 
@@ -92,7 +89,7 @@ For details, view [Configure template presets for output generation](../install-
 
 Content health check helps validate content quality across DITA maps before publishing. Administrators can create reusable health check presets by combining checks for broken links, duplicate IDs, and Schematron validation.
 
-Authors can run a health check on a DITA map or a selected baseline to generate a consolidated report of issues across associated topics and maps. Learn more about [Content health check](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
+Authors can run a health check on a DITA map or a selected baseline to generate a consolidated report of issues across associated topics and maps. For details, view [Run health check on a map](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
 
 
 ## Translation enhancements
@@ -113,7 +110,7 @@ The following enhancements are available for the Product Training and Learning c
 
     ![](assets/learner-experience.png){width="650"} 
 
-- Authors can now configure output-level options for SCORM output, including enabling PDF downloads for learners. When this option is enabled, a PDF download icon is added to the published SCORM output, allowing learners to download a PDF version of the course content for offline reference. This provides greater flexibility in how learners access course materials while giving authors more control over the published experience. For configuration details and prerequisites, view [Configure SCORM preset](../learning-content/config-scorm-preset.md).
+- You can now enable PDF downloads for learners in SCORM output. When this option is enabled, a PDF download icon is added to the published SCORM output, allowing learners to download a PDF version of the course content for offline reference. This provides greater flexibility in how learners access course materials while giving authors more control over the published experience. For configuration details and prerequisites, view [Allow learners to download course PDF](../learning-content/config-scorm-preset.md).
 
     ![](assets/pdf-icon.png){width="650"} 
 
@@ -121,11 +118,11 @@ The following enhancements are available for the Product Training and Learning c
 
     ![](assets/review-answer-quiz.png){width="650"} 
 
-- In Knowledge check questions within a course, the **Try again** button is now displayed when a learner selects an incorrect answer, allowing them to retry the question. This behavior is consistent across single-select and multiple-select Knowledge Checks. For details, view [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
+- In Knowledge check questions within a course, the **Try again** button is now displayed when a learner selects an incorrect answer, allowing them to retry the question. This behavior is consistent across single-select and multiple-select knowledge checks. For details, view [Other options in the Insert menu](../learning-content/lc-other-insert-options.md).
 
 - When an HTML topic is added to a Learning group map, the `format="html"` attribute is now automatically added to the corresponding `topicref`, ensuring correct processing and publishing under DITA-OT 4.x. For more details, view [Add existing content in your course](../learning-content/manage-course.md#add-existing-content).
 
-## APIs enhancement
+## API enhancement
 
 This release introduces new Swagger APIs for asset management, translation, and publishing, making it easier to connect these workflows with your existing tools and systems. For details, view [API updates in Experience Manager Guides releases](../api-reference/api-update-swagger.md).
 
