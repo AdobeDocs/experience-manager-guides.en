@@ -1,41 +1,11 @@
+---
+title: API updates in Experience Manager Guides releases
+description: Laern about the various API updates in Experience Manager Guides releases
+--- 
+
 # API updates in Experience Manager Guides releases
 
-This article provides details of the newly added APIs in the Swagger documentation for Adobe Experience Manager Guides. These APIs are related to assets, reporting, translation, and publishing. You can access the Swagger documentation through the AEM interface by navigating to **Tools** > **Guides** > **API Swagger**.
-
-**Release 2026.08.0**
-
-|Feature | Sub-feature | Method | API | Description |
-|---|---|---|---|---|
-|Assets | | POST | `/bin/guides/v1/asset/import` | Imports one or more assets into a target folder; supports multipart upload and conflict resolution |
-| | | POST | `/bin/guides/v1/asset/list` | Returns paginated list of assets under a folder path |
-| | | POST | `/bin/guides/v1/asset/validatexml` | Validates DITA XML for well-formedness, schema validity, and conref integrity |
-| | | POST | `/bin/guides/v1/asset/version/revert` | Reverts an asset to a specified version |
-| | | GET | `/bin/guides/v1/asset/currentversion/detail` | Returns current version details (version name, dirty status, labels, etc.) |
-| | | POST | `/bin/guides/v1/assets/status` | Starts async job to check Guides status of assets under given path(s) |
-| | | GET | `/bin/guides/v1/assets/status` | Retrieves status/results of an asset status job by job ID |
-| Publishing | | POST | `/bin/guides/v1/output/generate` | Starts preset execution to generate output for a map |
-| | | GET | `/bin/guides/v1/output/status` | Returns status of a single output generation by map path and generation ID |
-| | | GET | `/bin/guides/v1/output/status/list` | Returns status of all generated presets for a map path |
-| Translation | Language | GET | `/bin/guides/v1/translation/language/copies` | Language copies of an asset by path or UUID |
-| | | GET | `/bin/guides/v1/translation/language/groups` | Language groups for a folder profile |
-| | | GET | `/bin/guides/v1/translation/language/list` | Supports translation languages (filtered) |
-| | | GET | `/bin/guides/v1/translation/language/root` | Root languages available for an asset path |
-| | | GET | `/bin/guides/v1/translation/language/variable` | Language variables by type and language codes |
-| | | POST | `/bin/guides/v1/translation/language/variable` | Creates, updates, or deletes language variables |
-| | Project | POST | `/bin/guides/v1/translation/project/create` | Creates/updates translation project for a DITA map |
-| | | POST | `/bin/guides/v1/translation/project/sync` | Creates/updates translation project (sync flow) |
-| | | GET | `/bin/guides/v1/translation/project/creationstatus` | Translation sync status for a project by path |
-| | | GET | `/bin/guides/v1/translation/project/existing` | Existing translation projects for current user |
-| | | GET | `/bin/guides/v1/translation/project/inprogress` | InProgress projects for a given asset |
-| | | DELETE | `/bin/guides/v1/translation/project/delete` | Pre-deletes update of asset translation statuses/properties |
-| | | DELETE | `/bin/guides/v1/translation/project/job/delete` | Pre-deletes update of asset statuses before job removal |
-| | Reference | POST | `/bin/guides/v1/translation/reference/accept` | Accepts translated content from job child pages |
-| | | POST | `/bin/guides/v1/translation/reference/reject` | Rejects translated content from job child pages |
-| | | POST | `/bin/guides/v1/translation/reference/sync` | Creates language copies in destination folders |
-| | | POST | `/bin/guides/v1/translation/reference/baseline/export` | Exports translation baseline to destination languages |
-| | | POST | `/bin/guides/v1/translation/reference/status/forcesync` | Force-updates out-of-sync assets to in-sync |
-
-{style="table-layout:fixed"}
+This article provides details of the newly added APIs in the Swagger documentation for Adobe Experience Manager Guides releases. You can access the Swagger documentation through the AEM interface by navigating to **Tools** > **Guides** > **API Swagger**.
 
 <table style="border: 1; border-collapse: collapse; table-layout:fixed">
     <tr>
