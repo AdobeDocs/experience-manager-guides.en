@@ -47,7 +47,6 @@ When publishing AEM Sites output using composite component mapping:
 
 When publishing AEM Sites output using legacy component mapping:
 
-- Publishing fails when using DITA-OT 4. (GUIDES-28024)
 - Non-English filenames in the generated page names are replaced with hyphens, making it difficult to identify the topic or file it is associated with. (GUIDES-48387)
 
 **Native PDF**
@@ -73,7 +72,7 @@ The following issues have been fixed with the [New map collection](../user-guide
 
 ## Database 
 
-- `DatabaseConfiguratorService` throws an error in the logs even when the `GUIDES_ENABLE_DATABASE` flag is not set. (GUIDES-43481)
+- `DatabaseConfiguratorService` throws an error in the logs even when it is not configured or enabled. (GUIDES-43481)
 
 ## Known issues
 
