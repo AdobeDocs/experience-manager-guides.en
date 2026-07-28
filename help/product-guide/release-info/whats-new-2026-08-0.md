@@ -55,10 +55,9 @@ This gives reviewers access to instructions, scope, and areas of focus throughou
 
 ![](assets/review-details.png){width="350"}
 
-
 ### User identification in the tagging list during review
 
-When tagging users in review comments or replies, the tagging dropdown now displays each user's email address alongside their user ID. This makes it easier to identify and select the correct reviewer, especially in large organizations where display names alone may be ambiguous.
+When tagging users in review comments or replies, the tagging dropdown now displays each user's email address alongside their user ID. This makes it easier to identify and select the correct Reviewer, especially in large organizations where display names alone may be ambiguous.
 
 If an email address isn't available, the user ID is shown instead. For more details on working with Review UI, view [Tag task users in a comment](../user-guide/review-topics.md#tag-task-users-in-a-comment).
 
