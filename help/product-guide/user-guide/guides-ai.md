@@ -64,7 +64,7 @@ Perform the following steps to use Guides AI for applying tags to single or mult
 
     - For single topic, you can simply **Accept** the recommendations to apply them, or **Reject** them if they are not required.
 
-    ![Guides AI panel response after analysis of the content](images/guides-ai-tags-review.png){width="650"}
+        ![Guides AI panel response after analysis of the content](images/guides-ai-tags-review.png){width="650"}
 
     - For multiple topics: 
         1. Select **Preview** to review the AI-generated tag recommendations.
