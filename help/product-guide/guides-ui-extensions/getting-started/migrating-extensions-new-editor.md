@@ -34,9 +34,9 @@ This guide helps extension authors understand what's involved in moving their cu
 | Selection | `getSelection()` on a root document | ProseMirror selection (positions/ranges) |
 | To change content | Mutate DOM attributes/classes | Dispatch a command (transaction) |
 | Rendering | DOM is permanent | DOM is an ephemeral render in a shadow DOM, rebuilt at any time |
-| Styling | Page or clientlib CSS | CSS injected shadow DOM thorugh register plugin. Refer to [Hello world: a CSS-only highlight plugin](#hello-world-a-css-only-highlight-plugin) and [Migrate rendering-only logic](#migrate-rendering-only-logic-dom-paint-decorations). |
+| Styling | Page or clientlib CSS | CSS injected shadow DOM thorugh register plugin. Refer to [Hello world: a CSS-only highlight plugin](#hello-world-a-css-only-highlight-plugin) for to use existing classes and add CSS and [Migrate rendering-only logic](#migrate-rendering-only-logic-dom-paint-decorations) for adding anew class and add styling.  |
 
-Any extension that mutates the DOM, parses `selectedHtml`, or holds the Editor object *appears* to work for a moment, but DOM changes are not retained, they get wiped out on the next rerender. The migration is fundamentally *move from DOM-first to model-first*.
+Any extension that mutates the DOM or any DOM changes are not retained, they get wiped out on the next rerender. The migration is fundamentally *move from DOM-first to model-first*.
 
 ## Detect the Editor and bootstrap safely
 
@@ -288,7 +288,7 @@ guides.editor.runCommand('unwrapNode');
 ```js
 guides.editor.focus();
 if (!guides.editor.canInsertXmlElement('xref')) {
-  return tcx.util.showAlert('warning', 'xref is not allowed here'); // this happens on old editor
+  return tcx.util.showAlert('warning', 'xref is not allowed here'); 
 }
 if (guides.editor.canRunCommand('surroundWithElement', 'sup')) {
   guides.editor.runCommand('surroundWithElement', 'sup');
