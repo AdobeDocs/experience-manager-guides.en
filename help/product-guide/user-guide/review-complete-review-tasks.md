@@ -52,15 +52,14 @@ Based on the feedback, if the Author or initiator of the task decides to [close 
 
 ![](images/review-status-closed-review-ui.png){width="350"}
 
->[!NOTE]
+> [!NOTE]
 >
->By default, when a reviewer marks a review task as **Complete**, the task remains in the reviewer's AEM Inbox until the author or task initiator reviews the feedback and closes the review task.
+> Task synchronization between the Review UI and the AEM Inbox is available and is enabled by default. When a Reviewer marks a review task as **Complete** in the Review UI, the corresponding task is automatically completed and removed from the reviewer's AEM Inbox. Similarly, completing a task from the AEM Inbox automatically marks it as complete in the Review UI.
 >
->However, you can choose to enable task synchronization between the Review UI and the AEM Inbox. When this feature is enabled, marking a review task as **Complete** in the Review UI automatically completes the corresponding task and removes it from the reviewer's AEM Inbox. Similarly, completing a task from the AEM Inbox automatically marks it as complete in the Review UI.
+> The author or task initiator can still review the feedback and reassign the task if additional review is required. When a task is reassigned, a new AEM Inbox notification is generated for the reviewer, allowing the task to be reviewed again.
 >
->The author or task initiator can still review the feedback and reassign the task if additional review is required. When a task is reassigned, a new AEM Inbox notification is generated for the reviewer, allowing the task to be reviewed again.
->
->To enable this feature in your environment, contact your Customer Success team.
+> If you want to use the previous behavior, where completed review tasks remain in the reviewer's AEM Inbox until the author or task initiator reviews the feedback and closes the review task, contact your Customer Success team to disable task synchronization.
+
 
 
 ## View task-level comments

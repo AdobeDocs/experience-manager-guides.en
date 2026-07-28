@@ -120,7 +120,7 @@ If you are the initiator or Author of a review task and open it from the **Proje
 
 >[!NOTE]
 >
-> This feature is disabled by default. Contact your Customer Success team to enable the feature in your environment. 
+> This feature is enabled by default. If you prefer not to use this feature in your environment, contact your Customer Success team.
 
 This feature allows you to select a review task (open or closed) associated with the currently-open topic from the Comments panel. When enabled, the Comments panel in the Review UI includes a drop-down listing every review task the topic is part of, along with each task's state (Active or Closed) and the project it belongs to. The task you're currently working from is marked with a **Current** tag by default.
 
