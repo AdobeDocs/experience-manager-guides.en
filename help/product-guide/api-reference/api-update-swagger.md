@@ -19,7 +19,7 @@ This article provides details of the newly added APIs in the Swagger documentati
         <td>Description</td>
     </tr>
     <tr>
-        <td rowspan="7">Assets</td>
+        <td rowspan="7"><b>Assets</b></td>
         <td rowspan="7"></td>
         <td>POST</td>
         <td>`/bin/guides/v1/asset/import`</td>
@@ -56,7 +56,7 @@ This article provides details of the newly added APIs in the Swagger documentati
         <td>Retrieves status/results of an asset status job by job ID</td>
     </tr>
     <tr>
-        <td rowspan="3">Publishing</td>
+        <td rowspan="3"><b>Publishing</b></td>
         <td rowspan="3"></td>
         <td>POST</td>
         <td>`/bin/guides/v1/output/generate`</td>
@@ -73,7 +73,7 @@ This article provides details of the newly added APIs in the Swagger documentati
         <td>Returns status of all generated presets for a map path</td>
     </tr>
     <tr>
-        <td rowspan="18">Translation</td>
+        <td rowspan="18"><b>Translation</b></td>
         <td rowspan="6">Language</td>
         <td>GET</td>
         <td>`/bin/guides/v1/translation/language/copies`</td>
