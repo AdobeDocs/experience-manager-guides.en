@@ -46,11 +46,11 @@ Template presets are supported for all the output preset types except the follow
 
 4. Select the **Set as template** from the **Options** menu for the preset.
 
-    ![](assets/template-preset.png){width="350"}
+    ![](assets/template-preset.png){width="650"}
 
     The selected output preset is converted into a template preset. Template presets are identified by a template icon, which distinguishes them from regular presets. To remove the template status, select **Unset as Template** from the template preset's **Options** menu at any time.  
 
-    ![](assets/unset-as-template.png){width="350"}
+    ![](assets/unset-as-template.png){width="650"}
 
 5. Select **Apply Preset Changes** from the template preset's **Options** menu to apply the updated preset settings to all existing maps in the selected folder profile.
 
