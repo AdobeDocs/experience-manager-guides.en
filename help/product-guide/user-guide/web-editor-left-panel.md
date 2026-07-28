@@ -542,10 +542,6 @@ You can perform the following actions using the Options menu of the map file:
 
 ![](images/options-menu-map-view_cs.png)
 
->[!NOTE]
->
-> An additional option, **Run health check**, is also displayed in the context menu that 
-
 - **Edit**: Open the map file for editing in the Map Editor.
 
 - **Select all**: Select all files in the map.
