@@ -24,28 +24,28 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
 ---
-# Use New map collection for output generation (Beta)
+# Use New map collection for output generation
 
 >[!IMPORTANT]
 >
-> New map collection is available in Experience Manager Guides as a Cloud Service starting with 2026.06.0 release. Contact your Customer Success team to enable this feature.
+> New map collection is available in Experience Manager Guides as a Cloud Service starting with 2026.08.0 release. Contact your Customer Success team to enable this feature.
 
 Map collection in Adobe Experience Manager Guides enables publishing specialists to organize multiple documents into a single collection, control the output generated for each document, and efficiently generate and publish outputs in batches from a centralized dashboard. It also provides visibility into output generation progress, highlights changes made to maps since their last published output, and allows you to republish content when needed. 
 
-The New map collection consolidates the functionality previously spread across the old map collection, and bulk publishing into a single unified interface. Once enabled, you can manage maps, presets, generation history, publishing history, metadata, and collection membership from one location.
+The new map collection consolidates the functionality previously spread across the old map collection, and bulk publishing into a single unified interface. Once enabled, you can manage maps, presets, generation history, publishing history, metadata, and collection membership from one location.
 
 ## Create a map collection and add DITA maps 
 
 To create a map collection and add maps to it, perform the following steps:
 
-1.  Open the Experience Manager Guides Home page and select **New map collections**. 
+1.  Open the Experience Manager Guides Home page and select **Map collections**. 
 
     The **Map collections** page opens.
 
     ![](images/new-maps-collection.png){width="650"}
 
     
-1.  On the **Map collections** page, select **Create** on the top-right, and provide a **Name** for your new map collection.
+1.  On the **Map collections** page, select **Create** on the top-right, and provide a **Name** for your map collection.
 
     ![](images/create-new-map-collection.png){width="350"}
 
@@ -91,6 +91,10 @@ To create a map collection and add maps to it, perform the following steps:
 
 You get a list of all the desired maps with the Map title, corresponding File name, the Language it is available in, and the configured presets.
 
+>[!NOTE]
+>
+> When a large number of maps are added to a map collection, the Maps & presets tabs display maximum of four maps at a time, along with the associated presets. A paginated view is provided at the bottom of the screen, allowing users to navigate between pages and access additional maps and presets. If you select a map or preset, the selection is retained while navigating through the remaining maps and presets across different pages.
+
 ![Maps and presets tabs](./images/maps-presets-tab.png)
 
 The **Maps and Presets** tab presents information on the basis of the selected maps for a specific language in the following columns:
@@ -108,7 +112,7 @@ The following filtering options are available in the right panel on the Maps and
 
 - **Modified since generation**: You can select Yes, No, or Not yet generated. If you select Yes, only the maps that have been modified since generation are shown in the Maps and Presets tab.
 - **Modified since publishing**: You can select Yes, No, or Not yet generated. If you select Yes, only the maps that have been modified since publishing are shown in the Maps and Presets tab.
-- **Presets**: Select a preset for which you want to filter out the map files. For example, if you choose *AEM Site* preset, then only those maps are shown that have the *AEM Site* output preset configured on them.
+- **Preset types**: Select a preset for which you want to filter out the map files. For example, if you choose *AEM Site* preset, then only those maps are shown that have the *AEM Site* output preset configured on them.
 - **Language**: You can select any of the available language codes and display only the selected language in the Maps and Presets tab.
 
     ![Filters in Maps and presets tabs](./images/filters-maps-presets.png)
@@ -137,6 +141,9 @@ To generate the output using a Map Collection, perform the following steps:
     - **Finished (Green)**: Generation completed successfully.
     - **Finished (Red)**: Generation completed with errors. Error details can be viewed in the logs.
     - **Executing (Blue)**: Generation is currently in progress.
+    - **Failed (Red)**: Generation has failed.
+    - **Waiting (Blue)**: Generation is in queue. 
+
 
     ![Status types](./images/status-types.png)
 
@@ -150,7 +157,11 @@ To generate the output using a Map Collection, perform the following steps:
     ![icons](./images/hovering-icon.png)
 
 
-## Publish the output using a map collection   
+## Publish the output using a map collection 
+
+>[!NOTE]
+>
+> Publishing from the Generation History always publishes the latest output of a preset instead of the selected generation.
 
 To publish (if configured) the output using a Map Collection, perform the following steps:
 
@@ -190,7 +201,7 @@ The metadata properties are updated in bulk for the DITA maps you select from th
 > 
 >For the **Document State** dropdown, you can select only those document states that are allowed in common for all the selected DITA maps. To learn more, view [**Document State**](./web-editor-document-states.md).
 
-The metadata properties are in sync with the file properties. Once you update them, you can view them from the **File Properties** panel in the Editor. 
+The metadata properties are in sync with the file properties. Once you update them, you can view them from the **File Properties** panel in the Editor.
 
 
 **Parent topic:**[Output generation](generate-output.md)

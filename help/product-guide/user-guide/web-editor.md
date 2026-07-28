@@ -48,7 +48,6 @@ New Editor provides a significant evolution of the authoring experience, with fo
 New Editor currently does not support the following features. These capabilities are planned to be introduced in upcoming releases.
 
 - Authoring with Track Changes enabled (any existing tracked changes are preserved and treated as regular content)
-- Image resizer in Author view
 
 
 >[!NOTE]

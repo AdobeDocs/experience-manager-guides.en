@@ -64,12 +64,14 @@ The other options available in the Insert menu in the Editor toolbar include:
 
     The equation is inserted with light gray background. At any time you can update an equation by right-clicking on an existing equation and selecting **Edit Math equation** from the context menu. For details on validating MathML equations in Experience Manager Guides, view [Validation of equations in the MathML editor](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
-- **Knowledge check:** Allows you to add questions in available formats (Single Correct, Multiple Correct, True/False, Match the Following, or insert from the question bank) to your topic for review and to confirm understanding without grading. These questions mirror standard formats and exclude scoring, making them ideal for self-assessment and suitable as part of course content or a topic before a quiz or assessment later, if available. 
+- **Knowledge check:** Allows you to add questions in available formats (Single Correct, Multiple Correct, True/False, Match the Following, or insert from the question bank) to your topic for review and to confirm understanding without grading. These questions mirror standard formats and exclude scoring, making them ideal for self-assessment and suitable as part of course content or a topic before a quiz or assessment later, if available. You can configure correct answers and other required fields through the **Content properties** panel. For more details, view [Question types](./quiz-insert-questions.md).
 
     ![](assets/knowledge-check-topic.png){width="650"}
 
+    
+    If a learner submits an incorrect response to a Knowledge check question, the response fields are highlighted along with an error message, guiding the learner to select **Try again** to retry the same question.
 
-    You can configure correct answers and other required fields through the **Content properties** panel. For more details, view [Question types](./quiz-insert-questions.md). You can add various question types using the knowledge check options as shown below.
+    ![](assets/knowledge-check-try-again.png){width="650"}
 
     Additionally, you can enable the **Require knowledge check to proceed** option to ensure learners attempt a designated knowledge check before advancing to subsequent course content. This capability helps reinforce key learning objectives by preventing learners from skipping critical assessment checkpoints. The feature is supported when **Learners must progress through content in a sequential order** setting is enabled while configuring the SCORM preset output, ensuring the course progression follows the intended learning path.
 

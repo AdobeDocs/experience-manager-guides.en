@@ -53,7 +53,17 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
     ![](../user-guide/images/authoring-quick-actions-new.png){width="350"} 
 
-    
+- **Guides AI**
+
+    >[!NOTE]
+    >
+    > For using Guides AI feature in your environment, contact the Customer Success team. Only one AI experience can be enabled at a time; either Guides AI or AI Assistant.
+
+    Select **Guides AI** toggle to enable this feature in the Experience Manager Guides.Unselect to disable the feature.
+
+    After enabling this option you will be able to access the Guides AI feature from the Navifation bar on Home page and Tab bar on Editor interface. For details on how to genearted AI suggested tags for topics, view [Get started with Guides AI](../user-guide/guides-ai.md).
+
+    ![](assets/guides-ai-workspace.png){width="350"}
 
 - **Authoring**
 

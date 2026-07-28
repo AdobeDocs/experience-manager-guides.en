@@ -144,8 +144,7 @@ For detailed information on API usage, parameters, and example requests, view th
 
 >[!NOTE]
 >
-> You can also refer to the **Swagger documentation** for the publicly available REST APIs at `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`. Currently, only APIs related to Assets, Baseline, and Reporting are available in the Swagger documentation.
-
+> You can also refer to the **Swagger documentation** for the publicly available REST APIs at `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` or access it through AEM interface by navigating to  **Tools** > **Guides** > **API Swagger**. Currently, only APIs related to Assets, Baseline, Reporting, Translation, and Publishing are available in the Swagger documentation. 
 
 ## Additional resources 
 

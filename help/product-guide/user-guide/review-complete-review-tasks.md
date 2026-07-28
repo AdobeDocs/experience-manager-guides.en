@@ -19,10 +19,6 @@ topic_v2:
 ---
 # Complete the review task as a Reviewer
 
->[!IMPORTANT]
->
-> The new features described in this article are enabled by default with 2508 release of Experience Manager Guides as a Cloud Service. Reviews that were created before the migration are not impacted and will continue to use the earlier workflow. If you prefer to continue using the existing features without these updates, contact your Customer Success team to have the new features disabled. 
-
 As a Reviewer, you can mark a review task as complete once you have reviewed all the content and want to notify the Author. You can also leave any final comments at this stage.
 
 Perform the following steps to complete a review task:
@@ -58,13 +54,12 @@ Based on the feedback, if the Author or initiator of the task decides to [close 
 
 >[!NOTE]
 >
->By default, when a reviewer marks a review task as **Complete**, the task remains in the reviewer's AEM Inbox until the author or task initiator reviews the feedback and closes the review task.
+> Task synchronization between the Review UI and the AEM Inbox is available and is enabled by default. When a Reviewer marks a review task as **Complete** in the Review UI, the corresponding task is automatically completed and removed from the reviewer's AEM Inbox. Similarly, completing a task from the AEM Inbox automatically marks it as complete in the Review UI.
 >
->However, you can choose to enable task synchronization between the Review UI and the AEM Inbox. When this feature is enabled, marking a review task as **Complete** in the Review UI automatically completes the corresponding task and removes it from the reviewer's AEM Inbox. Similarly, completing a task from the AEM Inbox automatically marks it as complete in the Review UI.
+> The author or task initiator can still review the feedback and reassign the task if additional review is required. When a task is reassigned, a new AEM Inbox notification is generated for the reviewer, allowing the task to be reviewed again.
 >
->The author or task initiator can still review the feedback and reassign the task if additional review is required. When a task is reassigned, a new AEM Inbox notification is generated for the reviewer, allowing the task to be reviewed again.
->
->To enable this feature in your environment, contact your Customer Success team.
+> If you want to use the previous behavior, where completed review tasks remain in the reviewer's AEM Inbox until the author or task initiator reviews the feedback and closes the review task, contact your Customer Success team to disable task synchronization.
+
 
 
 ## View task-level comments
@@ -84,3 +79,30 @@ The comments within the dialog are displayed in chronological order, with the re
 The **Task comments** dialog is accessible to all the users involved in the review task, including the Author or initiator of the review task and other Reviewers. Hence, the comments from other Reviewers (if involved) might also appear in the Task comments dialog. This helps ensure clear and traceable communication throughout the review process. 
 
 After reviewing the task-level feedback, the Author can either request a re-review or close the review task. In both cases, all comments captured during the review process remain available in the **Task comments** dialog for reference.
+
+## Delegate a review task to another Reviewer
+
+>[!IMPORTANT]
+>
+> This feature is enabled by default. If you prefer not to use this feature in your environment, contact your Customer Success team. 
+
+As a Reviewer, you may sometimes want another user to weigh in on a review before it goes back to the Author. For example, if part of the content falls outside your expertise, or you'd like a second opinion before marking the task as **Complete**. Instead of routing this through a project administrator, you can recommend a reviewer directly from the review task using the **Delegate** option.
+
+Selecting **Delegate** does not complete the review task on your behalf. It sends your recommendation to the Author (initiator of the task), who decides whether to add the recommended reviewer to the task.
+
+Perform the following steps to delegate a review task:
+
+1. Open the review task assigned to you.
+2. Once you've reviewed the content, select **Delegate**, next to **Mark as done**.
+
+   ![](./images/review-delegate-option.png){width="350"}
+
+3. The **Recommend Reviewer** dialog is displayed. Select a user from the drop-down list to recommend as a reviewer for this task.
+
+   ![](./images/recommend-reviewer-dialog.png){width="350"}
+
+4. *(Optional)* Add a comment for the Author, for context.
+5. Select **Delegate**.
+
+A notification is sent to the Author, indicating that you've requested to add a Reviewer to the task. For details on how the Author responds to this request, view [Request a re-review or close a review task as an Author](./review-close-review-task.md).
+

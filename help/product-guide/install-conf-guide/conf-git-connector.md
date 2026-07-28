@@ -8,7 +8,15 @@ level: Experienced
 ---
 # Create and configure Git Connector from the user interface
 
+>[!NOTE]
+>
+> This feature is disabled by default. To enable it your environment, contact your Customer Success team. 
+
 Use the Data Sources tool in Experience Manager Guides to create and configure a Git connector from the user interface. After you configure the connector successfully, you can use it to import content from a Git repository into Experience Manager Guides.
+
+>[!NOTE]
+>
+> Before you begin, ensure that Git Connector is deployed to your Cloud Manager project. For details, view [Add Git Connector to your Cloud Manager project.](#add-git-connector-to-your-cloud-manager-project)
 
 
 1. Select the **Adobe Experience Manager** link at the top and choose **Tools**. 
@@ -29,11 +37,17 @@ Use the Data Sources tool in Experience Manager Guides to create and configure a
     >* Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the field to view more details about it.
     >* Fields with * are mandatory. For example, you can enter the following details for the ElasticSearch connector.
 
-    * **Name**: Enter the name of the data source.
-    * **Target AEM root path**: Enter the path in the AEM repository where content imported from Git should be stored.
-    * **File type filter (inclusion)**: Specify the file types to include during import.
-    * **Excluded path (regex)**: Specify path patterns to exclude from import.
-    * **Authentication type**: Select the authentication type from the drop-down list. Currently, **Personal Access Token (PAT)** is the only supported authentication method. Enter the PAT during connector setup to authenticate and access the Git repository.
+    - **Name**: Enter the name of the data source.
+    - **Target AEM root path**: Enter the path in the AEM repository where content imported from Git should be stored.
+    - **File type filter (inclusion)**: Specify the file types to include during import.
+    - **Excluded path (regex)**: Specify path patterns to exclude from import.
+    - **Authentication type**: Select the authentication type from the drop-down list. Currently, **Personal Access Token (PAT)** is the only supported authentication method. Enter the PAT during connector setup to authenticate and access the Git repository. 
+    
+        Learn how to [Generate a GitHub personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic). 
+
+        While selecting scopes during PAT generation on GitHub, ensure to enable the following scopes:
+        - **repo**: Select the top-level checkbox. All sub-scopes are selected automatically, granting access to repository content, commit status, and deployments.
+        - **admin:org**: Select only **read:org**. This is required to resolve organization and team membership.
     * **Repository URL**: Enter the Git repository URL from which content should be imported.
     * **Branch**: Enter the branch to use for content import.
 
@@ -47,3 +61,38 @@ Use the Data Sources tool in Experience Manager Guides to create and configure a
 
     ![](assets/git-connector-connected.png){width="600"}
 
+## Add Git Connector to your Cloud Manager project
+
+Before Git Connector is available to configure from the **Data Sources** page, it must be embedded as a dependency in your AEM project. Perform the following steps to add the dependency:
+
+1. In your AEM project's `all/pom.xml`, add Git Connector as a dependency under `<dependencies>`:
+
+    ```xml
+    <dependency>
+        <groupId>com.adobe.aem.addon.guides</groupId>
+        <artifactId>konnect-github</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+    ```
+
+1. In the same `pom.xml`, add the dependency to the `<embeddeds>` section of the `filevault-package-maven-plugin` configuration:
+
+    ```xml
+    <embedded>
+        <groupId>com.adobe.aem.addon.guides</groupId>
+        <artifactId>konnect-github</artifactId>
+        <type>jar</type>
+        <target>/apps/YOUR-vendor-packages/content/install</target>
+    </embedded>
+    ```
+
+    Replace `YOUR-vendor-packages` with your project's vendor package name.
+
+1. Commit and push the changes to your Cloud Manager Git repository, then run the pipeline to deploy them.
+
+Once the pipeline completes, Git Connector is installed in your environment and available to configure from the **Data Sources** page.
+
+
+
+
+    

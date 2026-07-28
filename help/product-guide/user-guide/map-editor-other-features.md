@@ -82,5 +82,89 @@ A navigation reference of the selected map file is added at the specified locati
 
 *Layout view*
 
+## Run health check on a map
+
+The Run health check option in the context menu allows you to run a health check on the selected map to catch issues such as broken links, duplicate IDs, and Schematron validation failures before publishing.
+
+>[!NOTE]
+>
+> This feature is enabled by default. If you prefer not to use this feature in your environment, contact your Customer Success team. 
+
+Which checks are available to run is defined by a health check preset, created and managed by an Administrator at the folder-profile level. For details, view [Create and manage health check presets](../install-conf-guide/conf-health-check-preset.md).
+
+Perform the following steps to run a health check on a map:
+
+1. Open a map in the Editor. 
+1. In the Options menu, select **Run health check** option. 
+    ![](./images/run-health-check-option.png)
+1. The Run health check dialog is displayed. Select a health check preset you want to run. Only the presets configured for your folder profile are available for selection. 
+
+    Selecting a preset, loads the defined checks in the dialog. 
+
+    ![](./images/health-check-selected-checks.png)
+1. *Optional* Select a Baseline. If you don't want to use a baseline, select **None**.
+1. Select **Run**.
+
+You can also run a health check on a map from the **Health check report** panel. For this, open a map in Map view, and select the **Health check report** icon.
+
+![](./images/health-check-report-icon.png)
+
+>[!NOTE]
+>
+>This option is displayed only for a map on which no health check has been run yet. If a health check has already been run on the map, selecting the **Health check report** icon opens the existing report instead.
+
+In the panel, select **Run health check**.
+
+![](./images/run-health-check-report-panel.png) 
+
+This opens the same **Run health check** dialog where you can select a health check preset and a baseline to run a health check on the map, as described in the above steps.
+
+## Using the health check report in the Editor
+
+When you run a health check for a map, the report opens in the **Health check report** panel as shown below:
+
+![](./images/health-check-report-panel-editor.png)
+
+### Report toolbar
+
+The toolbar at the top of the panel displays the following:
+
+- **Map name**: The name of the map the report was generated for.
+- **Info icon**: Select to view the preset name, map version, and baseline (if any) used to generate the report.
+- **Filter**: Narrows the report to a specific rule, for example to view only the Broken links results. The filter only lists the rule types that produced results in the current report.
+- **Download report**: Downloads the report.
+- **Regenerate**: Runs the health check again.
+
+### Health check results
+
+Each result produced by the selected checks is listed with the following details:
+- **Severity**: The severity level of the result, for example Error, Warning, Info, or Fatal.
+- **Health check preset name**: Name of the health check preset used to generate the report
+- **Rule name**: The rule that produced the result, for example Broken links or Duplicate ID.
+- **Line number**: The line in the file where the issue occurs.
+- **Asset**: The file in which the issue was found.
+
+Select a result to open the corresponding file at the exact line where the issue persists.
+
+![](./images/health-check-preset-report-selected.png)
+
+>[!NOTE]
+>
+>Broken link results open the file in Author mode. Duplicate ID and Schematron validation results open the file in Source mode.
+
+### Regenerate the report
+
+After fixing an issue, select **Regenerate** in the toolbar to run the health check again and confirm the issue is resolved. In the **Regenerate** dialog that's displayed, select the checks you want to include in the regenerated report.
+
+![](./images/health-check-preset-report-regenerate.png)
+
+>[!NOTE]
+>
+> Health check reports are specific to the user who generated them. If multiple users generate a report for the same map, each user views their own results. Administrators, however, always have access to the latest report generated for the map.
+
+### Download the report
+
+Select **Download report** to download the report in XLS format, with detailed information for every result.
+
 
 **Parent topic:**[Introduction to the Map Editor](map-editor.md)

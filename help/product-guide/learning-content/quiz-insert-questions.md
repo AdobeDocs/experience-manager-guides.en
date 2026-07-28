@@ -52,6 +52,13 @@ You can configure the questions using the following question properties from the
 - **Penalty for incorrect answer**: Specify the points to be deducted for an incorrect answer.
 - **Question label**: Enable to add a question label.
 - **Feedback**: Enable to provide the feedback for correct or incorrect answer.
+
+    >[!NOTE]
+    >
+    > In the published output of the course, after attempting all the questions in a quiz, learners can use the **Review answers** option to revisit their submitted responses and see which answers were correct or incorrect. This requires no additional setup or configuration.
+
+    ![](assets/review-answer-quiz.png){width="350"}
+
 - **Pin option to position**: When a specific option for a question is pinned, it remains fixed in the specified position in the option list, even if **Randomize answer choices for each attempt** is enabled in the SCORM preset configuration, which would otherwise reshuffle the available options. You can hover over the desired option of a question in the Content Properties panel and pin it.
 
     ![](assets/pin-question.png){width="350"}

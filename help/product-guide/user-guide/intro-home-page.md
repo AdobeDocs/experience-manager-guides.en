@@ -42,6 +42,13 @@ Features available in the navigation bar are explained as follows:
 - **AI Assistant**: A powerful, AI-driven tool designed to enhance your productivity through smart help features. Additionally, when working in the Editor interface, you can leverage the smart authoring capabilities of AI Assistant that makes your authoring process smarter and faster through intelligent suggestions for content reuse and optimization.  
 
   The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.  
+
+- **Guides AI**: Brings intelligent, agentic Smart Tagging skill from Adobe CX Enterprise Coworker into the Editor, enabling natural, conversational content tagging. It analyzes your content, recommends relevant tags, and helps you apply consistent and accurate metadata with minimal effort. You can review the suggested tags and choose to apply or reject them before confirming your selection. [Guides AI](../user-guide/guides-ai.md) streamlines the tagging process, improving content organization and discoverability.
+
+  >[!NOTE]
+  >
+  > For using Guides AI feature in your environment, contact the Customer Success team. After the feature is enabled, Administrators can turn it on or off from Workspace Settings. Only one AI experience can be enabled at a time; either Guides AI or AI Assistant.
+
 - **Customize overview section**: Allows you to hide or show the widgets in the Widgets section. 
 - **Folder profile in use**: Displays the folder profile that is currently being used.
 - **More actions**: Provides access to additional options. Selecting this button opens a menu with the following options:

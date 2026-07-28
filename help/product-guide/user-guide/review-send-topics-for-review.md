@@ -81,7 +81,9 @@ To create a review task and send topics for review, perform the following steps:
 
 1.  Enter a **Description** for the task.
 
-    This description is used as the body of the notification email sent to the reviewers.
+    The description is used as the body of the notification email sent to the reviewers. It's also displayed in the **Review details** dialog, accessible via the *Info* icon beside the **Comments** heading in both the Review UI and the Editor interface.
+   
+    ![](images/review-details.png)
 
 1.  Select the **Due Date** and time to mark the deadline for the review.
 
@@ -108,6 +110,35 @@ To create a review task and send topics for review, perform the following steps:
     >[!NOTE]
     >
     > The selected root map takes the highest precedence to resolve key references. For more details, view [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
+
+1. Attach DITAVAL files (Available only when enabled for your environment)
+
+    >[!NOTE]
+    >
+    > The feature to attach DITAVAL files to a review task is enabled by default. If you prefer not to use this feature in your environment, contact your Customer Success team.
+
+    If the topic you are sending for review uses conditions, you can attach one or more DITAVAL files to the review task.
+
+    ![](./images/attach-ditaval-review-task.png)
+
+    >[!NOTE]
+    >
+    > The file selector only accepts DITAVAL files. If you select any other file type, such as a topic or a map, an error message prompts you to select a DITAVAL file instead.
+
+    The conditions defined in the attached DITAVAL file(s) are used to pre-select the toggles in the reviewer's Conditions panel, so reviewers have access to the same set of conditions that you, as the initiator, intend for this review.
+
+    You also have the **Allow reviewer condition changes** checkbox, which controls whether reviewers can change the pre-set toggles:
+
+      ![](./images/reviewer-conditions.png)
+
+    - If selected, reviewers can turn any condition's toggle on or off during their review, overriding the values set by the DITAVAL file(s).
+    - If cleared, the toggles remain disabled for reviewers, and they can review the content only as filtered by the attached DITAVAL file(s).
+
+    **Additional notes**:
+
+    - You can attach multiple DITAVAL files to a single review task. If two or more attached files define conflicting values for the same condition, the file that was added first (in insertion order) takes precedence.
+    - Conditions that are not covered by any attached DITAVAL file are not affected; they retain the default (unfiltered) behavior in the Review UI.
+    - After the review task is created, you can update the review task from the Task Details page to add, remove, or replace the attached DITAVAL files, and to change the **Allow reviewer condition changes** setting.  
 
 1.  As you can assign different reviewers to different topics, **Allow Assignees to Review Any Topic** option controls whether reviewers can review all topics in a review task or only those topics that they are assigned to review.
 

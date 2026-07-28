@@ -70,6 +70,14 @@ A powerful, AI-driven tool designed to enhance your productivity through smart h
 >
 > The AI Assistant feature is currently available for Adobe Experience Manager Guides as a Cloud Service.
 
+**Guides AI**
+
+Brings intelligent, agentic Smart Tagging skill from Adobe CX Enterprise Coworker into the Editor, enabling natural, conversational content tagging. It analyzes your content, recommends relevant tags, and helps you apply consistent and accurate metadata with minimal effort. You can review the suggested tags and choose to apply or reject them before confirming your selection improving content organization and discoverability.
+
+>[!NOTE]
+>
+> For using Guides AI feature in your environment, contact the Customer Success team. After the feature is enabled, Administrators can turn it on or off from Workspace Settings. Only one AI experience can be enabled at a time; either Guides AI or AI Assistant.
+
 **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar containing the Adobe Experience Manager logo, is hidden. This maximizes the content space for editing. To return to the standard view, use the **Exit the expanded view** icon.
 
 **More actions**: Provides access to additional options. Selecting this button opens a menu with the following options:

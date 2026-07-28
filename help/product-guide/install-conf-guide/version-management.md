@@ -58,11 +58,6 @@ The following tabs provide instructions to enable the **Create new version for u
 
 1.  Click **Save**.
 
-
->[!NOTE]
->
-> You can upload files in batches of 70 or less, if you enable the property **Create New Version for Uploaded File** \(create.ver.new.content\) and use the **Assets UI**to bulk upload assets.
-
 >[!ENDTABS]
 
 

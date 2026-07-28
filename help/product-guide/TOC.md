@@ -239,7 +239,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Author Markdown documents from the Editor](./user-guide/web-editor-markdown-topic.md)
         - [Add citations to your content](./user-guide/web-editor-apply-citations.md)
         - [Use data from your data sources](./user-guide/web-editor-content-snippet.md) 
-        - {hide-from-toc} [Import content using Git Connector (Beta)](./user-guide/web-editor-git-connector.md)  
+        - [Import content using Git connector](./user-guide/web-editor-git-connector.md)
         - [Document state](./user-guide/web-editor-document-states.md)
         - [Use labels](./user-guide/web-editor-use-label.md)
         - [Editor settings](./user-guide/config-editor-settings.md)
@@ -327,6 +327,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Incremental output generation](./user-guide/generate-output-aem-site.md)
       - [Use Map collection for output generation](./user-guide/generate-output-use-map-collection-output-generation.md)
       - [Use New map collection for output generation](./user-guide/generate-output-use-new-map-collection-output-generation.md)
+      - [Migrate Old map collections to New map collections](./user-guide/map-collection-migration.md)
       - [Manage output generation process](./user-guide/generate-output-manage-process.md)
       - [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
       - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
@@ -354,6 +355,7 @@ breadcrumb-title: AEM Guides Documentation
     - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
     - [AI-powered smart suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
     - [FAQ](./user-guide/ai-assistant-faq.md)
+  - [Get started with Guides AI](./user-guide/guides-ai.md)  
   - Manage Learning Content {#learning-training-content}
     - Getting started guide {#get-started}
       - Introduction {#intro-lc}
@@ -551,16 +553,19 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure New Baseline for On-Premise](./install-conf-guide/conf-new-baseline-on-prem.md)
       - [Configure skipping of peer links for On-Premise](./install-conf-guide/conf-skip-peer-links-on-prem.md)
       - {hide-from-toc} [Configure new map collections for output generation](./install-conf-guide/conf-new-map-collection-on-prem.md)
+      - [Using the Experience Manager Guides MCP Server](./install-conf-guide/conf-aem-guides-mcp.md)
     - Extending the features {#aemg-customization}
       - [Deploy custom index for Find and replace feature for Cloud Service](./install-conf-guide/custom-indexing-cs.md)
       - [Reindex for Find and replace feature for On-Premise](./install-conf-guide/custom-indexing-on-prem.md) 
       - [Configure Find and replace feature for On-Premise](./install-conf-guide/conf-find-replace-on-prem.md)
       - [Component mapping for AEM Sites](./install-conf-guide/component-mapping.md)
+      - [Configure template presets for output generation](./install-conf-guide/template-presets-output-generation.md)
     - Appendix {#appendix}
       - [Appendix](./install-conf-guide/aemg-appendix.md)   
         
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
+  - [API updates for Experience Manager Guides releases](./api-reference/api-update-swagger.md)
   - [REST APIs for Output management](./api-reference/output-management.md)
   - [REST API to work with DITA maps](./api-reference/dita-map-management.md)
   - [REST API to register a data source connector](./api-reference/data-source-connector.md)
@@ -625,7 +630,8 @@ breadcrumb-title: AEM Guides Documentation
         - Widgets {#framework-widgets}
           - [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
           - [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-        - [Extension framework changes for Editor 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)  
+        - [Extension framework changes for Editor 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md) 
+        - [Migrate extension framework to Editor 2.0](./guides-ui-extensions/getting-started/migrating-extensions-new-editor.md) 
       - Getting Started {#getting-started}
         - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
         - [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
