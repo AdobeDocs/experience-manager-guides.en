@@ -20,10 +20,13 @@ The Guides AI panel provides all the tools you need to generate, review, and app
 The following components of Guides AI help you add files, configure tag recommendations, and manage your smart-tagging workflow: 
 
 - **(A)** Conversation history: View and reopen previous conversations to review earlier tag recommendations and actions.
+
+    ![Guides AI panel converstaion history](images/chat-history.png){width="350"}
+
 - **(B)** New chat: Start a new tagging session for a different topic, map, or set of files.
 - **(C)** Tag namespace: Select the taxonomy namespaces from where Guides AI should generate tag recommendations. Only tags from the selected namespaces are considered.
 
-    ![Guides AI panel](images/taxononmy.png){width="350"}
+    ![Guides AI panel taxonomy](images/taxononmy.png){width="350"}
 
 - **(D)** Response space: Review AI-generated tag recommendations and choose to accept, reject, or modify them before applying the tags.
 - **(E)** Prompt space: Enter a prompt request to generate tag recommendations for the selected content.
@@ -116,7 +119,7 @@ Perform the following steps to use Guides AI for applying tags to multiple topic
     - **Preview pane:** Displays a preview of the selected topic along with its existing tags.
     - **Filter:** Filter the topics to display only those with **Tags added** or **No tags added**.   
 
-        ![Selecting topics dialog while applying tags](images/ai-select%20dialog.png){width="650"}  
+        ![Selecting topics dialog while applying tags](images/select-dialog.png){width="650"}  
         
 1. Select **Confirm**. Guides AI analyzes the selected topics and displays the number of tag recommendations generated for each topic.
 1. Select **Preview** to review the AI-generated tag recommendations.  

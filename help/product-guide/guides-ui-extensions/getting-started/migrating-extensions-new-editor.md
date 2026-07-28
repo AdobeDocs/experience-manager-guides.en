@@ -306,6 +306,7 @@ tcx.curEditor?.saveFile?.();
 // AFTER
 tcx.eventHandler.next(tcx.eventHandler.KEYS.AUTHOR_SAVE_KEY);
 ```
+
 `resetDirty(...)` and `tcx.curEditor.html` have no MarkupEditor equivalent so drop them; saving
 through the event handles dirty state centrally. Use `guides.editor.focus()` for focus.
 
@@ -331,6 +332,7 @@ guides.editor.removeDecoration('important-sections');
 guides.editor.clearDecorations();
 guides.editor.getDecorations();
 ```
+
 Complex cases (custom state, broken-state via transaction meta, widget text): Register a
 ProseMirror plugin once, using the exposed libraries:
 
@@ -362,6 +364,7 @@ guides.editor.registerPlugin(() => ({
   css: `[data-xml-element="codeblock"] { font-family: monospace; background: #f5f5f5; }`
 }));
 ```
+
 The legacy content clientlib category (`apps.guides.xml_editor.dita_content_overrides`) still
 styles the legacy editor only, keep it if you support both, but know it is inert on MarkupEditor.
 
@@ -480,8 +483,6 @@ Find the below utils to use through `runUtil`.
 | `getDecorations` | `(): string[]` | IDs of all decorations currently applied. |
 | `getResolvedDitaDocumentTitle` | `(props?): string` | Resolved display title of the DITA document. `props`: `doc` to target a specific document, `allowedPrefixElements` to allow title-prefix elements. |
 
----
-
 ## Appendix B: More exposed commands (examples)
 
 The commands below are additional examples of what's exposed via `guides.editor.runCommand(name, ...args)`.
@@ -502,5 +503,3 @@ Guard any command with `guides.editor.canRunCommand(name, ...args)` first if it 
 | `clearDecorations` | `()` | Removes all decorations in the current open file. |
 | `setFileReadOnly` | `(readOnly: boolean)` | Toggles read-only mode for the file. |
 | `generateUniqueId` | `()` | Generates and assigns a unique id attribute to the current node. |
-
----
