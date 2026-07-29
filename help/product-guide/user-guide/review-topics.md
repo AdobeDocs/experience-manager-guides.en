@@ -163,7 +163,11 @@ The comments are displayed in the order of the commented text in the document. F
 
 The tasks that you can perform using the Comments panel are described below:
 
--   Selecting a comment highlights and shows the corresponding comment's location in the document.
+-   Use the info icon ![](./images/info-icon.svg) to view the details of the review task, including the name of the review task, review version, status, and task description. 
+
+    ![](./images/review-details-review-ui.png)
+    
+- Selecting a comment highlights and shows the corresponding comment's location in the document.
 -   You can add replies to comments.
 -   You can edit your own comment by selecting your commented text in the Comments panel and then choosing **Edit** from the Options menu.
 -   You can delete your own comments by selecting the comment in the Comments panel and then choosing the **Delete** option from the Options menu.
