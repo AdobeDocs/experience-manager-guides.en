@@ -23,6 +23,8 @@ This page provides the latest release information for Adobe Experience Manager G
 
 |[!DNL AEM Guides] Release|Release Notes|
 |---|---|
+|**AEM Guides 2026.08.0**|[2026.08.0 What's new](./whats-new-2026-08-0.md)<br><br>[2026.08.0 Fixed issues](./fixed-issues-2026-08-0.md)<br><br>[2026.08.0 Upgrade instructions](./upgrade-instructions-2026-08-0.md)|
+|**AEM Guides 2026.07.0**|[2026.07.0 Fixed issues](./fixed-issues-2026-07-0.md)<br><br>[2026.07.0 Upgrade instructions](./upgrade-instructions-2026-07-0.md)|
 |**AEM Guides 2026.06.0**|[2026.06.0 What's new](./whats-new-2026-06-0.md)<br><br>[2026.06.0 Fixed issues](./fixed-issues-2026-06-0.md)<br><br>[2026.06.0 Upgrade instructions](./upgrade-instructions-2026-06-0.md)|
 |**AEM Guides 2026.05.0 Service Pack 1**|[2026.05.0 Service Pack 1 Fixed issues](./fixed-issues-2026-05-0-sp1.md)|
 |**AEM Guides 2026.05.0**|[2026.05.0 What's new](./whats-new-2026-05-0.md)<br><br>[2026.05.0 Fixed issues](./fixed-issues-2026-05-0.md)<br><br>[2026.05.0 Upgrade instructions](./upgrade-instructions-2026-05-0.md)|
