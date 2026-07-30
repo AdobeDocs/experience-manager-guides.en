@@ -31,6 +31,11 @@ Perform the following steps to generate a SCORM output:
     ![](assets/scorm-success-message.png){width="350"}
 
 1. You can download or preview output by selecting **Download output** or **Preview output** respectively.
+
+    >[!NOTE]
+    >
+    > The SCORM preview is available when you generate a SCORM output. If your course relies on external domains for fonts, stylesheets, or embedded content, configure the allowed domains in [Configure SCORM preview](../lc-config-guide/guides-scorm-preview-config.md).
+
    
     ![](assets/scorm-view-output-new.png){width="650"} 
 
