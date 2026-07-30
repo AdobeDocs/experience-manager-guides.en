@@ -409,7 +409,7 @@ For details, view [New baseline experience (Beta) in Experience Manager Guides](
 
 The following API enhancements have been made as part of this release:
 
-- New APIs are introduced to create new translation project and track their status. These APIs help automate the translation process, reducing manual effort and improving efficiency. For details, view [Create translation project](../api-reference/translation-project.md)
+- New APIs are introduced to create new translation project and track their status. These APIs help automate the translation process, reducing manual effort and improving efficiency. For details, view [Create translation project](../api-reference/api-update-swagger.md).
 - Enhanced asset processing APIs with improved filtering ability for files and folders. For details, view [Process assets](../api-reference/bulk-assets-processing.md).
 - New API is available for tracking the post-processing status of individual assets and folders. This is especially useful for teams using automated workflows, where publishing needs to happen only after content is fully processed. The API offers a reliable way to confirm readiness, reducing the risk of publishing failures caused by incomplete processing. Also, with the introduction of this API, the asset post processing events won't fire automatically. Instead, Administrators can now enable this event through a setting in `fmdita config manager`. 
 For details, view  [API to track post-processing status of individual assets and folders](../api-reference/track-post-processing-status.md) and [Post-processing event handler setting in fmdita config manager](../api-reference/post-process-event.md)
