@@ -17,7 +17,7 @@ The variable `GUIDES_SCORM_PREVIEW_CONFIG` accepts JSON object as its value. Eac
 
 | Fields | Type | Description |
 |---|---|---|
-| `CSP_ENABLED` | Boolean | Turns CSP enforcement on (`true`) or off (`false`) for the SCORM preview. This is `true` by default. |
+| `CSP_ENABLED` | Boolean | Turns CSP enforcement on (`true`) or off (`false`) for the SCORM preview.|
 | `ALLOW_UNSAFE_EVAL` | Boolean | Allows the use of `eval()` and similar unsafe JavaScript evaluation methods when set to `true`. |
 | `ADDITIONAL_SCRIPT_SRC` | Array | Additional trusted sources allowed to serve JavaScript. |
 | `ADDITIONAL_STYLE_SRC` | Array | Additional trusted sources allowed to serve stylesheets. |
@@ -53,7 +53,7 @@ Depending on your needs, you don't have to populate every value; leave any sourc
 
 >[!NOTE]
 >
-> If you want to disable CSP enforcement for SCORM preview, set `"CSP_ENABLED": false` in the JSON value. This disables the CSP variable altogether for that environment.
+> If you want to disable CSP enforcement for SCORM preview, set `"CSP_ENABLED": false` in the JSON value.
 
 ## Add the variable in Cloud Manager
 
