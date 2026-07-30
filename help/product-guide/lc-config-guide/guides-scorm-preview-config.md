@@ -1,5 +1,5 @@
 ---
-title: Configuring Content Security Policy for SCORM preview
+title: Configure Content Security Policy for SCORM preview
 description: Learn how to configure Content Security Policy for SCORM preview using an environment variable in Cloud Manager
 feature: Authoring
 role: User
@@ -59,11 +59,11 @@ Depending on your needs, you don't have to populate every value; leave any sourc
 
 1. Log in to Cloud Manager and select the environment where you want to apply the configuration.
 2. Navigate to the environment's **Configuration** tab.
-3. Select **Add/Update** to add an environment variablle.
+3. Select **Add/Update** to add an environment variable.
 
     ![Adding new variable to the cloud manager ](assets/add-new-variable.png){width="650"}
 
-4. Enter the name of the variable (`GUIDES_SCORM_PREVIEW_CONFIG`) in the **Name** field, .
+4. Enter the name of the variable (`GUIDES_SCORM_PREVIEW_CONFIG`) in the **Name** field.
 
     ![Adding the name of the variable in the name field](assets/variable-name.png){width="650"}
 
@@ -79,4 +79,4 @@ Once you save, Cloud Manager applies the configuration to the selected environme
 
 ## Update the variable values
 
-If your requirements change, you can revisit the `GUIDES_SCORM_PREVIEW_CONFIG` variable at any time from the same Configuration tab in Cloud Manager. Locate the existing variable and select its **Add/Update** option to open it for editing, then revise the JSON value as needed.
+If your requirements change, you can revisit the `GUIDES_SCORM_PREVIEW_CONFIG` variable at any time from the same Configuration tab in Cloud Manager. Locate the existing variable and select its **Add/Update** option to open it for editing, and then revise the value as needed.
