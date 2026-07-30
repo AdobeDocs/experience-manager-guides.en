@@ -585,7 +585,8 @@ breadcrumb-title: AEM Guides Documentation
   - [API to track post processing status for a folder or an asset](./api-reference/track-post-processing-status.md)
   - [API to start bulk processing for assets](./api-reference/bulk-assets-processing.md)
   - [Bulk activation complete event handler](./api-reference/bulk-activation-complete-event.md)
-  - [Conversion process event handler](./api-reference/conversion-complete-event.md)  
+  - [Conversion process event handler](./api-reference/conversion-complete-event.md)
+  - [Create translation project](./api-reference/create-translation-project.md)   
 - Knowledge Base {#knowledge-base}
   - Expert Session {#expert-session}
     - [Expert Session Overview](./knowledge-base/expert-sessions/expert-session.md)
