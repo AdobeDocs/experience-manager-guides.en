@@ -111,7 +111,9 @@ Perform the following steps to review a topic:
 
 ## Additional features available on the review screen 
 
-**Document view and topic view** - By default, if multiple topics are shared for review, then a composite document view of topics is shown to the reviewers. In case of a DITA map review, all topics in the map are presented in the form of a single document, resembling a book view. If you want, you can also select a particular topic and only that topic is then shown on the review screen.
+### Document view and topic view
+
+By default, if multiple topics are shared for review, then a composite document view of topics is shown to the reviewers. In case of a DITA map review, all topics in the map are presented in the form of a single document, resembling a book view. If you want, you can also select a particular topic and only that topic is then shown on the review screen.
 
 When you view a single topic, then you get an additional option to switch back to the document view. In the following screenshot, a particular topic from a map file is opened for review. The highlighted option — **Show Document View** allows user to switch back to the document view of the map file.
 
@@ -119,11 +121,11 @@ When you view a single topic, then you get an additional option to switch back t
 >
 > Any screen resolution with a width greater than 1600px is compatible with the default panel widths (left and right), ensuring that no horizontal scroll bar appears and the content remains properly aligned in the document view. Also you can always resize the screen to maintain the appropriate document view in the Review UI.
 
-
-
 ![](images/switch-document-view.png)
 
-**Working with different types of commenting tools** - You can add inline comments by highlighting text, striking through text, inserting text, or adding a comment note. The different types of commenting tools provided in the Comments toolbar are described below:
+### Working with different types of commenting tools
+
+You can add inline comments by highlighting text, striking through text, inserting text, or adding a comment note. The different types of commenting tools provided in the Comments toolbar are described below:
 
 ![](images/comments-toolbar.png){width="350"}
 
@@ -142,7 +144,7 @@ When you view a single topic, then you get an additional option to switch back t
 -   **Add Comment**\(![](images/review-comment-icon.svg)\): If you want to add a sticky note type of comment, select the Add Comment icon and enter the comment in the pop-up.
 
 
-**Contextual toolbar**
+### Contextual toolbar
 
 You can also highlight or strikethrough text quickly with the contextual toolbar. Perform the following steps to comment using the contextual toolbar:
 
@@ -153,13 +155,19 @@ You can also highlight or strikethrough text quickly with the contextual toolbar
 1.  Select the **Highlight** or **Strikethrough** icon.
 1.  You can add comments in the comment panel for the highlight or strikethrough action.
 
-**Review using the Comments panel** - The Comments panel displays a list of comments given on the current topic. This panel also lists comments from other reviewers, if the topic is sent to multiple reviewers. Each comment in the comment panel is linked to the corresponding text in the current topic. It helps you identify the commented text. Each comment displays the name of the reviewer who has added the comment along with the timestamp.
+### Review using the Comments panel
+
+The Comments panel displays a list of comments given on the current topic. This panel also lists comments from other reviewers, if the topic is sent to multiple reviewers. Each comment in the comment panel is linked to the corresponding text in the current topic. It helps you identify the commented text. Each comment displays the name of the reviewer who has added the comment along with the timestamp.
 
 The comments are displayed in the order of the commented text in the document. For example, there is a highlight comment on the first sentence and an insert text comment on the second sentence in the first paragraph then the highlight text comment is displayed before the inserted text comment.
 
 The tasks that you can perform using the Comments panel are described below:
 
--   Selecting a comment highlights and shows the corresponding comment's location in the document.
+-   Use the info icon ![](./images/info-icon.svg) to view the details of the review task, including the name of the review task, review version, status, and task description. 
+
+    ![](./images/review-details-review-ui.png)
+    
+- Selecting a comment highlights and shows the corresponding comment's location in the document.
 -   You can add replies to comments.
 -   You can edit your own comment by selecting your commented text in the Comments panel and then choosing **Edit** from the Options menu.
 -   You can delete your own comments by selecting the comment in the Comments panel and then choosing the **Delete** option from the Options menu.
@@ -172,9 +180,9 @@ The tasks that you can perform using the Comments panel are described below:
 
 -   All participating users can respond to comments submitted by other users. On a comment, select **Reply** and press Enter to submit a response. The reply box is multi-line and expandable, which helps users provide detailed replies to comments. You can use **Shift** + **Enter** to go to the next line while writing the reply.
 
-**Preview mode**
+### Preview mode
 
-- Opening a topic in the Preview mode shows how a topic will be displayed when it is viewed by an author after applying all the changes. For example, all inserted text is shown as normal text and all striked off \(deleted\) text is removed from the content.
+Opening a topic in the Preview mode shows how a topic will be displayed when it is viewed by an author after applying all the changes. For example, all inserted text is shown as normal text and all striked off \(deleted\) text is removed from the content.
 
 - The following screenshot shows the content in *Review* mode:
 
@@ -185,7 +193,7 @@ The following screenshot shows the content in *Preview* mode:
 ![](images/review-preview-mode.png){width="550"}
 
 
-**Tag task users in a comment**
+### Tag task users in a comment
 
 When collaborating on a review task with multiple reviewers, you can enhance communication by tagging specific users in both new comments and replies. As a reviewer, you can initiate a comment or respond to an existing one while tagging other users involved in the same review task to draw their attention or assign follow-ups. This functionality is available only for active review tasks.
 
@@ -195,11 +203,17 @@ When collaborating on a review task with multiple reviewers, you can enhance com
 
 ![](images/tag-users-review-ui.png){width="350"}
 
+To tag a user, enter `@` in a comment or reply and select a user from the list of reviewers. The display name along with an email address of the user is displayed for easier identification. If an email address is unavailable, the user ID is displayed instead. 
+
+![](images/tagged-users-with-email.png)
+
 Tagged users receive both an email and an AEM notification, ensuring they're promptly informed. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md). 
 
 ![](images/mentioned-in-tags-author.png){width="350"}
 
-**Add attachments to comments** -   If you want to supplement your comment by providing additional information which is available in some other file, you can do so by attaching it with your comment. As a reviewer, you can easily add one or multiple files from your local system to your comment. A file can be added to all supported forms of comments - Highlight, Strikethrough, Insert Text, or a Comment.
+### Add attachments to comments
+
+If you want to supplement your comment by providing additional information which is available in some other file, you can do so by attaching it with your comment. As a reviewer, you can easily add one or multiple files from your local system to your comment. A file can be added to all supported forms of comments - Highlight, Strikethrough, Insert Text, or a Comment.
 
 When you insert any of the comments, the commenting pop-up appears. After providing additional comments or information in the pop-up, you submit it by hitting Enter. Once the comment is added, you get the option to add an attachment to that comment.
 
@@ -245,25 +259,64 @@ The other reviewers or authors get only the download attachment option.
 ![](images/attach-files-comments-panel.png){width="550"}
 
 
-**Conditions panel** -   If your topic has conditional content, then you will view the **Conditions** \(![](images/conditions-icon.svg)\) icon on the right. Selecting **Conditions** icon opens the Conditions panel that allows you to highlight the content as per the available conditions in the topic.
+### Work with Conditions panel
 
-:   By default **Highlight All Conditions** option is enabled, all conditions are selected, the entire content is displayed, and the conditionalized content is shown as highlighted both in review and preview mode.
+If your topic has conditional content, then you will view the **Conditions** \(![](images/conditions-icon.svg)\) icon on the right. Selecting **Conditions** icon opens the Conditions panel that allows you to highlight the content as per the available conditions in the topic.
 
-:   You can disable **Highlight All Conditions** option and view all the content present in the topic as normal text without any highlights.
+- By default **Highlight All Conditions** option is enabled, all conditions are selected, the entire content is displayed, and the conditionalized content is shown as highlighted both in review and preview mode.
 
-![](images/review-conditions-panel.png){width="350"}
+- You can disable **Highlight All Conditions** option and view all the content present in the topic as normal text without any highlights.
+
+    ![](images/review-conditions-panel.png){width="350"}
 
 You can choose to hide or show a specific condition.
 
 -   If you hide a condition, the content having that condition is not highlighted in the review mode.
 -   If you show a condition conditionalized content is highlighted in the review mode. For example, in the following screenshot, only the content uses two conditions - `win` and `mac` is highlighted.
 
-
-![](images/review-condition-normal-mode.png){width="650"}
+    ![](images/review-condition-normal-mode.png){width="650"}
 
 In the preview mode, the non-conditionalized content and the conditionalized content that uses the two shown conditions - `win` and `mac` is displayed. The remaining conditionalized content for which the conditions are hidden is not displayed.
 
-**Real-time review** -   The Comments panel updates in real time with comments and the feedback or action taken by the author on the comments.
+### Conditions panel with DITAVAL-based conditions 
+
+>[!NOTE]
+>
+>This feature is enabled by default. If you prefer not to use this feature in your environment, contact your Customer Success team.
+
+If the review task is created with one or more DITAVAL files attached, the Conditions panel presents conditions differently from what is described in the [Work with Conditions panel](#work-with-conditions-panel) section. Each condition is controlled by a toggle switch instead of an eye icon, and the toggles are pre-set to reflect the conditions defined in the attached DITAVAL file(s), so you can review the content the way the review initiator intended.
+
+>[!BEGINTABS]
+
+>[!TAB Conditions panel (without DITAVAL)]
+
+ ![](./images/review-conditions-panel.png){width="350"}
+
+>[!TAB Conditions panel (with DITAVAL)]
+
+![](./images/review-condition-panel-ditaval.png)
+
+>[!ENDTABS]
+
+Unlike the eye icon, which only adds or removes a highlight on conditionalized content, turning a toggle off in the Conditions panel hides that content from the Review UI, so the content does not appear in the document at all. Turning the toggle back on displays the content again.
+
+The Preview mode reflects the same toggle states as described in the [Work with Conditional Panel](#work-with-conditions-panel) section. 
+
+Depending on how the review initiator has configured the review task, you may or may not be able to change these toggles:
+
+- If the initiator has allowed changes, you can turn any toggle on or off to review the content under different conditions.
+
+     ![](./images/review-conditions-enabled.png)
+
+- If the initiator has not allowed changes, the toggles are disabled and reflect only the initiator's settings.
+
+    ![](./images/review-conditions-disabled.png)
+
+Any changes you make to the toggles apply only to your current session. Refreshing the page resets the toggles to the state defined by the attached DITAVAL files.
+
+### Real-time review
+
+The Comments panel updates in real time with comments and the feedback or action taken by the author on the comments.
 
 -   Multiple reviewers will be able to leave comments or reply to comments simultaneously on the same document. You can find out who is currently reviewing the document by hovering the mouse over the user icon at the top-right corner of the screen.
 
@@ -279,7 +332,9 @@ In the preview mode, the non-conditionalized content and the conditionalized con
 
 -   Selecting an outdated comment opens the version of that comment in the left panel. The previous version is shown in the left panel and the current version is displayed in the right panel. All comments on the outdated version are imported on the left side. You can compare the previous version with the current version.
 
-**Filter comments** -   You can filter comments in a document to view specific comments as required. To filter comments, select the **Filter** icon \(![](images/filter-search-icon.svg)\) that appears in the menu on the right of the Search Comments text box in the Comments panel.
+### Filter comments
+
+You can filter comments in a document to view specific comments as required. To filter comments, select the **Filter** icon \(![](images/filter-search-icon.svg)\) that appears in the menu on the right of the Search Comments text box in the Comments panel.
 
 Select one or more of the following filtering options from the **Filter Type** dialog and select **Apply**.
 
@@ -293,7 +348,6 @@ Select one or more of the following filtering options from the **Filter Type** d
 
 
 To remove the filter and view all the comments, deselect all filters from the **Filter Type** dialog and select **Apply**.
-
 
 ## Version history for the Reviewer
 

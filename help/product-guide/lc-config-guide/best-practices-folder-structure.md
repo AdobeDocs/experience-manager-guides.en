@@ -105,3 +105,4 @@ To assign permissions, navigate to **Tools** > **Security** > **Permissions**.
 These permissions help ensure that users can create or modify content only within their designated folders.  
 
 For more details, view [Permissions in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem).
+

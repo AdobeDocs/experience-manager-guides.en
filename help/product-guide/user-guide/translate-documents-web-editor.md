@@ -160,6 +160,15 @@ Before performing steps in this procedure, ensure that you have created the requ
     > If your existing project is a scoping project, it has '\(Scoping\)' appended in its name.
 
     - If you need to create the scope for a project to be translated, you can select **Create a new scoping translation project**. This will not send the copies for translation and the original translation status of the files is maintained. There is no impact on the destination language copy of the referred topics which are sent for scoping.
+1. In the **Path** field, select where the new translation project should be created:
+
+    - If you are creating a new translation project, select the folder in which you want to create the project.
+
+        ![Enter the project path](images/project-path.png){width="650"}
+
+    - If you are adding to an existing translation project, select the path in which that project already exists. Then, from the **Existing Translation Project** list, select the project you want to add the current translation task to. You can also use **Filters** available to narrow down the list.
+
+        ![Enter the existing project path](images/existing-project-path.png){width="650"}
 
 1. In the **Project Title** field, enter a title for the project.
 1. Select **Submit** to create a new translation project.

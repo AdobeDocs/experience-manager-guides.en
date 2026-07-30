@@ -25,6 +25,6 @@ When publishing a course, you can choose SCORM and PDF to deliver your content i
 
 - **SCORM output:** The SCORM output preset allows you to publish course content that is fully compatible with Learning Management Systems (LMS). The currently supported standard for the SCORM output is SCORM 2004 - 4th edition.  
 
-- **PDF:** The PDF output preset allows you to publish course content in a professional, print-ready format. The PDF format makes it ideal for sharing content for review or archival purposes.
+- **PDF:** The PDF output preset allows you to publish course content in a professional, print-ready format. The PDF format makes it ideal for sharing the content for review or archival purposes. 
 
 For a video overview on how to create, configure and generate output for a preset, view [Supported presets](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content) ![](assets/Smock_VideoCheckedOut_18_N.svg).

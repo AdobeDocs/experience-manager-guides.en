@@ -13,7 +13,12 @@ breadcrumb-title: AEM Guides Documentation
   - Release Notes {#release-notes}
     - Cloud Services {#cloud-release-notes}
       - {hide-from-toc} [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
+      - [Cloud Releases](./release-info/latest-release-info-cs.md)
       - 2026 Releases {#2026-releases}
+        - 2026.08.0 Release {#2608-release}
+          - [What's new](./release-info/whats-new-2026-08-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2026-08-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2026-08-0.md)
         - 2026.07.0 Release {#2607-release}
           - [Fixed issues](./release-info/fixed-issues-2026-07-0.md)
           - [Upgrade instructions](./release-info/upgrade-instructions-2026-07-0.md)
@@ -199,8 +204,8 @@ breadcrumb-title: AEM Guides Documentation
           - [4.2.1 Release Notes](./release-info/release-notes-4-2-1.md)
           - [4.2 Release Notes](./release-info/release-notes-4-2.md)
       - [4.1.x Release Notes](./release-info/release-notes-4-1.md)
-      - [4.0.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-      - [3.8.x Release Notes](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+      - [4.0.x Release Notes](./release-info/release-notes-4-0.md)
+      - [3.8.x Release Notes](./release-info/release-notes-3-8.md)
 - User Guide (New UI) {#user-guide}
   - Introduction {#about-aemg}
     - [About [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -238,7 +243,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Author Markdown documents from the Editor](./user-guide/web-editor-markdown-topic.md)
         - [Add citations to your content](./user-guide/web-editor-apply-citations.md)
         - [Use data from your data sources](./user-guide/web-editor-content-snippet.md) 
-        - {hide-from-toc} [Import content using Git Connector (Beta)](./user-guide/web-editor-git-connector.md)  
+        - [Import content using Git connector](./user-guide/web-editor-git-connector.md)
         - [Document state](./user-guide/web-editor-document-states.md)
         - [Use labels](./user-guide/web-editor-use-label.md)
         - [Editor settings](./user-guide/config-editor-settings.md)
@@ -326,6 +331,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Incremental output generation](./user-guide/generate-output-aem-site.md)
       - [Use Map collection for output generation](./user-guide/generate-output-use-map-collection-output-generation.md)
       - [Use New map collection for output generation](./user-guide/generate-output-use-new-map-collection-output-generation.md)
+      - [Migrate Old map collections to New map collections](./user-guide/map-collection-migration.md)
       - [Manage output generation process](./user-guide/generate-output-manage-process.md)
       - [Manage publish tasks using the Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
       - [Basic troubleshooting](./user-guide/generate-output-basic-troubleshooting.md)
@@ -353,6 +359,8 @@ breadcrumb-title: AEM Guides Documentation
     - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
     - [AI-powered smart suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
     - [FAQ](./user-guide/ai-assistant-faq.md)
+  - Guides AI in AEM Guides {#guides-ai-aem}  
+    - [Get started with Guides AI](./user-guide/guides-ai.md)  
   - Manage Learning Content {#learning-training-content}
     - Getting started guide {#get-started}
       - Introduction {#intro-lc}
@@ -411,6 +419,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Process assets](./user-guide/asset-processor.md)        
     - Troubleshooting {#troubleshooting}
         - [Session timeout](./user-guide/session-timeout-prompt.md)
+        - [String is too long exception in Metadata export](./user-guide/metadata-export-failure.md)
 - User Guide (Old UI) {#user-guide-old-ui}
   - [AEM Guides overview](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation and configuration {#install-conf-guide}
@@ -487,7 +496,8 @@ breadcrumb-title: AEM Guides Documentation
           - [Configure the option to edit in Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
           - [Configure display of pasted tables for Cloud Service](./install-conf-guide/conf-pasted-tables.md) 
           - [Configure single topic PDF generation for Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-          - [Configure Translation feature in the Editor for Cloud Service](./install-conf-guide/conf-translation-editor.md)          
+          - [Configure Translation feature in the Editor for Cloud Service](./install-conf-guide/conf-translation-editor.md)
+          - [Create and manage health check presets](./install-conf-guide/conf-health-check-preset.md)          
       - Editor setting for On-Premise {#editor-on-prem-settings}
           - [Configure New Editor](./install-conf-guide/conf-new-editor-on-prem.md)
           - [Configure additional special characters for On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
@@ -551,16 +561,20 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure New Baseline for On-Premise](./install-conf-guide/conf-new-baseline-on-prem.md)
       - [Configure skipping of peer links for On-Premise](./install-conf-guide/conf-skip-peer-links-on-prem.md)
       - {hide-from-toc} [Configure new map collections for output generation](./install-conf-guide/conf-new-map-collection-on-prem.md)
+      - [Using the Experience Manager Guides MCP Server](./install-conf-guide/conf-aem-guides-mcp.md)
     - Extending the features {#aemg-customization}
       - [Deploy custom index for Find and replace feature for Cloud Service](./install-conf-guide/custom-indexing-cs.md)
       - [Reindex for Find and replace feature for On-Premise](./install-conf-guide/custom-indexing-on-prem.md) 
       - [Configure Find and replace feature for On-Premise](./install-conf-guide/conf-find-replace-on-prem.md)
+      - [Index topics in a review task](./install-conf-guide/index-review-tasks.md)
       - [Component mapping for AEM Sites](./install-conf-guide/component-mapping.md)
+      - [Configure template presets for output generation](./install-conf-guide/template-presets-output-generation.md)
     - Appendix {#appendix}
       - [Appendix](./install-conf-guide/aemg-appendix.md)   
         
 - API Reference {#api-reference}
   - [Introduction](./api-reference/introduction.md)
+  - [API updates for Experience Manager Guides releases](./api-reference/api-update-swagger.md)
   - [REST APIs for Output management](./api-reference/output-management.md)
   - [REST API to work with DITA maps](./api-reference/dita-map-management.md)
   - [REST API to register a data source connector](./api-reference/data-source-connector.md)
@@ -597,6 +611,7 @@ breadcrumb-title: AEM Guides Documentation
     - [Publishing in AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
     - [Content Review in AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
   - Articles {#kb-articles}
+    - [Overview](./knowledge-base/kb-articles/introduction.md)
     - Authoring {#authoring}
       - Editor {#webeditor}
         - [Content re-usability in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
@@ -624,7 +639,8 @@ breadcrumb-title: AEM Guides Documentation
         - Widgets {#framework-widgets}
           - [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
           - [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-        - [Extension framework changes for Editor 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)  
+        - [Extension framework changes for Editor 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md) 
+        - [Migrate extension framework to Editor 2.0](./guides-ui-extensions/getting-started/migrating-extensions-new-editor.md) 
       - Getting Started {#getting-started}
         - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
         - [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)

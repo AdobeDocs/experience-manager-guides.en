@@ -96,6 +96,7 @@ In the Editor, the right panel contains the Review and Track changes icons. The 
 -   **I**: Apply a filter on the comments. You can filter to view comments on the basis of Review Type \(all, highlighted, deleted, inserted, or sticky note\), Review Status \(all, accepted, rejected, or none\), Reviewers \(all or specific reviewer\(s\)\), or Versions of topic. By default, none of the filters are selected. 
 
     ![](images/review-comments-author-filter.png){width="350"}
+
 **Reply to a comment by tagging other users**
 
 As an Author and initiator of the review task, you can reply to review comments and tag other users involved in the same review task to direct their attention or assign follow-ups. This functionality is available only for active review tasks. 
@@ -114,5 +115,28 @@ Tagged users receive both an email and an AEM notification, ensuring they're pro
 If you are the initiator or Author of a review task and open it from the **Projects console**, the topic will launch in the Review UI. Since this task is not assigned to you, you can view and reply to comments but cannot perform any review actions. The comments toolbar remains disabled for users who are not assigned to the task.
 
 ![](images/review-comments-toolbar-disabled.png){width="350"}
+
+## View all review tasks for a topic
+
+>[!NOTE]
+>
+> This feature is enabled by default. If you prefer not to use this feature in your environment, contact your Customer Success team.
+
+This feature allows you to select a review task (open or closed) associated with the currently-open topic from the Comments panel. When enabled, the Comments panel in the Review UI includes a drop-down listing every review task the topic is part of, along with each task's state (Active or Closed) and the project it belongs to. The task you're currently working from is marked with a **Current** tag by default.
+
+![](./images/review-task-selection-dropdpwn.png){width="350"}
+
+Using the review task drop-down, you can select any of these tasks and go through its comments, without switching review projects. You can also select the **(i)** icon next to a task in the drop-down to view the task details.
+
+>[!NOTE]
+>
+> If a review task that you expect to view doesn't appear in the drop-down, it may be because the task was created before this feature was enabled on your instance. Contact your Administrator, to resolve the issue by [Perform indexing to include all review tasks for a topic in the Comments panel](../install-conf-guide/index-review-tasks.md).
+
+When using this feature, note that:
+
+- Switching to a different topic in the Editor resets the panel back to the Current task in the Comments
+- Selecting any task other than Current opens that task's version of the topic and its comments in read-only mode. You can view the comments, but can't edit, accept, or reject them, and the **Import** option is disabled. Only comments from the Current task can be imported into your working copy.
+- Filtering and search apply only to the comments of the task you have selected; comments from other, unselected tasks aren't affected.
+
 
 **Parent topic:**[Introduction to review](review.md)

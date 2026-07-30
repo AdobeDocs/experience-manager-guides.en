@@ -540,7 +540,7 @@ The following options are available for a map file in the Map view:
 
 You can perform the following actions using the Options menu of the map file:
 
-![](images/options-menu-map-view_cs.png){  }
+![](images/options-menu-map-view_cs.png)
 
 - **Edit**: Open the map file for editing in the Map Editor.
 
@@ -572,6 +572,10 @@ You can perform the following actions using the Options menu of the map file:
 - **Open map dashboard**: Opens the map dashboard.
 
 - **View in Assets UI**: Use this to show a preview of the map file in the Assets UI. In this view, all topic files within the map are shown in a single unified page-by-page view.
+- **Run health check**: Enable this option to run health checks on the selected map. For more details about this feature, view [Additional features in Map editor](./map-editor-other-features.md#run-health-check-on-a-map).
+    >[!NOTE]
+    >
+    > This feature is enabled by default. If you prefer not to use this feature in your environment, contact your Customer Success team. 
 - **Download map**: Select this option to open the **Download map** dialog box. 
 
     In the **Download Map** dialog box, you can choose the following options:
@@ -591,7 +595,6 @@ You can perform the following actions using the Options menu of the map file:
     >[!NOTE]
     >
     >  By default, the downloaded maps remain for five days in the Adobe Experience Manager notification Inbox.
-
 - **Close map context**: Closes the map file.
 
 The following screenshot shows the Options menu for a file in the map view:

@@ -4,7 +4,6 @@ description: Learn how to enable the new PDF engine in Experience Manager Guides
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-
 ---
 
 # Configure Native PDF engine v2
