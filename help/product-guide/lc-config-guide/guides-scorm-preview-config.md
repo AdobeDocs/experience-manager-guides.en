@@ -49,6 +49,7 @@ The variable `GUIDES_SCORM_PREVIEW_CONFIG` accepts JSON object as its value. Eac
   "ADDITIONAL_OBJECT_SRC": []
 }
 ```
+
 Depending on your needs, you don't have to populate every value; leave any source type as an empty array if you don't need to allow additional origins for it.
 
 >[!NOTE]
