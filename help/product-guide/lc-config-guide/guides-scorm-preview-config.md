@@ -7,15 +7,15 @@ role: User
 
 # Configure Content Security Policy (CSP) for SCORM preview
 
-Experience Manager Guides SCORM preview is managed through a dedicated environment variable that governs the Content Security Policy (CSP) applied to the preview experience. After the setting is enabled, administrators can extend it by adding additional trusted sources. These sources can include scripts, styles, fonts, images, media, frames, and other resources required for SCORM packages to load and render previews correctly in Experience Manager Guides.
+Experience Manager Guides SCORM preview is managed through a dedicated environment variable that governs the Content Security Policy (CSP) applied to the preview experience. After the setting is enabled, Administrators can extend it by adding additional trusted sources. These sources can include scripts, styles, fonts, images, media, frames, and more required for SCORM packages to load and render previews correctly in Experience Manager Guides.
 
 This article explains how to add and configure the environment variable in Cloud Manager, breaks down what each field in the JSON value does, and shows how to update the value later if your needs change.
 
-## Configuration values
+## Configuration fields
 
-The variable `GUIDES_SCORM_PREVIEW_CONFIG` accepts a single JSON object as its value. Each value controls a specific aspect of the CSP applied during SCORM preview:
+The variable `GUIDES_SCORM_PREVIEW_CONFIG` accepts JSON object as its value. Each value controls a specific aspect of the CSP applied during SCORM preview:
 
-| Value | Type | Description |
+| Fields | Type | Description |
 |---|---|---|
 | `CSP_ENABLED` | Boolean | Turns CSP enforcement on (`true`) or off (`false`) for the SCORM preview. This is `true` by default. |
 | `ALLOW_UNSAFE_EVAL` | Boolean | Allows the use of `eval()` and similar unsafe JavaScript evaluation methods when set to `true`. |
@@ -31,7 +31,7 @@ The variable `GUIDES_SCORM_PREVIEW_CONFIG` accepts a single JSON object as its v
 | `ADDITIONAL_OBJECT_SRC` | Array | Additional trusted sources allowed to be loaded via `<object>`, `<embed>`, or `<applet>`. |
 
 
-## Default values
+## Default values for configuration fields
 
 ```json
 {
