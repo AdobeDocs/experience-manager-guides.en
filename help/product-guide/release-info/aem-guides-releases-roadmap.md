@@ -74,7 +74,9 @@ Product updates in terms of new features, enhancements, and bug fixes for suppor
 
 | Release |Event |Schedule |What's new | Upgrade instructions | Status|
 |---|---|---|---|---|---|
-|Adobe Experience Manager Guides 5.3.0|Release|Second week of October, 2026|-|-|Target|
+|Adobe Experience Manager Guides 5.2.0|Service Pack 1|September 1, 2026|-|-|Target|
+|Adobe Experience Manager Guides 5.2.0|Service Pack 3|November 17, 2026|-|-|Target|
+|Adobe Experience Manager Guides 5.3.0|Release|January 20, 2027|-|-|Target|
 
 
 ### Live releases
