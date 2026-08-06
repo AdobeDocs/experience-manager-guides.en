@@ -52,7 +52,7 @@ When you use the **AI Asistant** for the first-time, you are prompted to submit 
 
 Perform the following steps to launch AI Assistant: 
 
-1. Login to Experience Manager Guides
+1. Login to Experience Manager Guides.
 1. On the Home page, select **AI Assistant** from the top.   Ensure that the AI Assistant feature is enabled by your administrator. 
 
     The AI Assistant page is displayed highlighting its key fetaures, user guidelines link, and a **Get started** button.
