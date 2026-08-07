@@ -249,6 +249,10 @@ You can define the text to appear before and after the break. For example, a tab
    Use language variables to define the continuation marker text before and after the break. Depending on your chosen language, the localized value is automatically picked in the PDF output. For example, you can publish `Continued on page %page-num%` as a text in English and `Fortsetzung auf Seite %page-num%` in German. 
 
    Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the option to view more details about it. 
+
+   >[!NOTE]
+   >
+   > When using a language variable in the **Text Before Break** or **Text After Break** field, ensure that the entire text is defined within a single language variable. Any text or variable added outside the language variable in these fields is not rendered. For example, instead of using a combination of variables such as `${lng:Continued-from-page} %page-num%` in the **Text After Break field**, use only `${lng:Continued-from-page}` in the field, and separately set the value of the `Continued-from-page` language variable to `Continued-from-page %page-num%`.
 * **Link glossary terms to the glossary page**: Select this option to show the glossary terms as hyperlinks in the content and link them to the terms on the glossary page. This helps the readers to quickly view the definition of a term defined in the glossary.
     
    To convert the glossary terms to hyperlinks, you need to:
