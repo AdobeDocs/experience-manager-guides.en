@@ -177,7 +177,7 @@ To insert a language variable like your `copyright-label` in the header area, pe
  
  *The `copyright-label` added in the header area.*
 
-Once inserted, a language variable's value in the generated output depends on the language configured in the output preset. If your map already has a language defined using the `xml:lang` attribute, and you want the template to use that same language, ensure that **Use Map Language** option is selected in the output preset instead of selecting a language explicitly. View [Language resolution for DITA content vs. output template variables](#language-resolution-for-dita-content-vs-output-template-variables) to learn how a language is resolved based on the type of content it belong to. 
+Once inserted, a language variable's value in the generated output depends on the language configured in the output preset. If your map already has a language defined using the `xml:lang` attribute, and you want the template to use that same language, ensure that **Use map language** option is selected in the output preset instead of selecting a language explicitly. View [Language resolution for DITA content vs. output template variables](#language-resolution-for-dita-content-vs-output-template-variables) to learn how a language is resolved based on the type of content it belong to. 
 
 ###  Language resolution for DITA content vs. output template variables
 
@@ -188,7 +188,7 @@ Use the following table to understand how each type of content resolves its lang
 | Content type | Examples | Language resolution order |
 |---|---|---|
 | DITA content | Cross-references (for example, "See chapter" or "See page"), table continuation markers | 1. `xml:lang` attribute on the nearest topic or map <br> 2. Output preset language, if no `xml:lang` is set |
-| Output template language variables | Front matter, back matter, headers, footers, running heads, and generated labels (Note, Caution, Warning) | 1. Language selected in the output preset <br> 2. Root map's `xml:lang`, if **Use Map Language** is selected <br> 3. English (en_US), if neither is available |
+| Output template language variables | Front matter, back matter, headers, footers, running heads, and generated labels (Note, Caution, Warning) | 1. Language selected in the output preset <br> 2. Root map's `xml:lang`, if **Use map language** is selected <br> 3. English (en_US), if neither is available |
 
 If you want your DITA content to follow a specific language, set the `xml:lang` attribute on the topic or map closest to that content. Language variables work differently; since they are not part of the DITA source, they have no `xml:lang` to inherit, so you can control their language through the output preset instead.
 
