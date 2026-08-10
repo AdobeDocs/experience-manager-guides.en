@@ -47,8 +47,8 @@ The following tabs provide instructions to configure these properties based on y
 
 1. Configure the following settings as per your requirement:
 
-    * **Apply XML Parser Total Entity Size Limit** (`dxml.publish.xml.apply.total.entity.size.limit`) — By default, this setting is disabled.
-    * **XML Parser Total Entity Size Limit** (`dxml.publish.xml.total.entity.size.limit`) — By default, this value is set to `50000000` bytes. This setting takes effect only when the **Apply XML Parser Total Entity Size Limit** setting is enabled.
+    * **Apply XML Parser Total Entity Size Limit** (`dxml.publish.xml.apply.total.entity.size.limit`): By default, this setting is disabled.
+    * **XML Parser Total Entity Size Limit** (`dxml.publish.xml.total.entity.size.limit`): By default, this value is set to `50000000` bytes. This setting takes effect only when the **Apply XML Parser Total Entity Size Limit** setting is enabled.
 
 1. Select **Save**.
 
