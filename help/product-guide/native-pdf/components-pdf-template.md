@@ -203,9 +203,9 @@ The selected file is imported and listed under the Resources folder.
 
 ## Show or hide draft comments in Native PDF output 
 
-Draft comments (`<draft-comment>`) added in a DITA topic are excluded from Native PDF output by default. This is controlled by the `draft-comment` style in the output template's content stylesheet, where the `display` property is set to `none`.
+Draft comments added in a DITA topic are excluded from Native PDF output by default. This is controlled by the `draft-comment` style in the output template's content stylesheet, where the `display` property is set to `none`.
 
-As an administrator, you can update this style so draft comments are visible in the output:
+As an Administrator, you can update this style so draft comments are visible in the output:
 
 1. In the **Output templates** panel, open the template that the map uses for PDF publishing.
 2. Expand **Stylesheets** and double-click **content** to open the content stylesheet.
@@ -221,7 +221,7 @@ As an administrator, you can update this style so draft comments are visible in 
 
 >[!NOTE]
 >
->This style controls whether draft comments are visible in styled content generally. To include draft comments specifically in **Native PDF** output, you must also enable the **Include Draft Comments** option in the Native PDF output preset. For details, view [Native PDF output preset](../web-editor/native-pdf-web-editor.md). Both settings are required together for draft comments to appear in the generated PDF exactly as they appear in the editor.
+>This style controls whether draft comments are visible in styled content generally. To include draft comments specifically in **Native PDF** output, you must also enable the **Include draft comments** option in the Native PDF output preset. For details, view [Native PDF output preset](../web-editor/native-pdf-web-editor.md). Both settings are required together for draft comments to appear in the generated PDF exactly as they appear in the editor.
 
 ## Advanced PDF Settings {#advanced-pdf-settings}
 
