@@ -153,6 +153,12 @@ Before performing steps in this procedure, ensure that you have created the requ
     -   You can select **Create a new multi-lingual translation project** which will include translation jobs for all languages that you have selected for translation. For example, if you have selected French, German, and Spanish it will create a project which contains translation jobs for all three languages.
     -   If you already have a translation project, you can add topics to that project. Select **Add to existing translation project** option from the Project list and choose a project from the Existing Translation Project list. You can sort these projects by most recent, ascending, or descending order.
 
+        >[!NOTE]
+        >
+        > When adding topics to an existing translation project, the request fails with the following message if a sync operation for that project is still in progress: *A previous request for this project is still in progress. Please wait a few minutes before trying again*. To resolve the issue,Retry once the in-progress operation completes.
+
+        
+
     - If you select **Add to existing translation project**, this operation updates the existing asset entry in the project if the asset is already added and the related translation job state is in the *Draft* state.
         - If the destination language is not present in the project, a new project is created for the single-language translation project, and a new job is created for multi-language translation project.
 
@@ -173,6 +179,7 @@ Before performing steps in this procedure, ensure that you have created the requ
 
         ![Enter the existing project path](images/existing-project-path.png){width="650"}
 
+        
 1. In the **Project Title** field, enter a title for the project.
 1. Select **Submit** to create a new translation project.
 
