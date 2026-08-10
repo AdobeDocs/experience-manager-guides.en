@@ -72,7 +72,8 @@ Before performing steps in this procedure, ensure that you have created the requ
 
     >[!IMPORTANT]
     >
-    > You can only select and translate to the languages for which you have created the target folder parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
+    > * You can only select and translate to the languages for which you have created the target folder parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
+    > * If you create the target folder for a language after creating the language group, refresh the browser to enable the language in the language groups. 
 
     
 
@@ -86,7 +87,9 @@ Before performing steps in this procedure, ensure that you have created the requ
 
     >[!NOTE]
     >
-    > If you create the target folder for a language after creating the language group, refresh the browser to enable the language in the language groups.  
+    > If an individual source or destination language copy (file) is moved out of its original language folder into a different folder, the Translation panel reflects this change as follows:
+    > - Destination language copies: If a destination (target) language copy is moved out of its original destination language folder into a different folder, the corresponding asset is displayed as disabled in the Translation panel.
+    > - Source language copies: If a source language copy is moved out of its original source language folder into a different language folder, the corresponding asset is displayed as enabled in the Translation panel, allowing translation to continue as expected.
 
 1. If you choose a particular language, it appears as selected under all language groups you have selected. So, when you translate to any language, it's translated in one go for all the language groups. For example, if German is present in both G1 and G2 language groups, it's selected for both. 
 
