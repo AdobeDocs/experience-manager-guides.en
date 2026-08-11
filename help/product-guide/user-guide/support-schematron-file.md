@@ -191,3 +191,21 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
+
+## Define rules using text-node context
+
+You can define a Schematron rule with a text-node context, for example `context="//text()"`, so that the rule evaluates against text nodes directly instead of requiring you to enumerate every possible DITA element that can contain that text.
+
+For example, the following rule flags straight quotation marks anywhere in the topic text:
+
+```XML
+<sch:pattern id="quotation-marks-straight-v2">
+  <sch:rule context="//text()">
+    <sch:report role="info" test="contains(., '&quot;')">Please use typographic quotes instead of straight quotes.</sch:report>
+  </sch:rule>
+</sch:pattern>
+```
+
+When this rule matches, the validation result points to the exact text node that triggered it, rather than only the enclosing element.
+
+Rules that use an explicit element context, for example `context="//p"`, continue to work as before, and you can still use either approach depending on how precise you want the match and the error location to be.

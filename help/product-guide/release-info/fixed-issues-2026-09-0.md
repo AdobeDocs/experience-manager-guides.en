@@ -31,14 +31,14 @@ Learn about [upgrade instructions for the 2026.09.0 release]().
 - When you generate AEM Sites (with composite component mapping) output with a baseline targeting an older version, the page content correctly shows that older version, but the page metadata shows the current version instead. (GUIDES-49325)
 - When pages are replicated using bulk activation, replication tracking properties are set only on the root page and not on child pages, making it difficult to determine what content changed since the last replication. (GUIDES-37871)
 - When the **Label** field in the Create/Edit Baseline dialog receives focus for the first time, pasting or typing the first character does not filter the autocomplete suggestions correctly, and the field displays all suggestions instead of the filtered results.(GUIDES-50143)
-- Branch filtering generates extra pages for unwanted topics used as keydef( which are marked resource-only ="true" by DITA-OT). (GUIDES-19701)
+- Branch filtering generates extra pages for unwanted topics used as `keydef` (which are marked `resource-only ="true"` by DITA-OT). (GUIDES-19701)
 - The Map Collection enables the **Publish** option for presets that have not yet been generated. (GUIDES-50510)
 - The Publishing history section does not display placeholder text when a newly created map collection has no publishing records. (GUIDES-50366)
 - Applying an ICC color profile on a Native PDF preset causes output generation to fail, and CMYK colors do not render correctly even when a direct profile path is used. (GUIDES-47137) 
 - The bleed setting configured on a Native PDF preset is not reflected in the generated output. (GUIDES-47034) 
 - The **Text before break** field for table continuation only renders the localized string and does not substitute the page number placeholder. (GUIDES-32872) 
 - The ICC profile browser incorrectly displays DITA files instead of showing only ICC files. (GUIDES-25017) 
-- Draft comments not being rendered in Native PDF output. (GUIDES-47044) 
+- Draft comments are not being rendered in the Native PDF output. (GUIDES-47044) 
 - A draft comment placed inside a `title` element appears unexpectedly in published output. (GUIDES-10686) 
 
 ## Translation
