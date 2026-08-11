@@ -181,6 +181,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
+## Prevent content overwrite during concurrent editing
+
+>[!NOTE]
+>
+> Enable the **Disable edit without locking the file** setting from the ConfigMgr for this functionality. 
+
+When two authors work on the same DITA topic at the same time, edits made on top of an outdated copy can unknowingly overwrite another author's changes. To prevent this, selecting **Lock** on a topic triggers a check for a newer, persisted version on the server; if one exists, the Editor automatically refreshes to load that latest content before you start editing, so your changes always build on the most current version rather than a stale copy. 
+
 ## Locate an open file in the Explorer
 
 While you open a file in the Editor, Experience Manager Guides provides the feature to locate the file in the Explorer. For example, it locates the current topic while you are editing it. 
