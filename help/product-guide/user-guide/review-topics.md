@@ -72,7 +72,7 @@ Perform the following steps to review a topic:
         Select  ![](images/view-options.svg) near the search bar to  choose to view all topics or view topics with comments. By default, you can view all topics present in the review task.
  
 
-    -   **D**: The numbers highlighted by ***F*** can be filtered by choosing the desired filter option from here. You can filter comments by its type, status, reviewer, or version. For example, if you want to view how many Strikethrough comments have been made in each of the under review topic, select the filter icon and then choose **Review Type** \> **Deletion**.
+    -   **D**: The numbers highlighted by ***E*** can be filtered by choosing the desired filter option from here. You can filter comments by its type, status, reviewer, or version. For example, if you want to view how many Strikethrough comments have been made in each of the under review topic, select the filter icon and then choose **Review Type** \> **Deletion**.
 
         >[!NOTE]
         >
@@ -84,7 +84,7 @@ Perform the following steps to review a topic:
     -   **G**: Number of comments received on a topic. This number changes based on the filter that you apply.
 
     
-    All topics in the map are shown as a single composite document. The topics that the reviewer is allowed to review are shown normally. The topics that the review is not allowed to review are not shown.
+    All topics in the map are shown as a single composite document. The topics that the reviewer is allowed to review are shown normally. The topics that the reviewer is not allowed to review are shown as disabled.
 
     ![](images/review-read-only.png)
 
@@ -108,6 +108,79 @@ Perform the following steps to review a topic:
     > The Comments panel shows the comments given on the current topics only. When you move focus to other topic, the comments given on the other topic are shown.
 
 1.  Select **Close** button once you complete reviewing the topic. On selecting the **Close** button, you will be redirected to the page from where you accessed the review topic.
+
+        
+   
+## Mark individual topics as done in a review task
+
+> [!NOTE]
+>
+> This feature is enabled by default starting with the **2026.09.0 release** of Experience Manager Guides as a Cloud Service. If you prefer to switch to the previous behavior, contact your Customer Success team to disable this feature for your environment.
+
+If a review task contains a large number of topics, you might not be able to review all of them in a single session. For example, if you're assigned a review task with around 50 topics, keeping track of the topics you've already reviewed and those that still need your attention can become difficult when you return to the task.
+
+The **Mark topic as done** feature lets you mark individual topics as done as you review them. This makes it easier to identify the topics you've already covered and focus on the topics that are still pending.
+
+Perform the following steps to mark individual topics as done in a review task:
+
+1. Open the review task assigned to you.
+
+2. In the Review UI, open the topics assigned to you from the **Topics** panel, or switch to **Document view** to view all the topics together as a composite document.
+
+3. Each topic is displayed in an accordion with a **Mark topic as done** checkbox, as shown below.
+
+   > [!NOTE]
+   >
+   > Topics included in the review task but not assigned to you are disabled and can't be marked as done.
+
+   **Topics panel view:**
+
+   ![](images/topics-panel-view-mark-topic-as-done.png)
+
+   **Document view:**
+
+   ![](images/document-view-mark-topic-as-done.png)
+
+4. Review a topic and add comments or feedback as required.
+
+5. After you finish reviewing the topic, select the **Mark topic as done** checkbox.
+
+   The topic accordion automatically collapses. You can reopen the accordion at any time before completing the review task. If you need to add further comments, clear the **Mark topic as done** checkbox, add your comments, and then select the checkbox again when you've finished reviewing the topic.
+
+   > [!NOTE]
+    >
+    > Whether the **Mark topic as done** checkbox is selected or unselected depends on who is reviewing the topic and the version being reviewed:
+    >
+    > - **When multiple reviewers are assigned:** Your checkbox selection applies only to you. If you select **Mark topic as done**, the checkbox remains unchanged for other reviewers assigned to the same topic.
+    > - **When the topic version changes:** Your checkbox selection applies only to the version you reviewed. If you select **Mark topic as done** for version 1.0 and the Author changes the topic to version 1.1, the checkbox is reset for you. If the Author later switches back to version 1.0, the checkbox remains unselected.
+
+6. Repeat the previous steps for the other topics you've finished reviewing.
+
+    ![](images/mark-topics-done-all.png)
+
+   The following visual indicators in the Review UI help you track your progress:
+
+   - A **green dot** appears next to a topic in the **Topics** panel when you've marked it as done.
+
+        ![](images/topics-done-green-dot-topics-panel.png)
+
+   - The **Topics reviewed** indicator shows the number of topics you've marked as done out of the total number of topics assigned to you.
+
+        ![](images/topics-reviewed-count-review-ui.png) 
+
+   > [!NOTE]
+   >
+   > The **Mark topic as done** checkbox, green dot indicator, and **Topics reviewed** indicator are visible only to users who can mark topics or review tasks as done. Authors and administrators with view-only access to the review task don't see these options or indicators.
+
+7. After you've finished reviewing the topics that you want to submit to the author or task initiator, select **Complete review task**.
+
+8. In the **Complete review task** dialog, add a comment and select **Complete** to confirm the action.
+
+      Consider the following points when marking topics as done:
+
+   - The **Mark topic as done** checkbox is specific to each reviewer. If multiple reviewers are assigned to the same topic, selecting the checkbox for one reviewer doesn't select it for the other reviewers.
+
+   - The **Mark topic as done** checkbox is reset when the topic version changes. For example, if you select the checkbox for version 1.0 and the author changes the topic to version 1.1, the checkbox is reset for the topic. If the author later switches the topic back to version 1.0, the checkbox remains unselected.
 
 ## Additional features available on the review screen 
 

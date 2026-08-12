@@ -21,6 +21,10 @@ topic_v2:
 
 As a Reviewer, you can mark a review task as complete once you have reviewed all the content and want to notify the Author. You can also leave any final comments at this stage.
 
+> [!NOTE]
+>
+> Starting with the **2026.09.0 release** of Experience Manager Guides as a Cloud Service, the **Mark as done** button is renamed to **Complete review task**, along with additional features in the Review UI to help reviewers track their review progress. For more details, view [Mark individual topics as done](review-topics.md#mark-individual-topics-as-done-in-a-review-task). The steps to complete a review task remain the same.
+
 Perform the following steps to complete a review task:
 
 1. Open the review task assigned to you.
