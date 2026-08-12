@@ -177,7 +177,7 @@ To insert a language variable like your `copyright-label` in the header area, pe
  
  *The `copyright-label` added in the header area.*
 
-Once inserted, a language variable's value in the generated output depends on the language configured in the output preset. If your map already has a language defined using the `xml:lang` attribute, and you want the template to use that same language, ensure that **Use map language** option is selected in the output preset instead of selecting a language explicitly. View [Language resolution for DITA content vs. output template variables](#language-resolution-for-dita-content-vs-output-template-variables) to learn how a language is resolved based on the type of content it belong to. 
+Once inserted, a language variable's value in the generated output depends on the language configured in the output preset. If your map already has a language defined using the `xml:lang` attribute, and you want the template to use that same language, ensure that the **Use map language** option is selected in the output preset instead of selecting a language explicitly. View [Language resolution for DITA content vs. output template variables](#language-resolution-for-dita-content-vs-output-template-variables) to learn how a language how a language resolves based on its content type.
 
 ###  Language resolution for DITA content vs. output template variables
 

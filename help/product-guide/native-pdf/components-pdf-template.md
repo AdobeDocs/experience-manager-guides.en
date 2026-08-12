@@ -215,7 +215,7 @@ As an Administrator, you can update this style so draft comments are visible in 
 
 4. In the **Properties** panel, change the value of the **display** property from `none` to a visible value (such as `block`, `inline-block`, `grid`, and more).
 
-    ![Configure draft-comment propert in content stylesheet](./assets/draft-comment-setting.png)
+    ![Configure draft-comment property in content stylesheet](./assets/draft-comment-setting.png)
 
 5. Save the stylesheet.
 
