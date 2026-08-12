@@ -109,13 +109,11 @@ Perform the following steps to review a topic:
 
 1.  Select **Close** button once you complete reviewing the topic. On selecting the **Close** button, you will be redirected to the page from where you accessed the review topic.
 
-        
-   
 ## Mark individual topics as done in a review task
 
 > [!NOTE]
 >
-> This feature is enabled by default starting with the **2026.09.0 release** of Experience Manager Guides as a Cloud Service. If you prefer to switch to the previous behavior, contact your Customer Success team to disable this feature for your environment.
+> This feature is enabled by default starting with the 2026.09.0 release of Experience Manager Guides as a Cloud Service. If you prefer to switch to the previous behavior, contact your Customer Success team to disable this feature for your environment.
 
 If a review task contains a large number of topics, you might not be able to review all of them in a single session. For example, if you're assigned a review task with around 50 topics, keeping track of the topics you've already reviewed and those that still need your attention can become difficult when you return to the task.
 
@@ -176,12 +174,7 @@ Perform the following steps to mark individual topics as done in a review task:
 
 8. In the **Complete review task** dialog, add a comment and select **Complete** to confirm the action.
 
-      Consider the following points when marking topics as done:
-
-   - The **Mark topic as done** checkbox is specific to each reviewer. If multiple reviewers are assigned to the same topic, selecting the checkbox for one reviewer doesn't select it for the other reviewers.
-
-   - The **Mark topic as done** checkbox is reset when the topic version changes. For example, if you select the checkbox for version 1.0 and the author changes the topic to version 1.1, the checkbox is reset for the topic. If the author later switches the topic back to version 1.0, the checkbox remains unselected.
-
+      
 ## Additional features available on the review screen 
 
 ### Document view and topic view
