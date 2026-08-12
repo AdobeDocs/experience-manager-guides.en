@@ -117,15 +117,15 @@ Perform the following steps to review a topic:
 
 If a review task contains a large number of topics, you might not be able to review all of them in a single session. For example, if you're assigned a review task with around 50 topics, keeping track of the topics you've already reviewed and those that still need your attention can become difficult when you return to the task.
 
-The **Mark topic as done** feature lets you mark individual topics as done as you review them. This makes it easier to identify the topics you've already covered and focus on the topics that are still pending.
+The **Mark topic as done** feature allows you to mark individual topics as done as you review them. This makes it easier to identify the topics you've already covered and focus on the topics that are still pending.
 
 Perform the following steps to mark individual topics as done in a review task:
 
 1. Open the review task assigned to you.
 
-2. In the Review UI, open the topics assigned to you from the **Topics** panel, or switch to **Document view** to view all the topics together as a composite document.
+1. In the Review UI, open the topics assigned to you from the **Topics** panel, or switch to **Document view** to view all the topics together as a composite document.
 
-3. Each topic is displayed in an accordion with a **Mark topic as done** checkbox, as shown below.
+1. Each topic is displayed in an accordion with a **Mark topic as done** checkbox, as shown below.
 
    > [!NOTE]
    >
@@ -139,9 +139,9 @@ Perform the following steps to mark individual topics as done in a review task:
 
    ![](images/document-view-mark-topic-as-done.png)
 
-4. Review a topic and add comments or feedback as required.
+1. Review a topic and add comments or feedback as required.
 
-5. After you finish reviewing the topic, select the **Mark topic as done** checkbox.
+1. After you finish reviewing the topic, select the **Mark topic as done** checkbox.
 
    The topic accordion automatically collapses. You can reopen the accordion at any time before completing the review task. If you need to add further comments, clear the **Mark topic as done** checkbox, add your comments, and then select the checkbox again when you've finished reviewing the topic.
 
@@ -152,7 +152,11 @@ Perform the following steps to mark individual topics as done in a review task:
     > - **When multiple reviewers are assigned:** Your checkbox selection applies only to you. If you select **Mark topic as done**, the checkbox remains unchanged for other reviewers assigned to the same topic.
     > - **When the topic version changes:** Your checkbox selection applies only to the version you reviewed. If you select **Mark topic as done** for version 1.0 and the Author changes the topic to version 1.1, the checkbox is reset for you. If the Author later switches back to version 1.0, the checkbox remains unselected.
 
-6. Repeat the previous steps for the other topics you've finished reviewing.
+1. Repeat the previous steps for the other topics you've finished reviewing.
+   
+    > [!NOTE]
+    >
+    > Marking individual topics as done helps you track your review progress and isn't required to complete the review task. You can complete the review task even if some topics aren't marked as done.
 
     ![](images/mark-topics-done-all.png)
 
@@ -170,11 +174,11 @@ Perform the following steps to mark individual topics as done in a review task:
    >
    > The **Mark topic as done** checkbox, green dot indicator, and **Topics reviewed** indicator are visible only to users who can mark topics or review tasks as done. Authors and administrators with view-only access to the review task don't see these options or indicators.
 
-7. After you've finished reviewing the topics that you want to submit to the author or task initiator, select **Complete review task**.
+1. After you've finished reviewing the topics that you want to submit to the Author or task initiator, select **Complete review task**.   
 
-8. In the **Complete review task** dialog, add a comment and select **Complete** to confirm the action.
+1. In the **Complete review task** dialog, add a comment and select **Complete** to confirm the action.
 
-      
+         
 ## Additional features available on the review screen 
 
 ### Document view and topic view
