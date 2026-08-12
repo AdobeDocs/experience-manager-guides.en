@@ -90,6 +90,7 @@ Adobe has identified the following known issues for the 2026.08.0 release:
 - A MathML equation wrapped inside a `foreign` and `equation` block results in unwanted spacing, and typing inside the equation causes issues even after adjusting indentation. (GUIDES-46606)
 - Unable to place a cursor inside a `topicref` within a `reltable` when the **Show tags** option is enabled and the **Display attributes** option is disabled in the Editor settings. (GUIDES-46565) 
 - Dragging and dropping a reference into an empty `keydef` adds a `topicref` element instead of updating the reference. (GUIDES-45068)
+- Whitespace entered immediately before an inline tag within a table cell `<entry>` is deleted. (GUIDES-49144)
 
 ## Publishing
 
