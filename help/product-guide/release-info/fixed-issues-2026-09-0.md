@@ -8,16 +8,18 @@ Learn about [upgrade instructions for the 2026.09.0 release]().
 
 ## Editor 2.0
 
-- Copying and pasting a table in Author view removes the column width values, causing all columns to revert to their default width settings. (GUIDES-52916)
+- Copying a table from Author mode and pasting it into Author mode removes attributes such as `colwidth` and any other attributes defined on `colspec`, causing the column width settings to be lost. (GUIDES-52916)
 - Whitespace entered immediately before an inline tag within a table cell `<entry>` is deleted. (GUIDES-49144)
-- Inserting a cross-reference using the **Web link** option adds a `scope=local` link and modifies the `href` value, instead of inserting an `scope=external` as expected. (GUIDES-48457)
-- Saving a referencing map results in a broken reference instead of resolving to the correct map when one author moves the referenced map while another author is concurrently adding a reference to it in an unsaved map. (GUIDES-47467)
 
 ## Authoring
+
+This section covers the bugs fixed in the Authoring that are common to both Editor 1.0 and Editor 2.0.
 
 - Inserting a root map-defined keyword from a referencing topic inserts an empty keyword element instead of displaying the keyword selection dialog. (GUIDES-48304)
 - Saving a topic when Schematron validation is configured with an empty rule file shows an inaccurate, generic error message. (GUIDES-48106)
 - Schematron rules using a text-node context does not trigger validation. (GUIDES-14500)
+- Inserting a cross-reference using the **Web link** option adds a `scope=local` link and modifies the `href` value, instead of inserting an `scope=external` as expected. (GUIDES-48457)
+- Saving a referencing map results in a broken reference instead of resolving to the correct map when one author moves the referenced map while another author is concurrently adding a reference to it in an unsaved map. (GUIDES-47467)
 
 ## Asset management
 

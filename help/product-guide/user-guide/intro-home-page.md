@@ -202,6 +202,7 @@ The User preferences are available to all authors. Using the preferences, you ca
     
     - **Always locate files in the explorer**: Select this option to show the location of a file in the repository while editing it in the Editor.
 
-  >[!NOTE]
-  >
-  >From 2025.11.0 release for Cloud service and from 5.2.0 release for On-premise, the setting **Always locate files in the repository** is renamed to **Always locate files in the explorer**. For On-Premise setup prior to 5.2 release , it continues to be available as Always locate files in the repository.
+      >[!NOTE]
+      >
+      > - From 2025.11.0 release for Cloud service and from 5.2.0 release for On-premise, the setting **Always locate files in the repository** is renamed to **Always locate files in the explorer**. For On-Premise setup prior to 5.2 release , it continues to be available as Always locate files in the repository.
+      > - When `ENABLE_LOADFILES_PAGINATION` is enabled, automatic file location is disabled and the **Always locate files in explorer/repository** option is hidden. To locate a file, select Locate in Explorer/Repository from the context menu in Editor.
