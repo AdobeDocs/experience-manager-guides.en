@@ -9,7 +9,7 @@ Learn about [upgrade instructions for the 2026.09.0 release]().
 ## Editor 2.0
 
 - Copying and pasting a table in Author view removes the column width values, causing all columns to revert to their default width settings. (GUIDES-52916)
-- An edit or refresh removes whitespace immediately before an inline tag inside a table cell, causing the preceding text and the tag to run together in the Editor and in generated output. (GUIDES-49144)
+- Whitespace entered immediately before an inline tag within a table cell `<entry>` is deleted. (GUIDES-49144)
 - Inserting a cross-reference using the **Web link** option adds a `scope=local` link and modifies the `href` value, instead of inserting an `scope=external` as expected. (GUIDES-48457)
 - Saving a referencing map results in a broken reference instead of resolving to the correct map when one author moves the referenced map while another author is concurrently adding a reference to it in an unsaved map. (GUIDES-47467)
 
@@ -58,3 +58,5 @@ Learn about [upgrade instructions for the 2026.09.0 release]().
 ## Learning content
 
 - When a new learning topic is created using a HTML or learning template with a custom header, the topic title doesn’t appear in the custom header (GUIDES-52343)
+- The calculated accuracy percentage for a course quiz differs slightly from the expected value. (GUIDES-52346)
+- For a course, when attempting a quiz, the marks scored differs slightly from the expected calculated score. (GUIDES-52345)
