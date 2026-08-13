@@ -15,3 +15,4 @@ Use the instructions given in [Configuration overrides](../install-conf-guide/do
 | PID | Property Key | Property Value |
 |-----|--------------|----------------|
 | `com.adobe.fmdita.publish.config.GuidesPublishConfiguratorService` | `guides.publish.config` | `{"PDF_ENGINE": "v2"}` <br> Default value: `v1`|
+
