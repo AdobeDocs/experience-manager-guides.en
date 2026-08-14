@@ -69,6 +69,10 @@ Perform the following steps to create a topic from the Editor:
     
 The topic is created at the specified path. Also, the topic is opened in the Editor for editing. 
 
+>[!NOTE]
+>
+>When the `ENABLE_LOADFILES_PAGINATION` setting is enabled, newly created topics are added at the top of the folder in the Explorer panel without a full folder refresh.
+
 >[!BEGINTABS]
 
 >[!TAB New Editor]
