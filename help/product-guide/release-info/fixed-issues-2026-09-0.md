@@ -51,7 +51,7 @@ This section covers the bugs fixed in the Authoring that are common to both Edit
 
 ## Baseline
 
-- After an author selects and saves a baseline for publishing on a preset in the Map Dashboard or Map Console, refreshing the page does not retain the selected baseline, and the UI incorrectly displays *No baseline used*. (GUIDES-52690)
+- A preset’s saved baseline selection incorrectly displays as *No Baseline* after the baseline is deleted or while a dynamic baseline is still being created. (GUIDES-52690)
 
 ## Review
 
