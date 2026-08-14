@@ -15,7 +15,7 @@ Learn about [upgrade instructions for the 2026.09.0 release]().
 
 This section covers the bugs fixed in the Authoring that are common to both Editor 1.0 and Editor 2.0.
 
-- Inserting a root map-defined keyword from a referencing topic inserts an empty keyword element instead of displaying the keyword selection dialog. (GUIDES-48304)
+- On low-resolution screens, the Insert Keyword dialog fails to appear when inserting a keyword from the toolbar, while it opens as expected when using **More** option. (GUIDES-48304)
 - Saving a topic when Schematron validation is configured with an empty rule file shows an inaccurate, generic error message. (GUIDES-48106)
 - Schematron rules using a text-node context does not trigger validation. (GUIDES-14500)
 - Inserting a cross-reference using the **Web link** option adds a `scope=local` link and modifies the `href` value, instead of inserting an `scope=external` as expected. (GUIDES-48457)
@@ -26,7 +26,7 @@ This section covers the bugs fixed in the Authoring that are common to both Edit
 - The asset status API does not return the correct status for assets whose path contains a comma. (GUIDES-49065)
 - The DITA element filter in the Assets Admin Search Rail does not apply the entered value, so search results are not filtered. (GUIDES-48450)
 - The version purge utility fails to complete in several scenarios, including certain file types, assets with missing metadata, and large reports, instead of completing the purge and generating an accurate report. (GUIDES-43453)
-- Renaming an asset to another unique identifier through the move operation causes the identifier shown in the Editor and in the Assets UI to no longer match the identifier stored with the asset. (GUIDES-43006)
+- Renaming an asset with a GUID-based filename to a different GUID using the Move operation in the Assets UI replaces the asset’s original unique GUID with the new GUID. (GUIDES-43006)
 
 ## Publishing
 
@@ -47,7 +47,7 @@ This section covers the bugs fixed in the Authoring that are common to both Edit
 
 - Starting a translation using an XLIFF project creates an empty project that never moves to an in-progress state. (GUIDES-51759)
 - Moving content from one language folder to another using the assets move operation prevents authors from selecting that content for translation in the Translation panel. (GUIDES-49386)
-- Adding a translation sync to an existing project while another language sync for the same project is still in progress can prevent the system from creating jobs for some requested languages, without indicating that those languages were dropped. (GUIDES-49354)
+- Sending assets for translation using the **Add to existing translation project** option while another translation request (either a new project creation or an *Add to existing* request) for the same project is still processing results in a conflict. (GUIDES-49354)
 
 ## Baseline
 
