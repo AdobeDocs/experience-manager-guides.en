@@ -178,11 +178,73 @@ Protect your PDF by adding restrictions to open and read the file. Use the below
 
 **Print**
 
+NOTE
+
+Starting with the Experience Manager Guides 5.0/2025.02.0 release, the Print section is now part of the **Native PDF Output preset**. For the existing templates with saved Print settings, the Print data will remain intact but will no longer appear in the UI or apply during output. To continue using these settings, you must reconfigure them within the Native PDF Output preset.
+
+Configure the print production settings to assign printer marks, define page boxes, and set color and ICC profile options for your PDF output. The Print tab is organized into three sections, in order: **Printer Marks**, **Page Boxes**, and **Color & ICC**.
+
+**Printer Marks**
+
+When you prepare a document for print production, printer marks are added to the page boundaries to assist in proper alignment, trimming, and color selection during printing. By selecting a printer mark, the page boundary is extended to accommodate the mark, which is trimmed during print.
+
+Setting | Description
+--- | ---
+**All Printer's Marks** | Turn on to enable all the printer marks below (Trim Marks, Bleed Marks, Registration Marks, and Color Bars) together. Turning any individual mark on or off updates this master toggle's state to match, and the correct state is retained the next time you reopen the preset.
+**Trim Marks** | Select to place a mark at each corner of the trim area to indicate where the paper needs to be trimmed after printing.
+**Bleed Marks** | Select to place a mark at each corner of the bleed box to indicate the trim area for the extended image.
+**Registration Marks** | Select to place a mark outside the crop area for aligning the different separations in a color document.
+**Color Bars** | Select to add a strip of colors outside the trim area to maintain color consistency and adjust ink density when printing.
+**Line Width** | Specify the width of the line used to draw the selected printer marks. The value increments in steps of 0.25 pt.
+**Line Color** | Specify the color of the line used to draw the selected printer marks.
+
+NOTE
+
+Line Width and Line Color have no default value auto-filled. Leaving either field empty means the setting is treated as not set.
+
+**Page Boxes**
+
+Use this section to define the overall page size and the bleed area for your PDF output. The fields appear in this order: **Media Box Size**, **Bleed Box Width**.
+
+Setting | Description
+--- | ---
+**Media Box Size** | The overall page size, including the extended area occupied by printer marks. Choose **Auto**, one of the named standard sizes (the RA and SRA series), or **Custom**. Selecting **Custom** reveals separate **Width** and **Height** fields for entering your own page dimensions.
+**Bleed Box Width** | Specify the width of the bleed box — the area extending beyond the trim box that accommodates bleed marks and any imagery that extends past the trim line.
+
+NOTE
+
+Media Box Size and Bleed Box Width have no default value auto-filled; an empty field is treated as not set. There is no size validation on these fields — you can enter any values, and no warning is shown even if the box sizes don't nest correctly (for example, if the bleed box is smaller than the trim area). Review your entries carefully before generating output.
+
+**Color & ICC**
+
+Use this section to choose a color space for printing and, optionally, manage color accuracy across devices using an ICC profile.
+
+Setting | Description
+--- | ---
+**Color Space** | Choose from **RGB** or **CMYK** color spaces to print your PDF document. Choose RGB to display the generated PDF digitally, and CMYK for physical printing. Both options are presented the same way in the UI.
+**Convert Colors** | Turn on to convert colors defined in the document to the color space selected above. This option is turned on by default. Enabling it makes the **Rendering Intent** field available.
+**Rendering Intent** | Available only when **Convert Colors** is turned on. Select the rendering intent to use when converting colors to the target color space:<br>- **Default**: No explicit rendering intent is applied to the output.<br>- **Perceptual**: Preserves the visual relationship between colors so the conversion appears natural to the eye, at the cost of exact color accuracy. Suited for photographic or image-heavy content.<br>- **Relative Colorimetric**: Preserves color accuracy for colors that fall within both the source and target color spaces, and adjusts out-of-range colors to the nearest reproducible color. Suited for content where color fidelity matters more than preserving visual relationships.
+**Identifier Name** | Enter a name to identify the ICC profile you are using with this preset. This is a free-text field and does not offer a list of predefined color-standard profiles to choose from.
+**Browse Profile** | Specify the path to the ICC profile file (`.icc` or `.icm`) on your server. The file picker is pre-filtered to these ICC profile file types. This field is only usable when **Use URL for Profile** is turned off.
+**Use URL for Profile** | Turned off by default. Turn on if the ICC profile is hosted online instead of available as a local file. Turning this on disables the **Browse Profile** field and reveals a **URL for profile** field where you can enter the profile's URL instead.
+**URL for profile** | Available only when **Use URL for Profile** is turned on. Enter the URL where the ICC profile is hosted.
+
+NOTE
+
+- An ICC color profile is necessary for PDF/A creation if using the CMYK color space.
+- Selecting **CMYK** as the Color Space automatically turns **Convert Colors** on.
+- If you're using **Relative Colorimetric** as the rendering intent, this requires Java 20 or later on the underlying PDF engine to take effect.
+- The **URL for profile** field is validated for a well-formed URL. If an invalid URL is entered, it is rejected and the field is cleared — it cannot be saved with the preset.
+- If a preset (for example, one upgraded from an earlier release) has both a Browse Profile file path and a URL for profile saved, the **file path takes precedence** and is used over the URL.
+- This feature works on **PDFReactor 12**. If your output is generated using **PDFReactor 11**, publishing does not break, but these Color & ICC settings are not applied — output is generated as it was prior to this update.
+
+**Print**
+
 >[!NOTE]
 >
 > Starting with the Experience Manager Guides 5.0/2025.02.0 release, the Print section is now part of the **Native PDF Output preset**. For the existing templates with saved Print settings, the Print data will remain intact but will no longer appear in the UI or apply during output. To continue using these settings, you must reconfigure them within the Native PDF Output preset.
 
-Configure the print production settings to assign printer marks, select color models, and specify properties related to printing of your PDF output.
+Configure the print production settings to assign printer marks, define page boxes, and set color and ICC profile options for your PDF output. The Print tab is organized into three sections: Printer Marks, Page Boxes, and Color & ICC.
 
 * **Printer Marks**: When you prepare a document for print production, printer marks are added to the page boundaries to assist in proper alignment, trimming, and color selection during printing. By selecting a printer mark, the page boundary is extended to accommodate the mark, which are trimmed during print. You can choose to display the following printer marks in your PDF output:
    * **Trim Marks**: Select the option to place a mark at each corner of the trim area to indicate where the paper needs to be trimmed after printing.
