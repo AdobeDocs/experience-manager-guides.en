@@ -62,3 +62,16 @@ This section covers the bugs fixed in the Authoring that are common to both Edit
 - When a new learning topic is created using a HTML or learning template with a custom header, the topic title doesn’t appear in the custom header (GUIDES-52343)
 - The calculated accuracy percentage for a course quiz differs slightly from the expected value. (GUIDES-52346)
 - For a course, when attempting a quiz, the marks scored differs slightly from the expected calculated score. (GUIDES-52345)
+
+
+# Known issues
+
+Adobe has identified the following known issues for the 2026.09.0 release:
+
+## Editor 2.0
+
+- After a map with an existing baseline is moved to a different folder, the baseline preview toggle remains selected in Preview mode, but the baseline no longer appears in the preview list. (GUIDES-54284)
+- Changing the document state on a topic that is already checked out refreshes the full document from top to bottom, which did not occur previously. (GUIDES-53905)
+- On a freshly configured Cloud Service environment, attempting to create a map or topic file results in a *Failed to create file* error, and creating a DITAVAL file completes but displays *Error retrieving the DTD rule*. (GUIDES-53904)
+- When a map containing a `keydef` without an `href` is previewed with a Preview using baseline option enabled, the `keydef` does not resolve. (GUIDES-53878)
+- Hotspot regions configured on an image map asset are not interactive in Preview mode; preventing authors from validating hotspot links before publishing. (GUIDES-53398)
