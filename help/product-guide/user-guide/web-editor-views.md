@@ -121,6 +121,30 @@ Side-by-side view allows you to view and work in the Author and Source views sim
 
 Opening a topic in the Preview mode shows how a topic will be displayed when it is viewed by a user in their browser. In case of a DITA map, a preview of the map is shown wherein a single composite document of all topics within the map is shown.
 
+NOTE
+This functionality is currently available behind a feature flag and may not be enabled by default in your environment. Contact your administrator to have it enabled.
+
+### Preview using baselines
+
+>[!NOTE]
+>
+>Contact your Customer Success Team to enbable this feature in your environment.
+
+Preview mode by default displays the current working copy of a topic or map. If a map has one or more manual baselines, you can use the **Preview using baselines** toggle to instead preview the map as it existed at a specific baseline version.
+
+![](images/preview-baseline.png){width="650"}
+
+When you select a baseline from the drop-down list, the preview resolves all associated topics, assets, images, and references based on the selected baseline instead of the current working copy. This provides an accurate representation of the map content at the time the baseline was created.
+
+For example, if an image was replaced after a baseline was created, previewing that baseline displays the version of the image associated with the baseline, rather than the image from the current working copy.
+
+When you open Preview mode, a Loading preview indicator is displayed while the initial set of topics are rendered. Preview does not refresh automatically when you edit a topic or switch between versions. To view the updated content, manually refresh the preview or close and reopen the topic or map.
+
+**Limitations**
+
+-  If you move an asset while in Preview mode, the updated path is not reflected for DITA-OT (DB) servers, which can result in an empty baseline list; closing and reopening the map resolves this.
+- For DITA-OT (DB) servers, key definitions that do not specify `href` attribute does not resolve in baseline preview.
+
 The Preview mode gives you the following functionalities:
 
 * [View content based on conditional filters](#id2114BI00VXA)
@@ -186,6 +210,5 @@ To export a topic as PDF, follow these steps:
     > Ensure that you have enabled the pop-up window in the browser configuration, else the PDF will not get downloaded.
 
     The PDF is generated and opened in a new tab or you are shown a dialog to save the PDF on your local system.
-
-
+    
 **Parent topic:**[Introduction to the Editor](web-editor.md)
