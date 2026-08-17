@@ -349,7 +349,7 @@ With this feature, the existing structure or hierarchy of the map content is dis
 
 By default, all maps, submaps, and topics in the hierarchy are selected. As an Author or initiator of the review task, you can select or unselect individual topics or complete submaps based on the content that you want to send for review. Unselecting a submap also unselects all the topics within it.
 
-When only some topics within a submap are selected, the checkbox for the submap changes to an indeterminate state to indicate partial selection. This selection state is reflected in both the **Content** and **Reviewers** tabs, ensuring that the selected content remains consistent across the review workflow.
+When only some topics within a submap are selected, the checkbox for the submap changes to an indeterminate state to indicate partial selection. This selection state is reflected in both the **Content** and **Reviewers** pages, ensuring that the selected content remains consistent across the review workflow.
 
 ![](./images/review-partial-selection-submap.png)
 
