@@ -121,10 +121,15 @@ Side-by-side view allows you to view and work in the Author and Source views sim
 
 Opening a topic in the Preview mode shows how a topic will be displayed when it is viewed by a user in their browser. In case of a DITA map, a preview of the map is shown wherein a single composite document of all topics within the map is shown.
 
-NOTE
-This functionality is currently available behind a feature flag and may not be enabled by default in your environment. Contact your administrator to have it enabled.
+The Preview mode gives you the following functionalities:
 
-### Preview using baselines
+* [Preview content using baseline](#preview-content-using-baseline)
+* [View content based on conditional filters](#id2114BI00VXA)
+* [View the track changes markups](#id2114BJ00CE8)
+* [Export a topic as PDF](#id2114BL00B5U)
+
+
+### Preview content using baseline
 
 >[!NOTE]
 >
@@ -138,18 +143,13 @@ When you select a baseline from the drop-down list, the preview resolves all ass
 
 For example, if an image was replaced after a baseline was created, previewing that baseline displays the version of the image associated with the baseline, rather than the image from the current working copy.
 
-When you open Preview mode, a Loading preview indicator is displayed while the initial set of topics are rendered. Preview does not refresh automatically when you edit a topic or switch between versions. To view the updated content, manually refresh the preview or close and reopen the topic or map.
+Preview mode shows a loading preview indicator while it renders the initial set of topics. It does not update automatically after you edit a topic or switch versions. To see the latest content, refresh the preview manually, or close and reopen the topic or map.
 
 **Limitations**
 
--  If you move an asset while in Preview mode, the updated path is not reflected for DITA-OT (DB) servers, which can result in an empty baseline list; closing and reopening the map resolves this.
-- For DITA-OT (DB) servers, key definitions that do not specify `href` attribute does not resolve in baseline preview.
+-  When a baseline is created for a map and the map is later moved to a different folder, the baseline does not appear in the preview list, even though the baseline preview toggle is already enabled.
+- When previewing a map with baseline preview enabled, a keydef without an href is not resolved.
 
-The Preview mode gives you the following functionalities:
-
-* [View content based on conditional filters](#id2114BI00VXA)
-* [View the track changes markups](#id2114BJ00CE8)
-* [Export a topic as PDF](#id2114BL00B5U)
 
 ### View content based on conditional filters {#id2114BI00VXA}
 
