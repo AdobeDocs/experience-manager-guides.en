@@ -338,7 +338,7 @@ An email is sent to all the reviewers, notifying that they have been assigned to
 >
 > This feature is disabled by default. To enable it in your environment, contact your Customer Success team.
 
-With this feature, the existing structure or hierarchy of the map content is displayed on the **Content** and **Reviewers** pages. Instead of displaying all the topics in a map as a flat list, the map and its submaps are displayed in their actual hierarchy for better reference while selecting content for review.
+With this feature, the existing structure or hierarchy of the map content is displayed on the **Content** page. Instead of displaying all the topics in a map as a flat list, the map and its submaps are displayed in their actual hierarchy for better reference while selecting content for review.
 
 ![](./images/review-map-hierarchy.png)
 
