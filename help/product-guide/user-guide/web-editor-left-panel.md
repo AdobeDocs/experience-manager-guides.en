@@ -85,6 +85,11 @@ The detailed explanation of the left panel features is as follows:
 
 ## Collections 
 
+>[!NOTE]
+>
+>Starting with 2026.09.0, Collecttion uses a new paginated API to improve performance and reduce load times for large folders. This setting is enabled by default. To disable it, contact your Customer Success Team. 
+> When this feature enabled, the folder contents load in batches of 50 items, with a **Load More** button to fetch the next 50. Newly added files appear at the top of the folder without a full refresh.
+
 If you work on a set of files or folders, you can add them to your favorite list to access them quickly. **Collections** show the list of documents that you have added and other publicly accessible list of documents from the other users. 
 
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.
@@ -508,6 +513,12 @@ Explorer provides most of the capabilities previously available in Repository, i
 - Options menu for files and folders
 
 But, it introduces an enhanced Search and filtering experience, designed to improve usability and efficiency. 
+
+>[!NOTE]
+>
+>Starting with 2026.09.0, Explorer uses a new paginated API to improve performance and reduce load times for large folders. This setting is enabled by default. To disable it, contact your Customer Success Team. When enabled:
+> * Parent folder: Files and folders load using infinite scrolling. The first 50 items are loaded initially, with additional items fetched automatically as you scroll.
+> * Child folders: Expanding a folder loads the first 50 items. If additional items are available, a Load More button appears. Select it to load the next 50 items, and repeat as needed.
 
 For detailed information on the context menu for files and folders, view [Options menu](#options-menu).
 
