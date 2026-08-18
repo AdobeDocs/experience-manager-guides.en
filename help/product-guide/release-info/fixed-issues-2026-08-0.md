@@ -80,16 +80,16 @@ Adobe has identified the following known issues for the 2026.08.0 release:
 ## Authoring
 
 - Closing a DITAVAL file that has been moved to a different location results in an `ERROR IN FETCHING VERSION DETAILS` error message. (GUIDES-51420)
+- Conflict API fails and leads to an application error when the repository folder path ends with a forward slash. (GUIDES-51006)
 
 ## Editor 2.0
 
 
-- Conflict API fails and leads to an application error when the repository folder path ends with a forward slash. (GUIDES-51006)
 - Selecting a processing instruction element in the Outline view highlights the entire parent tag instead of the selected element. (GUIDES-48318)
 - Editing a keyword within a `keyref` in the source view breaks the keyword when the view is switched to any other view. (GUIDES-49998)
 - A MathML equation wrapped inside a `foreign` and `equation` block results in unwanted spacing, and typing inside the equation causes issues even after adjusting indentation. (GUIDES-46606)
 - Unable to place a cursor inside a `topicref` within a `reltable` when the **Show tags** option is enabled and the **Display attributes** option is disabled in the Editor settings. (GUIDES-46565) 
-- Dragging and dropping a reference into an empty `keydef` adds a `topicref` element instead of updating the reference. (GUIDES-45068)
+
 - Whitespace entered immediately before an inline tag within a table cell `<entry>` is deleted. (GUIDES-49144)
 
 ## Publishing
