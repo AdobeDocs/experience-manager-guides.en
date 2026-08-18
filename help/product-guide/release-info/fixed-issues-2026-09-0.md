@@ -68,10 +68,8 @@ This section covers the bugs fixed in the Authoring that are common to both Edit
 
 Adobe has identified the following known issues for the 2026.09.0 release:
 
-## Editor 2.0
-
-- After a map with an existing baseline is moved to a different folder, the baseline preview toggle remains selected in Preview mode, but the baseline no longer appears in the preview list. (GUIDES-54284)
-- Changing the document state on a topic that is already checked out refreshes the full document from top to bottom, which did not occur previously. (GUIDES-53905)
-- On a freshly configured Cloud Service environment, attempting to create a map or topic file results in a *Failed to create file* error, and creating a DITAVAL file completes but displays *Error retrieving the DTD rule*. (GUIDES-53904)
-- When a map containing a `keydef` without an `href` is previewed with a Preview using baseline option enabled, the `keydef` does not resolve. (GUIDES-53878)
-- Hotspot regions configured on an image map asset are not interactive in Preview mode; preventing authors from validating hotspot links before publishing. (GUIDES-53398)
+- Changing the document state of an already checked-out topic refreshes the entire document, unlike the previous behavior. (GUIDES-53905)
+- For DB servers, when a map containing a `keydef` without an `href` is previewed with a Preview using baseline option enabled, the `keydef` does not resolve. (GUIDES-53878)
+- Hotspot regions configured on an image map asset are not interactive in Preview mode; preventing authors from validating hotspot links before publishing. (GUIDES-53398)<br>**Workaround**: Insert the image you want to convert into an image map, select **Edit image map** from the context menu, and configure the hotspot links.
+- When you move a map with an existing baseline to a different folder while the map is open, the **Preview using baseline** toggle remains selected in Preview mode, but the baseline no longer appears in the dropdown list. (GUIDES-54284)<br>**Workaround**: You can close and reopen the map to resolve the issue.
+- On a freshly configured Cloud Service environment, attempting to create a map or topic file results in a *Failed to create file* error, and creating a DITAVAL file completes but displays *Error retrieving the DTD rule*. (GUIDES-53904)<br>**Workaround**: You can restart the AEM instance.
