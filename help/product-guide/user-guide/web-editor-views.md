@@ -145,12 +145,6 @@ For example, if an image was replaced after a baseline was created, previewing t
 
 Preview mode shows a loading preview indicator while it renders the initial set of topics. It does not update automatically after you edit a topic or switch versions. To see the latest content, refresh the preview manually, or close and reopen the topic or map.
 
-**Limitations**
-
--  When a baseline is created for a map and the map is later moved to a different folder, the baseline does not appear in the preview list, even though the baseline preview toggle is already enabled.
-- When previewing a map with baseline preview enabled, a keydef without an href is not resolved.
-
-
 ### View content based on conditional filters {#id2114BI00VXA}
 
 If you have used conditions in your topic or map, those conditions are shown in the Filters panel. By default, all conditions are selected and the entire content is displayed. If you deselect a condition, then the content having that condition is removed from the view. You can also choose to highlight conditionalized content.
