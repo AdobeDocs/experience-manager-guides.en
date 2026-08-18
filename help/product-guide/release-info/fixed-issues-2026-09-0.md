@@ -60,10 +60,9 @@ This section covers the bugs fixed in the Authoring that are common to both Edit
 
 ## Learning content
 
-- When a new learning topic is created using a HTML or learning template with a custom header, the topic title doesn’t appear in the custom header (GUIDES-52343)
+- When a new learning topic is created using a HTML or learning template with a custom header, the topic title doesn’t appear in the custom header. (GUIDES-52343)
 - The calculated accuracy percentage for a course quiz differs slightly from the expected value. (GUIDES-52346)
 - For a course, when attempting a quiz, the marks scored differs slightly from the expected calculated score. (GUIDES-52345)
-
 
 ## Known issues
 
