@@ -42,6 +42,7 @@ This section covers the bugs fixed in the Authoring that are common to both Edit
 - The ICC profile browser incorrectly displays DITA files instead of showing only ICC files. (GUIDES-25017) 
 - Draft comments are not being rendered in the Native PDF output. (GUIDES-47044) 
 - A draft comment placed inside a `title` element appears unexpectedly in published output. (GUIDES-10686) 
+- In the Map dashboard, selecting a different preset triggers a call to fetch peer links, resulting in additional processing. (GUIDES-53703)
 
 ## Translation
 
@@ -64,7 +65,7 @@ This section covers the bugs fixed in the Authoring that are common to both Edit
 - For a course, when attempting a quiz, the marks scored differs slightly from the expected calculated score. (GUIDES-52345)
 
 
-# Known issues
+## Known issues
 
 Adobe has identified the following known issues for the 2026.09.0 release:
 
