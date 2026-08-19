@@ -560,13 +560,13 @@ The key features aimed at improving the handling of large files are mentioned as
 >
 > This feature is enabled by default. To disable it, contact your Customer Success Team. 
 
-Experience Manager Guides uses a paginated API for loading files and folders. Instead of loading all content at once, folders load progressively in batches of 50 assets, with additional assets retrieved automatically as you scroll or by selecting **Load More**. 
+Experience Manager Guides uses a paginated API for loading files and folders. Instead of loading all content at once, folders load progressively in batches of 50 assets, with additional assets retrieved automatically as you scroll or by selecting **Load more**. 
 
 Sorting is performed server-side, so applying a sort order fetches freshly sorted results rather than reordering data already loaded in the browser. Common operations, such as rename, delete, add, and move, no longer reload an entire folder. Instead, they update only the affected item or refresh the first page of results. Locating a file within the Explorer or Repository is also no longer automatic and must be triggered manually from the context menu.
 
 The sections below describe how each of these applies for different interfaces, panels, and dialogs.
 
-### Home Repository Table
+### Home Repository table
 
 - **Browsing**: Infinite scrolling; the first 50 assets load initially, with **Load more** appended as you scroll. Switching folders clears the current list and loads fresh data.
 - **Rename**: In-place; no folder refresh.
@@ -575,22 +575,22 @@ The sections below describe how each of these applies for different interfaces, 
 - **Move**: Moving a file into the active folder adds it at the top with no full refresh; moving a file out of the active folder refreshes the folder to its first 50 assets.
 - **Refresh button**: Reloads the active folder, showing the first 50 assets.
 - **Sorting**: Loads 50 assets per page. 
-- **Folder navigation panel**: Each node loads its children in a batch of 50, with a **Load More** appended when more assets exist. 
+- **Folder navigation panel**: Each node loads its children in a batch of 50, with a **Load more** appended when more assets exist. 
 
 ### Collections 
 
-- Opening a folder loads the first 50 assets, with a **Load More** option appended for subsequent batches of 50.
+- Opening a folder loads the first 50 assets, with a **Load more** option appended for subsequent batches of 50.
 - Adding a file inserts it at the top of the folder without a full refresh.
 
 ### Template panel 
 
 - The root level shows only the **map** and **topic** categories, retrieved via a separate, non-paginated API. No infinite scrolling occurs at the root.
-- Expanding a subfolder loads the first 50 assets, with a **Load More** option appended for additional batches.
+- Expanding a subfolder loads the first 50 assets, with a **Load more** option appended for additional batches.
 
 ### Explorer
 
 - **Parent folder**: Infinite scrolling. The first 50 assets load initially; more are appended automatically as you scroll.
-- **Child folders**: Expanding a folder loads the first 50 assets. If more assets exist, a **Load More** option appears at the bottom; selecting it loads the next 50, and so on.
+- **Child folders**: Expanding a folder loads the first 50 assets. If more assets exist, a **Load more** option appears at the bottom; selecting it loads the next 50, and so on.
 - **Rename**: Happens in-place. The folder is not refreshed.
 - **Delete**: The parent folder (or root) refreshes to show the first 50 assets.
 - **Add or duplicate**: The new file appears at the top of the folder. No full refresh occurs.
@@ -601,11 +601,11 @@ The sections below describe how each of these applies for different interfaces, 
 
 - Browsing search results now uses infinite scrolling, the first 50 assets load initially, with more appended as you scroll.
 
-### Select path dialog (Repository, collections )
+### Select path dialog
 
-- Each folder node loads its sub folders 50 assets, with a **Load More** appended when more assets exist.
+- Each folder node loads its sub folders 50 assets, with a **Load more** appended when more assets exist.
 - When the dialog opens navigated to a specific target path, the tree auto-expands from root to target. Ancestor folders along the way load at a larger 500-item page size; the target folder loads at the standard 50-item size.
-- If a page fails to load, a **Load More – Retry** row appears in its place.
+- If a page fails to load, a **Load more – Retry** row appears in its place.
 
 
 **Parent topic:**[Introduction to the Editor](web-editor.md)
