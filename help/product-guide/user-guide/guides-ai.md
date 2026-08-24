@@ -7,13 +7,13 @@ description: Learn how to use Agentic AI Assistant for smart tagging capability 
 
 >[!NOTE]
 >
-> Agentic AI Assistant is available in Experience Manager Guides as a Cloud Service starting with 2026.09.0 release. Contact your Customer Success team to enable this feature.
+> Agentic AI Assistant is available in Experience Manager Guides as a Cloud Service starting with 2026.09.0 release. Contact your Customer Success team to enable this feature. 
 
 Agentic AI Assistant makes tagging your content faster, easier, and more consistent. Using the agentic Smart Tagging skill from Adobe CX Enterprise Coworker, Agentic AI Assistant analyzes your content and recommends relevant tags based on your organization's taxonomy, instead of you manually reading through content to decide which tags apply. You stay in control by reviewing the suggested tags and choosing to apply or reject them before confirming your selection, significantly reducing manual effort, improving tagging accuracy, and ensuring consistent metadata across your documentation.
 
-## Agentic AI Assistant panel
+## AI Assistant panel
 
-The Agentic AI Assistant panel provides all the tools you need to generate, review, and apply AI suggested tags. 
+The AI Assistant panel provides all the tools you need to generate, review, and apply AI suggested tags. 
 
 ![Agentic AI Assistant panel](images/guides-ai-panel.png){width="650"}
 
@@ -39,7 +39,7 @@ The following components of Agentic AI Assistant help you add files, configure t
 Perform the following steps to use Agentic AI Assistant for applying tags to single or multiple topics with the smart-tagging skill: 
 
 1. Log in to Experience Manager Guides.
-1. On the Home page, select **Agentic AI Assistant** from the Navigation bar. Ensure that the Agentic AI Assistant feature is enabled by your administrator. 
+1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the Agentic AI Assistant feature is enabled by your administrator. 
 1. Add the topic for which you want to generate tag recommendations using one of the following methods:
 
     - **Using Suggested prompts**: For the first chat in the Response area, select **Suggest tags for a file** prompt. The prompt gets automatically added to the Prompt space. Select `[file]`, then choose the topic from the Repository or a Collection in the **Select file** dialog. You can select one topic from the **Select file** dialog.

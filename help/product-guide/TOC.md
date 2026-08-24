@@ -355,12 +355,11 @@ breadcrumb-title: AEM Guides Documentation
   - AI Assistant in AEM Guides {#ai-assistant-aem}
     - [Adobe Generative AI user disclosures](./user-guide/adobe-generative-ai-disclosures.md)
     - [AI Assistant overview](./user-guide/ai-assistant.md)
-    - [AI-powered smart Help to search content](./user-guide/ai-based-smart-help.md)
-    - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
+    - [Get started with Agentic AI Assistant](./user-guide/guides-ai.md)  
+    - [Standard AI-powered smart Help to search content](./user-guide/ai-based-smart-help.md)
+    - [Standard AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
     - [AI-powered smart suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
     - [FAQ](./user-guide/ai-assistant-faq.md)
-  - Guides AI in AEM Guides {#guides-ai-aem}  
-    - [Get started with Guides AI](./user-guide/guides-ai.md)  
   - Manage Learning Content {#learning-training-content}
     - Getting started guide {#get-started}
       - Introduction {#intro-lc}
