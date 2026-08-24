@@ -48,13 +48,15 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
     AI Assistant is available in two modes: **Agentic** and **Standard**. You can choose between the two modes by enabling the respective toggles.
 
-    **Agentic**: After enabling this option you will be able to access the Agentic AI Assistant feature from the Navigation bar on Home page and Tab bar on Editor interface. For details on how to genearted AI suggested tags for topics, view [Use AI Assistant in Agentic mode](../user-guide/guides-ai.md).
+    - **Agentic**: After enabling this option you will be able to access the Agentic AI Assistant feature from the Navigation bar on Home page and Tab bar on Editor interface. For details on how to genearted AI suggested tags for topics, view [Use AI Assistant in Agentic mode](../user-guide/guides-ai.md).
 
     ![](assets/agentic-ai-workspace.png){width="350"}
 
-    **Standard**: After enabling the **Standard** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below.  
-    These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the Workspace settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Workspace settings** and save the updated configuration.  
-    For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](../user-guide/ai-assistant-right-panel.md).
+    - **Standard**: After enabling the **Standard** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below.  
+
+        These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the Workspace settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Workspace settings** and save the updated configuration.  
+
+        For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](../user-guide/ai-assistant-right-panel.md).
 
     From the **Authoring quick actions** menu, you can: 
 
