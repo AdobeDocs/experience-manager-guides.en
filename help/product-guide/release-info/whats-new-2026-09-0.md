@@ -17,10 +17,12 @@ Now, you can use AI Assistant to suggest and add tags to your content. With the 
 
 For more details, view [Get started with Agentic AI Assistant](../user-guide/guides-ai.md).
 
-Currently, the smart tagging capability is available when AI Assistant is configured in **Agentic** mode. Administrators can choose to enable either the **Standard** or **Agentic** mode from **Workspace settings** for an instance. 
+![](./assets/guides-ai-tags-review.png)
 
-- **Standard mode** provides the existing AI Assistant experience, with the **Help** and **Authoring** tabs in the AI Assistant panel.
+Currently, the smart tagging capability is available when AI Assistant is configured in **Agentic** mode. Administrators can choose to enable either the **Agentic** or **Standard** mode from **Workspace settings** for an instance. 
+
 - **Agentic mode** provides authors with the smart tagging interface for tag recommendation and application.
+- **Standard mode** provides the existing AI Assistant experience, with the **Help** and **Authoring** tabs in the AI Assistant panel.
 
 ## Editor enhancements
 
@@ -34,19 +36,15 @@ This applies when **Disable edit without locking the file** is enabled.
 
 For more details, view [Prevent content overwrites during concurrent editing](../user-guide/web-editor-edit-topics.md#prevent-content-overwrite-during-concurrent-editing).
 
-### Preview map content as of a selected baseline
+### Preview map content as of a selected static baseline
 
-When a map has one or more baselines, you can now preview the map based on a selected baseline instead of the current working copy in the Editor.
+When a map has one or more static baselines, you can now preview the map based on a selected baseline instead of the current working copy in the Editor.
 
 All versions of the topics, assets, images, and references associated with the selected baseline are displayed in the Preview, providing an accurate view of the map content at the time the baseline was created. For more details, view [Editor views](../user-guide/web-editor-views.md#preview-content-using-baseline).
 
 ## Review enhancements 
 
 ### Mark individual topics as done in a review task
-
->[!NOTE]
->
-> This feature is enabled by default. If you prefer to switch to the existing behavior, contact your Customer Success team to disable the feature in your environment.
 
 Experience Manager Guides introduces topic-level progress tracking for reviewers, giving you better visibility into your review progress for tasks with multiple topics. You can now mark individual topics as done and distinguish between topics you have completed and those that still need attention. 
 
@@ -64,10 +62,6 @@ Reviewers and authors can now view a user's role, such as Reviewer, Author, or O
 Learn more about [tagging users in a comment](../user-guide/review-topics.md#tag-task-users-in-a-comment).
 
 ### View the map hierarchy while selecting topics for review
-
->[!NOTE]
->
-> This feature is disabled by default. To enable it in your environment, contact your Customer Success team.
 
 When selecting content for a review, as an Author or initiator of a review task, you can now view maps, submaps, and topics in their existing hierarchy on the **Content** page, instead of viewing all topics as a flat list. The hierarchical view makes it easier to understand the structure of your content and select individual topics or entire submaps for review.
 
