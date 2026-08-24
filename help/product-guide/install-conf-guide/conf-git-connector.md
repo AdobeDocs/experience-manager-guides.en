@@ -67,7 +67,7 @@ Before Git Connector is available to configure from the **Data Sources** page, i
 
 >[!NOTE]
 >
-> To view the available Git Connector versions, view [Maven central repoistory](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github/1.0.1). 
+> To view the available Git Connector versions, view [Maven central repoistory](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github). 
 
 1. In your AEM project's `all/pom.xml`, add Git Connector as a dependency under `<dependencies>`:
 
