@@ -26,6 +26,10 @@ role_v2:
 ---
 # AI-powered smart suggestions to author content
 
+>[!NOTE]
+>
+>This feature is avialable for AI Assistant in Standard mode.
+
 Adobe Experience Manager Guides provides the smart suggestions that help you create consistent and accurate content.  
 
 While you author content, the **Suggest reusable content** feature in the AI Assistant tool can search using AI and show the existing content that is semantically similar to your content. You can then choose the best matching content you want to include in your current topic as a reference.

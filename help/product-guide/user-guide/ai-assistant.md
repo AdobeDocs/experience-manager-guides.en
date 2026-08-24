@@ -37,7 +37,7 @@ The **AI Assistant** in Adobe Experience Manager Guides is a powerful, AI-driven
 
 >[!NOTE]
 >
->To enable the Agentic mode of AI Assitant in your environment, contact the Customer Success Team.
+>To enable the AI Assitant in Agentic mode for your environment, contact the Customer Success Team.
  
 AI Assistant is available in two modes: **Agentic** and **Standard**. Administrators can choose between the two modes from the **AI Assistant** section of **General** tab in **Workspace settings**. The AI Assistant panel remains the same in both modes in the Editor, but the capabilities available within it differ:
 
@@ -54,7 +54,7 @@ For more details, view [Get started with Agentic AI Assistant](./guides-ai.md).
 
 ### Authoring 
 
-The **Authoring** feature in AI Assistant makes your authoring process smarter and faster. It offers capabilities such as generating intelligent suggestions for content reuse, translating content, improving content quality, and more, all based on your selected content. This feature enhances the overall authoring experience and the productivity of authors. 
+When AI Assistant is configured in **Standard** mode, the **Authoring** feature in AI Assistant makes your authoring process smarter and faster. It offers capabilities such as generating intelligent suggestions for content reuse, translating content, improving content quality, and more, all based on your selected content. This feature enhances the overall authoring experience and the productivity of authors. 
 
 For more details, view [Authoring](./ai-assistant-right-panel.md).
 
@@ -62,7 +62,7 @@ For more details, view [Authoring](./ai-assistant-right-panel.md).
 
 ### Help
 
-The **Help** feature in AI Assistant is an intuitive, chat-based tool designed to help you better understand Experience Manager Guides, troubleshoot issues, and search through information within Adobe Experience Manager Guides Documentation. Instead of searching through user guides and reference documents, you can use the **Help** feature to quickly find relevant answers to your queries. This helps save time and allows you to focus on content creation, resulting in enhanced productivity and efficiency.
+When AI Assistant is configured in **Standard** mode, the **Help** feature provides an intuitive, chat-based experience that helps you understand Experience Manager Guides, troubleshoot issues, and find information in the Adobe Experience Manager Guides documentation. Instead of searching through user guides and reference documents, you can use the **Help** feature to quickly find relevant answers to your queries. This helps save time and allows you to focus on content creation, resulting in enhanced productivity and efficiency.
 
 For more details, view [Help](./ai-based-smart-help.md).
 
@@ -76,9 +76,13 @@ When you use the **AI Asistant** for the first-time, you are prompted to submit 
 Perform the following steps to launch AI Assistant: 
 
 1. Login to Experience Manager Guides.
-1. On the Home page, select **AI Assistant** from the top. Ensure that the AI Assistant feature is enabled by your Administrator. 
+1. On the Home page, select **AI Assistant** from the top. Ensure that your Administrator has enabled the AI Assistant feature in the desired mode. Depending on the mode enabled by your Administrator, you can do the following:
 
-    The AI Assistant page is displayed highlighting its key fetaures, user guidelines link, and a **Get started** button.
+- **Agentic mode**: The AI Assistant panel displays suggested prompts to help you get started with tagging content.
+
+  ![Agentic AI Assistant panel](images/agentic-ai.png)
+
+- **Standard mode**: TThe AI Assistant displays the key fetaures, user guidelines link, and a **Get started** button.
 
     ![Smart Help panel](images/get-started-ai.png)
 
