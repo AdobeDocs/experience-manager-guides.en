@@ -17,10 +17,12 @@ Now, you can use AI Assistant to suggest and add tags to your content. With the 
 
 For more details, view [Get started with Agentic AI Assistant](../user-guide/guides-ai.md).
 
-Currently, the smart tagging capability is available when AI Assistant is configured in **Agentic** mode. Administrators can choose to enable either the **Standard** or **Agentic** mode from **Workspace settings** for an instance. 
+![](./assets/guides-ai-tags-review.png)
 
-- **Standard mode** provides the existing AI Assistant experience, with the **Help** and **Authoring** tabs in the AI Assistant panel.
+Currently, the smart tagging capability is available when AI Assistant is configured in **Agentic** mode. Administrators can choose to enable either the **Agentic** or **Standard** mode from **Workspace settings** for an instance. 
+
 - **Agentic mode** provides authors with the smart tagging interface for tag recommendation and application.
+- **Standard mode** provides the existing AI Assistant experience, with the **Help** and **Authoring** tabs in the AI Assistant panel.
 
 ## Editor enhancements
 
@@ -34,9 +36,9 @@ This applies when **Disable edit without locking the file** is enabled.
 
 For more details, view [Prevent content overwrites during concurrent editing](../user-guide/web-editor-edit-topics.md#prevent-content-overwrite-during-concurrent-editing).
 
-### Preview map content as of a selected baseline
+### Preview map content as of a selected static baseline
 
-When a map has one or more baselines, you can now preview the map based on a selected baseline instead of the current working copy in the Editor.
+When a map has one or more static baselines, you can now preview the map based on a selected baseline instead of the current working copy in the Editor.
 
 All versions of the topics, assets, images, and references associated with the selected baseline are displayed in the Preview, providing an accurate view of the map content at the time the baseline was created. For more details, view [Editor views](../user-guide/web-editor-views.md#preview-content-using-baseline).
 
