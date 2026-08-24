@@ -35,14 +35,15 @@ The **AI Assistant** in Adobe Experience Manager Guides is a powerful, AI-driven
 
 ## AI Assistant modes
 
-AI Assistant is available in two modes: **Agentic** and **Standard**. Administrators can choose between the two modes from the **AI Assistant** section of **General** tab in **Workspace settings**. The AI Assistant panel remains the same in both modes, but the capabilities available within it differ:
+AI Assistant is available in two modes: **Agentic** and **Standard**. Administrators can choose between the two modes from the **AI Assistant** section of **General** tab in **Workspace settings**. The AI Assistant panel remains the same in both modes in the Editor, but the capabilities available within it differ:
 
-* **Standard mode** provides the existing AI Assistant experience, with the **Help** and **Authoring** tabs in the AI Assistant panel.
-* **Agentic mode** provides the Smart tagging prompt window, described below, in the AI Assistant panel.
+* **Agentic** mode provides the Smart tagging prompt window, described below, in the AI Assistant panel.
+* **Standard** mode provides the existing AI Assistant experience, with the **Help** and **Authoring** tabs in the AI Assistant panel.
+
 
 ### Smart tagging 
 
-When AI Assistant is configured in **Agentic AI** mode, it can recommend tags for your content. Using a conversational prompt window, you can ask AI Assistant to suggest tags, powered by the Smart Tagging skill from Adobe CX Enterprise Coworker. You can then review the suggested tags and apply them to one or more topics, including multiple topics within a map.
+When AI Assistant is configured in **Agentic** mode, it can recommend tags for your content. Using a conversational prompt window, you can ask AI Assistant to suggest tags, powered by the Smart Tagging skill from Adobe CX Enterprise Coworker. You can then review the suggested tags and apply them to one or more topics, including multiple topics within a map.
 
 For more details, view [Get started with Agentic AI Assistant](./guides-ai.md).
 

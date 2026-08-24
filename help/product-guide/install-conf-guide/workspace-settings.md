@@ -39,9 +39,24 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 ![](../user-guide/images/editor-setting-general.png){width="350"}
 
 - **AI Assistant**
+
+    >[!NOTE]
+    >
+    > For using Agentic AI Assistant feature in your environment, contact the Customer Success team.
+
     Select this to enable the [AI Assistant](../user-guide/ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
 
-    After enabling the **AI Assistant** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below.  
+    AI Assistant is available in two modes: **Agentic** and **Standard**. You can choose between the two modes by enabling the respective toggle.
+
+    **Agentic**:
+
+    After enabling this option you will be able to access the Guides AI feature from the Navigation bar on Home page and Tab bar on Editor interface. For details on how to genearted AI suggested tags for topics, view [Get started with Guides AI](../user-guide/guides-ai.md).
+
+    ![](assets/guides-ai-workspace.png){width="350"}
+
+    **Standard**:
+
+    After enabling the **Standard** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below.  
     These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the Workspace settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Workspace settings** and save the updated configuration.  
     For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](../user-guide/ai-assistant-right-panel.md).
 
@@ -61,9 +76,7 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
     Select **Guides AI** toggle to enable this feature in the Experience Manager Guides.Unselect to disable the feature.
 
-    After enabling this option you will be able to access the Guides AI feature from the Navifation bar on Home page and Tab bar on Editor interface. For details on how to genearted AI suggested tags for topics, view [Get started with Guides AI](../user-guide/guides-ai.md).
-
-    ![](assets/guides-ai-workspace.png){width="350"}
+    
 
 - **Authoring**
 

@@ -129,13 +129,13 @@ The Preview mode gives you the following functionalities:
 * [Export a topic as PDF](#id2114BL00B5U)
 
 
-### Preview content using baseline
+### Preview content using baseline (applicable only for DITA map)
 
 >[!NOTE]
 >
 >Contact your Customer Success Team to enbable this feature in your environment.
 
-Preview mode by default displays the current working copy of a topic or map. If a map has one or more manual baselines, you can use the **Preview using baselines** toggle to instead preview the map as it existed at a specific baseline version.
+Preview mode by default displays the current working copy of a topic or map. If a map has one or more static baselines, you can use the **Preview using baselines** toggle to instead preview the map as it existed at a specific baseline version. This feature only supports static baselines; dynamic baselines are not available for preview.
 
 ![](images/preview-baseline.png){width="650"}
 
@@ -143,7 +143,7 @@ When you select a baseline from the drop-down list, the preview resolves all ass
 
 For example, if an image was replaced after a baseline was created, previewing that baseline displays the version of the image associated with the baseline, rather than the image from the current working copy.
 
-Preview mode shows a loading preview indicator while it renders the initial set of topics. It does not update automatically after you edit a topic or switch versions. To see the latest content, refresh the preview manually, or close and reopen the topic or map.
+Preview mode shows a loading preview indicator while it renders the initial set of topics. It does not update automatically after you edit a topic or switch versions. To see the latest content, refresh the preview manually, or close and reopen the topic or map. Also, track changes are not shown with this feature.
 
 ### View content based on conditional filters {#id2114BI00VXA}
 
