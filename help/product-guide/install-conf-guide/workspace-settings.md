@@ -42,17 +42,17 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
     >[!NOTE]
     >
-    > For using Agentic AI Assistant feature in your environment, contact the Customer Success team.
+    > For using Agentic mode of AI Assistant feature in your environment, contact the Customer Success team.
 
     Select this to enable the [AI Assistant](../user-guide/ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
 
-    AI Assistant is available in two modes: **Agentic** and **Standard**. You can choose between the two modes by enabling the respective toggle.
+    AI Assistant is available in two modes: **Agentic** and **Standard**. You can choose between the two modes by enabling the respective toggles.
 
     **Agentic**:
 
-    After enabling this option you will be able to access the Guides AI feature from the Navigation bar on Home page and Tab bar on Editor interface. For details on how to genearted AI suggested tags for topics, view [Get started with Guides AI](../user-guide/guides-ai.md).
+    After enabling this option you will be able to access the Agentic AI Assistant feature from the Navigation bar on Home page and Tab bar on Editor interface. For details on how to genearted AI suggested tags for topics, view [Get started with Agentic AI Assistant](../user-guide/guides-ai.md).
 
-    ![](assets/guides-ai-workspace.png){width="350"}
+    ![](assets/agentic-ai-workspace.png){width="350"}
 
     **Standard**:
 

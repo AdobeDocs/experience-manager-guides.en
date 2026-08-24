@@ -27,7 +27,7 @@ topic_v2:
 ---
 # AI Assistant (Beta)  
 
-The **AI Assistant** in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your productivity through smart help, authoring, and tagging features. In **Standard** mode, it brings together two robust AI features — **Authoring** and **Help** — into the Experience Manager Guides interface, enabling you to author content and access information from Experience Manager Guides documentation faster and more efficiently. In **Agentic AI** mode, AI Assistant instead offers **Smart Tagging**, letting you ask, through a conversational prompt window, for tag recommendations for your content and apply them across one or more topics.
+The **AI Assistant** in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your productivity through smart help, authoring, and tagging features. In **Standard** mode, it brings together two robust AI features; **Authoring** and **Help** into the Experience Manager Guides interface, enabling you to author content and access information from Experience Manager Guides documentation faster and more efficiently. In **Agentic** mode, AI Assistant instead offers **Smart Tagging**, letting you ask, through a conversational prompt window, for tag recommendations for your content and apply them across one or more topics.
 
 >[!NOTE]
 >
@@ -35,11 +35,14 @@ The **AI Assistant** in Adobe Experience Manager Guides is a powerful, AI-driven
 
 ## AI Assistant modes
 
+>[!NOTE]
+>
+>To enable the Agentic mode of AI Assitant in your environment, contact the Customer Success Team.
+ 
 AI Assistant is available in two modes: **Agentic** and **Standard**. Administrators can choose between the two modes from the **AI Assistant** section of **General** tab in **Workspace settings**. The AI Assistant panel remains the same in both modes in the Editor, but the capabilities available within it differ:
 
 * **Agentic** mode provides the Smart tagging prompt window, described below, in the AI Assistant panel.
 * **Standard** mode provides the existing AI Assistant experience, with the **Help** and **Authoring** tabs in the AI Assistant panel.
-
 
 ### Smart tagging 
 
@@ -73,7 +76,7 @@ When you use the **AI Asistant** for the first-time, you are prompted to submit 
 Perform the following steps to launch AI Assistant: 
 
 1. Login to Experience Manager Guides.
-1. On the Home page, select **AI Assistant** from the top.   Ensure that the AI Assistant feature is enabled by your administrator. 
+1. On the Home page, select **AI Assistant** from the top. Ensure that the AI Assistant feature is enabled by your Administrator. 
 
     The AI Assistant page is displayed highlighting its key fetaures, user guidelines link, and a **Get started** button.
 

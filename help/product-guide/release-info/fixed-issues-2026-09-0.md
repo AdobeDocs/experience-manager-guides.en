@@ -69,6 +69,7 @@ This section covers the bugs fixed in the Authoring that are common to both Edit
 Adobe has identified the following known issues for the 2026.09.0 release:
 
 - Changing the document state of an already locked topic refreshes the entire document. (GUIDES-53905)
+- When using the Preview using baseline feature, preview requests time out for large maps (more than 10,000 topics) or maps with a high number of keydefs (for example, 100 keydefs and 3,500 topics). (GUIDES-54147)
 - For DB servers, when a map containing a `keydef` without an `href` is previewed with a Preview using baseline option enabled, the `keydef` does not resolve. (GUIDES-53878)
 - Hotspot regions configured on an image map asset are not interactive in Preview mode; preventing authors from validating hotspot links before publishing. (GUIDES-53398)<br>**Workaround**: Insert the image you want to convert into an image map, select **Edit image map** from the context menu, and configure the hotspot links.
 - When you move a map with an existing baseline to a different folder while the map is open, the **Preview using baseline** toggle remains selected in Preview mode, but the baseline no longer appears in the dropdown list. (GUIDES-54284)<br>**Workaround**: You can close and reopen the map to resolve the issue.
