@@ -46,10 +46,6 @@ All versions of the topics, assets, images, and references associated with the s
 
 ### Mark individual topics as done in a review task
 
->[!NOTE]
->
-> This feature is enabled by default. If you prefer to switch to the existing behavior, contact your Customer Success team to disable the feature in your environment.
-
 Experience Manager Guides introduces topic-level progress tracking for reviewers, giving you better visibility into your review progress for tasks with multiple topics. You can now mark individual topics as done and distinguish between topics you have completed and those that still need attention. 
 
 ![](./assets/mark-topics-done-review-ui.png)
@@ -66,10 +62,6 @@ Reviewers and authors can now view a user's role, such as Reviewer, Author, or O
 Learn more about [tagging users in a comment](../user-guide/review-topics.md#tag-task-users-in-a-comment).
 
 ### View the map hierarchy while selecting topics for review
-
->[!NOTE]
->
-> This feature is disabled by default. To enable it in your environment, contact your Customer Success team.
 
 When selecting content for a review, as an Author or initiator of a review task, you can now view maps, submaps, and topics in their existing hierarchy on the **Content** page, instead of viewing all topics as a flat list. The hierarchical view makes it easier to understand the structure of your content and select individual topics or entire submaps for review.
 
