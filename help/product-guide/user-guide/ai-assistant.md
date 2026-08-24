@@ -86,7 +86,7 @@ Perform the following steps to launch AI Assistant:
 
     ![Smart Help panel](images/get-started-ai.png)
 
-1. Read the user guidelines carefully and then select  **Get started** to launch the AI Assistant. 
+    Read the user guidelines carefully and then select  **Get started** to launch the AI Assistant. 
 
 **Related topics**
 
