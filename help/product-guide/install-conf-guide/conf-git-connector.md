@@ -35,7 +35,7 @@ Use the Data Sources tool in Experience Manager Guides to create and configure a
     >[!TIP]
     >
     >* Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the field to view more details about it.
-    >* Fields with * are mandatory. For example, you can enter the following details for the ElasticSearch connector.
+    >* Fields with * are mandatory. For example, you can enter the following details for the Git connector.
 
     - **Name**: Enter the name of the data source.
     - **Target AEM root path**: Enter the path in the AEM repository where content imported from Git should be stored.
@@ -65,13 +65,17 @@ Use the Data Sources tool in Experience Manager Guides to create and configure a
 
 Before Git Connector is available to configure from the **Data Sources** page, it must be embedded as a dependency in your AEM project. Perform the following steps to add the dependency:
 
+>[!NOTE]
+>
+> To view the available Git Connector versions, view [Maven central repoistory](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github/1.0.1). 
+
 1. In your AEM project's `all/pom.xml`, add Git Connector as a dependency under `<dependencies>`:
 
     ```xml
     <dependency>
         <groupId>com.adobe.aem.addon.guides</groupId>
         <artifactId>konnect-github</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </dependency>
     ```
 
