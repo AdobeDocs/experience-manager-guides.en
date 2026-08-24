@@ -2,9 +2,9 @@
 
 This article covers the bugs fixed in various areas of the 2026.09.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For more information about the new features and enhancements, view [What's new in the 2026.09.0 release]().
+For more information about the new features and enhancements, view [What's new in the 2026.09.0 release](./whats-new-2026-09-0.md).
 
-Learn about [upgrade instructions for the 2026.09.0 release]().
+Learn about [upgrade instructions for the 2026.09.0 release](./upgrade-instructions-2026-09-0.md).
 
 ## Editor 2.0
 
