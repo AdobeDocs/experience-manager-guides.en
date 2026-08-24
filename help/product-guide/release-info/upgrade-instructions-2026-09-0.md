@@ -20,7 +20,7 @@ Use the following resources when developing custom Java plugins or integrations 
 
 |Release|Java SDK version|Maven Central|Java API reference|
 |---|---|---|----|
-|2026.09.0|2026.9.0|[AEM Guides SDK API 2026.9.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.9.0)|[Javadoc 2026.8.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html)|
+|2026.09.0|2026.9.0|[AEM Guides SDK API 2026.9.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.9.0)|[Javadoc 2026.9.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html)|
 
 For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
 
