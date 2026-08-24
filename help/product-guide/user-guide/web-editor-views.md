@@ -143,7 +143,7 @@ When you select a baseline from the drop-down list, the preview resolves all ass
 
 For example, if an image was replaced after a baseline was created, previewing that baseline displays the version of the image associated with the baseline, rather than the image from the current working copy.
 
-Preview mode shows a loading preview indicator while it renders the initial set of topics. It does not update automatically after you edit a topic or switch versions. To see the latest content, refresh the preview manually, or close and reopen the topic or map. Additionally, the Tracking options (No Markup, Original, and Show Markup) are not available when previewing a map against a baseline.
+Preview mode shows a loading preview indicator while it renders the initial set of topics. It does not update automatically after you edit a topic or switch versions. To see the latest content, refresh the preview manually, or close and reopen the topic or map. Additionally, the Tracking options (No Markup, Original, and Show Markup) are not available when previewing a map for a baseline.
 
 ### View content based on conditional filters {#id2114BI00VXA}
 
