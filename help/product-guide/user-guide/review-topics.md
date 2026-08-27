@@ -143,9 +143,9 @@ Perform the following steps to mark individual topics as done in a review task:
 
 1. After you finish reviewing the topic, select the **Mark topic as done** checkbox.
 
-   The topic accordion automatically collapses. You can reopen the accordion at any time before completing the review task. If you need to add further comments, clear the **Mark topic as done** checkbox, add your comments, and then select the checkbox again when you've finished reviewing the topic.
+   The topic accordion automatically collapses. You can reopen the accordion at any time before completing the review task. If you need to add further comments, simply expand the topic accordion and add your comments. 
 
-   > [!NOTE]
+    > [!NOTE]
     >
     > Whether the **Mark topic as done** checkbox is selected or unselected depends on who is reviewing the topic and the version being reviewed:
     >
