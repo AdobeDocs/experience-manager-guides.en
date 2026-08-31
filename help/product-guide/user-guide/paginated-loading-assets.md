@@ -62,7 +62,7 @@ The sections below describe how each of these applies for different interfaces, 
 
 ### Select path dialog
 
-- Each folder node loads its 50 sub folders, with a **Load more** appended when more assets exist.
+- Each folder node loads its 50 sub folders, with a **Load more** appended when more folders exist.
 
   ![pagiantion for select path dialog](images/select-path-pagination.png){width="650"}
 
