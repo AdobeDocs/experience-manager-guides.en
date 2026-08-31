@@ -13,7 +13,7 @@ Learn about [upgrade instructions for the 2026.09.0 release](../release-info/upg
 
 ## Introducing AI-powered smart tagging in AI Assistant
 
-Now, you can use AI Assistant to suggest and add tags to your content. With the new smart tagging capability, authors can ask AI Assistant to suggest tags for one or more topics, powered by the Smart Tagging skill from Adobe CX Enterprise Coworker. The skill reviews the content, generates tag recommendations, and presents them for your review. Once you confirm, the suggested tags are applied to the relevant topics within a map.
+Now, you can use AI Assistant to suggest and add tags to your content. With the new smart tagging capability, authors can ask AI Assistant to suggest tags for one or more topics, powered by the Smart Tagging skill powered by Adobe CX Enterprise Coworker. The skill reviews the content, generates tag recommendations, and presents them for your review. Once you confirm, the suggested tags are applied to the relevant topics within a map.
 
 For more details, view [Get started with Agentic AI Assistant](../user-guide/guides-ai.md).
 
@@ -28,11 +28,11 @@ Currently, the smart tagging capability is available when AI Assistant is config
 
 ### Prevent content overwrites during concurrent editing
 
-When two authors work on the same topic at the same time, one author may save changes after the other has already opened the topic. Continuing to edit the older version could then overwrite those newer changes.
+When two authors work on the same topic at the same time, one author may have the topic open while another author locks it, makes changes, and saves a newer version. The topic already open may then contain outdated content, and editing this version could overwrite the latest changes.
 
 To prevent such conflicts, the latest saved version is now automatically loaded in the Editor when you lock a topic. This ensures that you work with the most recent content and prevents you from overwriting changes made by another author.
 
-This applies when **Disable edit without locking the file** is enabled.
+This applies when **Disable edit without locking the file** setting is enabled.
 
 For more details, view [Prevent content overwrites during concurrent editing](../user-guide/web-editor-edit-topics.md#prevent-content-overwrite-during-concurrent-editing).
 
@@ -86,6 +86,23 @@ Authors can now enable or disable full screen display for each H5P element used 
 Learn more about [Other options in the Insert menu](../learning-content/lc-other-insert-options.md) of Product Training and Learning content.
 
 ![](./assets/h5p-fullscreen.png)
+
+## Performance enancements
+
+### Improved performance with paginated loading of files and folders
+
+Experience Manager Guides now supports paginated loading of files and folders for an enhanced browsing experience, especially for folders with a large number of assets. Instead of loading all content at once, folders load progressively in batches of 50 assets, with additional assets retrieved as you scroll or select **Load more**, depending on the panel or dialog. 
+
+Sorting is performed server-side, so applying a sort order fetches freshly sorted results rather than reordering data already loaded in the browser. Common operations, such as rename, delete, add, and move, no longer reload an entire folder. Instead, they update only the affected item or refresh the first page of results.  
+
+Paginated loading is available across the Home Repository table, Collections, Explorer, Search and Template panels, and the Select path dialog.
+
+For more details, view [](../user-guide/paginated-loading-assets.md).
+
+![pagiantion for folder navigation panel](../user-guide/images/home-tree-pagination.png){width="650"}
+
+
+
 
 
 
