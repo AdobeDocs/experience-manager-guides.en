@@ -421,6 +421,8 @@ breadcrumb-title: AEM Guides Documentation
     - Troubleshooting {#troubleshooting}
         - [Session timeout](./user-guide/session-timeout-prompt.md)
         - [String is too long exception in Metadata export](./user-guide/metadata-export-failure.md)
+    - Performance management {#performance-management}
+        - [Paginated loading of files and folders](./user-guide/paginated-loading-assets.md)    
 - User Guide (Old UI) {#user-guide-old-ui}
   - [AEM Guides overview](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation and configuration {#install-conf-guide}
