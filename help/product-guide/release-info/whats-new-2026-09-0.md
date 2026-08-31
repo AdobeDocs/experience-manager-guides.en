@@ -97,7 +97,7 @@ Sorting is performed server-side, so applying a sort order fetches freshly sorte
 
 Paginated loading is available across the Home Repository table, Collections, Explorer, Search and Template panels, and the Select path dialog.
 
-For more details, view [](../user-guide/paginated-loading-assets.md).
+For more details, view [Paginated loading of files and folders](../user-guide/paginated-loading-assets.md).
 
 ![pagiantion for folder navigation panel](../user-guide/images/home-tree-pagination.png){width="650"}
 
