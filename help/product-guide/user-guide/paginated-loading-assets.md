@@ -13,7 +13,7 @@ role: User
 
 Experience Manager Guides uses a paginated API for loading files and folders. Instead of loading all content at once, folders load progressively in batches of 50 assets, with additional assets retrieved automatically as you scroll or by selecting **Load more**. 
 
-Sorting is performed server-side, so applying a sort order fetches freshly sorted results rather than reordering data already loaded in the browser. Common operations, such as rename, delete, add, and move, no longer reload an entire folder. Instead, they update only the affected item or refresh the first page of results. The *Always locate a file in Explorer* functionality is also no longer automatic. For any asset, you can still use the context menu to locate the file in Explorer.
+Sorting is performed server-side, so applying a sort order fetches freshly sorted results rather than reordering data already loaded in the browser. Common operations, such as rename, delete, add, and move, no longer reload an entire folder. Instead, they update only the affected item or refresh the first page of results. The *Always locate a file in Explorer* functionality is also no longer available. For any asset, you can still use the context menu to locate the file in Explorer.
 
 The sections below describe how each of these applies for different interfaces, panels, and dialogs.
 
