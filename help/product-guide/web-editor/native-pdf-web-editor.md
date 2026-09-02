@@ -213,20 +213,20 @@ Use the following settings to configure the page boxes:
 
 ## Color & ICC
 
-Use this section to choose a color space for printing and, optionally, manage color accuracy across devices using an ICC profile.
+Use this section to choose a color space for printing and, optionally, manage color accuracy across devices using an ICC profile. When using the CMYK color space, an ICC color profile is required for PDF conformances that require color management.
 
 >[!NOTE]
 >
-> An ICC color profile is required for PDF/A creation when using the CMYK color space.
+> For improved ICC color profile handling, ensure that you are using [Native PDF engine v2](../native-pdf/new-pdf-engine.md), which includes fixes for known ICC color profile issues in Native PDF engine v1.
 
 Use the following settings to configure the color space and ICC profile:
 
 | Setting | Description |
 | --- | --- |
-| **Color Space** | Choose between **RGB** and **CMYK** color spaces for your PDF document. Choose **RGB** for PDFs intended for digital display and **CMYK** for physical printing. <br> **Note**: Selecting **CMYK** as the color space automatically enabled the **Convert Colors** option. |
-| **Convert Colors** | Enable to convert colors defined in the document to the color space selected above. This option is enabled by default. When enabled, the **Rendering Intent** field also becomes available. |
-**Rendering Intent** | Available only when **Convert Colors** option is enabled. Select the rendering intent to use when converting colors to the target color space:<br>- **Default**: Uses the default rendering behavior.<br>- **Perceptual**: Adjusts colors to preserve their overall visual appearance.<br>- **Relative Colorimetric**: Adjusts colors based on the target color space while maintaining color accuracy where possible.<br> **Note**: If you select **Relative Colorimetric**, ensure that Java 20 or later is available for the underlying Native PDF engine to apply this rendering intent.
-| **Identifier Name** | Enter a name to identify the ICC profile that you're using with this preset. |
+| **Color Space** | Choose between **RGB** and **CMYK** color spaces for your PDF document. Choose **RGB** for PDFs intended for digital display and **CMYK** for physical printing.|
+| **Convert Colors** | Enable to convert colors defined in the document to the color space selected above. This option is enabled by default. When enabled, the **Rendering Intent** field also becomes available.  <br> **Note**: This option is enabled by default for RGB and CMYK color spaces.|
+**Rendering Intent** | Available only when **Convert Colors** option is enabled. Select the rendering intent to use when converting colors to the target color space:<br>- **Default**: Uses the default rendering behavior.<br>- **Perceptual**: Adjusts colors to preserve their overall visual appearance.<br>- **Relative Colorimetric**: Adjusts colors based on the target color space while maintaining color accuracy where possible.<br> **Note**: When using this feature with an Adobe Experience Manager Guides On-Premise setup, ensure that Java 20 or later is available for the underlying Native PDF engine to apply the specified rendering intent.
+| **Identifier Name** | Enter the output identifier name. |
 | **Browse Profile** | Browse to the ICC profile file (`.icc` or `.icm`) on your AEM server. This field is disabled when **Use URL for Profile** is enabled. |
 | **Use URL for Profile** | Enable this option to use an ICC profile hosted online instead of a local file. |
 | **URL for Profile** | Available only when **Use URL for Profile** is enabled. Enter the URL where the ICC profile is hosted. |
