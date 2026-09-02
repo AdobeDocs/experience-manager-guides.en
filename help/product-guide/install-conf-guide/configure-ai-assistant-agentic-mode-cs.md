@@ -53,6 +53,8 @@ Perform the following steps to add the IMS configuration to the environment:
 > [!NOTE]
 > If you have not yet created the OAuth/IMS credentials for your environment, do so first in Adobe Developer Console before completing this step.
 
+![ims service account configuration](assets/ims-service-account-config.png){width="800"}
+
 ## Enable the Agentic mode
 
 Once the configuration is complete for your environment, contact the **Customer Success team** to enable the Agentic mode.
