@@ -27,7 +27,7 @@ topic_v2:
 ---
 # AI Assistant (Beta)  
 
-The **AI Assistant** in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your productivity through smart help, authoring, and tagging features. In **Standard** mode, it brings together two robust AI features; **Authoring** and **Help** into the Experience Manager Guides interface, enabling you to author content and access information from Experience Manager Guides documentation faster and more efficiently. In **Agentic** mode, AI Assistant instead offers **Smart Tagging**, letting you ask, through a conversational prompt window, for tag recommendations for your content and apply them across one or more topics.
+The **AI Assistant** in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your productivity through smart help, authoring, and tagging features. In **Standard** mode, it brings together two robust AI features; **Authoring** and **Help** into the Experience Manager Guides interface, enabling you to author content and access information from Experience Manager Guides documentation faster and more efficiently. In **Agentic** mode, AI Assistant instead offers **Smart tagging**, letting you ask, through a conversational prompt window, for tag recommendations for your content and apply them across one or more topics.
 
 >[!NOTE]
 >
@@ -41,16 +41,16 @@ The **AI Assistant** in Adobe Experience Manager Guides is a powerful, AI-driven
  
 AI Assistant is available in two modes: **Agentic** and **Standard**. Administrators can choose between the two modes from the **AI Assistant** section of **General** tab in **Workspace settings**. The AI Assistant panel remains the same in both modes in the Editor, but the capabilities available within it differ:
 
-* **Agentic** mode uses the **Smart Tagging** skill from Adobe CX Enterprise Coworker to analyze your content and recommend relevant tags based on your organization’s taxonomy.
+* **Agentic** mode uses the **Smart tagging** skill from Adobe CX Enterprise Coworker to analyze your content and recommend relevant tags based on your organization’s taxonomy.
 * **Standard** mode provides the existing AI Assistant experience, with the **Help** and **Authoring** tabs in the AI Assistant panel.
 
 ### Smart tagging 
 
-AI Assistant in Agentic mode makes tagging your content faster and easier through a conversational prompt window. Using the agentic Smart Tagging skill from Adobe CX Enterprise Coworker, AI Assistant recommends relevant tags for your content when you ask it to. You stay in control by reviewing the suggested tags and choosing to apply them to one or more topics, including multiple topics within a map.
+AI Assistant in Agentic mode makes tagging your content faster and easier through a conversational prompt window. Using the agentic Smart tagging skill from Adobe CX Enterprise Coworker, AI Assistant recommends relevant tags for your content when you ask it to. You stay in control by reviewing the suggested tags and choosing to apply them to one or more topics, including multiple topics within a map.
 
 For more details, view [Get started with Agentic AI Assistant](./guides-ai.md).
 
-![ai assistant smart tagging](./images/suggested-prompts.png)
+![ai assistant Smart tagging](./images/suggested-prompts.png)
 
 ### Authoring 
 
@@ -82,7 +82,7 @@ The AI Assistant displays the key fetaures, user guidelines link, and a **Get st
 
   ![Smart Help panel](images/get-started-ai.png)
 
-    Read the user guidelines carefully and then select  **Get started** to launch the AI Assistant. 
+  Read the user guidelines carefully and then select  **Get started** to launch the AI Assistant. 
 
 **Related topics**
 
