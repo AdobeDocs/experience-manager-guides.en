@@ -7,7 +7,7 @@ description: Learn how to use Agentic AI Assistant for smart tagging capability 
 
 >[!NOTE]
 >
-> AI Assistant in Agentic mode is available in Experience Manager Guides as a Cloud Service starting with 2026.09.0 release. Contact your Customer Success team to enable this feature. 
+> AI Assistant in Agentic mode is available in Experience Manager Guides as a Cloud Service starting with the 2026.09.0 release. To use this capability, your organization must first be onboarded to CX Enterprise Coworker. Once onboarding is complete, contact your Customer Success team to enable the feature. 
 
 AI Assistant in Agentic mode makes tagging your content faster, easier, and more consistent. Using the agentic Smart Tagging skill from Adobe CX Enterprise Coworker, AI Assistant analyzes your content and recommends relevant tags based on your organization's taxonomy, instead of you manually reading through content to decide which tags apply. You stay in control by reviewing the suggested tags and choosing to apply or reject them before confirming your selection, significantly reducing manual effort, improving tagging accuracy, and ensuring consistent metadata across your documentation.
 
