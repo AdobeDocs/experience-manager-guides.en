@@ -1,8 +1,6 @@
 # Configure AI Assistant in Agentic Mode
 
-AI Assistant in Agentic mode makes tagging your content faster, easier, and more consistent. Using the agentic Smart Tagging skill from Adobe CX Enterprise Coworker, AI Assistant analyzes your content and recommends relevant tags based on your organization's taxonomy, instead of you manually reading through content to decide which tags apply. You stay in control by reviewing the suggested tags and choosing to apply or reject them before confirming your selection, significantly reducing manual effort, improving tagging accuracy, and ensuring consistent metadata across your documentation.
-
-Configuration depends on whether your environment uses **Unified Shell** setting and whether users log in through **SSO** or **non-SSO** authentication. Follow the steps in this article that match your environment.
+AI Assistant in Agentic mode uses the agentic Smart Tagging skill from Adobe CX Enterprise Coworker to recommend tags based on your organization's taxonomy. This article describes how to configure it, which depends on the state of Unified shell setting in AEM CLoud and whether you log in through SSO or non-SSO authentication.
 
 ## Prerequisite
 
@@ -12,26 +10,26 @@ Your organization must be onboarded to **CX Enterprise Coworker** before you con
 
 Use the following table to identify which configuration path applies to your users, then follow the corresponding steps.
 
-| Unified Shell | Login type | Configuration required |
+| Unified shell | Login type | Configuration required |
 |---|---|---|
-| Enabled | SSO | No additional configuration. Everything works out of the box. |
-| Enabled | Non-SSO | Configure a technical account. |
-| Disabled | SSO | Configure a technical account. |
-| Disabled | Non-SSO | Configure a technical account. |
+| Enabled | SSO | No additional configuration. Everything works out of the box|
+| Enabled | Non-SSO | Add IMS configuration to the environment |
+| Disabled | SSO | Add IMS configuration to the environment |
+| Disabled | Non-SSO | Add IMS configuration to the environment |
 
-### Users with Unified Shell enabled
+### Users with Unified shell enabled
 
 **SSO login**
 
-If Unified Shell is enabled and your users log in through SSO, no additional configuration is required. AI Assistant in Agentic mode works automatically once your organization is onboarded to CX Enterprise Coworker.
+If Unified shell is enabled and your users log in through SSO, no additional configuration is required. AI Assistant in Agentic mode works automatically once your organization is onboarded to CX Enterprise Coworker.
 
 **Non-SSO login**
 
-If Unified Shell is enabled but your users log in without SSO, you must [Add IMS configuration to the environment](#add-ims-configuration-to-the-environment) below.
+If Unified shell is enabled but your users log in without SSO, you must [Add IMS configuration to the environment](#add-ims-configuration-to-the-environment) below.
 
-### Users with Unified Shell disabled
+### Users with Unified shell disabled
 
-If Unified Shell is disabled, you must [Add IMS configuration to the environment](#add-ims-configuration-to-the-environment) for both:
+If Unified shell is disabled, you must [Add IMS configuration to the environment](#add-ims-configuration-to-the-environment) for both:
 
 - SSO login
 - Non-SSO login

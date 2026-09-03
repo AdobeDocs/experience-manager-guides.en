@@ -44,6 +44,8 @@ AI Assistant is available in two modes: **Agentic** and **Standard**. Administra
 * **Agentic** mode uses the **Smart tagging** skill from Adobe CX Enterprise Coworker to analyze your content and recommend relevant tags based on your organization’s taxonomy.
 * **Standard** mode provides the existing AI Assistant experience, with the **Help** and **Authoring** tabs in the AI Assistant panel.
 
+## Agentic mode
+
 ### Smart tagging 
 
 AI Assistant in Agentic mode makes tagging your content faster and easier through a conversational prompt window. Using the agentic Smart tagging skill from Adobe CX Enterprise Coworker, AI Assistant recommends relevant tags for your content when you ask it to. You stay in control by reviewing the suggested tags and choosing to apply them to one or more topics, including multiple topics within a map.
@@ -51,6 +53,8 @@ AI Assistant in Agentic mode makes tagging your content faster and easier throug
 For more details, view [Get started with Agentic AI Assistant](./guides-ai.md).
 
 ![ai assistant Smart tagging](./images/suggested-prompts.png)
+
+## Standard mode
 
 ### Authoring 
 
