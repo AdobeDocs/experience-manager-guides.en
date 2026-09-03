@@ -73,9 +73,9 @@ For more details, view [Help](./ai-based-smart-help.md).
 
 ![Smart Help panel](images/smart-help-panel.png)
 
-## Get started with AI Assistant
+## Get started with AI Assistant in Standard mode
 
-When you use the **AI Asistant** for the first-time, you are prompted to submit your consent before you use the Experience Manager Guides Generative AI features. 
+When you use the **AI Asistant** in Standard mode for the first-time, you are prompted to submit your consent before you use the Experience Manager Guides Generative AI features. 
 
 Perform the following steps to launch AI Assistant: 
 

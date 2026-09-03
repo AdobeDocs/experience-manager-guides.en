@@ -1,10 +1,15 @@
-# Configure AI Assistant in Agentic Mode
+---
+title: Configure AI Assistant in Agentic mode
+description: Learn how to configure the Agentic AI Assistant in Experience Manager Guides
+---
 
-AI Assistant in Agentic mode uses the agentic Smart Tagging skill from Adobe CX Enterprise Coworker to recommend tags based on your organization's taxonomy. This article describes how to configure it, which depends on the state of Unified shell setting in AEM CLoud and whether you log in through SSO or non-SSO authentication.
+# Configure AI Assistant in Agentic mode
+
+As an Administrator, you can configure AI Assistant in Agentic mode for your organization in Experience Manager Guides. The configuration steps vary depending on whether Unified Shell setting is enabled in your AEM as a Cloud Service environment, and whether the users are logged in through SSO or non-SSO authentication. This article walks you through the configuration process for each scenario.
 
 ## Prerequisite
 
-Your organization must be onboarded to **CX Enterprise Coworker** before you configure AI Assistant in Agentic mode. Contact your Adobe representative to confirm onboarding is complete before proceeding.
+Your organization must be onboarded to **CX Enterprise Coworker** before you configure AI Assistant in Agentic mode. 
 
 ## Configure AI Assistant based on your environment
 
