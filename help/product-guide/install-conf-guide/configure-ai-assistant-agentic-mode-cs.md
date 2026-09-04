@@ -60,4 +60,6 @@ Perform the following steps to add the IMS configuration to the environment:
 
 ## Enable the Agentic mode
 
-Once the configuration is complete for your environment, contact the **Customer Success team** to enable the Agentic mode.
+After the configuration is complete for your environment, contact the Customer Success team to enable Agentic mode.
+
+With Agentic mode enabled for your environment, navigate to **Workspace settings** and enable the **Agentic** toggle under the **General** tab in the **AI Assistant** section.
