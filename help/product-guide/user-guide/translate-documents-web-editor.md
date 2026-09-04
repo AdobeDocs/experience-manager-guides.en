@@ -155,7 +155,7 @@ Before performing steps in this procedure, ensure that you have created the requ
 
         >[!NOTE]
         >
-        > When attempting to start a new translation sync for a project while a previous sync for that project is still in progress, the request fails with the following message: *A previous request for this project is still in progress. Please wait a few minutes before trying again*.     
+        > When using **Add to existing translation project** to send additional assets for translation, the operation fails if a previous request (project creation or Add to existing project) for the same project is still in progress. The following message is displayed: *A previous request for this project is still in progress. Please wait a few minutes before trying again*.   
 
     - If you select **Add to existing translation project**, this operation updates the existing asset entry in the project if the asset is already added and the related translation job state is in the *Draft* state.
         - If the destination language is not present in the project, a new project is created for the single-language translation project, and a new job is created for multi-language translation project.
