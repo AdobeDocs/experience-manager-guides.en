@@ -116,9 +116,11 @@ Perform the following steps to import content from a Git repository:
 
 1. After reviewing the files, select **Import all** to import the content into Experience Manager Guides. 
 
-    >[!NOTE]
-    >
-    > You can enable **Auto Sync** to automatically synchronize and import content from your Git repository into Experience Manager Guides. If any errors are detected, Auto Sync is not triggered and the Author must manually import the content by selecting **Import all**. Once enabled, Auto Sync cannot be disabled for the importer.
+   >[!NOTE]
+   >
+   > If you are using Git Connector version earlier than 1.0.1, importing a repository that contains Git submodules might fail during the fetch operation. Upgrade to Git Connector version 1.0.1 or later to avoid this issue. Starting with version 1.0.1, Git submodules are skipped during cloning and import, and only content from the main repository is imported.
+
+1. *(Optional)* You can enable **Auto Sync** to automatically synchronize and import content from your Git repository into Experience Manager Guides. If any errors are detected, Auto Sync is not triggered and the Author must manually import the content by selecting **Import all**. Once enabled, Auto Sync cannot be disabled for the importer.  
 
 After the content is imported, it is stored under the configured **Target AEM root path** when setting up the Git Connector.
 

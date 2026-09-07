@@ -29,17 +29,17 @@ Each translation project generates multiple user groups for access, leading to a
 
 -  Mark all projects as "Inactive" once translation is complete and approved.The project remains available for review and is simply marked as inactive.
     - Following these steps will help maintain overall translation performance in good health.
-![Inactive Translation Project ](../assets/translation/translation-project-image1.png)
+![Inactive Translation Project ](./assets/translation-project-image1.png)
 
 - For older projects folder, which is marked as inactive, approved and reviewed should be deleted
     - Following these steps will help maintain overall translation performance in good health by cleaning up temporary translation files and user groups associated with this project folder.
-![Delete Translation Project and folder  ](../assets/translation/translation-project-image2.png)
+![Delete Translation Project and folder  ](./assets/translation-project-image2.png)
    
 
 ## If you are on, build 4.6 or 2404 or later:
 
 You can continue to follow the same steps as mentioned above. Starting with version 4.6/2404, AEM Guides introduces an editor setting for administrators to disable the automated deletion of translation projects.
 
-Refer : [Automatically delete or disable a completed translation project](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/translate-documents-web-editor#automatically-delete-or-disable-a-completed-translation-project)
+Refer : [Automatically delete or disable a completed translation project](../../../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)
 
-![Automated settings to delete and disable translation project  in AEM Guides  ](../assets/translation/translation-project-image3.png)
+![Automated settings to delete and disable translation project  in AEM Guides  ](./assets/translation-project-image3.png)
