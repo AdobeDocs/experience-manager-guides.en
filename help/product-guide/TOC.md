@@ -356,8 +356,8 @@ breadcrumb-title: AEM Guides Documentation
     - [Adobe Generative AI user disclosures](./user-guide/adobe-generative-ai-disclosures.md)
     - [AI Assistant overview](./user-guide/ai-assistant.md)
     - AI Assistant in Agentic mode {#ai-assistant-agentic}
-      - [Use AI Assistant in Agentic mode](./user-guide/guides-ai.md)
-    -  AI Assistant in Standard mode {#ai-assistant-standard}  
+      - [Use AI Assistant in Agentic mode](./user-guide/ai-assistant-agentic.md)
+    - AI Assistant in Standard mode {#ai-assistant-standard}  
       - [AI-powered smart Help to search content](./user-guide/ai-based-smart-help.md)
       - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
       - [AI-powered smart suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
@@ -494,6 +494,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Install packages for Article-based publishing](./install-conf-guide/conf-article-based-publishing.md)
       - [Configure the ignore list of metadata properties](./install-conf-guide/conf-metadata-prop.md)
       - Editor setting for Cloud Service {#editor-cloud-settings}
+          - [Configure AI Assistant in Agentic mode for Cloud Service](./install-conf-guide/configure-ai-assistant-agentic-mode-cs.md)
           - [Configure the AI-powered smart suggestions for authoring for Cloud Service](./install-conf-guide/conf-smart-suggestions.md)      
           - [Configure the AI-powered Smart Help to search content for Cloud Service](./install-conf-guide/conf-smart-help.md)
           - [Configure the option to edit in Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
@@ -550,10 +551,11 @@ breadcrumb-title: AEM Guides Documentation
           - [Configure the new publishing engine for Native PDF](./native-pdf/conf-new-pdf-engine.md) 
         - [Work with the Native PDF engine v2 ](./native-pdf/new-pdf-engine.md) 
         - [Configure Node process for Native PDF Publishing for Cloud Service](./native-pdf/conf-node-options-cs.md) 
-        - [Configure JVM flags for Native PDF Publishing for On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
+        - [Configure JVM flags for Native PDF Publishing for On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)      
       - Configure content and experience fragments for Cloud Service {#conf-content-exp-fragment}  
         - [Create a mapping between a topic and a content fragment](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
         - [Create a mapping between a topic and an experience fragment](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+      - [Configure XML parser entity size limit](./install-conf-guide/conf-xml-parsing.md)  
     - Workflow customization {#workflow}
       - [Configure and customize workflows](./install-conf-guide/conf-customize-workflows.md)  
     - Integrations {#aemg-integrations}

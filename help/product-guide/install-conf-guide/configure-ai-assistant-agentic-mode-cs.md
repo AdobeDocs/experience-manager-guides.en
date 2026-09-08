@@ -3,7 +3,7 @@ title: Configure AI Assistant in Agentic mode
 description: Learn how to configure the Agentic AI Assistant in Experience Manager Guides
 ---
 
-# Configure AI Assistant in Agentic mode
+# Configure AI Assistant in Agentic mode for Cloud Service
 
 As an Administrator, you can configure AI Assistant in Agentic mode for your organization in Experience Manager Guides. The configuration steps vary depending on whether Unified Shell setting is enabled in your AEM as a Cloud Service environment, and whether the users are logged in through SSO or Non-SSO authentication. This article walks you through the configuration process for each scenario.
 
