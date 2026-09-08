@@ -1,3 +1,9 @@
+---
+title: Release Notes | Fixed issues in Adobe Experience Manager Guides, 2026.09.0 release
+description: Learn about the bug fixes in the 2026.09.0 release of Adobe Experience Manager Guides as a Cloud Service.
+
+---
+
 # Fixed issues in the 2026.09.0 release
 
 This article covers the bugs fixed in various areas of the 2026.09.0 release of Adobe Experience Manager Guides as a Cloud Service.
