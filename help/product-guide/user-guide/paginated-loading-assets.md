@@ -19,14 +19,14 @@ The sections below describe how each of these applies for different interfaces, 
 
 ### Home Repository table
 
-- **Browsing**: Uses infinite scrolling. The first batch of assets load initially, subsequent batches are appended automatically as you scroll. Switching folders clears the current list and loads the assets from the newly selected folder.
+- **Browsing**: Uses infinite scrolling. The first batch of assets load initially; subsequent batches are appended automatically as you scroll. Switching folders clears the current list and loads the assets from the newly selected folder.
 - **Rename**: In-place; no folder refresh.
 - **Delete**: The root folder refreshes to show the first batch of assets.
-- **Add**: The new file is inserted at the top (of the current folder). Additional metadata, such as document state, lock status, file type, creation date, and other details are fetched in a single batched background request and filled automatically in some time.
+- **Add**: The new file is inserted at the top (of the current folder). Additional metadata, such as document state, lock status, file type, creation date, and other details are fetched in a single batched background request and filled automatically after some time.
 - **Move**: Moving a file into the active folder adds it at the top; moving a file out of the active folder refreshes the folder to its first batch of assets.
 - **Refresh button**: Reloads the active folder, showing the first batch of assets.
 - **Sorting**: Display first sorted page with infinite scrolling.
-- **Folder navigation panel**: Opening a folder loads the first batch of assets, with a **Load more** option appended for subsequent batches.st. 
+- **Folder navigation panel**: Opening a folder loads the first batch of assets, with a **Load more** option appended for subsequent batches. 
 
   ![pagiantion for folder navigation panel](images/home-tree-pagination.png){width="650"}
 

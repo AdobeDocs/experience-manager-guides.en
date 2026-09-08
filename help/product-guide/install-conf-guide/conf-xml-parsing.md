@@ -11,12 +11,12 @@ Experience Manager Guides lets you configure a limit on the total entity size th
 
 >[!NOTE]
 >
->You can configure a limit on the total entity size accepted by the XML parser during publishing, mitigating risks such as XML entity expansion attacks and processing of oversized payloads. Please note that entity size limit handling differs between Java 21 and Java 25; accordingly, environments upgrading to Java 25 are advised to review and validate their configuration to ensure publishing workflows continue to operate without error.
+>You can configure a limit on the total entity size accepted by the XML parser during publishing, mitigating risks such as XML entity expansion attacks and processing of oversized payloads. The entity size limit handling differs between Java 21 and Java 25; accordingly, environments upgrading to Java 25 are advised to review and validate their configuration to ensure publishing workflows continue to operate without error.
 
 This configuration involves two related properties:
 
 * **Apply XML Parser Total Entity Size Limit** (`dxml.publish.xml.apply.total.entity.size.limit`): Enables or disables the total entity size limit check.
-* **XML Parser Total Entity Size Limit** (`dxml.publish.xml.total.entity.size.limit`): Specifies the JAXP `totalEntitySizeLimit` value (characters), that is applied to secure XML parsers when the apply flag is enabled.
+* **XML Parser Total Entity Size Limit** (`dxml.publish.xml.total.entity.size.limit`): Specifies the JAXP `totalEntitySizeLimit` value (characters) that is applied to secure XML parsers when the apply flag is enabled.
 
 The following tabs provide instructions to configure these properties based on your Experience Manager Guides setup: Cloud Service or On-Premise.
 
@@ -45,7 +45,7 @@ The following tabs provide instructions to configure these properties based on y
 
 1. Search for and select the *com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService* bundle.
 
-1. Configure the following settings as per your requirement:
+1. Configure the following settings according to your requirements:
 
     * **Apply XML Parser Total Entity Size Limit** (`dxml.publish.xml.apply.total.entity.size.limit`): By default, this setting is disabled.
     * **XML Parser Total Entity Size Limit** (`dxml.publish.xml.total.entity.size.limit`): By default, this value is set to `50000000` characters. This setting takes effect only when the **Apply XML Parser Total Entity Size Limit** setting is enabled.

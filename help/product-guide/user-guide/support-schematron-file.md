@@ -79,7 +79,7 @@ When you open a topic in the Editor, a Schematron Validation panel appears in th
 
 The Schematron support in the Editor helps you in validating the files against a set of rules and maintaining consistency and correctness across the topics.
 
-## Understanding validation results and serverity levels
+## Understanding validation results and severity levels
 
 Validation results are displayed based on the role attribute defined in the Schematron file. Issues are categorized as `Fatal`, `Error`, `Warn`, or `Info`, with a visible count for each category in the Validation panel.
 
