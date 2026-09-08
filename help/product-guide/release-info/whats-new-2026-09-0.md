@@ -15,7 +15,7 @@ Learn about [upgrade instructions for the 2026.09.0 release](../release-info/upg
 
 Now, you can use AI Assistant to suggest and add tags to your content. With the new smart tagging capability, authors can ask AI Assistant to suggest tags for one or more topics, powered by the Smart Tagging skill powered by Adobe CX Enterprise Coworker. The skill reviews the content, generates tag recommendations, and presents them for your review. Once you confirm, the suggested tags are applied to the relevant topics within a map.
 
-For more details, view [Get started with Agentic AI Assistant](../user-guide/guides-ai.md).
+For more details, view [Use AI Assistant in Agentic mode](../user-guide/ai-assistant-agentic.md).
 
 ![](./assets/guides-ai-tags-review.png)
 
@@ -40,7 +40,7 @@ For more details, view [Prevent content overwrites during concurrent editing](..
 
 When a map has one or more static baselines, you can now preview the map based on a selected baseline instead of the current working copy in the Editor.
 
-All versions of the topics, assets, images, and references associated with the selected baseline are displayed in the Preview, providing an accurate view of the map content at the time the baseline was created. For more details, view [Editor views](../user-guide/web-editor-views.md#preview-content-using-baseline).
+All versions of the topics, assets, images, and references associated with the selected baseline are displayed in the Preview, providing an accurate view of the map content at the time the baseline was created. For more details, view [Editor views for topics](../user-guide/web-editor-views.md#preview-content-using-baseline).
 
 ## Review enhancements 
 
@@ -57,7 +57,7 @@ For more details, view [Review topics](../user-guide/review-topics.md#mark-indiv
 
 ### Identify users with roles when tagging in comments
 
-Reviewers and authors can now view a user's role, such as Reviewer, Author, or Owner, along with their username and email address (if available), when tagging someone in a comment or reply. This makes it easier to quickly identify the right user to tag, especially in projects with a large number of participants.
+Reviewers and authors can now view a user's role, such as Reviewer, Author, or Owner, along with their user name and email address (if available), when tagging someone in a comment or reply. This makes it easier to quickly identify the right user to tag, especially in projects with a large number of participants.
 
 Learn more about [tagging users in a comment](../user-guide/review-topics.md#tag-task-users-in-a-comment).
 
