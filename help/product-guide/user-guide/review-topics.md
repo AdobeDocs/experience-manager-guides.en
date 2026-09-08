@@ -277,7 +277,7 @@ To tag a user, enter `@` in a comment or reply and select a user from the list o
 
 User details are displayed in the following order:
 
-`<Role>` | `<Username>` | `<Email address>`
+`<Role>` | `<User name>` | `<Email address>`
 
 If the email address isn't available, only the role and username are displayed.
 

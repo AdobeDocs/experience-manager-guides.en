@@ -46,7 +46,7 @@ All versions of the topics, assets, images, and references associated with the s
 
 ### Mark individual topics as done in a review task
 
-Experience Manager Guides introduces topic-level progress tracking for reviewers, giving you better visibility into your review progress for tasks with multiple topics. You can now mark individual topics as done and distinguish between topics you have completed and those that still need attention. 
+Experience Manager Guides introduces topic-level progress tracking for reviewers, giving a better visibility into the review progress for tasks with multiple topics. As a Reviewer, you can now mark individual topics as done and distinguish between topics you have completed and those that still need attention. 
 
 ![](./assets/mark-topics-done-review-ui.png)
 
