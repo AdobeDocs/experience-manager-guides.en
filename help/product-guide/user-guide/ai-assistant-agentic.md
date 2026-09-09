@@ -24,7 +24,7 @@ The following components of AI Assistant in Agentic mode help you add files, con
     ![Agentic AI Assistant panel converstaion history](images/chat-history.png){width="350"}
 
 - **(B)** New chat: Start a new tagging session for a different topic, map, or set of files.
-- **(C)** Tag namespace: Select the taxonomy namespaces from where the AI Assistant generates tag recommendations. Only tags from the selected namespaces are considered.
+- **(C)** Tag namespace: Select the taxonomy namespaces from where the AI Assistant generates tag recommendations. Only tags from the selected namespaces are considered. 
 
     ![Agentic AI Assistant panel taxonomy](images/taxononmy.png){width="350"}
 
@@ -46,13 +46,13 @@ Perform the following steps to use AI Assistant for applying tags to single or m
 
         ![Access Agentic AI Assistant panel using suggested prompts](images/suggested-prompts.png){width="650"}
 
-    - **Using shortcut**: Type `/` in the Prompt field, then choose **Add repository reference** to choose a topic from the Repository (or **Add files from device** to upload a topic from your computer), and enter the suggested prompt *Suggest tags for a file*.    
+    - **Using shortcut**: Type `/` in the Prompt field, then choose **Add repository reference** to choose a topic from the Repository (or **Add files from device** to upload a topic from your computer), and enter a prompt like *Suggest tags for a file*.    
 
-    - **Drag and drop**: Drag and drop a single topic or multiple topics into the Prompt space, and type the prompt *Suggest tags for a file*.
+    - **Drag and drop**: Drag and drop a single topic or multiple topics into the Prompt space, and enter a prompt like *Suggest tags for a file*.
 
         ![access Agentic AI Assistant panel by dragging and dropping a topic or map](images/dragging-prompts.png){width="650"}
 
-    - **Specify topic paths**: Type `@` followed by the comma-separated paths for multiple topics from the same or different maps, then enter the prompt: *Suggest tags for a file*.
+    - **Specify topic paths**: Type `@` followed by the comma-separated paths for multiple topics from the same or different maps, and enter a prompt like *Suggest tags for a file*.
 
         ![Agentic AI Assistant panel bulk topic addition](images/topics-path-add.png){width="650"}              
 
@@ -101,9 +101,9 @@ Perform the following steps to use AI Assistant for applying tags to multiple to
 
     - **Using Suggested prompts**: For the first chat in the Response area, select **Suggest tags for a file** prompt. The prompt is automatically added to the Prompt space. Select `[file]`, then choose the map from the Repository or a Collection in the **Select file** dialog.   
 
-    - **Drag and drop**: Drag and drop a map into the Prompt space, and type the prompt *Suggest tags for a file*.
+    - **Drag and drop**: Drag and drop a map into the Prompt space, and enter a prompt like *Suggest tags for a file*.
 
-    - **Using shortcut**: Type `/` in the Prompt field, then choose **Add repository reference** to choose a map from the Repository (or **Add files from device** to upload a map from your computer), and enter the suggested prompt *Suggest tags for a file*. 
+    - **Using shortcut**: Type `/` in the Prompt field, then choose **Add repository reference** to choose a map from the Repository (or **Add files from device** to upload a map from your computer), and enter a prompt like *Suggest tags for a file*. 
 
         ![Agentic AI Assistant bulk tagging](images/ai-map-selection.png){width="650"} 
 
