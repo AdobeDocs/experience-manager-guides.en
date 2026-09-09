@@ -19,11 +19,11 @@ Learn about [upgrade instructions for the 2026.09.0 release](./upgrade-instructi
 
 ## Authoring
 
-This section covers the bugs fixed in the Authoring that are common to both Editor 1.0 and Editor 2.0.
+This section covers the bugs fixed in Authoring that are common to both Editor 1.0 and Editor 2.0.
 
 - On low-resolution screens, the Insert Keyword dialog fails to appear when inserting a keyword from the toolbar, while it opens as expected when using **More** option. (GUIDES-48304)
 - Saving a topic when Schematron validation is configured with an empty rule file shows an inaccurate, generic error message. (GUIDES-48106)
-- Schematron rules using a text-node context does not trigger validation. (GUIDES-14500)
+- Schematron rules using a text-node context do not trigger validation. (GUIDES-14500)
 - Inserting a cross-reference using the **Web link** option adds a `scope=local` link and modifies the `href` value, instead of inserting an `scope=external` as expected. (GUIDES-48457)
 - Saving a referencing map results in a broken reference instead of resolving to the correct map when one author moves the referenced map while another author is concurrently adding a reference to it in an unsaved map. (GUIDES-47467)
 
@@ -68,7 +68,7 @@ This section covers the bugs fixed in the Authoring that are common to both Edit
 
 - When a new learning topic is created using a HTML or learning template with a custom header, the topic title doesn’t appear in the custom header. (GUIDES-52343)
 - The calculated accuracy percentage for a course quiz differs slightly from the expected value. (GUIDES-52346)
-- For a course, when attempting a quiz, the marks scored differs slightly from the expected calculated score. (GUIDES-52345)
+- For a course, when attempting a quiz, the marks scored differ slightly from the expected calculated score. (GUIDES-52345)
 
 ## Known issues
 
@@ -77,7 +77,7 @@ Adobe has identified the following known issues for the 2026.09.0 release:
 - Changing the document state of an already locked topic refreshes the entire document. (GUIDES-53905)
 - When using the Preview using baseline feature, preview requests time out for large maps (more than 10,000 topics) or maps with a high number of `keydefs` (for example, 100 `keydefs` and 3,500 topics). (GUIDES-54147)
 - For DB servers, when a map containing a `keydef` without an `href` is previewed with a Preview using baseline option enabled, the `keydef` does not resolve. (GUIDES-53878)
-- Hotspot regions configured on an image map asset are not interactive in Preview mode; preventing authors from validating hotspot links before publishing. (GUIDES-53398)<br>**Workaround**: Insert the image you want to convert into an image map, select **Edit image map** from the context menu, and configure the hotspot links.
+- Hotspot regions configured on an image map asset are not interactive in Preview mode, preventing authors from validating hotspot links before publishing. (GUIDES-53398)<br>**Workaround**: Insert the image you want to convert into an image map, select **Edit image map** from the context menu, and configure the hotspot links.
 - When you move a map with an existing baseline to a different folder while the map is open, the **Preview using baseline** toggle remains selected in Preview mode, but the baseline no longer appears in the dropdown list. (GUIDES-54284)<br>**Workaround**: You can close and reopen the map to resolve the issue.
 - On a freshly configured AEM Cloud Service environment (AEM as a Cloud Service SDK), attempting to create a map or topic file results in a *Failed to create file* error or *Error retrieving the DTD rule*. (GUIDES-53904)<br>**Workaround**: You can restart the AEM Cloud Service environment.
 - When two authors work on the same topic concurrently, locking a topic that has been open for some time by one author does not refresh metadata properties such as the version number, labels, document state, tags, and others, even after they are changed by the other author, causing outdated values to continue being displayed. (GUIDES-54810)<br>**Workaround**: Close and reopen the topic to refresh the metadata and display the latest values.
