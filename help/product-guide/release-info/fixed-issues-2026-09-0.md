@@ -64,6 +64,10 @@ This section covers the bugs fixed in Authoring that are common to both Editor 1
 
 - Opening the Review panel or applying a project filter takes some time to load the task list. (GUIDES-48893) 
 
+## Reports
+
+- Generating the Broken links report for a map with a large number of topics causes the report interface to remain stuck at the **Fetching details for broken links** message indefinitely, making the browser unresponsive and eventually causing it to crash. (GUIDES-37845)
+
 ## Learning content
 
 - When a new learning topic is created using a HTML or learning template with a custom header, the topic title doesn’t appear in the custom header. (GUIDES-52343)
