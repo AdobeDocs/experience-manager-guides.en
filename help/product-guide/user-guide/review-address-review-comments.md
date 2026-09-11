@@ -112,11 +112,11 @@ To tag a user, enter `@` in a comment or reply and select a user from the list o
 
 User details are displayed in the following order:
 
-`<Role>` | `<Username>` | `<Email address>`
+`<Role>` | `<User name>` | `<Email address>`
 
-If the email address isn't available, only the role and username are displayed.
+If the email address isn't available, only the role and name of the user are displayed.
 
-You can also hover over a user in the list to view their username, role, and email address in a tooltip.
+You can also hover over a user in the list to view their user name, role, and email address in a tooltip.
 
 ![](images/tag-users-author-ui.png){width="350"}
 

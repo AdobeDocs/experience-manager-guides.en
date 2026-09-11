@@ -111,7 +111,7 @@ Perform the following steps to review a topic:
 
 ## Mark individual topics as done in a review task
 
-> [!NOTE]
+>[!NOTE]
 >
 > This feature is enabled by default starting with the 2026.09.0 release of Experience Manager Guides as a Cloud Service. If you prefer to switch to the previous behavior, contact your Customer Success team to disable this feature for your environment.
 
@@ -279,7 +279,7 @@ User details are displayed in the following order:
 
 `<Role>` | `<User name>` | `<Email address>`
 
-If the email address isn't available, only the role and username are displayed.
+If the email address isn't available, only the role and name of the user are displayed.
 
 You can also hover over a user in the list to view their username, role, and email address in a tooltip.
 
