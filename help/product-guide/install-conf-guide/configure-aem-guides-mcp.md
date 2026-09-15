@@ -79,8 +79,6 @@ For clients that only support local (stdio) servers, bridge to the remote endpoi
 
 >[!TAB On-premise]
 
-# Connect AI clients to Experience Manager Guides on-premises using MCP
-
 You can connect supported AI clients to an Experience Manager Guides on-premises instance using the Model Context Protocol (MCP). After you establish the connection, the client can access the Experience Manager Guides operations available to your AEM user account.
 
 All operations are performed using **your AEM identity and permissions**. The connected client can view or modify only the content and resources that your AEM account is authorized to access.
@@ -276,4 +274,5 @@ Use the following information to troubleshoot common connection and authenticati
 | All clients    | The connection succeeds, but Experience Manager Guides operations or results aren't available.  | Verify that the authenticated AEM account has the required Experience Manager Guides permissions and that the requested operation is available to the account.                                  |
 | All clients    | The client requests authentication after the connection previously worked.       | The authentication session might have expired or access might have been revoked. Authenticate with AEM again.                                                                    |
 
-[!ENDTABS]
+>[!ENDTABS]
+
