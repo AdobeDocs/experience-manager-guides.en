@@ -4,7 +4,7 @@ description: Learn about the compatibility matrix and how to upgrade to the 5.2.
 ---
 # Upgrade instructions for the 5.2.0 Service Pack 1 release (September 2026)
 
-This article covers the upgrade instructions and the  compatibility matrix for 5.2.0 release of Adobe Experience Manager Guides.
+This article covers the upgrade instructions and the compatibility matrix for 5.2.0 Service Pack 1 release of Adobe Experience Manager Guides.
 
 For more information about the new features and enhancements, view [What's new in the 5.2.0 Service Pack 1 release](../release-info/whats-new-5-2-0-sp1.md).
 
