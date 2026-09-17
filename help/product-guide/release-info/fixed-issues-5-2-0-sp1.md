@@ -68,3 +68,17 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 1 release](upgrade-
 - Using `scope="external"` for a reference to DAM content within a topic or map causes the asset’s relative path to be substituted with a GUID. (GUIDES-35605)
 - For content created before UUID migration, downloading a map with the **Retain file hierarchy** and **Use actual file name** options selected incorrectly converts the `href` values of `topicref`, `xref`, and `conref` elements with `scope="external"` to GUID-based filenames instead of retaining the original relative filepaths. As a result, the external references are broken. (GUIDES-46526)
 - When uploading assets through Assets UI, the upload status is not shown. (GUIDES-7207)
+
+## Known isses
+
+- When changing a `keyref` value in the Source view of the New Editor, a **key not found** error is incorrectly displayed, even when the specified key is valid. (GUIDES-49998)
+- When performing a review operation inside a code block, an **Operation not allowed** warning is displayed on the first attempt, but the operation succeeds when repeated. (GUIDES-56749)
+- Code block or `<pre>` content is displayed on a single line, without line breaks, in the Review UI. (GUIDES-56105)
+- Selecting a processing instruction (PI) element in Outline view highlights the entire parent tag instead of just the PI element. (GUIDES-48318)
+- Content deletion issues in the New Editor including unexpected cursor behavior when deleting image maps, Prolog elements, content with empty formatting tags, and non-mergeable blocks. (GUIDES-46756)
+- MathML equation wrapped inside `foreign`/`equation-block` causes unwanted spaces and editing issues. (GUIDES-46756)
+- With **Display tags** enabled and **Display attributes** disabled, placing the cursor inside a `topicref` within a reltable incorrectly highlights the `topicmeta` element. (GUIDES-46565)
+- In the New Editor, deleting the display text of an `xref` using Backspace incorrectly displays a read-only warning near reusable content and can delete the character preceding the `xref`. (GUIDES-45049)
+- In the New Editor, the breadcrumb does not update immediately after renaming an inline element and requires moving inside the tag or switching views to reflect the change. (GUIDES-44993)
+- In Full Tags view, conditions applied to an element such as `bodydiv` visually overflow into the next tag. (GUIDES-44971)
+
