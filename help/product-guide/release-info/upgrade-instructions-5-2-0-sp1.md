@@ -1,6 +1,6 @@
 ---
-title: Release Notes | Upgrade instructions for Adobe Experience Manager Guides 5.2.0 release
-description: Learn about the compatibility matrix and how to upgrade to the 5.2.0 release of Adobe Experience Manager Guides.
+title: Release Notes | Upgrade instructions for Adobe Experience Manager Guides 5.2.0 Service Pack 1 release
+description: Learn about the compatibility matrix and how to upgrade to the 5.2.0 Service Pack 1 release of Adobe Experience Manager Guides.
 ---
 # Upgrade instructions for the 5.2.0 Service Pack 1 release (September 2026)
 
