@@ -34,13 +34,13 @@ Experience Manager Guides now supports Model Context Protocol (MCP). You can con
 For more details, view [Using Adobe Experience Manager Guides MCP Server](../install-conf-guide/conf-aem-guides-mcp.md).
 
 
-### Support for external data sources and citations now available in the New Editor
+## Support for external data sources and citations now available in the New Editor
 
 The New Editor now supports two existing Experience Manager Guides capabilities: Ability to connect with external data sources and use citations in the documents.
 
 Authors can continue using configured external data sources while creating or updating content in the New Editor. Citations are also supported, so authors can add and manage references in their content without switching editors. 
 
-### Support for AMA citation style
+## Support for AMA citation style
 
 Experience Manager Guides now supports the American Medical Association (AMA) citation style, extending the existing citation framework to meet the documentation standards required by customers in healthcare, regulatory, and life sciences sectors.
 
