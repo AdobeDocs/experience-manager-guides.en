@@ -12,14 +12,13 @@ Experience Manager Guides is an enterprise-grade CCMS with native DITA support f
 
 ## Explore by feature area
 
-||||
 |---|---|---|
 | ![](./user-guide/images/author.svg) [**Authoring**](./user-guide/web-editor.md) <br> Web editor, FrameMaker integration, reusable content. | ![](./user-guide/images/review.svg)  [**Review**](./user-guide/review.md)<br> Review topics, manage review tasks, and review notifications. | ![](./user-guide/images/publish.svg) [**Publishing**](./user-guide/publish.md)<br> PDF, AEM Sites, HTML5, EPUB, and JSON output types. |
 | ![](./user-guide/images/Smock_Report_18_N.svg) [**Reports**](./user-guide/reports-intro.md)<br> Topic list, broken links, and metadata reports. | ![](./user-guide/images/Smock_GlobeGrid_18_N.svg) [**Translation**](./user-guide/translation.md)<br> Human and machine translation workflows for multilingual content. | |
 
 ## What's new
 
-||||
+
 |---|---|---|
 | [!BADGE Feature]{type=Informative} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories. | [!BADGE Feature]{type=Informative} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs | [!BADGE Enhancement]{type=Informative} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer |
 
