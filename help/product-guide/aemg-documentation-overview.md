@@ -46,25 +46,7 @@ Experience Manager Guides is an enterprise-grade CCMS with native DITA support f
 
 Select your deployment to find version-specific documentation and release notes.
 
->[!BEGINTABS]
-
->[!TAB Cloud service]
-
-You are running Experience Manager Guides as a cloud service. Find the latest release notes, known issues, and upgrade information for the cloud deployment.
-
-[Cloud service release notes](release-info/latest-release-info.md)
-
->[!TAB On-premises (4.x)]
-
-You are running the on-premises deployment of Experience Manager Guides. Find installation requirements, configuration steps, and upgrade paths for the 4.x release line.
-
-[On-premises installation guide](install-guide/install-configure-xml-documentation.md)
-
->[!TAB Managed services]
-
-You are running Experience Manager Guides on managed services. Contact your Adobe customer success manager for deployment-specific documentation and upgrade schedules.
-
->[!ENDTABS]
+[!BADGE Cloud Service]{type=Informative}, [!BADGE On-Premise]{type=Informative}, [!BADGE Mananged services]{type=Informative}
 
 ## Start by your role
 
@@ -73,43 +55,43 @@ You are running Experience Manager Guides on managed services. Contact your Adob
 ::::landing-cards-container
 
 :::card
-![Authors icon](https://cdn.experienceleague.adobe.com/icons/pencil.svg)
+![Authors icon](./user-guide/images/author.svg)
 
 Authors
 
 Create and manage DITA topics, maps, content reuse, and review workflows.
 
-[Go to authoring guide](user-guide/authoring-content-xml-editor.md)
+[Go to authoring guide](./user-guide/authoring-content.md)
 :::
 
 :::card
-![Administrators icon](https://cdn.experienceleague.adobe.com/icons/settings.svg)
+![Administrators icon](./user-guide/images/admin.svg)
 
 Administrators
 
 Configure folder profiles, permissions, workflow settings, and output templates.
 
-[Go to administration guide](install-guide/configure-server-settings.md)
+[Go to administration guide](./install-conf-guide/introduction.md)
 :::
 
 :::card
-![Publishers icon](https://cdn.experienceleague.adobe.com/icons/send.svg)
+![Publishers icon](./user-guide/images/publish.svg)
 
 Publishers
 
 Set up output presets, manage baselines, and generate output across channels.
 
-[Go to publishing guide](user-guide/output-understanding.md)
+[Go to publishing guide](./user-guide/map-console-overview.md)
 :::
 
 :::card
-![Architects icon](https://cdn.experienceleague.adobe.com/icons/sitemap.svg)
+![Architects icon](./user-guide/images/architects.svg)
 
 Architects
 
 Design DITA specializations, schemas, and content architecture for your implementation.
 
-[Go to architecture guide](user-guide/ditaval-editor.md)
+[DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
 
 ::::
@@ -121,43 +103,53 @@ Design DITA specializations, schemas, and content architecture for your implemen
 ::::landing-cards-container
 
 :::card
-![Authoring icon](https://cdn.experienceleague.adobe.com/icons/edit.svg)
+![Authoring icon](./user-guide/images/author.svg)
 
 Authoring
 
 Web editor, FrameMaker integration, reusable content, and review cycles.
 
-[Explore authoring](user-guide/authoring-content-xml-editor.md)
+[Explore authoring](./user-guide/web-editor.md)
 :::
 
 :::card
-![Publishing icon](https://cdn.experienceleague.adobe.com/icons/export.svg)
+![Review icon](./user-guide/images/review.svg)
+
+Review
+
+Review topics, manage review tasks, and review notifications.
+
+[Explore review](./user-guide/review.md)
+:::
+
+:::card
+![Publishing icon](./user-guide/images/publish.svg)
 
 Publishing
 
 PDF, AEM Sites, HTML5, EPUB, and JSON output types.
 
-[Explore publishing](user-guide/output-understanding.md)
+[Explore publishing](./user-guide/publish.md)
 :::
 
 :::card
-![Translation icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![Translation icon](./user-guide/images/Smock_GlobeGrid_18_N.svg)
 
 Translation
 
 Human and machine translation workflows for multilingual content.
 
-[Explore translation](user-guide/translation.md)
+[Explore translation](./user-guide/translation.md)
 :::
 
 :::card
-![Reports icon](https://cdn.experienceleague.adobe.com/icons/chart-bar.svg)
+![Reports icon](./user-guide/images/Smock_Report_18_N.svg)
 
 Reports
 
 Content coverage, broken links, and metadata audit reports.
 
-[Explore reports](user-guide/reports-intro.md)
+[Explore reports](./user-guide/reports-intro.md)
 :::
 
 :::card
@@ -170,34 +162,39 @@ Folder profiles, DITA-OT customisation, and output templates.
 [Explore configuration](install-guide/configure-server-settings.md)
 :::
 
-:::card
-![Migration icon](https://cdn.experienceleague.adobe.com/icons/import.svg)
-
-Migration
-
-FrameMaker-to-DITA conversion and legacy content import.
-
-[Explore migration](user-guide/migrate-content.md)
-:::
-
 ::::
 
 ## What's new
 
 <!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
 
-| | | |
-|---|---|---|
-| [!BADGE 2026.06.0]{type=Informative} <br> **[AI assistant enhancements](whats-new/2026-06-0.md)** <br> Smart suggestions and context-aware authoring in the web editor. | [!BADGE Beta]{type=Caution} <br> **[Native PDF conditional output](native-pdf/components-pdf-template.md)** <br> Condition-based publishing profiles without DITA-OT overrides. | [!BADGE Video course]{type=Informative} <br> **[Getting started course](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}** <br> Create, organise, author, and publish with AEM Guides. |
+## What's new
+
+<table>
+<tr>
+<td>
+
+[!BADGE Feature]{type=Informative} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories.
+
+</td>
+<td>
+
+[!BADGE Feature]{type=Informative} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs
+
+</td>
+<td>
+
+[!BADGE Enhancement]{type=Informative} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer
+
+</td>
+</tr>
+</table>
 
 ## Additional resources
 
-* [Release notes](release-info/latest-release-info.md)
-* [AEM Guides community](https://experienceleague.adobe.com/en/community/experience-manager){target="_blank"}
+* [Release notes for Cloud Service](./release-info/latest-release-info-cs.md)
+* [Release notes for On-Premise](./release-info/latest-release-info.md)
+* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 * [GitHub repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
 * [Video tutorials](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-
->[!NOTE]
->
->Adobe Experience Manager Guides was formerly branded as XML Documentation for Adobe Experience Manager. References to the prior branding in the documentation are still applicable to the current offering.
