@@ -59,7 +59,7 @@ Authors
 
 Create and manage DITA topics, maps, content reuse, and review workflows.
 
-[Go to authoring guide](./user-guide/authoring-content.md)
+[Authoring overview](./user-guide/authoring-content.md)
 :::
 
 :::card
@@ -69,7 +69,7 @@ Administrators
 
 Configure folder profiles, permissions, workflow settings, and output templates.
 
-[Go to administration guide](./install-conf-guide/introduction.md)
+[Administration guide](./install-conf-guide/introduction.md)
 :::
 
 :::card
@@ -79,7 +79,7 @@ Publishers
 
 Set up output presets, manage baselines, and generate output across channels.
 
-[Go to publishing guide](./user-guide/map-console-overview.md)
+[Map management and publishing](./user-guide/map-console-overview.md)
 :::
 
 :::card
@@ -107,7 +107,7 @@ Authoring
 
 Web editor, FrameMaker integration, reusable content, and review cycles.
 
-[Explore authoring](./user-guide/web-editor.md)
+[Authore your content](./user-guide/web-editor.md)
 :::
 
 :::card
@@ -117,7 +117,7 @@ Review
 
 Review topics, manage review tasks, and review notifications.
 
-[Explore review](./user-guide/review.md)
+[Start with review](./user-guide/review.md)
 :::
 
 :::card
@@ -127,7 +127,7 @@ Publishing
 
 PDF, AEM Sites, HTML5, EPUB, and JSON output types.
 
-[Explore publishing](./user-guide/publish.md)
+[Publish your content](./user-guide/publish.md)
 :::
 
 :::card
@@ -137,7 +137,7 @@ Translation
 
 Human and machine translation workflows for multilingual content.
 
-[Explore translation](./user-guide/translation.md)
+[Translate content](./user-guide/translation.md)
 :::
 
 :::card
@@ -147,7 +147,7 @@ Reports
 
 Topic list, multimedia, broken links, and metadata reports.
 
-[Explore reports](./user-guide/reports-intro.md)
+[Generate reports](./user-guide/reports-intro.md)
 :::
 
 :::card
@@ -157,7 +157,7 @@ Configuration
 
 Folder profiles, DITA-OT customisation, and output templates.
 
-[Explore configuration](./install-conf-guide/conf-profiles.md)
+[onfigure folder profiles](./install-conf-guide/conf-profiles.md)
 :::
 
 ::::
