@@ -7,6 +7,7 @@ breadcrumb-title: AEM Guides Documentation
 # [!DNL Adobe Experience Manager Guides] {#using}
 
 - [[!DNL AEM Guides] overview](overview.md)
+- {hide-from-toc} [AEM Guides Landing page](aemg-user-guide-landing-page-updated)
 - [Disclaimer](./user-guide/rebranding-disclaimer.md)
 - Release Information {#release-info}
   - [AEM Guides releases roadmap](./release-info/aem-guides-releases-roadmap.md)
