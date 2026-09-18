@@ -60,7 +60,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 ||||
 |---|---|---|
-| ![](./user-guide/images/Smock_EditInLight_18_N.svg) [**Authoring**](./user-guide/web-editor.md) <br> Web editor, FrameMaker integration, reusable content. | ![](./user-guide/images/Smock_Article_18_N.svg)  [**Review**](./user-guide/review.md)<br> Review topics, manage review tasks, and review notifications. | ![](./user-guide/images/Smock_AssetsPublished_18_N.svg) [**Publishing**](./user-guide/generate-output.md)<br> PDF, AEM Sites, HTML5, EPUB, and JSON output types. |
+| ![](./user-guide/images/author.svg) [**Authoring**](./user-guide/web-editor.md) <br> Web editor, FrameMaker integration, reusable content. | ![](./user-guide/images/review.svg)  [**Review**](./user-guide/review.md)<br> Review topics, manage review tasks, and review notifications. | ![](./user-guide/images/Smock_AssetsPublished_18_N.svg) [**Publishing**](./user-guide/publish.md)<br> PDF, AEM Sites, HTML5, EPUB, and JSON output types. |
 | ![](./user-guide/images/Smock_Report_18_N.svg) [**Reports**](./user-guide/reports-intro.md)<br> Topic list, broken links, and metadata reports. | ![](./user-guide/images/Smock_GlobeGrid_18_N.svg) [**Translation**](./user-guide/translation.md)<br> Human and machine translation workflows for multilingual content. | |
 
 ## What's new
