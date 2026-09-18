@@ -71,14 +71,13 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 1 release](upgrade-
 
 ## Known issues
 
-- When changing a `keyref` value in the Source view of the New Editor, a **key not found** error is incorrectly displayed, even when the specified key is valid. (GUIDES-49998)
 - When performing a review operation inside a code block, an **Operation not allowed** warning is displayed on the first attempt, but the operation succeeds when repeated. (GUIDES-56749)
 - Code block or `<pre>` content is displayed on a single line, without line breaks, in the Review UI. (GUIDES-56105)
-- Selecting a processing instruction (PI) element in Outline view highlights the entire parent tag instead of just the PI element. (GUIDES-48318)
-- Content deletion issues in the New Editor including unexpected cursor behavior when deleting image maps, Prolog elements, content with empty formatting tags, and non-mergeable blocks. (GUIDES-46756)
-- MathML equation wrapped inside `foreign`/`equation-block` causes unwanted spaces and editing issues. (GUIDES-46756)
-- With **Display tags** enabled and **Display attributes** disabled, placing the cursor inside a `topicref` within a reltable incorrectly highlights the `topicmeta` element. (GUIDES-46565)
-- In the New Editor, deleting the display text of an `xref` using Backspace incorrectly displays a read-only warning near reusable content and can delete the character preceding the `xref`. (GUIDES-45049)
-- In the New Editor, the breadcrumb does not update immediately after renaming an inline element and requires moving inside the tag or switching views to reflect the change. (GUIDES-44993)
-- In Full Tags view, conditions applied to an element such as `bodydiv` visually overflow into the next tag. (GUIDES-44971)
+- Selecting a processing instruction element in the Outline view highlights the entire parent tag instead of the selected element. (GUIDES-48318)
+- While performing deletion operations, some minor inconsistencies in cursor movement and navigation can occur across image maps, structured elements, inline formatting tags, and non-mergeable blocks, occasionally resulting in unexpected cursor or deletion behavior. (GUIDES-46756)
+- A MathML equation wrapped inside a `foreign` and `equation` block results in unwanted spacing, and typing inside the equation causes issues even after adjusting indentation. (GUIDES-46606)
+- Unable to place a cursor inside a `topicref` within a `reltable` when the **Show tags** option is enabled and the **Display attributes** option is disabled in the Editor settings. (GUIDES-46565)
+- Pressing backspace at the beginning of a paragraph immediately following read-only content (such as a conref paragraph) can unexpectedly delete or merge the editable paragraph, leading to unexpected deletion of the editable paragraph. (GUIDES-45049)
+- When an inline tag is renamed using the Rename element option, the breadcrumb does not update immediately and reflects the change only after the cursor is moved into the tag or the view mode is changed. (GUIDES-44993)<br>**Workaround:** Refresh the browser after renaming the inline tag to update the breadcrumb.
+- When condition indicators are applied to elements such as bodydiv, the indicators overflow into adjacent tags in Full Tags View, resulting in incorrect visual rendering. (GUIDES-44971)
 
