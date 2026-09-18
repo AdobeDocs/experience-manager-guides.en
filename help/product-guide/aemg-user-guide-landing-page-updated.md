@@ -58,73 +58,24 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 ## Explore by feature area
 
-::::landing-cards-container
-
-:::card
-![Authoring icon](https://cdn.experienceleague.adobe.com/icons/edit.svg)
-
-Authoring
-
-Web editor, FrameMaker integration, reusable content, and review cycles.
-
-[Explore authoring](user-guide/authoring-content-xml-editor.md)
-:::
-
-:::card
-![Review icon](https://cdn.experienceleague.adobe.com/icons/clipboard-check.svg)
-
-Review
-
-Review topics, manage review tasks, and review notifications.
-
-[Explore review](user-guide/review-topics.md)
-:::
-
-:::card
-![Publishing icon](https://cdn.experienceleague.adobe.com/icons/export.svg)
-
-Publishing
-
-PDF, AEM Sites, HTML5, EPUB, and JSON output types.
-
-[Explore publishing](user-guide/output-understanding.md)
-:::
-
-:::card
-![Reports icon](https://cdn.experienceleague.adobe.com/icons/chart-bar.svg)
-
-Reports
-
-Content coverage, broken links, and metadata audit reports.
-
-[Explore reports](user-guide/reports-intro.md)
-:::
-
-:::card
-![Translation icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
-
-Translation
-
-Human and machine translation workflows for multilingual content.
-
-[Explore translation](user-guide/translation.md)
-:::
-
-::::
+| | | |
+|---|---|---|
+| **[Authoring](./user-guide/web-editor.md)** <br> Web editor, FrameMaker integration, reusable content. | **[Review](./user-guide/review.md)** <br> Review topics, manage review tasks, and review notifications. | **[Publishing](./user-guide/generate-output.md)** <br> PDF, AEM Sites, HTML5, EPUB, and JSON output types. |
+| **[Reports](./user-guide/reports-intro.md)** <br> Topic list, broken links, and metadata reports. | **[Translation](./user-guide/translation.md)** <br> Human and machine translation workflows for multilingual content. | |
 
 ## What's new
 
 | | | |
 |---|---|---|
-| [!BADGE Feature]{type=Informative} <br> **[Import content using Git Connector](whats-new/2026-06-0.md)** <br> Smart suggestions and context-aware authoring in the web editor. | [!BADGE Feature]{type=Informative} <br> **[New map collection](native-pdf/components-pdf-template.md)** <br> Condition-based publishing profiles without DITA-OT overrides. | [!BADGE Enhancement]{type=Informative} <br> **[Delegate a review task](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}** <br> Create, organise, author, and publish with AEM Guides. |
+| [!BADGE Feature]{type=Informative} <br> **[Import content using Git Connector](./user-guide/web-editor-git-connector.md)** <br> Import content into Guides directly from Git repositories. | [!BADGE Feature]{type=Informative} <br> **[New map collection](./user-guide/generate-output-use-new-map-collection-output-generation.md)** <br> Unified interface for managing maps and publishing outputs | [!BADGE Enhancement]{type=Informative} <br> **[Delegate a review task](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer |
 
 ## Additional resources
 
-* [Release notes for Cloud Service](release-info/latest-release-info.md)
-* [Release notes for On-Premise](re)
-* [AEM Guides community](https://experienceleague.adobe.com/en/community/experience-manager){target="_blank"}
+* [Release notes for Cloud Service](./release-info/latest-release-info-cs.md)
+* [Release notes for On-Premise](./release-info/latest-release-info.md)
+* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 * [GitHub repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
 * [Video tutorials](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
 >[!NOTE]
