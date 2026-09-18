@@ -10,52 +10,6 @@ Experience Manager Guides is an enterprise-grade CCMS with native DITA support f
 
 [!BADGE Cloud Service]{type=Informative}, [!BADGE On-Premise]{type=Informative}, [!BADGE Mananged services]{type=Informative}
 
-<!--## Start by your role
-
-::::landing-cards-container
-
-:::card
-![Authors icon](https://cdn.experienceleague.adobe.com/icons/pencil.svg)
-
-Authors
-
-Create and manage DITA topics, maps, content reuse, and review workflows.
-
-[Go to authoring guide](user-guide/authoring-content-xml-editor.md)
-:::
-
-:::card
-![Administrators icon](https://cdn.experienceleague.adobe.com/icons/settings.svg)
-
-Administrators
-
-Configure folder profiles, permissions, workflow settings, and output templates.
-
-[Go to administration guide](install-guide/configure-server-settings.md)
-:::
-
-:::card
-![Publishers icon](https://cdn.experienceleague.adobe.com/icons/send.svg)
-
-Publishers
-
-Set up output presets, manage baselines, and generate output across channels.
-
-[Go to publishing guide](user-guide/output-understanding.md)
-:::
-
-:::card
-![Architects icon](https://cdn.experienceleague.adobe.com/icons/sitemap.svg)
-
-Architects
-
-Design DITA specializations, schemas, and content architecture for your implementation.
-
-[Go to architecture guide](user-guide/ditaval-editor.md)
-:::
-
-::::-->
-
 ## Explore by feature area
 
 ||||
@@ -78,6 +32,3 @@ Design DITA specializations, schemas, and content architecture for your implemen
 * [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
 * [Video tutorials](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
->[!NOTE]
->
->Adobe Experience Manager Guides was formerly branded as XML Documentation for Adobe Experience Manager. References to the prior branding in the documentation are still applicable to the current offering.
