@@ -120,7 +120,8 @@ Human and machine translation workflows for multilingual content.
 
 ## Additional resources
 
-* [Release notes](release-info/latest-release-info.md)
+* [Release notes for Cloud Service](release-info/latest-release-info.md)
+* [Release notes for On-Premise](re)
 * [AEM Guides community](https://experienceleague.adobe.com/en/community/experience-manager){target="_blank"}
 * [GitHub repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
 * [Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html){target="_blank"}
