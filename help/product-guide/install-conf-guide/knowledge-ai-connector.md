@@ -1,6 +1,11 @@
-# Connecting AEM Guides with AEM Guides Knowledge AI
+# Connecting AEM Guides with Guides Knowledge AI (Beta)
 
-This article provides Administrators and Content engineers with the end-to-end process for configuring Knowledge AI access and uploading AEM Guides content for consumption within Knowledge AI. 
+>[!IMPORTANT]
+>
+> Contact your Customer Success team to enable this feature.
+
+
+This article provides Administrators and Content engineers with the end-to-end process for configuring Guides Knowledge AI access and uploading AEM Guides content for consumption within Knowledge AI. 
 
 ## Process at a glance
 
