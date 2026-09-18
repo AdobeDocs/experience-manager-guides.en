@@ -107,7 +107,7 @@ Authoring
 
 Web editor, FrameMaker integration, reusable content, and review cycles.
 
-[Authore your content](./user-guide/web-editor.md)
+[Author your content](./user-guide/web-editor.md)
 :::
 
 :::card
@@ -117,7 +117,7 @@ Review
 
 Review topics, manage review tasks, and review notifications.
 
-[Start with review](./user-guide/review.md)
+[Introduction to review](./user-guide/review.md)
 :::
 
 :::card
@@ -157,7 +157,7 @@ Configuration
 
 Folder profiles, DITA-OT customisation, and output templates.
 
-[onfigure folder profiles](./install-conf-guide/conf-profiles.md)
+[Configure folder profiles](./install-conf-guide/conf-profiles.md)
 :::
 
 ::::
@@ -166,7 +166,6 @@ Folder profiles, DITA-OT customisation, and output templates.
 
 <!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
 
-## What's new
 
 <table>
 <tr>
