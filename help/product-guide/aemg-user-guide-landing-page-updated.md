@@ -58,69 +58,16 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 ## Explore by feature area
 
-::::landing-cards-container
-
-:::card
-**[Authoring](./user-guide/web-editor.md)**
-
-Web editor, FrameMaker integration, reusable content.
-:::
-
-:::card
-**[Review](./user-guide/review.md)**
-
-Review topics, manage review tasks, and review notifications.
-:::
-
-:::card
-**[Publishing](./user-guide/generate-output.md)**
-
-PDF, AEM Sites, HTML5, EPUB, and JSON output types.
-:::
-
-:::card
-**[Reports](./user-guide/reports-intro.md)**
-
-Topic list, broken links, and metadata reports.
-:::
-
-:::card
-**[Translation](./user-guide/translation.md)**
-
-Human and machine translation workflows for multilingual content.
-:::
-
-::::
+|---|---|---|
+|---|---|---|
+| **[Authoring](./user-guide/web-editor.md)** <br> Web editor, FrameMaker integration, reusable content. | **[Review](./user-guide/review.md)** <br> Review topics, manage review tasks, and review notifications. | **[Publishing](./user-guide/generate-output.md)** <br> PDF, AEM Sites, HTML5, EPUB, and JSON output types. |
+| **[Reports](./user-guide/reports-intro.md)** <br> Topic list, broken links, and metadata reports. | **[Translation](./user-guide/translation.md)** <br> Human and machine translation workflows for multilingual content. | |
 
 ## What's new
 
-::::landing-cards-container
-
-:::card
-[!BADGE Feature]{type=Informative}
-
-**[Import content using Git Connector](./user-guide/web-editor-git-connector.md)**
-
-Import content into Guides directly from Git repositories.
-:::
-
-:::card
-[!BADGE Feature]{type=Informative}
-
-**[New map collection](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
-
-Unified interface for managing maps and publishing outputs.
-:::
-
-:::card
-[!BADGE Enhancement]{type=Informative}
-
-**[Delegate a review task](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
-
-Reviewers can delegate a review task to another reviewer.
-:::
-
-::::
+|---|---|---|
+|---|---|---|
+| [!BADGE Feature]{type=Informative} <br> **[Import content using Git Connector](./user-guide/web-editor-git-connector.md)** <br> Import content into Guides directly from Git repositories. | [!BADGE Feature]{type=Informative} <br> **[New map collection](./user-guide/generate-output-use-new-map-collection-output-generation.md)** <br> Unified interface for managing maps and publishing outputs | [!BADGE Enhancement]{type=Informative} <br> **[Delegate a review task](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer |
 
 ## Additional resources
 
