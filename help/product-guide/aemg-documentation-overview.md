@@ -127,7 +127,7 @@ Publishing
 
 PDF, AEM Sites, HTML5, EPUB, and JSON output types.
 
-[Publish your content](./user-guide/publish.md)
+[Publish your content](./user-guide/generate-output.md)
 :::
 
 :::card
