@@ -145,7 +145,7 @@ Human and machine translation workflows for multilingual content.
 
 Reports
 
-Content coverage, broken links, and metadata audit reports.
+Topic list, multimedia, broken links, and metadata reports.
 
 [Explore reports](./user-guide/reports-intro.md)
 :::
@@ -157,7 +157,7 @@ Configuration
 
 Folder profiles, DITA-OT customisation, and output templates.
 
-[Explore configuration](install-guide/configure-server-settings.md)
+[Explore configuration](./install-conf-guide/conf-profiles.md)
 :::
 
 ::::
