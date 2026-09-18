@@ -103,7 +103,7 @@ Before you connect a client, work with your AEM administrator to verify the foll
 
 3. **Configure the Day CQ Link Externalizer.**: In the AEM Web Console Configuration Manager, locate the **Day CQ Link Externalizer** configuration and verify that the external author URL points to the correct AEM author instance. The external author URL is used during OAuth discovery. An incorrect URL can prevent the client from completing the connection. 
 
-  For more details, view [Configure MCP connection settings for AEM Guides On-Premise](./configure-aem-guides-mcp-on-prem.md)
+    For more details, view [Configure MCP connection settings for AEM Guides On-Premise](./configure-aem-guides-mcp-on-prem.md)
 
 4. **Obtain the MCP server URL.**: The MCP server URL uses the following format:
 
