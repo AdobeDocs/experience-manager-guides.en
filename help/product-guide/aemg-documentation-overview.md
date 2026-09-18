@@ -44,7 +44,7 @@ topic_v2:
 
 Experience Manager Guides is an enterprise-grade CCMS with native DITA support for structured authoring, multichannel publishing, and content lifecycle management.
 
-[!BADGE Cloud Service]{type=Informative}, [!BADGE On-Premise]{type=Informative}, [!BADGE Mananged services]{type=Informative}
+**Deployment:** [!BADGE Cloud Service]{type=Informative} [!BADGE On-Premise]{type=Informative} [!BADGE Mananged services]{type=Informative}
 
 ## Start by your role
 
@@ -53,7 +53,7 @@ Experience Manager Guides is an enterprise-grade CCMS with native DITA support f
 ::::landing-cards-container
 
 :::card
-![Authors icon](./user-guide/images/author.svg)
+![Authors icon](./user-guide/images/author.png)
 
 Authors
 
@@ -63,7 +63,7 @@ Create and manage DITA topics, maps, content reuse, and review workflows.
 :::
 
 :::card
-![Administrators icon](./user-guide/images/admin.svg)
+![Administrators icon](./user-guide/images/admin.png)
 
 Administrators
 
@@ -73,7 +73,7 @@ Configure folder profiles, permissions, workflow settings, and output templates.
 :::
 
 :::card
-![Publishers icon](./user-guide/images/publish.svg)
+![Publishers icon](./user-guide/images/publish.png)
 
 Publishers
 
@@ -82,6 +82,7 @@ Set up output presets, manage baselines, and generate output across channels.
 [Map management and publishing](./user-guide/map-console-overview.md)
 :::
 
+<!--
 :::card
 ![Architects icon](./user-guide/images/architect.svg)
 
@@ -91,7 +92,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 [DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
-
+-->
 ::::
 
 ## Explore by feature area
@@ -171,17 +172,17 @@ Folder profiles, DITA-OT customisation, and output templates.
 <tr>
 <td>
 
-[!BADGE Feature]{type=Informative} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories.
+[!BADGE Feature]{type=Neutral} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories.
 
 </td>
 <td>
 
-[!BADGE Feature]{type=Informative} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs
+[!BADGE Feature]{type=Neutral} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs
 
 </td>
 <td>
 
-[!BADGE Enhancement]{type=Informative} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer
+[!BADGE Enhancement]{type=Neutral} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer
 
 </td>
 </tr>
