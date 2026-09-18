@@ -21,7 +21,7 @@ Experience Manager Guides exposes its MCP capabilities through a single HTTP end
 
 | MCP server | Endpoint | Description |
 |---|---|---|
-| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Work with topics and maps, baselines, and reports in Experience Manager Guides. |
+| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Work with topics and maps, [new baselines](../user-guide/web-editor-baseline-v2.md), and reports in Experience Manager Guides. |
 
 To discover the current tool list for your environment, ask your assistant:
 
@@ -222,6 +222,8 @@ Configure the Experience Manager Guides MCP server in Cursor by adding the serve
 
 5. Enable the configured MCP server.
 
+>[!ENDTABS]
+
 ## Authenticate and use Experience Manager Guides
 
 After you configure the MCP connection in your client, authenticate with your AEM account.
@@ -274,5 +276,5 @@ Use the following information to troubleshoot common connection and authenticati
 | All clients    | The connection succeeds, but Experience Manager Guides operations or results aren't available.  | Verify that the authenticated AEM account has the required Experience Manager Guides permissions and that the requested operation is available to the account.                                  |
 | All clients    | The client requests authentication after the connection previously worked.       | The authentication session might have expired or access might have been revoked. Authenticate with AEM again.                                                                    |
 
->[!ENDTABS]
+
 

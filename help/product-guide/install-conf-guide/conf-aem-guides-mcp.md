@@ -11,7 +11,7 @@ The Model Context Protocol (MCP) is a standard way for AI assistants to connect 
 
 The Adobe Experience Manager Guides MCP server brings this to Experience Manager Guides. It allows an MCP-enabled AI assistant, such as Anthropic Claude, to connect to your Experience Manager Guides environment and act on your behalf, under your own AEM permissions. Once connected, you can work with your maps, topics, baselines, and reports on Experience Manager Guides as a Cloud Service using plain natural language.
 
-This article explains why MCP is useful for Experience Manager Guides, what the MCP server covers, which applications it works with, how to set it up, and how to use it.
+This article explains why MCP is useful for Experience Manager Guides, what the MCP server covers, which applications it works with, and how to use it.
 
 ## Why MCP for Experience Manager Guides is useful
 
@@ -25,93 +25,32 @@ For example:
 
 ## MCP server provided by Experience Manager Guides
 
-Experience Manager Guides exposes its MCP capabilities through a single HTTP endpoint.
+Experience Manager Guides exposes MCP capabilities for working with Experience Manager Guides content and related workflows. Depending on your AEM permissions, the MCP server provides access to the following capabilities:
 
-| MCP server | Endpoint | Description |
-| --- | --- | --- |
-| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Work with topics and maps, baselines, and reports in Experience Manager Guides. |
+* **Topics and maps**: Work with topics and maps throughout the content lifecycle, from creating and viewing content to updating, versioning, locking, and deleting it.
+* **Baselines**: Work with baselines by creating, listing, exporting, duplicating, rebuilding, and labeling them.
+  >[!NOTE]
+  >
+  > For both Cloud Service and on-premises environments, baseline capabilities are available only when [new baseline](../user-guide/web-editor-baseline-v2.md) is enabled.
+* **Reports**: Gain insights into your content by accessing topic lists and metadata, identifying broken links, and reviewing multimedia usage.
+* **System**: Understand the state of your system by checking package versions, bundle health, and environment diagnostics.
 
-This one endpoint covers four areas:
-
-- **Topics and maps** - Create, read, update, delete, version, and lock topics and maps.
-- **Baselines** - Create, list, export, duplicate, rebuild, and label baselines.
-- **Reports** - Topic lists, metadata, broken links, and multimedia usage.
-- **System** - Package version, bundle health, and environment diagnostics.
+If you don't have permission to perform an action in AEM, you can't perform the same action through MCP.
 
 The exact tools available may change over time. Instead of relying on a fixed list, ask your assistant to show you what is available:
 
-```
-List all Experience Manager Guides tools available from the author https://author-pXXXX-eXXXX.adobeaemcloud.com and describe what they do.
-```
+`List all Experience Manager Guides tools available and describe what they do.`
 
-## Request access for your organization
-
-Access to the Experience Manager Guides MCP server is **opt-in per organization**. Before anyone in your organization can connect:
-
-- Experience Manager Guides must be enabled on your AEM as a Cloud Service environment.
-- Your organization's IMS Organization ID (Org ID) must be allow-listed by the Adobe Guides team.
-
-To request access, contact your Adobe Customer Success team.
 
 ## Supported applications
 
 The Experience Manager Guides MCP server is a **remote** server. It works with any MCP client that supports remote servers, including:
 
-### Chat applications
+- **Chat applications**: Anthropic Claude (web and desktop)
 
-- Anthropic Claude (web and desktop)
+- **Developer tools**: Cursor, Visual Studio Code, and other MCP-capable IDEs
 
-### Developer tools
-
-- Cursor
-- Visual Studio Code
-- Other MCP-capable IDEs
-
-## Setup
-
-You do not install anything locally. You point your client at the server URL and authenticate through the Adobe IMS sign-in flow.
-
-### Anthropic Claude
-
-Follow the official walkthrough: [Set up Claude for AEM MCP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). When adding the custom connector, use the Experience Manager Guides endpoint:
-
-```
-https://mcp.adobeaemcloud.com/adobe/mcp/guides
-```
-
-### Cursor / Visual Studio Code
-
-Add the server to your MCP configuration. For Cursor, add it to `.cursor/mcp.json`:
-
-```json
-{
-  "mcpServers": {
-    "aem-guides": {
-      "url": "https://mcp.adobeaemcloud.com/adobe/mcp/guides"
-    }
-  }
-}
-```
-
-For clients that only support local (stdio) servers, bridge to the remote endpoint with [`mcp-remote`](https://www.npmjs.com/package/mcp-remote):
-
-```json
-{
-  "mcpServers": {
-    "aem-guides": {
-      "command": "npx",
-      "args": ["-y", "mcp-remote", "https://mcp.adobeaemcloud.com/adobe/mcp/guides"]
-    }
-  }
-}
-```
-
-## Authentication
-
-The Experience Manager Guides MCP server uses **Adobe IMS** for authentication.
-
-- On first connection, your client opens a browser sign-in window. Sign in with your Adobe ID to complete the connection.
-- After you sign in, every action runs under your existing AEM permissions. If you do not have permission for an action in AEM, the same action fails through MCP.
+Based on your environment, connect your MCP client and authenticate to the Experience Manager Guides MCP server. For details, view [Set up the Experience Manager Guides MCP server](./configure-aem-guides-mcp.md).
 
 ## Using the Experience Manager Guides MCP Server
 
@@ -119,7 +58,7 @@ Once connected, describe what you want in plain language. The assistant selects 
 
 >[!IMPORTANT]
 >
->Requests that involve several steps or take time to finish, such as exports, baseline builds, and bulk updates, work best with a thinking model. These run in the background: the assistant starts the job, then checks its status until the result, or a download link, is ready.
+> Requests that involve several steps or take time to finish, such as exports, baseline builds, and bulk updates, work best with a thinking model. These run in the background: the assistant starts the job, then checks its status until the result, or a download link, is ready.
 
 ### Example prompts
 
