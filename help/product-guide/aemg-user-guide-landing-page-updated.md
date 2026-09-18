@@ -60,7 +60,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 ||||
 |---|---|---|
-| 📝[**Authoring**](./user-guide/web-editor.md) <br> Web editor, FrameMaker integration, reusable content. | 📂 [**Review**](./user-guide/review.md)<br> Review topics, manage review tasks, and review notifications. | 📦[**Publishing**](./user-guide/generate-output.md)<br> PDF, AEM Sites, HTML5, EPUB, and JSON output types. |
+| [](./user-guide/images/Smock_EditInLight_18_N.svg)[**Authoring**](./user-guide/web-editor.md) <br> Web editor, FrameMaker integration, reusable content. | 📂 [**Review**](./user-guide/review.md)<br> Review topics, manage review tasks, and review notifications. | 📦[**Publishing**](./user-guide/generate-output.md)<br> PDF, AEM Sites, HTML5, EPUB, and JSON output types. |
 | 📊[**Reports**](./user-guide/reports-intro.md)<br> Topic list, broken links, and metadata reports. | 🌐[**Translation**](./user-guide/translation.md)<br> Human and machine translation workflows for multilingual content. | |
 
 ## What's new
