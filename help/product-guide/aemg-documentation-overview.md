@@ -44,8 +44,6 @@ topic_v2:
 
 Experience Manager Guides is an enterprise-grade CCMS with native DITA support for structured authoring, multichannel publishing, and content lifecycle management.
 
-Select your deployment to find version-specific documentation and release notes.
-
 [!BADGE Cloud Service]{type=Informative}, [!BADGE On-Premise]{type=Informative}, [!BADGE Mananged services]{type=Informative}
 
 ## Start by your role
