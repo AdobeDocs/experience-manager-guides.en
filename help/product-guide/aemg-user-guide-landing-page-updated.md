@@ -65,7 +65,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 ## What's new
 
-|---|---|---|
+<!--|---|---|---|-->
 |---|---|---|
 | [!BADGE Feature]{type=Informative} <br> **[Import content using Git Connector](./user-guide/web-editor-git-connector.md)** <br> Import content into Guides directly from Git repositories. | [!BADGE Feature]{type=Informative} <br> **[New map collection](./user-guide/generate-output-use-new-map-collection-output-generation.md)** <br> Unified interface for managing maps and publishing outputs | [!BADGE Enhancement]{type=Informative} <br> **[Delegate a review task](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer |
 
