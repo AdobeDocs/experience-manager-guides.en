@@ -85,7 +85,7 @@ Set up output presets, manage baselines, and generate output across channels.
 :::
 
 :::card
-![Architects icon](./user-guide/images/architects.svg)
+![Architects icon](./user-guide/images/architect.svg)
 
 Architects
 
@@ -153,7 +153,7 @@ Content coverage, broken links, and metadata audit reports.
 :::
 
 :::card
-![Configuration icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![Configuration icon](./user-guide/images/config.svg)
 
 Configuration
 
