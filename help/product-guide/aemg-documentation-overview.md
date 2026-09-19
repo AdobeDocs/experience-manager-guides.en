@@ -44,13 +44,13 @@ topic_v2:
 
 Experience Manager Guides is an enterprise-grade CCMS with native DITA support for structured authoring, multichannel publishing, and content lifecycle management.
 
-**Deployment:** [!BADGE Cloud Service]{type=Positive} [!BADGE On-Premise]{type=Informative} 
+**Deployment:** [!BADGE Cloud Service]{type=Positive} [!BADGE On-Premise]{type=Informative}
 
 ## Start by your role
 
 ::::landing-cards-container
 :::card
-![Administrators icon](./user-guide/images/admin.png)
+![Administrators icon](../assets/admin.png)
 
 Administrators
 
@@ -60,7 +60,7 @@ Configure folder profiles, permissions, workflow settings, and output templates.
 :::
 
 :::card
-![Authors icon](./user-guide/images/author.png)
+![Authors icon](../assets/author.png)
 
 Authors
 
@@ -70,7 +70,7 @@ Create and manage DITA topics, maps, content reuse, and review workflows.
 :::
 
 :::card
-![Publishers icon](./user-guide/images/publish.png)
+![Publishers icon](../assets/publisher.png)
 
 Publishers
 
@@ -80,7 +80,6 @@ Set up output presets, manage baselines, and generate output across channels.
 :::
 
 ::::
-
 
 <!--
 :::card
@@ -98,12 +97,12 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 ## Explore by feature area
 
-<!-- Author note: Six cards will wrap to two rows of three in production. Same beta caveat as the role cards above applies here. -->
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
 
 ::::landing-cards-container
 
 :::card
-![Authoring icon](./user-guide/images/author.svg)
+![Authoring icon](../assets/authoring.png)
 
 Authoring
 
@@ -113,7 +112,7 @@ Web editor, FrameMaker integration, reusable content, and review cycles.
 :::
 
 :::card
-![Review icon](./user-guide/images/review.svg)
+![Review icon](../assets/review.png)
 
 Review
 
@@ -123,7 +122,7 @@ Review topics, manage review tasks, and review notifications.
 :::
 
 :::card
-![Publishing icon](./user-guide/images/publish.svg)
+![Publishing icon](../assets/publishing.png)
 
 Publishing
 
@@ -133,7 +132,7 @@ PDF, AEM Sites, HTML5, EPUB, and JSON output types.
 :::
 
 :::card
-![Translation icon](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+![Translation icon](../assets/translation.png)
 
 Translation
 
@@ -143,7 +142,7 @@ Human and machine translation workflows for multilingual content.
 :::
 
 :::card
-![Reports icon](./user-guide/images/Smock_Report_18_N.svg)
+![Reports icon](../assets/reports.png)
 
 Reports
 
@@ -153,7 +152,7 @@ Topic list, multimedia, broken links, and metadata reports.
 :::
 
 :::card
-![Configuration icon](./user-guide/images/config.svg)
+![Configuration icon](../assets/configure.png)
 
 Configuration
 
@@ -166,63 +165,43 @@ Folder profiles, DITA-OT customisation, and output templates.
 
 ## What's new
 
-<!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
-::::landing-cards-container
+<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
 
-:::card
-![Administrator icon](https://cdn.experienceleague.adobe.com/icons/admin.svg)
+>[!BEGINSHADEBOX]
 
-Git Connector
+<table>
+<tr style="border: 0;">
+<td>
+
+![Git Connector](../assets/whats-new-git-connector.svg)
+
+**[Import content using Git Connector](./user-guide/web-editor-git-connector.md)**
 
 Import content into Guides directly from Git repositories.
 
-[Import content using Git Connector](./user-guide/web-editor-git-connector.md)
-:::
+</td>
+<td>
 
-:::card
-![Troubleshoot icon](https://cdn.experienceleague.adobe.com/icons/atomic-search-troubleshoot.svg)
+![Map Collection](../assets/whats-new-map-collection.svg)
 
-New map collection
+**[New map collection](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
 
 Unified interface for managing maps and publishing outputs.
 
-[New map collection](./user-guide/web-editor-git-connector.md)
-:::
+</td>
+<td>
 
-:::card
-![Book icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![Delegate review](../assets/whats-new-delegate-review.svg)
 
-Delegate review task
+**[Delegate a review task](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
 
 Reviewers can delegate a review task to another reviewer.
-
-[Delegate a review task](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)
-:::
-
-::::
-
-<!--
-<table>
-<tr>
-<td>
-
-[!BADGE Feature]{type=Neutral} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories.
-
-</td>
-<td>
-
-[!BADGE Feature]{type=Neutral} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs
-
-</td>
-<td>
-
-[!BADGE Enhancement]{type=Neutral} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer
 
 </td>
 </tr>
 </table>
--->
 
+>[!ENDSHADEBOX]
 
 ## Additional resources
 
