@@ -44,13 +44,20 @@ topic_v2:
 
 Experience Manager Guides is an enterprise-grade CCMS with native DITA support for structured authoring, multichannel publishing, and content lifecycle management.
 
-**Deployment:** [!BADGE Cloud Service]{type=Informative} [!BADGE On-Premise]{type=Informative} [!BADGE Mananged services]{type=Informative}
+**Deployment:** [!BADGE Cloud Service]{type=Positive} [!BADGE On-Premise]{type=Informative} 
 
 ## Start by your role
 
-<!-- Author note: The landing-cards-container component is in beta with known display issues in preview and review environments. Verify rendering in production before publishing. Update icon paths below once confirmed against the ExL CDN icon library. Role card links point to the first topic in each role's section of the left nav — update paths to match the actual repo structure. -->
-
 ::::landing-cards-container
+:::card
+![Administrators icon](./user-guide/images/admin.png)
+
+Administrators
+
+Configure folder profiles, permissions, workflow settings, and output templates.
+
+[Administration guide](./install-conf-guide/introduction.md)
+:::
 
 :::card
 ![Authors icon](./user-guide/images/author.png)
@@ -63,16 +70,6 @@ Create and manage DITA topics, maps, content reuse, and review workflows.
 :::
 
 :::card
-![Administrators icon](./user-guide/images/admin.png)
-
-Administrators
-
-Configure folder profiles, permissions, workflow settings, and output templates.
-
-[Administration guide](./install-conf-guide/introduction.md)
-:::
-
-:::card
 ![Publishers icon](./user-guide/images/publish.png)
 
 Publishers
@@ -81,6 +78,9 @@ Set up output presets, manage baselines, and generate output across channels.
 
 [Map management and publishing](./user-guide/map-console-overview.md)
 :::
+
+::::
+
 
 <!--
 :::card
@@ -92,8 +92,9 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 [DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
--->
+
 ::::
+-->
 
 ## Explore by feature area
 
@@ -166,8 +167,41 @@ Folder profiles, DITA-OT customisation, and output templates.
 ## What's new
 
 <!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
+::::landing-cards-container
 
+:::card
+![Administrator icon](https://cdn.experienceleague.adobe.com/icons/admin.svg)
 
+Git Connector
+
+Import content into Guides directly from Git repositories.
+
+[Import content using Git Connector](./user-guide/web-editor-git-connector.md)
+:::
+
+:::card
+![Troubleshoot icon](https://cdn.experienceleague.adobe.com/icons/atomic-search-troubleshoot.svg)
+
+New map collection
+
+Unified interface for managing maps and publishing outputs.
+
+[New map collection](./user-guide/web-editor-git-connector.md)
+:::
+
+:::card
+![Book icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+Delegate review task
+
+Reviewers can delegate a review task to another reviewer.
+
+[Delegate a review task](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)
+:::
+
+::::
+
+<!--
 <table>
 <tr>
 <td>
@@ -187,6 +221,8 @@ Folder profiles, DITA-OT customisation, and output templates.
 </td>
 </tr>
 </table>
+-->
+
 
 ## Additional resources
 
