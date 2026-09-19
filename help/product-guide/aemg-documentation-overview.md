@@ -50,7 +50,7 @@ Experience Manager Guides is an enterprise-grade CCMS with native DITA support f
 
 ::::landing-cards-container
 :::card
-![Administrators icon](/assets/admin.png)
+![Administrators icon](../assets/admin.png)
 
 Administrators
 
@@ -60,7 +60,7 @@ Configure folder profiles, permissions, workflow settings, and output templates.
 :::
 
 :::card
-![Authors icon](/assets/author.png)
+![Authors icon](../assets/author.png)
 
 Authors
 
@@ -70,7 +70,7 @@ Create and manage DITA topics, maps, content reuse, and review workflows.
 :::
 
 :::card
-![Publishers icon](/assets/publisher.png)
+![Publishers icon](../assets/publisher.png)
 
 Publishers
 
@@ -102,7 +102,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 ::::landing-cards-container
 
 :::card
-![Authoring icon](/assets/authoring.png)
+![Authoring icon](../assets/authoring.png)
 
 Authoring
 
@@ -112,7 +112,7 @@ Web editor, FrameMaker integration, reusable content, and review cycles.
 :::
 
 :::card
-![Review icon](/assets/review.png)
+![Review icon](../assets/review.png)
 
 Review
 
@@ -122,7 +122,7 @@ Review topics, manage review tasks, and review notifications.
 :::
 
 :::card
-![Publishing icon](/assets/publishing.png)
+![Publishing icon](../assets/publishing.png)
 
 Publishing
 
@@ -132,7 +132,7 @@ PDF, AEM Sites, HTML5, EPUB, and JSON output types.
 :::
 
 :::card
-![Translation icon](/assets/translation.png)
+![Translation icon](../assets/translation.png)
 
 Translation
 
@@ -142,7 +142,7 @@ Human and machine translation workflows for multilingual content.
 :::
 
 :::card
-![Reports icon](/assets/reports.png)
+![Reports icon](../assets/reports.png)
 
 Reports
 
@@ -152,7 +152,7 @@ Topic list, multimedia, broken links, and metadata reports.
 :::
 
 :::card
-![Configuration icon](/assets/configure.png)
+![Configuration icon](../assets/configure.png)
 
 Configuration
 
@@ -173,7 +173,7 @@ Folder profiles, DITA-OT customisation, and output templates.
 <tr style="border: 0;">
 <td>
 
-![Git Connector](/assets/whats-new-git-connector.svg)
+![Git Connector](../assets/whats-new-git-connector.svg)
 
 **[Import content using Git Connector](./user-guide/web-editor-git-connector.md)**
 
@@ -182,7 +182,7 @@ Import content into Guides directly from Git repositories.
 </td>
 <td>
 
-![Map Collection](/assets/whats-new-map-collection.svg)
+![Map Collection](../assets/whats-new-map-collection.svg)
 
 **[New map collection](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
 
@@ -191,7 +191,7 @@ Unified interface for managing maps and publishing outputs.
 </td>
 <td>
 
-![Delegate review](/assets/whats-new-delegate-review.svg)
+![Delegate review](../assets/whats-new-delegate-review.svg)
 
 **[Delegate a review task](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
 
