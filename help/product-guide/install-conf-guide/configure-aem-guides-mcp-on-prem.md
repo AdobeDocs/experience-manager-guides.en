@@ -31,7 +31,7 @@ To configure sign-in token handling, perform the following steps:
 
    | Property | Default | Description |
    |---|---|---|
-   | Granite Base URL | `http://localhost:4502` | Specifies the URL that AEM uses to communicate with the author instance during authentication. Change the default port 4502 only if your author instance uses a different port.
+   | Granite Base URL | `http://localhost:4502` | Specifies the URL that AEM uses to communicate with the author instance during authentication. Change the default port 4502 only if your author instance uses a different port.|
    | Granite Timeout (ms) | `5000` | Specifies the maximum time, in milliseconds, to wait for the authentication request to complete. |
 
 4. Select **Save**.
