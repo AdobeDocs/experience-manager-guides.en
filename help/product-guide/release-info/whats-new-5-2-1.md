@@ -29,7 +29,7 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 1 release](../relea
 
 ## Experience Manager Guides adds MCP support
 
-Experience Manager Guides now supports Model Context Protocol (MCP). You can connect your AI tools like Claude, Cursor, etc. to Guides without requiring any custom work. Through a single MCP endpoint, in this version, authenticated users can use Guides as a headless system and manage topics and maps, create and export baselines, and generate reports, all while operating under their existing AEM permissions. This empowers documentation teams to work more efficiently using AI applications and agents. 
+Experience Manager Guides now supports Model Context Protocol (MCP). You can connect your AI tools like Claude, Cursor, and more to Guides without requiring any custom work. Through a single MCP endpoint, in this version, authenticated users can use Guides as a headless system and manage topics and maps, create and export baselines, and generate reports, all while operating under their existing AEM permissions. This empowers documentation teams to work more efficiently using AI applications and agents. 
 
 For more details, view [Using Adobe Experience Manager Guides MCP Server](../install-conf-guide/conf-aem-guides-mcp.md).
 
