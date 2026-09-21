@@ -7,9 +7,9 @@ meta-role: Admin
 meta-type: Documentation
 ---
 
-# Configure MCP connection settings for AEM Guides On-Premise
+# Configure MCP connection settings for Experience Manager Guides (On-Premise)
 
-AI tools such as Claude, Cursor, and Codex can connect to AEM Guides On-Premise using Model Context Protocol (MCP). You can configure the MCP connection and authentication settings from the Adobe Experience Manager Web Console Configuration page.
+AI tools such as Claude, Cursor, and Codex can connect to Experience Manager Guides using Model Context Protocol (MCP). You can configure the MCP connection and authentication settings from the Adobe Experience Manager Web Console Configuration page.
 
 The available configurations control token handling, requests without referrer information, and the external URL for the AEM author instance.
 
@@ -31,7 +31,7 @@ To configure sign-in token handling, perform the following steps:
 
    | Property | Default | Description |
    |---|---|---|
-   | Granite Base URL | `http://localhost:4502` | Specifies the URL that AEM uses to communicate with the author instance during authentication. Update this value if your author instance uses a different host or port. |
+   | Granite Base URL | `http://localhost:4502` | Specifies the URL that AEM uses to communicate with the author instance during authentication. Change the default port 4502 only if your author instance uses a different port.
    | Granite Timeout (ms) | `5000` | Specifies the maximum time, in milliseconds, to wait for the authentication request to complete. |
 
 4. Select **Save**.
