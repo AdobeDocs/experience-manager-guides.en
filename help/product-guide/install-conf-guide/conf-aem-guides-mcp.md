@@ -1,7 +1,7 @@
 ---
 title: Using MCP with Adobe Experience Manager Guides
 description: Learn how to use the Model Context Protocol (MCP) with AEM Guides to work with topics, maps, baselines, and reports through an AI assistant
-feature: Authoring, Publishing
+feature: Authoring
 role: User
 ---
 
