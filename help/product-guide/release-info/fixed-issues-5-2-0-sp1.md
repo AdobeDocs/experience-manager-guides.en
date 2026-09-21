@@ -17,7 +17,6 @@ role_v2:
 ---
 # Fixed issues in the 5.2.0 Service Pack 1 release (September 2026)
 
-
 This article covers the bugs fixed in various areas of 5.2.0 Service Pack 1 release of Adobe Experience Manager Guides.
 
 Learn about [upgrade instructions for the 5.2.0 Service Pack 1 release](upgrade-instructions-5-2-0-sp1.md).
@@ -72,7 +71,7 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 1 release](upgrade-
 ## Known issues
 
 - When performing a review operation inside a code block, an **Operation not allowed** warning is displayed on the first attempt, but the operation succeeds when repeated. (GUIDES-56749)
-- Code block or `<pre>` content is displayed on a single line, without line breaks, in the Review UI. (GUIDES-56105)
+- When a review task is created for content containing a `code block`, issues occur while performing review operations and importing or displaying review comments in the editor. (GUIDES-56811)
 - Selecting a processing instruction element in the Outline view highlights the entire parent tag instead of the selected element. (GUIDES-48318)
 - While performing deletion operations, some minor inconsistencies in cursor movement and navigation can occur across image maps, structured elements, inline formatting tags, and non-mergeable blocks, occasionally resulting in unexpected cursor or deletion behavior. (GUIDES-46756)
 - A MathML equation wrapped inside a `foreign` and `equation` block results in unwanted spacing, and typing inside the equation causes issues even after adjusting indentation. (GUIDES-46606)
