@@ -1,7 +1,7 @@
 ---
 title: Configure MCP connection settings for AEM Guides On-Premise
 description: Learn how to configure MCP connection settings for AEM Guides On-Premise.
-meta-feature: Authoring, Publishing
+meta-feature: Authoring
 meta-product: Experience Manager, Experience Manager Guides
 meta-role: Admin
 meta-type: Documentation

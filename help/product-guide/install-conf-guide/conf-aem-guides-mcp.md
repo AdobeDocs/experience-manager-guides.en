@@ -44,13 +44,9 @@ The exact tools available may change over time. Instead of relying on a fixed li
 
 ## Supported applications
 
-The Experience Manager Guides MCP server is a **remote** server. It works with any MCP client that supports remote servers, including:
+The Experience Manager Guides MCP server is a **remote MCP server** that can connect with compatible MCP clients.
 
-- **Chat applications**: Anthropic Claude (web and desktop)
-
-- **Developer tools**: Cursor, Visual Studio Code, and other MCP-capable IDEs
-
-Based on your environment, connect your MCP client and authenticate to the Experience Manager Guides MCP server. For details, view [Set up the Experience Manager Guides MCP server](./configure-aem-guides-mcp.md).
+The applications and clients you can use depend on your deployment and configuration. To learn about the supported applications and how to connect and authenticate your MCP client, view [Set up the Experience Manager Guides MCP server](./configure-aem-guides-mcp.md).
 
 ## Using the Experience Manager Guides MCP Server
 

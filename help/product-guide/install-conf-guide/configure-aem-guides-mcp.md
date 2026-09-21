@@ -1,7 +1,7 @@
 ---
 title: Setting up MCP for Adobe Experience Manager Guides
 description: Learn how to connect an AI assistant to the Experience Manager Guides MCP server for both Cloud Service and on-premises deployments
-meta-feature: Authoring, Publishing
+meta-feature: Authoring
 meta-product: Experience Manager, Experience Manager Guides
 meta-role: User
 meta-type: Documentation
@@ -90,7 +90,7 @@ You can connect the following clients:
 | Client             | Connection method                         | AEM instance requirements                                                                           |
 | ------------------ | ----------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | **Claude Desktop** | Desktop Extension (`.mcpb`)               | Supports HTTP and HTTPS endpoints, including internal hosts accessible from your corporate network. |
-| **ChatGPT (web)**  | Custom connector                          | Requires a publicly accessible HTTPS endpoint with a valid, publicly trusted TLS certificate.       |
+| **ChatGPT (web and desktop)**  | Custom connector                          | Requires a publicly accessible HTTPS endpoint with a valid, publicly trusted TLS certificate.       |
 | **Cursor**         | MCP configuration in `~/.cursor/mcp.json` | Supports HTTP and HTTPS endpoints, including internal hosts accessible from your corporate network. |
 
 ## Prerequisites
@@ -137,7 +137,7 @@ Before you connect a client, work with your AEM administrator to verify the foll
 
 Claude Desktop supports Desktop Extensions (`.mcpb`). The Experience Manager Guides MCP extension packages the connection configuration so that you don't need to manually edit an MCP JSON configuration.
 
-1. Obtain the `aem-guides-mcp.mcpb` extension file.
+1. Extract the [AEM Guides .mcpb zip file](./mcpbfile.zip) and obtain the `aem-guides-mcp.mcpb` extension file.
 
 2. Open **Claude Desktop** and navigate to **Settings > Extensions**.
 
