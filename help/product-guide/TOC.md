@@ -561,7 +561,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure New Baseline for On-Premise](./install-conf-guide/conf-new-baseline-on-prem.md)
       - [Configure skipping of peer links for On-Premise](./install-conf-guide/conf-skip-peer-links-on-prem.md)
       - {hide-from-toc} [Configure new map collections for output generation](./install-conf-guide/conf-new-map-collection-on-prem.md)
-      - {AEM Guides MCP integration} {#mcp}
+      - AEM Guides MCP integration {#mcp}
         - [Using the AEM Guides MCP Server](./install-conf-guide/conf-aem-guides-mcp.md)
         - [Set up the AEM Guides MCP server](./install-conf-guide/configure-aem-guides-mcp.md)
         - [Configure MCP connection settings for AEM Guides On-Premise](./install-conf-guide/configure-aem-guides-mcp-on-prem.md)
