@@ -37,10 +37,6 @@ Experience Manager Guides exposes MCP capabilities for working with Experience M
 
 If you don't have permission to perform an action in AEM, you can't perform the same action through MCP.
 
-The exact tools available may change over time. Instead of relying on a fixed list, ask your assistant to show you what is available:
-
-`List all Experience Manager Guides tools available and describe what they do.`
-
 
 ## Supported applications
 
