@@ -92,7 +92,7 @@ Before you proceed with upgrading to version 5.2.0 Service Pack 1 of Experience 
 
 >[!IMPORTANT]
 >
-> The post-processing and indexing may take a few hours. We recommend you to start the upgrade process during the off-peak hours.
+> The post-processing and indexing may take a few hours. It is recommended to start the upgrade process during the off-peak hours.
 
 1. Download the 5.2.0 Service Pack 1 version package from [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Install the version package on which you want to upgrade and wait till the bundle is installed.
