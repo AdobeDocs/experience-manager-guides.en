@@ -136,6 +136,10 @@ breadcrumb-title: AEM Guides Documentation
         - [January release notes](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
+      - 5.2.0 SP1 Release {#520-sp1-release}
+        - [What's new](./release-info/whats-new-5-2-1.md)
+        - [Fixed issues](./release-info/fixed-issues-5-2-0-sp1.md)
+        - [Upgrade instructions](./release-info/upgrade-instructions-5-2-0-sp1.md)
       - 5.2.0 Release {#520-release}
         - [What's new](./release-info/whats-new-5-2-0.md)
         - [Fixed issues](./release-info/fixed-issues-5-2-0.md)
@@ -562,7 +566,10 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure New Baseline for On-Premise](./install-conf-guide/conf-new-baseline-on-prem.md)
       - [Configure skipping of peer links for On-Premise](./install-conf-guide/conf-skip-peer-links-on-prem.md)
       - {hide-from-toc} [Configure new map collections for output generation](./install-conf-guide/conf-new-map-collection-on-prem.md)
-      - [Using the Experience Manager Guides MCP Server](./install-conf-guide/conf-aem-guides-mcp.md)
+      - AEM Guides MCP integration {#mcp}
+        - [Using the AEM Guides MCP Server](./install-conf-guide/conf-aem-guides-mcp.md)
+        - [Set up the AEM Guides MCP server](./install-conf-guide/configure-aem-guides-mcp.md)
+        - [Configure MCP connection settings for AEM Guides On-Premise](./install-conf-guide/configure-aem-guides-mcp-on-prem.md)
     - Extending the features {#aemg-customization}
       - [Deploy custom index for Find and replace feature for Cloud Service](./install-conf-guide/custom-indexing-cs.md)
       - [Reindex for Find and replace feature for On-Premise](./install-conf-guide/custom-indexing-on-prem.md) 
