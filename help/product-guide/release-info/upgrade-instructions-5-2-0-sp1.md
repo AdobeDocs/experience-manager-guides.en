@@ -6,7 +6,7 @@ description: Learn about the compatibility matrix and how to upgrade to the 5.2.
 
 This article covers the upgrade instructions and the compatibility matrix for 5.2.0 Service Pack 1 release of Adobe Experience Manager Guides.
 
-For more information about the new features and enhancements, view [What's new in the 5.2.0 Service Pack 1 release](../release-info/whats-new-5-2-0-sp1.md).
+For more information about the new features and enhancements, view [What's new in the 5.2.0 Service Pack 1 release](../release-info/whats-new-5-2-1.md).
 
 For the list of issues that have been fixed in this release, view [Fixed issues in the 5.2.0 Service Pack 1 release](../release-info/fixed-issues-5-2-0-sp1.md).
 
