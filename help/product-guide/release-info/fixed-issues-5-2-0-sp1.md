@@ -28,7 +28,6 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 1 release](upgrade-
 - Saving a referencing map results in a broken reference instead of resolving to the correct map when one author moves the referenced map while another author is concurrently adding a reference to it in an unsaved map. (GUIDES-47467)
 - Alphanumeric terms added to the dictionary are still flagged by the AEM spell checker instead of being ignored. (GUIDES-48587)
 - When toggling focus between the **Width** and **Height** fields in the image properties dialog using unit-based sizes such as `in`, `mm`, or `px`, the values keep incrementally increasing instead of remaining stable. (GUIDES-45929)
-- In the Editor, file references are displayed as GUIDs instead of file paths despite the xmleditor.uuid configuration. (GUIDES-42438)
 
 ## Editor 2.0
 
