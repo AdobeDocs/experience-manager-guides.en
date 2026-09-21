@@ -44,9 +44,7 @@ The exact tools available may change over time. Instead of relying on a fixed li
 
 ## Supported applications
 
-The Experience Manager Guides MCP server is a **remote MCP server** that can connect with compatible MCP clients.
-
-The applications and clients you can use depend on your deployment and configuration. To learn about the supported applications and how to connect and authenticate your MCP client, view [Set up the Experience Manager Guides MCP server](./configure-aem-guides-mcp.md).
+The Experience Manager Guides MCP server is a remote MCP server that can connect with compatible MCP clients. Based on your environment, connect your MCP client and authenticate to the Experience Manager Guides MCP server. For details, view [Set up the Experience Manager Guides MCP server](./configure-aem-guides-mcp.md).
 
 ## Using the Experience Manager Guides MCP Server
 
