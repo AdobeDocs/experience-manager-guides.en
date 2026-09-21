@@ -71,7 +71,7 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 1 release](upgrade-
 ## Known issues
 
 - When performing a review operation inside a code block, an **Operation not allowed** warning is displayed on the first attempt, but the operation succeeds when repeated. (GUIDES-56749)
-- When a review task is created for content containing a `code block`, issues occur while performing review operations and importing or displaying review comments in the editor. (GUIDES-56811)
+- When a review task is created for content containing a `code block`, strikethrough formatting doesn't apply correctly after import, and highlighted content is missing in the side-by-side comparison view. (GUIDES-56811)
 - Selecting a processing instruction element in the Outline view highlights the entire parent tag instead of the selected element. (GUIDES-48318)
 - While performing deletion operations, some minor inconsistencies in cursor movement and navigation can occur across image maps, structured elements, inline formatting tags, and non-mergeable blocks, occasionally resulting in unexpected cursor or deletion behavior. (GUIDES-46756)
 - A MathML equation wrapped inside a `foreign` and `equation` block results in unwanted spacing, and typing inside the equation causes issues even after adjusting indentation. (GUIDES-46606)
