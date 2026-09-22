@@ -37,7 +37,7 @@ The **AI Assistant** in Adobe Experience Manager Guides is a powerful, AI-driven
 
 >[!NOTE]
 >
->To enable the AI Assitant in Agentic mode for your environment, contact the Customer Success Team.
+>To enable the AI Assistant in Agentic mode for your environment, contact the Customer Success Team.
  
 AI Assistant is available in two modes: **Agentic** and **Standard**. Administrators can choose between the two modes from the **AI Assistant** section of **General** tab in **Workspace settings**. The AI Assistant panel remains the same in both modes in the Editor, but the capabilities available within it differ:
 
@@ -75,14 +75,14 @@ For more details, view [Help](./ai-based-smart-help.md).
 
 ## Get started with AI Assistant in Standard mode
 
-When you use the **AI Asistant** in Standard mode for the first-time, you are prompted to submit your consent before you use the Experience Manager Guides Generative AI features. 
+When you use the **AI Assistant** in Standard mode for the first-time, you are prompted to submit your consent before you use the Experience Manager Guides Generative AI features. 
 
 Perform the following steps to launch AI Assistant: 
 
 1. Login to Experience Manager Guides.
 1. On the Home page, select **AI Assistant** from the top. Ensure that your Administrator has enabled the AI Assistant feature in the desired mode. 
 
-The AI Assistant displays the key fetaures, user guidelines link, and a **Get started** button.
+The AI Assistant displays the key features, user guidelines link, and a **Get started** button.
 
   ![Smart Help panel](images/get-started-ai.png)
 
