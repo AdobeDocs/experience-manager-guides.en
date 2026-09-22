@@ -17,7 +17,7 @@ topic_v2:
 ---
 # Adobe Experience Manager Guides as a Cloud Service release information
 
-This page provides the latest release information for Adobe Experience Manager Guides as a Cloud Service. Find details about new features, enhancements, fixed issues, known issues, and upgrade instructions to help you stay up to date with each release.
+This article provides the latest release information for Adobe Experience Manager Guides as a Cloud Service. Find details about new features, enhancements, fixed issues, known issues, and upgrade instructions to help you stay up to date with each release.
 
 ## 2026 releases
 
