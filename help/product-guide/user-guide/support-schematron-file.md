@@ -73,7 +73,7 @@ When you open a topic in the Editor, a Schematron Validation panel appears in th
 
     >[!NOTE]
     >
-    > Validation results are displayed based on the role attribute defined in the Schematron file. For more details, view [Understanding validation results and serverity levels](#understanding-validation-results-and-serverity-levels).
+    > Validation results are displayed based on the role attribute defined in the Schematron file. For more details, view [Understanding validation results and severity levels](#understanding-validation-results-and-severity-levels).
 
 1. Select the error message to highlight the element containing the error in the opened topic/map.
 
@@ -85,7 +85,7 @@ Validation results are displayed based on the role attribute defined in the Sche
 
 ![](images/schematron-validation-errors.png){width="350"}
     
-To determine the severity of an issue, the _case-senstive_ value of the role attribute defined in the corresponding Schematron file is evaluated. 
+To determine the severity of an issue, the _case-sensitive_ value of the role attribute defined in the corresponding Schematron file is evaluated. 
 
 The following snippet shows the supported role attribute values defined in a Schematron rule:
     
