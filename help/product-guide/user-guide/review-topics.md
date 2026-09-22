@@ -127,9 +127,9 @@ Perform the following steps to mark individual topics as done in a review task:
 
 1. Each topic is displayed in an accordion with a **Mark topic as done** checkbox, as shown below.
 
-   > [!NOTE]
+   >[!NOTE]
    >
-   > Topics included in the review task but not assigned to you are disabled and can't be marked as done.
+   >Topics included in the review task but not assigned to you are disabled and can't be marked as done.
 
    **Topics panel view:**
 
@@ -145,16 +145,16 @@ Perform the following steps to mark individual topics as done in a review task:
 
    The topic accordion automatically collapses. You can reopen the accordion at any time before completing the review task. If you need to add further comments, simply expand the topic accordion and add your comments. 
 
-    > [!NOTE]
+    >[!NOTE]
     >
-    > Whether the **Mark topic as done** checkbox is selected or unselected depends on who is reviewing the topic and the version being reviewed:
+    >Whether the **Mark topic as done** checkbox is selected or unselected depends on who is reviewing the topic and the version being reviewed:
     >
     > - **When multiple reviewers are assigned:** Your checkbox selection applies only to you. If you select **Mark topic as done**, the checkbox remains unchanged for other reviewers assigned to the same topic.
     > - **When the topic version changes:** Your checkbox selection applies only to the version you reviewed. If you select **Mark topic as done** for version 1.0 and the Author changes the topic to version 1.1, the checkbox is reset for you. If the Author later switches back to version 1.0, the checkbox remains unselected.
 
 1. Repeat the previous steps for the other topics you've finished reviewing.
    
-    > [!NOTE]
+    >[!NOTE]
     >
     > Marking individual topics as done helps you track your review progress and isn't required to complete the review task. You can complete the review task even if some topics aren't marked as done.
 
@@ -170,7 +170,7 @@ Perform the following steps to mark individual topics as done in a review task:
 
         ![](images/topics-reviewed-count-review-ui.png) 
 
-   > [!NOTE]
+   >[!NOTE]
    >
    > The **Mark topic as done** checkbox, green dot indicator, and **Topics reviewed** indicator are visible only to users who can mark topics or review tasks as done. Authors and administrators with view-only access to the review task don't see these options or indicators.
 

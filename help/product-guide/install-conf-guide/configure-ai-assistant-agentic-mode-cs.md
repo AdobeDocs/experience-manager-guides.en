@@ -53,8 +53,8 @@ Perform the following steps to add the IMS configuration to the environment:
 
 5. Paste the JSON service details (downloaded when you created the IMS configuration in Adobe Developer Console) into the **Value** field corresponding to `SERVICE_ACCOUNT_DETAILS`. Ensure that you use the same name and configuration expected by the environment.
 
-> [!NOTE]
-> If you have not yet created the OAuth/IMS credentials for your environment, do so first in Adobe Developer Console before completing this step.
+>[!NOTE]
+>If you have not yet created the OAuth/IMS credentials for your environment, do so first in Adobe Developer Console before completing this step.
 
 ![ims service account configuration](assets/ims-service-account-config.png){width="800"}
 

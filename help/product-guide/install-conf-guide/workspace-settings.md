@@ -48,7 +48,7 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
     AI Assistant is available in two modes: **Agentic** and **Standard**. You can choose between the two modes by enabling the respective toggles.
 
-    - **Agentic**: After enabling this option you will be able to access the Agentic AI Assistant feature from the Navigation bar on Home page and Tab bar on Editor interface. For details on how to genearted AI suggested tags for topics, view [Use AI Assistant in Agentic mode](../user-guide/guides-ai.md).
+    - **Agentic**: After enabling this option you will be able to access the Agentic AI Assistant feature from the Navigation bar on Home page and Tab bar on Editor interface. For details on how to genearted AI suggested tags for topics, view [Use AI Assistant in Agentic mode](../user-guide/ai-assistant-agentic.md).
 
     ![](assets/agentic-ai-workspace.png){width="350"}
 

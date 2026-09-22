@@ -179,7 +179,7 @@ To insert a language variable like your `copyright-label` in the header area, pe
 
 Once inserted, a language variable's value in the generated output depends on the language configured in the output preset. If your map already has a language defined using the `xml:lang` attribute, and you want the template to use that same language, ensure that the **Use map language** option is selected in the output preset instead of selecting a language explicitly. View [Language resolution for DITA content vs. output template variables](#language-resolution-for-dita-content-vs-output-template-variables) to learn how a language how a language resolves based on its content type.
 
-###  Language resolution for DITA content vs. output template variables
+### Language resolution for DITA content vs. output template variables
 
 Your document can contain two types of content that need translation: DITA content, such as cross-references and table continuation markers, and output template content, such as front matter, back matter, headers, and footers that you insert using language variables. 
 
