@@ -201,6 +201,28 @@ To add an asset file to the Resources folder, follow the below steps:
 1. Click **Upload**.
 The selected file is imported and listed under the Resources folder.
 
+## Show or hide draft comments in Native PDF output 
+
+Draft comments added in a DITA topic are excluded from Native PDF output by default. This is controlled by the `draft-comment` style in the output template's content stylesheet, where the `display` property is set to `none`.
+
+As an Administrator, you can update this style so draft comments are visible in the output:
+
+1. In the **Output templates** panel, open the template that the map uses for PDF publishing.
+2. Expand **Stylesheets** and double-click **content** to open the content stylesheet.
+3. In the **Styles** panel, locate and select **draft-comment**.
+
+    Use the search field to find it quickly if the list is long.
+
+4. In the **Properties** panel, change the value of the **display** property from `none` to a visible value (such as `block`, `inline-block`, `grid`, and more).
+
+    ![Configure draft-comment property in content stylesheet](./assets/draft-comment-setting.png)
+
+5. Save the stylesheet.
+
+>[!NOTE]
+>
+>This style controls whether draft comments are visible in styled content generally. To include draft comments specifically in **Native PDF** output, you must also enable the **Include draft comments** option in the Native PDF output preset. For details, view [Native PDF output preset](../web-editor/native-pdf-web-editor.md). Both settings are required together for draft comments to appear in the generated PDF exactly as they appear in the editor.
+
 ## Advanced PDF Settings {#advanced-pdf-settings}
 
 Use the Settings section to configure the advanced settings for PDF's page layout, starting PDF from odd or even page, formats for the cross-references, and enabling printing marks in the final PDF that's generated
@@ -249,6 +271,10 @@ You can define the text to appear before and after the break. For example, a tab
    Use language variables to define the continuation marker text before and after the break. Depending on your chosen language, the localized value is automatically picked in the PDF output. For example, you can publish `Continued on page %page-num%` as a text in English and `Fortsetzung auf Seite %page-num%` in German. 
 
    Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the option to view more details about it. 
+
+   >[!NOTE]
+   >
+   > When using a language variable in the **Text Before Break** or **Text After Break** field, ensure that the entire text is defined within a single language variable. Any text or variable added outside the language variable in these fields is not rendered. For example, instead of using a combination of variables such as `${lng:Continued-from-page} %page-num%` in the **Text After Break field**, use only `${lng:Continued-from-page}` in the field, and separately set the value of the `Continued-from-page` language variable to `Continued-from-page %page-num%`.
 * **Link glossary terms to the glossary page**: Select this option to show the glossary terms as hyperlinks in the content and link them to the terms on the glossary page. This helps the readers to quickly view the definition of a term defined in the glossary.
     
    To convert the glossary terms to hyperlinks, you need to:

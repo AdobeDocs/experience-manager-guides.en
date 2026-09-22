@@ -72,7 +72,7 @@ Perform the following steps to review a topic:
         Select  ![](images/view-options.svg) near the search bar to  choose to view all topics or view topics with comments. By default, you can view all topics present in the review task.
  
 
-    -   **D**: The numbers highlighted by ***F*** can be filtered by choosing the desired filter option from here. You can filter comments by its type, status, reviewer, or version. For example, if you want to view how many Strikethrough comments have been made in each of the under review topic, select the filter icon and then choose **Review Type** \> **Deletion**.
+    -   **D**: The numbers highlighted by ***E*** can be filtered by choosing the desired filter option from here. You can filter comments by its type, status, reviewer, or version. For example, if you want to view how many Strikethrough comments have been made in each of the under review topic, select the filter icon and then choose **Review Type** \> **Deletion**.
 
         >[!NOTE]
         >
@@ -84,7 +84,7 @@ Perform the following steps to review a topic:
     -   **G**: Number of comments received on a topic. This number changes based on the filter that you apply.
 
     
-    All topics in the map are shown as a single composite document. The topics that the reviewer is allowed to review are shown normally. The topics that the review is not allowed to review are not shown.
+    All topics in the map are shown as a single composite document. The topics that the reviewer is allowed to review are shown normally. The topics that the reviewer is not allowed to review are shown as disabled.
 
     ![](images/review-read-only.png)
 
@@ -109,6 +109,76 @@ Perform the following steps to review a topic:
 
 1.  Select **Close** button once you complete reviewing the topic. On selecting the **Close** button, you will be redirected to the page from where you accessed the review topic.
 
+## Mark individual topics as done in a review task
+
+>[!NOTE]
+>
+> This feature is enabled by default starting with the 2026.09.0 release of Experience Manager Guides as a Cloud Service. If you prefer to switch to the previous behavior, contact your Customer Success team to disable this feature for your environment.
+
+If a review task contains a large number of topics, you might not be able to review all of them in a single session. For example, if you're assigned a review task with around 50 topics, keeping track of the topics you've already reviewed and those that still need your attention can become difficult when you return to the task.
+
+The **Mark topic as done** feature allows you to mark individual topics as done as you review them. This makes it easier to identify the topics you've already covered and focus on the topics that are still pending.
+
+Perform the following steps to mark individual topics as done in a review task:
+
+1. Open the review task assigned to you.
+
+1. In the Review UI, open the topics assigned to you from the **Topics** panel, or switch to **Document view** to view all the topics together as a composite document.
+
+1. Each topic is displayed in an accordion with a **Mark topic as done** checkbox, as shown below.
+
+   >[!NOTE]
+   >
+   >Topics included in the review task but not assigned to you are disabled and can't be marked as done.
+
+   **Topics panel view:**
+
+   ![](images/topics-panel-view-mark-topic-as-done.png)
+
+   **Document view:**
+
+   ![](images/document-view-mark-topic-as-done.png)
+
+1. Review a topic and add comments or feedback as required.
+
+1. After you finish reviewing the topic, select the **Mark topic as done** checkbox.
+
+   The topic accordion automatically collapses. You can reopen the accordion at any time before completing the review task. If you need to add further comments, simply expand the topic accordion and add your comments. 
+
+    >[!NOTE]
+    >
+    >Whether the **Mark topic as done** checkbox is selected or unselected depends on who is reviewing the topic and the version being reviewed:
+    >
+    > - **When multiple reviewers are assigned:** Your checkbox selection applies only to you. If you select **Mark topic as done**, the checkbox remains unchanged for other reviewers assigned to the same topic.
+    > - **When the topic version changes:** Your checkbox selection applies only to the version you reviewed. If you select **Mark topic as done** for version 1.0 and the Author changes the topic to version 1.1, the checkbox is reset for you. If the Author later switches back to version 1.0, the checkbox remains unselected.
+
+1. Repeat the previous steps for the other topics you've finished reviewing.
+   
+    >[!NOTE]
+    >
+    > Marking individual topics as done helps you track your review progress and isn't required to complete the review task. You can complete the review task even if some topics aren't marked as done.
+
+    ![](images/mark-topics-done-all.png)
+
+   The following visual indicators in the Review UI help you track your progress:
+
+   - A **green dot** appears next to a topic in the **Topics** panel when you've marked it as done.
+
+        ![](images/topics-done-green-dot-topics-panel.png)
+
+   - The **Topics reviewed** indicator shows the number of topics you've marked as done out of the total number of topics assigned to you.
+
+        ![](images/topics-reviewed-count-review-ui.png) 
+
+   >[!NOTE]
+   >
+   > The **Mark topic as done** checkbox, green dot indicator, and **Topics reviewed** indicator are visible only to users who can mark topics or review tasks as done. Authors and administrators with view-only access to the review task don't see these options or indicators.
+
+1. After you've finished reviewing the topics that you want to submit to the Author or task initiator, select **Complete review task**.   
+
+1. In the **Complete review task** dialog, add a comment and select **Complete** to confirm the action.
+
+         
 ## Additional features available on the review screen 
 
 ### Document view and topic view
@@ -203,9 +273,17 @@ When collaborating on a review task with multiple reviewers, you can enhance com
 
 ![](images/tag-users-review-ui.png){width="350"}
 
-To tag a user, enter `@` in a comment or reply and select a user from the list of reviewers. The display name along with an email address of the user is displayed for easier identification. If an email address is unavailable, the user ID is displayed instead. 
+To tag a user, enter `@` in a comment or reply and select a user from the list of users associated with this project. The list displays name of the user along with additional details to help you identify the correct user.
 
-![](images/tagged-users-with-email.png)
+User details are displayed in the following order:
+
+`<Role>` | `<User name>` | `<Email address>`
+
+If the email address isn't available, only the role and name of the user are displayed.
+
+You can also hover over a user in the list to view their username, role, and email address in a tooltip.
+
+![](images/tagged-users-in-review-ui.png)
 
 Tagged users receive both an email and an AEM notification, ensuring they're promptly informed. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md). 
 

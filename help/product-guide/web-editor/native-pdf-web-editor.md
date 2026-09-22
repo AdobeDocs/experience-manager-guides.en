@@ -93,7 +93,7 @@ Use to specify basic output settings, such as specify output path, PDF file name
 | **Apply Conditions Using** |   For conditionalized content, choose from the below options to generate a PDF output based on those conditions: <br><ul> <li> **None Applied** Select this option if you do not want to apply any condition on the map and source content. <br><li> **DITAVAL file** Select a DITAVAL file to generate conditional content. You can select multiple DITAVAL files either by using the browse dialog or by entering the file path manually. To remove a selected file, click the cross icon next to its name. If an invalid file is selected, an error message is displayed stating **Invalid DITAVAL file is selected**. <br> <br>Each DITAVAL file can contain a range of properties, such as filtering conditions and flagging styles. Flagging allows you to visually mark content using start and end flags, which can include images or text formatting such as bold or italics. In case of overlapping conditions or styling conflicts, you can define a background color using the Style conflict settings. For more details, view [Use the DITAVAL editor](../user-guide/ditaval-editor.md).<br><li> **Condition Preset** Select a condition preset from the drop-down to apply a condition while publishing the output. This option is visible if you have added a condition for the DITA map file. The conditional settings are available in the Condition Presets tab of the DITA map console. To know more about condition preset, view [Use condition presets](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul>|
 |  **Use Baseline**  | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish. View [Work with Baseline](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) for more details.  |
 |  **Create PDF with Change Bar between Published Versions**  | Use the following options to create a PDF showing the differences in content between two versions using change bars:   <br><ul><li> **Baseline of the Previous Version** Choose the baseline version which you want to compare with the current version or another baseline. A change bar appears in the PDF to indicate the modified content. A change bar is a vertical line that visually identifies new or revised content. The change bar appears on the left of the content that has been inserted, changed, or deleted. <br> **Note**: If you select **Use Baseline** and choose a baseline to publish, the comparison will be done between the two selected baseline versions. For example, if you choose baseline Version 1.3 under **Use Baseline**, and Version 1.1 under **Baseline of the Previous Version**, the comparison will be done between baseline Version 1.1 and baseline Version 1.3. <br><li> **Show Added Text** Select to show the inserted text in green color and underlined. This option is selected by default. <br> <li> **Show Deleted Text** Select to show the deleted text in red color and marked with a strikethrough. This option is selected by default. <br>**Note** You can also customize the styling of the change bar, inserted content, or deleted content using the stylesheet.<br></ul> |
-| **Language** | Select the language you want the output to be translated. <br> **Note**: Cross-reference texts such as "See on chapter" or "See on page" are controlled by a language variable. The variable uses the language defined in the topic through the `xml:lang` attribute. If no language is specified there, it takes the preset language. If both are missing, it defaults to English (en_US). |
+| **Language** |Select the language you want the output to be translated. If you prefer to publish the output in the same language as the root map's `xml:lang` attribute, select the **Use map language** option instead of selecting a language explicitly. <br> If the map has no `xml:lang` defined, the output is set to English (en_US) by default. This helps when the parent map already has an `xml:lang` attribute set, so you don't need a separate output preset for each language. To understand how this setting affects different types of content, view [Language resolution for DITA content vs. output template variables](../native-pdf/native-pdf-language-variables.md#language-resolution-for-dita-content-vs-output-template-variables).|
 |**DITA-OT Command Line Arguments**| When you enable **Enable DITA-OT preprocessing**, the **DITA-OT command line arguements** field becomes available. Here, you can specify the additional arguments that you want DITA-OT to process while generating output. For details about the command-line arguments supported in DITA-OT, view [DITA-OT documentation](https://www.dita-ot.org/).<br>**NOTE:** <br> Related links defined in DITA relationship tables (`<reltable>`) are not included in Native PDF output by default. Use `-Dargs.rellinks=nofamily` DITA-OT argument to include such related links in the Native PDF output. <br> For nested maps, the `toc="no"` attribute set on a map reference does not exclude its child topics from the TOC by default. Use `-Dpreprocess.move-meta-entries.skip=false` DITA-OT argument to ensure that child topics are excluded from the TOC for such maps.|
 | **Post Generation Workflow** | Select to show a drop-down list that contains all workflows configured in AEM. You can select the workflow you want to execute after the completion of PDF generation workflow. |
 
@@ -182,29 +182,54 @@ Protect your PDF by adding restrictions to open and read the file. Use the below
 >
 > Starting with the Experience Manager Guides 5.0/2025.02.0 release, the Print section is now part of the **Native PDF Output preset**. For the existing templates with saved Print settings, the Print data will remain intact but will no longer appear in the UI or apply during output. To continue using these settings, you must reconfigure them within the Native PDF Output preset.
 
-Configure the print production settings to assign printer marks, select color models, and specify properties related to printing of your PDF output.
+Configure the print production settings to assign printer marks, define page boxes, and set color and ICC profile options for your PDF output. The Print tab is organized into three sections, in order: **Printer Marks**, **Page Boxes**, and **Color & ICC**.
 
-* **Printer Marks**: When you prepare a document for print production, printer marks are added to the page boundaries to assist in proper alignment, trimming, and color selection during printing. By selecting a printer mark, the page boundary is extended to accommodate the mark, which are trimmed during print. You can choose to display the following printer marks in your PDF output:
-   * **Trim Marks**: Select the option to place a mark at each corner of the trim area to indicate where the paper needs to be trimmed after printing.
-   * **Bleed Marks**: Select to place a mark at each corner of the bleed box to indicate the trim area for the extended image.
-   * **Registration Marks**: Select to place a mark outside the crop area for aligning the different separations in a color document.
-   * **Color Bars**: Select to add a strip of colors outside the trim area to maintain color consistency and adjust ink density when printing.
+## Printer Marks
 
-   Set dimensions for the selected printer marks using the **Line Width**, **Line Color**, and **Bleed Box Width** options.
+When you prepare a document for print production, printer marks are added to the page boundaries to assist with proper alignment, trimming, and color selection during printing. When you select a printer mark, the page boundary is extended to accommodate the mark, and the extended area is trimmed after printing.
 
-* **Media Box size**: This is the overall page size including the extended area occupied by printer marks. Use the drop-down option to select the page size for your PDF output or create your own custom size.
+Use the following settings to configure printer marks for your PDF output:
 
-* **Color Space**: You are given an option to choose from RGB or CMYK color spaces to print your PDF document. Choose RGB to display the generated PDF digitally and CMYK for physical printing. Colors defined in the document are converted to the chosen color space.
+| Setting | Description |
+| --- | --- |
+| **All Printer's Marks** | Select to enable or disable all printer mark settings: **Trim Marks**, **Bleed Marks**, **Registration Marks**, and **Color Bars** together. If you enable or disable an individual mark while **All Printer's Marks** is selected, this setting is automatically turned off. When this setting is unselected, you can enable or disable individual marks. |
+| **Trim Marks** | Select to place a mark at each corner of the trim area to indicate where the paper needs to be trimmed after printing. |
+| **Bleed Marks** | Select to place a mark at each corner of the bleed box to indicate the trim area for the extended image. |
+| **Registration Marks** | Select to place a mark outside the crop area for aligning the different separations in a color document. |
+| **Color Bars** | Select to add a strip of colors outside the trim area to maintain color consistency and adjust ink density when printing. |
+| **Line Width** | Specify the width of the line used to draw the selected printer marks. The value increments in steps of 0.25 pt. |
+| **Line Color** | Specify the color of the line used to draw the selected printer marks. |
 
-* **ICC profile**: Here, you can manage color accuracy across devices by specifying an ICC profile. This ensures consistent color rendering in the printed output. 
+## Page Boxes
 
-To configure this setting, specify the ICC profile file path on your server and provide the ICC profile name for easy identification. Alternatively, if the ICC profile is stored online, you can provide its URL instead of the file path.
+Use this section to define the overall page size and bleed area for your PDF output.
 
-   >[!NOTE]
-   >
-   > An ICC color profile is necessary for PDF/A creation if using CMYK color space.
+Use the following settings to configure the page boxes:
 
-   <!--For more information on applying these print settings, see *Printing preferences*.-->
+| Setting | Description |
+| --- | --- |
+| **Media Box Size** | Specifies the overall page size, including the extended area occupied by printer marks. Use the drop-down list to select the page size for your PDF output or create a custom size. |
+| **Bleed Box Width** | Specify the width of the bleed box, which is the area extending beyond the trim box that accommodates bleed marks and any imagery that extends past the trim line. |
+
+## Color & ICC
+
+Use this section to choose a color space for printing and, optionally, manage color accuracy across devices using an ICC profile. When using the CMYK color space, an ICC color profile is required for PDF conformances that require color management.
+
+>[!NOTE]
+>
+> For improved ICC color profile handling, ensure that you are using [Native PDF engine v2](../native-pdf/new-pdf-engine.md), which includes fixes for known ICC color profile issues in Native PDF engine v1.
+
+Use the following settings to configure the color space and ICC profile:
+
+| Setting | Description |
+| --- | --- |
+| **Color Space** | Choose between **RGB** and **CMYK** color spaces for your PDF document. Choose **RGB** for PDFs intended for digital display and **CMYK** for physical printing.|
+| **Convert Colors** | Enable to convert colors defined in the document to the color space selected above. This option is enabled by default for RGB and CMYK color spaces. When enabled, the **Rendering Intent** field also becomes available.|
+|**Rendering Intent** | Available only when **Convert Colors** option is enabled. Select the rendering intent to use when converting colors to the target color space:<br>- **Default**: Uses the default rendering behavior.<br>- **Perceptual**: Adjusts colors to preserve their overall visual appearance.<br>- **Relative Colorimetric**: Adjusts colors based on the target color space while maintaining color accuracy where possible.<br> **Note**: When using this feature with an Adobe Experience Manager Guides On-Premise setup, ensure that Java 20 or later is available for the underlying Native PDF engine to apply the specified rendering intent.|
+| **Identifier Name** | Enter the output identifier name. |
+| **Browse Profile** | Browse to the ICC profile file (`.icc` or `.icm`) on your AEM server. This field is disabled when **Use URL for Profile** is enabled. |
+| **Use URL for Profile** | Enable this option to use an ICC profile hosted online instead of a local file. |
+| **URL for Profile** | Available only when **Use URL for Profile** is enabled. Enter the URL where the ICC profile is hosted. |
 
 **Advanced**
 
@@ -225,6 +250,7 @@ Use the following options to specify advanced settings to merge PDFs, use compre
 |  **Enable MathML equations** | Select this option to render MathML equations present in your content. The equations will be ignored otherwise by default.  |
 |**Create interactive PDF form**|Select this option if you want to include interactive and customizable PDF form fields for enhanced user input in generated PDF outputs. |
 | **Include track changes** | Select this option if you want to include tracked changes in the generated PDF for easy review and comparison.|
+| **Include draft comments** | Select this option if you want to include draft comments added in DITA topics of the selected map in the generated PDF. <br> **Note**: Enabling this option alone does not make draft comments appear in the output. An Administrator must also set the display property of the draft-comment style to a visible value (such as `block`, `inline-block`, `grid`, and more)  in the output template used for the map. For details, view [Show or hide draft comments in Native PDF output](../native-pdf/components-pdf-template.md#show-or-hide-draft-comments-in-native-pdf-output).|
 |**Retain temporary files**|Select this option if you want to retain the interim HTML files created while generating the Native PDF output. You can later download the temporary files after generating the output. The downloaded files would also include `system_config.xml` file that gives you information about author URL, local URL and publish URL. These URLs are configured in the AEM Externalization settings and are reflected in the `system_config.xml` file.|
 |  **PDF conformance** | It is the standard to which you intend to save your PDF to ensure it is compliant. Select from the dropdown to choose from the list of available PDF standards. For more details about the supported standards, view [About PDF standards](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 |**File properties**| Select the metadata that you want to pass to Native PDF publishing. The dropdown lists both the custom and the default properties. For example, `dc:description`, `dc:language`, `dc:title`, and `docstate` are the default properties while you can have `author` as the custom property. The selected metadata properties are passed to the PDF file generated using Native PDF. <br> These properties are picked from the `metadataList` file available at:`/libs/fmdita/config/metadataList`. <br>This file can be overlaid at: `/apps/fmdita/config/metadataList`.|

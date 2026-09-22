@@ -123,15 +123,33 @@ Opening a topic in the Preview mode shows how a topic will be displayed when it 
 
 The Preview mode gives you the following functionalities:
 
+* [Preview content using baseline](#preview-content-using-baseline)
 * [View content based on conditional filters](#id2114BI00VXA)
 * [View the track changes markups](#id2114BJ00CE8)
 * [Export a topic as PDF](#id2114BL00B5U)
+
+
+### Preview content using baseline (applicable only for DITA map)
+
+>[!NOTE]
+>
+>Contact your Customer Success Team to enable this feature in your environment.
+
+Preview mode by default displays the current working copy of a topic or map. If a map has one or more static baselines, you can use the **Preview using baselines** toggle to preview the map instead as it existed at a specific baseline version. This feature only supports static baselines; dynamic baselines are not available for preview.
+
+![](images/preview-baseline.png){width="650"}
+
+When you select a baseline from the drop-down list, the preview resolves all associated topics, assets, images, and references based on the selected baseline instead of the current working copy. This provides an accurate representation of the map content at the time the baseline was created.
+
+For example, if an image was replaced after a baseline was created, previewing that baseline displays the version of the image associated with the baseline, rather than the image from the current working copy.
+
+Preview mode shows a loading preview indicator while it renders the initial set of topics. It does not update automatically after you edit a topic or switch versions. To see the latest content, refresh the preview manually, or close and reopen the topic or map. Additionally, the Tracking options (No Markup, Original, and Show Markup) are not available when previewing a map for a baseline.
 
 ### View content based on conditional filters {#id2114BI00VXA}
 
 If you have used conditions in your topic or map, those conditions are shown in the Filters panel. By default, all conditions are selected and the entire content is displayed. If you deselect a condition, then the content having that condition is removed from the view. You can also choose to highlight conditionalized content.
 
-The following image shows a topic that uses two conditions : `Audience` and `Platfor`. The conditionalized content is highlighted with yellow background.
+The following image shows a topic that uses two conditions : `Audience` and `Platform`. The conditionalized content is highlighted with yellow background.
 
 >[!BEGINTABS]
 
@@ -154,7 +172,7 @@ If a document contains track changes markups \(or visual cues\), then you can al
 There are three **Tracking** options that you can choose from:
 
 * **No Markup**: In this view, all insertions and deletions are accepted, and a simple view of the document is presented. In this view, you do not view any track changes markups.
-* **Original**: In this view, all insertions are rejected and all deletions are restored back, and then a preview is shown. Simply, you get the original form of the document before you enabled the track changes mode.
+* **Original**: In this view, all insertions are rejected and all deletions are restored back, and then a preview is shown. You get the original form of the document before you enabled the track changes mode.
 * **Show Markup**: In this view, you get all markups for inserted and deleted content.
 
     The following image shows the preview of a map file with markups:
@@ -177,7 +195,7 @@ To export a topic as PDF, follow these steps:
 
 1.  Open the topic in Preview mode. Ensure that the topic is a part of a map file.
 
-1.  Select the **Download as PDF** option form the top. 
+1.  Select the **Download as PDF** option from the top. 
 
     ![](images/download-as-pdf-preview.png) icon.
 
@@ -186,6 +204,5 @@ To export a topic as PDF, follow these steps:
     > Ensure that you have enabled the pop-up window in the browser configuration, else the PDF will not get downloaded.
 
     The PDF is generated and opened in a new tab or you are shown a dialog to save the PDF on your local system.
-
-
+    
 **Parent topic:**[Introduction to the Editor](web-editor.md)

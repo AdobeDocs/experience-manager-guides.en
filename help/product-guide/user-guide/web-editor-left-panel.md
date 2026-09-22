@@ -85,6 +85,10 @@ The detailed explanation of the left panel features is as follows:
 
 ## Collections 
 
+>[!NOTE]
+>
+> Starting with the 2026.09.0 release, Experience Manager Guides offers an improved browsing experience through paginated loading. This feature is enabled by default. To disable it, contact your Customer Success team. For more information, see [Paginated loading of files and folders](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
+
 If you work on a set of files or folders, you can add them to your favorite list to access them quickly. **Collections** show the list of documents that you have added and other publicly accessible list of documents from the other users. 
 
 By default, you can view the files by titles. As you hover over a file, you can view the file title and the file path as a tooltip.
@@ -500,7 +504,8 @@ The various options in the Options menu are explained below:
 
 >[!NOTE]
 >
-> Starting with 2025.11.0 release for Cloud Service and 5.2.0 release for On-Premise, **Repository** is replaced by **Explorer**. For On-Premise prior to version 5.2, you will continue to view and use Repository through the Editor interface.
+>- Starting with 2025.11.0 release for Cloud Service and 5.2.0 release for On-Premise, **Repository** is replaced by **Explorer**. For On-Premise prior to version 5.2, you will continue to view and use Repository through the Editor interface.
+>- Starting with the 2026.09.0 release, Experience Manager Guides offers an improved browsing experience through paginated loading. This feature is enabled by default. To disable it, contact your Customer Success team. For more information, see [Paginated loading of files and folders](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
 Explorer provides most of the capabilities previously available in Repository, including:
 
@@ -1122,6 +1127,10 @@ To insert a snippet, use any of the following methods:
 > From the context menu of a snippet entry, you can also choose to Edit, Delete, get a Preview, or Insert a Snippet.
 
 ## Templates 
+
+>[!NOTE]
+>
+> Starting with the 2026.09.0 release, Experience Manager Guides offers an improved browsing experience through paginated loading. This feature is enabled by default. To disable it, contact your Customer Success team. For more information, see [Paginated loading of files and folders](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
 The Templates panel is available to only administrators. Using this panel, administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *map* and *topic* type templates. 
 
