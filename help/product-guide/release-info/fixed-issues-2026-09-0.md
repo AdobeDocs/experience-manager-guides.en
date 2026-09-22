@@ -31,7 +31,7 @@ This section covers the bugs fixed in Authoring that are common to both Editor 1
 
 - The asset status API does not return the correct status for assets whose path contains a comma. (GUIDES-49065)
 - The DITA element filter in the Assets Admin Search Rail does not apply the entered value, so search results are not filtered. (GUIDES-48450)
-- The version purge utility fails to complete in several scenarios, including certain file types, assets with missing metadata, and large reports, instead of completing the purge and generating an accurate report. (GUIDES-43453)
+- The version purge utility fails to complete in several scenarios, including certain file types, assets with missing metadata, and large reports, instead of completing purge and generating an accurate report. (GUIDES-43453)
 - Renaming an asset with a GUID-based filename to a different GUID using the Move operation in the Assets UI replaces the asset’s original unique GUID with the new GUID. (GUIDES-43006)
 
 ## Publishing
