@@ -137,7 +137,7 @@ Before you connect a client, work with your AEM administrator to verify the foll
 
 Claude Desktop supports Desktop Extensions (`.mcpb`). The Experience Manager Guides MCP extension packages the connection configuration so that you don't need to manually edit an MCP JSON configuration.
 
-1. Extract the [AEM Guides .mcpb zip file](./mcpbfile.zip) and obtain the `aem-guides-mcp.mcpb` extension file.
+1. Obtain the [`aem-guides-mcp.mcpb`](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/other-packages/guides-mcp/aem-guides-mcp.zip) extension file.
 
 2. Open **Claude Desktop** and navigate to **Settings > Extensions**.
 

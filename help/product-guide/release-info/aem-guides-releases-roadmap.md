@@ -29,7 +29,7 @@ role_v2:
 
 ## [!DNL Experience Manager Guides] as a [!DNL Cloud Service] {#aem-guides-roadmap-cs}
 
-The releases for Experience Manager Guides as a Cloud Service are planned as follows:
+The releases for Adobe Experience Manager Guides as a Cloud Service are planned as follows:
 
 ### Planned releases
 
