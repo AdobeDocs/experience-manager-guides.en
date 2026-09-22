@@ -281,15 +281,15 @@ Depending on who you want to give access for deletion, specify one of the follow
 
 >[!ENDTABS]
 
-## Purge older versions of DITA files 
+## Purge older versions of files 
 
-When you update content and create new versions, the previous versions of DITA files are maintained in the repository. Many versions might get created for your DITA files over a period and can collectively take up a large amount of space in your repository. AEM Guides allows you to configure the older versions which should be deleted from the repository.
+When you update content and create new versions, the previous versions of files are maintained in the repository. Many versions might get created for your files over a period and can collectively take up a large amount of space in your repository. AEM Guides allows you to configure the older versions which should be deleted from the repository.
 
-You can access this utility using the given URL if you have administrative rights:
+>[!NOTE]
+>
+> You can purge DITA and non-DITA files.
 
-`<server folder path> /libs/fmdita/clientlibs/xmleditor_version_purge/page.html`
-
-The version of a DITA file that meets any of the given criteria is maintained and not purged:
+The version of a file that meets any of the given criteria is maintained and not purged:
 
 -   Is the first version of a file
 -   Is included in a baseline
@@ -299,19 +299,21 @@ The version of a DITA file that meets any of the given criteria is maintained an
 
 Perform the following steps to purge the older versions:
 
+1. Select the Adobe Experience Manager logo at the top and choose **Tools**.
+1. Select **Guides** from the Tools panel.
+1. Select the **Version Purge** tile.
+
+    ![](assets/version-purge.png)
+
 1.  Enter the following details about the files you want to purge:
 
-    ![](assets/preview-purge-report.png)
-
-1.  -   **Number of Versions to Retain from the Latest Version**: Enter the number of versions that should be retained and not purged. For example, if we enter 5 then the last 5 versions are retained, and the versions prior to that are qualified to be purged in case other purging conditions are met.
+    -  **Number of Versions to Retain from the Latest Version**: Enter the number of versions that should be retained and not purged. For example, if we enter 5 then the last 5 versions are retained, and the versions prior to that are qualified to be purged in case other purging conditions are met.
     -   **Retain Versions Created Within Timespan \(In Days\)**: Enter the maximum age of a version in days. The versions older than the given number of days are qualified to be purged in case other purging conditions are met. For example, if we enter 100, all versions created before 100 days are qualified to be purged in case other purging conditions are met.
-    -   **Path**: Select the path of the file or folder whose files you want to purge.
+    -   **Path**: Select the path of the file or folder whose files you want to purge.        
 
-        >[!NOTE]
-        >
-        > You can only purge DITA files.
+        ![](assets/preview-purge-report.png)   
 
-1.  Click **Preview Purge Report**.
+1.  Select **Preview Purge Report**.
 
     >[!NOTE]
     >
@@ -326,7 +328,7 @@ Perform the following steps to purge the older versions:
 
     The purging status is displayed.
 
-    Click **Download Version Purge Report** to view the purged versions. This report provides the purging status on all versions along with reasons why a particular version was retained or why it got purged.
+    Select **Download Version Purge Report** to view the purged versions. This report provides the purging status on all versions along with reasons why a particular version was retained or why it got purged.
 
 
 >[!NOTE]

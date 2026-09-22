@@ -559,7 +559,8 @@ If your administrator has enabled the UUIDs option in *XMLEditorConfig*, then yo
 
 >[!IMPORTANT]
 >
-> As per standard DITA behavior, the scope=`external` attribute must not be applied to internal links, as it is intended only for references to external resources. Applying this attribute to internal links may disrupt workflows. For content managed in Experience Manager Guides, use the default scope=`local` or key-based references instead.
+> - As per standard DITA behavior, the scope=`external` attribute must not be applied to internal links, as it is intended only for references to external resources. Applying this attribute to internal links may disrupt workflows. For content managed in Experience Manager Guides, use the default scope=`local` or key-based references instead.
+> - The Web Link reference type always inserts scope=`external` by default and adds the URL as-is, without any modification. This behavior applies consistently to both relative and absolute paths, across all supported URL types, including HTTP/S and FTP/S.
 
 >[!BEGINTABS] 
 
