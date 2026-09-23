@@ -106,6 +106,9 @@ The following configuration options are displayed for **ServiceNow** as target:
 | Publish Profile | Use the dropdown to select from the ServiceNow connection profiles your administrator configures. To learn more about how your administrator can create a publish profile, view the **Workspace settings** (appearing as **Settings** for **On-Premise setup prior to version 5.2**) feature description in the [Left Panel](./web-editor-features.md#id2051EA0M0HS) section. |
 |Knowledge Base|Use this field to select the required ServiceNow Knowledge Base. You can configure knowledge bases in the ServiceNow site to store the content based on the permissions. The articles from this DITA map can be published to these knowledge bases. |
 |Category and Sub-category|Categories are like hierarchical trees used to find and classify ServiceNow Knowledge Base articles. Add a category and sub-category to publish the topics and sub-topics of the TOC to that category and sub-category on the ServiceNow site.|
+| Upload images | Select this option if you want any images in topics to be included in the published output. |
+| Upload linked documents | Select this option to include the documents linked in topics in the published output. |
+| Remove elements from the article body | Type the name of an element (for example, `prolog` or `shortdesc`) and press **Enter** to add it to the list. Any element you add is excluded from the article body in the published output. By default, the list includes **title**, so the topic heading is hidden from the article body. Select the `x` icon next to **title** to remove it from the list if you want the topic heading included, or add other elements you want to exclude. <br><br>**Note**: Enter the name as it appears in the transformed class of that element in the ServiceNow article's source code view. If the name you type doesn't match a recognized element, it has no effect on the published output.|
 
 **Salesforce**
 
@@ -117,17 +120,11 @@ The following configuration options are displayed for **Salesforce** as target:
 |Record Type| Use the dropdown to select among the record types set up in Salesforce as per the visibility settings based on your user profile. Salesforce Record Types are a way of grouping many records of one type for that object. They define how your publication is organized. For example, you can select FAQ Record Type and publish as per the FAQ page layout and fields.|
 |Article Content Field|You can have different fields and a unique layout for each record type template. Use these fields to enter specific information depending on the type of article. For example, you can view a FAQ article's title, answer, and equation.|
 |Categories| Select a category from the dropdown to publish the topics of the TOC in that category on the Salesforce site.|
-
-**Some more options**
-
-You can also view the following options in the Salesforce and ServiceNow presets:
-
-| Options | Description |
-| --- | --- |
 |Remove the topic heading from the article body.|Select this option to remove the topic heading from the article in the published output. |
 |Upload as draft | Select this option to upload the topic to share it as a draft before making it available to the users.|
 |Upload images| Select this option if you want any images in topics to be included in the published output.|
 |Upload linked documents| Select this option to include the documents linked in topics in the published output.|
+
 
 
 
