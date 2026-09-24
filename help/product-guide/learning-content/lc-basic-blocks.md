@@ -55,6 +55,10 @@ You can use the basic editing features available on the Editor toolbar, as descr
 
     ![](assets/image-learning-content.png){width="650"}
 
+    >[!NOTE]
+    >
+    > The AVIF image format is also supported. You can upload a file in this format to the repository, or select it when inserting an image into your content. This works for SCORM output only.
+
 - **Multimedia**: Adds video and audio to the content. You can customize their properties using the **Content Properties** panel.
 
     ![](assets/video-learning-content.png){width="650"}
