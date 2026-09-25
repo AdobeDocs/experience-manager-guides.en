@@ -275,13 +275,16 @@ You can define the text to appear before and after the break. For example, a tab
    >[!NOTE]
    >
    > When using a language variable in the **Text Before Break** or **Text After Break** field, ensure that the entire text is defined within a single language variable. Any text or variable added outside the language variable in these fields is not rendered. For example, instead of using a combination of variables such as `${lng:Continued-from-page} %page-num%` in the **Text After Break field**, use only `${lng:Continued-from-page}` in the field, and separately set the value of the `Continued-from-page` language variable to `Continued-from-page %page-num%`.
-* **Link glossary terms to the glossary page**: Select this option to show the glossary terms as hyperlinks in the content and link them to the terms on the glossary page. This helps the readers to quickly view the definition of a term defined in the glossary.
+* **Link glossary terms to the glossary page**: Enable this option to show the glossary terms as hyperlinks in the content and link them to the terms on the glossary page. This helps the readers to quickly view the definition of a term defined in the glossary.
     
    To convert the glossary terms to hyperlinks, you need to:
    * Enable **Glossary** in the **Page Layout Order** tab for a DITA map. 
    * Add the Glossary in the Back Matter Pages for a Book map.
 
    If you don't enable the Glossary page, the Glossary terms in the content are not converted to hyperlinks in the PDF output.
+
+* **Show all glossary entries**: Enable this option to include every glossary entry defined in the map, whether or not the corresponding term is referenced in your content. By default, this option is disabled, and only the glossary terms actually used in your content are included in the glossary page.
+
 <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Page Layouts {#page-layouts}
