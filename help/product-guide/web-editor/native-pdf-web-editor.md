@@ -259,7 +259,11 @@ Use the following options to specify advanced settings to merge PDFs, use compre
 
 During Native PDF generation, DITA content is transformed into intermediate HTML before the PDF output is generated. You can access these intermediate files by enabling the **Retain temporary files** option in the Native PDF output preset.
 
-Currently, the following DITA element mapping is applicable in the intermediate merged.html file:
+As part of this transformation, certain DITA elements can be mapped to different HTML elements in the intermediate `merged.html` file. These mappings help preserve the expected inline rendering in the generated PDF.
+
+If you use customizations or automation that rely on the HTML element structure in the intermediate files, consider these mappings when processing the generated HTML.
+
+Currently, the following DITA element mapping is applicable in the intermediate `merged.html` file:
 
 | DITA element | HTML element | Description |
 |----|----|-----|
