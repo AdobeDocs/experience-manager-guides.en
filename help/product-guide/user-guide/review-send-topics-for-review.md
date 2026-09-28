@@ -395,5 +395,31 @@ Once the review task is updated, the reviewers receive notifications (both AEM a
 
 For more details, view [Understanding review notifications](./review-understanding-review-notifications.md).
 
+## Add comments for reviewers
+
+As the initiator of a review task, you can add inline comments to the topics that you send for review. After creating a review task, open the task in the **Review UI** to provide additional context or draw the reviewers' attention to specific content.
+
+Perform the following steps to add comments to topics in a review task:
+
+1. Create a review task and add the required topics and reviewers.
+
+2. Open the created review task in the **Review UI**.
+
+   As a review initiator, you have access to the **Comments** panel and the list of topics on the left, similar to the view available to reviewers.
+
+   ![](./images/add-comments-as-author.png)
+
+3. From the topic list, select the topic where you want to add a comment.
+
+4. Select the relevant content and use the options available in the **Comments** panel to add your feedback or draw the reviewers' attention to specific content.
+
+5. Repeat these steps to add comments to other topics in the review task, as required.
+
+The comments you add are visible to reviewers when they access the review task. Reviewers also receive an AEM notification when you add a comment.
+
+
+
+
+
 
 **Parent topic:**[Introduction to review](review.md)

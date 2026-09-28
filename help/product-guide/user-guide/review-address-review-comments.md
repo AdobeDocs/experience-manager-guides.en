@@ -124,9 +124,10 @@ Tagged users receive both an email and an AEM notification, ensuring they're pro
 
 **Access review comments using the Review UI**
 
-If you are the initiator or Author of a review task and open it from the **Projects console**, the topic will launch in the Review UI. Since this task is not assigned to you, you can view and reply to comments but cannot perform any review actions. The comments toolbar remains disabled for users who are not assigned to the task.
+As the initiator of a review task, you can open the review task in the **Review UI** to view and respond to comments from reviewers. You can also add comments to the topics in the review task to provide additional context or draw reviewers' attention to specific content.
 
-![](images/review-comments-toolbar-disabled.png){width="350"}
+For more details, view [Add comments for reviewers](./review-send-topics-for-review.md#add-comments-for-reviewers). 
+
 
 ## View all review tasks for a topic
 
