@@ -25,6 +25,11 @@ You can enable or disable the following options based on your preferences:
 - **Non breaking spaces**: Enable this option to show an indicator for the non-breaking spaces while editing it in the Editor. It is visible only in the Author view for DITA topic and DITA maps
 - **XML comments**: Enables authors to view, edit, and insert XML comments directly in Author mode, for better visibility within the content. When enabled, authors can view, insert, edit, and delete XML comments directly within the content in the Author mode itself, making it easier to add contextual notes for collaborators. When disabled, XML comments are hidden in Author mode and cannot be inserted or modified from Author mode, ensuring a cleaner authoring experience for users who do not require them. You can continue to view and author XML comments in source mode using the `<!-- test comment -->` syntax.
 
+    >[!NOTE]
+    >
+    > Track changes (when enabled in ) is not supported for edits within XML comments. However, inserting or deleting an entire XML comment is tracked as a change.
+
+
     ![Config XML comments](./images/config-xml-comments.png){width="650"}
 
 - **Tags**: Controls the visibility of tags in the Editor. When enabled, structural tags are displayed within the content, allowing authors to view and manage the underlying DITA structure. When disabled, these tags are hidden to provide a cleaner and more focused authoring experience.
