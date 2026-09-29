@@ -32,9 +32,9 @@ Contents (TOC), index, blank page, Front Matter Pages, Back Matter Pages, List o
 
 ### Create a new page layout {#create-page-layout}
 
-   >[!NOTE]
-   >
-   >There are sample page layouts that are shipped out of the box. You can customize these or create new page layouts.
+>[!NOTE]
+>
+>There are sample page layouts that are shipped out of the box. You can customize these or create new page layouts.
 
 1. In the Editor, go to the **Output** tab.
 1. Expand the left sidebar and click **Templates**.
@@ -57,6 +57,7 @@ Contents (TOC), index, blank page, Front Matter Pages, Back Matter Pages, List o
       <img src="assets/add-layout-2.png" alt="Add Layout dialog" width="250">
 
 1. Specify a name for the new page layout.
+
     >[!NOTE]
     >
     >Avoid using any special characters when naming a page layout. A space in the name is replaced with an underscore "_".
@@ -192,9 +193,10 @@ To add an asset file to the Resources folder, follow the below steps:
    <img src="assets/resources-import-assets.png" alt="Upload assets" width="300">
    
    The path where the asset file will be uploaded is shown in the **Select Asset Folder** field.
-    >[!NOTE]
-    >
-    >You cannot change the path for uploading assets. By default, all assets are stored under the `/content/dam/dita-templates/pdf/<PDF-template-name>` folder.
+
+   >[!NOTE]
+   >
+   >You cannot change the path for uploading assets. By default, all assets are stored under the `/content/dam/dita-templates/pdf/<PDF-template-name>` folder.
 
 1. Click **Choose Files** to browse the asset file from your local machine
 
@@ -333,9 +335,7 @@ For more information on page layouts, see [Design a page layout](design-page-lay
 
 ### Page Layout Order {#page-order}
 
-   You can show or hide the following sections in your PDF and also arrange the order in which they should appear in your final PDF output: 
-
-
+You can show or hide the following sections in your PDF and also arrange the order in which they should appear in your final PDF output: 
 
 * TOC
 * Chapters & Topics
@@ -345,33 +345,31 @@ For more information on page layouts, see [Design a page layout](design-page-lay
 * Glossary
 * Citation
 
-   <img src="assets/page-order-advance-settings.png" alt="Page layout order" width="550">
+<img src="assets/page-order-advance-settings.png" alt="Page layout order" width="550">
 
-   If you do not want to show a particular section in your PDF output, you can hide that by turning the toggle switch off. 
+If you do not want to show a particular section in your PDF output, you can hide that by turning the toggle switch off. 
 
-   You can also define the order in which these different sections are generated in your PDF. To change the default order of these sections, select the dotted bars to drag and drop the sections at the desired location. 
+You can also define the order in which these different sections are generated in your PDF. To change the default order of these sections, select the dotted bars to drag and drop the sections at the desired location. 
 
-   >[!NOTE]
-   >
-   > The order and inclusion settings apply only to a DITA map. For a bookmap, these settings are not applicable. The pages in a bookmap are displayed as per the order of the sections in the bookmap.
+>[!NOTE]
+>
+> The order and inclusion settings apply only to a DITA map. For a bookmap, these settings are not applicable. The pages in a bookmap are displayed as per the order of the sections in the bookmap.
 
-
-.
-   **Chapter & Topics** layout is always enabled by default. You cannot toggle it.
+**Chapter & Topics** layout is always enabled by default. You cannot toggle it.
 
 **Merge pages**
 
-   By default, all sections begin on a new page. Select the **Previous Page** or **Next Page** option from the **Merge With** dropdown to merge a section with a previous or next page. This will publish the section in continuation with the selected page in the PDF output. With this, there will be no page break in between.
+By default, all sections begin on a new page. Select the **Previous Page** or **Next Page** option from the **Merge With** dropdown to merge a section with a previous or next page. This will publish the section in continuation with the selected page in the PDF output. With this, there will be no page break in between.
 
-   >[!NOTE]
-   >
-   > This setting applies only to the section and not its components.  For example, if you select the **Previous Page** option for **Chapters & Topics**, the **Chapters and Topics** section merges with the previous page. The various chapters and topics are published as per the **General** settings.For example, if in **Start any new chapter from setting**, you select **Odd Page**, then a blank page is inserted after a chapter that ends on an odd page. 
+>[!NOTE]
+>
+> This setting applies only to the section and not its components.  For example, if you select the **Previous Page** option for **Chapters & Topics**, the **Chapters and Topics** section merges with the previous page. The various chapters and topics are published as per the **General** settings.For example, if in **Start any new chapter from setting**, you select **Odd Page**, then a blank page is inserted after a chapter that ends on an odd page. 
 
-   When you merge a section to its previous page or next page, the content is merged, and the style of the target section in which the content is merged is applied. 
+When you merge a section to its previous page or next page, the content is merged, and the style of the target section in which the content is merged is applied. 
 
-   For example, if you enable **TOC** and **Chapter & Topics** and select the **Next Page** for **TOC**, the **TOC** merges with the next section, which is the **Chapter & Topics**. The style of the **Chapter & Topics** section is applied to the merged content of both sections.
+For example, if you enable **TOC** and **Chapter & Topics** and select the **Next Page** for **TOC**, the **TOC** merges with the next section, which is the **Chapter & Topics**. The style of the **Chapter & Topics** section is applied to the merged content of both sections.
 
-   The merge option works successively, so if you have selected **Next Page** for multiple continuous sections, they all merge with the first section (in the next direction), which does not have this property set. For example, you enable **TOC**, **Chapter & Topics**, **List of Figures**, and **Index**. Then, if you set **Next Page** for **TOC**, **Chapter & Topics**, **List of Figures**, and **None** for **Index**, they all merge with  **Index**. 
+The merge option works successively, so if you have selected **Next Page** for multiple continuous sections, they all merge with the first section (in the next direction), which does not have this property set. For example, you enable **TOC**, **Chapter & Topics**, **List of Figures**, and **Index**. Then, if you set **Next Page** for **TOC**, **Chapter & Topics**, **List of Figures**, and **None** for **Index**, they all merge with  **Index**. 
 
 
 **Static pages**
@@ -403,7 +401,7 @@ You can also perform the following actions:
 
 The pages in a PDF document are typically published according to the content organized in the DITA map or bookmap file. However, you can also change the order of pages in the PDF document. For example, you can print a multipage document as a booklet. When you collate, fold, and staple the sheets, the result is a single book with the correct page order.  You can then read the published booklet like a book. 
 
- <img src="assets/template-page-organization.png" alt="Page Organization" width="550">
+<img src="assets/template-page-organization.png" alt="Page Organization" width="550">
 
 
 The following settings are available under the **Page Organization** section:
@@ -475,6 +473,7 @@ If you leave the text field blank and you have not defined the link text while i
 * **Table**: `{captionText}`
 
 The order of precedence for cross-references is:
+
 * Link text added in the cross-references 
 * Cross-reference format defined in the Native PDF template
 * Default cross-reference format
@@ -497,9 +496,8 @@ For example, the following screenshots show the cross-references "View on page 1
 
 *A cross-reference within a paragraph when published in the English language.*
 
-   <img src="./assets/german-output-corss-reference.png" alt="German output of a cross-reference in a pragrah" width ="800" border="2px">
-
+<img src="./assets/german-output-corss-reference.png" alt="German output of a cross-reference in a pragrah" width ="800" border="2px">
 
 *A cross-reference within a paragraph when published in the German language.*
 
- <!--For more information, see *Format cross-references*.-->
+<!--For more information, see *Format cross-references*.-->

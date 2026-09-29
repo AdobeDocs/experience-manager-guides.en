@@ -61,13 +61,11 @@ You can activate the output to the **Preview** or **Publish** instances.
 **Publish**
 
 * To activate the output of selected maps, select the pregenerated map output and select **Publish to** > **Publish**.
-
 * To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Publish to** > **Publish**.
 
-
-   >[!NOTE] 
-   > 
-   > The checkbox for a map output is enabled only if you have generated the output for a map.
+  >[!NOTE] 
+  > 
+  > The checkbox for a map output is enabled only if you have generated the output for a map.
 
 A success message is displayed when the map output is queued for publishing.
 

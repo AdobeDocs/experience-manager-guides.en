@@ -64,15 +64,15 @@ Saves the changes you have made in all opened topics. If you have multiple topic
 
 **AI Assistant**: AI Assistant is available in two modes: **Agentic** and **Standard**.
 
-  >[!NOTE]
-  >
-  > For using Agentic mode of AI Assistant feature in your environment, contact the Customer Success team. After the feature is enabled, Administrators can turn it on or off from Workspace Settings. Only one mode of AI Assistant can be enabled at a time; either Agentic or Standard.
+>[!NOTE]
+>
+> For using Agentic mode of AI Assistant feature in your environment, contact the Customer Success team. After the feature is enabled, Administrators can turn it on or off from Workspace Settings. Only one mode of AI Assistant can be enabled at a time; either Agentic or Standard.
 
-  - **Agnetic**: Brings intelligent, agentic Smart Tagging skill from Adobe CX Enterprise Coworker into the Editor, enabling natural, conversational content tagging. It analyzes your content, recommends relevant tags, and helps you apply consistent and accurate metadata with minimal effort. You can review the suggested tags and choose to apply or reject them before confirming your selection. [Use AI Assistant in Agentic Mode](../user-guide/ai-assistant-agentic.md) streamlines the tagging process, improving content organization and discoverability.
+- **Agnetic**: Brings intelligent, agentic Smart Tagging skill from Adobe CX Enterprise Coworker into the Editor, enabling natural, conversational content tagging. It analyzes your content, recommends relevant tags, and helps you apply consistent and accurate metadata with minimal effort. You can review the suggested tags and choose to apply or reject them before confirming your selection. [Use AI Assistant in Agentic Mode](../user-guide/ai-assistant-agentic.md) streamlines the tagging process, improving content organization and discoverability.
 
-  - **Standard**: A powerful, AI-driven tool designed to enhance your productivity through smart help features. Additionally, when working in the Editor interface, you can leverage the smart authoring capabilities of AI Assistant that makes your authoring process smarter and faster through intelligent suggestions for content reuse and optimization.  
-  
-  The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.
+- **Standard**: A powerful, AI-driven tool designed to enhance your productivity through smart help features. Additionally, when working in the Editor interface, you can leverage the smart authoring capabilities of AI Assistant that makes your authoring process smarter and faster through intelligent suggestions for content reuse and optimization.  
+
+The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.
 
 **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar containing the Adobe Experience Manager logo, is hidden. This maximizes the content space for editing. To return to the standard view, use the **Exit the expanded view** icon.
 

@@ -87,9 +87,9 @@ You can also create new language variables. For example, you can create a user v
 
 1. Select **Add Language Variable** <img src="./assets/add-language-variable.svg" width="25"> to add a new language variable to the selected language. Adding a variable to one language automatically adds it to all languages. You cannot create a variable with the same name as an existing variable. An error is displayed. 
 
-  >[!NOTE]
-  >
-  > If you don't select **Add Language Variable**, the variable is not created and added to the list
+   >[!NOTE]
+   >
+   > If you don't select **Add Language Variable**, the variable is not created and added to the list
 
 ## Export and import language variables
 

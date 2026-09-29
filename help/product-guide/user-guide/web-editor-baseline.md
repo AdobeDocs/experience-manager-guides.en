@@ -127,13 +127,13 @@ You can manage your existing baselines using the various features on the Baselin
 - Use the **Refresh** icon in the Baseline panel to recheck for all baselines and display a fresh list of baselines for the DITA map that's opened in the Map View.
 - Select the baseline to view or edit the contents of an existing static baseline in the **Baseline** panel. The baseline editing window displays the DITA map file, map's contents or topics, and the referenced content.
 
-  >[!NOTE]
-  >
+>[!NOTE]
+>
   >Edit operation for static baselines is only recommended for small number of reference changes. Edit operation is not recommended to change the version of the main DITA map as it must recalculate all the references. This may cause a baseline update failure for large DITA maps. For the larger DITA maps, you can create a new baseline or edit the properties of the baseline. 
-  >
-  >Edit operation in case of dynamic baseline allows you to edit the properties of the baseline as the references for dynamic baselines are generated at runtime using the labels.  
+>
+>Edit operation in case of dynamic baseline allows you to edit the properties of the baseline as the references for dynamic baselines are generated at runtime using the labels.  
 
-  ![options of a baseline](images/baseline-options.png)
+![options of a baseline](images/baseline-options.png)
 
 ### Actions available for an existing baseline
 
