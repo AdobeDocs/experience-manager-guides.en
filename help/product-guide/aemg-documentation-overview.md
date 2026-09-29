@@ -207,9 +207,13 @@ Reviewers can delegate a review task to another reviewer.
 
 [!BADGE 2026.09.0 Release]{type=Informative}
 
+>[!BEGINSHADEBOX]
+
 The 2026.09.0 release of Adobe Experience Manager Guides introduces AI-powered smart tagging in AI Assistant, along with enhancements across authoring, content management, publishing, and the overall user experience.
 
 [Explore what’s new](./release-info/whats-new-2026-09-0.md)
+
+>[!ENDSHADEBOX]
 
 
 ## Additional resources
