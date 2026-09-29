@@ -45,12 +45,12 @@ Similarly, selecting a Baseline to translate content is optional. However, if yo
 
 >[!TIP]
 >
-> It is recommended to use this Baseline feature from the Map console. However, you can also [use map dashboard to create and manage baselines](./generate-output-use-baseline-for-publishing.md).
+>It is recommended to use this Baseline feature from the Map console. However, you can also [use map dashboard to create and manage baselines](./generate-output-use-baseline-for-publishing.md).
 
 In the **Baseline** tab, you can perform the following actions:
 
--   [Create a Baseline](#create-a-baseline)
--   [Manage Baselines](#manage-baselines)
+- [Create a Baseline](#create-a-baseline)
+- [Manage Baselines](#manage-baselines)
 
 
 ## Create a Baseline 
@@ -105,18 +105,19 @@ Baselines created using the automatic update configuration are updated dynamical
 
 - **Labels**: If the topics have labels specified for them,  then use the **Labels** dropdown to choose from the [listed labels](#labels-list). 
 
-    The labels selected first are given higher priority over the later ones.
+   The labels selected first are given higher priority over the later ones.
 
    >[!NOTE]
    >
    >While the labels are being pulled a loader appears, and the dropdown is disabled. 
 
-     For dynamic baselines, the labels are pulled from the latest saved version and the current working copy of the map. For example, if you have created labels   `Label Release A.1.0 ` and `Label Release A.1.1` for versions 1.0 and 1.1 of Topic A and labels `Label Release B.1.0` and `Label Release B.1.1` for versions 1.0 and 1.1 of Topic B . Then you can add Topic A to Map A in version 1.0 and Topic B to Map A in 1.0* (working copy). In this case, you can view  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`,  and `Label Release B.1.1` in the dropdown of dynamic baseline labels.
+   For dynamic baselines, the labels are pulled from the latest saved version and the current working copy of the map. For example, if you have created labels   `Label Release A.1.0 ` and `Label Release A.1.1` for versions 1.0 and 1.1 of Topic A and labels `Label Release B.1.0` and `Label Release B.1.1` for versions 1.0 and 1.1 of Topic B . Then you can add Topic A to Map A in version 1.0 and Topic B to Map A in 1.0* (working copy). In this case, you can view  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`,  and `Label Release B.1.1` in the dropdown of dynamic baseline labels.
+
 - **Indirect References**: For indirect references within the DITA map, you are given the following options:
     
     - **Pick automatically**: You can choose to **Pick Automatically** for the referenced content, and the system automatically picks the version of the referenced content corresponding to the version of the content in which it is referenced.
     - **Use selected label**: You can create a baseline with the selected label defined for a version of topics.
-    -  **Use the latest version or the working copy**: Use the latest version of topics that do not have the specified label applied on them, or if no version has been created, then use the working copy of the topics to create the baseline.
+    - **Use the latest version or the working copy**: Use the latest version of topics that do not have the specified label applied on them, or if no version has been created, then use the working copy of the topics to create the baseline.
 
 ## Manage Baselines 
 
@@ -126,13 +127,13 @@ You can manage your existing baselines using the various features on the Baselin
 - Use the **Refresh** icon in the Baseline panel to recheck for all baselines and display a fresh list of baselines for the DITA map that's opened in the Map View.
 - Select the baseline to view or edit the contents of an existing static baseline in the **Baseline** panel. The baseline editing window displays the DITA map file, map's contents or topics, and the referenced content.
 
-    >[!NOTE]
-    >
-    >Edit operation for static baselines is only recommended for small number of reference changes. Edit operation is not recommended to change the version of the main DITA map as it must recalculate all the references. This may cause a baseline update failure for large DITA maps. For the larger DITA maps, you can create a new baseline or edit the properties of the baseline. 
-    >
-    >Edit operation in case of dynamic baseline allows you to edit the properties of the baseline as the references for dynamic baselines are generated at runtime using the labels.  
+  >[!NOTE]
+  >
+  >Edit operation for static baselines is only recommended for small number of reference changes. Edit operation is not recommended to change the version of the main DITA map as it must recalculate all the references. This may cause a baseline update failure for large DITA maps. For the larger DITA maps, you can create a new baseline or edit the properties of the baseline. 
+  >
+  >Edit operation in case of dynamic baseline allows you to edit the properties of the baseline as the references for dynamic baselines are generated at runtime using the labels.  
 
-    ![options of a baseline](images/baseline-options.png)
+  ![options of a baseline](images/baseline-options.png)
 
 ### Actions available for an existing baseline
 
@@ -142,26 +143,28 @@ You can also perform the following operations on the baseline from the Options m
 
 You can duplicate a baseline and modify it according to your requirements. 
 
-   ![duplicate a baseline](images/baseline-duplicate.png){width="300"}
+![duplicate a baseline](images/baseline-duplicate.png){width="300"}
    *Duplicate a baseline based on a label or create an exact copy.*
     
- 1. Select **Duplicate** from the Options menu of a baseline. The **Duplicate baseline** dialog box opens.
-        >[!NOTE]
-        > 
-        >The default name of the baseline is `<selected baseline name>`_suffix (like sample-baseline_1). You can change the name according to your requirements.
-       
-       In **Select the version based on**, you can either choose the **Exact copy** option or the **Label** option:
+1. Select **Duplicate** from the Options menu of a baseline. The **Duplicate baseline** dialog box opens.
 
-    - **Exact copy**: Experience Manager Guides picks the same version of all the topics and creates an exact copy of the duplicated baseline. 
-    - **Label**: Using the dropdown, you can choose one of the [listed labels](#labels-list). Experience Manager Guides picks those versions of the topics with the selected label defined for them, while for the remaining topics, it picks the version from the duplicated baseline. For example, you select the label `Release 1.0` from the dropdown, then it picks those versions of the topics for which you have defined this label. For all other topics, it picks the version from the duplicated baseline.
+   >[!NOTE]
+   > 
+   >The default name of the baseline is `<selected baseline name>`_suffix (like sample-baseline_1). You can change the name according to your requirements.
+       
+   In **Select the version based on**, you can either choose the **Exact copy** option or the **Label** option:
+
+   - **Exact copy**: Experience Manager Guides picks the same version of all the topics and creates an exact copy of the duplicated baseline. 
+   - **Label**: Using the dropdown, you can choose one of the [listed labels](#labels-list). Experience Manager Guides picks those versions of the topics with the selected label defined for them, while for the remaining topics, it picks the version from the duplicated baseline. For example, you select the label `Release 1.0` from the dropdown, then it picks those versions of the topics for which you have defined this label. For all other topics, it picks the version from the duplicated baseline.
+
 1. Select **Duplicate**.
     
 - **Rename**, or **Delete** an existing baseline**.
 - **Manage labels** that allows you to add, remove, or make changes to existing labels for static baselines. If your administrator has configured pre-defined labels, then you are shown those labels in the Add Label dropdown list. For more information about adding labels,view [Use labels](web-editor-use-label.md#).
 
-    >[!NOTE]
-    >
-    > The process to add or remove labels happens asynchronously, so you can continue working on other files. Once the label is added or removed, a pop-up message is displayed confirming that the label has been added or removed, and you also receive an Inbox notification for the same.
+  >[!NOTE]
+  >
+  > The process to add or remove labels happens asynchronously, so you can continue working on other files. Once the label is added or removed, a pop-up message is displayed confirming that the label has been added or removed, and you also receive an Inbox notification for the same.
 
 - **Edit properties** of an existing static baseline that you have set while creating the baseline.
 - **Export Baseline** option exports a snapshot of the baseline in Microsoft Excel file, including all essential details such as title, file name, file type, version number, document state, and other relevant information.
@@ -170,6 +173,7 @@ You can duplicate a baseline and modify it according to your requirements.
 ### List of labels {#labels-list}
 
 The labels listed in the dropdown are based on the following criteria:
+
 - The labels should be added to one of the versions of the topics in the DITA map (on which the baseline is created).
 - And only the first-level references (topics or sub-maps) of the DITA map are considered for picking the labels.
 
@@ -180,7 +184,7 @@ Using the Filters icon in the **Baseline Filters** panel you can apply filters o
 ![baseline filters](images/baseline-filter.png){width="300"}
 
 - Filter the files based on filenames, or file location.
--  Filter the files based on the values for different columns like File Type, Reference Type and so on.
+- Filter the files based on the values for different columns like File Type, Reference Type and so on.
 - Choose the columns to be displayed in the baseline editing window.
 
 >[!NOTE]
