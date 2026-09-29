@@ -52,7 +52,7 @@ View the different ways to activate your collection based on your setup.
 
 You can activate the output to the **Preview** or **Publish** instances.
 
- **Preview**
+**Preview**
 
 * To activate the output of selected maps, select the pregenerated map output and select **Publish to** > **Preview**.
 * To activate the output of all DITA maps with their configured presets, select the checkbox next to the **Map** column, and then select **Publish to** > **Publish**.
@@ -61,13 +61,11 @@ You can activate the output to the **Preview** or **Publish** instances.
 **Publish**
 
 * To activate the output of selected maps, select the pregenerated map output and select **Publish to** > **Publish**.
+* To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Publish to** > **Publish**.
 
- *  To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Publish to** > **Publish**.
-
-
-   >[!NOTE] 
-   > 
-   > The checkbox for a map output is enabled only if you have generated the output for a map.
+>[!NOTE] 
+> 
+>The checkbox for a map output is enabled only if you have generated the output for a map.
 
 A success message is displayed when the map output is queued for publishing.
 
@@ -81,9 +79,10 @@ Once the output is activated for the selected map files, the audit history tab i
 
 Do one of the following:
 
-*  To activate the output of selected maps, select the pregenerated map output and select **Quick Publish**.
-*  To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Quick Publish.**
-    ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
+* To activate the output of selected maps, select the pregenerated map output and select **Quick Publish**.
+* To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Quick Publish.**
+
+   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
    
    >[!NOTE] 
    > 

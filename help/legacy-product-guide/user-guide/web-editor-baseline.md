@@ -62,6 +62,7 @@ You can create a baseline from the Web Editor by performing the following steps:
 
 
             When you select **Label,** you can choose the direct and indirect references.
+
             -  For direct references within the DITA map, you are given an option to use the latest version of topics that do not have the specified label applied to them.
 
                 >[!NOTE]
@@ -89,10 +90,10 @@ You can create a baseline from the Web Editor by performing the following steps:
 
 1. **Indirect References**: For indirect references within the DITA map, you are given the following options:
     
-     -  **Pick automatically**: You can choose to **Pick Automatically** for the referenced content, and the system automatically picks the version of the referenced content corresponding to the version of the content in which it is referenced.
+    -  **Pick automatically**: You can choose to **Pick Automatically** for the referenced content, and the system automatically picks the version of the referenced content corresponding to the version of the content in which it is referenced.
       
     -  **Use selected label**: You can create a baseline with the selected label defined for a version of topics.
-     -  **Use the latest version or the working copy**: Use the latest version of topics that do not have the specified label applied on them, or if no version has been created, then use the working copy of the topics to create the baseline.
+    -  **Use the latest version or the working copy**: Use the latest version of topics that do not have the specified label applied on them, or if no version has been created, then use the working copy of the topics to create the baseline.
 1. Click **Apply**.
 
 The baseline is created. The baseline creation happens asynchronously, so you can continue working on other files in the Web Editor. Once the baseline is created, a pop-up message is displayed confirming that the baseline has been created, and you also receive an Inbox notification for the same.
@@ -113,33 +114,34 @@ You can manage your existing baselines using the various features on the Baselin
 
     ![options of a baseline](images/baseline-options.png){width="800"}
 
-   
-
     You can also perform the following operations on the baseline from the Options menu:
 
 ### Duplicate a baseline
 
 You can duplicate a baseline and modify it according to your requirements. 
+
    ![duplicate a baseline](images/baseline-duplicate.png){width="300"}
    *Duplicate a baseline based on a label or create an exact copy.*
     
  1. Select **Duplicate** from the Options menu of a baseline. The **Duplicate baseline** dialog box opens.
-        >[!NOTE]
-        > 
-        >The default name of the baseline is `<selected baseline name>`_suffix (like sample-baseline_1). You can change the name according to your requirements.
-       
-       In **Select the version based on**, you can either choose the **Exact copy** option or the **Label** option:
+
+    >[!NOTE]
+    > 
+    >The default name of the baseline is `<selected baseline name>`_suffix (like sample-baseline_1). You can change the name according to your requirements.
+      
+    In **Select the version based on**, you can either choose the **Exact copy** option or the **Label** option:
 
     - **Exact copy**: Experience Manager Guides picks the same version of all the topics and creates an exact copy of the duplicated baseline. 
     - **Label**: Using the dropdown, you can choose one of the [listed labels](#labels-list). Experience Manager Guides picks those versions of the topics with the selected label defined for them, while for the remaining topics, it picks the version from the duplicated baseline. For example, you select the label `Release 1.0` from the dropdown, then it picks those versions of the topics for which you have defined this label. For all other topics, it picks the version from the duplicated baseline.
+
 1. Click **Duplicate**.
     
--  **Rename**, or **Delete** an existing baseline.
--  Add, remove, or make changes to existing labels from the **Manage Labels** option for static baselines. If your administrator has configured pre-defined labels, then you are shown those labels in the Add Label dropdown list. For more information about adding labels, see [Use labels](web-editor-use-label.md#).
+   -  **Rename**, or **Delete** an existing baseline.
+   -  Add, remove, or make changes to existing labels from the **Manage Labels** option for static baselines. If your administrator has configured pre-defined labels, then you are shown those labels in the Add Label dropdown list. For more information about adding labels, see [Use labels](web-editor-use-label.md#).
 
-    >[!NOTE]
-    >
-    > The process to add or remove labels happens asynchronously, so you can continue working on other files in the Web Editor. Once the label is added or removed, a pop-up message is displayed confirming that the label has been added or removed, and you also receive an Inbox notification for the same.
+   >[!NOTE]
+   >
+   > The process to add or remove labels happens asynchronously, so you can continue working on other files in the Web Editor. Once the label is added or removed, a pop-up message is displayed confirming that the label has been added or removed, and you also receive an Inbox notification for the same.
 
 - **Edit properties** of an existing static baseline that you have set while creating the baseline.
 - Export the snapshot of a baseline in a Microsoft Excel file with the **Export Baseline** option.
@@ -148,6 +150,7 @@ You can duplicate a baseline and modify it according to your requirements.
 ### List of labels {#labels-list}
 
 The labels listed in the dropdown are based on the following criteria:
+
 - The labels should be added to one of the versions of the topics in the DITA map (on which the baseline is created).
 - And only the first-level references (topics or sub-maps) of the DITA map are considered for picking the labels.
 

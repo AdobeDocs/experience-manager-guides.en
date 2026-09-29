@@ -68,9 +68,9 @@ You can edit a variable in two ways:
 
 You need to save any changes you make from the **Variables** editor to view them in the **Variables** panel on the left side. 
 
- >[!NOTE]
- >
- > If you edit any variable value, Adobe Experience Manager Guides simultaneously updates all the references wherever applicable.
+>[!NOTE]
+>
+> If you edit any variable value, Adobe Experience Manager Guides simultaneously updates all the references wherever applicable.
 
 ### Search and preview a variable
 
@@ -85,9 +85,9 @@ The preview of the variable displays the default value. For example, if you have
 1. Select a variable in the **Variables** panel. 
 1. Hover over the variable to view the **Options** menu and then select the **Preview** option.
 
-      ![variable preview from the variables panel](assets/variables-panel-preview-default.png){width="550"}
+    ![variable preview from the variables panel](assets/variables-panel-preview-default.png){width="550"}
 
- *Preview the default value for a variable.*
+*Preview the default value for a variable.*
  
 **From the Variables editor**
 

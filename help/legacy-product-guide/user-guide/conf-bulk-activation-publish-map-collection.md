@@ -62,9 +62,7 @@ You can activate the output to the **Preview** or **Publish** instances.
 **Publish**
 
 * To activate the output of selected maps, select the pregenerated map output and select **Publish to** > **Publish**.
-
- *  To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Publish to** > **Publish**.
-
+* To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Publish to** > **Publish**.
 
    >[!NOTE] 
    > 

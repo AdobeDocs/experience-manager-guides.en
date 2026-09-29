@@ -33,42 +33,44 @@ Once you have installed and configured AEM Guides, you can troubleshoot the issu
 
 You can run the given scripts to validate the references. These scripts can help you identify the broken references and then patch or fix them.
 
--   `/bin/fmdita/validatebtree?operation=validate` - reports any broken content references but doesn't fix them.
+- `/bin/fmdita/validatebtree?operation=validate` - reports any broken content references but doesn't fix them.
 
--   `/bin/fmdita/validatebtree?operation=patch` - lists the broken content references and patches or fixes them.
+- `/bin/fmdita/validatebtree?operation=patch` - lists the broken content references and patches or fixes them.
 
 
 **Validate script**
 
 Perform the following steps to check the references, using the validate script available in the product package:
 
-1.  Run the validate script \[`/bin/fmdita/validatebtree?operation=validate`\] to check if for any new broken references.
-1.  In case the validate script reports any errors, you can patch it using the patch script.
-1.  Record the below-given details and if necessary, share them with your customer success team:
-1.  -   Logs printed by validate script
--   Package of "`/content/fmdita/references`"
--   Any other required details depending on the scenario reported
+1. Run the validate script \[`/bin/fmdita/validatebtree?operation=validate`\] to check if for any new broken references.
+1. In case the validate script reports any errors, you can patch it using the patch script.
+1. Record the below-given details and if necessary, share them with your customer success team:
+
+   - Logs printed by validate script
+   - Package of "`/content/fmdita/references`"
+   - Any other required details depending on the scenario reported
 
 **Patch script**
 
 Perform the following steps to patch any broken references, using the patch script available in the product package:
 
-1.  Run the patch script `[/bin/fmdita/validatebtree?operation=patch]` to fix the broken references. The script execution takes a few minutes and prints the logs as it progresses. Once the execution completes, it prints "`Done`" at the end.
+1. Run the patch script `[/bin/fmdita/validatebtree?operation=patch]` to fix the broken references. The script execution takes a few minutes and prints the logs as it progresses. Once the execution completes, it prints "`Done`" at the end.
 
    >[!NOTE]
    >
    > It is recommended that you copy and save the logs for reference purpose.
 
-1.  Once the patch script is executed successfully, you can perform the following checks:
-1.  -   Check a new node "`references_backup_<timestamp>"` has been created under `/content/fmdita`
--   Check that the references have been fixed
+1. Once the patch script is executed successfully, you can perform the following checks:
+
+  - Check a new node "`references_backup_<timestamp>"` has been created under `/content/fmdita`
+  - Check that the references have been fixed
 
 **Logger**
 
 You can also create a separate logger for this script execution, as per the details given below:
 
--   Add a logger on class "`adobe.fmdita.common.BTreeReferenceValidator`"
--   Set it to `DEBUG`
+- Add a logger on class "`adobe.fmdita.common.BTreeReferenceValidator`"
+- Set it to `DEBUG`
 
 The created log file will record all the information that is related to script execution and is useful in case the browser session timeouts, while triggering the script from the browser.
 
@@ -132,15 +134,15 @@ InDesign's handling of column and row separators is again far more capable than 
 
 Border ruling in InDesign can be applied at the following levels:
 
--   Table Styles
--   Cell Styles
--   Local overrides on each cell
+- Table Styles
+- Cell Styles
+- Local overrides on each cell
 
 The InDesign to DITA conversion process applies the border ruling as follows:
 
--   Table Styles are mapped to the `colspec/@colsep` attribute for vertical rules. Horizontal rules are mapped to the `row/@rowsep` attribute. In both cases, if the border is not defined, then the attribute is not created.
--   Cell Styles are mapped to the `entry/@colsep` and `entry/@rowsep` attributes. These values will override any Table Style derived border ruling.
--   Local overrides apply the formatting directly to the cell and override Table Styles and Cell Styles.
+- Table Styles are mapped to the `colspec/@colsep` attribute for vertical rules. Horizontal rules are mapped to the `row/@rowsep` attribute. In both cases, if the border is not defined, then the attribute is not created.
+- Cell Styles are mapped to the `entry/@colsep` and `entry/@rowsep` attributes. These values will override any Table Style derived border ruling.
+- Local overrides apply the formatting directly to the cell and override Table Styles and Cell Styles.
 
 ***Alternating patterns***
 
@@ -253,9 +255,9 @@ In the above example, there are two `paraRule` elements for `@style` = "Heading1
 
 The attributes used in the `doctypeParaRule` are explained below:
 
--   `@style`: The name of a style in the source InDesign document.
--   `@local`: See [\#id194CG0V005Z](#id194CG0V005Z).
--   `@mapToDoctype`: The name of a DITA topic type from an enumerated list of all valid `doctypes`.
+- `@style`: The name of a style in the source InDesign document.
+- `@local`: See [\#id194CG0V005Z](#id194CG0V005Z).
+- `@mapToDoctype`: The name of a DITA topic type from an enumerated list of all valid `doctypes`.
 
 **Element wrapping rules**
 
@@ -267,9 +269,9 @@ This is an optional element. The `wrap` element lists the elements that will be 
 
 The attributes used in the `wrap` are explained below:
 
--   `@element`: A plus sign after an element name shows that all adjacent elements with the same name will be wrapped in the element named in the `@wrapper`attribute.
--   `@wrapper`: The name of the wrapping element.
--   `@context`: Provides a way to further refine how a given element is wrapped. The following example shows a way to map a series of `li` elements in either an ordered list `ol` or an unordered list `ul` according to the `@context` value \(the context is defined on the `paraRule` element\):
+- `@element`: A plus sign after an element name shows that all adjacent elements with the same name will be wrapped in the element named in the `@wrapper`attribute.
+- `@wrapper`: The name of the wrapping element.
+- `@context`: Provides a way to further refine how a given element is wrapped. The following example shows a way to map a series of `li` elements in either an ordered list `ol` or an unordered list `ul` according to the `@context` value \(the context is defined on the `paraRule` element\):
 
     ```
     <wrap elements="li+" context="number" wrapper="ol">
@@ -283,7 +285,7 @@ The attributes used in the `wrap` are explained below:
 
 The following example shows how to create a `fig` element from a `title` and an `image` element:
 
--   `@elements`: The elements listed and separated by a comma will be wrapped in the element named in the `@wrapper` attribute. Due to the common practice of including figure titles below the image, the title will be the `title` element immediately following the `image`.
+- `@elements`: The elements listed and separated by a comma will be wrapped in the element named in the `@wrapper` attribute. Due to the common practice of including figure titles below the image, the title will be the `title` element immediately following the `image`.
 
     The following wrap rule:
 
@@ -309,12 +311,12 @@ The following example shows how to create a `fig` element from a `title` and an 
     </fig>
     ```
 
--   `@wrapper`: The name of the wrapping element.
--   `@context`: Provides a way to further refine how a given element is wrapped \(the context is defined on the `paraRule` element\).
+- `@wrapper`: The name of the wrapping element.
+- `@context`: Provides a way to further refine how a given element is wrapped \(the context is defined on the `paraRule` element\).
 
 The following example shows how to move a `title` into a `table`:
 
--   `@elements`: The `title` element that is located either immediately before or immediately after a `table` will be wrapped in the element named in the `@wrapper` attribute. An XPath-style predicate can identify the position of the title element as `[before]` or `[after]`.
+- `@elements`: The `title` element that is located either immediately before or immediately after a `table` will be wrapped in the element named in the `@wrapper` attribute. An XPath-style predicate can identify the position of the title element as `[before]` or `[after]`.
 
     Example: The following wrap rule:
 
@@ -344,9 +346,9 @@ The following example shows how to move a `title` into a `table`:
              <colspec colname="1" colwidth="0.3*">
     ```
 
--   `@wrapper`: The name of the wrapping element.
+- `@wrapper`: The name of the wrapping element.
 
--   `@context`: Provides a way to further refine how a given element is wrapped \(the context is defined on the `paraRule` element\).
+- `@context`: Provides a way to further refine how a given element is wrapped \(the context is defined on the `paraRule` element\).
 
 
 **Paragraph style rules**
@@ -363,21 +365,22 @@ The `paraRule` element is mandatory. This specifies the mapping rules for all Pa
 
 The attributes used in the `paraRule` are explained below:
 
--   `@style`: The name of a style in the source InDesign document.
--   `@local`: See [\#id194CG0V005Z](#id194CG0V005Z).
--   `@mapTo`: The name of a DITA target element.
+- `@style`: The name of a style in the source InDesign document.
+- `@local`: See [\#id194CG0V005Z](#id194CG0V005Z).
+- `@mapTo`: The name of a DITA target element.
 
--   `@context`: This attribute is used to link to a specific **wrap** rule when more than one wrapper choice is available. Example: the `li` element may be wrapped in either an `ol`, or a `ul` element. To identify the different list types, you may use a specific style name or the `@local` attribute which can show the following:
-    -   `local="p[-|-|-|-|-|b|-|-]"` Where the '`b`' in field 6 indicates a bulleted list item. In this case set `@context` to '`bullet`'.
-    -   `local="p[-|-|-|-|-|n|-|-]"` Where the '`n`' in field 6 indicates a numbered list item. In this case set `@context` to '`number`'.
+- `@context`: This attribute is used to link to a specific **wrap** rule when more than one wrapper choice is available. Example: the `li` element may be wrapped in either an `ol`, or a `ul` element. To identify the different list types, you may use a specific style name or the `@local` attribute which can show the following:
 
--   `@commentOut`: This attribute enables the wrapping of the target element in XML comments so that the information is not lost but can be handled manually by the user. This is useful if the source content cannot be forced to conform to DITA structure rules.
+    - `local="p[-|-|-|-|-|b|-|-]"` Where the '`b`' in field 6 indicates a bulleted list item. In this case set `@context` to '`bullet`'.
+    - `local="p[-|-|-|-|-|n|-|-]"` Where the '`n`' in field 6 indicates a numbered list item. In this case set `@context` to '`number`'.
 
--   `@refactor`: This optional attribute has a choice of two values:
+- `@commentOut`: This attribute enables the wrapping of the target element in XML comments so that the information is not lost but can be handled manually by the user. This is useful if the source content cannot be forced to conform to DITA structure rules.
 
--   `unwrap`: The matched element is removed while retaining its content.
+- `@refactor`: This optional attribute has a choice of two values:
 
--   `drop`: The matched element and all its content is removed.
+- `unwrap`: The matched element is removed while retaining its content.
+
+- `drop`: The matched element and all its content is removed.
 
 
 **Character style rules**
@@ -401,7 +404,6 @@ The attributes used in the `charRule` are explained below:
 -   `@mapTo`: The name of a DITA target element.
 -   `@refactor`: This optional attribute has a choice of two values:
     -   `unwrap`: The matched element is removed while retaining its content.
-
     -   `drop`: The matched element and all its content is removed.
 
 

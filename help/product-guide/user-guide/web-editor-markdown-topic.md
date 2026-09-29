@@ -56,9 +56,9 @@ Perform the following steps to create a Markdown topic from the Editor:
    ![](images/markdown-topic-author.png){width="650"}
 
 
- >[!NOTE]
- >
- > You can also create a markdown topic for a Folder within the Repository panel. Select the folder within which you want to create a markdown topic and select **New**, and then select **Topic** from the Options menu. You can now create a markdown topic by providing topic details in the **Create topic** dialog box. 
+>[!NOTE]
+>
+> You can also create a markdown topic for a Folder within the Repository panel. Select the folder within which you want to create a markdown topic and select **New**, and then select **Topic** from the Options menu. You can now create a markdown topic by providing topic details in the **Create topic** dialog box. 
 
 ## Know the Editor features for a Markdown topic 
 
