@@ -211,6 +211,59 @@ The 2026.09.0 release of Adobe Experience Manager Guides introduces AI-powered s
 
 [Explore what’s new](./release-info/whats-new-2026-09-0.md)
 
+## Quick links
+
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![What's new](../assets/whats-new-git-connector.svg)
+
+**What's new in AEM Guides**
+
+Learn what's new in the latest relase of Experience Manager Guides. 
+
+[Learn more](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+
+</td>
+<td>
+
+![Release notes](../assets/whats-new-map-collection.svg)
+
+**Release notes**
+
+Explore the latest release notes and product updates for Cloud and On-Premise deployments. 
+
+- AEM Guides Cloud releases | [View release notes](./release-info/latest-release-info-cs.md)
+- AEM Guides On-Premise releases | [View release notes](./release-info/latest-release-info.md)
+
+[View release roadmap](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![Learn and support](../assets/whats-new-delegate-review.svg)
+
+**Learn and support**
+
+Access helpful resources, documentation, and support to get the most out of the platform. 
+
+* [GitHub repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Video tutorials](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+
+[Interact on Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
+
 
 ## Additional resources
 
