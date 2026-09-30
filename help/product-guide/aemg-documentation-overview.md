@@ -223,9 +223,13 @@ The 2026.09.0 release of Adobe Experience Manager Guides introduces AI-powered s
 
 **What's new in AEM Guides**
 
-Learn what's new in the latest relase of Experience Manager Guides. 
+Explore the new and enhanced features introduced in the latest release of Experience Manager Guides. 
 
-[Learn more](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+- AI-powered smart tagging in AI Assistant 
+- Mark topic as done in a review task
+- Learning content enhancements
+
+[Explore all](../../help/product-guide/release-info/whats-new-2026-09-0.md)
 
 </td>
 <td>
@@ -236,8 +240,8 @@ Learn what's new in the latest relase of Experience Manager Guides.
 
 Explore the latest release notes and product updates for Cloud and On-Premise deployments. 
 
-- AEM Guides Cloud releases | [View release notes](./release-info/latest-release-info-cs.md)
-- AEM Guides On-Premise releases | [View release notes](./release-info/latest-release-info.md)
+- Cloud releases | [View release notes](./release-info/latest-release-info-cs.md)
+- On-Premise releases | [View release notes](./release-info/latest-release-info.md)
 
 [View release roadmap](./release-info/aem-guides-releases-roadmap.md)
 
