@@ -13,7 +13,6 @@ The new publishing engine for Native PDF i.e _Native PDF engine v2_ provides upd
 >[!BEGINTABS] 
 >[!Cloud Service Android] 
 
-
 Use the instructions given in [Configuration overrides](../install-conf-guide/download-install-config-override.md) to create the configuration file. In the configuration file, provide the following (property) details:
 
 | PID | Property Key | Property Value |
@@ -30,12 +29,8 @@ The _Native PDF engine v2_ requires **Java 17 or later**.
 - **AEM 6.5:** Native PDF Publishing engine v2 isn't supported because AEM 6.5 runs on Java 8.
 - **AEM 6.5 LTS:** Native PDF Publishing engine v2 is enabled by default. No additional configuration is required.
 
-If you prefer to switch back to the _Native PDF engine v2_ with AEM 6.5 LTS:
+If you prefer to switch back to the _Native PDF engine v2_ with AEM 6.5 LTS, then uninstall the PDF publisher package:
+ `/crx/packmgr/index.jsp#/etc/packages/com.adobe.guides/pdf-publisher-package-3.0.0.zip` from the CRX Package Manager.
 
-1. Open **CRX Package Manager**.
-2. Locate the **PDF Publisher** package.
-3. Uninstall the package.
-
-After you uninstall the package, AEM Guides uses _Native PDF engine v2_.
 >[!ENDTABS] 
 
