@@ -1,20 +1,27 @@
-# Connecting AEM Guides with Guides Knowledge AI (Beta)
+---
+title: Connecting AEM Guides with Guides Knowledge AI
+description: Learn how to connect AEM Guides with Guides Knowledge AI
+feature: Introduction
+role: Admin
+level: Experienced
+---
+
+# Connect AEM Guides with Guides Knowledge AI (Beta)
 
 >[!IMPORTANT]
 >
-> Contact your Customer Success team to enable this feature.
+> To enable this feature, contact your Customer Success team.
 
+This article provides Administrators and Content engineers with the end-to-end process for configuring Guides Knowledge AI access and uploading Adobe Experience Manager Guides content for consumption within Knowledge AI. 
 
-This article provides Administrators and Content engineers with the end-to-end process for configuring Guides Knowledge AI access and uploading AEM Guides content for consumption within Knowledge AI. 
-
-## Process at a glance
+## Process overview
 
 | Step | What you'll do |
 |---|---|
-| **1** | Create a Service Account in Adobe Developer Console and configure it for your environment. |
-| **2** | Retrieve the technical account email from the Service Account credentials file. |
-| **3** | Grant the Service Account access in Knowledge AI by creating a role and adding the user. |
-| **4** | Configure a Knowledge AI output preset in AEM Guides and upload content. |
+| 1 | Create a Service Account in Adobe Developer Console and configure it for your environment. |
+| 2 | Retrieve the technical account email from the Service Account credentials file. |
+| 3 | Grant the Service Account access in Knowledge AI by creating a role and adding the user. |
+| 4 | Configure a Knowledge AI output preset in Experience Manager Guides and upload content. |
 
 
 ## Prerequisites
@@ -23,16 +30,16 @@ Ensure you have the following access and permissions before starting:
 
 | Requirement | Purpose |
 |---|---|
-| **Adobe Developer Console** | Create the Service Account and download its JSON credentials. |
-| **AEM Guides** | Author content and configure the output preset for Knowledge AI. |
-| **Knowledge AI ([guidesai.adobe.io](https://guidesai.adobe.io/))** | Manage roles and users, and receive the uploaded content. |
-| **Permission: Create Service Accounts** | Required in Adobe Developer Console to complete Step 1. |
-| **Permission: Manage users & roles in Knowledge AI** | Required to grant the Service Account access in Step 3. |
+| Adobe Developer Console | Create the Service Account and download its JSON credentials. |
+| Adobe Experience Manager Guides | Author content and configure the output preset for Knowledge AI. |
+| [Knowledge AI](https://guidesai.adobe.io/)| Manage roles and users, and receive the uploaded content. |
+| Permission: Create Service Accounts | Required in Adobe Developer Console to create a Service Account. |
+| Permission: Manage users and roles in Knowledge AI | Required to grant the Service Account access in Knowledge AI. | 
 
 
-## Step 1: Create a Service Account
+## Create a Service Account
 
-Knowledge AI uses a Service Account to securely authenticate and access content.
+Knowledge AI uses a Service Account to authenticate securely and access content.
 
 1. Follow the instructions in [Configure Microservices IMT Configuration](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
 
@@ -44,31 +51,31 @@ Once completed, the Service Account should be successfully associated with your 
 
 >[!NOTE]
 >
-> If you have already created and configured a Service Account for your environment, you can skip and directly move to next step.
+> If you have already created and configured a Service Account for your environment, you can skip and directly move to the next step.
 
 
-## Step 2: Retrieve the Technical Account Email
+## Retrieve the Technical Account email
 
-Identify the Service Account to grant access to Knowledge AI.
+To grant access to Knowledge AI, identify the Service Account.
 
 1. Open the downloaded Service Account JSON file.
-2. Search for the field named `technical_account_email`.
+2. Search for the field name `technical_account_email`.
 
-You should see a value similar to the following:
+  View a value similar to the following:
 
-```json
-{
+  ```json
+  {
   "technical_account_email": "a1b2c3d4e5f6@techacct.adobe.com"
-}
-```
+  }
+  ```
 
 3. Copy the email address associated with `technical_account_email`.
 
 You'll use this email address in the next step.
 
-## Step 3: Grant Access in Knowledge AI
+## Grant access in Knowledge AI
 
-Add the Service Account to Knowledge AI with the appropriate permissions to allow it to manage and upload content.
+To allow the Service Account to manage and upload content, add it to Knowledge AI with the appropriate permissions.
 
 1. Open [Knowledge AI](https://guidesai.adobe.io/).
 2. Navigate to **Security > Roles** and create a role with the minimal required permissions.
@@ -76,11 +83,11 @@ Add the Service Account to Knowledge AI with the appropriate permissions to allo
 
 The Service Account is now authorized to perform content administration and upload operations.
 
-## Step 4: Configure Knowledge AI preset and upload content
+## Configure Knowledge AI preset and upload content
 
-Once you have set up permissions, configure AEM Guides to publish content to Knowledge AI.
+To publish content to Knowledge AI, configure Experience Manager Guides once you have set up permissions.
 
-1. Open the AEM Guides Map console.
+1. Open Map console in Experience Manager Guides.
 2. Navigate to Output presets.
 3. Create a new preset for Knowledge AI.
 
@@ -95,5 +102,5 @@ Once you have set up permissions, configure AEM Guides to publish content to Kno
 
   ![knowledge-ai-open](assets/open-knowledge-ai.png)   
 
-You have configured the Service Account, granted permissions, and made your AEM Guides content available in Knowledge AI. Repeat [Step 4](#step-4-configure-a-knowledge-ai-preset-and-upload-content) whenever you publish updated content.
+You have successfully configured the Service Account, assigned the required permissions, and made your Experience Manager Guides content available in Knowledge AI. To ensure Knowledge AI remains aligned with your latest published content, [configure the Knowledge AI preset and upload your content](#configure-knowledge-ai-preset-and-upload-content) whenever you publish updates.
 
