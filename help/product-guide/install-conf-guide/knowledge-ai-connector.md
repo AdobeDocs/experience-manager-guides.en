@@ -51,7 +51,7 @@ Once completed, the Service Account should be successfully associated with your 
 
 >[!NOTE]
 >
-> If you have already created and configured a Service Account for your environment, you can skip and directly move to the next step.
+> If you have already created and configured a Service Account for your environment, you can proceed to the next step.
 
 
 ## Retrieve the Technical Account email
