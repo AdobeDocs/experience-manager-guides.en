@@ -50,6 +50,9 @@ The sections below describe how each of these applies for different interfaces, 
 - **Add or duplicate**: The new file appears at the top of the folder.
 - **Move**: Moving between unrelated folders refreshes the source folder to its first batch of assets and adds the item at the top of the destination (loading the destination's first batch of assets if it wasn't already open).
 - **Refresh**: A new refresh button in the Explorer panel header reloads the root level, showing the first batch of assets.
+- **Sort**: Use the Sort button at the top of the Explorer panel to switch the order of files and folders between ascending (the default) and descending. Files and folders are sorted based on the name displayed in the panel, as set in **Editor files display configuration** in **User preferences**. In ascending order, names that begin with numbers are listed before names that begin with letters. This precedence doesn't apply in descending order.
+
+  ![explorer sorting](images/explorer-sorting.png){width="350"}
 
 ### Search panel
 
