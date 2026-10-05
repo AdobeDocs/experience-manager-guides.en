@@ -40,8 +40,7 @@ You can enable or disable the following options based on your preferences:
 
     >[!NOTE]
     >
-    > Track changes feature (when enabled) is not supported for edits within XML comments. However, inserting or deleting an entire XML comment is tracked as a change.
-
+    > For XML comments, **Track changes** records only the insertion or deletion of the entire comment. Edits made within an existing XML comment are not recorded.
 
     ![Config XML comments](./images/config-xml-comments.png){width="650"}
 
