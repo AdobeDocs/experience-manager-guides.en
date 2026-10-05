@@ -71,33 +71,29 @@ You'll use this email address in the next step.
 Add the Service Account to Knowledge AI with the appropriate permissions to allow it to manage and upload content.
 
 1. Open [Knowledge AI](https://guidesai.adobe.io/).
-2. Navigate to **Security → Roles** and create a role with the minimal required permissions.
-3. Navigate to **Security → Users → Add User**. Add a new user using the `technical_account_email` copied from the Service Account JSON, select the domains from the **Domains** dropdown, and assign the role created in the previous step.
+2. Navigate to **Security > Roles** and create a role with the minimal required permissions.
+3. Navigate to **Security > Users > Add User**. Add a new user using the `technical_account_email` copied from the Service Account JSON, select the domains from the **Domains** dropdown, and assign the role created in the previous step.
 
 The Service Account is now authorized to perform content administration and upload operations.
 
-## Step 4: Configure a Knowledge AI Preset and Upload Content
+## Step 4: Configure Knowledge AI preset and upload content
 
 Once you have set up permissions, configure AEM Guides to publish content to Knowledge AI.
 
-### Create the Preset
-
 1. Open the AEM Guides Map console.
-2. Navigate to Output Presets.
-3. Create a new preset for Knowledge AI ingestion.
+2. Navigate to Output presets.
+3. Create a new preset for Knowledge AI.
 
-### Upload Content
-
-1. Open the configured Knowledge AI preset.
-2. Select the domain for which the role was granted to the `technical_account_email`, then select **Upload Content**.
+  ![knowledge-ai-preset-creation](assets/knowledge-ai-preset.png) 
+4. Open the configured Knowledge AI preset.
+5. Select the domain for which the role was granted to the `technical_account_email`,  then select **Upload Content**.
   This triggers the content upload workflow to Knowledge AI. Wait for the upload process to complete.
-5. After the upload is complete, click **Open in Knowledge AI**. This opens the Knowledge AI chat within the domain, using the uploaded content.
+
+  ![knowledge-ai-domain](assets/knowledge-ai-domain.png) 
+
+6. After the upload is complete, select **Open in Knowledge AI**. This opens the Knowledge AI chat within the domain, using the uploaded content.
+
+  ![knowledge-ai-open](assets/open-knowledge-ai.png)   
 
 You have configured the Service Account, granted permissions, and made your AEM Guides content available in Knowledge AI. Repeat [Step 4](#step-4-configure-a-knowledge-ai-preset-and-upload-content) whenever you publish updated content.
 
-## Reference Links
-
-| Resource | Link |
-|---|---|
-| **Configure Microservices IMT Configuration** | [Experience League documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config) |
-| **Knowledge AI** | [guidesai.adobe.io](https://guidesai.adobe.io/) |
