@@ -22,6 +22,19 @@ You can enable or disable the following options based on your preferences:
 
 ![Editor settings](./images/editor-settings-dialog.png){width="350"}
 
+- **Track changes**: Enable this option to track the insertions and deletions you make while editing. All changes are listed in the Tracked changes panel. Inserting or deleting any content within a paragraph or list item is tracked along with its tags and listed as a change to the whole element. Multiple changes to the content within the same tag are captured together and shown as a single entry in the panel.
+
+    >[!NOTE]
+    >
+    >- To enable this capability in your environment, contact the AEM Guides Customer Success team.
+    >- When working with tables, the insertion of a row or column is tracked, but the deletion of a row or column is not tracked within the Track changes panel.
+
+    ![Editor settings](./images/track-changes-all.png){width="350"}
+
+- **Show tracked deletions inline**: Controls how deleted content is displayed in the Editor while Track changes is on. When enabled, deleted content remains visible inline, at its original position, as strikethrough text. When disabled, the deleted content is not shown. Instead, a pencil icon appears at the location where the content was removed, giving you a cleaner view of your topic. Select the pencil icon to go to the corresponding deleted content in the Tracked changes panel.
+
+    ![Editor settings track changes](./images/deletion-inline-off.png){width="350"}
+
 - **Non breaking spaces**: Enable this option to show an indicator for the non-breaking spaces while editing it in the Editor. It is visible only in the Author view for DITA topic and DITA maps
 - **XML comments**: Enables authors to view, edit, and insert XML comments directly in Author mode, for better visibility within the content. When enabled, authors can view, insert, edit, and delete XML comments directly within the content in the Author mode itself, making it easier to add contextual notes for collaborators. When disabled, XML comments are hidden in Author mode and cannot be inserted or modified from Author mode, ensuring a cleaner authoring experience for users who do not require them. You can continue to view and author XML comments in source mode using the `<!-- test comment -->` syntax.
 
