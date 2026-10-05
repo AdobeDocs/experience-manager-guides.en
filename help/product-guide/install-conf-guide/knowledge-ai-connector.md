@@ -91,16 +91,16 @@ To publish content to Knowledge AI, configure Experience Manager Guides once you
 2. Navigate to Output presets.
 3. Create a new preset for Knowledge AI.
 
-  ![knowledge-ai-preset-creation](assets/knowledge-ai-preset.png) 
+    ![knowledge-ai-preset-creation](assets/knowledge-ai-preset.png) 
 4. Open the configured Knowledge AI preset.
 5. Select the domain for which the role was granted to the `technical_account_email`,  then select **Upload Content**.
   This triggers the content upload workflow to Knowledge AI. Wait for the upload process to complete.
 
-  ![knowledge-ai-domain](assets/knowledge-ai-domain.png) 
+    ![knowledge-ai-domain](assets/knowledge-ai-domain.png) 
 
 6. After the upload is complete, select **Open in Knowledge AI**. This opens the Knowledge AI chat within the domain, using the uploaded content.
 
-  ![knowledge-ai-open](assets/open-knowledge-ai.png)   
+    ![knowledge-ai-open](assets/open-knowledge-ai.png)   
 
 You have successfully configured the Service Account, assigned the required permissions, and made your Experience Manager Guides content available in Knowledge AI. To ensure Knowledge AI remains aligned with your latest published content, [configure the Knowledge AI preset and upload your content](#configure-knowledge-ai-preset-and-upload-content) whenever you publish updates.
 
