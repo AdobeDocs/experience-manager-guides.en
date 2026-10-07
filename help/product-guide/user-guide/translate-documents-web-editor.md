@@ -173,7 +173,7 @@ Before performing steps in this procedure, ensure that you have created the requ
 
         ![Enter the project path](images/project-path.png){width="650"}
 
-    - If you are adding to an existing translation project, select the path in which that project already exists. Then, from the **Existing Translation Project** list, select the project you want to add the current translation task to. You can also use **Filters** available to narrow down the list.
+    - If you are adding to an existing translation project, select the path in which that project already exists. Then, from the **Existing translation project** list, select the project you want to add the current translation task to. If multiple projects have the same title, use the path shown along with each project title to identify the correct one. You can also use **Filters** available to narrow down the list and  also **Sort** the projects based on your requirement
 
         ![Enter the existing project path](images/existing-project-path.png){width="650"}
 
