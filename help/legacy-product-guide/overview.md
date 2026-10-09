@@ -5,7 +5,7 @@ feature: AEM Guides Tutorials
 role: User
 hide: true
 exl-id: de7bda03-371b-4414-846b-86787f98fda8
-TQID: https://experienceleague.adobe.com/wg4LIw7BOdNUs-yeyU0GTPJoDN4rsOQbVlmGiTiYAUE
+TQID: 'https://experienceleague.adobe.com/wg4LIw7BOdNUs-yeyU0GTPJoDN4rsOQbVlmGiTiYAUE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -18,11 +18,15 @@ feature_v2:
     internal-label: Authoring
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
     internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
     internal-label: Web Editor
+  - id: f5449061-fbde-4905-be99-034c1b054385
+    internal-label: AEM Guides tutorials
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

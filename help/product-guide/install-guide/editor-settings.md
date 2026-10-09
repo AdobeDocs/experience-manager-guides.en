@@ -4,7 +4,7 @@ description: Learn about the various settings available in the Editor interface 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: c6767c75-0b53-4bde-9c7f-7ae1cd9b5076
-TQID: https://experienceleague.adobe.com/5GyoXvse3A0zkxVwQQX0G92nom6Z4se1ftBkfZWo-oI
+TQID: 'https://experienceleague.adobe.com/5GyoXvse3A0zkxVwQQX0G92nom6Z4se1ftBkfZWo-oI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor

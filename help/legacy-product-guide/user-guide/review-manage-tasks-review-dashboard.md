@@ -5,12 +5,15 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
-TQID: https://experienceleague.adobe.com/9A3QCOjdrMwovrnsHnRAQZv9iFryLXrgJP-dCjCGN04
+TQID: 'https://experienceleague.adobe.com/9A3QCOjdrMwovrnsHnRAQZv9iFryLXrgJP-dCjCGN04'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

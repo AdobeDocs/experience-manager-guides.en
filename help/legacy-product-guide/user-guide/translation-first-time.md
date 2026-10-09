@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-TQID: https://experienceleague.adobe.com/SwYb9OfbAPrK0iSbyfvAAJdEQG0ks5Ig871KBMLu2Fc
+TQID: 'https://experienceleague.adobe.com/SwYb9OfbAPrK0iSbyfvAAJdEQG0ks5Ig871KBMLu2Fc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -16,6 +16,8 @@ feature_v2:
     internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
     internal-label: Map console

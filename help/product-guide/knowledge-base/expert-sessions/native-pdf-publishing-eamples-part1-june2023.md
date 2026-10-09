@@ -4,7 +4,7 @@ description: With the Native PDF publishing engine, you can control the content 
 exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
 feature: Native PDF Output
 role: User, Admin
-TQID: https://experienceleague.adobe.com/dFEpXuwcMdlNqPf9r97DCfhTABQfoCnDPIG7bZMwsZg
+TQID: 'https://experienceleague.adobe.com/dFEpXuwcMdlNqPf9r97DCfhTABQfoCnDPIG7bZMwsZg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -16,6 +16,8 @@ feature_v2:
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
     internal-label: Native PDF publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

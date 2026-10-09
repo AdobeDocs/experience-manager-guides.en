@@ -5,7 +5,7 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
-TQID: https://experienceleague.adobe.com/1lxtEhrxLZXdLiN0aq5IFfNLXiG9XlaiGLLRFwQTgp4
+TQID: 'https://experienceleague.adobe.com/1lxtEhrxLZXdLiN0aq5IFfNLXiG9XlaiGLLRFwQTgp4'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -19,6 +19,8 @@ feature_v2:
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
+  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

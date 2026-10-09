@@ -4,7 +4,7 @@ description: Learn how to review topics and use the features as a reviewer, docu
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U
+TQID: 'https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
     internal-label: Administration
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 subfeature_v2:
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
     internal-label: Introduction

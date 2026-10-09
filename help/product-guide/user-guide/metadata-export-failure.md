@@ -1,5 +1,5 @@
 ---
-title:  Metadata export fails with "String is too long" exception in Experience Manager Guides
+title: Metadata export fails with "String is too long" exception in Experience Manager Guides
 description: Understand why metadata export can fail for Guides content in the Assets UI.
 feature: Authoring, Publishing
 role: User
@@ -13,6 +13,11 @@ feature_v2:
     internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -4,7 +4,7 @@ description: Translate your content into multiple languages in AEM Guides. Learn
 exl-id: 88df750c-fb26-47f1-a884-b9e2f96b96ea
 feature: Translation
 role: User
-TQID: https://experienceleague.adobe.com/lTvC5pNNCoACZEX9-RjfvuUJ6nM2jRZsQ-DofXLKluQ
+TQID: 'https://experienceleague.adobe.com/lTvC5pNNCoACZEX9-RjfvuUJ6nM2jRZsQ-DofXLKluQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
     internal-label: Reports
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
     internal-label: Map console
