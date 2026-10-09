@@ -4,7 +4,7 @@ description: Efficiently review topics or maps in AEM Guides for smooth content 
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/vMRrcxgVXIV6SKBymdPsFK-32mK08DoRNraIRcuhoZ0
+TQID: 'https://experienceleague.adobe.com/vMRrcxgVXIV6SKBymdPsFK-32mK08DoRNraIRcuhoZ0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -13,6 +13,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 subfeature_v2:
   - id: ca593223-d11a-4a52-b369-a8e081e71737
     internal-label: Desktop tools

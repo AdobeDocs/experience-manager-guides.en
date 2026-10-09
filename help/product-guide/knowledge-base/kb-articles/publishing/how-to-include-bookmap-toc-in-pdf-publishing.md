@@ -5,7 +5,7 @@ feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
 exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
-TQID: https://experienceleague.adobe.com/GyB4TpCF64rEGNgHVPKq4fUCBQsJjqh4jWA0CJC4A-0
+TQID: 'https://experienceleague.adobe.com/GyB4TpCF64rEGNgHVPKq4fUCBQsJjqh4jWA0CJC4A-0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -14,6 +14,9 @@ product_v2:
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
     internal-label: Publishing
+subfeature_v2:
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

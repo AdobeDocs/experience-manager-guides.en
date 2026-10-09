@@ -4,7 +4,7 @@ description: Learn how to view the translation status and translated language co
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-TQID: https://experienceleague.adobe.com/kNiiEHIJa9Z0gz01JXjp3hzDQqOqA6PwslGTN-6ZBlc
+TQID: 'https://experienceleague.adobe.com/kNiiEHIJa9Z0gz01JXjp3hzDQqOqA6PwslGTN-6ZBlc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -13,6 +13,8 @@ product_v2:
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
     internal-label: Publishing
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
     internal-label: Map console

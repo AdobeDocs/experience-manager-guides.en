@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-TQID: https://experienceleague.adobe.com/o2K7oBKJLUkB43dMNcQ1iS1rpNKjFu6dvgO-HY37Vvg
+TQID: 'https://experienceleague.adobe.com/o2K7oBKJLUkB43dMNcQ1iS1rpNKjFu6dvgO-HY37Vvg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -16,9 +16,13 @@ feature_v2:
     internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ed9d83c9-e55d-4a67-9667-8e31871715a7
     internal-label: Content migration
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

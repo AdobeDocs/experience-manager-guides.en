@@ -4,7 +4,7 @@ description: Learn about the bug fixes and how to upgrade to the November 2023 r
 exl-id: 80839890-075f-4187-a167-444c73215496
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/LUI-d06rZGiDMXwm0x6m4LAkppl0O5ceCWFhaTiJff0
+TQID: 'https://experienceleague.adobe.com/LUI-d06rZGiDMXwm0x6m4LAkppl0O5ceCWFhaTiJff0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -21,6 +21,8 @@ feature_v2:
     internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
     internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -32,6 +34,8 @@ subfeature_v2:
     internal-label: Native PDF publishing
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
     internal-label: Web Editor
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader

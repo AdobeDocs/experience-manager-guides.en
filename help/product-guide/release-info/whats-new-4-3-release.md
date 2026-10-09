@@ -4,7 +4,7 @@ description: Learn the new and enhanced features in 4.3.0 releases of Adobe Expe
 exl-id: 36decbf0-ec9d-43e2-99b7-85b0f9a87bc1
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/N-4hVzb2vN6fLLIFtyftHhzK94G7Q14Knj1-1Y9nGHE
+TQID: 'https://experienceleague.adobe.com/N-4hVzb2vN6fLLIFtyftHhzK94G7Q14Knj1-1Y9nGHE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -23,6 +23,8 @@ feature_v2:
     internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
     internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -32,6 +34,8 @@ subfeature_v2:
     internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader

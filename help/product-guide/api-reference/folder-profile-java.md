@@ -5,7 +5,7 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-TQID: https://experienceleague.adobe.com/-rZBkRHgOJDh0hpvpMgRx7jyvcYstElA4ztdjXmpATU
+TQID: 'https://experienceleague.adobe.com/-rZBkRHgOJDh0hpvpMgRx7jyvcYstElA4ztdjXmpATU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -16,9 +16,15 @@ feature_v2:
     internal-label: APIs
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
     internal-label: APIs
+subfeature_v2:
+  - id: bc523de0-ab16-4d84-a1f2-ab36dfeb1a6d
+    internal-label: Java Based API Folder Profiles
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Java-based API to work with folder profiles {#id175UB30E05Z}
 

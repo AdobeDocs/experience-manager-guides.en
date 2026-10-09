@@ -5,7 +5,7 @@ feature: Publishing, Troubleshooting
 role: User
 hide: true
 exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
-TQID: https://experienceleague.adobe.com/jMAgPQGFPANQobS5s92KkGYc-rfhKy70Zda43TY-6VY
+TQID: 'https://experienceleague.adobe.com/jMAgPQGFPANQobS5s92KkGYc-rfhKy70Zda43TY-6VY'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -16,11 +16,19 @@ feature_v2:
     internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
     internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+  - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -5,7 +5,7 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
-TQID: https://experienceleague.adobe.com/zaaL655Dhisiv8PvRP8-MO6ERC8D5Ay7vPnGOcsb6TY
+TQID: 'https://experienceleague.adobe.com/zaaL655Dhisiv8PvRP8-MO6ERC8D5Ay7vPnGOcsb6TY'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Configure other settings 
 

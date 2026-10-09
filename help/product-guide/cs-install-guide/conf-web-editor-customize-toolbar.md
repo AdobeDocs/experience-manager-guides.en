@@ -5,7 +5,7 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/jSw3gKCCrJYRO6sPgWNnZCT8RzKtMFRYLytHZyX4mGk
+TQID: 'https://experienceleague.adobe.com/jSw3gKCCrJYRO6sPgWNnZCT8RzKtMFRYLytHZyX4mGk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -28,6 +28,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Customize toolbar {#id172FB00L0V6}
 
