@@ -323,29 +323,6 @@ Adobe Experience Manager Guides allows you to preview non-DITA files, view their
 
 You can manage the versions of non-DITA files through the Assets UI or directly from the Editor.
 
-### Using the Assets UI
-
-Perform the following steps to view the version history of a non-DITA file,:
-
-1.  Access the file in **Assets UI**.
-1.  Select the file for which you want to view the version history.
-1.  In the left rail, select **Version History** and select a version.
-1.  You can also view the thumbnails of the different versions under Version History.
-
-    For example, the version management option available for an image file is displayed as follows:
-
-    ![](images/media-version-history-icon.png){align="center"}
-
-    Similarly, version management option for a PDF file is displayed as follows:
-
-    ![](images/pdf-version-management.png){align="center"}
-
-1.  From the listed versions, select the one that you want to use as the base version and select **Preview Version**. The preview of the selected version is shown in the Version Preview window.
-
-    ![](images/media-version-preview.png){width="650" align="center"}
-
-You can also manage the version labels of the file from the Version History panel. 
-
 ### Using the Editor
 
 You can open non-DITA files directly in the Editor to preview their content and manage their versions without navigating to the Assets UI.
@@ -370,15 +347,40 @@ Perform the following steps to view and manage the version history and labels of
 
    ![](images/version-management-non-dita-files-editor.png){width="650" align="center"}
 
-3. Select the **Menu** icon from the toolbar and choose one of the following options:
+3. Select the **Menu** dropdown from the toolbar and choose one of the following options:
 
    - **Version history**: Opens the Version History dialog, where you can view the available versions of the file, along with their associated labels and comments. You can compare versions and revert to an earlier version. 
 
    - **Version label**: Opens the Version Label dialog, where you can select a version from the dropdown and view its associated labels. You can add or update version labels using the available options. The dialog also displays a preview of the selected file version, if available. 
 
-   For more details, view the Version history and Version labels sections in [Toolbar in the Editor](./web-editor-toolbar.md#menu-dropdown).
+   For more information, view the Version history and Version labels sections in [Toolbar in the Editor](./web-editor-toolbar.md#menu-dropdown).
 
 4. Make the required changes to the version labels or review the version information.
+
+### Using the Assets UI
+
+Perform the following steps to view the version history of a non-DITA file,:
+
+1.  Access the file in **Assets UI**.
+1.  Select the file for which you want to view the version history.
+1.  In the left rail, select **Version History** and select a version.
+1.  You can also view the thumbnails of the different versions under Version History.
+
+    For example, the version management option available for an image file is displayed as follows:
+
+    ![](images/media-version-history-icon.png){align="center"}
+
+    Similarly, version management option for a PDF file is displayed as follows:
+
+    ![](images/pdf-version-management.png){align="center"}
+
+1.  From the listed versions, select the one that you want to use as the base version and select **Preview Version**. The preview of the selected version is shown in the Version Preview window.
+
+    ![](images/media-version-preview.png){width="650" align="center"}
+
+You can also manage the version labels of the file from the Version History panel. 
+
+
 
 
 
