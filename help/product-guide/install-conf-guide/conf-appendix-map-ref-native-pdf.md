@@ -21,7 +21,68 @@ Use this setting to classify map references using the `class` attribute generate
 Consider the following example of a book map:
 
 - An `<appendix>` element references topics directly. These topics are rendered as appendices in the generated PDF.
+
+    ```XML
+    <booktitle>
+        <mainbooktitle>Product Guide</mainbooktitle>
+      </booktitle>
+      <frontmatter>
+        <booklists>
+          <toc/>
+          <tablelist/>
+        </booklists>
+        <preface href="topics/preface.dita">
+        </preface>
+      </frontmatter>
+      <chapter class="foo" href="topics/getting-started.dita">
+      </chapter>  
+      <appendix href="topics/appendix-reference-tables.dita">
+      </appendix>
+      <appendix href="topics/appendix-troubleshooting.dita">
+      </appendix>
+      <backmatter>
+        <booklists>
+          <indexlist/>
+        </booklists>
+      </backmatter>
+    </bookmap>`
+    ```
 - Another `<appendix>` element references a submap, and the submap references topics using `<topicref>`.
+
+    ```xml
+    <booktitle>
+        <mainbooktitle>Product Guide</mainbooktitle>
+      </booktitle>
+      <frontmatter>
+        <booklists>
+          <toc/>
+          <tablelist/>
+        </booklists>
+        <preface href="topics/preface.dita">
+        </preface>
+      </frontmatter>
+      <chapter class="foo" href="topics/getting-started.dita">
+      </chapter>  
+      <appendix format="ditamap" href="submap-for-appendix.ditamap" type="map">
+      </appendix>
+      <backmatter>
+        <booklists>
+          <indexlist/>
+        </booklists>
+      </backmatter>
+    </bookmap>
+    ```
+    The submap-for-appendix:
+
+    ```xml
+    <map id="GUID-cc306264-825c-455e-89db-d27af9197a2f">
+      <title>submap-for-appendix</title>
+      <topicref href="topics/appendix-reference-tables.dita" type="reference">
+      </topicref>
+      <topicref href="topics/appendix-troubleshooting.dita" type="topic">
+      </topicref>
+    </map>
+    ```    
 
 Without this configuration, topics from the first appendix are rendered as appendices, but topics from the submap are rendered as chapters. Only the topics are published; the submap itself is used for hierarchy and does not appear in the output.
 
