@@ -28,7 +28,7 @@ role_v2:
 ---
 # Use labels {#id164JBG0M0T1}
 
-Adobe Experience Manager Guides allows you to add labels to different versions of a file. You can use these labels to specify the version that you want to include in a baseline for publishing. For more information about using labels to create a baseline, view [Work with Baseline](generate-output-use-baseline-for-publishing.md#).
+Adobe Experience Manager Guides allows you to add labels to different versions of a file. You can use version labels to specify the version of a topic that you want to include in a [baseline](./generate-output-use-baseline-for-publishing.md) for publishing and to [manage versions of non-DITA files](./authoring-file-management.md#work-with-media-and-other-non-dita-files), such as images, multimedia files, PDFs, and ZIP files.
 
 For example, if you want to use *version 1.0* of a topic in *release 1.0* and *version 1.1* of the same topic in *release 2.0*, you can add *release 1.0* label on the *version 1.0* and *release 2.0* label on the *version 1.1*.
 
