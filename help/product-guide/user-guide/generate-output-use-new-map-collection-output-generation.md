@@ -32,7 +32,7 @@ topic_v2:
 
 >[!IMPORTANT]
 >
-> New map collection is available in Experience Manager Guides as a Cloud Service starting with 2026.08.0 release. Contact your Customer Success team to enable this feature.
+> New map collection is available in Experience Manager Guides starting with 2026.08.0 release. Contact your Customer Success team to enable this feature.
 
 Map collection in Adobe Experience Manager Guides enables publishing specialists to organize multiple documents into a single collection, control the output generated for each document, and efficiently generate and publish outputs in batches from a centralized dashboard. It also provides visibility into output generation progress, highlights changes made to maps since their last published output, and allows you to republish content when needed. 
 
