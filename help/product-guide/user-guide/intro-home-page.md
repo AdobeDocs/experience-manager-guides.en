@@ -176,6 +176,10 @@ The Repository serves as a centralized hub for discovering folders and files wit
 
 ### Map collections 
 
+>[!NOTE]
+>
+>You can use the new Map collections feature in Adobe Experience Manager Guides as a Cloud Service starting from 2026.08.0 release, which combines map management and bulk publishing into a unified interface. Contact your Customer Success team to enable this feature.Learn more about [using the new map collection.](./generate-output-use-new-map-collection-output-generation.md)
+
 Experience Manager Guides provides you with the ability to organize your content for publishing by using a dashboard called **Map collections**. To use this feature, select **Map collections** from the left panel. It takes you to the Map collections page in the **Assets UI** where you can [use map collection for output generation.](./generate-output-use-map-collection-output-generation.md)  
 
 ### Bulk publish 
