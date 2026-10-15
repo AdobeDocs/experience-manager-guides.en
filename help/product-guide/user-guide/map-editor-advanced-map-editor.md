@@ -57,7 +57,7 @@ When you open a map for editing, it opens the Layout view of the Map Editor. The
 
 >[!NOTE]
 >
-> The Layout view only displays the references present in a map. If any references are broken, then a small cross symbol is displayed on the left of the reference
+> The Layout view only displays the references present in a map. If any references are broken, then a small cross symbol is displayed on the left of the reference.
 
 The following options are available in the toolbar in the Layout view:
 
@@ -100,7 +100,7 @@ Select the up or down arrow icons' to move the topic up or down in the hierarchy
 
 >[!NOTE]
 >
-> You can also drag-and-drop the references to move them in a map.
+>You can also drag-and-drop the references to move them in a map. How references are handled after drag-and-drop depends on the editor you are using. In Editor 2.0, dragging and dropping a reference (such as a topic, submap, or key definition) onto an existing reference in a map adds it as a child element rather than replacing the existing reference. In the old editor, the same action updates the reference's URL instead of adding it as a child element.
 
 **Lock/Unlock**  
 

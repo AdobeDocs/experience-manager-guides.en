@@ -88,7 +88,7 @@ You can create the existing AEM Sites presets by selecting the **Use legacy comp
 View the **General**, **Content**, and **Cross map reference** tabs in the AEM Sites presets:
 - **General**: Contains the general configurations to generate the output. You can specify the site and output path, delete or overwrite existing output pages, delete the previously generated pages for removed topics, select the design template, retain the temporary files, and specify the post-generation workflow.
 - **Content**: Contains the settings applicable to the content for output generation. You can select the filters, the baseline of the DITA map, and the metadata properties for publishing. 
-- **Cross map references**: This list contains topics containing cross-map references with scope =”peer”. You can specify the publishing context for a list of cross map references with scope=”peer” to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version.
+- **Cross map references**: This list contains topics containing cross-map references with scope ="peer". You can specify the publishing context for a list of cross map references with scope="peer" to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version.
 
 
 
@@ -98,7 +98,7 @@ The latest enhancement to Experience Manager Guides introduces cross map referen
 Cross map references in Experience Manager Guides help improve content navigation, increase content reuse, and enhance user experience.
 
 
-  You can specify the publishing context for a list of cross map references to topics available in other DITA maps with scope=”peer”. For example, Topic 1 in Map A contains a reference to Topic 2. Topic 2 can be present in single or multiple maps.  You can select the parent map and a specific preset or the most recently published output for each link.  
+  You can specify the publishing context for a list of cross map references to topics available in other DITA maps with scope="peer". For example, Topic 1 in Map A contains a reference to Topic 2. Topic 2 can be present in single or multiple maps.  You can select the parent map and a specific preset or the most recently published output for each link.  
 
 If the same topic is referred to more than once in a file, then you can add a different publishing context for each instance. This provides greater flexibility and control over their content. For example, Topic 3 is present in both Map B and Map C. Topic 1 contains two references to Topic 3. You can choose Map B as a parent map for the first link and Map C as the parent for the second link.
 
@@ -159,9 +159,10 @@ If a DITA or Markdown file is locked or checked out by another user, you cannot 
 In read-only mode, you can view the content along with the tags and attributes within the **Author** or **Source** mode and edit the file properties.
 
 You can also access the **Layout** view for read-only DITA maps. 
- >[!NOTE]
- >
- > Your folder profile administrators must update *ui_config.json* so that you can harmoniously access the read-only files in the Author, Source, and Layout modes.
+
+>[!NOTE]
+>
+> Your folder profile administrators must update *ui_config.json* so that you can harmoniously access the read-only files in the Author, Source, and Layout modes.
 
 ![locked file editor](./assets/locked-file-editor.png)
 *View the locked files in Author and Source mode.*

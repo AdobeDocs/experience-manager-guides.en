@@ -5,7 +5,7 @@ exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-TQID: https://experienceleague.adobe.com/cJUVS3QdzVhnZjFF7uoHfpOSBefgm5W2jh-kWM1PvmE
+TQID: 'https://experienceleague.adobe.com/cJUVS3QdzVhnZjFF7uoHfpOSBefgm5W2jh-kWM1PvmE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -18,9 +18,15 @@ feature_v2:
     internal-label: Publishing
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
     internal-label: APIs
+subfeature_v2:
+  - id: fc9467a9-8572-4512-95c7-e18f4488202b
+    internal-label: REST API Packages
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # REST API for creating and activating packages {#id198CF0260Y4}
 

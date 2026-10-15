@@ -4,7 +4,7 @@ description: Author markdown documents from the Editor. Learn how to create, aut
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-TQID: https://experienceleague.adobe.com/9NrYbEPcHa0QEwAnN5VTK7UVT9sBDJHOYZZuSsID8Kc
+TQID: 'https://experienceleague.adobe.com/9NrYbEPcHa0QEwAnN5VTK7UVT9sBDJHOYZZuSsID8Kc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -13,6 +13,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -56,9 +58,9 @@ Perform the following steps to create a Markdown topic from the Editor:
    ![](images/markdown-topic-author.png){width="650"}
 
 
- >[!NOTE]
- >
- > You can also create a markdown topic for a Folder within the Repository panel. Select the folder within which you want to create a markdown topic and select **New**, and then select **Topic** from the Options menu. You can now create a markdown topic by providing topic details in the **Create topic** dialog box. 
+>[!NOTE]
+>
+> You can also create a markdown topic for a Folder within the Repository panel. Select the folder within which you want to create a markdown topic and select **New**, and then select **Topic** from the Options menu. You can now create a markdown topic by providing topic details in the **Create topic** dialog box. 
 
 ## Know the Editor features for a Markdown topic 
 

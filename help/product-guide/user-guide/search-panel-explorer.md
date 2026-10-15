@@ -60,6 +60,10 @@ When working in the Editor interface, you can filter the set of files to view a 
 
 3. Once your search is complete, select **Show in Search panel**. Your recent searches will then appear in the Search panel on the bottom of the Editor.
 
+    >[!NOTE]
+    >
+    > Starting with the 2026.09.0 release, Experience Manager Guides offers an improved browsing experience through paginated loading. This feature is enabled by default. To disable it, contact your Customer Success team. For more information, see [Paginated loading of files and folders](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
+
     ![](images/show-search-explorer.png)    
 
 4. To update your search results, select **Modify search** option in the Search panel and update the criteria to get new results.

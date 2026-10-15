@@ -4,6 +4,17 @@ description: Get to know the Home page of the Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Experience Manager Guides Home page experience
 
@@ -39,16 +50,17 @@ Features available in the navigation bar are explained as follows:
   - **Home**: The default page that you view when logging into Experience Manager Guides.
   - **Editor**: An easy-to-use web-based Editor that allows you to create and manage structured documents in Experience Manager Guides. [Get to know the Editor interface](./web-editor.md). 
   - **Map console**: Provides you a dedicated workspace to handle all aspects of map management and publishing. [Get to know the Map console interface](./map-console-overview.md).
-- **AI Assistant**: A powerful, AI-driven tool designed to enhance your productivity through smart help features. Additionally, when working in the Editor interface, you can leverage the smart authoring capabilities of AI Assistant that makes your authoring process smarter and faster through intelligent suggestions for content reuse and optimization.  
-
-  The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.  
-
-- **Guides AI**: Brings intelligent, agentic Smart Tagging skill from Adobe CX Enterprise Coworker into the Editor, enabling natural, conversational content tagging. It analyzes your content, recommends relevant tags, and helps you apply consistent and accurate metadata with minimal effort. You can review the suggested tags and choose to apply or reject them before confirming your selection. [Guides AI](../user-guide/guides-ai.md) streamlines the tagging process, improving content organization and discoverability.
-
+- **AI Assistant**: AI Assistant is available in two modes: **Agentic** and **Standard**.
 
   >[!NOTE]
   >
-  > For using Guides AI feature in your environment, contact the Customer Success team. After the feature is enabled, Administrators can turn it on or off from Workspace Settings. Only one AI experience can be enabled at a time; either Guides AI or AI Assistant.
+  > For using Agentic mode of AI Assistant feature in your environment, contact the Customer Success team. After the feature is enabled, Administrators can turn it on or off from Workspace Settings. Only one mode of AI Assistant can be enabled at a time; either Agentic or Standard.
+
+  - **Agnetic**: Brings intelligent, agentic Smart Tagging skill from Adobe CX Enterprise Coworker into the Editor, enabling natural, conversational content tagging. It analyzes your content, recommends relevant tags, and helps you apply consistent and accurate metadata with minimal effort. You can review the suggested tags and choose to apply or reject them before confirming your selection. [Use AI Assistant in Agentic Mode](../user-guide/ai-assistant-agentic.md) streamlines the tagging process, improving content organization and discoverability.
+
+  - **Standard**: A powerful, AI-driven tool designed to enhance your productivity through smart help features. Additionally, when working in the Editor interface, you can leverage the smart authoring capabilities of AI Assistant that makes your authoring process smarter and faster through intelligent suggestions for content reuse and optimization.  
+  
+  The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.  
 
 - **Customize overview section**: Allows you to hide or show the widgets in the Widgets section. 
 - **Folder profile in use**: Displays the folder profile that is currently being used.
@@ -164,6 +176,10 @@ The Repository serves as a centralized hub for discovering folders and files wit
 
 ### Map collections 
 
+>[!NOTE]
+>
+>You can use the new Map collections feature in Adobe Experience Manager Guides as a Cloud Service starting from 2026.08.0 release, which combines map management and bulk publishing into a unified interface. Contact your Customer Success team to enable this feature.Learn more about [using the new map collection.](./generate-output-use-new-map-collection-output-generation.md)
+
 Experience Manager Guides provides you with the ability to organize your content for publishing by using a dashboard called **Map collections**. To use this feature, select **Map collections** from the left panel. It takes you to the Map collections page in the **Assets UI** where you can [use map collection for output generation.](./generate-output-use-map-collection-output-generation.md)  
 
 ### Bulk publish 
@@ -202,6 +218,7 @@ The User preferences are available to all authors. Using the preferences, you ca
     
     - **Always locate files in the explorer**: Select this option to show the location of a file in the repository while editing it in the Editor.
 
-  >[!NOTE]
-  >
-  >From 2025.11.0 release for Cloud service and from 5.2.0 release for On-premise, the setting **Always locate files in the repository** is renamed to **Always locate files in the explorer**. For On-Premise setup prior to 5.2 release , it continues to be available as Always locate files in the repository.
+      >[!NOTE]
+      >
+      >- From 2025.11.0 release for Cloud service and from 5.2.0 release for On-premise, the setting **Always locate files in the repository** is renamed to **Always locate files in the explorer**. For On-Premise setup prior to 5.2 release , it continues to be available as Always locate files in the repository.
+      >- Starting with the 2026.09.0 release, **Paginated loading of files and folders** is enabled by default. When this feature is enabled, **Always locate files in the explorer** is not available in User preferences. To make the Always locate files in the explorer preference available, contact your Customer Success team to disable Paginated loading of files and folders setting. For more information, see [Paginated loading of files and folders](./web-editor-other-features.md#paginated-loading-of-files-and-folders).

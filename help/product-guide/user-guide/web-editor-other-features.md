@@ -554,5 +554,4 @@ The key features aimed at improving the handling of large files are mentioned as
 
 - The alert message is available only for DITA files and is visible across all views: Author, Source, and Layout.
 
-
 **Parent topic:**[Introduction to the Editor](web-editor.md)

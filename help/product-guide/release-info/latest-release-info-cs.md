@@ -8,6 +8,12 @@ product_v2:
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
@@ -17,12 +23,13 @@ topic_v2:
 ---
 # Adobe Experience Manager Guides as a Cloud Service release information
 
-This page provides the latest release information for Adobe Experience Manager Guides as a Cloud Service. Find details about new features, enhancements, fixed issues, known issues, and upgrade instructions to help you stay up to date with each release.
+This article provides the latest release information for Adobe Experience Manager Guides as a Cloud Service. Find details about new features, enhancements, fixed issues, known issues, and upgrade instructions to help you stay up to date with each release.
 
 ## 2026 releases
 
 |[!DNL AEM Guides] Release|Release Notes|
 |---|---|
+|**AEM Guides 2026.09.0**|[2026.09.0 What's new](./whats-new-2026-09-0.md)<br><br>[2026.09.0 Fixed issues](./fixed-issues-2026-09-0.md)<br><br>[2026.09.0 Upgrade instructions](./upgrade-instructions-2026-09-0.md)|
 |**AEM Guides 2026.08.0**|[2026.08.0 What's new](./whats-new-2026-08-0.md)<br><br>[2026.08.0 Fixed issues](./fixed-issues-2026-08-0.md)<br><br>[2026.08.0 Upgrade instructions](./upgrade-instructions-2026-08-0.md)|
 |**AEM Guides 2026.07.0**|[2026.07.0 Fixed issues](./fixed-issues-2026-07-0.md)<br><br>[2026.07.0 Upgrade instructions](./upgrade-instructions-2026-07-0.md)|
 |**AEM Guides 2026.06.0**|[2026.06.0 What's new](./whats-new-2026-06-0.md)<br><br>[2026.06.0 Fixed issues](./fixed-issues-2026-06-0.md)<br><br>[2026.06.0 Upgrade instructions](./upgrade-instructions-2026-06-0.md)|

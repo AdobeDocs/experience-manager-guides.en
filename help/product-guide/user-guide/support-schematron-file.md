@@ -4,7 +4,7 @@ description: Learn how to import and validate a DITA topic, use assert report st
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-TQID: https://experienceleague.adobe.com/8heDTU9viOxhsg-Epvu6OZMrRyHoWRJ-584O6u9lut8
+TQID: 'https://experienceleague.adobe.com/8heDTU9viOxhsg-Epvu6OZMrRyHoWRJ-584O6u9lut8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -13,6 +13,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -73,19 +75,19 @@ When you open a topic in the Editor, a Schematron Validation panel appears in th
 
     >[!NOTE]
     >
-    > Validation results are displayed based on the role attribute defined in the Schematron file. For more details, view [Understanding validation results and serverity levels](#understanding-validation-results-and-serverity-levels).
+    > Validation results are displayed based on the role attribute defined in the Schematron file. For more details, view [Understanding validation results and severity levels](#understanding-validation-results-and-severity-levels).
 
 1. Select the error message to highlight the element containing the error in the opened topic/map.
 
 The Schematron support in the Editor helps you in validating the files against a set of rules and maintaining consistency and correctness across the topics.
 
-## Understanding validation results and serverity levels
+## Understanding validation results and severity levels
 
 Validation results are displayed based on the role attribute defined in the Schematron file. Issues are categorized as `Fatal`, `Error`, `Warn`, or `Info`, with a visible count for each category in the Validation panel.
 
 ![](images/schematron-validation-errors.png){width="350"}
     
-To determine the severity of an issue, the _case-senstive_ value of the role attribute defined in the corresponding Schematron file is evaluated. 
+To determine the severity of an issue, the _case-sensitive_ value of the role attribute defined in the corresponding Schematron file is evaluated. 
 
 The following snippet shows the supported role attribute values defined in a Schematron rule:
     
@@ -191,3 +193,21 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
+
+## Define rules using text-node context
+
+You can define a Schematron rule with a text-node context, for example `context="//text()"`, so that the rule evaluates against text nodes directly instead of requiring you to enumerate every possible DITA element that can contain that text.
+
+For example, the following rule flags straight quotation marks anywhere in the topic text:
+
+```XML
+<sch:pattern id="quotation-marks-straight-v2">
+  <sch:rule context="//text()">
+    <sch:report role="info" test="contains(., '&quot;')">Please use typographic quotes instead of straight quotes.</sch:report>
+  </sch:rule>
+</sch:pattern>
+```
+
+When this rule matches, the validation result points to the exact text node that triggered it, rather than only the enclosing element.
+
+Rules that use an explicit element context, for example `context="//p"`, continue to work as before, and you can still use either approach depending on how precise you want the match and the error location to be.

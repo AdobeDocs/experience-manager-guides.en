@@ -20,6 +20,10 @@ role_v2:
 ---
 # Author documents smartly with AI Assistant (Beta)
 
+>[!NOTE]
+>
+>This feature is avialable for AI Assistant in Standard mode.
+
 Adobe Experience Manager Guides provides an AI Assistant tool that helps you make your authoring smarter and faster. Using this tool, view the smart suggestions to reuse the content from the existing content repository. Use the text prompt feature to provide a prompt and change the content as per your requirements. Use the AI Assistant to smartly convert a paragraph to a list. You can create a short description for the current topic based on the selected content. This feature also helps you to easily improve and translate the selected content.
 
 >[!NOTE]

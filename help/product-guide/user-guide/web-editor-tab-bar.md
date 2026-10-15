@@ -4,7 +4,7 @@ description: Get to know the Tab bar in the Editor. Learn about the Editor inter
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
-TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
+TQID: 'https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -62,21 +64,17 @@ Saves the changes you have made in all opened topics. If you have multiple topic
 >
 > The **Save all** operation does not create a new version of your topics. To create a new version, use the **Save as new version** option.
 
-**AI Assistant**
-
-A powerful, AI-driven tool designed to enhance your productivity through smart help and authoring features. It brings together two robust AI features — **Authoring** and **Help** — into the Experience Manager Guides interface, enabling you to author content and access information from Experience Manager Guides documentation faster and more efficiently. 
+**AI Assistant**: AI Assistant is available in two modes: **Agentic** and **Standard**.
 
 >[!NOTE]
 >
-> The AI Assistant feature is currently available for Adobe Experience Manager Guides as a Cloud Service.
+> For using Agentic mode of AI Assistant feature in your environment, contact the Customer Success team. After the feature is enabled, Administrators can turn it on or off from Workspace Settings. Only one mode of AI Assistant can be enabled at a time; either Agentic or Standard.
 
-**Guides AI**
+- **Agnetic**: Brings intelligent, agentic Smart Tagging skill from Adobe CX Enterprise Coworker into the Editor, enabling natural, conversational content tagging. It analyzes your content, recommends relevant tags, and helps you apply consistent and accurate metadata with minimal effort. You can review the suggested tags and choose to apply or reject them before confirming your selection. [Use AI Assistant in Agentic Mode](../user-guide/ai-assistant-agentic.md) streamlines the tagging process, improving content organization and discoverability.
 
-Brings intelligent, agentic Smart Tagging skill from Adobe CX Enterprise Coworker into the Editor, enabling natural, conversational content tagging. It analyzes your content, recommends relevant tags, and helps you apply consistent and accurate metadata with minimal effort. You can review the suggested tags and choose to apply or reject them before confirming your selection improving content organization and discoverability.
+- **Standard**: A powerful, AI-driven tool designed to enhance your productivity through smart help features. Additionally, when working in the Editor interface, you can leverage the smart authoring capabilities of AI Assistant that makes your authoring process smarter and faster through intelligent suggestions for content reuse and optimization.  
 
->[!NOTE]
->
-> For using Guides AI feature in your environment, contact the Customer Success team. After the feature is enabled, Administrators can turn it on or off from Workspace Settings. Only one AI experience can be enabled at a time; either Guides AI or AI Assistant.
+The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.
 
 **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar containing the Adobe Experience Manager logo, is hidden. This maximizes the content space for editing. To return to the standard view, use the **Exit the expanded view** icon.
 
@@ -92,6 +90,6 @@ Brings intelligent, agentic Smart Tagging skill from Adobe CX Enterprise Coworke
 >
 >If using Adobe Experience Manager Guides in an On-Premise setup prior to version 5.2, the Workspace settings option continues to appear as **Settings** under the More actions menu.
 
-- **Editor settings**: Takes you to the Editor settings dialog where you can customize the Editor behavior at an individual author level. It allows you to control the visibility and behavior of tags, comments, and other editor-level settings during authoring. For details, view [Editor settings](../install-conf-guide/workspace-settings.md). 
+- **Editor settings**: Takes you to the Editor settings dialog where you can customize the Editor behavior at an individual author level. It allows you to control the visibility and behavior of tags, comments, and other editor-level settings during authoring. For details, view [Editor settings](../user-guide/config-editor-settings.md). 
 
 **Parent topic:**[Introduction to the Editor](web-editor.md)

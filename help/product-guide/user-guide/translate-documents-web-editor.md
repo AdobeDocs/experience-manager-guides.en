@@ -4,7 +4,7 @@ description: Translate your content into multiple languages from the web editor.
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
+TQID: 'https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -72,7 +76,8 @@ Before performing steps in this procedure, ensure that you have created the requ
 
     >[!IMPORTANT]
     >
-    > You can only select and translate to the languages for which you have created the target folder parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
+    > * You can only select and translate to the languages for which you have created the target folder parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
+    > * If you create the target folder for a language after creating the language group, refresh the browser to enable the language in the language groups. 
 
     
 
@@ -86,7 +91,9 @@ Before performing steps in this procedure, ensure that you have created the requ
 
     >[!NOTE]
     >
-    > If you create the target folder for a language after creating the language group, refresh the browser to enable the language in the language groups.  
+    > If an individual source or destination language copy (file) is moved out of its original language folder into a different folder, the Translation panel reflects this change as follows:
+    > - Destination language copies: If a destination (target) language copy is moved out of its original destination language folder into a different folder, the corresponding asset is displayed as disabled in the Translation panel.
+    > - Source language copies: If a source language copy is moved out of its original source language folder into a different language folder, the corresponding asset is displayed as enabled in the Translation panel, allowing translation to continue as expected.
 
 1. If you choose a particular language, it appears as selected under all language groups you have selected. So, when you translate to any language, it's translated in one go for all the language groups. For example, if German is present in both G1 and G2 language groups, it's selected for both. 
 
@@ -150,6 +157,10 @@ Before performing steps in this procedure, ensure that you have created the requ
     -   You can select **Create a new multi-lingual translation project** which will include translation jobs for all languages that you have selected for translation. For example, if you have selected French, German, and Spanish it will create a project which contains translation jobs for all three languages.
     -   If you already have a translation project, you can add topics to that project. Select **Add to existing translation project** option from the Project list and choose a project from the Existing Translation Project list. You can sort these projects by most recent, ascending, or descending order.
 
+        >[!NOTE]
+        >
+        > When using **Add to existing translation project** to send additional assets for translation, the operation fails if a previous request (project creation or Add to existing project) for the same project is still in progress. The following message is displayed: *A previous request for this project is still in progress. Please wait a few minutes before trying again*.   
+
     - If you select **Add to existing translation project**, this operation updates the existing asset entry in the project if the asset is already added and the related translation job state is in the *Draft* state.
         - If the destination language is not present in the project, a new project is created for the single-language translation project, and a new job is created for multi-language translation project.
 
@@ -170,6 +181,7 @@ Before performing steps in this procedure, ensure that you have created the requ
 
         ![Enter the existing project path](images/existing-project-path.png){width="650"}
 
+        
 1. In the **Project Title** field, enter a title for the project.
 1. Select **Submit** to create a new translation project.
 

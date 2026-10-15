@@ -5,15 +5,24 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
+TQID: 'https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -87,9 +96,9 @@ You can also create new language variables. For example, you can create a user v
 
 1. Select **Add Language Variable** <img src="./assets/add-language-variable.svg" width="25"> to add a new language variable to the selected language. Adding a variable to one language automatically adds it to all languages. You cannot create a variable with the same name as an existing variable. An error is displayed. 
 
-  >[!NOTE]
-  >
-  > If you don't select **Add Language Variable**, the variable is not created and added to the list
+   >[!NOTE]
+   >
+   > If you don't select **Add Language Variable**, the variable is not created and added to the list
 
 ## Export and import language variables
 
@@ -149,8 +158,6 @@ You can also edit the values for an application variable. Later, you can revert 
 
 You should add language variables in your localized documents. You can insert these language variables within the page layout that appears across different pages in your localized documents. For example, you can add the language variable for the `author-name` that appears in the page layout's header area (or any other part like the footer or body). 
 
-
-
 <img alt="page-layout of a pdf" src="./assets/language-variable-page-layout.png" width="550">
 
 
@@ -178,6 +185,21 @@ To insert a language variable like your `copyright-label` in the header area, pe
 <img alt="insert variable in the header area" src="./assets/language-variable-header.png" width="550">
  
  *The `copyright-label` added in the header area.*
+
+Once inserted, a language variable's value in the generated output depends on the language configured in the output preset. If your map already has a language defined using the `xml:lang` attribute, and you want the template to use that same language, ensure that the **Use map language** option is selected in the output preset instead of selecting a language explicitly. View [Language resolution for DITA content vs. output template variables](#language-resolution-for-dita-content-vs-output-template-variables) to learn how a language how a language resolves based on its content type.
+
+### Language resolution for DITA content vs. output template variables
+
+Your document can contain two types of content that need translation: DITA content, such as cross-references and table continuation markers, and output template content, such as front matter, back matter, headers, and footers that you insert using language variables. 
+
+Use the following table to understand how each type of content resolves its language.
+
+| Content type | Examples | Language resolution order |
+|---|---|---|
+| DITA content | Cross-references (for example, "See chapter" or "See page"), table continuation markers | 1. `xml:lang` attribute on the nearest topic or map <br> 2. Output preset language, if no `xml:lang` is set |
+| Output template language variables | Front matter, back matter, headers, footers, running heads, and generated labels (Note, Caution, Warning) | 1. Language selected in the output preset <br> 2. Root map's `xml:lang`, if **Use map language** is selected <br> 3. English (en_US), if neither is available |
+
+If you want your DITA content to follow a specific language, set the `xml:lang` attribute on the topic or map closest to that content. Language variables work differently; since they are not part of the DITA source, they have no `xml:lang` to inherit, so you can control their language through the output preset instead.
 
 ### Apply content style to language variables
 

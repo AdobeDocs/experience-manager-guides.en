@@ -4,7 +4,7 @@ description: Learn about the new and enhanced features in 4.3.1 releases of Adob
 exl-id: 14db7453-ccc1-4709-903f-677f55c263b2
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/ARoAPa2b8DUCuRMbl4-8QwulfVtXMYnE9ixKVGlTJIg
+TQID: 'https://experienceleague.adobe.com/ARoAPa2b8DUCuRMbl4-8QwulfVtXMYnE9ixKVGlTJIg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -13,6 +13,11 @@ product_v2:
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
     internal-label: Publishing
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader

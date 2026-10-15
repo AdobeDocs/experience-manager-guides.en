@@ -51,11 +51,17 @@ The other options available in the Insert menu in the Editor toolbar include:
     
     ![](assets/upload-assets-option.png)
 
-    Once done, review the H5P content in the Preview mode and published output. 
+    Once done, review the H5P content in the Preview mode and published output. H5P content also supports a full screen display option. You can enable or disable full screen mode for each embedded H5P element through a dedicated toggle in the Content properties panel. When enabled, learners can expand the content to full screen; when disabled, the content remains inline within the standard view. This setting applies consistently across Preview mode and published output.
 
     >[!NOTE]
     >
     > Editing or creating H5P content is not supported within Adobe Experience Manager Guides. Prepare your H5P package externally before uploading.
+
+    ![](assets/h5p-fullscreen.png)
+
+    **Preview mode**
+
+    ![](assets/h5p-preview.png)
 
     
 - **MathML equation:** Inserts MathML equations to your content. You can create a MathML equation and select **Insert** to add it to your document. 

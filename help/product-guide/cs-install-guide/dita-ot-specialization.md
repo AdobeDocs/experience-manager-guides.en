@@ -5,7 +5,7 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/qi0ULJNb8gNRN-JialmPdr01brhyvyA9b1O6kgQVN7w
+TQID: 'https://experienceleague.adobe.com/qi0ULJNb8gNRN-JialmPdr01brhyvyA9b1O6kgQVN7w'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -27,9 +27,14 @@ subfeature_v2:
     internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: a9152842-7b20-4563-9267-e1dc8991bd13
+    internal-label: DITA OT configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Use custom DITA-OT and DITA specialization {#id181GAJ0005Z}
 

@@ -5,7 +5,7 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-TQID: https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE
+TQID: 'https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -16,9 +16,14 @@ feature_v2:
     internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting

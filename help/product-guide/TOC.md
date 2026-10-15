@@ -7,6 +7,7 @@ breadcrumb-title: AEM Guides Documentation
 # [!DNL Adobe Experience Manager Guides] {#using}
 
 - [[!DNL AEM Guides] overview](overview.md)
+- {hide-from-toc} [AEM Guides Landing page](aemg-documentation-overview.md)
 - [Disclaimer](./user-guide/rebranding-disclaimer.md)
 - Release Information {#release-info}
   - [AEM Guides releases roadmap](./release-info/aem-guides-releases-roadmap.md)
@@ -15,6 +16,10 @@ breadcrumb-title: AEM Guides Documentation
       - {hide-from-toc} [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - [Cloud Releases](./release-info/latest-release-info-cs.md)
       - 2026 Releases {#2026-releases}
+        - 2026.09.0 Release {#2609-release}
+          - [What's new](./release-info/whats-new-2026-09-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2026-09-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2026-09-0.md)
         - 2026.08.0 Release {#2608-release}
           - [What's new](./release-info/whats-new-2026-08-0.md)
           - [Fixed issues](./release-info/fixed-issues-2026-08-0.md)
@@ -135,6 +140,10 @@ breadcrumb-title: AEM Guides Documentation
         - [January release notes](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
+      - 5.2.0 SP1 Release {#520-sp1-release}
+        - [What's new](./release-info/whats-new-5-2-1.md)
+        - [Fixed issues](./release-info/fixed-issues-5-2-0-sp1.md)
+        - [Upgrade instructions](./release-info/upgrade-instructions-5-2-0-sp1.md)
       - 5.2.0 Release {#520-release}
         - [What's new](./release-info/whats-new-5-2-0.md)
         - [Fixed issues](./release-info/fixed-issues-5-2-0.md)
@@ -355,12 +364,13 @@ breadcrumb-title: AEM Guides Documentation
   - AI Assistant in AEM Guides {#ai-assistant-aem}
     - [Adobe Generative AI user disclosures](./user-guide/adobe-generative-ai-disclosures.md)
     - [AI Assistant overview](./user-guide/ai-assistant.md)
-    - [AI-powered smart Help to search content](./user-guide/ai-based-smart-help.md)
-    - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
-    - [AI-powered smart suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
-    - [FAQ](./user-guide/ai-assistant-faq.md)
-  - Guides AI in AEM Guides {#guides-ai-aem}  
-    - [Get started with Guides AI](./user-guide/guides-ai.md)  
+    - AI Assistant in Agentic mode {#ai-assistant-agentic}
+      - [Use AI Assistant in Agentic mode](./user-guide/ai-assistant-agentic.md)
+    - AI Assistant in Standard mode {#ai-assistant-standard}  
+      - [AI-powered smart Help to search content](./user-guide/ai-based-smart-help.md)
+      - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
+      - [AI-powered smart suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
+      - [FAQ](./user-guide/ai-assistant-faq.md)
   - Manage Learning Content {#learning-training-content}
     - Getting started guide {#get-started}
       - Introduction {#intro-lc}
@@ -420,6 +430,8 @@ breadcrumb-title: AEM Guides Documentation
     - Troubleshooting {#troubleshooting}
         - [Session timeout](./user-guide/session-timeout-prompt.md)
         - [String is too long exception in Metadata export](./user-guide/metadata-export-failure.md)
+    - Performance management {#performance-management}
+        - [Paginated loading of files and folders](./user-guide/paginated-loading-assets.md)    
 - User Guide (Old UI) {#user-guide-old-ui}
   - [AEM Guides overview](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation and configuration {#install-conf-guide}
@@ -491,6 +503,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Install packages for Article-based publishing](./install-conf-guide/conf-article-based-publishing.md)
       - [Configure the ignore list of metadata properties](./install-conf-guide/conf-metadata-prop.md)
       - Editor setting for Cloud Service {#editor-cloud-settings}
+          - [Configure AI Assistant in Agentic mode for Cloud Service](./install-conf-guide/configure-ai-assistant-agentic-mode-cs.md)
           - [Configure the AI-powered smart suggestions for authoring for Cloud Service](./install-conf-guide/conf-smart-suggestions.md)      
           - [Configure the AI-powered Smart Help to search content for Cloud Service](./install-conf-guide/conf-smart-help.md)
           - [Configure the option to edit in Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
@@ -547,10 +560,11 @@ breadcrumb-title: AEM Guides Documentation
           - [Configure the new publishing engine for Native PDF](./native-pdf/conf-new-pdf-engine.md) 
         - [Work with the Native PDF engine v2 ](./native-pdf/new-pdf-engine.md) 
         - [Configure Node process for Native PDF Publishing for Cloud Service](./native-pdf/conf-node-options-cs.md) 
-        - [Configure JVM flags for Native PDF Publishing for On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
+        - [Configure JVM flags for Native PDF Publishing for On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)      
       - Configure content and experience fragments for Cloud Service {#conf-content-exp-fragment}  
         - [Create a mapping between a topic and a content fragment](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
         - [Create a mapping between a topic and an experience fragment](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+      - [Configure XML parser entity size limit](./install-conf-guide/conf-xml-parsing.md)  
     - Workflow customization {#workflow}
       - [Configure and customize workflows](./install-conf-guide/conf-customize-workflows.md)  
     - Integrations {#aemg-integrations}
@@ -561,7 +575,10 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure New Baseline for On-Premise](./install-conf-guide/conf-new-baseline-on-prem.md)
       - [Configure skipping of peer links for On-Premise](./install-conf-guide/conf-skip-peer-links-on-prem.md)
       - {hide-from-toc} [Configure new map collections for output generation](./install-conf-guide/conf-new-map-collection-on-prem.md)
-      - [Using the Experience Manager Guides MCP Server](./install-conf-guide/conf-aem-guides-mcp.md)
+      - AEM Guides MCP integration {#mcp}
+        - [Using the AEM Guides MCP Server](./install-conf-guide/conf-aem-guides-mcp.md)
+        - [Set up the AEM Guides MCP server](./install-conf-guide/configure-aem-guides-mcp.md)
+        - [Configure MCP connection settings for AEM Guides On-Premise](./install-conf-guide/configure-aem-guides-mcp-on-prem.md)
     - Extending the features {#aemg-customization}
       - [Deploy custom index for Find and replace feature for Cloud Service](./install-conf-guide/custom-indexing-cs.md)
       - [Reindex for Find and replace feature for On-Premise](./install-conf-guide/custom-indexing-on-prem.md) 

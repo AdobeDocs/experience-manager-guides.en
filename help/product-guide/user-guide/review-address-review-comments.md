@@ -4,7 +4,7 @@ description: Learn how to address review comments as an author in AEM Guides. Di
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/1eKOv9Ys8N5wOu5-gon4uDq-LLIqADeSmbWq55iVg18
+TQID: 'https://experienceleague.adobe.com/1eKOv9Ys8N5wOu5-gon4uDq-LLIqADeSmbWq55iVg18'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
     internal-label: Administration
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -107,6 +109,18 @@ As an Author and initiator of the review task, you can reply to review comments 
 
 ![](images/tag-users-review.png){width="350"}
 *Caption:Tag users as an initiator/Author*
+
+To tag a user, enter `@` in a comment or reply and select a user from the list of users associated with this project. The list displays name of the user along with additional details to help you identify the correct user.
+
+User details are displayed in the following order:
+
+`<Role>` | `<User name>` | `<Email address>`
+
+If the email address isn't available, only the role and name of the user are displayed.
+
+You can also hover over a user in the list to view their user name, role, and email address in a tooltip.
+
+![](images/tag-users-author-ui.png){width="350"}
 
 Tagged users receive both an email and an AEM notification, ensuring they're promptly informed. For more details on how review notifications trigger, view [Understanding review notifications](./review-understanding-review-notifications.md).
 

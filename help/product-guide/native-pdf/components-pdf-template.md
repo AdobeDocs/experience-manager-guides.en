@@ -5,7 +5,7 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE
+TQID: 'https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -16,9 +16,15 @@ feature_v2:
     internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Components of a PDF template {#components-pdf-template}
 
@@ -32,9 +38,9 @@ Contents (TOC), index, blank page, Front Matter Pages, Back Matter Pages, List o
 
 ### Create a new page layout {#create-page-layout}
 
-   >[!NOTE]
-   >
-   >There are sample page layouts that are shipped out of the box. You can customize these or create new page layouts.
+>[!NOTE]
+>
+>There are sample page layouts that are shipped out of the box. You can customize these or create new page layouts.
 
 1. In the Editor, go to the **Output** tab.
 1. Expand the left sidebar and click **Templates**.
@@ -57,6 +63,7 @@ Contents (TOC), index, blank page, Front Matter Pages, Back Matter Pages, List o
       <img src="assets/add-layout-2.png" alt="Add Layout dialog" width="250">
 
 1. Specify a name for the new page layout.
+
     >[!NOTE]
     >
     >Avoid using any special characters when naming a page layout. A space in the name is replaced with an underscore "_".
@@ -192,14 +199,37 @@ To add an asset file to the Resources folder, follow the below steps:
    <img src="assets/resources-import-assets.png" alt="Upload assets" width="300">
    
    The path where the asset file will be uploaded is shown in the **Select Asset Folder** field.
-    >[!NOTE]
-    >
-    >You cannot change the path for uploading assets. By default, all assets are stored under the `/content/dam/dita-templates/pdf/<PDF-template-name>` folder.
+
+   >[!NOTE]
+   >
+   >You cannot change the path for uploading assets. By default, all assets are stored under the `/content/dam/dita-templates/pdf/<PDF-template-name>` folder.
 
 1. Click **Choose Files** to browse the asset file from your local machine
 
 1. Click **Upload**.
 The selected file is imported and listed under the Resources folder.
+
+## Show or hide draft comments in Native PDF output 
+
+Draft comments added in a DITA topic are excluded from Native PDF output by default. This is controlled by the `draft-comment` style in the output template's content stylesheet, where the `display` property is set to `none`.
+
+As an Administrator, you can update this style so draft comments are visible in the output:
+
+1. In the **Output templates** panel, open the template that the map uses for PDF publishing.
+2. Expand **Stylesheets** and double-click **content** to open the content stylesheet.
+3. In the **Styles** panel, locate and select **draft-comment**.
+
+    Use the search field to find it quickly if the list is long.
+
+4. In the **Properties** panel, change the value of the **display** property from `none` to a visible value (such as `block`, `inline-block`, `grid`, and more).
+
+    ![Configure draft-comment property in content stylesheet](./assets/draft-comment-setting.png)
+
+5. Save the stylesheet.
+
+>[!NOTE]
+>
+>This style controls whether draft comments are visible in styled content generally. To include draft comments specifically in **Native PDF** output, you must also enable the **Include draft comments** option in the Native PDF output preset. For details, view [Native PDF output preset](../web-editor/native-pdf-web-editor.md). Both settings are required together for draft comments to appear in the generated PDF exactly as they appear in the editor.
 
 ## Advanced PDF Settings {#advanced-pdf-settings}
 
@@ -249,6 +279,10 @@ You can define the text to appear before and after the break. For example, a tab
    Use language variables to define the continuation marker text before and after the break. Depending on your chosen language, the localized value is automatically picked in the PDF output. For example, you can publish `Continued on page %page-num%` as a text in English and `Fortsetzung auf Seite %page-num%` in German. 
 
    Hover over <img src="./assets/info-details.svg" alt= "info icon" width="25"> near the option to view more details about it. 
+
+   >[!NOTE]
+   >
+   > When using a language variable in the **Text Before Break** or **Text After Break** field, ensure that the entire text is defined within a single language variable. Any text or variable added outside the language variable in these fields is not rendered. For example, instead of using a combination of variables such as `${lng:Continued-from-page} %page-num%` in the **Text After Break field**, use only `${lng:Continued-from-page}` in the field, and separately set the value of the `Continued-from-page` language variable to `Continued-from-page %page-num%`.
 * **Link glossary terms to the glossary page**: Select this option to show the glossary terms as hyperlinks in the content and link them to the terms on the glossary page. This helps the readers to quickly view the definition of a term defined in the glossary.
     
    To convert the glossary terms to hyperlinks, you need to:
@@ -307,9 +341,7 @@ For more information on page layouts, see [Design a page layout](design-page-lay
 
 ### Page Layout Order {#page-order}
 
-   You can show or hide the following sections in your PDF and also arrange the order in which they should appear in your final PDF output: 
-
-
+You can show or hide the following sections in your PDF and also arrange the order in which they should appear in your final PDF output: 
 
 * TOC
 * Chapters & Topics
@@ -319,33 +351,31 @@ For more information on page layouts, see [Design a page layout](design-page-lay
 * Glossary
 * Citation
 
-   <img src="assets/page-order-advance-settings.png" alt="Page layout order" width="550">
+<img src="assets/page-order-advance-settings.png" alt="Page layout order" width="550">
 
-   If you do not want to show a particular section in your PDF output, you can hide that by turning the toggle switch off. 
+If you do not want to show a particular section in your PDF output, you can hide that by turning the toggle switch off. 
 
-   You can also define the order in which these different sections are generated in your PDF. To change the default order of these sections, select the dotted bars to drag and drop the sections at the desired location. 
+You can also define the order in which these different sections are generated in your PDF. To change the default order of these sections, select the dotted bars to drag and drop the sections at the desired location. 
 
-   >[!NOTE]
-   >
-   > The order and inclusion settings apply only to a DITA map. For a bookmap, these settings are not applicable. The pages in a bookmap are displayed as per the order of the sections in the bookmap.
+>[!NOTE]
+>
+> The order and inclusion settings apply only to a DITA map. For a bookmap, these settings are not applicable. The pages in a bookmap are displayed as per the order of the sections in the bookmap.
 
-
-.
-   **Chapter & Topics** layout is always enabled by default. You cannot toggle it.
+**Chapter & Topics** layout is always enabled by default. You cannot toggle it.
 
 **Merge pages**
 
-   By default, all sections begin on a new page. Select the **Previous Page** or **Next Page** option from the **Merge With** dropdown to merge a section with a previous or next page. This will publish the section in continuation with the selected page in the PDF output. With this, there will be no page break in between.
+By default, all sections begin on a new page. Select the **Previous Page** or **Next Page** option from the **Merge With** dropdown to merge a section with a previous or next page. This will publish the section in continuation with the selected page in the PDF output. With this, there will be no page break in between.
 
-   >[!NOTE]
-   >
-   > This setting applies only to the section and not its components.  For example, if you select the **Previous Page** option for **Chapters & Topics**, the **Chapters and Topics** section merges with the previous page. The various chapters and topics are published as per the **General** settings.For example, if in **Start any new chapter from setting**, you select **Odd Page**, then a blank page is inserted after a chapter that ends on an odd page. 
+>[!NOTE]
+>
+> This setting applies only to the section and not its components.  For example, if you select the **Previous Page** option for **Chapters & Topics**, the **Chapters and Topics** section merges with the previous page. The various chapters and topics are published as per the **General** settings.For example, if in **Start any new chapter from setting**, you select **Odd Page**, then a blank page is inserted after a chapter that ends on an odd page. 
 
-   When you merge a section to its previous page or next page, the content is merged, and the style of the target section in which the content is merged is applied. 
+When you merge a section to its previous page or next page, the content is merged, and the style of the target section in which the content is merged is applied. 
 
-   For example, if you enable **TOC** and **Chapter & Topics** and select the **Next Page** for **TOC**, the **TOC** merges with the next section, which is the **Chapter & Topics**. The style of the **Chapter & Topics** section is applied to the merged content of both sections.
+For example, if you enable **TOC** and **Chapter & Topics** and select the **Next Page** for **TOC**, the **TOC** merges with the next section, which is the **Chapter & Topics**. The style of the **Chapter & Topics** section is applied to the merged content of both sections.
 
-   The merge option works successively, so if you have selected **Next Page** for multiple continuous sections, they all merge with the first section (in the next direction), which does not have this property set. For example, you enable **TOC**, **Chapter & Topics**, **List of Figures**, and **Index**. Then, if you set **Next Page** for **TOC**, **Chapter & Topics**, **List of Figures**, and **None** for **Index**, they all merge with  **Index**. 
+The merge option works successively, so if you have selected **Next Page** for multiple continuous sections, they all merge with the first section (in the next direction), which does not have this property set. For example, you enable **TOC**, **Chapter & Topics**, **List of Figures**, and **Index**. Then, if you set **Next Page** for **TOC**, **Chapter & Topics**, **List of Figures**, and **None** for **Index**, they all merge with  **Index**. 
 
 
 **Static pages**
@@ -377,7 +407,7 @@ You can also perform the following actions:
 
 The pages in a PDF document are typically published according to the content organized in the DITA map or bookmap file. However, you can also change the order of pages in the PDF document. For example, you can print a multipage document as a booklet. When you collate, fold, and staple the sheets, the result is a single book with the correct page order.  You can then read the published booklet like a book. 
 
- <img src="assets/template-page-organization.png" alt="Page Organization" width="550">
+<img src="assets/template-page-organization.png" alt="Page Organization" width="550">
 
 
 The following settings are available under the **Page Organization** section:
@@ -449,6 +479,7 @@ If you leave the text field blank and you have not defined the link text while i
 * **Table**: `{captionText}`
 
 The order of precedence for cross-references is:
+
 * Link text added in the cross-references 
 * Cross-reference format defined in the Native PDF template
 * Default cross-reference format
@@ -471,9 +502,8 @@ For example, the following screenshots show the cross-references "View on page 1
 
 *A cross-reference within a paragraph when published in the English language.*
 
-   <img src="./assets/german-output-corss-reference.png" alt="German output of a cross-reference in a pragrah" width ="800" border="2px">
-
+<img src="./assets/german-output-corss-reference.png" alt="German output of a cross-reference in a pragrah" width ="800" border="2px">
 
 *A cross-reference within a paragraph when published in the German language.*
 
- <!--For more information, see *Format cross-references*.-->
+<!--For more information, see *Format cross-references*.-->

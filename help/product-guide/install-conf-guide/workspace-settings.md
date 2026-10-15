@@ -4,6 +4,19 @@ description: Learn about the various settings available in the Editor interface 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Workspace settings
 
@@ -36,14 +49,27 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
  The General settings allow you to configure the settings to use the Editor. This tab contains five sections: **AI Assistant**, **Authoring**, **Citations**, **Condition**, and **Spell check**.
 
-![](../user-guide/images/editor-setting-general.png){width="350"}
+![](assets/editor-setting-general-agentic.png){width="350"}
 
 - **AI Assistant**
+
+    >[!NOTE]
+    >
+    > For using Agentic mode of AI Assistant feature in your environment, contact the Customer Success team.
+
     Select this to enable the [AI Assistant](../user-guide/ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
 
-    After enabling the **AI Assistant** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below.  
-    These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the Workspace settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Workspace settings** and save the updated configuration.  
-    For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](../user-guide/ai-assistant-right-panel.md).
+    AI Assistant is available in two modes: **Agentic** and **Standard**. You can choose between the two modes by enabling the respective toggles.
+
+    - **Agentic**: After enabling this option you will be able to access the Agentic AI Assistant feature from the Navigation bar on Home page and Tab bar on Editor interface. For details on how to genearted AI suggested tags for topics, view [Use AI Assistant in Agentic mode](../user-guide/ai-assistant-agentic.md).
+
+    ![](assets/agentic-ai-workspace.png){width="350"}
+
+    - **Standard**: After enabling the **Standard** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below.  
+
+        These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the Workspace settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Workspace settings** and save the updated configuration.  
+
+        For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](../user-guide/ai-assistant-right-panel.md).
 
     From the **Authoring quick actions** menu, you can: 
 
@@ -51,19 +77,7 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
     - change the order in which the options appear, drag and drop them as needed.  
 
-    ![](../user-guide/images/authoring-quick-actions-new.png){width="350"} 
-
-- **Guides AI**
-
-    >[!NOTE]
-    >
-    > For using Guides AI feature in your environment, contact the Customer Success team. Only one AI experience can be enabled at a time; either Guides AI or AI Assistant.
-
-    Select **Guides AI** toggle to enable this feature in the Experience Manager Guides.Unselect to disable the feature.
-
-    After enabling this option you will be able to access the Guides AI feature from the Navifation bar on Home page and Tab bar on Editor interface. For details on how to genearted AI suggested tags for topics, view [Get started with Guides AI](../user-guide/guides-ai.md).
-
-    ![](assets/guides-ai-workspace.png){width="350"}
+    ![](assets/authoring-quick-actions-standard.png){width="350"}  
 
 - **Authoring**
 

@@ -4,7 +4,7 @@ description: This is a disclaimer to address product name change of XML Document
 exl-id: 388fb8d9-a7d0-4bbb-b244-4ccf461eafdf
 feature: Disclaimer
 role: User, Leader, Admin, Developer
-TQID: https://experienceleague.adobe.com/TcgMlZ96sIInzbaeM6RRT7dLfKST5eNIGSRtt2gBSRk
+TQID: 'https://experienceleague.adobe.com/TcgMlZ96sIInzbaeM6RRT7dLfKST5eNIGSRtt2gBSRk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -13,6 +13,11 @@ product_v2:
 feature_v2:
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
     internal-label: Generative AI
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+subfeature_v2:
+  - id: e2fdbf15-a7e4-4d2a-84cc-bd581e74b56d
+    internal-label: Disclaimer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

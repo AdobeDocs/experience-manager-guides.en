@@ -4,7 +4,7 @@ description: Learn how to create a review task and send topics for review in AEM
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
+TQID: 'https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -13,6 +13,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -275,6 +277,10 @@ To send one or multiple topics along with the map file for review, perform the f
 
     ![](images/content-page-map-review.png)
 
+    >[!NOTE]
+    >
+    > How content is organized on this page depends on whether the map hierarchy feature is enabled for your environment. When enabled, the map and its submaps are displayed in a hierarchical view instead of a flat list of topics. For more details, view [View the map hierarchy while selecting topics for review](#view-the-map-hierarchy-while-selecting-topics-for-review).    
+
 1. On the Content page, select a version of the topic that you want to share for review.
 
     You can use one of the following methods to select a version:
@@ -327,6 +333,33 @@ To send one or multiple topics along with the map file for review, perform the f
 
 
 An email is sent to all the reviewers, notifying that they have been assigned topics for review. The email contains a direct link that they can use to access the topic in a browser window. The topics along with the DITA map are opened in the review mode.
+
+### View the map hierarchy while selecting topics for review
+
+>[!NOTE]
+>
+> This feature is disabled by default. To enable it in your environment, contact your Customer Success team.
+
+With this feature, the existing structure or hierarchy of the map content is displayed on the **Content** page. Instead of displaying all the topics in a map as a flat list, the map and its submaps are displayed in their actual hierarchy for better reference while selecting content for review.
+
+![](./images/review-map-hierarchy.png)
+
+>[!NOTE]
+>
+> - If a map contains only topics and no submaps, then a flat list of topics is displayed as usual. 
+> - Only content types that can be included in a review are displayed in the hierarchy. These include Concept, Task, Reference, and Generic topics, along with DITA Map, BookMap, and Learning Content Map types. Non-reviewable items, such as glossary references, key definitions, and glossary lists, are not displayed in the map hierarchy.
+
+By default, all maps, submaps, and topics in the hierarchy are selected. As an Author or initiator of the review task, you can select or unselect individual topics or complete submaps based on the content that you want to send for review. Unselecting a submap also unselects all the topics within it.
+
+When only some topics within a submap are selected, the checkbox for the submap changes to an indeterminate state to indicate partial selection. This selection state is reflected in both the **Content** and **Reviewers** pages, ensuring that the selected content remains consistent across the review workflow.
+
+![](./images/review-partial-selection-submap.png)
+
+When all topics within a submap are selected or unselected, the selection state of the submap automatically adjusts accordingly.
+
+If the same topic is referenced more than once in the map hierarchy, each occurrence after the first is marked with a **Duplicate** label for easier identification. The option to select, unselect, or change the version of these duplicate topics is disabled. Any selection or version change must be made from the first occurrence of the topic.
+
+![](./images/review-duplicate-topics-in-map.png)
 
 ## Add or remove topics from an ongoing review task 
 

@@ -4,7 +4,7 @@ description: Get to know the Left panel in the Editor. Learn about the Editor in
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
+TQID: 'https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -84,6 +86,10 @@ For details, view [Workfront integration](./workfront-integration.md).
 The detailed explanation of the left panel features is as follows:
 
 ## Collections 
+
+>[!NOTE]
+>
+> Starting with the 2026.09.0 release, Experience Manager Guides offers an improved browsing experience through paginated loading. This feature is enabled by default. To disable it, contact your Customer Success team. For more information, see [Paginated loading of files and folders](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
 If you work on a set of files or folders, you can add them to your favorite list to access them quickly. **Collections** show the list of documents that you have added and other publicly accessible list of documents from the other users. 
 
@@ -500,7 +506,8 @@ The various options in the Options menu are explained below:
 
 >[!NOTE]
 >
-> Starting with 2025.11.0 release for Cloud Service and 5.2.0 release for On-Premise, **Repository** is replaced by **Explorer**. For On-Premise prior to version 5.2, you will continue to view and use Repository through the Editor interface.
+>- Starting with 2025.11.0 release for Cloud Service and 5.2.0 release for On-Premise, **Repository** is replaced by **Explorer**. For On-Premise prior to version 5.2, you will continue to view and use Repository through the Editor interface.
+>- Starting with the 2026.09.0 release, Experience Manager Guides offers an improved browsing experience through paginated loading. This feature is enabled by default. To disable it, contact your Customer Success team. For more information, see [Paginated loading of files and folders](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
 Explorer provides most of the capabilities previously available in Repository, including:
 
@@ -1122,6 +1129,10 @@ To insert a snippet, use any of the following methods:
 > From the context menu of a snippet entry, you can also choose to Edit, Delete, get a Preview, or Insert a Snippet.
 
 ## Templates 
+
+>[!NOTE]
+>
+> Starting with the 2026.09.0 release, Experience Manager Guides offers an improved browsing experience through paginated loading. This feature is enabled by default. To disable it, contact your Customer Success team. For more information, see [Paginated loading of files and folders](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
 The Templates panel is available to only administrators. Using this panel, administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *map* and *topic* type templates. 
 

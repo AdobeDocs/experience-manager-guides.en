@@ -4,12 +4,15 @@ description: Know how to mark a task as completed as a Reviewer in AEM Guides.
 feature: Reviewing
 role: User
 exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
-TQID: https://experienceleague.adobe.com/Ttty7SNmwHvrs-Ma5SN0JqjQRR3Y6yM-W-ozgQ3Vcyg
+TQID: 'https://experienceleague.adobe.com/Ttty7SNmwHvrs-Ma5SN0JqjQRR3Y6yM-W-ozgQ3Vcyg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -20,6 +23,10 @@ topic_v2:
 # Complete the review task as a Reviewer
 
 As a Reviewer, you can mark a review task as complete once you have reviewed all the content and want to notify the Author. You can also leave any final comments at this stage.
+
+>[!NOTE]
+>
+> Starting with the **2026.09.0 release** of Experience Manager Guides as a Cloud Service, the **Mark as done** button is renamed to **Complete review task**, along with additional features in the Review UI to help reviewers track their review progress. For more details, view [Mark individual topics as done](review-topics.md#mark-individual-topics-as-done-in-a-review-task). The steps to complete a review task remain the same.
 
 Perform the following steps to complete a review task:
 
