@@ -6,13 +6,13 @@ role: Admin
 level: Experienced
 ---
 
-# Connect AEM Guides with Guides Knowledge AI (Beta)
+# Connect Adobe Experience Mananger Guides with Guides Knowledge AI (Beta)
 
 >[!IMPORTANT]
 >
-> To enable this feature, contact your Customer Success team.
+> To enable Guides Knowledge AI feature, contact your Customer Success team.
 
-This article provides Administrators and Content engineers with the end-to-end process for configuring Guides Knowledge AI access and uploading Adobe Experience Manager Guides content for consumption within Knowledge AI. 
+This article provides Administrators and Content engineers with the end-to-end process for configuring Guides Knowledge AI access and uploading Experience Manager Guides content for consumption within Knowledge AI. 
 
 ## Process overview
 
@@ -94,13 +94,14 @@ To publish content to Knowledge AI, configure Experience Manager Guides once you
     ![knowledge-ai-preset-creation](assets/knowledge-ai-preset.png) 
 4. Open the configured Knowledge AI preset.
 5. Select the domain for which the role was granted to the `technical_account_email`,  then select **Upload Content**.
-  This triggers the content upload workflow to Knowledge AI. Wait for the upload process to complete.
+    This triggers the content upload workflow to Knowledge AI. Wait for the upload process to complete.
 
-    ![knowledge-ai-domain](assets/knowledge-ai-domain.png) 
+      ![knowledge-ai-domain](assets/knowledge-ai-domain.png) 
 
-6. After the upload is complete, select **Open in Knowledge AI**. This opens the Knowledge AI chat within the domain, using the uploaded content.
+6. After the upload is complete, select **Open in Knowledge AI**. 
+    This opens the Knowledge AI chat within the domain, using the uploaded content.
 
-    ![knowledge-ai-open](assets/open-knowledge-ai.png)   
+      ![knowledge-ai-open](assets/open-knowledge-ai.png)   
 
 You have successfully configured the Service Account, assigned the required permissions, and made your Experience Manager Guides content available in Knowledge AI. To ensure Knowledge AI remains aligned with your latest published content, [configure the Knowledge AI preset and upload your content](#configure-knowledge-ai-preset-and-upload-content) whenever you publish updates.
 
