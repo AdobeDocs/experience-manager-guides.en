@@ -10,7 +10,7 @@ level: Experienced
 
 >[!IMPORTANT]
 >
-> This feature is disabled by default. To enable Guides Knowledge AI feature, contact your Customer Success team.
+> This feature is disabled by default. To enable the Guides Knowledge AI feature, contact your Customer Success team.
 
 This article provides Administrators and Content engineers with the end-to-end process for configuring Guides Knowledge AI access and uploading Experience Manager Guides content for consumption within Knowledge AI. 
 
