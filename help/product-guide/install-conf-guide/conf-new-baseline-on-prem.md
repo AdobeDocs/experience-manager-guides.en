@@ -40,5 +40,5 @@ The following steps explain how to enable the New Baseline in your On-Premise en
 
 >[!NOTE]
 >
->After enabling this feature, you must migrate existing baselines to the new baseline. For step-by-step instructions and a walkthrough video, view [New baseline (Beta) in Experience Manager Guides](../user-guide/web-editor-baseline-v2.md).
+>After enabling this feature, you must migrate existing baselines to the new baseline. For step-by-step instructions and a walkthrough video, view [New baseline in Experience Manager Guides](../user-guide/web-editor-baseline-v2.md).
 
