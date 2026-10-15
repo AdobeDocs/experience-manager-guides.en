@@ -1,6 +1,6 @@
 ---
-title: Create and manage new baseline (Beta) from the Map console
-description: Create and manage new baseline (Beta) from the map console in Adobe Experience Manager Guides.
+title: Create and manage new baseline from the Map console
+description: Create and manage new baseline from the map console in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
@@ -23,11 +23,11 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
-# New Baseline (Beta) in Experience Manager Guides
+# New Baseline in Experience Manager Guides
 
 >[!NOTE]
 >
-> - This article applies to new baseline , currently available as a *Beta* feature, that offers improved performance and stability available with the Experience Manager Guides 2026.04.0 release. 
+> - This article applies to new baseline that offers improved performance and stability available with the Experience Manager Guides 2026.04.0 release. 
 > - To enable the new baseline feature for Cloud Service, contact the Customer Success Team.
 > - To enable the new baseline feature for On-Premise, view [Configure New Baseline](../install-conf-guide/conf-new-baseline-on-prem.md).
 
