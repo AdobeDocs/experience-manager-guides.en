@@ -18,10 +18,10 @@ This article provides Administrators and Content engineers with the end-to-end p
 
 | Step | What you'll do |
 |---|---|
-| 1 | Create a Service Account in Adobe Developer Console and configure it for your environment. |
-| 2 | Retrieve the technical account email from the Service Account credentials file. |
-| 3 | Grant the Service Account access in Knowledge AI by creating a role and adding the user. |
-| 4 | Configure a Knowledge AI output preset in Experience Manager Guides and upload content. |
+|1|Create a Service Account in Adobe Developer Console and configure it for your environment.|
+|2|Retrieve the technical account email from the Service Account credentials file.|
+|3|Grant the Service Account access in Knowledge AI by creating a role and adding the user.|
+|4|Configure a Knowledge AI output preset in Experience Manager Guides and upload content.|
 
 
 ## Prerequisites
@@ -34,7 +34,7 @@ Ensure you have the following access and permissions before starting:
 |Adobe Experience Manager Guides| Author content and configure the output preset for Knowledge AI.|
 |[Knowledge AI](https://guidesai.adobe.io/)|Manage roles and users, and receive the uploaded content.|
 |Permission: Create Service Accounts|Required in Adobe Developer Console to create a Service Account.|
-|Permission: Manage users and roles in Knowledge AI|Required to grant the Service Account access in Knowledge AI.| 
+|Permission: Manage users and roles in Knowledge AI|Required to grant the Service Account access in Knowledge AI.|
 
 ## Create a Service Account
 
