@@ -88,7 +88,7 @@ The Service Account is now authorized to perform content administration and uplo
 To publish content to Knowledge AI, configure Experience Manager Guides once you have set up permissions.
 
 1. Open **Map console** in Experience Manager Guides.
-2. Navigate to **Output presets*8.
+2. Navigate to **Output presets**.
 3. Create a new preset for Knowledge AI.
 
     ![knowledge-ai-preset-creation](assets/knowledge-ai-preset.png) 
