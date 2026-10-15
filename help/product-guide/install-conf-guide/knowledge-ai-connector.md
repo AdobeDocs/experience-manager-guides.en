@@ -40,7 +40,7 @@ Ensure you have the following access and permissions before starting:
 
 Knowledge AI uses a Service Account to authenticate securely and access content.
 
-1. Follow the instructions in [Configure Microservices IMT Configuration](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
+1. Follow the instructions in [Configure Microservices IMT Configuration](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config).
 
 1. Create a new Service Account and download the generated JSON credentials file.
 
@@ -82,8 +82,8 @@ The Service Account is now authorized to perform content administration and uplo
 
 To publish content to Knowledge AI, configure Experience Manager Guides once you have set up permissions.
 
-1. Open **Map console** in Experience Manager Guides.
-1. Navigate to **Output presets** tab.
+1. Open the **Map console** in Experience Manager Guides.
+1. Navigate to the **Output presets** tab.
 1. Select the + icon to create an output preset.
 1. Select **Knowledge AI** from the **Type** dropdown in the **New output preset** dialog box. Enter a **Name** and select **Add to current folder profile** to create an output preset within the current folder profile.
 
