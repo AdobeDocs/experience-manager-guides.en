@@ -43,17 +43,9 @@ New Editor provides a significant evolution of the authoring experience, with fo
 - UI and UX Refinements: Improves readability and visual comfort through a dark theme and richer default CSS in Author and Preview modes, delivering a more modern editing interface.
 - Centralized Editor settings: Offers a unified settings panel to personalize the authoring experience, including control over tags, attributes, XML comments, non‑breaking spaces, and quick insert menu in editor.
 
-### Limitations of New Editor 
-
-New Editor currently does not support the following features. These capabilities are planned to be introduced in upcoming releases.
-
-- Authoring with Track Changes enabled (any existing tracked changes are preserved and treated as regular content)
-
-
 >[!NOTE]
 >
 >The Layout view for DITA maps will not be supported with New Editor. 
-
 
 ## Old Editor
 
