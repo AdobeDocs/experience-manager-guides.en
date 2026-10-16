@@ -59,7 +59,7 @@ The Map console interface is primarily divided into two sections - **Navigation 
     >
     > If using the Adobe Experience Manager Guides as a Cloud Service, an additional feature [AI Assistant](./ai-assistant.md) is displayed in the navigation bar. 
 
-- (**B**) **Left panel**: The left panel gives you quick access to Output generation, Report creation and management, Baseline, Condition presets, Content translation, and Workfront (only if configured) features. 
+- (**B**) **Left panel**: The left panel gives you quick access to Output generation, Output history, Report creation and management, Baseline, Condition presets, Content translation, and Workfront (only if configured) features. 
 
     For more details, refer to the [Map console features](#map-console-features) section below.
 
@@ -72,6 +72,18 @@ The following features are available in the Left panel when you [open a DITA map
 With Map console, you can efficiently generate outputs in various formats, including AEM Sites, PDF, HTML5, EPUB, JSON, and custom output through DITA-OT, Native PDF publishing, and FMPS. You can generate output for an entire DITA map or you can selectively publish only a few topics that you have updated. You can also use the Baseline publishing feature to selectively publish a specific version of your DITA map or topic.
 
 For more details, view [Output generation](./generate-output.md).
+
+**Output history**
+
+>[!NOTE]
+>
+> The **Output history** feature in the Editor is available starting with the 2026.11.0 release of Experience Manager Guides as Cloud Service. This feature is disabled by default. To enable it, contact the Adobe Customer Success team.
+
+Allows you to view and manage output generation tasks for the selected DITA map directly from the Editor. You can monitor the status of ongoing and completed tasks, view output generation details, access publishing logs, and manage the output generation history.
+
+You can also search and filter output generation tasks based on preset type, task status, and date and time range, and download the output generation history in CSV format.
+
+For more details, view [Manage output generation process](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
 
 **Report creation and management**
 
