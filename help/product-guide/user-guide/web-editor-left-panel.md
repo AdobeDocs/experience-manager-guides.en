@@ -854,7 +854,7 @@ For example, you can create condition groups of products like *Acrobat* and *AEM
 >[!NOTE]
 >
 > - Either type in to create a new group or select an existing group for a particular attribute.
-> - Conditions appearing in the Conditions panel are sorted based on their Label rather than their Value. The order in which conditions appear is determined by their assigned labels, regardless of the corresponding values.
+> - Conditions in the Conditions panel are sorted alphabetically based on their Label rather than their Value. The sorting order is determined by the labels assigned to the conditions, regardless of their corresponding values. 
 
 You can use `/` and define sub-groups like `AEM Guides/Cloud Service`.
 
