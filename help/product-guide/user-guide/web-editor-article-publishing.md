@@ -69,12 +69,12 @@ Starting with the 2026.11.0 release of Experience Manager Guides as Cloud Servic
 >
 > The enhanced Salesforce publishing experience is disabled by default. To enable it, contact the Adobe Customer Success team.
 
-When you publish articles to Salesforce using the enhanced experience, the following additional capabilities are avaialable:
+When you publish articles to Salesforce using the enhanced experience, the following additional capabilities are available:
 
 - **Warning for unselected topics**: A warning indicator appears in the **Articles** tab of the Salesforce Knowledge Base output preset when no topics are selected for publishing. The warning disappears once you select one or more topics.
 
   ![](./images/articles-tab-salesforce-kb.png)
-- **Article-level publishing status**: After output generation, the publishing status of each article, such as Success or Failed, along with its topic or file name is displayed in the **Saleforce publishing results** dialog.
+- **Article-level publishing status**: After output generation, the publishing status of each article, such as Success or Failed, along with its topic or file name is displayed in the **Saleforce Publish Results** dialog.
 
   ![](./images/salesforce-publish-results-dialog.png)
 
@@ -93,7 +93,7 @@ When you publish articles to Salesforce using the enhanced experience, the follo
 
 ### Refresh token-based authentication
 
-The enhanced Salesforce publishing experience also supports refresh token-based authentication, reducing the need to repeatedly log in to Salesforce from AEM Guides when access tokens expire.
+The enhanced Salesforce publishing experience also supports refresh token-based authentication, reducing the need to repeatedly log in to Salesforce from Experience Manager Guides when access tokens expire.
 
 >[!NOTE]
 >
