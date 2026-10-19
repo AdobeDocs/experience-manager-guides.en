@@ -29,7 +29,7 @@ Editor settings allow you to customize various options, including Track Changes,
 >- This feature is enabled by default, to disable it contact the AEM Guides Customer Success team.
 >- When working with tables, the insertion of a row or column is tracked, but the deletion of a row or column is not tracked within the Track changes panel.
 
-Enable Track changes mode to record the edits made to a topic. Once it is enabled, every insertion and deletion is captured as you work, and all changes are listed in the Tracked changes panel. Inserting or deleting any content within a paragraph or list item is tracked along with its tags and is listed as a change to the whole element. Multiple changes to the content within the same tag are captured together and shown as a single entry in the panel.
+Enable **Track changes** mode to record the edits made to a topic. Once it is enabled, every insertion and deletion is captured as you work, and all changes are listed in the Tracked changes panel. Inserting or deleting any content within a paragraph or list item is tracked along with its tags and is listed as a change to the whole element. Multiple changes to the content within the same tag are captured together and shown as a single entry in the panel.
 
 Inserted content appears in green text, and change bars along the edge of the topic page show where edits occurred: green for additions and red for deletions. When a line contains both an addition and a deletion, both bars are displayed. The Tracked changes feature in Experience Manager Guides records the details of each update, including what changed, who changed it, and when.
 
@@ -45,13 +45,17 @@ Controls how deleted content is displayed in the Editor while Track changes is o
 
 **Accept or reject tracked changes**
 
-To review the changes, select the **Track changes** icon in the Right panel to open the Tracked changes panel.
-
-![Tracked changes panel](./images/track-changes-panel.png){width="650"}
+To review the changes, select the **Track changes** icon in the Right panel to open the Tracked changes panel and perform the following steps:
 
 1. Select a tracked change in the panel. The changed content is selected in the document.
 1. Accept the change by selecting the **Accept change** icon, or reject it by selecting the **Reject Change** icon.
-1. To accept or reject all changes with a single click, select **Accept all changes** or **Reject all changes** from the top of the panel.    
+
+    ![Tracked changes panel](./images/track-changes-individual.png){width="650"}
+
+1. To accept or reject all changes with a single click, select **Accept all changes** or **Reject all changes** from the top of the panel. 
+
+    ![Tracked changes panel](./images/track-changes-all-comment.png){width="650"}
+
 
 ### Non breaking spaces
 
