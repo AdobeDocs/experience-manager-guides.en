@@ -90,7 +90,7 @@ When you publish articles to Salesforce using the enhanced experience, the follo
   For more information about managing publishing tasks, view [Manage output generation process](./generate-output-manage-process.md).
 
   ![](./images/salesforce-publishing-output-history-panel.png)
-
+- **Optimized asset publishing:** When publishing topics to Salesforce, Experience Manager Guides checks whether the referenced assets, such as multimedia and other non-DITA files, have been modified since their last publication. Only modified assets are published again, while unchanged assets are skipped. This reduces redundant asset updates and improves publishing efficiency.
 ### Refresh token-based authentication
 
 The enhanced Salesforce publishing experience also supports refresh token-based authentication, reducing the need to repeatedly log in to Salesforce from Experience Manager Guides when access tokens expire.
