@@ -38,10 +38,13 @@ Perform the following steps to generate article-based ouput:
 
 1. [Create the Knowledge Base preset](./generate-output-knowledge-base.md) for article-based output.
 1. Navigate to the **Articles** tab and select the topics for which you wish to generate the output.
-1. Select **Generate output** at the top to generate the output.
 
     ![](images/add-preset-articles-tab_cs.png)
 
+    >[!NOTE]
+    >
+    > When publishing to Salesforce, a warning icon appears next to the **Articles** tab if no topics are selected for publishing. The warning icon disappears once you select one or more topics.
+1. Select **Generate output** at the top to generate the output.
 1. In the **Confirm files for publishing** prompt, select the files you want to publish and confirm by selecting **Publish**.
 
     ![New ](images/knowledge-base-confirm-files-for-publishing.png)
@@ -57,6 +60,48 @@ Perform the following steps to generate article-based ouput:
     >[!NOTE]
     >
     > You can also Rename, Duplicate, or Delete an existing output preset from the Options menu.
+
+## Enhanced Salesforce publishing using backend processing
+
+Starting with the 2026.11.0 release of Experience Manager Guides as Cloud Service, an enhanced Salesforce publishing experience is available. It uses backend processing to support larger publishing jobs, improve security, and address issues with the existing publishing process.
+
+>[!NOTE]
+>
+> The enhanced Salesforce publishing experience is disabled by default. To enable it, contact the Adobe Customer Success team.
+
+When you publish articles to Salesforce using the enhanced experience, the following additional capabilities are avaialable:
+
+- **Warning for unselected topics**: A warning indicator appears in the **Articles** tab of the Salesforce Knowledge Base output preset when no topics are selected for publishing. The warning disappears once you select one or more topics.
+
+  ![](./images/articles-tab-salesforce-kb.png)
+- **Article-level publishing status**: After output generation, the publishing status of each article, such as Success or Failed, along with its topic or file name is displayed in the **Saleforce publishing results** dialog.
+
+  ![](./images/salesforce-publish-results-dialog.png)
+
+- **Publishing logs**: Use the **View log** option in the Salesforce Knowledge base output preset to review publishing logs and troubleshoot errors or warnings.
+
+  ![](./images/salesforce-kb-view-log-option.png)
+
+  The logs also provide a summary of the publishing results.
+
+  ![](./images/download-log-sf.png)
+- **Output history**: View the output history of publishing tasks from the **Map console** or the **Assets UI**.
+
+  For more information about managing publishing tasks, view [Manage output generation process](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output-manage-process).
+
+  ![](./images/salesforce-publishing-output-history-panel.png)
+
+### Refresh token-based authentication
+
+The enhanced Salesforce publishing experience also supports refresh token-based authentication, reducing the need to repeatedly log in to Salesforce from AEM Guides when access tokens expire.
+
+>[!NOTE]
+>
+> Refresh token support is disabled by default. To enable it, contact the Adobe Customer Success team.
+
+To use this capability, ensure that **Perform requests at any time (refresh_token, offline_access)** is included in the selected OAuth scopes and **Require Proof Key for Code Exchange (PKCE) Extension for Supported Authorization Flows** is enabled in your Salesforce connected app.
+
+Enabling refresh token support in Experience Manager Guides automatically enables PKCE support. However, the corresponding setting must also be enabled in Salesforce for authentication to work successfully.
 
 
 **Parent topic:**[Work with the Editor](web-editor.md)

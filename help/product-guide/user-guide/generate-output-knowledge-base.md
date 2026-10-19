@@ -70,6 +70,17 @@ The following configuration options are available under the **General** tab:
 
 This tab displays the tree or hierarchical view of the map. Choose the topics you want to publish to a knowledge base. Expand a TOC node and choose the topics that you want to publish. 
 
+![](./images/articles-tab-kb.png)
+
+When publishing to Salesforce, a warning icon appears next to the **Articles** tab if no topics are selected for publishing. The warning icon disappears once you select one or more topics.
+
+>[!NOTE]
+>
+> This capability is introduced in the 2026.11.0 release of Adobe Experience Manager Guides as Cloud Service. The feature is disabled by default. To enable it, contact your Customer Success team. To learn more about the Salesforce publishing enhancements introduced in the 2026.11.0 release, view [Enhanced Salesforce publishing using backend processing](./generate-output.md).
+
+![](./images/articles-tab-salesforce-kb.png)
+
+
 ### Target - Adobe Experience Manager/ServiceNow/Salesforce
 
 The configuration options change based on the target that you select.
