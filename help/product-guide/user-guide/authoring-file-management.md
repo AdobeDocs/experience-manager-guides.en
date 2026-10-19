@@ -317,7 +317,7 @@ In this scenario, users won't be allowed to delete files until all incoming and 
 
 ## Work with media and other non-DITA files
 
-Non-DITA files, such as images, multimedia files, ZIP files, PDFs, and DOCX files, are an integral part of your content. While uploading and managing your content, you might also need to track changes to these files and manage their versions.
+Non-DITA files, such as images, multimedia files, ZIP files, PDFs, and DOCX files, are an integral part of your content. While uploading and managing your content, you might also need to refer to the previous versions of these files.
 
 Adobe Experience Manager Guides allows you to preview non-DITA files, view their version history, and manage version labels. You can use version labels to identify specific versions of files for content releases and baseline management.
 
