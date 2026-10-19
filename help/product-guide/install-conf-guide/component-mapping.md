@@ -162,9 +162,11 @@ Examples:
 
 ```
 
-Define the element and class to target, use `attributeMap` to set the node properties, add a `path-attributes` entry to normalize paths, and pick the right `from` for the values you want to extract. The `heroimage` used above is a component in a `we-retail` site.
+Define the element and class to target, use `attributeMap` to set the node properties, add a `path-attributes` entry to normalize paths, and pick the right `from` for the values you want to extract. The `heroimage` used above is a component in a `we-retail` site.  It is important to discuss the default rich text and identify the elements for which it is utilized.
 
-**Note**: It is important to discuss the default rich text and identify the elements for which it is utilized.
+>[!NOTE]
+>
+> For AEM Sites output with component mapping, the prolog metadata, such as author, keywords, and resource ID, is added to the head of the generated AEM Sites page instead of the page body. As a result, the metadata is available in the head of the published page, which supports use cases such as search indexing. 
 
 ## Build a custom component
 
