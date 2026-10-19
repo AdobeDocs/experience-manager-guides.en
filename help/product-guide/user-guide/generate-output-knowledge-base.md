@@ -76,7 +76,7 @@ When publishing to Salesforce, a warning icon appears next to the **Articles** t
 
 >[!NOTE]
 >
-> This capability is introduced in the 2026.11.0 release of Adobe Experience Manager Guides as Cloud Service. The feature is disabled by default. To enable it, contact your Customer Success team. To learn more about the Salesforce publishing enhancements introduced in the 2026.11.0 release, view [Enhanced Salesforce publishing using backend processing](./generate-output.md).
+> This capability is introduced in the 2026.11.0 release of Adobe Experience Manager Guides as Cloud Service. The feature is disabled by default. To enable it, contact your Customer Success team. To learn more about the Salesforce publishing enhancements introduced in the 2026.11.0 release, view [Enhanced Salesforce publishing using backend processing](./generate-output-for-a-dita-map.md#merging-different-topics-within-a-dita-map-using-the-chunk-attribute).
 
 ![](./images/articles-tab-salesforce-kb.png)
 

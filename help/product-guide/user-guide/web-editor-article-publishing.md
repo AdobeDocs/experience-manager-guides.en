@@ -87,7 +87,7 @@ When you publish articles to Salesforce using the enhanced experience, the follo
   ![](./images/download-log-sf.png)
 - **Output history**: View the output history of publishing tasks from the **Map console** or the **Assets UI**.
 
-  For more information about managing publishing tasks, view [Manage output generation process](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output-manage-process).
+  For more information about managing publishing tasks, view [Manage output generation process](./generate-output-manage-process.md).
 
   ![](./images/salesforce-publishing-output-history-panel.png)
 
