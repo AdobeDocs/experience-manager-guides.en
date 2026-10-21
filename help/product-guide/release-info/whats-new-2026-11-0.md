@@ -13,17 +13,15 @@ The Guides AI panel also supports fullscreen mode and an active conversations se
 
 ## Help Assistant as a separate panel
 
-*Source: GUIDES-55166*
-
-Adobe Experience Manager Guides now offers the generative AI-powered Smart Help in its own Help Assistant panel, opened from a dedicated button. Authoring and help previously shared one AI panel with separate tabs. With the split, you open the panel that fits the task: the AI Assistant panel for authoring, or the Help Assistant panel for product guidance.
+The generative AI-powered Smart Help is available through a new Help Assistant panel, that can be accessed from the Tab bar of Editor. With the dedicated Help Assistant panel, you get conversational search feature that helps you find relevant content from
 
 Administrators configure both panels in the workspace settings. In the **AI Assistant** section, they choose between the Guides AI panel and the standard AI authoring panel. A separate **AI help assistant** section includes a toggle that turns the Help Assistant panel on or off. Learn more in the Help Assistant documentation.
 
 ## Track changes panel in the new editor
 
-*Source: GUIDES-38126*
+The Track Changes panel is now available in the New Editor, providing a centralized view of all tracked edits and comments within a topic. You can review, accept, or reject changes directly from the panel, streamlining collaboration and content review.
 
-The new editor in Adobe Experience Manager Guides now includes a Track Changes panel that lists every tracked change in a topic. You can accept or reject changes from the panel, and comments are tracked along with content edits. Changes by the same author next to each other are merged, which keeps the panel readable. The panel requires the track changes feature flag. Learn more in the Track Changes documentation.
+You can also control how deleted content appears in the Editor using the **Show tracked deletions inline** setting that lets you display deleted content as strikethrough text or replace it with a pencil icon linked to the corresponding change. Learn more about [Track changes](../user-guide/config-editor-settings.md#track-changes).
 
 ## Explorer sorting in the Web Editor
 
