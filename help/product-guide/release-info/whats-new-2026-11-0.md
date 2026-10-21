@@ -1,127 +1,111 @@
-# What's new in Adobe Experience Manager Guides 2026.11.0
+---
+title: Release Notes | What's New in Adobe Experience Manager Guides 2026.11.0 release
+description: Learn about the new and enhanced features in the 2026.11.0 release of Adobe Experience Manager Guides
+role: Leader
+---
 
-## Create and Import skills in Guides AI
+# What's new in the 2026.11.0 release (November 2026)
 
-*Source: GUIDES-52400*
+## Introducing AI-powered content creation and import in AI Assistant
 
-Adobe Experience Manager Guides adds Create and Import skills to Guides AI chat, which help contributors who are not DITA experts work with repository content. The skills offer these capabilities:
+Now, you can use **AI Assistant** to create and import DITA content using natural-language prompts. Powered by **Adobe CX Enterprise Coworker**, the new **Create** and **Import** skills simplify structured content creation and help authors work with DITA content without requiring extensive DITA expertise.
 
-- Create generates DITA topics from a natural-language prompt, with an optional reference image and existing topics as style examples.
-- Import converts a PDF, DOCX, or Markdown file into DITA, with a review step before topics are created.
+- **Create:** Generate DITA topics and maps from natural-language prompts, reference documents, or existing content using repository templates. You can review the generated content before saving it.
+- **Import:** Convert existing PDF, DOCX, or Markdown files into structured DITA topics and maps. You can preview and review the converted content before saving it to the repository.
 
-The Guides AI panel also supports fullscreen mode and an active conversations section. Learn more in the Guides AI documentation.
+The **AI Assistant** panel also introduces a fullscreen mode and an **Active conversations** section for an enhanced conversational experience.
 
-## Help Assistant as a separate panel
+For more details, view [Use AI Assistant in Agentic mode](../user-guide/ai-assistant-agentic.md).
 
-The generative AI-powered Smart Help is available through a new Help Assistant panel, that can be accessed from the Tab bar of Editor. With the dedicated Help Assistant panel, you get conversational search feature that helps you find relevant content from
 
-Administrators configure both panels in the workspace settings. In the **AI Assistant** section, they choose between the Guides AI panel and the standard AI authoring panel. A separate **AI help assistant** section includes a toggle that turns the Help Assistant panel on or off. Learn more in the Help Assistant documentation.
+## Introducing the Assistant panel in the Editor
 
-## Track changes panel in the new editor
+The generative AI-powered **Smart Help** capability is now available through the dedicated **Help Assistant** panel, accessible from the Editor's tab bar. The panel provides a conversational search experience, allowing you to ask questions in natural language and quickly find relevant information from the AEM Guides documentation. This helps you access contextual guidance and resolve queries without leaving the Editor, streamlining your authoring workflow.
+
+Administrators can manage the availability of the Help Assistant panel through Workspace settings. The **AI Help Assistant** section includes a toggle to enable or disable the panel for users.
+
+For more information, see the [AI Help Assistant](../user-guide/ai-assistant.md) documentation.
+
+## Track changes panel in the New editor
 
 The Track Changes panel is now available in the New Editor, providing a centralized view of all tracked edits and comments within a topic. You can review, accept, or reject changes directly from the panel, streamlining collaboration and content review.
 
 You can also control how deleted content appears in the Editor using the **Show tracked deletions inline** setting that lets you display deleted content as strikethrough text or replace it with a pencil icon linked to the corresponding change. Learn more about [Track changes](../user-guide/config-editor-settings.md#track-changes).
 
-## Explorer sorting in the Web Editor
+## Sort files and folders in the Explorer panel
 
-*Source: GUIDES-41093*
+The **Explorer** panel in the Editor now lets you sort files and folders in ascending or descending order using the **Sort** button. By default, items are displayed in ascending order based on the **Editor files display** setting in **User preferences**. Depending on your configuration, files and folders are sorted by either title or file name. This enhancement makes it easier to navigate and locate topics and maps within the Editor.
 
-The Explorer panel in the Web Editor now sorts files and folders by the display preference in your user preferences, either title or file name. Items appear in ascending order by default, and a sort button in Explorer switches the order to descending. This helps you browse for topics and maps without leaving the editor. Learn more in the Explorer documentation.
+For more information, view [Explorer](../user-guide/paginated-loading-assets.md#explorer) section in Paginated loading of files and folders.
 
-## Version labels and history for non-DITA files
+## Manage versions and labels for non-DITA files from the Editor
 
-*Source: GUIDES-38274*
+Experience Manager Guides now lets you view version history and manage version labels for non-DITA files, such as images, multimedia files, ZIP files, PDFs, and DOCX files, directly from the Editor. You can preview these files, review their version history, compare versions, and revert to an earlier version without navigating to the Assets UI.
 
-Adobe Experience Manager Guides now lets you manage version labels and version history for images, multimedia, and other non-DITA files from the editor. When you open one of these files from the repository or Explorer, a toolbar offers these options:
+You can also assign or update version labels to identify specific file versions for content releases and baseline management, ensuring consistency between your content and associated assets.
 
-- Version label, which assigns or changes labels the same way as for DITA topics.
-- Version history, which compares versions, shows labels and comments, and reverts to an earlier version.
+For more information, view [Work with media and other non-DITA files](../user-guide/authoring-file-management.md#work-with-media-and-other-non-dita-files).
 
-Because baselines select versions by label, this helps you align image versions with content releases. Files such as ZIP, PDF, and DOCX open with a preview when a rendition is available. Learn more in the version label documentation.
+## Review initiators can add comments for reviewers
 
-## Review initiators can add comments
+Review initiators can now add inline comments and annotations to topics within a review task using the Review UI. This allows them to provide additional context, highlight specific content, and draw reviewers' attention to areas that require feedback.
 
-*Source: GUIDES-38670*
+These comments appear in the **Comments** panel alongside feedback from other reviewers, providing a consolidated view of the review discussions. Reviewers also receive an AEM notification when the initiator adds a comment, helping streamline collaboration and communication throughout the review process. For more information, view [Add comments for reviewers](../user-guide/review-send-topics-for-review.md#add-comments-for-reviewers).
 
-Authors who start a review in Adobe Experience Manager Guides can now add comments and annotations to topics before they send the review. Reviewers see these comments with the same experience as reviewer comments. Initiators can comment across all selected topics and view the conditions applied to them. The review dashboard shows the comment count and the author name under the Reviewers column. Initiators have the reviewer experience, except that **Mark As Done** and **Delegate** are hidden. Learn more in the review documentation.
+## View and manage output history from the Map Console
 
-## Output History tab in Map Console
+The Map console in Experience Manager Guides now includes an **Output history** tab, allowing you to view and manage output generation tasks directly from the Editor without navigating to the Map Dashboard.
 
-*Source: GUIDES-53702*
+The tab provides a consolidated view of output generation tasks, including their status, preset details, generation date, and duration. You can search and filter tasks, cancel ongoing generations, access generated outputs and logs, and remove completed entries from the history. You can also export the output history as a CSV file for further analysis.
 
-The Map Console in Adobe Experience Manager Guides now includes an Output History tab, so you can review output generation for your map without switching to the Map Dashboard. The tab lists each output with its status and supports these tasks:
+Output generation statuses use color indicators consistent with the Map dashboard. A yellow status indicates that generation completed with errors or warnings, helping you identify outputs that require attention without opening individual logs.
 
-- Search and filter outputs by status, preset type, or generation date
-- Cancel an in-progress generation
-- Open an output or view its log
-- Delete a finished entry
-- Export the history to a CSV file
+Fore details, view [Manage output generation process](../user-guide/generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
 
-Status updates appear when you refresh the view. Learn more in the Output History documentation.
 
-## Output status colors in Map Console
-
-*Source: GUIDES-15239 (can be merged into the Output History entry above)*
-
-Outputs in the Map Console now show a status color that matches the Map Dashboard, including a yellow status when generation finishes with errors. This tells you when to check the log for warnings, such as a missing image, without opening every log. Learn more in the Output History documentation.
-
-## Output History purge options
+## Enhanced output history purging options
 
 *Source: GUIDES-4365*
 
-Output History purge settings in Adobe Experience Manager Guides now include two options:
+Adobe Experience Manager Guides now offers two options for purging output history: **By age**, which removes entries older than a specified number of days, and **By count**, which keeps only the specified number of recent entries for each map and preset.
 
-- Keep only the most recent entries, based on a number you set
-- Purge only the log file and keep the history entry for audit
+You can also choose to purge only the output logs while preserving the history entries for audit purposes, or remove both the logs and their associated entries. These options help optimize repository storage while providing greater control over output history purging.
 
-Purging by age previously removed the entire entry, including its log. These options help you reduce repository size while keeping a record of past outputs. Learn more in the Output History documentation.
+For more information, view [Configure auto-purging period for output history](../install-conf-guide/conf-output-generation.md#configure-auto-purging-period-for-output-history-id19aai070v8q).
 
-## Generated and Published History in Map Collections
+## GitLab support for Edge Delivery Services publishing profiles
 
-*Source: GUIDES-49986*
+You can now publish DITA content to Edge Delivery Services sites whose code repository is hosted in GitLab, in addition to GitHub. When you create an Edge Delivery Services publishing profile, select GitLab as the server type and enter a project access token generated for the repository in the Access Token field.
 
-Map Collections in Adobe Experience Manager Guides now show the generation and publishing status of each map. When you generate many maps at once, you can check progress from the Map Collections view instead of opening the Outputs tab of every map. This helps you spot failed maps sooner. The new Map Collections experience is on by default in this release. Learn more in the Map Collections documentation.
+Publish presets also include a field for a subfolder, so you can publish content to a subfolder within the root folder specified in the profile.
 
-## GitLab support for Edge Delivery Services profiles
+For more details, view [Configure an Edge Delivery Services].
 
-*Source: GUIDES-45440*
+## Enhancements to Salesforce publishing
 
-Publishing profiles for Edge Delivery Services now support GitLab repositories in addition to GitHub. You select GitLab as the server type, enter your GitLab OAuth credentials, and publish DITA content to an Edge Delivery Services site hosted in GitLab. Teams that must keep their code in GitLab no longer need to migrate to GitHub to publish from Adobe Experience Manager Guides. Learn more in the Edge Delivery Services documentation.
+Adobe Experience Manager Guides introduces the following enhancements to improve security and publishing efficiency:
 
-## Salesforce profiles support Proof Key for Code Exchange
+- **Support for Proof Key for Code Exchange (PKCE)**: Salesforce publish profiles now support PKCE during validation, enabling secure connections with Salesforce organizations that require PKCE. You can enable this setting in the Salesforce connected app to strengthen authorization security. For details, view [Create a Salesforce profile](../install-conf-guide/workspace-settings.md#publish-profiles).
 
-*Source: GUIDES-55570*
+- **Optimized asset publishing**:  With the enhanced Salesforce publishing experience, Experience Manager Guides checks whether referenced assets, such as multimedia and other non-DITA files, have changed since their last publication. Only modified assets are republished, while unchanged assets are skipped, reducing redundant uploads and improving publishing efficiency. For more information, view [Enhanced Salesforce publishing using backend processing](../user-guide/web-editor-article-publishing.md#enhanced-salesforce-publishing-using-backend-processing).
 
-Salesforce publish profiles in Adobe Experience Manager Guides now support Proof Key for Code Exchange (PKCE) during validation. Salesforce connected apps that require PKCE previously returned a missing code challenge error when you selected **Validate**. You can now validate the profile and publish to these organizations without changing the Salesforce security policy. Learn more in the Salesforce publishing documentation.
 
-## Changed assets only in Salesforce publishing
+## Support for images from map metadata in Native PDF
 
-*Source: GUIDES-37850*
+Native PDF publishing now supports dynamically displaying images defined in the metadata of DITA maps, bookmaps, and custom maps. You can use a single PDF template across multiple maps while displaying map-specific images, such as product cover images, in the generated output.
 
-Salesforce publishing in Adobe Experience Manager Guides now uploads a referenced asset only when it has changed since the last publish. Unchanged images, PDFs, Excel files, and ZIP archives keep their existing Salesforce version, and a changed asset updates its existing Salesforce file instead of creating a duplicate. The **Upload images** and **Upload linked documents** options are on by default for new presets. When several topics reference the same changed asset, Salesforce can still create extra versions of it. Learn more in the Salesforce publishing documentation.
+By adding an image placeholder to the page layout, you can automatically populate it with the image referenced in the map metadata during publishing. This eliminates the need to maintain separate templates for different images and simplifies template management.
 
-## Categorized Salesforce publishing results
+For more information, view [Add an image from map metadata](../native-pdf/design-page-layout.md#add-an-image-from-map-metadata-add-image-map-metadata).
 
-*Source: GUIDES-33718*
 
-Salesforce publishing in Adobe Experience Manager Guides now returns a categorized result summary after each publish. Topics are grouped as follows:
 
-- Published
-- Excluded by conditions
-- Failed, with the Salesforce error and the affected field
 
-The summary also shows topic-level stages and a link to view the article in Salesforce. This helps authors find what failed without reading raw logs. Some errors, such as an archived article conflict, still show a generic message. Learn more in the Salesforce publishing documentation.
-
-## Images from map metadata in Native PDF
-
-*Source: GUIDES-23044*
-
-Native PDF output now resolves an image defined in a DITA map, bookmap, or custom map metadata. You can use one PDF template for several maps and still show a different cover image for each. This reduces the number of templates you maintain. Learn more in the Native PDF documentation.
+Check from here 
 
 ## Content Health checks for maps and baselines
 
-*Source: GUIDES-13317, GUIDES-24312*
+Source: GUIDES-13317, 24312
 
 Adobe Experience Manager Guides adds a Content Health check at the map level, so you can find content problems before they affect generated output. The check covers:
 
@@ -143,3 +127,33 @@ The Upsert API in Adobe Experience Manager Guides now creates or uploads an asse
 - A version label and comment, created with the asset
 
 This helps when you import content from external systems. Learn more in the Upsert API documentation.
+
+## Generated and Published History in Map Collections
+
+*Source: GUIDES-49986*
+
+Map Collections in Adobe Experience Manager Guides now show the generation and publishing status of each map. When you generate many maps at once, you can check progress from the Map Collections view instead of opening the Outputs tab of every map. This helps you spot failed maps sooner. The new Map Collections experience is on by default in this release. Learn more in the Map Collections documentation.
+
+## Categorized Salesforce publishing results
+
+*Source: GUIDES-33718*
+
+Salesforce publishing in Adobe Experience Manager Guides now returns a categorized result summary after each publish. Topics are grouped as follows:
+
+- Published
+- Excluded by conditions
+- Failed, with the Salesforce error and the affected field
+
+The summary also shows topic-level stages and a link to view the article in Salesforce. This helps authors find what failed without reading raw logs. Some errors, such as an archived article conflict, still show a generic message. Learn more in the Salesforce publishing documentation.
+
+## Processing instructions and tracked text in outline view
+
+*Source: GUIDES-48316*
+
+The outline view in the new editor now shows entries for processing instructions and tracked text, so you can see and navigate to them from the outline.
+
+For more details, view Use outline view in the new editor.
+
+## GUIDES-37103 [Management] Download a learning map
+
+## GUIDES-15239	[Experience Enhancement] Outputs in XML editor

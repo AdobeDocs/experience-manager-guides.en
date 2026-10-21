@@ -473,7 +473,7 @@ If you like to work directly with the CSS and HTML code, then you can also achie
 …
 ```
 
-### Add an image from map metadata {#add-image-map-metadata}
+### Add an image from map metadata
 
 If you use the same template to publish multiple maps, you can display a different image for each map instead of a static image from the template Resources. For example, if your products share one template and differ only in the cover image, you can add an image placeholder to the cover page layout. When you publish a map, the placeholder is replaced with the image defined in the metadata of that map. Publishing Map 1 shows the image defined in Map 1, and publishing Map 2 shows the image defined in Map 2. If an image can't be resolved, the placeholder text that you specify is displayed instead.
 
