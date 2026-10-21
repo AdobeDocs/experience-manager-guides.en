@@ -628,6 +628,7 @@ breadcrumb-title: AEM Guides Documentation
     - [New UX and AI Capabilities in AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
     - [Publishing in AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
     - [Content Review in AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
+    - [AEM Guides - MCP](./knowledge-base/expert-sessions/guides-mcp-oct2026.md)
   - Articles {#kb-articles}
     - [Overview](./knowledge-base/kb-articles/introduction.md)
     - Authoring {#authoring}
