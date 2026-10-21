@@ -166,7 +166,7 @@ Define the element and class to target, use `attributeMap` to set the node prope
 
 >[!NOTE]
 >
-> For AEM Sites output with component mapping, the prolog metadata, such as author, keywords, and resource ID, is added to the head of the generated AEM Sites page instead of the page body. As a result, the metadata is available in the head of the published page, which supports use cases such as search indexing. 
+> For AEM Sites output with component mapping, the prolog metadata, such as author, keywords, and resource ID, is added to the head of the generated AEM Sites page instead of the page body, which supports use cases such as search indexing. 
 
 ## Build a custom component
 

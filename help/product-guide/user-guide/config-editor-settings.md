@@ -29,11 +29,11 @@ Editor settings allow you to customize various options, including Track Changes,
 >- This feature is enabled by default, to disable it contact the AEM Guides Customer Success team.
 >- When working with tables, the insertion of a row or column is tracked, but the deletion of a row or column is not tracked within the Track changes panel.
 
-Enable **Track changes** mode to record the edits made to a topic. Once it is enabled, every insertion and deletion is captured as you work, and all changes are listed in the Tracked changes panel. Inserting or deleting any content within a paragraph or list item is tracked along with its tags and is listed as a change to the whole element. Multiple changes to the content within the same tag are captured together and shown as a single entry in the panel.
+Enable **Track changes** mode to record the edits made to a topic. Once it is enabled, every insertion and deletion is captured as you work, and all changes are listed in the **Track changes** panel. Multiple edits within the same paragraph or list item are grouped and shown with their tags as a single change in the panel.
 
-Inserted content appears in green text, and change bars along the edge of the topic page show where edits occurred: green for additions and red for deletions. When a line contains both an addition and a deletion, both bars are displayed. The Tracked changes feature in Experience Manager Guides records the details of each update, including what changed, who changed it, and when.
+Deleted content appears with strikethrough, while inserted content appears in green text. In addition, change bars appear along the edge of the topic page, with red bars indicating deleted content and green bars indicating added content. If a line contains both additions and deletions, both change bars are displayed.
 
-Track changes is especially useful for peer review. You enable it and share the document with a reviewer, who then edits with Track changes enabled. When the document comes back to you, you can go through the suggested updates and accept or reject each one.
+When multiple users work on the same topic, Track changes allows them to view each other's edits. Once the content is ready to be finalized, users can review the tracked changes and accept or reject them.
 
 ![Editor settings](./images/track-changes-all.png){width="350"}
 
