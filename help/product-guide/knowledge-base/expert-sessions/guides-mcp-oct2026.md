@@ -1,8 +1,8 @@
 ---
 title: AEM Guides - MCP 
 description: Learn about the newly released AEM Guides MCP Server and how it enables AI assistants such as Claude, Cursor, and other MCP-enabled clients to interact with AEM Guides using natural language while respecting existing AEM permissions
-feature: AI capability
-role: Beginner | Leader | User | Developer
+feature: AI Tools, Developer Tools
+role: Developer, Admin, Leader
 ---
 # MCP - Expanding access to governed technical content
 
