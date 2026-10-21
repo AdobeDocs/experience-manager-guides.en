@@ -39,9 +39,9 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 - In the Map console, after output is generated for one map, the **Generate** button is disabled when another map is opened. Refreshing the browser enables the button again. (GUIDES-54591)
 - Publishing certain maps to an AEM Site with component mapping fails with an error while the table of contents is being created. (GUIDES-53807)
 - Publishing a map to an AEM Site with component mapping fails when the map contains a `topicref` element with a `navtitle` attribute and no `href` attribute. Subsequent attempts also fail, even after the element is removed, until the generated site nodes are deleted. (GUIDES-53707)
-- In the AEM Sites output with component mapping, Markdown headings of levels 2 to 6 are rendered as level 1 headings. (GUIDES-51134)
-- For AEM Sites output with component mapping, the prolog metadata, such as author, keywords, and resource ID, appears in the page body of the published output. (GUIDES-44087). 
-- Native PDF and AEM Sites outputs with component mapping do not resolve keys that are referenced by using key scopes. (GUIDES-42260)
+- In the AEM Site output with component mapping, Markdown headings of levels 2 to 6 are rendered as level 1 headings. (GUIDES-51134)
+- For AEM Site output with component mapping, the prolog metadata, such as author, keywords, and resource ID, appears in the page body of the published output. (GUIDES-44087)
+- Native PDF and AEM Site outputs with component mapping do not resolve keys that are referenced by using key scopes. (GUIDES-42260)
 - When a topic is published to ServiceNow, the article body includes the short description and prolog of the topic. (GUIDES-47868)
 - When a topic that is already published in ServiceNow is published again, a new article is created in the Draft state instead of the existing article being overwritten. (GUIDES-37872)
 - When condition presets exclude topic references during publishing to Salesforce, the output generation is reported as failed, even though the remaining topics are published successfully. (GUIDES-37807)
@@ -50,17 +50,11 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 - In the Map Dashboard (Old), **Add all** in an existing condition preset does not pick up condition values that were added or changed after the preset was created. (GUIDES-45940)
 - Logs in the **Output history** page containing warnings are shown with a green icon, which does not indicate that warnings are present. (GUIDES-27000)
 - In Output templates, the **New Style** (+) button is not displayed in the Styles panel when a stylesheet, such as layout.css, is opened. (GUIDES-49448)
-
-### Publishing with the Native PDF engine v1
-
 - The glossary is not included in the output when no term in the map content refers to a glossary entry. (GUIDES-52964)
 - Topics from a submap that is referenced in an appendix are rendered as chapters instead of appendix content. (GUIDES-52775)
 - Some Simplified Chinese characters are rendered with a Japanese font when the output language is set to Chinese (Simplified). (GUIDES-48094)
 - Index entries lose the text of child elements, such as `keyword`, `ph`, and `sup`. As a result, some index labels are incomplete or empty. (GUIDES-40902)
 - Spaces around the inline `option` elements are not retained, leading to the adjacent text appearing joined together. (GUIDES-40900)
-
-> [!NOTE]
-> The aforementioned issues have been resolved with the Native PDF engine v2. For details, view Work with Native PDF engine v2.
 
 ## Translation
 
