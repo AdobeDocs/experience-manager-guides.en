@@ -29,7 +29,7 @@ Authors can:
 
 Learn more [Branching and merging] article.
 
-    [](./assets/branching.png){width="650"}
+![](./assets/branching.png){width="650"}
 
 
 ## Introducing AI-powered content creation and import in AI Assistant
