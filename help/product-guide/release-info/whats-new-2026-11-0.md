@@ -27,7 +27,7 @@ Authors can:
 - **Merge changes** into the main version or a parent branch.
 - **Publish directly from a branch** using standard publishing or hotfix publishing without modifying the main version.
 
-Learn more [Branching and merging] article.
+Learn more about the [Branching and merging] article.
 
 ![](./assets/branching.png){width="650"}
 
@@ -74,7 +74,7 @@ For more information, view [Explorer](../user-guide/paginated-loading-assets.md#
 
 ### Manage versions and labels for non-DITA files from the Editor
 
-Experience Manager Guides now lets you view version history and manage version labels for non-DITA files, such as images, multimedia files, ZIP files, PDFs, and DOCX files, directly from the Editor. You can preview these files, review their version history, compare versions, and revert to an earlier version without navigating to the Assets UI.
+Experience Manager Guides now lets you view version history and manage version labels for non-DITA files, such as images, multimedia, ZIP, PDF, and DOCX files, directly from the Editor. You can preview these files, review their version history, compare versions, and revert to an earlier version without navigating to the Assets UI.
 
 You can also assign or update version labels to identify specific file versions for content releases and baseline management, ensuring consistency between your content and associated assets.
 
@@ -102,14 +102,14 @@ The tab provides a consolidated view of output generation tasks, including their
 
 Output generation statuses use color indicators consistent with the Map dashboard. A yellow status indicates that generation completed with errors or warnings, helping you identify outputs that require attention without opening individual logs.
 
-Fore details, view [Manage output generation process](../user-guide/generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
+For details, view [Manage output generation process](../user-guide/generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
 
 ![Editor settings](./assets/output-history-editor-view.png){width="650"}
 
 
 ## Enhanced output history purging options
 
-You have two options for purging output history: **By age**, which removes entries older than a specified number of days, and **By count**, which keeps only the specified number of recent entries for each map and preset.
+You can purge output history **By age** (removing entries older than a specified number of days) or **By count** (keeping only a specified number of recent entries).
 
 You can also choose to purge only the output logs while preserving the history entries for audit purposes, or remove both the logs and their associated entries. These options help optimize repository storage while providing greater control over output history purging.
 
