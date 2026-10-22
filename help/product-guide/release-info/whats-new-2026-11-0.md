@@ -46,7 +46,7 @@ For more details, view [Use AI Assistant in Agentic mode](../user-guide/ai-assis
 ![](./assets/ai-assistant-2611.png){width="650"}
 
 
-## New Help Assistant panel in Experience Manager Guides
+## New Help assistant panel in Experience Manager Guides
 
 The generative AI-powered **Smart Help** capability is now available through the dedicated **Help Assistant** panel, accessible from the Editor's tab bar. The panel provides a conversational search experience, allowing you to ask questions in natural language and quickly find relevant information from the AEM Guides documentation. This helps you access contextual guidance and resolve queries without leaving the Editor, streamlining your authoring workflow.
 
