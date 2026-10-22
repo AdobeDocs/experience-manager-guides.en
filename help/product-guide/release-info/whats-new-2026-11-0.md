@@ -29,7 +29,7 @@ Authors can:
 
 Learn more [Branching and merging] article.
 
-[](./assets/branching.png){width="650"}
+    [](./assets/branching.png){width="650"}
 
 
 ## Introducing AI-powered content creation and import in AI Assistant
@@ -43,7 +43,7 @@ The **AI Assistant** panel also introduces a fullscreen mode and an **Active con
 
 For more details, view [Use AI Assistant in Agentic mode](../user-guide/ai-assistant-agentic.md).
 
-[](./assets/ai-assistant-2611.png){width="650"}
+![](./assets/ai-assistant-2611.png){width="650"}
 
 
 ## New Help Assistant panel in Experience Manager Guides
@@ -54,7 +54,7 @@ Administrators can manage the availability of the Help Assistant panel through W
 
 For more information, see the [AI Help Assistant](../user-guide/ai-assistant.md) documentation.
 
-[](./assets/help-assistant.png){width="650"}
+![](./assets/help-assistant.png){width="650"}
 
 ## Authoring enhancements
 
