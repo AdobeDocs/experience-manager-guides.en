@@ -6,9 +6,9 @@ description: Learn about the compatibility matrix and how to upgrade to the 2026
 
 This article covers the upgrade instructions and the compatibility matrix for the 2026.11.0 release of Adobe Experience Manager Guides as a Cloud Service.
 
-For more information about the new features and enhancements, view [What's new in the 2026.11.0 release](whats-new-2026-09-0.md).
+For more information about the new features and enhancements, view [What's new in the 2026.11.0 release](whats-new-2026-11-0.md).
 
-For the list of issues fixed in this release, view [Fixed issues in the 2026.11.0 release](fixed-issues-2026-09-0.md).
+For the list of issues fixed in this release, view [Fixed issues in the 2026.11.0 release](fixed-issues-2026-11-0.md).
 
 ## Compatibility matrix
 
@@ -42,13 +42,13 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 
 |Components version | Site version|
 |---|---|
-|guides-components.all-1.5.1| aemg-sites-template-1.3.0|
+|guides-components.all-1.6.0| aemg-sites-template-1.4.0|
 
 ### Knowledge base template version
 
 |Components package name| Components version | Template version|
 |---|---|---|
-|Experience Manager Guides Components Content Package for Cloud Service|guides-components.all-1.4.0| aem-site-template-dxml-1.0.17|
+|Experience Manager Guides Components Content Package for Cloud Service|guides-components.all-1.6.0| aem-site-template-dxml-1.0.17|
 
 ## Upgrade to 2026.11.0 release
 
