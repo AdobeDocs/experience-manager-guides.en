@@ -1,6 +1,6 @@
 ---
 title: Release Notes | What's New in Adobe Experience Manager Guides 2026.11.0 release
-description: Learn about the new and enhanced features in the 2026.11.0 release of Adobe Experience Manager Guides
+description: Explore new features in the 2026.11.0 release of Adobe Experience Manager Guides, including map-level branching and AI Assistant content creation.
 role: Leader
 ---
 
@@ -12,7 +12,7 @@ For the list of issues fixed in this release, view [Fixed issues in the 2026.11.
 
 Learn about [upgrade instructions for the 2026.11.0 release](../release-info/upgrade-instructions-2026-11-0.md).
 
-### Introducing map-level branching and merging
+## Introducing map-level branching and merging
 
 Adobe Experience Manager Guides introduces map-level branching and merging capability, enabling authors to work on multiple documentation versions, feature updates, and hotfixes in parallel without affecting the main content. Authors can create isolated branches of a DITA map and its dependencies, ensuring that edits, locks, and previews remain specific to each branch.
 
@@ -32,7 +32,7 @@ Learn more about the [Branching and merging] article.
 ![](./assets/branching.png){width="650"}
 
 
-## Introducing AI-powered content creation and import in AI Assistant
+## AI-powered content creation and import skills in AI Assistant
 
 Now, you can use **AI Assistant** to create and import DITA content using natural-language prompts. Powered by **Adobe CX Enterprise Coworker**, the new **Create** and **Import** skills simplify structured content creation and help authors work with DITA content without requiring extensive DITA expertise.
 
@@ -48,9 +48,9 @@ For more details, view [Use AI Assistant in Agentic mode](../user-guide/ai-assis
 
 ## New Help assistant panel in Experience Manager Guides
 
-The generative AI-powered **Smart Help** capability is now available through the dedicated **Help Assistant** panel, accessible from the Editor's tab bar. The panel provides a conversational search experience, allowing you to ask questions in natural language and quickly find relevant information from the AEM Guides documentation. This helps you access contextual guidance and resolve queries without leaving the Editor, streamlining your authoring workflow.
+The generative AI-powered **Smart Help** capability is now available through the dedicated **Help assistant** panel, accessible from the Editor's tab bar. The panel provides a conversational search experience, allowing you to ask questions in natural language and quickly find relevant information from the Experience Manager Guides documentation. This helps you access contextual guidance and resolve queries without leaving the Editor, streamlining your authoring workflow.
 
-Administrators can manage the availability of the Help Assistant panel through Workspace settings. The **AI Help Assistant** section includes a toggle to enable or disable the panel for users.
+Administrators can manage the availability of the Help assistant panel through Workspace settings. The **AI Help assistant** section includes a toggle to enable or disable the panel for users.
 
 For more information, see the [AI Help Assistant](../user-guide/ai-assistant.md) documentation.
 
@@ -107,7 +107,7 @@ For details, view [Manage output generation process](../user-guide/generate-outp
 ![Editor settings](./assets/output-history-editor-view.png){width="650"}
 
 
-## Enhanced output history purging options
+### Enhanced output history purging options
 
 You can purge output history **By age** (removing entries older than a specified number of days) or **By count** (keeping only a specified number of recent entries).
 
@@ -115,7 +115,7 @@ You can also choose to purge only the output logs while preserving the history e
 
 For more information, view [Configure auto-purging period for output history](../install-conf-guide/conf-output-generation.md#configure-auto-purging-period-for-output-history-id19aai070v8q).
 
-## GitLab support for Edge Delivery Services publishing profiles
+### GitLab support for Edge Delivery Services publishing profiles
 
 Edge Delivery Services publishing supports GitLab-hosted repositories alongside GitHub, providing greater flexibility in managing and publishing DITA content. To publish to a GitLab-hosted site, select GitLab as the server type when creating an Edge Delivery Services publishing profile and provide the repository's project access token in the Access Token field.
 
@@ -130,7 +130,7 @@ Adobe Experience Manager Guides enhances Salesforce publishing with improved sec
 For more information, view [Enhanced Salesforce publishing using backend processing](../user-guide/web-editor-article-publishing.md#enhanced-salesforce-publishing-using-backend-processing).
 
 
-## Support for images from map metadata in Native PDF
+### Support for images from map metadata in Native PDF
 
 Native PDF publishing now supports dynamically displaying images defined in the metadata of DITA maps, bookmaps, and custom maps. You can use a single PDF template across multiple maps while displaying map-specific images, such as product cover images, in the generated output.
 
@@ -138,7 +138,7 @@ By adding an image placeholder to the page layout, you can automatically populat
 
 For more information, view [Add an image from map metadata](../native-pdf/design-page-layout.md#add-an-image-from-map-metadata-add-image-map-metadata).
 
-## Validate content quality with content health check in Old Editor
+### Validate content quality with content health check in Old Editor
 
 Content health check is now available in the Old Editor as well, helping validate content quality across DITA maps before publishing. Administrators can create reusable health check presets by combining checks for broken links, duplicate IDs, and Schematron validation.
 
