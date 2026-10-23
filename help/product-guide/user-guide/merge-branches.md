@@ -91,9 +91,7 @@ The differences are highlighted in the left and right panes based on the content
 
 Initially, the **Merged** pane contains the same content as `main`, so differences are highlighted in the right pane. As you accept changes into the **Merged** pane, differences may also appear in the left pane.
 
-To resolve merge conflicts, perform the following steps:
-
-To resolve merge conflicts, perform the following steps:
+Perform the following steps to resolve merge conflicts, :
 
 1. In the **Conflicts** section, select the file containing conflicts.
 
@@ -109,9 +107,9 @@ To resolve merge conflicts, perform the following steps:
 
    - Similarly, you can use the `>>>` control in the left pane (`main`) to retain the content from `main` in the **Merged** pane.
 
-   >[!TIP]
-   >
-   > Hover over an arrow to see how accepting the selected change will affect the **Merged** pane.
+    >[!TIP]
+    >
+    > Hover over an arrow to see how accepting the selected change will affect the **Merged** pane.
 
 3. After reviewing the merged content, you can also use one of the following options to accept the entire content from either branch:
 

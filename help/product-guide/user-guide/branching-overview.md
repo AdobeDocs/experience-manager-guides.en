@@ -24,7 +24,7 @@ topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
 ---
-# Branching in Experience Manager Guides 
+# Overview
 
 >[!NOTE]
 >
@@ -33,8 +33,6 @@ topic_v2:
 Branching in Adobe Experience Manager Guides allows you to create and manage multiple branches of a DITA map to work on different documentation releases in parallel. Each branch allows authors to manage content changes independently, without affecting the corresponding content in other branches.
 
 With branching, multiple teams can work simultaneously on different releases, features, or fixes associated with the same DITA map. You can merge changes from a branch into its parent or main branch when the updates are ready.
-
-## How branching works
 
 ## How branching works
 
@@ -49,15 +47,11 @@ Both teams can work independently on their respective map branches without affec
 
 >[!NOTE]
 >
-> Branching in Experience Manager Guides starts with a DITA map, but you can also add and edit topics that are not referenced by the map within the selected branch. For more information, view [Open topics outside the current map]().
+> Branching in Experience Manager Guides starts with a DITA map, but you can also add and edit topics that are not referenced by the map within the selected branch. For more information, view [Open or edit topics outside the current map](./create-manage-branch.md#open-or-edit-topics-outside-the-current-map).
 
 When you create a branch, the topics referenced by the DITA map do not automatically become part of the new branch. Only the topics you edit become part of the selected branch, while unchanged topics continue to be used from the default branch (`main`).
 
 For example, if a DITA map contains 100 topics and you edit only 10 topics in a new branch, only those 10 topics become part of the new branch. The remaining 90 topics continue to be used from `main`. This avoids unnecessary duplication of content across branches.
-
-
-
-
 
 ## Key benefits
 
@@ -68,7 +62,7 @@ Working with a branch in Experience Manager Guides provides the following benefi
 - **Independent publishing:** Publish documentation from individual map branches without waiting for changes in other branches to be completed.
 - **Controlled merging:** Merge changes from a map branch into its parent or main branch, with the ability to review and resolve conflicts.
 
-## Branching vs. baselines
+## Branching vs. Baselines
 
 >[!NOTE]
 >
@@ -85,12 +79,6 @@ A **branch** allows authors to develop and manage content changes independently 
 | Select specific versions of topics in a DITA map. | Create separate branches of a DITA map to manage changes independently. |
 | Used to publish specific combinations of topic versions. | Used to develop and publish different releases in parallel. |
 | Do not provide isolated editing contexts. | Support isolated editing and merging. |
-
-## Branching and Git
-
-Branching in Experience Manager Guides follows concepts similar to Git branching, such as creating separate branches, working on changes independently, and merging completed changes.
-
-However, unlike Git, which supports repository-level branching, **Experience Manager Guides branching operates at the DITA map level**. Authors can create and manage map branches from the Map console without using Git commands.
 
 ## Limitations
 

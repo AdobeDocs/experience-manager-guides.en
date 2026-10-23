@@ -33,7 +33,7 @@ You can also create a branch from any existing branch of the same DITA map.
 
 ## Create a branch
 
-You can create a branch of a DITA map (for example publish-settings-ditamap is the map that you want to work upon in a separate branch) to work on documentation changes without affecting the corresponding content in other branches.
+You can create a branch of a DITA map to work on documentation changes without affecting the corresponding content in other branches.
 
 Perform the following steps to create a branch:
 
@@ -57,7 +57,7 @@ Perform the following steps to create a branch:
 
 A new branch is created for the selected DITA map. You can now switch to the new branch and begin working on its associated content.
 
-### Switch between the branches
+## Switch between the branches
 
 Perform the following steps to switch branches:
 
@@ -96,7 +96,7 @@ Perform the following steps to edit a topic:
 
 You can continue editing the topic in the selected branch or switch to another branch to work on its content.
 
-## Open content outside the current map context
+### Open content outside the current map context
 
 In Experience Manager Guides, **map context** refers to the DITA map currently selected in the **main** branch. It determines which map and its associated content you are working with in the Editor.
 
