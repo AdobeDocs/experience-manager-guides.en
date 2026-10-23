@@ -67,7 +67,7 @@ To merge a branch, perform the following steps:
 
 A merge conflict occurs when the same content has been modified in both `main` and the branch being merged. You must resolve all conflicts before merging the changes into `main`.
 
-When you open a merge request, the **Merge branch** view displays the following sections:
+When you open a merge request, the following sections are displayed in the **Merge branch** view:
 
 ![](./images/merge-branch-view.png)
 
@@ -93,42 +93,46 @@ Initially, the **Merged** pane contains the same content as `main`, so differenc
 
 To resolve merge conflicts, perform the following steps:
 
+To resolve merge conflicts, perform the following steps:
+
 1. In the **Conflicts** section, select the file containing conflicts.
 
-2. Review the highlighted differences in the three-way merge view.
+2. Review the differences highlighted in the three-way merge view and resolve the conflicts using the merge controls:
 
-3. To resolve individual changes, use the merge controls:
+   - If you want to use the changes from the selected branch, ensure that the checkbox for the conflict in the right pane is selected, and then select the corresponding `<<<` control. The selected branch content replaces the conflicting content in the **Merged** pane.
 
-   - **Replace:** Keep the checkbox selected and select the corresponding arrow to replace the existing content in the **Merged** pane with the selected change.
-   - **Keep both:** Clear the checkbox and select the arrow to add the selected content to the **Merged** pane without removing the existing content.
-   - To retain content from `main`, select the corresponding arrow in the left pane.
+     ![](./images/replace-content-accept.png)
 
-   The checkbox applies only to the selected change, not the entire file. It appears for applicable changes in the right pane and is selected by default.
+   - If you want to keep content from both branches, clear the checkbox for the conflict and then select the `<<<` control to add the selected branch content to the **Merged** pane without replacing the existing content.
+
+     ![](./images/keep-both-versions.png)
+
+   - Similarly, you can use the `>>>` control in the left pane (`main`) to retain the content from `main` in the **Merged** pane.
 
    >[!TIP]
    >
    > Hover over an arrow to see how accepting the selected change will affect the **Merged** pane.
 
-4. Alternatively, to accept all content from either branch, select one of the following options:
+3. After reviewing the merged content, you can also use one of the following options to accept the entire content from either branch:
 
    - **Accept main:** Replaces the content in the **Merged** pane with the version from `main`.
    - **Accept [branch name]:** Replaces the content in the **Merged** pane with the version from the selected branch.
 
-5. Review the content in the **Merged** pane and select **Mark resolved**.
+4. Review the final content in the **Merged** pane and select **Mark resolved** to mark the file as resolved.
 
-   The file is marked as resolved.
-
-6. Repeat the steps for all files listed under **Conflicts**.
+5. Repeat the steps for all files listed under **Conflicts**.
 
    Once all conflicts are resolved, the **Merge all** option becomes available.
 
-7. Select **Merge all** to complete the merge.
+6. Select **Merge all** to complete the merge.
+
+    >[!NOTE]
+    > 
+    > The **Merge all** option remains disabled until all conflicts are resolved.
 
    The resolved changes are merged into `main`.
 
->[!NOTE]
->
-> The **Merge all** option remains disabled until all conflicts are resolved.
+
 
 ## Manage a merge request
 

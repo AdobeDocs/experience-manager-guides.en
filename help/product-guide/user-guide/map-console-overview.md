@@ -93,6 +93,10 @@ For more details, view [Reports in Experience Manager Guides](./reports-intro.md
 
 **Baseline**
 
+>[!NOTE]
+>
+> Depending on your environment's configuration, either the **Baseline** tab or the **Branches** tab is displayed in the Map console. The **Branches** tab is available when the [branching feature](./branching-overview.md), introduced in the 2026.11.0 release of Experience Manager Guides, is enabled. For more information, view [Create and manage branches of a DITA map](./create-manage-branch.md#manage-branches).
+
 Experience Manager Guides provides the Baseline feature that allows you to create a version of your topics and assets that can then be used for publishing or translation. You can also publish multiple output presets of the same DITA map in parallel. 
 
 Learn how to [create and manage Baselines in Experience Manager Guides](./web-editor-baseline.md).
