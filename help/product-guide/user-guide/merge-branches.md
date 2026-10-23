@@ -24,7 +24,7 @@ topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
 ---
-# Merge branches of a DITA map into main
+# Merge a branch into main
 
 In Experience Manager Guides, you can merge changes from a branch of a DITA map into the `main` branch. Merging allows you to incorporate completed documentation updates into `main` without manually updating the corresponding content.
 

@@ -41,7 +41,7 @@ Perform the following steps to create a branch:
 
    >[!NOTE]
    >
-   > If another map is already set in the `main` branch, a confirmation dialog appears. Select **Open** to open the selected map in the current branch. For more information, see [Open content outside the current map context](#open-content-outside-the-current-map-context).
+   > If another map is already set in the `main` branch, a confirmation dialog appears. Select **Open** to open the selected map in the current branch. For more information, view [Open content outside the current map context](#open-content-outside-the-current-map-context).
 
 1. Select the **main** branch dropdown and verify that the required DITA map is selected.
 
@@ -145,6 +145,7 @@ To manage a branch, hover over the required branch and select the **Options** me
 - **New branch:** Create a new branch from the selected branch.
 - **Merge into main:** Merge changes from the selected branch into the `main` branch.
 - **Rename branch:** Change the name of the selected branch.
+- **Merge history:** Displays a history of merge activities. This option is available only after a merge request has been created.
 - **Archive branch:** Archive a branch that is no longer actively used.
 
 You can also use the options at the top of the **Branches** panel to search for a branch, refresh the branch list, or create a new branch.
