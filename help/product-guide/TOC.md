@@ -289,6 +289,10 @@ breadcrumb-title: AEM Guides Documentation
   - Map management and publishing {#map-management-publishing}  
     - [Map console overview](./user-guide/map-console-overview.md)
     - [Open files in Map console](./user-guide/open-files-map-console.md)
+    - Branching and merging {#work-with-branching}
+        - [Overview](./user-guide/branching-overview.md)
+        - [Create and manage branches](./user-guide/create-manage-branch.md)
+        - [Merge branches](./user-guide/merge-branches.md)
     - Reports {#reports-aem-guide}
       - [Introduction to Reports](./user-guide/reports-intro.md)
       - [DITA map report from the Map console](./user-guide/reports-web-editor.md)
@@ -326,7 +330,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Create and manage Baselines from Map console](./user-guide/web-editor-baseline.md)
         - [Create and manage Baselines from the Map dashboard](./user-guide/generate-output-use-baseline-for-publishing.md)
         - [Create and manage New Baselines from Map console](./user-guide/web-editor-baseline-v2.md)
-        - [New Baseline migration FAQ](./user-guide/new-baseline-migration-faq.md)
+        - [New Baseline migration FAQ](./user-guide/new-baseline-migration-faq.md)      
       - [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
       - [Use variables for setting the Destination Path, Site Name, or File Name options](./user-guide/generate-output-use-variables.md)
       - [Pass on the metadata to the output using DITA-OT](./user-guide/pass-metadata-dita-ot.md)
