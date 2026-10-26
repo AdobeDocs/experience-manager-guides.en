@@ -120,15 +120,5 @@ To create topics from pasted content:
 
    AI Assistant drafts the topic and opens a preview.-->
 
-## Example create prompts
 
-These prompts show how you can phrase a create request in the prompt box.
-
-| Prompt | What it does |
-|---|---|
-| `Create draft content referring to attached file(s) and having tone of content similar to [file]` | Drafts content from your attachments in the tone of the topic you choose |
-| `Create a task topic from these notes in /content/dam/guides/new.` | Drafts one topic in the folder you name |
-| `Turn this spec into DITA with one concept, two tasks, and a map.` | Drafts several topics and a map in one preview |
-| `Save this summary as a new topic.` | Turns an earlier answer into a topic |
-| `Make a map from these four existing topics.` | Proposes a grouping, then creates the map |
 

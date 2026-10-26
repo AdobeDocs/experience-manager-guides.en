@@ -3,18 +3,16 @@ title: Import documents as topics with AI Assistant
 description: Learn how to convert PDF, Word, and Markdown files into DITA topics and a map with AI Assistant, and review the result before you save it.
 ---
 
-# Import documents with AI Assistant
+# Import content with AI Assistant
 
 Moving existing content into Adobe Experience Manager Guides often means rebuilding every heading, list, and table as topic files by hand. In AI Assistant in Agentic mode, the **Import** feature converts a PDF, Word, or Markdown file into DITA topics and a corresponding map for you. You choose how the file is split into topics and where the topics are saved. 
 
 This article covers the import workflow. To learn about the panel, attachments, and conversation history, view [Get started with AI Assistant in Agentic mode](#).
 
 
-## Import a file as topics and a map
+## Import a file
 
-Importing converts a PDF, Word, or Markdown file into topics and a map. You decide which heading level starts a new topic, so the topics match how you want to structure the content.
-
-To import a file:
+Importing a PDF, Word, or Markdown file converts its content into topics organized within a map. You can specify which heading level defines the start of a new topic, giving you control over how the imported content is structured. To import a file, follow these steps:
 
 1. On the Home page, select **AI Assistant** from the Navigation bar.
 
@@ -87,22 +85,10 @@ To import pasted content:
 
    AI Assistant asks for the heading level and the save folder, as it does for an attached file.
 
->[!NOTE]
->
->Only formatted pastes keep their structure and can be imported. To turn plain text into new topics, view [Create topics and maps with AI Assistant](#).
+   >[!NOTE]
+   >
+   >Only formatted pastes keep their structure and can be imported. To turn plain text into new topics, view [Create topics and maps with AI Assistant](#).
 
 
-## Example import prompts
-
-These prompts show how you can phrase an import request in the prompt box.
-
-| Prompt | What it does |
-|---|---|
-| `Import this PDF to DITA.` | Converts the attached PDF file |
-| `Convert this docx to DITA topics.` | Converts the attached Word file |
-| `Convert this markdown into DITA topics.` | Converts the attached Markdown file |
-| `Turn the pasted content into DITA topics and a map.` | Converts the content you pasted |
-
-*Caption: The same import flow applies to every file type, so you only change the file named in the prompt.*
 
 
