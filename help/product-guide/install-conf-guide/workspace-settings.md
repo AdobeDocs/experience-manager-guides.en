@@ -66,6 +66,8 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
     ![](assets/authoring-quick-actions-standard.png){width="350"}  
 
+- **AI Help Assisatnt**: Enable this feature to access the Help Assistant panel from the Homepage, Editor, and Map Console interfaces. Help Assistant allows you to ask questions about Experience Manager Guides features, workflows, and troubleshooting, and provides relevant answers based on the product documentation. For deatils, view [Smart Help](../user-guide/ai-based-smart-help.md).
+
 - **Authoring**
 
     - **Enable Replace All**: Select this to view the **Replace All** icon in the **Find and replace** panel.
