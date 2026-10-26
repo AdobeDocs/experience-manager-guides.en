@@ -21,7 +21,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
 ---
-# Enhance efficiency with smart help in Help Assistant
+# Enhance efficiency with Help assistant
 
 Experience Manager Guides provides the GenAI-based smart Help, a conversational search feature that helps you find relevant content from [Adobe Experience Manager Guides documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
@@ -29,19 +29,15 @@ You can ask your questions and get answers in an informative way. The answer to 
 
 For example, you may want to ask questions like *How do I publish a map?* You get a response and the links for the related articles. Then, if you want to learn how to use a specific method to publish the output, you can ask questions about it. For example, *How do I publish a map to PDF?* 
 
-When you open **Help Assistant** on the Homepage, Map console, or Editor, the **Help** panel opens on the right.
-
-![Smart Help panel](images/smart-help-panel-new.png){width="300"}
-
-*View the **Help** panel.*
-
-Perform the following steps to use the Help panel to find appropriate content and resolve your queries:
+Perform the following steps to use the **Help assistant** panel to find appropriate content and resolve your queries:
 
 1. Select **Help assistant** icon to open the Help panel. 
 
     >[!NOTE]
     >
     > In the [global or folder-level profiles](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant), your administrator needs to define the default questions that appear in the panel. 
+
+    ![Smart Help panel](images/smart-help-panel-new.png){width="300"}  
 
   1. Type the question to find the related content in the Experience Manager Guides documentation. You can select the default question in the panel or type your question in the text box.
 
