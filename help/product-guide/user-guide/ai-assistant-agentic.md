@@ -3,15 +3,15 @@ title: Agentic AI Assistant for smart tagging capability
 description: Learn how to use Agentic AI Assistant for smart tagging capability for topics and maps in a single operation.
 ---
 
-# Use AI Assistant in Agentic mode
+# Smart tagging with AI Assistant
 
 >[!NOTE]
 >
 > AI Assistant in Agentic mode is available in Experience Manager Guides as a Cloud Service starting with the 2026.09.0 release. It requires your organization to be onboarded to CX Enterprise Coworker; once onboarded, contact your Customer Success team to enable the feature. For configuration details, view [Configure AI Assistant in Agentic Mode](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
 
-AI Assistant in Agentic mode makes tagging your content faster, easier, and more consistent. Using the agentic Smart Tagging skill from Adobe CX Enterprise Coworker, AI Assistant analyzes your content and recommends relevant tags based on your organization's taxonomy, instead of you manually reading through content to decide which tags apply. You stay in control by reviewing the suggested tags and choosing to apply or reject them before confirming your selection, reducing manual effort, improving tagging accuracy, and ensuring consistent metadata across your documentation.
+The Smart tagging skill, available in AI Assistant's Agentic mode through Adobe CX Enterprise Coworker, makes tagging your content faster, easier, and more consistent. It analyzes your content and recommends relevant tags based on your organization's taxonomy, eliminating the need to manually review content and identify applicable tags. You stay in control by reviewing the suggested tags and choosing to apply or reject them before confirming your selection. This reduces manual effort, improves tagging accuracy, and helps maintain consistent metadata across your documentation.
 
-## AI Assistant panel
+<!--## AI Assistant panel
 
 The AI Assistant panel provides all the tools you need to generate, review, and apply AI suggested tags. 
 
@@ -32,7 +32,7 @@ The following components of AI Assistant in Agentic mode help you add files, con
 - **(E)** Prompt space: Enter a prompt request to generate tag recommendations for the selected content.
 - **(F)** Attach files or add context: Adds topics, maps, or external files from your local system to provide the content that AI Assistant analyzes for tag recommendations.
 - **(G)** Model: Displays the AI model used to analyze content and generate tag recommendations. Multiple OpenAI and Anthropic Claude models are available for selection. By default, the **Use manifest default** option is selected, which uses the model configured for the selected assistant.
-- **(H)** Send: Submit your prompt and attached content to generate AI-powered tag recommendations.
+- **(H)** Send: Submit your prompt and attached content to generate AI-powered tag recommendations.-->
 
 ## Apply tags to single or multiple topics with the smart-tagging skill
 

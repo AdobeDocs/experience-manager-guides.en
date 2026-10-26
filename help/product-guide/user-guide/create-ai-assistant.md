@@ -3,7 +3,7 @@ title: Create topics and maps with AI Assistant
 description: Learn how to draft new DITA topics and maps from your notes, specifications, or pasted content with AI Assistant, then review them before saving.
 ---
 
-# Create topics and maps with AI Assistant
+# Create content with AI Assistant
 
 Turning notes, specifications, or copied text into structured topics usually starts with a blank file and a template to fill in by hand. In AI Assistant in Agentic mode, the **Create** starter drafts new topics and a map from the content you provide. Each draft is built on the templates in your repository. 
 
@@ -60,7 +60,7 @@ To create topics from files:
 
 To draft several topics at once, name each topic type in the prompt, such as `Turn this spec into DITA with one concept, two tasks, and a map.` AI Assistant shows all of the topics and the map in one preview.
 
-## Create a topic from an earlier answer
+<!--## Create a topic from an earlier answer
 
 AI Assistant can save an earlier answer in the chat as a new topic. This saves you from copying a summary or explanation into a new file.
 
@@ -118,7 +118,7 @@ To create topics from pasted content:
 
 4. Select **Send**.
 
-   AI Assistant drafts the topic and opens a preview.
+   AI Assistant drafts the topic and opens a preview.-->
 
 ## Example create prompts
 

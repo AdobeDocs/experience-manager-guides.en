@@ -3,7 +3,7 @@ title: Import documents as topics with AI Assistant
 description: Learn how to convert PDF, Word, and Markdown files into DITA topics and a map with AI Assistant, and review the result before you save it.
 ---
 
-# Import documents as topics with AI Assistant
+# Import documents with AI Assistant
 
 Moving existing content into Adobe Experience Manager Guides often means rebuilding every heading, list, and table as topic files by hand. In AI Assistant in Agentic mode, the **Import** feature converts a PDF, Word, or Markdown file into DITA topics and a corresponding map for you. You choose how the file is split into topics and where the topics are saved. 
 
