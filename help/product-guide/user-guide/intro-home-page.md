@@ -51,7 +51,7 @@ Features available in the navigation bar are explained as follows:
   
   The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.  
 
-- **Help assistant**: The **Help Assistant** in Adobe Experience Manager Guides is a generative AI-powered conversational search feature that helps you find information about product features, workflows, and troubleshooting. It provides relevant answers based on Experience Manager Guides documentation, supports follow-up questions, and includes links to source articles for further reference.
+- **Help assistant**: The **Help assistant** in Adobe Experience Manager Guides is a generative AI-powered conversational search feature that helps you find information about product features, workflows, and troubleshooting. It provides relevant answers based on Experience Manager Guides documentation, supports follow-up questions, and includes links to source articles for further reference.
 - **Customize overview section**: Allows you to hide or show the widgets in the Widgets section. 
 - **Folder profile in use**: Displays the folder profile that is currently being used.
 - **More actions**: Provides access to additional options. Selecting this button opens a menu with the following options:

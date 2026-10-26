@@ -38,22 +38,22 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **AI Assistant**
+- **AI features**
 
     >[!NOTE]
     >
     > For using Agentic mode of AI Assistant feature in your environment, contact the Customer Success team.
 
-    Select this to enable the [AI Assistant](../user-guide/ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
+    Select to enable the AI Assistant feature in the Experience Manager Guides. Unselect to disable the feature.
 
-    AI Assistant is available in two modes: **Agentic** and **Standard**. You can choose between the two modes by enabling the respective toggles.
+    AI Assistant is available in two modes: **Agentic** and **Standard**. You can choose between the two modes by enabling the respective radio buttons.
 
-    - **Agentic**: After enabling this option you will be able to access the Agentic AI Assistant feature from the Navigation bar on Home page and Tab bar on Editor interface. For details on how to genearted AI suggested tags for topics, view [Use AI Assistant in Agentic mode](../user-guide/ai-assistant-agentic.md).
+    - **Agentic**: After enabling this option, you can access Agentic AI Assistant from the navigation bar on the Homepage and the tab bar in the Editor. You can also configure the taxonomy namespaces used by the Smart Tagging skill to generate tag recommendations. AI Assistant considers only tags from the selected namespaces, based on the tags defined in AEM. For details view [Agentic mode in AI Assistant](../user-guide/ai-assistant.md#ai-assistant-modes).
 
-    ![](assets/agentic-ai-workspace.png){width="350"}
+        ![](assets/agentic-new.png){width="350"}
 
-    - **Standard**: After enabling the **Standard** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below.  
-
+    - **Standard**: After enabling the **Standard** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below. 
+    
         These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the Workspace settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Workspace settings** and save the updated configuration.  
 
         For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](../user-guide/ai-assistant-right-panel.md).

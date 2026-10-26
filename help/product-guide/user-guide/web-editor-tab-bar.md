@@ -62,21 +62,17 @@ Saves the changes you have made in all opened topics. If you have multiple topic
 >
 > The **Save all** operation does not create a new version of your topics. To create a new version, use the **Save as new version** option.
 
-**AI Assistant**
-
-A powerful, AI-driven tool designed to enhance your productivity through smart help and authoring features. It brings together two robust AI features — **Authoring** and **Help** — into the Experience Manager Guides interface, enabling you to author content and access information from Experience Manager Guides documentation faster and more efficiently. 
+**AI Assistant**: The AI Assistant in Adobe Experience Manager Guides is an AI-powered tool designed to enhance productivity by simplifying content creation, management, and authoring workflows. AI Assistant is available in two modes: **Agentic** and **Standard**.
 
 >[!NOTE]
 >
-> The AI Assistant feature is currently available for Adobe Experience Manager Guides as a Cloud Service.
+> For using Agentic mode of AI Assistant feature in your environment, contact the Customer Success team. After the feature is enabled, Administrators can turn it on or off from Workspace Settings. Only one mode of AI Assistant can be enabled at a time; either Agentic or Standard.
 
-**Guides AI**
+- **Agnetic**: Agentic mode in AI Assistant enables you to accomplish content-related tasks through natural language interactions. You can describe your requirements in the chat panel, and AI Assistant plans and executes tasks while providing visibility into its progress. It supports skills such as Import, which converts PDF, Word, or Markdown files from your device or content repository into structured topics; Create, which generates new topics based on your requirements and can reference existing content for tone and style; and Smart Tagging, which recommends relevant tags based on your organization's taxonomy to improve metadata consistency.
 
-Brings intelligent, agentic Smart Tagging skill from Adobe CX Enterprise Coworker into the Editor, enabling natural, conversational content tagging. It analyzes your content, recommends relevant tags, and helps you apply consistent and accurate metadata with minimal effort. You can review the suggested tags and choose to apply or reject them before confirming your selection improving content organization and discoverability.
+- **Standard**: A powerful, AI-driven tool designed to enhance your productivity through smart authoring capabilities of AI Assistant that makes your authoring process smarter and faster through intelligent suggestions for content reuse and optimization. 
 
->[!NOTE]
->
-> For using Guides AI feature in your environment, contact the Customer Success team. After the feature is enabled, Administrators can turn it on or off from Workspace Settings. Only one AI experience can be enabled at a time; either Guides AI or AI Assistant.
+**Help assistant**: The **Help assistant** in Adobe Experience Manager Guides is a generative AI-powered conversational search feature that helps you find information about product features, workflows, and troubleshooting. It provides relevant answers based on Experience Manager Guides documentation, supports follow-up questions, and includes links to source articles for further reference.
 
 **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar containing the Adobe Experience Manager logo, is hidden. This maximizes the content space for editing. To return to the standard view, use the **Exit the expanded view** icon.
 
