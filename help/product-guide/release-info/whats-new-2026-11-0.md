@@ -22,12 +22,12 @@ Authors can:
 
 - **Create branches** from the main version of a DITA map to work on features, enhancements, or hotfixes independently.
 - **Switch between branches** in the Editor to manage multiple documentation versions.
-- **Review branch content** by sending changes for stakeholder feedback.
+- **Manage content versions** using Dynamic Release Management to organize changes through branching and merging.
 - **Resolve merge conflicts** using a guided comparison workflow.
 - **Merge changes** into the main version or a parent branch.
 - **Publish directly from a branch** using standard publishing or hotfix publishing without modifying the main version.
 
-Learn more about the [Branching and merging] article.
+Learn more about the current capabilities and upcoming enhancements to Dynamic Release Management through [Branching overview](../user-guide/branching-overview.md) article.
 
 ![](./assets/branching.png){width="650"}
 
@@ -36,8 +36,9 @@ Learn more about the [Branching and merging] article.
 
 Now, you can use **AI Assistant** to create and import DITA content using natural-language prompts. Powered by **Adobe CX Enterprise Coworker**, the new **Create** and **Import** skills simplify structured content creation and help authors work with DITA content without requiring extensive DITA expertise.
 
-- **Create:** Generate DITA topics and maps from natural-language prompts, reference documents, or existing content using repository templates. You can review the generated content before saving it.
+- **Create:** Generate DITA topics and maps from natural-language prompts, reference documents, or existing content using repository templates. You can review the generated content before saving it and iteratively refine new or existing content to meet your requirements.
 - **Import:** Convert existing PDF, DOCX, or Markdown files into structured DITA topics and maps. You can preview and review the converted content before saving it to the repository.
+- **Smart Tagging:** Get relevant tag recommendations for your content based on your organization's taxonomy. The enhanced experience allows folder profile administrators to configure taxonomy namespaces in Workspace settings, ensuring consistent and governed tag recommendations.
 
 The **AI Assistant** panel also introduces a fullscreen mode and an **Active conversations** section for an enhanced conversational experience.
 
@@ -98,9 +99,7 @@ These comments appear in the **Comments** panel alongside feedback from other re
 
 The Map console in Experience Manager Guides now includes an **Output history** tab, allowing you to view and manage output generation tasks directly from the Editor without navigating to the Map Dashboard.
 
-The tab provides a consolidated view of output generation tasks, including their status, preset details, generation date, and duration. You can search and filter tasks, cancel ongoing generations, access generated outputs and logs, and remove completed entries from the history. You can also export the output history as a CSV file for further analysis.
-
-Output generation statuses use color indicators consistent with the Map dashboard. A yellow status indicates that generation completed with errors or warnings, helping you identify outputs that require attention without opening individual logs.
+The tab provides a consolidated view of output generation tasks, including their status, preset details, generation date, and duration. You can search and filter tasks, cancel ongoing generations, access generated outputs and logs, and remove completed entries from the history. You can also export the output history as a CSV file for further analysis.Output generation statuses use color indicators consistent with the Map dashboard. 
 
 For details, view [Manage output generation process](../user-guide/generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
 
