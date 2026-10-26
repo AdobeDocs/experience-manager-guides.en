@@ -46,7 +46,11 @@ AI Assistant is available in two modes: **Agentic** and **Standard**. Administra
 
 ## Agentic mode
 
-Agentic mode in AI Assistant enables you to accomplish content-related tasks through natural language interactions. You can describe what you want to achieve in the chat panel, and AI Assistant plans and executes the task while providing visibility into its progress. Agentic mode supports the following skills:
+>[!NOTE]
+>
+> AI Assistant in Agentic mode is available in Experience Manager Guides as a Cloud Service starting with the 2026.11.0 release. It requires your organization to be onboarded to CX Enterprise Coworker; once onboarded, contact your Customer Success team to enable the feature. For configuration details, view [Configure AI Assistant in Agentic Mode](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
+
+Agentic mode in AI Assistant enables you to perform a wide range of content-related tasks through natural language interactions, such as creating and importing content, summarizing topics, adding topics to maps, and managing metadata. You can describe your requirements in the chat panel, and AI Assistant plans and executes tasks while providing visibility into their progress. Agentic mode provides quick access to the following skills:
 
 - **Import**: Converts PDF, Word, or Markdown files from your device or content repository into structured topics. For more details, view [Import content with AI Assistant](./import-ai-assistant.md).
 
@@ -54,7 +58,16 @@ Agentic mode in AI Assistant enables you to accomplish content-related tasks thr
 
 - **Smart Tagging**: Recommends relevant tags for topics based on your organization's taxonomy to improve metadata consistency. For more details, view [Smart tagging with AI Assistant](./ai-assistant-agentic.md).
 
-![ai assistant Smart tagging](./images/suggested-prompts.png)
+The following components of the AI Assistant panel help you add content, enter prompts, and start tasks:
+
+![ai assistant Smart tagging](./images/panel-new-agentic.png)
+
+- **(A)** Conversation history: View and reopen previous conversations to review earlier requests and responses.
+- **(B)** Full screen: Expands the AI Assistant panel to full screen.
+- **(C)** Prompt space: Enter a prompt request, or type `/` to add files and generate tags.
+- **(D)** Attach files or add context: Adds topics, maps, or files from your repository or local system to provide the content that AI Assistant works with.
+- **(E)** Send: Submit your prompt and attached content to AI Assistant.
+- **(F)** Quick actions: Start a task directly from one of the following shortcuts: **Import**, **Create**, or **Tag**.
 
 ## Standard mode
 

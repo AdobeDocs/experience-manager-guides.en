@@ -5,10 +5,6 @@ description: Learn how to use Agentic AI Assistant for smart tagging capability 
 
 # Smart tagging with AI Assistant
 
->[!NOTE]
->
-> AI Assistant in Agentic mode is available in Experience Manager Guides as a Cloud Service starting with the 2026.09.0 release. It requires your organization to be onboarded to CX Enterprise Coworker; once onboarded, contact your Customer Success team to enable the feature. For configuration details, view [Configure AI Assistant in Agentic Mode](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
-
 The Smart tagging skill, available in AI Assistant's Agentic mode through Adobe CX Enterprise Coworker, makes tagging your content faster, easier, and more consistent. It analyzes your content and recommends relevant tags based on your organization's taxonomy, eliminating the need to manually review content and identify applicable tags. You stay in control by reviewing the suggested tags and choosing to apply or reject them before confirming your selection. This reduces manual effort, improves tagging accuracy, and helps maintain consistent metadata across your documentation.
 
 <!--## AI Assistant panel

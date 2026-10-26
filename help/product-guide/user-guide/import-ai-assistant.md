@@ -66,7 +66,8 @@ Pasting content from a web page, Word, Google Docs, or a wiki lets you import wi
 
 To import pasted content:
 
-1. On the Home page, select **AI Assistant** from the Navigation bar.
+1. Log in to Experience Manager Guides.
+1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the AI Assistant in Agentic mode is enabled by your Administrator. 
 
 2. Copy the content from the web page, Word, Google Docs, or wiki.
 
@@ -74,18 +75,16 @@ To import pasted content:
 
    Formatted content over 2,000 characters is attached as Markdown, so its structure carries over.
 
+      ![](images/paste-import.png)
+
 4. Enter a prompt that names what you want.
 
    For example, enter `Import the pasted page into DITA.` or `Turn the pasted content into DITA topics and a map.`
 
 5. Select **Send**.
 
-   AI Assistant asks for the heading level and the save folder, as it does for an attached file.
 
-   >[!NOTE]
-   >
-   >Only formatted pastes keep their structure and can be imported. To turn plain text into new topics, view [Create topics and maps with AI Assistant](#).
-
+AI Assistant prompts you to select the heading level for splitting content into topics and specify the destination folder. The remaining steps are the same as importing an attached file, including reviewing and confirming the import plan to generate DITA topics and a map.
 
 
 
