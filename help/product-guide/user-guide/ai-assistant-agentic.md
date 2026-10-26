@@ -124,8 +124,8 @@ Perform the following steps to use AI Assistant for applying tags to multiple to
 1. Select **Confirm**. AI Assistant analyzes the selected topics and displays the number of tag recommendations generated for each topic.
 1. Select **Preview** to review the AI-generated tag recommendations.  
 1. Review the suggested tags for each topic, and then choose one of the following actions:
-   - **Accept all** to apply all suggested tags for all the topics.
-   - **Reject all** to discard all suggested tags for all the topics.
+   - **Accept** to apply all suggested tags for all the topics.
+   - **Reject** to discard all suggested tags for all the topics.
    - **Clear all suggestions** to remove all the suggested tags for a specific topic.
    - Select the **X** icon next to a tag to remove an individual tag suggestion.
 
