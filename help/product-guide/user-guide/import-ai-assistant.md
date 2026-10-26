@@ -75,7 +75,7 @@ To import pasted content:
 
    Formatted content over 2,000 characters is attached as Markdown, so its structure carries over.
 
-      ![](images/paste-import.png)
+   ![](images/pasted-import.png)
 
 4. Enter a prompt that names what you want.
 
@@ -84,7 +84,7 @@ To import pasted content:
 5. Select **Send**.
 
 
-AI Assistant prompts you to select the heading level for splitting content into topics and specify the destination folder. The remaining steps are the same as importing an attached file, including reviewing and confirming the import plan to generate DITA topics and a map.
+AI Assistant prompts you to select the heading level for splitting content into topics and specify the destination folder. The remaining steps are the same as importing an attached file, including reviewing and confirming the import workflow to generate DITA topics and a map.
 
 
 
