@@ -21,11 +21,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
 ---
-# Enhance efficiency with smart Help in AI Assistant (Beta)
-
->[!NOTE]
->
->This feature is avialable for AI Assistant in Standard mode.
+# Enhance efficiency with smart help in Help Assistant
 
 Experience Manager Guides provides the GenAI-based smart Help, a conversational search feature that helps you find relevant content from [Adobe Experience Manager Guides documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
@@ -33,15 +29,15 @@ You can ask your questions and get answers in an informative way. The answer to 
 
 For example, you may want to ask questions like *How do I publish a map?* You get a response and the links for the related articles. Then, if you want to learn how to use a specific method to publish the output, you can ask questions about it. For example, *How do I publish a map to PDF?* 
 
-When you open **AI Assistant** on the Homepage, Map console, or Editor, the **Help** panel opens on the right. In case of Editor, the Authoring panel also appears that give you smart authoring capabilities. For details, view [AI Assistant to author documents smartly](./ai-assistant-right-panel.md)
+When you open **Help Assistant** on the Homepage, Map console, or Editor, the **Help** panel opens on the right.
 
-![Smart Help panel](images/smart-help-panel.png){width="300"}
+![Smart Help panel](images/smart-help-panel-new.png){width="300"}
 
 *View the **Help** panel.*
 
 Perform the following steps to use the Help panel to find appropriate content and resolve your queries:
 
-1. Select **AI Assistant** to open the Help panel. 
+1. Select **Help assistant** icon to open the Help panel. 
 
     >[!NOTE]
     >
@@ -65,11 +61,11 @@ Perform the following steps to use the Help panel to find appropriate content an
 
 Instead of searching through user guides and reference documents, you can use the **Help** feature to quickly find relevant answers to your queries. This helps save time and allows you to focus on content creation, resulting in enhanced productivity and efficiency.
 
-## Options available for AI Assistant Help responses
+## Options available for Help responses
 
-When you receive a response from AI Assistant in the **Help** panel, you can interact with it or provide feedback to enhance its accuracy and reliability. Your feedback helps the Experience Manager Guides team enhance the accuracy and relevance of AI Assistant responses, improving its performance over time. 
+When you receive a response from Help Assistant in the **Help assistant** panel, you can interact with it or provide feedback to enhance its accuracy and reliability. Your feedback helps the Experience Manager Guides team enhance the accuracy and relevance responses, improving its performance over time. 
 
-The following options are available to engage with or provide feedback on the responses provided by AI Assistant **Help** panel:
+The following options are available to engage with or provide feedback on the responses provided by **Help assistant** panel:
 
 ![](images/ai-assistant-response-options.png){width="300"}
 

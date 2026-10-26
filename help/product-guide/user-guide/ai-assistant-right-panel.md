@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
-# Author documents smartly with AI Assistant (Beta)
+# Author documents smartly with AI Assistant
 
 >[!NOTE]
 >

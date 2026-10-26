@@ -25,13 +25,13 @@ topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
 ---
-# AI Assistant (Beta)  
-
-The **AI Assistant** in Adobe Experience Manager Guides is a powerful, AI-driven tool designed to enhance your productivity through smart help, authoring, and tagging features. In **Standard** mode, it brings together two robust AI features; **Authoring** and **Help** into the Experience Manager Guides interface, enabling you to author content and access information from Experience Manager Guides documentation faster and more efficiently. In **Agentic** mode, AI Assistant instead offers **Smart tagging**, letting you ask, through a conversational prompt window, for tag recommendations for your content and apply them across one or more topics.
+# AI Assistant
 
 >[!NOTE]
 >
 > The AI Assistant feature is currently available for Adobe Experience Manager Guides as a Cloud Service. 
+
+The AI Assistant in Adobe Experience Manager Guides is an AI-powered tool designed to enhance productivity by simplifying content creation, management, and authoring workflows. It offers two modes: Standard and Agentic. In **Standard mode**, AI Assistant provides authoring assistance and access to Experience Manager Guides documentation, helping you create, refine, and manage content more efficiently. In **Agentic mode**, AI Assistant enables you to perform content-related tasks through natural language interactions, with skills such as Import, Create, and Smart tagging to streamline content creation, organization, and metadata management.
 
 ## AI Assistant modes
 
@@ -39,39 +39,31 @@ The **AI Assistant** in Adobe Experience Manager Guides is a powerful, AI-driven
 >
 >To enable the AI Assistant in Agentic mode for your environment, contact the Customer Success Team.
  
-AI Assistant is available in two modes: **Agentic** and **Standard**. Administrators can choose between the two modes from the **AI Assistant** section of **General** tab in **Workspace settings**. The AI Assistant panel remains the same in both modes in the Editor, but the capabilities available within it differ:
+AI Assistant is available in two modes: **Agentic** and **Standard**. Administrators can select the mode from the **AI features** section of the **General** tab in **Workspace settings**. The AI Assistant panel remains the same in both modes in the Editor, but the available capabilities differ:
 
-* **Agentic** mode uses the **Smart tagging** skill from Adobe CX Enterprise Coworker to analyze your content and recommend relevant tags based on your organization’s taxonomy.
-* **Standard** mode provides the existing AI Assistant experience, with the **Help** and **Authoring** tabs in the AI Assistant panel.
+- **Agentic mode:** Uses skills from Adobe CX Enterprise Coworker, including **Import**, **Create**, and **Smart tagging**, to convert files into structured topics, generate content, and recommend relevant tags based on your organization's taxonomy.
+- **Standard mode:** Provides AI-powered authoring assistance through contextual actions, such as content reuse, translation, and content quality improvements, to streamline authoring workflows.
 
 ## Agentic mode
 
-### Smart tagging 
+Agentic mode in AI Assistant enables you to accomplish content-related tasks through natural language interactions. You can describe what you want to achieve in the chat panel, and AI Assistant plans and executes the task while providing visibility into its progress. Agentic mode supports the following skills:
 
-AI Assistant in Agentic mode makes tagging your content faster and easier through a conversational prompt window. Using the agentic Smart tagging skill from Adobe CX Enterprise Coworker, AI Assistant recommends relevant tags for your content when you ask it to. You stay in control by reviewing the suggested tags and choosing to apply them to one or more topics, including multiple topics within a map.
+- **Import**: Converts PDF, Word, or Markdown files from your device or content repository into structured topics. For more details, view [Import content with AI Assistant](./import-ai-assistant.md).
 
-For more details, view [Get started with Agentic AI Assistant](./ai-assistant-agentic.md).
+- **Create**: Generates new topics based on your requirements, with options to reference existing content for tone and style. For more details, view [Create content with AI Assistant](./create-ai-assistant.md).
+
+- **Smart Tagging**: Recommends relevant tags for topics based on your organization's taxonomy to improve metadata consistency. For more details, view [Smart tagging with AI Assistant](./ai-assistant-agentic.md).
 
 ![ai assistant Smart tagging](./images/suggested-prompts.png)
 
 ## Standard mode
 
-### Authoring 
-
-When AI Assistant is configured in **Standard** mode, the **Authoring** feature in AI Assistant makes your authoring process smarter and faster. It offers capabilities such as generating intelligent suggestions for content reuse, translating content, improving content quality, and more, all based on your selected content. This feature enhances the overall authoring experience and the productivity of authors. 
+Standard mode makes your authoring process smarter and faster. When you select text in the Editor, the AI Assistant offers quick actions, such as generating intelligent suggestions for content reuse, translating content, improving content quality, and more, all based on your selected content. This enhances the overall authoring experience and the productivity of authors.
 
 For more details, view [Authoring](./ai-assistant-right-panel.md).
 
 ![ai assistant](./images/ai-assistant-panel.png)
 
-### Help
-
-When AI Assistant is configured in **Standard** mode, the **Help** feature provides an intuitive, chat-based experience that helps you understand Experience Manager Guides, troubleshoot issues, and find information in the Adobe Experience Manager Guides documentation. Instead of searching through user guides and reference documents, you can use the **Help** feature to quickly find relevant answers to your queries. This helps save time and allows you to focus on content creation, resulting in enhanced productivity and efficiency.
-
-For more details, view [Help](./ai-based-smart-help.md).
-
-
-![Smart Help panel](images/smart-help-panel.png)
 
 ## Get started with AI Assistant in Standard mode
 
