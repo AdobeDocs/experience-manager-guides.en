@@ -60,7 +60,7 @@ Agentic mode in AI Assistant enables you to accomplish content-related tasks thr
 
 Standard mode makes your authoring process smarter and faster. When you select text in the Editor, the AI Assistant offers quick actions, such as generating intelligent suggestions for content reuse, translating content, improving content quality, and more, all based on your selected content. This enhances the overall authoring experience and the productivity of authors.
 
-For more details, view [Authoring](./ai-assistant-right-panel.md).
+For more details, view [Author documents with AI Assistant](./ai-assistant-right-panel.md).
 
 ![ai assistant](./images/ai-assistant-panel.png)
 

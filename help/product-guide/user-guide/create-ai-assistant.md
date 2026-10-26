@@ -5,15 +5,12 @@ description: Learn how to draft new DITA topics and maps from your notes, specif
 
 # Create content with AI Assistant
 
-Turning notes, specifications, or copied text into structured topics usually starts with a blank file and a template to fill in by hand. In AI Assistant in Agentic mode, the **Create** starter drafts new topics and a map from the content you provide. Each draft is built on the templates in your repository. 
+The **Create** skill in AI Assistant's Agentic mode helps you generate structured content from notes, specifications, or other source content. It uses templates available in your repository to create drafts, reducing the effort required to structure and author content manually.
 
-## Create topics from attached files
+You can attach files, specify the topic types, select an existing topic as a reference for tone and style, and choose the destination folder for the generated content. To create topics from files, follow these steps:
 
-You can attach notes, a specification, or other files, and AI Assistant drafts topics and a map from them. You choose an existing topic as a tone reference, name the topic types you want, and set the folder where the content is saved.
-
-To create topics from files:
-
-1. Select **AI Assistant** from the Tab bar on the Home page.
+1. Log in to Experience Manager Guides.
+1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the AI Assistant in Agentic mode is enabled by your Administrator. 
 
 1. Select **Create** from the AI Assistant panel.
 
@@ -21,7 +18,7 @@ To create topics from files:
 
 1. Attach your notes, specification, or other files to the prompt using any of the following methods: 
 
-   - **Using shortcut**: Type `/` in the Prompt field, then choose **Add repository reference** to choose the fille from the Repository (or **Add files from device** to upload the file from your computer).
+   - **Using shortcut**: Type `/` in the Prompt field, then choose **Add repository reference** to choose the file from the Repository (or **Add files from device** to upload the file from your computer).
 
    - **Using `Attach files or add context (+)*` icon**: Adds files from your local system to provide the content for creating. 
    

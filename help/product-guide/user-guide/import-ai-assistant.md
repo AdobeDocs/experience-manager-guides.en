@@ -5,17 +5,14 @@ description: Learn how to convert PDF, Word, and Markdown files into DITA topics
 
 # Import content with AI Assistant
 
-Moving existing content into Adobe Experience Manager Guides often means rebuilding every heading, list, and table as topic files by hand. In AI Assistant in Agentic mode, the **Import** feature converts a PDF, Word, or Markdown file into DITA topics and a corresponding map for you. You choose how the file is split into topics and where the topics are saved. 
-
-This article covers the import workflow. To learn about the panel, attachments, and conversation history, view [Get started with AI Assistant in Agentic mode](#).
-
+The **Import** skill in AI Assistant's Agentic mode helps you convert existing PDF, Word, or Markdown files into structured DITA topics and a corresponding map. It simplifies content migration to Adobe Experience Manager Guides by reducing the manual effort required to recreate and organize content.
 
 ## Import a file
 
-Importing a PDF, Word, or Markdown file converts its content into topics organized within a map. You can specify which heading level defines the start of a new topic, giving you control over how the imported content is structured. To import a file, follow these steps:
+You can import files from your device or content repository, specify the heading level that defines the start of a new topic, and choose the destination folder for the imported content. To import a file, follow these steps:
 
-1. On the Home page, select **AI Assistant** from the Navigation bar.
-
+1. Log in to Experience Manager Guides.
+1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the AI Assistant in Agentic mode is enabled by your Administrator. 
 1. Select **Import** from the AI Assistant panel. You can also use other prompts like `Convert this docx to DITA topics.` for a Word file or `Convert this markdown into DITA topics.` for a Markdown file.
 
    The starter prompt `Help me import content from the attached PDF file` appears in the prompt box.
@@ -57,7 +54,7 @@ Importing a PDF, Word, or Markdown file converts its content into topics organiz
    - **Accept** to save all topics and the map to the folder you confirmed
    - **Reject** to discard the import without saving anything   
 
-      The topics and the map are now available in your repository.
+   The topics and the map are now available in your repository.
 
       ![](images/accept-reject-import.png)
 

@@ -52,7 +52,7 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
         ![](assets/agentic-new.png){width="350"}
 
-    - **Standard**: After enabling the **Standard** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below. 
+    - **Standard**: After enabling the **Standard** toggle, you can configure which options appear under the **Authoring quick actions** menu as shown below. 
     
         These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the Workspace settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Workspace settings** and save the updated configuration.  
 
