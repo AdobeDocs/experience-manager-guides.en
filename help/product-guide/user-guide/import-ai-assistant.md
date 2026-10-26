@@ -23,7 +23,7 @@ You can import files from your device or content repository, specify the heading
 
    - **Using `Attach files or add context (+)*` icon**: Adds files from your local system to provide the content for importing. 
 
-   - **Drag and drop**: Drag and drop the file you wnat to import from the system directly into the prompt space.
+   - **Drag and drop**: Drag and drop the file you want to import from the system directly into the prompt space.
 
       ![](images/attach-import.png)
 

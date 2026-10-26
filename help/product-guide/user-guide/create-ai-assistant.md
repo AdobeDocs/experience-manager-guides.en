@@ -10,7 +10,7 @@ The **Create** skill in AI Assistant's Agentic mode helps you generate structure
 You can attach files, specify the topic types, select an existing topic as a reference for tone and style, and choose the destination folder for the generated content. To create topics from files, follow these steps:
 
 1. Log in to Experience Manager Guides.
-1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the AI Assistant in Agentic mode is enabled by your Administrator. 
+1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that your Administrator has enabled the AI Assistant in Agentic mode. 
 
 1. Select **Create** from the AI Assistant panel.
 
@@ -20,7 +20,7 @@ You can attach files, specify the topic types, select an existing topic as a ref
 
    - **Using shortcut**: Type `/` in the Prompt field, then choose **Add repository reference** to choose the file from the Repository (or **Add files from device** to upload the file from your computer).
 
-   - **Using `Attach files or add context (+)*` icon**: Adds files from your local system to provide the content for creating. 
+   - **Using `Attach files or add context (+)*` icon**: Adds files from your local system. 
    
 
 1. In the prompt, select `[file]`. Select the existing topic whose tone you want the draft to match. You can choose the topic from the repository or from a collection. The topic name replaces `[file]` in the prompt.
@@ -54,8 +54,6 @@ You can attach files, specify the topic types, select an existing topic as a ref
 
       ![](images/accept-reject-create.png)
 
-
-To draft several topics at once, name each topic type in the prompt, such as `Turn this spec into DITA with one concept, two tasks, and a map.` AI Assistant shows all of the topics and the map in one preview.
 
 <!--## Create a topic from an earlier answer
 
