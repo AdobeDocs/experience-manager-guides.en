@@ -15,7 +15,6 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 ## Editor 2.0
 
 - When a `property` element is deleted, its child elements are removed but an empty `property` element remains in the document. (GUIDES-56759)
-- In the Side-by-side view of a topic in a review task, content marked with strikethrough appears with different formatting in the two views. (GUIDES-56079)
 - When a table is pasted from Microsoft Word, the header row cells are created but their content is lost. (GUIDES-49847)
 - Tracked changes in files created before moving to Editor 2.0 do not appear in the **Track changes** panel. (GUIDES-44777)
 - When code is pasted into a `codeblock` element, from Microsoft Word or similar text editors, by using Ctrl+V, line breaks and leading spaces are lost and the code is flattened into a single line. (GUIDES-33247)
@@ -24,10 +23,10 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 
 - When the unified shell is enabled, the Adobe Experience Manager Guides header also appears in the Editor and the Map console. (GUIDES-56812)
 - In the Assets UI, DITA-specific actions such as **View source**, **Edit topics** and **Share UUID Link** appear for non-DITA assets. In addition, **Share UUID Link** generates an invalid link for assets that do not have a UUID. (GUIDES-47043)
-- Users who are listed as Admin Users in a folder profile but are not members of the administrators group cannot add Admin Users. A success message appears, but the change is not saved. (GUIDES-50144)
 - In the Subject scheme panel, the display title is picked only from the `navtitle` attribute. The `navtitle` element is ignored even when both are present. (GUIDES-37722)
-- In the **Title view** of the Repository panel, the ellipsis is not initially visible for files with long names. When such a file is clicked, the ellipsis and the context menu appear far to the right of the file, sometimes partly off-screen. (GUIDES-37118)
+- In the **Title view** of the Repository panel, the ellipsis is not initially visible for files with long names. Upon right-clicking such a file, the ellipsis and the context menu appear far to the right of the file, sometimes partly off-screen. (GUIDES-37118)
 - In the Conditions panel, conditions are sorted alphabetically based on their values rather than their labels. (GUIDES-14593)
+- In Output templates, the **New Style** (+) button is not displayed in the Styles panel when a stylesheet, such as layout.css, is opened. (GUIDES-49448)
 
 ## Asset management
 
@@ -49,7 +48,6 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 - Publishing a map to Salesforce fails with a limit exceeded error when a request contains more than 25 operations. (GUIDES-33721)
 - In the Map Dashboard (Old), **Add all** in an existing condition preset does not pick up condition values that were added or changed after the preset was created. (GUIDES-45940)
 - Logs in the **Output history** page containing warnings are shown with a green icon, which does not indicate that warnings are present. (GUIDES-27000)
-- In Output templates, the **New Style** (+) button is not displayed in the Styles panel when a stylesheet, such as layout.css, is opened. (GUIDES-49448)
 - The glossary is not included in the output when no term in the map content refers to a glossary entry. (GUIDES-52964)
 - Topics from a submap that is referenced in an appendix are rendered as chapters instead of appendix content. (GUIDES-52775)
 - Some Simplified Chinese characters are rendered with a Japanese font when the output language is set to Chinese (Simplified). (GUIDES-48094)
@@ -64,6 +62,7 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 
 - On the **Reviewers** page, during the creation or editing of a review task, the **Clear Selection**, **Add Reviewers**, **Remove Reviewers**, and **Re-assign Reviewers** buttons are enabled by default, even when no rows are selected. (GUIDES-35125) 
 - In the AEM inbox, notifications related to review tasks, such as task assignment, feedback received, mentions, and due or overdue reminders, are displayed without any project name. (GUIDES-10912)
+- In the Side-by-side view of a topic in a review task, content marked with strikethrough appears with different formatting in the two views. (GUIDES-56079)
 
 ## Learning content
 
@@ -71,4 +70,35 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 - The completion criteria for a SCORM output cannot be set in Experience Manager Guides. (GUIDES-55520)
 - Images in AVIF format are displayed in the editor but are missing in the published output. (GUIDES-55515)
 - The `href` attribute is removed from anchor tags in the published output, so links are not clickable. (GUIDES-55514)
+
+## Platform
+
+- Users who are listed as Admin Users in a folder profile but are not members of the administrators group cannot add Admin Users. A success message appears, but the change is not saved. (GUIDES-50144)
+
+## Known issues
+
+Adobe has identified the following known issues for the 2026.09.0 release:
+
+### Editor 2.0
+
+- When you create a map from a template containing dependent topics or submaps, map creation may intermittently fail with an error, particularly when the server is under heavy load. (GUIDES-58715)
+- When you create a topic, it is sometimes created with a blank title. (GUIDES-58420)
+- The `navtitle` attribute is not automatically added to newly inserted `<topicref>` elements in a DITA map, even when it is configured as a required attribute in `ui_config.json`. (GUIDES-54348)
+
+**Track changes**
+
+When **Track changes** is turned on:
+
+- Nested deletions made by the same user are not always merged into a single entry, particularly when the change involves renaming or formatting. (GUIDES-58429)
+- The **Track Changes** panel sometimes shows incomplete content for the parent element when a nested deletion is made by a different user. (GUIDES-58428)
+- The red gutter marker does not appear on the left when you delete content within an insertion made by another user, regardless of whether the deletion is resolved. (GUIDES-58418)
+
+### Publishing
+
+- In Native PDF output, superscript and subscript formatting is not preserved in index entries. (GUIDES-58349)
+- When you generate output using a global preset with a topic selected in the topic list, and then use the same preset for a different map, the output may be incorrect because the previous topic selection is not properly reset or resolved for the new map. (GUIDES-58346)
+- When a book map contains a chapter with a valid `href` and a nested topic reference, publishing the map to AEM Sites results in a blank page. (GUIDES-58266)
+- When you navigate to the **Output history** tab from a preset with unsaved changes, the **Save** and **Generate output** buttons remain visible. (GUIDES-57989)
+- When a post-publishing workflow is configured for a preset, the publishing duration shown in **Output history** does not include the time taken by the workflow. (GUIDES-57856)
+- You cannot cancel Native PDF output generation from the **Output history** page. (GUIDES-57821)
 
