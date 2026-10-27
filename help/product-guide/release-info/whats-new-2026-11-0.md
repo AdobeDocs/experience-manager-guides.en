@@ -34,6 +34,10 @@ Learn more about the current capabilities and upcoming enhancements to Dynamic R
 
 ## AI-powered content creation and import skills in AI Assistant
 
+>[!NOTE]
+>
+>To use AI Assistant in Agentic mode, your organization must be onboarded to Adobe CX Enterprise Coworker and have the required credentials. 
+
 Now, you can use **AI Assistant** to create and import DITA content using natural-language prompts. Powered by **Adobe CX Enterprise Coworker**, the new **Create** and **Import** skills simplify structured content creation and help authors work with DITA content without requiring extensive DITA expertise.
 
 - **Create:** Generate DITA topics and maps from natural-language prompts, reference documents, or existing content using repository templates. You can review the generated content before saving it and iteratively refine new or existing content to meet your requirements.
@@ -42,18 +46,18 @@ Now, you can use **AI Assistant** to create and import DITA content using natura
 
 The **AI Assistant** panel also introduces a fullscreen mode and an **Active conversations** section for an enhanced conversational experience.
 
-For more details, view [Use AI Assistant in Agentic mode](../user-guide/ai-assistant-agentic.md).
+For more details, view [Use AI Assistant in Agentic mode](../user-guide/ai-assistant.md#agentic-mode).
 
-![](./assets/ai-assistant-2611.png){width="650"}
+![](./assets/preview-import.png){width="650"}
 
 
 ## New Help assistant panel in Experience Manager Guides
 
-The generative AI-powered **Smart Help** capability is now available through the dedicated **Help assistant** panel, accessible from the Editor's tab bar. The panel provides a conversational search experience, allowing you to ask questions in natural language and quickly find relevant information from the Experience Manager Guides documentation. This helps you access contextual guidance and resolve queries without leaving the Editor, streamlining your authoring workflow.
+The generative AI-powered **Smart Help** capability is now available through the dedicated **Help assistant** panel, accessible from the Homepage, Editor, and Map Console interfaces. The panel provides a conversational search experience, allowing you to ask questions in natural language and quickly find relevant information from the Experience Manager Guides documentation. This helps you access contextual guidance and resolve queries without leaving the Editor, streamlining your authoring workflow.
 
 Administrators can manage the availability of the Help assistant panel through Workspace settings. The **AI Help assistant** section includes a toggle to enable or disable the panel for users.
 
-For more information, see the [AI Help Assistant](../user-guide/ai-assistant.md) documentation.
+For more information, view [Help assistant](../user-guide/intro-home-page.md).
 
 ![](./assets/help-assistant.png){width="650"}
 
@@ -61,7 +65,7 @@ For more information, see the [AI Help Assistant](../user-guide/ai-assistant.md)
 
 ### Track changes panel in the New Editor
 
-The Track Changes panel is now available in the New Editor, providing a centralized view of all tracked edits and comments within a topic. You can review, accept, or reject changes directly from the panel, streamlining collaboration and content review.
+The **Track changes** panel is now available in the New Editor, allowing you to view all tracked insertions and deletions within a topic. You can track edits made by multiple users and accept or reject changes directly from the panel.
 
 You can also control how deleted content appears in the Editor using the **Show tracked deletions inline** setting that lets you display deleted content as strikethrough text or replace it with a pencil icon linked to the corresponding change. Learn more about [Track changes](../user-guide/config-editor-settings.md#track-changes).
 
@@ -69,20 +73,18 @@ You can also control how deleted content appears in the Editor using the **Show 
 
 ### Sort files and folders in the Explorer panel
 
-The **Explorer** panel in the Editor lets you sort files and folders in ascending or descending order using the **Sort** button. By default, items are displayed in ascending order based on the **Editor files display** setting in **User preferences**. Depending on your configuration, files and folders are sorted by either title or file name. This enhancement makes it easier to navigate and locate topics and maps within the Editor.
+The **Explorer** panel in the Editor allows you to sort files and folders in ascending or descending order using the **Sort** button. By default, items are sorted in ascending order by title or file name, based on the **Editor files display** setting in **User preferences**. This makes it easier to navigate and locate content in the Editor.
 
 For more information, view [Explorer](../user-guide/paginated-loading-assets.md#explorer) section in Paginated loading of files and folders.
 
 ### Manage versions and labels for non-DITA files from the Editor
 
-Experience Manager Guides now lets you view version history and manage version labels for non-DITA files, such as images, multimedia, ZIP, PDF, and DOCX files, directly from the Editor. You can preview these files, review their version history, compare versions, and revert to an earlier version without navigating to the Assets UI.
-
-You can also assign or update version labels to identify specific file versions for content releases and baseline management, ensuring consistency between your content and associated assets.
+Experience Manager Guides allows you to view version history and manage version labels for non-DITA files, such as images, multimedia, ZIP, PDF, and DOCX files, directly from the Editor. You can preview these files, review their version history, compare versions, and revert to an earlier version without navigating to the Assets UI. You can also apply or update version labels for existing file versions to simplify version identification and management.
 
 For more information, view [Work with media and other non-DITA files](../user-guide/authoring-file-management.md#work-with-media-and-other-non-dita-files).
 
 
-![Editor settings](./assets/version-management-non-dita-files-editor.png){width="650"}
+![Editor settings](./assets/version-management-non-dita-files.png){width="650"}
 
 
 ## Review enhancements

@@ -23,7 +23,7 @@ topic_v2:
 ---
 # Enhance efficiency with Help assistant
 
-Experience Manager Guides provides the GenAI-based smart Help, a conversational search feature that helps you find relevant content from [Adobe Experience Manager Guides documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Experience Manager Guides provides the GenAI-based smart Help, a conversational search feature that helps you find relevant content from [Adobe Experience Manager Guides documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro).
 
 You can ask your questions and get answers in an informative way. The answer to your query is based on the content from the product documentation. This search is entirely conversational. You can ask questions about the various features of Experience Manager Guides or can choose to ask troubleshooting queries. Based on the response, you can also ask further questions. The response also includes links to source documents, which you can refer to for details. 
 
