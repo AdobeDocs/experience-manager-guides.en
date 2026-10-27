@@ -166,11 +166,13 @@ This contains the Profiles that can be used to publish the **Knowledge Base** ou
     - Select the following OAuth Scopes:
         - Full access (full)
         - Select Manage user data via APIs (api)
+        - Perform requests at any time (refresh_token, offline_access)
 
         >[!NOTE]
         >
-        >Enable the **Require Proof Key for Code Exchange (PKCE) Extension for Supported Authorization Flows** setting in the Salesforce connected app. PKCE prevents an intercepted authorization code from being exchanged for an access token, which makes the connection between Experience Manager Guides and Salesforce more secure.
-
+        >- To use Proof Key for Code Exchange (PKCE), add `Perform requests at any time` to the scopes. Also contact the Customer Success team to enable this feature.
+        >- Enable the **Require Proof Key for Code Exchange (PKCE) Extension for Supported Authorization Flows** setting in the Salesforce connected app. PKCE prevents an intercepted authorization code from being exchanged for an access token, which makes the connection between Experience Manager Guides and Salesforce more secure. 
+        
         Once the app is configured, Salesforce provides a **Consumer Key** and **Consumer Secret**. These can be used to create the Salesforce profile. 
      
 
