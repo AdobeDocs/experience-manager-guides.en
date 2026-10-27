@@ -88,11 +88,7 @@ Without this configuration, topics from the first appendix are rendered as appen
 
 ## Configure the setting
 
-The following tabs provide instructions to configure this setting based on your Experience Manager Guides setup: Cloud Service or On-Premise.
-
->[!BEGINTABS]
-
->[!TAB Cloud Service]
+Following are the instructions to configure this setting: 
 
 1. Use the instructions given in [Configuration overrides](../install-conf-guide/download-install-config-override.md) to create the configuration file.
 
@@ -100,25 +96,6 @@ The following tabs provide instructions to configure this setting based on your 
 
     | PID                                     | Property Key                     | Property Value                |
     | --------------------------------------- | -------------------------------- | ----------------------------- |
-    | `com.adobe.fmdita.config.ConfigManager` | `guides.publish.config` | **Default value:** “false”    |
+    | `com.adobe.fmdita.config.ConfigManager` | `guides.publish.config` | {USE_DITA_OT_GENERATED_CLASS": false}|
 
 3. Set the value to `true` to enable the setting, and deploy the configuration using Cloud Manager.
-
->[!TAB On-Premise]
-
-1. Open the Adobe Experience Manager Web Console Configuration page.
-
-    The default URL to access the configuration page is:
-
-    ```http
-    http://<server name>:<port>/system/console/configMgr
-    ```
-
-2. Search for and select the *com.adobe.fmdita.config.ConfigManager* bundle.
-
-3. Select the setting **Guides Publish Config** (`guides.publish.config`) to enable it. By default, the setting is disabled.
-    
-4. Select **Save**.
-
->[!ENDTABS]
-

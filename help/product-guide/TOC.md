@@ -566,6 +566,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Apply styles to footnotes](./native-pdf/footnote-number-style.md)
           - [Configure the new publishing engine for Native PDF](./native-pdf/conf-new-pdf-engine.md) 
         - [Work with the Native PDF engine v2 ](./native-pdf/new-pdf-engine.md) 
+        - [Configure appendix rendering for map rendering for Native PDF](./install-conf-guide/conf-appendix-map-ref-native-pdf.md)
         - [Configure Node process for Native PDF Publishing for Cloud Service](./native-pdf/conf-node-options-cs.md) 
         - [Configure JVM flags for Native PDF Publishing for On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)      
       - Configure content and experience fragments for Cloud Service {#conf-content-exp-fragment}  
