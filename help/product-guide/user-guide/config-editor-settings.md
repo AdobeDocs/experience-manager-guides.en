@@ -29,7 +29,7 @@ Editor settings allow you to customize various options, including Track Changes,
 >- This feature is enabled by default, to disable it contact the AEM Guides Customer Success team.
 >- When working with tables, the insertion of a row or column is tracked, but the deletion of a row or column is not tracked within the Track changes panel.
 
-Enable **Track changes** mode to record the edits made to a topic. Once it is enabled, every insertion and deletion is captured as you work, and all changes are listed in the **Track changes** panel. Multiple edits within the same paragraph or list item are grouped and shown with their tags as a single change in the panel.
+Enable **Track changes** mode to record the edits made to a topic. Once it is enabled, every insertion and deletion is captured as you work, and all changes are listed in the **Track changes** panel. Consecutive edits made at the same position are grouped and displayed as a single change in the **Track changes** panel.
 
 Deleted content appears with strikethrough, while inserted content appears in green text. In addition, change bars appear along the edge of the topic page, with red bars indicating deleted content and green bars indicating added content. If a line contains both additions and deletions, both change bars are displayed.
 
