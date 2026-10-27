@@ -14,7 +14,7 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 
 ## Editor 2.0
 
-- When a `property` element is deleted, its child elements are removed but an empty `property` element remains in the document. (GUIDES-56759)
+- When a table row is selected using the breadcrumbs in the Editor and the **Delete** option is selected from the context menu, only the cell contents are removed instead of deleting the entire row. (GUIDES-56759)
 - When a table is pasted from Microsoft Word, the header row cells are created but their content is lost. (GUIDES-49847)
 - Tracked changes in files created before moving to Editor 2.0 do not appear in the **Track changes** panel. (GUIDES-44777)
 - When code is pasted into a `codeblock` element, from Microsoft Word or similar text editors, by using Ctrl+V, line breaks and leading spaces are lost and the code is flattened into a single line. (GUIDES-33247)
@@ -30,7 +30,7 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 
 ## Asset management
 
-- When a modified file is uploaded with the **Overwrite existing file** option to a folder that is listed in `Ignored Paths for Post Processing`, the upload appears to complete. However, the existing file is not replaced and no new version is created. (GUIDES-55866)
+- In a UUID-based Experience Manager Guides as a Cloud Service environment, when you upload a modified file using the **Overwrite existing file** option, the upload appears to complete if the existing file has no Guides UUID and is stored in a folder listed under **Ignored Paths for Post Processing**. However, the existing file is not overwritten, and no new version is created. (GUIDES-55866)
 - In a bookmap, when a `booktitle` element contains multiple sub-elements, such as `booklibrary` and `mainbooktitle`, extra whitespace is added between their values in the `dc:title` metadata. (GUIDES-28877)
 
 ## Publishing
@@ -73,7 +73,7 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 
 ## Platform
 
-- Users who are listed as Admin Users in a folder profile but are not members of the administrators group cannot add Admin Users. A success message appears, but the change is not saved. (GUIDES-50144)
+- When a user is assigned as an Admin User in a folder profile but is not a member of the administrators group, they cannot successfully add other Admin Users. Although a success message appears, the newly added users disappear after refreshing the page. (GUIDES-50144)
 
 ## Known issues
 

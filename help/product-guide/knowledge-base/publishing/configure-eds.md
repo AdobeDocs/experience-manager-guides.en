@@ -41,59 +41,7 @@ Perform the following steps to create your repository:
 
 The repository is now created and aligns with the boilerplate template structure.
 
-![](assets/eds-repo-created-github-view.png) 
-
-### Connect GitHub to Adobe via AEM Code Sync
-
-Adobe Experience Manager uses a GitHub application called **AEM Code Sync** to push content from Experience Manager Guides to GitHub. 
-
-Perform the following steps to install and configure the *AEM Code Sync* application:
-
-1. Navigate to the [AEM Code Sync](https://github.com/apps/aem-code-sync) page and select **Install**.
-2. *AEM Code Sync* monitors repository changes and ensures that updates are correctly pushed to GitHub.  
-
-    >[!NOTE]
-    >
-    >While installing the application, ensure that you use the same GitHub account that owns the repository.
-
-    ![](assets/eds-aem-code-sync-page.png) 
-
-3. On the next page, grant access to the repository you created. To do this, select the **Only select repositories** option and then select your repository from the dropdown.
-
-    ![](assets/eds-aem-code-sync-install-authorize.png){width="350"} 
-
-4. Select **Install and Authorize**.
-
-You are redirected to the GitHub setup page, confirming successful registration of the *AEM Code Sync* application. You can also save the Preview and Live URLs for your website from this page.
-
-![](assets/eds-aem-code-sync-registered.png) 
-
-### Create a new GitHub App
-
-1. On GitHub, navigate to the left sidebar and select **Developer settings**.
-2. In the left sidebar, select **GitHub Apps**.
-3. Select **New GitHub App**.
-
-    ![](assets/eds-new-github-app.png){width="650"} 
-
-4. On the **Register new GitHub App** page, provide the following details:
-
-    - **GitHub App name**: Enter a name for your app. For example, `USERNAME-eds-app` where USERNAME is your GitHub username.
-    - **Homepage URL**: Enter the URL to the Experience Manager Guides instance. 
-    
-      Sample URL (format): `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`
-
-      Sample URL: `https://author-p16602-e335172-cmstg.adobeaemcloud.com/libs/fmdita/clientlibs/xmleditor/page.html`
-
-    - **Callback URL**: Same as the Homepage URL.
-    - **Webhook URL**: Disable this option.
-    - **Repository permissions**: Set **Read and Write** permissions for *Actions, Administration, and Attestation*.
-
-5. Select **Create GitHub App**.  
-
-Your app is now ready. You are redirected to the **Settings** page of your GitHub App.
-
-![](assets/eds-github-app-registered-page.png)
+![](assets/eds-repo-created-github-view.png)  
 
 ### Create a new OAuth App
 
@@ -150,23 +98,79 @@ To configure the mountpoint URL in the `fstab.yaml` file:
 
 5. Repeat steps 2 and 3 from the [Connect GitHub to Adobe via AEM Code Sync](#connect-github-to-adobe-via-aem-code-sync) section to authorize the repository.
 
+### Connect GitHub to Adobe via AEM Code Sync
+
+Adobe Experience Manager uses a GitHub application called **AEM Code Sync** to push content from Experience Manager Guides to GitHub. 
+
+Perform the following steps to install and configure the *AEM Code Sync* application:
+
+1. Navigate to the [AEM Code Sync](https://github.com/apps/aem-code-sync) page and select **Install**.
+
+   **AEM Code Sync** monitors repository changes and ensures that updates are correctly pushed to GitHub.
+
+   > [!NOTE]
+   >
+   > While installing the application, ensure that you use the same GitHub account that owns the repository.
+
+   ![](assets/eds-aem-code-sync-page.png)
+
+2. On the next page, grant access to the repository you created. Select **Only select repositories**, and then select your repository from the dropdown.
+
+   ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
+
+3. Select **Install and Authorize**.
+
+   You are redirected to the GitHub setup page.
+
+   ![](./assets/aem-code-sync-source-code-github.png)
+
+4. Review the source code details and select **Next**.
+
+5. On the **Content source** page, configure the following settings:
+
+   - **Content source type:** Select **Other (bring your own markup)**.
+   - **Content source URL:** Review the URL configured as the mountpoint URL in the `fstab.yaml` file. If you have not updated the URL in the file, you can update it here.
+   - **File extension:** Change the default `.html` suffix to `.htm`.
+
+   Ensure that **Use a different content source** is selected.
+
+   ![](./assets/eds-github-content-source.png)
+
+6. On the **Users** page, add users if required, and then select **Next**.
+
+7. Review the configuration summary and select **Save**.
+
+   After successful registration, a confirmation page appears. You can copy and save the **Preview** and **Live** URLs for your website from this page.
+
+   ![](assets/eds-aem-code-sync-registered.png)
+
+## Set up and configure GitLab for EDS 
+
+For instructions on configuring GitLab as the publishing repository for Edge Delivery Services, view [Set up and configure GitLab for EDS](./configure-eds-gitlab.md).
+
 ## Create and configure a publish profile for EDS in Experience Manager 
 
 The sections below outline each step in sequence and explain how to set up EDS publish profile, configure an output preset, and generate output using EDS in Experience Manager Guides.
 
-### Create the EDS publish profile
+### Create the EDS publish profile for GitHub or GitLab
 
 1. Go to **[Workspace settings](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **Publish profiles**.
 2. Select the **+** icon to create a new publish profile and provide the following details:
 
-    - **Server type**: Select **GitHub Edge Delivery Services** from the dropdown.
-    - **Name**: Enter a name for this profile .
-    - **Repository name**: Use the GitHub repository name created from the boilerplate.
-    - **Username**: Enter your GitHub username.
-    - **Branch main**: Set to main (default).
-    - **Root folder**: Set to docs (default).
-    - **Client ID and Client Secret**: Fetch these from your GitHub App (Refer to [Create a new OAuth App](#create-a-new-oauth-app) section for details).
-
+    - **Server type\*:** Select **Git (Edge Delivery Service)** from the dropdown.
+    - **Name\*:** Enter a name for the publish profile.
+    - **Git account type\*:** Select **GitHub** or **GitLab** from the dropdown, depending on your Git repository provider.
+    - **Instance URL\*:** Enter the URL of your GitHub or GitLab instance, for example, `https://github.com` or `https://gitlab.com`.
+    - **Repository name\*:** Enter the name of your GitHub or GitLab repository.
+    - **User name\*:** Enter your GitHub or GitLab username.
+    - **Branch name:** Set to `main` (default).
+    - **Root folder\*:** Set to `docs` (default).
+    - **Site owner (*GitLab only*):** Enter the owner of the Edge Delivery Services site.
+    - **Site repo (*GitLab only*):** Enter the repository name associated with the Edge Delivery Services site.
+    - **HLX API key:** Enter the HLX API key for your EDS configuration.
+    - **Authentication credentials:** Provide the credentials based on the selected Git account type:
+        - **GitHub:** Enter the **Client ID\*** and **Client secret\*** obtained from your GitHub OAuth App. Refer to [Create a new OAuth App](#create-a-new-oauth-app) for details.
+        - **GitLab:** Enter the **Access token\*** generated for your GitLab account.
 3. Select **Login** to authenticate.
 
     ![](assets/eds-publish-profile.png){width="650"} 
@@ -185,13 +189,13 @@ Your EDS publish profile is now configured.
 4. Select **Add**.
 
     ![](assets/eds-output-preset.png){width="650"} 
-5. Open the newly created EDS output preset and navigate to the **Config** tab.
-    - Select the publish profile created in the previous step.
-    - Enable **Push to live**.
+5. Open the newly created EDS output preset and configure the following fields:
 
-    When **Push to live** is enabled, the generated output is committed to GitHub, and the corresponding updates are propagated to the live website immediately.
+    - **Conditional filtering:** Select **None** to generate output without filtering or **Using DITAVAL** to apply conditional filtering.
+    - **Publish subfolder:** Enter the name of the subfolder where the output to be published
+    - **Publish profile:** Select the GitHub or GitLab publish profile configured in the previous section.      
 
-    ![](assets/eds-output-preset-config-tab.png){width="650"} 
+        ![](assets/eds-output-preset-config.png){width="650"} 
 
 6. Select **Save**, and then **Generate output**.
 
@@ -200,6 +204,10 @@ Your EDS publish profile is now configured.
 >The generated output is stored in the **docs** folder of the EDS repository.
 
 The EDS output is now generated. The content is presented in a clean, responsive layout. It includes regular elements such as the page title, breadcrumbs, body content, and any blocks used in the topic. The TOC on the left (generated from the map) helps you to navigate across topics, while a mini-TOC on the right highlights the sections within the current page. The entire output is fully responsive, ensuring an optimized, consistent reading experience across devices.
+
+>[!NOTE]
+>
+> You can publish multiple DITA maps to the same website. The published maps appear in the left navigation panel, allowing users to access content from each map. Publishing a new map does not overwrite the previously published maps.
 
 ![](assets/eds-site-output.png) 
 
