@@ -145,6 +145,10 @@ Content health check is now available in the Old Editor as well, helping validat
 
 Authors can run a health check on a DITA map or a selected baseline in the Old Editor to generate a consolidated report of issues across associated topics and maps. For details, view [Run health check on a map](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
 
+## API enhancement
+
+The API enahncement allows you to create or update content and its metadata through a single API. It supports specifying topic content, metadata, and a GUID in the request. The API is available in the Swagger API documentation at `/bin/guides/v1/asset/upsert/`.
+
 
 <!-- ## Upsert API enhancements
 
