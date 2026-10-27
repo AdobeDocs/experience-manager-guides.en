@@ -102,7 +102,7 @@ After the preset is created, configure the SCORM preset settings. The preset con
 
     >[!NOTE]
     >
-    >By default, these settings match the previous behavior: completion at 100% of topics completed, and pass based on the graded quiz being passed. This applies to both new and existing SCORM presets, so nothing changes for existing courses unless you reconfigure these settings.
+    >By default, these settings match the previous behavior: completion at 100% of topics completed, and pass based on both the graded quiz being passed and 100% topics completed. This applies to both new and existing SCORM presets, so nothing changes for existing courses unless you reconfigure these settings.
 
 - **Publish to LMS:** Use this setting to publish your content directly to Adobe Learning Manager (ALM). From the **Publish server** dropdown, select **Adobe Learning Manager**, and then choose the required **Publish profile** that was previously configured in Workspace settings. The selected profile is used to establish the connection and upload the generated content to ALM.
 
