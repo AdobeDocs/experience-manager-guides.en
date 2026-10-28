@@ -75,10 +75,6 @@ For more details, view [Output generation](./generate-output.md).
 
 **Output history**
 
->[!NOTE]
->
-> The **Output history** feature in the Editor is available starting with the 2026.11.0 release of Experience Manager Guides as Cloud Service. This feature is disabled by default. To enable it, contact the Adobe Customer Success team.
-
 Allows you to view and manage output generation tasks for the selected DITA map directly from the Editor. You can monitor the status of ongoing and completed tasks, view output generation details, access publishing logs, and manage the output generation history.
 
 You can also search and filter output generation tasks based on preset type, task status, and date and time range, and download the output generation history in CSV format.

@@ -38,10 +38,6 @@ You can view and manage output generation tasks using the **Output history** tab
 
 ## View and manage output generation tasks from the Editor
 
->[!NOTE]
->
-> The **Output history** feature in the Editor is available starting with the 2026.11.0 release of Experience Manager Guides as Cloud Service. This feature is disabled by default. To enable it, contact the Adobe Customer Success team.
-
 You can view and manage output generation tasks directly from the **Output history** tab in the Map console.
 
 Open the DITA map in the Map console and generate the output using any of the output presets available in Experience Manager Guides. Switch to the **Output history** tab to view the status of the output generation task and other details, as shown below:
@@ -83,6 +79,8 @@ You can also use the following options to work with the output generation histor
 - **Filter**: Apply filters based on the output preset type, task status, and date and time range to narrow down the output generation history.
 
   ![](./images/output-history-filters.png)
+
+Also, the color-coded icons indicate the status of each task: green for successful tasks, orange for tasks completed with messages, and red for failed tasks. This helps you quickly identify tasks that require attention.
 
 ## View and manage output generation tasks from the Assets UI
 
