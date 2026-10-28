@@ -167,53 +167,6 @@ Folder profiles, DITA-OT customisation, and output templates.
 
 ::::
 
-## What's new
-
-<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
-
->[!BEGINSHADEBOX]
-
-<table>
-<tr style="border: 0;">
-<td>
-
-![Git Connector](../assets/whats-new-git-connector.svg)
-
-**[Import content using Git Connector](./user-guide/web-editor-git-connector.md)**
-
-Import content into Guides directly from Git repositories.
-
-</td>
-<td>
-
-![Map Collection](../assets/whats-new-map-collection.svg)
-
-**[New map collection](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
-
-Unified interface for managing maps and publishing outputs.
-
-</td>
-<td>
-
-![Delegate review](../assets/whats-new-delegate-review.svg)
-
-**[Delegate a review task](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
-
-Reviewers can delegate a review task to another reviewer.
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
-## What's new 
-
-[!BADGE 2026.09.0 Release]{type=Informative}
-
-The 2026.09.0 release of Adobe Experience Manager Guides introduces AI-powered smart tagging in AI Assistant, along with enhancements across authoring, content management, publishing, and the overall user experience.
-
-[Explore what’s new](./release-info/whats-new-2026-09-0.md)
 
 ## Quick links
 
@@ -269,9 +222,6 @@ Access helpful resources, documentation, and support to get the most out of the 
 </table>
 
 >[!ENDSHADEBOX]
-
-
-
 
 ## Additional resources
 
