@@ -72,31 +72,45 @@ Your app is now ready. Note down the *Client ID*. You can generate up to five *C
 
 ### Configure the mountpoint URL in EDS repository
 
-EDS reads content from a GitHub repository path defined as a *mountpoint* URL in the `fstab.yaml` file.
+EDS reads content from a *mountpoint* URL defined in the `fstab.yaml` file at the root of your repository. This URL points EDS to the location where Experience Manager Guides publishes the generated content.
 
 To configure the mountpoint URL in the `fstab.yaml` file:
 
-1. Open the `fstab.yaml` file in your repository and update the following:
+1. In your GitHub repository, open the `fstab.yaml` file.
+2. Update the `url` value using the following format:
 
-    - `your-user-name`
-    - `your-repo-name`
+    ```text
+    https://guides.adobe.com/eds-workers/<account type>/<git acc domain>/<git username>/<git repo>/<branch>/<root folder>
+    ```
+
+    The following table describes each field in the URL:
+
+    | Field | Description |
+    |---|---|
+    | `https://guides.adobe.com/eds-workers` | Worker URL used by Experience Manager Guides to publish content to EDS. Do not change this value. |
+    | `<account type>` | Type of Git account. Set to `github`. |
+    | `<git acc domain>` | Domain of your Git account. Set to `github.com`. |
+    | `<git username>` | Your GitHub user name. |
+    | `<git repo>` | Name of the GitHub repository you created for EDS. |
+    | `<branch>` | Branch on which you want to publish the content. The default value is `main`. If you change the branch name on GitHub, update it here and in the EDS publish profile in Experience Manager Guides. |
+    | `<root folder>` | Root folder of the repository where the published files are committed. The default value is `docs`. If you change the folder name on GitHub, update it here and in the EDS publish profile in Experience Manager Guides. |
+
+    For example, if your GitHub user name is `my-username` and your repository name is `my-eds-repo`, the `fstab.yaml` file appears as follows:
+
+    ```yaml
+    mountpoints:
+      /:
+        url: https://guides.adobe.com/eds-workers/github/github.com/my-username/my-eds-repo/main/docs
+        type: markup
+    ```
+
+    ![](assets/eds-fstab-yaml-file.png){width="650"}
 
     >[!NOTE]
     >
-    > In the mountpoint URL, `main` indicates the branch on which you want to publish the content, and `docs` indicates the root folder of the EDS repository you are working on. If you prefer to change the branch name on GitHub, then you must update the same branch name in the *mountpoint* URL (in the `fstab.yaml` file) and corresponding EDS publish profile in Experience Manager Guides. 
+    > If you continue to use the earlier URL format (`https://guides.adobe.com/eds-workers/<git username>/<git repo>/<branch>/<root folder>`), the account type and domain default to `github` and `github.com`.
 
-    ![](assets/eds-fstab-yaml-file.png){width="650"}  
-
-2. Select **Commit changes**, enter commit details, and confirm.
-3. Return to [Developer settings](https://github.com/settings/apps), locate your app, and select **Edit**.
-
-    ![](assets/eds-edit-github-app.png){width="650"}  
-
-4. Navigate to the **Install App** page and select **Install**.
-
-     ![](assets/eds-install-eds-app.png){width="650"} 
-
-5. Repeat steps 2 and 3 from the [Connect GitHub to Adobe via AEM Code Sync](#connect-github-to-adobe-via-aem-code-sync) section to authorize the repository.
+3. Repeat steps 2 and 3 from the [Connect GitHub to Adobe via AEM Code Sync](#connect-github-to-adobe-via-aem-code-sync) section to authorize the repository.
 
 ### Connect GitHub to Adobe via AEM Code Sync
 
@@ -171,11 +185,11 @@ The sections below outline each step in sequence and explain how to set up EDS p
     - **Authentication credentials:** Provide the credentials based on the selected Git account type:
         - **GitHub:** Enter the **Client ID\*** and **Client secret\*** obtained from your GitHub OAuth App. Refer to [Create a new OAuth App](#create-a-new-oauth-app) for details.
         - **GitLab:** Enter the **Access token\*** generated for your GitLab account.
-3. Select **Login** to authenticate.
+3. (*GitHub only*) Select **Login** to authenticate. For GitLab, no login is required because the access token is used for authentication.
 
     ![](assets/eds-publish-profile.png){width="650"} 
 
-4. On successful authentication, select **Save**.
+4. Select **Save**. For GitHub, the **Save** option is available after successful authentication.
 
 Your EDS publish profile is now configured.
 
@@ -192,7 +206,7 @@ Your EDS publish profile is now configured.
 5. Open the newly created EDS output preset and configure the following fields:
 
     - **Conditional filtering:** Select **None** to generate output without filtering or **Using DITAVAL** to apply conditional filtering.
-    - **Publish subfolder:** Enter the name of the subfolder where the output to be published
+    - **Publish subfolder:**  Enter the name of the subfolder in which the output is published. The subfolder is created in your repository under the root folder, and its name appears in the EDS links to the published content. For example, if the root folder is `docs` and the publish subfolder is `product-guide`, the content is published to `docs/contents/product-guide`.
     - **Publish profile:** Select the GitHub or GitLab publish profile configured in the previous section.      
 
         ![](assets/eds-output-preset-config.png){width="650"} 
@@ -201,7 +215,7 @@ Your EDS publish profile is now configured.
 
 >[!NOTE]
 >
->The generated output is stored in the **docs** folder of the EDS repository.
+>The generated output is stored in the `<root folder>/contents/<publish subfolder>` folder of the EDS repository.
 
 The EDS output is now generated. The content is presented in a clean, responsive layout. It includes regular elements such as the page title, breadcrumbs, body content, and any blocks used in the topic. The TOC on the left (generated from the map) helps you to navigate across topics, while a mini-TOC on the right highlights the sections within the current page. The entire output is fully responsive, ensuring an optimized, consistent reading experience across devices.
 
