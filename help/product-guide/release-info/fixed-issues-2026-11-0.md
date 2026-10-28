@@ -79,24 +79,27 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 
 Adobe has identified the following known issues for the 2026.09.0 release:
 
-### Editor 2.0
+## Authoring
 
 - When you create a map from a template containing dependent topics or submaps, map creation may intermittently fail with an error, particularly when the server is under heavy load. (GUIDES-58715)
-- When you create a topic, it is sometimes created with a blank title. (GUIDES-58420)
-- The `navtitle` attribute is not automatically added to newly inserted `<topicref>` elements in a DITA map, even when it is configured as a required attribute in `ui_config.json`. (GUIDES-54348)
+
+### Editor 2.0
+
+- In some cases, a topic is created with a blank title. (GUIDES-58420)
+- The **Refresh navigation title attribute** option does not add the `@navtitle` attribute to existing `topicref` elements in a DITA map. (GUIDES-54348) (GUIDES-54348)
 
 **Track changes**
 
 When **Track changes** is turned on:
 
-- Nested deletions made by the same user are not always merged into a single entry, particularly when the change involves renaming or formatting. (GUIDES-58429)
+- Nested deletions by the same user are not always merged into a single entry when the element containing the deleted content is renamed or formatted. (GUIDES-58429)
 - The **Track Changes** panel sometimes shows incomplete content for the parent element when a nested deletion is made by a different user. (GUIDES-58428)
-- The red gutter marker does not appear on the left when you delete content within an insertion made by another user, regardless of whether the deletion is resolved. (GUIDES-58418)
+- The red gutter marker does not appear on the left when you delete content within an insertion made by another user. (GUIDES-58418)
 
 ### Publishing
 
 - In Native PDF output, superscript and subscript formatting is not preserved in index entries. (GUIDES-58349)
-- When you generate output using a global preset with a topic selected in the topic list, and then use the same preset for a different map, the output may be incorrect because the previous topic selection is not properly reset or resolved for the new map. (GUIDES-58346)
+- When you use the same global preset to generate output for different maps, the topic selection from the previous map may affect the output of the new map. (GUIDES-58346) 
 - When a book map contains a chapter with a valid `href` and a nested topic reference, publishing the map to AEM Sites results in a blank page. (GUIDES-58266)
 - When you navigate to the **Output history** tab from a preset with unsaved changes, the **Save** and **Generate output** buttons remain visible. (GUIDES-57989)
 - When a post-publishing workflow is configured for a preset, the publishing duration shown in **Output history** does not include the time taken by the workflow. (GUIDES-57856)
