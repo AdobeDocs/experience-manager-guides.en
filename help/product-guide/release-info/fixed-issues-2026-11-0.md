@@ -30,7 +30,7 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 
 ## Asset management
 
-- In a UUID-based Experience Manager Guides as a Cloud Service environment, when you upload a modified file using the **Overwrite existing file** option, the upload appears to complete if the existing file has no Guides UUID and is stored in a folder listed under **Ignored Paths for Post Processing**. However, the existing file is not overwritten, and no new version is created. (GUIDES-55866)
+- When you upload a modified file using the **Overwrite existing file** option, the upload appears to complete if the existing file has no Guides UUID and is stored in a folder listed under **Ignored Paths for Post Processing**. However, the existing file is not overwritten, and no new version is created. (GUIDES-55866)
 - In a bookmap, when a `booktitle` element contains multiple sub-elements, such as `booklibrary` and `mainbooktitle`, extra whitespace is added between their values in the `dc:title` metadata. (GUIDES-28877)
 
 ## Publishing
