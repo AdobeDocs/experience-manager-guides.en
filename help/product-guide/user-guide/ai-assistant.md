@@ -92,7 +92,7 @@ Read the user guidelines carefully and then select  **Get started** to launch th
 
 >[!NOTE]
 >
->If you have already consented to the guidelines for using the Help assistant feature, you can skip this step and continue using the feature.
+>If you have already consented to the guidelines for using the Help Assistant feature, you will not be prompted for consent again and can continue using the AI Assistant feature.
 
 **Related topics**
 

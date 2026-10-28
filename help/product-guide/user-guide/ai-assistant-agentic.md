@@ -5,7 +5,7 @@ description: Learn how to use Agentic AI Assistant for smart tagging capability 
 
 # Smart tagging with AI Assistant
 
-The Smart tagging skill, available in AI Assistant's Agentic mode through Adobe CX Enterprise Coworker, makes tagging your content faster, easier, and more consistent. It analyzes your content and recommends relevant tags based on your organization's taxonomy, eliminating the need to manually review content and identify applicable tags. Your Administrator can configure the taxonomies used to generate tag recommendations through **Workspace settings** by selecting the relevant namespaces for your workspace.
+The Smart tagging skill, available in AI Assistant's Agentic mode through Adobe CX Enterprise Coworker, makes tagging your content faster, easier, and more consistent. It analyzes your content and recommends relevant tags based on your organization's taxonomy, eliminating the need to manually review content and identify applicable tags. Your Administrator can configure the taxonomies used to generate tag recommendations through [Workspace settings](../install-conf-guide/workspace-settings.md#general) by selecting the relevant namespaces for your workspace.
 
 
 You stay in control by reviewing the suggested tags and choosing to apply or reject them before confirming your selection. This reduces manual effort, improves tagging accuracy, and helps maintain consistent metadata across your documentation.

@@ -3,7 +3,7 @@ title: Create topics and maps with AI Assistant
 description: Learn how to draft new DITA topics and maps from your notes, specifications, or pasted content with AI Assistant, then review them before saving.
 ---
 
-# Create first draft of you content 
+# Create first draft of your content 
 
 The **Create** skill in AI Assistant's Agentic mode helps you generate first draft of structured content from notes, specifications, whiteboard images, screenshots, or other available reference materials. The skill automatically identifies the appropriate DITA topic type, such as Concept, Task, Reference, or Troubleshooting, based on the content and topic templates available in your repository, reducing the manual effort required to structure and author content.
 
@@ -20,15 +20,13 @@ You can attach a file, select an existing file as a reference for tone and style
 
    - **Using shortcut**: Type `/` in the Prompt field, then choose **Add repository reference** to choose the file from the Repository (or **Add files from device** to upload the file from your computer).
 
-   - **Using `Attach files or add context (+)*` icon**: Adds files from your local system. 
+   - **Using `Attach files or add context` icon (+)**: Adds files from your local system. 
 
    **Drag and drop**: Drag and drop the file you want to draft from the system directly into the prompt space.   
 
 1. *(Optional)* In the prompt, select `[file]`. Select the existing topic whose tone you want the draft to match. You can choose the topic from the repository or from a collection. The topic name replaces `[file]` in the prompt.
 
    ![Select the file placeholder to choose the topic](images/sample-create.png){width="350"}
-
-1. You can also edit the prompt to name the topic types and the save folder. For example, enter `Create a task topic from these notes in /content/dam/guides/new.` AI Assistant uses a full folder path as entered.
 
 1. Select **Send**.
 
@@ -47,7 +45,7 @@ You can attach a file, select an existing file as a reference for tone and style
 1. Select one of the following:
 
    - **Accept** to save the topic to the folder you confirmed
-   - **Reject** to discard the changes without saving anything. You can provide a reason for rejecting the import and enter a prompt specifying the changes you want. The AI Assistant uses your feedback to revise the import.      
+   - **Reject** to discard the changes without saving anything. You can provide a reason for rejecting the draft content and enter a prompt specifying the changes you want. The AI Assistant uses your feedback to revise the draft content.      
 
       The topic is now available in your repository.
 
