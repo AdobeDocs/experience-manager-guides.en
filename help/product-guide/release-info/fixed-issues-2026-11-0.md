@@ -63,7 +63,7 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 - On the **Reviewers** page, during the creation or editing of a review task, the **Clear Selection**, **Add Reviewers**, **Remove Reviewers**, and **Re-assign Reviewers** buttons are enabled by default, even when no rows are selected. (GUIDES-35125) 
 - In the AEM inbox, notifications related to review tasks, such as task assignment, feedback received, mentions, and due or overdue reminders, are displayed without any project name. (GUIDES-10912)
 - In the Side-by-side view of a topic in a review task, content marked with strikethrough appears with different formatting in the two views. (GUIDES-56079)
-- Opening a review task created in the 2026.08.0 or 2026.09.0 release may result in application errors. <br>**Workaround:** Complete or close all review tasks created in these releases before upgrading to the 2026.11.0 release.
+- Opening a review task created in the 2026.08.0 or 2026.09.0 release may result in application errors. (GUIDES-56583) <br>**Workaround:** Complete or close all review tasks created in these releases before upgrading to the 2026.11.0 release.
 
 ## Learning content
 
