@@ -77,7 +77,7 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 
 ## Known issues
 
-Adobe has identified the following known issues for the 2026.09.0 release:
+Adobe has identified the following known issues for the 2026.11.0 release:
 
 ## Authoring
 
@@ -85,7 +85,6 @@ Adobe has identified the following known issues for the 2026.09.0 release:
 
 ### Editor 2.0
 
-- In some cases, a topic is created with a blank title. (GUIDES-58420)
 - The **Refresh navigation title attribute** option does not add the `@navtitle` attribute to existing `topicref` elements in a DITA map. (GUIDES-54348) (GUIDES-54348)
 
 **Track changes**
