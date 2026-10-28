@@ -167,7 +167,7 @@ The sections below outline each step in sequence and explain how to set up EDS p
     - **Root folder\*:** Set to `docs` (default).
     - **Site owner (*GitLab only*):** Enter the owner of the Edge Delivery Services site.
     - **Site repo (*GitLab only*):** Enter the repository name associated with the Edge Delivery Services site.
-    - **HLX API key:** Enter the HLX API key for your EDS configuration.
+    - **HLX API key:** Enter the HLX API key for your EDS configuration. This key is required to support the Unpublished feature introduced in the 2026.11.0 release of Experience Manager Guides as a Cloud Service. Also, the key is required for publishing the content to EDS if the content size is more than 100 files. 
     - **Authentication credentials:** Provide the credentials based on the selected Git account type:
         - **GitHub:** Enter the **Client ID\*** and **Client secret\*** obtained from your GitHub OAuth App. Refer to [Create a new OAuth App](#create-a-new-oauth-app) for details.
         - **GitLab:** Enter the **Access token\*** generated for your GitLab account.

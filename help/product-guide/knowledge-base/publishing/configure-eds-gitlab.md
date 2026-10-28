@@ -8,216 +8,131 @@ level: Experienced
 
 # Set up and configure GitLab for Edge Delivery Services
 
-Learn how to configure GitLab as the publishing repository for Edge Delivery Services (EDS) using Adobe Experience Manager Guides.
+To publish content from Experience Manager Guides to Edge Delivery Services (EDS) using GitLab, you connect a GitLab repository to your EDS site through Cloud Manager's *Bring Your Own Git* (BYOG) capability. This article lists the steps in sequence. For details on each step, follow the linked documentation.
 
-To publish content to EDS using GitLab, you must configure repositories on both GitHub and GitLab. The GitHub repository is used to create the EDS site through the AEM Code Sync app, while the GitLab repository stores the content published from Experience Manager Guides.
+## How it works
+
+- A **GitHub repository** creates the EDS site through the AEM Code Sync app.
+- A **GitLab repository** stores the content published from Experience Manager Guides.
+- **Cloud Manager** links the two by receiving GitLab push events (webhook) and syncing them to the EDS site.
 
 ## Prerequisites
 
-Before you begin, ensure that you have:
+- Access to GitHub and GitLab (GitLab.com or self-hosted) to create repositories and tokens.
+- Access to Cloud Manager, with a role that allows adding repositories (Deployment Manager or Business Owner).
+- System Administrator or API Developer role in your Adobe organization to create the Cloud Manager API integration.
+- An `aem.live` organization registered in the configuration service. Learn more in [Configuration service setup](https://www.aem.live/docs/config-service-setup).
 
-- Access to GitHub and GitLab to create and configure repositories.
-- Access to Cloud Manager to configure repositories, webhooks, and EDS sites.
-- System Administrator or API Developer permissions in your Adobe organization to configure the Cloud Manager API integration.
+## Configuration sequence
 
-## Create and configure the repositories
+1. [Create the EDS site using GitHub](#1-create-the-eds-site-using-github)
+2. [Create the GitLab repository](#2-create-the-gitlab-repository)
+3. [Configure the mountpoint URL](#3-configure-the-mountpoint-url)
+4. [Create GitLab access tokens](#4-create-gitlab-access-tokens)
+5. [Add the GitLab repository to Cloud Manager](#5-add-the-gitlab-repository-to-cloud-manager)
+6. [Generate a Cloud Manager API key](#6-generate-a-cloud-manager-api-key)
+7. [Configure the GitLab webhook](#7-configure-the-gitlab-webhook)
+8. [Add the EDS site to Cloud Manager](#8-add-the-eds-site-to-cloud-manager)
+9. [Connect the repository using Bring Your Own Git](#9-connect-the-repository-using-bring-your-own-git)
+10. [Configure the EDS site to use Cloud Manager](#10-configure-the-eds-site-to-use-cloud-manager)
+11. [Sync and verify](#11-sync-and-verify)
+12. [Publish from Experience Manager Guides](#12-publish-from-experience-manager-guides)
 
-### Create the GitHub repository
+### 1. Create the EDS site using GitHub
 
-[Create a GitHub repository using the AEM Guides boilerplate template](configure-eds.md#create-a-github-repository-for-eds).
+Create a GitHub repository from the AEM Guides boilerplate and install the AEM Code Sync app on it. Save the generated **Live URL** (`https://<branch>--<github-repo>--<github-username>.aem.live`) for later.
 
-The GitHub repository contains the files required to create the EDS site, including the `fstab.yaml` file that defines the content source.
+For steps, view [Create a GitHub repository for EDS](./configure-eds.md#create-a-github-repository-for-eds) and [Connect GitHub to Adobe via AEM Code Sync](./configure-eds.md#connect-github-to-adobe-via-aem-code-sync).
 
-### Create the GitLab repository
+>[!IMPORTANT]
+>
+> Do not create the EDS site using the one-click option in Cloud Manager. Sites created that way do not give you the admin permissions required for the later steps. Learn more in [Prepare your Edge Delivery Services site](https://www.aem.live/developer/byo-git#1.-prepare-your-edge-delivery-services-site).
 
-Create a separate GitLab repository to store the content published from Experience Manager Guides.
+### 2. Create the GitLab repository
 
-1. Sign in to GitLab.
-2. Create a new repository using the same AEM Guides boilerplate template. You can import the GitHub template into GitLab or use a mirrored template.
-3. Enter a repository name, for example, `my-eds-gitlab`.
-4. Create the repository.
+Create a separate GitLab repository (for example, `my-eds-gitlab`) from the same AEM Guides boilerplate. Experience Manager Guides publishes the generated output to this repository. EDS expects a `main` branch.
 
-The GitLab repository serves as the publishing destination for the generated EDS content.
+To create the repository, either create a blank project and push the contents of [aem-guides-boilerplate](https://github.com/adobe/aem-guides-boilerplate) to it, or import the boilerplate into a new project. For steps, view [Create a project](https://docs.gitlab.com/user/project/) and [Import your project from GitHub to GitLab](https://docs.gitlab.com/user/project/import/github/) in the GitLab documentation.
 
-### Configure the mountpoint URL
+### 3. Configure the mountpoint URL
 
-Update the mountpoint URL in the GitHub repository to point to the GitLab repository.
-
-1. Open the `fstab.yaml` file in your GitHub repository.
-2. Configure the content source URL using the following format:
-
-   ```text
-   https://<worker URL>/<account type>/<git acc domain>/<git username>/<git repo>/main/docs
-   ```
-
-   Specify the following values:
-
-   | Parameter | Description |
-   |---|---|
-   | `<worker URL>` | Worker node URL provided by Adobe. |
-   | `<account type>` | Set to `gitlab`. |
-   | `<git acc domain>` | GitLab domain, such as `gitlab.com`, or your self-hosted GitLab domain. |
-   | `<git username>` | Your GitLab username. |
-   | `<git repo>` | Name of the GitLab repository. |
-   | `main` | Branch name (default). |
-   | `docs` | Root folder where the published files are committed. |
-
-3. Commit the changes to the `main` branch.
-
-### Configure AEM Code Sync
-
-Install the AEM Code Sync app on the GitHub repository to create the EDS site.
-
-For detailed instructions, see [Connect GitHub to Adobe via AEM Code Sync](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-eds#connect-github-to-adobe-via-aem-code-sync).
-
-After installing the app, save the generated **Live URL**. You will need it when adding the EDS site to Cloud Manager.
-
-The live URL follows this format:
+In the GitHub repository, update `fstab.yaml` so the content source points to the GitLab repository, and commit the change to `main`.
 
 ```text
-https://<branch>--<github-repo>--<github-username>.aem.live
+https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 ```
 
-## Configure GitLab authentication
+| Parameter | Description |
+|---|---|
+| `<worker URL>` | Worker node URL provided by Adobe. |
+| `<git acc domain>` | GitLab domain, such as `gitlab.com`, or your self-hosted domain. |
+| `<git username>` | Your GitLab username. |
+| `<git repo>` | Name of the GitLab repository. |
+| `main` / `docs` | Branch and root folder. Defaults for Experience Manager Guides. |
 
-Create a project access token to allow Experience Manager Guides to authenticate and publish content to the GitLab repository.
+### 4. Create GitLab access tokens
 
-1. Open the GitLab repository.
-2. Navigate to **Settings** > **Access tokens** and select **Add new token**.
-3. Specify the following details:
-   - **Token name:** Enter a descriptive name, for example, `AEM Guides EDS`.
-   - **Expiration date:** Set an expiration date according to your organization's policy.
-   - **Role:** Select **Developer**.
-   - **Scopes:** Select `api` to allow reading, adding, editing, and deleting files in the repository.
-4. Select **Create project access token**.
-5. Copy and securely store the generated token. The token is displayed only once.
+Create the access token(s) required for:
 
-You will need this token when configuring the GitLab publish profile in Experience Manager Guides.
+- **Cloud Manager**, to validate and access the repository. Learn more in [Add external repositories in Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+- **Experience Manager Guides publish profile**, to commit published output. Create a GitLab project access token with the **Developer** role and the `api` scope. Learn more in the [GitLab documentation](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html).
 
-**Note:** Renew the access token before it expires and update it in the publish profile. Publishing fails if the token has expired.
+>[!NOTE]
+>
+> Renew tokens before they expire. Publishing fails if the token in the publish profile has expired. To update a token used by Cloud Manager, view [Manage access tokens for external repositories](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
 
-## Configure Cloud Manager
+### 5. Add the GitLab repository to Cloud Manager
 
-### Add the GitLab repository
+In Cloud Manager, go to **Repositories** > **Add Repository**, select **Private Repository**, and validate ownership using the access token. Wait until the repository status is **Ready**. The BYOG option is available only after at least one external repository is Ready.
 
-1. Open Cloud Manager.
-2. Navigate to **Repositories** > **Add Repository**.
-3. Specify the following details:
-   - **Name:** Enter a display name for the repository.
-   - **Repository path:** Enter the full URL or path of your GitLab repository.
-4. Select **Save**.
+For steps, view [Add external repositories in Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 
-### Generate an API key using Adobe Developer Console
+### 6. Generate a Cloud Manager API key
 
-Create an API integration in Adobe Developer Console to generate the API key required for authenticating the Cloud Manager webhook URL.
+Create an API integration in Adobe Developer Console (**Cloud Manager** API, **OAuth Server-to-Server**) and copy the **Client ID (API Key)**.
 
-1. Navigate to [Adobe Developer Console](https://developer.adobe.com/console).
-2. Select **Create new project** or open an existing project.
-3. Optionally, select **Edit project** to update the project title and description.
-4. Select **Add to Project** > **API**.
-5. Under **Experience Cloud**, select **Cloud Manager**, and then select **Next**.
-6. Select **OAuth Server-to-Server** as the authentication type.
-7. Select the appropriate **Product Profile** to assign the integration to a Cloud Manager role.
-8. Select **Save configured API**.
-9. Copy the generated **Client ID (API Key)**.
+For steps, view [Creating an API integration project](https://developer.adobe.com/experience-cloud/cloud-manager/guides/getting-started/create-api-integration).
 
-You will need the Client ID when configuring the GitLab webhook.
+### 7. Configure the GitLab webhook
 
-### Configure the GitLab webhook
+In Cloud Manager, select **Config Webhook** for the repository and copy the **Webhook URL** and **Secret**. Append the API key to the URL (`<webhook URL>&api-key=<CLIENT_ID>`). In GitLab, go to **Settings** > **Webhooks**, add the URL and secret, select the `main` branch, and enable **Push events**.
 
-Configure a webhook to notify Cloud Manager whenever changes are pushed to the GitLab repository.
+For details, view [Configure your external repository in Cloud Manager](https://www.aem.live/developer/byo-git#2.-configure-your-external-repository-in-cloud-manager).
 
-1. In Cloud Manager, locate the GitLab repository added earlier.
-2. Select **Config Webhook**.
-3. Copy the **Webhook URL** and **Secret** displayed in the dialog.
-4. Append the Client ID generated in Adobe Developer Console to the webhook URL using the following format:
+### 8. Add the EDS site to Cloud Manager
 
-   ```text
-   <webhook URL from Cloud Manager>&api-key=<CLIENT_ID>
-   ```
+In Cloud Manager, go to **Edge Delivery** > **Add Edge Delivery Site** and enter the Live URL saved in step 1. Complete the ownership validation.
 
-5. Open your GitLab repository.
-6. Navigate to **Settings** > **Webhooks** > **Add webhook**.
-7. Specify the following details:
-   - **Payload URL:** Enter the complete Cloud Manager webhook URL with the API key appended.
-   - **Secret Token:** Enter the secret copied from Cloud Manager.
-   - **Branch:** Select the branch to monitor, for example, `main`.
-   - **Events:** Select at least **Push events**.
-8. Save the webhook.
+For steps, view [Add an Edge Delivery site](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/edge-delivery-sites/add-edge-delivery-site).
 
-The GitLab repository is now connected to Cloud Manager.
+### 9. Connect the repository using Bring Your Own Git
 
-### Add the EDS site to Cloud Manager
+On the EDS site in Cloud Manager, select **Bring Your Own Git (BYOG)**, choose the GitLab repository, and confirm. Copy and securely store the generated secret. It is shown only once, and a new secret is generated if you reconfigure the site.
 
-Add the EDS site created through AEM Code Sync to Cloud Manager.
+For details, view [Configure your Edge Delivery site in Cloud Manager](https://www.aem.live/developer/byo-git#3.-configure-your-edge-delivery-site-in-cloud-manager).
 
-**Important:** Do not create the EDS site directly from Cloud Manager. Sites created through Cloud Manager do not have the administrative rights required to modify content and settings. Create the site using AEM Code Sync, and then add it to Cloud Manager.
+### 10. Configure the EDS site to use Cloud Manager
 
-1. In Cloud Manager, navigate to the **Edge Delivery** section.
-2. Select **Add Site**.
-3. Specify the following details:
-   - **Name:** Enter a display name for the site.
-   - **Live URL:** Enter the live URL generated by AEM Code Sync.
-   - **Description:** Optionally, enter a description.
-4. Select **Add**.
+Set the EDS site's code source to the Cloud Manager repository, using the **Program ID** (`/program/<PROGRAM_ID>/`) and **Repository ID** (`/repo/<REPO_ID>/`) from the webhook URL. Then create a secret named exactly `cm-byog` with the secret from step 9.
 
-### Connect the GitLab repository using Bring Your Own Git
+For the Admin API calls, view [Configure your AEM site to use Cloud Manager](https://www.aem.live/developer/byo-git#4.-configure-your-aem-site-to-use-cloud-manager).
 
-Use Bring Your Own Git (BYOG) to connect the GitLab repository registered in Cloud Manager to the EDS site.
+### 11. Sync and verify
 
-1. In Cloud Manager, navigate to the **Edge Delivery** section.
-2. Locate the EDS site.
-3. Select **Bring Your Own Git (BYOG)**.
-4. Select the GitLab repository from the list.
-5. Select **Confirm**.
-6. Copy and securely store the secret key generated by Cloud Manager.
+In Cloud Manager, select **Sync Code** from the site's menu and choose the `main` branch. Then open `https://main--<site>--<org>.aem.page` to verify the site.
 
-You will need this secret when configuring the Site Admin Tool.
+For details, view [Trigger your first sync](https://www.aem.live/developer/byo-git#5.-trigger-your-first-sync) and [Verify your AEM site](https://www.aem.live/developer/byo-git#6.-verify-your-aem-site).
 
-## Configure the Site Admin Tool
+### 12. Publish from Experience Manager Guides
 
-Configure the Site Admin Tool to connect the EDS site to the GitLab repository through Cloud Manager.
+Create an EDS publish profile with **Git account type** set to **GitLab**, using the project access token from step 4. Then select this profile in an EDS output preset and generate the output. The output is committed to the `docs` folder of the GitLab repository.
 
-### Configure the content source
+For steps, view [Create the EDS publish profile](./configure-eds.md#create-the-eds-publish-profile-for-github-or-gitlab) and [Create an Output preset for EDS and generate output](./configure-eds.md#create-an-output-preset-for-eds-and-generate-output).
 
-1. Open the **Site Admin Tool** for your EDS site.
-2. Locate your site. The site name is derived from the GitHub live URL using the following format:
+## Troubleshooting
 
-   ```text
-   <branch>--<github-repo>--<github-username>
-   ```
+- **Site shows old content after a push:** Verify that the webhook is delivering events to Cloud Manager, then check the status of the latest sync job.
+- **Sync error `Unable to fetch hlxignore: 401`:** The `cm-byog` secret is incorrect. Re-create it with the secret from step 9.
+- **Repository linked to another site:** A Cloud Manager repository can be linked to only one site at a time. To share a repository across sites, use [Repoless](https://www.aem.live/docs/repoless).
 
-3. Select **Edit Source**.
-4. Enable **Bring Your Own Git**.
-5. Specify the following details:
-   - **Content Source URL:** Enter the same GitLab content source URL configured in the `fstab.yaml` file.
-   - **Owner:** Enter the Cloud Manager Program ID, available in the webhook URL under `/program/<PROGRAM_ID>/`.
-   - **Repo:** Enter the Cloud Manager Repository ID, available in the webhook URL under `/repo/<REPO_ID>/`.
-6. Save the changes.
-
-### Configure the Cloud Manager secret
-
-1. In the Site Admin Tool, select **Manage Secrets**.
-2. Add a new secret with the following values:
-   - **Key name:** Enter `cm-byog`.
-   - **Value:** Enter the secret generated by Cloud Manager when configuring BYOG.
-3. Select **Create**.
-
-**Note:** Use `cm-byog` as the exact secret key name.
-
-The EDS site is now connected to Cloud Manager and the GitLab repository.
-
-## Publish content to EDS using GitLab
-
-After completing the GitLab configuration, create an EDS publish profile in Experience Manager Guides.
-
-1. Follow the instructions in [Create the EDS publish profile](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-eds#create-the-eds-publish-profile).
-2. Select **GitLab** as the **Git account type** and provide the required repository details.
-3. Enter the project access token generated earlier in the **Access token** field.
-4. Save the publish profile.
-
-To publish your content, follow the instructions in [Create an Output preset for EDS and generate output](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-eds#create-an-output-preset-for-eds-and-generate-output).
-
-Select the GitLab publish profile when configuring the output preset.
-
-The generated content is committed to the `docs` folder in your GitLab repository and can be accessed through the EDS site.
+For more details, view [Troubleshooting in Bring Your Own Git](https://www.aem.live/developer/byo-git#troubleshooting).
