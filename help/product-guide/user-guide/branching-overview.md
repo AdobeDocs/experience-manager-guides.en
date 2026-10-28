@@ -28,7 +28,7 @@ topic_v2:
 
 >[!NOTE]
 >
-> The branching feature is introduced in the 2026.11.0 release of Experience Manager Guides as a Cloud Service and is disabled by default. To enable the feature for your environment, contact your Customer Success team.
+> The branching and merging feature is introduced in the 2026.11.0 release of Experience Manager Guides as a Cloud Service and is disabled by default. To enable the feature for your environment, contact your Customer Success team.
 
 Branching in Adobe Experience Manager Guides allows you to create and manage multiple branches of a DITA map to work on different documentation releases in parallel. Each branch allows authors to manage content changes independently, without affecting the corresponding content in other branches.
 
@@ -80,12 +80,11 @@ A **branch** allows authors to develop and manage content changes independently 
 | Used to publish specific combinations of topic versions. | Used to develop and publish different releases in parallel. |
 | Do not provide isolated editing contexts. | Support isolated editing and merging. |
 
-## Limitations
+## Upcoming functionalities
 
-Branching in Experience Manager Guides currently does not support the following features:
+The branching and merging feature in Experience Manager Guides is planned to support the following functionalities in upcoming releases:
 
 - Search
 - Find and replace
 - Review workflows
-- Translation workflows
 
