@@ -41,20 +41,20 @@ The AI Assistant in Adobe Experience Manager Guides is an AI-powered tool design
  
 AI Assistant is available in two modes: **Agentic** and **Standard**. Administrators can select the mode from the **AI features** section of the **General** tab in **Workspace settings**. The AI Assistant panel remains the same in both modes in the Editor, but the available capabilities differ:
 
-- **Agentic mode:** Uses skills from Adobe CX Enterprise Coworker, including **Import**, **Create**, and **Smart tagging**, to convert files into structured topics, generate content, and recommend relevant tags based on your organization's taxonomy.
+- **Agentic mode:** Uses skills from Adobe CX Enterprise Coworker, including **Import**, **Create**, and **Smart tagging**, to convert files into structured topics, create first draft of content, and recommend relevant tags based on your organization's taxonomy.
 - **Standard mode:** Provides AI-powered authoring assistance through contextual actions, such as content reuse, translation, and content quality improvements, to streamline authoring workflows.
 
 ## Agentic mode
 
 >[!NOTE]
 >
-> AI Assistant in Agentic mode is available in Experience Manager Guides as a Cloud Service starting with the 2026.11.0 release. It requires your organization to be onboarded to CX Enterprise Coworker; once onboarded, contact your Customer Success team to enable the feature. For configuration details, view [Configure AI Assistant in Agentic Mode](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
+> AI Assistant in Agentic mode is available in Experience Manager Guides as a Cloud Service starting with the 2026.11.0 release. It requires your organization to be onboarded to CX Enterprise Coworker and have available credits; once onboarded, contact your Customer Success team to enable the feature. For configuration details, view [Configure AI Assistant in Agentic Mode](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
 
 Agentic mode in AI Assistant enables you to perform a wide range of content-related tasks through natural language interactions, such as creating and importing content, summarizing topics, adding topics to maps, and managing metadata. You can describe your requirements in the chat panel, and AI Assistant plans and executes tasks while providing visibility into their progress. Agentic mode provides quick access to the following skills:
 
 - **Import**: Converts PDF, Word, or Markdown files from your device or content repository into structured topics. For more details, view [Import content with AI Assistant](./import-ai-assistant.md).
 
-- **Create**: Generates new topics based on your requirements, with options to reference existing content for tone and style. For more details, view [Create content with AI Assistant](./create-ai-assistant.md).
+- **Create**: Generates draft topics and maps from input materials such as specifications, whiteboard images, screenshots, and other reference content, with the option to use existing content for tone and style. For more details, view [Create content with AI Assistant](./create-ai-assistant.md).
 
 - **Smart Tagging**: Recommends relevant tags for topics based on your organization's taxonomy to improve metadata consistency. For more details, view [Smart tagging with AI Assistant](./ai-assistant-agentic.md).
 
@@ -78,9 +78,9 @@ For more details, view [Author documents with AI Assistant](./ai-assistant-right
 ![ai assistant](./images/ai-assistant-panel.png)
 
 
-## Get started with AI Assistant in Standard mode
+## Get started with AI Assistant
 
-When you use the **AI Assistant** in Standard mode for the first-time, you are prompted to submit your consent before you use the Experience Manager Guides Generative AI features. 
+When you use the **AI Assistant** for the first-time, you are prompted to submit your consent before you use the Experience Manager Guides Generative AI features. 
 
 Perform the following steps to launch AI Assistant: 
 
@@ -88,10 +88,11 @@ Perform the following steps to launch AI Assistant:
 1. On the Home page, select **AI Assistant** from the top. Ensure that your Administrator has enabled the AI Assistant feature in the desired mode. 
 
 The AI Assistant displays the key features, user guidelines link, and a **Get started** button.
+Read the user guidelines carefully and then select  **Get started** to launch the AI Assistant. 
 
-  ![Smart Help panel](images/get-started-ai.png)
-
-  Read the user guidelines carefully and then select  **Get started** to launch the AI Assistant. 
+>[!NOTE]
+>
+>If you have already consented to the guidelines for using the Help assistant feature, you can skip this step and continue using the feature.
 
 **Related topics**
 

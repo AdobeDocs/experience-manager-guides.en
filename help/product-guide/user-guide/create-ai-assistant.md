@@ -3,11 +3,11 @@ title: Create topics and maps with AI Assistant
 description: Learn how to draft new DITA topics and maps from your notes, specifications, or pasted content with AI Assistant, then review them before saving.
 ---
 
-# Create content with AI Assistant
+# Draft content with AI Assistant
 
-The **Create** skill in AI Assistant's Agentic mode helps you generate structured content from notes, specifications, or other source content. It uses templates available in your repository to create drafts, reducing the effort required to structure and author content manually.
+The **Create** skill in AI Assistant's Agentic mode helps you generate structured content from notes, specifications, whiteboard images, screenshots, or other available reference materials. The skill automatically identifies the appropriate DITA topic type, such as Concept, Task, Reference, or Troubleshooting, based on the content and topic templates available in your repository, reducing the manual effort required to structure and author content.
 
-You can attach files, specify the topic types, select an existing topic as a reference for tone and style, and choose the destination folder for the generated content. To create topics from files, follow these steps:
+You can attach a file, select an existing file as a reference for tone and style, and specify the folder where you want to save the generated content. To create topics from files, follow these steps:
 
 1. Log in to Experience Manager Guides.
 1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that your Administrator has enabled the AI Assistant in Agentic mode. 
@@ -16,14 +16,15 @@ You can attach files, specify the topic types, select an existing topic as a ref
 
    The starter prompt appears in the prompt box: `Create draft content referring to attached file(s) and having tone of content similar to [file]`
 
-1. Attach your notes, specification, or other files to the prompt using any of the following methods: 
+1. Attach your notes, specification, or other reference files to the prompt using any of the following methods: 
 
    - **Using shortcut**: Type `/` in the Prompt field, then choose **Add repository reference** to choose the file from the Repository (or **Add files from device** to upload the file from your computer).
 
    - **Using `Attach files or add context (+)*` icon**: Adds files from your local system. 
-   
 
-1. In the prompt, select `[file]`. Select the existing topic whose tone you want the draft to match. You can choose the topic from the repository or from a collection. The topic name replaces `[file]` in the prompt.
+   **Drag and drop**: Drag and drop the file you want to draft from the system directly into the prompt space.   
+
+1. *(Optional)* In the prompt, select `[file]`. Select the existing topic whose tone you want the draft to match. You can choose the topic from the repository or from a collection. The topic name replaces `[file]` in the prompt.
 
    ![Select the file placeholder to choose the topic](images/sample-create.png){width="350"}
 
@@ -33,9 +34,7 @@ You can attach files, specify the topic types, select an existing topic as a ref
 
    AI Assistant analyzes the content and lists each step it completes.
 
-1. Answer any questions that AI Assistant asks.
-
-   Questions can cover the save folder or how to use the attached material. If you don't enter a path, or you describe the folder in words, AI Assistant asks you to confirm where to save.
+1. Answer any follow-up questions from AI Assistant to provide the details needed to generate the content.
 
       ![Select the file placeholder to choose the topic](images/folder-create.png){width="350"}
 
@@ -48,72 +47,41 @@ You can attach files, specify the topic types, select an existing topic as a ref
 1. Select one of the following:
 
    - **Accept** to save the topic to the folder you confirmed
-   - **Reject** to discard the changes without saving anything   
+   - **Reject** to discard the changes without saving anything. You can provide a reason for rejecting the import and enter a prompt specifying the changes you want. The AI Assistant uses your feedback to revise the import.      
 
       The topic is now available in your repository.
 
       ![](images/accept-reject-create.png)
 
+After AI Assistant creates a topic, you can open it in the Editor and refine the content using follow-up prompts. This allows you to iteratively improve the topic without starting a new conversation. Each proposed change is displayed in the preview with **Track Changes** enabled, allowing you to review the modifications before applying them.
 
-<!--## Create a topic from an earlier answer
+For example, to refine the title of a generated topic:
 
-AI Assistant can save an earlier answer in the chat as a new topic. This saves you from copying a summary or explanation into a new file.
+1. Open the newly created topic in the Editor from the AI Assistant dialog.
 
-To create a topic from an earlier answer:
+   ![](images/editor-create-agent.png)
 
-1. Enter a prompt that produces the content you want.
+1. In the AI Assistant panel, enter a follow-up prompt, such as `Improve the title of this topic to make it generic.`
 
-   For example, enter `Summarize this topic.`
+   ![](images/follow-up-prompt.png)
 
-2. Select **Send**.
+1. Select **Send**.
 
-   AI Assistant displays the summary in the chat.
+   AI Assistant analyzes and suggests a new title.
 
-3. Enter `Save this summary as a new topic.`
+1. Select **Preview** to review the proposed changes.
 
-4. Select **Send**.
+   The preview displays the revised title with tracked changes, highlighting what has been modified.
 
-   AI Assistant drafts a new topic from the summary and opens a preview.
+   ![](images/review-change.png)
 
-## Create a map from existing topics
+1. Select **Accept** to apply the changes to the topic.
 
-You can ask AI Assistant to group topics that already exist in your repository into a new map. AI Assistant proposes the grouping and order before it creates the map.
+   ![](images/final-output-create.png)
 
-To create a map from existing topics:
+You can continue refining other elements of the topic, such as paragraphs, steps, or tables, by providing additional prompts in the same conversation.
 
-1. Type `@` in the prompt box, followed by the paths of the topics, separated by commas.
 
-2. Enter a prompt that names the map you want.
-
-   For example, enter `Make a map from these four existing topics: overview, install, config-reference, troubleshooting.`
-
-3. Select **Send**.
-
-   AI Assistant proposes how to group and order the topics.
-
-4. Review the proposed grouping and order.
-
-   After your review, AI Assistant opens a preview of the new map.
-
-## Create topics from pasted content
-
-Pasting a how-to or an overview lets you draft a topic without saving a file first. Plain text and formatted content both work for creating new topics.
-
-To create topics from pasted content:
-
-1. Copy the content from a web page, Word, Google Docs, or a wiki.
-
-2. Paste the content into the prompt box.
-
-   Pasted content over 2,000 characters becomes an attachment.
-
-3. Enter a prompt that names the topic type.
-
-   For example, enter `Create a task topic from these pasted steps.` or `Create a concept topic from this pasted overview.`
-
-4. Select **Send**.
-
-   AI Assistant drafts the topic and opens a preview.-->
 
 
 

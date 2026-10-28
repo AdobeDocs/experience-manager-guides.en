@@ -5,30 +5,11 @@ description: Learn how to use Agentic AI Assistant for smart tagging capability 
 
 # Smart tagging with AI Assistant
 
-The Smart tagging skill, available in AI Assistant's Agentic mode through Adobe CX Enterprise Coworker, makes tagging your content faster, easier, and more consistent. It analyzes your content and recommends relevant tags based on your organization's taxonomy, eliminating the need to manually review content and identify applicable tags. You stay in control by reviewing the suggested tags and choosing to apply or reject them before confirming your selection. This reduces manual effort, improves tagging accuracy, and helps maintain consistent metadata across your documentation.
+The Smart tagging skill, available in AI Assistant's Agentic mode through Adobe CX Enterprise Coworker, makes tagging your content faster, easier, and more consistent. It analyzes your content and recommends relevant tags based on your organization's taxonomy, eliminating the need to manually review content and identify applicable tags. Your Administrator can configure the taxonomies used to generate tag recommendations through **Workspace settings** by selecting the relevant namespaces for your workspace.
 
-<!--## AI Assistant panel
 
-The AI Assistant panel provides all the tools you need to generate, review, and apply AI suggested tags. 
+You stay in control by reviewing the suggested tags and choosing to apply or reject them before confirming your selection. This reduces manual effort, improves tagging accuracy, and helps maintain consistent metadata across your documentation.
 
-![Agentic AI Assistant panel](images/guides-ai-panel.png){width="650"}
-
-The following components of AI Assistant in Agentic mode help you add files, configure tag recommendations, and manage your smart-tagging workflow: 
-
-- **(A)** Conversation history: View and reopen previous conversations to review earlier tag recommendations and actions.
-
-    ![Agentic AI Assistant panel converstaion history](images/chat-history.png){width="350"}
-
-- **(B)** New chat: Start a new tagging session for a different topic, map, or set of files.
-- **(C)** Tag namespace: Select the taxonomy namespaces from where the AI Assistant generates tag recommendations. Only tags from the selected namespaces are considered. 
-
-    ![Agentic AI Assistant panel taxonomy](images/taxononmy.png){width="350"}
-
-- **(D)** Response space: Review AI-generated tag recommendations and choose to accept, reject, or modify them before applying the tags.
-- **(E)** Prompt space: Enter a prompt request to generate tag recommendations for the selected content.
-- **(F)** Attach files or add context: Adds topics, maps, or external files from your local system to provide the content that AI Assistant analyzes for tag recommendations.
-- **(G)** Model: Displays the AI model used to analyze content and generate tag recommendations. Multiple OpenAI and Anthropic Claude models are available for selection. By default, the **Use manifest default** option is selected, which uses the model configured for the selected assistant.
-- **(H)** Send: Submit your prompt and attached content to generate AI-powered tag recommendations.-->
 
 ## Apply tags to single or multiple topics with the smart-tagging skill
 
