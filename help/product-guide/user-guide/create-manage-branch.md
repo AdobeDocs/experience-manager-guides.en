@@ -148,6 +148,10 @@ To manage a branch, hover over the required branch and select the **Options** me
 - **Merge history:** Displays a history of merge activities. This option is available only after a merge request has been created.
 - **Archive branch:** Archive a branch that is no longer actively used.
 
+  >[!NOTE]
+  >
+  > Experience Manager Guides does not support deleting branches. You can archive branches that are no longer actively used.
+
 You can also use the options at the top of the **Branches** panel to search for a branch, refresh the branch list, or create a new branch.
 
 ### Archive a branch

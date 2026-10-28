@@ -116,6 +116,8 @@ Perform the following steps to resolve merge conflicts, :
    - **Accept main:** Replaces the content in the **Merged** pane with the version from `main`.
    - **Accept [branch name]:** Replaces the content in the **Merged** pane with the version from the selected branch.
 
+   Alternatively, you can review or edit the content directly in the **Merged** pane and select **Mark resolved** to retain the merged content.
+
 4. Review the final content in the **Merged** pane and select **Mark resolved** to mark the file as resolved.
 
 5. Repeat the steps for all files listed under **Conflicts**.
