@@ -40,7 +40,6 @@ Learn about [upgrade instructions for the 2026.11.0 release](./upgrade-instructi
 - Publishing a map to an AEM Site with component mapping fails when the map contains a `topicref` element with a `navtitle` attribute and no `href` attribute. Subsequent attempts also fail, even after the element is removed, until the generated site nodes are deleted. (GUIDES-53707)
 - In the AEM Site output with component mapping, Markdown headings of levels 2 to 6 are rendered as level 1 headings. (GUIDES-51134)
 - For AEM Site output with component mapping, the prolog metadata, such as author, keywords, and resource ID, appears in the page body of the published output. (GUIDES-44087)
-- Native PDF and AEM Site outputs with component mapping do not resolve keys that are referenced by using key scopes. (GUIDES-42260)
 - When a topic is published to ServiceNow, the article body includes the short description and prolog of the topic. (GUIDES-47868)
 - When a topic that is already published in ServiceNow is published again, a new article is created in the Draft state instead of the existing article being overwritten. (GUIDES-37872)
 - When condition presets exclude topic references during publishing to Salesforce, the output generation is reported as failed, even though the remaining topics are published successfully. (GUIDES-37807)
