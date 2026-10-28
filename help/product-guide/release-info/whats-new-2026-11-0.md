@@ -36,7 +36,7 @@ Learn more about the current capabilities and upcoming enhancements to Dynamic R
 
 >[!NOTE]
 >
->To use AI Assistant in Agentic mode, your organization must be onboarded to Adobe CX Enterprise Coworker and have the required credentials. 
+>To use AI Assistant in Agentic mode, your organization must be onboarded to Adobe CX Enterprise Coworker and have the required credits. 
 
 Now, you can use **AI Assistant** to create and import DITA content using natural-language prompts. Powered by **Adobe CX Enterprise Coworker**, the new **Create** and **Import** skills simplify structured content creation and help authors work with DITA content without requiring extensive DITA expertise.
 
@@ -122,7 +122,7 @@ Edge Delivery Services publishing supports GitLab-hosted repositories alongside 
 
 Publish presets also include a field for a subfolder, so you can publish content to a subfolder within the root folder specified in the profile.
 
-For more details, view [Configure an Edge Delivery Services].
+For more details, view [Configure an Edge Delivery Services](../knowledge-base/publishing/configure-eds.md).
 
 ### Enhancements to Salesforce publishing
 
@@ -141,13 +141,13 @@ For more information, view [Add an image from map metadata](../native-pdf/design
 
 ### Validate content quality with content health check in Old Editor
 
-Content health check is now available in the Old Editor as well, helping validate content quality across DITA maps before publishing. Administrators can create reusable health check presets by combining checks for broken links, duplicate IDs, and Schematron validation.
+Content health check is now available in the Old Editor (already supported with New Editor), helping validate content quality across DITA maps before publishing. Administrators can create reusable health check presets by combining checks for broken links, duplicate IDs, and Schematron validation.
 
 Authors can run a health check on a DITA map or a selected baseline in the Old Editor to generate a consolidated report of issues across associated topics and maps. For details, view [Run health check on a map](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
 
-## API enhancement
+## Upsert API for legacy content migration
 
-The API enahncement allows you to create or update content and its metadata through a single API. It supports specifying topic content, metadata, and a GUID in the request. The API is available in the Swagger API documentation at `/bin/guides/v1/asset/upsert/`.
+This API allows you to create or update content and its metadata through a single API. It supports specifying topic content, metadata, and a GUID in the request. The API is available in the Swagger API documentation at `/bin/guides/v1/asset/upsert/`.
 
 
 <!-- ## Upsert API enhancements

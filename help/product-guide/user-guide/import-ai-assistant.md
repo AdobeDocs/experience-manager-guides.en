@@ -5,15 +5,15 @@ description: Learn how to convert PDF, Word, and Markdown files into DITA topics
 
 # Import content with AI Assistant
 
-The **Import** skill in AI Assistant's Agentic mode helps you convert existing PDF, Word, or Markdown files into structured DITA topics and a corresponding map. It simplifies content migration to Adobe Experience Manager Guides by reducing the manual effort required to recreate and organize content.
+The **Import** skill in AI Assistant's Agentic mode helps you convert existing PDF, Word, or Markdown files into structured DITA topics, with the option to generate DITA maps based on user input. It simplifies content ingestion from unstructured to structured formats in Adobe Experience Manager Guides by reducing the manual effort required to recreate, structure, and organize content.
 
 ## Import a file
 
 You can import files from your device or content repository, specify the heading level that defines the start of a new topic, and choose the destination folder for the imported content. To import a file, follow these steps:
 
 1. Log in to Experience Manager Guides.
-1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the AI Assistant in Agentic mode is enabled by your Administrator. 
-1. Select **Import** from the AI Assistant panel. You can also use other prompts like `Convert this docx to DITA topics.` for a Word file or `Convert this markdown into DITA topics.` for a Markdown file.
+1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the [AI Assistant in Agentic mode](../install-conf-guide/workspace-settings.md) is enabled by your Administrator. 
+1. Select **Import** from the AI Assistant panel. You can also use other prompts like `Convert this docx to DITA topics` for a Word file or `Convert this markdown into DITA topics` for a Markdown file.
 
    The starter prompt `Help me import content from the attached PDF file` appears in the prompt box.
 
@@ -21,7 +21,7 @@ You can import files from your device or content repository, specify the heading
 
    - **Using shortcut**: Type `/` in the Prompt field, then choose **Add repository reference** to choose the file from the Repository (or **Add files from device** to upload the file from your computer).
 
-   - **Using `Attach files or add context (+)*` icon**: Adds files from your local system to provide the content for importing. 
+   - **Using `Attach files or add context` icon (+)**: Adds files from your local system to provide the content for importing. 
 
    - **Drag and drop**: Drag and drop the file you want to import from the system directly into the prompt space.
 
@@ -37,11 +37,13 @@ You can import files from your device or content repository, specify the heading
 
 1. Choose the heading level that becomes a topic. For example H2 as shown in the screenshot.
 
+   Answer any additional follow-up questions that appear to provide the necessary details for the import process.
+
    ![](images/heading-import.png)
 
 1. Select **Confirm**.
 
-   AI Assistant starts converting the file.
+   AI Assistant starts converting the file. The Import skill automatically identifies and assigns appropriate DITA topic types, such as Task, Troubleshooting and more, based on the imported content.
 
 1. Select **Preview** to review the generated topics and the map.
 
@@ -51,8 +53,8 @@ You can import files from your device or content repository, specify the heading
 
 1. Select one of the following:
 
-   - **Accept** to save all topics and the map to the folder you confirmed
-   - **Reject** to discard the import without saving anything   
+   - **Accept** to save all topics and the map to the folder you confirmed.
+   - **Reject** to discard the import without saving anything. You can provide a reason for rejecting the import and enter a prompt specifying the changes you want. The AI Assistant uses your feedback to revise the import.   
 
    The topics and the map are now available in your repository.
 
