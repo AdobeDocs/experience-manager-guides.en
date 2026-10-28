@@ -85,7 +85,7 @@ Adobe has identified the following known issues for the 2026.11.0 release:
 
 ### Editor 2.0
 
-- The **Refresh navigation title attribute** option does not add the `@navtitle` attribute to existing `topicref` elements in a DITA map. (GUIDES-54348) (GUIDES-54348)
+- The **Refresh navigation title attribute** option does not add the `@navtitle` attribute to existing `topicref` elements in a DITA map. (GUIDES-54348) 
 
 **Track changes**
 
