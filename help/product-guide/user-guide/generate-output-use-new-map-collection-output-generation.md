@@ -93,7 +93,8 @@ You get a list of all the desired maps with the Map title, corresponding File na
 
 >[!NOTE]
 >
-> When a large number of maps are added to a map collection, the Maps & presets tabs display maximum of four maps at a time, along with the associated presets. A paginated view is provided at the bottom of the screen, allowing users to navigate between pages and access additional maps and presets. If you select a map or preset, the selection is retained while navigating through the remaining maps and presets across different pages.
+>- When a collection contains many maps, the Maps and presets tab displays a maximum of four maps at a time, along with their presets. Translated copies of a map are listed as separate entries and are included in this count, so the maps and their translations may be distributed across multiple pages. Use the pagination controls at the bottom of the screen to move between pages. Your selections are retained as you navigate.
+>- Sorting applies only to the results displayed on the current page. It doesn’t reorder the full collection across pages. To find specific maps across the whole collection, use the filters described in Filtering options.
 
 ![Maps and presets tabs](./images/maps-presets-tab.png)
 
@@ -101,8 +102,8 @@ The **Maps and Presets** tab presents information on the basis of the selected m
     
 - **Preset**: Shows the output preset type configured on the map file.
 - **Baseline**: Shows the baseline which is used by the output preset.  If no baseline is used, then it shows a hyphen `-`.
-- **Modified since generation**: Indicates if the DITA map is updated after generation. Based on this information, you can decide if you want to publish the output for this DITA map or not.
-- **Modified since published**: Indicates if the DITA map is updated after the last publishing. Based on this information, you can decide if you want to republish the output for this DITA map or not.
+- **Modified since generation**: Indicates that the map may have changed since its output was last generated for this preset. You can use this to decide whether to regenerate the output.
+- **Modified since published**: Indicates that the map has been updated since its output was last published. You can use this to decide whether to republish the output.
 - **Last generated**: Shows the date and time of the last generated output.    
 - **Last published**: Shows the date and time of the last published output. 
 
