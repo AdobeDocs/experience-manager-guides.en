@@ -5,7 +5,7 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
-TQID: https://experienceleague.adobe.com/mQXuCClDCF6tDYUudR2NqJPPK-OEvnlI4y-rY4KF2Ko
+TQID: 'https://experienceleague.adobe.com/mQXuCClDCF6tDYUudR2NqJPPK-OEvnlI4y-rY4KF2Ko'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -14,6 +14,11 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: da9cce28-0561-45e7-851e-4500741b9744
+    internal-label: Metadata management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

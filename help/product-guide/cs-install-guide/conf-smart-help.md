@@ -34,9 +34,9 @@ As an administrator, you can configure the Smart Help feature for the authors. T
 
 Perform the following steps to create IMS configurations in Adobe Developer Console:
 
-  >[!NOTE]
-  >
-  >If you have already created an OAuth project to configure the Smart Suggestions feature or the microservice-based publishing, you can skip the following steps to create the project. You can begin with Step 8.
+>[!NOTE]
+>
+>If you have already created an OAuth project to configure the Smart Suggestions feature or the microservice-based publishing, you can skip the following steps to create the project. You can begin with Step 8.
 
 1. Launch [Adobe Developer Console](https://developer.adobe.com/console). 
 1. After successfully logging in to Developer Console, you'll view the **Home** screen. The **Home** screen is where you can easily find information and quick links, including top-navigation links to Projects and Downloads.

@@ -1,6 +1,14 @@
 ---
 title: Release Notes | Upgrade instructions for Adobe Experience Manager Guides 5.2.0 release
 description: Learn about the compatibility matrix and how to upgrade to the 5.2.0 release of Adobe Experience Manager Guides.
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Upgrade instructions for the 5.2.0 release (May 2026)
 
@@ -58,7 +66,7 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 
 |AEM Guides | AEM version | Components version | Site version|
 |---|---|---| ---|
-|5.2.0 UUID |6.5 LTS | guides-components.all-1.4.1|NA|
+|5.2.0 UUID |6.5 LTS | guides-components.all-1.4.1|aemg-sites-template-1.3.0|
 |5.2.0 UUID |6.5 | guides-components.all-1.4.0| aemg-sites-template-1.3.0|
 
 ## Prerequisites

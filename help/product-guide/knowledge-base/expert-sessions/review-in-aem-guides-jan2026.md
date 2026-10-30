@@ -2,6 +2,14 @@
 title: Content Review in AEM Guides
 description: Expert Session - Inside the AEM Guides Review Workflow. Features & real-world use case
 exl-id: 4fa4a7f8-4b0b-45d8-978e-e2bde3692b1d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Content Review in AEM Guides
 

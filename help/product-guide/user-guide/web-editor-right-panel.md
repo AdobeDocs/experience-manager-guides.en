@@ -4,7 +4,7 @@ description: Get to know the Right panel in the Editor. Learn about Editor inter
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-TQID: https://experienceleague.adobe.com/COSDpeTMJaFqPhQLYatHvodMm9LWsQ3PbDgRVilelb0
+TQID: 'https://experienceleague.adobe.com/COSDpeTMJaFqPhQLYatHvodMm9LWsQ3PbDgRVilelb0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor

@@ -5,15 +5,24 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-TQID: https://experienceleague.adobe.com/Y6sobecXfXdQn-BpVO-z3H2uLbSCLpbcPtYUv7pFPYo
+TQID: 'https://experienceleague.adobe.com/Y6sobecXfXdQn-BpVO-z3H2uLbSCLpbcPtYUv7pFPYo'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Variables in the PDF output
 
@@ -68,9 +77,9 @@ You can edit a variable in two ways:
 
 You need to save any changes you make from the **Variables** editor to view them in the **Variables** panel on the left side. 
 
- >[!NOTE]
- >
- > If you edit any variable value, Adobe Experience Manager Guides simultaneously updates all the references wherever applicable.
+>[!NOTE]
+>
+> If you edit any variable value, Adobe Experience Manager Guides simultaneously updates all the references wherever applicable.
 
 ### Search and preview a variable
 
@@ -85,9 +94,9 @@ The preview of the variable displays the default value. For example, if you have
 1. Select a variable in the **Variables** panel. 
 1. Hover over the variable to view the **Options** menu and then select the **Preview** option.
 
-      ![variable preview from the variables panel](assets/variables-panel-preview-default.png){width="550"}
+    ![variable preview from the variables panel](assets/variables-panel-preview-default.png){width="550"}
 
- *Preview the default value for a variable.*
+*Preview the default value for a variable.*
  
 **From the Variables editor**
 

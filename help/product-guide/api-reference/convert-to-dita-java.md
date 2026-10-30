@@ -5,7 +5,7 @@ exl-id: 807d9ffa-23e3-476c-992d-c1f495233892
 feature: Java-Based API Conversion Workflow
 role: Developer
 level: Experienced
-TQID: https://experienceleague.adobe.com/gAntb7T-OGlwRNInxAsV8orxL3H9qL19Dsjwf5FZ14I
+TQID: 'https://experienceleague.adobe.com/gAntb7T-OGlwRNInxAsV8orxL3H9qL19Dsjwf5FZ14I'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -16,9 +16,15 @@ feature_v2:
     internal-label: APIs
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
     internal-label: APIs
+subfeature_v2:
+  - id: c2674c69-1bed-41fa-ba40-ab1a5382af59
+    internal-label: Java Based API Conversion Workflow
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Java-based APIs for conversion workflow {#id175UB30E05Z}
 

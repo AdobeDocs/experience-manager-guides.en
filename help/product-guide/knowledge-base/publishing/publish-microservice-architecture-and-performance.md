@@ -4,7 +4,7 @@ description: Understand how the new microservice enables scalable publishing on 
 exl-id: 948fce3f-b989-48f0-9a85-e921717e2986
 feature: Microservice in AEM Guides
 role: User, Admin
-TQID: https://experienceleague.adobe.com/dXRfQ3DBW-1l-4hy5H0yowfXntJ3jcLU5bHvkquJBOY
+TQID: 'https://experienceleague.adobe.com/dXRfQ3DBW-1l-4hy5H0yowfXntJ3jcLU5bHvkquJBOY'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -18,6 +18,8 @@ feature_v2:
 subfeature_v2:
   - id: b455a250-64c4-4598-b015-7b6b6dc528b1
     internal-label: Workflow configuration
+  - id: ee44b950-990d-4271-90e4-464bdf208628
+    internal-label: Microservice in AEM Guides
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

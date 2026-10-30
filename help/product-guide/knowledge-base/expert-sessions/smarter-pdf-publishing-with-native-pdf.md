@@ -3,6 +3,14 @@ title: Smarter PDF Publishing with Native PDF
 description: This expert session covers how Native PDF can  be used to create DITA ready PDF without use of advance CSS or XSLT expertise instead using low code technology for generating PDF
 keywords: DITA PDF publishing, AEM Guides, Native PDF, DITA to PDF, DITA publishing workflow, PDF automation, metadata-driven publishing, DITA templates
 exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Smarter PDF Publishing with Native PDF
 

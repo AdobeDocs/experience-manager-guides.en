@@ -3,7 +3,7 @@ title: Experience Manager Guides documentation
 description: Find documentation for Adobe Experience Manager Guides. Learn about native DITA support, structured authoring, and multichannel publishing in Experience Manager.
 feature: AEM Guides Tutorials
 role: User
-TQID: https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs
+TQID: 'https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Reports
   - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
     internal-label: Authoring and publishing content
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: aad65a09-20cc-4780-ad44-329d14dc8481
     internal-label: Workflows
@@ -31,6 +33,8 @@ subfeature_v2:
     internal-label: Publishing
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f5449061-fbde-4905-be99-034c1b054385
+    internal-label: AEM Guides tutorials
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -163,9 +167,8 @@ Folder profiles, DITA-OT customisation, and output templates.
 
 ::::
 
-## What's new
 
-<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
+## Quick links
 
 >[!BEGINSHADEBOX]
 
@@ -173,29 +176,46 @@ Folder profiles, DITA-OT customisation, and output templates.
 <tr style="border: 0;">
 <td>
 
-![Git Connector](../assets/whats-new-git-connector.svg)
+![What's new](../assets/whats-new-git-connector.svg)
 
-**[Import content using Git Connector](./user-guide/web-editor-git-connector.md)**
+**What's new in AEM Guides**
 
-Import content into Guides directly from Git repositories.
+Explore the new and enhanced features introduced in the latest release of Experience Manager Guides. 
 
-</td>
-<td>
+- AI-powered smart tagging in AI Assistant 
+- Mark topic as done in a review task
+- Learning content enhancements
 
-![Map Collection](../assets/whats-new-map-collection.svg)
-
-**[New map collection](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
-
-Unified interface for managing maps and publishing outputs.
+[Explore all](../../help/product-guide/release-info/whats-new-2026-09-0.md)
 
 </td>
 <td>
 
-![Delegate review](../assets/whats-new-delegate-review.svg)
+![Release notes](../assets/whats-new-map-collection.svg)
 
-**[Delegate a review task](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
+**Release notes**
 
-Reviewers can delegate a review task to another reviewer.
+Explore the latest release notes and product updates for Cloud and On-Premise deployments. 
+
+- Cloud releases | [View release notes](./release-info/latest-release-info-cs.md)
+- On-Premise releases | [View release notes](./release-info/latest-release-info.md)
+
+[View release roadmap](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![Learn and support](../assets/whats-new-delegate-review.svg)
+
+**Learn and support**
+
+Access helpful resources, documentation, and support to get the most out of the platform. 
+
+* [GitHub repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Video tutorials](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+
+[Interact on Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
 
 </td>
 </tr>

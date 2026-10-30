@@ -4,7 +4,7 @@ description: Discover time-saving keyboard shortcuts in the web editor of AEM Gu
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-TQID: https://experienceleague.adobe.com/3u3ETVTHNxLFM0l6-8-GHXJgwRtOpXaSDVCb3XLLkUk
+TQID: 'https://experienceleague.adobe.com/3u3ETVTHNxLFM0l6-8-GHXJgwRtOpXaSDVCb3XLLkUk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -13,6 +13,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor

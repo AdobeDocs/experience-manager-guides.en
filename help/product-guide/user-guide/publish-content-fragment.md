@@ -4,7 +4,7 @@ description: Publish a topic or the elements within a topic to a Content Fragmen
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/VcZKWpffZfB7KtquXVtIFWESim8paNCYmqGqboC1Kic
+TQID: 'https://experienceleague.adobe.com/VcZKWpffZfB7KtquXVtIFWESim8paNCYmqGqboC1Kic'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,11 @@ feature_v2:
     internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

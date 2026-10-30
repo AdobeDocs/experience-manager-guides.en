@@ -2,6 +2,14 @@
 title: Configure the Smart Help to search content
 description: Learn how to configure the Smart Help to search content
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Configure the AI-powered Smart Help to search content for Cloud Service
 
@@ -11,9 +19,9 @@ As an administrator, you can configure the Smart Help feature for the authors. T
 
 Perform the following steps to create IMS configurations in Adobe Developer Console:
 
-  >[!NOTE]
-  >
-  >If you have already created an OAuth project to configure the Smart Suggestions feature or the microservice-based publishing, you can skip the following steps to create the project. You can begin with Step 8.
+>[!NOTE]
+>
+>If you have already created an OAuth project to configure the Smart Suggestions feature or the microservice-based publishing, you can skip the following steps to create the project. You can begin with Step 8.
 
 1. Launch [Adobe Developer Console](https://developer.adobe.com/console). 
 1. After successfully logging in to Developer Console, you'll view the **Home** screen. The **Home** screen is where you can easily find information and quick links, including top-navigation links to Projects and Downloads.

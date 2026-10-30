@@ -4,12 +4,15 @@ description: Learn about different types of review notifications and how they tr
 feature: Reviewing
 role: User
 exl-id: dc452e7d-a317-4168-8015-9fa4a06666ea
-TQID: https://experienceleague.adobe.com/qM0Vx84EClSsT6ACLJxUmX5RsDl4n6QM5mSp-l5cGGs
+TQID: 'https://experienceleague.adobe.com/qM0Vx84EClSsT6ACLJxUmX5RsDl4n6QM5mSp-l5cGGs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

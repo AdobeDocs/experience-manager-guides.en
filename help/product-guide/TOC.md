@@ -594,6 +594,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Index topics in a review task](./install-conf-guide/index-review-tasks.md)
       - [Component mapping for AEM Sites](./install-conf-guide/component-mapping.md)
       - [Configure template presets for output generation](./install-conf-guide/template-presets-output-generation.md)
+      - {hide-from-toc} [Connect AEM Guides with Guides Knowledge AI](./install-conf-guide/knowledge-ai-connector.md)
     - Appendix {#appendix}
       - [Appendix](./install-conf-guide/aemg-appendix.md)   
         
@@ -635,6 +636,7 @@ breadcrumb-title: AEM Guides Documentation
     - [New UX and AI Capabilities in AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
     - [Publishing in AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
     - [Content Review in AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
+    - [AEM Guides - MCP](./knowledge-base/expert-sessions/guides-mcp-oct2026.md)
   - Articles {#kb-articles}
     - [Overview](./knowledge-base/kb-articles/introduction.md)
     - Authoring {#authoring}

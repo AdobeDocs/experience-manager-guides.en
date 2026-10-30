@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 1d914a5f-df1f-45eb-86ac-72485fdf07fe
-TQID: https://experienceleague.adobe.com/Glp7bHZJ80DoLGIwI936SS9-SRfScDcT-JzhbHSn9P0
+TQID: 'https://experienceleague.adobe.com/Glp7bHZJ80DoLGIwI936SS9-SRfScDcT-JzhbHSn9P0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -14,6 +14,8 @@ product_v2:
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
     internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
     internal-label: FrameMaker Publishing Server
@@ -21,6 +23,8 @@ subfeature_v2:
     internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -4,12 +4,18 @@ description: Landing page for expert session section.
 exl-id: 8a4bac35-95c0-4348-90c0-3e6e5ca9de59
 feature: Expert Sessions
 role: User, Admin
-TQID: https://experienceleague.adobe.com/WEJ9bbtoB3aevS4QIWuHNClBwiKybYRO4egB0J-X-0o
+TQID: 'https://experienceleague.adobe.com/WEJ9bbtoB3aevS4QIWuHNClBwiKybYRO4egB0J-X-0o'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+subfeature_v2:
+  - id: f846a188-f6e1-4032-9217-f7f290de6d64
+    internal-label: Expert sessions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

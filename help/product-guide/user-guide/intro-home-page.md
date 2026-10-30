@@ -4,6 +4,17 @@ description: Get to know the Home page of the Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Experience Manager Guides Home page experience
 
@@ -45,7 +56,7 @@ Features available in the navigation bar are explained as follows:
   >
   > For using Agentic mode of AI Assistant feature in your environment, contact the Customer Success team. After the feature is enabled, Administrators can turn it on or off from Workspace Settings. Only one mode of AI Assistant can be enabled at a time; either Agentic or Standard.
 
-  - **Agentic**: Agentic mode in AI Assistant enables you to accomplish content-related tasks through natural language interactions. You can describe your requirements in the chat panel, and AI Assistant plans and executes tasks while providing visibility into its progress. It supports skills such as Import, which converts PDF, Word, or Markdown files from your device or content repository into structured topics; Create, which generates new topics based on your requirements and can reference existing content for tone and style; and Smart Tagging, which recommends relevant tags based on your organization's taxonomy to improve metadata consistency.
+  - **Agentic**: Brings intelligent, agentic Smart Tagging skill from Adobe CX Enterprise Coworker into the Editor, enabling natural, conversational content tagging. It analyzes your content, recommends relevant tags, and helps you apply consistent and accurate metadata with minimal effort. You can review the suggested tags and choose to apply or reject them before confirming your selection. [Use AI Assistant in Agentic Mode](../user-guide/ai-assistant-agentic.md) streamlines the tagging process, improving content organization and discoverability.
 
   - **Standard**: A powerful, AI-driven tool designed to enhance your productivity through smart authoring capabilities of AI Assistant that makes your authoring process smarter and faster through intelligent suggestions for content reuse and optimization.  
   
@@ -165,6 +176,10 @@ The following widgets are present in the Widgets section:
 The Repository serves as a centralized hub for discovering folders and files with ease. It provides a comprehensive tabular list view of all the files and folders, along with their contextual details. Through this unified interface, you can seamlessly browse files and perform search with robust filtering options, ensuring efficiency and an enhanced experience. Learn more about [Repository](./home-page-repository-view.md).
 
 ### Map collections 
+
+>[!NOTE]
+>
+>You can use the new Map collections feature in Adobe Experience Manager Guides as a Cloud Service starting from 2026.08.0 release, which combines map management and bulk publishing into a unified interface. Contact your Customer Success team to enable this feature.Learn more about [using the new map collection.](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides provides you with the ability to organize your content for publishing by using a dashboard called **Map collections**. To use this feature, select **Map collections** from the left panel. It takes you to the Map collections page in the **Assets UI** where you can [use map collection for output generation.](./generate-output-use-map-collection-output-generation.md)  
 

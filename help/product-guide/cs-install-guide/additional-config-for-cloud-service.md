@@ -2,6 +2,14 @@
 title: Additional configuration for upgrading cloud service
 description: Learn about the additional configuration for upgrading cloud service
 exl-id: 3d60d06b-ce50-4948-b50d-bd373051d055
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Additional configuration for upgrading AEM Guides as Cloud Service
 

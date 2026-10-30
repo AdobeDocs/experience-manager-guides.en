@@ -4,7 +4,7 @@ description: Activate output of DITA maps in AEM Guides. Learn how to activate y
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-TQID: https://experienceleague.adobe.com/ujkifru-aKa2oYvrE8EKUEE3Sai8NqQ9lx9BA2ZUw9U
+TQID: 'https://experienceleague.adobe.com/ujkifru-aKa2oYvrE8EKUEE3Sai8NqQ9lx9BA2ZUw9U'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -13,9 +13,13 @@ product_v2:
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
     internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
     internal-label: Bulk activation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -52,7 +56,7 @@ View the different ways to activate your collection based on your setup.
 
 You can activate the output to the **Preview** or **Publish** instances.
 
- **Preview**
+**Preview**
 
 * To activate the output of selected maps, select the pregenerated map output and select **Publish to** > **Preview**.
 * To activate the output of all DITA maps with their configured presets, select the checkbox next to the **Map** column, and then select **Publish to** > **Publish**.
@@ -61,13 +65,11 @@ You can activate the output to the **Preview** or **Publish** instances.
 **Publish**
 
 * To activate the output of selected maps, select the pregenerated map output and select **Publish to** > **Publish**.
+* To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Publish to** > **Publish**.
 
- *  To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Publish to** > **Publish**.
-
-
-   >[!NOTE] 
-   > 
-   > The checkbox for a map output is enabled only if you have generated the output for a map.
+>[!NOTE] 
+> 
+>The checkbox for a map output is enabled only if you have generated the output for a map.
 
 A success message is displayed when the map output is queued for publishing.
 
@@ -81,9 +83,10 @@ Once the output is activated for the selected map files, the audit history tab i
 
 Do one of the following:
 
-*  To activate the output of selected maps, select the pregenerated map output and select **Quick Publish**.
-*  To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Quick Publish.**
-    ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
+* To activate the output of selected maps, select the pregenerated map output and select **Quick Publish**.
+* To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Quick Publish.**
+
+   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
    
    >[!NOTE] 
    > 
