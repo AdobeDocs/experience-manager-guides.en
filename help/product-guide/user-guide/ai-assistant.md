@@ -31,7 +31,7 @@ topic_v2:
 >
 > The AI Assistant feature is currently available for Adobe Experience Manager Guides as a Cloud Service. 
 
-The AI Assistant in Adobe Experience Manager Guides is an AI-powered tool designed to enhance productivity by simplifying content creation, management, and authoring workflows. It offers two modes: Standard and Agentic. In **Standard mode**, AI Assistant provides authoring assistance and access to Experience Manager Guides documentation, helping you create, refine, and manage content more efficiently. In **Agentic mode**, AI Assistant enables you to perform content-related tasks through natural language interactions, with skills such as Import, Create, and Smart tagging to streamline content creation, organization, and metadata management.
+The AI Assistant in Adobe Experience Manager Guides is an AI-powered tool designed to enhance productivity by simplifying content creation, management, and authoring workflows. It offers two modes: Standard and Agentic. In **Standard mode**, AI Assistant provides authoring assistance helping you create, refine, and manage content more efficiently. In **Agentic mode**, AI Assistant enables you to perform content-related tasks through natural language interactions, with skills such as Import, Create, and Smart tagging to streamline content creation, organization, and metadata management.
 
 ## AI Assistant modes
 
@@ -41,7 +41,7 @@ The AI Assistant in Adobe Experience Manager Guides is an AI-powered tool design
  
 AI Assistant is available in two modes: **Agentic** and **Standard**. Administrators can select the mode from the **AI features** section of the **General** tab in **Workspace settings**. The AI Assistant panel remains the same in both modes in the Editor, but the available capabilities differ:
 
-- **Agentic mode:** Uses skills from Adobe CX Enterprise Coworker, including **Import**, **Create**, and **Smart tagging**, to convert files into structured topics, create first draft of content, and recommend relevant tags based on your organization's taxonomy.
+- **Agentic mode:** Uses skills **Import**, **Create**, and **Smart tagging**, to convert files into structured topics, create first draft of content, and recommend relevant tags based on your organization's taxonomy.
 - **Standard mode:** Provides AI-powered authoring assistance through contextual actions, such as content reuse, translation, and content quality improvements, to streamline authoring workflows.
 
 ## Agentic mode
@@ -65,7 +65,7 @@ The following components of the AI Assistant panel help you add content, enter p
 - **(A)** Conversation history: View and reopen previous conversations to review earlier requests and responses.
 - **(B)** Full screen: Expands the AI Assistant panel to full screen.
 - **(C)** Prompt space: Enter a prompt request, or type `/` to add files and generate tags.
-- **(D)** Attach files or add context: Adds topics, maps, or files from your repository or local system to provide the content that AI Assistant works with.
+- **(D)** Attach files or add context: Adds topics, maps, or files from your local system to provide the content that AI Assistant works with.
 - **(E)** Send: Submit your prompt and attached content to AI Assistant.
 - **(F)** Quick actions: Start a task directly from one of the following shortcuts: **Import**, **Create**, or **Tag**.
 
