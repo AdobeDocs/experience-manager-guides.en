@@ -95,7 +95,7 @@ For more details, view [Reports in Experience Manager Guides](./reports-intro.md
 
 >[!NOTE]
 >
-> Depending on your environment's configuration, either the **Baseline** tab or the **Branches** tab is displayed in the Map console. The **Branches** tab is available when the [branching feature](./branching-overview.md), introduced in the 2026.11.0 release of Experience Manager Guides, is enabled. For more information, view [Create and manage branches of a DITA map](./create-manage-branch.md#manage-branches).
+> The Map console shows either the **Baseline** tab or the **Branches** tab, depending on whether branching is enabled for your environment. Branching is available in Experience Manager Guides as a Cloud Service starting with the 2026.11.0 release and is disabled by default. To enable it, contact the Adobe Customer Success team. When branching is enabled, baselines are no longer available. For details, view [Branching in Experience Manager Guides](./branching-overview.md) and [Create and manage branches of a DITA map](./create-manage-branch.md#manage-branches).
 
 Experience Manager Guides provides the Baseline feature that allows you to create a version of your topics and assets that can then be used for publishing or translation. You can also publish multiple output presets of the same DITA map in parallel. 
 

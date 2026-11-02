@@ -41,7 +41,7 @@ Perform the following steps to create a branch:
 
    >[!NOTE]
    >
-   > If another map is already set in the `main` branch, a confirmation dialog appears. Select **Open** to open the selected map in the current branch. For more information, view [Open content outside the current map context](#open-content-outside-the-current-map-context).
+   > If another map is already open in the Editor, a confirmation dialog appears. Select **Open** to open the selected map in the current branch. For more information, view [Open content outside the current map context](#open-content-outside-the-current-map-context).
 
 1. Select the **main** branch dropdown and verify that the required DITA map is selected.
 
@@ -49,9 +49,9 @@ Perform the following steps to create a branch:
 
 1. Select **New branch** to create a branch of the selected map.
 
-1. In the **New branch** dialog, enter a name for the branch and select the source branch from which you want to create it.
+1. In the **New branch** dialog, enter a name for the new branch and select the parent branch from which you want to create it.
 
-   ![](./images/new-branch-creation.png)
+    ![](./images/new-branch-creation.png)
 
 1. Select **Create**.
 
@@ -61,7 +61,7 @@ A new branch is created for the selected DITA map. You can now switch to the new
 
 Perform the following steps to switch branches:
 
-1. Select the **main** branch dropdown. The list of available branches for the selected DITA map is displayed.
+1. Select the **branch dropdown** at the top of the Editor (which displays `main` by default). The list of available branches for the selected DITA map is displayed.
 1. Select the branch you want to work with.
 
    ![](./images/switch-branches.png)
@@ -84,7 +84,7 @@ You can now work on the map and its associated content within the selected branc
 
 When you work in a branch of a DITA map, changes made to its content remain within the selected branch and do not affect the corresponding content in other branches. This allows multiple authors to work on the same topics independently across different branches of a map.
 
-By default, unchanged topics continue to use content from `main`. When you edit a topic in the selected branch, it becomes part of that branch. Any subsequent changes to the topic remain within the selected branch.
+By default, unchanged topics are read from the source branch or `main`. When you edit a topic in the selected branch, it becomes part of that branch. Any subsequent changes to the topic remain within the selected branch.
 
 You can switch between branches of the same DITA map to view and edit their respective content.
 
@@ -100,19 +100,19 @@ Perform the following steps to edit a topic:
 4. Make the required changes to the topic.
 5. Save your changes.
 
-   The modified topic becomes part of the selected branch. The corresponding topic in other branches remains unchanged.
+   A copy of the modified topic is saved in the selected branch. The corresponding topic in other branches remains unchanged.
 
 You can continue editing the topic in the selected branch or switch to another branch to work on its content.
 
-### Open content outside the current map context
+### Open a map outside the current map context
 
-In Experience Manager Guides, **map context** refers to the DITA map currently selected in the **main** branch. It determines which map and its associated content you are working with in the Editor.
+In Experience Manager Guides, **map context** refers to the DITA map currently open in the Editor.
 
 If you try to open a map, topic, or asset that is not part of the current map context, a confirmation dialog appears with the following options:
 
-- **Open:** Opens the selected content in the current branch and updates the map context.
+- **Open:** Replaces the current map context with the selected content.
+- **Open in editor:** Opens the content in a new tab without changing the current map context.
 - **Cancel:** Cancels the operation and retains the current map context.
-- **Open in editor:** Opens the selected content in a new Editor tab without changing the current map context.
 
 For example, consider that `Basco_master_map.ditamap` is currently selected in the **main** branch.
 
@@ -128,19 +128,19 @@ The map context of the `main` branch is updated to the newly selected map, allow
 
 ![](./images/map-context-change.png)
 
-### Open or edit topics outside the current map
+### Open or edit topics outside the current map context
 
-When working in a branch, if you open a topic that exists only in the default branch (**main**), a message appears indicating that the topic is not available in the current branch.
+Topics that are not referenced by the map aren't automatically available in the branch. 
 
 ![](./images/edit-topic-current-branch.png)
 
-Select **Edit in current branch** to make the topic available for editing in the selected branch.
+Select **Edit in current branch** to make such topics available for editing in the selected branch.
 
-You can now edit the topic without affecting its content in **main**. However, the topic is not automatically added to the associated DITA map and may appear as a dangling topic when publishing the map.
+You can now edit the topic without affecting its content in `main`. However, the topic is not automatically added to the associated DITA map and is not included in the published output. To include the topic in the output, add it to the DITA map.
 
 ## Manage branches
 
-You can manage branches of a DITA map from the **Branches** tab in the Map console. You can view available branches, create new branches, merge or rename existing branches, and archive branches that are no longer actively used.
+You can manage branches of a DITA map from the **Branches** panel in the Map console. You can view available branches, create new branches, merge or rename existing branches, and archive branches that are no longer actively used.
 
 The **Branches** panel lists all the available branches for the selected DITA map.
 
@@ -151,7 +151,7 @@ To manage a branch, hover over the required branch and select the **Options** me
 ![](./images/options-menu-branch.png)
 
 - **New branch:** Create a new branch from the selected branch.
-- **Merge into main:** Merge changes from the selected branch into the `main` branch.
+- **Merge into main:** [Merge changes](./merge-branches.md) from the selected branch into the `main` branch.
 - **Rename branch:** Change the name of the selected branch.
 - **Merge history:** Displays a history of merge activities. This option is available only after a merge request has been created.
 - **Archive branch:** Archive a branch that is no longer actively used.
@@ -165,6 +165,10 @@ You can also use the options at the top of the **Branches** panel to search for 
 ### Archive a branch
 
 You can archive branches of a DITA map that are no longer actively used and restore them when needed.
+
+>[!NOTE]
+>
+> The default branch (`main`) cannot be archived.
 
 To archive a branch, perform the following steps:
 
@@ -186,10 +190,6 @@ To archive a branch, perform the following steps:
    ![](./images/archive-branch.png)
 
    The selected branch is archived and moved to the **Archived** tab.
-
->[!NOTE]
->
-> The default branch (`main`) cannot be archived.
 
 ### Restore an archived branch
 
