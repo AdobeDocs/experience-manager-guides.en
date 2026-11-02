@@ -47,7 +47,7 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
 ## General
 
- The General settings allow you to configure the settings to use the Editor. This tab contains five sections: **AI Assistant**, **Authoring**, **Citations**, **Condition**, and **Spell check**.
+ The General settings allow you to configure the settings to use the Editor. This tab contains: **AI features**, **AI Help Assistant**, **Authoring**, **Citations**, **Condition**,and **Spell check**.
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
@@ -61,11 +61,11 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
     AI Assistant is available in two modes: **Agentic** and **Standard**. You can choose between the two modes by enabling the respective radio buttons.
 
-    - **Agentic**: After enabling this option, you can access Agentic AI Assistant from the navigation bar on the Homepage and the tab bar in the Editor. You can also configure the taxonomy namespaces used by the Smart Tagging skill to generate tag recommendations. AI Assistant considers only tags from the selected namespaces, based on the tags defined in AEM. For details view [Agentic mode in AI Assistant](../user-guide/ai-assistant.md#ai-assistant-modes).
+    - **Agentic**: After enabling this option, you can access Agentic AI Assistant from the navigation bar on the Experience Manager Guides application. You can also configure the taxonomy namespaces used by the Smart Tagging skill to generate tag recommendations. AI Assistant considers only tags from the selected namespaces, based on the tags defined in AEM. For details view [Agentic mode in AI Assistant](../user-guide/ai-assistant.md#ai-assistant-modes).
 
         ![](assets/agentic-new.png){width="350"}
 
-    - **Standard**: After enabling the **Standard** toggle, you can configure which options appear under the **Authoring quick actions** menu as shown below. 
+    - **Standard**: After enabling the **Standard** option, you can configure which options appear under the **Authoring quick actions** menu as shown below. 
     
         These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the Workspace settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Workspace settings** and save the updated configuration.  
 
@@ -112,7 +112,7 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
         >[!NOTE]
         >
         > AEM spell check uses the language selected in the language property of the file, if the language is not specified for the file, spell check falls back to the AEM server language. 
-        >To ensure accurate spell‑check results, the dictionary for the selected language must be available in AEM. If the required dictionary for the configured language is unavailable, spell check defaults to `en_us`.   
+        >To ensure accurate spell‑check results, the dictionary for the selected language must be available in AEM. If the required dictionary for the configured language is unavailable, spell check defaults to `en_us`.           
 
  
 ## Panels

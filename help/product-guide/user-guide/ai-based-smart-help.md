@@ -66,6 +66,8 @@ The following options are available to engage with or provide feedback on the re
 ![](images/ai-assistant-response-options.png){width="300"}
 
 - **Copy**: Copy the response for use in your documents.
-- **Like**: Indicate that the response was helpful or accurate. Select the Like icon to like the response and use the **Tell us more** option to provide detailed feedback.  
+- **Like**: Indicate that the response was helpful or accurate. Select the Like icon to like the response and use the **Tell us more** option to provide detailed feedback. 
+  ![](images/feedback-help.png){width="300"}
 - **Dislike**: Mark the response as unhelpful or incorrect. Select the Dislike icon to like the response and use the **Tell us more** option to provide detailed feedback.  
+  ![](images/dislike-help.png){width="300"}
 - **Report**: Flag the response for review if it contains errors or inaccurate content. Select the flag icon to open the **Report results** dialog. Select from the available options or provide a custom feedback. 
