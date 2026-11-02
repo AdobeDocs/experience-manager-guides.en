@@ -55,7 +55,7 @@ For more details, view [Use AI Assistant in Agentic mode](../user-guide/ai-assis
 
 The generative AI-powered **Smart Help** capability is now available through the dedicated **Help assistant** panel, accessible from the Homepage, Editor, and Map Console interfaces. The panel provides a conversational search experience, allowing you to ask questions in natural language and quickly find relevant information from the Experience Manager Guides documentation. This helps you access contextual guidance and resolve queries without leaving the Editor, streamlining your authoring workflow.
 
-Administrators can manage the availability of the Help assistant panel through Workspace settings. The **AI Help assistant** section includes a toggle to enable or disable the panel for users.
+Administrators can manage the availability of the Help assistant panel through Workspace settings. The **AI Help Assistant** section includes a toggle to enable or disable the panel for users.
 
 For more information, view [Help assistant](../user-guide/intro-home-page.md).
 
@@ -91,7 +91,7 @@ For more information, view [Work with media and other non-DITA files](../user-gu
 
 ### Enhanced review collaboration with initiator comments
 
-Review initiators can now add inline comments and annotations to topics within a review task using the Review UI. This allows them to provide additional context, highlight specific content, and draw reviewers' attention to areas that require feedback.
+Review initiators can add inline comments and annotations to topics within a review task using the Review UI. This allows them to provide additional context, highlight specific content, and draw reviewers' attention to areas that require feedback.
 
 These comments appear in the **Comments** panel alongside feedback from other reviewers, providing a consolidated view of the review discussions. Reviewers also receive an AEM notification when the initiator adds a comment, helping streamline collaboration and communication throughout the review process. For more information, view [Add comments for reviewers](../user-guide/review-send-topics-for-review.md#add-comments-for-reviewers).
 
@@ -126,7 +126,7 @@ For more details, view [Configure an Edge Delivery Services](../knowledge-base/p
 
 ### Enhancements to Salesforce publishing
 
-Adobe Experience Manager Guides enhances Salesforce publishing with improved security, performance, and publishing efficiency. These enhancements include support for Proof Key for Code Exchange (PKCE), refresh token-based authentication, article-level publishing status, detailed publishing logs, output history, and optimized asset publishing to reduce redundant uploads.
+Experience Manager Guides enhances Salesforce publishing with improved security, performance, and publishing efficiency. These enhancements include support for Proof Key for Code Exchange (PKCE), refresh token-based authentication, article-level publishing status, detailed publishing logs, output history, and optimized asset publishing to reduce redundant uploads.
 
 For more information, view [Enhanced Salesforce publishing using backend processing](../user-guide/web-editor-article-publishing.md#enhanced-salesforce-publishing-using-backend-processing).
 
@@ -141,41 +141,10 @@ For more information, view [Add an image from map metadata](../native-pdf/design
 
 ### Validate content quality with content health check in Old Editor
 
-Content health check is now available in the Old Editor (already supported with New Editor), helping validate content quality across DITA maps before publishing. Administrators can create reusable health check presets by combining checks for broken links, duplicate IDs, and Schematron validation.
+Content health check is available in the Old Editor (already supported with New Editor), helping validate content quality across DITA maps before publishing. Administrators can create reusable health check presets by combining checks for broken links, duplicate IDs, and Schematron validation.
 
 Authors can run a health check on a DITA map or a selected baseline in the Old Editor to generate a consolidated report of issues across associated topics and maps. For details, view [Run health check on a map](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
 
 ## Upsert API for legacy content migration
 
 This API allows you to create or update content and its metadata through a single API. It supports specifying topic content, metadata, and a GUID in the request. The API is available in the Swagger API documentation at `/bin/guides/v1/asset/upsert/`.
-
-
-<!-- ## Upsert API enhancements
-
-*Source: GUIDES-24015*
-
-The Upsert API in Adobe Experience Manager Guides now creates or uploads an asset in a single call, so you no longer call create and update separately. Each request can include:
-
-- A predefined GUID for the asset, instead of one generated from the file name
-- Metadata applied when the asset is created
-- A version label and comment, created with the asset
-
-This helps when you import content from external systems. Learn more in the Upsert API documentation.
-
-## Generated and Published History in Map Collections
-
-*Source: GUIDES-49986*
-
-Map Collections in Adobe Experience Manager Guides now show the generation and publishing status of each map. When you generate many maps at once, you can check progress from the Map Collections view instead of opening the Outputs tab of every map. This helps you spot failed maps sooner. The new Map Collections experience is on by default in this release. Learn more in the Map Collections documentation.
-
-## Processing instructions and tracked text in outline view
-
-*Source: GUIDES-48316*
-
-The outline view in the new editor now shows entries for processing instructions and tracked text, so you can see and navigate to them from the outline.
-
-For more details, view Use outline view in the new editor.
-
-## GUIDES-37103 [Management] Download a learning map
-
-## GUIDES-15239	[Experience Enhancement] Outputs in XML editor-->
