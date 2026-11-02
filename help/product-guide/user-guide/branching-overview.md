@@ -30,7 +30,7 @@ topic_v2:
 >
 > The branching and merging feature is introduced in the 2026.11.0 release of Experience Manager Guides as a Cloud Service and is disabled by default. To enable the feature for your environment, contact your Customer Success team.
 
-Branching in Adobe Experience Manager Guides allows you to create and manage multiple branches of a DITA map to work on different documentation releases in parallel. Each branch allows authors to manage content changes independently, without affecting the corresponding content in other branches.
+Branching in Adobe Experience Manager Guides allows you to create and manage multiple branches out of the **main** branch for a DITA map to work on different documentation releases in parallel. Each branch allows authors to manage content changes independently, without affecting the corresponding content in other branches.
 
 With branching, multiple teams can work simultaneously on different releases, features, or fixes associated with the same DITA map. You can merge changes from a branch into its parent or main branch when the updates are ready.
 
@@ -49,9 +49,15 @@ Both teams can work independently on their respective map branches without affec
 >
 > Branching in Experience Manager Guides starts with a DITA map, but you can also add and edit topics that are not referenced by the map within the selected branch. For more information, view [Open or edit topics outside the current map](./create-manage-branch.md#open-or-edit-topics-outside-the-current-map).
 
-When you create a branch, the topics referenced by the DITA map do not automatically become part of the new branch. Only the topics you edit become part of the selected branch, while unchanged topics continue to be used from the default branch (`main`).
+When you create a map, all topics referenced by the DITA map automatically become part of the new branch, regardless of whether they are edited in new branch.
 
-For example, if a DITA map contains 100 topics and you edit only 10 topics in a new branch, only those 10 topics become part of the new branch. The remaining 90 topics continue to be used from `main`. This avoids unnecessary duplication of content across branches.
+Topics that are not referenced by the DITA map, do not automatically become part of the new branch. These topics become part of the new branch only when they are edited. Until then, the unchanged topics continue to be used from the default branch (main).
+
+For example, A DITA map references 100 topics, and the repository contains 50 additional topics that are not referenced by the map. When you create a new branch (release-1.0), all 100 referenced topics automatically become part of release-1.0, even if none of them are edited. The 50 unreferenced topics do not automatically become part of the new branch. If you edit 10 of them, only those 10 become part of release-1.0. The remaining 40 unchanged topics continue to be used from the default branch (main).
+
+>[!NOTE]
+>
+> Topic versioning continues to work with branching. You can create and manage versions of topics within a selected branch of a DITA map. Each branch maintains its own version history, independent of other branches.
 
 ## Key benefits
 
@@ -66,7 +72,7 @@ Working with a branch in Experience Manager Guides provides the following benefi
 
 >[!NOTE]
 >
-> You can use either baselines or branching in Experience Manager Guides based on your documentation requirements. When branching is enabled for an environment, baseline functionality is disabled and is no longer available in the user interface.
+> Baselines and branching are mutually exclusive features. When branching is enabled, baseline functionality becomes unavailable. However, existing baselines remain intact and are not deleted. If branching is disabled later, the existing baselines become available for use again.
 
 Both branching and baselines help manage documentation across versions in Experience Manager Guides, but they serve different purposes.
 
@@ -85,6 +91,9 @@ A **branch** allows authors to develop and manage content changes independently 
 The branching and merging feature in Experience Manager Guides is planned to support the following functionalities in upcoming releases:
 
 - Search
+  >[!NOTE]
+  >
+  >  Search is supported only in the default branch (main). You cannot search for content within other branches of a DITA map.
 - Find and replace
 - Review workflows
 

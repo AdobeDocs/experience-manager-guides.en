@@ -72,6 +72,14 @@ Perform the following steps to switch branches:
 
 You can now work on the map and its associated content within the selected branch.
 
+   ![](./images/branch-switched.png)
+
+   >[!NOTE]
+   >
+   > If a topic has unsaved changes when you switch branches, a dialog appears prompting you to save the changes before switching to the selected branch.
+
+You can now work on the map and its associated content within the selected branch.
+
 ## Isolated editing in a branch
 
 When you work in a branch of a DITA map, changes made to its content remain within the selected branch and do not affect the corresponding content in other branches. This allows multiple authors to work on the same topics independently across different branches of a map.
