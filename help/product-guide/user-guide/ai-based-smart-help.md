@@ -71,3 +71,4 @@ The following options are available to engage with or provide feedback on the re
 - **Dislike**: Mark the response as unhelpful or incorrect. Select the Dislike icon to like the response and use the **Tell us more** option to provide detailed feedback.  
   ![](images/dislike-help.png){width="300"}
 - **Report**: Flag the response for review if it contains errors or inaccurate content. Select the flag icon to open the **Report results** dialog. Select from the available options or provide a custom feedback. 
+  ![](images/report-help.png){width="300"}
