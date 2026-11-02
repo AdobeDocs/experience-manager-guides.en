@@ -80,7 +80,7 @@ When you open a merge request, the following sections are displayed in the **Mer
 - **Conflicts:** Lists files that require conflict resolution.
 - **Clean updates:** Lists files that can be merged without resolving conflicts.
 
-For files with conflicts, a three-way merge view is displayed.
+For files with conflicts, a **Merge branch** view is displayed.
 
 ![](./images/merge-conflicts.png)
 
@@ -105,7 +105,7 @@ Perform the following steps to resolve merge conflicts:
     >
     > Files listed under **Clean updates** contain changes made only in the selected branch and hence do not require conflict resolution.
 
-2. Review the differences highlighted in the three-way merge view and resolve the conflicts using the merge controls.
+2. Review the differences highlighted in the **Merge branch** view and resolve the conflicts using the merge controls.
 
    The checkbox next to a conflict in the right pane determines how the selected branch content is added to the **Merged** pane:
 
