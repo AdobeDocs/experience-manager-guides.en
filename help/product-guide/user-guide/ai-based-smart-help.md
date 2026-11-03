@@ -29,6 +29,10 @@ You can ask your questions and get answers in an informative way. The answer to 
 
 For example, you may want to ask questions like *How do I publish a map?* You get a response and the links for the related articles. Then, if you want to learn how to use a specific method to publish the output, you can ask questions about it. For example, *How do I publish a map to PDF?* 
 
+>[!NOTE]
+>
+>When you use the Help assistant for the first time, you will be prompted to provide consent before accessing the Experience Manager Guides Generative AI features. If you have already provided consent to the guidelines for using the AI Assistant feature, you will not be prompted again and can continue using the Help assistant without additional consent.
+
 Perform the following steps to use the **Help assistant** panel to find appropriate content and resolve your queries:
 
 1. Select **Help assistant** icon to open the Help assistant panel. 
