@@ -40,7 +40,7 @@ Now, you can use **AI Assistant** to create and import DITA content using natura
 
 - **Create:** Generate DITA topics and maps from natural-language prompts, reference documents, or existing content using repository templates. You can review the generated content before saving it and iteratively refine new or existing content to meet your requirements.
 - **Import:** Convert existing PDF, DOCX, or Markdown files into structured DITA topics and maps. You can preview and review the converted content before saving it to the repository.
-- **Smart Tagging:** Get relevant tag recommendations for your content based on your organization's taxonomy. The enhanced experience allows folder profile administrators to configure taxonomy namespaces in Workspace settings, ensuring consistent and governed tag recommendations.
+- **Smart Tagging:** Get relevant tag recommendations for your content based on your organization's taxonomy. The enhanced experience allows folder profile Administrators to configure taxonomy namespaces in Workspace settings, ensuring consistent and governed tag recommendations.
 
 The **AI Assistant** panel also introduces a fullscreen mode and an **Active conversations** section for an enhanced conversational experience.
 
@@ -51,7 +51,7 @@ For more details, view [Use AI Assistant in Agentic mode](../user-guide/ai-assis
 
 ## New Help assistant panel in Experience Manager Guides
 
-The generative AI-powered **Smart Help** capability is now available through the dedicated **Help assistant** panel, accessible from the Homepage, Editor, and Map Console interfaces. The panel provides a conversational search experience, allowing you to ask questions in natural language and quickly find relevant information from the Experience Manager Guides documentation. This helps you access contextual guidance and resolve queries without leaving the Editor, streamlining your authoring workflow.
+The generative AI-powered **Smart Help** capability is available through the dedicated **Help assistant** panel, accessible from the Homepage, Editor, and Map Console interfaces. The panel provides a conversational search experience, allowing you to ask questions in natural language and quickly find relevant information from the Experience Manager Guides documentation. This helps you access contextual guidance and resolve queries without leaving the Editor, streamlining your authoring workflow.
 
 Administrators can manage the availability of the Help assistant panel through Workspace settings. The **AI Help Assistant** section includes a toggle to enable or disable the panel for users.
 
