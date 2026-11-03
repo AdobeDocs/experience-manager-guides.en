@@ -62,7 +62,7 @@ Features available in the navigation bar are explained as follows:
   
   The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.  
 
-- **Help assistant**: The **Help assistant** in Adobe Experience Manager Guides is a generative AI-powered conversational search feature that helps you find information about product features, workflows, and troubleshooting. It provides relevant answers based on Experience Manager Guides documentation, supports follow-up questions, and includes links to source articles for further reference. For details, view [Enhance efficiency with Help assistant](./ai-based-smart-help.md).
+- **Help assistant**: The **Help assistant** in Experience Manager Guides is a generative AI-powered conversational search feature that helps you find information about product features, workflows, and troubleshooting. It provides relevant answers based on Experience Manager Guides documentation, supports follow-up questions, and includes links to source articles for further reference. For details, view [Enhance efficiency with Help assistant](./ai-based-smart-help.md).
 - **Customize overview section**: Allows you to hide or show the widgets in the Widgets section. 
 - **Folder profile in use**: Displays the folder profile that is currently being used.
 - **More actions**: Provides access to additional options. Selecting this button opens a menu with the following options:
@@ -179,7 +179,7 @@ The Repository serves as a centralized hub for discovering folders and files wit
 
 >[!NOTE]
 >
->You can use the new Map collections feature in Adobe Experience Manager Guides as a Cloud Service starting from 2026.08.0 release, which combines map management and bulk publishing into a unified interface. Contact your Customer Success team to enable this feature.Learn more about [using the new map collection.](./generate-output-use-new-map-collection-output-generation.md)
+>You can use the new Map collections feature in Adobe Experience Manager Guides as a Cloud Service starting from 2026.08.0 release, which combines map management and bulk publishing into a unified interface. Contact your Customer Success team to enable this feature. Learn more about [using the new map collection.](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides provides you with the ability to organize your content for publishing by using a dashboard called **Map collections**. To use this feature, select **Map collections** from the left panel. It takes you to the Map collections page in the **Assets UI** where you can [use map collection for output generation.](./generate-output-use-map-collection-output-generation.md)  
 

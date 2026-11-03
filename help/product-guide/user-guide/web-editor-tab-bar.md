@@ -76,7 +76,7 @@ Saves the changes you have made in all opened topics. If you have multiple topic
 
 The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.
 
-**Help assistant**: The **Help assistant** in Adobe Experience Manager Guides is a generative AI-powered conversational search feature that helps you find information about product features, workflows, and troubleshooting. It provides relevant answers based on Experience Manager Guides documentation, supports follow-up questions, and includes links to source articles for further reference. For details, view [Enhance efficiency with Help assistant](./ai-based-smart-help.md).
+**Help assistant**: The **Help assistant** in Experience Manager Guides is a generative AI-powered conversational search feature that helps you find information about product features, workflows, and troubleshooting. It provides relevant answers based on Experience Manager Guides documentation, supports follow-up questions, and includes links to source articles for further reference. For details, view [Enhance efficiency with Help assistant](./ai-based-smart-help.md).
 
 **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar containing the Adobe Experience Manager logo, is hidden. This maximizes the content space for editing. To return to the standard view, use the **Exit the expanded view** icon.
 
