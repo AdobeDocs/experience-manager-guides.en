@@ -21,7 +21,7 @@ This capability helps documentation teams manage parallel workstreams, collabora
 - **Create branches** from the main version of a DITA map to work on features, enhancements, or critical fixes independently.
 - **Switch between branches** in the Editor to manage multiple documentation versions.
 - **Manage content versions** using branching and merging to organize changes through branching and merging.
-- **Resolve merge conflicts** using a guided comparison workflow with three way merge.
+- **Resolve merge conflicts** using a guided comparison workflow with three-way merge.
 - **Merge changes** into the main version.
 - **Publish directly from a branch** using standard publishing without modifying the main version.
 
@@ -99,7 +99,7 @@ These comments appear in the **Comments** panel alongside feedback from other re
 
 The Map console in Experience Manager Guides now includes an **Output history** tab, allowing you to view and manage output generation tasks directly from the Editor without navigating to the Map Dashboard.
 
-The tab provides a consolidated view of output generation tasks, including their status, preset details, generation date, and duration. You can search and filter tasks, cancel ongoing generations, access generated outputs and logs, and remove completed entries from the history. You can also export the output history as a CSV file for further analysis.Output generation statuses use color indicators consistent with the Map dashboard. 
+The tab provides a consolidated view of output generation tasks, including their status, preset details, generation date, and duration. You can search and filter tasks, cancel ongoing generations, access generated outputs and logs, and remove completed entries from the history. You can also export the output history as a CSV file for further analysis. Output generation statuses use color indicators consistent with the Map dashboard. 
 
 For details, view [Manage output generation process](../user-guide/generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
 
