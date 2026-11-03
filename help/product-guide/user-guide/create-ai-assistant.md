@@ -7,7 +7,7 @@ description: Learn how to draft new DITA topics and maps from your notes, specif
 
 The **Create** skill in AI Assistant's Agentic mode helps you generate the first draft of structured content from notes, specifications, whiteboard images, screenshots, or other available reference materials. The skill automatically identifies the appropriate DITA topic type, such as Concept, Task, Reference, or Troubleshooting, based on the content and topic templates available in your repository, reducing the manual effort required to structure and author content.
 
-You can attach a file, select an existing file as a reference for tone and style, and specify the folder where you want to save the generated content. To create first draft of your desired content, follow these steps:
+You can attach a file, select an existing file as a reference for tone and style, and specify the folder where you want to save the generated content. To create the first draft of your desired content, follow these steps:
 
 1. Log in to Experience Manager Guides.
 1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the [AI Assistant in Agentic mode](../install-conf-guide/workspace-settings.md) is enabled by your Administrator.
@@ -20,13 +20,13 @@ You can attach a file, select an existing file as a reference for tone and style
 
    - **Using shortcut**: Type `/` in the Prompt field, then choose **Add repository reference** to choose the file from the Repository (or **Add files from device** to upload the file from your computer).
 
-   - **Using Attach files or add context icon (+)**: Adds files from your local system. 
+   - **Using Attach files or add context icon (+)**: Add files from your local system. 
 
    - **Drag and drop**: Drag and drop the file you want to draft from the system directly into the prompt space.   
 
 1. *(Optional)* In the starter prompt, select `[file]`. Select the existing topic whose tone you want the draft to match. You can choose the topic from the repository or from a collection. The topic name replaces `[file]` in the prompt.
 
-   ![Select the file placeholder to choose the topic](images/sample-create.png){width="350"}
+   ![Select the file placeholder to choose the topic](images/sample-create.png){width="650"}
 
 1. Select **Send**.
 
@@ -34,7 +34,7 @@ You can attach a file, select an existing file as a reference for tone and style
 
 1. Answer any follow-up questions from AI Assistant to provide the details needed to generate the content.
 
-      ![Select the file placeholder to choose the topic](images/folder-create.png){width="350"}
+      ![Select the file placeholder to choose the topic](images/folder-create.png){width="650"}
 
 1. Select **Preview** to review the generated topic.
 

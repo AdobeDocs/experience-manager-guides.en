@@ -14,7 +14,7 @@ Learn about [upgrade instructions for the 2026.11.0 release](../release-info/upg
 
 ## Introducing map-level branching and merging
 
-Adobe Experience Manager Guides introduces map-level branching and merging capability, enabling authors to work on multiple documentation versions, feature updates, and critical fixes in parallel without affecting the main content. Authors can create isolated branches of a DITA map and its dependencies, ensuring that edits, locks, and previews remain specific to each branch.
+Experience Manager Guides introduces map-level branching and merging capability, enabling authors to work on multiple documentation versions, feature updates, and critical fixes in parallel without affecting the main content. Authors can create isolated branches of a DITA map and its dependencies, ensuring that edits, locks, and previews remain specific to each branch.
 
 This capability helps documentation teams manage parallel workstreams, collaborate efficiently, and maintain the stability of the main documentation version. You can:
 
@@ -36,11 +36,11 @@ Learn more about [Branching and merging](../user-guide/branching-overview.md).
 >
 >To use AI Assistant in Agentic mode, your organization must be onboarded to Adobe CX Enterprise Coworker and have the required credits. 
 
-Now, you can use **AI Assistant** to create and import DITA content using natural-language prompts. Powered by **Adobe CX Enterprise Coworker**, the new **Create** and **Import** skills simplify structured content creation and help authors work with DITA content without requiring extensive DITA expertise.
+You can now use **AI Assistant** to create and import DITA content using natural-language prompts. Powered by **Adobe CX Enterprise Coworker**, the new **Create** and **Import** skills simplify structured content creation and help authors work with DITA content without requiring extensive DITA expertise.
 
 - **Create:** Generate DITA topics and maps from natural-language prompts, reference documents, or existing content using repository templates. You can review the generated content before saving it and iteratively refine new or existing content to meet your requirements.
-- **Import:** Convert existing PDF, DOCX, or Markdown files into structured DITA topics and maps. You can preview and review the converted content before saving it to the repository.
-- **Smart Tagging:** Get relevant tag recommendations for your content based on your organization's taxonomy. The enhanced experience allows folder profile Administrators to configure taxonomy namespaces in Workspace settings, ensuring consistent and governed tag recommendations.
+- **Import:** Convert existing PDF, DOCX, or Markdown files into structured DITA topics and maps. You can review the converted content before saving it to the repository.
+- **Smart Tagging:** Get relevant tag recommendations for your content based on your organization's taxonomy. The enhanced experience allows Administrators to configure taxonomy namespaces in Workspace settings, ensuring consistent and governed tag recommendations.
 
 The **AI Assistant** panel also introduces a fullscreen mode and an **Active conversations** section for an enhanced conversational experience.
 
@@ -51,7 +51,7 @@ For more details, view [Use AI Assistant in Agentic mode](../user-guide/ai-assis
 
 ## New Help assistant panel in Experience Manager Guides
 
-The generative AI-powered **Smart Help** capability is available through the dedicated **Help assistant** panel, accessible from the Homepage, Editor, and Map Console interfaces. The panel provides a conversational search experience, allowing you to ask questions in natural language and quickly find relevant information from the Experience Manager Guides documentation. This helps you access contextual guidance and resolve queries without leaving the Editor, streamlining your authoring workflow.
+The generative AI-powered **Smart Help** capability is available through the dedicated **Help assistant** panel, accessible from the Homepage, Editor, and Map console interfaces. The panel provides a conversational search experience, allowing you to ask questions in natural language and quickly find relevant information from the Experience Manager Guides documentation. This helps you access contextual guidance and resolve queries without leaving the Editor, streamlining your authoring workflow.
 
 Administrators can manage the availability of the Help assistant panel through Workspace settings. The **AI Help Assistant** section includes a toggle to enable or disable the panel for users.
 
@@ -95,9 +95,9 @@ These comments appear in the **Comments** panel alongside feedback from other re
 
 ## Publishing enhancements
 
-### View and manage output history from the Map Console
+### View and manage output history from the Map console
 
-The Map console in Experience Manager Guides now includes an **Output history** tab, allowing you to view and manage output generation tasks directly from the Editor without navigating to the Map Dashboard.
+The Map console in Experience Manager Guides now includes an **Output history** tab, allowing you to view and manage output generation tasks directly from the Editor without navigating to the Map dashboard.
 
 The tab provides a consolidated view of output generation tasks, including their status, preset details, generation date, and duration. You can search and filter tasks, cancel ongoing generations, access generated outputs and logs, and remove completed entries from the history. You can also export the output history as a CSV file for further analysis. Output generation statuses use color indicators consistent with the Map dashboard. 
 
@@ -139,7 +139,7 @@ For more information, view [Add an image from map metadata](../native-pdf/design
 
 ### Validate content quality with content health check in Old Editor
 
-Content health check is available in the Old Editor (already supported with New Editor), helping validate content quality across DITA maps before publishing. Administrators can create reusable health check presets by combining checks for broken links, duplicate IDs, and Schematron validation.
+Content health check is available in the Old Editor (already supported in the New Editor), helping validate content quality across DITA maps before publishing. Administrators can create reusable health check presets by combining checks for broken links, duplicate IDs, and Schematron validation.
 
 Authors can run a health check on a DITA map or a selected baseline in the Old Editor to generate a consolidated report of issues across associated topics and maps. For details, view [Run health check on a map](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
 

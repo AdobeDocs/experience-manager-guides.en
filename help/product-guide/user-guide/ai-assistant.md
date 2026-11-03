@@ -35,10 +35,6 @@ The AI Assistant in Adobe Experience Manager Guides is an AI-powered tool design
 
 ## AI Assistant modes
 
->[!NOTE]
->
->To enable the AI Assistant in Agentic mode for your environment, contact the Customer Success Team.
- 
 AI Assistant is available in two modes: **Agentic** and **Standard**. Administrators can select the mode from the **AI features** section of the **General** tab in **Workspace settings**. The AI Assistant panel in the Editor remains the same in both modes, but the available capabilities differ:
 
 - **Agentic mode:** Uses skills **Import**, **Create**, and **Smart tagging**, to convert files into structured topics, create first draft of content, and recommend relevant tags based on your organization's taxonomy.

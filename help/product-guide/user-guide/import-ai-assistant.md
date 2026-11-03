@@ -21,7 +21,7 @@ You can import files from your device or content repository, specify the heading
 
    - **Using shortcut**: Type `/` in the Prompt field, then choose **Add repository reference** to choose the file from the Repository (or **Add files from device** to upload the file from your computer).
 
-   - **Using Attach files or add context icon (+)**: Adds files from your local system to provide the content for importing. 
+   - **Using Attach files or add context icon (+)**: Add files from your local system to provide the content for importing. 
 
    - **Drag and drop**: Drag and drop the file you want to import from the system directly into the prompt space.
 
@@ -35,7 +35,7 @@ You can import files from your device or content repository, specify the heading
 
    ![](images/folder-import.png)
 
-1. Choose the heading level that becomes a topic. For example H2 as shown in the screenshot.
+1. Choose the heading level that becomes a topic. For example, H2, as shown in the screenshot.
 
    Answer any additional follow-up questions that appear to provide the necessary details for the import process.
 
