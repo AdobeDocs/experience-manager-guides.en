@@ -22,7 +22,7 @@ You can attach a file, select an existing file as a reference for tone and style
 
    - **Using `Attach files or add context` icon (+)**: Adds files from your local system. 
 
-   **Drag and drop**: Drag and drop the file you want to draft from the system directly into the prompt space.   
+   - **Drag and drop**: Drag and drop the file you want to draft from the system directly into the prompt space.   
 
 1. *(Optional)* In the prompt, select `[file]`. Select the existing topic whose tone you want the draft to match. You can choose the topic from the repository or from a collection. The topic name replaces `[file]` in the prompt.
 

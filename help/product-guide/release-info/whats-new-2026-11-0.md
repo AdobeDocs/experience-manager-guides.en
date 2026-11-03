@@ -22,12 +22,12 @@ Authors can:
 
 - **Create branches** from the main version of a DITA map to work on features, enhancements, or hotfixes independently.
 - **Switch between branches** in the Editor to manage multiple documentation versions.
-- **Manage content versions** using Dynamic Release Management to organize changes through branching and merging.
-- **Resolve merge conflicts** using a guided comparison workflow.
-- **Merge changes** into the main version or a parent branch.
-- **Publish directly from a branch** using standard publishing or hotfix publishing without modifying the main version.
+- **Manage content versions** using branching and merging to organize changes through branching and merging.
+- **Resolve merge conflicts** using a guided comparison workflow with three way merge.
+- **Merge changes** into the main version.
+- **Publish directly from a branch** using standard publishing without modifying the main version.
 
-Learn more about the current capabilities and upcoming enhancements to Dynamic Release Management in the [Branching](../user-guide/branching-overview.md) documentation.
+Learn more about [Branching and merging](../user-guide/branching-overview.md).
 
 ![](./assets/branching.png){width="650"}
 
