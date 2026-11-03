@@ -133,7 +133,7 @@ To configure the mountpoint URL in the `fstab.yaml` file:
 
 Adobe Experience Manager uses a GitHub application called **AEM Code Sync** to push content from Experience Manager Guides to GitHub. 
 
-Perform the following steps to install and configure the *AEM Code Sync* application:
+Perform following steps to install and configure the *AEM Code Sync* application:
 
 1. Navigate to the [AEM Code Sync](https://github.com/apps/aem-code-sync) page and select **Install**.
 
@@ -145,7 +145,7 @@ Perform the following steps to install and configure the *AEM Code Sync* applica
 
    ![](assets/eds-aem-code-sync-page.png)
 
-2. On the next page, grant access to the repository you created. Select **Only select repositories**, and then select your repository from the dropdown.
+2. On next page, grant access to the repository you created. Select **Only select repositories**, and then select your repository from the dropdown.
 
    ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
 
@@ -165,7 +165,7 @@ Perform the following steps to install and configure the *AEM Code Sync* applica
 
    Ensure that **Use a different content source** is selected.
 
-6. On the **Users** page, add users if required, and then select **Next**.
+6. On the **Users** page, add users if required, and select **Next**.
 
 7. Review the configuration summary and select **Save**.
 

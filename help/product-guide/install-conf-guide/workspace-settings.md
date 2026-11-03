@@ -51,15 +51,11 @@ The General settings allow you to configure the settings to use the Editor. This
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **AI features**
+- **AI features**: Use this to enable the AI Assistant feature in Experience Manager Guides. AI Assistant is available in two modes: **Agentic** and **Standard**. You can choose between the two modes by enabling the respective radio buttons.
 
     >[!NOTE]
     >
     > For using Agentic mode of AI Assistant feature in your environment, contact the Customer Success team.
-
-    Select to enable the AI Assistant feature in the Experience Manager Guides. Unselect to disable the feature.
-
-    AI Assistant is available in two modes: **Agentic** and **Standard**. You can choose between the two modes by enabling the respective radio buttons.
 
     - **Agentic**: After enabling this option, you can access Agentic AI Assistant from the navigation bar on the Experience Manager Guides application. You can also configure the taxonomy namespaces used by the Smart Tagging skill to generate tag recommendations. AI Assistant considers only tags from the selected namespaces, based on the tags defined in AEM. For details view [Agentic mode in AI Assistant](../user-guide/ai-assistant.md#ai-assistant-modes).
 

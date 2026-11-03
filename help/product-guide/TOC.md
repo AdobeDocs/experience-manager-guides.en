@@ -707,6 +707,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
       - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
       - [Configure Edge Delivery Services](./knowledge-base/publishing/configure-eds.md)
+      - [Configure GitLab for Edge Delivery Services](./knowledge-base/publishing/configure-eds-gitlab.md)
       - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)    
     - Workflows {#workflows}
       - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
