@@ -14,13 +14,11 @@ Learn about [upgrade instructions for the 2026.11.0 release](../release-info/upg
 
 ## Introducing map-level branching and merging
 
-Adobe Experience Manager Guides introduces map-level branching and merging capability, enabling authors to work on multiple documentation versions, feature updates, and hotfixes in parallel without affecting the main content. Authors can create isolated branches of a DITA map and its dependencies, ensuring that edits, locks, and previews remain specific to each branch.
+Adobe Experience Manager Guides introduces map-level branching and merging capability, enabling authors to work on multiple documentation versions, feature updates, and critical fixes in parallel without affecting the main content. Authors can create isolated branches of a DITA map and its dependencies, ensuring that edits, locks, and previews remain specific to each branch.
 
-This capability helps documentation teams manage parallel workstreams, collaborate efficiently, and maintain the stability of the main documentation version.
+This capability helps documentation teams manage parallel workstreams, collaborate efficiently, and maintain the stability of the main documentation version. You can:
 
-Authors can:
-
-- **Create branches** from the main version of a DITA map to work on features, enhancements, or hotfixes independently.
+- **Create branches** from the main version of a DITA map to work on features, enhancements, or critical fixes independently.
 - **Switch between branches** in the Editor to manage multiple documentation versions.
 - **Manage content versions** using branching and merging to organize changes through branching and merging.
 - **Resolve merge conflicts** using a guided comparison workflow with three way merge.
@@ -133,7 +131,7 @@ For more information, view [Enhanced Salesforce publishing using backend process
 
 ### Support for images from map metadata in Native PDF
 
-Native PDF publishing now supports dynamically displaying images defined in the metadata of DITA maps, bookmaps, and custom maps. You can use a single PDF template across multiple maps while displaying map-specific images, such as product cover images, in the generated output.
+Native PDF publishing supports the dynamic display of images defined in the metadata of DITA maps, bookmaps, and custom maps. You can use a single PDF template across multiple maps while displaying map-specific images, such as product cover images, in the generated output.
 
 By adding an image placeholder to the page layout, you can automatically populate it with the image referenced in the map metadata during publishing. This eliminates the need to maintain separate templates for different images and simplifies template management.
 

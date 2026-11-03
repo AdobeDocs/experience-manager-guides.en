@@ -59,7 +59,7 @@ Features available in the navigation bar are explained as follows:
   - **Agentic**: Agentic mode in AI Assistant enables you to accomplish content-related tasks through natural language interactions. You can describe your requirements in the chat panel, and AI Assistant plans and executes tasks while providing visibility into its progress. It supports skills such as Import, which converts PDF, Word, or Markdown files from your device or content repository into structured topics; Create, which generates new topics based on your requirements and can reference existing content for tone and style; and Smart Tagging, which recommends relevant tags based on your organization's taxonomy to improve metadata consistency.
 
   - **Standard**: A powerful, AI-driven tool designed to enhance your productivity through smart authoring capabilities of AI Assistant that makes your authoring process smarter and faster through intelligent suggestions for content reuse and optimization.  
-  
+    
   The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.  
 
 - **Help assistant**: The **Help assistant** in Experience Manager Guides is a generative AI-powered conversational search feature that helps you find information about product features, workflows, and troubleshooting. It provides relevant answers based on Experience Manager Guides documentation, supports follow-up questions, and includes links to source articles for further reference. For details, view [Enhance efficiency with Help assistant](./ai-based-smart-help.md).
