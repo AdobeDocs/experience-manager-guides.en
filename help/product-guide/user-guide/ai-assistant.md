@@ -31,7 +31,7 @@ topic_v2:
 >
 > The AI Assistant feature is currently available for Adobe Experience Manager Guides as a Cloud Service. 
 
-The AI Assistant in Adobe Experience Manager Guides is an AI-powered tool designed to enhance productivity by simplifying content creation, management, and authoring workflows. It offers two modes: Standard and Agentic. In **Agentic mode**, AI Assistant enables you to perform content-related tasks through natural language interactions, with skills such as Import, Create, and Smart tagging to streamline content creation, organization, and metadata management. In **Standard mode**, AI Assistant provides authoring assistance helping you create, refine, and manage content more efficiently. 
+The AI Assistant in Adobe Experience Manager Guides is an AI-powered tool designed to enhance productivity by simplifying content creation, management, and authoring workflows. It offers two modes: Agentic and Standard. In **Agentic mode**, AI Assistant enables you to perform content-related tasks through natural language interactions, with skills such as Import, Create, and Smart tagging to streamline content creation, organization, and metadata management. In **Standard mode**, AI Assistant provides authoring assistance helping you create, refine, and manage content more efficiently. 
 
 ## AI Assistant modes
 

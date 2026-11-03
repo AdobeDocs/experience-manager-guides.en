@@ -7,7 +7,7 @@ description: Learn how to draft new DITA topics and maps from your notes, specif
 
 The **Create** skill in AI Assistant's Agentic mode helps you generate the first draft of structured content from notes, specifications, whiteboard images, screenshots, or other available reference materials. The skill automatically identifies the appropriate DITA topic type, such as Concept, Task, Reference, or Troubleshooting, based on the content and topic templates available in your repository, reducing the manual effort required to structure and author content.
 
-You can attach a file, select an existing file as a reference for tone and style, and specify the folder where you want to save the generated content. To create topics from files, follow these steps:
+You can attach a file, select an existing file as a reference for tone and style, and specify the folder where you want to save the generated content. To create first draft of your desired content, follow these steps:
 
 1. Log in to Experience Manager Guides.
 1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the [AI Assistant in Agentic mode](../install-conf-guide/workspace-settings.md) is enabled by your Administrator.

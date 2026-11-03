@@ -79,7 +79,7 @@ To import pasted content:
 
 1. Enter a prompt that specifies the desired content.
 
-   For example, enter `Import the pasted page into DITA.` or `Turn the pasted content into DITA topics and a map.`
+   For example, enter *Import the pasted page into DITA* or *Turn the pasted content into DITA topics and a map*
 
 1. Select **Send**.
 
