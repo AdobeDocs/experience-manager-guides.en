@@ -27,7 +27,7 @@ Authors can:
 - **Merge changes** into the main version or a parent branch.
 - **Publish directly from a branch** using standard publishing or hotfix publishing without modifying the main version.
 
-Learn more about the current capabilities and upcoming enhancements to Dynamic Release Management through [Branching overview](../user-guide/branching-overview.md) article.
+Learn more about the current capabilities and upcoming enhancements to Dynamic Release Management in the [Branching](../user-guide/branching-overview.md) documentation.
 
 ![](./assets/branching.png){width="650"}
 
@@ -57,7 +57,7 @@ The generative AI-powered **Smart Help** capability is now available through the
 
 Administrators can manage the availability of the Help assistant panel through Workspace settings. The **AI Help Assistant** section includes a toggle to enable or disable the panel for users.
 
-For more information, view [Help assistant](../user-guide/intro-home-page.md).
+For more information, view [Help assistant](../user-guide/ai-based-smart-help.md).
 
 ![](./assets/help-assistant.png){width="650"}
 
