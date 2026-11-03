@@ -79,7 +79,7 @@ The General settings allow you to configure the settings to use the Editor. This
 
     ![](assets/authoring-quick-actions-standard.png){width="350"}  
 
-- **AI Help Assistant**: This feature is disabled by default. Enable this feature to access the Help Assistant panel from the Homepage, Editor, and Map Console interfaces. Help Assistant allows you to ask questions about Experience Manager Guides features, workflows, and troubleshooting, and provides relevant answers based on the product documentation. For deatils, view [Smart Help](../user-guide/ai-based-smart-help.md).
+- **AI Help Assistant**: This feature is disabled by default. Enable this feature to access the Help Assistant panel from the Homepage, Editor, and Map Console interfaces. Help Assistant allows you to ask questions about Experience Manager Guides features, workflows, and troubleshooting, and provides relevant answers based on the product documentation. For details, view [Smart Help](../user-guide/ai-based-smart-help.md).
 
 - **Authoring**
 
@@ -257,7 +257,7 @@ This tab contains options to configure the Schematron validations in the Editor.
 
     This prevents the users from saving any file which breaks a rule defined in the selected Schematron file(s). If this is not selected the file will not be validated before saving the changes.
 
-- **Allow all users to add schematron files in validation panel**: Select this to allow the users to add any Schematron file in the Validation panel of the Editor. This allows the users to add Schematron files and then validate the topics against the Schematron file. If this is not selected, the option to add schematron file **Add Schematron File** button is not available to the users in the **Validation panel** of the Editor.
+- **Allow all users to add schematron files in validation panel**: Select this to allow the users to add any Schematron file in the Validation panel of the Editor. This allows the users to add Schematron files and then validate the topics against the Schematron file. If this is not selected, the **Add Schematron File** button is not available to the users in the **Validation panel** of the Editor.
 
     ![Validation in workspace settings](../user-guide/images/editor-setting-validation.png){width="550"}
 
