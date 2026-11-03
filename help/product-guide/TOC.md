@@ -373,9 +373,9 @@ breadcrumb-title: AEM Guides Documentation
     - [Adobe Generative AI user disclosures](./user-guide/adobe-generative-ai-disclosures.md)
     - [AI Assistant overview](./user-guide/ai-assistant.md)
     - AI Assistant in Agentic mode {#ai-assistant-agentic}
-      - [Import content](./user-guide/import-ai-assistant.md)
-      - [Create content](./user-guide/create-ai-assistant.md)
-      - [Tag your content](./user-guide/ai-assistant-agentic.md)
+      - [Import content with AI Assistant](./user-guide/import-ai-assistant.md)
+      - [Create first draft of your content ](./user-guide/create-ai-assistant.md)
+      - [Smart tagging with AI Assistant](./user-guide/ai-assistant-agentic.md)
     - AI Assistant in Standard mode {#ai-assistant-standard} 
       - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
       - [AI-powered smart suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)

@@ -20,7 +20,7 @@ This capability helps documentation teams manage parallel workstreams, collabora
 
 - **Create branches** from the main version of a DITA map to work on features, enhancements, or critical fixes independently.
 - **Switch between branches** in the Editor to manage multiple documentation versions.
-- **Manage content versions** using branching and merging to organize changes through branching and merging.
+- **Manage content versions** to organize changes through branching and merging.
 - **Resolve merge conflicts** using a guided comparison workflow with three-way merge.
 - **Merge changes** into the main version.
 - **Publish directly from a branch** using standard publishing without modifying the main version.
