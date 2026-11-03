@@ -53,7 +53,11 @@ You can use the basic editing features available on the Editor toolbar, as descr
 
 - **Image**: Insert images into the content along with alternate text and a screen tip. Images can be added from the repository or via an external URL. Additionally, image properties can be modified using the **Content Properties** panel.
 
-    ![](assets/image-learning-content.png){width="650"}
+    >[!NOTE]
+    >
+    > The AVIF image format is also supported. You can upload a file in this format to the repository, or select it when inserting an image into your content. This works for SCORM output only.
+
+    ![](assets/image-learning-content.png){width="650"}    
 
 - **Multimedia**: Adds video and audio to the content. You can customize their properties using the **Content Properties** panel.
 

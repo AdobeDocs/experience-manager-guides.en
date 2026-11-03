@@ -478,6 +478,60 @@ If you like to work directly with the CSS and HTML code, then you can also achie
 …
 ```
 
+### Add an image from map metadata
+
+If you use the same template to publish multiple maps, you can display a different image for each map instead of a static image from the template Resources. For example, if your products share one template and differ only in the cover image, you can add an image placeholder to the cover page layout. When you publish a map, the placeholder is replaced with the image defined in the metadata of that map. Publishing Map 1 shows the image defined in Map 1, and publishing Map 2 shows the image defined in Map 2. If an image can't be resolved, the placeholder text that you specify is displayed instead.
+
+You can define the image in the `<bookmeta>` element of a bookmap or in the `<topicmeta>` element of a DITA map. Only the `<image>` element is supported. All image formats supported by Experience Manager Guides can be used, including GIF, JPG, BMP, PNG, SVG, and TIFF.
+
+To display an image from a map:
+
+1. Define the image in your map, as shown in the following examples.
+
+    In a bookmap, add the image in the `<bookmeta>` element:
+
+    ```xml
+    <bookmeta>
+      <metadata>
+        <data><image href="media/cover.png" id="cover-image"/></data>
+      </metadata>
+    </bookmeta>
+    ```
+
+    In a DITA map, add the image in the `<topicmeta>` element:
+
+    ```xml
+    <topicmeta>
+      <data><image href="images/cover.png" id="cover-image"/></data>
+    </topicmeta>
+    ```
+
+    >[!NOTE]
+    >
+    >The `<image>` element must have an `id` attribute. The `id` is mandatory and must be unique for each image in the map.
+
+1. In **Output Templates**, open the page layout in which you want to add the image placeholder, for example, the cover page layout.
+
+1. Select **Fields** from the **More options**.
+
+1. In the **Metadata** tab, select **Add format**.
+
+1. Specify the following details:
+
+    1. In **Use metadata from**, select **Map content**.
+    1. Enter the XPath of the image or the XPath of its `href` attribute.
+    1. Enter the desired format.
+    1. Enter the placeholder text to be displayed if the image is not resolved.
+    1. Select **OK**.
+
+1. (*Optional*) Use the **Stylesheets** to apply styling to the images. CSS styles are supported for the image element.
+
+1. Generate the PDF output.
+
+>[!NOTE]
+>
+>If you update the image in the Assets UI, the updated image is used the next time you generate the PDF output.
+
 ## Work with content area {#content-area}
 
 The content area is the largest area in terms of content space. The content area is populated with your topic's content. In some special cases, you can add boilerplate content in the content area. This content is published at the specified location in your page layout. For example, the heading in your table of contents, glossary, and index can be added as boilerplate content, which is published "as is" in the final output. Another example is the chapter TOC, which is typically added on the first page of every chapter.

@@ -47,26 +47,26 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
 
 ## General
 
- The General settings allow you to configure the settings to use the Editor. This tab contains five sections: **AI Assistant**, **Authoring**, **Citations**, **Condition**, and **Spell check**.
+The General settings allow you to configure the settings to use the Editor. This tab contains: **AI features**, **AI Help Assistant**, **Authoring**, **Citations**, **Condition**,**HTML editor**, **Learning content**, and **Spell check**.
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **AI Assistant**
+- **AI features**
 
     >[!NOTE]
     >
     > For using Agentic mode of AI Assistant feature in your environment, contact the Customer Success team.
 
-    Select this to enable the [AI Assistant](../user-guide/ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
+    Select to enable the AI Assistant feature in the Experience Manager Guides. Unselect to disable the feature.
 
-    AI Assistant is available in two modes: **Agentic** and **Standard**. You can choose between the two modes by enabling the respective toggles.
+    AI Assistant is available in two modes: **Agentic** and **Standard**. You can choose between the two modes by enabling the respective radio buttons.
 
-    - **Agentic**: After enabling this option you will be able to access the Agentic AI Assistant feature from the Navigation bar on Home page and Tab bar on Editor interface. For details on how to genearted AI suggested tags for topics, view [Use AI Assistant in Agentic mode](../user-guide/ai-assistant-agentic.md).
+    - **Agentic**: After enabling this option, you can access Agentic AI Assistant from the navigation bar on the Experience Manager Guides application. You can also configure the taxonomy namespaces used by the Smart Tagging skill to generate tag recommendations. AI Assistant considers only tags from the selected namespaces, based on the tags defined in AEM. For details view [Agentic mode in AI Assistant](../user-guide/ai-assistant.md#ai-assistant-modes).
 
-    ![](assets/agentic-ai-workspace.png){width="350"}
+        ![](assets/agentic-new.png){width="350"}
 
-    - **Standard**: After enabling the **Standard** toggle, you can configure which options appear under the **Authoring tab** for authors using the **Authoring quick actions** menu as shown below.  
-
+    - **Standard**: After enabling the **Standard** option, you can configure which options appear under the **Authoring quick actions** menu as shown below. 
+    
         These changes apply to the specific folder profile you are working with. If you create a new folder profile, it will inherit the Workspace settings defined in the **Global** folder profile by default. You can modify these settings as needed using the **Workspace settings** and save the updated configuration.  
 
         For a detailed overview of the available options for Authoring using AI Assistant, view [Author documents smartly with AI Assistant](../user-guide/ai-assistant-right-panel.md).
@@ -78,6 +78,8 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
     - change the order in which the options appear, drag and drop them as needed.  
 
     ![](assets/authoring-quick-actions-standard.png){width="350"}  
+
+- **AI Help Assistant**: This feature is disabled by default. Enable this feature to access the Help Assistant panel from the Homepage, Editor, and Map Console interfaces. Help Assistant allows you to ask questions about Experience Manager Guides features, workflows, and troubleshooting, and provides relevant answers based on the product documentation. For details, view [Smart Help](../user-guide/ai-based-smart-help.md).
 
 - **Authoring**
 
@@ -110,8 +112,27 @@ The **Workspace settings** option present in the [Tab bar](../user-guide/web-edi
         >[!NOTE]
         >
         > AEM spell check uses the language selected in the language property of the file, if the language is not specified for the file, spell check falls back to the AEM server language. 
-        >To ensure accurate spell‑check results, the dictionary for the selected language must be available in AEM. If the required dictionary for the configured language is unavailable, spell check defaults to `en_us`.   
+        >To ensure accurate spell‑check results, the dictionary for the selected language must be available in AEM. If the required dictionary for the configured language is unavailable, spell check defaults to `en_us`.           
+- **Learning content**: This setting allows you to enable or disable the Product Training and Learning content feature for your Experience Manager Guides instance. Use the **Enable Learning content** toggle to enable or disable the feature at a folder-profile level. By default, this feature remains disabled for all the instances. 
 
+    Learn more about [Product Training and Learning content](../learning-content/intro.md) feature.
+
+    The following features/options become available only when the Learning content setting is enabled:
+
+    - **Course authoring**: Enables options to create and manage Courses from both the Editor and the Home page.
+    - **SCORM templates**: Enables the option to create SCORM templates under *Output templates* in the Editor. 
+    - **Content templates and Output presets**: Enables the Content templates and Output presets configuration options in the Workspace settings dialog. 
+
+When Learning content is disabled, all of the above options become unavailable across the Experience Manager Guides interface. 
+
+For more details, view [Configure Folder profiles](../lc-config-guide/lc-folder-profile.md).
+
+- **HTML editor**: For learning content, this setting allows you to configure the Editor for HTML-based authoring. Key configuration options present in this setting are as follows: 
+
+    - **Hide inline styling**: Enable this option to prevent Authors from applying inline formatting to the course content. When enabled, all the inline styling options like Fonts, Border, Layout, Background, and Columns present in the right panel of the Editor remain hidden for Authors. However, Authors can still use the global class-based styling options available in the **Styles** panel. This helps maintain consistency with your organization's style guidelines. 
+    - **Hide Source view for Authors**: Enable this option to restrict access to the HTML source code. This is useful when you want to simplify the editing experience or avoid accidental changes to the underlying code. 
+
+   For more details, view [creating and customizing learning content](../learning-content/lc-overview.md).
  
 ## Panels
 
@@ -177,7 +198,13 @@ This contains the Profiles that can be used to publish the **Knowledge Base** ou
     - Select the following OAuth Scopes:
         - Full access (full)
         - Select Manage user data via APIs (api)
-    
+        - Perform requests at any time (refresh_token, offline_access)
+
+        >[!NOTE]
+        >
+        >- To use Proof Key for Code Exchange (PKCE), add `Perform requests at any time` to the scopes. Also contact the Customer Success team to enable this feature.
+        >- Enable the **Require Proof Key for Code Exchange (PKCE) Extension for Supported Authorization Flows** setting in the Salesforce connected app. PKCE prevents an intercepted authorization code from being exchanged for an access token, which makes the connection between Experience Manager Guides and Salesforce more secure. 
+        
         Once the app is configured, Salesforce provides a **Consumer Key** and **Consumer Secret**. These can be used to create the Salesforce profile. 
      
 
@@ -230,7 +257,7 @@ This tab contains options to configure the Schematron validations in the Editor.
 
     This prevents the users from saving any file which breaks a rule defined in the selected Schematron file(s). If this is not selected the file will not be validated before saving the changes.
 
-- **Allow all users to add schematron files in validation panel**: Select this to allow the users to add any Schematron file in the Validation panel of the Editor. This allows the users to add Schematron files and then validate the topics against the Schematron file. If this is not selected, the option to add schematron file **Add Schematron File** button is not available to the users in the **Validation panel** of the Editor.
+- **Allow all users to add schematron files in validation panel**: Select this to allow the users to add any Schematron file in the Validation panel of the Editor. This allows the users to add Schematron files and then validate the topics against the Schematron file. If this is not selected, the **Add Schematron File** button is not available to the users in the **Validation panel** of the Editor.
 
     ![Validation in workspace settings](../user-guide/images/editor-setting-validation.png){width="550"}
 

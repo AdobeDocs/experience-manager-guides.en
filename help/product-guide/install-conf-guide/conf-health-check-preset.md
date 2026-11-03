@@ -28,9 +28,9 @@ level_v2:
 >
 > This feature is enabled by default. If you prefer not to use this feature in your environment, contact your Customer Success team. 
 
-As an Administrator, you can configure the health check feature at a folder-profile level in Experience Manager that allows Authors and Publishers to run health checks on a DITA map. This includes early detection of issues such as broken links, duplicate IDs, and Schematron validation failures across a map before publishing, instead of checking each file individually. Which checks are run is defined by a health check preset, a set of rules that Authors and Publishers can select and run.
+As an Administrator, you can configure the health check feature at a folder-profile level in Experience Manager that allows authors and publishers to run health checks on a DITA map. This includes early detection of issues such as broken links, duplicate IDs, and Schematron validation failures across a map before publishing, instead of checking each file individually. Which checks are run is defined by a health check preset, a set of rules that Authors and Publishers can select and run. 
 
-This article provides information on creating and managing health check presets.
+The health check feature is available in both the New editor and Old editor. 
 
 ## Create a health check preset
 

@@ -11,43 +11,19 @@ role_v2:
     internal-label: User
 ---
 
-# Use AI Assistant in Agentic mode
+# Smart tagging with AI Assistant
 
->[!NOTE]
->
-> AI Assistant in Agentic mode is available in Experience Manager Guides as a Cloud Service starting with the 2026.09.0 release. It requires your organization to be onboarded to CX Enterprise Coworker; once onboarded, contact your Customer Success team to enable the feature. For configuration details, view [Configure AI Assistant in Agentic Mode](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
+The Smart tagging skill, available in AI Assistant's Agentic mode through Adobe CX Enterprise Coworker, makes tagging your content faster, easier, and more consistent. It analyzes your content and recommends relevant tags based on your organization's taxonomy, eliminating the need to manually review content and identify applicable tags. Your Administrator can configure the taxonomies used to generate tag recommendations through [Workspace settings](../install-conf-guide/workspace-settings.md#general) by selecting the relevant namespaces for your workspace.
 
-AI Assistant in Agentic mode makes tagging your content faster, easier, and more consistent. Using the agentic Smart Tagging skill from Adobe CX Enterprise Coworker, AI Assistant analyzes your content and recommends relevant tags based on your organization's taxonomy, instead of you manually reading through content to decide which tags apply. You stay in control by reviewing the suggested tags and choosing to apply or reject them before confirming your selection, reducing manual effort, improving tagging accuracy, and ensuring consistent metadata across your documentation.
+You stay in control by reviewing the suggested tags and choosing to apply or reject them before confirming your selection. This reduces manual effort, improves tagging accuracy, and helps maintain consistent metadata across your documentation.
 
-## AI Assistant panel
-
-The AI Assistant panel provides all the tools you need to generate, review, and apply AI suggested tags. 
-
-![Agentic AI Assistant panel](images/guides-ai-panel.png){width="650"}
-
-The following components of AI Assistant in Agentic mode help you add files, configure tag recommendations, and manage your smart-tagging workflow: 
-
-- **(A)** Conversation history: View and reopen previous conversations to review earlier tag recommendations and actions.
-
-    ![Agentic AI Assistant panel converstaion history](images/chat-history.png){width="350"}
-
-- **(B)** New chat: Start a new tagging session for a different topic, map, or set of files.
-- **(C)** Tag namespace: Select the taxonomy namespaces from where the AI Assistant generates tag recommendations. Only tags from the selected namespaces are considered. 
-
-    ![Agentic AI Assistant panel taxonomy](images/taxononmy.png){width="350"}
-
-- **(D)** Response space: Review AI-generated tag recommendations and choose to accept, reject, or modify them before applying the tags.
-- **(E)** Prompt space: Enter a prompt request to generate tag recommendations for the selected content.
-- **(F)** Attach files or add context: Adds topics, maps, or external files from your local system to provide the content that AI Assistant analyzes for tag recommendations.
-- **(G)** Model: Displays the AI model used to analyze content and generate tag recommendations. Multiple OpenAI and Anthropic Claude models are available for selection. By default, the **Use manifest default** option is selected, which uses the model configured for the selected assistant.
-- **(H)** Send: Submit your prompt and attached content to generate AI-powered tag recommendations.
 
 ## Apply tags to single or multiple topics with the smart-tagging skill
 
 Perform the following steps to use AI Assistant for applying tags to single or multiple topics with the smart-tagging skill: 
 
 1. Log in to Experience Manager Guides.
-1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the AI Assistant in Agentic mode is enabled by your Administrator. 
+1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the [AI Assistant in Agentic mode](../install-conf-guide/workspace-settings.md) is enabled by your Administrator.
 1. Add the topic for which you want to generate tag recommendations using one of the following methods:
 
     - **Using Suggested prompts**: For the first chat in the Response area, select **Suggest tags for a file** prompt. The prompt gets automatically added to the Prompt space. Select `[file]`, then choose the topic from the Repository or a Collection in the **Select file** dialog. You can select one topic from the **Select file** dialog.
@@ -132,8 +108,8 @@ Perform the following steps to use AI Assistant for applying tags to multiple to
 1. Select **Confirm**. AI Assistant analyzes the selected topics and displays the number of tag recommendations generated for each topic.
 1. Select **Preview** to review the AI-generated tag recommendations.  
 1. Review the suggested tags for each topic, and then choose one of the following actions:
-   - **Accept all** to apply all suggested tags for all the topics.
-   - **Reject all** to discard all suggested tags for all the topics.
+   - **Accept** to apply all suggested tags for all the topics.
+   - **Reject** to discard all suggested tags for all the topics.
    - **Clear all suggestions** to remove all the suggested tags for a specific topic.
    - Select the **X** icon next to a tag to remove an individual tag suggestion.
 

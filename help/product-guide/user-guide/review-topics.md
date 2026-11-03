@@ -231,7 +231,10 @@ You can also highlight or strikethrough text quickly with the contextual toolbar
 
 The Comments panel displays a list of comments given on the current topic. This panel also lists comments from other reviewers, if the topic is sent to multiple reviewers. Each comment in the comment panel is linked to the corresponding text in the current topic. It helps you identify the commented text. Each comment displays the name of the reviewer who has added the comment along with the timestamp.
 
-The comments are displayed in the order of the commented text in the document. For example, there is a highlight comment on the first sentence and an insert text comment on the second sentence in the first paragraph then the highlight text comment is displayed before the inserted text comment.
+>[!NOTE]
+>
+> The review initiator can also add comments to a topic to provide additional context or draw reviewers' attention to specific content. These comments are displayed in the **Comments** panel along with comments from other reviewers. For more details, view [Add comments for reviewers](./review-send-topics-for-review.md#add-comments-for-reviewers).
+
 
 The tasks that you can perform using the Comments panel are described below:
 

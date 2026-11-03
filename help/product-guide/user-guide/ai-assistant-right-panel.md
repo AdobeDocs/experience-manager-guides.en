@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
-# Author documents smartly with AI Assistant (Beta)
+# Author documents smartly with AI Assistant
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Adobe Experience Manager Guides provides an AI Assistant tool that helps you mak
 
 >[!NOTE]
 >
-> This Authoring feature is available for DITA topics only, and can be accessed from the Editor interface only. On the Home page and Map console, only the **Help** panel is displayed. The options available under the Authoring feature are configured at a folder profile level by the Administrators using the Workspace settings.
+> This Authoring feature is available for DITA topics only, and can be accessed from the Editor interface only. On the Home page and Map console. The options available under the Authoring feature are configured at a folder profile level by the Administrators using the Workspace settings.
 
 After selecting the text in a topic, you can choose to perform any of the AI Assistant actions:
 

@@ -42,7 +42,7 @@ The navigation bar surfaces tools to switch navigation, customize the overview l
 >
 > If using the Adobe Experience Manager Guides as a Cloud Service, an additional feature labeled as **AI Assistant** is displayed in the navigation bar. 
 
-![](images/aem-home-nav-bar.png)
+![](images/aem-home-nav-bar-new.png)
 
 Features available in the navigation bar are explained as follows: 
 
@@ -56,12 +56,13 @@ Features available in the navigation bar are explained as follows:
   >
   > For using Agentic mode of AI Assistant feature in your environment, contact the Customer Success team. After the feature is enabled, Administrators can turn it on or off from Workspace Settings. Only one mode of AI Assistant can be enabled at a time; either Agentic or Standard.
 
-  - **Agentic**: Brings intelligent, agentic Smart Tagging skill from Adobe CX Enterprise Coworker into the Editor, enabling natural, conversational content tagging. It analyzes your content, recommends relevant tags, and helps you apply consistent and accurate metadata with minimal effort. You can review the suggested tags and choose to apply or reject them before confirming your selection. [Use AI Assistant in Agentic Mode](../user-guide/ai-assistant-agentic.md) streamlines the tagging process, improving content organization and discoverability.
+  - **Agentic**: Agentic mode in AI Assistant enables you to accomplish content-related tasks through natural language interactions. You can describe your requirements in the chat panel, and AI Assistant plans and executes tasks while providing visibility into its progress. It supports skills such as Import, which converts PDF, Word, or Markdown files from your device or content repository into structured topics; Create, which generates new topics based on your requirements and can reference existing content for tone and style; and Smart Tagging, which recommends relevant tags based on your organization's taxonomy to improve metadata consistency.
 
-  - **Standard**: A powerful, AI-driven tool designed to enhance your productivity through smart help features. Additionally, when working in the Editor interface, you can leverage the smart authoring capabilities of AI Assistant that makes your authoring process smarter and faster through intelligent suggestions for content reuse and optimization.  
-  
+  - **Standard**: A powerful, AI-driven tool designed to enhance your productivity through smart authoring capabilities of AI Assistant that makes your authoring process smarter and faster through intelligent suggestions for content reuse and optimization.  
+    
   The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.  
 
+- **Help assistant**: The **Help assistant** in Experience Manager Guides is a generative AI-powered conversational search feature that helps you find information about product features, workflows, and troubleshooting. It provides relevant answers based on Experience Manager Guides documentation, supports follow-up questions, and includes links to source articles for further reference. For details, view [Enhance efficiency with Help assistant](./ai-based-smart-help.md).
 - **Customize overview section**: Allows you to hide or show the widgets in the Widgets section. 
 - **Folder profile in use**: Displays the folder profile that is currently being used.
 - **More actions**: Provides access to additional options. Selecting this button opens a menu with the following options:
@@ -178,7 +179,7 @@ The Repository serves as a centralized hub for discovering folders and files wit
 
 >[!NOTE]
 >
->You can use the new Map collections feature in Adobe Experience Manager Guides as a Cloud Service starting from 2026.08.0 release, which combines map management and bulk publishing into a unified interface. Contact your Customer Success team to enable this feature.Learn more about [using the new map collection.](./generate-output-use-new-map-collection-output-generation.md)
+>You can use the new Map collections feature in Adobe Experience Manager Guides as a Cloud Service starting from 2026.08.0 release, which combines map management and bulk publishing into a unified interface. Contact your Customer Success team to enable this feature. Learn more about [using the new map collection.](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides provides you with the ability to organize your content for publishing by using a dashboard called **Map collections**. To use this feature, select **Map collections** from the left panel. It takes you to the Map collections page in the **Assets UI** where you can [use map collection for output generation.](./generate-output-use-map-collection-output-generation.md)  
 

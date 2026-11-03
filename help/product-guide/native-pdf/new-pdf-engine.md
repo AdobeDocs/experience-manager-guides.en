@@ -98,3 +98,4 @@ The following issues in PDF output generated using _Native PDF Engine v1_ are fi
 - The reading order of content in Native PDF output with accessibility settings enabled is incorrect. Page numbers from footers are read before the main content instead of at the end. (GUIDES-27790)
 - The color bar in Native PDF output does not stretch across the full page width and overlaps when the page size is customized, causing some color boxes to be hidden. (GUIDES-15505)
 - The `CSS:is()pseudo-class` selector is not honored in Native PDF output, resulting in styling differences compared to browser rendering. (GUIDES-11328)
+- Certain Chinese (Simplified) characters are rendered using a Japanese font in Native PDF output, even when the output language is set to Chinese (zh-CN). (GUIDES-48094)

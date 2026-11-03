@@ -67,7 +67,42 @@ After the preset is created, configure the SCORM preset settings. The preset con
   - **Quiz:** Configure quiz-related behavior such as randomizing question order and answer choices to reduce predictability across attempts.
 
     - **Randomize question order for each attempt**: Displays quiz questions in a different order for every attempt, helping reduce predictability.
-    - **Randomize answer choices for each attempt**: Shuffles the answer options for each question on every attempt, reducing the chance of guessing.            
+    - **Randomize answer choices for each attempt**: Shuffles the answer options for each question on every attempt, reducing the chance of guessing.   
+
+  - **Reporting**: Use these settings to control when the course's completion and pass/fail status are published to Adobe Learning Manager (ALM).
+
+    ![Reporting settings](assets/reporting-scorm.png)
+
+    - **Course completion**: Defines when the course is marked complete and published to ALM.
+
+      - **Mark the course complete on launch**: Marks the course complete for the learner as soon as it's launched. The learner isn't required to interact with any content. This option is rarely needed but is available if your workflow requires it.
+      - **Based on topics completed**: Marks the course complete once the learner reaches a specified **percentage** or **number** of completed topics. Choose whichever unit; percentage or number, fits how you want to define the completion threshold.
+      - **Based on the graded quiz**: Marks the course complete based on the learner's quiz status, selected from the dropdown:
+
+        - **Graded quiz attempted**
+        - **Graded quiz passed**
+        - **Graded quiz passed or attempt limit reached**
+
+      When both **Based on topics completed** and **Based on the graded quiz** are enabled, use the **AND**/**OR** selector to define how the two conditions combine:
+
+      - **AND**: Both conditions must be true.
+      - **OR**: Either condition being true is enough.
+
+    - **Course pass or fail**: Defines when a pass or fail status is published to ALM. Reporting a pass or fail status is optional.
+
+        - **Report a pass or fail status to LMS**: Diable this if you don't want pass/fail status published to ALM. When disabled, the remaining options in this group are hidden.
+        - **Mark the course passed on launch**: Marks the course passed for the learner as soon as it's launched.
+        - **Based on topics completed**: Marks the course complete once the learner reaches a specified **percentage** or **number** of completed topics. Choose whichever unit; percentage or number, fits how you want to define the completion threshold.
+        - **Based on the graded quiz**: Marks the course pass or fail based on the learner's quiz status, selected from the dropdown
+
+          - Graded quiz attempted
+          - Graded quiz passed  
+
+        When both **Based on topics completed** and **Based on the graded quiz** are enabled, use the **AND**/**OR** selector to combine them, as described above.
+
+    >[!NOTE]
+    >
+    >By default, these settings match the previous behavior: completion at 100% of topics completed, and pass based on both the graded quiz being passed and 100% topics completed. This applies to both new and existing SCORM presets, so nothing changes for existing courses unless you reconfigure these settings.
 
 - **Publish to LMS:** Use this setting to publish your content directly to Adobe Learning Manager (ALM). From the **Publish server** dropdown, select **Adobe Learning Manager**, and then choose the required **Publish profile** that was previously configured in Workspace settings. The selected profile is used to establish the connection and upload the generated content to ALM.
 

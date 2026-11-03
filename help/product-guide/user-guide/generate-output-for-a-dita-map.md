@@ -72,6 +72,9 @@ To view the error log, select **Dismiss**, hover over the selected preset tab, a
 >
 > If your map uses a DITAVAL file, any flagged images referenced in the DITAVAL file are copied to a location related to the published map in the output.  Also, if you are using multiple DITAVAL files for filtering within the same map, ensure that you use unique `.ditaval` file names to avoid duplicate filename issues during publishing.
 
+You can view the current status of the output generation request in the **Output history** tab. For more information, view [View the status of the output generation task](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
+
+
 ## Generate output for a DITA map from the Map dashboard 
 
 Perform the following steps to generate output for a DITA map using Map dashboard:
@@ -87,7 +90,7 @@ Perform the following steps to generate output for a DITA map using Map dashboar
 1.  Select the **Generate** icon to start the output generation process.
 
 
-You can view the current status of the output generation request in the **Outputs** tab. For more information, view [View the status of the output generation task](./generate-output-manage-process.md#view-the-status-of-the-output-generation-task).
+You can view the current status of the output generation request in the **Outputs** tab. For more information, view [View the status of the output generation task](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)..
 
 >[!IMPORTANT]
 >

@@ -63,7 +63,7 @@ The Map console interface is primarily divided into two sections - **Navigation 
     >
     > If using the Adobe Experience Manager Guides as a Cloud Service, an additional feature [AI Assistant](./ai-assistant.md) is displayed in the navigation bar. 
 
-- (**B**) **Left panel**: The left panel gives you quick access to Output generation, Report creation and management, Baseline, Condition presets, Content translation, and Workfront (only if configured) features. 
+- (**B**) **Left panel**: The left panel gives you quick access to Output generation, Output history, Report creation and management, Baseline, Condition presets, Content translation, and Workfront (only if configured) features. 
 
     For more details, refer to the [Map console features](#map-console-features) section below.
 
@@ -77,6 +77,14 @@ With Map console, you can efficiently generate outputs in various formats, inclu
 
 For more details, view [Output generation](./generate-output.md).
 
+**Output history**
+
+Allows you to view and manage output generation tasks for the selected DITA map directly from the Editor. You can monitor the status of ongoing and completed tasks, view output generation details, access publishing logs, and manage the output generation history.
+
+You can also search and filter output generation tasks based on preset type, task status, and date and time range, and download the output generation history in CSV format.
+
+For more details, view [Manage output generation process](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
+
 **Report creation and management**
 
 In an organizational setup, you want to verify the overall completeness of your technical documentation before you start working on it or pushing the documents live. Such a need becomes even more essential in multi-user and large-scale environments. With Map console, you get access to Experience Manager Guides reports that give a useful insight into the overall health of the content in your repository and how content is being used in the documentation process.
@@ -84,6 +92,10 @@ In an organizational setup, you want to verify the overall completeness of your 
 For more details, view [Reports in Experience Manager Guides](./reports-intro.md).
 
 **Baseline**
+
+>[!NOTE]
+>
+> The Map console shows either the **Baseline** tab or the **Branches** tab, depending on whether branching is enabled for your environment. Branching is available in Experience Manager Guides as a Cloud Service starting with the 2026.11.0 release and is disabled by default. To enable it, contact the Adobe Customer Success team. When branching is enabled, baselines are no longer available. For details, view [Branching in Experience Manager Guides](./branching-overview.md) and [Create and manage branches of a DITA map](./create-manage-branch.md#manage-branches).
 
 Experience Manager Guides provides the Baseline feature that allows you to create a version of your topics and assets that can then be used for publishing or translation. You can also publish multiple output presets of the same DITA map in parallel. 
 

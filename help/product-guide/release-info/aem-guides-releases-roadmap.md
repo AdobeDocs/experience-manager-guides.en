@@ -29,19 +29,13 @@ role_v2:
 
 ## [!DNL Experience Manager Guides] as a [!DNL Cloud Service] {#aem-guides-roadmap-cs}
 
-The releases for Adobe Experience Manager Guides as a Cloud Service are planned as follows:
-
-### Planned releases
-
-| Release |Event |Schedule |What's new | Upgrade instructions | Fixed issues |Status|
-|---|---|---|---|---|---|---|
-|Adobe Experience Manager Guides 2026.11.0 |Automatic update|November 9-11, 2026|-|-|-|Target|
-
+The releases for Adobe Experience Manager Guides as a Cloud Service are as follows:
 
 ### Live releases
 
 | Release |Event |Schedule |What's new | Upgrade instructions | Fixed issues |Status|
 |---|---|---|---|---|---|---|
+|Adobe Experience Manager Guides 2026.11.0 <br> [(AEM Release - 29251)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest)|Automatic update|November 9-11, 2026|[Here](./whats-new-2026-11-0.md)|[Here](./upgrade-instructions-2026-11-0.md)|[Here](./fixed-issues-2026-11-0.md)|Updated|
 |Adobe Experience Manager Guides 2026.09.0 <br> [(AEM Release - 28386)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest)|Automatic update|September 28-30, 2026|[Here](./whats-new-2026-09-0.md)|[Here](./upgrade-instructions-2026-09-0.md)|[Here](./fixed-issues-2026-09-0.md)|Updated|
 |Adobe Experience Manager Guides 2026.08.0 <br> [(AEM Release - 27293)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest)|Automatic update|August 03–05, 2026|[Here](./whats-new-2026-08-0.md)|[Here](./upgrade-instructions-2026-08-0.md)|[Here](./fixed-issues-2026-08-0.md)|Updated|
 |Adobe Experience Manager Guides 2026.07.0 <br> [(AEM Release - 26908)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest)|Automatic Update|First week of July, 2026|-|[Here](upgrade-instructions-2026-07-0.md)|[Here](fixed-issues-2026-07-0.md)|Updated|

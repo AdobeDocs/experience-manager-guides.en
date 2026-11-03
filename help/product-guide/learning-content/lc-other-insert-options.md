@@ -55,8 +55,9 @@ The other options available in the Insert menu in the Editor toolbar include:
 
     >[!NOTE]
     >
-    > Editing or creating H5P content is not supported within Adobe Experience Manager Guides. Prepare your H5P package externally before uploading.
-
+    > - Editing or creating H5P content is not supported within Adobe Experience Manager Guides. Prepare your H5P package externally before uploading.
+    > - Courses containing multiple H5P files use shared resources instead of duplicating them for each file. This reduces the package size and results in faster course generation and publishing for H5P-heavy courses. 
+    
     ![](assets/h5p-fullscreen.png)
 
     **Preview mode**

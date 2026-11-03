@@ -74,6 +74,17 @@ The following configuration options are available under the **General** tab:
 
 This tab displays the tree or hierarchical view of the map. Choose the topics you want to publish to a knowledge base. Expand a TOC node and choose the topics that you want to publish. 
 
+![](./images/articles-tab-kb.png)
+
+When publishing to Salesforce, a warning icon appears next to the **Articles** tab if no topics are selected for publishing. The warning icon disappears once you select one or more topics.
+
+>[!NOTE]
+>
+> This capability is introduced in the 2026.11.0 release of Adobe Experience Manager Guides as Cloud Service. The feature is disabled by default. To enable it, contact your Customer Success team. To learn more about the Salesforce publishing enhancements introduced in the 2026.11.0 release, view [Enhanced Salesforce publishing using backend processing](./generate-output-for-a-dita-map.md#merging-different-topics-within-a-dita-map-using-the-chunk-attribute).
+
+![](./images/articles-tab-salesforce-kb.png)
+
+
 ### Target - Adobe Experience Manager/ServiceNow/Salesforce
 
 The configuration options change based on the target that you select.
@@ -110,6 +121,9 @@ The following configuration options are displayed for **ServiceNow** as target:
 | Publish Profile | Use the dropdown to select from the ServiceNow connection profiles your administrator configures. To learn more about how your administrator can create a publish profile, view the **Workspace settings** (appearing as **Settings** for **On-Premise setup prior to version 5.2**) feature description in the [Left Panel](./web-editor-features.md#id2051EA0M0HS) section. |
 |Knowledge Base|Use this field to select the required ServiceNow Knowledge Base. You can configure knowledge bases in the ServiceNow site to store the content based on the permissions. The articles from this DITA map can be published to these knowledge bases. |
 |Category and Sub-category|Categories are like hierarchical trees used to find and classify ServiceNow Knowledge Base articles. Add a category and sub-category to publish the topics and sub-topics of the TOC to that category and sub-category on the ServiceNow site.|
+| Upload images | Select this option if you want any images in topics to be included in the published output. |
+| Upload linked documents | Select this option to include the documents linked in topics in the published output. |
+| Remove elements from the article body | Type the name of an element (for example, `prolog` or `shortdesc`) and press **Enter** to add it to the list. Any element you add is excluded from the article body in the published output. By default, the list includes **title**, so the topic heading is hidden from the article body. Select the `x` icon next to **title** to remove it from the list if you want the topic heading included, or add other elements you want to exclude. <br><br>**Note**: Enter the exact class name of the DITA element as it appears in the transformed HTML in the ServiceNow article's source code view. The class name must match a recognized element for the exclusion to take effect. If the entered name does not match a recognized element, it will be ignored, and the element will remain in the published article.|
 
 **Salesforce**
 
@@ -121,17 +135,11 @@ The following configuration options are displayed for **Salesforce** as target:
 |Record Type| Use the dropdown to select among the record types set up in Salesforce as per the visibility settings based on your user profile. Salesforce Record Types are a way of grouping many records of one type for that object. They define how your publication is organized. For example, you can select FAQ Record Type and publish as per the FAQ page layout and fields.|
 |Article Content Field|You can have different fields and a unique layout for each record type template. Use these fields to enter specific information depending on the type of article. For example, you can view a FAQ article's title, answer, and equation.|
 |Categories| Select a category from the dropdown to publish the topics of the TOC in that category on the Salesforce site.|
-
-**Some more options**
-
-You can also view the following options in the Salesforce and ServiceNow presets:
-
-| Options | Description |
-| --- | --- |
 |Remove the topic heading from the article body.|Select this option to remove the topic heading from the article in the published output. |
 |Upload as draft | Select this option to upload the topic to share it as a draft before making it available to the users.|
 |Upload images| Select this option if you want any images in topics to be included in the published output.|
 |Upload linked documents| Select this option to include the documents linked in topics in the published output.|
+
 
 
 

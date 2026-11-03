@@ -419,7 +419,12 @@ When you generate an output, the output gets created along with the output logs.
 
 `/var/dxml/metadata/outputHistory`
 
-Over a period of time, the collective size of all log files could run into GBs. AEM Guides allows you to configure a time period to keep these log files in the repository. After the specified time period, the logs along with output generation history are deleted from the repository.
+Over a period of time, the collective size of all log files could run into GBs. AEM Guides allows you to control how long the logs and output generation history are kept in the repository. You can retain output history in one of the following ways:
+
+- **By age (default):** Entries older than the number of days that you specify are purged.
+- **By count:** Only the most recent number of entries that you specify are retained for each map and preset. Older entries are purged regardless of their age.
+
+You can also choose whether purging removes the entire output history entry along with its log, or only the log. Keeping the entry without its log helps you retain a record of the generated outputs for audit purposes while still reducing the repository size.
 
 >[!NOTE]
 >
@@ -427,11 +432,15 @@ Over a period of time, the collective size of all log files could run into GBs. 
 
 Configuring the history purging feature impacts the output generation for all DITA maps in the repository. In the Outputs tab of a DITA map, the history is purged after the specified number of days and at the time specified in the setting.
 
+
+
 >[!NOTE]
 >
 > Removing the log files and output generation history does not have any impact on the generated output.
 
-The following tabs provide instructions to set a day and time to purge output history and logs based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+The following tabs provide instructions to configure how output history and logs are purged based on your Experience Manager Guides setup: Cloud Service or On-Premise.
+
+![](assets/purging-history-setting.png){width="600"}
 
 >[!BEGINTABS]
 
@@ -441,8 +450,11 @@ Use the instructions given in [Configuration overrides](download-install-config-
 
 |PID|Property Key|Property Value|
 |---|------------|--------------|
-|`com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod`|Specify the number of days after which the output history along with output logs are purged. If you want to disable this feature, then set this property to 0.Everyday at the specified time the purging process is executed on outputs generated before the number of days specified in this property. | **Default value**: 5|
-|`output.history.purgetime`|Specify the time when the purging process is initiated. | **Default value**: 0:00 \(or 12:00 midnight\)|
+|`com.adobe.fmdita.config.ConfigManager`|`output.history.purgeperiod`|Specify the number of days after which the output history along with output logs are purged. If you want to disable this feature, then set this property to 0. Everyday at the specified time the purging process is executed on outputs generated before the number of days specified in this property. This property is used only when `output.history.retention.mode` is `AGE`. **Default value**: `5`|
+|`com.adobe.fmdita.config.ConfigManager`|`output.history.purgetime`|Specify the time when the purging process is initiated. Format: `HH:MM` (for example, `15:30`). **Default value**: `0:00` (or 12:00 midnight)|
+|`com.adobe.fmdita.config.ConfigManager`|`output.history.retention.mode`|Specify the retention strategy for output history. Possible values are `AGE` and `COUNT`. **Default value**: `AGE`|
+|`com.adobe.fmdita.config.ConfigManager`|`output.history.retention.count`|Specify the number of most recent output history entries to keep for each map and preset. Enter a positive integer. This property is used only when `output.history.retention.mode` is `COUNT`. **Default value**: `25`|
+|`com.adobe.fmdita.config.ConfigManager`|`output.history.retention.action`|Specify what happens to the output history entries that are removed by retention, in either mode. Possible values are `DELETE_ENTRY` and `LOGS_ONLY`. **Default value**: `DELETE_ENTRY`|
 
 >[!TAB On-Premise]
 
@@ -456,15 +468,21 @@ Use the instructions given in [Configuration overrides](download-install-config-
 
 1.  Search for and click on the **com.adobe.fmdita.config.ConfigManager** bundle.
 
-1.  In the **Output History Purging Period** property, specify the number of days after which the output history along with output logs are purged. By default, it is set to 5 days. If you want to disable this feature, then set this property to 0.
+1. In the **Output History Purging Period** property, specify the number of days after which the output history along with output logs are purged. By default, it is set to 5 days. If you want to disable this feature, then set this property to 0. This property is used only when **Output History Retention Mode** is set to **AGE**.
 
-1.  In the **Output History Purging Time** property, specify the time when the purging process is initiated. By default, it is set to 0:00 \(or 12:00 midnight\). Everyday at this time, the purging process is executed on outputs generated before the number of days specified in the **Output History Purging Period** property.
+1. In the **Output History Purging Time** property, specify the time when the purging process is initiated. By default, it is set to 0:00 (or 12:00 midnight). Everyday at this time, the purging process is executed on outputs generated before the number of days specified in the **Output History Purging Period** property.
 
     >[!NOTE]
     >
-    > By default, the purging feature is executed every midnight on outputs older than 5 days.
+    >By default, the purging feature is executed every midnight on outputs older than 5 days.
 
-1.  Click **Save**.
+1. From the **Output History Retention Mode** drop-down list, select the retention strategy. By default, it is set to **AGE**. The two modes are mutually exclusive.
+
+1. In the **Output History Retention Count (per preset)** property, specify the number of most recent output history entries to keep for each map and preset. By default, it is set to 25. This property is used only when **Output History Retention Mode** is set to **COUNT**.
+
+1. From the **Output History Retention Action** drop-down list, select what happens to the entries that are removed by retention. By default, it is set to **DELETE_ENTRY**.
+
+1. Click **Save**.
 
 >[!ENDTABS]
 

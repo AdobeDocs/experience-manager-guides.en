@@ -16,6 +16,10 @@ breadcrumb-title: AEM Guides Documentation
       - {hide-from-toc} [Deployment Instructions](./release-info/deploy-xml-on-aemaacs.md)
       - [Cloud Releases](./release-info/latest-release-info-cs.md)
       - 2026 Releases {#2026-releases}
+        - 2026.11.0 Release {#2611-release}
+          - [What's new](./release-info/whats-new-2026-11-0.md)
+          - [Fixed issues](./release-info/fixed-issues-2026-11-0.md)
+          - [Upgrade instructions](./release-info/upgrade-instructions-2026-11-0.md)
         - 2026.09.0 Release {#2609-release}
           - [What's new](./release-info/whats-new-2026-09-0.md)
           - [Fixed issues](./release-info/fixed-issues-2026-09-0.md)
@@ -289,6 +293,10 @@ breadcrumb-title: AEM Guides Documentation
   - Map management and publishing {#map-management-publishing}  
     - [Map console overview](./user-guide/map-console-overview.md)
     - [Open files in Map console](./user-guide/open-files-map-console.md)
+    - Branching and merging {#work-with-branching}
+        - [Overview](./user-guide/branching-overview.md)
+        - [Create and manage branches](./user-guide/create-manage-branch.md)
+        - [Merge branches](./user-guide/merge-branches.md)
     - Reports {#reports-aem-guide}
       - [Introduction to Reports](./user-guide/reports-intro.md)
       - [DITA map report from the Map console](./user-guide/reports-web-editor.md)
@@ -326,7 +334,7 @@ breadcrumb-title: AEM Guides Documentation
         - [Create and manage Baselines from Map console](./user-guide/web-editor-baseline.md)
         - [Create and manage Baselines from the Map dashboard](./user-guide/generate-output-use-baseline-for-publishing.md)
         - [Create and manage New Baselines from Map console](./user-guide/web-editor-baseline-v2.md)
-        - [New Baseline migration FAQ](./user-guide/new-baseline-migration-faq.md)
+        - [New Baseline migration FAQ](./user-guide/new-baseline-migration-faq.md)      
       - [Manage Global and Folder Profile output presets](./user-guide/web-editor-manage-output-presets.md)
       - [Use variables for setting the Destination Path, Site Name, or File Name options](./user-guide/generate-output-use-variables.md)
       - [Pass on the metadata to the output using DITA-OT](./user-guide/pass-metadata-dita-ot.md)
@@ -365,12 +373,15 @@ breadcrumb-title: AEM Guides Documentation
     - [Adobe Generative AI user disclosures](./user-guide/adobe-generative-ai-disclosures.md)
     - [AI Assistant overview](./user-guide/ai-assistant.md)
     - AI Assistant in Agentic mode {#ai-assistant-agentic}
-      - [Use AI Assistant in Agentic mode](./user-guide/ai-assistant-agentic.md)
-    - AI Assistant in Standard mode {#ai-assistant-standard}  
-      - [AI-powered smart Help to search content](./user-guide/ai-based-smart-help.md)
+      - [Import content with AI Assistant](./user-guide/import-ai-assistant.md)
+      - [Create first draft of your content ](./user-guide/create-ai-assistant.md)
+      - [Smart tagging with AI Assistant](./user-guide/ai-assistant-agentic.md)
+    - AI Assistant in Standard mode {#ai-assistant-standard} 
       - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
       - [AI-powered smart suggestions to author content](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [FAQ](./user-guide/ai-assistant-faq.md)
+  - Help assistant in AEM Guides {#help-assistant-aem}
+    - [AI-powered smart Help to search content](./user-guide/ai-based-smart-help.md)   
   - Manage Learning Content {#learning-training-content}
     - Getting started guide {#get-started}
       - Introduction {#intro-lc}
@@ -559,6 +570,7 @@ breadcrumb-title: AEM Guides Documentation
           - [Apply styles to footnotes](./native-pdf/footnote-number-style.md)
           - [Configure the new publishing engine for Native PDF](./native-pdf/conf-new-pdf-engine.md) 
         - [Work with the Native PDF engine v2 ](./native-pdf/new-pdf-engine.md) 
+        - [Configure appendix rendering for map rendering for Native PDF](./install-conf-guide/conf-appendix-map-ref-native-pdf.md)
         - [Configure Node process for Native PDF Publishing for Cloud Service](./native-pdf/conf-node-options-cs.md) 
         - [Configure JVM flags for Native PDF Publishing for On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)      
       - Configure content and experience fragments for Cloud Service {#conf-content-exp-fragment}  
