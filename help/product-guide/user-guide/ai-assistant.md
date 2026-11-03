@@ -48,7 +48,7 @@ AI Assistant is available in two modes: **Agentic** and **Standard**. Administra
 
 >[!NOTE]
 >
-> AI Assistant in Agentic mode is available in Experience Manager Guides as a Cloud Service starting from 2026.11.0 release. It requires your organization to be onboarded to CX Enterprise Coworker and have available credits; once onboarded, contact your Customer Success team to enable the feature. For configuration details, view [Configure AI Assistant in Agentic Mode](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
+> To use AI Assistant in Agentic mode, your organization needs to be onboarded to Adobe CX Enterprise Coworker and have available credits; once onboarded, contact your Customer Success team to enable the feature. For configuration details, view [Configure AI Assistant in Agentic Mode](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
 
 Agentic mode in AI Assistant enables you to perform a wide range of content-related tasks through natural language interactions, such as creating and importing content, summarizing topics, adding topics to maps, and managing metadata. You can describe your requirements in the chat panel, and AI Assistant plans and executes tasks while providing visibility into their progress. Agentic mode provides quick access to the following skills:
 
