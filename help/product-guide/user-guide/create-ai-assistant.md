@@ -14,17 +14,17 @@ You can attach a file, select an existing file as a reference for tone and style
 
 1. Select **Create** from the AI Assistant panel.
 
-   The starter prompt appears in the prompt box: `Create draft content referring to attached file(s) and having tone of content similar to [file]`
+   The starter prompt appears in the prompt box: *Create draft content referring to attached file(s) and having tone of content similar to [file]*
 
 1. Attach your notes, specification, or other reference files to the prompt using any of the following methods: 
 
    - **Using shortcut**: Type `/` in the Prompt field, then choose **Add repository reference** to choose the file from the Repository (or **Add files from device** to upload the file from your computer).
 
-   - **Using `Attach files or add context` icon (+)**: Adds files from your local system. 
+   - **Using Attach files or add context icon (+)**: Adds files from your local system. 
 
    - **Drag and drop**: Drag and drop the file you want to draft from the system directly into the prompt space.   
 
-1. *(Optional)* In the prompt, select `[file]`. Select the existing topic whose tone you want the draft to match. You can choose the topic from the repository or from a collection. The topic name replaces `[file]` in the prompt.
+1. *(Optional)* In the starter prompt, select `[file]`. Select the existing topic whose tone you want the draft to match. You can choose the topic from the repository or from a collection. The topic name replaces `[file]` in the prompt.
 
    ![Select the file placeholder to choose the topic](images/sample-create.png){width="350"}
 

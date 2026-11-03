@@ -13,15 +13,15 @@ You can import files from your device or content repository, specify the heading
 
 1. Log in to Experience Manager Guides.
 1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the [AI Assistant in Agentic mode](../install-conf-guide/workspace-settings.md) is enabled by your Administrator. 
-1. Select **Import** from the AI Assistant panel. You can also use other prompts like `Convert this docx to DITA topics` for a Word file or `Convert this markdown into DITA topics` for a Markdown file.
+1. Select **Import** from the AI Assistant panel. You can also use other prompts like *Convert this docx to DITA topics* for a Word file or *Convert this markdown into DITA topics* for a Markdown file.
 
-   The starter prompt `Help me import content from the attached PDF file` appears in the prompt box.
+   The starter prompt *Help me import content from the attached PDF file* appears in the prompt box.
 
 1. Attach the file to your prompt using any of the following methods: 
 
    - **Using shortcut**: Type `/` in the Prompt field, then choose **Add repository reference** to choose the file from the Repository (or **Add files from device** to upload the file from your computer).
 
-   - **Using `Attach files or add context` icon (+)**: Adds files from your local system to provide the content for importing. 
+   - **Using Attach files or add context icon (+)**: Adds files from your local system to provide the content for importing. 
 
    - **Drag and drop**: Drag and drop the file you want to import from the system directly into the prompt space.
 
