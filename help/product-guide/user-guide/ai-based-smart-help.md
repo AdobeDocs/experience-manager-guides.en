@@ -31,7 +31,7 @@ For example, you may want to ask questions like *How do I publish a map?* You ge
 
 Perform the following steps to use the **Help assistant** panel to find appropriate content and resolve your queries:
 
-1. Select **Help assistant** icon to open the Help panel. 
+1. Select **Help assistant** icon to open the Help assistant panel. 
 
     >[!NOTE]
     >
