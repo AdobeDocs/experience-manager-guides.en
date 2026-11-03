@@ -70,21 +70,18 @@ To import pasted content:
 
 1. Log in to Experience Manager Guides.
 1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the AI Assistant in Agentic mode is enabled by your Administrator. 
-
-2. Copy the content from the web page, Word, Google Docs, or wiki.
-
-3. Paste the content into the prompt box.
+1. Copy the content from the web page, Word, Google Docs, or wiki.
+1. Paste the content into the prompt box.
 
    Formatted content over 2,000 characters is attached as Markdown, so its structure carries over.
 
    ![](images/pasted-import.png)
 
-4. Enter a prompt that specifies the desired content.
+1. Enter a prompt that specifies the desired content.
 
    For example, enter `Import the pasted page into DITA.` or `Turn the pasted content into DITA topics and a map.`
 
-5. Select **Send**.
-
+1. Select **Send**.
 
 AI Assistant prompts you to select the heading level for splitting content into topics and specify the destination folder. The remaining steps are the same as importing an attached file, including reviewing and confirming the import workflow to generate DITA topics and a map.
 

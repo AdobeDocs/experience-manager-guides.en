@@ -74,9 +74,9 @@ You can now work on the map and its associated content within the selected branc
 
    ![](./images/branch-switched.png)
 
-   >[!NOTE]
-   >
-   > If a topic has unsaved changes when you switch branches, a dialog appears prompting you to save the changes before switching to the selected branch.
+>[!NOTE]
+>
+>If a topic has unsaved changes when you switch branches, a dialog appears prompting you to save the changes before switching to the selected branch.
 
 You can now work on the map and its associated content within the selected branch.
 

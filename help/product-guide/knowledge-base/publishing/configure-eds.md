@@ -139,9 +139,9 @@ Perform the following steps to install and configure the *AEM Code Sync* applica
 
    **AEM Code Sync** monitors repository changes and ensures that updates are correctly pushed to GitHub.
 
-   > [!NOTE]
+   >[!NOTE]
    >
-   > While installing the application, ensure that you use the same GitHub account that owns the repository.
+   >While installing the application, ensure that you use the same GitHub account that owns the repository.
 
    ![](assets/eds-aem-code-sync-page.png)
 
@@ -164,8 +164,6 @@ Perform the following steps to install and configure the *AEM Code Sync* applica
    - **File extension:** Change the default `.html` suffix to `.htm`.
 
    Ensure that **Use a different content source** is selected.
-
-   ![](./assets/eds-github-content-source.png)
 
 6. On the **Users** page, add users if required, and then select **Next**.
 

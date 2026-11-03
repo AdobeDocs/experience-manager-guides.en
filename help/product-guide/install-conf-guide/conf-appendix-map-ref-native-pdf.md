@@ -47,6 +47,7 @@ Consider the following example of a book map:
       </backmatter>
     </bookmap>`
     ```
+
 - Another `<appendix>` element references a submap, and the submap references topics using `<topicref>`.
 
     ```xml
@@ -72,6 +73,7 @@ Consider the following example of a book map:
       </backmatter>
     </bookmap>
     ```
+    
     The submap-for-appendix:
 
     ```xml

@@ -47,9 +47,7 @@ Both teams can work independently on their respective map branches without affec
 
 >[!NOTE]
 >
-> >[!NOTE]
->
-> A branch is created based on a DITA map. You can also add and edit topics that are not referenced by the map within the selected branch. For more information, view [Open or edit topics outside the current map](./create-manage-branch.md#open-or-edit-topics-outside-the-current-map-context).
+>A branch is created based on a DITA map. You can also add and edit topics that are not referenced by the map within the selected branch. For more information, view [Open or edit topics outside the current map](./create-manage-branch.md#open-or-edit-topics-outside-the-current-map-context).
 
 When you create a branch of a DITA map, Experience Manager Guides does not automatically copy its referenced topics into the new branch. Unchanged topics are read from the default branch (main). A topic is copied into the selected branch only when you modify its content
 

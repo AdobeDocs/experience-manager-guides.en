@@ -40,7 +40,7 @@ You can attach a file, select an existing file as a reference for tone and style
 
    Check each draft against your source material and the topic types you asked for.
 
-      ![](images/preview-craete.png)
+      ![](images/preview-create.png)
 
 1. Select one of the following:
 

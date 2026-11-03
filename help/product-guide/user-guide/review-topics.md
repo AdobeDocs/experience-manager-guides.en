@@ -231,7 +231,7 @@ You can also highlight or strikethrough text quickly with the contextual toolbar
 
 The Comments panel displays a list of comments given on the current topic. This panel also lists comments from other reviewers, if the topic is sent to multiple reviewers. Each comment in the comment panel is linked to the corresponding text in the current topic. It helps you identify the commented text. Each comment displays the name of the reviewer who has added the comment along with the timestamp.
 
-> [!NOTE]
+>[!NOTE]
 >
 > The review initiator can also add comments to a topic to provide additional context or draw reviewers' attention to specific content. These comments are displayed in the **Comments** panel along with comments from other reviewers. For more details, view [Add comments for reviewers](./review-send-topics-for-review.md#add-comments-for-reviewers).
 
