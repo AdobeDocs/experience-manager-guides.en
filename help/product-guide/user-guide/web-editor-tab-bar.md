@@ -70,11 +70,13 @@ Saves the changes you have made in all opened topics. If you have multiple topic
 >
 > For using Agentic mode of AI Assistant feature in your environment, contact the Customer Success team. After the feature is enabled, Administrators can turn it on or off from Workspace Settings. Only one mode of AI Assistant can be enabled at a time; either Agentic or Standard.
 
-- **Agentic**: Brings intelligent, agentic Smart Tagging skill from Adobe CX Enterprise Coworker into the Editor, enabling natural, conversational content tagging. It analyzes your content, recommends relevant tags, and helps you apply consistent and accurate metadata with minimal effort. You can review the suggested tags and choose to apply or reject them before confirming your selection. [Use AI Assistant in Agentic Mode](../user-guide/ai-assistant-agentic.md) streamlines the tagging process, improving content organization and discoverability.
+- **Agentic**: Agentic mode in AI Assistant enables you to accomplish content-related tasks through natural language interactions. You can describe your requirements in the chat panel, and AI Assistant plans and executes tasks while providing visibility into its progress. It supports skills such as Import, which converts PDF, Word, or Markdown files from your device or content repository into structured topics; Create, which generates new topics based on your requirements and can reference existing content for tone and style; and Smart Tagging, which recommends relevant tags based on your organization's taxonomy to improve metadata consistency.
 
 - **Standard**: A powerful, AI-driven tool designed to enhance your productivity through smart help features. Additionally, when working in the Editor interface, you can leverage the smart authoring capabilities of AI Assistant that makes your authoring process smarter and faster through intelligent suggestions for content reuse and optimization.  
 
 The [AI Assistant](./ai-assistant.md) feature is currently only available for Adobe Experience Manager as Cloud Service.
+
+**Help assistant**: The **Help assistant** in Adobe Experience Manager Guides is a generative AI-powered conversational search feature that helps you find information about product features, workflows, and troubleshooting. It provides relevant answers based on Experience Manager Guides documentation, supports follow-up questions, and includes links to source articles for further reference. For details, view [Enhance efficiency with Help assistant](./ai-based-smart-help.md).
 
 **Expand view**: Allows you to expand the page view using the **Expand** icon. In this view, the header bar containing the Adobe Experience Manager logo, is hidden. This maximizes the content space for editing. To return to the standard view, use the **Exit the expanded view** icon.
 

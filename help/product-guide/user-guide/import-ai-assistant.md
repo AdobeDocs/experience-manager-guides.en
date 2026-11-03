@@ -79,7 +79,7 @@ To import pasted content:
 
    ![](images/pasted-import.png)
 
-4. Enter a prompt that names what you want.
+4. Enter a prompt that specifies the desired content.
 
    For example, enter `Import the pasted page into DITA.` or `Turn the pasted content into DITA topics and a map.`
 

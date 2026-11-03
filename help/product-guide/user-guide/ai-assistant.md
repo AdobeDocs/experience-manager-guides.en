@@ -31,7 +31,7 @@ topic_v2:
 >
 > The AI Assistant feature is currently available for Adobe Experience Manager Guides as a Cloud Service. 
 
-The AI Assistant in Adobe Experience Manager Guides is an AI-powered tool designed to enhance productivity by simplifying content creation, management, and authoring workflows. It offers two modes: Standard and Agentic. In **Standard mode**, AI Assistant provides authoring assistance helping you create, refine, and manage content more efficiently. In **Agentic mode**, AI Assistant enables you to perform content-related tasks through natural language interactions, with skills such as Import, Create, and Smart tagging to streamline content creation, organization, and metadata management.
+The AI Assistant in Adobe Experience Manager Guides is an AI-powered tool designed to enhance productivity by simplifying content creation, management, and authoring workflows. It offers two modes: Standard and Agentic. In **Agentic mode**, AI Assistant enables you to perform content-related tasks through natural language interactions, with skills such as Import, Create, and Smart tagging to streamline content creation, organization, and metadata management. In **Standard mode**, AI Assistant provides authoring assistance helping you create, refine, and manage content more efficiently. 
 
 ## AI Assistant modes
 
@@ -39,7 +39,7 @@ The AI Assistant in Adobe Experience Manager Guides is an AI-powered tool design
 >
 >To enable the AI Assistant in Agentic mode for your environment, contact the Customer Success Team.
  
-AI Assistant is available in two modes: **Agentic** and **Standard**. Administrators can select the mode from the **AI features** section of the **General** tab in **Workspace settings**. The AI Assistant panel remains the same in both modes in the Editor, but the available capabilities differ:
+AI Assistant is available in two modes: **Agentic** and **Standard**. Administrators can select the mode from the **AI features** section of the **General** tab in **Workspace settings**. The AI Assistant panel in the Editor remains the same in both modes, but the available capabilities differ:
 
 - **Agentic mode:** Uses skills **Import**, **Create**, and **Smart tagging**, to convert files into structured topics, create first draft of content, and recommend relevant tags based on your organization's taxonomy.
 - **Standard mode:** Provides AI-powered authoring assistance through contextual actions, such as content reuse, translation, and content quality improvements, to streamline authoring workflows.
@@ -48,7 +48,7 @@ AI Assistant is available in two modes: **Agentic** and **Standard**. Administra
 
 >[!NOTE]
 >
-> AI Assistant in Agentic mode is available in Experience Manager Guides as a Cloud Service starting with the 2026.11.0 release. It requires your organization to be onboarded to CX Enterprise Coworker and have available credits; once onboarded, contact your Customer Success team to enable the feature. For configuration details, view [Configure AI Assistant in Agentic Mode](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
+> AI Assistant in Agentic mode is available in Experience Manager Guides as a Cloud Service starting from 2026.11.0 release. It requires your organization to be onboarded to CX Enterprise Coworker and have available credits; once onboarded, contact your Customer Success team to enable the feature. For configuration details, view [Configure AI Assistant in Agentic Mode](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
 
 Agentic mode in AI Assistant enables you to perform a wide range of content-related tasks through natural language interactions, such as creating and importing content, summarizing topics, adding topics to maps, and managing metadata. You can describe your requirements in the chat panel, and AI Assistant plans and executes tasks while providing visibility into their progress. Agentic mode provides quick access to the following skills:
 
@@ -80,11 +80,11 @@ For more details, view [Author documents with AI Assistant](./ai-assistant-right
 
 ## Get started with AI Assistant
 
-When you use the **AI Assistant** for the first-time, you are prompted to submit your consent before you use the Experience Manager Guides Generative AI features. 
+When you use the **AI Assistant** for the first time, you are prompted to submit your consent before you use the Experience Manager Guides Generative AI features. 
 
 Perform the following steps to launch AI Assistant: 
 
-1. Login to Experience Manager Guides.
+1. Log in to Experience Manager Guides.
 1. On the Home page, select **AI Assistant** from the top. Ensure that your Administrator has enabled the AI Assistant feature in the desired mode. 
 
 The AI Assistant displays the key features, user guidelines link, and a **Get started** button.

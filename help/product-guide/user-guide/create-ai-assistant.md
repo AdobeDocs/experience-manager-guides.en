@@ -5,12 +5,12 @@ description: Learn how to draft new DITA topics and maps from your notes, specif
 
 # Create first draft of your content 
 
-The **Create** skill in AI Assistant's Agentic mode helps you generate first draft of structured content from notes, specifications, whiteboard images, screenshots, or other available reference materials. The skill automatically identifies the appropriate DITA topic type, such as Concept, Task, Reference, or Troubleshooting, based on the content and topic templates available in your repository, reducing the manual effort required to structure and author content.
+The **Create** skill in AI Assistant's Agentic mode helps you generate the first draft of structured content from notes, specifications, whiteboard images, screenshots, or other available reference materials. The skill automatically identifies the appropriate DITA topic type, such as Concept, Task, Reference, or Troubleshooting, based on the content and topic templates available in your repository, reducing the manual effort required to structure and author content.
 
 You can attach a file, select an existing file as a reference for tone and style, and specify the folder where you want to save the generated content. To create topics from files, follow these steps:
 
 1. Log in to Experience Manager Guides.
-1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that your Administrator has enabled the AI Assistant in Agentic mode. 
+1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the [AI Assistant in Agentic mode](../install-conf-guide/workspace-settings.md) is enabled by your Administrator.
 
 1. Select **Create** from the AI Assistant panel.
 
@@ -51,7 +51,7 @@ You can attach a file, select an existing file as a reference for tone and style
 
       ![](images/accept-reject-create.png)
 
-After AI Assistant creates a topic, you can open it in the Editor and refine the content using follow-up prompts. This allows you to iteratively improve the topic without starting a new conversation. Each proposed change is displayed in the preview with **Track Changes** enabled, allowing you to review the modifications before applying them.
+After AI Assistant creates a topic, you can open it in the Editor and refine the content using follow-up prompts. This allows you to improve the topic iteratively without starting a new conversation. Each proposed change is displayed in the preview with **Track Changes** enabled, allowing you to review the modifications before applying them.
 
 For example, to refine the title of a generated topic:
 

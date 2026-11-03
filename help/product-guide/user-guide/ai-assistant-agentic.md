@@ -15,7 +15,6 @@ role_v2:
 
 The Smart tagging skill, available in AI Assistant's Agentic mode through Adobe CX Enterprise Coworker, makes tagging your content faster, easier, and more consistent. It analyzes your content and recommends relevant tags based on your organization's taxonomy, eliminating the need to manually review content and identify applicable tags. Your Administrator can configure the taxonomies used to generate tag recommendations through [Workspace settings](../install-conf-guide/workspace-settings.md#general) by selecting the relevant namespaces for your workspace.
 
-
 You stay in control by reviewing the suggested tags and choosing to apply or reject them before confirming your selection. This reduces manual effort, improves tagging accuracy, and helps maintain consistent metadata across your documentation.
 
 
@@ -24,7 +23,7 @@ You stay in control by reviewing the suggested tags and choosing to apply or rej
 Perform the following steps to use AI Assistant for applying tags to single or multiple topics with the smart-tagging skill: 
 
 1. Log in to Experience Manager Guides.
-1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the AI Assistant in Agentic mode is enabled by your Administrator. 
+1. On the Home page, select **AI Assistant** from the Navigation bar. Ensure that the [AI Assistant in Agentic mode](../install-conf-guide/workspace-settings.md) is enabled by your Administrator.
 1. Add the topic for which you want to generate tag recommendations using one of the following methods:
 
     - **Using Suggested prompts**: For the first chat in the Response area, select **Suggest tags for a file** prompt. The prompt gets automatically added to the Prompt space. Select `[file]`, then choose the topic from the Repository or a Collection in the **Select file** dialog. You can select one topic from the **Select file** dialog.

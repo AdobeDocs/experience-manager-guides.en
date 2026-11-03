@@ -374,7 +374,7 @@ breadcrumb-title: AEM Guides Documentation
     - [AI Assistant overview](./user-guide/ai-assistant.md)
     - AI Assistant in Agentic mode {#ai-assistant-agentic}
       - [Import content](./user-guide/import-ai-assistant.md)
-      - [Craete content](./user-guide/create-ai-assistant.md)
+      - [Create content](./user-guide/create-ai-assistant.md)
       - [Tag your content](./user-guide/ai-assistant-agentic.md)
     - AI Assistant in Standard mode {#ai-assistant-standard} 
       - [AI Assistant Authoring to author documents smartly](./user-guide/ai-assistant-right-panel.md) 
