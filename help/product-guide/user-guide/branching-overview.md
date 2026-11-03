@@ -49,7 +49,7 @@ Both teams can work independently on their respective map branches without affec
 >
 >A branch is created based on a DITA map. You can also add and edit topics that are not referenced by the map within the selected branch. For more information, view [Open or edit topics outside the current map](./create-manage-branch.md#open-or-edit-topics-outside-the-current-map-context).
 
-When you create a branch of a DITA map, Experience Manager Guides does not automatically copy its referenced topics into the new branch. Unchanged topics are read from the default branch (main). A topic is copied into the selected branch only when you modify its content
+When you create a branch of a DITA map, Experience Manager Guides does not automatically copy the map's referenced topics into the new branch. Unchanged topics are read from the source branch or the default branch (main). A topic is copied into the new branch only when you edit and save it in that branch.
 
 For example, A DITA map references 100 topics, and the repository contains 50 additional topics that are not referenced by the map. When you create a new branch (release-1.0), all 100 referenced topics automatically become part of release-1.0, even if none of them are edited. The 50 unreferenced topics do not automatically become part of the new branch. If you edit 10 of them, only those 10 become part of release-1.0. The remaining 40 unchanged topics continue to be used from the default branch (main).
 

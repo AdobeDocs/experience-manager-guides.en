@@ -114,7 +114,7 @@ If you try to open a map, topic, or asset that is not part of the current map co
 - **Open in editor:** Opens the content in a new tab without changing the current map context.
 - **Cancel:** Cancels the operation and retains the current map context.
 
-For example, consider that `Basco_master_map.ditamap` is currently selected in the **main** branch.
+For example, consider that `master_map.ditamap` is currently selected in the **main** branch.
 
 ![](./images/map-context-selection.png)
 
