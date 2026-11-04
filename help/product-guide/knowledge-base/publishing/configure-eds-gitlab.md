@@ -23,22 +23,11 @@ To publish content from Experience Manager Guides to Edge Delivery Services (EDS
 - System Administrator or API Developer role in your Adobe organization to create the Cloud Manager API integration.
 - An `aem.live` organization registered in the configuration service. Learn more in [Configuration service setup](https://www.aem.live/docs/config-service-setup).
 
-## Configuration sequence
+## Configure GitLab for Edge Delivery Services
 
-1. [Create the EDS site using GitHub](#1-create-the-eds-site-using-github-create-eds-site)
-2. [Create the GitLab repository](#2-create-the-gitlab-repository)
-3. [Configure the mountpoint URL](#3-configure-the-mountpoint-url)
-4. [Create GitLab access tokens](#4-create-gitlab-access-tokens)
-5. [Add the GitLab repository to Cloud Manager](#5-add-the-gitlab-repository-to-cloud-manager)
-6. [Generate a Cloud Manager API key](#6-generate-a-cloud-manager-api-key)
-7. [Configure the GitLab webhook](#7-configure-the-gitlab-webhook)
-8. [Add the EDS site to Cloud Manager](#8-add-the-eds-site-to-cloud-manager)
-9. [Connect the repository using Bring Your Own Git](#9-connect-the-repository-using-bring-your-own-git)
-10. [Configure the EDS site to use Cloud Manager](#10-configure-the-eds-site-to-use-cloud-manager)
-11. [Sync and verify](#11-sync-and-verify)
-12. [Publish from Experience Manager Guides](#12-publish-from-experience-manager-guides)
+To configure GitLab for use with Edge Delivery Services, perform the following steps in the specified sequence to ensure proper setup and integration.
 
-### 1. Create the EDS site using GitHub {#create-eds-site}
+### 1. Create the EDS site using GitHub 
 
 Create a GitHub repository from the AEM Guides boilerplate and install the AEM Code Sync app on it. Save the generated **Live URL** (`https://<branch>--<github-repo>--<github-username>.aem.live`) for later.
 
