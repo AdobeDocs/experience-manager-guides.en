@@ -29,6 +29,7 @@ This article provides the latest release information for Adobe Experience Manage
 
 |[!DNL AEM Guides] Release|Release Notes|
 |---|---|
+|**AEM Guides 2026.11.0**|[2026.11.0 What's new](./whats-new-2026-11-0.md)<br><br>[2026.11.0 Fixed issues](./fixed-issues-2026-11-0.md)<br><br>[2026.11.0 Upgrade instructions](./upgrade-instructions-2026-11-0.md)|
 |**AEM Guides 2026.09.0**|[2026.09.0 What's new](./whats-new-2026-09-0.md)<br><br>[2026.09.0 Fixed issues](./fixed-issues-2026-09-0.md)<br><br>[2026.09.0 Upgrade instructions](./upgrade-instructions-2026-09-0.md)|
 |**AEM Guides 2026.08.0**|[2026.08.0 What's new](./whats-new-2026-08-0.md)<br><br>[2026.08.0 Fixed issues](./fixed-issues-2026-08-0.md)<br><br>[2026.08.0 Upgrade instructions](./upgrade-instructions-2026-08-0.md)|
 |**AEM Guides 2026.07.0**|[2026.07.0 Fixed issues](./fixed-issues-2026-07-0.md)<br><br>[2026.07.0 Upgrade instructions](./upgrade-instructions-2026-07-0.md)|
