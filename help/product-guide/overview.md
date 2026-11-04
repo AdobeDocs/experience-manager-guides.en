@@ -1,7 +1,6 @@
 ---
-title: Tutorials for Experience Manager Guides
-description: Find tutorial videos for Experience Manager Guides (formerly XML Documentation for Adobe Experience Manager). Learn about native DITA support and structured authoring in Experience Manager.
-exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
+title: Experience Manager Guides documentation
+description: Find documentation for Adobe Experience Manager Guides. Learn about native DITA support, structured authoring, and multichannel publishing in Experience Manager.
 feature: AEM Guides Tutorials
 role: User
 TQID: 'https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs'
@@ -45,36 +44,185 @@ topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
 ---
-# Experience Manager Guides Documentation
+# Experience Manager Guides documentation
 
-[!DNL Experience Manager Guides] is a powerful, enterprise-grade component content management solution (CCMS). It enables native DITA support in Experience Manager, empowering AEM to handle DITA-based content creation and delivery. It empowers authors to create content using any offline DITA authoring tool, such as Adobe FrameMaker or an easy-to-use built-in editor.
+Experience Manager Guides is an enterprise-grade CCMS with native DITA support for structured authoring, multichannel publishing, and content lifecycle management.
 
-[!DNL Experience Manager Guides] solution provides all core CCMS functions, such as collaboration, review, translation, search, and reports for DITA content, enabling authors to do more in less time through efficient content reuse and powerful workflows. Moreover, users can leverage its best-in-class, single-click publishing capability to generate DITA-based output for the most popular formats - Experience Manager Sites, PDF, HTML5, EPUB, JSON, and custom output through DITA-OT.
+**Deployment:** [!BADGE Cloud Service]{type=Positive} [!BADGE On-Premise]{type=Informative}
 
-With [!DNL Experience Manager Guides] solution, enterprises can deliver seamless and personalized experiences to end users and ensure consistency and uniformity in pre- and post-sales content. Complete control over content integrity can be achieved easily. What's more, localization time and costs also reduce significantly.
+## Start by your role
 
->[!NOTE]
-> 
-> Adobe Experience Manager Guides was formerly branded as _XML Documentation for Adobe Experience Manager_. Please note certain references within the documentation may still refer to prior branding but are still applicable to the current offering.
+::::landing-cards-container
+:::card
+![Administrators icon](../assets/admin.png)
 
-## What's new
+Administrators
 
-* **[[!DNL Experience Manager Guides] Getting Started Course](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
+Configure folder profiles, permissions, workflow settings, and output templates.
 
-    _Learn how to create, organize, author and publish content with [!DNL Adobe Experience Manager Guides]._
+[Administration guide](./install-conf-guide/introduction.md)
+:::
 
-* **[[!DNL Experience Manager Guides] Authoring in the built-in Editor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
+:::card
+![Authors icon](../assets/author.png)
 
-    _Learn how to author content using the native Editor in  [!DNL Adobe Experience Manager Guides]. Gain complete understanding of user preferences, editor settings, configuration, toolbars and more._
+Authors
 
-* **[Output Generation with [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
+Create and manage DITA topics, maps, content reuse, and review workflows.
 
-    _Learn how to generate output using [!DNL Adobe Experience Manager Guides]. Learn about various features available for output generation - reports, baselines, conditions, troubleshooting, bulk publishing and activation._
+[Authoring overview](./user-guide/authoring-content.md)
+:::
+
+:::card
+![Publishers icon](../assets/publisher.png)
+
+Publishers
+
+Set up output presets, manage baselines, and generate output across channels.
+
+[Map management and publishing](./user-guide/map-console-overview.md)
+:::
+
+::::
+
+<!--
+:::card
+![Architects icon](./user-guide/images/architect.svg)
+
+Architects
+
+Design DITA specializations, schemas, and content architecture for your implementation.
+
+[DITA specialization](./install-conf-guide/dita-ot-specialization.md)
+:::
+
+::::
+-->
+
+## Explore by feature area
+
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
+
+::::landing-cards-container
+
+:::card
+![Authoring icon](../assets/authoring.png)
+
+Authoring
+
+Web editor, FrameMaker integration, reusable content, and review cycles.
+
+[Author your content](./user-guide/web-editor.md)
+:::
+
+:::card
+![Review icon](../assets/review.png)
+
+Review
+
+Review topics, manage review tasks, and review notifications.
+
+[Introduction to review](./user-guide/review.md)
+:::
+
+:::card
+![Publishing icon](../assets/publishing.png)
+
+Publishing
+
+PDF, AEM Sites, HTML5, EPUB, and JSON output types.
+
+[Publish your content](./user-guide/generate-output.md)
+:::
+
+:::card
+![Translation icon](../assets/translation.png)
+
+Translation
+
+Human and machine translation workflows for multilingual content.
+
+[Translate content](./user-guide/translation.md)
+:::
+
+:::card
+![Reports icon](../assets/reports.png)
+
+Reports
+
+Topic list, multimedia, broken links, and metadata reports.
+
+[Generate reports](./user-guide/reports-intro.md)
+:::
+
+:::card
+![Configuration icon](../assets/configure.png)
+
+Configuration
+
+Folder profiles, DITA-OT customisation, and output templates.
+
+[Configure folder profiles](./install-conf-guide/conf-profiles.md)
+:::
+
+::::
 
 
-## Additional Resources
+## Quick links
 
-* [[!DNL Experience Manager Guides] User Guide (Old UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-* [[!DNL AEM Guides] Learn & Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League - Explore AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![What's new](../assets/whats-new-git-connector.svg)
+
+**What's new in AEM Guides**
+
+Explore the new and enhanced features introduced in the latest release of Experience Manager Guides. 
+
+- AI-powered smart tagging in AI Assistant 
+- Mark topic as done in a review task
+- Learning content enhancements
+
+[Explore all](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+
+</td>
+<td>
+
+![Release notes](../assets/whats-new-map-collection.svg)
+
+**Release notes**
+
+Explore the latest release notes and product updates for Cloud and On-Premise deployments. 
+
+- Cloud releases | [View release notes](./release-info/latest-release-info-cs.md)
+- On-Premise releases | [View release notes](./release-info/latest-release-info.md)
+
+[View release roadmap](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![Learn and support](../assets/whats-new-delegate-review.svg)
+
+**Learn and support**
+
+Access helpful resources, documentation, and support to get the most out of the platform. 
+
+* [GitHub repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Video tutorials](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
+
+
 
