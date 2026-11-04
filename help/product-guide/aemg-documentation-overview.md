@@ -214,8 +214,7 @@ Access helpful resources, documentation, and support to get the most out of the 
 * [GitHub repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
 * [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
 * [Video tutorials](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-
-[Interact on Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
+* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
@@ -223,11 +222,7 @@ Access helpful resources, documentation, and support to get the most out of the 
 
 >[!ENDSHADEBOX]
 
-## Additional resources
 
-* [Release notes for Cloud Service](./release-info/latest-release-info-cs.md)
-* [Release notes for On-Premise](./release-info/latest-release-info.md)
-* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
-* [GitHub repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
-* [Video tutorials](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+
+
+
