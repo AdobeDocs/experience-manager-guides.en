@@ -82,13 +82,12 @@ Perform the following steps to launch AI Assistant:
 
 1. Log in to Experience Manager Guides.
 1. On the Home page, select **AI Assistant** from the top. Ensure that your Administrator has enabled the AI Assistant feature in the desired mode. 
-
-The AI Assistant displays the key features, user guidelines link, and a **Get started** button.
-Read the user guidelines carefully and then select  **Get started** to launch the AI Assistant. 
+  The AI Assistant displays the key features, user guidelines link, and a **Get started** button.
+1. Read the user guidelines carefully and then select  **Get started** to launch the AI Assistant. 
 
 >[!NOTE]
 >
->If you have already consented to the guidelines for using the Help Assistant feature, you will not be prompted for consent again and can continue using the AI Assistant feature.
+>If you have already consented to the guidelines for using the Help assistant feature, you will not be prompted for consent again and can continue using the AI Assistant feature.
 
 **Related topics**
 
