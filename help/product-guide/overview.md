@@ -183,7 +183,7 @@ Folder profiles, DITA-OT customisation, and output templates.
 Explore the new and enhanced features introduced in the latest release of Experience Manager Guides. 
 
 - Map-level branching and merging
-- AI-powered content creation and import in AI Assistant
+- Content creation and import in AI Assistant
 - New Help assistant panel
 
 [Explore all](../../help/product-guide/release-info/whats-new-2026-11-0.md)
