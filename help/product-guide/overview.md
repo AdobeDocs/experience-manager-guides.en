@@ -182,11 +182,11 @@ Folder profiles, DITA-OT customisation, and output templates.
 
 Explore the new and enhanced features introduced in the latest release of Experience Manager Guides. 
 
-- AI-powered smart tagging in AI Assistant 
-- Mark topic as done in a review task
-- Learning content enhancements
+- Map-level branching and merging
+- AI-powered content creation and import in AI Assistant
+- New Help assistant panel
 
-[Explore all](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+[Explore all](../../help/product-guide/release-info/whats-new-2026-11-0.md)
 
 </td>
 <td>
