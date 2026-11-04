@@ -25,7 +25,7 @@ To publish content from Experience Manager Guides to Edge Delivery Services (EDS
 
 ## Configuration sequence
 
-1. [Create the EDS site using GitHub](#1-create-the-eds-site-using-github)
+1. [Create the EDS site using GitHub](#1-create-the-eds-site-using-github-create-eds-site)
 2. [Create the GitLab repository](#2-create-the-gitlab-repository)
 3. [Configure the mountpoint URL](#3-configure-the-mountpoint-url)
 4. [Create GitLab access tokens](#4-create-gitlab-access-tokens)
@@ -38,7 +38,7 @@ To publish content from Experience Manager Guides to Edge Delivery Services (EDS
 11. [Sync and verify](#11-sync-and-verify)
 12. [Publish from Experience Manager Guides](#12-publish-from-experience-manager-guides)
 
-### 1. Create the EDS site using GitHub
+### 1. Create the EDS site using GitHub {#create-eds-site}
 
 Create a GitHub repository from the AEM Guides boilerplate and install the AEM Code Sync app on it. Save the generated **Live URL** (`https://<branch>--<github-repo>--<github-username>.aem.live`) for later.
 
