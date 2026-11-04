@@ -180,7 +180,7 @@ Configure profiles, templates, conditional attributes, output presets, and Edito
 
 **What's new in AEM Guides**
 
-Explore the new and enhanced features introduced in the latest release of Experience Manager Guides. 
+Explore the new and enhanced features introduced in the latest Experience Manager Guides release, 2026.11.0.
 
 - Map-level branching and merging
 - Content creation and import in AI Assistant
