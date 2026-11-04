@@ -110,7 +110,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 Authoring
 
-Web editor, FrameMaker integration, reusable content, and review cycles.
+Create and edit structured content using the Editor and DITA authoring capabilities.
 
 [Author your content](./user-guide/web-editor.md)
 :::
@@ -120,7 +120,7 @@ Web editor, FrameMaker integration, reusable content, and review cycles.
 
 Review
 
-Review topics, manage review tasks, and review notifications.
+Create and manage review tasks, collaborate on feedback, and address review comments.
 
 [Introduction to review](./user-guide/review.md)
 :::
@@ -130,7 +130,7 @@ Review topics, manage review tasks, and review notifications.
 
 Publishing
 
-PDF, AEM Sites, HTML5, EPUB, and JSON output types.
+Configure and generate output across AEM Sites, PDF, HTML5, EPUB, JSON, and other formats.
 
 [Publish your content](./user-guide/generate-output.md)
 :::
@@ -140,7 +140,7 @@ PDF, AEM Sites, HTML5, EPUB, and JSON output types.
 
 Translation
 
-Human and machine translation workflows for multilingual content.
+Translate content using human or machine translation workflows and track translation status.
 
 [Translate content](./user-guide/translation.md)
 :::
@@ -150,7 +150,7 @@ Human and machine translation workflows for multilingual content.
 
 Reports
 
-Topic list, multimedia, broken links, and metadata reports.
+Assess content health, manage metadata, identify broken links, and analyze content reuse.
 
 [Generate reports](./user-guide/reports-intro.md)
 :::
@@ -160,7 +160,7 @@ Topic list, multimedia, broken links, and metadata reports.
 
 Configuration
 
-Folder profiles, DITA-OT customisation, and output templates.
+Configure profiles, templates, conditional attributes, output presets, and Editor settings.
 
 [Configure folder profiles](./install-conf-guide/conf-profiles.md)
 :::
@@ -168,7 +168,7 @@ Folder profiles, DITA-OT customisation, and output templates.
 ::::
 
 
-## Quick links
+## Resources and updates
 
 >[!BEGINSHADEBOX]
 
