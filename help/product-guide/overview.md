@@ -116,6 +116,16 @@ Create and edit structured content using the Editor and DITA authoring capabilit
 :::
 
 :::card
+![AI Assistant icon](../assets/ai-author.png)
+
+AI Assistant
+
+Accelerate content creation, find answers, and apply intelligent tags with AI-powered assistance.
+
+[AI Assistant](./install-conf-guide/conf-profiles.md)
+:::
+
+:::card
 ![Review icon](../assets/review.png)
 
 Review
@@ -153,16 +163,6 @@ Reports
 Assess content health, manage metadata, identify broken links, and analyze content reuse.
 
 [Generate reports](./user-guide/reports-intro.md)
-:::
-
-:::card
-![Configuration icon](../assets/configure.png)
-
-Configuration
-
-Configure profiles, templates, conditional attributes, output presets, and Editor settings.
-
-[Configure folder profiles](./install-conf-guide/conf-profiles.md)
 :::
 
 ::::
