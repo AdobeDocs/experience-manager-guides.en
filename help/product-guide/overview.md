@@ -122,7 +122,7 @@ AI Assistant
 
 Accelerate content creation, find answers, and apply intelligent tags with AI-powered assistance.
 
-[AI Assistant](./install-conf-guide/conf-profiles.md)
+[AI Assistant](./user-guide/ai-assistant.md)
 :::
 
 :::card
