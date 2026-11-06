@@ -105,5 +105,5 @@ When **Track changes** is turned on:
 
 ### Review
 
-- Opening a review task created in the 2026.08 or 2026.09 release sometimes results in an application error when the reviewed content contains *any review annotation* alongside non-breaking spaces. (GUIDES-56583) <br>**Workaround:** Complete or close all review tasks created in these releases.
+- Opening a review task created in the 2026.08.0 or 2026.09.0 release sometimes results in an application error when the reviewed content contains *any review annotation* alongside non-breaking spaces. (GUIDES-56583) <br>**Workaround:** Complete or close all review tasks created in these releases.
 
