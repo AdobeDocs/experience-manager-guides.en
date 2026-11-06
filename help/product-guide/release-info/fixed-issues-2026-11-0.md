@@ -98,12 +98,12 @@ When **Track changes** is turned on:
 
 - In Native PDF output, superscript and subscript formatting is not preserved in index entries. (GUIDES-58349)
 - When you use the same global preset to generate output for different maps, the topic selection from the previous map may affect the output of the new map. (GUIDES-58346) 
-- When a book map contains a chapter with a valid `href` and a nested topic reference, publishing the map to AEM Sites results in a blank page. (GUIDES-58266)
+- Publishing a bookmap sometimes results in a blank page when, in a specific scenario, a `<chapter>` simultaneously defines a direct `href` target and that chapter contains nested `<topicref>` child elements. (GUIDES-58266)
 - When you navigate to the **Output history** tab from a preset with unsaved changes, the **Save** and **Generate output** buttons remain visible. (GUIDES-57989)
 - When a post-publishing workflow is configured for a preset, the publishing duration shown in **Output history** does not include the time taken by the workflow. (GUIDES-57856)
 - You cannot cancel Native PDF output generation from the **Output history** page. (GUIDES-57821)
 
 ### Review
 
-- Opening a review task created in the 2026.08.0 or 2026.09.0 release may result in application errors. (GUIDES-56583) <br>**Workaround:** Complete or close all review tasks created in these releases before upgrading to the 2026.11.0 release.
+- Opening a review task created in the 2026.08 or 2026.09 release sometimes results in an application error when the reviewed content contains *any review annotation* alongside non-breaking spaces. (GUIDES-56583) <br>**Workaround:** Complete or close all review tasks created in these releases.
 
