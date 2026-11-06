@@ -27,7 +27,7 @@ This section lists the compatibility matrix for the software applications suppor
 |5.2.0 (UUID) | 6.5 LTS | 2  |
 |5.2.0 (UUID) | 6.5  | 24, 23, 22 |
 
-For more details, view the [Technical requirements](../install-guide/download-install-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
+For more details, view the [Technical requirements](../install-conf-guide/aemg-technical-requirements.md) section in the On-Premise Installation and Configuration Guide.
 
 <!--
 
@@ -93,7 +93,7 @@ Before you proceed with upgrading to version 5.2.0 of Experience Manager Guides,
 - If you are using version 4.6.3, 4.6.4, 5.0.x, then you can directly upgrade to version 5.1.0. 
 - If you are using version 4.6.0, 4.6.1, then you need to upgrade to version 4.6.3 or 4.6.4 or 5.0.0 before upgrading to version 5.1.0. 
 - If you are using version 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1, or 4.1.x then you need to upgrade to version 4.4 before upgrading to version 5.1.0.
-- If you are using version 4.0 you need to upgrade to version 4.2 before upgrading to version 4.3.x.
+- If you are using version 4.0 you need to upgrade to the version 4.2 before upgrading to version 4.3.x.
 - If you are using version 3.8.5, you need to upgrade to version 4.0 before upgrading to version 4.2.
 - If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
