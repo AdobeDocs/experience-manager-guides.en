@@ -43,7 +43,7 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 3 release](upgrade-
 - In some cases, when a full DITA map is generated and published to AEM Sites using a dynamic baseline, certain topics are published with earlier or non-approved versions instead of the current approved versions. (GUIDES-55646) 
 - When processing a large number of assets, `PurgePresetExecutionDataJob` sometimes encounters an unhandled `RuntimeNodeTraversalException`, causing the job to get stuck in an infinite loop and generate excessive logs. (GUIDES-53897)
 - In Native PDF output, the `outputclass` attribute set on a `topichead` or `topicgroup` element is not applied or carried forward to the resulting PDF section. (GUIDES-22950) 
-- In scenarios involving a large number of review tasks, opening the Review panel or applying a project filter takes longer than expected to load the task list. (GUIDES-48893) (GUIDES-27790)
+
 
 ## Translation
 
@@ -59,5 +59,5 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 3 release](upgrade-
 
 ## Review
 
-- Opening the Review panel or applying a project filter takes some time to load the task list. (GUIDES-48893)
+- In scenarios involving a large number of review tasks, opening the Review panel or applying a project filter takes longer than expected to load the task list. (GUIDES-48893) 
 - The content pane in the Review UI displays a horizontal scrollbar on certain screen resolutions, including the recommended 1600px resolution, causing review comments to be hidden when the content extends beyond the pane width. (GUIDES-44082)
