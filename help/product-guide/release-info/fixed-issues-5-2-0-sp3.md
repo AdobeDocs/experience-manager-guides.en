@@ -40,10 +40,10 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 3 release](upgrade-
 - Branch filtering generates extra pages for unwanted topics used as `keydef` (which are marked `resource-only ="true"` by DITA-OT). (GUIDES-19701)
 - In the Map dashboard, selecting a different preset triggers a call to fetch peer links, resulting in additional processing. (GUIDES-53703)
 - In Native PDF output, topic references marked with `toc="no"` attribute are still included in the TOC, resulting in a lengthy and cluttered table of contents. (GUIDES-20156)
-- When a full map is generated and published to AEM Sites using a dynamic baseline, some topics are published with earlier or non-approved versions instead of the current approved versions. (GUIDES-55646) 
-- When purging preset execution data where the asset volume is large, `PurgePresetExecutionDataJob` sometimes encounter an unhandled `RuntimeNodeTraversalException`, causing an infinite loop and excessive log generation. (GUIDES-53897)
-- In Native PDF output, the `outputclass` attribute set on a `topichead` or `topicgroup` element is not applied, so custom styles and page breaks for the section are not applied. (GUIDES-22950) 
-- When publishing with the Native PDF engine v1, the reading order of content with accessibility settings enabled is incorrect. Page numbers from footers are read before the main content instead of at the end. (GUIDES-27790)
+- In some cases, when a full DITA map is generated and published to AEM Sites using a dynamic baseline, certain topics are published with earlier or non-approved versions instead of the current approved versions. (GUIDES-55646) 
+- When processing a large number of assets, `PurgePresetExecutionDataJob` sometimes encounters an unhandled `RuntimeNodeTraversalException`, causing the job to get stuck in an infinite loop and generate excessive logs. (GUIDES-53897)
+- In Native PDF output, the `outputclass` attribute set on a `topichead` or `topicgroup` element is not applied or carried forward to the resulting PDF section. (GUIDES-22950) 
+- In scenarios involving a large number of review tasks, opening the Review panel or applying a project filter takes longer than expected to load the task list. (GUIDES-48893) (GUIDES-27790)
 
 ## Translation
 
