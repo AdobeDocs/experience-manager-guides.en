@@ -43,6 +43,7 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 3 release](upgrade-
 - In some cases, when a full DITA map is generated and published to AEM Sites using a dynamic baseline, certain topics are published with earlier or non-approved versions instead of the current approved versions. (GUIDES-55646) 
 - When processing a large number of assets, `PurgePresetExecutionDataJob` sometimes encounters an unhandled `RuntimeNodeTraversalException`, causing the job to get stuck in an infinite loop and generate excessive logs. (GUIDES-53897)
 - In Native PDF output, the `outputclass` attribute set on a `topichead` or `topicgroup` element is not applied or carried forward to the resulting PDF section. (GUIDES-22950) 
+- In some cases, when publishing with the Native PDF engine v1, the reading order of content with accessibility `settingsenabled` is incorrect. Page numbers from footers are read before the main content instead of at the end.(GUIDES-27790)
 
 
 ## Translation
