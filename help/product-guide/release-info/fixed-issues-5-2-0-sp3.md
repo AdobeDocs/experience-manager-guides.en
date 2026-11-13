@@ -30,7 +30,6 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 3 release](upgrade-
 ## Asset management
 
 - The asset status API does not return the correct status for assets whose path contains a comma. (GUIDES-49065)
-- When moving or renaming a DITA asset using the Move API, Rename API, or Assets UI, the asset cannot be renamed to a filename containing a different GUID. (GUIDES-43006)
 
 ## Publishing
 
@@ -63,5 +62,5 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 3 release](upgrade-
 
 ## Platform
 
-- When a DITA asset is moved in the Assets UI, the **Name after move** field is disabled and the asset cannot be renamed as part of the move. (GUIDES-59684) 
+- When moving or renaming a DITA asset using the Move API, Rename API, or Assets UI, the asset cannot be renamed to a filename containing a different GUID. (GUIDES-43006)
 - When a non-DITA asset, such as an image, that was migrated from a non-UUID setup to a UUID setup is reverted or branched to another version, its UUID changes. Existing references to the asset no longer resolve, and the image appears broken in the topics that reference it. (GUIDES-58414) 
