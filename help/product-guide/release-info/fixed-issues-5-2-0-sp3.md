@@ -48,7 +48,7 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 3 release](upgrade-
 - Applying a baseline to a map with many assets delays loading of the translation report for the selected language, sometimes leading to request timeout before the report renders. (GUIDES-45508)
 - Language groups in Translation tab under Workspace Settings are not retained when the selected language folder uses a hyphenated locale code (for example, `da-DK`) instead of an underscore format (`da_dk`). (GUIDES-37843)
 - Starting a translation using an XLIFF project creates an empty project that never moves to an in-progress state. (GUIDES-51759)
-- The `propagateVersionLabel` setting in the global folder profile intermittently resets to `false` when a user with only the Contributor role accesses the Editor, which changes translation behavior. (GUIDES-51870) 
+- The `propagateVersionLabel` setting in the global folder profile intermittently resets to `false` when a user with only the Contributor role accesses the Editor. (GUIDES-51870) 
 
 ## Baseline
 
