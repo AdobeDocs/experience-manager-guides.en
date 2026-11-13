@@ -30,9 +30,7 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 3 release](upgrade-
 ## Asset management
 
 - The asset status API does not return the correct status for assets whose path contains a comma. (GUIDES-49065)
-- Renaming an asset with a GUID-based filename to a different GUID using the Move operation in the Assets UI replaces the asset’s original unique GUID with the new GUID. (GUIDES-43006)
-- When a DITA asset is moved in the Assets UI, the **Name after move** field is disabled and the asset cannot be renamed as part of the move. (GUIDES-59684) 
-- When a non-DITA asset, such as an image, that was migrated from a non-UUID setup to a UUID setup is reverted or branched to another version, its UUID changes. Existing references to the asset no longer resolve, and the image appears broken in the topics that reference it. (GUIDES-58414) 
+- When moving or renaming a DITA asset using the Move API, Rename API, or Assets UI, the asset cannot be renamed to a filename containing a different GUID. (GUIDES-43006)
 
 ## Publishing
 
@@ -51,7 +49,7 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 3 release](upgrade-
 - Applying a baseline to a map with many assets delays loading of the translation report for the selected language, sometimes leading to request timeout before the report renders. (GUIDES-45508)
 - Language groups in Translation tab under Workspace Settings are not retained when the selected language folder uses a hyphenated locale code (for example, `da-DK`) instead of an underscore format (`da_dk`). (GUIDES-37843)
 - Starting a translation using an XLIFF project creates an empty project that never moves to an in-progress state. (GUIDES-51759)
-- The `propagateVersionLabel` setting in the global folder profile intermittently resets to `false` when the editor loads, which changes translation behavior. (GUIDES-51870) 
+- The `propagateVersionLabel` setting in the global folder profile intermittently resets to `false` when a user with only the Contributor role accesses the Editor, which changes translation behavior. (GUIDES-51870) 
 
 ## Baseline
 
@@ -62,3 +60,8 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 3 release](upgrade-
 
 - In scenarios involving a large number of review tasks, opening the Review panel or applying a project filter takes longer than expected to load the task list. (GUIDES-48893) 
 - The content pane in the Review UI displays a horizontal scrollbar on certain screen resolutions, including the recommended 1600px resolution, causing review comments to be hidden when the content extends beyond the pane width. (GUIDES-44082)
+
+## Platform
+
+- When a DITA asset is moved in the Assets UI, the **Name after move** field is disabled and the asset cannot be renamed as part of the move. (GUIDES-59684) 
+- When a non-DITA asset, such as an image, that was migrated from a non-UUID setup to a UUID setup is reverted or branched to another version, its UUID changes. Existing references to the asset no longer resolve, and the image appears broken in the topics that reference it. (GUIDES-58414) 
