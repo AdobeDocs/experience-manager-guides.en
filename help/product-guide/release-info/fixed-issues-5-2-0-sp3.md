@@ -3,11 +3,7 @@ title: Release Notes | Fixed issues in Adobe Experience Manager Guides 5.2.0 Ser
 description: Learn about the bug fixes in the 5.2.0 Service Pack 3 release of Adobe Experience Manager Guides
 role: Leader
 TQID: https://experienceleague.adobe.com/HEWV5RxPUfqUYf6m6kQW-fU-LiAM0UFGbfzKjtOCZxk
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-    internal-label: Experience Manager Guides
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-    internal-label: Experience Manager
+     internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
     internal-label: Publishing
@@ -64,3 +60,9 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 3 release](upgrade-
 
 - When moving or renaming a DITA asset using the Move API, Rename API, or Assets UI, the asset cannot be renamed to a filename containing a different GUID. (GUIDES-43006)
 - When a non-DITA asset, such as an image, that was migrated from a non-UUID setup to a UUID setup is reverted or branched to another version, its UUID changes. Existing references to the asset no longer resolve, and the image appears broken in the topics that reference it. (GUIDES-58414) 
+
+## Known issues
+
+Adobe has identified the following known issues for the 5.2.0 Service Pack 3 release:
+
+- After you install the service pack without restarting AEM, Schematron validation might fail with a `NoClassDefFoundError` exception, and you cannot save topics in the Editor. <br>**Workaround:** Restart AEM, or refresh the `com.adobe.fmdita.schematron-wrapper` bundle from the AEM Web Console (`/system/console/bundles`). If you refresh the bundle, you do not need to restart AEM.
