@@ -62,8 +62,8 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 
 |AEM Guides | AEM version | Components version | Site version|
 |---|---|---| ---|
-|5.2.0 Service Pack 3 UUID |6.5 LTS | guides-components.all-1.4.1|aemg-sites-template-1.3.0|
-|5.2.0 Service Pack 3 UUID |6.5 | guides-components.all-1.4.0| aemg-sites-template-1.3.0|
+|5.2.0 Service Pack 3 UUID |6.5 LTS | guides-components.all-1.4.1|aemg-docs.all-1.2.0|
+|5.2.0 Service Pack 3 UUID |6.5 | guides-components.all-1.4.0| aemg-docs.all-1.2.0|
 
 ## Prerequisites
 
