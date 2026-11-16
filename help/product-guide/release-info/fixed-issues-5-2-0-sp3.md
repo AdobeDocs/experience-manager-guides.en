@@ -70,4 +70,4 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 3 release](upgrade-
 
 Adobe has identified the following known issues for the 5.2.0 Service Pack 3 release:
 
-- After you install the service pack without restarting AEM, Schematron validation might fail with a `NoClassDefFoundError` exception, and you cannot save topics in the Editor. <br>**Workaround:** Restart AEM, or refresh the `com.adobe.fmdita.schematron-wrapper` bundle from the AEM Web Console (`/system/console/bundles`). If you refresh the bundle, you do not need to restart AEM.
+- After you install the service pack, Schematron validation might fail with a `NoClassDefFoundError` exception, and you cannot save topics in the Editor. <br>**Workaround:** Refresh the `com.adobe.fmdita.schematron-wrapper` bundle from the AEM Web Console (`/system/console/bundles`). 
