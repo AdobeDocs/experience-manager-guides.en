@@ -3,7 +3,7 @@ title: Release Notes | Fixed issues in Adobe Experience Manager Guides 5.2.0 Ser
 description: Learn about the bug fixes in the 5.2.0 Service Pack 3 release of Adobe Experience Manager Guides
 role: Leader
 TQID: https://experienceleague.adobe.com/HEWV5RxPUfqUYf6m6kQW-fU-LiAM0UFGbfzKjtOCZxk
-     internal-label: Experience Manager
+     
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
