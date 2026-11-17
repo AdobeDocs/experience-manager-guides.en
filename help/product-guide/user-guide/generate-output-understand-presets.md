@@ -30,6 +30,10 @@ role_v2:
 ---
 # Understanding the output presets {#understanding_output_settings}
 
+>[!NOTE]
+>
+>Starting with the 2027.01.0 release for Cloud Service and 5.4 release for On-Premise of Experience Manager Guides , the Map dashboard feature will be deprecated for new customers. However, it will remain enabled for existing customers who are already using it. If you want to disable the Map dashboard, contact your Customer Success team. It is recommended that you use the Map console for map management and publishing going forward.
+
 Experience Manager Guides supports creating output in the most popular formats like AEM Sites, PDF, Knowledge Base, HTML5, EPUB, JSON, and custom output through DITA-OT, Native PDF, and FMPS. Using these output formats, you can configure various output presets. Here, an output preset represents a customized output format in which you would like the content to be published.
 
 You can create and manage output presets in two ways:

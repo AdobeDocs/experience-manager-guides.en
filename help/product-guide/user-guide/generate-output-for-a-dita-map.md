@@ -77,6 +77,10 @@ You can view the current status of the output generation request in the **Output
 
 ## Generate output for a DITA map from the Map dashboard 
 
+>[!NOTE]
+>
+>Starting with the 2027.01.0 release for Cloud Service and 5.4 release for On-Premise of Experience Manager Guides , the Map dashboard feature will be deprecated for new customers. However, it will remain enabled for existing customers who are already using it. If you want to disable the Map dashboard, contact your Customer Success team. It is recommended that you use the Map console for map management and publishing going forward.
+
 Perform the following steps to generate output for a DITA map using Map dashboard:
 
 1.  In the Assets UI, navigate to and select the DITA map file that you want to publish.

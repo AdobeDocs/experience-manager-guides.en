@@ -84,7 +84,11 @@ Perform the following steps to download a DITA map file from the Editor:
 
 Once the map is downloaded, you can select the map and use the Open icon on the top to open the downloaded content. To view the associated metadata of the downloaded map, open the `metdata.json` file included in the downloaded content. This file is available for both *File hierarchy* options - Flatten file hierarchy and Retain file hierarchy. 
 
-## Download a DITA map file from the Map dashboard 
+## Download a DITA map file from the Map dashboard
+
+>[!NOTE]
+>
+>Starting with the 2027.01.0 release for Cloud Service and 5.4 release for On-Premise of Experience Manager Guides , the Map dashboard feature will be deprecated for new customers. However, it will remain enabled for existing customers who are already using it. If you want to disable the Map dashboard, contact your Customer Success team. It is recommended that you use the Map console for map management and publishing going forward.
 
 Once you have the DITA map file in the Adobe Experience Manager repository, you can download the map file along with its dependents. This gives you the flexibility to share the complete map file for offline editing, validation, review, or simply creating a backup.
 

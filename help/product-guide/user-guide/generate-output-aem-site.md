@@ -65,6 +65,10 @@ Perform the following steps to generate incremental output for AEM Sites using M
 
 ## Generate incremental output from Map dashboard (for AEM sites using legacy component mapping)
 
+>[!NOTE]
+>
+>Starting with the 2027.01.0 release for Cloud Service and 5.4 release for On-Premise of Experience Manager Guides , the Map dashboard feature will be deprecated for new customers. However, it will remain enabled for existing customers who are already using it. If you want to disable the Map dashboard, contact your Customer Success team. It is recommended that you use the Map console for map management and publishing going forward.
+
 Perform the following steps to generate incremental output for AEM Sites using map dashboard:
 
 1.  In the Assets UI, navigate to and select the DITA map file.
