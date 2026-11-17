@@ -46,6 +46,10 @@ Additionally, you can duplicate or delete an output preset using the **Options**
 
 ## Using Map dashboard
 
+>[!NOTE]
+>
+>Starting with the 2027.01.0 release for Cloud Service and 5.4 release for On-Premise of Experience Manager Guides , the Map dashboard feature will be deprecated for new customers. However, it will remain enabled for existing customers who are already using it. If you want to disable the Map dashboard, contact your Customer Success team. It is recommended that you use the Map console for map management and publishing.
+
 You can edit, duplicate and delete an output preset using the map dashboard by selecting the required tab from the top bar as shown below. 
 
 ![](images/create-new-preset-map-dashboard-new.png)

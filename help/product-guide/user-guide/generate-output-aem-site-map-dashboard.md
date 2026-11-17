@@ -35,6 +35,10 @@ topic_v2:
 ---
 # AEM Sites presets on the map dashboard {#id205BE3008SW}
 
+>[!NOTE]
+>
+>Starting with the 2027.01.0 release for Cloud Service and 5.4 release for On-Premise of Experience Manager Guides , the Map dashboard feature will be deprecated for new customers. However, it will remain enabled for existing customers who are already using it. If you want to disable the Map dashboard, contact your Customer Success team. It is recommended that you use the Map console for map management and publishing.
+
 You can create AEM Sites presets from the map dashboard and configure them to generate the AEM Sites output.
 
 
