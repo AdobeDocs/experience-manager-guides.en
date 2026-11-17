@@ -95,7 +95,7 @@ For details on preset configuration options, refer to the [HTML5 preset configur
 
 >[!NOTE]
 >
->Starting with the 2027.01.0 release for Cloud Service and 5.4 release for On-Premise of Experience Manager Guides , the Map dashboard feature will be deprecated for new customers. However, it will remain enabled for existing customers who are already using it. If you want to disable the Map dashboard, contact your Customer Success team. It is recommended that you use the Map console for map management and publishing.
+>Starting with the 2027.01.0 release for Cloud Service and 5.4 release for On-Premise of Experience Manager Guides , the Map dashboard feature will be deprecated for new customers. However, it will remain enabled for existing customers who are already using it. If you want to disable the Map dashboard, contact your Customer Success team. It is recommended that you use the Map console for map management and publishing going forward. 
 
 Perform the following steps to create the HTML5 preset from the Map dashboard:
 

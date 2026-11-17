@@ -72,6 +72,10 @@ When your translation service provider does not provide a connector to integrati
 
 ## Configure the Translation tab on the DITA map dashboard 
 
+>[!NOTE]
+>
+>Starting with the 2027.01.0 release for Cloud Service and 5.4 release for On-Premise of Experience Manager Guides , the Map dashboard feature will be deprecated for new customers. However, it will remain enabled for existing customers who are already using it. If you want to disable the Map dashboard, contact your Customer Success team. It is recommended that you use the Map console for map management and publishing going forward.
+
 The following tabs provide instructions to hide the Translation tab on the DITA map dashboard based on your Experience Manager Guides setup: Cloud Service or On-Premise. 
 
 >[!BEGINTABS]
