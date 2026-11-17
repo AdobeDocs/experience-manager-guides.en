@@ -63,7 +63,7 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 3 release](upgrade-
 
 ## Platform
 
-- The Move API, Rename API, and Assets UI prevent renaming a DITA asset with a GUID-based filename to a human-readable filename. Assets can now be renamed to human-readable filenames, however renaming a GUID-based filename to another GUID-based filename is not allowed. (GUIDES-43006, GUIDES-59684) (GUIDES-59684, GUIDES-43006)
+- The Move API, Rename API, and Assets UI prevent renaming a DITA asset with a GUID-based filename to a human-readable filename. Assets can now be renamed to human-readable filenames, however renaming a GUID-based filename to another GUID-based filename is still not allowed. (GUIDES-43006, GUIDES-59684) 
 - When a non-DITA asset, such as an image, that was migrated from a non-UUID setup to a UUID setup is reverted or branched to another version, its UUID changes. Existing references to the asset no longer resolve, and the image appears broken in the topics that reference it. (GUIDES-58414) 
 - Installing the Experience Manager Guides Service Pack removes previously installed external tools, such as ACS Commons, from the AEM **Tools** section. (GUIDES-60365)
 
