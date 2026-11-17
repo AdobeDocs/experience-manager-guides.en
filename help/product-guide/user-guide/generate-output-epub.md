@@ -37,7 +37,7 @@ topic_v2:
 
 >[!NOTE]
 >
->Starting with the 2027.01.0 release for Cloud Service and 5.4 release for On-Premise of Experience Manager Guides , the Map dashboard feature will be deprecated for new customers. Hence, the EPUB preset creation would not be available.  However, it will remain enabled for existing customers who are already using it. If you want to disable the Map dashboard, contact your Customer Success team. It is recommended that you use the Map console for map management and publishing.
+>Starting with the 2027.01.0 release for Cloud Service and 5.4 release for On-Premise of Experience Manager Guides , the Map dashboard feature will be deprecated for new customers. Hence, the EPUB preset creation would not be available.  However, the Map dashboard feature will remain enabled for existing customers who are already using it. If you want to disable the Map dashboard, contact your Customer Success team. It is recommended that you use the Map console for map management and publishing going forward.
 
 You can create the EPUB preset from the map dashboard.
 
