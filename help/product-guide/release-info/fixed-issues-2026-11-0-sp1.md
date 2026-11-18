@@ -16,15 +16,18 @@ This article covers the bugs fixed in the 2026.11.0 Service Pack 1 release of Ad
 
 ## Publishing
 
-- When you regenerate selected topics or a sub-map using the AEM Sites (composite component mapping) output with `microservice-based` publishing, the generation takes about as long as generating the complete map. (GUIDES-59322)
-- After you regenerate a sub-map that contains chunked topics using the new AEM Sites output, the table of contents (TOC) displays incorrect titles and links. Every chunked topic entry shows the title of the last chunked topic. (GUIDES-58650)
-- When you publish to AEM Sites using a dynamic baseline, either Baseline (legacy) or New Baseline, the following issues occur: 
-  - The baseline is rebuilt more than once during the same publish operation, which lengthens publishing time and, in some cases, causes the rebuild to stall. With New Baseline, incremental publish also uses a stale baseline instead of the current one, so the output may not reflect the latest content. (GUIDES-60189)
-  - The Map dashboard shows performance issues. (GUIDES-60189, GUIDES-55646)
+The following issues occur when publishing to AEM Sites (with composite component mapping):
+
+- Regenerating selected topics or a sub-map  with `microservice-based` publishing takes about as long as generating the complete map. (GUIDES-59322)
+- Regenerating a sub-map that contains chunked topics  causes the TOC to display incorrect titles and links. Every chunked topic entry shows the title of the last chunked topic. (GUIDES-58650)
+
+The following issues occur when publishing to AEM Sites using a dynamic baseline, either Baseline (legacy) or New Baseline:
+
+- The baseline is rebuilt more than once during the same publish operation, which lengthens publishing time and, in some cases, causes the rebuild to stall. With New Baseline, incremental publish also uses a stale baseline instead of the current one, so the output may not reflect the latest content. (GUIDES-60189)
+- Some performance issues are observed when using the Map dashboard. (GUIDES-60189, GUIDES-55646)
 
 ## Known issues
 
 Adobe has identified the following known issues for the 2026.11.0 Service Pack 1 release:
 
-
-
+- When using Experience Manager Guides as a Cloud Service 2026.11.0 or later, publishing to an AEM Site fails with an application error if AEM restarts certain internal services during the publishing process, such as when a server instance starts. (GUIDES-60804)<br>**Workaround:** Republishing the site resolves the issue. 
