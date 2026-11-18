@@ -30,4 +30,4 @@ The following issues occur when publishing to AEM Sites using a dynamic baseline
 
 Adobe has identified the following known issues for the 2026.11.0 Service Pack 1 release:
 
-- When using Experience Manager Guides as a Cloud Service 2026.11.0 or later, publishing to an AEM Site fails with an application error if AEM restarts certain internal services during the publishing process, such as when a server instance starts. (GUIDES-60804)<br>**Workaround:** Republishing the site resolves the issue. 
+- When using Experience Manager Guides as a Cloud Service 2026.11.0 or later, publishing fails with an application error if AEM restarts certain internal services during the publishing process, such as when a server instance starts. (GUIDES-60804)<br>**Workaround:** To resolve the issue, retry publishing.  
