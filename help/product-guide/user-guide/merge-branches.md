@@ -141,7 +141,7 @@ Perform the following steps to resolve merge conflicts:
 
    Once all conflicts are resolved, the **Merge all** option becomes available.
 
-6. Select **Merge all** to merge the resolved files and the clean updates into `main`.
+5. Select **Merge all** to merge the resolved files and the clean updates into `main`.
 
     >[!NOTE]
     > 
