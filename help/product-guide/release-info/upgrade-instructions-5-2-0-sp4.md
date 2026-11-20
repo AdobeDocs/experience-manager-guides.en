@@ -74,7 +74,7 @@ Before you start the Experience Manager Guides 5.2.0 Service Pack 4 upgrade proc
 
 ## Upgrade path for Experience Manager Guides 5.2.0 Service Pack 4
 
-You can easily upgrade your current version of Experience Manager Guides to version 5.2.0 Service Pack 4 on **AEM 6.5** or **AEM 6.5 LTS**. 
+You can easily upgrade your current version of Experience Manager Guides to version 5.2.0 Service Pack 4 on **AEM 6.5 LTS**. 
 
 >[!IMPORTANT]
 >
