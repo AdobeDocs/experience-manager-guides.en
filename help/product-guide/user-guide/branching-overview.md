@@ -1,5 +1,5 @@
 ---
-title: Branching in AEM Guides | Adobe Experience Manager Guides`
+title: Branching and merging in AEM Guides | Adobe Experience Manager Guides
 description: Learn how to create and manage branches of a DITA map in AEM Guides to support parallel authoring, independent publishing, and merging of documentation changes.
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -10,8 +10,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-    internal-label: Generative AI
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -26,9 +26,9 @@ topic_v2:
 ---
 # Overview
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> The branching and merging feature is introduced in the 2026.11.0 release of Experience Manager Guides as a Cloud Service and is disabled by default. To enable the feature for your environment, contact your Customer Success team.
+> The **Branching and merging** feature is available starting with the 2026.11.0 release of Experience Manager Guides as a Cloud Service. It is currently supported only in Cloud Service environments that use a database setup, and is disabled by default. To enable branching and merging in your environment, contact your Customer Success team.
 
 Branching in Adobe Experience Manager Guides allows you to create and manage multiple branches out of the **main** branch for a DITA map to work on different documentation releases in parallel. Each branch allows authors to manage content changes independently, without affecting the corresponding content in other branches.
 
@@ -50,8 +50,6 @@ Both teams can work independently on their respective map branches without affec
 >A branch is created based on a DITA map. You can also add and edit topics that are not referenced by the map within the selected branch. For more information, view [Open or edit topics outside the current map](./create-manage-branch.md#open-or-edit-topics-outside-the-current-map-context).
 
 When you create a branch of a DITA map, Experience Manager Guides does not automatically copy the map's referenced topics into the new branch. Unchanged topics are read from the source branch or the default branch (main). A topic is copied into the new branch only when you edit and save it in that branch.
-
-For example, A DITA map references 100 topics, and the repository contains 50 additional topics that are not referenced by the map. When you create a new branch (release-1.0), all 100 referenced topics automatically become part of release-1.0, even if none of them are edited. The 50 unreferenced topics do not automatically become part of the new branch. If you edit 10 of them, only those 10 become part of release-1.0. The remaining 40 unchanged topics continue to be used from the default branch (main).
 
 >[!NOTE]
 >

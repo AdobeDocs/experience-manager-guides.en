@@ -10,8 +10,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-    internal-label: Generative AI
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -41,7 +41,7 @@ Perform the following steps to create a branch:
 
    >[!NOTE]
    >
-   > If another map is already open in the Editor, a confirmation dialog appears. Select **Open** to open the selected map in the current branch. For more information, view [Open content outside the current map context](#open-content-outside-the-current-map-context).
+   > If another map is already open in the Editor, a confirmation dialog appears. Select **Open** to open the selected map in the current branch. For more information, view [Open a map outside the current map context](#open-a-map-outside-the-current-map-context).
 
 1. Select the **main** branch dropdown and verify that the required DITA map is selected.
 
@@ -49,7 +49,7 @@ Perform the following steps to create a branch:
 
 1. Select **New branch** to create a branch of the selected map.
 
-1. In the **New branch** dialog, enter a name for the new branch and select the parent branch from which you want to create it.
+1. In the **New branch** dialog, enter a name for the new branch and select the **Source branch** (acting as a parent branch) from which you want to create it.
 
     ![](./images/new-branch-creation.png)
 
@@ -72,13 +72,9 @@ Perform the following steps to switch branches:
 
 You can now work on the map and its associated content within the selected branch.
 
-   ![](./images/branch-switched.png)
-
 >[!NOTE]
 >
 >If a topic has unsaved changes when you switch branches, a dialog appears prompting you to save the changes before switching to the selected branch.
-
-You can now work on the map and its associated content within the selected branch.
 
 ## Isolated editing in a branch
 
@@ -170,7 +166,7 @@ You can archive branches of a DITA map that are no longer actively used and rest
 >
 > The default branch (`main`) cannot be archived.
 
-To archive a branch, perform the following steps:
+Perform the following steps to archive a branch:
 
 1. In the **Branches** panel, select the **Manage** icon.
 
@@ -195,7 +191,7 @@ To archive a branch, perform the following steps:
 
 You can restore an archived branch of a DITA map when you need to resume working on its content.
 
-To restore an archived branch, perform the following steps:
+Perform the following steps to restore an archived branch:
 
 1. In the **Branches** panel, select the **Manage** icon.
 2. In the **Manage branches** dialog, select the **Archived** tab.

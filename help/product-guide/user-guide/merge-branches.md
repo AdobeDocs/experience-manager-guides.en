@@ -10,8 +10,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-    internal-label: Generative AI
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -28,9 +28,9 @@ topic_v2:
 
 In Experience Manager Guides, you can merge changes from a branch of a DITA map into the `main` branch. Merging allows you to incorporate completed documentation updates into `main` without manually copying the changes into `main`.
 
-For example, consider a DITA map named `install-the-lift.ditamap` with a branch named `Release 2`. Authors can update the installation instructions in this branch while the existing documentation remains unchanged in `main`.
+For example, consider a DITA map named `install-the-lift.ditamap` with a branch named `Release 2.0`. Authors can update the installation instructions (covered in one of the topics in the map) in this branch while the existing documentation remains unchanged in `main`.
 
-Once the updates are ready, authors can merge the changes from `Release 2` into `main`.
+Once the updates are ready, authors can merge the changes from `Release 2.0` into `main`.
 
 ## Understand branch merging
 
@@ -45,7 +45,7 @@ If the same part of a topic/map has been modified in both branches, merge confli
 
 You can merge changes from a selected branch of a DITA map into `main`.
 
-To merge a branch, perform the following steps:
+Perform the following steps to merge a branch:
 
 1. Open the required DITA map in the Map console.
 2. Navigate to the **Branches** tab.
@@ -60,14 +60,12 @@ To merge a branch, perform the following steps:
 
 5. Select the merge request. 
 
-    The merge request opens in the **Merge branch** view. Review the changes and resolve any conflicts, if required.
-6. Complete the merge.
+    The merge request opens in the **Merge branch** view, which lists the files that have conflicts and the files that can be merged without conflicts.
+6. If the merge request contains conflicts, resolve them. For more information, view [Resolve merge conflicts](#resolve-merge-conflicts).
 
-   Review the changes and resolve any conflicts, if required. For more information, view [Resolve merge conflicts](#resolve-merge-conflicts).
+7. Select **Merge all**.
 
-   Once all conflicts are resolved, select **Merge all** to merge the changes into `main`.
-
-   The changes are merged into the `main` branch.
+   The changes from the branch are merged into the `main`.
 
 ## Resolve merge conflicts
 
@@ -139,20 +137,17 @@ Perform the following steps to resolve merge conflicts:
 
    Alternatively, you can review or edit the content directly in the **Merged** pane and select **Mark resolved** to retain the merged content.
 
-4. Review the final content in the **Merged** pane and select **Mark resolved** to mark the file as resolved.
-
-5. Repeat the steps for all files listed under **Conflicts**.
+4. Repeat the steps for all files listed under **Conflicts**.
 
    Once all conflicts are resolved, the **Merge all** option becomes available.
 
-6. Select **Merge all** to merge the resolved files and the clean updates into `main`.
+5. Select **Merge all** to merge the resolved files and the clean updates into `main`.
 
     >[!NOTE]
     > 
     > The **Merge all** option remains disabled until all conflicts are resolved.
 
    The resolved changes are merged into `main`. A completed merge cannot be undone. However, you can create a new merge request to merge subsequent changes into main.
-
 
 
 ## Manage a merge request
