@@ -21,7 +21,7 @@ This article covers the bugs fixed in various areas of 5.2.0 Service Pack 4 rele
 
 Learn about [upgrade instructions for the 5.2.0 Service Pack 4 release](upgrade-instructions-5-2-0-sp4.md).
 
-## Editor 2.0
+## Editor
 
 - When you drag and drop an asset into a map from Explorer panel that has not been refreshed after another author moved that asset, a broken reference is added to the map. (GUIDES-57869)
 
