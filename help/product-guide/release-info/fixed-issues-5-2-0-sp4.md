@@ -27,6 +27,10 @@ Learn about [upgrade instructions for the 5.2.0 Service Pack 4 release](upgrade-
 
 ## Asset management
 
-- When you overwrite an existing non-DITA asset, such as an image, using the **Overwrite existing file(s)** option, the new version in the version history retains the previous file so the output generated from a baseline that references that version shows the older image. (GUIDES-59287)
+- When you overwrite an existing non-DITA asset, such as an image, using the **Overwrite existing file(s)** option, the new version for uploaded image is not created. As a result, output generated using baseline contains the older asset. (GUIDES-59287)
 
 - When a non-DITA asset, such as an image, that was migrated from a non-UUID setup to a UUID setup is reverted or branched to another version, its UUID changes. Existing references to the asset no longer resolve, and the image appears broken in the topics that reference it. (GUIDES-58414)
+
+## Publishing
+
+- When publishing a map while other maps are being exported, the output intermittently uses a lower-quality image format instead of the original vector image. (GUIDES-55221)
