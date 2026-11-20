@@ -14,6 +14,10 @@ Learn about [upgrade instructions for the 2026.11.0 release](../release-info/upg
 
 ## Introducing map-level branching and merging
 
+>[!NOTE]
+>
+> The **Branching and merging** feature is currently supported only in Cloud Service environments that use a database setup, and is disabled by default. To enable branching and merging in your environment, contact your Customer Success team.
+
 Experience Manager Guides introduces map-level branching and merging capability, enabling authors to work on multiple documentation versions, feature updates, and critical fixes in parallel without affecting the main content. Authors can create isolated branches of a DITA map and its dependencies, ensuring that edits, locks, and previews remain specific to each branch.
 
 This capability helps documentation teams manage parallel workstreams, collaborate efficiently, and maintain the stability of the main documentation version. You can:

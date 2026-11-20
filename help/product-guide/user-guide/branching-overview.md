@@ -1,5 +1,5 @@
 ---
-title: Branching in AEM Guides | Adobe Experience Manager Guides
+title: Branching and merging in AEM Guides | Adobe Experience Manager Guides
 description: Learn how to create and manage branches of a DITA map in AEM Guides to support parallel authoring, independent publishing, and merging of documentation changes.
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -26,9 +26,9 @@ topic_v2:
 ---
 # Overview
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> The branching and merging feature is introduced in the 2026.11.0 release of Experience Manager Guides as a Cloud Service and is disabled by default. To enable the feature for your environment, contact your Customer Success team.
+> The **Branching and merging** feature is available starting with the 2026.11.0 release of Experience Manager Guides as a Cloud Service. It is currently supported only in Cloud Service environments that use a database setup, and is disabled by default. To enable branching and merging in your environment, contact your Customer Success team.
 
 Branching in Adobe Experience Manager Guides allows you to create and manage multiple branches out of the **main** branch for a DITA map to work on different documentation releases in parallel. Each branch allows authors to manage content changes independently, without affecting the corresponding content in other branches.
 
