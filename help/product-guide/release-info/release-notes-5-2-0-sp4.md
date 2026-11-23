@@ -17,7 +17,7 @@ role_v2:
 ---
 # Release notes for the 5.2.0 Service Pack 4 release (November 2026)
 
-TThis article provides information about the upgrade instructions, Java SDK compatibility, fixed issues and known issues in the 5.2.0 Service Pack 4 release of Adobe Experience Manager Guides.
+This article provides information about the upgrade instructions, Java SDK compatibility, fixed issues and known issues in the 5.2.0 Service Pack 4 release of Adobe Experience Manager Guides.
 
 ## Java SDK resources
 
