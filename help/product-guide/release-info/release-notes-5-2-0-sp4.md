@@ -19,6 +19,16 @@ role_v2:
 
 This release note covers the upgrade instructions and issues fixed in version 5.2.0 Service Pack 4 of Adobe Experience Manager Guides.
 
+## Java SDK resources
+
+Use the following resources when developing custom Java plugins or integrations with Experience Manager Guides. Ensure that the SDK version matches your installed Experience Manager Guides release. 
+
+|Release|Java SDK version|Maven Central|Java API reference|
+|---|---|---|----|
+|5.2.0 Service Pack 3 (UUID)|5.2.2|[AEM Guides SDK API 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/)|[Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html)|
+
+For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
+
 ## Upgrade to 5.2.0 Service Pack 4 release of Experience Manager Guides
 
 Learn how to install the Experience Manager Guides 5.2.0 Service Pack 4 release.
@@ -35,9 +45,8 @@ Before you start the Experience Manager Guides 5.2.0 Service Pack 4 upgrade proc
 
 1. Download the Experience Manager Guides package version 5.2.0 Service Pack 4.
 1. Upload the package to your instance by using Package Manager (`/crx/packmgr`).
-1. Install the package. Check that the state of the `fmdita` bundles returns to **Active**.
+1. Install the package. Then verify that the `fmdita` bundles have returned to the **Active** state. You can check the bundle state at `/system/console/bundles`.
 1. Clear your browser cache.
-1. After all bundles are active, test the functionality.
 
 ## Fixed issues
 
@@ -56,3 +65,9 @@ The bugs fixed in various areas are listed below:
 ### Publishing
 
 - When publishing a map while other maps are being exported, the output intermittently uses a lower-quality image format instead of the original vector image. (GUIDES-55221)
+
+## Known issues
+
+Adobe has identified the following known issue for the 5.2.0 Service Pack 4 release:
+
+- When you drag and drop an element at an invalid location, the Editor moves it to the nearest valid position, during which the reference may retain its repository path. Similarly, when you replace an existing reference in a DITA map using drag and drop, the new reference may retain its repository path. (GUIDES-60688)
