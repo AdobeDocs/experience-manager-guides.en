@@ -39,7 +39,7 @@ Learn how to install the Experience Manager Guides 5.2.0 Service Pack 4 release.
 
 ### Prerequisites
 
-Before you start the Experience Manager Guides 5.2.0 Service Pack 4 upgrade process ensure that you are using version 5.2.0 Service Pack 1.
+Before you start the Experience Manager Guides 5.2.0 Service Pack 4 upgrade process, ensure that you are using version 5.2.0 Service Pack 1.
 
 ### Upgrade process 5.2.0 Service Pack 4 release
 
@@ -58,7 +58,7 @@ The bugs fixed in various areas are listed below:
 
 ### Asset management
 
-- When you overwrite an existing non-DITA asset, such as an image, using the **Overwrite existing file(s)** option, the new version for uploaded image is not created. As a result, output generated using baseline contains the older asset. (GUIDES-59287)
+- When you overwrite an existing non-DITA asset, such as an image, using the **Overwrite existing files** option, the new version for uploaded image is not created. As a result, output generated using baseline contains the older asset. (GUIDES-59287)
 
 - When a non-DITA asset, such as an image, that was migrated from a non-UUID setup to a UUID setup is reverted or branched to another version, its UUID changes. Existing references to the asset no longer resolve, and the image appears broken in the topics that reference it. (GUIDES-58414)
 
