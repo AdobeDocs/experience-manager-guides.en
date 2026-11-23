@@ -25,7 +25,7 @@ Use the following resources when developing custom Java plugins or integrations 
 
 |Release|Java SDK version|Maven Central|Java API reference|
 |---|---|---|----|
-|5.2.0 Service Pack 3 (UUID)|5.2.2|[AEM Guides SDK API 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/)|[Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html)|
+|5.2.0 Service Pack 4 (UUID)|5.2.2|[AEM Guides SDK API 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/)|[Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html)|
 
 For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
 
