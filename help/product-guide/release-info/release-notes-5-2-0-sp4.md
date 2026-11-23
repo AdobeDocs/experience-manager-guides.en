@@ -68,6 +68,6 @@ The bugs fixed in various areas are listed below:
 
 ## Known issues
 
-Adobe has identified the following known issue for the 5.2.0 Service Pack 4 release:
+Adobe has identified the following known issue in the 5.2.0 Service Pack 4 release:
 
 - When you drag and drop an element at an invalid location, the Editor moves it to the nearest valid position, during which the reference may retain its repository path. Similarly, when you replace an existing reference in a DITA map using drag and drop, the new reference may retain its repository path. (GUIDES-60688)
