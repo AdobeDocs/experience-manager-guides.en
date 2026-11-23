@@ -114,7 +114,7 @@ For details, view [Manage output generation process](../user-guide/generate-outp
 
 You can purge output history **By age** (removing entries older than a specified number of days) or **By count** (keeping only a specified number of recent entries).
 
-You can also choose to purge only the output logs while preserving the history entries for audit purposes, or remove both the logs and their associated entries. These options help optimize repository storage while providing greater control over output history purging.
+You can choose to purge only the output logs while preserving the history entries for audit purposes, or remove both the logs and their associated entries. These options help optimize repository storage while providing greater control over output history purging.
 
 For more information, view [Configure auto-purging period for output history](../install-conf-guide/conf-output-generation.md#configure-auto-purging-period-for-output-history-id19aai070v8q).
 
