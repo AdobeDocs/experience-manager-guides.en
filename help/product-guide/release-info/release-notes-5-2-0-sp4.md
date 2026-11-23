@@ -17,7 +17,7 @@ role_v2:
 ---
 # Release notes for the 5.2.0 Service Pack 4 release (November 2026)
 
-This article provides information about the upgrade instructions, Java SDK compatibility, fixed issues and known issues in the 5.2.0 Service Pack 4 release of Adobe Experience Manager Guides.
+This article provides information about the upgrade instructions, Java SDK compatibility, fixed issues, and known issues in the 5.2.0 Service Pack 4 release of Adobe Experience Manager Guides.
 
 ## Java SDK resources
 
@@ -41,7 +41,7 @@ Learn how to install the Experience Manager Guides 5.2.0 Service Pack 4 release.
 
 Before you start the Experience Manager Guides 5.2.0 Service Pack 4 upgrade process, ensure that you are using version 5.2.0 Service Pack 1.
 
-### Upgrade process 5.2.0 Service Pack 4 release
+### Upgrade process for 5.2.0 Service Pack 4 release
 
 1. Download the Experience Manager Guides package version 5.2.0 Service Pack 4.
 1. Upload the package to your instance by using Package Manager (`/crx/packmgr`).
@@ -54,7 +54,7 @@ The bugs fixed in various areas are listed below:
 
 ### Authoring
 
-- When you drag and drop an asset into a map from Explorer panel that has not been refreshed after another author moved that asset, a broken reference is added to the map. (GUIDES-57869)
+- When you drag and drop an asset into a map from the Explorer panel that has not been refreshed after another author moved that asset, a broken reference is added to the map. (GUIDES-57869)
 
 ### Asset management
 
