@@ -32,7 +32,7 @@ The following REST API allows you to work with DITA maps in AEM Guides.
 
 ## Download DITA map with dependents 
 
-A GET method that downloads a DITA map with all its dependents such as referenced topics, sub-maps, images, and DTDs used in the map and topics.
+A GET method that downloads a DITA map with all its dependents such as referenced topics, sub-maps, images, and DTDs used in map and topics.
 
 **Request URL**:
 http://*<aem-guides-server\>*: *<port-number\>*/bin/fmdita/exportditamap
