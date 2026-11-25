@@ -96,6 +96,7 @@ For details on preset configuration options, refer to the [PDF preset configurat
 >[!NOTE]
 >
 >Starting with the 2027.01.0 release of Experience Manager Guides Cloud Service and 5.3 On-Premise release, the Map dashboard will be deprecated for new customers. New customers will use the Map console by default. With the 2027.03.0 release, the Map dashboard will be disabled by default. We recommend using the Map console for map management and publishing going forward. If you still need access to the Map dashboard, please contact the Customer Success team for assistance.
+
 Perform the following steps to create the PDF preset from the map dashboard:
 
 1. In the Assets UI, navigate to and select the DITA map to open it in map dashboard.
