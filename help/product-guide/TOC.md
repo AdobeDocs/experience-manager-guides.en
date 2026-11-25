@@ -603,8 +603,7 @@ breadcrumb-title: AEM Guides Documentation
       - [Configure Find and replace feature for On-Premise](./install-conf-guide/conf-find-replace-on-prem.md)
       - [Index topics in a review task](./install-conf-guide/index-review-tasks.md)
       - [Component mapping for AEM Sites](./install-conf-guide/component-mapping.md)
-      - [Configure template presets for output generation](./install-conf-guide/template-presets-output-generation.md)
-      - {hide-from-toc} [Connect AEM Guides with Guides Knowledge AI](./install-conf-guide/knowledge-ai-connector.md)
+      - [Configure template presets for output generation](./install-conf-guide/template-presets-output-generation.md)      
     - Appendix {#appendix}
       - [Appendix](./install-conf-guide/aemg-appendix.md)   
         
