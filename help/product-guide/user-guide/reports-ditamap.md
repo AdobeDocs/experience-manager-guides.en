@@ -35,7 +35,7 @@ topic_v2:
 
 >[!NOTE]
 >
->Starting with the 2027.01.0 release for Cloud Service and 5.4 release for On-Premise of Experience Manager Guides , the Map dashboard feature will be deprecated for new customers. However, it will remain enabled for existing customers who are already using it. If you want to disable the Map dashboard, contact your Customer Success team. It is recommended that you use the Map console for map management and publishing going forward.
+>Starting with the 2027.01.0 release of Experience Manager Guides Cloud Service and 5.3 On-Premise release, the Map dashboard will be deprecated for new customers. New customers will use the Map console by default. With the 2027.03.0 release, the Map dashboard will be disabled by default. We recommend using the Map console for map management and publishing going forward. If you still need access to the Map dashboard, please contact the Customer Success team for assistance.
 
 Adobe Experience Manager Guides provides your administrators the reporting capabilities to check the overall integrity of the documentation before it is pushed live or made available to end users. DITA map report from the map dashboard in Experience Manager Guides provides valuable information such as the missing topics, topics with missing elements, UUID of referenced topics and media files,and review status of each topic. A detailed individual topic-level report also provides DITA content-related information such as content references and missing images or cross-references.
 
